@@ -14,5 +14,6 @@ After a long time of developing this HUD and taking breaks, I have decided to pu
 ![Captura de pantalla (19)](https://user-images.githubusercontent.com/70734327/168689873-5f15cd07-43fa-4ccf-ba78-9a9242591538.png)
 
 # Credits:
-Inspired by the following HUDS: MagnumHUD, BudHUD, PrismHUD, JxHUD, ToonHUD, RobotoHUD, ProductHUD, SunsetHUD, HexHUD, m0rehud, and many many more HUDS.
-Chill D & Evemena - Beta testing.
+- Inspired by the following HUDS: MagnumHUD, BudHUD, PrismHUD, JxHUD, ToonHUD, RobotoHUD, ProductHUD, SunsetHUD, HexHUD, m0rehud, and many many more HUDS.
+- Chill D & Evemena - Beta testing.
+- JarateKing - His work was my inspiration in my start.
