@@ -1,0 +1,22 @@
+// load the base configuration
+r_decal_cullsize 1
+stuffcmds
+
+alias chud_firstrun "exec hud_firstrun.cfg"
+exec "hud_has_run.txt"
+chud_firstrun
+
+exec "joystick.cfg"
+exec "autoexec.cfg"
+exec user/autoexec
+exec hud_always
+exec hud_optional
+
+startupmenu
+sv_unlockedchapters 99
+
+exec "hud_cfg/all_4plug_cfgs_garm3n.cfg"
+
+//wait 80 ;opentf2options
+exec _MagnumHUD/main
+OpenSteamWorkshopDialog

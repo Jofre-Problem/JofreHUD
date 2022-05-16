@@ -1,0 +1,8 @@
+"ServerBrowserGameTypes.txt"
+{
+	"gametype_1"
+	{
+		"prefix"	"cp_"
+		"name"		"capture point"
+	}
+}

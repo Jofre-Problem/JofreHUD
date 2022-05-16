@@ -1,0 +1,1 @@
+	#base "ui/gamemenu.res"

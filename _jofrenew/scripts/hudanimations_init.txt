@@ -1,0 +1,20 @@
+event LevelInit
+{
+	RunEvent LevelInitAny 0.0
+	RunEvent HudHealthBonusPulseLoop1a	0.0 //want this to run on start but not reset
+}
+event LevelInitAny
+{
+	RunEvent MoveSpecTID 0.0
+	RunEvent ScopeRemoval 0.0
+	RunEvent TIDuberFull 0.0
+	RunEvent DamageAccountAlpha 0.0
+	RunEvent FlashDamageaccountDrop 0.0
+	RunEvent SetHudChatAlpha 0.1
+	
+	RunEvent LevelInitAnyLoop 0.0
+}
+event LevelInitAnyLoop
+{
+	RunEvent LevelInitAny 0.1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"%keywords" "tf"
+	"$basetexture" "vgui\replay\thumbnails\hp\cover"
+	"$translucent" 0
+}

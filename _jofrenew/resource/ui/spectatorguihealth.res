@@ -1,0 +1,137 @@
+"Resource/UI/SpectatorGUIHealth.res"
+{
+	"PlayerStatusHealthImage"
+	{
+		"ypos"			"r-9999"
+	}		
+	"PlayerStatusHealthImageBG"
+	{
+"ypos"			"r-9999"
+	}	
+	"BuildingStatusHealthImageBG"
+	{
+	"ypos"		"r-290"
+	}	
+	"PlayerStatusHealthBonusImage"
+	{
+	"ypos"			"r-9999"
+	}
+	"PlayerStatusHealthValueID"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueID"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"5"
+		"wide"			"654"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Killfeed"
+		"fgcolor"		"W_ColorIcons1"
+	}
+	"PlayerStatusHealthValueID2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueID2"
+		"xpos"			"-40"
+		"ypos"			"420"
+		"zpos"			"5"
+		"wide"			"655"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Killfeed"
+		"fgcolor"		"W_ColorIcons1"
+	}
+	"PlayerStatusHealthValueS"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueS"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"654"
+		"tall"			"20"
+		"visible"		"1"
+		//"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"KillfeedBlur"
+		"fgcolor"		"0 0 0 255"
+	"pin_to_sibling"	"PlayerStatusHealthValueID"
+	}	
+	"PlayerStatusHealthValue2S"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue2S"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"655"
+		"tall"			"15"
+		"visible"		"1"
+		//"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"KillfeedBlur"
+		"fgcolor"		"0 0 0 255"
+		"pin_to_sibling"	"PlayerStatusHealthValueID2"
+	}	
+	"PlayerStatusHealthValueID3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueID3"
+		"xpos"			"0"
+		"ypos"			"1010"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"SpecTargetIDhp"
+		"fgcolor"		"W_ColorIcons1"
+	}
+	"PlayerStatusHealthValue3S"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue3S"
+		"xpos"			"0"
+		"ypos"			"1011"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"SpecTargetIDhp"
+		"fgcolor"		"0 0 0 100"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"8"
+		"xpos_minmode"	"0"
+		"ypos"			"9"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}	
+	"PlayerStatusHealthValue"
+	{
+		"wide"			"0"
+	}							
+}

@@ -1,0 +1,146 @@
+
+event Nothing
+{
+}
+
+
+event InitializeUILayout
+{
+}
+
+
+event OpenMainMenu
+{	
+
+}
+
+event ShowMainMenu
+{
+}
+
+event HideMainMenu
+{
+
+}
+
+event InstantHideMainMenu
+{
+
+}
+
+event OpenMatchmakingBasePanel
+{	
+
+}
+
+event ShowMatchmakingBasePanel
+{
+}
+
+event HideMatchmakingBasePanel
+{
+}
+
+event ShowMatchmakingFooter
+{
+}
+
+event HideMatchmakingFooter
+{
+}
+
+
+event OpenPauseMenu
+{
+}
+
+
+event OpenNewGameDialog
+{
+}
+
+
+event CloseNewGameDialog_OpenMainMenu
+{
+}
+
+
+event CloseNewGameDialog
+{
+}
+
+event OpenLoadSingleplayerCommentaryDialog
+{
+}
+
+event OpenLoadGameDialog
+{
+}
+
+
+event CloseLoadGameDialog_OpenMainMenu
+{
+}
+
+
+event OpenSaveGameDialog
+{
+}
+
+
+event CloseSaveGameDialog_OpenMainMenu
+{
+}
+
+event OpenControllerDialog
+{
+}
+
+
+event CloseControllerDialog_OpenMainMenu
+{
+}
+
+event OpenOptionsDialog
+{
+}
+
+
+event CloseOptionsDialog_OpenMainMenu
+{
+}
+
+
+event Quit
+{
+}
+
+
+
+event CloseQuitDialog_OpenMainMenu
+{
+}
+
+
+event CloseQuitDialog_OpenMatchmakingMenu
+{
+}
+
+	
+event QuitNoConfirm
+{
+}
+
+
+event CloseMatchmakingUI
+{
+}
+
+event OpenAchievementsDialog
+{
+}
+
+
+event CloseAchievementsDialog_OpenMainMenu
+{
+}

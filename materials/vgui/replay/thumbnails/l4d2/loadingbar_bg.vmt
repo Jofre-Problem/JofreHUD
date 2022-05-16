@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	"$baseTexture" "vgui/replay/thumbnails/l4d2/loadingbar_bg"
+$translucent 1
+$ignorez 1
+}

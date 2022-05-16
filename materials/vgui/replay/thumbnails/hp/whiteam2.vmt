@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui\replay\thumbnails\hp\whiteam2"
+	
+	"$vertexcolor"		"1"
+	"$no_fullbright"	"1"
+}

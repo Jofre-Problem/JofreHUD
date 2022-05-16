@@ -1,0 +1,1 @@
+#base "base/filesv1/assetpicker/asset_main.res"

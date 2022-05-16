@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\l4d2/noskill_tank_t"	
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$vertexalpha" "1"	
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+}

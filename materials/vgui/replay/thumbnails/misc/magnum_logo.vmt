@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$translucent"	"1"
+	"$basetexture"	"vgui\replay\thumbnails\misc\magnum_logo"
+	
+	"$vertexcolor"		"0"
+	"$no_fullbright"	"0"
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+}

@@ -1,0 +1,18 @@
+hudanimations_manifest
+{
+	"file"		"scripts/hudanimations.txt"
+	"file"		"_jofrenew/scripts/hudanimations.txt"
+
+	"file"		"_jofrenew/scripts/magnum.txt"
+	"file"		"_jofrenew/scripts/hudanimations_magnum.txt"
+	"file"		"_jofrenew/scripts/hudanimations_extra.txt"
+	"file"		"_jofrenew/scripts/hudanimations_init.txt"
+	"file"		"_jofrenew/resource/ui_overrides/os_ammo_anim.txt"
+	"file"		"_jofrenew/resource/ui_overrides/+nochatbg.txt"
+	"file"		"_jofrenew/resource/ui_overrides/+removescope.txt"
+	"file"		"_jofrenew/resource/ui_overrides/+scoreboardslidein.txt"
+	"file"		"_jofrenew/resource/ui_overrides/+crosshair_in_scoreboard.txt"
+	"file"		"_jofrenew/resource/ui_overrides/+cart_glow.txt"
+
+	"file"		"scripts/hudanimations_tf.txt"
+}

@@ -1,0 +1,26 @@
+//"UnlitGeneric"
+//{
+//	"$basetexture"	"vgui\replay\thumbnails\hp\cover"
+//	
+//	"$vertexcolor"		"1"
+//	"$no_fullbright"	"1"
+//}
+
+"Refract"
+{
+	"%keywords" "tf"
+	"$refractamount" "0.0"
+	"$refracttint" "{140 140 140}"
+	
+	//adds as much blur as possible
+	"$refractblur" "1"
+	"$bluramount" "2"
+
+	"$scale" "[1 1]"
+	"$normalmap" "vgui/replay/thumbnails/hp/cover"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/hp/cover_dx8"
+	}
+}

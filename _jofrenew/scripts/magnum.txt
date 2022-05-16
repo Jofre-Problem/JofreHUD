@@ -1,0 +1,160 @@
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
+	Animate	LowBG xpos "0 0" Linear 0.0	0.0
+	Animate LowBG Bgcolor "99 209 27 255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueID Fgcolor "110 255 25 255" linear 0.0 0.06
+	Animate PlayerStatusHealthValueID2 Fgcolor "110 255 25 255" linear 0.0 0.06
+	Animate PlayerStatusHealthValueID3 Fgcolor "110 255 25 255" linear 0.0 0.06
+	
+//	Animate PlayerStatusHealthValueIDNEW Fgcolor "110 255 25 255" linear 0.0 0.06
+//	Animate PlayerStatusHealthValueIDNEW Fgcolor "110 255 25 255" linear 0.15 0.06
+	
+	Animate	HealthcrossiconOverheal 	Alpha		"255"			Linear 0.0	0.0
+	
+
+	RunEvent LevelInitAny 0.0
+}
+event HudHealthBonusPulseStop
+{
+	Animate LowBG Bgcolor "Blank" Linear 0.0 0.0
+	Animate	LowBG xpos "40 40" Linear 0.0	0.0
+	Animate	HealthcrossiconOverheal 	Alpha		"0"			Linear 0.0	0.0
+	Animate PlayerStatusHealthValueID Fgcolor "236 240 241 255" linear 0.0 0.0001
+	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.0001
+	Animate PlayerStatusHealthValueID3 Fgcolor "236 240 241 255" linear 0.0 0.0001
+
+}
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
+	
+	//for the kunai
+	Animate LowBG Bgcolor "255 255 0 15" Linear 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop1a	0.0 //targetid
+	
+
+	RunEvent LevelInitAny 0.0
+}
+
+event HudHealthDyingPulseLoop1a //idk i don't like this one
+{
+
+	//reformated
+	Animate PlayerStatusHealthValueID Fgcolor "255 95 8 255" linear 0.0 0.06
+	Animate PlayerStatusHealthValueID2 Fgcolor "255 95 8 255" linear 0.0 0.06
+	Animate PlayerStatusHealthValueID3 Fgcolor "255 95 8 255" linear 0.0 0.06
+	
+	Animate PlayerStatusHealthValueIDNEW Fgcolor "255 95 8 255" linear 0.0 0.06
+	Animate PlayerStatusHealthValueIDNEW Fgcolor "255 30 0 255" linear 0.15 0.06
+	
+	Animate PlayerStatusHealthValueID Fgcolor "255 30 0 255" linear 0.15 0.06
+	Animate PlayerStatusHealthValueID2 Fgcolor "255 30 0 255" linear 0.15 0.06
+	Animate PlayerStatusHealthValueID3 Fgcolor "255 30 0 255" linear 0.15 0.06
+	
+
+}
+event HudHealthDyingPulseStop
+{
+	Animate LowBG Bgcolor "Blank" Linear 0.0 0.0
+	
+	Animate PlayerStatusHealthValueID Fgcolor "236 240 241 255" linear 0.0 0.0001
+	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.0001
+	Animate PlayerStatusHealthValueID3 Fgcolor "236 240 241 255" linear 0.0 0.0001
+}
+
+//===========================================
+
+event HudMedicCharged
+{
+	Animate	ChargeMeter 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	1_label 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter1 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter2 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter3 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter4 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	RunEvent HudMedicCharged2 0.0
+}
+
+event HudMedicCharged2
+{
+	Animate	1_label 	Alpha		"255"		Linear 0.0 0.0
+	
+	Animate	1_progress			Alpha		"0"					Accel 0.0 0.0
+	
+	Animate	1_label 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	1_label 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	1_label 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	1_label 	FgColor		"255 25 50 255"		Accel 0.9 0.35
+	Animate	1_label 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	1_label 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	1_label 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate ChargeMeter		Alpha		"255"				Accel 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter 	FgColor		"255 25 50 255"		Accel 0.9 0.35
+	Animate	ChargeMeter 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+//	Animate ChargeMeterBG		Position	"89 0"			Linear 0.3 0.0
+	
+	Animate	ChargeMeter1 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter1 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter1 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter1 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter1 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter1 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter1 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter2 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter2 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter2 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter2 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter2 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter2 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter2 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter3 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter3 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter3 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter3 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter3 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter3 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter3 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter4 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter4 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter4 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter4 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter4 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter4 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter4 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+
+	RunEvent HudMedicChargedLoop	2.1
+
+	RunEvent LevelInitAny 0.0
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged2 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicCharged2 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	Animate	1_label 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"245 245 245 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	1_progress		 	Alpha		"255"					Linear 0.0 0.0001
+//	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
+}

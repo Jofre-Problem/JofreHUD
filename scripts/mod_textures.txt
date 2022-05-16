@@ -1,0 +1,4 @@
+	#base "../_4plug/scripts/mod_textures.txt"
+	#base "../_jofrenew/scripts/mod_textures.txt"
+	#base "../_jofrehud/scripts/mod_textures.txt"
+	#base "../_tf2hud/scripts/mod_textures.txt

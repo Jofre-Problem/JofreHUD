@@ -1,0 +1,15 @@
+#base "../#uni_base/filesv1/cancel/main.res"
+#base "../#uni_base/filesv1/cancel/pincorner3.res"
+#base "../#uni_base/filesv1/cancel/main2.res"
+#base "../#uni_base/filesv1/cancel/def-is0.res"
+#base "../#uni_base/filesv1/cancel/is-west.res"
+#base "../#uni_base/filesv1/cancel/command/close.res"
+#base "../#uni_base/filesv1/cancel/tall-is24.res"
+#base "../#uni_base/filesv1/cancel/label/gameuicancel.res"
+
+#base "ui/base/divider/main.res"
+
+#base "base/filesv1/play/main.res"
+#base "base/filesv1/play/t24.res"
+#base "base/filesv1/play/cmd_play.res"
+#base "base/filesv1/play/pin0.res"

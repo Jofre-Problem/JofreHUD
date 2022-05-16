@@ -1,0 +1,55 @@
+"_jofrehud/resource/motd-code.res"
+{	"SafeMode"	{
+
+
+
+	"PANEL_sourcemod"	{		"ControlName"		"EditablePanel"		"fieldName"		"PANEL_sourcemod"
+		"xpos"			"88"
+		"ypos"			"25"
+		"zpos"			"-3"
+		"wide"			"137"
+		"tall"			"35"
+		//"alpha"			"200"
+		"bgcolor_override"		"W_ColorTheme2"//"W_ColorTheme1"
+		"PaintBackgroundType"	"2"
+	
+		"LogoImage"		{		"ControlName"		"ImagePanel"		"fieldName"		"LogoImage"
+		"xpos"		"5"
+		"ypos"		"5"
+		"wide"		"128"
+		"tall"		"16"
+		"image"		"replay/thumbnails/misc/sourcemod"
+		"scaleImage"		"1"
+		}	
+	}	
+		"sm_help"	{			"ControlName"	"CExImageButton""fieldName"		"sm_help"
+			"xpos"										"-5"
+			"ypos"										"-22"
+			"zpos"										"2"
+			"wide"										"40"
+			"tall"										"10"
+			"labelText"									"sm_help"
+			"font"										"Default"
+			"textAlignment"								"west"
+			"actionsignallevel"	"2"
+			"command"	
+			"engine exec cc_cfg/clear3;sm_help"
+			"pin_to_sibling"	"PANEL_sourcemod"
+		}	
+		"sm_nominate"	{			"ControlName"	"CExImageButton""fieldName"		"sm_nominate"
+			"xpos"										"0"
+			"ypos"										"0"
+			"zpos"										"2"
+			"wide"										"50"
+			"tall"										"10"
+			"labelText"									"sm_nominate"
+			"font"										"Default"
+			"textAlignment"								"west"
+			"actionsignallevel"	"2"
+			"command"	
+			"engine exec sm_nominate"
+		"pin_to_sibling"	"sm_help"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}			
+}}

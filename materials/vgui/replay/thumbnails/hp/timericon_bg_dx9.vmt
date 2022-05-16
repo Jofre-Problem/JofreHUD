@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"%keywords" "tf"
+	"$basetexture" "dev/null"
+	"$translucent" 1
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/hp/timericon_bg_dx8"
+	}
+}

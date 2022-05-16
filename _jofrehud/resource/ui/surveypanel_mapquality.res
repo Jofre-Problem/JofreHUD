@@ -1,0 +1,1 @@
+#base "res_base/SurveyPanel_Base.res"

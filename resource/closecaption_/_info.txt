@@ -1,0 +1,16 @@
+Because directory manipulations you can put some closecaptions in here
+
+run these commands for each different file you want;
+cc_lang "\common"
+cc_lang "\default"
+cc_lang "\utilities"
+cc_lang "\voice"
+
+or magnum_cc_common/default/utilities/voice to also set up captions if they're disabled
+
+to return to the hud's default;
+cc_lang "english"
+
+if you want to add a captions file here, make sure that there is a .txt file with the same name
+even if the .txt file is completely unrelated and has none of the captions, it needs to be there
+the .txt is used to find cc_emit options by tf2, so an actual one would be ideal

@@ -1,0 +1,46 @@
+event MoveSpecTID
+{
+//	Animate CSpectatorTargetID Position "0 -555" Linear 0.0 0.0
+//	Animate CSpectatorTargetID Position "0 -555" Linear 0.0 100.0	
+//	RunEvent MoveSpecTIDLoop 0.1
+}
+event MoveSpecTIDLoop
+{
+//	RunEvent MoveSpecTID 0.1
+}
+
+event DamageAccountAlpha
+{
+//	Animate CDamageAccountPanel Alpha "125" Linear 0.0 0.0
+//	Animate CDamageAccountPanel Alpha "125" Linear 0.0 100.0	
+//	RunEvent DamageAccountAlphaLoop 0.1
+}
+event DamageAccountAlphaLoop
+{
+//	RunEvent MoveSpecTID 0.1
+}
+
+event TIDuberFull
+{
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" linear 0.0 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "180 255 40 40" accel 0.15 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" deaccel 0.15 0.15
+	RunEvent TIDuberFullLoop 0.3
+}
+event TIDuberFullLoop
+{
+	RunEvent TIDuberFull 0.0
+}
+
+event FlashDamageaccountDrop
+{
+	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.0 0.0
+	Animate CDamageAccountPanel EventColor "35 195 255 255" linear 0.05 0.10
+	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.17 0.07
+
+	RunEvent FlashDamageaccountDropLoop 0.3
+}
+event FlashDamageaccountDropLoop
+{
+	RunEvent FlashDamageaccountDrop 0.0
+}

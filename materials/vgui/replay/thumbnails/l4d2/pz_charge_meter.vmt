@@ -1,0 +1,61 @@
+UnlitTwoTexture
+{
+	"$baseTexture" "vgui/replay/thumbnails/l4d2/PZ_charge_meter"
+$texture2 "vgui/replay/thumbnails/l4d2/PZ_charge_meter_motion"
+$translucent 1
+$alpha 1
+$vertexalpha 1
+$ignorez 1
+$no_fullbright 1
+$vertexcolor 1
+$sin_alpha 0
+$sin_scale 0
+$sin_ofs 0
+$sin_rotate 0
+$scale 0.9
+$scale2 1.0
+$scale_ofs 0
+$texoffset "[0 0]"
+$midofs 0.0
+Proxies
+{
+Sine
+{
+resultVar $sin_ofs
+sineperiod 1
+sinemin 0
+sinemax 0
+}
+
+
+
+
+
+
+
+LinearRamp
+{
+rate 31
+initialValue 1
+resultVar $sin_rotate
+}
+Add
+{
+srcVar1 $sin_ofs
+srcVar2 $midofs
+resultVar "$texoffset[0]"
+}
+Add
+{
+srcVar1 $sin_ofs
+srcVar2 $midofs
+resultVar "$texoffset[1]"
+}
+TextureTransform
+{
+rotateVar $sin_rotate
+translateVar $texoffset
+resultVar $texture2transform
+}
+}
+}

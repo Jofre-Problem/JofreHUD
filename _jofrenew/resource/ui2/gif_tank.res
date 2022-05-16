@@ -1,0 +1,15 @@
+"_jofrehud/resource/#jofre/blur_bg.res"
+{
+	"NoSkill"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""NoSkill"
+	"xpos""0"
+	"ypos""0"
+			"wide""42"
+			"tall""o1"
+			"scaleImage""1"
+			"image""replay/thumbnails/l4d2/gif_noskill"
+			"fgcolor""TanDark"
+	}
+}

@@ -1,0 +1,1 @@
+#base "../base/1pluginmenu.res"

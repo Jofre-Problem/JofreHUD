@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui\replay\thumbnails\teamsilhouette"
+	"$vertexalpha" 	"1"
+	"$vertexcolor"	"1"
+	"$distancealpha"		"1"
+	"$softedges"			"1"
+	"$edgesoftnessstart"	.5
+	"$edgesoftnessend"		.46
+	"$scaleedgesoftnessbasedonscreenres" 1
+}

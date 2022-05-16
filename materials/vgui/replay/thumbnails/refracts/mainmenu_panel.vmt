@@ -1,0 +1,11 @@
+"Refract"
+{
+	"%keywords" "tf"
+	"$refractamount" "0.000"
+	"$refracttint" "{255 255 255}"
+	"$refractblur" "1.0"
+	"$bluramount" "10"
+	
+	"$scale" "[1 1]"
+	"$normalmap" "vgui/replay/thumbnails/refracts/blur"
+}

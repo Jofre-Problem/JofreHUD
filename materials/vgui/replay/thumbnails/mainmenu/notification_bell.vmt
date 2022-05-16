@@ -1,0 +1,19 @@
+UnlitGeneric
+{
+	$baseTexture	"vgui\replay\thumbnails\mainmenu\notification_bell"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$vertexalpha" "1"	
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar			$basetexture
+			animatedtextureframenumvar		$frame
+			animatedtextureframerate		30
+		}
+	}
+}

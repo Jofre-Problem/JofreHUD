@@ -1,0 +1,1 @@
+#base "messageboxdialog_base.res"

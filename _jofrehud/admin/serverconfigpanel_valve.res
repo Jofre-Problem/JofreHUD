@@ -1,0 +1,5 @@
+#base "../base/svconfig/sv_allowupload_tab.res"
+#base "../base/svconfig/sv_password.res"
+#base "../base/svconfig/sv_minrate_tab.res"
+#base "../base/svconfig/dod_valve.res"
+#base "../base/svconfig/mp_timelimitlabel_main.res"

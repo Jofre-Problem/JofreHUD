@@ -1,0 +1,12 @@
+#base "../../#uni_base/filesv1/background/bg_main.res"
+#base "../../#uni_base/filesv1/background/bg_vis1.res"
+#base "../../#uni_base/filesv1/background/position/y_0.res"
+#base "../../#uni_base/filesv1/background/position/x_0.res"
+#base "../../#uni_base/filesv1/background/position/wide_f0.res"
+#base "../../#uni_base/filesv1/background/controlname/editable.res"
+
+#base "base/filesv2/tooltippanel/main.res"
+#base "base/filesv2/tooltippanel/ctrl.res"
+#base "base/filesv2/tooltippanel/position/ypos300.res"
+#base "base/filesv2/tooltippanel/position/tall180.res"
+#base "base/filesv2/tooltippanel/position/wide180.res"
