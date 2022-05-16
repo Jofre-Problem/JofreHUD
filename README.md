@@ -1,6 +1,11 @@
 # JofreHUD-Dev
-JofreHUD with bleeding edge changes.
+
 ![JOFREHUD](https://user-images.githubusercontent.com/70734327/168654533-962da930-c1ac-4d8e-bd0b-4979ec710ec6.png)
+
+JofreHUD with bleeding edge changes.
+
+# Description:
+After a long time of developing this HUD and taking breaks, I have decided to publish this HUD (but incomplete). I dont think I will ever finish this HUD with my ideas by this year, so I think this HUD could be useful for other developers. Enjoy!
 
 Screenshots:
 ![Captura de pantalla (9)](https://user-images.githubusercontent.com/70734327/168654616-69af9c9c-501d-4542-bbb6-d9cac749a7e6.png)
