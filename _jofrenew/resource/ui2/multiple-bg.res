@@ -10,7 +10,6 @@
 		"wide"			"30"
 		"tall"			"15"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 
 	"MMBackground1"
 	{

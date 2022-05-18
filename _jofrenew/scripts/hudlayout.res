@@ -2,7 +2,6 @@
 //#base "../spacer.res"
 "Resource\HudLayout.res"
 {
-
 	HudControlPointIcons
 	{
 		"xpos"					"0"

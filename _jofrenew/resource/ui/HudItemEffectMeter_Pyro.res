@@ -1,4 +1,4 @@
-#base "base/HudItemEffectMeter.res"
+#base "HudItemEffectMeter.res"
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
@@ -8,6 +8,6 @@
 	}
 	ItemEffectMeter
 	{
-		"ypos"			"-22"
+		"ypos"			"0"
 	}
 }

@@ -41,11 +41,12 @@
 	}	
 	"MMBackgroundPanel"
 	{
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"160"
 		"wide_minmode"	"75"
 		"tall"			"4"
+		"pin_to_sibling"	"ItemEffectMeter"
 	}						
 }
