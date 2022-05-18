@@ -1,5 +1,8 @@
 
-	#base "../testcheme.res"
+	
+	#base "borders.res"
+	#base "scheme/hp-ammo/file.res"
+	// replaces scheme-res
 	#base "apple.res"
 	#base "../font.res"
 	#base "cs_windows.res"
@@ -12,6 +15,8 @@
 	#base "../!sc/clientscheme.res"
 	#base "clientscheme2.res"
 	#base "clientscheme_unused.res"
+	#base "../testcheme_override.res"
+	#base "../testcheme.res"
 Scheme
 {
 	BaseSettings
@@ -1243,15 +1248,32 @@ Scheme
 		//	"color"					"Blank"
 		//	"image"					"replay/thumbnails/null"
 		}
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+		
 	}
 
 	CustomFontFiles
 	{
-	//	"91"
-	//	{
-	//		"font" "_jofrenew/font/Product Sans.ttf"
-	//		"name" "Product Sans"
-	//	}
+		"91"
+		{
+			"font" "_jofrenew/font/Product Sans.ttf"
+			"name" "Product Sans"
+		}
 	
 		"94"
 		{

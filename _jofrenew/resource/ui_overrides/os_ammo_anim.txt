@@ -1,3 +1,4 @@
+
 event HudLowAmmoPulse
 {
 	Animate LowAmmoTextBG Alpha "255"	Linear 0.0 0.0

@@ -7,6 +7,7 @@ hudanimations_manifest
 	"file"		"_jofrenew/scripts/hudanimations_magnum.txt"
 	"file"		"_jofrenew/scripts/hudanimations_extra.txt"
 	"file"		"_jofrenew/scripts/hudanimations_init.txt"
+	"file"		"_jofrenew/resource/ui_overrides/os_hp_anim.txt"
 	"file"		"_jofrenew/resource/ui_overrides/os_ammo_anim.txt"
 	"file"		"_jofrenew/resource/ui_overrides/+nochatbg.txt"
 	"file"		"_jofrenew/resource/ui_overrides/+removescope.txt"

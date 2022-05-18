@@ -25,7 +25,408 @@
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
 	}		
+	"ScoutButton"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"ScoutButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"54"
+		"tall"							"100"
 
+		labelText				"Ñ"
+		font					"Future30"
+		textAlignment			center
+		textinsety				-2		// tune icon position
+
+		Command				"loadout scout"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released			"vo/scout_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		pin_to_sibling 			"SoldierButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		paintbackground 			0
+	}
+	
+	"SoldierButton"
+	{
+		ControlName				CExButton
+		fieldName				"SoldierButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"	
+
+		labelText				"Ò"
+		font					"Future30"
+		textAlignment			center
+		
+		Command				"loadout soldier"
+		
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released			"vo/soldier_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground 			0	
+		pin_to_sibling 			"PyroButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+	}
+	
+	"PyroButton"
+	{
+		ControlName				CExButton
+		fieldName				"PyroButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"	
+
+		labelText				"c"
+		font					"NewIcons57"
+		textAlignment			center
+
+		Command				"loadout pyro"
+		
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released			"vo/pyro_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground 			0
+		
+		pin_to_sibling 			"DemomanButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+	}
+	
+	"DemomanButton"
+	{
+		ControlName				CExButton
+		fieldName				"DemomanButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"	
+
+		labelText				"d"
+		font					"NewIcons57"
+		textAlignment			center
+		
+		Command				"loadout demoman"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released				"vo/demoman_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		
+		paintbackground 			0
+
+		pin_to_sibling 			"HeavyButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+	}
+	
+	"HeavyButton"
+	{
+		ControlName				CExButton
+		fieldName				"HeavyButton"
+		"xpos"							"c-27"
+		"ypos"							"60"
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"
+		labelText				"e"
+		font					"NewIcons57"
+		textAlignment			center
+		
+		Command						"loadout heavy"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"vo/heavy_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground 			0
+	}
+	
+	"EngineerButton"
+	{
+		ControlName				CExButton
+		fieldName				"EngineerButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+		
+		labelText				"f"
+		font					"NewIcons57"
+		textAlignment			center
+		
+		Command				"loadout engineer"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"vo/engineer_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground 			0
+
+		pin_to_sibling 			"HeavyButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"MedicButton"
+	{
+		ControlName				CExButton
+		fieldName				"MedicButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"		
+		
+		labelText				"g"
+		font					"NewIcons57"
+		textAlignment			center
+		
+		Command				"loadout medic"
+
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"vo/medic_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		
+		paintbackground 			0
+		
+		pin_to_sibling 			"EngineerButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"SniperButton"
+	{
+		ControlName				CExButton
+		fieldName				"SniperButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"	
+
+		labelText				"h"
+		font					"NewIcons57"
+		textAlignment			center
+		
+		Command						"loadout sniper"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released				"vo/sniper_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		
+		paintbackground 			0
+		
+		pin_to_sibling 			"MedicButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"SpyButton"
+	{
+		ControlName				CExButton
+		fieldName				"SpyButton"
+		xpos					7
+		ypos					0
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"	
+
+		labelText				"i"
+		font					"NewIcons57"
+		textAlignment			center
+
+		Command				"loadout spy"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"vo/spy_go01.mp3"
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground 			0
+		
+		pin_to_sibling 			"SniperButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+
+	// #endregion
+
+	// #region CHARINFO BUTTONS 
+		
+	"BackpackButton"
+	{
+		ControlName				CExButton
+		fieldName				"BackpackButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"54"
+		"tall"							"100"
+		
+		font					"NewIcons57"
+		labelText				"["
+		textAlignment			center
+
+		Command				"backpack"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"UI/ButtonClickrelease.wav"
+					"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"				
+		paintbackground			0
+		
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		pin_to_sibling 			"CraftingButton"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
+	}
+	
+	"CraftingButton"
+	{
+		ControlName				CExButton
+		fieldName				"CraftingButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"54"
+		"tall"							"100"
+					"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"		
+		font					"NewIcons57"
+		labelText				"À"
+		textAlignment			center
+
+		Command				"crafting"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"UI/ButtonClickrelease.wav"
+				
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground			0
+		
+		pin_to_sibling 			"ArmoryButton"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"
+	}
+	
+	"ArmoryButton"
+	{
+		ControlName				CExButton
+		fieldName				"ArmoryButton"
+		"xpos"							"c-27"
+		"ypos"							"250"
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"			
+		font					"NewIcons57"
+		labelText				"Á"
+		textAlignment			center
+		
+		Command				"armory"
+		
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"UI/ButtonClickrelease.wav"
+				
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground			0
+
+	}
+	"TradeButton"
+	{
+		ControlName				CExButton
+		fieldName				"TradeButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"54"
+		"tall"							"100"
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"					
+		font					"NewIcons57"
+		labelText				"Ã"
+		textAlignment			center
+
+		Command				"trading"
+
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"UI/ButtonClickrelease.wav"
+				
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+		"pin_to_sibling" 				"ArmoryButton"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		paintbackground			0
+	}	
+	"PaintsButton"
+	{
+		ControlName				CExButton
+		fieldName				"PaintsButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"54"
+		"tall"							"100"
+
+		font					"NewIcons57"
+		labelText				"Â"
+		textAlignment			center
+
+		Command				"paintkit_preview"
+
+		sound_depressed			"UI/ButtonClick.wav"
+		sound_released			"UI/ButtonClickrelease.wav"
+				
+			defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorIconsArmed1"
+
+		paintbackground			0
+				"border_default"				"WBorder_2"
+		"border_armed"					"ReplayHighlightBorder"		
+		pin_to_sibling 			"TradeButton"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+	}
+	
 	//"class_loadout_panel"
 	//	wide					f0
 	//	tall					450		//  411 parent's height
@@ -263,5 +664,121 @@
 	{
 		wide			0
 	}
+	// #endregion
+	
+	// #region DISABLED 
+
+	"scout"
+	{
+		visible			0
+	}
+	"soldier"
+	{
+		visible			0
+	}
+	"pyro"
+	{
+		visible			0
+	}
+	"demoman"
+	{
+		visible			0
+	}	
+	"heavyweapons"
+	{
+		visible			0
+	}
+	"engineer"
+	{
+		visible			0
+	}
+	"medic"
+	{
+		visible			0
+	}
+	"sniper"
+	{
+		visible			0
+	}
+	"spy"
+	{
+		visible			0
+	}
+	"ShowBackpackButton"
+	{
+		ControlName			ImageButton
+		fieldName			"ShowBackpackButton"
+		xpos				9999
+	}
+	"ShowBackpackLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowBackpackLabel"
+		xpos				9999
+	}
+	"ShowCraftingLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowCraftingLabel"
+		xpos				9999
+	}
+	"ShowArmoryButton"
+	{
+		ControlName			ImageButton
+		fieldName			"ShowArmoryButton"
+		xpos				9999
+	}	
+	"ShowArmoryLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowArmoryLabel"
+		xpos				9999
+	}
+	"ShowCraftingButton"
+	{
+		ControlName			ImageButton
+		fieldName			"ShowCraftingButton"
+		xpos				9999
+	}
+	"ShowTradeButton"
+	{
+		ControlName			ImageButton
+		fieldName			"ShowTradeButton"
+		xpos				9999
+	}
+	"ShowTradeLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowTradeLabel"
+		xpos				9999
+	}
+	"ShowPaintkitsButton"
+	{
+		ControlName			ImageButton
+		fieldName			"ShowPaintkitsButton"
+		xpos				9999
+	}
+	"ShowPaintkitsLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowPaintkitsLabel"
+		xpos				9999
+	}
+	"ClassLabel"
+	{
+		ControlName			Label
+		fieldName			"ClassLabel"
+		wide			0
+	}
+	"SelectLabel"
+	{
+		wide			0
+	}	
+	"ItemsLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ItemsLabel"
+		wide			0
+	}	
 	// #endregion
 }

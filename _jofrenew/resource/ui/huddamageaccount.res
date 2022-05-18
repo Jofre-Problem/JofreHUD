@@ -1,5 +1,4 @@
-#base "../uni_base/cexlabel/1.res"
-#base "../uni_base/cexlabel/2.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -17,29 +16,44 @@
 //		"RedRobotScoreColor"	"255 255 255 255"
 //		"BlueRobotScoreColor"	"255 255 255 255"
 		
-		"delta_lifetime"		"2.0"
+		"delta_lifetime"		"5.6"
+		"alpha" "125"
+		"Additive" "1"
 	}
-	"1_label"
+	"DamageAccountLabel"
 	{
-		"font"			"DamageText2"
-		"fgcolor"		"255 215 0 255" //255
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabel"
+		"font"			"DamageText"
+		"fgcolor"		"255 215 0 0" //255
 		"xpos"			"c-50"
 		"ypos"			"c17"
+		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
-		
 	}	
-	"2_label"
+
+	"DamageAccountLabelShadow"
 	{
-		"font"			"DamageText2"
-		"fgcolor"		"0 0 0 255" //150
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelShadow"
+		"font"			"DamageTextShadow"
+		"fgcolor"		"0 0 0 0" //150
+		"xpos"			"c-50"
+		"ypos"			"c18"
 		"zpos"			"-1"
-		"wide"			"101"
+		"wide"			"100"
 		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
 		"textAlignment"	"center"	
-		"labelText"		"%metal%"
-		"pin_to_sibling"	"1_label"
+		"labelText"		"%metal%"	
 	}
+
+
+
 }

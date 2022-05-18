@@ -1,17 +1,23 @@
 event DamagedPlayer
 {
 	StopEvent 	DamageAccountStuff	0.0
-	RunEvent 	DamageAccountStuff      0.01 //lol
+	RunEvent 	DamageAccountStuff      0.1 //lol
 	StopEvent 	HitMarker 	0.0
 	RunEvent 	HitMarker	0.01
+
 }
 event DamageAccountStuff
 {
-//	Animate	First	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
-//	Animate	First	Alpha	"0"		Linear 0.0 1.25 	// tcHitmarker end
+	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
+	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.01 0.0
+	Animate DamageAccountLabel fgcolor "255 215 0 100" linear 0.05 0.2
+	Animate DamageAccountLabel fgcolor "215 215 215 0" Accel 0.3 4.0
+	
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3
+	Animate DamageAccountLabelShadow fgcolor "35 35 35 0" Accel 0.5 5.0
+	
 
-//	Animate	Second	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
-//	Animate	Second	Alpha	"0"		Linear 0.0 1.25 	// tcHitmarker end
 
 }
 event Hitmarker
