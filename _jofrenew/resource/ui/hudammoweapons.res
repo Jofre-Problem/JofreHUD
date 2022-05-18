@@ -264,7 +264,7 @@
 		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"100"
-		"tall"			"35"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ammo%"

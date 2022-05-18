@@ -1,3 +1,4 @@
+#base "../ui2/multiple-bg.res"
 #base "../ui2/testgradient.res"
 //#base "../#jofre/blur_bg.res"
 #base "../ui2/tank.res"
@@ -6,6 +7,18 @@
 #base "../uni_base/cexlabel/2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+		"MMBackgroundPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MMBackgroundPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-19"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		}
 	"testg"
 	{
 //	"tall"	"0"
@@ -22,7 +35,7 @@
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"10"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 	
 	"2_label"
@@ -35,7 +48,7 @@
 		"zpos"			"1"
 		"wide"			"73"
 		"tall"			"10"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 	
 	"MoveInfoLabel"
@@ -50,7 +63,7 @@
 		"zpos"			"1"
 		"wide"			"75"
 		"tall"			"10"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 	
 	"MoveInfo"
@@ -65,7 +78,7 @@
 		"zpos"			"1"
 		"wide"			"73"
 		"tall"			"10"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}	
 	"RotateInfoLabel"
 	{
@@ -83,7 +96,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 	
 	"RotateInfo"
@@ -102,7 +115,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 	
 	"LightInfoLabel"
@@ -121,7 +134,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}
 		"BG23"
 			{
@@ -161,7 +174,8 @@
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
 		"pin_to_sibling"	"BG23"					
-			}						
+			}	
+						
 	"LightInfo"
 	{
 		"ControlName"	"CExLabel"
@@ -178,7 +192,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "W_ColorIcons1"
 	}	
 	"ClassLabel"
 	{

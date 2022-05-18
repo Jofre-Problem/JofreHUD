@@ -10,7 +10,7 @@
 	"wide""f0"
 	"tall""f0"
 //	"image""replay/thumbnails/misc/testgradient"
-	"fillcolor"	"32 32 23 255"
+	"fillcolor"	"W_ColorTheme1"
 	"visible""1"
 	"enabled""1"
 	"scaleimage""1"

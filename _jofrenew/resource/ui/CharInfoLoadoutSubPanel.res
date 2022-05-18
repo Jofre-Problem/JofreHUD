@@ -93,8 +93,8 @@
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"	
 
-		labelText				"c"
-		font					"NewIcons57"
+		labelText				"Ó"
+		font					"Future30"
 		textAlignment			center
 
 		Command				"loadout pyro"
@@ -123,8 +123,8 @@
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"	
 
-		labelText				"d"
-		font					"NewIcons57"
+		labelText				"Ô"
+		font					"Future30"
 		textAlignment			center
 		
 		Command				"loadout demoman"
@@ -152,8 +152,8 @@
 		"tall"							"100"
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"
-		labelText				"e"
-		font					"NewIcons57"
+		labelText					"Õ"
+		font					"Future30"
 		textAlignment			center
 		
 		Command						"loadout heavy"
@@ -176,8 +176,8 @@
 		"wide"							"54"
 		"tall"							"100"
 		
-		labelText				"f"
-		font					"NewIcons57"
+		labelText				"Ö"
+		font					"Future30"
 		textAlignment			center
 		
 		Command				"loadout engineer"
@@ -207,8 +207,8 @@
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"		
 		
-		labelText				"g"
-		font					"NewIcons57"
+		labelText			"×"
+		font					"Future30"
 		textAlignment			center
 		
 		Command				"loadout medic"
@@ -237,8 +237,8 @@
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"	
 
-		labelText				"h"
-		font					"NewIcons57"
+		labelText				"Ø"
+		font					"Future30"
 		textAlignment			center
 		
 		Command						"loadout sniper"
@@ -267,8 +267,8 @@
 				"border_default"				"WBorder_2"
 		"border_armed"					"ReplayHighlightBorder"	
 
-		labelText				"i"
-		font					"NewIcons57"
+		labelText				"Ù"
+		font					"Future30"
 		textAlignment			center
 
 		Command				"loadout spy"

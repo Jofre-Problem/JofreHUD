@@ -40,7 +40,7 @@
 		"fgcolor"		"235 35 35 255"
 		"xpos"			"-58"//-80
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"4"
 //		"wide"			"143" //150
 		"tall"			"34"
 		"visible"		"1"

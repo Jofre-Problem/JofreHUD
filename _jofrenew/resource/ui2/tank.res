@@ -10,7 +10,7 @@
 	"wide""350"
 	"tall""o1"
 //	"wide_minmode"	"200"
-	"image""replay/thumbnails/l4d2/noskill_tank_2"
+	"image""replay/thumbnails/l4d2/noskill_tank_t"
 	"visible""1"
 	"enabled""1"
 	"scaleimage""1"
