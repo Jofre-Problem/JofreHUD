@@ -15,7 +15,8 @@
 	"ItemEffectMeter"
 	{	
 		"xpos"			"-31"
-		"ypos"			"-100"
+		"ypos"			"-160"
+		"ypos_minmode"	"-140"
 		"wide"			"59"
 	}
 	"ItemEffectMeter2"

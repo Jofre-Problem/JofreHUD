@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"W_ColorIcons1"
+		"fgcolor"		"245 245 245 255"
 	}
 	"TargetNameLabelMidS" //healing targetid
 	{	
@@ -194,7 +194,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"W_ColorIcons1"
+		"fgcolor"		"245 245 245 255"
 	}
 	"TargetNameLabelMid2S" // healer targetid
 	{	
@@ -238,7 +238,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"W_ColorIcons1"
+		"fgcolor"		"245 245 245 255"
 	}
 	"1_progress"
 	{

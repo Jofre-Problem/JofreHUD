@@ -127,18 +127,8 @@
 	
 	HudBowCharge
 	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		//"enabled"		"1"
-		"xpos"			"c-15"
-		"ypos"			"c20"
-		"xpos_minmode"	"c-15"
-		"ypos_minmode"	"c20"
-		"wide"			"30"
-		"tall"			"8"
-		"zpos"			"1"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+
+		"tall"			"0"
 	}
 	
 	HudItemEffectMeter

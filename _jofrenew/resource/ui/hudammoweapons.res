@@ -227,7 +227,7 @@
 	"AmmoEverywhereDudeS1"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoEverywhereDude1"
+		"fieldName"		"AmmoEverywhereDudeS1"//AmmoEverywhereDude1
 		"font"			"HealthAndAmmoShadow1"
 		"fgcolor"		"0 0 0 185"
 		"xpos"			"-2457"
@@ -301,7 +301,7 @@
 	"AmmoBlackCover"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoWhiteCover"
+		"fieldName"		"AmmoBlackCover"
 		"xpos"			"88"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -314,7 +314,7 @@
 	"AmmoBlackCover2"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoWhiteCover2"
+		"fieldName"		"AmmoBlackCover2"
 		"xpos"			"88"
 		"ypos"			"25"
 		"zpos"			"5"

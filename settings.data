@@ -26,6 +26,86 @@ GlobalComboBox("Transparent Viewmodels", "Transparent Viewmodel")
 	Off
 	On
 }
+[Name:Remove Scope, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Remove Scope", "Remove Scope")
+{
+	Off
+	On
+}
+[Name:No Chat BG, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("No Chat BG", "No Chat BG")
+{
+	Off
+	On
+}
+[Name:Crosshair on scoreboard, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Crosshair on scoreboard", "Crosshair on scoreboard")
+{
+	Off
+	On
+}
+[Name:Scoreboard Slide, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Scoreboard Slide", "Scoreboard Slide")
+{
+	On
+	Off
+}
+[Name:Cart Glow, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Cart Glow", "Cart Glow")
+{
+	On
+	Off
+}
+
+#if Remove Scope == "On"
+{
+Copy("_4plug/4plug_file/remove-scope/on.txt", "_jofrenew/ui_overrides/remove-scope/file.txt");
+}
+
+#if Remove Scope == "Off"
+{
+Copy("_4plug/4plug_file/remove-scope/off.txt", "_jofrenew/ui_overrides/remove-scope/file.txt");
+}
+
+#if No Chat BG == "On"
+{
+Copy("_4plug/4plug_file/no-chat-bg/on.txt", "_jofrenew/ui_overrides/no-chat-bg/file.txt");
+}
+
+#if No Chat BG == "Off"
+{
+Copy("_4plug/4plug_file/no-chat-bg/off.txt", "_jofrenew/ui_overrides/no-chat-bg/file.txt");
+}
+
+
+#if Crosshair on scoreboard == "On"
+{
+Copy("_4plug/4plug_file/crosshair-score/on.txt", "_jofrenew/ui_overrides/crosshair-score/file.txt");
+}
+
+#if Crosshair on scoreboard == "Off"
+{
+Copy("_4plug/4plug_file/crosshair-score/off.txt", "_jofrenew/ui_overrides/crosshair-score/file.txt");
+}
+
+#if Scoreboard Slide == "On"
+{
+Copy("_4plug/4plug_file/score-slide/on.txt", "_jofrenew/ui_overrides/score-slide/file.txt");
+}
+
+#if Scoreboard Slide == "Off"
+{
+Copy("_4plug/4plug_file/score-slide/off.txt", "_jofrenew/ui_overrides/score-slide/file.txt");
+}
+
+#if Cart Glow == "On"
+{
+Copy("_4plug/4plug_file/cart-glow/on.txt", "_jofrenew/ui_overrides/cart-glow/file.txt");
+}
+#if Cart Glow == "Off"
+{
+Copy("_4plug/4plug_file/cart-glow/off.txt", "_jofrenew/ui_overrides/cart-glow/file.txt");
+}
 #if System Tray Icon == "None"
 {
 Copy("_4plug/4plug_file/system-tray-icon/none.res", "_jofrenew/ui_overrides/system-tray-icon/file.res");

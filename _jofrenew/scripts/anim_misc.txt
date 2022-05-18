@@ -1,0 +1,131 @@
+event MenuOpen
+{
+	StopEvent	MenuClose 0.0 
+
+	// fade in
+	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
+
+	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
+	Animate HudMenu xPos		"0"		Linear 0.0 0.1	
+
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
+	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
+	Animate HudMenu ItemColor		"ItemColor"	Linear 0.05 0.1
+	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
+
+	// Undo any blur
+	Animate HudMenu		Blur		"1"			Linear	0	0
+	
+	RunEvent ScoreboardAnimate 0.0
+	RunEvent ScoreboardCrosshairAnimate 0.0
+	RunEvent LevelInitAny 0.0
+	
+	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
+//	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
+}
+
+event MenuClose
+{	
+	// Hide it
+	Animate HudMenu xPos		"-210" Linear 0.0 0.15
+
+	Animate HudMenu Alpha 		"0" Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+
+	RunEvent LevelInitAny 0.0
+}
+
+event MenuPulse
+{
+//	Animate HudMenu		Blur		"7"			Linear	0.0		0.1
+//	Animate HudMenu		Blur		"2"			Deaccel	0.1		0.1
+//	Animate HudMenu		Blur		"7"			Linear	0.2		0.1
+//	Animate HudMenu		Blur		"2"			Deaccel	0.3		0.1
+//	Animate HudMenu		Blur		"7"			Linear	0.4		0.1
+//	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
+//	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
+	
+	RunEvent MenuClose 0.0
+}
+
+event HasMOTDBlink
+{
+}
+
+event HasMOTDBlinkLoop
+{
+}
+
+event HasMOTDBlinkStop
+{
+}
+event LevelInit
+{
+	RunEvent LevelInitAny 0.0
+	RunEvent HudHealthBonusPulseLoop1a	0.0 //want this to run on start but not reset
+}
+event LevelInitAny
+{
+	RunEvent MoveSpecTID 0.0
+	RunEvent ScopeRemoval 0.0
+	RunEvent TIDuberFull 0.0
+	RunEvent DamageAccountAlpha 0.0
+	RunEvent FlashDamageaccountDrop 0.0
+	RunEvent SetHudChatAlpha 0.1
+	
+	RunEvent LevelInitAnyLoop 0.0
+}
+event LevelInitAnyLoop
+{
+	RunEvent LevelInitAny 0.1
+}
+event MoveSpecTID
+{
+//	Animate CSpectatorTargetID Position "0 -555" Linear 0.0 0.0
+//	Animate CSpectatorTargetID Position "0 -555" Linear 0.0 100.0	
+//	RunEvent MoveSpecTIDLoop 0.1
+}
+event MoveSpecTIDLoop
+{
+//	RunEvent MoveSpecTID 0.1
+}
+
+event DamageAccountAlpha
+{
+//	Animate CDamageAccountPanel Alpha "125" Linear 0.0 0.0
+//	Animate CDamageAccountPanel Alpha "125" Linear 0.0 100.0	
+//	RunEvent DamageAccountAlphaLoop 0.1
+}
+event DamageAccountAlphaLoop
+{
+//	RunEvent MoveSpecTID 0.1
+}
+
+event TIDuberFull
+{
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" linear 0.0 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "180 255 40 40" accel 0.15 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" deaccel 0.15 0.15
+	RunEvent TIDuberFullLoop 0.3
+}
+event TIDuberFullLoop
+{
+	RunEvent TIDuberFull 0.0
+}
+
+event FlashDamageaccountDrop
+{
+	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.0 0.0
+	Animate CDamageAccountPanel EventColor "35 195 255 255" linear 0.05 0.10
+	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.17 0.07
+
+	RunEvent FlashDamageaccountDropLoop 0.3
+}
+event FlashDamageaccountDropLoop
+{
+	RunEvent FlashDamageaccountDrop 0.0
+}
