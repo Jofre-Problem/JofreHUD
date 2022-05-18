@@ -136,45 +136,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "W_ColorIcons1"
 	}
-		"BG23"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG23"
-				"xpos"			"cs-0.5-3"
-				"ypos"			"43"
-				"wide"			"100"
-				"tall"			"15"
-				"paintbackground"	"1"
-				"bgcolor_override"	"71 71 71 255"
-			}	
-		"BG23_1"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG23_1"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"15"
-				"tall"			"15"
-				"paintbackground"	"1"
-				"bgcolor_override"	"213 196 161 255"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"BG23"					
-			}	
-		"BG23_2"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG23_2"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"15"
-				"tall"			"15"
-				"paintbackground"	"1"
-				"bgcolor_override"	"213 196 161 255"
-		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
-		"pin_to_sibling"	"BG23"					
-			}	
+
 						
 	"LightInfo"
 	{
@@ -214,25 +176,30 @@
 		fieldName					"TauntLoadoutButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		zpos							2000
-		wide							15
-		tall							15
+		wide							25
+		tall							25
 		visible						1
 		enabled						1
 		
 		labelText					"`"
 		font							"NewIcons10"
-		textAlignment				west
+		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"	
 		Command						"tauntloadout"
 				
-		defaultFgColor_override 	"31 34 34 255"
-		armedFgColor_override 		"W_BorderArmed"
+	//	defaultFgColor_override 	"31 34 34 255"
+	//	armedFgColor_override 		"W_BorderArmed"
 		
-		paintbackground				0
+		"paintbackground"	"0"
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonDefault"
+		"border_depressed"	"ButtonDefault"
+		
+		"pin_to_sibling" "loadout_preset_panel"
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 
-		"pin_to_sibling"	"BG23_1"
 			
 	}	
 	"CharacterLoadoutButton"
@@ -241,26 +208,32 @@
 		fieldName					"CharacterLoadoutButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		zpos							2000
-		wide							15
-		tall							15
+		"border_default"	"ButtonDefaultLight"
+		"border_armed"		"ButtonDefault"
+		"border_depressed"	"ButtonDefault"
+		
+		"pin_to_sibling" "loadout_preset_panel"
+		"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
+
+		wide							25
+		tall							25
 		visible						1
 		enabled						1
 
 		labeltext					"["
 		font							"NewIcons10"
-		textAlignment				west
+		textAlignment				center
 
 		Command						"characterloadout"
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"
 		
-		defaultFgColor_override 	"31 34 34 255"
-		armedFgColor_override 		"W_BorderArmed"
+	//	defaultFgColor_override 	"31 34 34 255"
+	//	armedFgColor_override 		"W_BorderArmed"
 		
 		paintbackground				0
-"pin_to_sibling"	"BG23_2"
 
 	}							
 	"tank"
@@ -331,15 +304,21 @@
 			"xpos"			"2"
 			"ypos"			"2"
 			"zpos"			"1"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"14"
+			"tall"			"o1"
 			"autoResize"	"0"
-			"textinsety"	"-2"
 			"font"	"NewIcons12"
-			"labeltext"	"!"
-
+			"textAlignment"		"center"
+			"centerwrap"	"1"
+			"labeltext"	"o"
+			"border_default"		"ButtonDefaultLight"
+			"border_armed"			"ButtonHoverLight"
+			"paintborder"	"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+						"defaultBgColor_override" 	"46 43 42 0"
+			"armedBgColor_override" 	"46 43 42 0"
+			"depressedBgColor_override" "46 43 42 0"
 		}
 	}
 

@@ -1,3 +1,4 @@
+	#base "../_jofrenew/ui_overrides/transparent-viewmodel/file.res"
 	#base "../_4plug/scripts/hudlayout.res"
 	#base "../_jofrenew/scripts/hudlayout.res"
 	#base "../_jofrehud/scripts/hudlayout.res"

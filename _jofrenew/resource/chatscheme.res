@@ -62,53 +62,54 @@ Scheme
 
 	Fonts
 	{
+
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"			"Open Sans Bold"
+				"name"			"Product Sans"
 				"tall"			"14"
 				"yres"			"480 599"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 
 			"2"
 			{
-				"name"			"Open Sans Bold"
-				"tall"			"15"
+				"name"			"Product Sans"
+				"tall"			"16"
 				"yres"			"600 767"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 
 			"3"
 			{
-				"name"			"Open Sans Bold"
-				"tall"			"19"
+				"name"			"Product Sans"
+				"tall"			"18"
 				"yres"			"768 1023"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 
 			"4"
 			{
-				"name"			"Open Sans Bold"
-				"tall"			"20"
+				"name"			"Product Sans"
+				"tall"			"18"
 				"yres"			"1024 1199"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 				"antialias"		"1"
 			}
 
 			"5"
 			{
-				"name"			"Open Sans Bold"
-				"tall"			"23"
+				"name"			"Product Sans"
+				"tall"			"22"
 				"yres"			"1200 10000"
-				"dropshadow"	"1"
+				"dropshadow"	"0"
 				"antialias"		"1"
 			}
-		}		
+		}	
 	}	
 	Borders
 	{
@@ -129,14 +130,9 @@ Scheme
 	{		
 		"78"
 		{
-			"font" "_jofrenew/font/optimized/OpenSans-Regular.ttf"
-			"name" "Open Sans"
+			"font" "_jofrenew/font/Product Sans.ttf"
+			"name" "Product Sans"
 		}
-		"79"
-		{
-			"font" "_jofrenew/font/optimized/OpenSans-Bold.ttf"
-			"name" "Open Sans Bold"
-		}	
 		
 	}	
 }	

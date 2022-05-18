@@ -5,3 +5,56 @@ Banner("_4plug/4plug_images/managers/thumbnailBanner.png", "auto", "topleft");
 Banner("_4plug/4plug_images/managers/thumbnailBanner_v2.png", "auto", "topleft");
 
 Banner("_4plug/4plug_images/color_seccion.png", "auto", "topleft");
+
+[Name:System Tray Icon, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("System Tray Icon", "System Tray Icon")
+{
+	None
+	Rainbow Box
+	Apple
+}
+[Name:Server Plugin Font, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Server Plugin Font", "Server Plugin Font")
+{
+	Default
+	TF2
+	Product Sans
+}
+[Name:Transparent Viewmodels, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Transparent Viewmodels", "Transparent Viewmodel")
+{
+	Off
+	On
+}
+#if System Tray Icon == "None"
+{
+Copy("_4plug/4plug_file/system-tray-icon/none.res", "_jofrenew/ui_overrides/system-tray-icon/file.res");
+}
+#if System Tray Icon == "Rainbow Box"
+{
+Copy("_4plug/4plug_file/system-tray-icon/rainbow.res", "_jofrenew/ui_overrides/system-tray-icon/file.res");
+}
+#if System Tray Icon == "Apple"
+{
+Copy("_4plug/4plug_file/system-tray-icon/apple.res", "_jofrenew/ui_overrides/system-tray-icon/file.res");
+}
+#if Server Plugin Font == "Default"
+{
+Copy("_4plug/4plug_file/center-print-text/def.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
+#if Server Plugin Font == "TF2"
+{
+Copy("_4plug/4plug_file/center-print-text/tf2.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
+#if Server Plugin Font == "Product"
+{
+Copy("_4plug/4plug_file/center-print-text/product.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
+#if Transparent Viewmodels == On"
+{
+Copy("_4plug/4plug_file/transparent-viewmodel/on.res", "_jofrenew/ui_overrides/transparent-viewmodel/file.res");
+}
+#if Transparent Viewmodels == "Off"
+{
+Copy("_4plug/4plug_file/transparent-viewmodel/off.res", "_jofrenew/ui_overrides/transparent-viewmodel/file.res");
+}

@@ -58,11 +58,12 @@ Scheme
 		ReplayBrowser.BgColor					"W_ColorTheme1"		
 		Replay.RenderDialog.BgColor							"W_ColorTheme1"
 
-		Button.TextColor								"PolyIconsFg1"
-		Button.BgColor									"0 0 0 165"
-		Button.ArmedTextColor							"45 245 245 235"
+		Button.TextColor								"240 240 240 255"
+		Button.BgColor									"27 27 27 255"
+		Button.ArmedTextColor							"240 240 240 255"
 		Button.ArmedBgColor								"255 255 255 16"
-		Button.SelectedTextColor						"45 245 245 235"
+		Button.SelectedTextColor						"240 240 240 255"
+	//  hover button, took me 30 min to find
 		Button.SelectedBgColor							"255 255 255 16"
 		Button.DepressedTextColor						"245 245 245 180"
 		Button.DepressedBgColor							"255 255 255 16"
@@ -595,27 +596,7 @@ Scheme
 				"antialias" 	"1"
 				"wide"		"300"
 			}
-		}
-		"huh14"
-		{
-			"1"
-			{
-				"name"		"Boring Lesson"
-				"tall"		"14"
-				"antialias" 	"1"
-				
-			}
-		}	
-		"huh18"
-		{
-			"1"
-			{
-				"name"		"BIGARIAL UltraBold"
-				"tall"		"18"
-				"antialias" 	"1"
-				
-			}
-		}															
+		}														
 		"Future14"
 		{
 			"1"
@@ -680,6 +661,16 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}	
+		"Class30"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"30"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}		
 "Journal20"
 {
 "1"
@@ -1315,16 +1306,11 @@ Scheme
 		{
 			"font" "_jofrenew/font/JotSpInvertedRegular-ZBem.ttf"
 			"name" "Jot Sp Inverted Regular"
-		}	
-		"103"
+		}			
+		"104" 
 		{
-			"font" "_jofrenew/font/BoringLesson.ttf"
-			"name" "Boring Lesson"
-		}
-		"104"
-		{
-			"font" "_jofrenew/font/BIGARIAL.ttf"
-			"name" "BIGARIAL UltraBold"
-		}									   		     		
+			"font" "_jofrenew/font/HudasIscariote2.otf"
+			"name" "Hudas Iscariote"
+		}							   		     		
 	}	
 }

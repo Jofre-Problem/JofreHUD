@@ -37,18 +37,7 @@ Scheme
 				"italic"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
-		}			
-		"CenterPrintText"
-		{
-			"1"
-			{
-				"name" "Open Sans"
-				"tall"		"15"
-				"weight"	"250"
-				"antialias" "1"
-				"additive"	"1"				
-			}
-		}		
+		}				
 		"DamagetextShadow"
 		{
 			"1"

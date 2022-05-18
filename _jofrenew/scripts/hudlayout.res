@@ -1,4 +1,3 @@
-#base "../resource/ui_overrides/-transparent.res"
 #base "../uni_base/panel/1.res"
 //#base "../spacer.res"
 "Resource\HudLayout.res"
@@ -356,11 +355,9 @@
 	\\ Engineer
 	BuildingStatus_Engineer
 	{
-		"xpos"		"-8"
+		"xpos"		"0"
 		"ypos"		"0"
-		//"ypos_hidef"		"0"
-		//"ypos_lodef"		"0"
-		"wide"		"f0"
+		"wide"		"640"
 		"tall"		"480"
 		
 	}

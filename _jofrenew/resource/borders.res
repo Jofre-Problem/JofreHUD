@@ -2,6 +2,161 @@ Scheme
 {
 		Borders
 	{	
+		ButtonDefault
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"27 27 27 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonHover
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"255 152 0 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonDefaultLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"64 64 64 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonHoverLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"255 152 0 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonDefaultGrey
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGrey"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonHoverGrey
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGreyHover"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonDefaultGray
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGray"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonHoverGray
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"ButtonBGColorGrayHover"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+		
+		ButtonBlueTeam
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"33 150 243 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonBlueTeamDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"25 118 210 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonRedTeam
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"244 67 54 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}
+		
+		ButtonRedTeamDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"211 47 47 255"
+			
+			"image"					"replay/thumbnails/MaterialPanel"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"		
+		}		
 		Rice1
 		{
 			"inset" "0 0 1 1"
@@ -175,7 +330,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Black"
+			"color"					"18 18 18 255"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"32"

@@ -1,12 +1,20 @@
-#base "../../ui2/testgradient.res"
+#base "../../ui2/multiple-bg.res"
 #base "../../ui2/tank.res"
 
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"NoSkill"
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-300"
+		"wide"			"f0"
+		"tall"			"f0"
+	}		
+	"Tank"
 	{
 	
-	"ypos""70"
+	"ypos""120"
 	}
 "backpack_panel"
 {
@@ -69,7 +77,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""New"
-"font""FontStorePrice"
+"font""Noto10"
 "textAlignment""east"
 
 
@@ -81,7 +89,7 @@
 
 "visible""0"
 
-"labelText""#Store_Price_New"
+"labelText""NEW"
 "mouseinputenabled" "0"
 "paintbackground""0"
 "proportionaltoparent""1"
@@ -125,25 +133,26 @@
 {
 "ControlName""CExLabel"
 "fieldName""New"
-"font""FontStorePrice"
-"textAlignment""east"
-"xpos""rs1"
-
+"font""NewIcons20"
+"textAlignment""center"
+"xpos""3"
+"ypos"	"3"
 "zpos""15"
-"wide""25"
-"tall""12"
+"wide""48"
+"tall""36"
 "textinsetx""8"
 
 "skip_autoresize""1"
 
 "visible""0"
 
-"labelText""#Store_Price_New"
+"labelText"	"Å"
 "mouseinputenabled" "0"
-"paintbackground""0"
+"paintbackground""1"
 "proportionaltoparent""1"
-"border""StoreNewBorder"
-"fgcolor""10 10 10 255"
+"border""noBorder"
+"fgcolor""W_colorIcons1"
+"bgcolor_override"	"0 0 0 200"
 }
 
 "use_item_sounds""1"

@@ -19,3 +19,6 @@ EXPERIMENTAL Scoreboard Slide In|OFF
 EXPERIMENTAL Scope Removal|OFF
 EXPERIMENTAL Square Shadows|OFF
 Damage Indicator|Stock
+System Tray Icon|None
+Server Plugin Font|TF2
+Transparent Viewmodels|On

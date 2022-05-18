@@ -7,7 +7,7 @@
 	"xpos""rs1"
 	"ypos""rs1"
 	"zpos""-5"
-	"wide""350"
+	"wide""300"
 	"tall""o1"
 //	"wide_minmode"	"200"
 	"image""replay/thumbnails/l4d2/noskill_tank_t"
