@@ -190,7 +190,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				//"antialias" 	"1"
 			}
@@ -202,7 +202,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				//"antialias" 	"1"
 			}
@@ -299,7 +299,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				//"antialias" 	"1"
 			}

@@ -2370,7 +2370,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
@@ -2414,7 +2414,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
@@ -2944,7 +2944,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
@@ -2971,7 +2971,7 @@ Scheme
 				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
-				"blur"		"3"
+				//"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
 			}
