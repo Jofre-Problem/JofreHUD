@@ -15,25 +15,8 @@
 	}
 
 	"Title"
-	{
-		"ControlName"								"Label"
-		"fieldName"									"Title"
-		"xpos"										"cs-0.5"
-		"ypos"										"55"
-		"zpos"										"99"
-		"wide"										"0"				//f0
-		"tall"										"50"
-		"proportionaltoparent"						"1"
-		"labeltext"									"Find a Game"
-		"textAlignment"								"center"
-		"wrap"										"0"
-		"centerwrap"								"0"
-		"font"										"CustomOctavo"
-		"fgcolor_override"							"White"
-		"alpha"										"10"
-		"AllCaps"									"1"
-		
-		"mouseinputenabled"							"0"
+	{	
+		"tall"										"0"
 	}
 
 	"playlist"
@@ -51,24 +34,11 @@
 
 	"PlayListDropShadow"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PlayListDropShadow"
-		"xpos"										"9999"
+		"wide"										"0"
 	}
 	
 	"DashboardDimmer"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"DashboardDimmer"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"zpos"										"0"
 		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"PaintBackgroundType"						"0"
-		"border"									"noborder"
-		"proportionaltoparent"						"1"
-		"mouseinputenabled"							"0"
 	}
 }

@@ -36,12 +36,12 @@ Scheme
 		Econ.Button.PresetDefaultColorBg					"blank"
 		Econ.Button.PresetArmedColorBg						"blank"
 		Econ.Button.PresetDepressedColorBg					"blank"
-		TextEntry.TextColor			"193 175 75 255"
+		TextEntry.TextColor			"W_ColorIcons1"
 		TextEntry.BgColor			"W_ColorTheme2"
 		TextEntry.DisabledTextColor	"W_ColorIcons1"
 		TextEntry.DisabledBgColor	"W_ColorTheme3"
-		TextEntry.SelectedTextColor	"W_ColorIcons1"
-		TextEntry.SelectedBgColor	"W_ColorTheme1"
+		TextEntry.SelectedTextColor	"W_ColorTheme1"
+		TextEntry.SelectedBgColor	"W_ColorIcons1"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"	
 		TextEntry.CursorColor		"W_ColorIcons1"
@@ -1137,7 +1137,20 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"
-		}						
+		}	
+		B_Theme1
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "W_ColorTheme1"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}								
 		B_BArmed
 		{
 			"bordertype"			"scalable_image"

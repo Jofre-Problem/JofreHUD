@@ -394,7 +394,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_BorderArmed"   //
+			"color" "32 32 32 255"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -1644,12 +1644,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "W_BorderArmed"
+					"color""69 64 57 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "W_BorderArmed"
+					"color" "69 64 57 255"
 					"offset" "1 2"
 				}
 			}

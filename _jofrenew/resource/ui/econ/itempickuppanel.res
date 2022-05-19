@@ -16,23 +16,25 @@
 		"outoffocus_bgcolor_override" 	"blank"
 		
 	}
+"ItemsFoundLabel"
+{
+"font""Noto30"
+"labelText""#NewItemsAcquired"
+"textAlignment""center"
+"fgcolor_override"	"W_ColorTheme1"
+}	
 	"ValveAreDumb"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ValveAreDumb"
-		"font"			"Noto12"
+		"font"			"Noto10"
 		"labelText"		"Having problems getting out of this menu? Press the Enter Key on your keyboard to exit!"
 		"textAlignment"	"east"
 		"xpos"			"rs1"
-		"ypos"			"41"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textinsetx"	"12"
-		"fgcolor_override"	"GreyLight"
+		"fgcolor_override"	"W_ColorTheme1"
 	}
 }

@@ -6,9 +6,9 @@
 	{
 		"fieldName"									"CasualCriteria"
 		"xpos"										"r0"
-		"ypos"										"24"
-		"zpos"										"1001"
-		"wide"										"f20"
+		"ypos"										"0"
+		"zpos"										"4000"
+		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
@@ -35,52 +35,23 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"0"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"
-		"image"										"replay/thumbnails/l4d2/scoreboardbg"//"../console/background_upward"//"replay/thumbnails/mm_menu/casualbg"
+	//	"fillcolor"			"64 64 64 200"
+	//	"image"										"replay/thumbnails/l4d2/scoreboardbg"//
+	
+	"image""replay/thumbnails/mm_menu/casualbg"
 	}
 	
 	"Title"
 	{
-		"ControlName"								"CexLabel"
-		"fieldName"									"Title"
-		"xpos"										"30"
-		"ypos"										"5"
-		"zpos"										"99"
 		"wide"										"0"		//500
-		"tall"										"50"
-		"proportionaltoparent"						"1"
-		"labeltext"									"Casual"
-		"textAlignment"								"center"
-		"font"										"CustomOctavo"
-		"fgcolor"									"Gray"
-		"AllCaps"									"1"
-		"mouseinputenabled"							"0"
 	}
 	"Description"
 	{
-		"ControlName"								"CexLabel"
-		"fieldName"									"Description"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"99"
-		"wide"										"0"		//400
-		"tall"										"70"
-		"proportionaltoparent"						"1"
-		"labeltext"									"Play a match of TF2 with other players in a game mode of your choosing"
-		"textAlignment"								"west"
-		"wrap"										"1"
-		"centerwrap"								"0"
-		"font"										"CustomQuinto"
-		"fgcolor"									"White"
-		"AllCaps"									"0"
-		"mouseinputenabled"							"0"
-
-		"pin_to_sibling" 							"Title"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_BOTTOMLEFT"
+		"tall"										"0"
 	}
 
 	"ToolTipButtonHack"

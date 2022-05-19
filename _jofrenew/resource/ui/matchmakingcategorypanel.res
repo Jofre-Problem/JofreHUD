@@ -195,8 +195,6 @@
 
 	"PlayListDropShadow"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PlaylistBGPanel"
-		"xpos"										"9999"
+		"wide"										"0"
 	}
 }

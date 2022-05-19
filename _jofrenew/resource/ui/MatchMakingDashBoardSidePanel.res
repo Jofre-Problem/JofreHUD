@@ -68,7 +68,7 @@
 			"labelText"								"n"
 		}
 
-		"ypos"										"0"
+		"ypos"										"-25"
 		"zpos"										"10000"
 		"wide"										"20"
 		"tall"										"f0"

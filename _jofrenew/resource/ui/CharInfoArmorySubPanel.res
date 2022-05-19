@@ -1,15 +1,25 @@
 //#base "../#jofre/blur_bg.res"
 //#base "../#jofre/char_tank.res"
-#base "../#jofre/charbg.res"
-"Resource/UI/CharInfoArmorySubPanel.res"
+//#base "../#jofre/charbg.res"
+#base "../ui2/tank.res"
+#base "../ui2/multiple-bg.res"
+"Resource/UI/CharInfoPanel.res"
 {
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-19"
+		"wide"			"f0"
+		"tall"			"f0"
+		}	
 	"armory_panel"
 	{
 		ControlName				Frame
 		fieldName				"armory_panel"
-		ypos					60
+		ypos					0
 		wide					f0
-		tall					411
+		tall					f0
 		settitlebarvisible		0
 		paintBackground			0
 
@@ -23,7 +33,7 @@
 		"thumbnails_columns"			"4"
 		
 		"thumbnails_x"					"c-283"
-		"thumbnails_y"					"31"
+		"thumbnails_y"					"90"
 		"thumbnails_delta_x"			"7"
 		"thumbnails_delta_y"			"7"
 		
@@ -63,14 +73,14 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"ItemsBG"
 		"xpos"							"c-295"
-		"ypos"							"0"
+		"ypos"							"60"
 		"zpos"							"-1"
 		"wide"							"290"
 		"tall"							"290"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"0"
-		"border"						"B_CIcons1"
+		"border"						"noborder"
 	}
 	
 	"ArmoryLabel"
@@ -121,7 +131,7 @@
 		"tall"							"20"
 		"visible"						"1"
 		"enabled"						"1"
-		"border"						"B_BArmed"
+		"border"						"noborder"
 		
 		"pin_to_sibling" 				"FilterComboBox"
 	}
@@ -153,9 +163,10 @@
 		
 		"paintbackground"				"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+	"defaultFgColor_override" 		"W_ColorTheme1"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"W_ColorTheme1"
+		
 		
 		
 		"pin_to_sibling" 				"ItemsBG"
@@ -189,7 +200,7 @@
 		"pinCorner"						"0"
 		"visible"						"1"
 		"enabled"						"1"
-		"fgcolor_override" 				"Blue"
+		"fgcolor_override" 				"W_ColorTheme1"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
@@ -223,12 +234,10 @@
 		
 		"paintbackground"				"0"
 		
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"White"
-		"depressedFgColor_override"		"White"
+	"defaultFgColor_override" 		"W_ColorTheme1"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"W_ColorTheme1"
 		
-				"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
@@ -250,14 +259,14 @@
 		"ControlName"					"EditablePanel"
 		"fieldName"						"DataPanel"
 		"xpos"							"c20"
-		"ypos"							"30"
+		"ypos"							"90"
 		"zpos"							"0"
 		"wide"							"0"
 		"tall"							"0"
 		"visible"						"1"
 		"PaintBackgroundType"			"0"
 		"paintborder"					"1"
-		"border"						"StorePreviewBorder"
+		"border"						"noborder"
 
 		"Data_TextRichText"
 		{
@@ -300,7 +309,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"0"
-		"border"						"B_BArmed"
+		"border"						"GrayDialogBorder"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -431,11 +440,8 @@
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		
-				"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"
-		
 		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"White"
+		"armedFgColor_override" 		"W_borderarmed"
 		"depressedFgColor_override" 	"White"
 		
 		"pin_to_sibling" 				"DescriptionBG"
@@ -468,11 +474,8 @@
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		
-				"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"
-		
 		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"White"
+		"armedFgColor_override" 		"W_borderarmed"
 		"depressedFgColor_override" 	"White"
 		
 		"pin_to_sibling" 				"DescriptionBG"
@@ -507,11 +510,9 @@
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 		
-				"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"
 		
 		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"White"
+		"armedFgColor_override" 		"W_ColorTheme1"
 		"depressedFgColor_override" 	"White"
 		
 		"pin_to_sibling" 				"DescriptionBG"

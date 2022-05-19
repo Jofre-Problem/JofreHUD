@@ -4,7 +4,7 @@ Scheme
 	Colors
 	{
 		//--------------------------------Windows :)
-		"W_BorderArmed"	"204 135 41 255"
+		"W_BorderArmed"	"255 152 0 255"
 		"W_CerrarArmed"	"255 64 64 255"
 
 	//	"W_ColorTheme1"	"238 238 238 255"	//barra

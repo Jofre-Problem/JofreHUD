@@ -36,6 +36,8 @@ Scheme
 		ScrollBarSlider.BgColor								"blank"
 		ScrollBar.Wide					"6"
 		ScrollBarButton.FgColor					"Blank"	
+		TextEntry.SelectedTextColor	"69 64 57 255"
+		TextEntry.SelectedBgColor	"210 210 210 255"
 		}
 
    		Borders
@@ -45,7 +47,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/circle"
+			"image"					"replay/thumbnails/mm/circle"
 			
 			"src_corner_height"		"0"				// pixels inside the image
 			"src_corner_width"		"0"
@@ -58,7 +60,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/circle"
+			"image"					"replay/thumbnails/mm/circle_rgb"
 			
 			"src_corner_height"		"0"				// pixels inside the image
 			"src_corner_width"		"0"

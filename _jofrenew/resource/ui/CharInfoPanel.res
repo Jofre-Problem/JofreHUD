@@ -45,7 +45,7 @@
 		"wide""25"
 			"tall""o1"
 		"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"	
+		"border_armed"					"GrayDialogBorder"	
 	}		
 	"BackButtonQKey"
 	{
@@ -144,7 +144,7 @@
 		ControlName				CNotificationsPresentPanel
 		fieldName				"NotificationsPresentPanel"
 		xPos					0
-		yPos					70
+		yPos					50
 		zPos					10000
 		wide					f0
 		tall					30
