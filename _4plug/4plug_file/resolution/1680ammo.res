@@ -2,7 +2,7 @@
 {
 	"AmmoEverywhereDudeDoubleLow"
 	{
-		"xpos"			"-80"
-		"wide"			"150"
+		"xpos"			"-60"
+		"wide"			"143"
 	}
 }

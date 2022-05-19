@@ -91,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"north-west"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -116,19 +116,18 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"r210"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-80"
 		"zpos"			"6"
-		"wide"			"200"
-		"tall"			"52"
+		"wide"			"150"
+		"tall"			"28"
 		"labelText"		"CONTINUE"//"→"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
 		"font"			"NotoBold28"
 		
 		"fgcolor"		"NotoMenuText"
-		
 		"defaultFgColor_override" "NotoMenuText"
 		"armedFgColor_override" "NotoMenuText2"
 		"depressedFgColor_override" "NotoMenuText2"

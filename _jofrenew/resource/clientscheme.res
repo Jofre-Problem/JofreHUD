@@ -298,42 +298,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"antialias"	"1"
 
 			}
 			"2"
 			{
-				"name"	"Open Sans Bold"
+				"name"	"Product Sans"
 				"tall"		"13"		"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"	"Open Sans Bold"
+				"name""Product Sans"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"	"Open Sans Bold"
+				"name"	"Product Sans"
 				"tall"		"24"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name""Open Sans Bold"
+				"name""Product Sans"
 				"tall"		"12"		"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"Product Sans"
 				"tall"		"12"		"antialias"	"1"
 			}
 

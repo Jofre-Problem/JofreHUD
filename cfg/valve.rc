@@ -8,15 +8,8 @@ chud_firstrun
 
 exec "joystick.cfg"
 exec "autoexec.cfg"
-exec user/autoexec
-exec hud_always
-exec hud_optional
+exec "hud_always.cfg"
 
 startupmenu
 sv_unlockedchapters 99
 
-exec "hud_cfg/all_4plug_cfgs_garm3n.cfg"
-
-//wait 80 ;opentf2options
-exec _MagnumHUD/main
-OpenSteamWorkshopDialog

@@ -26,7 +26,7 @@
 
 "wrap""1"
 "labelText""#TF_teambalanced"
-"textAlignment""northwest"
+"textAlignment""west"
 "pin_to_sibling"    "Monika"
 }
 "ReasonLabel"
@@ -45,6 +45,6 @@
 
 "wrap""1"
 "labelText" ""
-"textAlignment""northwest"
+"textAlignment""west"
 }
 }

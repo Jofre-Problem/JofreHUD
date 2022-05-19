@@ -5,7 +5,14 @@ Banner("_4plug/4plug_images/managers/thumbnailBanner.png", "auto", "topleft");
 Banner("_4plug/4plug_images/managers/thumbnailBanner_v2.png", "auto", "topleft");
 
 Banner("_4plug/4plug_images/color_seccion.png", "auto", "topleft");
-
+[Name:Resolution, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Resolution", "Resolution")
+{
+	1920x1980
+	1366x768
+	1680x1050
+	Unavailable (Uses alternative)
+}
 [Name:System Tray Icon, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
 GlobalComboBox("System Tray Icon", "System Tray Icon")
 {
@@ -55,6 +62,21 @@ GlobalComboBox("Cart Glow", "Cart Glow")
 {
 	On
 	Off
+}
+#if Resolution == "1980x1080"
+{
+Copy("_4plug/4plug_file/resolution/1920ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
+Copy("_4plug/4plug_file/resolution/1920health.res", "_jofrenew/resource/ui_overrides/!res_health.res");
+}
+#if Resolution == "1366x768"
+{
+Copy("_4plug/4plug_file/resolution/1366ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
+Copy("_4plug/4plug_file/resolution/1366health.res", "_jofrenew/resource/ui_overrides/!res_health.res");
+}
+#if Resolution == "1680x1050"
+{
+Copy("_4plug/4plug_file/resolution/1680ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
+Copy("_4plug/4plug_file/resolution/1680health.res", "_jofrenew/resource/ui_overrides/!res_health.res");
 }
 
 #if Remove Scope == "On"

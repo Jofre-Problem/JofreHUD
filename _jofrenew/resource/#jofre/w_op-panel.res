@@ -9,9 +9,9 @@
 		zPos					0
 		wide					"p0.235"	//"p0.233"
 		tall					f0
-		"bgcolor_override"		"W_ColorTheme1"
+		"bgcolor_override"		"34 34 34 255"
 		"PaintBackgroundType"	"0"//"2"	
-		"border"		"B_Theme1"
+		"alpha"		"190"
 	}
 	"WindowLeftBar2"				// background for the left side buttons
 	{

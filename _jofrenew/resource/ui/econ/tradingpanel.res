@@ -1,5 +1,14 @@
+#base "../ui2/multiple-bg.res"
 "Resource/UI/TradingPanel.res"
 {
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}		
 	"trading_panel"
 	{
 		"ControlName"	"EditablePanel"

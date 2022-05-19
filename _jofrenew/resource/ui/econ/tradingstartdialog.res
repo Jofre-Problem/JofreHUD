@@ -1,9 +1,36 @@
 #base "../../#jofre/w_op-panel.res"
 #base "../../#jofre/w_icons.res"
-#base "../../ui2/testgradient.res"
-#base "../../#jofre/home.res"
-"Resource/UI/TradingStartDialog.res"
+//#base "../../ui2/testgradient.res"
+//#base "../../#jofre/home.res"
+#base "../../ui2/multiple-bg.res"
+"Resource/UI/TradingPanel.res"
 {
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"f0"
+	}	
+	"CancelButton2"
+	{
+	"xpos""cs-0.5"
+	"ypos""rs1-15"
+		"zpos"		"9000"
+		"font"	"NewIcons12"
+		"paintBackground"	"0"
+		"labelText"	"M"
+		"defaultFgColor_override"	"W_ColorTheme1"
+		"armedFgColor_override"	"W_BorderArmed"
+		"textAlignment"	"center"
+	//	"textinsety"	"-2"
+		"wide""25"
+			"tall""o1"
+		"Command""cancel"	
+		"border_default"				"B_CIcons1"
+		"border_armed"					"B_BArmed"	
+	}			
 	"TradingStartDialog"
 	{
 		"fieldName"				"TradingStartDialog"
@@ -16,7 +43,7 @@
 		"bgcolor_override"		"Blank"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	""
-		"border"				"B_BArmed"
+		"border"				"noborder"
 		"paintborder"			"0"
 		
 		"button_kv"
@@ -70,19 +97,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"NotoBold20"
 		"labelText"		"#TF_TradeStartDialog_Title"
-		"textAlignment"								"west"
-		"xpos"										"40"
-		"ypos"										"18+5"
+		"textAlignment"								"center"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2000"
-		"wide"										"p0.233"
+		"wide"										"p0.235"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
 		"fgcolor_override" 							"W_ColorTexto1"
+		"bgcolor_override"		"0 0 0 100"
 	
 	}
 	
@@ -142,9 +166,9 @@
 		"paintbackgroundtype"	"0"
 		"paintborder"		"1"
 		
-	"defaultFgColor_override" "A_ColorTheme3"
-		"armedFgColor_override" "W_ColorIcons1"
-		"depressedFgColor_override" "A_ColorTheme3"
+	"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "A_ColorTheme3"
+		"depressedFgColor_override" "W_ColorIcons1"
 		
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
@@ -181,9 +205,9 @@
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
 		"paintborder"		"1"
-	"defaultFgColor_override" "A_ColorTheme3"
-		"armedFgColor_override" "W_ColorIcons1"
-		"depressedFgColor_override" "A_ColorTheme3"
+	"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "A_ColorTheme3"
+		"depressedFgColor_override" "W_ColorIcons1"
 		
 		
 		"defaultBgColor_override" "Blank"
@@ -263,9 +287,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "A_ColorTheme3"
-		"armedFgColor_override" "W_ColorTheme1"
-		"depressedFgColor_override" "A_ColorTheme3"
+	"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "A_ColorTheme3"
+		"depressedFgColor_override" "W_ColorIcons1"
 		
 			
 			"defaultBgColor_override" "Blank"
@@ -315,9 +339,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "A_ColorTheme3"
-		"armedFgColor_override" "W_ColorTheme1"
-		"depressedFgColor_override" "A_ColorTheme3"
+	"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "A_ColorTheme3"
+		"depressedFgColor_override" "W_ColorIcons1"
 			
 			"defaultBgColor_override" "0 0 255 0"
 			"armedBgColor_override" "Blank"
@@ -366,9 +390,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "A_ColorTheme3"
-		"armedFgColor_override" "W_ColorTheme1"
-		"depressedFgColor_override" "A_ColorTheme3"
+	"defaultFgColor_override" "W_ColorTheme1"
+		"armedFgColor_override" "A_ColorTheme3"
+		"depressedFgColor_override" "W_ColorIcons1"
 			
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override" "Blank"
@@ -407,8 +431,9 @@
 			"visible"		"0"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"250 250 250 255"
+			"bgcolor_override"	"W_ColorTheme3"
 			"proportionalToParent"	"1"
+			"alpha"	"150"
 		}
 	}
 	"StatePanel1"
@@ -442,7 +467,7 @@
 			"textinsetx"	"25"
 			"fgcolor"		"W_ColorIcons1"
 			"fgcolor_override" "W_ColorIcons1"
-			"bgcolor_override"	"224 224 224 255"
+			"bgcolor_override"	"W_ColorTheme1"
 		}	
 		
 		"ErrorLabel"
@@ -521,8 +546,9 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"250 250 250 255"
+			"bgcolor_override"	"W_ColorTheme3"
 			"proportionalToParent"	"1"
+			"alpha"	"150"
 		}
 	}
 	"StatePanel2"
@@ -692,6 +718,7 @@
 			"textinsetx"	"25"
 			"fgcolor"		"113 113 113 255"
 			"fgcolor_override" "113 113 113 255"
+			"bgcolor_override"	"W_Colortheme1"
 		}	
 		
 		"URLFailLabel"
@@ -758,7 +785,7 @@
 			"fgcolor_override"	"W_ColorIcons1"
 			"bgcolor_override"	"32 32 32 0"
 			"paintbackgroundtype" "0"
-			"font"		"ChalkboardTitleMedium"
+			"font"		"Noto14"
 		}
 		
 		"BottomBarWhite"
@@ -775,7 +802,8 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"W_ColorIcons1"
+			"bgcolor_override"	"W_ColorTheme1"
+			"alpha"	"180"
 		}
 		
 		"subbutton0"
@@ -809,9 +837,9 @@
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
 			
-			"defaultFgColor_override" "250 250 250 255"
-			"armedFgColor_override" "250 250 250 255"
-			"depressedFgColor_override" "250 250 250 255"
+			"defaultFgColor_override" "0 0 0 255"
+			"armedFgColor_override" "0 0 0 255"
+			"depressedFgColor_override" "0 0 0 255"
 			
 			"defaultBgColor_override" "W_ColorIconsArmed1"
 			"armedBgColor_override" "47 62 158 255"
@@ -832,7 +860,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"224 224 224 255"
+			"bgcolor_override"	"0 0 0 255"
 			"proportionalToParent"	"1"
 		}
 		
@@ -850,8 +878,9 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"250 250 250 255"
+			"bgcolor_override"	"0 0 0 255"
 			"proportionalToParent"	"1"
+			"alpha"	"180"
 		}
 	}
 	"BackButton"
