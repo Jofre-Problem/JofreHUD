@@ -32,10 +32,39 @@ Scheme
 	}	
 	BaseSettings	{
 		"FrameTitleBar.Font"		"Blank"	
-}
+		ScrollBarSlider.FgColor								"W_ColorIcons1"
+		ScrollBarSlider.BgColor								"blank"
+		ScrollBar.Wide					"6"
+		ScrollBarButton.FgColor					"Blank"	
+		}
 
    		Borders
-		{ 
+		{
+	ScrollBarButtonBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/circle"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
+		ScrollBarButtonDepressedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/circle"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}			 	
 			Cs1
 		{
 			"inset" "0 0 1 1"

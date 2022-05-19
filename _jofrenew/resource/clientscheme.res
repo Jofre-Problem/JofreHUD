@@ -129,8 +129,8 @@ Scheme
 //		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor								"W_ColorLinea1"
-		ScrollBarSlider.BgColor								"Blank"
+		ScrollBarSlider.FgColor								"W_ColorIcons1"
+		ScrollBarSlider.BgColor								"blank"
 
 
 	//	Slider.NobColor										"W_ColorIcons1"
@@ -786,7 +786,7 @@ Scheme
 		{
 			"inset" 			"0 0 0 0"
 			"backgroundtype"	"0"
-		}		
+		}			
 		Rice1
 		{
 			"inset" "0 0 1 1"
