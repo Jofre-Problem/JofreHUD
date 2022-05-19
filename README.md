@@ -1,6 +1,5 @@
 # JofreHUD-Dev
-
-![JOFREHUD](https://user-images.githubusercontent.com/70734327/168654533-962da930-c1ac-4d8e-bd0b-4979ec710ec6.png)
+![JOFREHUDDEV](https://user-images.githubusercontent.com/70734327/169178262-06a68414-f524-48ae-a4a4-67ca313df2f2.png)
 
 JofreHUD with bleeding edge changes.
 
