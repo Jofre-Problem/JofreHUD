@@ -481,8 +481,8 @@
 	}
 	HudStalemate
 	{
-		"xpos"					"cs-0.5"
-		"ypos"					"65"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
 	}

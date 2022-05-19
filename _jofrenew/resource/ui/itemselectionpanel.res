@@ -87,27 +87,11 @@
 	
 	"ClassLabel"
 	{
-		"font"			"Future30"
-		"xpos"			"3"
-		"ypos"			"10"
-		"wide"			"350"
-		"tall"			"50"
-		"fgcolor_override"	"W_ColorTheme1"
-		"auto_wide_tocontents"	"0"
-		"AllCaps"		"1"
-		"wrap"			"1"
-		"textAlignment"	"north-west"
+		"wide"			"0"
 	}
 	"ItemSlotLabel"
 	{
-		"font"			"NotoBold20"
-		"xpos"			"r283"
-		"ypos"			"10"
-		"wide"			"280"
-		"tall"			"50"
-		"textAlignment"	"east"
-		"fgcolor_override"	"W_ColorTheme1"
-		"AllCaps"		"1"
+		"wide"			"0"
 	}
 
 	"SearchLabel"

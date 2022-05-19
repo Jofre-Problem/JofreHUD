@@ -62,9 +62,10 @@ Scheme
 		Button.BgColor									"27 27 27 255"
 		Button.ArmedTextColor							"240 240 240 255"
 		Button.ArmedBgColor								"255 255 255 16"
-		Button.SelectedTextColor						"240 240 240 255"
+		Button.SelectedTextColor						"255 152 0 255"
 	//  hover button, took me 30 min to find
-		Button.SelectedBgColor							"255 255 255 16"
+		Button.SelectedBgColor							"255 152 0 255"
+	// 	
 		Button.DepressedTextColor						"245 245 245 180"
 		Button.DepressedBgColor							"255 255 255 16"
 
