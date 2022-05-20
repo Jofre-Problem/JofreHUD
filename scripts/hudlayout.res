@@ -1,4 +1,3 @@
-	#base "../_jofrenew/ui_overrides/cross-speed/file.res"
 	#base "../_jofrenew/ui_overrides/speed-meter/file.res"
 	#base "../_jofrenew/ui_overrides/transparent-viewmodel/file.res"
 	#base "../_4plug/scripts/hudlayout.res"
