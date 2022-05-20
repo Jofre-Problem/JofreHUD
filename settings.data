@@ -13,8 +13,15 @@ GlobalComboBox("Resolution", "Resolution")
 	1680x1050
 	Unavailable (Uses alternative)
 }
-[Name:Speed Bar Metter, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
-GlobalComboBox("Speed Bar Metter", "Speed Bar Metter")
+[Name:Speed Bar Counter, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Speed Bar Counter", "Speed Bar Counter")
+{
+	Disabled
+	m0re
+	bold
+}
+[Name:Speed Bar Meter, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Speed Bar Meter", "Speed Bar Meter")
 {
 	Disabled
 	Enabled
@@ -90,14 +97,26 @@ Copy("_4plug/4plug_file/resolution/1366health.res", "_jofrenew/resource/ui_overr
 Copy("_4plug/4plug_file/resolution/1680ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
 Copy("_4plug/4plug_file/resolution/1680health.res", "_jofrenew/resource/ui_overrides/!res_health.res");
 }
-#if Speed Bar Metter == "Enabled"
+#if Speed Bar Meter == "Enabled"
 {
 Copy("_4plug/4plug_file/cross-speed/on.res", "_jofrenew/ui_overrides/cross-speed/file.res");
 }
 
-#if Speed Bar Metter == "Disabled"
+#if Speed Bar Meter == "Disabled"
 {
 Copy("_4plug/4plug_file/cross-speed/off.res", "_jofrenew/ui_overrides/cross-speed/file.res");
+}
+#if Speed Bar Counter == "Disabled"
+{
+Copy("_4plug/4plug_file/speed-meter/off.res", "_jofrenew/ui_overrides/speed-meter/file.res");
+}
+#if Speed Bar Counter == "m0re"
+{
+Copy("_4plug/4plug_file/speed-meter/m0re.res", "_jofrenew/ui_overrides/speed-meter/file.res");
+}
+#if Speed Bar Counter == "bold"
+{
+Copy("_4plug/4plug_file/speed-meter/bold.res", "_jofrenew/ui_overrides/speed-meter/file.res");
 }
 #if Remove Scope == "On"
 {

@@ -5,9 +5,9 @@
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
-			"ypos""rs1-40"
+			"ypos""rs1-30"
 			"zpos""7"
-			"wide""32"
+			"wide""40"
 			"tall""o1"
 			}			
 	"MMBackgroundPanel"
