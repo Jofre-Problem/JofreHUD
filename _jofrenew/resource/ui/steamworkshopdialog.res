@@ -40,7 +40,7 @@
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
 			"border"		"Rice2"			
-			"bgcolor_override"				"56 60 75 255"
+			"bgcolor_override"				"20 20 20 255"
 
 			"title"		
 			{
