@@ -45,7 +45,7 @@
 		"fgcolor"		"0 0 0 0" //150
 		"xpos"			"c-50"
 		"ypos"			"c18"
-		"zpos"			"-1"
+		"zpos"			"-2"
 		"wide"			"100"
 		"tall"			"31"
 		"visible"		"1"
@@ -53,7 +53,6 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
 	}
-
 
 
 }

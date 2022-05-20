@@ -151,10 +151,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"12"
-		"ypos"					"8"
-		"wide"					"117"
-		"tall"  				"29"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -163,11 +163,11 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"			"0"
+		"xpos"			"c-150"
 		"zpos"		"2000"
-		"ypos"			"rs1"//c19"
+		"ypos"			"r120"//c19"
 		"wide"			"50"
-		"tall"			"25"
+		"tall"			"70"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
