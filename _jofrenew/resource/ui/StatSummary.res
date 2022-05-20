@@ -1,4 +1,5 @@
 #base "../ui2/multiple-bg.res"
+#base "../ui3/tank_gif.res"
 #base "../uni_base/image/1.res"
 "Resource/UI/StatSummary.res"
 {
@@ -106,20 +107,13 @@
 				"paintbackground"	"1"
 				"bgcolor_override"	"W_ColorTheme2"
 			}			
-			"gif"
+			"tank_gif"
 			{
-			"ControlName""ImagePanel"
-			"fieldName""gif"
 			"xpos""cs-0.5"
 			"ypos""rs1-40"
 			"zpos""7"
 			"wide""32"
 			"tall""o1"
-			"visible""1"
-			"enabled""1"
-			"scaleImage""1"
-			"image""replay/thumbnails/l4d2/gif_noskill"
-			"fgcolor""TanDark"
 			}										
 	"MainBackground"
 	{

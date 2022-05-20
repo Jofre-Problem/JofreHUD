@@ -37,7 +37,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapNumPlayers"
-		"font"			"DamageText2"
+		"font"			"DamageText"
 		"fgcolor"		"245 245 245 255"
 		"xpos"			"0"
 		"ypos"			"0"

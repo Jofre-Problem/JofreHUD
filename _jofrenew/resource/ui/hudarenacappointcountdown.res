@@ -2,7 +2,7 @@
 {
     "CapCountdownLabel"
     {
-        "font""DamageText2"
+        "font""DamageText"
         "xpos""2"
         "ypos""2"
         "zpos""-1"

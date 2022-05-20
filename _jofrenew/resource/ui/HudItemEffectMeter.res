@@ -8,4 +8,8 @@
 		"ypos"		"r130"
 		"ypos_minmode"	"r110"
 	}
+		"ItemEffectMeterBG"
+		{
+		"tall""0"
+		}	
 }

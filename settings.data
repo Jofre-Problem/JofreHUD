@@ -63,7 +63,7 @@ GlobalComboBox("Cart Glow", "Cart Glow")
 	On
 	Off
 }
-#if Resolution == "1980x1080"
+#if Resolution == "1920x1980"
 {
 Copy("_4plug/4plug_file/resolution/1920ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
 Copy("_4plug/4plug_file/resolution/1920health.res", "_jofrenew/resource/ui_overrides/!res_health.res");

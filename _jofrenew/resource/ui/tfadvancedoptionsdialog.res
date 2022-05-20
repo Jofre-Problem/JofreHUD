@@ -1,5 +1,21 @@
-"Resource\UI\TFAdvancedOptionsDialog.res"
+#base "../ui2/multiple-bg.res"
+#base "../ui3/tank_gif.res"
+"Resource/UI/ItemPickupPanel.res"
 {
+	"tank_gif"
+	{
+		"xpos"			"15"
+		"ypos"			"10"
+        "wide"          "35"
+	}	
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-3000"
+		"wide"			"f0"
+		"tall"			"f0"
+	}	
 "TFAdvancedOptionsDialog"
 {
 "ControlName""EditablePanel"
@@ -19,7 +35,7 @@
 "paintborder""1"
 "paintbackground""0"
 "border""Rice1"
-"bgcolor_override"	"34 34 34 255"
+"bgcolor_override"	"34 34 34 0"
 "control_w""500"
 "control_h""25"
 "slider_w""500"
@@ -34,7 +50,7 @@
 "zpos""-100"
 "wide""f0"
 "tall""f0"
-"bgcolor_override"	"34 34 34 255"
+"bgcolor_override"	"34 34 34 240"
 }
 "TitleLabel"
 {

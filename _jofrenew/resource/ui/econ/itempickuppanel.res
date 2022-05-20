@@ -1,6 +1,15 @@
 #base "../../ui2/multiple-bg.res"
+#base "../../ui3/tank_gif.res"
 "Resource/UI/ItemPickupPanel.res"
 {
+			"tank_gif"
+			{
+			"xpos""cs-0.5"
+			"ypos""rs1-40"
+			"zpos""7"
+			"wide""32"
+			"tall""o1"
+			}			
 	"MMBackgroundPanel"
 	{
 		"xpos"			"0"

@@ -8,10 +8,6 @@
 		"ypos"			"r100"
 	//	"ypos_minmode"		"r100"
 	}
-	"ItemMeterDescription"
-	{
-		"fieldName"		"HeadsCollectedCounter"
-	}
 	"ItemEffectMeterCount"
 	{
 	}

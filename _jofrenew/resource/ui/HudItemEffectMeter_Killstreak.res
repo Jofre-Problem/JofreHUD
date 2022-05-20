@@ -92,7 +92,7 @@
 	"StreakLabel"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
+		"fieldName"				"StreakLabel"
 		"xpos"					"-42"
 		"ypos"					"0"
 		"zpos"					"2"

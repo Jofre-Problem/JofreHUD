@@ -3,9 +3,6 @@
 
 "Resource/UI/HudItemEffectMeter_particlecannon.res"
 {
-	"ItemMeterDescription" {
-		"fieldName"	"CowMangler"
-	}
 	HudItemEffectMeter
 	{
 		"ypos"		"r140"

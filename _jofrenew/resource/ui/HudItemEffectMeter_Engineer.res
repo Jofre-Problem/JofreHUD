@@ -8,16 +8,11 @@
 		"ypos"			"r102"
 		"ypos_minmode"		"r102"
 	}
-	"ItemMeterDescription"
-	{
-		"fieldName"		"RevengeCritsCounter"
-	}
+
 	"ItemEffectMeterCount"
 	{
 	}
-	"ItemEffectMeterCountShadow"
-	{
-	}
+
 	"ItemEffectMeterLabel"
 	{
 		"visible"		"0"
@@ -29,9 +24,5 @@
 		"xpos"			"76"
 		"ypos"			"1"
 		"image"			"../hud/ico_demolish"	
-	}
-	"ItemEffectMeterIconShadow"
-	{
-		"visible"		"0"
 	}
 }

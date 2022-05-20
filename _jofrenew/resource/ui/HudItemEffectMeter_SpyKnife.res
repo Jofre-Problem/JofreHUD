@@ -3,9 +3,6 @@
 
 "Resource/UI/HudItemEffectMeter_spyknife.res"
 {
-	"ItemMeterDescription" {
-		"fieldName"	"SpyCicle"
-	}
 	HudItemEffectMeter
 	{
 		"ypos"		"r140"

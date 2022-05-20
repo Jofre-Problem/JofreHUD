@@ -1,9 +1,7 @@
-#base "../ui_overrides/!res_health.res"	//replace all "resolution" code
 
 #base "../../overrides/teamcolor_always_red/health.res"
 #base "../../overrides/teamcolor_always_blu/health.res"
 #base "../../overrides/teamcolor_always_white/health.res"
-#base "../uni_base/panel/1.res"
 #base "teamcolor/health.res"
 
 //fallback
@@ -11,7 +9,6 @@
 #base "../../overrides/circlesforstuff/file.res"
 #base "../../overrides/outlinedhealthnumber/file.res"
 #base "healthshadow.res"
-
 
 "Resource/UI/HudPlayerHealth.res"
 {	

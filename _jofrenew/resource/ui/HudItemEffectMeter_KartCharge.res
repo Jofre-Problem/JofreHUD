@@ -3,9 +3,6 @@
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	"ItemMeterDescription" {
-		"fieldName"		"KartCharge"
-	}
 	HudItemEffectMeter
 	{
 		"xpos"			"0"

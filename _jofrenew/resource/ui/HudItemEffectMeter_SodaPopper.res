@@ -3,9 +3,6 @@
 
 "Resource/UI/HudItemEffectMeter_sodapopper.res"
 {
-	"ItemMeterDescription" {
-		"fieldName"	"ScoutPrimary"
-	}
 	HudItemEffectMeter
 	{
 		"ypos"		"r150"
