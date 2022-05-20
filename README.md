@@ -13,7 +13,8 @@ After a long time of developing this HUD and taking breaks, I have decided to pu
 ![Captura de pantalla (74)](https://user-images.githubusercontent.com/70734327/169419166-cfec5174-a3e5-411b-aca8-44a74d192bd3.png)
 ![Captura de pantalla (76)](https://user-images.githubusercontent.com/70734327/169419176-afa58726-2c30-41f4-8376-7ae2ff543585.png)
 ![Captura de pantalla (68)](https://user-images.githubusercontent.com/70734327/168952110-021004b7-ea87-4014-aa1a-6d8c457cb489.png)
-**Last Update as 19/05/22**
+![Captura de pantalla (80)](https://user-images.githubusercontent.com/70734327/169620677-288811cc-7e23-4d89-86be-611cf0739aa9.png)
+**Last Update as 20/05/22**
 
 # Credits:
 - Inspired by the following HUDS: MagnumHUD, BudHUD, PrismHUD, JxHUD, ToonHUD, RobotoHUD, ProductHUD, SunsetHUD, HexHUD, m0rehud, and many many more HUDS.
