@@ -21,10 +21,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
 		"fgcolor"		"245 245 245 255"
-		"xpos"			"rs1-178"
+		"xpos"			"rs1-108"
 		"ypos"			"r115"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"100"
 		"tall"			"14"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
@@ -38,7 +38,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"100"
 		"tall"			"14"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
@@ -47,6 +47,9 @@
 	}	
 	"MetalIcon"	
 	{
-		"wide"			"0"
+		"xpos"	"-25"
+		"ypos"	"-3"
+		"pin_to_sibling"	"AccountValue"	
+		"pin_to_sibling_corner"	"4"
 	}
 }
