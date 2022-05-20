@@ -257,6 +257,8 @@
 		"labelText"		"#doubleammo"
 	}
 	"AmmoEverywhereDudeLow" //meaning clip at 0
+	// TALL WAS 0 FOR NO REASON
+	// WHYYYY
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeLow"
@@ -264,7 +266,7 @@
 		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"100"
-		"tall"			"0"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ammo%"
@@ -297,32 +299,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"35 35 35 255"
-	}
-	"AmmoBlackCover"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoBlackCover"
-		"xpos"			"88"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"9"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"7 7 7 255"
-	}
-	"AmmoBlackCover2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoBlackCover2"
-		"xpos"			"88"
-		"ypos"			"25"
-		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"9"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"7 7 7 255"
 	}
 	"HealthDivider"
 	{
