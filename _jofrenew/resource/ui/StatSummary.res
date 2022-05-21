@@ -1,6 +1,7 @@
 #base "../ui2/multiple-bg.res"
 #base "../ui3/tank_gif.res"
 #base "../uni_base/image/1.res"
+#base "../../ui_overrides/full-timer/file.res"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
