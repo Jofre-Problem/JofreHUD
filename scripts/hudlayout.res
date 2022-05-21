@@ -1,7 +1,7 @@
+	#base "../_jofrenew/ui_overrides/global-timer/file.res"
 	#base "../_jofrenew/ui_overrides/speed-meter/file.res"
 	#base "../_jofrenew/ui_overrides/transparent-viewmodel/file.res"
 	#base "../_4plug/scripts/hudlayout.res"
 	#base "../_jofrenew/scripts/hudlayout.res"
 	#base "../_jofrehud/scripts/hudlayout.res"
-	#base "../_jofrehud/_tf2exp/scripts/hudlayout.res"	
 	#base "../_tf2hud/scripts/hudlayout.res"

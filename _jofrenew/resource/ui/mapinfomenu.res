@@ -1,5 +1,5 @@
 //#base "../#jofre/blur_bg.res"
-#base "../ui_overrides/ui/summersale_border.res"
+#base "../../ui_overrides/summer-border/file.res"
 #base "../ui2/polybar_1.res"
 #base "../ui2/multiple-bg.res"
 #base "../ui2/polyconfig1.res"
@@ -115,41 +115,31 @@
 		"scaleImage"	"1"		
 	}
 	
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue" 
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"r115"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"115"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Continue"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"continue"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-80"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"28"
+		"labelText"		"CONTINUE"//"→"
+		"textAlignment"		"center"
+
 		"default"		"1"
-		"font"			"NotoBold24"
-		"paintbackground"	"0"
-		
-		"paintbackground"	"1"
+		"font"			"NotoBold28"
 		
 		"fgcolor"		"NotoMenuText"
-		
 		"defaultFgColor_override" "NotoMenuText"
 		"armedFgColor_override" "NotoMenuText2"
 		"depressedFgColor_override" "NotoMenuText2"
-		
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
 	}
-	
+		"SummerBorder"
+		{
+		"xpos""cs-0.5"
+		"ypos""45"
+			//"pin_to_sibling"	"PartySlot0"
+				//cant pin
+		}			
 	"MenuBG"
 	{
 		"tall"			"0"
