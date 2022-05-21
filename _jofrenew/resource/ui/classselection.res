@@ -1484,7 +1484,7 @@
 	"KeyboardShortcutLoadout(E)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutRandom(E)"
+		fieldName				"KeyboardShortcutLoadout(E)"
 		wide					0
 		tall					0
 		labelText				"&E"
@@ -1494,7 +1494,7 @@
 	"KeyboardShortcutLoadout(L)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutRandom(L)"
+		fieldName				"KeyboardShortcutLoadout(L)"
 		wide					0
 		tall					0
 		labelText				"&L"

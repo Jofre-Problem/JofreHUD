@@ -29,7 +29,7 @@
 			"tall""o1"
 		"Command""cancel"	
 		"border_default"				"B_CIcons1"
-		"border_armed"					"B_BArmed"	
+		"border_armed"					"B_Theme1"	
 	}			
 	"TradingStartDialog"
 	{

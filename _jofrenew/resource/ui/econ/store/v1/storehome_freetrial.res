@@ -290,7 +290,7 @@
 		"wide"			"325"
 		"tall"			"260"
 		"visible"		"0"
-		"border"		"B_BArmed"
+		"border"		"B_Theme1"
 		
 		"TitleBG"
 		{

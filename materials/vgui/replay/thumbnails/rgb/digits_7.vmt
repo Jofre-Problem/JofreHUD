@@ -1,0 +1,94 @@
+UnlitGeneric
+{
+"$baseTexture" "vgui\replay/thumbnails/rgb\digits_1"
+$translucent 1
+$alpha 1
+$vertexalpha 1
+$ignorez 1
+$no_fullbright 1
+$vertexcolor 1
+
+$const1 100
+$const2 10
+$tmp1 0
+$tmp2 0
+$tmp3 0
+$speed 0
+$res1 0
+$res2 0
+$tmp4 0
+$tmp5 0
+$const3 0.05
+$speed2 0
+
+    Proxies
+      {
+        PlayerSpeed
+        {
+        "scale" "1"
+        "resultVar" "$speed2"
+        }
+
+        Add
+        {
+        "srcVar1" "$speed2"
+        "srcVar2" "$const3"
+        "resultVar" "$speed"
+        }
+       
+        Divide
+        {
+        "srcVar1" "$speed"
+        "srcVar2" "$const1"
+        "resultVar" "$tmp1"
+        }
+
+        Frac
+        {
+        "srcVar1" "$tmp1"
+        "resultVar" "$res1"
+        }
+
+       Multiply
+        {
+        "srcVar1" "$res1"
+        "srcVar2" "$const1"
+        "resultVar" "$tmp2"
+        }
+    
+        Subtract
+        {
+        "srcVar1" "$speed"
+        "srcVar2" "$tmp2"
+        "resultVar" "$res2"
+        }
+
+       Divide
+        {
+        "srcVar1" "$res2"
+        "srcVar2" "$const2"
+        "resultVar" "$tmp3"
+        }
+
+        Frac
+        {
+        "srcVar1" "$tmp3"
+        "resultVar" "$tmp4"
+        }
+
+       Multiply
+        {
+        "srcVar1" "$tmp4"
+        "srcVar2" "$const2"
+        "resultVar" "$tmp5"
+        }
+    
+        Subtract
+        {
+        "srcVar1" "$res2"
+        "srcVar2" "$tmp5"
+        "resultVar" "$frame"
+        }
+
+      }
+}

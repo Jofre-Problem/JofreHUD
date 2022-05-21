@@ -46,7 +46,7 @@
 		"ypos"			"4"
 		"zpos"			"1"
 		"wide"			"p0.3"
-		"tall"			"25"
+		"tall"			"40"
 		"fgcolor_override"	"PolyIconsFg1"
 	}
 	

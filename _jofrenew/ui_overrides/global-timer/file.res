@@ -84,5 +84,5 @@
 		"enabled"				"1"
 		"image"					"replay\thumbnails/timer/digits_4"
 		"scaleImage"			"1"
-	}
+	}}
 

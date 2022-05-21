@@ -28,7 +28,7 @@
 "paintbackgroundtype""0"
 "settitlebarvisible""0"
 "proportionaltoparent""1"
-"border""B_BArmed"
+"border""B_Theme1"
 
 "TitleLabel"
 {

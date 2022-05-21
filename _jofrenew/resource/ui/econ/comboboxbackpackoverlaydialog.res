@@ -12,7 +12,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"B_BArmed"
+		"border"				"B_Theme1"
 	}
 	
 	"TitleLabel"

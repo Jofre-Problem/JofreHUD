@@ -213,7 +213,7 @@
 			"paintbackgroundtype"	"1"
 			"proportionaltoparent"	"1"
 
-			"border"				"B_BArmed"
+			"border"				"B_Theme1"
 		}
 	}
 

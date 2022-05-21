@@ -47,7 +47,7 @@ Scheme
 		TextEntry.CursorColor		"W_ColorIcons1"
 		Button.DepressedTextColor		"W_ColorTheme3"
 		Button.DepressedBgColor			"W_ColorTheme1"
-		Button.FocusBorderColor			"W_BorderArmed"
+		Button.FocusBorderColor			"W_ColorTheme1"
 		ProgressBar.BgColor				"W_ColorTheme2"
 		ScrollBarButton.FgColor				"W_ColorIcons1"
 		ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
@@ -68,16 +68,6 @@ Scheme
 	// 	
 		Button.DepressedTextColor						"245 245 245 180"
 		Button.DepressedBgColor							"255 255 255 16"
-
-//		Button.BgColor					"W_ColorTheme1"
-	///	Button.ArmedTextColor			"W_ColorTheme3"
-	//	Button.ArmedBgColor				"W_ColorLinea1"
-// TF		Button.DepressedTextColor		"W_ColorTheme1"
-// tf		Button.DepressedBgColor			"W_BorderArmed"	
-// tf		Button.FocusBorderColor			"W_BorderArmed"
-	//	Button.TextColor									"W_BorderArmed"
-	//	Button.SelectedTextColor						"W_ColorTheme3"
-	//	Button.SelectedBgColor							"W_BorderArmedText" // selected, only specific buttons
 
 		CheckButton.TextColor								"W_ColorTheme1"
 		CheckButton.SelectedTextColor						"W_ColorIcons1"
@@ -135,7 +125,7 @@ Scheme
 
 	//	Slider.NobColor										"W_ColorIcons1"
 		Slider.TextColor									"127 140 127 255"
-	//	Slider.TrackColor									"W_BorderArmed"
+
 		Slider.DisabledTextColor1							"117 117 117 255"
 	//	Slider.DisabledTextColor2							"Blank"
 

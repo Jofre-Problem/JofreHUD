@@ -259,7 +259,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"cs-0.5"
+			"xpos"			"150"
 			"ypos"			"-50"
 			"zpos"			"111"
 			"wide"			"220"
@@ -325,38 +325,36 @@
 				"paintbackground"	"0"
 				"paintborder"		"0"				
 			}		
-
+			"Spinner"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""Spinner"
+			"xpos"	"20"
+			"ypos"	"2"
+			"wide""35"
+			"tall""o1"
+			"scaleImage""1"
+			"image""replay/thumbnails/misc/spinner"
+			"fgcolor""TanDark"
+			}	
 			"CTFLogoPanel"
 			{
-				"ControlName"	"CTFLogoPanel"
-				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"o1"
 				"tall"			"0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"radius"		"10"
-				"velocity"		"100"
-
-				"fgcolor_override"	"TFOrange"
 			}		
 			"QueueText"
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"33"
-				"ypos"			"-11"
+				"xpos"			"60"
+				"ypos"			"0"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				//"enabled"		"1"
-				"font"			"NotoBold8"
+				"font"			"NotoBold16"
 				"fgcolor_override"	"W_ColorIcons1"
-				"textAlignment"	"center"
+				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -365,15 +363,15 @@
 				{
 					"0"
 					{
-						"font"	"NotoBold8" // TF2 Build 11
+						"font"	"NotoBold16" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"NotoBold8" // TF2 Build 10
+						"font"	"NotoBold16" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"	"NotoBold8" // TF2 Build 9
+						"font"	"NotoBold16" // TF2 Build 9
 					}
 				}
 			}
@@ -382,11 +380,11 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
-				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"xpos"			"5"
+				"ypos"			"20"
 				"zpos"			"10"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"15"
+				"tall"			"o1"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -419,8 +417,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"1"
-					"wide"			"14" 
-					"tall"			"14"
+					"wide"			"13" 
+					"tall"			"13"
 					"visible"		"1"
 					//"enabled"		"1"
 					"image"			"glyph_options"
@@ -432,11 +430,11 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"rs1-7"
-				"ypos"			"0"
+				"xpos"			"5"
+				"ypos"			"20"
 				"zpos"			"10"
-				"wide"			"13"
-				"tall"			"13"
+				"wide"			"15"
+				"tall"			"o1"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
