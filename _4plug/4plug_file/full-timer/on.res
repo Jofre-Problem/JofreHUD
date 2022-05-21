@@ -1,13 +1,10 @@
 "Account.res"
-{
-
-	
-        
-               
-                digits1
+{ 
+ 
+	MMDigits
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits1"
+		"fieldName"				"MMDigits"
 		"xpos"					"r65"
 		"ypos"					"130"
 		"zpos"					"-2"
@@ -16,73 +13,81 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_1"
+		"image"					"replay/thumbnails/old_timer/digits_1"
 		"scaleImage"			"1"
 	}
               
-                  digits2
+     MMDigits2
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits2"
-		"xpos"					"r52"
-		"ypos"					"130"
+		"fieldName"				"MMDigits2"
+		"xpos"					"-13"
+		"ypos"					"0"
 		"zpos"					"-2"
 		"wide"					"13"
 		"tall"					"26"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_2"
+		"image"					"replay/thumbnails/old_timer/digits_2"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MMDigits"
 	}
 
-                hmm
+     MMhmm
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"hmm"
-		"xpos"					"r42"
-		"ypos"					"130"
+		"fieldName"				"MMhmm"
+		"xpos"					"-10"
+		"ypos"					"0"
 		"zpos"					"-2"
 		"wide"					"13"
 		"tall"					"26"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/hmm"
+		"image"					"replay/thumbnails/old_timer/hmm"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MMDigits2"	}
+
+
+      MMDigits3
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"MMDigits3"
+		"xpos"					"-10"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"13"
+		"tall"					"26"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/old_timer/digits_3"
+		"scaleImage"			"1"
+		"pin_to_sibling"		"MMhmm"	
 	}
 
 
-                digits3
+     "MMDigits4"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits3"
-		"xpos"					"r32"
-		"ypos"					"130"
+		"fieldName"				"MMDigits4"
+		"xpos"					"-13"
+		"ypos"					"0"
 		"zpos"					"-2"
 		"wide"					"13"
 		"tall"					"26"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_3"
+		"image"					"replay/thumbnails/old_timer/digits_4"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MMDigits3"	
 	}
+	
+  
+	
+}
 
-
-               digits4
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits4"
-		"xpos"					"r19"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_4"
-		"scaleImage"			"1"
-	}}
 

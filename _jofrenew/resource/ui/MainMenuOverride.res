@@ -1,6 +1,7 @@
 	#base "../ui2/gif_tank.res"
 	#base "../ui2/preload.res"
 	#base "../ui2/+motd_main_only.res"
+	#base "../../ui_overrides/full-timer/file.res"
 //	#base "../ui2/_motd_toonhud.res"
 	#base "../ui2/motd_fallback.res"
 	#base "../ui2/+safemode.res"
