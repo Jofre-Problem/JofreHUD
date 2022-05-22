@@ -133,6 +133,22 @@
 		"armedFgColor_override" "NotoMenuText2"
 		"depressedFgColor_override" "NotoMenuText2"
 	}
+
+		"MapInfoBack" 
+		{
+		"ControlName""CExButton"
+		"fieldName""MapInfoBack"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-50"
+		"zpos""6"
+		"wide""150"
+		"tall""28"
+
+		"command""back"
+		"font""NotoBold28"
+		"fgcolor""Black"
+		}
+
 		"SummerBorder"
 		{
 		"xpos""cs-0.5"

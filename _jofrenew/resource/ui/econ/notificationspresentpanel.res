@@ -6,7 +6,7 @@
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"0"
-		"ypos"			"22"
+		"ypos"			"15"
 		"zpos"			"10000"
 		"wide"			"f0"
 		"tall"			"25"

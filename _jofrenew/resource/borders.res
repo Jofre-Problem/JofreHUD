@@ -314,95 +314,7 @@ Scheme
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"11"
 		}			
-		ReplayHighlightBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Normal"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}		
-		EconItemBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"18 18 18 255"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
-		LoadoutItemMouseOverBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Black"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
-		
-		LoadoutItemPopupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"64 64 64 100"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
-		}
-		
-		OutlinedGreyBox
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "W_ColorTheme1"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}				
-		OutlinedDullGreyBox
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "W_ColorIcons1"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}			
-		GrayDialogBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "32 32 32 255"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}	
+
 
 		
 		
@@ -1644,12 +1556,12 @@ Scheme
 			{
 				"1"
 				{
-					"color""69 64 57 255"
+					"color""69 64 57 0"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "69 64 57 255"
+					"color" "69 64 57 0"
 					"offset" "1 2"
 				}
 			}
@@ -1705,5 +1617,120 @@ Scheme
 			"color"					"Blank"
 			"image"					"replay/thumbnails/null"
 		}
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		ReplayHighlightBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Normal"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}		
+		EconItemBorder	//used in confirmation dialog, very broken element
+						//used on loadout too... :(
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"18 18 18 255"
+			
+			"image"				"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		LoadoutItemMouseOverBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
+		LoadoutItemPopupBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"64 64 64 100"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
+		OutlinedGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "W_ColorTheme1"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}				
+		OutlinedDullGreyBox
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "W_ColorIcons1"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}			
+		GrayDialogBorder 
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" "32 32 32 255"   //
+			"offset" "0 0"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"
+		}	
 }
 }

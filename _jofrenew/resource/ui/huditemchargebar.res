@@ -15,7 +15,10 @@
 		"fgcolor_override"	"245 245 245 255"
 		"bgcolor_override"	"0 0 0 0"
 	}
-
+	"ItemEffectMeterBG"
+	{
+		"tall""0"
+	}		
 	"ItemEffectMeterLabel"
 	{
 		"wide"			"0"

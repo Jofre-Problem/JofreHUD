@@ -41,7 +41,7 @@
 
 ////"visible""1"
 
-"textAlignment""northwest"
+"textAlignment""north-west"
 //"textHidden""0"
 //"editable""0"
 //"maxchars""-1"

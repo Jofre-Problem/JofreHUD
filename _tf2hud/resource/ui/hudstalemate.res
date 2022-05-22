@@ -32,7 +32,7 @@
 
 "wrap""1"
 "labelText""#TF_teambalanced"
-"textAlignment""northwest"
+"textAlignment""north-west"
 }
 "ReasonLabel"
 {
@@ -50,6 +50,6 @@
 
 "wrap""1"
 "labelText" ""
-"textAlignment""northwest"
+"textAlignment""north-west"
 }
 }

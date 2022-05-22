@@ -25,11 +25,11 @@ GlobalComboBox("Global Timer", "Global Timer")
 	Disabled
 	Enabled
 }
-[Name:Full Timer, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
-GlobalComboBox("Full Timer", "Full Timer")
+[Name:Menu Timer, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Menu Timer", "Menu Timer")
 {
-	Disabled
 	Enabled
+	Disabled
 }
 [Name:System Tray Icon, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
 GlobalComboBox("System Tray Icon", "System Tray Icon")
@@ -102,11 +102,11 @@ Copy("_4plug/4plug_file/resolution/1366health.res", "_jofrenew/resource/ui_overr
 Copy("_4plug/4plug_file/resolution/1680ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
 Copy("_4plug/4plug_file/resolution/1680health.res", "_jofrenew/resource/ui_overrides/!res_health.res");
 }
-#if Full Timer == "Disabled"
+#if Menu Timer == "Disabled"
 {
 Copy("_4plug/4plug_file/cross-speed/off.res", "_jofrenew/ui_overrides/full-timer/file.res");
 }
-#if Full Timer == "Enabled"
+#if Menu Timer == "Enabled"
 {
 Copy("_4plug/4plug_file/full-timer/on.res", "_jofrenew/ui_overrides/full-timer/file.res");
 }

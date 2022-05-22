@@ -4,8 +4,6 @@
 {
 	"scores"
 	{
-		"ControlName"		"CTFClientScoreBoardDialog"
-		"fieldName"		"scoreinfo"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"9999"
@@ -533,25 +531,6 @@
 			"visible"		"0"
 		}
 	}
-	"HealthDividerScoreboard2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthDividerScoreboard2"
-		"xpos"			"0"
-		"ypos"			"35"
-		"zpos"			"-50"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image" 		"replay/thumbnails/hp/REFRACTnormal"
-		"scaleimage"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
 	"ScoreBGdarklayer2"
 	{
 		"ControlName"		"ImagePanel"

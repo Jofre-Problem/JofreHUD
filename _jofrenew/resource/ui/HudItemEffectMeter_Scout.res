@@ -6,10 +6,6 @@
 	HudItemEffectMeter
 	{
 		"ypos"		"r140"
-		"ypos_minmode"	"r120"
-	}
-	"ItemEffectMeterBG"
-	{
-		"tall""0"
-	}		
+		"ypos_minmode"	"r115"
+	}	
 }

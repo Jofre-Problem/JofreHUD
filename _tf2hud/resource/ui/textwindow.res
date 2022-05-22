@@ -60,7 +60,7 @@
 //"visible""1"
 
 //"paintborder""0"
-"textAlignment""northwest"
+"textAlignment""north-west"
 "fgcolor""Gray"
 }
 

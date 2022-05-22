@@ -86,7 +86,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
+		"textAlignment"	"north-west"
 		"fgcolor"		"W_ColorIcons1"
 	}
 

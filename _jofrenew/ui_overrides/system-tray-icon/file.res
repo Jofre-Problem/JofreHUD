@@ -1,5 +1,5 @@
 Scheme
 {
 	BaseSettings
-	{FrameSystemButton.Icon			""}	
+	{FrameSystemButton.Icon			"replay/thumbnails/misc/apple_logo"}	
 }	

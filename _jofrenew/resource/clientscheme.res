@@ -21,7 +21,7 @@ Scheme
 {
 	BaseSettings
 	{
-		Econ.Dialog.BgColor									"Blank"
+		Econ.Dialog.BgColor									"0 0 0 0"
 		Econ.Button.BgColor									"blank"
 		Econ.Button.FgColor									"TanLight"
 		Econ.Button.ArmedBgColor							"blank"
@@ -54,7 +54,7 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
 		Slider.TextColor			"blank"
         Slider.DisabledTextColor2	"Blank"	
-		Econ.Dialog.BgColor				"W_ColorTheme1"
+	//	Econ.Dialog.BgColor				"W_ColorTheme1"
 		ReplayBrowser.BgColor					"W_ColorTheme1"		
 		Replay.RenderDialog.BgColor							"W_ColorTheme1"
 

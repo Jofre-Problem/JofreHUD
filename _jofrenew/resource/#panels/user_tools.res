@@ -1,6 +1,21 @@
+#base "../ui2/multiple-bg.res"
 //ccvar slider doesnt exist here
 "Resource/NewGameDialog.res"	
 {
+	"Cancel"
+	{
+		"xpos"			"5"
+		"ypos"			"5"
+		"labelText"	"exit"
+		}		
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-19"
+		"wide"			"f0"
+		"tall"			"p20"
+		}	
 	"ChangeGameDialog"
 	{
 		"ControlName"		"CBugUIPanel"
@@ -8,62 +23,29 @@
 
 		"wide"		"245"
 		"tall"		"300"
-
 	}
-	"BlurMainBG"
+	"Line1"
 	{
-	"ControlName""ImagePanel"
-	"fieldName""BlurMainBG"
-	"xpos""0"
-	"ypos""0"
-	"zpos""-10"
-	"wide""f0"
-	"tall""f0"
-	"image""replay/thumbnails/hp/REFRACTblur"
-	"visible""1"
-	"enabled""1"
-	"scaleimage""1"
-	}	
-	"4plug"		
-		{
-			ControlName				Label
-			FieldName				"4plug"
-			xPos					10
-			yPos					10
-			wide					10
-			tall					20	
-			font					"Code10"
-			fgcolor_override		"W_ColorIcons1"
-			labelText				">"
-		textAlignment			west
-	}	
-	"Text"
-	{
-		"ControlName"		"TextEntry"
-		"fieldName"		"Text"
-		"xpos"		"20"
-		"ypos"		"10"
-		"wide"		"125"
-		"tall"		"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"labelText""user"
-		"tabPosition"		"0"
-		"textHidden"		"0"
-		"editable"		"1"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
-	}	
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Line1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"5"
+		"tall"		"60"
+		"fillcolor"		"W_ColorTheme1"	
+		"pin_to_sibling"		"ChatSlider"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
+	}		
 	"SliderLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"SliderLabel"
-		"xpos"		"20"
-		"ypos"		"60"
-		"wide"		"40"
+		"xpos"		"10"
+		"ypos"		"40"
+		"wide"		"60"
 		"tall"		"20"
-		"labelText"		"Sliders"
+		"labelText"		"Settings:"
 		"textAlignment"		"west"
 		"fgcolor_override"		"W_ColorIcons1"	
 	}		
@@ -72,7 +54,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"ChatLabel"
 		"xpos"		"-1"
-		"ypos"		"-20"
+		"ypos"		"-25"
 		"wide"		"25"
 		"tall"		"20"
 		"labelText"		"z"
