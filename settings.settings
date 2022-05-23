@@ -19,13 +19,13 @@ EXPERIMENTAL Scoreboard Slide In|OFF
 EXPERIMENTAL Scope Removal|OFF
 EXPERIMENTAL Square Shadows|OFF
 Damage Indicator|Stock
-System Tray Icon|Apple
+System Tray Icon|None
 Server Plugin Font|TF2
 Transparent Viewmodels|On
 Remove Scope|On
 No Chat BG|Off
 Crosshair on scoreboard|Off
-Scoreboard Slide|On
+Scoreboard Slide|Off
 Cart Glow|On
 Resolution|1920x1980
 Net Graph Font|Calling Code

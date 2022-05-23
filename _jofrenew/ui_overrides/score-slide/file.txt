@@ -1,7 +1,3 @@
 event ScoreboardAnimate
 {
-	Animate scores Position "0 480" linear 0.0 0.0
-	Animate scores Position "0 0" deaccel 0.0 0.17
-	Animate scores alpha "0" linear 0.0 0.0
-	Animate scores alpha "255" accel 0.0 0.22
 }

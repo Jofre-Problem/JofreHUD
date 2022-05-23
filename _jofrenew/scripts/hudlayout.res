@@ -166,6 +166,7 @@
 		"xpos"			"c-157"
 		"zpos"		"2000"
 		"ypos"			"r120"//c19"
+		"ypos_minmode"	"r93"
 		"wide"			"50"
 		"tall"			"70"
 		"visible" 				"1"
