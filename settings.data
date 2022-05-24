@@ -87,6 +87,18 @@ GlobalComboBox("Cart Glow", "Cart Glow")
 	On
 	Off
 }
+#if Server Plugin Font == "Default"
+{
+Copy("_4plug/4plug_file/center-print-text/def.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
+#if Server Plugin Font == "TF2"
+{
+Copy("_4plug/4plug_file/center-print-text/tf2.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
+#if Server Plugin Font == "Product Sans"
+{
+Copy("_4plug/4plug_file/center-print-text/product.res", "_jofrenew/ui_overrides/center-print-text/file.res");
+}
 #if Resolution == "1920x1980"
 {
 Copy("_4plug/4plug_file/resolution/1920ammo.res", "_jofrenew/resource/ui_overrides/!res_ammo.res");
@@ -190,18 +202,7 @@ Copy("_4plug/4plug_file/system-tray-icon/rainbow.res", "_jofrenew/ui_overrides/s
 {
 Copy("_4plug/4plug_file/system-tray-icon/apple.res", "_jofrenew/ui_overrides/system-tray-icon/file.res");
 }
-#if Server Plugin Font == "Default"
-{
-Copy("_4plug/4plug_file/center-print-text/def.res", "_jofrenew/ui_overrides/center-print-text/file.res");
-}
-#if Server Plugin Font == "TF2"
-{
-Copy("_4plug/4plug_file/center-print-text/tf2.res", "_jofrenew/ui_overrides/center-print-text/file.res");
-}
-#if Server Plugin Font == "Product"
-{
-Copy("_4plug/4plug_file/center-print-text/product.res", "_jofrenew/ui_overrides/center-print-text/file.res");
-}
+
 #if Net Graph Font == "Calling Code"
 {
 Copy("_4plug/4plug_file/net_font/calling.res", "_jofrenew/ui_overrides/net_font/file.res");

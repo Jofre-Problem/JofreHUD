@@ -10,7 +10,7 @@
 #base "../../overrides/outlinedhealthnumber/file.res"
 #base "healthshadow.res"
 
-"Resource/UI/HudPlayerHealth.res"
+"Resource/UI/HudPlayerHealth.res"	//[$OSX]
 {	
 	// player health data
 	"HudPlayerHealth"

@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"Center"
-		"fgcolor"		"W_ColorIcons1"
+		"fgcolor"		"234 234 234 255"
 	}
 	"TargetNameLabelTopS"
 	{	

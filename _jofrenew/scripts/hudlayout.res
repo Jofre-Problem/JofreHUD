@@ -1,7 +1,20 @@
 #base "../uni_base/panel/1.res"
+//#base "../resource/ui/hudteamgoal.res"
 //#base "../spacer.res"
 "Resource\HudLayout.res"
 {
+	HudTeamGoal
+{
+"fieldName""HudTeamGoal"
+
+
+"xpos""0"
+"ypos""0"
+////"ypos_lodef""75"
+"wide""f0"
+"tall""f0"
+}
+
 	HudControlPointIcons
 	{
 		"xpos"					"0"

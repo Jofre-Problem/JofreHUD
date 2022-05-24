@@ -13,7 +13,10 @@
 	{
 		"wide"			"0"
 	}	
-
+	"ConfirmButtonNew"
+	{
+		"labelText"		"M"//"M"//"y"
+	}	
 	
 	"ConfirmButtonHintIcon"
 	{

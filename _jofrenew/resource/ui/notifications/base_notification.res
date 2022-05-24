@@ -14,7 +14,7 @@
 		"visible"		"0"
 		//"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg"
-		"scaleImage"	"1"
+		"scaleImage"	"0"
 	}
 	
 	"Notification_Icon"	
@@ -48,6 +48,6 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"CustomOctavo"
+		"font"			"Noto10"
 	}
 }
