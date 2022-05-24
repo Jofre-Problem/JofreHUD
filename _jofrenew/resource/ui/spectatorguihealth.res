@@ -21,7 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID"
 		"xpos"			"0"
-		"ypos"			"11-2"
+		"ypos"			"11-7"
 		"zpos"			"5"
 		"wide"			"654"
 		"tall"			"20"
@@ -114,6 +114,47 @@
 		"font"			"SpecTargetIDhp"
 		"fgcolor"		"0 0 0 100"
 	}
+					"ProgressBarH1"
+					{
+						"ControlName"	"ProgressBar"
+						"fieldName"		"ProgressBarH1"
+						"xpos"			"296"
+						"ypos"			"21"
+						"wide"			"60"
+						"tall"			"5"
+						"zpos"			"1"
+						"variable"		"health"
+
+						"fgcolor_override"	"15 155 46 255"
+						"bgcolor_override"	"0 0 0 0"
+					}
+					"ProgressBarH2"
+					{
+						"ControlName"	"ProgressBar"
+						"fieldName"		"ProgressBarH2"
+						"xpos"			"-3"
+						"ypos"			"0"
+						"wide"			"60"
+						"tall"			"5"
+						"zpos"			"2"
+						"variable"		"health"
+						"pin_to_sibling" "ProgressBarH1"
+
+						"fgcolor_override"	"15 155 46 255"
+						"bgcolor_override"	"0 0 0 0"
+					}
+					"ProgressBarBG"
+					{
+						"ControlName"	"ImagePanel"
+						"fieldName"		"ProgressBarBG"
+						"xpos"			"0"
+						"ypos"			"0"
+						"wide"			"64"
+						"tall"			"5"
+						"zpos"			"0"
+						"pin_to_sibling" "ProgressBarH1"
+						"fillcolor"	"0 0 0 255"
+					}					
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"

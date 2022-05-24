@@ -27,7 +27,7 @@
 		"font"			"DamageText"
 		"fgcolor"		"255 215 0 0" //255
 		"xpos"			"c-50"
-		"ypos"			"c17"
+		"ypos"			"c17-4"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"30"
@@ -43,8 +43,8 @@
 		"fieldName"		"DamageAccountLabelShadow"
 		"font"			"DamageTextShadow"
 		"fgcolor"		"0 0 0 0" //150
-		"xpos"			"c-50"
-		"ypos"			"c18"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"100"
 		"tall"			"31"
@@ -52,6 +52,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
+		"pin_to_sibling"	"DamageAccountLabel"
 	}
 
 

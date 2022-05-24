@@ -29,7 +29,7 @@
 //		"HealthBonusPosAdj"	"73"//51
 		"HealthDeathWarning"	"1.0"
 		"HealthDeathWarningColor"	"255 255 255 255"
-	}	
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"

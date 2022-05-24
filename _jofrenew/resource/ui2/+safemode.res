@@ -551,7 +551,7 @@
 			"LeaveSafeModeButton"
 			{
 				"ControlName"	"CExButton"
-				"fieldName"		"SubButton"
+				"fieldName"		"LeaveSafeModeButton"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"11"

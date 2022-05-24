@@ -329,7 +329,31 @@
 	{
 		"alpha"			"0"
 	}
-	
+	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetDataLabelUberFullBG"
+		"font"			"SpecTargetIDuberfull" [$WINDOWS]
+		"font"			"Blank"	[$LINUX]
+		"xpos"			"34"
+		"ypos"			"420" //420
+		"zpos"			"1"
+		"wide"			"1500"
+		"tall"			"15" //15
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1" 
+		"enabled"		"0"	[$LINUX]
+		"enabled"		"1"	[$WINDOWS]
+		"labelText"		"#TIDdatafulluber" [$WINDOWS]
+		"labelText"		""	[$LINUX]
+		//basically checks for 4 of a combo of numbers and %
+		// ammo never gets to 4 digits big and names never contain either so we're good boys
+		"textAlignment"		"east"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor"		"150 245 0 80"
+	}	
 	"KillStreakIcon"
 	{
 		"alpha"			"0"
