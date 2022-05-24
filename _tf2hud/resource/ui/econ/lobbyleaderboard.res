@@ -40,7 +40,7 @@
 "tall""w1"
 //"visible""1"
 
-"image""animated/tf2_logo_hourglass"
+"image""replay/thumbnails/misc/spinner"
 "scaleImage""1"
 "proportionaltoparent" "1"
 "asynchandling""show"

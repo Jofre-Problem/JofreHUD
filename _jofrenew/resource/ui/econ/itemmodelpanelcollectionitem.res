@@ -27,7 +27,7 @@
 		"visible"		"0"
 		//"enabled"		"1"
 		"paintborder"	"0"
-		"image"			"animated/tf2_logo_hourglass"
+		"image"			"replay/thumbnails/misc/spinner"
 		"scaleImage"	"1"
 	}
 

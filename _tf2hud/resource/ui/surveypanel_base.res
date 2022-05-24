@@ -65,7 +65,7 @@
 "tall""80"
 //"visible""1"
 
-"image""animated/tf2_logo_hourglass"
+"image""replay/thumbnails/misc/spinner"
 
 "proportionaltoparent""1"
 }

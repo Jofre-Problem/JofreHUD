@@ -263,7 +263,7 @@
 
 
 
-		"item_ypos"		"45"	//loadout btn position bruh
+		"item_ypos"		"50"	//loadout btn position bruh
 	//	"item_backpack_ydelta"			"-90"
 
 

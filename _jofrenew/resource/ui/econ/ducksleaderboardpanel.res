@@ -45,7 +45,7 @@
 			"tall"			"100"
 			"visible"		"1"
 			//"enabled"		"1"
-			"image"			"animated/tf2_logo_hourglass"
+			"image"			"replay/thumbnails/misc/spinner"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
 			"asynchandling"	"loading"
@@ -90,7 +90,7 @@
 		"Description"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Title"
+			"fieldName"		"Description"
 			"font"			"HudFontSmall"
 			"labelText"		"%description%"
 			"textAlignment"	"north"

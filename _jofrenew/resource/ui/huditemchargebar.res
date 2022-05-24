@@ -40,7 +40,7 @@
 		"MeterFG"		"245 245 245 255"
 		"MeterBG"		"0 0 0 100"
 		"fgcolor_override"	"245 245 245 255"
-		"bgcolor_override"	"0 0 0 190"
+		"bgcolor_override"	"0 0 0 210"
 	}	
 	"MMBackgroundPanel"
 	{
@@ -49,7 +49,7 @@
 		"zpos"			"0"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"4"
+		"tall"			"3"
 		"pin_to_sibling"	"ItemEffectMeter"
 	}						
 }

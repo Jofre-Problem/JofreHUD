@@ -1,88 +1,100 @@
 "Account.res"
-{
-
-	
-        
-               
-                digits1
+{ 
+ 
+	MDigits
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits1"
-		"xpos"					"r65"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
+		"fieldName"				"MDigits"
+		"xpos"					"cs-0.5-20"
+								//adds the -13 -12 from down there
+		"ypos"					"2"
+		"zpos"					"6000"
+		"wide"					"10"
+		"tall"					"o2"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_1"
+		"image"					"replay/thumbnails/timer/digits_1"
 		"scaleImage"			"1"
 	}
               
-                  digits2
+     MDigits2
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits2"
-		"xpos"					"r52"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
+		"fieldName"				"MDigits2"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6000"
+		"wide"					"10"
+		"tall"					"o2"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_2"
+		"image"					"replay/thumbnails/timer/digits_2"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MDigits"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	}
 
-                hmm
+     MhM
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"hmm"
-		"xpos"					"r42"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
+		"fieldName"				"MhM"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6000"
+		"wide"					"10"
+		"tall"					"o2"
+		"image"					"replay/thumbnails/timer/hmm"
+		"scaleImage"			"1"
+		"pin_to_sibling"		"MDigits2"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}
+
+
+      MDigits3
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"MDigits3"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6000"
+		"wide"					"10"
+		"tall"					"o2"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/hmm"
+		"image"					"replay/thumbnails/timer/digits_3"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MhM"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	}
 
 
-                digits3
+     "MDigits4"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"digits3"
-		"xpos"					"r32"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
+		"fieldName"				"MDigits4"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6000"
+		"wide"					"10"
+		"tall"					"o2"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_3"
+		"image"					"replay/thumbnails/timer/digits_4"
 		"scaleImage"			"1"
+		"pin_to_sibling"		"MDigits3"	
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	}
+	
+  
+	
+}
 
-
-               digits4
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits4"
-		"xpos"					"r19"
-		"ypos"					"130"
-		"zpos"					"-2"
-		"wide"					"13"
-		"tall"					"26"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay\thumbnails/timer/digits_4"
-		"scaleImage"			"1"
-	}}
 
