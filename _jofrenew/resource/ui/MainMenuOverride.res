@@ -316,10 +316,34 @@
 	"CallVoteButton"
 	{
 	//	"wide"			"0"
+			"defaultBgColor_override" 				"W_ColorTheme1"
+			"armedBgColor_override" 				"W_BorderArmed"
+			"depressedBgColor_override" 			"W_ColorTheme1"
+			
+			"defaultFgColor_override" 				"W_ColorIcons1"
+			"armedFgColor_override" 				"W_ColorIcons1"
+			"depressedFgColor_override" 			"W_ColorIcons1"
+			"border"			"ButtonDefaultLight"
+			"border_override"	"ButtonDefaultLight"
+			"border_default"	"ButtonDefaultLight"
+			"border_armed"		"ButtonDefault"
+			"border_depressed"	"ButtonDefault"					
 	}
 	"MutePlayersButton"
 	{
 	//	"wide"			"0"
+				"defaultBgColor_override" 				"W_ColorTheme1"
+			"armedBgColor_override" 				"W_BorderArmed"
+			"depressedBgColor_override" 			"W_ColorTheme1"
+			
+			"defaultFgColor_override" 				"W_ColorIcons1"
+			"armedFgColor_override" 				"W_ColorIcons1"
+			"depressedFgColor_override" 			"W_ColorIcons1"
+			"border"			"ButtonDefaultLight"
+			"border_override"	"ButtonDefaultLight"
+			"border_default"	"ButtonDefaultLight"
+			"border_armed"		"ButtonDefault"
+			"border_depressed"	"ButtonDefault"		
 	}
 	"RequestCoachButton"
 	{
@@ -328,6 +352,18 @@
 	"ReportPlayerButton"
 	{
 	//	"wide"			"0"
+				"defaultBgColor_override" 				"W_ColorTheme1"
+			"armedBgColor_override" 				"W_BorderArmed"
+			"depressedBgColor_override" 			"W_ColorTheme1"
+			
+			"defaultFgColor_override" 				"W_ColorIcons1"
+			"armedFgColor_override" 				"W_ColorIcons1"
+			"depressedFgColor_override" 			"W_ColorIcons1"
+			"border"			"ButtonDefaultLight"
+			"border_override"	"ButtonDefaultLight"
+			"border_default"	"ButtonDefaultLight"
+			"border_armed"		"ButtonDefault"
+			"border_depressed"	"ButtonDefault"		
 	}		
 		
 
@@ -352,7 +388,7 @@
 		ControlName				EditablePanel
 		FieldName				"Notifications_ShowButtonPanel"
 		xPos					cs-0.5
-		yPos					120
+		yPos					50
 		zPos					30
 		"wide"			"p0.065"
 		"tall"			"40"
@@ -430,20 +466,20 @@
 		{
 			ControlName				CExLabel
 			fieldName				"Notifications_CountLabel"
-			xpos					4
-			ypos					4
+			xpos					6
+			ypos					2
 			zpos					2
-			wide					16
-			tall					o1
+			wide					20
+			tall					16
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"ItemTrackerScore_InGame"
+			font					"NotoBold10"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"W_ColorIcons1"
+			fgcolor_override			"W_ColorTheme1"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"

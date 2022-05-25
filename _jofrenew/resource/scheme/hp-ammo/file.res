@@ -43,7 +43,8 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "26"
+				"tall" "26"	[$WINDOWS]
+				"tall" "14" [$LINUX]
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -53,7 +54,8 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "26"
+				"tall" "26"	[$WINDOWS]
+				"tall" "14" [$LINUX]
 				"antialias"	"1"
 			}
 		}
@@ -540,7 +542,8 @@ Scheme
 		}	
 		"60"
 		{
-			"font" "_jofrenew/font/LowAmmoWarningZero.ttf"
+			"font" "_jofrenew/font/LowAmmoWarningZero.ttf" 	[$WINDOWS]
+			"font" "_jofrenew/font/LowAmmoWarning-Zero-linux.otf" 	[$LINUX]
 			"name" "LowAmmoWarning Zero"
 		}
 		"61"
@@ -568,7 +571,12 @@ Scheme
 		{
 			"font" "_jofrenew/font/OpenSans-Nodash.ttf"
 			"name" "Open Sans Nodash"
-		}				
+		}
+		"137"
+		{
+			"font" "_jofrenew/font/Blank.otf"
+			"name" "Blank"
+		}							
 	}	
 }
 

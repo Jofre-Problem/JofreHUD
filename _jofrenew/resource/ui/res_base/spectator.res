@@ -11,8 +11,9 @@
 }
 			"1_image"
 			{
+				"xpos"		"cs-0.5"
 				"zpos"			"-200"
-				"wide"			"f0"
+				"wide"			"100"
 				"tall"			"19"
 				"fillColor"			"W_ColorTheme2"
 			}	

@@ -510,7 +510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Segoe UI"
+				"name"			"Blank"
 				"tall"			"1"
 				"weight"		"100"
 				"additive"		"0"

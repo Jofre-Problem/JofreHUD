@@ -35,7 +35,7 @@
 		"zpos"			"2"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"3"
+		"tall"			"1"
 		"textAlignment"		"Left"
 		"MeterFG"		"245 245 245 255"
 		"MeterBG"		"0 0 0 100"
@@ -49,7 +49,7 @@
 		"zpos"			"0"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"3"
+		"tall"			"2"
 		"pin_to_sibling"	"ItemEffectMeter"
 	}						
 }
