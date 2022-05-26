@@ -1,6 +1,7 @@
 
 	
 	#base "borders.res"
+	#base "product.res"
 	#base "scheme/hp-ammo/file.res"
 	// replaces scheme-res
 	#base "apple.res"

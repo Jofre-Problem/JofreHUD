@@ -1,9 +1,10 @@
 #base "../ui2/polybar_1.res"
 #base "../ui2/multiple-bg.res"
-#base "../uni_base/cexlabel/o.res"
-#base "../uni_base/cexlabel/tf2.res"
+//#base "../uni_base/cexlabel/o.res"
+//#base "../uni_base/cexlabel/tf2.res"
 #base "../ui2/polyconfig1.res"
 #base "../uni_base/image/1.res"
+#base "../../ui_overrides/full-timer/file.res"
 "Resource/UI/MapInfoMenu.res"
 {
 	"MMBackgroundPanel"
@@ -11,7 +12,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MMBackgroundPanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"16"
+		"ypos"			"rs1"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"2"
@@ -19,10 +20,10 @@
 		"PaintBackgroundType"	"0"
 	}
 
-	"o_label"
-	{
-		"xpos"			"rs1-120"
-	}	
+//	"o_label"
+//	{
+//		"xpos"			"rs1-120"
+//	}	
 
 	"info"
 	{
@@ -38,12 +39,13 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
+		
 	}
 	"1_image"
 	{
 		"zpos"			"-10"
 		"wide"			"f0"
-		"tall"			"16"
+		"tall"			"f0"
 		"fillcolor"		"34 34 34 255"
 	}
 	
@@ -80,7 +82,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Noto18"
+		"font"			"Suze 14"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -116,16 +118,16 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-80"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"28"
-		"labelText"		"CONTINUE"//"→"
+		"wide"			"60"
+		"tall"			"f0"
+		"labelText"		">"//"→"
 		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"NotoBold28"
+		"font"			"Size 40"
 		
 		"fgcolor"		"NotoMenuText"
 		"defaultFgColor_override" "NotoMenuText"

@@ -16,10 +16,10 @@
 	}
 			"bell"
 			{
-			xpos					c-150
-				ypos					0
-				wide					25
-				tall					25
+			xpos					c-140
+				ypos					7
+				wide					16
+				tall					o1
 			}
 	"TextLabel"
 	{	
