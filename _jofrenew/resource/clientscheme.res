@@ -568,6 +568,16 @@ Scheme
 				"wide"		"300"
 			}
 		}	
+		"Future40"
+		{
+			"1"
+			{
+				"name"		"Future Rot"
+				"tall"		"40"
+				"antialias" 	"1"
+				"wide"		"300"
+			}
+		}			
 		"Future30"
 		{
 			"1"

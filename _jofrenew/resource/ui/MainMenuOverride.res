@@ -470,7 +470,7 @@
 			ypos					2
 			zpos					2
 			wide					20
-			tall					16
+			tall					14
 			proportionalToParent		1
 			mouseInputEnabled			0
 
