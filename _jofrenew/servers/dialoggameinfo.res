@@ -1,5 +1,14 @@
+#base "../resource/ui2/multiple-bg.res"
 "Servers\DialogGameInfo.res"
 {
+	"MMBackgroundPanel"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+	//	"zpos"			"-19"
+		"wide"			"f0"
+		"tall"			"3"
+		}		
 	"DialogGameInfo"
 	{
 		"ControlName"		"CDialogGameInfo"
@@ -426,7 +435,7 @@
 		"tabPosition"		"0"
 		"labelText"		"12"
 		"textAlignment"		"west"
-		"fgcolor_override"	"98 174 239 255"
+		"fgcolor_override"	"35 255 0 255"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"		"0"

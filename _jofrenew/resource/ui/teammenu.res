@@ -1,5 +1,5 @@
 // Team selection
-#base "../#jofre/blur_bg.res"
+//#base "../#jofre/blur_bg.res"
 #base "../ui2/polybar_1.res"
 #base "../uni_base/cexlabel/tf2.res"
 #base "../uni_base/cexlabel/o.res"
@@ -42,8 +42,8 @@
 		
 		paintbackground			0
 		
-		image_drawcolor			"13 117 190 50"
-		image_armedcolor			"13 117 190 100"
+		image_drawcolor			"13 117 190 150"
+		image_armedcolor			"13 117 190 255"
 		
 		"SubImage"
 		{
@@ -69,7 +69,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%bluecount%"
-		font			  		"Noto56"
+		font			  		"CustomOctavo"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -94,8 +94,8 @@
 		
 		paintbackground			0
 
-		image_drawcolor			"190 45 57 50"
-		image_armedcolor			"190 45 57 100"
+		image_drawcolor			"190 45 57 150"
+		image_armedcolor			"190 45 57 255"
 		
 		"SubImage"
 		{
@@ -121,7 +121,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%redcount%"
-		font			  		"Noto56"
+		font			  		"CustomOctavo"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -146,7 +146,7 @@
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"CustomQuinto"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -186,7 +186,7 @@
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"CustomQuinto"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"

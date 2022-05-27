@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"ProductBold40"//"DefaultVerySmall"
+		"font"			"Size 48"//"DefaultVerySmall"
 		"fgcolor_override"		"tanlight"
 	}
 	"PlayerStatusHealthValueMainS"
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"ProductBold40blur"//"DefaultVerySmall"
+		"font"			"Size 48 Blur"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 120"
 	}
 
@@ -77,47 +77,13 @@
 		"ypos"			"0"
 		"zpos"			"14"
 		"wide"			"0"
-		"tall"			"19"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/white"
-		"border"			"blurborder"
 		"scaleImage"	"1"
 	}
 
-	"NORMBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NORMBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"0"
-		"alpha"			"255"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"180 180 180 0"
-		"border"			"blurborder"
-		"scaleImage"	"1"
-
-	}
-
-	"BuffBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuffBG"
-		"xpos"			"0"
-		"ypos"			"17"
-		"zpos"			"14"
-		"wide"			"0"
-		"alpha"			"0"
-		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"			"47 185 123 255"
-		"scaleImage"	"1"
-	}
 	
 
 	"PlayerStatusPlayerLevel"

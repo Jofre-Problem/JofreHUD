@@ -1,207 +1,232 @@
-//#base "../#jofre/blur_bg.res"
-#base "../../ui_overrides/summer-border/file.res"
-//#base "../#jofre/blur_bg.res"
-#base "../ui2/polybar_1.res"
-#base "../ui2/multiple-bg.res"
-//#base "../ui2/polyconfig1.res"
-#base "../uni_base/image/1.res"
-//#base "../uni_base/cexlabel/o.res"
-//#base "../uni_base/cexlabel/tf2.res"
-#base "../uni_base/misc/party.res"
 #base "../../ui_overrides/full-timer/file.res"
+#base "../../ui_overrides/summer-border/file.res"
+#base "../ui3/tank_gif.res"
 "Resource/UI/MapInfoMenu.res"
 {
-	"MMBackgroundPanel"
-	{
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"2"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-	}
-
-	"mapinfo"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"bgcolor_override" "0 0 0 110"
-		"autoResize"	"1"
-	}
-//	"o_label"
-//	{
-//		"xpos"			"rs1-90"
-//	}	
-
-	
-	"1_image"
-	{
-		"zpos"			"-50"
-		"wide"			"f0"
-		"tall"			"18"
-		"fillcolor"		"34 34 34 255"
-	}
-	"MapInfoTitleBG1"
-	{
-		"ControlName"	"Imagepanel"
-		"fieldName"		"MapInfoTitleBG1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"20"
-		"drawcolor_override"	"0 0 0 90"
-		"image"		"replay/thumbnails/l4d2/menu_backgroud_top"
-		"scaleImage"	"1"
-		"pin_to_sibling"	"MapInfoTitle"
-		"pin_corner_to_sibling"					"6"
-		"pin_to_sibling_corner"					"4"
-	}
-	"MapInfoTitleBG2"
-	{
-		"ControlName"	"Imagepanel"
-		"fieldName"		"MapInfoTitleBG2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"20"
-		"drawcolor_override"	"0 0 0 90"
-		"image"		"replay/thumbnails/l4d2/menu_backgroud_bottom"
-		"scaleImage"	"1"
-		"pin_to_sibling"	"MapInfoTitle"
-		"pin_corner_to_sibling"					"4"
-		"pin_to_sibling_corner"					"6"
-	}			
-	"MapInfoTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoTitle"
-		"xpos"			"0"
-		"ypos"			"cs-0.5-80"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"45"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%mapname%"
-		"textAlignment"	"center"
-		"font"			"Future40"
-		"fgcolor"		"NotoWhite"
-	//	"auto_wide_tocontents"	"1"
-		"bgcolor_override"		"0 0 0 90"
-	}
-	
-	"MapInfoType"
-	{
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"16"
-		"labelText"		"%gamemode%"
-		"textAlignment"	"west"
-		"font"			"NotoBold14"
-		"allcaps"	"1"
-		"fgcolor"		"NotoWhite"
-		"bgcolor_override"	"0 0 0 0"	
-	}	
-	
-	"MapInfoText"
-	{
-		"ControlName"	"CExRichText"
-		"fieldName"		"MapInfoText"
-		"font"			"NotoBold14"
-		"xpos"			"cs-0.5"
-		"ypos"			"50" 
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintborder"	"0"
-		"textAlignment"	"west"
-		"fgcolor"		"NotoWhite"
-		"MaximumWidth"	"150"
-	}
-	
-	"MapImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"275"
-		"tall"			"275"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"		
-	}
-	
-	"MapInfoContinue" 
-	{
-		"xpos"			"rs1-5"
-		"ypos"			"rs1-5"
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"16"
-		"labelText"		"CONTINUE"//"→"
-		"textAlignment"		"center"
-		"default"		"1"
-		"font"			"Size 12"
-
-		"default"		"1"
-		"font"			"NotoBold28"
-		
-		"fgcolor"		"NotoMenuText"
-		"defaultFgColor_override" "NotoMenuText"
-		"armedFgColor_override" "NotoMenuText2"
-		"depressedFgColor_override" "NotoMenuText2"
-	}
-		"MapInfoBack" 
-		{
-		"ControlName""CExButton"
-		"fieldName""MapInfoBack"
-		"xpos"			"rs1-5"
-		"ypos"			"rs1-35"
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"16"
-		"textAlignment"		"center"
-		"default"		"1"
-		"font"			"Size 12"
-		"fgcolor""Black"
-		}
-
 		"SummerBorder"
 		{
 		"xpos""cs-0.5"
 		"ypos""45"
 			//"pin_to_sibling"	"PartySlot0"
 				//cant pin
-		}			
+		}	
+			"tank_gif"
+			{
+			"xpos""cs-0.5"
+			"ypos""rs1-120"
+			"zpos""7"
+			"wide""32"
+			"tall""o1"
+			}		
+	"Removeline"
+	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+			xpos					cs-0.5
+			ypos					50
+			zpos					100
+			wide					42
+			tall					41
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
+
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					42
+			tall					o1
+
+			party_slot				0
+		}	
+	}			
 	"MenuBG"
 	{
-		"tall"			"0"
-	}					
+		"wide"		"0"
+	}	
+	"mapinfo"
+	{
+		"ControlName"	"Frame"
+		"fieldName"		"mapinfo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 
+	"MapInfoTitle"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoTitle"
+		"xpos"			"c-150"
+		"ypos"			"r326"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%mapname%"
+		"textAlignment"	"center"
+		"font"			"Size 14"
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	"MapInfoType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoType"
+		"xpos"			"c-143"
+		"ypos"			"r300"
+		"zpos"			"3"
+		"wide"			"135"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%gamemode%"
+		"textAlignment"	"west"
+		"font"			"Size 8"
+		"fgcolor"		"255 255 255 255"
+	}
+
+	
+	
+	"MapInfoText"
+	{
+		"ControlName"	"CTFRichText"
+		"fieldName"		"MapInfoText"
+		"font"			"Size 9"
+		"xpos"			"c-147"
+		"ypos"			"r281"
+		"zpos"			"3"
+		"wide"			"291"
+		"tall"			"96"
+		"autoResize"	"3"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintborder"	"0"
+		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
+	}
+	
+	"MapInfoContinue" 
+	{
+		"ControlName"	"CTFButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"c-150"
+		"ypos"			"r176"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#CContinue"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"Size 14"
+		"fgcolor"		"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "W_borderarmed"
+		"depressedFgColor_override" "White"
+	}
 	"ShadedBar"
 	{
-		"wide"			"0"
-	}	
-
-	"Footer" [$X360]
+		"wide"		"0"
+	}		
+	"MapInfoWatchIntro" 
 	{
-"wide"			"0"
+		"ControlName"	"CTFButton"
+		"fieldName"		"MapInfoWatchIntro"
+		"xpos"			"c12"
+		"ypos"			"r300"
+		"zpos"			"3"
+		"wide"			"135"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WatchIntro"
+		"textAlignment"	"east"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"intro"
+		"default"		"1"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"Size 8"
+		"fgcolor"		"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "W_borderarmed"
+		"depressedFgColor_override" "White"
+	}
+
+	"MapInfoBack" 
+	{
+		"ControlName"	"CTFButton"
+		"fieldName"		"MapInfoBack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Back"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+		"font"			"Noto16"
+		"fgcolor"		"Blank"
+		"defaultFgColor_override" "Blank"
+		"armedFgColor_override" "Blank"
+		"depressedFgColor_override" "Blank"
 	}	
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"11111"
+		"ypos"			"11111"
+		"zpos"			"2"
+		"wide"			"0"
+		"wide_hidef"			"0"
+		"wide_lodef"	"0"
+		"tall"			"0"
+		"tall_hidef"			"0"
+		"tall_lodef"	"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"	"1"	
+	}
+	
+	
+	
 }

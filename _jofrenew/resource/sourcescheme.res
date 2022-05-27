@@ -34,8 +34,10 @@ Scheme
 		"FrameTitleBar.Font"		"Blank"	
 		ScrollBarSlider.FgColor								"W_ColorIcons1"
 		ScrollBarSlider.BgColor								"blank"
-		ScrollBar.Wide					"6"
+		ScrollBar.Wide					"60"//"70"//"10"
 		ScrollBarButton.FgColor					"Blank"	
+		ScrollBarButton.ArmedFgColor					"Blank"	
+		ScrollBarButton.DepressedFgColor					"Blank"	
 		TextEntry.SelectedTextColor	"69 64 57 255"
 		TextEntry.SelectedBgColor	"210 210 210 255"
 		}

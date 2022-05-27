@@ -120,7 +120,7 @@ Scheme
 //		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor								"W_ColorIcons1"
+		ScrollBarSlider.FgColor								"35 255 0 255"//w_coloricons1
 		ScrollBarSlider.BgColor								"blank"
 
 
