@@ -150,11 +150,14 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"UberCheckmark"
 		"fgcolor"		"236 240 241 255"
-		"xpos"			"88"
-		"ypos"			"-5"
+		"xpos"			"88"	[$WINDOWS]
+		"ypos"			"-5"	[$WINDOWS]
+		"xpos"			"86"	[$LINUX]
+		"ypos"			"-19"	[$LINUX]		
 		"zpos"			"10"
 		"wide"			"37"
-		"tall"			"35"
+		"tall"			"35"	[$WINDOWS]
+		"tall"			"45"	[$LINUX]
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
@@ -234,7 +237,8 @@
 		"ypos"			"-5"
 		"zpos"			"6"
 		"wide"			"5000"
-		"tall"			"40"
+		"tall"			"40" [$WINDOWS]
+		"tall"			"0" [$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	

@@ -218,71 +218,7 @@
 	}
 	//healthshadow was here u kno
 	
-	
-	"PlayerStatusHealthValueLudicriousOverhealBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueLudicriousOverhealBG"
-//		"xpos"			"-1411"
-		"ypos"			"-10"
-		"zpos"			"60"
-		"wide"			"5124"
-		"tall"			"44"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#healthhighBG"
-		"textAlignment"	"west"	
-		"font"			"HighHealthBG"
-		"fgcolor"		"35 35 35 255"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealBG2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueLudicriousOverhealBG2"
-//		"xpos"			"-1524"
-		"ypos"			"-10"
-		"zpos"			"150"
-		"wide"			"1600"
-		"tall"			"44"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#healthhighBG"
-		"textAlignment"	"west"	
-		"font"			"HighHealthBG"
-		"fgcolor"		"110 255 25 255"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealIcon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueLudicriousOverhealIcon"
-//		"xpos"			"-1524"
-		"ypos"			"-15"
-		"zpos"			"2151"
-		"wide"			"1600"
-		"tall"			"44"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#healthhighBG"
-		"textAlignment"	"west"	
-		"font"			"HighHealthIcon"
-		"fgcolor"		"255 255 255 255"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealLoads"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueLudicriousOverhealLoads"
-//		"xpos"			"-1203"
-		"ypos"			"-13"
-		"zpos"			"150"
-		"wide"			"1600"
-		"tall"			"44"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#healthhighBG"
-		"textAlignment"	"west"	
-		"font"			"HighHealth"
-		"fgcolor"		"110 255 25 255"
-	}
+
 //	"PlayerStatusHealthValueLowester2"
 //	{
 //		"ControlName"	"CExLabel"
@@ -324,6 +260,7 @@
 //		"xpos"			"-139"//-326
 		"ypos"			"0"
 		"zpos"			"200"
+		"textinsetx"		"-28" [$LINUX]
 		"wide"			"1"
 		"tall"			"0"
 		"visible"		"1"

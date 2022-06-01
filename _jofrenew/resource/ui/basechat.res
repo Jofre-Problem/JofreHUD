@@ -11,7 +11,7 @@
 		"wide"	 		"250"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 0"		//this changes the bg u kno (minus except for the alpha), except I bs it with animations anyway (which does change alpha :B )
+		"bgcolor_override" "0 0 0 0"
 	}
 
 	ChatInputLine
@@ -20,7 +20,8 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"
+		"xpos"			"-12" [$WINDOWS]
+		"xpos"			"0" [$LINUX]
 		"ypos"			"395"
 		"wide"	 		"250" //350
 		"tall"	 		"2"

@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"15"
+		"wide"			"f0"
+		"tall"			"3"
 		"visible"		"1"
 
 	"MMBackground1"

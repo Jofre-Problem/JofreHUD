@@ -22,7 +22,7 @@
 "InfoLabel"
 {
 "ControlName""Label"
-"fieldName""HostNameLabel"
+"fieldName""InfoLabel"
 "Font""DefaultLarge"
 "xpos""10"
 "ypos""10"
@@ -62,7 +62,7 @@
 "AcceptLabel"
 {
 "ControlName""Label"
-"fieldName""HostNameLabel"
+"fieldName""AcceptLabel"
 "Font""DefaultLarge"
 "xpos""10"
 "ypos""50"

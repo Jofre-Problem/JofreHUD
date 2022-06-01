@@ -1,7 +1,42 @@
 #base "..\..\overrides\crosshair_in_scoreboard\file.res"
+#base "../../ui_overrides/summer-border/file.res"
 //#base "../ui_overrides/ui/summersale_border.res"
 "Resource/UI/Scoreboard.res"
 {
+		"SummerBorder"
+		{
+		"xpos""cs-0.5"
+		"ypos""45-20"
+		"wide"	"40"
+		"tall"	"o1"
+			//"pin_to_sibling"	"PartySlot0"
+				//cant pin
+		}	
+	"Removeline"
+	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+			xpos					cs-0.5
+			ypos					50-20
+			zpos					100
+			wide					32
+			tall					31
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
+
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					32
+			tall					o1
+
+			party_slot				0
+		}	
+	}			
 	"scores"
 	{
 		"xpos"			"0"
@@ -9,7 +44,7 @@
 		"zpos"			"9999"
 		"wide"			"f0"
 		"tall"			"480"
-		"medal_width"		"0"
+		"medal_width"		"20"
 		"avatar_width"		"64"
 		"spacer"			"3"
 		"name_width"		"118"
@@ -22,49 +57,8 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
-	"BlueScoreBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG"
-		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"p0.5"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"0"
-		"fillcolor"		"52 152 219 255"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"BlueScoreBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"101"
-		"wide"			"22"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"30 30 30 255"
-		"pin_to_sibling"	"BlueScoreBG"
 
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+
 	"TopBarScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -73,13 +67,13 @@
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"9"
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"40 40 40 255"
+		"fillcolor"		"0 0 0 255"
 		
 		if_mvm
 		{
@@ -100,42 +94,101 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 160"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"BlueTeamImage"
+	"Lnie"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueTeamImage"
+		"fieldName"		"Lnie"
 		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"1000"
-		"wide"			"20"
-		"tall"			"20"
+		"ypos"			"0"
+		"zpos"			"-1000"
+		"wide"			"p0.595"
+		"tall"			"p0.0015"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/team_blue"
 		"scaleImage"		"1"
-
+		"fillcolor"		"255 255 255 255"
+		
+		"pin_to_sibling"	"BluePlayerList"
+		"pin_corner_to_sibling"	"4"
+		"pin_to_sibling_corner"	"3"
 		if_mvm
 		{
 			"visible"		"0"
 		}
+	}	
+	"bgv1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"bgv1"
+		"xpos"			"5"
+		"ypos"			"100"
+		"zpos"			"-1000"
+		"wide"			"90"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+		"fillcolor"		"0 0 0 140"
+	}		
+	"ChatLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"ChatLabel"
+		"xpos"		"0"
+		"ypos"		"0"
+		
+		"wide"		"23"
+		"tall"		"20"
+		"labelText"		"z"
+		"textAlignment"		"center"
+		"fgcolor_override"		"W_ColorIcons1"
+		"font"					"NewIcons12"	
+		"pin_to_sibling"	"bgv1"	
+	}	
+	"ChatSlider"
+	{
+		"ControlName"		"CCVarSlider"
+		"fieldName"		"ChatSlider"
+		"xpos"		"5"
+		"ypos"		"-5"
+		"wide"		"55"
+		"zpos"		"100"
+		"tall"		"15"
+		"leftText"		"0"
+		"rightText"		"15"
+		"minvalue"		"0"
+		"maxvalue"		"15"
+		"cvar_name"		"hud_saytext_time"
+		"allowoutofrange"		"0"
+		"pin_to_sibling"	"ChatLabel"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+	}	
+	"BlueTeamImage"
+	{
+		"wide"			"0"
 	}
-	
+
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c0"
-		"ypos"			"10"
+		"ypos"			"100-20"
 		"zpos"			"100"
-		"wide"			"p0.5"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -149,45 +202,54 @@
 			"visible"		"0"
 		}
 	}
-	"RedScoreBG2"
+	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"RedScoreBG2"
-		"xpos"			"r22"
-		"ypos"			"10"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"100"
+		"wide"			"30"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"0"
+		"fillcolor"		"52 152 219 255"
+		"pin_to_sibling"	"RedScoreBG"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"2"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueScoreBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG2"
+		"xpos"			"0"
+		"ypos"			"-1"
 		"zpos"			"101"
-		"wide"			"22"
+		"wide"			"60"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"30 30 30 255"
+		"fillcolor"		"30 30 30 100"
+		"pin_to_sibling"	"BlueScoreBG"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}
+	}			
 	"RedTeamImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedTeamImage"
-		"xpos"			"r20"
-		"ypos"			"10"
-		"zpos"			"1000"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/team_red"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}
 	"MainBG"
 	{
@@ -234,21 +296,15 @@
 	}							
 	"BlueTeamScore"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScore"
-		"font"			"NotoBold28"
-		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"c-105"
-		"ypos"			"9" 
+		"font"			"NotoBold20"
+
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0" 
 		"zpos"			"1005"
-		"wide"			"100"
-		"tall"			"21"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
+		"wide"			"30"
+		"tall"			"20"
+		"pin_to_sibling"	"BlueScoreBG2"
 		if_mvm
 		{
 			"visible"		"0"
@@ -256,39 +312,21 @@
 	}
 	"BlueTeamScoreDropshadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
-		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"176"
-		"ypos"			"13" 
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"NotoBold24"
+		"font"			"Noto8"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"p0.5"
-		"tall"			"20"
+		"wide"			"50"
+		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"pin_to_sibling"	"BlueScoreBG"
+		"bgcolor_override"	"30 30 30 0"
+		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
 			"visible"		"0"
@@ -318,21 +356,15 @@
 	}							
 	"RedTeamScore"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScore"
-		"font"			"NotoBold28"
-		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"c5"
-		"ypos"			"9" 
+		"font"			"NotoBold20"
+
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"-1" 
 		"zpos"			"1005"
-		"wide"			"100"
-		"tall"			"21"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
+		"wide"			"30"
+		"tall"			"20"
+		"pin_to_sibling"	"RedScoreBG"
 		if_mvm
 		{
 			"visible"		"0"
@@ -363,44 +395,23 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"NotoBold24"
+		"font"			"Noto8"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"p0.5"
-		"tall"			"20"
+		"wide"			"50"
+		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"pin_to_sibling"	"RedScoreBG"
+		"bgcolor_override"	"30 30 30 0"
+		"pin_to_sibling"	"RedPlayerList"
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"DefaultMiniFont"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
-	}
+
 	"TimerBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -441,12 +452,13 @@
 			"visible"		"0"
 		}
 	}
+
 	"ServerTimeLeftLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"CodeOutline1"
-		"labelText"		"#scoreboard_top_list"
+		"font"			"Size 8"
+	//	"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
@@ -469,10 +481,10 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"0"
-		"ypos"			"20" //16 //-15
+		"ypos"			"0" //16 //-15
 		"zpos"			"20"
-		"wide"			"p0.5"
-		"tall"			"410"
+		"wide"			"p0.3"
+		"tall"			"253"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -482,7 +494,10 @@
 		"linegap"		"0"
 		"fgcolor"		"15 140 255 255"
 		"show_columns"	"0"
-		
+		"auto_tall_tocontents"	"1"
+		"pin_to_sibling"	"RedPlayerList"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"2"
 		if_mvm
 		{
 			"visible"		"0"
@@ -492,11 +507,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"rs1"
-		"ypos"			"20" //-15
+		"xpos"			"c0"
+		"ypos"			"125-20" //-15
 		"zpos"			"20"
-		"wide"			"p0.5"
-		"tall"			"410"
+		"wide"			"p0.3"
+		"tall"			"253"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -511,46 +526,6 @@
  		{
  			"visible"		"0"
  		}
-	}
-	"HealthDividerScoreboard"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthDividerScoreboard"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"5"
-		"visible"		"1"
-		"enabled"		"1"
-		"image" 		"replay/thumbnails/hp/REFRACTnormal"
-		"scaleimage"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ScoreBGdarklayer2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ScoreBGdarklayer2"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"1001"
-		"wide"			"f0"
-		"tall"			"5"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"0 0 0 100"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	
 	"VerticalLine"
@@ -662,24 +637,23 @@
 	}
 	"classmodelpanel"
 	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"0"
 		"ypos"			"r200"
-		"zpos"			"2000"		
-		"wide"			"100"
+		"zpos"			"0"		
+		"wide"			"240"
+	//	"wide_minmode"	"240"
 		"tall"			"200"
+	//	"tall_minmode"	"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"200 0 0 0"
 		
 		"render_texture"	"0"
-		"fov"			"12"
+		"fov"			"52"
 		"allow_rot"		"1"
-
-		"disable_speak_event"	"1"
 				
 		"model"
 		{
@@ -694,157 +668,114 @@
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "0"
+			"spotlight" "1"
+			"fov"		"100"
 		
 			"modelname"		""
 			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 
 		"customclassdata"
 		{
 			"undefined"
 			{
+				"fov"			"100"
+				"angles_x"		"-17"
+				"angles_y"		"200"
+				"angles_z"		"-10"
+				"origin_x"		"105"
+				"origin_y"		"5"
+				"origin_z"		"-78"
 			}
 			"Scout"
 			{
-				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_y"		"230"
-				"angles_z"		"-10"
-				"origin_x"		"105"
-				"origin_y"		"-1"
-				"origin_z"		"-82"
+				"fov"		"11"
+				"angles_x"	"-5"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"825"
+				"origin_y"	"60"
+				"origin_z"	"-98"
 			}
 			"Sniper"
 			{
-				"fov"			"25"
-				"angles_x"		"-10"
-				"angles_y"		"230"
-				"angles_z"		"-10"
-				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
+				"fov"		"12"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"58"
+				"origin_z"	"-108"
 			}
 			"Soldier"
 			{
-				"fov"			"23"
-				"angles_x"		"-10"
-				"angles_y"		"210"
-				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"-5"
-				"origin_z"		"-90"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"190"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Demoman"
 			{
-				"fov"			"25"
-				"angles_x"		"-13"
-				"angles_y"		"230"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"-4"
-				"origin_z"		"-93"
+				"fov"		"13"
+				"angles_x"	"-3"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Medic"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"230"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-5"
-				"origin_z"		"-96"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Heavy"
 			{
-				"fov"			"22"
-				"angles_x"		"-5"
-				"angles_y"		"235"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"0"
-				"origin_z"		"-102"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Pyro"
 			{
-				"fov"			"21"
-				"angles_x"		"-5"
-				"angles_y"		"230"
-				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"5"
-				"origin_z"		"-90"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"210"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"67"
+				"origin_z"	"-108"
 			}
 			"Spy"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
-				"angles_y"		"230"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"0"
-				"origin_z"		"-95"
+				"fov"		"12"
+				"angles_x"	"-3"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"60"
+				"origin_z"	"-108"
 			}
 			"Engineer"
 			{
-				"fov"			"23"
-				"angles_x"		"-10"
-				"angles_y"		"230"
-				"angles_z"		"0"
-				"origin_x"		"140"
-				"origin_y"		"-2"
-				"origin_z"		"-82"
+				"fov"		"12"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"60"
+				"origin_z"	"-100"
 			}
 		}
 	}
@@ -891,67 +822,91 @@
 			"wide"			"175"
 		}
 	}
-	"ServerLabelNew"
+
+	"icon1"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabelNew"
-		"font"			"DefaultFixedOutlineFPS"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"140"
-		"ypos"			"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon1"
+		"font"			"Newicons12"
+		"labelText"		"ó"
+		"textAlignment"	"center"
+ 		"xpos"			"5"
+		"ypos"			"50"
 		"zpos"			"-1000"
-		"wide"			"100"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"0 255 0 255"
-		
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"220 220 220 255"
+		"bgcolor_override"	"0 0 0 140"
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}
+	}	
 	"MapName"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"DefaultFixedOutlineFPS"
+		"font"			"Noto10"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
- 		"xpos"			"70"
+ 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1000"
-		"wide"			"100"
-		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"0 255 0 255"
-
+		"wide"			"220"
+		"tall"			"20"
+		"fgcolor"		"255 255 255 255"
+		"bgcolor_override"	"0 0 0 140"
+		"pin_to_sibling"	"icon1"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"auto_wide_tocontents"	"1"
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"HorizontalLine"
+	"ServerLabelNew"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"			"115"
-		"ypos"			"397"
-		"zpos"			"3"
-		"wide"			"465"
-		"tall"			"1"
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerLabelNew"	
+		"font"			"noto10"
+		"labelText"		"%server%"
+		"textAlignment"		"west"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1000"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"127 127 127 153"
+		"fgcolor"		"255 255 250 255"
+		"auto_wide_tocontents"	"1"
+		"bgcolor_override"	"0 0 0 140"
+				"pin_to_sibling"	"icon2"
+									"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+
+	"HorizontalLine2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"5"
+		"tall"			"20"
+		"visible"	"1"
+		"fillcolor"		"0 0 0 140"
+				"pin_to_sibling"	"MapName"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -959,6 +914,115 @@
 			"visible"		"0"
 		}
 	}
+	"HorizontalLine3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"5"
+		"tall"			"20"
+		"visible"	"1"
+		"fillcolor"		"0 0 0 140"
+				"pin_to_sibling"	"ServerLabelNew"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"HorizontalLine4"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HorizontalLine4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"5"
+		"tall"			"20"
+		"visible"	"1"
+		"fillcolor"		"0 0 0 140"
+				"pin_to_sibling"	"ServerTimeLeftValue2"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"PaintBackgroundType"	"0"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+		HorizontalLine
+		{
+			"visible"		"0"
+		}	
+	"icon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon2"
+		"font"			"Newicons12"
+		"labelText"		"K"
+		"textAlignment"	"center"
+ 		"xpos"			"5"
+		"ypos"			"25"
+		"zpos"			"-1000"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"220 220 220 255"
+		"bgcolor_override"	"0 0 0 140"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}		
+	"icon3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon3"
+		"font"			"Newicons12"
+		"labelText"		"Ù"
+		"textAlignment"	"center"
+ 		"xpos"			"5"
+		"ypos"			"75"
+		"zpos"			"-1000"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"220 220 220 255"
+		"bgcolor_override"	"0 0 0 140"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+"ServerTimeLeftValue"
+{
+"wide"	"0"
+}	
+"ServerTimeLeftValue2"
+{
+"ControlName""CExLabel"
+"fieldName""ServerTimeLeftValue2"
+"font""NotoBold10"
+"labelText""%servertime%"
+"xpos""0"
+"ypos""0"
+"tall""20"
+"pin_to_sibling"	"icon3"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"auto_wide_tocontents"	"1"
+		"font"	"Noto10"
+		"bgcolor_override"	"0 0 0 140"
+
+if_mvm
+{
+"visible""0"
+}
+}	
 	"PlayerScoreLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -1206,11 +1270,11 @@
 		"paintbackgroundType"	"0"
 		"border"		"noborder"
 		"bgcolor_override"	"Blank"
-			"TriUberTID2"
+			"Killbar"
 	{
 		"ControlName"		"CircularProgressBar"
-		"fieldName"		"TriUberTID2"
-		"xpos"			"-2"
+		"fieldName"		"Killbar"
+		"xpos"			"20"
 		"ypos"			"rs1-18-3"
 		"zpos"			"10"
 		"wide"			"26"
@@ -1250,7 +1314,7 @@
 			"tall"			"30"
 			"textinsety"	"-3"
 			"fgcolor"		"245 245 245 255"
-			"bgcolor_override"	"0 0 0 153"
+			"bgcolor_override"	"0 0 0 0"
 		}			
 		"KillsLabel"
 		{
@@ -1269,13 +1333,14 @@
 
 		"Kills"
 		{
-			"font"			"CustomNoveno"
-			"textAlignment"		"east"
-			"xpos"			"cs-0.5-100"
-			"ypos"			"r0"
-			"zpos"			"3"
-			"wide"			"150"
-			"tall"			"40"
+			"font"			"CustomSegundo"
+			"textAlignment"		"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"30"
+			"wide"			"26"
+			"tall"			"o1"
+			"pin_to_sibling"	"Killbar"
 		}		
 		"DeathsLabel"
 		{

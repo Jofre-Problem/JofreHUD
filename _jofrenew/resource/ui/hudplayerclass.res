@@ -30,9 +30,21 @@
 		"ypos"			"r0"
 	}
 	"classmodelpanelBG"
-	{		
-		"wide"			"0"
-	}	
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos"			"0"
+		"ypos"			"r100"
+		"zpos"			"599"		
+		"wide"			"100"//100
+		"tall"			"200"//200
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/hp/REFRACT3dclassover"	//"replay/thumbnails/hp/REFRACT3dclassover"
+		"teambg_2"			"replay/thumbnails/hp/REFRACT3dclassover"
+		"teambg_3"			"replay/thumbnails/hp/REFRACT3dclassover"
+	}
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -201,9 +213,9 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"Code7"
+			"font"				"Medhealtarget"
 			"xpos"				"5"
-			"ypos"				"13"
+			"ypos"				"15"
 			"zpos"				"1"
 			"wide"				"f0"
 			"tall"	 			"f0"
@@ -219,9 +231,12 @@
 			"labelText"			"%carrying%"
 			"bgcolor"		"64 64 64 255"
 		}
-	"CarryingLabelShadow"
+	"CarryingLabelDropShadow"
 		{	
-			"wide"				"0"
+			"font"				"MedhealtargetBlur"
+			"pin_to_sibling"	"CarryingLabel"
+			"xpos"				"0"
+			"ypos"				"0"
 		}
 		"OwnerLabel"
 		{	

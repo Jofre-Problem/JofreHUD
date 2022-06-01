@@ -1,10 +1,11 @@
 #base "../../ui_overrides/full-timer/file.res"
 #base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
+#base "../ui3/keybindings.res"
 "Resource/UI/TextWindow.res"
 {
 		"SummerBorder"
-		{
+		{ 
 		"xpos""cs-0.5"
 		"ypos""45"
 			//"pin_to_sibling"	"PartySlot0"
@@ -138,7 +139,11 @@
 		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
-
+	"Key1"
+	{
+		"labelText"		"&E"
+		"Command"		"okay"
+	}	
 	"ok"
 	{
 		"ControlName"		"CTFButton"
@@ -170,35 +175,6 @@
 		"depressedFgColor_override" "255 255 255 255"
 	}
 	
-	"okbind"
-	{
-		"ControlName"		"CTFButton"
-		"fieldName"		"okbind"
-		"xpos"			"999"
-		"ypos"			"r176"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"&e"
-		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"command"		"okay"
-		"default"		"1"
-		"border_default"		""
-		"border_armed"		""
-		"paintbackground"	"0"
-		"font"			"Size 14"
-		"fgcolor"		"255 255 255 255"
-		"defaultFgColor_override" "255 255 255 255"
-		"depressedFgColor_override" "255 255 255 255"
-	}
 	"ShadedBar"
 	{
 		"wide"		"0"

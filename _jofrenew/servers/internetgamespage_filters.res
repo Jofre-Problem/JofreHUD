@@ -1,4 +1,5 @@
 #base "../resource/ui2/multiple-bg.res"
+#base "../resource/ui3/Keybindings.res"
 "Servers\DialogGameInfo.res"
 {
 	"MMBackgroundPanel"
@@ -41,10 +42,37 @@
 		"labelText"		"Ý Go!"
 		"textAlignment"		"west"
 		"wrap"		"0"
-		"font"	"Productv2_16"
 		"Command"		"connect"
 		"Default"		"1"
 	}
+	"KeyLabels"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"KeyLabels"
+		"xpos"		"686"
+		"ypos"		"349"
+		"wide"		"90"
+		"tall"		"24"
+		"textAlignment"		"west"
+		"labeltext"	"Keybindings:"
+	}		
+	"RefreshLabel2"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"RefreshLabel2"
+		"xpos"		"686"
+		"ypos"		"369"
+		"wide"		"90"
+		"tall"		"24"
+		"textAlignment"		"west"
+		"font"	"Productv2_14"
+		"labeltext"	"R - Refresh List"
+	}	
+	"Key1"
+	{	ControlName"		"Button"
+		"labelText"		"&R"
+		"Command"		"GetNewList"
+	}		
 	"RefreshButton2"
 	{
 		"ControlName"		"Button"

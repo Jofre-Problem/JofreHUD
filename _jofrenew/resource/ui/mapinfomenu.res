@@ -1,6 +1,7 @@
 #base "../../ui_overrides/full-timer/file.res"
 #base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
+#base "../ui3/keybindings.res"
 "Resource/UI/MapInfoMenu.res"
 {
 		"SummerBorder"
@@ -47,6 +48,11 @@
 	{
 		"wide"		"0"
 	}	
+	"Key1"
+	{
+	"labelText"		"&D"
+		"command"		"continue"
+	}		
 	"mapinfo"
 	{
 		"ControlName"	"Frame"
@@ -76,7 +82,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Size 14"
+		"font"			"Noto14"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -95,7 +101,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"Size 8"
+		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -105,7 +111,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Size 9"
+		"font"			"ItemFontAttribSmallest"
 		"xpos"			"c-147"
 		"ypos"			"r281"
 		"zpos"			"3"
@@ -120,38 +126,54 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	"MapInfoContinue" 
+	"MapInfoContinue2" 
 	{
-		"ControlName"	"CTFButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"c-150"
+		"ControlName"	"Button"
+		"fieldName"		"MapInfoContinue2"
+		"xpos"			"c0"
 		"ypos"			"r176"
 		"zpos"			"3"
-		"wide"			"300"
+		"wide"			"150"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#CContinue"
+		"labelText"		"Continue (D)"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-		"font"			"Size 14"
+		"font"			"Noto14"
 		"fgcolor"		"White"
+		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "W_borderarmed"
 		"depressedFgColor_override" "White"
 	}
+	"MapInfoBack2" 
+	{
+		"ControlName"	"Button"
+		"fieldName"		"MapInfoBack2"
+		"xpos"			"c-150"
+		"ypos"			"r176"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"20"
+		"labelText"		"Back (&A)"
+		"textAlignment"	"center"
+		"command"		"back"
+		"default"		"1"
+		"font"			"Noto14"
+		"fgcolor"		"White"
+		"paintbackground"	"0"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "W_borderarmed"
+		"depressedFgColor_override" "White"
+	}	
 	"ShadedBar"
 	{
 		"wide"		"0"
-	}		
+	}	
+	"MapInfoContinue"
+	{
+		"wide"		"0"
+	}			
 	"MapInfoWatchIntro" 
 	{
 		"ControlName"	"CTFButton"

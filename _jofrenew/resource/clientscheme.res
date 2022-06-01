@@ -155,6 +155,7 @@ Scheme
 	}
 	Colors
 	{	
+		"TransparentLightBlack""0 0 0 100"
 	//	"Green"					"0 135 68 255"
 	//	"TanLight"				"193 175 75 255"			
 	"TFOrange"			"255 255 255 200"

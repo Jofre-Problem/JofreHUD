@@ -56,20 +56,4 @@
 	{
 		"xpos"			"-2421"
 	}
-	"PlayerStatusHealthValueLudicriousOverhealBG"
-	{
-		"xpos"			"-1411"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealBG2"
-	{
-		"xpos"			"-1524"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealIcon"
-	{
-		"xpos"			"-1524"
-	}
-	"PlayerStatusHealthValueLudicriousOverhealLoads"
-	{
-		"xpos"			"-1203"
-	}
 }

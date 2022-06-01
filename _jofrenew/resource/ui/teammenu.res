@@ -155,7 +155,7 @@
 		
 		paintbackground			0
 		
-		image_drawcolor			"255 255 255 50"
+		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 		
 		"SubImage"

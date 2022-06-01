@@ -1455,7 +1455,7 @@ if_christmas
 "LeaveSafeModeButton"
 {
 "ControlName""CExButton"
-"fieldName""SubButton"
+"fieldName""LeaveSafeModeButton"
 "xpos""p0.02"
 "ypos""rs1-5"
 "zpos""11"

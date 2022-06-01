@@ -1,4 +1,0 @@
-"overrides/pilotbars/file.res"
-{
-
-}

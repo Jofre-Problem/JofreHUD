@@ -313,57 +313,170 @@
 "auto_wide_tocontents" "1"
 }
 }
+
+	"CallVoteButton2"
+	{
+		ControlName				EditablePanel
+		FieldName				"CallVoteButton2"
+		xPos					"CS-0.5"//210 - 33
+		yPos					rs1
+		zPos					1050
+		wide					125
+		tall					25
+		"bgcolor_override"		"Blank"
+		"paintBackground"	"0"
+
+		
+
+		"SubButton"
+		{
+			ControlName				CExImageButton
+			fieldName				"SubButton"
+			xpos					0
+			ypos					0
+			wide					125
+			tall					25
+			proportionaltoparent		1
+
+			font					"CustomSegundo"
+			textAlignment			center
+			
+			sound_depressed			"UI/buttonclick.wav"
+			sound_released			"UI/buttonclickrelease.wav"
+							
+		defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorTheme1"
+		image_drawcolor			"255 255 255 50" 
+		image_armedcolor			"255 255 255 100"
+			paintbackground			0
+		"SubImage"
+		{
+			ControlName				ImagePanel
+			fieldName				"SubImage"
+			xpos					0
+			ypos					0
+			wide					f0
+			tall					f0
+			proportionaltoparent		1
+			image					"replay/thumbnails/hud/bgPanel_up"
+			scaleImage				1
+		}		
+		}
+	}
 	"CallVoteButton"
 	{
-	//	"wide"			"0"
-			"defaultBgColor_override" 				"W_ColorTheme1"
-			"armedBgColor_override" 				"W_BorderArmed"
-			"depressedBgColor_override" 			"W_ColorTheme1"
-			
-			"defaultFgColor_override" 				"W_ColorIcons1"
-			"armedFgColor_override" 				"W_ColorIcons1"
-			"depressedFgColor_override" 			"W_ColorIcons1"
-			"border"			"ButtonDefaultLight"
-			"border_override"	"ButtonDefaultLight"
-			"border_default"	"ButtonDefaultLight"
-			"border_armed"		"ButtonDefault"
-			"border_depressed"	"ButtonDefault"					
-	}
+		wide					0					
+	}	
 	"MutePlayersButton"
 	{
-	//	"wide"			"0"
-				"defaultBgColor_override" 				"W_ColorTheme1"
-			"armedBgColor_override" 				"W_BorderArmed"
-			"depressedBgColor_override" 			"W_ColorTheme1"
-			
-			"defaultFgColor_override" 				"W_ColorIcons1"
-			"armedFgColor_override" 				"W_ColorIcons1"
-			"depressedFgColor_override" 			"W_ColorIcons1"
-			"border"			"ButtonDefaultLight"
-			"border_override"	"ButtonDefaultLight"
-			"border_default"	"ButtonDefaultLight"
-			"border_armed"		"ButtonDefault"
-			"border_depressed"	"ButtonDefault"		
+		wide					0					
 	}
+	"MutePlayersButton2"
+	{
+		ControlName				EditablePanel
+		FieldName				"MutePlayersButton2"		
+		xPos					"115"//210 - 33
+		yPos					rs1
+		zPos					1050
+		wide					125
+		tall					25
+		"bgcolor_override"		"Blank"
+		"paintBackground"	"0"
+
+		
+
+		"SubButton"
+		{
+			ControlName				CExImageButton
+			fieldName				"SubButton"
+			xpos					0
+			ypos					0
+			wide					125
+			tall					25
+			proportionaltoparent		1
+
+			font					"CustomSegundo"
+			textAlignment			center
+			
+			sound_depressed			"UI/buttonclick.wav"
+			sound_released			"UI/buttonclickrelease.wav"
+							
+		defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorTheme1"
+		image_drawcolor			"255 255 255 50" 
+		image_armedcolor			"255 255 255 100"
+			paintbackground			0
+		"SubImage"
+		{
+			ControlName				ImagePanel
+			fieldName				"SubImage"
+			xpos					0
+			ypos					0
+			wide					f0
+			tall					f0
+			proportionaltoparent		1
+			image					"replay/thumbnails/hud/bgPanel_up"
+			scaleImage				1
+		}		
+		}
+	}
+
 	"RequestCoachButton"
 	{
 		"wide"			"0"
 	}	
+	"ReportPlayerButton2"
+	{
+		ControlName				EditablePanel
+		FieldName				"ReportPlayerButton2"		
+		xPos					"rs1-115"//210 - 33
+		yPos					rs1
+		zPos					1050
+		wide					125
+		tall					25
+		"bgcolor_override"		"Blank"
+		"paintBackground"	"0"
+
+		
+
+		"SubButton"
+		{
+			ControlName				CExImageButton
+			fieldName				"SubButton"
+			xpos					0
+			ypos					0
+			wide					125
+			tall					25
+			proportionaltoparent		1
+
+			font					"CustomSegundo"
+			textAlignment			center
+			
+			sound_depressed			"UI/buttonclick.wav"
+			sound_released			"UI/buttonclickrelease.wav"
+							
+		defaultFgColor_override		"W_ColorIcons1"
+		armedFgColor_override		"W_ColorTheme1"
+		image_drawcolor			"255 255 255 50" 
+		image_armedcolor			"255 255 255 100"
+			paintbackground			0
+		"SubImage"
+		{
+			ControlName				ImagePanel
+			fieldName				"SubImage"
+			xpos					0
+			ypos					0
+			wide					f0
+			tall					f0
+			proportionaltoparent		1
+			image					"replay/thumbnails/hud/bgPanel_up"
+			scaleImage				1
+		}		
+		}
+	}	
 	"ReportPlayerButton"
 	{
-	//	"wide"			"0"
-				"defaultBgColor_override" 				"W_ColorTheme1"
-			"armedBgColor_override" 				"W_BorderArmed"
-			"depressedBgColor_override" 			"W_ColorTheme1"
-			
-			"defaultFgColor_override" 				"W_ColorIcons1"
-			"armedFgColor_override" 				"W_ColorIcons1"
-			"depressedFgColor_override" 			"W_ColorIcons1"
-			"border"			"ButtonDefaultLight"
-			"border_override"	"ButtonDefaultLight"
-			"border_default"	"ButtonDefaultLight"
-			"border_armed"		"ButtonDefault"
-			"border_depressed"	"ButtonDefault"		
+		"wide"			"0"	
 	}		
 		
 

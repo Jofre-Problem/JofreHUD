@@ -262,16 +262,6 @@ Scheme
 				"outline"	 "1"
 			}
 		}
-		//"Default"
-		{
-			"1"
-			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				"weight"	"500"
-			}
-		}
 		"DefaultBold"
 		{
 			"1"

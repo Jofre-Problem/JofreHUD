@@ -209,7 +209,8 @@ Scheme
 		{
 			"1"
 			{
-				"name" "LowAmmoWarning Zero"
+				"name" "LowAmmoWarning Zero" [$WINDOWS]
+				"name" "FixLowAmmoWarning" [$LINUX]
 				"tall" "51"
 				"antialias"	"0"
 			}
@@ -253,7 +254,8 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "22"
+				"tall" "22"	[$WINDOWS]
+				"tall" "16"	[$LINUX]
 				"antialias"	"1"
 			}
 		}
@@ -397,6 +399,31 @@ Scheme
 				"antialias"	"1"
 			}
 		}		
+		"HealthAndAmmo20"
+		{
+			"1"
+			{
+				"name" "Open Sans AlphaInvertedNEW"
+				"tall" "20"
+				"antialias"	"1"
+				"yres" "479 481"
+			}
+			"2"
+			{
+				"name" "Open Sans AlphaInvertedNEW"
+				"tall" "19"
+				"antialias"	"1"
+			}
+		}
+		"HealthAndAmmoThin20"
+		{
+			"1"
+			{
+				"name" "Open Sans AlphaInvertedThin"
+				"tall" "20"
+				"antialias"	"1"
+			}
+		}			
 	}
 	CustomFontFiles
 	{
@@ -542,10 +569,14 @@ Scheme
 		}	
 		"60"
 		{
-			"font" "_jofrenew/font/LowAmmoWarningZero.ttf" 	[$WINDOWS]
-			"font" "_jofrenew/font/LowAmmoWarning-Zero-linux.otf" 	[$LINUX]
+			"font" "_jofrenew/font/LowAmmoWarningZero.ttf"
 			"name" "LowAmmoWarning Zero"
 		}
+		"160"
+		{
+			"font" "_jofrenew/font/FixLowAmmoWarning.ttf"
+			"name" "FixLowAmmoWarning"
+		}		
 		"61"
 		{
 			"font" "_jofrenew/font/OpenSans-Nodash.ttf"

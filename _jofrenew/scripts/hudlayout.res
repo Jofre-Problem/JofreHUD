@@ -89,7 +89,7 @@
 		"IconColor"     		"255 255 255 255"
 	//	"LocalPlayerColor"  	"12 12 12 255"
 
-		"BaseBackgroundColor"	"27 27 27 180"
+		"BaseBackgroundColor"	"27 27 27 222"
 		"LocalBackgroundColor"	"245 245 245 200"
 	}
 //	"Spacer"

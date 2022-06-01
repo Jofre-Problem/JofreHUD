@@ -67,6 +67,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+	
 		"HealthAndAmmoOutline"
 		{
 			"1"
