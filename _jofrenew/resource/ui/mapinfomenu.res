@@ -196,7 +196,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Size 8"
+		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "W_borderarmed"

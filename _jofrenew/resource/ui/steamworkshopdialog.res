@@ -40,7 +40,7 @@
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
 			"border"		"Rice2"			
-			"bgcolor_override"				"20 20 20 255"
+			"bgcolor_override"				"20 20 20 240"
 
 			"title"		
 			{
@@ -52,7 +52,7 @@
 				tall					20	
 				font					"Regular14"
 				fgcolor_override		"PolyIconsFg1"
-				labelText				"Welcome to Jofre Hud!"
+				labelText				"Welcome to JofreHUD Dev!"
 				textAlignment			center
 			}
 			"title3"		
@@ -78,7 +78,7 @@
 				tall					100	
 				font					"Regular14"
 				fgcolor_override		"PolyIconsFg1"
-				labelText				"By using this HUD you agree that you are a TESTER for this HUD. And you will encounter BUGS. This HUD ISNT MADE for competitive. Im not responsible if you have a bad experience."
+				labelText				"This panel is in work in progress."
 				textAlignment			center
 				"centerwrap"	"1"
 			}			

@@ -46,15 +46,15 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Size 48"//"DefaultVerySmall"
+		"font"			"Noto48"//"DefaultVerySmall"
 		"fgcolor_override"		"tanlight"
 	}
 	"PlayerStatusHealthValueMainS"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"PlayerStatusHealthValueMainS"
-		"xpos"			"1"//-9
-		"ypos"			"1"//11
+		"xpos"			"2"//-9
+		"ypos"			"2"//11
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"42"
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Size 48 Blur"//"DefaultVerySmall"
+		"font"			"Noto48"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 120"
 	}
 

@@ -70,7 +70,7 @@
 		}
 		"duplicatelabels_kv"
 		{
-			"font"			"Size 12"
+			"font"			"Noto12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"94"

@@ -92,7 +92,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Size 14"
+		"font"			"Noto14"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Size 9"
+		"font"			"Noto9"
 		"xpos"			"c-147"
 		"ypos"			"r295"
 		"zpos"			"3"
@@ -168,7 +168,7 @@
 		"border_default"		""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Size 14"
+		"font"			"Noto14"
 		"fgcolor"		"255 255 255 255"
 		"armedFgColor_override" "W_Borderarmed"
 		"defaultFgColor_override" "255 255 255 255"

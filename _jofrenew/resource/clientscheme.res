@@ -1,7 +1,7 @@
 
 	
 	#base "borders.res"
-	#base "product.res"
+//	#base "product.res"
 	#base "scheme/hp-ammo/file.res"
 	// replaces scheme-res
 	#base "apple.res"
@@ -335,7 +335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Iosevka Term SS14"
+				"name"		"Product Sans"
 				"tall"		"6"
 			}
 		}		
@@ -343,7 +343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Iosevka Term SS14"
+				"name"		"Product Sans"
 				"tall"		"7"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Iosevka Term SS14"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -363,7 +363,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Iosevka Term SS14"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -1292,12 +1292,7 @@ Scheme
 		{
 			"font" "_jofrenew/font/FutureRotfix.otf"
 			"name" "Future Rot"
-		}			
-		"97"
-		{
-			"font" "_jofrenew/font/iosevka-term-ss14-regular.ttf"
-			"name" "Iosevka Term SS14"
-		}			
+		}					
 		"98"
 		{
 			"font" "_jofrenew/font/JofreIconsMaster.otf"
