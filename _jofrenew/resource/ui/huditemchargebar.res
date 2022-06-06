@@ -49,7 +49,7 @@
 		"zpos"			"0"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"2"
+		"tall"			"1"
 		"pin_to_sibling"	"ItemEffectMeter"
 	}						
 }

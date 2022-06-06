@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$basetexture "vgui\replay/thumbnails/timer_hour\arrow_left_small"
+$translucent 1
+$ignorez 1
+$vertexcolor 1
+$basetexturetransform "center .5 .5 scale 1 1 rotate 180 translate 0 0"
+}

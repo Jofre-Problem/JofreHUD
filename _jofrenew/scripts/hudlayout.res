@@ -14,7 +14,6 @@
 "wide""f0"
 "tall""f0"
 }
-
 	HudControlPointIcons
 	{
 		"xpos"					"0"
@@ -176,9 +175,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"			"c-157"
+		"xpos"			"c-255"
 		"zpos"		"2000"
-		"ypos"			"r120"//c19"
+		"ypos"			"r150"//c19"
 		"ypos_minmode"	"r93"
 		"wide"			"50"
 		"tall"			"70"
@@ -256,6 +255,11 @@
 		"pin_to_sibling" 	"1_editable"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+		HudCrosshair
+		{
+			"ypos"			"0"	//needs to be - .5 pixel
+		}	
 	}
 	
 	CSecondaryTargetID

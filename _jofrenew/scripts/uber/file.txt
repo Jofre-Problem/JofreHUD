@@ -9,6 +9,17 @@ event HudMedicCharged
 	Animate	ChargeMeter4 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	RunEvent HudMedicCharged2 0.0
 }
+event TIDuberFull
+{
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" linear 0.0 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "180 255 40 40" accel 0.15 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" deaccel 0.15 0.15
+	RunEvent TIDuberFullLoop 0.3
+}
+event TIDuberFullLoop
+{
+	RunEvent TIDuberFull 0.0
+}
 
 event HudMedicCharged2
 {

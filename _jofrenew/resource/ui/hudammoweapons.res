@@ -30,6 +30,20 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"	
 	}
+	"Gradient"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Gradient"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"49"
+		"wide"				"168"
+		"tall"				"34"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/gradient"
+		"scaleImage"		"1"
+	}		
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

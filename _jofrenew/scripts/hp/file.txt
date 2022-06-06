@@ -6,7 +6,7 @@ event HudHealthBonusPulse
 	Animate	OverhealHealthTextBG 	Alpha		"255"			Linear 0.0	0.0
 	Animate	OverhealHealthTextBG2 	Alpha		"255"			Linear 0.0	0.0
 	Animate	OverhealHealthTextBG3 	Alpha		"255"			Linear 0.0	0.0
-	
+	Animate PlayerStatusHealthValueID Fgcolor "95 255 8 255" Linear 0.0 0.0
 	Animate	HealthcrossiconOverheal 	Alpha		"255"			Linear 0.0	0.0
 	
 	RunEvent HudHealthBonusPulseLoop1a 0.0
@@ -20,6 +20,7 @@ event HudHealthBonusPulseLoop1a
 
 event HudHealthBonusPulseStop
 {
+	Animate PlayerStatusHealthValueID Fgcolor "255 255 255 255" Linear 0.0 0.0
 	Animate	OverhealHealthTextBG 	Alpha		"0"			Linear 0.0	0.0
 	Animate	OverhealHealthTextBG2 	Alpha		"0"			Linear 0.0	0.0
 	Animate	OverhealHealthTextBG3 	Alpha		"0"			Linear 0.0	0.0

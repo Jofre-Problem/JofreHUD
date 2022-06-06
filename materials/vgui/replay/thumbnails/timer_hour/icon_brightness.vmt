@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+	"$basetexture" "vgui/replay/thumbnails/timer_hour/icon_brightness"
+$translucent 1
+$vertexcolor 1
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+$nolod 1
+}

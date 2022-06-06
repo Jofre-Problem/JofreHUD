@@ -18,7 +18,20 @@
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
 	}
-	
+	"Gradient"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Gradient"
+		"xpos"				"15"
+		"ypos"				"16"
+		"zpos"				"49"
+		"wide"				"168"
+		"tall"				"12"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/gradient"
+		"scaleImage"		"1"
+	}	
 	"1_image"
 	{
 		"xpos"			"14"
