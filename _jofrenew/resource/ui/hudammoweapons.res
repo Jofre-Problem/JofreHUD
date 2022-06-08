@@ -30,20 +30,6 @@
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"	
 	}
-	"Gradient"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Gradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"49"
-		"wide"				"168"
-		"tall"				"34"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/gradient"
-		"scaleImage"		"1"
-	}		
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -119,7 +105,8 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"190"
-		"tall"			"34"
+		"tall"			"34"	[$WINDOWS]
+		"tall"			"0"	[$LINUX]
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
@@ -268,7 +255,8 @@
 		"ypos"			"0"
 		"zpos"			"4"
 //		"wide"			"143" //150
-		"tall"			"34"
+		"tall"			"34"[$WINDOWS]
+		"tall"			"0"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"		
@@ -284,7 +272,8 @@
 		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"100"
-		"tall"			"35"
+		"tall"			"35"[$WINDOWS]
+		"tall"			"0"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ammo%"
@@ -324,7 +313,7 @@
 		"fieldName"		"HealthDivider"
 		"xpos"			"85"
 		"ypos"			"0"
-		"zpos"			"7"
+		"zpos"			"7000"
 		"wide"			"5"
 		"tall"			"36"
 		"visible"		"1"

@@ -18,6 +18,7 @@
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
 	}
+		
 	"Gradient"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -38,7 +39,7 @@
 		"ypos"			"15"
 		"wide"			"169"
 		"tall"			"13"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"45 45 45 255"
 	}
 	
 	"HealthBarPanel"
@@ -70,8 +71,9 @@
 			"image"			"../hud/halloween_bar"
 			"scaleImage"	"1"					
 		}
+	
 	}				
-
+	
 	"StunMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"

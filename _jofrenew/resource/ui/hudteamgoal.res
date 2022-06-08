@@ -1,70 +1,81 @@
 "Resource/UI/HudTeamGoal.res"
 {
-"HudTeamGoalBG"
-{
-"ControlName""CTFImagePanel"
-"fieldName""HudTeamGoalBG"
-
-
-"zpos""-1"
-"wide""0"
-"tall""150"
-
-}
-"SwitchLabel"
-{
-"ControlName""Label"
-"fieldName""SwitchLabel"
-"font""HudFontSmall"
-"xpos""cs-0.5"
-"ypos""35"
-"zpos""1"
-"wide""220"
-"tall""15"
-
-
-//"visible""1"
-
-"wrap""1"
-"labelText""#TF_teamswitch_attackers"
-"textAlignment""center"
-}
-"GoalLabel"
-{
-"ControlName""Label"
-"fieldName""GoalLabel"
-"font""HudFontSmall"
-"xpos""cs-0.5"
-"ypos""35"
-"zpos""1"
-"wide""220"
-////"wide_hidef""200"
-////"wide_lodef""230"
-"tall""55"
-"centerwrap"    "1"
-////"tall_lodef""60"
-"textAlignment""center"
-
-//"visible""1"
-
-"wrap""1"
-"labelText" ""
-"textAlignment""North"
-}
-"GoalImage"
-{
-"ControlName""CTFImagePanel"
-"fieldName""GoalImage"
-"xpos""cs-0.5"
-"ypos""25"
-"zpos""1"
-"wide""35"
-"tall""o1"
-
-
-//"visible""1"
-
-"image""../hud/hud_icon_attack"
-"scaleImage""1"
-}
+	"HudTeamGoalBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudTeamGoalBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"246"
+		"tall"			"31"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/death_panel_blue_bg"
+		"scaleImage"	"1"
+		"teambg_2"		"../hud/death_panel_red_bg"
+		"teambg_3"		"../hud/death_panel_blue_bg"
+		"paintborder"			"1"
+		"border"				"SteamworkshopBorder"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}
+	"SwitchLabel"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"SwitchLabel"
+		"font"			"DefaultSmall"
+		"xpos"			"31"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"212"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		"#TF_teamswitch_attackers"
+		"textAlignment"		"North"
+		"textinsetx"		"5"
+	}
+	"GoalLabel"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"GoalLabel"
+		"font"			"DefaultVerySmall"
+		"xpos"			"31"
+		"ypos"			"13"
+		"zpos"			"1"
+		"wide"			"212"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"1"
+		"labelText"		""
+		"textAlignment"		"North"
+		"textinsetx"		"5"
+	}
+	"GoalImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"GoalImage"
+		"xpos"			"3"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/hud_icon_attack"
+		"scaleImage"	"1"
+	}
 }

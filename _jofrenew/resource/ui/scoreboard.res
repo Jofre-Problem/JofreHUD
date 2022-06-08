@@ -452,7 +452,6 @@
 			"visible"		"0"
 		}
 	}
-
 	"ServerTimeLeftLabel"
 	{
 		"ControlName"		"CExLabel"

@@ -8,11 +8,10 @@
 "fieldName""HudTeamGoal"
 
 
-"xpos""0"
-"ypos""0"
-////"ypos_lodef""75"
-"wide""f0"
-"tall""f0"
+		"xpos"					"c-123"
+		"ypos"					"40"
+		"wide"					"246"
+		"tall"					"60"
 }
 	HudControlPointIcons
 	{
@@ -69,7 +68,7 @@
 	}	
 	HudDeathNotice
 	{
-		"xpos"	 "rs1-4-p0.001" // 6 KF
+		"xpos"	 "rs1-2-p0.001" // 6 KF
 		"ypos"	 "35" // 7 KF
 		"wide"	 "f0"
 		"tall"	 "p0.6"

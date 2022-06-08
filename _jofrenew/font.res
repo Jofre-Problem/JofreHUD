@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"TF2 Build"
+				"name"	"Product Sans"
 				"tall"		"35"
 				"antialias" 	"1"
 			}
@@ -14,7 +14,7 @@ Scheme
 		"CustomOctavoBlur"
 		{
 			"1"
-			{	"name"	"TF2 Build"	"blur"	"2"
+			{	"name"	"Product Sans"	"blur"	"2"
 				"tall"		"35"
 				"antialias" 	"1"
 			}
@@ -23,7 +23,7 @@ Scheme
 		"CustomSeptimo"
 		{
 			"1"
-			{	"name"	"TF2 Build"
+			{	"name"	"Product Sans"
 				"tall"			"24"
 				"antialias" 	"1"
 			}
@@ -31,7 +31,7 @@ Scheme
 		"CustomSeptimoBlur"
 		{
 			"1"
-			{	"name"	"TF2 Build"	"blur"	"2"
+			{	"name"	"Product Sans"	"blur"	"2"
 				"tall"			"24"
 				"antialias" 	"1"
 			}
@@ -39,7 +39,7 @@ Scheme
 		"CustomNoveno"
 		{
 			"1"
-			{	"name"	"TF2 Build"
+			{	"name"	"Product Sans"
 				"tall"			"44"
 				"antialias" 	"1"
 			}
@@ -47,7 +47,7 @@ Scheme
 		"CustomNovenoBlur"
 		{
 			"1"
-			{"name"	"TF2 Build"	"blur"	"2"
+			{"name"	"Product Sans"	"blur"	"2"
 				"tall"			"44"
 				"antialias" 	"1"
 			}
@@ -55,7 +55,7 @@ Scheme
 		"CustomTercero"
 		{
 				"1"
-				{"name"	"TF2 Build"
+				{"name"	"Product Sans"
 					"tall"			"16"
 					"antialias" 	"1"
 				}
@@ -63,7 +63,7 @@ Scheme
 		"CustomCuarto"
 		{
 			"1"
-			{"name"	"TF2 Build"
+			{"name"	"Product Sans"
 				"tall"			"18"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -73,7 +73,7 @@ Scheme
 		"CustomSegundo"
 		{
 			"1"
-			{"name"	"TF2 Secondary"
+			{"name"	"Product Sans"
 				"tall"			"14"
 				"antialias" 	"1"
 			}
@@ -81,7 +81,7 @@ Scheme
 		"CustomSexto"
 		{
 			"1"
-			{"name"	"TF2 Build"
+			{"name"	"Product Sans"
 				"tall"			"22"
 				"antialias" 	"1"
 			}
@@ -89,7 +89,7 @@ Scheme
 		"CustomPrimero"
 		{
 			"1"
-			{"name"	"TF2 Secondary"
+			{"name"	"Product Sans"
 				"tall"			"12"
 				"antialias" 	"1"
 			}
@@ -97,7 +97,7 @@ Scheme
 		"CustomQuinto"
 		{
 			"1"
-			{"name"	"TF2 Build"
+			{"name"	"Product Sans"
 				"tall"			"20"
 				"antialias" 	"1"
 			}
@@ -105,7 +105,7 @@ Scheme
 		"CustomQuintoBlur"
 		{
 			"1"
-			{"name"	"TF2 Build"
+			{"name"	"Product Sans"
 				"tall"			"20"
 				"antialias" 	"1"
 			}

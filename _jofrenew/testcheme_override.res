@@ -5764,7 +5764,7 @@ Scheme
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "Open Sans Bold"
+			"name" "TF2 Build"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

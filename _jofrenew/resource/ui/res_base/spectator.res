@@ -14,7 +14,7 @@
 				"xpos"		"cs-0.5"
 				"zpos"			"-200"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"0"
 				"fillColor"			"34 34 42 255"
 			}	
 	"bottombarblank"

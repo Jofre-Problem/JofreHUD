@@ -58,6 +58,13 @@ GlobalComboBox("Transparent Viewmodels", "Transparent Viewmodel")
 	Off
 	On
 }
+[Name:Class Model Background, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
+GlobalComboBox("Class Model Background", "Class Model Background")
+{
+	Disabled
+	Transparent
+	YaHud Corner
+}
 [Name:Remove Scope, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
 GlobalComboBox("Remove Scope", "Remove Scope")
 {
@@ -87,6 +94,18 @@ GlobalComboBox("Cart Glow", "Cart Glow")
 {
 	On
 	Off
+}
+#if Class Model Background == "Default"
+{
+Copy("_4plug/4plug_file/playerclass-image/off.res", "_jofrenew/ui_overrides/playerclass-image/file.res");
+}
+#if Class Model Background == "Transparent"
+{
+Copy("_4plug/4plug_file/playerclass-image/transparent.res", "_jofrenew/ui_overrides/playerclass-image/file.res");
+}
+#if Class Model Background == "YaHud Corner"
+{
+Copy("_4plug/4plug_file/playerclass-image/toonhud.res", "_jofrenew/ui_overrides/playerclass-image/file.res");
 }
 #if Server Plugin Font == "Default"
 {

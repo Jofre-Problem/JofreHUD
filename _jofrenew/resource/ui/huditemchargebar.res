@@ -51,5 +51,6 @@
 		"wide_minmode"	"75"
 		"tall"			"1"
 		"pin_to_sibling"	"ItemEffectMeter"
-	}						
+	}
+						
 }

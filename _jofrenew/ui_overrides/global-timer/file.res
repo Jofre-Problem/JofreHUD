@@ -5,9 +5,9 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MDigits"
-		"xpos"					"rs1-43"
+		"xpos"					"rs1-70"
 								//adds the -13 -12 from down there
-		"ypos"					"rs1"
+		"ypos"					"rs1-30"
 		"zpos"					"6000"
 		"wide"					"10"
 		"tall"					"o2"

@@ -252,21 +252,7 @@
 		"fg_image"		"replay/thumbnails/hp/refractnormal"
 		"bg_image"		"replay/thumbnails/bg_blank"
 	}
-	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetDataLabelUberFullBG"
-		"font"			"SpecTargetIDuberfull"
-		"xpos"			"34"
-		"ypos"			"420" //420
-		"zpos"			"1"
-		"wide"			"1500"
-		"textAlignment"	"east"
-		"tall"			"15" //15
-		"labelText"		"#TIDdatafulluber" //basically checks for 4 of a combo of numbers and %
-		"fgcolor"		"150 245 0 80"
-		"bgcolor_override"	"0 0 0 0"
-	}	
+
 	"1_image"
 	{
 		"xpos"			"353"

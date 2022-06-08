@@ -634,7 +634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+			
 				"tall"		"18"
 				"weight"	"500"
 				"Antialias" "1"
@@ -645,7 +645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				
 				"tall"		"20"
 				//"tall_hidef"	"20"
 				"Antialias" "1"
@@ -656,7 +656,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+			
 				"tall"		"50"
 				"weight"	"500"
 				"Antialias" "1"

@@ -1,5 +1,9 @@
 "Resource/UI/HudDamageAccount.res"
 {
+HudVoiceStatus
+{
+"ypos" "-110"
+}
 	ramka
 	{
 		"ControlName"			"ImagePanel"

@@ -23,20 +23,6 @@
 		"tall"			"34"
 		"fillcolor"		"35 35 35 255"
 	}
-	"Gradient"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Gradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"49"
-		"wide"				"168"
-		"tall"				"34"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/gradient"
-		"scaleImage"		"1"
-	}	
 	"3_Image"
 	{
 		"xpos"			"71"
