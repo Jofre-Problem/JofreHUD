@@ -40,6 +40,7 @@
 		"tabPosition"		"1"
 		"paintbackground"		"1"
 		"labelText"		"Ý Go!"
+		"font"	"Productv2_16"
 		"textAlignment"		"west"
 		"wrap"		"0"
 		"Command"		"connect"
@@ -69,7 +70,7 @@
 		"labeltext"	"R - Refresh List"
 	}	
 	"Key1"
-	{	ControlName"		"Button"
+	{	"ControlName"		"Button"
 		"labelText"		"&R"
 		"Command"		"GetNewList"
 	}		

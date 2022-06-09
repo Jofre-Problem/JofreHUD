@@ -2,13 +2,13 @@
 {
 	1	"background_upward"
 	2	"background_upward"
-	3	"background_2fort"
-	4	"background_2fort"
+	3	"background_gravelpit"
+	4	"background_gravelpit"
 }
 "BackgroundMaps"
 {
 	1	"background_upward"
 	2	"background_upward"
-	3	"background_2fort"
-	4	"background_2fort"
+	3	"background_gravelpit"
+	4	"background_gravelpit"
 }

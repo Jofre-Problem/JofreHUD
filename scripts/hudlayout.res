@@ -1,3 +1,4 @@
+	#base "../_jofrenew/ui_overrides/close-caption/file.res"
 	#base "../_jofrenew/ui_overrides/global-timer/file.res"
 	#base "../_jofrenew/ui_overrides/speed-meter/file.res"
 	#base "../_jofrenew/ui_overrides/transparent-viewmodel/file.res"

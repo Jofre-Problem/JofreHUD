@@ -27,7 +27,7 @@
 		"ypos"				"16"
 		"zpos"				"49"
 		"wide"				"168"
-		"tall"				"12"
+		"tall"				"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/gradient"
@@ -39,7 +39,8 @@
 		"ypos"			"15"
 		"wide"			"169"
 		"tall"			"13"
-		"fillcolor"		"45 45 45 255"
+		"fillcolor"		"45 45 45 0"
+		"Border"		"Steamworkshopborder"
 	}
 	
 	"HealthBarPanel"
@@ -68,7 +69,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"../hud/halloween_bar"
+			"image"			"replay/thumbnails/hp/REFRACTblur"
 			"scaleImage"	"1"					
 		}
 	
