@@ -426,7 +426,8 @@
 				"tall"			"85"
 				"bgcolor_override"			"W_ColorTheme2"
 				"PaintBackgroundType"	"2"			
-			}				
+			}		
+					
 	"tr_walkay"	
 	{
 		"pin_to_sibling"	"PanelTraining"
@@ -486,7 +487,20 @@
 		matchgroup				MatchGroup_Casual_12v12		// check out!
 		show_model				0					// check out!
 		show_type				1			
-	}		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 		"Background"		//Only not removed cuz save settings button
 		{
 			"ControlName"	"EditablePanel"

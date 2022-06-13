@@ -58,10 +58,6 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
-	"BlueTeamImage"
-	{
-		"wide"			"0"
-	}
 
 	"RedScoreBG"
 	{
@@ -90,7 +86,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"0"
-		"ypos"			"-20"
+		"ypos"			"79"
 		"zpos"			"100"
 		"wide"			"p0.5"
 		"tall"			"20"
@@ -100,41 +96,96 @@
 		"enabled"		"1"
 		"scaleImage"		"0"
 		"fillcolor"		"52 152 219 255"
-		"pin_to_sibling"	"RedScoreBG"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"2"
 		"image"	"replay/thumbnails/null"
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"BlueScoreBG2"
+		
+	"RedScoreBG2"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG2"
+		"fieldName"		"RedScoreBG2"
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"0"
 		"zpos"			"101"
-		"wide"			"60"
+		"wide"			"22"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"30 30 30 100"
+		"fillcolor"		"30 30 30 255"
+		"pin_to_sibling"	"RedScoreBG"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"3"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedTeamImage"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/team_red"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"RedScoreBG2"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueScoreBG3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"101"
+		"wide"			"22"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"		"1"
+		"fillcolor"		"30 30 30 255"
+		"pin_to_sibling"	"BlueScoreBG"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}	
+	"BlueTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueTeamImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/team_blue"
+		"scaleImage"		"1"
 		"pin_to_sibling"	"BlueScoreBG"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}			
-	"RedTeamImage"
-	{
-		"wide"			"0"
-	}
+	}	
 	"ServerLabelNew"
 	{
 		"wide"			"0"
@@ -184,15 +235,15 @@
 	}							
 	"BlueTeamScore"
 	{
-		"font"			"NotoBold20"
-
-		"textAlignment"		"center"
-		"xpos"			"0"
+		"font"			"NotoBold26"
+		"fgcolor_override"	"W_Colortheme1"
+		"textAlignment"		"east"
+		"xpos"			"5"
 		"ypos"			"0" 
 		"zpos"			"1005"
-		"wide"			"30"
+		"wide"			"p0.5"
 		"tall"			"20"
-		"pin_to_sibling"	"BlueScoreBG2"
+		"pin_to_sibling"	"BlueScoreBG"
 		if_mvm
 		{
 			"visible"		"0"
@@ -244,13 +295,13 @@
 	}							
 	"RedTeamScore"
 	{
-		"font"			"NotoBold20"
-
-		"textAlignment"		"center"
-		"xpos"			"0"
-		"ypos"			"-1" 
+		"font"			"NotoBold26"
+		"fgcolor_override"	"W_colortheme1"
+		"textAlignment"		"west"
+		"xpos"			"-5"
+		"ypos"			"0" 
 		"zpos"			"1005"
-		"wide"			"30"
+		"wide"			"p0.5"
 		"tall"			"20"
 		"pin_to_sibling"	"RedScoreBG"
 		if_mvm
@@ -260,26 +311,8 @@
 	}
 	"RedTeamScoreDropshadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
-		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"369"
-		"ypos"			"13"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+	
 	}							
 	"RedTeamPlayerCount"
 	{
@@ -356,7 +389,6 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"400"
-		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -377,7 +409,6 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"400"
-		"wide_minmode"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -1005,20 +1036,20 @@ if_mvm
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
-	}	
+	}		
 	"center1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"center1"
 		"xpos"			"0"
 		"ypos"			"-20+p0.001"
-		"zpos""50"
+		"zpos""5000"
 		"wide"			"f0"
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
-		"pin_to_sibling"	"BlueScoreBG2"
+		"pin_to_sibling"	"BlueScoreBG"
 	}	
 	"center2"
 	{
@@ -1081,7 +1112,7 @@ if_mvm
 		"fieldName"			"LocalPlayerStatsPanel"
 		"xpos"				"0"
 		"ypos"				"rs1"
-		"zpos"				"3"
+		"zpos"				"30"
 		"wide"				"f0"
 		"tall"				"50"
 

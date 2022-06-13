@@ -21,7 +21,20 @@
 	}		
 	"ItemEffectMeterLabel"
 	{
-		"wide"			"0"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"5"
+		"wide"					"f0"
+		"tall"					"4"
+		"visible"				"1"
+		"enabled"				"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"proportionaltoparent"		"1"
+		"font"		"FontStorePriceSmall"
+		"pin_to_sibling"	"ItemEffectMeter"
 	}
 
 	"ItemEffectMeter"
@@ -35,7 +48,7 @@
 		"zpos"			"2"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"1"
+		"tall"			"4"
 		"textAlignment"		"Left"
 		"MeterFG"		"245 245 245 255"
 		"MeterBG"		"0 0 0 100"
@@ -49,8 +62,9 @@
 		"zpos"			"0"
 		"wide"			"160"
 		"wide_minmode"	"75"
-		"tall"			"1"
+		"tall"			"4"
 		"pin_to_sibling"	"ItemEffectMeter"
+		"border"				"Rice1"
 	}
 						
 }

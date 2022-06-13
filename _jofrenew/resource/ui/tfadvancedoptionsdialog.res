@@ -12,16 +12,16 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-3000"
+		"zpos"			"3000"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"2"
 	}	
 "TFAdvancedOptionsDialog"
 {
 "ControlName""EditablePanel"
 "fieldName""TFAdvancedOptionsDialog"
 "xpos""c-250"
-"ypos""90"
+"ypos""95"
 "wide""500"
 "tall""350"
 
@@ -50,7 +50,7 @@
 "zpos""-100"
 "wide""f0"
 "tall""f0"
-"bgcolor_override"	"34 34 34 240"
+"bgcolor_override"	"50 50 50 255"
 }
 "TitleLabel"
 {

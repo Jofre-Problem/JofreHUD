@@ -10,7 +10,7 @@
 		"zpos"			"0"
 		"wide"			"160"
 		//"wide_minmode"	"75"
-		"tall"			"3"
+		"tall"			"4"
 		"pin_to_sibling"	"ChargeMeter"
 	}		
 	"ChargeMeter"
@@ -22,8 +22,8 @@
 		"ypos"		"r140"
 		"zpos"		"2"
 		"wide"		"160"
-		"tall"		"3"	
-		"tall_minmode"		"3"			
+		"tall"		"4"	
+	//	"tall_minmode"		"3"			
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"	"1"
@@ -33,6 +33,7 @@
 		"brighttext"	"0"
 		"fgcolor_override"	"245 245 245 255"
 		"bgcolor_override"	"0 0 0 200"
+		"border"				"Rice1"
 	}	
 
 }

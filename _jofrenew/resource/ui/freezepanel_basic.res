@@ -8,109 +8,9 @@
 		"screenshot_move_panel_to_corner"	"0"
 	}
 
-			
-			
-			
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"99999"
-		"ypos"			"99999"
-		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"bgcolor_override"		"softshadowdarker"
-		"border"		"noborder"
-		"bgcolor"		"softshadowdarker"
-		"paintbackground"		"1"
-		"paintbackgroundtype"		"2"
-
-		"model_xpos"		"35"
-		"model_ypos"		"18"
-		"model_center_y"	"0"
-		"model_center_x"	"0"
-		"model_wide"		"90"
-		"model_tall"		"55"
-
-		"text_xpos"		"8"
-		"text_ypos"		"8"
-		"text_wide"		"144"
-		"text_center"	"1"
-
-		"max_text_height"	"90"
-		"padding_height"	"8"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
-			"useparentbg"		"1"
-		}
-
 		
-		"ItemLabel"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"product8"
-			"xpos"			"0"
-			"bgcolor_override"			"0 0 0 0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"14"
-			"textinsetx"	"8"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"0"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-		"background"
-		{
-			"ControlName"	"imagepanel"
-			"fieldName"		"background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"0 0 0 165"
-		}
-	}
 	
-	"FreezePanelBase"	[$WIN32]
+	"FreezePanelBase"	
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
@@ -161,7 +61,7 @@
 			"brighttext"		"0"
 		}
 		
-		"FreezePanelHealth"		[$WIN32]
+		"FreezePanelHealth"	
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
@@ -180,7 +80,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"product14"
+			"font"			"Regular12"
 			"xpos"			"0"
 			"ypos"			"c65"
 			"zpos"			"25"

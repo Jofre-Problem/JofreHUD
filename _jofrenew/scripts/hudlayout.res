@@ -187,10 +187,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r70"
-		"wide"		"500"
-		"tall"		"200"
+		"xpos"		"60"
+		"ypos"		"r80"
+		"wide"		"f0"
+		"tall"		"f0"
 		"TextFont"	"Default"	
 	}
 	CMainTargetID

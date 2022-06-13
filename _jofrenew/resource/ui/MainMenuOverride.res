@@ -420,40 +420,6 @@
 		}		
 		}
 	}
-	"DrpMouseYInvert"
-	{
-		"ControlName"		"Menu"
-		"fieldName"			"DrpMouseYInvert"
-		"xpos"				"cs-0.5"
-		"ypos"				"rs1"
-		"zpos"				"3"
-		"wide"				"360"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"usetitlesafe"		"0"
-		"tabPosition"		"0"
-		"Notifications_TitleLabel"
-		{
-			ControlName				CExLabel
-			FieldName				"Notifications_TitleLabel"
-			xPos					8
-			yPos					3
-			"zpos"					"100"
-			wide					f30
-			tall					10
-			proportionalToParent		1
-
-			font					"Default"
-			labelText				"%notititle%"
-			textAlignment			west
-			wrap					0
-			textInsetY				2
-			fgcolor_override		"W_ColorIcons1"
-			
-			paintBackground			0
-		}
-	}	
 	"RequestCoachButton"
 	{
 		"wide"			"0"

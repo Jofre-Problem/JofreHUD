@@ -23,7 +23,7 @@
 		"xpos"			"0"
 		"ypos"			"11"
 		"zpos"			"5"
-		"wide"			"654"
+		"wide"			"p0.768"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -132,6 +132,18 @@
 	}	
 	"PlayerStatusHealthValue"
 	{
-		"wide"			"0"
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"0"
+		"ypos"			"11"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"west"	
+		"font"			"Killfeed"
+		"fgcolor"		"W_ColorIcons1"
 	}							
 }

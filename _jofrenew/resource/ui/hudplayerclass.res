@@ -1,3 +1,4 @@
+//#base "../../uni_base/panel/1.res"
 //#base "../ui3/blue-light.res"
 "Resource/UI/HudPlayerClass.res"
 {
@@ -21,10 +22,13 @@
 	{
 		"ypos"			"r0"		
 	}	
+
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ypos"			"r0"
-	}		
+////	"pin_to_sibling"	"1_editable"
+	}
+
 	"PlayerStatusClassImageBG"
 	{
 		"ypos"			"r0"

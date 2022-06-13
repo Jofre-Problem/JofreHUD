@@ -72,7 +72,6 @@ event HudHealthDyingPulseLoop1a //idk i don't like this one
 //	Animate	PlayerStatusHealthValueLow	Fgcolor "195 95 0 255" Linear 0.2 0.08
 	
 //	RunEvent HudHealthDyingPulseLoop1b	0.4
-
 	//reformated
 	Animate PlayerStatusHealthValueID Fgcolor "255 95 8 255" linear 0.0 0.06
 	Animate PlayerStatusHealthValueID2 Fgcolor "255 95 8 255" linear 0.0 0.06

@@ -75,10 +75,10 @@
 				xPos					5
 				yPos					15
 				wide					395
-				tall					100	
-				font					"Regular14"
-				fgcolor_override		"PolyIconsFg1"
-				labelText				"This panel is in work in progress."
+				tall					50	
+				font					"Regular12"
+				fgcolor_override		"255 195 5 255"
+				labelText				"Please check out README on the page its published, as well, this is a WIP."
 				textAlignment			center
 				"centerwrap"	"1"
 			}			

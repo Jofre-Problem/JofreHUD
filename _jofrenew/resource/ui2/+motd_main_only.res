@@ -14,6 +14,7 @@
 		"wide"			"f0"
 		"tall"			"31"
 		"border"	"noborder"
+
 			"SubImage2"
 			{
 				"ControlName"	"EditablePanel"
@@ -25,7 +26,7 @@
 				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"			"W_ColorTheme2"
+				"bgcolor_override"			"W_colortheme1"
 				"PaintBackgroundType"	"2"
 				
 				"Label1" 
@@ -68,7 +69,7 @@
 			"tall"										"30"
 			"textinsety"	"-5"
 			labelText				"Servers"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			command				"OpenServerBrowser"
 			"actionsignallevel"	"2"
@@ -91,7 +92,7 @@
 		"wide"										"70"
 		"tall"										"30"
 		labelText				"Options"
-		font					"NotoBold20"
+		font					"NotoBold18"
 		"textinsety"	"-5"
 		textAlignment			center
 		command				OpenOptionsDialog
@@ -121,7 +122,7 @@
 			"wide"										"80"
 			"tall"										"30"
 			labelText				"Advanced"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			"textinsety"	"-5"
 			command				"opentf2options"
@@ -147,7 +148,7 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Create"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			"textinsety"	"-5"
 			command				"create_server"
@@ -385,7 +386,7 @@
 		"MOTD_Label"
 		{			"ControlName"	"cexLabel"
 			"fieldname"		"MOTD_Label"
-			"font"			"NotoBold20"
+			"font"			"NotoBold18"
 			"xpos"			"cs-0.5"
 			"ypos"			"5"
 			"wide"			"0"	//cant find a good use
