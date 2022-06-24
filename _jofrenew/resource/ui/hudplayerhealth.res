@@ -60,21 +60,7 @@
 		"wide"			"123"
 		"tall"		"34"
 	}
-		"FixForHP2"
-		{
-		"ControlName""CTFImagePanel"
-		"fieldName""FixForHP2"
-		"xpos""0"
-		"ypos""0"
-		"zpos""3"
-		"wide""41"
-		"tall""34"
-		"scaleImage""1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/modulate_white"
-		"teambg_3"		"replay/thumbnails/hp/modulate_white"
-	}		
+
 		"FixForHP"
 		{
 		"ControlName""CTFImagePanel"
@@ -87,8 +73,8 @@
 		"scaleImage""1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/modulate_white"
-		"teambg_3"		"replay/thumbnails/hp/modulate_white"
+		"teambg_2"		"replay/thumbnails/hp/modulate_red"
+		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
 	}	
 	"PlayerStatusHealthImageBG"
 	{
