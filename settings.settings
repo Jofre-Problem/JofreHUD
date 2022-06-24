@@ -22,7 +22,7 @@ Damage Indicator|Stock
 System Tray Icon|None
 Server Plugin Font|Product Sans
 Transparent Viewmodels|On
-Remove Scope|On
+Remove Scope|Off
 No Chat BG|Off
 Crosshair on scoreboard|Off
 Scoreboard Slide|Off
@@ -36,3 +36,4 @@ Speed Meter|Enabled
 Global Timer|Enabled
 Menu Timer|Enabled (00-00-00)
 Class Model Background|YaHud Corner
+Close Caption Style|Magnum
