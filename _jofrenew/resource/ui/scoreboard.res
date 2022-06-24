@@ -12,6 +12,10 @@
 		"tall"	"o1"
 			//"pin_to_sibling"	"PartySlot0"
 				//cant pin
+		if_mvm
+		{
+			"visible"		"0"
+		}				
 		}	
 	"Removeline"
 	{
@@ -24,7 +28,10 @@
 			tall					31
 		bgcolor_override				"blank"
 		mouseInputEnabled			0
-
+		if_mvm
+		{
+			"visible"		"0"
+		}
 		"PartySlot0"  // player
 		{
 			ControlName				CDashboardPartyMember
@@ -99,6 +106,7 @@
 		"image"	"replay/thumbnails/null"
 		if_mvm
 		{
+			"xpos"			"r0"
 			"visible"		"0"
 		}
 	}
@@ -213,25 +221,7 @@
 	}							
 	"BlueTeamLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
-		"labelText"		"%blueteamname%"
-		"textAlignment"		"east"
-		"xpos"			"143" [!$OSX]
-		"xpos"			"148" [$OSX]
-		"ypos"			"21"
-		"wide"			"140"
-		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}							
 	"BlueTeamScore"
 	{
@@ -273,25 +263,7 @@
 	}							
 	"RedTeamLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameNew"
-		"labelText"		"%redteamname%"
-		"textAlignment"		"west"
-		"xpos"			"358" [!$OSX]
-		"xpos"			"143" [$OSX]
-		"ypos"			"21"
-		"wide"			"140"
-		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}							
 	"RedTeamScore"
 	{
@@ -1063,6 +1035,10 @@ if_mvm
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}		
 	"BlurMainBG"
 	{
@@ -1105,6 +1081,10 @@ if_mvm
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/hp/redteam"
 		"teambg_3"		"replay/thumbnails/hp/bluteam"
+				if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	"LocalPlayerStatsPanel"
 	{

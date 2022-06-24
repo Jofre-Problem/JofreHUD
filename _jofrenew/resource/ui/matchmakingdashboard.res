@@ -230,7 +230,7 @@
 		}
 		"PartySlot3"
 		{
-			"xpos"					"cs-0.5"
+			"xpos"					"cs-0.5+90"
 			"ypos"					"0"
 			"wide"					"22"
 			"tall"					"o1"

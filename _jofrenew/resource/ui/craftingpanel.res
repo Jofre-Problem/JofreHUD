@@ -152,21 +152,7 @@
 
 "ClassLabel"
 {
-"ControlName""CExLabel"
-"fieldName""ClassLabel"
-"font""Future18"
-"labelText""#CraftStep1"
-"textAlignment""north-west"
-"xpos""0"
-"ypos""0"
-"zpos""1"
-"wide""f0"
-"tall""25"
-
-
-//"visible""1"
-
-"fgcolor_override" "Black"
+"wide""0"
 }
 
 "selectedrecipecontainer"

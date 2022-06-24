@@ -1610,13 +1610,7 @@ Scheme
 			"draw_corner_width"		"4"	
 			"draw_corner_height" 	"4"	
 		}
-		ReplayDefaultBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"Blank"
-			"image"					"replay/thumbnails/null"
-		}
+
 
 
 
