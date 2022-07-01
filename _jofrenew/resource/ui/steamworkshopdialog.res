@@ -60,14 +60,33 @@
 				ControlName				Label
 				FieldName				"title3"
 				xPos					5
-				yPos					170
+				yPos					180
 				wide					400
 				tall					20	
-				font					"Regular14"
+				font					"Regular12"
 				fgcolor_override		"PolyIconsFg1"
 				labelText				"Click anywhere to close this window."
 				textAlignment			center
-			}			
+			}
+	"os"
+	{
+					ControlName				Label
+				FieldName				"os"	
+		"font"				"Code8"
+		"textAlignment"		"os"
+		"xpos"				"cs-0.5"
+		"fgcolor_override"	"3 216 6 255"
+		"ypos"				"0"
+		"zpos"				"5000"
+		"wide"				"f0"
+		"tall"	"20"
+		"labelText"				"Windows"[$WINDOWS]
+		"labelText"			"Linux" [$LINUX]
+		if_mvm
+		{
+			"visible"			"0"
+		}
+	}							
 			"title2"		
 			{
 				ControlName				Label
@@ -78,10 +97,24 @@
 				tall					50	
 				font					"Regular12"
 				fgcolor_override		"255 195 5 255"
-				labelText				"Please check out README on the page its published, as well, this is a WIP."
+				labelText				"Please check out the description of the HUD of the page published."
 				textAlignment			center
 				"centerwrap"	"1"
-			}			
+			}	
+			"4plug"		
+			{
+				ControlName				Label
+				FieldName				"4plug"
+				xPos					5
+				yPos					40
+				wide					395
+				tall					50	
+				font					"Regular12"
+				fgcolor_override		"3 216 6  255"
+				labelText				"4plugsettings"
+				textAlignment			center
+				"centerwrap"	"1"
+			}						
 	}
 	"Container"
 	{

@@ -698,14 +698,15 @@
 {
 "ControlName""CExLabel"
 "fieldName""ServerTimeLeftValue2"
-"font""NotoBold10"
+"font""Code8"
 "labelText""%servertime%"
+"fgcolor_override"	"3 216 6 255"
 "xpos""rs1"
 "ypos""0"
 "zpos"	"20"
 "wide"		"p0.5"
-"tall""12"
-		"font"	"Noto10"
+"tall""12"[$WINDOWS]
+		"tall"			"9" [$LINUX]
 "textAlignment"	"center"
 
 if_mvm
@@ -954,7 +955,8 @@ if_mvm
 			"ypos"			"rs1"
 			"zpos"			"3"
 			"wide"			"f0"
-			"tall"			"57-p0.001"
+			"tall"			"57-p0.001"[$WINDOWS]
+		"tall"			"51" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
 		}	
@@ -966,19 +968,22 @@ if_mvm
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"f0"
-			"tall"			"11"
+			"tall"			"11"[$WINDOWS]
+		"tall"			"8" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
 		}
 	"MapName"
 	{
-		"font"				"Noto10"
+		"font"				"Code8"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
+		"fgcolor_override"	"3 216 6 255"
 		"ypos"				"0"
-		"zpos"				"5"
+		"zpos"				"5000"
 		"wide"				"f0"
-		"tall"				"12"
+		"tall"				"12"[$WINDOWS]
+		"tall"			"9" [$LINUX]
 		if_mvm
 		{
 			"visible"			"0"
@@ -988,21 +993,24 @@ if_mvm
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerLabel2"
-		"font"				"Noto10"
+		"font"				"Code8"
+		"fgcolor_override"	"3 216 6 255"
 		"labelText"			"%server%"
 		"textAlignment"		"center"
 		"xpos"				"0"
-		"zpos"				"20"
+		"zpos"				"10000"
 		"wide"				"p0.5"
-		"tall"				"12"
+		"tall"				"12"[$WINDOWS]
+		"tall"			"9" [$LINUX]
 	}	
 	"up1"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"up1"
 		"xpos"			"0"
-		"ypos"			"11"
-		"zpos""5"
+		"ypos"			"11"[$WINDOWS]
+		"ypos"			"8" [$LINUX]
+		"zpos""1000"
 		"wide"			"f0"
 		"tall"			"p0.001"
 		"visible"		"1"
@@ -1028,7 +1036,7 @@ if_mvm
 		"ControlName"	"EditablePanel"
 		"fieldName"		"center2"
 		"xpos"			"0"
-		"ypos"			"c50"
+		"ypos"			"c50" 
 		"zpos""50"
 		"wide"			"f0"
 		"tall"			"p0.001"
@@ -1058,43 +1066,24 @@ if_mvm
 		"ControlName"	"EditablePanel"
 		"fieldName"		"team1"
 		"xpos"			"0"
-		"ypos"			"rs1-57-p0.001"
-		"zpos""5"
+		"ypos"			"rs1-57-p0.001" [$WINDOWS]
+		"ypos"			"rs1-51" [$LINUX]
+		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
 	}	
-	"team2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"team2"
-		"xpos"			"0"
-		"ypos"			"rs1-65"
-		"zpos""-2"
-		"wide"			"f0"
-		"tall"			"1"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"
-				if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
 	"LocalPlayerStatsPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"LocalPlayerStatsPanel"
 		"xpos"				"0"
-		"ypos"				"rs1"
+		"ypos"				"0"
 		"zpos"				"30"
 		"wide"				"f0"
-		"tall"				"50"
+		"tall"				"f0"
 
 
 		if_mvm
@@ -1110,8 +1099,8 @@ if_mvm
 			"font"				"NotoBold36"
 			"labelText"			":"
 			"textAlignment"		"center"
-			"xpos"				"85"
-			"ypos"				"0"
+			"xpos"				"95"
+			"ypos"				"rs1"
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
@@ -1127,6 +1116,58 @@ if_mvm
 				"ypos"				"0"
 			}
 		}
+	"Kills1"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"Kills1"
+		"xpos"			"0"
+		"ypos"			"-2"
+		"zpos"			"10"
+		"wide"			"f0"
+		"tall"			"12"
+		"variable"		"kills"
+		"fgcolor_override"		"255 215 0 255"
+		"bgcolor_override"		"0 0 0 0"
+	}	
+	"Kills3"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"Kills3"
+		"xpos"			"-3"
+		"ypos"			"-2"
+		"zpos"			"10"
+		"wide"			"f0"
+		"tall"			"12"
+		"variable"		"kills"
+		"fgcolor_override"		"255 215 0 255"
+		"bgcolor_override"		"0 0 0 0"
+	}	
+	"death1"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"death1"
+		"xpos"			"0"
+		"ypos"			"-2"
+		"zpos"			"11"
+		"wide"			"f0"
+		"tall"			"12"
+		"variable"		"deaths"
+		"fgcolor_override"		"190 45 57 255"
+		"bgcolor_override"		"0 0 0 0"
+	}	
+	"death2"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"death2"
+		"xpos"			"-3"
+		"ypos"			"-2"
+		"zpos"			"11"
+		"wide"			"f0"
+		"tall"			"12"
+		"variable"		"deaths"
+		"fgcolor_override"		"190 45 57 255"
+		"bgcolor_override"		"0 0 0 0"
+	}					
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
@@ -1254,8 +1295,8 @@ if_mvm
 			"font"				"Noto10"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"				"140"
-			"ypos"				"2"
+			"xpos"				"160"
+			"ypos"				"rs1-28"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
@@ -1263,10 +1304,6 @@ if_mvm
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"StatsBG"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 			if_mvm
 			{

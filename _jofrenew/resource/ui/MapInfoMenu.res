@@ -2,8 +2,16 @@
 #base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
 #base "../ui3/keybindings.res"
-"Resource/UI/MapInfoMenu.res"
+#base "../uni_base/cexlabel/tf2.res"
+#base "../uni_base/cexlabel/o.res"
+#base "../ui2/polybar_1.res"
+#base "../ui2/polyconfig1.res"
+"Resource/UI/TeamMenu.res"
 {
+	"o_label"
+	{
+		"xpos"			"rs1-90"
+	}	
 		"SummerBorder"
 		{
 		"xpos""cs-0.5"

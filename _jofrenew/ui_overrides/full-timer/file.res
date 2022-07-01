@@ -11,7 +11,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
-		"xpos"					"cs-0.5-30"
+		"xpos"					"cs-0.5-35"
 		"ypos"					"2"
 		"wide"					"10"
 		"tall"					"o2"

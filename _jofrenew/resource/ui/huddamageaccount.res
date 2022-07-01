@@ -19,7 +19,7 @@
 		"delta_lifetime"		"5.6"
 		"alpha" "125"
 		"Additive" "1"
-	}
+	}	
 	"DamageAccountLabel"
 	{
 		"ControlName"	"CExLabel"

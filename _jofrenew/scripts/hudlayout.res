@@ -78,7 +78,7 @@
 		"ypos_minmode"	"325+28"			
 		"zpos"			"0"
 		"wide"			"124"
-		"tall"			"36"
+		"tall"			"38"
 	}
 	HudMedicCharge
 	{
@@ -148,10 +148,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"			"c-255"
+		"xpos"			"70"
 		"zpos"		"2000"
-		"ypos"			"r150"//c19"
-		"ypos_minmode"	"r93"
+		"ypos"			"r40"
 		"wide"			"50"
 		"tall"			"70"
 		"visible" 				"1"

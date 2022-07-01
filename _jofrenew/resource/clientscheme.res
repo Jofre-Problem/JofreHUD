@@ -496,6 +496,7 @@ Scheme
 				"tall"		"9"
 				"wide"		"300"
 				"antialias" 	"1"
+				"outline"	"1"
 			}
 		}   			
 		"Code7"
@@ -505,9 +506,21 @@ Scheme
 				"name"		"Calling Code Regular"
 				"tall"		"7"
 				"wide"		"300"
+				"outline"	"1"
 				"antialias" 	"1"
 			}
 		}    		
+		"Code8"
+		{
+			"1"
+			{
+				"name"		"Calling Code Regular"
+				"tall"		"8"
+				"wide"		"300"
+				"outline"	"1"
+				"antialias" 	"1"
+			}
+		}				
 		"Blank" //backup
 		{
 			"1"
@@ -520,6 +533,7 @@ Scheme
 				"yres"			"0 2000"
 			}
 		}
+	
 		"Segoe8"
 		{
 			"1"
