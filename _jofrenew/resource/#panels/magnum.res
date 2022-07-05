@@ -117,22 +117,6 @@
 				labelText				"Extra:"
 				textAlignment			center
 			}		
-		"unix"
-		{
-		"ControlName""ImagePanel"
-		"fieldName""unix"
-		"xpos""124"
-		"ypos""172"
-		"zpos""70"
-		"wide""40"
-		"tall""40"
-		"visible""1"
-		"enabled""1"
-		"scaleImage""1"
-		"image""replay/thumbnails/misc/r_unix"
-		"fgcolor""TanDark"
-		"border"	"Rice1"
-		}
 		"tank"
 		{
 		"ControlName""ImagePanel"
