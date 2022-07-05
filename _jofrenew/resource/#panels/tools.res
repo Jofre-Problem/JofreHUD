@@ -194,7 +194,7 @@
 				tall					12	
 				font					"Code10"
 				fgcolor_override		"W_ColorIcons1"
-				labelText				"eleven-hud@team-fortress"
+				labelText				"jofre-hud@team-fortress"
 				textAlignment			west
 				pin_to_sibling			"Dunno"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -258,7 +258,7 @@
 				tall					12	
 				font					"Code10"
 				fgcolor_override		"W_ColorIcons1"
-				labelText				"INSPIRED BY: ArchCraft OS"
+				labelText				"INSPIRED BY: Archcraft OS"
 				textAlignment			west
 		"pin_to_sibling"	"credits2"
 		pin_corner_to_sibling		PIN_TOPLEFT

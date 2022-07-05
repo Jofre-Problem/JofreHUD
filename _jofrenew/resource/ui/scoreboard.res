@@ -203,7 +203,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
-		"ypos"			"38"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"480"
@@ -648,23 +648,7 @@
 	}
 	"PlayerNameBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"PlayerNameBG"
-		"xpos"			"105"
-		"ypos"			"372"
-		"zpos"			"-1"
-		"wide"			"485"
-		"tall"			"29"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"wide"			"0"
 	}
 	"PlayerNameLabel"
 	{
@@ -1047,7 +1031,11 @@ if_mvm
 		{
 			"visible"		"0"
 		}
-	}		
+	}	
+"HorizontalLine"
+{
+"wide""0"
+}		
 	"BlurMainBG"
 	{
 	"ControlName""ImagePanel"
@@ -1060,6 +1048,15 @@ if_mvm
 	"image""replay/thumbnails/hp/REFRACTblur"
 	"scaleimage""1"
 	"pin_to_sibling"	"BluePlayerList"
+		if_mvm
+		{
+			"visible"		"1"
+			"tall"	"420"
+		"ypos"				"12"[$WINDOWS]
+		"ypos"			"9-p0.001" [$LINUX]
+			"zpos"	"5"
+			"pin_to_sibling"	"MapNme"
+		}
 	}						
 	"team1"
 	{
@@ -1088,8 +1085,8 @@ if_mvm
 
 		if_mvm
 		{
-			"wide"				"270"
-			"tall"				"132"
+		//	"wide"				"270"
+		//	"tall"				"132"
 		}
 
 		"KillsLabel"
@@ -1100,7 +1097,8 @@ if_mvm
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"95"
-			"ypos"				"rs1"
+			"ypos"				"rs1"[$LINUX]
+		"ypos"			"rs1-4" [$WINDOWS]
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
@@ -1109,12 +1107,6 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"White"
-
-			if_mvm
-			{
-				"xpos"				"117"
-				"ypos"				"0"
-			}
 		}
 	"Kills1"
 	{
@@ -1124,7 +1116,8 @@ if_mvm
 		"ypos"			"-2"
 		"zpos"			"10"
 		"wide"			"f0"
-		"tall"			"12"
+		"tall"			"12"[$LINUX]
+		"tall"			"14" [$WINDOWS]
 		"variable"		"kills"
 		"fgcolor_override"		"255 215 0 255"
 		"bgcolor_override"		"0 0 0 0"
@@ -1137,7 +1130,8 @@ if_mvm
 		"ypos"			"-2"
 		"zpos"			"10"
 		"wide"			"f0"
-		"tall"			"12"
+		"tall"			"12"[$LINUX]
+		"tall"			"14" [$WINDOWS]
 		"variable"		"kills"
 		"fgcolor_override"		"255 215 0 255"
 		"bgcolor_override"		"0 0 0 0"
@@ -1150,7 +1144,8 @@ if_mvm
 		"ypos"			"-2"
 		"zpos"			"11"
 		"wide"			"f0"
-		"tall"			"12"
+		"tall"			"12"[$LINUX]
+		"tall"			"14" [$WINDOWS]
 		"variable"		"deaths"
 		"fgcolor_override"		"190 45 57 255"
 		"bgcolor_override"		"0 0 0 0"
@@ -1163,7 +1158,8 @@ if_mvm
 		"ypos"			"-2"
 		"zpos"			"11"
 		"wide"			"f0"
-		"tall"			"12"
+		"tall"			"12"[$LINUX]
+		"tall"			"14" [$WINDOWS]
 		"variable"		"deaths"
 		"fgcolor_override"		"190 45 57 255"
 		"bgcolor_override"		"0 0 0 0"
@@ -1296,7 +1292,8 @@ if_mvm
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
-			"ypos"				"rs1-28"
+			"ypos"				"rs1-28"[$LINUX]
+		"ypos"			"rs1-32" [$WINDOWS]
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
@@ -1304,13 +1301,6 @@ if_mvm
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"0"
-				"ypos"				"50"
-			}
 		}
 		"Assists"
 		{
@@ -1353,11 +1343,6 @@ if_mvm
 			"pin_to_sibling"		"Assists"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"DestructionLabel"
@@ -1381,10 +1366,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"visible"		"0"
-			}
 		}
 		"Destruction"
 		{
@@ -1407,10 +1388,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 		"Destruction2"
 		{
@@ -1433,10 +1410,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 
 		"CapturesLabel"
@@ -1460,10 +1433,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 		"Captures"
 		{
@@ -1486,10 +1455,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 		"Captures2"
 		{
@@ -1512,10 +1477,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 
 		"DefensesLabel"
@@ -1539,10 +1501,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 		"Defenses"
 		{
@@ -1565,10 +1524,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 		"Defenses2"
 		{
@@ -1591,10 +1547,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 
 		"DominationLabel"
@@ -1618,10 +1570,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 		"Domination"
 		{
@@ -1644,10 +1592,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 		"Domination2"
 		{
@@ -1670,10 +1615,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 
 		"RevengeLabel"
@@ -1697,10 +1638,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 		"Revenge"
 		{
@@ -1723,10 +1661,7 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
+
 		}
 		"Revenge2"
 		{
@@ -1749,10 +1684,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"visible"			"0"
-			}
 		}
 
 		"HealingLabel"
@@ -1775,16 +1706,6 @@ if_mvm
 			"pin_to_sibling"		"DefensesLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"0"
-				"ypos"				"20"
-				"pin_to_sibling"		"AssistsLabel"
-				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-			}
 		}
 
 		"Healing"
@@ -1828,11 +1749,6 @@ if_mvm
 			"pin_to_sibling"		"Healing"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"InvulnLabel"
@@ -1855,12 +1771,6 @@ if_mvm
 			"pin_to_sibling"		"HealingLabel"
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-				"ypos"				"20"
-			}
 		}
 		"Invuln"
 		{
@@ -1904,10 +1814,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"TeleportsLabel"
@@ -1931,15 +1837,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"90"
-				"ypos"				"0"
-				"pin_to_sibling"		"AssistsLabel"
-				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-			}
 		}
 		"Teleports"
 		{
@@ -1983,10 +1880,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"HeadshotsLabel"
@@ -2010,16 +1903,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"0"
-				"ypos"				"20"
-				"wide"				"55"
-				"pin_to_sibling"		"TeleportsLabel"
-				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-			}
 		}
 		"Headshots"
 		{
@@ -2063,10 +1946,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"BackstabsLabel"
@@ -2090,11 +1969,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-				"ypos"				"20"
-			}
 		}
 		"Backstabs"
 		{
@@ -2138,10 +2012,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"BonusLabel"
@@ -2164,16 +2034,6 @@ if_mvm
 			"pin_to_sibling"		"BackstabsLabel"
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"90"
-				"ypos"				"0"
-				"pin_to_sibling"		"TeleportsLabel"
-				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-			}
 		}
 		"Bonus"
 		{
@@ -2217,10 +2077,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"SupportLabel"
@@ -2243,16 +2099,6 @@ if_mvm
 			"pin_to_sibling"		"HeadshotsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-				"xpos"				"0"
-				"ypos"				"20"
-				"pin_to_sibling"		"BonusLabel"
-				"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-				"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
-			}
 		}
 		"Support"
 		{
@@ -2295,11 +2141,6 @@ if_mvm
 			"pin_to_sibling"		"Support"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 
 		"DamageLabel"
@@ -2323,11 +2164,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-				"ypos"				"20"
-			}
 		}
 		"Damage"
 		{
@@ -2371,10 +2207,6 @@ if_mvm
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-			if_mvm
-			{
-				"font"				"Noto12"
-			}
 		}
 	}
 

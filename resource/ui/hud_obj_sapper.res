@@ -1,4 +1,4 @@
-	#base	"../../_4plug/resource/ui/hud_obj_sapper.res"
+	#base	"../../custom/resource/ui/hud_obj_sapper.res"
 	#base	"../../_jofrenew/resource/ui/hud_obj_sapper.res"
 	#base	"../../_jofrehud/resource/ui/hud_obj_sapper.res"
 	#base	"../../_tf2hud/resource/ui/hud_obj_sapper.res"

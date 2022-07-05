@@ -74,7 +74,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/health_color_additive"
 		"scaleImage"	"1"	
-		"alpha"			"60"
+		"alpha"			"110"
 	}
 	"PlayerStatusHealthAdditiveBG"
 	{

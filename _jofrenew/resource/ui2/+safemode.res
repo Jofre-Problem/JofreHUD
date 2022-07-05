@@ -185,7 +185,7 @@
 			"wide"										"80"
 			"tall"										"30"
 			labelText				"Loadout"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			command				"engine open_charinfo; hideconsole"
 			"actionsignallevel"	"2"	
@@ -204,7 +204,7 @@
 			"wide"										"80"
 			"tall"										"30"
 			labelText				"Contract"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			command				"questlog"
 			"actionsignallevel"	"2"
@@ -226,7 +226,7 @@
 			"wide"										"50"
 			"tall"										"30"
 			labelText				"Shop"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			center
 			command				"engine open_store"
 			"actionsignallevel"	"2"
@@ -247,7 +247,7 @@
 			"wide"										"80"
 			"tall"										"30"
 			labelText				"Demoui"
-			font					"NotoBold20"
+			font					"NotoBold18"
 			textAlignment			west
 			command				"engine demoui; demoui2"
 			"actionsignallevel"	"2"

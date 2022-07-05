@@ -1,4 +1,4 @@
-	#base	"../../../_4plug/resource/ui/disguise_menu/hudmenuspydisguise.res"
+	#base	"../../../custom/resource/ui/disguise_menu/hudmenuspydisguise.res"
 	#base	"../../../_jofrenew/resource/ui/disguise_menu/hudmenuspydisguise.res"
 	#base	"../../../_jofrehud/resource/ui/disguise_menu/hudmenuspydisguise.res"
 	#base	"../../../_jofrehud/_tf2fix/resource/ui/disguise_menu/hudmenuspydisguise.res"

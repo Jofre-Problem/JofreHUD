@@ -1,6 +1,7 @@
 	#base "../_jofrenew/ui_overrides/close-caption/file.res"
 	#base "../_jofrenew/ui_overrides/global-timer/file.res"
 	#base "../_jofrenew/ui_overrides/speed-meter/file.res"
+	#base "../_jofrenew/ui_overrides/hitmarker/file_res.res"
 	#base "../_jofrenew/ui_overrides/transparent-viewmodel/file.res"
 	#base "../_4plug/scripts/hudlayout.res"
 	#base "../_jofrenew/scripts/hudlayout.res"

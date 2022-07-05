@@ -14,6 +14,6 @@ hudanimations_manifest
 	"file"		"_jofrenew/ui_overrides/no-chat-bg/file.txt"
 	"file"		"_jofrenew/ui_overrides/cart-glow/file.txt"
 	"file"		"_jofrenew/ui_overrides/score-slide/file.txt"
-
+	"file"		"_jofrenew/ui_overrides/hitmarker/file.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }

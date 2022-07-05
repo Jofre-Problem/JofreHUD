@@ -32,7 +32,7 @@
 		"wide"			"f0"
 		"tall"			"25"
 		"textAlignment"		"center"
-		"font"			"ViewerNumber"
+		"font"			"Noto10"
 	}
 
 

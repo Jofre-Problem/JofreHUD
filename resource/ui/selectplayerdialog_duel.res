@@ -1,4 +1,4 @@
-	#base	"../../_4plug/resource/ui/selectplayerdialog_duel.res"
+	#base	"../../custom/resource/ui/selectplayerdialog_duel.res"
 	#base	"../../_jofrenew/resource/ui/selectplayerdialog_duel.res"
 	#base	"../../_jofrehud/resource/ui/selectplayerdialog_duel.res"
 	#base	"../../_jofrehud/_tf2fix/resource/ui/selectplayerdialog_duel.res"

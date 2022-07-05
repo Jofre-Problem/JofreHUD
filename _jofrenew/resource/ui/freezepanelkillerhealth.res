@@ -27,6 +27,12 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"
 	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"9999"
+	}	
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"

@@ -1,4 +1,4 @@
-	#base	"../../_4plug/resource/ui/wavecompletesummarypanel.res"
+	#base	"../../custom/resource/ui/wavecompletesummarypanel.res"
 	#base	"../../_jofrenew/resource/ui/wavecompletesummarypanel.res"
 	#base	"../../_jofrehud/resource/ui/wavecompletesummarypanel.res"
 	#base	"../../_tf2hud/resource/ui/wavecompletesummarypanel.res"

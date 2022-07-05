@@ -356,7 +356,7 @@
 		"visible"		"0"
 		
 		"font"	"NotoBold30"
-		"labelText"		"#TF_Close"
+		"labelText"		"Login Screen?"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

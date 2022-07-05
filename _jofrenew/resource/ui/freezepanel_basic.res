@@ -81,7 +81,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"Regular12"
-			"xpos"			"0"
+			"xpos"			"-50"
 			"ypos"			"c65"
 			"zpos"			"25"
 			"wide"			"f0"
@@ -92,7 +92,7 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"center"
-	
+			"centerwrap"	"1"
 		}
 
 		"AvatarImage"

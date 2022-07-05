@@ -20,6 +20,3 @@ event DamageAccountStuff
 
 
 }
-event Hitmarker
-{	
-}

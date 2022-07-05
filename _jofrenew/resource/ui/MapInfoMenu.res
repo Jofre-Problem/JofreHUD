@@ -6,6 +6,7 @@
 #base "../uni_base/cexlabel/o.res"
 #base "../ui2/polybar_1.res"
 #base "../ui2/polyconfig1.res"
+#base "../#jofre/blur_bg.res"
 "Resource/UI/TeamMenu.res"
 {
 	"o_label"

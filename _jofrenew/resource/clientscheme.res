@@ -286,6 +286,17 @@ Scheme
 	}	
 	Fonts
 	{
+		"blocks"
+		{
+			"1"
+			{
+				"name"		"blocks blocks"
+				"tall"		"200"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		"Default"
 		{
 			"1"
@@ -1336,6 +1347,11 @@ Scheme
 		{
 			"font" "_jofrenew/font/HudasIscariote2.otf"
 			"name" "Hudas Iscariote"
-		}							   		     		
+		}			
+		"105"
+		{
+			"font" "_jofrenew/fonts/Blocks-Blocks.ttf"
+			"name" "blocks"
+		}						   		     		
 	}	
 }
