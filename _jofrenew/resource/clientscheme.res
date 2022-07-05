@@ -4,7 +4,7 @@
 //	#base "product.res"
 	#base "scheme/hp-ammo/file.res"
 	// replaces scheme-res
-	#base "apple.res"
+//	#base "apple.res"
 	#base "../font.res"
 	#base "cs_windows.res"
 	#base "base/scheme/cs_global_tf.res"
