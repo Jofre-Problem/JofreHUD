@@ -125,7 +125,7 @@ Scheme
 		PropertySheet.BgColor				"W_ColorTheme2Blur"
 		PropertySheet.TextColor			"W_ColorIcons1"
 		PropertySheet.SelectedTextColor	"W_ColorIcons1"
-		ProgressBar.BgColor				"W_ColorTheme2"
+		ProgressBar.BgColor				"W_ColorTheme3"
 		ProgressBar.FgColor				"W_ColorIcons1"	
 
 		//R

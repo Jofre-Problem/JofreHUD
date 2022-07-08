@@ -21,7 +21,7 @@
 
 
 "tall""84"
-////"tall_minmode""20"
+//////"tall_minmode""20"
 "wide""f0"
 
 
@@ -37,7 +37,7 @@
 "ypos""r70"
 ////"ypos_minmode""r20"
 "tall""70"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 
 
 //"visible""1"
@@ -52,7 +52,7 @@
 "ypos""r70"
 ////"ypos_minmode""r0"
 "tall""70"// this needs to match the size of BottomBar
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "wide""f0"
 
 
@@ -66,13 +66,13 @@
 "ControlName""CExLabel"
 "fieldName""ReinforcementsLabel"
 "xpos""c-300"
-////"xpos_minmode""c-300"
+//////"xpos_minmode""c-300"
 "ypos""50"
 ////"ypos_minmode""3"
 ////"ypos_hidef""79"
 ////"ypos_lodef""85"
 "wide""600"
-////"wide_minmode""300"
+//////"wide_minmode""300"
 "tall""18"
 ////"tall_hidef""23"
 

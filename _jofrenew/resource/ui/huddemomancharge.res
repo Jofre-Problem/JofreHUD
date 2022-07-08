@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"160"
-		//"wide_minmode"	"75"
+		////"wide_minmode"	"75"
 		"tall"			"4"
 		"pin_to_sibling"	"ChargeMeter"
 	}		
@@ -23,7 +23,7 @@
 		"zpos"		"2"
 		"wide"		"160"
 		"tall"		"4"	
-	//	"tall_minmode"		"3"			
+	//	//"tall_minmode"		"3"			
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"	"1"

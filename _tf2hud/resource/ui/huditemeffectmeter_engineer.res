@@ -7,7 +7,7 @@ HudItemEffectMeter
 
 "xpos""r162"
 "ypos""r92"
-////"xpos_minmode""r70"
+//////"xpos_minmode""r70"
 ////"ypos_minmode""r74"
 "wide""100"
 "tall""50"
@@ -64,10 +64,10 @@ HudItemEffectMeter
 "xpos""25"
 "ypos""23"
 ////"ypos_minmode""0"
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 "zpos""2"
 "wide""40"
-////"wide_minmode""50"
+//////"wide_minmode""50"
 "tall""6"
 
 

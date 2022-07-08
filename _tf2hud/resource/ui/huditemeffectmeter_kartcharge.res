@@ -8,7 +8,7 @@ HudItemEffectMeter
 "x_offset""0"
 "xpos""10"
 "ypos""r107"
-////"xpos_minmode""r52"
+//////"xpos_minmode""r52"
 ////"ypos_minmode""r45"
 //"x_offset_minmode""0"
 "wide""100"
@@ -51,8 +51,8 @@ HudItemEffectMeter
 
 ////"visible_minmode""1"
 ////"ypos_minmode""24"
-////"xpos_minmode""0"
-////"wide_minmode""50"
+//////"xpos_minmode""0"
+//////"wide_minmode""50"
 //"textAlignment_minmode""north-west"
 
 
@@ -61,7 +61,7 @@ HudItemEffectMeter
 //"dulltext""0"
 //"brighttext""0"
 "font""HudFontSmall"
-////"font_minmode""ScoreboardVerySmall"
+//////"font_minmode""ScoreboardVerySmall"
 }
 
 "ItemEffectMeter"
@@ -72,8 +72,8 @@ HudItemEffectMeter
 "xpos""20"
 "ypos""68"
 ////"ypos_minmode""20"
-////"xpos_minmode""0"
-////"wide_minmode""50"
+//////"xpos_minmode""0"
+//////"wide_minmode""50"
 "zpos""2"
 "wide""47"
 "tall""5"
@@ -96,9 +96,9 @@ HudItemEffectMeter
 "wide""50"
 "tall""20"
 ////"ypos_minmode""5"
-////"xpos_minmode""0"
-////"wide_minmode""50"
-////"tall_minmode""15"
+//////"xpos_minmode""0"
+//////"wide_minmode""50"
+//////"tall_minmode""15"
 //"pinCorner""2"
 
 
@@ -109,6 +109,6 @@ HudItemEffectMeter
 //"dulltext""0"
 //"brighttext""0"
 "font""HudFontMediumSmall"
-////"font_minmode""ScoreboardVerySmall"
+//////"font_minmode""ScoreboardVerySmall"
 }
 }

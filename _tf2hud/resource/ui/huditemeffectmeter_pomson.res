@@ -7,7 +7,7 @@ HudItemEffectMeter
 
 "xpos""r184"
 "ypos""r92"
-////"xpos_minmode""r42"
+//////"xpos_minmode""r42"
 ////"ypos_minmode""r68"
 
 "wide""100"
@@ -50,7 +50,7 @@ HudItemEffectMeter
 
 ////"visible_minmode""1"
 ////"ypos_minmode""1"
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 //"textAlignment_minmode""west"
 
 
@@ -69,10 +69,10 @@ HudItemEffectMeter
 "xpos""46"
 "ypos""23"
 ////"ypos_minmode""0"
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 "zpos""2"
 "wide""30"
-////"wide_minmode""50"
+//////"wide_minmode""50"
 "tall""5"
 
 

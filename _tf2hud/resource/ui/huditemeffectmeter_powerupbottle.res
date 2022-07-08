@@ -7,7 +7,7 @@ HudItemEffectMeter
 
 "xpos""r86"
 "ypos""r102"
-////"xpos_minmode""r70"
+//////"xpos_minmode""r70"
 ////"ypos_minmode""r130"
 "wide""100"
 "tall""60"
@@ -40,14 +40,14 @@ HudItemEffectMeter
 "ControlName""CTFImagePanel"
 "fieldName""ItemEffectIcon"
 "xpos""12"
-////"xpos_minmode""36"
+//////"xpos_minmode""36"
 "ypos""7"
 ////"ypos_minmode""14"
 "zpos""1"
 "wide""27"
-////"wide_minmode""20"
+//////"wide_minmode""20"
 "tall""27"
-////"tall_minmode""20"
+//////"tall_minmode""20"
 //"visible""1"
 
 "image""../hud/ico_powerup_critboost_red"
@@ -100,7 +100,7 @@ HudItemEffectMeter
 "ControlName""CExLabel"
 "fieldName""ItemEffectMeterCount"
 "xpos""24"
-////"xpos_minmode""40"
+//////"xpos_minmode""40"
 "ypos""11"
 ////"ypos_minmode""18"
 "zpos""2"
@@ -115,6 +115,6 @@ HudItemEffectMeter
 //"dulltext""0"
 //"brighttext""0"
 "font""HudFontMedium"
-////"font_minmode""HudFontMediumSmall"
+//////"font_minmode""HudFontMediumSmall"
 }
 }

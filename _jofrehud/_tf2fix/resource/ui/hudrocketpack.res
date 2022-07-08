@@ -6,9 +6,9 @@
 		//"visible"		"1"
 		
 		"xpos"			"r265"
-		//"xpos_minmode"	"r90"	[$WIN32]
+		////"xpos_minmode"	"r90"	[$WIN32]
 		"ypos"			"r54"	
-		//"ypos_minmode"	"r85"	[$WIN32]
+		////"ypos_minmode"	"r85"	[$WIN32]
 		"wide"			"94"
 		"tall"			"45"
 	}
@@ -18,9 +18,9 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"4"
-		//"xpos_minmode"	"28"
+		////"xpos_minmode"	"28"
 		
-		//"ypos_minmode"	"28"
+		////"ypos_minmode"	"28"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"45"
@@ -41,7 +41,7 @@
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"2"
 		"ypos"			"-2"
-		//"ypos_minmode"	"15"
+		////"ypos_minmode"	"15"
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"32"
@@ -57,9 +57,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
 		"xpos"			"32"
-		//"xpos_minmode"	"37"
+		////"xpos_minmode"	"37"
 		"ypos"			"12"
-		//"ypos_minmode"	"30"
+		////"ypos_minmode"	"30"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"15"
@@ -73,7 +73,7 @@
 		////"dulltext"		"0"
 		//"brighttext"	"0"
 		"font"			"HudFontSmallest"
-		//"font_minmode"	"ScoreboardVerySmall"
+		////"font_minmode"	"ScoreboardVerySmall"
 		"fgcolor"		"178 0 0 255"
 	}
 
@@ -83,14 +83,14 @@
 		"fieldName"		"ItemEffectMeter"
 		//"font"			"Default"
 		"xpos"			"26"
-		//"xpos_minmode"	"38"
+		////"xpos_minmode"	"38"
 		"ypos"			"28"
-		//"ypos_minmode"	"28"
+		////"ypos_minmode"	"28"
 		"zpos"			"2"
 		"wide"			"22"
-		//"wide_minmode"	"25"
+		////"wide_minmode"	"25"
 		"tall"			"8"				
-		//"tall_minmode"	"5"
+		////"tall_minmode"	"5"
 		
 		
 		//"visible"		"1"
@@ -107,14 +107,14 @@
 		"fieldName"		"ItemEffectMeter2"
 		//"font"			"Default"
 		"xpos"			"52"
-		//"xpos_minmode"	"63"
+		////"xpos_minmode"	"63"
 		"ypos"			"28"
-		//"ypos_minmode"	"28"
+		////"ypos_minmode"	"28"
 		"zpos"			"2"
 		"wide"			"22"
-		//"wide_minmode"	"25"
+		////"wide_minmode"	"25"
 		"tall"			"8"	
-		//"tall_minmode"	"5"			
+		////"tall_minmode"	"5"			
 		
 		
 		//"visible"		"1"

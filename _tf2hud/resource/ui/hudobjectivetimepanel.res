@@ -5,16 +5,16 @@
 "ControlName""ScalableImagePanel"
 "fieldName""TimePanelBG"
 "xpos""16"
-////"xpos_minmode""35"
+//////"xpos_minmode""35"
 ////"xpos_hidef""108"
 ////"xpos_lodef""108"
 "ypos""9"
 "zpos""2"
 "wide""78"
-////"wide_minmode""38"
+//////"wide_minmode""38"
 ////"wide_lodef""90"
 "tall""33"
-////"tall_minmode""23"
+//////"tall_minmode""23"
 ////"tall_lodef""38"
 //"visible""1"
 
@@ -108,7 +108,7 @@ if_match
 "zpos""1"
 "wide""78"
 "tall""20"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "visible""0"
 
 "image""../hud/objectives_timepanel_suddendeath"
@@ -171,7 +171,7 @@ if_match
 "zpos""1"
 "wide""78"
 "tall""20"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "visible""0"
 
 "image""../hud/objectives_timepanel_suddendeath"
@@ -234,7 +234,7 @@ if_match
 "zpos""1"
 "wide""78"
 "tall""20"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "visible""0"
 
 "image""../hud/objectives_timepanel_suddendeath"
@@ -271,7 +271,7 @@ if_match
 ////"brighttext""0"
 //"wrap""0"
 "font""ClockSubText"
-////"font_minmode""ClockSubTextSuddenDeath"
+//////"font_minmode""ClockSubTextSuddenDeath"
 ////"font_hidef""HudFontSmall"
 //"font_lodef""HudFontSmall"
 
@@ -298,7 +298,7 @@ if_match
 "zpos""1"
 "wide""78"
 "tall""20"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "visible""0"
 
 "image""../hud/objectives_timepanel_suddendeath"
@@ -335,7 +335,7 @@ if_match
 ////"brighttext""0"
 //"wrap""0"
 "font""ClockSubText"
-////"font_minmode""ClockSubTextSuddenDeath"
+//////"font_minmode""ClockSubTextSuddenDeath"
 ////"font_hidef""HudFontSmall"
 //"font_lodef""HudFontSmall"
 
@@ -362,7 +362,7 @@ if_match
 "zpos""1"
 "wide""78"
 "tall""20"
-////"tall_minmode""0"
+//////"tall_minmode""0"
 "visible""0"
 
 "image""../hud/objectives_timepanel_suddendeath"

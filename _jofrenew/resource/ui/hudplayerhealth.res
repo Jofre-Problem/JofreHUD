@@ -18,9 +18,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"c-230"
-		"xpos_minmode"			"c-230+62"			
+		//"xpos_minmode"			"c-230+62"			
 		"ypos"			"325"	
-		"ypos_minmode"	"325+28"
+		//"ypos_minmode"	"325+28"
 		"zpos"			"0"
 		"wide"			"124"
 		"tall"			"36" //36
@@ -219,36 +219,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/healthcrossicon"
 		"scaleimage"	"1"
-	}
-	"Healthcrossicon2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"healthcrossicon2"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"200"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
-		"scaleimage"	"1"
-		"alpha"			"1"
-	}
-	"HealthcrossiconOverheal"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"healthcrossiconOverheal"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"100"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
-		"scaleimage"	"1"
-		"alpha"			"0"
 	}
 	"PlayerStatusHealthBonusImage"
 	{

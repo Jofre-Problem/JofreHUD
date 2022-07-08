@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"Center"
-		"fgcolor"		"234 234 234 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"TargetNameLabelTopS"
 	{	
@@ -130,7 +130,7 @@
 		"wide"			"295"
 		"tall"			"24"
 		"labelText"		"%targetname%"
-		"fgcolor"		"234 234 234 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"2_label"
 	{	
@@ -151,8 +151,8 @@
 		"font"			"Medhealtarget"
 		"xpos"			"437"
 		"ypos"			"523"
-		"xpos_minmode"	"375"
-		"ypos_minmode"	"505"
+		//"xpos_minmode"	"375"
+		//"ypos_minmode"	"505"
 		"wide"			"130"
 		"tall"			"15"	
 		"autoResize"		"0"
@@ -161,7 +161,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"TargetNameLabelMidS" //healing targetid
 	{	
@@ -194,7 +194,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"TargetNameLabelMid2S" // healer targetid
 	{	
@@ -238,7 +238,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"255 255 255 255"
 	}
 	"1_progress"
 	{
@@ -407,7 +407,7 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			//"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"

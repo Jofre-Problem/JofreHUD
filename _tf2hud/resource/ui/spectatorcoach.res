@@ -21,7 +21,7 @@
 
 
 "tall""70"
-////"tall_minmode""70"
+//////"tall_minmode""70"
 "wide""f0"
 
 

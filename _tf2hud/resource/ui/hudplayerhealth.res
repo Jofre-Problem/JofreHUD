@@ -5,7 +5,7 @@
 {
 "ControlName""EditablePanel"
 "fieldName""HudPlayerHealth"
-////"xpos_minmode""-5"
+//////"xpos_minmode""-5"
 "ypos""r120"
 ////"ypos_minmode""r88"
 "zpos""2"
@@ -22,7 +22,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusHealthImage"
 "xpos""75"
-////"xpos_minmode""60"
+//////"xpos_minmode""60"
 "ypos""35"
 "zpos""4"
 "wide""51"
@@ -36,7 +36,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusHealthImageBG"
 "xpos""73"
-////"xpos_minmode""58"
+//////"xpos_minmode""58"
 "ypos""33"
 "zpos""3"
 "wide""55"
@@ -51,14 +51,14 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusHealthBonusImage"
 "xpos""73"
-////"xpos_minmode""65"
+//////"xpos_minmode""65"
 "ypos""33"
 ////"ypos_minmode""40"
 "zpos""2"
 "wide""55"
-////"wide_minmode""40"
+//////"wide_minmode""40"
 "tall""55"
-////"tall_minmode""40"
+//////"tall_minmode""40"
 "visible""0"
 
 "image""../hud/health_over_bg"
@@ -69,7 +69,7 @@
 "ControlName""CExLabel"
 "fieldName""PlayerStatusHealthValue"
 "xpos""76"
-////"xpos_minmode""61"
+//////"xpos_minmode""61"
 "ypos""52"
 "zpos""5"
 "wide""50"
@@ -86,7 +86,7 @@
 "ControlName""CExLabel"
 "fieldName""PlayerStatusMaxHealthValue"
 "xpos""76"
-////"xpos_minmode""61"
+//////"xpos_minmode""61"
 "ypos""20"
 "zpos""6"
 "wide""50"
@@ -103,7 +103,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusBleedImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""32"
@@ -119,7 +119,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusHookBleedImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""8"
 "wide""32"
@@ -135,7 +135,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusMilkImage"
 "xpos""117"
-////"xpos_minmode""102"
+//////"xpos_minmode""102"
 
 "zpos""7"
 "wide""32"
@@ -151,7 +151,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusGasImage"
 "xpos""117"
-////"xpos_minmode""102"
+//////"xpos_minmode""102"
 
 "zpos""7"
 "wide""32"
@@ -167,7 +167,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusMarkedForDeathImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""32"
@@ -183,7 +183,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusMarkedForDeathSilentImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -199,7 +199,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicUberBulletResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -215,7 +215,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicUberBlastResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -231,7 +231,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicUberFireResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -248,7 +248,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicSmallBulletResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -264,7 +264,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicSmallBlastResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -280,7 +280,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_MedicSmallFireResistImage"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -298,7 +298,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_WheelOfDoom"
 "xpos""130"
-////"xpos_minmode""145"
+//////"xpos_minmode""145"
 "ypos""38"
 ////"ypos_minmode""55"
 "zpos""7"
@@ -316,7 +316,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_SoldierOffenseBuff"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -333,7 +333,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_SoldierDefenseBuff"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -350,7 +350,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_SoldierHealOnHitBuff"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -366,7 +366,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_SpyMarked"
 "xpos""115"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -382,7 +382,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_Parachute"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -398,7 +398,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneStrength"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -414,7 +414,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneHaste"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -430,7 +430,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneRegen"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -446,7 +446,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneResist"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -462,7 +462,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneVampire"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -478,7 +478,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneReflect"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -494,7 +494,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RunePrecision"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -510,7 +510,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneAgility"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -526,7 +526,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneKnockout"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -542,7 +542,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneKing"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -558,7 +558,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RunePlague"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -574,7 +574,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatus_RuneSupernova"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""31"
@@ -590,7 +590,7 @@
 "ControlName""ImagePanel"
 "fieldName""PlayerStatusSlowed"
 "xpos""85"
-////"xpos_minmode""70"
+//////"xpos_minmode""70"
 
 "zpos""7"
 "wide""32"

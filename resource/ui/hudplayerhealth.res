@@ -1,4 +1,4 @@
-//	#base	"../../custom/resource/ui/hudplayerhealth.res"
+	#base	"../../custom/resource/ui/hudplayerhealth.res"
 	#base	"../../_jofrenew/resource/ui_overrides/!res_health.res"
 	#base	"../../_jofrenew/resource/ui/hudplayerhealth.res"
 	#base	"../../_jofrehud/resource/ui/hudplayerhealth.res"

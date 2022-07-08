@@ -6,7 +6,7 @@ HudItemEffectMeter
 //"visible""1"
 
 "xpos""125"//[$WIN32]
-////"xpos_minmode""r52"//[$WIN32]
+//////"xpos_minmode""r52"//[$WIN32]
 "ypos""r62"//[$WIN32]
 ////"ypos_minmode""r74"//[$WIN32]
 "wide""100"
@@ -49,7 +49,7 @@ HudItemEffectMeter
 
 ////"visible_minmode""1"
 ////"ypos_minmode""0"
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 //"textAlignment_minmode""west"
 
 
@@ -68,10 +68,10 @@ HudItemEffectMeter
 "xpos""47"
 "ypos""28"
 ////"ypos_minmode""0"
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 "zpos""2"
 "wide""30"
-////"wide_minmode""50"
+//////"wide_minmode""50"
 "tall""5"
 
 

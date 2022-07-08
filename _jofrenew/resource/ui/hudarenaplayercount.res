@@ -32,13 +32,44 @@
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
+	"BluProgress"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"BluProgress"
+		"xpos"			"10"
+		"ypos"			"1"
+		"zpos"			"100"
+		"wide"			"p1" 
+		"tall"			"5"
+// usually on vsh is only 1, max to 4
+// on arena doesnt pass 32, max 24, so value here max is
+// 12
+		"variable"		"blue_alive"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+	}	
+	"BluProgress2"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"BluProgress2"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"p1"
+		"tall"			"5"
+		"variable"		"blue_alive"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"BluProgress"
+	}			
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"30"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
@@ -51,7 +82,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
 			"xpos"			"30"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
@@ -65,7 +96,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"12"
-			"ypos"			"3"
+			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"7"
 			"tall"			"14"
@@ -86,7 +117,36 @@
 		"wide"			"f0"
 		"tall"			"23"
 		"visible"		"1"
-	
+	"RedProgress"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"RedProgress"
+		"xpos"			"5"
+		"ypos"			"1"
+		"zpos"			"100"
+		"wide"			"154" //due to max players being 32, value is different
+		"tall"			"5"
+		//max value for players is 31
+		"variable"		"red_alive"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+	}	
+	"RedProgress2"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"RedProgress2"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"154"//due to max players being 32, value is different
+		"tall"			"5"
+		"variable"		"red_alive"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"RedProgress"
+	}			
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -114,7 +174,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
 			"xpos"			"30"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
@@ -146,7 +206,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
 			"xpos"			"30"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
@@ -160,7 +220,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"playerimage"
 			"xpos"			"12"
-			"ypos"			"3"
+			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"7"
 			"tall"			"14"

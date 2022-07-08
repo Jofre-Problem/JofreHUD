@@ -72,7 +72,7 @@
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c0"
 		"ypos"			"79"
-		"zpos"			"100"
+		"zpos"			"1003"
 		"wide"			"p0.5"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -117,7 +117,7 @@
 		"fieldName"		"RedScoreBG2"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"101"
+		"zpos"			"1059"
 		"wide"			"22"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -140,7 +140,7 @@
 		"fieldName"		"RedTeamImage"
 		"xpos"			"-2"
 		"ypos"			"0"
-		"zpos"			"1000"
+		"zpos"			"1060"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -174,6 +174,173 @@
 			"visible"		"0"
 		}
 	}	
+	"blueProgress"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"blueProgress"
+		"xpos"			"-22"
+		"ypos"			"1"
+		"zpos"			"1000"
+		"wide"			"p0.5-22" //due to max players being 32, value is different
+		"tall"			"22"
+		//max value for players is 31
+		"variable"		"blueteamscore"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"BlueScoreBG3"
+	}	
+	"blueProgress2"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"blueProgress2"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"p0.5-22"//due to max players being 32, value is different
+		"tall"			"22"
+		"variable"		"blueteamscore"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"blueProgress"
+	}	
+		"blueprogbg"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""blueprogbg"
+				xpos						22
+				ypos					79			
+			"wide""p0.22"
+			zpos	"1001"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"pin_to_sibling"	"redProgress"
+			"drawcolor"	"49 153 220 255"
+					if_mvm
+		{
+			"xpos"		"r9999"
+		}
+			}	
+		"blueprogbg2"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""blueprogbg2"
+				xpos						-5-p0.001
+				ypos						0		
+			"wide""p0.22"
+			zpos	"1001"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"drawcolor"	"49 153 220 255"
+	"pin_to_sibling"		"blueprogbg"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
+			}				
+		"blueprogbg3"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""blueprogbg3"
+				xpos						-127-5-p0.002
+				ypos						0	
+			"wide""p0.22"
+			zpos	"1001"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"drawcolor"	"49 153 220 255"
+	"pin_to_sibling"		"blueprogbg2"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
+			}	
+		"redprogbg"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""redprogbg"
+				xpos						0
+				ypos					0			
+			"wide""p0.22"
+			zpos	"1051"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"pin_to_sibling"	"RedScoreBG"
+			"drawcolor"	"239 59 43 255"
+
+					if_mvm
+		{
+			"xpos"		"r9999"
+		}
+			}			
+		"redprogbg2"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""redprogbg2"
+				xpos						-5-p0.001
+				ypos						0		
+			"wide""p0.22"
+			zpos	"1051"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"drawcolor"	"239 59 43 255"
+	"pin_to_sibling"		"redprogbg"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
+			}	
+		"redprogbg3"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""redprogbg3"
+				xpos						-5-p0.001
+				ypos						0		
+			"wide""p0.22"
+			zpos	"1051"
+			"tall""20"
+			"scaleImage""1"
+			"image""replay/thumbnails/progressbg2"
+			"drawcolor"	"239 59 43 255"
+	"pin_to_sibling"		"redprogbg2"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
+			}													
+	"redProgress"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"redProgress"
+		"xpos"			"rs1"
+		"ypos"			"78"
+		"zpos"			"1050"
+		"wide"			"p0.5-22" //due to max players being 32, value is different
+		"tall"			"22"
+		//max value for players is 31
+		"variable"		"redteamscore"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"xpos"		"r0"
+		}
+	}	
+	"redProgress2"
+	{
+		"ControlName"		"ProgressBar"
+		"fieldName"		"redProgress2"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"1050"
+		"wide"			"p0.5-22"//due to max players being 32, value is different
+		"tall"			"22"
+		"variable"		"redteamscore"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"redProgress"
+	}		
 	"BlueTeamImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -193,7 +360,11 @@
 		{
 			"visible"		"0"
 		}
-	}	
+	}
+	"ServerLabel"
+	{
+		"wide"			"0"
+	}		
 	"ServerLabelNew"
 	{
 		"wide"			"0"
@@ -249,6 +420,7 @@
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"		"2001"
 		"wide"			"p0.5"
 		"tall"			"13"
 		"visible"		"1"
@@ -260,7 +432,8 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}	
+								
 	"RedTeamLabel"
 	{
 		"wide"			"0"
@@ -269,11 +442,11 @@
 	{
 		"font"			"NotoBold26"
 		"fgcolor_override"	"W_colortheme1"
-		"textAlignment"		"west"
-		"xpos"			"-5"
+		"textAlignment"		"east"
+		"xpos"			"5"
 		"ypos"			"0" 
-		"zpos"			"1005"
-		"wide"			"p0.5"
+		"zpos"			"1065"
+		"wide"			"p0.475"
 		"tall"			"20"
 		"pin_to_sibling"	"RedScoreBG"
 		if_mvm
@@ -296,7 +469,7 @@
 		"tall"			"13"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"		"101"
+		"zpos"		"1070"
 		"fgcolor_override"	"30 30 30 200"
 		"pin_to_sibling"	"RedPlayerList"
 		if_mvm
@@ -508,9 +681,9 @@
 		"ypos"			"r200"
 		"zpos"			"10"		
 		"wide"			"240"
-	//	"wide_minmode"	"240"
+	//	//"wide_minmode"	"240"
 		"tall"			"200"
-	//	"tall_minmode"	"200"
+	//	//"tall_minmode"	"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -673,7 +846,10 @@
 			"wide"			"175"
 		}
 	}
-
+"ServerTimeLeft"
+{
+"wide"	"0"
+}
 "ServerTimeLeftValue"
 {
 "wide"	"0"
@@ -1032,6 +1208,24 @@ if_mvm
 			"visible"		"0"
 		}
 	}	
+	"center23"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"center23"
+		"xpos"			"0"
+		"ypos"			"0" 
+		"pin_to_sibling"	"BlueScoreBG"
+		"zpos""5000"
+		"wide"			"f0"
+		"tall"			"p0.001"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"			"255 255 255 255"
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}		
 "HorizontalLine"
 {
 "wide""0"
@@ -1051,11 +1245,11 @@ if_mvm
 		if_mvm
 		{
 			"visible"		"1"
-			"tall"	"420"
+			"tall"	"410+p0.001"
 		"ypos"				"12"[$WINDOWS]
 		"ypos"			"9-p0.001" [$LINUX]
 			"zpos"	"5"
-			"pin_to_sibling"	"MapNme"
+			"pin_to_sibling"	"ButtonLegendBG"
 		}
 	}						
 	"team1"
@@ -2210,21 +2404,21 @@ if_mvm
 		}
 	}
 
-	"ButtonLegendBG"		[$X360]
+	"ButtonLegendBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
-		"xpos"			"10"
-		"ypos"			"373"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"539"
-		"tall"			"38"
+		"wide"			"1"
+		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 0"
 		"PaintBackgroundType"	"0"
 	}
 	

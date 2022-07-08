@@ -6,7 +6,7 @@
 	HudItemEffectMeter
 	{
 		"ypos"			"r100"
-	//	"ypos_minmode"		"r100"
+	//	//"ypos_minmode"		"r100"
 	}
 	"ItemEffectMeterCount"
 	{

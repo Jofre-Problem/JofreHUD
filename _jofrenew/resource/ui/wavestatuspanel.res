@@ -60,7 +60,7 @@
 		"bgcolor_override"	"255 0 0 0"
 		
 		// MINMODE
-		"tall_minmode"		"16"
+		//"tall_minmode"		"16"
 	}
 	
 	"ProgressBar"

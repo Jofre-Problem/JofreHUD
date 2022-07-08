@@ -18,13 +18,17 @@ event MenuOpen
 	Animate HudMenu		Blur		"1"			Linear	0	0
 	
 	RunEvent ScoreboardAnimate 0.0
-	RunEvent ScoreboardCrosshairAnimate 0.0
+	RunEvent ScoreboardAlpha 0.0
 	RunEvent LevelInitAny 0.0
 	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 }
-
+event ScoreboardAlpha
+{
+	Animate scores alpha "0" linear 0.0 0.0
+	Animate scores alpha "255" accel 0.0 0.22
+}
 event MenuClose
 {	
 	// Hide it

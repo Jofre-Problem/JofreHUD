@@ -75,7 +75,79 @@
 		fgcolor		  		"W_ColorIcons1"
 		paintbackground			0
 	}
+		"refr0"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""refr0"
+				xpos						0
+				ypos					0			
+			"wide""f0"
+			zpos	"-88"
+			"tall""f0"
+			"scaleImage""1"
+			"image""replay/thumbnails/hp/REFRACTnormal"
+			}					
+			"circle_blue"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""circle_blue"
+				xpos						cs-0.5-p0.25
+				ypos					cs-0.5			
+			"wide""p0.15"
+			"tall""o1"
+			"scaleImage""1"
+			"image""replay/thumbnails/hp/REFRACTcircle"
+			}		
+	"blueprogresscount"
+	{
+				"ControlName"		"CircularProgressBar"
+				"fieldName"		"blueprogresscount"
+				xpos						cs-0.5-p0.25
+				ypos					cs-0.5			
+				"zpos"			"-4"
+				"wide"			"p0.15"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"variable"		"bluecount"
+				"fg_image"		"replay/thumbnails/hp/bluteam"
+				"bg_image"		"replay/thumbnails/noto_black"
+				"fgcolor_override"	"255 255 255 255"
+				"bgcolor_override"	"255 255 255 255"	
+				alpha	"210"		
+				//can pin to HL2 stuff! NOT tf2 stuff		
+	}	
 
+	"redprogresscount"
+	{
+				"ControlName"		"CircularProgressBar"
+				"fieldName"		"redprogresscount"
+				xpos						r0-p0.325
+				ypos					cs-0.5
+				"zpos"			"0"
+				"wide"			"p0.15"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"variable"		"redcount"
+				"fg_image"		"replay/thumbnails/hp/redteam"
+				"bg_image"		"replay/thumbnails/noto_black"
+				"fgcolor_override"	"255 255 255 255"
+				"bgcolor_override"	"255 255 255 255"			
+				alpha	"210"
+				//can pin to HL2 stuff! NOT tf2 stuff		
+	}		
+			"circle_red"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""circle_red"
+				xpos						r0-p0.325
+				ypos					cs-0.5			
+			"wide""p0.15"
+			"tall""o1"
+			"scaleImage""1"
+			"image""replay/thumbnails/hp/REFRACTcircle"
+			}		
 	"2_btn" //join red
 	{
 		ControlName				CExImageButton
@@ -154,7 +226,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 		
 		paintbackground			0
-		
+	//	defaultfgcolor_override	"0 0 0 255"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 		
@@ -194,7 +266,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 		
 		paintbackground			0
-		
+	//	defaultfgcolor_override	"0 0 0 255"
 		image_drawcolor			"255 255 255 50"
 		image_armedcolor			"255 255 255 100"
 		

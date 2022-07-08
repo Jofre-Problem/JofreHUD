@@ -5,7 +5,7 @@
 "ControlName""EditablePanel"
 "fieldName""HealthIcon"
 
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 
 ////"ypos_minmode""0"
 "wide""32"
@@ -21,7 +21,7 @@
 "ControlName""EditablePanel"
 "fieldName""SpectatorGUIHealth"
 
-////"xpos_minmode""0"
+//////"xpos_minmode""0"
 
 ////"ypos_minmode""0"
 "wide""128"

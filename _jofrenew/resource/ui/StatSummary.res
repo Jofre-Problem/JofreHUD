@@ -95,19 +95,8 @@
 				"wide"			"f0"
 				"tall"			"36"
 				"paintbackground"	"1"
-				"bgcolor_override"	"W_ColorTheme2"
+				"bgcolor_override"	"W_ColorTheme3"
 			}
-		"BG2_du1"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG2_du1"
-				"xpos"			"0"
-				"ypos"			"rs1"
-				"wide"			"f0"
-				"tall"			"36"
-				"paintbackground"	"1"
-				"bgcolor_override"	"W_ColorTheme2"
-			}			
 			"tank_gif"
 			{
 			"xpos""cs-0.5"

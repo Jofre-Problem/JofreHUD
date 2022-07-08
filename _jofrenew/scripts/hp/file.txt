@@ -4,7 +4,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 	Animate PlayerStatusHealthValueID Fgcolor "95 255 8 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID2 Fgcolor "95 255 8 255" Linear 0.0 0.0
-	Animate	HealthcrossiconOverheal 	Alpha		"255"			Linear 0.0	0.0
+
 	Animate	PlayerStatusHealthValueID3	Fgcolor "95 255 8 255" Linear 0.0 0.0
 	RunEvent HudHealthBonusPulseLoop1a 0.0
 	Animate	OverhealHealthTextBG 	bgcolor		"90 255 8 255"			Accel 0.0	0.0
@@ -25,7 +25,6 @@ Animate PlayerStatusHealthValue Bgcolor "0 0 0 0" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID Fgcolor "255 255 255 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID2 Fgcolor "255 255 255 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID3 Fgcolor "255 255 255 255" Linear 0.0 0.0
-	Animate	HealthcrossiconOverheal 	Alpha		"0"			Linear 0.0	0.0
 	Animate	OverhealHealthTextBG 	bgcolor		"blank"			Accel 0.0	0.0
 	Animate	FixForHP 	alpha		"255"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"34 0"			Accel 0.0	0.0

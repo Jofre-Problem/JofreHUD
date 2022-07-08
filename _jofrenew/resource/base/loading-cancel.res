@@ -18,8 +18,8 @@
 		"wide"		"f+20"
 		"tall"		"48"//"40"//"665"
 		"title"		""
-		"bgcolor"				"W_ColorTheme2"
-		"bgcolor_override"		"W_ColorTheme2"
+		"bgcolor"				"W_ColorTheme3"
+		"bgcolor_override"		"W_ColorTheme3"
 	}
 		"BG2_du1"
 			{

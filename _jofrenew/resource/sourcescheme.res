@@ -32,6 +32,7 @@ Scheme
 	}	
 	BaseSettings	{
 		"FrameTitleBar.Font"		"Blank"	
+		ProgressBar.BgColor				"W_ColorTheme3"
 		ScrollBarSlider.FgColor								"W_ColorIcons1"
 		ScrollBarSlider.BgColor								"blank"
 		ScrollBar.Wide					"60"//"70"//"10"
