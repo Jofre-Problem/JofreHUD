@@ -18,8 +18,8 @@ Scheme
 	//	"W_ColorIcons1Blur"	"0 6 0 178"
 	//	"W_ColorIconsArmed1" "217 171 108 255"
 
-		"W_ColorTheme1"	"17 17 17 215"
-		"W_ColorTheme2"	"7 7 7 210"//248
+		"W_ColorTheme1"	"17 17 17 155"
+		"W_ColorTheme2"	"7 7 7 150"//248
 		"W_ColorTheme3"	"16 11 16 255"
 		"W_ColorLinea1"		"27 27 27 170"//170
 		"W_ColorIcons1"	"211 215 225 255"

@@ -1350,7 +1350,7 @@ Scheme
 		}			
 		"105"
 		{
-			"font" "_jofrenew/fonts/Blocks-Blocks.ttf"
+			"font" "_jofrenew/font/Blocks-Blocks.ttf"
 			"name" "blocks"
 		}						   		     		
 	}	

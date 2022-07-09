@@ -574,7 +574,7 @@ Scheme
 		}
 		"160"
 		{
-			"font" "_jofrenew/font/FixLowAmmoWarning.ttf"
+			"font" "_jofrenew/font/FixLowAmmoWarning.otf"
 			"name" "FixLowAmmoWarning"
 		}		
 		"61"
