@@ -1338,11 +1338,11 @@ Scheme
 			"font" "_jofrenew/font/journal_jp.otf"
 			"name" "Journal-jofreproblem_fix1Regular"
 		}
-		"102"
-		{
-			"font" "_jofrenew/font/JotSpInvertedRegular-ZBem.ttf"
-			"name" "Jot Sp Inverted Regular"
-		}			
+	//	"102"
+	//	{
+	//		"font" "_jofrenew/font/JotSpInvertedRegular-ZBem.ttf"
+	//		"name" "Jot Sp Inverted Regular"
+	//	}			
 		"104" 
 		{
 			"font" "_jofrenew/font/HudasIscariote2.otf"

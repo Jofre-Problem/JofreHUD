@@ -1,5 +1,14 @@
+#base	"../ui2/multiple-modular.res"
 "Resource/label_vac.res"
 {
+	"MMBackgroundPanelModular"
+	{
+		"xpos"      "5"
+		"ypos"      "35"
+		"zpos"	"1000"
+		"wide"      "f+20"      
+		"tall"      "24"
+	}	
 	"progress"
 	{
 		"xpos"      "5"

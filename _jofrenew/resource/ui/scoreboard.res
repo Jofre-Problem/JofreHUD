@@ -17,6 +17,7 @@
 			"visible"		"0"
 		}				
 		}	
+		
 	"Removeline"
 	{
 		ControlName				EditablePanel

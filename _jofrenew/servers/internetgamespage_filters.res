@@ -1,15 +1,9 @@
-#base "../resource/ui2/multiple-bg.res"
+//#base "../resource/ui2/multiple-bg.res"
 #base "../resource/ui3/Keybindings.res"
-"Servers\DialogGameInfo.res"
+//#base	"../resource/ui2/multiple-modular.res"
+"Resource/label_vac.res"
 {
-	"MMBackgroundPanel"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-	//	"zpos"			"-19"
-		"wide"			"f0"
-		"tall"			"3"
-		}	
+
 	"InternetGames"
 	{
 		"ControlName"		"CInternetGames"

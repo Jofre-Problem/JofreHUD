@@ -6,6 +6,7 @@
 #base "../uni_base/btn/1.res"
 #base "../uni_base/btn/2.res"
 #base "../ui2/polyconfig1.res"
+
 "Resource/UI/TeamMenu.res"
 {
 	"o_label"

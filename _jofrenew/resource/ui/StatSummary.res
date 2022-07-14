@@ -1,4 +1,4 @@
-#base "../ui2/multiple-bg.res"
+//#base "../ui2/multiple-bg.res"
 #base "../ui3/tank_gif.res"
 #base "../uni_base/image/1.res"
 #base "../../ui_overrides/full-timer/file.res"
@@ -18,67 +18,15 @@
 {
 "wide""0"
 }	
-	"MMBackgroundPanel"
-	{
-		"zpos"			"-199"
-		"wide"			"f0"
-		"tall"			"480"
-
-		"MMBackgroundNeutral"
+		"defbg"
 		{
-			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"480"
-			"fillcolor"		"64 64 64 255"
-			"image"	""
-			"pin_to_sibling"	""
-		}
-		"MMBackground1"
-		{
-			"xpos"			"-300"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"image"			"replay/thumbnails/menu/mm1"
-			"pin_to_sibling"	""
-		}
-		"MMBackground2"
-		{
-			"xpos"			"-200"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"image"			"replay/thumbnails/menu/mm2"
-			"pin_to_sibling"	""
-		}
-		"MMBackground3"
-		{
-			"xpos"			"-300"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"image"			"replay/thumbnails/menu/mm3"
-			"pin_to_sibling"	""
-		}
-		"MMBackground4"
-		{
-			"xpos"			"-300"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"image"			"replay/thumbnails/menu/mm4"
-			"pin_to_sibling"	""
-		}
-		"MMBackground5"
-		{
-			"wide"			"0"
+					"ControlName"	"ImagePanel"
+				"fieldName"		"defbg"
+			"zpos"	"-100"
+			"wide""f0"
+			"tall""f0"
+			"image""../console/background_upward_widescreen"
 		}		
-		"MMBackground6"
-		{
-			"wide"			"0"
-		}			
-	}			
 		"1_image"
 		{
 			"ypos""rs1-36"
@@ -260,7 +208,7 @@
 	}		
 	"MapLabel"
 	{
-		"font"			"CustomOctavo"
+		"font"			"Future30"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5-37"
@@ -274,7 +222,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"CustomSeptimo"
+		"font"			"Future30"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
