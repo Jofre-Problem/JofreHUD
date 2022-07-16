@@ -11,7 +11,7 @@ $translucent 1
 		{ 
 			"animatedTextureVar" "$basetexture" 
 			"animatedTextureFrameNumVar" "$frame" 
-			"animatedTextureFrameRate" "5" 
+			"animatedTextureFrameRate" "10" 
 		}
 	}
 }
