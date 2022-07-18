@@ -37,7 +37,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"
-		"image"										"replay/thumbnails/mm_menu/competitivebg"
+		"image"										"replay/thumbnails/mm_menu/casualbg"
 	}
 
 	"Title"
