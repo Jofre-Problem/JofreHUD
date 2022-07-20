@@ -1,6 +1,0 @@
-UnlitGeneric
-{
-
-$basetexture "vgui\cursors/arrow"
-$no_fullbright 1
-}

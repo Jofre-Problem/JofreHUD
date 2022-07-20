@@ -398,7 +398,7 @@
 	"BlueTeamScore"
 	{
 		"font"			"NotoBold26"
-		"fgcolor_override"	"W_Colortheme1"
+		"fgcolor_override"	"20 20 20 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
 		"ypos"			"0" 
