@@ -427,7 +427,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"30 30 30 200"
+		"fgcolor_override"	"30 30 30 255"
 		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
@@ -442,7 +442,7 @@
 	"RedTeamScore"
 	{
 		"font"			"NotoBold26"
-		"fgcolor_override"	"W_colortheme1"
+		"fgcolor_override"	"0 0 0 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
 		"ypos"			"0" 
@@ -471,7 +471,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"1070"
-		"fgcolor_override"	"30 30 30 200"
+		"fgcolor_override"	"30 30 30 255"
 		"pin_to_sibling"	"RedPlayerList"
 		if_mvm
 		{
