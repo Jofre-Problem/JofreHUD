@@ -255,7 +255,7 @@ Scheme
 			{
 				"name" "Open Sans Nodash"
 				"tall" "22"	[$WINDOWS]
-				"tall" "16"	[$LINUX]
+				"tall" "12"	[$LINUX]
 				"antialias"	"1"
 			}
 		}

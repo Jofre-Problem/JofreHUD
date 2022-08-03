@@ -8,7 +8,7 @@
 		"ypos"			"2"
 		"zpos"			"4"
 		"wide"			"16"
-		"tall"			"16"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -21,7 +21,7 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"20"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -43,16 +43,16 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"PlayerStatusHealthValueMain"
-		"xpos"			"0"//-9
-		"ypos"			"0"//11
+		"xpos"			"2"//-9
+		"ypos"			"rs1-2"//11
 		"zpos"			"28"
-		"wide"			"200"
-		"tall"			"42"
+		"wide"			"40"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Noto48"//"DefaultVerySmall"
+		"font"			"SpecTargetIDhp"//"DefaultVerySmall"
 		"fgcolor_override"		"tanlight"
 	}
 	"PlayerStatusHealthValueMainS"
@@ -62,14 +62,15 @@
 		"xpos"			"2"//-9
 		"ypos"			"2"//11
 		"zpos"			"20"
-		"wide"			"200"
-		"tall"			"42"
+		"wide"			"40"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Noto48"//"DefaultVerySmall"
+		"font"			"SpecTargetIDhp"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 120"
+		"pin_to_sibling"	"PlayerStatusHealthValueMain"
 	}
 
 

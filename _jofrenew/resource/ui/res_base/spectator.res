@@ -26,12 +26,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"40"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
 		"zpos"		"10"
 		"wide"			"f0"
 		"tall"			"25"
-		"textAlignment"		"center"
+		"textAlignment"		"east"
 		"font"			"ViewerNumber"
 	}
 
