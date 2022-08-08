@@ -12,6 +12,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValue Bgcolor "95 255 8 50" Linear 0.0 0.0
 	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
 	RunEvent LevelInitAny 0.0
+	
 }
 event HudHealthBonusPulseLoop1a
 {
@@ -69,7 +70,7 @@ event HudHealthDyingPulseLoop1a //idk i don't like this one
 {
 //	Animate	PlayerStatusHealthValueLow	Fgcolor "255 135 0 255" Linear 0.0 0.08
 //	Animate	PlayerStatusHealthValueLow	Fgcolor "195 95 0 255" Linear 0.2 0.08
-	
+
 //	RunEvent HudHealthDyingPulseLoop1b	0.4
 	//reformated
 	Animate PlayerStatusHealthValueID Fgcolor "255 95 8 255" linear 0.0 0.06

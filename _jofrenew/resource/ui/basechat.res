@@ -8,7 +8,7 @@
 		"enabled" 		"1"
 		"xpos"			"4+p0.001"
 		"ypos"			"rs1-85" //enough space for nohboard
-		"wide"	 		"250"
+		"wide"	 		"200"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 0"
@@ -23,7 +23,7 @@
 		"xpos"			"-12" [$WINDOWS]
 		"xpos"			"0" [$LINUX]
 		"ypos"			"395"
-		"wide"	 		"250" //350
+		"wide"	 		"200" //350
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -55,7 +55,7 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"	 		"250"
+		"wide"	 		"200"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"

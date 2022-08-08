@@ -162,6 +162,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
+		"border"		"cleanup"
 	}
 	"TeamColoredHealthTextBG2"
 	{
@@ -179,20 +180,6 @@
 //		"teambg_2"		"replay/thumbnails/hp/redteam2"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}
-	"BGfor000100Bar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BGfor000100Bar"
-		"xpos"			"0"
-		"ypos"			"34"
-		"zpos"			"1100"
-		"wide"			"124"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/REFRACTnormal"
-		"scaleImage"		"1"	
-	}	
 	"OverhealHealthTextBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -368,6 +355,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
+		"border"		"cleanup"
 	}
 	"HealthWhiteCover"
 	{

@@ -39,10 +39,10 @@
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"9999"
 	}
-	"PlayerStatusHealthValueMain"
+	"PlayerStatusHealthValueID"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"PlayerStatusHealthValueMain"
+		"fieldName"		"PlayerStatusHealthValueID"
 		"xpos"			"2"//-9
 		"ypos"			"rs1-2"//11
 		"zpos"			"28"
@@ -59,8 +59,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"PlayerStatusHealthValueMainS"
-		"xpos"			"2"//-9
-		"ypos"			"2"//11
+		"xpos"			"-1"//-9
+		"ypos"			"-1"//11
 		"zpos"			"20"
 		"wide"			"40"
 		"tall"			"24"
@@ -70,7 +70,7 @@
 		"textAlignment"		"center"
 		"font"			"SpecTargetIDhp"//"DefaultVerySmall"
 		"fgcolor_override"		"0 0 0 120"
-		"pin_to_sibling"	"PlayerStatusHealthValueMain"
+		"pin_to_sibling"	"PlayerStatusHealthValueID"
 	}
 
 

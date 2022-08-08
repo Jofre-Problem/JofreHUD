@@ -16,7 +16,7 @@ event MenuOpen
 
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
-	
+	PlaySound 0 "ui/deck_ui_slider_up.wav"
 	RunEvent ScoreboardAnimate 0.0
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent LevelInitAny 0.0
@@ -33,7 +33,7 @@ event MenuClose
 {	
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
-
+	PlaySound 0 "ui/deck_ui_slider_down.wav"
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1

@@ -756,7 +756,19 @@ Scheme
 }			
 	}
 	Borders
-	{		
+	{	
+		cleanup //scrollbar
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/hp/REFRACTnormal"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}			
 		Econ.Button.Border.Default		
 		{
 			"inset" "0 0 0 0"

@@ -247,7 +247,7 @@
 				tall					20	
 				font					"Regular14"
 				fgcolor_override		"255 255 255  255"
-				labelText				"1.1.0"
+				labelText				"1.2.0"
 
 				//this is cursed
 				"centerwrap"	"1"
