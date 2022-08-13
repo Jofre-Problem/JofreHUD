@@ -132,6 +132,7 @@ Scheme
 		{
 			"font" "_jofrenew/font/ProductChat.ttf"
 			"name" "ProductChat"
+			"range"         "0x0000 0x017F"
 		}
 		
 	}	

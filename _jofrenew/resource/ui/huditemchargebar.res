@@ -4,16 +4,10 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
 		"xpos"			"0"
 		"x_offset"		"0"
 		"wide"			"f0"
 		"tall"			"8"
-		"MeterFG"		"245 245 245 255"
-		"MeterBG"		"0 0 0 100"
-		"fgcolor_override"	"245 245 245 255"
-		"bgcolor_override"	"0 0 0 0"
 	}
 	"ItemEffectMeterBG"
 	{
@@ -27,7 +21,7 @@
 		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"f0"
-		"tall"					"4"
+		"tall"					"3"
 		"visible"				"1"
 		"enabled"				"0"
 		"labelText"				"#TF_Ball"
@@ -48,7 +42,7 @@
 		"zpos"			"2"
 		"wide"			"160"
 		//"wide_minmode"	"75"
-		"tall"			"4"
+		"tall"			"3"
 		"textAlignment"		"Left"
 		"MeterFG"		"245 245 245 255"
 		"MeterBG"		"0 0 0 100"
@@ -62,7 +56,7 @@
 		"zpos"			"0"
 		"wide"			"160"
 		//"wide_minmode"	"75"
-		"tall"			"4"
+		"tall"			"3"
 		"pin_to_sibling"	"ItemEffectMeter"
 		"border"				"Rice1"
 	}

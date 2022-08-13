@@ -9,7 +9,9 @@
 #base "../../overrides/circlesforstuff/file.res"
 #base "../../overrides/outlinedhealthnumber/file.res"
 #base "../ui3/healthshadow.res"
-
+#base "base/modulate_team.res"
+#base "base/editable1.res"
+#base "base/image1.res"
 "Resource/UI/HudPlayerHealth.res"	//[$OSX]
 {	
 	// player health data
@@ -30,6 +32,15 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}
+	"image1"
+	{
+		"xpos"			"2"
+		"ypos"			"2"
+		"zpos"			"200"
+		"wide"			"30"
+		"tall"			"30"
+		"image"			"replay/thumbnails/hp/healthcrossicon"
+	}		
 	"Playerstatusmaxhealthvalue"
 	{
 		"wide"			"0"
@@ -107,18 +118,11 @@
 	}		
 		"FixForHP"
 		{
-		"ControlName""CTFImagePanel"
-		"fieldName""FixForHP"
 		"xpos""0"
 		"ypos""0"
 		"zpos""6"
 		"wide""42"
 		"tall""34"
-		"scaleImage""1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/modulate_red"
-		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
 	}	
 	"PlayerStatusHealthImageBG"
 	{
@@ -150,20 +154,6 @@
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam"
 	}
-	"BarShadow"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarShadow"
-		"xpos"			"0"
-		"ypos"			"34"
-		"zpos"	"1111"
-		"wide"			"124"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
-		"border"		"cleanup"
-	}
 	"TeamColoredHealthTextBG2"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -193,20 +183,7 @@
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
 	}
-	"Healthcrossicon"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"healthcrossicon"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"200"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
-		"scaleimage"	"1"
-	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -314,21 +291,6 @@
 		"pin_to_sibling_corner" "1"
 	}
 	
-
-	"HealthOverlayShadow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthOverlayShadow"
-		"xpos"			"35"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"34"
-		"visible"		"0"
-		"enabled"		"0"
-		"image" 		"replay/thumbnails/hp/overlay_shadow"
-		"scaleimage"	"1"
-	}
 	"HealthDivider"
 	{
 		"ControlName"		"ImagePanel"

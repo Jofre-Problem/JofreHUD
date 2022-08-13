@@ -48,13 +48,13 @@
 		"tall"	 "p0.6"
 
 		"MaxDeathNotices" "8" // 1 KF
-		"IconScale"		"0.07"
+		"IconScale"		"0.05"
 		"LineHeight"	"16" // 3 KF
 		"LineSpacing"	"0" // 4 KF
 		"CornerRadius"	"0" // 2 KF
 	//	"RightJustify"	"0"	// If 1, draw notices from the right
-		
-		"TextFont"		"NotoBold12"
+				
+		"TextFont"		"Noto14"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

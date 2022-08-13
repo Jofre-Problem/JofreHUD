@@ -22,7 +22,7 @@ Damage Indicator|Stock
 System Tray Icon|None
 Server Plugin Font|Product Sans
 Transparent Viewmodels|Off
-Remove Scope|Off
+Remove Scope|On
 No Chat BG|Off
 Crosshair on scoreboard|Off
 Scoreboard Slide|Off
@@ -32,7 +32,7 @@ Net Graph Font|Calling Code
 Speed Bar Metter|Enabled
 Speed Bar Counter|bold
 Speed Bar Meter|Disabled
-Speed Meter|Disabled
+Speed Meter|Enabled
 Global Timer|Disabled
 Menu Timer|Enabled (00-00-00)
 Class Model Background|YaHud Corner

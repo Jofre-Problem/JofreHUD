@@ -96,15 +96,27 @@
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"Killfeed"
-			"xpos"			"40"
+			"xpos"			"0"
 			"ypos"			"rs1-2"
+			"zpos"			"25"
+			"wide"			"0"
+			"tall"			"25"
+			"labelText"		"%killername%"
+			"textAlignment"		"west"
+		}
+		"FreezeLabelKiller2"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"FreezeLabelKiller2"
+			"font"			"Killfeed"
+			"xpos"			"42"
+			"ypos"			"rs1-1"
 			"zpos"			"25"
 			"wide"			"f0"
 			"tall"			"25"
 			"labelText"		"%killername%"
 			"textAlignment"		"west"
 		}
-
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"

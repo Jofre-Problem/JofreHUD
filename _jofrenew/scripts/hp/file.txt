@@ -9,7 +9,6 @@ event HudHealthBonusPulse
 	RunEvent HudHealthBonusPulseLoop1a 0.0
 	Animate	OverhealHealthTextBG 	bgcolor		"90 255 8 255"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"0 0"			Accel 0.0	0.0
-	Animate PlayerStatusHealthValue Bgcolor "95 255 8 50" Linear 0.0 0.0
 	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
 	RunEvent LevelInitAny 0.0
 	
@@ -22,7 +21,6 @@ event HudHealthBonusPulseLoop1a
 }
 event HudHealthBonusPulseStop
 {
-Animate PlayerStatusHealthValue Bgcolor "0 0 0 0" Linear 0.0 0.0	
 	Animate PlayerStatusHealthValueID Fgcolor "255 255 255 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID2 Fgcolor "255 255 255 255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueID3 Fgcolor "255 255 255 255" Linear 0.0 0.0
@@ -62,7 +60,7 @@ event HudHealthDyingPulse
 	RunEvent HudHealthDyingPulseLoop4a	0.0 //normal - at 1
 	
 	RunEvent HudHealthBonusPulseLoop1a	0.0 //why not
-
+	
 	RunEvent LevelInitAny 0.0
 }
 
@@ -83,7 +81,6 @@ event HudHealthDyingPulseLoop1a //idk i don't like this one
 	Animate PlayerStatusHealthValueID Fgcolor "255 30 0 255" linear 0.15 0.06
 	Animate PlayerStatusHealthValueID2 Fgcolor "255 30 0 255" linear 0.15 0.06
 	Animate PlayerStatusHealthValueID3 Fgcolor "255 30 0 255" linear 0.15 0.06
-	
 	RunEvent HudHealthDyingPulseLoop1b	0.4
 }
 event HudHealthDyingPulseLoop2a

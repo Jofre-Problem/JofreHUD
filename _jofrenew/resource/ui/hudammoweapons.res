@@ -8,7 +8,12 @@
 #base "../../overrides/teamcolor_always_white/ammo.res"
 
 #base "../ui3/teamcolor/ammo.res"
-
+#base "base/modulate_team.res"
+#base "base/progressbar1.res"
+#base "base/progressbar2.res"
+#base "base/progressbar1a.res"
+#base "base/progressbar2a.res"
+#base "base/editable1.res"
 //props to anyone who understands this mess
 
 
@@ -16,26 +21,13 @@
 {
 	"HudWeaponAmmoBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
 		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"0"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"	
 	}
 		"HP_Circular"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"HP_Circular"
 			"xpos"		"0"
-			"xpos_minmode"		"9999"
 			"ypos"		"0"
 			"zpos"		"100"
 			"wide"		"35"	
@@ -52,7 +44,6 @@
 				ypos					0
 				"zpos"			"4"
 				"wide"			"35"
-				"xpos_minmode"		"9999"
 				"tall"			"34"
 				"visible"		"1"
 				"enabled"		"1"
@@ -66,98 +57,47 @@
 	}		
 		"FixForHP"
 		{
-		"ControlName""CTFImagePanel"
-		"fieldName""FixForHP"
 		"xpos""0"
 		"ypos""34"
-		"zpos""40"
-		"xpos_minmode"		"9999"
+		"zpos""9999"
 		"wide""85"
 		"tall""2"
-		"alpha""50"
-		"scaleImage""1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/modulate_red"
-		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
+	//	"alpha""50"
 	}		
-	"TriUberTID"
+	"ProgressBar1"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"TriUberTID"
 		"xpos"			"-2"
 		"ypos"			"32"
-		"zpos"			"10"
-		"xpos_minmode"		"9999"
+	
 		"wide"			"91"
-		"tall"			"5"
 		"variable"		"ammo"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
 	}	
-	"TriUberTID2"
+	"ProgressBar2"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"TriUberTID2"
 		"xpos"			"2"
 		"ypos"			"0"
-		"zpos"			"10"
-		"xpos_minmode"		"0"
 		"wide"			"91"
-		"tall"			"5"
 		"variable"		"ammo"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"TriUberTID"
+		"pin_to_sibling"	"ProgressBar1"
 	}		
-	"Reserve1"
+	"ProgressBar1a"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"Reserve1"
 		"xpos"			"90"
 		"ypos"			"32"
-		"xpos_minmode"		"9999"
-		"zpos"			"10"
 		"wide"			"38"
-		"tall"			"5"
 		"variable"		"AmmoInReserve"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
 	}	
-	"Reserve2"
+	"ProgressBar2a"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"Reserve2"
 		"xpos"			"2"
 		"ypos"			"0"
-		"xpos_minmode"		"0"
-		"zpos"			"10"
 		"wide"			"38"
-		"tall"			"5"
 		"variable"		"AmmoInReserve"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"Reserve1"
+		"pin_to_sibling"	"ProgressBar1a"
 	}		
 	"HudWeaponLowAmmoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"0"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"		
+		"wide"			"0"		
 	}
 	"AmmoInClip"
 	{
@@ -436,14 +376,6 @@
 	}
 	"BarShadow"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BarShadow"
-		"xpos"			"0"
-		"ypos"			"34"
 		"wide"			"150"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
 	}						
 }
