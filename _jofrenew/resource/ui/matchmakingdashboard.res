@@ -25,7 +25,20 @@
 
 
 
-
+	"BossBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BossBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillcolor"		"32 32 32 255"
+	}
 
 
 
@@ -114,7 +127,8 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 		"Gradient"
-		{
+		{	
+		//	"ypos"	"15"
 			"tall"		"0"
 		
 		}
@@ -130,32 +144,13 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
-			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
-			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
+			"ypos"	"cs-0.5-15+p0.01"
+		//	"visible"		"0"
 		}
 		"ToggleChatButton"
 		{

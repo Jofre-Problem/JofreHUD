@@ -10,10 +10,10 @@
 #base "../ui3/teamcolor/ammo.res"
 #base "base/modulate_team.res"
 #base "base/progressbar1.res"
-#base "base/progressbar2.res"
+//#base "base/progressbar2.res"
 #base "base/progressbar1a.res"
-#base "base/progressbar2a.res"
 #base "base/editable1.res"
+#base "base/teamimage1.res"
 //props to anyone who understands this mess
 
 
@@ -66,35 +66,18 @@
 	}		
 	"ProgressBar1"
 	{
-		"xpos"			"-2"
-		"ypos"			"32"
-	
-		"wide"			"91"
+		"xpos"			"0"
+		"ypos"			"34"
+		"wide"			"270"
 		"variable"		"ammo"
-	}	
-	"ProgressBar2"
-	{
-		"xpos"			"2"
-		"ypos"			"0"
-		"wide"			"91"
-		"variable"		"ammo"
-		"pin_to_sibling"	"ProgressBar1"
-	}		
+	}			
 	"ProgressBar1a"
 	{
-		"xpos"			"90"
-		"ypos"			"32"
+		"xpos"			"88"
+		"ypos"			"34"
 		"wide"			"38"
 		"variable"		"AmmoInReserve"
 	}	
-	"ProgressBar2a"
-	{
-		"xpos"			"2"
-		"ypos"			"0"
-		"wide"			"38"
-		"variable"		"AmmoInReserve"
-		"pin_to_sibling"	"ProgressBar1a"
-	}		
 	"HudWeaponLowAmmoImage"
 	{
 		"wide"			"0"		
@@ -222,34 +205,8 @@
 	
 	"TeamColoredAmmoTextBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}
-	"TeamColoredAmmoTextBG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"85"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam2"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}
 	"LowAmmoTextBG"
 	{

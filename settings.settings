@@ -20,9 +20,9 @@ EXPERIMENTAL Scope Removal|OFF
 EXPERIMENTAL Square Shadows|OFF
 Damage Indicator|Stock
 System Tray Icon|None
-Server Plugin Font|Product Sans
+Server Plugin Font|Default
 Transparent Viewmodels|Off
-Remove Scope|On
+Remove Scope|Off
 No Chat BG|Off
 Crosshair on scoreboard|Off
 Scoreboard Slide|Off
@@ -32,7 +32,7 @@ Net Graph Font|Calling Code
 Speed Bar Metter|Enabled
 Speed Bar Counter|bold
 Speed Bar Meter|Disabled
-Speed Meter|Enabled
+Speed Meter|Disabled
 Global Timer|Disabled
 Menu Timer|Enabled (00-00-00)
 Class Model Background|YaHud Corner

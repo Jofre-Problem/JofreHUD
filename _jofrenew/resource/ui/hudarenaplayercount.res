@@ -34,13 +34,13 @@
 		}
 	"BluProgress"
 	{
-		"ControlName"		"ProgressBar"
+		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"BluProgress"
 		"xpos"			"10"
-		"ypos"			"1"
+		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"p1" 
-		"tall"			"5"
+		"tall"			"2"
 // usually on vsh is only 1, max to 4
 // on arena doesnt pass 32, max 24, so value here max is
 // 12
@@ -48,22 +48,7 @@
 		"fgcolor_override"		"255 255 255 255"
 		"bgcolor_override"		"0 0 0 0"
 		"scaleImage"		"1"
-	}	
-	"BluProgress2"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"BluProgress2"
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"p1"
-		"tall"			"5"
-		"variable"		"blue_alive"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"BluProgress"
-	}			
+	}		
 		"count"
 		{
 			"ControlName"	"CExLabel"
@@ -119,34 +104,19 @@
 		"visible"		"1"
 	"RedProgress"
 	{
-		"ControlName"		"ProgressBar"
+		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"RedProgress"
 		"xpos"			"5"
-		"ypos"			"1"
+		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"154" //due to max players being 32, value is different
-		"tall"			"5"
+		"tall"			"2"
 		//max value for players is 31
 		"variable"		"red_alive"
 		"fgcolor_override"		"255 255 255 255"
 		"bgcolor_override"		"0 0 0 0"
 		"scaleImage"		"1"
 	}	
-	"RedProgress2"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"RedProgress2"
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"154"//due to max players being 32, value is different
-		"tall"			"5"
-		"variable"		"red_alive"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"RedProgress"
-	}			
 		"background"
 		{
 			"ControlName"	"CTFImagePanel"

@@ -35,16 +35,6 @@ event HudHealthBonusPulseLoop1b
 	RunEvent HudHealthBonusPulseLoop1a	0.0
 }
 
-//===========================================
-
-
-
-
-
-
-
-
-
 
 
 
