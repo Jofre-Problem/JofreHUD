@@ -1,3 +1,4 @@
+#base "../uni_base/image/1.res"
 "Resource/UI/HudBossHealth.res"
 {
 	"BorderImage"
@@ -7,8 +8,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -17,20 +18,29 @@
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
 	}
-	
-	"BossBG"
+		
+	"Gradient"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BossBG"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Gradient"
+		"xpos"				"15"
+		"ypos"				"16"
+		"zpos"				"49"
+		"wide"				"168"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/gradient"
+		"scaleImage"		"1"
+	}	
+	"1_image"
+	{
 		"xpos"			"14"
 		"ypos"			"15"
-		"zpos"			"0"
-		"wide"			"170"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"32 32 32 255"
+		"wide"			"169"
+		"tall"			"13"
+		"fillcolor"		"45 45 45 0"
+		"Border"		"Steamworkshopborder"
 	}
 	
 	"HealthBarPanel"
@@ -41,7 +51,7 @@
 		"ypos"			"16"
 		"zpos"			"4"
 		"wide"			"168"
-		"tall"			"18"
+		"tall"			"15"
 		"visible"			"1"
 		"enabled"			"1"
 		
@@ -53,17 +63,18 @@
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"167"
-			"tall"			"18"
+			"tall"			"11"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"../hud/halloween_bar"
+			"image"			"replay/thumbnails/hp/REFRACTblur"
 			"scaleImage"	"1"					
 		}
+	
 	}				
-
+	
 	"StunMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"

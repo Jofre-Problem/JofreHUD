@@ -1,3 +1,4 @@
+#base "base/teamimage1.res"
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"
@@ -7,7 +8,14 @@
 
 		"screenshot_move_panel_to_corner"	"0"
 	}
-
+	"TeamColoredAmmoTextBG"
+	{
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"0"
+			"wide"			"256"
+			"tall"			"2"
+	}
 		
 	
 	"FreezePanelBase"	
@@ -19,22 +27,7 @@
 		"wide"			"f0"		
 		"tall"			"f0"		
 		"visible"		"1"
-	"TeamColoredAmmoTextBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"0"
-			"wide"			"256"
-			"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/bluteam"
-		"teambg_3"		"replay/thumbnails/hp/redteam"
-	}
+
 		"FreezePanelBG"
 		{
 			"ControlName"		"CTFImagePanel"

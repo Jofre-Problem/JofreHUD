@@ -12,6 +12,7 @@
 #base "base/modulate_team.res"
 #base "base/editable1.res"
 #base "base/image1.res"
+#base "base/teamimage1.res"
 "Resource/UI/HudPlayerHealth.res"	//[$OSX]
 {	
 	// player health data
@@ -45,22 +46,6 @@
 	{
 		"wide"			"0"
 	}
-	"TeamColoredHealthTextBG22"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredHealthTextBG22"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos""2"
-		"wide"			"50"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}		
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -138,37 +123,13 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"0"	
 	}	
-	"TeamColoredHealthTextBG"
+	"TeamColoredAmmoTextBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredHealthTextBG"
-		"xpos"			"42"
-		"ypos"			"0"
-		"zpos""5"
-		"wide"			"0"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}
-	"TeamColoredHealthTextBG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredHealthTextBG2"
 		"xpos"			"35"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam2"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}
 	"OverhealHealthTextBG"
 	{

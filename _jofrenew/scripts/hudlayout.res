@@ -54,7 +54,7 @@
 		"CornerRadius"	"0" // 2 KF
 	//	"RightJustify"	"0"	// If 1, draw notices from the right
 				
-		"TextFont"		"Noto14"
+		"TextFont"		"NotoBold14"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
@@ -489,12 +489,12 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	}
-	HudArenaPlayerCount
+	HudArenaPlayerCount //fix for vsh
 	{
 		"xpos"				"0"
 		"ypos"			"0"
-		"tall"		"f0"
-		"wide"			"f0"
+	//	"tall"		"f0"
+	//	"wide"			"f0"
 		"zpos"			"10"
 	}	
 	HudCrosshair

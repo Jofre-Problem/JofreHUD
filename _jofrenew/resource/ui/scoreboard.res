@@ -1,6 +1,9 @@
 #base "..\..\overrides\crosshair_in_scoreboard\file.res"
 #base "../../ui_overrides/summer-border/file.res"
 //#base "../#jofre/blur_bg.res"
+#base "base/progressbar1.res"
+//#base "base/progressbar2.res"
+#base "base/progressbar2.res"
 //#base "../ui_overrides/ui/summersale_border.res"
 "Resource/UI/Scoreboard.res"
 {
@@ -175,15 +178,13 @@
 			"visible"		"0"
 		}
 	}	
-	"blueProgress"
+	"ProgressBar1"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"blueProgress"
 		"xpos"			"-22"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"1000"
-		"wide"			"p0.5-22" //due to max players being 32, value is different
-		"tall"			"22"
+		"wide"			"p0.5-22" 
+		"tall"			"20"
 		//max value for players is 31
 		"variable"		"blueteamscore"
 		"fgcolor_override"		"255 255 255 255"
@@ -191,24 +192,9 @@
 		"scaleImage"		"1"
 		"pin_to_sibling"	"BlueScoreBG3"
 	}	
-	"blueProgress2"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"blueProgress2"
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"p0.5-22"//due to max players being 32, value is different
-		"tall"			"22"
-		"variable"		"blueteamscore"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"blueProgress"
-	}	
 		"blueprogbg"
 			{
-			"ControlName""ImagePanel"
+			"ControlName""Imagepanel"
 			"fieldName""blueprogbg"
 				xpos						22
 				ypos					79			
@@ -217,7 +203,7 @@
 			"tall""20"
 			"scaleImage""1"
 			"image""replay/thumbnails/progressbg2"
-			"pin_to_sibling"	"redProgress"
+			"pin_to_sibling"	"ProgressBar2"
 			"drawcolor"	"49 153 220 255"
 					if_mvm
 		{
@@ -307,15 +293,13 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
 			}													
-	"redProgress"
+	"ProgressBar2"
 	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"redProgress"
 		"xpos"			"rs1"
-		"ypos"			"78"
+		"ypos"			"80"
 		"zpos"			"1050"
 		"wide"			"p0.5-22" //due to max players being 32, value is different
-		"tall"			"22"
+		"tall"			"18"
 		//max value for players is 31
 		"variable"		"redteamscore"
 		"fgcolor_override"		"255 255 255 255"
@@ -327,21 +311,6 @@
 			"xpos"		"r0"
 		}
 	}	
-	"redProgress2"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"redProgress2"
-		"xpos"			"2"
-		"ypos"			"0"
-		"zpos"			"1050"
-		"wide"			"p0.5-22"//due to max players being 32, value is different
-		"tall"			"22"
-		"variable"		"redteamscore"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"redProgress"
-	}		
 	"BlueTeamImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -1305,60 +1274,32 @@ if_mvm
 		}
 	"Kills1"
 	{
-		"ControlName"		"ProgressBar"
+		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"Kills1"
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"10"
 		"wide"			"f0"
-		"tall"			"12"[$LINUX]
-		"tall"			"14" [$WINDOWS]
-		"variable"		"kills"
-		"fgcolor_override"		"255 215 0 255"
-		"bgcolor_override"		"0 0 0 0"
-	}	
-	"Kills3"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"Kills3"
-		"xpos"			"-3"
-		"ypos"			"-2"
-		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"12"[$LINUX]
-		"tall"			"14" [$WINDOWS]
+		"tall"			"10"[$LINUX]
+		"tall"			"12" [$WINDOWS]
 		"variable"		"kills"
 		"fgcolor_override"		"255 215 0 255"
 		"bgcolor_override"		"0 0 0 0"
 	}	
 	"death1"
 	{
-		"ControlName"		"ProgressBar"
+		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"death1"
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"11"
 		"wide"			"f0"
-		"tall"			"12"[$LINUX]
-		"tall"			"14" [$WINDOWS]
+		"tall"			"10"[$LINUX]
+		"tall"			"12" [$WINDOWS]
 		"variable"		"deaths"
 		"fgcolor_override"		"190 45 57 255"
 		"bgcolor_override"		"0 0 0 0"
 	}	
-	"death2"
-	{
-		"ControlName"		"ProgressBar"
-		"fieldName"		"death2"
-		"xpos"			"-3"
-		"ypos"			"-2"
-		"zpos"			"11"
-		"wide"			"f0"
-		"tall"			"12"[$LINUX]
-		"tall"			"14" [$WINDOWS]
-		"variable"		"deaths"
-		"fgcolor_override"		"190 45 57 255"
-		"bgcolor_override"		"0 0 0 0"
-	}					
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
