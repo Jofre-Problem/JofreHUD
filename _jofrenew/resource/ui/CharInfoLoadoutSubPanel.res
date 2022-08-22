@@ -3,7 +3,7 @@
 //#base "../#jofre/new_mm_panel1.res"
 //#base "../#jofre/blur_bg.res"
 //#base "../#jofre/charbg.res"
-#base "../ui2/tank.res"
+//#base "../ui2/tank.res"
 
 //#base "../#jofre/socialmedia.res"
 //#base "../../#jofre/partymembers.res"
@@ -46,7 +46,7 @@
 		sound_released			"vo/scout_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		pin_to_sibling 			"SoldierButton"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -74,7 +74,7 @@
 		sound_released			"vo/soldier_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground 			0	
 		pin_to_sibling 			"PyroButton"
@@ -103,7 +103,7 @@
 		sound_released			"vo/pyro_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground 			0
 		
@@ -133,7 +133,7 @@
 		sound_released				"vo/demoman_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		
 		paintbackground 			0
 
@@ -162,7 +162,7 @@
 		sound_released			"vo/heavy_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground 			0
 	}
@@ -187,7 +187,7 @@
 		sound_released			"vo/engineer_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground 			0
 
@@ -217,7 +217,7 @@
 		sound_released			"vo/medic_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		
 		paintbackground 			0
 		
@@ -247,7 +247,7 @@
 		sound_released				"vo/sniper_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		
 		paintbackground 			0
 		
@@ -277,7 +277,7 @@
 		sound_released			"vo/spy_go01.mp3"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground 			0
 		
@@ -312,7 +312,7 @@
 		paintbackground			0
 		
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		pin_to_sibling 			"CraftingButton"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
@@ -338,7 +338,7 @@
 		sound_released			"UI/ButtonClickrelease.wav"
 				
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground			0
 		
@@ -367,7 +367,7 @@
 		sound_released			"UI/ButtonClickrelease.wav"
 				
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground			0
 
@@ -392,7 +392,7 @@
 		sound_released			"UI/ButtonClickrelease.wav"
 				
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 		"pin_to_sibling" 				"ArmoryButton"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -417,7 +417,7 @@
 		sound_released			"UI/ButtonClickrelease.wav"
 				
 			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorIconsArmed1"
+		armedFgColor_override		"tf23"
 
 		paintbackground			0
 				"border_default"				"WBorder_2"

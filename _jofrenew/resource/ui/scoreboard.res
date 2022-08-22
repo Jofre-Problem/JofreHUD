@@ -129,7 +129,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"30 30 30 255"
+		"fillcolor"		"tf21"
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"3"
@@ -171,7 +171,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"30 30 30 255"
+		"fillcolor"		"tf21"
 		"pin_to_sibling"	"BlueScoreBG"
 		if_mvm
 		{
@@ -396,7 +396,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"30 30 30 255"
+		"fgcolor_override"	"tf21"
 		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
@@ -440,7 +440,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"1070"
-		"fgcolor_override"	"30 30 30 255"
+		"fgcolor_override"	"tf21"
 		"pin_to_sibling"	"RedPlayerList"
 		if_mvm
 		{
@@ -503,7 +503,7 @@
 		"ypos"				"87"
 		"zpos"				"4"
 		"wide"				"p0.505"
-		"tall"				"390"
+		"tall"				"342"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -523,7 +523,8 @@
 		"ypos"				"87"
 		"zpos"				"4"
 		"wide"				"p0.505"
-		"tall"				"390"
+		"tall"				"336"	[$WINDOWS]
+		"tall"			"342" [$LINUX]
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"

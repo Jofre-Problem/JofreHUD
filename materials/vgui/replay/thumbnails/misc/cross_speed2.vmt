@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/replay/thumbnails/misc/crosshair_speed"
+	"$basetexture" "vgui/replay/thumbnails/misc/cross_speed2"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1

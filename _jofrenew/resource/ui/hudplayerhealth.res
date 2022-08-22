@@ -12,7 +12,11 @@
 #base "base/modulate_team.res"
 #base "base/editable1.res"
 #base "base/image1.res"
+#base "base/image2.res"
+#base "base/image3.res"
 #base "base/teamimage1.res"
+#base "base/imagecover.res"
+#base "base/progressbar1.res"
 "Resource/UI/HudPlayerHealth.res"	//[$OSX]
 {	
 	// player health data
@@ -41,7 +45,7 @@
 		"wide"			"30"
 		"tall"			"30"
 		"image"			"replay/thumbnails/hp/healthcrossicon"
-	}		
+	}	
 	"Playerstatusmaxhealthvalue"
 	{
 		"wide"			"0"
@@ -52,11 +56,10 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"-45"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"7"
 		"wide"			"123"
 		"tall"		"34"
 	}
-	
 	"PlayerStatusHealthAdditive"
 	{
 		"ControlName"	"ImagePanel"
@@ -104,31 +107,30 @@
 		"FixForHP"
 		{
 		"xpos""0"
-		"ypos""0"
-		"zpos""6"
-		"wide""42"
-		"tall""34"
+		"ypos""0-p.001"
+		"zpos""8"
+		"wide""420"
+		"tall""36"
 	}	
+	"ProgressBar1"
+	{
+		"xpos"			"35"
+		"ypos"			"34"
+		"zpos"			"5"
+		"wide"			"90"
+		"tall"		"2"
+		"variable"		"health"
+	}				
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
 		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"0"	
 	}	
 	"TeamColoredAmmoTextBG"
 	{
-		"xpos"			"35"
+		"xpos"			"34"
 		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"150"
+		"zpos"			"50"
+		"wide"			"80"
 		"tall"			"34"
 	}
 	"OverhealHealthTextBG"
@@ -137,7 +139,7 @@
 		"fieldName"		"OverhealHealthTextBG"
 		"xpos"			"35"
 		"ypos"			"0"
-		"zpos"			"6"
+		"zpos"			"99"
 		"wide"			"150"
 		"tall"			"34"
 		"visible"		"1"
@@ -147,17 +149,7 @@
 
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"9990"
-		"ypos"			"-49"
-		"zpos"			"3"
-		"wide"			"1000"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -251,60 +243,53 @@
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 	}
-	
-	"HealthDivider"
+
+	"image2" //bad position of image -- pain
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthDivider"
+		"xpos"			"0"
+		"ypos"			"34"
+		"zpos"			"9999"
+		"wide"			"42"
+		"tall"			"2"
+		"image" 		"replay/thumbnails/misc/cross_speed2"
+	}	
+	"image3"
+	{
 		"xpos"			"34"
 		"ypos"			"0"
 		"zpos"			"9999"
 		"wide"			"5"
 		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
-		"image" 		"replay/thumbnails/hp/REFRACTnormal"
-		"scaleimage"	"1"
 	}
 	"HealthDivider2"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HealthDivider2"
-		"xpos"			"34"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"34"
 		"zpos"			"7900"
-		"wide"			"5"
-		"tall"			"34"
+		"wide"			"34"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		"border"		"cleanup"
 	}
-	"HealthWhiteCover"
+	"cover1"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthWhiteCover"
 		"xpos"			"34"
 		"ypos"			"0"
-		"zpos"			"10"
+		"zpos"			"102"
 		"wide"			"19"
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
 	}
-	"HealthWhiteCover2"
+	"cover2"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthWhiteCover2"
 		"xpos"			"107"
 		"ypos"			"0"
-		"zpos"			"10"
+		"zpos"			"102"
 		"wide"			"28"
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
 	}
 	
 	"HealthIconAnchor" // Icon Anchor to move Vaccinator Resistance

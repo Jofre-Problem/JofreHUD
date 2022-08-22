@@ -11,6 +11,7 @@
 //	}	
 	"progress"
 	{
+		"ControlName"	"ContinuousProgressBar"
 		"xpos"      "5"
 		"ypos"      "35"
 		"wide"      "f+50"      

@@ -14,6 +14,10 @@
 		"visible"		"1"
 		//"enabled"		"1"		
 	}
+			
+
+
+			
 	"PlayerStatusClassImage"
 	{
 		"ypos"			"r0"
@@ -59,12 +63,15 @@
 		"render_texture"	"0"
 		"fov"			"52"
 		"allow_rot"		"1"
-				
+
+
+
 		"model"
 		{
 			"force_pos"	"1"
 
 			"angles_x" "0"
+			"zpos"		"1000"
 			"angles_y" "172"
 			"angles_z" "0"
 			"origin_x" "200"

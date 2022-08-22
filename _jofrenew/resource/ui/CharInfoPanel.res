@@ -3,8 +3,8 @@
 //#base "../#jofre/charbg.res"
 #base "../ui2/testgradient.res"
 //#base "../ui2/polybg.res"
-#base "../ui2/tank.res"
-#base "../ui2/multiple-bg.res"
+//#base "../ui2/tank.res"
+//#base "../ui2/multiple-bg.res"
 #base "../../ui_overrides/full-timer/file.res"
 "Resource/UI/CharInfoPanel.res"
 {

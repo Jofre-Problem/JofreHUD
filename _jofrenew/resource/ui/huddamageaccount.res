@@ -20,6 +20,7 @@
 		"alpha" "125"
 		"Additive" "1"
 	}	
+
 	"DamageAccountLabel"
 	{
 		"ControlName"	"CExLabel"

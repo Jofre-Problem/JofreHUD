@@ -8,6 +8,11 @@
 	{
 		"labelText"		"#GameUI_ParseBaseline"
 	}
+	"frame_menu"
+	{
+		"wide"		"0"
+		"alpha"		"0"
+	}		
 	"progress"
 	{
 	}		

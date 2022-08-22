@@ -1,5 +1,5 @@
 Scheme
 {
 	BaseSettings
-	{FrameSystemButton.Icon			""}	
+	{FrameSystemButton.Icon			"replay/thumbnails/misc/paint_gif"}	
 }	

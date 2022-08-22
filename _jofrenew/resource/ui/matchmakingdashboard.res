@@ -34,10 +34,10 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"32 32 32 255"
+		"fillcolor"		"tf21"
 	}
 
 
@@ -150,7 +150,7 @@
 		"OuterShadow"
 		{
 			"ypos"	"cs-0.5-15+p0.01"
-		//	"visible"		"0"
+			"visible"		"0"
 		}
 		"ToggleChatButton"
 		{

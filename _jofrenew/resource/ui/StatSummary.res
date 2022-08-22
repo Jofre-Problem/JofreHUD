@@ -20,11 +20,11 @@
 }	
 		"defbg"
 		{
-					"ControlName"	"ImagePanel"
+					"ControlName"	"ScalableImagePanel"
 				"fieldName"		"defbg"
 			"zpos"	"-100"
 			"wide""f0"
-			"tall""f0"
+			"tall""480"
 			"image""../console/background_upward_widescreen"
 		}		
 		"1_image"

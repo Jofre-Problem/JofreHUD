@@ -155,6 +155,9 @@ Scheme
 	}
 	Colors
 	{	
+		"tf21"	"64 64 64 255"
+		"tf22"	"247 231 191 255"
+		"tf23"	"255 90 47 255"
 		"TransparentLightBlack""0 0 0 100"
 	//	"Green"					"0 135 68 255"
 	//	"TanLight"				"193 175 75 255"			

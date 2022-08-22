@@ -6,7 +6,8 @@
 		"zpos"		"6667"
 		"alpha"		"0"
 		"fgcolor_override"	"Blank"
-	}			
+	}	
+				
 	"LoadingDialog"	//real one I GUESS
 	//pin 1
 	{

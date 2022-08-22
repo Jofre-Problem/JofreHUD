@@ -88,7 +88,7 @@
 		"paintBackground"	"0"
 		"labelText"	"M"
 		"defaultFgColor_override"	"W_ColorTheme1"
-		"armedFgColor_override"	"W_BorderArmed"
+		"armedFgColor_override"	"tf23"
 		"Command"		"vguicancel"
 	}
 	"CancelContinue" 
@@ -137,10 +137,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -255,10 +255,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -336,10 +336,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -530,10 +530,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -610,10 +610,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -728,10 +728,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -845,10 +845,10 @@
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -925,10 +925,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1120,10 +1120,10 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"White"
-		selectedFgColor_override	"W_BorderArmed"
-		FgColor_override		"White"
-		FgColor		"White"
+		defaultFgColor_override		"tf22"
+		selectedFgColor_override	"tf23"
+		FgColor_override		"tf22"
+		FgColor		"tf22"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1211,7 +1211,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 
@@ -1230,7 +1230,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1249,7 +1249,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1268,7 +1268,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1287,7 +1287,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1306,7 +1306,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1325,7 +1325,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1344,7 +1344,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 	
@@ -1363,7 +1363,7 @@
 		textAlignment			center
 		font					"NotoBold20"
 
-		fgcolor				"White"
+		fgcolor				"tf22"
 		paintbackground			0
 	}
 

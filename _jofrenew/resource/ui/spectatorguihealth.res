@@ -1,3 +1,4 @@
+#base "base/progressbar1.res"
 "Resource/UI/SpectatorGUIHealth.res"
 {
 	"PlayerStatusHealthImage"
@@ -82,6 +83,14 @@
 		"fgcolor"		"0 0 0 255"
 		"pin_to_sibling"	"PlayerStatusHealthValueID2"
 	}	
+	"ProgressBar1"
+	{
+		"xpos"			"0"
+		"ypos"			"1032"
+		"wide"			"270"
+		"tall"		"4"
+		"variable"		"health"
+	}			
 	"PlayerStatusHealthValueID3"
 	{
 		"ControlName"	"CExLabel"

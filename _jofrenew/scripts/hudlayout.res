@@ -78,7 +78,7 @@
 		//"ypos_minmode"	"325+28"			
 		"zpos"			"0"
 		"wide"			"124"
-		"tall"			"38"
+		"tall"			"36"
 	}
 	HudMedicCharge
 	{

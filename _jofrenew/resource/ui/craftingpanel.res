@@ -1,4 +1,5 @@
-#base "../ui2/multiple-bg.res"
+//#base "../ui2/multiple-bg.res"
+#base "../ui2/testgradient.res"
 #base "../ui2/tank.res"
 "Resource/UI/ItemPickupPanel.res"
 {

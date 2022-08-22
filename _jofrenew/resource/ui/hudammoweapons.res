@@ -1,4 +1,3 @@
-#base "../ui_overrides/!res_ammo.res"	//replace all "resolution" code
 
 #base "../../overrides/circlesforstuff/file2.res"
 #base "../../overrides/outlinedammoclip/file.res"
@@ -10,51 +9,32 @@
 #base "../ui3/teamcolor/ammo.res"
 #base "base/modulate_team.res"
 #base "base/progressbar1.res"
-//#base "base/progressbar2.res"
 #base "base/progressbar1a.res"
+//#base "base/progressbar2.res"
+//#base "base/progressbar1a.res"
 #base "base/editable1.res"
 #base "base/teamimage1.res"
 //props to anyone who understands this mess
-
-
+#base "base/image3.res"
+#base "base/imagecover.res"
+#base "../uni_base/progress/1.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
 	{
 		"wide"			"0"
 	}
-		"HP_Circular"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HP_Circular"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"100"
-			"wide"		"35"	
-			"tall"		"30"	
-		"pin_to_sibling"	"TeamColoredAmmoTextBG"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"		
+	"1_progress"
+	{
+		"xpos"			"90"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"35"
+		"tall"			"34"
+		"variable"		"ammo"
+		"fg_image"		"replay/thumbnails/hp/cover"
+		"bg_image"		"replay/thumbnails/null"
 	}	
-		"Background"
-			{
-				"ControlName"		"CircularProgressBar"
-				"fieldName"		"Background"
-				xpos						90
-				ypos					0
-				"zpos"			"4"
-				"wide"			"35"
-				"tall"			"34"
-				"visible"		"1"
-				"enabled"		"1"
-				"variable"		"ammo"
-				"fg_image"		"replay/thumbnails/hp/cover"
-				"bg_image"		"replay/thumbnails/null"
-				"fgcolor_override"	"255 255 255 255"
-				"bgcolor_override"	"255 255 255 255"
-				"scaleImage"		"1"				
-				//can pin to HL2 stuff! NOT tf2 stuff		
-	}		
 		"FixForHP"
 		{
 		"xpos""0"
@@ -74,6 +54,7 @@
 	"ProgressBar1a"
 	{
 		"xpos"			"88"
+		"zpos"			"100"
 		"ypos"			"34"
 		"wide"			"38"
 		"variable"		"AmmoInReserve"
@@ -121,7 +102,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"AmmoReserve2"
 		"fgcolor"		"236 240 241 255"
-		"xpos"			"89"
+		"xpos"			"88"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"38"
@@ -291,45 +272,14 @@
 		"font"			"LowAmmoFont"
 		"fgcolor"		"255 127 0 255"
 	}
-	"AmmoWhiteCover"
+
+	"image3"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoWhiteCover"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"17"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
-	}
-	"AmmoWhiteCover2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"AmmoWhiteCover2"
-		"xpos"			"71"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"17"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
-	}
-	"HealthDivider"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthDivider"
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7000"
 		"wide"			"5"
 		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"
-		"image" 		"replay/thumbnails/hp/REFRACTnormal"
-		"scaleimage"	"1"
 	}
 	"BarShadow"
 	{

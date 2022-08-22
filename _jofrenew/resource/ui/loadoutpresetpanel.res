@@ -15,7 +15,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"Segoe12"
+			"font"			"NotoBold14"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"
