@@ -73,9 +73,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
-		//"xpos_minmode"	"c106-62"
+		//"xpos_minmode""c106-62"
 		"ypos"			"325"
-		//"ypos_minmode"	"325+28"			
+		//"ypos_minmode""325+28"			
 		"zpos"			"0"
 		"wide"			"124"
 		"tall"			"36"
@@ -83,9 +83,9 @@
 	HudMedicCharge
 	{
 		"xpos"			"c106"
-		//"xpos_minmode"	"c106-62"
+		//"xpos_minmode""c106-62"
 		"ypos"			"325"
-		//"ypos_minmode"	"325+28"
+		//"ypos_minmode""325+28"
 		"zpos"			"0"
 		"wide"			"124"
 		"tall"			"36"
@@ -552,7 +552,7 @@
 		"enabled"				"1"
 		"xpos"					"r150"
 		"ypos"					"r75"
-		//"ypos_minmode"			"r45"
+		////"ypos_minmode"		"r45"
 		"wide"					"150"
 		"tall"					"25"
 	}

@@ -6,9 +6,9 @@
 		//"visible"		"1"
 		
 		"xpos"			"r214"
-		////"ypos_minmode"	"r70"
+		//////"ypos_minmode""r70"
 		"ypos"			"r62"
-		////"ypos_minmode"	"r54"
+		//////"ypos_minmode""r54"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -48,8 +48,8 @@
 		//"pinCorner"				"2"
 		
 		//"visible_minmode"		"1"
-		////"ypos_minmode"			"1"
-		////"xpos_minmode"			"0"
+		//////"ypos_minmode"		"1"
+		//////"xpos_minmode"		"0"
 		//"textAlignment_minmode"			"west"
 		
 		
@@ -67,8 +67,8 @@
 		"font"					"Default"
 		"xpos"					"47"
 		"ypos"					"28"
-		////"ypos_minmode"			"0"
-		////"xpos_minmode"			"0"
+		//////"ypos_minmode"		"0"
+		//////"xpos_minmode"		"0"
 		"zpos"					"2"
 		"wide"					"30"
 		////"wide_minmode"			"50"

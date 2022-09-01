@@ -7,7 +7,10 @@
 		"alpha"		"0"
 		"fgcolor_override"	"Blank"
 	}	
-				
+	"progress"
+	{
+		"ControlName"	"ContinuousProgressBar"	
+	}				
 	"LoadingDialog"	//real one I GUESS
 	//pin 1
 	{

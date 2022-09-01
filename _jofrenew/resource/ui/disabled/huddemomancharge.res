@@ -9,7 +9,7 @@
 		"font"		"Default"
 		"xpos"		"cs-0.5"
 		"ypos"		"r140"
-		//"ypos_minmode"	"r120"
+		////"ypos_minmode""r120"
 		"zpos"		"2"
 		"wide"		"160"
 		//"wide_minmode"	"80"
