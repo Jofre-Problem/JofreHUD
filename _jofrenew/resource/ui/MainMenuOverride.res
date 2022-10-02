@@ -504,7 +504,7 @@
 		xPos					cs-0.5
 		yPos					50
 		zPos					30
-		"wide"			"p0.065"
+		"wide"			"p0.1"
 		"tall"			"40"
 		paintBackground			0
 		paintBorder				0
@@ -580,20 +580,20 @@
 		{
 			ControlName				CExLabel
 			fieldName				"Notifications_CountLabel"
-			xpos					6
-			ypos					2
+			xpos					4
+			ypos					3
 			zpos					2
 			wide					20
-			tall					14
+			tall					20
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"NotoBold10"
+			font					"NotoBold14"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"W_ColorTheme1"
+			fgcolor_override			"0 0 0 255"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"

@@ -24,6 +24,7 @@
 		"title"		""
 		"bgcolor"				"W_ColorTheme3"
 		"bgcolor_override"		"W_ColorTheme3"
+		"border"	"noborder"
 	}
 		"BG2_du1"
 			{

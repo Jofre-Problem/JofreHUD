@@ -1,6 +1,6 @@
-#base "../../ui2/multiple-bg.res"
-#base "../../ui2/tank.res"
-
+//#base "../../ui2/multiple-bg.res"
+//#base "../../ui2/tank.res"
+#base "../../ui2/testgradient.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"MMBackgroundPanel"

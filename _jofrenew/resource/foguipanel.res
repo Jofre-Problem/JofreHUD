@@ -8,7 +8,33 @@
 
 		"wide"		"300"
 		"tall"		"400"
-	
+	"ChatSlider"
+	{
+		"ControlName"		"Slider"
+		"fieldName"		"ChatSlider"
+		"xpos"		15
+		"ypos"		"20"
+		"wide"		"230"
+		"tall"		"40"
+		"zpos"		"200"
+		"leftText"		"0"
+		"rightText"		"30"
+		"minvalue"		"0"
+		"maxvalue"		"30"
+			"rangemin"		"0"
+			"rangemax"		"30"		
+			"numTicks""10"
+		"cvar_name"		"hud_saytext_time"
+		"cvar"		"hud_saytext_time"
+		"cvar_value"		"hud_saytext_time"
+	//	"actionsignallevel"	"2"
+	"ActionSignalTarge"	"2"
+	"value"	"hud_saytext_time"
+		"command"		"hud_saytext_time"
+		"convar"		"hud_saytext_time"
+		"convar_def"		"hud_saytext_time"
+		"allowoutofrange"		"0"		
+	}		
 	}
 		
 		"Windows_Notification"

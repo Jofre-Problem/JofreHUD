@@ -24,7 +24,38 @@
 		zpos -500
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
-	}		
+	}
+	"ShowArmoryLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowArmoryLabel"
+		xpos				9999
+	}	
+	"ClassLabel"
+	{
+		"ControlName"			"CEXLABEL"
+		"xpos"					"80"
+		"ypos"					"0"
+		"wide"					"16"
+		"tall"					"o1"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"	"center"
+		"labelText"					"?"
+		"font"			"Noto16"
+		"zpos"					"6000"
+	}
+	"editingg"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"editingg"
+		"xpos"					"80"
+		"ypos"					"0"
+		"wide"					"18"
+		"tall"					"16"
+		"zpos"		"10"
+		"fillcolor"				"90 90 90 255"
+	}				
 	"ScoutButton"			// other classes pinned to this
 	{
 		ControlName				CExButton
@@ -616,12 +647,12 @@
 		fieldName			"ShowPaintkitsLabel"
 		xpos				9999
 	}
-	"ClassLabel"
-	{
-		ControlName			Label
-		fieldName			"ClassLabel"
-		wide			0
-	}
+//	"ClassLabel"
+//	{
+///		ControlName			Label
+//		fieldName			"ClassLabel"
+//		wide			0
+//	}
 	"SelectLabel"
 	{
 		wide			0
@@ -729,12 +760,7 @@
 		fieldName			"ShowArmoryButton"
 		xpos				9999
 	}	
-	"ShowArmoryLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowArmoryLabel"
-		xpos				9999
-	}
+
 	"ShowCraftingButton"
 	{
 		ControlName			ImageButton

@@ -23,7 +23,19 @@
 		"labelText"		""
 		"URLText"		"https://gamebanana.com/wips/68537"
 	}
-
+	"bb"
+	{
+		"xpos"		"rs1"
+		"ypos"		"rs1"
+		"zpos"		"-2"		
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bb"
+		"fillcolor"				"0 0 0 150"
+		"scaleImage"		"1"
+		"mouseInputenabled"	"0"
+		"wide"		"f0"
+		"tall"		"f0"		
+	}	
 	"GB"
 	{
 		"xpos"		"rs1"
@@ -247,7 +259,7 @@
 				tall					20	
 				font					"Regular14"
 				fgcolor_override		"255 255 255  255"
-				labelText				"1.3.1"
+				labelText				"1.4.0RC"
 
 				//this is cursed
 				"centerwrap"	"1"

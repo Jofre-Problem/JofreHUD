@@ -202,29 +202,35 @@
 		"zpos"					"100"
 		"wide"					"500"
 		"tall"	 				"30"
-
 		"CarryingBackground"
 		{
+
 			"ypos"			"r0"
+
+		}
+		"CarryingBackground2"
+		{
+			"fieldName"			"CarryingBackground2"
+			"ControlName"	"ImagePanel"
+		//	"ypos"			"r0"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"		"60"
+			"tall"	"20"
+			"fillcolor"	"3 3 3 255"
+			//"image"	""
 		}
 
 		"CarryingLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"Medhealtarget"
+			"font"				"Noto14"
 			"xpos"				"5"
 			"ypos"				"15"
 			"zpos"				"1"
 			"wide"				"f0"
 			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 			"labelText"			"%carrying%"

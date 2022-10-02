@@ -25,13 +25,6 @@ GlobalComboBox("Global Timer", "Global Timer")
 	Disabled
 	Enabled
 }
-[Name:Menu Timer, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
-GlobalComboBox("Menu Timer", "Menu Timer")
-{
-	Enabled (00-00-00)
-	Old (00-00)
-	Disabled
-}
 [Name:System Tray Icon, Default:Lower, FG:#7A5EF8, BG:#33CCFF, Border:0]
 GlobalComboBox("System Tray Icon", "System Tray Icon")
 {

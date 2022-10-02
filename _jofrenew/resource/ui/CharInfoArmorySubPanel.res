@@ -1,8 +1,9 @@
 //#base "../#jofre/blur_bg.res"
 //#base "../#jofre/char_tank.res"
 //#base "../#jofre/charbg.res"
-#base "../ui2/tank.res"
+//#base "../ui2/tank.res"
 #base "../ui2/testgradient.res"
+
 //#base "../ui2/multiple-bg.res"
 "Resource/UI/CharInfoPanel.res"
 {

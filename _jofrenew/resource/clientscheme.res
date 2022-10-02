@@ -103,7 +103,7 @@ Scheme
 		SectionedListPanel.DividerColor		"Black"
 		SectionedListPanel.TextColor		"W_ColorIcons1"
 		SectionedListPanel.BrightTextColor	"W_ColorIcons1"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
+		SectionedListPanel.BgColor			"0 0 0 0"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
@@ -111,6 +111,7 @@ Scheme
 		Menu.TextColor					"W_ColorIcons1"
 		RichText.TextColor									"Gray"
 		RichText.BgColor									"Blank"
+		ScrollBar.Wide					"7"
 		RichText.SelectedTextColor							"Gray"
 		RichText.SelectedBgColor							"OrangeLight"
 

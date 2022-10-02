@@ -441,7 +441,7 @@
 		"tall"	 "f0"
 		"zpos" 	"2"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"r100"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
