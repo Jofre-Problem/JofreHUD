@@ -208,18 +208,6 @@
 			"ypos"			"r0"
 
 		}
-		"CarryingBackground2"
-		{
-			"fieldName"			"CarryingBackground2"
-			"ControlName"	"ImagePanel"
-		//	"ypos"			"r0"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"		"60"
-			"tall"	"20"
-			"fillcolor"	"3 3 3 255"
-			//"image"	""
-		}
 
 		"CarryingLabel"
 		{	

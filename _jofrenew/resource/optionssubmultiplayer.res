@@ -20,5 +20,9 @@
 	"Blue Color Slider"
 	{
 		"fgcolor_override"	"81 175 239 255"
-	}			
+	}	
+	"DownloadFilterCheck"
+	{
+		"editable"	"0"
+	}				
 }

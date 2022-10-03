@@ -26,12 +26,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"rs1"
-		"ypos"			"rs1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"		"10"
 		"wide"			"f0"
 		"tall"			"25"
-		"textAlignment"		"east"
+		"labeltext"	"#game_respawntime_in_secs"
+		"textAlignment"		"west"
 		"font"			"ViewerNumber"
 	}
 

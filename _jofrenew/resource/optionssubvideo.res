@@ -1,0 +1,15 @@
+"_jofrehud/resource/#jofre/charbg.res"
+{
+"Resolution"
+{
+"editable""0"
+}
+"AspectRatio"
+{
+"editable""0"
+}
+"DisplayModeCombo"
+{
+"editable""0"
+}
+}
