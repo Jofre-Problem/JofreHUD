@@ -421,7 +421,7 @@
 
 		Command					"nextpage"
 		
-		sound_released		"UI/drum_selected.wav"
+	//	sound_released		"UI/drum_selected.wav"
 		
 		defaultFgColor_override			"W_ColorTheme2"
 		armedFgColor_override			"W_BorderArmed"

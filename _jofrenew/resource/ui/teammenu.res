@@ -37,7 +37,7 @@
 		Command				"jointeam blue"
 		labelText		  		""			
 		
-		sound_depressed			"UI/deck_ui_positive_confirmation.wav"
+		sound_depressed			"UI/buttonclick.wav"
 		sound_released			""
 		sound_armed				"UI/deck_ui_navigation.wav"
 		
@@ -161,7 +161,7 @@
 		Command				"jointeam red"
 		labelText		  		""			
 		
-		sound_depressed			"UI/deck_ui_positive_confirmation.wav"
+		sound_depressed			"UI/buttonclick.wav"
 		sound_released			""
 		sound_armed				"UI/deck_ui_navigation.wav"
 		

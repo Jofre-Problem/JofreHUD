@@ -20,22 +20,4 @@
 	"tall""32"
 	}
 	}
-	
-			"SteamSummerBorder"
-			{
-			"ControlName""ImagePanel"
-			"fieldName""SteamSummerBorder"
-			"xpos""4"  //-5
-			"ypos""3" //-5
-			"zpos""110"
-			"wide""38"  //+10
-			"tall""36"  //+12
-			"visible""1"
-			"enabled""1"
-			"scaleImage""1"
-			"image""replay/thumbnails/null"
-			"fgcolor""TanDark"
-			"mouseinputenabled"	"0"
-			"pin_to_sibling"	"noline"
-			}
 }

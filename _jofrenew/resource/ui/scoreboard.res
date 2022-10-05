@@ -7,19 +7,19 @@
 //#base "../ui_overrides/ui/summersale_border.res"
 "Resource/UI/Scoreboard.res"
 {
-		"SummerBorder"
-		{
-		"xpos""cs-0.5"
-		"ypos""45-20"
-		"wide"	"40"
-		"tall"	"o1"
+	//	"SummerBorder"
+	//	{
+	//	"xpos""cs-0.5"
+	//	"ypos""45-20"
+	//	"wide"	"40"
+	//	"tall"	"o1"
 			//"pin_to_sibling"	"PartySlot0"
 				//cant pin
-		if_mvm
-		{
-			"visible"		"0"
-		}				
-		}	
+	//	if_mvm
+	//	{
+	//		"visible"		"0"
+	//	}				
+	//	}	
 		
 	"Removeline"
 	{
@@ -30,6 +30,7 @@
 			zpos					100
 			wide					32
 			tall					31
+			"border"		"Rice1"
 		bgcolor_override				"blank"
 		mouseInputEnabled			0
 		if_mvm

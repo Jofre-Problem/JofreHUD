@@ -1,5 +1,5 @@
 #base "../../ui_overrides/full-timer/file.res"
-#base "../../ui_overrides/summer-border/file.res"
+//#base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
 #base "../ui3/keybindings.res"
 #base "../uni_base/cexlabel/tf2.res"
@@ -13,13 +13,13 @@
 	{
 		"xpos"			"rs1-120"
 	}	
-		"SummerBorder"
-		{ 
-		"xpos""cs-0.5"
-		"ypos""45"
+	//	"SummerBorder"
+	//	{ 
+	//	"xpos""cs-0.5"
+	//	"ypos""45"
 			//"pin_to_sibling"	"PartySlot0"
 				//cant pin
-		}	
+	//	}	
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -36,8 +36,9 @@
 			ypos					50
 			zpos					100
 			wide					42
-			tall					41
+			tall					40
 		bgcolor_override				"blank"
+		"border"		"Rice1"
 		mouseInputEnabled			0
 
 		"PartySlot0"  // player
