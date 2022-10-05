@@ -33,7 +33,7 @@
 			"visible""1"
 			"enabled""1"
 			"scaleImage""1"
-			"image""replay/thumbnails/steam_summersale/s_border_orange"
+			"image""replay/thumbnails/null"
 			"fgcolor""TanDark"
 			"mouseinputenabled"	"0"
 			"pin_to_sibling"	"noline"
