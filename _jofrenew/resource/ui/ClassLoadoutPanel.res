@@ -5,19 +5,17 @@
 //#base "../ui2/gif_tank.res"
 #base "../uni_base/cexlabel/1.res"
 #base "../uni_base/cexlabel/2.res"
+#base "../ui3/menu_multiple.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
-		"MMBackgroundPanel"
+	"MMBackgroundPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MMBackgroundPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-19"
 		"wide"			"f0"
+		"zpos"			"-8"
 		"tall"			"f0"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		}
 	"testg"
 	{

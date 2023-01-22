@@ -18,6 +18,7 @@
 		"tall"      "24"
 		"zpos"		"100"
 		"fgcolor_override"	"W_ColorIcons1"//"W_ColorTheme4"	
+	"bgcolor_override"	"blank"
 	}
 	"InfoLabel"
 	{

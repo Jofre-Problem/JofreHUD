@@ -6,90 +6,27 @@
 		"fieldName"		"BuildingStatusItem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"147"
+		"wide"			"150"
 		"tall"			"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
-	
-	"Background"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"31"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
-	}
-	
-	"BuildBGSentry"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildBGSentry"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"117"
-		"tall"			"29"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
-	}
-	
+
 	"Icon_Teleport_Entrance"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"Icon_Teleport_Entrance"
-		"xpos"			"12"
-		"ypos"			"3"
-		"wide"			"23"
-		"tall"			"23"
+		"fieldName"		"Icon"
+		"xpos"			"11"
+		"ypos"			"1"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
-	
-	"NotBuiltPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"117"
-		"tall"			"30"
-		"visible"		"1"
 
-		"NotBuiltLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NotBuiltLabel"
-			"font"			"TimepanelInfo"
-			"xpos"			"14"
-			"ypos"			"0"
-			"wide"			"117"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Not Built"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
-	}
-	
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -104,192 +41,162 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"36"
-			"ypos"			"4"
+			"xpos"			"41"
+			"ypos"			"16"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"Red"
 		}
 
 		"Icon_Upgrade_2"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"36"
-			"ypos"			"4"
+			"xpos"			"41"
+			"ypos"			"16"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"Yellow"
 		}
 
 		"Icon_Upgrade_3"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"36"
-			"ypos"			"4"
+			"xpos"			"41"
+			"ypos"			"16"
 			"zpos"			"1"
-			"wide"			"8"
-			"tall"			"8"
+			"wide"			"10"
+			"tall"			"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"Blue"
 		}
-
 
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"113"
-			"ypos"			"0"
-			"wide"			"34"
-			"tall"			"31"
-			"visible"		"0"
-			"enabled"		"1"	
+			"xpos"			"6"
+			"ypos"			"r3"
+			"wide"			"38"
+			"tall"			"1"
+			"visible"		"1"
+			"enabled"		"1"
 			"icon"			"obj_status_alert_background"
+			"proportionaltoparent"		"1"
 		}
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"117"
-			"ypos"			"0"
+			"xpos"			"95"
+			"ypos"			"6"
 			"zpos"			"1"
-			"wide"			"29"
-			"tall"			"29"
+			"wide"			"19"
+			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
-			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
-			"bgcolor_override"	"205 50 50 160"
+			"scaleImage"	"1"
+			"icon"			"ico_metal"
+			"iconColor"		"Red"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"0"
+			"xpos"			"90"
+			"ypos"			"-1"
 			"zpos"			"1"
-			"wide"			"29"
-			"tall"			"29"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
-			"bgcolor_override"	"205 50 50 160"
+			"iconColor"		"Red"
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"4"
-			"ypos"			"3"
-			"wide"			"7"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"xpos"			"0"
+			"ypos"			"1"
+			"wide"			"8"
+			"tall"			"27"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"bgcolor_override"		"TransparentGrayDarkest"
 		}
 
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"36"
+			"xpos"			"42"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"60"
+			"tall"			"31"
 			"visible"		"0"
 
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Size 8"
 				"xpos"			"0"
-				"ypos"			"18"
+				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
-				"xpos"			"2"
-				"ypos"			"3"
-				"wide"			"75"
-				"tall"			"23"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"xpos"			"0"
+				"ypos"			"17"
+				"wide"			"50"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"fgcolor_override"	"ProgressOffWhite"
-				"bgcolor_override"	"50 50 50 255"
+				"bgcolor_override"		"TransparentGrayDarkest"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"36"
+			"xpos"			"42"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
-			"TeleportedIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TeleportedIcon"
-				"xpos"			"11"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"8"
-				"tall"			"8"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"../hud/hud_obj_status_teleport_64"
-				"drawcolor"		"ProgressOffWhite"
-				"scaleImage"	"1"
-			}
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -299,91 +206,121 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"Recharge"
-				{	
+				{
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
-					"xpos"			"21"
+					"xpos"			"0"
 					"ypos"			"6"
-					"wide"			"56"
-					"tall"			"6"
-					"autoResize"	"0"
-					"pinCorner"		"0"
+					"wide"			"50"
+					"tall"			"8"
 					"visible"		"1"
 					"enabled"		"1"
 					"textAlignment"	"Left"
-					"dulltext"		"0"
-					"brighttext"	"0"
-					"bgcolor_override"	"50 50 50 255"
-				}	
+					"bgcolor_override"		"TransparentGrayDarkest"
+				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"FullyChargedPanel"
-				"xpos"			"11"
+				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"NotoBold10"
-					"xpos"			"11"
-					"ypos"			"4"
+					"font"			"Size 10"
+					"xpos"			"1"
+					"ypos"			"0"
 					"wide"			"200"
-					"tall"			"25"
-					"autoResize"	"0"
-					"pinCorner"		"0"
+					"tall"			"8"
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"%timesused%"
-					"textAlignment"	"north-west"
-					"dulltext"		"0"
-					"brighttext"	"0"
+					"textAlignment"	"west"
+					"fgcolor"		"White"
+					"auto_wide_tocontents"		"1"
+
+					"pin_to_sibling"		"TimesUsedLabelLabel"
+					"pin_corner_to_sibling"		"7"
+					"pin_to_sibling_corner"		"5"
+				}
+
+				"TimesUsedLabelLabel"
+				{
+					"ControlName"		"CExLabel"
+					"fieldName"		"TimesUsedLabelLabel"
+					"font"		"Size 10"
+					"xpos"		"0"
+					"ypos"		"6"
+					"zpos"		"1"
+					"wide"		"20"
+					"tall"		"8"
+					"visible"		"1"
+					"enabled"		"1"
+					"labelText"		"TELES:"
+					"textAlignment"		"west"
+					"fgcolor"		"White"
+					"auto_wide_tocontents"		"1"
 				}
 			}
-			
+
+			"Upgrade"
+			{
+				"ControlName"	"ContinuousProgressBar"
+				"fieldName"		"Upgrade"
+				"font"			"Default"
+				"xpos"			"12"
+				"ypos"			"17"
+				"wide"			"38"
+				"tall"			"8"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"Left"
+				"bgcolor_override"		"TransparentGrayDarkest"
+			}
+
+			"TeleportedIcon"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"TeleportedIcon"
+				"xpos"			"9999"
+				"wide"			"0"
+				"enabled"		"0"
+			}
 			"UpgradeIcon"
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
-				"xpos"			"11"
-				"ypos"			"17"
-				"zpos"			"1"
-				"wide"			"8"
-				"tall"			"8"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"	
-				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
-			}
-			
-			"Upgrade"
-			{	
-				"ControlName"	"ContinuousProgressBar"
-				"fieldName"		"Upgrade"
-				"font"			"Default"
-				"xpos"			"21"
-				"ypos"			"18"
-				"wide"			"56"
-				"tall"			"6"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"bgcolor_override"	"50 50 50 255"
+				"xpos"			"9999"
+				"wide"			"0"
+				"enabled"		"0"
 			}
 		}
+	}
+
+	"Background"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Background"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
+	"NotBuiltPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NotBuiltPanel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
 	}
 }

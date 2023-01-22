@@ -1,5 +1,6 @@
 //#base "../../uni_base/panel/1.res"
-//#base "../ui3/blue-light.res"
+
+//#base "hudplayerclass_alt.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"
@@ -7,7 +8,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
-		"ypos"			"rs1"
+		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
@@ -15,8 +16,6 @@
 		//"enabled"		"1"		
 	}
 			
-
-
 			
 	"PlayerStatusClassImage"
 	{

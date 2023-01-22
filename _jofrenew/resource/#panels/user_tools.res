@@ -1,4 +1,4 @@
-#base "../ui2/multiple-bg.res"
+//#base "../ui2/multiple-bg.res"
 //ccvar slider doesnt exist here
 "Resource/NewGameDialog.res"	
 {

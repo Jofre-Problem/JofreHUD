@@ -1,128 +1,161 @@
 "Resource/UI/ItemModelPanel.res"
 {
-"itemmodelpanel"
-{
-"ControlName""CEmbeddedItemModelPanel"
-"fieldName""itemmodelpanel"
+	"DisguiseStatusBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"DisguiseStatusBG"
+		"xpos"			"cs-0.5"
+		"ypos"			"8"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"	 		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/black"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/panels/black"
+		"teambg_2"		"replay/thumbnails/panels/red"
+		"teambg_3"		"replay/thumbnails/panels/blue"
+		"alpha"		"180"
+	}
 
+	"Disguising"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"Disguising"
+		"font"			"Size 10"
+		"xpos"			"0"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"Disguising..."
+		"textAlignment"		"center"
+		"fgcolor_override"		"White"
 
+		"pin_to_sibling"		"DisguiseStatusBG"
+		"pin_to_sibling_corner"		"4"
+		"pin_corner_to_sibling"		"6"
+	}
 
-"zpos""1"
-"wide""100"
-"tall""100"
+	"DisguisingShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"DisguisingShadow"
+		"font"			"Size 10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"60"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"Disguising..."
+		"textAlignment"		"center"
+		"fgcolor_override"		"Shadow"
 
+		"pin_to_sibling"		"Disguising"
+	}
 
-//"visible""1"
+	"DisguiseNameLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"DisguiseNameLabel"
+		"font"			"Size 12"
+		"xpos"			"0"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"center"
+		"fgcolor_override"		"White"
 
-"useparentbg""1"
+		"pin_to_sibling"		"DisguiseStatusBG"
+		"pin_to_sibling_corner"		"6"
+		"pin_corner_to_sibling"		"4"
+	}
 
-"fov""54"
-"start_framed""1"
+	"DisguiseNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"DisguiseNameLabelShadow"
+		"font"			"Size 12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Shadow"
 
-"disable_manipulation""1"
+		"pin_to_sibling"		"DisguiseNameLabel"
+	}
 
-"model"
-{
-"angles_x""10"
-"angles_y""130"
-//"angles_z""0"
-}
-}
-"DisguiseStatusBG"
-{
-"ControlName""CTFImagePanel"
-"fieldName""DisguiseStatusBG"
-"xpos""10"
-//////"xpos_minmode""10"
-"ypos""30"
-////"ypos_minmode""48"
-"zpos""-1"
-"wide""200"
-//////"wide_minmode""140"
-"tall" "32"
-//////"tall_minmode" "22"
+	"WeaponNameLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"WeaponNameLabel"
+		"font"			"Size 10"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"north"
+		"centerwrap"			"1"
+		"fgcolor_override"		"White"
 
+		"pin_to_sibling"		"DisguiseNameLabel"
+		"pin_to_sibling_corner"		"6"
+		"pin_corner_to_sibling"		"4"
+	}
 
-//"visible""1"
+	"WeaponNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"WeaponNameLabelShadow"
+		"font"			"Size 10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"2"
+		"wide"			"90"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"north"
+		"centerwrap"			"1"
+		"fgcolor_override"		"Shadow"
 
-"image""../hud/color_panel_brown"
-"scaleImage""1"
-"teambg_1""../hud/color_panel_brown"
-"teambg_2""../hud/color_panel_red"
-//"teambg_2_lodef""../hud/color_panel_red"
-"teambg_3""../hud/color_panel_blu"
-//"teambg_3_lodef""../hud/color_panel_blu"
+		"pin_to_sibling"		"WeaponNameLabel"
+	}
 
-"src_corner_height""23"// pixels inside the image
-"src_corner_width""23"
-
-"draw_corner_width""5"// screen size of the corners ( and sides ), proportional
-"draw_corner_height" "5"
-}
-
-"DisguiseNameLabel"
-{
-"ControlName""Label"
-"fieldName""DisguiseNameLabel"
-"font""HudFontMediumSmallSecondary"
-//////"font_minmode""TFFontMedium"
-"xpos""52"
-//////"xpos_minmode""34"
-"ypos""31"
-////"ypos_minmode""51"
-"zpos""1"
-"wide""110"
-"tall""24"
-
-
-//"visible""1"
-
-"labelText""%disguisename%"
-"textAlignment""North-West"
-////"dulltext""0"
-////"brighttext""0"
-}
-
-"WeaponNameLabel"
-{
-"ControlName""Label"
-"fieldName""WeaponNameLabel"
-"font""HUDFontSmall"
-//////"font_minmode""TFFontMedium"
-"xpos""52"
-//////"xpos_minmode""34"
-"ypos""45"
-////"ypos_minmode""58"
-"zpos""1"
-"wide""110"
-"tall""24"
-
-
-//"visible""1"
-
-"labelText""%weaponname%"
-"textAlignment""North-West"
-////"dulltext""0"
-////"brighttext""0"
-}
-
-"SpectatorGUIHealth"
-{
-"ControlName""EditablePanel"
-"fieldName""SpectatorGUIHealth"
-"xpos""20"
-//////"xpos_minmode""10"
-"ypos""30"
-////"ypos_minmode""45"
-"wide""32"
-"tall""32"
-//"visible""1"
-
-"HealthBonusPosAdj""10"
-"HealthDeathWarning""0.49"
-"TFFont""HudFontSmall"
-"HealthDeathWarningColor""HUDDeathWarning"
-"TextColor""HudOffWhite"
-}
-
+	"SpectatorGUIHealth"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"SpectatorGUIHealth"
+		"xpos"			"cs-0.5-110"
+		"ypos"			"31"
+		"wide"			"36"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"0"
+		"HealthBonusPosAdj"	"0"
+		"HealthDeathWarning"	"0.49"
+		"TFFont"		"Size 16"
+		"textAlignment"		"center"
+		"HealthDeathWarningColor"	"Low Health"
+		"TextColor"		"GrayDarkest"
+	}
 }

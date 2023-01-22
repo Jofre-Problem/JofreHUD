@@ -29,14 +29,62 @@
 		"ypos"			"325"	
 		//"ypos_minmode""325+28"
 		"zpos"			"0"
-		"wide"			"124"
-		"tall"			"36" //36
+		"wide"			"124"//"124"
+		"tall"			"36"//"36" //36
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarning"	"1.0"
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"		"34"
+		"ypos"		"-34"
+		"zpos"		"2"
+		"wide"		"1"
+		"tall"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/panels/blank"
+		"scaleImage"		"1"
+	}	
+	"HealthBarOverheal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthBarOverheal"
+		"xpos"		"0"
+		"ypos"		"-35-34-37+p0.003"
+		"zpos"		"700"
+		"wide"		"200"
+		"tall"		"38"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/hp/modulate_purple"
+		"scaleimage"	"1"
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"4"
+	}	
+	"HealthBarLowHealth"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthBarLowHealth"
+		"xpos"		"104"
+		"ypos"		"35-p0.003"
+		"zpos"		"700"
+		"wide"		"200"
+		"tall"		"36"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"		"replay/thumbnails/hp/modulate_orange"
+		"scaleimage"	"1"
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
+	}		
 	"image1"
 	{
 		"xpos"			"2"
@@ -57,59 +105,30 @@
 		"xpos"			"-45"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"123"
-		"tall"		"34"
-	}
-	"PlayerStatusHealthAdditive"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthAdditive"
-		"xpos"			"-45"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"123"
-		"tall"		"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/health_color_additive"
-		"scaleImage"	"1"	
-		"alpha"			"110"
-	}
-	"PlayerStatusHealthAdditiveBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthAdditiveBG"
-		"xpos"			"-45"
-		"ypos"			"0"
-		"zpos"			"4"
 		"wide"			"0"
 		"tall"		"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/health_color_bg"
-		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthAdditiveBGover"
+	"ProgressBar10"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthAdditiveBGover"
-		"xpos"			"-45"
+			"ControlName""ContinuousProgressBar"
+		"fieldName""ProgressBar10"
+			"zpos"			"7"
+				
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"	
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"0"
+		
+		"wide"			"34"
 		"tall"		"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/health_color_bg2"
-		"scaleImage"	"1"	
-		"alpha"			"100"
+		"variable"		"health"
 	}		
 		"FixForHP"
 		{
 		"xpos""0"
 		"ypos""0-p.001"
 		"zpos""8"
-		"wide""420"
+		"wide""124"
 		"tall""36"
 	}	
 	"ProgressBar1"
@@ -147,10 +166,7 @@
 		"bgcolor_override"		"0 0 0 0"
 	}
 
-	"PlayerStatusHealthBonusImage"
-	{
-		"xpos"			"9990"
-	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -165,83 +181,7 @@
 		"labelText"		"#healthpadded"
 		"textAlignment"	"center"	
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"35 35 35 255"
-	}
-
-	"PlayerStatusHealthValueLowester"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueLowester"
-//		"xpos"			"-139"//-326
-		"ypos"			"0"
-		"zpos"			"200"
-		"textinsetx"		"-28" [$LINUX]
-		"wide"			"1"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#3health"
-		"textAlignment"	"left"	
-		"font"			"1HealthPusherFont"
-		"fgcolor"		"10 255 0 200"
-		"alpha" 		"0"
-		"auto_wide_tocontents" "1"
-	}
-	"PlayerStatusHealthValueLowestImage3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"PlayerStatusHealthValueLowestImage3"
-		"xpos"			"34"
-		"ypos"			"0"
-		"zpos"			"199"
-		"wide"			"95"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"0 0 0 40"
-		"additive"		"1"
-		
-		"pin_to_sibling" 	"PlayerStatusHealthValueLowester"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-	}
-	"PlayerStatusHealthValueLowestImage2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"PlayerStatusHealthValueLowestImage2"
-		"xpos"			"34"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"95"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor" 	"255 0 0 255"
-		"additive"		"1"
-		
-		"pin_to_sibling" 	"PlayerStatusHealthValueLowester"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
-	}
-	"PlayerStatusHealthValueLowestImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"PlayerStatusHealthValueLowestImage"
-		"xpos"			"34"
-		"ypos"			"0"
-		"zpos"			"205"
-		"wide"			"95"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image" 		"replay/thumbnails/hp/medical_flatline_not_the_hud_guy_add"
-		"scaleimage"	"1"
-		"alpha"			"255"
-		"additive"		"1"
-		
-		"pin_to_sibling" 	"PlayerStatusHealthValueLowester"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+		"fgcolor"		"245 245 245 255"
 	}
 
 	"image2" //bad position of image -- pain

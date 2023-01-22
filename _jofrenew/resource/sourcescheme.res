@@ -32,7 +32,7 @@ Scheme
 	}	
 	BaseSettings	{
 		"FrameTitleBar.Font"		"Blank"	
-		ProgressBar.BgColor				"W_ColorTheme3"
+		ProgressBar.BgColor				"20 21 23 255"
 		ScrollBarSlider.FgColor								"W_ColorIcons1"
 		ScrollBarSlider.BgColor								"blank"
 		ScrollBar.Wide					"60"//"70"//"10"
@@ -386,51 +386,16 @@ Scheme
 	}	
   Borders
         {	
-        FrameBorder
+        FrameBorder 
         {
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 0"
-				}
-			}			
-					//	"bordertype"			"scalable_image"
-		//	"backgroundtype"		"2"		
-		//	"image"					"replay/thumbnails/noto_apple2"
-		//	"src_corner_height"		"32"				// pixels inside the image
-		//	"src_corner_width"		"32"
-		//	"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		//	"draw_corner_height" 	"0"	
+		
+						"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			"image"				"replay/thumbnails/noto_apple2"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
         }	
        testing
         {

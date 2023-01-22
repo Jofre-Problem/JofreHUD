@@ -169,7 +169,7 @@
 		"fieldName"		"TeamColoredAmmoTextBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
+		"wide"			"124"
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
@@ -193,6 +193,7 @@
 		"scaleImage"		"1"	
 //		"teambg_2"		"replay/thumbnails/hp/redteam2"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+"pin_to_sibling"	"AmmoAnchor"
 	}
 	"LowAmmoTextBG"
 	{

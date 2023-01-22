@@ -1,10 +1,10 @@
 //#base "../#jofre/downbar.res"
 //#base "../#jofre/blur_bg.res"
 //#base "../#jofre/charbg.res"
-#base "../ui2/testgradient.res"
 //#base "../ui2/polybg.res"
 //#base "../ui2/tank.res"
 //#base "../ui2/multiple-bg.res"
+#base "../ui3/menu_multiple.res"
 #base "../../ui_overrides/full-timer/file.res"
 "Resource/UI/CharInfoPanel.res"
 {

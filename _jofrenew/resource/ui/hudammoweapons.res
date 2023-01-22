@@ -22,11 +22,51 @@
 {
 	"HudWeaponAmmoBG"
 	{
+		"xpos"	"999"
 		"wide"			"0"
 	}
+	"AmmoAnchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"AmmoAnchor"
+		"xpos"		"c106"
+		"ypos"		"325"
+		"wide"		"124"
+		"tall"		"36"
+		"bgcolor_override"	"0 0 0 125"
+		"visible"		"1"
+	}	
+	"cover1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"cover1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"17"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"245 245 245 255"
+					"pin_to_sibling"	"AmmoAnchor"
+	}
+	"cover2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"cover2"
+		"xpos"			"-71"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"17"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"245 245 245 255"
+					"pin_to_sibling"	"AmmoAnchor"
+	}		
 	"1_progress"
 	{
-		"xpos"			"90"
+		"xpos"			"-90"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"35"
@@ -34,33 +74,38 @@
 		"variable"		"ammo"
 		"fg_image"		"replay/thumbnails/hp/cover"
 		"bg_image"		"replay/thumbnails/null"
+				"pin_to_sibling"	"AmmoAnchor"
 	}	
 		"FixForHP"
 		{
 		"xpos""0"
-		"ypos""34"
+		"ypos""-34"
 		"zpos""9999"
 		"wide""85"
 		"tall""2"
+		"pin_to_sibling"	"AmmoAnchor"
 	//	"alpha""50"
 	}		
 	"ProgressBar1"
 	{
 		"xpos"			"0"
-		"ypos"			"34"
-		"wide"			"270"
+		"ypos"			"-34"
+		"wide"			"64"
 		"variable"		"ammo"
+		"pin_to_sibling"	"AmmoAnchor"
 	}			
 	"ProgressBar1a"
 	{
-		"xpos"			"88"
+		"xpos"			"-88"
 		"zpos"			"100"
-		"ypos"			"34"
+		"ypos"			"-34"
 		"wide"			"38"
 		"variable"		"AmmoInReserve"
+		"pin_to_sibling"	"AmmoAnchor"
 	}	
 	"HudWeaponLowAmmoImage"
 	{
+		"xpos"	"999"
 		"wide"			"0"		
 	}
 	"AmmoInClip"
@@ -68,7 +113,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"35 35 35 255"
+		"fgcolor"		"245 245 245 255"
 		"xpos"			"-2417"
 		"ypos"			"-5"
 		"zpos"			"5"
@@ -77,7 +122,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"labelText"		""	
+		"labelText"		""
 	}
 		
 	"AmmoInClipShadow"
@@ -85,7 +130,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"AmmoBar"
-		"fgcolor"		"7 7 7 255"
+		"fgcolor"		"7 7 7 255" 
 		"xpos"			"-32"
 		"ypos"			"0"
 		"zpos"			"7"
@@ -102,7 +147,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"AmmoReserve2"
 		"fgcolor"		"236 240 241 255"
-		"xpos"			"88"
+		"xpos"			"-88"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"38"
@@ -111,23 +156,24 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"LowAmmoFont"
-		"fgcolor"		"35 35 35 255"
+		"fgcolor"		"245 245 245 255"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"190"
-		"tall"			"34"	[$WINDOWS]
-		"tall"			"0"	[$LINUX]
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoAnchor"
 	}	
 //	"AmmoInReserveShadow"
 //	{
@@ -152,7 +198,7 @@
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"255 127 0 255"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"85"
 		"tall"			"34"
@@ -161,6 +207,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"---"	
 		"alpha"			"0"
+		"pin_to_sibling"	"AmmoAnchor"
 	}	
 	"AmmoNoClipShadow"
 	{
@@ -168,10 +215,10 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"UberCheckmark"
 		"fgcolor"		"236 240 241 255"
-		"xpos"			"88"	[$WINDOWS]
-		"ypos"			"-5"	[$WINDOWS]
-		"xpos"			"86"	[$LINUX]
-		"ypos"			"-19"	[$LINUX]		
+		"xpos"			"-88"	[$WINDOWS]
+		"ypos"			"5"	[$WINDOWS]
+		"xpos"			"-86"	[$LINUX]
+		"ypos"			"19"	[$LINUX]		
 		"zpos"			"10"
 		"wide"			"37"
 		"tall"			"35"	[$WINDOWS]
@@ -180,44 +227,49 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"b"	
+				"pin_to_sibling"	"AmmoAnchor"
 	}			
 	
 	
 	
 	"TeamColoredAmmoTextBG"
 	{
-		"wide"			"150"
+		"wide"			"124"
 		"tall"			"34"
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"LowAmmoTextBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LowAmmoTextBG"
-		"xpos"			"86"
+		"xpos"			"-86"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"50"
+		"wide"			"38"
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"			"255 127 0 255"
 		"alpha"			"0"
+		"pin_to_sibling"	"AmmoAnchor"
+	
 	}
 	"AmmoEverywhereDude"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDude"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"35 35 35 255"
-		"xpos"			"-2457"
-		"ypos"			"-5"
+		"fgcolor"		"245 245 245 255"
+		"xpos"			"58"
+		"ypos"			"5"
 		"zpos"			"5"
-		"wide"			"5000"
+		"wide"			"200"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"#ammopadded"	
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoEverywhereDudeS1"
 	{
@@ -229,8 +281,7 @@
 		"ypos"			"-5"
 		"zpos"			"6"
 		"wide"			"5000"
-		"tall"			"40" [$WINDOWS]
-		"tall"			"0" [$LINUX]
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
@@ -241,7 +292,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeDoubleLow"
 		"font"			"LowestAmmoFont"
-		"fgcolor"		"235 35 35 255"
+		"fgcolor"		"245 245 245 255"
 //		"xpos"			"-60"//-80
 		"ypos"			"0"
 		"zpos"			"4"
@@ -252,6 +303,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"#doubleammo"
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoEverywhereDudeLow" //meaning clip at 0
 	// TALL WAS 0 FOR NO REASON
@@ -259,11 +311,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeLow"
-		"xpos"			"-7"
-		"ypos"			"-2"
+		"xpos"			"7"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"100"
-		"tall"			"35"[$WINDOWS]
+		"tall"			"33"[$WINDOWS]
 		"tall"			"0"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
@@ -271,18 +323,35 @@
 		"textAlignment"	"west"	
 		"font"			"LowAmmoFont"
 		"fgcolor"		"255 127 0 255"
+				"pin_to_sibling"	"AmmoAnchor"
 	}
+	"CustomScopeCharge"
+	{
+		"controlName"	"ImagePanel"
+		"fieldName"	"CustomScopeCharge"
+		"xpos"		"41"
+		"ypos"		"108"
+		"wide"		"64"
+		"tall"		"64"
+		"visible"	"1"
+		"image"		"../vgui/replay/thumbnails/sniper_charge/sniperscope_numbers"
+		"scaleimage"	"1"
 
+		"pin_to_sibling"	"AmmoNoClip"
+	}
 	"image3"
 	{
-		"xpos"			"85"
+		"xpos"			"-85"
 		"ypos"			"0"
 		"zpos"			"7000"
 		"wide"			"5"
 		"tall"			"36"
+				"pin_to_sibling"	"AmmoAnchor"
 	}
 	"BarShadow"
 	{
-		"wide"			"150"
+		"ypos"	"-34"
+				"pin_to_sibling"	"AmmoAnchor"
+		"wide"			"124"
 	}						
 }

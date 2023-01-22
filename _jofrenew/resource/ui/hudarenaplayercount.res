@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-55"
+		"xpos"			"cs-1.0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"35"
 		"tall"			"23"
 		"visible"		"1"
 	
@@ -18,7 +18,7 @@
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"45"
+			"wide"			"35"
 			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"BluProgress"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"p1" 
@@ -53,27 +53,28 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"30"
+			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
 			"font"			"Killfeed"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"fgcolor"		"NotoWhite"
 		}	
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"30"
-			"ypos"			"2"
-			"zpos"			"2"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"19"
 			"font"			"KillfeedBlur"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			"pin_to_sibling"	"count"
 		}
 		
 		"playerimage"
@@ -84,7 +85,7 @@
 			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"7"
-			"tall"			"14"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
@@ -96,7 +97,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-5"
+		"xpos"			"c0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
@@ -106,7 +107,7 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"RedProgress"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"154" //due to max players being 32, value is different
@@ -121,10 +122,10 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"45"
+			"wide"			"35"
 			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -138,11 +139,23 @@
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
+			"xpos"			"0"
+			"ypos"			"2"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"19"
+			"font"			"Killfeed"
+			"textAlignment"	"center"
+			"fgcolor"		"Notowhite"
+		}			
+		"countfalse"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"countfalse"
 			"xpos"			"30"
 			"ypos"			"2"
 			"zpos"			"2"
@@ -150,7 +163,7 @@
 			"tall"			"19"
 			"font"			"Killfeed"
 			"textAlignment"	"center"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"blank"
 			"auto_wide_tocontents"	"1"
 		}	
 		"alert"
@@ -167,7 +180,7 @@
 			"labelText"	"!"
 			"fgcolor"		"Black"
 			"bgcolor_override"	"255 255 0 255"
-			"pin_to_sibling"	"count"
+			"pin_to_sibling"	"countfalse"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
@@ -175,14 +188,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"30"
-			"ypos"			"2"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"30"
+			"wide"			"35"
 			"tall"			"19"
 			"font"			"KillfeedBlur"
-			"textAlignment"	"west"
+			"textAlignment"	"center"
 			"fgcolor"		"Black"
+			"pin_to_sibling"	"count"
 		}
 	
 		"playerimage"
@@ -193,7 +207,7 @@
 			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"7"
-			"tall"			"14"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"capture_icon_white"

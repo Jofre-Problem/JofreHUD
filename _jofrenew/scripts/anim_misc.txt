@@ -13,7 +13,7 @@ event MenuOpen
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
 	Animate HudMenu ItemColor		"ItemColor"	Linear 0.05 0.1
 	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
-
+	SetVisible hudplayerhealth 1 0.0	
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
 	PlaySound 0 "ui/deck_ui_slider_up.wav"
@@ -28,6 +28,7 @@ event ScoreboardAlpha
 {
 	Animate scores alpha "0" linear 0.0 0.0
 	Animate scores alpha "255" accel 0.0 0.22
+	
 }
 event MenuClose
 {	
@@ -132,4 +133,26 @@ event FlashDamageaccountDrop
 event FlashDamageaccountDropLoop
 {
 	RunEvent FlashDamageaccountDrop 0.0
+}
+
+event TeamStatus_PlayerDead
+{
+SetVisible DeathPanel1 0
+SetVisible SkullPanel1 0
+SetVisible respawntime1 0
+
+Animate DeathPanel ypos 0 Accel 0 0.2
+Animate SkullPanel ypos 0 Accel 0 0.2
+Animate respawntime ypos 0 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+
+	SetVisible DeathPanel0 0.2
+	SetVisible SkullPanel0 0.2
+	SetVisible respawntime 0 0.2
 }

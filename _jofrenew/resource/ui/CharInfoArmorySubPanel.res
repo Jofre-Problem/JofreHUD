@@ -2,19 +2,12 @@
 //#base "../#jofre/char_tank.res"
 //#base "../#jofre/charbg.res"
 //#base "../ui2/tank.res"
-#base "../ui2/testgradient.res"
-
+//#base "../ui2/testgradient.res"
+#base "../ui3/menu_multiple.res"
 //#base "../ui2/multiple-bg.res"
 "Resource/UI/CharInfoPanel.res"
 {
-	"MMBackgroundPanel"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-19"
-		"wide"			"f0"
-		"tall"			"f0"
-		}	
+
 	"armory_panel"
 	{
 		ControlName				Frame

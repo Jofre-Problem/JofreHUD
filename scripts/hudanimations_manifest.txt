@@ -1,7 +1,9 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
+"file"		"_jofrenew/scripts/hudanimations_null.txt"
 	"file"		"_jofrenew/scripts/hudanimations.txt"
+
 
 	"file"		"_jofrenew/scripts/anim_misc.txt"
 	"file"		"_jofrenew/scripts/ammo/file.txt"

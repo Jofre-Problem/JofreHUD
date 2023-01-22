@@ -20,7 +20,7 @@ Scheme
 
 		"W_ColorTheme1"	"17 17 17 155"
 		"W_ColorTheme2"	"7 7 7 150"//248
-		"W_ColorTheme3"	"16 11 16 255"
+		"W_ColorTheme3"	"20 21 23 255"
 		"W_ColorLinea1"		"27 27 27 170"//170
 		"W_ColorIcons1"	"211 215 225 255"
 		"W_ColorIcons2"	"220 238 255 255"

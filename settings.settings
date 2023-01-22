@@ -21,12 +21,12 @@ EXPERIMENTAL Square Shadows|OFF
 Damage Indicator|Stock
 System Tray Icon|Rainbow Box
 Server Plugin Font|Default
-Transparent Viewmodels|Off
-Remove Scope|Off
+Transparent Viewmodels|On
+Remove Scope|On
 No Chat BG|Off
 Crosshair on scoreboard|Off
 Scoreboard Slide|Off
-Cart Glow|Off
+Cart Glow|On
 Resolution|1920x1980
 Net Graph Font|Calling Code
 Speed Bar Metter|Enabled

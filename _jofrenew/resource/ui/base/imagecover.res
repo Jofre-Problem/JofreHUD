@@ -11,7 +11,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
+		"fillcolor"		"245 245 245 255"
 	}
 	"cover2"
 	{
@@ -24,6 +24,6 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
+		"fillcolor"		"245 245 245 255"
 	}					
 }

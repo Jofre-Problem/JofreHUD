@@ -156,6 +156,40 @@ Scheme
 	}
 	Colors
 	{	
+		"Health"											"227 228 230 255"
+		"Buffed Health"										"92 173 255 255"
+		"Low Health"										"255 50 65 255"
+
+		"Ammo"												"227 228 230 255"
+		"Low Ammo"											"255 50 65 255"
+
+		"Heal Numbers"										"92 173 255 255"
+		"Last Damage Done"									"255 50 65 255"
+		"Medic Drop"										"245 220 60 255"
+
+		"Shadow"											"0 0 0 175"		
+		"MainTheme"											"60 140 255 255"
+
+		"WhiteLight"										"227 228 230 255"
+		"White"												"227 228 230 255"
+		"WhiteDark"											"172 173 175 255"
+		"WhiteGray"											"127 128 130 255"
+		"GrayLight"											"77 78 82 255"
+		"GrayMedium"										"62 63 66 255"
+		"GrayDark"											"46 47 51 255"
+		"GrayDarker"										"37 38 40 255"
+		"GrayDarkest"										"27 28 30 255"
+		"BlackLight"										"20 21 23 255"
+		"BlackDark"											"15 16 18 255"
+		"Black"												"0 0 0 255"
+		"TransparentBlack"									"0 0 0 150"
+		"TransparentLightBlack"								"0 0 0 100"
+		"TransparentGrayDarkest"							"27 28 30 200"
+		"TransparentWhite"									"227 228 230 150"		
+		"Red"												"255 50 65 255"
+		"Blue"												"92 173 255 255"
+		"Green"												"40 200 110 255"
+		"Yellow"											"245 220 60 255"		
 		"tf21"	"64 64 64 255"
 		"tf22"	"247 231 191 255"
 		"tf23"	"255 90 47 255"
@@ -290,6 +324,267 @@ Scheme
 	}	
 	Fonts
 	{
+	"Size 7"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"7"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 8"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"8"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 9 Lines"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"9"
+				"additive"	"0"
+				"antialias"	"0"
+			}
+		}
+		"Size 10"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 10 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 11"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"11"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 12"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 14"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"14"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 16"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 16 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 18 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"Size 20"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"20"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 24"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 24 Damage"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+		"Size 24 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}
+		"Size 28"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"28"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 30"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"30"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 40"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"40"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Size 44"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"44"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"Size 8 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"8"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 12 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"12"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 16 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 20 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"20"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 28 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"28"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"Size 44 Shadow"
+		{
+			"1"
+			{
+				"name"	"Renogare Soft XHud"
+				"tall"	"44"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}		
 		"blocks"
 		{
 			"1"
@@ -761,6 +1056,42 @@ Scheme
 	}
 	Borders
 	{	
+	ScrollBarButtonBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/mm/circle"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
+		ScrollBarButtonDepressedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/mm/circle_rgb"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}			 			
+        FrameBorder 
+        {
+		
+						"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			"image"					"replay/thumbnails/rainbow/red1"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+        }			
 		cleanup //scrollbar
 		{
 			"bordertype"			"scalable_image"
@@ -1368,6 +1699,16 @@ Scheme
 		{
 			"font" "_jofrenew/font/Blocks-Blocks.ttf"
 			"name" "blocks"
-		}						   		     		
+		}				
+		"106"
+		{
+			"font" "_jofrenew/font/Renogare Uber.ttf"
+			"name" "Renogare Uber"
+		}	
+		"107"
+		{
+			"font" "_jofrenew/font/Renogare XHud.ttf"
+			"name" "Renogare Soft XHud"
+		}							   		     		
 	}	
 }

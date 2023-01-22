@@ -13,6 +13,7 @@
 		"wide"					"246"
 		"tall"					"60"
 }
+
 	HudControlPointIcons
 	{
 		"xpos"					"0"
@@ -72,13 +73,13 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"c106"
+		"xpos"			"0"//"c106"
 		//"xpos_minmode""c106-62"
-		"ypos"			"325"
+		"ypos"			"0"//"325"
 		//"ypos_minmode""325+28"			
 		"zpos"			"0"
-		"wide"			"124"
-		"tall"			"36"
+		"wide"			"f0"//"124"
+		"tall"			"f0"//36"
 	}
 	HudMedicCharge
 	{
@@ -166,7 +167,7 @@
 		"xpos"	 "c64"
 		"ypos"	 "c-60"
 		"wide"	 "64"
-		"tall"	 "128"
+		"tall"	 "0"
 		"alpha" "1"
 	}
 	CDamageAccountPanel
@@ -203,48 +204,21 @@
 		"tall"	 	"50"
 		"priority"	"40"
 	}
-	"1_editable" // Icon Anchor to move Vaccinator Resistance
-	{
-		"xpos" 		"0"
-		"ypos"		"-1110"
-		"wide"		"f0"
-		"tall" 		"0"
-	}
+
 	CSpectatorTargetID
 	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"-555" //-550
-		"wide"	 	"252"
-		"tall"	 	"1035"
-		"priority"	"40"
-		
-		"x_offset" "0"
-		"y_offset" "0"
-		
-		"pin_to_sibling" 	"1_editable"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-
-		HudCrosshair
-		{
-			"ypos"			"0"	//needs to be - .5 pixel
-		}	
+		"ypos"		"c70"
+		"tall"	 	"31"
+		"tall_minmode"	"31"
 	}
-	
+
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"-165"
-		"wide"	 	"252"
-		"tall"	 	"550"
-		"priority"	"35"
-
+		"xpos"		"cs-0.5"
+		"ypos"		"c102"
+		"wide"	 	"f0"
+		"tall"	 	"31"
+		"tall_minmode"	"31"
 	}
 	
 	HudTournament
@@ -323,22 +297,29 @@
 	//	"pin_to_sibling"	"HudMenuEngyBuild"	 //HELL			
 	}
 	
-	BuildingStatus_Spy
+	"BuildingStatusAnchor"
 	{
-		"xpos"		"-8"
-		"ypos"		"0"	
-		"wide"		"f0"
-		"tall"		"480"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BuildingStatusAnchor"
+		"xpos"		"-5"
+		"ypos"		"160"
+		"wide"		"200"
+		"tall"		"240"
+		"enabled"		"1"
 	}
-	
-	\\ Engineer
+
 	BuildingStatus_Engineer
 	{
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"640"
-		"tall"		"480"
-		
+		"wide"		"200"
+		"tall"		"240"
+		"pin_to_sibling"	"BuildingStatusAnchor"
+	}
+
+	BuildingStatus_Spy
+	{
+		"wide"		"200"
+		"tall"		"240"
+		"pin_to_sibling"	"BuildingStatusAnchor"
 	}
 	
 	HudKothTimeStatus
@@ -383,7 +364,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"60"
+		"tall"					"f0"
 	}
 	HudVoiceStatus
 	{
@@ -493,7 +474,7 @@
 	{
 		"xpos"				"0"
 		"ypos"			"0"
-	//	"tall"		"f0"
+	//	"tall"		"30"
 	//	"wide"			"f0"
 		"zpos"			"10"
 	}	

@@ -4,7 +4,7 @@
 //#base "../#jofre/blur_bg.res"
 //#base "../#jofre/charbg.res"
 //#base "../ui2/tank.res"
-
+#base "../ui3/menu_multiple.res"
 //#base "../#jofre/socialmedia.res"
 //#base "../../#jofre/partymembers.res"
 //#base "../../#customization/resource/ui/summersale_border.res"

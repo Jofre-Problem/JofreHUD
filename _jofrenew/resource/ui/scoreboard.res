@@ -504,7 +504,7 @@
 		"ypos"				"87"
 		"zpos"				"4"
 		"wide"				"p0.505"
-		"tall"				"342"
+		"tall"				"220"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -524,8 +524,7 @@
 		"ypos"				"87"
 		"zpos"				"4"
 		"wide"				"p0.505"
-		"tall"				"336"	[$WINDOWS]
-		"tall"			"342" [$LINUX]
+		"tall"				"204"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"

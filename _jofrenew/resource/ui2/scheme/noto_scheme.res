@@ -286,6 +286,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Noto28Shadow"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"28"
+				"additive"  "0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}		
 		"Noto30"
 		{
 			"1"

@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\mm\mm2"
+	"$vertexcolor"	1
+	"$vertexalpha"	1
+	"$ignorez"	1
+	"$translucent"	1
+	"$additive"	1
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "40"
+			"sinemin"	"-2"
+			"sinmax"	"4"
+			"resultvar"	"$alpha"
+			"timeoffset"	"10"
+		}
+		"TextureScroll"
+            	{
+                	"textureScrollVar" "$basetexturetransform"
+                	"textureScrollRate" 0.0015
+                	"textureScrollAngle" 0
+            	}
+	}
+}

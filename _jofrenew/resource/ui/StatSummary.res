@@ -1,7 +1,9 @@
 //#base "../ui2/multiple-bg.res"
 #base "../ui3/tank_gif.res"
+#base "../ui3/menu_multiple.res"
 #base "../uni_base/image/1.res"
 #base "../../ui_overrides/full-timer/file.res"
+#base "statsummary2.res"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -227,7 +229,7 @@
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5+35"
-		"zpos"			"-99"
+		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"30"
 		//"autoResize"	"0"
@@ -244,23 +246,101 @@
 	}
 	"StatData"
 	{
-		"ypos"				"-30"
-	//	"tall"				"458"
-		"wide"				"0"
-	
-		"AveragesBG"
+		"zpos"	"2"
+		"ypos"	"-58"
+
+		"BarChartCustomBG"
 		{
-			"visible"		"0"
-			"enabled"		"0"
-			"border"		"noborder"
+			"xpos"	"cs-0.5"
 		}
-		"RecordsBG"
+		"ClassBar1A"
 		{
-			"visible"		"0"
-			"enabled"		"0"
-			"border"		"noborder"
-		}		
-	}	
+			"xpos"	"cs-1-10"
+		}
+		"ClassBar1B"
+		{
+			"xpos"	"c10"
+		}
+		"ClassLabel1"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel2"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel3"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel4"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel5"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel6"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel7"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel8"
+		{
+			"xpos"	"cs-0.5"
+		}
+		"ClassLabel9"
+		{
+			"xpos"	"cs-0.5"
+		}
+
+		"NonInteractiveHeaders"
+		{
+			"BarChartLabelA"	{"xpos"	"9999"}
+			"BarChartLabelB"	{"xpos"	"9999"}
+			"OverallRecordLabel"	{"xpos"	"9999"}
+		}
+		"TFLabel"	{"xpos"	"9999"}
+		"RecordsSubBG1"	{"xpos"	"9999"}
+		"OverallRecord1Label"	{"xpos"	"9999"}
+		"OverallRecord1Value"	{"xpos"	"9999"}
+		"OverallRecord2Label"	{"xpos"	"9999"}
+		"OverallRecord2Value"	{"xpos"	"9999"}
+		"OverallRecord3Label"	{"xpos"	"9999"}
+		"OverallRecord3Value"	{"xpos"	"9999"}
+		"OverallRecord4Label"	{"xpos"	"9999"}
+		"OverallRecord4Value"	{"xpos"	"9999"}
+		"OverallRecord5Label"	{"xpos"	"9999"}
+		"OverallRecord5Value"	{"xpos"	"9999"}
+		"OverallRecord6Label"	{"xpos"	"9999"}
+		"OverallRecord6Value"	{"xpos"	"9999"}
+		"OverallRecord7Label"	{"xpos"	"9999"}
+		"OverallRecord7Value"	{"xpos"	"9999"}
+		"OverallRecord8Label"	{"xpos"	"9999"}
+		"OverallRecord8Value"	{"xpos"	"9999"}
+		"OverallRecord9Label"	{"xpos"	"9999"}
+		"OverallRecord9Value"	{"xpos"	"9999"}
+		"OverallRecord10Label"	{"xpos"	"9999"}
+		"OverallRecord10Value"	{"xpos"	"9999"}
+		"OverallRecord11Label"	{"xpos"	"9999"}
+		"OverallRecord11Value"	{"xpos"	"9999"}
+		"OverallRecord12Label"	{"xpos"	"9999"}
+		"OverallRecord12Value"	{"xpos"	"9999"}
+		"OverallRecord13Label"	{"xpos"	"9999"}
+		"OverallRecord13Value"	{"xpos"	"9999"}
+		"OverallRecord14Label"	{"xpos"	"9999"}
+		"OverallRecord14Value"	{"xpos"	"9999"}
+		"OverallRecord15Label"	{"xpos"	"9999"}
+		"OverallRecord15Value"	{"xpos"	"9999"}
+	}
+	"TIPCustomBG"	{"xpos"	"9999"}
+	"TipImage"	{"xpos"	"9999"}
+	"TipText"	{"xpos"	"9999"}
+	"NextTipButtonCustom"	{"xpos"	"9999"}
 	"TipText"
 	{
 		"ControlName"		"Label"

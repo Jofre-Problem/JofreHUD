@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\logos\build icons\obj_status_upgrade_2"
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$ignorez" "1"
+	"$alphatest" "1"
+	"$alphatestreference" "0.2"
+}

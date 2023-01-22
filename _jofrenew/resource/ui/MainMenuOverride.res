@@ -8,6 +8,7 @@
 	#base "../ui2/+safemode.res"
 	#base "../ui_overrides/!4plug_run_sc.res"
 	#base "../../home/servers.res"
+	#base "../ui3/menu_multiple.res"
 //	#base "../#jofre/dashboard_bg.res"
 //	#base "../#jofre/loadout_explanation_bg.res"
 
@@ -21,7 +22,7 @@
 #base "../uni_base/btn/3.res"
 "Resource/UI/MainMenuOverride.res"
 {
-
+	
 	"1_btn"		// open achievements window
 	{
 		"zpos"			"3000"
