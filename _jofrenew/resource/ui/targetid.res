@@ -38,7 +38,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"-36" //-17
+		"ypos"			"-17" //-17
 		"zpos"			"-1"
 		"wide"			"6969"
 		"tall"	 		"0"
