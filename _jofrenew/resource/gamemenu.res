@@ -1,13 +1,13 @@
 "GameMenu" 
 {
 
-	"mmMovingBGPanel"
-	{
-		"label" ""
-		"command"		"engine none"
-		"OnlyAtMenu" "1"
-		"subimage" "replay/thumbnails/mm/ingameBG"
-	} 
+//	"mmMovingBGPanel"
+//	{
+//		"label" ""
+//		"command"		"engine none"
+//		"OnlyAtMenu" "1"
+//		"subimage" "replay/thumbnails/mm/ingameBG"
+//	} 
     "CallVoteButton2"
 {
 "label""Call Vote"

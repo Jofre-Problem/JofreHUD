@@ -17,14 +17,28 @@
 //	}	
 	"image1"
 	{
+		"ControlName"	"EditablePanel"
 		"xpos"			"14"
 		"ypos"			"15"
 		"zpos"			"0"
 		"wide"			"170"
 		"tall"			"15"
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"0 0 0 0"
 		"border"	"Rice1"
+			"PartySlot0"
+		{
+			"ControlName""CDashboardPartyMember"
+			"fieldName""PartySlot0"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"p2"
+			"tall"			"p2"
+			"alpha"	"100"
+			"party_slot"				"0"
+		}		
 	}
+		
 	"skill"
 	{
 		"fieldName"	"skill"
@@ -79,6 +93,7 @@
 			"zpos"			"5"
 			"wide"			"167"
 			"tall"			"12"			
+			"image"	"replay/thumbnails/hp/REFRACTblur"
 		}
 	}				
 

@@ -43,8 +43,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "26"	[$WINDOWS]
-				"tall" "14" [$LINUX]
+				"tall" "26"
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -54,8 +53,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "26"	[$WINDOWS]
-				"tall" "14" [$LINUX]
+				"tall" "18"
 				"antialias"	"1"
 			}
 		}

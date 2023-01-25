@@ -6,24 +6,13 @@
 
 
 
-	"timebg"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"timebg"
-		"xpos"					"cs-0.5"
-		"ypos"					"1"
-		"wide"					"80"
-		"tall"					"16"
-		"zpos"		"100"
-		"fillcolor"				"30 30 30 255"
-		"border"	"Rice1"
-	}
+
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
 		"xpos"					"cs-0.5-28"
-		"ypos"					"1"
+		"ypos"					"3"
 		"wide"					"8"
 		"tall"					"o2"
 		"visible"				"1"

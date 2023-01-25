@@ -1,5 +1,5 @@
 // Choose which hero you play as
-#base "../#jofre/blur_bg.res"
+//#base "../#jofre/blur_bg.res"
 #base "../ui2/polybar_1.res"
 #base "../ui2/polyconfig1.res"
 //#base "../uni_base/cexlabel/1.res"

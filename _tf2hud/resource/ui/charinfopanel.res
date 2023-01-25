@@ -1,112 +1,153 @@
 "Resource/UI/CharInfoPanel.res"
 {
-	"character_info"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"settitlebarvisible"	"1"
-		"bgcolor_override"				"Blank"
-		"infocus_bgcolor_override"		"Blank"
-		"outoffocus_bgcolor_override"	"Blank"
+"character_info"
+{
+"ControlName""EditablePanel"
+"fieldName""character_info"
 
-		"title"			""
-		"title_font"	"Size 24"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"Blank"
-		"titlebardisabledfgcolor_override"		"Blank"
-		"titlebarbgcolor_override"				"Blank"
 
-		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"-2"
-	}
+"wide""f0"
+"tall""480"
 
-	"CharInfoBG"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CharInfoBG"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"bgcolor_override"		"BlackLight"
-	}
 
-	"CharInfoBottomBar"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"StoreBottomBar"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"wide"			"f0"
-		"tall"			"20"
-		"visible"		"1"
-		"bgcolor_override"		"TransparentBlack"
-	}
+//"visible""1"
 
-	"Sheet"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"3"
-		"tabxdelta"		"5"
-		"tabwidth"		"0"
-		"tabheight"		"15"
-		"transition_time" "0"
-		"yoffset"	"20"
 
-		"tabskv"
-		{
-			"textinsetx"		"0"
-			"font"				"Size 16"
-			"selectedcolor"		"MainTheme"
-			"unselectedcolor"	"White"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-		}
-	}
+"settitlebarvisible""1"
+//"PaintBackgroundType""0"
+"bgcolor_override""Blank"
+"infocus_bgcolor_override""Blank"
+"outoffocus_bgcolor_override""Blank"
 
-	"BackButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"BackButton"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"Back"
-		"font"			"Size 30"
-		"textAlignment"	"center"
-		"Command"		"back"
+"title""#CharInfoAndSetup"
+"title_font""HudFontMediumSecondary"
+"titletextinsetX""40"
+//"titletextinsetY""0"
+"titlebarfgcolor_override""HudOffWhite"
+"titlebardisabledfgcolor_override""HudOffWhite"
+"titlebarbgcolor_override""TanDarker"
 
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+//"clientinsetx_override""0"
+"sheetinset_bottom""40"
+}
 
-		"paintbackground"				"0"
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"			"MainTheme"
-		"depressedFgColor_override"		"MainTheme"
-	}
+"BackgroundHeader"
+{
+"ControlName""ImagePanel"
+"fieldName""BackgroundHeader"
 
-	"NotificationsPresentPanel"
-	{
-		"ControlName"	"CNotificationsPresentPanel"
-		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"r200"
-		"ypos"			"10"
-		"zpos"			"10000"
-		"wide"			"190"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-	}
+
+"zpos""-2"
+"wide""f0"
+"tall""120"
+//"visible""1"
+
+"image""loadout_header"
+"tileImage""1"
+}
+"BackgroundFooter"
+{
+"ControlName""ImagePanel"
+"fieldName""BackgroundFooter"
+
+"ypos""420"
+"zpos""1"
+"wide""f0"
+"tall""60"
+//"visible""1"
+
+"image""loadout_bottom_gradient"
+"tileImage""1"
+}
+"FooterLine"
+{
+"ControlName""ImagePanel"
+"fieldName""FooterLine"
+
+"ypos""420"
+"zpos""2"
+"wide""f0"
+"tall""10"
+//"visible""1"
+
+"image""loadout_solid_line"
+"scaleImage""1"
+}
+
+"Sheet"
+{
+"ControlName""EditablePanel"
+"fieldName""Sheet"
+"tabxindent""80"
+"tabxdelta""10"
+"tabwidth""240"
+"tabheight""20"
+"transition_time" "0"
+"yoffset""14"
+
+"HeaderLine"
+{
+"ControlName""ImagePanel"
+"fieldName""HeaderLine"
+
+"ypos""32"
+"zpos""5"
+"wide""f0"
+"tall""10"
+//"visible""1"
+
+"image""loadout_solid_line"
+"scaleImage""1"
+}
+
+"tabskv"
+{
+"textinsetx""40"
+"font""HudFontMediumSmall"
+"selectedcolor""200 187 161 255"
+"unselectedcolor""130 120 104 255"
+"defaultBgColor_override""TanDarker"
+"paintbackground""0"
+"activeborder_override""OutlinedGreyBox"
+"normalborder_override" "OutlinedDullGreyBox"
+}
+}
+
+"BackButton"
+{
+"ControlName""CExButton"
+"fieldName""BackButton"
+"xpos""c-295"
+"ypos""437"
+"zpos""2"
+"wide""100"
+"tall""25"
+
+//"pinCorner""3"
+//"visible""1"
+
+
+"labelText""#TF_BackCarat"
+"font""HudFontSmall"
+"textAlignment""center"
+////"dulltext""0"
+//"brighttext""0"
+//"Default""0"
+"Command""back"
+//"sound_depressed""UI/buttonclick.wav"
+//"sound_released""UI/buttonclickrelease.wav"
+}
+
+"NotificationsPresentPanel"
+{
+"ControlName""CNotificationsPresentPanel"
+"fieldName""NotificationsPresentPanel"
+"xpos""r200"
+"ypos""10"
+"zpos""10000"
+"wide""190"
+"tall""50"
+"visible""0"
+
+}
 }

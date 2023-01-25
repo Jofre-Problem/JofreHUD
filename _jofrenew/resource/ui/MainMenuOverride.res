@@ -8,13 +8,13 @@
 	#base "../ui2/+safemode.res"
 	#base "../ui_overrides/!4plug_run_sc.res"
 	#base "../../home/servers.res"
-	#base "../ui3/menu_multiple.res"
+//	#base "../ui3/menu_multiple.res"
 //	#base "../#jofre/dashboard_bg.res"
 //	#base "../#jofre/loadout_explanation_bg.res"
 
 //	#base "../ui2/multiple-bg.res"// :: check mainmenu - downbartype.res"
 //	#base "../ui2/mm_border.res"
-	#base "../ui2/polybar_1.res"
+//	#base "../ui2/polybar_1.res"
 //	#base "../#jofre/safe-mode.res"
 
 #base "../uni_base/btn/1.res"
@@ -181,7 +181,7 @@
 	}			
 	"TFCharacterImage"
 	{
-		"tall"			"0"
+	//	"tall"			"0"
 	}	
 	"CharacterSetupButton"
 	{
@@ -801,7 +801,7 @@
 	"WorkshopButton"		// open advanced options
 	{
 		xPos					0
-		yPos					0
+		yPos					25
 		wide					30
 		tall					15
 		zpos		"2000"
