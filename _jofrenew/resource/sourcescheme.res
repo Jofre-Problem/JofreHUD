@@ -390,7 +390,7 @@ Scheme
         {
 		
 						"bordertype"			"scalable_image"
-			"backgroundtype"		"2"		
+			"backgroundtype"		"2"	 	
 			"image"				"replay/thumbnails/noto_apple2"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"

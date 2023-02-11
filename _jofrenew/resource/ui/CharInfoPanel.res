@@ -8,26 +8,7 @@
 #base "../../ui_overrides/full-timer/file.res"
 "Resource/UI/CharInfoPanel.res"
 {
-	"timebg"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"timebg"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"80"
-		"tall"					"16"
-		"zpos"		"100"
-		"fillcolor"				"30 30 30 255"
-	}	
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"8"
-		"ypos"					"0"
-		"wide"					"8"
-		"tall"					"o2"
-	}
+
 	"MMBackgroundPanel"
 	{
 		"xpos"			"0"

@@ -119,7 +119,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		
-		"wide"			"34"
+		"wide"			"200"
 		"tall"		"34"
 		"variable"		"health"
 	}		

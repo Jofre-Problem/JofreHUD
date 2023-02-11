@@ -80,10 +80,10 @@
 	"RoundCounter"
 	{
 		"fieldName"							"RoundCounter"
-		"xpos"									"c-150"
-		"ypos"									"15"
+		"xpos"									"0"
+		"ypos"									"0"
 		"zpos"									"7"
-		"wide"									"300"
+		"wide"									"f0"
 		"tall"									"15"
 		"visible"								"1"
 		"enabled"								"1"
@@ -93,10 +93,11 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"		"0"
+			"ypos"		"c-150"
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"7"
+			"ypos"	"15"
 			"image"		"replay/thumbnails/panels/blank"
 			"scaleImage"				"1"
 			"fillcolor"		"GrayDarkest"
@@ -104,17 +105,19 @@
 		}
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"		"0"
+			"ypos"		"c-150"
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"8"
+			"ypos"	"15"
 			"image"		"replay/thumbnails/panels/red"
 			"scaleimage"		"1"
 		}
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"		"0"
+			"ypos"		"c-150"
 			"wide"		"5"
+			"ypos"	"15"
 			"tall"		"2"
 			"zpos"		"8"
 			"image"		"replay/thumbnails/panels/blue"
@@ -201,34 +204,7 @@
 			"labelText"		"0:00"
 		}
 	}
-	"BlueBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"BlueBar"
-		"xpos"		"cs-1.0"
-		"ypos"		"0"
-		"zpos"		"5"
-		"wide"		"35"
-		"tall"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"Blue"
-		"proportionaltoparent"		"1"
-	}
-	"RedBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"RedBar"
-		"xpos"		"c0"
-		"ypos"		"0"
-		"zpos"		"5"
-		"wide"		"35"
-		"tall"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"		"Red"
-		"proportionaltoparent"		"1"
-	}
+
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"

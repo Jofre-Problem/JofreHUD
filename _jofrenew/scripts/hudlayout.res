@@ -3,6 +3,350 @@
 //#base "../spacer.res"
 "Resource\HudLayout.res"
 {
+	ramka
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ramka"
+		"xpos"					"r84"//83
+		"ypos"					"r188"
+		"zpos"					"-2"
+		"wide"					"96"//95
+		"tall"					"49"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/ramka"
+		"scaleImage"			"1"
+	}
+
+	speedmeter
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"speedmeter"
+		"xpos"					"r109"
+		"ypos"					"r145"
+		"zpos"					"-2"
+		"wide"					"110"
+		"tall"					"110"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/speedometer"
+		"scaleImage"			"1"
+	}
+
+	arrow
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"arrow"
+		"xpos"					"r110"
+		"ypos"					"r145"
+		"zpos"					"-2"
+		"wide"					"110"
+		"tall"					"110"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/arrow"
+		"scaleImage"			"1"
+	}
+
+	digits16
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits16"
+		"xpos"					"r40"
+		"ypos"					"r162"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_16"
+		"scaleImage"			"1"
+	}
+ 
+	digits13
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits13"
+		"xpos"					"r32"
+		"ypos"					"r162"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_13"
+		"scaleImage"			"1"
+	}
+
+	digits14
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits14"
+		"xpos"					"r24"
+		"ypos"					"r162"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_14"
+		"scaleImage"			"1"
+	}
+
+	digits15
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits15"
+		"xpos"					"r16"
+		"ypos"					"r162"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_15"
+		"scaleImage"			"1"
+	}
+
+	avg
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"avg"
+		"xpos"					"r70"
+		"ypos"					"r177"
+		"zpos"					"-2"
+		"wide"					"36"
+		"tall"					"9"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/avg"
+		"scaleImage"			"1"
+	}
+
+	max
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"max"
+		"xpos"					"r70"
+		"ypos"					"r158"
+		"zpos"					"-2"
+		"wide"					"36"
+		"tall"					"9"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/max"
+		"scaleImage"			"1"
+	}
+
+	digits12
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits12"
+		"xpos"					"r40"
+		"ypos"					"r180"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_12"
+		"scaleImage"			"1"
+	}
+
+	digits9
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits9"
+		"xpos"					"r32"
+		"ypos"					"r180"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_9"
+		"scaleImage"			"1"
+	}
+
+	digits10
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits10"
+		"xpos"					"r24"
+		"ypos"					"r180"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_10"
+		"scaleImage"			"1"
+	}
+
+	digits11
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits11"
+		"xpos"					"r16"
+		"ypos"					"r180"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_11"
+		"scaleImage"			"1"
+	}
+
+	digits8
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits8"
+		"xpos"					"r72"
+		"ypos"					"r75"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_8"
+		"scaleImage"			"1"
+	}
+
+	digits5
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits5"
+		"xpos"					"r64"
+		"ypos"					"r75"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_5"
+		"scaleImage"			"1"
+	}
+
+	digits6
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits6"
+		"xpos"					"r56"
+		"ypos"					"r75"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_6"
+		"scaleImage"			"1"
+	}
+
+	digits7
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"digits7"
+		"xpos"					"r48"
+		"ypos"					"r75"
+		"zpos"					"-2"
+		"wide"					"8"
+		"tall"					"16"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/speed/digits_7"
+		"scaleImage"			"1"
+	}	
+	"StatPanel"
+	{
+		"fieldName"									"StatPanel"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}	
+	"FreezePanelCallout"
+	{
+		"fieldName"									"FreezePanelCallout"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+
+	"AnnotationsPanelCallout"
+	{
+		"fieldName"									"AnnotationsPanelCallout"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	"HudTeamGoal"
+	{
+		"fieldName"									"HudTeamGoal"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+
+	"HudTeamGoalTournament"
+	{
+		"fieldName"									"HudTeamGoalTournament"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+	"HudTeamSwitch"
+	{
+		"fieldName"									"HudTeamSwitch"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}
+
+	"HudArenaNotification"
+	{
+		"fieldName"									"HudArenaNotification"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+	}	
 	HudTeamGoal
 {
 "fieldName""HudTeamGoal"
@@ -55,15 +399,15 @@
 		"CornerRadius"	"0" // 2 KF
 	//	"RightJustify"	"0"	// If 1, draw notices from the right
 				
-		"TextFont"		"NotoBold14"
+		"TextFont"		"NotoBold12"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
 		"IconColor"     		"255 255 255 255"
 	//	"LocalPlayerColor"  	"12 12 12 255"
 
-		"BaseBackgroundColor"	"27 27 27 222"
-		"LocalBackgroundColor"	"245 245 245 200"
+		"BaseBackgroundColor"	"TransparentGrayDarkest"
+		"LocalBackgroundColor"	"TransparentWhite"
 	}
 //	"Spacer"
 //	{
@@ -209,7 +553,6 @@
 	{
 		"ypos"		"c70"
 		"tall"	 	"31"
-		"tall_minmode"	"31"
 	}
 
 	CSecondaryTargetID
@@ -217,8 +560,8 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"c102"
 		"wide"	 	"f0"
-		"tall"	 	"31"
-		"tall_minmode"	"31"
+		"tall"	 	"50"
+
 	}
 	
 	HudTournament
@@ -481,7 +824,7 @@
 	HudCrosshair
 	{
 		"xpos"			"cs-0.5-p0.0005"	//p0.05 = 1 wide	- > 0.01
-		"ypos"			"cs-0.5-p0.0005"	//needs to be - .5 pixel
+		"ypos"			"cs-0.5+100"	//needs to be - .5 pixel
 		//remember that p0.001 is the lowest value possible
 		"wide"			"f0"
 		"tall"			"f0"

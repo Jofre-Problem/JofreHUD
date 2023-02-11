@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/baseactionplaybackratedialog.res"
-#base "../_tf2hud/resource/resource/baseactionplaybackratedialog.res"
+#base	"../_jofrehud/_tf2exp/null.res"

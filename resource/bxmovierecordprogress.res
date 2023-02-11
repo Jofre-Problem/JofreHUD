@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxmovierecordprogress.res"
-#base "../_tf2hud/resource/resource/bxmovierecordprogress.res"
+#base	"../_jofrehud/_tf2exp/null.res"

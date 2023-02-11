@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxrecordgame.res"
-#base "../_tf2hud/resource/resource/bxrecordgame.res"
+#base	"../_jofrehud/_tf2exp/null.res"

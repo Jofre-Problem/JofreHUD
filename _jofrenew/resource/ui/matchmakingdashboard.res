@@ -1,6 +1,6 @@
 #base "../ui2/mm_topbar.res"
-//#base "../ui2/polybar_1.res"
-//#base "../ui2/polyconfig1.res"
+#base "../ui2/polybar_1.res"
+#base "../ui2/polyconfig1.res"
 "Resource/UI/MatchMakingDashboard.res"
 {
 	"MMDashboard"
@@ -25,92 +25,10 @@
 
 
 
-	"BossBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BossBG"
-		"xpos"			"24"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"0 0 0 220"
-	}
-	"imager1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"imager1"
-		"xpos"			"rs1"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"150"
-		"tall"			"24"
-		"fillcolor"		"0 0 0 0"
-			"PartySlot0"
-		{
-			"ControlName""CDashboardPartyMember"
-			"fieldName""PartySlot0"
-			"xpos"			"0-p4"
-			"ypos"			"0-p2"
-			"zpos"			"100"
-			"wide"			"p10"
-			"tall"			"p10"
-			"alpha"	"255"
-			"party_slot"				"0"
-		}		
-	}
-	"image1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"image1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"28"
-		"tall"			"24"
-		"fillcolor"		"0 0 0 0"
-			"PartySlot0"
-		{
-			"ControlName""CDashboardPartyMember"
-			"fieldName""PartySlot0"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"p4"
-			"tall"			"p4"
-			"alpha"	"255"
-			"party_slot"				"0"
-		}		
-	}
-	"image2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"image2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"100"
-		"tall"			"24"
-		"fillcolor"		"0 0 0 0"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"image1"			
-			"PartySlot0"
-		{
-			"ControlName""CDashboardPartyMember"
-			"fieldName""PartySlot0"
-			"xpos"			"-500"
-			"ypos"			"-400"
-			"zpos"			"100"
-			"wide"			"p5"
-			"tall"			"p5"
-			"alpha"	"255"
-			"party_slot"				"0"
-		}		
-	}
+
+
+
+
 
 
 
@@ -119,11 +37,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"StatusIcon"
-		"xpos""rs1-120"
+		"xpos""0"
 		"ypos""0"
 		"zpos""5001"
 		"wide""30"
-		"tall""24"
+		"tall""15"
 		"font""NewIcons12"
 		"textAlignment""west"
 		"command""engine con_enable 1; showconsole;exec cc_cfg/clear3; status;exec cc_cfg/clear3; version"
@@ -156,7 +74,7 @@
 		"ypos""0"
 		"zpos""5001"
 		"wide""30"
-		"tall""24"
+		"tall""15"
 		"font""NewIcons12"
 		"textAlignment""west"
 		"command""engine hud_reloadscheme"
@@ -166,6 +84,7 @@
 		"keyboardinputenabled""0"
 		"actionsignallevel""2"
 		"RoundedCorners""0"
+		"pin_to_sibling"		"bgg4"
 				"sound_depressed"	"sound_menu/button.wav"
 				"sound_released"	"sound_menu/button2.wav"
 
@@ -174,9 +93,6 @@
 			defaultFgColor_override		"polyiconsbg1"
 			armedFgColor_override		"A_ColorTheme1"
 		"paintbackground""0"
-				"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"StatusIcon"		
 	}
 
 
@@ -198,8 +114,7 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 		"Gradient"
-		{	
-		//	"ypos"	"15"
+		{
 			"tall"		"0"
 		
 		}
@@ -215,13 +130,32 @@
 
 		"BGPanel"
 		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BGPanel"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"p1.1"
+			"tall"			"f5"
 			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"border"		"ReplayDefaultBorder"
+			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"
 		{
-			"ypos"	"cs-0.5-15+p0.01"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"OuterShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"-2"
+			"wide"			"p1.1"
+			"tall"			"p1"
 			"visible"		"0"
+			"PaintBackgroundType"	"2"
+			"border"		"OuterShadowBorder"
+			"proportionaltoparent"	"1"
 		}
 		"ToggleChatButton"
 		{
@@ -268,9 +202,9 @@
 		}		
 		"PartySlot0"
 		{
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"24"
+			"xpos"					"10"
+			"ypos"					"20"
+			"wide"					"0"
 			"tall"					"o1"
 		}
 		"PartySlot1"

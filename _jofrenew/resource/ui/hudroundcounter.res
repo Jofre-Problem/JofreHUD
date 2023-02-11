@@ -57,4 +57,32 @@
 		"tall"			"0"
 		"image"			"replay/thumbnails/null"
 	}
+	"BlueBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BlueBar"
+		"xpos"		"cs-1.0"
+		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"35"
+		"tall"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"Blue"
+		"proportionaltoparent"		"1"
+	}
+	"RedBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedBar"
+		"xpos"		"c0"
+		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"35"
+		"tall"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"Red"
+		"proportionaltoparent"		"1"
+	}	
 }

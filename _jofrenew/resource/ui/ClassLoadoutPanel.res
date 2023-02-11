@@ -21,31 +21,7 @@
 	{
 //	"tall"	"0"
 	}	
-	"editing"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"editing"
-		"xpos"					"80"
-		"ypos"					"0"
-		"wide"					"16"
-		"tall"					"o1"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/misc/editing"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-	}
-	"editingg"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"editingg"
-		"xpos"					"80"
-		"ypos"					"0"
-		"wide"					"18"
-		"tall"					"16"
-		"zpos"		"5999"
-		"fillcolor"				"90 90 90 255"
-	}	
+
 	"1_label"
 
 	{

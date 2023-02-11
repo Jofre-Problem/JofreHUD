@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/savegamepanel.res"
-#base "../_tf2hud/resource/resource/savegamepanel.res"
+#base	"../_jofrehud/_tf2exp/null.res"

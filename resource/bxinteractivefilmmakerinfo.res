@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxinteractivefilmmakerinfo.res"
-#base "../_tf2hud/resource/resource/bxinteractivefilmmakerinfo.res"
+#base	"../_jofrehud/_tf2exp/null.res"

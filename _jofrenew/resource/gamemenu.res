@@ -1,13 +1,13 @@
 "GameMenu" 
 {
 
-//	"mmMovingBGPanel"
-//	{
-//		"label" ""
-//		"command"		"engine none"
-//		"OnlyAtMenu" "1"
-//		"subimage" "replay/thumbnails/mm/ingameBG"
-//	} 
+	"mmMovingBGPanel"
+	{
+		"label" ""
+		"command"		"engine none"
+		"OnlyAtMenu" "1"
+		"subimage" "replay/thumbnails/mm/ingameBG"
+	} 
     "CallVoteButton2"
 {
 "label""Call Vote"
@@ -26,36 +26,5 @@
 "command""OpenReportPlayerDialog"
 "OnlyInGame""1"
 }
-"CallVoteButton"
-{
-"label"""
-"command""callvote"
-"OnlyInGame""0"
-"subimage" "icon_checkbox"
-"tooltip" "#MMenu_CallVote"
-}
-"MutePlayersButton"
-{
-"label"""
-"command""OpenMutePlayerDialog"
-"Onlyatmenu""1"
-"subimage" "glyph_muted"
-"tooltip" "#MMenu_MutePlayers"
-}
-"RequestCoachButton"
-{
-"label"""
-"command""engine cl_coach_find_coach"
-"OnlyInGame""0"
-"subimage" "icon_whistle"
-"tooltip" "#MMenu_RequestCoach"
-}
-"ReportPlayerButton"
-{
-"label"""
-"command""OpenReportPlayerDialog"
-"OnlyInGame""0"
-"subimage""glyph_alert"
-"tooltip""#MMenu_ReportPlayer"
-}
+
 }

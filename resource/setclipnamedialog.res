@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/setclipnamedialog.res"
-#base "../_tf2hud/resource/resource/setclipnamedialog.res"
+#base	"../_jofrehud/_tf2exp/null.res"

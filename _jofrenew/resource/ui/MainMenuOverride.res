@@ -8,21 +8,20 @@
 	#base "../ui2/+safemode.res"
 	#base "../ui_overrides/!4plug_run_sc.res"
 	#base "../../home/servers.res"
-//	#base "../ui3/menu_multiple.res"
 //	#base "../#jofre/dashboard_bg.res"
 //	#base "../#jofre/loadout_explanation_bg.res"
 
 //	#base "../ui2/multiple-bg.res"// :: check mainmenu - downbartype.res"
 //	#base "../ui2/mm_border.res"
-//	#base "../ui2/polybar_1.res"
+	#base "../ui2/polybar_1.res"
 //	#base "../#jofre/safe-mode.res"
 
 #base "../uni_base/btn/1.res"
 #base "../uni_base/btn/2.res"
 #base "../uni_base/btn/3.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
-	
 	"1_btn"		// open achievements window
 	{
 		"zpos"			"3000"
@@ -348,7 +347,7 @@
 			sound_released			"UI/buttonclickrelease.wav"
 							
 		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		armedFgColor_override		"245 245 245 255"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -405,7 +404,7 @@
 			sound_released			"UI/buttonclickrelease.wav"
 							
 		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		armedFgColor_override		"245 245 245 255"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -458,7 +457,7 @@
 			sound_released			"UI/buttonclickrelease.wav"
 							
 		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		armedFgColor_override		"245 245 245 255"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -658,9 +657,9 @@
 			sound_released			"sound_menu/button2.wav"
 		
 			defaultFgColor_override		"W_ColorIcons1"
-			defaultBgColor_override		"W_ColorTheme1"
+			defaultBgColor_override		"245 245 245 255"
 			armedBgColor_override		"W_CerrarArmed"
-			armedFgColor_override		"W_ColorTheme1"
+			armedFgColor_override		"245 245 245 255"
 
 			paintBackground			1
 		}		
@@ -800,8 +799,10 @@
 	}
 	"WorkshopButton"		// open advanced options
 	{
+	"ControlName""CExImageButton"
+"fieldName""WorkshopButton"	
 		xPos					0
-		yPos					25
+		yPos					0
 		wide					30
 		tall					15
 		zpos		"2000"
@@ -867,6 +868,7 @@
 				"wide"			"0"
 				"image"			"replay/thumbnails/null"
 			}			
+		
 		}
 	}
 

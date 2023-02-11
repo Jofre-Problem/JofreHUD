@@ -45,17 +45,7 @@
 		"font"			"Noto16"
 		"zpos"					"6000"
 	}
-	"editingg"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"editingg"
-		"xpos"					"80"
-		"ypos"					"0"
-		"wide"					"18"
-		"tall"					"16"
-		"zpos"		"10"
-		"fillcolor"				"90 90 90 255"
-	}				
+
 	"ScoutButton"			// other classes pinned to this
 	{
 		ControlName				CExButton

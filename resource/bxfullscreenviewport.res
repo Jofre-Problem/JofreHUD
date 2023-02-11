@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxfullscreenviewport.res"
-#base "../_tf2hud/resource/resource/bxfullscreenviewport.res"
+#base	"../_jofrehud/_tf2exp/null.res"

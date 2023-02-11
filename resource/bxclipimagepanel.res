@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxclipimagepanel.res"
-#base "../_tf2hud/resource/resource/bxclipimagepanel.res"
+#base	"../_jofrehud/_tf2exp/null.res"

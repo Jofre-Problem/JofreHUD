@@ -50,7 +50,7 @@
 "zpos""-100"
 "wide""f0"
 "tall""f0"
-"bgcolor_override"	"50 50 50 255"
+"bgcolor_override"	"34 34 34 255"
 }
 "TitleLabel"
 {

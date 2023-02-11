@@ -1,2 +1,1 @@
-#base "../_jofrehud/resource/bxelementpropertiestreeframe.res"
-#base "../_tf2hud/resource/resource/bxelementpropertiestreeframe.res"
+#base	"../_jofrehud/_tf2exp/null.res"
