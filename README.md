@@ -1,13 +1,13 @@
-# JofreHUD-Dev
+# JofreHUD
 
 ![jofrehd2](https://user-images.githubusercontent.com/70734327/235264531-3d6bb54c-96d6-4dc9-a683-da119937361f.png)
 
-JofreHUD with bleeding edge changes.
+After 4 years in development, JofreHUD hopefully it is worth the wait.
 
 # Description:
-After a long time of developing this HUD and taking breaks, I have decided to publish this HUD (but incomplete). I dont think I will ever finish this HUD with my ideas by this year, so I think this HUD could be useful for other developers. Enjoy!
+This HUD is a combination between many diferents HUDS, mainly MagnumHUD, XHUD, InsomniaHUD and many many more.
 
-# Screenshots:
+# Screenshots (OLD)
 ![Captura de pantalla (71)](https://user-images.githubusercontent.com/70734327/169419095-d336de4f-cba6-4fd1-98f2-6a6abb07b56a.png)
 ![Captura de pantalla (72)](https://user-images.githubusercontent.com/70734327/169419129-0d0d380c-dcb4-4ff7-ba77-fc9ea25f7a94.png)
 ![Captura de pantalla (73)](https://user-images.githubusercontent.com/70734327/169419138-b7fcbe21-d201-48db-ac47-f1c7579f5afb.png)
@@ -18,7 +18,7 @@ After a long time of developing this HUD and taking breaks, I have decided to pu
 **Last Update as 20/05/22**
 
 # Credits:
-- Inspired by the following HUDS: MagnumHUD, BudHUD, PrismHUD, JxHUD, ToonHUD, RobotoHUD, ProductHUD, SunsetHUD, HexHUD, m0rehud, and many many more HUDS.
-- Chill D & Evemena - Beta testing.
-- JarateKing - His work was my inspiration in my start.
+- JarateKing - His work was my inspiration in my start
+- Peaches - Creator of xhud
+- Lead - Creator of InsomniaHUD
 - Quickkennedy - Creator of Speed Meter
