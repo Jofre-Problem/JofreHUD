@@ -22,7 +22,7 @@
 	}
 	"SecondaryProgressLabel"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}
 	"Progress2"
 	{

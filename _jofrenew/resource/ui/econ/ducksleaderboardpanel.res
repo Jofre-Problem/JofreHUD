@@ -174,7 +174,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"30"
-			//"autoResize"	"0"
+			////"autoResize"		"0"
 			
 			"visible"		"1"
 			//"enabled"		"1"

@@ -36,20 +36,20 @@
 			"pinCorner"		"1"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
 			"font"			"HudFontSmall"
 			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 			"default"		"1"
 			"Command"		"open_edit_context"
 			"proportionaltoparent"	"1"
 
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 		
 			"image_drawcolor"	"235 226 202 255"
 			"SubImage"
@@ -263,7 +263,7 @@
 					"FieldName"		"UpButton"
 					"visible"		"0"
 					"tall"			"0"
-					"wide"			"0"
+					"visible"			"0"
 				}
 				
 				"DownButton"
@@ -272,7 +272,7 @@
 					"FieldName"		"DownButton"
 					"visible"		"0"
 					"tall"			"0"
-					"wide"			"0"
+					"visible"			"0"
 				}
 			}
 		}

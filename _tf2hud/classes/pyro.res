@@ -2,8 +2,8 @@
 
 "classes/pyro.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Pyro"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Pyro"
+	}
 }

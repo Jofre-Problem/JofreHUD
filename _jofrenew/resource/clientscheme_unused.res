@@ -9,7 +9,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"6"
 			}
 		}
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"6"
 				//"weight"	"0"
 				//"additive"	"0"
@@ -28,7 +28,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"44"
 				////"tall_lodef"	"52"
 				//"weight"	"500"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"35"
 				////"tall_lodef"	"40"
 				//"weight"	"500"
@@ -52,7 +52,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"30"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"24"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -75,7 +75,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"18"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -86,7 +86,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -97,7 +97,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				//"weight"	"600"
 				//"additive"	"0"
@@ -108,7 +108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -119,7 +119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"16"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -130,7 +130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 			}
 		}
@@ -138,7 +138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -150,7 +150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"16"
 			}
 		}
@@ -158,7 +158,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 			}
 		}
@@ -166,7 +166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
 				//"antialias" 	"1"
@@ -176,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
 				"additive"	"1"
@@ -187,7 +187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
 				//"blur"		"3"
@@ -199,7 +199,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
 				//"blur"		"3"
@@ -211,7 +211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"0"
 				"additive"	"1"
@@ -222,7 +222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"400"
 				//"antialias" "1"
@@ -233,7 +233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"0"
 				//"antialias" 	"1"
@@ -243,7 +243,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"400"
 				//"additive"	"0"
@@ -255,7 +255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"0"
 				//"additive"	"0"
@@ -266,7 +266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 			}
 		}
@@ -274,7 +274,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"0"
 				//"additive"	"0"
@@ -285,7 +285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -296,7 +296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
 				//"blur"		"3"
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"400"
 				//"additive"	"0"
@@ -319,7 +319,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 			}
 		}
@@ -327,7 +327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 			}
 		}
@@ -335,7 +335,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 				//"weight"	"700"
 				//"yres""		"480 599"
@@ -346,7 +346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 			}
 		}										
@@ -354,7 +354,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 			}
 		}				
@@ -362,7 +362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -373,7 +373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"10"
 			}
 		}		
@@ -381,7 +381,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -392,7 +392,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				////"tall_lodef"	"14"
 				//"antialias" "1"
@@ -403,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 			}
 		}	
@@ -411,7 +411,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"600"
 				//"additive"	"0"
@@ -422,7 +422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -433,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
 				//"additive"	"0"
@@ -444,7 +444,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
 				//"antialias" 	"1"
@@ -455,7 +455,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
+				"name"		"Segoe UI"
 				"tall"		"11"
 			}
 		}		

@@ -83,7 +83,7 @@
 		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"14"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"

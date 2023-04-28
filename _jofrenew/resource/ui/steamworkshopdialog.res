@@ -3,101 +3,138 @@
 //#base "../#jofre/training maps.txt"
 //#base "../#jofre/workshop.res"
 //#base "matchmakingpingpanel.res"
-
+#base "../../ui_overrides/full-timer/file2.res"
+#base "../ui2/lead_bg.res"
 //#base "../#jofre/nobar.res"		//always activated
-#base "../../ui_overrides/speed-meter/sc_exist.res"
-#base "../../ui_overrides/global-timer/sc_exist.res"
-#base "../../ui_overrides/transparent-viewmodel/sc_exist.res"
+//#base "../../ui_overrides/speed-meter/sc_exist.res"
+//#base "../../ui_overrides/global-timer/sc_exist.res"
+//#base "../../ui_overrides/transparent-viewmodel/sc_exist.res"
 "Resource/SteamWorkshopDialog.res"
 
 {
-	"GamebananaURL"
+
+	"customize"
 	{
-		"ControlName"		"URLLabel"
-		"fieldName"		"GamebananaURL"
-		"xpos"		"rs1"
-		"ypos"		"rs1"
-		"zpos"		"90"
-		"wide"		"20"
-		"tall"		"o1"
-		"labelText"		""
-		"URLText"		"https://gamebanana.com/wips/68537"
+			"ControlName"	"CExImageButton"
+			"fieldName"		"customize"
+			"zpos"			"80"
+			"font"			"Regular16"
+			"textAlignment"	"center"
+			"actionsignallevel"	"2"
+	
+	
+			xPos					0
+			yPos					rs1			wide					f0
+			tall					60
+			"labelText"		"Customize HUD!"
+			"textinsety"	"20"
+			"sound_depressed"	"UI/button.wav"
+			"sound_released"	"UI/button2.wav"
+
+			"paintbackground"	"0"
+			
+			"fgcolor_override"			"white"
+			
+			"command"								"engine ih_custom_on; ih_reloadmenus"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"border_default"						"LINE_BOTTOM_3_Primary_0"
+			"border_armed"							"LINE_BOTTOM_0_Primary_0"
+
+			"SubImage"
+			{
+				"visible"			"0"
+			}			
 	}
-	"bb"
-	{
-		"xpos"		"rs1"
-		"ypos"		"rs1"
-		"zpos"		"-2"		
-		"ControlName"		"ImagePanel"
-		"fieldName"			"bb"
-		"fillcolor"				"0 0 0 150"
-		"scaleImage"		"1"
-		"mouseInputenabled"	"0"
-		"wide"		"f0"
-		"tall"		"f0"		
-	}	
-	"GB"
-	{
-		"xpos"		"rs1"
-		"ypos"		"rs1"
-		"zpos"		"89"		
-		"ControlName"		"ImagePanel"
-		"fieldName"			"GB"
-		"image"				"replay/thumbnails/gamebanana"
-		"scaleImage"		"1"
-		"wide"		"20"
-		"tall"		"o1"		
-	}		
-	"github"		
+	"thanks"		
 	{
 		ControlName				Label
-		FieldName				"github"
+		FieldName				"thanks"
 		xPos					0
-		yPos					rs1
-		wide					20
-		tall					o1	
+		yPos					60
+		wide					f0
+		tall					40	
+		"zpos"	"0"
+		font					"Regular18"
+		labelText				"MAJOR Credits to: Lead, Peaches and JarateKing."
+		textAlignment			center
+		"fgcolor_override"	"Green"
+	}	
+	"discord"		
+	{
+		ControlName				Label
+		FieldName				"discord"
+		xPos					0
+		yPos					rs1-60
+		wide					f0
+		tall					40	
+		"zpos"	"80"
+		font					"Regular18"
+		fgcolor_override			"255 255 255 255"
+		labelText				"Join the Discord Server for more info! Click here."
+		textAlignment			center
+		"bgcolor_override"	"0 0 0 150"
+	}
+	"discord2"		
+	{
+		ControlName				Label
+		FieldName				"discord2"
+		xPos					0
+		yPos					rs1-100
+		wide					f0
+		tall					40	
+		"zpos"	"80"
+		font					"Regular18"
+		fgcolor_override			"255 255 255 255"
+		labelText				"Found a bug? Need help? Click here."
+		textAlignment			center
+		"bgcolor_override"	"0 0 0 150"
+	}	
+	"github"		
+	{
+		ControlName				CEXLabel
+		FieldName				"github"
+		xPos					5
+		yPos					rs1-60
+		wide					40
+		"zpos"	"1000"
+		tall					40	
 		font					"NewIcons22"
 		fgcolor_override			"255 255 255 255"
-		labelText				"{"
+		labelText				"è"
 		textAlignment			west
-	}	
-	"GithubRL"
+
+		visible	"0"
+	}		
+	"discordurl"
 	{
 		"ControlName"		"URLLabel"
-		"fieldName"		"GithubRL"
+		"fieldName"		"discordurl"
 		"xpos"		"0"
-		"ypos"		"rs1"
+		"ypos"		"40"
 		"zpos"		"90"
-		"wide"		"20"
-		"tall"		"o1"
+		"wide"		"f0"
+		"tall"		"80"
 		"labelText"		""
-		"URLText"		"https://github.com/Jofre-Problem/JofreHUD-Dev"
+		"URLText"		"https://discord.gg/gdVqu3eHzN"
+		"pin_to_sibling"	"discord"
 	}
-		"lol"
 
-		{
-			ControlName				ImagePanel
-			fieldName				"lol"
-			xpos					cs-0.5
-			ypos					rs1
-			wide					200
-			tall					20
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-			drawcolor		"20 20 20 240"
-		}	
 			"title3"		
 			{
 				ControlName				Label
 				FieldName				"title3"
 				xPos					0
-				yPos					rs1
+				yPos					0
 				zpos		10
 				wide					f0
 				tall					20	
-				font					"Regular12"
-				fgcolor_override		"PolyIconsFg1"
+				font					"Regular16"
+				fgcolor_override		"White"
 				labelText				"Click anywhere to close this window."
+				"border"						"LINE_TOP_3_Primary_0"
 				textAlignment			center
 			}	
 	"SteamWorkshopDialog"
@@ -106,16 +143,17 @@
 		"fieldName"		"SteamWorkshopDialog"
 		"xpos"			"0"  // def
 		"ypos"			"0"	// disabled
-		"zpos"			"10000"
+		"zpos"			"1"
 		"wide"			"f0"	// disabled
 		"tall"			"f0"	//disabled
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
 		"bgcolor_override"	"Blank"
 	}
+	
 		"Windows_Notification"
 		{
 			"ControlName"	"EditablePanel"
@@ -129,8 +167,8 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
-			"border"		"Rice2"			
-			"bgcolor_override"				"20 20 20 240"
+			"border"		"Modal_0"			
+			"bgcolor_override"				"11 4 22 1"
 
 			"title"		
 			{
@@ -140,7 +178,7 @@
 				yPos					5
 				wide					400
 				tall					20	
-				font					"Regular14"
+				font					"Size 14"
 				fgcolor_override		"PolyIconsFg1"
 				labelText				"Welcome to JofreHUD Dev!"
 				textAlignment			center
@@ -257,9 +295,9 @@
 				yPos					55
 				wide					62
 				tall					20	
-				font					"Regular14"
+				font					"Size 14"
 				fgcolor_override		"255 255 255  255"
-				labelText				"1.4.0"
+				labelText				"Rework"
 
 				//this is cursed
 				"centerwrap"	"1"
@@ -278,21 +316,9 @@
 				textAlignment			center
 				"centerwrap"	"1"
 			}	
-			"4plug"		
-			{
-				ControlName				Label
-				FieldName				"4plug"
-				xPos					200
-				yPos					33
-				wide					50
-				tall					20	
-				font					"Regular12"
-				fgcolor_override		"3 216 6  255"
-				labelText				"4plugsettings:"
-				textAlignment			west
-				"centerwrap"	"1"
-			}						
+					
 	}
+
 	"Container"
 	{
 		"ControlName"	"EditablePanel"
@@ -300,7 +326,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"10"
-		"wide"		"0"
+		"visible"		"0"
 	}					
 	"ClickAway1"
 	{
@@ -315,34 +341,20 @@
 			yPos					0
 			wide					f0
 			tall					f0
-			"zpos"					"-10"
+			"zpos"					"20"
 			"labelText"		""
 			"command"		"cancel"	
 			"sound_depressed"	"UI/button.wav"
 			"sound_released"	"UI/button2.wav"
 			"border"		"noborder"
 			"paintbackground"	"0"
-			
-			"fgcolor_override"			"red"
-			
-			"defaultFgColor_override" "W_ColorIcons1"
-			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "W_ColorTexto1"
-			"image_drawcolor"	"Blank"
-			"image_armedcolor"	"Blank"
+		
+	
+	
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				//"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
+
+				"visible"		"0"
 			}			
 	}
 }

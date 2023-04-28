@@ -27,7 +27,7 @@
 	}
 "ItemsFoundLabel"
 {
-"font""Noto30"
+"font""Size 30"
 "labelText""#NewItemsAcquired"
 "textAlignment""center"
 "fgcolor_override"	"W_ColorTheme1"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ValveAreDumb"
-		"font"			"Noto10"
+		"font"			"Size 10"
 		"labelText"		"Having problems getting out of this menu? Press the Enter Key on your keyboard to exit!"
 		"textAlignment"	"east"
 		"xpos"			"rs1"

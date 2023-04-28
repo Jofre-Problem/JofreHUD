@@ -26,7 +26,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-			//"autoResize"	"0"
+			////"autoResize"		"0"
 			"drawcolor"	"WhiteSolid"
 		}
 		
@@ -62,7 +62,7 @@
 			//"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
-			//"autoResize"	"0"
+			////"autoResize"		"0"
 			"fgcolor_override"	"QuestMap_ActiveOrange"
 			"font"			"CenterPrintText"
 			"textAlignment"	"east"
@@ -86,7 +86,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-			//"autoResize"	"0"
+			////"autoResize"		"0"
 			"drawcolor"	"QuestMap_ActiveOrange"
 		}
 
@@ -159,11 +159,11 @@
 			"labelText"		""
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 			"default"		"1"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"Command"		"selected"
 			"actionsignallevel"	"1"
 			"proportionaltoparent"	"1"

@@ -78,7 +78,7 @@
 			"stay_armed_on_click"					"1"
 			"button_activation_type"				"1"
 
-			"sound_depressed"						"sound_menu/button.wav"
+			"sound_depressed"						"ui/buttonclick.wav"
 
 			"paintborder"							"0"
 			"paintbackground"						"1"
@@ -119,7 +119,7 @@
 			"labeltext"								""
 			"proportionaltoparent"					"1"
 
-			"sound_depressed"						"sound_menu/button.wav"
+			"sound_depressed"						"ui/buttonclick.wav"
 			"button_activation_type"				"1"
 		}
 
@@ -137,7 +137,7 @@
 			"labelText"								"%title_token%"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Noto22"
+			"font"									"Regular24"
 			"textAlignment"							"east"
 			"dulltext"								"0"
 			"brighttext"							"0"

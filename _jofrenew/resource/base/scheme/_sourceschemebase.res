@@ -7,7 +7,7 @@ Scheme
 		Border.Bright					"Blank"
 		Border.Dark						"Blank"
 		Border.Selection				"Blank"
-		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.BgColor			"Blank" 
 		FrameTitleBar.Font				"UiBold"
 		TextEntry.BgColor			"blank"
 		Button.BgColor			"blank"

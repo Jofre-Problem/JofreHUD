@@ -3,7 +3,7 @@
 {
 	"CancelButtonHintIcon"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"ConfirmButtonNew"
 	{
@@ -12,6 +12,6 @@
 	
 	"ConfirmButtonHintIcon"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}			
 }

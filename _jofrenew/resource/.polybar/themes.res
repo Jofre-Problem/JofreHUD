@@ -2,7 +2,7 @@ Scheme
 {
 	Colors
 	{
-		"PolybarTheme1"		"29 35 48 255"
+		"PolybarTheme1"		"29 35 48 255" 
 		"PolybarTheme2"		"255 108 107 255"
 		"PolybarTheme3"		"236 189 123 255"
 		"PolybarTheme4"		"152 190 101 255"

@@ -4,17 +4,20 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScrollableContainer"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"p0.3333"
-		"tall"			"370"
+		"wide"			"260"
+		"tall"			"330"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"6969"
-			"ypos"			"rs1"
+			"xpos"			"-8"
+			"ypos"			"-15"
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"70"
@@ -30,8 +33,8 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"0"
-			"ypos"			"rs1"
+			"xpos"			"-75"
+			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"320"
 			"tall"			"100"
@@ -43,62 +46,58 @@
 
 			"show_model"	"0"
 			"show_name"		"0"
+
+			"BGBorder"
+			{
+				"visible"	"0"
+			}
 		}
 
 		"ShowLeaderboardsButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowLeaderboardsButton"
-			"xpos"			"rs1"
-			"ypos"			"rs1-2"
+			"xpos"			"rs1-10"
+			"ypos"			"40"
 			"zpos"			"0"
-			"wide"			"p0.5"
+			"wide"			"p0.45"
 			"tall"			"15"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+
+				
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
-			"font"			"Size 16"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
 		}
 
 		"ShowMatchHistoryButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"ShowMatchHistoryButton"
-			"xpos"			"0"
-			"ypos"			"rs1-2"
+			"xpos"			"10"
+			"ypos"			"40"
 			"zpos"			"0"
-			"wide"			"p0.5"
+			"wide"			"p0.45"
 			"tall"			"15"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+
 			"actionsignallevel"		"2"
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
-			"font"			"Size 16"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
 		}
 
 		"PlaylistBGPanel"
@@ -106,42 +105,108 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
 			"xpos"			"cs-0.5"
-			"ypos"			"0"
+			"ypos"			"35"
 			"zpos"			"-1"
-			"wide"			"f21"
-			"tall"			"f0"
+			"wide"			"p0.98"
+			"tall"			"p1-200"
 			"visible"		"1"
+			"PaintBackgroundType"	"2"
+			//"border"		"MainMenuBGBorder"
 			"proportionaltoparent"	"1"
+
+			//		"2"
+			//	"1"
+
+			"PlayListDropShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"PlayListDropShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"25"
+				"zpos"			"100"
+				"wide"			"p0.95"
+				"tall"			"p0.89"
+				"visible"		"1"
+				"PaintBackgroundType"	"2"
+				"border"		"InnerShadowBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+			}
 
 			"MatchHistoryCategories"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"MatchHistoryCategories"
-				"zpos"			"10"
-				"wide"			"f0"
-				"tall"			"15"
+				"xpos"			"cs-0.5"
+				"ypos"			"25"
+				"zpos"		"10"
+				"wide"			"p0.95"
+				"tall"			"20"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
+
+				"BGPanel"
+				{
+					"ControlName"	"EditablePanel"
+					"fieldName"		"BGPanel"
+					"xpos"			"cs-0.5"
+					"ypos"			"rs1"
+					"zpos"			"-100"
+					"wide"			"p1.2"
+					"tall"			"p1.3"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"border"		"MainMenuBGBorder"
+				}
+
+				"SortArrow"
+				{
+					"ControlName"	"Label"
+					"fieldName"		"SortArrow"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"20"
+					"tall"			"f0"
+					"proportionaltoparent"	"1"
+					"visible"		"1"
+					"paintbackground"	"0"
+					"mouseinputenabled"	"0"
+			
+					"labeltext"			"6"
+					"font"				"MarlettSmall"
+					"textAlignment"		"west"
+
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"TanDark"
+					"selectedFgColor_override" "TanDark"
+				}
 
 				"ResultButton"
 				{
 					"ControlName"	"CExButton"
 					"fieldName"		"ResultButton"
+					"xpos"			"0"
+					"ypos"			"0"
 					"wide"			"p0.18"
-					"tall"			"f0"
+					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"	
+			
 					"labeltext"			"#TF_Competitive_Result"
-					"font"				"Size 12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"141 63 63 255"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"MainTheme"
-					"selectedFgColor_override" "MainTheme"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
+
+					"image_selectedcolor"	"255 255 255 255"
+					"image_armedcolor"		"0 0 0 0"
+					"image_drawcolor"		"0 0 0 0"
 
 					"command"	"sort0"
 					"actionsignallevel"	"4"
@@ -157,20 +222,25 @@
 					"xpos"			"p0.18"
 					"ypos"			"0"
 					"wide"			"p0.4"
-					"tall"			"f0"
+					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"	
 					"border_default"		"SortCategoryBorder"
+			
 					"labeltext"			"#TF_Competitive_Date"
-					"font"				"Size 12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
 
-					"defaultFgColor_override" "White"
-					"armedFgColor_override"	"MainTheme"
-					"selectedFgColor_override" "MainTheme"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
+
+					"image_selectedcolor"	"255 255 255 255"
+					"image_armedcolor"		"0 0 0 0"
+					"image_drawcolor"		"0 0 0 0"
 
 					"command"	"sort1"
 					"actionsignallevel"	"4"	
@@ -186,17 +256,31 @@
 					"xpos"			"p0.58"
 					"ypos"			"0"
 					"wide"			"p0.29"
-					"tall"			"f0"
+					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
+			
 					"labeltext"			"#TF_Competitive_Map"
-					"font"				"Size 12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
 					"textinsetx"		"15"
-					"mouseinputenabled"	"0"
+
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
+
+					"image_selectedcolor"	"255 255 255 255"
+					"image_armedcolor"		"0 0 0 0"
+					"image_drawcolor"		"0 0 0 0"
+
+					"command"	"sort2"
+					"actionsignallevel"	"4"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 
 				"KDRButton"
@@ -206,21 +290,29 @@
 					"xpos"			"p0.87"
 					"ypos"			"0"
 					"wide"			"p0.12"
-					"tall"			"f0"
+					"tall"			"18"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
+			
 					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"Size 12"
-					"fgcolor_override"	"White"
+					"font"				"HudFontSmallest"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"		"west"
-					"mouseinputenabled"	"0"
-				}
 
-				"SortArrow"
-				{
-					"ControlName"	"Label"
-					"visible"	"0"
+					"defaultFgColor_override" "TanDark"
+					"armedFgColor_override"	"Orange"
+					"selectedFgColor_override" "TanLight"
+
+					"image_selectedcolor"	"255 255 255 255"
+					"image_armedcolor"		"0 0 0 0"
+					"image_drawcolor"		"0 0 0 0"
+
+					"command"	"sort3"
+					"actionsignallevel"	"4"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 			}
 
@@ -228,36 +320,43 @@
 			{
 				"ControlName"	"CScrollableList"
 				"fieldName"		"MatchHistoryContainer"
-				"xpos"			"0"
-				"ypos"			"15"
-				"wide"			"f0"
-				"tall"			"f34"
+				"xpos"			"cs-0.5"
+				"ypos"			"40"
+				"wide"			"p0.95"
+				"tall"			"p0.78"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"restrict_width" "0"
+
 
 				"ScrollBar"
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1+3"
+					"xpos"			"rs1-1"
 					"ypos"			"0"
 					"tall"			"f0"
-					"wide"			"5"
+					"wide"			"5" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
 
 					"Slider"
 					{
-						"fgcolor_override"	"White"
+						"fgcolor_override"	"TanDark"
 					}
+		
 					"UpButton"
 					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
 						"visible"		"0"
 					}
+		
 					"DownButton"
 					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
 						"visible"		"0"
 					}
 				}
@@ -267,13 +366,16 @@
 			{
 				"ControlName"	"CLadderLobbyLeaderboard"
 				"fieldName"		"Leaderboard"
-				"wide"			"f0"
-				"tall"			"f19"
+				"xpos"			"cs-0.5"
+				"ypos"			"7"
+				"wide"			"p0.95"
+				"tall"			"p0.89"
+				"tall"			"f20"
 				"visible"		"0"
 				"enabled"		"1"
 				"mouseinputenabled" "1"
 				"scaleImage"	"1"
-				"entry_step"	"22"
+				"entry_step"	"23"
 				"proportionaltoparent"	"1"
 			}
 		}

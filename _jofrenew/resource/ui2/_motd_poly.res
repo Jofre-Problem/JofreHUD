@@ -131,8 +131,8 @@
 			command				"OpenServerBrowser"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -169,8 +169,8 @@
 			command				"OpenOptionsDialog"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -211,8 +211,8 @@
 			command				"engine open_charinfo; hideconsole"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -255,8 +255,8 @@
 			command				"engine con_enable 1; toggleconsole"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -281,8 +281,8 @@
 			command				"view_newuser_forums"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 

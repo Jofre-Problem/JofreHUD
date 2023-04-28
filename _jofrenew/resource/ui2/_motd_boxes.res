@@ -27,8 +27,8 @@
 			command				"OpenLoadSingleplayerCommentaryDialog"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"Box_Panel"
@@ -50,8 +50,8 @@
 			command				"engine bug"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenter"
@@ -73,8 +73,8 @@
 			command				OpenLoadGameDialog
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenterRight1"
@@ -96,8 +96,8 @@
 			command			"engine fogui"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenterRight2"
@@ -119,8 +119,8 @@
 			command				OpenChangeGameDialog
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenter"
@@ -142,8 +142,8 @@
 			command				OpenBonusMapsDialog
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenterLeft1"
@@ -165,8 +165,8 @@
 			command				OpenBenchmarkDialog
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxCenterLeft2"

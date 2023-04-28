@@ -9,7 +9,7 @@
 		"zpos"			"3000"
 		"wide"			"100"
 		"tall"			"20"
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"fgcolor"		"WhiteSolid"
 		"textAlignment"	"west"
 		"labeltext"		"Social Media"

@@ -10,11 +10,14 @@
 	}
 	"frame_menu"
 	{
-		"wide"		"0"
+		"visible"		"0"
 		"alpha"		"0"
 	}		
 	"progress"
 	{
+		ShowProgressText	"1"
+		ProgressText	"1"
+		"ControlName"	"ContinuousProgressBar"
 	}		
 	"TimeRemainingLabel"
 	{

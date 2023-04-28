@@ -1,8 +1,0 @@
-#base "base/filesv4-class/scout/main.res"
-#base "base/filesv4-class/scout/sound.res"
-#base "base/filesv4-class/scout/extra/tab0.res"
-#base "base/filesv4-class/scout/extra/pin2.res"
-#base "base/filesv4-class/scout/extra/south-west.res"
-#base "base/filesv4-class/scout/extra/def0.res"
-#base "base/filesv4-class/scout/extra/scale1.res"
-#base "res_base/classselection.res"

@@ -23,7 +23,7 @@
 		"zpos"			"0"
 		"wide"			"170"
 		"tall"			"15"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"Primary"
 		"border"	"Rice1"
 			"PartySlot0"
 		{

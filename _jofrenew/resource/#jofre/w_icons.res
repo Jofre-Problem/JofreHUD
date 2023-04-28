@@ -22,8 +22,8 @@
 		"default"									"1"
 		"Command"									"Close"
 		
-		"sound_depressed"							"sound_menu/button.wav"
-		"sound_released"							"sound_menu/button2.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
+		"sound_released"							"ui/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		
@@ -63,8 +63,8 @@
 		"Command"									"cancel"
 		"AllCaps"									"1"
 		
-		"sound_depressed"							"sound_menu/button.wav"
-		"sound_released"							"sound_menu/button2.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
+		"sound_released"							"ui/buttonclickrelease.wav"
 		"border_default"	"OutlinedGreyBox"
 		"border_armed"		"OutlinedDullGreyBox"		
 		"paintbackground"							"0"
@@ -99,8 +99,8 @@
 		"AllCaps"									"1"
 		"border_default"	"OutlinedGreyBox"
 		"border_armed"		"OutlinedDullGreyBox"		
-		"sound_depressed"							"sound_menu/button.wav"
-		"sound_released"							"sound_menu/button2.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
+		"sound_released"							"ui/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
 		

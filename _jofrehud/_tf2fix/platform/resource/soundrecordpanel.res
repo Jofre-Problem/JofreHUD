@@ -128,7 +128,7 @@
 		//"wide"		"360"
 		//"tall"		"24"
 		//"autoResize"		"1"
-		//"UnpinnedCornerOffsetX" "-20"
+		////"PinnedCornerOffsetY" "-20"
 		
 		////"visible"		"1"
 		//"enabled"		"0"
@@ -205,7 +205,7 @@
 		//"wide"		"360"
 		//"tall"		"2"
 		//"autoResize"		"1"
-		//"UnpinnedCornerOffsetX" "-20"
+		////"PinnedCornerOffsetY" "-20"
 		
 		////"visible"		"1"
 		

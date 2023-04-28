@@ -68,8 +68,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TankLabel"
-		"font"			"NotoBold12"
-		"fgcolor"		"NotoWhite"
+		"font"			"Regular12"
+		"fgcolor"		"White"
 		"xpos"			"18"
 		"ypos"			"2"
 		"zpos"			"5"

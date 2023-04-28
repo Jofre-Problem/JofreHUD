@@ -1,13 +1,7 @@
 //#base "../#jofre/blur_bg.res"
-//#base "../#jofre/char_tank.res"
-//#base "../#jofre/charbg.res"
-//#base "../ui2/tank.res"
-//#base "../ui2/testgradient.res"
-#base "../ui3/menu_multiple.res"
-//#base "../ui2/multiple-bg.res"
-"Resource/UI/CharInfoPanel.res"
+#base "../ui2/lead_bg.res"
+"Resource/UI/CharInfoArmorySubPanel.res"
 {
-
 	"armory_panel"
 	{
 		ControlName				Frame
@@ -15,516 +9,466 @@
 		ypos					0
 		wide					f0
 		tall					f0
+		zpos					5
 		settitlebarvisible		0
 		paintBackground			0
 
 		// Model panels
 		
-		"thumbnail_bgcolor"				"0 0 0 50"
-		"thumbnail_bgcolor_mouseover"	"0 0 0 125"
-		"thumbnail_bgcolor_selected"	"0 0 0 150"
+		thumbnail_bgcolor			"W_ColorTheme2"
+		thumbnail_bgcolor_mouseover	"W_ColorTheme4"
+		thumbnail_bgcolor_selected	"W_ColorLinea1"
 		
-		"thumbnails_rows"				"5"
-		"thumbnails_columns"			"4"
+		thumbnails_rows			4
+		thumbnails_columns		4
 		
-		"thumbnails_x"					"c-283"
-		"thumbnails_y"					"90"
-		"thumbnails_delta_x"			"7"
-		"thumbnails_delta_y"			"7"
+		thumbnails_x			c-290
+		thumbnails_y			74
+		thumbnails_delta_x		3
+		thumbnails_delta_y		3
 		
 		"thumbnail_modelpanels_kv"
 		{
-			"ControlName"				"CItemModelPanel"
-			"zpos"						"13"
-			"wide"						"62"
-			"tall"						"44"
-			"visible"					"0"
-			"bgcolor_override"			"0 0 0 255"
-			"noitem_textcolor"			"White"
-			"PaintBackgroundType"		"2"
-			"paintborder"				"0"
+			ControlName				CItemModelPanel
+			zpos					13
+			wide					69
+			tall					52
+			visible				0
+			bgcolor_override			"W_ColorTheme4"
+			noitem_textcolor			"117 107 94 255"
+			paintborder				0
+			paintBackgroundType		0
 			
-			"model_xpos"				"5"
-			"model_ypos"				"5"
-			"model_wide"				"53"
-			"model_tall"				"34"
-			"text_ypos"					"60"
-			"text_center"				"1"
-			"name_only"					"1"
+			model_xpos				2
+			model_ypos				7
+			model_wide				65
+			model_tall				38		// scales image
+			text_ypos				60
+			text_center				1
+			name_only				1
 			
-			"inset_eq_x"				"2"
-			"inset_eq_y"				"2"
+			inset_eq_x				2
+			inset_eq_y				2
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
-				"inventory_image_type"	"1"
-				"allow_rot"				"0"
+				use_item_rendertarget		0
+				allow_rot				0
 			}
 		}
 	}
-	"ItemsBG"
+
+	"LeftBackground"
 	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"ItemsBG"
-		"xpos"							"c-295"
-		"ypos"							"60"
-		"zpos"							"-1"
-		"wide"							"290"
-		"tall"							"290"
-		"visible"						"1"
-		"enabled"						"1"
-		"paintbackground"				"0"
-		"border"						"noborder"
+		ControlName				ImagePanel
+		fieldName				"LeftBackground"
+		xpos					c-293
+		ypos					120
+		zpos					-1
+		wide					290
+		tall					223
+		fillColor				"W_ColorTheme2"
 	}
-	
+	"CaratLabel"
+	{
+		"visible"			"0"
+		"tall"			"0"
+	}	
+
+	"FiltersLabel"
+	{
+		"visible"			"0"
+		"tall"			"0"
+	}		
 	"ArmoryLabel"
 	{
-		"wide"							"0"
-	}
-
+		"visible"			"0"
+		"tall"			"0"
+	}	
+	
 	"FilterComboBox"
 	{
-		"ControlName"					"ComboBox"
-		"fieldName"						"FilterComboBox"
-		"Font"							"Noto12"
-		"xpos"							"-13"
-		"ypos"							"-9"
-		"zpos"							"1"
-		"wide"							"266"
-		"tall"							"15"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"1"
-		"textHidden"					"0"
-		"editable"						"0"
-		"maxchars"						"-1"
-		"NumericInputOnly"				"0"
-		"unicode"						"0"
+		ControlName				ComboBox
+		fieldName				"FilterComboBox"
+		xpos						140
+		ypos						60
+		zpos						1
+		wide						195
+		tall						15
+		visible					1
+		enabled					1
 		
-		"fgcolor_override"				"White"
-		"bgcolor_override"				"Blank"
-		"disabledFgColor_override" 		"White"
-		"disabledBgColor_override" 		"Blank"
-		"selectionColor_override" 		"Blank"
-		"selectionTextColor_override" 	"White"
-		"defaultSelectionBG2Color_override" "Blank"
+		font						"HudFontSmallestBold"
+		textHidden				0
+		editable					0
+		maxchars					-1
+		NumericInputOnly		0
+		unicode					0
 		
-		"pin_to_sibling" 				"ItemsBG"
+		fgcolor_override							"W_ColorIcons1"
+		bgcolor_override							"W_ColorTheme2"
+		disabledFgColor_override				"W_ColorIcons1"
+		disabledBgColor_override				"W_ColorTheme2"
+		selectionColor_override					"Blank"
+		selectionTextColor_override			"W_ColorIcons1"
+		defaultSelectionBG2Color_override	"Blank"
+
 	}
 	
-	"FilterBG"
+	"DataPanel"			// item info
 	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"FilterBG"
-		"xpos"							"3"
-		"ypos"							"3"
-		"zpos"							"0"
-		"wide"							"271"
-		"tall"							"20"
-		"visible"						"1"
-		"enabled"						"1"
-		"border"						"noborder"
-		
-		"pin_to_sibling" 				"FilterComboBox"
-	}
-	
-	"PrevPageButton"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"PrevPageButton"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"1"
-		"wide"							"18"
-		"tall"							"46"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"<"
-		"font"							"NewIcons18"
-		"textAlignment"					"center"
-		"textinsety"					"3"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"prevpage"
-		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-		
-		"paintbackground"				"0"
-		
-	"defaultFgColor_override" 		"W_ColorTheme1"
-		"armedFgColor_override" 		"White"
-		"depressedFgColor_override" 	"W_ColorTheme1"
-		
-		
-		
-		"pin_to_sibling" 				"ItemsBG"
-		"pin_corner_to_sibling" 		"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 		"PIN_CENTER_LEFT"
-	}
-	
-	"PrevPageShortCut"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"PrevPageShortCut"
-		"xpos"							"9999"
-		"labelText"						"&A"
-		"Command"						"prevpage"
-		"visible"						"1"
-	}
-	
-	"CurPageLabel"
-	{
-		"ControlName"					"CExLabel"
-		"fieldName"						"CurPageLabel"
-		"font"							"Noto16"
-		"labelText"						"%thumbnailpage%"
-		"textAlignment"					"center"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"5"
-		"wide"							"60"
-		"tall"							"20"
-		"autoResize"					"1"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"fgcolor_override" 				"W_ColorTheme1"
-		
-		"pin_to_sibling" 				"ItemsBG"
-		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
-	}
-	
-	"NextPageButton"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"NextPageButton"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"1"
-		"wide"							"18"
-		"tall"							"46"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						">"
-		"font"							"NewIcons18"
-		"textAlignment"					"center"
-		"textinsety"					"3"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"nextpage"
-		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-		
-		"paintbackground"				"0"
-		
-	"defaultFgColor_override" 		"W_ColorTheme1"
-		"armedFgColor_override" 		"White"
-		"depressedFgColor_override" 	"W_ColorTheme1"
-		
-		
-		"pin_to_sibling" 				"ItemsBG"
-		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
-	}
-	
-	"NextPageShortCut"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"NextPageShortCut"
-		"xpos"							"9999"
-		"labelText"						"&D"
-		"Command"						"nextpage"
-		"visible"						"1"
-	}
-	
-	"DataPanel"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"DataPanel"
-		"xpos"							"c20"
-		"ypos"							"90"
-		"zpos"							"0"
-		"wide"							"0"
-		"tall"							"0"
-		"visible"						"1"
-		"PaintBackgroundType"			"0"
-		"paintborder"					"1"
-		"border"						"noborder"
+		ControlName					EditablePanel
+		fieldName					"DataPanel"
+		xpos							c3
+		ypos							120 // 71
+		zpos							5
+		wide							290
+		tall							220
+		visible						1
+
+		PaintBackground			1
+		bgcolor_override			"0 0 0 100"
+		paintborder					0
 
 		"Data_TextRichText"
 		{
-			"ControlName"				"CEconItemDetailsRichText"
-			"fieldName"					"Data_TextRichText"
-			"font"						"ScoreboardSmall"
-			"labelText"					"%datatext%"
-			"textAlignment"				"north-west"
-			"xpos"						"5"
-			"ypos"						"138"
-			"wide"						"260"
-			"tall"						"125"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"fgcolor"					"White"
-			"wrap"						"1"
-			"highlight_color"			"177 168 149 255"
-			"itemset_color"				"216 244 9 255"
-			"link_color"				"252 191 27 255"
-			"image_up_arrow"			"scroll_up_off"
-			"image_up_arrow_mouseover"	"scroll_up_on"
-			"image_down_arrow"			"scroll_down_off"
-			"image_down_arrow_mouseover" "scroll_down_on"
-			"image_line"				"ArmoryScrollbarWell"
-			"image_box"					"ArmoryScrollbarBox"
+			ControlName					CEconItemDetailsRichText
+			fieldName					"Data_TextRichText"
+			xpos							cs-0.5
+			ypos							0
+			wide							290
+			tall							220
+			proportionaltoparent		1
+			visible						1
+			
+			font							"ScoreboardSmall"
+			labelText					"%datatext%"
+			textAlignment				north-west
+			wrap							1
+
+			fgcolor						"113 113 113 255"
+			highlight_color			"56 142 60 255"
+			itemset_color				"216 244 9 255"
+			link_color					"252 191 27 255"
+
+			image_up_arrow						"scroll_up_off"
+			image_up_arrow_mouseover		"scroll_up_on"
+			image_down_arrow					"scroll_down_off"
+			image_down_arrow_mouseover		"scroll_down_on"
+			image_line							"ArmoryScrollbarWell"
+			image_box							"ArmoryScrollbarBox"
 		}
 	}
 	
-	"DescriptionBG"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"DescriptionBG"
-		"xpos"							"30"
-		"ypos"							"0"
-		"zpos"							"-1"
-		"wide"							"290"
-		"tall"							"290"
-		"visible"						"1"
-		"enabled"						"1"
-		"paintbackground"				"0"
-		"border"						"GrayDialogBorder"
-		
-		"pin_to_sibling" 				"ItemsBG"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-	}
-	
-	"SelectedItemModelPanel"
+	"SelectedItemModelPanel"		// item name and stats
 	{		
-		"ControlName"					"CItemModelPanel"
-		"fieldName"						"SelectedItemModelPanel"
-		"xpos"							"-10"
-		"ypos"							"-120"
-		"zpos"							"1"
-		"wide"							"270"
-		"tall"							"140"
-		"visible"						"1"
-		"paintbackground"				"1"
-		"bgcolor_override"				"0 0 0 40"
-		"PaintBackgroundType"			"0"
-		"paintborder"					"0"
+		ControlName				CItemModelPanel
+		fieldName				SelectedItemModelPanel
+		xpos						0
+		ypos						0
+		zpos						1
+		wide						290
+		tall						150
+		visible					1
+		bgcolor_override		"W_ColorTheme1"
+		PaintBackground		1
+		paintBackgroundType	0
+		paintborder				0
+
+		pin_to_sibling				"DataPanel"
+		pin_corner_to_sibling	PIN_BOTTOMLEFT
+		pin_to_sibling_corner	PIN_TOPLEFT
 		
-		"model_hide"					"1"
-		"text_center"					"0"
-		"resize_to_text" 				"0"
-		"text_ypos"						"2"
-		
-		"pin_to_sibling" 				"DescriptionBG"
+		model_hide				1
+		text_center				1
+		resize_to_text			1
 		
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 	"0"
-			"inventory_image_type" 		"1"
-			"allow_rot"					"0"
+			use_item_rendertarget	0
+			inventory_image_type		1
+			allow_rot					0
 		}
-	}	
+	}
+
 	"SelectedItemImageModelPanel"
 	{		
-		"ControlName"					"CItemModelPanel"
-		"fieldName"						"SelectedItemImageModelPanel"
-		"xpos"							"0"
-		"ypos"							"-10"
-		"zpos"							"5"
-		"wide"							"290"
-		"tall"							"140"
-		"visible"						"1"
-		"paintbackground"				"0"
-		"PaintBackgroundType"			"2"
-		"paintborder"					"0"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"SelectedItemImageModelPanel"
+		"xpos"			"c-280"		// Slightly right of center, because the photo background is
+		"ypos"			"160"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"140"
+		"visible"		"0"
+		"bgcolor_override"		"Blank"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"0"
 		
-		"model_ypos"					"2"
-		"model_tall"					"75"
-		"name_only"						"0"
-		"attrib_only"					"0"
-		"model_only"					"1"
-		"paint_icon_hide"				"1"
-		
-		"pin_to_sibling" 				"DescriptionBG"
+		"model_ypos"	"10"
+		"model_tall"	"120"
+		"name_only"		"0"
+		"attrib_only"	"0"
+		"model_only"	"1"
+		"paint_icon_hide"	"1"
 		
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 	"0"
-			"inventory_image_type" 		"1"
-			"allow_rot"					"0"
+			"use_item_rendertarget" "0"
+			"inventory_image_type" "1"
+			"allow_rot"				"0"
 		}
 	}	
 	
 	"mouseoveritempanel"
 	{
-		"ControlName"					"CItemModelPanel"
-		"fieldName"						"mouseoveritempanel"
-		"xpos"							"c-70"
-		"ypos"							"270"
-		"zpos"							"10000"
-		"wide"							"250"
-		"tall"							"180"
-		"visible"						"0"
-		"bgcolor_override"				"Blank"
-		"noitem_textcolor"				"White"
-		"PaintBackgroundType"			"2"
-		"paintborder"					"1"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"10000"
+		"visible"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
 		
-		"text_ypos"						"20"
-		"text_center"					"1"
-		"model_hide"					"0"
-		"resize_to_text"				"0"
-		"padding_height"				"15"
-		"name_only"						"1"
+		"text_ypos"			"9999"
+		"text_center"		"1"
+		"model_hide"		"0"
+		"resize_to_text"	"0"
+		"padding_height"	"15"
+		"name_only"			"1"
 		
-		"model_ypos"					"40"
-		"model_xpos"					"50"
-		"model_wide"					"156"
-		"model_tall"					"100"
+		"model_ypos"	"40"
+		"model_xpos"	"50"
+		"model_wide"	"156"
+		"model_tall"	"100"
 		
-		"text_forcesize"				"1"
-		"is_mouseover"					"1"
+		"text_forcesize"	"1"
+		"is_mouseover"		"1"
 		
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" 	"0"
-			"inventory_image_type" 		"1"
-			"allow_rot"					"0"
-		}
+			"use_item_rendertarget" "0"
+			"inventory_image_type" "1"
+			"allow_rot"				"0"
+		}			
+	}
+
+	"PagesBackground"
+	{
+		ControlName					ImagePanel
+		fieldName					"PagesBackground"
+		xpos							0
+		ypos							2
+		zpos							-1
+		wide							100
+		tall							15
+		visible						1
+		fillColor					"W_ColorTheme2"
+
+		pin_to_sibling				"LeftBackground"
+		pin_corner_to_sibling	PIN_TOPRIGHT
+		pin_to_sibling_corner	PIN_BOTTOMRIGHT
 	}
 	
+
+	"NextPageButton"
+	{
+		ControlName			CExButton
+		fieldName			"NextPageButton"
+		xpos					0
+		ypos					0
+		zpos					5
+		wide					20
+		tall					15
+		visible				1
+		enabled				1
+
+		command				"nextpage"
+
+		labelText			">"
+		font					"NewIcons12"
+		textAlignment		center
+
+		defaultFgColor_override			"W_ColorIcons1"
+		armedFgColor_override			"W_BorderArmed"
+		disabledFgColor2_override		"Blank"
+		paintbackground					0
+
+		sound_depressed	"UI/buttonclick.wav"
+		sound_released		"UI/buttonclickrelease.wav"
+
+		pin_to_sibling				"PagesBackground"
+		pin_corner_to_sibling	PIN_TOPRIGHT
+		pin_to_sibling_corner	PIN_TOPRIGHT
+	}
+
+	"NextPageShortCut"
+	{
+		ControlName		CExButton
+		fieldName		"NextPageShortCut"
+		visible 0
+		labelText		"&D"
+		Command			"nextpage"
+	}
+	
+	"CurPageLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"CurPageLabel"
+		xpos					0
+		ypos					0
+		zpos					5
+		wide					60
+		tall					15
+		visible				1
+		
+		font					"ItemFontAttribLarger"
+		labelText			"%thumbnailpage%"
+		textAlignment		center
+		textinsety			1
+
+		fgcolor_override	"W_ColorIcons1"
+		paintbackground	0
+
+		pin_to_sibling				"NextPageButton"
+		pin_corner_to_sibling	PIN_TOPRIGHT
+		pin_to_sibling_corner	PIN_TOPLEFT
+	}
+	"PrevPageButton"
+	{
+		ControlName			CExButton
+		fieldName			"PrevPageButton"
+		xpos					0
+		ypos					0
+		zpos					5
+		wide					20
+		tall					15
+		visible				1
+		enabled				1
+
+		command				"prevpage"
+
+		labelText			"<"
+		font					"NewIcons12"
+		textAlignment		center
+
+		defaultFgColor_override			"W_ColorIcons1"
+		armedFgColor_override			"W_BorderArmed"
+		disabledFgColor2_override		"Blank"
+		paintbackground					0
+
+		sound_depressed	"UI/buttonclick.wav"
+		sound_released		"UI/buttonclickrelease.wav"
+
+		pin_to_sibling				"CurPageLabel"
+		pin_corner_to_sibling	PIN_TOPRIGHT
+		pin_to_sibling_corner	PIN_TOPLEFT
+	}
+
+	"PrevPageShortCut"
+	{
+		ControlName		CExButton
+		fieldName		"PrevPageShortCut"
+		visible 0
+		labelText		"&A"
+		Command			"prevpage"
+	}
+	
+		
 	"WikiButton"
 	{
-		"ControlName"					"CExButton"
-		"fieldName"						"WikiButton"
-		"xpos"							"-5"
-		"ypos"							"-5"
-		"zpos"							"20"
-		"wide"							"138"
-		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"#ArmoryButton_Wiki"
-		"font"							"Noto14"
-		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"wiki"
+		ControlName				CExButton
+		fieldName				"WikiButton"
+		xpos						0
+		ypos						2
+		zpos						20
+		wide						95
+		tall						20
+		visible					1
+
+		labelText				"#ArmoryButton_Wiki"
+		font						"ItemFontAttribLarger"
+		textAlignment			center
+
+		Command					"wiki"
+
+		sound_depressed		UI/buttonclick.wav
+		sound_released			UI/buttonclickrelease.wav
+
+		pin_to_sibling				"DataPanel"
+		pin_corner_to_sibling	PIN_TOPRIGHT
+		pin_to_sibling_corner	PIN_BOTTOMRIGHT
+		"defaultFgColor_override" "W_ColorIcons1"
+		"armedFgColor_override" "W_ColorTheme1"
+		"depressedFgColor_override" "W_ColorTheme2"
 		
-		"paintbackground"				"0"
-		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-		
-		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"W_borderarmed"
-		"depressedFgColor_override" 	"White"
-		
-		"pin_to_sibling" 				"DescriptionBG"
-		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-	}
+		"defaultBgColor_override" "W_ColorTheme1"
+		"armedBgColor_override" "W_BorderArmed"
+		"depressedBgColor_override" "W_CerrarArmed"	
+	}				
 	
 	"StoreButton"
 	{
-		"ControlName"					"CExButton"
-		"fieldName"						"StoreButton"
-		"xpos"							"-5"
-		"ypos"							"-5"
-		"zpos"							"20"
-		"wide"							"138"
-		"tall"							"20"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"#ArmoryButton_Store"
-		"font"							"Noto14"
-		"textAlignment"					"center"
-		"textinsetx"					"0"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"paintbackground"				"0"
+		ControlName		CExButton
+		fieldName		"StoreButton"
+		xpos				0
+		ypos				2
+		zpos				20
+		wide				97
+		tall				20
+		visible			0
+		enabled			1
+
+		labelText		"#ArmoryButton_Store"
+		font				"ItemFontAttribLarger"
+		textAlignment	center
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		Command			"openstore"
+
+		sound_depressed	"UI/buttonclick.wav"
+		sound_released		"UI/buttonclickrelease.wav"
+
+		pin_to_sibling				"DataPanel"
+		pin_corner_to_sibling	PIN_CENTER_TOP
+		pin_to_sibling_corner	PIN_CENTER_BOTTOM
+
+		"defaultFgColor_override" "W_ColorIcons1"
+		"armedFgColor_override" "W_ColorTheme1"
+		"depressedFgColor_override" "W_ColorTheme2"
 		
-		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"W_borderarmed"
-		"depressedFgColor_override" 	"White"
-		
-		"pin_to_sibling" 				"DescriptionBG"
-		"pin_corner_to_sibling" 		"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMRIGHT"
+		"defaultBgColor_override" "W_ColorTheme1"
+		"armedBgColor_override" "W_BorderArmed"
+		"depressedBgColor_override" "W_CerrarArmed"	
 	}
-	
+
 	"ViewSetButton"
 	{
-		"ControlName"					"CExButton"
-		"fieldName"						"ViewSetButton"
-		"xpos"							"-5"
-		"ypos"							"-5"
-		"zpos"							"20"
-		"wide"							"140"
-		"tall"							"0"		//20
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"#ArmoryButton_SetDetails"
-		"font"							Noto14
-		"textAlignment"					"center"
-		"textinsetx"					"0"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"viewset"
-		
-		"paintbackground"				"0"
-		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
-		
-		
-		"defaultFgColor_override" 		"White"
-		"armedFgColor_override" 		"W_ColorTheme1"
-		"depressedFgColor_override" 	"White"
-		
-		"pin_to_sibling" 				"DescriptionBG"
-		"pin_corner_to_sibling" 		"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMRIGHT"
-	}
-	
-	"CaratLabel"
-	{
-		"ControlName"					"CExLabel"
-		"fieldName"						"CaratLabel"
-		"xpos"							"9999"
-	}
-	"FiltersLabel"
-	{
-		"ControlName"					"CExLabel"
-		"fieldName"						"FiltersLabel"
-		"xpos"							"9999"
+		ControlName		CExButton
+		fieldName		"ViewSetButton"
+		xpos				0
+		ypos				2
+		zpos				20
+		wide				95
+		tall				20
+		visible			1
+		enabled			1
+
+		labelText		"#ArmoryButton_SetDetails"
+		font				"ItemFontAttribLarger"
+		textAlignment	center
+
+		Command				"viewset"
+
+		sound_depressed	"UI/buttonclick.wav"
+		sound_released		"UI/buttonclickrelease.wav"
+
+		pin_to_sibling				"DataPanel"
+		pin_corner_to_sibling	PIN_TOPLEFT
+		pin_to_sibling_corner	PIN_BOTTOMLEFT
 	}
 }

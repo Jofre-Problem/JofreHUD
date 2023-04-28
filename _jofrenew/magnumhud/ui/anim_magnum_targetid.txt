@@ -1,0 +1,29 @@
+
+event HudHealthBonusPulse
+{	Animate PlayerStatusHealthValueID Fgcolor "Positive" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID2 Fgcolor "Positive" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID3 Fgcolor "Positive" linear 0.0 0.01
+}
+
+event HudHealthBonusPulseStop
+{
+
+	Animate PlayerStatusHealthValueID Fgcolor "Neutral" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID2 Fgcolor "Neutral" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID3 Fgcolor "Neutral" linear 0.0 0.01
+
+}
+
+
+event HudHealthDyingPulse
+{	Animate PlayerStatusHealthValueID Fgcolor "Negative" linear 0.0 0.06	Animate PlayerStatusHealthValueID2 Fgcolor "Negative" linear 0.0 0.06	Animate PlayerStatusHealthValueID3 Fgcolor "Negative" linear 0.0 0.06	}
+
+
+event HudHealthDyingPulseStop
+{
+	Animate PlayerStatusHealthValueID Fgcolor "236 240 241 255" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID3 Fgcolor "236 240 241 255" linear 0.0 0.01
+
+}
+

@@ -230,7 +230,7 @@
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"251 235 202 255"
 		"paintbackgroundtype" "2"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"proportionalToParent"	"1"
 	}
 
@@ -243,7 +243,7 @@
 		"zpos"			"1"
 		"wide"			"95" //From 90
 		"tall"			"25"
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		//"enabled"		"1"
@@ -251,13 +251,13 @@
 		"labelText"		"#ShuffleContents"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"default"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"Command"		"shuffle"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"proportionalToParent"	"1"
 	}
 		
@@ -277,13 +277,13 @@
 		"labelText"		"#TF_VR_Close"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"default"		"0"
 		"Command"		"cancel"
 		"tabPosition"	"1"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"proportionalToParent"	"1"
 	}
 
@@ -303,12 +303,12 @@
 		"labelText"		"#GetKey"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"default"		"0"
 		"Command"		"getkey"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"proportionalToParent"	"1"
 	}
 
@@ -328,12 +328,12 @@
 		"labelText"		"#UseKey"
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"default"		"0"
 		"Command"		"usekey"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"proportionalToParent"	"1"
 	}
 }

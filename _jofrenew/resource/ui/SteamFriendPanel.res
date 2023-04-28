@@ -81,7 +81,7 @@
 		proportionaltoparent		1
 		visible						1
 
-		font							"NotoBold40"
+		font							"Size 36"
 		labelText					"______"		// https://unicode-table.com/en/2588/
 		textAlignment				west
 

@@ -3,7 +3,7 @@
 	{	}	"MOTD_Panel"	{	
 		"last"		{			"ControlName"		"CExLabel"		"fieldName"	
 			"last"
-			"font"			"Segoe8"
+			"font"			"Default"
 			"labelText"		"TF2 update:"
 			"textAlignment"		"center"
 			"xpos" 			"rs1-5"
@@ -72,8 +72,8 @@
 			command				"engine cl_coach_find_coach"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -97,8 +97,8 @@
 			command				"engine cl_coach_toggle"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -122,8 +122,8 @@
 			command				"engine replay_reloadbrowser"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -147,8 +147,8 @@
 			command				"engine toggle cl_software_cursor"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -172,8 +172,8 @@
 			command				"OpenCreateMultiplayerGameDialog"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -198,8 +198,8 @@
 			command				"engine toggle cl_hud_minmode"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -224,8 +224,8 @@
 			command				"OpenAchievementsDialog"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -251,8 +251,8 @@
 			command				"engine open_store"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 

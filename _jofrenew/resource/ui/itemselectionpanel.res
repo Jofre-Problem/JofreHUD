@@ -1,4 +1,4 @@
-#base "../ui2/multiple-bg.res"
+#base "../ui2/lead_bg.res"
 #base "../ui2/tank.res"
 "Resource/UI/ItemSelectionPanel.res"
 {
@@ -70,7 +70,7 @@
 		}
 		"duplicatelabels_kv"
 		{
-			"font"			"Noto12"
+			"font"			"Regular12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"94"
@@ -78,8 +78,8 @@
 			"textAlignment"	"west"
 			"textinsetx"	"4"
 			"zpos"			"1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"enabled"		"1"
 			"fgcolor"		"24 24 24 255"
 		}
@@ -87,11 +87,11 @@
 	
 	"ClassLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"ItemSlotLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"SearchLabel"
@@ -107,10 +107,10 @@
 		"wide"			"300"
 		"tall"			"30"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"W_ColorTheme1"
+		"fgcolor"		"white"
 	}
 
 	"NameFilterTextEntry"
@@ -122,8 +122,8 @@
 		"zpos"		"3"
 		"wide"		"285"
 		"tall"		"30"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"1"
@@ -133,7 +133,7 @@
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 0"
 		"paintbackgroundtype" "0"
-		"font"		"Noto20"
+		"font"		"Size 20"
 	}
 	
 	"TextLine"
@@ -145,11 +145,11 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"255 255 255 255"
 		"PaintBackgroundType"	"0"
 	}				
@@ -166,13 +166,13 @@
 		"zpos"			"10"
 		"wide"			"580"
 		"tall"			"80"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 	}
 	
 	
@@ -205,19 +205,19 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"20"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textinsetx"	"0"
 		"textAlignment"	"east"
 		
 		"auto_wide_tocontents"	"1"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
-		"defaultBgColor_override" 	"34 34 34 255"
-		"armedBgColor_override" 		"34 34 34 255"
-		"depressedBgColor_override" 	"34 34 34 255"
+		"defaultBgColor_override" 	"0 0 0 100"
+		"armedBgColor_override" 		"0 0 0 100"
+		"depressedBgColor_override" 	"0 0 0 100"
 		
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP" // Corner of this Element
@@ -229,19 +229,19 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"20"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textinsetx"	"0"
 		"textAlignment"	"west"
 		
 		"auto_wide_tocontents"	"1"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
-		"defaultBgColor_override" 	"34 34 34 255"
-		"armedBgColor_override" 		"34 34 34 255"
-		"depressedBgColor_override" 	"34 34 34 255"
+		"defaultBgColor_override" 	"0 0 0 100"
+		"armedBgColor_override" 		"0 0 0 100"
+		"depressedBgColor_override" 	"0 0 0 100"
 		
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP" // Corner of this Element
@@ -263,13 +263,13 @@
 	
 	"CurPageLabel"
 	{
-		"font"			"NotoBold14"
+		"font"			"Size 14"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"20"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 		"textinsety"	"0"
 		
 		"auto_wide_tocontents"	"1"
@@ -283,7 +283,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PageLabel"
-		"font"			"Noto14"
+		"font"			"Size 14"
 		"labelText"		"Page:"
 		"textAlignment"	"east"
 		"xpos"			"5"
@@ -292,10 +292,10 @@
 		"wide"			"40"
 		"tall"			"20"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 		"auto_wide_tocontents"	"1"
 		
 		"pin_to_sibling" "CurPageLabel"
@@ -315,9 +315,9 @@
 		"font"			"NewIcons17"
 		"textAlignment"	"center"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
 		"defaultBgColor_override" 	"46 43 42 0"
 		"armedBgColor_override" 	"240 240 240 0"
@@ -335,9 +335,9 @@
 		"font"			"NewIcons17"
 		"textAlignment"	"center"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
 		"defaultBgColor_override" 	"46 43 42 0"
 		"armedBgColor_override" 	"240 240 240 0"
@@ -373,8 +373,8 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"

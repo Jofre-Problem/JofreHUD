@@ -1,5 +1,7 @@
+
 #base "../../ui_overrides/full-timer/file.res"
-#base "../../ui_overrides/summer-border/file.res"
+#base "../../../../../cfg/jp_steam_border.txt"
+#base "../ui3/partyslot0.res"
 #base "../ui3/tank_gif.res"
 #base "../ui3/keybindings.res"
 #base "../uni_base/cexlabel/tf2.res"
@@ -13,13 +15,7 @@
 	{
 		"xpos"			"rs1-90"
 	}	
-		"SummerBorder"
-		{
-		"xpos""cs-0.5"
-		"ypos""45"
-			//"pin_to_sibling"	"PartySlot0"
-				//cant pin
-		}	
+
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -30,32 +26,24 @@
 			}		
 	"Removeline"
 	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					cs-0.5
-			ypos					50
+
+			
 			zpos					100
 			wide					42
-			tall					41
+			tall					40
 		bgcolor_override				"blank"
-		mouseInputEnabled			0
 
-		"PartySlot0"  // player
+	}	
+		"SummerBorder"
 		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					42
-			tall					o1
-
-			party_slot				0
-		}	
-	}			
+//"xpos""cs-0.5"
+	//	"ypos""45"
+			//"pin_to_sibling"	"PartySlot0"
+				//cant pin
+		}				
 	"MenuBG"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"Key1"
 	{
@@ -71,7 +59,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -85,13 +73,13 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Noto14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -104,7 +92,7 @@
 		"zpos"			"3"
 		"wide"			"135"
 		"tall"			"15"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -127,7 +115,7 @@
 		"wide"			"291"
 		"tall"			"96"
 		"autoResize"	"3"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
@@ -148,11 +136,11 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Noto14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}
 	"MapInfoBack2" 
@@ -168,20 +156,20 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Noto14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}	
 	"ShadedBar"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"MapInfoContinue"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}			
 	"MapInfoWatchIntro" 
 	{
@@ -192,14 +180,14 @@
 		"zpos"			"3"
 		"wide"			"135"
 		"tall"			"15"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WatchIntro"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"command"		"intro"
 		"default"		"1"
 		"border_default"	""
@@ -208,7 +196,7 @@
 		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}
 
@@ -219,21 +207,21 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"command"		"back"
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 		"fgcolor"		"Blank"
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"
@@ -246,7 +234,7 @@
 		"xpos"			"11111"
 		"ypos"			"11111"
 		"zpos"			"2"
-		"wide"			"0"
+		"visible"			"0"
 		"wide_hidef"			"0"
 		"wide_lodef"	"0"
 		"tall"			"0"

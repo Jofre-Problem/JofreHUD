@@ -39,6 +39,6 @@
 		button_activation_type	1		// check out!
 
 
-		sound_depressed			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclickrelease.wav"
 	}	
 }

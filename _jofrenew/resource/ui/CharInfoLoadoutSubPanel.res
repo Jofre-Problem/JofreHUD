@@ -1,15 +1,42 @@
+//#base "../#bases/reload_scheme.res"
 //#base "../#jofre/downbar.res"
 //#base "../#jofre/dashboard_bg.res"
 //#base "../#jofre/new_mm_panel1.res"
 //#base "../#jofre/blur_bg.res"
-//#base "../#jofre/charbg.res"
+//#base "../#jofre/blur_bg_image.res"
 //#base "../ui2/tank.res"
-#base "../ui3/menu_multiple.res"
-//#base "../#jofre/socialmedia.res"
+#base "../ui2/lead_bg.res"
 //#base "../../#jofre/partymembers.res"
 //#base "../../#customization/resource/ui/summersale_border.res"
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
-{		
+{
+		"bg"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"bg"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"		"-9"
+			"wide"									"f0"
+			"tall"									"p2"
+			"fillcolor"		"34 34 34 255"
+		}
+	"MenuColorizer"
+	{
+
+		"SubImage"
+		{
+
+		//	"drawcolor"								"245 245 245 245"
+		}
+
+		"SubImage2"
+		{
+
+		//	"drawcolor"								"245 245 245 255"
+		}
+	}
+	// can't change pos, width, height
 	"CharInfoLoadoutSubPanel"
 	{
 		ControlName				Frame
@@ -19,33 +46,14 @@
 		settitlebarvisible		0	// ?
 		"ypos"			"40"
 		"wide"			"f0"
-		"tall"			"489"	
+		"tall"			"485"	
 		paintbackground			0
 		zpos -500
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
-	}
-	"ShowArmoryLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowArmoryLabel"
-		xpos				9999
-	}	
-	"ClassLabel"
-	{
-		"ControlName"			"CEXLABEL"
-		"xpos"					"80"
-		"ypos"					"0"
-		"wide"					"16"
-		"tall"					"o1"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"	"center"
-		"labelText"					"?"
-		"font"			"Noto16"
-		"zpos"					"6000"
-	}
-
+	}		
+	// #region CLASS BUTTONS 
+	// #endregion
 	"ScoutButton"			// other classes pinned to this
 	{
 		ControlName				CExButton
@@ -58,16 +66,20 @@
 		labelText				"Ñ"
 		font					"Future30"
 		textAlignment			center
-		textinsety				-2		// tune icon position
+	
 
 		Command				"loadout scout"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"
+		
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
+		
+		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"vo/scout_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 		pin_to_sibling 			"SoldierButton"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -82,8 +94,10 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"	
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		labelText				"Ò"
 		font					"Future30"
@@ -94,8 +108,7 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"vo/soldier_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 
 		paintbackground 			0	
 		pin_to_sibling 			"PyroButton"
@@ -111,9 +124,10 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"	
-
+	"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 		labelText				"Ó"
 		font					"Future30"
 		textAlignment			center
@@ -123,8 +137,7 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"vo/pyro_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 
 		paintbackground 			0
 		
@@ -141,8 +154,10 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"	
+	"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		labelText				"Ô"
 		font					"Future30"
@@ -153,8 +168,7 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released				"vo/demoman_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 		
 		paintbackground 			0
 
@@ -171,8 +185,11 @@
 		"ypos"							"60"
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
+
 		labelText					"Õ"
 		font					"Future30"
 		textAlignment			center
@@ -182,8 +199,7 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"vo/heavy_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 
 		paintbackground 			0
 	}
@@ -202,14 +218,14 @@
 		textAlignment			center
 		
 		Command				"loadout engineer"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"		
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"	
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"vo/engineer_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
-
+		
 		paintbackground 			0
 
 		pin_to_sibling 			"HeavyButton"
@@ -225,10 +241,11 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"		
-		
-		labelText			"×"
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"	
+	labelText			"×"
 		font					"Future30"
 		textAlignment			center
 		
@@ -237,8 +254,6 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"vo/medic_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
 		
 		paintbackground 			0
 		
@@ -255,8 +270,10 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"	
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"	
 
 		labelText				"Ø"
 		font					"Future30"
@@ -266,9 +283,7 @@
 		
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released				"vo/sniper_go01.mp3"
-		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+
 		
 		paintbackground 			0
 		
@@ -285,8 +300,10 @@
 		ypos					0
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"	
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"
+		defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		labelText				"Ù"
 		font					"Future30"
@@ -297,8 +314,6 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"vo/spy_go01.mp3"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
 
 		paintbackground 			0
 		
@@ -328,12 +343,12 @@
 		
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"UI/ButtonClickrelease.wav"
-					"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"				
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"			
 		paintbackground			0
 		
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+			defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 		pin_to_sibling 			"CraftingButton"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
@@ -347,8 +362,8 @@
 		"ypos"							"0"
 		"wide"							"54"
 		"tall"							"100"
-					"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"		
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"		
 		font					"NewIcons57"
 		labelText				"À"
 		textAlignment			center
@@ -358,8 +373,8 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"UI/ButtonClickrelease.wav"
 				
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+			defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		paintbackground			0
 		
@@ -376,8 +391,8 @@
 		"ypos"							"250"
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"			
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"		
 		font					"NewIcons57"
 		labelText				"Á"
 		textAlignment			center
@@ -387,8 +402,8 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"UI/ButtonClickrelease.wav"
 				
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+			defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		paintbackground			0
 
@@ -401,8 +416,8 @@
 		"ypos"							"0"
 		"wide"							"54"
 		"tall"							"100"
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"					
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"					
 		font					"NewIcons57"
 		labelText				"Ã"
 		textAlignment			center
@@ -412,8 +427,8 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"UI/ButtonClickrelease.wav"
 				
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+			defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 		"pin_to_sibling" 				"ArmoryButton"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -437,55 +452,65 @@
 		sound_depressed			"UI/ButtonClick.wav"
 		sound_released			"UI/ButtonClickrelease.wav"
 				
-			defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"tf23"
+			defaultFgColor_override		"0 0 0 255"
+		armedFgColor_override		"255 255 255 255"
 
 		paintbackground			0
-				"border_default"				"WBorder_2"
-		"border_armed"					"ReplayHighlightBorder"		
+		"border_default"			"B_CIcons1"
+		"border_armed"					"WBorder_2"	
 		pin_to_sibling 			"TradeButton"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 	}
 	
-	//"class_loadout_panel"
-	//	wide					f0
-	//	tall					450		//  411 parent's height
-	"class_loadout_panel"
+
+
+	// #endregion
+
+	// #region CHARINFO PANELS 
+
+	"class_loadout_panel" //---------
 	{
-		"ControlName"					"CClassLoadoutPanel"
-		"fieldName"						"class_loadout_panel"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"f0"
-		"tall"							"f0"
-		"visible"						"0"
+		ControlName				CClassLoadoutPanel
+		fieldName				"class_loadout_panel"
+		xpos					0
+		ypos					0
+		zpos					5
+		wide					f0
+		tall					f0		//  411 parent's height
+		//proportionaltoparent	1	// requires reload on launch
+		visible				0
+
+		// => resource\ui\ClassLoadoutPanel.res
 	}
 
 	"backpack_panel"
 	{
-		"ControlName"					"CBackpackPanel"
-		"fieldName"						"backpack_panel"
-		"xpos"							"0"
-		"ypos"							"60"
-		"wide"							"f0"
-		"tall"							"f0"
-		"visible"						"0"
+		ControlName				CBackpackPanel
+		fieldName				"backpack_panel"
+		xpos					0
+		ypos					0
+		tall		f0
+		zpos					5
+		visible				0
+
+		// => resource\ui\econ\BackpackPanel.res
 	}
 
-	// crafting_panel => resource\ui\CraftingPanel.res"
+	// crafting_panel => resource\ui\CraftingPanel.res
 
 	"armory_panel"
 	{
 		ControlName				CArmoryPanel
 		fieldName				"armory_panel"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"f0"
-		"tall"							"f0"
+		xpos					0
+		ypos					0
+		zpos					5
+		wide					f0
+		tall					411
 		visible				0
 
-		// => resource\ui\CharInfoArmorySubPanel.res"
+		// => resource\ui\CharInfoArmorySubPanel.res
 	}
 
 	"InspectionPanel"		// warpaints, drawn over other charinfo panels
@@ -493,16 +518,16 @@
 		fieldName				"InspectionPanel"
 		xpos					cs-0.5
 		ypos					0
-		"zpos"			"14000"
-		wide					f0
+		zpos					6			// on top of other panels
+		wide					f70
 		tall					"f0"//p0.9472
 		visible				0
 		paintbackground			0
 
-		// => resource\ui\econ\InspectionPanel.res"
+		// => resource\ui\econ\InspectionPanel.res
 	}
 
-	// trading panel => resource\ui\econ\TradingStartDialog.res"
+	// trading panel => resource\ui\econ\TradingStartDialog.res
 
 	// #endregion
 	
@@ -598,94 +623,6 @@
 		Command				"backpack"
 	}
 
-
-
-	"ShowBackpackLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowBackpackLabel"
-		xpos				9999
-	}
-	"ShowCraftingLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowCraftingLabel"
-		xpos				9999
-	}
-
-	"ShowArmoryLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowArmoryLabel"
-		xpos				9999
-	}
-	"ShowTradeLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowTradeLabel"
-		xpos				9999
-	}
-	"ShowPaintkitsButton"
-	{
-		ControlName			ImageButton
-		fieldName			"ShowPaintkitsButton"
-		xpos				9999
-	}
-	"ShowPaintkitsLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ShowPaintkitsLabel"
-		xpos				9999
-	}
-//	"ClassLabel"
-//	{
-///		ControlName			Label
-//		fieldName			"ClassLabel"
-//		wide			0
-//	}
-	"SelectLabel"
-	{
-		wide			0
-	}	
-	"ItemsLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"ItemsLabel"
-		wide			0
-	}
-	"NoSteamLabel"
-	{
-			ControlName				CExLabel
-			FieldName				"NoSteamLabel"
-			xPos					rs1-5
-			yPos					r25
-			wide					p0.6
-			tall					1051
-			proportionalToParent		1
-
-			font					"CompMatchStartTeamNames"
-			labelText				"#NoSteamNoItems"
-			textAlignment			east
-			wrap					0
-			enabled					1
-			visible					1
-			fgcolor				"W_ColorTheme1"
-			paintBackground			0
-	}		
-	"NoGCLabel"
-	{
-		ControlName			CExLabel
-		fieldName			"NoGCLabel"
-		visible			0
-	}
-	"LoadoutChangesLabel"
-	{
-		wide			0
-	}
-	"ShowExplanationsButton"
-	{
-		wide			0
-	}
 	// #endregion
 	
 	// #region DISABLED 
@@ -750,7 +687,12 @@
 		fieldName			"ShowArmoryButton"
 		xpos				9999
 	}	
-
+	"ShowArmoryLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"ShowArmoryLabel"
+		xpos				9999
+	}
 	"ShowCraftingButton"
 	{
 		ControlName			ImageButton
@@ -796,6 +738,39 @@
 		ControlName			CExLabel
 		fieldName			"ItemsLabel"
 		wide			0
-	}	
+	}
+	"NoSteamLabel"
+	{
+			ControlName				CExLabel
+			FieldName				"NoSteamLabel"
+			xPos					rs1-5
+			yPos					r25
+			wide					p0.6
+			tall					1051
+			proportionalToParent		1
+
+			font					"CompMatchStartTeamNames"
+			labelText				"#NoSteamNoItems"
+			textAlignment			east
+			wrap					0
+			enabled					1
+			visible					1
+			fgcolor				"W_ColorTheme1"
+			paintBackground			0
+	}		
+	"NoGCLabel"
+	{
+		ControlName			CExLabel
+		fieldName			"NoGCLabel"
+		visible			0
+	}
+	"LoadoutChangesLabel"
+	{
+		wide			0
+	}
+	"ShowExplanationsButton"
+	{
+		wide			0
+	}
 	// #endregion
 }

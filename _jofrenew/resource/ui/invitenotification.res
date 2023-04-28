@@ -117,11 +117,11 @@
 		"visible"		"1"
 
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#Notifications_Accept"
@@ -132,8 +132,8 @@
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"SaleGreen"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"DeclineButton"
@@ -156,11 +156,11 @@
 		"visible"		"1"
 
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"decline"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%cancel_text%"
@@ -169,8 +169,8 @@
 		"actionsignallevel"	"1"
 
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 }

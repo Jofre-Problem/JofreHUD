@@ -85,7 +85,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"tabPosition"								"0"
-		"font"										"CustomTercero"
+		"font"										"Size 16"
 		"textAlignment"								"center"
 		"dulltext"									"0"
 		"brighttext"								"0"
@@ -97,7 +97,7 @@
 		"keyboardinputenabled"						"0"
 		"actionsignallevel"							"1"
 
-		"sound_depressed"							"sound_menu/button.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
 		
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"

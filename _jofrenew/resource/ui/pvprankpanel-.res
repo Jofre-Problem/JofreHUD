@@ -1,0 +1,1 @@
+#base "../_menu_csgo/pvprankpanel.res"

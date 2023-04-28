@@ -7,7 +7,7 @@
 		
 		
 		"zpos"			"-1"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		
 		
@@ -29,7 +29,7 @@
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"0"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
 		
 		
@@ -49,7 +49,7 @@
 		////"ypos_hidef"	"23"
 		////"ypos_lodef"	"20"
 		"zpos"			"1"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
 		
 		

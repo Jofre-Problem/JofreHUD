@@ -9,8 +9,8 @@
 		"zpos"		"2"
 		"wide"		"10"
 		"tall"		"25"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
@@ -31,8 +31,8 @@
 		"armedFgColor_override"		"Tanlight"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"NextButton"
@@ -44,8 +44,8 @@
 		"zpos"		"2"
 		"wide"		"10"
 		"tall"		"25"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
@@ -67,8 +67,8 @@
 		"armedFgColor_override"		"Tanlight"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"AdsContainer"
@@ -92,7 +92,7 @@
 		"fieldName"		"Frame"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"zpos"			"0"
 		"proportionaltoparent"	"1"

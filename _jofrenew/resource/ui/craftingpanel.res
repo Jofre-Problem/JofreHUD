@@ -1,16 +1,9 @@
 //#base "../ui2/multiple-bg.res"
-#base "../ui2/testgradient.res"
 #base "../ui2/tank.res"
+#base "../ui2/lead_bg.res"
 "Resource/UI/ItemPickupPanel.res"
 {
-	"MMBackgroundPanel"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-300"
-		"wide"			"f0"
-		"tall"			"f0"
-	}	
+
 "crafting_panel"
 {
 "ControlName""Frame"
@@ -153,7 +146,7 @@
 
 "ClassLabel"
 {
-"wide""0"
+"visible"		"0"
 }
 
 "selectedrecipecontainer"

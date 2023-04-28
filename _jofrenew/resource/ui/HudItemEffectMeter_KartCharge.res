@@ -49,7 +49,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%progresscount%"
 		"textAlignment"		"north"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"font"			"HudFontSmallBoldShadow"
 		"fgcolor"		"TanLight"

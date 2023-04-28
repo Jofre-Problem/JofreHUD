@@ -1,4 +1,23 @@
-	#base	"../../custom/resource/ui/freezepanelcallout.res"
-	#base	"../../_jofrenew/resource/ui/freezepanelcallout.res"
-	#base	"../../_jofrehud/resource/ui/freezepanelcallout.res"
-	#base	"../../_tf2hud/resource/ui/freezepanelcallout.res"
+"Resource/UI/FreezePanelCallout.res"
+{
+	"CalloutBG"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"CalloutBG"
+		"xpos"			"r0"
+		"visible"			"0"
+
+	}
+	"ArrowIcon"
+	{
+		"ControlName"		"panel"
+		"fieldName"		"ArrowIcon"
+		"visible"			"0"
+	}		
+	"CalloutLabel"
+	{	
+		"ControlName"		"panel"
+		"fieldName"		"ArrowIcon"
+		"visible"			"0"
+	}
+}

@@ -13,7 +13,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"3"
-		"border"		"noborder"
+		"border"		"Cs1"
 		"bgcolor_override"		"Blank"
 	}
 		"Windows_Notification"
@@ -27,8 +27,8 @@
 			"tall"		"118+p0.02"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"		"Rice1"			
-			"bgcolor_override"				"W_ColorTheme2"
+			"border"		"Cs1"		 	
+			"bgcolor_override"				"34 34 34 255"
 		}	
 	"TitleLabel"
 	{
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"Noto12"
+		"font"			"Size 14"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -49,7 +49,7 @@
 		"wide"			"p0.4"//"p0.3"
 		"tall"			"80"
 		"centerwrap"		"1"
-		"fgcolor_override"	"PolyIconsFg1"
+		"fgcolor_override"	"Primary"
 	}
 	//This is the most stupid
 	// weird
@@ -62,13 +62,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"Regular14"//"EconFontSmall"
+		"font"			"Size 14"//"EconFontSmall"
 		"labelText"		"Seguro que quieres salir?"
 		"textAlignment"	"north"
 		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
-	//	"wide"			"0"
+	//	"visible"			"0"
 		"visible"		"0"
 		//"enabled"		"1"
 		"centerwrap"	"1"
@@ -84,16 +84,16 @@
 		"zpos"			"20"
 		"wide"			"78"
 		"tall"			"o1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"labelText"		"n"//"ì"
 		"font"			"NewIcons57"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"cancel"
-		"sound_depressed"			"sound_menu/button.wav"
-		"sound_released"			"sound_menu/button2.wav"
+		"sound_depressed"			"ui/buttonclick.wav"
+		"sound_released"			"ui/buttonclickrelease.wav"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
@@ -119,12 +119,12 @@
 		"font"			"NewIcons57"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"paintbackground"	"0"
 		"Command"		"confirm"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
@@ -132,10 +132,10 @@
 	}		
 	"ConfirmButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 	"CancelButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}				
 }

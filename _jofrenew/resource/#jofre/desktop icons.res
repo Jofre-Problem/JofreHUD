@@ -20,8 +20,8 @@
 		
 		command				"OpenServerBrowser"
 
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"0 49 63 255"
 		armedFgColor_override		"W_ColorIconsArmed1"
@@ -85,8 +85,8 @@
 		
 		command				"engine open_charinfo_backpack; hideconsole"		// open backpack directly (default engine open_charinfo)
 																// also close to prevent weird clipping
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"W_ColorIcons1"
 		armedFgColor_override		"W_ColorIconsArmed1"
@@ -149,8 +149,8 @@
 		
 		command				"OpenOptionsDialog"
 
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"W_ColorIcons1"
 		armedFgColor_override		"W_ColorIconsArmed1"
@@ -213,8 +213,8 @@
 		
 		command				"engine con_enable 1; toggleconsole"		// making sure it's enabled
 
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"W_ColorIcons1"
 		armedFgColor_override		"W_ColorIconsArmed1"
@@ -272,21 +272,21 @@
 		wide					28
 		tall					25
 
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"labelText"		"x"
 		"font"			"Blank"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"view_newuser_forums"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"PaintBackgroundType" "2"
 		"alpha"				"0"
 		pin_to_sibling 			"ToggleConsole"
@@ -300,7 +300,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"1"
 			//"enabled"		"1"

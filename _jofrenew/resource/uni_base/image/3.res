@@ -2,7 +2,7 @@
 {
 	"3_Image"
 	{
-				"ControlName""ImagePanel"
+				"ControlName""Panel"
 		"fieldName""3_Image"
 		"xpos"			"0"
 		"ypos"			"0"

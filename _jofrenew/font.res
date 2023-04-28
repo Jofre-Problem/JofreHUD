@@ -52,7 +52,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		"CustomTercero"
+		"Size 16"
 		{
 				"1"
 				{"name"	"Product Sans"
@@ -60,7 +60,7 @@ Scheme
 					"antialias" 	"1"
 				}
 		}
-		"CustomCuarto"
+		"Size 18"
 		{
 			"1"
 			{"name"	"Product Sans"
@@ -70,7 +70,7 @@ Scheme
 			}
 		}
 
-		"CustomSegundo"
+		"Size 14"
 		{
 			"1"
 			{"name"	"Product Sans"
@@ -86,7 +86,7 @@ Scheme
 				"antialias" 	"1"
 			}
 		}	
-		"CustomPrimero"
+		"Size 12"
 		{
 			"1"
 			{"name"	"Product Sans"

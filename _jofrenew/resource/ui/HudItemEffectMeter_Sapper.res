@@ -5,7 +5,7 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"		"r104" // "r150" above spycicle
+		"ypos"		"r140" // "r150" above spycicle
 ////"ypos_minmode""r84"
 	}
 }

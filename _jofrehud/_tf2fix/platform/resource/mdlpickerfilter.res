@@ -24,8 +24,8 @@
 			//"tall"			"212"
 			//"autoResize"	"3"
 			
-			//"UnpinnedCornerOffsetX" "-6"
-			//"UnpinnedCornerOffsetY" "-34"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-34"
 			////"visible"		"1"
 			
 			
@@ -41,10 +41,10 @@
 			//"tall"			"24"
 			//"autoResize"	"1"
 			//"pinCorner"		"2"
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetX" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "-6"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
 			////"visible"		"1"
 			
 			

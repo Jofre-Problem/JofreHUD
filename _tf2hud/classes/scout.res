@@ -2,8 +2,8 @@
 
 "classes/scout.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Scout"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Scout"
+	}
 }

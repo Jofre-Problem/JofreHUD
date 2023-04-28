@@ -2,8 +2,8 @@
 
 "classes/spy.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Spy"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Spy"
+	}
 }

@@ -1,13 +1,33 @@
-#base "../ui2/multiple-bg.res"
-#base "../ui2/testgradient.res"
+//#base "../ui2/multiple-bg.res"
+//#base "../ui2/testgradient.res"
 //#base "../#jofre/blur_bg.res"
 #base "../ui2/tank.res"
+#base "../ui2/lead_bg.res"
+#base "../ui2/mod_rgb.res"
 //#base "../ui2/gif_tank.res"
 #base "../uni_base/cexlabel/1.res"
 #base "../uni_base/cexlabel/2.res"
-#base "../ui3/menu_multiple.res"
+//#base "../ui3/menu_multiple.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+
+
+
+	"MenuColorizer"
+	{
+		"zpos"		"-8"
+		"SubImage"
+		{
+
+			"drawcolor"								"245 245 245 245"
+		}
+
+		"SubImage2"
+		{
+
+			"drawcolor"								"245 245 245 255"
+		}
+	}
 	"MMBackgroundPanel"
 	{
 		"xpos"			"0"
@@ -91,7 +111,7 @@
 		"wide"			"75"
 		"tall"			"10"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "W_ColorIcons1"
@@ -110,7 +130,7 @@
 		"wide"			"73"
 		"tall"			"10"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "W_ColorIcons1"
@@ -129,7 +149,7 @@
 		"wide"			"75"
 		"tall"			"10"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "W_ColorIcons1"
@@ -149,7 +169,7 @@
 		"wide"			"73"
 		"tall"			"10"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "W_ColorIcons1"
@@ -304,7 +324,7 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"o1"
-			"autoResize"	"0"
+			//"autoResize"		"0"
 			"font"	"NewIcons12"
 			"textAlignment"		"center"
 			"centerwrap"	"1"

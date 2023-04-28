@@ -1,14 +1,17 @@
 #base ".polybar/themes.res"
+#base "../../customization/colors/user_colors.res"
+#base "../../customization/colors/custom_colors.res"
+#base "../leadhud/scheme/borders_extra.res"
 Scheme
 {
 	Colors
 	{
 		//--------------------------------Windows :)
-		"W_BorderArmed"	"255 152 0 255"
+		"W_BorderArmed"	"204 135 41 255"
 		"W_CerrarArmed"	"255 64 64 255"
 
 	//	"W_ColorTheme1"	"238 238 238 255"	//barra
-	//	"W_ColorTheme2"	"228 228 228 250"	//tipo asi "fondo"
+	//	"W_ColorTheme2"	"228 228 228 248"	//tipo asi "fondo"
 	//	"W_ColorTheme3"	"244 244 244 255"	// fondo del motd panel
 		"W_ColorTheme4"	"193 175 75 255"//"62 80 180 255"		// ROBOTO HUD azul		
 	//	"W_ColorLinea1"	"172 172 172 155"	//linea separatoria
@@ -18,12 +21,12 @@ Scheme
 	//	"W_ColorIcons1Blur"	"0 6 0 178"
 	//	"W_ColorIconsArmed1" "217 171 108 255"
 
-		"W_ColorTheme1"	"17 17 17 155"
-		"W_ColorTheme2"	"7 7 7 150"//248
-		"W_ColorTheme3"	"20 21 23 255"
+		"W_ColorTheme1"	"37 39 37 255"
+		"W_ColorTheme2"				"27 27 27 248"//248
+		"W_ColorTheme3"	"16 11 16 255"
 		"W_ColorLinea1"		"27 27 27 170"//170
-		"W_ColorIcons1"	"211 215 225 255"
-		"W_ColorIcons2"	"220 238 255 255"
+		"W_ColorIcons1"	"245 245 245 255"
+		"W_ColorIcons2"	"220 220 220 255"
 		"W_ColorIcons1Blur"	"245 245 245 170"
 		"W_ColorTexto1" "119 100 192 255"	//purple
 		"W_BorderArmedText"	"190 190 190 255"

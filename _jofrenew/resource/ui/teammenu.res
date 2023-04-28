@@ -23,7 +23,7 @@
 	}
 	"MenuBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"1_btn"//JoinBlue"
 	{
@@ -70,7 +70,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%bluecount%"
-		font			  		"NotoBold40"
+		font			  		"Size 36"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -194,7 +194,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%redcount%"
-		font			  		"NotoBold40"
+		font			  		"Size 36"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -202,7 +202,7 @@
 	}
 "TeamMenuAuto"
 {
-"wide""0"
+"visible"		"0"
 
 }
 	"TeamMenuSelect"
@@ -219,7 +219,7 @@
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"Noto20"
+		font					"Size 20"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -259,7 +259,7 @@
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"Noto20"
+		font					"Size 20"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -304,7 +304,7 @@
 	
 	"teambutton2"		// RANDOM
 	{
-		wide				0
+		visible 0
 		tall				0
 		visible		  	0
 		enabled		  	0
@@ -312,7 +312,7 @@
 	
 	"teambutton3"		// SPECTATE
 	{
-		wide				0
+		visible 0
 		tall				0
 		visible		  	0
 		enabled		  	0
@@ -320,7 +320,7 @@
 
 	"TeamMenuSpectate"
 	{
-		wide				0
+		visible 0
 		tall				0
 		visible			0
 		enabled		  	0
@@ -333,52 +333,52 @@
 
 	"CancelButton"
 	{
-		wide				0
+		visible 0
 	}
 	"bluedoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"reddoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	
 	"autodoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	
 	"spectate"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 
 	
 	"HighlanderLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"HighlanderLabelShadow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"TeamsFullLabel" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"TeamsFullLabelShadow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"TeamsFullArrow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 }
 

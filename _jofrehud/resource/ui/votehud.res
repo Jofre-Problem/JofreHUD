@@ -1,3 +1,0 @@
-"Resource/UI/VoteHud.res"
-{	
-}		

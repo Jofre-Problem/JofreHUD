@@ -1,5 +1,43 @@
-#base "../../_jofrenew/resource/ui/hudrocketpack.res"
-#base "../../_jofrehud/resource/ui/hudrocketpack.res"
+#base "HudItemEffectMeter.res"
+"Resource/UI/HudRocketPack.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"		"c93"
+	}
 
-#base "../../_tf2hud/resource/ui/hudrocketpack.res"
-#base "../../_tf2hud/resource/ui/huditemeffectmeter.res"
+	"ItemEffectMeterLabel"
+	{
+		"labelText"		"#TF_RocketPack_Disabled"
+	}
+
+	"ItemEffectMeter"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"bgcolor_override"		"TransparentGrayDarkest"
+	}
+
+	"ItemEffectMeter2"
+	{
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ItemEffectMeter2"
+		"xpos"			"40"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"40"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"bgcolor_override"		"TransparentGrayDarkest"
+	}
+}

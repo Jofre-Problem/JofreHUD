@@ -7,10 +7,11 @@ Scheme
 		//B
 		Button.BgColor					"W_ColorLinea1"
 		Button.TextColor				"W_ColorIcons1"
-		Button.ArmedBgColor				"W_BorderArmed"
+		Button.ArmedBgColor				"Primary"
 		Button.ArmedTextColor			"W_ColorTheme1"
 		
-		
+		Console.TextColor			"Primary" //prev 35 240 55 255
+		Console.DevTextColor		"35 240 55 255"		//offwhite
 //		Button.DepressedTextColor		"W_ColorTheme3"
 //		Button.DepressedBgColor			"W_BorderArmedText"
 //		Button.FocusBorderColor			"W_BorderArmed"
@@ -52,10 +53,10 @@ Scheme
 	//	FrameSystemButton.Icon			""
 	//	FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.DisabledBgColor	"Blank"
-		Frame.BgColor					"W_ColorTheme2" //lolololololl
-		Frame.OutOfFocusBgColor			"W_ColorTheme2"
-		FrameGrip.Color1				"W_ColorIcons1"
-		FrameGrip.Color2				"W_ColorIcons1"
+		Frame.BgColor					"0 0 0 100"
+		Frame.OutOfFocusBgColor			"0 0 0 100"
+		FrameGrip.Color1				"Primary"
+		FrameGrip.Color2				"Primary"
 
 
 
@@ -70,19 +71,20 @@ Scheme
 		
 		ListPanel.OutOfFocusSelectedTextColor	"245 245 245 120"
 		ListPanel.EmptyListInfoTextColor	"245 245 245 120"
-		ListPanel.TextColor					"W_ColorIcons1"
+		ListPanel.TextColor					"245 245 245 245"
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.SelectedTextColor			"PolyIconsFg4"
+		ListPanel.SelectedTextColor			"0 0 0 255"
+		ListPanel.SelectedBgColor			"245 245 245 255"
 		ListPanel.BgColor					"Blank"
-		ListPanel.SelectedBgColor			"W_ColorTheme1"
+
 		ListPanel.SelectedOutOfFocusBgColor	"W_ColorTheme1"
 
 		//M
 		MainMenu.TextColor			"40 34 30 255"
 		MainMenu.ArmedTextColor		"W_ColorIcons1"
 		MainMenu.Inset				"32"
-		Menu.TextColor			"W_ColorIcons1"
-		Menu.BgColor			"W_ColorTheme1"
+		Menu.TextColor			"0 0 0 255"
+		Menu.BgColor			"Primary"
 		Menu.ArmedTextColor		"W_ColorTheme1"
 		Menu.ArmedBgColor		"W_ColorIcons1"
 		Menu.TextInset			"6"
@@ -98,14 +100,14 @@ Scheme
 	//	ScrollBarButton.DepressedFgColor	"W_ColorTheme1"	
 		ScrollBarSlider.BgColor	"Blank"
 		ScrollBar.Wide					15
-		SectionedListPanel.HeaderTextColor	"W_BorderArmed"
+		SectionedListPanel.HeaderTextColor	"220 200 200 255"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.DividerColor		"Primary"
 		SectionedListPanel.BgColor				"Blank"
-		SectionedListPanel.SelectedTextColor	"W_ColorIcons1"
-		SectionedListPanel.SelectedBgColor		"W_BorderArmed"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"W_BorderArmedText"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"W_BorderArmed"
+		SectionedListPanel.SelectedTextColor	"0 0 0 255"
+		SectionedListPanel.SelectedBgColor		"255 255 255 255"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"255 255 255 255"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"Primary"
 		SectionedListPanel.TextColor			"W_ColorTheme1"
 		SectionedListPanel.BrightTextColor		"W_ColorIcons1"
 		Slider.TextColor			"244 244 244 255"

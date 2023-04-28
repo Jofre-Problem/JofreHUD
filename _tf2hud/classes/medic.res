@@ -2,8 +2,8 @@
 
 "classes/medic.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Medic"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Medic"
+	}
 }

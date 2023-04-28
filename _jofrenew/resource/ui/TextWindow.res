@@ -1,3 +1,4 @@
+#base "../../../../../cfg/jp_steam_border.txt"
 #base "../../ui_overrides/full-timer/file.res"
 //#base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
@@ -7,8 +8,10 @@
 #base "../ui2/polybar_1.res"
 #base "../ui2/polyconfig1.res"
 #base "../#jofre/blur_bg.res"
+#base "../ui3/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
+	
 	"o_label"
 	{
 		"xpos"			"rs1-120"
@@ -30,30 +33,9 @@
 			}		
 	"Removeline"
 	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					cs-0.5
-			ypos					50
-			zpos					100
-			wide					42
-			tall					40
-		bgcolor_override				"blank"
-		"border"		"Rice1"
-		mouseInputEnabled			0
 
-		"PartySlot0"  // player
-		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					42
-			tall					o1
-
-			party_slot				0
-		}	
-	}		
+	}	
+	
 	"info"
 	{
 		"ControlName"			"Frame"
@@ -80,15 +62,15 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Welcome"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"Noto14"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -111,7 +93,7 @@
 		"wide"			"598"		
 		"tall"			"115"
 		"autoResize"	"3"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
@@ -129,7 +111,7 @@
 		"wide"			"337"		
 		"tall"			"170"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -149,14 +131,14 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"20"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"labelText"		"#CContinue"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"okay"
@@ -164,20 +146,20 @@
 		"border_default"		""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Noto14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
-		"armedFgColor_override" "W_Borderarmed"
+		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 	}
 	
 	"ShadedBar"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"MenuBG"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}
 	"MessageTitle"
 	{

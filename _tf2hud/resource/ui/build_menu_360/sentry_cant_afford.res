@@ -2,8 +2,8 @@
 
 "Resource/UI/build_menu/sentry_cant_afford.res"
 {
-"ItemNameLabel"
-{
-"labelText""#TF_Object_Sentry_360"
-}
+	"ItemNameLabel"
+	{
+		"labelText"		"#TF_Object_Sentry_360"
+	}
 }

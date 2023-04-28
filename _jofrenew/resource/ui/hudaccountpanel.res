@@ -1,55 +1,60 @@
 "Resource/UI/HudAccountPanel.res"
 {
+	
 	"CHudAccountPanel"
 	{
 		"delta_item_x"			"200"
 		"delta_item_start_y"	"300"
 		"delta_item_end_y"		"250"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"2.5"
-		"delta_item_font"		"DamageText"
+		"PositiveColor"			"Blue"
+		"NegativeColor"			"Red"
+		"delta_lifetime"		"2"
+		"delta_item_font"		"Size 12"
 	}
-	
-	"AccountBG"
-	{
-		"wide" "0"
-	}
-	
+
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"fgcolor"		"245 245 245 255"
-		"xpos"			"rs1-108"
-		"ypos"			"r115"
+		"xpos"			"cs-0.5"
+		"ypos"			"CS-0.5+20"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"14"
+		"wide"			"80"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"Killfeed"
+		"font"			"Size 14"
+		"fgcolor"		"White"
+		"proportionaltoparent"		"1"
 	}
-	"AccountValueS"
+
+	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"AccountValueS"
-		"fgcolor"		"0 0 0 210"
-		"xpos"			"0"
-		"ypos"			"0"
+		"fieldName"		"AccountValueShadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"14"
+		"wide"			"80"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"KillfeedBlur"
-		"pin_to_sibling"	"AccountValue"
-	}	
+		"font"			"Size 14"
+		"fgcolor"		"Shadow"
+		"pin_to_sibling"		"AccountValue"
+	}
+
+	"AccountBG"
+	{
+		"visible" "0"
+	}
+	
 	"MetalIcon"	
 	{
-		"xpos"	"-25"
-		"ypos"	"-3"
-		"pin_to_sibling"	"AccountValue"	
-		"pin_to_sibling_corner"	"4"
+		"visible" "0"
 	}
 }

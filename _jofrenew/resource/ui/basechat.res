@@ -20,8 +20,7 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"-12" [$WINDOWS]
-		"xpos"			"0" [$LINUX]
+		"xpos"			"0"
 		"ypos"			"395"
 		"wide"	 		"200" //350
 		"tall"	 		"2"
@@ -37,14 +36,14 @@
 		"wide"			"25"
 		"tall"			"10"
 		"autoResize"		"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
 		"proportionaltoparent" "1"
 		"labelText"		"opt"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"Default"		"0"
 	}

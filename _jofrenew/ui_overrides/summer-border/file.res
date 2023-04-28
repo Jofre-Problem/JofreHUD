@@ -1,5 +1,0 @@
-"Resource/MainMenuOverride.res"
-{
-
-
-}

@@ -2,14 +2,43 @@
 r_decal_cullsize 1
 stuffcmds
 
+
+
+exec "joystick.cfg"
+exec "autoexec.cfg"
+exec ih_aliases_crosshair_size
+startupmenu
+sv_unlockedchapters 99
+
+// insomniahud
+
+sv_pure -1
+
+// Apply HUD settings
+vgui_cache_res_files 0
+tf_contract_progress_show 2
+cl_hud_minmode 0
+//alias cl_hud_minmode "echo NOT IMPLEMENTED. THIS IS NOT AN ERROR."
+
+// Configs
+echo insomniaHUD: Applying aliases...
+exec ih_aliases
+exec jp_aliases
+exec ih_version
+
+// Resize dashboard dimmer
+// echo insomniaHUD: Resizing dashboard dimmer...; wait 20; showconsole; wait 10; toggle mat_aaquality; hideconsole;
+
+// Setup
+alias "ih_setup" "exec ih_setup"
+exec ih_setup_complete.txt
+ih_setup
+
+exec "hud_always.cfg"
+
 alias chud_firstrun "exec hud_firstrun.cfg"
 exec "hud_has_run.txt"
 chud_firstrun
 
-exec "joystick.cfg"
-exec "autoexec.cfg"
-exec "hud_always.cfg"
 
-startupmenu
-sv_unlockedchapters 99
 

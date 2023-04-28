@@ -9,14 +9,14 @@
 		"zpos"			"1200"
 		wide					35
 		tall					p0.045
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
 		"labelText"		"#TF_ContinueCarat"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"continue"

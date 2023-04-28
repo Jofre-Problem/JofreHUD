@@ -26,10 +26,10 @@
 			//"tall"			"212"
 			//"autoResize"	"3"
 			
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "30"
-			//"UnpinnedCornerOffsetX" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "30"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
 			////"visible"		"1"
 			
 			//"tabPosition"	"1"

@@ -38,7 +38,7 @@
 	}
 	"classmodelpanelBG"
 	{	
-		"wide"			"0"//100
+		"visible"			"0"//100
 	}
 	"classmodelpanel"
 	{
@@ -52,8 +52,8 @@
 	//	//"wide_minmode"	"240"
 		"tall"			"200"
 	//	//"tall_minmode"	"200"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
@@ -212,7 +212,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"Noto14"
+			"font"				"Size 14"
 			"xpos"				"5"
 			"ypos"				"15"
 			"zpos"				"1"
@@ -240,8 +240,8 @@
 			"zpos"				"0"
 			"wide"				"200"
 			"tall"	 			"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"West"

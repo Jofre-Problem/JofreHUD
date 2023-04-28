@@ -114,22 +114,22 @@
 	}	
 	"FogOverride"
 	{
-	//	"wide"		"0"
+	//	"visible"		"0"
 	}
 	"FogEnable"
 	{
-	//	"wide"		"0"
+	//	"visible"		"0"
 	}			
 
 
 "FogStart"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogStartText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEnd"
 {
@@ -141,157 +141,157 @@
 }
 "FogEndText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorRed"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorRedText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorGreen"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorGreenText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorBlue"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorBlueText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEnableSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartTextSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEndSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogEndTextSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorRedSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorRedTextSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorGreenSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorGreenTextSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorBlueSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 
 }
 "FogColorBlueTextSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FarZOverride"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FarZ"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FarZText"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartLabelZero"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEndLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEndLabelZero"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorRedLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorGreenLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorBlueLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartLabelSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogStartLabelSkyZero"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEndLabelSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogEndLabelSkyZero"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorRedLabelSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorGreenLabelSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FogColorBlueLabelSky"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FarZLabel"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 "FrameButton"
 {
-		"wide"		"0"
+		"visible"		"0"
 }
 }	

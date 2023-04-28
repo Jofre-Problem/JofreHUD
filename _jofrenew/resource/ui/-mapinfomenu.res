@@ -93,7 +93,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"Future40"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 	//	"auto_wide_tocontents"	"1"
 		"bgcolor_override"		"0 0 0 90"
 	}
@@ -107,9 +107,9 @@
 		"tall"			"16"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"NotoBold14"
+		"font"			"Size 14"
 		"allcaps"	"1"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"bgcolor_override"	"0 0 0 0"	
 	}	
 	
@@ -117,19 +117,19 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"NotoBold14"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"50" 
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"west"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"MaximumWidth"	"150"
 	}
 	
@@ -161,7 +161,7 @@
 		"font"			"Size 12"
 
 		"default"		"1"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		
 		"fgcolor"		"NotoMenuText"
 		"defaultFgColor_override" "NotoMenuText"
@@ -197,11 +197,11 @@
 
 	"ShadedBar"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 
 	"Footer" [$X360]
 	{
-"wide"			"0"
+"visible"			"0"
 	}	
 }

@@ -8,6 +8,13 @@
 	}
 	ItemEffectMeter
 	{
-		"ypos"			"0"
+		"ypos"			"20"
 	}
+	"ItemEffectMeterLabel"
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"5"
+		"wide"					"64"
+	}	
 }

@@ -34,7 +34,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TitleLabel"
-"font""CustomSegundo"
+"font""Size 14"
 "labelText""#TF_StrangeCount_TransferTitle"
 "textAlignment""center"
 "xpos""95"
@@ -52,7 +52,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""ToolBG"
-"font""CustomSegundo"
+"font""Size 14"
 "labelText" ""
 "textAlignment""east"
 "xpos""10"
@@ -100,7 +100,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""SubjectBG"
-"font""CustomSegundo"
+"font""Size 14"
 "labelText" ""
 "textAlignment""east"
 "xpos""300"
@@ -148,7 +148,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""ConfirmLabel"
-"font""CustomSegundo"
+"font""Size 14"
 "labelText""#TF_StrangeCount_TransferExplain"
 "textAlignment""center"
 "xpos""20"
@@ -176,14 +176,14 @@
 "visible""1"
 "enabled""1"
 "labelText""#Cancel"
-"font""CustomSegundo"
+"font""Size 14"
 "textAlignment""center"
 "dulltext""0"
 "brighttext""0"
 "default""0"
 "Command""cancel"
-"sound_depressed""sound_menu/button.wav"
-"sound_released""sound_menu/button2.wav"
+"sound_depressed""ui/buttonclick.wav"
+"sound_released""ui/buttonclickrelease.wav"
 "actionsignallevel""2"
 }
 
@@ -200,14 +200,14 @@
 "visible""1"
 "enabled""1"
 "labelText""#CraftNameConfirm"
-"font""CustomSegundo"
+"font""Size 14"
 "textAlignment""center"
 "dulltext""0"
 "brighttext""0"
 "default""1"
 "Command""apply"
-"sound_depressed""sound_menu/button.wav"
-"sound_released""sound_menu/button2.wav"
+"sound_depressed""ui/buttonclick.wav"
+"sound_released""ui/buttonclickrelease.wav"
 "actionsignallevel""2"
 }
 }

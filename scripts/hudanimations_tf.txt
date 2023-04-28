@@ -1,3 +1,48 @@
+// sample animation script
+//
+//
+// commands:
+//	Animate <panel name> <variable> <target value> <interpolator> <start time> <duration>
+//		variables:
+//			FgColor
+//			BgColor
+//			Position
+//			Size
+//			Blur		(hud panels only)
+//			TextColor	(hud panels only)
+//			Ammo2Color	(hud panels only)
+//			Alpha		(hud weapon selection only)
+//			SelectionAlpha  (hud weapon selection only)
+//			TextScan	(hud weapon selection only)
+//
+//		interpolator:
+//			Linear
+//			Accel - starts moving slow, ends fast
+//			Deaccel - starts moving fast, ends slow
+//			Spline - simple ease in/out curve
+//			Pulse - < freq > over the duration, the value is pulsed (cosine) freq times ending at the dest value (assuming freq is integral)
+//			Flicker - < randomness factor 0.0 to 1.0 > over duration, each frame if random # is less than factor, use end value, otherwise use prev value
+//			Gain - < bias > Lower bias values bias towards 0.5 and higher bias values bias away from it.
+//			Bias - < bias > Lower values bias the curve towards 0 and higher values bias it towards 1.
+//
+//	RunEvent <event name> <start time>
+//		starts another even running at the specified time
+//
+//	StopEvent <event name> <start time>
+//		stops another event that is current running at the specified time
+//
+//	StopAnimation <panel name> <variable> <start time>
+//		stops all animations refering to the specified variable in the specified panel
+//
+//	StopPanelAnimations <panel name> <start time>
+//		stops all active animations operating on the specified panel
+//
+//  SetFont <panel name> <fontparameter> <fontname from scheme> <set time> 
+//
+//	SetTexture <panel name> <textureidname> <texturefilename> <set time>
+//
+//  SetString <panel name> <string varname> <stringvalue> <set time>
+
 event LevelInit
 {
 }
@@ -280,7 +325,8 @@ event FlagOutline
 	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
 	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
 
-	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2
+	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
+	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
 	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
 	
 	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
@@ -420,15 +466,26 @@ event VideoCaptionFadeOut
 
 event ArenaVsPanelOnShow
 {
+	Animate bluepanel	Position	"-200 50"	Linear 0.0 0.001
+	Animate redpanel	Position	"r-200 140"	Linear 0.0 0.001
+	Animate vslabel	Alpha	"0"		Linear 0.0 0.001
+		
+	RunEvent ArenaVsPanelSlideIn	1.0
+	RunEvent ArenaVsPanelSlideOut	4.8
 }
 
 event ArenaVsPanelSlideIn
 {
-
+	Animate bluepanel	Position	"c-100 50"	Spline 0.0 0.2
+	Animate redpanel	Position	"c-100 140"	Spline 0.0 0.2
+	Animate vslabel	Alpha	"255"	Linear 0.15 0.2
 }
 
 event ArenaVsPanelSlideOut
 {
+	Animate bluepanel	Position	"-200 50"	Spline 0.0 0.2	
+	Animate redpanel	Position	"r-200 140"	Spline 0.0 0.2
+	Animate vslabel	Alpha	"0"		Linear 0.0 0.05
 }
 
 //===========================================
@@ -1008,7 +1065,7 @@ event CollectionCrafting_ItemRecieved
 	FireCommand 2.1 "playcratesequence2"
 //	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
 	
-	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
+	FireCommand	1.0 "playsound player/taunt_medic_heroic.wav"
 }
 
 event CollectionCrafting_OKBlink_Repeatable
@@ -1361,14 +1418,18 @@ event QuestItem_Highlight_Off_Halloween
 //--------------------------------------------------------------------------
 event CompetitiveGame_LowerChatWindow
 {
+	Animate HudChat ypos r140 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
+	Animate HudChat ypos 275 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow
 {
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
 }
 
 //--------------------------------------------------------------------------
@@ -1618,6 +1679,15 @@ event MMenu_PlayList_Collapse_Immediate
 
 event MMenu_SafeMode_Blink
 {
+	Animate InfoImage	alpha 255 Linear	0.0 0.1 
+	Animate InfoImage	alpha 0 Linear		0.1 0.1
+
+	Animate InfoImage	alpha 255 Linear	0.2 0.1 
+	Animate InfoImage	alpha 0 Linear		0.3 0.1
+
+	Animate InfoImage	alpha 255 Linear		0.4 0.1
+
+	RunEvent MMenu_SafeMode_Blink 1
 }
 
 event PvPRankModelClicked
@@ -1748,10 +1818,38 @@ event HealthProgressBar_NotSelected
 
 event MMenu_UpdateButton_StartGlow
 {
+	SetVisible	ViewDetailsGlow	1	0
+	Animate ViewDetailsGlow BgColor "238 103 17 255" Linear 0 0
+	Animate ViewDetailsGlow Alpha 0   Linear 0.0 0.2
+	Animate ViewDetailsGlow Alpha 255 Linear 0.2 0.2
+	Animate ViewDetailsGlow Alpha 0	  Linear 0.4 0.2
+	Animate ViewDetailsGlow Alpha 255 Linear 0.6 0.2
+	Animate ViewDetailsGlow Alpha 0	  Linear 0.8 0.2
+	Animate ViewDetailsGlow Alpha 255 Linear 1.0 0.2
+	Animate ViewDetailsGlow BgColor "178 83 22 255" Linear 1.0 1.0
+
+	SetVisible	ViewWarButtonGlow	1	0
+	Animate ViewWarButtonGlow BgColor "238 103 17 255" Linear 0 0
+	Animate ViewWarButtonGlow Alpha 0   Linear 0.0 0.2
+	Animate ViewWarButtonGlow Alpha 255 Linear 0.2 0.2
+	Animate ViewWarButtonGlow Alpha 0	  Linear 0.4 0.2
+	Animate ViewWarButtonGlow Alpha 255 Linear 0.6 0.2
+	Animate ViewWarButtonGlow Alpha 0	  Linear 0.8 0.2
+	Animate ViewWarButtonGlow Alpha 255 Linear 1.0 0.2
+	Animate ViewWarButtonGlow BgColor "178 83 22 255" Linear 1.0 1.0
+
+	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
 
 event MMenu_UpdateButton_SubtleGlow
 {
+	Animate ViewDetailsGlow BgColor "238 103 17 255" Linear 0 0.2
+	Animate ViewDetailsGlow BgColor "178 83 22 255" Linear 0.2 1.0
+
+	Animate ViewWarButtonGlow BgColor "238 103 17 255" Linear 0 0.2
+	Animate ViewWarButtonGlow BgColor "178 83 22 255" Linear 0.2 1.0
+
+	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
 
 event XPSourceShow_Positive

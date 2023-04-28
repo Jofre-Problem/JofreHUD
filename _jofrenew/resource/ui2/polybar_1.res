@@ -8,7 +8,7 @@
 		"zpos"				2
 		"wide"			"25"
 		"tall"			"15"
-			fillColor				"24 24 24 255"
+			fillColor				"blank"
 	}	
 
 
@@ -24,7 +24,7 @@
 			"zpos"			"3"
 			"wide"			"10"
 			"tall"			"15"
-			"fgcolor"		"24 24 24 255"	}
+			"fgcolor"		"blank"	}
 
 			"bgg1"						{			ControlName				ImagePanel			FieldName				
 			"bgg1"
@@ -32,7 +32,7 @@
 		"ypos"			"0"
 		"wide"			"30"//70
 		"tall"			"15"
-			fillColor				"PolybarTheme6"			
+			fillColor				"blank"			
 	}	
 
 		"slash1"
@@ -48,7 +48,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme6"		
+			"fgcolor"		"blank"		
 		}	
 
 
@@ -60,7 +60,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme5"			
+			fillColor				"blank"			
 	}	
 
 
@@ -77,7 +77,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme5"	
+			"fgcolor"		"blank"	
 		}	
 
 
@@ -89,7 +89,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme4"		
+			fillColor				"blank"		
 	}	
 
 
@@ -106,7 +106,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme4"	
+			"fgcolor"		"blank"	
 		}	
 
 
@@ -116,7 +116,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme3"			
+			fillColor				"blank"			
 	}	
 
 
@@ -133,6 +133,6 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme3"		
+			"fgcolor"		"blank"		
 		}
 }

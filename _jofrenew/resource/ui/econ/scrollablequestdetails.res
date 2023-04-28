@@ -18,7 +18,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""RewardsLabel"
-"font""CustomSegundo"
+"font""Size 14"
 "labelText""#QuestDetails_Reward"
 "textAlignment""west"
 "xpos""10"

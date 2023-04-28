@@ -73,7 +73,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans ExtraboldOutline"
-				"tall" "38"
+				"tall" "20"
 				"antialias"	"1"
 			}
 		}
@@ -504,6 +504,7 @@ Scheme
 			"font" "_jofrenew/font/OpenSans-Pipes3.ttf"
 			"name" "Open Sans Pipes3"
 		}
+
 		"44"
 		{
 			"font" "_jofrenew/font/OpenSans-HealthLowesterImage.ttf"

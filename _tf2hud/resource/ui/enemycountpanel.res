@@ -1,5 +1,5 @@
 "Resource/UI/EnemyCountPanel.res"
-{
+{	
 	"EnemyCountPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-
+	
 	"EnemyCountImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-
+	
 	"EnemyCountImageBG"
 	{
 		"ControlName"	"Panel"
@@ -39,10 +39,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "0"
-		"bgcolor_override"	"White"
+		"PaintBackgroundType" "2"
+		"bgcolor_override"	"TanLight"
 	}
-
+	
 	"EnemyCountCritImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -55,21 +55,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"PaintBackgroundType" "0"
+		"PaintBackgroundType" "2"
+		//"bgcolor" "Yellow"
+		//"bgcolor_override"	"Yellow"
+		//"fgcolor_override"	"Yellow"
+		//"PaintBackgroundType" "2"
 		"image"			"../hud/leaderboard_class_critical"
 	}
-
+	
 	"EnemyCount"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"Size 12"
-		"fgcolor"		"White"
+		"font"			"HudFontSmall"
+		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"
 		"wide"			"20"
-		"tall"			"10"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"

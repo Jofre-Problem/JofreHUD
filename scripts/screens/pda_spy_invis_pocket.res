@@ -1,2 +1,10 @@
-#base "../../_jofrehud/scripts/screens/pda_spy_invis_pocket.res"
-#base "../../_tf2hud/scripts/screens/pda_spy_invis_pocket.res"
+#base "pda_spy_invis.res"
+"pda_spy_invis.res"
+{
+"InvisProgress"
+{
+
+"fg_image""pocket_watch_FG"
+"bg_image""pocket_watch_BG"
+}
+}

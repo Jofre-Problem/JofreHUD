@@ -1,1 +1,0 @@
-#base "base/filesv1/waitingforplayer/main.res"

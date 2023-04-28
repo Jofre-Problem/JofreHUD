@@ -26,7 +26,7 @@
 		"command"									"%button_command%"
 		"proportionaltoparent" 						"1"
 		"actionsignallevel"							"2"
-		"sound_depressed"							"sound_menu/button.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -89,7 +89,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MatchmakingBanDurationLabel"
-			"font"									"CustomPrimero"
+			"font"									"Size 12"
 		//	"fgcolor_override"						"RedDark"
 			"labelText"								"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"							"south-west"

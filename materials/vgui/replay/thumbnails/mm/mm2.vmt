@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui\replay\thumbnails\mm\mm2"
+	"$basetexture" "console/background_mvm_widescreen"
 	"$vertexcolor"	1
 	"$vertexalpha"	1
 	"$ignorez"	1

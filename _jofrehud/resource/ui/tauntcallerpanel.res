@@ -1,1 +1,0 @@
-#base "base/filesv1/callerbg/main.res"

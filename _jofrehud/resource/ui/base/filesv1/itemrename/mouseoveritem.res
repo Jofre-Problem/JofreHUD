@@ -1,1 +1,0 @@
-#base "../mouseoveritem/mouseoveritem.res"

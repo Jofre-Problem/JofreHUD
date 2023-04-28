@@ -2,7 +2,7 @@
 {
 	"cover1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"cover1"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -11,11 +11,11 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"245 245 245 255"
+		"bgcolor_override"		"whattimeis1"
 	}
 	"cover2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"cover2"
 		"xpos"			"71"
 		"ypos"			"0"
@@ -24,6 +24,6 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"245 245 245 255"
+		"bgcolor_override"		"whattimeis1"
 	}					
 }

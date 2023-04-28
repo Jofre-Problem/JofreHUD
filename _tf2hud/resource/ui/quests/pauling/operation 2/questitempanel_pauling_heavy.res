@@ -2,17 +2,17 @@
 
 "Resource/UI/econ/QuestItemPanel_Pauling_Heavy.res"
 {
-"QuestItemPanel"
-{
-"MainContainer"
-{
-"QuestPaperContainer"
-{
-"CharacterBackdropImage"
-{
-"image""contracts/photo_heavy1"
-}
-}
-}
-}
+	"QuestItemPanel"
+	{
+		"MainContainer"
+		{
+			"QuestPaperContainer"
+			{
+				"CharacterBackdropImage"
+				{
+					"image"			"contracts/photo_heavy1"
+				}
+			}
+		}	
+	}	
 }

@@ -11,7 +11,7 @@
 		"wide"			"p0.4"
 		"tall"			"150"
 		"allcaps"		"1"
-		"font"			"NotoBold46"
+		"font"			"Regular46"
 		"labeltext"		"4plugsettings not configured!"
 	}
 	"4plugnotran2"
@@ -25,7 +25,7 @@
 		"wide"			"p0.4"
 		"tall"			"50"
 		"allcaps"		"1"
-		"font"			"Noto16"
+		"font"			"Regular16"
 		"labeltext"		"Find it on the hud folder, it is an .exe"
 	}
 		"jsjsjsjsj"

@@ -114,8 +114,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"Command"		"rematch"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_Rematch"
@@ -123,8 +123,8 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"sound_menu/button.wav"
-					"sound_released"	"sound_menu/button2.wav"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 				}
 
 				"RequeueButton"
@@ -143,8 +143,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"Command"		"new_match"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_Requeue"
@@ -152,8 +152,8 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"sound_menu/button.wav"
-					"sound_released"	"sound_menu/button2.wav"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 				}
 			}
 
@@ -186,8 +186,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_RequeueNonLeader"
 					//"paintbackground"	"1"
@@ -210,8 +210,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"Command"		"leave_party"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_LeaveParty"
@@ -220,8 +220,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"sound_menu/button.wav"
-					"sound_released"	"sound_menu/button2.wav"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 				}
 			}
 
@@ -277,8 +277,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"	"0"
+				////"dulltext"	"0"
 				"proportionaltoparent"	"1"
 				"labeltext"		"%votes_needed%"
 				//"paintbackground"	"1"
@@ -381,8 +381,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"Command"		"leave_party"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_LeaveParty"
@@ -391,8 +391,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"sound_menu/button.wav"
-					"sound_released"	"sound_menu/button2.wav"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 				}
 			}
 		}
@@ -494,8 +494,8 @@
 					
 					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
-					////"dulltext"		"0"
-					//"brighttext"	"0"
+					//////"dulltext"	"0"
+					////"dulltext"	"0"
 					"Command"		"leave_queue"
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_MM_LeaveQueue"
@@ -504,8 +504,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"sound_menu/button.wav"
-					"sound_released"	"sound_menu/button2.wav"
+					"sound_depressed"	"ui/buttonclick.wav"
+					"sound_released"	"ui/buttonclickrelease.wav"
 				}
 			}
 		}
@@ -593,8 +593,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"	"0"
+				////"dulltext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_Rejoin_Leave"
@@ -603,8 +603,8 @@
 				"actionsignallevel"	"2"
 				//"paintbackground"	"1"
 
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
 			}
 
 			"JoinNowButton"
@@ -623,8 +623,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"	"0"
+				////"dulltext"	"0"
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -635,8 +635,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
 			}
 		}
 

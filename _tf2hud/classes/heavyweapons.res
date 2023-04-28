@@ -2,8 +2,8 @@
 
 "classes/heavyweapons.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_HWGuy"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_HWGuy"
+	}
 }

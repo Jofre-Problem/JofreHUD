@@ -12,7 +12,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Noto28Shadow"
+		"font"			"Regular28"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"100"
@@ -132,7 +132,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"Noto16"
+		"font"			"Regular16"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -151,7 +151,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"Noto16"
+		"font"			"Regular16"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -183,14 +183,14 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Noto12"
+		"delta_item_font"		"Regular12"
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"proportionaltoparent"		"1"
-			"font"			"Noto16"
+			"font"			"Regular16"
 			"fgcolor"		"White"
 			"bgcolor_override"	"TransparentBlack"
 			"xpos"			"cs-0.5"
@@ -235,7 +235,8 @@
 			"wide"			"25"
 			"tall"			"50"
 			"zpos"			"1"
-
+			"color_portrait_bg_red_local_player"	"White"
+			"color_portrait_bg_blue_local_player"	"White"
 			"color_portrait_bg_red"	"Red"
 			"color_portrait_bg_blue"	"Blue"
 			"color_portrait_bg_red_dead"	"Blank"
@@ -279,7 +280,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Noto8 Shadow"
+				"font"			"Regular7"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor_override"		"White"
@@ -375,7 +376,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Noto16"
+				"font"			"Regular16"
 				"zpos"			"9"
 				"wide"			"f0"
 				"tall"			"24"
@@ -388,17 +389,19 @@
 				"bgcolor_override"		"27 28 30 200"
 				"border"		"SteamWorkshopBorder"
 			}
+			
+	
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Noto8"
+				"font"			"Default"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"visible"		"0"		//TODO
+				"visible"		"1"		//TODO
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"Green"
@@ -479,7 +482,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Noto14"
+			"font"			"Size 14"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
 			"xpos"			"48"
@@ -604,7 +607,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Noto14"
+			"font"			"Size 14"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
 			"xpos"			"5"

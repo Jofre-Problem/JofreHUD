@@ -53,7 +53,7 @@
 	{
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"image"			"replay/thumbnails/null"
 	}

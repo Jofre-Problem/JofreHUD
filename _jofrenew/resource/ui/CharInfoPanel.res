@@ -4,11 +4,21 @@
 //#base "../ui2/polybg.res"
 //#base "../ui2/tank.res"
 //#base "../ui2/multiple-bg.res"
-#base "../ui3/menu_multiple.res"
-#base "../../ui_overrides/full-timer/file.res"
+//#base "../ui3/menu_multiple.res"
+#base "../../ui_overrides/full-timer/file2.res"
 "Resource/UI/CharInfoPanel.res"
 {
-
+	"Time_hour10"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_hour10"
+	//	"xpos"					"cs-0.5-36"
+		"ypos"					"5"
+	"drawcolor"				"Primary"
+		"enabled"				"1"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}
 	"MMBackgroundPanel"
 	{
 		"xpos"			"0"
@@ -56,41 +66,41 @@
 		"xpos"			"-9999"
 		"ypos"			"-9999"
 		"zpos"			"-9999"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"labelText"		"&Q"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"default"		"0"
 		"Command"		"back"
 	}		
 	"BackgroundHeader"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}				
 	"BackgroundFooter"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}				
 	"FooterLine"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 	"CloseShortcut"		// keyboard shortcut
 	{
 		ControlName			CExButton
 		fieldName			"CloseShortcut"
-		wide				0
+		visible 0
 		labelText			"&E"
 		Command			"close"
 	}
@@ -121,7 +131,7 @@
 		{
 	//		textinsety				-13   //cant be changed
 			"textinsetx"		"3"
-			"font"				"Blank"//"Regular14"
+			"font"				"Blank"//"Size 14"
 	//		"defaultBgColor_override"	"Blank"
 			"selectedcolor"		"Blank"
 			"unselectedcolor"	"Blank"	

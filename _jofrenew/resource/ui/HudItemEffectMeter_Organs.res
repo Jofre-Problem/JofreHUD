@@ -31,7 +31,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CustomPrimero"
+		"font"					"Size 12"
 	}
 
 	"ItemEffectMeter"
@@ -70,6 +70,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CustomPrimero"
+		"font"					"Size 12"
 	}
 }

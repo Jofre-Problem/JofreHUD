@@ -1,0 +1,130 @@
+"Resource/UI/MainMenuOverride.res"
+{
+	"CustomizationMenu"
+	{
+		"MainPanel"
+		{
+			"SideBar"
+			{
+				"Scheme"
+				{
+					"ControlName"			"EditablePanel"
+					"fieldName"				"Scheme"
+					"xpos"					"0"
+					"ypos"					"100+60"
+					"zpos"					"50"
+					"wide"					"f0"
+					"tall"					"100"	//change
+					"proportionaltoparent"	"1"
+					"mouseinputenabled"	"1"
+					"border"				"LINE_LEFT_3_Primary_0"
+
+
+					"TitleText"
+					{
+						"ControlName"				"CExLabel"
+						"fieldName"					"TitleText"
+						"xpos"						"0"
+						"ypos"						"0"
+						"zpos"						"51"
+						"wide"						"f0"
+						"tall"						"20"
+						"proportionaltoparent"		"1"
+						"font"						"regular12"
+						"labelText"					"Scheme"
+						"textAlignment"				"west"
+						"textinsetx"				"5"
+						"use_proportional_insets"	"1"
+						"fgcolor"					"PrimaryT4"
+					}
+
+					"Buttons"
+					{
+						
+						"fieldName"					"Buttons"
+						"xpos"						"0"
+						"ypos"						"20"
+						"zpos"						"50"
+						"wide"						"170"
+						"tall"						"340"
+					//	"proportionaltoparent"		"1"
+					"ControlName"			"EditablePanel"
+					"border"				"NoBorder"
+						"Clientscheme"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Clientscheme"
+							"xpos"						"0"
+							"ypos"						"0"
+							"wide"						"f0"
+							"tall"						"20"
+							"proportionaltoparent"		"1"
+							"command"					"engine ih_custom_submenu_sc_client; ih_reloadmenus"
+							"actionsignallevel"			"6"
+							"labelText"					"Clientscheme"
+							"font"						"regular12"
+							"textalignment"				"west"
+							"textinsetx"				"20"
+							"use_proportional_insets"	"1"
+							"paintbackground"			"0"
+							"defaultfgcolor_override"	"PrimaryT4"
+							"armedfgcolor_override"		"PrimaryT2"
+							"border_default"			"NoBorder"
+							"border_armed"				"LINE_LEFT_0_Primary_0"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"sound_released"			"UI/buttonclickrelease.wav"
+						}	
+						"Chatscheme"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Chatscheme"
+							"xpos"						"0"
+							"ypos"						"20"
+							"wide"						"f0"
+							"tall"						"20"
+							"proportionaltoparent"		"1"
+							"command"					"engine ih_custom_submenu_sc_chat; ih_reloadmenus"
+							"actionsignallevel"			"6"
+							"labelText"					"Chatscheme"
+							"font"						"regular12"
+							"textalignment"				"west"
+							"textinsetx"				"20"
+							"use_proportional_insets"	"1"
+							"paintbackground"			"0"
+							"defaultfgcolor_override"	"PrimaryT4"
+							"armedfgcolor_override"		"PrimaryT2"
+							"border_default"			"NoBorder"
+							"border_armed"				"LINE_LEFT_0_Primary_0"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"sound_released"			"UI/buttonclickrelease.wav"
+						}	
+						"Sourcescheme"
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Sourcescheme"
+							"xpos"						"0"
+							"ypos"						"40"
+							"wide"						"f0"
+							"tall"						"20"
+							"proportionaltoparent"		"1"
+							"command"					"engine ih_custom_submenu_ig_srscheme; ih_reloadmenus"
+							"actionsignallevel"			"6"
+							"labelText"					"Sourcescheme"
+							"font"						"regular12"
+							"textalignment"				"west"
+							"textinsetx"				"20"
+							"use_proportional_insets"	"1"
+							"paintbackground"			"0"
+							"defaultfgcolor_override"	"PrimaryT4"
+							"armedfgcolor_override"		"PrimaryT2"
+							"border_default"			"NoBorder"
+							"border_armed"				"LINE_LEFT_0_Primary_0"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"sound_released"			"UI/buttonclickrelease.wav"
+						}																																																
+					}
+				}
+			}
+		}
+	}
+}

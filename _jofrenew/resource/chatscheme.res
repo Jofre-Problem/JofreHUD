@@ -1,3 +1,9 @@
+#base "../../../../cfg/jp_chat_size.txt"
+#base "../../../../cfg/jp_chat_color.txt"
+#base "../../../../cfg/jp_chat_shadow.txt"
+#base "../../../../cfg/jp_chat_outline.txt"
+#base "../../../../cfg/jp_chat_scrollbar_wide.txt"
+#base "../fallbackhud/chatscheme.res"	// in case user didnt set nothing
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -65,7 +71,7 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"White"				// color of the check itself
 
-		ScrollBar.Wide					"3"
+	//	ScrollBar.Wide					"3"
 
 		"TextEntry.TextColor"							"TFTextBright"
 		"TextEntry.BgColor"								"ListBG"
@@ -76,7 +82,7 @@ Scheme
 		"TextEntry.SelectedBgColor"						"TFOrangeBright"
 		"TextEntry.OutOfFocusSelectedBgColor"			"255 155 0 128"
 		"TextEntry.FocusEdgeColor"						"0 0 0 196"
-		"TFColors.ChatTextYellow"						"255 255 255 255"
+	//	"TFColors.ChatTextYellow"						"255 255 255 255"
 		"TFColors.ChatTextTeamBlue"						"153 204 255 255"
 		"TFColors.ChatTextTeamRed"						"255 63 53 255"
 		ScrollBarButton.FgColor				"0 0 0 0"
@@ -89,7 +95,7 @@ Scheme
 		ScrollBarSlider.FgColor				"255 215 0 255"			// nob color
 		ScrollBarSlider.BgColor				"0 0 0 0"	// slider background color
 
-		TFColors.ChatTextYellow		"251 235 202 255"
+	//	TFColors.ChatTextYellow		"251 235 202 255"
 		TFColors.ChatTextTeamBlue	"153 204 255 255"
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
@@ -101,51 +107,43 @@ Scheme
 			"1"
 			{
 				"name"			"ProductChat"
-				"tall"			"14"
-				"yres"			"480 599"
-				"dropshadow"	"0"
+			//	"tall"		"15"
+				"weight"	"0"
+				"yres"		"480 1023"
+			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
-
 			"2"
 			{
-				"name"			"ProductChat"
-				"tall"			"16"
-				"yres"			"600 767"
-				"dropshadow"	"0"
+				"name"		"ProductChat"
+			//	"tall"		"17"
+				"weight"	"0"
+				"yres"		"1024 1199"
+			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
-
 			"3"
 			{
-				"name"			"ProductChat"
-				"tall"			"18"
-				"yres"			"768 1023"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-
-			"4"
-			{
-				"name"			"ProductChat"
-				"tall"			"18"
-				"yres"			"1024 1199"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-
-			"5"
-			{
-				"name"			"ProductChat"
-				"tall"			"22"
-				"yres"			"1200 10000"
-				"dropshadow"	"0"
+				"name"		"ProductChat"
+			//	"tall"		"24"
+				"weight"	"0"
+				"yres"		"1200 6000"
+			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
 		}	
 	}	
 	Borders
 	{
+	    	FrameBorder {
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Primary"
+			"image"						"replay/thumbnails/hp/modulate_white_test"
+			"src_corner_width"			"12"
+			"src_corner_height"			"12"
+			"draw_corner_width"			"2"
+			"draw_corner_height"		"2"	 }			
 		DepressedBorder //scrollbar
 		{
 			"bordertype"			"scalable_image"
@@ -170,3 +168,7 @@ Scheme
 		
 	}	
 }	
+
+
+
+		

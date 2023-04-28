@@ -1,1 +1,5 @@
-#base	"../_jofrehud/_tf2exp/null.res"
+bugreporter
+{
+	"database_server"	"tracker"
+	"project_name"		"Half-Life 2"
+}

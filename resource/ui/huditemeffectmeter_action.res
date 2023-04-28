@@ -1,5 +1,15 @@
-// This file doesn't even exist
-// Added to remove the "Failed to load resource/UI/HudItemEffectMeter_Action.res" error message
+#base 	"huditemeffectmeter.res"
 
-"Resource/UI/huditemeffectmeter_action.res"
-{"ItemEffectMeter"{"ControlName" "ContinuousProgressBar"}}
+//Fixes console spam
+"Resource/UI/HudItemEffectMeter_Action.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"9999"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"ypos"			"9999"
+	}
+}

@@ -2,8 +2,8 @@
 
 "Resource/UI/build_menu/dispenser_cant_afford.res"
 {
-"ItemNameLabel"
-{
-"labelText""#TF_Object_Dispenser"
-}
+	"ItemNameLabel"
+	{	
+		"labelText"		"#TF_Object_Dispenser"
+	}
 }

@@ -2,8 +2,8 @@
 
 "classes/Sniper.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Sniper"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Sniper"
+	}
 }

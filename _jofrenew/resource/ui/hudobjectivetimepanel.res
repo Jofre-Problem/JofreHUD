@@ -74,10 +74,10 @@
 		//"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -109,10 +109,10 @@
 		"visible"		"0"
 		//"enabled"		"1"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto24"
+		"font"			"Regular24"
 	}			
 	"OvertimeBG"
 	{
@@ -144,10 +144,10 @@
 		//"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}			
 	"SuddenDeathBG"
 	{
@@ -180,10 +180,10 @@
 		//"enabled"		"1"
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}	
 	"SetupBG"
 	{
@@ -203,7 +203,7 @@
 		//"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"ClockSubText"

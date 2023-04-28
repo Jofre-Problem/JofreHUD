@@ -52,8 +52,8 @@
 				textAlignment			center
 				labelText				"%page%"
 				font					"ItemFontNameLarge"
-				sound_depressed			"sound_menu/button.wav"
-				sound_released			"sound_menu/button2.wav"
+				sound_depressed			"ui/buttonclick.wav"
+				sound_released			"ui/buttonclickrelease.wav"
 			}
 
 			"New"		// ?
@@ -154,12 +154,12 @@
 	}		
 	"CaratLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 	"NameFilterLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 	"Filler"		// else closed ContextMenu will stay on screen
@@ -397,7 +397,7 @@
 	{
 		ControlName		CExButton
 		fieldName		"PrevPageShortCut"
-		wide				0
+		visible 0
 		labelText		"&A"
 		Command			"prevpage"
 	}
@@ -438,7 +438,7 @@
 	{
 		ControlName		CExButton
 		fieldName		"NextPageShortCut"
-		wide				0
+		visible 0
 		labelText		"&D"
 		Command			"nextpage"
 	}
@@ -580,8 +580,8 @@
 		brighttext							0
 		Command								"canceltool"
 		
-		sound_depressed					"sound_menu/button.wav"
-		sound_released						"sound_menu/button2.wav"
+		sound_depressed					"ui/buttonclick.wav"
+		sound_released						"ui/buttonclickrelease.wav"
 		
 		paintbackground 						0
 		

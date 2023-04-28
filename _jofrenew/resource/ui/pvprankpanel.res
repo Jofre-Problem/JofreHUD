@@ -65,8 +65,8 @@
 			"zpos"			"0"		
 			"wide"			"60"
 			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fov"			"70"
@@ -216,9 +216,9 @@
 		{
 "xpos""60"
 "ypos""375"
-"wide""0"
+"visible"		"0"
 "tall""0"
-"font""Regular14"
+"font""Size 14"
 "fgcolor_override"	"W_ColorIcons1"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
@@ -252,12 +252,12 @@
 }			
 		"DescLine1"
 		{
-		"wide""0"
+		"visible"		"0"
 		}
 
 		"DescLine2"
 		{
-		"wide""0"
+		"visible"		"0"
 		}
 
 		"StatsContainer"
@@ -358,7 +358,7 @@
 					{
 						"Controlname"	"EditablePanel"
 						"fieldName"		"Frame"
-						"wide"	"0"
+						"visible"		"0"
 						"border"		"InnerShadowBorderThin"
 					}
 				}
@@ -411,7 +411,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"10"
-					"wide"			"0"
+					"visible"			"0"
 					"tall"			"0"
 					"proportionaltoparent"	"1"
 					"border"		"InnerShadowBorder"
@@ -429,7 +429,7 @@
 					"tall"			"13"
 					"pin_to_sibling"	"PanelRank"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -445,7 +445,7 @@
 					//"enabled"		"1"
 					"font"			"GamesLabel"
 					"pin_to_sibling"	"GamesLabel"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -460,7 +460,7 @@
 					"visible"		"1"
 					//"enabled"		"1"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -476,7 +476,7 @@
 					"visible"		"1"
 					//"enabled"		"1"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -491,7 +491,7 @@
 					"visible"		"1"
 					//"enabled"		"1"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -506,7 +506,7 @@
 					"visible"		"1"
 					//"enabled"		"1"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"
 				}
 
@@ -522,7 +522,7 @@
 					"visible"		"1"
 					//"enabled"		"1"
 					"font"			"Regular12"
-					"fgcolor_override"	"PolyIconsFg1"
+					"fgcolor_override"	"White"
 					"textAlignment"	"west"	
 				}
 			}		

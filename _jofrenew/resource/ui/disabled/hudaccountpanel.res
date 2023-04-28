@@ -6,7 +6,7 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"0.0"
-		"delta_item_font"		"CustomPrimero"
+		"delta_item_font"		"Size 12"
 	}
 	
 	"AccountBG"

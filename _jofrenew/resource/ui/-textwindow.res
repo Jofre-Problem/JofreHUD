@@ -58,15 +58,15 @@
 		"zpos"			"1"
 		"wide"			"420"
 		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"WELCOME"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"NotoBold14"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}	
 
@@ -89,7 +89,7 @@
 		"wide"			"415"
 		"tall"			"240"
 		"autoResize"	"3"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
@@ -107,7 +107,7 @@
 		"wide"			"415"
 		"tall"			"295"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
@@ -138,13 +138,13 @@
 	
 	"MenuBG"
 	{	
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 
 	"ShadedBar"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}						
 	
 	"MessageTitle"

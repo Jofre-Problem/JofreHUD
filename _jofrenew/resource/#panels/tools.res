@@ -41,8 +41,52 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
-			"border"		"Cs1"			
-			"bgcolor_override"				"0 0 0 200"
+			"border"		"CS1"			
+			"bgcolor_override"				"24 24 24 0"
+
+
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/ui_effects/menu_glow"
+			"drawcolor"								"Primary"
+		}
+
+		"SubImage2"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage2"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
+			"drawcolor"								"Primary"
+		}
+
+		"SubImage3"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage3"
+			"xpos"									"0"
+			"zpos"									"-10"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"	"../console/background_upward_widescreen"
+		
+		}			
 	"MMBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -75,7 +119,7 @@
 				wide					70
 				tall					70	
 				font					"NewIcons25"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"j"
 				textAlignment			west
 			}	
@@ -89,7 +133,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"jofre-hud@team-fortress"
 				textAlignment			west
 				pin_to_sibling			"Dunno"
@@ -105,7 +149,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"-------------------------"
 				textAlignment			west
 		"pin_to_sibling"	"logohud"
@@ -121,7 +165,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"MADE BY: Jofre Problem?"
 				textAlignment			west
 		"pin_to_sibling"	"spacer"
@@ -137,7 +181,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"DEDICATED TO: Chill D ♡"
 				textAlignment			west
 		"pin_to_sibling"	"credits"
@@ -153,7 +197,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"W_ColorIcons1"
+				fgcolor_override		"Primary"
 				labelText				"INSPIRED BY: Archcraft OS"
 				textAlignment			west
 		"pin_to_sibling"	"credits2"
@@ -231,15 +275,15 @@
 		}	
 	"Next" 
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}
 	"Prev" 
 	{	
-//"wide"		"0"
+//"visible"		"0"
 	}
 	"Play" 
 	{
-"wide"		"0"
+"visible"		"0"
 	}
 	"Cancel" 
 	{
@@ -257,12 +301,12 @@
 	}
 	"divider"	
 	{
-"wide"		"0"
+"visible"		"0"
 		
 	}
 	"Div"	
 	{
-"wide"		"0"
+"visible"		"0"
 	}
 
 	"GammaLabel"
@@ -276,7 +320,7 @@
 		"tall"		"25"
 		"labelText"		"æ"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons9"		
 	}	
 	"GammaSlider"
@@ -293,7 +337,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"2.6"
 		"cvar_name"		"mat_monitorgamma"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}
 	"Volabel"
 	{
@@ -306,7 +350,7 @@
 		"tall"		"25"
 		"labelText"		"ã"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons9"		
 	}
 	"VolumeSlider"
@@ -323,7 +367,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"100"
 		"cvar_name"		"volume"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}	
 	"Viewlabel"
 	{
@@ -336,7 +380,7 @@
 		"tall"		"25"
 		"labelText"		"Ï"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons8"		
 	}
 	"ViewSlider"
@@ -353,7 +397,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"200"
 		"cvar_name"		"viewmodel_fov"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}		
 	"Fovlabel"
 	{
@@ -367,7 +411,7 @@
 		
 		"labelText"		"Ë"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons8"		
 	}
 	"FSlider"
@@ -384,7 +428,7 @@
 		"minvalue"		"50"
 		"maxvalue"		"90"
 		"cvar_name"		"fov_desired"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}
 	"ColorLabel"
 	{
@@ -397,7 +441,7 @@
 		"tall"		"25"
 		"labelText"		"R"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons8"		
 	}
 	"CSlider"
@@ -414,7 +458,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"6"
 		"cvar_name"		"mat_color_projection"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}			
 	"Netlabel"
 	{
@@ -427,7 +471,7 @@
 		"tall"		"25"
 		"labelText"		"V"
 		"textAlignment"		"center"
-		"fgcolor_override"		"W_ColorIcons1"
+		"fgcolor_override"		"Primary"
 		"font"					"NewIcons8"		
 	}
 	"NSlider"
@@ -444,6 +488,6 @@
 		"minvalue"		"0"
 		"maxvalue"		"4"
 		"cvar_name"		"net_graph"
-		fgcolor_override		"W_ColorIcons1"
+		fgcolor_override		"Primary"
 	}								
 }

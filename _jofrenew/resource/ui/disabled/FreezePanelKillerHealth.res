@@ -68,7 +68,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Health%"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"fgcolor_override"		"220 220 220 255"		
 	}								
 }

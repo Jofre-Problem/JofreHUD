@@ -17,7 +17,7 @@
 	{
 	"ControlName"			"CExLabel"
 	"fieldName"				"ZoomInfoLabel"
-	"font"					"CustomPrimero"
+	"font"					"Size 12"
 	"labelText""Zoom:       Mouse2"
 	"textAlignment""west"
 	"xpos""rs1-30"
@@ -32,7 +32,7 @@
 	{
 	"ControlName""CExLabel"
 	"fieldName""MoveInfoLabel"
-	"font""CustomPrimero"
+	"font""Size 12"
 	"labelText""Move:       Shift + Mouse"
 	"textAlignment""west"
 	"xpos""0"
@@ -52,7 +52,7 @@
 	{
 	"ControlName""CExLabel"
 	"fieldName""RotateInfoLabel"
-	"font""CustomPrimero"
+	"font""Size 12"
 	"labelText""Rotate:      Mouse1"
 	"textAlignment""west"
 	"xpos""0"
@@ -72,7 +72,7 @@
 	{
 	"ControlName""CExLabel"
 	"fieldName""LightInfoLabel"
-	"font""CustomPrimero"
+	"font""Size 12"
 	"labelText""Light:        Ctrl"
 	"textAlignment""west"
 	"xpos""0"

@@ -140,7 +140,7 @@
 
 "ShadedBar"
 {
-"wide""0"
+"visible"		"0"
 }
 
 "VideoPanel"
@@ -162,7 +162,7 @@
 
 "MenuBG"
 {
-"wide""0"
+"visible"		"0"
 }
 
 "VideoCaption"

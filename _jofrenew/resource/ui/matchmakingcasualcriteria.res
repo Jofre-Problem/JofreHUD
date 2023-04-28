@@ -67,7 +67,7 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
-			"sound_depressed"						"sound_menu/button.wav"
+			"sound_depressed"						"ui/buttonclick.wav"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
@@ -89,7 +89,7 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"save_search_criteria"
-			"sound_depressed"						"sound_menu/button.wav"
+			"sound_depressed"						"ui/buttonclick.wav"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
@@ -111,7 +111,7 @@
 			"brighttext"							"0"
 			"default"								"0"
 			"Command"								"show_explanations"
-			"sound_depressed"						"sound_menu/button.wav"
+			"sound_depressed"						"ui/buttonclick.wav"
 			"actionsignallevel"						"2"
 			"proportionaltoparent"					"1"
 
@@ -131,7 +131,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
-			"font"									"Noto14"
+			"font"									"Size 14"
 			"fgcolor_override"						"White"
 			"AllCaps"								"1"
 		
@@ -150,7 +150,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Noto14"
+			"font"									"Size 14"
 			"fgcolor_override"						"White"
 			"AllCaps"								"1"
 			"visible"								"0"

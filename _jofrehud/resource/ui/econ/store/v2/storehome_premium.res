@@ -1,1 +1,0 @@
-#base "base/storehome_base.res"

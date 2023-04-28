@@ -2,8 +2,8 @@
 
 "classes/engineer.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Engineer"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Engineer"
+	}
 }

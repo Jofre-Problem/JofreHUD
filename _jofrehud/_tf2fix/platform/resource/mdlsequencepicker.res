@@ -35,7 +35,7 @@
 					//"tall"			"24"
 					//"autoResize"	"1"
 					
-					//"UnpinnedCornerOffsetX" "-6"
+					////"PinnedCornerOffsetY" "-6"
 					////"visible"		"1"
 					
 					
@@ -55,8 +55,8 @@
 					//"tall"			"542"
 					//"autoResize"	"3"
 					
-					//"UnpinnedCornerOffsetX" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
 					////"visible"		"1"
 					
 					
@@ -90,8 +90,8 @@
 							//"tall"			"256"
 							//"autoResize"	"3"
 							
-							//"UnpinnedCornerOffsetX" "-6"
-							//"UnpinnedCornerOffsetY" "-6"
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							
 							
@@ -110,8 +110,8 @@
 							//"tall"			"256"
 							//"autoResize"	"3"
 							
-							//"UnpinnedCornerOffsetX" "-6"
-							//"UnpinnedCornerOffsetY" "-6"
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							
 							

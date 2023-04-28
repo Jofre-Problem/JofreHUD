@@ -1,40 +1,40 @@
 "//PLATFORM/resource/dmedanimationlistpanel.res"
 {
-"AnimationListPanel"
-{
-"ControlName""CDmeAnimationListPanel"
-"fieldName""AnimationListPanel"
-"xpos""6"
-"ypos""6"
-"wide""256"
-"tall""256"
-////////"autoResize""3"
-
-////////"visible""1"
-
-
-
-
-
-
-
-"AnimationList"
-{
-"ControlName""ListPanel"
-"fieldName""AnimationList"
-
-
-"wide""256"
-"tall""256"
-////////"autoResize""3"
-
-
-
-
-
-////////"visible""1"
-
-
-}
-}
+	"AnimationListPanel"
+	{
+		"ControlName"	"CDmeAnimationListPanel"
+		"fieldName"		"AnimationListPanel"
+		"xpos"			"6"
+		"ypos"			"6"
+		"wide"			"256"
+		"tall"			"256"
+		//	"3"
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		//"PinnedCornerOffsetX" "0"
+		//"PinnedCornerOffsetY" "0"
+		//"PinnedCornerOffsetY" "0"
+		//"UnpinnedCornerOffsetY" "0"
+	
+		"AnimationList"
+		{
+			"ControlName"	"ListPanel"
+			"fieldName"		"AnimationList"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"256"
+			"tall"			"256"
+			//	"3"
+			//		"0"
+			//"PinnedCornerOffsetX" "0"
+			//"PinnedCornerOffsetY" "0"
+			//"PinnedCornerOffsetY" "0"
+			//"UnpinnedCornerOffsetY" "0"
+			"visible"		"1"
+			"enabled"		"1"
+			//	"0"
+		}
+	}
 }

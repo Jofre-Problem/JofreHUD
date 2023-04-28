@@ -1,7 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui\replay\thumbnails\hp\bluteam"
-	
-	"$vertexcolor"		"1"
-	"$no_fullbright"	"1"
+	"$baseTexture" ""
+	"$color" "{92 173 255}"
+	"$ignorez" "1"
 }

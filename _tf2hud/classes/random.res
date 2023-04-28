@@ -2,8 +2,8 @@
 
 "classes/random.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Random"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Random"
+	}
 }

@@ -11,7 +11,7 @@
 		"xpos"			"r0"
 		"ypos"			"r0"
 		"zpos"			"0"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
@@ -25,7 +25,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"

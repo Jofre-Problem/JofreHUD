@@ -96,7 +96,7 @@
 				"ControlName"	"CIconPanel"
 				"fieldName"		"TargetIcon"
 				"xpos"			"9999"
-				"wide"			"0"
+				"visible"			"0"
 				"enabled"		"0"
 			}
 		}
@@ -107,7 +107,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
-		"wide"			"0"
+		"visible"			"0"
 		"enabled"		"0"
 	}
 	"NotBuiltPanel"
@@ -115,7 +115,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"9999"
-		"wide"			"0"
+		"visible"			"0"
 		"enabled"		"0"
 	}
 }

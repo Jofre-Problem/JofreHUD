@@ -1,4 +1,10 @@
-	#base	"../../custom/resource/ui/huditemeffectmeter_heavy.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_heavy.res"
-	#base	"../../_jofrehud/resource/ui/huditemeffectmeter_heavy.res"
-	#base	"../../_tf2hud/resource/ui/huditemeffectmeter_heavy.res"
+#base 	"huditemeffectmeter.res"
+
+//Heavy rage meter
+"Resource/UI/HudItemEffectMeter_Scout.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"c96"
+	}
+}

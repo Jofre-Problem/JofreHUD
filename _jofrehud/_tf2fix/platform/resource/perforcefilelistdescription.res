@@ -27,7 +27,7 @@
 			
 			//"ypos"			"6"
 			
-			//"UnpinnedCornerOffsetY" "-30"
+			////"UnpinnedCornerOffsetY" "-30"
 			
 			"child0"
 			{
@@ -82,7 +82,7 @@
 					//"autoResize"	"3"
 					
 					
-					//"PinnedCornerOffsetY" "26"
+					////"PinnedCornerOffsetY" "26"
 					
 					
 					////"visible"		"1"

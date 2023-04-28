@@ -9,7 +9,7 @@
 	"zpos""-10"
 	"wide""f0"
 	"tall""f0"
-	"image""replay/thumbnails/hp/REFRACTblur"
+	"image""replay/thumbnails/hp/REFRACTnormal"
 	"visible""1"
 	"enabled""1"
 	"scaleimage""1"

@@ -1,4 +1,15 @@
-	#base	"../../custom/resource/ui/huditemeffectmeter_cleaver.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_cleaver.res"
-	#base	"../../_jofrehud/resource/ui/huditemeffectmeter_cleaver.res"
-	#base	"../../_tf2hud/resource/ui/huditemeffectmeter_cleaver.res"
+#base 	"huditemeffectmeter.res"
+
+//Cleaver
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"c96"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"labelText"				"#TF_Cleaver"
+	}
+}

@@ -2,7 +2,7 @@
 {
 	"CapCountdownLabel"
 	{
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"zpos"			"1"
 		"wide"			"26"
 		"tall"			"26"

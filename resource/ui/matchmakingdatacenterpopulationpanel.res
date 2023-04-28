@@ -1,10 +1,10 @@
 "Resource/UI/MatchMakingDataCenterPopulationPanel.res"
 {
-	"DataCenterPopulationPanel"
+	"DataCenterPopulationPanel"		//This is for the ping select panel
 	{
 		"fieldName"				"DataCenterPopulationPanel"
 		"xpos"					"cs-0.5"
-		
+		"ypos"					"0"
 		"wide"					"p0.95"
 		"tall"					"13"
 		"proportionaltoparent"	"1"
@@ -16,17 +16,19 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"DataCenterNameLabel"
-		
-		//"ypos"		"0"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"f0"
 		"tall"		"f0"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%datacenter_name%"
-		//"textAlignment"	"west"
-		"font"			"HudFontSmallest"
+		"textAlignment"	"west"
+		"font"			"Size 11"
 		"textinsetx"	"10"
-		
+		"auto_wide_tocontents"	"1"
+		"bgcolor_override" "0 0 0 100"
+
 		"mouseinputenabled"	"0"
 	}
 
@@ -34,7 +36,7 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
-		
+		"xpos"			"0"
 		"ypos"			"cs-0.5"
 		"wide"			"f0"
 		"tall"			"f2"
@@ -42,6 +44,6 @@
 		"progress"		"0.5"
 
 		"fgcolor_override"	"117 107 94 30"
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }

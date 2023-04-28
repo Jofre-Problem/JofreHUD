@@ -28,13 +28,13 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Demo Play"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				"engine demoui; demoui2"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxDemo"		
@@ -70,13 +70,13 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Console"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				"engine con_enable 1; toggleconsole"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxConsole"		
@@ -113,13 +113,13 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Options"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				OpenOptionsDialog
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"BoxOptions"		

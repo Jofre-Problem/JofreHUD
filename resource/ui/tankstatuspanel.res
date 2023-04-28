@@ -1,4 +1,24 @@
-	#base	"../../custom/resource/ui/tankstatuspanel.res"
-	#base	"../../_jofrenew/resource/ui/tankstatuspanel.res"
-	#base	"../../_jofrehud/resource/ui/tankstatuspanel.res"
-	#base	"../../_tf2hud/resource/ui/tankstatuspanel.res"
+"Resource/UI/TankStatusPanel.res"
+{
+	"Background"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"Background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"24"
+		//	"0"
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
+		
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+}

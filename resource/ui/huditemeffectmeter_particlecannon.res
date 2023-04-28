@@ -1,4 +1,15 @@
-	#base	"../../custom/resource/ui/huditemeffectmeter_particlecannon.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_particlecannon.res"
-	#base	"../../_jofrehud/resource/ui/huditemeffectmeter_particlecannon.res"
-	#base	"../../_tf2hud/resource/ui/huditemeffectmeter_particlecannon.res"
+#base "huditemeffectmeter.res"
+
+//Cow mangler
+"Resource/UI/HudItemEffectMeter_ParticleCannon.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"c96"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
+	}
+}

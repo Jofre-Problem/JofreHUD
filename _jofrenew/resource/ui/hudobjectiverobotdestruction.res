@@ -48,20 +48,20 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r13"	[$WIN32]
+		"xpos"			"c-50"
+		"ypos"			"r13"
 		"zpos"			"4"
-		"wide"			"100"	[$WIN32]
+		"wide"			"100"
 		"tall"			"13"
 		"visible"		"1"
 		//"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"NotoBold12"
-		"fgcolor"		"NotoWhite"
-		"bgcolor_override"	"NotoBlack"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
+		"font"			"Regular12"
+		"fgcolor"		"White"
+		"bgcolor_override"	"34 34 34 255"
 		
 		"if_hybrid"
 		{
@@ -90,7 +90,7 @@
 		"tall"          "30"
 		"visible"       "1"
 		"enabled"       "1"
-		"fillcolor"     "NotoBlueSolid"
+		"fillcolor"     "blue"
 		"scaleImage"    "1"
 	}	
 	
@@ -105,7 +105,7 @@
 		"tall"          "30"
 		"visible"       "1"
 		"enabled"       "1"
-		"fillcolor"     "NotoRedSolid"
+		"fillcolor"     "red"
 		"scaleImage"    "1"
 	}
 	
@@ -139,7 +139,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"image"			"../hud/obj_rd_powersupply_outline"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"White"
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}	
@@ -183,7 +183,7 @@
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"HudFontMediumBold"
-			"fgcolor"		"NotoWhite"	
+			"fgcolor"		"White"	
 			"proportionalToParent"	"1"	
 		}	
 
@@ -263,7 +263,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "34 34 34 255"
 				"scaleImage"    "1"
 			}
 			
@@ -278,7 +278,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "34 34 34 255"
 				"scaleImage"    "1"
 			}
 			
@@ -293,7 +293,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "34 34 34 255"
 				"scaleImage"    "1"
 			}
 
@@ -409,7 +409,7 @@
 
 				"left_offset"			"10"
 				"right_offset"			"0"
-				"standard_color"		"NotoBlueSolid"
+				"standard_color"		"blue"
 				"bright_color"			"110 159 189 255"
 				"left_to_right"			"0"
 				"blink_threshold"		"1.0"
@@ -553,7 +553,7 @@
 
 				"left_offset"			"0"
 				"right_offset"			"9"
-				"standard_color"		"NotoRedSolid"
+				"standard_color"		"red"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"
 				"blink_threshold"		"1.0"
@@ -613,8 +613,8 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
-				"fgcolor"		"NotoWhite"
+				"font"			"Regular32"
+				"fgcolor"		"White"
 				"proportionalToParent"	"1"
 			}	
 		
@@ -666,8 +666,8 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
-				"fgcolor"		"NotoWhite"
+				"font"			"Regular32"
+				"fgcolor"		"White"
 				"proportionalToParent"	"1"
 			}	
 		

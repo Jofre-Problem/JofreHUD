@@ -3,7 +3,7 @@
 {	
 			"polybar0slash"
 		{
-"pin_to_sibling"	"polybar0bg"
+"pin_to_sibling"	"blank"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		}
 
@@ -28,7 +28,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme5"			"pin_to_sibling"	"bgg1"
+			fillColor				"blank"			"pin_to_sibling"	"bgg1"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
 	}	
@@ -47,7 +47,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme5"
+			"fgcolor"		"blank"
 "pin_to_sibling"	"bgg2"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
@@ -62,7 +62,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme4"			"pin_to_sibling"	"bgg2"
+			fillColor				"blank"			"pin_to_sibling"	"bgg2"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
 	}	
@@ -81,7 +81,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme4"
+			"fgcolor"		"blank"
 "pin_to_sibling"	"bgg3"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
@@ -94,7 +94,7 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"15"
-			fillColor				"PolybarTheme3"			"pin_to_sibling"	"bgg3"
+			fillColor				"blank"			"pin_to_sibling"	"bgg3"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
 	}	
@@ -113,7 +113,7 @@
 			"wide"			"10"
 			"tall"			"15"
 			
-			"fgcolor"		"PolybarTheme3"
+			"fgcolor"		"blank"
 "pin_to_sibling"	"bgg4"
 					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		

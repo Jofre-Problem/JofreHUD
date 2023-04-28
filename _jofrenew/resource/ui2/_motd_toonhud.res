@@ -49,8 +49,8 @@
 			command				"OpenServerBrowser"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"Bar2"		
@@ -66,13 +66,13 @@
 			"wide"										"100"
 			"tall"										"30"
 			labelText				"Loadout"
-			font					"CustomTercero"
+			font					"Size 16"
 			textAlignment			center
 			command				"engine open_charinfo; hideconsole"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"pin_to_sibling"	"ubrowse"
@@ -96,8 +96,8 @@
 			command				"questlog"
 			"actionsignallevel"	"2"
 
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			"border_default"	"Rice2"
 			"paintbackground"							"1"
 			"pin_to_sibling"	"Bar2"				"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -121,8 +121,8 @@
 			command				"opentf2options"
 			"actionsignallevel"	"2"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			"border_default"	"Rice2"

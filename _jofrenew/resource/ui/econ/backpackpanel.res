@@ -1,1586 +1,502 @@
-//#base "../../ui2/multiple-bg.res"
-//#base "../../ui2/tank.res"
-#base "../../ui2/testgradient.res"
+#base "../../ui2/lead_bg.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
-	"MMBackgroundPanel"
+	"backpack_panel"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-300"
+		"ControlName"	"Frame"
+		"fieldName"		"backpack_panel"
 		"wide"			"f0"
-		"tall"			"f0"
-	}		
-	"Tank"
-	{
-	
-	"ypos""120"
+		"visible"		"1"
+		"enabled"		"1"
+		"settitlebarvisible"	"0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"BlackLight"
+		"infocus_bgcolor_override" "BlackLight"
+		"outoffocus_bgcolor_override" "BlackLight"
+
+		"item_xpos_offcenter_a"	"-310"
+		"item_xpos_offcenter_b"	"165"
+		"item_ypos"		"100"
+		"item_ydelta"	"80"
+		"item_mod_wide"	"40"
+
+		"item_backpack_offcenter_x"		"-288"
+		"item_backpack_xdelta"			"4"
+		"item_backpack_ydelta"			"3"
+
+		"button_xpos_offcenter"	"175"
+		"button_ypos"	"240"
+		"button_ydelta"	"30"
+		"button_override_delete_xpos" "0"
+
+		"page_button_y"	"340"
+		"page_button_x_delta" "4"
+		"page_button_y_delta" "3"
+		"page_button_per_row" "20"
+		"page_button_height" "13"
+
+		"pagebuttons_kv"
+		{
+			"ControlName"	"EditablePanel"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"0"
+			"bgcolor_override"		"Blank"
+			"noitem_textcolor"		"WhiteGray"
+			"PaintBackgroundType"	"0"
+			"paintborder"	"1"
+
+			"Button"
+			{
+				"fieldName"		"Button"
+				"ControlName"	"CExButton"
+				"wide"			"25"
+				"tall"			"13"
+				"visible"		"1"
+				"bgcolor_override"		"Blank"
+				"noitem_textcolor"		"WhiteGray"
+				"PaintBackgroundType"	"0"
+				"paintborder"	"1"
+				"textAlignment"	"center"
+				"labelText"		"%page%"
+				"font"				"Size 10"
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+			}
+
+			"New"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"New"
+				"wide"			"25"
+				"tall"			"13"
+				"visible"		"1"
+				"mouseinputenabled" "0"
+				"paintbackground"	"0"
+				"border"		"WhiteHighlightBorderUltraThick"
+				"fgcolor"		"Blank"
+			}
+		}
+
+		"modelpanels_kv"
+		{
+			"ControlName"	"CItemModelPanel"
+			"xpos"			"c-70"
+			"ypos"			"270"
+			"wide"			"54"
+			"tall"			"42"
+			"visible"		"0"
+			"bgcolor_override"		"Blank"
+			"noitem_textcolor"		"WhiteGray"
+			"PaintBackgroundType"	"0"
+			"paintborder"	"1"
+
+			"model_xpos"	"2"
+			"model_ypos"	"5"
+			"model_wide"	"50"
+			"model_tall"	"35"
+			"text_ypos"		"60"
+			"text_center"	"1"
+			"name_only"		"1"
+
+			"inset_eq_x"	"2"
+			"inset_eq_y"	"2"
+
+			"itemmodelpanel"
+			{
+				"use_item_rendertarget" "0"
+				"allow_rot"				"0"
+			}
+
+			"New"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"New"
+				"font"			"Size 8"
+				"textAlignment"	"center"
+				"xpos"			"rs1-2"
+				"ypos"			"2"
+				"wide"			"22"
+				"tall"			"10"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"#Store_Price_New"
+				"mouseinputenabled" "0"
+				"paintbackground"	"0"
+				"proportionaltoparent"	"1"
+				"border"		"MaterialWhite"
+				"fgcolor"		"Black"
+			}
+
+			"use_item_sounds"	"1"
+		}
 	}
-"backpack_panel"
-{
 
-"bgcolor_override""blank"
-"infocus_bgcolor_override" "blank"
-"outoffocus_bgcolor_override" "blank"
-
-"item_xpos_offcenter_a""-310"
-"item_xpos_offcenter_b""165"
-"item_ypos""60"
-"item_ydelta""80"
-"item_mod_wide""40"
-
-"item_backpack_offcenter_x""-288"
-"item_backpack_xdelta""4"
-"item_backpack_ydelta""3"
-
-"button_xpos_offcenter""175"
-"button_ypos""85"
-"button_ydelta""80"
-"button_override_delete_xpos" "0"
-
-"page_button_y""288"
-"page_button_x_delta" "3"
-"page_button_y_delta" "3"
-"page_button_per_row" "20"
-"page_button_height" "13"
-
-"pagebuttons_kv"
-{
-"ControlName""EditablePanel"
-"wide""10"
-"tall""10"
-"visible""0"
-"bgcolor_override""Blank"
-"noitem_textcolor""TanDark"
-"PaintBackgroundType""2"
-"paintborder""1"
-
-"Button"
-{
-"fieldName""Button"
-"ControlName""CExButton"
-"wide""25"
-"tall""13"
-//"visible""1"
-"bgcolor_override""Blank"
-"noitem_textcolor""TanDark"
-"PaintBackgroundType""2"
-"paintborder""1"
-"textAlignment""center"
-"labelText""%page%"
-"font""HudFontSmallest"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-}
-
-"New"
-{
-"ControlName""CExLabel"
-"fieldName""New"
-"font""Noto10"
-"textAlignment""east"
-
-
-
-"wide""f1"
-"tall""f-3"
-"textinsetx""8"
-//"autoResize""1"
-
-"visible""0"
-
-"labelText""NEW"
-"mouseinputenabled" "0"
-"paintbackground""0"
-"proportionaltoparent""1"
-"border""StoreNewBorder"
-"fgcolor""10 10 10 255"
-}
-}
-
-
-"modelpanels_kv"
-{
-"ControlName""CItemModelPanel"
-"xpos""c-70"
-"ypos""270"
-"wide""54"
-"tall""42"
-"visible""0"
-"bgcolor_override""Blank"
-"noitem_textcolor""TanDark"
-"PaintBackgroundType""2"
-"paintborder""1"
-
-"model_xpos""2"
-"model_ypos""5"
-"model_wide""50"
-"model_tall""35"
-"text_ypos""60"
-"text_center""1"
-"name_only""1"
-
-"inset_eq_x""2"
-"inset_eq_y""2"
-
-"itemmodelpanel"
-{
-"use_item_rendertarget" "0"
-"allow_rot""0"
-}
-
-"New"
-{
-"ControlName""CExLabel"
-"fieldName""New"
-"font""NewIcons20"
-"textAlignment""center"
-"xpos""3"
-"ypos"	"3"
-"zpos""15"
-"wide""48"
-"tall""36"
-"textinsetx""8"
-
-"skip_autoresize""1"
-
-"visible""0"
-
-"labelText"	"Å"
-"mouseinputenabled" "0"
-"paintbackground""1"
-"proportionaltoparent""1"
-"border""noBorder"
-"fgcolor""W_colorIcons1"
-"bgcolor_override"	"0 0 0 200"
-}
-
-"use_item_sounds""1"
-}
-}
-
-"CaratLabel"
-{
-"ControlName""CExLabel"
-"fieldName""CaratLabel"
-"font""HudFontSmallest"
-"labelText"">>"
-//"textAlignment""west"
-"xpos""c-300"
-"ypos""20"
-"zpos""1"
-"wide""0"
-"tall""5"
-//"autoResize""1"
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-"ClassLabel"
-{
-"ControlName""CExLabel"
-"fieldName""ClassLabel"
-"font""Future30"
-"labelText""#ClassBeingEquipped"
-//"textAlignment""west"
-"xpos""c-280"
-"ypos""25"
-"zpos""1"
-"wide""210"
-"tall""30"
-"fgcolor_override"	"Black"
-
-//"visible""1"
-
-}
-
-"tool_icon"
-{
-"ControlName""ScalableImagePanel"
-"fieldName""tool_icon"
-"xpos""10"
-"ypos""10"
-"zpos""2"
-"wide""16"
-"tall""16"
-"visible""0"
-
-"image""backpack_jewel_modify_target_b_g"
-////"tileImage""0"
-//"tileVertically" "0"
-"drawcolor""112 176 74 255"
-}
-
-"ShowRarityComboBox"
-{
-"ControlName""ComboBox"
-"fieldName""ShowRarityComboBox"
-"Font""HudFontSmallest"
-//"wrap""0"
-"xpos""c-85"
-"ypos""37"
-"zpos""1"
-"wide""205"
-"tall""15"
-
-
-//"visible""1"
-
-//"textHidden""0"
-"editable""0"
-"maxchars""-1"
-"NumericInputOnly""0"
-//"unicode""0"
-"default""0"
-
-"fgcolor_override""TanLight"
-"bgcolor_override""Blank"
-"disabledFgColor_override" "TanLight"
-"disabledBgColor_override" "Blank"
-"selectionColor_override" "Blank"
-"selectionTextColor_override" "TanLight"
-"defaultSelectionBG2Color_override" "Blank"
-}
-
-"ShowBaseItemsCheckbox"
-{
-"ControlName""CheckButton"
-"fieldName""ShowBaseItemsCheckbox"
-"labelText""#ShowBaseItemsCheckBox"
-"Font""HudFontSmallest"
-"textAlignment""east"
-"xpos""c-70"
-"ypos""15"
-"zpos""1"
-"wide""200"
-"tall""20"
-
-
-//"visible""1"
-
-////"dulltext""0"
-//"brighttext""0"
-}
-
-"NameFilterLabel"
-{
-"ControlName""CExLabel"
-"fieldName""NameFilterLabel"
-"font""HudFontSmallest"
-"labelText""#Store_NameFilterLabel"
-//"textAlignment""west"
-"xpos""c+137"
-
-"zpos""1"
-"wide""90"
-"tall""20"
-//"autoResize""1"
-
-//"visible""1"
-
-"fgcolor""StoreDarkTan"
-}
-
-"NameFilterTextEntry"
-{
-"ControlName""TextEntry"
-"fieldName""NameFilterTextEntry"
-"xpos""c+137"
-"ypos""15"
-"wide""90"
-"tall""19"
-
-
-//"visible""1"
-
-//"tabPosition""1"
-//"textHidden""0"
-//"editable""1"
-"unicode""1"
-"fgcolor_override""TanDark"
-"bgcolor_override""251 235 202 255"
-"paintbackgroundtype" "2"
-"font""HudFontSmallest"
-}
-
-"SortByComboBox"
-{
-"ControlName""ComboBox"
-"fieldName""SortByComboBox"
-"Font""HudFontSmallest"
-"xpos""c137"
-"ypos""37"
-"zpos""1"
-"wide""150"
-"tall""15"
-
-
-//"visible""1"
-
-//"textHidden""0"
-"editable""0"
-"maxchars""-1"
-"NumericInputOnly""0"
-//"unicode""0"
-"default""0"
-
-"fgcolor_override""TanLight"
-"bgcolor_override""Blank"
-"disabledFgColor_override" "TanLight"
-"disabledBgColor_override" "Blank"
-"selectionColor_override" "Blank"
-"selectionTextColor_override" "TanLight"
-"defaultSelectionBG2Color_override" "Blank"
-}
-
-
-"mouseoveritempanel"
-{
-"ControlName""CItemModelPanel"
-"fieldName""mouseoveritempanel"
-"xpos""c-70"
-"ypos""270"
-"zpos""102"
-"wide""300"
-"tall""300"
-"visible""0"
-"bgcolor_override""Blank"
-"noitem_textcolor""TanDark"
-"PaintBackgroundType""2"
-"paintborder""1"
-
-"text_center""1"
-"model_hide""1"
-"resize_to_text""1"
-"padding_height""15"
-
-"attriblabel"
-{
-"font""ItemFontAttribLarge"
-
-"ypos""30"
-"zpos""2"
-"wide""140"
-"tall""60"
-
-
-//"visible""1"
-
-"labelText""%attriblist%"
-"textAlignment""center"
-"fgcolor""TanDark"
-"centerwrap""1"
-}
-}
-
-"mousedragitempanel"
-{
-"ControlName""CItemModelPanel"
-"fieldName""mousedragitempanel"
-
-"xpos""c-70"
-"ypos""270"
-"zpos""100"
-"wide""27"
-"tall""21"
-"visible""0"
-"bgcolor_override""Blank"
-"noitem_textcolor""TanDark"
-"PaintBackgroundType""2"
-"paintborder""1"
-
-"model_ypos""3"
-"model_tall""18"
-"text_ypos""30"
-"text_center""1"
-"name_only""1"
-"model_only""1"
-
-"itemmodelpanel"
-{
-"use_item_rendertarget" "0"
-"allow_rot""0"
-}
-}
-
-//"PrevPageButton"
-//{
-//"ControlName""CExButton"
-//"fieldName""PrevPageButton"
-//"xpos""c195"
-//"ypos""290"
-//"zpos""1"
-//"wide""20"
-//"tall""20"
-//
-//
-////"visible""1"
-//
-//
-//"labelText""<"
-//"font""HudFontSmall"
-//"textAlignment""center"
-//////"dulltext""0"
-////"brighttext""0"
-//"Command""prevpage"
-////"sound_depressed""UI/buttonclick.wav"
-////"sound_released""UI/buttonclickrelease.wav"
-//}
-//
-//"CurPageLabel"
-//{
-//"ControlName""CExLabel"
-//"fieldName""CurPageLabel"
-//"font""HudFontSmall"
-//"labelText""%backpackpage%"
-//"textAlignment""center"
-//"xpos""c220"
-//"ypos""290"
-//"zpos""1"
-//"wide""40"
-//"tall""20"
-////"autoResize""1"
-//
-////"visible""1"
-//
-//"fgcolor_override" "LightRed"
-//}
-//
-//"NextPageButton"
-//{
-//"ControlName""CExButton"
-//"fieldName""NextPageButton"
-//"xpos""c265"
-//"ypos""290"
-//"zpos""1"
-//"wide""20"
-//"tall""20"
-//
-//
-////"visible""1"
-//
-//
-//"labelText"">"
-//"font""HudFontSmall"
-//"textAlignment""center"
-//////"dulltext""0"
-////"brighttext""0"
-//"Command""nextpage"
-////"sound_depressed""UI/buttonclick.wav"
-////"sound_released""UI/buttonclickrelease.wav"
-//}
-
-"DragToNextPageButton"
-{
-"ControlName""CExButton"
-"fieldName""DragToNextPageButton"
-"xpos""c290"
-"ypos""154"
-"zpos""1"
-"wide""25"
-"tall""35"
-
-
-"visible""0"
-
-
-"labelText"">"
-"font""HudFontMediumSecondary"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-"Command"""
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-}
-"DragToPrevPageButton"
-{
-"ControlName""CExButton"
-"fieldName""DragToPrevPageButton"
-"xpos""c-315"
-"ypos""154"
-"zpos""1"
-"wide""25"
-"tall""35"
-
-
-"visible""0"
-
-
-"labelText""<"
-"font""HudFontMediumSecondary"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-"Command"""
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-}
-
-"CancelApplyToolButton"
-{
-"ControlName""CExButton"
-"fieldName""CancelApplyToolButton"
-"xpos""c-288"
-"ypos""337"
-"zpos""20"
-"wide""100"
-"tall""25"
-
-
-"visible""0"
-
-
-"labelText""#Cancel"
-"font""HudFontSmall"
-"textAlignment""center"
-"textinsetx""50"
-////"dulltext""0"
-//"brighttext""0"
-"Command""canceltool"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-}
-
-
-"ShowExplanationsButton"
-{
-"ControlName""CExButton"
-"fieldName""ShowExplanationsButton"
-"xpos""c275"
-"ypos""10"
-"zpos""100"
-"wide""20"
-"tall""20"
-
-
-//"visible""1"
-
-
-"labelText""?"
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-"Command""show_explanations"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-}
-
-"StartExplanation"
-{
-"ControlName""CExplanationPopup"
-"fieldName""StartExplanation"
-
-
-"zpos""10000"
-"wide""250"
-"tall""140"
-"visible""0"
-"PaintBackgroundType""2"
-"paintbackground" "0"
-"border""MainMenuHighlightBorder"
-
-"force_close""1"
-"end_x""c-150"
-"end_y""100"
-"end_wide""300"
-"end_tall""155"
-"callout_inparents_x""c0"
-"callout_inparents_y""150"
-"next_explanation""PagesExplanation"
-
-"TitleLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TitleLabel"
-"font""HudFontSmall"
-"labelText""#BackpackItemsExplanation_Title"
-"textAlignment""north"
-"xpos""20"
-"ypos""10"
-"wide""260"
-"tall""30"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"TextLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TextLabel"
-"font""HudFontSmall"
-"labelText""#BackpackItemsExplanation_Text"
-"textAlignment""north-west"
-"xpos""20"
-"ypos""45"
-"wide""260"
-"tall""85"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"CloseButton"
-{
-"ControlName""CExImageButton"
-"fieldName""CloseButton"
-"xpos""280"
-"ypos""5"
-"zpos""10"
-"wide""14"
-"tall""14"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""close"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""117 107 94 255"
-"image_armedcolor""200 80 60 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""14"
-"tall""14"
-//"visible""1"
-
-"image""close_button"
-"scaleImage""1"
-}
-}
-"PositionLabel"
-{
-"ControlName""CExLabel"
-"fieldName""PositionLabel"
-"font""HudFontSmall"
-"labelText""%explanationnumber%"
-"textAlignment""center"
-
-"ypos""125"
-"zpos""-1"
-"wide""300"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-"NextButton"
-{
-"ControlName""CExImageButton"
-"fieldName""NextButton"
-"xpos""260"
-"ypos""125"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""nextexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_forward"
-"scaleImage""1"
-}
-}
-}
-
-"PagesExplanation"
-{
-"ControlName""CExplanationPopup"
-"fieldName""PagesExplanation"
-
-
-"zpos""10000"
-"wide""250"
-"tall""100"
-"visible""0"
-"PaintBackgroundType""2"
-"paintbackground" "0"
-"border""MainMenuHighlightBorder"
-
-"force_close""1"
-"end_x""c-250"
-"end_y""130"
-"end_wide""300"
-"end_tall""115"
-"callout_inparents_x""c-250"
-"callout_inparents_y""290"
-"next_explanation""ContextExplanation"
-
-"TitleLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TitleLabel"
-"font""HudFontSmall"
-"labelText""#BackpackPagesExplanation_Title"
-"textAlignment""north"
-"xpos""20"
-"ypos""10"
-"wide""260"
-"tall""30"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"TextLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TextLabel"
-"font""HudFontSmall"
-"labelText""#BackpackPagesExplanation_Text"
-"textAlignment""north-west"
-"xpos""20"
-"ypos""45"
-"wide""260"
-"tall""45"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"CloseButton"
-{
-"ControlName""CExImageButton"
-"fieldName""CloseButton"
-"xpos""280"
-"ypos""5"
-"zpos""10"
-"wide""14"
-"tall""14"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""close"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""117 107 94 255"
-"image_armedcolor""200 80 60 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""14"
-"tall""14"
-//"visible""1"
-
-"image""close_button"
-"scaleImage""1"
-}
-}
-"PrevButton"
-{
-"ControlName""CExImageButton"
-"fieldName""PrevButton"
-"xpos""10"
-"ypos""85"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""prevexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_back"
-"scaleImage""1"
-}
-}
-"PositionLabel"
-{
-"ControlName""CExLabel"
-"fieldName""PositionLabel"
-"font""HudFontSmall"
-"labelText""%explanationnumber%"
-"textAlignment""center"
-
-"ypos""85"
-"zpos""-1"
-"wide""300"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-"NextButton"
-{
-"ControlName""CExImageButton"
-"fieldName""NextButton"
-"xpos""260"
-"ypos""85"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""nextexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_forward"
-"scaleImage""1"
-}
-}
-}
-
-"ContextExplanation"
-{
-"ControlName""CExplanationPopup"
-"fieldName""ContextExplanation"
-
-
-"zpos""10000"
-"wide""250"
-"tall""160"
-"visible""0"
-"PaintBackgroundType""2"
-"paintbackground" "0"
-"border""MainMenuHighlightBorder"
-
-"force_close""1"
-"end_x""c-150"
-"end_y""80"
-"end_wide""300"
-"end_tall""165"
-"callout_inparents_x""c0"
-"callout_inparents_y""c0"
-"next_explanation""StockExplanation"
-
-"TitleLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TitleLabel"
-"font""HudFontSmall"
-"labelText""#BackpackContextExplanation_Title"
-"textAlignment""north"
-"xpos""20"
-"ypos""10"
-"wide""260"
-"tall""30"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"TextLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TextLabel"
-"font""HudFontSmall"
-"labelText""#BackpackContextExplanation_Text"
-"textAlignment""north-west"
-"xpos""20"
-"ypos""45"
-"wide""260"
-"tall""135"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"CloseButton"
-{
-"ControlName""CExImageButton"
-"fieldName""CloseButton"
-"xpos""280"
-"ypos""5"
-"zpos""10"
-"wide""14"
-"tall""14"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""close"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""117 107 94 255"
-"image_armedcolor""200 80 60 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""14"
-"tall""14"
-//"visible""1"
-
-"image""close_button"
-"scaleImage""1"
-}
-}
-"PrevButton"
-{
-"ControlName""CExImageButton"
-"fieldName""PrevButton"
-"xpos""10"
-"ypos""135"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""prevexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_back"
-"scaleImage""1"
-}
-}
-"NextButton"
-{
-"ControlName""CExImageButton"
-"fieldName""NextButton"
-"xpos""260"
-"ypos""135"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""nextexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_forward"
-"scaleImage""1"
-}
-}
-"PositionLabel"
-{
-"ControlName""CExLabel"
-"fieldName""PositionLabel"
-"font""HudFontSmall"
-"labelText""%explanationnumber%"
-"textAlignment""center"
-
-"ypos""135"
-"zpos""-1"
-"wide""300"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-}
-
-"StockExplanation"
-{
-"ControlName""CExplanationPopup"
-"fieldName""StockExplanation"
-
-
-"zpos""10000"
-"wide""250"
-"tall""160"
-"visible""0"
-"PaintBackgroundType""2"
-"paintbackground" "0"
-"border""MainMenuHighlightBorder"
-"next_explanation""SortExplanation"
-
-"force_close""1"
-"end_x""c-150"
-"end_y""80"
-"end_wide""300"
-"end_tall""165"
-"callout_inparents_x""c0"
-"callout_inparents_y""50"
-
-"TitleLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TitleLabel"
-"font""HudFontSmall"
-"labelText""#BackpackStockExplanation_Title"
-"textAlignment""north"
-"xpos""20"
-"ypos""10"
-"wide""260"
-"tall""30"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"TextLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TextLabel"
-"font""HudFontSmall"
-"labelText""#BackpackStockExplanation_Text"
-"textAlignment""north-west"
-"xpos""20"
-"ypos""45"
-"wide""260"
-"tall""135"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"CloseButton"
-{
-"ControlName""CExImageButton"
-"fieldName""CloseButton"
-"xpos""280"
-"ypos""5"
-"zpos""10"
-"wide""14"
-"tall""14"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""close"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""117 107 94 255"
-"image_armedcolor""200 80 60 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""14"
-"tall""14"
-//"visible""1"
-
-"image""close_button"
-"scaleImage""1"
-}
-}
-"PrevButton"
-{
-"ControlName""CExImageButton"
-"fieldName""PrevButton"
-"xpos""10"
-"ypos""135"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""prevexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_back"
-"scaleImage""1"
-}
-}
-"NextButton"
-{
-"ControlName""CExImageButton"
-"fieldName""NextButton"
-"xpos""260"
-"ypos""135"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""nextexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_forward"
-"scaleImage""1"
-}
-}
-"PositionLabel"
-{
-"ControlName""CExLabel"
-"fieldName""PositionLabel"
-"font""HudFontSmall"
-"labelText""%explanationnumber%"
-"textAlignment""center"
-
-"ypos""135"
-"zpos""-1"
-"wide""300"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-}
-
-"SortExplanation"
-{
-"ControlName""CExplanationPopup"
-"fieldName""SortExplanation"
-
-
-"zpos""10000"
-"wide""250"
-"tall""160"
-"visible""0"
-"PaintBackgroundType""2"
-"paintbackground" "0"
-"border""MainMenuHighlightBorder"
-
-"force_close""1"
-"end_x""c-110"
-"end_y""80"
-"end_wide""300"
-"end_tall""135"
-"callout_inparents_x""c200"
-"callout_inparents_y""55"
-
-"TitleLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TitleLabel"
-"font""HudFontSmall"
-"labelText""#BackpackSortExplanation_Title"
-"textAlignment""north"
-"xpos""20"
-"ypos""10"
-"wide""260"
-"tall""30"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"TextLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TextLabel"
-"font""HudFontSmall"
-"labelText""#BackpackSortExplanation_Text"
-"textAlignment""north-west"
-"xpos""20"
-"ypos""45"
-"wide""260"
-"tall""135"
-
-
-//"visible""1"
-
-"wrap""1"
-"fgcolor_override" "TanDarker"
-}
-
-"CloseButton"
-{
-"ControlName""CExImageButton"
-"fieldName""CloseButton"
-"xpos""280"
-"ypos""5"
-"zpos""10"
-"wide""14"
-"tall""14"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""close"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""117 107 94 255"
-"image_armedcolor""200 80 60 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""14"
-"tall""14"
-//"visible""1"
-
-"image""close_button"
-"scaleImage""1"
-}
-}
-"PrevButton"
-{
-"ControlName""CExImageButton"
-"fieldName""PrevButton"
-"xpos""10"
-"ypos""105"
-"zpos""10"
-"wide""30"
-"tall""30"
-
-
-//"visible""1"
-
-
-"labelText" ""
-"font""HudFontSmall"
-"textAlignment""center"
-////"dulltext""0"
-//"brighttext""0"
-//"Default""0"
-//"sound_depressed""UI/buttonclick.wav"
-//"sound_released""UI/buttonclickrelease.wav"
-"Command""prevexplanation"
-
-"paintbackground""0"
-
-"defaultFgColor_override" "TanDarker"
-"armedFgColor_override" "LightRed"
-"depressedFgColor_override" "TanDarker"
-
-"image_drawcolor""235 226 202 255"
-"image_armedcolor""255 255 255 255"
-"SubImage"
-{
-"ControlName""ImagePanel"
-"fieldName""SubImage"
-
-
-//"zpos""1"
-"wide""30"
-"tall""30"
-//"visible""1"
-
-"image""blog_back"
-"scaleImage""1"
-}
-}
-"PositionLabel"
-{
-"ControlName""CExLabel"
-"fieldName""PositionLabel"
-"font""HudFontSmall"
-"labelText""%explanationnumber%"
-"textAlignment""center"
-
-"ypos""105"
-"zpos""-1"
-"wide""300"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override" "LightRed"
-}
-}
+	"CaratLabel"	{	"xpos"  "r0" "visible"		"0"	}
+ "ClassLabel"		{	"xpos"  "r0"		"visible"		"0"	}  
+ 	"ShowExplanationsButton"	{"xpos"  "r0"	"visible"		"0"	}
+	"NameFilterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NameFilterLabel"
+		"font"			"Size 8"
+		"labelText"		"#Store_NameFilterLabel"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling"		"NameFilterTextEntry"
+		"pin_corner_to_sibling"		"2"
+		"pin_to_sibling_corner"		"0"
+	}
+
+	"SearchLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SearchLabel"
+		"font"			"NewIcons12"
+		"labelText"		"ý"
+		"textAlignment"	"west"
+		"xpos"			"15"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"300"
+		"tall"			"30"
+		"autoResize"	"1"
+		//"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"white"
+        "pin_to_sibling"    "NameFilterTextEntry"
+	}
+
+	"NameFilterTextEntry"
+	{
+		"ControlName"		"TextEntry"
+		"fieldName"		"NameFilterTextEntry"
+		"xpos"		"cs-0.5"
+		"ypos"		"400"
+		"zpos"		"3000"
+		"wide"		"285"
+		"tall"		"30"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"textHidden"		"0"
+		"editable"		"1"
+		"unicode"		"1"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"255 255 255 0"
+		"paintbackgroundtype" "0"
+		"font"		"Size 20"
+	}
+	
+	"TextLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TextLine"
+		"xpos"			"15"
+		"ypos"			"-24"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"1"
+		"fillcolor"		"255 255 255 255"
+		"PaintBackgroundType"	"0"
+         "pin_to_sibling"    "NameFilterTextEntry"
+	}				
+
+
+	"LastPage"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"LastPage"
+		"xpos"				"100"
+		"ypos"				"100"
+		"zpos"				"2"
+		"wide"				"25"
+		"tall"				"220"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"		"Prev"
+		"textAlignment"		"center"
+		"font"						"Size 10"
+		"command"		"prevpage"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"	"MainMenuButtonArmed"
+	}
+
+	"LastPageTrigger"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"LastPageTrigger"
+		"xpos"			"9999"
+		"labelText"		"&A"
+		"command"		"prevpage"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+	}
+
+	"NextPage"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"NextPage"
+		"xpos"				"rs1-100"
+		"ypos"				"100"
+		"zpos"				"2"
+		"wide"				"25"
+		"tall"				"220"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"		"Next"
+		"textAlignment"		"center"
+		"font"						"Size 10"
+		"command"		"nextpage"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"	"MainMenuButtonArmed"
+
+
+	}
+
+	"NextPageTrigger"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"NextPageTrigger"
+		"xpos"			"9999"
+		"labelText"		"&D"
+		"command"		"nextpage"
+	//	"sound_depressed"				"UI/buttonclick.wav"
+	//	"sound_released"				"UI/buttonclickrelease.wav"
+	}
+
+	"ShowRarityComboBox"
+	{
+		"ControlName"		"ComboBox"
+		"fieldName"			"ShowRarityComboBox"
+		"Font"				"Size 10"
+		"xpos"				"4"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"141"
+		"tall"				"15"
+		"visible"			"1"
+		"enabled"			"1"
+		"textHidden"		"0"
+		"editable"			"0"
+		"maxchars"			"-1"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
+
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"Blank"
+		"disabledFgColor_override" "White"
+		"disabledBgColor_override" "Blank"
+		"selectionColor_override" "MainTheme"
+		"selectionTextColor_override" "White"
+		"defaultSelectionBG2Color_override" "Blank"
+
+		"pin_to_sibling"		"SortByComboBox"
+		"pin_corner_to_sibling"		"3"
+		"pin_to_sibling_corner"		"2"
+	}
+
+	"SortByComboBox"
+	{
+		"ControlName"		"ComboBox"
+		"fieldName"			"SortByComboBox"
+		"Font"				"Size 10"
+		"xpos"				"c118"
+		"ypos"				"80"
+		"zpos"				"1"
+		"wide"				"112"
+		"tall"				"15"
+		"visible"			"1"
+		"enabled"			"1"
+		"textHidden"		"0"
+		"editable"			"0"
+		"maxchars"			"-1"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
+
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"Blank"
+		"disabledFgColor_override" "White"
+		"disabledBgColor_override" "Blank"
+		"selectionColor_override" "MainTheme"
+		"selectionTextColor_override" "White"
+		"defaultSelectionBG2Color_override" "Blank"
+	}
+
+	"ShowBaseItemsCheckbox"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"ShowBaseItemsCheckbox"
+		"labelText"		"Stock Items"
+		"Font"			"Size 10"
+		"textAlignment"	"east"
+		"textinsety"	"-2"
+		"xpos"			"c231"
+		"ypos"			"77"
+		"zpos"			"1"
+		"wide"			"54"
+		"wrap"			"1"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"mouseoveritempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"102"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"WhiteGray"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+
+		"attriblabel"
+		{
+			"font"			"Size 11"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
+	}
+
+	"mousedragitempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mousedragitempanel"
+
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"27"
+		"tall"			"21"
+		"visible"		"0"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"WhiteGray"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"1"
+
+		"model_ypos"	"3"
+		"model_tall"	"18"
+		"text_ypos"		"30"
+		"text_center"	"1"
+		"name_only"		"1"
+		"model_only"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+		}
+	}
+
+	"DragToNextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DragToNextPageButton"
+		"xpos"			"c290"
+		"ypos"			"154"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"35"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		">"
+		"font"			"Size 24"
+		"textAlignment"	"center"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"DragToPrevPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DragToPrevPageButton"
+		"xpos"			"c-315"
+		"ypos"			"154"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"35"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"<"
+		"font"			"Size 24"
+		"textAlignment"	"center"
+		"Command"		""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"tool_icon"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"tool_icon"
+		"xpos"			"10"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"backpack_jewel_modify_target_b_g"
+		"tileImage"		"0"
+		"tileVertically" "0"
+		"drawcolor"		"112 176 74 255"
+	}
+
+	"CancelApplyToolButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelApplyToolButton"
+		"xpos"			"c-288"
+		"ypos"			"337"
+		"zpos"			"20"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"#Cancel"
+		"font"			"Size 14"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"Command"		"canceltool"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 }

@@ -41,8 +41,8 @@
 			//"ypos"		"30"
 			//"wide"		"390"
 			//"tall"		"24"
-			//"UnpinnedCornerOffsetX" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
 			//"autoResize"		"3"
 			
 			////"visible"		"1"

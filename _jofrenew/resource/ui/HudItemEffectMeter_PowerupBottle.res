@@ -14,7 +14,7 @@
 	"ItemEffectMeterBG"
 	{
 
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"ItemEffectIcon"
@@ -51,8 +51,8 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoBold10"
-		"fgcolor_override"		"NotoWhite"
+		"font"					"Size 10"
+		"fgcolor_override"		"White"
 	}
 
 	"ItemEffectMeter"
@@ -69,7 +69,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
@@ -91,8 +91,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoBold18"
-		"fgcolor_override"		"NotoWhite"
+		"font"					"Regular18"
+		"fgcolor_override"		"White"
 		
 	}
 	

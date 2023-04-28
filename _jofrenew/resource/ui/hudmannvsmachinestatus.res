@@ -1,18 +1,18 @@
 "Resource/UI/HudMannVsMachineStatus.res"
-{	
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"c-300"
+		"xpos"				"cs-0.5"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
-		"tall"				"67"
+		"tall"				"1"
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"WaveCompleteSummaryPanel"
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
@@ -25,7 +25,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 	}
-	
+
 	"BossStatusPanel"
 	{
 		"ControlName"		"CMvMBossStatusPanel"
@@ -37,32 +37,20 @@
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
-		
+
 		"pin_to_sibling"               "WaveStatusPanel"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		"pin_corner_to_sibling"        "4"
+		"pin_to_sibling_corner"        "6"
 	}
 
-	"CurrencyStatusPanel"
-	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-224"
-		"ypos"				"r45"
-		"wide"				"60"
-		"tall"				"16"
-		"visible" 			"1"
-		"enabled" 			"1"
-	}
-	
 	"InWorldCurrencyPanel"
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"c-224"
-		"ypos"				"r25"
-		"wide"				"60"
-		"tall"				"16"
+		"xpos"				"cs-0.5"
+		"ypos"				"c132"
+		"wide"				"80"
+		"tall"				"14"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -80,9 +68,9 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/warning_highlight"
 		"scaleImage"	"1"
-		"time"			"0.3"		
+		"time"			"0.3"
 	}
-	
+
 	"UpgradeLevelContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -92,7 +80,7 @@
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-					
+
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -101,10 +89,10 @@
 			"ypos"			"r35"
 			"wide"			"640"
 			"tall"			"480"
-			"visible"		"1"	
+			"visible"		"1"
 		}
-		
-		"UpgradeLevel1" 
+
+		"UpgradeLevel1"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel1"
@@ -112,16 +100,13 @@
 			"ypos"			"r24"
 			"wide"			"20"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleImage"	"1"
 		}
-		
-		"UpgradeLevel2" 
+
+		"UpgradeLevel2"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel2"
@@ -129,16 +114,13 @@
 			"ypos"			"r42"
 			"wide"			"20"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleImage"	"1"
 		}
-		
-		"UpgradeLevel3" 
+
+		"UpgradeLevel3"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel3"
@@ -146,16 +128,13 @@
 			"ypos"			"r60"
 			"wide"			"20"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
 			"scaleImage"	"1"
 		}
 
-		"UpgradeLevelBoss" 
+		"UpgradeLevelBoss"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevelBoss"
@@ -163,16 +142,13 @@
 			"ypos"			"r46"
 			"wide"			"20"
 			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_boss"
 			"scaleImage"	"1"
 		}
 	}
-	
+
 	"VictorySplash"
 	{
 		"ControlName"		"CVictorySplash"
@@ -183,9 +159,9 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
+		"enabled"			"1"
 	}
-	
+
 	"VictoryPanelContainer"
 	{
 		"ControlName"	"CMvMVictoryPanelContainer"
@@ -196,19 +172,18 @@
 		"tall"			"480"
 		"visible"		"0"
 	}
-	
+
 	"WaveLossPanel"
 	{
 		"ControlName"	"CMvMWaveLossPanel"
 		"fieldName"		"WaveLossPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
 	}
-	
+
 	"ServerChangeMessage"
 	{
 		"ControlName"	"EditablePanel"
@@ -218,42 +193,35 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		
+
 		"Background"
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"9999"
+			"xpos"			"c-150"
 			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"image"			"replay/thumbnails/panels/blank"
 		}
-	
+
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"NotoBold20"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
 			"ypos"			"400"
 			"wide"			"300"
-			"tall"			"22"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"White"
 		}
 	}
+
 }

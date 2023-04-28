@@ -41,8 +41,8 @@
 					//"tall"			"256"
 					//"autoResize"	"3"
 					
-					//"UnpinnedCornerOffsetX" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
 					////"visible"		"1"
 					
 					
@@ -74,7 +74,7 @@
 							//"tall"			"24"
 							
 							
-							//"PinnedCornerOffsetX" "6"
+							////"PinnedCornerOffsetX" "6"
 							////"visible"		"1"
 							
 							
@@ -94,8 +94,8 @@
 							//"tall"			"24"
 							//"autoResize"	"1"
 							
-							//"PinnedCornerOffsetX" "75"
-							//"UnpinnedCornerOffsetX" "-70"
+							////"PinnedCornerOffsetX" "75"
+							////"PinnedCornerOffsetY" "-70"
 							////"visible"		"1"
 							
 							
@@ -114,7 +114,7 @@
 							//"ypos"			"6"
 							//"wide"			"60"
 							//"tall"			"24"
-							//"PinnedCornerOffsetX" "-6"
+							////"PinnedCornerOffsetX" "-6"
 							
 							//"pinCorner"		"1"
 							////"labelText"		"#AssetPicker_Rescan"
@@ -137,8 +137,8 @@
 							//"tall"			"24"
 							//"autoResize"	"3"
 							
-							//"UnpinnedCornerOffsetX" "-6"
-							//"UnpinnedCornerOffsetY" "-6"
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							
 							
@@ -157,8 +157,8 @@
 							//"tall"			"212"
 							//"autoResize"	"3"
 							
-							//"UnpinnedCornerOffsetX" "-6"
-							//"UnpinnedCornerOffsetY" "-64"
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-64"
 							////"visible"		"1"
 							
 							//"tabPosition"	"1"
@@ -174,8 +174,8 @@
 							//"tall"			"24"
 							
 							//"pinCorner"		"2"
-							//"PinnedCornerOffsetX" "6"
-							//"PinnedCornerOffsetY" "-34"
+							////"PinnedCornerOffsetX" "6"
+							////"PinnedCornerOffsetY" "-34"
 							////"visible"		"1"
 							
 							
@@ -195,9 +195,9 @@
 							//"tall"			"24"
 							//"autoResize"	"1"
 							//"pinCorner"		"2"
-							//"PinnedCornerOffsetX" "75"
-							//"PinnedCornerOffsetY" "-34"
-							//"UnpinnedCornerOffsetX" "-6"
+							////"PinnedCornerOffsetX" "75"
+							////"PinnedCornerOffsetY" "-34"
+							////"PinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							//"enabled"		"0"
 							"editable"		"0"
@@ -218,8 +218,8 @@
 							//"tall"			"24"
 							
 							//"pinCorner"		"2"
-							//"PinnedCornerOffsetX" "6"
-							//"PinnedCornerOffsetY" "-6"
+							////"PinnedCornerOffsetX" "6"
+							////"PinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							
 							
@@ -239,9 +239,9 @@
 							//"tall"			"24"
 							//"autoResize"	"1"
 							//"pinCorner"		"2"
-							//"PinnedCornerOffsetX" "75"
-							//"PinnedCornerOffsetY" "-6"
-							//"UnpinnedCornerOffsetX" "-6"
+							////"PinnedCornerOffsetX" "75"
+							////"PinnedCornerOffsetY" "-6"
+							////"PinnedCornerOffsetY" "-6"
 							////"visible"		"1"
 							
 							//"tabPosition"	"2"

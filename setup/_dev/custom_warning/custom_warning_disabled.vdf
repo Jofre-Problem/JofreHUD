@@ -1,0 +1,17 @@
+"Resource/UI/MainMenuOverride.res"
+{
+	"MainMenuOverride"
+	{
+		"SetupMenu"
+		{
+			"Content"
+			{
+				"CustomWarning"
+				{
+					"visible"		"0"
+					"enabled"		"0"
+				}
+			}
+		}
+	}
+}

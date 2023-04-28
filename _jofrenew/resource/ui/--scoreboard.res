@@ -11,8 +11,8 @@
 		"zpos"			"-999"
 		"wide"			"f0"
 		"tall"			"f0" 
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
@@ -48,7 +48,7 @@
 	}			
 	"BlueScoreBG"
 	{
-		"wide"	"0"
+		"visible"		"0"
 	}
 	"ShadedBar"
 	{
@@ -61,19 +61,19 @@
 	}	
 	"BlueTeamImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"RedTeamImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"BlueScoreBG2"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"RedScoreBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"gradient"
 	{
@@ -127,12 +127,12 @@
 	}
 	"MainBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 
 	"BlueTeamLabel"
 	{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"10"
 	}							
 
@@ -147,10 +147,10 @@
 		"xpos"			"176"
 		"ypos"			"13" 
 		"zpos"			"4"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -165,16 +165,16 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"NotoBold40"
+		"font"			"Size 36"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"401"
 		"ypos"			"21"
 		"zpos"			"20"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"23"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -188,17 +188,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"NotoBold40"
+		"font"			"Size 36"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"369"
 		"ypos"			"13"
 		"zpos"			"4"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -212,7 +212,7 @@
 	{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerLabel"
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"labelText"		"#scoreboard_top_list"
 			"textAlignment"	"west"
 			"xpos"			"cs-0.5"
@@ -243,10 +243,10 @@
 		"xpos"			"286"
 		"ypos"			"12"
 		"zpos"			"1"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"border"		"TFFatLineBorderOpaque"
@@ -268,8 +268,8 @@
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"8"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -288,8 +288,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"alpha"			"255"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"border"		"noborder"
 		"visible"		"1"
 		//"enabled"		"1"
@@ -315,10 +315,10 @@
 		"zpos"			"400"
 		"wide"			"300"
 		"tall"			"300"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
 		"textcolor"		"red"
@@ -342,7 +342,7 @@
 		"tall"			"360"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
 		"paintbackground"	"1"
@@ -367,8 +367,8 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		
@@ -383,7 +383,7 @@
 		"xpos"			"25"
 		"ypos"			"rs1"
 		"zpos"			"2"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 
@@ -397,8 +397,8 @@
 		"zpos"			"2"		
 		"wide"			"340"
 		"tall"			"300"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"paintbackground"	"1"
@@ -534,7 +534,7 @@
 	}
 	"PlayerNameBG"
 	{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 	}
 
@@ -555,7 +555,7 @@
 
 	"PlayerNameLabel"
 	{
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textAlignment"		"west"
 		"xpos"			"5"
 		"ypos"			"5"
@@ -570,7 +570,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"NotoBold10"
+		"font"			"Size 10"
 		"textAlignment"	"west"
  		"xpos"			"10"
 		"ypos"			"0"
@@ -585,7 +585,7 @@
 	}
 	"ServerTimeLeft"
 	{
-		"font"			"NotoBold10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -599,7 +599,7 @@
 	}			
 	"BlueTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -613,7 +613,7 @@
 	}	
 	"RedTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -628,7 +628,7 @@
 
 	"ServerLabelNew"
 	{
-		"font"			"NotoBold10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -679,7 +679,7 @@
 		"wide"			"f0"
 		"tall"			"0"
 		"visible"		"0"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
@@ -718,8 +718,8 @@
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		
@@ -806,8 +806,8 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"wrap"			"0"
@@ -826,8 +826,8 @@
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -882,8 +882,8 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"wrap"			"0"
@@ -902,8 +902,8 @@
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -1099,7 +1099,7 @@
 			"fieldName"		"Destrucion_New"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"center"
 			"xpos"			"8"
@@ -1130,7 +1130,7 @@
 			"labelText"		"%captures%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1158,7 +1158,7 @@
 			"labelText"		"%defenses%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1193,7 +1193,7 @@
 			"labelText"		"%dominations%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1221,7 +1221,7 @@
 			"labelText"		"%Revenge%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1273,7 +1273,7 @@
 			"labelText"		"%healing%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1305,7 +1305,7 @@
 			"labelText"		"%invulns%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1387,7 +1387,7 @@
 			"labelText"		"%assists%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1415,7 +1415,7 @@
 			"labelText"		"%teleports%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1447,7 +1447,7 @@
 			"labelText"		"%headshots%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1495,7 +1495,7 @@
 			"labelText"		"%backstabs%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1539,7 +1539,7 @@
 			"labelText"		"%support%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1567,7 +1567,7 @@
 			"labelText"		"%bonus%"
 			"fgcolor_override"	"185 194 68 255"
 			"bgcolor_override"		"39 39 39 255"			
-			"font"			"CustomPrimero"
+			"font"			"Size 12"
 			"textAlignment"		"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1641,11 +1641,11 @@
 		}
 		"DamageLabel"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 		"Damage"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 
 
@@ -1660,11 +1660,11 @@
 		"zpos"			"0"
 		"wide"			"539"
 		"tall"			"38"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 	}
@@ -1693,8 +1693,8 @@
 
 			"labelText"		"C"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"SelectHintLabel"
@@ -1710,8 +1710,8 @@
 
 			"labelText"		"#GameUI_Select"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardIcon"
@@ -1727,8 +1727,8 @@
 
 			"labelText"		"A"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardLabel"
@@ -1744,8 +1744,8 @@
 
 			"labelText"		"#TF_ViewGamercard"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationIcon"
@@ -1761,8 +1761,8 @@
 
 			"labelText"		"X"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationLabel"
@@ -1778,8 +1778,8 @@
 
 			"labelText"		"#GameUI_PlayerReview"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 	}				
 	

@@ -2,8 +2,8 @@
 
 "classes/Soldier.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Soldier"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Soldier"
+	}
 }

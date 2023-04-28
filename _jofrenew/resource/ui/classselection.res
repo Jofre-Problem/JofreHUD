@@ -29,11 +29,11 @@
 	}
 	"Hint"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}			
 	"Offense"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 "CountLabel"
 	{
@@ -42,37 +42,37 @@
 
 "ClassHighlightText"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"Defense"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"Support"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 	"ClassMenuSelect2"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"ClassMenuSelect"		//seems to be broken?
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}		
 	"MenuBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"ShadedBar"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 	"CancelButton" 
@@ -88,7 +88,7 @@
 		"paintBackground"	"0"
 		"labelText"	"M"
 		"defaultFgColor_override"	"W_ColorTheme1"
-		"armedFgColor_override"	"tf23"
+		"armedFgColor_override"	"Primary"
 		"Command"		"vguicancel"
 	}
 	"CancelContinue" 
@@ -133,12 +133,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -251,12 +251,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -332,12 +332,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -526,12 +526,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -606,12 +606,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -724,12 +724,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -842,11 +842,11 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -921,12 +921,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -1116,12 +1116,12 @@
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -1188,8 +1188,8 @@
 		
 		paintbackground			0
 		
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 	}
 
 	// #endregion
@@ -1209,7 +1209,7 @@
 		
 		labelText				"%numScout%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1228,7 +1228,7 @@
 		
 		labelText				"%numSoldier%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1247,7 +1247,7 @@
 		
 		labelText				"%numPyro%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1266,7 +1266,7 @@
 		
 		labelText				"%numDemoman%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1285,7 +1285,7 @@
 		
 		labelText				"%numHeavy%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1304,7 +1304,7 @@
 		
 		labelText				"%numEngineer%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1323,7 +1323,7 @@
 		
 		labelText				"%numMedic%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1342,7 +1342,7 @@
 		
 		labelText				"%numSniper%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1361,7 +1361,7 @@
 		
 		labelText				"%numSpy%"
 		textAlignment			center
-		font					"NotoBold20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1748,13 +1748,13 @@
 	"localPlayerImage"
 	{
 		visible			0
-		wide				0
+		visible 0
 		tall				0
 	}
 	"localPlayerBG"
 	{
 		visible			0
-		wide				0
+		visible 0
 		tall				0
 	}
 	"ClassTipsPanel"
@@ -1763,7 +1763,7 @@
 	}
 	"random"
 	{
-		wide				0
+		visible 0
 		tall				0
 	}
 	"ClassInfo"
@@ -1777,7 +1777,7 @@
 	"localPlayerImage"
 	{
 		visible			0
-		wide				0
+		visible 0
 		tall				0
 	}
 	"countImage0" [$WIN32]

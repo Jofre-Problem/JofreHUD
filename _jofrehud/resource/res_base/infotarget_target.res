@@ -9,7 +9,7 @@
 "ypos""63"
 "wide""500"
 "autoResize""1"
-//"UnpinnedCornerOffsetX" "-20"
+////"PinnedCornerOffsetY" "-20"
 }
 "InfoTarget"
 {
@@ -34,7 +34,7 @@
 "wide""680"
 "tall""24"
 "autoResize""1"
-//"UnpinnedCornerOffsetX" "-20"
+////"PinnedCornerOffsetY" "-20"
 //"pinCorner""0"
 //"visible""1"
 ////"enabled""1"

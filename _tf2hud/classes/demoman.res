@@ -2,8 +2,8 @@
 
 "classes/demoman.res"
 {
-"classNameLabel"
-{
-"labelText""#TF_Demoman"
-}
+	"classNameLabel"
+	{
+		"labelText"		"#TF_Demoman"
+	}
 }

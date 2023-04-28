@@ -1,4 +1,10 @@
-	#base	"../../custom/resource/ui/huditemeffectmeter_killstreak.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_killstreak.res"
-	#base	"../../_jofrehud/resource/ui/huditemeffectmeter_killstreak.res"
-	#base	"../../_tf2hud/resource/ui/huditemeffectmeter_killstreak.res"
+#base 	"huditemeffectmeter_demoman.res"
+
+//killstrea counter
+"Resource/UI/HudItemEffectMeter_Demoman.res"
+{
+	HudItemEffectMeter
+	{
+		"xpos"			"cs-1.0-150"
+	}
+}

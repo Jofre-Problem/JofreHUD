@@ -15,16 +15,12 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"10"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/noto_blue"
+			"image"			"replay/thumbnails/hp/bluteam2"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -37,7 +33,7 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"BluProgress"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"p1" 
 		"tall"			"2"
@@ -45,9 +41,9 @@
 // on arena doesnt pass 32, max 24, so value here max is
 // 12
 		"variable"		"blue_alive"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"white"
 		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
+	
 	}		
 		"count"
 		{
@@ -58,25 +54,15 @@
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
-			"font"			"Killfeed"
+			"font"			"Size 14"
 			"textAlignment"	"center"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"White"
 		}	
-		"countshadow"
+			"countshadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"countshadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"19"
-			"font"			"KillfeedBlur"
-			"textAlignment"	"center"
-			"fgcolor"		"Black"
-			"pin_to_sibling"	"count"
-		}
-		
+			"tall"			"0"
+
+		}		
 		"playerimage"
 		{
 			"ControlName"	"ImagePanel"		
@@ -108,13 +94,13 @@
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"RedProgress"
 		"xpos"			"0"
-		"ypos"			"3"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"154" //due to max players being 32, value is different
 		"tall"			"2"
 		//max value for players is 31
 		"variable"		"red_alive"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"white"
 		"bgcolor_override"		"0 0 0 0"
 		"scaleImage"		"1"
 	}	
@@ -127,11 +113,11 @@
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/noto_red"
+			"image"			"replay/thumbnails/hp/redteam2"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -148,19 +134,25 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"19"
-			"font"			"Killfeed"
+			"font"			"Size 14"
 			"textAlignment"	"center"
-			"fgcolor"		"Notowhite"
-		}			
+			"fgcolor"		"White"
+		}		
+		"countshadow"
+		{
+			"tall"			"0"
+
+		}						
 		"countfalse"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countfalse"
-			"xpos"			"30"
+			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
+			"labeltext"		"%red_alive%"
 			"font"			"Killfeed"
 			"textAlignment"	"center"
 			"fgcolor"		"blank"
@@ -170,7 +162,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"alert"
-			"xpos"			"387"
+			"xpos"			"411+p0.002"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"8"
@@ -178,40 +170,17 @@
 			"font"			"Killfeed"
 			"textAlignment"	"center"
 			"labelText"	"!"
-			"fgcolor"		"Black"
-			"bgcolor_override"	"255 255 0 255"
+			"fgcolor"		"Neutral"
+			"bgcolor_override"	"Negative"
 			"pin_to_sibling"	"countfalse"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
-		"countshadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"countshadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"19"
-			"font"			"KillfeedBlur"
-			"textAlignment"	"center"
-			"fgcolor"		"Black"
-			"pin_to_sibling"	"count"
-		}
-	
+
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"5"
-			"zpos"			"3"
-			"wide"			"7"
 			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
+	
 		}
 	}
 }
