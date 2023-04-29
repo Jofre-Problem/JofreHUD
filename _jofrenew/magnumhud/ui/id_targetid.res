@@ -316,7 +316,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelUberFullBG"
 		"font"			"SpecTargetIDuberfull"
-		"xpos"			"0"
+		"xpos"			"-20"
 		"ypos"			"420" //420
 		"zpos"			"3"
 		"wide"			"1500"

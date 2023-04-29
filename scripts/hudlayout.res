@@ -1,5 +1,5 @@
 	#base "../../cfg/jp_awsd_hudlayout.txt"
 	#base "../_jofrenew/ui_overrides/close-caption/file.res"
 	#base "../_jofrenew/scripts/hudlayout.res"
-//	#base "../_jofrehud/scripts/hudlayout.res"
+//	//#base "../_jofrehud/scripts/hudlayout.res"
 	#base "hudlayout_def.res"

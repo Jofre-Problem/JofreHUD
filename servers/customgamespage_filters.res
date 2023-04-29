@@ -1,6 +1,22 @@
 	#base "customgamespage.res"
 "servers/CustomGamesPage_Filters_Custom.res"
 {
+	"gamelist"
+	{
+		"ControlName"		"ListPanel"
+		"fieldName"		"gamelist"
+		"xpos"		"0"
+		"ypos"		"8"
+		"wide"		"624"
+		"tall"		"90"
+		"AutoResize"		"3"
+		"PinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"paintbackground"		"1"
+	}
+
        "GameFilterLabel"
         {
                 "ControlName"                "Label"

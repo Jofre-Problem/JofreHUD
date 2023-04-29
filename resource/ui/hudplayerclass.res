@@ -1,4 +1,4 @@
-	#base	"../../_tf2hud/resource/ui/hudplayerclass.res"
+	#base	"_tf2hud/hudplayerclass.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"

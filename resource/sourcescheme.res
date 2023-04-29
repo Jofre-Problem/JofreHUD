@@ -16,16 +16,7 @@ Scheme
 		"W_BorderArmed"	"204 135 41 255"
 		"W_CerrarArmed"	"255 64 64 255"
 
-	//	"W_ColorTheme1"	"238 238 238 255"	//barra
-	//	"W_ColorTheme2"	"228 228 228 248"	//tipo asi "fondo"
-	//	"W_ColorTheme3"	"244 244 244 255"	// fondo del motd panel
 		"W_ColorTheme4"	"193 175 75 255"//"62 80 180 255"		// ROBOTO HUD azul		
-	//	"W_ColorLinea1"	"172 172 172 155"	//linea separatoria
-	//	"W_BorderArmedText"	"64 64 64 255"
-	//	"W_ColorTexto1" "133 122 84 255"
-	//	"W_ColorIcons1"	"0 6 0 255"
-	//	"W_ColorIcons1Blur"	"0 6 0 178"
-	//	"White" "217 171 108 255"
 
 		"W_ColorTheme1"	"37 39 37 255"
 		"W_ColorTheme2"				"27 27 27 248"//248
@@ -33,8 +24,7 @@ Scheme
 		"W_ColorLinea1"		"27 27 27 170"//170
 		"W_ColorIcons1"	"245 245 245 255"
 		"W_ColorIcons2"	"220 220 220 255"
-		"W_ColorIcons1Blur"	"245 245 245 170"
-		"W_ColorTexto1" "119 100 192 255"	//purple
+
 		"W_BorderArmedText"	"190 190 190 255"
 		"W_BotonArmed"	"219 191 153 255"	//cuando esta seleccionado 
 

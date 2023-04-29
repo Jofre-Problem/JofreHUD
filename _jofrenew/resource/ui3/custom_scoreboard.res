@@ -262,7 +262,7 @@
 		"zpos"			"9999"
 		"wide"			"f0"
 		"tall"			"480"
-		"medal_width"		"20"
+		"medal_width"		"26"
 		"avatar_width"		"64"
 		"spacer"			"3"
 		"name_width"		"118"

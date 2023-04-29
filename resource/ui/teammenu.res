@@ -3,7 +3,7 @@
 
 #base "../../_jofrenew/resource/uni_base/btn/1.res"
 #base "../../_jofrenew/resource/uni_base/btn/2.res"
-#base "../../_tf2hud/resource/ui/teammenu.res"
+#base "_tf2hud/teammenu.res"
 
 
 "Resource/UI/TeamMenu.res"
