@@ -1,3 +1,5 @@
+#base	"addondialogwaiting.res"
+
 "AddOns/Common/DialogColorChoice.res"
 {
 	"DialogColorChoice"
@@ -14,24 +16,11 @@
 		"enabled"		"1"
 		//		"0"
 	}
-	"TextLabel"
+	"AddOnDialogWaiting"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"TextLabel"
-		"xpos"		"35"
-		"ypos"		"30"
-		"wide"		"350"
-		"tall"		"40"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"labelText"		"main text"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"visible"		"0"
 	}
+
 	"ColorOneBtn"
 	{
 		"ControlName"		"Button"
@@ -65,25 +54,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Color Two"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
-	}
-	"AbortBtn"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"AbortBtn"
-		"xpos"		"320"
-		"ypos"		"110"
-		"wide"		"60"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"labelText"		"Abort"
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"

@@ -84,8 +84,8 @@
 		"paintborder"								"0"
 
 		"defaultBgColor_override" 					"Black"
-		"armedBgColor_override" 					"A_ColorTheme3"
-		"depressedBgColor_override" 				"A_ColorTheme1"
+		"armedBgColor_override" 					"26 115 232 255"
+		"depressedBgColor_override" 				"White"
 		
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"Red"
@@ -94,25 +94,25 @@
 	
 	"Shade"
 	{
-		"ControlName"								"EditablePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Shade"
 		"xpos"										"9999"
 	}
 	"TitleGradient"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"TitleGradient"
 		"xpos"										"9999"
 	}
 	"InnerGradient"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"InnerGradient"
 		"xpos"										"9999"
 	}
 	"OuterGradient"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"OuterGradient"
 		"xpos"										"9999"
 	}

@@ -126,7 +126,7 @@
 
 		paintbackground				1
 		defaultBgColor_override		"0 0 0 0"
-		armedBgColor_override		"W_ColorTheme3"
+		armedBgColor_override		"Black"
 
 		border_default				"NoBorder"
 		border_armed				"FriendHighlightBorderThick"

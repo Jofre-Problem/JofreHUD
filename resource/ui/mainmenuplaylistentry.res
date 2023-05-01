@@ -32,8 +32,8 @@
 		"paintborder"								"0"
 		
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"PolyIconsFg1"
-		"depressedFgColor_override"					"W_ColorLinea1"
+		"armedFgColor_override"						"White"
+		"depressedFgColor_override"					"Black"
 
 		"image_drawcolor"							"255 255 255 255"
 		"image_armedcolor"							"225 225 225 255"
@@ -68,7 +68,7 @@
 		"painbackground"							"1"
 		"painbackgroundtype"						"0"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"W_ColorIcons1"
+		"bgcolor_override"							"White"
 	}	
 	"MatchmakingBanPanel"
 	{

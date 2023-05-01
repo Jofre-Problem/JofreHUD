@@ -114,7 +114,7 @@ Scheme
 		"SectionedListPanel.SelectedTextColor"				"Black"
 		"SectionedListPanel.SelectedBgColor"				"Red"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"PanelT2"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"TransparentBlack"
 
 		"Slider.NobColor"									"255 255 255 255"
 		"Slider.TextColor"									"128 128 128 255"
@@ -170,27 +170,27 @@ Scheme
 		"HudIcon_Red"										"160 0 0 255"
 
 
-		TextEntry.TextColor			"W_ColorIcons1"
-		TextEntry.BgColor			"W_ColorTheme2"
-		TextEntry.DisabledTextColor	"W_ColorIcons1"
-		TextEntry.DisabledBgColor	"W_ColorTheme3"
-		TextEntry.SelectedTextColor	"W_ColorTheme1"
-		TextEntry.SelectedBgColor	"W_ColorIcons1"
+		TextEntry.TextColor			"White"
+		TextEntry.BgColor			"Black"
+		TextEntry.DisabledTextColor	"White"
+		TextEntry.DisabledBgColor	"Black"
+		TextEntry.SelectedTextColor	"Black"
+		TextEntry.SelectedBgColor	"White"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"	
-		TextEntry.CursorColor		"W_ColorIcons1"
-		Button.DepressedTextColor		"W_ColorTheme3"
-		Button.DepressedBgColor			"W_ColorTheme1"
-		Button.FocusBorderColor			"W_ColorTheme1"
-		ProgressBar.BgColor				"W_ColorTheme2"
-		ScrollBarButton.FgColor				"W_ColorIcons1"
-		ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
-		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
+		TextEntry.CursorColor		"White"
+		Button.DepressedTextColor		"Black"
+		Button.DepressedBgColor			"Black"
+		Button.FocusBorderColor			"Black"
+		ProgressBar.BgColor				"Black"
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.ArmedFgColor		"Black"
+		ScrollBarButton.DepressedFgColor	"Black"
 		Slider.TextColor			"blank"
         Slider.DisabledTextColor2	"Blank"	
-	//	Econ.Dialog.BgColor				"W_ColorTheme1"
-		ReplayBrowser.BgColor					"W_ColorTheme1"		
-		Replay.RenderDialog.BgColor							"W_ColorTheme1"
+	//	Econ.Dialog.BgColor				"Black"
+		ReplayBrowser.BgColor					"Black"		
+		Replay.RenderDialog.BgColor							"Black"
 
 		Button.TextColor								"240 240 240 255"
 		Button.BgColor									"27 27 27 255"
@@ -203,39 +203,39 @@ Scheme
 		Button.DepressedTextColor						"245 245 245 180"
 		Button.DepressedBgColor							"255 255 255 16"
 
-		CheckButton.TextColor								"W_ColorTheme1"
-		CheckButton.SelectedTextColor						"W_ColorIcons1"
-		CheckButton.BgColor									"W_ColorTheme3"		// bg inside checkbox
+		CheckButton.TextColor								"Black"
+		CheckButton.SelectedTextColor						"White"
+		CheckButton.BgColor									"Black"		// bg inside checkbox
 		CheckButton.Border1  								"Blank"			// left and top
 		CheckButton.Border2  								"Blank"			// bottom and right
-		CheckButton.Check										"W_BorderArmed"				// check mark
-		CheckButton.HighlightFgColor						"W_ColorIcons1"				// ?
+		CheckButton.Check										"204 135 41 255"				// check mark
+		CheckButton.HighlightFgColor						"White"				// ?
 
 		FrameTitleBar.DisabledBgColor						"Blank"
 
 	//	GraphPanel.FgColor									"OrangeLight"
 	//	GraphPanel.BgColor									"TransparentBlack"
 		
-		Label.TextDullColor									"W_ColorIcons1" // Gray
+		Label.TextDullColor									"White" // Gray
 		Label.TextColor										"White" // White
-		Label.TextBrightColor								"W_ColorIcons1" // White
-		Label.SelectedTextColor								"W_ColorIcons1" // White
+		Label.TextBrightColor								"White" // White
+		Label.SelectedTextColor								"White" // White
 		Label.BgColor										"Blank" // Blank
 		Label.DisabledFgColor1								"Blank"		// text shadow
 		Label.DisabledFgColor2								"Primary"	// text
 
-		ListPanel.TextColor					"W_ColorIcons1"
+		ListPanel.TextColor					"White"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"W_ColorIcons1"
+		ListPanel.EmptyListInfoTextColor	"White"
 		
-		SectionedListPanel.HeaderTextColor	"W_ColorIcons1"
+		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"W_ColorIcons1"
-		SectionedListPanel.BrightTextColor	"W_ColorIcons1"
+		SectionedListPanel.TextColor		"White"
+		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"0 0 0 0"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
@@ -249,12 +249,12 @@ Scheme
 		RichText.SelectedBgColor							"OrangeLight"
 
 		ScrollBarButton.BgColor				"Blank"
-//		ScrollBarButton.ArmedFgColor		"W_ColorTheme1"
+//		ScrollBarButton.ArmedFgColor		"Black"
 		ScrollBarButton.ArmedBgColor		"Blank"
-//		ScrollBarButton.DepressedFgColor	"W_ColorTheme1"
+//		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor								"Primary"//w_coloricons1
+		ScrollBarSlider.FgColor								"Primary"//White
 		ScrollBarSlider.BgColor								"blank"
 
 		"ItemColor"											"OrangeLight"

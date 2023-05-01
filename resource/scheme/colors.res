@@ -2,32 +2,13 @@ Scheme
 {
 	Colors
 	{
-		"m0reBlue"											"80 144 255 255"
-		"m0reRed"											"255 64 80 255"
-		"m0reBlueT1"										"80 144 255 208"
-		"m0reRedT1"											"255 64 80 208"
-		"m0reBlueT2"										"80 144 255 160"
-		"m0reRedT2"											"255 64 80 160"
-		"m0reBlueT3"										"80 144 255 112"
-		"m0reRedT3"											"255 64 80 112"
-		"m0reBlueT4"										"80 144 255 64"
-		"m0reRedT4"											"255 64 80 64"
-
-		"TF2Blue"											"90 122 143 255"
-		"TF2Red"											"189 59 61 255"
 
 		"TanLight"											"255 255 255 255"
 
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
 
-		"PanelT0"											"0 0 0 255"
-		"PanelT1"											"0 0 0 208"
-		"PanelT2"											"0 0 0 160"
-		"PanelT3"											"0 0 0 112"
-		"PanelT4"											"0 0 0 64"
-
-		"PanelO0"											"0 0 0 255"
+		"Black"											"0 0 0 255"
 		"PanelO1"											"24 24 24 255"
 		"PanelO2"											"40 40 40 255"
 		"PanelO3"											"56 56 56 255"

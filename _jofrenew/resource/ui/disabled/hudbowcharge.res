@@ -1,2 +1,0 @@
-
-#base hudDemomanCharge.res

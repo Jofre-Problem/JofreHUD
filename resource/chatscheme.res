@@ -6,7 +6,7 @@
 #base "../../../cfg/jp_chat_shadow.txt"
 #base "../../../cfg/jp_chat_outline.txt"
 #base "../../../cfg/jp_chat_scrollbar_wide.txt"
-#base "../_jofrenew/fallbackhud/chatscheme.res"	// in case user didnt set nothing
+#base "fallback/chatscheme.res"	// in case user didnt set nothing
 
 
 
@@ -886,7 +886,7 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 			"3"
 		{
-			"font" "_jofrenew/font/ProductChat.ttf"
+			"font" "fonts/ProductChat.ttf"
 			"name" "ProductChat"
 			"range"         "0x0000 0x017F"
 		}	

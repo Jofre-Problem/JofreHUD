@@ -1,3 +1,5 @@
+#base	"addondialogwaiting.res"
+
 "AddOns/Common/DialogWaiting.res"
 {
 	"DialogWaiting"
@@ -14,41 +16,9 @@
 		"enabled"		"1"
 		//		"0"
 	}
-	"TextLabel"
+	"AddOnDialogWaiting"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"TextLabel"
-		"xpos"		"35"
-		"ypos"		"40"
-		"wide"		"350"
-		"tall"		"40"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"labelText"		"Setting up YYY Game with XXX"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		"visible"		"0"
 	}
-	"AbortBtn"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"AbortBtn"
-		"xpos"		"320"
-		"ypos"		"100"
-		"wide"		"60"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"labelText"		"Abort"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
-	}
+
 }

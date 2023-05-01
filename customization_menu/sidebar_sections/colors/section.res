@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{
@@ -56,7 +56,7 @@
 							"wide"						"f0"
 							"tall"						"20"
 							"proportionaltoparent"		"1"
-							"command"					"engine ih_custom_submenu_colors_color; ih_reloadmenus"
+							"command"					"engine ih_custom_submenu_colors_color; ih_reloadmenus; exec aliases/jp_aliases_colors"
 							"actionsignallevel"			"6"
 							"labelText"					"Color"
 							"font"						"regular12"

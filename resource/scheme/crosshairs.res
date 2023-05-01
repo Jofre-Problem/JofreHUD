@@ -217,7 +217,7 @@
 	{
 		"100"
 		{
-			"font"		"_jofrenew/leadhud/scheme/fonts/TF2Crosshairs.ttf"
+			"font"		"fonts/TF2Crosshairs.ttf"
 			"name"		"TF2Crosshairs"
 		}
 	}

@@ -1,4 +1,4 @@
-#base "../../_jofrenew/resource/ui_overrides/full-timer/file2.res"
+#base "../../new/ui_overrides/full-timer/file2.res"
 "Resource/UI/CharInfoPanel.res"
 {
 	"Time_hour10"

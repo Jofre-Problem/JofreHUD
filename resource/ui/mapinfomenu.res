@@ -1,10 +1,9 @@
 
-#base "../../_jofrenew/resource/ui_overrides/full-timer/file.res"
+#base "../../new/ui_overrides/full-timer/file.res"
 #base "../../../cfg/jp_steam_border.txt"
-#base "../../_jofrenew/resource/ui3/partyslot0.res"
-#base "../../_jofrenew/resource/ui3/tank_gif.res"
-#base "../../_jofrenew/resource/ui3/keybindings.res"
-//#base "../../_jofrenew/resource/#jofre/blur_bg.res"
+#base "ui2/partyslot0.res"
+#base "ui2/tank_gif.res"
+#base "ui2/keybindings.res"
 "Resource/UI/TeamMenu.res"
 {
 
@@ -18,21 +17,13 @@
 			}		
 	"Removeline"
 	{
-
-			
-			zpos					100
-			wide					42
-			tall					40
+		zpos					100
+		wide					42
+		tall					40
 		bgcolor_override				"blank"
-
 	}	
-		"SummerBorder"
-		{
-//"xpos""cs-0.5"
-	//	"ypos""45"
-			//"pin_to_sibling"	"PartySlot0"
-				//cant pin
-		}				
+	"SummerBorder"
+	{}				
 	"MenuBG"
 	{
 		"visible"		"0"
@@ -71,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Size 14"
+		"font"			"Regular16"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -128,7 +119,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Size 14"
+		"font"			"Regular16"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -148,7 +139,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Size 14"
+		"font"			"Regular16"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"

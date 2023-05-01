@@ -1,49 +1,23 @@
 #base "../../cfg/jp_fonts_scheme.txt"		// font default tf2 stuff uses
-#base "../_jofrenew/ui_overrides/schemes/fonts/default.res"		// fallback of above
 #base "../../cfg/jp_custom_hp_scheme.txt"	// dark and bright color
 #base "../../cfg/jp_ex_square.txt"
-
 #base "../customization/colors/user_colors.res"
 #base "../customization/colors/custom_colors.res"
-
-#base "../_jofrenew/resource/clientscheme.res"
+#base "../new/ui_overrides/schemes/fonts/default.res"	
 #base "scheme/settings.res"
 #base "scheme/colors.res"
 #base "scheme/crosshairs.res"
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
 #base "scheme/borders.res"
+#base "scheme/hp_ammo.res"
+#base "fallback/clientscheme.res"
 
-#base "../_jofrenew/fallbackhud/clientscheme.res"
 Scheme
 {
 	
 	Colors
 	{
-		"ColorRed"						"255 0 0 255"
-		"ColorVermillion"				"255 64 0 255"
-		"ColorOrange"					"255 128 0 255"
-		"ColorYellow"					"255 255 0 255"
-		"ColorLime"						"128 255 0 255"
-		"ColorGreen"					"0 255 0 255"
-		"ColorTeal"						"0 255 128 255"
-		"ColorCyan"						"0 255 255 255"
-		"ColorAqua"						"0 128 255 255"
-		"ColorBlue"						"0 0 255 255"
-		"ColorPurple"					"128 0 255 255"
-		"ColorMagenta"					"255 0 255 255"
-		"ColorRuby"						"255 0 128 255"
-		"ColorBlack"					"0 0 0 255"
-		"ColorGreyDark"					"64 64 64 255"
-		"ColorGreyMid"					"128 128 128 255"
-		"ColorGreyLight"				"192 192 192 255"
-		"ColorWhite"					"255 255 255 255"			
-		"m0reBlue"											"112 160 255 255"
-		"m0reRed"											"255 80 80 255"
-
-		"TF2Blue"											"90 122 143 255"
-		"TF2Red"											"189 59 61 255"
-
 		"TanLight"											"255 255 255 255"
 
 		"White"												"255 255 255 255"
@@ -94,9 +68,6 @@ Scheme
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
 		"Yellow"											"245 220 60 255"		
-		"tf21"	"64 64 64 255"
-		"tf22"	"247 231 191 255"
-		"tf23"	"255 90 47 255"
 		"TransparentLightBlack""0 0 0 100"
 	//	"Green"					"0 135 68 255"
 	//	"TanLight"				"193 175 75 255"			
@@ -282,7 +253,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"tall"		"16"
+				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -542,7 +513,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "White"
 					"offset" "0 1"
 				}
 			}
@@ -551,7 +522,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "White"
 					"offset" "1 0"
 				}
 			}
@@ -560,7 +531,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -569,7 +540,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "White"
 					"offset" "0 0"
 				}
 			}
@@ -623,7 +594,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_ColorTheme3"   //
+			"color" "Black"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -637,7 +608,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_ColorIcons1"   //
+			"color" "White"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -650,7 +621,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_ColorTheme1"   //
+			"color" "Black"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
@@ -663,7 +634,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" "W_BorderArmed"   //
+			"color" "204 135 41 255"   //
 			"offset" "0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"

@@ -53,7 +53,7 @@
 		"labeltext"									"Competitive"
 		"textAlignment"								"center"
 		"font"										"Regular24"
-		"fgcolor"									"W_ColorIcons1"
+		"fgcolor"									"White"
 		"AllCaps"									"1"
 		"mouseinputenabled"							"0"
 	}
@@ -72,7 +72,7 @@
 		"wrap"										"1"
 		"centerwrap"								"0"
 		"font"										"Regular24"
-		"fgcolor"									"W_ColorIcons1"
+		"fgcolor"									"White"
 		"AllCaps"									"0"
 		"mouseinputenabled"							"0"
 
@@ -143,12 +143,12 @@
 		"paintbackgroundtype"						"0"
 		"paintborder"								"0"
 
-		"defaultBgColor_override" 					"W_ColorTheme1"
-		"armedBgColor_override" 					"W_BorderArmed"
-		"depressedBgColor_override" 				"W_ColorTheme1"
+		"defaultBgColor_override" 					"Black"
+		"armedBgColor_override" 					"204 135 41 255"
+		"depressedBgColor_override" 				"Black"
 		
-		"defaultFgColor_override" 					"W_ColorIcons1"
-		"armedFgColor_override" 					"W_ColorIcons1"
-		"depressedFgColor_override" 				"W_ColorIcons1"
+		"defaultFgColor_override" 					"White"
+		"armedFgColor_override" 					"White"
+		"depressedFgColor_override" 				"White"
 	}
 }

@@ -522,57 +522,57 @@ Scheme
 	{
 		"91"
 		{
-			"font" "_jofrenew/font/Product Sans.ttf"
+			"font" "fonts/Product Sans.ttf"
 			"name" "Product Sans"
 		}
 	"78"
 		{
-			"font" "_jofrenew/font/optimized/OpenSans-Regular.ttf"
+			"font" "fonts/optimized/OpenSans-Regular.ttf"
 			"name" "Open Sans"
 		}
 		"79"
 		{
-			"font" "_jofrenew/font/optimized/OpenSans-Bold.ttf"
+			"font" "fonts/optimized/OpenSans-Bold.ttf"
 			"name" "Open Sans Bold"
 		}
 		"96"
 		{
-			"font" "_jofrenew/font/FutureRotfix.otf"
+			"font" "fonts/FutureRotfix.otf"
 			"name" "Future Rot"
 		}					
 		"98"
 		{
-			"font" "_jofrenew/font/JofreIconsMaster.otf"
+			"font" "fonts/JofreIconsMaster.otf"
 			"name" "JofreIconsRe"
 		}	
 		"99"
 		{
-			"font" "_jofrenew/font/CallingCode-Regular.otf"
+			"font" "fonts/CallingCode-Regular.otf"
 			"name" "Calling Code Regular"
 		} 			
 		"105"
 		{
-			"font" "_jofrenew/font/Blocks-Blocks.ttf"
+			"font" "fonts/Blocks-Blocks.ttf"
 			"name" "blocks"
 		}	
 		"211"
 		{
-			"font"		"_jofrenew/leadhud/scheme/fonts/Icons.ttf" 
+			"font"		"fonts/Icons.ttf" 
 			"name"		"Icons"
 		}
 		"212"
 		{
-			"font"		"_jofrenew/leadhud/scheme/fonts/Chars.ttf"
+			"font"		"fonts/Chars.ttf"
 			"name"		"Chars"
 		}		
 		"310"
 		{
-			"font"	"resource/scheme/fonts/Renogare XHud.ttf"
+			"font"	"fonts/Renogare XHud.ttf"
 			"name"	"Renogare Soft XHud"
 		}
 		"311"
 		{
-			"font"	"resource/scheme/fonts/Renogare Uber.ttf"
+			"font"	"fonts/Renogare Uber.ttf"
 			"name"	"Renogare Uber"
 		}
 	}

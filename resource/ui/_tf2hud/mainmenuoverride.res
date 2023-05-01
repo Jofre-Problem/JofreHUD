@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"MainMenuOverride"
 	{
@@ -38,12 +38,8 @@
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
-				"sound_depressed"					"UI/buttonclick.wav"
 
 				"paintbackground"					"0"
-
-				"defaultFgColor_override" 			"White"
-				"armedFgColor_override" 			"Main"
 			}
 		}
 		"SaxxySettings"

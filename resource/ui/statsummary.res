@@ -1,8 +1,8 @@
 #base "../../../../cfg/jp_mainmenu_spray_frame.txt"
-#base "../../_jofrenew/resource/ui3/tank_gif.res"
+#base "ui2/tank_gif.res"
+#base "ui2/lead_bg.res"
 //#base "../ui3/menu_multiple.res"
-#base "../../_jofrenew/resource/uni_base/image/1.res"
-#base "../../_jofrenew/ui_overrides/full-timer/file2.res"
+#base "../../new/ui_overrides/full-timer/file2.res"
 #base "statsummary_embedded.res"
 "Resource/UI/StatSummary.res"
 {
@@ -17,50 +17,15 @@
 	//	"tall"			"458"
 		"visible"		"1"
 	}
-"OnYourWayLabel"
-{
-"visible"		"0"
-}	
+	"OnYourWayLabel"
+	{
+		"visible"		"0"
+	}	
 	"MenuColorizer"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MenuColorizer"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"998"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"
-		"mouseinputenabled"							"0"
-
-		"SubImage"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"Primary"
-		}
-
-		"SubImage2"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"SubImage2"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"Primary"
-		}
 	}
 	"Time_hour10"
 	{
@@ -106,6 +71,9 @@
 		}		
 		"1_image"
 		{
+					"ControlName"			"ImagePanel"
+		"fieldName"				"1_image"
+			"scaleImage"	"1"
 			"ypos""rs1-36"
 			"wide""f0"
 			"zpos"	"1000"
@@ -123,7 +91,7 @@
 				"wide"			"f0"
 				"tall"			"36"
 				"paintbackground"	"1"
-				"bgcolor_override"	"W_ColorTheme3"
+				"bgcolor_override"	"Black"
 			}
 
 			"tank_gif"
@@ -199,7 +167,7 @@
 				"font"			"DefaultVerySmall"
 				"labelText"		"#TF_Contributed"
 				"textAlignment"	"center"
-				"fgcolor"		"W_ColorTheme1"
+				"fgcolor"		"Black"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"40"
@@ -450,7 +418,7 @@
 		"pinCorner"			"2"
 		"visible"		"0"
 		
-		"font"	"Future30"
+		"font"	"Regular16"
 		"labelText"		"Locked Session."
 		"textAlignment"	"center"
 		//"dulltext"	"0"

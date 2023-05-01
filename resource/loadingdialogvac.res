@@ -8,7 +8,7 @@
 		"wide"		"f0"
 		"tall"		"0"
 		"textAlignment"		"west"
-		"fgcolor_override"	"W_ColorIcons1"		
+		"fgcolor_override"	"White"		
 	}
 	"VACImage"
 	{

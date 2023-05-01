@@ -1,4 +1,3 @@
-//#base "../../_jofrenew/resource/ui/spectator.res"
 "Resource/UI/Spectator.res"
 { 
 	"Spectator"

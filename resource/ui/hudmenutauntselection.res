@@ -1,14 +1,14 @@
-#base "../../_jofrenew/resource/uni_base/image/1.res"
 "Resource/UI/HudMenuTauntSelection.res"
 {
 	"1_image"
 	{
-		
+		"ControlName"	"Imagepanel"
+		"fieldName"		"1_image"		
 		xpos					cs-0.5
 		ypos					cs-0.5
 		wide					o1
 		tall					300
-
+		"scaleImage"	"1"
 		image					"replay/thumbnails/hud/SelectionWheel9"
 		
 		drawcolor				"32 32 32 120"

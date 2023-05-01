@@ -1,1 +1,1 @@
-	#base	"../../_jofrenew/resource/ui/targetid.res"
+#base "../../../../cfg/jp_targetid.txt"

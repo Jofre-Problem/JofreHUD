@@ -1,4 +1,4 @@
-#base "../../_jofrenew/resource/ui/base/modulate_team.res"
+#base "ui2/modulate_team.res"
 "Resource/UI/HudItemEffectMeter_base.res"
 {
 	"FixForHP"
@@ -29,7 +29,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"3"
+		"ypos"					"2"
 		"zpos"					"5"
 		"wide"					"f0"
 		"tall"					"10"

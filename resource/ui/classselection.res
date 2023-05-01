@@ -1,5 +1,4 @@
 
-#base "../../_jofrenew/resource/uni_base/image/1.res"
 "Resource/UI/TeamMenu.res"
 {
 	"class"
@@ -73,7 +72,7 @@
 		"textAlignment"	"center"
 		"paintBackground"	"1"
 		"labelText"	"M"
-		"defaultFgColor_override"	"W_ColorTheme1"
+		"defaultFgColor_override"	"Black"
 		"armedFgColor_override"	"Primary"
 		"Command"		"vguicancel"
 	}
@@ -88,13 +87,15 @@
 
 	"1_image"
 	{
+		"ControlName"			"Imagepanel"
+		"fieldName"				"1_image"		
 		xpos					cs-0.5
 		ypos					cs-0.5
 		zpos					-2
 		wide					o1
 		tall					300
 		alpha					30
-
+		scaleImage				1
 		image					"replay/thumbnails/hud/SelectionWheel9"
 	}
 	
@@ -123,10 +124,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -241,10 +242,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -322,10 +323,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -516,10 +517,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -596,10 +597,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -714,10 +715,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -831,10 +832,10 @@
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -911,10 +912,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1106,10 +1107,10 @@
 		sound_released			"ui/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 
-		defaultFgColor_override		"tf22"
+		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"tf22"
-		FgColor		"tf22"
+		FgColor_override		"Neutral"
+		FgColor		"Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1197,7 +1198,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 
@@ -1216,7 +1217,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1235,7 +1236,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1254,7 +1255,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1273,7 +1274,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1292,7 +1293,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1311,7 +1312,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1330,7 +1331,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 	
@@ -1349,7 +1350,7 @@
 		textAlignment			center
 		font					"Size 20"
 
-		fgcolor				"tf22"
+		fgcolor				"Neutral"
 		paintbackground			0
 	}
 

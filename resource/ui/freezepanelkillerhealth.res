@@ -60,7 +60,7 @@
 	"HealthTargetIDBG"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"PeachHealthBGSpec"
+		"fieldName"		"HealthTargetIDBG"
 		"xpos"		"cs-0.5"
 		"ypos"		"0"
 		"zpos"		"2"

@@ -1,5 +1,5 @@
 
-#base "../../../../cfg/jp_custom_resolution.txt"
+#base "../../../cfg/jp_custom_resolution.txt"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"

@@ -235,7 +235,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Regular12"
 			"fgcolor_override"						"Text0"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -251,9 +251,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 14"
-				"1"									"Size 14"
-				"2"									"Size 14"
+				"0"									"Regular12"
+				"1"									"Regular12"
+				"2"									"Regular12"
 			}
 		}
 
@@ -268,7 +268,7 @@
 			"tall"									"18"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Size 14"
+			"font"									"Regular12"
 			"fgcolor_override"						"PrimaryT2"
 			"textAlignment"							"east"
 			"labelText"								"%desc2%"
@@ -284,9 +284,9 @@
 
 			"fonts"
 			{
-				"0"									"Size 14"
-				"1"									"Size 14"
-				"2"									"Size 14"
+				"0"									"Regular12"
+				"1"									"Regular12"
+				"2"									"Regular12"
 			}
 
 			"colors"

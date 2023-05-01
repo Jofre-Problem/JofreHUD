@@ -1,1 +1,1 @@
-#base "../_jofrenew/resource/gamemenu.res"
+#base "../new/_menu1/gamemenu.res"

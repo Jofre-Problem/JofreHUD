@@ -1,4 +1,4 @@
-#base "../../_jofrenew/resource/ui2/lead_bg.res"
+#base "ui2/lead_bg.res"
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 		"bg"

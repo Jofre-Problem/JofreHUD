@@ -2,7 +2,7 @@
 #base "info_text.res"
 #base "sidebar.res"
 
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{
@@ -13,7 +13,7 @@
 		"zpos"					"11000"
 		"wide"					"f0"
 		"tall"					"f0"
-		"bgcolor_override"		"PanelO0"
+		"bgcolor_override"		"Black"
 
 		"MenuColorizer"
 		{
@@ -80,7 +80,7 @@
 				"wide"						"f0"
 				"tall"						"20"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"			"PanelT2"
+				"bgcolor_override"			"TransparentBlack"
 
 				"TitleText"
 				{
@@ -149,7 +149,7 @@
 				"wide"						"160"
 				"tall"						"440"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"			"PanelT3"
+				"bgcolor_override"			"TransparentBlack"
 
 								"ScrollBar"
 				{
@@ -262,7 +262,7 @@
 				"labelText"					"NOTICE: Some options, such as color-related ones, will require a game restart in order to take effect. Please use this only on main-menu. Not in-game"
 				"textAlignment"				"center"
 				"fgcolor"					"PrimaryT4"
-				"bgcolor_override"			"PanelT2"
+				"bgcolor_override"			"TransparentBlack"
 			}
 		}
 	}

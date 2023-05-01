@@ -3,8 +3,8 @@
 //#base "../#jofre/training maps.txt"
 //#base "../#jofre/workshop.res"
 //#base "matchmakingpingpanel.res"
-#base "../../_jofrenew/resource/ui_overrides/full-timer/file2.res"
-#base "../../_jofrenew/resource/ui2/lead_bg.res"
+#base "../../new/ui_overrides/full-timer/file2.res"
+#base "ui2/lead_bg.res"
 //#base "../#jofre/nobar.res"		//always activated
 //#base "../../ui_overrides/speed-meter/sc_exist.res"
 //#base "../../ui_overrides/global-timer/sc_exist.res"
@@ -179,7 +179,7 @@
 				wide					400
 				tall					20	
 				font					"Size 14"
-				fgcolor_override		"PolyIconsFg1"
+				fgcolor_override		"White"
 				labelText				"Welcome to JofreHUD Dev!"
 				textAlignment			center
 			}

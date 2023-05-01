@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{
@@ -60,7 +60,7 @@
 							"wide"						"f0"
 							"tall"						"20"
 							"proportionaltoparent"		"1"
-							"command"					"engine ih_custom_submenu_ch_crosshair; ih_reloadmenus"
+							"command"					"engine ih_custom_submenu_ch_crosshair; ih_reloadmenus; exec aliases/jp_aliases_cross"
 							"actionsignallevel"			"6"
 							"labelText"					"Crosshair"
 							"font"						"regular12"
@@ -85,7 +85,7 @@
 							"wide"						"f0"
 							"tall"						"20"
 							"proportionaltoparent"		"1"
-							"command"					"engine ih_custom_submenu_ch_hitmarker; ih_reloadmenus"
+							"command"					"engine ih_custom_submenu_ch_hitmarker; ih_reloadmenus; exec aliases/jp_aliases_cross"
 							"actionsignallevel"			"6"
 							"labelText"					"Hitmarker"
 							"font"						"regular12"

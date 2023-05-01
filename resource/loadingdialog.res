@@ -11,8 +11,8 @@
 		"wide"		"f+20"
 		"tall"		"48"//"40"//"665"
 		"title"		""
-		"bgcolor"				"W_ColorTheme3"
-		"bgcolor_override"		"W_ColorTheme3"
+		"bgcolor"				"Black"
+		"bgcolor_override"		"Black"
 		"border"	"noborder"
 	}
  		"BG2_du1"
@@ -25,7 +25,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"paintbackground"	"1"
-				"bgcolor_override"	"W_ColorTheme3"
+				"bgcolor_override"	"Black"
 			}	   
    	"frame_close"
 	{
@@ -62,7 +62,7 @@
 		"wide"      "f+50"      
 		"tall"      "24"
 		"zpos"		"100"
-		"fgcolor_override"	"White"//"W_ColorTheme4"	
+		"fgcolor_override"	"White"//"193 175 75 255"	
 	"bgcolor_override"	"blank"
 		//		"0"
 	}

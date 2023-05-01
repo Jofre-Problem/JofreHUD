@@ -2,6 +2,116 @@ Scheme
 {
 	Borders
 	{
+		"LINE_LEFT_0_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/LEFT_0"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}
+		"LINE_LEFT_3_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/LEFT_3"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}		
+		"LINE_RIGHT_0_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/1/RIGHT_0"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}
+		"LINE_RIGHT_3_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/1/RIGHT_3"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}		
+		"LINE_BOTTOM_0_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/BOTTOM_0"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}
+		"LINE_BOTTOM_3_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/BOTTOM_3"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}		
+		"LINE_TOP_0_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/TOP_0"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}		
+		"LINE_TOP_3_Primary_0"
+		{
+			"bordertype" "scalable_image"
+			"backgroundtype" "0"
+			"color" "Primary"
+			"image" "replay/thumbnails/panels/line/0/TOP_3"
+			"src_corner_width" "12"
+			"src_corner_height" "12"
+			"draw_corner_width" "2"
+			"draw_corner_height" "2"
+		}		
+		"FLAT_Black_2"
+		{
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Black"
+			"image"						"replay/thumbnails/panels/FLAT_2"
+			"src_corner_width"			"12"
+			"src_corner_height"			"12"
+			"draw_corner_width"			"2"
+			"draw_corner_height"		"2"
+		}		
+		"FLAT_Black_4"
+		{
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Black"
+			"image"						"replay/thumbnails/panels/FLAT_4"
+			"src_corner_width"			"12"
+			"src_corner_height"			"12"
+			"draw_corner_width"			"2"
+			"draw_corner_height"		"2"
+		}		
 	"Modal_0"
 		{
 			"bordertype"				"scalable_image"

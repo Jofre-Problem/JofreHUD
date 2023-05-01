@@ -1,4 +1,4 @@
-	#base "../_jofrenew/resource/clientscheme.res"
+	#base "../new/resource/clientscheme.res"
 Scheme
 {
 	//Name - currently overriden in code

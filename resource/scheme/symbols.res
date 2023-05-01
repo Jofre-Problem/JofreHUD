@@ -100,19 +100,19 @@ Scheme
 	{
 		"130"
 		{
-			"font" "resource/scheme/fonts/hypnotize icons x.ttf"
+			"font" "fonts/hypnotize icons x.ttf"
 			"name" "Hypnotize Icons X3"
 		}
 
 		"131"
 		{
-			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"
+			"font" "fonts/TF2 Class Icons.ttf"
 			"name" "TF2 Class Icons V2"
 		}
 
 		"142"
 		{
-			"font" "resource/scheme/fonts/Readyup XHud.otf"
+			"font" "fonts/Readyup XHud.otf"
 			"name" "ReadyUp XHud"
 		}
 	}

@@ -212,7 +212,7 @@
 		"dulltext"		"1"
 		"brighttext"		"0"
 		"font"	"Productv2_18"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 		"wrap"		"0"
 	}
 	"GameLabel"
@@ -234,7 +234,7 @@
 		"dulltext"		"1"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 			}
 	"ServerIPLabel"
 	{
@@ -254,7 +254,7 @@
 		"font"	"Productv2_18"
 		"dulltext"		"1"
 		"brighttext"		"0"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 		"wrap"		"0"
 	}
 	"MapLabel"
@@ -264,7 +264,7 @@
 		"xpos"		"16"
 		"ypos"		"114"
 		"wide"		"108"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 		"tall"		"20"
 		//"autoResize"		"0"
 		//"pinCorner"		"0"
@@ -294,7 +294,7 @@
 		"labelText"		"¡ Players:"
 		"font"	"Productv2_18"
 		"textAlignment"		"east"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 		"dulltext"		"1"
 		"brighttext"		"0"
 		"wrap"		"0"
@@ -316,7 +316,7 @@
 		"textAlignment"		"east"
 		"font"	"Productv2_18"
 		"dulltext"		"1"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 		"brighttext"		"0"
 		"wrap"		"0"
 	}
@@ -459,7 +459,7 @@
 		"dulltext"		"1"
 		"brighttext"		"0"
 		"wrap"		"0"
-		"fgcolor_override"	"W_ColorIcons1"
+		"fgcolor_override"	"White"
 	}
 	"SecureText"
 	{

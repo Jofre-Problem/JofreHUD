@@ -1,6 +1,6 @@
 #base "body_text.vdf"
 
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"MainMenuOverride"
 	{
@@ -15,7 +15,7 @@
 			"tall"					"f0"
 			"visible"				"0"
 			"enabled"				"0"
-			"bgcolor_override"		"PanelO0"
+			"bgcolor_override"		"Black"
 
 			"MenuColorizer"
 			{
@@ -66,7 +66,7 @@
 				"wide"						"400"
 				"tall"						"f0"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"			"PanelT2"
+				"bgcolor_override"			"TransparentBlack"
 
 				"Title"
 				{
@@ -131,7 +131,7 @@
 					"wide"						"f0"
 					"tall"						"60"
 					"proportionaltoparent"		"1"
-					"bgcolor_override"			"PanelT4"
+					"bgcolor_override"			"TransparentBlack"
 					"ContinueButton"
 					{
 						"ControlName"				"CExButton"

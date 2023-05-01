@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{
@@ -13,7 +13,7 @@
 				"wide"						"f160"
 				"tall"						"40"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"			"PanelT4"
+				"bgcolor_override"			"TransparentBlack"
 
 				"HelpTextLabel"
 				{
@@ -41,7 +41,7 @@
 				"wide"						"f160"
 				"tall"						"20"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"			"PanelT4"
+				"bgcolor_override"			"TransparentBlack"
 
 				"TitleTextLabel"
 				{

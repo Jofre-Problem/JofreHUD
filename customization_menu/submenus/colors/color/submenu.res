@@ -1,5 +1,5 @@
 "#base"		"buttons.res"
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{

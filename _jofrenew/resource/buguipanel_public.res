@@ -1,1 +1,0 @@
-#base "#panels/magnum.res"

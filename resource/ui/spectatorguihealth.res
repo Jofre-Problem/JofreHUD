@@ -1,1 +1,1 @@
-	#base	"../../_jofrenew/resource/ui/spectatorguihealth.res"
+#base "../../../../cfg/jp_spectatorguihealth.txt"

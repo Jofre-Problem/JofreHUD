@@ -1,11 +1,8 @@
 #base "../../../cfg/jp_steam_border.txt"
-#base "../../_jofrenew/resource/ui_overrides/full-timer/file.res"
-//#base "../../_jofrenew/resource/../ui_overrides/summer-border/file.res"
-#base "../../_jofrenew/resource/ui3/tank_gif.res"
-#base "../../_jofrenew/resource/ui3/keybindings.res"
-
-//#base "../../_jofrenew/resource/#jofre/blur_bg.res"
-#base "../../_jofrenew/resource/ui3/partyslot0.res"
+#base "../../new/ui_overrides/full-timer/file.res"
+#base "ui2/tank_gif.res"
+#base "ui2/keybindings.res"
+#base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
 	
@@ -64,7 +61,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		//"dulltext"	"0"
-		"font"			"Size 14"
+		"font"			"Regular16"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -130,7 +127,7 @@
 		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Size 14"
+		"font"			"Regular16"
 		"fgcolor"		"255 255 255 255"
 		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"

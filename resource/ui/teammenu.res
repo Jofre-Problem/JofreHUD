@@ -1,8 +1,4 @@
-// Team selection
-//#base "../../_jofrenew/resource/#jofre/blur_bg.res"
 
-#base "../../_jofrenew/resource/uni_base/btn/1.res"
-#base "../../_jofrenew/resource/uni_base/btn/2.res"
 #base "_tf2hud/teammenu.res"
 
 
@@ -23,6 +19,7 @@
 	}	
 	"1_btn"//JoinBlue"
 	{
+		fieldName	"1_btn"
 		ControlName				CExImageButton
 		xpos					0
 		ypos					0
@@ -69,7 +66,7 @@
 		font			  		"Size 36"
 		textAlignment	  		center
 
-		fgcolor		  		"W_ColorIcons1"
+		fgcolor		  		"White"
 		paintbackground			0
 	}
 		"refr0"
@@ -147,6 +144,7 @@
 			}		
 	"2_btn" //join red
 	{
+			fieldName	"2_btn"
 		ControlName				CExImageButton
 		xpos					c0
 		ypos					0
@@ -193,7 +191,7 @@
 		font			  		"Size 36"
 		textAlignment	  		center
 
-		fgcolor		  		"W_ColorIcons1"
+		fgcolor		  		"White"
 		paintbackground			0
 	}
 "TeamMenuAuto"
@@ -216,7 +214,7 @@
 		labelText				"#TF_Random"
 		textAlignment			center
 		font					"Size 20"
-		fgcolor				"W_ColorIcons1"
+		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
@@ -256,7 +254,7 @@
 		labelText				"#TF_Spectate"
 		textAlignment			center
 		font					"Size 20"
-		fgcolor				"W_ColorIcons1"
+		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"

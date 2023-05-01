@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"j"
 {
 	"CustomizationMenu"
 	{
@@ -41,7 +41,7 @@
 						"labeltext"				"Magnum HUD Player Health"
 						"font"					"Size 14"
 						"textalignment"			"center"
-						"command"				"engine jp_ui_hudplayerhealth; con_logfile cfg/jp_ui_hudplayerhealth.txt; echo #base ../custom/jofrehud/_jofrenew/resource/ui/hudplayerhealth_magnum.res; con_logfile ."
+						"command"				"engine jp_ui_hudplayerhealth; con_logfile cfg/jp_ui_hudplayerhealth.txt; echo #base ../custom/jofrehud/new/resource/ui/hudplayerhealth_magnum.res; con_logfile ."
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

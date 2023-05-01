@@ -1,1 +1,0 @@
-#base "base/storeprice.res"
