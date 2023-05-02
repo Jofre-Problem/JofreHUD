@@ -6,21 +6,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"15"
 				"range"	"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -28,7 +28,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"22"
 				"range"	"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -36,7 +36,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"24"
 				"range"	"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -44,13 +44,13 @@ Scheme
 			}
 			"6"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
@@ -59,10 +59,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"6"
 				"weight"	"0"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"range"	"0x0000 0x017F"
 			}
@@ -126,103 +126,7 @@ Scheme
 
 
 
-		"iconsLarge"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"20"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"iconsMedium"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"iconsSmall"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"11"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"iconsLargeBlur"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"20"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
-		"iconsMediumBlur"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"14"
-				"additive"		"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
-		"iconsSmallBlur"
-		{
-			"1"
-			{
-				"name"			"Icons"
-				"tall"			"11"
-				"additive"		"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
-
-		"class26"
-		{
-			"1"
-			{
-				"name"			"Chars"
-				"tall"			"26"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"class16"
-		{
-			"1"
-			{
-				"name"			"Chars"
-				"tall"			"16"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		"class12"
-		{
-			"1"
-			{
-				"name"			"Chars"
-				"tall"			"12"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
+	
 		"VerdanaMenu"										//Create Server Button
 		{
 			"1"
@@ -248,9 +152,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"7"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -258,9 +162,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"8"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -268,29 +172,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"10"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
-		"Size 10 Uber"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"10"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
+
 		"Size 11"
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"11"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -298,9 +193,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"12"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -308,9 +203,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"14"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -318,52 +213,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"16"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
-		"Size 16 Uber"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"16"
-				"additive"	"0"
-				"antialias"	"1"
-			//	"dropshadow"	"1"
-			}
-		}
-		"Size 16 Uber Blur"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"16"
-				"blur"	"2"
-				"antialias"	"1"
-			//	"dropshadow"	"1"
-			}
-		}		
-		"Size 18 Uber"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"18"
-				"additive"	"0"
-				"antialias"	"1"
-				"dropshadow"	"0"
-			}
-		}
+
 		"Size 20"
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"20"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -371,41 +234,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
-		"Size 24 Damage"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"24"
-				"additive"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-		"Size 24 Uber"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"24"
-				"additive"	"0"
-				"antialias"	"1"
-				"dropshadow"	"0"
-			}
-		}
+
 		"Size 28"
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"28"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -413,9 +255,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"30"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -423,9 +265,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"40"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -433,9 +275,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"44"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -444,9 +286,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"8"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -455,9 +297,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"12"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -466,9 +308,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"16"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -477,9 +319,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"20"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -488,9 +330,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"28"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -499,9 +341,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"44"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -510,7 +352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Soft XHud"
+				"name"	"Segoe UI"
 				"tall"	"30"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -518,62 +360,5 @@ Scheme
 		}		
 	}
 
-	CustomFontFiles
-	{
-		"91"
-		{
-			"font" "fonts/Product Sans.ttf"
-			"name" "Product Sans"
-		}
-	"78"
-		{
-			"font" "fonts/optimized/OpenSans-Regular.ttf"
-			"name" "Open Sans"
-		}
-		"79"
-		{
-			"font" "fonts/optimized/OpenSans-Bold.ttf"
-			"name" "Open Sans Bold"
-		}
-		"96"
-		{
-			"font" "fonts/FutureRotfix.otf"
-			"name" "Future Rot"
-		}					
-		"98"
-		{
-			"font" "fonts/JofreIconsMaster.otf"
-			"name" "JofreIconsRe"
-		}	
-		"99"
-		{
-			"font" "fonts/CallingCode-Regular.otf"
-			"name" "Calling Code Regular"
-		} 			
-		"105"
-		{
-			"font" "fonts/Blocks-Blocks.ttf"
-			"name" "blocks"
-		}	
-		"211"
-		{
-			"font"		"fonts/Icons.ttf" 
-			"name"		"Icons"
-		}
-		"212"
-		{
-			"font"		"fonts/Chars.ttf"
-			"name"		"Chars"
-		}		
-		"310"
-		{
-			"font"	"fonts/Renogare XHud.ttf"
-			"name"	"Renogare Soft XHud"
-		}
-		"311"
-		{
-			"font"	"fonts/Renogare Uber.ttf"
-			"name"	"Renogare Uber"
-		}
-	}
+
 }

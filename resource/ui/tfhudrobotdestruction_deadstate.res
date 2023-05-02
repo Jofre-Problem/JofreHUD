@@ -42,7 +42,7 @@
 			"tall"			"f0"
 			"visible"			"0"
 			"proportionalToParent"	"1"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"white"
 		}
 
 		"RespawnProgressBar"

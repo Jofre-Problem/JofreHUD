@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -17,7 +17,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"additive"	"0"
 				"antialias"	"1"
@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -38,7 +38,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"32"
 				"weight"	"500"
 				"additive"	"0"
@@ -47,7 +47,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -56,7 +56,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -65,7 +65,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -78,7 +78,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"35"
 				"weight"	"500"
 				"additive"	"0"
@@ -90,7 +90,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -101,7 +101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -112,7 +112,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -123,7 +123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -134,7 +134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -145,7 +145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -156,7 +156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -167,7 +167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -178,7 +178,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -189,7 +189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -211,7 +211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -222,7 +222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -233,7 +233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -244,7 +244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -266,7 +266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -277,7 +277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"15"
 				"weight"	"700"
 				"antialias"	"1"
@@ -287,7 +287,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"15"
 				"weight"	"700"
 				"antialias"	"1"
@@ -297,7 +297,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"900"
 				"antialias"	"1"
@@ -306,7 +306,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"21"
 				"weight"	"900"
 				"antialias"	"1"
@@ -315,7 +315,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"1000"
 				"antialias"	"1"
@@ -361,7 +361,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"30"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -395,7 +395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"antialias"	"1"
 				"weight"	"500"
@@ -406,7 +406,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"28"
 				"antialias"	"1"
 				"custom"	"1" 	[$OSX]
@@ -428,7 +428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -439,7 +439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -450,7 +450,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -462,7 +462,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"20"
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -474,7 +474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"20"
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -486,7 +486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"52"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
@@ -495,7 +495,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"72"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
@@ -504,7 +504,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"100"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
@@ -513,7 +513,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"140"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
@@ -522,7 +522,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"180"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
@@ -534,7 +534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"36"
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -546,7 +546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -557,7 +557,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -568,7 +568,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -592,7 +592,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"range"	"0x0000 0x00FF"
 				"weight"	"300"
@@ -604,7 +604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"0"
 				"additive"	"1"
@@ -615,7 +615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -626,7 +626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"28"
 				"weight"	"500"
 			}
@@ -635,7 +635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"22"
 				"weight"	"900"
 			}
@@ -644,7 +644,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -655,7 +655,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -666,7 +666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -677,7 +677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -688,7 +688,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -699,7 +699,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -711,7 +711,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -722,7 +722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"500"
 				"blur"	"3"
@@ -734,7 +734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -745,7 +745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -756,7 +756,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"antialias"	"1"
@@ -766,7 +766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"blur"	"3"
@@ -778,7 +778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"antialias"	"1"
@@ -789,7 +789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
@@ -798,7 +798,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -807,7 +807,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -820,7 +820,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"800"
 				"yres"	"480 599"
@@ -829,7 +829,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -838,7 +838,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -851,7 +851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -863,10 +863,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"20"
 				"antialias"	"1"
-				
+				"custom"	"1" 	[$OSX]
 				"weight"	"500"
 			}
 		}
@@ -875,7 +875,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
@@ -884,7 +884,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -893,7 +893,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -906,7 +906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
@@ -916,7 +916,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -926,7 +926,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -940,7 +940,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"800"
 				"yres"	"480 599"
@@ -949,7 +949,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -958,7 +958,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -971,7 +971,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -983,7 +983,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -995,7 +995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1007,7 +1007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -1018,7 +1018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1029,7 +1029,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"8"
 				"weight"	"400"
 				"antialias"	"1"
@@ -1057,7 +1057,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1072,7 +1072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1083,7 +1083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1095,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -1107,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -1120,7 +1120,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"0"
 				"blur"	"3"
@@ -1133,7 +1133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1145,7 +1145,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1157,7 +1157,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1169,7 +1169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"	"30"
 				"weight"	"400"
 				"additive"	"0"

@@ -485,8 +485,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		//"ypos_hidef"	"0"
-		//"ypos_lodef"	"0"
+		////	"0"
+		////	"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		
@@ -550,7 +550,7 @@
 		"tall"			"f0"
 	//	"pin_to_sibling"	"HudCrosshair"	 //HELL				
 	}		
-	HudArenaVsPanel [$WIN32]
+	HudArenaVsPanel
 	{
 		"fieldName"				"HudArenaVsPanel"		
 		"visible"				"1"
@@ -564,8 +564,8 @@
 	{
 		"xpos"					"0"
 		"ypos"					"0"
-		////"ypos_hidef"				"90"
-		////"ypos_lodef"				"90"
+		//////				"90"
+		//////				"90"
 		"wide"					"f0"
 		"tall"					"f0"
 	}	

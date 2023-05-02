@@ -32,7 +32,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"size 16"
+			"font"			"Regular16"
 			"fgcolor_override"		"White"
 			"bgcolor_override"		"TransparentBlack"
 			"xpos"			"cs-1"
@@ -72,7 +72,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"size 16"
+			"font"			"Regular16"
 			"fgcolor_override"		"White"
 			"bgcolor_override"		"TransparentBlack"
 			"xpos"			"c0"

@@ -45,8 +45,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
+		Button.ArmedBgColor				"Blank"	
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -70,13 +69,10 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
+		Frame.BgColor					"160 160 160 128"
+		Frame.OutOfFocusBgColor			"160 160 160 32"	
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"				[$X360]		// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.3"	
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -88,8 +84,7 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
+		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
@@ -187,14 +182,10 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
+		MainMenu.TextColor			"White"				
+		MainMenu.ArmedTextColor		"200 200 200 255"	
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				[$X360]
-		MainMenu.MenuItemHeight_hidef	"32"				[$X360]
+		MainMenu.MenuItemHeight		"30"				
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -203,15 +194,14 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"			[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"			[$X360]
+		NewGame.SelectionColor		"Orange"		
 		NewGame.DisabledColor		"128 128 128 196"
 
-		MessageDialog.MatchmakingBG			"46 43 42 255"	[$X360]
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	[$X360]
+		MessageDialog.MatchmakingBG			"46 43 42 255"
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"
 		
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
+		MatchmakingMenuItemTitleColor			"200 184 151 255"
+		MatchmakingMenuItemDescriptionColor		"200 184 151 255"
 
 		"QuickListBGDeselected"		"AchievementsDarkGrey"
 	 	"QuickListBGSelected"           "AchievementsLightGrey"
@@ -361,27 +351,11 @@ Scheme
 		}
 		"MenuLarge"
 		{
-			"1"	[$POSIX]
-			{
-				"name"		"Helvetica Bold"
-				"tall"		"20"
-				//"1"
-			}
-			"1"	[$WIN32]
-			{
-				"name"		"Segoe UI" 
-				"tall"		"16" 
-				//	"600"
-				//"1"
-			}
-			"1"	[$X360]
+			"1"
 			{
 				"name"		"Segoe UI"
-				"tall"			"14"
-				//	"20"
-				//	"1200"
+				"tall"		"20"
 				//"1"
-				"outline" "1"
 			}
 		}
 		"AchievementTitleFont"
@@ -661,7 +635,7 @@ Scheme
 			}
 		}
 		
-		StatsTitle	[$WIN32]
+		StatsTitle
 		{
 			"1"
 			{
@@ -672,7 +646,7 @@ Scheme
 			}
 		}
 		
-		StatsText	[$WIN32]
+		StatsText
 		{
 			"1"
 			{
@@ -683,7 +657,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	
 		{
 			"1"
 			{
@@ -694,7 +668,7 @@ Scheme
 			}
 		}
 
-		AchievementItemDate	[$WIN32]
+		AchievementItemDate
 		{
 			"1"
 			{
@@ -716,7 +690,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	
 		{
 			"1"
 			{
@@ -727,7 +701,7 @@ Scheme
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	
 		{
 			"1"
 			{

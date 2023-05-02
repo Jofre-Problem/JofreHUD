@@ -1767,7 +1767,7 @@
 		visible 0
 		tall				0
 	}
-	"countImage0" [$WIN32]
+	"countImage0" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
@@ -1775,7 +1775,7 @@
 		"scaleImage"	"1"	
 	}							
 	
-	"countImage1" [$WIN32]
+	"countImage1" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
@@ -1787,7 +1787,7 @@
 		pin_to_sibling	"countImage0"
 	}
 	
-	"countImage2" [$WIN32]
+	"countImage2" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
@@ -1799,7 +1799,7 @@
 		pin_to_sibling	"countImage1"
 	}
 	
-	"countImage3" [$WIN32]
+	"countImage3" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
@@ -1811,7 +1811,7 @@
 		pin_to_sibling	"countImage2"
 	}
 	
-	"countImage4" [$WIN32]
+	"countImage4" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
@@ -1822,7 +1822,7 @@
 		pin_to_sibling	"countImage3"
 	}
 	
-	"countImage5" [$WIN32]
+	"countImage5" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
@@ -1834,7 +1834,7 @@
 		pin_to_sibling	"countImage4"
 	}
 	
-	"countImage6" [$WIN32]
+	"countImage6" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
@@ -1845,7 +1845,7 @@
 		pin_to_sibling	"countImage5"
 	}
 	
-	"countImage7" [$WIN32]
+	"countImage7" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
@@ -1859,7 +1859,7 @@
 		pin_to_sibling	"countImage6"
 	}
 	
-	"countImage8" [$WIN32]
+	"countImage8" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
@@ -1873,7 +1873,7 @@
 		pin_to_sibling	"countImage7"
 	}
 	
-	"countImage9" [$WIN32]
+	"countImage9" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
@@ -1888,7 +1888,7 @@
 	pin_to_sibling	"countImage8"		
 	}
 	
-	"countImage10" [$WIN32]
+	"countImage10" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"

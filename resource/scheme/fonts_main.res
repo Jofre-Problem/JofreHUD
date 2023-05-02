@@ -4,6 +4,72 @@ Scheme
 
 	Fonts
 	{	
+		"Size 24 Damage"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+		"Size 24 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}		
+		"Size 16 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+			//	"dropshadow"	"1"
+			}
+		}
+		"Size 16 Uber Blur"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"16"
+				"blur"	"2"
+				"antialias"	"1"
+			//	"dropshadow"	"1"
+			}
+		}		
+		"Size 18 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+				"dropshadow"	"0"
+			}
+		}		
+		"Size 10 Uber"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"10"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}		
+		// MAGNUM HUD
 		"DamagetextShadow"
 		{
 			"1"
@@ -400,6 +466,62 @@ Scheme
 	}
 	CustomFontFiles
 	{
+		"91"
+		{
+			"font" "fonts/Product Sans.ttf"
+			"name" "Product Sans"
+		}
+		"78"
+		{
+			"font" "fonts/optimized/OpenSans-Regular.ttf"
+			"name" "Open Sans"
+		}
+		"79"
+		{
+			"font" "fonts/optimized/OpenSans-Bold.ttf"
+			"name" "Open Sans Bold"
+		}
+		"96"
+		{
+			"font" "fonts/FutureRotfix.otf"
+			"name" "Future Rot"
+		}					
+		"98"
+		{
+			"font" "fonts/JofreIconsMaster.otf"
+			"name" "JofreIconsRe"
+		}	
+		"99"
+		{
+			"font" "fonts/CallingCode-Regular.otf"
+			"name" "Calling Code Regular"
+		} 			
+		"105"
+		{
+			"font" "fonts/Blocks-Blocks.ttf"
+			"name" "blocks"
+		}	
+		"211"
+		{
+			"font"		"fonts/Icons.ttf" 
+			"name"		"Icons"
+		}
+		"212"
+		{
+			"font"		"fonts/Chars.ttf"
+			"name"		"Chars"
+		}		
+		"310"
+		{
+			"font"	"fonts/Renogare XHud.ttf"
+			"name"	"Renogare Soft XHud"
+		}
+		"311"
+		{
+			"font"	"fonts/Renogare Uber.ttf"
+			"name"	"Renogare Uber"
+		}
+	
 		"8"
 		{
 			"font" "fonts/OpenSans-AlphaInverted2.ttf"
@@ -582,7 +704,6 @@ Scheme
 			"font" "fonts/Blank.otf"
 			"name" "Blank"
 		}							
-	}	
+	}
 }
-
 	

@@ -63,7 +63,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"Regular16"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 	}
 	
 	"MapInfoType"
@@ -82,7 +82,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
 		"font"			"ItemFontAttribSmallest"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 	}
 
 	
@@ -103,7 +103,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 	}
 	
 	"MapInfoContinue2" 

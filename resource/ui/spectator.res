@@ -26,7 +26,7 @@
 		"tall"			"25"
 		"labeltext"	"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Size 20"
+		"font"			"Size 16 Uber"
 	}
 
 	"MapLabel"
@@ -168,7 +168,9 @@
 	{
 		"ControlName"				"Panel"
 		"fieldName"					"TopBar"
-"ypos""r0"
+		"ypos""r0"
+		"tall"	"0"
+		"alpha" 	"0"
 	}
 	"BottomBar"
 	{

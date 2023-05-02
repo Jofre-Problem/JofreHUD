@@ -97,20 +97,6 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Label1"
-		"xpos"		"14"
-		"ypos"		"60"
-		"wide"		"150"
-		"tall"		"15"
-		"zpos"		"1"
-		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
-		"fgcolor_override"	"255 255 255 255"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"1"
-		"brighttext"		"0"
+		"visible"		"0"
 	}
 }

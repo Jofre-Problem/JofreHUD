@@ -1,16 +1,16 @@
-#base "../../cfg/jp_fonts_scheme.txt"		// font default tf2 stuff uses
-#base "../../cfg/jp_custom_hp_scheme.txt"	// dark and bright color
-#base "../../cfg/jp_ex_square.txt"
+#base "../../../cfg/jp_fonts_scheme.txt"		// font default tf2 stuff uses
+#base "../../../cfg/jp_custom_hp_scheme.txt"	// dark and bright color
+#base "../../../cfg/jp_ex_square.txt"
 #base "../customization/colors/user_colors.res"
 #base "../customization/colors/custom_colors.res"
 #base "../new/ui_overrides/schemes/fonts/default.res"	
 #base "scheme/settings.res"
 #base "scheme/colors.res"
 #base "scheme/crosshairs.res"
+#base "scheme/fonts_main.res"
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
 #base "scheme/borders.res"
-#base "scheme/hp_ammo.res"
 #base "fallback/clientscheme.res"
 
 Scheme

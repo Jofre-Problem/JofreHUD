@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"visible"		"1"
 		"BgColor"		"70 70 70 255"
-		"FgColor"		"255 255 255 255"
+		"fgcolor"		"White"
 		"tall"		"20"
 		"wide"		"148"
 		"ypos"		"32"

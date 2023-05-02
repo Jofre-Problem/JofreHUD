@@ -137,7 +137,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"Size 16"
+			"font"			"Size 16 Uber"
 			"xpos"			"480"
 			"ypos"			"50"
 			"zpos"			"7"
@@ -170,7 +170,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Size 16"
+			"font"			"Size 16 Uber"
 			"xpos"			"480"
 			"ypos"			"50"
 			"zpos"			"7"

@@ -14,7 +14,7 @@
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
 		"wrap"			"0"
-		"font"			"Size 11"
+		"font"			"Regular12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -33,7 +33,7 @@
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
 		"wrap"			"0"
-		"font"			"Size 11"
+		"font"			"Regular12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -52,7 +52,7 @@
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
 		"wrap"			"0"
-		"font"			"Size 11"
+		"font"			"Regular12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -71,7 +71,7 @@
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
 		"wrap"			"0"
-		"font"			"Size 11"
+		"font"			"Regular12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -91,7 +91,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		"wrap"			"0"
-		"font"			"size 11"
+		"font"			"Regular12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}

@@ -210,7 +210,7 @@
 	"BlueTeamLabel"
 	{
 		"visible"	"1"
-		"font"			"Size 28"
+		"font"			"Size 28" 
 		"fgcolor_override"	"Neutral"
 		"textAlignment"		"west"
 		"xpos"			"22"
@@ -221,10 +221,10 @@
 	}							
 	"BlueTeamScore"
 	{
-		"font"			"Size 28"
+		"font"			"Healthandammo"
 		"fgcolor_override"	"Neutral"
 		"textAlignment"		"east"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5000"
 		"wide"			"p0.5"
@@ -273,10 +273,10 @@
 	}							
 	"RedTeamScore"
 	{
-		"font"			"Size 28"
+		"font"			"Healthandammo"
 		"fgcolor_override"	"Neutral"
 		"textAlignment"		"west"
-		"xpos"			"c3"
+		"xpos"			"c1"
 		"ypos"			"79" 
 		"zpos"			"5000"
 		"wide"			"p0.5"
@@ -976,7 +976,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm		{			"visible"		"0"		}
 	}		
 	"center1"
@@ -990,7 +990,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		"pin_to_sibling"	"BlueScoreBG"
 		
 	}	
@@ -1005,7 +1005,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1023,7 +1023,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1067,7 +1067,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 	}	
 	"LocalPlayerStatsPanel"
 	{
@@ -1167,7 +1167,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
-			"font"				"Size 30"
+			"font"				"Future30"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1226,7 +1226,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
-			"font"				"Size 30"
+			"font"				"Future30"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"

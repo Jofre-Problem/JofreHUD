@@ -159,12 +159,12 @@
 
 		"MaxDeathNotices"		"6"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
+		"LineHeight"	  "14"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "5"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Size 10"
+		"TextFont"		"Regular12"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
@@ -495,8 +495,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		//"ypos_hidef"	"0"
-		//"ypos_lodef"	"0"
+		////	"0"
+		////	"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		
@@ -574,8 +574,8 @@
 	{
 		"xpos"					"0"
 		"ypos"					"0"
-		////"ypos_hidef"				"90"
-		////"ypos_lodef"				"90"
+		//////				"90"
+		//////				"90"
 		"wide"					"f0"
 		"tall"					"f0"
 	}	

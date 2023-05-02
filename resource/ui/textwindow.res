@@ -62,7 +62,7 @@
 		//"dulltext"	"0"
 		//"dulltext"	"0"
 		"font"			"Regular16"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 	}
 
 	"TextMessage"
@@ -89,7 +89,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 	}
 
 	"HTMLMessage"
@@ -128,7 +128,7 @@
 		"command"		"okay"
 		"default"		"1"
 		"font"			"Regular16"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"white"
 		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"

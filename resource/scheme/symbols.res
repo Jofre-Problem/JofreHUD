@@ -2,13 +2,110 @@ Scheme
 {
 	Fonts
 	{
+	"iconsLarge"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"20"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"iconsMedium"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"iconsSmall"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"11"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"iconsLargeBlur"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"20"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"iconsMediumBlur"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"14"
+				"additive"		"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+		"iconsSmallBlur"
+		{
+			"1"
+			{
+				"name"			"Icons"
+				"tall"			"11"
+				"additive"		"0"
+				"antialias"		"1"
+				"blur"			"1"
+			}
+		}
+
+		"class26"
+		{
+			"1"
+			{
+				"name"			"Chars"
+				"tall"			"26"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"class16"
+		{
+			"1"
+			{
+				"name"			"Chars"
+				"tall"			"16"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"class12"
+		{
+			"1"
+			{
+				"name"			"Chars"
+				"tall"			"12"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		"Symbols 14"
 		{
 			"1"
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"14"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -18,7 +115,7 @@ Scheme
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"18"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -28,7 +125,7 @@ Scheme
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"20"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -38,7 +135,7 @@ Scheme
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"22"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -48,7 +145,7 @@ Scheme
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -58,7 +155,7 @@ Scheme
 			{
 				"name"	"Hypnotize Icons X3"
 				"tall"	"26"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -69,7 +166,7 @@ Scheme
 			{
 				"name"	"TF2 Class Icons V2"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -79,7 +176,7 @@ Scheme
 			{
 				"name"	"TF2 Class Icons V2"
 				"tall"	"36"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}
@@ -90,7 +187,7 @@ Scheme
 			{
 				"name"	"ReadyUp XHud"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}

@@ -220,7 +220,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 	}	
 	"up2"
 	{
@@ -233,7 +233,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 	}		
 	"up3"
 	{
@@ -246,7 +246,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 	}			
 			"Currentos"		
 			{

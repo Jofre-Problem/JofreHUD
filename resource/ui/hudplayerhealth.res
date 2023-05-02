@@ -9,7 +9,7 @@
 
 
 
-"Resource/UI/HudPlayerHealth.res"
+"x"
 {	
 	// player health data
 	"HudPlayerHealth"
@@ -61,7 +61,7 @@
 		"ypos"			"34"
 		"zpos"	"0"
 		"wide"			"124"
-		"tall"			"2"
+		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
@@ -165,10 +165,10 @@
 		"teambg_2"		"replay/thumbnails/hp/modulate_red"
 		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
 		"xpos""0"
-		"ypos""0"
+		"ypos""0-p0.00185"
 		"zpos""8"
 		"wide""124"
-		"tall""34"
+		"tall""36"
 	}	
 	"ProgressBar10"
 	{

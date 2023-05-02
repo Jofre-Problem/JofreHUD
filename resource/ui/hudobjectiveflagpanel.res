@@ -376,7 +376,7 @@
 		
 		"if_specialdelivery"
 		{
-			"visible"	"r142"
+			"visible"	"1"
 		}
 	}	
 	

@@ -31,7 +31,7 @@
 	}	
 	"AmmoAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"AmmoAnchor"
 		"xpos"		"c106"
 		"ypos"		"325"
@@ -201,13 +201,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"0"
+		"xpos"			"0-p0.0015"
 		"ypos"			"0"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/hp/redteam"
 		"teambg_3"		"replay/thumbnails/hp/bluteam"		
-		"wide"			"124"
+		"wide"			"123"
 		"tall"			"34"
 		"pin_to_sibling"	"AmmoAnchor"
 	}

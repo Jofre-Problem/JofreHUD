@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Size 16"
+		"font"			"Size 16 Uber"
 		"fgcolor"		"GrayDarkest"
 	}
 

@@ -76,7 +76,7 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"20"
-		"tall_lodef"	"28"
+		//"tall_lodef"	"28"
 		"autoResize"	"1"
 		//		"2"
 		"visible"		"1"
@@ -87,7 +87,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
-		"font_lodef"	"HudFontMediumBig"
+		//"font_hidef"	"HudFontMediumBig"
 	}
 	"NumPipesLabelDropshadow"
 	{
@@ -98,7 +98,7 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"20"
-		"tall_lodef"	"28"
+		//"tall_lodef"	"28"
 		"autoResize"	"1"
 		//		"2"
 		"visible"		"1"
@@ -109,7 +109,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"HudFontMedium"
-		"font_lodef"	"HudFontMediumBig"
+		//"font_hidef"	"HudFontMediumBig"
 		"fgcolor"		"black"
 	}		
 }

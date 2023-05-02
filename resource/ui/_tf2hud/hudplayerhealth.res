@@ -1,4 +1,4 @@
-"Resource/UI/HudPlayerHealth.res"
+"x"
 {	
 	// player health data
 	"HudPlayerHealth"

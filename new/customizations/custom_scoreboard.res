@@ -1218,7 +1218,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm		{			"visible"		"0"		}
 	}		
 	"center1"
@@ -1232,7 +1232,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		"pin_to_sibling"	"BlueScoreBG"
 		
 	}	
@@ -1247,7 +1247,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1265,7 +1265,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1309,7 +1309,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"255 255 255 255"
+		"bgcolor_override"			"white"
 	}	
 	"LocalPlayerStatsPanel"
 	{
