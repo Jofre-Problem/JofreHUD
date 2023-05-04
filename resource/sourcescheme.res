@@ -38,14 +38,14 @@ Scheme
 		MainMenu.Backdrop   "Blank"
 // basically the shadow when you open console
  Tooltip.TextColor	"White"
- Tooltip.BgColor	"Primary"
+ Tooltip.BgColor	"Black"
 PropertySheet.SelectedTextColor "Primary"      
 
 SectionedListPanel.DividerColor "Primary"
 Button.DepressedTextColor "Primary"
-		Border.Bright					"Blank"
-		Border.Dark						"Blank"
-		Border.Selection				"Blank"
+		Border.Bright					"blank"
+		Border.Dark						"blank"
+		Border.Selection				"Primary"
 		FrameTitleBar.BgColor			"Blank"
 		TextEntry.BgColor			"blank"
 		Button.BgColor			"blank" 
@@ -83,8 +83,8 @@ Button.DepressedTextColor "Primary"
 		CheckButton.Check				"White"
 		CheckButton.DisabledBgColor	    "Blank"
 		CheckButton.BgColor				"Black"
-		CheckButton.Border1  			"Blank"
-		CheckButton.Border2  			"Blank"
+		CheckButton.Border1  			"cs1"
+		CheckButton.Border2  			"cs1"
 
 		//F
 		Frame.TitleTextInsetX			"12"
@@ -137,8 +137,8 @@ Button.DepressedTextColor "Primary"
 		MainMenu.TextColor			"40 34 30 255"
 		MainMenu.ArmedTextColor		"White"
 		MainMenu.Inset				"32"
-		Menu.TextColor			"0 0 0 255"
-		Menu.BgColor			"Primary"
+		Menu.TextColor			"White"
+		Menu.BgColor			"Black"
 		Menu.ArmedTextColor		"Black"
 		Menu.ArmedBgColor		"White"
 		Menu.TextInset			"6"
@@ -224,11 +224,15 @@ Button.DepressedTextColor "Primary"
         //magic
  		BaseBorder		FrameBorder
 		ButtonBorder	FrameBorder
-		ComboBoxBorder	FrameBorder
+		ComboBoxBorder	Cs1
 		MenuBorder		FrameBorder
 		BrowserBorder	FrameBorder
 		PropertySheetBorder	FrameBorder
         //magic
+		ToolTipBorder "Cs1"
+		ListPanelBorder "FrameBorder"
+		RichTextBorder "Cs1"
+	// forces tooltip border to disapppear
 		FrameBorder
 		{
 			// rounded corners for frames
@@ -282,10 +286,6 @@ Button.DepressedTextColor "Primary"
 			"color"	"Primary"
 			"image"					"replay/thumbnails/mm/circle"
 			
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
 		}
 		
 		ScrollBarButtonDepressedBorder
@@ -294,11 +294,6 @@ Button.DepressedTextColor "Primary"
 			"backgroundtype"		"0"
 			
 			"image"					"replay/thumbnails/mm/circle_rgb"
-			
-			"src_corner_height"		"0"				// pixels inside the image
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
 		}			 	
 		
 		Rice3

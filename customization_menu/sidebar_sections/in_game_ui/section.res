@@ -221,7 +221,30 @@
 							"sound_depressed"			"UI/buttonclick.wav"
 							"sound_released"			"UI/buttonclickrelease.wav"
 						}		
-																																													
+						"DamageIndicatorButtons"		//be careful on this one
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"DamageIndicatorButtons"
+							"xpos"						"0"
+							"ypos"						"140"
+							"wide"						"f0"
+							"tall"						"20"
+							"proportionaltoparent"		"1"
+							"command"					"engine jp_custom_sub_menu_dmgindic; ih_reloadmenus"
+							"actionsignallevel"			"6"
+							"labelText"					"Damage Indicator"
+							"font"						"regular12"
+							"textalignment"				"west"
+							"textinsetx"				"20"
+							"use_proportional_insets"	"1"
+							"paintbackground"			"0"
+							"defaultfgcolor_override"	"PrimaryT4"
+							"armedfgcolor_override"		"PrimaryT2"
+							"border_default"			"LINE_LEFT_3_Primary_0"
+							"border_armed"				"LINE_LEFT_0_Primary_0"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"sound_released"			"UI/buttonclickrelease.wav"
+						}																																														
 					}
 				}
 			}

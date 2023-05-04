@@ -1,6 +1,7 @@
 	#base "../../cfg/jp_awsd_hudlayout.txt"
 	#base "../new/ui_overrides/close-caption/file.res"
 	#base "../../../cfg/jp_id_hudlayout.txt"
+	#base "../../../cfg/jp_damage_indicator.txt"
 	#base "../../../cfg/jp_sniperchar_hudlayout.txt"
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
@@ -134,21 +135,6 @@
 		"separator_width"		"3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"3"
 		"height_offset"			"0"
-	}
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator"
-		"visible" "1"
-		"enabled" "1"
-
-		// TF Damage Indicator vars
-		"MinimumWidth" "108"
-		"MaximumWidth" "108"
-		"StartRadius" "215"
-		"EndRadius" "80"
-		"MinimumHeight" "64"
-		"MaximumHeight" "64"
-		"MinimumTime" "2"
 	}
 	HudDeathNotice
 	{

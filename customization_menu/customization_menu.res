@@ -110,7 +110,7 @@
 					"tall"						"f0"
 					"proportionaltoparent"		"1"
 					"font"						"regular12"
-					"labelText"					"∎∎∎ = Default"
+					"labelText"					"███ = Default"
 					"textAlignment"				"west"
 					"textinsetx"				"5"
 					"use_proportional_insets"	"1"
@@ -259,9 +259,9 @@
 				"tall"						"20"
 				"proportionaltoparent"		"1"
 				"font"						"regular12"
-				"labelText"					"NOTICE: Some options, such as color-related ones, will require a game restart in order to take effect. Please use this only on main-menu. Not in-game"
+				"labelText"					"Hover on the buttons for see the tooltip text!"
 				"textAlignment"				"center"
-				"fgcolor"					"PrimaryT4"
+				"fgcolor"					"Primary"
 				"bgcolor_override"			"TransparentBlack"
 			}
 		}

@@ -10,18 +10,9 @@ startupmenu
 sv_unlockedchapters 99
 sv_pure -1
 
-
-
-// Setup
-alias "ih_setup" "exec ih_setup"
-exec ih_setup_complete.txt
-ih_setup
-
 exec "jofrehud.cfg"
 
+// First RUN
 alias chud_firstrun "exec hud_firstrun.cfg"
-exec "hud_has_run.txt"
+exec "jp_hud_has_run.txt"
 chud_firstrun
-
-
-
