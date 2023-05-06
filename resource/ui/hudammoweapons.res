@@ -68,7 +68,22 @@
 		"bgcolor_override"		"whattimeis1"
 					"pin_to_sibling"	"AmmoAnchor"
 	}		
-
+	"cover3"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"cover3"
+		"xpos"			"0"
+		"ypos"			"1"
+		"zpos"			"500"
+		"wide"			"4"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"	"cleanup"
+		"pin_to_sibling"	"AmmoAnchor"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"	
+	}
 
 
 

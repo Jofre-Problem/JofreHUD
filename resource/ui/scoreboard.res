@@ -1,7 +1,7 @@
 
 
 #base "ui2/partyslot0.res"
-#base "_tf2hud/scoreboard.res"
+//#base "_tf2hud/scoreboard.res"
 
 "Resource/UI/Scoreboard.res"
 {
@@ -33,6 +33,8 @@
 					}							
 	"scores"
 	{
+		"ControlName"	        					"CTFClientScoreBoardDialog"
+		"fieldName"	          						"scores"		
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"9999"
@@ -208,10 +210,12 @@
 		}
 	}							
 	"BlueTeamLabel"
-	{
+	{		"ControlName"								"CExLabel"
+		"fieldName"									"BlueTeamLabel"
+		"labelText"									"%blueteamname%"
 		"visible"	"1"
 		"font"			"Size 28" 
-		"fgcolor_override"	"Neutral"
+		"fgcolor_override"	"White"
 		"textAlignment"		"west"
 		"xpos"			"22"
 		"ypos"			"79" 
@@ -221,8 +225,11 @@
 	}							
 	"BlueTeamScore"
 	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BlueTeamScore"
+		"labelText"									"%blueteamscore%"		
 		"font"			"Healthandammo"
-		"fgcolor_override"	"Neutral"
+		"fgcolor_override"	"White"
 		"textAlignment"		"east"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -260,21 +267,26 @@
 	}	
 								
 	"RedTeamLabel"
-	{
+	{		"ControlName"								"CExLabel"
+		"fieldName"									"RedTeamLabel"
+		"labelText"									"%redteamname%"
 		"visible"	"1"
 		"font"			"Size 28"
-		"fgcolor_override"	"Neutral"
+		"fgcolor_override"	"White"
 		"textAlignment"		"east"
 		"xpos"			"rs1-22"
 		"ypos"			"79" 
 		"zpos"			"5001"
 		"wide"			"p0.5"
-		"tall"			"20"
-	}							
+		"tall"			"20"	
+	}					
 	"RedTeamScore"
 	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"RedTeamScore"
+		"labelText"									"%redteamscore%"
 		"font"			"Healthandammo"
-		"fgcolor_override"	"Neutral"
+		"fgcolor_override"	"White"
 		"textAlignment"		"west"
 		"xpos"			"c1"
 		"ypos"			"79" 
@@ -2186,14 +2198,6 @@ if_mvm
 
 		}
 	}
-
-	"ButtonLegendBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ButtonLegendBG"
-		"visible"			"0"
-	}
-	
 	
 	"MvMScoreboard"
 	{
@@ -2214,4 +2218,108 @@ if_mvm
 			"visible"		"1"
 		}
 	}
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"MainBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"MainBG"
+		"xpos"			         					"9999"
+	}
+
+	"BlueLeaderAvatar"
+	{
+		"ControlName"								"CAvatarImagePanel"
+		"fieldName"									"BlueLeaderAvatar"
+		"xpos"			         					"9999"
+	}
+	"BlueLeaderAvatarBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BlueLeaderAvatarBG"
+		"xpos"			         					"9999"
+	}
+
+	"RedLeaderAvatar"
+	{
+		"ControlName"								"CAvatarImagePanel"
+		"fieldName"									"RedLeaderAvatar"
+		"xpos"			         					"9999"
+	}
+	"RedLeaderAvatarBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"RedLeaderAvatarBG"
+		"xpos"			         					"9999"
+	}
+	"BlueTeamScoreDropshadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"BlueTeamScoreDropshadow"
+		"xpos"			         					"9999"
+	}
+	"RedTeamScoreDropshadow"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"RedTeamScoreDropshadow"
+		"xpos"			         					"9999"
+	}
+	"TimerBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"TimerBG"
+		"xpos"			         					"9999"
+	}
+	"ServerTimeLeftInsetBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"ServerTimeLeftInsetBG"
+		"xpos"			         					"9999"
+	}
+	"ServerTimeLeftLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerTimeLeftLabel"
+		"xpos"			         					"9999"
+	}
+	"ServerTimeLeftValue"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerTimeLeftValue"
+		"xpos"			         					"9999"
+	}
+
+	"VerticalLine"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"VerticalLine"
+		"xpos"			         					"9999"
+	}
+
+	"PlayerNameBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"PlayerNameBG"
+		"xpos"			         					"9999"
+	}
+	"PlayerNameLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerNameLabel"
+		"xpos"			         					"9999"
+	}
+	"ServerLabelNew"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ServerLabelNew"
+		"xpos"			         					"9999"
+	}
+	"PlayerScoreLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PlayerScoreLabel"
+		"xpos"			         					"9999"
+	}	
 }

@@ -78,7 +78,7 @@
 			"xpos"			"23"
 			"xpos_minmode"		"23"
 			//		"114"
-			"xpos_lodef"		"114"
+			//xpos_lodef		"114"
 			"ypos"			"11"
 			"ypos_minmode"		"11"
 			//		"15"

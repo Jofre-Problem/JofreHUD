@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%"
-		"font"		"Symbols 18"
+		"font"		"newicons18"
 		"textAlignment"	"center"
 		"actionsignallevel"	"2"
 		"Command"		"cancel"

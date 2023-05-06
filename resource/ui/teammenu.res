@@ -1,17 +1,16 @@
-
-#base "_tf2hud/teammenu.res"
-
-
 "Resource/UI/TeamMenu.res"
 {
 
-
 	"team"
 	{
-		xpos					0
-		ypos					0
-		wide					f0
-		tall					480
+		"ControlName"	  							"CTeamMenu"
+		"fieldName"		  							"team"
+		"xpos"			  							"0"
+		"ypos"			  							"0"
+		"wide"			  							"f0"
+		"tall"			  							"480"
+		"visible"		  							"1"
+		"enabled"		  							"1"
 	}
 	"MenuBG"
 	{
@@ -32,7 +31,7 @@
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			""
-		sound_armed				"UI/deck_ui_navigation.wav"
+		sound_armed				"vo/deck_ui_navigation.wav"
 		
 		paintbackground			0
 		
@@ -52,16 +51,25 @@
 			scaleImage				1
 		}				
 	}
-
-	"bluecount" //bluecount
+	"BlueShortKey"
 	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BlueShortKey"
+		"xpos"										"9999"
+		"labelText"									"&3"
+		"Command"									"jointeam blue"
+		"visible"									"1"
+	}
+	"bluecount" //bluecount
+	{			"labelText"		  							"%bluecount%"
 		xpos			  		0
 		ypos			  		0
 		zpos			  		11
 		wide			  		p0.5
 		tall			  		480
 		mouseinputenabled			0
-
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"BlueCount"
 		labelText		  		"%bluecount%"
 		font			  		"Size 36"
 		textAlignment	  		center
@@ -157,7 +165,7 @@
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			""
-		sound_armed				"UI/deck_ui_navigation.wav"
+		sound_armed				"vo/deck_ui_navigation.wav"
 		
 		paintbackground			0
 
@@ -177,9 +185,19 @@
 			scaleImage				1
 		}				
 	}
+	"RedShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"RedShortKey"
+		"xpos"										"9999"
+		"labelText"									"&4"
+		"Command"									"jointeam red"
+		"visible"									"1"
+	}
 
 	"redcount"
-	{
+	{		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"RedCount"
 		xpos			  		c0
 		ypos			  		0
 		zpos			  		11
@@ -199,6 +217,25 @@
 "visible"		"0"
 
 }
+	"RandomShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"RandomShortKey"
+		"xpos"										"9999"
+		"labelText"									"&1"
+		"Command"									"jointeam auto"
+		"visible"									"1"
+	}
+	"SpectateShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"SpectateShortKey"
+		"xpos"										"9999"
+		"labelText"									"&2"
+		"Command"									"jointeam spectate"
+		"visible"									"1"
+	}
+
 	"TeamMenuSelect"
 	{
 		ControlName				CExImageButton

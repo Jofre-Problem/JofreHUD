@@ -13,7 +13,7 @@
 		"fieldName"	"ChargeMeter"
 		"font"		"Default"
 		"xpos"			"cs-0.5"
-		"ypos"			"c90"
+		"ypos"			"C85"
 		"zpos"			"2"
 		"wide"			"160"
 		"zpos"		"2"

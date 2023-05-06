@@ -53,9 +53,9 @@
 			wide					44
 			tall					42
 
-			font					"Symbols 30"
+			font					"Newicons25"
 			textAlignment			center
-			labeltext				"A"
+			labeltext				"Z"
 			textInsetX				21				// adjust text postition
 
 			Command				"find_game"
@@ -254,8 +254,8 @@
 			visible				1
 			mouseinputenabled			0
 
-			font					"Symbols 24"
-			labeltext				"d"
+			font					"NewIcons25"
+			labeltext				"z"
 			textAlignment			center
 			textInsetY				-2
 
@@ -379,7 +379,7 @@
 				enabled						1
 				tabPosition					0
 				labeltext					"~"
-				font							"Symbols 18"
+				font							"newicons18"
 				textAlignment				center
 				dulltext						0
 				brighttext					0
@@ -412,8 +412,8 @@
 				visible						1
 				enabled						1
 
-				labeltext					"W"
-				font							"Symbols 14"
+				labeltext					"x"
+				font							"Newicons12"
 				textAlignment				center
 
 				sound_depressed			"UI/buttonclick.wav"

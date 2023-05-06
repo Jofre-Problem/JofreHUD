@@ -2,27 +2,27 @@
 {
 	"CallVote"
 	{
-		label				"_"
+		label				"Æ"
 		command				"callvote"
 		OnlyInGame			1
 	}
 
 	"MutePlayer"
 	{
-		label				">"
+		label				"Ä"
 		command				"OpenPlayerListDialog"
 		OnlyInGame			1
 	}
 
 	"Quit"
 	{
-		label				")"
+		label				"N"
 		command				"quit"
 		OnlyAtMenu			1
 	}	
 	"Disconnect"
 	{
-		label				"ú"
+		label				"M"
 		command				"engine disconnect"
 		OnlyInGame			1
 	}

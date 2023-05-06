@@ -2,7 +2,7 @@
 
 //#base "../resource/ui/hudteamgoal.res"
 //#base "../spacer.res"
-"Resource\HudLayout.res"
+"j"
 {
 
 

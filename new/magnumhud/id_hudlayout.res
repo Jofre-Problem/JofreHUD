@@ -14,7 +14,6 @@
 		"wide"	 	"252"
 		"tall"	 	"50"
 		"priority"	"40"
-		"priority_lodef"	"5"
 	}
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
 	{

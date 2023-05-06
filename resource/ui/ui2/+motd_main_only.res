@@ -129,9 +129,9 @@
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 
-			"labelText"								"r"
+			"labelText"								"%"
 			"actionsignallevel"						"2"
-			"font"									"iconsSmall"
+			"font"									"newicons12"
 			"textalignment"							"center"
 			"use_proportional_insets"				"1"
 			"command"								"engine ih_reloadscheme; ih_reloadmenus"
@@ -155,9 +155,9 @@
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 
-			"labelText"								"V"
+			"labelText"								"y"
 			"actionsignallevel"						"2"
-			"font"									"iconsSmall"
+			"font"									"newicons12"
 			"textalignment"							"center"
 			"use_proportional_insets"				"1"
 			"command"								"engine jp_custom_alias_friendlist_on"
@@ -183,7 +183,7 @@
 
 			"labelText"								"x"
 			"actionsignallevel"						"2"
-			"font"									"iconsSmall"
+			"font"									"newicons12"
 			"textalignment"							"center"
 			"use_proportional_insets"				"1"
 			"command"								"engine jp_custom_alias_friendlist_off"
@@ -208,9 +208,9 @@
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 
-			"labelText"								"s"
+			"labelText"								"þ"
 			"actionsignallevel"						"2"
-			"font"									"iconsSmall"
+			"font"									"newicons12"
 			"textalignment"							"center"
 			"use_proportional_insets"				"1"
 			"command"								"engine ih_custom_on; ih_reloadmenus"
@@ -318,7 +318,7 @@
 			"zpos"										"60"
 			"wide"										"80"
 			"tall"										"20"
-			labelText				"["
+			labelText				"="
 			font					"NewIcons12"
 			textAlignment			center
 
@@ -371,11 +371,11 @@
 			"zpos"										"60"
 			"wide"										"20"
 			"tall"										"20"
-			labelText				"þ"
+			labelText				"`"
 			font					"NewIcons12"
 			textAlignment			center
 
-					command				"questlog"
+					command				"engine open_store"
 
 			"actionsignallevel"	"2"
 
@@ -437,9 +437,9 @@
 			"pin_to_sibling"	"LogoImage"
 			"labelText"								""
 			"actionsignallevel"						"2"
-			"command"								"engine play UI/buttonclick.wav"
+			"command"								"engine play vo/buttonclickrelease.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"vo/null.mp3"
+			"sound_released"						"vo/null.wav"
 			"paintbackground"	"0"
 		}	
 		"MOTD_Label"

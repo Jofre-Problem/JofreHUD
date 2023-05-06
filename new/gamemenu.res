@@ -1,1 +1,0 @@
-#base "_menu1/gamemenu.res"

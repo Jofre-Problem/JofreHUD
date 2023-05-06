@@ -45,7 +45,7 @@ SectionedListPanel.DividerColor "Primary"
 Button.DepressedTextColor "Primary"
 		Border.Bright					"blank"
 		Border.Dark						"blank"
-		Border.Selection				"Primary"
+		Border.Selection				"blank"
 		FrameTitleBar.BgColor			"Blank"
 		TextEntry.BgColor			"blank"
 		Button.BgColor			"blank" 
@@ -225,7 +225,7 @@ Button.DepressedTextColor "Primary"
  		BaseBorder		FrameBorder
 		ButtonBorder	FrameBorder
 		ComboBoxBorder	Cs1
-		MenuBorder		FrameBorder
+		MenuBorder		Cs1
 		BrowserBorder	FrameBorder
 		PropertySheetBorder	FrameBorder
         //magic

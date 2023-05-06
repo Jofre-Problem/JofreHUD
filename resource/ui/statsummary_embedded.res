@@ -176,7 +176,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"TFLabel"
-			"font"			"Symbols 18"
+			"font"			"Newicons12"
 			"labelText"		"!"
 			"textAlignment"		"center"
 			"xpos"			"c-86"

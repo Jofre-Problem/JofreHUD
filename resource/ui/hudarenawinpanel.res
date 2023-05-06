@@ -23,7 +23,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
+
 			"scaleImage"		"1"
 		}
 		"RedScoreBG"
@@ -39,7 +39,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
+
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -348,7 +348,6 @@
 		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"

@@ -31,7 +31,7 @@
 			tall					f0
 			proportionaltoparent		1
 
-			font					"Symbols 22"
+			font					"Newicons25"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -68,7 +68,7 @@
 			tall					f0
 			proportionaltoparent		1
 
-			font					"Symbols 22"
+			font					"Newicons25"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -108,7 +108,7 @@
 			tall					f0
 			proportionaltoparent		1
 
-			font					"Symbols 22"
+			font					"Newicons25"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"

@@ -216,7 +216,46 @@
 		"fieldName"		"MapImage"
 		"visible"		"0"
 	}
-	
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"MapInfoBack"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"MapInfoBack"
+		"xpos"										"9999"
+	}
+	"MapInfoContinue"
+	{
+		"ControlName"								"CTFButton"
+		"fieldName"									"MapInfoContinue"
+		"xpos"										"9999"
+	}
+	"MenuBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"MenuBG"
+		"xpos"										"9999"
+	}
+	"MapImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MapImage"
+		"wide"										"0"
+	}
+	"MapInfoType"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"MapInfoType"
+		"xpos"										"9999"
+	}
+	"ShadedBar"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ShadedBar"
+		"xpos"										"9999"
+	}	
 	
 	
 }

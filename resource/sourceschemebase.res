@@ -207,14 +207,6 @@ Scheme
 	 	"QuickListBGSelected"           "AchievementsLightGrey"
 	}
 
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	BitmapFontFiles
-	{
-		// UI buttons, custom font, (256x64)
-		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	}
 
 	//////////////////////// FONTS /////////////////////////////
 	//
@@ -331,24 +323,7 @@ Scheme
 				//	"1000"
 			}
 		}
-		"ChapterTitle"	[$X360]
-		{
-			"1"
-			{
-				"name"			"Segoe UI"
-				"tall"			"20"
-				//		"2000"
-				//	"1"
-			}
-		}
-		"ChapterTitleBlur"	[$X360]
-		{
-			"1"
-			{
-				"name"			"Segoe UI"
-				"tall"			"20"
-			}
-		}
+	
 		"MenuLarge"
 		{
 			"1"
@@ -397,16 +372,6 @@ Scheme
 			}
 		}
 		
-		GameUIButtons
-		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"0.63"
-				"scaley"	"0.63"
-			}
-		}
 		"ConsoleText"
 		{
 			"1"
@@ -609,31 +574,6 @@ Scheme
 			}
 		}
 
-		AppchooserGameTitleFont	[$X360]
-		{
-			"1"
-			{
-				"name"			"Segoe UI"
-				"tall"			"16"
-				//	"24"
-				//		"900"
-				//	"1"
-			}
-		}
-
-		AppchooserGameTitleFontBlur	[$X360]
-		{
-			"1"
-			{
-				"name"			"Segoe UI"
-				"tall"			"16"
-				//	"24"
-				//		"900"
-				//			"3"
-				//	"5"
-				//	"1"
-			}
-		}
 		
 		StatsTitle
 		{

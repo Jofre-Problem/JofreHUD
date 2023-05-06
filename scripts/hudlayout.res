@@ -1,11 +1,15 @@
-	#base "../../cfg/jp_awsd_hudlayout.txt"
+	#base "../../../cfg/jp_awsd_hudlayout.txt"
 	#base "../new/ui_overrides/close-caption/file.res"
+
 	#base "../../../cfg/jp_id_hudlayout.txt"
 	#base "../../../cfg/jp_damage_indicator.txt"
 	#base "../../../cfg/jp_sniperchar_hudlayout.txt"
+	#base "../../../cfg/jp_tviewmodel.txt"
+
+
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
-"Resource\HudLayout.res"
+"j"
 {
 	"1_editable" // Icon Anchor to move Vaccinator Resistance
 	{
@@ -16,7 +20,17 @@
 		"visible"	"1"
 		"enabled" 	"1"
 	}	
-
+	"ViewmodelRefract"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"ViewmodelRefract"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-100"
+		"wide"					"f0"
+		"tall"					"480"
+		"scaleImage"			"1"
+	}
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"

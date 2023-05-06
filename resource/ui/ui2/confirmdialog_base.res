@@ -85,7 +85,7 @@
 		"wide"			"78"
 		"tall"			"o1"
 		//"tabPosition"	"0"
-		"labelText"		"n"//"ì"
+		"labelText"		"x"//"ì"
 		"font"			"NewIcons57"
 		"textAlignment"	"center"
 		"textinsetx"	"0"

@@ -212,7 +212,7 @@
 			textAlignment			west
 			AllCaps				1
 
-			fgcolor_override			"MenuPanelFg"
+			fgcolor_override			"white"
 			paintbackground			0
 
 			"if_mini"
@@ -231,12 +231,12 @@
 			wide					0 //35
 			tall					20
 
-			font					"Thin 11"
+			font					"Regular9"
 			labelText				"%desc1%"
 			textAlignment			center
 			AllCaps				1
 
-			fgcolor_override			"MenuPanelFg"
+			fgcolor_override			"white"
 			paintbackground			0
 
 			"if_mini"
@@ -245,9 +245,9 @@
 
 			"fonts"		// multiple?
 			{
-				"0"				"Thin 11"
-				"1"				"Thin 11"
-				"2"				"Thin 11"
+				"0"				"Regular9"
+				"1"				"Regular9"
+				"2"				"Regular9"
 			}
 		}
 
@@ -261,12 +261,12 @@
 			wide					0 //210
 			tall					25
 
-			font					"Regular 24"
+			font					"Regular24"
 			labelText				"%desc2%"
 			textAlignment			west
 			AllCaps				1
 
-			fgcolor_override			"MenuPanelFg"
+			fgcolor_override			"white"
 			paintbackground			0
 
 			"if_mini"
@@ -275,9 +275,9 @@
 
 			"fonts"
 			{
-				"0"				"Regular 24"
-				"1"				"Regular 24"
-				"2"				"Regular 24"
+				"0"				"Regular24"
+				"1"				"Regular24"
+				"2"				"Regular24"
 			}
 
 			"colors"		// ?

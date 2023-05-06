@@ -1,15 +1,3 @@
-///////////////////////////////////////////////////////////
-// Object Control Panel scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-// hit ctrl-alt-shift-R in the app to reload this file
-//
-///////////////////////////////////////////////////////////
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -21,35 +9,7 @@ Scheme
 		//"BaseText"		"48 192 192 255"		// used in text windows, lists
 		//"BrightBaseText" "155 255 255 255"	// brightest text
 
-		"BaseText"		"220 30 30 255"
-		"BrightBaseText" "255 0 0 255"
-		"DimBaseText"	"220 30 30 255"		// dim base text
-		"LabelDimText"	"220 30 30 255"		// slight modification on above, used for info text
-												// could be just removed and use DimBaseText?
-		
-		"ControlText"	"48 192 192 255"		// used in all text controls
-		"BrightControlText"	"64 224 224 255"	// use for selected controls
-		"DisabledText1"	"32 128 128 255"		// disabled text
-		"DisabledText2"	"30 30 30 255"		// overlay color for disabled text (to give that inset look)
-
-		// background colors
-		"ControlBG"		"76 88 68 255"		// background color of controls
-		"ControlDarkBG" "90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"		"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-
-		"SelectionBG"	"76 88 68 255"		// background color of any selected text or menu item
-
-		// title colors
-		"TitleText"		"255 255 255 255"
-		"TitleDimText"	"120 132 114 255"
-		"TitleBG"		"76 88 68 0"
-		"TitleDimBG"	"76 88 68 0"
-
-		// border colors
-		"BorderBright"	"136 145 128 255"		// the lit side of a control
-		"BorderDark"	"45 49 40 255"		// the dark/unlit side of a control
-		"BorderSelection"	"0 0 0 255"		// the additional border color for displaying the default/selected button
-
+		"blank"		"0 0 0 0"
 		"CSlideshowDisplayScreen_Default"		"0 0 0 255"
 	}
 
@@ -59,126 +19,63 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		Panel.FgColor		"48 192 192 255"
-		Panel.BgColor		"0 0 0 0"			//Important! - makes the panels transparent
+		Panel.FgColor		"blank"
+		Panel.BgColor		"blank"			//Important! - makes the panels transparent
 
-		"FgColor"			"ControlText"
-		"BgColor"			"ControlBG"
-		"LabelBgColor"		"ControlBG"
-		"SubPanelBgColor"	"ControlBG"
+		"FgColor"			"blank"
+		"BgColor"			"blank"
+		"LabelBgColor"		"blank"
+		"SubPanelBgColor"	"blank"
 
-		"DisabledFgColor1"		"DisabledText1" 
-		"DisabledFgColor2"		"DisabledText2"		// set this to the BgColor if you don't want it to draw
+		"DisabledFgColor1"		"blank" 
+		"DisabledFgColor2"		"blank"		// set this to the BgColor if you don't want it to draw
 
-		"TitleBarFgColor"			"TitleText"
-		"TitleBarDisabledFgColor"	"TitleDimText"
-		"TitleBarBgColor"			"TitleBG"
-		"TitleBarDisabledBgColor"	"TitleDimBG"
+		"TitleBarFgColor"			"blank"
+		"TitleBarDisabledFgColor"	"blank"
+		"TitleBarBgColor"			"blank"
+		"TitleBarDisabledBgColor"	"blank"
 
 //		"TitleBarIcon"				"resource/icon_steam"
 //		"TitleBarDisabledIcon"		"resource/icon_steam_disabled"
 		"TitleBarIcon"				"resource/icon_hlicon1"
 		"TitleBarDisabledIcon"		"resource/icon_hlicon2"
 
-		"TitleButtonFgColor"			"BorderBright"
-		"TitleButtonBgColor"			"ControlBG"
-		"TitleButtonDisabledFgColor"	"TitleDimText"
-		"TitleButtonDisabledBgColor"	"TitleDimBG"
+		"TitleButtonFgColor"			"blank"
+		"TitleButtonBgColor"			"blank"
+		"TitleButtonDisabledFgColor"	"blank"
+		"TitleButtonDisabledBgColor"	"blank"
 
-		"TextCursorColor"			"BaseText"		// color of the blinking text cursor in text entries
-		"URLTextColor"				"BrightBaseText"		// color that URL's show up in chat window
-
-		Menu
-		{
-			"FgColor"			"DimBaseText"
-			"BgColor"			"ControlBG"
-			"ArmedFgColor"		"BrightBaseText"
-			"ArmedBgColor"		"SelectionBG"
-			"DividerColor"		"BorderDark"
-
-			"TextInset"			"6"
-		}
-
-		MenuButton	  // the little arrow on the side of boxes that triggers drop down menus
-		{
-			"ButtonArrowColor"	"DimBaseText"	// color of arrows
-		   	"ButtonBgColor"		"WindowBG"	// bg color of button. same as background color of text edit panes 
-			
-			"ArmedArrowColor"		"BrightBaseText" // color of arrow when mouse is over button
-			"ArmedBgColor"		"DimBaseText"  // bg color of button when mouse is over button
-		}
-
-		Slider
-		{
-			"SliderFgColor"		"ControlText"		// handle with which the slider is grabbed
-			"SliderBgColor"		"ControlDarkBG"		// area behind handle
-			"SliderTickColor"		"ControlText"	// slider tick's color
-			"SliderTickLabelColor"	"ControlText"	// color of labels at the ends of the slider tick
-		}
-
-		ScrollBarSlider
-		{
-			"BgColor"			"ControlBG"		// this isn't really used
-
-			"ScrollBarSliderFgColor"		"ControlBG"		// handle with which the slider is grabbed
-			"ScrollBarSliderBgColor"		"ControlDarkBG"		// area behind handle
-
-			"ButtonFgColor"		"DimBaseText"	// color of arrows
-		}
-
+		"TextCursorColor"			"blank"		// color of the blinking text cursor in text entries
+		"URLTextColor"				"blank"		// color that URL's show up in chat window
 
 		// text edit windows
-		"WindowFgColor"				"BaseText"		// off-white
-		"WindowBgColor"				"WindowBG"
-		"WindowDisabledFgColor"		"DimBaseText"
-		"WindowDisabledBgColor"		"66 80 60 255"		// background of chat conversation
+		"WindowFgColor"				"blank"		// off-white
+		"WindowBgColor"				"blank"
+		"WindowDisabledFgColor"		"blank"
+		"WindowDisabledBgColor"		"blank"		// background of chat conversation
 
-		"SelectionFgColor"			"255 255 255 255"		// fg color of selected text
-		"SelectionBgColor"			"SelectionBG"
-		"ListSelectionFgColor"		"255 255 255 255"			// 
-
-		"ListBgColor"				"62 70 55 255"	// background of server browser control, etc
-		"BuddyListBgColor"			"62 70 55 255"	// background of buddy list pane
+		"SelectionFgColor"			"blank"		// fg color of selected text
+		"SelectionBgColor"			"blank"
+		"ListSelectionFgColor"		"blank"			// 
+		"ListBgColor"				"blank"	// background of server browser control, etc
+		"BuddyListBgColor"			"blank"	// background of buddy list pane
 		
 		// App-specific stuff
-		"ChatBgColor"				"WindowBgColor"
+		"ChatBgColor"				"blank"
 
 		// status selection
-		"StatusSelectFgColor"		"BrightBaseText"
-		"StatusSelectFgColor2"		"BrightControlText"		// this is the color of the friends status
+		"StatusSelectFgColor"		"blank"
+		"StatusSelectFgColor2"		"blank"		// this is the color of the friends status
 
 		// checkboxes
-		"CheckButtonBorder1"   		"BorderDark" 		// the left checkbutton border
-		"CheckButtonBorder2"   		"BorderBright"		// the right checkbutton border
-		"CheckButtonCheck"			"0 0 0 255"				// color of the check itself
-		"CheckBgColor"				"158 168 150 255"
+		"CheckButtonBorder1"   		"blank" 		// the left checkbutton border
+		"CheckButtonBorder2"   		"blank"		// the right checkbutton border
+		"CheckButtonCheck"			"blank"				// color of the check itself
+		"CheckBgColor"				"blank"
 
-		// buttons (default fg/bg colors are used if these are not set)
-//		"ButtonArmedFgColor"
-//		"ButtonArmedBgColor"
-//		"ButtonDepressedFgColor"	"BrightControlText"
-//		"ButtonDepressedBgColor"
 
-		// buddy buttons
-		BuddyButton
-		{
-			"FgColor1"		"ControlText"
-			"FgColor2"		"117 134 102 255"
-
-			"ArmedFgColor1"	"BrightBaseText"
-			"ArmedFgColor2"	"BrightBaseText"
-			"ArmedBgColor"	"SelectionBG"
-		}
-
-		Chat
-		{
-			"TextColor"				"BrightControlText"
-			"SelfTextColor"			"BaseText"
-			"SeperatorTextColor"	"DimBaseText"
-		}
-
-		"SectionTextColor"		"BrightControlText"		// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
-		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+		"SectionTextColor"		"blank"		// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
+		"SectionDividerColor"	"blank"		// color of line that runs under section name in buddy list
 	}
 
 	//
@@ -249,14 +146,5 @@ Scheme
 		
 			}
 		}
-	}
-
-	//
-	//////////////////// BORDERS //////////////////////////////
-	//
-	// describes all the border types
-	Borders
-	{
-	
 	}
 }

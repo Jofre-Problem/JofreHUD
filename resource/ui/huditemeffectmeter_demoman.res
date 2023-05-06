@@ -28,7 +28,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"Size 7"
+		"font"					"Size 8 Shadow"
 		"proportionaltoparent"		"1"
 	}
 
@@ -49,7 +49,20 @@
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
+	"1_progress"
+	{
+					"ControlName""ContinuousProgressBar"
+		"fieldName""1_progress"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"190"
+		"tall"			"2"
+		"variable"		"progresscount"
 
+		"fgcolor_override"	"Green"
+		"bgcolor_override" "black"
+	}	
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"

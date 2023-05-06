@@ -1,55 +1,50 @@
-"Resource/UI/HudStalemate.res"
+#base "ui2/monika.res"
+"Resource/HudStalemate.res"
 {
-	"HudStalemateBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudStalemateBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"150"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/death_panel_black_bg"
-		"scaleImage"		"1"
-	}
-	"StalemateLabel"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"StalemateLabel"
-		"font"			"HudFontMedium"
-		"xpos"			"25"
-		"ypos"			"17"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"35"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		"#TF_teambalanced"
-		"textAlignment"		"northwest"
-	}
-	"ReasonLabel"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"ReasonLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"25"
-		"ypos"			"34"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"55"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		""
-		"textAlignment"		"northwest"
-	}
+"HudStalemateBG"
+{
+"visible""0"
+}
+"Monika"
+{
+"xpos""5"
+"ypos"	"25"
+}
+"StalemateLabel"
+{
+"ControlName""Label"
+"fieldName""StalemateLabel"
+"font""Regular16"
+"xpos""-25"
+"ypos""0"
+"zpos""1"
+"wide""280"
+"tall""25"
+
+
+//"visible""1"
+
+"wrap""1"
+"labelText""#TF_teambalanced"
+"textAlignment""west"
+"pin_to_sibling"    "Monika"
+}
+"ReasonLabel"
+{
+"ControlName""Label"
+"fieldName""ReasonLabel"
+"font""Regular9"
+"xpos""30"
+"ypos""25"
+"zpos""1"
+"wide""200"
+"tall""70"
+
+
+//"visible""1"
+
+"wrap""1"
+"labelText" ""
+"textAlignment""west"
+}
 }

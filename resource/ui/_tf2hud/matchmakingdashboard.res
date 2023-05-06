@@ -7,7 +7,7 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"-5"
-		"zpos"					"10001"
+		"zpos"					"100"
 		"wide"					"f0"
 		"tall"					"35"
 		"keyboardinputenabled"	"0"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"0"
+			"xpos"			"cs-0.5-90"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"40"
@@ -84,19 +84,8 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+			"tall"			"0"
+
 
 			"party_slot"	"0"
 		}
@@ -105,19 +94,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+	"tall"			"0"
 
 			"party_slot"	"1"
 		}
@@ -126,20 +103,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
+	"tall"			"0"
 			"party_slot"	"2"
 		}
 
@@ -147,19 +111,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+	"tall"			"0"
 
 			"party_slot"	"3"
 		}
@@ -168,20 +120,8 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
-
+	
+	"tall"			"0"
 			"party_slot"	"4"
 		}
 
@@ -189,19 +129,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
-			"ypos"			"rs1-6"
-			"zpos"			"100"
-			"wide"			"o1"
-			"tall"			"24"
-			"autoResize"	"0"
-			//		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//	"0"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"1"
-			"keyboardinputenabled"	"0"
+	"tall"			"0"
 
 			"party_slot"	"5"
 		}
@@ -314,22 +242,7 @@
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"glyph_options"
-					"scaleImage"	"1"
-				}				
+				
 			}		
 
 			"CloseButton"
@@ -362,24 +275,7 @@
 			
 				"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
-				}				
+				"depressedFgColor_override" "46 43 42 255"		
 			}		
 		}
 
@@ -500,25 +396,6 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_quit"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"DisconnectButton"
@@ -559,25 +436,6 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 
-			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"TanLight"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"rs1-5"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_disconnect"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"ResumeButton"
@@ -617,25 +475,6 @@
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"icon_resume"
-				"drawcolor_override" "TanLight"
-			}
 		}
 
 		"FindAGameButton"
@@ -675,25 +514,6 @@
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"10"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"glyph_multiplayer"
-				"drawcolor_override" "TanLight"
-			}
 		}
 	}
 }

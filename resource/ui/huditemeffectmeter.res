@@ -6,7 +6,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"100"
+		"wide"			"f0"
 		"tall"			"2"
 		"pin_to_sibling"	"ItemEffectMeter"
 	
@@ -18,7 +18,7 @@
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
 		"ypos"			"c85"
-		"wide"			"80"
+		"wide"			"160"
 		"tall"			"20"
 		"MeterFG"		"White"
 		"MeterBG"		"Blank"
@@ -37,7 +37,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"Regular9"
+		"font"					"Size 8 Shadow"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
 	}

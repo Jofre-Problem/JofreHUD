@@ -11,7 +11,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HomeLabel"
-		"font"			"Symbols 24"
+		"font"			"Newicons25"
 		"fgcolor"		"White"
 		"xpos"			"cs-0.5"
 		"ypos"			"13"
@@ -20,7 +20,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"w"
+		"labelText"		"("
 		"textAlignment"	"Center"
 		"proportionaltoparent"		"1"
 	}

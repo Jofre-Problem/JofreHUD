@@ -278,18 +278,6 @@ Scheme
 		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
 
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	BitmapFontFiles
-	{
-		// UI buttons, custom font, (256x64)
-		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	}
-
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
 	Fonts
 	{
 		"ChatFont"
@@ -321,6 +309,13 @@ Scheme
 			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
+			"4"
+			{
+				"name"		"ProductChat"
+				"tall"		"36"
+				"yres"		"1600 6000"
+				"antialias"		"1"
+			}			
 		}	
 		"Default"
 		{

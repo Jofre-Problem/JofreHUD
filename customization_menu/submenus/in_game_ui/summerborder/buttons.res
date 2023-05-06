@@ -36,7 +36,7 @@
 			"tall"									"64"
 			"labelText"								"x"
 			"actionsignallevel"						"2"
-			"font"									"iconsLarge"
+			"font"									"NewIcons25"
 			"textalignment"							"center"
 			"fgcolor_override"	"Red"
 			"border"	"Cs1"

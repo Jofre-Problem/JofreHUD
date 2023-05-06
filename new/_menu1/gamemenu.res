@@ -1,21 +1,14 @@
 "GameMenu" 
 {
-
-		"Items"
-	{
-		"command"									"engine open_charinfo"
-		"label" 									""
-		"OnlyAtMenu" "1"
-	}
     "CallVoteButton2"
 {
-"label""c"
+"label""Æ"
 "command""callvote"
 "OnlyInGame""1"
 }
 "MutePlayersButton2"
 {
-"label""M"
+"label""Ä"
 "command""OpenMutePlayerDialog"
 "OnlyInGame""1"
 }

@@ -24,19 +24,8 @@
 		"wide"			"170"
 		"tall"			"15"
 		"fillcolor"		"Primary"
-		"border"	"Rice1"
-			"PartySlot0"
-		{
-			"ControlName""CDashboardPartyMember"
-			"fieldName""PartySlot0"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"p2"
-			"tall"			"p2"
-			"alpha"	"100"
-			"party_slot"				"0"
-		}		
+		"border"	"cs1"
+
 	}
 		
 	"skill"

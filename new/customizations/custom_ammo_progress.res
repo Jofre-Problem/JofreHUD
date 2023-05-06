@@ -36,6 +36,7 @@
 			"pin_to_sibling"	"AmmoAnchor"
 
 	}	
+	
 		"ProgressBar1"
 	{
 					"ControlName""ContinuousProgressBar"

@@ -212,7 +212,19 @@
 				"visible"		"0"
 				"enabled"		"0"
 			}						
-		}		
+		}
+		"bruh"			// csgo thing keeps this alive
+		{
+			visible				0
+		}				
+		"Removeline"			// csgo thing keeps this alive
+		{
+			visible				0
+		}			
+		"ToggleChatIcon"			// csgo thing keeps this alive
+		{
+			visible				0
+		}			
 		"PartySlot0"
 		{
 			"xpos"					"10"
@@ -549,7 +561,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			////"autoResize"		"0"
+				"border"							"LINE_TOP_3_Primary_0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
@@ -630,7 +642,7 @@
 
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override" 	"Blank"
-
+				"border"							"LINE_TOP_3_Primary_0"
 				"border_default"			"LINE_TOP_3_Primary_0"
 				"border_armed"				"LINE_TOP_0_Primary_0"
 
@@ -638,7 +650,7 @@
 
 			"SubImage"
 			{
-				"tall"			"0"
+				"visible"			"0"
 			}
 		}
 
@@ -659,7 +671,7 @@
 			////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
-			//"enabled"		"1"
+				"border"							"LINE_TOP_3_Primary_0"
 			//"tabPosition"	"0"
 			font					"NewIcons9"
 			textAlignment			center

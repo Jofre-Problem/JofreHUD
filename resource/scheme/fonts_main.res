@@ -500,16 +500,6 @@ Scheme
 		{
 			"font" "fonts/Blocks-Blocks.ttf"
 			"name" "blocks"
-		}	
-		"211"
-		{
-			"font"		"fonts/Icons.ttf" 
-			"name"		"Icons"
-		}
-		"212"
-		{
-			"font"		"fonts/Chars.ttf"
-			"name"		"Chars"
 		}		
 		"310"
 		{

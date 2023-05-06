@@ -1,6 +1,6 @@
-#base "motd.res"
+//#base "motd.res"
 #base "ingame.res"
-#base "safe.res"
+//#base "safe.res"
 "j"
 {
 	"LeftBar"
@@ -27,6 +27,7 @@
 			fillColor 				"245 245 245 255"
 		}		
 	}
+	"Warning"{			"visible"			"0"		}
 	"LeftGrad"
 	{
 		"ControlName"		"ImagePanel"
@@ -60,7 +61,7 @@
 			wide					f0
 			tall					1
 			
-			fillColor 				"MenuSideBarFg"
+			fillColor 				"White"
 		}
 	}
 	"RightGrad"
@@ -89,8 +90,8 @@
 		wide					42
 		tall					45
 
-		labelText				"P"
-		font					"Symbols 22"
+		labelText				"T"
+		font					"Newicons25"
 		textAlignment			center
 		
 		command				"OpenServerBrowser"
@@ -108,62 +109,6 @@
 	}	
 	"MainMenuOverride"
 	{	}
-
-	"Background"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"-200"
-		"wide"			"f0"
-		"tall"			"f0"
-		
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-
-		if_taller
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-		
-		if_halloween_0
-		{
-			"image"		""
-		}
-		if_halloween_1
-		{
-			"image"		""
-		}
-		if_halloween_2
-		{
-			"image"		""
-		}
-		if_halloween_3
-		{
-			"image"		""
-		}
-		if_halloween_4
-		{	
-			"image"		""
-		}
-		if_halloween_5
-		{	
-			"image"		""
-		}
-		if_fullmoon
-		{
-			"image"		""
-		}
-		if_christmas
-		{
-			"image"		""
-		}			
-	}	
 	"RankModelPanel"			// contains rank medal model; can't click it because CycleRankTypeButton is on top
 	{
 		ControlName				CPvPRankPanel
@@ -218,8 +163,8 @@
 		wide					16
 		tall					o1
 		
-		labelText				"B"
-		font					"Symbols 8"
+		labelText				"+"
+		font					"Regular12"
 		textAlignment			center
 		
 		command				"OpenCreateMultiplayerGameDialog"
@@ -247,7 +192,7 @@
 		wide					44
 		tall					1
 		
-		fillColor 				"MenuSideBarFg"
+		fillColor 				"White"
 
 		pin_to_sibling 			"BrowseServers"
 		pin_corner_to_sibling		PIN_CENTER_TOP
@@ -264,8 +209,8 @@
 		wide					42
 		tall					42
 		
-		labelText				"r"
-		font					"Symbols 22"
+		labelText				"_"
+		font					"Newicons25"
 		textAlignment			center
 		
 		command				"engine open_charinfo_backpack; hideconsole"		// open backpack directly (default engine open_charinfo)
@@ -291,8 +236,8 @@
 		wide					42
 		tall					44
 		
-		labelText				"="
-		font					"Symbols 22"
+		labelText				"`"
+		font					"Newicons25"
 		textAlignment			center
 		
 		command				"engine open_store"
@@ -319,8 +264,8 @@
 		wide					42
 		tall					44
 		
-		labelText				"1"
-		font					"Symbols 18"
+		labelText				"Ç"
+		font					"newicons18"
 		textAlignment			center
 		
 		command				"questlog"
@@ -347,8 +292,8 @@
 		wide					42
 		tall					44
 		
-		labelText				"X"
-		font					"Symbols 22"
+		labelText				"Í"
+		font					"Newicons25"
 		textAlignment			center
 		
 		command				"OpenOptionsDialog"
@@ -375,8 +320,8 @@
 		wide					42
 		tall					44
 		
-		labelText				"I"
-		font					"Symbols 18"
+		labelText				"]"
+		font					"newicons18"
 		textAlignment			center
 		
 		command				"opentf2options"
@@ -403,8 +348,8 @@
 		wide					0
 		tall					o1
 		
-		labelText				"C"
-		font					"Symbols 22"
+		labelText				"-"
+		font					"Newicons25"
 		textAlignment			center
 		
 		command				"engine con_enable 1; toggleconsole"		// making sure it's enabled
@@ -432,7 +377,7 @@
 		wide					36
 		tall					0
 		
-		fillColor 				"MenuSideBarFg"
+		fillColor 				"White"
 
 		pin_to_sibling 			"ToggleConsole"
 		pin_corner_to_sibling		PIN_CENTER_TOP
@@ -465,7 +410,7 @@
 			tall					f0
 			proportionaltoparent		1
 
-			font					"Symbols 22"
+			font					"Newicons25"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -483,27 +428,6 @@
 	// #region LEFT BAR 
 
 
-	"RankModelPanel"			// contains rank medal model; can't click it because CycleRankTypeButton is on top
-	{
-		ControlName				CPvPRankPanel
-		FieldName				"RankModelPanel"
-		xPos					rs1
-		yPos					40
-		zPos					10090
-		wide					42					// needs top be bigger to not cut off spark particles
-		tall					o1
-
-		matchgroup				MatchGroup_Casual_12v12		// MatchGroup_Ladder_6v6 ?
-		show_progress			0					// check out!
-	"proportionaltoparent"	"0"
-		"mouseinputenabled"	"1"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_progress"	"0"
-
-		// => resource\ui\PvPRankPanel.res
-	}
 
 	"CycleRankTypeButton"		// toggle between casual/comp medal (RankModelPanel) and stats (RankPanel)
 	{
@@ -532,7 +456,7 @@
 		yPos					-85
 		zPos					1050
 		wide					42
-		tall					f0
+		tall					390
 
 		pin_to_sibling			"RightBar"
 		pin_corner_to_sibling		PIN_CENTER_TOP
@@ -558,8 +482,8 @@
 			tall					28
 			proportionalToParent		1
 
-			font					"Symbols 22"
-			labelText				"V"
+			font					"Newicons18"
+			labelText				"["
 			textAlignment			center
 
 			fgcolor_override			"255 255 255 255"
@@ -585,7 +509,7 @@
 			xPos					cs-0.5
 			yPos					31
 			wide					38
-			tall					f0
+			tall					390
 			proportionalToParent		1
 
 			columns_count			1
@@ -611,15 +535,32 @@
 				xPos					0
 				yPos					0
 				tall					f0
-				wide					1
+				wide					5
 				zPos					20
 				proportionalToParent		1
 				nobuttons				1			// hide arrow buttons
 
 				"Slider"				// the moving thingy
 				{
-					fgcolor_override			"MenuSideBarFg"
+					fgcolor_override			"White"
 				}
+			"UpButton"
+		{
+			"ControlName"	"Button"
+			"FieldName"		"UpButton"
+			"visible"		"0"
+			"tall"			"0"
+			"wide"			"0"
+		}
+		
+		"DownButton"
+		{
+			"ControlName"	"Button"
+			"FieldName"		"DownButton"
+			"visible"		"0"
+			"tall"			"0"
+			"wide"			"0"
+		}
 			}
 		}
 
@@ -633,26 +574,10 @@
 			tall					0
 			proportionalToParent		1
 			
-			fillColor 			"MenuSideBarFg"
+			fillColor 			"White"
 		}
 	}
-	"RankPanel"				// player's name, casual/competitive label, level/rank and stats
-	{
-		ControlName				CPvPRankPanel
-		FieldName				"RankPanel"
-		xPos					0
-		yPos					0
-		zPos					1014
-		wide					f0
-		tall					480
-		mouseInputEnabled			0					// mouse input passes though to panels below
 
-		matchgroup				MatchGroup_Casual_12v12		// check out!
-		show_model				0					// check out!
-		show_type				1					// check out!
-
-		// => resource\ui\PvPRankPanel.res BgPanel
-	}
 	
 	"Notifications_ShowButtonPanel"	// notification alert
 	{
@@ -785,8 +710,8 @@
 			tall					16
 			proportionalToParent		1
 
-			font					"Symbols 16"
-			labeltext				"W"
+			font					"Newicons18"
+			labeltext				"x"
 			textAlignment			center
 			actionsignallevel			2
 
@@ -888,7 +813,7 @@
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"999999"
+		"zpos"			"1000"
 		"wide"			"44"
 		"tall"			"45"
 		//"autoResize"		"0"
@@ -896,12 +821,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-		
 		"MOTD_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"
@@ -911,8 +830,8 @@
 			"zpos"			"1"
 			wide					44
 			tall					45
-			"labelText"		"O"
-			"font"			"Symbols 32"
+			"labelText"		"U"
+			"font"			"Newicons25"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
 			"brighttext"	"0"
@@ -920,29 +839,16 @@
 
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-			
+
 	defaultFgColor_override		"245 245 245 255"
 		armedFgColor_override		"MainTheme"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"visible"			"0"
-				"tall"			"32"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"button_MOTD"
-				"scaleImage"	"1"
+				"visible"		"0"
 			}
 		}
 	}
@@ -960,142 +866,25 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"noborder"
-		"MOTD_HeaderContainer"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"MOTD_HeaderContainer"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"300"
-			"tall"			"22"
-			"visible"		"1"
-			
-			"MOTD_HeaderLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"labelText"		"%motdheader%"
-				"xpos"			"0"
-				"ypos"			"0"
-				"visible"			"0"
-				"tall"			"24"
-				//"autoResize"		"0"
-				//"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"PaintBackgroundType" "2"
-				"fgcolor_override"	"235 226 202 255"
-				"bgcolor_override"	"141 178 61 255"
-			}
-		}
-		
-		"MOTD_CloseButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_CloseButton"
-			"xpos"			"282"
-			"ypos"			"rs1"
-			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
-			//"autoResize"		"0"
-			//"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			//"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			//"dulltext"	"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"actionsignallevel"	"2"
+	
 
-			"navDown"			"MOTD_URLButton"
-			"navActivate"		"<QuickplayButton"
-
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"motd_hide"
-			
-			"paintbackground"	"0"
-			
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		}	
-
-		"MOTD_HeaderIcon"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MOTD_HeaderIcon"
-			"xpos"			"265"
-			"ypos"			"25"
-			"zpos"			"100"
-			"visible"			"0"
-			"tall"			"25"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"			"class_icons/filter_all_motd"
-			"scaleImage"	"1"
-		}
-			
-		"MOTD_TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MOTD_TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%motdtitle%"
-			"textAlignment"	"west"
-			"xpos"			"10"
-			"ypos"			"25"
-			"wide"			"250"
-			"tall"			"15"
-			//"autoResize"		"0"
-			//"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"LabelDark"
-			"wrap"			"1"
-		}
-		
 		"MOTD_Label"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"HudFontSmall"
+			"font"			"Regular9"
 			"labelText"		"%motddate%"
-			"textAlignment"	"north-west"
-			"xpos"			"10"
+			"textAlignment"	"west"
+			"xpos"			"65"
 			"ypos"			"40"
-			"wide"			"300"
+			"wide"			"f0"
 			"tall"			"15"
+			"zpos" "100"
 			//"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor_override"		"white"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -1130,195 +919,4 @@
 	}	
 
 
-
-	"MainMenuOverride"
-	{	}
-	"TFCharacterImage"
-	{
-		"tall"			"0"
-	}	
-	"CharacterSetupButton"
-	{
-		"tall"			"0"
-	}	
-	"NewUserForumsButton"
-	{
-		"tall"			"0"
-	}				
-	"TFLogoImage"
-	{
-		"visible"			"0"
-	}
-	"RankTooltipPanel"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}
-
-	"CallVoteButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}
-	"MutePlayersButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}
-	"RequestCoachButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}	
-	"ReportPlayerButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}	
-	"WorkshopButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"alpha"			"0"
-	}	
-	"StoreHasNewItemsImage"		//Possible use in the future
-	{
-		"visible"			"0"
-	}		
-		"GeneralStoreButton"
-		{
-			"visible"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}		
-		"TF2SettingsButton"
-		{
-			"visible"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}			
-		"AchievementsButton"
-		{
-			"visible"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}		
-		"SettingsButton"
-		{
-			"visible"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}							
-	"NoGCImage"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"RankBorder"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"WatchStreamButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"VRBGPanel"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"VRModeButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"BackgroundFooter"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}				
-	"FooterLine"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"CommentaryButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"CoachPlayersButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"ReplayButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
-	"ReportBugButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
-	"BackToReplaysButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
-	"RequestCoachButton"
-	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}		
-	"QuestLogButton"
-	{
-		visible 			0
-		enabled			0
-	}
-	"EventPromo"
-	{
-		visible 			0
-		enabled			0
-		visible 0
-		tall				0
-	}
 }

@@ -1,3 +1,8 @@
+event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
+{
+	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
+}
+
 event SurveyShowSequence
 {
 	RunEventChild Survey SurveyDelete 0.6
@@ -80,7 +85,7 @@ event MenuOpen
 	//SetVisible hudplayerhealth 1 0.0	
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
-	PlaySound 0 "ui/deck_ui_slider_up.wav"
+	PlaySound 0 "vo/deck_ui_slider_up.wav"
 	RunEvent ScoreboardAnimate 0.0
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
@@ -100,7 +105,7 @@ event MenuClose
 	
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
-	PlaySound 0 "ui/deck_ui_slider_down.wav"
+	PlaySound 0 "vo/deck_ui_slider_down.wav"
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1

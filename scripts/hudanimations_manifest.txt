@@ -5,7 +5,7 @@ hudanimations_manifest
 	"file"		"../../cfg/jp_id_anim_bonus.txt"
 	"file"		"../../cfg/jp_id_anim_death.txt"
 	"file"		"../../cfg/jp_id_anim_neutral.txt"
-
+	"file"		"../../cfg/jp_anim_cartglow.txt"
 //	"file"		"new/scripts/hudanimations.txt"
 
 

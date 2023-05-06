@@ -46,7 +46,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"Size 30"
+		"font"			"Regular24"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -83,7 +83,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"Size 30"
+		"font"			"Regular24"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -264,7 +264,7 @@
 		
 		"if_hybrid"
 		{
-			"visible"	"c-40"
+			"visible"	"1"
 			"ypos"		"r100"
 		}
 		

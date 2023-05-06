@@ -1,2 +1,1 @@
-event AddToCartBlink
-{}
+event AddToCartBlink {}

@@ -1,2 +1,2 @@
-#base "../../new/_menu1/matchmakingdashboard.res"
+#base "../../../../cfg/jp_mm_dash.txt"
 #base	"_tf2hud/matchmakingdashboard.res"

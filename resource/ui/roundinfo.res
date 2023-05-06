@@ -77,7 +77,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"RoundContinue"
 		"xpos"			"r190"
-		"xpos_lodef"			"r222"
+		//xpos_lodef			"r222"
 		//			"r232"
 		"ypos"			"r40"
 		//			"r64"
