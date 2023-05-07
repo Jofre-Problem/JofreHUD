@@ -213,7 +213,7 @@
 					"xpos"			"rs1"
 					
 					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
+					"wide"			"7" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
@@ -221,7 +221,8 @@
 					"Slider"
 					{
 						"fgcolor_override"	"Primary"
-						"bgcolor_override"	" 0 0 0 0"
+						"alpha" "100"
+						"bgcolor_override"	"Blank"
 					}
 				
 					"UpButton"
@@ -245,10 +246,10 @@
 				"ControlName"				"EditablePanel"
 				"fieldName"					"MenuContainer"
 				"xpos"						"0"
-				"ypos"						"10"
+				"ypos"						"0"
 				"zpos"						"52"
 				"wide"						"460"
-				"tall"						"360"
+				"tall"						"380"
 				"proportionaltoparent"		"1"
 
 				"pin_to_sibling"			"TitleTextPanel"

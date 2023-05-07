@@ -249,7 +249,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"visible_minmode"		"0"
+		//		"0"
 		//"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	

@@ -12,7 +12,7 @@
 				{
 					"Buttons"
 					{
-						"Chatscheme"
+						"Main"
 						{
 							"defaultfgcolor_override"		"Primary"
 							"armedfgcolor_override"			"White"

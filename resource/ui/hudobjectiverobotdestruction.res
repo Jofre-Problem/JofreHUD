@@ -48,13 +48,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
-		"ypos"			"r48"	[$X360]
+		"xpos"			"c-70"
+		"ypos"			"r28"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
-		"wide"			"120"	[$X360]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"

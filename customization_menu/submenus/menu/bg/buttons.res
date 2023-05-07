@@ -1,0 +1,212 @@
+"j"
+{
+	"CustomizationMenu"
+	{
+		"MainPanel"
+		{
+			"MenuContainer"
+			{
+				
+				"BGButtons"
+				{
+	
+					"choosedef"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosedef"
+						"xpos"					"0"
+						"ypos"					"0"
+						"wide"					"470"
+						"tall"					"40"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Default"
+						"font"					"Regular16"
+						"textalignment"			"center"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/lead.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}	
+					"choosecustom1"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom1"
+						"xpos"					"0"
+						"ypos"					"40" 
+						"wide"					"470"
+						"tall"					"180"
+						"textinsety"			"10"
+						"labeltext"				"CS1"
+						"font"					"Regular12"
+						"textalignment"			"north"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/monterrey1.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}	
+		"custombgshowcase"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgshowcase"
+			"xpos"									"80"
+			"ypos"									"60"
+			"wide"									"300"
+			"tall"									"o0.5"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"mouseinputenabled"		"0"
+			"image"									"replay/thumbnails/monterrey1"
+		}								
+					"choosecustom2"
+					{
+						"textinsety"			"10"
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom2"
+						"xpos"					"0"
+						"ypos"					"220"
+						"wide"					"470"
+						"tall"					"180"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Gruvbox"
+						"font"					"Regular12"
+						"textalignment"			"north"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/gruvbox1.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}		
+		"custombgshowcase2"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgshowcase2"
+			"xpos"									"80"
+			"ypos"									"220+20"
+			"wide"									"300"
+			"tall"									"o0.5"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"mouseinputenabled"		"0"
+			"image"									"replay/thumbnails/gruvbox"
+		}	
+							"choosecustom3"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom3"
+						"xpos"					"0"
+						"ypos"					"400" 
+						"wide"					"470"
+						"tall"					"180"
+						"textinsety"			"10"
+						"labeltext"				"Danganronpa"
+						"font"					"Regular12"
+						"textalignment"			"north"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/danganronpa.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}	
+		"custombgshowcase3"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgshowcase3"
+			"xpos"									"80"
+			"ypos"									"400+20"
+			"wide"									"300"
+			"tall"									"o0.5"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"mouseinputenabled"		"0"
+			"image"									"replay/thumbnails/danganronpa"
+		}	
+							"choosecustom4"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom4"
+						"xpos"					"0"
+						"ypos"					"400+180" 
+						"wide"					"470"
+						"tall"					"180"
+						"textinsety"			"10"
+						"labeltext"				"Abstract"
+						"font"					"Regular12"
+						"textalignment"			"north"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/abstract.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}	
+		"custombgshowcase4"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgshowcase4"
+			"xpos"									"80"
+			"ypos"									"400+180+20"
+			"wide"									"300"
+			"tall"									"o0.5"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"mouseinputenabled"		"0"
+			"image"									"replay/thumbnails/abstract"
+		}			
+
+							"choosecustom5"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom5"
+						"xpos"					"0"
+						"ypos"					"400+180+180" 
+						"wide"					"470"
+						"tall"					"180"
+						"textinsety"			"10"
+						"labeltext"				"Beach"
+						"font"					"Regular12"
+						"textalignment"			"north"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/beach.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}	
+		"custombgshowcase5"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"custombgshowcase5"
+			"xpos"									"80"
+			"ypos"									"400+180+180+20"
+			"wide"									"300"
+			"tall"									"o0.5"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"mouseinputenabled"		"0"
+			"image"									"replay/thumbnails/beach"
+		}																																																													
+				}
+			}
+		}
+	}
+}

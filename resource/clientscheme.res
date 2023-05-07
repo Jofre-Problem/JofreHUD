@@ -8,6 +8,7 @@
 #base "scheme/colors.res"
 #base "scheme/crosshairs.res"
 #base "scheme/fonts_main.res"
+#base "scheme/fonts_sec.res"
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
 #base "scheme/borders.res"

@@ -11,7 +11,7 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"InGameUI"
 					"xpos"					"0"
-					"ypos"					"180+60+60"
+					"ypos"					"180+60+80"
 					"zpos"					"50"
 					"wide"					"f0"
 					"tall"					"240"	//change

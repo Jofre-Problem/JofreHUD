@@ -173,9 +173,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"//"c106"
-		//"xpos_minmode""c106-62"
+		////"c106-62"
 		"ypos"			"0"//"325"
-		//"ypos_minmode""325+28"			
+		////"325+28"			
 		"zpos"			"0"
 		"wide"			"f0"//"124"
 		"tall"			"f0"//36"
@@ -183,9 +183,9 @@
 	HudMedicCharge
 	{
 		"xpos"			"c106"
-		//"xpos_minmode""c106-62"
+		////"c106-62"
 		"ypos"			"325"
-		//"ypos_minmode""325+28"
+		////"325+28"
 		"zpos"			"0"
 		"wide"			"124"
 		"tall"			"36"
@@ -197,7 +197,7 @@
 	"ypos"			"0"
 		"zpos"			"1"			\\ draw in front of ammo
 		"wide"			"f0"
-		//"wide_minmode"	"f0"
+		////	"f0"
 		"tall"			"f0"
 	}	
 	
@@ -576,7 +576,7 @@
 		"enabled"				"1"
 		"xpos"					"r150"
 		"ypos"					"r75"
-		////"ypos_minmode"		"r45"
+		//////		"r45"
 		"wide"					"150"
 		"tall"					"25"
 	}

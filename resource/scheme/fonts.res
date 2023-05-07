@@ -122,31 +122,6 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-	
-
-
-
-	
-		"VerdanaMenu"										//Create Server Button
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-
-		"VerdanaSmallest"									//Match Status Names
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"6"
-				"antialias" 								"1"
-			}
-		}
-
 
 		"Size 7"
 		{
@@ -261,26 +236,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Size 40"
-		{
-			"1"
-			{
-				"name"	"Segoe UI"
-				"tall"	"40"
-				//
-				"antialias"	"1"
-			}
-		}
-		"Size 44"
-		{
-			"1"
-			{
-				"name"	"Segoe UI"
-				"tall"	"44"
-				//
-				"antialias"	"1"
-			}
-		}
 
 		"Size 8 Shadow"
 		{
@@ -337,17 +292,6 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		"Size 44 Shadow"
-		{
-			"1"
-			{
-				"name"	"Segoe UI"
-				"tall"	"44"
-				//
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-		}
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -358,6 +302,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}		
+
 	}
 
 

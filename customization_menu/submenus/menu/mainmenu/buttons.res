@@ -175,7 +175,7 @@
 						"labeltext"				"Rain"
 						"font"					"Regular12"
 						"textalignment"			"center"
-						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_particle_rain.txt;con_logfile cfg/jp_particle_rain.txt; echo #base ../custom/jofrehud-main/resource/ui/ui2/screenrain.res; con_logfile ."
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_particle_rain.txt;con_logfile cfg/jp_particle_rain.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/particle/rain.res; con_logfile ."
 						"actionsignallevel"		"5" 
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"
@@ -183,7 +183,49 @@
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
 
-					}			
+					}	
+					"ParticleSnow"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"ParticleSnow"
+						"xpos"					"80"
+						"ypos"					"80"
+						"wide"					"40"
+						"tall"					"20"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Snow"
+						"font"					"Regular12"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_particle_rain.txt;con_logfile cfg/jp_particle_rain.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/particle/festive.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}		
+					"ParticleSpook"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"ParticleSpook"
+						"xpos"					"120"
+						"ypos"					"80"
+						"wide"					"40"
+						"tall"					"20"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Spook"
+						"font"					"Regular12"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_particle_rain.txt;con_logfile cfg/jp_particle_rain.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/particle/spooky.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}												
 				"Layout"
 					{
 						"ControlName"	"CExLabel"
@@ -269,10 +311,10 @@
 						"wide"					"40"
 						"tall"					"20"
 						"proportionaltoparent"	"1"
-						"labeltext"				"Leads BG"
+						"labeltext"				"Lead"
 						"font"					"Regular12"
 						"textalignment"			"center"
-"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/resource/ui/ui2/lead_bg.res; con_logfile ."
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/lead.res; con_logfile ."
 						"actionsignallevel"		"5" 
 						"actionsignallevel"		"5" 
 						"paintbackground"		"0"
@@ -281,7 +323,51 @@
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
 
-					}																																						
+					}	
+					"choosecustom1"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom1"
+						"xpos"					"40"
+						"ypos"					"160"
+						"wide"					"40"
+						"tall"					"20"
+						"proportionaltoparent"	"1"
+						"labeltext"				"CS1"
+						"font"					"Regular12"
+						"textalignment"			"center"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/monterrey1.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}		
+					"choosecustom2"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"choosecustom2"
+						"xpos"					"80"
+						"ypos"					"160"
+						"wide"					"40"
+						"tall"					"20"
+						"proportionaltoparent"	"1"
+						"labeltext"				"CS2"
+						"font"					"Regular12"
+						"textalignment"			"center"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/gruvbox1.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}																																															
 				}
 			}
 		}
