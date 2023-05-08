@@ -462,7 +462,37 @@ Scheme
 				"tall" "20"
 				"antialias"	"1"
 			}
-		}			
+		}	
+		"CustomNotoMonoSmall"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomNotoMonoMedium"
+		{
+			"1"
+			{
+				"name" "CustomNotoMono"
+				"tall" "12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CustomVerdanaSmall"
+		{
+			"1"
+			{
+				"name" "Verdana"
+				"tall" "7"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}				
 	}
 	CustomFontFiles
 	{
@@ -693,7 +723,44 @@ Scheme
 		{
 			"font" "fonts/Blank.otf"
 			"name" "Blank"
-		}							
+		}
+		"Bot Detector Font" 
+		{
+			"font" "fonts/CustomNotoMono.ttf"
+			"name" "CustomNotoMono"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+		}									
 	}
 }
 	

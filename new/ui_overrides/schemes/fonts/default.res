@@ -8,8 +8,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -31,8 +31,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 				"yres"	"480 599"
 			}
@@ -40,8 +40,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"32"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 				"yres"	"600 767"
 			}
@@ -49,8 +49,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"44"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 				"yres"	"768 1023"
 			}
@@ -58,8 +58,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"48"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 				"yres"	"1024 1199"
 			}
@@ -67,8 +67,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"52"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 				"yres"	"1200 6000"
 			}
@@ -80,8 +80,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"35"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -92,8 +92,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"36"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -103,8 +103,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"30"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -114,8 +114,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -125,8 +125,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -136,8 +136,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -147,8 +147,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -158,8 +158,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -169,8 +169,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -180,8 +180,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"16"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -191,8 +191,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -202,8 +202,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"11"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -213,8 +213,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"11"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -224,8 +224,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -235,8 +235,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"0"
-				"additive"	"0"
+				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -246,8 +246,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"0"
-				"additive"	"0"
+				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -257,8 +257,8 @@ Scheme
 			{
 				"name"	"Verdana"
 				"tall"	"6"
-				"weight"	"0"
-				"additive"	"0"
+				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -268,8 +268,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -279,7 +279,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"15"
-				"weight"	"700"
+				////"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 599"
 				"range"	"0x0000 0x017F"
@@ -289,7 +289,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"15"
-				"weight"	"700"
+				////"weight"	"700"
 				"antialias"	"1"
 				"yres"	"600 767"
 				"range"	"0x0000 0x017F"
@@ -299,7 +299,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"900"
+				////"weight"	"900"
 				"antialias"	"1"
 				"yres"	"768 1023"
 				"range"	"0x0000 0x017F"
@@ -308,7 +308,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"21"
-				"weight"	"900"
+				////"weight"	"900"
 				"antialias"	"1"
 				"yres"	"1024 1199"
 				"range"	"0x0000 0x017F"
@@ -317,7 +317,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"1000"
+				////"weight"	"1000"
 				"antialias"	"1"
 				"yres"	"1200 6000"
 				"range"	"0x0000 0x017F"
@@ -327,21 +327,33 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Courier New"
+				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
+				////"weight"	"400"
 				"outline"	"1"
 				"range"	"0x0000 0x017F"
 			}
 		}
+		"BetaFont"
+		{
+			"1"
+			{
+				"name"		"Segoe UI"
+				"tall"		"90"
+				//"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				//
+			}
+		}		
 		TFTypeDeath
 		{
 			"1"
 			{
 				"name"	"tfd" // tfd.ttf
 				"tall"	"28"
-				"weight"	"0"
-				"additive"	"0"
+				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -352,7 +364,7 @@ Scheme
 			 {
 				"name"	"Team Fortress" // tf.ttf
 				"tall"	"28"
-				"weight"	"0"
+				////"weight"	"0"
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -364,7 +376,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"30"
 				"antialias"	"1"
-				"dropshadow"	"1"
+				//	"1"
 			}
 		}
 
@@ -375,7 +387,7 @@ Scheme
 			{
 				"name"	"Marlett"
 				"tall"	"20"
-				"weight"	"0"
+				////"weight"	"0"
 				"symbol"	"1"
 				"range"	"0x0000 0x007F"
 			}
@@ -386,7 +398,7 @@ Scheme
 			{
 				"name"	"Marlett"
 				"tall"	"14"
-				"weight"	"0"
+				////"weight"	"0"
 				"symbol"	"1"
 				"range"	"0x0000 0x007F"
 			}
@@ -398,7 +410,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"antialias"	"1"
-				"weight"	"500"
+				////"weight"	"500"
 			}
 		}
 
@@ -410,7 +422,7 @@ Scheme
 				"tall"	"28"
 				"antialias"	"1"
 				"custom"	"1" 	[$OSX]
-				"weight"	"500"
+				////"weight"	"500"
 			}
 		}
 		"ScoreboardSmallest"		//Player connecting?
@@ -419,8 +431,8 @@ Scheme
 			{
 				"name"	"Verdana"
 				"tall"	"6"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -430,8 +442,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -441,8 +453,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -452,10 +464,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"500"
+				////"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardMedium"
@@ -464,10 +476,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"20"
-				"weight"	"500"
+				////"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardTeamName"
@@ -476,10 +488,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"20"
-				"weight"	"500"
+				////"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardTeamScore"
@@ -489,7 +501,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"52"
 				"range"	"0x0000 0x00FF"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"1 599"
 				"antialias"	"1"
 			}
@@ -498,7 +510,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"72"
 				"range"	"0x0000 0x00FF"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"600 767"
 				"antialias"	"1"
 			}
@@ -507,7 +519,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"100"
 				"range"	"0x0000 0x00FF"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -516,7 +528,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"140"
 				"range"	"0x0000 0x00FF"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -525,7 +537,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"180"
 				"range"	"0x0000 0x00FF"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -536,10 +548,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"36"
-				"weight"	"500"
+				////"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -548,8 +560,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -559,8 +571,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"20"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -570,8 +582,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -580,10 +592,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Arial Black"
+				"name"	"Segoe UI"
 				"tall"	"8"
 				"range"	"0x0000 0x00FF"
-				"weight"	"300"
+				////"weight"	"300"
 				"antialias"	"1"
 			}
 		}
@@ -595,7 +607,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"range"	"0x0000 0x00FF"
-				"weight"	"300"
+				////"weight"	"300"
 				"antialias"	"1"
 			}
 		}
@@ -606,7 +618,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"0"
+				////"weight"	"0"
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -617,8 +629,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -628,7 +640,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"28"
-				"weight"	"500"
+				////"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuSmall
@@ -637,7 +649,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"22"
-				"weight"	"900"
+				////"weight"	"900"
 			}
 		}
 		"ItemFontNameSmallest"
@@ -646,8 +658,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -657,8 +669,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"12"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -668,8 +680,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -679,8 +691,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -690,8 +702,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -701,8 +713,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"11"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -713,8 +725,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -724,7 +736,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"500"
+				////"weight"	"500"
 				"blur"	"3"
 				"additive"	"1"
 				"antialias"	"1"
@@ -736,7 +748,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -747,7 +759,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -758,7 +770,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -768,7 +780,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"blur"	"3"
 				"additive"	"1"
 				"antialias"	"1"
@@ -780,7 +792,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -791,17 +803,17 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -809,8 +821,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -822,17 +834,17 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"800"
+				////"weight"	"800"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"800"
-				"additive"	"0"
+				////"weight"	"800"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -840,8 +852,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"800"
-				"additive"	"0"
+				////"weight"	"800"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -853,8 +865,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"16"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -867,7 +879,7 @@ Scheme
 				"tall"	"20"
 				"antialias"	"1"
 				
-				"weight"	"500"
+				////"weight"	"500"
 			}
 		}
 
@@ -877,17 +889,17 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -895,8 +907,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"22"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -908,31 +920,31 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
+				////"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
-				"italic"	"1"
+				//	"1"
 			}
 			"2"
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
-				"italic"	"1"
+				//	"1"
 			}
 			"3"
 			{
 				"name"	"Segoe UI"
 				"tall"	"22"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
-				"italic"	"1"
+				//	"1"
 			}
 		}
 
@@ -942,17 +954,17 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"800"
+				////"weight"	"800"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"800"
-				"additive"	"0"
+				////"weight"	"800"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -960,8 +972,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"18"
-				"weight"	"800"
-				"additive"	"0"
+				////"weight"	"800"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -973,8 +985,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"13"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -985,8 +997,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"16"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -997,8 +1009,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1009,8 +1021,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1020,7 +1032,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"0"
+				////"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -1031,9 +1043,9 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"8"
-				"weight"	"400"
+				////"weight"	"400"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 
@@ -1041,12 +1053,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Trebuchet MS"
+				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"400"
+				////"weight"	"400"
 				"antialias"	"1"
-				"additive"	"0"
-				"italic"	"1"
+				
+				//	"1"
 			}
 		}
 
@@ -1059,8 +1071,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"11"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1074,8 +1086,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1085,8 +1097,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"24"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1097,8 +1109,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"9"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1109,10 +1121,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"12"
-				"weight"	"500"
-				"additive"	"0"
+				////"weight"	"500"
+				
 				"antialias"	"1"
-				"dropshadow"	"1"
+				//	"1"
 			}
 		}
 
@@ -1122,7 +1134,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"0"
+				////"weight"	"0"
 				"blur"	"3"
 				"additive"	"1"
 				"antialias"	"1"
@@ -1135,8 +1147,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1147,8 +1159,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"10"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1159,8 +1171,8 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"14"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1171,14 +1183,10 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"30"
-				"weight"	"400"
-				"additive"	"0"
+				////"weight"	"400"
+				
 				"antialias"	"1"
 			}
 		}
-	}
-
-	CustomFontFiles
-	{
 	}
 }

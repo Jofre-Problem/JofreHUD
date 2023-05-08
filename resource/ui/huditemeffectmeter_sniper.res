@@ -16,7 +16,7 @@
 		"tall"			"2"
 		"variable"		"progresscount"
 
-		"fgcolor_override"	"Green"
+		"fgcolor_override"	"90 255 2 255"
 		"bgcolor_override" "black"
 	}	
 
