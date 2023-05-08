@@ -1,0 +1,1186 @@
+
+"vox/null"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"vo/null.mp3"
+}
+
+"HudChat.Message"
+{
+	"channel"	"CHAN_STREAM"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"rndwave"	
+	{
+		"wave"	"ui/buttonclick.wav"
+		"wave"	"ui/buttonclickrelease.wav"
+	}
+}
+
+"Hud.Hint"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/hint.wav"
+}
+
+"Hud.ItemAcquired"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/item_acquired.wav"
+}
+
+"Hud.ProjectorScreenUp"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	".65"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/projector_screen_up.wav"
+}
+
+"Hud.ProjectorScreenUpLong"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/projector_screen_up_long.wav"
+}
+
+"Hud.ProjectorScreenDown"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/projector_screen_down.wav"
+}
+
+"Hud.ProjectorMovie"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/projector_movie.wav"
+}
+
+"Hud.EndRoundScored"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/scored.wav"
+}
+
+"Hud.PointCaptured"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/scored.wav"
+}
+
+"Hud.Warning"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"misc/hud_warning.wav"
+}
+
+"Hud.TrainingPointSmall"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/training_point_small.wav"
+}
+
+"Hud.TrainingPointBig"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/training_point_big.wav"
+}
+
+"Hud.TrainingMsgUpdate"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"ui/hint.wav"
+}
+
+"Vote.Created"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"UI/vote_started.wav"
+}
+
+"Vote.Passed"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"UI/vote_success.wav"
+}
+
+"Vote.Failed"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"UI/vote_failure.wav"
+}
+
+"Vote.Cast.Yes"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"UI/vote_yes.wav"
+}
+
+"Vote.Cast.No"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel" 	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"		"UI/vote_no.wav"
+}
+
+"ui.crate_open_short"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/item_open_crate_short.wav"
+}
+
+
+"ui.cratesmash_common"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_common.wav"
+}
+
+"ui.cratesmash_rare_long"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_mid.wav"
+}
+
+"ui.cratesmash_ultrarare_short"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare_short.wav"
+}
+
+"ui.cratesmash_ultrarare_long"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare.wav"
+}
+
+"ui.cratesmash_ultrarare_long_fireworks"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/itemcrate_smash_ultrarare_fireworks.wav"
+}
+
+
+// ------------------------------------------------------------------------------------ //
+// Quests
+// ------------------------------------------------------------------------------------ //
+
+"Quest.Alert"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_alert.wav"
+}
+
+"Quest.StatusTickNovice"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_novice.wav"
+}
+
+"Quest.StatusTickNoviceFriend"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_novice_friend.wav"
+}
+
+"Quest.StatusTickNovicePDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_novice_PDA.wav"
+}
+
+"Quest.StatusTickAdvanced"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_advanced.wav"
+}
+
+"Quest.StatusTickAdvancedFriend"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_advanced_friend.wav"
+}
+
+"Quest.StatusTickAdvancedPDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_advanced_PDA.wav"
+}
+
+"Quest.StatusTickExpert"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_expert.wav"
+}
+
+"Quest.StatusTickExpertFriend"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_expert_friend.wav"
+}
+
+"Quest.StatusTickExpertPDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_70dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_expert_PDA.wav"
+}
+
+"Quest.StatusTickNoviceComplete"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_novice_complete.wav"
+}
+
+"Quest.StatusTickAdvancedComplete"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_advanced_complete.wav"
+} 
+
+"Quest.StatusTickExpertComplete"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_expert_complete.wav"
+} 
+
+"Quest.StatusTickNoviceCompletePDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			")ui/quest_status_tick_novice_complete_pda.wav"
+}
+
+"Quest.StatusTickAdvancedCompletePDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			")ui/quest_status_tick_advanced_complete_pda.wav"
+} 
+
+"Quest.StatusTickExpertCompletePDA"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_85dB"
+	"pitch"			"PITCH_NORM"
+	"wave"			")ui/quest_status_tick_expert_complete_pda.wav"
+} 
+
+"Quest.StatusComplete" 
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_complete.wav"
+}
+
+"Quest.Decode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_decode.wav"
+}
+
+"Quest.FolderOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_folder_open.wav"
+}
+
+"Quest.FolderClose"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_folder_close.wav"
+}
+
+"Quest.TurnInDecode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_turn_in_decode.wav"
+}
+
+"Quest.TurnInAccepted"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_turn_in_accepted.wav"
+}
+
+"Quest.TurnInAcceptedLight"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_turn_in_accepted_light.wav"
+}
+
+"Quest.OperationPassUse"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_operation_pass_use.wav"
+}
+
+"Quest.OperationPassBuy"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_operation_pass_buy.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// Halloween 2015
+// ------------------------------------------------------------------------------------ //
+
+"Quest.StatusTickCompleteHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_complete_halloween.wav"
+}
+
+"Quest.StatusTickBonusCompleteHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_status_tick_bonus_complete_halloween.wav"
+} 
+
+"Quest.DecodeHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_decode_halloween.wav"
+}
+
+"Quest.FolderOpenHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_folder_open_halloween.wav"
+}
+
+"Quest.FolderCloseHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_folder_close_halloween.wav"
+}
+
+"Quest.TurnInDecodeHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_turn_in_decode_halloween.wav"
+}
+
+
+"Quest.TurnInAcceptedHalloween"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/quest_turn_in_accepted_halloween.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// MATCHMAKING
+// ------------------------------------------------------------------------------------ //
+
+"MatchMaking.RoundStart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".4"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_start.wav"
+} 
+
+"MatchMaking.RoundStartCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".4"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_start_casual.wav"
+}
+
+"MatchMaking.MatchEndBlueWinMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_match_end_blue_win_music.wav"
+} 
+
+"MatchMaking.MatchEndRedWinMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_match_end_red_win_music.wav"
+}
+
+"MatchMaking.MatchEndWinMusicCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_match_end_win_music_casual.wav"
+}
+
+"MatchMaking.MatchEndLoseMusicCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_match_end_lose_music_casual.wav"
+}
+
+"MatchMaking.RoundEndBlueWinMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_end_blue_win_music.wav"
+} 
+
+"MatchMaking.RoundEndRedWinMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_end_red_win_music.wav"
+} 
+
+"MatchMaking.RoundEndStalemateMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_end_stalemate_music.wav"
+} 
+ 
+"MatchMaking.DoorOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_door_open.wav"
+} 
+
+"MatchMaking.DoorOpenUnlock"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".15"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_door_open_unlock.wav"
+}
+
+"MatchMaking.DoorClose"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_door_close.wav"
+} 
+
+"MatchMaking.DoorCloseLock"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".15"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_door_close_lock.wav"
+}
+
+"MatchMaking.ScoreboardPanelSlide"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_scoreboardpanel_slide.wav"
+} 
+
+"MatchMaking.None"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".25"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_none.wav"
+}  
+
+"MatchMaking.Bronze"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".25"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_bronze.wav"
+} 
+
+"MatchMaking.Silver"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".25"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_silver.wav"
+} 
+
+"MatchMaking.Gold"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".25"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_gold.wav"
+} 
+
+"MatchMaking.XPChime"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_xp_chime.wav"
+} 
+
+"MatchMaking.RankUp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_up.wav"
+} 
+
+"MatchMaking.RankDownMedalShoot"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_75dB"
+	"volume"		"1"
+	"wave"			")ui/mm_rank_down_medal_shoot.wav"
+}
+
+"MatchMaking.RankDownMedalShootImpact"
+{
+	"channel"			"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"PITCH_NORM"
+	"volume"			"1"
+	"wave"				")ui/mm_rank_down_medal_shoot_impact.wav"
+}
+
+"MatchMaking.MedalSpinHit"
+{
+	"channel"			"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"				"PITCH_NORM"
+	"volume"			"1"
+	"wave"				")ui/mm_medal_spin_hit.wav"
+}
+
+"MatchMaking.RankOneAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_one_achieved.wav"
+} 
+
+"MatchMaking.RankTwoAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_two_achieved.wav"
+} 
+
+"MatchMaking.RankThreeAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_three_achieved.wav"
+} 
+
+"MatchMaking.RankFourAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_four_achieved.wav"
+} 
+
+"MatchMaking.RankFiveAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_five_achieved.wav"
+} 
+
+
+"MatchMaking.LevelOneAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_one_achieved.wav"
+}
+
+"MatchMaking.LevelTwoAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_two_achieved.wav"
+} 
+
+"MatchMaking.LevelThreeAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_three_achieved.wav"
+} 
+
+"MatchMaking.LevelFourAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_four_achieved.wav"
+} 
+
+"MatchMaking.LevelFiveAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_five_achieved.wav"
+} 
+
+"MatchMaking.LevelSixAchieved"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_level_six_achieved.wav"
+}  
+
+"MatchMaking.RankProgressTickUp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".5"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_progress_tick_up.wav"
+} 
+
+"MatchMaking.RankProgressTickDown"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".5"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_rank_progress_tick_down.wav"
+} 
+
+"MatchMaking.MedalClick"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_click.wav"
+} 
+
+"MatchMaking.MedalClickRare"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_click_rare.wav"
+} 
+
+"MatchMaking.MedalClickRareYeti"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"rndwave"	
+	{
+		"wave"	"ui/mm_medal_click_rare_yeti.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti1.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti2.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti3.wav"
+		"wave"	"ui/mm_medal_click_rare_yeti4.wav"
+	}
+} 
+
+"MatchMaking.MedalClickRankUnknown"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_click_rank_unknown.wav"
+}
+
+"MatchMaking.MedalClickRankUnknownRare"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_medal_click_rank_unknown_rare.wav"
+}
+
+
+"MatchMaking.CompBanner"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_comp_banner.wav"
+} 
+
+"MatchMaking.CompBannerUp"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".55"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_comp_banner_up.wav"
+} 
+
+"MatchMaking.CompBannerDown"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".7"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_comp_banner_down.wav"
+}
+
+"MatchMaking.Queue"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NORM"
+
+	"wave"	"ui/mm_queue.wav"
+}
+
+"MatchMaking.Join"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NORM"
+	
+	"wave"	"ui/mm_join.wav"
+}
+
+"DemoSupport.StartRecording"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/demosupport_start.wav"
+}
+
+"DemoSupport.EndRecording"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/demosupport_stop.wav"
+}
+
+"CYOA.MenuMusic"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".75"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	"rndwave"	
+	{
+		"wave"	"ui/cyoa_musicdrunkenpipebomb_tv.mp3"
+		"wave"	"ui/cyoa_musicfasterthanaspeedingbullet_tv.mp3"
+		"wave"	"ui/cyoa_musicintruderalert_tv.mp3"
+		"wave"	"ui/cyoa_musicmedic_tv.mp3"
+		"wave"	"ui/cyoa_musicmoregun_tv.mp3"
+		"wave"	"ui/cyoa_musicmoregun2_tv.mp3"
+		"wave"	"ui/cyoa_musicplayingwithdanger_tv.mp3"
+		"wave"	"ui/cyoa_musicrightbehindyou_tv.mp3"
+		"wave"	"ui/cyoa_musicteamfortress2_tv.mp3"
+	}
+}
+
+"CYOA.PingInProgress"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".75"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_ping_in_progress.wav"
+}
+
+"CYOA.PingAvailable"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".75"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_ping_available.wav"
+}
+
+"CYOA.StaticFade"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_map_open.wav"
+}
+
+"CYOA.MapOpen"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_map_open.wav"
+}
+
+"CYOA.MapClose"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_map_close.wav"
+}
+
+"CYOA.OrangePanelCollapse"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_orange_panel_collapse.wav"
+}
+
+"CYOA.ObjectivePanelExpand"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_objective_panel_expand.wav"
+}
+
+"CYOA.ObjectivePanelCollapse"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_objective_panel_collapse.wav"
+}
+
+"CYOA.NodeLocked"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_node_locked.wav"
+}
+
+"CYOA.NodeAbsent"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_node_absent.wav"
+}
+
+"CYOA.NodeActivate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_node_activate.wav"
+}
+
+"CYOA.NodeDeactivate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_node_deactivate.wav"
+}
+
+"CYOA.KeyGiven"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_key_given.wav"
+}
+
+"CYOA.KeyMinimize"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_key_minimize.wav"
+}
+
+"CYOA.Switch"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_84dB"
+	
+	"wave"	"ui/cyoa_switch.wav"
+}
+
+"Chat.DisplayText"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NORM"
+	
+	"wave"	"ui/chat_display_text.wav"
+}
+
+"UI.WarPaintApplyStart"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/item_warpaint_apply_start.wav"
+}
+
+
+"UI.WarPaintApplyStop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/item_warpaint_apply_stop.wav"
+}
