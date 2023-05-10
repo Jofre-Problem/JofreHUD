@@ -9,14 +9,14 @@
 		"zpos"			"500"
 		"wide"			"400"
 		"tall"			"300"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		
-		"bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"blank"
 		
 		"recipepanel_xpos"		"0"
 		"recipepanel_ydelta"	"4"
@@ -31,7 +31,7 @@
 			"zpos"			"1"
 			"wide"			"300"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"wrap"			"1"
@@ -73,11 +73,11 @@
 		"zpos"			"0"
 		"wide"			"400"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"centerwrap"	"1"
 		"labelText"		"#CraftRecipe"
 		"textAlignment"		"center"
@@ -135,11 +135,11 @@
 			"zpos"			"0"
 			"wide"			"366"
 			"tall"			"0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"centerwrap"	"0"
 			"labelText"		""
 			"textAlignment"		"center"
@@ -176,7 +176,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -199,7 +199,7 @@
 		"zpos"			"10"
 		"wide"			"400"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -216,7 +216,7 @@
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -224,8 +224,8 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

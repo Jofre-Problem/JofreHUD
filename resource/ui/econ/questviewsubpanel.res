@@ -23,15 +23,15 @@
 		"zpos"			"10"
 		"wide"			"80"
 		"tall"			"16"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		"#TF_QuestView_Accept"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -155,7 +155,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"alpha"	"150"
 	}
 
@@ -235,7 +235,7 @@
 		"textinsetx"	"40"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"fgcolor_override"		"QuestMap_ActiveOrange"
 	}
 
@@ -308,15 +308,15 @@
 				"zpos"			"101"
 				"wide"			"f0"	
 				"tall"			"30"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"labeltext"		"#QuestLog_TurnIn"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

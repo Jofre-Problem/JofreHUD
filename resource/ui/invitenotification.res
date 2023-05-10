@@ -120,8 +120,8 @@
 		//	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#Notifications_Accept"
@@ -159,8 +159,8 @@
 		//	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"decline"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%cancel_text%"

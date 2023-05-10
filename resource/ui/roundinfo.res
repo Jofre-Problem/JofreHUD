@@ -39,14 +39,14 @@
 		"zpos"			"4"
 		"wide"			"420"
 		"tall"			"24"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
@@ -60,14 +60,14 @@
 		"zpos"			"4"
 		"wide"			"420"
 		"tall"			"24"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
@@ -85,14 +85,14 @@
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"continue"
 		"default"		"1"
 		"font"			"MenuSmallFont"
@@ -122,7 +122,7 @@
 		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -156,7 +156,7 @@
 		"tall"			"50"
 		//"tall_lodef"			"74"
 		//"tall_lodef"			"65"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

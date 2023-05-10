@@ -8,7 +8,7 @@
 		"ypos"			"90"
 		"wide"			"450"
 		"tall"			"260"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -47,7 +47,7 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"50"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -67,7 +67,7 @@
 		"zpos"			"1"
 		"wide"			"330"
 		"tall"			"170"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,7 +83,7 @@
 		"ypos"			"20"
 		"wide"			"150"
 		"tall"			"150"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,7 +99,7 @@
 		"ypos"			"95"
 		"wide"			"140"
 		"tall"			"140"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -116,7 +116,7 @@
 		"zpos"			"20"
 		"wide"			"175"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"enabled"		"1"
 		//	"0"
@@ -124,8 +124,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -140,7 +140,7 @@
 		"zpos"			"20"
 		"wide"			"175"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -149,8 +149,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"add_stamp_to_cart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/vote_success.wav"
@@ -168,7 +168,7 @@
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

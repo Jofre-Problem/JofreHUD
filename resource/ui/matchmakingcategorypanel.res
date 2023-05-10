@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"black"
 		}
 
 		"BGImage"
@@ -123,7 +123,7 @@
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"blank"
 		}
 
 		"Checkbutton"
@@ -159,8 +159,8 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
@@ -184,8 +184,8 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"

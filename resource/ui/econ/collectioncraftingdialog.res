@@ -219,8 +219,8 @@
 				"labelText"		"#TF_CollectionCrafting_Submit"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"Command"		"doneselectingitems"
 				"sound_depressed"	"UI/buttonclick.wav"

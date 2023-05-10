@@ -47,9 +47,9 @@
 		//		"0"
 		"labelText"		"#GameUI_Gamma"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"GammaEntry"
 	{
@@ -85,9 +85,9 @@
 		//		"3"
 		"labelText"		"#vgui_ok"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"1"
 	}
 	"ImagePanel1"
@@ -122,9 +122,9 @@
 		//		"4"
 		"labelText"		"#vgui_Cancel"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
 	}
@@ -143,8 +143,8 @@
 		//		"0"
 		"labelText"		"#GameUI_GammaInfo"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

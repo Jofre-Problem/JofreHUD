@@ -237,7 +237,7 @@
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -246,8 +246,8 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"cancel"
 		"proportionaltoparent"	"1"
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -270,7 +270,7 @@
 		"wide"			"140"
 		"tall"			"25"
 		"default"		"1"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -279,8 +279,8 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"sound_depressed"	"UI/buttonclick.wav"

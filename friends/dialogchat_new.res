@@ -69,7 +69,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_Chat_Send"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"1"
 		"selected"		"0"
 	}
@@ -90,7 +90,7 @@
 		"labelText"		"#Friends_LastMessageReceived"
 		"textAlignment"		"west"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"NameLabel"
 	{
@@ -108,6 +108,6 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_ChatToPlusStatus"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 }

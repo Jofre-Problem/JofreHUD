@@ -360,7 +360,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-18"
-		"ypos"			"r43"	[$WIN32]
+		"ypos"			"r43"
 		"zpos"			"10"
 		"wide"			"36"
 		"tall"			"36"

@@ -18,7 +18,7 @@
 
 		"tall"		"291"
 
-		"autoResize"		"0"
+		//"autoResize"		"0"
 
 		"pinCorner"		"0"
 
@@ -50,7 +50,7 @@
 
 		"tall"		"208"
 
-		"autoResize"		"0"
+		//"autoResize"		"0"
 
 		"pinCorner"		"0"
 
@@ -78,7 +78,7 @@
 
 		"tall"		"44"
 
-		"autoResize"		"0"
+		//"autoResize"		"0"
 
 		"pinCorner"		"0"
 
@@ -92,9 +92,9 @@
 
 		"textAlignment"		"west"
 
-		"dulltext"		"0"
+		//"dulltext"		"0"
 
-		"brighttext"		"0"
+		//"brighttext"		"0"
 
 		"wrap"		"1"
 

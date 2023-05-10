@@ -23,7 +23,7 @@
 			"zpos"			"2"
 			"wide"			"225"
 			"tall"			"25"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -43,7 +43,7 @@
 			"zpos"			"2"
 			"wide"			"225"
 			"tall"			"55"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -92,7 +92,7 @@
 		"zpos"				"100"
 		"wide"				"130"
 		"tall"				"30"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -102,7 +102,7 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"Command"			"%startcommand%"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -111,8 +111,8 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 }

@@ -18,7 +18,7 @@
 		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		////		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -26,8 +26,8 @@
 		"labelText"		"#TF_MvM_LearnMore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"learn_more"
 
 		"NavUp"			"PracticeButton"
@@ -47,7 +47,7 @@
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -56,14 +56,9 @@
 		"font"			"HudFontMediumBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"mannup"
-
-		"NavUp"			"Sheet"
-		"NavDown"		"BackButton"
-		"NavLeft"		"Sheet"
-		"NavRight"		"PracticeButton"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -72,9 +67,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 
 	"PracticeButton"
@@ -86,7 +81,7 @@
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -95,8 +90,8 @@
 		"font"			"HudFontMediumBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"practice"
 
 		"NavUp"			"Sheet"
@@ -111,9 +106,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 
 	"PlayWithFriendsExplanation"

@@ -29,8 +29,8 @@
 		//		"0"
 		"labelText"		"Setting up YYY Game with XXX"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"AbortBtn"
 	{
@@ -47,8 +47,8 @@
 		//		"0"
 		"labelText"		"Abort"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 }

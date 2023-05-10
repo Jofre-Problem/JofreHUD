@@ -8,16 +8,16 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"blank"
+		"infocus_bgcolor_override"		"blank"
+		"outoffocus_bgcolor_override"	"blank"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarbgcolor_override"				"Graydark"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -114,7 +114,7 @@
 				"zpos"			"5"
 				"wide"			"100"
 				"tall"			"25"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -122,8 +122,8 @@
 				"labelText"		"#Store_Remove"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -221,7 +221,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"				"Graydark"
 		
 		"HeaderLine"
 		{
@@ -368,7 +368,7 @@
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"110"
-					"bgcolor_override"	"0 0 0 0"	
+					"bgcolor_override"	"blank"	
 					
 					"EstimatedTotalLabel"
 					{
@@ -457,7 +457,7 @@
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -465,8 +465,8 @@
 		"labelText"		"#Store_ContinueShopping"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -482,7 +482,7 @@
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -490,8 +490,8 @@
 		"labelText"		"#Store_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"

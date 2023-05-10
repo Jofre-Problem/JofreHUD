@@ -92,7 +92,7 @@
 		"tall"			"13"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		//"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		"alpha"			"0"
@@ -113,7 +113,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"blank"
 		//"RoundedCorners"	"0"
 		"border"		"QuickplayBorder"
 

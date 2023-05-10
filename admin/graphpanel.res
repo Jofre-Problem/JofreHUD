@@ -45,9 +45,9 @@
 		//		"5"
 		"labelText"		"#Graph_In"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"OutCheck"
@@ -65,9 +65,9 @@
 		//		"6"
 		"labelText"		"#Graph_Out"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"FPSCheck"
@@ -85,9 +85,9 @@
 		//		"8"
 		"labelText"		"#Graph_FPS"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"CPUCheck"
@@ -105,9 +105,9 @@
 		//		"7"
 		"labelText"		"#Graph_CPU"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"PingCheck"
@@ -125,9 +125,9 @@
 		//		"4"
 		"labelText"		"#Graph_Ping"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"PlayersCheck"
@@ -145,9 +145,9 @@
 		//		"3"
 		"labelText"		"#Graph_Players"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"TimeCombo"
@@ -203,9 +203,9 @@
 		//		"0"
 		"labelText"		"#Graph_Total_Players"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"TotalUsersLabel"
 	{
@@ -222,9 +222,9 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"Label3"
 	{
@@ -241,9 +241,9 @@
 		//		"0"
 		"labelText"		"#Graph_Vertical_Units"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"Label4"
 	{
@@ -260,9 +260,9 @@
 		//		"0"
 		"labelText"		"#Graph_Timebase"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"AxisMax"
 	{
@@ -279,9 +279,9 @@
 		//		"0"
 		"labelText"		"100%"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"AxisMid"
 	{
@@ -298,9 +298,9 @@
 		//		"0"
 		"labelText"		"50%"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"AxisMin"
 	{
@@ -317,8 +317,8 @@
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 }

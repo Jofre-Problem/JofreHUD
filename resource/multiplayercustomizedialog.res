@@ -29,8 +29,8 @@
 		//		"0"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"Close"
 		"default"		"0"
 	}
@@ -49,8 +49,8 @@
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"Ok"
 		"default"		"0"
 	}
@@ -69,8 +69,8 @@
 		//		"0"
 		"labelText"		"#GameUI_Advanced"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"Advanced"
 		"default"		"0"
 	}
@@ -89,8 +89,8 @@
 		//		"0"
 		"labelText"		"#GameUI_PlayerName"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"NameEntry"
 	{
@@ -152,8 +152,8 @@
 		//		"0"
 		"labelText"		"#GameUI_HighModels"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"default"		"0"
 	}
 	"Player model"
@@ -241,8 +241,8 @@
 		//		"0"
 		"labelText"		"402"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"topVertLeft"
 	{
@@ -259,8 +259,8 @@
 		//		"0"
 		"labelText"		"296"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -277,8 +277,8 @@
 		//		"0"
 		"labelText"		"296"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -295,7 +295,7 @@
 		//		"0"
 		"labelText"		"296"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 }

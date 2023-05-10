@@ -26,7 +26,7 @@
 		"ypos"		"111"
 		"wide"		"346"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
@@ -34,8 +34,8 @@
 		"labelText"		"#VAC_ConnectionIssuesSupportSite"
 		"textAlignment"		"west"
 		//"dulltext"	"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"URLText"		"#VAC_ConnectionIssuesSupportURL"
 
 	}

@@ -59,10 +59,10 @@
 		//		"0"
 		"labelText"		"Street Level"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"ClipText"
 	{
@@ -79,10 +79,10 @@
 		//		"0"
 		"labelText"		"whee"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"MouseMessageForwardingPanel"
 	{

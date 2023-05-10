@@ -17,7 +17,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		//"dulltext"	"0"
-		"wrap"			"0"
+		
 		"font"			"HudFontSmallest"
 		"selected_fgcolor_override" "255 0 0 255"
 	}

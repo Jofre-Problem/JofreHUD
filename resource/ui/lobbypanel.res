@@ -8,14 +8,14 @@
 		"ypos"			"50"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"Graydark"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -47,7 +47,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"10"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -638,7 +638,7 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"20"
-				"autoResize"	"0"
+				
 				////		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -646,8 +646,8 @@
 				"labelText"		"#TF_Matchmaking_Invite"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"Command"		"invite"
 

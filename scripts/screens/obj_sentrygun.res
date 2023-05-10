@@ -29,7 +29,7 @@
 		//	"0"
 		"labelText"		"No Owner"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"paintBackground" "0"
 	}
 	
@@ -48,7 +48,7 @@
 		//	"0"
 		"labelText"		"Shells:  0 / 0"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"paintBackground" "0"
 	}
 	
@@ -83,7 +83,7 @@
 		//	"0"
 		"labelText"		"Rockets:  0 / 0"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"paintBackground" "0"
 	}
 	
@@ -102,8 +102,8 @@
 		//	"2"
 		"labelText"		"Rotate Left 45"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Default"		"0"
 		"command"		"rotateleft"
 		"paintborder"	"0"
@@ -148,8 +148,8 @@
 		//	"2"
 		"labelText"		"Rotate 180"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Default"		"0"
 		"command"		"rotate180"
 		"paintborder"	"0"
@@ -194,8 +194,8 @@
 		//	"2"
 		"labelText"		"Rotate Right 45"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Default"		"0"
 		"command"		"rotateright"
 		"paintborder"	"0"
@@ -240,7 +240,7 @@
 		//	"0"
 		"labelText"		"Health: 100%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"paintBackground" "0"
 	}
 
@@ -259,8 +259,8 @@
 		//	"2"
 		"labelText"		"Dismantle"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Default"		"0"
 		"command"		"Dismantle"
 		"paintborder"	"0"
@@ -311,7 +311,7 @@
 			//	"0"
 			"labelText"		"Gone in"
 			"textAlignment"	"center"
-			"dulltext"		"0"
+			//"dulltext"		"0"
 			"paintBackground" "0"
 		}
 
@@ -330,7 +330,7 @@
 			//	"0"
 			"labelText"		"5 seconds"
 			"textAlignment"	"center"
-			"dulltext"		"0"
+			//"dulltext"		"0"
 			"paintBackground" "0"
 		}
 
@@ -349,8 +349,8 @@
 			//	"2"
 			"labelText"		"Cancel"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Default"		"0"
 			"command"		"CancelDismantle"
 			"paintborder"	"0"
@@ -401,8 +401,8 @@
 			//	"2"
 			"labelText"		"Buy"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Default"		"0"
 			"command"		"AssumeControl"
 			"paintborder"	"0"

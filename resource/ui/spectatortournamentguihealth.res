@@ -43,21 +43,21 @@
 		"fieldName"		"HealthSpectatorBarBuff"
 		"xpos"			"-148"
 		"ypos"			"-2"
-		"zpos"			"3"
+		"zpos"			"4"
 		"wide"			"6969"
 		"tall"			"f-2"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/white"
+		"drawcolor"	"Positive"
+		"image"		"replay/thumbnails/hp/white_draw"
 		"scaleImage"		"1"
-		"alpha"		"180"
+		"alpha"		"255"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"5"
 		"pin_to_sibling_corner"		"5"
 	}
-
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Size 16"
+		"font"			"Size 16 Uber"
 		"fgcolor"		"GrayDarkest"
 		"proportionaltoparent"		"1"
 	}

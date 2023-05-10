@@ -171,7 +171,7 @@
 					"zpos"		"99"
 					"wide"		"f0"
 					"tall"		"30"
-					"autoResize"		"0"
+					//"autoResize"		"0"
 					//		"0"
 					"visible"		"1"
 					"enabled"		"1"
@@ -250,7 +250,7 @@
 						"zpos"			"10"
 						"wide"			"f0"
 						"tall"			"f0"
-						"autoResize"	"0"
+						
 						"visible"		"1"
 						"enabled"		"1"
 						//	"0"
@@ -261,8 +261,8 @@
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 
 						"sound_depressed"	"UI/buttonclick.wav"
@@ -331,7 +331,7 @@
 						"zpos"			"10"
 						"wide"			"f0"
 						"tall"			"f0"
-						"autoResize"	"0"
+						
 						"visible"		"1"
 						"enabled"		"1"
 						//	"0"
@@ -342,8 +342,8 @@
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 
 						"sound_depressed"	"UI/buttonclick.wav"
@@ -388,8 +388,8 @@
 							"font"			"QuestLargeText"
 							"allcaps"	"1"
 							"textAlignment"	"west"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"paintbackground"	"0"
 						}
 					}
@@ -551,7 +551,7 @@
 					"wide"			"p.42"
 					"tall"			"15"
 					"visible"		"1"
-					"autoResize"	"0"
+					
 					//		"3"
 					"visible"		"1"
 					"enabled"		"1"
@@ -562,8 +562,8 @@
 					"font"			"QuestFlavorText"
 					"allcaps"	"1"
 					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
+					//"dulltext"		"0"
+					
 					"default"		"1"
 					"actionsignallevel" "3"
 
@@ -643,7 +643,7 @@
 						"wide"			"p.77"
 						"tall"			"15"
 						"visible"		"1"
-						"autoResize"	"0"
+						
 						//		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -654,8 +654,8 @@
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 						"actionsignallevel" "4"
 
@@ -683,7 +683,7 @@
 						"wide"			"p.77"
 						"tall"			"15"
 						"visible"		"1"
-						"autoResize"	"0"
+						
 						//		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -694,8 +694,8 @@
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 						"actionsignallevel" "4"
 
@@ -912,7 +912,7 @@
 				"zpos"		"-5"
 				"wide"		"f0"
 				"tall"		"f0"
-				"autoResize"		"0"
+				//"autoResize"		"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -948,7 +948,7 @@
 				"zpos"		"100"
 				"wide"		"f0"
 				"tall"		"f0"
-				"autoResize"		"0"
+				//"autoResize"		"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"

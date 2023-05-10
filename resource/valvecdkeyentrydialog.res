@@ -43,8 +43,8 @@
 		//		"6"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"OK"
 		"Default"		"1"
 	}
@@ -63,8 +63,8 @@
 		//		"7"
 		"labelText"		"#GameUI_Quit"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"Cancel"
 		"Default"		"0"
 	}
@@ -174,6 +174,6 @@
 		"labelText"		"#GameUI_EnterCDKey"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 	}
 }

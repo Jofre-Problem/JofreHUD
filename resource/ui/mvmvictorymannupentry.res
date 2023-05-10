@@ -154,7 +154,7 @@
 			"ypos"		"50"
 			"wide"		"427"
 			"tall"		"225"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -530,7 +530,7 @@
 		"zpos"			"128"		
 		"wide"			"300"
 		"tall"			"280"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

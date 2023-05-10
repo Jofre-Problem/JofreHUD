@@ -61,7 +61,7 @@
 			"wide"			"f25"
 			"tall"			"1"
 			"proportionaltoparent" "1"
-			"bgcolor_override"	"255 255 255 255"
+			"bgcolor_override"	"white"
 			"mouseinputenabled"	"0"
 		}
 

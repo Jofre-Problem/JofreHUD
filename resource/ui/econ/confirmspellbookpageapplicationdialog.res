@@ -9,7 +9,7 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"blank"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
@@ -44,7 +44,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -228,7 +228,7 @@
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -236,8 +236,8 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -253,7 +253,7 @@
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -261,8 +261,8 @@
 		"labelText"		"#CraftNameConfirm"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"

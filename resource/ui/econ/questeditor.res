@@ -33,7 +33,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"1"
 			"visible"		"1"
 			"enabled"		"1"
@@ -43,8 +43,8 @@
 			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"Command"		"open_edit_context"
 			"proportionaltoparent"	"1"
@@ -109,7 +109,7 @@
 			"proportionaltoparent"	"1"
 			"autoresize"		"2"
 
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"black"
 			
 			"ScrollBar"
 			{
@@ -185,7 +185,7 @@
 			"proportionaltoparent"	"1"
 			"autoresize"		"2"
 
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"black"
 			
 			"ScrollBar"
 			{

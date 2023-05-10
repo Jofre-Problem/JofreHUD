@@ -30,7 +30,7 @@
 			"labelText"		"Compile Output"
 			"textAlignment"	"west"
 			"dulltext"		"1"
-			"brighttext"	"0"
+			
 		}
 
 		"CompileOutput"

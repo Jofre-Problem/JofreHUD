@@ -8,16 +8,16 @@
 		"ypos"			"40"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
 		
 		"item_xpos"		"190"
 		"item_ypos"		"40"
@@ -213,7 +213,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -233,7 +233,7 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -241,8 +241,8 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -276,7 +276,7 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -284,8 +284,8 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -300,7 +300,7 @@
 		"zpos"			"-11"
 		"wide"			"110"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -315,7 +315,7 @@
 			"zpos"			"1"
 			"wide"			"110"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -323,8 +323,8 @@
 			"labelText"		"#Store_PreviewItem"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"Command"		"show_preview"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -344,7 +344,7 @@
 		"zpos"			"-11"
 		"wide"			"110"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -359,7 +359,7 @@
 			"zpos"			"1"
 			"wide"			"110"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -367,8 +367,8 @@
 			"labelText"		"#Store_DetailsItem"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"Command"		"show_details"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -435,7 +435,7 @@
 		"zpos"			"25"
 		"wide"			"165"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -450,7 +450,7 @@
 			"zpos"			"1"
 			"wide"			"165"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -458,8 +458,8 @@
 			"labelText"		"#Store_AddToCart"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"Command"		"addtocart"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -497,7 +497,7 @@
 		"zpos"			"5"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -505,8 +505,8 @@
 		"labelText"		"#Store_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -575,7 +575,7 @@
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -584,8 +584,8 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -600,7 +600,7 @@
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -608,8 +608,8 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -650,12 +650,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -669,12 +669,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"85"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -686,7 +686,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -694,8 +694,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -703,9 +703,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -736,7 +736,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -751,7 +751,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -759,8 +759,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -768,9 +768,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -825,12 +825,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -844,12 +844,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"85"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -861,7 +861,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -869,8 +869,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -878,9 +878,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -908,7 +908,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -916,8 +916,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -925,9 +925,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -958,7 +958,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -973,7 +973,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -981,8 +981,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -990,9 +990,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1047,12 +1047,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -1066,12 +1066,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -1083,7 +1083,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1091,8 +1091,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1100,9 +1100,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1130,7 +1130,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1138,8 +1138,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1147,9 +1147,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1177,7 +1177,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1185,8 +1185,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1194,9 +1194,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1227,7 +1227,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1269,12 +1269,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -1288,12 +1288,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -1305,7 +1305,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1313,8 +1313,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1322,9 +1322,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1352,7 +1352,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1360,8 +1360,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1369,9 +1369,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1399,7 +1399,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1407,8 +1407,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1416,9 +1416,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1449,7 +1449,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1491,12 +1491,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -1510,12 +1510,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -1527,7 +1527,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1535,8 +1535,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1544,9 +1544,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1574,7 +1574,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1582,8 +1582,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1591,9 +1591,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1621,7 +1621,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1629,8 +1629,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1638,9 +1638,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1671,7 +1671,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1713,12 +1713,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -1732,12 +1732,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -1749,7 +1749,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1757,8 +1757,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1766,9 +1766,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1796,7 +1796,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1804,8 +1804,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1813,9 +1813,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1843,7 +1843,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1851,8 +1851,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1860,9 +1860,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1893,7 +1893,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1935,12 +1935,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -1954,12 +1954,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -1971,7 +1971,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1979,8 +1979,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1988,9 +1988,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2018,7 +2018,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2026,8 +2026,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2035,9 +2035,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2065,7 +2065,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2073,8 +2073,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2082,9 +2082,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2115,7 +2115,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2157,12 +2157,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -2176,12 +2176,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -2193,7 +2193,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2201,8 +2201,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2210,9 +2210,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2240,7 +2240,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2248,8 +2248,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2257,9 +2257,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2287,7 +2287,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2295,8 +2295,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2304,9 +2304,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2337,7 +2337,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2379,12 +2379,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -2398,12 +2398,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -2415,7 +2415,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2423,8 +2423,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2432,9 +2432,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2462,7 +2462,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2470,8 +2470,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2479,9 +2479,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2509,7 +2509,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2517,8 +2517,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2526,9 +2526,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2559,7 +2559,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2600,12 +2600,12 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"TextLabel"
@@ -2619,12 +2619,12 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"135"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "Graydark"
 		}
 		
 		"CloseButton"
@@ -2636,7 +2636,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2644,8 +2644,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2653,9 +2653,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2683,7 +2683,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -2691,8 +2691,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -2700,9 +2700,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2734,7 +2734,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"

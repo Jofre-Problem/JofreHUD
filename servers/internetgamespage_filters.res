@@ -78,7 +78,7 @@
 		"ypos"		"150"
 		"wide"		"50"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -87,7 +87,7 @@
 		"labelText"		"¦ Game"
 		"font"	"Productv2_16"
 		"textAlignment"		"east"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"LocationFilterLabel"
 	{
@@ -97,7 +97,7 @@
 		"ypos"		"180"
 		"wide"		"72"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -106,7 +106,7 @@
 		"labelText"		"£ Location"
 		"textAlignment"		"east"
 		"font"	"Productv2_16"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"MapFilterLabel"
 	{
@@ -116,7 +116,7 @@
 		"ypos"		"180"
 		"wide"		"44"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -125,7 +125,7 @@
 		"labelText"		"¢ Map"
 		"textAlignment"		"east"
 		"font"	"Productv2_16"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"MaxPlayerFilterLabel"
 	{
@@ -135,7 +135,7 @@
 		"ypos"		"210"
 		"wide"		"144"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -144,7 +144,7 @@
 		"labelText"		"¡ Max Players"
 		"textAlignment"		"east"
 		"font"	"Productv2_16"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"PingFilterLabel"
 	{
@@ -154,7 +154,7 @@
 		"ypos"		"150"
 		"wide"		"72"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -163,7 +163,7 @@
 				"labelText"		"¤ Latency"
 		"textAlignment"		"east"
 		"font"	"Productv2_16"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"SecureFilterLabel"
 	{
@@ -173,7 +173,7 @@
 		"ypos"		"210"
 		"wide"		"72"
 		"tall"		"24"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"PinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -182,6 +182,6 @@
 		"font" "Productv2_16"
 		"labelText"		"§ VAC"
 		"textAlignment"		"east"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 }

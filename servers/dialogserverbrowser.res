@@ -8,7 +8,7 @@
 		"ypos"		"20"
 		"wide"		"604"
 		"tall"		"384"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -42,7 +42,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"zpos"	"1"
 	}
 }

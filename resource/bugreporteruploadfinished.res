@@ -31,9 +31,9 @@
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"1"
 	}
@@ -53,7 +53,7 @@
 		"labelText"		"#GameUI_Bug_Successful"
 		"textAlignment"		"center"
 		"dulltext"		"1"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

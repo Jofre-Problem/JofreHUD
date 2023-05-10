@@ -1,15 +1,3 @@
-///////////////////////////////////////////////////////////
-// Object Control Panel scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-// hit ctrl-alt-shift-R in the app to reload this file
-//
-///////////////////////////////////////////////////////////
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -261,15 +249,5 @@ Scheme
 				//	"0x0000 0x007F"	//	Basic Latin
 			}
 		}
-	}
-
-	//
-	//////////////////// BORDERS //////////////////////////////
-	//
-	// describes all the border types
-	Borders
-	{
-
-		
 	}
 }

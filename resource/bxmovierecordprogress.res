@@ -31,9 +31,9 @@
 		//		"0"
 		"labelText"		"Percent Complete:  40%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"TimeRemainingLabel"
 	{
@@ -50,9 +50,9 @@
 		//		"0"
 		"labelText"		"Time Remaining:    63 seconds"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"CancelButton"
 	{
@@ -69,9 +69,9 @@
 		//		"0"
 		"labelText"		"Cancel"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"cancel"
 		"Default"		"0"
 	}

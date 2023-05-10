@@ -8,7 +8,7 @@
 		"ypos"			"c-75"
 		"wide"			"320"
 		"tall"			"150"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -29,11 +29,11 @@
 		"zpos"			"1"
 		"wide"			"320"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 	}
 	
 	"URLInput"
@@ -44,13 +44,13 @@
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
-		"wrap"			"0"
+		
 		"xpos"			"60"
 		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -67,18 +67,18 @@
 		"ControlName"	"ComboBox"
 		"fieldName"		"CategoryCombo"
 		"textAlignment"	"west"
-		"wrap"			"0"
+		
 		"xpos"			"60"
 		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		//	"10"
 		"editable"		"0"
 		"fgcolor_override"		"0 0 0 255"
@@ -95,7 +95,7 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -104,7 +104,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"brighttext"	"1"
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -120,7 +120,7 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -129,7 +129,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"brighttext"	"1"
 		"Command"		"rules"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -145,7 +145,7 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -154,8 +154,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"submit"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

@@ -7,7 +7,7 @@
 		// Auto-centered by GenericConfirmDialog
 		"wide"			"564"
 		"tall"			"387" // Bottom of confirm button + 10 margin
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -31,7 +31,7 @@
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"14"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,7 +52,7 @@
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"301" // Size 11 font - 27 rows & change
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -71,7 +71,7 @@
 		"wide"			"150"
 		"tall"			"25"
 		"default"		"1"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -80,8 +80,8 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"show_later"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -104,7 +104,7 @@
 		"wide"			"150"
 		"tall"			"25"
 		"default"		"1"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -113,8 +113,8 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"acknowledge"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

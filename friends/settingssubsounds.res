@@ -16,7 +16,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenFriendJoins"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
 	}
@@ -36,7 +36,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenFriendComesOnline"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
 	}
@@ -56,7 +56,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenReceiveAMessage"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
 	}

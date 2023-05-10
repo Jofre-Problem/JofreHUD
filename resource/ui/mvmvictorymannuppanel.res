@@ -30,7 +30,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -50,15 +50,15 @@
 		"zpos"			"100"
 		"wide"			"106"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -89,7 +89,7 @@
 		"zpos"			"-8"
 		"wide"			"f0"
 		"tall"			"320"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -157,7 +157,7 @@
 			"zpos"			"-5"
 			"wide"			"63"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
@@ -175,7 +175,7 @@
 			"zpos"			"-5"
 			"wide"			"62"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -194,7 +194,7 @@
 			"zpos"			"-5"
 			"wide"			"62"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -213,7 +213,7 @@
 			"zpos"			"-5"
 			"wide"			"62"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -232,7 +232,7 @@
 			"zpos"			"-5"
 			"wide"			"62"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -251,7 +251,7 @@
 			"zpos"			"-5"
 			"wide"			"62"
 			"tall"			"f0"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"

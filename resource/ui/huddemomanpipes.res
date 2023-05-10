@@ -20,7 +20,7 @@
 
 		"tall"		"3"	
 		////	"3"			
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"pinCorner"	"0"
 		"visible"	"1"
 		"enabled"	"1"
@@ -68,7 +68,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			//"dulltext"	"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 			"font"			"AmmoPipesOut3"
 			"fgcolor"		"Black"
 		}
@@ -89,7 +89,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			//"dulltext"	"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 			"font"			"AmmoPipesOut2"
 			"fgcolor"		"110 255 25 255"
 		}
@@ -108,7 +108,7 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			//"dulltext"	"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 			"font"			"AmmoPipesOutS"
 			"fgcolor"		"White"
 		}

@@ -8,7 +8,7 @@
 		"ypos"			"280"
 		"wide"			"275"
 		"tall"			"160"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"Graydark"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
@@ -74,7 +74,7 @@
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -92,7 +92,7 @@
 		"zpos"			"1"
 		"wide"			"140"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -154,7 +154,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override" "200 80 60 255"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"blank"
 		}
 	}
 	
@@ -170,7 +170,7 @@
 		"zpos"			"10"
 		"wide"			"220"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -186,7 +186,7 @@
 		"zpos"			"20"
 		"wide"			"25"
 		"tall"			"120"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

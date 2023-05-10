@@ -8,16 +8,16 @@
 		"ypos"			"40"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
 		
 		"item_panels"			"0"
 		
@@ -104,7 +104,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -263,7 +263,7 @@
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -271,8 +271,8 @@
 		"labelText"		"#Store_StartShopping"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"startshopping"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -559,7 +559,7 @@
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -568,8 +568,8 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

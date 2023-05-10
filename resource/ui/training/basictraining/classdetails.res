@@ -8,7 +8,7 @@
 		"ypos"				"220"
 		"wide"				"160"
 		"tall"				"35"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -18,7 +18,7 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"Command"			"startbasictraining"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -27,9 +27,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 	
 	"OverlayPanel"
@@ -40,7 +40,7 @@
 		"ypos"				"0"
 		"wide"				"300"
 		"tall"				"200"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"

@@ -69,8 +69,8 @@
 				
 				"font"			"HudFontSmall"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"		"0"
+				//
 				"default"		"0"
 				"labeltext"		""
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -119,8 +119,8 @@
 				
 				"font"			"HudFontSmall"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"		"0"
+				//
 				"default"		"0"
 				"labeltext"		""
 				"sound_depressed"	"UI/buttonclick.wav"

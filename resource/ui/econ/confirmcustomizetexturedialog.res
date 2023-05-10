@@ -361,7 +361,7 @@
 					"font"			"HudFontSmall"
 
 					//"fgcolor_override"	"235 226 202 255"
-					"bgcolor_override"	"0 0 0 255"
+					"bgcolor_override"	"black"
 					//"disabledFgColor_override" "235 226 202 255"
 					"disabledBgColor_override" "0 0 0 255"
 					"selectionColor_override" "0 0 0 255"
@@ -472,7 +472,7 @@
 					"visible"	"0"
 
 					//"fgcolor_override"	"235 226 202 255"
-					"bgcolor_override"	"0 0 0 255"
+					"bgcolor_override"	"black"
 					//"disabledFgColor_override" "235 226 202 255"
 					"disabledBgColor_override" "0 0 0 255"
 					"selectionColor_override" "0 0 0 255"
@@ -601,7 +601,7 @@
 						"font"			"HudFontSmall"
 
 						//"fgcolor_override"	"235 226 202 255"
-						"bgcolor_override"	"0 0 0 255"
+						"bgcolor_override"	"black"
 						//"disabledFgColor_override" "235 226 202 255"
 						"disabledBgColor_override" "0 0 0 255"
 						"selectionColor_override" "0 0 0 255"

@@ -31,9 +31,9 @@
 		//		"0"
 		"labelText"		"Rotation Axis:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"AxisText"
 	{
@@ -69,9 +69,9 @@
 		//		"0"
 		"labelText"		"Time:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"Time0Text"
 	{
@@ -107,9 +107,9 @@
 		//		"0"
 		"labelText"		"Generate"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"GenerateLog"
 		"Default"		"0"
 	}
@@ -128,9 +128,9 @@
 		//		"0"
 		"labelText"		"Cancel"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"CancelLogGeneration"
 		"Default"		"0"
 	}
@@ -206,9 +206,9 @@
 		//		"0"
 		"labelText"		"Rotation Speed:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"BuildModeDialog"
 	{

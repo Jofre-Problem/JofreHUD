@@ -486,7 +486,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
@@ -562,7 +562,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
 		"proportionaltoparent"	"1"
@@ -598,7 +598,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
 		"proportionaltoparent"	"1"
@@ -674,7 +674,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
 		
@@ -709,7 +709,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
 		
@@ -745,7 +745,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%winconditions%"
 		"textAlignment"		"north-west"
 		
@@ -823,7 +823,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
@@ -873,7 +873,7 @@
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
@@ -1003,7 +1003,7 @@
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
@@ -1037,7 +1037,7 @@
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"Black"

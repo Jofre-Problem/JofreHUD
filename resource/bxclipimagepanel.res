@@ -59,10 +59,10 @@
 		//		"0"
 		"labelText"		"foo"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"ClipCamera"
 	{
@@ -79,10 +79,10 @@
 		//		"0"
 		"labelText"		"cam: cam1"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"ClipDuration"
 	{
@@ -99,10 +99,10 @@
 		//		"0"
 		"labelText"		"5.200 s."
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"MouseMessageForwardingPanel"
 	{

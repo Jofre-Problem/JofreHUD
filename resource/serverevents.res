@@ -67,6 +67,10 @@
 		"by"		"string"	// removed by...
 	}
 	
+
+
+
+	
 	"player_connect"			// a new client connected - we should only really have server listeners for this, due to the IP being exposed
 	{
 		"name"		"string"	// player name		
@@ -94,7 +98,19 @@
 		"networkid"		"string"	// player network (i.e steam) id
 		"bot"			"bool"		// true if player is a AI bot
 	}
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"player_disconnect"			// a client was disconnected
 	{
 		"userid"	"short"		// user ID on server
@@ -115,18 +131,21 @@
 		"text"		"string"	// the say text
 	}
 	
+
+
+	
 	"client_disconnect"			// client side disconnect message
 	{
 		"message"	"string"		// Why are we disconnecting?  This could be a localization token or an English-language string
 	}
 
-	"client_beginconnect"			// client tries to connect to server
-	{
-		"address"	"string"		// Name we used to connect to the server
-		"ip"		"long"
-		"port"		"short"			// server port
-		"source"	"string"		// what caused us to attempt this connection?  (blank for general command line, "serverbrowser", "quickplay", etc)
-	}
+//	"client_beginconnect"			// client tries to connect to server
+//	{
+///		"address"	"string"		// Name we used to connect to the server
+//		"ip"		"long"
+//		"port"		"short"			// server port
+//		"source"	"string"		// what caused us to attempt this connection?  (blank for general command line, "serverbrowser", "quickplay", etc)
+//	}
 
 	"client_connected"			// client has completed the challenge / handshake process and is in SIGNONSTATE_CONNECTED
 	{

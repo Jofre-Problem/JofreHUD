@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"60"
 		"textAlignment"	"center"
-		"wrap"			"0"
+		
 		"font"			"Size 10"
 	}
 

@@ -9,7 +9,7 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"105"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"blank"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
@@ -29,7 +29,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
@@ -94,8 +94,8 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"user_close"
 		"sound_depressed"	"UI/buttonclick.wav"

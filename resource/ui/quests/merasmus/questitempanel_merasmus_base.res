@@ -130,7 +130,7 @@
 					"ypos"		"10"
 					"wide"		"p0.63"
 					"tall"		"30"
-					"autoResize"		"0"
+					//"autoResize"		"0"
 					//		"0"
 					"visible"		"1"
 					"enabled"		"1"
@@ -163,7 +163,7 @@
 					"xpos"			"25"
 					"ypos"			"52"
 					"wide"			"100"
-					"autoResize"	"0"
+					
 					//		"0"
 
 					"SubButton"
@@ -280,7 +280,7 @@
 						"zpos"			"10"
 						"wide"			"f0"
 						"tall"			"f0"
-						"autoResize"	"0"
+						
 						"visible"		"1"
 						"enabled"		"1"
 						//	"0"
@@ -291,8 +291,8 @@
 						"font"			"QuestLargeText_Merasmus"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 
 						"sound_depressed"	"UI/buttonclick.wav"
@@ -409,7 +409,7 @@
 				"zpos"		"100"
 				"wide"		"f0"
 				"tall"		"f0"
-				"autoResize"		"0"
+				//"autoResize"		"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"

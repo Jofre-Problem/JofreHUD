@@ -31,9 +31,9 @@
 			//		"0"
 			"labelText"		"Source Preset Group:"
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"wrap"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
+			//"wrap"		"0"
 		}
 		"SourcePresetGroup"
 		{
@@ -73,8 +73,8 @@
 			"labelText"		"Ok"
 			"command"		"ok"
 			"textAlignment"		"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
 			"Default"		"1"
 		}
 
@@ -94,8 +94,8 @@
 			"labelText"		"Cancel"
 			"command"		"Cancel"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
 			"Default"		"0"
 		}
 		

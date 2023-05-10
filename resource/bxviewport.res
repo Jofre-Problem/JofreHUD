@@ -90,9 +90,9 @@
 		//		"0"
 		"labelText"		"sequence"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"ActiveCamera"
 	{
@@ -109,9 +109,9 @@
 		//		"0"
 		"labelText"		"camera"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"ActiveClipLabel"
 	{
@@ -128,9 +128,9 @@
 		//		"0"
 		"labelText"		"Active Clip:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"ActiveCameraButton"
 	{
@@ -147,9 +147,9 @@
 		//		"0"
 		"labelText"		"Active Camera:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Command"		"ToggleWorkCamera"
 		"Default"		"1"
 		"selected"		"0"

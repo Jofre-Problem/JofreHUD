@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
   
-		"Next" [$WIN32] 
+		"Next"  
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Next"
@@ -25,23 +25,23 @@
 			"zpos"			"6"
 			"wide"			"150"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_NextTraining"
 			"textAlignment"		"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"wrap"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
+			//"wrap"		"0"
 			"command"		"next"
 			"font"			"MenuSmallFont"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
-		"Quit" [$WIN32] 
+		"Quit"  
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Quit"
@@ -54,23 +54,23 @@
 			"zpos"			"6"
 			"wide"			"150"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_QuitTraining"
 			"textAlignment"		"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"wrap"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
+			//"wrap"		"0"
 			"command"		"quit"
 			"font"			"MenuSmallFont"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
-		"Replay" [$WIN32] 
+		"Replay"  
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"Replay"
@@ -82,14 +82,14 @@
 			"zpos"			"6"
 			"wide"			"150"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Button_ReplayTraining"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"command"		"replay"
 			"font"			"MenuSmallFont"
 			"fgcolor"		"Black"
@@ -110,7 +110,7 @@
 			"tall"			"50"
 			//"tall_lodef"			"74"
 			//"tall_lodef"			"65"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -132,7 +132,7 @@
 			"tall"			"50"
 			//"tall_lodef"			"74"
 			//"tall_lodef"			"65"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -181,7 +181,7 @@
 			"zpos"			"1"
 			"wide"			"400"
 			"tall"			"20"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"

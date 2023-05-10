@@ -2383,7 +2383,7 @@
 				"zpos"			"11"
 				"wide"										"p0.5"
 				"tall"										"25"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"0"
 				//"enabled"		"1"
@@ -2392,7 +2392,7 @@
 				"font"			"ControlPointTimer"
 				"textAlignment"	"center"
 				//"dulltext"	"0"
-				"brighttext"	"0"
+				
 				"default"		"1"
 
 				"labeltext"		"#MMenu_SafeMode_SaveSettings"
@@ -2421,7 +2421,7 @@
 				"zpos"			"11"
 				"wide"										"p0.5"
 				"tall"										"25"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"0"
 				//"enabled"		"1"
@@ -2430,7 +2430,7 @@
 				"font"			"ControlPointTimer"
 				"textAlignment"	"center"
 				//"dulltext"	"0"
-				"brighttext"	"0"
+				
 				"default"		"1"
 
 				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"

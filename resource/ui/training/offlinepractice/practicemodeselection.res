@@ -40,7 +40,7 @@
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -49,8 +49,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -65,7 +65,7 @@
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -74,8 +74,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -96,7 +96,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"83 75 66 255"
 	}
 	
@@ -135,7 +135,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"83 75 66 255"
 	}
 	
@@ -147,7 +147,7 @@
 		"ypos"				"260"
 		"wide"				"130"
 		"tall"				"30"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -157,7 +157,7 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"Command"			"selectcurrentgamemode"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -166,9 +166,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 	
 }

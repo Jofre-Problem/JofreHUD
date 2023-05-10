@@ -9,16 +9,16 @@
 		"zpos"			"10000"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -92,7 +92,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -110,7 +110,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -128,7 +128,7 @@
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"10"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -145,7 +145,7 @@
 		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -160,7 +160,7 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -168,8 +168,8 @@
 		"labelText"		"#NextItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -183,7 +183,7 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -191,8 +191,8 @@
 		"labelText"		"#PreviousItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -207,7 +207,7 @@
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -215,8 +215,8 @@
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"vguicancel"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -231,7 +231,7 @@
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -239,8 +239,8 @@
 		"labelText"		"%loadouttext%"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -255,7 +255,7 @@
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -263,8 +263,8 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"discarditem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -317,7 +317,7 @@
 			"ypos"			"0"
 			"wide"			"80"
 			"tall"			"50"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -338,12 +338,12 @@
 		"zpos"			"5"
 		"wide"			"420"
 		"tall"			"60"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"Graydark"
 	}
 	
 	"ScoreEntry"
@@ -354,7 +354,7 @@
 		"ypos"				"380"
 		"wide"				"200"
 		"tall"				"16"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"0"
 		"enabled"			"0"
@@ -366,7 +366,7 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
 	}

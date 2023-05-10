@@ -29,8 +29,8 @@
 		//		"0"
 		"labelText"		"Setting up YYY Game with XXX"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"BlackTerritoryLabel"
 	{
@@ -47,8 +47,8 @@
 		//		"0"
 		"labelText"		"Black Territory: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"BlackCapturedLabel"
 	{
@@ -65,8 +65,8 @@
 		//		"0"
 		"labelText"		"Black Captured: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"BlackScoreLabel"
 	{
@@ -83,8 +83,8 @@
 		//		"0"
 		"labelText"		"Black Score: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"WhiteTerritoryLabel"
 	{
@@ -101,8 +101,8 @@
 		//		"0"
 		"labelText"		"White Territory: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"WhiteCapturedLabel"
 	{
@@ -119,8 +119,8 @@
 		//		"0"
 		"labelText"		"White Captured: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"WhiteScoreLabel"
 	{
@@ -137,8 +137,8 @@
 		//		"0"
 		"labelText"		"White Score: 0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"CloseWindowBtn"
 	{
@@ -155,8 +155,8 @@
 		//		"0"
 		"labelText"		"Close Game Window"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 	"LeaveWindowBtn"
@@ -174,8 +174,8 @@
 		//		"0"
 		"labelText"		"Keep Game Window"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 }

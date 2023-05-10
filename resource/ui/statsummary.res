@@ -118,7 +118,7 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"blank"
 
 	
 		"Background"
@@ -152,7 +152,7 @@
 				"ypos"			"0"
 				"visible"			"0"
 				"tall"			"0"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				//"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"0"
@@ -173,12 +173,12 @@
 				"zpos"			"40"
 				"wide"			"f0"
 				"tall"			"30"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"centerwrap"	"0"
-				"wrap"			"0"
+				
 			}					
 		}
 	
@@ -190,7 +190,7 @@
 			"ypos"			"125"
 			"wide"			"245"
 			"tall"			"280"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
@@ -211,7 +211,7 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"30"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
@@ -229,11 +229,11 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"275"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"wrap"			"0"
+			
 		}
 
 		"MapLeaderboardTitle"
@@ -248,7 +248,7 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"30"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
@@ -278,7 +278,7 @@
 		"ypos"			"65"
 		"zpos"	"1000"
 		"tall"			"14"
-		////"autoResize"		"0"
+		//////"autoResize"		"0"
 		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"

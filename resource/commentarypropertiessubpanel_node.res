@@ -49,9 +49,9 @@
 		//		"0"
 		"labelText"		"..."
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"Command"	"PickSound"
 	}
@@ -91,9 +91,9 @@
 		//		"0"
 		"labelText"		"Record"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"Speaker"
@@ -151,9 +151,9 @@
 		//		"0"
 		"labelText"		"..."
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"ViewTargetPickerButton"
@@ -171,9 +171,9 @@
 		//		"0"
 		"labelText"		"..."
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"viewposition"
@@ -231,9 +231,9 @@
 		//		"0"
 		"labelText"		"Prevent Movement"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 	}
 	"StartCommands"
@@ -291,10 +291,10 @@
 		//		"0"
 		"labelText"		"Commentary Node Name:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"AudioFileLabel"
 	{
@@ -311,9 +311,9 @@
 		//		"0"
 		"labelText"		"Audio File"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"SpeakerLabel"
 	{
@@ -330,9 +330,9 @@
 		//		"0"
 		"labelText"		"Speaker(s)"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"SynopsisLabel"
 	{
@@ -349,9 +349,9 @@
 		//		"0"
 		"labelText"		"Synopsis (optional)"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"CameraControlLabel"
 	{
@@ -368,10 +368,10 @@
 		//		"0"
 		"labelText"		"Camera Control:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"ViewPositionLabel"
 	{
@@ -388,9 +388,9 @@
 		//		"0"
 		"labelText"		"View Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"ViewTargetLabel"
 	{
@@ -407,9 +407,9 @@
 		//		"0"
 		"labelText"		"View Target"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"OperationsLabel"
 	{
@@ -426,10 +426,10 @@
 		//		"0"
 		"labelText"		"Operations:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"StartCommandsLabel"
 	{
@@ -446,9 +446,9 @@
 		//		"0"
 		"labelText"		"Start Console Commands"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"EndCommandsLabel"
 	{
@@ -465,9 +465,9 @@
 		//		"0"
 		"labelText"		"End Console Commands"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"AudioLabel"
 	{
@@ -484,10 +484,10 @@
 		//		"0"
 		"labelText"		"Audio:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"PositionLabel"
 	{
@@ -504,10 +504,10 @@
 		//		"0"
 		"labelText"		"Location:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"NodePositionLabel"
 	{
@@ -524,9 +524,9 @@
 		//		"0"
 		"labelText"		"Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionX"
 	{
@@ -562,9 +562,9 @@
 		//		"0"
 		"labelText"		"X"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionYLabel"
 	{
@@ -581,9 +581,9 @@
 		//		"0"
 		"labelText"		"Y"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionZLabel"
 	{
@@ -600,9 +600,9 @@
 		//		"0"
 		"labelText"		"Z"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionY"
 	{
@@ -657,9 +657,9 @@
 		//		"0"
 		"labelText"		"Orientation"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"pitch"
 	{
@@ -733,9 +733,9 @@
 		//		"0"
 		"labelText"		"Pitch"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"YawLabel"
 	{
@@ -752,9 +752,9 @@
 		//		"0"
 		"labelText"		"Yaw"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"RollLabel"
 	{
@@ -771,9 +771,9 @@
 		//		"0"
 		"labelText"		"Roll"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"Divider1"
 	{

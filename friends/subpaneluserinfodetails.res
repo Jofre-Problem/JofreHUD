@@ -111,7 +111,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_RemoveUser"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Command"		"RemoveUser"
 		"Default"		"0"
 		"selected"		"0"
@@ -150,7 +150,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_RecentlyUsedNames"
 		"textAlignment"		"north-west"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"FriendNameOld"
 	{

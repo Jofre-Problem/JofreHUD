@@ -26,7 +26,7 @@
 			"zpos"		"10000"
 			"wide"		"f0"
 			"tall"		"f0"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -69,7 +69,7 @@
 				"zpos"			"2"
 				"wide"			"140"
 				"tall"			"60"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -105,7 +105,7 @@
 				"zpos"			"2"
 				"wide"			"200"
 				"tall"			"30"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -130,7 +130,7 @@
 			"zpos"		"-2"
 			"wide"		"f0"
 			"tall"		"f0"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -147,7 +147,7 @@
 			"zpos"		"-1"
 			"wide"		"f0"
 			"tall"		"f0"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -183,7 +183,7 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -191,8 +191,8 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -202,9 +202,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "200 80 60 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"200 80 60 255"
 				"image_armedcolor"	"255 80 60 255"
@@ -233,15 +233,15 @@
 				"zpos"			"1000"
 				"wide"			"o1"
 				"tall"			"88"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"labeltext"		""
 				"sound_depressed"	"ui/cyoa_switch.wav"
@@ -317,15 +317,15 @@
 				"zpos"			"1000"
 				"wide"			"o1.75"
 				"tall"			"43"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"labeltext"		""
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -382,15 +382,15 @@
 				"zpos"			"1000"
 				"wide"			"o1.75"
 				"tall"			"43"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"labeltext"		""
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -430,7 +430,7 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"0"
 				"enabled"		"1"
@@ -438,8 +438,8 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -449,9 +449,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "200 80 60 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -738,8 +738,8 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"west"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"default"		"1"
 							"command"		"endintro"
 							"proportionaltoparent" "1"
@@ -1159,7 +1159,7 @@
 						"visible"	"1"
 						"font"		"QuestMap_Medium"
 						"fgcolor_override"	"75 75 75 255"
-						"bgcolor_override"	"0 0 0 255"
+						"bgcolor_override"	"black"
 						"textAlignment"	"west"
 						"textinsetx"	"5"
 					}
@@ -1314,7 +1314,7 @@
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
 
-						"bgcolor_override"	"0 0 0 255"
+						"bgcolor_override"	"black"
 					}
 
 					"Dimmer"
@@ -1363,7 +1363,7 @@
 						"zpos"			"10"
 						"wide"			"300"
 						"tall"			"14"
-						"autoResize"	"0"
+						
 						//		"0"
 						"visible"		"1"
 						"enabled"		"1"
@@ -1371,8 +1371,8 @@
 						"labeltext"		"#TF_QuestMap_RewardStore_Title"
 						"font"			"QuestLargeText"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"0"
 						"proportionaltoparent" "1"
 						"paintbackground"	"0"
@@ -1387,7 +1387,7 @@
 						"zpos"			"10"
 						"wide"			"f0"
 						"tall"			"14"
-						"autoResize"	"0"
+						
 						//		"0"
 						"visible"		"1"
 						"enabled"		"1"
@@ -1395,8 +1395,8 @@
 						"labeltext"		"#TF_QuestMap_RewardStore_Desc"
 						"font"			"QuestMap_Small"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"0"
 						"proportionaltoparent" "1"
 						"paintbackground"	"0"

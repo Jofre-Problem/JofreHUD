@@ -9,7 +9,7 @@
 		"ypos"					"150"
 		"wide"					"200"
 		"tall"					"200"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override"		"Graydark"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"0"
@@ -28,7 +28,7 @@
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -46,7 +46,7 @@
 		"zpos"			"1"
 		"wide"			"85"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,7 +61,7 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"15"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -93,12 +93,12 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
 	"BotTurntableCheckBox"
@@ -113,12 +113,12 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
 	"BotViewScanCheckBox"
@@ -133,12 +133,12 @@
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
 	
@@ -154,7 +154,7 @@
 		"zpos"			"1"
 		"wide"			"85"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -183,7 +183,7 @@
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -191,8 +191,8 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -207,7 +207,7 @@
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -215,8 +215,8 @@
 		"labelText"		"#IT_Apply"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"ok"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -232,7 +232,7 @@
 		"zpos"			"25"
 		"wide"			"30"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -241,8 +241,8 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

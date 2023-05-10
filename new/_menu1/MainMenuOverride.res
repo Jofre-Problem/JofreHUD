@@ -114,64 +114,6 @@
 		"visible"				"0"
 	}
 
-//	"NotificationNoYet"
-//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "White"
-//	}
-	"Background"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"-2000"
-		"wide"			"f0"
-		"tall"			"f0"
-		
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-
-		if_taller
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-		
-		if_halloween_0
-		{
-			"image"		""
-		}
-		if_halloween_1
-		{
-			"image"		""
-		}
-		if_halloween_2
-		{
-			"image"		""
-		}
-		if_halloween_3
-		{
-			"image"		""
-		}
-		if_halloween_4
-		{	
-			"image"		""
-		}
-		if_halloween_5
-		{	
-			"image"		""
-		}
-		if_fullmoon
-		{
-			"image"		""
-		}
-		if_christmas
-		{
-			"image"		""
-		}			
-	}	
 "RankModelPanel"
 {
 		"xpos"	"999"
@@ -259,7 +201,7 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				//"autoResize"		"0"
+				////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -319,7 +261,7 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				//"autoResize"		"0"
+				////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -376,7 +318,7 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				//"autoResize"		"0"
+				////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -736,10 +678,6 @@
 				"border_default"			"LINE_TOP_3_Primary_0"
 				"border_armed"				"LINE_TOP_0_Primary_0"
 		paintBackground			0
-
-		"navUp"			""
-		"navLeft"		""
-		"navRight"		"BrowseServers"
 		"border_default"	"NoBorder"
 		
 		"image_drawcolor"	"Blank"		
@@ -770,7 +708,7 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 			
 					"defaultFgColor_override" 	"White"

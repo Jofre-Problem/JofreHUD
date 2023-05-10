@@ -31,7 +31,7 @@
 		//		"0"
 	}
 
-	"Skip" [$WIN32] 
+	"Skip"  
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -51,14 +51,14 @@
 		//		"0"
 		"labelText"		"#Button_SkipIntro"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}
 
-	"Continue" [$WIN32] 
+	"Continue"  
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Continue"
@@ -78,14 +78,14 @@
 		//		"0"
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}
 	
-	"Back" [$WIN32] 
+	"Back"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -103,14 +103,14 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"back"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
 
-	"ReplayVideo" [$WIN32] 
+	"ReplayVideo"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
@@ -128,8 +128,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_ReplayIntro"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"replayVideo"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
@@ -175,54 +175,6 @@
 		"end_delay"		"2.0"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			//"320"
-			//"310"
-			"origin_y" "0"
-			"origin_z" "-39"
-			
-			"animation"
-			{
-				"name"			"Up"
-				"sequence"		"screenup"
-			}
-			
-			"animation"
-			{
-				"name"			"UpSlow"
-				"sequence"		"screenup_slow"
-			}
-			
-			"animation"
-			{
-				"name"			"Down"
-				"sequence"		"screendown"
-				"default"		"1"
-			}
-		}
-	}					
 	
 	"VideoCaption"
 	{
@@ -239,9 +191,9 @@
 		"enabled"		"1"
 		"labelText"		" "
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"IntroMenuCaption"
+		//"dulltext"		"0"
+		
+		"font"			"Default"
 		"fgcolor"		"White"
 		"wrap"			"1"
 	}

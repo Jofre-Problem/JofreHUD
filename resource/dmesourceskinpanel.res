@@ -16,7 +16,7 @@
 		"labelText"		"Skin Name"
 		"textAlignment"	"west"
 		"dulltext"		"1"
-		"brighttext"	"0"
+		
 	}
 
 	"SkinName"
@@ -56,7 +56,7 @@
 		"labelText"		"Scale"
 		"textAlignment"	"west"
 		"dulltext"		"1"
-		"brighttext"	"0"
+		
 	}
 
 	"Scale"
@@ -96,8 +96,8 @@
 		//	"1"
 		"labelText"		"Flip Triangles"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 }

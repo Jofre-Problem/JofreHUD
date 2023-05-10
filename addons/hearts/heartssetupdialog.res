@@ -57,8 +57,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_StartGame"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 	"Divider0"
@@ -381,8 +381,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Send"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}	
 	"LastMessageLabel"
@@ -401,7 +401,7 @@
 		"labelText"		"Last message received at:"
 		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 	}
 	
 }

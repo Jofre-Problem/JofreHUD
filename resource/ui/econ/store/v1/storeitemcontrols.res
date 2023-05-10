@@ -21,7 +21,7 @@
 		"ypos"			"0"
 		"wide"			"15"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -30,8 +30,8 @@
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -40,9 +40,9 @@
 		"border_armed"		"MainMenuMiniButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "46 43 42 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
+		"armedFgColor_override" "Graydark"
+		"depressedFgColor_override" "Graydark"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"	

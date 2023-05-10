@@ -8,7 +8,7 @@
 		"ypos"			"285"
 		"wide"			"220"
 		"tall"			"70"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -48,7 +48,7 @@
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"170"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -65,7 +65,7 @@
 			"zpos"			"20"
 			"wide"			"100"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -74,8 +74,8 @@
 			"font"			"ReplayBrowserSmallest"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"confirm"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

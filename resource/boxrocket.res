@@ -345,8 +345,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				//	"500"
-				"underline" "1"
+			
 			}
 		}
 		"DefaultSmall"
@@ -365,7 +364,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"13"
 				//	"0"
-				"dropshadow" "1"
+			
 			}
 		}
 		"DefaultVerySmall"

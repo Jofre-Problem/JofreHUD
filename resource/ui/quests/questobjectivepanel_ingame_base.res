@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestObjectiveTextPanel"
-		"xpos"			"0"		[$WIN32]
-		"ypos"			"0"		[$WIN32]
+		"xpos"			"0"		
+		"ypos"			"0"		
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"18"

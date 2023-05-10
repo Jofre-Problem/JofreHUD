@@ -24,7 +24,7 @@
 		"ypos"		"320"
 		"wide"		"330"
 		"tall"		"15"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -56,7 +56,7 @@
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,8 +65,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -81,7 +81,7 @@
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -90,8 +90,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -113,7 +113,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -134,7 +134,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"ButtonBorder"
@@ -148,7 +148,7 @@
 		"ypos"				"260"
 		"wide"				"150"
 		"tall"				"30"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -158,7 +158,7 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"Command"			"startofflinepractice"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -167,9 +167,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "Graydark"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "Graydark"
 	}
 	
 	"DifficultyLabel"
@@ -187,7 +187,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -201,7 +201,7 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -238,7 +238,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -250,13 +250,13 @@
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
-		"wrap"			"0"
+		
 		"xpos"			"200"
 		"ypos"			"230"
 		"zpos"			"50"
 		"wide"			"22"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -285,7 +285,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"116 105 92 255"
 	}
 }

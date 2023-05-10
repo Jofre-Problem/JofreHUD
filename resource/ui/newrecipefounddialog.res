@@ -9,7 +9,7 @@
 		"ypos"					"160"
 		"wide"					"400"
 		"tall"					"160"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"blank"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
@@ -25,11 +25,11 @@
 		"zpos"			"0"
 		"wide"			"400"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"#NewRecipeFound"
 		"textAlignment"		"center"
 		"fgcolor_override" "200 80 60 255"
@@ -65,7 +65,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"100"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -85,7 +85,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -93,8 +93,8 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"

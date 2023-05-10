@@ -689,7 +689,6 @@ Button.DepressedTextColor "Primary"
 			{
 				"name"		"Product Sans"
 				"tall"		"17"
-				"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -718,7 +717,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
+			
 			}
 		}
 
@@ -728,7 +727,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"0"
+				
 			}
 		}	
 		"MenuLarge"
@@ -743,19 +742,7 @@ Button.DepressedTextColor "Primary"
 		}		
 	}	
   Borders
-        {	
-       testing
-        {
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/noto_apple"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-	
-        }		
+        {		
        noborder
         {
 			"bordertype"			"scalable_image"

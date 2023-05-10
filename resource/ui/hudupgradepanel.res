@@ -9,7 +9,7 @@
 		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"480"		
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -61,7 +61,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		"zpos"		"-1"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -77,7 +77,7 @@
 		"ypos"			"85"
 		"wide"			"500"
 		"tall"			"350"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -93,7 +93,7 @@
 			"zpos"			"-8"
 			"wide"			"500"
 			"tall"			"310"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -116,7 +116,7 @@
 			"zpos"			"-1"
 			"wide"			"480"
 			"tall"			"230"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -148,7 +148,7 @@
 			"zpos"			"-2"
 			"wide"			"70"
 			"tall"			"50"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -157,8 +157,8 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"PlayerUpgrade"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -207,7 +207,7 @@
 			"zpos"			"-3"
 			"wide"			"74"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -225,7 +225,7 @@
 			"zpos"			"-6"
 			"wide"			"72"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -243,7 +243,7 @@
 			"zpos"			"10"
 			"wide"			"157"
 			"tall"			"47"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -261,7 +261,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -279,7 +279,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -297,7 +297,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -315,7 +315,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -333,7 +333,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -351,7 +351,7 @@
 			"zpos"			"-5"
 			"wide"			"70"
 			"tall"			"54"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -369,7 +369,7 @@
 			"zpos"			"-4"
 			"wide"			"480"
 			"tall"			"5"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -391,7 +391,7 @@
 			"zpos"			"2"
 			"wide"			"240"
 			"tall"			"140"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -407,7 +407,7 @@
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"17"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -416,8 +416,8 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"quick_equip_bottle"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -432,7 +432,7 @@
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"17"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -441,8 +441,8 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"open_charinfo_direct"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -457,7 +457,7 @@
 			"zpos"			"0"
 			"wide"			"130"
 			"tall"			"65"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -479,7 +479,7 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"65"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -494,7 +494,7 @@
 			"zpos"			"0"
 			"wide"			"130"
 			"tall"			"130"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -511,7 +511,7 @@
 			"zpos"			"1"
 			"wide"			"130"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -531,7 +531,7 @@
 			"zpos"			"2"
 			"wide"			"130"
 			"tall"			"20"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -549,7 +549,7 @@
 			"zpos"			"2"
 			"wide"			"120"
 			"tall"			"105"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -567,7 +567,7 @@
 			"ypos"			"280"
 			"wide"			"245"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -585,7 +585,7 @@
 			"ypos"			"280"
 			"wide"			"500"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -601,7 +601,7 @@
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"17"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -610,8 +610,8 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -626,7 +626,7 @@
 			"zpos"			"1"
 			"wide"			"75"
 			"tall"			"17"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"0"
@@ -635,8 +635,8 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -651,7 +651,7 @@
 			"zpos"			"1"
 			"wide"			"120"
 			"tall"			"17"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"0"
@@ -660,7 +660,7 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			"dulltext"		"0"
+			//"dulltext"		"0"
 			"brighttext"	"1"
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -677,7 +677,7 @@
 		"zpos"			"10"
 		"wide"			"500"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -692,7 +692,7 @@
 			"zpos"			"-3"
 			"wide"			"500"
 			"tall"			"40"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -717,7 +717,7 @@
 			"zpos"			"11"
 			"wide"			"460"
 			"tall"			"40"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -734,15 +734,15 @@
 			"zpos"			"12"
 			"wide"			"20"
 			"tall"			"23"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		" > "
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"nexttip"
 		}
 	}	

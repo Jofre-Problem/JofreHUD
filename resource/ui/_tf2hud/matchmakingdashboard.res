@@ -219,7 +219,7 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -227,8 +227,8 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -238,9 +238,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				
 			}		
@@ -254,7 +254,7 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -262,8 +262,8 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -273,9 +273,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"		
+				"depressedFgColor_override" "Graydark"		
 			}		
 		}
 
@@ -336,15 +336,15 @@
 					"wide"			"150"
 				}
 				
-				"autoResize"	"0"
+				
 				//		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
@@ -369,7 +369,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -377,8 +377,8 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
@@ -407,15 +407,15 @@
 			"zpos"			"100"
 			"wide"			"110"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Disconnect"
@@ -447,15 +447,15 @@
 			"zpos"			"100"
 			"wide"			"90"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"0"
 			"enabled"		"1"
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#MMenu_ResumeGame"
@@ -486,15 +486,15 @@
 			"zpos"			"100"
 			"wide"			"115"
 			"tall"			"f6"
-			"autoResize"	"0"
+			
 			//		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#MMenu_FindAGame"

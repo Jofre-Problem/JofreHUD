@@ -21,7 +21,7 @@
 		"ypos"		"108"
 		"wide"		"180"
 		"tall"		"20"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"black"
 		"zpos"	"-1"
 	}
 	"BonusMapTGAImage"

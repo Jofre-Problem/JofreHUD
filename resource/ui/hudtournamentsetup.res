@@ -26,7 +26,7 @@
 	"TournamentSetupLabel"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
+		"fieldName"		"TournamentSetupLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"8"
 		"ypos"			"0"
@@ -37,7 +37,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"west"
 	}
@@ -56,7 +56,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"#Tournament_TeamNamePanel"
 		"textAlignment"		"west"
 	}
@@ -79,9 +79,9 @@
 		"maxchars"		"5"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
-		"wrap"			"0"
+		
 		"fgcolor_override"		"235 226 202 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}
@@ -99,7 +99,7 @@
 		//	"0"
 		"visible"	"1"
 		"enabled"	"1"
-		"fillcolor"	"0 0 0 255"
+		"fillcolor"	"black"
 		"scaleImage"	"1"
 	}
 
@@ -118,8 +118,8 @@
 		"enabled"		"1"
 		"labelText"		"Not Ready"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
@@ -141,8 +141,8 @@
 		"enabled"		"1"
 		"labelText"		"Ready"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"teamready" 
 		"default"		"1"
 		"font"			"HudFontSmallestBold"

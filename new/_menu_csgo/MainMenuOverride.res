@@ -816,7 +816,7 @@
 		"zpos"			"1000"
 		"wide"			"44"
 		"tall"			"45"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -834,7 +834,7 @@
 			"font"			"Newicons25"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 
 			"actionsignallevel" "2"
@@ -880,7 +880,7 @@
 			"wide"			"f0"
 			"tall"			"15"
 			"zpos" "100"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"

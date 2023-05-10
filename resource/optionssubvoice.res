@@ -80,8 +80,8 @@
 		//		"1"
 		"labelText"		"#GameUI_EnableVoice"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 	"MicBoost"
@@ -99,8 +99,8 @@
 		//		"5"
 		"labelText"		"#GameUI_BoostMicrophone"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 	"Microphonelabel"
@@ -119,8 +119,8 @@
 		"associate"		"#GameUI_MicrophoneVolume"
 		"labelText"		"#GameUI_VoiceTransmitVolume"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"ReceiveLabel"
 	{
@@ -138,8 +138,8 @@
 		"labelText"		"#GameUI_VoiceReceiveVolume"
 		"textAlignment"		"west"
 		"associate"		"VoiceReceive"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"topHorizLeft"
 	{
@@ -156,8 +156,8 @@
 		//		"0"
 		"labelText"		"40"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"topVertLeft"
 	{
@@ -174,8 +174,8 @@
 		//		"0"
 		"labelText"		"176"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -192,8 +192,8 @@
 		//		"0"
 		"labelText"		"176"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -210,8 +210,8 @@
 		//		"0"
 		"labelText"		"176"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"TestMicrophone"
 	{
@@ -228,8 +228,8 @@
 		//		"4"
 		"labelText"		"#GameUI_TestMicrophone"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"command"		"TestMicrophone"
 		"Default"		"0"
 	}
@@ -249,7 +249,7 @@
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 		"wrap"			"1"
 	}
 }

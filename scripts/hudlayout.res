@@ -560,7 +560,7 @@
 		"tall"			"f0"
 	//	"pin_to_sibling"	"HudCrosshair"	 //HELL				
 	}		
-	HudArenaVsPanel [$WIN32]
+	HudArenaVsPanel 
 	{
 		"fieldName"				"HudArenaVsPanel"		
 		"visible"				"1"

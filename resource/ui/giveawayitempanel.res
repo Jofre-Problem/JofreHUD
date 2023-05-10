@@ -15,9 +15,9 @@
 		//		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
 		
 		"player_ypos"		"200"
 		"player_xoffset"	"10"
@@ -159,8 +159,8 @@
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"vguicancel"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

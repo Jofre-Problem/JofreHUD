@@ -51,7 +51,7 @@
 			"labelText"		"Filter"
 			"textAlignment"	"east"
 			"dulltext"		"1"
-			"brighttext"	"0"
+			
 		}
 		
 		"FilterList"

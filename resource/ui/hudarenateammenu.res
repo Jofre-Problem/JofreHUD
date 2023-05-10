@@ -59,7 +59,7 @@
 		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		"dulltext"		"0"
+		//"dulltext"		"0"
 		"brighttext"	"1"
 	}
 	"teambutton2"
@@ -78,8 +78,8 @@
 		//	"1"
 		"labelText"		"&1"
 		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
@@ -103,8 +103,8 @@
 		//	"2"
 		"labelText"		"&2"
 		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
@@ -131,8 +131,8 @@
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
 	}
@@ -152,9 +152,9 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
+		//"dulltext"		"0"
+		
+		
 		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
@@ -178,9 +178,9 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
+		//"dulltext"		"0"
+		
+		
 		"font"			"MenuSmallestFont"
 		"fgcolor"		"white"
 	}

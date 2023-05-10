@@ -115,7 +115,7 @@
 				"fg_image"		"replay/thumbnails/hp/bluteam"
 				"bg_image"		"replay/thumbnails/noto_black"
 				"fgcolor_override"	"255 255 255 255"
-				"bgcolor_override"	"255 255 255 255"	
+				"bgcolor_override"	"white"	
 				alpha	"210"		
 				//can pin to HL2 stuff! NOT tf2 stuff		
 	}	
@@ -135,7 +135,7 @@
 				"fg_image"		"replay/thumbnails/hp/redteam"
 				"bg_image"		"replay/thumbnails/noto_black"
 				"fgcolor_override"	"255 255 255 255"
-				"bgcolor_override"	"255 255 255 255"			
+				"bgcolor_override"	"white"			
 				alpha	"210"
 				//can pin to HL2 stuff! NOT tf2 stuff		
 	}		

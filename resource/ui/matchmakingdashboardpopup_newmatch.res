@@ -115,8 +115,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"		"0"
+				//
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_Rejoin_Abandon"
@@ -152,8 +152,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"		"0"
+				//
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -185,8 +185,8 @@
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				////"dulltext"		"0"
-				//"brighttext"	"0"
+				//////"dulltext"		"0"
+				//
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"

@@ -83,7 +83,7 @@
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"fgcolor_override"	"235 226 202 255"
 		"disabledFgColor_override" "235 226 202 255"
 		"disabledBgColor_override" "0 0 0 0"
@@ -241,7 +241,7 @@
 		"ypos"		"175"
 		"wide"		"f40"
 		"tall"		"24"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		//"RoundedCorners"		"15"
 		"pin_corner_to_sibling"		"0"
@@ -264,7 +264,7 @@
 		"zpos"			"100"
 		"wide"			"f37"
 		"tall"			"f220"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

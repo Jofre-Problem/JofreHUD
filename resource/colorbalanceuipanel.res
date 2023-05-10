@@ -129,7 +129,7 @@
 		"labelText"			"Blend Factor:"
 		"textAlignment"		"west"
 		"dulltext"			"0"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 	}
 	"BlendFactorSlider"
 	{

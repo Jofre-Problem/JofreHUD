@@ -174,7 +174,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
@@ -183,7 +183,7 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"Command"		"toggle_chat"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
@@ -366,7 +366,7 @@
 				"zpos"			"10"
 				"wide"			"15"
 				"tall"			"o1"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
@@ -375,7 +375,7 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				//"dulltext"	"0"
-				"brighttext"	"0"
+				
 				"default"		"1"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
@@ -385,9 +385,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -416,7 +416,7 @@
 				"zpos"			"10"
 				"wide"			"f0"
 				"tall"			"o1"
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
@@ -425,7 +425,7 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				//"dulltext"	"0"
-				"brighttext"	"0"
+				
 				"default"		"1"
 				"sound_depressed"	"ui/buttonclick.wav"
 				"sound_released"	"ui/buttonclickrelease.wav"
@@ -435,9 +435,9 @@
 			
 				"paintbackground"	"1"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 				"defaultBgColor_override"	"Red"
 				"armedbgColor_override"	"white" 
 			
@@ -528,7 +528,7 @@
 					"wide"			"150"
 				}
 				
-				////"autoResize"		"0"
+				//////"autoResize"		"0"
 				"pinCorner"		"3"
 				"visible"		"1"
 				//"enabled"		"1"
@@ -536,7 +536,7 @@
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
 				//"dulltext"	"0"
-				"brighttext"	"0"
+				
 				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
@@ -570,7 +570,7 @@
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		"N"
@@ -609,7 +609,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
@@ -617,7 +617,7 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
 			"labeltext"		"P"
@@ -668,7 +668,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"16"
-			////"autoResize"		"0"
+			//////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 				"border"							"LINE_TOP_3_Primary_0"
@@ -677,7 +677,7 @@
 			textAlignment			center
 			labeltext				"Z"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
 			"labelText"		""

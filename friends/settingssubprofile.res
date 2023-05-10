@@ -17,7 +17,7 @@
 		"appearance"		"LabelDull"
 		"labelText"		"#TrackerUI_OptionsUnavailable"
 		"textAlignment"		"north-west"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"UserNameEdit"
 	{
@@ -56,6 +56,6 @@
 		"labelText"		"#Friends_FriendlyName"
 		"textAlignment"		"west"
 		"associate"		"UserNameEdit"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 }

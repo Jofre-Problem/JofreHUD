@@ -42,7 +42,7 @@
 		"zpos"			"5"
 		"wide"			"29"
 		"tall"			"29"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -79,7 +79,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"f15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -98,7 +98,7 @@
 		"zpos"			"-5"
 		"wide"			"f0"
 		"tall"			"16"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -117,7 +117,7 @@
 		"zpos"			"20"
 		"wide"			"f0"
 		"tall"			"f0"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"

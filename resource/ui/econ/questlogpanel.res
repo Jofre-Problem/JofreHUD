@@ -45,7 +45,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -81,7 +81,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -114,7 +114,7 @@
 			"zpos"		"50"
 			"wide"		"p0.987"
 			"tall"		"1"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -136,11 +136,11 @@
 			"zpos"			"2"
 			"wide"			"p.95"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -154,7 +154,7 @@
 			"zpos"			"1000"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -162,8 +162,8 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -173,9 +173,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -226,12 +226,12 @@
 		"zpos"		"50"
 		"wide"		"p0.95"
 		"tall"		"30"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"blank"
 		"proportionaltoparent"	"1"
 
 		"CoinModelPanel"
@@ -279,11 +279,11 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -297,7 +297,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -314,12 +314,12 @@
 				"zpos"			"2"
 				"wide"			"98"
 				"tall"			"13"				
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
@@ -337,11 +337,11 @@
 				"zpos"			"3"
 				"wide"			"f0"
 				"tall"			"f0"					
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"wrap"			"0"
+				
 				"proportionaltoparent"	"1"
 				"fgcolor"		"TanLight"
 			}
@@ -359,11 +359,11 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"p.45"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -377,7 +377,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -394,12 +394,12 @@
 				"zpos"			"2"
 				"wide"			"98"
 				"tall"			"13"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
@@ -417,11 +417,11 @@
 				"zpos"			"3"
 				"wide"			"f0"
 				"tall"			"f0"					
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"wrap"			"0"
+				
 				"proportionaltoparent"	"1"
 				"fgcolor"		"TanLight"
 			}

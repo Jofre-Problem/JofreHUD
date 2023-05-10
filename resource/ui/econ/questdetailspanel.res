@@ -23,7 +23,7 @@
 		"zpos"		"-2"
 		"wide"		"f0"
 		"tall"		"f0"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,7 +61,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -84,11 +84,11 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"proportionaltoparent"	"1"
 		"fgcolor"		"QuestGold"
 
@@ -167,7 +167,7 @@
 			"zpos"			"50"
 			"wide"			"210"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -187,7 +187,7 @@
 				"zpos"			"2"
 				"wide"			"p0.95"
 				"tall"			"p0.9"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -210,11 +210,11 @@
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"30"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"proportionaltoparent"	"1"
 			"fgcolor"		"QuestGold"
 			"textinsetx"	"21"
@@ -262,7 +262,7 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"autoResize"	"0"
+				
 				//		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -273,8 +273,8 @@
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"actionsignallevel" "3"
 
@@ -285,9 +285,9 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"
@@ -335,7 +335,7 @@
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"autoResize"	"0"
+				
 				//		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -346,8 +346,8 @@
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"actionsignallevel" "3"
 
@@ -358,9 +358,9 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"235 226 202 255"

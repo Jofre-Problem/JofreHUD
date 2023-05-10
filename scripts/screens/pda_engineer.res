@@ -15,8 +15,8 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintbackground"	"0"
 	}
 		
@@ -50,8 +50,8 @@
 		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintbackground"	"0"
 	}
 	
@@ -85,8 +85,8 @@
 		"enabled"		"1"
 		"labelText"		"3"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintbackground"	"0"
 	}
 	
@@ -120,8 +120,8 @@
 		"enabled"		"1"
 		"labelText"		"4"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintbackground"	"0"
 	}
 	
@@ -155,8 +155,8 @@
 		"enabled"		"1"
 		"labelText"		"0 Cancel"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"paintbackground"	"0"
 	}
 }

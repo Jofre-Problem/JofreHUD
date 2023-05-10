@@ -197,8 +197,8 @@ Scheme
 		NewGame.SelectionColor		"Orange"		
 		NewGame.DisabledColor		"128 128 128 196"
 
-		MessageDialog.MatchmakingBG			"46 43 42 255"
-		MessageDialog.MatchmakingBGBlack			"22 22 22 255"
+		MessageDialog.MatchmakingBG			"Black"
+		MessageDialog.MatchmakingBGBlack			"black"
 		
 		MatchmakingMenuItemTitleColor			"200 184 151 255"
 		MatchmakingMenuItemDescriptionColor		"200 184 151 255"
@@ -272,8 +272,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				//	"500"
-				"underline" "1"
 			}
 		}
 		"DefaultSmall"

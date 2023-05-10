@@ -37,7 +37,7 @@
 			"zpos"		"-2"
 			"wide"		"f0"
 			"tall"		"f0"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -54,7 +54,7 @@
 			"zpos"		"-1"
 			"wide"		"f0"
 			"tall"		"f0"
-			"autoResize"		"0"
+			//"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -91,7 +91,7 @@
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
-				"autoResize"	"0"
+				
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -99,8 +99,8 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -110,9 +110,9 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
+				"defaultFgColor_override" "Graydark"
 				"armedFgColor_override" "200 80 60 255"
-				"depressedFgColor_override" "46 43 42 255"
+				"depressedFgColor_override" "Graydark"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
@@ -202,7 +202,7 @@
 					"zpos"			"500"
 					"wide"			"145"
 					"tall"			"20"
-					"autoResize"	"0"
+					
 					//		"3"
 					"visible"		"1"
 					"enabled"		"1"
@@ -211,8 +211,8 @@
 					"use_proportional_insets" "1"
 					"font"			"HudFontSmall"
 					"textAlignment"	"south-east"
-					"dulltext"		"0"
-					"brighttext"	"0"
+					//"dulltext"		"0"
+					
 					"default"		"1"
 					"labelText"			"#MMenu_ViewUpdateComic" 
 					"command"		"view_update_comic"
@@ -239,7 +239,7 @@
 					"zpos"			"500"
 					"wide"			"300"
 					"tall"			"20"
-					"autoResize"	"0"
+					
 					//		"3"
 					"visible"		"1"
 					"enabled"		"1"
@@ -248,8 +248,8 @@
 					"use_proportional_insets" "1"
 					"font"			"HudFontSmall"
 					"textAlignment"	"center"
-					"dulltext"		"0"
-					"brighttext"	"0"
+					//"dulltext"		"0"
+					
 					"default"		"1"
 					"labelText"			"%end_date%" 
 					
@@ -396,7 +396,7 @@
 							"zpos"			"2"
 							"wide"			"p1"
 							"tall"			"o1"
-							"bgcolor_override"	"0 0 0 255"
+							"bgcolor_override"	"black"
 							"proportionaltoparent" "1"
 						}
 
@@ -678,7 +678,7 @@
 							"zpos"			"5"
 							"wide"			"100"
 							"tall"			"26"
-							"autoResize"	"0"
+							
 							//		"3"
 							"visible"		"1"
 							"enabled"		"1"
@@ -687,8 +687,8 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"default"		"1"
 							"labelText"			"#Voice_Menu_Yes" 
 							"command"		"confirm_team"
@@ -700,9 +700,9 @@
 							"border_armed"		"MainMenuButtonArmed"
 							"paintbackground"	"0"
 			
-							"defaultFgColor_override" "46 43 42 255"
+							"defaultFgColor_override" "Graydark"
 							"armedFgColor_override" "235 226 202 255"
-							"depressedFgColor_override" "46 43 42 255"
+							"depressedFgColor_override" "Graydark"
 			
 							"image_drawcolor"	"117 107 94 255"
 							"image_armedcolor"	"235 226 202 255"
@@ -718,7 +718,7 @@
 							"zpos"			"5"
 							"wide"			"100"
 							"tall"			"26"
-							"autoResize"	"0"
+							
 							//		"3"
 							"visible"		"1"
 							"enabled"		"1"
@@ -727,8 +727,8 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"default"		"1"
 							"labelText"			"#Store_CANCEL" 
 							"command"		"dismiss_joining_result"
@@ -740,9 +740,9 @@
 							"border_armed"		"MainMenuButtonArmed"
 							"paintbackground"	"0"
 			
-							"defaultFgColor_override" "46 43 42 255"
+							"defaultFgColor_override" "Graydark"
 							"armedFgColor_override" "235 226 202 255"
-							"depressedFgColor_override" "46 43 42 255"
+							"depressedFgColor_override" "Graydark"
 			
 							"image_drawcolor"	"117 107 94 255"
 							"image_armedcolor"	"235 226 202 255"
@@ -832,7 +832,7 @@
 							"zpos"			"5"
 							"wide"			"100"
 							"tall"			"26"
-							"autoResize"	"0"
+							
 							//		"3"
 							"visible"		"1"
 							"enabled"		"1"
@@ -841,8 +841,8 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"default"		"1"
 							"labelText"			"#TF_OK" 
 							"command"		"dismiss_joining_result"
@@ -854,9 +854,9 @@
 							"border_armed"		"MainMenuButtonArmed"
 							"paintbackground"	"0"
 			
-							"defaultFgColor_override" "46 43 42 255"
+							"defaultFgColor_override" "Graydark"
 							"armedFgColor_override" "235 226 202 255"
-							"depressedFgColor_override" "46 43 42 255"
+							"depressedFgColor_override" "Graydark"
 			
 							"image_drawcolor"	"117 107 94 255"
 							"image_armedcolor"	"235 226 202 255"
@@ -919,7 +919,7 @@
 							"zpos"			"5"
 							"wide"			"100"
 							"tall"			"26"
-							"autoResize"	"0"
+							
 							//		"3"
 							"visible"		"1"
 							"enabled"		"1"
@@ -928,8 +928,8 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							"dulltext"		"0"
-							"brighttext"	"0"
+							//"dulltext"		"0"
+							
 							"default"		"1"
 							"labelText"			"#TF_OK" 
 							"command"		"dismiss_joining_result"
@@ -941,9 +941,9 @@
 							"border_armed"		"MainMenuButtonArmed"
 							"paintbackground"	"0"
 			
-							"defaultFgColor_override" "46 43 42 255"
+							"defaultFgColor_override" "Graydark"
 							"armedFgColor_override" "235 226 202 255"
-							"depressedFgColor_override" "46 43 42 255"
+							"depressedFgColor_override" "Graydark"
 			
 							"image_drawcolor"	"117 107 94 255"
 							"image_armedcolor"	"235 226 202 255"
@@ -1020,7 +1020,7 @@
 						"zpos"			"5"
 						"wide"			"150"
 						"tall"			"26"
-						"autoResize"	"0"
+						
 						//		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -1029,8 +1029,8 @@
 						"use_proportional_insets" "1"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 						"labelText"			"#JoinHeavyButton" 
 						"command"		"join_war0"
@@ -1042,9 +1042,9 @@
 						"border_armed"		"MainMenuButtonArmed"
 						"paintbackground"	"0"
 			
-						"defaultFgColor_override" "46 43 42 255"
+						"defaultFgColor_override" "Graydark"
 						"armedFgColor_override" "235 226 202 255"
-						"depressedFgColor_override" "46 43 42 255"
+						"depressedFgColor_override" "Graydark"
 			
 						"image_drawcolor"	"117 107 94 255"
 						"image_armedcolor"	"235 226 202 255"
@@ -1072,7 +1072,7 @@
 						"zpos"			"5"
 						"wide"			"150"
 						"tall"			"26"
-						"autoResize"	"0"
+						
 						//		"3"
 						"visible"		"1"
 						"enabled"		"1"
@@ -1081,8 +1081,8 @@
 						"use_proportional_insets" "1"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						"dulltext"		"0"
-						"brighttext"	"0"
+						//"dulltext"		"0"
+						
 						"default"		"1"
 						"labelText"			"#JoinPyroButton" 
 						"command"		"join_war1"
@@ -1094,9 +1094,9 @@
 						"border_armed"		"MainMenuButtonArmed"
 						"paintbackground"	"0"
 			
-						"defaultFgColor_override" "46 43 42 255"
+						"defaultFgColor_override" "Graydark"
 						"armedFgColor_override" "235 226 202 255"
-						"depressedFgColor_override" "46 43 42 255"
+						"depressedFgColor_override" "Graydark"
 			
 						"image_drawcolor"	"117 107 94 255"
 						"image_armedcolor"	"235 226 202 255"

@@ -9,15 +9,15 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"autoResize"	"0"
+		
 		//		"0"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -139,7 +139,7 @@
 		"zpos"			"1"
 		"wide"			"560"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -187,7 +187,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -205,7 +205,7 @@
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -225,7 +225,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -243,7 +243,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -262,7 +262,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -279,7 +279,7 @@
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -288,8 +288,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"ready"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -310,7 +310,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "46 43 42 255"
+		"bgcolor_override" "Graydark"
 	}
 	"MyReadyImage"
 	{
@@ -326,7 +326,7 @@
 		"image"			"checkmark"
 		"scaleImage"	"1"	
 		"drawcolor"		"200 80 60 255"
-		"bgcolor_override" "46 43 42 255"
+		"bgcolor_override" "Graydark"
 	}
 	"MyReadyLabel"
 	{
@@ -340,7 +340,7 @@
 		"zpos"			"-1"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -361,7 +361,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -379,7 +379,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -398,7 +398,7 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -430,7 +430,7 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override" "46 43 42 255"
+			"bgcolor_override" "Graydark"
 		}
 	}
 	"TheirReadyImage"
@@ -460,7 +460,7 @@
 		"zpos"			"-1"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -481,7 +481,7 @@
 		"zpos"			"-1"
 		"wide"			"160"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -499,7 +499,7 @@
 		"zpos"			"-1"
 		"wide"			"225"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -518,7 +518,7 @@
 		"zpos"			"-1"
 		"wide"			"225"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -536,7 +536,7 @@
 		"zpos"			"-1"
 		"wide"			"225"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -572,7 +572,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -621,7 +621,7 @@
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"0"
@@ -630,8 +630,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -646,7 +646,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -654,8 +654,8 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -687,7 +687,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -695,8 +695,8 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -763,11 +763,11 @@
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "46 43 42 255"
+		"fgcolor_override" "Graydark"
 	}
 	"ConfirmDisabledLabel"
 	{
@@ -781,7 +781,7 @@
 		"zpos"			"-1"
 		"wide"			"230"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -796,7 +796,7 @@
 		"zpos"			"20"
 		"wide"			"230"
 		"tall"			"40"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"0"
@@ -805,8 +805,8 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"Command"		"confirm_trade"
@@ -822,7 +822,7 @@
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -831,8 +831,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"

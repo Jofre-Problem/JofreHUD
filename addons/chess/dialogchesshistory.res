@@ -43,8 +43,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_ReviewMoves"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"MoveHistoryPanel"
 	{
@@ -60,8 +60,8 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"CloseButton"
 	{
@@ -78,8 +78,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Close"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"Default"		"0"
 	}
 }

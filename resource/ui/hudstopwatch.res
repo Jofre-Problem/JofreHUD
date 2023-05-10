@@ -55,7 +55,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"2"
-		"ypos"				"-4"	[$WIN32]
+		"ypos"				"-4"	
 		"zpos"				"1"
 		"wide"				"110"
 		"tall"				"150"
@@ -131,7 +131,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 
 		if_comp
 		{
@@ -207,7 +207,7 @@
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 
 		if_comp
 		{

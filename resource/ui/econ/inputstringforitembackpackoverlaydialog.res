@@ -9,7 +9,7 @@
 		"ypos"					"c-165"
 		"wide"					"320"
 		"tall"					"330"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"blank"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"GrayDialogBorder"
@@ -77,7 +77,7 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -213,7 +213,7 @@
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"15"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -252,7 +252,7 @@
 		"zpos"			"1"
 		"wide"			"95" //From 90
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -260,8 +260,8 @@
 		"labelText"		"#ShuffleContents"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"1"
 		//	"0"
 		"Command"		"shuffle"
@@ -279,7 +279,7 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -287,8 +287,8 @@
 		"labelText"		"#TF_VR_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"Command"		"cancel"
 		//	"1"
@@ -306,7 +306,7 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -314,8 +314,8 @@
 		"labelText"		"#GetKey"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"Command"		"getkey"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -332,7 +332,7 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -340,8 +340,8 @@
 		"labelText"		"#UseKey"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"Command"		"usekey"
 		"sound_depressed"	"UI/buttonclick.wav"

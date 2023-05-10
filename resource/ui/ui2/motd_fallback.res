@@ -9,17 +9,12 @@
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
-		//"autoResize"		"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
-		
+
 		"MOTD_ShowButtonPanel_SB"
 		{
 			"ControlName"	"CExImageButton"
@@ -29,7 +24,7 @@
 			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -38,7 +33,7 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 
 			"actionsignallevel" "2"
@@ -107,7 +102,7 @@
 				"ypos"			"0"
 				"wide"			"300"
 				"tall"			"24"
-				//"autoResize"		"0"
+				////"autoResize"		"0"
 				//"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -126,7 +121,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -135,7 +130,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"0"
 			"actionsignallevel"	"2"
 
@@ -149,10 +144,10 @@
 			"paintbackground"	"0"
 			
 			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
+			//"armedFgColor_override" "Graydark"
+			"defaultFgColor_override" "Graydark"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "Graydark"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -198,7 +193,7 @@
 			"ypos"			"25"
 			"wide"			"250"
 			"tall"			"15"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -217,7 +212,7 @@
 			"ypos"			"40"
 			"wide"			"300"
 			"tall"			"15"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -301,7 +296,7 @@
 					"ypos"			"0"
 					"wide"			"250"
 					"tall"			"300"
-					//"autoResize"		"0"
+					////"autoResize"		"0"
 					//"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
@@ -319,7 +314,7 @@
 			"ypos"			"rs1.2"
 			"wide"			"150"
 			"tall"			"15"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
@@ -330,22 +325,19 @@
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
 
 
-			"navUp"			"MOTD_CloseButton"
-			"navLeft"		"MOTD_PrevButton"
-			"navRight"		"MOTD_NextButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "46 43 42 255"
+			"defaultBgColor_override" "Graydark"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
 		}	
@@ -359,7 +351,7 @@
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
@@ -368,7 +360,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 			"Command"		"motd_prev"
 			"actionsignallevel"	"2"
@@ -407,7 +399,7 @@
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
-			//"autoResize"		"0"
+			////"autoResize"		"0"
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
@@ -416,7 +408,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			//"dulltext"	"0"
-			"brighttext"	"0"
+			
 			"default"		"1"
 			"Command"		"motd_next"
 			"actionsignallevel"	"2"

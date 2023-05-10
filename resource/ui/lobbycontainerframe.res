@@ -8,16 +8,16 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"blank"
+		"infocus_bgcolor_override"		"blank"
+		"outoffocus_bgcolor_override"	"blank"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
@@ -25,7 +25,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarbgcolor_override"				"Graydark"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -107,7 +107,7 @@
 			"font"				"HudFontMediumBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"defaultBgColor_override"	"Graydark"
 			"paintbackground"	"0"
 			"activeborder_override"	"OutlinedGreyBox"
 			"normalborder_override" "OutlinedDullGreyBox"
@@ -124,7 +124,7 @@
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -132,8 +132,8 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"default"		"0"
 		"Command"		"options"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -166,15 +166,15 @@
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"back"
 
 		"NavUp"			"PlayNowButton"
@@ -241,15 +241,15 @@
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		////		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"next"
 
 		"NavUp"			"StartPartyButton"
@@ -269,7 +269,7 @@
 		"zpos"			"10"
 		"wide"			"180"
 		"tall"			"25"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -278,8 +278,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"start_party"
 
 		"NavUp"			"Sheet"

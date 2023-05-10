@@ -1,15 +1,3 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-// notes:
-// 		hit ctrl-alt-shift-R in the app to reload this file
-//
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -200,8 +188,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				//	"0"
-				"underline" "1"
 			}
 		}
 		"DefaultSmall"
@@ -321,13 +307,5 @@ Scheme
 				//	"1 10000"
 			}
 		}
-	}
-
-	//
-	//////////////////// BORDERS //////////////////////////////
-	//
-	// describes all the border types
-	Borders
-	{
 	}
 }

@@ -49,10 +49,10 @@
 		//		"0"
 		"labelText"		"Target Name:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"PositionLabel"
 	{
@@ -69,10 +69,10 @@
 		//		"0"
 		"labelText"		"Location:"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
+		//"wrap"		"0"
 	}
 	"TargetPositionLabel"
 	{
@@ -89,9 +89,9 @@
 		//		"0"
 		"labelText"		"Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionX"
 	{
@@ -127,9 +127,9 @@
 		//		"0"
 		"labelText"		"X"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionYLabel"
 	{
@@ -146,9 +146,9 @@
 		//		"0"
 		"labelText"		"Y"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionZLabel"
 	{
@@ -165,9 +165,9 @@
 		//		"0"
 		"labelText"		"Z"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"PositionY"
 	{
@@ -222,9 +222,9 @@
 		//		"0"
 		"labelText"		"Orientation"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"pitch"
 	{
@@ -298,9 +298,9 @@
 		//		"0"
 		"labelText"		"Pitch"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"YawLabel"
 	{
@@ -317,9 +317,9 @@
 		//		"0"
 		"labelText"		"Yaw"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 	"RollLabel"
 	{
@@ -336,8 +336,8 @@
 		//		"0"
 		"labelText"		"Roll"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
+		//"wrap"		"0"
 	}
 }

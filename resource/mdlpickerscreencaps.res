@@ -31,7 +31,7 @@
 			"labelText"			"Width:"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"WidthText"
@@ -51,7 +51,7 @@
 			"labelText"			""
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"HeightLabel"
@@ -71,7 +71,7 @@
 			"labelText"			"Height:"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"HeightText"
@@ -91,7 +91,7 @@
 			"labelText"			"Color"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"BackgroundColorLabel"
@@ -111,7 +111,7 @@
 			"labelText"			"Background:"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 		"BackgroundColor"
 		{
@@ -128,8 +128,8 @@
 			//	"5"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
+			//"dulltext"		"0"
+			//"brighttext"		"0"
 			"Default"		"0"
 		}
 
@@ -150,7 +150,7 @@
 			"labelText"			"Output:"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"OutputDirectory"
@@ -170,7 +170,7 @@
 			"labelText"			"."
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"OutputDirectorySelect"
@@ -230,7 +230,7 @@
 			"labelText"			""
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"GenerateBackpackIcons"
@@ -270,7 +270,7 @@
 			"labelText"			"Control Key on Capture for Specific Item Only."
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"Info2"
@@ -290,7 +290,7 @@
 			"labelText"			"Control Key on Restore for Specific Prefs Only."
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"Info3"
@@ -310,7 +310,7 @@
 			"labelText"			"Right Click on Model List to select Attachment."
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"Info4"
@@ -330,7 +330,7 @@
 			"labelText"			"Control Key on Model List to Clear Attachment."
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"SaveCaps"
@@ -391,7 +391,7 @@
 			"labelText"			"Backpack Output Name Suffix:"
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 
 		"SuffixText"
@@ -410,7 +410,7 @@
 			"labelText"			""
 			"textAlignment"		"west"
 			"dulltext"			"0"
-			"brighttext"		"0"
+			//"brighttext"		"0"
 		}
 	}
 }

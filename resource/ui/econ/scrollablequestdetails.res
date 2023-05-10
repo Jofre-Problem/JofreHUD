@@ -30,7 +30,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
+			
 			"proportionaltoparent"	"1"
 			"fgcolor"		"QuestGold"
 		}
@@ -103,7 +103,7 @@
 		"proportionaltoparent" "1"
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"59 54 48 255"
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"black"
 		"autohide_buttons" "1"
 		"paintborder"	"0"
 	}

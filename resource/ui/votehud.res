@@ -26,8 +26,8 @@
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomNotoMonoMedium"   
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
@@ -46,8 +46,8 @@
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomVerdanaSmall"   
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
@@ -66,8 +66,8 @@
 			"enabled"		"1"
 			"labelText"		"#TF_custom_font_mod_wants_to_vote"
 			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomVerdanaSmall"   
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
@@ -85,8 +85,8 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"128 128 128 255"
 			"wrap"			"1"
@@ -106,8 +106,8 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomNotoMonoMedium"  
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
@@ -127,8 +127,8 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
@@ -148,8 +148,8 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"south-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
@@ -199,8 +199,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -234,8 +234,8 @@
 			"enabled"		"1"
 			"labelText"		"Yes"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -253,8 +253,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -287,8 +287,8 @@
 			"enabled"		"1"
 			"labelText"		"No"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -306,8 +306,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -340,8 +340,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -374,8 +374,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -420,8 +420,8 @@
 			"enabled"		"1"
 			"labelText"		"#GameUI_vote_current_vote_count"
 			"textAlignment"	"north-west"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"		"0"
+			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -443,7 +443,7 @@
 			"box_inset"		"1"
 			"yes_texture"	"vgui/hud/vote_yes"
 			"no_texture"	"vgui/hud/vote_no"	
-			"bgcolor_override"	"0 0 0 0"		
+			"bgcolor_override"	"blank"		
 		}			
 	}
 	
@@ -456,7 +456,7 @@
 		"ypos"				"c-150"
 		"wide"				"420"
 		"tall"				"310"
-		"autoResize"		"0"
+		//"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -483,7 +483,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"autoresize"	"0"
+			
 			"linespacing"	"16"
 		}
 		
@@ -500,7 +500,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"autoresize"	"0"
+			
 			"linespacing"	"16"
 		}
 			

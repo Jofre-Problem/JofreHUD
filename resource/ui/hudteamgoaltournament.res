@@ -120,8 +120,7 @@
 		{
 			"ControlName"		"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText2"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"75"	[$WIN32]
+			"xpos"			"25"
 			"wide"			"225"
 			"tall"			"165"
 			"wrap"			"1"

@@ -66,7 +66,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_Options"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
 	}
@@ -86,7 +86,7 @@
 		"paintbackground"		"1"
 		"labelText"		"#Friends_AddFriend"
 		"textAlignment"		"west"
-		"wrap"		"0"
+		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
 	}

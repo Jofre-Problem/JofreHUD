@@ -57,7 +57,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Size 12 Shadow"
+				"font"			"MedHealtarget"
 				"xpos"			"46"
 				"ypos"			"0"
 				"zpos"			"10"
@@ -163,7 +163,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Size 12 Shadow"
+				"font"			"Size 16 Uber"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -175,12 +175,24 @@
 				"fgcolor"		"White"
 				"proportionaltoparent"		"1"
 			}
-
+ 		"respawntimebg"
+	{
+					"ControlName""ContinuousProgressBar"
+		"fieldName""respawntimebg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"800"	// increase wide
+		"tall"	"20"
+		"zpos"	"1"
+		"variable"		"respawntime"
+		"fgcolor_override"	"124 124 124 200"
+		"bgcolor_override"	"0 0 0 0"
+	}		
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Size 12 Shadow"
+				"font"			"Size 16 Uber"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"zpos"			"6"
@@ -189,11 +201,40 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"Green"
+				"fgcolor"		"90 255 2 255"
 				"bgcolor_override"		"Blank"
 				"proportionaltoparent"		"1"
 			}
-
+			"chargeamount2"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"chargeamount2"
+				"font"			"Size 16 Uber Blur"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"zpos"			"5"
+				"wide"			"32"
+				"tall"			"f0"
+				"visible"		"1"
+				"labelText"		"%chargeamount%"
+				"textAlignment"	"east"
+				"fgcolor"		"black"
+				"bgcolor_override"		"Blank"
+				"proportionaltoparent"		"1"
+			}			
+ 		"chargeamountbg"
+	{
+					"ControlName""ContinuousProgressBar"
+		"fieldName""chargeamountbg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"167"
+		"tall"	"2"
+		"zpos"	"100"
+		"variable"		"chargeamount"
+		"fgcolor_override"	"90 255 2 255"
+		"bgcolor_override"	"0 0 0 100"
+	}		
 			"classimagebg"
 			{
 				"ControlName"		"Panel"

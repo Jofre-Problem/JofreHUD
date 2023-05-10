@@ -84,8 +84,8 @@
 		"labelText"		"First Name"
 		"textAlignment"		"west"
 		"associate"		"FirstNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"FirstNameText"
 	{
@@ -103,8 +103,8 @@
 		"labelText"		"User Name"
 		"textAlignment"		"west"
 		"associate"		"UserNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"UserNameText"
 	{
@@ -122,8 +122,8 @@
 		"labelText"		"Last Name"
 		"textAlignment"		"west"
 		"associate"		"LastNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"Unnamed dialog1"
 	{
@@ -141,8 +141,8 @@
 		"labelText"		"eMail Address"
 		"textAlignment"		"west"
 		"associate"		"EmailEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
+		//"dulltext"		"0"
+		//"brighttext"		"0"
 	}
 	"Unnamed dialog2"
 	{
@@ -160,6 +160,6 @@
 		"labelText"		"Enter Information About Friend"
 		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
+		//"brighttext"		"0"
 	}
 }

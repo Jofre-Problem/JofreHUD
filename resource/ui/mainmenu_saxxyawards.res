@@ -10,7 +10,7 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -29,7 +29,7 @@
 		"zpos"			"-100"
 		"wide"			"360"
 		"tall"			"340"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -58,7 +58,7 @@
 		"zpos"			"1000"
 		"wide"			"128"
 		"tall"			"128"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -109,7 +109,7 @@
 		"zpos"			"200"
 		"wide"			"95"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -118,8 +118,8 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"submit"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -139,7 +139,7 @@
 		"zpos"			"200"
 		"wide"			"95"
 		"tall"			"20"
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -147,8 +147,8 @@
 		"labelText"		"#Replay_Contest_Details"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"		"0"
+		
 		"Command"		"viewdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -175,7 +175,7 @@
 		"wide"			"350"
 		"tall"			"290"
 
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -192,7 +192,7 @@
 		"wide"			"350"
 		"tall"			"290"
 		
-		"autoResize"	"0"
+		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -228,7 +228,7 @@
 			"zpos"			"95"		
 			"wide"			"100"
 			"tall"			"195"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -261,7 +261,7 @@
 			"zpos"			"101"
 			"wide"			"175"
 			"tall"			"290"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -285,7 +285,7 @@
 			"zpos"			"101"
 			"wide"			"175"
 			"tall"			"290"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -306,7 +306,7 @@
 			"zpos"			"102"
 			"wide"			"350"
 			"tall"			"290"
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -323,7 +323,7 @@
 			"tall"	"120"
 			"zpos"	"1002"
 			
-			"autoResize"	"0"
+			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"

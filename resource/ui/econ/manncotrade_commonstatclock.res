@@ -244,7 +244,7 @@
 				"zpos"			"1"
 				"wide"			"p0.175"
 				"tall"			"p0.085"
-				"autoResize"	"0"
+				
 				//		"3"
 				"visible"		"1"
 				"enabled"		"1"
@@ -252,8 +252,8 @@
 				"labelText"		"#TF_CollectionCrafting_Submit"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"		"0"
+				
 				"default"		"1"
 				"Command"		"doneselectingitems"
 				"sound_depressed"	"UI/buttonclick.wav"

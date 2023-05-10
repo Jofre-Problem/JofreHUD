@@ -95,7 +95,7 @@
 			"wide"			"280"
 			"tall"			"13"
 			"visible"		"1"
-			"wrap"			"0"
+			
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
