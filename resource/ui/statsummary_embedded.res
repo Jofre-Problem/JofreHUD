@@ -184,7 +184,7 @@
 			"zpos"			"100"
 			"wide"			"20"
 			"tall"			"13"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"paintbackground"	"0"
 			"sound_depressed"	"ambient/bumper_car_quack11.wav"
@@ -1387,4 +1387,9 @@
 		"xpos"	"9999"
 		"Command"	""
 	}
+	"TitleBanner"
+	{
+		"ControlName"	"panel"
+		"wide"			"0"
+	}	
 }

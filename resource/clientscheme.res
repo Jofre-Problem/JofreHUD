@@ -561,7 +561,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"25 118 210 255"
+			"color"					"Primary"
 			"image"					"replay/thumbnails/l4d2/avatarframe_portal_white_test"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"

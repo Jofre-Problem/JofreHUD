@@ -18,6 +18,23 @@
 		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"19"
+		
+		"avatar_width"	"20"
+		"spacer"		"2"
+		"name_width"	"57"
+		"horiz_inset"	"2"
+		
+		if_mvm
+		{
+			"xpos"					"0"
+			"ypos"					"70"
+			"wide"					"500"
+			"tall"					"180"
+
+			"team1_player_base_y"			"72"
+			"team2_player_base_y"			"72"
+			"team2_player_delta_x"			"24"
+		}
 
 		"playerpanels_kv"
 		{
@@ -47,7 +64,7 @@
 				"TextColor"					"GrayDarkest"
 				"proportionaltoparent"		"1"
 
-				if_mvm
+				if_aids
 				{
 					"visible"		"0"
 				}
@@ -70,7 +87,7 @@
 				"bgcolor_override"	"Blank"
 				"proportionaltoparent"		"1"
 
-				if_mvm
+				if_aids
 				{
 					"font"		"Size 8 Shadow"
 					"xpos"		"0"
@@ -92,7 +109,7 @@
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"
 
-				if_mvm
+				if_aids
 				{
 					"wide"			"20"
 					"tall"			"18"
@@ -114,7 +131,7 @@
 				"border"					"MaterialGrayDarkest"
 				"proportionaltoparent"		"1"
 
-				if_mvm
+				if_aids
 				{
 					"visible"		"0"
 				}
@@ -133,9 +150,9 @@
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
-				if_mvm
+				if_aids
 				{
-					"visible"		"1"
+					"visible"		"0"
 				}
 			}
 
@@ -153,7 +170,7 @@
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 
-				if_mvm
+				if_aids
 				{
 					"visible"		"1"
 				}
@@ -179,9 +196,9 @@
 	{
 					"ControlName""ContinuousProgressBar"
 		"fieldName""respawntimebg"
-		"xpos"			"0"
+		"xpos"			"18"
 		"ypos"			"0"
-		"wide"			"800"	// increase wide
+		"wide"			"700"	// increase wide
 		"tall"	"20"
 		"zpos"	"1"
 		"variable"		"respawntime"
@@ -252,23 +269,14 @@
 				"enabled"		"0"
 			}
 
-			if_mvm
+			if_aids
 			{
 				"wide"		"44"
 				"tall"		"25"
 			}
 		}
 
-		if_mvm
-		{
-			"xpos"					"cs-0.5"
-			"wide"					"500"
-			"tall"					"180"
 
-			"team1_player_base_y"			"4"
-			"team1_player_delta_x"			"46"
-			"team1_player_delta_y"			"0"
-		}
 	}
 
 	"ReinforcementsLabel"
@@ -283,9 +291,9 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Size 16 Shadow"
+		"font"			"Damagetext"
 
-		if_mvm
+		if_aids
 		{
 			"ypos"		"92"
 		}
@@ -305,7 +313,7 @@
 		"font"			"Size 14"
 		"centerwrap"	"1"
 
-		if_mvm
+		if_aids
 		{
 			"visible"	"1"		//TODO
 		}

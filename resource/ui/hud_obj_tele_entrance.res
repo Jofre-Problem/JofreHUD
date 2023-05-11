@@ -142,7 +142,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Size 8"
+				"font"			"NotoBold12"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -215,7 +215,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"Size 10"
+					"font"			"NotoBold12"
 					"xpos"			"1"
 					"ypos"			"0"
 					"wide"			"200"
@@ -236,7 +236,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"TimesUsedLabelLabel"
-					"font"		"Size 10"
+					"font"		"NotoBold12"
 					"xpos"		"0"
 					"ypos"		"6"
 					"zpos"		"1"

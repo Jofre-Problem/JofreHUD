@@ -141,7 +141,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Size 8"
+				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -197,7 +197,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"AmmoLabel"
-				"font"		"Size 10"
+				"font"		"NotoBold12"
 				"zpos"		"1"
 				"wide"		"50"
 				"tall"		"8"

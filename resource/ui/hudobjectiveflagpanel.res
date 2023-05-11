@@ -46,7 +46,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"Regular24"
+		"font"			"NotoBold24"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -83,7 +83,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"Regular24"
+		"font"			"NotoBold24"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -109,7 +109,7 @@
 
 	"BluePanelBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"editablepanel"
 		"fieldName"		"BluePanelBG"
 		"xpos"			"c-100"
 		"ypos"			"rs1"
@@ -119,8 +119,9 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"blue"
-		
+		"bgcolor_override"		"blue"
+		"roundedcorners"	"1"
+		"paintBackgroundtype"	"2"			
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -139,7 +140,7 @@
 	
 	"RedPanelBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"editablepanel"
 		"fieldName"		"RedPanelBG"
 		"xpos"			"c0"
 		"ypos"			"rs1"
@@ -149,8 +150,9 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"red"
-		
+		"bgcolor_override"		"red"
+		"roundedcorners"	"2"
+		"paintBackgroundtype"	"2"		
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -167,36 +169,7 @@
 		}
 	}
 	
-	"DarkPanelBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DarkPanelBG"
-		"xpos"			"c-25"
-		"ypos"			"r30"
-		"zpos"			"0"
-		"wide"			"50"
-		"tall"			"0"
-		"visible"		"0"
-		//"enabled"		"1"
-		"scaleImage"	"1"
-		"fillcolor"		"black"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-															
+													
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -225,10 +198,11 @@
 		//"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"font"			"Size 14"
+		"font"			"NotoBold14"
 		"fgcolor"		"White"
 		"bgcolor_override"	"black"
-		
+		"roundedcorners"	"3"
+		"paintBackgroundtype"	"2"
 		"if_hybrid"
 		{
 			"visible"	"0"

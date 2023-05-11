@@ -10,11 +10,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"TFStatsSummary"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
 		"zpos"		"10000"
-	//	"wide"			"p1"
-	//	"tall"			"458"
+		"wide"			"p1"
+		"tall"			"480"
 		"visible"		"1"
 	}
 	"OnYourWayLabel"
@@ -47,6 +47,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"border"	"noborder"
+		"labeltext"	"0"
 		"bgcolor_override"	"blank"
 							"LogoImage"
 					{
@@ -182,22 +183,6 @@
 			}					
 		}
 	
-		"InfoBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InfoBG"
-			"xpos"			"c-285"
-			"ypos"			"125"
-			"wide"			"245"
-			"tall"			"280"
-			//////"autoResize"		"0"
-			//"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"paintborder"	"0"
-			"border"		"NoBorder"
-			"paintbackground"	"1"
-		}
 
 		"Title"
 		{

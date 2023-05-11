@@ -19,14 +19,15 @@
 
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"		"10"
-		"wide"			"f0"
-		"tall"			"25"
-		"labeltext"	"#game_respawntime_in_secs"
+		"xpos"			"cs-0.5"
+		"ypos"			"32"
+		"wide"			"300"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Size 16 Uber"
+		"font"			"Damagetext"
 	}
 
 	"MapLabel"

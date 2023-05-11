@@ -1,6 +1,16 @@
 #base "../../../../cfg/jp_hudplayerclass_pilotbars.txt"
 #base "../../../../cfg/jp_hudplayerclass_3d.txt"
 #base "../../../../cfg/jp_hudplayerclass_3d_bg.txt"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
+#base "../../customization/_dev/crosshairs/crosshair_res_files/shape_current.res"
+#base "../../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
+#base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
+#base "../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
+
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"
@@ -22,40 +32,21 @@
 		"ControlName"								"CTFClassImage"
 		"fieldName"									"PlayerStatusClassImage"
 		"xpos"										"20"
-		"ypos"										"r48"
+		"ypos"										"rs1"
 		"zpos"										"2"
-		"wide"										"48"
-		"tall"										"48"
+		"wide"										"75"
+		"tall"										"o1"
 		"visible"									"1"
 		"enabled"									"1"
-		"image"										"../hud/class_scoutred"
 		"scaleImage"								"1"
-		"alpha"										"0"			// 255 to enable
 	}
 
+	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
+	{"ControlName"	"CTFImagePanel"}
 	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusSpyOutlineImage"
-		"xpos"										"-5"
-		"ypos"										"r44"
-		"zpos"										"7"
-		"wide"										"27"
-		"tall"										"27"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../hud/class_spy_outline"
-		"scaleImage"								"1"
-	}
-	"PlayerStatusSpyImage"
-	{
-		"ypos"			"r0"		
-	}	
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"PlayerStatusClassImageBG"
-	{
-		"xpos" "r0"
-		"visible"			"0"
-	}
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"

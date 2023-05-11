@@ -35,8 +35,8 @@
 		
 		paintbackground			0
 		
-		image_drawcolor			"13 117 190 150"
-		image_armedcolor			"13 117 190 255"
+		image_drawcolor			"70 130 180 150"
+		image_armedcolor			"70 130 180 255"
 		
 		"SubImage"
 		{
@@ -169,8 +169,8 @@
 		
 		paintbackground			0
 
-		image_drawcolor			"190 45 57 150"
-		image_armedcolor			"190 45 57 255"
+		image_drawcolor			"205 50 50 150"
+		image_armedcolor			"205 50 50 255"
 		
 		"SubImage"
 		{
@@ -243,36 +243,33 @@
 		xpos					cs-0.5
 		ypos					0
 		zpos					60
-		wide					160
+		wide					f0
 		tall					30
 
 		Command				"jointeam auto"
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"Size 20"
+		font					"NotoBold28"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
+		"defaultBgColor_override" 	"NotoBlack"
+		"armedBgColor_override"		"Notowhite"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"NotoBlueSolid"
 		
-		paintbackground			0
-	//	defaultfgcolor_override	"0 0 0 255"
-		image_drawcolor			"255 255 255 50" 
-		image_armedcolor			"255 255 255 100"
+		"defaultFgColor_override" 	"NotoWhite"
+		"armedFgColor_override"		"NotoBlack"
+		"depressedFgColor_override" "NotoWhite"
+		"selectedFgColor_override" 	"NotoBlack"		
+		paintbackground			1
 		
 		"SubImage"
 		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					f0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_down"
-			scaleImage				1
+			tall					0
 		}
 	}
 
@@ -283,36 +280,33 @@
 		xpos					cs-0.5
 		ypos					rs1
 		zpos					60
-		wide					160
+		wide					f0
 		tall					30
 
 		Command				"jointeam spectate"
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"Size 20"
+		font					"NotoBold28"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
+		"defaultBgColor_override" 	"NotoBlack"
+		"armedBgColor_override"		"Notowhite"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"NotoBlueSolid"
 		
-		paintbackground			0
-	//	defaultfgcolor_override	"0 0 0 255"
-		image_drawcolor			"255 255 255 50"
-		image_armedcolor			"255 255 255 100"
+		"defaultFgColor_override" 	"NotoWhite"
+		"armedFgColor_override"		"NotoBlack"
+		"depressedFgColor_override" "NotoWhite"
+		"selectedFgColor_override" 	"NotoBlack"		
+		paintbackground			1
 		
 		"SubImage"
 		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					f0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
+			tall					0
 		}				
 	}
 

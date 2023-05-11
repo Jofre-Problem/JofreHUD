@@ -6,10 +6,10 @@
 		"delta_item_x"			"200"
 		"delta_item_start_y"	"300"
 		"delta_item_end_y"		"250"
-		"PositiveColor"			"Blue"
-		"NegativeColor"			"Red"
+		"PositiveColor"			"90 255 2 255"
+		"NegativeColor"			"255 215 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"Size 12"
+		"delta_item_font"		"NotoExtraBold16"
 	}
 
 	"AccountValue"
@@ -25,7 +25,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"Size 14"
+		"font"			"Notobold14"
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -43,8 +43,8 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"Size 14"
-		"fgcolor"		"Shadow"
+		"font"			"Notobold14"
+		"fgcolor"		"0 0 0 100"
 		"pin_to_sibling"		"AccountValue"
 	}
 

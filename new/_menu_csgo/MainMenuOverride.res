@@ -666,7 +666,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Regular18"
+			font					"NotoBold18"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2

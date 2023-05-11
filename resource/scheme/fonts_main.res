@@ -8,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"24"
 				"additive"	"0"
 				"antialias"	"1"
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"24"
 				"additive"	"0"
 				"antialias"	"1"
@@ -30,7 +30,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"16"
 				"additive"	"0"
 				"antialias"	"1"
@@ -41,7 +41,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"16"
 				"blur"	"2"
 				"antialias"	"1"
@@ -52,7 +52,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"18"
 				"additive"	"0"
 				"antialias"	"1"
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Renogare Uber"
+				"name"	"OpenSansExtraboldUber"
 				"tall"	"10"
 				"additive"	"0"
 				"antialias"	"1"
@@ -492,7 +492,498 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}				
+		}	
+		"Noto10"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"10"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto12"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"12"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto14"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"14"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto16"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"16"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto17"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"17"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto18"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"18"
+				
+				"antialias"	"1"
+			}
+		}		
+		"Noto20"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"20"
+				
+				"antialias"	"1"
+			}
+		}	
+		"Noto24"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"24"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto26"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"26"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto28"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"28"
+				
+				"antialias"	"1"
+			}
+		}
+		"Noto30"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"30"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold8"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"8"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold8Blur"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"8"
+				"blur"	"2"
+				"antialias"	"1"
+			}
+		}		
+		"NotoBold9"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"9"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold10"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"10"
+				
+				"antialias"	"1"
+			}
+		}		
+		"Noto32"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"32"
+				
+				"antialias"	"1"
+			}
+		}			
+		"NotoBold12"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"12"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold14"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"14"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold16"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"16"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold17"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"17"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold18"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"18"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold20"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"20"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold22"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"22"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold24"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"24"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold24Outline"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"24"
+				
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+		"NotoBold26"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"26"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold28"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"28"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold30"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"30"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold32"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"32"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold34"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"34"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold36"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"36"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoBold38"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"38"
+				
+				"antialias"	"1"
+			}
+		}	
+		"NotoExtraBold8"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"8"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold9"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"9"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold10"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"10"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold12"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"12"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold14"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"14"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold16"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"16"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold17"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"17"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold18"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"18"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold20"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"20"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold22"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"22"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold24"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"24"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold26"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"26"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold28"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"28"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold30"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"30"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold32"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"32"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold34"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"34"
+				
+				"antialias"	"1"
+			}
+		}
+		"NotoExtraBold36"
+		{
+			"1"
+			{
+				"name"		"Open Sans Extrabold"
+				"tall"		"36"
+				
+				"antialias"	"1"
+			}
+		}							
 	}
 	CustomFontFiles
 	{
@@ -538,8 +1029,8 @@ Scheme
 		}
 		"311"
 		{
-			"font"	"fonts/Renogare Uber.ttf"
-			"name"	"Renogare Uber"
+			"font"	"fonts/OpenSansExtraBold-Uber.ttf"
+			"name"	"OpenSansExtraboldUber"
 		}
 	
 		"8"
@@ -649,8 +1140,8 @@ Scheme
 		}
 		"38"
 		{
-			"font" "fonts/OpenSans-ExtraboldOutline.ttf"
-			"name" "Open Sans ExtraboldOutline"
+			"font" "fonts/OpenSansExtraBold.ttf"
+			"name" "Open Sans Extrabold"
 		}
 		"40"
 		{

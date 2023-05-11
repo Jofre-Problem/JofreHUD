@@ -141,7 +141,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Size 8"
+				"font"			"NotoBold12"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -156,7 +156,7 @@
 			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Size 8"
+				"font"			"NotoBold12"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -211,7 +211,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"Size 8"
+					"font"			"NotoBold12"
 					"xpos"			"0"
 					"ypos"			"-6"
 					"wide"			"200"
@@ -226,7 +226,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
-				"font"			"Size 8"
+				"font"			"NotoBold12"
 				"xpos"			"0"
 				"ypos"			"14"
 				"wide"			"200"

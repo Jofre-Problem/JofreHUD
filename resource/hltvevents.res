@@ -33,66 +33,66 @@
 	
 	"hltv_status"				// general HLTV status
 	{
-		"clients"	"long"		// number of HLTV spectators
-		"slots"		"long"		// number of HLTV slots
-		"proxies"	"short"		// number of HLTV proxies
-		"master"	"string"	// disptach master IP:port
+	//	"clients"	"long"		// number of HLTV spectators
+	//	"slots"		"long"		// number of HLTV slots
+	//	"proxies"	"short"		// number of HLTV proxies
+	//	"master"	"string"	// disptach master IP:port
 	}
 	
 	"hltv_cameraman"			// a spectator/player is a cameraman
 	{
-		"index"		"short"			// camera man entity index
+	//	"index"		"short"			// camera man entity index
 	}
 	
 	"hltv_rank_camera"			// a camera ranking
 	{
-		"index"		"byte"			// fixed camera index
-		"rank"		"float"			// ranking, how interesting is this camera view
-		"target"	"short"			// best/closest target entity
+	//	"index"		"byte"			// fixed camera index
+	//	"rank"		"float"			// ranking, how interesting is this camera view
+	//	"target"	"short"			// best/closest target entity
 	}
 	
 	"hltv_rank_entity"			// an entity ranking
 	{
-		"index"		"short"			// entity index
-		"rank"		"float"			// ranking, how interesting is this entity to view
-		"target"	"short"			// best/closest target entity
+	//	"index"		"short"			// entity index
+	//	"rank"		"float"			// ranking, how interesting is this entity to view
+	//	"target"	"short"			// best/closest target entity
 	}
 	
 	"hltv_fixed"				// show from fixed view
 	{
-		"posx"		"long"		// camera position in world
-		"posy"		"long"		
-		"posz"		"long"		
-		"theta"		"short"		// camera angles
-		"phi"			"short"		
-		"offset"	"short"
-		"fov"			"float"
-		"target"	"short"		// follow this entity or 0
+	//	"posx"		"long"		// camera position in world
+	//	"posy"		"long"		
+	//	"posz"		"long"		
+	//	"theta"		"short"		// camera angles
+	//	"phi"			"short"		
+	//	"offset"	"short"
+	//	"fov"			"float"
+	//	"target"	"short"		// follow this entity or 0
 	}
 	
 	"hltv_chase"					// shot of a single entity
 	{
-		"target1"		"short"		// primary traget index 
-		"target2"		"short"		// secondary traget index or 0
-		"distance"	"short"		// camera distance
-		"theta"			"short"		// view angle horizontal 
-		"phi"				"short"		// view angle vertical
-		"inertia"		"byte"		// camera inertia
-		"ineye"			"byte"		// diretcor suggests to show ineye
+	//	"target1"		"short"		// primary traget index 
+	//	"target2"		"short"		// secondary traget index or 0
+	//	"distance"	"short"		// camera distance
+	//	"theta"			"short"		// view angle horizontal 
+	//	"phi"				"short"		// view angle vertical
+	//	"inertia"		"byte"		// camera inertia
+	//	"ineye"			"byte"		// diretcor suggests to show ineye
 	}
 	
 	"hltv_message"	// a HLTV message send by moderators
 	{
-		"text"	"string"
+	//	"text"	"string"
 	}
 	
 	"hltv_title"
 	{
-		"text"	"string"
+	//	"text"	"string"
 	}
 	
 	"hltv_chat"	// a HLTV chat msg send by spectators
 	{
-		"text"	"string"
+	//	"text"	"string"
 	}
 }

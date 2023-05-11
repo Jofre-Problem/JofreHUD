@@ -31,28 +31,28 @@
 	// replay specific events
 	//////////////////////////////////////////////////////////////////////
 	
-	"replay_startrecord"	// Sent when the server begins recording - only used to display UI
-	{
-	}
+//	"replay_startrecord"	// Sent when the server begins recording - only used to display UI
+//	{
+//	}
 	
 	"replay_sessioninfo"	// Sent when the server begins recording, or when a client first connects - only sent once per recording session
 	{
 		"sn"	"string"	// session name
-		"di"	"byte"		// dump interval
-		"cb"	"long"		// current block
+//		"di"	"byte"		// dump interval
+//		"cb"	"long"		// current block
 		"st"	"long"		// session start tick
 	}
 	
-	"replay_endrecord"
-	{
-	}
+//	"replay_endrecord"
+//	{
+//	}
 	
-	"replay_replaysavailable"
-	{
-	}
+//	"replay_replaysavailable"
+//	{
+//	}
 	
 	"replay_servererror"
 	{
-		"error"	"string"
+	//	"error"	"string"
 	}
 }

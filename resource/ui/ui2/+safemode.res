@@ -15,7 +15,240 @@
 		"tall"			"f0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"bgcolor_override"	"34 34 34 0"
+		"bgcolor_override"	"17 17 17 1"
+		"Record"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Record"
+		"xpos"							"30"
+		"ypos"							"30"
+		"wide"							"75"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"REC"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_record;tf_spectator_target_location 0;tf_hud_target_id_disable_floating_health 1;cl_vote_non_input_alpha 255;tf_dashboard_slide_time 0.05;echo suggested convars applied"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}
+		"Stop"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Stop"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"75"
+		"tall"							"30"
+	zpos	"100"
+		labelText				"REC STOP"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_stop"
+				pin_to_sibling 			"Record"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}		
+		"ScoutButton"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"ScoutButton"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+		zpos	"100"
+		labelText				"Ñ"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1scout"
+
+			"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+				"pin_to_sibling" "Record"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+		"SoldierButton"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"SoldierButton"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+	zpos	"100"
+		labelText				"Ò"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1soldier"
+				pin_to_sibling 			"ScoutButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+	}	
+		"PyroButton"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"PyroButton"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+	zpos	"100"
+		labelText				"Ó"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1pyro"
+				pin_to_sibling 			"SoldierButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+	}		
+		"DemoBTN"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"DemoBTN"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+		zpos	"100"
+		labelText				"Ô"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1demo"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+				"pin_to_sibling" "ScoutButton"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}	
+		"HeavyButton"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"HeavyButton"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+	zpos	"200"
+		labelText				"Õ"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1heavy"
+				pin_to_sibling 			"DemoBTN"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+	}	
+		"Engiebtn"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Engiebtn"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+	zpos	"200"
+		labelText				"Ö"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1engi"
+				pin_to_sibling 			"HeavyButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+	}			
+		"Medicbtn"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Medicbtn"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+		zpos	"100"
+		labelText				"×"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1medic"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+				"pin_to_sibling" "DemoBTN"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}		
+		"Sniperbtn"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Sniperbtn"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+		zpos	"100"
+		labelText				"Ø"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1sniper"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+				"pin_to_sibling" "Medicbtn"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}			
+		"Spybtn"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Spybtn"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"50"
+		"tall"							"o1"
+		zpos	"100"
+		labelText				"Ù"
+		font					"Future30"
+		textAlignment			center
+		"actionsignallevel"		"2"
+		Command				"engine ds_dir demos/1spy"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"l4d2new2"	
+		paintbackground 			0
+				"pin_to_sibling" "Sniperbtn"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}				
 		"ToolsPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -26,48 +259,16 @@
 		"wide"		"302"
 		"tall"		"436"
 		"visible"		"1"
-		"bgcolor_override"		"GrayDark"
+		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 	}
-
-	"CloseButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CloseButton"
-		"xpos"		"-2"
-		"ypos"		"-2"
-		"zpos"		"10"
-		"wide"		"14"
-		"tall"		"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"labeltext"		"%"
-		"font"		"newicons18"
-		"textAlignment"	"center"
-		"actionsignallevel"	"2"
-		"Command"		"cancel"
-		"proportionaltoparent"		"1"
-
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
-
-		"paintbackground"		"0"
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"Red"
-		"depressedFgColor_override"		"Red"
-
-		"pin_to_sibling"		"ToolsPanel"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"1"
-	}
-
 	"Tools_Title"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Tools_Title"
 		"font"		"Size 28"
-		"labelText"		"Quick Settings"
+		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"1"
@@ -85,23 +286,21 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Panel1"
+		"xpos" "rs1-5"
+		"ypos"	"30"
 		"wide"		"292"
 		"tall"		"94"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"blank"
+		"bgcolor_override"		"0 0 0 100"
 		"proportionaltoparent"		"1"
-
-		"pin_to_sibling"		"Tools_Title"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
 	}
 
 	"VoiceLabel"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"VoiceLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Voice Chat:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -150,7 +349,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VoiceVolume"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -189,7 +388,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TextChatLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Text Chat:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -238,7 +437,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextChatTime"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -277,7 +476,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NotificationsLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Notifications:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -326,7 +525,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotificationsTime"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -365,7 +564,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CCLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"CC Callouts:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -414,7 +613,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CCTime"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -453,7 +652,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MatchHudLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Team Status:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -502,7 +701,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LeftHandedLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Left Handed Weapons:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -568,7 +767,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CrosshairEnableLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Show Xhair:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -617,7 +816,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairScale"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Size:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -656,7 +855,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairRedLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Red:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -695,7 +894,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairGreenLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Green:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -734,7 +933,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairBlueLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Blue:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -773,7 +972,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ColorPresetLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Preset:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1158,7 +1357,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumEnableLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Show DMG:"
 		"textAlignment"	"west"
 		"xpos"		"2"
@@ -1207,7 +1406,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumBatchingLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Adding:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1256,7 +1455,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBatchingWindow"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Time:"
 		"textAlignment"	"west"
 		"xpos"		"3"
@@ -1295,7 +1494,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumRedLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Red:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -1334,7 +1533,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumGreenLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Green:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -1373,7 +1572,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBlueLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Blue:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -1412,7 +1611,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumColorPresetLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Preset:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1797,7 +1996,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TartgetIDBGLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"TargetID BG Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1853,7 +2052,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillFeedLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Killfeed Duration:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -1892,7 +2091,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakAlphaLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Streak Alert Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1931,7 +2130,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakDurationLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Streak Alert Duration:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1987,7 +2186,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HitSoundEnableLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Hit Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -2036,7 +2235,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundVolume"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -2075,7 +2274,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMinLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Low DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -2114,7 +2313,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMaxLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"High DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2153,7 +2352,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"KillSoundEnableLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Kill Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"2"
@@ -2202,7 +2401,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundVolume"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -2241,7 +2440,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMinLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"Low DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -2280,7 +2479,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMaxLabel"
-		"font"		"Size 16"
+		"font"		"Noto16"
 		"labelText"		"High DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2325,7 +2524,7 @@
 		"ControlName"	"CExImageButton"
 			"fieldName"		"tr_walkay"
 			"xpos"	"0"
-			"YPOS"	"rs1-40"
+			"YPOS"	"0"
 			"zpos"										"20"
 			"wide"										"90"
 			"tall"										"12"

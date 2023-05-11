@@ -174,12 +174,12 @@
 	"TagLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"TabLabel"
-		"xpos"		"668"
-		"if_workshop_enabled"
-		{
-			"xpos"	"200"
-		}
+		"fieldName"		"TagLabel"
+		"xpos"		"709"
+	//	"if_workshop_enabled"
+	//	{
+	//		"xpos"	"200"
+	//	}
 		"ypos"		"507"
 		"wide"		"34"
 		"tall"		"24"
@@ -198,11 +198,8 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"		"TagsInclude"
-		"xpos"		"735"
-		"if_workshop_enabled"
-		{
-			"xpos"	"236"
-		}
+		"xpos"		"800"
+	//	"if_workshop_enabled"	{		"xpos"	"236"	}
 		"ypos"		"505"
 		"wide"		"112"
 		"tall"		"24"
@@ -224,15 +221,11 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"TagFilter"
-		"xpos"		"160"
+		"xpos"		"709"
 		"ypos"		"196"
 		"zpos"		"1"
 		"wide"		"290"
-		"if_workshop_enabled"
-		{
-			"xpos"	"352"
-			"wide"	"106"
-		}
+	//	"if_workshop_enabled"		{			"xpos"	"352"		"wide"	"106"		}
 		"tall"		"24"
 		"autoResize"		"1"
 		"pinCorner"		"2"

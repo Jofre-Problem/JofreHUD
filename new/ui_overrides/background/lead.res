@@ -97,15 +97,9 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"use_proportional_insets" 				"1"
-			"font"									""
-			"AllCaps"								"1"
-			"textAlignment"							"south"
-			"wrap"									"1"
-			"centerwrap"							"1"
 			"default"								"1"
 			"proportionaltoparent"					"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-
+			"labeltext"	""
 			"paintbackground"						"0"
 			"paintborder"							"0"
 

@@ -164,7 +164,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Regular12"
+		"TextFont"		"NotoBold12"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

@@ -170,7 +170,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Size 8"
+				"font"			"NotoBold12"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -211,7 +211,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"Size 10"
+				"font"			"NotoBold12"
 				"xpos"			"1"
 				"ypos"			"0"
 				"wide"			"20"
@@ -231,7 +231,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"KillsLabelLabel"
-				"font"		"Size 10"
+				"font"		"NotoBold12"
 				"xpos"		"0"
 				"ypos"		"26"
 				"zpos"		"1"
@@ -264,7 +264,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"ShellsLabel"
-				"font"		"Size 10"
+				"font"		"NotoBold12"
 				"zpos"		"1"
 				"wide"		"50"
 				"tall"		"8"

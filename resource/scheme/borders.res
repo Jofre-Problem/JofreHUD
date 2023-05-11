@@ -9,17 +9,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "2 0"
 				}
 			}
@@ -27,17 +27,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "2 0"
 				}
 			}
@@ -45,17 +45,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "2 0"
 				}
 			}
@@ -63,17 +63,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "15 255 255 255"
+					"color" "NOTOWHITE"
 					"offset" "2 0"
 				}
 			}

@@ -48,8 +48,10 @@
 		"wide"			"6969"
 		"tall"			"6969"
 		"visible"		"0"
+			"alpha"		"150"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blue"
+		"drawcolor"	"Positive"
+		"image"		"replay/thumbnails/hp/white_draw"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 
@@ -88,7 +90,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"		"center"
-		"font"			"Size 16 Uber"
+		"textinsety"	"-1"
+		"font"			"NotoextraBold18"
 		"fgcolor"		"GrayDarkest"
 	}
 

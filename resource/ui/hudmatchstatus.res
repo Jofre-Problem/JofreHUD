@@ -180,14 +180,14 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Regular16"
+		"delta_item_font"		"Notobold16"
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"proportionaltoparent"		"1"
-			"font"			"Regular16"
+			"font"			"Notobold16"
 			"fgcolor"		"White"
 			"bgcolor_override"	"TransparentBlack"
 			"xpos"			"cs-0.5"
@@ -305,7 +305,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Size 8 Shadow"
+				"font"			"NotoBold8"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor_override"		"White"

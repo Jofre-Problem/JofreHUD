@@ -77,7 +77,7 @@
 	
 	"player_chat"				// a public player chat
 	{
-		"teamonly"	"bool"		// true if team only chat
+	//	"teamonly"	"bool"		// true if team only chat
 		"userid" 	"short"		// chatting player 
 		"text" 	 	"string"	// chat text
 	}
@@ -237,18 +237,18 @@
 		"entindex"	"long"
 	}
 	
-	"hltv_changed_mode"
-	{
-		"oldmode"	"short"
-		"newmode"	"short"
-		"obs_target" "short"
-	}
-	"hltv_changed_target"
-	{
-		"mode"		 "short"
-		"old_target" "short"
-		"obs_target" "short"
-	}
+//	"hltv_changed_mode"
+//	{
+//		"oldmode"	"short"
+//		"newmode"	"short"
+//		"obs_target" "short"
+//	}
+//	"hltv_changed_target"
+//	{
+//		"mode"		 "short"
+//		"old_target" "short"
+//		"obs_target" "short"
+//	}
 	
 	// Client side VoteController talking to HUD
 	"vote_ended"
@@ -306,24 +306,24 @@
 // Replay events
 //////////////////////////////////////////////////////////////////////
 
-	"replay_saved"
-	{
-	}
+//	"replay_saved"
+//	{
+//	}
 	
-	"entered_performance_mode"
-	{
-	}
+//	"entered_performance_mode"
+//	{
+//	}
 	
-	"browse_replays"
-	{
-	}
+//	"browse_replays"
+//	{
+//	}
 
-	"replay_youtube_stats"
-	{
-		"views"			"long"
-		"likes"			"long"
-		"favorited"		"long"
-	}
+//	"replay_youtube_stats"
+//	{
+//		"views"			"long"
+//		"likes"			"long"
+//		"favorited"		"long"
+//	}
 
 //////////////////////////////////////////////////////////////////////
 // Economy events, clientside

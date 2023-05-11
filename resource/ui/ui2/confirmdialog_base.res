@@ -28,7 +28,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"border"		"Cs1"		 	
-			"bgcolor_override"				"34 34 34 255"
+			"bgcolor_override"				"Notoblack"
 		}	
 	"TitleLabel"
 	{
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"Size 14"
+		"font"			"Notobold16"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"0"

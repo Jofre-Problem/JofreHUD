@@ -1,15 +1,6 @@
 #base "../../../../cfg/jp_custom_ammo_progressbar.txt"
 #base "../../../../cfg/jp_sniperchar.txt"
 
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/shape_current.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
 
 #base "_tf2hud/hudammoweapons.res"
 
@@ -194,7 +185,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"UberCheckmark"
-		"fgcolor"		"236 240 241 255"
+		"fgcolor"		"220 220 220 255"
 		"xpos"			"-88"	[$WINDOWS]
 		"ypos"			"5"	[$WINDOWS]
 		"xpos"			"-86"	[$LINUX]

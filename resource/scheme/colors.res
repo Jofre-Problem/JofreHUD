@@ -2,7 +2,21 @@ Scheme
 {
 	Colors
 	{
-
+		"NotoWhite"			"220 220 220 255"
+		"NotoBlue"			"70 130 180 125"
+		"NotoRed"			"205 50 50 153"
+		"NotoBlueSolid"		"70 130 180 255"
+		"NotoRedSolid"		"205 50 50 255"
+		"NotoDark"			"32 32 32 255"
+		"NotoGreenSolid"	"90 180 0 255"
+		"NotoDarker"		"43 43 43 255"
+		"NotoGray"			"95 95 95 255"
+		"Notowhite"			"220 220 220 255"
+		"NotoBlack"			"24 24 24 255"
+		"NotoBackground"		"70 130 180 255" //Menu Backgrounds, Backpack, Crafting, MvM Lobby, etc. Wouldn't recommend ever making this transparent.
+		"NotoText"				"220 220 220 255"
+		"NotoMenuText"			"220 220 220 255"
+		"NotoMenuText2"			"24 24 24 255"		
 		"TanLight"											"255 255 255 255"
 
 		"White"												"255 255 255 255"

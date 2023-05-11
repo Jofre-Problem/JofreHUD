@@ -231,4 +231,11 @@
 		"fieldName"		"CapPlayerImage"
 		"xpos"			"9999"
 	}
+	"EscortHilightSwoop"
+	{
+	"ControlName" "CControlPointIconSwoop"
+	"fieldName" "EscortHilightSwoop"
+	"xpos" "9999"
+	"alpha" "0"
+	}	
 }

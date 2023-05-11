@@ -1,29 +1,4 @@
-event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
-{
-	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
-}
 
-event SurveyShowSequence
-{
-	RunEventChild Survey SurveyDelete 0.6
-	RunEvent	SurveyDelete 0.0
-}
-
-event SurveySubmitSequence
-{
-	RunEventChild Survey SurveyDelete 0.6
-}
-
-event SurveyDelete
-{
-	FireCommand 0 "delete"
-}
-
-event SurveyHideSequence
-{
-	SetVisible CloseButton 0 0 
-	RunEventChild Survey SurveyDelete 0.6
-}
 event CompetitiveGame_ShowPvPRankPanel
 {
 	RunEventChild RankPanel PvPRankPanelShowXPChange 0
@@ -226,4 +201,30 @@ event TeamStatus_PlayerAlive
 	SetVisible DeathPanel	0 0.2
 	SetVisible SkullPanel	0 0.2
 	SetVisible respawntime 0 0.2
+}
+event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
+{
+	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
+}
+
+event SurveyShowSequence
+{
+	RunEventChild Survey SurveyDelete 0.6
+	RunEvent	SurveyDelete 0.0
+}
+
+event SurveySubmitSequence
+{
+	RunEventChild Survey SurveyDelete 0.6
+}
+
+event SurveyDelete
+{
+	FireCommand 0 "delete"
+}
+
+event SurveyHideSequence
+{
+	SetVisible CloseButton 0 0 
+	RunEventChild Survey SurveyDelete 0.6
 }

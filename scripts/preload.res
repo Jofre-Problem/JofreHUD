@@ -334,6 +334,12 @@
 			"visible"	"1"
 			"image"	"../hud/class_spyred_cloak.vmt"
 		}		
+		"leaderboard_class_heavy"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../hud/leaderboard_class_heavy.vmt"
+		}			
 		"radialz"
 		{
 			"ControlName"	"ImagePanel"
@@ -408,6 +414,24 @@
 			"visible"	"1"
 			"image"	"crosshairs/../replay/thumbnails/c/c3"
 		}
+		"skybox_upward"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../skybox/sky_upwardbk.vmt"
+		}
+		"skybox_upward2"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../skybox/sky_upwarddn.vmt"
+		}	
+		"skybox_upward3"
+		{
+			"ControlName"	"ImagePanel"
+			"visible"	"1"
+			"image"	"../skybox/sky_upwardbk.vmt"
+		}									
 	}	
 	"crosshair1"
 	{
