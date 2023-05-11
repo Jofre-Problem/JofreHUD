@@ -291,7 +291,7 @@
 						"font"			"QuestLargeText_Merasmus"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 

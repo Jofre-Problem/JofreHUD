@@ -50,7 +50,7 @@
 			//	"0"
 			"labelText"		"Filter"
 			"textAlignment"	"east"
-			"dulltext"		"1"
+			//		"1"
 			
 		}
 		

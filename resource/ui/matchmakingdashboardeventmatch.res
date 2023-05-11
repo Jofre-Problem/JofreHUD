@@ -228,7 +228,7 @@
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"find_game"
 		"proportionaltoparent"	"1"

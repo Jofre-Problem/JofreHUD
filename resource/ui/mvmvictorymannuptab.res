@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"76 70 66 255"
-		"PaintBackgroundType"	"0"	
+		//	
 		"proportionalToParent"	"1"
 	}
 

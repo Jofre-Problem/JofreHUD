@@ -14,118 +14,6 @@
 		"enabled"		"1"
 		//		"0"
 	}
-	"TopGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopGrip"
-		"xpos"		"11"
-		"ypos"		"0"
-		"wide"		"378"
-		"tall"		"5"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"BottomGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"BottomGrip"
-		"xpos"		"11"
-		"ypos"		"295"
-		"wide"		"378"
-		"tall"		"5"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"LeftGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"LeftGrip"
-		"xpos"		"0"
-		"ypos"		"11"
-		"wide"		"5"
-		"tall"		"278"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"RightGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"RightGrip"
-		"xpos"		"395"
-		"ypos"		"11"
-		"wide"		"5"
-		"tall"		"278"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"TopLeftGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopLeftGrip"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"11"
-		"tall"		"11"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"TopRightGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TopRightGrip"
-		"xpos"		"389"
-		"ypos"		"0"
-		"wide"		"11"
-		"tall"		"11"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"BottomLeftGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"BottomLeftGrip"
-		"xpos"		"0"
-		"ypos"		"289"
-		"wide"		"11"
-		"tall"		"11"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-	"BottomRightGrip"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"BottomRightGrip"
-		"xpos"		"389"
-		"ypos"		"289"
-		"wide"		"11"
-		"tall"		"11"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
 	"Caption"
 	{
 		"ControlName"		"Panel"
@@ -155,8 +43,8 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"Maximize"
@@ -174,8 +62,8 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"Close"
@@ -193,8 +81,8 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"SysMenu"
@@ -226,8 +114,8 @@
 		//		"0"
 		"labelText"		"OK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"OK"
 		"Default"		"0"
 	}
@@ -246,8 +134,8 @@
 		//		"0"
 		"labelText"		"Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"Cancel"
 		"Default"		"0"
 	}
@@ -368,8 +256,8 @@
 		//		"0"
 		"labelText"		"Name:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"Label2"
 	{
@@ -386,8 +274,8 @@
 		//		"0"
 		"labelText"		"Start on:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"topHorizLeft"
 	{
@@ -404,8 +292,8 @@
 		//		"0"
 		"labelText"		"94"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"topVertLeft"
 	{
@@ -422,8 +310,8 @@
 		//		"0"
 		"labelText"		"2"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -440,8 +328,8 @@
 		//		"0"
 		"labelText"		"2"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"bottomVertRight"
 	{
@@ -458,8 +346,8 @@
 		//		"0"
 		"labelText"		"2"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"Label3"
 	{
@@ -476,8 +364,8 @@
 		//		"0"
 		"labelText"		"Rate:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"Label4"
 	{
@@ -494,7 +382,7 @@
 		//		"0"
 		"labelText"		"Stop:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 }

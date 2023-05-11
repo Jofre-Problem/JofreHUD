@@ -15,8 +15,8 @@
 		//		"0"
 		"labelText"		"Channel:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"ColorMask"
 	{
@@ -79,8 +79,8 @@
 		//		"0"
 		"labelText"		"-----------Output Level-----------"
 		"textAlignment"		"center"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"OutputLevelSlider"
 	{
@@ -111,8 +111,8 @@
 		//		"0"
 		"labelText"		"Blend Factor:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"BlendFactorSlider"
 	{

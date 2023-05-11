@@ -20,7 +20,7 @@
 		////		"c-230+62"			
 		"ypos"			"325"	
 		////"325+28"
-		"zpos"			"0"
+		
 		"wide"			"124"//"124"
 		"tall"			"36"//"36" //36
 		"visible"		"1"
@@ -59,7 +59,7 @@
 		"fieldName"		"BarShadow"
 		"xpos"			"0"
 		"ypos"			"34"
-		"zpos"	"0"
+		//
 		"wide"			"124"
 		"tall"			"32"
 		"visible"		"1"

@@ -817,7 +817,7 @@
 		"wide"			"44"
 		"tall"			"45"
 		////"autoResize"		"0"
-		"pinCorner"		"3"
+		//"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -833,7 +833,7 @@
 			"labelText"		"U"
 			"font"			"Newicons25"
 			"textAlignment"	"center"
-			//"dulltext"	"0"
+			////	"0"
 			
 			"default"		"1"
 
@@ -864,7 +864,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
+		
 		"border"		"noborder"
 	
 
@@ -881,7 +881,7 @@
 			"tall"			"15"
 			"zpos" "100"
 			////"autoResize"		"0"
-			//"pinCorner"		"0"
+			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"white"

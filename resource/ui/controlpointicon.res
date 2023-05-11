@@ -55,8 +55,8 @@
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
-		"dulltext"		"1"
-		"brighttext"		"1"
+		//		"1"
+		//		"1"
 	}
 
 	"OverlayImage"		//ABC icons

@@ -37,7 +37,7 @@
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -154,7 +154,7 @@
 			"labelText"		"#TF_SelectPlayer_SelectFriends"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"friends"
@@ -178,7 +178,7 @@
 			"labelText"		"#TF_SelectPlayer_SelectServer"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"server"
@@ -328,7 +328,7 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"cancel"

@@ -37,13 +37,13 @@
 		"tall"			"34"
 		
 		
-		"pinCorner"		"3"
+		//"pinCorner"		"3"
 		//"visible"		"1"
 		
 		
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
-		//////"dulltext"		"0"
+		////////		"0"
 		//
 		"Command"		"select_map"
 		"proportionaltoparent"	"1"

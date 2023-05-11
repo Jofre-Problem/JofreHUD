@@ -36,8 +36,8 @@
 		//		"0"
 		"labelText"		"Color One"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"ColorTwoBtn"
@@ -55,8 +55,8 @@
 		//		"0"
 		"labelText"		"Color Two"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 }

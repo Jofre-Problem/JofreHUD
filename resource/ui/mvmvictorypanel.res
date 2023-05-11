@@ -10,7 +10,7 @@
 		"tall"			"230"
 		"visible"		"1"
 		
-		//"PaintBackgroundType"	"0"
+		////
 		//"paintbackground"	"0"
 		//"border"		"MainMenuHighlightBorder"
 		
@@ -183,7 +183,7 @@
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

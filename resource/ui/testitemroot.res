@@ -81,7 +81,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -101,7 +101,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -121,7 +121,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -141,7 +141,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -161,7 +161,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -181,7 +181,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -201,7 +201,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -221,7 +221,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -241,7 +241,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -261,7 +261,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -350,7 +350,7 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_test0"
@@ -374,7 +374,7 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_remove0"
@@ -434,7 +434,7 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_test1"
@@ -458,7 +458,7 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_remove1"
@@ -518,7 +518,7 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_test2"
@@ -542,7 +542,7 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_remove2"
@@ -602,7 +602,7 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_test3"
@@ -626,7 +626,7 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"item_remove3"
@@ -681,7 +681,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -702,7 +702,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -724,7 +724,7 @@
 			"labelText"		"#IT_Bot_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"bot_add"
@@ -779,7 +779,7 @@
 			"labelText"		"#IT_Bot_RemoveAll"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"bot_removeall"
@@ -817,7 +817,7 @@
 		"labelText"		"#IT_ExportLoadout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"export"
@@ -841,7 +841,7 @@
 		"labelText"		"#IT_ImportLoadout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"import"
@@ -865,7 +865,7 @@
 		"labelText"		"#IT_ImportLast"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"importrecent"
@@ -890,7 +890,7 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"cancel"
@@ -914,7 +914,7 @@
 		"labelText"		"#IT_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"ok"
@@ -951,7 +951,7 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"command"		"steamworkshop"
@@ -998,7 +998,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"

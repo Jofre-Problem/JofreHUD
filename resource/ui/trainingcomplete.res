@@ -32,8 +32,8 @@
 			//		"0"
 			"labelText"		"#Button_NextTraining"
 			"textAlignment"		"center"
-			//"dulltext"		"0"
-			//"brighttext"		"0"
+			////		"0"
+			////		"0"
 			//"wrap"		"0"
 			"command"		"next"
 			"font"			"MenuSmallFont"
@@ -61,8 +61,8 @@
 			//		"0"
 			"labelText"		"#Button_QuitTraining"
 			"textAlignment"		"center"
-			//"dulltext"		"0"
-			//"brighttext"		"0"
+			////		"0"
+			////		"0"
 			//"wrap"		"0"
 			"command"		"quit"
 			"font"			"MenuSmallFont"
@@ -88,7 +88,7 @@
 			"enabled"		"1"
 			"labelText"		"#Button_ReplayTraining"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"command"		"replay"
 			"font"			"MenuSmallFont"
@@ -116,7 +116,7 @@
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
-			"PaintBackgroundType"	"0"
+			//
 		}	
 
 		"TopBar"
@@ -138,7 +138,7 @@
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 	}
 

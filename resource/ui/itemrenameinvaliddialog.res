@@ -11,7 +11,7 @@
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"blank"
-		"paintbackgroundtype"	"0"
+		//
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
@@ -234,7 +234,7 @@
 		"labelText"		"#TF_OK"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"backfrominvalid"

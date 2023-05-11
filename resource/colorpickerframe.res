@@ -31,8 +31,8 @@
 			//		"2"
 			"labelText"		"Ok"
 			"textAlignment"		"center"
-			//"dulltext"		"0"
-			//"brighttext"		"0"
+			////		"0"
+			////		"0"
 			"Default"		"1"
 		}
 
@@ -51,8 +51,8 @@
 			//	"3"
 			"labelText"		"Cancel"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
-			//"brighttext"		"0"
+			////		"0"
+			////		"0"
 			"Default"		"0"
 		}
 		

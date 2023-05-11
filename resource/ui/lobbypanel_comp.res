@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"proportionaltoparent"	"1"
 	}

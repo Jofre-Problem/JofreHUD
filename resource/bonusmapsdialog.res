@@ -46,8 +46,8 @@
 		//		"2"
 		"labelText"		"#GameUI_Back"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Command"		"back"
 		"Default"		"0"
@@ -67,8 +67,8 @@
 		//		"3"
 		"labelText"		"#GameUI_Load"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Command"		"loadbonusmap"
 		"Default"		"1"
@@ -88,8 +88,8 @@
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
@@ -109,8 +109,8 @@
 		//		"4"
 		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Command"		"ImportBonusMaps"
 		"Default"		"0"
@@ -158,8 +158,8 @@
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 	}
 	"CompletionText" //Complete text inside the percentage field
@@ -177,8 +177,8 @@
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 	}
 	
@@ -197,8 +197,8 @@
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsHelp"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"wrap"		"1"
 	}
 	
@@ -216,8 +216,8 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"north-west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"font"	"DefaultSmall"
 	}
 	"CommentLabel" //description underneath the file name

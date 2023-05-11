@@ -186,7 +186,7 @@
 			"tall"			"13"
 			"visible"		"0"
 			"enabled"		"1"
-			"paintbackground"	"0"
+			
 			"sound_depressed"	"ambient/bumper_car_quack11.wav"
 		}
 		"BarChartCustomBG"
@@ -213,7 +213,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Blue"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar1B"
 		{
@@ -227,7 +227,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Blue"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel1A"
 		{
@@ -283,7 +283,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"125 161 255 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar2B"
 		{
@@ -296,7 +296,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"125 161 255 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel2A"
 		{
@@ -352,7 +352,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"161 146 249 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar3B"
 		{
@@ -365,7 +365,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"161 146 249 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel3A"
 		{
@@ -421,7 +421,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"194 129 235 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar4B"
 		{
@@ -434,7 +434,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"194 129 235 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel4A"
 		{
@@ -490,7 +490,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"222 108 212 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar5B"
 		{
@@ -503,7 +503,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"222 108 212 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel5A"
 		{
@@ -559,7 +559,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"244 86 182 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar6B"
 		{
@@ -572,7 +572,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"244 86 182 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel6A"
 		{
@@ -628,7 +628,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"255 63 146 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar7B"
 		{
@@ -641,7 +641,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"255 63 146 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel7A"
 		{
@@ -697,7 +697,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"255 48 107 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar8B"
 		{
@@ -710,7 +710,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"255 48 107 255"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel8A"
 		{
@@ -766,7 +766,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Red"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBar9B"
 		{
@@ -779,7 +779,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Red"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"ClassBarLabel9A"
 		{
@@ -836,7 +836,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"TransparentBlack"
-			"PaintBackgroundType"	"0"
+			//
 		}
 		"OverallRecord1Label"
 		{
@@ -1329,14 +1329,14 @@
 "wide""f0"
 "tall""20"
 //"autoResize""0"
-"pinCorner""2"
+//"pinCorner""2"
 "visible""1"
 //"enabled""1"
-//"tabPosition""0"
+////"0"
 "labelText""#TF_Close"
 "textAlignment""center"
-"dulltext""0"
-"brighttext""0"
+//"0"
+//"0"
 "Command""vguicancel"
 }		
 	"TipText"

@@ -17,7 +17,7 @@
 		"collapsed_height"	"0"
 		"expanded_height"	"80"
 
-		"pinCorner"		"2"
+		//"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"OuterShadow"
@@ -30,7 +30,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			//"visible"		"1"
-			//"PaintBackgroundType"	"0"
+			////
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
 
@@ -51,7 +51,7 @@
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
-			"pinCorner"		"2"
+			//"pinCorner"		"2"
 
 			"HideButton"
 			{
@@ -69,7 +69,7 @@
 				
 				"font"			"HudFontSmall"
 				"textAlignment"	"center"
-				//////"dulltext"		"0"
+				////////		"0"
 				//
 				"default"		"0"
 				"labeltext"		""
@@ -119,7 +119,7 @@
 				
 				"font"			"HudFontSmall"
 				"textAlignment"	"center"
-				//////"dulltext"		"0"
+				////////		"0"
 				//
 				"default"		"0"
 				"labeltext"		""

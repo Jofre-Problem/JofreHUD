@@ -17,7 +17,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -67,7 +67,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -308,7 +308,7 @@
 				"ypos"			"rs1"
 				"wide"			"80"
 				"tall"			"50"
-				"PaintBackgroundType"	"0"
+				//
 				"paintborder"	"1"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"1"
@@ -382,7 +382,7 @@
 				"wide"			"80"
 				"tall"			"50"
 				"visible"		"0"
-				"PaintBackgroundType"	"0"
+				//
 				"paintborder"	"1"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"1"

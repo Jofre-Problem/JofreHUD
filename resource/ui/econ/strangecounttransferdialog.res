@@ -25,7 +25,7 @@
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"blank"
-		"paintbackgroundtype"	"0"
+		//
 		"settitlebarvisible"	"0"
 		"proportionaltoparent"	"1"
 		"border"				"GrayDialogBorder"
@@ -182,7 +182,7 @@
 			"labelText"		"#Cancel"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"Command"		"cancel"
@@ -208,7 +208,7 @@
 			"labelText"		"#CraftNameConfirm"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"apply"

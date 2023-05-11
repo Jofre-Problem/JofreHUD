@@ -118,7 +118,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"submit"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -147,7 +147,7 @@
 		"labelText"		"#Replay_Contest_Details"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"viewdetails"
 		"sound_depressed"	"UI/buttonclick.wav"

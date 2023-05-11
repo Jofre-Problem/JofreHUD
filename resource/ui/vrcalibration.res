@@ -292,7 +292,7 @@
 		"labelText"		"#TF_VR_LessLots"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -318,7 +318,7 @@
 		"labelText"		"#TF_VR_Less"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -344,7 +344,7 @@
 		"labelText"		"#TF_VR_More"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -370,7 +370,7 @@
 		"labelText"		"#TF_VR_MoreLots"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -396,7 +396,7 @@
 		"labelText"		"#TF_VR_NextAdjust"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -422,7 +422,7 @@
 		"labelText"		"#TF_VR_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

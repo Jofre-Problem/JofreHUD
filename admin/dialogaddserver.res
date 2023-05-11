@@ -50,8 +50,8 @@
 		"enabled"		"1"
 		"labelText"		"#Dialog_AddServer_IP"
 		"textAlignment"		"south-west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"ExampleLabel"
 	{
@@ -67,8 +67,8 @@
 		"enabled"		"1"
 		"labelText"		"#Dialog_AddServer_Example"
 		"textAlignment"		"west"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"OKButton"
 	{
@@ -85,8 +85,8 @@
 		//		"2"
 		"labelText"		"#Okay_Button"
 		"textAlignment"		"center"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"OK"
 		"Default"		"1"
 	}
@@ -105,8 +105,8 @@
 		//		"3"
 		"labelText"		"#Cancel_Button"
 		"textAlignment"		"center"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"Close"
 		"Default"		"0"
 	}

@@ -48,8 +48,8 @@
 		//		"2"
 		"labelText"		"#Chat_Panel_Send"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"1"
 	}
 }

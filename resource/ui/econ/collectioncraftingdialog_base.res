@@ -85,7 +85,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -586,7 +586,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -669,7 +669,7 @@
 				"sound_armed"		"UI/buttonrollover.wav"
 			
 				"paintbackground"	"0"
-				"paintbackgroundtype"	"0"
+				//
 				"defaultBgColor_Override"	"0 0 0 255"
 			
 				"paintborder"		"0"
@@ -816,7 +816,7 @@
 		"textAlignment"	"center"
 		"centerwrap"	"0"
 		
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"placestamp"
@@ -848,7 +848,7 @@
 		"labelText"		"Send"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"envelopesend"
@@ -876,7 +876,7 @@
 		"tall"					"250"
 		"bgcolor_override"		"blank"
 		"paintborder"			"0"
-		"paintbackgroundtype"	"0"
+		//
 		"proportionaltoparent"	"1"
 
 		"PaperContainer"
@@ -940,7 +940,7 @@
 				"labelText"		"#TF_CollectionCrafting_Submit"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"Command"		"doneselectingitems"
@@ -974,7 +974,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1029,7 +1029,7 @@
 		"labelText"		"#TF_CollectionCrafting_NextItem"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"nextitem"
@@ -1054,7 +1054,7 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"startexplanation1"
@@ -1079,7 +1079,7 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"reload"
@@ -1104,7 +1104,7 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"startexplanation2"
@@ -1190,7 +1190,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1255,7 +1255,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1365,7 +1365,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1412,7 +1412,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1543,7 +1543,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1609,7 +1609,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1720,7 +1720,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1767,7 +1767,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"

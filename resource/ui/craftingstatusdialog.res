@@ -10,7 +10,7 @@
 		"wide"					"200"
 		"tall"					"110"
 		"bgcolor_override"		"blank"
-		"paintbackgroundtype"	"0"
+		//
 		"settitlebarvisible"	"0"
 		"border"				"GrayDialogBorder"
 	}
@@ -110,7 +110,7 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"

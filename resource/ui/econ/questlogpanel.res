@@ -162,7 +162,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -244,7 +244,7 @@
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"paintborder"	"0"
 			"proportionaltoparent"	"1"
 		
@@ -318,7 +318,7 @@
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
@@ -398,7 +398,7 @@
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"

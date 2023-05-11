@@ -14,7 +14,7 @@
 		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"0"
-		"PaintBackgroundType"						"0"
+		//
 
 
 
@@ -191,7 +191,7 @@
 		wide					20
 		tall					20
 		"bgcolor_override"		"Blank"
-		"paintBackground"	"0"
+		
 
 				"SubButton"
 			{
@@ -202,10 +202,10 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				////"autoResize"		"0"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				//"tabPosition"	"0"
+				////	"0"
 				"font"			"newicons12"
 				"textAlignment"	"center"
 				"labelText"		"c"
@@ -213,8 +213,8 @@
 				"proportionaltoparent"	"1"
 				"default"		"1"
 				"actionsignallevel" "2"
-				"paintbackground"	"0"
-				"textinsety"		"0"
+				
+				
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -247,7 +247,7 @@
 		wide					20
 		tall					20
 		"bgcolor_override"		"Blank"
-		"paintBackground"	"0"
+		
 	"pin_to_sibling"	"CallVoteButton2"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -262,10 +262,10 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				////"autoResize"		"0"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				//"tabPosition"	"0"
+				////	"0"
 				"font"			"newicons12"
 				"textAlignment"	"center"
 				"labelText"		"M"
@@ -273,8 +273,8 @@
 				"proportionaltoparent"	"1"
 				"default"		"1"
 				"actionsignallevel" "2"
-				"paintbackground"	"0"
-				"textinsety"		"0"
+				
+				
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -303,7 +303,7 @@
 		wide					20
 		tall					20
 		"bgcolor_override"		"Blank"
-		"paintBackground"	"0"
+		
 			"pin_to_sibling"	"MutePlayersButton2"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
@@ -319,10 +319,10 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				////"autoResize"		"0"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
-				//"tabPosition"	"0"
+				////	"0"
 				"font"			"newicons12"
 				"textAlignment"	"center"
 				"labelText"		"!"
@@ -331,8 +331,8 @@
 				"default"		"1"
 				"actionsignallevel" "2"
 				"actionsignallevel" "2"
-				"paintbackground"	"0"
-				"textinsety"		"0"
+				
+				
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -380,7 +380,7 @@
 		"tall"			"40"
 		paintBackground			0
 		paintBorder				0
-		"PaintBackgroundType"	"0"
+		//
 		
 		"SubImage"
 		{
@@ -707,7 +707,7 @@
 			"labelText"		"p"
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
-			//"dulltext"	"0"
+			////	"0"
 			
 			"default"		"1"
 			

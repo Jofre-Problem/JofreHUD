@@ -98,7 +98,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 	}
 	"FiltersBG"
@@ -114,7 +114,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 
 		"pin_to_sibling"							"BackpackBG"
@@ -134,7 +134,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"LighterDarkBrown"
 
 		"Icon"

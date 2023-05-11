@@ -38,7 +38,7 @@
 //		"wide"		"600"	
 //		"tall"		"318"	
 
-			"PaintBackgroundType"	"0"
+			//
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
 			"border"		"CS1"			
@@ -97,7 +97,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		//
 	"MMBackground0"
 	{
 		"ControlName"	"ImagePanel"
@@ -295,7 +295,7 @@
 		"tall"		"24"
 		//"visible"		"1"
 		"textAlignment"	"center"
-		"tabPosition"		"0"
+		//		"0"
 		"labelText"		"uwu"
 		"zpos"	"200"
 	}

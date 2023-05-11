@@ -107,7 +107,7 @@
 		"labelText"		"#Store_LearnMore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"

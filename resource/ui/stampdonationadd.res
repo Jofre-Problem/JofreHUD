@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 	}
 	
 	"TitleLabel"
@@ -124,7 +124,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"nope"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -149,7 +149,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"add_stamp_to_cart"
 		"sound_depressed"	"UI/buttonclick.wav"

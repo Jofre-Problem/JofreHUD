@@ -43,8 +43,8 @@
 		//		"2"
 		"labelText"		"#TrackerUI_RemoveUser"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"OK"
 		"Default"		"0"
 	}
@@ -63,8 +63,8 @@
 		//		"1"
 		"labelText"		"#TrackerUI_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"Close"
 		"Default"		"0"
 	}
@@ -83,8 +83,8 @@
 		//		"0"
 		"labelText"		"You are about to remove johnc from your contact list."
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"InfoLabel"
 	{
@@ -101,8 +101,8 @@
 		//		"0"
 		"labelText"		"#TrackerUI_WarningNoLongerSeeYou"
 		"textAlignment"		"west"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 		"wrap"			"1"
 	}
 }

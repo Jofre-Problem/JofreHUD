@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		//
 
 		"stats_buffer_width"	"30"
 	}

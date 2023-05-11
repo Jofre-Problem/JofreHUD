@@ -929,7 +929,7 @@
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		//
 	}
 	
 	"HudMenuEngyDestroy"
@@ -941,7 +941,7 @@
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		//
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -953,7 +953,7 @@
 		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
-		"PaintBackgroundType"	"0"
+		//
 	}
 	
 	"HudMenuSpyDisguise"
@@ -965,7 +965,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"	
-		"PaintBackgroundType"	"0"
+		//
 	}	
 	
 	HudDemomanPipes
@@ -1281,7 +1281,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"blank"
-		"PaintBackgroundType"	"0" // rounded corners
+		// // rounded corners
 	}
 
 	"HudAlert"
@@ -1306,7 +1306,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"blank"
-		"PaintBackgroundType"	"0" // rounded corners
+		// // rounded corners
 	}
 
 	CTFFlagCalloutPanel
@@ -1330,7 +1330,7 @@
 		"ypos"			"c-52"
 		"wide"			"470"
 		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		//
 	}
 
 	"ItemAttributeTracker"
@@ -1342,7 +1342,7 @@
 		"ypos"			"0"
 		"wide"			"f5"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		//
 	}
 
 	HudMiniGame

@@ -396,7 +396,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		//
 	}
 	
 	WinPanel

@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -79,7 +79,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
+			//
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -154,7 +154,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -198,7 +198,7 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"

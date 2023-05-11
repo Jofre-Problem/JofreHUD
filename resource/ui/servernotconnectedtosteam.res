@@ -10,7 +10,7 @@
 		"wide"					"320"
 		"tall"					"140"
 		"bgcolor_override"		"0 0 0 255"
-		"paintbackgroundtype"	"0"
+		//
 	}
 
 	"TitleLabel"
@@ -68,7 +68,7 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"

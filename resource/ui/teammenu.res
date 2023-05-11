@@ -126,7 +126,7 @@
 				"fieldName"		"redprogresscount"
 				xpos						r0-p0.325
 				ypos					cs-0.5
-				"zpos"			"0"
+				
 				"wide"			"p0.15"
 				"tall"			"o1"
 				"visible"		"1"

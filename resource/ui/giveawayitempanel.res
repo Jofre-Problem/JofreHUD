@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -159,7 +159,7 @@
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"vguicancel"
 		"default"		"1"

@@ -105,7 +105,7 @@
 			"wide"			"35"
 			"tall"			"2"
 			////"autoResize"		"0"
-			//"pinCorner"		"0"
+			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/hp/redteam2"

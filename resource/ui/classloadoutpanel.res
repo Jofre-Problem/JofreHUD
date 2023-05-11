@@ -22,7 +22,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"PaintBackgroundType"						"0"
+		//
 		"bgcolor_override"							"DarkBrown"
 		"infocus_bgcolor_override" 					"DarkBrown"
 		"outoffocus_bgcolor_override"				"DarkBrown"
@@ -52,7 +52,7 @@
 			"visible"								"0"
 			"bgcolor_override"						"Blank"
 			"noitem_textcolor"						"White"
-			"PaintBackgroundType"					"0"
+			//
 			"paintborder"							"1"
 
 			"model_center_x"						"1"
@@ -190,7 +190,7 @@
 		"tall"										"75"
 		"visible"									"0"
 		"bgcolor_override"							"69 64 63 255"
-		"PaintBackgroundType"						"0"
+		//
 	}
 
 	"CharacterLoadoutButton"

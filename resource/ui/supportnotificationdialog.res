@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
@@ -80,7 +80,7 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"show_later"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -113,7 +113,7 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"acknowledge"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -30,7 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"border"				"QuickplayBorder"
 		
@@ -121,7 +121,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"prevpage"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -145,7 +145,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"

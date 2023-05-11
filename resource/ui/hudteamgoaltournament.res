@@ -113,7 +113,7 @@
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"125 125 125 125"
-			"PaintBackgroundType"	"0"
+			//
 		}
 
 		"HudStopWatchObjectiveText2"

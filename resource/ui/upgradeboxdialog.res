@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 	}
 	
 	"TitleLabel"
@@ -73,7 +73,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"upgrade"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -102,7 +102,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"

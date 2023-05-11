@@ -13,7 +13,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"0"
 
 		if_war_active
@@ -99,7 +99,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -211,7 +211,7 @@
 					"use_proportional_insets" "1"
 					"font"			"HudFontSmall"
 					"textAlignment"	"south-east"
-					//"dulltext"		"0"
+					////		"0"
 					
 					"default"		"1"
 					"labelText"			"#MMenu_ViewUpdateComic" 
@@ -248,7 +248,7 @@
 					"use_proportional_insets" "1"
 					"font"			"HudFontSmall"
 					"textAlignment"	"center"
-					//"dulltext"		"0"
+					////		"0"
 					
 					"default"		"1"
 					"labelText"			"%end_date%" 
@@ -687,7 +687,7 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"default"		"1"
 							"labelText"			"#Voice_Menu_Yes" 
@@ -727,7 +727,7 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"default"		"1"
 							"labelText"			"#Store_CANCEL" 
@@ -841,7 +841,7 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"default"		"1"
 							"labelText"			"#TF_OK" 
@@ -928,7 +928,7 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"default"		"1"
 							"labelText"			"#TF_OK" 
@@ -1029,7 +1029,7 @@
 						"use_proportional_insets" "1"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 						"labelText"			"#JoinHeavyButton" 
@@ -1081,7 +1081,7 @@
 						"use_proportional_insets" "1"
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 						"labelText"			"#JoinPyroButton" 

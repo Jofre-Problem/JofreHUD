@@ -29,7 +29,7 @@
 		//		"0"
 		"labelText"	"#GameUI_ContentStatusDisabled"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 	}
 	"PasswordPrompt"
 	{
@@ -46,7 +46,7 @@
 		//		"0"
 		"labelText"		"#GameUI_PasswordPrompt"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 	}
 	"PasswordReentryPrompt"
 	{
@@ -63,7 +63,7 @@
 		//		"0"
 		"labelText"		"#GameUI_PasswordReentryPrompt"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 	}
 	"ContentControlExplain"
 	{
@@ -80,7 +80,7 @@
 		//		"0"
 		"labelText"		""
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 	}
 	"Password"
 	{
@@ -131,7 +131,7 @@
 		//		"3"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"Ok"
 		"default"		"1"
 	}
@@ -150,7 +150,7 @@
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"Cancel"
 		"default"		"0"
 	}

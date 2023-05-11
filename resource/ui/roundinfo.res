@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"continue"
 		"default"		"1"
@@ -163,7 +163,7 @@
 		//	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+		//
 	}	
 	
 	"Footer"

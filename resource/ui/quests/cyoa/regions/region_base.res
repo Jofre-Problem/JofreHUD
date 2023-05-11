@@ -107,7 +107,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"		"0"
 			"keyboardinputenabled"	"0"

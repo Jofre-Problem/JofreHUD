@@ -26,7 +26,7 @@
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomNotoMonoMedium"   
 			"wrap"			"1"
@@ -46,7 +46,7 @@
 			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"	"north-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomVerdanaSmall"   
 			"wrap"			"1"
@@ -66,7 +66,7 @@
 			"enabled"		"1"
 			"labelText"		"#TF_custom_font_mod_wants_to_vote"
 			"textAlignment"	"north-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomVerdanaSmall"   
 			"wrap"			"1"
@@ -85,7 +85,7 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"128 128 128 255"
@@ -106,7 +106,7 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomNotoMonoMedium"  
 			"fgcolor_override"	"255 255 255 255"
@@ -127,7 +127,7 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"255 255 255 255"
@@ -148,7 +148,7 @@
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"south-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"CustomVerdanaSmall"  
 			"fgcolor_override"	"255 255 255 255"
@@ -199,7 +199,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -234,7 +234,7 @@
 			"enabled"		"1"
 			"labelText"		"Yes"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -253,7 +253,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -287,7 +287,7 @@
 			"enabled"		"1"
 			"labelText"		"No"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -306,7 +306,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -340,7 +340,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -374,7 +374,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
@@ -420,7 +420,7 @@
 			"enabled"		"1"
 			"labelText"		"#GameUI_vote_current_vote_count"
 			"textAlignment"	"north-west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"128 128 128 255"
@@ -457,10 +457,10 @@
 		"wide"				"420"
 		"tall"				"310"
 		//"autoResize"		"0"
-		"pinCorner"			"0"
+		//"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
+		//		"0"
 		"settitlebarvisible"	"0"
 
 		// "bgcolor_override"	"52 48 45 255" // Remove 2 slashes from beginning of this line to force gray background in vote setup list.
@@ -479,10 +479,10 @@
 			"zpos"		"2"
 			"wide"		"160"
 			"tall"		"200"
-			"pinCorner"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			//	"0"
 			
 			"linespacing"	"16"
 		}
@@ -496,10 +496,10 @@
 			"zpos"		"2"
 			"wide"		"255"
 			"tall"		"200"
-			"pinCorner"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			//	"0"
 			
 			"linespacing"	"16"
 		}

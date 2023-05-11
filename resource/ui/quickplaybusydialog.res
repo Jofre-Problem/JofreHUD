@@ -30,7 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"border"				"QuickplayBorder"
 
@@ -117,7 +117,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -140,7 +140,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"border"				"QuickplayBorder"
 
@@ -209,7 +209,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"ConnectToServer"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -234,7 +234,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"user_close"
 			"sound_depressed"	"UI/buttonclick.wav"

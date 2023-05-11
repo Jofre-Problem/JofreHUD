@@ -54,8 +54,8 @@
 		"labelText"		"#Cancel"
 		"font"			"NotoBold28"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
-		"paintbackground"	"0"
+		////		"0"
+		
 		
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
@@ -74,7 +74,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
-		"paintbackground"	"0"
+		
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -82,7 +82,7 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"NotoBold28"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		

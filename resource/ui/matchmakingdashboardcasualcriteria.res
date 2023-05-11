@@ -81,14 +81,14 @@
 		"wide"										"300"
 		"tall"										"20"
 		"autoResize"								"0"
-		"pinCorner"									"3"
+		//"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
+		//								"0"
 		"font"										"Size 16"
 		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
+		//									"0"
+		//								"0"
 		"Command"									"find_game"
 		"proportionaltoparent"						"1"
 		"labeltext"									"#TF_Matchmaking_StartSearch"
@@ -100,7 +100,7 @@
 		"sound_depressed"							"ui/buttonclick.wav"
 		
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 	}
 }

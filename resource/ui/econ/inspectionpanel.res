@@ -12,7 +12,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 		"proportionaltoparent" 						"1"
 
@@ -165,7 +165,7 @@
 			"sound_armed"							"UI/buttonrollover.wav"
 
 			"paintbackground"						"0"
-			"paintbackgroundtype"					"0"
+			//
 			"defaultBgColor_Override"				"0 0 0 255"
 
 			"paintborder"							"0"
@@ -231,7 +231,7 @@
 		"tall"										"100"
 		"zpos"										"100"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 		"mouseinputenabled"							"1"
 		"proportionaltoparent"						"1"
@@ -339,7 +339,7 @@
 				"defaultBgColor_override"			"LighterDarkBrown"
 				"armedFgColor_override"				"White"
 				"armedBgColor_override"				"LighterDarkBrown"
-				"paintbackgroundtype"				"0"
+				//
 			}
 		}
 
@@ -414,7 +414,7 @@
 				"defaultBgColor_override"			"LighterDarkBrown"
 				"armedFgColor_override"				"White"
 				"armedBgColor_override"				"LighterDarkBrown"
-				"paintbackgroundtype"				"0"
+				//
 			}
 		}
 

@@ -37,7 +37,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"bgcolor_override"		"blank"
-			"PaintBackgroundType"	"0"
+			//
 			"paintborder"	"0"
 			// "0"
 			"skip_autoresize" "1"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"

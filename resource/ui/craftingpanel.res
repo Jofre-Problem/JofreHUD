@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"BlackLight"
 		"infocus_bgcolor_override" "BlackLight"
 		"outoffocus_bgcolor_override" "BlackLight"
@@ -36,7 +36,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"WhiteGray"
-			"PaintBackgroundType"	"0"
+			//
 			"paintborder"	"1"
 
 			"model_ypos"	"5"
@@ -138,7 +138,7 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Blank"
 
 		"RecipeTitle"
@@ -266,7 +266,7 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"PaintBackgroundType"	"0"
+		//
 		"fgcolor_override"	"WhiteGray"
 		"bgcolor_override"	"Blank"
 		"autohide_buttons" "1"
@@ -281,7 +281,7 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Blank"
 	}
 
@@ -297,7 +297,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"WhiteGray"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"1"
 
 		"text_ypos"			"20"
@@ -336,7 +336,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"WhiteGray"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"1"
 
 		"model_ypos"	"5"
@@ -362,7 +362,7 @@
 		"wide"			"140"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		//
 		"border"		"MainMenuBGBorder"
 
 		"TipLabel"

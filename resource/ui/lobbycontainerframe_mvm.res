@@ -26,7 +26,7 @@
 		"labelText"		"#TF_MvM_LearnMore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"learn_more"
 
@@ -56,7 +56,7 @@
 		"font"			"HudFontMediumBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"mannup"
 
@@ -90,7 +90,7 @@
 		"font"			"HudFontMediumBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"practice"
 
@@ -120,7 +120,7 @@
 		"zpos"			"8"
 		"wide"			"200"
 		"tall"			"285"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"

@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -340,7 +340,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -383,7 +383,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -778,7 +778,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -802,7 +802,7 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"show_explanations"
@@ -888,7 +888,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -953,7 +953,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1063,7 +1063,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1110,7 +1110,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1175,7 +1175,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1285,7 +1285,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1332,7 +1332,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1379,7 +1379,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1507,7 +1507,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1554,7 +1554,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1601,7 +1601,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1729,7 +1729,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1776,7 +1776,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1823,7 +1823,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1951,7 +1951,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -1998,7 +1998,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2045,7 +2045,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2173,7 +2173,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2220,7 +2220,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2267,7 +2267,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2395,7 +2395,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2442,7 +2442,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2489,7 +2489,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2616,7 +2616,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2663,7 +2663,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"

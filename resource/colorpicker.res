@@ -92,8 +92,8 @@
 			//		"8"
 			"labelText"			"H"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"1"
@@ -114,8 +114,8 @@
 			//		"8"
 			"labelText"			"S"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"2"
@@ -136,8 +136,8 @@
 			//		"8"
 			"labelText"			"V"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"3"
@@ -158,8 +158,8 @@
 			//		"8"
 			"labelText"			"R"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"4"
@@ -180,8 +180,8 @@
 			//		"8"
 			"labelText"			"G"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"5"
@@ -202,8 +202,8 @@
 			//		"8"
 			"labelText"			"B"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 			"wrap"				"0"
 			"Default"			"0"
 			"SubTabPosition"	"6"
@@ -225,8 +225,8 @@
 			//		"1"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 		
 		"SaturationText"
@@ -245,8 +245,8 @@
 			//		"2"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"SaturationLabel"
@@ -265,8 +265,8 @@
 			//		"0"
 			"labelText"			"%"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"ValueText"
@@ -285,8 +285,8 @@
 			//		"3"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"ValueLabel"
@@ -305,8 +305,8 @@
 			//		"0"
 			"labelText"			"%"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"RedText"
@@ -325,8 +325,8 @@
 			//		"4"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"GreenText"
@@ -345,8 +345,8 @@
 			//		"5"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 
 		"BlueText"
@@ -365,8 +365,8 @@
 			//		"6"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}		
 			
 		"AlphaText"
@@ -385,8 +385,8 @@
 			//		"7"
 			"labelText"			""
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}	
 		
 		"AlphaLabel"
@@ -405,8 +405,8 @@
 			//		"0"
 			"labelText"			"A"
 			"textAlignment"		"west"
-			"dulltext"			"0"
-			//"brighttext"		"0"
+			//			"0"
+			////		"0"
 		}
 	}
 }

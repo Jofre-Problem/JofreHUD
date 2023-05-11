@@ -431,611 +431,612 @@
 			"ControlName"	"ImagePanel"
 			"visible"	"1"
 			"image"	"../skybox/sky_upwardbk.vmt"
+		}		
+		"crosshair1"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"crosshair1"
+			
+			"visible"			"1"
+			
+			"image"				"crosshairs/../replay/thumbnails/w"
+		}	
+		"crosshair2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"crosshair2"
+			
+			"visible"			"1"
+			
+			"image"				"crosshairs/../replay/thumbnails/s"
+		}	
+		"crosshair3"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"crosshair3"
+			
+			"visible"			"1"
+			
+			"image"				"crosshairs/../replay/thumbnails/a"
+		}	
+		"crosshair4"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"crosshair4"
+			
+			"visible"			"1"
+			
+			"image"				"crosshairs/../replay/thumbnails/d"
+		}				
+		"icon_obj_1_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_blu"
+		}
+		"icon_obj_1_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_blu_locked"
+		}
+		"icon_obj_1_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_neutral"
+		}
+		"icon_obj_1_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_neutral_locked"
+		}
+		"icon_obj_1_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_red"
+		}
+		"icon_obj_1_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_1_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_1_red_locked"
+		}
+		"icon_obj_2_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_blu"
+		}
+		"icon_obj_2_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_blu_locked"
+		}
+		"icon_obj_2_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_neutral"
+		}
+		"icon_obj_2_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_neutral_locked"
+		}
+		"icon_obj_2_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_red"
+		}
+		"icon_obj_2_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_2_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_2_red_locked"
+		}
+		"icon_obj_3_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_blu"
+		}
+		"icon_obj_3_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_blu_locked"
+		}
+		"icon_obj_3_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_neutral"
+		}
+		"icon_obj_3_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_neutral_locked"
+		}
+		"icon_obj_3_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_red"
+		}
+		"icon_obj_3_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_3_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_3_red_locked"
+		}
+		"icon_obj_4_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_blu"
+		}
+		"icon_obj_4_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_blu_locked"
+		}
+		"icon_obj_4_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_neutral"
+		}
+		"icon_obj_4_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_neutral_locked"
+		}
+		"icon_obj_4_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_red"
+		}
+		"icon_obj_4_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_4_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_4_red_locked"
+		}
+		"icon_obj_5_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_blu"
+		}
+		"icon_obj_5_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_blu_locked"
+		}
+		"icon_obj_5_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_neutral"
+		}
+		"icon_obj_5_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_neutral_locked"
+		}
+		"icon_obj_5_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_red"
+		}
+		"icon_obj_5_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_5_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_5_red_locked"
+		}
+		"icon_obj_a"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_a"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_a"
+		}
+		"icon_obj_b"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_b"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_b"
+		}
+		"icon_obj_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_blu"
+		}
+		"icon_obj_blu_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_blu_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_blu_locked"
+		}
+		"icon_obj_blu_mannhattan"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_blu_mannhattan"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_blu_mannhattan"
+		}
+		"icon_obj_blu_mannhattan_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_blu_mannhattan_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
+		}
+		"icon_obj_c"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_c"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_c"
+		}
+		"icon_obj_cap_blu"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_cap_blu"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_cap_blu"
+		}
+		"icon_obj_cap_blu_up"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_cap_blu_up"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
+		}
+		"icon_obj_cap_mask"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_cap_mask"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_cap_mask"
+		}
+		"icon_obj_cap_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_cap_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_cap_red"
+		}
+		"icon_obj_cap_red_up"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_cap_red_up"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
+		}
+		"icon_obj_d"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_d"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_d"
+		}
+		"icon_obj_e"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_e"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_e"
+		}
+		"icon_obj_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_neutral"
+		}
+		"icon_obj_neutral_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_neutral_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
+		}
+		"icon_obj_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_red"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_red"
+		}
+		"icon_obj_red_locked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_red_locked"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_red_locked"
+		}
+		"icon_obj_white"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"icon_obj_white"
+			
+			"visible"			"1"
+			
+			"image"				"../sprites/obj_icons/icon_obj_white"
+		}
+		"cart_arrow_left"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_arrow_left"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_arrow_left"
+		}
+		"cart_blocked"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_blocked"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_blocked"
+		}
+		"cart_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_neutral"
+		}
+		"cart_point_blue"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_blue"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_blue"
+		}
+		"cart_point_blue_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_blue_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_blue_opaque"
+		}
+		"cart_point_neutral"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_neutral"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_neutral"
+		}
+		"cart_point_neutral_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_neutral_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_neutral_opaque"
+		}
+		"cart_point_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_red"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_red"
+		}
+		"cart_point_red_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_point_red_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_point_red_opaque"
+		}
+		"cart_track_blue"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_track_blue"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_track_blue"
+		}
+		"cart_track_blue_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_track_blue_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_track_blue_opaque"
+		}
+		"cart_track_neutral_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_track_neutral_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_track_neutral_opaque"
+		}
+		"cart_track_red"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_track_red"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_track_red"
+		}
+		"cart_track_red_opaque"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"cart_track_red_opaque"
+			
+			"visible"			"1"
+			
+			"image"				"../hud/cart_track_red_opaque"
 		}									
 	}	
-	"crosshair1"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"crosshair1"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"crosshairs/../replay/thumbnails/w"
-	}	
-	"crosshair2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"crosshair2"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"crosshairs/../replay/thumbnails/s"
-	}	
-	"crosshair3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"crosshair3"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"crosshairs/../replay/thumbnails/a"
-	}	
-	"crosshair4"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"crosshair4"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"crosshairs/../replay/thumbnails/d"
-	}				
-	"icon_obj_1_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_blu"
-	}
-	"icon_obj_1_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_blu_locked"
-	}
-	"icon_obj_1_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_neutral"
-	}
-	"icon_obj_1_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_neutral_locked"
-	}
-	"icon_obj_1_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_red"
-	}
-	"icon_obj_1_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_1_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_1_red_locked"
-	}
-	"icon_obj_2_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_blu"
-	}
-	"icon_obj_2_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_blu_locked"
-	}
-	"icon_obj_2_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_neutral"
-	}
-	"icon_obj_2_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_neutral_locked"
-	}
-	"icon_obj_2_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_red"
-	}
-	"icon_obj_2_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_2_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_2_red_locked"
-	}
-	"icon_obj_3_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_blu"
-	}
-	"icon_obj_3_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_blu_locked"
-	}
-	"icon_obj_3_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_neutral"
-	}
-	"icon_obj_3_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_neutral_locked"
-	}
-	"icon_obj_3_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_red"
-	}
-	"icon_obj_3_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_3_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_3_red_locked"
-	}
-	"icon_obj_4_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_blu"
-	}
-	"icon_obj_4_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_blu_locked"
-	}
-	"icon_obj_4_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_neutral"
-	}
-	"icon_obj_4_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_neutral_locked"
-	}
-	"icon_obj_4_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_red"
-	}
-	"icon_obj_4_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_4_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_4_red_locked"
-	}
-	"icon_obj_5_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_blu"
-	}
-	"icon_obj_5_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_blu_locked"
-	}
-	"icon_obj_5_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_neutral"
-	}
-	"icon_obj_5_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_neutral_locked"
-	}
-	"icon_obj_5_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_red"
-	}
-	"icon_obj_5_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_5_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_5_red_locked"
-	}
-	"icon_obj_a"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_a"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_a"
-	}
-	"icon_obj_b"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_b"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_b"
-	}
-	"icon_obj_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_blu"
-	}
-	"icon_obj_blu_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_blu_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_blu_locked"
-	}
-	"icon_obj_blu_mannhattan"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_blu_mannhattan"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_blu_mannhattan"
-	}
-	"icon_obj_blu_mannhattan_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_blu_mannhattan_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
-	}
-	"icon_obj_c"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_c"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_c"
-	}
-	"icon_obj_cap_blu"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_cap_blu"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_blu"
-	}
-	"icon_obj_cap_blu_up"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_cap_blu_up"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
-	}
-	"icon_obj_cap_mask"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_cap_mask"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_mask"
-	}
-	"icon_obj_cap_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_cap_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_red"
-	}
-	"icon_obj_cap_red_up"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_cap_red_up"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
-	}
-	"icon_obj_d"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_d"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_d"
-	}
-	"icon_obj_e"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_e"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_e"
-	}
-	"icon_obj_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_neutral"
-	}
-	"icon_obj_neutral_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_neutral_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_neutral_locked"
-	}
-	"icon_obj_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_red"
-	}
-	"icon_obj_red_locked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_red_locked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_red_locked"
-	}
-	"icon_obj_white"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"icon_obj_white"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_white"
-	}
-	"cart_arrow_left"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_arrow_left"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_arrow_left"
-	}
-	"cart_blocked"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_blocked"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_blocked"
-	}
-	"cart_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_neutral"
-	}
-	"cart_point_blue"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_blue"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_blue"
-	}
-	"cart_point_blue_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_blue_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_blue_opaque"
-	}
-	"cart_point_neutral"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_neutral"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_neutral"
-	}
-	"cart_point_neutral_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_neutral_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_neutral_opaque"
-	}
-	"cart_point_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_red"
-	}
-	"cart_point_red_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_point_red_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_point_red_opaque"
-	}
-	"cart_track_blue"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_track_blue"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_track_blue"
-	}
-	"cart_track_blue_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_track_blue_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_track_blue_opaque"
-	}
-	"cart_track_neutral_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_track_neutral_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_track_neutral_opaque"
-	}
-	"cart_track_red"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_track_red"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_track_red"
-	}
-	"cart_track_red_opaque"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"cart_track_red_opaque"
-		"xpos"				"r-100"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/cart_track_red_opaque"
-	}
+
 	//Class Portraits
 	
 }

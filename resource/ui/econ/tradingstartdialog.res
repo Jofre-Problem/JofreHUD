@@ -37,7 +37,7 @@
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -153,7 +153,7 @@
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"friends"
@@ -177,7 +177,7 @@
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"server"
@@ -201,7 +201,7 @@
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"profile"
@@ -449,7 +449,7 @@
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"url_ok"
@@ -475,7 +475,7 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"cancel"

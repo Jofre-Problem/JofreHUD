@@ -31,8 +31,8 @@
 		"enabled"		"1"
 		"labelText"		"#Password_Panel_Old"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"newrcon1textentry"
 	{
@@ -65,8 +65,8 @@
 		"enabled"		"1"
 		"labelText"		"#Password_Panel_New"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"newrcon2textentry"
 	{
@@ -99,8 +99,8 @@
 		"enabled"		"1"
 		"labelText"		"#Password_Panel_Confirm"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"Label4"
 	{
@@ -116,8 +116,8 @@
 		"enabled"		"1"
 		"labelText"		"#Password_Panel_Player"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"PlayerPasswordTextEntry"
 	{
@@ -151,8 +151,8 @@
 		//		"5"
 		"labelText"		"#Password_Panel_Remove"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 }

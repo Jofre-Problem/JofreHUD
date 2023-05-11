@@ -91,8 +91,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Send"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"default"		"1"
 	}
 	"PassBtn"
@@ -110,8 +110,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Pass"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"default"		"0"
 	}
 	"ResignBtn"
@@ -129,8 +129,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Resign"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"default"		"0"
 	}
 	"SubmitBtn"
@@ -148,8 +148,8 @@
 		//		"0"
 		"labelText"		"#Go_Btn_Submit"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"default"		"0"
 	}
 	"ShowHistoryBtn"
@@ -167,8 +167,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_ShowHistory"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"LastMoveLabel"
@@ -186,8 +186,8 @@
 		//		"0"
 		"labelText"		"Last Move made at:"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"TurnLabel"
 	{
@@ -204,8 +204,8 @@
 		//		"0"
 		"labelText"		"Turn: 1"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"BlackIcon"
 	{
@@ -250,8 +250,8 @@
 		//		"0"
 		"labelText"		"PLAYER BLACK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"WhiteName"
 	{
@@ -268,8 +268,8 @@
 		//		"0"
 		"labelText"		"PLAYER WHITE"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"BlackCaptured"
 	{
@@ -286,8 +286,8 @@
 		//		"0"
 		"labelText"		"Prisoners: 0"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"WhiteCaptured"
 	{
@@ -304,7 +304,7 @@
 		//		"0"
 		"labelText"		"Prisoners: 0"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 }

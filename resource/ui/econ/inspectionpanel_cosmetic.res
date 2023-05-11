@@ -39,7 +39,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"paintbackground"	"1"
-			"PaintBackgroundType"	"0"
+			//
 			"bgcolor_override" "0 0 0 255"
 			"proportionaltoparent" "1"
 		
@@ -67,7 +67,7 @@
 				"labelText"		"<"
 				"font"			"HudFontBiggerBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -94,7 +94,7 @@
 				"labelText"		">"
 				"font"			"HudFontBiggerBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -121,7 +121,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -200,7 +200,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -266,7 +266,7 @@
 			"wide"			"230"
 			"tall"			"201"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"bgcolor_override"	"blank"
 			"skip_autoresize"	"1"
 			//"autoResize"		"0"
@@ -281,7 +281,7 @@
 				"wide"			"230"
 				"tall"			"222"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				//
 				"bgcolor_override"	"blank"
 				"skip_autoresize"	"1"
 				//"autoResize"		"0"
@@ -467,7 +467,7 @@
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
 					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
-					//"dulltext"		"0"
+					////		"0"
 					
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
@@ -720,7 +720,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_left"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -748,7 +748,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_right"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -799,7 +799,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -844,7 +844,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -916,7 +916,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			//
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"
@@ -1051,7 +1051,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"

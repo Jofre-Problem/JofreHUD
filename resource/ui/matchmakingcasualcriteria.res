@@ -12,10 +12,10 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"Black"
 
-		"pinCorner"									"2"
+		//"pinCorner"									"2"
 		"autoResize"								"1"
 
 		"RankImage"
@@ -63,8 +63,8 @@
 			"zpos"									"100"
 			"wide"									"18"
 			"tall"									"18"
-			"dulltext"								"0"
-			"brighttext"							"0"
+			//								"0"
+			//							"0"
 			"default"								"0"
 			"Command"								"restore_search_criteria"
 			"sound_depressed"						"ui/buttonclick.wav"
@@ -72,7 +72,7 @@
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
+			//
 		}
 
 		"SaveCasualSearchCriteria"
@@ -85,8 +85,8 @@
 			"wide"									"18"
 			"tall"									"18"
 			"textinsety"							"-1"
-			"dulltext"								"0"
-			"brighttext"							"0"
+			//								"0"
+			//							"0"
 			"default"								"0"
 			"Command"								"save_search_criteria"
 			"sound_depressed"						"ui/buttonclick.wav"
@@ -107,8 +107,8 @@
 			"wide"									"18"
 			"tall"									"18"
 			"textinsety"							"-1"
-			"dulltext"								"0"
-			"brighttext"							"0"
+			//								"0"
+			//							"0"
 			"default"								"0"
 			"Command"								"show_explanations"
 			"sound_depressed"						"ui/buttonclick.wav"
@@ -116,7 +116,7 @@
 			"proportionaltoparent"					"1"
 
 			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
+			//
 		}
 		
 		"SelectedCount"
@@ -185,7 +185,7 @@
 
 			"paintborder"							"1"
 			"paintbackground"						"1"
-			"paintbackgroundtype"					"0"
+			//
 			"bgcolor_override"						"64 64 46 255"
 
 			"ScrollBar"

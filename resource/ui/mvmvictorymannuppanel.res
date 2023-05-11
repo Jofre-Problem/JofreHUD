@@ -57,7 +57,7 @@
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

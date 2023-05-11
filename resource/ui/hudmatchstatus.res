@@ -343,7 +343,7 @@
 				"tall"								"2"
 				"visible"							"1"
 				"enabled"							"1"
-				"PaintBackgroundType"				"0"
+				//
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"Blank"
 			}

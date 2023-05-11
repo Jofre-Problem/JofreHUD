@@ -14,7 +14,7 @@
 		"tall"			"200"
 	//	////"200"
 		////"autoResize"		"0"
-		//"pinCorner"		"0"
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"

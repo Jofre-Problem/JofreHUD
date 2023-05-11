@@ -59,8 +59,8 @@
 		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		//"dulltext"		"0"
-		"brighttext"	"1"
+		////		"0"
+		//	"1"
 	}
 	"teambutton2"
 	{
@@ -78,7 +78,7 @@
 		//	"1"
 		"labelText"		"&1"
 		"textAlignment"	"south-west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
@@ -103,7 +103,7 @@
 		//	"2"
 		"labelText"		"&2"
 		"textAlignment"	"south-west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
@@ -131,7 +131,7 @@
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
@@ -152,7 +152,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		
 		"font"			"MenuSmallFont"
@@ -178,7 +178,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		//"dulltext"		"0"
+		////		"0"
 		
 		
 		"font"			"MenuSmallestFont"
@@ -232,7 +232,7 @@
 		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
+		//
 	}		
 		
 	"autodoor"

@@ -159,7 +159,7 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"proportionaltoparent" "1"
@@ -184,7 +184,7 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"proportionaltoparent" "1"

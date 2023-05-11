@@ -260,7 +260,7 @@
 		"tall"		"436"
 		"visible"		"1"
 		"bgcolor_override"		"blank"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"	"1"
 	}
 	"Tools_Title"
@@ -317,7 +317,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "Panel1"
 		"pin_corner_to_sibling" "0"
@@ -405,7 +405,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "VoiceLabel"
 		"pin_corner_to_sibling" "0"
@@ -493,7 +493,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "TextChatLabel"
 		"pin_corner_to_sibling" "0"
@@ -581,7 +581,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "NotificationsLabel"
 		"pin_corner_to_sibling" "0"
@@ -669,7 +669,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "CCLabel"
 		"pin_corner_to_sibling" "0"
@@ -718,7 +718,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "MatchHudLabel"
 		"pin_corner_to_sibling" "7"
@@ -784,7 +784,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "Panel2"
 		"pin_corner_to_sibling" "0"
@@ -1374,7 +1374,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "ColorPresetLabel"
 		"pin_corner_to_sibling" "0"
@@ -1423,7 +1423,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "DmgNumEnableCheck"
 		"pin_corner_to_sibling" "7"
@@ -2203,7 +2203,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "Panel4"
 		"pin_corner_to_sibling" "0"
@@ -2369,7 +2369,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"paintbackground"	"0"
+		
 
 		"pin_to_sibling" "HitSoundMaxLabel"
 		"pin_corner_to_sibling" "0"
@@ -2535,7 +2535,7 @@
 			"actionsignallevel"	"2"	
 			"sound_depressed"							"ui/buttonclick.wav"
 			"sound_released"							"ui/buttonclickrelease.wav"
-			"paintBackground"	"0"		
+					
 	}
 
 
@@ -2556,11 +2556,11 @@
 			"fieldname"		"Background"
 			"xpos"			"5"
 			"ypos"			"25"
-			"zpos"			"0"
+			
 			"wide"			"p0.22"
 			"tall"			"50"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
@@ -2583,14 +2583,14 @@
 				"wide"										"p0.5"
 				"tall"										"25"
 				//////"autoResize"		"0"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				"visible"		"0"
 				//"enabled"		"1"
-				//"tabPosition"	"0"
+				////	"0"
 				"use_proportional_insets" "1"
 				"font"			"ControlPointTimer"
 				"textAlignment"	"center"
-				//"dulltext"	"0"
+				////	"0"
 				
 				"default"		"1"
 
@@ -2621,14 +2621,14 @@
 				"wide"										"p0.5"
 				"tall"										"25"
 				//////"autoResize"		"0"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				"visible"		"0"
 				//"enabled"		"1"
-				//"tabPosition"	"0"
+				////	"0"
 				"use_proportional_insets" "1"
 				"font"			"ControlPointTimer"
 				"textAlignment"	"center"
-				//"dulltext"	"0"
+				////	"0"
 				
 				"default"		"1"
 

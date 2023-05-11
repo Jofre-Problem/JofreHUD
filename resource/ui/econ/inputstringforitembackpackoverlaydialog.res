@@ -10,7 +10,7 @@
 		"wide"					"320"
 		"tall"					"330"
 		"bgcolor_override"		"blank"
-		"paintbackgroundtype"	"0"
+		//
 		"settitlebarvisible"	"1"
 		"border"				"GrayDialogBorder"
 
@@ -260,7 +260,7 @@
 		"labelText"		"#ShuffleContents"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		//	"0"
@@ -287,7 +287,7 @@
 		"labelText"		"#TF_VR_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"cancel"
@@ -314,7 +314,7 @@
 		"labelText"		"#GetKey"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"getkey"
@@ -340,7 +340,7 @@
 		"labelText"		"#UseKey"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"usekey"

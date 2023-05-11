@@ -56,7 +56,7 @@
 		yPos					60
 		wide					f0
 		tall					40	
-		"zpos"	"0"
+		//
 		font					"Regular18"
 		labelText				"MAJOR Credits to: Lead, Peaches and JarateKing."
 		textAlignment			center
@@ -147,10 +147,10 @@
 		"wide"			"f0"	// disabled
 		"tall"			"f0"	//disabled
 		////"autoResize"		"0"
-		//"pinCorner"		"0"
+		//		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"		"0"
+		//		"0"
 		"bgcolor_override"	"Blank"
 	}
 	
@@ -164,7 +164,7 @@
 			"wide"		"400"	
 			"tall"		"100"	
 
-			"PaintBackgroundType"	"0"
+			//
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
 			"border"		"Modal_0"			

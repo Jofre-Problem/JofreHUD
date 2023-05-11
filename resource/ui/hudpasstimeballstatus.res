@@ -291,8 +291,8 @@
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"1"
+		//				"0"
+		//			"1"
 		"labelText"				"NameOfCarrier"
 		pin_to_sibling			ProgressLevelBar
 		pin_corner_to_sibling	4

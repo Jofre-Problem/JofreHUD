@@ -50,7 +50,7 @@
 			//	"0"
 			"labelText"		"Dme Element"
 			"textAlignment"	"east"
-			"dulltext"		"1"
+			//		"1"
 			
 		}
 		

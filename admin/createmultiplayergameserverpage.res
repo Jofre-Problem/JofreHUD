@@ -102,8 +102,8 @@
 		//		"9"
 		"labelText"		"#Start_Server_Button"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"start"
 		"Default"		"1"
 	}
@@ -122,8 +122,8 @@
 		//		"10"
 		"labelText"		"#Start_Server_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"cancel"
 		"Default"		"0"
 	}
@@ -142,8 +142,8 @@
 		//		"8"
 		"labelText"		"#Start_Server_Secure"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"1"
 		"state"		"0"
 	}
@@ -195,8 +195,8 @@
 		"labelText"		"#Start_Server_Name_Label"
 		"textAlignment"		"east"
 		"associate"		"ServerNameEdit"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"MaxPlayersLabel"
 	{
@@ -214,8 +214,8 @@
 		"labelText"		"#Start_Server_Max_Players_Label"
 		"textAlignment"		"east"
 		"associate"		"NumPlayers"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"MODLabel"
 	{
@@ -233,8 +233,8 @@
 		"labelText"		"Game"
 		"textAlignment"		"east"
 		"associate"		"MODCombo"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"Label1"
 	{
@@ -252,8 +252,8 @@
 		"labelText"		"#Start_Server_Map_Label"
 		"textAlignment"		"east"
 		"associate"		"MapList"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"Label4"
 	{
@@ -271,8 +271,8 @@
 		"labelText"		"#Start_Server_Network_Label"
 		"textAlignment"		"east"
 		"associate"		"NetworkCombo"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"RCONPasswordEdit"
 	{
@@ -308,8 +308,8 @@
 		"labelText"		"#Start_Server_RCON_Password"
 		"textAlignment"		"east"
 		"associate"		"RCONPasswordEdit"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"Label2"
 	{
@@ -327,8 +327,8 @@
 		"labelText"		"UDP Port"
 		"textAlignment"		"east"
 		"associate"		"PortEdit"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"PortEdit"
 	{

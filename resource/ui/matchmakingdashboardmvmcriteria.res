@@ -25,9 +25,9 @@
 		"tall"										"f0"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"pinCorner"									"2"
+		//"pinCorner"									"2"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"Black"
 	}
 
@@ -56,7 +56,7 @@
 		"wide"										"400"
 		"tall"										"20"
 		"autoResize"								"0"
-		"pinCorner"									"3"
+		//"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Regular18"
@@ -72,7 +72,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 			"defaultBgColor_override"		"Blank"
@@ -93,7 +93,7 @@
 		"wide"										"345"
 		"tall"										"20"
 		"autoResize"								"0"
-		"pinCorner"									"3"
+		//"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Regular18"
@@ -109,7 +109,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 		"defaultBgColor_override" 					"Green"
@@ -130,7 +130,7 @@
 		"wide"										"52"
 		"tall"										"20"
 		"autoResize"								"0"
-		"pinCorner"									"3"
+		//"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Regular18"
@@ -146,7 +146,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 			"defaultBgColor_override"		"Blank"
@@ -168,7 +168,7 @@
 		"wide"										"400"
 		"tall"										"20"
 		"autoResize"								"0"
-		"pinCorner"									"3"
+		//"pinCorner"									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"font"										"Regular18"
@@ -184,7 +184,7 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 			"defaultBgColor_override"		"Blank"

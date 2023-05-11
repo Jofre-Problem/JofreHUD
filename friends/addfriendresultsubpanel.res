@@ -31,8 +31,8 @@
 		//		"0"
 		"labelText"		"#Friends_SearchingForFriend"
 		"textAlignment"		"north-west"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 		"wrap"		"1"
 	}
 }

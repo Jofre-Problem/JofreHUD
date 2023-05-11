@@ -10,7 +10,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"0"
 
 		"LockedIcon"
@@ -42,7 +42,7 @@
 			"wide"			"o1"
 			"tall"			"8"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"		"0"
 			"keyboardinputenabled"	"0"
@@ -165,7 +165,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"

@@ -49,8 +49,8 @@
 		"labelText"		"#GameUI_Map"
 		"textAlignment"		"west"
 		"associate"		"MapList"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 	}
 }

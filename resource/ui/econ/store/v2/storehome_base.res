@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -273,7 +273,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -353,7 +353,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -396,7 +396,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -476,7 +476,7 @@
 		"labelText"		"#Store_BrowseTheStore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"startshopping"
@@ -501,7 +501,7 @@
 		"labelText"		"#Store_MarketPlace"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"marketplace"

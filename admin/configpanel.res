@@ -43,8 +43,8 @@
 		//		"7"
 		"labelText"		"#Okay_Button"
 		"textAlignment"		"center"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"okay"
 		"Default"		"0"
 	}
@@ -63,8 +63,8 @@
 		//		"8"
 		"labelText"		"#Cancel_Button"
 		"textAlignment"		"center"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"close"
 		"Default"		"0"
 	}
@@ -83,8 +83,8 @@
 		//		"1"
 		"labelText"		"#Options_Panel_AutoRefresh"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"RconCheckButton"
@@ -102,8 +102,8 @@
 		//		"3"
 		"labelText"		"#Options_Panel_SaveRcon"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"RefreshTextEntry"
@@ -138,8 +138,8 @@
 		//		"4"
 		"labelText"		"#Options_Panel_Collect_Stats"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"GraphsRefreshTimeTextEntry"
@@ -174,8 +174,8 @@
 		//		"6"
 		"labelText"		"#Options_Panel_Get_Logs"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"TimeLabel"
@@ -193,8 +193,8 @@
 		"labelText"		"#Options_Panel_Seconds"
 		"textAlignment"		"west"
 		"associate"		"RefreshCheckButton"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"WarningLabel1"
 	{
@@ -210,8 +210,8 @@
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_SaveRcon_Unsecure"
 		"textAlignment"		"west"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	"GraphsTimelabel"
 	{
@@ -227,8 +227,8 @@
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_Collect_Stats_Time"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"Label1"
 	{
@@ -244,7 +244,7 @@
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_Seconds"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 }

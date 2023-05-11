@@ -227,7 +227,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -262,7 +262,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -343,7 +343,7 @@
 				//	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
@@ -377,7 +377,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
@@ -414,7 +414,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
@@ -454,7 +454,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
@@ -493,7 +493,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"

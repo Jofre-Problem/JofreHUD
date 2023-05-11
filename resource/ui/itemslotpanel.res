@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -145,7 +145,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"ok"
 		"sound_depressed"	"UI/buttonclick.wav"

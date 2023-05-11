@@ -31,8 +31,8 @@
 		//		"1"
 		"labelText"		"#GameUI_StartBenchmark"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Default"		"1"
 	}
@@ -51,8 +51,8 @@
 		//		"2"
 		"labelText"		"#vgui_close"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
@@ -72,8 +72,8 @@
 		//		"0"
 		"labelText"		"#GameUI_LaunchBenchmark_Info"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"wrap"		"1"
 	}
 }

@@ -126,7 +126,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"

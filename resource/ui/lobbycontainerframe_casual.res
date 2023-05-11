@@ -116,7 +116,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -164,7 +164,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -298,7 +298,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -346,7 +346,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -394,7 +394,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -524,7 +524,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -572,7 +572,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -620,7 +620,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -749,7 +749,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -797,7 +797,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -858,7 +858,7 @@
 		"zpos"			"8"
 		"wide"			"321"
 		"tall"			"285"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"QuickplayBorder"
@@ -993,7 +993,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"

@@ -29,8 +29,8 @@
 		//		"2"
 		"labelText"		"#Ban_List_Add"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"Remove"
@@ -48,8 +48,8 @@
 		//		"3"
 		"labelText"		"#Ban_List_Remove"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"Change"
@@ -67,8 +67,8 @@
 		//		"4"
 		"labelText"		"#Ban_List_Edit"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"1"
 	}
 	"Import"
@@ -86,8 +86,8 @@
 		//		"5"
 		"labelText"		"#Ban_List_Import"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 }

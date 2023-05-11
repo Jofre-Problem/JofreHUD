@@ -30,7 +30,7 @@
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

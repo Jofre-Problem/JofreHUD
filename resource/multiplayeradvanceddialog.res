@@ -29,7 +29,7 @@
 		//		"2"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"Close"
 		"default"		"0"
 	}
@@ -48,7 +48,7 @@
 		//		"1"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"Ok"
 		"default"		"1"
 	}

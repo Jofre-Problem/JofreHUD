@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"				"blank"
 		"infocus_bgcolor_override"		"blank"
 		"outoffocus_bgcolor_override"	"blank"
@@ -132,7 +132,7 @@
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"options"
@@ -173,7 +173,7 @@
 		//	"0"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"back"
 
@@ -248,7 +248,7 @@
 		//	"0"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"next"
 
@@ -278,7 +278,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"start_party"
 

@@ -113,7 +113,7 @@
 		"fieldName"		"BluePanelBG"
 		"xpos"			"c-100"
 		"ypos"			"rs1"
-		"zpos"			"0"
+		
 		"wide"			"100"
 		"tall"			"20"
 		"visible"		"1"
@@ -144,7 +144,7 @@
 		"fieldName"		"RedPanelBG"
 		"xpos"			"c0"
 		"ypos"			"rs1"
-		"zpos"			"0"
+		
 		"wide"			"100"
 		"tall"			"20"
 		"visible"		"1"

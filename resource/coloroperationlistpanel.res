@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"NewOperation"
 	}
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"DeleteOperation"
 	}
@@ -50,7 +50,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"BringForward"
 	}
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"PushBack"
 	}
@@ -86,7 +86,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"Save"
 	}
@@ -114,8 +114,8 @@
 		//		"0"
 		"labelText"			"Blend:"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		//"brighttext"		"0"
+		//			"0"
+		////		"0"
 	}
 	"BlendFactorSlider"
 	{

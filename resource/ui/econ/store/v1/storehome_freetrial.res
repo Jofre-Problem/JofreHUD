@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -271,7 +271,7 @@
 		"labelText"		"#Store_StartShopping"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"startshopping"
@@ -568,7 +568,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"reloadscheme"
 		"sound_depressed"	"UI/buttonclick.wav"

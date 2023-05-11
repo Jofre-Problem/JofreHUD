@@ -80,7 +80,7 @@
 							//	"0"
 							"labelText"		"Mod Filter"
 							"textAlignment"	"east"
-							"dulltext"		"1"
+							//		"1"
 							
 						}
 						
@@ -181,7 +181,7 @@
 							//	"0"
 							"labelText"		"Full Path"
 							"textAlignment"	"east"
-							"dulltext"		"1"
+							//		"1"
 							
 						}
 										
@@ -204,7 +204,7 @@
 							//	"0"
 							"labelText"		""
 							"textAlignment"	"west"
-							"dulltext"		"1"
+							//		"1"
 							
 						}
 					
@@ -225,7 +225,7 @@
 							//	"0"
 							"labelText"		"Filter"
 							"textAlignment"	"east"
-							"dulltext"		"1"
+							//		"1"
 							
 						}
 						

@@ -17,7 +17,7 @@
 		"collapsed_height"	"0"
 		"expanded_height"	"60"
 
-		"pinCorner"		"2"
+		//"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"OuterShadow"
@@ -30,7 +30,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			//"visible"		"1"
-			//"PaintBackgroundType"	"0"
+			////
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
 
@@ -51,7 +51,7 @@
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
-			"pinCorner"		"3"
+			//"pinCorner"		"3"
 
 			"DescLabel"
 			{
@@ -69,7 +69,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
 				"proportionaltoparent"	"1"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 
 				"fonts"
 				{
@@ -95,7 +95,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 			}
 
 			"AbandonButton"
@@ -108,14 +108,14 @@
 				"wide"			"75"
 				"tall"			"15"
 				
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				//"visible"		"1"
 
 				
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				//////"dulltext"		"0"
+				////////		"0"
 				//
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
@@ -146,13 +146,13 @@
 				}
 				
 				
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				//"visible"		"1"
 				
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				//////"dulltext"		"0"
+				////////		"0"
 				//
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
@@ -179,13 +179,13 @@
 				"tall"			"15"
 				
 				
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 				//"visible"		"1"
 				
 				
 				"font"			"HudFontSmallest"
 				"textAlignment"	"center"
-				//////"dulltext"		"0"
+				////////		"0"
 				//
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
@@ -217,7 +217,7 @@
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"
-				"pinCorner"		"3"
+				//"pinCorner"		"3"
 			}
 
 			"Spinner"

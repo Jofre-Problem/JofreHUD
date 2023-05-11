@@ -57,8 +57,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_StartGame"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"Divider0"
@@ -120,8 +120,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Invite"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"CancelInviteButton0"
@@ -139,8 +139,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	
@@ -188,8 +188,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Invite"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"CancelInviteButton2"
@@ -207,8 +207,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"SwitchTeamOneButton"
@@ -226,8 +226,8 @@
 		//		"0"
 		"labelText"		"#Spades_SwitchTeams"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	
@@ -262,8 +262,8 @@
 		//		"0"
 		"labelText"		"#Spades_SwitchTeams"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 
@@ -311,8 +311,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Invite"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"CancelInviteButton1"
@@ -330,8 +330,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"PlayerPositionLabel3"
@@ -379,8 +379,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Invite"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"CancelInviteButton3"
@@ -398,8 +398,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	
@@ -453,8 +453,8 @@
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Send"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}	
 	"LastMessageLabel"
@@ -472,8 +472,8 @@
 		//		"0"
 		"labelText"		"Last message received at:"
 		"textAlignment"		"west"
-		"dulltext"		"1"
-		//"brighttext"		"0"
+		//		"1"
+		////		"0"
 	}
 	
 }

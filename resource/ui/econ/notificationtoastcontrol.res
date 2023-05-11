@@ -18,7 +18,7 @@
 		}
 		"paintborder"			"1"
 		"paintbackground"		"0"
-		"PaintBackgroundType"	"0"
+		//
 		"defaultbgcolor_override"		"208 193 162 255"
 	}
 
@@ -39,7 +39,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -94,7 +94,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -149,7 +149,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -200,7 +200,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

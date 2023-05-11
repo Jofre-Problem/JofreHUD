@@ -29,7 +29,7 @@
 			//	"0"
 			"labelText"		"Compile Output"
 			"textAlignment"	"west"
-			"dulltext"		"1"
+			//		"1"
 			
 		}
 

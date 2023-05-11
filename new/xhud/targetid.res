@@ -79,7 +79,7 @@
 		"font"			"NotoBold8"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"56"
 		"tall"			"23"
 		"visible"		"1"
@@ -93,7 +93,28 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
+	"TargetNameLabelCustom2"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelCustom2"
+		"font"			"NotoBold8Blur"
+		"xpos"			"0"
+		"ypos"			"0"
+		
+		"wide"			"56"
+		"tall"			"17"
+		"fgcolor_override"	"0 0 0 255"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"proportionaltoparent"		"1"
 
+		"pin_to_sibling"		"TargetIDBG"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
+	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -126,7 +147,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelSpecCustom"
-		"font"			"Size 8 Shadow"
+		"font"			"NotoBold8"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -143,7 +164,28 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
+	"TargetNameLabelSpecCustom2"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelSpecCustom2"
+		"font"			"NotoBold8Blur"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"	"-1"
+		"wide"			"56"
+		"tall"			"17"
+		"fgcolor_override"	"0 0 0 255"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"proportionaltoparent"		"1"
 
+		"pin_to_sibling"		"TargetIDBG_Spec_Red"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
+	}
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"

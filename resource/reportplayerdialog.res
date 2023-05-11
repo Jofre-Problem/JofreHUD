@@ -49,8 +49,8 @@
 		//		"3"
 		"labelText"			"#GameUI_ReportPlayer"
 		"textAlignment"		"west"
-		"dulltext"			"0"
-		//"brighttext"		"0"
+		//			"0"
+		////		"0"
 		"Command"		"Report"
 		"Default"		"1"
 	}
@@ -89,8 +89,8 @@
 		//		"4"
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Command"		"Close"
 		"Default"		"0"
 	}

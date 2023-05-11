@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 255"
 		
 		"fullscreen_fade_to_black_duration"	"0.32"
@@ -36,7 +36,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 255"
 	}
 		
@@ -57,7 +57,7 @@
 		"labelText"		"<"
 		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -84,7 +84,7 @@
 		"labelText"		">"
 		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -108,7 +108,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -132,7 +132,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -204,7 +204,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			//
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"
@@ -277,7 +277,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -321,7 +321,7 @@
 		"labelText"		"#Store_TryItOut"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"tryitout"
@@ -346,7 +346,7 @@
 		"labelText"		"#Store_AddToCart"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"addtocart"

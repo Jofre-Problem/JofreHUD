@@ -30,8 +30,8 @@
 		//		"0"
 		"labelText"		"Save"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"save"
 		"Default"		"0"
 	}
@@ -50,8 +50,8 @@
 		//		"0"
 		"labelText"		"Revert"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"revert"
 		"Default"		"0"
 	}
@@ -70,8 +70,8 @@
 		//		"0"
 		"labelText"		"OK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"Close"
 		"Default"		"0"
 	}
@@ -90,8 +90,8 @@
 		//		"0"
 		"labelText"		"Cancel"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"cancel"
 		"Default"		"0"
 	}
@@ -110,8 +110,8 @@
 		//		"0"
 		"labelText"		"New->"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"Default"		"0"
 	}
 	"DemoEditEdit"
@@ -129,8 +129,8 @@
 		//		"0"
 		"labelText"		"Edit..."
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"edit"
 		"Default"		"0"
 	}
@@ -149,8 +149,8 @@
 		//		"0"
 		"labelText"		"Delete"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 		"command"		"delete"
 		"Default"		"0"
 	}
@@ -169,8 +169,8 @@
 		//		"0"
 		"labelText"		"yahn.dem"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
+		////		"0"
+		////		"0"
 	}
 	"DemoActionList"
 	{

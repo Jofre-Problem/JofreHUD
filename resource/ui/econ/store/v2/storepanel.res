@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"				"blank"
 		"infocus_bgcolor_override"		"blank"
 		"outoffocus_bgcolor_override"	"blank"
@@ -131,7 +131,7 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"
@@ -211,7 +211,7 @@
 		"labelText"		"#Store_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"checkout"

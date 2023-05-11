@@ -20,13 +20,13 @@
 
 		//"autoResize"		"0"
 
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 
 		"visible"		"1"
 
 		"enabled"		"1"
 
-		"tabPosition"		"1"
+		//		"1"
 
 		"WizardWide"		"0"
 
@@ -52,13 +52,13 @@
 
 		//"autoResize"		"0"
 
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 
 		"visible"		"1"
 
 		"enabled"		"1"
 
-		"tabPosition"		"1"
+		//		"1"
 
 	}
 
@@ -80,21 +80,21 @@
 
 		//"autoResize"		"0"
 
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 
 		"visible"		"1"
 
 		"enabled"		"1"
 
-		"tabPosition"		"0"
+		//		"0"
 
 		"labelText"		"#TrackerUI_SelectFriendFromList"
 
 		"textAlignment"		"west"
 
-		//"dulltext"		"0"
+		////		"0"
 
-		//"brighttext"		"0"
+		////		"0"
 
 		"wrap"		"1"
 

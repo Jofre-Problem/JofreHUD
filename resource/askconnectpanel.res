@@ -35,7 +35,7 @@
 		//	"0"
 		"labelText"		"..."
 		"textAlignment"	"west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		
 	}
@@ -55,8 +55,8 @@
 		//	"0"
 		"labelText"		""
 		"textAlignment"	"center"
-		//"dulltext"		"0"
-		"brighttext"	"1"
+		////		"0"
+		//	"1"
 		
 	}
 	"AcceptLabel"
@@ -75,7 +75,7 @@
 		//	"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		//"dulltext"		"0"
+		////		"0"
 		
 		
 	}

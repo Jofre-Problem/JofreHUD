@@ -30,7 +30,7 @@
 		//	"0"
 		"labeltext"		"#TF_QuestView_Accept"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -315,7 +315,7 @@
 				//	"0"
 				"labeltext"		"#QuestLog_TurnIn"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"

@@ -341,7 +341,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"

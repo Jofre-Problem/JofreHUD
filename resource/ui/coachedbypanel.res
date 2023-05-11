@@ -91,7 +91,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"West"
-		//"dulltext"		"0"
+		////		"0"
 		
 	}
 

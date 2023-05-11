@@ -537,7 +537,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_left"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -560,7 +560,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_right"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -607,7 +607,7 @@
 		"labelText"		"<"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"-1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -630,7 +630,7 @@
 		"labelText"		">"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -655,7 +655,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -680,7 +680,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"zoom_toggle"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -705,7 +705,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"team_toggle"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -288,7 +288,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"ready"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -630,7 +630,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"showdetails"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -654,7 +654,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -695,7 +695,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -805,7 +805,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -831,7 +831,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"

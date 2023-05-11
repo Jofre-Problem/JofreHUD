@@ -261,7 +261,7 @@
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 
@@ -342,7 +342,7 @@
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 
@@ -388,7 +388,7 @@
 							"font"			"QuestLargeText"
 							"allcaps"	"1"
 							"textAlignment"	"west"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"paintbackground"	"0"
 						}
@@ -562,7 +562,7 @@
 					"font"			"QuestFlavorText"
 					"allcaps"	"1"
 					"textAlignment"	"center"
-					//"dulltext"		"0"
+					////		"0"
 					
 					"default"		"1"
 					"actionsignallevel" "3"
@@ -654,7 +654,7 @@
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 						"actionsignallevel" "4"
@@ -694,7 +694,7 @@
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"1"
 						"actionsignallevel" "4"
@@ -723,7 +723,7 @@
 						"wide"			"55"
 						"tall"			"55"
 						"visible"		"0"
-						"PaintBackgroundType"	"0"
+						//
 						"paintborder"	"1"
 						"proportionaltoparent"	"1"
 		
@@ -756,7 +756,7 @@
 						"wide"			"55"
 						"tall"			"55"
 						"visible"		"0"
-						"PaintBackgroundType"	"0"
+						//
 						"paintborder"	"1"
 						"proportionaltoparent"	"1"
 		

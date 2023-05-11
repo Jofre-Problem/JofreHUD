@@ -246,7 +246,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"prevcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -271,7 +271,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"nextcustomtexture"
 		"sound_depressed"	"UI/buttonclick.wav"

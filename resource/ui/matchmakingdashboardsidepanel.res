@@ -43,7 +43,7 @@
 		"font"										"NewIcons12"
 
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 		"defaultBgColor_override" 					"Blank"
@@ -80,7 +80,7 @@
 		"font"										"NewIcons12"
 
 		"paintbackground"							"0"
-		"paintbackgroundtype"						"0"
+		//
 		"paintborder"								"0"
 
 		"defaultBgColor_override" 					"Black"

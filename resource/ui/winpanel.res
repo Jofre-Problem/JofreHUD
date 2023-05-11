@@ -76,7 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"TransparentBlack"
-		"PaintBackgroundType"	"0"
+		//
 		"proportionaltoparent"		"1"
 	}
 	"TeamScoresPanel"
@@ -298,7 +298,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"White"
-		"PaintBackgroundType"	"0"
+		//
 		"proportionaltoparent"		"1"
 	}
 	"Player1Name"
@@ -497,7 +497,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"White"
-		"PaintBackgroundType"	"0"
+		//
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"KillStreakLeaderLabel"

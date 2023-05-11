@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"west"
-		"dulltext"		"1"
+		//		"1"
 	}
 	"PasswordEdit"
 	{
@@ -63,7 +63,7 @@
 		//		"2"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"Close"
 		"default"		"0"
 	}
@@ -82,7 +82,7 @@
 		//		"3"
 		"labelText"		"#GameUI_Quit"
 		"textAlignment"		"west"
-		//"dulltext"		"0"
+		////		"0"
 		"command"		"QuitGame"
 		"default"		"0"
 	}

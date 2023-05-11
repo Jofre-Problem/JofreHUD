@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"				"Graydark"
 		"infocus_bgcolor_override"		"Graydark"
 		"outoffocus_bgcolor_override"	"Graydark"
@@ -207,7 +207,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"discarditem"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -245,7 +245,7 @@
 		"labelText"		"#TF_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"vguicancel"
 		"default"		"0"
@@ -270,7 +270,7 @@
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"Command"		"show_explanations"
@@ -356,7 +356,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -421,7 +421,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -531,7 +531,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -578,7 +578,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -643,7 +643,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -752,7 +752,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -799,7 +799,7 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"

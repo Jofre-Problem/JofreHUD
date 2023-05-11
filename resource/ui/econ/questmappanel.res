@@ -13,7 +13,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"paintbackground"		"0"
 		"skip_autoresize"	"1"
 
@@ -191,7 +191,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -240,7 +240,7 @@
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"labeltext"		""
@@ -324,7 +324,7 @@
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"labeltext"		""
@@ -389,7 +389,7 @@
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"labeltext"		""
@@ -438,7 +438,7 @@
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"0"
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -523,7 +523,7 @@
 						"wide"			"f0"
 						"tall"			"f0"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -738,7 +738,7 @@
 							"use_proportional_insets" "1"
 							"font"			"HudFontSmallBold"
 							"textAlignment"	"west"
-							//"dulltext"		"0"
+							////		"0"
 							
 							"default"		"1"
 							"command"		"endintro"
@@ -994,7 +994,7 @@
 						"wide"			"o1"
 						"tall"			"26"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1042,7 +1042,7 @@
 						"wide"			"o1"
 						"tall"			"20"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1091,7 +1091,7 @@
 						"wide"			"o1"
 						"tall"			"20"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1309,7 +1309,7 @@
 						"wide"			"f0"
 						"tall"			"f0"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1327,7 +1327,7 @@
 						"wide"			"f0"
 						"tall"			"f0"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1346,7 +1346,7 @@
 						"wide"			"f0"
 						"tall"			"50"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1371,7 +1371,7 @@
 						"labeltext"		"#TF_QuestMap_RewardStore_Title"
 						"font"			"QuestLargeText"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"0"
 						"proportionaltoparent" "1"
@@ -1395,7 +1395,7 @@
 						"labeltext"		"#TF_QuestMap_RewardStore_Desc"
 						"font"			"QuestMap_Small"
 						"textAlignment"	"center"
-						//"dulltext"		"0"
+						////		"0"
 						
 						"default"		"0"
 						"proportionaltoparent" "1"
@@ -1493,7 +1493,7 @@
 						"wide"			"f0"
 						"tall"			"f0"
 						"visible"		"1"
-						"PaintBackgroundType"	"0"
+						//
 						"proportionaltoparent"	"1"
 						"mouseinputenabled"		"0"
 						"keyboardinputenabled"	"0"
@@ -1514,7 +1514,7 @@
 					"wide"			"f0"
 					"tall"			"50"
 					"visible"		"1"
-					"PaintBackgroundType"	"0"
+					//
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"		"0"
 					"keyboardinputenabled"	"0"
@@ -1536,7 +1536,7 @@
 					"wide"			"f0"
 					"tall"			"50"
 					"visible"		"1"
-					"PaintBackgroundType"	"0"
+					//
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"		"0"
 					"keyboardinputenabled"	"0"
@@ -1554,7 +1554,7 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"visible"		"1"
-					"PaintBackgroundType"	"0"
+					//
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"		"0"
 					"keyboardinputenabled"	"0"
@@ -1572,7 +1572,7 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"visible"		"1"
-					"PaintBackgroundType"	"0"
+					//
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"		"0"
 					"keyboardinputenabled"	"0"

@@ -10,7 +10,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"PaintBackgroundType"						"0"
+		//
 		"bgcolor_override"							"DarkBrown"
 		"infocus_bgcolor_override" 					"DarkBrown"
 		"outoffocus_bgcolor_override" 				"DarkBrown"
@@ -156,7 +156,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 	}
 	"FiltersBG"
@@ -172,7 +172,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 
 		"pin_to_sibling"							"BackpackBG"
@@ -230,7 +230,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"LighterDarkBrown"
 
 		"Icon"
@@ -313,7 +313,7 @@
 			"defaultBgColor_override"				"LighterDarkBrown"
 			"armedFgColor_override"					"White"
 			"armedBgColor_override"					"LighterDarkBrown"
-			"paintbackgroundtype"					"0"
+			//
 		}
 
 		"pin_to_sibling"							"FiltersBG"
@@ -355,7 +355,7 @@
 			"defaultBgColor_override"				"LighterDarkBrown"
 			"armedFgColor_override"					"White"
 			"armedBgColor_override"					"LighterDarkBrown"
-			"paintbackgroundtype"					"0"
+			//
 		}
 
 		"pin_to_sibling"							"SortByComboBox"

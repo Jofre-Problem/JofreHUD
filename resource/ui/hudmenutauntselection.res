@@ -74,7 +74,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -120,7 +120,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 
 		"model_ypos"	"5"
@@ -167,7 +167,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -214,7 +214,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -261,7 +261,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -308,7 +308,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -355,7 +355,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -402,7 +402,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		//
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"

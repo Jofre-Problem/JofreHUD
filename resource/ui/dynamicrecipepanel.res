@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override"	"Graydark"
 		"infocus_bgcolor_override" "Graydark"
 		"outoffocus_bgcolor_override" "Graydark"
@@ -197,7 +197,7 @@
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -221,7 +221,7 @@
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"previnputpage"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -262,7 +262,7 @@
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"nextinputpage"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -318,7 +318,7 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"fgcolor"		"200 187 161 255"
 		}
@@ -361,7 +361,7 @@
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -385,7 +385,7 @@
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"prevpage"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -426,7 +426,7 @@
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"Command"		"nextpage"
 			"sound_depressed"	"UI/buttonclick.wav"

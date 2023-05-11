@@ -9,7 +9,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"PaintBackgroundType"						"0"
+		//
 		"bgcolor_override"							"DarkBrown"
 		"infocus_bgcolor_override" 					"DarkBrown"
 		"outoffocus_bgcolor_override" 				"DarkBrown"
@@ -35,7 +35,7 @@
 			"visible"								"0"
 			"bgcolor_override"						"Black"
 			"noitem_textcolor"						"White"
-			"PaintBackgroundType"					"0"
+			//
 			"paintborder"							"0"
 
 			"model_xpos"							"6"
@@ -71,7 +71,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 	}
 
@@ -111,7 +111,7 @@
 			"defaultBgColor_override"				"Blank"
 			"armedFgColor_override"					"White"
 			"armedBgColor_override"					"Blank"
-			"paintbackgroundtype"					"0"
+			//
 		}
 	}
 
@@ -132,7 +132,7 @@
 		"fgcolor" 									"White"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"paintbackgroundtype"						"0"
+		//
 		"bgcolor_override"							"FooterBGBlack"
 
 		"pin_to_sibling" 							"ItemsBG"
@@ -226,7 +226,7 @@
 		"wide"										"270"
 		"tall"										"290"
 		"visible"									"1"
-		"PaintBackgroundType"						"0"
+		//
 		"paintbackground"							"1"
 		"bgcolor_override"							"FooterBGBlack"
 
@@ -334,7 +334,7 @@
 		"visible"									"0"
 		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"White"
-		"PaintBackgroundType"						"0"
+		//
 		"paintborder"								"1"
 
 		"text_ypos"									"20"

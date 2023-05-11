@@ -219,7 +219,7 @@
 				"labelText"		"#TF_CollectionCrafting_Submit"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				//"dulltext"		"0"
+				////		"0"
 				
 				"default"		"1"
 				"Command"		"doneselectingitems"

@@ -43,7 +43,7 @@
 			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
-			//"dulltext"		"0"
+			////		"0"
 			
 			"default"		"1"
 			"Command"		"open_edit_context"
@@ -127,7 +127,7 @@
 
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
+					//
 				}
 		
 				"UpButton"
@@ -203,7 +203,7 @@
 
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
+					//
 				}
 		
 				"UpButton"
@@ -254,7 +254,7 @@
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
+					//
 				}
 				
 				"nobuttons"		"1"

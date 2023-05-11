@@ -76,7 +76,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -125,7 +125,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
+			//
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -178,7 +178,7 @@
 			"wide"			"230"
 			"tall"			"201"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			//
 			"bgcolor_override"	"blank"
 			"skip_autoresize"	"1"
 			//"autoResize"		"0"
@@ -193,7 +193,7 @@
 				"wide"			"230"
 				"tall"			"222"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				//
 				"bgcolor_override"	"blank"
 				"skip_autoresize"	"1"
 				//"autoResize"		"0"
@@ -380,7 +380,7 @@
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
 					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
-					//"dulltext"		"0"
+					////		"0"
 					
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
@@ -981,7 +981,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_left"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1009,7 +1009,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_right"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1060,7 +1060,7 @@
 		"labelText"		"<"
 		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"-1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1089,7 +1089,7 @@
 		"labelText"		">"
 		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1115,7 +1115,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1139,7 +1139,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1184,7 +1184,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1229,7 +1229,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1301,7 +1301,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			//
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"
@@ -1436,7 +1436,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -1480,7 +1480,7 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"
@@ -1505,7 +1505,7 @@
 		"labelText"		"#Store_TryItOut"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"tryitout"
@@ -1530,7 +1530,7 @@
 		"labelText"		"%storeaddtocart%"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"addtocart"

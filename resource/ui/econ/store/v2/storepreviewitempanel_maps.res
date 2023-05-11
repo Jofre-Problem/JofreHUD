@@ -28,7 +28,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		//
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -77,7 +77,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
+			//
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -308,7 +308,7 @@
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_left"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -331,7 +331,7 @@
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"command"		"icons_right"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -378,7 +378,7 @@
 		"labelText"		"<"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"-1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -402,7 +402,7 @@
 		"labelText"		">"
 		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -427,7 +427,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -452,7 +452,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"zoom_toggle"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -477,7 +477,7 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"Command"		"team_toggle"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -539,7 +539,7 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"0"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -583,7 +583,7 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"close"
@@ -608,7 +608,7 @@
 		"labelText"		"#Store_AddToCart"
 		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
-		//"dulltext"		"0"
+		////		"0"
 		
 		"default"		"1"
 		"Command"		"addtocart"
