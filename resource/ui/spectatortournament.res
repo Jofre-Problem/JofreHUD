@@ -1,5 +1,6 @@
 
 #base "../../../cfg/jp_custom_resolution.txt"
+#base 	"spectator_main.res"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -279,26 +280,6 @@
 
 	}
 
-	"ReinforcementsLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"32"
-		"wide"			"300"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"font"			"Damagetext"
-
-		if_aids
-		{
-			"ypos"		"92"
-		}
-	}
-
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -319,161 +300,5 @@
 		}
 	}
 
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"visible"		"0"
-	}
-	"ClassOrTeamLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ClassOrTeamLabel"
-		"visible"		"0"
-	}
-	"SwitchCamModeKeyLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SwitchCamModeKeyLabel"
-		"visible"		"0"
 
-	}
-	"SwitchCamModeLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"SwitchCamModeLabel"
-		"visible"		"0"
-	}
-	"CycleTargetFwdKeyLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetFwdKeyLabel"
-		"visible"		"0"
-	}
-	"CycleTargetFwdLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetFwdLabel"
-		"visible"		"0"
-	}
-	"CycleTargetRevKeyLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetRevKeyLabel"
-		"visible"		"0"
-	}
-	"CycleTargetRevLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CycleTargetRevLabel"
-		"visible"		"0"
-	}
-	"TipLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TipLabel"
-		"visible"		"0"
-	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"190"
-		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		//
-
-		"model_ypos"		"10"
-		"model_center_x"	"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
-
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
-		"text_center"	"1"
-
-		"max_text_height"	"100"
-		"padding_height"	"10"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
-
-		"ItemLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"Size 8"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-		}
-
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"Size 11"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}
-
-	"spectator_extras"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"spectator_extras"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-
-	"topbar"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
-		"tall"	"0"
-	}
-	"BottomBar"
-	{
-		"ControlName"	"Frame"
-		"fieldName"	"BottomBar"
-		"xpos"	"9999"
-		"enabled"	"0"
-	}
-	"bottombarblank"
-	{
-		"ControlName"	"Panel"
-		"fieldName"	"bottombarblank"
-		"xpos"	"9999"
-		"enabled"	"0"
-	}
 }

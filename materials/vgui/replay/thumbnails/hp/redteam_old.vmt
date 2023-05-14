@@ -3,5 +3,5 @@
 	"$basetexture"	"vgui\replay\thumbnails\hp\redteam"
 	
 	"$vertexcolor"		"1"
-	"$no_fullbright"	"1"
+	
 }

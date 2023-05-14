@@ -158,40 +158,28 @@
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
 				}			
-				"Github"
+				"ReloadGame"
 				{
 					"ControlName"				"CExButton"
-					"fieldName"					"Github"
+					"fieldName"					"ReloadGame"
 					"xpos"						"rs1-40"
 					"ypos"						"0"
 					"zpos"						"53"
 					"wide"						"20"
 					"tall"						"f0"
 					"proportionaltoparent"		"1"
-					"command"					"engine none"
+					"command"					"engine gamemenucommand RestartWithNewLanguage"
 					"actionsignallevel"			"4"
-					"labelText"					"{"
+					"labelText"					"Ñ"
 					"font"						"newicons12"
 					"textAlignment"				"center"
 					"paintbackground"			"0"
 					"defaultfgcolor_override"	"PrimaryT3"
 					"armedfgcolor_override"		"Primary"
+					"tooltiptext"				"Reloads the entire game"
 					"sound_depressed"			"UI/buttonclick.wav"
 					"sound_released"			"UI/buttonclickrelease.wav"
-				}		
-				"githuburl"
-				{
-					"ControlName"		"URLLabel"
-					"fieldName"		"githuburl"
-					"xpos"		"rs1-40"
-					"ypos"		"0"
-					"zpos"		"90"
-					"wide"		"20"
-					"tall"		"20"
-					"labelText"		""
-					"URLText"		"https://github.com/Jofre-Problem/JofreHUD-Dev"
-
-				}								
+				}													
 			}
 
 			"SideBar"

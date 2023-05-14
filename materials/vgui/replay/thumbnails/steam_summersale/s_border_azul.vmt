@@ -2,7 +2,7 @@
 {
 	"$baseTexture" "vgui\replay\thumbnails\steam_summersale\s_border_azul"
 	"$vertexcolor" "1"
-	"$no_fullbright" "1"
+	
 	"$ignorez" "1"
 	"$translucent" "1"		
 	"Proxies" 

@@ -2,7 +2,7 @@
 {
 	"$baseTexture" "vgui\replay\thumbnails\steam_summersale\s_border_hearts"
 	"$vertexcolor" "1"
-	"$no_fullbright" "1"
+	
 	"$ignorez" "1"
 	"$translucent" "1"		
 	"Proxies" 

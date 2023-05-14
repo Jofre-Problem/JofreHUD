@@ -6,9 +6,9 @@
 	"$distancealpha"		"1"
 	"$softedges"			"1"
 	"$scaleedgesoftnessbasedonscreenres" 1
-	"$no_fullbright" 1
+	
 	"$ignorez" 1
-	"%keywords" "tf"
+	
 		"Proxies"
 		{
 			"AnimatedTexture"

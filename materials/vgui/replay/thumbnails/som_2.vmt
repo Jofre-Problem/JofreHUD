@@ -4,8 +4,8 @@
 	"$baseTexture" "vgui\replay\thumbnails\som_2"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"
-	"$no_fullbright" "1"
+	
 	"$ignorez" "1"
-	"%keywords" "tf"
+	
 }
 

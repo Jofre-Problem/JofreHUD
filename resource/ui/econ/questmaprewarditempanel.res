@@ -71,7 +71,7 @@
 		"tall"		"10"
 		"labelText"			"%limit%"
 		"font"			"QuestMap_Medium"
-		"textinsetx"		"0"
+		
 		"textAlignment"	"west"
 		"mouseinputenabled"		"0"
 		"proportionaltoparent"	"1"

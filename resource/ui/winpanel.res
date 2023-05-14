@@ -18,7 +18,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"		"Size 16"
+		"font"		"NotoBold16"
 		"xpos"		"cs-0.5"
 		"ypos"		"0"
 		"zpos"		"1"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
-		"font"		"Size 16"
+		"font"		"NotoBold16"
 		"xpos"		"cs-0.5"
 		"ypos"		"0"
 		"zpos"		"1"
@@ -51,7 +51,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"xpos"		"cs-0.5"
 		"ypos"		"12"
 		"zpos"		"1"
@@ -96,7 +96,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"		"Size 16"
+			"font"		"NotoBold16"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"east"
 			"zpos"		"10"
@@ -115,7 +115,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"		"Size 28"
+			"font"		"NotoBold28"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"center"
 			"xpos"		"c-28"
@@ -132,7 +132,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"		"Size 16"
+			"font"		"NotoBold16"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"west"
 			"zpos"		"10"
@@ -151,7 +151,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"		"Size 28"
+			"font"		"NotoBold28"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"center"
 			"xpos"		"c0"
@@ -233,7 +233,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"xpos"		"cs-0.5"
 		"ypos"		"-2"
 		"zpos"		"1"
@@ -254,7 +254,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TopPlayerLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"zpos"		"3"
 		"wide"		"200"
 		"tall"		"6"
@@ -272,7 +272,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PointsThisRoundLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"zpos"		"3"
 		"wide"		"140"
 		"tall"		"6"
@@ -453,7 +453,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"xpos"		"1"
 		"ypos"		"0"
 		"zpos"		"3"
@@ -472,7 +472,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"		"Size 8"
+		"font"		"NotoBold8"
 		"xpos"		"1"
 		"ypos"		"0"
 		"zpos"		"3"

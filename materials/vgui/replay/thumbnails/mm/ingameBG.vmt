@@ -3,12 +3,12 @@
 //	"$basetexture"	"vgui\replay\thumbnails\hp\cover"
 //	
 //	"$vertexcolor"		"1"
-//	"$no_fullbright"	"1"
+//	
 //}
 
 "Refract"
 {
-	"%keywords" "tf"
+	
 	"$refractamount" "0.0"
 	"$refracttint" "{180 180 180}"
 	

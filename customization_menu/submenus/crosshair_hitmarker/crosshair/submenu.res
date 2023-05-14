@@ -69,7 +69,7 @@
 						"labelText"				"RESET SHAPE"
 						"textAlignment"			"center"
 						"font"					"Size 14"
-						"command"				"engine ih_crosshair_shape_clear; ih_reloadscheme"
+						"command"				"engine ih_cross_clear; ih_reloadscheme"
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

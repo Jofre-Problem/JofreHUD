@@ -1,6 +1,3 @@
-//#base "../ui2/mm_topbar.res"
-#base "../ui2/polybar_1.res"
-#base "../ui2/polyconfig1.res"
 "Resource/UI/MatchMakingDashboard.res"
 {
 	"MMDashboard"

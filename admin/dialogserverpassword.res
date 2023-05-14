@@ -102,16 +102,4 @@
 		"command"		"Close"
 		"default"		"0"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildDialog"
-		"xpos"		"353"
-		"ypos"		"586"
-		"wide"		"285"
-		"tall"		"320"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
 }

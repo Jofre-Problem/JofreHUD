@@ -48,20 +48,6 @@
 				"visible"			"0"
 			}			
 	}
-	"thanks"		
-	{
-		ControlName				Label
-		FieldName				"thanks"
-		xPos					0
-		yPos					60
-		wide					f0
-		tall					40	
-		//
-		font					"Regular18"
-		labelText				"MAJOR Credits to: Lead, Peaches and JarateKing."
-		textAlignment			center
-		"fgcolor_override"	"Green"
-	}	
 	"discord"		
 	{
 		ControlName				Label

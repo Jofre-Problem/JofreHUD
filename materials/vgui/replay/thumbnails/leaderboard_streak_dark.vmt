@@ -5,7 +5,7 @@
 	"$alpha" "0.95"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"
-	"$no_fullbright" "1"
+	
 	"$ignorez" "1"
-	"%keywords" "tf"
+	
 }

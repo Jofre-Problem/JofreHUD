@@ -10,9 +10,8 @@
 		"tall"		"50"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -29,9 +28,8 @@
 		"tall"		"50"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
@@ -48,9 +46,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
@@ -70,9 +67,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
@@ -92,9 +88,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
@@ -114,9 +109,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
@@ -136,9 +130,8 @@
 		"tall"		"28"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -147,11 +140,11 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
+		
 		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-		"use_proportional_insets"		"0"
+		
+		
+		
 		"Default"		"0"
 	}
 	"ThirdPartySoundCredits"
@@ -164,9 +157,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"8"
@@ -175,10 +167,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 		"command"		"ShowThirdPartyAudioCredits"
 		"Default"		"1"
 		"selected"		"0"
@@ -193,9 +185,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -204,10 +195,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"RequiresRestartLabel"
 	{
@@ -219,9 +210,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -230,10 +220,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"sfx label"
 	{
@@ -245,9 +235,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -257,10 +246,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"MusicVolumeLabel"
 	{
@@ -272,9 +261,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -284,10 +272,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"SoundQualityLabel"
 	{
@@ -299,9 +287,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -311,10 +298,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"SpeakerConfigLabel"
 	{
@@ -326,9 +313,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -338,10 +324,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"TestSpeakersWarning"
 	{
@@ -353,9 +339,8 @@
 		"tall"		"40"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
@@ -365,10 +350,10 @@
 		////		"0"
 		"Font"		"DefaultSmall"
 		"wrap"		"1"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"TestSpeakers"
 	{
@@ -380,9 +365,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//		"5"
@@ -391,10 +375,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
+		
 		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
 		"command"		"TestSpeakers"
 		"Default"		"1"
 		"selected"		"0"
@@ -409,9 +393,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -421,9 +404,9 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 }

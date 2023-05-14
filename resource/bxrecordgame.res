@@ -500,20 +500,4 @@
 		"settitlebarvisible"		"1"
 		"title"		"#Frame_Untitled"
 	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildModeDialog"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"300"
-		"tall"		"420"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
-	}
 }

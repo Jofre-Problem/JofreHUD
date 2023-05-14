@@ -78,7 +78,7 @@
 	//	"assister_dominated" "short"	// did assister dominate victim with this kill
 	//	"revenge"	"short"		// did killer get revenge on victim with this kill
 	//	"assister_revenge" "short"	// did assister get revenge on victim with this kill
-	//	"first_blood"	"bool"		// was this a first blood kill
+		"first_blood"	"bool"		// was this a first blood kill
 	//	"feign_death"	"bool"	// the victim is feign death
 	}
 
@@ -1599,12 +1599,12 @@
 	{
 	}
 
-	"rd_player_score_points"
-	{
-		"player"	"short"
-		"method"	"short"
-		"amount"	"short"
-	}
+//	"rd_player_score_points"
+//	{
+//		"player"	"short"
+//		"method"	"short"
+//		"amount"	"short"
+//	}
 
 	"demoman_det_stickies"
 	{
@@ -1841,8 +1841,7 @@
 	"winpanel_show_scores"
 	{}
 
-	"top_streams_request_finished"
-	{}
+//	"top_streams_request_finished"	{}
 
 	"competitive_state_changed"
 	{}

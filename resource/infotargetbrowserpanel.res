@@ -177,20 +177,5 @@
 		"Command"		"quickload"
 		"Default"		"0"
 	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildModeDialog"
-		"xpos"		"535"
-		"ypos"		"78"
-		"wide"		"409"
-		"tall"		"504"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
-	}
+
 }

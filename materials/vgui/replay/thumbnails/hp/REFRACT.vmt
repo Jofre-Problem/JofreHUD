@@ -1,6 +1,6 @@
 "Refract"
 {
-	"%keywords" "tf"
+	
 	"$refractamount" "0.0"
 	"$refracttint" "{155 155 155}"
 	

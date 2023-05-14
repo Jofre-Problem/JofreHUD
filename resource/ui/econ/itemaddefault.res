@@ -161,7 +161,7 @@
 		"tall"		"10"
 		"labelText"			"%price%"
 		"font"			"AdFont_PurchaseButton"
-		"textinsetx"		"0"
+		
 		"textAlignment"	"center"
 		
 		"proportionaltoparent"	"1"
@@ -193,7 +193,7 @@
 		"tall"		"10"
 		"labelText"			"#TF_ItemAd_ViewOnMarket"
 		"font"			"AdFont_PurchaseButton"
-		"textinsetx"		"0"
+		
 		"textAlignment"	"center"
 		
 		"proportionaltoparent"	"1"

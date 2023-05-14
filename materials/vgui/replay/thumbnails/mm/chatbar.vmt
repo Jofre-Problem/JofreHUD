@@ -3,5 +3,5 @@
 	"$basetexture"	"vgui\replay\thumbnails\mm\chatbar"
 	
 	"$vertexcolor"		"1"
-	"$no_fullbright"	"1"
+	
 }

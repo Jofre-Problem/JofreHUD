@@ -210,22 +210,6 @@
 		////		"0"
 		//"wrap"		"0"
 	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildModeDialog"
-		"xpos"		"1065"
-		"ypos"		"230"
-		"wide"		"300"
-		"tall"		"420"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
-	}
 	"Speed0Text"
 	{
 		"ControlName"		"TextEntry"

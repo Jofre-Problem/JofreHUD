@@ -3,12 +3,12 @@
 //	"$basetexture"	"vgui\replay\thumbnails\hp\cover"
 //	
 //	"$vertexcolor"		"1"
-//	"$no_fullbright"	"1"
+//	
 //}
 
 "UnlitGeneric"
 {
-	"%keywords" "tf"
+	
 	"$basetexture" "dev\null"
 	"$translucent" 1
 }

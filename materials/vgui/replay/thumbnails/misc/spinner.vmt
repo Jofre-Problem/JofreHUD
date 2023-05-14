@@ -3,9 +3,9 @@
 	"$translucent"	1
 	"$basetexture" "vgui\replay\thumbnails\misc/spinner"
 	"$vertexcolor" 1
-	"$no_fullbright" 1
+	
 	"$ignorez" 1
-	"%keywords" "tf"
+	
 	"Proxies" 
 	{ 
 		"AnimatedTexture" 

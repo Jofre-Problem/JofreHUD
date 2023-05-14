@@ -296,7 +296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans Bold"
 				"tall"	"30"
 				"antialias"	"1"
 				"dropshadow"	"1"

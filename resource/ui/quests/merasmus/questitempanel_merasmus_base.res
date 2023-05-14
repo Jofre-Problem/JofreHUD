@@ -139,7 +139,7 @@
 					"bgcolor_override"	"0 0 0 220"
 					"fgcolor"		"Black"
 					"font"			"QuestMediumText_Merasmus"
-					"textinsetx"		"0"
+					
 					"textAlignment"	"center"
 					"auto_wide_tocontents"	"0"
 					"allcaps"	"0"

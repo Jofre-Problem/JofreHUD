@@ -34,15 +34,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
+		"visible"		"0"
 	}
 	
 	"BlueScore"
@@ -66,17 +58,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-108"
-		"ypos"			"r48"
-		"zpos"			"7"
-		"wide"			"75"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"	
-		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"
+		"visible"		"0"
 	}	
 							
 	"RedScore"
@@ -100,17 +82,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c39"
-		"ypos"			"r48"
-		"zpos"			"7"
-		"wide"			"75"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
-		"fgcolor"		"Black"		
+		"visible"		"0"
 	}	
 															
 	"PlayingTo"
@@ -136,15 +108,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r33"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		"scaleImage"	"1"	
+		"visible"		"0"
 	}
 
 	"GameImage"

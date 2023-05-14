@@ -2,8 +2,8 @@
 {
 	"$baseTexture" "vgui/replay/thumbnails/panels/Material_Generic"
 	"$vertexcolor" 1
-	"$no_fullbright" 1
+	
 	"$ignorez" 1
-	"%keywords" "tf"
+	
 	"$translucent" 1
 }

@@ -3,5 +3,5 @@
 	"$basetexture"	"vgui\replay\thumbnails\hp\whiteam"
 	
 	"$vertexcolor"		"1"
-	"$no_fullbright"	"1"
+	
 }

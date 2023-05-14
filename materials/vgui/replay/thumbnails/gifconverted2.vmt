@@ -3,7 +3,7 @@
    "$baseTexture" "vgui/replay/thumbnails/gifconverted2"
    "$vertexcolor" 		1 
    "$vertexalpha" 		1 
-   "$nolod" 			1
+
    "$translucent" 1
    "Proxies"
    {

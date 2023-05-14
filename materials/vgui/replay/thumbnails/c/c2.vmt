@@ -3,6 +3,6 @@
 	"$translucent"	1
 	"$basetexture" "vgui\replay\thumbnails\c\c2"
 	"$vertexcolor" 1
-	"$no_fullbright" 1
+	
 	"$ignorez" 1
 }

@@ -1,5 +1,6 @@
 "Resource/UI/HudInspectPanel.res"
 {	
+	
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -39,7 +40,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"NotoBold8"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

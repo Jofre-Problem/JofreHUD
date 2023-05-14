@@ -4,7 +4,7 @@
 	"$basetexture"	"vgui\replay\thumbnails\windows"
 	
 	"$vertexcolor"		"0"
-	"$no_fullbright"	"0"
+	
 	"$vertexalpha"		"1"
 	"$ignorez"			"1"
 	"$alpha"			"0"

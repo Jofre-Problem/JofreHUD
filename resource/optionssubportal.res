@@ -10,9 +10,8 @@
 		"tall"		"28"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -21,10 +20,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
+		
 		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
 		"Default"		"0"
 	}
 	"PortalDepth"
@@ -37,9 +36,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
@@ -59,9 +57,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -70,10 +67,10 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
+		
+		
+		
+		
 	}
 	"PortalDepthLabel"
 	{
@@ -85,9 +82,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
+		//
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -97,28 +93,9 @@
 		////		"0"
 		////		"0"
 		//"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"0"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildModeDialog"
-		"xpos"		"362"
-		"ypos"		"174"
-		"wide"		"300"
-		"tall"		"420"
-		//		"0"
-		//		"0"
-		//"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
+		
+		
+		
+		
 	}
 }
