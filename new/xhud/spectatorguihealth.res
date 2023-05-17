@@ -51,7 +51,7 @@
 			"alpha"		"150"
 		"enabled"		"1"
 		"drawcolor"	"Positive"
-		"image"		"replay/thumbnails/hp/white_draw"
+		"image"		"replay/thumbnails/panels/blue"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 

@@ -35,7 +35,7 @@
 			
 			"fgcolor_override"			"white"
 			
-			"command"								"engine ih_custom_on; ih_reloadmenus"
+			"command"								"engine ih_custom_on; jp_reloadmenus"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 

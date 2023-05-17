@@ -65,10 +65,13 @@
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5-35"
 		"zpos"										"3"
-		"wide"										"0"
-		"tall"										"150"
+		"wide"										"150"
+		"tall"										"190"
 		"proportionaltoparent"						"0"	
-	//	"button_token"								"Communnitty"
+		"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
+		"button_command"	"play_community"
+		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
+
 		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_survival"		
 	}
 	"MvMEntry"

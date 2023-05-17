@@ -31,8 +31,6 @@ event HudHealthBonusPulseStop
 	StopEvent TI_Bonus 0.0
 }
 
-
-
 //Health Dying Pulse
 event HudHealthDyingPulse
 {	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
@@ -43,6 +41,7 @@ event HudHealthDyingPulse
 	Animate	OverhealHealthTextBG 	Xpos		"0 0"			Accel 0.0	0.0
 	RunEvent LevelInitAny 0.0
 	RunEvent TI_Death 0.0
+	
 }
 
 

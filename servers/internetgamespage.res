@@ -42,7 +42,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"KeyLabels"
 		"xpos"		"100"
-		"ypos"		"100"
+		"ypos"		"50"
 		"wide"		"90"
 		"tall"		"24"
 		"textAlignment"		"west"

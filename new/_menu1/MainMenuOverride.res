@@ -74,6 +74,16 @@
 	
 		paintBackground			0
 	}	
+	"testcmd"
+	{
+			"ControlName"							"CExButton"
+			"fieldName"								"testcmd"				
+		wide					30
+		tall					15
+		command				"engine say_team no"
+		paintBackground			0
+		"labeltext" ""
+	}			
 	"3_btn"
 	{
 			"ControlName"							"CExButton"

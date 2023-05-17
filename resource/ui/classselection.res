@@ -1738,5 +1738,187 @@
                 "scaleImage"    "0"
             }               
         }
-    }       
+    }     
+
+	// #region DISABLED 
+
+	"ClassInfo"
+	{
+		visible			0
+	}
+	"ClassTipsPanel"
+	{
+		visible			0
+	}
+	"localPlayerImage"
+	{
+		visible			0
+		visible 0
+		tall				0
+	}
+	"localPlayerBG"
+	{
+		visible			0
+		visible 0
+		tall				0
+	}
+	"ClassTipsPanel"
+	{
+		visible			0
+	}
+	"random"
+	{
+		visible 0
+		tall				0
+	}
+	"ClassInfo"
+	{
+		visible			0
+	}
+	"ClassTipsPanel"
+	{
+		visible			0
+	}
+	"localPlayerImage"
+	{
+		visible			0
+		visible 0
+		tall				0
+	}
+	"countImage0" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage0"
+		"tall"			"0"
+		"scaleImage"	"1"	
+	}							
+	
+	"countImage1" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage1"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage0"
+	}
+	
+	"countImage2" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage1"
+	}
+	
+	"countImage3" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage3"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage2"
+	}
+	
+	"countImage4" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		pin_to_sibling	"countImage3"
+	}
+	
+	"countImage5" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage5"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage4"
+	}
+	
+	"countImage6" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage6"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		pin_to_sibling	"countImage5"
+	}
+	
+	"countImage7" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage7"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		//"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage6"
+	}
+	
+	"countImage8" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage8"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		//"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage7"
+	}
+	
+	"countImage9" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage9"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"tall"			"0"
+		"visible"		"0"
+		//"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	pin_to_sibling	"countImage8"		
+	}
+	
+	"countImage10" 
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage10"
+		"xpos"			"-25"
+		"ypos"			"0"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"0"
+		"visible"		"0"
+		//"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+		pin_to_sibling	"countImage9"
+	}
 }

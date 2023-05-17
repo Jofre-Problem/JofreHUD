@@ -99,17 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"AmmoBar"
-		"fgcolor"		"7 7 7 255" 
-		"xpos"			"-32"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"100"
 		"tall"			"0" //70
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"#ammobar"
 	}				
 	"AmmoInReserve"
 	{
@@ -132,18 +122,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"LowAmmoFont"
-		"fgcolor"		"whattimeis1"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"190"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"		
-		"labelText"		"%AmmoInReserve%"
-		"pin_to_sibling"	"AmmoAnchor"
 	}	
 
 //	"AmmoInReserveShadow"
@@ -254,7 +234,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeS1"//AmmoEverywhereDude1
-		"font"			"HealthAndAmmoShadow1"
+		"font"			"Blank"
 		"fgcolor"		"0 0 0 185"
 		"xpos"			"-2457"
 		"ypos"			"-5"

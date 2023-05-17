@@ -17,3 +17,8 @@ exec "jofrehud.cfg"
 alias chud_firstrun "exec hud_firstrun.cfg"
 exec "jp_hud_has_run.txt"
 chud_firstrun
+
+// Setup
+alias "ih_setup" "exec ih_setup"
+exec ih_setup_complete.txt
+ih_setup

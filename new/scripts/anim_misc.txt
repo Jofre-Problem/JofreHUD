@@ -48,7 +48,7 @@ event MenuOpen
 
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
-
+	RunEvent TestTestingCmd 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 
@@ -68,6 +68,14 @@ event MenuOpen
 	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
+}
+event TestTestingCmd
+{	
+	RuneventChild Mainmenuoverride TestCmd 0.0
+}
+event TestCmd
+{	
+	Firecommand 0.0 "engine none"
 }
 event ScoreboardAlpha
 {
@@ -116,7 +124,7 @@ event HasMOTDBlinkStop
 }
 event LevelInit
 {
-	RunEvent LevelInitAny 0.0
+//	RunEvent LevelInitAny 0.0
 //	RunEvent HudHealthBonusPulseLoop1a	0.0 //want this to run on start but not reset
 }
 event LevelInitAny
@@ -168,25 +176,12 @@ event TIDuberFullLoop
 	RunEvent TIDuberFull 0.0
 }
 
-event FlashDamageaccountDrop
-{
-	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.0 0.0
-	Animate CDamageAccountPanel EventColor "35 195 255 255" linear 0.05 0.10
-	Animate CDamageAccountPanel EventColor "255 255 255 255" linear 0.17 0.07
-
-	RunEvent FlashDamageaccountDropLoop 0.3
-}
-event FlashDamageaccountDropLoop
-{
-	RunEvent FlashDamageaccountDrop 0.0
-}
-
 event TeamStatus_PlayerDead
 {
 SetVisible DeathPanel	1 0
 SetVisible SkullPanel	1 0
 SetVisible respawntime	1 0
-
+//PlaySound 0 "vo/gift_drop.wav"
 Animate DeathPanel ypos 0 Accel 0 0.2
 Animate SkullPanel ypos 0 Accel 0 0.2
 Animate respawntime ypos 0 Accel 0 0.2
@@ -197,7 +192,7 @@ event TeamStatus_PlayerAlive
 	Animate DeathPanel ypos 0 Accel 0 0.2
 	Animate SkullPanel ypos 0 Accel 0 0.2
 	Animate respawntime ypos 0 Accel 0 0.2
-
+//	PlaySound 0 "vo/littlereward.wav"
 	SetVisible DeathPanel	0 0.2
 	SetVisible SkullPanel	0 0.2
 	SetVisible respawntime 0 0.2

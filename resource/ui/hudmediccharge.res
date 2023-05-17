@@ -258,7 +258,7 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"1_editable"		
-		"xpos" 		"91"
+		"xpos" 		"94"
 		"ypos"		"1"
 	}
 	"ResistIcon"

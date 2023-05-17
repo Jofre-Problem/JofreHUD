@@ -17,28 +17,157 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
 		"visible"		"1"
-		//"enabled"		"1"		
+		"enabled"		"1"
 	}
-			
-			
 	"PlayerStatusClassImage"
 	{
-		"ControlName"								"CTFClassImage"
-		"fieldName"									"PlayerStatusClassImage"
-		"xpos"										"20"
-		"ypos"										"rs1"
-		"zpos"										"2"
-		"wide"										"75"
-		"tall"										"o1"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"		"20"
+		"ypos"		"rs1"
+		"zpos"		"2"
+		"wide"		"75"
+		"tall"		"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+
+	}
+
+	"classmodelpanel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		"zpos"		"2"
+		"wide"		"100"
+		"tall"		"200"
+		"visible"		"1"
+		"enabled"		"1"
+		"render_texture"	"0"
+		"fov"		"12"
+		"allow_rot"		"1"
+
+		"disable_speak_event"	"1"
+
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "172"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "0"
+			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+
+			"modelname"		""
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{}
+			"Scout"
+			{
+				"fov"		"20"
+				"angles_x"		"-7"
+				"angles_y"		"215"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"2"
+				"origin_z"		"-75"
+			}
+			"Sniper"
+			{
+				"fov"		"23"
+				"angles_x"		"0"
+				"angles_y"		"215"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"2"
+				"origin_z"		"-85"
+			}
+			"Soldier"
+			{
+				"fov"		"25"
+				"angles_x"		"0"
+				"angles_y"		"210"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"4"
+				"origin_z"		"-80"
+			}
+			"Demoman"
+			{
+				"fov"		"26"
+				"angles_x"		"-7"
+				"angles_y"		"210"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-2"
+				"origin_z"		"-88"
+			}
+			"Medic"
+			{
+				"fov"		"22"
+				"angles_x"		"-3"
+				"angles_y"		"220"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-4"
+				"origin_z"		"-85"
+			}
+			"Heavy"
+			{
+				"fov"		"26"
+				"angles_x"		"-2"
+				"angles_y"		"220"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"4"
+				"origin_z"		"-90"
+			}
+			"Pyro"
+			{
+				"fov"		"25"
+				"angles_x"		"0"
+				"angles_y"		"220"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"6"
+				"origin_z"		"-80"
+			}
+			"Spy"
+			{
+				"fov"		"23"
+				"angles_x"		"0"
+				"angles_y"		"215"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"3"
+				"origin_z"		"-85"
+			}
+			"Engineer"
+			{
+				"fov"		"24"
+				"angles_x"		"0"
+				"angles_y"		"215"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"1"
+				"origin_z"		"-78"
+			}
+		}
 	}
 
 	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
@@ -47,76 +176,6 @@
 	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 	"PlayerStatusClassImageBG"
 	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
-	"classmodelpanel"
-	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"classmodelpanel"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"blank"
-		
-		"disable_speak_event"	"1"
-				
-
-	}
-	
-
-	"CarryingWeapon"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"CarryingWeapon"
-		"xpos"					"0"
-		"ypos"					"rs1"
-		"zpos"					"100"
-		"wide"					"500"
-		"tall"	 				"30"
-		"CarryingBackground"
-		{
-
-			"ypos"			"r0"
-
-		}
-
-		"CarryingLabel"
-		{	
-			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabel"
-			"font"				"Size 14"
-			"xpos"				"5"
-			"ypos"				"15"
-			"zpos"				"1"
-			"wide"				"f0"
-			"tall"	 			"f0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-			"labelText"			"%carrying%"
-			"bgcolor"		"64 64 64 255"
-		}
-		"CarryingLabelDropShadow"
-		{	
-			"visible"				"0"
-		}
-		"OwnerLabel"
-		{	
-			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"font"				"Regular9"
-			"xpos"				"5"
-			"ypos"				"12"
-			"zpos"				"0"
-			"wide"				"200"
-			"tall"	 			"f0"
-			////"autoResize"		"0"
-			//		"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"West"
-			//			"0"
-			////		"0"
-			"proportionaltoparent"	"1"
-			"auto_wide_tocontents"	"1"
-		}
-	}
+	"classmodelpanelBG"
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 }

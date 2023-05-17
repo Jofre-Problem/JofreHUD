@@ -10,7 +10,7 @@ Scheme
 			{
 				"name"	"OpenSansExtraboldUber"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 				"outline"	"1"
 			}
@@ -21,9 +21,9 @@ Scheme
 			{
 				"name"	"OpenSansExtraboldUber"
 				"tall"	"24"
-				"additive"	"0"
+				//
 				"antialias"	"1"
-				"dropshadow"	"0"
+				//
 			}
 		}		
 		"Size 16 Uber"
@@ -32,7 +32,7 @@ Scheme
 			{
 				"name"	"OpenSansExtraboldUber"
 				"tall"	"16"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			//	"dropshadow"	"1"
 			}
@@ -54,9 +54,9 @@ Scheme
 			{
 				"name"	"OpenSansExtraboldUber"
 				"tall"	"18"
-				"additive"	"0"
+				//
 				"antialias"	"1"
-				"dropshadow"	"0"
+				//
 			}
 		}		
 		"Size 10 Uber"
@@ -65,7 +65,7 @@ Scheme
 			{
 				"name"	"OpenSansExtraboldUber"
 				"tall"	"10"
-				"additive"	"0"
+				//
 				"antialias"	"1"
 			}
 		}		
@@ -105,61 +105,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"HealthAndAmmo2"
-		{
-			"1"
-			{
-				"name" "Open Sans AlphaInverted3"
-				"tall" "20"
-				"antialias"	"1"
-			}
-		}		
-		"HealthAndAmmoThin"
-		{
-			"1"
-			{
-				"name" "Open Sans AlphaInvertedThin"
-				"tall" "38"
-				"antialias"	"1"
-			}
-		}
-		"HealthAndAmmoOutline"
-		{
-			"1"
-			{
-				"name" "Open Sans ExtraboldOutline"
-				"tall" "20"
-				"antialias"	"1"
-			}
-		}
-		"HealthAndAmmoOutlineShadow"
-		{
-			"1"
-			{
-				"name" "Open Sans ExtraboldOutline"
-				"tall" "38"
-				"antialias"	"1"
-				"blur" "1"
-			}
-		}
-		"HealthAndAmmoShadow1"
-		{
-			"1"
-			{
-				"name" "Open Sans Shadow"
-				"tall" "39"
-				"antialias"	"1"
-				"blur" "1"
-				"yres" "479 481"
-			}
-			"2"
-			{
-				"name" "Open Sans Shadow"
-				"tall" "38"
-				"antialias"	"1"
-				"blur" "1"
-			}
-		}
+	
 		"UberCheckmark"
 		{
 			"1"
@@ -169,47 +115,21 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"HighHealth"
-		{
-			"1"
-			{
-				"name" "Open Sans HighHealth"
-				"tall" "42"
-				"antialias"	"1"
-			}
-		}
-		"HighHealthIcon"
-		{
-			"1"
-			{
-				"name" "Open Sans HighHealthIcon"
-				"tall" "44"
-				"antialias"	"1"
-			}
-		}
-		"HighHealthBG"
-		{
-			"1"
-			{
-				"name" "Open Sans HighHealthBG"
-				"tall" "44"
-				"antialias"	"1"
-			}
-		}
+	
 		"LowHealthFont"
 		{
 			"1"
 			{
 				"name" "Open Sans LowHealth"
 				"tall" "89"
-				"antialias"	"0"
+				//"antialias"	"0"
 				"yres" "1024 1199"
 			}
 			"2"
 			{
 				"name" "Open Sans LowHealth"
 				"tall" "51"
-				"antialias"	"0"
+				//"antialias"	"0"
 			}
 		}
 		"LowerHealthFont"
@@ -218,40 +138,23 @@ Scheme
 			{
 				"name" "Open Sans LowerHealth2"
 				"tall" "100"
-				"antialias"	"0"
+				//"antialias"	"0"
 				"yres" "1024 1199"
 			}
 			"1"
 			{
 				"name" "Open Sans LowerHealth"
 				"tall" "70"
-				"antialias"	"0"
-			}
-		}
-		"1HealthPusherFont"
-		{
-			"1"
-			{
-				"name" "Open Sans HealthLowesterImage"
-				"tall" "100"
-				"antialias" "0"
-				"yres" "1024 1199"
-			}
-			"2"
-			{
-				"name" "Open Sans HealthLowesterImage"
-				"tall" "100"
-				"antialias" "0"
+				//"antialias"	"0"
 			}
 		}
 		"LowAmmoFont"
 		{
 			"1"
 			{
-				"name" "LowAmmoWarning Zero" [$WINDOWS]
-				"name" "FixLowAmmoWarning" [$LINUX]
+				"name" "LowAmmoWarning Zero"
 				"tall" "51"
-				"antialias"	"0"
+				//"antialias"	"0"
 			}
 		}
 		"LowestAmmoFont"
@@ -260,23 +163,14 @@ Scheme
 			{
 				"name" "Open Sans LowAmmo"
 				"tall" "89"
-				"antialias"	"0"
+				//"antialias"	"0"
 				"yres" "1024 1199"
 			}
 			"2"
 			{
 				"name" "Open Sans LowAmmo"
 				"tall" "51"
-				"antialias"	"0"
-			}
-		}
-		"AmmoBar"
-		{
-			"1"
-			{
-				"name" "AmmoBar Scout"
-				"tall" "78"
-				"antialias"	"1"
+				//"antialias"	"0"
 			}
 		}
 		"AmmoReserve"
@@ -401,43 +295,7 @@ Scheme
 				"tall" "24"
 				"antialias"	"1"
 			}
-		}
-		"SpecTargetIDdata"
-		{
-			"1"
-			{
-				"name" "Open Sans TIDdata"
-				"tall" "18"
-				"antialias"	"1"
-			}
-		}
-		"SpecTargetIDuberfull"
-		{
-			"1"
-			{
-				"name" "Open Sans TIDuberFull"
-				"tall" "100"
-				"antialias"	"0"
-			}
-		}
-		"ViewerNumber"
-		{
-			"1"
-			{
-				"name" "Open Sans Semibold Noletters"
-				"tall" "14"
-				"antialias"	"1"
-			}
-		}
-		"ViewerNumber2"
-		{
-			"1"
-			{
-				"name" "Open Sans Semibold Noletters"
-				"tall" "9"
-				"antialias"	"1"
-			}
-		}		
+		}	
 		"HealthAndAmmo20"
 		{
 			"1"
@@ -454,22 +312,14 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"HealthAndAmmoThin20"
-		{
-			"1"
-			{
-				"name" "Open Sans AlphaInvertedThin"
-				"tall" "20"
-				"antialias"	"1"
-			}
-		}	
+
 		"CustomNotoMonoSmall"
 		{
 			"1"
 			{
 				"name" "CustomNotoMono"
 				"tall" "9"
-				"additive"	"0"
+				//
 				"antialias" "1"
 			}
 		}
@@ -479,7 +329,7 @@ Scheme
 			{
 				"name" "CustomNotoMono"
 				"tall" "12"
-				"additive"	"0"
+				//
 				"antialias" "1"
 			}
 		}
@@ -489,7 +339,7 @@ Scheme
 			{
 				"name" "Verdana"
 				"tall" "7"
-				"additive"	"0"
+				//
 				"antialias" "1"
 			}
 		}	
@@ -1038,11 +888,6 @@ Scheme
 			"font" "fonts/OpenSans-AlphaInverted2.ttf"
 			"name" "Open Sans AlphaInverted2"
 		}
-		"9"
-		{
-			"font" "fonts/AmmoBarScout.otf"
-			"name" "AmmoBar Scout"
-		}
 		"10"
 		{
 			"font" "fonts/LowAmmoWarningZero.ttf"
@@ -1078,11 +923,7 @@ Scheme
 			"font" "fonts/OpenSans-Killfeed.ttf"
 			"name" "Open Sans Killfeed"
 		}
-		"17"
-		{
-			"font" "fonts/OpenSans-Shadow.ttf"
-			"name" "Open Sans Shadow"
-		}
+	//	"17"		{			"font" "fonts/OpenSans-Shadow.ttf"			"name" "Open Sans Shadow"	}
 		"20"
 		{
 			"font" "fonts/OpenSans-Healtarget.ttf"
@@ -1093,50 +934,10 @@ Scheme
 			"font" "fonts/OpenSans-NodashHeals.ttf"
 			"name" "Open Sans NodashHeals"
 		}
-		"22"
-		{
-			"font" "fonts/OpenSans-TIDuberFull.ttf"
-			"name" "Open Sans TIDuberFull"
-		}
-		"23"
-		{
-			"font" "fonts/OpenSans-TIDdata.ttf"
-			"name" "Open Sans TIDdata"
-		}
-		"24"
-		{
-			"font" "fonts/OpenSans-1Health.ttf"
-			"name" "Open Sans 1Health"
-		}
 		"25"
 		{
 			"font" "fonts/OpenSans-Pipes.ttf"
 			"name" "Open Sans Pipes"
-		}
-		"27"
-		{
-			"font" "fonts/OpenSans-HighHealth.ttf"
-			"name" "Open Sans HighHealth"
-		}
-		"28"
-		{
-			"font" "fonts/OpenSans-HighHealthBG.ttf"
-			"name" "Open Sans HighHealthBG"
-		}
-		"29"
-		{
-			"font" "fonts/OpenSans-HighHealthIcon.ttf"
-			"name" "Open Sans HighHealthIcon"
-		}
-		"30"
-		{
-			"font" "fonts/OpenSans-SemiboldNoPilcrow.ttf"
-			"name" "Open Sans SemiboldNoPilcrow"
-		}
-		"37"
-		{
-			"font" "fonts/OpenSans-AlphaInvertedThin.ttf"
-			"name" "Open Sans AlphaInvertedThin"
 		}
 		"38"
 		{
@@ -1153,17 +954,6 @@ Scheme
 			"font" "fonts/OpenSans-Pipes3.ttf"
 			"name" "Open Sans Pipes3"
 		}
-		"44"
-		{
-			"font" "fonts/OpenSans-HealthLowesterImage.ttf"
-			"name" "Open Sans HealthLowesterImage"
-		}
-		"45"
-		{
-			"font" "fonts/OpenSans-Semibold-Noletters.ttf"
-			"name" "Open Sans Semibold Noletters"
-		}
-
 		"47"
 		{
 			"font" "fonts/OpenSans-LowerHealth2.ttf"
@@ -1173,11 +963,6 @@ Scheme
 		{
 			"font" "fonts/LowAmmoWarningZero.ttf"
 			"name" "LowAmmoWarning Zero"
-		}
-		"160"
-		{
-			"font" "fonts/FixLowAmmoWarning.otf"
-			"name" "FixLowAmmoWarning"
 		}		
 		"61"
 		{
@@ -1199,12 +984,7 @@ Scheme
 		{
 			"font" "fonts/OpenSans-AlphaInvertedNEW.ttf"
 			"name" "Open Sans AlphaInvertedNEW"
-		}
-		"222"
-		{
-			"font" "fonts/OpenSans-AlphaInverted3.ttf"
-			"name" "Open Sans AlphaInverted3"
-		}				
+		}			
 		"95"
 		{
 			"font" "fonts/OpenSans-Nodash.ttf"

@@ -254,7 +254,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"tall"		"14"
+				"tall"		"11"
 				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
@@ -277,29 +277,7 @@ Scheme
 				"tall"				"9"		
 				"antialias"			"1"
 			}
-		}	
-		"Code9"
-		{
-			"1"
-			{
-				"name"		"Calling Code Regular"
-				"tall"		"9"
-				"wide"		"300"
-				"antialias" 	"1"
-				"outline"	"1"
-			}
-		}   			
-		"Code7"
-		{
-			"1"
-			{
-				"name"		"Calling Code Regular"
-				"tall"		"7"
-				"wide"		"300"
-				"outline"	"1"
-				"antialias" 	"1"
-			}
-		}    		
+		}						
 		"Code8"
 		{
 			"1"
@@ -318,22 +296,11 @@ Scheme
 				"name"			"Blank"
 				"tall"			"1"
 				"weight"		"100"
-				"additive"		"0"
-				"antialias" 	"0"
 				"yres"			"0 2000"
 			}
 		}
 	
-		"Future40"
-		{
-			"1"
-			{
-				"name"		"Future Rot"
-				"tall"		"40"
-				"antialias" 	"1"
-				"wide"		"300"
-			}
-		}			
+			
 		"Future30"
 		{
 			"1"
@@ -354,36 +321,7 @@ Scheme
 				"wide"		"300"
 			}
 		}												
-		"Future14"
-		{
-			"1"
-			{
-				"name"		"Future Rot"
-				"tall"		"14"
-				"antialias" 	"1"
-				"wide"		"300"
-			}
-		}	
-		"Future12"
-		{
-			"1"
-			{
-				"name"		"Future Rot"
-				"tall"		"12"
-				"antialias" 	"1"
-				"wide"		"300"
-			}
-		}	
-		"Future32" 
-		{
-			"1"
-			{
-				"name"				"Future Rot"
-				"tall"				"32"				
-				"antialias"			"1"
-				"wide"		"300"
-			}
-		}
+	
 	
 	
 
@@ -591,59 +529,7 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}			
-		WBorder_2
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "Black"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}			
-				
-		B_CIcons1
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "White"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}	
-		B_Theme1
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "Black"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}								
-		B_BArmed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" "204 135 41 255"   //
-			"offset" "0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}	
+								
 
 	}
 }

@@ -11,6 +11,47 @@
 	#base "hudlayout_def.res"
 "j"
 {
+	"DisguiseDust"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"DisguiseDust"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"1700"
+		"wide"			"70"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent"	"1"
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos"		"25"
+				"particle_ypos"		"15"
+				"particle_scale"		"0.6"
+				"particleName"		"passtime_beam_trail_stage3"
+				"start_activated"	"0"
+				"loop"			"1"
+				"angles"			"0 0 0"
+				"control_point0"		"0 0 0"
+				"control_point1"		"0 -80 0"
+			}
+			"1"
+			{
+				"particle_xpos"		"7"
+				"particle_ypos"		"15"
+				"particle_scale"		"0.6"
+				"particleName"		"passtime_beam_trail_stage3"
+				"start_activated"	"0"
+				"loop"			"1"
+				"angles"			"0 0 0"
+				"control_point0"		"0 -80 0"
+				"control_point1"		"0 0 0"
+			}
+		}
+	}		
 	"1_editable" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
@@ -171,7 +212,7 @@
 		"IconColor"     		"255 255 255 255"
 	//	"LocalPlayerColor"  	"12 12 12 255"
 
-		"BaseBackgroundColor"	"TransparentGrayDarkest"
+		"BaseBackgroundColor"	"0 0 0 220"
 		"LocalBackgroundColor"	"TransparentWhite"
 	}
 //	"Spacer"

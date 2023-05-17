@@ -285,80 +285,20 @@
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
 
-					}	
-				"choosebg"
-					{
-						"ControlName"	"CExLabel"
-						"fieldName"		"choosebg"
-						"font"		"Regular12"
-						"labelText"		"Choose BG:"
-						"textAlignment"	"center"
-						"xpos"		"0"
-						"ypos"		"140"
-						"zpos"		"20"
-						"wide"		"p1"
-						"tall"		"20"
-						"border"		"FLAT_Black_4"
-						"enabled"		"1"
-						"fgcolor"		"white"
-					}	
-					"choosedef"
+					}
+					"Layout2"
 					{
 						"ControlName"			"CExButton"
-						"fieldName"				"choosedef"
-						"xpos"					"0"
-						"ypos"					"160"
-						"wide"					"40"
-						"tall"					"20"
-						"proportionaltoparent"	"1"
-						"labeltext"				"Lead"
-						"font"					"Regular12"
-						"textalignment"			"center"
-"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/lead.res; con_logfile ."
-						"actionsignallevel"		"5" 
-						"actionsignallevel"		"5" 
-						"paintbackground"		"0"
-						"border_default"		"FLAT_Black_4"
-						"border_armed"			"FLAT_Black_2"
-						"sound_depressed"		"UI/buttonclick.wav"
-						"sound_released"		"UI/buttonclickrelease.wav"
-
-					}	
-					"choosecustom1"
-					{
-						"ControlName"			"CExButton"
-						"fieldName"				"choosecustom1"
-						"xpos"					"40"
-						"ypos"					"160"
-						"wide"					"40"
-						"tall"					"20"
-						"proportionaltoparent"	"1"
-						"labeltext"				"CS1"
-						"font"					"Regular12"
-						"textalignment"			"center"
-"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/monterrey1.res; con_logfile ."
-						"actionsignallevel"		"5" 
-						"actionsignallevel"		"5" 
-						"paintbackground"		"0"
-						"border_default"		"FLAT_Black_4"
-						"border_armed"			"FLAT_Black_2"
-						"sound_depressed"		"UI/buttonclick.wav"
-						"sound_released"		"UI/buttonclickrelease.wav"
-
-					}		
-					"choosecustom2"
-					{
-						"ControlName"			"CExButton"
-						"fieldName"				"choosecustom2"
+						"fieldName"				"Layout2"
 						"xpos"					"80"
-						"ypos"					"160"
+						"ypos"					"120"
 						"wide"					"40"
 						"tall"					"20"
 						"proportionaltoparent"	"1"
-						"labeltext"				"CS2"
+						"labeltext"				"Nov"
 						"font"					"Regular12"
 						"textalignment"			"center"
-"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_bg.txt;con_logfile cfg/jp_mm_bg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/background/gruvbox1.res; con_logfile ."
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_member.txt;con_logfile cfg/jp_mm_member.txt; echo #base ../custom/jofrehud-main/new/_menu2/dashboardpartymember.res; con_logfile .; sixense_clear_bindings; sixense_write_bindings jp_mm_layout.txt;con_logfile cfg/jp_mm_layout.txt; echo #base ../custom/jofrehud-main/new/_menu2/mainmenuoverride.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_gamemenu.txt;con_logfile cfg/jp_mm_gamemenu.txt; echo #base ../custom/jofrehud-main/new/_menu2/gamemenu.res; con_logfile .; sixense_clear_bindings; sixense_write_bindings jp_mm_dash.txt;con_logfile cfg/jp_mm_dash.txt; echo #base ../custom/jofrehud-main/new/_menu2/matchmakingdashboard.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_friends.txt;con_logfile cfg/jp_mm_friends.txt; echo #base ../custom/jofrehud-main/new/_menu2/friends.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_rank.txt;con_logfile cfg/jp_mm_rank.txt; echo #base ../custom/jofrehud-main/new/_menu2/pvprankpanel.res; con_logfile ."
 						"actionsignallevel"		"5" 
 						"actionsignallevel"		"5" 
 						"paintbackground"		"0"
@@ -367,7 +307,30 @@
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
 
-					}																																															
+					}			
+					"Layout3"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"Layout3"
+						"xpos"					"120"
+						"ypos"					"120"
+						"wide"					"40"
+						"tall"					"20"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Pink"
+						"font"					"Regular12"
+						"textalignment"			"center"
+"command" "engine sixense_clear_bindings; sixense_write_bindings jp_mm_member.txt;con_logfile cfg/jp_mm_member.txt; echo #base ../custom/jofrehud-main/new/_menu3/dashboardpartymember.res; con_logfile .; sixense_clear_bindings; sixense_write_bindings jp_mm_layout.txt;con_logfile cfg/jp_mm_layout.txt; echo #base ../custom/jofrehud-main/new/_menu3/mainmenuoverride.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_gamemenu.txt;con_logfile cfg/jp_mm_gamemenu.txt; echo #base ../custom/jofrehud-main/new/_menu3/gamemenu.res; con_logfile .; sixense_clear_bindings; sixense_write_bindings jp_mm_dash.txt;con_logfile cfg/jp_mm_dash.txt; echo #base ../custom/jofrehud-main/new/_menu3/matchmakingdashboard.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_friends.txt;con_logfile cfg/jp_mm_friends.txt; echo #base ../custom/jofrehud-main/new/_menu3/friends.res; con_logfile .;sixense_clear_bindings; sixense_write_bindings jp_mm_rank.txt;con_logfile cfg/jp_mm_rank.txt; echo #base ../custom/jofrehud-main/new/_menu3/pvprankpanel.res; con_logfile ."
+						"actionsignallevel"		"5" 
+						"actionsignallevel"		"5" 
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+
+					}										
+																																													
 				}
 			}
 		}

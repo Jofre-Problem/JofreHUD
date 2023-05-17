@@ -1,5 +1,5 @@
-#base "../../../../cfg/jp_mm_member.txt"
-#base "../fallback/dashboardpartymember.res"
+// Matchmaking party member
+
 "Resource/UI/DashboardPartyMember.res"
 {
 	"avatar"
@@ -13,6 +13,27 @@
 		"tall"										"f0"
 		proportionaltoparent		1
 		scaleImage				1
+	}
+
+	"EmptyImage"
+	{
+		ControlName				Label
+		fieldName				"EmptyImage"
+		xpos					0
+		ypos					0
+		zpos					0
+		"wide"										"20"
+		"tall"										"20"
+		proportionaltoparent		1
+		visible				1
+		mouseinputenabled			0
+		
+		labelText				"ë"
+		font					"NewIcons20"
+		textAlignment			center
+
+		fgcolor_override			"Notodark"
+		paintbackground			0
 	}
 
 	"LeaderIcon"
@@ -104,6 +125,9 @@
 		fieldName					"InteractButton"
 		xpos							cs-0.5
 		ypos							cs-0.5
+		zpos							-1
+		wide							f1
+		tall							f1
 		proportionaltoparent		1
 		visible						1
 		enabled						1
@@ -112,5 +136,34 @@
 		keyboardinputenabled		0
 		actionsignallevel			1
 		labeltext					""
+
+		sound_depressed			"sound_menu/button.wav"
+		sound_released				"sound_menu/button2.wav"
+
+		paintbackground				1
+		defaultBgColor_override		"0 0 0 0"
+		armedBgColor_override		"Notodark"
+
+		border_default				"NoBorder"
+		border_armed				"FriendHighlightBorderThick"
+	}
+
+	"Spinner"
+	{
+		ControlName					CTFLogoPanel
+		fieldName					"Spinner"
+		xpos							1
+		ypos							1
+		zpos							104
+		wide							f2
+		tall							f2
+		proportionaltoparent		1
+		visible						1
+		mouseinputenabled			0
+		alpha							200
+
+		radius						26
+		velocity						60
+		fgcolor_override			"OrangeLight"
 	}
 }
