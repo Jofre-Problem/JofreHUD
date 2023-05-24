@@ -1,8 +1,3 @@
-#base "../../../../cfg/jp_chat_wide.txt"
-#base "../../../../cfg/jp_chat_tall.txt"
-#base "../../../../cfg/jp_chat_xpos.txt"
-#base "../../../../cfg/jp_chat_ypos.txt"
-#base "_tf2hud/basechat.res"
 "Resource/UI/BaseChat.res"
 {
 	"HudChat"
@@ -11,10 +6,10 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-	//	"xpos"			"4+p0.001"
-	//	"ypos"			"rs1-85" //enough space for nohboard
-	//	"wide"	 		"200"
-	//	"tall"	 		"120"
+		"xpos"			"4+p0.001"
+		"ypos"			"rs1-85" //enough space for nohboard
+		"wide"	 		"200"
+		"tall"	 		"120"
 		//
 		"bgcolor_override" "0 0 0 0"
 	}
@@ -27,31 +22,29 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"395"
-	//	"wide"	 		"300" //350
+		"wide"	 		"200" //350
 		"tall"	 		"2"
+		//
 	}
 
 	"ChatFiltersButton"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"-10"
-		"ypos"			"0" //r18
-		"wide"			"15"
+		"xpos"			"r25"
+		"ypos"			"r0" //r18
+		"wide"			"25"
 		"tall"			"10"
 		"autoResize"		"1"
-		"zpos"	"100"
+		//		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		//		"0"
 		"proportionaltoparent" "1"
-		"labelText"		"¤..."
-		"font"	"ChatFont"
+		"labelText"		"opt"
 		"textAlignment"		"center"
-		//
-		"pin_to_sibling" "ChatInputLine"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		////	"0"
+		////		"0"
 		"Default"		"0"
 	}
 
@@ -61,8 +54,8 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
 		"ypos"			"0"
-	//	"wide"	 		"200"
-		"tall"			"1"
+		"wide"	 		"200"
+		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"
 		//"pinCorner"		"1"

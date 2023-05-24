@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TestLabel"
-		"xpos"			"0"
+		
 		"ypos"			"30"
 		"wide"			"200"
 		"tall"			"40"
@@ -16,7 +16,7 @@
 		"labelText"		"Testing 1 2 3"
 		"textAlignment"	"west"
 		////		"0"
-		"paintBackground" "0"
+		
 	}
 	
 	"ChangeTeam"
@@ -37,7 +37,7 @@
 		////		"0"
 		
 		"Default"		"0"
-		"paintBackground" "0"
+		
 		"command"		"changeteam"
 	}
 	
@@ -59,7 +59,7 @@
 		////		"0"
 		
 		"Default"		"0"
-		"paintBackground" "0"
+		
 		"command"		"changeclass"
 	}	
 }
