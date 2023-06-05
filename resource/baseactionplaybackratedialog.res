@@ -85,20 +85,7 @@
 		////		"0"
 		"Default"		"0"
 	}
-	"SysMenu"
-	{
-		"ControlName"		"Menu"
-		"fieldName"		"SysMenu"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"64"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		//		"0"
-	}
+
 	"OK"
 	{
 		"ControlName"		"Button"

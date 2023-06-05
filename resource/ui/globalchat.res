@@ -5,7 +5,7 @@
 		"fieldName"				"partychat"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"5"
+		"xpos"					"rs1-25"
 		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"200"
@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"QuickplayBorder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"Regular9"
+		"log_font_medium"			"Regular9"
+		"log_font_large"			"Regular9"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"

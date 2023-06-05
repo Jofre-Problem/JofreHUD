@@ -37,7 +37,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"Size 8 Shadow"
+		"font"					"NotoBold10"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
 	}

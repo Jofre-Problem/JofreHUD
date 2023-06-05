@@ -129,12 +129,12 @@ event LevelInit
 }
 event LevelInitAny
 {
-	RunEvent MoveSpecTID 0.0
+//	RunEvent MoveSpecTID 0.0
 	RunEvent ScopeRemoval 0.0
-	RunEvent TIDuberFull 0.0
-	RunEvent DamageAccountAlpha 0.0
-	RunEvent FlashDamageaccountDrop 0.0
-	RunEvent SetHudChatAlpha 0.1
+//	RunEvent TIDuberFull 0.0
+//	RunEvent DamageAccountAlpha 0.0
+//	RunEvent FlashDamageaccountDrop 0.0
+//	RunEvent SetHudChatAlpha 0.1
 	
 	RunEvent LevelInitAnyLoop 0.0
 }

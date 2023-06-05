@@ -252,16 +252,7 @@ Scheme
 				//	"0"
 			}
 		}
-		"DefaultSmallDropShadow"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"13"
-				//	"0"
-				// "1"
-			}
-		}
+//	"DefaultSmallDropShadow"		{			"1"			{				"name"		"Segoe UI"				"tall"		"13"			}
 		"DefaultVerySmall"
 		{
 			"1"
@@ -451,35 +442,9 @@ Scheme
 				//	"500"
 			}
 		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"16"
-				//	"500"
-	
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"16"
-				//	"900"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"16"
-				//	"900"
-
-			}
-		}
+	//	"CloseCaption_Italic"	{	"1"	{		"name"		"Segoe UI"		"tall"		"16"		}	}
+	//	"CloseCaption_Bold"{	"1"	{		"name"		"Segoe UI"		"tall"		"16"		}	}
+	//	"CloseCaption_BoldItalic"{	"1"	{		"name"		"Segoe UI"		"tall"		"16"		}	}
 
 		TitleFont
 		{

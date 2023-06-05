@@ -13,12 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"SysMenu"
-	{
-		"ControlName"		"Menu"
-		"fieldName"		"SysMenu"
-		"visible"		"0"
-	}	
 	"MatchName"
 	{
 		"ControlName"		"Label"

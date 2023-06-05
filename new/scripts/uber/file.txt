@@ -79,8 +79,6 @@ event HudMedicCharged2
 	Animate	ChargeMeter4 	FgColor		"110 255 25 255"		Accel 1.8 0.3
 
 	RunEvent HudMedicChargedLoop	2.1
-
-	RunEvent LevelInitAny 0.0
 }
 
 event HudMedicChargedLoop

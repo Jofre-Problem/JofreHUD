@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"white"
 	}
 	
@@ -119,7 +119,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"White"
 		
 		"defaultFgColor_override" "White"
@@ -139,7 +139,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"White"
 		
 		"defaultFgColor_override" "White"
@@ -176,7 +176,7 @@
 		"border_default"	""
 		"border_armed"		""
 		
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Primary"
@@ -204,7 +204,7 @@
 		"border_default"	""
 		"border_armed"		""
 		
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"Blank"
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"

@@ -49,9 +49,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"drawcolor"	"Positive"
-		"image"		"replay/thumbnails/hp/white_draw"
+		"image"		"replay/thumbnails/panels/green"
 		"scaleImage"		"1"
-		"alpha"		"255"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"

@@ -5,8 +5,6 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip Alpha "255"	Linear 0.0 0.0
 
 	RunEvent AmmoLowPulseLoopa	0.0	
-
-	RunEvent LevelInitAny 0.0
 }
 
 event AmmoLowPulseLoopa

@@ -145,14 +145,17 @@
 	}		
 	"image1"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"cexlabel"
 		"fieldName"		"image1"
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"200"
 		"wide"			"30"
 		"tall"			"30"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
+		"labeltext"	"L"
+		"textalignment"	"center"
+		"font"	"NewIcons25"
+		"fgcolor_override"	"whattimeis1"
 	}	
 
 	

@@ -61,7 +61,7 @@
 		"textAlignment"	"center"
 		////	"0"
 		////	"0"
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"white"
 	}
 
@@ -127,7 +127,7 @@
 		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Notobold16"
+		"font"			"Regular16"
 		"fgcolor"		"white"
 		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"

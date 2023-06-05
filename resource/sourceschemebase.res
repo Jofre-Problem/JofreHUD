@@ -283,16 +283,7 @@ Scheme
 				//	"0"
 			}
 		}
-		"DefaultSmallDropShadow"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"13"
-				//	"0"
-				// "1"
-			}
-		}
+//	"DefaultSmallDropShadow"		{			"1"			{				"name"		"Segoe UI"				"tall"		"13"			}
 		"DefaultVerySmall"
 		{
 			"1"

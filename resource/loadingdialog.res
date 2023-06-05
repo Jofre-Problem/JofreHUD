@@ -33,12 +33,6 @@
 		"alpha"		"0"
 		"fgcolor_override"	"Blank"
 	}	 
-	"SysMenu"
-	{
-		"ControlName"		"Menu"
-		"fieldName"		"SysMenu"
-		"visible"		"0"
-	}
 	"InfoLabel"
 	{
 		"ControlName"		"Label"

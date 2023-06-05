@@ -107,8 +107,8 @@ Button.DepressedTextColor "Primary"
 	//	FrameSystemButton.Icon			""
 	//	FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.DisabledBgColor	"Blank"
-		Frame.BgColor					"0 0 0 100"
-		Frame.OutOfFocusBgColor			"0 0 0 100"
+		Frame.BgColor					"0 0 0 200"
+		Frame.OutOfFocusBgColor			"0 0 0 200"
 		FrameGrip.Color1				"Primary"
 		FrameGrip.Color2				"Primary"
 
@@ -701,16 +701,7 @@ Button.DepressedTextColor "Primary"
 				// 12 is the def
 			}
 		}				
-		"DefaultSmallDropShadow"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
-			}
-		}
+//	"DefaultSmallDropShadow"		{			"1"			{				"name"		"Segoe UI"				"tall"		"13"			}
 		"DefaultVerySmall"
 		{
 			"1"
