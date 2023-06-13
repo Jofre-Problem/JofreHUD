@@ -18,6 +18,25 @@
 		"control_h"			"25"
 		"slider_w"			"500"
 		"slider_h"			"25"
+		"Slider"
+{
+"fgcolor_override""TanDark"
+}
+
+"UpButton"
+{
+"ControlName""Button"
+"FieldName""UpButton"
+"visible""0"
+}
+
+"DownButton"
+{
+"ControlName""Button"
+"FieldName""DownButton"
+"visible""0"
+}
+
 	}
 	"TitleLabel"
 	{
@@ -107,6 +126,25 @@
 		//		"0"
 		"bgcolor_override"	"17 17 17 255"
 		"border"	"noborder"
+		"Slider"
+		{
+		"fgcolor_override""TanDark"
+		}
+		
+		"UpButton"
+		{
+		"ControlName""Button"
+		"FieldName""UpButton"
+		"visible""0"
+		}
+		
+		"DownButton"
+		{
+		"ControlName""Button"
+		"FieldName""DownButton"
+		"visible""0"
+		}
+		
 	}
 	
 	"TooltipPanel"

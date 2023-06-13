@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"Notobold16"
+		"font"			"Noto20"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"0"

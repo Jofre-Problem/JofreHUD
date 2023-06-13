@@ -4,6 +4,27 @@ Scheme
 
 	Fonts
 	{	
+		HudHintText
+		{
+			"1"
+			{
+				"name"	"Open Sans Bold"
+				"tall"	"10"
+				////"weight"	"500"
+				
+				"antialias"	"1"
+			}
+		}		
+		"SpectatorVerySmall"		//Player outline name
+		{
+			"1"
+			{
+				"name"	"Open Sans Bold"
+				"tall"	"17"
+				
+				"antialias"	"1"
+			}
+		}		
 		"Size 24 Damage"
 		{
 			"1"
@@ -833,10 +854,114 @@ Scheme
 				
 				"antialias"	"1"
 			}
-		}							
+		}	
+				
+		"ItemFontNameSmallest"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameSmall"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"13"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarge"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontNameLarger"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ItemFontAttribSmallv2"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"antialias" "1"
+				"weight"	"500"
+			}
+		}		
+		"ItemFontAttribSmallest"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"7"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribSmall"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"ItemFontAttribLarge"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"11"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"ItemFontAttribLarger"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
 	}
 	CustomFontFiles
 	{
+		"boldsans"
+		{
+			"font" "fonts/productsansbold.ttf"
+			"name" "Product Sans Bold"
+		}		
 		"91"
 		{
 			"font" "fonts/Product Sans.ttf"

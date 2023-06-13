@@ -37,4 +37,36 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
 	}	
+	"DamageAccountLabel2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabel2"
+		"font"			"DamageText"
+		"fgcolor"		"255 215 0 0" //255
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+99"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}
+	"DamageAccountLabel3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabel3"
+		"font"			"DamageText"
+		"fgcolor"		"255 215 0 0" //255
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+99"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}	
 }

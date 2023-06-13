@@ -5,7 +5,7 @@ Scheme
 	ScrollBar.Wide					"7"
 		ScrollBarSlider.FgColor								"Primary"
 		ScrollBarSlider.BgColor								"0 0 0 100"	
-		Slider.NobColor				"Primary"
+		Slider.NobColor				"Notowhite"
 
 
 		"Border.Bright"										"Blank"
@@ -114,7 +114,7 @@ Scheme
 		"SectionedListPanel.SelectedTextColor"				"Black"
 		"SectionedListPanel.SelectedBgColor"				"Red"
 		"SectionedListPanel.OutOfFocusSelectedTextColor"	"Black"
-		"SectionedListPanel.OutOfFocusSelectedBgColor"		"TransparentBlack"
+		"SectionedListPanel.OutOfFocusSelectedBgColor"		"220 220 220 255"	//this one?
 
 		"Slider.NobColor"									"255 255 255 255"
 		"Slider.TextColor"									"128 128 128 255"

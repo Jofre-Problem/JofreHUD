@@ -3,7 +3,7 @@
 #base "../../../cfg/jp_ex_square.txt"
 #base "../customization/colors/user_colors.res"
 #base "../customization/colors/custom_colors.res"
-#base "../new/ui_overrides/schemes/fonts/default.res"	
+
 #base "scheme/settings.res"
 #base "scheme/colors.res"
 #base "scheme/crosshairs.res"
@@ -12,6 +12,7 @@
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
 #base "scheme/borders.res"
+#base "../new/ui_overrides/schemes/fonts/default.res"	
 #base "fallback/clientscheme.res"
 
 Scheme
@@ -355,17 +356,7 @@ Scheme
 			"draw_corner_width"								"2"
 			"draw_corner_height" 							"2"
 		}
-			LoadoutItemPopupBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color"					"Primary"
-			"image"					"replay/thumbnails/panels/misc/modal"
-			"src_corner_height"		"12"
-			"src_corner_width"		"12"
-			"draw_corner_width"		"2"
-			"draw_corner_height" 	"2"
-		}		
+
 	ScrollBarButtonBorder
 		{
 			"bordertype"			"scalable_image"

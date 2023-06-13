@@ -8,9 +8,19 @@ event DamagedPlayer
 }
 event DamageAccountStuff
 {
-//	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
-//	Animate DamageAccountLabel fgcolor "Red" linear 0.01 0.0
+	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
+	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.01 0.0
+	Animate DamageAccountLabel fgcolor "255 215 0 100" linear 0.05 0.2
+	Animate DamageAccountLabel fgcolor "215 215 215 0" Accel 0.3 4.0
+
+	Animate DamageAccountLabel2 fgcolor "255 170 35 255" linear 0.0 0.0
+	Animate DamageAccountLabel2 fgcolor "255 170 35 255" linear 0.01 0.0
+	Animate DamageAccountLabel2 fgcolor "255 215 0 100" linear 0.05 0.2
+	Animate DamageAccountLabel2 fgcolor "215 215 215 0" Accel 0.3 4.0
 	
-
-
+	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.0 0.0
+	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.01 0.0
+	Animate DamageAccountLabel3 fgcolor "255 215 0 100" linear 0.05 0.2
+	Animate DamageAccountLabel3 fgcolor "215 215 215 0" Accel 0.3 4.0
+	
 }

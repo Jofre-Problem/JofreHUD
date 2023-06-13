@@ -2,75 +2,66 @@ Scheme
 {
 	Fonts
 	{
-		HudHintText
-		{
-			"1"
-			{
-				"name"	"Segoe UI"
-				"tall"	"10"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-			}
-		}
+
+
 		"SpectatorVerySmall"		//Player outline name
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				
 				"antialias"	"1"
 			}
 		}
-
-		//TODO: FILTER FROM HERE DOWN (7/3/22 most recent)
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"24"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-				"yres"	"480 599"
+				"name"		"Open Sans"
+				"tall"		"32"
+				"tall_lodef"	"80"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
-				"tall"	"32"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-				"yres"	"600 767"
+				"name"		"Open Sans"
+				"tall"		"44"
+				"tall_hidef"	"120"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
-				"tall"	"44"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-				"yres"	"768 1023"
+				"name"		"Open Sans"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
-				"tall"	"48"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-				"yres"	"1024 1199"
+				"name"		"Open Sans"
+				"tall"		"52"
+				"additive"	"0"
+				"antialias" "1"
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
-				"tall"	"52"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-				"yres"	"1200 6000"
+				"name"		"Open Sans"
+				"tall"		"72"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontGiantBold"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"64"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -78,11 +69,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"35"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 
@@ -90,183 +80,259 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"36"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"44"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+		"HudFontMediumBig"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}	
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"30"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" "1"
 			}
-		}
+		}		
 		"HudFontMedium"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"24"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"24"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"24"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"18"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"18"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontMediumSmallSecondary"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"28"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmall"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"14"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
 			}
-		}
+		}	
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"16"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"14"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallBoldShadow"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallestOriginal"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallest"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"11"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"HudFontSmallestShadow"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"HudFontSmallestBold"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"11"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans Bold"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"PerformanceModeSmall"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"10"
-				////"weight"	"500"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FontCartPrice"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"16"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStorePrice"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"9"
-				////"weight"	"0"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStoreOriginalPrice"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
-				"tall"	"9"
-				////"weight"	"0"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FontStorePriceSmall"
 		{
 			"1"
 			{
-				"name"	"Verdana"
-				"tall"	"6"
-				////"weight"	"0"
-				
-				"antialias"	"1"
+				"name"		"Open Sans"
+				"tall"		"8"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
+		"FontStorePromotion"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"12"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"TextTooltipFont"
+		{
+			"1"
+			{
+				"name"		"Open Sans"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		//TODO: FILTER FROM HERE DOWN (7/3/22 most recent)
+
 		"ClockSubTextTiny"
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"500"
 				
@@ -277,7 +343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"15"
 				////"weight"	"700"
 				"antialias"	"1"
@@ -287,7 +353,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"15"
 				////"weight"	"700"
 				"antialias"	"1"
@@ -297,7 +363,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"18"
 				////"weight"	"900"
 				"antialias"	"1"
@@ -306,7 +372,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"21"
 				////"weight"	"900"
 				"antialias"	"1"
@@ -315,7 +381,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"24"
 				////"weight"	"1000"
 				"antialias"	"1"
@@ -327,7 +393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				"outline"	"1"
@@ -338,7 +404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Open Sans"
 				"tall"		"90"
 				//"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -373,7 +439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"30"
 				"antialias"	"1"
 				//	"1"
@@ -407,7 +473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"24"
 				"antialias"	"1"
 				////"weight"	"500"
@@ -418,7 +484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"28"
 				"antialias"	"1"
 				"custom"	"1" 	[$OSX]
@@ -440,7 +506,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"400"
 				
@@ -451,7 +517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				
@@ -462,7 +528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -474,7 +540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"20"
 				////"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -486,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"20"
 				////"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -498,7 +564,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"52"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"400"
@@ -507,7 +573,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"72"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"400"
@@ -516,7 +582,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"100"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"400"
@@ -525,7 +591,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"140"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"400"
@@ -534,7 +600,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"180"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"400"
@@ -546,7 +612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"36"
 				////"weight"	"500"
 				"range"	"0x0000 0x007F"
@@ -558,7 +624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -569,7 +635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"20"
 				////"weight"	"400"
 				
@@ -580,7 +646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -592,7 +658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"300"
@@ -604,7 +670,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				"range"	"0x0000 0x00FF"
 				////"weight"	"300"
@@ -616,7 +682,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"0"
 				"additive"	"1"
@@ -627,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"9"
 				////"weight"	"400"
 				
@@ -638,7 +704,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"28"
 				////"weight"	"500"
 			}
@@ -647,7 +713,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"22"
 				////"weight"	"900"
 			}
@@ -656,7 +722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"500"
 				
@@ -667,7 +733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"12"
 				////"weight"	"500"
 				
@@ -678,7 +744,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"18"
 				////"weight"	"500"
 				
@@ -689,7 +755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"500"
 				
@@ -700,7 +766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"500"
 				
@@ -711,7 +777,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"11"
 				////"weight"	"500"
 				
@@ -723,7 +789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"9"
 				////"weight"	"500"
 				
@@ -734,7 +800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"9"
 				////"weight"	"500"
 				"blur"	"3"
@@ -746,7 +812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"additive"	"1"
@@ -757,7 +823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"additive"	"1"
@@ -768,7 +834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"antialias"	"1"
@@ -778,7 +844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"blur"	"3"
@@ -790,7 +856,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"antialias"	"1"
@@ -801,7 +867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				"yres"	"480 599"
@@ -810,7 +876,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -819,7 +885,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"18"
 				////"weight"	"400"
 				
@@ -832,7 +898,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"800"
 				"yres"	"480 599"
@@ -841,7 +907,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"800"
 				
@@ -850,7 +916,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"18"
 				////"weight"	"800"
 				
@@ -863,7 +929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"16"
 				////"weight"	"400"
 				
@@ -875,7 +941,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"20"
 				"antialias"	"1"
 				
@@ -887,7 +953,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				"yres"	"480 599"
@@ -896,7 +962,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -905,7 +971,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"22"
 				////"weight"	"400"
 				
@@ -918,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				"yres"	"480 599"
@@ -928,7 +994,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -938,7 +1004,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"22"
 				////"weight"	"400"
 				
@@ -952,7 +1018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"800"
 				"yres"	"480 599"
@@ -961,7 +1027,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"800"
 				
@@ -970,7 +1036,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"18"
 				////"weight"	"800"
 				
@@ -983,7 +1049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"13"
 				////"weight"	"400"
 				
@@ -995,7 +1061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"16"
 				////"weight"	"400"
 				
@@ -1007,7 +1073,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				
@@ -1019,7 +1085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"400"
 				
@@ -1030,7 +1096,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"0"
 				"antialias"	"1"
@@ -1041,7 +1107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"8"
 				////"weight"	"400"
 				"antialias"	"1"
@@ -1053,7 +1119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"9"
 				////"weight"	"400"
 				"antialias"	"1"
@@ -1069,7 +1135,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"11"
 				////"weight"	"500"
 				
@@ -1084,7 +1150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"500"
 				
@@ -1095,7 +1161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"24"
 				////"weight"	"500"
 				
@@ -1107,7 +1173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"9"
 				////"weight"	"400"
 				
@@ -1119,7 +1185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"12"
 				////"weight"	"500"
 				
@@ -1132,7 +1198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"0"
 				"blur"	"3"
@@ -1145,7 +1211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"7"
 				////"weight"	"400"
 				
@@ -1157,7 +1223,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"10"
 				////"weight"	"400"
 				
@@ -1169,7 +1235,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"14"
 				////"weight"	"400"
 				
@@ -1181,7 +1247,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"Open Sans"
 				"tall"	"30"
 				////"weight"	"400"
 				
