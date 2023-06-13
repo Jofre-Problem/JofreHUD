@@ -20,8 +20,8 @@ Scheme
 			"1"
 			{
 				"name"	"Open Sans Bold"
-				"tall"	"17"
-				
+				"tall"	"13"
+				"outline"	"1"
 				"antialias"	"1"
 			}
 		}		
