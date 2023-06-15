@@ -318,7 +318,7 @@
 		"tall"							"100"
 		
 		font					"NewIcons57"
-		labelText				"["
+		labelText				"="
 		textAlignment			center
 
 		Command				"backpack"

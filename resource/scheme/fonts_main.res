@@ -685,6 +685,116 @@ Scheme
 				"antialias"	"1"
 			}
 		}	
+		"NotoBold40"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"40"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold42"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"42"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold44"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"44"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold46"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"46"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold48"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"48"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold50"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"50"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold52"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"52"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold54"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"54"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold56"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"56"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold58"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"58"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}
+		"NotoBold60"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"60"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}		
 		"NotoExtraBold8"
 		{
 			"1"

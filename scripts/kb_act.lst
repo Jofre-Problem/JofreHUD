@@ -17,6 +17,7 @@
 "+dev_score_original"			        "Original"
 "+dev_score_new"			"New"
 "+dev_score_advanced"			"Advanced"
+"+showscores"	"#Valve_Display_Scores"
 "blank"						"=============================="
 "blank"						"Medic Binds"
 "blank"						"=============================="

@@ -232,6 +232,7 @@ Button.DepressedTextColor "Primary"
 		ToolTipBorder "Cs1"
 		ListPanelBorder "FrameBorder"
 		RichTextBorder "Cs1"
+		SectionedListPanelBorder "Cs1"
 	// forces tooltip border to disapppear
 		FrameBorder
 		{

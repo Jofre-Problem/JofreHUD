@@ -22,5 +22,6 @@ event DamageAccountStuff
 	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.01 0.0
 	Animate DamageAccountLabel3 fgcolor "255 215 0 100" linear 0.05 0.2
 	Animate DamageAccountLabel3 fgcolor "215 215 215 0" Accel 0.3 4.0
-	
+	Setfont CDamageAccountPanel "delta_item_font" "Size 16 Uber" 	0.001
+	Setfont CDamageAccountPanel "delta_item_font" "Size 10 Uber" 	0.3
 }

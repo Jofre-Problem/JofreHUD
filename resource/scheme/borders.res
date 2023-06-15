@@ -2,6 +2,7 @@ Scheme
 {
 	Borders
 	{
+		SectionedListPanelBorder "Cs1"
 		CustomCyanBorderThick 
 		{
 			"inset" "0 0 0 0"

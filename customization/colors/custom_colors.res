@@ -2,7 +2,7 @@
 {
 	"Colors"
 	{
-		"Primary"			"255 60 69 255"
+		"Primary"			"64 160 255 204"
 		"Neutral"			"255 255 255 255"
 		"Positive"			"64 255 160 255"
 		"Warning"			"255 160 64 255"
@@ -34,7 +34,6 @@
 
 		"Crosshair"			"255 255 255 255"
 		"CreditsGreen"		"64 160 255 255"
-
 		// yeah
 
 		"whattimeis1"											"245 245 245 255"
