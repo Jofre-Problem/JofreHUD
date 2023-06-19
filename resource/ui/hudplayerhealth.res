@@ -201,6 +201,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
+		"alpha"	"210"
 		"bgcolor_override"		"0 0 0 0"
 	}
 

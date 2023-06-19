@@ -256,7 +256,7 @@ Scheme
 			"1"
 			{
 				"tall"		"11"
-				"weight"	"900"
+			//	"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -338,8 +338,8 @@ Scheme
 	    	FrameBorder {
 			"bordertype"				"scalable_image"
 			"background_type"			"0"
-			"color"						"Primary"
-			"image"						"replay/thumbnails/hp/modulate_white_test"
+			//"color"						"Primary"
+			"image"						"replay/thumbnails/hp/REFRACTnormal"//"replay/thumbnails/hp/modulate_white_test"
 			"src_corner_width"			"32"
 			"src_corner_height"			"32"
 			"draw_corner_width"			"0"

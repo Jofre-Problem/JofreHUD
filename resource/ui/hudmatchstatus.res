@@ -305,7 +305,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"NotoBold8"
+				"font"			"Default"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor_override"		"White"
