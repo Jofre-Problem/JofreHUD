@@ -1,5 +1,5 @@
 #base "../../new/ui_overrides/full-timer/file2.res"
-#base "ui2/lead_bg.res"
+
 
 "Resource/UI/CharInfoPanel.res"
 {
@@ -32,7 +32,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"bg"
 		"ypos"					"0"
-	"fillcolor"				"34 34 34 255"
+	"fillcolor"				"40 34 30 255"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"wide"	"f0"

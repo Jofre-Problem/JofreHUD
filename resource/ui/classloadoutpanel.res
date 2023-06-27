@@ -1,41 +1,28 @@
 
-#base "ui2/tank.res"
-#base "ui2/lead_bg.res"
-#base "ui2/lead_bg.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 
-
-
-	"MenuColorizer"
-	{
-		"zpos"		"-8"
-		"SubImage"
-		{
-
-			"drawcolor"								"245 245 245 245"
-		}
-
-		"SubImage2"
-		{
-
-			"drawcolor"								"245 245 245 255"
-		}
-	}
-	"MMBackgroundPanel"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"zpos"			"-8"
-		"tall"			"f0"
-		"visible"		"1"
-		}
 	"testg"
 	{
 //	"tall"	"0"
 	}	
-
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"60"
+		"zpos"			"-5"		
+		"wide"			"f0"
+		"tall"			"310"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 100"
+	}
 	"1_label"
 
 	{
@@ -175,15 +162,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Future12"
+		"font"			"NotoBold40"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
-		"xpos"			"rs1-2"
-		"ypos"			"rs1"
+		"xpos"			"-10"
+		"ypos"			"40"
 		"zpos"			"-2"
-		"fgcolor_override"	"Black"
-		"wide"			"100"
-		"tall"			"12"
+		"fgcolor_override"	"tanlight"
+		"wide"			"140"
+		"tall"			"50"
 	}	
 	"TauntLoadoutButton"
 	{
@@ -259,9 +246,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"NotoBackground"
-		"infocus_bgcolor_override" "NotoBackground"
-		"outoffocus_bgcolor_override" "NotoBackground"
+		"bgcolor_override"	"40 34 30 255"
+		"infocus_bgcolor_override" "40 34 30 255"
+		"outoffocus_bgcolor_override" "40 34 30 255"
 		
 		"item_xpos_offcenter_a"	"-315"//"-420"
 		"item_xpos_offcenter_b"	"175"//"280"

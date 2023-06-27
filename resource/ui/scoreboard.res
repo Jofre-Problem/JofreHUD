@@ -1149,24 +1149,7 @@ if_mvm
 				"visible"		"0"
 			}
 		}
-		"StatsBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"StatsBG"
-			"xpos"				"0"
-			"ypos"				"rs1"
-			"zpos"				"0"
-			"wide"				"p0.82"
-			"tall"				"57"
-			"visible"			"1"
-			"enabled"			"1"
-			"fillcolor"			"215 215 215 255"
-			
-			if_mvm
-			{
-				"visible"		"0"
-			}
-		}
+	
 		if_mvm
 		{
 		//	"wide"				"270"
@@ -1190,7 +1173,7 @@ if_mvm
 			//		"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"25 25 25 255"
+			"fgcolor"			"notowhite"
 		}
 	"Kills1"
 	{
@@ -1261,7 +1244,7 @@ if_mvm
 			//		"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"25 25 25 255"
+			"fgcolor"			"NOTOWHITE"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -1283,7 +1266,7 @@ if_mvm
 			//		"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"25 25 25 255"
+			"fgcolor"			"NOTOWHITE"
 			"pin_to_sibling"	"Kills"
 		}
 
@@ -1320,7 +1303,7 @@ if_mvm
 			//		"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"25 25 25 255"
+			"fgcolor"			"NOTOWHITE"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -1342,7 +1325,7 @@ if_mvm
 			//		"0"
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"25 25 25 255"
+			"fgcolor"			"NOTOWHITE"
 			"pin_to_sibling"	"Deaths"
 		}
 
@@ -1886,7 +1869,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			"fgcolor_override" "25 25 25 255"
+			"fgcolor_override" "NOTOWHITE"
 
 			"visible"			"1"
 			"enabled"			"1"
@@ -1909,7 +1892,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			"fgcolor_override" "25 25 25 255"
+			"fgcolor_override" "NOTOWHITE"
 			"visible"			"1"
 			"enabled"			"1"
 

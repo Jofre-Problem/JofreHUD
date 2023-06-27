@@ -12,7 +12,7 @@ Scheme
 				"tall"		"15"
 				"weight"	"0"
 				"antialias" "1"
-				"additive"	"1"
+				"outline"	"1"
 			}
 		}	
 	}	

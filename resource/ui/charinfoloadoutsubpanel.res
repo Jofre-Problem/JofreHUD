@@ -1,22 +1,22 @@
-#base "ui2/lead_bg.res"
 
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 
-	"MenuColorizer"
+	"Wall"
 	{
-
-		"SubImage"
-		{
-
-		//	"drawcolor"								"245 245 245 245"
-		}
-
-		"SubImage2"
-		{
-
-		//	"drawcolor"								"245 245 245 255"
-		}
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"60"
+		"zpos"			"-5"		
+		"wide"			"f0"
+		"tall"			"310"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 100"
 	}
 	"bg"
 	{
@@ -27,7 +27,7 @@
 		"zpos"			"-12"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"	"NotoDarker"
+		"fillcolor"	"40 34 30 255"
 		"mouseinputenabled"	"0"
 	}		
 	// can't change pos, width, height
