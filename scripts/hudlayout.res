@@ -224,9 +224,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"//"c106"
-		////"c106-62"
+		"xpos_minmode"	"-62"
 		"ypos"			"0"//"325"
-		////"325+28"			
+		"ypos_minmode"	"28"			
 		
 		"wide"			"f0"//"124"
 		"tall"			"f0"//36"

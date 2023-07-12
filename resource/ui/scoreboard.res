@@ -439,7 +439,7 @@
 		"zpos"				"40"
 		"wide"				"p0.505"
 		"tall"				"204"
-		"tall_minmode""0"
+	
 		//		"0"
 		"visible"			"1"
 		"enabled"			"1"

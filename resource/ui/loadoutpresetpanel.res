@@ -9,13 +9,13 @@
 		{
 			"zpos"			"20"
 			"wide"			"16"
-			"tall"			"24"
+			"tall"			"12"
 			
 			//		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			//	"0"
-			"font"			"Noto20"
+			"font"			"Noto10"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			////		"0"
