@@ -1725,7 +1725,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 92;hud_combattext_green 173;hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 92;hud_combattext_green 173;hud_combattext_blue 255" 
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"

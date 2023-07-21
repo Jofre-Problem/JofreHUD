@@ -15,7 +15,7 @@ Scheme
 	    	FrameBorder {
 			"bordertype"				"scalable_image"
 			"background_type"			"0"
-			"color"						"Primary"
+			"color"						"220 220 220 100"
 			"image"						"replay/thumbnails/hp/modulate_white_test"
 			"src_corner_width"			"12"
 			"src_corner_height"			"12"

@@ -110,6 +110,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"DamagetextPutline"
+		{
+			"1"
+			{
+				"name" "Open Sans Nodash"
+				"tall" "18"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}		
 		"HealthAndAmmo"
 		{
 			"1"

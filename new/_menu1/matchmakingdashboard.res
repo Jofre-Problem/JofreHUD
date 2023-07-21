@@ -100,7 +100,18 @@
 
 
 
-
+	"bg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"25"
+		"visible"		"1"
+		"bgcolor_override"	"0 0 0 100"
+		}
 
 	"TopBar"
 	{
@@ -224,8 +235,8 @@
 		}			
 		"PartySlot0"
 		{
-			"xpos"					"10"
-			"ypos"					"20"
+			"xpos"					"cs-0.5"
+			"ypos"					"10"
 			"wide"					"0"
 			"tall"					"o1"
 		}

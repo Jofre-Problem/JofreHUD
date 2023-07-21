@@ -39,10 +39,10 @@ Scheme
 // basically the shadow when you open console
  Tooltip.TextColor	"White"
  Tooltip.BgColor	"Black"
-PropertySheet.SelectedTextColor "Primary"      
+PropertySheet.SelectedTextColor "220 220 220 255"      
 
-SectionedListPanel.DividerColor "Primary"
-Button.DepressedTextColor "Primary"
+SectionedListPanel.DividerColor "220 220 220 255"
+Button.DepressedTextColor "220 220 220 255"
 		Border.Bright					"blank"
 		Border.Dark						"blank"
 		Border.Selection				"blank"
@@ -51,7 +51,7 @@ Button.DepressedTextColor "Primary"
 		Button.BgColor			"blank" 
 		"FrameTitleBar.Font"		"Blank"	
 		ProgressBar.BgColor				"20 21 23 255"
-		ScrollBarSlider.FgColor								"Primary"
+		ScrollBarSlider.FgColor								"220 220 220 255"
 		ScrollBarSlider.BgColor								"blank"
 	//	ScrollBar.Wide					"60"//"70"//"10"
 		ScrollBarButton.FgColor					"Blank"	
@@ -61,10 +61,10 @@ Button.DepressedTextColor "Primary"
 		TextEntry.SelectedBgColor	"210 210 210 255"
         		Button.BgColor					"Black"
 		Button.TextColor				"White"
-		Button.ArmedBgColor				"Primary"
+		Button.ArmedBgColor				"220 220 220 255"
 		Button.ArmedTextColor			"Black"
 		
-		Console.TextColor			"Primary" //prev 35 240 55 255
+		Console.TextColor			"220 220 220 255" //prev 35 240 55 255
 		Console.DevTextColor		"35 240 55 255"		//offwhite
 //		Button.DepressedTextColor		"Black"
 //		Button.DepressedBgColor			"DullWhite"
@@ -109,8 +109,8 @@ Button.DepressedTextColor "Primary"
 		FrameTitleBar.DisabledBgColor	"Blank"
 		Frame.BgColor					"0 0 0 200"
 		Frame.OutOfFocusBgColor			"0 0 0 200"
-		FrameGrip.Color1				"Primary"
-		FrameGrip.Color2				"Primary"
+		FrameGrip.Color1				"220 220 220 255"
+		FrameGrip.Color2				"220 220 220 255"
 
 
 
@@ -155,12 +155,12 @@ Button.DepressedTextColor "Primary"
 		ScrollBarSlider.BgColor	"Blank"
 		SectionedListPanel.HeaderTextColor	"220 200 200 255"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Primary"
+		SectionedListPanel.DividerColor		"220 220 220 255"
 		SectionedListPanel.BgColor				"Blank"
 		SectionedListPanel.SelectedTextColor	"0 0 0 255"
 		SectionedListPanel.SelectedBgColor		"255 255 255 255"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"255 255 255 255"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"Primary"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"220 220 220 255"
 		SectionedListPanel.TextColor			"Black"
 		SectionedListPanel.BrightTextColor		"White"
 		Slider.TextColor			"244 244 244 255"
@@ -208,7 +208,7 @@ Button.DepressedTextColor "Primary"
 		TextEntry.SelectedBgColor	"Black"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor	"Blank"	
-		TextEntry.CursorColor		"Primary"
+		TextEntry.CursorColor		"220 220 220 255"
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"Black"
 		Button.FocusBorderColor			"204 135 41 255"	
@@ -246,7 +246,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 1"
 				}
 			}
@@ -255,7 +255,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "1 0"
 				}
 			}
@@ -264,7 +264,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 0"
 				}
 			}
@@ -273,7 +273,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 0"
 				}
 			}
@@ -284,7 +284,7 @@ Button.DepressedTextColor "Primary"
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"	"Primary"
+			"color"	"220 220 220 255"
 			"image"					"replay/thumbnails/mm/circle"
 			
 		}
@@ -382,7 +382,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 1"
 				}
 			}
@@ -391,7 +391,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "1 0"
 				}
 			}
@@ -400,7 +400,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 0"
 				}
 			}
@@ -409,7 +409,7 @@ Button.DepressedTextColor "Primary"
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 255"
 					"offset" "0 0"
 				}
 			}
@@ -596,7 +596,7 @@ Button.DepressedTextColor "Primary"
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"22"
+				"tall"		"30"
 				
 				"antialias" "1"
 			
@@ -608,7 +608,7 @@ Button.DepressedTextColor "Primary"
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"18"
+				"tall"		"30"
 			
 				"antialias" "1"
 			
@@ -620,7 +620,7 @@ Button.DepressedTextColor "Primary"
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"16"
+				"tall"		"30"
 			
 				"antialias" "1"
 		

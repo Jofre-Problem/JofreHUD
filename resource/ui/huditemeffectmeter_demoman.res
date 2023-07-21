@@ -28,7 +28,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"Size 8 Shadow"
+		"font"					"Noto10"
 		"proportionaltoparent"		"1"
 	}
 
@@ -45,7 +45,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"Size 20"
+		"font"					"NotoBold12"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -76,7 +76,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"Size 20"
+		"font"					"NotoBold12"
 		"fgcolor_override"		"Shadow"
 		"proportionaltoparent"		"1"
 

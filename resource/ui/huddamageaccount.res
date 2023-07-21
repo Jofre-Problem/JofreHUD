@@ -10,7 +10,7 @@
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
 		"delta_item_font"		"Size 18"//Size 12"
-		"delta_item_font_big"	"Damagetext"//Size 18"		
+		"delta_item_font_big"	"DamagetextPutline"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"

@@ -3,7 +3,7 @@ Scheme
 "BaseSettings"
 	{
 	ScrollBar.Wide					"7"
-		ScrollBarSlider.FgColor								"Primary"
+		ScrollBarSlider.FgColor								"245 245 245 255"
 		ScrollBarSlider.BgColor								"0 0 0 100"	
 		Slider.NobColor				"Notowhite"
 

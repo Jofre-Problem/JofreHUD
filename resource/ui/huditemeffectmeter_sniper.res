@@ -17,7 +17,8 @@
 		"variable"		"progresscount"
 
 		"fgcolor_override"	"90 255 2 255"
-		"bgcolor_override" "black"
+		"bgcolor_override" "0 0 0 200"
+	//	"border"	"steamworkshopborder"
 	}	
 
 }

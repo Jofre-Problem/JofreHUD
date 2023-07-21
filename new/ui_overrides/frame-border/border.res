@@ -18,7 +18,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 100"
 					"offset" "0 1"
 				}
 			}
@@ -27,7 +27,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 100"
 					"offset" "1 0"
 				}
 			}
@@ -36,7 +36,7 @@ Scheme
 			{
 				"1"
 				{
-					"color""Primary"
+					"color""220 220 220 100"
 					"offset" "0 0"
 				}
 			}
@@ -45,7 +45,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "220 220 220 100"
 					"offset" "0 0"
 				}
 			}

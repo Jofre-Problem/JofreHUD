@@ -1,5 +1,5 @@
 #base "../../../../cfg/jp_custom_ammo_progressbar.txt"
-#base "../../../../cfg/jp_sniperchar.txt"
+
 
 
 #base "_tf2hud/hudammoweapons.res"
@@ -24,8 +24,8 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"AmmoAnchor"
-		"xpos"		"c106"
-		"ypos"		"325"
+		"xpos"		"0"
+		"ypos"		"0"
 		"wide"		"124"
 		"tall"		"36"
 		"bgcolor_override"	"0 0 0 125"

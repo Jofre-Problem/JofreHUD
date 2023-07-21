@@ -5,7 +5,7 @@
 	#base "../../../cfg/jp_damage_indicator.txt"
 	#base "../../../cfg/jp_sniperchar_hudlayout.txt"
 	#base "../../../cfg/jp_tviewmodel.txt"
-
+#base "../../../cfg/jp_sniperchar.txt"
 
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
@@ -223,13 +223,12 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"//"c106"
-		"xpos_minmode"	"-62"
-		"ypos"			"0"//"325"
-		"ypos_minmode"	"28"			
+		"xpos"			"c106"
+
+		"ypos"			"325"		
 		
-		"wide"			"f0"//"124"
-		"tall"			"f0"//36"
+		"wide"			"124"
+		"tall"			"36"
 	}
 	HudMedicCharge
 	{

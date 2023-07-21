@@ -7,6 +7,31 @@
 {
 	
 
+	"bg"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"bg"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"220"
+		"tall"			"f0"
+		"visible"		"1"
+		"bgcolor_override"	"30 30 30 200"
+		}
+		"BlurMainBG"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""BlurMainBG"
+	"xpos""0"
+	"ypos""0"
+	"zpos""-10"
+	"wide""220"
+	"tall""f0"
+	"image""replay/thumbnails/hp/REFRACTblur"
+	"scaleimage""1"
+
+	}		
 	//	"SummerBorder"
 	//	{ 
 	//	"xpos""cs-0.5"

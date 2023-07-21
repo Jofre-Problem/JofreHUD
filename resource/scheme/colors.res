@@ -299,7 +299,7 @@ Scheme
 		Econ.Button.BgColor									"blank"
 		Econ.Button.FgColor									"Primary"
 		Econ.Button.ArmedBgColor							"Blank"
-		Econ.Button.ArmedFgColor							"Primary"
+		Econ.Button.ArmedFgColor							"Red"
 		Econ.Button.DepressedBgColor						"Primary"
 		Econ.Button.DepressedFgColor						"BlackLight"
 

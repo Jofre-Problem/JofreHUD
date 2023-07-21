@@ -75,8 +75,10 @@ event TestTestingCmd
 }
 event TestCmd
 {	
-	Firecommand 0.0 "engine none"
+	Firecommand 0.0 "engine rgbdmg"
 }
+
+
 event ScoreboardAlpha
 {
 	Animate scores alpha "0" linear 0.0 0.0
