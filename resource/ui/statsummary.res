@@ -3,7 +3,7 @@
 //#base "../ui3/menu_multiple.res"
 #base "../../new/ui_overrides/full-timer/file2.res"
 #base "statsummary_embedded.res"
-#base "../../../../cfg/jp_mm_bg.txt"
+//#base "../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -33,7 +33,7 @@
 		"fieldName"				"Time_hour10"
 		"xpos"					"cs-0.5-36"
 		"ypos"					"2"
-	"drawcolor"				"Primary"
+//	"drawcolor"				"Primary"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"zpos"					"6000"
@@ -82,7 +82,18 @@
 			"tall""2"
 			"image""replay/thumbnails/misc/test2"
 		}		
-
+		"BG4"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"BG4"
+				"xpos"			"0"
+					"zpos"	"999"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"paintbackground"	"1"
+				"bgcolor_override"	"16 16 16 255"
+			}
 		"BG2"
 			{
 				"ControlName"	"EditablePanel"
@@ -243,7 +254,7 @@
 	}		
 	"MapLabel"
 	{
-		"font"			"Regular24"
+		"font"			"NotoBold24"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
 		"ypos"				"40"
@@ -251,13 +262,13 @@
 		"wide"				"f0"
 		"tall"				"24"
 		"AllCaps"			"1"
-		"fgcolor_override"	"Primary"
+		"fgcolor_override"	"Notowhite"
 	}
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"Size 20"
+		"font"			"NotoBold20"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
@@ -268,7 +279,7 @@
 		//		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"fgcolor" 		"Primary"
+		"fgcolor" 		"Notowhite"
 	}			
 	"TipImage"
 	{
@@ -278,7 +289,7 @@
 	}
 	"StatData"
 	{
-		"ypos" "-80"
+		"ypos" "-100"
 		"zpos"	"5000"
 
 		"BarChartCustomBG"

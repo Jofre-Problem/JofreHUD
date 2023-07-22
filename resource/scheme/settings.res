@@ -98,7 +98,7 @@ Scheme
 		"RichText.SelectedTextColor"						"Gray"
 		"RichText.SelectedBgColor"							"Red"
 
-		"ScrollBarButton.FgColor"							"Primary"
+		"ScrollBarButton.FgColor"							"Notowhite"
 		"ScrollBarButton.BgColor"							"Blank"
 		"ScrollBarButton.ArmedFgColor"						"Gray"
 		"ScrollBarButton.ArmedBgColor"						"Blank"
@@ -195,13 +195,13 @@ Scheme
 		Button.TextColor								"240 240 240 255"
 		Button.BgColor									"27 27 27 255"
 		Button.ArmedTextColor							"240 240 240 255"
-		Button.ArmedBgColor								"255 255 255 16"
+		Button.ArmedBgColor								"TFOrange"
 		Button.SelectedTextColor						"255 152 0 255"
 	//  hover button, took me 30 min to find
-		Button.SelectedBgColor							"255 152 0 255"
+		Button.SelectedBgColor							"TFOrange"
 	// 	
 		Button.DepressedTextColor						"245 245 245 180"
-		Button.DepressedBgColor							"255 255 255 16"
+		Button.DepressedBgColor							"TFOrange"
 
 		CheckButton.TextColor								"Black"
 		CheckButton.SelectedTextColor						"White"
@@ -254,11 +254,11 @@ Scheme
 //		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor								"Primary"//White
+		ScrollBarSlider.FgColor								"Notowhite"//White
 		ScrollBarSlider.BgColor								"blank"
 
 		"ItemColor"											"OrangeLight"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 64"
+		"MenuBoxBg"											"0 0 0 200"
 	}
 }

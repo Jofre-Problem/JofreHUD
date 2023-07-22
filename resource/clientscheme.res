@@ -20,7 +20,11 @@ Scheme
 	
 	Colors
 	{
-		"TanLight"											"255 255 255 255"
+			//ORANGE SUCKS
+		"Orange"			"15 15 15 255"
+		"TFOrange" 			"15 15 15 255"
+		"Tanlight"			"255 255 255 255"	
+
 
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
@@ -73,7 +77,7 @@ Scheme
 		"TransparentLightBlack""0 0 0 100"
 	//	"Green"					"0 135 68 255"
 	//	"TanLight"				"193 175 75 255"			
-	"TFOrange"			"255 255 255 200"
+
 		"White"									"235 235 235 255"
 		"WhiteSolid"							"255 255 255 255"
 		"WhiteTransparent"						"235 235 235 180"

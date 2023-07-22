@@ -296,20 +296,20 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"blank"
-		Econ.Button.FgColor									"Primary"
-		Econ.Button.ArmedBgColor							"Blank"
+		Econ.Button.BgColor									"Blank"
+		Econ.Button.FgColor									"TanLight"
+		Econ.Button.ArmedBgColor							"TFOrange"
 		Econ.Button.ArmedFgColor							"Red"
-		Econ.Button.DepressedBgColor						"Primary"
-		Econ.Button.DepressedFgColor						"BlackLight"
-
-		Econ.Button.PresetDefaultColorFg					"NotoWhite"
-		Econ.Button.PresetArmedColorFg						"NotoWhite"
-		Econ.Button.PresetDepressedColorFg					"NotoWhite"
-
-		Econ.Button.PresetDefaultColorBg					"Primary"
-		Econ.Button.PresetArmedColorBg						"Primary"
-		Econ.Button.PresetDepressedColorBg					"Primary"
+		Econ.Button.DepressedBgColor						"TFOrange"
+		Econ.Button.DepressedFgColor						"Black"
+		
+		Econ.Button.PresetDefaultColorFg					"TanLight"
+		Econ.Button.PresetArmedColorFg						"TanLight"
+		Econ.Button.PresetDepressedColorFg					"TanLight"
+		
+		Econ.Button.PresetDefaultColorBg					"LighterRed"
+		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetDepressedColorBg					"TFOrange"
 
 		Border.Bright										"Blank"
 		Border.Dark											"BlackDark"
@@ -487,7 +487,7 @@ Scheme
 
 		"ItemColor"											"255 167 42 200"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 100"
+
 
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
