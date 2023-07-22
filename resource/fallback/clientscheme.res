@@ -8,11 +8,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans Bold"
-				"tall"		"19"
+				"name"		"Open Sans Extrabold"
+				"tall"		"23"
 				"weight"	"0"
 				"antialias" "1"
-				"outline"	"1"
+
 			}
 		}	
 	}	

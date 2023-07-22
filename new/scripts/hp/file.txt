@@ -55,5 +55,5 @@ event HudHealthDyingPulseStop
 	StopEvent TI_Death 0.0
 	SetVisible HealthBarLowHealth 0 0.0		
 	Animate	OverhealHealthTextBG 	bgcolor		"blank"			Accel 0.0	0.0
-	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
+	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
 }

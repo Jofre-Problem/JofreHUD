@@ -9,8 +9,8 @@
 		"delta_item_end_y"		"-10"
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
-		"delta_item_font"		"Size 18"//Size 12"
-		"delta_item_font_big"	"DamagetextPutline"//Size 18"		
+		"delta_item_font"		"DamagetextScan"//Size 12"
+		"delta_item_font_big"	"DamagetextOutline"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"
@@ -69,4 +69,54 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
 	}	
+
+
+	"DamageAccountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelShadow"
+		"font"			"DamageTextShadow"
+		"fgcolor"		"0 0 0 0" //150
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+99"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}
+"DamageAccountLabelShadow2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelShadow"
+		"font"			"DamageTextShadow"
+		"fgcolor"		"0 0 0 0" //150
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+99"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}
+"DamageAccountLabelShadow3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelShadow"
+		"font"			"DamageTextShadow"
+		"fgcolor"		"0 0 0 0" //150
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5+99"
+		"zpos"			"-1"
+		"wide"			"100"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}		
 }

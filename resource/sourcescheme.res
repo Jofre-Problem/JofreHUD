@@ -64,7 +64,7 @@ Button.DepressedTextColor "220 220 220 255"
 		Button.ArmedBgColor				"220 220 220 255"
 		Button.ArmedTextColor			"Black"
 		
-		Console.TextColor			"220 220 220 255" //prev 35 240 55 255
+		Console.TextColor			"35 240 55 255"
 		Console.DevTextColor		"35 240 55 255"		//offwhite
 //		Button.DepressedTextColor		"Black"
 //		Button.DepressedBgColor			"DullWhite"

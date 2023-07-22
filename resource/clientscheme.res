@@ -123,7 +123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"blocks blocks"
+				"name"		"blocks blocks" 
 				"tall"		"200"
 				"antialias" "1"
 				"additive"	"0"
@@ -255,7 +255,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"tall"		"11"
+			//	"tall"		"11"
 			//	"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"

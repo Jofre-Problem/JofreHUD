@@ -471,7 +471,7 @@
 		"visible"	"1"
 		"enabled" 	"1"
 		"fillcolor" "245 245 2 255"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 220"
 	}
 	
 	"mouseoveritempanel"

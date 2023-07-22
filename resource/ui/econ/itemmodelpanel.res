@@ -14,7 +14,7 @@
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
-		"fillcolor" "245 245 2 100"
+		"fillcolor" "245 245 2 200"
 	}
 	"mouseoveritempanel"
 	{

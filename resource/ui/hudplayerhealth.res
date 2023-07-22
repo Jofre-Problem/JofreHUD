@@ -155,7 +155,7 @@
 		"labeltext"	"L"
 		"textalignment"	"center"
 		"font"	"NewIcons25"
-		"fgcolor_override"	"whattimeis1"
+		"fgcolor_override"	"whattimeisinvert"
 	}	
 
 	

@@ -28,6 +28,17 @@
 		"tall"					"20"
 		"border"				"FLAT_Black_4"
 	}
+	HudTeamGoal
+{
+"fieldName""HudTeamGoal"
+
+
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+		"wide"					"p0.8"
+		"tall"					"20"
+				"border"				"FLAT_Black_4"
+}
 
 	"StatPanel"
 	{
@@ -102,16 +113,6 @@
 		"wide"										"0"
 		"tall"										"0"
 	}	
-	HudTeamGoal
-{
-"fieldName""HudTeamGoal"
-
-
-		"xpos"					"c-123"
-		"ypos"					"40"
-		"wide"					"246"
-		"tall"					"60"
-}
 
 	HudControlPointIcons
 	{

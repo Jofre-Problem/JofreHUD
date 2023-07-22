@@ -22,10 +22,22 @@ event DamageAccountStuff
 	Animate DamageAccountLabel3 fgcolor "255 170 35 255" linear 0.01 0.0
 	Animate DamageAccountLabel3 fgcolor "255 215 0 100" linear 0.05 0.2
 	Animate DamageAccountLabel3 fgcolor "215 215 215 0" Accel 0.3 4.0
-	Setfont CDamageAccountPanel "delta_item_font" "Size 24" 	0.01
-	Setfont CDamageAccountPanel "delta_item_font" "Size 22" 	0.30
-	Setfont CDamageAccountPanel "delta_item_font" "Size 20" 	0.33
-	Setfont CDamageAccountPanel "delta_item_font" "Size 18" 	0.36
-	Setfont CDamageAccountPanel "delta_item_font" "Size 16" 	0.39
-	Setfont CDamageAccountPanel "delta_item_font" "Size 14" 	0.42
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 24" 	0.01
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 22" 	0.30
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 20" 	0.33
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 18" 	0.36
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 16" 	0.39
+//	Setfont CDamageAccountPanel "delta_item_font" "Size 14" 	0.42
+
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3
+	Animate DamageAccountLabelShadow fgcolor "35 35 35 0" Accel 0.5 5.0
+	
+	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 255" linear 0.0 0.0
+	Animate DamageAccountLabelShadow2 fgcolor "0 0 0 150" linear 0.1 0.3
+	Animate DamageAccountLabelShadow2 fgcolor "35 35 35 0" Accel 0.5 5.0
+	
+	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 200" linear 0.0 0.0
+	Animate DamageAccountLabelShadow3 fgcolor "0 0 0 150" linear 0.1 0.3
+	Animate DamageAccountLabelShadow3 fgcolor "35 35 35 0" Accel 0.4 4.5
 }

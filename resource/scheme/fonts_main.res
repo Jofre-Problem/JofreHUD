@@ -96,7 +96,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "26"
+				"tall" "24"
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -106,16 +106,26 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "18"
+				"tall" "24"
 				"antialias"	"1"
 			}
 		}
-		"DamagetextPutline"
+		"DamagetextScan"
 		{
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "18"
+				"tall" "19"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}		
+		"DamagetextOutline"
+		{
+			"1"
+			{
+				"name" "Open Sans Nodash"
+				"tall" "23"
 				"antialias"	"1"
 				"outline"	"1"
 			}
