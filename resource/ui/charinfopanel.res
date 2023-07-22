@@ -3,26 +3,29 @@
 
 "Resource/UI/CharInfoPanel.res"
 {
-	"lolhour"
+	"timelabel"
 	{
-		ControlName				ImagePanel
-		fieldName				"lolhour"
-		xpos					cs-0.5
-		ypos					0
-		wide					120
-		tall					25
-		proportionaltoparent		1
-		image					"replay/thumbnails/hud/bgPanel_down"
-		"drawcolor"	"10 10 10 255"
-		scaleImage				1
-	}		
+		"ControlName"	"CExLabel"
+		"fieldName"		"timelabel"
+		"font"			"NotoBold30"
+		"fgcolor"		"notowhite" //150
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"122"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"labelText"		"Time:"	
+	}
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
-	//	"xpos"					"cs-0.5-36"
-		"ypos"					"5"
-	"drawcolor"				"Primary"
+		"xpos"					"70"
+		"ypos"					"7"
+	"drawcolor"				"notowhite"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"zpos"					"6000"
@@ -32,7 +35,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"bg"
 		"ypos"					"0"
-	"fillcolor"				"40 34 30 255"
+	"fillcolor"				"16 16 16 255"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"wide"	"f0"

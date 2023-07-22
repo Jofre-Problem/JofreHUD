@@ -2,22 +2,19 @@
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"60"
-		"zpos"			"-5"		
-		"wide"			"f0"
-		"tall"			"310"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 100"
-	}
+			"tank"
+			{
+				ControlName				ImagePanel
+				fieldName				"tank"
+				xpos					rs1-10
+				ypos					rs1
+				wide					380
+				tall					o1
+				proportionaltoparent		1
+				image					"replay/thumbnails/l4d2/noskill_tank_2"
+				scaleImage				1
+		
+			}	
 	"bg"
 	{
 		"ControlName"	"ImagePanel"
@@ -27,7 +24,7 @@
 		"zpos"			"-12"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"	"40 34 30 255"
+		"fillcolor"	"16 16 16 255"
 		"mouseinputenabled"	"0"
 	}		
 	// can't change pos, width, height

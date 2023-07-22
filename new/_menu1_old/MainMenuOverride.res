@@ -11,7 +11,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"0"
+		"wide"										"f0"
 		"tall"										"f0"
 		"visible"									"0"
 		//
@@ -21,20 +21,25 @@
 	}
 
 
-
 	"1_btn"
 	{
 			"ControlName"							"CExButton"
 			"fieldName"								"1_btn"		
 		"zpos"			"3000"
 		wide					30
-		tall					25
+		tall					15
 			"labelText"		"r"
-			"font"			"NewIcons15"
+			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
-				"defaultFgColor_override" 	"notoblack"
-				"armedFgColor_override" 	"notogray"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
@@ -48,13 +53,19 @@
 			"fieldName"								"2_btn"		
 		"zpos"			"3000"
 		wide					30
-		tall					25
+		tall					15
 			"labelText"		"K"
-			"font"			"NewIcons15"
+			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine showstatsdlg"
-			"defaultFgColor_override" 	"notoblack"
-				"armedFgColor_override" 	"notogray"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -76,17 +87,22 @@
 	"3_btn"
 	{
 			"ControlName"							"CExButton"
-			"fieldName"								"3_btn"		
-			xpos	"2"		
+			"fieldName"								"3_btn"				
 		"zpos"			"3000"
 		wide					30
-		tall					25
+		tall					15
 			"labelText"		"@"
-			"font"			"NewIcons15"
+			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"OpenLoadSingleplayerCommentaryDialog"
-			"defaultFgColor_override" 	"notoblack"
-				"armedFgColor_override" 	"notogray"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -646,77 +662,6 @@
 	{
 		"visible"			"0"
 	}
-
-	"bg1"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg1"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"1999"
-		"wide"			"25"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override"	"79 79 79 255"
-		"paintbackgroundtype"	"2"
-		"paintBackground"	"1"
-		}	
-	"bg2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg2"
-		"xpos"			"25+7"
-		"ypos"			"2"
-		"zpos"			"1999"
-		"wide"			"25"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override"	"185 141 116 255"
-		"paintbackgroundtype"	"2"
-		"paintBackground"	"1"
-		}		
-	"bg3"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg3"
-		"xpos"			"25+7+6+25"
-		"ypos"			"2"
-		"zpos"			"1999"
-		"wide"			"25"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override"	"185 71 86 255"
-		"paintbackgroundtype"	"2"
-		"paintBackground"	"1"
-		}		
-	"bg4"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg4"
-		"xpos"			"25+7+6+25+6+25"
-		"ypos"			"2"
-		"zpos"			"1999"
-		"wide"			"25"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override"	"74 186 169 255"
-		"paintbackgroundtype"	"2"
-		"paintBackground"	"1"
-		}		
-	"bg5"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg5"
-		"xpos"			"25+7+6+25+6+25+6+25"	//lol
-		"ypos"			"2"
-		"zpos"			"1999"
-		"wide"			"25"
-		"tall"			"21"
-		"visible"		"1"
-		"bgcolor_override" "notobluesolid"
-		"paintbackgroundtype"	"2"
-		"paintBackground"	"1"
-		}						
 	"WorkshopButton"		// open advanced options
 	{
 	"ControlName""CExImageButton"
@@ -724,24 +669,24 @@
 		xPos					0
 		yPos					0
 		wide					30
-		tall					25
+		tall					15
 		zpos		"2000"
 		labelText				"ø"
 		textAlignment			center
-		font			"NewIcons15"
+		font			"NewIcons12"
 		command				"engine workshop"
 
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		
-				"defaultFgColor_override" 	"notoWhite"
-				"armedFgColor_override" 	"notogray"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
 
 				"defaultBgColor_override" 	"Blank"
 				"armedBgColor_override" 	"Blank"
 
-		//		"border_default"			"LINE_TOP_3_Primary_0"
-		//		"border_armed"				"LINE_TOP_0_Primary_0"
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		paintBackground			0
 		"border_default"	"NoBorder"
 		
@@ -757,7 +702,7 @@
 		"ypos"	"0"
 		"zpos"			"3000"	
 		wide					30
-		tall					25//p0.043
+		tall					15//p0.043
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"WorkshopButton"			
@@ -767,17 +712,23 @@
 			"fieldName"		"MOTD_ShowButtonPanel_SB"
 			"zpos"			"1"
 		wide					30
-		tall					25
+		tall					15
 
 			"labelText"		"p"
-			"font"			"NewIcons15"
+			"font"			"NewIcons12"
 			"textAlignment"	"center"
 			////	"0"
 			
 			"default"		"1"
 			
-			"defaultFgColor_override" 	"notoblack"
-				"armedFgColor_override" 	"notogray"
+					"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"

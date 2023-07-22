@@ -7,22 +7,7 @@
 	{
 //	"tall"	"0"
 	}	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"60"
-		"zpos"			"-5"		
-		"wide"			"f0"
-		"tall"			"310"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"0 0 0 100"
-	}
+
 	"1_label"
 
 	{
@@ -162,14 +147,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"NotoBold40"
+		"font"			"Future30"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"east"
-		"xpos"			"-10"
-		"ypos"			"40"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"-2"
-		"fgcolor_override"	"tanlight"
-		"wide"			"140"
+		"fgcolor_override"	"notowhite"
+		"wide"			"f0"
 		"tall"			"50"
 	}	
 	"TauntLoadoutButton"
@@ -246,9 +231,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"40 34 30 255"
-		"infocus_bgcolor_override" "40 34 30 255"
-		"outoffocus_bgcolor_override" "40 34 30 255"
+		"bgcolor_override"	"16 16 16 255"
+		"infocus_bgcolor_override" "16 16 16 255"
+		"outoffocus_bgcolor_override" "16 16 16 255"
 		
 		"item_xpos_offcenter_a"	"-315"//"-420"
 		"item_xpos_offcenter_b"	"175"//"280"
@@ -471,7 +456,7 @@
 		"visible"	"1"
 		"enabled" 	"1"
 		"fillcolor" "245 245 2 255"
-		"bgcolor_override"	"0 0 0 220"
+		"bgcolor_override"	"0 0 0 255"
 	}
 	
 	"mouseoveritempanel"

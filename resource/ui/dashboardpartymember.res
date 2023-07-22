@@ -96,6 +96,7 @@
 		visible						1
 		mouseinputenabled			0
 		bgcolor_override			"0 0 0 100"
+		"border"	"l4d2"
 	}
 
 	"InteractButton"
@@ -107,7 +108,7 @@
 		proportionaltoparent		1
 		visible						1
 		enabled						1
-
+		"border"	"l4d2"
 		Command						"interact"
 		keyboardinputenabled		0
 		actionsignallevel			1

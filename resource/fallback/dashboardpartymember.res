@@ -126,10 +126,10 @@
 
 		paintbackground				1
 		defaultBgColor_override		"0 0 0 0"
-		armedBgColor_override		"Black"
+		armedBgColor_override		"0 0 0 100"
 
 		border_default				"NoBorder"
-		border_armed				"FriendHighlightBorderThick"
+		border_armed				"l4d2new"
 	}
 
 	"Spinner"

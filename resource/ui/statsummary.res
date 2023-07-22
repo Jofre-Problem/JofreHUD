@@ -68,7 +68,8 @@
 			"zpos"	"997"
 			"wide""f0"
 			"tall""480"
-			"image""../console/background_upward_widescreen"
+			"bgcolor_override"	"16 16 16 255"
+			//"image""../console/background_upward_widescreen"
 		}		
 		"1_image"
 		{
