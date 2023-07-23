@@ -367,7 +367,7 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"Notifications_ShowButtonPanel"
-		xPos					0
+		xPos					rs1-10
 		yPos					rs1
 		zPos					11000
 		"wide"			"p0.1"
@@ -437,7 +437,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"16 16 16 255"
+			drawcolor				"notogray"
 			scaleImage				1
 		}
 
@@ -480,7 +480,7 @@
 		yPos					35
 		zPos					300
 		wide					210
-		tall					80
+		tall					100
 		visible				0
 		border			"noborder"
 
@@ -495,8 +495,8 @@
 			tall					10
 			proportionalToParent		1
 
-			font					"Default"
-			labeltext				"x"
+			font					"newicons12"
+			labeltext				"n"
 			textAlignment			center
 			actionsignallevel			2
 
@@ -521,10 +521,10 @@
 			yPos					3
 			"zpos"					"100"
 			wide					f30
-			tall					10
+			tall					14
 			proportionalToParent		1
 
-			font					"Default"
+			font					"NotoBold12"
 			labelText				"%notititle%"
 			textAlignment			west
 			wrap					0
@@ -544,7 +544,7 @@
 			tall					f25
 			proportionalToParent		1
 
-			fgcolor_override			"Primary"
+			fgcolor_override			"notowhite"
 			
 			"Notifications_Control"		// width harcoded as parent - scrollbar
 			{
@@ -561,7 +561,7 @@
 			"VerticalScrollBar"
 			{
 				xpos					rs1-1
-				wide					2
+				wide					4
 				proportionalToParent		1
 			}
 		}

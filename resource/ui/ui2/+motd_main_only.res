@@ -3,7 +3,7 @@
 //	#base "_motd_spray.res"
 //	#base "_motd_sourcemod.res"
 //	#base "_motd_boxes.res"
-	#base "../../../../../cfg/jp_friends.txt"
+//	#base "../../../../../cfg/jp_friends.txt"
 "x"
 {
 		"MOTD_Panel"	{	
@@ -17,58 +17,18 @@
 		"border"	"noborder"
 		"bgcolor_override"	"30 30 40 0"
 		"fillcolor"	"30 30 40 0"
-	"PrimaryPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PrimaryPanel"
-		"xpos"										"20"
-		"ypos"										"35"
-		"zpos"										"50"
-		"wide"										"200"
-		"tall"										"60"
-		"visible"									"1"
-		"enabled"									"1"
-		"bgcolor_override"							"TransparentBlack"
-	}
-		"Removeline"
-	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					-5
-			ypos					-5
-			zpos					100
-			wide					32
-			tall					31
-		bgcolor_override				"blank"
-		mouseInputEnabled			0
-		"pin_to_sibling"	"PrimaryPanel"
-		"PartySlot0"  // player
-		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					32
-			tall					o1
 
-			party_slot				0
-		}	
-	}							
+
 	"RankContainer"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"RankContainer"
 		"xpos"										"0"
-		"ypos"										"-20"
+		"ypos"										"0"
 		"zpos"										"51"
 		"wide"										"200"
-		"tall"										"20"
-		"bgcolor_override"							"TransparentBlack"
-
-		"pin_to_sibling" 							"PrimaryPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
+		"tall"										"50"
+		"bgcolor_override"							"blank"
 	}
 
 	"RankPanel"
@@ -78,8 +38,8 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"52"
-		"wide"										"200"
-		"tall"										"20"
+		"wide"										"50"
+		"tall"										"0"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"mouseinputenabled"							"0"
@@ -91,121 +51,31 @@
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
-	"Friendsbutton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"Friendsbutton"
-			"xpos"									"0"
-			"ypos"									"-20"
-			"zpos"									"16"
-			"wide"									"200"
-			"tall"									"20"
-			"proportionaltoparent"					"1"
+	
+		"circle1"
+		{			"ControlName"	"cexLabel"
+			"fieldname"		"circle1"
+			"font"			"NewIcons57"
+			"xpos"			"10"
+			"ypos"			"rs1-10"
+			"tall"			"30"
+			"wide"			"o1"
+			"textAlignment"	"center"
 
-			"labelText"								"Friend List?"
-			"actionsignallevel"						"2"
-			"font"									"Regular12"
-			"textalignment"							"center"
-			"textinset_x"			"-40"
-			"use_proportional_insets"				"1"
-			"command"								"engine showconsole; echo pick a button"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-		"pin_to_sibling" 							"RankPanel"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-			"paintbackground"						"0"
-			"border_default"						"LINE_BOTTOM_3_Primary_0"
-			"border_armed"							"LINE_BOTTOM_0_Primary_0"
-		}
-	"ReloadMenu"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"ReloadMenu"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"160"
-			"wide"									"20"
-			"tall"									"20"
-			"proportionaltoparent"					"1"
-
-			"labelText"								"%"
-			"actionsignallevel"						"2"
-			"font"									"newicons12"
-			"textalignment"							"center"
-			"use_proportional_insets"				"1"
-			"command"								"engine ih_reloadscheme; jp_reloadmenus"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-		"pin_to_sibling" 							"Friendsbutton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
-			"paintbackground"						"0"
-			"border_default"						"LINE_BOTTOM_3_Primary_0"
-			"border_armed"							"LINE_BOTTOM_0_Primary_0"
-		}			
-	"FriendsbuttonYes"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"FriendsbuttonYes"
-			"xpos"									"-40"
-			"ypos"									"0"
-			"zpos"									"160"
-			"wide"									"20"
-			"tall"									"20"
-			"proportionaltoparent"					"1"
-
-			"labelText"								"y"
-			"actionsignallevel"						"2"
-			"font"									"newicons12"
-			"textalignment"							"center"
-			"use_proportional_insets"				"1"
-			"command"								"engine jp_custom_alias_friendlist_on"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-		"pin_to_sibling" 							"Friendsbutton"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-			"paintbackground"						"0"
-			"border_default"						"LINE_BOTTOM_3_Primary_0"
-			"border_armed"							"LINE_BOTTOM_0_Primary_0"
-		}
-	"FriendsbuttonNo"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"FriendsbuttonNo"
-			"xpos"									"0"
-			"ypos"									"0"
-			"zpos"									"160"
-			"wide"									"20"
-			"tall"									"20"
-			"proportionaltoparent"					"1"
-
-			"labelText"								"x"
-			"actionsignallevel"						"2"
-			"font"									"newicons12"
-			"textalignment"							"center"
-			"use_proportional_insets"				"1"
-			"command"								"engine jp_custom_alias_friendlist_off"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-		"pin_to_sibling" 							"FriendsbuttonYes"
-		"pin_corner_to_sibling" 					"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 					"PIN_TOPRIGHT"
-			"paintbackground"						"0"
-			"border_default"						"LINE_BOTTOM_3_Primary_0"
-			"border_armed"							"LINE_BOTTOM_0_Primary_0"
-		}			
-					
+			"zpos""10"
+			"labelText"	"O"
+			
+			"fgcolor_override"		"Black"
+		}						
 	"CustomizeButton"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"CustomizeButton"
 			"xpos"									"0"
-			"ypos"									"rs1"
+			"ypos"									"0"
 			"zpos"									"16"
-			"wide"									"20"
-			"tall"									"20"
+			"wide"									"30"
+			"tall"									"28"
 			"proportionaltoparent"					"1"
 
 			"labelText"								"þ"
@@ -216,10 +86,8 @@
 			"command"								"engine ih_custom_on; jp_reloadmenus"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
-
+			"pin_to_sibling"	"circle1"
 			"paintbackground"						"0"
-			"border_default"						"LINE_BOTTOM_3_Primary_0"
-			"border_armed"							"LINE_BOTTOM_0_Primary_0"
 		}	
 			"bb"
 	{
@@ -264,7 +132,7 @@
 		"fieldName"		"Options"
 		"xpos"	"0"
 		"ypos"	"0"
-		"zpos"										"20"
+		"zpos"										"2000"
 		"wide"										"80"
 		"tall"										"20"
 		labelText				"Í"

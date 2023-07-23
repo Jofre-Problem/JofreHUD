@@ -157,7 +157,7 @@ Scheme
 		"HudCaptureProgressBar.Active"						"HudProgressBarActive"
 		"HudCaptureProgressBar.InActive"					"HudProgressBarInActive"
 
-		"FgColor"											"Orange"
+		"FgColor"											"245 245 245 255"
 		"BgColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"
@@ -257,7 +257,7 @@ Scheme
 		ScrollBarSlider.FgColor								"Notowhite"//White
 		ScrollBarSlider.BgColor								"blank"
 
-		"ItemColor"											"OrangeLight"
+		"ItemColor"											"255 167 42 245"
 		"MenuColor"											"White"
 		"MenuBoxBg"											"0 0 0 200"
 	}

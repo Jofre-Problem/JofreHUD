@@ -307,8 +307,8 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
+		Econ.Button.PresetDefaultColorBg					"Notogray"
+		Econ.Button.PresetArmedColorBg						"Notogray"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
 
 		Border.Bright										"Blank"
@@ -318,7 +318,7 @@ Scheme
 		Button.TextColor				"NotoMenuText"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"NotoMenuText2"
-		Button.ArmedBgColor				"Primary"
+		Button.ArmedBgColor				"Notogray"
 		Button.SelectedTextColor		"NotoMenuText2"
 		Button.SelectedBgColor			"Primary"
 		Button.DepressedTextColor		"NotoMenuText2"

@@ -9,13 +9,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
 		"xpos"			"0"
-		"ypos"			"35"
+		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"bgcolor_override"	"17 17 17 1"
+		"bgcolor_override"	"darkbrown"
 		"Record"			// other classes pinned to this
 	{
 		ControlName				CExButton

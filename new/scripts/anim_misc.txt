@@ -55,7 +55,7 @@ event MenuOpen
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
 	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
-	Animate HudMenu ItemColor		"ItemColor"	Linear 0.05 0.1
+	Animate HudMenu ItemColor		"255 167 42 245"	Linear 0.05 0.1
 	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
 	//SetVisible hudplayerhealth 1 0.0	
 	// Undo any blur

@@ -17,7 +17,32 @@
 		"resize_time"		"0.2"
 	}
 	
+	"Removeline"
+	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+			xpos					cs-0.5-51
+			ypos					2
+			zpos					9999
+			wide					24
+			tall					22
 
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
+
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					24
+			tall					o1
+
+			party_slot				0
+		}	
+	}	
 
 
 
@@ -197,13 +222,11 @@
 				xpos					0
 				ypos					25
 				wide					f0
-				tall					5
+				tall					3
 				proportionaltoparent		1
 				image					"replay/thumbnails/gradient_1"
 				scaleImage				1
-				alpha		"50"
-				"drawcolor_override"				"245 245 255 255"
-				"drawcolor"				"245 245 255 255"
+				alpha		"20"
 			}	
 
 		"PartySlot0"
@@ -212,7 +235,7 @@
 			fieldName				"PartySlot0"
 
 			zpos					10000
-
+			"alpha"	"0"
 
 			party_slot				0			
 			"xpos"					"1"

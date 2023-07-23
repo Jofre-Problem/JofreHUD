@@ -46,7 +46,7 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "8 8 8 222"	// pin color
+			"fillcolor" "8 8 8 230"	// pin color
 		}
 	}
 

@@ -13,8 +13,9 @@
             "ControlName"            "CExButton"
             "fieldName"                "LoadPresetButton0"
             "tall"                    "20"
-            "wide"                    "23"
-            "font"                    "Noto14"
+		
+            "wide"                    "20"
+            "font"                    "notobold14"
             "textAlignment"            "center"
             "Command"                ""
             "sound_depressed"        "UI/buttonclick.wav"
@@ -25,19 +26,57 @@
             "ControlName"            "CExButton"
             "fieldName"                "LoadPresetButton1"
             "tall"                    "20"
-            "wide"                    "23"
-            "font"                    "Noto14"
+            "wide"                    "20"
+            "font"                    "notobold14"
             "textAlignment"            "center"
             "Command"                ""
             "sound_depressed"        "UI/buttonclick.wav"
             "sound_released"        "UI/buttonclickrelease.wav"
         }
+        "LoadPresetButton2"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton2"
+            "tall"                    "20"
+            "wide"                    "20"
+            "font"                    "notobold14"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+        "LoadPresetButton3"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton3"
+            "tall"                    "20"
+            "wide"                    "20"
+			"textinsetx"	"-50"
+            "font"                    "notobold14"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }				
     }
 	"testg"
 	{
 //	"tall"	"0"
 	}	
+	"infobg"
+	{
+		"ControlName"	"editablepanel"
+		"fieldName"		"infobg"
+		"xpos"			"0"
+		"ypos"			"rs1-70"
+		
+		"wide"			"60"
+		"tall"			"40"
+		"bgcolor_override"		"DarkBrown"
+		"roundedcorners"	"10"
+		"paintBackgroundtype"	"2"		
 
+	}
 	"1_label"
 
 	{
@@ -45,13 +84,14 @@
 		"fieldName"		"1_label"
 		"font"			"Regular7"
 		"labelText"		"Zoom:"
-		"textAlignment"	"east"
-		"xpos"			"c-340-70"
-		"ypos"			"336"
+		"textAlignment"	"west"
+		"xpos"			"-2"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"20"
 		"tall"			"10"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
+		"pin_to_sibling"	"infobg"
 	}
 	
 	"2_label"
@@ -60,12 +100,15 @@
 		"font"			"Regular7"
 		"labelText"		"MOUSE2"
 		"textAlignment"	"west"
-		"xpos"			"c-263-70"
-		"ypos"			"336"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"73"
+		"wide"			"25"
 		"tall"			"10"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
+		"pin_to_sibling"	"1_label"
+				"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}
 	
 	"MoveInfoLabel"
@@ -74,13 +117,14 @@
 		"fieldName"		"MoveInfoLabel"
 		"font"			"Regular7"
 		"labelText"		"Move:"
-		"textAlignment"	"east"
-		"xpos"			"c-340-70"
-		"ypos"			"346"
+		"textAlignment"	"west"
+		"xpos"			"-2"
+		"ypos"			"-10"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"20"
 		"tall"			"10"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
+				"pin_to_sibling"	"infobg"
 	}
 	
 	"MoveInfo"
@@ -90,12 +134,15 @@
 		"font"			"Regular7"
 		"labelText"		"Shift"
 		"textAlignment"	"west"
-		"xpos"			"c-263-70"
-		"ypos"			"346"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"73"
+		"wide"			"20"
 		"tall"			"10"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
+				"pin_to_sibling"	"MoveInfoLabel"
+				"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}	
 	"RotateInfoLabel"
 	{
@@ -103,17 +150,16 @@
 		"fieldName"		"RotateInfoLabel"
 		"font"			"Regular7"
 		"labelText"		"Rotate:"
-		"textAlignment"	"east"
-		"xpos"			"c-340-70"
-		"ypos"			"356"
+		"textAlignment"	"west"
+		"xpos"			"-2"
+		"ypos"			"-20"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"20"
 		"tall"			"10"
-		"autoResize"	"1"
-		//"pinCorner"		"0"
+	"pin_to_sibling"	"infobg"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
 	}
 	
 	"RotateInfo"
@@ -123,16 +169,19 @@
 		"font"			"Regular7"
 		"labelText"		"Alt"
 		"textAlignment"	"west"
-		"xpos"			"c-263-70"
-		"ypos"			"356"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"73"
+		"wide"			"20"
 		"tall"			"10"
 		"autoResize"	"1"
 		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
+						"pin_to_sibling"	"RotateInfoLabel"
+				"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}
 	
 	"LightInfoLabel"
@@ -140,18 +189,17 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"LightInfoLabel"
 		"font"			"Regular7"
-		"labelText"		"Change lighting:"
-		"textAlignment"	"east"
-		"xpos"			"c-340-70"
-		"ypos"			"366"
+		"labelText"		"Light:"
+		"textAlignment"	"west"
+		"xpos"			"-2"
+		"ypos"			"-30"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"20"
 		"tall"			"10"
-		"autoResize"	"1"
-		//"pinCorner"		"0"
+"pin_to_sibling"	"infobg"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
 	}
 
 						
@@ -162,16 +210,17 @@
 		"font"			"Regular7"
 		"labelText"		"Ctrl"
 		"textAlignment"	"west"
-		"xpos"			"c-263-70"
-		"ypos"			"366"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"73"
+		"wide"			"25"
 		"tall"			"10"
-		"autoResize"	"1"
-		//"pinCorner"		"0"
+						"pin_to_sibling"	"LightInfoLabel"
+				"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override" "NotoGray"
 	}	
 	"ClassLabel"
 	{
@@ -179,14 +228,33 @@
 		"fieldName"		"ClassLabel"
 		"font"			"Future30"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"25"
+		"textAlignment"	"west"
+		"xpos"			"-8"
+		"ypos"			"rs1-35"
 		"zpos"			"-2"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"NotoGray"
 		"wide"			"f0"
-		"tall"			"50"
+		"tall"			"25"
+		"auto_wide_tocontents"	"1"
+		"bgcolor_override"	"DarkBrown"
 	}	
+		"polybar1slash_V2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"polybar1slash_V2"
+			"font"			"NewIcons57"
+			"labelText"		"l"
+			"textAlignment"		"west"
+			"xpos" 			"-8"					//"c-60"//			"180"
+			"ypos"			"0"
+			"zpos"			"-3"
+			"wide"			"30"
+			"tall"			"25"
+			
+			"fgcolor"		"DarkBrown"
+"pin_to_sibling"	"ClassLabel"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	}	
 	"TauntLoadoutButton"
 	{
 		ControlName					CExButton
@@ -198,15 +266,16 @@
 		visible						1
 		enabled						1
 		
-		labelText					"Taunts"
-		font							"Noto20"
+		labelText					"a"
+		font							"NewIcons15"
 		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"	
 		Command						"tauntloadout"
 				
-	//	defaultFgColor_override 	"31 34 34 255"
-	//	armedFgColor_override 		"W_BorderArmed"
+		"defaultFgColor_override" "NotoGray"
+		"armedFgColor_override" "NotoWhite"
+		"depressedFgColor_override" "NotoWhite"		
 		
 		"paintbackground"	"0"
 		
@@ -232,8 +301,8 @@
 		visible						1
 		enabled						1
 
-		labeltext					"Weapons"
-		font							"Noto20"
+		labeltext					"_"
+		font							"NewIcons15"
 		textAlignment				center
 
 		Command						"characterloadout"
@@ -241,8 +310,9 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"
 		
-	//	defaultFgColor_override 	"31 34 34 255"
-	//	armedFgColor_override 		"W_BorderArmed"
+		"defaultFgColor_override" "NotoGray"
+		"armedFgColor_override" "NotoWhite"
+		"depressedFgColor_override" "NotoWhite"		
 		
 		paintbackground				0
 
@@ -402,7 +472,7 @@
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
 		"zpos"			"20"
-		"wide"			"80"
+		"wide"			"90"
 		"tall"			"25"
 	}
 
@@ -413,8 +483,9 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"RedTeamButton"
-		xpos							150-70		// align with preset C
-		ypos							rs1-90
+			"pin_to_sibling"	"infobg"
+		xpos							-15		// align with preset C
+		ypos							20
 		"zpos"				"40"
 		"wide"				"12"
 		"tall"				"13"

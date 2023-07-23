@@ -266,12 +266,30 @@
 			"fgcolor" "137 191 60 255"
 		}
 	}		
+	"OnYourWayLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"font"			"Noto18"
+		"labelText"		"#LoadingMap"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"4501"
+		"wide"			"f0"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"fgcolor_override" "yellow"
+	}		
 	"MapLabel"
 	{
 		"font"			"NotoBold24"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
-		"ypos"				"40"
+		"ypos"				"50"
 	"zpos"	"1000"
 		"wide"				"f0"
 		"tall"				"24"
@@ -282,13 +300,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"NotoBold20"
+		"font"			"Noto20"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"65"
+		"ypos"			"75"
 		"zpos"	"1000"
-		"tall"			"14"
+		"tall"			"20"
 		//////"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
@@ -303,7 +321,7 @@
 	}
 	"StatData"
 	{
-		"ypos" "-100"
+		"ypos" "-60"
 		"zpos"	"5000"
 
 		"BarChartCustomBG"

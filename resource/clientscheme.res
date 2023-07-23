@@ -21,8 +21,8 @@ Scheme
 	Colors
 	{
 			//ORANGE SUCKS
-		"Orange"			"15 15 15 255"
-		"TFOrange" 			"15 15 15 255"
+	//	"Orange"			"15 15 15 255"
+	//	"TFOrange" 			"15 15 15 255"
 		"Tanlight"			"255 255 255 255"	
 
 
