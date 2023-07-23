@@ -8,9 +8,10 @@
 				fieldName				"tank"
 				xpos					rs1-10
 				ypos					rs1
-				wide					380
+				"zpos"	"0"
+				wide					360
 				tall					o1
-				proportionaltoparent		1
+
 				image					"replay/thumbnails/l4d2/noskill_tank_2"
 				scaleImage				1
 		

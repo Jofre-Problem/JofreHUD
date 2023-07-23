@@ -367,11 +367,11 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"Notifications_ShowButtonPanel"
-		xPos					cs-0.5
-		yPos					50
+		xPos					0
+		yPos					rs1
 		zPos					11000
 		"wide"			"p0.1"
-		"tall"			"40"
+		"tall"			"80"
 		paintBackground			0
 		paintBorder				0
 		//
@@ -437,7 +437,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"Primary"
+			drawcolor				"16 16 16 255"
 			scaleImage				1
 		}
 
@@ -454,12 +454,12 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Size 14"
+			font					"NotoBold14"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"Neutral"
+			fgcolor_override			"Notowhite"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"

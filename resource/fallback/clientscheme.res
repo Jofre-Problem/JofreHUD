@@ -8,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Extrabold"
+				"name"		"Product Sans Bold"
 				"tall"		"23"
 				"weight"	"0"
 				"antialias" "1"

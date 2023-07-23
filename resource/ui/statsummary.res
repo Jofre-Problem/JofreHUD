@@ -13,7 +13,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"		"10000"
-		"wide"			"p1"
+		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 	}
@@ -27,12 +27,26 @@
 		"ypos"										"0"
 		"zpos"										"998"
 	}
+	"TimePanelBGReal"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TimePanelBGReal"
+		"xpos"			"5"
+		"ypos"			"7"
+		"zpos"			"7000"
+		"wide"			"22"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/l4d2/survivaltimerclock"	
+		"scaleImage"		"1"	
+	}	
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
-		"xpos"					"cs-0.5-36"
-		"ypos"					"2"
+		"xpos"					"35"
+		"ypos"					"9"
 //	"drawcolor"				"Primary"
 		"enabled"				"1"
 		"scaleimage"			"1"

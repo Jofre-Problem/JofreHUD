@@ -2,7 +2,37 @@
 
 "Resource/UI/FullLoadoutPanel.res"
 {
-
+"loadout_preset_panel"
+    {
+        "ControlName"        "CLoadoutPresetPanel"
+        "FieldName"            "loadout_preset_panel"
+        "wide"                "100"
+        "tall"                "20"
+        "LoadPresetButton0"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton0"
+            "tall"                    "20"
+            "wide"                    "23"
+            "font"                    "Noto14"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+        "LoadPresetButton1"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton1"
+            "tall"                    "20"
+            "wide"                    "23"
+            "font"                    "Noto14"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+    }
 	"testg"
 	{
 //	"tall"	"0"
