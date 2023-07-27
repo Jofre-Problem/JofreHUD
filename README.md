@@ -4,6 +4,16 @@
 
 After 4 years in development, JofreHUD hopefully it is worth the wait.
 
+<details>
+ <summary>Table of Contents</summary>
+ <ol>
+  <li><a href="#description">Description</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#screenshots">screenshots</a></li>
+  <li><a href="#credits">Credits</a></li>
+ </ol>
+ </details>
+
 # Description:
 This HUD is a combination between many diferents HUDS, mainly MagnumHUD, XHUD, InsomniaHUD and many many more.
 Discord Link: https://discord.gg/EB7HY3SDga
