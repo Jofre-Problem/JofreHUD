@@ -4,9 +4,25 @@
 
 After 4 years in development, JofreHUD hopefully it is worth the wait.
 
+<details>
+ <summary>Table of Contents</summary>
+ <ol>
+  <li><a href="#description">Description</a></li>
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#screenshots-old">Screenshots</a></li>
+  <li><a href="#credits">Credits</a></li>
+ </ol>
+ </details>
+
 # Description:
 This HUD is a combination between many diferents HUDS, mainly MagnumHUD, XHUD, InsomniaHUD and many many more.
 Discord Link: https://discord.gg/EB7HY3SDga
+
+# Usage:
+1. [Download the hud](https://github.com/Jofre-Problem/JofreHUD/archive/refs/tags/v1.1.zip)
+2. Move the folder to `steamapps\common\Team Fortress 2\tf\custom`
+3. Rename the folder to lowercase characters, in this case : `jofrehud-main`
+
 # Screenshots (OLD)
 ![Captura de pantalla (71)](https://user-images.githubusercontent.com/70734327/169419095-d336de4f-cba6-4fd1-98f2-6a6abb07b56a.png)
 ![Captura de pantalla (72)](https://user-images.githubusercontent.com/70734327/169419129-0d0d380c-dcb4-4ff7-ba77-fc9ea25f7a94.png)
