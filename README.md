@@ -9,7 +9,7 @@ After 4 years in development, JofreHUD hopefully it is worth the wait.
  <ol>
   <li><a href="#description">Description</a></li>
   <li><a href="#usage">Usage</a></li>
-  <li><a href="#screenshots">screenshots</a></li>
+  <li><a href="#screenshots (OLD)">Screenshots</a></li>
   <li><a href="#credits">Credits</a></li>
  </ol>
  </details>
