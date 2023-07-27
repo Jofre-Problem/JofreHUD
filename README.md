@@ -19,9 +19,7 @@ This HUD is a combination between many diferents HUDS, mainly MagnumHUD, XHUD, I
 Discord Link: https://discord.gg/EB7HY3SDga
 
 # Usage:
-1. Download the hud either by:
-   - Cloning the repo `git clone https://github.com/Jofre-Problem/JofreHUD.git`
-   - Downloading the repo by clicking the green code button and clicking on *Download ZIP*
+1. [Download the hud](https://github.com/Jofre-Problem/JofreHUD/archive/refs/tags/v1.1.zip)
 2. Move the folder to `steamapps\common\Team Fortress 2\tf\custom`
 3. Rename the folder to lowercase characters, in this case : `jofrehud-main`
 
