@@ -305,7 +305,7 @@
 		"xpos"			"0"
 		"zpos"	"6"
 		"wide"			"124"
-		"tall"			"2"
+		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"

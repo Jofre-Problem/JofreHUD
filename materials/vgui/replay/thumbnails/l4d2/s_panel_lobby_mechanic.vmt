@@ -7,4 +7,13 @@
 	"$ignorez" 1
 	
 	"$translucent" 1
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" "1"
+			"initialValue" "-1"
+			"resultvar" "$alpha"
+		}
+	}
 }

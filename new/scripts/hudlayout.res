@@ -174,7 +174,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"//"c106"
-		////"c106-62"
+		"xpos_minmode""c106-62"
 		"ypos"			"0"//"325"
 		////"325+28"			
 		"zpos"			"0"

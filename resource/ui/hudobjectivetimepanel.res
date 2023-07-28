@@ -96,21 +96,70 @@
 		"proportionaltoparent"		"1"
 	}
 
-	"TimePanelProgressBar"
-	{
-		"ControlName"			"CTFProgressBar"
-		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"9999"
-		"wide"				"0"
-		"enabled"			"0"
-	}
+
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"9"
+		"zpos"			"2"
+		"wide"			"78"
+		"tall"			"33"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
+		"scaleImage"		"1"	
+		"pin_to_sibling"	"TimePanelBGReal"
+	}
+	"TimePanelBGReal"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"TimePanelBGReal"
+		"xpos"			"cs-0.5-250-26"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"72"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
+		"scaleImage"		"1"	
+
+	}
+	"TimeCircleThingOverlay"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TimeCircleThingOverlay"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/timericon_refract"
+		"scaleimage"	"1"
+		"pin_to_sibling"	"TimePanelBGReal"
+	}
+	"TimePanelProgressBar"
+	{
+		"ControlName"			"CTFProgressBar"
+		"fieldName"			"TimePanelProgressBar"
+		"xpos"				"0"
+		"ypos"				"4"
+		"zpos"				"4"	
+		"wide"				"25"
+		"tall"				"26"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"			"1"
+		"image"				"../hud/objectives_timepanel_progressbar"
+		"color_active"			"236 240 241 255"
+		"color_warning"			"236 240 241 255"
+		"color_inactive"		"35 35 35 255"
+		"percent_warning"		"0.75"
+		"pin_to_sibling"	"TimePanelBGReal"
 	}
 	"WaitingForPlayersBG"
 	{

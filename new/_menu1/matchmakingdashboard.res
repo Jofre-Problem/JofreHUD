@@ -471,13 +471,64 @@
 			"ControlName""ImagePanel"
 			"fieldName""Spinner"
 			"xpos"	"20"
-			"ypos"	"2"
-			"wide""35"
-			"tall""o1"
+			"ypos"	"4"
+			"wide""10"
+			"tall""o2"
 			"scaleImage""1"
-			"image""replay/thumbnails/misc/spinner"
-			"drawcolor""Primary"
+			"image""replay/thumbnails/timer_hour_v2/min01"
+			"drawcolor""notowhite"
 			}	
+	"Time_Separator1"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_Separator1"
+		"xpos"					"0"
+		"pin_to_sibling"		"Spinner"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		"ypos"					"0"
+		"wide"					"10"
+		"tall"					"o2"
+	"drawcolor"				"notowhite"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/timer_hour_v2/Separator"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}	
+	"Time_sec10"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_sec10"
+		"xpos"					"0"
+		"pin_to_sibling"		"Time_Separator1"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		"ypos"					"0"
+		"wide"					"10"
+		"tall"					"o2"
+	"drawcolor"				"notowhite"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/timer_hour_v2/sec10"
+		"scaleimage"				"1"
+		"zpos"					"6000"
+	}
+	"Time_sec01"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_sec01"
+		"xpos"					"2"			
+		"pin_to_sibling"		"Time_sec10"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+		"ypos"					"0"
+		"wide"					"10"
+		"tall"					"o2"
+	"drawcolor"				"notowhite"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/timer_hour_v2/sec01"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}	
 			"CTFLogoPanel"
 			{
 	"visible"		"0"
@@ -486,15 +537,15 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"60"
-				"ypos"			"0"
+				"xpos"			"65"
+				"ypos"			"-5"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				//"enabled"		"1"
-				"font"			"Regular12"
-				"fgcolor_override"	"White"
+				"font"			"Noto14"
+				"fgcolor_override"	"notoWhite"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -504,15 +555,15 @@
 				{
 					"0"
 					{
-						"font"	"Regular12" // TF2 Build 11
+						"font"	"Noto14" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"Regular12" // TF2 Build 10
+						"font"	"Noto14" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"	"Regular12" // TF2 Build 9
+						"font"	"Noto14" // TF2 Build 9
 					}
 				}
 			}

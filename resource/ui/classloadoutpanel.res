@@ -13,7 +13,8 @@
             "ControlName"            "CExButton"
             "fieldName"                "LoadPresetButton0"
             "tall"                    "20"
-		
+			"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"
             "wide"                    "20"
             "font"                    "notobold14"
             "textAlignment"            "center"
@@ -30,6 +31,8 @@
             "font"                    "notobold14"
             "textAlignment"            "center"
             "Command"                ""
+						"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"
             "sound_depressed"        "UI/buttonclick.wav"
             "sound_released"        "UI/buttonclickrelease.wav"
         }
@@ -42,6 +45,8 @@
             "font"                    "notobold14"
             "textAlignment"            "center"
             "Command"                ""
+						"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"
             "sound_depressed"        "UI/buttonclick.wav"
             "sound_released"        "UI/buttonclickrelease.wav"
         }
@@ -52,6 +57,8 @@
             "tall"                    "20"
             "wide"                    "20"
 			"textinsetx"	"-50"
+						"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"
             "font"                    "notobold14"
             "textAlignment"            "center"
             "Command"                ""

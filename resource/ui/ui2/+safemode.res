@@ -15,7 +15,22 @@
 		"tall"			"f0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"bgcolor_override"	"darkbrown"
+		"bgcolor_override"	"blank"
+
+	"LogoButtons"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LogoButtons"
+		"xpos"			"c-160"
+		"ypos" 			"c-160"
+		"zpos"			"299"
+		"wide"			"320"
+		"tall"			"320"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\mm\LogoButtons"
+		"scaleImage"	"1"
+	}		
 		"Record"			// other classes pinned to this
 	{
 		ControlName				CExButton

@@ -224,16 +224,18 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
-
+"xpos_minmode""c106-62"
+		"ypos_minmode"	"325+28"	
 		"ypos"			"325"		
-		
+
 		"wide"			"124"
 		"tall"			"36"
 	}
 	HudMedicCharge
 	{
 		"xpos"			"c106"
-		////"c106-62"
+"xpos_minmode""c106-62"
+		"ypos_minmode"	"325+28"
 		"ypos"			"325"
 		////"325+28"
 		
