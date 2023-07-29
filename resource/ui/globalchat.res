@@ -85,7 +85,7 @@
 	{
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"					"6"
+		"xpos"					"c550"
 		"ypos"					"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"

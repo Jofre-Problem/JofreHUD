@@ -66,7 +66,7 @@
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"12"
-		"visible"		"0"
+		"visible"		"0" 
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"

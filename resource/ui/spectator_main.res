@@ -4,19 +4,7 @@
 	"specgui"
 	{
 	}
-			"fade"
-			{
-				ControlName				ImagePanel
-				fieldName				"fade"
-				xpos					cs-0.5
-				ypos					50
-				wide					130
-				tall					20
-				proportionaltoparent		1
-				image					"replay/thumbnails/winpanelfade"
-				scaleImage				1
 
-			}	
 	"ReinforcementsLabel"
 	{
 

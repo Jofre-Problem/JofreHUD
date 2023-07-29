@@ -22,3 +22,8 @@ chud_firstrun
 alias "ih_setup" "exec ih_setup"
 exec ih_setup_complete.txt
 ih_setup
+
+//  HOTFIX
+alias chud_hotfixrun "exec hud_hotfix_1.cfg"
+exec "jp_hud_hotfix_has_run.txt"
+chud_hotfixrun

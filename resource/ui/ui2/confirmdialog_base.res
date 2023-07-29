@@ -13,7 +13,7 @@
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"3"
-		"border"		"CustomCyanBorderThick"
+		"border"		"notograyborder"
 		"bgcolor_override"		"Blank"
 	}
 		"Windows_Notification"
@@ -27,7 +27,7 @@
 			"tall"		"118+p0.02"
 			//
 			"paintbackground"		"1"
-			"border"		"CustomCyanBorderThick"		 	
+			"border"		"notograyborder"		 	
 			"bgcolor_override"				"NotoDarker"
 		}	
 	"TitleLabel"
