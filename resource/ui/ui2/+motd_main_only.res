@@ -912,7 +912,46 @@
 		"cvar_name" "cl_hud_minmode"
 		"mouseinputenabled"	"0"
 	}
+	"Loopbacklabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"Loopbacklabel"
+		"font"		"Noto16"
+		"labelText"		"Voice Loopback:"
+		"textAlignment"	"west"
+		"xpos"		"117"
+		"ypos"		"130"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle voice_loopback"
+		"actionsignallevel"		"3"
+		"paintbackground"	"0"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
 
+	
+	}
+
+	"Loopbackcheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"Loopbackcheck"
+		"xpos"		"210"
+		"ypos"		"130"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "voice_loopback"
+		"mouseinputenabled"	"0"
+	}
 	"CrosshairEnableLabel"
 	{
 		"ControlName"	"CExButton"

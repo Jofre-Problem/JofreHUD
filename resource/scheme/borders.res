@@ -103,6 +103,82 @@ Scheme
 				}
 			}
 		}		
+		notograyborder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "notogray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "notogray"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "notogray"
+					"offset" "2 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "notogray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "notogray"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "notogray"
+					"offset" "2 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "notogray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "notogray"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "notogray"
+					"offset" "2 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "notogray"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "notogray"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "notogray"
+					"offset" "2 0"
+				}
+			}
+		}				
 		"LINE_LEFT_0_Primary_0"
 		{
 			"bordertype" "scalable_image"

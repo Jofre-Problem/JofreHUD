@@ -48,7 +48,7 @@
 						"Slider"
 						{
 							"fgcolor_override"	"Primary"
-							"bgcolor_override"	" 0 0 0 100"
+							"bgcolor_override"	"0 0 0 0"
 						}
 					
 						"UpButton"

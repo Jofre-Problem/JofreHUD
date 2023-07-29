@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"crafting_panel"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"25"
 		"wide"			"f0"
 		"tall"			"460"
 		"zpos"			"501"

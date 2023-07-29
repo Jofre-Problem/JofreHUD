@@ -50,7 +50,7 @@
 			{
 				"TitleTextLabel"
 				{
-					"labeltext"				"Clientscheme."
+					"labeltext"				"Clientscheme. Dont use it, its wacky."
 				}
 			}
 		}

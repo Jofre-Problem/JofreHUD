@@ -103,7 +103,7 @@ Scheme
 		"OrangeDim"											"80 150 255 255"
 		"LightOrange"										"80 150 255 255"
 		"GoalOrange"										"255 133 0"
-		"TFOrange"											"80 150 255 255"
+		"TFOrange"											"95 95 95 255"
 		"Purple"											"170 20 220 255"
 
 		"QuestGold"											"208 147 75 255"
@@ -309,7 +309,7 @@ Scheme
 		
 		Econ.Button.PresetDefaultColorBg					"Notogray"
 		Econ.Button.PresetArmedColorBg						"Notogray"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDepressedColorBg					"notogray"
 
 		Border.Bright										"Blank"
 		Border.Dark											"BlackDark"

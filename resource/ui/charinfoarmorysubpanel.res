@@ -1,19 +1,7 @@
 #base "ui2/lead_bg.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
-	"LogoImage"
-	{
-				"ControlName""ImagePanel"
-				"fieldName""LogoImage"
-				"xpos""rs1"
-				"ypos""rs1"
-				"wide""280"
-				"tall""o1"
-				"zpos"	"2000"
-
-				"image""replay/thumbnails/spray_24"
-				"scaleImage""1"
-			}					
+				
 	"armory_panel"
 	{
 		ControlName				Frame
@@ -27,9 +15,9 @@
 
 		// Model panels
 		
-		thumbnail_bgcolor			"Primary"
-		thumbnail_bgcolor_mouseover	"W_ColorTheme4"
-		thumbnail_bgcolor_selected	"W_ColorLinea1"
+		thumbnail_bgcolor			"Notogray"
+		thumbnail_bgcolor_mouseover	"Notodark"
+		thumbnail_bgcolor_selected	"Primary"
 		
 		thumbnails_rows			4
 		thumbnails_columns		4
@@ -46,7 +34,7 @@
 			wide					69
 			tall					52
 			visible				0
-			bgcolor_override			"W_ColorTheme4"
+			bgcolor_override			"Notodark"
 			noitem_textcolor			"117 107 94 255"
 			paintborder				0
 			paintBackgroundType		0
@@ -79,7 +67,7 @@
 		zpos					-1
 		wide					290
 		tall					223
-		fillColor				"Primary"
+		fillColor				"Notodark"
 	}
 	"CaratLabel"
 	{
@@ -118,9 +106,9 @@
 		unicode					0
 		
 		fgcolor_override							"White"
-		bgcolor_override							"Primary"
+		bgcolor_override							"Notogray"
 		disabledFgColor_override				"White"
-		disabledBgColor_override				"Primary"
+		disabledBgColor_override				"Notogray"
 		selectionColor_override					"Blank"
 		selectionTextColor_override			"White"
 		defaultSelectionBG2Color_override	"Blank"
@@ -132,7 +120,7 @@
 		ControlName					EditablePanel
 		fieldName					"DataPanel"
 		xpos							c3
-		ypos							120 // 71
+		ypos							140 // 71
 		zpos							5
 		wide							290
 		tall							220
@@ -280,7 +268,7 @@
 		wide							100
 		tall							15
 		visible						1
-		fillColor					"Primary"
+		fillColor					"Notogray"
 
 		pin_to_sibling				"LeftBackground"
 		pin_corner_to_sibling	PIN_TOPRIGHT
@@ -307,7 +295,7 @@
 		textAlignment		center
 
 		defaultFgColor_override			"White"
-		armedFgColor_override			"Primary"
+		armedFgColor_override			"Notogray"
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
@@ -370,7 +358,7 @@
 		textAlignment		center
 
 		defaultFgColor_override			"White"
-		armedFgColor_override			"Primary"
+		armedFgColor_override			"Notogray"
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
@@ -417,11 +405,11 @@
 		pin_to_sibling_corner	PIN_BOTTOMRIGHT
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Primary"
+		"depressedFgColor_override" "Notogray"
 		
 		"defaultBgColor_override" "Black"
-		"armedBgColor_override" "Primary"
-		"depressedBgColor_override" "Primary"	
+		"armedBgColor_override" "Notogray"
+		"depressedBgColor_override" "Notogray"	
 	}				
 	
 	"StoreButton"
@@ -451,11 +439,11 @@
 
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Primary"
+		"depressedFgColor_override" "Notogray"
 		
 		"defaultBgColor_override" "Black"
-		"armedBgColor_override" "Primary"
-		"depressedBgColor_override" "Primary"	
+		"armedBgColor_override" "Notogray"
+		"depressedBgColor_override" "Notogray"	
 	}
 
 	"ViewSetButton"

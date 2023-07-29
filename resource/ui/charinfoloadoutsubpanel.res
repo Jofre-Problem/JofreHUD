@@ -1,4 +1,4 @@
-
+#base "../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 
@@ -22,7 +22,7 @@
 		"fieldName"		"bg"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-12"
+		"zpos"			"-1200"
 		"wide"			"f0"
 		"tall"			"f0"
 		"fillcolor"	"16 16 16 255"
@@ -720,10 +720,10 @@
 	{
 		ControlName				CExButton
 		fieldName				"BackpackButton"
-		"xpos"							"7"
+		"xpos"							"5"
 		"ypos"							"0"
-		"wide"							"54"
-		"tall"							"100"
+		"wide"							"60"
+		"tall"							"120"
 		
 		font					"NewIcons57"
 		labelText				"="
@@ -731,14 +731,14 @@
 
 		Command				"backpack"
 		
-		sound_depressed			"UI/ButtonClick.wav"
-		sound_released			"UI/ButtonClickrelease.wav"
-		"border_default"			"FLAT_Black_4"
+		"sound_depressed"	"sound_menu/button.wav"
+		"sound_released"	"sound_menu/button2.wav"
+		paintbackground			1
+		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"			
-		paintbackground			0
 		
 			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"primary"
+		armedFgColor_override		"NotoGRAY"
 		pin_to_sibling 			"CraftingButton"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
@@ -748,11 +748,12 @@
 	{
 		ControlName				CExButton
 		fieldName				"CraftingButton"
-		"xpos"							"7"
+		"xpos"							5
 		"ypos"							"0"
-		"wide"							"54"
-		"tall"							"100"
-		"border_default"			"FLAT_Black_4"
+		"wide"							"60"
+		"tall"							"120"
+		paintbackground			1
+		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"		
 		font					"NewIcons57"
 		labelText				"À"
@@ -760,13 +761,13 @@
 
 		Command				"crafting"
 		
-		sound_depressed			"UI/ButtonClick.wav"
-		sound_released			"UI/ButtonClickrelease.wav"
+		"sound_depressed"	"sound_menu/button.wav"
+		"sound_released"	"sound_menu/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"primary"
+		armedFgColor_override		"NotoGRAY"
 
-		paintbackground			0
+	
 		
 		pin_to_sibling 			"ArmoryButton"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
@@ -777,11 +778,12 @@
 	{
 		ControlName				CExButton
 		fieldName				"ArmoryButton"
-		"xpos"							"c-27"
+		"xpos"							"c-30"
 		"ypos"							"250"
-		"wide"							"54"
-		"tall"							"100"
-		"border_default"			"FLAT_Black_4"
+		"wide"							"60"
+		"tall"							"120"
+		paintbackground			1
+		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"		
 		font					"NewIcons57"
 		labelText				"Á"
@@ -789,24 +791,25 @@
 		
 		Command				"armory"
 		
-		sound_depressed			"UI/ButtonClick.wav"
-		sound_released			"UI/ButtonClickrelease.wav"
+		"sound_depressed"	"sound_menu/button.wav"
+		"sound_released"	"sound_menu/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"primary"
+		armedFgColor_override		"NotoGRAY"
 
-		paintbackground			0
+	
 
 	}
 	"TradeButton"
 	{
 		ControlName				CExButton
 		fieldName				"TradeButton"
-		"xpos"							"7"
+		"xpos"							"5"
 		"ypos"							"0"
-		"wide"							"54"
-		"tall"							"100"
-		"border_default"			"FLAT_Black_4"
+		"wide"							"60"
+		"tall"							"120"
+		paintbackground			1
+		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"					
 		font					"NewIcons57"
 		labelText				"Ã"
@@ -814,24 +817,24 @@
 
 		Command				"trading"
 
-		sound_depressed			"UI/ButtonClick.wav"
-		sound_released			"UI/ButtonClickrelease.wav"
+		"sound_depressed"	"sound_menu/button.wav"
+		"sound_released"	"sound_menu/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"primary"
+		armedFgColor_override		"NotoGRAY"
 		"pin_to_sibling" 				"ArmoryButton"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-		paintbackground			0
+	
 	}	
 	"PaintsButton"
 	{
 		ControlName				CExButton
 		fieldName				"PaintsButton"
-		"xpos"							"7"
+		"xpos"							"5"
 		"ypos"							"0"
-		"wide"							"54"
-		"tall"							"100"
+		"wide"							"60"
+		"tall"							"120"
 
 		font					"NewIcons57"
 		labelText				"Â"
@@ -839,14 +842,14 @@
 
 		Command				"paintkit_preview"
 
-		sound_depressed			"UI/ButtonClick.wav"
-		sound_released			"UI/ButtonClickrelease.wav"
+		"sound_depressed"	"sound_menu/button.wav"
+		"sound_released"	"sound_menu/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"primary"
+		armedFgColor_override		"NotoGRAY"
 
-		paintbackground			0
-		"border_default"			"FLAT_Black_4"
+		paintbackground			1
+		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"	
 		pin_to_sibling 			"TradeButton"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -909,7 +912,7 @@
 		xpos					cs-0.5
 		ypos					0
 		zpos					6			// on top of other panels
-		wide					f70
+		wide					f0
 		tall					"f0"//p0.9472
 		visible				0
 		paintbackground			0

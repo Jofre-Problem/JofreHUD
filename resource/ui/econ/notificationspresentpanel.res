@@ -4,21 +4,34 @@
 	{
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
-		"xpos"			"c80"
-		"ypos"			"25"
+		"xpos"			"cs-0.5"
+		"ypos"			"30"
 		"zpos"			"10000"
-		"wide"			"220"
-		"tall"			"26"
+		"wide"			"330"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFThinLineBorder"
+		"border"		"CustomCyanBorderThick"
+		"bgcolor_override"	"notodark"
 	}
-
+			"image"
+			{
+				ControlName				ImagePanel
+				fieldName				"image"
+				xpos					5
+				ypos					5
+				wide					20
+				tall					o1
+				proportionaltoparent		1
+				image					"replay/thumbnails/mainmenu/notification_bell"
+				scaleImage				1
+				"drawcolor_override"				"yellow"
+			}		
 	"TextLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"notowhite"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -31,7 +44,8 @@
 		
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"TFFontSmall"
+		"textinsetx"	"30"
+		"font"			"Noto12"
 		"proportionaltoparent"	"1"
 	}
 }

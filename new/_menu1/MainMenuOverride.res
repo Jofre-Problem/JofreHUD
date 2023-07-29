@@ -11,9 +11,9 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"0"
+	//	"wide"										"0"
 		"tall"										"f0"
-		"visible"									"0"
+	//	"visible"									"0"
 		//
 
 
@@ -35,8 +35,8 @@
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
 				"defaultFgColor_override" 	"notoblack"
 				"armedFgColor_override" 	"notogray"
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+				"sound_depressed"	"sound_menu/button.wav"
+			"sound_released"	"sound_menu/button2.wav"
 		paintBackground			0
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -55,8 +55,8 @@
 		command				"engine showstatsdlg"
 			"defaultFgColor_override" 	"notoblack"
 				"armedFgColor_override" 	"notogray"
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+				"sound_depressed"	"sound_menu/button.wav"
+			"sound_released"	"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"1_btn"		
@@ -69,7 +69,7 @@
 			"fieldName"								"testcmd"				
 		wide					30
 		tall					15
-		command				"engine say_team no"
+		command				"engine say_team no"	//DOESNT WORK ANYWAY
 		paintBackground			0
 		"labeltext" ""
 	}			
@@ -87,8 +87,8 @@
 		command				"OpenLoadSingleplayerCommentaryDialog"
 			"defaultFgColor_override" 	"notoblack"
 				"armedFgColor_override" 	"notogray"
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+				"sound_depressed"	"sound_menu/button.wav"
+			"sound_released"	"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"2_btn"		
@@ -730,9 +730,8 @@
 		textAlignment			center
 		font			"NewIcons15"
 		command				"engine workshop"
-
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+				"sound_depressed"	"sound_menu/button.wav"
+			"sound_released"	"sound_menu/button2.wav"
 		
 				"defaultFgColor_override" 	"notoWhite"
 				"armedFgColor_override" 	"notogray"
@@ -782,8 +781,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+					"sound_depressed"	"sound_menu/button.wav"
+			"sound_released"	"sound_menu/button2.wav"
 			"paintbackground" "0"
 			"SubImage"
 			{

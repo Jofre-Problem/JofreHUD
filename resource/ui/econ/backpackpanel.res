@@ -61,7 +61,8 @@
 				"textAlignment"						"center"
 				"labelText"							"%page%"
 				"font"								"HudFontSmallestBold"
-				"sound_depressed"					"UI/buttonclick.wav"
+				"sound_depressed"					"UI/buttonclick.wav" 
+				"border"	"CustomCyanBorderThick"
 			}
 
 			"New"

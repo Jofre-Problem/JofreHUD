@@ -184,7 +184,7 @@
 							"proportionaltoparent"		"1"
 							"command"					"engine ih_custom_submenu_ig_summer; jp_reloadmenus"
 							"actionsignallevel"			"6"
-							"labelText"					"Item Meters"
+							"labelText"					"Item Meters (NOT YET)"
 							"font"						"regular12"
 							"textalignment"				"west"
 							"textinsetx"				"20"

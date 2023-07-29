@@ -38,14 +38,14 @@
 			{
 				"HelpTextLabel"
 				{
-					"labeltext"				"Select a preset. Basically a summary of best combinations from the other tabs!"
+					"labeltext"				"Select a preset. Basically a summary of best combinations from the other tabs! This idea will be finished by next year probably, its a gigant work."
 				}
 			}
 			"TitleTextPanel"
 			{
 				"TitleTextLabel"
 				{
-					"labeltext"				"Presets."
+					"labeltext"				"Presets. (Unsupported yet)"
 				}
 			}
 		}
