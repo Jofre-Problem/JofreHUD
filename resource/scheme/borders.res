@@ -2,7 +2,31 @@ Scheme
 {
 	Borders
 	{
-		SectionedListPanelBorder "Cs1"
+		MM_BUTTON_ADDITIVE
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/mm/button_additive"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		MM_BUTTON_BLANK
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/hp/divider_dx8"
+			
+			"src_corner_height"		"0"				// pixels inside the image
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}		
+		SectionedListPanel "Cs1"
 		CustomCyanBorderThick 
 		{
 			"inset" "0 0 0 0"

@@ -13,13 +13,13 @@ Scheme
 		"Border.Selection"									"Gray"
 
 
-		"CheckButton.TextColor"								"Yellow"
-		"CheckButton.SelectedTextColor"						"Yellow"
-		"CheckButton.BgColor"								"TransparentBlack"
-		"CheckButton.Border1"  								"Yellow"
-		"CheckButton.Border2" 								"Yellow"
-		"CheckButton.Check"									"Yellow"
-		"CheckButton.HighlightFgColor"						"Yellow"
+		CheckButton.TextColor			"220 220 220 255"
+		CheckButton.SelectedTextColor	"220 220 220 255"
+		CheckButton.BgColor				"NotoBlack"
+		CheckButton.Border1  			"220 220 220 255" 		// the left checkbutton border
+		CheckButton.Border2  			"220 220 220 255"		// the right checkbutton border
+		CheckButton.Check				"220 220 220 255"		// color of the check itself
+		CheckButton.HighlightFgColor	"220 220 220 255"
 
 		"ComboBoxButton.ArrowColor"							"TanLight"
 		"ComboBoxButton.ArmedArrowColor"					"TanLight"
@@ -203,13 +203,7 @@ Scheme
 		Button.DepressedTextColor						"245 245 245 180"
 		Button.DepressedBgColor							"TFOrange"
 
-		CheckButton.TextColor								"Black"
-		CheckButton.SelectedTextColor						"White"
-		CheckButton.BgColor									"Black"		// bg inside checkbox
-		CheckButton.Border1  								"Blank"			// left and top
-		CheckButton.Border2  								"Blank"			// bottom and right
-		CheckButton.Check										"204 135 41 255"				// check mark
-		CheckButton.HighlightFgColor						"White"				// ?
+
 
 		FrameTitleBar.DisabledBgColor						"Blank"
 

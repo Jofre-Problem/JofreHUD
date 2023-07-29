@@ -6,7 +6,7 @@
 		"fieldName"		"QuestItemPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"
+		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"o1.1"
 		"visible"		"1"

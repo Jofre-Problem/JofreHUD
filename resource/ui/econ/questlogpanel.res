@@ -1,12 +1,12 @@
 "Resource/UI/econ/QuestLogPanel.res"
 {
-	"QuestLog"
+	"QuestLog"	//stupid
 	{
 		"ControlName"	"CQuestLogPanel"
 		"fieldName"		"QuestLog"
 		"xpos"			"c5"
 		"ypos"			"65"
-		"zpos"			"1"
+		"zpos"			"1000"
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"

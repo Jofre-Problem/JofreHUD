@@ -45,7 +45,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Size 24 Uber"
+		"font"			"DamagetextOutline"
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -56,6 +56,7 @@
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
 		//		"1"
+		"fgcolor_override"	"Notowhite"
 		//		"1"
 	}
 

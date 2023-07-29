@@ -97,8 +97,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelCustom2"
-		"font"			"NotoBold8Blur"
-		"xpos"			"0"
+		"font"			"NotoBold8"
+		"xpos"			"-1"
 		"ypos"			"0"
 		
 		"wide"			"56"
@@ -111,10 +111,68 @@
 		"centerwrap"		"1"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"TargetIDBG"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
+		"pin_to_sibling"		"TargetNameLabelCustom"
 	}
+	"TargetNameLabelCustom3"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelCustom3"
+		"font"			"NotoBold8"
+		"xpos"			"0"
+		"ypos"			"-1"
+		
+		"wide"			"56"
+		"tall"			"17"
+		"fgcolor_override"	"0 0 0 255"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"TargetNameLabelCustom"
+	}
+	"TargetNameLabelCustom4"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelCustom4"
+		"font"			"NotoBold8"
+		"xpos"			"1"
+		"ypos"			"0"
+		
+		"wide"			"56"
+		"tall"			"17"
+		"fgcolor_override"	"0 0 0 255"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"TargetNameLabelCustom"
+	}	
+	"TargetNameLabelCustom5"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TargetNameLabelCustom5"
+		"font"			"NotoBold8"
+		"xpos"			"0"
+		"ypos"			"1"
+		
+		"wide"			"56"
+		"tall"			"17"
+		"fgcolor_override"	"0 0 0 255"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetname%"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"TargetNameLabelCustom"
+	}		
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"

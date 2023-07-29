@@ -300,11 +300,11 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"			"50"
+		"xpos"			"90"
 		"zpos"		"2000"
-		"ypos"			"r40"
+		"ypos"			"rs1"
 		"wide"			"50"
-		"tall"			"70"
+		"tall"			"90"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

@@ -6,7 +6,7 @@
 		"fieldName"		"QuestMap"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"100"
+		"zpos"			"1000"
 		"wide"			"f0"
 		"tall"			"f0"
 		//		"0"
