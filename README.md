@@ -23,15 +23,16 @@ Discord Link: https://discord.gg/EB7HY3SDga
 2. Move the folder to `steamapps\common\Team Fortress 2\tf\custom`
 3. Rename the folder to lowercase characters, in this case : `jofrehud-main`
 
-# Screenshots (OLD)
-![Captura de pantalla (71)](https://user-images.githubusercontent.com/70734327/169419095-d336de4f-cba6-4fd1-98f2-6a6abb07b56a.png)
-![Captura de pantalla (72)](https://user-images.githubusercontent.com/70734327/169419129-0d0d380c-dcb4-4ff7-ba77-fc9ea25f7a94.png)
-![Captura de pantalla (73)](https://user-images.githubusercontent.com/70734327/169419138-b7fcbe21-d201-48db-ac47-f1c7579f5afb.png)
-![Captura de pantalla (74)](https://user-images.githubusercontent.com/70734327/169419166-cfec5174-a3e5-411b-aca8-44a74d192bd3.png)
-![Captura de pantalla (76)](https://user-images.githubusercontent.com/70734327/169419176-afa58726-2c30-41f4-8376-7ae2ff543585.png)
-![Captura de pantalla (68)](https://user-images.githubusercontent.com/70734327/168952110-021004b7-ea87-4014-aa1a-6d8c457cb489.png)
-![Captura de pantalla (80)](https://user-images.githubusercontent.com/70734327/169620677-288811cc-7e23-4d89-86be-611cf0739aa9.png)
-**Last Update as 20/05/22**
+# Screenshots
+![Captura de pantalla (1)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/449d7763-a866-491c-834f-839ddf3c9b1e)
+![Captura de pantalla (4)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/5042af70-f6c3-491c-8adf-184b1f03e298)
+![Captura de pantalla (5)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/a0dbb221-efe6-450a-bb8c-2202513dbc09)
+![Captura de pantalla (8)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/fa874c5f-74ad-4872-ab6e-3728b741b89b)
+![Captura de pantalla (11)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/e3bc19d0-bf53-4535-bfbd-7e164f6b0d88)
+![Captura de pantalla (15)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/c994c5a8-71a0-4317-8a6d-dd5b73acee56)
+![Captura de pantalla (17)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/4e410b0d-8c93-4593-b4d7-16528aa98c9a)
+![Captura de pantalla (27)](https://github.com/Jofre-Problem/JofreHUD/assets/70734327/b42f20a9-c0bf-4f06-9855-d245b3cfce2b)
+**Last Update as 28/07/23**
 
 # Credits:
 - JarateKing - His work was my inspiration in my start
