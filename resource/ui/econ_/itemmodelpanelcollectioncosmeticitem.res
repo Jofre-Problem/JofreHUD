@@ -1,4 +1,6 @@
-
+#base ..\..\..\overrides\16-by-10-aspectratio\file.res
+#base ..\..\..\overrides\4-by-3-aspectratio\file.res
+#base ..\..\ui2\16-by-9_centereditempanel.res
 
 "Resource/UI/ItemModelPanelCollectionCosmeticItem.res"
 {
@@ -12,7 +14,7 @@
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
-		"fillcolor" "245 245 2 200"
+		"fillcolor" "245 245 2 100"
 	}
 	"mouseoveritempanel"
 	{
@@ -44,7 +46,7 @@
 			"tall"			"140"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "0 0 0 200"
+			"fillcolor" "0 0 0 100"
 		}
 	}
 	

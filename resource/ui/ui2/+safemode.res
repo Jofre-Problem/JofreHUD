@@ -4,6 +4,7 @@
 //	#base "_safemode1.res"
 "Resource/#jofre/safe-mode.res"
 {
+
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
@@ -21,7 +22,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LogoButtons"
-		"xpos"			"cS-0.5-227-75"
+		"xpos"			"-36"////"cS-0.5-227-75"
 		"ypos" 			"cS-0.5-35+17"
 		"zpos"			"299"
 		"wide"			"320"
@@ -35,7 +36,7 @@
 	{
 		ControlName				CExButton
 		fieldName				"ViewChangelog"
-		"xpos"							"cs-0.5-227-75"
+		"xpos"							"40"//"cs-0.5-227-75"
 		"ypos"							"rs1-90"
 		"wide"							"170"
 		"tall"							"30"
@@ -54,7 +55,7 @@
 		ControlName				CExButton
 		fieldName				"Browse"
 	
-		"xpos"							"c-77-227-75"
+		"xpos"							"47"
 		"ypos"							"cs-0.5-41"
 		"wide"							"92"
 		"tall"							"20"

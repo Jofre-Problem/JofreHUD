@@ -1,32 +1,36 @@
+#base ..\..\..\overrides\16-by-10-aspectratio\file.res
+#base ..\..\..\overrides\4-by-3-aspectratio\file.res
+#base ..\..\ui2\16-by-9_centereditempanel.res
 
 
-"Resource/UI/ItemModelPanelCollectionCosmeticItem.res"
+"Resource/UI/ItemModelPanelCollectionItem.res"
 {
 	"mouseoveitempanelAnchor"
 	{
 		"ControlName" "imagePanel"
 		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"0"
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
-		"fillcolor" "245 245 2 200"
+		"fillcolor" "245 245 2 100"
 	}
 	"mouseoveritempanel"
 	{
 		"fieldName"			"mouseoveritempanel"
-		"collection_wide"		"300"
+		"collection_wide"		"f0"
 		"collection_list_xpos"	"200"
 		"is_mouseover"		"1"
 		"text_xpos_collection"	"0"
+		
 		"text_xpos"		"40"
 		"text_ypos"			"5"
-		"model_xpos"	"5"
-		"model_ypos"	"10"
-		"model_wide"	"180"
-		"model_tall"	"120"
+		"model_xpos"	"3"
+		"model_ypos"	"3"
+		"model_wide"	"195"
+		"model_tall"	"130"
+		"text_wide"		"180"
 		"text_forcesize" "2"
 		
 		"pin_to_sibling" 	"mouseoveritempanelAnchor"
@@ -44,7 +48,7 @@
 			"tall"			"140"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "0 0 0 200"
+			"fillcolor" "0 0 0 100"
 		}
 	}
 	
@@ -96,8 +100,36 @@
 		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
+
+			"disable_manipulation"	"1"
+
+			"force_use_model"		"1"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+			"use_pedestal"			"1"
+			"use_particle"			"1"
+			"fov"					"75"
+
+			"model_rotate_yaw_speed"	"100"
 			
 			"inventory_image_type" "1"
+		
+			"model"
+			{
+				"force_pos"	"1"
+
+				"angles_x" "7"
+				"angles_y" "130"
+				"angles_z" "0"
+				"origin_x" "175"
+				"origin_y" "0"
+				"origin_z" "0"
+				"frame_origin_x"	"0"
+				"frame_origin_y"	"0"
+				"frame_origin_z"	"0"
+				"spotlight" "1"
+				"modelname"		""
+			}
 		}
 	
 		"namelabel"

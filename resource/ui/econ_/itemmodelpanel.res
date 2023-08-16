@@ -1,34 +1,35 @@
+#base ..\..\..\overrides\16-by-10-aspectratio\file.res
+#base ..\..\..\overrides\4-by-3-aspectratio\file.res
+#base ..\..\ui2\16-by-9_centereditempanel.res
 
-
-"Resource/UI/ItemModelPanelCollectionCosmeticItem.res"
+"Resource/UI/ItemModelPanel.res"
 {
 	"mouseoveitempanelAnchor"
 	{
 		"ControlName" "imagePanel"
 		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"0"
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
-		"fillcolor" "245 245 2 200"
+		"fillcolor" "245 245 2 100"
 	}
 	"mouseoveritempanel"
 	{
-		"fieldName"			"mouseoveritempanel"
-		"collection_wide"		"300"
-		"collection_list_xpos"	"200"
-		"is_mouseover"		"1"
+		"fieldName"				"mouseoveritempanel"
+		"collection_wide"		"f0"
+		"collection_list_xpos"	"250"
+		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_xpos"		"40"
 		"text_ypos"			"5"
-		"model_xpos"	"5"
-		"model_ypos"	"10"
-		"model_wide"	"180"
-		"model_tall"	"120"
-		"text_forcesize" "2"
-		
+		"text_forcesize" "0"
+		"text_xpos"		"39"
+		"text_wide"		"270"
+		//"model_xpos_collection"	"77"
+		//"model_ypos_collection"	"20"
+		//"model_wide_collection"	"156"
+		//"model_tall_collection"	"100"
 		"pin_to_sibling" 	"mouseoveritempanelAnchor"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
@@ -44,10 +45,10 @@
 			"tall"			"140"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "0 0 0 200"
+			"fillcolor" "0 0 0 100"
 		}
 	}
-	
+
 	"LoadingSpinner"
 	{
 		"ControlName"	"ImagePanel"
@@ -76,7 +77,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		
+
 		"itemmodelpanel"
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
@@ -92,12 +93,23 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"useparentbg"		"1"
-			"proportionaltoparent" "1"
 		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
+
+			"fov"			"54"
+			"start_framed"		"1"
+
+			"disable_manipulation"	"1"
 			
 			"inventory_image_type" "1"
+
+			"model"
+			{
+				"angles_x"		"10"
+				"angles_y"		"130"
+				"angles_z"		"0"
+			}
 		}
 	
 		"namelabel"
@@ -108,97 +120,42 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"100"
+			"wide"			"140"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"west"
+			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-		
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
-			"wide"			"100"
+			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
-			"textAlignment"	"west"
+			"textAlignment"	"south"
 			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"0"
-		}
-
-		"collectionnamelabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"collectionnamelabel"
-			"font"			"ItemFontNameLarge"
-			"xpos"			"100"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"labelText"		"%collectionname%"
-			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"0"
+			"centerwrap"	"1"
 		}
 	
-		"collectionlistlabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"collectionlistlabel"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"100"
-			"ypos"			"60"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"60"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"labelText"		"%collectionlist%"
-			"textAlignment"	"west"
-			"fgcolor"		"117 107 94 255"
-			"centerwrap"	"0"
-		}
-			
-		"collectionhighlight"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"collectionhighlight"
-			"xpos"			"208"
-			"ypos"			"42"
-			"zpos"			"1"
-			"wide"			"145"
-			"tall"			"9"
-			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"215 206 182 255"
-		}
-		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"NotoBold8"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -211,8 +168,10 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			"border"	"FuckinBorderDude"
 		}
 	
 		"paint_icon"
@@ -222,8 +181,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"14"
+			"tall"			"14"
 			"visible"		"0"
 			"enabled"		"1"
 
@@ -245,9 +204,11 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"fgcolor"		"NotoWhite"
+			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			"border"		"FuckinBorderDude"
 		}
 
 		"serieslabel"
@@ -266,9 +227,11 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"fgcolor"		"NotoWhite"
+			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			"border"		"FuckinBorderDude"
 		}
 
 		"matcheslabel"
@@ -287,9 +250,11 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"fgcolor"		"NotoWhite"
+			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			"border"		"FuckinBorderDude"
 		}
 
 		"vision_restriction_icon"
@@ -307,6 +272,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+		
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -316,8 +282,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"14"
+			"tall"			"14"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -331,8 +297,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"14"
+			"tall"			"14"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -352,7 +318,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-		
+
 		"contained_item_panel"
 		{
 			"ControlName"	"CItemModelPanel"
