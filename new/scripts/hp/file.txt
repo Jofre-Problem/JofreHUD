@@ -3,8 +3,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 
 	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
-//	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
-	Animate	OverhealHealthTextBG 	Xpos		"0 0"			Accel 0.0	0.0
+	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
+	Animate	OverhealHealthTextBG 	Xpos		"34 34"			Accel 0.0	0.0
+	//	Animate	OverhealHealthTextBG 	alpha		"34 0"			Accel 0.0	0.0
 	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
 	RunEvent TI_Bonus 0.0
 	SetVisible HealthBarOverheal 1 0.0

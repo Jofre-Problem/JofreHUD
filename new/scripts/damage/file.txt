@@ -4,7 +4,8 @@ event DamagedPlayer
 	RunEvent 	DamageAccountStuff      0.2 //lol
 	StopEvent 	HitMarker 	0.0
 	RunEvent 	HitMarker	0.01
-//	RunEvent TestTestingCmd 0.0
+	StopEvent 	TestTestingCmd 	0.0
+	RunEvent TestTestingCmd 0.1
 }
 event DamageAccountStuff
 {

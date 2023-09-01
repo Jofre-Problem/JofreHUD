@@ -133,8 +133,8 @@
 		"enabled"									"0"
 		"xpos"										"9999"
 		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
+		"wide"										"1"
+		"tall"										"1"
 	}
 
 	"HudTeamGoalTournament"
@@ -168,16 +168,6 @@
 		"wide"										"0"
 		"tall"										"0"
 	}	
-	HudTeamGoal
-{
-"fieldName""HudTeamGoal"
-
-
-		"xpos"					"c-123"
-		"ypos"					"40"
-		"wide"					"246"
-		"tall"					"60"
-}
 
 	HudControlPointIcons
 	{

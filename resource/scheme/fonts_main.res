@@ -96,7 +96,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "24"
+				"tall" "19"
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -106,7 +106,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "24"
+				"tall" "19"
 				"antialias"	"1"
 			}
 		}
