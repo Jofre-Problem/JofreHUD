@@ -253,6 +253,6 @@ Scheme
 
 		"ItemColor"											"255 167 42 245"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 200"
+		"MenuBoxBg"											"0 0 0 220"
 	}
 }

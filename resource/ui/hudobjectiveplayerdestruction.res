@@ -65,8 +65,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"cs-1.0-150"
-		"ypos"				"c96"
+		"xpos"				"cs-1.0-80"
+		"ypos"				"c120"
 		"zpos"				"1"
 		"wide"				"50"
 		"tall"				"30"
@@ -102,7 +102,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"Size 20"
+			"font"			"DamageText"
 			"fgcolor"		"White"
 			"proportionalToParent"	"1"
 		}
@@ -111,8 +111,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValueShadow"
-			"xpos"			"-1"
-			"ypos"			"-1"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"15"
@@ -120,7 +120,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"Size 20"
+			"font"			"DamageTextShadow"
 			"fgcolor"		"Shadow"
 			"proportionalToParent"	"1"
 
