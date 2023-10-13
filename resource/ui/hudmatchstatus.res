@@ -12,7 +12,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Size 28 Shadow"
+		"font"			"Notobold26"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"100"
@@ -191,7 +191,7 @@
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5+8"
-			"ypos"			"-4"
+			"ypos"			"-2"
 			"zpos"			"311"
 			"wide"			"70"
 			"tall"			"30"
@@ -364,7 +364,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Size 16 Uber"
+				"font"			"Notobold16"
 				"zpos"			"9"
 				"wide"			"f0"
 				"tall"			"24"

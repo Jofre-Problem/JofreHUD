@@ -1,0 +1,10 @@
+#base "zones/jump_power_rc3.vmt"
+
+"UnlitGeneric" {
+	$basetexture "vgui/replay/thumbnails/timer/digits"
+	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
+
+	$color_running "[1.0 0.8 0.2]"
+	$color_ended "[0.8 1.0 0.3]"
+	$alpha 0.75
+}

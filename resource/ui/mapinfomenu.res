@@ -1,20 +1,25 @@
 
-#base "../../new/ui_overrides/full-timer/file.res"
+#base "../../new/ui_overrides/full-timer/file2.res"
 #base "../../../cfg/jp_steam_border.txt"
 #base "ui2/partyslot0.res"
-#base "ui2/tank_gif.res"
+
 #base "ui2/keybindings.res"
 "Resource/UI/TeamMenu.res"
 {
 
-			"tank_gif"
-			{
-			"xpos""cs-0.5"
-			"ypos""rs1-120"
-			"zpos""7"
-			"wide""32"
-			"tall""o1"
-			}		
+		"ggrad"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""ggrad"
+	"xpos""cs-0.5"
+	"ypos""c-92"
+	"zpos""10"
+	"wide""200"
+	"tall""22"
+	"image""replay/thumbnails/winpanelfade"
+	"scaleimage""1"
+
+	}	
 	"Removeline"
 	{
 		zpos					100

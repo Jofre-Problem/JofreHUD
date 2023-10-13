@@ -96,7 +96,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "19"
+				"tall" "19"	
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -115,7 +115,8 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "19"
+				"tall" "19"		[$WIN32]
+				"tall"	"12"	[$LINUX]
 				"antialias"	"1"
 				"outline"	"1"
 			}
@@ -125,7 +126,8 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Nodash"
-				"tall" "23"
+				"tall" "23"	[$WIN32]
+				"tall"	"14"	[$LINUX]
 				"antialias"	"1"
 				"outline"	"1"
 			}

@@ -1,0 +1,160 @@
+#base "mod.vmt"
+
+"UnlitGeneric" {
+	$game_time 0
+	
+	$const_neg -1
+	$const_zero 0
+	$const_one 1
+	$const_two 2
+	$const_ten 10
+	$const_sixty 60
+	$const_hun 100
+	
+	$value_digit 0
+	
+	$player_bounds "[ 24 24 41.5 ]" $player_bounds_x 0 $player_bounds_y 0 $player_bounds_z 0
+	$pos "[ 0 0 0 ]" $pos_x 0 $pos_y 0 $pos_z 0
+	
+	$startzone_mins_x 0 $startzone_mins_y 0 $startzone_mins_z 0
+	$startzone_maxs_x 0 $startzone_maxs_y 0 $startzone_maxs_z 0
+	$endzone_mins_x 0 $endzone_mins_y 0 $endzone_mins_z 0
+	$endzone_maxs_x 0 $endzone_maxs_y 0 $endzone_maxs_z 0
+	
+	$inside_startzone 0
+	$inside_endzone 0
+	
+	$tmp 0 $tmp2 0 $tmp3 0
+	
+	$time 0
+	$last 0
+	$timer 0
+
+	$start 0
+	$running 0
+	$ended 0
+	$end 0
+	
+	Proxies {
+		// Get current game time
+		CurrentTime { resultVar "$game_time" }
+		
+		// Get player position
+		PlayerPosition { scale 1 resultVar "$pos" }	
+		Clamp { srcVar1 "$const_zero" min "$pos[0]" max "$pos[0]" resultVar "$pos_x" }
+		Clamp { srcVar1	"$const_zero" min "$pos[1]" max "$pos[1]" resultVar "$pos_y" }
+		Clamp { srcVar1	"$const_zero" min "$pos[2]" max "$pos[2]" resultVar "$pos_z" }
+		
+		// Extract zone bounds
+		Clamp { srcVar1 "$const_zero" min "$startzone_mins[0]" max "$startzone_mins[0]" resultVar "$startzone_mins_x" }
+		Clamp { srcVar1	"$const_zero" min "$startzone_mins[1]" max "$startzone_mins[1]" resultVar "$startzone_mins_y" }
+		Clamp { srcVar1	"$const_zero" min "$startzone_mins[2]" max "$startzone_mins[2]" resultVar "$startzone_mins_z" }
+		Clamp { srcVar1 "$const_zero" min "$startzone_maxs[0]" max "$startzone_maxs[0]" resultVar "$startzone_maxs_x" }
+		Clamp { srcVar1	"$const_zero" min "$startzone_maxs[1]" max "$startzone_maxs[1]" resultVar "$startzone_maxs_y" }
+		Clamp { srcVar1	"$const_zero" min "$startzone_maxs[2]" max "$startzone_maxs[2]" resultVar "$startzone_maxs_z" }
+		Clamp { srcVar1 "$const_zero" min "$endzone_mins[0]" max "$endzone_mins[0]" resultVar "$endzone_mins_x" }
+		Clamp { srcVar1	"$const_zero" min "$endzone_mins[1]" max "$endzone_mins[1]" resultVar "$endzone_mins_y" }
+		Clamp { srcVar1	"$const_zero" min "$endzone_mins[2]" max "$endzone_mins[2]" resultVar "$endzone_mins_z" }
+		Clamp { srcVar1 "$const_zero" min "$endzone_maxs[0]" max "$endzone_maxs[0]" resultVar "$endzone_maxs_x" }
+		Clamp { srcVar1	"$const_zero" min "$endzone_maxs[1]" max "$endzone_maxs[1]" resultVar "$endzone_maxs_y" }
+		Clamp { srcVar1	"$const_zero" min "$endzone_maxs[2]" max "$endzone_maxs[2]" resultVar "$endzone_maxs_z" }
+		
+		// Extract player bounds
+		Clamp { srcVar1 "$const_zero" min "$player_bounds[0]" max "$player_bounds[0]" resultVar "$player_bounds_x" }
+		Clamp { srcVar1	"$const_zero" min "$player_bounds[1]" max "$player_bounds[1]" resultVar "$player_bounds_y" }
+		Clamp { srcVar1	"$const_zero" min "$player_bounds[2]" max "$player_bounds[2]" resultVar "$player_bounds_z" }
+		
+		// Add player bounds to zones
+		Subtract { srcVar2 "$player_bounds_x" srcVar1 "$startzone_mins_x" resultVar "$startzone_mins_x" }
+		Subtract { srcVar2 "$player_bounds_y" srcVar1 "$startzone_mins_y" resultVar "$startzone_mins_y" }
+		Subtract { srcVar2 "$player_bounds_z" srcVar1 "$startzone_mins_z" resultVar "$startzone_mins_z" }
+		Add { srcVar1 "$player_bounds_x" srcVar2 "$startzone_maxs_x" resultVar "$startzone_maxs_x" }
+		Add { srcVar1 "$player_bounds_y" srcVar2 "$startzone_maxs_y" resultVar "$startzone_maxs_y" }
+		Add { srcVar1 "$player_bounds_z" srcVar2 "$startzone_maxs_z" resultVar "$startzone_maxs_z" }
+		Subtract { srcVar2 "$player_bounds_x" srcVar1 "$endzone_mins_x" resultVar "$endzone_mins_x" }
+		Subtract { srcVar2 "$player_bounds_y" srcVar1 "$endzone_mins_y" resultVar "$endzone_mins_y" }
+		Subtract { srcVar2 "$player_bounds_z" srcVar1 "$endzone_mins_z" resultVar "$endzone_mins_z" }
+		Add { srcVar1 "$player_bounds_x" srcVar2 "$endzone_maxs_x" resultVar "$endzone_maxs_x" }
+		Add { srcVar1 "$player_bounds_y" srcVar2 "$endzone_maxs_y" resultVar "$endzone_maxs_y" }
+		Add { srcVar1 "$player_bounds_z" srcVar2 "$endzone_maxs_z" resultVar "$endzone_maxs_z" }
+		
+		// Check inside_startzone
+		Equals { srcVar1 "$const_zero" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$startzone_mins_x" srcVar1 "$pos_x" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$startzone_mins_y" srcVar1 "$pos_y" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$startzone_mins_z" srcVar1 "$pos_z" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$startzone_maxs_x" srcVar2 "$pos_x" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$startzone_maxs_y" srcVar2 "$pos_y" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$startzone_maxs_z" srcVar2 "$pos_z" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$const_zero" srcVar2 "$tmp2" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$inside_startzone" }
+		
+		// Check inside_endzone
+		Equals { srcVar1 "$const_zero" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$endzone_mins_x" srcVar1 "$pos_x" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$endzone_mins_y" srcVar1 "$pos_y" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$endzone_mins_z" srcVar1 "$pos_z" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$endzone_maxs_x" srcVar2 "$pos_x" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$endzone_maxs_y" srcVar2 "$pos_y" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$endzone_maxs_z" srcVar2 "$pos_z" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Subtract { srcVar1 "$tmp2" srcVar2 "$tmp" resultVar "$tmp2" }
+		LessOrEqual { srcVar1 "$const_zero" srcVar2 "$tmp2" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$inside_endzone" }
+		
+		// Set $start=1, if touched startzone
+		LessOrEqual { srcVar2 "$inside_startzone" srcVar1 "$const_one" lessEqualVar "$const_one" greaterVar "$start" resultVar "$start" }
+		
+		// If $inside_startzone=0 & $start=1, set $running=1
+		Equals { srcVar1 "$start" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$inside_startzone" srcVar1 "$const_one" lessEqualVar "$const_zero" greaterVar "$const_one" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$tmp2" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$tmp2" srcVar1 "$const_two" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$running" }
+
+		// If $running=1, save $game_time in $time ONCE
+		LessOrEqual { srcVar1 "$running" srcVar2 "$const_zero" lessEqualVar "$game_time" greaterVar "$tmp3" resultVar "$tmp3" }
+		LessOrEqual { srcVar2 "$running" srcVar1 "$const_one" lessEqualVar "$const_one" greaterVar "$start" resultVar "$start" }
+		LessOrEqual { srcVar2 "$running" srcVar1 "$const_one" lessEqualVar "$tmp3" greaterVar "$const_zero" resultVar "$time" }
+		
+		// If $inside_endzone=1 & start=1, set $ended=1 (this is only active for 1 tick? roll with it.)
+		Equals { srcVar1 "$start" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$inside_endzone" srcVar1 "$const_one" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$tmp" }
+		Add { srcVar1 "$tmp" srcVar2 "$tmp2" resultVar "$tmp2" }
+		LessOrEqual { srcVar2 "$tmp2" srcVar1 "$const_two" lessEqualVar "$const_one" greaterVar "$const_zero" resultVar "$ended" }
+	
+		// Copy $timer value to $end if $ended=1
+		LessOrEqual { srcVar2 "$ended" srcVar1 "$const_one" lessEqualVar "$timer" greaterVar "$end" resultVar "$end" }
+		
+		// Set $start=0, if touched endzone (sets $running=0 automatically)
+		LessOrEqual { srcVar2 "$inside_endzone" srcVar1 "$const_one" lessEqualVar "$const_neg" greaterVar "$start" resultVar "$start" }
+		
+		// Subtract game time from time value
+		Subtract { srcVar1 "$game_time" srcVar2 "$time" resultVar "$timer" }
+		LessOrEqual { srcVar1 "$time" srcVar2 "$const_zero" lessEqualVar "$const_zero" greaterVar "$timer" resultVar "$timer" }
+
+		// Switch color when timer is running
+		LessOrEqual { srcVar2 "$running" srcVar1 "$const_one" lessEqualVar "$color_running" greaterVar "$color_ended" resultVar "$color" }
+		
+		// Convert timer seconds value into minutes:seconds.milliseconds
+		Divide { srcVar1 "$timer" srcVar2 "$const_sixty" resultVar "$tmp" }
+		Int { srcVar1 "$tmp" resultVar "$tmp" }
+		Multiply { srcVar1 "$tmp" srcVar2 "$const_hun" resultVar "$tmp" }
+		WrapMinMax { srcVar1 "$timer" maxVal "$const_sixty" resultVar "$tmp2" }
+		Add { srcVar1 "$tmp" srcVar2 "$tmp2" resultVar "$timer" } 
+		
+		// Hold timer still near end instead of resetting
+		LessOrEqual { srcVar2 "$start" srcVar1 "$const_zero" lessEqualVar "$timer" greaterVar "$end" resultVar "$timer" }
+		
+		// Display digit
+		Divide { srcVar1 "$timer" srcVar2 "$digit" resultVar "$value_digit" }
+		WrapMinMax { srcVar1 "$value_digit" maxVal "$const_ten" resultVar "$frame" }
+	}
+}

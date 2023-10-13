@@ -14,6 +14,7 @@
 	//	"xpos"			"4+p0.001"
 	//	"ypos"			"rs1-85" //enough space for nohboard
 	//	"wide"	 		"200"
+	"WIDE"	"150"	[$LINUX]
 	//	"tall"	 		"120"
 		//
 		"bgcolor_override" "0 0 0 0"

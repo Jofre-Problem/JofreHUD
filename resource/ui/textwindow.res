@@ -1,12 +1,24 @@
 #base "../../../cfg/jp_steam_border.txt"
-#base "../../new/ui_overrides/full-timer/file.res"
-#base "ui2/tank_gif.res"
+#base "../../new/ui_overrides/full-timer/file2.res"
+//#base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
 #base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
 	
+		"ggrad"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""ggrad"
+	"xpos""cs-0.5"
+	"ypos""c-92"
+	"zpos""10"
+	"wide""200"
+	"tall""22"
+	"image""replay/thumbnails/winpanelfade"
+	"scaleimage""1"
 
+	}	
 	"bg"
 	{
 		"ControlName"	"EditablePanel"
@@ -17,7 +29,7 @@
 		"wide"			"220"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"	"30 30 30 200"
+		"bgcolor_override"	"30 30 30 100"
 		}
 		"BlurMainBG"
 	{
@@ -77,7 +89,7 @@
 		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"38"
+		"tall"			"40"
 		"textinsetx"	"3"
 		"visible"		"1"
 		"enabled"		"1"

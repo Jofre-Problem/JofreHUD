@@ -1,0 +1,6 @@
+"UnlitGeneric" {
+	$startzone_mins "[-448 -160 1280]"
+	$startzone_maxs "[-320 64 1504]"
+	$endzone_mins "[13888 3088 -3584]"
+	$endzone_maxs "[15168 4624 -1936]"
+}

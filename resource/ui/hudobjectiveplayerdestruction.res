@@ -65,8 +65,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"cs-1.0-80"
-		"ypos"				"c120"
+		"xpos"				"cs-1.0-150"
+		"ypos"				"c96"
 		"zpos"				"1"
 		"wide"				"50"
 		"tall"				"30"
@@ -89,7 +89,6 @@
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}
-
 		"FlagValue"
 		{
 			"ControlName"	"CExLabel"

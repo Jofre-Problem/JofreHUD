@@ -1,12 +1,39 @@
 
+#base "../../new/ui_overrides/full-timer/file2.res"
 
 #base "ui2/partyslot0.res"
 //#base "_tf2hud/scoreboard.res"
 
 "Resource/UI/Scoreboard.res"
 {
+		"ggrad"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""ggrad"
+	"xpos""cs-0.5"
+	"ypos""rs1-140"
+	"zpos""10"
+	"wide""200"
+	"tall""22"
+	"image""replay/thumbnails/winpanelfade"
+	"scaleimage""1"
 
-
+	}	
+	
+	"Time_hour10"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_hour10"
+		"xpos"					"cs-0.5-37"
+		"ypos"					"rs1-140"
+		"wide"					"10"
+		"tall"					"o2"
+	"drawcolor"				"notowhite"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/timer_hour_v2/hour10"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}
 	"Removeline"
 	{
 			xpos					cs-0.5
@@ -1215,17 +1242,15 @@ if_mvm
 	{
 					"ControlName""CircularProgressBar"
 		"fieldName""killcirbar"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-90"
 		"zpos"			"0"
 		"wide"			"35"
 		"tall"			"34"
 		"variable"		"kills"
-		"fg_image"		"replay/thumbnails/noto_gray2"
-		"bg_image"		"replay/thumbnails/null"
-		"pin_to_sibling"		"KillsLabel"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"fg_image"		"replay/thumbnails/l4d2/pz_charge_meter"
+		"bg_image"		"replay/thumbnails/noto_white"
+		"border"	"steamworkshopborder"
 	}	
 		
 		"Kills"

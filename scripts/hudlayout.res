@@ -5,8 +5,9 @@
 	#base "../../../cfg/jp_damage_indicator.txt"
 	#base "../../../cfg/jp_sniperchar_hudlayout.txt"
 	#base "../../../cfg/jp_tviewmodel.txt"
-#base "../../../cfg/jp_sniperchar.txt"
-
+	#base "../../../cfg/jp_sniperchar.txt"
+//		#base "../resource/ui/ui2/position.res"
+//		#base "../resource/ui/ui2/heighto_left.res"
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 "j"
