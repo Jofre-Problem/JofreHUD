@@ -25,12 +25,12 @@
 		"tall"		"0"
 	}
 
-	"IcoReelIcon"
+	"IcoReelIcon2"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"		"IcoReelIcon"
+		"fieldName"		"IcoReelIcon2"
 		"xpos"			"cs-0.5"
-		"ypos"			"c-145"
+		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"50"
 		"tall"			"50"
