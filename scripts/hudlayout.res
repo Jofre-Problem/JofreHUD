@@ -444,7 +444,7 @@
 	
 	WinPanel
 	{
-		"xpos"		"rs1"
+		"xpos"		"cs-0.5"
 		"ypos"		"r98"
 		"wide"		"220"
 		"tall"		"110"

@@ -297,9 +297,9 @@ Scheme
 			"1"
 			{
 				"name"	"Open Sans Bold"
-				"tall"	"30"
+				"tall"	"32"
 				"antialias"	"1"
-				"dropshadow"	"1"
+				"outline"	"1"
 			}
 		}		
 

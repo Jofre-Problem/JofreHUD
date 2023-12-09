@@ -8,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Agency FB"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias" "1"

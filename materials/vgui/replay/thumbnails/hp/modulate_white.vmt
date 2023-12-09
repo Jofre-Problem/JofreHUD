@@ -1,8 +1,7 @@
 Modulate
 {
 	"$baseTexture" "vgui/replay/thumbnails/white"
-$writez 1 
-$texoffset "[0 0]"
-$texscale 1
-$translucent 1
+    "$vertexalpha" 1
+    "$translucent" 1
+    "$additive" 1
 }

@@ -374,7 +374,7 @@
 				"textinsetx"		"6"
 				"textinsety"		"-2"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"32 32 32 50"
 				"border"		"WhiteHighlightBorderThick"
 			}
 			"chargeamount"

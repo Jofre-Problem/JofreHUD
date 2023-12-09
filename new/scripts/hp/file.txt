@@ -2,7 +2,7 @@ event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 
-	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
+//	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"34 34"			Accel 0.0	0.0
 	//	Animate	OverhealHealthTextBG 	alpha		"34 0"			Accel 0.0	0.0
@@ -18,7 +18,7 @@ event HudHealthBonusPulse
 
 event HudHealthBonusPulseStop
 {
-	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
+	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	bgcolor		"blank"			Accel 0.0	0.0
 	Animate	FixForHP 	alpha		"255"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"34 0"			Accel 0.0	0.0
@@ -36,13 +36,13 @@ event HudHealthDyingPulse
 {
 //	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
 Animate	FixForHP 	xpos		"34"			Accel 0.0	0.0
-	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
+
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.0
 	SetVisible HealthSpectatorBarHurt 1 0.0
 	SetVisible HealthBarLowHealth 1 0.0		
-	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
+
 //	Animate	OverhealHealthTextBG 	Xpos		"34 34"			Accel 0.0	0.0
-//	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
+	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
 	RunEvent TI_Death 0.0
 	
 }
@@ -58,5 +58,5 @@ Animate	FixForHP 	xpos		"0"			Accel 0.0	0.0
 	StopEvent TI_Death 0.0
 	SetVisible HealthBarLowHealth 0 0.0		
 	Animate	OverhealHealthTextBG 	bgcolor		"blank"			Accel 0.0	0.0
-	Animate	image1 	fgcolor		"whattimeisinvert"			Accel 0.0	0.0
+	Animate	image1 	fgcolor		"whattimeis1"			Accel 0.0	0.0
 }

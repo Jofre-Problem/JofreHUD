@@ -1,5 +1,6 @@
-#base "mm_topbar.res"
+#base "../ui2/mm_topbar.res"
 #base "polybar_1.res"
+#base "polyconfig1.res"
 "Resource/UI/MatchMakingDashboard.res"
 {
 	"MMDashboard"
@@ -9,7 +10,7 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"1003"
+		"zpos"					"997"
 		"wide"					"f0"
 		"tall"					"35"
 		"keyboardinputenabled"	"0"
@@ -18,15 +19,14 @@
 		"expanded_height"	"35"
 		"resize_time"		"0.2"
 	}
-
 			"polybar0bg"						{			ControlName				ImagePanel			FieldName				
 			"polybar0bg"
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"				2
 		"wide"			"25"
-		"tall"			"13"
-			fillColor				"29 35 48 255"
+		"tall"			"15"
+			fillColor				"24 24 24 255"
 	}	
 
 
@@ -41,22 +41,16 @@
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"10"
-			"tall"			"13"
-			
-			"fgcolor"		"29 35 48 255"
-"pin_to_sibling"	"polybar0bg"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		}
+			"tall"			"15"
+			"fgcolor"		"24 24 24 255"	}
 
 			"bgg1"						{			ControlName				ImagePanel			FieldName				
 			"bgg1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"//70
-		"tall"			"13"
-			fillColor				"255 108 107 255"		"pin_to_sibling"	"polybar0bg"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"				
+		"tall"			"15"
+			fillColor				"255 108 107 255"			
 	}	
 
 		"slash1"
@@ -70,12 +64,9 @@
 			"ypos"			"0"
 			"zpos"			"18"
 			"wide"			"10"
-			"tall"			"13"
+			"tall"			"15"
 			
-			"fgcolor"		"255 108 107 255"
-"pin_to_sibling"	"bgg1"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
+			"fgcolor"		"255 108 107 255"		
 		}	
 
 
@@ -86,10 +77,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
-		"tall"			"13"
-			fillColor				"81 175 239 255"			"pin_to_sibling"	"bgg1"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
+		"tall"			"15"
+			fillColor				"81 175 239 255"			
 	}	
 
 
@@ -104,12 +93,9 @@
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"10"
-			"tall"			"13"
+			"tall"			"15"
 			
-			"fgcolor"		"81 175 239 255"
-"pin_to_sibling"	"bgg2"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
+			"fgcolor"		"81 175 239 255"	
 		}	
 
 
@@ -120,10 +106,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
-		"tall"			"13"
-			fillColor				"152 190 101 255"			"pin_to_sibling"	"bgg2"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
+		"tall"			"15"
+			fillColor				"152 190 101 255"		
 	}	
 
 
@@ -138,12 +122,9 @@
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"10"
-			"tall"			"13"
+			"tall"			"15"
 			
-			"fgcolor"		"152 190 101 255"
-"pin_to_sibling"	"bgg3"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
+			"fgcolor"		"152 190 101 255"	
 		}	
 
 
@@ -152,10 +133,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
-		"tall"			"13"
-			fillColor				"236 189 123 255"			"pin_to_sibling"	"bgg3"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"			
+		"tall"			"15"
+			fillColor				"236 189 123 255"			
 	}	
 
 
@@ -170,18 +149,10 @@
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"10"
-			"tall"			"13"
+			"tall"			"15"
 			
-			"fgcolor"		"236 189 123 255"
-"pin_to_sibling"	"bgg4"
-					"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
-		}
-
-
-
-
-	
+			"fgcolor"		"236 189 123 255"		
+		}	
 
 
 
@@ -203,10 +174,10 @@
 		"ypos""0"
 		"zpos""5001"
 		"wide""30"
-		"tall""13"
+		"tall""15"
 		"font""NewIcons12"
 		"textAlignment""west"
-		"command""engine showconsole;exec cc_cfg/clear3; status;exec cc_cfg/clear3; version"
+		"command""engine con_enable 1; showconsole;exec cc_cfg/clear3; status;exec cc_cfg/clear3; version"
 		"proportionaltoparent""1"
 		"labeltext""ý"
 		"mouseinputenabled""1"
@@ -219,7 +190,7 @@
 
 		"defaultBgColor_override""Blank"
 
-			defaultFgColor_override		"245 245 245 255"
+			defaultFgColor_override		"notowhite"
 			armedFgColor_override		"black"
 		"paintbackground""0"
 	}
@@ -236,7 +207,7 @@
 		"ypos""0"
 		"zpos""5001"
 		"wide""30"
-		"tall""13"
+		"tall""15"
 		"font""NewIcons12"
 		"textAlignment""west"
 		"command""engine hud_reloadscheme"
@@ -252,10 +223,11 @@
 
 		"defaultBgColor_override""Blank"
 
-			defaultFgColor_override		"245 245 245 255"
+			defaultFgColor_override		"notowhite"
 			armedFgColor_override		"black"
 		"paintbackground""0"
 	}
+
 
 
 
@@ -279,10 +251,6 @@
 			"tall"		"0"
 		
 		}
-
-
-
-
 
 
 
@@ -330,7 +298,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"13"
+			"tall"			"15"
 			//"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -350,11 +318,11 @@
 			"paintbackground"	"0"
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
-			"fgcolor"			"245 245 245 255"
-			"fgcolor_override"	"245 245 245 255"
-			"defaultFgColor_override"	"245 245 245 255"
+			"fgcolor"			"notowhite"
+			"fgcolor_override"	"notowhite"
+			"defaultFgColor_override"	"notowhite"
 			"armedFgColor_override"		"black"
-			"depressedFgColor_override"	"193 175 75 255"
+			"depressedFgColor_override"	"W_ColorTheme4"
 			
 			"border_armed"		"noborder"	
 			"SubImage"
@@ -367,46 +335,45 @@
 		}		
 		"PartySlot0"
 		{
-			"xpos"					"30"
-			"ypos"					"0"
+			"xpos"					"10"
+			"ypos"					"20"
 			"wide"					"0"
 			"tall"					"o1"
-			"scaleimage"	"0"
 		}
 		"PartySlot1"
 		{
-			"xpos"					"28"
+			"xpos"					"0"
 			"ypos"					"0"
-			"wide"					"13"
-			"tall"					"13"
-		//	"pin_to_sibling" "PartySlot0"		"pin_corner_to_sibling"					"PIN_TOPLEFT"		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+			"wide"					"22"
+			"tall"					"o1"
+		
+		"pin_to_sibling" "PartySlot2"		
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
 		"PartySlot2"
 		{
 			"xpos"					"0"
 			"ypos"					"0"
-			"wide"					"13"
-			"tall"					"13"
-			"pin_to_sibling" "PartySlot1"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"wide"					"22"
+			"tall"					"o1"
+			"pin_to_sibling" "PartySlot3"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
 		"PartySlot3"
 		{
-			"xpos"					"0"
+			"xpos"					"cs-0.5+90"
 			"ypos"					"0"
-			"wide"					"13"
-			"tall"					"13"
-			"pin_to_sibling" "PartySlot2"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"wide"					"22"
+			"tall"					"o1"
 		}		
 		"PartySlot4"
 		{
 			"xpos"					"0"
 			"ypos"					"0"
-			"wide"					"13"
-			"tall"					"13"
+			"wide"					"22"
+			"tall"					"o1"
 			"pin_to_sibling" "PartySlot3"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -415,8 +382,8 @@
 		{
 			"xpos"					"0"
 			"ypos"					"0"
-			"wide"					"13"
-			"tall"					"13"
+			"wide"					"22"
+			"tall"					"o1"
 			"pin_to_sibling" "PartySlot4"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -425,7 +392,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"cs-0.5"
+			"xpos"			"150"
 			"ypos"			"-50"
 			"zpos"			"111"
 			"wide"			"220"
@@ -441,7 +408,7 @@
 				"ypos"			"0"
 				"zpos"			"-1"
 				"wide"			"0"
-				"tall"			"f0"
+				"tall"			"0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -456,7 +423,7 @@
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
 				"wide"			"f1"
-				"tall"			"f1"
+				"tall"			"0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -471,7 +438,7 @@
 				"ypos"			"1"
 				"zpos"			"10"
 				"wide"			"o1"
-				"tall"			"f0"
+				"tall"			"0"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -491,37 +458,35 @@
 				"paintbackground"	"0"
 				"paintborder"		"0"				
 			}		
-
+			"Spinner"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""Spinner"
+			"xpos"	"20"
+			"ypos"	"2"
+			"wide""35"
+			"tall""o1"
+			"scaleImage""1"
+			"image""replay/thumbnails/misc/spinner"
+			"fgcolor""TanDark"
+			}	
 			"CTFLogoPanel"
 			{
-				"ControlName"	"CTFLogoPanel"
-				"fieldname"		"CTFLogoPanel"
-				"xpos"			"0"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"o1"
-				"tall"			"f0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"radius"		"10"
-				"velocity"		"100"
-
-				"fgcolor_override"	"TFOrange"
-			}
+				"tall"			"0"
+			}		
 			"QueueText"
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"33"
-				"ypos"			"1"
+				"xpos"			"60"
+				"ypos"			"0"
 				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				//"enabled"		"1"
-				"font"			"Future12"
-				"fgcolor_override"	"245 245 245 255"
+				"font"			"NotoBold16"
+				"fgcolor_override"	"W_ColorIcons1"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -531,15 +496,15 @@
 				{
 					"0"
 					{
-						"font"	"Future14" // TF2 Build 11
+						"font"	"NotoBold16" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"Future12" // TF2 Build 10
+						"font"	"NotoBold16" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"	"Future12" // TF2 Build 9
+						"font"	"NotoBold16" // TF2 Build 9
 					}
 				}
 			}
@@ -548,11 +513,11 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"MultiQueuesManageButton"
-				"xpos"			"rs1-6"
-				"ypos"			"11"
+				"xpos"			"5"
+				"ypos"			"20"
 				"zpos"			"10"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"15"
+				"tall"			"o1"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -585,8 +550,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"1"
-					"wide"			"14" 
-					"tall"			"14"
+					"wide"			"13" 
+					"tall"			"13"
 					"visible"		"1"
 					//"enabled"		"1"
 					"image"			"glyph_options"
@@ -598,11 +563,11 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"rs1-7"
-				"ypos"			"11"
+				"xpos"			"5"
+				"ypos"			"20"
 				"zpos"			"10"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"15"
+				"tall"			"o1"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -635,8 +600,8 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
+					"wide"			"13"
+					"tall"			"13"
 					"visible"		"1"
 					//"enabled"		"1"
 					"image"			"close_button"
@@ -754,9 +719,9 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"13"
+			"tall"			"15"
 			//"autoResize"	"0"
-			"pinCorner"		"0" 
+			"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"	"0"
@@ -776,14 +741,14 @@
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
 
-			"armedBgColor_override"		"Blank"
-			"defaultBgColor_override"	"Blank"
-			"fgcolor"			"245 245 245 255"
-			"fgcolor_override"			"245 245 245 255"
+			"armedBgColor_override"		"black"
+			"defaultBgColor_override"	"black"
+			"fgcolor"			"notowhite"
+			"fgcolor_override"			"notowhite"
 			
-			"defaultFgColor_override" "245 245 245 255"
+			"defaultFgColor_override" "notowhite"
 			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "119 100 192 255"
+			"depressedFgColor_override" "215 215 215 255"
 			"SubImage"
 			{
 				"tall"			"0"
@@ -798,7 +763,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"13"
+			"tall"			"15"
 			//"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -824,12 +789,12 @@
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
-			"fgcolor"			"245 245 245 255"
-			"fgcolor_override"			"245 245 245 255"
+			"fgcolor"			"black"
+			"fgcolor_override"			"black"
 			
-			"defaultFgColor_override" "245 245 245 255"
+			"defaultFgColor_override" "black"
 			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "119 100 192 255"
+			"depressedFgColor_override" "W_ColorTexto1"
 
 
 
@@ -852,7 +817,7 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"20"
-			"tall"			"14"
+			"tall"			"16"
 			//"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -879,8 +844,8 @@
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
-
-			"fgcolor"			"245 245 245 255"
+			"defaultFgColor_override" "notowhite"
+			"fgcolor"			"notowhite"
 			
 			"SubImage"
 			{

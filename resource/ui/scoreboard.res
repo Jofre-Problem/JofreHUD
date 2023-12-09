@@ -1206,15 +1206,15 @@ if_mvm
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"Kills1"
-		"xpos"			"0"
-		"ypos"			"-2"
+		"xpos"			"70"
+		"ypos"			"rs1-2"
 		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"10"[$LINUX]
-		"tall"			"12" [$WINDOWS]
+		"wide"			"70"
+		"tall"			"4"[$LINUX]
+		"tall"			"6" [$WINDOWS]
 		"variable"		"kills"
-		"fgcolor_override"		"Positive"
-		"bgcolor_override"		"0 0 0 0"
+		"fgcolor_override"		"notored"
+		"bgcolor_override"		"gray"
 				if_mvm
 		{
 			"visible"		"0"
@@ -1238,21 +1238,7 @@ if_mvm
 			"visible"		"0"
 		}
 	}	
-	"killcirbar"
-	{
-					"ControlName""CircularProgressBar"
-		"fieldName""killcirbar"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-90"
-		"zpos"			"0"
-		"wide"			"35"
-		"tall"			"34"
-		"variable"		"kills"
-		"fg_image"		"replay/thumbnails/l4d2/pz_charge_meter"
-		"bg_image"		"replay/thumbnails/noto_white"
-		"border"	"steamworkshopborder"
-	}	
-		
+
 		"Kills"
 		{
 			"ControlName"		"CExLabel"

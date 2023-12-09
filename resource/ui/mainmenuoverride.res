@@ -1,8 +1,9 @@
 #base "../../../../cfg/ih_custom.txt"
+#base ../../new/_menu1_old2/mainmenuoverride.res 
 #base "../../../../cfg/jp_mainmenu_spray_frame.txt"
 #base "../../../../cfg/jp_particle_rain.txt"
 //#base "../../../../cfg/jp_mm_layout.txt"
-#base ../../new/_menu1/mainmenuoverride.res 
+//#base ../../new/_menu1/mainmenuoverride.res 
 
 #base "../../../../cfg/jp_mm_bg.txt"
 #base "../../scripts/preload.res"

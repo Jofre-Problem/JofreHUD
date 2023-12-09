@@ -32,24 +32,7 @@
 		"image"			"replay\thumbnails\mm\LogoButtons"
 		"scaleImage"	"1"
 	}		
-		"ViewChangelog"			// other classes pinned to this
-	{
-		ControlName				CExButton
-		fieldName				"ViewChangelog"
-		"xpos"							"40"//"cs-0.5-227-75"
-		"ypos"							"rs1-90"
-		"wide"							"170"
-		"tall"							"30"
-		zpos	"300"
-		labelText				"View Changelog"
-		font					"NotoBold22"
-		textAlignment			center
-		"actionsignallevel"		"2"
-		Command				"url https://github.com/Jofre-Problem/JofreHUD/commits/main"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-	}
+
 	"Browse"			// other classes pinned to this
 	{
 		ControlName				CExButton

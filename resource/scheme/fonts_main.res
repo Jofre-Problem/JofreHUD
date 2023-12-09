@@ -690,7 +690,7 @@ Scheme
 		"NotoBold36"
 		{
 			"1"
-			{"Open Sans Bold"
+			{
 				"name"		"Open Sans Bold"
 				"tall"		"36"
 				
@@ -713,7 +713,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"40"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -723,7 +723,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"42"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -733,7 +733,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"44"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -743,7 +743,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"46"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -753,7 +753,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"48"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -763,7 +763,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"50"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -773,7 +773,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"52"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -783,7 +783,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"54"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -793,7 +793,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"56"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -803,7 +803,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"58"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -813,7 +813,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"60"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}		

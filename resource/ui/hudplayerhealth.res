@@ -148,14 +148,14 @@
 		"ControlName"		"cexlabel"
 		"fieldName"		"image1"
 		"xpos"			"2"
-		"ypos"			"2"
+		"ypos"			"3"
 		"zpos"			"200"
 		"wide"			"30"
 		"tall"			"30"
-		"labeltext"	"L"
+		"labeltext"	"^"
 		"textalignment"	"center"
 		"font"	"NewIcons25"
-		"fgcolor_override"	"whattimeisinvert"
+		"fgcolor_override"	"whattimeis1"
 	}	
 
 	

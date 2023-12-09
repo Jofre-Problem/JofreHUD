@@ -111,7 +111,7 @@
 						"fieldName"				"Nullborder"
 						"xpos"					"0+p0.8"
 						"ypos"					"40"
-						"wide"					"p0.2"
+						"wide"					"p0.1"
 						"tall"					"40"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Null"
@@ -124,7 +124,28 @@
 						"border_armed"			"FLAT_Black_2"
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
-					}		
+					}	
+					"reftactborder"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"reftactborder"
+						"xpos"					"0+p0.9"
+						"ypos"					"40"
+						"wide"					"p0.1"
+						"tall"					"40"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Refract"
+						"font"					"Size 14"
+						"textalignment"			"center"
+"command"				"engine jp_srcescheme_border_clear; con_logfile cfg/jp_sourcescheme_border.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/frame-border/refract.res; con_logfile ."
+
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}							
 					"ScrollbarWide"
 					{
 						"ControlName"	"CExLabel"
