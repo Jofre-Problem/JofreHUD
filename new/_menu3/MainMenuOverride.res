@@ -239,7 +239,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"W_BorderArmed"
+			drawcolor				"primary"
 			scaleImage				1
 		}
 

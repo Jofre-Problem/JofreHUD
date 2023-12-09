@@ -1,6 +1,6 @@
 	#base "../../../cfg/jp_awsd_hudlayout.txt"
 	#base "../new/ui_overrides/close-caption/file.res"
-
+	#base "../../../cfg/jp_speed_style.txt"
 	#base "../../../cfg/jp_id_hudlayout.txt"
 	#base "../../../cfg/jp_damage_indicator.txt"
 	#base "../../../cfg/jp_sniperchar_hudlayout.txt"

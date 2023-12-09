@@ -273,7 +273,7 @@
 			"tall"			"15"
 			"visible"		"1"
 			//"enabled"		"1"
-			"font"			"CustomSegundo"
+			"font"			"regular7"
 			"fgcolor_override"	"Notodark"
 			"textAlignment"	"west"
 			"labelText"		"%name%"

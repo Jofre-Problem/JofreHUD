@@ -319,7 +319,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"CustomSegundo"
+			font					"regular7"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -357,7 +357,7 @@
 		ControlName				EditablePanel
 		FieldName				"MutePlayersButton2"		
 		xPos					"115"//210 - 33
-		yPos					rs1
+		yPos					300
 		zPos					1050
 		wide					125
 		tall					25
@@ -376,7 +376,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"CustomSegundo"
+			font					"regular7"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -429,7 +429,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"CustomSegundo"
+			font					"regular7"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -482,7 +482,7 @@
 		FieldName				"Notifications_ShowButtonPanel"
 		xPos					cs-0.5
 		yPos					50
-		zPos					30
+		zPos					3000
 		"wide"			"p0.065"
 		"tall"			"40"
 		paintBackground			0
@@ -550,7 +550,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"W_BorderArmed"
+			drawcolor				"primary"
 			scaleImage				1
 		}
 

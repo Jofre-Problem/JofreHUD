@@ -4,6 +4,7 @@
 #base "../../new/ui_overrides/full-timer/file2.res"
 #base "statsummary_embedded.res"
 //#base "../../../../cfg/jp_mm_bg.txt"
+#base "../../../../cfg/jp_stat_bg.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -21,12 +22,7 @@
 	{
 		"visible"		"0"
 	}	
-	"MenuColorizer"
-	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"998"
-	}
+
 	"TimePanelBGReal"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -57,7 +53,7 @@
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"999"
+		"zpos"			"1010"
 		"wide"			"f0"
 		"tall"			"f0"
 		"border"	"noborder"
@@ -92,10 +88,16 @@
 			"scaleImage"	"1"
 			"ypos""rs1-36"
 			"wide""f0"
-			"zpos"	"1000"
+			"zpos"	"1002"
 			"tall""2"
 			"image""replay/thumbnails/misc/test2"
 		}		
+	"MenuColorizer"
+	{
+		"zpos"										"1001"
+		"tall"								"f38"
+	
+	}		
 		"BG4"
 			{
 				"ControlName"	"EditablePanel"

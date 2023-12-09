@@ -741,8 +741,8 @@
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
 
-			"armedBgColor_override"		"black"
-			"defaultBgColor_override"	"black"
+			"armedBgColor_override"		"blank"
+			"defaultBgColor_override"	"blank"
 			"fgcolor"			"notowhite"
 			"fgcolor_override"			"notowhite"
 			
@@ -789,12 +789,12 @@
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
-			"fgcolor"			"black"
-			"fgcolor_override"			"black"
+			"fgcolor"			"notowhite"
+			"fgcolor_override"			"notowhite"
 			
-			"defaultFgColor_override" "black"
+			"defaultFgColor_override" "notowhite"
 			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "W_ColorTexto1"
+			"depressedFgColor_override" "notowhite"
 
 
 

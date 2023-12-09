@@ -1,56 +1,17 @@
-//#base "../../../cfg/jp_steam_border.txt"
+#base "../../../cfg/jp_steam_border.txt"
 #base "../../new/ui_overrides/full-timer/file2.res"
-//#base "ui2/tank_gif.res"
+#base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
 //#base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
-	
-		"ggrad"
-	{
-	"ControlName""ImagePanel"
-	"fieldName""ggrad"
-	"xpos""cs-0.5"
-	"ypos""c-92"
-	"zpos""10"
-	"wide""200"
-	"tall""22"
-	"image""replay/thumbnails/winpanelfade"
-	"scaleimage""1"
-
-	}	
-	"bg"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"bg"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"220"
-		"tall"			"f0"
-		"visible"		"1"
-		"bgcolor_override"	"30 30 30 0"
-		}
-		"BlurMainBG"
-	{
-	"ControlName""ImagePanel"
-	"fieldName""BlurMainBG"
-	"xpos""0"
-	"ypos""0"
-	"zpos""-10"
-	"wide""f0"
-	"tall""f0"
-	"image""replay/thumbnails/hp/REFRACTblur"
-	"scaleimage""1"
-
-	}		
-	//	"SummerBorder"
-	//	{ 
-	//	"xpos""cs-0.5"
-	//	"ypos""45"
+	"SummerBorder"
+		{ 
+		"xpos""cs-0.5"
+		"ypos""45"
 			//"pin_to_sibling"	"PartySlot0"
 				//cant pin
-	//	}	
+		}	
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -61,9 +22,29 @@
 			}		
 	"Removeline"
 	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+			xpos					cs-0.5
+			ypos					50
+			zpos					100
+			wide					42
+			tall					41
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
 
-	}	
-	
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					42
+			tall					o1
+
+			party_slot				0
+		}	
+	}		
 	"info"
 	{
 		"ControlName"			"Frame"
@@ -73,10 +54,10 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"			"0"
-		//"pinCorner"				"0"
+		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		//			"0"
+		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"ForceStereoRenderToFrameBuffer" "1"
 	}
@@ -85,21 +66,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"30"
-		"textinsetx"	"3"
+		"xpos"			"c-150"
+		"ypos"			"r326"
+		"zpos"			"3"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Welcome"
 		"textAlignment"	"center"
-		////	"0"
-		////	"0"
-		"font"			"NotoBold32"
-		"fgcolor"		"notowhite"
-		"bgcolor_override"	"Notoblack"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Noto14"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"TextMessage"
@@ -114,35 +95,35 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Noto18"
-		"xpos"			"5"
-		"ypos"			"50"
-		"zpos"			"1"
-		"wide"			"212"
-		"tall"			"380"
+		"font"			"Noto9"
+		"xpos"			"c-147"
+		"ypos"			"r295"
+		"zpos"			"3"
+		"wide"			"598"		
+		"tall"			"108"
 		"autoResize"	"3"
-		//		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
-		"fgcolor"		"NotoWhite"
+		"textAlignment"	"center"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"HTMLMessage"
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"rs1"
-		"ypos"			"rs1"
+		"xpos"			"c-167"
+		"ypos"			"r345"
 		"zpos"			"3"
 		"wide"			"337"		
 		"tall"			"170"
 		"autoResize"	"1"
-		//		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		"tabPosition"		"0"
 		"paintborder"	"0"
 	}
 	"Key1"
@@ -154,34 +135,40 @@
 	{
 		"ControlName"		"CTFButton"
 		"fieldName"		"ok"
-		"fieldName"		"ok"
-		"xpos"			"0"
-		"ypos"			"rs1"
+		"xpos"			"c-150"
+		"ypos"			"r176"
 		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"30"
-		"paintBackground" "1"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
 		"labelText"		"#CContinue"
 		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"NotoBold32"
+		"border_default"		""
+		"border_armed"		""
 		"paintbackground"	"0"
-		
-		"fgcolor"					"NotoWhite"
-		"defaultFgColor_override" 	"NotoWhite"
-		"armedFgColor_override"		"NotoGreenSolid"
-		"depressedFgColor_override" "NotoGreenSolid"
-		"selectedFgColor_override" 	"NotoGreenSolid"
+		"font"			"Noto14"
+		"fgcolor"		"255 255 255 255"
+		"armedFgColor_override" "primary"
+		"defaultFgColor_override" "255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
 	}
 	
 	"ShadedBar"
 	{
-		"visible"		"0"
+		"wide"		"0"
 	}	
 	"MenuBG"
 	{
-		"visible"		"0"
+		"wide"		"0"
 	}
 	"MessageTitle"
 	{
