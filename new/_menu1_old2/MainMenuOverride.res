@@ -319,7 +319,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"regular7"
+			font					"newicons20"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -357,7 +357,7 @@
 		ControlName				EditablePanel
 		FieldName				"MutePlayersButton2"		
 		xPos					"115"//210 - 33
-		yPos					300
+		yPos					0
 		zPos					1050
 		wide					125
 		tall					25
@@ -376,7 +376,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"regular7"
+			font					"newicons20"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -409,8 +409,8 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"ReportPlayerButton2"		
-		xPos					"rs1-115"//210 - 33
-		yPos					rs1
+		xPos					"0"//210 - 33
+		yPos					0
 		zPos					1050
 		wide					125
 		tall					25
@@ -429,7 +429,7 @@
 			tall					25
 			proportionaltoparent		1
 
-			font					"regular7"
+			font					"newicons20"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"

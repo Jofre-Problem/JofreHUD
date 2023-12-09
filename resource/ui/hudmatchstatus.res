@@ -289,7 +289,6 @@
 				"tall"			"6"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"black"
 			}
 			"classimage"
 			{

@@ -5,6 +5,20 @@
 //#base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
+	"Time_hour10"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_hour10"
+		"xpos"					"cs-0.5-37"
+		"ypos"					"20"
+		"wide"					"10"
+		"tall"					"o2"
+	"drawcolor"				"notowhite"
+		"enabled"				"1"
+		"image"					"replay/thumbnails/timer_hour_v2/hour10"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}	
 	"SummerBorder"
 		{ 
 		"xpos""cs-0.5"
