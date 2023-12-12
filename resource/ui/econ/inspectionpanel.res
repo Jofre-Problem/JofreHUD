@@ -1,18 +1,7 @@
-
+#base "../../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/TradingPanel.res"
 {
-	"bg"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"bg"
-		"ypos"					"0"
-	"fillcolor"				"16 16 16 255"
-		"enabled"				"1"
-		"scaleimage"			"1"
-		"wide"	"f0"
-		"tall"	"f0"
-		"zpos"					"-1000"
-	}	
+
 
 	"ItemName"
 	{		

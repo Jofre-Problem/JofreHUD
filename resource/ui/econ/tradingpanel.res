@@ -1,4 +1,5 @@
 #base "../../ui2/lead_bg.res"
+#base "../../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/TradingPanel.res"
 {
 	"MMBackgroundPanel"

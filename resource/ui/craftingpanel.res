@@ -1,3 +1,4 @@
+#base "../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/CraftingPanel.res"
 {
 	"crafting_panel"
@@ -139,7 +140,7 @@
 		"wide"			"300"
 		"tall"			"350"
 		//
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"0 0 0 100"
 
 		"RecipeTitle"
 		{

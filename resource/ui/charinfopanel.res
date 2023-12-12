@@ -3,28 +3,69 @@
 
 "Resource/UI/CharInfoPanel.res"
 {
-	"SHORTCUTLABEL"
+			"bgg4"						{			ControlName				ImagePanel			FieldName				
+			"bgg4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"120"
+		"tall"			"15"
+			fillColor				"Primary"			
+	}	
+
+
+		"slash4"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"slash4"
+			"font"			"NewIcons20"
+			"labelText"		"É"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"-1"					//"c-60"//			"180"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"30"
+			"tall"			"15"
+			
+			"fgcolor"		"Primary"		"pin_to_sibling"	"bgg4"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}
+	"icon"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"SHORTCUTLABEL"
-		"font"		"NotoBold16"
-		"labelText"		"(Q) Back"
-		"textAlignment"	"west"
-		"xpos"		"130"
-		"ypos"		"2"
-		"zpos"		"6990"
-		"wide"		"65"
-		"tall"		"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"NotoGray"
-	}	
+		"fieldName"		"icon"
+		"font"			"NewIcons15"
+		"labelText"		"R"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"15"
+		"fgcolor_override"	"notoblack"
+	}		
+		"Slider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"Slider"
+		"xpos"		"20"
+		"ypos"		"3" //18
+		"wide"		"100"
+		"tall"		"13"
+		"zpos"		"5001"
+		"leftText"		""
+		"rightText"		""
+		"minvalue"		"0"
+		"maxvalue"		"6"
+		"font"	"blank"
+		"cvar_name"		"mat_color_projection"
+	}
 	"TimePanelBGReal"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBGReal"
-		"xpos"			"5"
-		"ypos"			"3"
+		"xpos"			"-2"
+		"ypos"			"-4"
 		"zpos"			"7000"
 		"wide"			"22"
 		"tall"			"o1"
@@ -32,13 +73,14 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/l4d2/survivaltimerclock"	
 		"scaleImage"		"1"	
+		"pin_to_sibling"	"lostjudgmentbgtimer"
 	}	
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
-		"xpos"					"35"
-		"ypos"					"5"
+		"xpos"					"cs-0.5-38+13"
+		"ypos"					"36"
 	"drawcolor"				"notowhite"
 		"enabled"				"1"
 		"scaleimage"			"1"
@@ -56,6 +98,19 @@
 		"tall"	"f0"
 		"zpos"					"-1000"
 	}	
+	"lostjudgmentbgtimer"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"lostjudgmentbgtimer"
+		"xpos"	"cs-0.5"
+		"ypos"					"30"
+	"fillcolor"				"16 16 16 200"
+		"enabled"				"1"
+		"scaleimage"			"1"
+		"wide"	"120"
+		"tall"	"29"
+		"zpos"					"1"
+	}		
 	"character_info"		// drawn over main menu
 	{
 		ControlName				EditablePanel
@@ -122,7 +177,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"Back"
+		"labelText"									""
 		"font"										"NotoBold24"
 		"textAlignment"								"center"
 		"default"									"0"
@@ -136,6 +191,7 @@
 
 		"armedFgColor_override"						"notogray"
 		"defaultFgColor_override"					"blank"
+		"alpha"	"200"
 	}
 
 	"BackShortKey"

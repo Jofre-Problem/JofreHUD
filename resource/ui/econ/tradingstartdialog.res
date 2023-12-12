@@ -1,3 +1,4 @@
+#base "../../../../../cfg/jp_mm_bg.txt"
 "Resource/UI/TradingStartDialog.res"
 {
 	"TradingStartDialog"

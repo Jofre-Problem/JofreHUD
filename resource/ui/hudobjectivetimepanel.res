@@ -30,11 +30,11 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_Overtime"
+		"labelText"		"Ù"
 		"textAlignment"		"center"
 		
-		"font"			"Regular12"
-		"fgcolor_override"		"White"
+		"font"			"NewIcons15"
+		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
 
@@ -49,11 +49,11 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_SuddenDeath"
+		"labelText"		"2"
 		"textAlignment"		"center"
 		
-		"font"			"Regular12"
-		"fgcolor_override"		"White"
+		"font"			"NewIcons15"
+		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
 
@@ -65,14 +65,14 @@
 		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"12"
+		"tall"			"15"
 		"visible"		"0" 
 		"enabled"		"1"
-		"labelText"		"#game_Setup"
+		"labelText"		"Ñ"
 		"textAlignment"		"center"
 		
-		"font"			"Regular12"
-		"fgcolor_override"		"White"
+		"font"			"NewIcons15"
+		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
 
