@@ -10,8 +10,8 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
-		defaultFgColor_override		"notowhite"
-		armedFgColor_override		"black"
+		defaultFgColor_override		"black"
+		armedFgColor_override		"notowhite"
 		"depressedFgColor_override" "W_CerrarArmed"
 		"selectedFgColor_override"	"W_CerrarArmed"
 		sound_depressed			"sound_menu/button.wav"
@@ -30,10 +30,10 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine showstatsdlg"
-		defaultFgColor_override		"notowhite"
-		armedFgColor_override		"black"
+		defaultFgColor_override		"black"
+		armedFgColor_override		"notowhite"
 		"selectedFgColor_override"	"W_CerrarArmed"
-		"depressedFgColor_override" "W_ColorIcons1"
+		"depressedFgColor_override" "NotoWhite"
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -51,10 +51,10 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"OpenLoadSingleplayerCommentaryDialog"
-		defaultFgColor_override		"notowhite"
-		armedFgColor_override		"black"
+		defaultFgColor_override		"black"
+		armedFgColor_override		"notowhite"
 		
-		"depressedFgColor_override" "W_ColorIcons1"
+		"depressedFgColor_override" "NotoWhite"
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -171,7 +171,7 @@
 	}
 
 //	"NotificationNoYet"
-//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "W_ColorIcons1"
+//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "NotoWhite"
 //	}
 	"Background"
 	{
@@ -325,8 +325,8 @@
 			sound_depressed			"UI/buttonclick.wav"
 			sound_released			"UI/buttonclickrelease.wav"
 							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		defaultFgColor_override		"NotoWhite"
+		armedFgColor_override		"Primary"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -382,8 +382,8 @@
 			sound_depressed			"UI/buttonclick.wav"
 			sound_released			"UI/buttonclickrelease.wav"
 							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		defaultFgColor_override		"NotoWhite"
+		armedFgColor_override		"Primary"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -435,8 +435,8 @@
 			sound_depressed			"UI/buttonclick.wav"
 			sound_released			"UI/buttonclickrelease.wav"
 							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"W_ColorTheme1"
+		defaultFgColor_override		"NotoWhite"
+		armedFgColor_override		"Primary"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -519,7 +519,7 @@
 			
 			paintbackground			0
 			
-			image_drawcolor				"W_ColorIcons1"			// scheme colors don't work
+			image_drawcolor				"NotoWhite"			// scheme colors don't work
 			image_armedcolor			"W_CerrarArmed"
 			
 			"SubImage"
@@ -533,7 +533,7 @@
 				proportionaltoparent		1
 				image					"replay/thumbnails/mainmenu/notification_bell"
 				scaleImage				1
-				"drawcolor_override"				"W_ColorIcons1"
+				"drawcolor_override"				"NotoWhite"
 			}				
 		}
 
@@ -572,7 +572,7 @@
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"W_ColorTheme1"
+			fgcolor_override			"Primary"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"
@@ -612,7 +612,7 @@
 			"tabPosition"		"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"				"W_ColorTheme2"	//"W_ColorTheme2"
+			"bgcolor_override"				"0 0  0 100"	//"0 0  0 100"
 		}		
 		"Notifications_CloseButton"
 		{
@@ -635,10 +635,10 @@
 			sound_depressed			"sound_menu/button.wav"
 			sound_released			"sound_menu/button2.wav"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-			defaultBgColor_override		"W_ColorTheme1"
+			defaultFgColor_override		"NotoWhite"
+			defaultBgColor_override		"Primary"
 			armedBgColor_override		"W_CerrarArmed"
-			armedFgColor_override		"W_ColorTheme1"
+			armedFgColor_override		"Primary"
 
 			paintBackground			1
 		}		
@@ -659,7 +659,7 @@
 			textAlignment			west
 			wrap					0
 			textInsetY				2
-			fgcolor_override		"W_ColorIcons1"
+			fgcolor_override		"NotoWhite"
 			
 			paintBackground			0
 		}
@@ -674,7 +674,7 @@
 			tall					f25
 			proportionalToParent		1
 
-			fgcolor_override			"W_ColorIcons1"
+			fgcolor_override			"NotoWhite"
 			
 			"Notifications_Control"		// width harcoded as parent - scrollbar
 			{
@@ -707,7 +707,7 @@
 		wide					40
 		tall					o1	
 		font					"NewIcons20"
-		fgcolor_override			"W_ColorIcons1"
+		fgcolor_override			"NotoWhite"
 		labelText				","
 		textAlignment			west
 	}
@@ -831,8 +831,8 @@
 			"brighttext"	"0"
 			"default"		"1"
 			
-		defaultFgColor_override		"notowhite"
-		armedFgColor_override		"black"
+		defaultFgColor_override		"black"
+		armedFgColor_override		"notowhite"
 		
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
@@ -853,10 +853,23 @@
 	{
 		wide					0
 	}					
+
 	"RankPanel"
 	{
-		wide 0
-	}				
+		"ControlName"		"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"zpos"		"-52"
+		"wide"		"f0"
+		"tall"		"f0"
+		"visible"		"0"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"		"0"
+
+		"matchgroup"		"MatchGroup_Casual_12v12"
+
+		"show_model"		"0"
+		"show_type"		"1"
+	}		
 	"MainMenuOverride"
 	{	}
 	"Warning"{			"visible"			"0"	}		
@@ -1685,10 +1698,6 @@
 	"NewUserForumsButton"
 	{
 "visible"			"0"
-	}					
-	"RankPanel"
-	{
-		"xpos" "r0"
-		"visible"			"0"
-	}				
+	}	
+							
 }

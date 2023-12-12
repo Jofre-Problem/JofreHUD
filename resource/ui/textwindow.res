@@ -2,9 +2,34 @@
 #base "../../new/ui_overrides/full-timer/file2.res"
 #base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
+#base "../../../cfg/jp_mainmenu_spray_frame.txt"
 //#base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
+		"MOTD_Panel"	{	
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1010"
+		"wide"			"f0"
+		"tall"			"f0"
+		"border"	"noborder"
+		"labeltext"	"0"
+		"bgcolor_override"	"blank"
+		"mouseInputEnabled"	"0"
+							"LogoImage"
+					{
+					"ControlName""ImagePanel"
+					"fieldName""LogoImage"
+					"xpos""rs1"
+					"ypos""rs1-36"
+					"wide""280"
+					"tall""o1"
+
+					//"image""replay/thumbnails/spray"
+					"scaleImage""1"
+					}		}		
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"

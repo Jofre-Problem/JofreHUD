@@ -222,13 +222,14 @@
 				"xpos"								"rs1+1"
 				"ypos"								"0"
 				"tall"								"f0"
-				"wide"								"4"
+				"wide"								"10"
 				"zpos"								"1000"
 				"nobuttons"							"1"
 				"proportionaltoparent"				"1"
 
 				"Slider"
 				{
+					"bgcolor_override"		"blank"
 					"fgcolor_override"				"White"
 				}
 		

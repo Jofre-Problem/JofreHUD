@@ -296,10 +296,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Open Sans Bold"
-				"tall"	"32"
+				"name"	"OpenSans-Captions"
+				"tall"	"50"
 				"antialias"	"1"
-				"outline"	"1"
+				"outline"	"0"
+				"dropshadow"	"1"
+				"range"	"0x0000 0x017F"
 			}
 		}		
 

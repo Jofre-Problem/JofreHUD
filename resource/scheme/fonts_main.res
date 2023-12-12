@@ -1109,6 +1109,12 @@ Scheme
 			"font" "fonts/optimized/OpenSans-Bold.ttf"
 			"name" "Open Sans Bold"
 		}
+		"Captions Font"
+		{
+			"font" "fonts/OpenSans-Caption.otf"
+			"name" "OpenSans-Captions"
+			
+		}		
 		"96"
 		{
 			"font" "fonts/FutureRotfix.otf"

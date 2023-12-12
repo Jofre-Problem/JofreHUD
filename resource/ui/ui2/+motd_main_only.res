@@ -17,6 +17,8 @@
 		"border"	"noborder"
 		"bgcolor_override"	"7 27 27 0"
 		"fillcolor"	"7 27 27 0"
+
+
 				"ControlName"			"EditablePanel"
 
 		"SideBar1"

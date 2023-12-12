@@ -1,39 +1,11 @@
 
-#base "../../new/ui_overrides/full-timer/file2.res"
-
+//#base "../../new/ui_overrides/full-timer/file2.res"
+#base "../../../cfg/jp_steam_border.txt"
 #base "ui2/partyslot0.res"
 //#base "_tf2hud/scoreboard.res"
 
 "Resource/UI/Scoreboard.res"
 {
-		"ggrad"
-	{
-	"ControlName""ImagePanel"
-	"fieldName""ggrad"
-	"xpos""cs-0.5"
-	"ypos""rs1-140"
-	"zpos""10"
-	"wide""200"
-	"tall""22"
-	"image""replay/thumbnails/winpanelfade"
-	"scaleimage""1"
-
-	}	
-	
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"cs-0.5-37"
-		"ypos"					"rs1-140"
-		"wide"					"10"
-		"tall"					"o2"
-	"drawcolor"				"notowhite"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/timer_hour_v2/hour10"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-	}
 	"Removeline"
 	{
 			xpos					cs-0.5
@@ -1202,42 +1174,7 @@ if_mvm
 			"enabled"			"1"
 			"fgcolor"			"notowhite"
 		}
-	"Kills1"
-	{
-		"ControlName"		"ContinuousProgressBar"
-		"fieldName"		"Kills1"
-		"xpos"			"70"
-		"ypos"			"rs1-2"
-		"zpos"			"10"
-		"wide"			"70"
-		"tall"			"4"[$LINUX]
-		"tall"			"6" [$WINDOWS]
-		"variable"		"kills"
-		"fgcolor_override"		"notored"
-		"bgcolor_override"		"gray"
-				if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"death1"
-	{
-		"ControlName"		"ContinuousProgressBar"
-		"fieldName"		"death1"
-		"xpos"			"0"
-		"ypos"			"-2"
-		"zpos"			"9"
-		"wide"			"f0"
-		"tall"			"10"[$LINUX]
-		"tall"			"12" [$WINDOWS]
-		"variable"		"deaths"
-		"fgcolor_override"		"Negative"
-		"bgcolor_override"		"0 0 0 0"
-			if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
+
 
 		"Kills"
 		{

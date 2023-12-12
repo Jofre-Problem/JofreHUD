@@ -190,8 +190,8 @@
 
 		"defaultBgColor_override""Blank"
 
-			defaultFgColor_override		"notowhite"
-			armedFgColor_override		"black"
+			defaultFgColor_override		"black"
+			armedFgColor_override		"notowhite"
 		"paintbackground""0"
 	}
 
@@ -223,8 +223,8 @@
 
 		"defaultBgColor_override""Blank"
 
-			defaultFgColor_override		"notowhite"
-			armedFgColor_override		"black"
+			defaultFgColor_override		"black"
+			armedFgColor_override		"notowhite"
 		"paintbackground""0"
 	}
 
@@ -844,8 +844,8 @@
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
-			"defaultFgColor_override" "notowhite"
-			"fgcolor"			"notowhite"
+			"defaultFgColor_override" "black"
+			"fgcolor"			"black"
 			
 			"SubImage"
 			{

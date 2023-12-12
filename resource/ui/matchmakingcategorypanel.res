@@ -5,7 +5,7 @@
 		"fieldName"				"MatchmakingCategoryPanel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"f0"
+		"wide"					"p0.99"
 		"tall"					"50"
 		"proportionaltoparent"	"1"
 
