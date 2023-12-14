@@ -188,6 +188,9 @@ SetVisible respawntime	1 0
 Animate DeathPanel ypos 0 Accel 0 0.2
 Animate SkullPanel ypos 0 Accel 0 0.2
 Animate respawntime ypos 0 Accel 0 0.2
+
+RunEvent	TStatus_Snd_Dead 0.0
+
 }
 
 event TeamStatus_PlayerAlive
@@ -199,6 +202,9 @@ event TeamStatus_PlayerAlive
 	SetVisible DeathPanel	0 0.2
 	SetVisible SkullPanel	0 0.2
 	SetVisible respawntime 0 0.2
+
+	RunEvent	TStatus_Snd_Vivo 0.0
+
 }
 event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 {
@@ -207,6 +213,7 @@ event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 
 event SurveyShowSequence
 {
+	FireCommand 0.05 "delete"
 	RunEventChild Survey SurveyDelete 0.6
 	RunEvent	SurveyDelete 0.0
 }

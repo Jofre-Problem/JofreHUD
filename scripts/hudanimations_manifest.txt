@@ -1,6 +1,8 @@
 hudanimations_manifest
 {
 	"file"		"new/scripts/hudanimations_null.txt"
+	"file"		"../../cfg/jp_snd_dead.txt"	
+	"file"		"../../cfg/jp_snd_vivo.txt"	
 	"file"		"../../cfg/jp_ex_scope.txt"	
 	"file"		"../../cfg/jp_id_anim_bonus.txt"
 	"file"		"../../cfg/jp_id_anim_death.txt"

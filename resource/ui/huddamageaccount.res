@@ -36,6 +36,12 @@
 		
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
+
+				"DamageAccountLabel_minmode"
+				{
+
+					"xpos"			"0"
+				}	
 	}	
 	"DamageAccountLabel2"
 	{
