@@ -357,17 +357,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"30"
-				"antialias"	"1"
-				"dropshadow"	"1"
-			}
-		}
-
 		// this is the symbol font
 		"Marlett"
 		{

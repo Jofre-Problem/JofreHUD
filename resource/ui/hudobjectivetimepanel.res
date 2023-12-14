@@ -27,7 +27,7 @@
 		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"12"
+		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"Ù"

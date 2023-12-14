@@ -435,16 +435,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"	"Open Sans"
-				"tall"	"30"
-				"antialias"	"1"
-				//	"1"
-			}
-		}
 
 		// this is the symbol font
 		"Marlett"

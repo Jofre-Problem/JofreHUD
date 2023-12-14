@@ -340,80 +340,7 @@
 			"visible"	"1"
 			"image"	"../hud/leaderboard_class_heavy.vmt"
 		}			
-		"radialz"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/z/z"
-		}
-		"radialz1"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/z/z1"
-		}
-		"radialz2"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/z/z2"
-		}
-		"radialz3"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/z/z3"
-		}
-
-		"radialx"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/x/x"
-		}
-		"radialx1"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/x/x1"
-		}
-		"radialx2"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/x/x2"
-		}
-		"radialx3"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/x/x3"
-		}
-
-		"radialc"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/c/c"
-		}
-		"radialc1"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/c/c1"
-		}
-		"radialc2"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/c/c2"
-		}
-		"radialc3"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"crosshairs/../replay/thumbnails/c/c3"
-		}
+	
 		"skybox_upward"
 		{
 			"ControlName"	"ImagePanel"
@@ -432,42 +359,7 @@
 			"visible"	"1"
 			"image"	"../skybox/sky_upwardbk.vmt"
 		}		
-		"crosshair1"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"crosshair1"
-			
-			"visible"			"1"
-			
-			"image"				"crosshairs/../replay/thumbnails/w"
-		}	
-		"crosshair2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"crosshair2"
-			
-			"visible"			"1"
-			
-			"image"				"crosshairs/../replay/thumbnails/s"
-		}	
-		"crosshair3"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"crosshair3"
-			
-			"visible"			"1"
-			
-			"image"				"crosshairs/../replay/thumbnails/a"
-		}	
-		"crosshair4"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"crosshair4"
-			
-			"visible"			"1"
-			
-			"image"				"crosshairs/../replay/thumbnails/d"
-		}				
+
 		"icon_obj_1_blu"
 		{
 			"ControlName"		"ImagePanel"

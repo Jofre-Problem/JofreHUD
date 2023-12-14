@@ -28,7 +28,7 @@
 		"visible"		  	         				"1"
 		"enabled"	  		         				"1"
 		"proportionaltoparent"						"1"
-		"labelText" 		         				"%Health%"
+	//	"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
 		"font"                   				 	"HudFontBiggerBold"
 		"fgcolor"	    	         				"White"

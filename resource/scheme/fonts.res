@@ -301,7 +301,6 @@ Scheme
 				"antialias"	"1"
 				"outline"	"0"
 				"dropshadow"	"1"
-				"range"	"0x0000 0x017F"
 			}
 		}		
 

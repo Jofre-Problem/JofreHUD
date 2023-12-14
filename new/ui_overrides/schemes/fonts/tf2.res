@@ -857,17 +857,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Tahoma"
-				"tall"		"24"
-				//"tall_lodef"	"32"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
 		"CloseCaption_Italic"
 		{
 			"1"

@@ -185,8 +185,8 @@
 		"actionsignallevel""2"
 		"RoundedCorners""0"
 		"pin_to_sibling"		"bgg3"
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/button.wav"
+				"sound_released"	"ui/button2.wav"
 
 		"defaultBgColor_override""Blank"
 
@@ -218,8 +218,8 @@
 		"actionsignallevel""2"
 		"RoundedCorners""0"
 		"pin_to_sibling"		"bgg4"
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/button.wav"
+				"sound_released"	"ui/button2.wav"
 
 		"defaultBgColor_override""Blank"
 
@@ -316,8 +316,8 @@
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
 			"paintbackground"	"0"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/button.wav"
+			"sound_released"	"ui/button2.wav"
 			"fgcolor"			"notowhite"
 			"fgcolor_override"	"notowhite"
 			"defaultFgColor_override"	"notowhite"
@@ -529,8 +529,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/button.wav"
+				"sound_released"	"ui/button2.wav"
 				"Command"		"manage_queues"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
@@ -579,8 +579,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/button.wav"
+				"sound_released"	"ui/button2.wav"
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
@@ -706,8 +706,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/button.wav"
+				"sound_released"	"ui/button2.wav"
 			}
 		}
 
@@ -738,8 +738,8 @@
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
 
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/button.wav"
+			"sound_released"	"ui/button2.wav"
 
 			"armedBgColor_override"		"blank"
 			"defaultBgColor_override"	"blank"
@@ -784,8 +784,8 @@
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/button.wav"
+			"sound_released"	"ui/button2.wav"
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
@@ -839,8 +839,8 @@
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/button.wav"
+			"sound_released"	"ui/button2.wav"
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"

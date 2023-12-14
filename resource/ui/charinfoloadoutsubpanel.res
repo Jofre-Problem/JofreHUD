@@ -731,8 +731,8 @@
 
 		Command				"backpack"
 		
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/button.wav"
+		"sound_released"	"ui/button2.wav"
 		paintbackground			1
 		"border_default"			"notograyborder"
 		"border_armed"					"L4d2new2"			
@@ -761,8 +761,8 @@
 
 		Command				"crafting"
 		
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/button.wav"
+		"sound_released"	"ui/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
 		armedFgColor_override		"NotoGRAY"
@@ -791,8 +791,8 @@
 		
 		Command				"armory"
 		
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/button.wav"
+		"sound_released"	"ui/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
 		armedFgColor_override		"NotoGRAY"
@@ -817,8 +817,8 @@
 
 		Command				"trading"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/button.wav"
+		"sound_released"	"ui/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
 		armedFgColor_override		"NotoGRAY"
@@ -842,8 +842,8 @@
 
 		Command				"paintkit_preview"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/button.wav"
+		"sound_released"	"ui/button2.wav"
 				
 			defaultFgColor_override		"notowhite"
 		armedFgColor_override		"NotoGRAY"
