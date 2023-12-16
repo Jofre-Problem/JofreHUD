@@ -31,7 +31,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"notowhite"
+		"fgcolor_override"		"notowhite"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"2"

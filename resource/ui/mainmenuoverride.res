@@ -17,7 +17,16 @@
 #base "_tf2hud/mainmenuoverride.res"
 "j"
 {
-	
+	"ChallengeEarnedMedal" //big image on the left when you've selected a challenge mode from the drop down tab
+	{
+		"ControlName"	"CBitmapImagePanel"
+		"fieldName"		"ChallengeEarnedMedal"
+		"ypos"			"r0"
+		"wide"			"64"
+		"tall"			"64"
+		"visible"		"1"
+		"image"			"replay/thumbnails/Ergoe_72"
+	}	
 	"MainMenuOverride"
 	{	}
 	"MenuColorizer"	//always on

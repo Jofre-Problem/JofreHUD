@@ -587,112 +587,86 @@
 	}
 	"Notifications_Panel"
 	{
-		ControlName				EditablePanel
-		FieldName				"Notifications_Panel"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Notifications_Panel"
 		xPos					rs1-5
 		yPos					35
-		zPos					300
-		wide					210
-		tall					80
-		visible				0
-		border			"noborder"
-		"Windows_Notification"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"Windows_Notification"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"-10"
-			"wide"		"210"
-			"tall"		"80"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			//"enabled"		"1"
-			"tabPosition"		"0"
-			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"bgcolor_override"				"0 0  0 100"	//"0 0  0 100"
-		}		
+		"zpos"		"10"
+		"wide"		"210"
+		"tall"		"80"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"		"0"
+		"border"		"steamworkshopborder"
+
 		"Notifications_CloseButton"
 		{
-			ControlName				CExButton
-			FieldName				"Notifications_CloseButton"
-			xPos					rs1
-			yPos					3
-			zPos					10
-			wide					16
-			tall					10
-			proportionalToParent		1
+			"ControlName"		"CExImageButton"
+			"fieldName"		"Notifications_CloseButton"
+			"xpos"		"181"
+			"ypos"		"5"
+			"zpos"		"1000"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"labeltext"		"x"
+			"font"		"newicons20"
+			"textAlignment"		"center"
+			"actionsignallevel"		"2"
 
-			font					"Default"
-			labeltext				"x"
-			textAlignment			center
-			actionsignallevel			2
+			"Command"		"noti_hide"
 
-			Command				"noti_hide"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
 
-			sound_depressed			"ui/button.wav"
-			sound_released			"ui/button2.wav"
-		
-			defaultFgColor_override		"NotoWhite"
-			defaultBgColor_override		"Primary"
-			armedBgColor_override		"W_CerrarArmed"
-			armedFgColor_override		"Primary"
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"Red"
 
-			paintBackground			1
-		}		
-	
+					"SubImage"
+				{
+
+					"visible"		"0"
+				}
+		}
+
 		"Notifications_TitleLabel"
 		{
-			ControlName				CExLabel
-			FieldName				"Notifications_TitleLabel"
-			xPos					8
-			yPos					3
-			"zpos"					"100"
-			wide					f30
-			tall					10
-			proportionalToParent		1
-
-			font					"Default"
-			labelText				"%notititle%"
-			textAlignment			west
-			wrap					0
-			textInsetY				2
-			fgcolor_override		"NotoWhite"
-			
-			paintBackground			0
+			"ControlName"		"CExLabel"
+			"fieldName"		"Notifications_TitleLabel"
+			"font"		"Size 14"
+			"labelText"		"%notititle%"
+			"textAlignment"		"north-west"
+			"xpos"		"12"
+			"ypos"		"8"
+			"wide"		"250"
+			"tall"		"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"wrap"		"1"
 		}
 
 		"Notifications_Scroller"
 		{
-			ControlName				ScrollableEditablePanel
-			FieldName				"Notifications_Scroller"
-			xPos					3
-			yPos					22
-			wide					f3
-			tall					f25
-			proportionalToParent		1
+			"ControlName"		"ScrollableEditablePanel"
+			"fieldName"		"Notifications_Scroller"
+			"xpos"		"8"
+			"ypos"		"25"
+			"wide"		"210"
+			"tall"		"135"
+			"PaintBackgroundType"		"0"
+			"paintbackground"		"0"
+			"fgcolor_override"		"Blank"
 
-			fgcolor_override			"NotoWhite"
-			
-			"Notifications_Control"		// width harcoded as parent - scrollbar
+			"Notifications_Control"
 			{
-				ControlName				CMainMenuNotificationsControl
-				FieldName				"Notifications_Control"
-				xPos					0
-				yPos					0
-				tall					f0
-				proportionalToParent		1
-
-				// => resource\ui\econ\NotificationToastControl.res"
-			}
-
-			"VerticalScrollBar"
-			{
-				xpos					rs1-1
-				wide					2
-				proportionalToParent		1
+				"ControlName"		"CMainMenuNotificationsControl"
+				"fieldName"		"Notifications_Control"
+				"wide"		"220"
+				"tall"		"135"
+				"visible"		"1"
 			}
 		}
 	}

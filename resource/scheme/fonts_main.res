@@ -121,6 +121,16 @@ Scheme
 				"outline"	"1"
 			}
 		}		
+		"DamagetextBitMap"
+		{
+			"1"
+			{
+				"bitmap"    "1"
+				"name"        "Ergoe_72"
+				"scalex"    "0.4"
+				"scaley"    "0.4"
+			}
+		}			
 		"DamagetextOutline"
 		{
 			"1"

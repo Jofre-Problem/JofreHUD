@@ -66,7 +66,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"TanLight"
+	
 		"xpos"			"7"
 		"ypos"			"7"
 		"zpos"			"2"
@@ -79,6 +79,7 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"TFFontSmall"
+			"fgcolor_override"		"notowhite"
+		"font"			"Noto12"
 	}
 }

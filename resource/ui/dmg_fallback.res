@@ -1,5 +1,4 @@
-#base "../../../../cfg/jp_afbik_dmg.txt"
-#base "dmg_fallback.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -10,7 +9,7 @@
 		"delta_item_end_y"		"-10"
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
-	//	"delta_item_font"		"DamagetextBitMap"//Size 12"
+		"delta_item_font"		"Damagetextscan"//Size 12"
 		"delta_item_font_big"	"DamagetextOutline"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots

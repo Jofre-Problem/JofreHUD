@@ -238,7 +238,7 @@
 						"ypos"					"220"
 						"wide"					"p0.5"
 						"tall"					"40"
-						"proportionaltoparent"	"1"
+						"proportionaltoparent"	"1" 
 						"labeltext"				"Pilot Bars ON"
 						"font"					"Size 14"
 						"textalignment"			"center"
@@ -269,8 +269,66 @@
 						"border_armed"			"FLAT_Black_2"
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
-					}																											
+					}			
+								"glowingfont"
+					{
+						"ControlName"	"CExLabel"
+						"fieldName"		"glowingfont"
+						"font"		"Regular12"
+						"labelText"		"Glowing Damage Text Font (doesnt work on casual)"
+						"textAlignment"	"center"
+						"xpos"		"0"
+						"ypos"		"260"
+						"zpos"		"20"
+						"wide"		"p0.55"
+						"tall"		"20"
+						"border"		"FLAT_Black_4"
+						"enabled"		"1"
+						"fgcolor"		"black"
+						"bgcolor_override"	"purple"
+					}																														
+						"glowingfont_on"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"glowingfont_on"
+						"xpos"					"0"
+						"ypos"					"280"
+						"wide"					"p0.5"
+						"tall"					"40"
+						"proportionaltoparent"	"1" 
+						"labeltext"				"ON"
+						"font"					"Size 14"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_afbik_dmg.txt; con_logfile cfg/jp_afbik_dmg.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/damage/glowingfont.res; con_logfile ."
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}		
+					"glowingfont_off"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"glowingfont_off"
+						"xpos"					"0+p0.5"
+						"ypos"					"280"
+						"wide"					"p0.5"
+						"tall"					"40"
+						"proportionaltoparent"	"1"
+						"labeltext"				"OFF"
+						"font"					"Size 14"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_afbik_dmg.txt"
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}			
 				}
+
 			}
 		}
 	}

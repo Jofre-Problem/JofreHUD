@@ -69,8 +69,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-		"fgcolor"		"56 47 29 255"
-		"fgcolor_override" "56 47 29 255"
+"fgcolor_override"		"notowhite"
+		"font"			"Noto12"
 		"if_high_priority"
 		{
 			"fgcolor"			"BrightYellow"
@@ -89,6 +89,6 @@
 		"wrap"			"1"
 		"labelText"		"%text%"
 		"textAlignment"	"West"
-		"font"			"HudFontSmallest"
+	//	"font"			"HudFontSmallest"
 	}
 }

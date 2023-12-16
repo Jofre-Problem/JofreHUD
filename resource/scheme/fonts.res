@@ -1,5 +1,12 @@
 Scheme
 {
+	"BitmapFontFiles"
+	{
+	//	"Ergoe_72"										"materials/replay/thumbnails/Ergoe_72.vbf"
+		"Ergoe_72"										"materials/vgui/fonts/Ergoe_72.vbf"
+	//	"Ergoe_72"										"fonts/Ergoe_72.vbf"
+	//	"Ergoe_72"										"../vgui/fonts/Ergoe_72.vbf"
+	}	
 	Fonts
 	{
 	"Default"
