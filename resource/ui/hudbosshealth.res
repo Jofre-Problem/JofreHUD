@@ -1,10 +1,7 @@
 
 "Resource/UI/HudBossHealth.res"
 {
-	"BorderImage"
-	{
-		"visible"		"0"			
-	}
+
 //	MDigits
 //	{
 //		"xpos"					"c-352"
@@ -17,14 +14,16 @@
 	"image1"
 	{
 		"fieldName"	"image1"
-		"ControlName"	"EditablePanel"
-		"xpos"			"14"
-		"ypos"			"15"
+		"ControlName"	"CTFImagePanel"
+		"xpos"			"10"
+		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"170"
-		"tall"			"15"
-		"fillcolor"		"Primary"
-		"border"	"cs1"
+		"wide"			"180"
+		"tall"			"17"
+				"image"			"replay/thumbnails/panels/black"
+				
+				"alpha"		"220"
+			"scaleImage"	"1"	
 
 	}
 		
@@ -62,7 +61,7 @@
 		"zpos"			"1000"
 		"wide"			"57"
 		"tall"			"1"
-		"fillcolor"		"0 255 0 255"
+		"fillcolor"		"white"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"skil2"				
@@ -73,7 +72,7 @@
 		"xpos"			"15"
 		"ypos"			"16"
 		"zpos"			"4"
-		"wide"			"168"
+		"wide"			"170"
 		"tall"			"12"
 
 		"BarImage"
@@ -81,12 +80,12 @@
 					"ControlName"	"ImagePanel"
 			"fieldName"		"BarImage"	
 			"scaleimage"	"1"
-			"xpos"			"0"
+			"xpos"			"0-p0.001"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"167"
+			"wide"			"168"
 			"tall"			"12"			
-			"image"	"replay/thumbnails/hp/REFRACTblur"
+			"image"	"replay/thumbnails/panels/unusual"
 		}
 	}				
 

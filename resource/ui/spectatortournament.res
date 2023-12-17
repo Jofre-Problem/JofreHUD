@@ -149,8 +149,8 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-
+				"image"			"replay/thumbnails/panels/black"
+				"alpha"		"220"
 				if_aids
 				{
 					"visible"		"0"
@@ -162,7 +162,7 @@
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
-				"ypos"			"0"
+				"ypos"			"3"
 				"zpos"			"0"
 				"wide"			"12"
 				"tall"			"12"

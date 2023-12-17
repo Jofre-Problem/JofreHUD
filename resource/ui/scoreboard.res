@@ -72,7 +72,12 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"		"1"
+			"xpos"	"0"
+			"ypos"	"0"
+			"tall"	"f0"
+			"fillcolor"	"32 32 32 140"
+			"zpos"	"-1000"
 		}
 	}
 	"BlueScoreBG"
@@ -1014,6 +1019,16 @@ if_mvm
 		"wide"				"p0.5"
 		"tall"				"12"[$WINDOWS]
 		"tall"			"9" [$LINUX]
+
+		if_mvm
+		{
+				"xpos"			"0"
+				"ypos"	"70"
+				"fgcolor_override"	"notowhite"
+				"font"	"Notobold20"
+				"tall"	"30"
+				"wide"	"f0"
+		}
 	}	
 	"up1"
 	{

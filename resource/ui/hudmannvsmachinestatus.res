@@ -48,14 +48,15 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
-		"ypos"				"r15"
+		"xpos"		"cs-0.5+38"
+		"ypos"		"c160"
 		"wide"				"100"
-		"tall"				"100"
+		"tall"				"20"
 		//		"145"
 		//		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
+	//	"bgcolor_override"	"0 0 0 100"
 	}
 
 	"WarningSwoop"

@@ -286,17 +286,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "yellow"
 	}		
-	"ExampleAnchor"
-    {
-        "ControlName"     "EditablePanel"
-        "fieldName"     "ExampleAnchor"
-        "xpos"             "0"
-        "ypos"             "50"
-        "wide"             "f0"
-        "tall"             "1"
-        "visible"         "1"
-        "enabled"         "1"
-    }
+
 	
 
 	"MapLabel"
@@ -320,6 +310,17 @@
         "pin_corner_to_sibling" "4"
         "pin_to_sibling_corner" "4"
 	}
+	"ExampleAnchor"
+    {
+        "ControlName"     "EditablePanel"
+        "fieldName"     "ExampleAnchor"
+        "xpos"             "0"
+        "ypos"             "50"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+    }	
 	"MapType"
 	{
 		"ControlName"	"CExLabel"

@@ -63,7 +63,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Regular9 Shadow"
+				"font"			"Regular7"
 				"xpos"			"1"
 				"ypos"			"18"
 				"zpos"			"5"
@@ -433,7 +433,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%winconditions%"
@@ -455,7 +455,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"26"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"14"
 		"zpos"			"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -473,23 +473,20 @@
 		}
 	}
 
-	"CountdownLabel"
+	"CountdownLabel"	//pin jofre
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Size 28 Shadow"
-		"xpos"			"cs-0.5"
-		"ypos"			"28"
-		"wide"			"100"
-		"tall"			"40"
-		"zpos"			"5"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%tournamentstatelabel%"
+		"font"			"NotoBold28"
 		"textAlignment"		"center"
-		"proportionaltoparent"	"1"
-		"fgcolor"		"White"
-
+		"xpos"			"0+15"
+		"ypos"			"40"
+	"zpos"	"1010"
+		"wide"				"f0"
+		"tall"				"24"
+		"fgcolor"		"notoWhite"
+		"bgcolor_override"	"blank"
+	
 		if_competitive
 		{
 			"ypos"			"60"
@@ -498,15 +495,37 @@
 		{
 			"ypos"			"60"
 		}
+
 	}
+
 
 	"CountdownLabelShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"xpos"			"9999"
-		"enabled"		"0"
+		"font"			"newicons20"
+		"xpos"			"0-30+15"
+		"ypos"			"40"
+		"wide"			"f0"
+		"tall"			"24"
+		"zpos"			"5"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Ù"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"notoWhite"
+				if_competitive
+		{
+			"ypos"			"60"
+		}
+		if_readymode
+		{
+			"ypos"			"60"
+		}
+
 	}
+
 	"TournamentInstructionsLabelShadow"
 	{
 		"ControlName"		"CExLabel"

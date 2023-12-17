@@ -246,18 +246,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	CHealthAccountPanel
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"			"50"
-		"zpos"		"2000"
-		"ypos"			"r40"
-		"wide"			"50"
-		"tall"			"70"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
+
 	
 	HudScopeCharge
 	{

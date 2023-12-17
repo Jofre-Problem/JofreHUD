@@ -354,14 +354,14 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans AlphaInvertedNEW"
-				"tall" "20"
+				"tall" "24"
 				"antialias"	"1"
 				"yres" "479 481"
 			}
 			"2"
 			{
 				"name" "Open Sans AlphaInvertedNEW"
-				"tall" "19"
+				"tall" "22"
 				"antialias"	"1"
 			}
 		}

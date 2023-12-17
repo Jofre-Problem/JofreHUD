@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentSetupLabel"
-		"font"			"Size 12"
+		"font"			"Size 10"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-1"

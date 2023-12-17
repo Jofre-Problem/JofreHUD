@@ -34,13 +34,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescriptionLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Notobold10"
 		"labelText"		"%description%"
 		"textAlignment" "north-west"
 		"xpos"			"20"
 		"ypos"			"3"
 		"wide"			"250"
 		"tall"			"32"
-		"fgcolor"		"tanlight"
+		"fgcolor_override"		"notowhite"
 	}
 }

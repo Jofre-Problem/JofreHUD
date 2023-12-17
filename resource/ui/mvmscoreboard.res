@@ -19,15 +19,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Size 10"
+	
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"c-264"
-		"ypos"			"c-67-70"
-		"wide"			"524"
-		"tall"			"16"
-		"fgcolor"		"tanlight"
-		"AllCaps"		"1"
+		"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"	"90"
+			"fgcolor_override"	"notowhite"
+			"font"	"Notobold20"
+			"tall"	"30"
+			"wide"	"f0"
 	}
 
 	"DifficultyContainer"
@@ -162,7 +162,7 @@
 			"fieldName"		"PreviousWaveCreditInfoPanel"
 			"xpos"			"c-266"
 			"ypos"			"c97"
-			"wide"			"127"
+			"wide"			"140"
 			"tall"			"60"
 			"visible"		"1"
 		}
@@ -173,7 +173,7 @@
 			"fieldName"		"TotalGameCreditInfoPanel"
 			"xpos"			"c12"
 			"ypos"			"c97"
-			"wide"			"127"
+			"wide"			"140"
 			"tall"			"60"
 			"visible"		"1"
 		}
@@ -184,7 +184,7 @@
 			"fieldName"		"PreviousWaveCreditSpendPanel"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"127"
+			"wide"			"140"
 			"tall"			"60"
 			"visible"		"1"
 			
@@ -199,7 +199,7 @@
 			"fieldName"		"TotalGameCreditSpendPanel"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"127"
+			"wide"			"140"
 			"tall"			"60"
 			"visible"		"1"
 			

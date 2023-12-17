@@ -404,7 +404,102 @@
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
-	}						
+	}		
+		"mvmfix"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"mvmfix"
+		"xpos"							"0"
+		"ypos"							"360"
+		"wide"							"300"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"Visual bugs on MVM"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine hud_reloadscheme"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}	
+		"vote1"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"vote1"
+		"xpos"							"0"
+		"ypos"							"390"
+		"wide"							"150"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"Vote Next Map:"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine next_map_vote 0"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}
+		"vote1a"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"vote1a"
+		"xpos"							"150"
+		"ypos"							"390"
+		"wide"							"50"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"1"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine next_map_vote 1"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}					
+		"vote12"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"vote12"
+		"xpos"							"200"
+		"ypos"							"390"
+		"wide"							"50"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"2"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine next_map_vote 1"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}		
+		"vote123"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"vote123"
+		"xpos"							"250"
+		"ypos"							"390"
+		"wide"							"50"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"3"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine next_map_vote 2"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}									
 	"discord"
 		{
 				ControlName				CExButton

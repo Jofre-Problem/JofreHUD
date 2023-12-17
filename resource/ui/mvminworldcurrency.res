@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"Size 16 Shadow"
-		"fgcolor"		"Blue"
+		"font"			"NotoBold16"
+		"fgcolor"		"notoBlue"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -15,14 +15,21 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+
+		
+		"bgcolor_override"	"Notodark"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+				"auto_wide_tocontents" "1"	
 	}
-	
+
 	"CurrencyBad"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"Size 16 Shadow"
-		"fgcolor"		"Red"
+		"font"			"NotoBold16"
+		"fgcolor"		"notoRed"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -32,5 +39,11 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
+
+				"bgcolor_override"	"Notodark"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+				"auto_wide_tocontents" "1"	
 	}
 }
