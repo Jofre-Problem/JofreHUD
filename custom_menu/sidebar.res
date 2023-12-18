@@ -1,7 +1,7 @@
 #base "sidebar_sections/presets/section.res"
 #base "sidebar_sections/menu/section.res"
 #base "sidebar_sections/colors/section.res"
-#base "sidebar_sections/crosshair_hitmarker/section.res"
+#base "sidebar_sections/crosshit/section.res"
 #base "sidebar_sections/in_game_ui/section.res"
 #base "sidebar_sections/scheme/section.res"
 #base "sidebar_sections/misc/section.res"

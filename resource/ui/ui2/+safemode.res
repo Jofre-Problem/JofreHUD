@@ -65,7 +65,7 @@
 		"tall"							"20"
 		labelText				""
 		"actionsignallevel"		"2"
-		Command				"engine exec hud_cfg/extra_button.cfg; play ui/noir_beep5.mp3; wait 5; showconsole"
+		Command				"OpenAchievementsDialog"
 				pin_to_sibling 			"Browse"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
