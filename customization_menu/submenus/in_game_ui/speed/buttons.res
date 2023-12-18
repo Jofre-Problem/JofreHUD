@@ -36,7 +36,7 @@
 						"labeltext"				"Disable it"
 						"font"					"Size 14"
 						"textalignment"			"center"
-						"command"				"engine jp_speed_style; ih_reloadscheme"
+						"command"				"engine jp_speed_style; jp_reload"
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

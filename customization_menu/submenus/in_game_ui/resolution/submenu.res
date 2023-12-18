@@ -47,7 +47,7 @@
 					"labeltext"				"RESET"
 					"font"					"Size 14"
 					"textalignment"			"center"
-					"command"				"engine jp_custom_res_clear; ih_reloadscheme"
+					"command"				"engine jp_custom_res_clear; jp_reload"
 					"actionsignallevel"		"4"
 					"paintbackground"		"0"
 					"border_default"		"FLAT_Black_4"

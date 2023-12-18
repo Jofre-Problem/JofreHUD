@@ -47,7 +47,7 @@
 					"labeltext"				"RESET if it breaks."
 					"font"					"Size 14"
 					"textalignment"			"center"
-					"command"				"engine jp_custom_id_clear; jp_custom_spechpid_clear; jp_custom_layoutid_clear;jp_custom_animid_death_clear;jp_custom_animid_bonus_clear;jp_custom_animid_neutral_clear; ih_reloadscheme"
+					"command"				"engine jp_custom_id_clear; jp_custom_spechpid_clear; jp_custom_layoutid_clear;jp_custom_animid_death_clear;jp_custom_animid_bonus_clear;jp_custom_animid_neutral_clear; jp_reload"
 					"actionsignallevel"		"4"
 					"paintbackground"		"0"
 					"border_default"		"FLAT_Black_4"

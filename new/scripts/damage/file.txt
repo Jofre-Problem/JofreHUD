@@ -2,8 +2,8 @@ event DamagedPlayer
 {
 	StopEvent 	DamageAccountStuff	0.0
 	RunEvent 	DamageAccountStuff      0.2 //lol
-	StopEvent 	HitMarker 	0.0
-	RunEvent 	HitMarker	0.01
+	StopEvent 	HitM 	0.0
+	RunEvent 	HitM	0.01
 	StopEvent 	TestTestingCmd 	0.0
 	RunEvent TestTestingCmd 0.1
 }

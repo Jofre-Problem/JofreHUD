@@ -1,4 +1,4 @@
-#base "../../../cfg/ih_custom_submenu.txt"
+#base "../../../cfg/jp_custom_submenu.txt"
 #base "info_text.res"
 #base "sidebar.res"
 
@@ -99,6 +99,27 @@
 					"use_proportional_insets"	"1"
 					"fgcolor"					"Primary"
 				}
+				"Console"
+				{
+					"ControlName"				"CExButton"
+					"fieldName"					"Console"
+					"xpos"						"20"
+					"ypos"						"0"
+					"zpos"						"53"
+					"wide"						"20"
+					"tall"						"f0"
+					"proportionaltoparent"		"1"
+					"command"					"engine toggleconsole"
+					"actionsignallevel"			"4"
+					"labelText"					"T"
+					"font"						"newicons12"
+					"textAlignment"				"center"
+					"paintbackground"			"0"
+					"defaultfgcolor_override"	"PrimaryT3"
+					"armedfgcolor_override"		"Primary"
+					"sound_depressed"			"UI/buttonclick.wav"
+					"sound_released"			"UI/buttonclickrelease.wav"
+				}				
 				"ApplyAndExit"
 				{
 					"ControlName"				"CExButton"
@@ -109,7 +130,7 @@
 					"wide"						"20"
 					"tall"						"f0"
 					"proportionaltoparent"		"1"
-					"command"					"engine ih_custom_submenu_clear; ih_custom_off; jp_reloadmenus"
+					"command"					"engine jp_custom_submenu_clear; jp_custom_off; jp_reloadmenus"
 					"actionsignallevel"			"4"
 					"labelText"					"y"
 					"font"						"newicons12"

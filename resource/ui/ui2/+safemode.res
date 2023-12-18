@@ -297,7 +297,7 @@
 		"tall"							"16"
 		labelText				""
 		"actionsignallevel"		"2"
-		Command						"engine ih_custom_on; jp_reloadmenus"
+		Command						"engine jp_custom_on; jp_reloadmenus"
 				pin_to_sibling 			"Console"
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "2"

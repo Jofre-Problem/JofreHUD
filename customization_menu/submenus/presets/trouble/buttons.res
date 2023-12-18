@@ -42,7 +42,7 @@
 						"labeltext"				"Remove warning from TargetID"
 						"font"					"Noto14"
 						"textalignment"			"center"
-						"command"				"engine ih_custom_submenu_ig_targetid; jp_reloadmenus"
+						"command"				"engine jp_custom_submenu_ig_targetid; jp_reloadmenus"
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

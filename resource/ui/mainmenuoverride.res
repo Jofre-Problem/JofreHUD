@@ -1,4 +1,4 @@
-#base "../../../../cfg/ih_custom.txt"
+#base "../../../../cfg/jp_custom.txt"
 #base ../../new/_menu1_old2/mainmenuoverride.res 
 #base "../../../../cfg/jp_mainmenu_spray_frame.txt"
 #base "../../../../cfg/jp_particle_rain.txt"

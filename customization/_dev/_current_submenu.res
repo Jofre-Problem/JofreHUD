@@ -1,1 +1,1 @@
-#base "../../../../cfg/ih_custom_submenu.txt"
+#base "../../../../cfg/jp_custom_submenu.txt"

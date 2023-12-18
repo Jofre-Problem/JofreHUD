@@ -1,6 +1,6 @@
 hudanimations_manifest
 {
-	"file"		"new/scripts/hudanimations_null.txt"
+	"file"		"../../cfg/jp_hitmarker.txt"	
 	"file"		"../../cfg/jp_snd_dead.txt"	
 	"file"		"../../cfg/jp_snd_vivo.txt"	
 	"file"		"../../cfg/jp_ex_scope.txt"	
@@ -23,6 +23,7 @@ hudanimations_manifest
 //	"file"		"new/ui_overrides/cart-glow/file.txt"
 //	"file"		"new/ui_overrides/score-slide/file.txt"
 //	"file"		"new/ui_overrides/hitmarker/file.txt"
+	"file"		"new/scripts/hudanimations_null.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 	"file"		"scripts/hudanimations.txt"
 }

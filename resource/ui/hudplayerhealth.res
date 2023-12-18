@@ -1,7 +1,7 @@
 #base "../../../../cfg/jp_custom_resolution.txt"
 #base "../../../../cfg/jp_custom_hp_speed.txt"
 #base "../../../../cfg/jp_custom_hp_progressbar.txt"
-#base "../../../../cfg/jp_custom_hp_speed.txt"
+//#base "../../../../cfg/jp_custom_hp_speed.txt"
 
 //fallback
 //#base "ui2/healthshadow.res"
