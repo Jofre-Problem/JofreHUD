@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\yakuza/letterq"
+	"$vertexcolor" 1
+	
+	"$ignorez" 1
+}

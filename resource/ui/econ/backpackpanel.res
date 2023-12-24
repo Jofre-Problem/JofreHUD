@@ -11,13 +11,13 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		//
-		"bgcolor_override"							"DarkBrown"
-		"infocus_bgcolor_override" 					"DarkBrown"
+		"bgcolor_override"							"blank"
+		"infocus_bgcolor_override" 					"blank"
 		"outoffocus_bgcolor_override" 				"DarkBrown"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
-		"item_ypos"									"90"
+		"item_ypos"									"110"
 		"item_ydelta"								"80"
 		"item_mod_wide"								"40"
 
@@ -26,11 +26,11 @@
 		"item_backpack_ydelta"						"3"
 
 		"button_xpos_offcenter"						"175"
-		"button_ypos"								"85"
-		"button_ydelta"								"80"
+		"button_ypos"								"95"
+		"button_ydelta"								"90"
 		"button_override_delete_xpos" 				"0"
 
-		"page_button_y"								"318"
+		"page_button_y"								"338"	//numero d epaginas
 		"page_button_x_delta" 						"3"
 		"page_button_y_delta" 						"3"
 		"page_button_per_row" 						"20"
@@ -145,6 +145,20 @@
 			"use_item_sounds"						"1"
 		}
 	}
+	"aaa"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"aaa"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/yakuza/menubg"	
+		"scaleImage"		"1"	
+	}		
 	"urlbg"
 	{
 		"ControlName"	"EditablePanel"
@@ -267,7 +281,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackpackBG"
 		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-40"
+		"ypos"										"cs-0.5-40+20"
 		"zpos"										"-1"
 		"wide"										"568"
 		"tall"										"226"
