@@ -17,36 +17,7 @@
 #base "_tf2hud/mainmenuoverride.res"
 "j"
 {
-	"ChallengeEarnedMedal" //big image on the left when you've selected a challenge mode from the drop down tab
-	{
-		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeEarnedMedal"
-		"ypos"			"r0"
-		"wide"			"64"
-		"tall"			"64"
-		"visible"		"1"
-		"image"			"replay/thumbnails/Ergoe_72"
-	}
-					"glowingfont_on"
-					{
-						"ControlName"			"ccheckboxwithstatus"
-						"fieldName"				"glowingfont_on"
-						"xpos"					"0"
-						"ypos"					"200"
-						"wide"					"45"
-						"tall"					"40"
-						"proportionaltoparent"	"1" 
-						"labeltext"				"test"
-						"font"					"Size 14"
-						"textalignment"			"center"
-						"command"				"r_drawviewmodel"
-						"actionsignallevel"		"5"
-						"zpos"		"1110"
-						"border_default"		"FLAT_Black_4"
-						"border_armed"			"FLAT_Black_2"
-						"sound_depressed"		"UI/buttonclick.wav"
-						"sound_released"		"UI/buttonclickrelease.wav"
-					}				
+
 	"MainMenuOverride"
 	{	}
 	"MenuColorizer"	//always on

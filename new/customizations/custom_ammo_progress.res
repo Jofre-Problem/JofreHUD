@@ -39,7 +39,7 @@
 	
 		"ProgressBar1"
 	{
-					"ControlName""ContinuousProgressBar"
+					"ControlName""cbuildinghealthbar"
 		"fieldName""ProgressBar1"
 		"xpos"			"0"
 		"ypos"			"-34"

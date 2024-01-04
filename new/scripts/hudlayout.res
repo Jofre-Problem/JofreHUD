@@ -147,7 +147,11 @@
 		"ypos"	 "35" // 7 KF
 		"wide"	 "f0"
 		"tall"	 "p0.6"
-
+		    "PaintBackgroundType"    "2"
+    "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture2"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture3"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture4"         "vgui/replay/thumbnails/hp/gradienttest"
 		"MaxDeathNotices"		"6"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"

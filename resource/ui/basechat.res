@@ -16,7 +16,12 @@
 	//	"wide"	 		"200"
 	"WIDE"	"140"	[$LINUX]
 	//	"tall"	 		"120"
-		//
+		    "PaintBackgroundType"    "2"
+    "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture2"         "vgui/replay/thumbnails/null"
+    "Texture3"         "vgui/replay/thumbnails/null"
+    "Texture4"         "vgui/replay/thumbnails/null"
+	"src"	"settings_default"
 		"bgcolor_override" "0 0 0 0"
 	}
 

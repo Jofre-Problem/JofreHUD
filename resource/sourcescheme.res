@@ -35,6 +35,9 @@ Scheme
 
 	}	
 	BaseSettings	{
+
+
+
 		MainMenu.Backdrop   "Blank"
 // basically the shadow when you open console
  Tooltip.TextColor	"White"

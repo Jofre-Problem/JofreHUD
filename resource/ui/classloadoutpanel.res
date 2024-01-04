@@ -2,6 +2,7 @@
 
 "Resource/UI/FullLoadoutPanel.res"
 {
+
 			"mouse2"
 	{
 		"ControlName"	"ImagePanel"

@@ -20,6 +20,7 @@
 "+spinbotleft"		"Spin Left"
 "+spinbotright"		"Spin Right"
 "+jump"         "███ Reset Jump to Def ███"
+"+x_zoom"			"Zoom Bind"
 "blank"						"=============================="
 "blank"						"Scoreboard Binds"
 "blank"						"=============================="

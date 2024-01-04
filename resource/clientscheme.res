@@ -112,7 +112,7 @@ Scheme
 	}	
 	Fonts
 	{
-	"DefaultVerySmall"
+	"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{
 			"1"
 			{
