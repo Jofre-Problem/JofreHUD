@@ -6,7 +6,7 @@ Scheme
    		BaseSettings
 		{
 
-ScrollBar.Wide					"10"//"70"//"10"
+ScrollBar.Wide					"60"//"70"//"10"
 	
 			}	
   			
