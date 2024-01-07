@@ -76,7 +76,7 @@
 				"ypos"						"40"
 				"zpos"						"51"
 				"wide"						"462"
-				"tall"						"340"
+				"tall"						"420"
 				"proportionaltoparent"		"1"
 
 				"ScrollBar"

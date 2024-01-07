@@ -172,7 +172,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"		"PrimaryT1"
+						"fgcolor_override"		"PrimaryT3"
 						"bgcolor_override"		"16 16 16 100"
 
 						if_mini
