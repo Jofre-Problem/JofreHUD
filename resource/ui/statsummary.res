@@ -1,4 +1,4 @@
-//#base "../../../../cfg/jp_mainmenu_spray_frame.txt"
+#base "../../../../cfg/jp_mainmenu_spray_frame.txt"
 #base "ui2/tank_gif.res"
 //#base "../ui3/menu_multiple.res"
 #base "../../new/ui_overrides/full-timer/file2.res"
