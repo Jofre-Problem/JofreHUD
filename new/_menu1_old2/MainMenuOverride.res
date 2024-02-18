@@ -299,11 +299,11 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"CallVoteButton2"
-		xPos					"CS-0.5"//210 - 33
-		yPos					rs1
+		xPos					"cs-0.5-120"//210 - 33
+		yPos					0
 		zPos					1050
-		wide					125
-		tall					25
+		wide					80
+		tall					20
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
 
@@ -315,11 +315,11 @@
 			fieldName				"SubButton"
 			xpos					0
 			ypos					0
-			wide					125
-			tall					25
+			wide					80
+			tall					20
 			proportionaltoparent		1
 
-			font					"newicons20"
+			font					"newicons15"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -339,7 +339,7 @@
 			wide					f0
 			tall					f0
 			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
+			image					"replay/thumbnails/hud/bgPanel_down"
 			scaleImage				1
 		}		
 		}
@@ -348,19 +348,16 @@
 	{
 		wide					0					
 	}	
-	"MutePlayersButton"
-	{
-		wide					0					
-	}
+
 	"MutePlayersButton2"
 	{
 		ControlName				EditablePanel
 		FieldName				"MutePlayersButton2"		
-		xPos					"115"//210 - 33
+		xPos					"cs-0.5-20"
 		yPos					0
 		zPos					1050
-		wide					125
-		tall					25
+		wide					80
+		tall					20
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
 
@@ -372,11 +369,11 @@
 			fieldName				"SubButton"
 			xpos					0
 			ypos					0
-			wide					125
-			tall					25
+			wide					80
+			tall					20
 			proportionaltoparent		1
 
-			font					"newicons20"
+			font					"newicons15"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -396,7 +393,7 @@
 			wide					f0
 			tall					f0
 			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
+			image					"replay/thumbnails/hud/bgPanel_down"
 			scaleImage				1
 		}		
 		}
@@ -405,55 +402,7 @@
 	{
 		"wide"			"0"
 	}	
-	"ReportPlayerButton2"
-	{
-		ControlName				EditablePanel
-		FieldName				"ReportPlayerButton2"		
-		xPos					"0"//210 - 33
-		yPos					0
-		zPos					1050
-		wide					125
-		tall					25
-		"bgcolor_override"		"Blank"
-		"paintBackground"	"0"
 
-		
-
-		"SubButton"
-		{
-			ControlName				CExImageButton
-			fieldName				"SubButton"
-			xpos					0
-			ypos					0
-			wide					125
-			tall					25
-			proportionaltoparent		1
-
-			font					"newicons20"
-			textAlignment			center
-			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-							
-		defaultFgColor_override		"NotoWhite"
-		armedFgColor_override		"Primary"
-		image_drawcolor			"255 255 255 50" 
-		image_armedcolor			"255 255 255 100"
-			paintbackground			0
-		"SubImage"
-		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					f0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-		}		
-		}
-	}	
 	"ReportPlayerButton"
 	{
 		"wide"			"0"	
@@ -1117,54 +1066,7 @@
 }
 }
 
-	"CallVoteButton2"
-	{
-		ControlName				EditablePanel
-		FieldName				"CallVoteButton2"
-		xPos					"rs1-40"//210 - 33
-		yPos					rs1
-		zPos					1050
-		wide					20
-		tall					20
-		"bgcolor_override"		"Blank"
-		
-
-				"SubButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				////"autoResize"		"0"
-				//"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				////	"0"
-				"font"			"newicons12"
-				"textAlignment"	"center"
-				"labelText"		"c"
-				"use_proportional_insets" "1"
-				"proportionaltoparent"	"1"
-				"default"		"1"
-				"actionsignallevel" "2"
-				
-				
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"defaultFgColor_override" 	"White"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-				"border_default"			"LINE_BOTTOM_3_Primary_0"
-				"border_armed"				"LINE_BOTTOM_0_Primary_0"
-			}
-	}
+	
 	"CallVoteButton"
 	{
 		visible					0					
@@ -1173,116 +1075,12 @@
 	{
 		visible					0					
 	}
-	"MutePlayersButton2"
-	{
-		ControlName				EditablePanel
-		FieldName				"MutePlayersButton2"		
-		xPos					"0"//210 - 33
-		yPos					0
-		zPos					1050
-		wide					20
-		tall					20
-		"bgcolor_override"		"Blank"
-		
-	"pin_to_sibling"	"CallVoteButton2"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
 
-			"SubButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				////"autoResize"		"0"
-				//"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				////	"0"
-				"font"			"newicons12"
-				"textAlignment"	"center"
-				"labelText"		"M"
-				"use_proportional_insets" "1"
-				"proportionaltoparent"	"1"
-				"default"		"1"
-				"actionsignallevel" "2"
-				
-				
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"defaultFgColor_override" 	"White"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-				"border_default"			"LINE_BOTTOM_3_Primary_0"
-				"border_armed"				"LINE_BOTTOM_0_Primary_0"
-			}
-	}
 	"RequestCoachButton"
 	{
 		"visible"			"0"
 	}	
-	"ReportPlayerButton2"
-	{
-		ControlName				EditablePanel
-		FieldName				"ReportPlayerButton2"		
-		xPos					"0"//210 - 33
-		yPos					0
-		zPos					1050
-		wide					20
-		tall					20
-		"bgcolor_override"		"Blank"
-		
-			"pin_to_sibling"	"MutePlayersButton2"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
-		
-
-		"SubButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"SubButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				////"autoResize"		"0"
-				//"pinCorner"		"3"
-				"visible"		"1"
-				"enabled"		"1"
-				////	"0"
-				"font"			"newicons12"
-				"textAlignment"	"center"
-				"labelText"		"!"
-				"use_proportional_insets" "1"
-				"proportionaltoparent"	"1"
-				"default"		"1"
-				"actionsignallevel" "2"
-				"actionsignallevel" "2"
-				
-				
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"defaultFgColor_override" 	"White"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-				"border_default"			"LINE_BOTTOM_3_Primary_0"
-				"border_armed"				"LINE_BOTTOM_0_Primary_0"
-			}
-	}	
 	"ReportPlayerButton"
 	{
 		"visible"			"0"	

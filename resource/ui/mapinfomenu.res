@@ -35,8 +35,8 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
-		"xpos"					"cs-0.5-37"
-		"ypos"					"20"
+		"xpos"					"cs-0.5-78"
+		"ypos"					"15"
 		"wide"					"10"
 		"tall"					"o2"
 	"drawcolor"				"notowhite"
