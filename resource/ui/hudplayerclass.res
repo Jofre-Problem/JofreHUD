@@ -173,11 +173,11 @@
 	}
 
 	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
-	{"ControlName"	"CTFImagePanel"}
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
 	"PlayerStatusSpyOutlineImage"
-	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
 	"PlayerStatusClassImageBG"
-	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
 	"classmodelpanelBG"
-	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
 }

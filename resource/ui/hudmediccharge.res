@@ -2,6 +2,60 @@
 
 "Resource/UI/HudAmmoWeapons.res"
 {
+	"CoolBeam"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"CoolBeam"
+		"xpos"			"cs-0.5"
+		"ypos"			"c25"
+		"zpos"			"1000"
+		"wide"			"80"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"proportionaltoparent"	"1"
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos"		"25"
+				"particle_ypos"		"15"
+				"particle_scale"		"0.6"
+				"particleName"		"passtime_beam_trail_stage3"
+				"start_activated"	"0"
+				"loop"			"1"
+				"angles"			"0 0 0"
+				"control_point0"		"0 0 0"
+				"control_point1"		"0 -80 0"
+			}
+			"1"
+			{
+				"particle_xpos"		"7"
+				"particle_ypos"		"15"
+				"particle_scale"		"0.6"
+				"particleName"		"passtime_beam_trail_stage3"
+				"start_activated"	"0"
+				"loop"			"1"
+				"angles"			"0 0 0"
+				"control_point0"		"0 -80 0"
+				"control_point1"		"0 0 0"
+			}
+		}
+	}		
+	"TeamColoredAmmoTextBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredAmmoTextBG"
+		"xpos"			"c106"
+		"ypos"			"325"
+		"wide"			"124-p0.001"
+		"tall"			"34"
+		"image"			"replay/thumbnails/hp/cover"
+		"scaleImage"		"1"	
+		"teambg_2"		"replay/thumbnails/hp/redteam"
+		"teambg_3"		"replay/thumbnails/hp/bluteam"
+	}	
 	"2_Image"
 	{
 		"fieldName"	"2_image"
@@ -10,57 +64,49 @@
 		"wide"			"17"
 		"tall"			"34"
 		"fillcolor"		"whattimeis1"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"3_Image"
 	{
 		"fieldName"	"3_Image"
 		"ControlName"	"ImagePanel"		
-		"xpos"			"70"
+		"xpos"			"-70"
 		"zpos"			"5"
 		"wide"			"17"
 		"tall"			"34"
 		"fillcolor"		"whattimeis1"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"Background"
 	{
 		"visible"			"0"			
 	}
-	"TeamColoredAmmoTextBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"150+80"
-		"tall"			"34"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}
+
 	"1_image"
 	{
 		
 		"fieldName"	"1_image"
 		"ControlName"	"imagepanel"			
-		"ypos"			"34"
-		"wide"			"150"
+		"ypos"			"-34"
+		"wide"			"124-p0.001"
 		"tall"			"2"
-		"zpos" 			"6"
+		"zpos" 			"60"
 		"fillcolor"		"0 0 0 140"
 		"border" 		"cleanup"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"4_image"
 
 	{
 		"fieldName"	"4_image"
 		"ControlName"	"ImagePanel"		
-		"xpos"			"85"
+		"xpos"			"-85"
 		"zpos"			"200"
 		"wide"			"5"
 		"tall"			"36"
 		"scaleimage"	"1"		
 		"image" 		"replay/thumbnails/hp/REFRACTnormal"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	
 	
@@ -70,14 +116,15 @@
 	{
 		"fieldName"	"1_progress"
 		"ControlName"	"CircularProgressbar"			
-		"xpos"			"89"
-		"ypos"			"-1"
+		"xpos"			"-89"
+		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
 		"variable"		"charge"
 		"fg_image"		"replay/thumbnails/hp/cover"
 		"bg_image"		"replay/thumbnails/bg_blank"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	
 	"ChargeMeter"
@@ -85,7 +132,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"89"
+		"xpos"			"-89"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"36"
@@ -101,12 +148,13 @@
 		//"fgcolor_override" "110 255 25 175"
 		"fgcolor_override" "whattimeis1"
 		"alpha"			"0"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"ChargeMeterBGNew"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ChargeMeterBGNew"
-		"xpos"			"89"
+		"xpos"			"-89"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"36"
@@ -117,13 +165,14 @@
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/hp/redteam2"
 		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"ChargeMeter1"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"90"
+		"xpos"			"-90"
 		"ypos"			"0"
 		"zpos"			"8"
 		"wide"			"17"
@@ -133,6 +182,7 @@
 		////	"0"
 		"bgcolor_override" "0 0 0 180"
 		"alpha"			"245"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 
 	"ChargeMeter2"
@@ -140,7 +190,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"107"
+		"xpos"			"-107"
 		"ypos"			"0"
 		"zpos"			"9"
 		"wide"			"17"
@@ -154,6 +204,7 @@
 		////	"0"
 		"bgcolor_override" "0 0 0 180"
 		"alpha"			"245"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 
 	"ChargeMeter3"
@@ -161,8 +212,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"90"
-		"ypos"			"17"
+		"xpos"			"-90"
+		"ypos"			"-17"
 		"zpos"			"10"
 		"wide"			"17"
 		"tall"			"17"		
@@ -175,6 +226,7 @@
 		////	"0"
 		"bgcolor_override" "0 0 0 180"
 		"alpha"			"245"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 
 	"ChargeMeter4"
@@ -182,8 +234,8 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"107"
-		"ypos"			"17"
+		"xpos"			"-107"
+		"ypos"			"-17"
 		"zpos"			"11"
 		"wide"			"17"
 		"tall"			"17"		
@@ -196,6 +248,7 @@
 		////	"0"
 		"bgcolor_override" "0 0 0 180"
 		"alpha"			"245"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"ChargeLabel"
 	{
@@ -203,13 +256,14 @@
 		"fieldName"		"ChargeLabel"
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"whattimeis1"
-		"xpos"			"-58"
-		"ypos"			"-5"
+		"xpos"			"58"
+		"ypos"			"5"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"40"
 		"textAlignment"	"center"	
 		"labelText"		"#uberpadded"	
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}		
 	"1_label"
 	{
@@ -217,28 +271,46 @@
 		"fieldName"		"1_label"		
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"whattimeis1"
-		"xpos"			"-381"
-		"ypos"			"-5"
+		"xpos"			"381"
+		"ypos"			"5"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"40"
 		"textAlignment"	"center"	
 		"labelText"		"---"	
 		"alpha"			"0"
+	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
 	}	
+	"ubericon"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ubericon"		
+		"font"			"NewIcons25"
+		"fgcolor"		"whattimeis1"//"whattimeisinvert"
+		"xpos"			"-95"
+		"ypos"			"2"
+		"zpos"			"9000"
+		"wide"			"150"
+		"tall"			"35"
+		"textAlignment"	"west"	
+		"labelText"		"9"	
+		"alpha"			"220"
+	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
+	}		
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"whattimeis1"
-		"xpos"			"-384"
-		"ypos"			"-5"
+		"xpos"			"384"
+		"ypos"			"5"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"40"
 		"textAlignment"	"center"
 		"labelText"		"#vacuberpadded"	
+	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
 	}	
 	"HealthClusterIcon"
 	{

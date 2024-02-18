@@ -561,18 +561,18 @@
 			fieldName				"Notifications_CountLabel"
 			xpos					6
 			ypos					2
-			zpos					2
+			zpos					20
 			wide					20
 			tall					14
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"NotoBold10"
+			font					"NotoBold12"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"Primary"
+			fgcolor_override			"White"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"

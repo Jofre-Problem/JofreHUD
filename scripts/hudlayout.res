@@ -12,15 +12,16 @@
 	#base "hudlayout_def.res"
 "j"
 {
+	
 	"DisguiseDust"
 	{
 		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"DisguiseDust"
 		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"1700"
+		"ypos"			"r100"
+		"zpos"			"70000"
 		"wide"			"70"
-		"tall"			"70"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
@@ -29,27 +30,13 @@
 		{
 			"0"
 			{
-				"particle_xpos"		"25"
-				"particle_ypos"		"15"
-				"particle_scale"		"0.6"
-				"particleName"		"passtime_beam_trail_stage3"
+				"particle_xpos"		"c0"
+				"particle_ypos"		"80"
+				"particle_scale"		"3"
+				"particleName"		"spy_start_disguise_red"
 				"start_activated"	"0"
-				"loop"			"1"
+				"loop"			"0"
 				"angles"			"0 0 0"
-				"control_point0"		"0 0 0"
-				"control_point1"		"0 -80 0"
-			}
-			"1"
-			{
-				"particle_xpos"		"7"
-				"particle_ypos"		"15"
-				"particle_scale"		"0.6"
-				"particleName"		"passtime_beam_trail_stage3"
-				"start_activated"	"0"
-				"loop"			"1"
-				"angles"			"0 0 0"
-				"control_point0"		"0 -80 0"
-				"control_point1"		"0 0 0"
 			}
 		}
 	}		
@@ -224,14 +211,14 @@
 	}
 	HudMedicCharge
 	{
-		"xpos"			"c106"
+		"xpos"			"0"
 "xpos_minmode""c106-62"
 		"ypos_minmode"	"325+28"
-		"ypos"			"325"
+		"ypos"			"0"
 		////"325+28"
 		
-		"wide"			"124"
-		"tall"			"36"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	HudDemomanCharge
@@ -330,7 +317,7 @@
 		"xpos"		"0"
 		"ypos"		"rs1"
 		"wide"		"f0"
-		"tall"		"80"	
+		"tall"		"175"
 	}
 
 	HudTournament

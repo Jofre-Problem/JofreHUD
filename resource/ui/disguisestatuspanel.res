@@ -5,10 +5,10 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"8"
+		"ypos"			"90"
 		"zpos"			"-1"
 		"wide"			"60"
-		"tall"	 		"2"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panels/black"
@@ -19,51 +19,12 @@
 		"alpha"		"180"
 	}
 
-	"Disguising"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"Disguising"
-		"font"			"Size 10"
-		"xpos"			"0"
-		"ypos"			"-2"
-		"zpos"			"2"
-		"wide"			"60"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"Disguising..."
-		"textAlignment"		"center"
-		"fgcolor_override"		"White"
-
-		"pin_to_sibling"		"DisguiseStatusBG"
-		"pin_to_sibling_corner"		"4"
-		"pin_corner_to_sibling"		"6"
-	}
-
-	"DisguisingShadow"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"DisguisingShadow"
-		"font"			"Size 10"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"Disguising..."
-		"textAlignment"		"center"
-		"fgcolor_override"		"Shadow"
-
-		"pin_to_sibling"		"Disguising"
-	}
 
 	"DisguiseNameLabel"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Size 12"
+		"font"			"NotoBold12"
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"2"
@@ -72,6 +33,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
+		"labelText_minmode"	"Disguised"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 
@@ -84,7 +46,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabelShadow"
-		"font"			"Size 12"
+		"font"			"NotoBold12"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -93,6 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
+		"labelText_minmode"	"Disguised"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Shadow"
 
@@ -103,8 +66,9 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Size 10"
+		"font"			"NotoBold10"
 		"xpos"			"0"
+		"xpos_minmode"	"9999"
 		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"90"
@@ -125,7 +89,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"Size 10"
+		"font"			"NotoBold10"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"2"
@@ -145,17 +109,34 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"cs-0.5-110"
-		"ypos"			"31"
+		"xpos"			"70"
+		"ypos"			"100"
 		"wide"			"36"
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"0"
 		"HealthBonusPosAdj"	"0"
-		"HealthDeathWarning"	"0.49"
-		"TFFont"		"Size 16"
+		"HealthDeathWarning"	"0.3"
+		"TFFont"		"NotoBold16"
 		"textAlignment"		"center"
-		"HealthDeathWarningColor"	"Low Health"
+		"HealthDeathWarningColor"	"Blank"
 		"TextColor"		"GrayDarkest"
+		
+		"PlayerStatusHealthValue"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"PlayerStatusHealthValue"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"6"
+			"wide"			"36"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%Health%"
+			"textAlignment"		"center"
+			"font"			"DamagetextOutline"
+			"fgcolor"		"Ammo"
+		}
 	}
 }

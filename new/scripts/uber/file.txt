@@ -1,12 +1,16 @@
 
 event HudMedicCharged
 {
+	Animate ChargeLabel xpos 55 Linear 0.0 0.0
+	RunEventChild CoolBeam StartParticle0 0.0
+	RunEventChild CoolBeam StartParticle1 0.0		
 	Animate	ChargeMeter 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	1_label 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	ChargeMeter1 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	ChargeMeter2 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	ChargeMeter3 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	ChargeMeter4 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+
 	RunEvent HudMedicCharged2 0.0
 }
 event TIDuberFull
@@ -88,6 +92,9 @@ event HudMedicChargedLoop
 
 event HudMedicChargedStop
 {
+	Animate ChargeLabel xpos 58 Linear 0.0 0.0
+	RunEventChild CoolBeam StopParticle0 0.0
+	RunEventChild CoolBeam StopParticle1 0.0		
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicCharged2 0.0
 	StopEvent HudMedicChargedLoop 0.0

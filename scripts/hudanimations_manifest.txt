@@ -1,6 +1,6 @@
 hudanimations_manifest
 {
-		"file"		"new/scripts/hudanimations_null.txt"
+	"file"		"new/scripts/hudanimations_null.txt"
 	"file"		"../../cfg/jp_hitmarker.txt"	
 	"file"		"../../cfg/jp_snd_dead.txt"	
 	"file"		"../../cfg/jp_snd_vivo.txt"	
@@ -11,11 +11,11 @@ hudanimations_manifest
 	"file"		"../../cfg/jp_anim_cartglow.txt"
 //	"file"		"new/scripts/hudanimations.txt"
 
-
+	"file"		"new/scripts/disguise/file.txt"
 	"file"		"new/scripts/anim_misc.txt"
 	"file"		"new/scripts/ammo/file.txt"
 	"file"		"new/scripts/damage/file.txt"
-	"file"		"new/scripts/disguise/file.txt"
+
 	"file"		"new/scripts/hp/file.txt"
 	"file"		"new/scripts/uber/file.txt"
 //	"file"		"new/ui_overrides/remove-scope/file.txt"
