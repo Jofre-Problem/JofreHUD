@@ -242,7 +242,51 @@
 				"visible"		"0"
 			}			
 	}
+	"yoursv"
+	{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"yoursv"
+			"zpos"			"0"
 
+			"font"			"NotoBold14"
+			"textAlignment"	"center"
+			"actionsignallevel"	"2"
+			"textinsetx"	"40"
+			xPos					cs-0.5
+			yPos					30
+			wide					120
+			tall					20
+			"zpos"					"2000"
+			"labelText"		"Home Server"
+			"command"		"engine cancel; wait 5; exec user/server"	
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+			"border"		"noborder"
+			"paintbackground"	"1"
+
+	
+	
+			"SubImage"
+			{
+
+				"visible"		"0"
+			}			
+	}
+	"yoursvicon"		
+	{
+		ControlName				Label
+		FieldName				"yoursvicon"
+		xPos					cs-0.5-50
+		yPos					30
+		wide					20
+		tall					20	
+		"zpos"	"80"
+		font					"newicons20"
+		fgcolor_override			"255 255 255 255"
+		labelText				"Ê"
+		textAlignment			center
+		"bgcolor_override"	"0 0 0 150"
+	}		
 				"Buttons"
 					{
 						
@@ -303,4 +347,4 @@
 		"fgcolor_override"		"Primary"
 		"font"					"NewIcons12"		
 	}		
-}
+}}

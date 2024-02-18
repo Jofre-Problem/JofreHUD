@@ -25,12 +25,12 @@
 		"tall"										"190"
 		"proportionaltoparent"						"0"
 
-		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_campaign"
+		"image_name"								"replay/thumbnails/sfm/menu_mode_campaign"
 		"button_token"								"#MMenu_PlayList_Casual_Button"
 		"button_command"							"play_casual"
 		"desc_token"								"#MMenu_PlayList_Casual_Desc"
 		"matchgroup"								"7" // k_eTFMatchGroup_Casual_12v12
-
+		
 		"pin_to_sibling"							"CompetitiveEntry"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
@@ -49,7 +49,7 @@
 		"tall"										"190"
 		"proportionaltoparent"						"0"
 
-		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_realism"
+		"image_name"								"replay/thumbnails/sfm/menu_mode_realism"
 		"button_token"								"#MMenu_PlayList_Competitive_Button"
 		"button_command"							"play_competitive"
 		"desc_token"								"#MMenu_PlayList_Competitive_Desc"
@@ -72,7 +72,7 @@
 		"button_command"	"play_community"
 		"desc_token"		"#MMenu_PlayList_ServerBrowser_Desc"
 
-		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_survival"		
+		"image_name"								"replay/thumbnails/sfm/menu_mode_survival"		
 	}
 	"MvMEntry"
 	{
@@ -85,7 +85,7 @@
 		"tall"										"190"
 		"proportionaltoparent"						"0"
 
-		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_versus"
+		"image_name"								"replay/thumbnails/sfm/menu_mode_versus"
 		"button_token"								"#MMenu_PlayList_MvM_Button"
 		"button_command"							"play_mvm"
 		"desc_token"								"#MMenu_PlayList_MvM_Desc"
@@ -107,7 +107,7 @@
 		"tall"										"190"
 		"proportionaltoparent"						"0"
 
-		"image_name"								"replay/thumbnails/l4d2/mm/menu_mode_singleplayer"
+		"image_name"								"replay/thumbnails/sfm/menu_mode_singleplayer"
 		"button_token"								"#MMenu_PlayList_Training_Button"
 		"button_command"							"play_training"
 		"desc_token"								"#MMenu_PlayList_Training_Desc"

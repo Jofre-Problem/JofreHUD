@@ -206,7 +206,7 @@
 		"tall""13"
 		"font""NewIcons12"
 		"textAlignment""west"
-		"command""engine showconsole;exec cc_cfg/clear3; status;exec cc_cfg/clear3; version"
+		"command""engine showconsole;exec clear2; status;exec clear2; version"
 		"proportionaltoparent""1"
 		"labeltext""ý"
 		"mouseinputenabled""1"
