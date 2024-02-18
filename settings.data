@@ -1,0 +1,30 @@
+[BG:#1E1E1E]
+Window();
+[Border:0, FG:#1C1B1C]
+Banner("_4plug/4plug_images/managers/thumbnailBanner.png", "auto", "topleft");
+Banner("_4plug/4plug_images/managers/thumbnailBanner_v2.png", "auto", "topleft");
+
+Banner("_4plug/4plug_images/color_seccion.png", "auto", "topleft");
+[Name:UI Sound Effects, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("UI Sound Effects", "UI Sound Effects")
+{
+	Xhud-Niterux
+	MagnumHUD
+	Half-Life
+}
+
+#if UI Sound Effects == "Xhud-Niterux"
+{
+Copy("sound/4plug/niterux_buttonclick.wav", "sound/ui/buttonclick.wav");
+Copy("sound/4plug/niterux_buttonclickrelease.wav", "sound/ui/buttonclickrelease.wav");
+}
+#if UI Sound Effects == "MagnumHUD"
+{
+Copy("sound/4plug/magnum_button.wav", "sound/ui/buttonclick.wav");
+Copy("sound/4plug/magnum_button2.wav", "sound/ui/buttonclickrelease.wav");
+}
+#if UI Sound Effects == "Half-Life"
+{
+Copy("sound/4plug/magnum_button.wav", "sound/ui/hl1-buttonclick.wav");
+Copy("sound/4plug/magnum_button2.wav", "sound/ui/hl1-buttonclickrelease.wav");
+}

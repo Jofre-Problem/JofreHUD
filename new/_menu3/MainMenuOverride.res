@@ -122,8 +122,8 @@
 		font			"NewIcons12"
 		command				"engine workshop"
 
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"245 245 245 255"
 		armedFgColor_override		"157 83 33 255"
@@ -202,8 +202,8 @@
 
 			labelText				""
 			
-			sound_depressed			"ui/button.wav"
-			sound_released			"ui/button2.wav"
+			sound_depressed			"ui/buttonclick.wav"
+			sound_released			"ui/buttonclickrelease.wav"
 			sound_armed				"UI/buttonrollover.wav"
 			
 			paintbackground			0
@@ -322,8 +322,8 @@
 
 			Command				"noti_hide"
 
-			sound_depressed			"ui/button.wav"
-			sound_released			"ui/button2.wav"
+			sound_depressed			"ui/buttonclick.wav"
+			sound_released			"ui/buttonclickrelease.wav"
 		
 			defaultFgColor_override		"245 245 245 255"
 			defaultBgColor_override		"37 39 37 255"
@@ -537,8 +537,8 @@
 		"depressedFgColor_override" "245 245 245 255"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"193 175 75 255"
@@ -567,8 +567,8 @@
 		defaultFgColor_override		"159 159 189 255"
 		armedFgColor_override		"245 245 245 255"
 		"depressedFgColor_override" "245 245 245 255"
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
 	}		
 	"Workspace3"		// open achievements window
@@ -589,8 +589,8 @@
 		armedFgColor_override		"245 245 245 255"
 		
 		"depressedFgColor_override" "245 245 245 255"
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"SafeMode2"		

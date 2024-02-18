@@ -14,8 +14,8 @@
 		armedFgColor_override		"notowhite"
 		"depressedFgColor_override" "W_CerrarArmed"
 		"selectedFgColor_override"	"W_CerrarArmed"
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -34,8 +34,8 @@
 		armedFgColor_override		"notowhite"
 		"selectedFgColor_override"	"W_CerrarArmed"
 		"depressedFgColor_override" "NotoWhite"
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"1_btn"		
@@ -55,8 +55,8 @@
 		armedFgColor_override		"notowhite"
 		
 		"depressedFgColor_override" "NotoWhite"
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"2_btn"		
@@ -513,8 +513,8 @@
 
 			labelText				""
 			
-			sound_depressed			"ui/button.wav"
-			sound_released			"ui/button2.wav"
+			sound_depressed			"ui/buttonclick.wav"
+			sound_released			"ui/buttonclickrelease.wav"
 			sound_armed				"UI/buttonrollover.wav"
 			
 			paintbackground			0
@@ -762,8 +762,8 @@
 		font			"NewIcons12"
 		command				"engine workshop"
 
-		sound_depressed			"ui/button.wav"
-		sound_released			"ui/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 		defaultFgColor_override		"210 130 231 255"
 		armedFgColor_override		"157 83 33 255"
@@ -811,8 +811,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"SubImage"
 			{

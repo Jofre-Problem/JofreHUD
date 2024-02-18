@@ -1,0 +1,5 @@
+event HitMarker
+{
+	Animate "Hitmarker"    	 				Alpha     "255"							Linear 	0.0 	0.0
+    Animate "Hitmarker"    					Alpha     "0"   						Linear 	0.0 	0.625
+}

@@ -1,0 +1,58 @@
+ADDON Transparent|Off
+Steam Summer Sale Border|Disabled
+CFG Advanced Scoreboard|Disabled
+UI Style|Default
+ADDON Transparent Class Model|Off
+UI Health Cross|Disabled
+UI Circular Uber Charge|Disabled
+UI Damage Float Damage|Normal
+UI Damage Value|Normal
+UI Damage Position X|Left
+MAIN MENU Character Image|Disabled
+MAIN MENU Particle|Disabled
+MAIN MENU Preload|Disabled
+Font Name Select|TF2
+EXPERIMENTAL Cart BG Glow|OFF (Default)
+EXPERIMENTAL No Chat BG|OFF
+EXPERIMENTAL Crosshair in Scoreboard|OFF
+EXPERIMENTAL Scoreboard Slide In|OFF
+EXPERIMENTAL Scope Removal|OFF
+EXPERIMENTAL Square Shadows|OFF
+Damage Indicator|Stock
+System Tray Icon|None
+Server Plugin Font|Product Sans
+Transparent Viewmodels|On
+Remove Scope|Off
+No Chat BG|Off
+Crosshair on scoreboard|Off
+Scoreboard Slide|Off
+Cart Glow|On
+Resolution|1920x1980
+Net Graph Font|Calling Code
+Speed Bar Metter|Enabled
+Speed Bar Counter|bold
+Speed Bar Meter|Disabled
+Speed Meter|Enabled
+Global Timer|Enabled
+Menu Timer|Enabled (00-00-00)
+Class Model Background|YaHud Corner
+Close Caption Style|Magnum
+Hitmarkers|^
+
+Resolution|1920x1980
+Speed Meter|Disabled
+Global Timer|Disabled
+Menu Timer|Enabled (00-00-00)
+System Tray Icon|None
+Server Plugin Font|Default
+Net Graph Font|Calling Code
+Transparent Viewmodels|Off
+Class Model Background|Disabled
+Remove Scope|On
+No Chat BG|Off
+Crosshair on scoreboard|Off
+Scoreboard Slide|On
+Cart Glow|On
+Close Caption Style|Magnum
+Hitmarkers|OFF (Default)
+UI Sound Effects|MagnumHUD

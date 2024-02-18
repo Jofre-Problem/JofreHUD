@@ -51,8 +51,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}		
 		"Plus"			// other classes pinned to this
 	{
@@ -72,8 +72,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 		"Create"			// other classes pinned to this
 	{
@@ -93,8 +93,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 		"Quest"			// other classes pinned to this
 	{
@@ -114,8 +114,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 
 	"Options"			// other classes pinned to this
@@ -136,8 +136,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 	"adv"			// other classes pinned to this
 	{
@@ -157,8 +157,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}				
 	"Shop"			// other classes pinned to this
 	{
@@ -178,8 +178,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 	"Loadout"			// other classes pinned to this
 	{
@@ -199,8 +199,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 	"Training"			// other classes pinned to this
 	{
@@ -220,8 +220,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}					
 	"Bugs"			// other classes pinned to this
 	{
@@ -241,8 +241,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}				
 	"Console"			// other classes pinned to this
 	{
@@ -262,8 +262,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}			
 	"Demo"			// other classes pinned to this
 	{
@@ -283,8 +283,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}		
 	"Customization"			// other classes pinned to this
 	{
@@ -304,8 +304,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/button.wav"
-			"sound_released"	"ui/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 	}							
 		"Background"		//Only not removed cuz save settings button
 		{

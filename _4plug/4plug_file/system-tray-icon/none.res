@@ -1,0 +1,5 @@
+Scheme
+{
+	BaseSettings
+	{FrameSystemButton.Icon			""}	
+}	

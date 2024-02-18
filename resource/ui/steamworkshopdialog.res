@@ -28,8 +28,8 @@
 			tall					60
 			"labelText"		"Customize HUD!"
 			"textinsety"	"20"
-			"sound_depressed"	"UI/button.wav"
-			"sound_released"	"UI/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"paintbackground"	"0"
 			
@@ -330,8 +330,8 @@
 			"zpos"					"20"
 			"labelText"		""
 			"command"		"cancel"	
-			"sound_depressed"	"UI/button.wav"
-			"sound_released"	"UI/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"border"		"noborder"
 			"paintbackground"	"0"
 		

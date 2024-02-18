@@ -1,0 +1,20 @@
+//magnum hud chat bg remover
+//make sure that you also have some chatanim.cfg because this needs it p much
+event SetHudChatAlpha
+{
+//	Animate HudChat bgcolor "0 0 0 0" linear 0.0 0.0
+//	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
+//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
+//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
+	
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
+	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
+	
+	RunEvent SetHudChatAlphaLoop 0.1
+}
+event SetHudChatAlphaLoop
+{
+	RunEvent SetHudChatAlpha 0.1
+}
