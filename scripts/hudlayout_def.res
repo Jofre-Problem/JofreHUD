@@ -205,17 +205,7 @@
 	}
 	
 	
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"10"	
-		"ypos"		"r70"	
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	
-	}
+
 
 	CMainTargetID
 	{

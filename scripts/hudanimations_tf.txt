@@ -74,31 +74,8 @@ event CloseWeaponSelectionMenu
 }
 
 
-event MenuOpen
-{
-	StopEvent	MenuClose 0.0 
 
-	// fade in
-	Animate HudMenu Alpha 		"255"		Linear 0.0 0.1
-	Animate HudMenu SelectionAlpha 	"255"		Linear 0.0 0.1
-	Animate HudMenu FgColor		"FgColor"		Linear 0.0 0.1
-	Animate HudMenu MenuColor		"MenuColor"	Linear  0.0 0.1
-	Animate HudMenu ItemColor		"ItemColor"	Linear 0.0 0.1
-	Animate HudMenu TextScan		"1"		Linear 0.0 0.1
 
-	// Undo any blur
-	Animate HudMenu		Blur		"1"			Linear	0.0		0.01
-}
-
-event MenuClose
-{	
-	// Hide it
-	Animate HudMenu Alpha 		"0" Linear 0.0 1
-	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
-	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
-	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
-	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
-}
 
 event MenuPulse
 {

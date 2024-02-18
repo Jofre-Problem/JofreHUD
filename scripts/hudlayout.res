@@ -171,7 +171,7 @@
 	}
 	HudDeathNotice
 	{
-		"xpos"	 "rs1-2-p0.001" // 6 KF
+		"xpos"	 "0" // 6 KF
 		"ypos"	 "35" // 7 KF
 		"wide"	 "f0"
 		"tall"	 "p0.6"
@@ -312,13 +312,6 @@
 		"alpha"	"150"
 	}
 	
-	DisguiseStatus
-	{
-		"xpos"		"0"
-		"ypos"		"rs1"
-		"wide"		"f0"
-		"tall"		"175"
-	}
 
 	HudTournament
 	{
@@ -369,6 +362,14 @@
 		"ypos"		"240"
 		"wide"		"f5"
 		"tall"		"240"
+	}	
+	DisguiseStatus
+	{
+		"fieldName" "DisguiseStatus"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"f0"	
 	}	
 	"BuildingStatusAnchor"
 	{

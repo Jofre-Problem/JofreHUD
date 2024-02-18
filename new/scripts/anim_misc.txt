@@ -72,9 +72,17 @@ event MenuOpen
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
 //	RunEvent LevelInitAny 0.0
-	
+	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
+	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
+
+	Animate HudPlayerStatus xpos 		"-200"		Linear 0.0 0.2
+	Animate HudWeaponAmmo xpos 		"700"		Linear 0.0 0.2
+	Animate HudDeathNotice xpos 		"-350"		Linear 0.0 0.01
+	Animate HudDeathNotice ypos 		"290"		Linear 0.0 0.01
+//	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
+	setfont HudDeathNotice "textfont" "Notobold20"	0.001
 }
 event TestTestingCmd
 {	
@@ -94,7 +102,11 @@ event ScoreboardAlpha
 }
 event MenuClose
 {	
-	
+	StopEvent	MenuOpen 0.0 	
+	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
+	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01
+//	Animate HudDemomanCharge ypos 		"0"		Linear 0.0 0.5
+	setfont HudDeathNotice "textfont" "Notobold12"	0.001
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
 	PlaySound 0 "vo/deck_ui_slider_down.wav"
@@ -103,7 +115,10 @@ event MenuClose
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
-
+	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
+	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
+	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
+	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
 	//RunEvent LevelInitAny 0.0
 }
 
@@ -117,7 +132,7 @@ event MenuPulse
 //	Animate HudMenu		Blur		"2"			Deaccel	0.5		0.1
 //	Animate	HudMenu		Blur		"1"			Deaccel	0.6		0.4
 	
-	RunEvent MenuClose 0.0
+//	RunEvent MenuClose 0.0
 }
 
 event HasMOTDBlink

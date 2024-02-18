@@ -24,7 +24,7 @@
 					"ControlName""ImagePanel"
 					"fieldName""LogoImage"
 					"xpos""rs1"
-					"ypos""rs1-36"
+					"ypos""rs1"
 					"wide""280"
 					"tall""o1"
 
