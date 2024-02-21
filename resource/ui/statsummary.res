@@ -473,7 +473,7 @@
 		"visible"		"0"
 		
 		"font"	"Regular16"
-		"labelText"		"Locked Session."
+		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, Yellow Devil, Sgtjoe, etc"
 		"textAlignment"	"center"
 		////	"0"
 		////	"0"

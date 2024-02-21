@@ -79,7 +79,7 @@ event MenuOpen
 
 	Animate HudPlayerStatus xpos 		"-200"		Linear 0.0 0.2
 	Animate HudWeaponAmmo xpos 		"700"		Linear 0.0 0.2
-	Animate HudDeathNotice xpos 		"-350"		Linear 0.0 0.01
+	Animate HudDeathNotice xpos 		"-180"		Linear 0.0 0.01
 	Animate HudDeathNotice ypos 		"290"		Linear 0.0 0.01
 //	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
 	setfont HudDeathNotice "textfont" "Notobold20"	0.001

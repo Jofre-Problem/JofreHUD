@@ -40,7 +40,7 @@
 					"xpos"			"rs1"
 					
 					"tall"			"f0-35"
-					"wide"			"7" // This gets slammed from client schme.  GG.
+					"wide"			"9" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
@@ -557,7 +557,7 @@
 					"xpos"			"0"
 					
 					"tall"			"f0"
-					"wide"			"7" // This gets slammed from client schme.  GG.
+					"wide"			"9" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"

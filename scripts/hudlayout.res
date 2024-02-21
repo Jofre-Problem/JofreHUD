@@ -176,7 +176,7 @@
 		"wide"	 "f0"
 		"tall"	 "p0.6"
 
-		"MaxDeathNotices"		"6"
+		"MaxDeathNotices"		"8"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "0"

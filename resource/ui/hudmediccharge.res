@@ -303,21 +303,21 @@
 		"fieldName"		"IndividualChargesLabel"
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"whattimeis1"
-		"xpos"			"384"
+		"xpos"			"-14"
 		"ypos"			"5"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"40"
-		"textAlignment"	"center"
-		"labelText"		"#vacuberpadded"	
+		"textAlignment"	"west"
+		"labelText"		"#vacuberpadded2"	
 	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
 	}	
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthClusterIcon"
-		"xpos"			"2"
-		"ypos"			"17"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
@@ -330,8 +330,9 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"1_editable"		
-		"xpos" 		"94"
-		"ypos"		"1"
+		"xpos" 		"cs-0.5"
+
+		"ypos"		"cs-0.5+30"
 	}
 	"ResistIcon"
 	{

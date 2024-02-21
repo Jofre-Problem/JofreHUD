@@ -152,7 +152,7 @@
     "Texture2"         "vgui/replay/thumbnails/hp/gradienttest"
     "Texture3"         "vgui/replay/thumbnails/hp/gradienttest"
     "Texture4"         "vgui/replay/thumbnails/hp/gradienttest"
-		"MaxDeathNotices"		"6"
+		"MaxDeathNotices"		"8"
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "0"
