@@ -16,11 +16,43 @@
 		"settitlebarvisible"	"0"
 		
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"Graydark"
+		"bgcolor_override"	"64 64 64 255"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
-		
+								"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"0"
+					
+					"tall"			"f0"
+					"wide"			"9" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"notowhite"
+						"alpha" "100"
+						"bgcolor_override"	"Blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}		
 		"itemskv"	
 		{
 			"wide"			"220"
@@ -65,7 +97,7 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -73,14 +105,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Size 24 Uber"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"20"
-		"ypos"			"5"
+		"ypos"			"2"
 		"zpos"			"1"
 		"wide"			"60"
-		"tall"			"15"
+		"tall"			"20"
 		
 		//		"0"
 		"visible"		"1"
@@ -91,14 +123,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"NotoBold18"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"west"
-		"xpos"			"80"
-		"ypos"			"5"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"15"
+		"wide"			"275"
+		"tall"			"18"
 		
 		//		"0"
 		"visible"		"1"
@@ -106,19 +138,19 @@
 	}
 	
 	"TopLine"
-	{
+ 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"5"
-		"ypos"			"20"
-		"zpos"			"2"
-		"wide"			"265"
-		"tall"			"10"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
+		"fillcolor"			"30 30 30 255"
+		PaintBackgroundType	"2"
+		roundedcorners	"3"
 	}				
 		
 	"itemcontainerscroller"
@@ -129,10 +161,43 @@
 		"ypos"			"30"
 		"wide"			"265"
 		"tall"			"125"
-		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"59 54 48 255"
+		"PaintBackgroundType"	"3"
+		"fgcolor_override"	"notowhite"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
+									"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"35" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"notowhite"
+						"alpha" "100"
+						"bgcolor_override"	"Blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}	
 	}
 		
 	"itemcontainer"
@@ -159,7 +224,7 @@
 			"wide"			"200"
 			"tall"			"40"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"3"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"blank"
 		}
@@ -199,5 +264,54 @@
 		"enabled"		"1"
 		//	"0"
 		"paintbackground"	"0"
+
+		      "LoadPresetButton0"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton0"
+            "tall"                    "28"
+            "wide"                    "23"
+            "font"                    "HudFontMediumSmallBold"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+        "LoadPresetButton1"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton1"
+            "tall"                    "28"
+            "wide"                    "23"
+            "font"                    "HudFontMediumSmallBold"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+        "LoadPresetButton2"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton2"
+            "tall"                    "28"
+            "wide"                    "23"
+            "font"                    "HudFontMediumSmallBold"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }
+        "LoadPresetButton3"
+        {
+            "ControlName"            "CExButton"
+            "fieldName"                "LoadPresetButton3"
+            "tall"                    "28"
+            "wide"                    "23"
+            "font"                    "HudFontMediumSmallBold"
+            "textAlignment"            "center"
+            "Command"                ""
+            "sound_depressed"        "UI/buttonclick.wav"
+            "sound_released"        "UI/buttonclickrelease.wav"
+        }				
 	}
 }
