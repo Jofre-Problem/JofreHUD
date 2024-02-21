@@ -8,7 +8,7 @@
 		"ypos"			"280"
 		"wide"			"275"
 		"tall"			"160"
-		
+		zpos		10000
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
@@ -35,11 +35,18 @@
 			"model_wide"	"58"		
 			"model_tall"	"34"
 			
+			"force_use_model"		"1"
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+			"use_pedestal"			"1"
+			"use_particle"			"1"
+			"fov"					"75"
 			"text_center"	"1"
 			"text_xpos"		"60"
 			"text_wide"		"190"
 			"name_only"		"1"
-			
+			model_rotate_yaw_speed	100
+			allow_rot 1
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}

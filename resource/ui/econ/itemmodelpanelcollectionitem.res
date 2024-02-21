@@ -115,7 +115,7 @@
 			"model"
 			{
 				"force_pos"	"1"
-
+				"use_particle"	"1"
 				"angles_x" "7"
 				"angles_y" "130"
 				"angles_z" "0"

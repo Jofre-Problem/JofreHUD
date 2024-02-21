@@ -351,11 +351,12 @@
 			"PaintBackground"	"0"
 			"paintborder"	"1"
 			"border"	"LoadoutItemPopupBorder"
-			
-			"model_center_x"	"1"
+			"model_rotate_yaw_speed"	"180"
+			"model_center_x"	"0"
+			"model_xpos"	"0"
 			"model_ypos"		"5"			
-			"model_tall"		"55"
-			"model_wide"		"82"
+			"model_tall"		"155"
+			"model_wide"		"170"
 			"text_ypos"			"254"
 			"text_center"		"1"
 			"name_only"			"1"
@@ -368,8 +369,12 @@
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
+				"use_item_rendertarget" "1"
+				"allow_rot"				"1"
+							model_rotate_yaw_speed	50
+			"force_use_model"		"1"
+			"use_particle"			"1"		
+			fov	80
 			}
 		}
 

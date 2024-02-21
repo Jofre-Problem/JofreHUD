@@ -24,7 +24,7 @@
 		"item_backpack_offcenter_x"					"-281"
 		"item_backpack_xdelta"						"3"
 		"item_backpack_ydelta"						"3"
-
+	"use_particle"	"1"
 		"button_xpos_offcenter"						"175"
 		"button_ypos"								"95"
 		"button_ydelta"								"90"
@@ -111,11 +111,12 @@
 
 			"inset_eq_x"							"2"
 			"inset_eq_y"							"2"
-
+			"use_particle"	"1"
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
+				"use_particle"	"1"
 			}
 
 			"New"
@@ -560,6 +561,7 @@
 		{
 			"use_item_rendertarget" 				"0"
 			"allow_rot"								"0"
+			"use_particle"	"1"
 		}
 	}
 

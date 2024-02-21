@@ -29,7 +29,7 @@
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
-
+	"use_particle"			"1"		
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
@@ -47,13 +47,18 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			
+				"use_item_rendertarget" "1"
+				"allow_rot"				"1"
+							model_rotate_yaw_speed	50
+			"force_use_model"		"1"
+			"use_particle"			"1"				
 			"model_ypos"	"3"
 			"model_tall"	"49"
 			"text_ypos"		"46"
 			"text_center"	"1"
 			"name_only"		"1"
 			
+			"use_particle"			"1"		
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
@@ -62,8 +67,11 @@
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
+				"use_item_rendertarget" "1"
+				"allow_rot"				"1"
+							model_rotate_yaw_speed	50
+			"force_use_model"		"1"
+			"use_particle"			"1"	
 			}
 		}
 	}
@@ -88,6 +96,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"30"
+		"use_particle"			"1"		
 	}
 
 	"CaratLabel"

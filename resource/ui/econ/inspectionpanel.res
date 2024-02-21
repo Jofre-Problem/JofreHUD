@@ -46,7 +46,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-
+			model_rotate_yaw_speed 30
 		"proportionaltoparent"	"1"
 
 		"force_use_model"		"1"
@@ -58,7 +58,7 @@
 		"use_particle"			"1"
 		"fov"					"68"
 		"allow_manip"			"0"
-
+		"use_particle"	"1"
 		"model"
 		{
 			"force_pos"	"1"
@@ -73,7 +73,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+			"use_particle"	"1"
 			"modelname"		""
 		}
 
@@ -214,7 +214,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"0"
-		"ypos"			"rs1-7"
+		"ypos"			"rs1-17"
 		"wide"			"f0"
 		"tall"			"42"
 		"zpos"			"100"
