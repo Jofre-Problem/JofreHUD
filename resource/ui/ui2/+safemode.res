@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LogoButtons"
-		"xpos"			"-36"////"cS-0.5-227-75"
+		"xpos"			"-35"////"cS-0.5-227-75"
 		"ypos" 			"cS-0.5-35+17"
 		"zpos"			"299"
 		"wide"			"320"
@@ -38,7 +38,7 @@
 		ControlName				CExButton
 		fieldName				"Browse"
 	
-		"xpos"							"47"
+		"xpos"							"48"
 		"ypos"							"cs-0.5-41"
 		"wide"							"92"
 		"tall"							"20"

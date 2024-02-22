@@ -1,7 +1,9 @@
 #base "polybar_1.res"
 #base "polyconfig1.res"
 "j"
-{	"1_btn"		// open achievements window
+{	
+
+	"1_btn"		// open achievements window
 	{
 		"zpos"			"3000"
 		wide					30

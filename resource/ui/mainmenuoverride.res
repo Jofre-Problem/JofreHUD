@@ -7,6 +7,7 @@
 
 #base "../../../../cfg/jp_mm_bg.txt"
 #base "../../scripts/preload.res"
+#base "../../../../cfg/jp_medal_mm.txt"
 #base "../../setup/setup_menu.res"
 
 
@@ -32,6 +33,5 @@
 	"RankPanel"
 	{
 		"visible"										"0"
-	}	
-		
+	}
 }
