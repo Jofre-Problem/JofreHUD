@@ -154,12 +154,12 @@
     "Texture4"         "vgui/replay/thumbnails/hp/gradienttest"
 		"MaxDeathNotices"		"8"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
+		"LineHeight"	  "22"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "5"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Size 10"
+		"TextFont"		"Noto20"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

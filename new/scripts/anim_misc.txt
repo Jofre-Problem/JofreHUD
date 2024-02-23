@@ -106,7 +106,7 @@ event MenuClose
 	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
 	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01
 //	Animate HudDemomanCharge ypos 		"0"		Linear 0.0 0.5
-	setfont HudDeathNotice "textfont" "Notobold12"	0.001
+	setfont HudDeathNotice "textfont" "Noto16"	0.001
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
 	PlaySound 0 "vo/deck_ui_slider_down.wav"

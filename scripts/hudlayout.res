@@ -179,13 +179,13 @@
 		"tall"	 "p0.6"
 
 		"MaxDeathNotices"		"8"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "14"
+		"IconScale"	  "0.38"
+		"LineHeight"	  "18"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"NotoBold12"
+		"TextFont"		"Killfeed"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
