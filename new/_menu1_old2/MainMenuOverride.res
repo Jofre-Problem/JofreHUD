@@ -2,7 +2,14 @@
 #base "polyconfig1.res"
 "j"
 {	
-
+"ChatPin"
+{
+    "ControlName"    "Panel"
+}
+"partychat"
+{
+    "pin_to_sibling"    "ChatPin"
+}
 	"1_btn"		// open achievements window
 	{
 		"zpos"			"3000"

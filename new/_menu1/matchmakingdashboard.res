@@ -698,7 +698,7 @@
 				"tall"			"f6"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-
+				"alpha"		"100"
 				"border"		"ReplayDefaultBorder"
 			}
 
@@ -725,11 +725,11 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"JoinNowButton"
-				"xpos"			"rs1-10"
-				"ypos"			"rs1-9"
+				"xpos"			"rs1"
+				"ypos"			"rs1"
 				"wide"			"40"
-				"zpos"			"100"
-				"tall"			"15"
+				"zpos"			"220"
+				"tall"			"20"
 
 				if_queued
 				{

@@ -6,7 +6,7 @@
 		"fieldName"		"TFAdvancedOptionsDialog"
 		"xpos"		"c-250"
 		"ypos"		"90"
-		"wide"		"500"
+		"wide"		"f0"
 		"tall"		"350"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
@@ -43,28 +43,29 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NotoBold36"
-		"labelText"		"#TF_AdvancedOptions"
+		"labelText"		"TF2 Advanced /cfg/user_default.scr"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"500"
+		"wide"			"f0"
 		"tall"			"40"
 		
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "white"
+		"fgcolor_override" "notoblack"
+		"bgcolor_override"	"notowhite"
 	}
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"150"
+		"xpos"			"0"
 		"ypos"			"310"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"p0.5"
+		"tall"			"35"
 		
 		//		"3"
 		"visible"		"1"
@@ -88,11 +89,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OkButton"
-		"xpos"			"300"
+		"xpos"			"0+p0.5"
 		"ypos"			"310"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"p0.5"
+		"tall"			"35"
 		
 		//		"3"
 		"visible"		"1"
@@ -115,7 +116,7 @@
 	{
 		"ControlName"		"CPanelListPanel"
 		"fieldName"		"PanelListPanel"
-		"xpos"		"10"
+		"xpos"		"cs-0.5"
 		"ypos"		"40"
 		"wide"		"480"
 		"tall"		"260"
@@ -128,6 +129,7 @@
 		"border"	"noborder"
 		"Slider"
 		{
+			"wide"	"12"
 		"fgcolor_override""TanDark"
 		}
 		
@@ -181,4 +183,34 @@
 			//"centerwrap"	"1"
 		}
 	}	
+
+	"moreinfo"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"moreinfo"
+		"font"			"Notobold14"
+		"labelText"		"Need more info? Click here."
+		"textAlignment"	"west"
+		"xpos"			"20"
+		"ypos"			"46"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"16"
+		"fgcolor_override" "notowhite"
+	}	
+	"moreinfo2"
+	{
+		"ControlName"	"urllabel"
+		"fieldName"		"moreinfo2"
+		"font"			"Noto10"
+		"labelText"		"https://wiki.teamfortress.com/wiki/Multiplayer_options#Advanced_multiplayer_options"
+		"textAlignment"	"west"
+		"xpos"			"20"
+		"ypos"			"60"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"40"
+		"wrap"	"1"
+		"fgcolor_override" "notowhite"
+	}		
 }

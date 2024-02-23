@@ -11,14 +11,7 @@
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 
-#base "../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
-#base "../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
-#base "../customization/_dev/crosshairs/hitmarker_res_files/base.res"
 
-
-#base "../customization/_dev/crosshairs/crosshair_res_files/shape_current.res"
-#base "../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
-#base "../customization/_dev/crosshairs/crosshair_res_files/base.res"	
 "j"
 {
 	

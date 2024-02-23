@@ -19,7 +19,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Noto16"
+		"font"			"NotoBold22"
 	}
 
 	"MapLabel"

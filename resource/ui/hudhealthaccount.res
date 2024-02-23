@@ -1,3 +1,4 @@
+
 "Resource/UI/HudHealthAccount.res"
 {
 	"CHealthAccountPanel"
@@ -11,4 +12,5 @@
 		"delta_lifetime"		"2.5"
 		"delta_item_font"		"HealthAndAmmo20"
 	}
+	
 }
