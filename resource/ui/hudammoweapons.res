@@ -1,5 +1,6 @@
 #base "../../../../cfg/jp_custom_ammo_progressbar.txt"
-
+#base "../../../../cfg/jp_ui_circular.txt"
+#base "../../../../cfg/jp_ui_ammobg.txt"
 
 
 #base "_tf2hud/hudammoweapons.res"
@@ -70,7 +71,7 @@
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"	"cleanup"
+	//	"border"	"cleanup"
 		"pin_to_sibling"	"AmmoAnchor"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"	
@@ -191,8 +192,8 @@
 		"ypos"			"0"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"		
+//		"teambg_2"		"replay/thumbnails/hp/redteam"
+	//	"teambg_3"		"replay/thumbnails/hp/bluteam"		
 		"wide"			"123"
 		"tall"			"34"
 		"pin_to_sibling"	"AmmoAnchor"
@@ -309,7 +310,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
-		"border"		"cleanup"		
+	///	"border"		"cleanup"		
 		"ypos"	"-34"
 		"pin_to_sibling"	"AmmoAnchor"
 	}						
