@@ -89,7 +89,54 @@ Scheme
 				//
 				"antialias"	"1"
 			}
-		}		
+		}
+		"HealthAndAmmoShadow"
+		{
+			"1"
+			{
+				"name" "Open Sans Shadow"
+				"tall" "38"
+				"antialias"	"1"
+			}
+		}
+		"HealthAndAmmoShadow1"
+		{
+			"1"
+			{
+				"name" "Open Sans Shadow"
+				"tall" "39"
+				"antialias"	"1"
+				"blur" "1"
+				"yres" "479 481"
+			}
+			"2"
+			{
+				"name" "Open Sans Shadow"
+				"tall" "38"
+				"antialias"	"1"
+				"blur" "1"
+			}
+		}
+		"HealthAndAmmoShadow2"
+		{
+			"1"
+			{
+				"name" "Open Sans Shadow"
+				"tall" "38"
+				"antialias"	"1"
+				"blur" "2"
+			}
+		}
+		"HealthAndAmmoShadow3"
+		{
+			"1"
+			{
+				"name" "Open Sans Shadow"
+				"tall" "38"
+				"antialias"	"1"
+				"blur" "3"
+			}
+		}				
 		// MAGNUM HUD
 		"DamagetextShadow"
 		{
@@ -245,6 +292,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Metaltext"
+		{
+			"1"
+			{
+				"name" "Open Sans Nodash"
+				"tall" "34"
+				"antialias"	"1"
+			}
+		}		
 		"AmmoPipesOut2"
 		{
 			"1"
@@ -1268,6 +1324,11 @@ Scheme
 			"font" "fonts/Blank.otf"
 			"name" "Blank"
 		}
+		"shadow"
+		{
+			"font" "fonts/OpenSans-Shadow.ttf"
+			"name" "Open Sans Shadow"
+		}		
 		"Bot Detector Font" 
 		{
 			"font" "fonts/CustomNotoMono.ttf"

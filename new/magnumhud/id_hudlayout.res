@@ -12,7 +12,7 @@
 		"xpos"		"c-126"
 		"ypos"		"275"
 		"wide"	 	"252"
-		"tall"	 	"50"
+		"tall"	 	"70"
 		"priority"	"40"
 	}
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
