@@ -120,7 +120,24 @@
 		"pin_to_sibling"	"AmmoAnchor"
 	}
 
-
+	"AmmoEverywhereDudeDoubleLow" //yeah just for the reserve basically but idk
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoEverywhereDudeDoubleLow"
+		"font"			"LowestAmmoFont"
+		"fgcolor"		"235 35 35 255"
+//		"xpos"			"-60"//-80
+		"ypos"			"0"
+		"zpos"			"400"
+		"wide"			"143" //150
+		"tall"			"34"[$WINDOWS]
+		"tall"			"0"	[$LINUX]
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"		
+		"labelText"		"#doubleammo"
+		"pin_to_sibling"	"AmmoAnchor"
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -244,24 +261,7 @@
 		"labelText"		"%ammo%"	
 		"pin_to_sibling"	"AmmoAnchor"
 	}
-	"AmmoEverywhereDudeDoubleLow" //yeah just for the reserve basically but idk
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"AmmoEverywhereDudeDoubleLow"
-		"font"			"LowestAmmoFont"
-		"fgcolor"		"235 35 35 255"
-//		"xpos"			"-60"//-80
-		"ypos"			"0"
-		"zpos"			"400"
-		"wide"			"143" //150
-		"tall"			"34"[$WINDOWS]
-		"tall"			"0"	[$LINUX]
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"		
-		"labelText"		"#doubleammo"
-		"pin_to_sibling"	"AmmoAnchor"
-	}
+
 	"AmmoEverywhereDudeLow" //meaning clip at 0
 	// TALL WAS 0 FOR NO REASON
 	// WHYYYY
