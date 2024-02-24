@@ -237,15 +237,16 @@
 		"fieldName"		"AmmoEverywhereDudeS1"//AmmoEverywhereDude1
 		"font"			"HealthAndAmmoShadow1"
 		"fgcolor"		"0 0 0 185"
-		"xpos"			"-2457"
-		"ypos"			"-5"
-		"zpos"			"6"
-		"wide"			"5000"
+		"xpos"			"58"
+		"ypos"			"5"
+		"zpos"			"15"
+		"wide"			"200"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%ammo%"	
+		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"AmmoEverywhereDudeDoubleLow" //yeah just for the reserve basically but idk
 	{
