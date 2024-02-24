@@ -236,6 +236,7 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"HPBar"
+        visible 0
 		"xpos"			"c-152"
 		"ypos"			"rs1-40"
 		"zpos"			"80"

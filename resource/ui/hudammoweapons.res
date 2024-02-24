@@ -119,30 +119,26 @@
 		"labelText"		"%AmmoInReserve%"
 		"pin_to_sibling"	"AmmoAnchor"
 	}
+
+
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"xpos"			"0"
-		"tall"			"0"
-	}	
-
-//	"AmmoInReserveShadow"
-//	{
-//		"ControlName"	"CExLabel"
-//		"fieldName"		"AmmoInReserveShadow"
-//		"font"			"AmmoReserve"
-//		"fgcolor"		"7 7 7 0"
-//		"xpos"			"-148"
-//		"ypos"			"0"
-//		"zpos"			"5"
-//		"wide"			"500"
-//		"tall"			"34"
-//		"visible"		"0"
-//		"enabled"		"1"
-//		"textAlignment"	"center"		
-//		"labelText"		"#ammoreservepadded"
-//	}									
+		"font"			"LowAmmoFont"
+		"font" 	"blank"	[$LINUX]	
+	"fgcolor"		"7 7 7 0"
+		"xpos"			"-40"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"85"
+		"tall"			"34"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoAnchor"
+	}									
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -253,11 +249,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeDoubleLow"
 		"font"			"LowestAmmoFont"
-		"fgcolor"		"whattimeis1"
+		"fgcolor"		"235 35 35 255"
 //		"xpos"			"-60"//-80
 		"ypos"			"0"
-		"zpos"			"4"
-//		"wide"			"143" //150
+		"zpos"			"400"
+		"wide"			"143" //150
 		"tall"			"34"[$WINDOWS]
 		"tall"			"0"	[$LINUX]
 		"visible"		"1"

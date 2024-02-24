@@ -8,7 +8,7 @@
 }
 "partychat"
 {
-    "pin_to_sibling"    "ChatPin"
+ //   "pin_to_sibling"    "ChatPin"
 }
 	"1_btn"		// open achievements window
 	{
