@@ -146,7 +146,7 @@
 		"font" 	"blank"	[$LINUX]	
 	"fgcolor"		"7 7 7 0"
 		"xpos"			"-40"
-		"ypos"			"0"
+		"ypos"			"-20"
 		"zpos"			"4"
 		"wide"			"85"
 		"tall"			"34"
