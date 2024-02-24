@@ -85,7 +85,8 @@
 			"zpos"			"5"
 			"wide"			"168"
 			"tall"			"12"			
-			"image"	"replay/thumbnails/panels/unusual"
+			"drawcolor"	"Positive"
+			"image"	"replay/thumbnails/panels/Material_Generic"
 		}
 	}				
 

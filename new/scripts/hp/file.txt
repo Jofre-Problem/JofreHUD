@@ -27,8 +27,8 @@ event HudHealthDyingPulse
 	SetVisible HealthSpectatorBarHurt 1 0.0
 	SetVisible HealthBarLowHealth 1 0.0		
 	RunEvent TI_Death 0.0
-	Animate PlayerStatusHealthValueLowester2 Alpha "255" Linear 0.0 0.0
-	Animate PlayerStatusHealthValueLowester3 Alpha "255" Linear 0.0 0.0
+
+	
 	Animate PlayerStatusHealthValueLowester Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLowest Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLower Alpha "255" Linear 0.0 0.0
@@ -52,9 +52,7 @@ event HudHealthDyingPulseStop
 	RunEvent TI_Neutral 0.0
 	StopEvent TI_Death 0.0
 	SetVisible HealthBarLowHealth 0 0.0		
-	//for the kunai
-	Animate PlayerStatusHealthValueLowester2 Alpha "0" Linear 0.0 0.0
-	Animate PlayerStatusHealthValueLowester3 Alpha "0" Linear 0.0 0.0
+
 	Animate PlayerStatusHealthValueLowester Alpha "0" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLowest Alpha "0" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLower Alpha "0" Linear 0.0 0.0

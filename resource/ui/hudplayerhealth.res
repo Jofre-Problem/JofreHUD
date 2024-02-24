@@ -164,21 +164,6 @@
 		"scaleimage"	"1"
 		"alpha"			"1"
 	}
-	"HealthcrossiconOverheal"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"healthcrossiconOverheal"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"100"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
-		"scaleimage"	"1"
-		"alpha"			"0"
-	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -437,20 +422,7 @@
 		"fgcolor"		"255 105 0 255"
 		"alpha"			"0" //for the kunai
 	}
-	"HealthOverlayShadow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthOverlayShadow"
-		"xpos"			"35"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"34"
-		"visible"		"0"
-		"enabled"		"0"
-		"image" 		"replay/thumbnails/hp/overlay_shadow"
-		"scaleimage"	"1"
-	}
+
 	"HealthDivider"
 	{
 		"ControlName"		"ImagePanel"

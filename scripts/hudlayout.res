@@ -231,12 +231,12 @@
 
 		"MaxDeathNotices"		"8"
 		"IconScale"	  "0.38"
-		"LineHeight"	  "18"
+		"LineHeight"	  "16"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Killfeed"
+		"TextFont"		"Killfeed2"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

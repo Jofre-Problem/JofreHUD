@@ -363,6 +363,22 @@ Scheme
 				"antialias"	"1"
 				"blur" "2"
 			}
+		}
+				"1HealthPusherFont"
+		{
+			"1"
+			{
+				"name" "Open Sans HealthLowesterImage"
+				"tall" "100"
+				"antialias" "0"
+				"yres" "1024 1199"
+			}
+			"2"
+			{
+				"name" "Open Sans HealthLowesterImage"
+				"tall" "100"
+				"antialias" "0"
+			}
 		}	
 
 	}

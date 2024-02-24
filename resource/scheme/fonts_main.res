@@ -338,7 +338,15 @@ Scheme
 				"blur" "1"
 			}
 		}
-		
+		"Killfeed2"
+		{
+			"1"
+			{
+				"name" "Open Sans Killfeed"
+				"tall" "16"
+				"antialias"	"1"
+			}
+		}		
 		"Killfeed"
 		{
 			"1"
@@ -1338,6 +1346,11 @@ Scheme
 			"font" "fonts/Blank.otf"
 			"name" "Blank"
 		}
+		"healthpusher"
+		{
+			"font" "fonts/OpenSans-HealthLowesterImage.ttf"
+			"name" "Open Sans HealthLowesterImage"
+		}		
 		"shadow"
 		{
 			"font" "fonts/OpenSans-Shadow.ttf"
