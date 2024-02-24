@@ -11,7 +11,7 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"Misc"
 					"xpos"					"0"
-					"ypos"					"340+60+60+40"
+					"ypos"					"340+60+60+40+40"
 					"zpos"					"51"
 					"wide"					"f0"
 					"tall"					"240"	//change

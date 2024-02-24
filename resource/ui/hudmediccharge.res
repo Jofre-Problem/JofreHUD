@@ -1,7 +1,9 @@
-//props to anyone who understands this mess
-
+#base "../../../../cfg/jp_ui_circular.txt"
+#base "../../../../cfg/jp_ui_ammobg.txt"
+#base "hudmediccharge_base.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
+
 	"CoolBeam"
 	{
 		"ControlName"	"CTFParticlePanel"
@@ -53,8 +55,6 @@
 		"tall"			"34"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"
 	}	
 	"2_Image"
 	{
@@ -92,7 +92,7 @@
 		"tall"			"2"
 		"zpos" 			"60"
 		"fillcolor"		"0 0 0 140"
-		"border" 		"cleanup"
+	//	"border" 		"cleanup"
 		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"4_image"
@@ -109,7 +109,32 @@
 		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	
-	
+	"HudHealthRefractCircle"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudHealthRefractCircle"
+		"xpos"			"-90-p0.001"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"35+p0.4"
+		"tall"			"34"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
+	}
+	"HealthDividerShadowHide"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"HealthDividerShadowHide"
+		"xpos"			"-90"
+		"ypos"			"-34"
+		"zpos"			"1000"
+		"wide"			"34"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"image" 		"replay/thumbnails/hp/REFRACTnormal"
+		"scaleimage"	"1"
+		"pin_to_sibling"	"TeamColoredAmmoTextBG"
+	}	
 
 	
 	"1_progress"
