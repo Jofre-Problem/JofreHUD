@@ -11,8 +11,8 @@
 		"delta_item_end_y"		"-10"
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
-	//	"delta_item_font"		"DamagetextBitMap"//Size 12"
-		"delta_item_font_big"	"DamagetextOutline"//Size 18"		
+	//	"delta_item_font"		"DamagetextOldBitMap"//Size 12"
+		"delta_item_font_big"	"DamagetextOldOutline"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"
@@ -27,11 +27,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabel"
-		"font"			"DamageText"
-		"fgcolor"		"255 215 0 255"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+99"
-		"zpos"			"1"
+		"font"			"DamagetextOld"
+		"fgcolor"		"255 215 0 0"
+	"xpos"			"c-50"
+		"ypos"			"c17+20"
+		"zpos"			"23"
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
@@ -44,11 +44,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabel2"
-		"font"			"DamageText"
+		"font"			"DamagetextOld"
 		"fgcolor"		"255 215 0 0" //255
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+99"
-		"zpos"			"0"
+	"xpos"			"c-50"
+		"ypos"			"c17+20"
+		"zpos"			"23"
 		"wide"			"100"
 		"tall"			"30"
 		"visible"		"1"
@@ -62,11 +62,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelShadow"
-		"font"			"DamageTextShadow"
+		"font"			"DamagetextShadowOld"
 		"fgcolor"		"0 0 0 0" //150
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+99"
-		"zpos"			"-1"
+	"xpos"			"c-50"
+		"ypos"			"c17+20"
+		"zpos"			"22"
 		"wide"			"100"
 		"tall"			"31"
 		"visible"		"1"
@@ -78,11 +78,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelShadow"
-		"font"			"DamageTextShadow"
+		"font"			"DamagetextShadowOld"
 		"fgcolor"		"0 0 0 0" //150
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5+99"
-		"zpos"			"-1"
+	"xpos"			"c-50"
+		"ypos"			"c17+20"
+		"zpos"			"21"
 		"wide"			"100"
 		"tall"			"31"
 		"visible"		"1"
@@ -91,4 +91,36 @@
 		"labelText"		"%metal%"	
 	}
 
+	"DamageAccountLabelHeals"	// the font on this + pushes 100 units
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelHeals"
+		"font"			"DamageTextheals"
+		"fgcolor"		"46 255 83 255"
+	"xpos"			"c-50"
+		"ypos"			"c17+20+6"
+		"zpos"			"12"
+		"wide"			"100"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}
+	"DamageAccountLabelHealsS"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountLabelHealsS"
+		"font"			"DamageTexthealsshadow"
+		"fgcolor"		"0 0 0 150"
+	"xpos"			"c-50"
+		"ypos"			"c17+20+6"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%metal%"	
+	}	
 }

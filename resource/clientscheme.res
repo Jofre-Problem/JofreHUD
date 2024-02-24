@@ -326,9 +326,44 @@ Scheme
 				"wide"		"300"
 			}
 		}												
-	
-	
-	
+		"DamagetextShadowOld"
+		{
+			"1"
+			{
+				"name" "Open Sans Nodash"
+				"tall" "26"
+				"antialias"	"1"
+				"blur" "2"
+			}
+		}	
+		"DamagetextOld"
+		{
+			"1"
+			{
+				"name" "Open Sans Nodash"
+				"tall" "26"
+				"antialias"	"1"
+			}
+		}		
+		"DamagetextHeals"
+		{
+			"1"
+			{
+				"name" "Open Sans NodashHeals"
+				"tall" "26"
+				"antialias"	"1"
+			}
+		}
+		"DamagetextHealsShadow"
+		{
+			"1"
+			{
+				"name" "Open Sans NodashHeals"
+				"tall" "26"
+				"antialias"	"1"
+				"blur" "2"
+			}
+		}	
 
 	}
 	Borders

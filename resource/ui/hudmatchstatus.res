@@ -254,7 +254,7 @@
 				"font"					"Default"
 				"zpos"					"4"
 				"wide"					"f0"
-				"tall"					"24"
+				"tall"					"19"
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"

@@ -348,6 +348,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"KillfeedEdit"
+		{
+			"1"
+			{
+				"name" "Open Sans KillfeedEdit"
+				"tall" "18"
+				"antialias"	"1"
+			}
+		}		
 		"KillfeedBlur"
 		{
 			"1"
@@ -1252,6 +1261,11 @@ Scheme
 			"font" "fonts/OpenSans-Killfeed.ttf"
 			"name" "Open Sans Killfeed"
 		}
+		"work"
+		{
+			"font" "fonts/OpenSans-KillfeedEdit.ttf"
+			"name" "Open Sans KillfeedEdit"
+		}		
 	//	"17"		{			"font" "fonts/OpenSans-Shadow.ttf"			"name" "Open Sans Shadow"	}
 		"20"
 		{

@@ -284,7 +284,7 @@
 		"zpos"		"-2000"
 		"ypos"			"rs1-80"
 		"wide"			"50"
-		"tall"			"90"
+		"tall"			"0"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
