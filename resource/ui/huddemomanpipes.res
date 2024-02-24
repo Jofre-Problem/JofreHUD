@@ -70,7 +70,7 @@
 			////	"0"
 			////		"0"
 			"font"			"AmmoPipesOut3"
-			"fgcolor"		"Black"
+			"fgcolor"		"notowhite"
 		}
 		"NumPipesLabel2"
 		{
@@ -110,7 +110,7 @@
 			////	"0"
 			////		"0"
 			"font"			"AmmoPipesOutS"
-			"fgcolor"		"White"
+			"fgcolor"		"0 0 0 100"
 		}
 	}
 
