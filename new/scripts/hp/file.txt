@@ -1,20 +1,22 @@
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0	0.0
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 	RunEvent TI_Bonus 0.0
 	SetVisible HealthBarOverheal 1 0.0
 	SetVisible HealthBarLowHealth 0 0.0
 	SetVisible HealthSpectatorBarBuff 1 0.0
+	SetVisible overhealthclean 1 0.0
 }
 
 event HudHealthBonusPulseStop
 {
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0	0.0	
 	RunEvent TI_Neutral 0.0
 	SetVisible HealthBarOverheal 0 0.0
 	SetVisible HealthBarLowHealth 0 0.0
 	SetVisible HealthSpectatorBarBuff 0 0.0
 	StopEvent TI_Bonus 0.0
-
+	SetVisible overhealthclean 0 0.0
 
 }
 

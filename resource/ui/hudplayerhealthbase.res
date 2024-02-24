@@ -65,7 +65,7 @@
 		"ControlName" "EditablePanel"
 		"fieldName" 	"HealthIconAnchor"
 		"xpos" 		"34"
-		"ypos"		"0"//"37"
+		"ypos"		"37"
 		"wide"		"32"
 		"tall" 		"32"
 		"visible"	"1"
