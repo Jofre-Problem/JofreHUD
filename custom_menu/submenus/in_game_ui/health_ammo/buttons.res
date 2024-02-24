@@ -135,7 +135,62 @@
 						"border_armed"			"FLAT_Black_2"
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
-					}						
+					}	
+				"CircularLabel"
+					{
+						"ControlName"				"CExLabel"
+						"fieldName"					"CircularLabel"
+						"xpos"						"0"
+						"ypos"						"20"
+						"zpos"						"53"
+						"wide"					"p1"
+						"tall"						"20"
+						"proportionaltoparent"		"1"
+						"font"						"regular12"
+						"labelText"					"Circular Uber? Activates the other circular stuff too."
+						"textAlignment"				"center"
+						"border" "FLAT_Black_2"
+					}					
+					"ProgressBarYes"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"ProgressBarYes"
+						"xpos"					"0"
+						"ypos"					"40"
+						"wide"					"p0.5"
+						"tall"					"25"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Yes"
+						"font"					"Size 14"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_ui_hpcirculo.txt;  con_logfile cfg/jp_ui_hpcirculo.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/circulo/file.res; con_logfile ."
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}
+					"ProgressBarNo"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"ProgressBarNo"
+						"xpos"					"0+p0.5"
+						"ypos"					"40"
+						"wide"					"p0.5"
+						"tall"					"25"
+						"proportionaltoparent"	"1"
+						"labeltext"				"No"
+						"font"					"Size 14"
+						"textalignment"			"center"
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_ui_hpcirculo.txt"
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}											
 				}								
 				}
 			}

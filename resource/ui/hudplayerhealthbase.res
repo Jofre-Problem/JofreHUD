@@ -2,7 +2,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
 
-	"TeamColoredHealthTextBG"
+	"TeamColoredAmmoTextBG"
 	{
 
 		"image"			"replay/thumbnails/hp/cover"
@@ -11,7 +11,7 @@
 		"teambg_3"		"replay/thumbnails/hp/bluteam"
 	}
 	
-	"TeamColoredHealthTextBG2"
+	"TeamColoredAmmoTextBG2"
 	{
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	

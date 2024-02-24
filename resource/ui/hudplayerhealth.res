@@ -1,3 +1,5 @@
+#base "../../../../cfg/jp_ui_hpcirculo.txt"
+#base "../../../../cfg/jp_ui_ammobg.txt"
 #base "../../../../cfg/jp_custom_resolution.txt"
 #base "../../../../cfg/jp_custom_hp_speed.txt"
 #base "../../../../cfg/jp_custom_hp_progressbar.txt"
@@ -55,10 +57,10 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"0"	
 	}	
-	"TeamColoredHealthTextBG"
+	"TeamColoredAmmoTextBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredHealthTextBG"
+		"fieldName"		"TeamColoredAmmoTextBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
@@ -110,10 +112,10 @@
 		"fillcolor"		"100 225 21 255"
 		"alpha" "0"
 	}
-	"TeamColoredHealthTextBG2"
+	"TeamColoredAmmoTextBG2"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredHealthTextBG2"
+		"fieldName"		"TeamColoredAmmoTextBG2"
 		"xpos"			"35"
 		"ypos"			"0"
 		"zpos"			"4"

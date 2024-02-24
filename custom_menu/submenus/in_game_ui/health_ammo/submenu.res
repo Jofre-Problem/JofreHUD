@@ -101,7 +101,7 @@
 					"xpos"						"0"
 					"ypos"						"125"
 					"wide"						"460"
-					"tall"						"25"
+					"tall"						"200"
 					"proportionaltoparent"		"1"
 					"border"					"NoBorder"
 				}								
