@@ -26,7 +26,21 @@
 			"scaleImage"	"1"	
 
 	}
+	"image12"
+	{
+		"fieldName"	"image12"
+		"ControlName"	"CTFImagePanel"
+		"xpos"			"16"
+		"ypos"			"16"
+		"zpos"			"1010"
+		"wide"			"170"
+		"tall"			"12"
+				"image"			"replay/thumbnails/panels/black"
 		
+			"alpha"		"220"
+			"scaleImage"	"1"	
+
+	}		
 	"skill"
 	{
 		"fieldName"	"skill"

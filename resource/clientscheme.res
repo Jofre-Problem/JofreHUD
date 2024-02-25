@@ -389,6 +389,11 @@ Scheme
 	//	ComboBoxBorder	FrameBorder
 	//	MenuBorder		FrameBorder
 	//	BrowserBorder	FrameBorder
+		ButtonBorder
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}	
 	//	PropertySheetBorder	FrameBorder		
 	    	FrameBorder {
 			"bordertype"				"scalable_image"

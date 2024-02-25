@@ -29,7 +29,115 @@
 						"SummerBorderScore"
 					{
 						"visible"	"1"
-					}							
+					}		
+	"ccvarlist"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ccvarlist"
+		"xpos"				"0"
+		"ypos"				"12"
+		"zpos"				"3000"
+		"wide"				"f0"
+		"tall"				"65"
+				
+
+		"DamageIndicatorButtons"
+			{
+				"ControlName"			"CScrollableList"
+				"fieldName"					"DamageIndicatorButtons"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"1"
+				"wide"						"200"
+				"tall"						"65"
+				"bgcolor_override"	"30 30 30 100"
+				"border"	"BlurBorder"
+				"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"15" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"Primary"
+						"bgcolor_override"	"blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}	
+					"netbg"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"netbg"
+			"xpos"				"0"
+			"ypos"				"90"
+			"zpos"				"110"
+			"wide"				"135"
+			"tall"				"1"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"45 45 45 255"
+		}	
+		"ChatLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"ChatLabel"
+		"xpos"		"0"
+		"ypos"		"2"
+		
+		"wide"		"23"
+		"tall"		"20"
+		"labelText"		"z"
+		"textAlignment"		"center"
+		"fgcolor_override"		"notowhite"
+		"font"					"NewIcons12"
+	}	
+	"ChatSlider"
+	{
+		"ControlName"		"CCVarSlider"
+		"fieldName"		"ChatSlider"
+		"xpos"		"25"
+		"ypos"		"7"
+		"wide"		"180"
+		"zpos"		"180"
+		"tall"		"15"
+		"leftText"		"0"
+		"rightText"		"15"
+		"minvalue"		"0"
+		"maxvalue"		"15"
+		"cvar_name"		"hud_saytext_time"
+		"allowoutofrange"		"0"	
+	}		
+			}
+
+	}
+
+
+
+
+
+
+
+
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
@@ -1144,25 +1252,9 @@ if_mvm
 		"zpos"				"30"
 		"wide"				"f0"
 		"tall"				"f0"
-
-		"netbg"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"netbg"
-			"xpos"				"rs1"
-			"ypos"				"rs1"
-			"zpos"				"110"
-			"wide"				"135"
-			"tall"				"57"
-			"visible"			"0"
-			"enabled"			"1"
-			"fillcolor"			"45 45 45 255"
+				
 			
-			if_mvm
-			{
-				"visible"		"0"
-			}
-		}
+
 	
 		if_mvm
 		{

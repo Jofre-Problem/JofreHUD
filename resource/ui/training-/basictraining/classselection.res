@@ -4,18 +4,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"NotoBold12"
+		"font"			"HudFontSmallest"
 		"labelText"		"#TF_COMPLETE_TRAINING_DESC"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"215"
+		"ypos"			"255"
 		"zpos"			"1"
 		"wide"			"430"
 		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
+		//	"1"
+		//		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"NotoBlack"
 	}
 }

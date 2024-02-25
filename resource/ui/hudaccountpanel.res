@@ -30,7 +30,24 @@
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"	"BuildBGSentry"
 	}
-
+	"AccountValueS"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AccountValueS"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"west"
+		"font"			"Metaltext"
+		"fgcolor"		"0 0 0 100"
+		"proportionaltoparent"		"1"
+		"pin_to_sibling"	"AccountValue"
+	}
 	"BuildBGSentry"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,7 +59,7 @@
 		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"0 0 0 0"
 	}
 
 	"AccountBG"

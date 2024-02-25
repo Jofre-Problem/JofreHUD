@@ -22,7 +22,7 @@
 		"wide"	 	"252"
 		"tall"	 	"70"
 		"priority"	"40"
-		"zpos"	"90"
+		"zpos"	"1090"
 	}
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
 	{
@@ -34,6 +34,7 @@
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
+
 	}
 	CSpectatorTargetID
 	{
@@ -45,7 +46,7 @@
 		"wide"	 	"252"
 		"tall"	 	"1035"
 		"priority"	"40"
-		
+		"zpos"	"1090"
 		"x_offset" "0"
 		"y_offset" "0"
 		
@@ -64,7 +65,7 @@
 		"wide"	 	"252"
 		"tall"	 	"550"
 		"priority"	"35"
-
+		"zpos"	"1090"
 	}	
 	"DisguiseDust"
 	{
@@ -221,6 +222,7 @@
 		"separator_width"		"3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"3"
 		"height_offset"			"0"
+		"pin_to_sibling"	"HudArenaNotification"
 	}
 	HudDeathNotice
 	{
@@ -229,7 +231,7 @@
 		"wide"	 "f0"
 		"tall"	 "p0.6"
 
-		"MaxDeathNotices"		"8"
+		"MaxDeathNotices"		"15"
 		"IconScale"	  "0.38"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "0"
@@ -594,6 +596,7 @@
 	{
 		"wide"			"f0"
 		"tall"			"f0"
+		"zpos"			"2000"
 	}
 	HudArenaPlayerCount //fix for vsh
 	{

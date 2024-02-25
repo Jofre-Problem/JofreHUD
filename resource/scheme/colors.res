@@ -16,7 +16,8 @@ Scheme
 		"NotoBackground"		"70 130 180 255" //Menu Backgrounds, Backpack, Crafting, MvM Lobby, etc. Wouldn't recommend ever making this transparent.
 		"NotoText"				"220 220 220 255"
 		"NotoMenuText"			"220 220 220 255"
-		"NotoMenuText2"			"24 24 24 255"		
+		"NotoMenuText2"			"24 24 24 255"	
+		"NotoMenu"				"43 43 43 255"	
 		"TanLight"											"255 255 255 255"
 
 		"White"												"255 255 255 255"

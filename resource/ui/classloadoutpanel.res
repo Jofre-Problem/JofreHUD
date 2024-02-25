@@ -127,70 +127,7 @@
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}							
-"loadout_preset_panel"
-    {
-        "ControlName"        "CLoadoutPresetPanel"
-        "FieldName"            "loadout_preset_panel"
-        "wide"                "100"
-        "tall"                "20"
-        "LoadPresetButton0"
-        {
-            "ControlName"            "CExButton"
-            "fieldName"                "LoadPresetButton0"
-            "tall"                    "20"
-			"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"
-            "wide"                    "20"
-            "font"                    "Noto14"
-            "textAlignment"            "center"
-            "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
-        }
-        "LoadPresetButton1"
-        {
-            "ControlName"            "CExButton"
-            "fieldName"                "LoadPresetButton1"
-            "tall"                    "20"
-            "wide"                    "20"
-            "font"                    "Noto14"
-            "textAlignment"            "center"
-            "Command"                ""
-						"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
-        }
-        "LoadPresetButton2"
-        {
-            "ControlName"            "CExButton"
-            "fieldName"                "LoadPresetButton2"
-            "tall"                    "20"
-            "wide"                    "20"
-            "font"                    "Noto14"
-            "textAlignment"            "center"
-            "Command"                ""
-						"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
-        }
-        "LoadPresetButton3"
-        {
-            "ControlName"            "CExButton"
-            "fieldName"                "LoadPresetButton3"
-            "tall"                    "20"
-            "wide"                    "20"
-			"textinsetx"	"-50"
-						"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"
-            "font"                    "Noto14"
-            "textAlignment"            "center"
-            "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
-        }				
-    }
+
 	"testg"
 	{
 //	"tall"	"0"
@@ -246,13 +183,15 @@
 	{
 		ControlName					CExButton
 		fieldName					"TauntLoadoutButton"
-		"xpos"			"-3"
+		"xpos"			"-20"
 		"ypos"			"0"
-		wide							80
-		tall							24
+		wide							24
+		tall							35
 		visible						1
 		enabled						1
-		
+            "tall"                    "20"
+			"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"		
 		labelText					"a"
 		font							"NewIcons15"
 		textAlignment				center
@@ -264,7 +203,7 @@
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		
 		
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
 		"pin_to_sibling" "loadout_preset_panel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
@@ -276,15 +215,20 @@
 	{
 		ControlName					CExButton
 		fieldName					"CharacterLoadoutButton"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-20"
+		"ypos"			"-35"
 		
 		"pin_to_sibling" "loadout_preset_panel"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
+		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
+		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
 
-		wide							80
-		tall							24
+		wide							24
+		tall							35
+		visible						1
+		enabled						1
+            "tall"                    "20"
+			"border_default"	"CustomCyanBorderThick"
+			"border_armed"	"CustomCyanBorderThick"	
 		visible						1
 		enabled						1
 
@@ -301,7 +245,7 @@
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		
 		
-		paintbackground				0
+		paintbackground				1
 
 	}										
 	"class_loadout_panel"

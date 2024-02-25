@@ -333,7 +333,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"west"	
-		"font"			"LowHealthFont"
+		"font"			"LowHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 0 0 255"
 		"alpha"			"0" //for the kunai
 	}
@@ -350,7 +351,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"center"	
-		"font"			"LowerHealthFont"
+		"font"			"LowerHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 30 0 100"
 		"alpha"			"0" //for the kunai
 	}
@@ -367,7 +369,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"west"	
-		"font"			"LowHealthFont"
+		"font"			"LowHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 135 0 255"
 		"alpha"			"0" //for the kunai
 	}
@@ -384,7 +387,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"west"	
-		"font"			"LowHealthFont"
+		"font"			"LowHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 0 0 255"
 		"alpha"			"0" //for the kunai
 	}
@@ -401,7 +405,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"center"	
-		"font"			"LowerHealthFont"
+		"font"			"LowerHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 30 0 255"
 		"alpha"			"0" //for the kunai
 	}
@@ -418,7 +423,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"west"	
-		"font"			"LowHealthFont"
+		"font"			"LowHealthFont" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]	
 		"fgcolor"		"255 105 0 255"
 		"alpha"			"0" //for the kunai
 	}

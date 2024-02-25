@@ -31,6 +31,12 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 1 100 }
 		{ "90" }
 	}
+	"tf_scoreboard_mouse_mode"
+	{
+		"Mouse on Scoreboard?"
+		{ BOOL }
+		{ "0" }
+	}		
 	"ping"
 	{
 		"Matchmaking Ping"

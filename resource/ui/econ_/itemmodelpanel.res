@@ -171,7 +171,7 @@
 			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"	"FuckinBorderDude"
+			"border"	"noborder"
 		}
 	
 		"paint_icon"
@@ -208,7 +208,7 @@
 			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"FuckinBorderDude"
+			"border"		"noborder"
 		}
 
 		"serieslabel"
@@ -231,7 +231,7 @@
 			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"FuckinBorderDude"
+			"border"		"noborder"
 		}
 
 		"matcheslabel"
@@ -254,7 +254,7 @@
 			"bgcolor_override"		"NotoDark"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
-			"border"		"FuckinBorderDude"
+			"border"		"noborder"
 		}
 
 		"vision_restriction_icon"

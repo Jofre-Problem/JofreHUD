@@ -15,57 +15,47 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"SelectButton"
-		"autoResize"		"0"
-		"pinCorner"			"0"
+		//"autoResize"		"0"
+		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
+		//		"0"
 		"labelText"			"%selectbuttontext%"
-		"font"				"NotoBold20"
+		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
-		"textinsetx"		"0"
-		"dulltext"			"0"
-		"brighttext"		"0"
+		"textinsetx"		"50"
+		//			"0"
+		////		"0"
 		"Command"			"%selectcommand%"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
+		"border_default"	"MainMenuButtonDefault"
+		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
 		
-		// default style
-		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoMenu"
-		"border_default"		"noborder"
-		
-		// armed style
-		"armedBgColor_override"	"NotoGreenSolid"
-		"armedFgColor_override" 	"NotoBlack"
-		"border_armed"		"noborder"
-		
-		// depressed style    
-		"depressedBgColor_override"	"NotoDark"
-		"depressedFgColor_override" "NotoBlack"
+		"defaultFgColor_override" "Graydark"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "Graydark"
 	}
 	
 	"ProgressLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ProgressLabel"
-		"font"			"NotoBold12"
+		"font"			"HudFontSmallest"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"201"
+		"ypos"			"241"
 		"wide"			"30"
 		"tall"			"15"
 		"autoResize"	"1"
-		"pinCorner"		"0"
+		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"201 79 57 255"
 	}
 }

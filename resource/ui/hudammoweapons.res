@@ -142,11 +142,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"LowAmmoFont"
+		"font"			"LowAmmoFont"[$WINDOWS]
 		"font" 	"blank"	[$LINUX]	
 	"fgcolor"		"7 7 7 0"
 		"xpos"			"-40"
-		"ypos"			"-20"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"85"
 		"tall"			"34"
