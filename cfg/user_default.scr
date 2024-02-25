@@ -37,6 +37,20 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}		
+	"glow_outline_effect_enable"
+	{
+		"#TF_UseGlowEffect"
+		"#Tooltip_UseGlowEffect"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_enable_glows_after_respawn"
+	{
+		"#TF_EnableGlowsAfterRespawn"
+		{ BOOL }
+		{ "1" }
+	}
 	"ping"
 	{
 		"Matchmaking Ping"
