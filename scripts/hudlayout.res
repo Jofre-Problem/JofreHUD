@@ -360,7 +360,7 @@
 		"xpos"					"0"
 		"ypos"					"-25"
 		"wide"					"f0"
-		"tall"					"480"
+		"tall"					"510"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

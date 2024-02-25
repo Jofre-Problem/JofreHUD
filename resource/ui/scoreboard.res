@@ -50,23 +50,23 @@
 				"zpos"						"1"
 				"wide"						"200"
 				"tall"						"65"
-				"bgcolor_override"	"30 30 30 100"
-				"border"	"BlurBorder"
+				"bgcolor_override"	"30 30 30 60"
+				"border"	"noborder"
 				"ScrollBar"
 				{
 					"ControlName"	"Scrollbar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1"
+					"xpos"			"0"
 					
 					"tall"			"f0"
-					"wide"			"15" // This gets slammed from client schme.  GG.
+					"wide"			"5" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
 
 					"Slider"
 					{
-						"fgcolor_override"	"Primary"
+						"fgcolor_override"	"notowhite"
 						"bgcolor_override"	"blank"
 					}
 				
@@ -515,7 +515,7 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"204"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"			"replay/thumbnails/hp/REFRACTblurRed"
 		"scaleImage"	"1"
@@ -534,7 +534,7 @@
 		"zpos"				"0"
 		"wide"				"p0.51"
 		"tall"				"204"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"			"replay/thumbnails/hp/REFRACTblurBlu"
 		"scaleImage"	"1"
@@ -1214,9 +1214,11 @@ if_mvm
 	"xpos""-1"
 	"ypos""0"
 	"zpos""-10"
+	"visible"	"1"
 	"wide""f-10"
 	"tall""204"
-	"image""replay/thumbnails/hp/REFRACTblur"
+	//"image""replay/thumbnails/hp/REFRACTblur"
+	"fillcolor"	"0 0 0 80"
 	"scaleimage""1"
 	"pin_to_sibling"	"BluePlayerList"
 		if_mvm

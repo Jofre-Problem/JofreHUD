@@ -47,17 +47,30 @@ event ScoreboardAnimate
 {
 	Animate scores Position "0 480" linear 0.0 0.0
 	Animate scores Position "0 0" deaccel 0.0 0.125
-	Animate HudPlayerStatus never_draw "0" linear 0.0 0.0
-	SetVisible HudPlayerStatus	1 0.0
-	SetVisible HudPlayerStatus	1 0.001
-	SetVisible HudPlayerStatus	1 0.002
-	SetVisible HudPlayerStatus	1 0.003
-	SetVisible HudPlayerStatus	1 0.004	
 }	
+
+event ScoreboardCrosshairAnimate
+{
+	//Animate hudweaponammo never_draw "0" linear 0.0 0.0
+	SetVisible hudweaponammo	1 0.001
+	//Animate hudplayerstatus never_draw "0" linear 0.0 0.0
+	SetVisible hudplayerstatus	1 0.001
+	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
+	SetVisible HudCrosshair	1 0.001
+	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
+//	SetVisible CDamageAccountPanel	1 0.0	
+	
+	RunEvent ScoreboardCrosshairAnimateLoop 0.005
+}
+event ScoreboardCrosshairAnimateLoop
+{
+	RunEvent ScoreboardCrosshairAnimate 0.0
+}
 
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
+	RunEvent ScoreboardCrosshairAnimate 0.0	
 //	RunEventChild DisguiseDust StartParticle0 1
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
@@ -85,9 +98,9 @@ event MenuOpen
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
 
-	Animate HudPlayerStatus xpos 		"-200"		Linear 0.0 0.2
+	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
 	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
-	Animate HudWeaponAmmo xpos 		"700"		Linear 0.0 0.2
+	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
 	Animate HudDeathNotice xpos 		"-180"		Linear 0.0 0.01
 	Animate HudDeathNotice ypos 		"290"		Linear 0.0 0.01
 //	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	

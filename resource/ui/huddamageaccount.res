@@ -122,5 +122,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
-	}	
+	}
+	
 }

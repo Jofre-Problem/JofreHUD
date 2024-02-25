@@ -192,7 +192,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	CDamageAccountPanel
+	CDamageAccountPanel 
 	{
 		"fieldName"				"CDamageAccountPanel"
 		"xpos"					"0"
