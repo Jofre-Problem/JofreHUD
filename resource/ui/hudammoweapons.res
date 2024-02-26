@@ -3,7 +3,7 @@
 #base "../../../../cfg/jp_ui_ammobg.txt"
 
 
-#base "_tf2hud/hudammoweapons.res"
+#base "hudammoweaponsbase.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 {

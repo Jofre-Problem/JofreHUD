@@ -1,11 +1,11 @@
 "bs"
 {
-	"TeamColoredHealthTextBG"
+	"TeamColoredAmmoTextBG"
 	{
 		"teambg_2"		"replay/thumbnails/hp/redteam"
 		"teambg_3"		"replay/thumbnails/hp/redteam"
 	}
-	"TeamColoredHealthTextBG2"
+	"TeamColoredAmmoTextBG"
 	{
 		"teambg_2"		"replay/thumbnails/hp/redteam"
 		"teambg_3"		"replay/thumbnails/hp/redteam"
