@@ -463,16 +463,20 @@
 	}
 	"ServerTimeLeftLabel"
 	{
+		"visible"		"0"
+	}	
+	"ServerTimeLeftLabel3"
+	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"Regular7"
-	//	"labelText"		"#scoreboard_top_list"
+		"fieldName"		"ServerTimeLeftLabel3"
+		"font"			"Regular9"
+		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"700"
+		"zpos"			"5000"
+		"wide"			"f0"
 		"tall"			"10"
 		////"autoResize"		"0"
 		//		"0"
@@ -818,20 +822,8 @@
 "visible"		"0"
 }	
 "ServerTimeLeftValue2"
-{
-"ControlName""CExLabel"
-"fieldName""ServerTimeLeftValue2"
-"font""Notobold10"
-"labelText""%servertime%"
-"fgcolor_override"	"3 216 6 255"
-"xpos""rs1"
-"ypos""0"
-"zpos"	"20"
-"wide"		"p0.5"
-"tall""12"[$WINDOWS]
-		"tall"			"9" [$LINUX]
-"textAlignment"	"center"
-
+{	"alpha"	"0"
+"visible"		"0"
 if_mvm
 {
 "visible""0"
@@ -1100,43 +1092,11 @@ if_mvm
 		}
 	"MapName"
 	{
-		"font"				"Notobold10"
-		"textAlignment"		"center"
-		"xpos"				"cs-0.5"
-		"fgcolor_override"	"3 216 6 255"
-		"ypos"				"0"
-		"zpos"				"5000"
-		"wide"				"f0"
-		"tall"				"12"[$WINDOWS]
-		"tall"			"9" [$LINUX]
-		if_mvm
-		{
 			"visible"			"0"
-		}
 	}	
 	"ServerLabel2"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"ServerLabel2"
-		"font"				"Notobold10"
-		"fgcolor_override"	"3 216 6 255"
-		"labelText"			"%server%"
-		"textAlignment"		"center"
-		"xpos"				"0"
-		"zpos"				"10000"
-		"wide"				"p0.5"
-		"tall"				"12"[$WINDOWS]
-		"tall"			"9" [$LINUX]
-
-		if_mvm
-		{
-				"xpos"			"0"
-				"ypos"	"70"
-				"fgcolor_override"	"notowhite"
-				"font"	"Notobold20"
-				"tall"	"30"
-				"wide"	"f0"
-		}
+			"visible"			"0"
 	}	
 	"up1"
 	{
