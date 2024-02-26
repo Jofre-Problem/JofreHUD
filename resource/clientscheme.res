@@ -384,6 +384,7 @@ Scheme
 	}
 	Borders
 	{	
+		
  	//	BaseBorder		FrameBorder
 	//	ButtonBorder	FrameBorder
 	//	ComboBoxBorder	FrameBorder
