@@ -741,6 +741,7 @@ Scheme
 
         "EconItemBorder"
         {
+			"bordertype"		"scalable_image"
             "image"                     "replay/thumbnails/panels/econ_item_border"
             "color"                     "0 0 0 180"
             "src_corner_height"         "6"
@@ -750,6 +751,7 @@ Scheme
         }
         "LoadoutItemMouseOverBorder"
         {
+			"bordertype"		"scalable_image"
             "image"                     "replay/thumbnails/panels/econ_item_border"
             "color"                        "0 0 0 180"
             "src_corner_height"         "6"
