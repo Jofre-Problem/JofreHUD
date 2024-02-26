@@ -126,9 +126,9 @@
 		"fieldName"		"AmmoEverywhereDudeDoubleLow"
 		"font"			"LowestAmmoFont"
 		"fgcolor"		"235 35 35 255"
-//		"xpos"			"-60"//-80
+		"xpos"			"70"//-80
 		"ypos"			"0"
-		"zpos"			"400"
+		"zpos"			"4"
 		"wide"			"143" //150
 		"tall"			"34"[$WINDOWS]
 		"tall"			"0"	[$LINUX]

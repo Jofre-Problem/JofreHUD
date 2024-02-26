@@ -50,23 +50,23 @@
 				"zpos"						"1"
 				"wide"						"200"
 				"tall"						"65"
-				"bgcolor_override"	"30 30 30 100"
-				"border"	"BlurBorder"
+				"bgcolor_override"	"30 30 30 60"
+				"border"	"noborder"
 				"ScrollBar"
 				{
 					"ControlName"	"Scrollbar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1"
+					"xpos"			"0"
 					
 					"tall"			"f0"
-					"wide"			"15" // This gets slammed from client schme.  GG.
+					"wide"			"5" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
 
 					"Slider"
 					{
-						"fgcolor_override"	"Primary"
+						"fgcolor_override"	"notowhite"
 						"bgcolor_override"	"blank"
 					}
 				
@@ -515,7 +515,7 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"204"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"			"replay/thumbnails/hp/REFRACTblurRed"
 		"scaleImage"	"1"
@@ -534,7 +534,7 @@
 		"zpos"				"0"
 		"wide"				"p0.51"
 		"tall"				"204"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"			"replay/thumbnails/hp/REFRACTblurBlu"
 		"scaleImage"	"1"
@@ -1214,9 +1214,11 @@ if_mvm
 	"xpos""-1"
 	"ypos""0"
 	"zpos""-10"
+	"visible"	"1"
 	"wide""f-10"
 	"tall""204"
-	"image""replay/thumbnails/hp/REFRACTblur"
+	//"image""replay/thumbnails/hp/REFRACTblur"
+	"fillcolor"	"0 0 0 80"
 	"scaleimage""1"
 	"pin_to_sibling"	"BluePlayerList"
 		if_mvm
@@ -1407,7 +1409,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
@@ -1459,7 +1461,7 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"Assists"
+			"pin_to_sibling"		"AssistsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
@@ -1468,7 +1470,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1535,7 +1537,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1603,7 +1605,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1672,7 +1674,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1740,7 +1742,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1809,7 +1811,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1874,7 +1876,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1939,7 +1941,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2004,7 +2006,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -2070,7 +2072,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2136,7 +2138,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2201,7 +2203,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -2265,13 +2267,13 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabel"
-			"font"				"Newicons15"
+			"font"				"NewIconsv2=15"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
-			"wide"				"50"
+			"wide"				"70"
 			"tall"				"20"
 			////"autoResize"		"0"
 			//		"0"
@@ -2308,22 +2310,22 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage2"
-			"font"				"NotoBold12"
+			"font"				"NotoExtraBold36"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
+			"xpos"				"-100"
+			"ypos"				"4"
 			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
+			"wide"				"100"
+			"tall"				"40"
 			////"autoResize"		"0"
 			//		"0"
 			"visible"			"1"
 			"enabled"			"1"
-
+			"fgcolor"	"255 215 0 255"
 			"pin_to_sibling"		"Damage"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 		}
 	}

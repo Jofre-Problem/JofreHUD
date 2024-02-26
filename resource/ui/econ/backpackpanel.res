@@ -433,22 +433,26 @@
 		"default"									"0"
 		"paintborder"								"0"
 
-		"fgcolor_override"							"White"
-		"bgcolor_override"							"LighterDarkBrown"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"LighterDarkBrown"
-		"selectionColor_override" 					"LighterDarkBrown"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"LighterDarkBrown"
 
-		"Button"
-		{
-			"defaultFgColor_override"				"White"
-			"defaultBgColor_override"				"LighterDarkBrown"
-			"armedFgColor_override"					"White"
-			"armedBgColor_override"					"LighterDarkBrown"
-			//
-		}
+        "fgcolor_override"                  "255 255 255 255"
+        "bgcolor_override"                  "0 0 0 102"
+        "disabledfgcolor_override"          "255 255 255 255"
+        "disabledbgcolor_override"          "0 0 0 102"
+        "selectioncolor_override"           "Blank"
+        "selectiontextcolor_override"       "255 255 255 255"
+        "defaultselectionbg2color_override" "0 0 0 102"
+
+        "Button"
+        {
+            "defaultFgColor_override"       "255 255 255 255"
+            "defaultBgColor_override"       "0 0 0 102"
+            "selectedFgColor_override"      "0 0 0 153"
+            "selectedBgColor_override"      "255 255 255 255"
+            "armedFgColor_override"          "0 0 0 255"
+            "armedBgColor_override"         "255 255 255 255"
+            "paintbackgroundtype"           "0"
+            "paintborder"                   "0"
+        }
 
 		"pin_to_sibling"							"FiltersBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
@@ -475,22 +479,25 @@
 		"default"									"0"
 		"paintborder"								"0"
 
-		"fgcolor_override"							"White"
-		"bgcolor_override"							"LighterDarkBrown"
-		"disabledFgColor_override" 					"White"
-		"disabledBgColor_override" 					"LighterDarkBrown"
-		"selectionColor_override" 					"LighterDarkBrown"
-		"selectionTextColor_override" 				"White"
-		"defaultSelectionBG2Color_override" 		"LighterDarkBrown"
+        "fgcolor_override"                  "255 255 255 255"
+        "bgcolor_override"                  "0 0 0 102"
+        "disabledfgcolor_override"          "255 255 255 255"
+        "disabledbgcolor_override"          "0 0 0 102"
+        "selectioncolor_override"           "Blank"
+        "selectiontextcolor_override"       "255 255 255 255"
+        "defaultselectionbg2color_override" "0 0 0 102"
 
-		"Button"
-		{
-			"defaultFgColor_override"				"White"
-			"defaultBgColor_override"				"LighterDarkBrown"
-			"armedFgColor_override"					"White"
-			"armedBgColor_override"					"LighterDarkBrown"
-			//
-		}
+        "Button"
+        {
+            "defaultFgColor_override"       "255 255 255 255"
+            "defaultBgColor_override"       "0 0 0 102"
+            "selectedFgColor_override"      "0 0 0 153"
+            "selectedBgColor_override"      "255 255 255 255"
+            "armedFgColor_override"          "0 0 0 255"
+            "armedBgColor_override"         "255 255 255 255"
+            "paintbackgroundtype"           "0"
+            "paintborder"                   "0"
+        }
 
 		"pin_to_sibling"							"SortByComboBox"
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"

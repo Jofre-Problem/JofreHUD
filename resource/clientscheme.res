@@ -227,6 +227,15 @@ Scheme
 				"antialias"			"1"
 			}
 		}
+		"NewIconsv2=15" 
+		{
+			"1"
+			{
+				"name"				"jofreicons2"
+				"tall"				12	
+				"antialias"			"1"
+			}
+		}		
 		"NewIcons12" 
 		{
 			"1"
@@ -384,6 +393,7 @@ Scheme
 	}
 	Borders
 	{	
+		
  	//	BaseBorder		FrameBorder
 	//	ButtonBorder	FrameBorder
 	//	ComboBoxBorder	FrameBorder

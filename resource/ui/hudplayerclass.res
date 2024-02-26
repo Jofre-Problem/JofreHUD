@@ -2,14 +2,6 @@
 #base "../../../../cfg/jp_hudplayerclass_3d.txt"
 #base "../../../../cfg/jp_hudplayerclass_3d_bg.txt"
 
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/shape_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
-
-
-#base "../../customization/_dev/crosshairs/crosshair_res_files/shape_current.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"	
 
 
 "Resource/UI/HudPlayerClass.res"
@@ -33,7 +25,7 @@
 		"xpos"		"20"
 		"ypos"		"rs1"
 		"zpos"		"2"
-		"wide"		"60"
+		"wide"		"50"
 		"tall"		"o1"
 		"visible"		"1"
 		"enabled"		"1"
