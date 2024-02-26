@@ -1409,7 +1409,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"Newiconsv2=15"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
@@ -1461,10 +1461,11 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"AssistsLabel"
+			"pin_to_sibling"		"Assists"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
+
 
 		"DestructionLabel"
 		{
@@ -2310,24 +2311,39 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage2"
-			"font"				"NotoExtraBold36"
+			"font"				"NotoExtraBold34"
 			"labelText"			"%damage%"
-			"textAlignment"		"west"
-			"xpos"				"-100"
-			"ypos"				"4"
+			"textAlignment"		"center"
+			"xpos"				"0"
+			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"100"
-			"tall"				"40"
-			////"autoResize"		"0"
-			//		"0"
-			"visible"			"1"
-			"enabled"			"1"
-			"fgcolor"	"255 215 0 255"
-			"pin_to_sibling"		"Damage"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPLEFT"
-
-		}
+	"zpos"	"1010"
+		"wide"				"f0"
+		"tall"				"24"
+		"AllCaps"			"1"
+		"fgcolor"	"notodark"
+		"bgcolor_override"	"Notowhite"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+		"TextInsety"	"-2"
+				"auto_wide_tocontents" "1"
+		
+		"pin_to_sibling" "ExampleAnchor"
+        "pin_corner_to_sibling" "4"
+        "pin_to_sibling_corner" "4"
+	}
+	"ExampleAnchor"
+    {
+        "ControlName"     "EditablePanel"
+        "fieldName"     "ExampleAnchor"
+        "xpos"             "190"
+        "ypos"             "440"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+    }	
 	}
 	
 	"MvMScoreboard"

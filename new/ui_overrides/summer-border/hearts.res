@@ -21,8 +21,8 @@
 						"fieldName""SummerBorderScore"
 						"xpos""r0"
 						"ypos"	"0"
-						"wide""32"
-						"tall""32"
+						"wide""40"
+						"tall""40"
 						"zpos"	"111"
 						"pin_to_sibling"	"Removeline"
 					
