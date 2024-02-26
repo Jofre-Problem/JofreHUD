@@ -37,6 +37,29 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}		
+	"killstreak"
+	{
+		"KillStreak"
+		{ CATEGORY }
+	}
+	"cl_hud_killstreak_display_alpha"
+	{
+		"Killstreak Alpha"
+		{ SLIDER 1 255 }
+		{ "190" }
+	}		
+	"cl_hud_killstreak_display_time"
+	{
+		"Killstreak Time"
+		{ SLIDER 1 100 }
+		{ "10" }
+	}
+	"cl_hud_killstreak_display_fontsize"
+	{
+		"Killstreak Font Size"
+		{ SLIDER 0 2 }
+		{ "1" }
+	}				
 	"ping"
 	{
 		"Matchmaking Ping"

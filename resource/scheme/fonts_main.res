@@ -1312,9 +1312,14 @@ Scheme
 		}	
 		"60"
 		{
+			"font" "fonts/jofreicons2.ttf"
+			"name" "jofreicons2"
+		}		
+		"painicons"
+		{
 			"font" "fonts/LowAmmoWarningZero.ttf"
 			"name" "LowAmmoWarning Zero"
-		}		
+		}			
 		"61"
 		{
 			"font" "fonts/OpenSans-Nodash.ttf"

@@ -1,639 +1,652 @@
+#base "winpanelbase.res"
 "Resource/UI/winpanel.res"
 {
-	"WinPanelBGBorder"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"WinPanelBGBorder"
-		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"wide"		"9999"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"border"		"TFFatLineBorderBlueBG"
-		"proportionaltoparent"	"1"
-	}
-	"WinningTeamLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabel"
-		"font"		"NotoBold16"
-		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinningTeamLabel%"
-		"textAlignment"		"Center"
-		"proportionaltoparent"		"1"
-	}
-	"AdvancingTeamLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"AdvancingTeamLabel"
-		"font"		"NotoBold16"
-		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"220"
-		"tall"		"14"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%AdvancingTeamLabel%"
-		"textAlignment"		"Center"
-		"fgcolor"		"White"
-		"proportionaltoparent"		"1"
-	}
-	"WinReasonLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"WinReasonLabel"
-		"font"		"NotoBold8"
-		"xpos"		"cs-0.5"
-		"ypos"		"12"
-		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%WinReasonLabel%"
-		"centerwrap"	"1"
-		"fgcolor"		"White"
-		"proportionaltoparent"		"1"
-	}
-	"ShadedBar"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"		"cs-0.5"
-		"ypos"		"20"
-		"zpos"		"-1"
-		"wide"		"f0"
-		"tall"		"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"TransparentBlack"
-		//
-		"proportionaltoparent"		"1"
-	}
-	"TeamScoresPanel"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TeamScoresPanel"
-		"wide"		"f0"
-		"tall"		"20"
-		"visible"		"1"
-		"proportionaltoparent"		"1"
+    "TeamScoresPanel"
+    {
+        "xpos"              "0"
+        "ypos"              "rs1"
+        "wide"              "f0"
+        "tall"              "40"
+        "bgcolor_override"  "0 0 0 204"
 
-		"pin_to_sibling"		"ShadedBar"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"4"
-
-		"BlueTeamLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamLabel"
-			"font"		"NotoBold16"
-			"labelText"		"%blueteamname%"
-			"textAlignment"		"east"
-			"zpos"		"10"
-			"wide"		"100"
-			"tall"		"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-			"auto_wide_tocontents"		"1"
-
-			"pin_to_sibling"		"BlueTeamScore"
-			"pin_corner_to_sibling"		"5"
-			"pin_to_sibling_corner"		"7"
-		}
-		"BlueTeamScore"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamScore"
-			"font"		"NotoBold28"
+        "BlueTeamScore"
+        {
+            "xpos"                      "c0-s1-80"
+            "ypos"                      "0"
+            "wide"                      "40"
+            "tall"                      "40"
+            "font"                      "NotoBold26"
+            "textalignment"             "center"
+            "bgcolor_override"          "blue"
+            "fgcolor"                   "notowhite"
+            "fgcolor_override"          "notowhite"
 			"labelText"		"%blueteamscore%"
-			"textAlignment"		"center"
-			"xpos"		"c-28"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"28"
-			"tall"		"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Blue"
-			"proportionaltoparent"		"1"
-		}
-		"RedTeamLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamLabel"
-			"font"		"NotoBold16"
-			"labelText"		"%redteamname%"
-			"textAlignment"		"west"
-			"zpos"		"10"
-			"wide"		"100"
-			"tall"		"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-			"auto_wide_tocontents"		"1"
-
-			"pin_to_sibling"		"RedTeamScore"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
-		}
-		"RedTeamScore"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamScore"
-			"font"		"NotoBold28"
+        }
+        "RedTeamScore"
+        {
+            "xpos"                      "c80"
+            "ypos"                      "0"
+            "wide"                      "40"
+            "tall"                      "40"
+            "font"                      "NotoBold26"
+            "textalignment"             "center"
+            "bgcolor_override"          "red"
+            "fgcolor"                   "notowhite"
+            "fgcolor_override"          "notowhite"
 			"labelText"		"%redteamscore%"
-			"textAlignment"		"center"
-			"xpos"		"c0"
-			"ypos"		"0"
-			"zpos"		"3"
-			"wide"		"28"
-			"tall"		"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"Red"
-			"proportionaltoparent"		"1"
-		}
-		"BlueScoreBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueScoreBG"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"RedScoreBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RedScoreBG"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"BlueTeamScoreDropshadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamScoreDropshadow"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"BlueLeaderAvatar"
-		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"BlueLeaderAvatar"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"BlueLeaderAvatarBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BlueLeaderAvatarBG"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"RedTeamScoreDropshadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamScoreDropshadow"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"RedLeaderAvatar"
-		{
-			"ControlName"		"CAvatarImagePanel"
-			"fieldName"		"RedLeaderAvatar"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-		"RedLeaderAvatarBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"RedLeaderAvatarBG"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
-	}
-	"DetailsLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"DetailsLabel"
-		"font"		"NotoBold8"
-		"xpos"		"cs-0.5"
-		"ypos"		"-2"
-		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%DetailsLabel%"
-		"textAlignment"		"Center"
-		"fgcolor"		"White"
-		"proportionaltoparent"		"1"
+        }
 
-		"pin_to_sibling"		"TeamScoresPanel"
-		"pin_corner_to_sibling"		"4"
-		"pin_to_sibling_corner"		"6"
-	}
-	"TopPlayersLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TopPlayerLabel"
-		"font"		"NotoBold8"
-		"zpos"		"3"
-		"wide"		"200"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%TopPlayersLabel%"
-		"textAlignment"		"west"
-		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"HorizontalLine"
-		"pin_corner_to_sibling"		"2"
-		"pin_to_sibling_corner"		"0"
-	}
-	"PointsThisRoundLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PointsThisRoundLabel"
-		"font"		"NotoBold8"
-		"zpos"		"3"
-		"wide"		"140"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_PointsThisRound"
-		"textAlignment"		"east"
-		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"HorizontalLine"
-		"pin_corner_to_sibling"		"3"
-		"pin_to_sibling_corner"		"1"
-	}
-	"HorizontalLine"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"		"2"
-		"ypos"		"50"
-		"zpos"		"3"
-		"wide"		"f4"
-		"tall"		"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"White"
-		//
-		"proportionaltoparent"		"1"
-	}
-	"Player1Name"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player1Name"
-		"xpos"		"-1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"74"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
 
-		"pin_to_sibling"		"HorizontalLine"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"Player1Class"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player1Class"
-		"zpos"		"3"
-		"wide"		"100"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+        "BlueTeamLabel"
+        {
+            "xpos"                      "10"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "40"
+            "font"                      "NotoBold22"
+            "textalignment"             "east"
+            "bgcolor_override"          "Blank"
+            "fgcolor"                   "96 192 255 204"
+            "fgcolor_override"          "96 192 255 204"
 
-		"pin_to_sibling"		"Player1Name"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-	}
-	"Player1Score"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player1Score"
-		"xpos"		"-1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"30"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"east"
+            "pin_to_sibling"            "BlueTeamScore"
+            "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+            "pin_to_sibling_corner"     "PIN_TOPLEFT"
+        }
+        "RedTeamLabel"
+        {
+            "xpos"                      "10"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "40"
+            "font"                      "NotoBold22"
+            "textalignment"             "west"
+            "bgcolor_override"          "Blank"
+            "fgcolor"                   "255 72 80 204"
+            "fgcolor_override"          "255 72 80 204"
 
-		"pin_to_sibling"		"HorizontalLine"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-	}
-	"Player2Name"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player2Name"
-		"zpos"		"3"
-		"wide"		"74"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+            "pin_to_sibling"            "RedTeamScore"
+            "pin_corner_to_sibling"     "PIN_TOPLEFT"
+            "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+        }
 
-		"pin_to_sibling"		"Player1Name"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"Player2Class"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player2Class"
-		"zpos"		"3"
-		"wide"		"100"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+        "BlueScoreBG"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+        "RedScoreBG"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+        "BlueTeamScoreDropshadow"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+        "RedTeamScoreDropshadow"
+        {
+            "xpos"                      "9999"
+            "ypos"                      "9999"
+            "wide"                      "0"
+            "tall"                      "0"
+            "visible"                   "0"
+            "enabled"                   "0"
+        }
+    }
 
-		"pin_to_sibling"		"Player2Name"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-	}
-	"Player2Score"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player2Score"
-		"zpos"		"3"
-		"wide"		"30"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"east"
+    "WinningTeamLabel"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "rs1"
+        "wide"                      "160"
+        "tall"                      "40"
+        "textalignment"             "center"
+        "centerwrap"                "1"
+        "font"                      "NotoBold20"
+		"bgcolor_override"	"30 30 30 255"
+    }
+    "AdvancingTeamLabel"
+    {
+        "xpos"                      "cs-0.5"
+        "ypos"                      "rs1"
+        "wide"                      "160"
+        "tall"                      "40"
+        "textalignment"             "center"
+        "centerwrap"                "1"
+        "font"                      "NotoBold26"
+    }
 
-		"pin_to_sibling"		"Player1Score"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-	}
-	"Player3Name"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player3Name"
-		"zpos"		"3"
-		"wide"		"74"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+    "PlayersBG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "PlayersBG"
+        "xpos"                      "0"
+        "ypos"                      "rs1-40"
+        "wide"                      "f0"
+        "tall"                      "20"
+        "bgcolor_override"          "0 0 0 102"
+    }
 
-		"pin_to_sibling"		"Player2Name"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"Player3Class"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player3Class"
-		"zpos"		"3"
-		"wide"		"100"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+    "Player1BG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "Player1BG"
+        "xpos"                      "0"
+        "ypos"                      "rs1-40"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "bgcolor_override"          "0 0 0 51"
+    }
+    "Player2BG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "Player2BG"
+        "xpos"                      "p0.25"
+        "ypos"                      "rs1-40"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "bgcolor_override"          "Blank"
+    }
+    "Player3BG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "Player3BG"
+        "xpos"                      "p0.50"
+        "ypos"                      "rs1-40"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "bgcolor_override"          "0 0 0 51"
+    }
+    "Player4BG"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "Player4BG"
+        "xpos"                      "p0.75"
+        "ypos"                      "rs1-40"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "bgcolor_override"          "Blank"
+    }
 
-		"pin_to_sibling"		"Player3Name"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-	}
-	"Player3Score"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Player3Score"
-		"zpos"		"3"
-		"wide"		"30"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"east"
 
-		"pin_to_sibling"		"Player2Score"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-	}
-	"KillStreakLeaderLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"KillStreakLeaderLabel"
-		"font"		"NotoBold8"
-		"xpos"		"1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"200"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_KillStreakLeader"
-		"textAlignment"	"west"
+    "Player1Line"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "Player1Line"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "1"
+        "bgcolor_override"          "Blank"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "255 224 128 255"
 
-		"pin_to_sibling"		"Player3Name"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"KillStreakMaxCountLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"KillStreakMaxCountLabel"
-		"font"		"NotoBold8"
-		"xpos"		"1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"140"
-		"tall"		"6"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Winpanel_KillStreakMaxCount"
-		"textAlignment"	"east"
+        "pin_to_sibling"            "Player1BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player2Line"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "Player2Line"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "1"
+        "bgcolor_override"          "Blank"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "192 224 255 255"
 
-		"pin_to_sibling"		"Player3Score"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-	}
-	"HorizontalLine2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine2"
-		"zpos"		"3"
-		"wide"		"f4"
-		"tall"		"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"White"
-		//
-		"proportionaltoparent"		"1"
+        "pin_to_sibling"            "Player2BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player3Line"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "Player3Line"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "1"
+        "bgcolor_override"          "Blank"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "255 160 128 255"
 
-		"pin_to_sibling"		"KillStreakLeaderLabel"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"KillStreakPlayer1Name"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"KillStreakPlayer1Name"
-		"xpos"		"-1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"74"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+        "pin_to_sibling"            "Player3BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player4Line"
+    {
+        "ControlName"               "ImagePanel"
+        "fieldName"                 "Player4Line"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "1"
+        "bgcolor_override"          "Blank"
+        "image"                     "replay/thumbnails/panels/fill_additive"
+        "scaleImage"                "1"
+        "drawcolor"                 "FragNegative100"
 
-		"pin_to_sibling"		"HorizontalLine2"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-	}
-	"KillStreakPlayer1Class"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"KillStreakPlayer1Class"
-		"zpos"		"3"
-		"wide"		"200"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"west"
+        "pin_to_sibling"            "Player4BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
 
-		"pin_to_sibling"		"KillStreakPlayer1Name"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-	}
-	"KillStreakPlayer1Score"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"KillStreakPlayer1Score"
-		"xpos"		"-1"
-		"ypos"		"0"
-		"zpos"		"3"
-		"wide"		"30"
-		"tall"		"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"		"east"
+    "Player1RatingLabel"
+    {
+        "ControlName"               "CExLabel"
+        "fieldName"                 "Player1RatingLabel"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "font"                      "Newicons20"
+        "fgcolor"                   "255 224 128 255"
+        "labelText"                 "ÕÕÕ"
+        "textAlignment"             "center"
 
-		"pin_to_sibling"		"HorizontalLine2"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-	}
-	"WinningTeamLabelDropshadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabelDropshadow"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"AdvancingTeamLabelDropshadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"AdvancingTeamLabelDropshadow"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player1Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player1Avatar"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player2Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player2Avatar"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player3Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"Player3Avatar"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"KillStreakPlayer1Avatar"
-	{
-		"ControlName"		"CAvatarImagePanel"
-		"fieldName"		"KillStreakPlayer1Avatar"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player1Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player1Badge"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player2Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player2Badge"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"Player3Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"Player3Badge"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"KillStreakPlayer1Badge"
-	{
-		"ControlName"	"CTFBadgePanel"
-		"fieldName"		"KillStreakPlayer1Badge"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
+        "pin_to_sibling"            "Player1BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player2RatingLabel"
+    {
+        "ControlName"               "CExLabel"
+        "fieldName"                 "Player2RatingLabel"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "font"                      "Newicons20"
+        "fgcolor"                   "192 224 255 255"
+        "labelText"                 "ÕÕ"
+        "textAlignment"             "center"
+
+        "pin_to_sibling"            "Player2BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player3RatingLabel"
+    {
+        "ControlName"               "CExLabel"
+        "fieldName"                 "Player3RatingLabel"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "font"                      "Newicons20"
+        "fgcolor"                   "255 160 128 255"
+        "labelText"                 "Õ"
+        "textAlignment"             "center"
+
+        "pin_to_sibling"            "Player3BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player4RatingLabel" // TODO: Replace this with an actual icon
+    {
+        "ControlName"               "CExLabel"
+        "fieldName"                 "Player4RatingLabel"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "p0.25"
+        "tall"                      "20"
+        "font"                      "NotoBold16"
+        "fgcolor"                   "255 80 64 255"
+        "labelText"                 "KS"
+        "textAlignment"             "center"
+
+        "pin_to_sibling"            "Player4BG"
+        "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+
+    // P1
+    "Player1Name"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "f45"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player1BG"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player1Score"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player1BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+    }
+
+    "Player1Badge"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player1Avatar"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player1Class"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+
+    // P2
+    "Player2Name"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "f45"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player2BG"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player2Score"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player2BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+    }
+
+    "Player2Badge"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player2Avatar"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player2Class"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+
+    // P3
+    "Player3Name"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "f45"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player3BG"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "Player3Score"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player3BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+    }
+
+    "Player3Badge"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player3Avatar"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "Player3Class"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+
+    // P4 (KS)
+    "KillStreakPlayer1Name"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "f45"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player4BG"
+        "pin_corner_to_sibling"     "PIN_TOPLEFT"
+        "pin_to_sibling_corner"     "PIN_TOPLEFT"
+    }
+    "KillStreakPlayer1Score"
+    {
+        "xpos"                      "-5"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                      "NotoBold12"
+
+        "pin_to_sibling"            "Player4BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
+    }
+
+    "KillStreakPlayer1Badge"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "KillStreakPlayer1Avatar"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "KillStreakPlayer1Class"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+
+    // DISABLED
+
+    "WinPanelBGBorder"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "WinningTeamLabelDropshadow"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "AdvancingTeamLabelDropshadow"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "WinReasonLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "DetailsLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "ShadedBar"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "HorizontalLine"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "HorizontalLine2"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "TopPlayersLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "PointsThisRoundLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "KillStreakLeaderLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
+    "KillStreakMaxCountLabel"
+    {
+        "xpos"                      "9999"
+        "ypos"                      "9999"
+        "wide"                      "0"
+        "tall"                      "0"
+        "visible"                   "0"
+        "enabled"                   "0"
+    }
 }

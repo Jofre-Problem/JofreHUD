@@ -291,7 +291,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
-		"font"			"Size 14"
+		"font"			"Noto14"
 		"centerwrap"	"1"
 
 		if_aids

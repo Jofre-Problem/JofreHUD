@@ -615,7 +615,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"color"		"Red"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -626,7 +626,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"color"		"Red"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -637,7 +637,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"color"		"255 50 65 180"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"0"
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
@@ -648,7 +648,7 @@ Scheme
  			"bordertype"		"scalable_image"
 			"color"		"Red"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -659,7 +659,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"color"		"92 173 255 180"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"0"
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
@@ -670,7 +670,7 @@ Scheme
  			"bordertype"		"scalable_image"
 			"color"		"Blue"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -681,7 +681,7 @@ Scheme
 			"bordertype"		"scalable_image"
 			"color"		"Blue"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			"image"		"White"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"

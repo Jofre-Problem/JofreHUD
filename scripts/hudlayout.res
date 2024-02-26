@@ -11,7 +11,7 @@
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 
-
+//	#base "../resource/ui/winpanel.res"
 "j"
 {
 	CMainTargetID
@@ -487,11 +487,10 @@
 	
 	WinPanel
 	{
-		"xpos"		"cs-0.5"
-		"ypos"		"r98"
-		"wide"		"220"
-		"tall"		"110"
-		"zpos"		"4"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "480"
 	}
 	HudVoiceStatus
 	{

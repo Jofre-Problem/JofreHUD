@@ -42,8 +42,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold36"
-		"labelText"		"TF2 Advanced /cfg/user_default.scr"
+		"font"			"NotoBold24"
+		"labelText"		"TF2 Advanced /cfg/user_default.scr - Please take your time to configure this stuff."
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
