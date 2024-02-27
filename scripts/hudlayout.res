@@ -271,7 +271,7 @@
 		"ypos_minmode"	"325+28"
 		"ypos"			"0"
 		////"325+28"
-		
+		"zpos"	"2"
 		"wide"			"f0"
 		"tall"			"f0"
 	}
