@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\test3"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

@@ -11,8 +11,47 @@ GlobalComboBox("UI Sound Effects", "UI Sound Effects")
 	Xhud-Niterux
 	MagnumHUD
 	Half-Life
+	VCR-Hud
 }
-
+[Name:Sound Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Sound Manifest", "Sound Manifest")
+{
+	Default
+	No Passtime
+	No Merasmus Pauling
+	No Taunts
+	No MVM
+	DEL ALL OMG MORE FPS!!!
+}
+#if Sound Manifest == "No Taunts"
+{
+Copy("_4plug/4plug_file/gamemanifest/notaunt.txt", "scripts/game_sounds_manifest.txt");
+}
+#if Sound Manifest == "No MVM"
+{
+Copy("_4plug/4plug_file/gamemanifest/notaunt.txt", "scripts/game_sounds_manifest.txt");
+}
+#if Sound Manifest == "Default"
+{
+Copy("_4plug/4plug_file/gamemanifest/def.txt", "scripts/game_sounds_manifest.txt");
+}
+#if Sound Manifest == "No Passtime"
+{
+Copy("_4plug/4plug_file/gamemanifest/nopasstime.txt", "scripts/game_sounds_manifest.txt");
+}
+#if Sound Manifest == "No Merasmus Pauling"
+{
+Copy("_4plug/4plug_file/gamemanifest/nopaulingmerasmus.txt", "scripts/game_sounds_manifest.txt");
+}
+#if Sound Manifest == "DEL ALL OMG MORE FPS!!!"
+{
+Copy("_4plug/4plug_file/gamemanifest/FUCK.txt", "scripts/game_sounds_manifest.txt");
+}
+#if UI Sound Effects == "VCR-Hud"
+{
+Copy("sound/4plug/vcr-buttonclick.wav", "sound/ui/buttonclick.wav");
+Copy("sound/4plug/vcr-buttonclickrelease", "sound/ui/buttonclickrelease.wav");
+}
 #if UI Sound Effects == "Xhud-Niterux"
 {
 Copy("sound/4plug/niterux_buttonclick.wav", "sound/ui/buttonclick.wav");
