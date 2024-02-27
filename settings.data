@@ -23,6 +23,25 @@ GlobalComboBox("Sound Manifest", "Sound Manifest")
 	No MVM
 	DEL ALL OMG MORE FPS!!!
 }
+[Name:Surface Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Surface Manifest", "Surface Manifest")
+{
+	Default
+	No HL2
+	Remove All
+}
+#if Surface Manifest == "Remove All"
+{
+Copy("_4plug/4plug_file/gamemanifest/sur_fuck.txt", "scripts/surfaceproperties_manifest.txt");
+}
+#if Surface Manifest == "Default"
+{
+Copy("_4plug/4plug_file/gamemanifest/sur_def.txt", "scripts/surfaceproperties_manifest.txt");
+}
+#if Surface Manifest == "No HL2"
+{
+Copy("_4plug/4plug_file/gamemanifest/sur_nohl2.txt", "scripts/surfaceproperties_manifest.txt");
+}
 #if Sound Manifest == "No Taunts"
 {
 Copy("_4plug/4plug_file/gamemanifest/notaunt.txt", "scripts/game_sounds_manifest.txt");
