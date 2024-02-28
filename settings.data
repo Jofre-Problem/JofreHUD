@@ -30,6 +30,35 @@ GlobalComboBox("Surface Manifest", "Surface Manifest")
 	No HL2
 	Remove All
 }
+[Name:Particle Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Particle Manifest", "Particle Manifest")
+{
+	Default
+	No Blood
+	No Rockets and others
+	Useless
+	FUCK
+}
+#if Particle Manifest == "Useless"
+{
+Copy("_4plug/4plug_file/gamemanifest/particles_manifest_shit.txt", "particles/particles_manifest.txt");
+}
+#if Particle Manifest == "FUCK"
+{
+Copy("_4plug/4plug_file/gamemanifest/particles_manifest_fuck.txt", "particles/particles_manifest.txt");
+}
+#if Particle Manifest == "No Blood"
+{
+Copy("_4plug/4plug_file/gamemanifest/particles_manifest_blood.txt", "particles/particles_manifest.txt");
+}
+#if Particle Manifest == "No Rockets and others"
+{
+Copy("_4plug/4plug_file/gamemanifest/particles_manifest_rocket.txt", "particles/particles_manifest.txt");
+}
+#if Particle Manifest == "Default"
+{
+Copy("_4plug/4plug_file/gamemanifest/particles_manifest_def.txt", "particles/particles_manifest.txt");
+}
 #if Surface Manifest == "Remove All"
 {
 Copy("_4plug/4plug_file/gamemanifest/sur_fuck.txt", "scripts/surfaceproperties_manifest.txt");
@@ -48,7 +77,7 @@ Copy("_4plug/4plug_file/gamemanifest/notaunt.txt", "scripts/game_sounds_manifest
 }
 #if Sound Manifest == "No MVM"
 {
-Copy("_4plug/4plug_file/gamemanifest/notaunt.txt", "scripts/game_sounds_manifest.txt");
+Copy("_4plug/4plug_file/gamemanifest/nomvm.txt", "scripts/game_sounds_manifest.txt");
 }
 #if Sound Manifest == "Default"
 {

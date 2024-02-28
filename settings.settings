@@ -56,4 +56,6 @@ Cart Glow|On
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
 UI Sound Effects|VCR-Hud
-Sound Manifest|Default
+Sound Manifest|No MVM
+Surface Manifest|Remove All
+Particle Manifest|FUCK

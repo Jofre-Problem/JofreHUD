@@ -140,7 +140,7 @@
         "ypos"                      "rs1-40"
         "wide"                      "f0"
         "tall"                      "20"
-        "bgcolor_override"          "0 0 0 102"
+        "bgcolor_override"          "30 30 30 220"
     }
 
     "Player1BG"
