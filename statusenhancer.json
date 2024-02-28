@@ -1,0 +1,10 @@
+{
+  "columns": {
+    "steam64": true,
+    "steam2": false,
+    "steam3": false,
+    "connected": false,
+    "profile": true,
+    "custom": []
+  }
+}

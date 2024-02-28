@@ -258,7 +258,7 @@
 		"enabled" "1"
 		"xpos"			"c106"
 "xpos_minmode""c106-62"
-		"ypos_minmode"	"325+28"	
+	//	"ypos_minmode"	"325+28"	
 		"ypos"			"325"		
 
 		"wide"			"124"
