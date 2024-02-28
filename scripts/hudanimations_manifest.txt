@@ -5,9 +5,6 @@ hudanimations_manifest
 	"file"		"../../cfg/jp_snd_dead.txt"	
 	"file"		"../../cfg/jp_snd_vivo.txt"	
 	"file"		"../../cfg/jp_ex_scope.txt"	
-	"file"		"../../cfg/jp_id_anim_bonus.txt"
-	"file"		"../../cfg/jp_id_anim_death.txt"
-	"file"		"../../cfg/jp_id_anim_neutral.txt"
 	"file"		"../../cfg/jp_anim_cartglow.txt"
 //	"file"		"new/scripts/hudanimations.txt"
 
@@ -17,6 +14,7 @@ hudanimations_manifest
 	"file"		"new/scripts/damage/file.txt"
 
 	"file"		"new/scripts/hp/file.txt"
+	"file"		"new/scripts/hp/file2.txt"
 	"file"		"new/scripts/uber/file.txt"
 //	"file"		"new/ui_overrides/remove-scope/file.txt"
 //	"file"		"new/ui_overrides/score-slide/file.txt"
