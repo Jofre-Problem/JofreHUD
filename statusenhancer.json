@@ -1,9 +1,9 @@
 {
   "columns": {
     "steam64": true,
-    "steam2": false,
-    "steam3": false,
-    "connected": false,
+    "steam2": true,
+    "steam3": true,
+    "connected": true,
     "profile": true,
     "custom": []
   }
