@@ -87,7 +87,7 @@
 		"fieldName"				"1_image"
 			"scaleImage"	"1"
 			"ypos""rs1-36"
-			"wide""f0"
+			"wide""p1"
 			"zpos"	"1002"
 			"tall""2"
 			"image""replay/thumbnails/misc/test2"

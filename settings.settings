@@ -55,7 +55,7 @@ Scoreboard Slide|On
 Cart Glow|On
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
-UI Sound Effects|VCR-Hud
-Sound Manifest|No MVM
-Surface Manifest|Remove All
-Particle Manifest|FUCK
+UI Sound Effects|MagnumHUD
+Sound Manifest|No Passtime
+Surface Manifest|Default
+Particle Manifest|Default

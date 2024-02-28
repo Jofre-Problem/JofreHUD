@@ -50,7 +50,21 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_EnableGlowsAfterRespawn"
 		{ BOOL }
 		{ "1" }
-	}
+	
+	"chat_filter_settings"
+	{
+		"#TF_ChatFilterSettings"
+		"#Tooltip_ChatFilterSettings"
+		{ BUTTON }
+		{ "open_chat_filter_settings" }
+	}	
+	"tf_delete_temp_files"
+	{
+		"#TF_delete_temp_files"
+		"#Tooltip_delete_temp_files"
+		{ BOOL }
+		{ "1" }
+	}	
 	"killstreak"
 	{
 		"KillStreak"
