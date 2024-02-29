@@ -65,6 +65,17 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}	
+	"cl_downloadfilter"
+	{
+		"Download Filter"
+		{ LIST
+			"all"	"0"
+			"mapsonly"		"1"
+			"nosounds"	"2"
+			"none"	"3"
+		}
+		{ "0" }
+	}	
 	"killstreak"
 	{
 		"KillStreak"

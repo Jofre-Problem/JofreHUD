@@ -29,8 +29,9 @@
 		"zpos"		"500"
 		"wide"		"258"
 		"tall"		"456"
-		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 255"
+		"border"		"blurborder"
+		"bgcolor_override"	"30 30 30 100"
+
 		"SteamFriendsList"
 		{
 			"ControlName"		"CSteamFriendsListPanel"
@@ -60,7 +61,7 @@
 				"FieldName"		"ScrollBar"
 				"xpos"		"0"
 				"tall"		"f0"
-				"wide"		"6"
+				"wide"		"0"
 				"zpos"		"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"		"1"
