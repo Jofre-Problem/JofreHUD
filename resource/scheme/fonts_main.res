@@ -1236,7 +1236,8 @@ Scheme
 		}
 		"10"
 		{
-			"font" "fonts/LowAmmoWarningZero.ttf"
+			"font" "fonts/LowAmmoWarningZero.ttf" [$WINDOWS]
+			"font" "fonts/LowAmmoWarning-Zero_linux.otf" [$OSX]
 			"name" "LowAmmoWarning Zero"
 		}
 		"11"
@@ -1282,8 +1283,9 @@ Scheme
 		}
 		"21"
 		{
-			"font" "fonts/OpenSans-NodashHeals.ttf"
-			"name" "Open Sans NodashHeals"
+			"font" "fonts/OpenSans-NodashHeals.ttf" 	[$WINDOWS]
+			"font" "fonts/OpenSans-NodashHeals-Linux.ttf" 	[$OSX]
+			"name" "Open Sans NodashHeals"	
 		}
 		"25"
 		{
@@ -1315,11 +1317,7 @@ Scheme
 			"font" "fonts/jofreicons2.ttf"
 			"name" "jofreicons2"
 		}		
-		"painicons"
-		{
-			"font" "fonts/LowAmmoWarningZero.ttf"
-			"name" "LowAmmoWarning Zero"
-		}			
+		
 		"61"
 		{
 			"font" "fonts/OpenSans-Nodash.ttf"
