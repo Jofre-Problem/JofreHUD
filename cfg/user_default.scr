@@ -50,7 +50,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_EnableGlowsAfterRespawn"
 		{ BOOL }
 		{ "1" }
-	
+	}
 	"chat_filter_settings"
 	{
 		"#TF_ChatFilterSettings"
