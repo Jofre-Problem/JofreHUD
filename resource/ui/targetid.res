@@ -311,7 +311,7 @@
 		"textAlignment"		"center"
 		////	"0"
 		////		"0"
-		"fgcolor"		"Black"
+		"fgcolor"		"255 170 35 255"
 	}
 	"TargetDataLabelTrue2"
 	{	
@@ -331,7 +331,7 @@
 		"textAlignment"		"center"
 		////	"0"
 		////		"0"
-		"fgcolor"		"White"
+		"fgcolor"		"Black"
 	}
 	"TriUberTID"
 	{
@@ -350,21 +350,6 @@
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"white"
 		"scaleImage"		"1"
-	}
-	"TriUberTIDBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TriUberTIDBG"
-		"xpos"			"353"
-		"ypos"			"420"
-		"zpos"			"0"
-		"wide"			"30"
-		"tall"			"15"
-		"visible"		"1"
-		"enabled"		"1"
-    "fillcolor"		"White"
-	
-		"alpha"		"150"
 	}
 	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
 	{	

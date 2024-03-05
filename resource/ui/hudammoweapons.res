@@ -278,7 +278,8 @@
 		"enabled"		"1"
 		"labelText"		"%ammo%"
 		"textAlignment"	"west"	
-		"font"			"LowAmmoFont"
+		"font"			"LowAmmoFont"		[$WINDOWS]
+		"font"			"Blank"	[$OSX]
 		"fgcolor"		"255 127 0 255"
 				"pin_to_sibling"	"AmmoAnchor"
 	}

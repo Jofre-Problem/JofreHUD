@@ -22,7 +22,7 @@ event HudHealthDyingPulse
 event HudHealthDyingPulseStop
 {
 	Animate PlayerStatusHealthValueID Fgcolor "236 240 241 255" linear 0.0 0.01
-	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.01
+	Animate PlayerStatusHealthValueID2 Fgcolor "Notowhite" linear 0.0 0.01
 	Animate PlayerStatusHealthValueID3 Fgcolor "236 240 241 255" linear 0.0 0.01
 
 }

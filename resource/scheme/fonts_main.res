@@ -1236,8 +1236,8 @@ Scheme
 		}
 		"10"
 		{
-			"font" "fonts/LowAmmoWarningZero.ttf" [$WINDOWS]
-			"font" "fonts/LowAmmoWarning-Zero_linux.otf" [$OSX]
+			"font" "fonts/LowAmmoWarningZero.ttf"// [$WINDOWS]
+		//	"font" "fonts/LowAmmoWarning-Zero_linux.otf" [$OSX]
 			"name" "LowAmmoWarning Zero"
 		}
 		"11"
@@ -1283,8 +1283,8 @@ Scheme
 		}
 		"21"
 		{
-			"font" "fonts/OpenSans-NodashHeals.ttf" 	[$WINDOWS]
-			"font" "fonts/OpenSans-NodashHeals-Linux.ttf" 	[$OSX]
+			"font" "fonts/OpenSans-NodashHeals.ttf" //	[$WINDOWS]
+		//	"font" "fonts/OpenSans-NodashHeals-Linux.ttf" 	[$OSX]
 			"name" "Open Sans NodashHeals"	
 		}
 		"25"

@@ -193,7 +193,7 @@
 		"fieldName"		"ok"
 		"xpos"			"c-150"
 		"ypos"			"r176"
-		"zpos"			"3"
+		"zpos"			"300"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -216,6 +216,7 @@
 		"armedFgColor_override" "primary"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
+		"alpha"	"190"
 	}
 	
 	"ShadedBar"

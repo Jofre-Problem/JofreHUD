@@ -46,7 +46,7 @@
     "visible"		"1"
     "enabled"		"1"
 		"labelText"		""
-    "bgcolor_override"		"White"
+    "bgcolor_override"		"0 0 0 100"
 		"alpha"		"150"
 		"proportionaltoparent"		"1"
   }
@@ -112,6 +112,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panels/blue"
+		"alpha"	"100"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 
@@ -148,10 +149,27 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Size 16"
-		"fgcolor"		"Black"
+		"font"			"Killfeed"
+		"fgcolor"		"Notowhite"
+		"fgcolor_override"		"236 240 241 255"
 	}
-
+	"PlayerStatusHealthValueID2S"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueID2S"
+		"xpos"			"-39"
+		"ypos"			"421"
+		"zpos"			"4"
+		"wide"			"655"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Killfeed"
+		"fgcolor"		"notoblack"
+		"fgcolor_override"		"notoblack"
+	}
 	"PlayerStatusHealthValueS"
 	{
 		"ControlName"	"CExLabel"

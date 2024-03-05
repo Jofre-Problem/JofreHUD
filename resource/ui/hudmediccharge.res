@@ -306,22 +306,6 @@
 		"alpha"			"0"
 	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
 	}	
-	"ubericon"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ubericon"		
-		"font"			"NewIcons25"
-		"fgcolor"		"whattimeis1"//"whattimeisinvert"
-		"xpos"			"-95"
-		"ypos"			"2"
-		"zpos"			"9000"
-		"wide"			"150"
-		"tall"			"35"
-		"textAlignment"	"west"	
-		"labelText"		"9"	
-		"alpha"			"220"
-	"pin_to_sibling"	"TeamColoredAmmoTextBG"	
-	}		
 	"IndividualChargesLabel"
 	{
 		"ControlName"	"CExLabel"

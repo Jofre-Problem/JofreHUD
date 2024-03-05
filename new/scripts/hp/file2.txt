@@ -1,3 +1,3 @@
-event TI_Bonus{	Animate PlayerStatusHealthValueID Fgcolor "Positive" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "Black" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Positive" linear 0.0 0.1}
-event TI_Death{	Animate PlayerStatusHealthValueID Fgcolor "Negative" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "Black" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Negative" linear 0.0 0.1}
-event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Neutral" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "Black" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Neutral" linear 0.0 0.1}
+event TI_Bonus{	Animate PlayerStatusHealthValueID Fgcolor "Positive" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Positive" linear 0.0 0.1}
+event TI_Death{	Animate PlayerStatusHealthValueID Fgcolor "Negative" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Negative" linear 0.0 0.1}
+event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Neutral" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Neutral" linear 0.0 0.1}
