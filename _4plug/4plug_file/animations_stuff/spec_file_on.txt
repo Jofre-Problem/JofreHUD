@@ -1,0 +1,23 @@
+event ScoreboardCrosshairAnimate
+{
+	//Animate hudweaponammo never_draw "0" linear 0.0 0.0
+	SetVisible hudweaponammo	1 0.001
+	SetVisible hudweaponammo	1 0.002
+	SetVisible hudweaponammo	1 0.003
+	SetVisible hudweaponammo	1 0.004
+	//Animate hudplayerstatus never_draw "0" linear 0.0 0.0
+	SetVisible hudplayerstatus	1 0.001
+	SetVisible hudplayerstatus	1 0.002
+	SetVisible hudplayerstatus	1 0.003
+	SetVisible hudplayerstatus	1 0.004
+	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
+	SetVisible HudCrosshair	1 0.001
+	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
+//	SetVisible CDamageAccountPanel	1 0.0	
+	
+	RunEvent ScoreboardCrosshairAnimateLoop 0.005
+}
+event ScoreboardCrosshairAnimateLoop
+{
+	RunEvent ScoreboardCrosshairAnimate 0.0
+}

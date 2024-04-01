@@ -196,7 +196,22 @@
 	}			
 	
 	
-	
+		"TeamColoredAmmoTextBG2"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamColoredAmmoTextBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"80"
+		"tall"			"34"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/cover"
+		"scaleImage"		"1"	
+//		"teambg_2"		"replay/thumbnails/hp/redteam2"
+//		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+	}
 	"TeamColoredAmmoTextBG"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -1,4 +1,6 @@
+#base "../../../../cfg/jp_ui_ammobg.txt"
 #base "ui2/modulate_team.res"
+
 "Resource/UI/HudItemEffectMeter_base.res"
 {
 	"FixForHP"
@@ -7,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"f0"
-		"tall"			"2"
+		"tall"			"3"
 		"pin_to_sibling"	"ItemEffectMeter"
 	
 	}
@@ -34,7 +36,7 @@
 		"ypos"					"2"
 		"zpos"					"5"
 		"wide"					"f0"
-		"tall"					"10"
+		"tall"					"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
@@ -53,7 +55,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"f0"
-		"tall"					"2"
+		"tall"					"3"
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"

@@ -10,4 +10,9 @@
 		"teambg_2"		"replay/thumbnails/hp/whiteam2"
 		"teambg_3"		"replay/thumbnails/hp/whiteam2"
 	}
+	"FixForHP"
+	{
+		"visible"			"0"
+	
+	}	
 }

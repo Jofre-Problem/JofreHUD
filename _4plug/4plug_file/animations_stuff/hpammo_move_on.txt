@@ -1,0 +1,17 @@
+event HealthAmmoAnimateOpen
+{
+
+	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
+	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
+	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
+	Animate HudDeathNotice xpos 		"-180"		Linear 0.0 0.01
+	Animate HudDeathNotice ypos 		"290"		Linear 0.0 0.01
+//	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
+}
+event HealthAmmoAnimateEnd
+{
+	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
+	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
+	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
+	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
+}

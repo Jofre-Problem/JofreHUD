@@ -39,6 +39,34 @@ GlobalComboBox("Particle Manifest", "Particle Manifest")
 	Useless
 	FUCK
 }
+[Name:ANIMATIONS Show Health Ammo on Spec, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("ANIMATIONS Show Health Ammo on Spec", "ANIMATIONS Show Health Ammo on Spec")
+{
+	OFF
+	ON
+}
+[Name:ANIMATIONS Move Hp Ammo, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("ANIMATIONS Move Hp Ammo", "ANIMATIONS Move Hp Ammo")
+{
+	OFF
+	ON
+}
+#if ANIMATIONS Move Hp Ammo == "ON"
+{
+Copy("_4plug/4plug_file/animations_stuff/hpammo_move_on.txt", "new/scripts/4plug/hpammo_move_file.txt");
+}
+#if ANIMATIONS Move Hp Ammo == "OFF"
+{
+Copy("_4plug/4plug_file/animations_stuff/hpammo_move_off.txt", "new/scripts/4plug/hpammo_move_file.txt");
+}
+#if ANIMATIONS Show Health Ammo on Spec == "OFF"
+{
+Copy("_4plug/4plug_file/animations_stuff/spec_file_off.txt", "new/scripts/4plug/spec_file.txt");
+}
+#if ANIMATIONS Show Health Ammo on Spec == "ON"
+{
+Copy("_4plug/4plug_file/animations_stuff/spec_file_on.txt", "new/scripts/4plug/spec_file.txt");
+}
 #if Particle Manifest == "Useless"
 {
 Copy("_4plug/4plug_file/gamemanifest/particles_manifest_shit.txt", "particles/particles_manifest.txt");

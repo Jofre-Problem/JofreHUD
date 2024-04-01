@@ -4,71 +4,74 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"PrevButton"
-		"xpos"		"-2"
-		"ypos"		"cs-0.5"
+		"xpos"		"0"
+		"ypos"		"rs1"
 		"zpos"		"2"
-		"wide"		"10"
-		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		"wide"		"p0.5"
+		"tall"		"16"
+		"autoResize"		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		"tabPosition"		"0"
 		"labelText"			"<"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"DefaultVerySmall"
-		"textAlignment"	"center"
+		"font"			"Noto12"
+		"textAlignment"	"west"
 
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		"command"	"prev"
 		"actionsignallevel" "2"
 
-		"defaultBgColor_override"	"0 0 0 150"
-		"armedBgColor_override"		"Orange"
+		"defaultBgColor_override"	"blank"
+		"armedBgColor_override"		"0 0 0 180"
 
-		"armedFgColor_override"		"TanLight"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"defaultFgColor_override"		"255 255 255 170"
+		"armedFgColor_override"		"white"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 	}
 
 	"NextButton"
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextButton"
-		"xpos"		"r8"
-		"ypos"		"cs-0.5"
+		"xpos"		"rs1"
+		"ypos"		"rs1"
 		"zpos"		"2"
-		"wide"		"10"
-		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		"wide"		"p0.5"
+		"tall"		"16"
+		"autoResize"		"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		"tabPosition"		"0"
 		"labelText"			">"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"DefaultVerySmall"
-		"textAlignment"	"center"
+		"font"			"Noto12"
+		"textAlignment"	"east"
 
 		"proportionaltoparent"	"1"
 		"paintbackground"	"1"
 		"command"	"next"
 		"actionsignallevel" "2"
 
-		"defaultBgColor_override"	"0 0 0 150"
-		"armedBgColor_override"		"Orange"
+		"defaultBgColor_override"	"blank"
+		"armedBgColor_override"		"0 0 0 180"
 
 
-		"armedFgColor_override"		"TanLight"
+		"defaultFgColor_override"		"255 255 255 170"
+		"armedFgColor_override"		"white"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 	}
 
 	"AdsContainer"
@@ -96,6 +99,7 @@
 		"tall"			"f0"
 		"zpos"			"5"
 		"proportionaltoparent"	"1"
+		"visible"		"0"
 		"border"		"InnerShadowBorder"
 		"mouseinputenabled"	"0"
 	}
@@ -115,7 +119,6 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 		
-		"bgcolor_override"		"26 23 22 255"
+		"bgcolor_override"		"26 23 22 0"
 	}
-
 }

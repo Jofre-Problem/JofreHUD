@@ -185,6 +185,7 @@
 		fieldName					"TauntLoadoutButton"
 		"xpos"			"-20"
 		"ypos"			"0"
+		zpos	"100"
 		wide							24
 		tall							35
 		visible						1

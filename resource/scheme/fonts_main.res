@@ -346,7 +346,26 @@ Scheme
 				"tall" "16"
 				"antialias"	"1"
 			}
-		}		
+		}
+		"KillfeedUber"
+		{
+			"1"
+			{
+				"name" "OpenSansUber"
+				"tall" "18"
+				"antialias"	"1"
+			}
+		}	
+		"KillfeedUberBlur"
+		{
+			"1"
+			{
+				"name" "OpenSansUber"
+				"tall" "18"
+				"antialias"	"1"
+				"blur"	"2"
+			}
+		}						
 		"Killfeed"
 		{
 			"1"
@@ -1172,6 +1191,11 @@ Scheme
 	}
 	CustomFontFiles
 	{
+		"uber2"
+		{
+			"font" "fonts/OpenSansUber.ttf"
+			"name" "OpenSansUber"
+		}				
 		"boldsans"
 		{
 			"font" "fonts/productsansbold.ttf"

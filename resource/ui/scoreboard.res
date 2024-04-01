@@ -29,16 +29,18 @@
 						"SummerBorderScore"
 					{
 						"visible"	"1"
-					}		
+					}
+
+				
 	"ccvarlist"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ccvarlist"
 		"xpos"				"0"
-		"ypos"				"12"
-		"zpos"				"3000"
+		"ypos"				"11"
+		"zpos"				"1000"
 		"wide"				"f0"
-		"tall"				"65"
+		"tall"				"68"
 				
 
 		"DamageIndicatorButtons"
@@ -48,9 +50,9 @@
 				"xpos"						"0"
 				"ypos"						"0"
 				"zpos"						"1"
-				"wide"						"200"
-				"tall"						"65"
-				"bgcolor_override"	"30 30 30 60"
+				"wide"						"250"
+				"tall"						"68"
+				"bgcolor_override"	"30 30 30 0"
 				"border"	"noborder"
 				"ScrollBar"
 				{
@@ -59,15 +61,16 @@
 					"xpos"			"0"
 					
 					"tall"			"f0"
-					"wide"			"5" // This gets slammed from client schme.  GG.
+					"wide"			"21" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"255 255 255 190"
 						"bgcolor_override"	"blank"
+						"alpha"		"80"
 					}
 				
 					"UpButton"
@@ -84,25 +87,25 @@
 						"visible"		"0"
 					}
 				}	
-					"netbg"
+					"netbg2"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"			"netbg"
+			"fieldName"			"netbg2"
 			"xpos"				"0"
-			"ypos"				"90"
-			"zpos"				"110"
-			"wide"				"135"
-			"tall"				"1"
+			"ypos"				"68"
+			"zpos"				"0"
+			"wide"				"240"
+			"tall"				"100"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"45 45 45 255"
-		}	
+			"fillcolor"			"notodark"
+		}			
 		"ChatLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"ChatLabel"
-		"xpos"		"0"
-		"ypos"		"2"
+		"xpos"		"30"
+		"ypos"		"70+2"
 		
 		"wide"		"23"
 		"tall"		"20"
@@ -115,8 +118,8 @@
 	{
 		"ControlName"		"CCVarSlider"
 		"fieldName"		"ChatSlider"
-		"xpos"		"25"
-		"ypos"		"7"
+		"xpos"		"30+25"
+		"ypos"		"70+7"
 		"wide"		"180"
 		"zpos"		"180"
 		"tall"		"15"
@@ -1105,7 +1108,7 @@ if_mvm
 		"xpos"			"0"
 		"ypos"			"11"[$WINDOWS]
 		"ypos"			"8" [$LINUX]
-		"zpos""1000"
+		"zpos""10000"
 		"wide"			"f0"
 		"tall"			"p0.001"
 		"visible"		"1"

@@ -49,28 +49,24 @@ event ScoreboardAnimate
 	Animate scores Position "0 0" deaccel 0.0 0.125
 }	
 
-event ScoreboardCrosshairAnimate
-{
-	//Animate hudweaponammo never_draw "0" linear 0.0 0.0
-	SetVisible hudweaponammo	1 0.001
-	//Animate hudplayerstatus never_draw "0" linear 0.0 0.0
-	SetVisible hudplayerstatus	1 0.001
-	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
-	SetVisible HudCrosshair	1 0.001
-	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
-//	SetVisible CDamageAccountPanel	1 0.0	
-	
-	RunEvent ScoreboardCrosshairAnimateLoop 0.005
-}
-event ScoreboardCrosshairAnimateLoop
-{
-	RunEvent ScoreboardCrosshairAnimate 0.0
-}
+
 
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
+
+
+	//4plug start
 	RunEvent ScoreboardCrosshairAnimate 0.0	
+	RunEvent HealthAmmoAnimateOpen 0.0	
+	// shows hp ammo on spec
+
+
+	//4plug end
+
+
+
+
 //	RunEventChild DisguiseDust StartParticle0 1
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
@@ -98,13 +94,7 @@ event MenuOpen
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
 
-	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
-	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
-	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
-	Animate HudDeathNotice xpos 		"-180"		Linear 0.0 0.01
-	Animate HudDeathNotice ypos 		"290"		Linear 0.0 0.01
-//	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
-	setfont HudDeathNotice "textfont" "Notobold20"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 }
 event TestTestingCmd
 {	
@@ -141,10 +131,7 @@ event MenuClose
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
-	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
-	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
-	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
-	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
+	RunEvent	HealthAmmoAnimateEnd 0.0
 	//RunEvent LevelInitAny 0.0
 }
 

@@ -1,6 +1,6 @@
 event DamagedPlayer
 {
-	setfont HudDeathNotice "textfont" "NotoBold20"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 	setfont HudDeathNotice "textfont" "Killfeed2"	5
 	StopEvent 	DamageAccountStuff	0.0
 	RunEvent 	DamageAccountStuff      0.2 //lol

@@ -297,7 +297,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue"
-		"font"			"Size 16 Uber"
+		"font"			"KillfeedUber"
 		"xpos"			"40"
 		"ypos"			"410"
 		"zpos"			"5"
@@ -311,13 +311,13 @@
 		"textAlignment"		"center"
 		////	"0"
 		////		"0"
-		"fgcolor"		"255 170 35 255"
+		"fgcolor"		"Notowhite"
 	}
 	"TargetDataLabelTrue2"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue2"
-		"font"			"Size 16 Uber Blur"
+		"font"			"KillfeedUberBlur"
 		"xpos"			"40"
 		"ypos"			"410"
 		"zpos"			"4"
@@ -345,12 +345,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"variable"		"targetdata"
-		"fg_image"		"replay/thumbnails/hp/modulate_rgb"
+		"fg_image"		"replay/thumbnails/rainbow/gif_rgb"
 		"bg_image"		"replay/thumbnails/bg_blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"white"
 		"scaleImage"		"1"
 	}
+
 	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
 	{	
 		"ControlName"		"CExLabel"

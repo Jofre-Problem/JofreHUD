@@ -59,3 +59,6 @@ UI Sound Effects|MagnumHUD
 Sound Manifest|No Passtime
 Surface Manifest|Default
 Particle Manifest|Default
+ANIMATIONS > Show Health Ammo on Spec|OFF
+ANIMATIONS Show Health Ammo on Spec|OFF
+ANIMATIONS Move Hp Ammo|OFF

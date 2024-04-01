@@ -1,0 +1,8 @@
+event HealthAmmoAnimateOpen
+{
+
+}
+event HealthAmmoAnimateEnd
+{
+
+}

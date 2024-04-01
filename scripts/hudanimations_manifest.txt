@@ -13,6 +13,9 @@ hudanimations_manifest
 	"file"		"new/scripts/ammo/file.txt"
 	"file"		"new/scripts/damage/file.txt"
 
+	"file"		"new/scripts/4plug/spec_file.txt"
+	"file"		"new/scripts/4plug/hpammo_move_file.txt"
+	
 	"file"		"new/scripts/hp/file.txt"
 	"file"		"new/scripts/hp/file2.txt"
 	"file"		"new/scripts/uber/file.txt"
