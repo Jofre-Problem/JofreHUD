@@ -12,7 +12,7 @@
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
 	//	"delta_item_font"		"DamagetextOldBitMap"//Size 12"
-		"delta_item_font_big"	"DamagetextOldOutline"//Size 18"		
+		"delta_item_font_big"	"DamagetextOld"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"
@@ -38,7 +38,9 @@
 		
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
-
+		"pin_to_sibling" 	"DamageAccountLabelPusher2"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
 	}	
 	"DamageAccountLabel2"
 	{

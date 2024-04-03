@@ -202,7 +202,7 @@
 		"fieldName"		"TeamColoredAmmoTextBG2"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"34"
 		"visible"		"1"

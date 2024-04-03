@@ -49,10 +49,10 @@
 		"ypos"			"16"
 		"zpos"			"1000"
 		"wide"			"56"
-		"tall"			"12"
+		"tall"			"1"
 		"image"			"replay/thumbnails/hp/modulate_white_test"
 		"scaleImage"	"1"
-		"drawcolor"		"255 0 0 255"
+		"drawcolor"		"236 240 241 255"
 	}	
 	"skil2"
 	{
@@ -119,7 +119,7 @@
 		"ypos"			"19"
 		"zpos"			"1006"
 		"wide"			"100"
-		"tall"			"8"				
+		"tall"			"3"				
 		"fgcolor_override"	"Purple"
 	}					
 }

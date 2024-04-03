@@ -130,13 +130,12 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTop3"
-		"font"			"Killfeededit"//"Size 16 uber"
+		"font"			"killfeeduber"//"Size 16 uber"
 		"xpos"			"8"
 		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		"textinsety"	"-5"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -149,7 +148,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTop3S"
-		"font"			"Killfeededit"//"Size 16 uber"
+		"font"			"killfeeduber"//"Size 16 uber"
 		"xpos"			"8"
 		"ypos"			"38"
 		"zpos"			"1"

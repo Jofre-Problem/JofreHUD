@@ -88,8 +88,7 @@ event MenuOpen
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
 //	RunEvent LevelInitAny 0.0
-	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
-	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
+
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
