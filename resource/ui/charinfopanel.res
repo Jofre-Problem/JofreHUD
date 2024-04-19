@@ -66,9 +66,9 @@
 		wide					f0
 		tall					f-10
 		title					""
-		settitlebarvisible		0
+		settitlebarvisible		1
 		paintbackground			0
-		
+	 "titletextinsetY"                       "-30"
 		clientinsetx_override		0		// content xpos offset
 		sheetinset_bottom			-10           // perfect
 	}
@@ -79,10 +79,10 @@
 		"fieldName"		"Sheet"
 			zpos					0		// buttons above sheet	
 			tall 		"f0"			//JP f0
-		"tabxindent"	"5"
+	//	"tabxindent"	"5"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"10"			//JP 10
+		"tabheight"		"0"			//JP 10
 		"transition_time" "0"
 		yoffset				-10	//JP 10 tab y pos, pushes other content		
 //		yoffset				-10	//JP 10 tab y pos, pushes other content		
