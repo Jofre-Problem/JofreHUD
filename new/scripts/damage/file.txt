@@ -1,5 +1,10 @@
 event DamagedPlayer
 {
+	StopEvent 	DamagedPlayerMain	0.0
+	RunEvent 	DamagedPlayerMain      0.0001 //lol
+}
+event DamagedPlayerMain
+{
 	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 	setfont HudDeathNotice "textfont" "Killfeed2"	5
 	StopEvent 	DamageAccountStuff	0.0
