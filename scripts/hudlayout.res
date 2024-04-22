@@ -222,7 +222,6 @@
 		"separator_width"		"3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"3"
 		"height_offset"			"0"
-		"pin_to_sibling"	"HudArenaNotification"
 	}
 	HudDeathNotice
 	{
