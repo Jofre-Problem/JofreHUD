@@ -9,6 +9,8 @@
 #base "scheme/crosshairs.res"
 #base "scheme/fonts_main.res"
 #base "scheme/fonts_sec.res"
+
+// not the culprit
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
 #base "scheme/borders.res"
@@ -274,24 +276,13 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		"NewIcons7" 
-		{
-			"1"
-			{
-				"name"				"JofreIconsRe"
-				"tall"				"7"		
-				"antialias"			"1"
-			}
-		}							
-		"NewIcons9" 
-		{
-			"1"
-			{
-				"name"				"JofreIconsRe"
-				"tall"				"9"		
-				"antialias"			"1"
-			}
-		}						
+		
+		
+
+
+
+
+		
 		"Code8"
 		{
 			"1"
@@ -302,7 +293,9 @@ Scheme
 				"outline"	"1"
 				"antialias" 	"1"
 			}
-		}				
+		}	
+
+		
 		"Blank" //backup
 		{
 			"1"
@@ -334,7 +327,12 @@ Scheme
 				"antialias" 	"1"
 				"wide"		"300"
 			}
-		}												
+		}						
+
+
+
+
+		
 		"DamagetextShadowOld"
 		{
 			"1"
