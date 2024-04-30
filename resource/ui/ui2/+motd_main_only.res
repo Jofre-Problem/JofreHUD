@@ -654,7 +654,48 @@
 				"textAlignment"				"center"
 				"fgcolor"					"notowhite"
 				"bgcolor_override"			"TransparentBlack"
-			}			
+			}		
+	"ContractLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContractLabel"
+		"font"		"Noto16"
+		"labelText"		"Contract:"
+		"textAlignment"	"west"
+		"xpos"		"10"
+		"ypos"		"10"
+		"zpos"		"200"
+		"wide"		"105"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle tf_contract_progress_show"
+		"actionsignallevel"		"3"
+		"paintbackground"	"0"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+	}
+
+	"ContractCheck" 
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"ContractCheck"
+		"xpos"		"90"
+		"ypos"		"10"
+		"zpos"		"199"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "tf_contract_progress_show"
+		"mouseinputenabled"	"0"
+
+	}	
+			
 	"VoiceLabel"
 	{
 		"ControlName"	"CExButton"

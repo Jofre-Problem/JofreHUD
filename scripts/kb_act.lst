@@ -21,6 +21,7 @@
 "+spinbotright"		"Spin Right"
 "+jump"         "███ Reset Jump to Def ███"
 "+x_zoom"			"Zoom Bind"
+"+incrementvar tf_contract_progress_show 0 1 1"			"Contract / Achievemnt Progress"
 "blank"						"=============================="
 "blank"						"Scoreboard Binds"
 "blank"						"=============================="

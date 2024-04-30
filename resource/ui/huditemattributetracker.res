@@ -6,9 +6,13 @@
 
 #base "../../customization/_dev/crosshairs/crosshair_res_files/shape_current.res"
 #base "../../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
-#base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"	
+#base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"
+
+#base "../../../../cfg/jp_hud_radar.txt"	
 "Resource/UI/HudAchievementTrackerItem.res"
 {	
+
+
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"

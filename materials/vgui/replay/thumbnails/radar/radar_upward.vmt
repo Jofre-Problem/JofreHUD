@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/replay/thumbnails/radar/radar_upward"
+    "$translucent" 1
+    "$vertexcolor" 1
+    "$no_fullbright" 1
+    "$ignorez" 1
+	"$frame" 0
+}
