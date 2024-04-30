@@ -823,7 +823,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"	"0"
-			font					"NewIcons9"
+			font					"NewIcons12"
 			textAlignment			west
 			labeltext				"Z"
 			"dulltext"		"0"
