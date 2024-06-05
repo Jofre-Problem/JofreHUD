@@ -64,13 +64,14 @@ event MenuOpen
 
 	//4plug end
 
-
+//	SetVisible	roundinfo	1	0
 
 
 //	RunEventChild DisguiseDust StartParticle0 1
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
 	RunEvent TestTestingCmd 0.0
+	RunEvent Testing 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 	setfont HudMenu 	"textfont"		"MedHealtarget"		0.001
@@ -88,7 +89,16 @@ event MenuOpen
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
 //	RunEvent LevelInitAny 0.0
-//	SetVisible HudControlPointIcons 1.0 0.0
+	SetVisible CSecondaryTargetID 1 0.001
+	SetVisible CSecondaryTargetID 1 0.002
+	SetVisible CSecondaryTargetID 1 0.003
+	SetVisible CSecondaryTargetID 1 0.004
+	SetVisible CMainTargetID 1 0.001
+	SetVisible CMainTargetID 1 0.002
+	SetVisible CMainTargetID 1 0.003
+	SetVisible CMainTargetID 1 0.004
+	Animate CSecondaryTargetID never_draw "0" linear 0.0 0.0
+	Animate CMainTargetID never_draw "0" linear 0.0 0.0	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
@@ -98,13 +108,37 @@ event MenuOpen
 event TestTestingCmd
 {	
 	RuneventChild Mainmenuoverride TestCmd 0.0
+//	RunEvent TestingLooper	0.0
 }
 event TestCmd
 {	
 	Firecommand 0.0 "engine rgbdmg"
+//	Firecommand 0.0 "engine hidepanel roundinfo"
+}
+event LevelInit
+{
+	RunEvent	TESTING	0.0
+}
+event TESTING
+{
+	RunEventChild	MainMenuOverride	CommandTest	0.0
+	RunEvent TestingLooper	0.0
+
+}
+event TestingLooper
+{
+	SetVisible	roundinfo	1	0
+	RunEvent	looper	0.000
 }
 
-
+event Looper
+{
+	RunEvent	TestingLooper	0.001
+}
+event CommandTest
+{
+	FireCommand	0.0	"engine hidepanel roundinfo"
+}
 event ScoreboardAlpha
 {
 	Animate scores alpha "0" linear 0.0 0.0
@@ -117,7 +151,7 @@ event MenuClose
 //	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
 //	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
 //	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0	
-	StopEvent	MenuOpen 0.0 	
+
 	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
 	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01
 //	Animate HudDemomanCharge ypos 		"0"		Linear 0.0 0.5
@@ -132,6 +166,7 @@ event MenuClose
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
 	RunEvent	HealthAmmoAnimateEnd 0.0
 	//RunEvent LevelInitAny 0.0
+		StopEvent	MenuOpen 0.0 	
 }
 
 event MenuPulse

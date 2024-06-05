@@ -1,0 +1,83 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/replay/thumbnails/radar/tc_hydro"
+    "$translucent" 1
+    "$vertexcolor" 1
+    "$vertexalpha" 1
+
+    "$pos" "[0.0 0.0 0.0]"
+
+	$zero 0
+    $minusone "-1"
+	$posX "0.0"
+	$posY "0.0"
+    $finalpos "[0.0 0.0]"
+    $totalX 13000
+    $offsetX "-400"
+    $offsetY "0"
+
+    $detail "vgui/replay/thumbnails/radar/circle"
+    $detailscale    "1"
+    $detailblendmode "9"
+
+    $scale  "[0.3 0.3]"
+    $rotate "0"
+
+    Proxies {
+        PlayerPosition {
+            scale 1
+            resultVar $pos
+        }
+        Clamp {
+			srcVar1 $zero
+            min "$pos[0]"
+            max "$pos[0]"
+            resultVar "$posX"
+        }
+        Clamp {
+			srcVar1 $zero
+            min "$pos[1]"
+            max "$pos[1]"
+            resultVar "$posY"
+        }
+        Add {
+            srcVar1 "$posX"
+            srcVar2 $offsetX
+            resultVar "$posX"
+        }
+        Add {
+            srcVar1 "$posY"
+            srcVar2 $offsetY
+            resultVar "$posY"
+        }
+        Divide {
+            srcVar1 "$posX"
+            srcVar2 $totalX
+            resultVar "$posX"
+        }
+        Divide {
+            srcVar1 "$posY"
+            srcVar2 $totalX
+            resultVar "$posY"
+        }
+        Multiply {
+            srcVar1 "$posY"
+            srcVar2 "$minusone"
+            resultVar "$posY"
+        }
+        Equals {
+            srcVar1 "$posX"
+            resultVar   "$finalpos[0]"
+        }
+        Equals {
+            srcVar1 "$posY"
+            resultVar   "$finalpos[1]"
+        }
+        TextureTransform {
+            translateVar "$finalpos"
+            scaleVar     "$scale"
+            rotatevar  "$rotate"
+            resultVar   "$basetexturetransform"
+        }
+    }
+}

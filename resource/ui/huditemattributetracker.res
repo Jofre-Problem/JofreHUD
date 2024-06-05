@@ -8,7 +8,7 @@
 #base "../../customization/_dev/crosshairs/crosshair_res_files/size_current.res"
 #base "../../customization/_dev/crosshairs/crosshair_res_files/base.res"
 
-#base "../../../../cfg/jp_hud_radar.txt"	
+
 "Resource/UI/HudAchievementTrackerItem.res"
 {	
 
@@ -23,7 +23,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		//
-
+		"zpos"	"-100"
 		"stats_buffer_width"	"30"
 	}
 

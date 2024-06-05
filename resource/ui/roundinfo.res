@@ -9,10 +9,12 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"1"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
+		"keyboardinputenabled"	"0"
+		"mouseinputenabled"		"0"
+		"paintBackground"	"0"
+		"ForceStereoRenderToFrameBuffer"	"1"
 	}
 	
 	"Overlay"
@@ -25,8 +27,8 @@
 		"wide"			"560"
 		"tall"			"280"
 		"autoResize"	"1"
-		//		"0"
-		"visible"		"1"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"	
 	}
 	
@@ -39,14 +41,14 @@
 		"zpos"			"4"
 		"wide"			"420"
 		"tall"			"24"
-		
-		//		"0"
-		"visible"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"west"
-		////		"0"
-		
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
@@ -60,14 +62,14 @@
 		"zpos"			"4"
 		"wide"			"420"
 		"tall"			"24"
-		
-		//		"0"
-		"visible"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		////		"0"
-		
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"font"			"ChalkboardTitle"
 		"fgcolor"		"white"
 	}
@@ -77,99 +79,72 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"RoundContinue"
 		"xpos"			"r190"
-		//xpos_lodef			"r222"
-		//			"r232"
+		"xpos_lodef"			"r222"
+		"xpos_hidef"			"r232"
 		"ypos"			"r40"
-		//			"r64"
-		//			"r54"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		
-		//		"2"
-		"visible"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"&Continue"
 		"textAlignment"	"center"
-		////		"0"
-		
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
 	
+	
+	"radar_center"
+	{
+		"controlName"		"ImagePanel"
+		"zpos"				"-100"
+		"xpos"			"50+48"
+		"ypos"			"50+48"
+		"wide"				"4"
+		"tall"				"4"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/radar/blip"
+		"scaleImage"		"1"
+	}
+	
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
-		"xpos"			"c-280"
-		"ypos"			"c-148"
-		"zpos"			"3"
-		"wide"			"560"
-		"tall"			"280"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"zpos"				"-101"
+		"xpos"				"50"
+		"ypos"				"50"
+		"wide"				"100"
+		"tall"				"100"
+		"visible"			"1"
+		"enabled"			"1"
+		"scaleImage"		"1"
 	}	
 	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			//"320"
-			//"310"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
+
+		"visible"		"0"
+
 	}					
 
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		//			"r74"
-		//			"r65"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		//"tall_lodef"			"74"
-		//"tall_lodef"			"65"
-		
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		//
+
+		"visible"		"0"
+
 	}	
 	
-	"Footer"
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"visible"				"0"
-	}	
 }

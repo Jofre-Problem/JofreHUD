@@ -2,7 +2,7 @@
 #base "../../../../cfg/jp_hudplayerclass_3d.txt"
 #base "../../../../cfg/jp_hudplayerclass_3d_bg.txt"
 
-
+//#base "../../../../cfg/jp_hud_radar.txt"	
 
 "Resource/UI/HudPlayerClass.res"
 {
