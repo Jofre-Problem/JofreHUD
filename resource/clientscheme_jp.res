@@ -384,15 +384,11 @@ Scheme
 			"backgroundtype" "2"
 		}	
 	//	PropertySheetBorder	FrameBorder		
-	    	FrameBorder {
-			"bordertype"				"scalable_image"
-			"background_type"			"0"
-			//"color"						"Primary"
-			"image"						"replay/thumbnails/hp/REFRACTnormal"//"replay/thumbnails/hp/modulate_white_test"
-			"src_corner_width"			"32"
-			"src_corner_height"			"32"
-			"draw_corner_width"			"0"
-			"draw_corner_height"		"0"	 }			
+	    	FrameBorder 
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}				
 		"GrayDialogBorder"
 		{
 			"bordertype"									"scalable_image"

@@ -71,7 +71,7 @@ event MenuOpen
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
 	RunEvent TestTestingCmd 0.0
-	RunEvent Testing 0.0
+	RunEvent TESTING 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 	setfont HudMenu 	"textfont"		"MedHealtarget"		0.001
@@ -108,7 +108,7 @@ event MenuOpen
 event TestTestingCmd
 {	
 	RuneventChild Mainmenuoverride TestCmd 0.0
-//	RunEvent TestingLooper	0.0
+	RunEvent TESTING	0.0
 }
 event TestCmd
 {	
