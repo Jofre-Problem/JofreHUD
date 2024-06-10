@@ -1,19 +1,28 @@
 "overrides/pilotbars/file.res"
 {
-
-	"radar_y"
+	"roundinfo"
 	{
-		"visible"			"0"
-		"enabled"			"1"
-		"controlName"		"ImagePanel"
-		"fieldName"			"radar_y"
-		"zpos"				"-100"
-		"xpos"				"50"
-		"ypos"				"50"
-		"wide"				"256"
-		"tall"				"256"
-		"image"				"replay/thumbnails/radar/radar_y"
-		"scaleImage"		"1"
-		"drawcolor"			"255 0 0 255"
+		"ForceStereoRenderToFrameBuffer"	"1"
 	}
+	"Overlay"
+	{
+		"visible"		"0"	
+	}	
+	HudMatchStatus
+	{
+		"ForceStereoRenderToFrameBuffer"	"1"
+	}	
+	"radar_center"
+	{
+		"controlName"		"ImagePanel"
+		"zpos"				"-100"
+		"xpos"			"50+48"
+		"ypos"			"50+48"
+		"wide"				"4"
+		"tall"				"4"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/radar/blip"
+		"scaleImage"		"1"
+	}	
 }

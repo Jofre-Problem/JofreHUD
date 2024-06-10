@@ -6,6 +6,7 @@ hudanimations_manifest
 	"file"		"../../cfg/jp_snd_vivo.txt"	
 	"file"		"../../cfg/jp_ex_scope.txt"	
 	"file"		"../../cfg/jp_anim_cartglow.txt"
+	"file"		"../../cfg/jp_anim_radar.txt"
 //	"file"		"new/scripts/hudanimations.txt"
 
 	"file"		"new/scripts/disguise/file.txt"

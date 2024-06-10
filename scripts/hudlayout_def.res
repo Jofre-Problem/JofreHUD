@@ -1402,7 +1402,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"ignoreScheme"			"1"
-		"ForceStereoRenderToFrameBuffer"	"1"
+	//	"ForceStereoRenderToFrameBuffer"	"1"
 	}
 
 	"QueueHUDStatus"

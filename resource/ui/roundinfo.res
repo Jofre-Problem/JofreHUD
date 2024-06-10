@@ -1,3 +1,4 @@
+#base "../../../../cfg/jp_hud_radar.txt"
 "Resource/UI/RoundInfo.res"
 {
 	"roundinfo"
@@ -14,7 +15,7 @@
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"paintBackground"	"0"
-		"ForceStereoRenderToFrameBuffer"	"1"
+	//	"ForceStereoRenderToFrameBuffer"	"1"
 	}
 	
 	"Overlay"
@@ -28,7 +29,7 @@
 		"tall"			"280"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"0"
+	//	"visible"		"1"
 		"enabled"		"1"	
 	}
 	
@@ -102,19 +103,7 @@
 	}
 	
 	
-	"radar_center"
-	{
-		"controlName"		"ImagePanel"
-		"zpos"				"-100"
-		"xpos"			"50+48"
-		"ypos"			"50+48"
-		"wide"				"4"
-		"tall"				"4"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/radar/blip"
-		"scaleImage"		"1"
-	}
+
 	
 	"MapImage"
 	{

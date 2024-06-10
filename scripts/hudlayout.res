@@ -1,4 +1,5 @@
 	#base "../../../cfg/jp_awsd_hudlayout.txt"
+	#base "../../../cfg/jp_hud_radar.txt"		
 	#base "../new/ui_overrides/close-caption/file.res"
 	#base "../../../cfg/jp_speed_style.txt"
 //	#base "../../../cfg/jp_id_hudlayout.txt"
