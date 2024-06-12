@@ -73,8 +73,8 @@ event MenuOpen
 	RunEvent TestTestingCmd 0.0
 
 
-	RunEvent TESTING 0.0
-	RunEvent Forcecmd 0.0
+//	RunEvent TESTING 0.0
+//	RunEvent Forcecmd 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 	setfont HudMenu 	"textfont"		"MedHealtarget"		0.001
@@ -105,7 +105,7 @@ event MenuOpen
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
-
+	RunEvent ForceForceCmd 0.01
 	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 }
 event TestTestingCmd
@@ -117,7 +117,6 @@ event TestTestingCmd
 event TestCmd
 {	
 	Firecommand 0.0 "engine rgbdmg"
-//	Firecommand 0.0 "engine hidepanel roundinfo"
 }
 event LevelInit
 {
@@ -128,12 +127,12 @@ event ForceCmd
 	RuneventChild Mainmenuoverride ForceForceCmd 0.0	
 }
 event ForceForceCmd{		Firecommand 0.0 "engine hidepanel roundinfo"} //overrides preset to disable it
-event TESTING 
 
+event TESTING 
 {
 	RunEventChild	MainMenuOverride	CommandTest	0.0	
 	RunEvent TestingLooper	0.0 
-	}
+}
 event TestingLooper
 {
 	SetVisible	roundinfo	1	0
