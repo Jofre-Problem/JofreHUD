@@ -2,6 +2,8 @@
 #base "polyconfig1.res"
 "j"
 {	
+
+	
 "ChatPin"
 {
     "ControlName"    "Panel"
