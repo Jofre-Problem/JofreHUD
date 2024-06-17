@@ -122,29 +122,7 @@ event LevelInit
 {
 //	RunEvent	TESTING	0.0
 }
-event ForceCmd
-{	
-	RuneventChild Mainmenuoverride ForceForceCmd 0.0	
-}
-event ForceForceCmd{		Firecommand 0.0 "engine hidepanel roundinfo"} //overrides preset to disable it
 
-event TESTING 
-{
-	RunEventChild	MainMenuOverride	CommandTest	0.0	
-	RunEvent TestingLooper	0.0 
-}
-event TestingLooper
-{
-	SetVisible	roundinfo	1	0
-	RunEvent	looper	0.000
-}
-
-event Looper
-{
-	RunEvent	TestingLooper	0.001
-}
-
-event CommandTest{	FireCommand	0.0	"engine hidepanel roundinfo"}
 event ScoreboardAlpha
 {
 	Animate scores alpha "0" linear 0.0 0.0
