@@ -369,12 +369,15 @@
     }
     "Player1Class"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+        "xpos"                      "-25"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                    "Size 18 Uber"
+
+        "pin_to_sibling"            "Player1BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
     // P2
@@ -423,12 +426,15 @@
     }
     "Player2Class"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+        "xpos"                      "-25"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                    "Size 18 Uber"
+
+        "pin_to_sibling"            "Player2BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
     // P3
@@ -477,12 +483,15 @@
     }
     "Player3Class"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+        "xpos"                      "-25"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                    "Size 18 Uber"
+
+        "pin_to_sibling"            "Player3BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
     // P4 (KS)
@@ -531,12 +540,15 @@
     }
     "KillStreakPlayer1Class"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+        "xpos"                      "-25"
+        "ypos"                      "0"
+        "wide"                      "40"
+        "tall"                      "20"
+        "font"                    "Size 18 Uber"
+
+        "pin_to_sibling"            "Player4BG"
+        "pin_corner_to_sibling"     "PIN_TOPRIGHT"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
 
     // DISABLED
