@@ -20,43 +20,26 @@ EXPERIMENTAL Scope Removal|OFF
 EXPERIMENTAL Square Shadows|OFF
 Damage Indicator|Stock
 System Tray Icon|None
-Server Plugin Font|Product Sans
-Transparent Viewmodels|On
-Remove Scope|Off
+Server Plugin Font|Default
+Transparent Viewmodels|Off
+Remove Scope|On
 No Chat BG|Off
 Crosshair on scoreboard|Off
-Scoreboard Slide|Off
+Scoreboard Slide|On
 Cart Glow|On
 Resolution|1920x1980
 Net Graph Font|Calling Code
 Speed Bar Metter|Enabled
 Speed Bar Counter|bold
 Speed Bar Meter|Disabled
-Speed Meter|Enabled
-Global Timer|Enabled
-Menu Timer|Enabled (00-00-00)
-Class Model Background|YaHud Corner
-Close Caption Style|Magnum
-Hitmarkers|^
-
-Resolution|1920x1980
 Speed Meter|Disabled
 Global Timer|Disabled
 Menu Timer|Enabled (00-00-00)
-System Tray Icon|None
-Server Plugin Font|Default
-Net Graph Font|Calling Code
-Transparent Viewmodels|Off
 Class Model Background|Disabled
-Remove Scope|On
-No Chat BG|Off
-Crosshair on scoreboard|Off
-Scoreboard Slide|On
-Cart Glow|On
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
-UI Sound Effects|MagnumHUD
-Sound Manifest|No Passtime
+UI Sound Effects|Xhud-Niterux
+Sound Manifest|Default
 Surface Manifest|Default
 Particle Manifest|Default
 ANIMATIONS > Show Health Ammo on Spec|OFF
