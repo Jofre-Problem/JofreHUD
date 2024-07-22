@@ -306,7 +306,30 @@
 		paintbackground 			0
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
-	}							
+	}
+	"quickplay"			// other classes pinned to this
+	{
+		zpos	"300"
+		ControlName				CExButton
+		fieldName				"quickplay"
+		"xpos"							"0"
+		"ypos"							"70"
+		"wide"							"155"
+		"tall"							"16"
+		labelText				"Quickplay (New)"
+		"textAlignment"	"center"
+		font		"NotoBold16"
+		"actionsignallevel"		"2"
+		Command						"engine open_replaybrowser"
+				pin_to_sibling 			"Console"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+					"border_default"	"MM_BUTTON_BLANK"
+					"border_armed"		"MM_BUTTON_ADDITIVE"
+		paintbackground 			0
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+	}										
 		"Background"		//Only not removed cuz save settings button
 		{
 			"ControlName"	"EditablePanel"

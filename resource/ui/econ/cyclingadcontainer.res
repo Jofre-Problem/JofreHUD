@@ -17,7 +17,7 @@
 		"labelText"			"<"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"Noto12"
+		"font"			"NotoBold12"
 		"textAlignment"	"west"
 
 		"proportionaltoparent"	"1"
@@ -54,7 +54,7 @@
 		"labelText"			">"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"Noto12"
+		"font"			"NotoBold12"
 		"textAlignment"	"east"
 
 		"proportionaltoparent"	"1"
