@@ -105,7 +105,7 @@ event MenuOpen
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
-	RunEvent ForceForceCmd 0.01
+	RunEvent ForceCmd 0.01
 	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 }
 event TestTestingCmd
@@ -117,6 +117,14 @@ event TestTestingCmd
 event TestCmd
 {	
 	Firecommand 0.0 "engine rgbdmg"
+}
+event ForceCmd
+{	
+	RuneventChild Mainmenuoverride ForceForceCmd 0.0
+}
+event ForceForceCmd
+{	
+	Firecommand 0.0 "engine toggle_interp_shit"
 }
 event LevelInit
 {
