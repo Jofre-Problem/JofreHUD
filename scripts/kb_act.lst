@@ -45,7 +45,7 @@
 "blank"						"=============================="
 "fix_players"			"Invisible Players Fix / Spot Spies"
 "blank"						"=============================="
-"blank"						"Interps Binds (USES RECORD & WAIT)"
+"blank"						"Interps Binds (USES RECORD and WAIT)"
 "blank"						"=============================="
 "+slot1_def_interp"			"Slot 1 / Interp Specified Class"
 "+slot3_5_interp"			"Slot 3 / Interp 0.5"

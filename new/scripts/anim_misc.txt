@@ -1,4 +1,31 @@
+event CompetitiveGame_LowerChatWindow
+{
+//	Animate HudChat ypos r140 Accel 0 0
+}
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent HudHealthBonusPulseStop 0.1
+	RunEvent HudHealthDyingPulseStop 0.1
+	RunEvent HudLowAmmoPulseStop 0.1
+	RunEvent HudMedicChargedStop 0.1
 
+	RunEventChild Mainmenuoverride EveryRespawn 0.0
+}
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+event EveryRespawn
+{
+//	FireCommand 0 "engine ds_stop"
+//	FireCommand 5 "engine ds_record"
+} 
+event TargetIDLoop
+{	
+	SetVisible CSecondaryTargetID 1 0.001
+	SetVisible CMainTargetID 1 0.001
+}
 event CompetitiveGame_ShowPvPRankPanel
 {
 	RunEventChild RankPanel PvPRankPanelShowXPChange 0
@@ -92,22 +119,16 @@ event MenuOpen
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
 //	RunEvent LevelInitAny 0.0
-	SetVisible CSecondaryTargetID 1 0.001
-	SetVisible CSecondaryTargetID 1 0.002
-	SetVisible CSecondaryTargetID 1 0.003
-	SetVisible CSecondaryTargetID 1 0.004
-	SetVisible CMainTargetID 1 0.001
-	SetVisible CMainTargetID 1 0.002
-	SetVisible CMainTargetID 1 0.003
-	SetVisible CMainTargetID 1 0.004
-	Animate CSecondaryTargetID never_draw "0" linear 0.0 0.0
-	Animate CMainTargetID never_draw "0" linear 0.0 0.0	
+
+//	Animate CSecondaryTargetID never_draw "0" linear 0.0 0.0
+//	Animate CMainTargetID never_draw "0" linear 0.0 0.0	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
 
 	RunEvent ForceCmd 0.01
 	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 }
+
 event TestTestingCmd
 {	
 	RuneventChild Mainmenuoverride TestCmd 0.0
