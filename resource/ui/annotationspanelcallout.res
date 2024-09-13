@@ -17,22 +17,40 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CalloutBG"
-		"visible"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"76"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
+		"teambg_3"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
+		
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"		
 	}
 	"CalloutLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
+		"font"			"Noto12"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		//	"1"
-		//		"0"
+		"autoResize"	"1"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AnnotationPanel_Callout"
 		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
 	}
 	"ArrowIcon"
 	{
@@ -52,13 +70,19 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Noto20"
 		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"10"
+		"autoResize"		"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
 	}
 }
