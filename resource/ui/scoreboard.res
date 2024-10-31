@@ -151,6 +151,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"medal_width"		"26"
+		"medal_column_width"	"13"
 		"avatar_width"		"64"
 		"spacer"			"3"
 		"name_width"		"118"

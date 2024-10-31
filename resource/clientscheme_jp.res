@@ -96,6 +96,29 @@ Scheme
 	}	
 	Fonts
 	{
+		// Scream Fortress Fixes
+		"HudFontMediumSecondary"
+		{
+			"1" { "name" "product sans" "tall" "24" "yres" "1 1199" "antialias" "1" }
+			"2" { "name" "product sans" "tall" "10" "antialias" "1" }
+		}	
+		"HudHintText"
+		{
+			"1" { "name" "Product Sans" "tall" "15" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Product Sans" "tall" "16" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Product Sans" "tall" "17" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Product Sans" "tall" "23" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Product Sans" "tall" "12" "antialias" "1" }
+		}
+		"HudFontGiant"
+		{
+			"1" { "name" "Product Sans" "tall" "24" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "Product Sans" "tall" "32" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "Product Sans" "tall" "44" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "Product Sans" "tall" "48" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "Product Sans" "tall" "24" "antialias" "1" }
+		}
+		// End
 	"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{
 			"1"
