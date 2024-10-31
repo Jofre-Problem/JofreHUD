@@ -48,7 +48,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"bg"
-		"ypos"					"0"
+		"ypos"					"0-15"
 	"fillcolor"				"16 16 16 255"
 		"enabled"				"1"
 		"scaleimage"			"1"
