@@ -171,7 +171,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"start_delay"	"2.0"
+		"start_delay"	"0.0"
 		"end_delay"		"2.0"
 	}
 	

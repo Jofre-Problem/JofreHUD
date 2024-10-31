@@ -1,3 +1,8 @@
+// Niterux intro skip
+event IntroMovieContinueBlinkStop
+{
+	FireCommand 0.0    "skip"
+}
 event CompetitiveGame_LowerChatWindow
 {
 //	Animate HudChat ypos r140 Accel 0 0
