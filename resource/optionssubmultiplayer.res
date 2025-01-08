@@ -281,10 +281,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LogoImage"
-		"xpos"		"32"
-		"ypos"		"158"
-		"wide"		"64"
-		"tall"		"64"
+		"xpos"		"2"
+		"ypos"		"160"
+		"wide"		"100"
+		"tall"		"100"
 		//		"0"
 		//		"0"
 		
