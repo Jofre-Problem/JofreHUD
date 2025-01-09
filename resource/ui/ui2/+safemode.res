@@ -316,7 +316,7 @@
 		"ypos"							"70"
 		"wide"							"155"
 		"tall"							"16"
-		labelText				"Quickplay (New)"
+		labelText				"Quick HUD Menu: +hudmenu (Link)"
 		"textAlignment"	"center"
 		font		"NotoBold16"
 		"actionsignallevel"		"2"

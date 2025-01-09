@@ -15,7 +15,15 @@ event CompetitiveGame_RestoreChatWindow
 	RunEvent HudMedicChargedStop 0.1
 
 	RunEventChild Mainmenuoverride EveryRespawn 0.0
+	SetInputEnabled		giveaway_item	1			0.0
+	RunEventChild		giveaway_item	Refresh		0.0
 }
+
+event Refresh
+{
+	FireCommand		0.0		"reloadscheme"
+}
+
 event HudTournament_MoveChatWindow
 {
 	RunEvent CompetitiveGame_LowerChatWindow 0
