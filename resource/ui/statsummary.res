@@ -81,6 +81,20 @@
 			"bgcolor_override"	"16 16 16 255"
 			//"image""../console/background_upward_widescreen"
 		}		
+	"monterreytest"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"monterreytest"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"998"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\mm\apple"	
+		"scaleImage"		"1"	
+	}			
 		"1_image"
 		{
 					"ControlName"			"ImagePanel"

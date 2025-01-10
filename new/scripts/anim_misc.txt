@@ -117,7 +117,7 @@ event MenuOpen
 //	RunEvent Forcecmd 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
-	setfont HudMenu 	"textfont"		"MedHealtarget"		0.001
+	setfont HudMenu 	"textfont"		"MedHealtargetNoNumber"		0.001
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
 	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
 	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1

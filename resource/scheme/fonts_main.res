@@ -408,6 +408,20 @@ Scheme
 				}
 			}
 		}
+		"MedHealtargetNoNumber"
+		{
+			"1"
+			{
+				"name" "OpenSansNoNumber"
+				"tall" "12"
+				"range" "0x0000 0x9999"
+				"antialias"	"1"
+				"english"
+				{
+					"range" "0x0000 0x9999"
+				}
+			}
+		}		
 		"MedHealtargetBlur"
 		{
 			"1"
@@ -1383,6 +1397,11 @@ Scheme
 			"font" "fonts/OpenSans-Shadow.ttf"
 			"name" "Open Sans Shadow"
 		}		
+		"hpnonumber"
+		{
+			"font" "fonts/OpenSansNoNumber.otf"
+			"name" "OpenSansNoNumber"
+		}			
 		"Bot Detector Font" 
 		{
 			"font" "fonts/CustomNotoMono.ttf"
