@@ -46,18 +46,21 @@ event CompetitiveGame_ShowPvPRankPanel
 //ReadyUp Timers
 event HudTournament_ShowTimerCompetitive
 {
+		SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
 		SetVisible CountdownLabelShadow 1 0
 }
 
 event HudTournament_ShowTimerDefault
 {
+		SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0
 	SetVisible CountdownLabelShadow 1 0
 }
 
 event HudTournament_HideTimer
 {
+		SetVisible CountdownBG  0 0
 	SetVisible CountdownLabel 0 0.0
 	SetVisible CountdownLabelShadow 0 0
 }

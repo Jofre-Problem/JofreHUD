@@ -477,11 +477,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"NotoBold28"
+		"font"			"NotoBold26"
 		"textAlignment"		"center"
 		"xpos"			"0+15"
 		"ypos"			"40"
-	"zpos"	"1010"
+		"zpos"	"1010"
 		"wide"				"f0"
 		"tall"				"24"
 		"fgcolor"		"notoWhite"
@@ -503,18 +503,18 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"newicons20"
-		"xpos"			"0-30+15"
+		"font"			"NotoBold26"
+		"xpos"			"0+15"
 		"ypos"			"40"
 		"wide"			"f0"
 		"tall"			"24"
 		"zpos"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Ù"
+		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"notoWhite"
+		"fgcolor"		"notoblack"
 				if_competitive
 		{
 			"ypos"			"60"
@@ -535,11 +535,32 @@
 	}
 	"CountdownBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"9999"
-		"enabled"		"0"
+		"xpos"			"cs-0.5-15"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hud/clock_icon"
+
+		if_competitive
+		{
+		///	"ypos"			"158"
+		}
+
+		if_readymode
+		{
+		//	"xpos"			"300"
+		//	"ypos"			"130"
+			"visible"		"0"
+		}
 	}
+
 	"HudTournamentBG"
 	{
 		"ControlName"		"ScalableImagePanel"

@@ -404,7 +404,7 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+		//	"backgroundtype" "2"
 		}	
 	//	PropertySheetBorder	FrameBorder		
 	    	FrameBorder 

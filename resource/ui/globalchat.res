@@ -44,7 +44,7 @@
 		//"RoundedCorners"	"0"
 		"font"			"HudFontSmallest"
 		
-		"bgcolor_override"	"0 0 0 50"
+		"bgcolor_override"	"0 0 0 150"
 
 		//		"2"
 		//	"1"

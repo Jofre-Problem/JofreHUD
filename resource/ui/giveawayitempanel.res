@@ -12,10 +12,19 @@
 		"bgcolor_override" "0 0 0 0"
 		"keyboardinputenabled"	"0"
 	}
-
+	"ds_record2"
+	{
+		"ControlName"			"cexButton"
+		"xpos"					"c0"
+		"ypos"					"c100"
+		"wide" "100"
+		"labelText"				"Start Recording? Yes"
+		"command"				"exec autoexec"
+		"actionsignallevel" "1"
+	}
 	"MinVM-On"
 	{
-		"ControlName"			"Button"
+		"ControlName"			"cexButton"
 		"xpos"					"c0"
 		"ypos"					"c0"
 		"wide" "100"
@@ -24,7 +33,7 @@
 	}
 	"MinVM-Off"
 	{
-		"ControlName"			"Button"
+		"ControlName"			"cexButton"
 		"xpos"					"c0"
 		"ypos"					"c12"
 		"wide" "100"

@@ -492,6 +492,7 @@ Scheme
 		{
 			"color" "Blank"
 			"offset" "0 0"
+			//"backgroundtype" "1"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
