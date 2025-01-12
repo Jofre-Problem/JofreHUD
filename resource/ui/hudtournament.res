@@ -514,7 +514,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"notoblack"
+		"fgcolor"		"notowhite"
 				if_competitive
 		{
 			"ypos"			"60"
@@ -550,14 +550,11 @@
 
 		if_competitive
 		{
-		///	"ypos"			"158"
+			"ypos"			"60"
 		}
-
 		if_readymode
 		{
-		//	"xpos"			"300"
-		//	"ypos"			"130"
-			"visible"		"0"
+			"ypos"			"60"
 		}
 	}
 

@@ -182,7 +182,7 @@
 				tall					12	
 				font					"Code10"
 				fgcolor_override		"Primary"
-				labelText				"DEDICATED TO: Chill D ♡"
+				labelText				"DEDICATED TO: Huds.TF"
 				textAlignment			west
 		"pin_to_sibling"	"credits"
 		pin_corner_to_sibling		PIN_TOPLEFT

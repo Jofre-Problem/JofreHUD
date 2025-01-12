@@ -582,7 +582,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"noto10"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
