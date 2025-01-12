@@ -1,4 +1,4 @@
-//event LevelInit{}	//USED
+//event LevelInit{}
 event OpenWeaponSelectionMenu{}
 event CloseWeaponSelectionMenu{}
 event MenuPulse{}
@@ -43,7 +43,7 @@ event TrainingPressSpacebarBlinkLoop{}
 event TrainingPressSpacebarBlinkStop{}
 event IntroMovieContinueBlink{}
 event IntroMovieContinueBlinkLoop{}
-event IntroMovieContinueBlinkStop{}
+// event IntroMovieContinueBlinkStop{}
 event HasMOTDBlink{}
 event HasMOTDBlinkLoop{}
 event HasMOTDBlinkStop{}

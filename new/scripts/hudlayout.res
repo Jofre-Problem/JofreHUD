@@ -4,8 +4,6 @@
 //#base "../spacer.res"
 "j"
 {
-
-
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -29,16 +27,14 @@
 		"border"				"FLAT_Black_4"
 	}
 	HudTeamGoal
-{
-"fieldName""HudTeamGoal"
-
-
+	{
+		"fieldName""HudTeamGoal"
 		"xpos"					"cs-0.5"
 		"ypos"					"80"
 		"wide"					"p0.8"
 		"tall"					"20"
-				"border"				"FLAT_Black_4"
-}
+		"border"				"FLAT_Black_4"
+	}
 
 	"StatPanel"
 	{
