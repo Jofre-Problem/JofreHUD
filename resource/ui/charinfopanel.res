@@ -64,19 +64,23 @@
 		xpos					0
 		ypos					0
 		wide					f0
-		tall					f-10
+		tall					f0
 		title					""
 		settitlebarvisible		1
 		paintbackground			0
-	 "titletextinsetY"                       "-30"
+        "settitlebarvisible"                    "1"
+        "titletextinsetY"                       "-30"
+        "sheetinset_bottom"                     "0"
 		clientinsetx_override		0		// content xpos offset
-		sheetinset_bottom			-10           // perfect
+		sheetinset_bottom			0           // perfect
 	}
 
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
+	
+		
 			zpos					0		// buttons above sheet	
 			tall 		"f0"			//JP f0
 	//	"tabxindent"	"5"
@@ -84,7 +88,7 @@
 		"tabxfittotext"	"1"
 		"tabheight"		"0"			//JP 10
 		"transition_time" "0"
-		yoffset				-10	//JP 10 tab y pos, pushes other content		
+		yoffset				7	//JP 10 tab y pos, pushes other content		
 //		yoffset				-10	//JP 10 tab y pos, pushes other content		
 	
 	"HeaderLine"		{			"tall"			"0"		}				

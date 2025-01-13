@@ -1,3 +1,9 @@
+event CasualCategory_NotSelected
+{
+	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
+	Animate Title		FgColor TanLight Deaccel 0 0.2
+}
+
 // Niterux intro skip
 event IntroMovieContinueBlinkStop
 {

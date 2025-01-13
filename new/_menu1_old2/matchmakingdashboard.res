@@ -339,6 +339,7 @@
 			"ypos"					"20"
 			"wide"					"0"
 			"tall"					"o1"
+			"visible" "0"
 		}
 		"PartySlot1"
 		{
@@ -346,13 +347,14 @@
 			"ypos"					"0"
 			"wide"					"22"
 			"tall"					"o1"
-		
+			"visible" "0"
 		"pin_to_sibling" "PartySlot2"		
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		}
 		"PartySlot2"
 		{
+		"visible" "0"
 			"xpos"					"0"
 			"ypos"					"0"
 			"wide"					"22"
@@ -363,6 +365,7 @@
 		}
 		"PartySlot3"
 		{
+		"visible" "0"
 			"xpos"					"cs-0.5+90"
 			"ypos"					"0"
 			"wide"					"22"
@@ -370,6 +373,7 @@
 		}		
 		"PartySlot4"
 		{
+		"visible" "0"
 			"xpos"					"0"
 			"ypos"					"0"
 			"wide"					"22"
@@ -380,6 +384,7 @@
 		}		
 		"PartySlot5"
 		{
+		"visible" "0"
 			"xpos"					"0"
 			"ypos"					"0"
 			"wide"					"22"
