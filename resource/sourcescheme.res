@@ -22,7 +22,9 @@ Scheme
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
 
-
+		"NotoWhite"				"240 240 240 255"
+		"NotoGreen"				"81 214 81 255"
+		"NotoDark"				"15 15 15 255"
 	    "Blank"				"0 0 0 0"
 
 		"ControlBG"			"76 88 68 255"		// background color of controls
@@ -35,6 +37,18 @@ Scheme
 
 	}	
 	BaseSettings	{
+
+		Menu.TextColor			"notodark"
+		Menu.BgColor			"DullWhite"
+		Menu.ArmedTextColor		"NotoGreen"
+		Menu.ArmedBgColor		"notodark"
+		Menu.TextInset			"6"
+		Menu.Font "Code10"
+
+
+
+
+
 
 
 
