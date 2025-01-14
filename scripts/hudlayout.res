@@ -32,7 +32,7 @@
 
 	"MatchmakingContainer"
 	{
-		"bgcolor_override"		"0 255 0 200"
+		"bgcolor_override"		"0 0 0 0"
 	}	
 	// fixing shit -START->
 	HudDemomanCharge

@@ -23,7 +23,7 @@
 		"item_1"
 		{
 			"concept"				"TLK_PLAYER_MEDIC"		
-			"menu_label"				"#Voice_Menu_Medic"
+			"menu_label"				"#Backup_Voice_Medic"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_Medic"
@@ -33,7 +33,7 @@
 		"item_2"
 		{
 			"concept"				"TLK_PLAYER_THANKS"		
-			"menu_label"				"#Voice_Menu_Thanks"
+			"menu_label"				"#Backup_Voice_Thanks"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_Thanks"
@@ -43,7 +43,7 @@
 		"item_3"
 		{
 			"concept"				"TLK_PLAYER_GO"	
-			"menu_label"				"#Voice_Menu_Go"
+			"menu_label"				"#Backup_Voice_Menu_Go"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_Go"
@@ -83,7 +83,7 @@
 		"item_7"
 		{
 			"concept"				"TLK_PLAYER_YES"		
-			"menu_label"				"#Voice_Menu_Yes"
+			"menu_label"				"#Backup_Voice_Menu_Yes"
 			"show_subtitle"				"1"
 			"subtitle"				"#Voice_Menu_Yes"
 		}
@@ -91,7 +91,7 @@
 		"item_8"
 		{
 			"concept"				"TLK_PLAYER_NO"	
-			"menu_label"				"#Voice_Menu_No"	
+			"menu_label"				"#Backup_Voice_Menu_No"	
 			"show_subtitle"				"1"
 			"subtitle"				"#Voice_Menu_No"
 		}
@@ -104,7 +104,7 @@
 		"item_1"
 		{
 			"concept"				"TLK_PLAYER_INCOMING"		
-			"menu_label"				"#Voice_Menu_Incoming"
+			"menu_label"				"#Backup_Voice_Menu_Incoming"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_Incoming"
@@ -114,7 +114,7 @@
 		"item_2"
 		{
 			"concept"				"TLK_PLAYER_CLOAKEDSPY"
-			"menu_label"				"#Voice_Menu_CloakedSpy"
+			"menu_label"				"#Backup_Voice_Menu_CloakedSpy"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_CloakedSpy"
@@ -123,7 +123,7 @@
 		"item_3"
 		{
 			"concept"				"TLK_PLAYER_SENTRYAHEAD"	
-			"menu_label"				"#Voice_Menu_SentryAhead"
+			"menu_label"				"#Backup_Voice_Menu_SentryAhead"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_SentryAhead"
@@ -134,27 +134,30 @@
 		{
 			"concept"				"TLK_PLAYER_TELEPORTERHERE"		
 			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_TeleporterHere"
+			"menu_label"				"#Backup_Voice_Menu_TeleporterHere"
+			"subtitle"				"#Voice_Menu_TeleporterHere"
 		}
 		
 		"item_5"
 		{
 			"concept"				"TLK_PLAYER_DISPENSERHERE"		
 			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_DispenserHere"
+			"subtitle"				"#Voice_Menu_DispenserHere"
+			"menu_label"				"#Backup_Voice_Menu_DispenserHere"
 		}
 		
 		"item_6"
 		{
 			"concept"				"TLK_PLAYER_SENTRYHERE"		
 			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_SentryHere"
+			"menu_label"				"#Backup_Voice_Menu_SentryHere"
+			"subtitle"				"#Voice_Menu_SentryHere"
 		}
 		
 		"item_7"
 		{
 			"concept"				"TLK_PLAYER_ACTIVATECHARGE"		
-			"menu_label"				"#Voice_Menu_ActivateCharge"
+			"menu_label"				"#Backup_Voice_Menu_ActivateCharge"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_ActivateCharge"
@@ -164,8 +167,9 @@
 		{
 			"concept"				"TLK_PLAYER_CHARGEREADY"	
 			"distance_check_subtitle"		"1"
-			"menu_label"				"#Voice_Menu_ChargeReady"
+			"menu_label"				"#Backup_Voice_Menu_ChargeReady"
 			"activity"				"ACT_MP_GESTURE_VC_THUMBSUP"	
+			"subtitle"				"#Voice_Menu_ChargeReady"
 		}
 
 		"item_9"
@@ -185,7 +189,7 @@
 		"item_1"
 		{
 			"concept"				"TLK_PLAYER_HELP"
-			"menu_label"				"#Voice_Menu_Help"
+			"menu_label"				"#Backup_Voice_Menu_Help"
 			"show_subtitle"				"1"
 			"distance_check_subtitle"		"1"
 			"subtitle"				"#Voice_Menu_Help"
