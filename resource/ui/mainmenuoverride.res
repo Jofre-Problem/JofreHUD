@@ -66,7 +66,49 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"9999.0"
+	"Paint"
+	{
+		"ControlName"    "CMatchHistoryEntryPanel"
+		"xpos"            "0"
+		"ypos"            "0"
+		"zpos"            "2002"
+		"wide"            "f0"
+		"tall"            "f0"
+		"visible"        "1"
+		"proportionaltoparent"    "1"
 
+		"collapsed_height"    "600"
+		"expanded_height"    "f0"
+		"resize_time"		"0.0"
+
+		"ignorescheme"    "1"
+
+		"container"{"visible"    "0"}
+		"BottomStats"{"visible"    "0"}
+
+			"Contents"
+			{
+				"ControlName"	"EditablePanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"p1"
+				"tall"			"p1"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+				"paintBorder"	"1"
+			//	"border"		"xpborder"	
+				"Draw"
+				{
+				"ControlName"	"CDrawingPanel"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"p1"
+				"tall"			"p1"
+				"proportionaltoparent"	"1"
+				"bgcolor_override"	"255 255 255 0"
+				"linecolor"		"Primary"
+				}
+			}}	
 				"Test2"
 				{
 					"ControlName"	"ImagePanel"

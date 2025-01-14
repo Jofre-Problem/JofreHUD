@@ -29,7 +29,7 @@
 		"ypos"		"1000"
 		"title"	"Hello HUDS.TF! :)"
 		"RoundedCorners"	"0"
-		"infocus_bgcolor_override"		"150 75 0 255"
+		"infocus_bgcolor_override"		"34 28 23 255"
 	}
 	CConPanel
 	{

@@ -1,10 +1,23 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	"ChargeLabel" // Charge Label
+	"background"
 	{
-		"ControlName"			"Panel"
-		"fieldName"			"ChargeLabel"
-		"visible"			"0"
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"background"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"		"0"
+		"enabled"				"0"			
+	}
+	
+	"ChargeLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ChargeLabel"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"		"0"
+		"enabled"				"0"
 	}
 
 	"ChargeMeter"

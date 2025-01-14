@@ -12,9 +12,81 @@
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 
-//	#base "../resource/ui/winpanel.res"
 "j"
 {
+	// fixing shit -START->
+	HudDemomanCharge
+	{
+		"xpos"			"0"	
+	"ypos"			"0"
+		"zpos"			"1"			\\ draw in front of ammo
+		"wide"			"f0"
+		////	"f0"
+		"tall"			"f0"
+	}	
+	HudDemomanPipes
+	{
+		"xpos"			"0"	
+
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+	HudItemEffectMeter
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}	
+	
+	HudBowCharge
+	{
+
+		"tall"			"0"
+	}
+	// fixing shit -END->
+	HudWeaponAmmo
+	{
+		"fieldName" "HudWeaponAmmo"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"			"c106"
+"xpos_minmode""c106-62"
+	//	"ypos_minmode"	"325+28"	
+		"ypos"			"325"		
+
+		"wide"			"124"
+		"tall"			"36"
+	}
+	HudMedicCharge
+	{
+		"xpos"			"c106"
+		////"c106-62"
+		"ypos"			"325"
+		////"325+28"
+		"zpos"			"0"
+		"wide"			"124"
+		"tall"			"36"
+	}	
+	MainMenuOverride
+	{
+		"ControlName"	"CHudMainMenuOverride"
+		"enabled" "1"
+		"DashboardDimmer"
+    	{
+			"ControlName"	"CDimmerButton"
+        	"wide"                "420"
+        	"paintbackground"    "1"
+    	}
+	}
+		"EscortHilightSwoop"
+		{
+		"ControlName" "CControlPointIconSwoop"
+		"fieldName" "EscortHilightSwoop"
+		"xpos" "9999"
+		"alpha" "0"
+		}			
 	CMainTargetID
 	{
 
@@ -210,8 +282,7 @@
 		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
-	}	
-
+	}			
 	HudControlPointIcons
 	{
 		"xpos"					"0"
@@ -251,63 +322,8 @@
 //	"Spacer"
 //	{
 //	}
-	HudWeaponAmmo
-	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"			"c106"
-"xpos_minmode""c106-62"
-	//	"ypos_minmode"	"325+28"	
-		"ypos"			"325"		
 
-		"wide"			"124"
-		"tall"			"36"
-	}
-	HudMedicCharge
-	{
-		"xpos"			"0"
-"xpos_minmode""c106-62"
-		"ypos_minmode"	"325+28"
-		"ypos"			"0"
-		////"325+28"
-		"zpos"	"2"
-		"wide"			"f0"
-		"tall"			"f0"
-	}
-	
-	HudDemomanCharge
-	{
-		"xpos"			"0"	
-	"ypos"			"0"
-		"zpos"			"1"			\\ draw in front of ammo
-		"wide"			"f0"
-		////	"f0"
-		"tall"			"f0"
-	}	
-	
-	HudDemomanPipes
-	{
-		"xpos"			"0"	
 
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	}
-	
-	HudBowCharge
-	{
-
-		"tall"			"0"
-	}
-	
-	HudItemEffectMeter
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	}
 	
 
 	HudFlameRocketCharge
@@ -615,19 +631,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 	}	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		//"enabled"		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"480"
-		"MeterFG"		"245 245 245 255"
-		"MeterBG"		"0 0 0 100"
-	}	
+
 	HudTFCrosshair
 	{
 		"xpos"			"cs-0.5-p0.0005"	//p0.05 = 1 wide	- > 0.01

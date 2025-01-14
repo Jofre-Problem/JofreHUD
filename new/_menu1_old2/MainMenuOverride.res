@@ -310,7 +310,7 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"CallVoteButton2"
-		xPos					"cs-0.5-120"//210 - 33
+		xPos					"cs-0.5-150"//210 - 33
 		yPos					0
 		zPos					1050
 		wide					80
@@ -364,7 +364,7 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"MutePlayersButton2"		
-		xPos					"cs-0.5-20"
+		xPos					"cs-0.5+150"
 		yPos					0
 		zPos					1050
 		wide					80
