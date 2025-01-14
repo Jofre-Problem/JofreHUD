@@ -111,9 +111,9 @@ event SurveyShowSequence { }
 event SurveySubmitSequence{}
 event SurveyDelete{}
 event SurveyHideSequence{}
-event MapVoted{}
-event WinningNextMapVote{}
-event LosingNextMapVote{}
+//event MapVoted{}
+//event WinningNextMapVote{}
+//event LosingNextMapVote{}
 event QuestMap_LoadingLoop{}
 event QuestMap_StaticBar1Loop{}
 event QuestMap_StaticBar2Loop{}

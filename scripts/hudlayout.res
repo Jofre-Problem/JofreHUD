@@ -14,6 +14,7 @@
 
 "j"
 {
+	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{
 		"ControlName"		"CTFItemCardPanel"
@@ -22,6 +23,17 @@
 		"zpos"				"2000"
 		"visible"			"0"
 	}
+	"MMDashBoardPopupContainer"
+	{
+		"ypos"					"-470"
+		"tall"					"550"
+		"mouseinputenabled"		"1"
+	}
+
+	"MatchmakingContainer"
+	{
+		"bgcolor_override"		"0 255 0 200"
+	}	
 	// fixing shit -START->
 	HudDemomanCharge
 	{

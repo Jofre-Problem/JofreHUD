@@ -18,6 +18,69 @@
 #base "_tf2hud/mainmenuoverride.res"
 "j"
 {
+		//////////////////////
+	//	 ↑UNTOUCHED↑	//
+	//	↓MENU IMAGES↓	//
+	//////////////////////
+
+	//Stupid piece of shit mmd
+
+	"NewMatchAnchor"
+	{
+		"controlname"	"panel"
+		"fieldname"		"NewMatchAnchor"
+
+		"xpos"			"c-100"
+		"ypos"			"-16"
+
+		"wide"			"0"
+		"tall"			"0"
+	}
+
+	"NewMatchFound"
+	{
+		"pin_to_sibling"	"NewMatchAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+
+	"MapVoteAnchor"
+	{
+		"controlname"	"panel"
+		"fieldname"		"MapVoteAnchor"
+
+		"xpos"			"0"
+		"ypos"			"470"
+
+		"wide"			"0"
+		"tall"			"0"
+	}
+
+	"MapVoting"
+	{
+		"fieldName"		"NextMapVoting"
+
+		"PinnedCornerOffSetY"	"-100"
+		"UnpinnedCornerOffSetY"	"-100"
+
+		//Let us pray
+		"if_wider"
+		{
+			"pin_to_sibling"		"MapVoteAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		}
+		"if_taller"
+		{
+			"pin_to_sibling"		"MapVoteAnchor"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		}
+	}
+		//////////////////////
+	//	 ↑UNTOUCHED↑	//
+	//	↓MENU IMAGES↓	//
+	//////////////////////	
 	"TEST:CTFItemCardPanel"
 	{
 		"ControlName"	"CTFItemCardPanel"
