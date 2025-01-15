@@ -176,12 +176,23 @@
 				"ControlName"	"CDrawingPanel"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"p1"
+				"wide"			"p0.5"
+				"tall"			"p1"
+				"proportionaltoparent"	"1"
+				"bgcolor_override"	"255 255 255 0"
+				"linecolor"		"Red"
+				}
+				"Draw2"
+				{
+				"ControlName"	"CDrawingPanel"
+				"xpos"			"rs1"
+				"ypos"			"0"
+				"wide"			"p0.5"
 				"tall"			"p1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"255 255 255 0"
 				"linecolor"		"Primary"
-				}
+				}				
 			}}	
 				"Test2"
 				{

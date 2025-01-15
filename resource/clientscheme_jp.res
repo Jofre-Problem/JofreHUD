@@ -99,9 +99,14 @@ Scheme
 		// Scream Fortress Fixes
 		"HudFontMediumSecondary"
 		{
+			"1" { "name" "ProductSans_LoadoutIcons" "tall" "24" "yres" "1 1199" "antialias" "1" }
+			"2" { "name" "ProductSans_LoadoutIcons" "tall" "10" "antialias" "1" }
+		}
+		"HudFontMediumSecondaryD"
+		{
 			"1" { "name" "product sans" "tall" "24" "yres" "1 1199" "antialias" "1" }
 			"2" { "name" "product sans" "tall" "10" "antialias" "1" }
-		}	
+		}				
 		"HudHintText"
 		{
 			"1" { "name" "Product Sans" "tall" "15" "yres" "480 599" "antialias" "1" }
@@ -110,6 +115,7 @@ Scheme
 			"4" { "name" "Product Sans" "tall" "23" "yres" "1024 1199" "antialias" "1" }
 			"5" { "name" "Product Sans" "tall" "12" "antialias" "1" }
 		}
+
 		"HudFontGiant"
 		{
 			"1" { "name" "Product Sans" "tall" "24" "yres" "480 599" "antialias" "1" }
@@ -117,7 +123,8 @@ Scheme
 			"3" { "name" "Product Sans" "tall" "44" "yres" "768 1023" "antialias" "1" }
 			"4" { "name" "Product Sans" "tall" "48" "yres" "1024 1199" "antialias" "1" }
 			"5" { "name" "Product Sans" "tall" "24" "antialias" "1" }
-		}
+		}		
+		//"Size 24 Uber"
 		// End
 	"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{
@@ -412,13 +419,13 @@ Scheme
 			"inset" "0 0 0 0"
 			"backgroundtype" "2"
 		}				
-		"GrayDialogBorder"
+		"GrayDialogBorder" //"replay/thumbnails/panels/misc/modal"
 		{
 			"bordertype"									"scalable_image"
 			"backgroundtype"								"0"
-			"Color"											"Primary"
+			"Color"											"notodark"
 
-			"image"											"replay/thumbnails/panels/misc/modal"
+			"image"											"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"								"12"
 			"src_corner_width"								"12"
 			"draw_corner_width"								"2"

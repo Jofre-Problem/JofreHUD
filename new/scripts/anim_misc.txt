@@ -1,3 +1,24 @@
+event DashboardDimmerReload
+{
+	RunEventChild MainMenuOverride FixDimmer 0
+}
+
+event FixDimmer
+{
+	RunEventChild MMDashboard LoadDimmer 0.001
+	FireCommand 0.003 "engine hud_reloadscheme"
+}
+
+event LoadDimmer
+{
+	FireCommand 0 "dimmer_clicked"
+}
+event MvMFixer
+{
+	FireCommand 0.0 "engine mvmfix"
+}
+
+
 event CasualCategory_NotSelected
 {
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
@@ -311,9 +332,14 @@ event TeamStatus_PlayerAlive
 	RunEvent	TStatus_Snd_Vivo 0.0
 
 }
-event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
+event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
 {
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
+	//PlaySound 0.0 "weapons/det_pack_timer.wav"
+	//PlaySound 0.5 "weapons/det_pack_timer.wav"
+	//PlaySound 1.0 "weapons/det_pack_timer.wav"
+	//PlaySound 1.5 "weapons/det_pack_timer.wav"
+	//PlaySound 2.0 "weapons/det_pack_timer.wav"
 }
 
 event SurveyShowSequence

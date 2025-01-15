@@ -182,7 +182,7 @@
 				tall					12	
 				font					"Code10"
 				fgcolor_override		"Primary"
-				labelText				"DEDICATED TO: Huds.TF"
+				labelText				"DEDICATED TO: ❀ vanne ❀"
 				textAlignment			west
 		"pin_to_sibling"	"credits"
 		pin_corner_to_sibling		PIN_TOPLEFT
@@ -296,8 +296,9 @@
 		//"visible"		"1"
 		"textAlignment"	"center"
 		//		"0"
-		"labelText"		"uwu"
+		"labelText"		"y"
 		"zpos"	"200"
+		"font" "newicons9"
 	}
 	"divider"	
 	{

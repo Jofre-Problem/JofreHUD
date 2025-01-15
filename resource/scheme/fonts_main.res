@@ -1399,8 +1399,8 @@ Scheme
 		}		
 		"hpnonumber"
 		{
-			"font" "fonts/OpenSansNoNumber.otf"
-			"name" "OpenSansNoNumber"
+			"font" "fonts/ProductSans_LoadoutIcons.otf"
+			"name" "ProductSans_LoadoutIcons"
 		}			
 		"Bot Detector Font" 
 		{

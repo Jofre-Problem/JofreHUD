@@ -110,7 +110,7 @@
 					"enabled"		"1"
 					"font"		"NotoBold16"
 					"fgcolor_override"		"White"
-					"textAlignment"		"west"
+					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"		"1"
 					"auto_wide_tocontents"		"1"
