@@ -42,7 +42,7 @@
 	{
 		"xpos"			"0"	
 	"ypos"			"0"
-		"zpos"			"1"			\\ draw in front of ammo
+		"zpos"			"1000"			\\ draw in front of ammo
 		"wide"			"f0"
 		////	"f0"
 		"tall"			"f0"
@@ -50,7 +50,7 @@
 	HudDemomanPipes
 	{
 		"xpos"			"0"	
-
+		"zpos"			"1000"	
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -84,13 +84,16 @@
 	}
 	HudMedicCharge
 	{
-		"xpos"			"c106"
+		"fieldName" "HudMedicCharge"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"			"0"
 		////"c106-62"
-		"ypos"			"325"
+		"ypos"			"0"
 		////"325+28"
-		"zpos"			"0"
-		"wide"			"124"
-		"tall"			"36"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"f0"
 	}	
 	MainMenuOverride
 	{

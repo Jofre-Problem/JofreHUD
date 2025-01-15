@@ -501,7 +501,28 @@
 					Command				"engine dev_m"
 
 				}
+				"DEVBTN_POSITION:Main1"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Main1"
+					"xpos"							"0"
+					"YPOS" "25"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
 
+			
+					labelText				"Reload Menu"
+					Command				"engine dev_m"
+
+				}
 
 				"DEVBTN_POSITION:X1"			// other classes pinned to this
 				{
@@ -553,7 +574,7 @@
 					fieldName				"DEVBTN_POSITION:Otherside1"
 					"xpos"							"rs1"
 					"YPOS" "65"
-					"wide"							"p0.35"
+					"wide"							"p0.175"
 					"tall"							"40"
 					zpos	"300"
 					font					"NotoBold20"
@@ -565,10 +586,32 @@
 					"armedbgcolor_override" "NotoGreenSolid"
 
 			
-					labelText				"Tr_Walkway"
-					Command				"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
+					labelText				"TrWalkway H1"
+					Command				"engine sv_allow_point_servercommand always; map tr_walkway_h1; exec tr_walkway_h1.cfg"
 
 				}
+				"DEVBTN_POSITION:Otherside1a"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside1a"
+					"xpos"							"r299"
+					"YPOS" "65"
+					"wide"							"p0.175"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
+
+			
+					labelText				"TrWalkway OG"
+					Command				"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
+
+				}				
 				"DEVBTN_POSITION:Otherside2"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -591,9 +634,72 @@
 					Command				"engine sv_allow_point_servercommand always; map tr_newbots"
 
 				}
+				"DEVBTN_POSITION:Otherside3"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside3"
+					"xpos"							"rs1"
+					"YPOS" "65+40+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"Tr Rocket Shooting"
+					Command				"engine sv_allow_point_servercommand always; map tyler_rocket_shooting_v3_regen"
 
+				}
+				"DEVBTN_POSITION:Otherside4"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside4"
+					"xpos"							"rs1"
+					"YPOS" "65+40+40+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"Tr Demo Aim"
+					Command				"engine sv_allow_point_servercommand always; map tr_demoaim_v1"
+
+				}
+				"DEVBTN_POSITION:Otherside5"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside5"
+					"xpos"							"rs1"
+					"YPOS" "65+40+40+40+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
+
+			
+					labelText				"Tr Bunny Hop"
+					Command				"engine sv_allow_point_servercommand always; map tr_bhop_v2"
+
+				}
 
 
 		}
