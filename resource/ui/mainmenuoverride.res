@@ -97,7 +97,7 @@
 		"ControlName"	"CCyclingAdContainerPanel"
 		"xpos"			"00"
 		"ypos"			"00"
-		"wide"			"f0"
+		"wide"			"p1"
 		"tall"			"481"
 		"visible"		"1"
 
@@ -238,6 +238,31 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"9999.0"
+				
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
 	"Paint"
 	{
 		"ControlName"    "CMatchHistoryEntryPanel"
@@ -392,35 +417,7 @@
 				"show_market"	"0"
 				"present_time"	"9999.0"
 
-			"Draw"
-			{
-				"ControlName"	"Panel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"	"255 0 255 255"
-				"linecolor"		"0 0 0 255"
-			}
-	"ChatTextLog"
-	{
-		"ControlName"		"TextEntry"
-		"fieldName"		"ChatTextLog"
-		"xpos"		"17"
-		"ypos"		"c0"
-		"wide"		"100"
-		"tall"		"75"
-		"font"	"noto10"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-	}
+
 
 				"Background"
 				{
@@ -446,17 +443,154 @@
 				{
 					"wide"		"0"
 				}
+				"bg2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"p1.1"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"fillcolor" "BlackSolid"
+				}
+				"logo"
+				{
+					"ControlName"	"ImagePanel"
+"xpos"			"c-56"//359
+		"ypos"			"c-60-130"//179
+		"zpos"			"41"
+		"wide"			"112"
+		"tall"			"112"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/thatguy/intro"
+				}
+				"logofreeze"
+				{
+					"ControlName"	"ImagePanel"
+"xpos"			"c-56"//359
+		"ypos"			"c-60-130"//179
+		"zpos"			"41"
+		"wide"			"112"
+		"tall"			"112"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/thatguy/intro-freeze"
+				}
+
+				"DEVBTN_POSITION:1"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:1"
+					"xpos"							"0"
+					"YPOS" "25"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"Reload Menu"
+					Command				"engine dev_m"
+
+				}
 
 
+				"DEVBTN_POSITION:X1"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:X1"
+					"xpos"							"0"
+					"YPOS" "65"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
 
+			
+					labelText				"Reload Game"
+					Command				"engine dev_r"
 
+				}
+				"DEVBTN_POSITION:Otherside0"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside0"
+					"xpos"							"rs1"
+					"YPOS" "25"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"Preload!!!"
+					Command				"engine exec preload"
 
+				}
+				"DEVBTN_POSITION:Otherside1"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside1"
+					"xpos"							"rs1"
+					"YPOS" "65"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"Tr_Walkway"
+					Command				"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
 
+				}
+				"DEVBTN_POSITION:Otherside2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside2"
+					"xpos"							"rs1"
+					"YPOS" "65+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"Tr_newbots"
+					Command				"engine sv_allow_point_servercommand always; map tr_newbots"
 
-
+				}
 
 
 

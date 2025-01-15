@@ -1,0 +1,23 @@
+"UnlitGeneric"
+{
+"$baseTexture" "vgui/replay/thumbnails/thatguy/intro"
+"$vertexcolor" 1
+"$vertexalpha" 1
+"$nolod" 1
+"$translucent" 1
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" "-5"
+			"initialValue" "30"
+			"resultvar" "$alpha"
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "30" 
+		}
+	}
+}

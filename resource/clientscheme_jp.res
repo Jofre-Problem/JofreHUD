@@ -99,8 +99,8 @@ Scheme
 		// Scream Fortress Fixes
 		"HudFontMediumSecondary"
 		{
-			"1" { "name" "ProductSans_LoadoutIcons" "tall" "24" "yres" "1 1199" "antialias" "1" }
-			"2" { "name" "ProductSans_LoadoutIcons" "tall" "10" "antialias" "1" }
+			"1" { "name" "ProductSans_LoadoutIcons" "tall" "28" "yres" "1 1199" "antialias" "1" }
+			"2" { "name" "ProductSans_LoadoutIcons" "tall" "14" "antialias" "1" }
 		}
 		"HudFontMediumSecondaryD"
 		{

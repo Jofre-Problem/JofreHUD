@@ -441,7 +441,7 @@
 		ControlName				EditablePanel
 		FieldName				"Notifications_ShowButtonPanel"
 		xPos					cs-0.5
-		yPos					50
+		yPos					35
 		zPos					3000
 		"wide"			"p0.065"
 		"tall"			"40"

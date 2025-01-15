@@ -2,6 +2,8 @@
 "blank"						"NEW Binds"
 "blank"						"=============================="
 "+hudmenu"			        "Quick HUD Menu"
+"say_team !scramble"		"Scramble teams"
+"say_team !seed"		    "MVM: Call for reinforcements"
 "blank"						"=============================="
 "blank"						"Plugin Binds"
 "blank"						"=============================="
