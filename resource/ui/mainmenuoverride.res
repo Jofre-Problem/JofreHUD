@@ -506,7 +506,7 @@
 					ControlName				CExButton
 					fieldName				"DEVBTN_POSITION:Main1"
 					"xpos"							"0"
-					"YPOS" "25"
+					"YPOS" "25+40"
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
@@ -519,11 +519,32 @@
 					"armedbgcolor_override" "AssassinGrade"
 
 			
-					labelText				"Reload Menu"
-					Command				"engine dev_m"
+					labelText				"Add 24 bots"
+					Command				"engine tf_bot_add 23"
 
 				}
+				"DEVBTN_POSITION:Main2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Main2"
+					"xpos"							"0"
+					"YPOS" "25+80"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
 
+			
+					labelText				"Remove all bots"
+					Command				"engine tf_bot_kick all"
+
+				}
 				"DEVBTN_POSITION:X1"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -700,7 +721,28 @@
 					Command				"engine sv_allow_point_servercommand always; map tr_bhop_v2"
 
 				}
+				"DEVBTN_POSITION:Otherside6"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:Otherside6"
+					"xpos"							"rs1"
+					"YPOS" "65+40+40+40+40+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "NotoGreenSolid"
 
+			
+					labelText				"ItemTest"
+					Command				"engine sv_allow_point_servercommand always; map itemtest"
+
+				}
 
 		}
 	}
