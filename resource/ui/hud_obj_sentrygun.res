@@ -4,10 +4,12 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
-		"wide"			"160"
-		"tall"			"41"
+		"wide"			"f0"
+		"tall"			"41" //41
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override" "black"
+		"paintBackground" "1"
 	}
 
 	"Icon_Sentry_1"
@@ -59,7 +61,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
-		"wide"			"160"
+		"wide"			"f0"
 		"tall"			"41"
 		"visible"		"0"
 
@@ -162,7 +164,7 @@
 			"fieldName"		"BuildingPanel"
 			"xpos"			"42"
 			"ypos"			"0"
-			"wide"			"100"
+			"wide"			"f0"
 			"tall"			"60"
 			"visible"		"0"
 
@@ -203,7 +205,7 @@
 			"fieldName"		"RunningPanel"
 			"xpos"			"42"
 			"ypos"			"0"
-			"wide"			"100"
+			"wide"			"f0"
 			"tall"			"60"
 			"visible"		"0"
 
@@ -226,7 +228,25 @@
 				"pin_corner_to_sibling"		"7"
 				"pin_to_sibling_corner"		"5"
 			}
+			"KillsLabe3" //need to move it down
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"KillsLabe3"
+				"font"			"NotoBold12"
+				"xpos"			"140"
+				"ypos"			"0"
+				"wide"			"20"
+				"tall"			"8"
+				"visible"		"0"
+				"enabled"		"1"
+				"labelText"		"#Building_hud_sentry_kills_assists"
+				"textAlignment"	"west"
+				"auto_wide_tocontents"		"1"
 
+				"pin_to_sibling"		"KillsLabelLabel"
+				"pin_corner_to_sibling"		"7"
+				"pin_to_sibling_corner"		"5"
+			}
 			"KillsLabelLabel"
 			{
 				"ControlName"		"CExLabel"

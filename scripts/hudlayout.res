@@ -29,7 +29,10 @@
 		"tall"					"550"
 		"mouseinputenabled"		"1"
 	}
-
+	"HudChat"
+	{
+		//"ypos"					"0"
+	}
 	"MatchmakingContainer"
 	{
 		"bgcolor_override"		"0 0 0 0"
@@ -471,12 +474,14 @@
 		"wide"		"200"
 		"tall"		"240"
 		"enabled"		"1"
+		"pin_to_sibling" "HudChat"
 	}
 
 	BuildingStatus_Engineer
 	{
-		"wide"		"200"
+		"wide"		"f0"
 		"tall"		"240"
+	
 		"pin_to_sibling"	"BuildingStatusAnchor"
 	}
 

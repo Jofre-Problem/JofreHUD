@@ -119,7 +119,7 @@
 
 				"NextLevelXPLabel"
 				{
-					"ControlName"		"Label"
+					"ControlName"		"cexLabel"
 					"fieldName"		"NextLevelXPLabel"
 					"zpos"		"1"
 					"xpos"	"rs1"
@@ -132,6 +132,7 @@
 					"fgcolor_override"		"White"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"
+					//"auto_wide_tocontents" "1"
 					"proportionaltoparent"		"1"
 				}
 

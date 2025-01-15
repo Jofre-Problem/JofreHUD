@@ -12,7 +12,7 @@
 		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"460"
 		"visible"		"1"
 		//"enabled"		"1"
 		"bgcolor_override"	"blank"
