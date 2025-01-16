@@ -33,8 +33,8 @@
 		"xpos"		"0"
 		"ypos"		"3"
 		"zpos"		"3"
-		"wide"		"10"
-		"tall"		"15"
+		"wide"		"0"
+		"tall"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"		"capture_icon"
@@ -43,16 +43,17 @@
 
 	"CapNumPlayers"
 	{
-		"ControlName"		"Label"
+		"ControlName"		"cexLabel"
 		"fieldName"		"CapNumPlayers"
 		"font"			"DamagetextOutline"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
+		"disabledfgcolor2_override" "notowhite"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
 		//		"1"
@@ -89,7 +90,7 @@
 		"labelText"		"60"
 		"textAlignment"	"center"
 		
-		"font"			"Size 10"
+		"font"			"Noto10"
 	}
 
 	"CPTimerBG"

@@ -17,6 +17,28 @@ event MvMFixer
 {
 	FireCommand 0.0 "engine mvmfix"
 }
+event MapVoted
+{
+	Animate VotesLabel	ypos	30		Deaccel 0	0.05
+	Animate VotesLabel	ypos	40		Deaccel 0.05 0.1
+	RunEventChild MainMenuOverride ForceSafemode 0.0
+}
+
+event WinningNextMapVote
+{
+	Animate VotesLabel	FgColor	CreditsGreen Deaccel	0	0.1.5
+	RunEventChild MainMenuOverride ForceSafemode 0.0
+}
+
+event LosingNextMapVote
+{
+	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+	RunEventChild MainMenuOverride ForceSafemode 0.0
+}
+event ForceSafemode
+{
+	FireCommand 0.0 "engine cl_mainmenu_safemode 1"
+}
 
 
 event CasualCategory_NotSelected
@@ -24,7 +46,18 @@ event CasualCategory_NotSelected
 	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
 	Animate Title		FgColor TanLight Deaccel 0 0.2
 }
+event HintMessageHide
+{
+    Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
+    Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
 
+    Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
+
+    Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
+    Animate  Dispenser  Position  "120 0"  Linear  0.0  0.0
+    Animate  TeleIn  Position  "240 0"  Linear  0.0  0.0
+    Animate  TeleOut  Position  "360 0"  Linear  0.0  0.0
+}
 // Niterux intro skip
 event IntroMovieContinueBlinkStop
 {

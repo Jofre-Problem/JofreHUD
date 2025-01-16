@@ -49,7 +49,7 @@
 		"controlname"	"panel"
 		"fieldname"		"MapVoteAnchor"
 
-		"xpos"			"0"
+		"xpos"			"90"
 		"ypos"			"470"
 
 		"wide"			"0"
@@ -755,7 +755,7 @@
 
 
 
-
+			
 
 		"QuickPlayExpandable"
 		{

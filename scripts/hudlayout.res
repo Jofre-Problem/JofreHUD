@@ -25,7 +25,8 @@
 	}
 	"MMDashBoardPopupContainer"
 	{
-		"ypos"					"-470"
+		xpos 0
+		"ypos"					"380"
 		"tall"					"550"
 		"mouseinputenabled"		"1"
 	}
@@ -477,13 +478,13 @@
 		"wide"		"200"
 		"tall"		"240"
 		"enabled"		"1"
-		"pin_to_sibling" "HudChat"
+	//	"pin_to_sibling" "HudChat"
 	}
 
 	BuildingStatus_Engineer
 	{
 		"wide"		"f0"
-		"tall"		"240"
+		"tall"		"f0"
 	
 		"pin_to_sibling"	"BuildingStatusAnchor"
 	}

@@ -73,7 +73,7 @@
 		"enabled"		"1"
 		"textAlignment"		"center"
 		"labelText"		"!"
-		"font"			"size 30"
+		"font"			"Noto30"
 		"fgcolor_override"	"RedSolid"
 		}
 
@@ -81,7 +81,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
-		"font"			"Size 8"
+		"font"			"Noto10"
 		"xpos"			"14"
 		"ypos"			"8"
 		"zpos"			"23"

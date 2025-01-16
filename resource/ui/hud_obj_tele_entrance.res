@@ -3,7 +3,7 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
+		"fieldName"		"TeleIn"
 		"wide"			"150"
 		"tall"			"31"
 		"visible"		"1"

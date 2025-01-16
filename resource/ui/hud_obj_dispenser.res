@@ -3,9 +3,9 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
-		"wide"			"150"
-		"tall"			"31"
+		"fieldName"		"Dispenser"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -29,8 +29,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
-		"wide"			"160"
-		"tall"			"31"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"

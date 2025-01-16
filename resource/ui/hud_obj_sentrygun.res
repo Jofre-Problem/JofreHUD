@@ -3,9 +3,10 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
+		"fieldName"		"SentryGun"
+		"ypos" "88"
 		"wide"			"f0"
-		"tall"			"41" //41
+		"tall"			"f0" //41
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "black"
@@ -61,8 +62,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
+		"ypos" "0"
 		"wide"			"f0"
-		"tall"			"41"
+		"tall"			"f0"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -165,7 +167,7 @@
 			"xpos"			"42"
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"60"
+			"tall"			"f0"
 			"visible"		"0"
 
 			"BuildingLabel"
@@ -206,7 +208,7 @@
 			"xpos"			"42"
 			"ypos"			"0"
 			"wide"			"f0"
-			"tall"			"60"
+			"tall"			"f0"
 			"visible"		"0"
 
 			"KillsLabel"
@@ -232,21 +234,36 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabe3"
-				"font"			"NotoBold12"
-				"xpos"			"140"
-				"ypos"			"0"
+				"font"			"MedHealtarget"
+				"xpos"			"cs-0.5"
+				"ypos"			"96"
 				"wide"			"20"
 				"tall"			"8"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"west"
 				"auto_wide_tocontents"		"1"
 
-				"pin_to_sibling"		"KillsLabelLabel"
-				"pin_corner_to_sibling"		"7"
-				"pin_to_sibling_corner"		"5"
 			}
+			"KillsLabe3S" //need to move it down
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"KillsLabe3S"
+				"font"			"MedHealtarget"
+				"xpos"			"cs-0.5"
+				"ypos"			"96"
+				"wide"			"20"
+				"tall"			"8"
+				zpos -1
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"#Building_hud_sentry_kills_assists"
+				"textAlignment"	"west"
+				"auto_wide_tocontents"		"1"
+				"fgcolor_override" "notodark"
+
+			}			
 			"KillsLabelLabel"
 			{
 				"ControlName"		"CExLabel"

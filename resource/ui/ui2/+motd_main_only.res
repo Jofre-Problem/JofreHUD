@@ -133,11 +133,29 @@
 				"tall"						"30"
 				"proportionaltoparent"		"1"
 				"font"						"Notobold14"
-				"labelText"					"Demo Settings"
+				"labelText"					"Demo Settings (hud/tools/)" 
 				"textAlignment"				"center"
 				"fgcolor"					"notowhite"
 				"bgcolor_override"			"TransparentBlack"
-			}		
+			}	
+				"HelpDemo"			// other classes pinned to this
+			{
+				ControlName				CExButton
+				fieldName				"HelpDemo"
+				"xpos"							"250"
+				"ypos"							"0"
+				"wide"							"50"
+				"tall"							"30"
+				zpos	"100"
+				labelText				"Ð"
+				font					"Newicons25"
+				textAlignment			east
+				"textinsety" "5"
+				"actionsignallevel"		"3"
+				Command				"engine +con; +rechelp"
+				paintbackground 			0
+				"armedfgcolor_override" "Primary"
+			}				
 		"Record"			// other classes pinned to this
 	{
 		ControlName				CExButton
@@ -147,12 +165,12 @@
 		"wide"							"150"
 		"tall"							"30"
 		zpos	"100"
-		labelText				"REC"
+		labelText				"REC START / STOP"
 		font					"Noto16"
 		textAlignment			center
 		"actionsignallevel"		"3"
-		Command				"engine ds_record;tf_spectator_target_location 0;tf_hud_target_id_disable_floating_health 1;cl_vote_non_input_alpha 255;tf_dashboard_slide_time 0.05;echo suggested convars applied"
-		"border_default"	"FLAT_Black_4"
+		Command				"engine +STASTO"
+	"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}
@@ -165,19 +183,178 @@
 		"wide"							"150"
 		"tall"							"30"
 	zpos	"100"
-		labelText				"REC STOP"
+		labelText				"REC RESET"
 		font					"Noto16"
 		textAlignment			center
 		"actionsignallevel"		"3"
-		Command				"engine ds_stop"
+		Command				"engine +recreset"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}			
 
-
-
-
+		"Rec_next_slot"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_next_slot"
+		"xpos"							"150"
+		"ypos"							"60"
+		"wide"							"150"
+		"tall"							"25"
+	zpos	"100"
+		labelText				"Next Slot >"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +next"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}	
+		"Rec_prev_slot"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_prev_slot"
+		"xpos"							"150"
+		"ypos"							"85"
+		"wide"							"150"
+		"tall"							"24"
+	zpos	"100"
+		labelText				"< Previous Slot"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +prev"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}	
+		"Rec_Category_Funny"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_Funny"
+		"xpos"							"150"
+		"ypos"							"110"
+		"wide"							"75"
+		"tall"							"25"
+	zpos	"100"
+		labelText				"# Funny"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatfun"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}
+		"Rec_Category_Random"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_Random"
+		"xpos"							"150+75"
+		"ypos"							"110"
+		"wide"							"75"
+		"tall"							"24"
+	zpos	"100"
+		labelText				"# Random"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatrandom"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}			
+		"Rec_Category_casual"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_casual"
+		"xpos"							"150"
+		"ypos"							"135"
+		"wide"							"75"
+		"tall"							"24"
+	zpos	"100"
+		labelText				"# Casual"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatcasual"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}		
+		"Rec_Category_comp"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_comp"
+		"xpos"							"150+75"
+		"ypos"							"135"
+		"wide"							"75"
+		"tall"							"24"
+	zpos	"100"
+		labelText				"# Comp"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatcomp"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}		
+		"Rec_Category_comunidad"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_comunidad"
+		"xpos"							"150"
+		"ypos"							"160"
+		"wide"							"75"
+		"tall"							"25"
+	zpos	"100"
+		labelText				"# Community"
+		font					"Noto14"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatcommu"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}		
+		"Rec_Category_vsh"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_Category_vsh"
+		"xpos"							"150+75"
+		"ypos"							"160"
+		"wide"							"75"
+		"tall"							"25"
+	zpos	"100"
+		labelText				"# VSH"
+		font					"Noto16"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +reccatvsh"
+		"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}			
+		"Rec_CurrentMAP"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"Rec_CurrentMAP"
+		"xpos"							"150"
+		"ypos"							"185"
+		"wide"							"150"
+		"tall"							"25"
+	zpos	"100"
+		labelText				"Current map!"
+		font					"Noto14"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine +recmapname"
+		"border_default"	"ModulateRgb"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}				
 		"ScoutButton"			// other classes pinned to this
 	{
 		ControlName				CExButton

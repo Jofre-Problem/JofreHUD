@@ -431,7 +431,18 @@ Scheme
 			"draw_corner_width"								"2"
 			"draw_corner_height" 							"2"
 		}
+		"ModulateRgb" //"replay/thumbnails/panels/misc/modal"
+		{
+			"bordertype"									"scalable_image"
+			"backgroundtype"								"0"
 
+
+			"image"											"replay/thumbnails/hp/modulate_rgb_faster"
+			"src_corner_height"								"0"
+			"src_corner_width"								"0"
+			"draw_corner_width"								"0"
+			"draw_corner_height" 							"0"
+		}
 	ScrollBarButtonBorder
 		{
 			"bordertype"			"scalable_image"

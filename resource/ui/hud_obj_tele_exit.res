@@ -3,7 +3,7 @@
 	"BuildingStatusItem"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BuildingStatusItem"
+		"fieldName"		"Teleout"
 		"wide"			"150"
 		"tall"			"31"
 		"visible"		"1"

@@ -147,10 +147,10 @@
 			"textAlignment"		"west"
 			"xpos" 			"0"					//"c-60"//			"180"
 			"ypos"			"0"
-			"zpos"			"1"
+			"zpos"			"5000"
 			"wide"			"10"
 			"tall"			"15"
-			
+			"mouseinputenabled" "0"
 			"fgcolor"		"236 189 123 255"		
 		}	
 
@@ -397,42 +397,70 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"150"
+			"xpos"			"0"
 			"ypos"			"-50"
 			"zpos"			"111"
-			"wide"			"220"
+			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+		"slash4"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"slash4"
+			"font"			"NewIcons20"
+			"labelText"		"ù"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"rs1-145"					//"c-60"//			"180"
+			"ypos"			"0"
+			"zpos"			"5000"
+			"wide"			"10"
+			"tall"			"15"
+			"mouseinputenabled" "0"
+			"fgcolor"		"236 189 123 255"		
+		}		
+		"bgg4"						{			ControlName				ImagePanel			FieldName				
+			"bgg4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"15"
+		"tall"			"15"
+			fillColor				"236 189 123 255"		
+		"pin_to_sibling"	"slash4"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
+	}	
 
+           "BGImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "BGImage"
+                "xpos"                      "0"
+                "ypos"                      "0"
+                "zpos"                      "0"
+                "wide"                      "P0.84"
+                "tall"                      "p0.43"
+                "visible"                   "1"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/queue_stripes"
+                "scaleImage"                "1"
+                "drawcolor"                 "Primary"
+				 "alpha"                     "200"
+            }
 			"OuterShadow"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"-1"
-				"wide"			"0"
 				"tall"			"0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"border"		"OuterShadowBorderThin"
+				"visible"		"0"
 			}
 
 			"BGPanel"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"BGPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"0"
-				"wide"			"f1"
 				"tall"			"0"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"border"		"WBorder_2"
+				"visible"		"0"
 			}
 
 			"QueueLogoButton"
@@ -463,156 +491,142 @@
 				"paintbackground"	"0"
 				"paintborder"		"0"				
 			}		
-			"Spinner"
-			{
-			"ControlName""ImagePanel"
-			"fieldName""Spinner"
-			"xpos"	"20"
-			"ypos"	"2"
-			"wide""35"
-			"tall""o1"
-			"scaleImage""1"
-			"image""replay/thumbnails/misc/spinner"
-			"fgcolor""TanDark"
-			}	
 			"CTFLogoPanel"
 			{
 				"tall"			"0"
-			}		
+			}	
+          "QueueTextAnchor"
+            {
+                "ControlName"               "EditablePanel"
+                "fieldName"                 "QueueTextAnchor"
+                "xpos"                      "cs-0.5"
+                "ypos"                      "0"
+                "wide"                      "0"
+                "tall"                      "0"
+                "proportionaltoparent"      "1"
+				  "mouseinputenabled"         "0"
+            }
+            "QueueText2"
+            {
+                "ControlName"               "CExLabel"
+                "fieldName"                 "QueueText2"
+                "xpos"                      "0"
+                "ypos"                      "-14"
+                "wide"                      "184"
+                "tall"                      "14"
+                "visible"                   "1"
+                "enabled"                   "1"
+                "font"                      "notobold14"
+                "fgcolor_override"          "notowhite"
+                "fgcolor"                   "notowhite"
+                "bgcolor_override"          "Blank"
+                "textAlignment"             "center"
+                "labelText"                 "%queue_state%"
+                "textinsetx"                "0"
+                "use_proportional_insets"   "1"
+                "allcaps"                   "0"
+                "proportionaltoparent"      "1"
+                "mouseinputenabled"         "0"
+
+                "auto_wide_tocontents"      "0"
+
+                "pin_to_sibling"            "QueueTextAnchor"
+                "pin_corner_to_sibling"     "PIN_CENTER_TOP"
+                "pin_to_sibling_corner"     "PIN_CENTER_TOP"
+            }				
 			"QueueText"
 			{
-				"ControlName"	"CAutoFittingLabel"
-				"fieldName"		"QueueText"
-				"xpos"			"60"
-				"ypos"			"0"
-				"wide"			"f55"
-				"zpos"			"100"
-				"tall"			"f0"
-				"visible"		"1"
-				//"enabled"		"1"
-				"font"			"NotoBold16"
-				"fgcolor_override"	"W_ColorIcons1"
-				"textAlignment"	"west"
-				"labelText"		"%queue_state%"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"fonts"
-				{
-					"0"
-					{
-						"font"	"NotoBold16" // TF2 Build 11
-					}
-					"1"
-					{
-						"font"	"NotoBold16" // TF2 Build 10
-					}
-					"2"
-					{
-						"font"	"NotoBold16" // TF2 Build 9
-					}
-				}
+                "xpos"                      "9999"
+                "ypos"                      "9999"
+                "wide"                      "0"
+                "tall"                      "0"
+                "visible"                   "0"
+                "enabled"                   "0"
 			}
 
-			"MultiQueuesManageButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"MultiQueuesManageButton"
-				"xpos"			"5"
-				"ypos"			"20"
-				"zpos"			"10"
-				"wide"			"15"
-				"tall"			"o1"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				//"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-				"Command"		"manage_queues"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
-			
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"13" 
-					"tall"			"13"
-					"visible"		"1"
-					//"enabled"		"1"
-					"image"			"glyph_options"
-					"scaleImage"	"1"
-				}				
-			}		
+           "MultiQueuesManageButton"
+            {
+                "ControlName"                   "CExImageButton"
+                "fieldName"                     "MultiQueuesManageButton"
+                "xpos"                          "0"
+                "ypos"                          "0"
+                "wide"                          "20"
+                "tall"                          "20"
+                "labeltext"                     "x"
+                "font"                          "NewIcons20"
+                "textAlignment"                 "center"
+                "dulltext"                      "0"
+                "brighttext"                    "0"
+                "default"                       "1"
+				zpos 1000
+                "sound_depressed"               "UI/buttonclick.wav"
+                "sound_released"                "UI/buttonclickrelease.wav"
+                "Command"                       "manage_queues"
+                "proportionaltoparent"          "1"
+                "actionsignallevel"             "3"
+                "paintbackground"               "1"
+                "fgcolor"                       "notored"
+                "defaultFgColor_override"       "notored"
+                "armedFgColor_override"         "notowhite"
+                "depressedFgColor_override"     "notored"
+                "defaultbgcolor_override"       "Blank"
+                "armedbgcolor_override"         "Blank"
 
-			"CloseButton"
-			{
-				"ControlName"	"CExImageButton"
-				"fieldName"		"CloseButton"
-				"xpos"			"5"
-				"ypos"			"20"
-				"zpos"			"10"
-				"wide"			"15"
-				"tall"			"o1"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				//"enabled"		"1"
-				"tabPosition"	"0"
-				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
-				"default"		"1"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
-				"Command"		"leave_queue"
-				"proportionaltoparent"	"1"
-				"actionsignallevel"	"3"
-			
-				"paintbackground"	"0"
-			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"13"
-					"tall"			"13"
-					"visible"		"1"
-					//"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
-				}				
-			}		
+                "pin_to_sibling"                "QueueText2"
+                "pin_corner_to_sibling"         "PIN_TOPLEFT"
+                "pin_to_sibling_corner"         "PIN_TOPRIGHT"
+
+                "SubImage"
+                {
+                    "xpos"                      "9999"
+                    "ypos"                      "9999"
+                    "wide"                      "0"
+                    "tall"                      "0"
+                    "visible"                   "0"
+                    "enabled"                   "0"
+                }
+            }
+            "CloseButton"
+            {
+                "ControlName"                   "CExImageButton"
+                "fieldName"                     "CloseButton"
+                "xpos"                          "0"
+                "ypos"                          "0"
+                "wide"                          "20"
+                "tall"                          "20"
+                "labeltext"                     "x"
+                "font"                          "NewIcons20"
+                "textAlignment"                 "center"
+                "dulltext"                      "0"
+				zpos 1000
+                "brighttext"                    "0"
+                "default"                       "1"
+                "sound_depressed"               "UI/buttonclick.wav"
+                "sound_released"                "UI/buttonclickrelease.wav"
+                "Command"                       "leave_queue"
+                "proportionaltoparent"          "1"
+                "actionsignallevel"             "3"
+                "paintbackground"               "1"
+                "fgcolor"                       "notored"
+                "defaultFgColor_override"       "notored"
+                "armedFgColor_override"         "notowhite"
+                "depressedFgColor_override"     "notored"
+                "defaultbgcolor_override"       "Blank"
+                "armedbgcolor_override"         "Blank"
+                "pin_to_sibling"                "QueueText2"
+                "pin_corner_to_sibling"         "PIN_TOPLEFT"
+                "pin_to_sibling_corner"         "PIN_TOPRIGHT"
+
+                "SubImage"
+                {
+                    "xpos"                      "9999"
+                    "ypos"                      "9999"
+                    "wide"                      "0"
+                    "tall"                      "0"
+                    "visible"                   "0"
+                    "enabled"                   "0"
+                }
+            }	
 		}
 
 		"JoinPartyLobbyContainer"
