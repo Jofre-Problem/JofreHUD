@@ -1202,9 +1202,86 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"ItemIcons40"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"40"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons6"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"6"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons8"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"8"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons10"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"10"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons12"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"12"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons14"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"14"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons16"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"16"
+				"antialias"	"1"
+			}
+		}
+		"ItemIcons18"
+		{
+			"1"
+			{
+				"name"	"ItemIcons"
+				"tall"	"18"
+				"antialias"	"1"
+			}
+		}				
 	}
 	CustomFontFiles
 	{
+		"testing"
+		{
+			"font" "fonts/ItemIcons.ttf"
+			"name" "ItemIcons"
+		}		
 		"uber2"
 		{
 			"font" "fonts/OpenSansUber.ttf"

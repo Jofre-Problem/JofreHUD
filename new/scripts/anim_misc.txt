@@ -51,12 +51,27 @@ event HintMessageHide
     Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
     Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
 
-    Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
-
+ 	 RunEvent  Engineer  0.02
+}
+event Engineer
+{
+    //Animate  SentryGun  Position  "c106 360"  Linear  0.0  0.0
+  	Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
     Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
-    Animate  Dispenser  Position  "120 0"  Linear  0.0  0.0
-    Animate  TeleIn  Position  "240 0"  Linear  0.0  0.0
-    Animate  TeleOut  Position  "360 0"  Linear  0.0  0.0
+
+
+
+    Animate  Dispenser  Position  "c-191 360"  Linear  0.0  0.0
+    Animate  TeleIn Dispenser  "999"  Spline  0.0  0.0	
+    Animate  TeleIn Dispenser  "480"  Spline  0.0  0.0	
+
+    Animate  TeleIn  Position  "0 325"  Linear  0.0  0.0
+    Animate  TeleIn wide  "999"  Spline  0.0  0.0	
+    Animate  TeleIn Tall  "480"  Spline  0.0  0.0	
+
+    Animate  TeleOut  Position  "r190 325"  Linear  0.0  0.0
+    Animate  TeleOut wide  "999"  Spline  0.0  0.0	
+    Animate  TeleOut Tall  "480"  Spline  0.0  0.0		
 }
 // Niterux intro skip
 event IntroMovieContinueBlinkStop
@@ -73,7 +88,7 @@ event CompetitiveGame_RestoreChatWindow
 	RunEvent HudHealthDyingPulseStop 0.1
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudMedicChargedStop 0.1
-
+  	RunEvent  Engineer  0.02
 	RunEventChild Mainmenuoverride EveryRespawn 0.0
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0

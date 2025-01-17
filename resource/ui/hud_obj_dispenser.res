@@ -14,8 +14,8 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"11"
-		"ypos"			"1"
+		"xpos"			"2"
+		"ypos"			"5"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"
@@ -29,6 +29,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
+		ypos 0
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
@@ -37,7 +38,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"41"
+			"xpos"			"52"
 			"ypos"			"16"
 			"zpos"			"1"
 			"wide"			"10"
@@ -53,7 +54,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"41"
+			"xpos"			"52"
 			"ypos"			"16"
 			"zpos"			"1"
 			"wide"			"10"
@@ -69,7 +70,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"41"
+			"xpos"			"52"
 			"ypos"			"16"
 			"zpos"			"1"
 			"wide"			"10"
@@ -118,9 +119,9 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"xpos"			"0"
-			"ypos"			"1"
-			"wide"			"8"
-			"tall"			"27"
+			"ypos"			"0"
+			"wide"			"2"
+			"tall"			"38"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
@@ -131,7 +132,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"42"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -144,12 +145,13 @@
 				"font"			"Regular9"
 				"xpos"			"0"
 				"ypos"			"5"
-				"wide"			"200"
+				"wide"			"0"
 				"tall"			"12"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
+			
 			}
 
 			"BuildingProgress"
@@ -158,12 +160,13 @@
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
-				"ypos"			"17"
-				"wide"			"50"
-				"tall"			"8"
+				"ypos"			"0"
+				"wide"			"85"
+				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
+				"fgcolor_override" "red"
 				"bgcolor_override"		"TransparentGrayDarkest"
 			}
 		}
@@ -172,10 +175,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"42"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"38"
 			"visible"		"0"
 
 			"Ammo"
@@ -183,7 +186,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Ammo"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"32"
 				"ypos"			"6"
 				"wide"			"50"
 				"tall"			"8"
@@ -197,13 +200,13 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"AmmoLabel"
-				"font"		"NotoBold12"
+				"font"		"Newicons12"
 				"zpos"		"1"
 				"wide"		"50"
 				"tall"		"8"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"AMMO"
+				"labelText"		"_"
 				"textAlignment"		"center"
 				"fgcolor"		"Black"
 
@@ -215,14 +218,17 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"11"
-				"ypos"			"17"
-				"wide"			"39"
-				"tall"			"8"
+				"xpos"			"0"
+				"ypos"			"1"
+				zpos -20
+				"wide"			"85"
+				"tall"			"38"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
+				"fgcolor_override" "Blue"
 				"bgcolor_override"		"TransparentGrayDarkest"
+				"alpha" "200"
 			}
 		}
 	}

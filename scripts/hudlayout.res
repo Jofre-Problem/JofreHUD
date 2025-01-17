@@ -486,7 +486,7 @@
 		"wide"		"f0"
 		"tall"		"f0"
 	
-		"pin_to_sibling"	"BuildingStatusAnchor"
+//		"pin_to_sibling"	"BuildingStatusAnchor"
 	}
 
 	BuildingStatus_Spy

@@ -28,6 +28,7 @@
 		"font"			"MedHealtarget"
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
+		"fgcolor_override" "green"
 	//	"pin_to_sibling"	"BuildBGSentry"
 	}
 	"AccountValueS"

@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"Teleout"
-		"wide"			"150"
-		"tall"			"31"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -14,7 +14,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"11"
+		"xpos"			"8"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -30,7 +30,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
 		"wide"			"160"
-		"tall"			"31"
+		"tall"			"35"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -119,9 +119,9 @@
 			"fieldName"		"Health"
 			"font"			"Default"
 			"xpos"			"0"
-			"ypos"			"1"
-			"wide"			"8"
-			"tall"			"27"
+			"ypos"			"-2"
+			"wide"			"2"
+			"tall"			"37"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
@@ -135,7 +135,7 @@
 			"xpos"			"42"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"35"
 			"visible"		"0"
 
 			"BuildingLabel"
@@ -173,10 +173,10 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"42"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"
-			"tall"			"31"
+			"tall"			"35"
 			"visible"		"0"
 
 			"Upgrade"
@@ -184,13 +184,14 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"12"
-				"ypos"			"17"
-				"wide"			"38"
-				"tall"			"8"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"85"
+				"tall"			"35"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
+				"fgcolor_override" "blue"
 				"bgcolor_override"		"TransparentGrayDarkest"
 			}
 		}
