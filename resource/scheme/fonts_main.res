@@ -1478,6 +1478,38 @@ Scheme
 		{
 			"font" "fonts/ProductSans_LoadoutIcons.otf"
 			"name" "ProductSans_LoadoutIcons"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
 		}			
 		"Bot Detector Font" 
 		{

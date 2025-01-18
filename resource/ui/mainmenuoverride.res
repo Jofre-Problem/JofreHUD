@@ -550,7 +550,7 @@
 					ControlName				CExButton
 					fieldName				"DEVBTN_POSITION:X1"
 					"xpos"							"0"
-					"YPOS" "65"
+					"YPOS" "80+50"
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
@@ -567,6 +567,28 @@
 					Command				"engine dev_r"
 
 				}
+				"DEVBTN_POSITION:X2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:X2"
+					"xpos"							"0"
+					"YPOS" "rs1-20"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"exec Tournament.cfg"
+					Command				"engine mp_tournament 0;mp_restartgame 1"
+
+				}				
 				"DEVBTN_POSITION:Otherside0"			// other classes pinned to this
 				{
 					ControlName				CExButton

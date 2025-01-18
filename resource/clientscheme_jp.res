@@ -100,7 +100,7 @@ Scheme
 		"HudFontMediumSecondary"
 		{
 			"1" { "name" "ProductSans_LoadoutIcons" "tall" "28" "yres" "1 1199" "antialias" "1" }
-			"2" { "name" "ProductSans_LoadoutIcons" "tall" "14" "antialias" "1" }
+			"2" { "name" "ProductSans_LoadoutIcons" "tall" "16" "wide" "500" "antialias" "1" }
 		}
 		"HudFontMediumSecondaryD"
 		{
@@ -148,7 +148,17 @@ Scheme
 				"antialias" "1"
 			}
 		}		
-				
+		"blocks2"
+		{
+			"1"
+			{
+				"name"		"blocks blocks" 
+				"tall"		"30"
+				"antialias" "1"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}				
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -204,6 +214,16 @@ Scheme
 				"antialias"			"1"
 			}
 		}		
+		"NewIcons20blur" 
+		{
+			"1"
+			{
+				"name"				"JofreIconsRe"
+				"tall"				20		
+				"antialias"			"1"
+				blur 2
+			}
+		}			
 		"NewIcons18" 
 		{
 			"1"

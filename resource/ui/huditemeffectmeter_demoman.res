@@ -79,7 +79,6 @@
 		"font"					"DamagetextShadow"
 		"fgcolor_override"		"Shadow"
 		"proportionaltoparent"		"1"
-
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 

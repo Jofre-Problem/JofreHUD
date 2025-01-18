@@ -124,12 +124,32 @@
 		"priority"	"40"
 		"zpos"	"1090"
 	}
+	"MedicIcon"
+	{
+		"ControlName"	"imagepanel"
+		"fieldName"		"MedicIcon"
+		xpos 0-700
+		"ypos"			"-1010"
+		"zpos"			"9"
+		"wide"			"18"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"drawcolor" "green"
+		"scaleImage" 1
+		paintBackground 1
+		bgcolor_override notodark
+		"image" "replay/thumbnails/hud/loadout_icon_medic"
+"pin_to_sibling" "CSpectatorTargetID"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+	}		
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" 	"CSpectatorTargetIDAnchor"
-		"xpos" 		"0"
-		"ypos"		"-1110"
+		"xpos" 		"100"
+		"ypos"		"-1109"
 		"wide"		"f0"
 		"tall" 		"0"
 		"visible"	"1"

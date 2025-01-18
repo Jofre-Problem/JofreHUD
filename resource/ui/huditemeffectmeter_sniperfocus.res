@@ -12,4 +12,5 @@
 	{
 		"labelText"				"#TF_ENERGYDRINK"
 	}
+
 }

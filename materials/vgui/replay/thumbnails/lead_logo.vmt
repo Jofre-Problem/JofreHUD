@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture"			"vgui/replay/thumbnails/lead_logo"
-	"$vertexcolor"			"1"
-	
-	"$ignorez"				"1"
-	
-	"$translucent"			"1"
-}
