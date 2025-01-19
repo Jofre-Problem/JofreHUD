@@ -1,15 +1,5 @@
-#base 	"spectator_main.res"
-"Resource/UI/Spectator.res"
-{ 
-	"Spectator"
-	{
-		"ControlName"		"Frame"
-		"fieldName"		"Spectator"
-		
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
-
-}
+	#base	"../../_stream/resource/ui/spectator.res"
+	//#base	"../../_jofrehud/resource/#beta/spec.res"
+	#base	"../../_jofrenew/resource/ui/spectator.res"
+	//#base	"../../_jofrehud/resource/ui/spectator.res"
+	//#base	"../../_tf2hud/resource/ui/spectator.res"

@@ -1,16 +1,4 @@
-
-"Resource/UI/HudHealthAccount.res"
-{
-	"CHealthAccountPanel"
-	{
-		"fieldName"				"CHealthAccountPanel"
-		"delta_item_x"			"0"
-		"delta_item_start_y"	"30"
-		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"2.5"
-		"delta_item_font"		"HealthAndAmmo20"
-	}
-	
-}
+	#base	"../../_stream/resource/ui/hudhealthaccount.res"
+	#base	"../../_jofrenew/resource/ui/hudhealthaccount.res"
+	//#base	"../../_jofrehud/resource/ui/hudhealthaccount.res"
+	//#base	"../../_tf2hud/resource/ui/hudhealthaccount.res"

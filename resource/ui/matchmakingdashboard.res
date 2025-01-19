@@ -1,3 +1,4 @@
-#base ../../new/_menu1_old2/matchmakingdashboard.res 
-
-#base	"_tf2hud/matchmakingdashboard.res"
+	#base	"../../_stream/resource/ui/matchmakingdashboard.res"
+	#base	"../../_jofrenew/resource/ui/matchmakingdashboard.res"
+	//#base	"../../_jofrehud/resource/ui/matchmakingdashboard.res"
+	//#base	"../../_tf2hud/resource/ui/matchmakingdashboard.res"

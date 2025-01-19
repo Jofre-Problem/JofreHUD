@@ -1,4 +1,4 @@
-
-#base "../../new/_menu1/pvprankpanel.res"
-//#base "../../../../cfg/jp_mm_rank.txt"
-//#base "../fallback/pvprankpanel.res"
+	#base	"../../_stream/resource/ui/pvprankpanel.res"
+	#base	"../../_jofrenew/resource/ui/pvprankpanel.res"
+	//#base	"../../_jofrehud/resource/ui/pvprankpanel.res"
+	#base	"../../_tf2hud/resource/ui/pvprankpanel.res"

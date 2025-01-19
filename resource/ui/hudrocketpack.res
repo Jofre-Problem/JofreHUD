@@ -1,43 +1,10 @@
-#base "HudItemEffectMeter.res"
-"Resource/UI/HudRocketPack.res"
-{
-	HudItemEffectMeter
-	{
-		"ypos"		"c93"
-	}
+#base "../../_jofrehud/resource/ui/base/meters/huditemeffectmeter.res"
+#base "../../_jofrehud/resource/ui/base/meters/huditemeffectmeter/main_main.res"
+#base "../../_jofrehud/resource/ui/base/meters/itemeffectmeter_bg.res"
+//#base "../../_jofrehud/resource/ui/base/meters/itemeffectmeterlabel.res"
+#base "../../_jofrehud/resource/ui/base/meters/itemeffectmeterlabel/tf_ball.res"
+#base "../../_jofrehud/resource/ui/base/meters/itemeffectmeter.res"
+#base "../../_jofrehud/resource/ui/base/image/itemeffecticon.res"
 
-	"ItemEffectMeterLabel"
-	{
-		"labelText"		"#TF_RocketPack_Disabled"
-	}
-
-	"ItemEffectMeter"
-	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"White"
-		"bgcolor_override"		"TransparentGrayDarkest"
-	}
-
-	"ItemEffectMeter2"
-	{
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter2"
-		"xpos"			"80"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"White"
-		"bgcolor_override"		"TransparentGrayDarkest"
-	}
-}
+#base "../../_tf2hud/resource/ui/hudrocketpack.res"
+#base "../../_tf2hud/resource/ui/huditemeffectmeter.res"

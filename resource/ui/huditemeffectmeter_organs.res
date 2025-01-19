@@ -1,2 +1,4 @@
-#base "huditemeffectmeter_demoman.res"
-//Organs counter
+	#base	"../../_stream/resource/ui/huditemeffectmeter_organs.res"
+	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_organs.res"
+	//#base	"../../_jofrehud/resource/ui/huditemeffectmeter_organs.res"
+	//#base	"../../_tf2hud/resource/ui/huditemeffectmeter_organs.res"

@@ -1,40 +1,33 @@
+#base "../../_jofrehud/#uni_base/filesv1/leftsidebg/main.res"
+#base "../../_jofrehud/#uni_base/filesv1/rightsidebg/main.res"
+#base "../../_tf2hud/resource/ui/hudminigame_base.res"
 "Resource/UI/HudMiniGame_Base.res"
 {
 	"LeftSideBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"r77"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
 	}
 
 	"RightSideBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"r77"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
 	}
 		
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"visible"		"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"r77"
+		"zpos"			"2"
+		"wide"			"280"
+		"tall"			"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_outline"
+		"scaleImage"	"1"	
 	}
 	
 	"BlueScore"
@@ -51,14 +44,24 @@
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"Tanlight"
 	}	
 		
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"visible"		"0"
+		"xpos"			"c-108"
+		"ypos"			"r48"
+		"zpos"			"7"
+		"wide"			"75"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"labelText"		"%bluescore%"
+		"font"			"HudFontBig"
+		"fgcolor"		"Black"
 	}	
 							
 	"RedScore"
@@ -75,14 +78,24 @@
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontBig"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"Tanlight"		
 	}	
 		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"visible"		"0"
+		"xpos"			"c39"
+		"ypos"			"r48"
+		"zpos"			"7"
+		"wide"			"75"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%redscore%"
+		"font"			"HudFontBig"
+		"fgcolor"		"Black"		
 	}	
 															
 	"PlayingTo"
@@ -98,17 +111,25 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		////		"0"
-		
+		"dulltext"		"0"
+		"brighttext"	"0"
 		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"Tanlight"
 	}	
 			
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"visible"		"0"
+		"xpos"			"cs-0.5"
+		"ypos"			"r33"
+		"zpos"			"6"
+		"wide"			"150"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/objectives_flagpanel_bg_playingto"
+		"scaleImage"	"1"	
 	}
 
 	"GameImage"
