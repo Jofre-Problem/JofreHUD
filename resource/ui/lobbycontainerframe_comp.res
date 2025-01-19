@@ -1,5 +1,1 @@
-	#base	"../../#users/custom/resource/ui/lobbycontainerframe_comp.res"
-	//#base	"../../_jofrehud/resource/ui/lobbycontainerframe_comp.res"
-	#base	"../../_basehud/resource/ui/lobbycontainerframe_comp.res"
-	//#base	"../../_jofrehud/_tf2fix/resource/ui/lobbycontainerframe_comp.res"
-//	//#base	"../../_tf2hud/resource/ui/lobbycontainerframe_comp.res"
+x {}

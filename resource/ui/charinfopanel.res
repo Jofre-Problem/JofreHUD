@@ -1,4 +1,4 @@
-	#base	"../../_stream/resource/ui/charinfopanel.res"
+	//#base	"../../_stream/resource/ui/charinfopanel.res"
 	//#base	"../../_jofrehud/resource/#beta/menu_reloadbutton.res"	
 	#base	"../../_jofrenew/resource/ui/charinfopanel.res"
 	//#base	"../../_jofrehud/resource/ui/charinfopanel.res"

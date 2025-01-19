@@ -1,4 +1,4 @@
-	#base	"../../_stream/resource/ui/craftingpanel.res"
+	//#base	"../../_stream/resource/ui/craftingpanel.res"
 	//#base	"../../_jofrehud/resource/#beta/menu_reloadbutton.res"
 	#base	"../../_jofrenew/resource/ui/craftingpanel.res"
 	//#base	"../../_jofrehud/resource/ui/craftingpanel.res"
