@@ -1,1 +1,0 @@
-#base "_boxrocket.res"

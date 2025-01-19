@@ -1,6 +1,0 @@
-#base "../#uni_base/filesv1/warninglabel/main.res"
-#base "../#uni_base/filesv1/warninglabel/is-label.res"
-#base "../#uni_base/filesv1/warninglabel/auto0.res"
-#base "../#uni_base/filesv1/warninglabel/pin0.res"
-#base "../#uni_base/filesv1/warninglabel/vis1.res"
-#base "../#uni_base/filesv1/warninglabel/west.res"

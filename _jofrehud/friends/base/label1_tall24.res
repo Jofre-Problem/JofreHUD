@@ -1,1 +1,0 @@
-#base "../../#uni_base/filesv1/label1/position/tall24.res"
