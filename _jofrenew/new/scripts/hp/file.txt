@@ -1,0 +1,145 @@
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
+	RunEvent TI_Bonus 0.0
+	SetVisible HealthBarOverheal 1 0.0
+	SetVisible HealthBarLowHealth 0 0.0
+	SetVisible HealthSpectatorBarBuff 1 0.0
+	SetVisible overhealthclean 1 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0	0.0	
+	RunEvent TI_Neutral 0.0
+	SetVisible HealthBarOverheal 0 0.0
+	SetVisible HealthBarLowHealth 0 0.0
+	SetVisible HealthSpectatorBarBuff 0 0.0
+	StopEvent TI_Bonus 0.0
+	SetVisible overhealthclean 0 0.0
+
+}
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
+	SetVisible HealthSpectatorBarHurt 1 0.0
+	SetVisible HealthBarLowHealth 1 0.0		
+	RunEvent TI_Death 0.0
+
+	
+	Animate PlayerStatusHealthValueLowester Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest2 Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower2 Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow2 Alpha "255" Linear 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop2a	0.0 //normal - sub50
+	RunEvent HudHealthDyingPulseLoop3a	0.0 //normal - sub10
+	RunEvent HudHealthDyingPulseLoop4a	0.0 //normal - at 1		
+}
+
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop1a 0.0
+	StopEvent HudHealthDyingPulseLoop1b 0.0
+	SetVisible HealthSpectatorBarHurt 0 0.0
+	RunEvent TI_Neutral 0.0
+	StopEvent TI_Death 0.0
+	SetVisible HealthBarLowHealth 0 0.0		
+
+	Animate PlayerStatusHealthValueLowester Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest2 Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower2 Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow2 Alpha "0" Linear 0.0 0.0	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+event HudHealthDyingPulseLoop2a
+{
+	Animate	PlayerStatusHealthValueLower	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLower	Fgcolor "155 0 0 255" Linear 0.15 0.06
+	
+	Animate	PlayerStatusHealthValueLower2	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLower2	Fgcolor "155 0 0 255" Linear 0.15 0.06
+	
+	RunEvent HudHealthDyingPulseLoop2b	0.3
+}
+event HudHealthDyingPulseLoop3a
+{
+	Animate	PlayerStatusHealthValueLowest	Fgcolor "255 0 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLowest	Fgcolor "75 0 0 255" Linear 0.1 0.06
+	
+	Animate	PlayerStatusHealthValueLowest2	Fgcolor "255 0 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLowest2	Fgcolor "75 0 0 255" Linear 0.1 0.06
+	
+	RunEvent HudHealthDyingPulseLoop3b	0.2
+}
+event HudHealthDyingPulseLoop4a
+{
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "255 0 0 255" Linear 0.0 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "50 0 0 255" Linear 0.1 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "255 0 0 255" Linear 0.2 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "50 0 0 255" Linear 0.3 0.055
+	
+//	Animate	PlayerStatusHealthValueLowester2	Fgcolor "255 150 0 100" Linear 0.0 0.0
+	
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.0 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.0 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.0 0.17
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.12 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.13 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.14 0.0
+//	
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.2 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.2 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.2 0.17
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.32 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.33 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.34 0.0
+//	
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 12" Linear 0.1 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Position "-40 -5" Linear 0.1 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Position "-40 34" Linear 0.1 0.3
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 7" Linear 0.05 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 4" Linear 0.075 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 0" Linear 0.09 0.0
+	
+	RunEvent HudHealthDyingPulseLoop4b	0.4
+}
+
+event HudHealthDyingPulseLoop1b
+{
+	RunEvent HudHealthDyingPulseLoop1a	0.0
+}
+event HudHealthDyingPulseLoop2b
+{
+	RunEvent HudHealthDyingPulseLoop2a	0.0
+}
+event HudHealthDyingPulseLoop3b
+{
+	RunEvent HudHealthDyingPulseLoop3a	0.0
+}
+event HudHealthDyingPulseLoop4b
+{
+	RunEvent HudHealthDyingPulseLoop4a	0.0
+}
