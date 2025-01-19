@@ -278,7 +278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Product Jofre2"
 				"tall"		"12" 
 				//	"0"
 			}
@@ -288,7 +288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Product Jofre2"
 				"tall"		"12"
 				//	"0"
 			}

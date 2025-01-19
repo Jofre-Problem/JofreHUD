@@ -429,6 +429,8 @@ Scheme
 		SectionedListPanel.BrightTextColor					"White"
 		SectionedListPanel.BgColor							"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor				"Black"
+
+		// scoreboarrd bg
 		SectionedListPanel.SelectedBgColor					"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"

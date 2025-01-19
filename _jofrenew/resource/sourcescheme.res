@@ -695,7 +695,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Product Jofre2"
 				"tall"		"16"
 				"weight"	"500"
 				"underline" "1"
@@ -705,7 +705,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Product Jofre2"
 				"tall"		"17"
 				"antialias"	"1"
 			}
@@ -724,7 +724,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Product Jofre2"
 				"tall"		"12"
 			
 			}
