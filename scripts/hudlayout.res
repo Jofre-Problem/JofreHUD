@@ -11,7 +11,7 @@
 //		#base "../resource/ui/ui2/heighto_left.res"
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
-
+	#base "../_minmode/scripts/hudlayout.res"
 "j"
 {
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
@@ -76,8 +76,6 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
-"xpos_minmode""c106-62"
-	//	"ypos_minmode"	"325+28"	
 		"ypos"			"325"		
 
 		"wide"			"124"
@@ -126,20 +124,22 @@
 	}
 	"MedicIcon"
 	{
-		"ControlName"	"imagepanel"
+		"ControlName"	"ctfimagepanel"
 		"fieldName"		"MedicIcon"
-		xpos 0-700
+		xpos 0-706
 		"ypos"			"-1010"
 		"zpos"			"9"
-		"wide"			"18"
+		"wide"			"25"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"drawcolor" "green"
+	//	"drawcolor" "green"
 		"scaleImage" 1
 		paintBackground 1
 		bgcolor_override notodark
-		"image" "replay/thumbnails/hud/loadout_icon_medic"
+		"image"				"replay/thumbnails/redcorner"
+		"teambg_2"			"replay/thumbnails/redcorner"
+		"teambg_3"			"replay/thumbnails/bluecorner"
 "pin_to_sibling" "CSpectatorTargetID"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"		

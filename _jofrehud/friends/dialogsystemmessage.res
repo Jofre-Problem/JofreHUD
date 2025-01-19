@@ -1,0 +1,5 @@
+#base "base/closebutton_main.res"
+#base "base/closebutton_main2.res"
+#base "base/closebutton_autoresize0.res"
+#base "base/closebutton_west.res"
+#base "base/closebutton_def0.res"

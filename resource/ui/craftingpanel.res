@@ -240,7 +240,7 @@
 			"ypos"			"318"
 			"zpos"			"20"
 			"wide"			"100"
-			"tall"			"25"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#TF_Trial_Upgrade"

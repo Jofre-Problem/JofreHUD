@@ -21,7 +21,7 @@
 		"xpos"			"cs-0.5"
 		"xpos_minmode"	"rs1-80"
 		"ypos"			"c85"
-		"ypos_minmode"	"325+28"	
+		"ypos_minmode"	"350"	
 		"wide"			"160"
 		"tall"			"30"
 		"MeterFG"		"White"

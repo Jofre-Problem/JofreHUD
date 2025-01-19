@@ -100,7 +100,7 @@ Scheme
 		"HudFontMediumSecondary"
 		{
 			"1" { "name" "ProductSans_LoadoutIcons" "tall" "28" "yres" "1 1199" "antialias" "1" }
-			"2" { "name" "ProductSans_LoadoutIcons" "tall" "16" "wide" "500" "antialias" "1" }
+			"2" { "name" "ProductSans_LoadoutIcons" "tall" "18" "wide" "500" "antialias" "1" }
 		}
 		"HudFontMediumSecondaryD"
 		{

@@ -9,7 +9,7 @@
 #base "ui2/healthshadow.res"
 #base "ui2/hp_fallback.res"
 #base "HudPlayerHealthbase.res"
-
+#base "../../_minmode/resource/ui/hudplayerhealth.res"
 
 "x"
 {	

@@ -1,0 +1,16 @@
+// quick file that maps steam app id to game info
+"ClientGameInfo"
+{
+	// steam app id's
+	"Apps"
+	{
+		// CS:S
+		"240"
+		{
+			"gamedir"	"cstrike"
+			"icon"		""
+			"icon2"		""
+			"serverbrowsername"		"Counter-Strike: Source"
+		}
+	}
+}

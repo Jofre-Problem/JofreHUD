@@ -175,11 +175,10 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
-				"paintbackground"	"0"
-				"paintborder"		"1"
-
-				"border_default"	"TFFatLineBorder"
-				"border_armed"		"TFFatLineBorderGreenBG"
+				"paintbackground"	"1"
+				"paintborder"		"0"
+				"armedBgColor_override"		"CreditsGreen"
+				"defaultBgColor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"

@@ -1,0 +1,15 @@
+i assume you were curious about these files and found this
+this note as well is for remind me the use of this
+this is the first folder of another folder of 
+"global codes"
+in other words,
+the main objective is base everything as max as possible
+
+this folder could be named /base/ or /_base/
+im not really sure what name could i use
+
+the files are named like this
+
+(controlname)(main)
+(controlname)(code#1/#2)
+(controlname)(ypos/xpos)

@@ -1,0 +1,25 @@
+#base "../#uni_base/filesv1/builddialog/main.res"
+#base "../base/password.res"
+#base "../#uni_base/filesv1/cancelbutton/autoresize_pin.res"
+#base "../#uni_base/filesv1/cancelbutton/ctrl/btn.res"
+#base "../#uni_base/filesv1/cancelbutton/def0.res"
+#base "../#uni_base/filesv1/cancelbutton/main.res"
+#base "../#uni_base/filesv1/cancelbutton/vis1.res"
+#base "../#uni_base/filesv1/cancelbutton/enabled.res"
+#base "../#uni_base/filesv1/cancelbutton/text/center.res"
+#base "../#uni_base/filesv1/cancelbutton/tab3.res"
+#base "../#uni_base/filesv1/cancelbutton/cmd/close.res"
+#base "../#uni_base/filesv1/cancelbutton/position/x230.res"
+#base "../#uni_base/filesv1/cancelbutton/position/y140.res"
+#base "../#uni_base/filesv1/cancelbutton/position/w64.res"
+#base "../#uni_base/filesv1/cancelbutton/position/t28.res"
+#base "base/servernamelabel.res"
+"Resource/DialogServerPassword.res"
+{
+	"BuildDialog"
+	{
+		"xpos"		"353"
+		"ypos"		"586"
+		"tall"		"320"
+	}
+}
