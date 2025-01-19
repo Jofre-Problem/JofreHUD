@@ -1,7 +1,7 @@
 #base "../../_minmode/resource/ui/hudmediccharge.res"
 
-#base "../../../../cfg/jp_ui_circular.txt"
-#base "../../../../cfg/jp_ui_ammobg.txt"
+#base "../../../../../cfg/_jp_ui_circular.txt"
+#base "../../../../../cfg/_jp_ui_ammobg.txt"
 #base "hudmediccharge_base.res"
 "Resource/UI/HudAmmoWeapons.res"
 {

@@ -1,10 +1,10 @@
-#base "../../../../cfg/jp_mainmenu_spray_frame.txt"
+#base "../../../../../cfg/_jp_mainmenu_spray_frame.txt"
 #base "ui2/tank_gif.res"
 //#base "../ui3/menu_multiple.res"
 #base "../../new/ui_overrides/full-timer/file2.res"
 #base "statsummary_embedded.res"
-//#base "../../../../cfg/jp_mm_bg.txt"
-#base "../../../../cfg/jp_stat_bg.txt"
+//#base "../../../../../cfg/_jp_mm_bg.txt"
+#base "../../../../../cfg/_jp_stat_bg.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"

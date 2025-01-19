@@ -1,1 +1,1 @@
-"#base" "../../../../../../cfg/jp_hitmarker_size.txt"
+"#base" "../../../../../../../cfg/_jp_hitmarker_size.txt"

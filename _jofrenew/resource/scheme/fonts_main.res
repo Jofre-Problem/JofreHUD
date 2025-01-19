@@ -1281,6 +1281,42 @@ Scheme
 		{
 			"font" "fonts/ItemIcons.ttf"
 			"name" "ItemIcons"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}			
 		}		
 		"uber2"
 		{
@@ -1317,16 +1353,124 @@ Scheme
 		{
 			"font" "fonts/FutureRotfix.otf"
 			"name" "Future Rot"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}			
 		}					
 		"98"
 		{
 			"font" "fonts/JofreIconsMaster.otf"
 			"name" "JofreIconsRe"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}			
 		}	
 		"99"
 		{
 			"font" "fonts/CallingCode-Regular.otf"
 			"name" "Calling Code Regular"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}			
 		} 			
 		"105"
 		{
@@ -1431,6 +1575,42 @@ Scheme
 		{
 			"font" "fonts/jofreicons2.ttf"
 			"name" "jofreicons2"
+			"english" 
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF" 
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF" 
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}							
 		}		
 		
 		"61"
@@ -1509,45 +1689,12 @@ Scheme
 			"spanish"
 			{
 				"range" "0x021 0xFFFF" 
-			}
-		}
-		"contextmenug"
-		{
-			"font" "fonts/OpenSans-hudfontgiant.otf"
-			"name" "OpenSans-hudfontgiant"
-			"english" 
+			}	
+			"japanese"
 			{
 				"range" "0x021 0xFFFF" 
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF" 
-			}
-		}							
+			}			
+		}				
 		"Bot Detector Font" 
 		{
 			"font" "fonts/CustomNotoMono.ttf"
@@ -1583,7 +1730,11 @@ Scheme
 			"spanish"
 			{
 				"range" "0x021 0xFFFF" 
-			}
+			}	
+			"japanese"
+			{
+				"range" "0x021 0xFFFF" 
+			}			
 		}									
 	}
 }

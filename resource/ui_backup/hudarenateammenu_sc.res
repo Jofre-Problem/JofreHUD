@@ -1,1 +1,0 @@
-#base "hudarenateammenu.res"

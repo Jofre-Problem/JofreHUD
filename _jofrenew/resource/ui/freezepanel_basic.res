@@ -1,4 +1,4 @@
-#base "../../../../cfg/jp_freezepnl_stress.txt"
+#base "../../../../../cfg/_jp_freezepnl_stress.txt"
 //#base 	"freezepanel_basic_killername.res"
 //#base 	"hudinspectpanel.res"
 "Resource/UI/FreezePanel_Basic.res"

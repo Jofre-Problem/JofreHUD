@@ -1,1 +1,1 @@
-"#base" "../../../../../../cfg/jp_crosshair_shape.txt"
+"#base" "../../../../../../../cfg/_jp_crosshair_shape.txt"

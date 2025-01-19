@@ -1,7 +1,7 @@
-#base "../../../../cfg/jp_chat_wide.txt"
-#base "../../../../cfg/jp_chat_tall.txt"
-#base "../../../../cfg/jp_chat_xpos.txt"
-#base "../../../../cfg/jp_chat_ypos.txt"
+#base "../../../../../cfg/_jp_chat_wide.txt"
+#base "../../../../../cfg/_jp_chat_tall.txt"
+#base "../../../../../cfg/_jp_chat_xpos.txt"
+#base "../../../../../cfg/_jp_chat_ypos.txt"
 #base "_tf2hud/basechat.res"
 "Resource/UI/BaseChat.res"
 {

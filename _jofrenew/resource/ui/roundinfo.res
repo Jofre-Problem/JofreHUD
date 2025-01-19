@@ -1,4 +1,4 @@
-#base "../../../../cfg/jp_hud_radar.txt"
+#base "../../../../../cfg/_jp_hud_radar.txt"
 "Resource/UI/RoundInfo.res"
 {
 	"roundinfo"

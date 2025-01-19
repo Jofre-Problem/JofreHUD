@@ -1,4 +1,4 @@
-//#base "../../../../cfg/jp_mm_bg.txt"
+//#base "../../../../../cfg/_jp_mm_bg.txt"
 "Resource/UI/winpanel.res"
 {
 	"TFStatsSummary"

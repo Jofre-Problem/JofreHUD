@@ -3,7 +3,7 @@
 //	#base "_motd_spray.res"
 //	#base "_motd_sourcemod.res"
 //	#base "_motd_boxes.res"
-	#base "../../../../../cfg/jp_friends.txt"
+	#base "../../../../../../cfg/_jp_friends.txt"
 "x"
 {
 		"MOTD_Panel"	

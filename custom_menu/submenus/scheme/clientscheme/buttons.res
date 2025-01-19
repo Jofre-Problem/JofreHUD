@@ -76,7 +76,7 @@
 						"labeltext"				"Segoe UI"
 						"font"					"Size 14"
 						"textalignment"			"center"
-						"command"				"engine jp_scheme_font_clear; con_logfile cfg/jp_fonts_scheme.txt; echo #base ../custom/jofrehud-main/new/ui_overrides/schemes/fonts/segoe.res; con_logfile ."
+						"command"				"engine jp_scheme_font_clear; con_logfile cfg/_jp_fonts_scheme.txt; echo #base ../custom/jofrehud-main/_jofrenew/new/ui_overrides/schemes/fonts/segoe.res; con_logfile ."
 						"actionsignallevel"		"5" 
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

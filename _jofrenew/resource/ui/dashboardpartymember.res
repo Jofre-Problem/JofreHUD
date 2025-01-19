@@ -1,4 +1,4 @@
-#base "../../../../cfg/jp_mm_member.txt"
+#base "../../../../../cfg/_jp_mm_member.txt"
 #base "../fallback/dashboardpartymember.res"
 "Resource/UI/DashboardPartyMember.res"
 {
