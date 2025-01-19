@@ -38,7 +38,7 @@
 	}		
 	"TitleLabel2"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"TitleLabel2"
 		"font"			"NotoBold20"
 		"labelText"		"%text%"
@@ -49,7 +49,22 @@
 		"wide"			"p0.4"//"p0.3"
 		"tall"			"80"
 		"centerwrap"		"1"
-		"fgcolor_override"	"Notowhite"
+		"fgcolor_override"	"notowhite"
+				"fonts"
+				{
+					"0"
+					{
+						"font"	"NotoBold20" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"NotoBold14" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"NotoBold10" // TF2 Build 9
+					}
+				}		
 	}
 	//This is the most stupid
 	// weird
@@ -60,7 +75,7 @@
 	// wtf?
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"Size 14"//"EconFontSmall"
 		"labelText"		"Quit?"
@@ -73,6 +88,21 @@
 		//"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
+						"fonts"
+				{
+					"0"
+					{
+						"font"	"NotoBold20" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"NotoBold14" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"NotoBold10" // TF2 Build 9
+					}
+				}	
 	}
 		
 	"CancelButtonNew"
