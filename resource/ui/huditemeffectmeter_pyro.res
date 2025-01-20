@@ -8,4 +8,4 @@
 
 // same as huditemeffectmeter.res
 
-#base "../../_tf2hud/resource/ui/huditemeffectmeter.res"
+#base "../../z_tf2/resource/ui/huditemeffectmeter.res"

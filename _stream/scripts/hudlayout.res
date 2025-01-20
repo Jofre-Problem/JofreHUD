@@ -3,6 +3,7 @@
     HudDeathNotice
     {
         "TextFont"                                                  "blank"
+        "xpos" "999"
     }
 
     HudVoiceStatus

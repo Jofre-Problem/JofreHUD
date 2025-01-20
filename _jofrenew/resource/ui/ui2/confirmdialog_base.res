@@ -130,6 +130,7 @@
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
+
 	"ConfirmButton"
 	{
 		"visible"			"0"

@@ -12,21 +12,11 @@
 		"bgcolor_override" "0 0 0 0"
 		"keyboardinputenabled"	"0"
 	}
-	"ds_record2"
-	{
-		"ControlName"			"cexButton"
-		"xpos"					"c0"
-		"ypos"					"c100"
-		"wide" "100"
-		"labelText"				"Start Recording? Yes"
-		"command"				"exec autoexec"
-		"actionsignallevel" "1"
-	}
 	"MinVM-On"
 	{
 		"ControlName"			"cexButton"
-		"xpos"					"c0"
-		"ypos"					"c0"
+		"xpos"					"c-100"
+		"ypos"					"c90"
 		"wide" "100"
 		"labelText"				"Minmode Viewmodel: ON"
 		"command"				"tf_use_min_viewmodels 1"
@@ -34,29 +24,38 @@
 	"MinVM-Off"
 	{
 		"ControlName"			"cexButton"
-		"xpos"					"c0"
-		"ypos"					"c12"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide" "100"
 		"labelText"				"Minmode Viewmodel: OFF"
 		"command"				"tf_use_min_viewmodels 0"
+			"pin_to_sibling" "MinVM-On"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"				
 	}
 	"drawviewmodel-On"
 	{
 		"ControlName"			"Button"
-		"xpos"					"c0"
-		"ypos"					"c24"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide" "100"
 		"labelText"				"Draw Viewmodel: ON"
 		"command"				"r_drawviewmodel 1"
+			"pin_to_sibling" "MinVM-On"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"			
 	}	
 	"drawviewmodel-Off"
 	{
 		"ControlName"			"Button"
-		"xpos"					"c0"
-		"ypos"					"c36"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide" "100"
 		"labelText"				"Draw Viewmodel: OFF"
 		"command"				"r_drawviewmodel 0"
+			"pin_to_sibling" "drawviewmodel-On"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 	}	
 
 	"custombg"

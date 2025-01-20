@@ -1,0 +1,1 @@
+#base	"../ui2/confirmdialogabandonpenalty.res"

@@ -6,5 +6,5 @@
 #base "../../_jofrehud/resource/ui/base/meters/itemeffectmeter.res"
 #base "../../_jofrehud/resource/ui/base/image/itemeffecticon.res"
 
-#base "../../_tf2hud/resource/ui/hudrocketpack.res"
-#base "../../_tf2hud/resource/ui/huditemeffectmeter.res"
+#base "../../z_tf2/resource/ui/hudrocketpack.res"
+#base "../../z_tf2/resource/ui/huditemeffectmeter.res"

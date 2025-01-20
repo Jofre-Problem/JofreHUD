@@ -2,4 +2,4 @@
 //	#base 	"../../_jofrehud/resource/#beta/spec.res"
 	#base	"../../_jofrenew/resource/ui/spectatortournament.res"
 	//#base	"../../_jofrehud/resource/ui/spectatortournament.res"
-	//#base	"../../_tf2hud/resource/ui/spectatortournament.res"
+	//#base	"../../z_tf2/resource/ui/spectatortournament.res"

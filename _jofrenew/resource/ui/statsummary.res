@@ -452,21 +452,8 @@
 		"OverallRecord15Value"	{"xpos"	"9999"}
 	}
 	"TIPCustomBG"	{"xpos"	"9999"}
-	"TipImage"	{"xpos"	"9999"}
-	"TipText"	{"xpos"	"9999"}
 	"NextTipButtonCustom"	{"xpos"	"9999"}
-	"TipText"
-	{
-		"ControlName"		"Label"
-		"fieldName"			"TipText"
-		"xpos"				"9999"
-	}
-	"NextTipButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"			"NextTipButton"
-		"xpos"				"9999"
-	}
+
 	"ResetStatsButton"
 	{
 		"ControlName"		"Button"

@@ -2,4 +2,4 @@
 	//#base	"../../_jofrehud/resource/#beta/menu_reloadbutton.res"	
 	#base	"../../_jofrenew/resource/ui/charinfopanel.res"
 	//#base	"../../_jofrehud/resource/ui/charinfopanel.res"
-	//#base	"../../_tf2hud/resource/ui/charinfopanel.res"
+	//#base	"../../z_tf2/resource/ui/charinfopanel.res"

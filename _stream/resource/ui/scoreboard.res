@@ -13,7 +13,22 @@
             "enabled"                                               "0"
         }
     }
-
+    "blueplayerlist"
+    {
+        "tall"                                              "1"
+    }
+    "redplayerlist"
+    {
+        "tall"                                              "1"
+    } 
+   	"Spectators"
+    {
+        "tall"                                              "0"
+    } 
+	"SpectatorsInQueue"
+    {
+        "tall"                                              "0"
+    } 
     "scores"
     {
         "avatar_width"                                              "1"

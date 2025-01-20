@@ -1,1 +1,1 @@
-#base "confirmdialog.res"
+	#base	"confirmdialog.res"
