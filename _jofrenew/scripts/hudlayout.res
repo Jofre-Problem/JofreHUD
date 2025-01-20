@@ -14,6 +14,24 @@
 	#base "../_minmode/scripts/hudlayout.res"
 "j"
 {
+	"MainMenuOverride"
+	{
+		"ControlName"		"CHudMainMenuOverride"
+		"enabled"		"1"
+
+		"DashboardDimmer"
+		{
+			"ControlName"		"CDimmerButton"
+			"paintbackground"		"1"
+			"button_activation_type"	"1"
+			"defaultBgColor_override"	"0 0 0 150"
+			"armedBgColor_override"		"0 0 0 150"
+		}
+
+		//Enable quick menu reload
+	//	"SteamFriendsList"{}
+	//	"ResolutionSelector"{}
+	}	
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{

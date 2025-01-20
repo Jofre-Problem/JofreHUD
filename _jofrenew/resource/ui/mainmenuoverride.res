@@ -21,7 +21,25 @@
 	//	 ↑UNTOUCHED↑	//
 	//	↓MENU IMAGES↓	//
 	//////////////////////
+	MainMenuOverride
+	{
+		"fieldName"		"MainMenuOverride"
+		"visible"		"1"
+		"wide"		"f0"
+		"tall"		"480"
 
+		"DashboardDimmer"
+		{
+			"ControlName"		"CDimmerButton"
+			"paintbackground"		"1"
+			"button_activation_type"	"1"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"0 0 0 0"
+		}
+
+		"SaxxySettings"
+		{"xpos"	"9999"}
+	}
 	//Stupid piece of shit mmd
 
 	"NewMatchAnchor"
@@ -452,7 +470,7 @@
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					"fillcolor" "BlackSolid"
-					"alpha" "100"
+					"alpha" "200"
 				}
 				"logo"
 				{
@@ -550,7 +568,7 @@
 					ControlName				CExButton
 					fieldName				"DEVBTN_POSITION:X1"
 					"xpos"							"0"
-					"YPOS" "80+50"
+					"YPOS" "80+60"
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
@@ -567,6 +585,28 @@
 					Command				"engine dev_r"
 
 				}
+				"DEVBTN_POSITION:w1"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:w1"
+					"xpos"							"0"
+					"YPOS" "80+60+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"+vgui_drawtreee"
+					Command				"engine sv_cheats 1; vgui_drawtree 1"
+
+				}				
 				"DEVBTN_POSITION:X2"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -1712,8 +1752,7 @@
 
 
 
-	"MainMenuOverride"
-	{	}
+
 	"MenuColorizer"	//always on
 	{
 		"zpos"										"-101"

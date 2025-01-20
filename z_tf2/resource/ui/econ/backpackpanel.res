@@ -150,7 +150,7 @@
 			}
 			
 			"use_item_sounds"	"1"
-		}
+		} 
 	}
 	
 	"CaratLabel"
@@ -259,21 +259,8 @@
 
 	"NameFilterLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"#Store_NameFilterLabel"
-		"textAlignment"	"west"
-		"xpos"			"c+137"
-		"ypos"			"0"
-		"zpos"			"1"
 		"wide"			"90"
-		"tall"			"20"
-		//	"1"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"tall"			"0"
 	}
 
 	"NameFilterTextEntry"
@@ -542,8 +529,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"c275"
-		"ypos"			"10"
+		"xpos"			"c260"
+		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"

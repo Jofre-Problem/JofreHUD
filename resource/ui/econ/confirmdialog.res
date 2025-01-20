@@ -1,5 +1,5 @@
 	#base	"../../../_stream/resource/ui/econ/confirmdialog.res"
 	#base	"../../../_jofrenew/resource/ui/econ/confirmdialog.res"
 	#base	"../../../_jofrehud/resource/ui/econ/confirmdialog.res"
-	#base	"../../../z_tf2/resource/resource/ui/econ/confirmdialog.res"
+	#base	"../../../z_hl2/resource/ui/econ/confirmdialog.res"
 	#base	"../../../z_hl2/resource/resource/ui/econ/confirmdialog.res"	

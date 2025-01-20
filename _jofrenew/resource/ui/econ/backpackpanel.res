@@ -160,6 +160,16 @@
 		"image"			"replay/thumbnails/yakuza/menubg"	
 		"scaleImage"		"1"	
 	}		
+	"CaratLabel"
+	{
+		"xpos"			"999"
+		"visible"		"0"
+	}	
+	"ClassLabel"
+	{
+		"xpos"			"999"
+		"visible"		"0"
+	}	
 	"urlbg"
 	{
 		"ControlName"	"EditablePanel"
