@@ -520,6 +520,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"canceltool"
+		"sound_armed" "ui/buttonrollover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		

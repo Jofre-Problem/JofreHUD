@@ -241,6 +241,39 @@
 		"visible"	"1"
 		"enabled" 	"1"
 	}	
+	"TimerShit"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TimerShit"
+		"xpos"					"0"
+		"ypos"					"rs1"
+		"zpos"					"-100"
+		"wide"					"f0"
+		"tall"					"14"
+		"bgcolor_override" "Purple"
+		"scaleImage"			"1"
+
+		"NameLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"NameLabel"
+			"xpos"									"rs1"		//0
+			"ypos"									"0"
+			"wide"									"100"
+			"zpos"									"100"
+			"tall"									"14"
+			"visible"								"1"
+			"enabled"								"1"
+			"font"									"Size 16"
+			"fgcolor"								"white"
+			"textAlignment"							"east"
+			"labelText"								"SHOOT NOW!"
+			"proportionaltoparent"					"1"
+			"AllCaps"								"1"
+			"bgcolor_override" "black"
+		}
+
+	}	
 	"ViewmodelRefract"
 	{
 		"ControlName"			"ImagePanel"

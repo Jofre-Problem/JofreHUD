@@ -6,6 +6,8 @@ event HudSpyDisguiseChanged
 	Animate PlayerStatusSpyOutlineImage		Position	"c-185 c12"	Linear 0.0 0.2
 	Animate PlayerStatusSpyOutlineImage		Size		"75 75"		Linear 0.0 0.2
 
+
+	
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
@@ -21,7 +23,12 @@ event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	RunEventChild DisguiseDust StartParticle0 0.0
+	RunEventChild Mainmenuoverride DisguiseCMD 0.0	
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+event DisguiseCMD
+{
+	FireCommand 0.0 "engine tf_party_chat Disguising..."
 }
 event StopParticle0
 {

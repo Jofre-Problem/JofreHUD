@@ -1,3 +1,19 @@
+event TestStart_B
+{
+    FireCommand        0.0                "engine mat_viewportscale 0"
+    RunEvent        Test_B            0.0
+}
+
+event Test_B
+{
+    FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+    RunEvent        TestLoop_B        0.01
+}
+
+event TestLoop_B
+{
+    RunEvent    Test_B    0.00
+}
 event DashboardDimmerReload
 {
 	RunEventChild MainMenuOverride FixDimmer 0
@@ -58,8 +74,9 @@ event Engineer
     //Animate  SentryGun  Position  "c106 360"  Linear  0.0  0.0
   	Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
     Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
-
-
+	Animate TimerShit	wide  "0"  Spline  0.0  0
+	Animate TimerShit	wide  "999"  Spline  0.0  1.2
+	Animate TimerShit	wide  "0"  Spline  1.1 0.5
 
     Animate  Dispenser  Position  "c-191 360"  Linear  0.0  0.0
     Animate  TeleIn Dispenser  "999"  Spline  0.0  0.0	
@@ -84,12 +101,13 @@ event CompetitiveGame_LowerChatWindow
 }
 event CompetitiveGame_RestoreChatWindow
 {
+	RunEventChild    MainMenuOverride    TestStart_B    0.0
 	RunEvent HudHealthBonusPulseStop 0.1
 	RunEvent HudHealthDyingPulseStop 0.1
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudMedicChargedStop 0.1
   	RunEvent  Engineer  0.02
-	RunEventChild Mainmenuoverride EveryRespawn 0.0
+	RunEventChild Mainmenuoverride EveryRespawn 0.0 
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0
 }
