@@ -29,7 +29,7 @@
 		"zpos"		"500"
 		"wide"		"258"
 		"tall"		"456"
-		"border"		"blurborder"
+	//	"border"		"blurborder"
 		"bgcolor_override"	"30 30 30 100"
 
 		"SteamFriendsList"

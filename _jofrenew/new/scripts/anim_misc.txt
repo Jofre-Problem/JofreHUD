@@ -1,18 +1,26 @@
 event TestStart_B
 {
-    FireCommand        0.0                "engine mat_viewportscale 0"
+ //   FireCommand        0.0                "engine mat_viewportscale 0"
     RunEvent        Test_B            0.0
+//	SetVisible CMainTargetID 1 0.0
 }
 
 event Test_B
 {
-    FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+//	SetVisible HudItemEffectMeter 1 0.0
+//	SetVisible CMainTargetID 1 0.0
+//	SetVisible HudScopeCharge 1 0.0
+   // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
     RunEvent        TestLoop_B        0.01
 }
 
 event TestLoop_B
 {
-    RunEvent    Test_B    0.00
+    RunEvent    Test_B    0.0
+}
+event PlayMMMusic
+{
+    FireCommand 0.0 "PressButton"
 }
 event DashboardDimmerReload
 {
@@ -22,6 +30,8 @@ event DashboardDimmerReload
 event FixDimmer
 {
 	RunEventChild MMDashboard LoadDimmer 0.001
+	RuneventChild MessageRelay PlayMMMusic 0.001
+//	FireCommand 0.003 "engine hud_reloadscheme;retry"
 	FireCommand 0.003 "engine hud_reloadscheme"
 }
 
@@ -71,6 +81,8 @@ event HintMessageHide
 }
 event Engineer
 {
+
+
     //Animate  SentryGun  Position  "c106 360"  Linear  0.0  0.0
   	Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
     Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
@@ -102,11 +114,13 @@ event CompetitiveGame_LowerChatWindow
 event CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild    MainMenuOverride    TestStart_B    0.0
+//	RunEvent TestLoop_B 0.0
 	RunEvent HudHealthBonusPulseStop 0.1
 	RunEvent HudHealthDyingPulseStop 0.1
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudMedicChargedStop 0.1
   	RunEvent  Engineer  0.02
+
 	RunEventChild Mainmenuoverride EveryRespawn 0.0 
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0
@@ -190,8 +204,8 @@ event ScoreboardAnimate
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
-
-
+	SetVisible CMainTargetID 1 0.0
+	SetVisible CMainTargetID 1 0.01
 	//4plug start
 	RunEvent ScoreboardCrosshairAnimate 0.0	
 	RunEvent HealthAmmoAnimateOpen 0.0	

@@ -335,7 +335,7 @@
 		"textAlignment"	"center"
 		font		"NotoBold16"
 		"actionsignallevel"		"2"
-		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/HUD-Quick-Menu"
+		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
 		//"engine open_replaybrowser"
 				pin_to_sibling 			"Console"
 		"pin_corner_to_sibling" "0"

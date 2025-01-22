@@ -17,6 +17,8 @@
 #base "../fallback/mainmenu.res"
 "j"
 {
+
+
 		//////////////////////
 	//	 ↑UNTOUCHED↑	//
 	//	↓MENU IMAGES↓	//
@@ -156,6 +158,8 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"9999.0"
+
+			
 	"Paint"
 	{
 		"ControlName"    "CMatchHistoryEntryPanel"
@@ -423,6 +427,36 @@
 				}
 		}
 	}	
+			"HolidayIndicator"
+		{
+			"ControlName"	"CEximageButton"
+			"xpos"			"rs1"
+			"ypos"			"40"
+			"wide"			"200"
+			"tall"			"44"
+			"textalignment"	"center"
+			font "NotoBold24"
+			zpos 1000
+			"command"		"soundentry TEST.MMusic"
+			"labeltext" "Holiday: NONE"
+			"actionsignallevel" 4
+			paintBackground 1
+			"if_halloween"
+			{
+					"command" "soundentry TEST.MMusicHalloween"
+					"labeltext" "Holiday: Halloween"
+			}	
+			"if_soldier"
+			{
+					"command" "soundentry TEST.MMusicRickMay"
+					"labeltext" "Holiday: Rick May"
+			}					
+			"SubImage"
+			{
+					"fieldName" "MessageRelay"
+					"actionsignallevel" 1
+			}
+		}		
 				}
 
 

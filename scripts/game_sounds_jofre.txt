@@ -1146,6 +1146,50 @@
 	"wave"	"ui/cyoa_key_minimize.wav"
 }
 
+"TEST.MMusic"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	
+	"rndwave"	
+	{
+	"wave" "ui/gamestartup1.mp3"
+	"wave" "ui/gamestartup2.mp3"
+	"wave" "ui/gamestartup3.mp3"
+	"wave" "ui/gamestartup4.mp3"
+	"wave" "ui/gamestartup5.mp3"
+	"wave" "ui/gamestartup6.mp3"
+	"wave" "ui/gamestartup7.mp3"
+	"wave" "ui/gamestartup8.mp3"							
+	}
+
+}
+"TEST.MMusicHalloween"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	
+	"rndwave"	
+	{
+	"wave" "ui/holiday/gamestartup_halloween.mp3"						
+	}
+}
+"TEST.MMusicRickMay"
+{
+	"channel"		"CHAN_STREAM"
+	"volume"		"1"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	
+	"rndwave"	
+	{
+	"wave" "ui/holiday/gamestartup_soldier.mp3"						
+	}
+}
 "CYOA.Switch"
 {
 	"channel"		"CHAN_STATIC"

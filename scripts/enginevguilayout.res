@@ -36,9 +36,9 @@
 		"fieldName" "CConPanel"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
+		"wide"	 "0"
+		"tall"	 "0"
 		"xpos"	"0"
-		"ypos"	"200"
+		"ypos"	"400"
 	}
 }
