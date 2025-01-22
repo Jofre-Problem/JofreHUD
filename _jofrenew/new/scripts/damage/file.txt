@@ -2,6 +2,12 @@ event DamagedPlayer
 {
 	StopEvent 	DamagedPlayerMain	0.0
 	RunEvent 	DamagedPlayerMain      0.0001 //lol
+	RunEventChild Mainmenuoverride DamageCMD 0.0	
+}
+event DamageCMD
+{
+//	FireCommand 0.0 "engine tf_party_chat DAMAGE!"
+//	FireCommand 0.0 "say_team DAMAGE!"
 }
 event DamagedPlayerMain
 {

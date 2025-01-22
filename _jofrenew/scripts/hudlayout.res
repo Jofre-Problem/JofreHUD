@@ -270,7 +270,7 @@
 			"labelText"								"SHOOT NOW!"
 			"proportionaltoparent"					"1"
 			"AllCaps"								"1"
-			"bgcolor_override" "black"
+			"bgcolor_override" "0 0 0 255"
 		}
 
 	}	

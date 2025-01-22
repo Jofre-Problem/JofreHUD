@@ -101,7 +101,7 @@ event CompetitiveGame_LowerChatWindow
 }
 event CompetitiveGame_RestoreChatWindow
 {
-	RunEventChild    MainMenuOverride    TestStart_B    0.0
+//	RunEventChild    MainMenuOverride    TestStart_B    0.0
 	RunEvent HudHealthBonusPulseStop 0.1
 	RunEvent HudHealthDyingPulseStop 0.1
 	RunEvent HudLowAmmoPulseStop 0.1

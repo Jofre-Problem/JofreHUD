@@ -41,7 +41,6 @@
 		{"xpos"	"9999"}
 	}
 	//Stupid piece of shit mmd
-
 	"NewMatchAnchor"
 	{
 		"controlname"	"panel"

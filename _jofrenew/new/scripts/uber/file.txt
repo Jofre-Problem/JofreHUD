@@ -1,9 +1,12 @@
 
 event HudMedicCharged
 {
+	RunEventChild MainMenuOverride MedicCMD 20
+
 	Animate ChargeLabel xpos 55 Linear 0.0 0.0
 	RunEventChild CoolBeam StartParticle0 0.0
 	RunEventChild CoolBeam StartParticle1 0.0		
+
 	Animate	ChargeMeter 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	1_label 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	ChargeMeter1 	FgColor		"255 255 255 0"		Accel 0.0 0.0
@@ -12,6 +15,16 @@ event HudMedicCharged
 	Animate	ChargeMeter4 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 
 	RunEvent HudMedicCharged2 0.0
+}
+event MedicCMD
+{
+	FireCommand 0.0 "engine tf_party_chat UBERCHARGE!"
+	FireCommand 0.0 "say_team UBERCHARGE!"
+}
+event MedicCMD2
+{
+	FireCommand 0.0 "engine tf_party_chat USINGUBERCHARGE!"
+	FireCommand 0.0 "engine say_team USINGUBERCHARGE!"
 }
 event TIDuberFull
 {
@@ -92,6 +105,7 @@ event HudMedicChargedLoop
 
 event HudMedicChargedStop
 {
+//	RunEventChild Mainmenuoverride MedicCMD2 0.0		
 	Animate ChargeLabel xpos 58 Linear 0.0 0.0
 	RunEventChild CoolBeam StopParticle0 0.0
 	RunEventChild CoolBeam StopParticle1 0.0		
