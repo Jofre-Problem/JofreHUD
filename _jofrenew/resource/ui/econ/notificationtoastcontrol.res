@@ -37,7 +37,8 @@
 		"font"		"newicons20"
 		"textAlignment"		"center"
 		"Command"		"delete"
-
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
@@ -45,6 +46,21 @@
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"		"MainTheme"
 		"depressedFgColor_override"		"MainTheme"
+
+	"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_view"
+			"scaleImage"	"1"
+		}
 	}
 
 	"TriggerButton"
@@ -66,7 +82,8 @@
 		"font"		"newicons20"
 		"textAlignment"		"center"
 		"Command"		"trigger"
-
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
@@ -74,6 +91,21 @@
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"		"MainTheme"
 		"depressedFgColor_override"		"MainTheme"
+
+			"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_view"
+			"scaleImage"	"1"
+		}
 	}
 
 	"AcceptButton"
@@ -103,6 +135,22 @@
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"		"MainTheme"
 		"depressedFgColor_override"		"MainTheme"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+			"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_view"
+			"scaleImage"	"1"
+		}
 	}
 
 	"DeclineButton"
@@ -128,5 +176,21 @@
 		"defaultFgColor_override"		"White"
 		"armedFgColor_override"		"MainTheme"
 		"depressedFgColor_override"		"MainTheme"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+			"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"2"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_view"
+			"scaleImage"	"1"
+		}
 	}
 }

@@ -1633,7 +1633,12 @@ Scheme
 		{
 			"font" "fonts/OpenSans-AlphaInvertedNEW.ttf"
 			"name" "Open Sans AlphaInvertedNEW"
-		}			
+		}
+		"wowcircles"
+		{
+			"font" "fonts/circles.ttf"
+			"name" "circles Medium"
+		}						
 		"95"
 		{
 			"font" "fonts/OpenSans-Nodash.ttf"

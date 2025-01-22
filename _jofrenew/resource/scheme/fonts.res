@@ -9,6 +9,16 @@ Scheme
 	}	
 	Fonts
 	{
+		"Circles"
+		{
+			"1"
+			{
+				"name"		"circles Medium"
+				"tall"		"64"
+				"antialias" "1"
+			}
+		}
+
 	"Default"
 		{
 			"1"

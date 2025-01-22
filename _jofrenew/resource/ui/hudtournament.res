@@ -103,7 +103,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"replay/thumbnails/panels/black"
-				"alpha"		"220"
+				"alpha"		"255"
 				"proportionaltoparent"		"1"
 
 				if_mvm
@@ -127,7 +127,7 @@
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"22"
-				"ypos"			"-1"
+				                                    "ypos"			"-1"
 				"zpos"			"4"
 				"wide"			"20"
 				"tall"			"20"
@@ -226,7 +226,477 @@
 			"enabled"		"0"
 		}
 	}
-
+	pin_panel
+	{
+			"ControlName"		"panel"
+			"wide" "0"
+			"tall" "0"
+			visible 1
+			xpos cs-0.5-24
+			ypos 11
+	}
+						"Circle1"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle1"
+						"font"			"Circles"
+						"xpos"			"49"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"A"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+						"alpha"			"255"
+						"pin_to_sibling" "pin_panel"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						
+						"Circle2"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle2"
+						"font"			"Circles"
+						"xpos"			"49"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"B"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+						"alpha"	"0"
+							"pin_to_sibling" "pin_panel"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle3"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle3"
+						"font"			"Circles"
+						"xpos"			"50"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"C"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha"	"0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle4"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle4"
+						"font"			"Circles"
+						"xpos"			"50"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"D"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha"	"0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle5"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle5"
+						"font"			"Circles"
+						"xpos"			"50"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"E"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha"	"255"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle6"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle6"
+						"font"			"Circles"
+						"xpos"			"50"
+						"ypos"			"0"
+						"zpos"			"1"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"F"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle7a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle7a"
+						"font"			"Circles"
+										"xpos"			"38"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"G"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle7b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle7b"
+						"font"			"Circles"
+										"xpos"			"62"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"V"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle8a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle8a"
+						"font"			"Circles"
+						                                        "xpos"			"38"
+						"ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"H"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle8b"	//problematic
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle8b"
+						"font"			"Circles"
+						                                        "xpos"			"65"
+						"ypos"			"-4"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"U"
+						"textAlignment"		"center"
+						"fgcolor_override" "notowhite"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle9a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle9a"
+						"font"			"Circles"
+						                                        "xpos"			"36"
+						"ypos"			"0"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"I"
+						"textAlignment"		"center"
+						"fgcolor_override" "blue"
+							"pin_to_sibling" "pin_panel"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle9b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle9b"
+						"font"			"Circles"
+						                                        "xpos"			"66"
+						                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"J"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "blue"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+						"Circle10a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle10a"
+						"font"			"Circles"
+						                                        "xpos"			"35"
+					                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"0"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"K"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "blue"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}						
+						"Circle10b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle10b"
+						"font"			"Circles"
+						                                        "xpos"			"67"
+						                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"L"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}
+						"Circle11a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle11a"
+						"font"			"Circles"
+						                                        "xpos"			"35"
+						                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"O"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+						"Circle11b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle11b"
+						"font"			"Circles"
+						                                        "xpos"			"68"
+					                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"P"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}			
+						"Circle12a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle12a"
+						"font"			"Circles"
+						                                        "xpos"			"34"
+					                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"Q"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+						"Circle12b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle12b"
+						"font"			"Circles"
+						                                        "xpos"			"68"
+					                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"R"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "0"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+						"Circle13a"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle13a"
+						"font"			"Circles"
+						                                        "xpos"			"34"
+				                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"S"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "255"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+						"Circle13b"
+						{	
+						"ControlName"		"Label"
+						"fieldName"		"Circle13b"
+						"font"			"Circles"
+						                                        "xpos"			"68"
+					                                    "ypos"			"-1"
+						"zpos"			"2"
+						"wide"			"150"
+						"tall"			"150"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"T"
+						"textAlignment"		"center"
+							"pin_to_sibling" "pin_panel"
+						"fgcolor_override" "notowhite"
+						"alpha" "255"
+						if_mvm
+							{
+								"visible"		"0"
+							}
+						}	
+	"CircleFinal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CircleFinal"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
+		"zpos"			"2"
+		"wide"			"75"
+		"tall"			"48"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"			"notowhite"
+		"alpha" "0"
+		//	"pin_to_sibling" "pin_panel"
+		if_mvm
+		{
+			"visible"		"0"
+		}	
+	}
 	"HudTournamentBLUEBG"
 	{
 		"ControlName"		"ScalableImagePanel"
