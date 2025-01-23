@@ -12,6 +12,7 @@ GlobalComboBox("Console Text", "Console Text")
 	Null
 	WindowsXP
 	Catamaran
+	ZeHUD
 }
 [Name:UI Sound Effects, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("UI Sound Effects", "UI Sound Effects")
@@ -58,6 +59,10 @@ GlobalComboBox("ANIMATIONS Move Hp Ammo", "ANIMATIONS Move Hp Ammo")
 {
 	OFF
 	ON
+}
+#if Console Text == "ZeHUD"
+{
+Copy("_4plug/resource/sourcescheme/imagine.res", "_4plug/resource/sourcescheme/!console.res");
 }
 #if Console Text == "WindowsXP"
 {
