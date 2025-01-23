@@ -166,7 +166,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" 	"CSpectatorTargetIDAnchor"
-		"xpos" 		"1"
+		"xpos" 		"150"
+		// 150
 		"ypos"		"-1109"
 		"wide"		"f0"
 		"tall" 		"0"

@@ -134,7 +134,7 @@
 				"wide"			"f0"
 				"tall"			"36"
 				"paintbackground"	"1"
-				"bgcolor_override"	"Black"
+				"bgcolor_override"	"4 4 3 255"
 			}
 
 			"tank_gif"

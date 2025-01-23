@@ -91,8 +91,8 @@ event Engineer
 	Animate TimerShit	wide  "0"  Spline  1.1 0.5
 
     Animate  Dispenser  Position  "c-191 360"  Linear  0.0  0.0
-    Animate  TeleIn Dispenser  "999"  Spline  0.0  0.0	
-    Animate  TeleIn Dispenser  "480"  Spline  0.0  0.0	
+    Animate  Dispenser wide  "999"  Spline  0.0  0.0	
+    Animate  Dispenser tall  "480"  Spline  0.0  0.0	
 
     Animate  TeleIn  Position  "0 325"  Linear  0.0  0.0
     Animate  TeleIn wide  "999"  Spline  0.0  0.0	
