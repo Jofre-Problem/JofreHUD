@@ -166,13 +166,16 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" 	"CSpectatorTargetIDAnchor"
-		"xpos" 		"100"
+		"xpos" 		"1"
 		"ypos"		"-1109"
 		"wide"		"f0"
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"
-
+							if_readymode
+							{
+								"xpos"		"-50"
+							}	
 	}
 	CSpectatorTargetID
 	{
@@ -191,6 +194,8 @@
 		"pin_to_sibling" 	"CSpectatorTargetIDAnchor"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
+
+
 	}
 	
 	CSecondaryTargetID

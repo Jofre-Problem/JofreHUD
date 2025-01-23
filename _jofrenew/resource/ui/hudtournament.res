@@ -252,10 +252,18 @@
 						"fgcolor_override" "notowhite"
 						"alpha"			"255"
 						"pin_to_sibling" "pin_panel"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						
 						"Circle2"
@@ -275,10 +283,18 @@
 						"fgcolor_override" "notowhite"
 						"alpha"	"0"
 							"pin_to_sibling" "pin_panel"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle3"
 						{	
@@ -297,10 +313,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle4"
 						{	
@@ -319,10 +343,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle5"
 						{	
@@ -341,10 +373,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"255"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle6"
 						{	
@@ -363,10 +403,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle7a"
 						{	
@@ -385,10 +433,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle7b"
 						{	
@@ -407,10 +463,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle8a"
 						{	
@@ -429,10 +493,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle8b"	//problematic
 						{	
@@ -451,10 +523,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle9a"
 						{	
@@ -473,10 +553,18 @@
 						"fgcolor_override" "notowhite"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle9b"
 						{	
@@ -495,10 +583,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}	
 						"Circle10a"
 						{	
@@ -517,10 +613,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}						
 						"Circle10b"
 						{	
@@ -539,10 +643,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}
 						"Circle11a"
 						{	
@@ -561,10 +673,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}	
 						"Circle11b"
 						{	
@@ -583,10 +703,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}			
 						"Circle12a"
 						{	
@@ -605,10 +733,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}	
 						"Circle12b"
 						{	
@@ -627,10 +763,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "0"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}	
 						"Circle13a"
 						{	
@@ -649,10 +793,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "255"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}	
 						}	
 						"Circle13b"
 						{	
@@ -671,10 +823,18 @@
 							"pin_to_sibling" "pin_panel"
 						"fgcolor_override" "notowhite"
 						"alpha" "255"
-						if_mvm
+							if_mvm
 							{
 								"visible"		"0"
 							}
+							if_competitive
+							{
+								"visible"		"0"
+							}
+							if_readymode
+							{
+								"visible"		"0"
+							}							
 						}	
 	"CircleFinal"
 	{

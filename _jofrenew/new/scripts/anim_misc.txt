@@ -120,7 +120,7 @@ event CompetitiveGame_RestoreChatWindow
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudMedicChargedStop 0.1
   	RunEvent  Engineer  0.02
-
+	Animate CSpectatorTargetID xpos 0 Linear 0.0 0.0	
 	RunEventChild Mainmenuoverride EveryRespawn 0.0 
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0
