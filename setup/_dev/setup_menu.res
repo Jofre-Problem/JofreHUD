@@ -146,7 +146,7 @@
 						"textalignment"				"west"
 						"textinsetx"				"60"
 						"useproportionalinsets"		"1"
-						"command"					"engine sixense_clear_bindings; sixense_write_bindings jp_setupmenu.txt; jp_restart"
+						"command"					"engine sixense_clear_bindings; sixense_write_bindings _jp_setupmenu.txt; gamemenucommand RestartWithNewLanguage"
 						"actionsignallevel"			"4"
 						"sound_depressed"			"UI/buttonclick.wav"
 						"sound_released"			"UI/buttonclickrelease.wav"

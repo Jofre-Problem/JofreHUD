@@ -1,0 +1,26 @@
+//Radar vmt by Village Green Preserver, https://github.com/VillageGreenPreserver/tf2-hud-radar
+//modified from https://github.com/gliptal2/tf2-hud-radar
+
+"Patch"
+{
+	include		"materials/vgui/replay/thumbnails/radar/radar_base.vmt"
+
+	insert
+	{
+		"$basetexture"		"vgui/replay/thumbnails/radar/maps/ctf_turbine"
+
+		"$alignX"			"8200" //scale the image so the distances line up, the higher the value, the less the image moves
+		"$alignY"			"3700" //seperate value for y axis, use the same value as x if the vtf is a square
+
+		"$offsetX"			"0" //offset the image, not needed if you take your screenshots at coordinates 0, 0
+		"$offsetY"			"0"
+
+		"$scale"			"[0.25 0.5]" //size of the radar image
+		"$rotate"			"0" //rotate radar image
+
+		"$layer1"			"0"
+		"$layer2"			"9999"
+		"$layer3"			"9999"
+		"$layer4"			"9999"
+	}
+}

@@ -109,11 +109,14 @@ event IntroMovieContinueBlinkStop
 }
 event CompetitiveGame_LowerChatWindow
 {
-//	Animate HudChat ypos r140 Accel 0 0
+	StopEvent	Radar		0.0
+	StopEvent	RadarLoop	0.0
+	SetVisible	roundinfo	0		0.05
 }
 event CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild    MainMenuOverride    TestStart_B    0.0
+	RunEvent	Radar	0.0
 //	RunEvent TestLoop_B 0.0
 	RunEvent HudHealthBonusPulseStop 0.1
 	RunEvent HudHealthDyingPulseStop 0.1

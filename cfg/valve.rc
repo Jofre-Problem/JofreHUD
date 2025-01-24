@@ -1,0 +1,34 @@
+// load the base configuration
+r_decal_cullsize 1
+stuffcmds
+
+
+
+
+exec "joystick.cfg"
+exec "autoexec.cfg"
+startupmenu
+sv_unlockedchapters 99
+sv_pure -1
+
+exec "hud/jofrehud.cfg"
+
+// First RUN
+alias chud_firstrun "exec hud/hud_firstrun.cfg"
+exec "_jp_hud_has_run.txt"
+chud_firstrun
+
+// Setup
+alias "jp_setup" "exec hud/jp_setup"
+exec _jp_setup_complete.txt
+jp_setup
+
+//  HOTFIX
+alias chud_hotfixrun "exec hud/hud_hotfix_1.cfg"
+exec "_jp_hud_hotfix_has_run.txt"
+chud_hotfixrun
+
+//  HOTFIX 2
+alias chud_hotfix2run "exec hud/hud_hotfix_2.cfg"
+exec "_jp_hud_hotfix2_has_run.txt"
+chud_hotfix2run

@@ -9,14 +9,14 @@ hudanimations_manifest
 	"file"		"../../../cfg/_jp_snd_vivo.txt"	
 	"file"		"../../../cfg/_jp_ex_scope.txt"	
 	"file"		"../../../cfg/_jp_anim_cartglow.txt"
-	"file"		"../../../cfg/_jp_anim_radar.txt"
 
 	"file"		"../../cfg/_jp_hitmarker.txt"	
 	"file"		"../../cfg/_jp_snd_dead.txt"	
 	"file"		"../../cfg/_jp_snd_vivo.txt"	
 	"file"		"../../cfg/_jp_ex_scope.txt"	
 	"file"		"../../cfg/_jp_anim_cartglow.txt"
-	"file"		"../../cfg/_jp_anim_radar.txt"
+	
+	"file"		"_4plug/scripts/animations/!radar.txt"
 
 
 	"file"		"_jofrenew/new/scripts/disguise/file.txt"

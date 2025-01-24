@@ -85,6 +85,20 @@ GlobalComboBox("Killfeed Position", "Killfeed Position")
 	Default
 	Left
 }
+[Name:Map Radar, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Map Radar", "Map Radar")
+{
+	Null
+	ON
+}
+#if Map Radar == "Null"
+{
+Copy("_4plug/null.res", "_4plug/scripts/animations/!radar.txt");		
+}
+#if Map Radar == "ON"
+{
+Copy("_4plug/4plug_overrides/Radar/radar_on.txt", "_4plug/scripts/animations/!radar.txt"); 			
+}
 #if Killfeed Position == "Def"
 {
 Copy("_4plug/4plug_overrides/Killfeed/Default.res", "_4plug/scripts/hudlayout/!Killfeed.res"); 			

@@ -48,3 +48,5 @@ ANIMATIONS Move Hp Ammo|OFF
 Console Text|Null
 Crosshair Hud Type|Weapon Image Crosshair
 Boss Health|Def
+Killfeed Position|Null
+Map Radar|ON
