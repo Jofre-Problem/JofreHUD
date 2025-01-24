@@ -77,11 +77,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\pomson"
+				"file"		"sprites/crosshairs"
 				"x"		"0"
 				"y"		"0"
-				"width"		"128"
-				"height"	"128"
+				"width"		"32"
+				"height"	"32"
 		}
 		"autoaim"
 		{

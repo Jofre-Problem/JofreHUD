@@ -1,3 +1,4 @@
+#base "../_4plug/resource/sourcescheme/!color.res"
 #base "../_4plug/resource/sourcescheme/!console.res"
 // where to put it?
 #base "../_jofrenew/resource/sourcescheme.res"

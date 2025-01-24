@@ -38,7 +38,7 @@ Menu Timer|Enabled (00-00-00)
 Class Model Background|Disabled
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
-UI Sound Effects|Xhud-Niterux
+UI Sound Effects|Half-Life
 Sound Manifest|Default
 Surface Manifest|Default
 Particle Manifest|Default
@@ -46,7 +46,8 @@ ANIMATIONS > Show Health Ammo on Spec|OFF
 ANIMATIONS Show Health Ammo on Spec|OFF
 ANIMATIONS Move Hp Ammo|OFF
 Console Text|Null
-Crosshair Hud Type|Weapon Image Crosshair
+Crosshair Hud Type|TF2 Default
 Boss Health|Def
 Killfeed Position|Null
 Map Radar|ON
+sourcescheme Color|Def

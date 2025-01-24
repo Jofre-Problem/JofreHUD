@@ -177,7 +177,7 @@
 		"tall""15"
 		"font""NewIcons12"
 		"textAlignment""west"
-		"command""engine con_enable 1; showconsole;exec clear2; version;status "
+		"command""engine con_enable 1; showconsole;exec hud/clear2; version;status "
 		"proportionaltoparent""1"
 		"labeltext""ý"
 		"mouseinputenabled""1"

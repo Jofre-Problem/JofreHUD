@@ -91,6 +91,35 @@ GlobalComboBox("Map Radar", "Map Radar")
 	Null
 	ON
 }
+[Name:sourcescheme Color, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("sourcescheme Color", "sourcescheme Color")
+{
+	Def
+	Windows11
+	Solar
+	MagnumHUD
+	XP
+}
+#if sourcescheme Color == "XP"
+{
+Copy("_4plug/4plug_overrides/sourcescheme/xp.res", "_4plug/resource/sourcescheme/!color.res");		
+}
+#if sourcescheme Color == "MagnumHUD"
+{
+Copy("_4plug/4plug_overrides/sourcescheme/magnum.res", "_4plug/resource/sourcescheme/!color.res");		
+}
+#if sourcescheme Color == "Def"
+{
+Copy("_4plug/null.res", "_4plug/resource/sourcescheme/!color.res");		
+}
+#if sourcescheme Color == "Windows11"
+{
+Copy("_4plug/4plug_overrides/sourcescheme/windows11.res", "_4plug/resource/sourcescheme/!color.res");		
+}
+#if sourcescheme Color == "Solar"
+{
+Copy("_4plug/4plug_overrides/sourcescheme/solar.res", "_4plug/resource/sourcescheme/!color.res");		
+}
 #if Map Radar == "Null"
 {
 Copy("_4plug/null.res", "_4plug/scripts/animations/!radar.txt");		

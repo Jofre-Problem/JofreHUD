@@ -82,13 +82,13 @@ WeaponData
 				"width"		"73"
 				"height"	"15"
 		}
-	  	"crosshair"
+		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\cannon"
-				"x"		"0"
-				"y"		"0"
-				"width"		"128"
-				"height"	"128"
+				"file"		"sprites/crosshairs"
+				"x"		"32"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
 		}
 		"autoaim"
 		{

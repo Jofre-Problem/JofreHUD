@@ -54,12 +54,12 @@ WeaponData
 
 		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\sapper"
+				"file"		"sprites/crosshairs"
 				"x"		"0"
-				"y"		"0"
-				"width"		"128"
-				"height"	"128"
-		
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
+		}
 
 		"autoaim"
 		{

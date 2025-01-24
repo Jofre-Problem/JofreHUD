@@ -1,4 +1,4 @@
-#base "../../../../../cfg/_jp_mm_bg.txt"
+#base "ui2/bgv2.res"
 "Resource/UI/CraftingPanel.res"
 {
 	"crafting_panel"
@@ -6,7 +6,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"crafting_panel"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"460"
 		"zpos"			"501"
@@ -14,9 +14,9 @@
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
 		//
-		"bgcolor_override"	"16 16 16 255"
-		"infocus_bgcolor_override" "16 16 16 255"
-		"outoffocus_bgcolor_override" "16 16 16 255"
+		"bgcolor_override"	"16 16 16 170"
+		"infocus_bgcolor_override" "16 16 16 170"
+		"outoffocus_bgcolor_override" "16 16 16 170"
 
 		"item_ypos"						"75"
 		"output_item_ypos"				"255"

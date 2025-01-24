@@ -65,11 +65,11 @@ WeaponData
 
 		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\gas"
-				"x"		"0"
-				"y"		"0"
-				"width"		"128"
-				"height"	"128"
+				"file"		"sprites/crosshairs"
+				"x"		"32"
+				"y"		"32"
+				"width"		"32"
+				"height"	"32"
 		}
 
 		"autoaim"

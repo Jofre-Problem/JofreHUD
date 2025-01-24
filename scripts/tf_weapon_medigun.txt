@@ -61,11 +61,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\medigun"
+				"file"		"sprites/crosshairs"
 				"x"		"0"
-				"y"		"0"
-				"width"		"128"
-				"height"	"128"
+				"y"		"64"
+				"width"		"32"
+				"height"	"32"
 		}
 		"autoaim"
 		{

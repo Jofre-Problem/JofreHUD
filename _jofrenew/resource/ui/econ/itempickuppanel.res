@@ -150,7 +150,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+	"ValveAreDumb"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ValveAreDumb"
+		"font"			"NotoBold10"
+		"labelText"		"Having problems getting out of this menu? Press the Enter Key on your keyboard to exit!  "
+		"textAlignment"	"east"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"16"
+		"fgcolor_override"	"notowhite"
+	}	
 	"NextButton"
 	{
 		"ControlName"		"CExButton"
@@ -202,8 +215,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c50"
-		"ypos"			"420"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
@@ -226,8 +239,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
-		"xpos"			"c-300"
-		"ypos"			"420"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"

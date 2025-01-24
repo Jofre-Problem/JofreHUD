@@ -1,21 +1,8 @@
 //#base "../../../../../cfg/_jp_mm_bg.txt"
+#base "ui2/bgv2.res"
+
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
-
-			"tank"
-			{
-				ControlName				ImagePanel
-				fieldName				"tank"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/menubg"	
-		"scaleImage"		"1"	
-	}	
 				"yline"
 	{
 		"ControlName"	"ImagePanel"

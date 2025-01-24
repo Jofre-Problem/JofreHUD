@@ -1,5 +1,5 @@
 
-
+#base "ui2/bgv2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
 
@@ -132,20 +132,7 @@
 	{
 //	"tall"	"0"
 	}	
-	"aaa"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"aaa"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/menubg"	
-		"scaleImage"		"1"	
-	}	
+
 	"cuadro"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -263,9 +250,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"16 16 16 255"
-		"infocus_bgcolor_override" "16 16 16 255"
-		"outoffocus_bgcolor_override" "16 16 16 255"
+		"bgcolor_override"	"16 16 16 150"
+		"infocus_bgcolor_override" "16 16 16 150"
+		"outoffocus_bgcolor_override" "16 16 16 150"
 		
 		"item_xpos_offcenter_a"	"-315"//"-420"
 		"item_xpos_offcenter_b"	"175"//"280"

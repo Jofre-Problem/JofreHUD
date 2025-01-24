@@ -57,13 +57,14 @@ WeaponData
 				"width"		"73"
 				"height"	"15"
 		}
+
 		"crosshair"
 		{
-				"file"		"vgui\replay\thumbnails\sandvich"
+				"file"		"sprites/crosshairs"
 				"x"		"0"
-				"y"		"0"
-				"width"		"128"
-				"height"	"128"
+				"y"		"48"
+				"width"		"24"
+				"height"	"24"
 		}
 
 		"autoaim"
