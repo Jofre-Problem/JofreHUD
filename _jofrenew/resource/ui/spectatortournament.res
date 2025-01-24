@@ -1,5 +1,6 @@
 
 #base "../../../../cfg/_jp_custom_resolution.txt"
+#base "../../../cfg/_jp_custom_resolution.txt"
 #base 	"spectator_main.res"
 "Resource/UI/SpectatorTournament.res"
 {

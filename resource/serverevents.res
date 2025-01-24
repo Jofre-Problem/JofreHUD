@@ -1,4 +1,6 @@
 		#base "../../../cfg/_jp_events_specgui.txt"
+				#base "../../cfg/_jp_events_specgui.txt"
+						#base "../../../../cfg/_jp_events_specgui.txt"
 "engineevents"
 {
 //////////////////////////////////////////////////////////////////////

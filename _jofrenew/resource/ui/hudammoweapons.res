@@ -2,6 +2,9 @@
 #base "../../../../../cfg/_jp_ui_circular.txt"
 #base "../../../../../cfg/_jp_ui_ammobg.txt"
 
+#base "../../../../cfg/_jp_custom_ammo_progressbar.txt"
+#base "../../../../cfg/_jp_ui_circular.txt"
+#base "../../../../cfg/_jp_ui_ammobg.txt"
 
 #base "hudammoweaponsbase.res"
 

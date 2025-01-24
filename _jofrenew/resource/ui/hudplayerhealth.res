@@ -4,7 +4,12 @@
 #base "../../../../../cfg/_jp_custom_hp_speed.txt"
 #base "../../../../../cfg/_jp_custom_hp_progressbar.txt"
 //#base "../../../../../cfg/_jp_custom_hp_speed.txt"
-
+#base "../../../../cfg/_jp_ui_hpcirculo.txt"
+#base "../../../../cfg/_jp_ui_ammobg.txt"
+#base "../../../../cfg/_jp_custom_resolution.txt"
+#base "../../../../cfg/_jp_custom_hp_speed.txt"
+#base "../../../../cfg/_jp_custom_hp_progressbar.txt"
+//#base "../../../../../cfg/_jp_custom_hp_speed.txt"
 //fallback
 #base "ui2/healthshadow.res"
 #base "ui2/hp_fallback.res"

@@ -6,6 +6,14 @@
 #base "../../../../../cfg/_jp_chat_shadow.txt"
 #base "../../../../../cfg/_jp_chat_outline.txt"
 #base "../../../../../cfg/_jp_chat_scrollbar_wide.txt"
+
+#base "../../../../cfg/_jp_chat_size.txt"
+#base "../../../../cfg/_jp_chat_color.txt"
+#base "../../../../cfg/_jp_chat_shadow.txt"
+#base "../../../../cfg/_jp_chat_outline.txt"
+#base "../../../../cfg/_jp_chat_scrollbar_wide.txt"
+
+
 #base "fallback/chatscheme.res"	// in case user didnt set nothing
 
 

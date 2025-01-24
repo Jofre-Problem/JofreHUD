@@ -4,6 +4,12 @@
 #base "../../../../../cfg/_jp_fonts_scheme.txt"		// font default tf2 stuff uses
 #base "../../../../../cfg/_jp_custom_hp_scheme.txt"	// dark and bright color
 #base "../../../../../cfg/_jp_ex_square.txt"
+
+#base "../../../../cfg/_jp_fonts_scheme.txt"		// font default tf2 stuff uses
+#base "../../../../cfg/_jp_custom_hp_scheme.txt"	// dark and bright color
+#base "../../../../cfg/_jp_ex_square.txt"
+
+
 #base "../../customization/colors/user_colors.res"
 #base "../../customization/colors/custom_colors.res"
 

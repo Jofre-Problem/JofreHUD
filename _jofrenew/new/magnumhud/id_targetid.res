@@ -1,4 +1,6 @@
 #base "../../../../../cfg/_jp_custom_resolution.txt"
+
+#base "../../../../cfg/_jp_custom_resolution.txt"
 "Resource/UI/TargetID.res"
 {
 	"TargetIDBG"

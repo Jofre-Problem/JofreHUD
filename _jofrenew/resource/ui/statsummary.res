@@ -5,6 +5,10 @@
 #base "statsummary_embedded.res"
 //#base "../../../../../cfg/_jp_mm_bg.txt"
 #base "../../../../../cfg/_jp_stat_bg.txt"
+
+
+#base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
+#base "../../../../cfg/_jp_stat_bg.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"

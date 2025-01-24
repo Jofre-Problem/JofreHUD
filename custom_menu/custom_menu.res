@@ -1,4 +1,6 @@
 #base "../../../../cfg/_jp_custom_submenu.txt"
+#base "../../../cfg/_jp_custom_submenu.txt"
+#base "../../cfg/_jp_custom_submenu.txt"
 #base "info_text.res"
 #base "sidebar.res"
 

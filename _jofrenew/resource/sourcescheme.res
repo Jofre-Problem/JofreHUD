@@ -4,6 +4,9 @@
 #base "../../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
 #base "../../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
 //#base "../new/resource/cs_windows.res"
+#base "../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
+#base "../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
+//#base "../new/resource/cs_windows.res"
 
 #base "fallback/sourcescheme.res"	// in case user didnt set nothing
 #base "sourceschemebase.res"	// in case user didnt set nothing

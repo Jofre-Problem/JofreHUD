@@ -7,6 +7,21 @@
 	#base "../../../../cfg/_jp_sniperchar_hudlayout.txt"
 	#base "../../../../cfg/_jp_tviewmodel.txt"
 	#base "../../../../cfg/_jp_sniperchar.txt"
+
+
+
+
+	#base "../../../cfg/_jp_awsd_hudlayout.txt"
+	#base "../../../cfg/_jp_hud_radar.txt"		
+	#base "../../../cfg/_jp_speed_style.txt"
+//	#base "../../../../cfg/_jp_id_hudlayout.txt"
+	#base "../../../cfg/_jp_damage_indicator.txt"
+	#base "../../../cfg/_jp_sniperchar_hudlayout.txt"
+	#base "../../../cfg/_jp_tviewmodel.txt"
+	#base "../../../cfg/_jp_sniperchar.txt"
+
+
+	
 //		#base "../resource/ui/ui2/position.res"
 //		#base "../resource/ui/ui2/heighto_left.res"
 	#base "../resource/fallback/targetid.res"

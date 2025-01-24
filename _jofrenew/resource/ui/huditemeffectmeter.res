@@ -1,4 +1,5 @@
 #base "../../../../../cfg/_jp_ui_ammobg.txt"
+#base "../../../../cfg/_jp_ui_ammobg.txt"
 #base "ui2/modulate_team.res"
 
 "Resource/UI/HudItemEffectMeter_base.res"

@@ -1,1 +1,4 @@
 #base "../../../../../../cfg/_jp_setupwarning.txt"
+#base "../../../../../cfg/_jp_setupwarning.txt"
+#base "../../../../cfg/_jp_setupwarning.txt"
+#base "../../../cfg/_jp_setupwarning.txt"
