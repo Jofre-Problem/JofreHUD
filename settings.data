@@ -66,6 +66,13 @@ GlobalComboBox("Crosshair Hud Type", "Crosshair Hud Type")
 	TF2 Default
 	Weapon Image Crosshair
 }
+[Name:Boss Health, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Boss Health", "Boss Health")
+{
+	Def
+	ToonHUD
+	Smaller
+}
 #if Console Text == "ZeHUD"
 {
 Copy("_4plug/resource/sourcescheme/imagine.res", "_4plug/resource/sourcescheme/!console.res");
@@ -178,7 +185,21 @@ Copy("sound/4plug/magnum_button2.wav", "sound/ui/buttonclickrelease.wav");
 Copy("sound/4plug/magnum_button.wav", "sound/ui/hl1-buttonclick.wav");
 Copy("sound/4plug/magnum_button2.wav", "sound/ui/hl1-buttonclickrelease.wav");
 }
-
+#if Boss Health == "Def"
+{
+Copy("_4plug/null.res", "_4plug/scripts/hudlayout/!script_bosshp.res"); 		
+Copy("_4plug/null.res", "_4plug/resource/ui/bosshealth/!ui_bosshp.res"); 		
+}
+#if Boss Health == "Smaller"
+{
+Copy("_4plug/4plug_overrides/BossHealth/layout_small.res", "_4plug/scripts/hudlayout/!script_bosshp.res"); 		
+Copy("_4plug/4plug_overrides/BossHealth/ui_smaller.res", "_4plug/resource/ui/bosshealth/!ui_bosshp.res"); 		
+}
+#if Boss Health == "ToonHUD"
+{
+Copy("_4plug/4plug_overrides/BossHealth/layout_toon.res", "_4plug/scripts/hudlayout/!script_bosshp.res"); 		
+Copy("_4plug/4plug_overrides/BossHealth/ui_toonhud.res", "_4plug/resource/ui/bosshealth/!ui_bosshp.res"); 		
+}
 #if Crosshair Hud Type == "TF2 Default"
 {
 	Copy("4plug_overrides/_empty_/empty.cfg", "cfg/hud_cfg/garmenhud_autoexec.cfg");		
@@ -268,7 +289,7 @@ Copy("sound/4plug/magnum_button2.wav", "sound/ui/hl1-buttonclickrelease.wav");
 {
 	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher/WeaponCrossLayout.res", "_4plug/scripts/!crosshair.res"); 		
 
-	
+
 	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat.txt", "scripts/tf_weapon_bat.txt");
 	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat_fish.txt", "scripts/tf_weapon_bat_fish.txt");	
 	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat_giftwrap.txt", "scripts/tf_weapon_bat_giftwrap.txt");		

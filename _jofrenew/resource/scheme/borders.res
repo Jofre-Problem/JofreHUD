@@ -2,6 +2,65 @@ Scheme
 {
 	Borders
 	{
+		G_TargetBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "2 2"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 2"
+				}
+			}
+		}			
 		MM_BUTTON_ADDITIVE
 		{
 			"bordertype"			"scalable_image"

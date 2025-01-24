@@ -1,5 +1,5 @@
-	x
-	{
+"Resource/HudLayout.res"
+{
 	HudCrosshair
 	{
 		"fieldName" "HudCrosshair"
@@ -10,4 +10,4 @@
 		"xpos" "-320"
 		"ypos" "r316"	
 	}
-    }
+}
