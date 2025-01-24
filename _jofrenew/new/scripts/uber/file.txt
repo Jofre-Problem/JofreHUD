@@ -1,8 +1,7 @@
 
 event HudMedicCharged
 {
-	RunEventChild MainMenuOverride MedicCMD 20
-
+//	RunEventChild MainMenuOverride MedicCMD 0
 	Animate ChargeLabel xpos 55 Linear 0.0 0.0
 	RunEventChild CoolBeam StartParticle0 0.0
 	RunEventChild CoolBeam StartParticle1 0.0		
@@ -22,7 +21,8 @@ event MedicCMD
 	FireCommand 0.0 "say_team UBERCHARGE!"
 }
 event MedicCMD2
-{
+
+{	FireCommand 0 "echo HI"
 	FireCommand 0.0 "engine tf_party_chat USINGUBERCHARGE!"
 	FireCommand 0.0 "engine say_team USINGUBERCHARGE!"
 }

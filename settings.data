@@ -60,6 +60,12 @@ GlobalComboBox("ANIMATIONS Move Hp Ammo", "ANIMATIONS Move Hp Ammo")
 	OFF
 	ON
 }
+[Name:Crosshair Hud Type, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
+GlobalComboBox("Crosshair Hud Type", "Crosshair Hud Type")
+{
+	TF2 Default
+	Weapon Image Crosshair
+}
 #if Console Text == "ZeHUD"
 {
 Copy("_4plug/resource/sourcescheme/imagine.res", "_4plug/resource/sourcescheme/!console.res");
@@ -171,4 +177,175 @@ Copy("sound/4plug/magnum_button2.wav", "sound/ui/buttonclickrelease.wav");
 {
 Copy("sound/4plug/magnum_button.wav", "sound/ui/hl1-buttonclick.wav");
 Copy("sound/4plug/magnum_button2.wav", "sound/ui/hl1-buttonclickrelease.wav");
+}
+
+#if Crosshair Hud Type == "TF2 Default"
+{
+	Copy("4plug_overrides/_empty_/empty.cfg", "cfg/hud_cfg/garmenhud_autoexec.cfg");		
+	Copy("_4plug/null.res", "_4plug/scripts/!crosshair.res"); 		
+	
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bat.txt", "scripts/tf_weapon_bat.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bat_fish.txt", "scripts/tf_weapon_bat_fish.txt");	
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bat_giftwrap.txt", "scripts/tf_weapon_bat_giftwrap.txt");		
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bat_wood.txt", "scripts/tf_weapon_bat_wood.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bonesaw.txt", "scripts/tf_weapon_bonesaw.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_bottle.txt", "scripts/tf_weapon_bottle.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_breakable_sign.txt", "scripts/tf_weapon_breakable_sign.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_buff_item.txt", "scripts/tf_weapon_buff_item.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_builder.txt", "scripts/tf_weapon_builder.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_cannon.txt", "scripts/tf_weapon_cannon.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_charged_smg.txt", "scripts/tf_weapon_charged_smg.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_cleaver.txt", "scripts/tf_weapon_cleaver.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_club.txt", "scripts/tf_weapon_club.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_compound_bow.txt", "scripts/tf_weapon_compound_bow.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_crossbow.txt", "scripts/tf_weapon_crossbow.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_drg_pomson.txt", "scripts/tf_weapon_drg_pomson.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_fireaxe.txt", "scripts/tf_weapon_fireaxe.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_fists.txt", "scripts/tf_weapon_fists.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_flamethrower.txt", "scripts/tf_weapon_flamethrower.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_flaregun.txt", "scripts/tf_weapon_flaregun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_flaregun_revenge.txt", "scripts/tf_weapon_flaregun_revenge.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_grapplinghook.txt", "scripts/tf_weapon_grapplinghook.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_grenadelauncher.txt", "scripts/tf_weapon_grenadelauncher.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_handgun_scout_primary.txt", "scripts/tf_weapon_handgun_scout_primary.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_handgun_scout_secondary.txt", "scripts/tf_weapon_handgun_scout_secondary.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_invis.txt", "scripts/tf_weapon_invis.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_jar.txt", "scripts/tf_weapon_jar.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_jar_gas.txt", "scripts/tf_weapon_jar_gas.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_jar_milk.txt",	 "scripts/tf_weapon_jar_milk.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_katana.txt",	"scripts/tf_weapon_katana.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_knife.txt", "scripts/tf_weapon_knife.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_laser_pointer.txt", "scripts/tf_weapon_laser_pointer.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_lunchbox.txt", "scripts/tf_weapon_lunchbox.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_lunchbox_drink.txt", "scripts/tf_weapon_lunchbox_drink.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_mechanical_arm.txt", "scripts/tf_weapon_mechanical_arm.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_medigun.txt", "scripts/tf_weapon_medigun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_minigun.txt", "scripts/tf_weapon_minigun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_objectselection.txt", "scripts/tf_weapon_objectselection.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_parachute.txt", "scripts/tf_weapon_parachute.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_parachute_primary.txt", "scripts/tf_weapon_parachute_primary.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_parachute_secondary.txt", "scripts/tf_weapon_parachute_secondary.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_particle_cannon.txt", "scripts/tf_weapon_particle_cannon.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_passtime_gun.txt", "scripts/tf_weapon_passtime_gun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pda_engineer_build.txt", "scripts/tf_weapon_pda_engineer_build.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pda_engineer_destroy.txt", "scripts/tf_weapon_pda_engineer_destroy.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pda_spy.txt", "scripts/tf_weapon_pda_spy.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pep_brawler_blaster.txt", "scripts/tf_weapon_pep_brawler_blaster.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pipebomblauncher.txt", "scripts/tf_weapon_pipebomblauncher.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pistol.txt", "scripts/tf_weapon_pistol.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_pistol_scout.txt", "scripts/tf_weapon_pistol_scout.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_raygun.txt", "scripts/tf_weapon_raygun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_revolver.txt", "scripts/tf_weapon_revolver.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_robot_arm.txt", "scripts/tf_weapon_robot_arm.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_rocketlauncher.txt", "scripts/tf_weapon_rocketlauncher.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_rocketlauncher_airstrike.txt", "scripts/tf_weapon_rocketlauncher_airstrike.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_rocketlauncher_directhit.txt", "scripts/tf_weapon_rocketlauncher_directhit.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_rocketlauncher_fireball.txt", "scripts/tf_weapon_rocketlauncher_fireball.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_rocketpack.txt", "scripts/tf_weapon_rocketpack.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sapper.txt", "scripts/tf_weapon_sapper.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_scattergun.txt", "scripts/tf_weapon_scattergun.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sentry_revenge.txt", "scripts/tf_weapon_sentry_revenge.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_building_rescue.txt", "scripts/tf_weapon_shotgun_building_rescue.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_hwg.txt", "scripts/tf_weapon_shotgun_hwg.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_primary.txt", "scripts/tf_weapon_shotgun_primary.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_pyro.txt", "scripts/tf_weapon_shotgun_pyro.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_soldier.txt", "scripts/tf_weapon_shotgun_soldier.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shotgun_soldier.txt", "scripts/tf_weapon_shotgun_soldier.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_shovel.txt", "scripts/tf_weapon_shovel.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_slap.txt", "scripts/tf_weapon_slap.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_smg.txt", "scripts/tf_weapon_smg.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sniperrifle.txt", "scripts/tf_weapon_sniperrifle.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sniperrifle_classic.txt", "scripts/tf_weapon_sniperrifle_classic.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sniperrifle_decap.txt", "scripts/tf_weapon_sniperrifle_decap.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_soda_popper.txt", "scripts/tf_weapon_soda_popper.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_spellbook.txt", "scripts/tf_weapon_spellbook.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_stickbomb.txt", "scripts/tf_weapon_stickbomb.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_sword.txt", "scripts/tf_weapon_sword.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_syringegun_medic.txt", "scripts/tf_weapon_syringegun_medic.txt");
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher\DefScript/tf_weapon_wrench.txt", "scripts/tf_weapon_wrench.txt");	
+}
+#if Crosshair Hud Type == "Weapon Image Crosshair"
+{
+	Copy("_4plug/4plug_overrides/WeaponCrosshairSwitcher/WeaponCrossLayout.res", "_4plug/scripts/!crosshair.res"); 		
+
+	
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat.txt", "scripts/tf_weapon_bat.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat_fish.txt", "scripts/tf_weapon_bat_fish.txt");	
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat_giftwrap.txt", "scripts/tf_weapon_bat_giftwrap.txt");		
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bat_wood.txt", "scripts/tf_weapon_bat_wood.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bonesaw.txt", "scripts/tf_weapon_bonesaw.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_bottle.txt", "scripts/tf_weapon_bottle.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_breakable_sign.txt", "scripts/tf_weapon_breakable_sign.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_buff_item.txt", "scripts/tf_weapon_buff_item.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_builder.txt", "scripts/tf_weapon_builder.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_cannon.txt", "scripts/tf_weapon_cannon.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_charged_smg.txt", "scripts/tf_weapon_charged_smg.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_cleaver.txt", "scripts/tf_weapon_cleaver.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_club.txt", "scripts/tf_weapon_club.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_compound_bow.txt", "scripts/tf_weapon_compound_bow.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_crossbow.txt", "scripts/tf_weapon_crossbow.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_drg_pomson.txt", "scripts/tf_weapon_drg_pomson.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_fireaxe.txt", "scripts/tf_weapon_fireaxe.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_fists.txt", "scripts/tf_weapon_fists.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_flamethrower.txt", "scripts/tf_weapon_flamethrower.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_flaregun.txt", "scripts/tf_weapon_flaregun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_flaregun_revenge.txt", "scripts/tf_weapon_flaregun_revenge.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_grapplinghook.txt", "scripts/tf_weapon_grapplinghook.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_grenadelauncher.txt", "scripts/tf_weapon_grenadelauncher.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_handgun_scout_primary.txt", "scripts/tf_weapon_handgun_scout_primary.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_handgun_scout_secondary.txt", "scripts/tf_weapon_handgun_scout_secondary.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_invis.txt", "scripts/tf_weapon_invis.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_jar.txt", "scripts/tf_weapon_jar.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_jar_gas.txt", "scripts/tf_weapon_jar_gas.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_jar_milk.txt",	 "scripts/tf_weapon_jar_milk.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_katana.txt",	"scripts/tf_weapon_katana.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_knife.txt", "scripts/tf_weapon_knife.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_laser_pointer.txt", "scripts/tf_weapon_laser_pointer.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_lunchbox.txt", "scripts/tf_weapon_lunchbox.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_lunchbox_drink.txt", "scripts/tf_weapon_lunchbox_drink.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_mechanical_arm.txt", "scripts/tf_weapon_mechanical_arm.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_medigun.txt", "scripts/tf_weapon_medigun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_minigun.txt", "scripts/tf_weapon_minigun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_objectselection.txt", "scripts/tf_weapon_objectselection.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_parachute.txt", "scripts/tf_weapon_parachute.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_parachute_primary.txt", "scripts/tf_weapon_parachute_primary.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_parachute_secondary.txt", "scripts/tf_weapon_parachute_secondary.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_particle_cannon.txt", "scripts/tf_weapon_particle_cannon.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_passtime_gun.txt", "scripts/tf_weapon_passtime_gun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pda_engineer_build.txt", "scripts/tf_weapon_pda_engineer_build.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pda_engineer_destroy.txt", "scripts/tf_weapon_pda_engineer_destroy.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pda_spy.txt", "scripts/tf_weapon_pda_spy.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pep_brawler_blaster.txt", "scripts/tf_weapon_pep_brawler_blaster.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pipebomblauncher.txt", "scripts/tf_weapon_pipebomblauncher.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pistol.txt", "scripts/tf_weapon_pistol.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_pistol_scout.txt", "scripts/tf_weapon_pistol_scout.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_raygun.txt", "scripts/tf_weapon_raygun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_revolver.txt", "scripts/tf_weapon_revolver.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_robot_arm.txt", "scripts/tf_weapon_robot_arm.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_rocketlauncher.txt", "scripts/tf_weapon_rocketlauncher.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_rocketlauncher_airstrike.txt", "scripts/tf_weapon_rocketlauncher_airstrike.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_rocketlauncher_directhit.txt", "scripts/tf_weapon_rocketlauncher_directhit.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_rocketlauncher_fireball.txt", "scripts/tf_weapon_rocketlauncher_fireball.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_rocketpack.txt", "scripts/tf_weapon_rocketpack.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sapper.txt", "scripts/tf_weapon_sapper.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_scattergun.txt", "scripts/tf_weapon_scattergun.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sentry_revenge.txt", "scripts/tf_weapon_sentry_revenge.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_building_rescue.txt", "scripts/tf_weapon_shotgun_building_rescue.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_hwg.txt", "scripts/tf_weapon_shotgun_hwg.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_primary.txt", "scripts/tf_weapon_shotgun_primary.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_pyro.txt", "scripts/tf_weapon_shotgun_pyro.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_soldier.txt", "scripts/tf_weapon_shotgun_soldier.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shotgun_soldier.txt", "scripts/tf_weapon_shotgun_soldier.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_shovel.txt", "scripts/tf_weapon_shovel.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_slap.txt", "scripts/tf_weapon_slap.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_smg.txt", "scripts/tf_weapon_smg.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sniperrifle.txt", "scripts/tf_weapon_sniperrifle.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sniperrifle_classic.txt", "scripts/tf_weapon_sniperrifle_classic.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sniperrifle_decap.txt", "scripts/tf_weapon_sniperrifle_decap.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_soda_popper.txt", "scripts/tf_weapon_soda_popper.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_spellbook.txt", "scripts/tf_weapon_spellbook.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_stickbomb.txt", "scripts/tf_weapon_stickbomb.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_sword.txt", "scripts/tf_weapon_sword.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_syringegun_medic.txt", "scripts/tf_weapon_syringegun_medic.txt");
+	Copy("_4plug/4plug_overrides\WeaponCrosshairSwitcher\WeaponScript/tf_weapon_wrench.txt", "scripts/tf_weapon_wrench.txt");	
 }
