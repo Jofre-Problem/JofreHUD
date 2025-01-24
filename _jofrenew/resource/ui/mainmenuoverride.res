@@ -12,7 +12,7 @@
 //#base ../../new/_menu1/mainmenuoverride.res 
 
 #base "../../../../cfg/_jp_mm_bg.txt"
-#base "../../../scripts/preload.res"
+#base "../../scripts/preload.res"
 #base "../../../../cfg/_jp_medal_mm.txt"
 
 #base "../../../cfg/_jp_mm_bg.txt"

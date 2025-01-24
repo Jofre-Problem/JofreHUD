@@ -2,7 +2,7 @@
 {
 
 	"RadarPreload"
-	{
+	{ 
 		"ControlName"	"EditablePanel"
 		"wide"			"0"
 		"tall"			"0"
