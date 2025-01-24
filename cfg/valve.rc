@@ -7,10 +7,12 @@ stuffcmds
 
 exec "joystick.cfg"
 exec "autoexec.cfg"
+
 startupmenu
 sv_unlockedchapters 99
 sv_pure -1
-
+echo [JOFREHUD] Applied default settings
+echo [JOFREHUD] Applying HUD settings...
 exec "hud/jofrehud.cfg"
 
 // First RUN
