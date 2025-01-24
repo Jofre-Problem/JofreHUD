@@ -25,6 +25,7 @@ GlobalComboBox("UI Sound Effects", "UI Sound Effects")
 [Name:Sound Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Sound Manifest", "Sound Manifest")
 {
+	Null
 	Default
 	No Passtime
 	No Merasmus Pauling
@@ -35,6 +36,7 @@ GlobalComboBox("Sound Manifest", "Sound Manifest")
 [Name:Surface Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Surface Manifest", "Surface Manifest")
 {
+	Null
 	Default
 	No HL2
 	Remove All
@@ -42,6 +44,7 @@ GlobalComboBox("Surface Manifest", "Surface Manifest")
 [Name:Particle Manifest, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Particle Manifest", "Particle Manifest")
 {
+	Null
 	Default
 	No Blood
 	No Rockets and others
@@ -63,15 +66,32 @@ GlobalComboBox("ANIMATIONS Move Hp Ammo", "ANIMATIONS Move Hp Ammo")
 [Name:Crosshair Hud Type, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Crosshair Hud Type", "Crosshair Hud Type")
 {
+	Null
 	TF2 Default
 	Weapon Image Crosshair
 }
 [Name:Boss Health, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Boss Health", "Boss Health")
 {
+	Null
 	Def
 	ToonHUD
 	Smaller
+}
+[Name:Killfeed Position, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+GlobalComboBox("Killfeed Position", "Killfeed Position")
+{
+	Null
+	Default
+	Left
+}
+#if Killfeed Position == "Def"
+{
+Copy("_4plug/4plug_overrides/Killfeed/Default.res", "_4plug/scripts/hudlayout/!Killfeed.res"); 			
+}
+#if Killfeed Position == "Left"
+{
+Copy("_4plug/4plug_overrides/Killfeed/left.res", "_4plug/scripts/hudlayout/!Killfeed.res"); 			
 }
 #if Console Text == "ZeHUD"
 {
