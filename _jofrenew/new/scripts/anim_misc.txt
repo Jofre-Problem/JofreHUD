@@ -18,27 +18,32 @@ event TestLoop_B
 {
     RunEvent    Test_B    0.0
 }
-event PlayMMMusic
+event DimmerFix
 {
-    FireCommand 0.0 "PressButton"
-}
-event DashboardDimmerReload
-{
-	RunEventChild MainMenuOverride FixDimmer 0
+	RunEventChild MainMenuOverride DimmerReload 0.0
 }
 
-event FixDimmer
+event DimmerReload
 {
-	RunEventChild MMDashboard LoadDimmer 0.001
-	RuneventChild MessageRelay PlayMMMusic 0.001
-//	FireCommand 0.003 "engine hud_reloadscheme;retry"
-	FireCommand 0.003 "engine hud_reloadscheme"
+	FireCommand 0.0 "engine disconnect"
+	RunEventChild MMDashboard DimmerLoad 0.0
+	RunEventChild DimmerLoad StartupMusic 0.001
+	FireCommand 0.002 "engine hud_reloadscheme;retry"
 }
 
-event LoadDimmer
+event DimmerLoad
 {
-	FireCommand 0 "dimmer_clicked"
+	FireCommand 0.0 "dimmer_clicked"
 }
+
+event StartupMusic
+{
+	FireCommand 0.0 "pressbutton"
+}
+
+
+
+
 event MvMFixer
 {
 	FireCommand 0.0 "engine mvmfix"
