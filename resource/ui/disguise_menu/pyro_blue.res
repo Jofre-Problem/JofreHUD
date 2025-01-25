@@ -1,18 +1,4 @@
-#base "scout_blue.res"
-
-"Resource/UI/disguise_menu/pyro_blue.res"
-{
-	"ClassIconLabel"
-	{
-		"labelText"		"c"
-	}
-	"NewNumberLabel"
-	{
-		"labelText"		"3"
-	}
-
-	"NumberLabel"
-	{
-		"labelText"		"3"
-	}
-}
+//	#base	"../../../_stream/resource/ui/disguise_menu/pyro_blue.res"
+	#base	"../../../_jofrenew/resource/ui/disguise_menu/pyro_blue.res"
+//	#base	"../../../_jofrehud/resource/ui/disguise_menu/pyro_blue.res"
+//	#base	"../../../_tf2hud/resource/ui/disguise_menu/pyro_blue.res"

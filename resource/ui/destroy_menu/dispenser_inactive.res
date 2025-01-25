@@ -1,9 +1,4 @@
-#base "base_inactive.res"
-
-"Resource/UI/build_menu/dispenser_inactive.res"
-{
-  "SmallBuildingIcon"
-	{
-		"icon"			"obj_status_dispenser"
-	}
-}
+//	#base	"../../../_stream/resource/ui/destroy_menu/dispenser_inactive.res"
+	#base	"../../../_jofrenew/resource/ui/destroy_menu/dispenser_inactive.res"
+//	#base	"../../../_jofrehud/resource/ui/destroy_menu/dispenser_inactive.res"
+//	#base	"../../../_tf2hud/resource/ui/destroy_menu/dispenser_inactive.res"

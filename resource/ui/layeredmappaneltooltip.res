@@ -1,4 +1,1 @@
-"Resource/UI/LayeredMapPanelToolTip.res"
-{		
-	
-}
+x {}

@@ -1,15 +1,28 @@
-// load the base configuration
-r_decal_cullsize 1
-stuffcmds
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Default commands
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Run user script files
+    exec joystick.cfg
+    exec autoexec.cfg
+
+    // Parse and stuff command line + commands to command buffer
+    stuffcmds
+
+    // Open initial menu screen and load the background bsp,
+    // but only if no other level is being loaded, and we're not in developer mode
+    startupmenu
+
+    // Not used anymore, according to mastercoms
+    // (previously was used long ago to use the CPU to scan for small decals to stop rendering)
+    // Default: 5
+    r_decal_cullsize                                                1
+
+    // Allow menu backgrounds to display randomly by unlocking all chapters
+    // Default: 1
+    sv_unlockedchapters
 
 
-
-
-exec "joystick.cfg"
-exec "autoexec.cfg"
-
-startupmenu
-sv_unlockedchapters 99
+    
 sv_pure -1
 echo [JOFREHUD] Applied default settings
 echo [JOFREHUD] Applying HUD settings...
