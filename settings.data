@@ -119,6 +119,20 @@ GlobalComboBox("Loading Background", "Loading Background")
 	VCRHud
 	Apple Monterrey
 }
+[Name:HudMatchStatus, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
+GlobalComboBox("HudMatchStatus", "HudMatchStatus")
+{
+	Def
+	Bottom
+}
+#if HudMatchStatus == "Bottom"
+{
+Copy("_4plug/4plug_overrides/MatchStatus/kbn_hudmatchstatus.res", "_4plug/resource/ui/HudMatchStatus/!matchstatus.res");	
+}
+#if HudMatchStatus == "Def"
+{
+Copy("_4plug/null.res", "_4plug/resource/ui/HudMatchStatus/!matchstatus.res");	
+}
 #if Loading Background == "Apple Monterrey"
 {
 Copy("_4plug/4plug_overrides/LoadingBG/mont.vtf", "materials/console/background_upward.vtf");		
