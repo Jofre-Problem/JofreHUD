@@ -78,20 +78,20 @@ GlobalComboBox("Boss Health", "Boss Health")
 	ToonHUD
 	Smaller
 }
-[Name:Killfeed Position, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+[Name:Killfeed Position, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
 GlobalComboBox("Killfeed Position", "Killfeed Position")
 {
 	Null
 	Default
 	Left
 }
-[Name:Map Radar, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+[Name:Map Radar, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
 GlobalComboBox("Map Radar", "Map Radar")
 {
 	Null
 	ON
 }
-[Name:sourcescheme Color, Default:Lower, FG:#7A5EF8, BG:#E11322, Border:0]
+[Name:sourcescheme Color, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
 GlobalComboBox("sourcescheme Color", "sourcescheme Color")
 {
 	Def
@@ -99,6 +99,69 @@ GlobalComboBox("sourcescheme Color", "sourcescheme Color")
 	Solar
 	MagnumHUD
 	XP
+}
+[Name:Loading Icon, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
+GlobalComboBox("Loading Icon", "Loading Icon")
+{
+	Def
+	Blank
+	TF2 Icon
+	DDLC
+	LoadingText
+	Booting
+
+}
+[Name:Loading Background, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
+GlobalComboBox("Loading Background", "Loading Background")
+{
+	Def
+	BudHUD
+	VCRHud
+	Apple Monterrey
+}
+#if Loading Background == "Apple Monterrey"
+{
+Copy("_4plug/4plug_overrides/LoadingBG/mont.vtf", "materials/console/background_upward.vtf");		
+Copy("_4plug/4plug_overrides/LoadingBG/mont.vtf", "materials/console/background_upward_widescreen.vtf");	
+}
+#if Loading Background == "VCRHud"
+{
+Copy("_4plug/4plug_overrides/LoadingBG/vcr.vtf", "materials/console/background_upward.vtf");		
+Copy("_4plug/4plug_overrides/LoadingBG/vcrwide.vtf", "materials/console/background_upward_widescreen.vtf");	
+}
+#if Loading Background == "Def"
+{
+Copy("_4plug/4plug_overrides/LoadingBG/def.vtf", "materials/console/background_upward.vtf");		
+Copy("_4plug/4plug_overrides/LoadingBG/defwide.vtf", "materials/console/background_upward_widescreen.vtf");	
+}
+#if Loading Background == "BudHUD"
+{
+Copy("_4plug/4plug_overrides/LoadingBG/bud.vtf", "materials/console/background_upward.vtf");		
+Copy("_4plug/4plug_overrides/LoadingBG/budwide.vtf", "materials/console/background_upward_widescreen.vtf");	
+}
+#if Loading Icon == "LoadingText"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/phouwu.vtf", "materials/console/startup_loading.vtf");		
+}
+#if Loading Icon == "Booting"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/booting.vtf", "materials/console/startup_loading.vtf");		
+}
+#if Loading Icon == "Def"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/def.vtf", "materials/console/startup_loading.vtf");		
+}
+#if Loading Icon == "Blank"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/blank.vtf", "materials/console/startup_loading.vtf");		
+}
+#if Loading Icon == "TF2 Icon"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/tf2icon.vtf", "materials/console/startup_loading.vtf");		
+}
+#if Loading Icon == "DDLC"
+{
+Copy("_4plug/4plug_overrides/LoadingImage/ddlc.vtf", "materials/console/startup_loading.vtf");		
 }
 #if sourcescheme Color == "XP"
 {

@@ -438,7 +438,38 @@ Scheme
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "2"
-		}				
+		}		
+		TanLight
+		{
+			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
+			
+            "color"	"TanLight"					
+			
+			"image"	"replay/thumbnails/panels/material_generic"	
+			
+			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
+		}
+
+		Black
+		{
+			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
+			
+            "color"	"Black"					
+			
+			"image"	"replay/thumbnails/panels/material_generic"		
+			
+			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
+		}
+		Positive
+		{
+			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
+			
+            "color"	"PositiveColor"					
+			
+			"image"	"replay/thumbnails/panels/material_generic"	
+			
+			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
+		}						
 		"GrayDialogBorder" //"replay/thumbnails/panels/misc/modal"
 		{
 			"bordertype"									"scalable_image"
@@ -451,6 +482,18 @@ Scheme
 			"draw_corner_width"								"2"
 			"draw_corner_height" 							"2"
 		}
+		"blumaterial" //"replay/thumbnails/panels/misc/modal"
+		{
+			"bordertype"									"scalable_image"
+			"backgroundtype"								"0"
+			"Color"											"blue"
+
+			"image"											"replay/thumbnails/panels/Material_Generic"
+			"src_corner_height"								"12"
+			"src_corner_width"								"12"
+			"draw_corner_width"								"2"
+			"draw_corner_height" 							"2"
+		}		
 		"ModulateRgb" //"replay/thumbnails/panels/misc/modal"
 		{
 			"bordertype"									"scalable_image"

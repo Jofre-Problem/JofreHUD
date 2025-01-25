@@ -49,5 +49,7 @@ Console Text|Null
 Crosshair Hud Type|TF2 Default
 Boss Health|Def
 Killfeed Position|Null
-Map Radar|ON
+Map Radar|Null
 sourcescheme Color|Def
+Loading Icon|Booting
+Loading Background|Apple Monterrey

@@ -46,7 +46,7 @@
 	{
 		"ControlName"			"cexlabel"
 		"fieldName"				"btnlabel2"
-		xpos 2
+		xpos rs1-2
 		"ypos"					"rs1-2"
 		labelText "o"
 		font "newicons57"
@@ -60,7 +60,7 @@
 	{
 		"ControlName"			"cexlabel"
 		"fieldName"				"btnlabel2a"
-		labelText "<"
+		labelText ">"
 		font "newicons20"
 		ypos "-1"
 		"wide"	"20"
@@ -68,7 +68,7 @@
 		"zpos"					"-8"
 		"mouseinputenabled" "0"
 		fgcolor_override "notowhite"
-		"pin_to_sibling" "btnlabel1"
+		"pin_to_sibling" "btnlabel2"
 	}				
 	"ADContainerTest"
 	{

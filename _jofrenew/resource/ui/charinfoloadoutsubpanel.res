@@ -3,42 +3,13 @@
 
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
-				"yline"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"yline"
-		"xpos"			"rs1"
-		"ypos" 			"r38"
-		"zpos"			"299"
-		"wide"			"p0.2"
-		"tall"			"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"drawcolor"	"138 255 255 255"
-				"image"			 "replay/thumbnails/menu/side_panel_gradient_right"
-		"scaleImage"		"1"			
-	}	
-				"ylinebg"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ylinebg"
-		"xpos"			"rs1"
-		"ypos" 			"rs1"
-		"zpos"			"290"
-		"wide"			"p0.2"
-		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
-		"drawcolor"	"0 0 0 180"
-				"image"			 "replay/thumbnails/menu/side_panel_shadow_right"
-		"scaleImage"		"1"	
-	}						
+		
 			"q"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"q"
 		"xpos"			"rs1-48"
-		"ypos" 			"rs1-16"
+		"ypos" 			"rs1-26"
 		"zpos"			"299"
 		"wide"			"14"
 		"tall"			"o1"
