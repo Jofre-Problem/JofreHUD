@@ -1,3 +1,4 @@
+	#base	"../../_mainstream/playlist-reappearing/matchmakingdashboardcomp.txt"
 	//#base	"../../_stream/resource/ui/matchmakingdashboardcomp.res"
 	#base	"../../_jofrenew/resource/ui/matchmakingdashboardcomp.res"
 	//#base	"../../_jofrehud/resource/ui/matchmakingdashboardcomp.res"

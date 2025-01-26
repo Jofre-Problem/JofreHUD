@@ -1,0 +1,21 @@
+"x"
+{
+	"topbar"
+	{
+		"ypos"		"r0"
+		"wide"		"0"
+		"enabled"		"0"
+	}
+	"BottomBar"
+	{
+		"ypos"		"r0"
+		"wide"		"0"
+		"enabled"		"0"
+	}
+	"bottombarblank"
+	{
+		"ypos"		"r0"
+		"wide"		"0"
+		"enabled"		"0"
+	}
+}

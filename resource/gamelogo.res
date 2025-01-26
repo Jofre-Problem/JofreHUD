@@ -1,16 +1,21 @@
+#base "../_jofrehud/resource/gamelogo.res"
+#base "../z_hl2/resource/gamelogo.res"
 "Resource/GameLogo.res"
 {
 	"GameLogo"
 	{
-		"ControlName"	"panel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"GameLogo"
-		"visible"		"0"
-	}
-
-	"Logo"
-	{
-		"ControlName"	"panel"
-		"fieldName"		"Logo"
-		"visible"		"0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"50"
+		"wide"			"400"
+		"tall"			"100"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"offsetX"		"-20"
+		"offsetY"		"-15"
 	}
 }

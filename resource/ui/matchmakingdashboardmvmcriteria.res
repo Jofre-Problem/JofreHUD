@@ -1,3 +1,4 @@
+	#base	"../../_mainstream/playlist-reappearing/matchmakingdashboardmvmcriteria.txt"
 	//#base	"../../_stream/resource/ui/matchmakingdashboardmvmcriteria.res"
 	#base	"../../_jofrenew/resource/ui/matchmakingdashboardmvmcriteria.res"
 	//#base	"../../_jofrehud/resource/ui/matchmakingdashboardmvmcriteria.res"

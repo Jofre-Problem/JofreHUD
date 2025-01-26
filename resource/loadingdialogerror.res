@@ -1,15 +1,3 @@
-#base "loadingdialog.res"
-"Resource/LoadingDialog.res"
-{
-	"InfoLabel"
-	{
-		"labelText"		"#GameUI_ParseBaseline"
-	}
-	"progress"
-	{
-	}
-
-	"Label1"
-	{
-	}
-}
+#base "../_jofrenew/resource/loadingdialogerror.res"
+#base "../_jofrehud/resource/loadingdialogerror.res"
+#base "../z_hl2/resource/loadingdialogerror.res"

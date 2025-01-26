@@ -1,0 +1,7 @@
+x
+{
+	"MVMModeSelect"
+	{
+		"visible"		"0"
+	}
+}

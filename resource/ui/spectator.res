@@ -1,3 +1,4 @@
+	#base	"../../_mainstream/spec-bar/file.txt"
 	#base	"../../_stream/resource/ui/spectator.res"
 	//#base	"../../_jofrehud/resource/#beta/spec.res"
 	#base	"../../_jofrenew/resource/ui/spectator.res"

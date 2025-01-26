@@ -1,0 +1,8 @@
+//resource/ui/econ/inspectionpanel.res
+x
+{
+	"SeedTextEntry"
+	{
+		"maxchars"		"20"
+	}
+}	
