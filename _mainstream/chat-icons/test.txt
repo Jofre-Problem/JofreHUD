@@ -1,0 +1,20 @@
+"lang"
+{
+"Language" "English"
+"Tokens"
+{		
+	"chat_say"				""
+	"chat_say_team"			"[¤]"
+        "TF_Chat_Team_Loc"				"[¤] %s1 @ %s3    %s2"
+        "TF_Chat_Team"					"000000        FFFFFF[¤] %s1 00FF00» 40FBFF%s2"
+        "TF_Chat_Team_Dead"				"000000         FFFFFFª [Team] %s1 00FF00» 40FBFF%s2"
+        "TF_Chat_Spec"					"º %s1    %s2"
+//        "TF_Chat_All"            "%s1 :  %s2"
+		"TF_Chat_All"					"000000%s1 00FF00»  FFFFFF%s2"
+        "TF_Chat_AllDead"				"000000FFFFFFª %s1 00FF00» FFFFFF%s2"
+        "TF_Chat_AllSpec"				"000000FFFFFFº %s1 00FF00» FFFFFF%s2"
+		"TF_Chat_Party"            "    ¶  "
+"game_auto_team_balance_in"		"000000FF0000Teams will be auto-balanced in %s1 seconds."
+"game_player_was_team_balanced"	"000000   00FF00%s1 FF000was moved to the other team for game balance"	
+}
+}
