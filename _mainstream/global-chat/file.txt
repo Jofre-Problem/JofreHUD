@@ -1,0 +1,8 @@
+//resource/ui/globalchat.res
+"x"
+{
+    "chatlog"
+    {
+        "pinCorner"                                                 "0"
+    }
+}

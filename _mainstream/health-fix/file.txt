@@ -1,0 +1,7 @@
+event HealthFixer
+{
+	RunEvent HudHealthBonusPulseStop 0.1
+	RunEvent HudHealthDyingPulseStop 0.1
+	RunEvent HudLowAmmoPulseStop 0.1
+	RunEvent HudMedicChargedStop 0.1
+}

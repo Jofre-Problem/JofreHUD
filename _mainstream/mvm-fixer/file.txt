@@ -1,0 +1,20 @@
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
+
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+
+	RunEventChild MainMenuOverride MvMFixer 0.0	//Fix empty MvM end screen, needs 3 entries
+	RunEventChild MainMenuOverride MvMFixer 0.0
+	RunEventChild MainMenuOverride MvMFixer 0.0
+
+	RunEvent HudTournament_ShowTimerDefault 0.0
+
+	Animate HudScope	xpos	9999	Linear 0.0 0.1 //Scope removal
+}
+
+event MvMFixer
+{
+	FireCommand 0.0 "engine mvmfix"
+}

@@ -1,3 +1,4 @@
+	#base "../_mainstream/vsh-fix/file.txt"
 	#base "../_4plug/scripts/hudlayout.res"
 	#base "../_stream/scripts/hudlayout.res"
 	#base "../_jofrenew/scripts/hudlayout.res"

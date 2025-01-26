@@ -18,36 +18,7 @@ event TestLoop_B
 {
     RunEvent    Test_B    0.0
 }
-event DimmerFix
-{
-	RunEventChild MainMenuOverride DimmerReload 0.0
-}
 
-event DimmerReload
-{
-	FireCommand 0.0 "engine disconnect"
-	RunEventChild MMDashboard DimmerLoad 0.0
-	RunEventChild DimmerLoad StartupMusic 0.001
-	FireCommand 0.002 "engine hud_reloadscheme;retry"
-}
-
-event DimmerLoad
-{
-	FireCommand 0.0 "dimmer_clicked"
-}
-
-event StartupMusic
-{
-	FireCommand 0.0 "pressbutton"
-}
-
-
-
-
-event MvMFixer
-{
-	FireCommand 0.0 "engine mvmfix"
-}
 event MapVoted
 {
 	Animate VotesLabel	ypos	30		Deaccel 0	0.05
@@ -81,8 +52,8 @@ event HintMessageHide
 {
     Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
     Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
-
- 	 RunEvent  Engineer  0.02
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0	// peach rec
+ 	RunEvent  Engineer  0.02
 }
 event Engineer
 {
@@ -107,11 +78,6 @@ event Engineer
     Animate  TeleOut wide  "999"  Spline  0.0  0.0	
     Animate  TeleOut Tall  "480"  Spline  0.0  0.0		
 }
-// Niterux intro skip
-event IntroMovieContinueBlinkStop
-{
-	FireCommand 0.0    "skip"
-}
 event CompetitiveGame_LowerChatWindow
 {
 	StopEvent	Radar		0.0
@@ -123,10 +89,7 @@ event CompetitiveGame_RestoreChatWindow
 //	RunEventChild    MainMenuOverride    TestStart_B    0.0
 	RunEvent	Radar	0.0
 //	RunEvent TestLoop_B 0.0
-	RunEvent HudHealthBonusPulseStop 0.1
-	RunEvent HudHealthDyingPulseStop 0.1
-	RunEvent HudLowAmmoPulseStop 0.1
-	RunEvent HudMedicChargedStop 0.1
+	RunEvent HealthFixer 0.0
   	RunEvent  Engineer  0.02
 	Animate CSpectatorTargetID xpos 0 Linear 0.0 0.0	
 	RunEventChild Mainmenuoverride EveryRespawn 0.0 
@@ -221,6 +184,8 @@ event HudTournamentSetupPanelOpen
 	Animate Circle13a						alpha		"255"		Linear 0.35 		0.01
 	Animate Circle13b						alpha		"255"		Linear 0.35 		0.01
 	Animate CircleFinal						alpha		"255"		Linear 0.375 		0.01
+
+	RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
 }
 
 event HudTournamentSetupPanelClose
@@ -248,6 +213,10 @@ event HudTournamentSetupPanelClose
 	Animate Circle13a						alpha		"0"			Linear 0.05 	0.01
 	Animate Circle13b						alpha		"0"			Linear 0.05 	0.01
 	Animate CircleFinal						alpha		"0"			Linear 0.025 	0.01
+
+	// PeachRec Stuff
+	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
+	RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec	
 }
 event ScoreboardAnimate
 {
@@ -468,15 +437,7 @@ event TeamStatus_PlayerAlive
 	RunEvent	TStatus_Snd_Vivo 0.0
 
 }
-event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
-{
-	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
-	//PlaySound 0.0 "weapons/det_pack_timer.wav"
-	//PlaySound 0.5 "weapons/det_pack_timer.wav"
-	//PlaySound 1.0 "weapons/det_pack_timer.wav"
-	//PlaySound 1.5 "weapons/det_pack_timer.wav"
-	//PlaySound 2.0 "weapons/det_pack_timer.wav"
-}
+
 
 event SurveyShowSequence
 {

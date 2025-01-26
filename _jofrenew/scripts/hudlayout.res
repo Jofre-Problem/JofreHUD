@@ -761,16 +761,7 @@
 		"tall"			"f0"
 	//	"pin_to_sibling"	"HudCrosshair"	 //HELL				
 	}		
-	HudArenaVsPanel 
-	{
-		"fieldName"				"HudArenaVsPanel"		
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"r260"
-		"wide"					"f0"
-		"tall"					"240"
-	}	
+
 	HudArenaNotification
 	{
 		"xpos"					"0"

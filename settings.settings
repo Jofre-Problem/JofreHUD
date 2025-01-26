@@ -38,7 +38,7 @@ Menu Timer|Enabled (00-00-00)
 Class Model Background|Disabled
 Close Caption Style|Magnum
 Hitmarkers|OFF (Default)
-UI Sound Effects|Half-Life
+UI Sound Effects|Xhud-Niterux
 Sound Manifest|Default
 Surface Manifest|Default
 Particle Manifest|Default
@@ -51,6 +51,6 @@ Boss Health|Def
 Killfeed Position|Null
 Map Radar|Null
 sourcescheme Color|Def
-Loading Icon|Booting
-Loading Background|Apple Monterrey
-HudMatchStatus|Bottom
+Loading Icon|Def
+Loading Background|Def
+HudMatchStatus|Def

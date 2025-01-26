@@ -1,0 +1,15 @@
+// avoids the VSH timer panel to go the bottom
+// fix found by EVE HUD
+x 
+{
+	HudArenaVsPanel 
+	{
+		"fieldName"				"HudArenaVsPanel"		
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"r260"
+		"wide"					"f0"
+		"tall"					"240"
+	}	
+}		

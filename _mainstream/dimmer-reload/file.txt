@@ -1,0 +1,26 @@
+//==============================================================================
+
+event DimmerFix
+{
+	RunEventChild MainMenuOverride DimmerReload 0.0
+}
+
+event DimmerReload
+{
+	FireCommand 0.0 "engine disconnect"
+	RunEventChild MMDashboard DimmerLoad 0.0
+	RunEventChild MessageRelay StartupMusic 0.001
+	FireCommand 0.002 "engine hud_reloadscheme;retry"
+}
+
+event DimmerLoad
+{
+	FireCommand 0.0 "dimmer_clicked"
+}
+
+event StartupMusic
+{
+	FireCommand 0.0 "pressbutton"
+}
+
+//==============================================================================

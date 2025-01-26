@@ -1,0 +1,9 @@
+event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
+{
+	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
+	//PlaySound 0.0 "weapons/det_pack_timer.wav"
+	//PlaySound 0.5 "weapons/det_pack_timer.wav"
+	//PlaySound 1.0 "weapons/det_pack_timer.wav"
+	//PlaySound 1.5 "weapons/det_pack_timer.wav"
+	//PlaySound 2.0 "weapons/det_pack_timer.wav"
+}
