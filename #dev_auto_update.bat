@@ -5,18 +5,18 @@
 setlocal ENABLEDELAYEDEXPANSION
 TITLE Extracting Default TF2 HUD Files
 
-SET "defaultz_root_folder=z_root"
+SET "default^root_folder=^root"
 SET "current_folder=%cd%"
-SET "scheme_folder=z_root\resource"
-SET "classes_folder=z_root\classes"
-SET "script_folder=z_root\scripts"
-SET "resource_folder=z_root\resource\ui"
+SET "scheme_folder=^root\resource"
+SET "classes_folder=^root\classes"
+SET "script_folder=^root\scripts"
+SET "resource_folder=^root\resource\ui"
 
-if not exist "z_root" mkdir "z_root"
-if not exist "z_root\resource" mkdir "z_root\resource"
-if not exist "z_root\scripts" mkdir "z_root\scripts"
-if not exist "z_root\classes" mkdir "z_root\classes"
-if not exist "z_root\resource\ui" mkdir "z_root\resource\ui"
+if not exist "^root" mkdir "^root"
+if not exist "^root\resource" mkdir "^root\resource"
+if not exist "^root\scripts" mkdir "^root\scripts"
+if not exist "^root\classes" mkdir "^root\classes"
+if not exist "^root\resource\ui" mkdir "^root\resource\ui"
 
 :: Use HLExtract to get default HUD files ( https:\\developer.valvesoftware.com\wiki\HLLib#HLExtract )
 IF EXIST "dev\HLExtract.exe" (
@@ -60,7 +60,7 @@ IF EXIST "dev\HLExtract.exe" (
 	RMDIR \S \Q %resource_folder%
 	dev\HLExtract.exe -p "..\..\..\hl2\hl2_misc_dir.vpk" -d "%scheme_folder%" -e "root\resource" -m -v -s	
 	dev\HLExtract.exe -p "..\..\..\hl2\hl2_misc_dir.vpk" -d "%script_folder%" -e "root\scripts" -m -v -s		
-	dev\HLExtract.exe -p "..\..\..\platform\platform_misc_dir.vpk" -d "%defaultz_root_folder%" -e "root" -m -v -s			
+	dev\HLExtract.exe -p "..\..\..\platform\platform_misc_dir.vpk" -d "%default^root_folder%" -e "root" -m -v -s			
 	dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%resource_folder%\.." -e "root\resource\ui" -m -v -s
 	dev\HLExtract.exe -p "..\..\tf2_misc_dir.vpk" -d "%classes_folder%\.." -e "root\classes" -m -v -s
 
@@ -81,10 +81,10 @@ IF EXIST "dev\HLExtract.exe" (
 )
 
 
-RD \s \q "%defaultz_root_folder%\root\shaders"
-RD \s \q "%defaultz_root_folder%\root\steam"
-RD \s \q "%defaultz_root_folder%\root\scripts"
-RD \s \q "%defaultz_root_folder%\root\materials"
+RD \s \q "%default^root_folder%\root\shaders"
+RD \s \q "%default^root_folder%\root\steam"
+RD \s \q "%default^root_folder%\root\scripts"
+RD \s \q "%default^root_folder%\root\materials"
 del \s *.tga
 del \s *.vas
 del \s *.vcs
@@ -92,8 +92,8 @@ del \s *.xsc
 del \s *.lst
 del \s *.dsp
 del \s *.gam
-del "%defaultz_root_folder%\root\*.scr" \s
-del "%defaultz_root_folder%\root\*.vdf" \s
-del "%defaultz_root_folder%\root\*.txt" \s
-del "%defaultz_root_folder%\scripts\scripts\*.txt" \s
+del "%default^root_folder%\root\*.scr" \s
+del "%default^root_folder%\root\*.vdf" \s
+del "%default^root_folder%\root\*.txt" \s
+del "%default^root_folder%\scripts\scripts\*.txt" \s
 pause

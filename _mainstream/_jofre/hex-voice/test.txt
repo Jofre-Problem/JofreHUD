@@ -1,0 +1,51 @@
+"lang"
+{
+	
+"Tokens"
+{		
+"Backup_Voice_Medic"		"MEDIC!"
+"Backup_Voice_Thanks"		"Thanks!"
+"Backup_Voice_Menu_Go"		"Go!"
+"Backup_Voice_Menu_Help"		"Help!"
+"Backup_Voice_Menu_Yes"		"Yes"
+"Backup_Voice_Menu_No"		"No"
+"Backup_Voice_Menu_CloakedSpy"		"Spy!"
+"Backup_Voice_Menu_Left"		"Go Left"
+"Backup_Voice_Menu_Right"		"Go Right"
+"Backup_Voice_Menu_Incoming"		"Incoming"
+"Backup_Voice_Menu_SentryAhead"	"Sentry Ahead!"
+"Backup_Voice_Menu_TeleporterHere"	"Teleporter Here"
+"Backup_Voice_Menu_DispenserHere"	"Dispenser Here"
+"Backup_Voice_Menu_SentryHere"		"Sentry Here"
+"Backup_Voice_Menu_ActivateCharge"	"Activate Charge!"
+"Backup_Voice_Menu_ChargeReady"	"MEDIC: ÜberCharge Ready"
+
+"Voice_Menu_Thanks"		"000000 964B00Thanks."
+"Voice_Menu_Go"			"000000 964B00Go!"
+	"Voice_Menu_Medic"		"000000 00FF00MEDIC!"
+	"Voice_Menu_ChargeReady"	"000000 00FF00MEDIC: ÜberCharge Ready"
+	"Voice_Menu_CloakedSpy"		"000000 FFFF00Spy!"
+	
+	"Voice_Menu_Help"		"000000 FFC0CBHelp!"
+"Voice_Menu_Yes"		"000000 00FF00Yes"
+"Voice_Menu_No"			"000000 00FF00No"
+
+
+"Voice_Menu_MoveUp"		"Move Up!"
+"Voice_Menu_Left"		"Go Left"
+"Voice_Menu_Right"		"Go Right"
+"Voice_Menu_Incoming"		"000000 FFC0CBIncoming"
+"Voice_Menu_SentryAhead"	"000000 FFC0CBSentry Ahead!"
+"Voice_Menu_TeleporterHere"	"000000 FFC0CBTeleporter Here"
+"Voice_Menu_DispenserHere"	"000000 FFC0CBDispenser Here"
+"Voice_Menu_SentryHere"		"000000 FFC0CBSentry Here"
+"Voice_Menu_ActivateCharge"	"000000 00FF00Activate Charge!"
+"Voice_Menu_Cheers"		"Cheers"
+"Voice_Menu_Jeers"		"Jeers"
+"Voice_Menu_Positive"		"Positive"
+"Voice_Menu_Negative"		"Negative"
+"Voice_Menu_NiceShot"		"Nice Shot"
+"Voice_Menu_GoodJob"		"Good Job"
+"Voice_Menu_BattleCry"		"Battle Cry"
+}
+}
