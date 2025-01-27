@@ -15,15 +15,16 @@ Scheme
 		{
 			"1"
 			{
+				"dropshadow"	"0"
 				"tall"		"16"
 			}
 			"2"
 			{
-
+				"dropshadow"	"0"
 				"tall"		"18"
 			}
 			"3"
-			{
+			{"dropshadow"	"0"
 			"tall"		"24"
 			}
 		}	

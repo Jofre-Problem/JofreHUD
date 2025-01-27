@@ -9,7 +9,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	"NotBuiltPanel"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+	}
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"

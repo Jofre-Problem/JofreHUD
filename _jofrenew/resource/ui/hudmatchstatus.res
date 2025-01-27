@@ -255,6 +255,7 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"
 				"zpos"					"4"
+				ypos "0"
 				"wide"					"f0"
 				"tall"					"19"
 				"visible"				"1"
@@ -333,6 +334,8 @@
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
 				"font"					"Default"
+				"ypos" "0"
+				"xpos" 0
 				"zpos"					"3"
 				"wide"					"f0"
 				"tall"					"19"
@@ -390,13 +393,13 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Size 8"
-				"xpos"			"25"
-				"ypos"			"17"
+				"font"			"Notobold10"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"visible"		"0"		//TODO
+				"visible"		"1"		//TODO
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"Green"

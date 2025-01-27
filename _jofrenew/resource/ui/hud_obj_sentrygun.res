@@ -11,6 +11,11 @@
 		"bgcolor_override" "black"
 		"paintBackground" "1"
 	}
+	"NotBuiltPanel"
+	{
+		"xpos"			"9999"
+		"visible"		"0"
+	}
 
 	"Icon_Sentry_1"
 	{
@@ -145,7 +150,11 @@
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"Red"
 		}
-
+		"AlertTray"
+		{
+			"xpos"			"r0"
+			"visible"		"0"
+		}
 		"Health"
 		{
 			"ControlName"	"CBuildingHealthBar"
@@ -335,7 +344,21 @@
 				"textAlignment"	"Left"
 				"bgcolor_override"		"TransparentGrayDarkest"
 			}
-
+			"ShellIcon"	
+			{
+				"xpos"			"999"
+				"visible" "0"
+			}			
+			"RocketIcon"	
+			{
+				"xpos"			"999"
+				"visible" "0"
+			}			
+			"UpgradeIcon"
+			{
+				"xpos"			"999"
+				"visible" "0"
+			}		
 			"Upgrade"
 			{
 				"ControlName"	"ContinuousProgressBar"

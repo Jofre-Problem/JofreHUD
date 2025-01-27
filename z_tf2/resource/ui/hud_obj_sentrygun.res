@@ -391,7 +391,7 @@
 				"brighttext"	"0"
 			}
 
-			"UpgradeIcon"
+			"UpgradeIcon" 
 			{
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
