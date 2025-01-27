@@ -3,78 +3,90 @@
     // The order these lines are in is important.
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-hudanimations_manifest
-{
+	hudanimations_manifest
+	{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // XHUD Null Animations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"file"		"_jofrenew/new/scripts/hudanimations_null.txt"
+		"file"		"_jofrenew/new/scripts/hudanimations_null.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // QoL Scripts
     ////////////////////////////////////////////////////////////////////////////////////////////////////	
 
-	"file"		"_mainstream/health-fix/file.txt"	
-	"file"		"_mainstream/niterux-skip/file.txt"
-	"file"		"_mainstream/trade-fix/file.txt"
-	"file"		"_mainstream/dimmer-reload/file.txt"
-	"file"		"_mainstream/mvm-fixer/file.txt"
-	"file"		"_mainstream/peachrec/file.txt"    
+		"file"		"_mainstream/health-fix/file.txt"	
+		"file"		"_mainstream/niterux-skip/file.txt"
+		"file"		"_mainstream/trade-fix/file.txt"
+		"file"		"_mainstream/dimmer-reload/file.txt"
+		"file"		"_mainstream/mvm-fixer/file.txt"
+		"file"		"_mainstream/peachrec/file.txt"    
 	
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Log-Base Scripts (WIN32 & OSX)
     ////////////////////////////////////////////////////////////////////////////////////////////////////	
 	
-	"file"		"../../../cfg/_jp_hitmarker.txt"	
-	"file"		"../../../cfg/_jp_snd_dead.txt"	
-	"file"		"../../../cfg/_jp_snd_vivo.txt"	
-	"file"		"../../../cfg/_jp_ex_scope.txt"	
-	"file"		"../../../cfg/_jp_anim_cartglow.txt"
+		"file"		"../../../cfg/_jp_hitmarker.txt"	
+		"file"		"../../../cfg/_jp_snd_dead.txt"	
+		"file"		"../../../cfg/_jp_snd_vivo.txt"	
+		"file"		"../../../cfg/_jp_ex_scope.txt"	
+		"file"		"../../../cfg/_jp_anim_cartglow.txt"
 
-	"file"		"../../cfg/_jp_hitmarker.txt"	
-	"file"		"../../cfg/_jp_snd_dead.txt"	
-	"file"		"../../cfg/_jp_snd_vivo.txt"	
-	"file"		"../../cfg/_jp_ex_scope.txt"	
-	"file"		"../../cfg/_jp_anim_cartglow.txt"
+		"file"		"../../cfg/_jp_hitmarker.txt"	
+		"file"		"../../cfg/_jp_snd_dead.txt"	
+		"file"		"../../cfg/_jp_snd_vivo.txt"	
+		"file"		"../../cfg/_jp_ex_scope.txt"	
+		"file"		"../../cfg/_jp_anim_cartglow.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // 4Plug Scripts
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"file"		"_4plug/scripts/animations/!radar.txt"
-
+		"file"		"_4plug/scripts/animations/!radar.txt"
+		"file"		"_jofrenew/new/scripts/4plug/spec_file.txt"
+		"file"		"_jofrenew/new/scripts/4plug/hpammo_move_file.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Standard JofreHUD 
+    // Standard JofreHUD (Main)
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"file"		"_jofrenew/new/scripts/anim_misc.txt"	
+		"file"		"_jofrenew/new/scripts/disguise/file.txt"
+		"file"		"_jofrenew/new/scripts/ammo/file.txt"
+		"file"		"_jofrenew/new/scripts/damage/file.txt"
+		"file"		"_jofrenew/new/scripts/hp/file.txt"
+		"file"		"_jofrenew/new/scripts/hp/file2.txt"
+		"file"		"_jofrenew/new/scripts/uber/file.txt"
+	
+    ////////////////////////////////////////////////////////////////////////////////////////////////////
+    // Standard JofreHUD (Secondary)
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"file"		"_jofrenew/new/scripts/disguise/file.txt"
-	"file"		"_jofrenew/new/scripts/anim_misc.txt"
-	"file"		"_jofrenew/new/scripts/ammo/file.txt"
-	"file"		"_jofrenew/new/scripts/damage/file.txt"
-	"file"		"_jofrenew/new/scripts/4plug/spec_file.txt"
-	"file"		"_jofrenew/new/scripts/4plug/hpammo_move_file.txt"
-	"file"		"_jofrenew/new/scripts/hp/file.txt"
-	"file"		"_jofrenew/new/scripts/hp/file2.txt"
-	"file"		"_jofrenew/new/scripts/uber/file.txt"
+		"file"		"_jofrenew/new/scripts/menu-open-close/file.txt"
+		"file"		"_jofrenew/new/scripts/mapvote/file.txt"
+		"file"		"_jofrenew/new/scripts/cmd/file.txt"
+		"file"		"_jofrenew/new/scripts/tournament/file.txt"
+		"file"		"_jofrenew/new/scripts/useless/file.txt"
+		"file"		"_jofrenew/new/scripts/survey/file.txt"
+		"file"		"_jofrenew/new/scripts/teamstatus/file.txt"
+		"file"		"_jofrenew/new/scripts/engineer/file.txt"
 	
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Archived JofreHUD 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-//	"file"		"new/ui_overrides/remove-scope/file.txt"
-//	"file"		"new/ui_overrides/score-slide/file.txt"
-//	"file"		"new/ui_overrides/no-chat-bg/file.txt"
-//	"file"		"new/ui_overrides/cart-glow/file.txt"
-//	"file"		"new/ui_overrides/score-slide/file.txt"
-//	"file"		"new/ui_overrides/hitmarker/file.txt"
+	//	"file"		"new/ui_overrides/remove-scope/file.txt"
+	//	"file"		"new/ui_overrides/score-slide/file.txt"
+	//	"file"		"new/ui_overrides/no-chat-bg/file.txt"
+	//	"file"		"new/ui_overrides/cart-glow/file.txt"
+	//	"file"		"new/ui_overrides/score-slide/file.txt"
+	//	"file"		"new/ui_overrides/hitmarker/file.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Standard Default HUD
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	"file"		"scripts/hudanimations_tf.txt"
-	"file"		"scripts/hudanimations.txt"
-}
+		"file"		"scripts/hudanimations_tf.txt"
+		"file"		"scripts/hudanimations.txt"
+	}

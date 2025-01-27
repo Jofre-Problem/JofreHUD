@@ -1,0 +1,48 @@
+event TestStart_B
+{
+ //   FireCommand        0.0                "engine mat_viewportscale 0"
+    RunEvent        Test_B            0.0
+//	SetVisible CMainTargetID 1 0.0
+}
+
+event Test_B
+{
+//	SetVisible HudItemEffectMeter 1 0.0
+//	SetVisible CMainTargetID 1 0.0
+//	SetVisible HudScopeCharge 1 0.0
+   // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+    RunEvent        TestLoop_B        0.01
+}
+
+event TestLoop_B
+{
+    RunEvent    Test_B    0.0
+}
+
+event ForceSafemode
+{
+	FireCommand 0.0 "engine cl_mainmenu_safemode 1"
+}
+event Refresh
+{
+	FireCommand		0.0		"reloadscheme"
+}
+event TestTestingCmd
+{	
+	RuneventChild Mainmenuoverride TestCmd 0.0
+
+	RunEvent TESTING	0.0
+}
+event TestCmd
+{	
+	Firecommand 0.0 "engine rgbdmg"
+}
+event ForceCmd
+{	
+	RuneventChild Mainmenuoverride ForceForceCmd 0.0
+}
+event ForceForceCmd
+{	
+	Firecommand 0.0 "engine toggle_interp_shit"
+}
+

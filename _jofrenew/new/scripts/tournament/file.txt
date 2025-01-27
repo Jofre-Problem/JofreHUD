@@ -1,0 +1,89 @@
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+//ReadyUp Timers
+event HudTournament_ShowTimerCompetitive
+{
+		SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+		SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+		SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_HideTimer
+{
+		SetVisible CountdownBG  0 0
+	SetVisible CountdownLabel 0 0.0
+	SetVisible CountdownLabelShadow 0 0
+}
+event HudTournamentSetupPanelOpen
+{
+	Animate	HudTournamentSetup	ypos	95	Linear 0.3 	 0.0
+	Animate TournamentReadyButton FgColor "community" Linear 0 0
+	Animate TournamentNotReadyButton FgColor "red" Linear 0 0	
+//	Animate TournamentReadyButton11			pressed		"1"			Linear 0.3 			0
+//	Animate HudTournamentSetup				Position	"c-90 0"	Linear 0.3 			0
+//	Animate HudTournamentSetup				Position	"c-90 0"	Linear 0.3 			0
+	Animate Circle1							alpha		"255"		Linear 0.025		0.01
+	Animate Circle2							alpha		"255"		Linear 0.05			0.01
+	Animate Circle3							alpha		"255"		Linear 0.75 		0.01
+	Animate Circle4							alpha		"255"		Linear 0.1			0.01
+	Animate Circle5							alpha		"255"		Linear 0.125 		0.01
+	Animate Circle6							alpha		"255"		Linear 0.175 		0.01
+	Animate Circle7a						alpha		"255"		Linear 0.2 			0.01
+	Animate Circle7b						alpha		"255"		Linear 0.2 			0.01
+	Animate Circle8a						alpha		"255"		Linear 0.225 		0.01
+	Animate Circle8b						alpha		"255"		Linear 0.225 		0.01
+	Animate Circle9a						alpha		"255"		Linear 0.25			0.01
+	Animate Circle9b						alpha		"255"		Linear 0.25 		0.01
+	Animate Circle10a						alpha		"255"		Linear 0.275 		0.01
+	Animate Circle10b						alpha		"255"		Linear 0.275		0.01
+	Animate Circle11a						alpha		"255"		Linear 0.3 			0.01
+	Animate Circle11b						alpha		"255"		Linear 0.3 			0.01
+	Animate Circle12a						alpha		"255"		Linear 0.325 		0.01
+	Animate Circle12b						alpha		"255"		Linear 0.325 		0.01
+	Animate Circle13a						alpha		"255"		Linear 0.35 		0.01
+	Animate Circle13b						alpha		"255"		Linear 0.35 		0.01
+	Animate CircleFinal						alpha		"255"		Linear 0.375 		0.01
+
+	RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.0
+
+	Animate Circle1							alpha		"255"		Linear 0.35 	0.01
+	Animate Circle2							alpha		"0"			Linear 0.325 	0.01
+	Animate Circle3							alpha		"0"			Linear 0.3 		0.01
+	Animate Circle4							alpha		"0"			Linear 0.275 	0.01
+	Animate Circle5							alpha		"0"			Linear 0.25 	0.01
+	Animate Circle6							alpha		"0"			Linear 0.225 	0.01
+	Animate Circle7a						alpha		"0"			Linear 0.2 		0.01
+	Animate Circle7b						alpha		"0"			Linear 0.2 		0.01
+	Animate Circle8a						alpha		"0"			Linear 0.175 	0.01
+	Animate Circle8b						alpha		"0"			Linear 0.175 	0.01
+	Animate Circle9a						alpha		"0"			Linear 0.15 	0.01
+	Animate Circle9b						alpha		"0"			Linear 0.15 	0.01
+	Animate Circle10a						alpha		"0"			Linear 0.125 	0.01
+	Animate Circle10b						alpha		"0"			Linear 0.125 	0.01
+	Animate Circle11a						alpha		"0"			Linear 0.1 		0.01
+	Animate Circle11b						alpha		"0"			Linear 0.1 		0.01
+	Animate Circle12a						alpha		"0"			Linear 0.075 	0.01
+	Animate Circle12b						alpha		"0"			Linear 0.075 	0.01
+	Animate Circle13a						alpha		"0"			Linear 0.05 	0.01
+	Animate Circle13b						alpha		"0"			Linear 0.05 	0.01
+	Animate CircleFinal						alpha		"0"			Linear 0.025 	0.01
+
+	// PeachRec Stuff
+	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
+	RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec	
+}

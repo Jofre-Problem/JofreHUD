@@ -1,0 +1,22 @@
+event SurveyShowSequence
+{
+	FireCommand 0.05 "delete"
+	RunEventChild Survey SurveyDelete 0.6
+	RunEvent	SurveyDelete 0.0
+}
+
+event SurveySubmitSequence
+{
+	RunEventChild Survey SurveyDelete 0.6
+}
+
+event SurveyDelete
+{
+	FireCommand 0 "delete"
+}
+
+event SurveyHideSequence
+{
+	SetVisible CloseButton 0 0 
+	RunEventChild Survey SurveyDelete 0.6
+}
