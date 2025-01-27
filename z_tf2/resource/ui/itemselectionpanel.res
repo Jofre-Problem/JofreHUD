@@ -181,7 +181,7 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
-	"BottomLine"
+	"BottomLine" 
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BottomLine"

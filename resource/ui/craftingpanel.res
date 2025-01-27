@@ -2,4 +2,4 @@
 	//#base	"../../_jofrehud/resource/#beta/menu_reloadbutton.res"
 	#base	"../../_jofrenew/resource/ui/craftingpanel.res"
 	//#base	"../../_jofrehud/resource/ui/craftingpanel.res"
-	//#base	"../../z_tf2/resource/ui/craftingpanel.res"
+	#base	"../../z_tf2/resource/ui/craftingpanel.res"

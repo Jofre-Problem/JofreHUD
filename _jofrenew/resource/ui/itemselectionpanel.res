@@ -84,7 +84,25 @@
 			"fgcolor"								"153 204 255 255"
 		}
 	}
-
+	"BottomLine" {	"visible"		"0"	}		
+	"TopLine" {	"visible"		"0"	}				
+	"NameFilterLabel"	{	"visible"		"0"	}	
+	"CaratLabel"	{	"visible"		"0"	}	
+	"ClassLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassLabel"
+		"font"			"NotoBold12"
+		"labelText"		"#ClassBeingEquipped"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"35"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+	}
 	"BackpackBG"
 	{
 		"ControlName"								"EditablePanel"

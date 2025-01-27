@@ -3,6 +3,18 @@
 
 "Resource/UI/CharInfoPanel.res"
 {
+	"BackgroundHeader"
+	{
+		"visible"		"0"
+	}				
+	"BackgroundFooter"
+	{
+		"visible"		"0"
+	}				
+	"FooterLine"
+	{
+		"visible"		"0"
+	}		
 	"aaa"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -73,13 +85,18 @@
         "sheetinset_bottom"                     "0"
 		clientinsetx_override		0		// content xpos offset
 		sheetinset_bottom			0           // perfect
+		
 	}
 
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-	
+        "tabxindent"                    "0"
+        "tabheight"                     "0"
+        "tabxdelta"                     "0"
+        "tabfittotext"                  "0"
+        "yoffset"                       "3"	
 		
 			zpos					0		// buttons above sheet	
 			tall 		"f0"			//JP f0
@@ -91,12 +108,12 @@
 		yoffset				7	//JP 10 tab y pos, pushes other content		
 //		yoffset				-10	//JP 10 tab y pos, pushes other content		
 	
-	"HeaderLine"		{			"tall"			"0"		}				
+		"HeaderLine"		{	"tall"		"0"	}				
 		
 		"tabskv"
 		{
-	//		textinsety				-13   //cant be changed
-			"textinsetx"		"3"
+			textinsety				0   //cant be changed
+			"textinsetx"		"0"
 			"font"				"Blank"//"Size 14"
 	//		"defaultBgColor_override"	"Blank"
 			"selectedcolor"		"Blank"

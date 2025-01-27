@@ -1,4 +1,4 @@
 	#base	"../../_stream/resource/ui/scoreboard.res"
 	#base	"../../_jofrenew/resource/ui/scoreboard.res"
 	//#base	"../../_jofrehud/resource/ui/scoreboard.res"
-	//#base	"../../z_tf2/resource/ui/scoreboard.res"
+	#base	"../../z_tf2/resource/ui/scoreboard.res"

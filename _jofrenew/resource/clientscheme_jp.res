@@ -430,14 +430,26 @@ Scheme
 	//	BrowserBorder	FrameBorder
 		ButtonBorder
 		{
+			"RoundedCorner" "0"
 			"inset" "0 0 0 0"
-		//	"backgroundtype" "2"
+			"backgroundtype" "0"
 		}	
+		ButtonKeyFocusBorder
+		{	"RoundedCorner" "0"
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
+		}
+
+		ButtonDepressedBorder
+		{	"RoundedCorner" "0"
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
+		}		
 	//	PropertySheetBorder	FrameBorder		
 	    	FrameBorder 
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}		
 		TanLight
 		{

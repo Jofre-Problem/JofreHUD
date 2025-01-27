@@ -140,6 +140,7 @@
 					"ControlName"	"ImagePanel"
 					"xpos"			"0"
 					"ypos"			"0"
+					"zpos" 2
 					"wide"			"p1"
 					"tall"			"p1"
 					"visible"		"1"
@@ -152,7 +153,7 @@
 
 				"ItemIcon"	{"wide"	"0"	}
 
-				"ItemName"	{"wide"	"0"	}
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
 
 				"BuyButton"	{"wide"	"0"	}
 

@@ -2,4 +2,4 @@
 	#base	"../../_jofrenew/resource/ui/vrcalibration.res"
 	//#base	"../../_jofrehud/resource/ui/vrcalibration.res"
 	//#base	"../../_jofrehud/_tf2fix/resource/ui/vrcalibration.res"	
-//	//#base	"../../z_tf2/resource/ui/vrcalibration.res"
+	#base	"../../z_tf2/resource/ui/vrcalibration.res"
