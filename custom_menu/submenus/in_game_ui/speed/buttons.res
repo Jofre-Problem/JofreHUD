@@ -56,7 +56,7 @@
 						"labeltext"				"L4D2 Workshop Speedrun"
 						"font"					"Size 14"
 						"textalignment"			"center"
-						"command"				"engine sixense_clear_bindings; sixense_write_bindings jp_speed_style.txt"	;con_logfile cfg/_jp_speed_style.txt; echo #base ../custom/jofrehud-main/_jofrenew/new/ui_overrides/speed/file.res; con_logfile ."
+						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_speed_style.txt"	;con_logfile cfg/_jp_speed_style.txt; echo #base ../custom/jofrehud-main/_jofrenew/new/ui_overrides/speed/file.res; con_logfile ."
 
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"

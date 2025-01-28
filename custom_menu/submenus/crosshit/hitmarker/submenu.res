@@ -109,7 +109,7 @@
 						"labelText"				"Remove it all."
 						"textAlignment"			"center"
 						"font"					"Size 14"
-						"command"				"engine jp_hitmarker_size_clear; jp_hitmarker_shape_clear; sixense_clear_bindings; sixense_write_bindings jp_hitmarker_event.txt; jp_reload"
+						"command"				"engine jp_hitmarker_size_clear; jp_hitmarker_shape_clear; sixense_clear_bindings; sixense_write_bindings _jp_hitmarker_event.txt; jp_reload"
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"defaultfgcolor_override"	"Red"
