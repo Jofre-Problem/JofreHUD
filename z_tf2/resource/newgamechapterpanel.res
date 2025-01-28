@@ -41,9 +41,6 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"		"UiBold"
 	}
 	"ChapterNameLabel"
@@ -60,9 +57,6 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"		"UiBold"
 	}
 	"CommentaryIcon" 

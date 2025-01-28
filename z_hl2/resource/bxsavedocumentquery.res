@@ -30,10 +30,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Save changes to test.dme"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Yes"
 	{
@@ -49,12 +45,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Yes"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"yes"
-		"Default"		"0"
 	}
 	"No"
 	{
@@ -70,12 +61,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"No"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"no"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -91,11 +77,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"cancel"
-		"Default"		"0"
 	}
 }

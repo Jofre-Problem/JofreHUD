@@ -29,11 +29,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"pos:  -9820 -5600 21"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"Trebuchet20"
-		"wrap"		"0"
 	}
 	"Angles"
 	{
@@ -49,11 +45,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"roll: 0 pitch 3 yaw -3"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"Trebuchet20"
-		"wrap"		"0"
 	}
 	"Skipping"
 	{
@@ -70,9 +62,6 @@
 		//		"0"
 		"labelText"		"#Seeking"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"Trebuchet24"
-		"wrap"		"0"
 	}
 }

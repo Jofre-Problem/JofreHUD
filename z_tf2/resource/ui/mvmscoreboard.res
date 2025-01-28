@@ -126,7 +126,6 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"135"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"

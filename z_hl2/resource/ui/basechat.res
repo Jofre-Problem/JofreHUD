@@ -44,9 +44,6 @@
 		//		"0"
 		"labelText"		"#chat_filterbutton"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 
 	"HudChatHistory"

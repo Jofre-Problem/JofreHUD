@@ -27,13 +27,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ok"
 		"Default"		"1"
 	}
@@ -51,12 +46,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"close"
-		"Default"		"0"
 	}
 	"BindingName"
 	{
@@ -71,11 +61,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Command"
 	{
@@ -90,11 +77,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Label1"
 	{
@@ -110,10 +94,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#KBCustomBindingName"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -129,9 +109,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#KBCustomBindingCommand"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

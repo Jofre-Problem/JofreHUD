@@ -60,12 +60,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_RefreshLogin_Login"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Login"
-		"Default"		"0"
 	}
 	"TimeRemainingLabel"
 	{
@@ -80,10 +75,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"InfoLabel"
 	{
@@ -99,9 +90,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#VAC_LoggedInElsewhereReason"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"BannerAd"

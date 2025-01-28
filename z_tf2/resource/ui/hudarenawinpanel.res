@@ -198,8 +198,6 @@
 			"enabled"		"1"
 			"labelText"		"%arenastreaktext%"
 			"textAlignment"		"Center"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 	}
 
@@ -232,8 +230,6 @@
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"WinningTeamLabelDropshadow"
 	{	
@@ -252,8 +248,6 @@
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"LosingTeamLabel"
@@ -272,8 +266,6 @@
 		"enabled"		"1"
 		"labelText"		"%LosingTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"LosingTeamLabelDropshadow"
 	{	
@@ -292,8 +284,6 @@
 		"enabled"		"1"
 		"labelText"		"%LosingTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"WinReasonLabel"
 	{	
@@ -311,8 +301,6 @@
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"DetailsLabel"
 	{	
@@ -330,8 +318,6 @@
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"ShadedBar"
 	{
@@ -367,8 +353,6 @@
 		"enabled"		"1"
 		"labelText"		"%TopPlayersLabel%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"DamageThisRoundLabel"
 	{	
@@ -386,8 +370,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_DamageThisRound"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"HealingThisRoundLabel"
 	{	
@@ -405,8 +387,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_HealingThisRound"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"LifetimeThisRoundLabel"
 	{	
@@ -424,8 +404,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_TimeAliveThisRound"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"KillingBlowsThisRoundLabel"
 	{	
@@ -443,8 +421,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Winpanel_KillingBlows"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"HorizontalLine"
 	{
@@ -503,8 +479,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Class"
 		{	
@@ -520,8 +494,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Damage"
 		{	
@@ -537,8 +509,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Healing"
 		{	
@@ -554,8 +524,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Lifetime"
 		{	
@@ -571,8 +539,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Kills"
 		{	
@@ -588,8 +554,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Avatar"	
 		{
@@ -619,8 +583,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Class"
 		{	
@@ -636,8 +598,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Damage"
 		{	
@@ -653,8 +613,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Healing"
 		{	
@@ -670,8 +628,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Lifetime"
 		{	
@@ -687,8 +643,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Kills"
 		{	
@@ -704,8 +658,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Avatar"
 		{
@@ -735,8 +687,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Class"
 		{	
@@ -752,8 +702,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Damage"
 		{	
@@ -769,8 +717,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Healing"
 		{	
@@ -786,8 +732,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Lifetime"
 		{	
@@ -803,8 +747,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Kills"
 		{	
@@ -820,8 +762,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 	}
 	"ArenaWinPanelLosersPanel"
@@ -863,8 +803,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Class"
 		{	
@@ -880,8 +818,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Damage"
 		{	
@@ -897,8 +833,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Healing"
 		{	
@@ -914,8 +848,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Lifetime"
 		{	
@@ -931,8 +863,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player1Kills"
 		{	
@@ -948,8 +878,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Avatar"	
 		{
@@ -979,8 +907,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Class"
 		{	
@@ -996,8 +922,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Damage"
 		{	
@@ -1013,8 +937,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Healing"
 		{	
@@ -1030,8 +952,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Lifetime"
 		{	
@@ -1047,8 +967,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player2Kills"
 		{	
@@ -1064,8 +982,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Avatar"
 		{
@@ -1095,8 +1011,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Class"
 		{	
@@ -1112,8 +1026,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Damage"
 		{	
@@ -1129,8 +1041,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Healing"
 		{	
@@ -1146,8 +1056,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Lifetime"
 		{	
@@ -1163,8 +1071,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 		"Player3Kills"
 		{	
@@ -1180,8 +1086,6 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}
 	}
 }

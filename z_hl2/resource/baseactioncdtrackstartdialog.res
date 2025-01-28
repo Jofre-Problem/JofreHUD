@@ -155,9 +155,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"Maximize"
 	{
@@ -174,9 +171,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"Close"
 	{
@@ -193,9 +187,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"SysMenu"
 	{
@@ -225,11 +216,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"OK"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -245,11 +232,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"Cancel"
-		"Default"		"0"
 	}
 	"actionname"
 	{
@@ -264,7 +247,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -281,7 +263,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -298,8 +279,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"TrackNumber"
@@ -315,7 +294,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -333,9 +311,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label2"
 	{
@@ -351,9 +326,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Start on:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label3"
 	{
@@ -369,8 +341,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Track #:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

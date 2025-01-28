@@ -76,10 +76,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Active Clip:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ActiveClip"
 	{
@@ -95,10 +91,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"???"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ActiveCameraButton"
 	{
@@ -114,13 +106,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Active Camera:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ToggleWorkCamera"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	"ActiveCamera"
 	{
@@ -136,10 +123,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"???"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Clip Slider"
 	{

@@ -155,9 +155,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"Maximize"
 	{
@@ -174,9 +171,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"Close"
 	{
@@ -193,9 +187,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"SysMenu"
 	{
@@ -225,11 +216,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"OK"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -245,11 +232,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"Cancel"
-		"Default"		"0"
 	}
 	"actionname"
 	{
@@ -264,7 +247,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -281,7 +263,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -298,8 +279,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"TextMessageFadeInTime"
@@ -315,7 +294,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -332,7 +310,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -349,7 +326,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -366,7 +342,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -383,7 +358,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -400,7 +374,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -417,7 +390,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -434,7 +406,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -451,7 +422,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -468,7 +438,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -485,8 +454,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"Label1"
@@ -503,9 +470,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label2"
 	{
@@ -521,9 +485,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Start on:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"topHorizLeft"
 	{
@@ -539,9 +500,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"94"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"topVertLeft"
 	{
@@ -557,9 +515,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"2"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -575,9 +530,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"2"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -593,9 +545,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"2"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label3"
 	{
@@ -611,9 +560,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Text:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label4"
 	{
@@ -629,9 +575,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Effect:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label5"
 	{
@@ -647,9 +590,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"XY:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label6"
 	{
@@ -665,9 +605,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"FadeInTime:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label7"
 	{
@@ -683,9 +620,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"FadeOutTime:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label8"
 	{
@@ -701,9 +635,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Hold Time:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label9"
 	{
@@ -719,9 +650,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"FX Time:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label10"
 	{
@@ -737,9 +665,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Color1:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label11"
 	{
@@ -755,9 +680,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Color2:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label12"
 	{
@@ -773,8 +695,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Font:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

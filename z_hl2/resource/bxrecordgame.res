@@ -157,10 +157,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_maximize"
 	{
@@ -177,10 +173,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_mintosystray"
 	{
@@ -197,11 +189,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"frame_close"
 	{
@@ -218,10 +206,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_menu"
 	{
@@ -236,11 +220,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Record"
 	{
@@ -256,12 +235,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"RecordGame"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -277,12 +251,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"CancelRecord"
-		"Default"		"0"
 	}
 	"ChooseDemLabel"
 	{
@@ -298,10 +267,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Choose Dem:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ChooseDemText"
 	{
@@ -316,11 +281,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ChooseMapLabel"
 	{
@@ -336,10 +298,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Choose Map:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ChooseMapText"
 	{
@@ -354,11 +312,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ChooseMapButton"
 	{
@@ -375,11 +330,7 @@
 		//		"0"
 		"labelText"		"Choose Map"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ChooseMap"
-		"Default"		"0"
 	}
 	"RecordCameraPos"
 	{
@@ -395,11 +346,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Camera Position"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"RecordCameraRot"
@@ -416,11 +362,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Camera Angles"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"RecordCameraFOV"
@@ -437,11 +378,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Camera FOV"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"ViewPlayerCam"
@@ -455,14 +391,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"View From Player"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"TeleportPlayer"
@@ -479,12 +409,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Snap Player To Tool Camera"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Noclip"
 	{
@@ -500,12 +424,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Enable noclip"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RecordWorld"
 	{
@@ -521,11 +439,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record World"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"RecordStationary"
@@ -542,12 +455,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Stationary Ents"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RecordSprites"
 	{
@@ -563,12 +470,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Sprites"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RecordSounds"
 	{
@@ -584,11 +485,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Sounds"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"RecordNarration"
@@ -605,12 +501,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record Narration"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RecordNarrationFromStart"
 	{
@@ -623,15 +513,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"From Start of Sequence"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"SequenceLabel"
 	{
@@ -648,9 +531,6 @@
 		//		"0"
 		"labelText"		"Sequence Name"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"SequenceText"
 	{
@@ -665,11 +545,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ShotLabel"
 	{
@@ -686,9 +563,6 @@
 		//		"0"
 		"labelText"		"Shot Name"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ShotText"
 	{
@@ -703,11 +577,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"AssetPickerFrame"
 	{

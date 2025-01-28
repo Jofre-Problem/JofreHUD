@@ -27,7 +27,6 @@
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			"AutoResize" "0"
 			"skip_autoresize" "1"
 			
 			"model_xpos"	"2"
@@ -154,7 +153,6 @@
 			"ypos"		"50"
 			"wide"		"427"
 			"tall"		"225"
-			"autoResize"		"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -530,7 +528,6 @@
 		"zpos"			"128"		
 		"wide"			"300"
 		"tall"			"280"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

@@ -30,12 +30,7 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Ok"
-		"Default"		"0"
 	}
 	"CancelButton"
 	{
@@ -51,12 +46,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"SoundDirectoryLabel"
 	{
@@ -73,9 +63,6 @@
 		//		"0"
 		"labelText"		"Sound Directory:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"SoundDirectory"
 	{
@@ -90,11 +77,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"SoundDirectoryPicker"
 	{
@@ -110,12 +94,7 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"PickSoundDirectory"
-		"Default"		"0"
 	}
 	"SoundNameLabel"
 	{
@@ -132,9 +111,6 @@
 		//		"0"
 		"labelText"		"New Sound Name:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"SoundName"
 	{
@@ -149,11 +125,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"RenameClips"
 	{
@@ -170,11 +143,6 @@
 		"selected"		"1"
 		//		"0"
 		"labelText"		"Rename Clips"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"FirstNumber"
 	{
@@ -189,11 +157,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Increment"
 	{
@@ -208,11 +174,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"NumDigits"
 	{
@@ -227,11 +191,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"FirstNumberLabel"
 	{
@@ -248,9 +210,6 @@
 		//		"0"
 		"labelText"		"First:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"IncrementLabel"
 	{
@@ -267,9 +226,6 @@
 		//		"0"
 		"labelText"		"Increment:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"NumDigitsLabel"
 	{
@@ -286,8 +242,5 @@
 		//		"0"
 		"labelText"		"Num Digits:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

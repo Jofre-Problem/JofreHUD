@@ -16,8 +16,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"ItemBackground"	
@@ -52,8 +50,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}	
 			
 	"NumberBg"	
@@ -90,6 +86,5 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

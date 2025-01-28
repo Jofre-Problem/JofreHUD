@@ -16,8 +16,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Class_Name_Medic"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"ClassIcon"	
@@ -65,11 +63,9 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 		
 	"NumberLabel"
@@ -90,6 +86,5 @@
 		"labelText"		"7"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

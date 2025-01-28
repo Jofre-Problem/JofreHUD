@@ -30,10 +30,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Midi Source:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"MidiSource"
 	{
@@ -48,11 +44,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Choose"
 	{
@@ -68,10 +60,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"Choose"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ChooseMidiSource"
 		"Default"		"1"
 	}
@@ -89,11 +77,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"CancelChooseMidiSource"
-		"Default"		"0"
 	}
 }

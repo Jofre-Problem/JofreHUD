@@ -30,12 +30,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Next"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"next"
-		"Default"		"0"
 	}
 	"Prev"
 	{
@@ -51,12 +46,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Prev"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Prev"
-		"Default"		"0"
 	}
 	"Play"
 	{
@@ -72,10 +62,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_StartNewGame"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Play"
 		"Default"		"1"
 	}
@@ -93,12 +79,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"divider"
 	{

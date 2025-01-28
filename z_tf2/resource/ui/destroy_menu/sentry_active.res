@@ -17,8 +17,6 @@
 		"labelText"		"#TF_Object_Sentry"
 		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"ItemBackground"	
@@ -103,6 +101,5 @@
 		"labelText"		"1"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }

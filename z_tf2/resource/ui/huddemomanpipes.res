@@ -38,8 +38,6 @@
 		//			"0"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
 
@@ -61,8 +59,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 	}				
 		
 	"PipesPresentPanel"
@@ -114,8 +110,6 @@
 			//	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minbad"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
@@ -139,8 +133,6 @@
 			//	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minbad"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
@@ -198,7 +190,6 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
 			"dulltext"		"1"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minbad"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
@@ -223,7 +214,6 @@
 			"labelText"		"%activepipes%"
 			"textAlignment"	"west"
 			"dulltext"		"1"
-			"brighttext"	"0"
 			"font"			"HudFontMedium"
 			"font_minbad"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"

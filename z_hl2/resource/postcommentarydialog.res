@@ -30,10 +30,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"			"UiBold"
 	}
 	"HowToUseCommentary"
@@ -50,9 +46,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GAMEUI_Commentary_HowToUse"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"OkClose"
@@ -69,12 +62,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"close"
 		"Default"		"1"
-		"selected"		"0"
 	}
 }

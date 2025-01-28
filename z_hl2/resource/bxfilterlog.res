@@ -31,11 +31,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Resample"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"FramerateLabel"
 	{
@@ -51,10 +46,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Resampled Framerate:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"FramerateText"
 	{
@@ -69,11 +60,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Smooth"
 	{
@@ -90,11 +79,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Smooth"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"FilterWidthLabel"
 	{
@@ -110,10 +94,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Filter Width:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"FilterWidthText"
 	{
@@ -128,11 +108,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Filter"
 	{
@@ -148,10 +126,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Filter"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"FilterLog"
 		"Default"		"1"
 	}
@@ -169,11 +143,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"CancelFilter"
-		"Default"		"0"
 	}
 }

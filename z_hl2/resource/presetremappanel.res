@@ -31,9 +31,6 @@
 			//		"0"
 			"labelText"		"Source Preset Group:"
 			"textAlignment"		"east"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"wrap"		"0"
 		}
 		"SourcePresetGroup"
 		{
@@ -50,11 +47,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
-			"textHidden"		"0"
-			"editable"		"0"
 			"maxchars"		"-1"
-			"NumericInputOnly"		"0"
-			"unicode"		"0"
 		}
 
 		"OkButton"
@@ -73,8 +66,6 @@
 			"labelText"		"Ok"
 			"command"		"ok"
 			"textAlignment"		"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
 			"Default"		"1"
 		}
 
@@ -94,9 +85,6 @@
 			"labelText"		"Cancel"
 			"command"		"Cancel"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"PresetRemapList"

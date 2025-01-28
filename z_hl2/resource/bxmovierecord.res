@@ -30,13 +30,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Export"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Layoff"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Cancel"
 	{
@@ -52,13 +46,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"cancel"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"ChooseFileName"
 	{
@@ -75,12 +63,7 @@
 		//		"0"
 		"labelText"		"Choose File"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ChooseFile"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"ProgressiveRefinementSettings"
 	{
@@ -97,12 +80,7 @@
 		//		"0"
 		"labelText"		"Progressive Refinement Settings..."
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ProgressiveRefinementSettings"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"AVI"
 	{
@@ -118,12 +96,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Output .avi file"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"TGA"
 	{
@@ -139,11 +111,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Output .tga files"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"WAV"
@@ -160,11 +127,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Output .wav file"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawPlayers"
@@ -181,11 +143,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Players"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawNPCs"
@@ -202,11 +159,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw NPCs"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawOtherEntities"
@@ -223,11 +175,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Other Entities"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawRopes"
@@ -244,11 +191,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Ropes"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawBeams"
@@ -265,11 +207,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Beams"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 	}
 	"DrawGameParticleSystems"
@@ -286,11 +223,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Particle Systems"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DrawElementsLabel"
 	{
@@ -306,10 +238,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Recorded Elements:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"DrawPuppets"
 	{
@@ -325,10 +253,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Puppets"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Default"		"1"
 	}
 	"DrawEffects"
@@ -345,10 +269,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Effects"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Default"		"1"
 	}
 	"DrawParticleSystems"
@@ -365,10 +285,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Draw Particle Systems"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Default"		"1"
 	}
 	"filename"
@@ -384,11 +300,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"StartFrame"
 	{
@@ -403,11 +316,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"EndFrame"
 	{
@@ -422,11 +333,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"framerate"
 	{
@@ -441,11 +350,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"FrameSelect"
 	{
@@ -460,11 +366,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"StartLabel"
 	{
@@ -481,9 +383,6 @@
 		//		"0"
 		"labelText"		"Start Time"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"EndLabel"
 	{
@@ -500,9 +399,6 @@
 		//		"0"
 		"labelText"		"End Time"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"OutputWidth"
 	{
@@ -517,11 +413,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"OutputHeight"
 	{
@@ -536,11 +430,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"SizeType"
 	{
@@ -555,11 +446,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ShutterspeedOverride"
 	{
@@ -575,12 +462,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Override Shutter Speed:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Shutterspeed"
 	{
@@ -593,13 +474,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"LabelOutputFile"
 	{
@@ -615,10 +492,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Output File:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label1"
 	{
@@ -635,9 +508,6 @@
 		//		"0"
 		"labelText"		"Output Framerate"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"WidthLabel"
 	{
@@ -654,9 +524,6 @@
 		//		"0"
 		"labelText"		"Width"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"HeightLabel"
 	{
@@ -673,9 +540,6 @@
 		//		"0"
 		"labelText"		"Height"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ClearDecals"
 	{
@@ -691,10 +555,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Clear Decals"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 }

@@ -15,8 +15,6 @@
 		//		"0"
 		"labelText"		"Occlusion Visualization Mode:"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"VisualizeMode"
@@ -32,10 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 
 	"DeactivateOcclusion"
@@ -52,11 +47,6 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"Deactivate Occlusion System"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
-		"Default"		"0"
 	}
 
 	"MinOccluderLabel"
@@ -74,8 +64,6 @@
 		//		"0"
 		"labelText"		"Min Occluder Size (%):"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"MinOccluderSize"
@@ -91,7 +79,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"8"
 		"NumericInputOnly"		"1"
@@ -112,8 +99,6 @@
 		//		"0"
 		"labelText"		"Max Occludee Size (%):"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"MaxOccludeeSize"
@@ -129,7 +114,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"8"
 		"NumericInputOnly"		"1"

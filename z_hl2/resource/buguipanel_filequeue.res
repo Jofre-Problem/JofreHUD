@@ -157,10 +157,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_maximize"
 	{
@@ -177,10 +173,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_mintosystray"
 	{
@@ -197,11 +189,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"frame_close"
 	{
@@ -218,10 +206,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_menu"
 	{
@@ -236,11 +220,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"BugTitle"
 	{
@@ -255,11 +234,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"75"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugDescription"
 	{
@@ -274,11 +250,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugEmail"
 	{
@@ -293,11 +266,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"80"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugSubitterLabelPublic"
 	{
@@ -312,10 +282,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugScreenShotURL"
 	{
@@ -331,10 +297,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Shot URL"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugSaveGameURL"
 	{
@@ -350,10 +312,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		".sav File"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugBSPURL"
 	{
@@ -369,10 +327,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		".bsp file"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugVMFURL"
 	{
@@ -388,10 +342,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		".vmf file"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugIncludedFiles"
 	{
@@ -406,11 +356,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugTakeShot"
 	{
@@ -426,12 +372,7 @@
 		"enabled"		"1"
 		//		"11"
 		"labelText"		"Take shot"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"snapshot"
-		"Default"		"0"
 	}
 	"BugSaveGame"
 	{
@@ -447,12 +388,7 @@
 		"enabled"		"1"
 		//		"12"
 		"labelText"		"Save game"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"savegame"
-		"Default"		"0"
 	}
 	"BugSaveBSP"
 	{
@@ -468,12 +404,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Include .bsp"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"savebsp"
-		"Default"		"0"
 	}
 	"BugSaveVMF"
 	{
@@ -489,13 +420,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		".vmf"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
 		"Command"		"savevmf"
-		"Default"		"0"
 	}
 	"BugChooseVMFFolder"
 	{
@@ -511,12 +437,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Folder..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultVerySmall"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"BugIncludeFile"
 	{
@@ -532,12 +453,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Include file..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"addfile"
-		"Default"		"0"
 	}
 	"BugClearIncludedFiles"
 	{
@@ -553,12 +469,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Clear files"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"clearfiles"
-		"Default"		"0"
 	}
 	"BugPosition"
 	{
@@ -573,10 +484,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugOrientation"
 	{
@@ -591,10 +498,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugLevel"
 	{
@@ -609,10 +512,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugBuild"
 	{
@@ -627,10 +526,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugSubmitter"
 	{
@@ -645,10 +540,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BugOwner"
 	{
@@ -664,11 +555,7 @@
 		"enabled"		"1"
 		"labelText"		"Triage"
 		//		"3"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugSeverity"
 	{
@@ -683,11 +570,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugReportType"
 	{
@@ -702,11 +585,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugPriority"
 	{
@@ -721,11 +600,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugArea"
 	{
@@ -740,11 +615,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugMapNumber"
 	{
@@ -760,11 +631,7 @@
 		"enabled"		"1"
 		"editable"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"BugSubmit"
 	{
@@ -777,15 +644,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"8"
 		"labelText"		"Submit"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"submit"
-		"Default"		"0"
 	}
 	"BugCancel"
 	{
@@ -801,10 +662,6 @@
 		"enabled"		"1"
 		//		"9"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"cancel"
 		"Default"		"1"
 	}
@@ -822,12 +679,7 @@
 		"enabled"		"1"
 		//		"10"
 		"labelText"		"Clear Form"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"clearform"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -843,10 +695,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Title:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -862,10 +710,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Description:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label3"
 	{
@@ -881,10 +725,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Position:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label5"
 	{
@@ -900,10 +740,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Map:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label6"
 	{
@@ -919,10 +755,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Build:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label7"
 	{
@@ -938,10 +770,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Submitter:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label8"
 	{
@@ -957,10 +785,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Owner:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label9"
 	{
@@ -976,10 +800,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Severity:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label10"
 	{
@@ -992,13 +812,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Report Type:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label11"
 	{
@@ -1011,13 +826,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Priority:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label12"
 	{
@@ -1033,10 +843,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Product:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label4"
 	{
@@ -1052,10 +858,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Orientation:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label13"
 	{
@@ -1071,10 +873,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Component:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"BuildModeDialog"
 	{

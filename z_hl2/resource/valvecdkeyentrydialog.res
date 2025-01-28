@@ -39,12 +39,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"6"
 		"labelText"		"#GameUI_OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"OK"
 		"Default"		"1"
 	}
@@ -62,11 +58,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"#GameUI_Quit"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"Cancel"
-		"Default"		"0"
 	}
 	"Entry1"
 	{
@@ -81,10 +73,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"		"0"
 	}
 	"Entry2"
 	{
@@ -99,10 +89,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"		"0"
 	}
 	"Entry3"
 	{
@@ -117,10 +105,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"		"0"
 	}
 	"Entry4"
 	{
@@ -135,10 +121,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"		"0"
 	}
 	"Entry5"
 	{
@@ -153,10 +137,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"		"0"
 	}
 	"Label1"
 	{
@@ -174,6 +156,5 @@
 		"labelText"		"#GameUI_EnterCDKey"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 }

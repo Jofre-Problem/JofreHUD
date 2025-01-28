@@ -30,11 +30,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_BenchmarkResults_UploadNow"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Button1"
 	{
@@ -50,12 +45,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#vgui_close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -71,9 +61,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_BenchmarkResults_Info"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

@@ -24,7 +24,6 @@
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"wrap"			"0"
 				"centerwrap"	"1"
 				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"

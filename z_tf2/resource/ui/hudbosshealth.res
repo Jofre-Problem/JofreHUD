@@ -64,8 +64,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor_override"	"255 255 0 255"
 		"bgcolor_override"	"50 0 0 255"
 	}					

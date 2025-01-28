@@ -16,7 +16,6 @@
 		"labelText"		"#GameUI_Miles_Audio"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
 		"wrap"		"1"
 	}
@@ -36,9 +35,7 @@
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -56,9 +53,7 @@
 		"labelText"		"#GameUI_Bink"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
 	}
 	"Button2"
 	{
@@ -74,10 +69,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_Close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"1"
 	}
@@ -93,7 +84,6 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"		"west"
 		"image"			"techcredits/bink"
 		"scaleImage"	"1"
 	}

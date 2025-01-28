@@ -71,8 +71,6 @@
 		//	"0"
 		"labelText"		"#TF_RocketPack_Disabled"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 		"fgcolor"		"178 0 0 255"
 	}
@@ -95,8 +93,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"White"
 	}
 
@@ -117,8 +113,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"White"
 	}
 }

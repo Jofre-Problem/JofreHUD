@@ -5,7 +5,6 @@
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -82,14 +81,11 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}	
 	"spectator_extras"
@@ -100,7 +96,6 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -166,7 +161,6 @@
 		"xpos"						"9999"
 		"tall"						"0"
 		"wide"						"0"
-		"enabled"					"0"
 	}
 	"BottomBar"
 	{
@@ -174,7 +168,6 @@
 		"fieldName"					"BottomBar"
 		"xpos"						"9999"
 		"wide"						"0"
-		"enabled"					"0"
 	}
 	"bottombarblank"
 	{
@@ -182,6 +175,5 @@
 		"fieldName"					"bottombarblank"
 		"xpos"						"9999"
 		"wide"						"0"
-		"enabled"					"0"
 	}
 }

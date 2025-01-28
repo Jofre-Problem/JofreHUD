@@ -28,11 +28,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"TargetNameLabel"
 	{
@@ -48,11 +45,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Target Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"PositionLabel"
 	{
@@ -68,11 +61,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Location:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"TargetPositionLabel"
 	{
@@ -89,9 +78,6 @@
 		//		"0"
 		"labelText"		"Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionX"
 	{
@@ -106,11 +92,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PositionXLabel"
 	{
@@ -126,10 +110,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"X"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionYLabel"
 	{
@@ -145,10 +125,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Y"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionZLabel"
 	{
@@ -164,10 +140,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Z"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionY"
 	{
@@ -182,11 +154,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PositionZ"
 	{
@@ -201,11 +171,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"OrientationLabel"
 	{
@@ -222,9 +190,6 @@
 		//		"0"
 		"labelText"		"Orientation"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"pitch"
 	{
@@ -239,11 +204,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Yaw"
 	{
@@ -258,11 +221,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Roll"
 	{
@@ -277,11 +238,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PitchLabel"
 	{
@@ -297,10 +256,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Pitch"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"YawLabel"
 	{
@@ -316,10 +271,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Yaw"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"RollLabel"
 	{
@@ -335,10 +286,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Roll"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Divider1"
 	{

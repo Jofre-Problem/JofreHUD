@@ -26,7 +26,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//	"0"
 	}
 
@@ -41,7 +40,6 @@
 		//	"3"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//	"0"
 	}
 
@@ -56,10 +54,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		"dulltext"		"0"
 		"brighttext"	"1"
 	}
 
@@ -112,8 +108,6 @@
 		"enabled"		"1"
 		//	"1"
 		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
@@ -153,8 +147,6 @@
 		"enabled"		"1"
 		//	"2"
 		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
@@ -198,8 +190,6 @@
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
 	}
@@ -217,8 +207,6 @@
 		//		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}
@@ -244,9 +232,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
@@ -270,9 +255,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"wrap"			"0"
 		"font"			"MenuSmallestFont"
 		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"

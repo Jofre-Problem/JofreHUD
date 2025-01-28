@@ -158,10 +158,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_maximize"
 	{
@@ -178,10 +174,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_mintosystray"
 	{
@@ -198,11 +190,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"frame_close"
 	{
@@ -219,10 +207,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_menu"
 	{
@@ -237,11 +221,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"dxlabel"
 	{
@@ -255,13 +234,8 @@
 		//		"0"
 		"visible"		"1" [!$POSIX]
 		"visible"		"0" [$POSIX]
-		"enabled"		"0"
 		//		"14"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ModelDetail"
 	{
@@ -276,11 +250,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"TextureDetail"
 	{
@@ -295,11 +265,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"AntialiasingMode"
 	{
@@ -314,11 +280,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"FilteringMode"
 	{
@@ -333,11 +295,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"8"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ShadowDetail"
 	{
@@ -352,11 +310,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"HDR"
 	{
@@ -372,11 +326,7 @@
 		"visible"		"0" [$OSX]
 		"enabled"		"1"
 		//		"12"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"WaterDetail"
 	{
@@ -391,11 +341,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"VSync"
 	{
@@ -410,11 +356,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"9"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ShaderDetail"
 	{
@@ -429,11 +371,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ColorCorrection"
 	{
@@ -448,11 +386,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"MotionBlur"
 	{
@@ -467,11 +401,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"10"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Bloom"
 	{
@@ -488,12 +418,6 @@
 		"enabled"		"1"
 		//		"13"
 		"labelText"		"#GameUI_Bloom"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Motion Blur Label"
 	{
@@ -509,11 +433,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_MotionBlur"
-		"textAlignment"		"west"
 		"associate"		"HDR"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Button1"
 	{
@@ -530,13 +450,8 @@
 		"enabled"		"1"
 		//		"16"
 		"labelText"		"#GameUI_OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"OK"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	"Button2"
 	{
@@ -553,13 +468,7 @@
 		"enabled"		"1"
 		//		"17"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Label1"
 	{
@@ -577,9 +486,6 @@
 		//		"0"
 		"labelText"		"#GameUI_DX_Level"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -597,9 +503,6 @@
 		//		"0"
 		"labelText"		"#GameUI_DX_Installed"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label3"
 	{
@@ -615,11 +518,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Model_Detail"
-		"textAlignment"		"west"
 		"associate"		"ModelDetail"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label4"
 	{
@@ -635,11 +534,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Texture_Detail"
-		"textAlignment"		"west"
 		"associate"		"TextureDetail"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label5"
 	{
@@ -655,11 +550,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Antialiasing_Mode"
-		"textAlignment"		"west"
 		"associate"		"AntialiasingMode"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label6"
 	{
@@ -675,11 +566,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Filtering_Mode"
-		"textAlignment"		"west"
 		"associate"		"FilteringMode"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"dxinstalledlabel"
 	{
@@ -696,10 +583,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"DirectX v9.0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Divider1"
 	{
@@ -730,11 +613,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Water_Detail"
-		"textAlignment"		"west"
 		"associate"		"WaterDetail"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label8"
 	{
@@ -750,11 +629,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Shadow_Detail"
-		"textAlignment"		"west"
 		"associate"		"ShadowDetail"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label12"
 	{
@@ -770,11 +645,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Color_Correction"
-		"textAlignment"		"west"
 		"associate"		"ColorCorrection"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label10"
 	{
@@ -790,11 +661,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Wait_For_VSync"
-		"textAlignment"		"west"
 		"associate"		"VSync"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label9"
 	{
@@ -810,11 +677,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Shader_Detail"
-		"textAlignment"		"west"
 		"associate"		"ShaderDetail"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label11"
 	{
@@ -831,11 +694,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_RecommendedSettings"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Font"		"DefaultSmall"
-		"wrap"		"0"
 	}
 	"HDR Label"
 	{
@@ -852,11 +711,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_HDR"
-		"textAlignment"		"west"
 		"associate"		"HDR"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Divider2"
 	{
@@ -922,10 +777,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_FOV"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"MulticoreLabel"
 	{
@@ -941,10 +792,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_MulticoreRendering"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Multicore"
 	{
@@ -959,10 +806,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"10"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 }

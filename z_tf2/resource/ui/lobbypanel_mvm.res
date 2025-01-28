@@ -10,7 +10,6 @@
 		"ypos"			"50"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"

@@ -28,11 +28,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"AudioFilePickerButton"
 	{
@@ -48,11 +45,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"Command"	"PickSound"
 	}
 	"AudioFileName"
@@ -67,13 +59,8 @@
 		//"PinnedCornerOffsetY" "-88"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"2"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"RecordAudioButton"
 	{
@@ -90,11 +77,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Record"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Speaker"
 	{
@@ -110,11 +92,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"synopsis"
 	{
@@ -130,11 +109,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ViewPositionPickerButton"
 	{
@@ -150,11 +126,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"ViewTargetPickerButton"
 	{
@@ -170,11 +141,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"viewposition"
 	{
@@ -188,13 +154,8 @@
 		//"PinnedCornerOffsetY" "-20"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"viewtarget"
 	{
@@ -208,13 +169,8 @@
 		//"PinnedCornerOffsetY" "-20"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"PreventMovement"
 	{
@@ -230,11 +186,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Prevent Movement"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"StartCommands"
 	{
@@ -250,11 +201,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"11"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"EndCommands"
 	{
@@ -270,11 +218,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"12"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"CommentaryNodeNameLabel"
 	{
@@ -290,11 +235,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Commentary Node Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"AudioFileLabel"
 	{
@@ -311,9 +252,6 @@
 		//		"0"
 		"labelText"		"Audio File"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"SpeakerLabel"
 	{
@@ -330,9 +268,6 @@
 		//		"0"
 		"labelText"		"Speaker(s)"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"SynopsisLabel"
 	{
@@ -349,9 +284,6 @@
 		//		"0"
 		"labelText"		"Synopsis (optional)"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"CameraControlLabel"
 	{
@@ -367,11 +299,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Camera Control:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"ViewPositionLabel"
 	{
@@ -388,9 +316,6 @@
 		//		"0"
 		"labelText"		"View Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ViewTargetLabel"
 	{
@@ -407,9 +332,6 @@
 		//		"0"
 		"labelText"		"View Target"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"OperationsLabel"
 	{
@@ -425,11 +347,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Operations:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"StartCommandsLabel"
 	{
@@ -446,9 +364,6 @@
 		//		"0"
 		"labelText"		"Start Console Commands"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"EndCommandsLabel"
 	{
@@ -465,9 +380,6 @@
 		//		"0"
 		"labelText"		"End Console Commands"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"AudioLabel"
 	{
@@ -483,11 +395,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Audio:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"PositionLabel"
 	{
@@ -503,11 +411,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Location:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultBold"
-		"wrap"		"0"
 	}
 	"NodePositionLabel"
 	{
@@ -524,9 +428,6 @@
 		//		"0"
 		"labelText"		"Position"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionX"
 	{
@@ -541,11 +442,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PositionXLabel"
 	{
@@ -561,10 +460,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"X"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionYLabel"
 	{
@@ -580,10 +475,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Y"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionZLabel"
 	{
@@ -599,10 +490,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Z"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PositionY"
 	{
@@ -617,11 +504,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PositionZ"
 	{
@@ -636,11 +521,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"OrientationLabel"
 	{
@@ -657,9 +540,6 @@
 		//		"0"
 		"labelText"		"Orientation"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"pitch"
 	{
@@ -674,11 +554,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"8"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Yaw"
 	{
@@ -693,11 +571,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"9"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Roll"
 	{
@@ -712,11 +588,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"10"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"PitchLabel"
 	{
@@ -732,10 +606,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Pitch"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"YawLabel"
 	{
@@ -751,10 +621,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Yaw"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"RollLabel"
 	{
@@ -770,10 +636,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Roll"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Divider1"
 	{

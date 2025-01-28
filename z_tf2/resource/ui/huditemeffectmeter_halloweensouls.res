@@ -54,8 +54,6 @@
 		//			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"TFFontSmall"
 		"proportionalToParent"	"1"	
 	}
@@ -76,10 +74,7 @@
 		//			"0"
 		//				"0"
 		"visible"				"0"
-		"enabled"				"0"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"proportionalToParent"	"1"	
 	}					
 	
@@ -98,8 +93,6 @@
 		//			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"HudFontMedium"
 		"proportionalToParent"	"1"	
 	}					

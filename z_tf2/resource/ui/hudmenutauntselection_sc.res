@@ -60,8 +60,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	
 	"TitleLabelDropshadow"
@@ -82,7 +80,6 @@
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"TauntModelPanel1"
@@ -432,8 +429,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"WeaponTauntHintIcon"
@@ -469,8 +464,6 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Weapon_NoKey"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"CancelHintIcon"
@@ -507,7 +500,5 @@
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 }

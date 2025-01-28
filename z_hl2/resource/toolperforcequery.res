@@ -31,9 +31,6 @@
 		//		"0"
 		"labelText"		"Open for edit?"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"FileNameLabel"
 	{
@@ -50,9 +47,6 @@
 		//		"0"
 		"labelText"		""
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font" "defaultverysmall"
 	}
 	"Yes"
@@ -70,9 +64,6 @@
 		//		"0"
 		"labelText"		"Yes"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"yes"
 		"Default"		"1"
 	}
@@ -91,10 +82,6 @@
 		//		"0"
 		"labelText"		"No"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"no"
-		"Default"		"0"
 	}
 }

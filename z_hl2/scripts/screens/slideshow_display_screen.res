@@ -35,7 +35,6 @@
 		"enabled"			"1"
 		//		"0"		
 		"textAlignment"		"center"
-		"dulltext"			"0"
 		"paintBackground" 	"0"
 		"labelText"			"*"
 	}

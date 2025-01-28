@@ -44,13 +44,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"close"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	
 	"Button2"
@@ -67,12 +62,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#KBHelpEditBindings"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"edit"
 		"Default"		"1"
-		"selected"		"0"
 	}
 }

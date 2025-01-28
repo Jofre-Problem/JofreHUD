@@ -9,7 +9,6 @@
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
 		"image"			"mvm/campaign_1_marker_down"
 	}
 	
@@ -22,7 +21,6 @@
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
 		"image"			"mvm/campaign_1_marker_over"
 	}
 	
@@ -35,7 +33,6 @@
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
 		"image"			"mvm/campaign_1_marker"
 	}
 	
@@ -48,7 +45,6 @@
 		"wide"			"60"
 		"tall"			"60"
 		"visible"		"0"
-		"enabled"		"0"
 		"image"			"mvm/campaign_1_marker_over"
 	}
 }

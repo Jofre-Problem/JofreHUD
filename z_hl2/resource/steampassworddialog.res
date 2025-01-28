@@ -27,7 +27,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
 		"dulltext"		"1"
 	}
 	"PasswordEdit"
@@ -62,10 +61,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"command"		"Close"
-		"default"		"0"
 	}
 	"QuitGame"
 	{
@@ -81,10 +77,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Quit"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"command"		"QuitGame"
-		"default"		"0"
 	}
 	"BuildDialog"
 	{

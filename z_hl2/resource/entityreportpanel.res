@@ -42,12 +42,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Go To"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"DeleteButton"
 	{
@@ -63,12 +57,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Delete"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 		"command"		"Delete"
 	}
 	"PropertiesButton"
@@ -85,12 +73,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Properties"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Default"		"1"
-		"selected"		"0"
 		"command"		"ShowProperties"
 	}
 	"CloseButton"
@@ -107,12 +90,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"EntitiesLabel"
 	{
@@ -128,10 +105,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Entities:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"FilterLabel"
 	{
@@ -147,10 +120,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Filter:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"EverythingRadio"
 	{
@@ -166,12 +135,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Everything"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 		"SubTabPosition"		"1"
 	}
 	"PointRadio"
@@ -188,12 +151,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Point"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 		"SubTabPosition"		"2"
 	}
 	"BrushRadio"
@@ -210,12 +167,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Brush"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 		"SubTabPosition"		"3"
 	}
 	"HiddenCheck"
@@ -232,12 +183,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Include Hidden Objects"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"KeyvalueCheck"
 	{
@@ -253,12 +198,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"By Key/Value"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"KeyTextEntry"
 	{
@@ -273,11 +212,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"EqualsLabel"
 	{
@@ -293,10 +229,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"="
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ValueTextEntry"
 	{
@@ -311,11 +243,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ExactCheck"
 	{
@@ -331,12 +260,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Exact Matches Only"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"ClassnameCheck"
 	{
@@ -352,12 +275,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"By Class Name"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"ClassNameComboBox"
 	{
@@ -372,10 +289,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 }

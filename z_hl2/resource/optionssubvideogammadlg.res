@@ -46,10 +46,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Gamma"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"GammaEntry"
 	{
@@ -64,11 +60,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"OKButton"
 	{
@@ -84,10 +78,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Default"		"1"
 	}
 	"ImagePanel1"
@@ -121,12 +111,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -143,8 +128,6 @@
 		//		"0"
 		"labelText"		"#GameUI_GammaInfo"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

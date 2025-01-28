@@ -33,8 +33,6 @@
 		"labelText"		"#TF_Empty_Slot"
 		"labelText_lodef"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"black"
 	}
 

@@ -26,7 +26,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//	"0"
 	}
 	
@@ -901,7 +900,6 @@
 		"enabled"		"1"
 		//	"0"	
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}		
 	
@@ -1567,8 +1565,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -1739,8 +1735,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

@@ -31,7 +31,6 @@
 		"wide"			"256"
 		"tall"			"20"
 		"font"			"AchievementItemTitle"
-		"textAlignment"		"west"
 	}
 			
 	"StatValue"
@@ -44,7 +43,6 @@
 		"wide"			"200"
 		"tall"			"20"
 		"font"			"AchievementItemTitle"
-		"textAlignment"		"west"
 		"textColor"	"255 255 255 255"
 	}
 }

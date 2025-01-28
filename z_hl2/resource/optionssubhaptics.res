@@ -13,8 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"ForceMasterSlider"
@@ -47,8 +45,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"ForceRecoilSlider"
@@ -81,8 +77,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"ForceDamageSlider"
@@ -115,8 +109,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"ForceMovementSlider"
@@ -149,8 +141,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 
@@ -183,8 +173,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"PlayerBoxScaleSlider"
@@ -217,8 +205,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"PlayerStiffnessSlider"
@@ -251,8 +237,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"PlayerTurnSlider"
@@ -285,8 +269,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"PlayerAimSlider"
@@ -319,8 +301,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 	
 	
@@ -353,8 +333,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 	
 	"VehicleBoxScaleSlider"
@@ -387,8 +365,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 	
 	"VehicleStiffnessSlider"
@@ -422,8 +398,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 	"VehicleTurnSlider"
@@ -456,8 +430,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 
@@ -492,8 +464,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"unicode"		"0"
 	}
 
 

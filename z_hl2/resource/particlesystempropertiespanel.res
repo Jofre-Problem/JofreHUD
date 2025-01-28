@@ -31,7 +31,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				//	"1"
-				"editable"		"0"
 				"maxchars"		"-1"
 			}
 

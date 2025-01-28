@@ -29,11 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"name"
 	{
@@ -48,11 +44,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Create"
 	{
@@ -68,13 +61,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Create"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Create"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Cancel"
 	{
@@ -90,13 +77,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Label1"
 	{
@@ -112,10 +93,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Operation:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -131,9 +108,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

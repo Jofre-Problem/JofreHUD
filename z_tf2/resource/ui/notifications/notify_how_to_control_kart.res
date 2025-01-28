@@ -46,7 +46,5 @@
 		"enabled"		"1"
 		"labelText"		"#TF_How_To_Control_Kart"
 		"textAlignment"	"North-West"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 }

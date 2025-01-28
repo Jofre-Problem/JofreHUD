@@ -41,13 +41,8 @@
 		//		"0"
 		//		"3"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"2"
 		"labelText"		"#GameUI_Load"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"loadsave"
 		"Default"		"1"
 	}
@@ -65,12 +60,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"Delete"
 	{
@@ -86,12 +76,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Delete"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Delete"
-		"Default"		"0"
 	}
 	"HelpText"
 	{
@@ -107,9 +92,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_LoadGameHelp"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"topHorizLeft"
@@ -126,10 +108,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"topVertLeft"
 	{
@@ -145,10 +123,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -164,10 +138,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -183,9 +153,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

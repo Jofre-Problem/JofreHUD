@@ -28,9 +28,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"progress"
 	{
@@ -57,14 +54,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"Cancel"
-		"Default"		"0"
 	}
 	"Divider1"
 	{
@@ -94,9 +86,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"BannerAd"
 	{
@@ -126,9 +116,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"Progress2"
 	{
@@ -158,8 +146,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 }

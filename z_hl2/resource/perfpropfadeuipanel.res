@@ -15,8 +15,6 @@
 		//		"0"
 		"labelText"		"Fade Visualization Mode:"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"VisualizeMode"
@@ -32,10 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"8"
-		"NumericInputOnly"		"0"
 	}
 
 	"MinFadeSizeLabel"
@@ -53,8 +48,6 @@
 		//		"0"
 		"labelText"		"Min Screen Width:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"MinFadeSize"
@@ -70,7 +63,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"8"
 		"NumericInputOnly"		"1"
@@ -91,8 +83,6 @@
 		//		"0"
 		"labelText"		"Max Screen Width:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 
 	"MaxFadeSize"
@@ -108,7 +98,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"

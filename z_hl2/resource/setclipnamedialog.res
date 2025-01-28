@@ -30,10 +30,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Ok"
 		"Default"		"1"
 	}
@@ -51,12 +47,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"ClipNameLabel"
 	{
@@ -73,9 +64,6 @@
 		//		"0"
 		"labelText"		"New Clip Name:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ClipName"
 	{
@@ -90,11 +78,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"RenumberClips"
 	{
@@ -111,11 +96,6 @@
 		"selected"		"1"
 		//		"0"
 		"labelText"		"Renumber Clips"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"FirstNumber"
 	{
@@ -130,11 +110,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"Increment"
 	{
@@ -149,11 +127,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"NumDigits"
 	{
@@ -168,11 +144,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"FirstNumberLabel"
 	{
@@ -189,9 +163,6 @@
 		//		"0"
 		"labelText"		"First:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"IncrementLabel"
 	{
@@ -208,9 +179,6 @@
 		//		"0"
 		"labelText"		"Increment:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"NumDigitsLabel"
 	{
@@ -227,8 +195,5 @@
 		//		"0"
 		"labelText"		"Num Digits:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

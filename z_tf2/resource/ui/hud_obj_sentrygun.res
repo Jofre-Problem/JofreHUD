@@ -8,7 +8,6 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"60"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -95,15 +94,12 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"60"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
 			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}
 	
@@ -221,13 +217,10 @@
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"53"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"	
 		}
 		
 		"BuildingPanel"
@@ -249,14 +242,11 @@
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
@@ -268,13 +258,10 @@
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 		
@@ -313,14 +300,11 @@
 				"ypos"			"13"
 				"wide"			"200"
 				"tall"			"22"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"north-west"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 					
 			"ShellIcon"	
@@ -348,13 +332,10 @@
 				"ypos"			"26"
 				"wide"			"38"
 				"tall"			"8"				
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"RocketIcon"	
@@ -382,13 +363,10 @@
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 
 			"UpgradeIcon" 
@@ -416,13 +394,10 @@
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	}

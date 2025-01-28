@@ -27,15 +27,10 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Play"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"play"
-		"Default"		"0"
 	}
 	"DemoStop"
 	{
@@ -48,15 +43,10 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Stop"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"stop"
-		"Default"		"0"
 	}
 	"DemoLoad"
 	{
@@ -73,9 +63,6 @@
 		//		"0"
 		"labelText"		"Load..."
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"load"
 		"Default"		"1"
 	}
@@ -90,15 +77,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"|<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"reload"
-		"Default"		"0"
 	}
 	"DemoGoEnd"
 	{
@@ -111,14 +92,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		">|"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoFastForward"
 	{
@@ -131,14 +106,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		">>"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoFastBackward"
 	{
@@ -151,14 +120,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"<<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoPrevFrame"
 	{
@@ -171,15 +134,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"prevframe"
-		"Default"		"0"
 	}
 	"DemoNextFrame"
 	{
@@ -192,15 +149,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		">"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"nextframe"
-		"Default"		"0"
 	}
 	"DemoProgress"
 	{
@@ -230,10 +181,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Tick: 0 / 0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
-		"wrap"		"0"
 	}
 	"DemoProgressLabelTime"
 	{
@@ -249,10 +197,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Time: 00:00 / 00:00"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
-		"wrap"		"0"
 	}
 	"DemoSpeedScale"
 	{
@@ -282,9 +227,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"100.0 %"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

@@ -13,10 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"SelectionButton"
 	{
@@ -58,9 +55,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Hue:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"HueSlider"
 	{
@@ -92,9 +86,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Saturation:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"SaturationSlider"
 	{
@@ -126,9 +117,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Value:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"ValueSlider"
 	{
@@ -161,9 +149,6 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Tolerance:"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 	"ToleranceSlider"
 	{
@@ -197,9 +182,6 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Fuzziness:"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 	"FuzzinessSlider"
 	{
@@ -233,9 +215,6 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Blend Factor:"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 	"BlendFactorSlider"
 	{
@@ -269,9 +248,6 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Colorize"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 
 	"InvertSelectionButton"
@@ -288,8 +264,5 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Invert Selection"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 }

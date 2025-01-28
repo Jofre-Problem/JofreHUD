@@ -27,11 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"MapLabel"
 	{
@@ -47,10 +43,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Map"
-		"textAlignment"		"west"
 		"associate"		"MapList"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

@@ -41,10 +41,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ok"
 	{
@@ -61,8 +58,6 @@
 		//		"0"
 		"labelText"		"#PropertyDialog_OK"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"okay"
 		"Default"		"1"
 	}

@@ -41,7 +41,6 @@
 		"wide"			        "256"
 		"tall"			        "20"
 		"font"			        "AchievementItemTitle"
-		"textAlignment"		    "west"
 	}
 
 	"GroupPercentageBarBackground"
@@ -88,10 +87,6 @@
 		"enabled"		        "1"
 		//	    	"0"
 		"labelText"		        ""
-		"textAlignment"	    	"west"
-		"dulltext"		        "0"
-		"brighttext"	    	"0"
-		"wrap"		            "0"
 		"font"			        "AchievementItemDescription"
 	}
 }

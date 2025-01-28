@@ -30,10 +30,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SaveAndQuit"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"SaveAndQuit"
 		"Default"		"1"
 	}
@@ -51,12 +47,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_DontSaveAndQuit"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Quit"
-		"Default"		"0"
 	}
 	"Button3"
 	{
@@ -72,12 +63,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -94,8 +80,6 @@
 		//		"0"
 		"labelText"		"#GameUI_SaveAndQuitQuery_Info"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

@@ -29,11 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"TimeTextEntry"
 	{
@@ -48,11 +44,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
-		"unicode"		"0"
 	}
 	"NoteTextEntry"
 	{
@@ -67,11 +61,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"NameLabel"
 	{
@@ -87,10 +78,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"TimeLabel"
 	{
@@ -106,10 +93,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Time:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"NoteLabel"
 	{
@@ -125,10 +108,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Note:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"PrevButton"
 	{
@@ -145,12 +124,8 @@
 		//		"4"
 		"labelText"		"Y"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"PrevBookmark"
-		"Default"		"0"
 	}
 	"NextButton"
 	{
@@ -166,12 +141,8 @@
 		"enabled"		"1"
 		"labelText"		"X"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"NextBookmark"
-		"Default"		"0"
 	}
 	"Okay"
 	{
@@ -187,10 +158,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"Okay"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"EditBookmark"
 		"Default"		"1"
 	}
@@ -208,11 +175,6 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"CancelEditBookmark"
-		"Default"		"0"
 	}
 }

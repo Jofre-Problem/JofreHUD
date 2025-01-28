@@ -45,7 +45,6 @@
 		//		"0"
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"center"
-		"default"		"0"
 	}
 	"BuildDialog"
 	{

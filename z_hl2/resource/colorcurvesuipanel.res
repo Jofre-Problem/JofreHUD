@@ -14,9 +14,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Channel:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"ColorMask"
 	{
@@ -31,10 +28,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"CurveEditor"
 	{
@@ -64,9 +58,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Blend Factor:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"BlendFactorSlider"
 	{

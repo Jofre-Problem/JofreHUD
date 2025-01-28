@@ -46,8 +46,6 @@
 		"enabled"		"1"
 		"labelText"		"%heading%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 	"TitleLabel"
@@ -65,8 +63,6 @@
 		"enabled"		"1"
 		"labelText"		"%title%"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 
 }

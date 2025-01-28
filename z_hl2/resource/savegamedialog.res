@@ -41,13 +41,8 @@
 		//		"0"
 		//		"3"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"2"
 		"labelText"		"#GameUI_Save"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"loadsave"
 		"Default"		"1"
 	}
@@ -65,12 +60,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"HelpText"
 	{
@@ -86,9 +76,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_SaveGameHelp"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

@@ -89,10 +89,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"sequence"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ActiveCamera"
 	{
@@ -108,10 +104,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"camera"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ActiveClipLabel"
 	{
@@ -127,10 +119,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Active Clip:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"ActiveCameraButton"
 	{
@@ -146,13 +134,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Active Camera:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ToggleWorkCamera"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	"ToolIconTray"
 	{

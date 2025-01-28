@@ -27,13 +27,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Play"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"play"
 		"Default"		"1"
 	}
@@ -48,15 +43,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Stop"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"stop"
-		"Default"		"0"
 	}
 	"DemoLoad"
 	{
@@ -72,12 +61,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Load..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"load"
-		"Default"		"0"
 	}
 	"DemoEdit"
 	{
@@ -93,12 +77,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Edit..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"edit"
-		"Default"		"0"
 	}
 	"DemoSmooth"
 	{
@@ -114,12 +93,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Smooth..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"smooth"
-		"Default"		"0"
 	}
 	"DemoDriveCamera"
 	{
@@ -135,12 +109,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Drive..."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"drive"
-		"Default"		"0"
 	}
 	"DemoGoStart"
 	{
@@ -156,12 +125,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"|<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"reload"
-		"Default"		"0"
 	}
 	"DemoGoEnd"
 	{
@@ -177,11 +141,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		">|"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoFastForward"
 	{
@@ -194,14 +153,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		">>"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoFastBackward"
 	{
@@ -217,11 +170,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"<<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DemoPrevFrame"
 	{
@@ -234,15 +182,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"<"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"			"0"
 		"Command"		"prevframe"
-		"Default"		"0"
 	}
 	"DemoNextFrame"
 	{
@@ -255,15 +197,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		">"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"nextframe"
-		"Default"		"0"
 	}
 	"DemoName"
 	{
@@ -278,10 +214,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"DemoProgress"
 	{
@@ -294,7 +226,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"progress"		"0.000000"
 	}
@@ -311,10 +242,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
-		"wrap"		"0"
 	}
 	"DemoProgressLabelTime"
 	{
@@ -329,10 +257,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
-		"wrap"		"0"
 	}
 	"DemoSpeedScale"
 	{
@@ -362,10 +287,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"100.00 %"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"DemoGo"
 	{
@@ -378,15 +299,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Goto:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"gototick"
-		"Default"		"0"
 	}
 	"DemoGoToTick"
 	{
@@ -401,11 +316,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"MinimizeButton"
 	{
@@ -422,10 +334,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"FrameButton"
 	{
@@ -442,10 +350,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"MinimiseToSysTray"
 	{
@@ -462,10 +366,6 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 }

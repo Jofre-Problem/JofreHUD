@@ -16,8 +16,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Dispenser"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 	
@@ -103,7 +101,6 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 		"fgcolor"		"0 255 0 255"
 	}
 }

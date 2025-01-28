@@ -55,7 +55,6 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
 		}
 		"Score"
 		{
@@ -73,7 +72,6 @@
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"wrap"			"0"
 		}	
 	}	
 }

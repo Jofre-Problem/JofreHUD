@@ -8,7 +8,6 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -43,7 +42,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
-		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
@@ -57,7 +55,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 	}				
 	"FooterLine"
 	{
@@ -123,7 +120,6 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
 		//		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -131,8 +127,6 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -203,7 +197,6 @@
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"25"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -211,8 +204,6 @@
 		"labelText"		"#Store_Checkout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"checkout"
 		"sound_depressed"	"UI/buttonclick.wav"

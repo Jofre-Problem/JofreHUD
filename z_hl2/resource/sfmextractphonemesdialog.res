@@ -30,11 +30,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"FilterType"
 	{
@@ -49,11 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"Waves"
 	{
@@ -83,11 +75,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#extract_button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"ReApply"
 	{
@@ -103,11 +90,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#reapply_button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -123,11 +105,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Play"
 	{
@@ -143,11 +120,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#sfm_play"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"SentenceText"
 	{
@@ -162,11 +134,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"SampleRate"
 	{
@@ -179,13 +148,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"FilterSize"
 	{
@@ -198,13 +162,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"UseWave"
 	{
@@ -220,12 +179,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SFM_UseWaveFilePhonemes"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"IgnoreVisibility"
 	{
@@ -241,12 +195,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SFM_IgnoreAnimationSetVisibility"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"CreateBookmarks"
 	{
@@ -262,12 +211,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SFM_CreateBookmarks"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"DefaultSmall"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -283,10 +227,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Sentence Text:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -302,10 +242,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Sample Rate:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label3"
 	{
@@ -321,9 +257,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Filter Size:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

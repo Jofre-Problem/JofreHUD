@@ -14,11 +14,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_FastSwitchCheck"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"ConsoleCheck"
 	{
@@ -34,11 +29,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_DeveloperConsoleCheck"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Button1"
 	{
@@ -54,10 +44,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"OK"
 		"Default"		"1"
 	}
@@ -75,11 +61,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

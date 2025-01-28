@@ -130,8 +130,6 @@
 		"labelText"		"#Replay_BackCarat"
 		"font"			"ReplayMedium"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"

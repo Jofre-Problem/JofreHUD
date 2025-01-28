@@ -41,7 +41,6 @@
 		"wide"			        "256"
 		"tall"			        "20"
 		"font"			        "AchievementItemTitle"
-		"textAlignment"		    "west"
 	}
 
 

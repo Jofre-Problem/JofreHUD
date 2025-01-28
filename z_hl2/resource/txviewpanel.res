@@ -27,15 +27,10 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Refresh"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"refresh"
-		"Default"		"0"
 	}
 	"Textures"
 	{

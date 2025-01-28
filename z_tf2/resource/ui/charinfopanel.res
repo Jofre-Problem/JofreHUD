@@ -43,7 +43,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
-		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
@@ -57,7 +56,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 	}				
 	"FooterLine"
 	{
@@ -130,8 +128,6 @@
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"

@@ -27,13 +27,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"password"
 	{
@@ -51,8 +46,6 @@
 		"textHidden"		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"SavePasswordCheck"
 	{
@@ -68,12 +61,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_RefreshLogin_RememberPassword"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"RememberPassword"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -89,8 +77,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_RefreshLogin_InfoTicketExpired"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
 		"wrap"		"1"
 	}
@@ -109,9 +95,6 @@
 		//		"0"
 		"labelText"		"#GameUI_RefreshLogin_UserName"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label3"
 	{
@@ -128,9 +111,6 @@
 		//		"0"
 		"labelText"		"#GameUI_RefreshLogin_Password"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"OKButton"
 	{
@@ -147,9 +127,6 @@
 		//		"4"
 		"labelText"		"#GameUI_RefreshLogin_Login"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Login"
 		"Default"		"1"
 	}
@@ -168,11 +145,7 @@
 		//		"5"
 		"labelText"		"#GameUI_RefreshLogin_Cancel"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }
  

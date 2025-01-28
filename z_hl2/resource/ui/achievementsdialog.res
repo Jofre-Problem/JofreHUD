@@ -35,12 +35,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Back"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	
 	"listpanel_achievements"
@@ -117,9 +112,6 @@
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"fillcolor"	"255 255 255 255"
 		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
@@ -134,7 +126,6 @@
 		"tall"			"24"
 		"enabled"		"1"
 		"visible"		"1"
-		"editable"		"0"
 	}
 	
 	"ProgressBackground" // dark box around progress bar and 'achievements earned' label
@@ -165,10 +156,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievements_Earned"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"fillcolor"	"255 255 255 255"
 		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
@@ -187,10 +174,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievement_Hide_Achieved"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"			"AchievementItemDescription"
 	}
 }

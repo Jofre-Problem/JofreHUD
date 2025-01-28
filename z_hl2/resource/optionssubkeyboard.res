@@ -28,12 +28,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_SetNewKey"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ChangeKey"
-		"Default"		"0"
 	}
 	"ClearKeyButton"
 	{
@@ -49,12 +44,7 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"#GameUI_ClearKey"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ClearKey"
-		"Default"		"0"
 	}
 	"Defaults"
 	{
@@ -70,12 +60,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_UseDefaults"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Defaults"
-		"Default"		"0"
 	}
 	"KeyAdvancedButton"
 	{
@@ -91,10 +76,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_AdvancedEllipsis"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Advanced"
 		"Default"		"1"
 	}

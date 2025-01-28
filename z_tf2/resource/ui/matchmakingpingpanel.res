@@ -128,8 +128,6 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"enabled"	"0"
-
 		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
@@ -242,7 +240,6 @@
 		"ypos"		"175"
 		"wide"		"f40"
 		"tall"		"24"
-		"autoResize"		"0"
 		//		"0"
 		//"RoundedCorners"		"15"
 		"pin_corner_to_sibling"		"0"
@@ -265,7 +262,6 @@
 		"zpos"			"100"
 		"wide"			"f37"
 		"tall"			"f220"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

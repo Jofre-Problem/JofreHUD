@@ -30,13 +30,8 @@
 		//		"0"
 		"labelText"		"W"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnFirstFrame"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"PrevClipTop"
 	{
@@ -53,12 +48,7 @@
 		//		"0"
 		"labelText"		"["
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"OnPrevClipTop"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"PrevFrame"
 	{
@@ -75,13 +65,8 @@
 		//		"0"
 		"labelText"		"Y"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnPrevFrame"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"GameRec"
 	{
@@ -98,13 +83,8 @@
 		//		"0"
 		"labelText"		"Z"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnShowRecordGameDialog"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"PlayPause"
 	{
@@ -121,13 +101,8 @@
 		//		"0"
 		"labelText"		"R"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnPlayPause"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"NextFrame"
 	{
@@ -144,13 +119,8 @@
 		//		"0"
 		"labelText"		"X"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnNextFrame"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"NextClipTop"
 	{
@@ -167,12 +137,7 @@
 		//		"0"
 		"labelText"		"]"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"OnNextClipTop"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"LastFrame"
 	{
@@ -189,13 +154,8 @@
 		//		"0"
 		"labelText"		"S"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"OnLastFrame"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"TrackMidiTime"
 	{
@@ -212,13 +172,8 @@
 		//		"0"
 		"labelText"		"R"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"TrackMidiTime"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RepeatType"
 	{
@@ -235,12 +190,7 @@
 		//		"0"
 		"labelText"		"+"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"		"VCRControls"
-		"wrap"		"0"
 		"Command"		"RepeatType"
-		"Default"		"0"
-		"selected"		"0"
 	}
 }

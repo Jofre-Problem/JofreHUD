@@ -98,8 +98,6 @@
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"default"		"1"
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"

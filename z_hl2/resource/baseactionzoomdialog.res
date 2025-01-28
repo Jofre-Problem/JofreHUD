@@ -142,9 +142,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"FrameButton"
 	{
@@ -161,9 +158,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"MinimiseToSysTray"
 	{
@@ -180,10 +174,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"CloseButton"
 	{
@@ -200,9 +191,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"MenuButton"
 	{
@@ -215,12 +203,7 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"OK"
 	{
@@ -236,9 +219,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Default"		"1"
 		"command"		"OK"
 	}
@@ -256,10 +236,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 		"command"		"Cancel"
 	}
 	"actionname"
@@ -275,10 +251,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"actionstart"
 	{
@@ -293,10 +267,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ActionStartType"
 	{
@@ -311,10 +283,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ZoomFOV"
 	{
@@ -329,10 +298,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ZoomOut"
 	{
@@ -347,10 +314,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ZoomIn"
 	{
@@ -365,10 +330,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ZoomHold"
 	{
@@ -383,10 +346,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
 	}
 	"ZoomSpline"
 	{
@@ -402,10 +363,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Spline"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"ZoomStayout"
 	{
@@ -421,10 +378,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Stay Out"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -440,9 +393,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Name:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label2"
 	{
@@ -458,9 +408,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Start on:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label3"
 	{
@@ -476,9 +423,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Final FOV:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label4"
 	{
@@ -494,9 +438,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Zoom In Time"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label5"
 	{
@@ -512,9 +453,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Zoom Out Time"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label6"
 	{
@@ -530,8 +468,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Hold Time:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

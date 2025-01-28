@@ -8,7 +8,6 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"22"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,14 +64,11 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}
 	
@@ -96,7 +92,6 @@
 			"wide"			"8"
 			"tall"			"8"
 			"visible"		"0"
-			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
 			"iconColor"		"255 255 255 255"
@@ -113,7 +108,6 @@
 			"wide"			"44"
 			"tall"			"30"
 			"visible"		"0"
-			"enabled"		"0"	
 			"icon"			"obj_status_alert_background_tall"
 		}
 		
@@ -127,7 +121,6 @@
 			"wide"			"17"
 			"tall"			"17"
 			"visible"		"0"
-			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
@@ -143,7 +136,6 @@
 			"wide"			"15"
 			"tall"			"15"
 			"visible"		"0"
-			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
@@ -158,13 +150,10 @@
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"	
 		}
 		
 		"BuildingPanel"
@@ -186,14 +175,11 @@
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
@@ -205,13 +191,10 @@
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 		
@@ -235,7 +218,6 @@
 				"wide"			"10"
 				"tall"			"10"
 				"visible"		"0"
-				"enabled"		"0"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
@@ -250,14 +232,10 @@
 				"ypos"			"6"
 				"wide"			"200"
 				"tall"			"22"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"0"
-				"enabled"		"0"
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"north-west"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 					
 			"ShellIcon"	
@@ -285,13 +263,10 @@
 				"ypos"			"7"
 				"wide"			"38"
 				"tall"			"8"				
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	}

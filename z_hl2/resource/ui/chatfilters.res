@@ -27,10 +27,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_joinleave"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 	"namechange_button"
 	{
@@ -46,10 +42,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_namechange"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 	"publicchat_button"
 	{
@@ -65,10 +57,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_publicchat"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 	"servermsg_button"
 	{
@@ -84,10 +72,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_servermsg"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 	"teamchange_button"
 	{
@@ -103,10 +87,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_teamchange"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 	
 	"achivement_button"
@@ -123,9 +103,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#filter_achievement"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"		
 	}
 }

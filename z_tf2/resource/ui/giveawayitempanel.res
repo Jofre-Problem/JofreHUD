@@ -114,7 +114,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
 	
@@ -159,8 +158,6 @@
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"Command"		"vguicancel"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"

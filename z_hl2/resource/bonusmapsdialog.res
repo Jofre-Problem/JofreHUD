@@ -42,15 +42,9 @@
 		//		"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"2"
 		"labelText"		"#GameUI_Back"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"back"
-		"Default"		"0"
 	}
 	"LoadBonusMap" //load button
 	{
@@ -63,13 +57,8 @@
 		//		"0"
 		//		"3"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"3"
 		"labelText"		"#GameUI_Load"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"loadbonusmap"
 		"Default"		"1"
 	}
@@ -87,12 +76,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"ImportBonusMaps"
 	{
@@ -108,13 +92,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ImportBonusMaps"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	
 	"PercentageBarBackground" //light grey overall percentage
@@ -158,9 +136,6 @@
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"CompletionText" //Complete text inside the percentage field
 	{
@@ -176,10 +151,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	
 	"HelpText" //Upper large menu screen description
@@ -196,9 +167,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsHelp"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	
@@ -216,8 +184,6 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"font"	"DefaultSmall"
 	}
 	"CommentLabel" //description underneath the file name
@@ -247,13 +213,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"ChallengeCommentLabel" //when you select a challenge it's the text description
 	{

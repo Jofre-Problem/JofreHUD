@@ -58,11 +58,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"SortCombo"
 	{
@@ -77,11 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"HierarchicalViewSelection"
 	{
@@ -97,11 +89,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Hierarchical View"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"RedoSorting"
 	{
@@ -117,10 +104,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Redo Sorting"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"redosort"
 		"Default"		"1"
 	}
@@ -138,11 +121,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Verbose"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"PlaybackLabel"
 	{
@@ -158,10 +136,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Playback (tick 0)"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"StepForward"
 	{
@@ -178,11 +152,7 @@
 		//		"0"
 		"labelText"		"Forward"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"StepForward"
-		"Default"		"0"
 	}
 	"StepBack"
 	{
@@ -199,11 +169,7 @@
 		//		"0"
 		"labelText"		"Back"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"StepBack"
-		"Default"		"0"
 	}
 	"GotoButton"
 	{
@@ -220,11 +186,7 @@
 		//		"0"
 		"labelText"		"<-- goto"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"GotoButton"
-		"Default"		"0"
 	}
 	"PlaybackScroll"
 	{
@@ -255,8 +217,5 @@
 		//		"0"
 		"labelText"		"Category :"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

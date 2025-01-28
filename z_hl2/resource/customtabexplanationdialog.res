@@ -157,10 +157,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_maximize"
 	{
@@ -177,10 +173,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_mintosystray"
 	{
@@ -197,11 +189,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"frame_close"
 	{
@@ -218,10 +206,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_menu"
 	{
@@ -236,11 +220,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"Explanation"
 	{
@@ -257,8 +236,6 @@
 		//		"0"
 		"labelText"		"#GameUI_CustomTab_Explanation"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"Explanation2"
@@ -276,8 +253,6 @@
 		//		"0"
 		"labelText"		"#GameUI_CustomTab_Explanation2"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"Explanation3"
@@ -294,9 +269,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_CustomTab_Explanation3"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"CustomServerInfoURL"
@@ -314,9 +286,6 @@
 		//		"0"
 		"labelText"		"#GameUI_CustomTab_Link"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"URLText"		"http://support.steampowered.com/kb_article.php?ref=7958-WSCV-6557"
 	}
 	"OkClose"
@@ -334,12 +303,8 @@
 		//		"0"
 		"labelText"		"#vgui_ok"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"ok"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	"Cancel"
 	{
@@ -352,16 +317,9 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"cancel"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"BuildModeDialog"
 	{

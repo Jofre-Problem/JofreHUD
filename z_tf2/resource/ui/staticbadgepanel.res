@@ -77,7 +77,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-		"wrap"			"0"
 		"textinsetx"	"0"
 		"textinsety"	"0"
 
@@ -100,7 +99,6 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-		"wrap"			"0"
 		"textinsetx"	"0"
 		"textinsety"	"0"
 

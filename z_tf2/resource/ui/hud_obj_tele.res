@@ -8,7 +8,6 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"31"
-		"autoResize"	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,14 +64,11 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_not_built"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 	}
 	
@@ -189,13 +185,10 @@
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 
 		"BuildingPanel"
@@ -217,14 +210,11 @@
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
@@ -236,13 +226,10 @@
 				"ypos"			"16"
 				"wide"			"50"
 				"tall"			"8"				
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	
@@ -275,14 +262,11 @@
 					"ypos"			"1"
 					"wide"			"200"
 					"tall"			"12"
-					"autoResize"	"0"
 					//		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_charging"
 					"textAlignment"	"Left"
-					"dulltext"		"0"
-					"brighttext"	"0"
 				}
 				
 				"Recharge"
@@ -294,13 +278,10 @@
 					"ypos"			"11"
 					"wide"			"50"
 					"tall"			"5"				
-					"autoResize"	"0"
 					//		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"textAlignment"	"Left"
-					"dulltext"		"0"
-					"brighttext"	"0"
 				}	
 			}
 			
@@ -323,15 +304,12 @@
 					"ypos"			"-6"
 					"wide"			"200"
 					"tall"			"31"
-					"autoResize"	"0"
 					//		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
 					"labelText_lodef"		"#Building_hud_tele_times_used_360"
 					"textAlignment"	"Left"
-					"dulltext"		"0"
-					"brighttext"	"0"
 				}
 			}	
 			"UpgradeLabel"
@@ -343,14 +321,11 @@
 				"ypos"			"14"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_upgrade"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"Upgrade"
@@ -362,13 +337,10 @@
 				"ypos"			"24"
 				"wide"			"50"
 				"tall"			"2"
-				"autoResize"	"0"
 				//		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	}

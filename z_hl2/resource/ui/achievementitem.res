@@ -43,7 +43,6 @@
 		"wide"			"400"
 		"tall"			"20"
 		"font"			"AchievementItemTitle"
-		"textAlignment"		"west"
 	}
 	
 	"AchievementDesc"
@@ -102,10 +101,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"0%"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"			"AchievementItemDescription"
 	}
 	"ShowOnHUD"
@@ -122,10 +117,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievement_Show_HUD"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"font"			"AchievementItemDescription"
 	}
 }

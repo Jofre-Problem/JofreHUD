@@ -5,7 +5,6 @@
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
 		"tall"			"480"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -23,7 +22,6 @@
 		"tall"			"70"	[$WIN32]
 		"tall_minbad"			"70"	[$WIN32]
 		"wide"			"f0"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -96,7 +94,6 @@
 		"wide"			"240"
 		"tall"			"20"
 		"tall_hidef"		"30"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"visible_minbad" "1"
@@ -115,7 +112,6 @@
 		"wide"			"240"
 		"tall"			"20"
 		"tall_hidef"		"30"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"visible_minbad"		"1"
@@ -134,7 +130,6 @@
 		"wide"			"240"
 		"tall"			"20"
 		"tall_hidef"		"30"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"visible_minbad" "1"
@@ -151,7 +146,6 @@
 		"ypos"			"0"	[$WIN32]
 		"wide"			"200"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
@@ -168,7 +162,6 @@
 		"ypos"			"10"	[$WIN32]
 		"wide"			"60"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"enabled"		"1"
@@ -184,7 +177,6 @@
 		"ypos"			"10"	[$WIN32]
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible"		"0"	[$X360]
@@ -201,7 +193,6 @@
 		"ypos"			"20"	[$WIN32]
 		"wide"			"60"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -218,7 +209,6 @@
 		"ypos"			"20"	[$WIN32]
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -235,7 +225,6 @@
 		"ypos"			"30"	[$WIN32]
 		"wide"			"60"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -252,7 +241,6 @@
 		"ypos"			"30"	[$WIN32]	
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -269,7 +257,6 @@
 		"ypos"			"40"	[$WIN32]
 		"wide"			"60"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -286,7 +273,6 @@
 		"ypos"			"40"	[$WIN32]	
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -303,7 +289,6 @@
 		"ypos"			"50"	[$WIN32]
 		"wide"			"60"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -320,7 +305,6 @@
 		"ypos"			"50"	[$WIN32]	
 		"wide"			"125"	[$WIN32]
 		"tall"			"20"
-		"autoResize"		"0"
 		//		"0"
 		"visible"		"1"	[$WIN32]
 		"visible_minbad"		"1"
@@ -375,14 +359,11 @@
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 		
 		"attriblabel"
@@ -395,7 +376,6 @@
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
-			"autoResize"	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"

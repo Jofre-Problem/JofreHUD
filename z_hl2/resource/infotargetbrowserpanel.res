@@ -42,13 +42,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Create Targets"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"DropInfoTargets"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"DeleteButton"
 	{
@@ -64,13 +58,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Delete"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Delete"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"SaveButton"
 	{
@@ -86,13 +74,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Save"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Save"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"RestartMapButton"
 	{
@@ -108,13 +90,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Restart Map"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"RestartMap"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"EntitiesLabel"
 	{
@@ -130,10 +106,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Entities:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"QuickSaveButton"
 	{
@@ -149,12 +121,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Quick Save"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"quicksave"
-		"Default"		"0"
 	}
 	"QuickLoadButton"
 	{
@@ -170,12 +137,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Quick Load"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"quickload"
-		"Default"		"0"
 	}
 	"BuildModeDialog"
 	{

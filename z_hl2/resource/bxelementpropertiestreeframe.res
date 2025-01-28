@@ -44,12 +44,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"close"
-		"Default"		"0"
 	}
 	"Apply"
 	{
@@ -65,10 +60,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Apply"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"apply"
 		"Default"		"1"
 	}
@@ -86,11 +77,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"cancel"
-		"Default"		"0"
 	}
 }

@@ -1,0 +1,15 @@
+x
+{	
+	"HTMLMessage"
+	{
+		"ControlName"		"HTML"
+		"fieldName"		"HTMLMessage"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintborder"	"0"
+		"paintbackground"		"0"
+	}
+}

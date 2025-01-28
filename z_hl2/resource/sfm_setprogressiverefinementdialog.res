@@ -157,10 +157,6 @@
 		//		"0"
 		"labelText"		"0"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_maximize"
 	{
@@ -177,10 +173,6 @@
 		//		"0"
 		"labelText"		"1"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_mintosystray"
 	{
@@ -197,11 +189,7 @@
 		//		"0"
 		"labelText"		"o"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"MinimizeToSysTray"
-		"Default"		"0"
 	}
 	"frame_close"
 	{
@@ -218,10 +206,6 @@
 		//		"0"
 		"labelText"		"r"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"frame_menu"
 	{
@@ -236,11 +220,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"OkButton"
 	{
@@ -256,12 +235,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Ok"
-		"Default"		"0"
 	}
 	"CancelButton"
 	{
@@ -277,12 +251,7 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"ProgressiveRefinementEnabled"
 	{
@@ -298,11 +267,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Progressive Refinement"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DoFEnabled"
 	{
@@ -318,11 +282,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"Depth of Field"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"DoFQualityLabel"
 	{
@@ -338,10 +297,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"# Samples:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"DoFQuality"
 	{
@@ -356,11 +311,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"MotionBlurEnabled"
 	{
@@ -376,11 +327,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"Motion Blur"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"MotionBlurQualityLabel"
 	{
@@ -396,10 +342,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"# Samples:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"MotionBlurQuality"
 	{
@@ -414,11 +356,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"AntialiasingEnabled"
 	{
@@ -434,10 +372,5 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"Subpixel Jitter AA"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 }

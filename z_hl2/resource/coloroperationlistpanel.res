@@ -14,8 +14,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"NewOperation"
 	}
 	"DeleteOperation"
@@ -32,8 +30,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"DeleteOperation"
 	}
 	"BringForward"
@@ -50,8 +46,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"BringForward"
 	}
 	"PushBack"
@@ -68,8 +62,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"PushBack"
 	}
 	"Save"
@@ -86,8 +78,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"Save"
 	}
 	"OperationList"
@@ -113,9 +103,6 @@
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"Blend:"
-		"textAlignment"		"west"
-		"dulltext"			"0"
-		"brighttext"		"0"
 	}
 	"BlendFactorSlider"
 	{
@@ -146,7 +133,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
-		"selected"			"0"
 	}
 	"EnableEntities"
 	{

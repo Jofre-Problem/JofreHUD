@@ -28,8 +28,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Valve_Join_Class"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
 	}
 
@@ -46,8 +44,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Valve_Class_Info"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 		"brighttext"		"1"
 	}
 
@@ -62,7 +58,6 @@
 		//		"3"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"0"
 		//		"0"
 	}
 
@@ -80,9 +75,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Cstrike_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"vguicancel"
 	}
 }

@@ -28,8 +28,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"10"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 	}
 	"topVertLeft"
 	{
@@ -45,8 +43,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"10"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 	}
 	"bottomHorizRight"
 	{
@@ -62,8 +58,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"10"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 	}
 	"bottomVertRight"
 	{
@@ -79,7 +73,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"10"
-		"textAlignment"		"west"
-		"dulltext"		"0"
 	}
 }

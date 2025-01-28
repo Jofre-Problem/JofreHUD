@@ -29,11 +29,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"CreateModelAtCamera"
 	{
@@ -49,11 +46,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Create Model At Camera"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 	}
 	"modelname"
 	{
@@ -66,13 +58,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"OkButton"
 	{
@@ -88,13 +75,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Ok"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"CancelButton"
 	{
@@ -110,13 +91,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
-		"selected"		"0"
 	}
 	"Label1"
 	{
@@ -133,9 +108,6 @@
 		//		"0"
 		"labelText"		"Name:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -152,8 +124,5 @@
 		//		"0"
 		"labelText"		"Model Name:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 }

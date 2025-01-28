@@ -57,8 +57,6 @@
 		"enabled"		"1"
 		"labelText"		"%title%"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"summaryLabel"
 	{	
@@ -81,8 +79,6 @@
 		"enabled"		"1"
 		"labelText"		"%statdesc%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"			"1"
 	}
 	"StatLabelLarge"
@@ -105,8 +101,6 @@
 		"enabled"		"1"
 		"labelText"		"%stattextlarge%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"StatLabelSmall"
 	{	
@@ -127,8 +121,6 @@
 		"enabled"		"1"
 		"labelText"		"%stattextsmall%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	StatBox
 	{

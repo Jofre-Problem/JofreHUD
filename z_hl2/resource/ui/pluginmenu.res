@@ -45,10 +45,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option1"
 		"Default"		"1"
 	}
@@ -66,12 +62,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option2"
-		"Default"		"0"
 	}
 	"option3"
 	{
@@ -87,12 +78,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option3"
-		"Default"		"0"
 	}
 	"option4"
 	{
@@ -108,12 +94,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option4"
-		"Default"		"0"
 	}
 	"option5"
 	{
@@ -129,12 +110,7 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option5"
-		"Default"		"0"
 	}
 	"option6"
 	{
@@ -150,12 +126,7 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option6"
-		"Default"		"0"
 	}
 	"option7"
 	{
@@ -171,12 +142,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option7"
-		"Default"		"0"
 	}
 	"option8"
 	{
@@ -192,11 +158,6 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		""
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"option8"
-		"Default"		"0"
 	}
 }

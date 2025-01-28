@@ -91,8 +91,6 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"TargetDataLabel"
 	{	
@@ -115,8 +113,6 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"Left"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -129,7 +125,6 @@
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
@@ -247,8 +242,6 @@
 			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"		"North"
-			"dulltext"		"0"
-			"brighttext"		"0"
 		}	
 	}
 	"AvatarImage"

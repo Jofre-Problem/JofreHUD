@@ -131,8 +131,6 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
-
 		if_null_comp
 		{
 			"ypos"	"24"
@@ -207,8 +205,6 @@
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
-
 		if_null_comp
 		{
 			"ypos"	"38"

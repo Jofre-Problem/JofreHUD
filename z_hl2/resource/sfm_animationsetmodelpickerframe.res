@@ -43,10 +43,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Filter:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"FilterList"
 	{
@@ -63,11 +59,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
 	}
 	"OkButton"
 	{
@@ -84,13 +77,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#VGui_OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Ok"
 		"Default"		"1"
-		"selected"		"0"
 	}
 	"CancelButton"
 	{
@@ -107,12 +95,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#VGui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
-		"selected"		"0"
 	}	
 }

@@ -14,11 +14,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillEasy"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"SubTabPosition"		"1"
 	}
 	"Skill2Radio"
@@ -35,11 +30,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillNormal"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"SubTabPosition"		"2"
 	}
 	"Skill3Radio"
@@ -56,11 +46,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillHard"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
-		"Default"		"0"
 		"SubTabPosition"		"3"
 	}
 	"Label1"
@@ -77,10 +62,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_SelectDifficulty"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"wrap"		"0"
 	}
 	"Label2"
 	{
@@ -97,8 +78,6 @@
 		//		"0"
 		"labelText"		"#GameUI_EasyDescription"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"Label3"
@@ -116,8 +95,6 @@
 		//		"0"
 		"labelText"		"#GameUI_NormalDescription"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 	"Label4"
@@ -135,8 +112,6 @@
 		//		"0"
 		"labelText"		"#GameUI_HardDescription"
 		"textAlignment"		"north-west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"1"
 	}
 }

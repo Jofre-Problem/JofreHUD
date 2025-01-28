@@ -16,8 +16,6 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Class_Name_Soldier"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 		
 	"ClassIcon"	
@@ -69,7 +67,6 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 	
 	"NumberLabel"
@@ -90,6 +87,5 @@
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 }
