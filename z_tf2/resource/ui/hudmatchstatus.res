@@ -78,7 +78,7 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"TanLight"
 
-		if_readymode
+		if_null_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -106,7 +106,7 @@
 		"proportionaltoparent"	"1"
 
 	
-		if_readymode
+		if_null_readymode
 		{
 			"xpos"			"300"
 			"ypos"			"130"
@@ -221,7 +221,7 @@
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
 
-		if_match
+		if_null_match
 		{
 			"visible"		"1"
 		}
@@ -299,7 +299,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_match
+		if_null_match
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
@@ -339,7 +339,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_match
+			if_null_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -629,7 +629,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		if_large
+		if_null_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
@@ -728,7 +728,7 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 
-			if_large
+			if_null_large
 			{
 				"tall"			"315"
 			}
@@ -748,7 +748,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
-			if_large
+			if_null_large
 			{
 				"tall"			"325"
 			}
@@ -767,7 +767,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 
-		if_large
+		if_null_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
@@ -866,7 +866,7 @@
 			"linegap"		"4"
 			//"show_columns"	"1"
 
-			if_large
+			if_null_large
 			{
 				"tall"			"315"
 			}
@@ -886,7 +886,7 @@
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
-			if_large
+			if_null_large
 			{
 				"tall"			"325"
 			}

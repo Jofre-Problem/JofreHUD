@@ -1,0 +1,26 @@
+"Scheme"
+{
+	"Fonts"
+	{
+		"HudFontMediumSecondary"
+        {
+            "1"
+            {
+             //   "name"        "TF2 Secondary"
+                "tall"        "26"
+                "weight"    "500"
+             //   "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+            //    "name"        "TF2 Secondary"
+                "tall"        "16"
+            //   "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
+	}
+}

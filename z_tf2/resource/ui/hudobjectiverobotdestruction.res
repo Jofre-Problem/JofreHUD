@@ -23,7 +23,7 @@
 		"color_blue"			"84 111 127 255"
 		"color_red"				"171 59 59 255"
 
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"zpos"			"-1"
 		}
@@ -65,17 +65,17 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -100,17 +100,17 @@
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}

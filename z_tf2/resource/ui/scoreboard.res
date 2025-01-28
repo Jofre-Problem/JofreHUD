@@ -74,7 +74,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -123,7 +123,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -145,7 +145,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -167,7 +167,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -194,7 +194,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -217,7 +217,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -241,7 +241,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -265,7 +265,7 @@
 		"fgcolor"		"BrightYellow"
 		"centerwrap"	"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -286,7 +286,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"ypos"			"0"
 			"visible"		"1"
@@ -311,7 +311,7 @@
 		"fgcolor"		"blue"
 		//"show_columns"	"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -335,7 +335,7 @@
 		"fgcolor"		"red"
 		//"show_columns"	"1"
 
- 		if_mvm
+ 		if_null_mvm
  		{
  			"visible"		"0"
  		}
@@ -380,7 +380,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -406,7 +406,7 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"1"
 		}
@@ -432,7 +432,7 @@
 
 		"disable_speak_event"	"1"
 
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -474,7 +474,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"1"
 			"wide"			"175"
@@ -497,7 +497,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -520,7 +520,7 @@
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
 
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -543,7 +543,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -563,7 +563,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"0"
 		}
@@ -774,7 +774,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"1"
 		}
@@ -1360,7 +1360,7 @@
 		
 		"verbose"			"1"
 		
-		if_mvm
+		if_null_mvm
 		{
 			"visible"		"1"
 		}

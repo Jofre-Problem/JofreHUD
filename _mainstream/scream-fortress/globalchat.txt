@@ -1,0 +1,9 @@
+"Resource/UI/GlobalChat.res"
+{
+	"partychat"
+	{
+		"log_font_small"			"HudFontSmallest"
+		"log_font_medium"			"HudFontSmallest"
+		"log_font_large"			"HudFontSmallest"
+	}
+}	

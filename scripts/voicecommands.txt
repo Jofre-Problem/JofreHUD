@@ -1,2 +1,2 @@
-#base "../_mainstream/_jofre/hex-voice/voicecommands.txt"
+#base "../_mainstream/_qol/hex-voice/voicecommands.txt"
 //works?

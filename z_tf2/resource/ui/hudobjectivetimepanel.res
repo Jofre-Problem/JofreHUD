@@ -21,7 +21,7 @@
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 
-		if_match
+		if_null_match
 		{
 			"visible"	"0"
 		}
@@ -51,7 +51,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 
-		if_match
+		if_null_match
 		{
 			"visible"	"0"
 		}
@@ -85,7 +85,7 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
@@ -115,7 +115,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
-		if_match
+		if_null_match
 		{
 			"wide"	"0"
 		}
@@ -149,7 +149,7 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
@@ -179,7 +179,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
-		if_match
+		if_null_match
 		{
 			"wide"	"0"
 		}
@@ -213,7 +213,7 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
@@ -243,7 +243,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
-		if_match
+		if_null_match
 		{
 			"wide"	"0"
 		}
@@ -278,7 +278,7 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
@@ -308,7 +308,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
-		if_match
+		if_null_match
 		{
 			"wide"	"0"
 		}
@@ -343,7 +343,7 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"0"
@@ -373,7 +373,7 @@
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		
-		if_match
+		if_null_match
 		{
 			"wide"	"0"
 		}	

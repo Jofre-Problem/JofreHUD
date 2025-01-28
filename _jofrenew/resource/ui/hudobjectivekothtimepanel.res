@@ -6,7 +6,7 @@
 		{
 			"zpos"		"5"
 		}
-	}
+	} 
 
 	"BlueTimer"
 	{

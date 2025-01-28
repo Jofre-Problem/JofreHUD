@@ -184,6 +184,22 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Notobold16"
 
+		if_match
+		{
+		"xpos"				"cs-0.5+2"
+		"ypos"				"30"
+		"zpos"				"2"
+		"wide"				"310"
+		"tall"				"190"
+			"ypos_minbad"			"0"
+		"delta_item_x"			"22"
+		"delta_item_start_y"	"0"
+		"delta_item_end_y"		"0"
+			"PositiveColor"			"0 255 0 255"
+			"NegativeColor"			"255 0 0 255"
+			"delta_lifetime"		"1.5"
+			"delta_item_font"		"Notobold16"
+		}
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
@@ -193,7 +209,7 @@
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"
-			"ypos"			"1"
+			"ypos"			"0"
 			"zpos"			"311"
 			"wide"			"70"
 			"tall"			"30"
@@ -201,6 +217,16 @@
 			"enabled"		"1"
 			"textAlignment"		"north"
 			"labelText"		"0:00"
+			if_match
+			{
+				"proportionaltoparent"	"1"
+
+			"font"			"killfeed"
+			"fgcolor"		"White"
+			"bgcolor_override"	"blank"
+			"xpos"			"cs-0.5-0"
+			"ypos"			"1"
+			}			
 		}
 	}
 

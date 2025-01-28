@@ -33,7 +33,7 @@
 		"fieldName"		"Text"
 		
 
-		if_incoming
+		if_null_incoming
 		{
 			"xpos"			"rs1-5"
 			"wide"			"f35"
@@ -89,7 +89,7 @@
 		"tall"			"20"
 		"visible"		"1"
 
-		if_incoming
+		if_null_incoming
 		{
 			"visible"		"0"
 		}
@@ -141,7 +141,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"DeclineButton"
 		
-		if_incoming
+		if_null_incoming
 		{
 			"xpos"			"rs1-5"
 		}

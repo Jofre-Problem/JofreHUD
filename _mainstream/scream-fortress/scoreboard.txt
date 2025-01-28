@@ -1,0 +1,8 @@
+"Resource/UI/Scoreboard.res"
+{
+	"scores"
+	{
+		"medal_width"		"30"
+		"medal_column_width"	"18"
+	}
+}

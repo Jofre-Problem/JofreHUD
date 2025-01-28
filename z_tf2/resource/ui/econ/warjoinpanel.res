@@ -16,12 +16,12 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
 
-		if_war_active
+		if_null_war_active
 		{
 			"scene_anim_name"	"PyroVsHeavyWar_ShowChooseScene"
 		}
 
-		if_war_over
+		if_null_war_over
 		{
 			// Sorry Team Heavy.  It looks inevitable at this point
 			"scene_anim_name"	"PyroVsHeavyWar_PyroWinnerScene"
@@ -253,12 +253,12 @@
 					"default"		"1"
 					"labelText"			"%end_date%" 
 					
-					if_war_active
+					if_null_war_active
 					{
 						"fgcolor_override"	"TanLight"
 					}
 
-					if_war_over
+					if_null_war_over
 					{
 						"fgcolor_override"	"TanDarker"
 					}
@@ -269,7 +269,7 @@
 					"proportionaltoparent"	"1"
 				}
 
-				if_war_active
+				if_null_war_active
 				{
 					"Frame"
 					{
@@ -300,12 +300,12 @@
 					"enabled"		"1"
 					"scaleImage"	"1"
 
-					if_war_active
+					if_null_war_active
 					{
 						"image"			"heavy_pyro_war/war_screen_background"
 					}
 
-					if_war_over
+					if_null_war_over
 					{
 						"image"			"heavy_pyro_war/winner_screen_background"
 					}
@@ -323,7 +323,7 @@
 					"zpos"			"1"
 					"wide"			"p0.4"
 					"tall"			"o2"
-					"if_war_over"
+					"if_null_war_over"
 					{
 						"visible"		"0"
 					}
@@ -343,7 +343,7 @@
 					"zpos"			"1"
 					"wide"			"p0.4"
 					"tall"			"o2"
-					"if_war_over"
+					"if_null_war_over"
 					{
 						"visible"		"0"
 					}
@@ -353,7 +353,7 @@
 					"proportionaltoparent" "1"
 				}
 
-				"if_war_over"
+				"if_null_war_over"
 				{
 					"PyroWinMidground"
 					{
@@ -385,7 +385,7 @@
 					"enabled"		"1"
 					"proportionaltoparent" "1"
 
-					if_war_active
+					if_null_war_active
 					{
 						"BGPanel"
 						{
@@ -415,9 +415,9 @@
 							"image"			"heavy_pyro_war/war_screen_foreground"
 							"proportionaltoparent" "1"
 						}
-					} // if_war_active
+					} // if_null_war_active
 
-					if_war_over
+					if_null_war_over
 					{
 						"Silhouettes"
 						{

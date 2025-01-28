@@ -1,3 +1,4 @@
+	#base	"../../_mainstream/scream-fortress/globalchat.txt"
 	#base	"../../_mainstream/global-chat/file.txt"
 	#base	"../../_stream/resource/ui/globalchat.res"
 	#base	"../../_jofrenew/resource/ui/globalchat.res"

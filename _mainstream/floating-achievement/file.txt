@@ -1,0 +1,7 @@
+x
+{	
+	"FloatingAchievementNumber"
+	{
+		"ScrollDistance"			"0"
+	}
+}	

@@ -1,3 +1,4 @@
+	#base 	"../../_mainstream/scream-fortress/scoreboard.txt"
 	#base	"../../_stream/resource/ui/scoreboard.res"
 	#base	"../../_jofrenew/resource/ui/scoreboard.res"
 	//#base	"../../_jofrehud/resource/ui/scoreboard.res"

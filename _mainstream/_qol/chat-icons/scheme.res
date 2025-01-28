@@ -56,7 +56,7 @@ Scheme
 		
 		"313"
 		{
-			"font" "_mainstream/_jofre/chat-icons/ProductChat.ttf"
+			"font" "_mainstream/_qol/chat-icons/ProductChat.ttf"
 			"name" "ProductChat"
 			"range"         "0x0000 0x017F"
 		}	

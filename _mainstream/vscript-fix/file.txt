@@ -1,0 +1,15 @@
+// basically when server messages gets moved
+// bug I knew on ToucaHUD
+x
+{
+	HudMessage
+	{
+		"fieldName" "HudMessage"
+		"xpos" "0"
+		"ypos" "0"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "f0"
+		"tall"	 "480"
+	}
+}	

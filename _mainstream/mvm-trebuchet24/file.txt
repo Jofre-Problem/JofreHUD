@@ -1,0 +1,30 @@
+//	Disable antialiasing on trebuchet24 to fix some ???????????? 
+//	tf2 bug on mvm_yiresa_rc5a because for some reason this font has to only break on this particular map 
+//	just to fuck with me or smth idk ????????????????????
+// 	@ Niterux
+
+"Scheme"
+{
+	"Fonts"
+	{
+		"Trebuchet24" //
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"		"900"
+				"yres"		"480 1199"
+				"antialias"	"0"
+			}
+			"2"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"48"
+				"weight"		"900"
+				"yres"		"1200 6000"
+				"antialias"	"0"
+			}
+		}
+	}
+}

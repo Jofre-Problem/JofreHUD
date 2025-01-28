@@ -57,7 +57,7 @@
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
 		
-		if_verbose
+		if_null_verbose
 		{
 			"visible"		"1"
 		}
@@ -79,7 +79,7 @@
 		"textAlignment"				"west"
 		"labelText"					"#TF_MVM_Support"
 		
-		if_verbose
+		if_null_verbose
 		{
 			"visible"		"1"
 		}		

@@ -43,7 +43,7 @@
 		"xpos"		"3"
 		"rotation"		"2"
 
-		if_left
+		if_null_left
 		{
 			"xpos"	"rs1-3"
 			"rotation"		"1"
@@ -70,7 +70,7 @@
 		"xpos"		"rs1"
 		"rotation"		"1"
 
-		if_left
+		if_null_left
 		{
 			"xpos"	"0"
 			"rotation"		"2"
@@ -99,7 +99,7 @@
 		"xpos"			"rs1"
 		"labelText"		">"
 
-		if_left
+		if_null_left
 		{
 			"xpos"		"0"
 			"labelText"		"<"
@@ -129,7 +129,7 @@
 		"xpos"			"3"
 		"labelText"		"<"
 
-		if_left
+		if_null_left
 		{
 			"xpos"	"rs1-3"
 			"labelText"		">"

@@ -20,17 +20,17 @@
 			"fieldName"		"TipLabel"
 
 
-			if_small
+			if_null_small
 			{
 				"font"	"FontStoreOriginalPrice"
 			}
 
-			if_medium
+			if_null_medium
 			{
 				"font"	"HudFontSmall"
 			}
 
-			if_large
+			if_null_large
 			{
 				"font"	"HudFontSmallBold"
 			}

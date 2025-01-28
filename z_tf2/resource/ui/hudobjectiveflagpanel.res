@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"zpos"			"-1"
 		}
@@ -33,17 +33,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -64,17 +64,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -95,17 +95,17 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -133,17 +133,17 @@
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -171,17 +171,17 @@
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"Black"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -209,17 +209,17 @@
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"TanLight"		
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -247,17 +247,17 @@
 		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"Black"		
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -294,12 +294,12 @@
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"ypos"		"r142"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"r142"
 		}
@@ -326,17 +326,17 @@
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -361,17 +361,17 @@
 		"image_hidef"	"../hud/objectives_flagpanel_bg_playingto_hidef"
 		"scaleImage"	"1"	
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_null_mvm"
 		{
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -390,28 +390,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
 		
-		"if_hybrid_single"
+		"if_null_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double"
+		"if_null_hybrid_double"
 		{
 			"xpos"		"c-115"
 		}
 
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_no_flags"
+		"if_null_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -430,28 +430,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 				
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"visible"	"0"
 			"ypos"		"r100"
 		}
 		
-		"if_hybrid_single"
+		"if_null_hybrid_single"
 		{
 			"xpos"		"c-80"
 		}
 		
-		"if_hybrid_double"
+		"if_null_hybrid_double"
 		{
 			"xpos"		"c-45"
 		}
 
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_no_flags"
+		"if_null_no_flags"
 		{
 			"visible"	"0"
 		}
@@ -470,12 +470,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		
-		"if_hybrid"
+		"if_null_hybrid"
 		{
 			"ypos"		"r100"
 		}
 		
-		"if_specialdelivery"
+		"if_null_specialdelivery"
 		{
 			"ypos"		"r100"
 		}

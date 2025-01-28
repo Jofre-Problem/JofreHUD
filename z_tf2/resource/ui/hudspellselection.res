@@ -4,7 +4,7 @@
 	{
 		"xpos"			"130"
 
-		"if_killstreak_visible"
+		"if_null_killstreak_visible"
 		{
 			"xpos"			"160"
 		}

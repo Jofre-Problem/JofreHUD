@@ -434,7 +434,7 @@
 				"zpos"			"100"
 				"tall"			"15"
 
-				if_queued
+				if_null_queued
 				{
 					"xpos"			"cs-0.5"
 					"wide"			"150"

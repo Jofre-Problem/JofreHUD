@@ -1,0 +1,13 @@
+x
+{
+	"class_loadout_panel"
+	{
+		"modelpanels_kv"
+		{
+			"itemmodelpanel"
+			{
+				"inventory_image_type" "1" // High quality item image
+			}
+		}
+	}
+}	

@@ -2,7 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_match
+		if_null_match
 		{
 			"zpos"		"5"
 		}
@@ -28,8 +28,8 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
-
-		if_match
+ 
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -71,7 +71,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_match
+			if_null_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -111,7 +111,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		if_match
+		if_null_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
@@ -153,7 +153,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_match
+			if_null_match
 			{
 				"proportionaltoparent"	"1"
 

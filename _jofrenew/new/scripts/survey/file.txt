@@ -1,4 +1,4 @@
-event SurveyShowSequence
+event SurveyShowSequence	// prevents chat lock
 {
 	FireCommand 0.05 "delete"
 	RunEventChild Survey SurveyDelete 0.6
