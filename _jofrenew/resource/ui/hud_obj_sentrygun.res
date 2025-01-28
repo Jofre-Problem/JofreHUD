@@ -349,7 +349,7 @@
 				"xpos"			"999"
 				"visible" "0"
 			}			
-			"RocketIcon"	
+			"KillIcon"	
 			{
 				"xpos"			"999"
 				"visible" "0"
@@ -358,7 +358,12 @@
 			{
 				"xpos"			"999"
 				"visible" "0"
-			}		
+			}
+			"SkullIcon"
+			{
+				"xpos"			"999"
+				"visible" "0"
+			}							
 			"Upgrade"
 			{
 				"ControlName"	"ContinuousProgressBar"

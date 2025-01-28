@@ -39,7 +39,6 @@
 			"bgcolor_override"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
-			"AutoResize" "0"
 			"skip_autoresize" "1"
 		}
 	}	
@@ -80,7 +79,6 @@
 				"wide"			"218"
 				"tall"			"12"
 				"autoResize"	"1"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
@@ -112,8 +110,6 @@
 			"zpos"			"-10"
 			"wide"			"180"
 			"tall"			"18"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"

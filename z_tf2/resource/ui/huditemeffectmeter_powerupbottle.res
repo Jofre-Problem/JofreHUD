@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"			"r86"	[$WIN32]
 		"ypos"			"r102"	[$WIN32]
-		"xpos_minbad"	"r70"	[$WIN32]
-		"ypos_minbad"	"r130"	[$WIN32]
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -25,14 +23,11 @@
 		"wide"			"90"
 		"tall"			"56"
 		"visible"		"1"
-		"visible_minbad"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
 	"ItemEffectIcon"
@@ -40,14 +35,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"12"
-		"xpos_minbad"	"36"
 		"ypos"			"7"
-		"ypos_minbad"	"14"
 		"zpos"			"1"
 		"wide"			"27"
-		"wide_minbad"	"20"
 		"tall"			"27"
-		"tall_minbad"	"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"
@@ -95,9 +86,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"24"
-		"xpos_minbad"			"40"
 		"ypos"					"11"
-		"ypos_minbad"			"18"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -108,6 +97,5 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
 		"font"					"HudFontMedium"
-		"font_minbad"			"HudFontMediumSmall"
 	}
 }

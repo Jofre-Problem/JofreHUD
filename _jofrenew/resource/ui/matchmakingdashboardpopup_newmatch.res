@@ -117,15 +117,11 @@
 
 				"visible"		"1"
 				"enabled"		"1"
-
-				"autoResize"	"0"
 				"pinCorner"		"3"
 
 				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_MM_Rejoin_Abandon"
@@ -161,14 +157,10 @@
 				
 				"visible"		"1"
 				"enabled"		"1"
-
-				"autoResize"	"0"
 				"pinCorner"		"3"
 				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
@@ -198,14 +190,10 @@
 				
 				"visible"		"1"
 				"enabled"		"1"
-
-				"autoResize"	"0"
 				"pinCorner"		"3"
 				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"Command"		"join_match"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"

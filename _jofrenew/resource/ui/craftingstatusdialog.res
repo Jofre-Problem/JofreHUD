@@ -2,7 +2,6 @@
 {
 	"CraftingStatusDialog"
 	{
-		"fieldName"				"CraftingStatusDialog"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
@@ -18,7 +17,6 @@
 	"CenterPositioner"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"CenterPositioner"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"10"
@@ -39,14 +37,12 @@
 	"RecipeItemModelPanel"
 	{
 		"ControlName"	"CItemModelPanel"
-		"fieldName"		"RecipeItemModelPanel"
 		"visible"		"0"
 	}
 
 	"TitleLabel"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -72,7 +68,6 @@
 	"EllipsesLabel"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"EllipsesLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -96,7 +91,6 @@
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
 		"xpos"			"50"
 		"ypos"			"75"
 		"zpos"			"1"

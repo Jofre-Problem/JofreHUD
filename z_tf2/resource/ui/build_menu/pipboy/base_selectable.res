@@ -31,7 +31,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Empty_Slot"
-		"labelText_lodef"		"#TF_Empty_Slot"
 		"textAlignment"	"Left"
 		"fgcolor"		"black"
 	}

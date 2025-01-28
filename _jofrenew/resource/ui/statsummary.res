@@ -298,8 +298,6 @@
 		"zpos"			"4501"
 		"wide"			"f0"
 		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "yellow"

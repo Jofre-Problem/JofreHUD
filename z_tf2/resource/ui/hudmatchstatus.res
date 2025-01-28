@@ -274,15 +274,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
 		"ypos"				"0"	[$WIN32]
-		"ypos_minbad"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -299,7 +294,6 @@
 		{
 			"xpos"					"cs-0.5"
 			"wide"					"130"
-			"ypos_minbad"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -314,21 +308,11 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minbad"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
-			"xpos_minbad"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_minbad"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"45"
-			"wide_minbad"	"30"
-			"wide_lodef"	"50"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
@@ -341,11 +325,8 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minbad"	"12"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minbad"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}

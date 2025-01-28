@@ -1,3 +1,4 @@
+	#base	"../../_mainstream/textwindow-html/file.txt"	
 	//#base	"../../_stream/resource/ui/textwindow.res"
 	#base	"../../_jofrenew/resource/ui/textwindow.res"
 	//#base	"../../_jofrehud/resource/ui/textwindow.res"

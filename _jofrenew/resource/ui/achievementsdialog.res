@@ -11,7 +11,6 @@
 		"ypos"		"154"
 		"wide"		"630"
 		"tall"		"444"
-		"autoResize"				"0"
 		//					"0"
 		"visible"					"1"
 		"enabled"					"1"

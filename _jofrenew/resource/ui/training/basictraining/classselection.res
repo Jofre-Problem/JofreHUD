@@ -13,7 +13,6 @@
 		"wide"			"430"
 		"tall"			"20"
 		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"NotoBlack"

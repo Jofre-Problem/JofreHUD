@@ -15,7 +15,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
 		"textAlignment"	"Left"
 		"fgcolor"		"0 255 0 255"
 	}

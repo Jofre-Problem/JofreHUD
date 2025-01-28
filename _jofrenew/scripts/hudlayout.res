@@ -105,7 +105,6 @@
 	// fixing shit -END->
 	HudWeaponAmmo
 	{
-		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
@@ -116,7 +115,6 @@
 	}
 	HudMedicCharge
 	{
-		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"
@@ -141,7 +139,6 @@
 		"EscortHilightSwoop"
 		{
 		"ControlName" "CControlPointIconSwoop"
-		"fieldName" "EscortHilightSwoop"
 		"xpos" "9999"
 		"alpha" "0"
 		}			
@@ -158,7 +155,6 @@
 	"MedicIcon"
 	{
 		"ControlName"	"ctfimagepanel"
-		"fieldName"		"MedicIcon"
 		xpos 0-706
 		"ypos"			"-1010"
 		"zpos"			"9"
@@ -180,7 +176,6 @@
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
-		"fieldName" 	"CSpectatorTargetIDAnchor"
 		"xpos" 		"150"
 		// 150
 		"ypos"		"-1109"
@@ -195,7 +190,6 @@
 	}
 	CSpectatorTargetID
 	{
-		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
@@ -216,7 +210,6 @@
 	
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
@@ -229,7 +222,6 @@
 	"DisguiseDust"
 	{
 		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"DisguiseDust"
 		"xpos"			"0"
 		"ypos"			"r100"
 		"zpos"			"70000"
@@ -256,7 +248,6 @@
 	"1_editable" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
-		"fieldName" 	"1_editable"
 		"wide"		"32"
 		"tall" 		"32"
 		"visible"	"1"
@@ -265,7 +256,6 @@
 	"TimerShit"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"TimerShit"
 		"xpos"					"0"
 		"ypos"					"rs1"
 		"zpos"					"-100"
@@ -277,7 +267,6 @@
 		"NameLabel"
 		{
 			"ControlName"							"CExLabel"
-			"fieldName"								"NameLabel"
 			"xpos"									"rs1"		//0
 			"ypos"									"0"
 			"wide"									"100"
@@ -298,7 +287,6 @@
 	"ViewmodelRefract"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"ViewmodelRefract"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-100"
@@ -309,7 +297,6 @@
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
 		"xpos"		"cs-0.5"
 		"ypos"		"c146"
 		"wide"		"80"
@@ -319,7 +306,6 @@
 	}
 	NotificationPanel
 	{
-		"fieldName"				"NotificationPanel"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
@@ -331,7 +317,6 @@
 
 	"StatPanel"
 	{
-		"fieldName"									"StatPanel"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -341,7 +326,6 @@
 	}	
 	"FreezePanelCallout"
 	{
-		"fieldName"									"FreezePanelCallout"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -352,7 +336,6 @@
 
 	"AnnotationsPanelCallout"
 	{
-		"fieldName"									"AnnotationsPanelCallout"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -362,7 +345,6 @@
 	}
 	"HudTeamGoal"
 	{
-		"fieldName"									"HudTeamGoal"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -373,7 +355,6 @@
 
 	"HudTeamGoalTournament"
 	{
-		"fieldName"									"HudTeamGoalTournament"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -383,7 +364,6 @@
 	}
 	"HudTeamSwitch"
 	{
-		"fieldName"									"HudTeamSwitch"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -394,7 +374,6 @@
 
 	"HudArenaNotification"
 	{
-		"fieldName"									"HudArenaNotification"
 		"visible"									"0"
 		"enabled"									"0"
 		"xpos"										"9999"
@@ -455,7 +434,6 @@
 	}	
 	CHudAccountPanel
 	{
-		"fieldName"				"CHudAccountPanel"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
@@ -467,7 +445,6 @@
 	
 	CHealthAccountPanel
 	{
-		"fieldName"				"CHealthAccountPanel"
 		"xpos"			"cs-0.5-88"
 		"zpos"		"-2000"
 		"ypos"			"rs1-80"
@@ -480,7 +457,6 @@
 	
 	HudScopeCharge
 	{
-		"fieldName" "HudScopeCharge"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "c64"
@@ -491,7 +467,6 @@
 	}
 	CDamageAccountPanel
 	{
-		"fieldName"				"CDamageAccountPanel"
 		"xpos"					"0"
 		"ypos"					"-25"
 		"wide"					"f0"
@@ -555,7 +530,6 @@
 	}	
 	DisguiseStatus
 	{
-		"fieldName" "DisguiseStatus"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"f0"
@@ -564,7 +538,6 @@
 	"BuildingStatusAnchor"
 	{
 		"ControlName"		"Panel"
-		"fieldName"		"BuildingStatusAnchor"
 		"xpos"		"-5"
 		"ypos"		"160"
 		"wide"		"200"
@@ -602,7 +575,6 @@
 	
 	"HudUpgradePanel"
 	{
-		"fieldName"		"HudUpgradePanel"
 		"visible"		"0"
 		"enable"		"1"
 		"xpos"			"0"
@@ -612,7 +584,6 @@
 	}
 	"ItemAttributeTracker"
 	{
-		"fieldName" 	"ItemAttributeTracker"
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
@@ -631,7 +602,6 @@
 	}
 	HudVoiceStatus
 	{
-		"fieldName" 		"HudVoiceStatus"
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos" 				"r145"
@@ -694,7 +664,6 @@
 	
 	HudStopWatch
 	{
-		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
@@ -773,7 +742,6 @@
 	}	
 	CriticalPanel 
 	{
-		"fieldName"				"CriticalPanel"		
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"r150"
@@ -785,7 +753,6 @@
 	
 	HudArenaClassLayout
 	{
-		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"

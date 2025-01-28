@@ -25,8 +25,6 @@
 		"font"			"TFFontMedium"
 		"xpos"			"80"
 		"ypos"			"58"
-		"ypos_hidef"	"40"
-		"ypos_lodef"	"36"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"55"
@@ -45,8 +43,6 @@
 		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"28"
-		"ypos_hidef"	"23"
-		"ypos_lodef"	"20"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
 		"wide"			"180"	[$X360]

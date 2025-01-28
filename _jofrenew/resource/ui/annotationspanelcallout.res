@@ -44,13 +44,10 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"autoResize"	"1"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AnnotationPanel_Callout"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 	}
 	"ArrowIcon"
 	{
@@ -77,12 +74,9 @@
 		"wide"			"70"
 		"tall"			"10"
 		"autoResize"		"1"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

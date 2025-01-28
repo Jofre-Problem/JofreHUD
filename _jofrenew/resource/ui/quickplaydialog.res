@@ -877,7 +877,6 @@
 			"zpos"					"1"
 			"wide"					"140"
 			"tall"					"20"
-			"autoResize"			"0"
 			//				"0"
 			"visible"				"1"
 			"enabled"				"1"

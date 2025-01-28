@@ -6,6 +6,5 @@
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"xpos"			"r214"
-		"ypos_minbad"	"r70"
 	}
 }
