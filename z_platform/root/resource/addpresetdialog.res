@@ -14,12 +14,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"OkButton"
 	{
@@ -35,12 +31,8 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"OK"
-		"Default"		"0"
 	}
 	"PresetName"
 	{
@@ -55,7 +47,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -74,7 +65,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -95,8 +85,6 @@
 		//		"0"
 		"labelText"		"Preset Name:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 	}
 	"PresetGroupLabel"
@@ -114,8 +102,6 @@
 		//		"0"
 		"labelText"		"Preset Group:"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 	}
 }

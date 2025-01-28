@@ -16,7 +16,6 @@
 	}
 	"InfoText"
 	{
-		"textAlignment"		"west"
 		"labelText"		""
 		//		"0"
 		"enabled"		"1"

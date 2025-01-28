@@ -42,9 +42,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Ban_Change_Time"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"CvarLabel"
 	{
@@ -60,9 +58,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"12.13.14.15"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"CvarEntry"
 	{
@@ -77,7 +73,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -96,9 +91,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#Okay_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Okay"
 		"Default"		"1"
 	}
@@ -117,8 +109,6 @@
 		//		"0"
 		"labelText"		"#Cvar_Dialog_Name"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"PasswordLabel"
 	{
@@ -135,8 +125,6 @@
 		//		"0"
 		"labelText"		"#Cvar_Dialog_Value"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"CancelButton"
 	{
@@ -152,10 +140,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#Cancel_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

@@ -63,7 +63,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -78,7 +77,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -93,7 +91,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -108,7 +105,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -123,7 +119,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -138,7 +133,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -153,7 +147,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -168,7 +161,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -183,7 +175,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -198,7 +189,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -213,7 +203,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -228,7 +217,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -256,7 +244,6 @@
 		"enabled"		"1"
 		//		"21"
 		"labelText"		"#Spades_DealNextHand"
-		"textAlignment"		"west"
 	}    
 	
 	"GameTablePanel"
@@ -660,7 +647,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#Spades_DoubleNILBid"
-		"textAlignment"		"west"
 	}	
 	
 	"ShowCardsButton"
@@ -677,7 +663,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#Spades_ShowCards"
-		"textAlignment"		"west"
 	}    
 	
 	"Bid01Button"
@@ -694,9 +679,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"1"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid02Button"
 	{
@@ -712,9 +694,6 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"2"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid03Button"
 	{
@@ -730,9 +709,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"3"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid04Button"
 	{
@@ -748,9 +724,6 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"4"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid05Button"
 	{
@@ -766,9 +739,6 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"5"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid06Button"
 	{
@@ -784,9 +754,6 @@
 		"enabled"		"1"
 		//		"9"
 		"labelText"		"6"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	} 
 	"Bid07Button"
 	{
@@ -802,7 +769,6 @@
 		"enabled"		"1"
 		//		"10"
 		"labelText"		"7"
-		"textAlignment"		"west"
 	} 
 	"Bid08Button"
 	{
@@ -818,7 +784,6 @@
 		"enabled"		"1"
 		//		"11"
 		"labelText"		"8"
-		"textAlignment"		"west"
 	} 
 	"Bid09Button"
 	{
@@ -834,7 +799,6 @@
 		"enabled"		"1"
 		//		"12"
 		"labelText"		"9"
-		"textAlignment"		"west"
 	} 
 	"Bid10Button"
 	{
@@ -850,7 +814,6 @@
 		"enabled"		"1"
 		//		"13"
 		"labelText"		"10"
-		"textAlignment"		"west"
 	} 
 	"Bid11Button"
 	{
@@ -866,7 +829,6 @@
 		"enabled"		"1"
 		//		"14"
 		"labelText"		"11"
-		"textAlignment"		"west"
 	} 
 	"Bid12Button"
 	{
@@ -882,7 +844,6 @@
 		"enabled"		"1"
 		//		"15"
 		"labelText"		"12"
-		"textAlignment"		"west"
 	} 
 	"Bid13Button"
 	{
@@ -898,7 +859,6 @@
 		"enabled"		"1"
 		//		"16"
 		"labelText"		"13"
-		"textAlignment"		"west"
 	} 
 	"NilBidButton"
 	{
@@ -914,7 +874,6 @@
 		"enabled"		"1"
 		//		"17"
 		"labelText"		"#Spades_NIL"
-		"textAlignment"		"west"
 	}  
 	"ShowScoreBtn"
 	{
@@ -930,8 +889,6 @@
 		"enabled"		"1"
 		//		"18"
 		"labelText"		"#SteamAddOn_ShowScore"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     
 	"LastTrickBtn"
 	{
@@ -947,8 +904,6 @@
 		"enabled"		"0"
 		//		"19"
 		"labelText"		"#SteamAddOn_LastTrick"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     
 	"LastTrickLabel"
 	{
@@ -964,8 +919,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SteamAddOn_LastTrick"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     	
 	"ChatTextLog"
 	{
@@ -980,8 +933,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -998,7 +949,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"500"
 	}
@@ -1016,7 +966,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#SteamAddOn_Btn_Send"
-		"textAlignment"		"west"
 		"Default"		"1"
 	}	
 	"LastMessageLabel"
@@ -1033,9 +982,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Last message received at:"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	
 }

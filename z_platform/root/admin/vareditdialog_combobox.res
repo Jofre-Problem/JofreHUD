@@ -42,9 +42,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"OK"
 		"Default"		"1"
 	}
@@ -62,11 +59,7 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"StringEdit"
 	{
@@ -81,7 +74,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -99,8 +91,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -118,8 +108,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Changes take effect when you press 'OK'."
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 }

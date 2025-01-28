@@ -29,8 +29,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//		"3"
-			"textHidden"		"0"
-			"editable"		"0"
 			"maxchars"		"-1"
 			"NumericInputOnly"		"0"
 			"unicode"		"0"
@@ -50,8 +48,6 @@
 			//		"1"
 			"labelText"		"Ok"
 			"textAlignment"		"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
 			"Default"		"1"
 		}
 
@@ -70,9 +66,6 @@
 			//	"2"
 			"labelText"		"Cancel"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"DmeLogEditPanel"

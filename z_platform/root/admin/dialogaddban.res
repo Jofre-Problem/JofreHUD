@@ -41,7 +41,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -59,9 +58,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"#Okay_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Okay"
 		"Default"		"1"
 	}
@@ -79,10 +75,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#Add_Ban_Time_Permanent"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 		"SubTabPosition"		"0"
 	}
 	"TempBanRadio"
@@ -99,10 +91,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#Add_Ban_Time_Temporary"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 		"SubTabPosition"		"1"
 	}
 	"TimeTextEntry"
@@ -118,7 +106,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -135,8 +122,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"IDLabel"
@@ -154,8 +139,6 @@
 		//		"0"
 		"labelText"		"#Add_Ban_ID_IP_Label"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"CancelButton"
 	{
@@ -171,11 +154,7 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"#Cancel_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -191,9 +170,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Add_Ban_Player"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"PlayerTextEntry"
 	{
@@ -208,7 +184,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -226,8 +201,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Add_Ban_Duration_Label"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

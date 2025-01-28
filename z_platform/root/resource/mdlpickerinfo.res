@@ -29,10 +29,6 @@
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"physics"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"DynamicObject"
@@ -50,10 +46,6 @@
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"dynamic"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"StaticObject"
@@ -71,10 +63,6 @@
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"static"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"StaticText"
@@ -92,10 +80,6 @@
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"Model is missing $staticprop entry"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"Mass"
@@ -112,10 +96,6 @@
 			"enabled"		"1"
 			//	"1"
 			"labelText"		"Mass"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"MassValue"
@@ -132,10 +112,6 @@
 			"enabled"		"1"
 			//	"1"
 			"labelText"		"100"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}	
 	}
 }

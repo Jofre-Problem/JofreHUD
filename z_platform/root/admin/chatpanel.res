@@ -28,7 +28,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -47,9 +46,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#Chat_Panel_Send"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Default"		"1"
 	}
 }

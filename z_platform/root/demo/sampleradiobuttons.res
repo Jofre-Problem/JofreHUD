@@ -13,7 +13,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label for the group of radio buttons"
-		"textAlignment"		"west"
 	}
 	"Radio1"
 	{
@@ -30,8 +29,6 @@
 		//		"0"
 		"SubTabPosition"  "0"
 		"labelText"		"Training Room"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Radio2"
 	{
@@ -48,8 +45,6 @@
 		//		"0"
 		"SubTabPosition"  "1"
 		"labelText"		"Easy"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Radio3"
 	{
@@ -66,8 +61,6 @@
 		//		"0"
 		"SubTabPosition"  "2"
 		"labelText"		"Medium"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Radio4"
 	{
@@ -84,8 +77,6 @@
 		//		"0"
 		"SubTabPosition"  "3"
 		"labelText"		"Difficult"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Radio5"
 	{
@@ -102,8 +93,6 @@
 		//		"0"
 		"SubTabPosition"  "4"
 		"labelText"		"Disabled"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 
 	"RadioDesc1"

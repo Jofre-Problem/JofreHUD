@@ -25,7 +25,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
 	}
 	"PasswordEntry"
 	{
@@ -100,7 +99,6 @@
 		"labelText"		"#Dialog_Server_With_Password_Cancel"
 		"textAlignment"		"center"
 		"command"		"Close"
-		"default"		"0"
 	}
 	"BuildDialog"
 	{

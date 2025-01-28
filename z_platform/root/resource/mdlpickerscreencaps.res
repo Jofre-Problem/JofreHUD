@@ -29,9 +29,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Width:"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"WidthText"
@@ -49,9 +46,6 @@
 			"NumericInputOnly" "1"
 			//		"1"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"HeightLabel"
@@ -69,9 +63,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Height:"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"HeightText"
@@ -89,9 +80,6 @@
 			"NumericInputOnly" "1"
 			//		"3"
 			"labelText"			"Color"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"BackgroundColorLabel"
@@ -109,9 +97,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Background:"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 		"BackgroundColor"
 		{
@@ -127,10 +112,6 @@
 			"enabled"		"1"
 			//	"5"
 			"labelText"		""
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 
 		"OutputLabel"
@@ -148,9 +129,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Output:"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"OutputDirectory"
@@ -168,9 +146,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"."
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"OutputDirectorySelect"
@@ -189,7 +164,6 @@
 			"labelText"		"&Select"
 			"textAlignment"		"center"
 			"command"		"OutputDirectorySelect"
-			"default"		"0"
 			"button_activation_type"	"0"
 		}
 
@@ -209,7 +183,6 @@
 			"labelText"		"&Capture"
 			"textAlignment"		"center"
 			"command"		"Capture"
-			"default"		"0"
 			"button_activation_type"	"0"
 		}
 
@@ -228,9 +201,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"GenerateBackpackIcons"
@@ -249,7 +219,6 @@
 			"labelText"		"Generate Backpack Icons"
 			"textAlignment"		"center"
 			"command"		"GenerateBackpackIcons"
-			"default"		"0"
 			"button_activation_type"	"0"
 		}
 
@@ -268,9 +237,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Control Key on Capture for Specific Item Only."
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"Info2"
@@ -288,9 +254,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Control Key on Restore for Specific Prefs Only."
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"Info3"
@@ -308,9 +271,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Right Click on Model List to select Attachment."
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"Info4"
@@ -328,9 +288,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Control Key on Model List to Clear Attachment."
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"SaveCaps"
@@ -349,7 +306,6 @@
 			"labelText"		"&Save"
 			"textAlignment"		"center"
 			"command"		"SaveCaps"
-			"default"		"0"
 			"button_activation_type"	"0"
 		}
 
@@ -369,7 +325,6 @@
 			"labelText"		"&Restore"
 			"textAlignment"		"center"
 			"command"		"RestoreCaps"
-			"default"		"0"
 			"button_activation_type"	"0"
 		}
 		
@@ -389,9 +344,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"Backpack Output Name Suffix:"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"SuffixText"
@@ -408,9 +360,6 @@
 			"enabled"		"1"
 			//		"1"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 	}
 }

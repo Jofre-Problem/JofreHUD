@@ -14,9 +14,7 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"Skin Name"
-		"textAlignment"	"west"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"SkinName"
@@ -33,7 +31,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -54,9 +51,7 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"Scale"
-		"textAlignment"	"west"
 		"dulltext"		"1"
-		"brighttext"	"0"
 	}
 
 	"Scale"
@@ -73,7 +68,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -95,9 +89,5 @@
 		"disabled"		"1"
 		//	"1"
 		"labelText"		"Flip Triangles"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 }

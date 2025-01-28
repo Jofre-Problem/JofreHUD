@@ -28,9 +28,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"main text"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"ColorOneBtn"
 	{
@@ -46,10 +43,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Color One"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"ColorTwoBtn"
 	{
@@ -65,10 +58,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Color Two"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"AbortBtn"
 	{
@@ -84,9 +73,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Abort"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 }

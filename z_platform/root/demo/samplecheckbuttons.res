@@ -13,7 +13,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Label for the group of Check buttons"
-		"textAlignment"		"west"
 	}
 	"Check1"
 	{
@@ -29,8 +28,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Reverse Mouse"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Check2"
 	{
@@ -46,8 +43,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"MouseLook"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Check3"
 	{
@@ -63,8 +58,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Mouse filter"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Check4"
 	{
@@ -80,8 +73,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Joy stick"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 	"Check5"
 	{
@@ -97,8 +88,6 @@
 		"enabled"		"0"
 		//		"1"
 		"labelText"		"Disabled"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 
 	"CheckDesc1"
@@ -114,7 +103,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Reverse mouse up/down axis"
-		"textAlignment"		"west"
 	}
 
 	"CheckDesc2"
@@ -130,7 +118,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Use the mouse to look around"
-		"textAlignment"		"west"
 	}
 
 	"CheckDesc3"
@@ -146,7 +133,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Smoothes mouse movement"
-		"textAlignment"		"west"
 	}
 
 	"CheckDesc4"
@@ -162,7 +148,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Enable the joystick"
-		"textAlignment"		"west"
 	}
 
 	"CheckDesc5"
@@ -178,6 +163,5 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"Use the joystick to look around"
-		"textAlignment"		"west"
 	}
 }

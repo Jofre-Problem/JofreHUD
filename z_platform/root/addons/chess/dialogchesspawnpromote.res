@@ -28,9 +28,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Chess_PawnPromotion_Text"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"QueenBtn"
 	{
@@ -46,10 +43,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Chess_PromoteQueen"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"RookBtn"
 	{
@@ -65,10 +58,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Chess_PromoteRook"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"BishopBtn"
 	{
@@ -84,10 +73,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Chess_PromoteBishop"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"KnightBtn"
 	{
@@ -103,9 +88,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Chess_PromoteKnight"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Default"		"1"
 	}
 }

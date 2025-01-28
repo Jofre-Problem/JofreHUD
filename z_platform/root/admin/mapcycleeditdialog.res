@@ -70,11 +70,7 @@
 		"enabled"		"0"
 		//		"3"
 		"labelText"		"->"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"ArrowRight"
-		"Default"		"0"
 	}
 	"LeftButton"
 	{
@@ -90,11 +86,7 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"<-"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"ArrowLeft"
-		"Default"		"0"
 	}
 	"UpButton"
 	{
@@ -110,11 +102,7 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"Move up"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"ArrowUp"
-		"Default"		"0"
 	}
 	"DownButton"
 	{
@@ -130,9 +118,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"Move down"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"ArrowDown"
 		"Default"		"1"
 	}
@@ -150,11 +135,7 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"OKButton"
 	{
@@ -170,10 +151,6 @@
 		"enabled"		"1"
 		//		"7"
 		"labelText"		"OK"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"OK"
-		"Default"		"0"
 	}
 }

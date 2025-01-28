@@ -30,7 +30,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -64,7 +63,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -97,7 +95,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -118,7 +115,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"Enable Friendly Fire"
-		"textAlignment"		"west"
 	}
 
 
@@ -141,7 +137,6 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"Allow Uploads"
-		"textAlignment"		"west"
 	}
 
 
@@ -173,7 +168,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -206,7 +200,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -225,7 +218,6 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"Allow Voice"
-		"textAlignment"		"west"
 	}
 
 	"mp_fadetoblack"
@@ -242,7 +234,6 @@
 		"enabled"		"1"
 		//		"9"
 		"labelText"		"Fade Screen to Black"
-		"textAlignment"		"west"
 	}
 
 }

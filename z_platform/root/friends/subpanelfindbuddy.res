@@ -13,7 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -30,7 +29,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -47,7 +45,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -64,7 +61,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -82,10 +78,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_FirstName"
-		"textAlignment"		"west"
 		"associate"		"FirstNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"FirstNameText"
 	{
@@ -101,10 +94,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_UserName"
-		"textAlignment"		"west"
 		"associate"		"UserNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"UserNameText"
 	{
@@ -120,10 +110,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_LastName"
-		"textAlignment"		"west"
 		"associate"		"LastNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Unnamed dialog1"
 	{
@@ -139,10 +126,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_EMailAddress"
-		"textAlignment"		"west"
 		"associate"		"EmailEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Unnamed dialog2"
 	{
@@ -160,6 +144,5 @@
 		"labelText"		"#TrackerUI_EnterInformationAboutFriend"
 		"textAlignment"		"north-west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 }

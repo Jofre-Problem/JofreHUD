@@ -55,8 +55,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"TextEntry"
@@ -72,7 +70,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"unicode"		"1"
@@ -91,9 +88,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Send"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"default"		"1"
 	}
 	"DeclareDrawBtn"
@@ -110,10 +104,6 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"#Checkers_Btn_DeclareDraw"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"default"		"0"
 	}
 	"ResignBtn"
 	{
@@ -129,10 +119,6 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_Resign"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"default"		"0"
 	}
 	"ShowHistoryBtn"
 	{
@@ -148,10 +134,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SteamAddOn_Btn_ShowHistory"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"LastMoveLabel"
 	{
@@ -167,9 +149,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Last Move made at:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"TurnLabel"
 	{
@@ -185,9 +164,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Turn: 1"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"RedIcon"
 	{
@@ -230,9 +206,6 @@
 		"visible"		"0"
 		"enabled"		"0"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"WhiteName"
 	{
@@ -247,8 +220,5 @@
 		"visible"		"0"
 		"enabled"		"0"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

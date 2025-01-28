@@ -33,7 +33,6 @@
 		"enabled"		"1"
 		//		"1"
 		"paintbackground"		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -54,7 +53,6 @@
 		//		"0"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_FriendlyName"
-		"textAlignment"		"west"
 		"associate"		"UserNameEdit"
 		"wrap"		"0"
 	}

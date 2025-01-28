@@ -42,8 +42,6 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"PlayerLabel"
 	{
@@ -59,8 +57,6 @@
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"OkayButton"
 	{
@@ -75,9 +71,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Okay"
 		"Default"		"1"
 	}
@@ -95,10 +88,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#Cancel_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

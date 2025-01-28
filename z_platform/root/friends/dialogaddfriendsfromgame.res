@@ -56,9 +56,6 @@
 		"enabled"		"0"
 		//		"2"
 		"labelText"		"#TrackerUI_AddFriendsButton"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"AddFriends"
 		"Default"		"1"
 	}
@@ -76,9 +73,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_AddFriendsInfo"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Button2"
 	{
@@ -94,10 +88,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#TrackerUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

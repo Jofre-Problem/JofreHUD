@@ -30,7 +30,6 @@
 		"labelText"		"&Skip Token"
 		"textAlignment"		"center"
 		"command"		"SkipToken"
-		"default"		"0"
 	}
 	"TokenName"
 	{
@@ -45,7 +44,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -62,7 +60,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -82,7 +79,6 @@
 		"labelText"		"&Cancel"
 		"textAlignment"		"center"
 		"command"		"Close"
-		"default"		"0"
 	}
 	"OKButton"
 	{
@@ -116,7 +112,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Token Name"
-		"textAlignment"		"west"
 	}
 	"TokenValueLabel"
 	{
@@ -132,6 +127,5 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Token Value"
-		"textAlignment"		"west"
 	}
 }

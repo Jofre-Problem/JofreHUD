@@ -42,11 +42,7 @@
 		"enabled"		"0"
 		//		"2"
 		"labelText"		"#Player_Panel_Kick"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
-		"Default"		"0"
 	}
 	"ban"
 	{
@@ -62,9 +58,6 @@
 		"enabled"		"0"
 		//		"3"
 		"labelText"		"#Player_Panel_Ban"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Default"		"1"
 	}
@@ -97,11 +90,7 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"#Player_Panel_Chat"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
-		"Default"		"0"
 	}
 	"slap"
 	{
@@ -117,10 +106,6 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"#Player_Panel_Slap"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
-		"Default"		"0"
 	}
 }

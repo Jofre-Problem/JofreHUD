@@ -91,11 +91,7 @@
 			"selected"		"1"
 			//		"8"
 			"labelText"			"H"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"1"
 		}
 		
@@ -113,11 +109,7 @@
 			"enabled"		"1"
 			//		"8"
 			"labelText"			"S"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"2"
 		}
 		
@@ -135,11 +127,7 @@
 			"enabled"		"1"
 			//		"8"
 			"labelText"			"V"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"3"
 		}
 		
@@ -157,11 +145,7 @@
 			"enabled"		"1"
 			//		"8"
 			"labelText"			"R"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"4"
 		}
 		
@@ -179,11 +163,7 @@
 			"enabled"		"1"
 			//		"8"
 			"labelText"			"G"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"5"
 		}
 		
@@ -201,11 +181,7 @@
 			"enabled"		"1"
 			//		"8"
 			"labelText"			"B"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"wrap"				"0"
-			"Default"			"0"
 			"SubTabPosition"	"6"
 		}
 		
@@ -224,9 +200,6 @@
 			"NumericInputOnly" "1"
 			//		"1"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 		
 		"SaturationText"
@@ -244,9 +217,6 @@
 			"NumericInputOnly" "1"
 			//		"2"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"SaturationLabel"
@@ -264,9 +234,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"%"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"ValueText"
@@ -284,9 +251,6 @@
 			"NumericInputOnly" "1"
 			//		"3"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"ValueLabel"
@@ -304,9 +268,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"%"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"RedText"
@@ -324,9 +285,6 @@
 			"NumericInputOnly" "1"
 			//		"4"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"GreenText"
@@ -344,9 +302,6 @@
 			"NumericInputOnly" "1"
 			//		"5"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 
 		"BlueText"
@@ -364,9 +319,6 @@
 			"enabled"		"1"
 			//		"6"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}		
 			
 		"AlphaText"
@@ -384,9 +336,6 @@
 			"enabled"		"1"
 			//		"7"
 			"labelText"			""
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}	
 		
 		"AlphaLabel"
@@ -404,9 +353,6 @@
 			"NumericInputOnly" "1"
 			//		"0"
 			"labelText"			"A"
-			"textAlignment"		"west"
-			"dulltext"			"0"
-			"brighttext"		"0"
 		}
 	}
 }

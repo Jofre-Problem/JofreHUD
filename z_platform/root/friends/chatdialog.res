@@ -31,7 +31,6 @@
 		"enabled"		"1"
 		//		"1"
 		"paintbackground"		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"2048"
 		"NumericInputOnly"		"0"
@@ -68,7 +67,6 @@
 		//		"2"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_Chat_Send"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"Default"		"1"
 		"selected"		"0"
@@ -88,7 +86,6 @@
 		//		"0"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_LastMessageReceived"
-		"textAlignment"		"west"
 		"font"		"DefaultSmall"
 		"wrap"		"0"
 	}
@@ -107,7 +104,6 @@
 		//		"0"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_ChatTo"
-		"textAlignment"		"west"
 		"wrap"		"0"
 	}
 }

@@ -39,7 +39,6 @@
 		"labelText"		"#TrackerUI_Close"
 		"textAlignment"		"center"
 		"command"		"Close"
-		"default"		"0"
 	}
 	"NeverShowButton"
 	{
@@ -54,6 +53,5 @@
 		//		"2"
 		"labelText"		"#TrackerUI_NeverShowThisDialogAgain"
 		"textAlignment"		"center"
-		"default"		"0"
 	}
 }

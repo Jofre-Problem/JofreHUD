@@ -29,7 +29,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -63,7 +62,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -96,7 +94,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -131,7 +128,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -150,7 +146,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Enable Friendly Fire"
-		"textAlignment"		"west"
 	}
 
 
@@ -173,7 +168,6 @@
 		"enabled"		"1"
 		//		"20"
 		"labelText"		"Allow Uploads"
-		"textAlignment"		"west"
 	}
 
 
@@ -205,7 +199,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -238,7 +231,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -257,7 +249,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"Allow Voice"
-		"textAlignment"		"west"
 	}
 "mp_tkpenaltylabel"
 	{
@@ -287,7 +278,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}

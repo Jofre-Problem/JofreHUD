@@ -39,7 +39,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
-					"textHidden"	"0"
 					"editable"		"1"
 					"maxchars"		"-1"
 					"NumericInputOnly"		"0"

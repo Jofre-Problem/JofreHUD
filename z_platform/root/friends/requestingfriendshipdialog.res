@@ -32,7 +32,6 @@
 		//		"2"
 		"paintbackground"		"1"
 		"labelText"		"#vgui_ok"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"Default"		"1"
 		"selected"		"0"
@@ -52,10 +51,8 @@
 		//		"3"
 		"paintbackground"		"1"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"AddUserRadio"
@@ -73,9 +70,7 @@
 		//		"1"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_AllowUserToSeeMeOnline"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"1"
 		"SubTabPosition"		"1"
 	}
@@ -94,9 +89,7 @@
 		//		"1"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_BlockUserFromSeeingMeOnline"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"0"
 		"SubTabPosition"		"2"
 	}
@@ -115,7 +108,6 @@
 		//		"0"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_UserRequestingFriendship_Info"
-		"textAlignment"		"west"
 		"wrap"		"0"
 	}
 	"ImagePanel1"

@@ -43,10 +43,7 @@
 		//		"7"
 		"labelText"		"#Okay_Button"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"okay"
-		"Default"		"0"
 	}
 	"Close"
 	{
@@ -63,10 +60,7 @@
 		//		"8"
 		"labelText"		"#Cancel_Button"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"close"
-		"Default"		"0"
 	}
 	"RefreshCheckButton"
 	{
@@ -82,10 +76,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#Options_Panel_AutoRefresh"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"RconCheckButton"
 	{
@@ -101,10 +91,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#Options_Panel_SaveRcon"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"RefreshTextEntry"
 	{
@@ -119,7 +105,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -137,10 +122,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#Options_Panel_Collect_Stats"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"GraphsRefreshTimeTextEntry"
 	{
@@ -155,7 +136,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -173,10 +153,6 @@
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"#Options_Panel_Get_Logs"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
 	}
 	"TimeLabel"
 	{
@@ -191,10 +167,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_Seconds"
-		"textAlignment"		"west"
 		"associate"		"RefreshCheckButton"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"WarningLabel1"
 	{
@@ -209,9 +182,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_SaveRcon_Unsecure"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"GraphsTimelabel"
 	{
@@ -226,9 +197,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_Collect_Stats_Time"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Label1"
 	{
@@ -243,8 +211,5 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Options_Panel_Seconds"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 }

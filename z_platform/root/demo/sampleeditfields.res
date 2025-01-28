@@ -15,7 +15,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label on top"
-		"textAlignment"		"west"
 	}
 	"Editbox1"
 	{
@@ -30,8 +29,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 
 	"Desc2"
@@ -48,7 +45,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label at left"
-		"textAlignment"		"west"
 	}
 	"Edit2"
 	{
@@ -63,8 +59,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 
 	"Desc3"
@@ -81,7 +75,6 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"Disabled"
-		"textAlignment"		"west"
 	}
 	"Edit3"
 	{
@@ -96,8 +89,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"1"
-		"textAlignment"		"west"
-		"default"		"0"
 	}
 
 	"Desc4"
@@ -114,7 +105,6 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"Disabled"
-		"textAlignment"		"west"
 	}
 
 }

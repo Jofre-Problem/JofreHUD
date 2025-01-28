@@ -28,9 +28,6 @@
 		"enabled"		"0"
 		//		"2"
 		"labelText"		"#TrackerUI_Send"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"default"		"1"
 	}
 	"NameLabel"
@@ -47,9 +44,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_ToJohnC"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"MessageState"
 	{
@@ -64,9 +58,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"TextEntry"
 	{
@@ -81,7 +72,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
 		"maxchars"		"500"
@@ -99,8 +89,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 	}
 	"InviteButton"
@@ -117,9 +105,5 @@
 		"enabled"		"0"
 		//		"0"
 		"labelText"		"#TrackerUI_Invite"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"default"		"0"
 	}
 }

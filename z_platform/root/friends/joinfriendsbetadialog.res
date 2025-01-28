@@ -32,9 +32,7 @@
 		//		"2"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_ActivateFriendsBeta"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 	}
 	"PersonaNameEntry"
 	{
@@ -50,7 +48,6 @@
 		"enabled"		"1"
 		//		"1"
 		"paintbackground"		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"64"
 		"NumericInputOnly"		"0"
@@ -71,10 +68,8 @@
 		//		"3"
 		"paintbackground"		"1"
 		"labelText"		"#vgui_Cancel"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"Label1"
 	{
@@ -109,7 +104,6 @@
 		//		"0"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_NameToUseInFriendsBeta"
-		"textAlignment"		"west"
 		"wrap"		"0"
 	}
 	"URLLabel1"
@@ -127,7 +121,6 @@
 		//		"1"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_BetaHomePage"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"URLText"		"http://developer.valvesoftware.com/wiki/Friends_Beta"
 	}

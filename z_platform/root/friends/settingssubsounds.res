@@ -15,9 +15,7 @@
 		//		"1"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenFriendJoins"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"OnlineSoundCheck"
@@ -35,9 +33,7 @@
 		//		"2"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenFriendComesOnline"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"MessageSoundCheck"
@@ -55,9 +51,7 @@
 		//		"3"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_PlaySoundWhenReceiveAMessage"
-		"textAlignment"		"west"
 		"wrap"		"0"
-		"Default"		"0"
 		"selected"		"0"
 	}
 }

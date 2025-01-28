@@ -42,11 +42,7 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#TrackerUI_RemoveUser"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"OK"
-		"Default"		"0"
 	}
 	"Cancel"
 	{
@@ -62,11 +58,7 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#TrackerUI_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 	"WarningLabel"
 	{
@@ -82,9 +74,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"You are about to remove johnc from your contact list."
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"InfoLabel"
 	{
@@ -100,9 +89,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TrackerUI_WarningNoLongerSeeYou"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 		"wrap"			"1"
 	}
 }

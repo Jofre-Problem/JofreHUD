@@ -28,8 +28,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -46,8 +44,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -64,8 +60,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -82,8 +76,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -101,9 +93,6 @@
 		"enabled"		"1"
 		//		"9"
 		"labelText"		"#Start_Server_Button"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"start"
 		"Default"		"1"
 	}
@@ -121,11 +110,7 @@
 		"enabled"		"1"
 		//		"10"
 		"labelText"		"#Start_Server_Cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"cancel"
-		"Default"		"0"
 	}
 	"SecureCheck"
 	{
@@ -141,9 +126,6 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"#Start_Server_Secure"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Default"		"1"
 		"state"		"0"
 	}
@@ -174,7 +156,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -196,7 +177,6 @@
 		"textAlignment"		"east"
 		"associate"		"ServerNameEdit"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"MaxPlayersLabel"
 	{
@@ -215,7 +195,6 @@
 		"textAlignment"		"east"
 		"associate"		"NumPlayers"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"MODLabel"
 	{
@@ -234,7 +213,6 @@
 		"textAlignment"		"east"
 		"associate"		"MODCombo"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"Label1"
 	{
@@ -253,7 +231,6 @@
 		"textAlignment"		"east"
 		"associate"		"MapList"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"Label4"
 	{
@@ -272,7 +249,6 @@
 		"textAlignment"		"east"
 		"associate"		"NetworkCombo"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"RCONPasswordEdit"
 	{
@@ -287,7 +263,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -309,7 +284,6 @@
 		"textAlignment"		"east"
 		"associate"		"RCONPasswordEdit"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"Label2"
 	{
@@ -328,7 +302,6 @@
 		"textAlignment"		"east"
 		"associate"		"PortEdit"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	"PortEdit"
 	{
@@ -343,7 +316,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"

@@ -50,7 +50,6 @@
 					"labelText"		"Mod Filter"
 					"textAlignment"	"east"
 					"dulltext"		"1"
-					"brighttext"	"0"
 				}
 				
 				"ModFilter"
@@ -68,8 +67,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
-					"textHidden"	"0"
-					"editable"		"0"
 					"maxchars"		"-1"
 					"NumericInputOnly"		"0"
 					"unicode"		"0"
@@ -91,8 +88,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
-					"textHidden"	"0"
-					"Default"		"0"
 					"command"		"AssetRescan"
 				}
 		
@@ -151,7 +146,6 @@
 					"labelText"		"Full Path"
 					"textAlignment"	"east"
 					"dulltext"		"1"
-					"brighttext"	"0"
 				}
 								
 				"FullPath"
@@ -169,12 +163,9 @@
 					//"PinnedCornerOffsetY" "-6"
 					"visible"		"1"
 					"enabled"		"0"
-					"editable"		"0"
 					//	"0"
 					"labelText"		""
-					"textAlignment"	"west"
 					"dulltext"		"1"
-					"brighttext"	"0"
 				}
 					
 				"FilterLabel"
@@ -195,7 +186,6 @@
 					"labelText"		"Filter"
 					"textAlignment"	"east"
 					"dulltext"		"1"
-					"brighttext"	"0"
 				}
 				
 				"FilterList"
@@ -214,7 +204,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					//	"2"
-					"textHidden"	"0"
 					"editable"		"1"
 					"maxchars"		"-1"
 					"NumericInputOnly"		"0"

@@ -36,7 +36,6 @@
 	}
 	"NameLabel"
 	{
-		"textAlignment"		"west"
 		"labelText"		"test2"
 		//		"0"
 		"enabled"		"1"
@@ -52,7 +51,6 @@
 	}
 	"InfoText"
 	{
-		"textAlignment"		"west"
 		"labelText"		"#TrackerUI_MessageFrom"
 		//		"0"
 		"enabled"		"1"

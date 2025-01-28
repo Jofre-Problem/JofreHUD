@@ -32,7 +32,6 @@
 		"labelText"		"#Friends_NotifyMeWhenUserComesOnline"
 		"textAlignment"		"north-west"
 		"wrap"		"1"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"SoundOnlineCheck"
@@ -52,7 +51,6 @@
 		"labelText"		"#Friends_PlaySoundWhenUserComesOnline"
 		"textAlignment"		"north-west"
 		"wrap"		"1"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"SoundIngameCheck"
@@ -72,7 +70,6 @@
 		"labelText"		"#Friends_PlaySoundWhenUserJoinsGame"
 		"textAlignment"		"north-west"
 		"wrap"		"1"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"InvisibleCheck"
@@ -92,7 +89,6 @@
 		"labelText"		"#TrackerUI_BlockUserFromSeeingMe"
 		"textAlignment"		"north-west"
 		"wrap"		"1"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"RemoveButton"
@@ -110,10 +106,8 @@
 		//		"5"
 		"paintbackground"		"1"
 		"labelText"		"#Friends_RemoveUser"
-		"textAlignment"		"west"
 		"wrap"		"0"
 		"Command"		"RemoveUser"
-		"Default"		"0"
 		"selected"		"0"
 	}
 	"RemoveText"

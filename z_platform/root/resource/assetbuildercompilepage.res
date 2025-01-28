@@ -28,9 +28,7 @@
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"Compile Output"
-			"textAlignment"	"west"
 			"dulltext"		"1"
-			"brighttext"	"0"
 		}
 
 		"CompileOutput"
@@ -48,8 +46,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
-			"textHidden"		"0"
-			"editable"		"0"
 			"maxchars"		"-1"
 			"NumericInputOnly"		"0"
 			"unicode"		"1"

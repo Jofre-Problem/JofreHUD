@@ -31,11 +31,8 @@
 		//		"2"
 		"labelText"		"Ok"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"Ok"
-		"Default"		"0"
 	}
 	"CancelButton"
 	{
@@ -52,11 +49,8 @@
 		//		"3"
 		"labelText"		"#FileOpenDialog_Cancel"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"Cancel"
-		"Default"		"0"
 	}
 	"PlayButton"
 	{
@@ -73,11 +67,8 @@
 		//		"0"
 		"labelText"		"Play"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"Play"
-		"Default"		"0"
 	}
 	"Record"
 	{
@@ -94,11 +85,8 @@
 		//		"0"
 		"labelText"		"Record"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 		"Command"		"ToggleRecord"
-		"Default"		"0"
 	}
 	"FileNameLabel"
 	{
@@ -114,9 +102,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Recording Into File:"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 	}
 	"filename"
@@ -133,8 +118,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
@@ -154,8 +137,6 @@
 		//		"0"
 		"labelText"		"Time Recorded"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 	}
 	"RecordTime"
@@ -171,8 +152,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
@@ -191,9 +170,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"sec"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"wrap"		"0"
 	}
 	"Divider1"

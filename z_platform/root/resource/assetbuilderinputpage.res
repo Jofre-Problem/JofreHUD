@@ -64,9 +64,7 @@
 					"enabled"		"1"
 					//	"0"
 					"labelText"		"Compile Options"
-					"textAlignment"	"west"
 					"dulltext"		"1"
-					"brighttext"	"0"
 				}
 
 				"CompileOptions"

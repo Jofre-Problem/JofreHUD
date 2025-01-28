@@ -28,10 +28,6 @@
 			"enabled"		"1"
 			//	"1"
 			"labelText"		"Wireframe"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"Collision"
@@ -48,10 +44,6 @@
 			"enabled"		"1"
 			//	"2"
 			"labelText"		"Collision Model"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"NoGround"
@@ -68,10 +60,6 @@
 			"enabled"		"1"
 			//	"3"
 			"labelText"		"No Ground"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"LockView"
@@ -88,10 +76,6 @@
 			"enabled"		"1"
 			//	"4"
 			"labelText"		"Lock View"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 
 		"ThumbnailSafeZone"
@@ -108,10 +92,6 @@
 			"enabled"		"1"
 			//	"4"
 			"labelText"		"Thumbnail Safe Zone"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"LookAtCamera"
@@ -129,10 +109,6 @@
 			"selected"		"1"
 			//	"5"
 			"labelText"		"Look At Camera"
-			"textAlignment"		"west"
-			"dulltext"		"0"
-			"brighttext"		"0"
-			"Default"		"0"
 		}
 		
 		"ChooseLightProbe"
@@ -151,7 +127,6 @@
 			"labelText"		"&Select Light Probe"
 			"textAlignment"		"center"
 			"command"		"ChooseLightProbe"
-			"default"		"0"
 		}
 	}
 }

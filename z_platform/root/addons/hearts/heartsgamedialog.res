@@ -63,7 +63,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -78,7 +77,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -93,7 +91,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -108,7 +105,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -123,7 +119,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -138,7 +133,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -153,7 +147,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -168,7 +161,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		""		
-		"textAlignment"		"west"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -196,7 +188,6 @@
 		"enabled"		"1"
 		//		"21"
 		"labelText"		"#Hearts_DealNextHand"
-		"textAlignment"		"west"
 	}    
 	
 	"GameTablePanel"
@@ -602,8 +593,6 @@
 		"enabled"		"1"
 		//		"18"
 		"labelText"		"#SteamAddOn_ShowScore"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     
 	"LastTrickBtn"
 	{
@@ -619,8 +608,6 @@
 		"enabled"		"0"
 		//		"19"
 		"labelText"		"#SteamAddOn_LastTrick"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     
 	"LastTrickLabel"
 	{
@@ -636,8 +623,6 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#SteamAddOn_LastTrick"
-		"textAlignment"		"west"
-		"Default"		"0"
 	}		     
 	"ChatTextLog"
 	{
@@ -652,8 +637,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"0"
-		"textHidden"		"0"
-		"editable"		"0"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
 	}
@@ -670,7 +653,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"500"
 	}
@@ -688,7 +670,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#SteamAddOn_Btn_Send"
-		"textAlignment"		"west"
 		"Default"		"1"
 	}	
 	"LastMessageLabel"
@@ -705,9 +686,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"Last message received at:"
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 	}
 	
 }

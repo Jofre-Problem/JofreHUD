@@ -28,7 +28,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -60,7 +59,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -94,7 +92,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -113,7 +110,6 @@
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#Config_Friendly_Fire"
-		"textAlignment"		"west"
 	}
 
 
@@ -136,7 +132,6 @@
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"#Config_Uploads"
-		"textAlignment"		"west"
 	}
 
 
@@ -167,7 +162,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -199,7 +193,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"7"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -218,7 +211,6 @@
 		"enabled"		"1"
 		//		"8"
 		"labelText"		"#Config_Voice"
-		"textAlignment"		"west"
 	}
 
 

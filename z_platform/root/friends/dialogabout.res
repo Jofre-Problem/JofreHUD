@@ -42,9 +42,6 @@
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#TrackerUI_Close"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
 		"Default"		"1"
 	}

@@ -28,9 +28,7 @@
 		"enabled"		"1"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"dulltext"		"1"
-		"brighttext"		"0"
 		"wrap"			"1"
 	}
 	"UserNameEdit"
@@ -46,7 +44,6 @@
 		"visible"		"1"
 		"enabled"		"0"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"0"
@@ -83,9 +80,6 @@
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#Friends_Login_Btn"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Login"
 		"Default"		"1"
 	}
@@ -105,8 +99,6 @@
 		"labelText"		"#Friends_AccountName"
 		"textAlignment"		"east"
 		"associate"		"UserNameEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"Unnamed dialog1"
 	{
@@ -124,8 +116,6 @@
 		"labelText"		"#Friends_Login_Password"
 		"textAlignment"		"east"
 		"associate"		"PasswordEdit"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
 	"CancelButton"
 	{
@@ -141,10 +131,6 @@
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#vgui_cancel"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

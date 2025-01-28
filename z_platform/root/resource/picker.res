@@ -51,7 +51,6 @@
 			"labelText"		"Filter"
 			"textAlignment"	"east"
 			"dulltext"		"1"
-			"brighttext"	"0"
 		}
 		
 		"FilterList"
@@ -70,7 +69,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//	"2"
-			"textHidden"	"0"
 			"editable"		"1"
 			"maxchars"		"-1"
 			"NumericInputOnly"		"0"

@@ -31,7 +31,6 @@
 		"enabled"		"1"
 		//		"1"
 		"paintbackground"		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
 		"NumericInputOnly"		"0"
