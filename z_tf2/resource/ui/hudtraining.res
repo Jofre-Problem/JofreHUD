@@ -9,7 +9,6 @@
 		"zpos"				"1"
 		"wide"				"320"
 		"tall"				"90"
-		"visible"			"1"
 		"enabled"			"1"
 	}
 	"GoalLabel"
@@ -26,7 +25,6 @@
 
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%goal%"
@@ -47,7 +45,6 @@
 
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%goal%"
@@ -68,7 +65,6 @@
 
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
@@ -109,7 +105,6 @@
 
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"

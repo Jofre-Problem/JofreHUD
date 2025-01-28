@@ -10,7 +10,6 @@
 		"tall"		"380"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"1"
@@ -30,7 +29,6 @@
 		"tall"		"279"
 		//		"3"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 	}
@@ -44,7 +42,6 @@
 		"tall"		"25"
 		//		"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
 		"labelText"			"#GameUI_ReportPlayer"
@@ -63,14 +60,10 @@
 		"tall"				"25"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
 	}
 	"Button1"
 	{
@@ -88,6 +81,5 @@
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 }

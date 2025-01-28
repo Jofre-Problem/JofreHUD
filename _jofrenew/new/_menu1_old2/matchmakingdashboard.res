@@ -400,7 +400,7 @@
 			"xpos"			"0"
 			"ypos"			"-50"
 			"zpos"			"111"
-			"wide"			"f0"
+			"wide"			"p0.8"
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"

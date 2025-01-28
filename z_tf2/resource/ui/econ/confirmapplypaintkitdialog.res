@@ -24,7 +24,6 @@
 		"tall"			"100"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"centerwrap"	"1"
@@ -44,7 +43,6 @@
 		"tall"			"100"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 		"centerwrap"	"1"
@@ -59,7 +57,6 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"150"
-		"visible"		"1"
 		"border"		"StorePreviewBorder"
 		"paintborder"	"1"
 

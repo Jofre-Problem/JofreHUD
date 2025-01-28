@@ -9,7 +9,6 @@
 		"wide"			"150"
 		"tall"			"31"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -23,7 +22,6 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
@@ -38,7 +36,6 @@
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
@@ -53,8 +50,6 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
-		"visible"		"1"
-
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -65,7 +60,6 @@
 			"wide"			"200"
 			"tall"			"31"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
 			"textAlignment"	"Left"
@@ -92,7 +86,6 @@
 			"wide"			"8"
 			"tall"			"24"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
 		}
@@ -117,7 +110,6 @@
 				"wide"			"200"
 				"tall"			"12"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
@@ -133,7 +125,6 @@
 				"wide"			"50"
 				"tall"			"8"				
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
@@ -157,7 +148,6 @@
 				"ypos"			"5"
 				"wide"			"20"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
@@ -174,7 +164,6 @@
 				"wide"			"35"
 				"tall"			"8"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}

@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"400"
 		"zpos"			"501"
-		"visible"		"1"
 		//	"0"
 		//		"0"
 		"enabled"		"1"
@@ -77,17 +76,13 @@
 			"tall"				"30"
 			//		"0"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
-			"Default"			"0"
 			"font"				"MenuKeys"
 			"scaleImage"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 	}
 
@@ -117,7 +112,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
@@ -137,7 +131,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -155,7 +148,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -189,15 +181,12 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			//	"0"
 			"labelText"		"#CraftConfirm"
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"craft"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}		
 		
 		"PrevInputPageButton"
@@ -211,15 +200,12 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"previnputpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"CurInputPageLabel"
 		{
@@ -235,7 +221,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
@@ -250,15 +235,12 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextinputpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}			
 	}
 
@@ -308,7 +290,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 		}
@@ -327,7 +308,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
@@ -344,7 +324,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
@@ -352,8 +331,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
 		"PrevPageButton"
@@ -367,15 +344,12 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"CurPageLabel"
 		{
@@ -391,7 +365,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
@@ -406,15 +379,12 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}				
 	}
 
@@ -449,7 +419,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"

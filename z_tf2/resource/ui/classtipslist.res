@@ -10,7 +10,6 @@
 		"tall"					"165"
 		//			"3"
 		//				"0"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"bgcolor_override"		"blank"

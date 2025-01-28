@@ -6,7 +6,6 @@
 		"fieldName"		"Spectator"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -19,8 +18,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"tall"			"18"
-
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 	}
@@ -82,7 +79,6 @@
 			"wide"			"270"
 			"tall"			"9"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
@@ -97,7 +93,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}		
 "MapLabel"

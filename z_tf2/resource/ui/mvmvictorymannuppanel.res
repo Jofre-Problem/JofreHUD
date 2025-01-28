@@ -31,7 +31,6 @@
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
@@ -49,15 +48,12 @@
 		"zpos"			"100"
 		"wide"			"106"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
@@ -72,7 +68,6 @@
 		"zpos"			"200"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 	}
 
 
@@ -86,7 +81,6 @@
 		"wide"			"f0"
 		"tall"			"320"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 			
 		"PaintBackgroundType" "2"
@@ -102,7 +96,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -121,7 +114,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -141,8 +133,6 @@
 		"zpos"			"100"
 		"wide"			"399"
 		"tall"			"40"
-		"visible"		"1"
-
 		"PlayerTab1"
 		{
 			"ControlName"	"CMvMVictoryMannUpPlayerTab"
@@ -152,7 +142,6 @@
 			"zpos"			"-5"
 			"wide"			"63"
 			"tall"			"f0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"42 41 39 255"
@@ -170,7 +159,6 @@
 			"wide"			"62"
 			"tall"			"f0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -188,7 +176,6 @@
 			"wide"			"62"
 			"tall"			"f0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -206,7 +193,6 @@
 			"wide"			"62"
 			"tall"			"f0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -224,7 +210,6 @@
 			"wide"			"62"
 			"tall"			"f0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -242,7 +227,6 @@
 			"wide"			"62"
 			"tall"			"f0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -260,10 +244,6 @@
 		"zpos"			"-10"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
-
-
-			
 		"NoItemServerContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -272,8 +252,6 @@
 			"ypos"			"0"
 			"wide"			"530"
 			"tall"			"480"
-			"visible"		"1"
-			
 			"NoItemServerHeader"
 			{
 				"ControlName"	"CExLabel"

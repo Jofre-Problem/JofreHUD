@@ -47,7 +47,6 @@
 			"wide"			"100"
 			"tall"			"10"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"auto_wide_tocontents"	"1"
@@ -80,7 +79,6 @@
 			"wide"		"340"
 			"tall"		"40"
 			"textAlignment"	"center"
-			"visible"	"1"
 			"enabled"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -97,7 +95,6 @@
 			"wide"		"340"
 			"tall"		"40"
 			"textAlignment"	"center"
-			"visible"	"1"
 			"enabled"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -111,7 +108,6 @@
 			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"80"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"animated/tf2_logo_hourglass"
 		
@@ -145,7 +141,6 @@
 			"wide"		"340"
 			"tall"		"40"
 			"textAlignment"	"center"
-			"visible"	"1"
 			"enabled"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -162,7 +157,6 @@
 			"wide"		"340"
 			"tall"		"40"
 			"textAlignment"	"center"
-			"visible"	"1"
 			"enabled"	"1"
 			"proportionaltoparent"	"1"
 		}
@@ -176,7 +170,6 @@
 			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"80"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"animated/tf2_logo_hourglass"
 		
@@ -210,7 +203,6 @@
 			"wide"		"340"
 			"tall"		"40"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -226,7 +218,6 @@
 			"wide"		"90"
 			"tall"		"20"
 			"textAlignment"	"south-east"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -242,7 +233,6 @@
 			"wide"		"90"
 			"tall"		"20"
 			"textAlignment"	"south-east"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -258,7 +248,6 @@
 			"wide"		"300"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -274,7 +263,6 @@
 			"wide"		"130"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -289,7 +277,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -305,7 +292,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -322,7 +308,6 @@
 			"wide"		"130"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -337,7 +322,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -353,7 +337,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -370,7 +353,6 @@
 			"wide"		"300"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -386,7 +368,6 @@
 			"wide"		"130"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -401,7 +382,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -417,7 +397,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -434,7 +413,6 @@
 			"wide"		"130"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -449,7 +427,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -465,7 +442,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -482,7 +458,6 @@
 			"wide"		"300"
 			"tall"		"20"
 			"textAlignment"	"north-west"
-			"visible"	"1"
 			"enabled"	"1"
 		}
 
@@ -497,7 +472,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -513,7 +487,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"north-east"
-				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
 			}
@@ -539,7 +512,6 @@
 				"zpos"			"0"
 				"wide"			"50"
 				"tall"			"50"
-				"visible"		"1"
 				"enabled"		"1"
 				"mouseinputenabled" "0"
 				"image"			"pve/mvm_timeout_active_large"
@@ -557,7 +529,6 @@
 				"wide"		"275"
 				"tall"		"60"
 				"textAlignment"	"west"
-				"visible"	"1"
 				"enabled"	"1"
 				"wrap"		"1"
 				"fgcolor_override"	"250 114 45 255"
@@ -574,7 +545,6 @@
 				"wide"		"175"
 				"tall"		"30"
 				"textAlignment"	"west"
-				"visible"	"1"
 				"enabled"	"1"
 				"wrap"		"1"
 			}
@@ -637,7 +607,6 @@
 				"wide"			"100"
 				"tall"			"20"
 				////		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"labelText"		"#TF_Matchmaking_Invite"
@@ -646,8 +615,6 @@
 				"default"		"1"
 				"Command"		"invite"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"TourLevelImage"

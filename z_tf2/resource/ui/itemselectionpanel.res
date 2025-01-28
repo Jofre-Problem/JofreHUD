@@ -10,7 +10,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
@@ -100,7 +99,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -117,7 +115,6 @@
 		"wide"			"480"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -135,7 +132,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"StoreDarkTan"
 	}
@@ -150,10 +146,8 @@
 		"wide"		"90"
 		"tall"		"19"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
@@ -171,7 +165,6 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
@@ -185,7 +178,6 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
@@ -204,7 +196,6 @@
 		"wide"			"375"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -236,15 +227,12 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"OnlyAllowUniqueQuality"
@@ -274,7 +262,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Selection_ShowBackpack"
@@ -282,8 +269,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"show_backpack"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"ShowSelection"
 	{
@@ -295,7 +280,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Selection_ShowSelection"
@@ -303,8 +287,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"show_selection"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"PrevPageButton"
@@ -317,15 +299,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"CurPageLabel"
@@ -342,7 +321,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -357,15 +335,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"mouseoveritempanel"
@@ -398,7 +373,6 @@
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"

@@ -10,7 +10,6 @@
 		"tall"		"140"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	"CommentaryScreenshotBackground"
@@ -32,7 +31,6 @@
 		"ypos"			"16"
 		"wide"			"180"
 		"tall"			"100"
-		"visible"		"1"
 	}
 	
 	"MapName"

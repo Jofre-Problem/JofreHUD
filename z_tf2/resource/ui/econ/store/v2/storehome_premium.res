@@ -11,7 +11,6 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
-		"visible"		"1"
 		"enabled"		"1"
 	
 		"MannCoImage"
@@ -34,7 +33,6 @@
 //			}
 			if_null_christmas
 			{
-				"visible"		"1"
 				"ypos"			"15"
 				"image"		"store/store_australian_christmas_callout_sale"
 			}

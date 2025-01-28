@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -22,7 +21,6 @@
 		"zpos"			"-1"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
 	}
@@ -35,7 +33,6 @@
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	

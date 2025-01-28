@@ -57,7 +57,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -74,7 +73,6 @@
 		"wide"			"60"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -91,7 +89,6 @@
 		"wide"			"140"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -104,7 +101,6 @@
 		"zpos"			"2"
 		"wide"			"265"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
@@ -147,7 +143,6 @@
 			"zpos"			"100"
 			"wide"			"200"
 			"tall"			"40"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
@@ -182,7 +177,6 @@
 		"wide"			"25"
 		"tall"			"120"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"paintbackground"	"0"

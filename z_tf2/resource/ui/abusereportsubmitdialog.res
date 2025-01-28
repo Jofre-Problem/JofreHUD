@@ -3,7 +3,6 @@
 	"AbuseReportSubmitDialog"
 	{
 		"fieldName"				"AbuseReportSubmitDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-280"
 		"ypos"					"c-240"
@@ -168,7 +167,6 @@
 		"ypos"			"40"
 		"wide"			"360"
 		"tall"			"200"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -184,8 +182,6 @@
 		"labelText"		"Screenshot shows abuse; upload it with report."
 		"font"			"HudFontSmall"
 		"textAlignment"	"west"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"AvatarImage"
@@ -196,7 +192,6 @@
 		"ypos"			"40"
 		"wide"			"200"
 		"tall"			"200"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
@@ -209,7 +204,6 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoAvatar"
 		"font"			"HudFontSmall"
@@ -224,7 +218,6 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -239,7 +232,6 @@
 		"tall"			"43"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_LessThan"
@@ -247,8 +239,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"prevcustomtexture"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 	"CustomTextureNextButton"
@@ -262,7 +252,6 @@
 		"tall"			"43"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_GreaterThan"
@@ -270,8 +259,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"nextcustomtexture"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 	"NoCustomTexturesLabel"
@@ -282,7 +269,6 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoCustomTextures"
 		"font"			"HudFontSmall"
@@ -333,8 +319,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"discard"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"SubmitButton"
@@ -350,8 +334,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"submit"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"SaveForLaterButton"
@@ -367,7 +349,5 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

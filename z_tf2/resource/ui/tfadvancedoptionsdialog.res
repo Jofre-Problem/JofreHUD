@@ -9,7 +9,6 @@
 		"wide"		"500"
 		"tall"		"350"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"		"46 43 42 255"
@@ -37,7 +36,6 @@
 		"wide"			"500"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -51,7 +49,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -59,8 +56,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"Close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"OkButton"
 	{
@@ -72,7 +67,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -80,8 +74,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"Ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"PanelListPanel"
@@ -93,7 +85,6 @@
 		"wide"		"480"
 		"tall"		"260"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 0"
@@ -125,7 +116,6 @@
 			"wide"			"200"
 			"tall"			"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"

@@ -9,7 +9,6 @@
 		"zpos"			"2"
 		"wide"			"1400"
 		"tall"			"p0.8"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"P4Warning"
@@ -34,7 +33,6 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"1"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
@@ -46,8 +44,6 @@
 			"Command"		"open_edit_context"
 			"proportionaltoparent"	"1"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		
 			"image_drawcolor"	"235 226 202 255"
 			"SubImage"
@@ -59,7 +55,6 @@
 				"zpos"			"1"
 				"wide"			"p0.8"
 				"tall"			"p0.8"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_options"
@@ -228,7 +223,6 @@
 			"zpos"			"2"
 			"wide"			"p0.6"
 			"tall"			"p0.9"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel

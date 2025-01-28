@@ -9,7 +9,6 @@
 		"wide"			"150"
 		"tall"			"31"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -23,7 +22,6 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
@@ -38,7 +36,6 @@
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
@@ -53,8 +50,6 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
-		"visible"		"1"
-
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -65,7 +60,6 @@
 			"wide"			"200"
 			"tall"			"31"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_enter_not_built_360"
 			"textAlignment"	"Left"
@@ -139,7 +133,6 @@
 			"ypos"			"0"
 			"wide"			"34"
 			"tall"			"31"
-			"visible"		"1"
 			"enabled"		"1"	
 			"icon"			"obj_status_alert_background"
 		}
@@ -186,7 +179,6 @@
 			"wide"			"8"
 			"tall"			"24"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
 		}
@@ -211,7 +203,6 @@
 				"wide"			"200"
 				"tall"			"12"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
@@ -227,7 +218,6 @@
 				"wide"			"50"
 				"tall"			"8"				
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
@@ -252,7 +242,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/hud_obj_status_teleport_64"
 				"drawcolor"		"ProgressOffWhite"
@@ -279,7 +268,6 @@
 					"wide"			"38"
 					"tall"			"8"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"textAlignment"	"Left"
 				}	
@@ -305,7 +293,6 @@
 					"wide"			"200"
 					"tall"			"25"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"%timesused%"
 					"textAlignment"	"north-west"
@@ -321,7 +308,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
@@ -338,7 +324,6 @@
 				"wide"			"38"
 				"tall"			"8"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}

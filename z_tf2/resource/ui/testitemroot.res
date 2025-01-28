@@ -3,7 +3,6 @@
 	"TestItemRoot"
 	{
 		"fieldName"				"TestItemRoot"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -29,7 +28,6 @@
 		"wide"			"f0"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -42,7 +40,6 @@
 		"ypos"			"50"
 		"wide"			"400"
 		"tall"			"95"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
 		
@@ -59,7 +56,6 @@
 			"wide"			"200"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -76,7 +72,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -93,7 +88,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -110,7 +104,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -127,7 +120,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -144,7 +136,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -161,7 +152,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -178,7 +168,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -195,7 +184,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -212,7 +200,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -229,7 +216,6 @@
 			"wide"			"75"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -243,7 +229,6 @@
 		"ypos"			"150"
 		"wide"			"400"
 		"tall"			"105"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
 	
@@ -260,7 +245,6 @@
 			"wide"			"200"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -277,7 +261,6 @@
 			"wide"			"85"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"TestItemEntry0"
@@ -293,7 +276,6 @@
 			"wide"			"165"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override" "24 24 24 128"
@@ -308,7 +290,6 @@
 			"wide"			"90"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Add"
@@ -316,8 +297,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_test0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"RemoveItemButton0"
 		{
@@ -329,7 +308,6 @@
 			"wide"			"20"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Remove"
@@ -337,8 +315,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_remove0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"TestingHeadgearLabel"
 		{
@@ -353,7 +329,6 @@
 			"wide"			"85"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"TestItemEntry1"
@@ -369,7 +344,6 @@
 			"wide"			"165"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override" "24 24 24 128"
@@ -384,7 +358,6 @@
 			"wide"			"90"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Add"
@@ -392,8 +365,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_test1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"RemoveItemButton1"
 		{
@@ -405,7 +376,6 @@
 			"wide"			"20"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Remove"
@@ -413,8 +383,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_remove1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"TestingMisc1Label"
 		{
@@ -429,7 +397,6 @@
 			"wide"			"85"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"TestItemEntry2"
@@ -445,7 +412,6 @@
 			"wide"			"165"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override" "24 24 24 128"
@@ -460,7 +426,6 @@
 			"wide"			"90"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Add"
@@ -468,8 +433,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_test2"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"RemoveItemButton2"
 		{
@@ -481,7 +444,6 @@
 			"wide"			"20"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Remove"
@@ -489,8 +451,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_remove2"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"TestingMisc2Label"
 		{
@@ -505,7 +465,6 @@
 			"wide"			"85"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"TestItemEntry3"
@@ -521,7 +480,6 @@
 			"wide"			"165"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override" "24 24 24 128"
@@ -536,7 +494,6 @@
 			"wide"			"90"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Add"
@@ -544,8 +501,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_test3"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		"RemoveItemButton3"
 		{
@@ -557,7 +512,6 @@
 			"wide"			"20"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Item_Remove"
@@ -565,8 +519,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"item_remove3"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
 	
@@ -578,7 +530,6 @@
 		"ypos"			"50"
 		"wide"			"200"
 		"tall"			"95"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 128"
 		
@@ -595,7 +546,6 @@
 			"wide"			"200"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -612,7 +562,6 @@
 			"wide"			"90"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -630,7 +579,6 @@
 			"wide"			"90"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -645,7 +593,6 @@
 			"wide"			"70"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Bot_Add"
@@ -653,8 +600,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"bot_add"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 				
 		"BotSelectionComboBox"
@@ -668,15 +613,10 @@
 			"wide"				"100"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
 			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -696,7 +636,6 @@
 			"wide"			"120"
 			"tall"			"15"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#IT_Bot_RemoveAll"
@@ -704,15 +643,12 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"bot_removeall"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
 	
 	"TestItemBotControls"
 	{
 		"fieldName"				"TestItemBotControls"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c100"
 		"ypos"					"150"
@@ -731,7 +667,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#IT_ExportLoadout"
@@ -739,8 +674,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"export"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"ImportButton"
 	{
@@ -752,7 +685,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#IT_ImportLoadout"
@@ -760,8 +692,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"import"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"ImportRecentButton"
 	{
@@ -773,7 +703,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#IT_ImportLast"
@@ -781,8 +710,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"importrecent"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"CancelButton"
@@ -795,7 +722,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -803,8 +729,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"OkButton"
 	{
@@ -816,7 +740,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#IT_Ok"
@@ -824,8 +747,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"SteamWorkshopButton"
@@ -837,7 +758,6 @@
 		"zpos"			"11"
 		"wide"			"200"
 		"tall"			"36"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"SteamWorkshopButtonSubButton"
 		{
@@ -848,7 +768,6 @@
 			"wide"			"200"
 			"tall"			"26"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"textinsetx"	"25"
@@ -860,8 +779,6 @@
 			"command"		"steamworkshop"
 			"labeltext"			"#MMenu_SteamWorkshop"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 					
 			"image_armedcolor"	"235 226 202 255"
 			"image_drawcolor"	"235 226 202 255"
@@ -875,7 +792,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_steamworkshop"
@@ -901,7 +817,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

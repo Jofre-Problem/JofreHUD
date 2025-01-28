@@ -120,7 +120,6 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"ParticleEffects"
@@ -201,7 +200,6 @@
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
-		"visible"		"1"
 		"enabled"		"1"
 	}	
 
@@ -221,7 +219,6 @@
 
 		if_null_match
 		{
-			"visible"		"1"
 		}
 	}
 
@@ -237,7 +234,6 @@
 		"zpos"			"5"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"alpha"			"0"
@@ -259,7 +255,6 @@
 		"zpos"			"5"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"alpha"			"0"
@@ -314,7 +309,6 @@
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
@@ -339,7 +333,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
-		"visible"		"1"
 		"enabled"		"1"
 
 
@@ -398,7 +391,6 @@
 				"zpos"			"3"
 				"wide"			"19"
 				"tall"			"19"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
@@ -413,7 +405,6 @@
 				"zpos"			"2"
 				"wide"			"f0"
 				"tall"			"19"
-				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
@@ -430,7 +421,6 @@
 				"tall"					"2"				
 				//			"0"
 				//				"0"
-				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "80 80 80 255"
@@ -448,7 +438,6 @@
 				"tall"					"2"				
 				//			"0"
 				//				"0"
-				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "0 0 0 0"
@@ -519,7 +508,6 @@
 				"tall"			"19"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
@@ -619,7 +607,6 @@
 			"tall"			"36"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
@@ -632,7 +619,6 @@
 			"zpos"			"5"
 			"wide"			"56"
 			"tall"			"56"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
@@ -651,7 +637,6 @@
 			"tall"			"30"
 			//		"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
 		}
@@ -664,7 +649,6 @@
 			"zpos"			"5"	
 			"wide"			"35"
 			"tall"			"35"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -679,7 +663,6 @@
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -693,7 +676,6 @@
 			"wide"			"136"
 			"tall"			"205"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			//	"3"
@@ -717,7 +699,6 @@
 			"tall"			"215"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
@@ -757,7 +738,6 @@
 			"tall"			"36"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
@@ -770,7 +750,6 @@
 			"zpos"			"5"
 			"wide"			"70"
 			"tall"			"70"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
@@ -789,7 +768,6 @@
 			"tall"			"30"
 			//		"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
 		}
@@ -802,7 +780,6 @@
 			"zpos"			"5"
 			"wide"			"35"
 			"tall"			"35"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -817,7 +794,6 @@
 			"zpos"			"4"
 			"wide"			"39"
 			"tall"			"39"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -831,7 +807,6 @@
 			"wide"			"136"
 			"tall"			"205"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			//	"3"
@@ -855,7 +830,6 @@
 			"tall"			"215"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 

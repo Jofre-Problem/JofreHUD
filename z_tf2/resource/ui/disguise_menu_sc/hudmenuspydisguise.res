@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"470"
 		"tall"			"170"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
@@ -28,7 +27,6 @@
 		"tall"			"45"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
@@ -46,7 +44,6 @@
 		"wide"			"300"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
@@ -64,7 +61,6 @@
 		"tall"			"87"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 150"
@@ -80,8 +76,6 @@
 		"zpos"			"1"
 		"wide"			"55"
 		"tall"			"130"
-		"visible"		"1"
-		
 		"selection_image"
 		{
 			"ControlName"	"CIconPanel"
@@ -90,7 +84,6 @@
 			"ypos"			"36"
 			"wide"			"45"
 			"tall"			"110"		
-			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"hud_menu_item_bg_outline"
@@ -107,7 +100,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_1"
@@ -131,7 +123,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_2"
@@ -155,7 +146,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_3"
@@ -179,7 +169,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_4"
@@ -203,7 +192,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_5"
@@ -227,7 +215,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_6"
@@ -251,7 +238,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_7"
@@ -275,7 +261,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_8"
@@ -299,7 +284,6 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"120"
-		"visible"		"1"
 	}	
 	
 	"class_item_blue_9"
@@ -326,7 +310,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_toggle_function"
@@ -344,7 +327,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Toggle"
 		"textAlignment"	"Left"
@@ -361,7 +343,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -379,7 +360,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Select_Disguise"
 		"textAlignment"	"Left"
@@ -396,7 +376,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
@@ -414,7 +393,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
@@ -430,7 +408,6 @@
 		"tall"			"30"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 190"
@@ -448,7 +425,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_left"
@@ -465,7 +441,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"B"
 		"actionSet"		"InGameHUDControls"

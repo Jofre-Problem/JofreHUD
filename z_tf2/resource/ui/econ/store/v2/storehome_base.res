@@ -186,7 +186,6 @@
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
@@ -204,7 +203,6 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
-		"visible"		"1"
 		"enabled"		"1"
 	
 		"MannCoImage"
@@ -232,7 +230,6 @@
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportiontoparent"	"1"
 
@@ -245,7 +242,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"enable"		"1"
 			"image"			"store/store_bg001"
 			"scale_image"	"1"
@@ -271,8 +267,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"ItemCategoryTabs"
@@ -285,7 +279,6 @@
 		"wide"				"430"
 		"tall"				"30"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		
 		"auto_scale"		"1"
@@ -300,7 +293,6 @@
 			"tall"				"30"
 			"textinsety"		"-5"
 			//			"2"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"0"
 			"textAlignment"		"center"
@@ -315,9 +307,6 @@
 			"selectedBgColor_override" "10 10 10 255"
 			"selectedFgColor_override"	"235 227 203 255"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"1"
 			"paintborder"		"1"
@@ -346,8 +335,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"CurPageLabel"
@@ -364,7 +351,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -386,8 +372,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -404,7 +388,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -420,15 +403,12 @@
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
-		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"CartImage"
@@ -440,7 +420,6 @@
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"store_cart"
 		"scaleImage"	"1"
@@ -464,8 +443,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"startshopping"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"MarketPlaceButton"
@@ -478,7 +455,6 @@
 		"wide"			"170"
 		"tall"			"23"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_MarketPlace"
@@ -488,8 +464,6 @@
 		"Command"		"marketplace"
 		"paintbackground"	"1"
 		"defaultBgColor_override" "46 43 42 255"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"TitleLabel"

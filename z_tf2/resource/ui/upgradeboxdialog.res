@@ -9,7 +9,6 @@
 		"wide"			"300"
 		"tall"			"200"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -30,7 +29,6 @@
 		"tall"			"30"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -47,7 +45,6 @@
 		"wide"			"220"
 		"tall"			"170"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
@@ -63,7 +60,6 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Trial_Upgrade"
@@ -71,8 +67,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"upgrade"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"102 122 42 255"
 		"armedBgColor_override"		"143 167 57 255"
 		"depressedBgColor_override"	"143 167 57 255"
@@ -89,7 +83,6 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
@@ -97,7 +90,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 }

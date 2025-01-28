@@ -21,7 +21,6 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"1"
-			"visible"				"1"
 			"proportionalToParent"	"1"
 		}
 
@@ -35,7 +34,6 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"1"
-			"visible"				"1"
 			"proportionalToParent"	"1"
 		}
 
@@ -49,7 +47,6 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"1"
-			"visible"				"1"
 			"proportionalToParent"	"1"
 		}
 	}

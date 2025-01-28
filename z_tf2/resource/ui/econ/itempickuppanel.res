@@ -10,7 +10,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -60,7 +59,6 @@
 		"zpos"			"6"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
 		"bgcolor_override" "0 0 0 255"
 	}
 	
@@ -73,7 +71,6 @@
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
@@ -92,7 +89,6 @@
 		"wide"			"f0"
 		"tall"			"35"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -109,7 +105,6 @@
 		"wide"			"f0"
 		"tall"			"35"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -126,7 +121,6 @@
 		"wide"			"100"
 		"tall"			"10"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	"SelectedItemNumberLabel"
@@ -142,7 +136,6 @@
 		"wide"			"120"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -156,15 +149,12 @@
 		"wide"			"70"
 		"tall"			"30"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#NextItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"nextitem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"PrevButton"
 	{
@@ -176,15 +166,12 @@
 		"wide"			"70"
 		"tall"			"30"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#PreviousItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"previtem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"CloseButton"
@@ -197,7 +184,6 @@
 		"wide"			"250"
 		"tall"			"30"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CloseItemPanel"
@@ -205,8 +191,6 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"OpenLoadoutButton"
 	{
@@ -218,15 +202,12 @@
 		"wide"			"250"
 		"tall"			"30"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%loadouttext%"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"changeloadout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"DiscardButton"
@@ -239,15 +220,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"discarditem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"defaultBgColor_override" "117 107 94 255"
 		"armedBgColor_override" "145 73 59 255"
@@ -265,7 +243,6 @@
 			"zpos"			"1"
 			"wide"			"p1"
 			"tall"			"p1"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"icon_trash_on"
 			"scaleImage"	"1"
@@ -298,7 +275,6 @@
 			"wide"			"80"
 			"tall"			"50"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
@@ -318,7 +294,6 @@
 		"wide"			"420"
 		"tall"			"60"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override"	"46 43 42 255"
@@ -335,11 +310,8 @@
 		//			"0"
 		"visible"			"0"
 		//		"0"
-		"textHidden"		"0"
 		"editable"			"1"
 		"maxchars"			"5"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"

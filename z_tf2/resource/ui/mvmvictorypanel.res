@@ -8,8 +8,6 @@
 		"ypos"			"100"
 		"wide"			"536"
 		"tall"			"230"
-		"visible"		"1"
-		
 		//"PaintBackgroundType"	"0"
 		//"paintbackground"	"0"
 		//"border"		"MainMenuHighlightBorder"
@@ -23,7 +21,6 @@
 			"wide"			"530"
 			"tall"			"230"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 
@@ -42,8 +39,6 @@
 			"ypos"			"0"
 			"wide"			"530"
 			"tall"			"100"
-			"visible"		"1"
-
 			"HeaderShadow"
 			{
 				"ControlName"	"CExLabel"
@@ -96,7 +91,6 @@
 			"wide"			"400"
 			"tall"			"70"
 			"autoResize"	"1"
-			"visible"		"1"
 		}
 
 		"RatingContainer"
@@ -108,8 +102,6 @@
 			"wide"			"400"
 			"tall"			"400"
 			"autoResize"	"1"
-			"visible"		"1"
-			
 			"RatingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -162,7 +154,6 @@
 			"wide"			"400"
 			"tall"			"70"
 			"autoResize"	"1"
-			"visible"		"1"
 		}
 	}
 
@@ -175,15 +166,12 @@
 		"zpos"			"100"
 		"wide"			"106"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"

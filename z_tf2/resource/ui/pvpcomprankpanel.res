@@ -56,8 +56,6 @@
 
 		"StatsContainer"
 		{
-			"visible"		"1"
-
 			if_null_mini
 			{
 				"xpos"	"cs-0.5"
@@ -71,8 +69,6 @@
 
 				"CurrentXPLabel"
 				{
-					"visible"		"1"
-
 					if_null_mini
 					{
 						"xpos"			"cs-0.5"

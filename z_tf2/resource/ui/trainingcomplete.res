@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"1"
 		"enabled"			"1"
   
 		"Next" [$WIN32] 
@@ -22,15 +21,12 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_NextTraining"
 			"textAlignment"		"center"
 			"command"		"next"
 			"font"			"MenuSmallFont"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"Quit" [$WIN32] 
@@ -43,15 +39,12 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_QuitTraining"
 			"textAlignment"		"center"
 			"command"		"quit"
 			"font"			"MenuSmallFont"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
 		"Replay" [$WIN32] 
@@ -64,15 +57,12 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Button_ReplayTraining"
 			"textAlignment"	"center"
 			"command"		"replay"
 			"font"			"MenuSmallFont"
 			"fgcolor"		"Black"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		
 		"BottomBar"
@@ -85,7 +75,6 @@
 			"wide"			"f0"
 			"tall"			"50"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
@@ -102,7 +91,6 @@
 			"wide"			"f0"
 			"tall"			"50"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
@@ -119,7 +107,6 @@
 		"zpos"			"2"
 		"wide"			"128"
 		"tall"			"128"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/graduation_bomb"
 		"scaleImage"	"1"
@@ -134,7 +121,6 @@
 		"zpos"		"1"
 		"wide"		"400"
 		"tall"		"480"
-		"visible"	"1"
 		"enabled"	"1"
 
 		"ResultsLabel"
@@ -150,7 +136,6 @@
 			"wide"			"400"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"ResultsBG"
@@ -161,7 +146,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"275"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"TrainingResultsBG"
 		}
@@ -176,7 +160,6 @@
 			"tall"			"215"
 			"autoResize"		"3"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"maxchars"		"-1"

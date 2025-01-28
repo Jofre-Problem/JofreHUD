@@ -9,7 +9,6 @@
 		"zpos"			"9999"
 		"wide"			"200"
 		"tall"			"60"
-		"visible"		"1"
 		"proportionaltoparent"	"0"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
@@ -29,7 +28,6 @@
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -47,7 +45,6 @@
 			"zpos"			"-1"
 			"wide"			"f5"
 			"tall"			"f5"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
@@ -62,7 +59,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -88,7 +84,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
@@ -108,8 +103,6 @@
 				"wide"			"75"
 				"tall"			"15"
 				//		"3"
-				"visible"		"1"
-
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
@@ -122,8 +115,6 @@
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"SmallJoinButton"
@@ -142,7 +133,6 @@
 					"wide"			"150"
 				}
 				//		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
@@ -157,8 +147,6 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"WideJoinButton"
@@ -171,7 +159,6 @@
 				"zpos"			"100"
 				"tall"			"15"
 				//		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
@@ -186,8 +173,6 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"JoiningLabel"
@@ -199,7 +184,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
@@ -218,8 +202,6 @@
 				"zpos"			"104"
 				"wide"			"o1"
 				"tall"			"25"
-				"visible"		"1"
-
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"alpha"			"200"

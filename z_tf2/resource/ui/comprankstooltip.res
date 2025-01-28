@@ -29,7 +29,6 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"
@@ -49,7 +48,6 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanLight"
@@ -78,7 +76,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -94,7 +91,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -110,7 +106,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -127,7 +122,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -143,7 +137,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -159,7 +152,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -176,7 +168,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -192,7 +183,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -208,7 +198,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -225,7 +214,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -241,7 +229,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -257,7 +244,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -274,7 +260,6 @@
 			"zpos"			"0"
 			"wide"   "100"
 			"tall"			"80"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 

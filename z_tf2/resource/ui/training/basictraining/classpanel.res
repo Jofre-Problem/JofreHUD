@@ -4,7 +4,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Image"
-		"visible"		"1"
 		"enabled"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
@@ -16,7 +15,6 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"SelectButton"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"%selectbuttontext%"
@@ -24,8 +22,6 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"%selectcommand%"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"

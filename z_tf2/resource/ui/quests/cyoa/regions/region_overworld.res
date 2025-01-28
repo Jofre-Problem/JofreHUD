@@ -23,7 +23,6 @@
 				"zpos"			"1"
 				"wide"			"114"
 				"tall"			"o1"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"cyoa/cyoa_bg_icon_globe"

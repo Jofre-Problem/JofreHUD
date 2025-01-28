@@ -9,7 +9,6 @@
 		"zpos"			"5"
 		"wide"			"640"
 		"tall"			"320"
-		"visible"		"1"
 		"items_columns"	"2"
 		"items_xspacing" "55"
 		"items_yspacing" "50"
@@ -104,7 +103,6 @@
 				"wide"			"35"
 				"tall"			"35"
 				"image"			"../backpack/crafting/mvm_squad_surplus_ripped"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"		"1"
 				"proportionalToParent"	"1"
@@ -138,7 +136,6 @@
 				"wide"			"35"
 				"tall"			"35"
 				"image"			"../backpack/crafting/mvm_ticket_ripped"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
@@ -154,7 +151,6 @@
 			"wide"		"427"
 			"tall"		"225"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"PaintBackgroundType"	"0"
@@ -182,7 +178,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -197,7 +192,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -212,7 +206,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -227,7 +220,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -242,7 +234,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -257,7 +248,6 @@
 				"zpos"			"-5"
 				"wide"			"50"
 				"tall"			"40"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"		"60 53 46 255"
 				"proportionalToParent"	"1"
@@ -275,8 +265,6 @@
 		"zpos"			"125"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
-
 		"paintbackground"	"0"	
 	}
 
@@ -289,9 +277,6 @@
 		"wide"			"105"
 		"tall"			"25"
 		"proportionalToParent"	"1"
-
-		"visible"		"1"
-
 		"pin_to_sibling"               "playermodelpanel"
 		"pin_corner_to_sibling"        "0"          
 		"pin_to_sibling_corner"        "2" 
@@ -340,8 +325,6 @@
 			"wide"			"200"
 			"tall"			"f0"
 			"fgcolor"		"tanlight"
-
-			"visible"		"1"
 		}
 
 		"LevelProgressBarBG"
@@ -352,7 +335,6 @@
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"bgcolor_override"		"60 53 46 255"
 			"proportionalToParent"	"1"
 
@@ -368,8 +350,6 @@
 				"visible"		"0"
 				"bgcolor_override"	"208 145 58 255"
 				"proportionalToParent"	"1"
-
-				"visible"		"1"
 			}
 
 			"LevelProgressBarFGStatic"
@@ -381,7 +361,6 @@
 				"zpos"			"2"
 				"wide"			"20"
 				"tall"			"f0"
-				"visible"		"1"
 				"bgcolor_override"	"TanDark"
 				"proportionalToParent"	"1"
 			}
@@ -431,7 +410,6 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"15"
-		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
 		"paintbackground"	"0"	
@@ -452,7 +430,6 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"15"
-		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
 		"paintbackground"	"0"	
@@ -473,7 +450,6 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"15"
-		"visible"		"1"
 		"fgcolor"		"tanlight"
 		"proportionalToParent"	"1"
 		"paintbackground"	"0"	
@@ -529,7 +505,6 @@
 		"wide"			"300"
 		"tall"			"280"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 
 			

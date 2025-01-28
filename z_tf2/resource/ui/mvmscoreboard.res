@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"visible"			"1"
 		"enabled"			"1"
 		
 		"verbose"			"1"
@@ -37,8 +36,6 @@
 		"ypos"			"30"
 		"wide"			"150"
 		"tall"			"20"
-		"visible"		"1"
-		
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -77,7 +74,6 @@
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"150"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
 		
@@ -99,7 +95,6 @@
 		"wide"			"530"
 		"tall"			"150"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"autoresize"	"3"
@@ -115,8 +110,6 @@
 		"ypos"			"230"
 		"wide"			"400"
 		"tall"			"205"
-		"visible"		"1"
-		
 		"CreditStatsBackground"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -127,7 +120,6 @@
 			"wide"			"400"
 			"tall"			"135"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
@@ -161,7 +153,6 @@
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
-			"visible"		"1"
 		}
 		
 		"TotalGameCreditInfoPanel"
@@ -173,7 +164,6 @@
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
-			"visible"		"1"
 		}
 		
 		"PreviousWaveCreditSpendPanel"
@@ -185,7 +175,6 @@
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
-			"visible"		"1"
 		}
 		
 		"TotalGameCreditSpendPanel"
@@ -197,7 +186,6 @@
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
-			"visible"		"1"
 		}
 
 		"RespecStatusLabel"

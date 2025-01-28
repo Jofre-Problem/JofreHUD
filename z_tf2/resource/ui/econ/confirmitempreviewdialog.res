@@ -3,7 +3,6 @@
 	"ConfirmItemPreviewDialog"
 	{
 		"fieldName"				"ConfirmItemPreviewDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"105"
@@ -46,7 +45,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
@@ -69,7 +67,6 @@
 		"tall"			"30"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
@@ -88,7 +85,6 @@
 		"tall"			"64"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground" "0"
 		"border"		"BackpackItemBorder_SelfMade"
@@ -102,7 +98,6 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
 		"tileImage"		"0"
@@ -118,7 +113,6 @@
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"64"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
@@ -152,7 +146,6 @@
 		"tall"			"80"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -168,16 +161,12 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"default"		"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"OkButton"
@@ -191,7 +180,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CraftNameConfirm"
@@ -199,7 +187,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"apply"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

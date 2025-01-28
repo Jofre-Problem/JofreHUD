@@ -10,7 +10,6 @@
 		"zpos"			"1003"
 		"wide"			"420"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -23,7 +22,6 @@
 		"zpos"			"100"
 		"wide"			"410"
 		"tall"			"f50"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		//		"2"
@@ -39,7 +37,6 @@
 		"wide"			"90"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -51,8 +48,6 @@
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -82,7 +77,6 @@
 		"wide"			"170"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -94,8 +88,6 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
@@ -128,7 +120,6 @@
 		"wide"			"270"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -140,8 +131,6 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"
@@ -157,7 +146,6 @@
 		"wide"			"f20"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -169,8 +157,6 @@
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"JoinLateCheckButton"

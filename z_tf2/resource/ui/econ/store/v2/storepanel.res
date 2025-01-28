@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
@@ -39,7 +38,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
@@ -52,7 +50,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
@@ -65,7 +62,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -91,7 +87,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
@@ -121,7 +116,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_BackCarat"
@@ -129,8 +123,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"armory_panel"
@@ -198,7 +190,6 @@
 		"wide"			"130"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_Checkout"
@@ -206,8 +197,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"checkout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 }

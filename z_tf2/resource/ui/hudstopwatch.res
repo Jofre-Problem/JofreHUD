@@ -11,7 +11,6 @@
 		"tall"			"31"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -37,7 +36,6 @@
 		"zpos"			"0"
 		"wide"			"17"
 		"tall"			"17"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
@@ -78,7 +76,6 @@
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
 		}	
@@ -120,7 +117,6 @@
 		"tall"			"30"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		if_null_comp
 		{

@@ -3,7 +3,6 @@
 	"GenericWaitingDialog"
 	{
 		"fieldName"				"GenericWaitingDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
 		"ypos"					"200"
@@ -27,7 +26,6 @@
 		"tall"			"42"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
@@ -48,7 +46,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
@@ -68,7 +65,6 @@
 		"tall"			"60"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
@@ -87,7 +83,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -95,7 +90,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"user_close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

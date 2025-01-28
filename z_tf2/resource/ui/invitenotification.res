@@ -6,7 +6,6 @@
 		"zpos"			"1001"
 		"wide"			"200"
 		"tall"			"35"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"border"		"ReplayDefaultBorder"
 		"paintbackground"	"0"
@@ -22,7 +21,6 @@
 		"zpos"			"101"
 		"wide"			"25"
 		"tall"			"25"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"scaleImage"	"1"
 	}
@@ -87,8 +85,6 @@
 		"zpos"			"104"
 		"wide"			"o1"
 		"tall"			"20"
-		"visible"		"1"
-
 		if_null_incoming
 		{
 			"visible"		"0"
@@ -113,9 +109,6 @@
 		"wide"			"80"
 		"zpos"			"100"
 		"tall"			"15"
-				
-		"visible"		"1"
-
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallestBold"
@@ -130,8 +123,6 @@
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"SaleGreen"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"DeclineButton"
@@ -150,9 +141,6 @@
 		"wide"			"60"
 		"zpos"			"100"
 		"tall"			"15"
-				
-		"visible"		"1"
-
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallestBold"
@@ -165,8 +153,6 @@
 		"actionsignallevel"	"1"
 
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 }

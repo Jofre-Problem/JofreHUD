@@ -23,7 +23,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"p1.17"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
@@ -36,7 +35,6 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled"	"0"
 		
@@ -53,7 +51,6 @@
 			"zpos"			"0"
 			"wide"			"o4"
 			"tall"			"f0"
-			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
@@ -86,9 +83,6 @@
 			"armedBgColor_override"	"LightOrange"
 			"selectedBGColor_override" "Orange"
 
-			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"image_default"	"glyph_expand"
 
@@ -103,7 +97,6 @@
 				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"p.9"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 
@@ -139,7 +132,6 @@
 			"labeltext"		""
 			"smallcheckimage"	"1"
 
-			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
 		}
 
@@ -152,7 +144,6 @@
 			"zpos"			"3"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
@@ -175,7 +166,6 @@
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"15"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
@@ -203,7 +193,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 
 			"wrap"			"1"
@@ -226,7 +215,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 
 			"wrap"			"1"
@@ -245,7 +233,6 @@
 		"zpos"			"1"
 		"wide"			"p1.5"
 		"tall"			"1000"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorder"
 		"proportionaltoparent"	"1"
@@ -261,7 +248,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 

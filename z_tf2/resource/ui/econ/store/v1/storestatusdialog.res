@@ -3,7 +3,6 @@
 	"StoreStatusDialog"
 	{
 		"fieldName"				"StoreStatusDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"180"
@@ -27,7 +26,6 @@
 		"wide"			"230"
 		"tall"			"90"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
@@ -46,7 +44,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -54,7 +51,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

@@ -3,7 +3,6 @@
 	"MainMenuOverride"
 	{
 		"fieldName"									"MainMenuOverride"
-		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
@@ -21,8 +20,6 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"18"
-			"visible"								"1"
-
 			"SubButton"
 			{
 				"ControlName"						"CExImageButton"
@@ -31,14 +28,12 @@
 				"ypos"								"0"
 				"wide"								"f0"
 				"tall"								"f0"
-				"visible"							"1"
 				"enabled"							"1"
 				"AllCaps"				 			"1"
 				"font"								"MenuMainTitle"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
-				"sound_depressed"					"UI/buttonclick.wav"
 
 				"paintbackground"					"0"
 
@@ -62,7 +57,6 @@
 		"zpos"										"16"
 		"wide"										"150"
 		"tall"										"18"
-		"visible"									"1"
 		"enabled"									"1"
 
 		"Notifications_ShowButtonPanel_SB"
@@ -74,7 +68,6 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"f0"
-			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"				 				"1"
 			"labelText"								"notification"
@@ -84,7 +77,6 @@
 			"actionsignallevel"  					"2"
 			"proportionaltoparent" 					"1"
 			"Command"								"noti_show"
-			"sound_depressed"						"UI/buttonclick.wav"
 			"paintbackground"						"0"
 			"defaultFgColor_override" 				"White"
 			"armedFgColor_override" 				"Main"
@@ -114,15 +106,12 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"visible"								"1"
 			"enabled"								"1"
 			"labeltext"								""
 			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
-			"default"								"0"
 			"actionsignallevel"						"2"
 			"Command"								"noti_hide"
-			"sound_depressed"						"UI/buttonclick.wav"
 			"paintbackground"						"0"
 			"defaultFgColor_override" 				"235 226 202 255"
 			"armedFgColor_override" 				"235 100 100 255"
@@ -139,7 +128,6 @@
 				"zpos"								"1"
 				"wide"								"14"
 				"tall"								"14"
-				"visible"							"1"
 				"enabled"							"1"
 				"image"								"close_button"
 				"scaleImage"						"1"
@@ -157,7 +145,6 @@
 			"ypos"									"8"
 			"wide"									"250"
 			"tall"									"20"
-			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor"								"235 226 202 255"
 			"wrap"									"1"
@@ -182,7 +169,6 @@
 				"ypos"								"0"
 				"wide"								"220"
 				"tall"								"135"
-				"visible"							"1"
 			}
 		}
 	}
@@ -210,7 +196,6 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MenuThumbMissingFix"
 		"xpos"										"9999"
-		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../vgui/maps/menu_thumb_Missing"
 	}

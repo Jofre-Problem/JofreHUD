@@ -22,7 +22,6 @@
 			"ypos"					"0"
 			"wide"					"110"
 			"tall"					"20"
-			"visible"				"1"
 			"proportionaltoparent"	"1"
 
 			"border"	"QuestStatusBorder"
@@ -55,7 +54,6 @@
 				"zpos"			"0"
 				"wide"			"o1"
 				"tall"			"p0.8"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"animated/tf2_speaker_icon"
 				"scaleImage"	"1"	

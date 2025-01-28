@@ -11,7 +11,6 @@
 		"tall"			"24"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 

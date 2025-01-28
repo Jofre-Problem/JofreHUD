@@ -22,8 +22,6 @@
 		"ypos"			"6"
 		"wide"			"32"
 		"tall"			"20"
-				
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"

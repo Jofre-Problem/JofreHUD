@@ -3,7 +3,6 @@
 	"CraftingStatusDialog"
 	{
 		"fieldName"				"CraftingStatusDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"160"
@@ -26,7 +25,6 @@
 		"wide"			"400"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#NewRecipeFound"
 		"textAlignment"		"center"
@@ -43,7 +41,6 @@
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"130"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"235 226 202 255"
 		"PaintBackgroundType"	"2"
@@ -64,7 +61,6 @@
 			"wide"			"140"
 			"tall"			"100"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
@@ -83,7 +79,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -91,7 +86,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

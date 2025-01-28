@@ -8,7 +8,6 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
 		//		"0"
 		"enabled"		"1"
 		//	"0"
@@ -88,7 +87,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
@@ -101,7 +99,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -121,7 +118,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -138,7 +134,6 @@
 		"wide"			"560"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -151,7 +146,6 @@
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
 
@@ -164,7 +158,6 @@
 			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -185,7 +178,6 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
@@ -202,7 +194,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
@@ -221,7 +212,6 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
@@ -238,7 +228,6 @@
 		"wide"			"300"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
@@ -272,7 +261,6 @@
 		"wide"			"40"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		""
@@ -280,8 +268,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"ready"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"PaintBackgroundType" "0"
 		
@@ -297,7 +283,6 @@
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "46 43 42 255"
 	}
@@ -310,7 +295,6 @@
 		"zpos"			"3"
 		"wide"			"40"
 		"tall"			"40"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"checkmark"
 		"scaleImage"	"1"	
@@ -330,7 +314,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -350,7 +333,6 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
@@ -367,7 +349,6 @@
 		"wide"			"300"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
@@ -400,7 +381,6 @@
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
-		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "117 107 94 255"
 		
@@ -413,7 +393,6 @@
 			"zpos"			"1"
 			"wide"			"36"
 			"tall"			"36"
-			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override" "46 43 42 255"
 		}
@@ -427,7 +406,6 @@
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"40"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"checkmark"
 		"scaleImage"	"1"	
@@ -446,7 +424,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
@@ -553,7 +530,6 @@
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
@@ -601,15 +577,12 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		//	"0"
 		"labelText"		"#BackpackShowDetails"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"showdetails"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"PrevPageButton"
@@ -622,15 +595,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	"CurPageLabel"
 	{
@@ -646,7 +616,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -660,15 +629,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
 	"HudChatHistory"
@@ -682,7 +648,6 @@
 		"wrap"				"1"
 		"autoResize"		"1"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"CHAT TEXT"
 		"textAlignment"		"south-west"
@@ -693,7 +658,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"ChatInputLine"
-		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"					"c-288"
 		"ypos"					"420"
@@ -764,7 +728,6 @@
 		"wide"			"230"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		//	"0"
 		"labelText"		"#TF_TradeWindow_WaitingForTrade"
 		"font"			"HudFontSmallestBold"
@@ -773,8 +736,6 @@
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"Command"		"confirm_trade"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"BackButton"
 	{
@@ -786,7 +747,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -794,8 +754,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"default"		"1"
 	}		
 

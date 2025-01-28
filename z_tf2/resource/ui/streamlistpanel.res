@@ -8,8 +8,6 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"22"
-		"visible"		"1"
-			
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -22,7 +20,6 @@
 			"wide"			"300"
 			"tall"			"24"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType" "2"
 			"fgcolor_override"	"235 226 202 255"
@@ -40,19 +37,14 @@
 		"wide"			"14"
 		"tall"			"14"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"default"		"0"
-
 		"navDown"			"MOTD_URLButton"
 		"navActivate"		"<QuickplayButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"hide_streams"
 			
 		"paintbackground"	"0"
@@ -74,7 +66,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
@@ -93,7 +84,6 @@
 		"wide"			"200"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
@@ -108,7 +98,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -123,7 +112,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -138,7 +126,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -153,7 +140,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -168,7 +154,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -182,7 +167,6 @@
 		"wide"			"150"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#MMenu_Stream_ViewMore"
@@ -193,8 +177,6 @@
 		"default"		"1"
 		"command"		"view_more"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 			
 		"defaultFgColor_override" "235 226 202 255"
 		"defaultBgColor_override" "46 43 42 255"

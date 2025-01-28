@@ -60,7 +60,6 @@
 
 		if_null_uses_xp
 		{
-			"visible"		"1"
 		}
 	}
 
@@ -73,7 +72,6 @@
 		"zpos"			"9001"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -99,7 +97,6 @@
 		"zpos"			"9002"
 		"wide"			"2000"
 		"tall"			"2000"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -167,7 +164,6 @@
 			"zpos"			"55"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 		}
 
 		"StatsLabelPanel"
@@ -197,7 +193,6 @@
 				"tall"			"15"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}
 
@@ -216,7 +211,6 @@
 				"tall"			"15"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}
 		}
@@ -230,7 +224,6 @@
 			"zpos"			"50"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"enabled"		"1"
 
 			"BlueTeamPanel"
@@ -242,7 +235,6 @@
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"enabled"		"1"
 
 				"BlueTeamScoreBG"
@@ -256,7 +248,6 @@
 					"tall"			"36"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderBlueBGOpaque"
 
@@ -279,7 +270,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -303,7 +293,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -325,7 +314,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -348,7 +336,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -365,7 +352,6 @@
 					"zpos"			"5"
 					"wide"			"56"
 					"tall"			"56"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"../hud/team_blue"
 					"scaleImage"		"1"
@@ -389,7 +375,6 @@
 					"tall"			"20"
 					//		"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"BlueLeaderAvatar"
@@ -421,7 +406,6 @@
 					"zpos"			"4"
 					"wide"			"38"
 					"tall"			"38"
-					"visible"		"1"
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
@@ -439,7 +423,6 @@
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -457,7 +440,6 @@
 						"zpos"			"1"
 						"wide"			"p.465"
 						"tall"			"205"
-						"visible"		"1"
 						"enabled"		"1"
 						//	"0"
 						//	"0"
@@ -492,7 +474,6 @@
 					"tall"			"225"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
@@ -512,7 +493,6 @@
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"enabled"		"1"
 
 				"RedTeamScoreBG"
@@ -526,7 +506,6 @@
 					"tall"			"36"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderRedBGOpaque"
 
@@ -549,7 +528,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -572,7 +550,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -594,7 +571,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -617,7 +593,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -634,7 +609,6 @@
 					"zpos"			"5"
 					"wide"			"70"
 					"tall"			"70"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"../hud/team_red"
 					"scaleImage"		"1"
@@ -658,7 +632,6 @@
 					"tall"			"20"
 					//		"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"RedLeaderAvatar"
@@ -690,7 +663,6 @@
 					"zpos"			"4"
 					"wide"			"38"
 					"tall"			"38"
-					"visible"		"1"
 					"PaintBackgroundType"	"2"
 					"bgcolor_override"	"117 107 94 255"
 
@@ -708,7 +680,6 @@
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
-					"visible"		"1"
 					"enabled"		"1"
 
 					if_null_large
@@ -726,7 +697,6 @@
 						"zpos"			"1"
 						"wide"			"p.465"
 						"tall"			"205"
-						"visible"		"1"
 						"enabled"		"1"
 						//	"0"
 						//	"0"
@@ -761,7 +731,6 @@
 					"tall"			"225"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 					"border"		"TFFatLineBorderClearBG"
 
@@ -781,7 +750,6 @@
 				"zpos"			"50"
 				"wide"			"150"
 				"tall"			"15"
-				"visible"		"1"
 				"enabled"		"1"
 
 				if_null_large
@@ -798,7 +766,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_gold"
 					"scaleImage"		"1"
@@ -817,7 +784,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"BlueSilverMedal"
@@ -829,7 +795,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_silver"
 					"scaleImage"		"1"
@@ -848,7 +813,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"BlueBronzeMedal"
@@ -860,7 +824,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_bronze"
 					"scaleImage"		"1"
@@ -879,7 +842,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 			}
@@ -892,7 +854,6 @@
 				"zpos"			"50"
 				"wide"			"150"
 				"tall"			"15"
-				"visible"		"1"
 				"enabled"		"1"
 
 				if_null_large
@@ -909,7 +870,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_gold"
 					"scaleImage"		"1"
@@ -928,7 +888,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"RedSilverMedal"
@@ -940,7 +899,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_silver"
 					"scaleImage"		"1"
@@ -959,7 +917,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 				"RedBronzeMedal"
@@ -971,7 +928,6 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"15"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"competitive/competitive_coin_bronze"
 					"scaleImage"		"1"
@@ -990,7 +946,6 @@
 					"tall"			"15"
 					//	"0"
 					//		"0"
-					"visible"		"1"
 					"enabled"		"1"
 				}
 			}

@@ -10,7 +10,6 @@
 		"tall"					"30"
 		//			"0"
 		//				"1"
-		"visible"				"1"
 		"enabled"				"1"
 		"bgcolor_override"		"blank"
 		"textAlignment"			"north-west"
@@ -23,7 +22,6 @@
 			"ypos"			"4"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
 			"enabled"		"1"
 			"scaleimage"	"1"
 		}
@@ -36,7 +34,6 @@
 			"ypos"			"2"
 			"wide"			"140"
 			"tall"			"30"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"font"			"ChalkboardText"

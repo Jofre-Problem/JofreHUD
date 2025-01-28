@@ -9,7 +9,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
 		"bgcolor_override"		"20 20 20 255"
 	}
 	
@@ -50,7 +49,6 @@
 		"ypos"			"130"
 		"wide"			"400"
 		"tall"			"30"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		
 		"IsActive"
@@ -77,7 +75,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"35"
-			"visible"		"1"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -90,7 +87,6 @@
 		"ypos"			"155"
 		"wide"			"400"
 		"tall"			"30"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		
 		"IsActive"
@@ -117,7 +113,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"35"
-			"visible"		"1"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -130,7 +125,6 @@
 		"ypos"			"180"
 		"wide"			"400"
 		"tall"			"35"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		
 		"IsActive"
@@ -157,7 +151,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"35"
-			"visible"		"1"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -197,7 +190,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"35"
-			"visible"		"1"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -237,7 +229,6 @@
 			"ypos"			"0"
 			"wide"			"400"
 			"tall"			"35"
-			"visible"		"1"
 			"fgcolor"		"tanlight"
 		}
 	}
@@ -285,15 +276,12 @@
 		"ypos"			"340"
 		"wide"			"60"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_LessLots"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_less_lots"
@@ -308,15 +296,12 @@
 		"ypos"			"340"
 		"wide"			"60"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_Less"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_less"
@@ -331,15 +316,12 @@
 		"ypos"			"340"
 		"wide"			"60"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_More"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_more"
@@ -354,15 +336,12 @@
 		"ypos"			"340"
 		"wide"			"60"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_MoreLots"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_more_lots"
@@ -377,15 +356,12 @@
 		"ypos"			"380"
 		"wide"			"80"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_NextAdjust"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"adjust_next"
@@ -400,15 +376,12 @@
 		"ypos"			"380"
 		"wide"			"80"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_VR_Close"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"close"

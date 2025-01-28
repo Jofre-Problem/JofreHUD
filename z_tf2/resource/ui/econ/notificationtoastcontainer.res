@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 		"border"		"TFFatLineBorderOpaque"
 	}
@@ -27,7 +26,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""

@@ -11,7 +11,6 @@
 		"tall"			"35"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -33,7 +32,6 @@
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
 		"labelText"					"%wave_count%"
@@ -56,7 +54,6 @@
 		
 		if_null_verbose
 		{
-			"visible"		"1"
 		}
 	}
 	
@@ -78,7 +75,6 @@
 		
 		if_null_verbose
 		{
-			"visible"		"1"
 		}		
 	}
 	
@@ -91,7 +87,6 @@
 		"zpos"			"3"
 		"wide"			"178"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		
@@ -111,7 +106,6 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		

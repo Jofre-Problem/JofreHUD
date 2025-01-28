@@ -11,7 +11,6 @@
 		"tall"			"480"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -26,7 +25,6 @@
 		"tall"			"280"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"	
 	}
 	
@@ -40,7 +38,6 @@
 		"wide"			"420"
 		"tall"			"24"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#round_info_header"
 		"textAlignment"	"west"
@@ -58,7 +55,6 @@
 		"wide"			"420"
 		"tall"			"24"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
@@ -76,7 +72,6 @@
 		"wide"			"150"
 		"tall"			"30"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Continue"
 		"textAlignment"	"center"
@@ -95,7 +90,6 @@
 		"zpos"			"3"
 		"wide"			"560"
 		"tall"			"280"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}	
@@ -110,7 +104,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -137,7 +130,6 @@
 		"wide"			"f0"
 		"tall"			"50"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"image"			"loadout_bottom_gradient"

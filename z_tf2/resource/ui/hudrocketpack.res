@@ -4,7 +4,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r95"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
@@ -21,7 +20,6 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"45"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"				"../hud/ammo_blue_bg"
@@ -38,7 +36,6 @@
 		"zpos"			"2"
 		"wide"			"32"
 		"tall"			"32"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/pyro_jetpack_off2"
 		"scaleImage"	"1"	
@@ -55,7 +52,6 @@
 		"tall"			"15"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_RocketPack_Disabled"
@@ -76,7 +72,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
 		"fgcolor"		"White"
@@ -94,7 +89,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
 		"fgcolor"		"White"

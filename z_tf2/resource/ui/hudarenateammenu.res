@@ -10,7 +10,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -69,7 +68,6 @@
 		"tall"			"310"
 		//	"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"1"
 		"labelText"		"&1"	[$WIN32]
@@ -93,7 +91,6 @@
 		"tall"			"57"
 		//	"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"&2"	[$WIN32]
@@ -139,7 +136,6 @@
 		"tall"			"24"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
@@ -158,7 +154,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
@@ -177,7 +172,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -207,7 +201,6 @@
 		"tall"			"50"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 180"
@@ -225,7 +218,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -272,7 +264,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		

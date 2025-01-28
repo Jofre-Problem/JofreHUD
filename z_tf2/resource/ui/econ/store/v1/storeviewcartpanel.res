@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
@@ -44,7 +43,6 @@
 				"ypos"			"0"
 				"wide"			"400"
 				"tall"			"58"
-				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
@@ -83,7 +81,6 @@
 				"tall"			"10"
 				"autoResize"	"1"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%quantity%"
 			}
@@ -97,7 +94,6 @@
 				"zpos"			"5"
 				"wide"			"580"
 				"tall"			"5"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"loadout_solid_line"
 			}			
@@ -112,7 +108,6 @@
 				"wide"			"100"
 				"tall"			"25"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"labelText"		"#Store_Remove"
@@ -120,8 +115,6 @@
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"remove"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}	
 			
 			"PriceLabel"
@@ -137,7 +130,6 @@
 				"tall"			"60"
 				"autoResize"	"1"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
 				"fgcolor_override" "130 120 104 255"
@@ -154,7 +146,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"55"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
@@ -167,7 +158,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
@@ -180,7 +170,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -205,7 +194,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
@@ -225,7 +213,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -238,7 +225,6 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 		}				
@@ -296,7 +282,6 @@
 					"zpos"			"99"
 					"wide"			"32"
 					"tall"			"32"
-					"visible"		"1"
 					"enabled"		"1"
 					"image"			"store_special"
 					"scaleImage"	"1"
@@ -324,7 +309,6 @@
 						"tall"			"15"
 						"autoResize"	"1"
 						//		"0"
-						"visible"		"1"
 						"enabled"		"1"
 					}
 					"WashingtonStateSalesTaxLabel"
@@ -341,7 +325,6 @@
 						"tall"			"12"
 						"autoResize"	"1"
 						//		"0"
-						"visible"		"1"
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
@@ -359,7 +342,6 @@
 						"tall"			"12"
 						"autoResize"	"1"
 						//		"0"
-						"visible"		"1"
 						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
@@ -377,7 +359,6 @@
 						"tall"			"60"
 						"autoResize"	"1"
 						//		"0"
-						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
 						"fgcolor_override" "130 120 104 255"
@@ -397,7 +378,6 @@
 			"wide"			"130"
 			"tall"			"25"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Store_Checkout"
@@ -405,8 +385,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"checkout"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		
 		"CloseButton"
@@ -419,7 +397,6 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Store_ContinueShopping"
@@ -427,8 +404,6 @@
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}		
 	}	
 }

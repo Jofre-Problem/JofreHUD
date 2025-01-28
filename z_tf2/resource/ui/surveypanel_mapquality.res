@@ -20,7 +20,6 @@
 				"tall"			"30"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"centerwrap"	"1"
 				"fgcolor_override" "TanLight"
@@ -40,7 +39,6 @@
 				"tall"			"30"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"centerwrap"	"1"
 				"fgcolor_override" "Orange"
@@ -56,7 +54,6 @@
 				"zpos"			"-1"
 				"wide"			"350"
 				"tall"			"50"
-				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 100"
 
@@ -69,7 +66,6 @@
 					"zpos"			"100"
 					"wide"			"f0"
 					"tall"			"f0"
-					"visible"		"1"
 					"PaintBackgroundType"	"2"
 					"border"		"InnerShadowBorder"
 					"proportionaltoparent"	"1"
@@ -85,11 +81,8 @@
 					"zpos"			"1"
 					"wide"			"15"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"labelText"		""
 					"Command"		"option0"
@@ -104,7 +97,6 @@
 					"zpos"			"1"
 					"wide"			"60"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating0"
@@ -123,11 +115,8 @@
 					"zpos"			"2"
 					"wide"			"15"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 
 					"labelText"		""
 					"Command"		"option1"
@@ -142,7 +131,6 @@
 					"zpos"			"1"
 					"wide"			"60"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating1"
@@ -159,11 +147,8 @@
 					"zpos"			"3"
 					"wide"			"15"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 
 					"labelText"		""
 					"Command"		"option2"
@@ -178,7 +163,6 @@
 					"zpos"			"1"
 					"wide"			"60"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating2"
@@ -196,11 +180,8 @@
 					"zpos"			"4"
 					"wide"			"15"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"labelText"		""
 					"Command"		"option3"
@@ -215,7 +196,6 @@
 					"zpos"			"1"
 					"wide"			"60"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating3"
@@ -232,11 +212,8 @@
 					"zpos"			"5"
 					"wide"			"15"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 					
 					"labelText"		""
 					"Command"		"option4"
@@ -251,7 +228,6 @@
 					"zpos"			"1"
 					"wide"			"60"
 					"tall"			"20"
-					"visible"		"1"
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating4"
@@ -273,8 +249,6 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"submit"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"2"
 			}

@@ -27,8 +27,10 @@
     // Core HUD
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
 	#base 	"../_jofrenew/scripts/hudlayout.res"
 	#base	"../_jofrehud/scripts/hudlayout.res"
+	#base 	"../_fixes/scripts/hudlayout.res"	
 	#base	"../z_tf2/scripts/hudlayout.res"
 
 	"Resource/HudLayout.res"{}

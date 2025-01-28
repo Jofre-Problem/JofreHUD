@@ -3,7 +3,6 @@
 	"ImportFileTextEditDialog"
 	{
 		"fieldName"				"ImportFileTextEditDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-280"
 		"ypos"					"c-180"
@@ -52,13 +51,11 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
 		"Command"		"Close"
-		"Default"		"0"
 		"font"		"HudFontSmallBold"
 	}
 
@@ -71,13 +68,11 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
 		"Command"		"Done"
-		"Default"		"0"
 		"font"		"HudFontSmallBold"
 	}
 }

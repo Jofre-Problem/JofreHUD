@@ -10,7 +10,6 @@
 		"wide"					"20"
 		"tall"					"20"
 		"scaleimage"			"1"
-		"visible"				"1"
 		"redimage"				"../HUD/obj_circle_red"
 		"blueimage"				"../HUD/obj_circle_blue"
 
@@ -24,7 +23,6 @@
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"1"
-			"visible"				"1"
 			"proportionalToParent"	"1"
 		}
 
@@ -54,7 +52,6 @@
 			"zpos"				"4"	
 			"wide"				"f-2"
 			"tall"				"f-2"	
-			"visible"			"1"
 			"enabled"			"1"
 			"scaleImage"		"1"
 			"color_active"		"TimerProgress.Active"

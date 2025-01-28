@@ -9,7 +9,6 @@
 		"zpos"			"10000"
 		"wide"			"260"
 		"tall"			"70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
@@ -29,7 +28,6 @@
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -79,7 +77,6 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
@@ -94,7 +91,6 @@
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"		"1"
 
@@ -108,7 +104,6 @@
 					"wide"			"80"
 					"tall"			"15"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallestBold"
@@ -120,8 +115,6 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 
 				"RequeueButton"
@@ -134,7 +127,6 @@
 					"wide"			"140"
 					"tall"			"15"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallestBold"
@@ -146,8 +138,6 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 			}
 
@@ -174,7 +164,6 @@
 					"wide"			"f0"
 					"tall"			"20"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallest"
@@ -195,7 +184,6 @@
 					"wide"			"100"
 					"tall"			"15"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallestBold"
@@ -208,8 +196,6 @@
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 			}
 
@@ -222,7 +208,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -240,7 +225,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
@@ -259,7 +243,6 @@
 				"wide"			"f0"
 				"tall"			"20"
 				//		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallest"
@@ -296,7 +279,6 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
@@ -311,7 +293,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -329,7 +310,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
@@ -360,7 +340,6 @@
 					"wide"			"100"
 					"tall"			"15"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallestBold"
@@ -373,8 +352,6 @@
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 			}
 		}
@@ -404,7 +381,6 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
@@ -419,7 +395,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -438,7 +413,6 @@
 				"wide"			"o1"
 				"tall"			"40"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"paintborder"	"0"
 				"image"			"animated/tf2_logo_hourglass"
@@ -469,7 +443,6 @@
 					"wide"			"100"
 					"tall"			"15"
 					//		"3"
-					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"font"			"HudFontSmallestBold"
@@ -482,8 +455,6 @@
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
 				}
 			}
 		}
@@ -513,7 +484,6 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
@@ -528,7 +498,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -546,7 +515,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
@@ -565,7 +533,6 @@
 				"wide"			"75"
 				"tall"			"15"
 				//		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
@@ -578,8 +545,6 @@
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"JoinNowButton"
@@ -592,7 +557,6 @@
 				"wide"			"150"
 				"tall"			"15"
 				//		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallestBold"
@@ -607,8 +571,6 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
 
@@ -637,7 +599,6 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"ReplayDefaultBorder"
 				"proportionaltoparent"	"1"
@@ -652,7 +613,6 @@
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
 				"fgcolor_override"	"TanLight"
@@ -671,7 +631,6 @@
 				"wide"			"o1"
 				"tall"			"40"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"paintborder"	"0"
 				"image"			"animated/tf2_logo_hourglass"

@@ -9,7 +9,6 @@
 		"wide"			"640"
 		"tall"			"448"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"medal_width"		"20"
@@ -90,7 +89,6 @@
 		"wide"			"100"
 		"tall"			"55"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -116,7 +114,6 @@
 		"wide"			"160"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -158,7 +155,6 @@
 		"wide"			"100"
 		"tall"			"55"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -184,7 +180,6 @@
 		"wide"			"160"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -210,7 +205,6 @@
 		if_null_mvm
 		{
 			"ypos"			"0"
-			"visible"		"1"
 		}
 	}
 
@@ -227,7 +221,6 @@
 		"wide"			"72"
 		"tall"			"10"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -248,7 +241,6 @@
 		"wide"			"72"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"BrightYellow"
 		"centerwrap"	"1"
@@ -276,7 +268,6 @@
 		if_null_mvm
 		{
 			"ypos"			"0"
-			"visible"		"1"
 		}
 	}							
 	"BluePlayerList"
@@ -289,7 +280,6 @@
 		"wide"			"310"
 		"tall"			"280"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"autoresize"	"3"
@@ -313,7 +303,6 @@
 		"wide"			"310"
 		"tall"			"280"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"autoresize"	"3"
@@ -346,7 +335,6 @@
 		"wide"			"424"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}	
 	"SpectatorsInQueue"
@@ -362,7 +350,6 @@
 		"wide"			"424"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -392,7 +379,6 @@
 		
 		if_null_mvm
 		{
-			"visible"		"1"
 		}
 	}
 	"classmodelpanel"
@@ -453,12 +439,10 @@
 		"wide"			"300"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
 		{
-			"visible"		"1"
 			"wide"			"175"
 		}
 	}
@@ -475,7 +459,6 @@
 		"wide"			"265"
 		"tall"			"12"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -496,7 +479,6 @@
 		"wide"			"265"
 		"tall"			"12"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"236 227 203 255"
 
@@ -536,7 +518,6 @@
 		"wide"			"600"
 		"tall"			"53"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
@@ -557,7 +538,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -570,7 +550,6 @@
 			"zpos"			"2"
 			"wide"			"32"
 			"tall"			"32"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../backpack/player/items/crafting/icon_dueling"
 			"scaleImage"	"1"
@@ -585,7 +564,6 @@
 			"wide"			"200"
 			"tall"			"53"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 	
 			"AvatarBGPanel"
@@ -597,7 +575,6 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
@@ -610,7 +587,6 @@
 				"zpos"			"0"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
 				"scaleImage"	"1"	
@@ -627,7 +603,6 @@
 				"wide"			"100"
 				"tall"			"18"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
@@ -645,7 +620,6 @@
 				"wide"			"100"
 				"tall"			"20"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"ScoreboardMedium"
 			}
@@ -660,7 +634,6 @@
 			"wide"			"200"
 			"tall"			"53"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 	
 			"AvatarBGPanel"
@@ -672,7 +645,6 @@
 				"zpos"			"-1"
 				"wide"			"36"
 				"tall"			"36"
-				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
@@ -685,7 +657,6 @@
 				"zpos"			"0"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			""
 				"scaleImage"	"1"	
@@ -702,7 +673,6 @@
 				"wide"			"100"
 				"tall"			"18"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
@@ -720,7 +690,6 @@
 				"wide"			"200"
 				"tall"			"20"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"ScoreboardMedium"
 			}
@@ -737,12 +706,10 @@
 		"wide"			"600"
 		"tall"			"448"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		if_null_mvm
 		{
-			"visible"		"1"
 		}
 
 		"KillsLabel"
@@ -758,7 +725,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"DeathsLabel"
@@ -774,7 +740,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"AssistsLabel"
@@ -790,7 +755,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"DestructionLabel"
@@ -806,7 +770,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}												
 		"Kills"
@@ -822,7 +785,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Deaths"
@@ -838,7 +800,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}	
 		"GameType"
@@ -870,7 +831,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Destruction"
@@ -886,7 +846,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"CapturesLabel"
@@ -902,7 +861,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"DefensesLabel"
@@ -918,7 +876,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"DominationLabel"
@@ -934,7 +891,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"RevengeLabel"
@@ -950,7 +906,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Captures"
@@ -966,7 +921,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Defenses"
@@ -982,7 +936,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Domination"
@@ -998,7 +951,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Revenge"
@@ -1014,7 +966,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"HealingLabel"
@@ -1030,7 +981,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"InvulnLabel"
@@ -1046,7 +996,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"TeleportsLabel"
@@ -1062,7 +1011,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"HeadshotsLabel"
@@ -1078,7 +1026,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Healing"
@@ -1094,7 +1041,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Invuln"
@@ -1110,7 +1056,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Teleports"
@@ -1126,7 +1071,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"Headshots"
@@ -1142,7 +1086,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}						
 		"BackstabsLabel"
@@ -1158,7 +1101,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Backstabs"
@@ -1174,7 +1116,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}		
 		"BonusLabel"
@@ -1191,7 +1132,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Bonus"
@@ -1207,7 +1147,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"SupportLabel"
@@ -1223,7 +1162,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Support"
@@ -1239,7 +1177,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"DamageLabel"
@@ -1255,7 +1192,6 @@
 			"wide"			"95"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Damage"
@@ -1271,7 +1207,6 @@
 			"wide"			"35"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 	}
@@ -1294,7 +1229,6 @@
 		
 		if_null_mvm
 		{
-			"visible"		"1"
 		}
 	}
 }

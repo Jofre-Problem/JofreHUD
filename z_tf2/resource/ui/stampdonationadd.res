@@ -9,7 +9,6 @@
 		"wide"			"450"
 		"tall"			"260"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -30,7 +29,6 @@
 		"tall"			"30"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -47,7 +45,6 @@
 		"wide"			"340"
 		"tall"			"50"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "200 80 60 255"
@@ -66,7 +63,6 @@
 		"wide"			"330"
 		"tall"			"170"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "200 80 60 255"
@@ -81,7 +77,6 @@
 		"wide"			"150"
 		"tall"			"150"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"scaleImage"		"1"
@@ -96,7 +91,6 @@
 		"wide"			"140"
 		"tall"			"140"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"scaleImage"		"1"
@@ -119,8 +113,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"nope"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 
 	"ConfirmButton"
@@ -133,7 +125,6 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_AddToCart"
@@ -141,8 +132,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"add_stamp_to_cart"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/vote_success.wav"
 	}
 
 	"PriceLabel"
@@ -158,7 +147,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "121 195 58 255"

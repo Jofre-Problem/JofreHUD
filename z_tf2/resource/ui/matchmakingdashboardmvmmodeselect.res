@@ -10,7 +10,6 @@
 		"zpos"			"1002"
 		"wide"			"270"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -23,7 +22,6 @@
 		"zpos"			"2"
 		"wide"			"o2"
 		"tall"			"100"
-		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"image"			"mvm/mvm_logo"
@@ -39,7 +37,6 @@
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"215"
-		"visible"	"1"
 		"enabled"	"1"
 
 		"DropShadow"
@@ -51,7 +48,6 @@
 			"zpos"			"101"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -67,7 +63,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"o1"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"mvm/mannup"
@@ -84,7 +79,6 @@
 			"wide"		"f0"
 			"tall"		"100"
 			"zpos"	"1"
-			"visible"		"1"
 			"enabled"		"1"
 			"rotation"		"0"
 			"proportionaltoparent"	"1"
@@ -105,7 +99,6 @@
 			"wide"			"120"
 			"tall"			"25"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_MvM_MannUp"
@@ -120,8 +113,6 @@
 			"NavLeft"		"Sheet"
 			"NavRight"		"PracticeButton"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"
@@ -156,7 +147,6 @@
 		"zpos"		"100"
 		"wide"		"250"
 		"tall"		"130"
-		"visible"	"1"
 		"enabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -169,7 +159,6 @@
 			"zpos"			"101"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -185,7 +174,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"o1"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"mvm/bootcamp"
@@ -202,7 +190,6 @@
 			"wide"		"f0"
 			"tall"		"100"
 			"zpos"	"1"
-			"visible"		"1"
 			"enabled"		"1"
 			"rotation"		"0"
 			"proportionaltoparent"	"1"
@@ -223,7 +210,6 @@
 			"tall"			"25"
 			"wide"			"120"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_MvM_BootCamp"
@@ -238,8 +224,6 @@
 			"NavLeft"		"PlayNowButton"
 			"NavRight"		"StartPartyButton"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override"		"TanLight"

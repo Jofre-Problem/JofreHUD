@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"250"
-		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"border"		"ButtonBorder"
@@ -25,7 +24,6 @@
 		"zpos"			"0"
 		"wide"			"330"
 		"tall"			"255"
-		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"illustrations/bg"
@@ -41,7 +39,6 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_LessThan"
@@ -49,8 +46,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"goprev"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 	"NextButton"
@@ -63,7 +58,6 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_GreaterThan"
@@ -71,8 +65,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"gonext"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 	
 	"GameModeLabel"
@@ -88,7 +80,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
@@ -107,7 +98,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override"	"83 75 66 255"
@@ -126,7 +116,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
@@ -140,7 +129,6 @@
 		"wide"				"130"
 		"tall"				"30"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"#TF_Select"
@@ -148,8 +136,6 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"selectcurrentgamemode"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"

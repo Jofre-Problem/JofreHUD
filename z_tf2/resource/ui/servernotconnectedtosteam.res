@@ -3,7 +3,6 @@
 	"ServerNotConnectedToSteamDialog"
 	{
 		"fieldName"				"ServerNotConnectedToSteamDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"170"
@@ -24,7 +23,6 @@
 		"wide"			"320"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_ServerNoSteamConn_Title"
 		"textAlignment"		"North"
@@ -41,7 +39,6 @@
 		"wide"			"290"
 		"tall"			"55"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_ServerNoSteamConn_Explanation"
@@ -58,7 +55,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -66,7 +62,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

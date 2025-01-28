@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -66,7 +65,6 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"3"
 		"labelText"		"&3"	[$WIN32]
@@ -91,7 +89,6 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"4"
 		"labelText"		"&4"	[$WIN32]
@@ -116,7 +113,6 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"1"
 		"labelText"		"&1"	[$WIN32]
@@ -139,7 +135,6 @@
 		"wide"			"82"
 		"tall"			"57"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"&2"	[$WIN32]
@@ -181,7 +176,6 @@
 		"wide"			"450"
 		"tall"			"30"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
@@ -201,7 +195,6 @@
 		"wide"			"94" [$X360]
 		"tall"			"24"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
@@ -219,7 +212,6 @@
 		"wide"			"44"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
@@ -237,7 +229,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -264,7 +255,6 @@
 		"wide"			"f0"
 		"tall"			"50"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"image"			"loadout_bottom_gradient"
@@ -281,7 +271,6 @@
 		"wide"			"90"
 		"tall"			"30"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
@@ -300,7 +289,6 @@
 		"wide"			"90"
 		"tall"			"30"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
@@ -319,7 +307,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -389,7 +376,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -459,7 +445,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		
@@ -505,7 +490,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
 		

@@ -3,7 +3,6 @@
 	"CraftingStatusDialog"
 	{
 		"fieldName"				"CraftingStatusDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
 		"ypos"					"200"
@@ -27,7 +26,6 @@
 		"tall"			"0"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"0"
 		"labelText"		""
@@ -54,7 +52,6 @@
 		"tall"			"60"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
@@ -79,7 +76,6 @@
 		"tall"			"60"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
@@ -102,7 +98,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -110,7 +105,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

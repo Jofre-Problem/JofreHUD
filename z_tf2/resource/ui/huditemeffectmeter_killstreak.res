@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"94"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
@@ -22,7 +21,6 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -41,7 +39,6 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_KillStreak"
@@ -75,7 +72,6 @@
 		"wide"					"40"
 		"tall"					"20"	
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"%progresscount%"

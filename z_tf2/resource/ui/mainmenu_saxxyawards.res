@@ -11,7 +11,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType"	"2"
@@ -29,7 +28,6 @@
 		"wide"			"360"
 		"tall"			"340"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"tileImage"		"0"
@@ -107,7 +105,6 @@
 		"wide"			"95"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_SubmitEntry"
@@ -115,8 +112,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"submit"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"ButtonBorder"
 		
         "defaultBgColor_override"		"56 74 94 255"
@@ -134,15 +129,12 @@
 		"wide"			"95"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_Details"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"viewdetails"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"ButtonBorder"
 		
         "defaultBgColor_override"		"56 74 94 255"
@@ -166,7 +158,6 @@
 		"wide"			"350"
 		"tall"			"290"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -181,7 +172,6 @@
 		"wide"			"350"
 		"tall"			"290"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType"	"2"
@@ -191,7 +181,6 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SaxxyTitleImage"
-			"visible"		"1"
 			"enabled"		"1"
 			"tileImage"		"0"
 			"scaleImage"	"1"
@@ -216,7 +205,6 @@
 			"wide"			"100"
 			"tall"			"195"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 
 			"fov"			"20"
@@ -248,7 +236,6 @@
 			"wide"			"175"
 			"tall"			"290"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"PaintBackgroundType"	"2"
@@ -271,7 +258,6 @@
 			"wide"			"175"
 			"tall"			"290"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -291,7 +277,6 @@
 			"wide"			"350"
 			"tall"			"290"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		

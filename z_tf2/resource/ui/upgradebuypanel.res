@@ -9,7 +9,6 @@
 		"wide"			"155"
 		"tall"			"45"		
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		
@@ -47,7 +46,6 @@
 		"wide"			"155"
 		"tall"			"45"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
@@ -64,7 +62,6 @@
 		"wide"			"30"
 		"tall"			"30"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
@@ -81,7 +78,6 @@
 		"tall"			"26"
 		"zpos"			"20"
 		//		"0"
-		"visible"		"1"
 		//	"0"
 		
 		"scaleImage"	"1"	
@@ -99,7 +95,6 @@
 		"tall"			"13"
 		"zpos"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		
@@ -118,7 +113,6 @@
 		"tall"			"22"
 		"zpos"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"wrap"			"1"
@@ -138,7 +132,6 @@
 		"wide"			"20"
 		"tall"			"45"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
@@ -155,7 +148,6 @@
 		"tall"			"16"
 		"zpos"			"20"
 		//		"0"
-		"visible"		"1"
 		//	"0"
 		
 		"labelText"		""
@@ -163,8 +155,6 @@
 
 		"activeimage"		"pve/buy_disabled"
 		"inactiveimage"		"pve/buy_disabled"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"255 255 255 0"
 		"defaultBgColor_override"	"255 255 255 0"
@@ -187,7 +177,6 @@
 		"tall"			"16"
 		"zpos"			"20"
 		//		"0"
-		"visible"		"1"
 		//	"0"
 		
 		"labelText"		""
@@ -195,8 +184,6 @@
 
 		"activeimage"		"pve/sell_disabled"
 		"inactiveimage"		"pve/sell_disabled"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override"	"255 255 255 0"
 		"defaultBgColor_override"	"255 255 255 0"

@@ -9,8 +9,6 @@
 		"zpos"			"2"
 		"wide"			"230"
 		"tall"			"22"
-		"visible"		"1"
-	
 		"Position"
 		{
 			"ControlName"	"CExLabel"
@@ -25,7 +23,6 @@
 			"tall"			"16"
 			//	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"Background"
@@ -37,7 +34,6 @@
 			"zpos"			"2"
 			"wide"			"20"
 			"tall"			"20"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
@@ -50,7 +46,6 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
@@ -70,7 +65,6 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"RankImage"
@@ -82,7 +76,6 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"40"
-			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 		}
@@ -102,8 +95,6 @@
 			"proportionaltoparent"	"1"
 			"actionsignallevel" "4"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		""
 			
 			"paintbackground"	"0"
@@ -119,7 +110,6 @@
 				"zpos"			"1"
 				"wide"			"16"
 				"tall"			"16"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_streaming_glb"
 				"scaleImage"	"1"

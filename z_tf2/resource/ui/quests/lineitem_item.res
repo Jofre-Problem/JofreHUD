@@ -20,7 +20,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		"proportionaltoparent"	"1"

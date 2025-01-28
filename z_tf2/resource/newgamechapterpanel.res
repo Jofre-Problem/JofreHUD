@@ -10,7 +10,6 @@
 		"tall"		"106"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	"LevelPic"
@@ -23,7 +22,6 @@
 		"tall"		"86"	
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"255 255 255 255"
 	}
@@ -53,7 +51,6 @@
 		"tall"		"20"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"west"

@@ -61,7 +61,6 @@
 		"tall"		"480"
 		"zpos"		"-1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 210"
@@ -76,7 +75,6 @@
 		"wide"			"500"
 		"tall"			"350"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"63 59 55 0"
@@ -91,7 +89,6 @@
 			"wide"			"500"
 			"tall"			"310"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
@@ -113,7 +110,6 @@
 			"wide"			"480"
 			"tall"			"230"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"PaintBackgroundType" "2"
@@ -129,7 +125,6 @@
 			"zpos"			"0"
 			"wide"			"470"
 			"tall"			"220"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"MainMenuBGBorder"
 		}
@@ -144,7 +139,6 @@
 			"wide"			"70"
 			"tall"			"50"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"PLAYER"
@@ -152,8 +146,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"PlayerUpgrade"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			//"bgcolor_override"	"142 132 121 255"
 			"alpha"	"0"
 		}
@@ -167,7 +159,6 @@
 			"zpos"			"-2"
 			"wide"			"40"
 			"tall"			"40"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/class_scoutred"
 			"scaleImage"	"1"	
@@ -182,7 +173,6 @@
 			"wide"			"34"
 			"tall"			"34"
 			"zpos"			"-2"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"scaleImage"	"1"	
@@ -200,7 +190,6 @@
 			"wide"			"74"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"142 132 121 255"
@@ -251,7 +240,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -268,7 +256,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -285,7 +272,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -302,7 +288,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -319,7 +304,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -336,7 +320,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
@@ -353,7 +336,6 @@
 			"wide"			"480"
 			"tall"			"5"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"0 0 0 128"
@@ -374,7 +356,6 @@
 			"wide"			"240"
 			"tall"			"140"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 		}
@@ -397,8 +378,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"quick_equip_bottle"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"LoadoutButton"
@@ -419,8 +398,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"open_charinfo_direct"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		
 		"UpgradeItemsDescriptionBG"
@@ -433,7 +410,6 @@
 			"wide"			"130"
 			"tall"			"65"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"bgcolor_override"	"52 48 45 255"
@@ -454,7 +430,6 @@
 			"wide"			"120"
 			"tall"			"65"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -468,7 +443,6 @@
 			"wide"			"130"
 			"tall"			"130"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"bgcolor_override"	"97 94 84 255"
@@ -484,7 +458,6 @@
 			"wide"			"130"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			
 			"bgcolor_override"	"72 68 63 255"
@@ -503,7 +476,6 @@
 			"wide"			"130"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		
@@ -520,7 +492,6 @@
 			"wide"			"120"
 			"tall"			"105"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 		}
@@ -537,7 +508,6 @@
 			"wide"			"245"
 			"tall"			"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"121 195 58 255"
 		}
@@ -554,7 +524,6 @@
 			"wide"			"500"
 			"tall"			"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"tanlight"
 		}
@@ -569,7 +538,6 @@
 			"wide"			"75"
 			"tall"			"17"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
@@ -577,8 +545,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 		
 		"CloseButton"
@@ -591,15 +557,12 @@
 			"wide"			"75"
 			"tall"			"17"
 			//		"0"
-			"visible"		"1"
 			//	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"close"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"RespecButton"
@@ -620,8 +583,6 @@
 			"textinsetx"	"50"
 			"brighttext"	"1"
 			"Command"		"respec"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}	
 	
@@ -635,7 +596,6 @@
 		"wide"			"500"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"63 59 55 0"
 		
@@ -649,7 +609,6 @@
 			"wide"			"500"
 			"tall"			"40"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
@@ -673,7 +632,6 @@
 			"wide"			"460"
 			"tall"			"40"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"tanlight"
@@ -689,7 +647,6 @@
 			"wide"			"20"
 			"tall"			"23"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		" > "

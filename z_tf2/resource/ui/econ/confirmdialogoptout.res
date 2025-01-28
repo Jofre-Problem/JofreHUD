@@ -9,7 +9,6 @@
 		"wide"			"300"
 		"tall"			"250"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -30,7 +29,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -47,7 +45,6 @@
 		"wide"			"220"
 		"tall"			"130"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
@@ -63,7 +60,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -71,8 +67,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
 	"ConfirmButton"
@@ -86,7 +80,6 @@
 		"tall"			"25"
 		"default"		"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
@@ -94,8 +87,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"OptOutCheckbox"
@@ -108,7 +99,6 @@
 		"wide"			"300"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Confirm_Opt_Out"

@@ -11,7 +11,6 @@
 		"tall"			"30"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"textAlignment"	"north-west"

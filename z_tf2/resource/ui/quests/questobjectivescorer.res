@@ -6,7 +6,6 @@
 		"zpos"			"9999"
 		"wide"			"200"
 		"tall"			"18"
-		"visible"		"1"
 		"enabled"		"1"	
 	}
 

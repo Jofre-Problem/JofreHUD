@@ -10,7 +10,6 @@
 		"tall"			"480"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -42,7 +41,6 @@
 				"tall"			"15"
 				//	"1"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"fgcolor_override" "200 80 60 255"
 			}
@@ -59,7 +57,6 @@
 				"tall"			"15"
 				//	"1"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}
 		}
@@ -79,7 +76,6 @@
 		"tall"			"15"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -98,7 +94,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -111,7 +106,6 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
@@ -125,7 +119,6 @@
 		"ypos"			"60"
 		"wide"			"200"
 		"tall"			"125"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
@@ -152,7 +145,6 @@
 		"tall"			"5"
 		//	"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CloseItemPanel"
@@ -160,7 +152,5 @@
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

@@ -10,7 +10,6 @@
 		"tall"		"220"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -38,7 +37,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_ParseBaseline"
@@ -55,7 +53,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -69,13 +66,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
 		"command"		"Cancel"
-		"Default"		"0"
 	}
 	"Divider1"
 	{
@@ -87,7 +82,6 @@
 		"tall"		"2"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -101,7 +95,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
@@ -118,7 +111,6 @@
 		"tall"		"56"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}

@@ -9,7 +9,6 @@
 		"wide"			"300"
 		"tall"			"240"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
@@ -30,7 +29,6 @@
 		"tall"			"30"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -47,7 +45,6 @@
 		"wide"			"220"
 		"tall"			"170"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
@@ -62,7 +59,6 @@
 		"zpos"					"9"
 		"wide"					"260"
 		"tall"					"60"
-		"visible"				"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
@@ -80,7 +76,6 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_OK"
@@ -88,8 +83,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
 	}			
 }

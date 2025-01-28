@@ -3,7 +3,6 @@
 	"ComboBoxBackpackOverlayDialogBase"
 	{
 		"fieldName"				"ComboBoxBackpackOverlayDialogBase"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-140"
 		"ypos"					"105"
@@ -29,7 +28,6 @@
 		"tall"			"60"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
@@ -43,7 +41,6 @@
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"120"
-		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
@@ -77,15 +74,10 @@
 		"tall"				"15"
 		//		"0"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
-		
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
@@ -106,16 +98,12 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"default"		"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"OkButton"
@@ -129,7 +117,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_OK"
@@ -137,7 +124,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"apply"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

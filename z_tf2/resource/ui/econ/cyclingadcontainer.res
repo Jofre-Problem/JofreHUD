@@ -10,7 +10,6 @@
 		"wide"		"10"
 		"tall"		"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"			"<"
@@ -29,9 +28,6 @@
 
 		"armedFgColor_override"		"TanLight"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"NextButton"
@@ -44,7 +40,6 @@
 		"wide"		"10"
 		"tall"		"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"			">"
@@ -64,9 +59,6 @@
 
 		"armedFgColor_override"		"TanLight"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"AdsContainer"
@@ -78,7 +70,6 @@
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
-		"visible"				"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
@@ -107,7 +98,6 @@
 		"zpos"					"1"
 		"wide"					"f0"
 		"tall"					"f0"
-		"visible"				"1"
 		"enabled"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"

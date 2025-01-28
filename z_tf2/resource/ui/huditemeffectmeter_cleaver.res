@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"r174"
@@ -23,7 +22,6 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
@@ -42,7 +40,6 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_Cleaver"
@@ -62,7 +59,6 @@
 		"tall"					"5"				
 		//			"0"
 		//				"0"
-		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
 	}					

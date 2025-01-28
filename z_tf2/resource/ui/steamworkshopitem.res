@@ -9,7 +9,6 @@
 		"wide"		"125"
 		"tall"		"200"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 240"
@@ -23,7 +22,6 @@
 		"ypos"		"25"
 		"wide"		"125"
 		"tall"		"125"
-		"visible"	"1"
 		"mouseinputenabled" "0"
 		"bgcolor_override" 	"178 82 22 255"
 	}
@@ -37,7 +35,6 @@
 		"zpos"		"1"
 		"wide"		"121"
 		"tall"		"121"
-		"visible"	"1"
 		"mouseinputenabled" "0"
 	}
 
@@ -50,7 +47,6 @@
 		"wide"		"125"
 		"tall"		"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"%title%"

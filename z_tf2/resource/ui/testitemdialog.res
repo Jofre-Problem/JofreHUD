@@ -3,7 +3,6 @@
 	"TestItemDialog"
 	{
 		"fieldName"				"TestItemDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-275"
 		"ypos"					"80"
@@ -29,7 +28,6 @@
 		"wide"			"450"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -47,7 +45,6 @@
 		"wide"			"95"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	"ModelLabel"
@@ -63,7 +60,6 @@
 		"wide"			"200"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -77,7 +73,6 @@
 		"wide"			"120"
 		"tall"			"15"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#IT_SelectModel"
@@ -85,8 +80,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"select_model"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"ExistingItemToTestPanel"
 	{
@@ -96,7 +89,6 @@
 		"ypos"			"90"
 		"wide"			"400"
 		"tall"			"50"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
 		
@@ -113,7 +105,6 @@
 			"wide"			"95"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 		}
@@ -128,15 +119,10 @@
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -155,7 +141,6 @@
 		"ypos"			"140"
 		"wide"			"400"
 		"tall"			"50"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
 		
@@ -172,7 +157,6 @@
 			"wide"			"95"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"ItemReplacedComboBox"
@@ -186,15 +170,10 @@
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -231,7 +210,6 @@
 		"ypos"			"100"
 		"wide"			"550"
 		"tall"			"50"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		
 		"HideBodygroupLabel"
@@ -247,7 +225,6 @@
 			"wide"			"95"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"HideBodygroupExplanationLabel"
@@ -263,7 +240,6 @@
 			"wide"			"95"
 			"tall"			"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"117 107 94 255"
@@ -281,7 +257,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -298,7 +273,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -315,7 +289,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -332,7 +305,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -349,7 +321,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -366,7 +337,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -383,7 +353,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -400,7 +369,6 @@
 			"wide"			"150"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -414,7 +382,6 @@
 		"ypos"			"200"
 		"wide"			"530"
 		"tall"			"50"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		
 		"PaintColorLabel"
@@ -430,7 +397,6 @@
 			"wide"			"95"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"PaintColorComboBox"
@@ -444,15 +410,10 @@
 			"wide"				"140"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -475,7 +436,6 @@
 			"wide"			"95"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"UnusualEffectComboBox"
@@ -489,15 +449,10 @@
 			"wide"				"140"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			
 			"fgcolor_override"	"117 107 94 255"
 			"bgcolor_override"	"251 235 202 0"
 			"disabledFgColor_override" "117 107 94 0"
@@ -518,7 +473,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
@@ -526,8 +480,6 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	"OkButton"
 	{
@@ -539,15 +491,12 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"ReloadSchemeButton"
@@ -560,7 +509,6 @@
 		"wide"			"30"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"R"
@@ -568,7 +516,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

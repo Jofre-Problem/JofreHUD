@@ -9,7 +9,6 @@
 		"wide"			"160"
 		"tall"			"22"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -23,7 +22,6 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"22"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
@@ -38,7 +36,6 @@
 		"ypos"			"1"
 		"wide"			"15"
 		"tall"			"15"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
@@ -53,8 +50,6 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"20"
-		"visible"		"1"
-
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -65,7 +60,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
 			"textAlignment"	"Left"
@@ -151,7 +145,6 @@
 			"wide"			"8"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
 		}
@@ -176,7 +169,6 @@
 				"wide"			"200"
 				"tall"			"12"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
@@ -192,7 +184,6 @@
 				"wide"			"50"
 				"tall"			"8"				
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
@@ -247,7 +238,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
@@ -264,7 +254,6 @@
 				"wide"			"38"
 				"tall"			"8"				
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 			}

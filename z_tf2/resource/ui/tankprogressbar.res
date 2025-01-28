@@ -22,7 +22,6 @@
 		"zpos"			"3"
 		"wide"			"18"
 		"tall"			"18"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_tank"
 		"scaleImage"	"1"
@@ -37,7 +36,6 @@
 		"zpos"			"1"
 		"wide"			"153"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		
@@ -57,7 +55,6 @@
 		"zpos"			"1"
 		"wide"			"155"
 		"tall"			"12"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		

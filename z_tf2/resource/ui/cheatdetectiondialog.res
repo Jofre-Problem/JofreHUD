@@ -3,7 +3,6 @@
 	"CheatDetectionDialog"
 	{
 		"fieldName"				"CheatDetectionDialog"
-		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"155"
@@ -25,7 +24,6 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_CheatDetected_Title"
 		"textAlignment"		"North"
@@ -43,7 +41,6 @@
 		"tall"			"85"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%reason%"
@@ -60,7 +57,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
@@ -68,7 +64,5 @@
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

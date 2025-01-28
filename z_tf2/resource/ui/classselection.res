@@ -10,7 +10,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -40,7 +39,6 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			""
@@ -58,9 +56,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -81,7 +76,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
 			"scaleImage"	"1"
@@ -99,7 +93,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Offense"
@@ -118,14 +111,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"1"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 1"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -138,9 +129,6 @@
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "TanDark"
 			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -161,7 +149,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_scout_inactive"
 			"scaleImage"	"1"
@@ -178,14 +165,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"2"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 3"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -198,9 +183,6 @@
 		"depressedFgColor_override" "TanDark"
 		"selectedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -221,7 +203,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_soldier_inactive"
 			"scaleImage"	"1"
@@ -238,14 +219,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"3"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 7"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -257,9 +236,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -280,7 +256,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_pyro_inactive"
 			"scaleImage"	"1"
@@ -298,7 +273,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Defense"
@@ -317,14 +291,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"4"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 4"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -336,9 +308,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -359,7 +328,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_demo_inactive"
 			"scaleImage"	"1"
@@ -376,14 +344,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"5"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 6"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -395,9 +361,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -418,7 +381,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_heavy_inactive"
 			"scaleImage"	"1"
@@ -435,14 +397,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"6"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 9"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -454,9 +414,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -477,7 +434,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_engineer_inactive"
 			"scaleImage"	"1"
@@ -495,7 +451,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Support"
@@ -514,14 +469,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"7"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 5"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -533,9 +486,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -556,7 +506,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_medic_inactive"
 			"scaleImage"	"1"
@@ -573,14 +522,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"8"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 2"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -592,9 +539,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -615,7 +559,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_sniper_inactive"
 			"scaleImage"	"1"
@@ -632,14 +575,12 @@
 		"tall"				"100"
 		//		"0"
 		//			"2"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"0"
 		"labelText"			"9"	[$WIN32]
 		"labelText"			""		[$X360]
 		"textAlignment"		"south-west"
 		"Command"			"select 8"
-		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
@@ -651,9 +592,6 @@
 		"armedFgColor_override" "TanDark"
 		"depressedFgColor_override" "TanDark"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
 		
@@ -674,7 +612,6 @@
 			"zpos"			"7"
 			"wide"			"50"
 			"tall"			"100"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_spy_inactive"
 			"scaleImage"	"1"
@@ -692,7 +629,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_ClassMenu_Cancel"
@@ -713,7 +649,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#EditLoadout"
@@ -753,7 +688,6 @@
 		"tall"			"30"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
@@ -772,7 +706,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"16"
 		
@@ -821,7 +754,6 @@
 		"tall"			"50"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
 		"image"			"loadout_bottom_gradient"
@@ -1080,7 +1012,6 @@
 		"tall"			"18"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_TeamCount"
@@ -1100,7 +1031,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numScout%"
@@ -1120,7 +1050,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numSoldier%"
@@ -1140,7 +1069,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numPyro%"
@@ -1160,7 +1088,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numDemoman%"
@@ -1180,7 +1107,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numHeavy%"
@@ -1200,7 +1126,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numEngineer%"
@@ -1220,7 +1145,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numMedic%"
@@ -1240,7 +1164,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numSniper%"
@@ -1260,7 +1183,6 @@
 		"tall"			"12"
 		//	"1"
 		//		"2"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%numSpy%"
@@ -1440,7 +1362,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1459,7 +1380,6 @@
 			"tall"			"170"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1476,15 +1396,11 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1504,7 +1420,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
@@ -1525,7 +1440,6 @@
 		
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
@@ -1567,7 +1481,6 @@
 		"tall"			"165"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 	}
@@ -1610,7 +1523,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1629,7 +1541,6 @@
 			"tall"			"115"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1646,15 +1557,12 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1674,7 +1582,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"

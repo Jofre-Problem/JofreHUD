@@ -30,7 +30,6 @@
 		"zpos"		"1000"
 		"wide"		"400"
 		"tall"		"350"
-		"visible"	"1"
 		"enabled"	"1"
 	}
 }

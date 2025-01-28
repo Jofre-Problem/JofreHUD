@@ -10,7 +10,6 @@
 		"zpos"			"1001"
 		"wide"			"300"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 
 		"datacenter_y"	"3"
@@ -26,7 +25,6 @@
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f-50"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
@@ -66,7 +64,6 @@
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"TanDark"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
 
@@ -108,7 +105,6 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 
 		"cvar_name" "tf_party_ignore_invites"
@@ -128,7 +124,6 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
 
@@ -147,7 +142,6 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 		"fgcolor_override"		"TanDark"
 	}
@@ -168,7 +162,6 @@
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping_enabled"
@@ -191,7 +184,6 @@
 		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
 
@@ -211,7 +203,6 @@
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
 
@@ -244,7 +235,6 @@
 		//"RoundedCorners"		"15"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"proportionaltoparent"	"1"
@@ -263,7 +253,6 @@
 		"wide"			"f37"
 		"tall"			"f220"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"proportionaltoparent"	"1"
@@ -277,7 +266,6 @@
 			"zpos"			"2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
@@ -337,7 +325,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 

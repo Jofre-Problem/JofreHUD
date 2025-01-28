@@ -23,7 +23,6 @@
 		"zpos"			"-1"
 		"wide"			"190"
 		"tall"			"42"
-		"visible"		"1"
 		"bgcolor_override"		"20 20 20 50"
 	}
 	

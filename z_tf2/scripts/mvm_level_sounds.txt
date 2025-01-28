@@ -7421,7 +7421,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/hitsound_beepo.wav"
 }
 
 "Player.HitSoundVortex"
@@ -7433,11 +7432,6 @@
 
 	"rndwave"
 	{
-		"wave"	")ui/hitsound_vortex1.wav"
-		"wave"	")ui/hitsound_vortex2.wav"
-		"wave"	")ui/hitsound_vortex3.wav"
-		"wave"	")ui/hitsound_vortex4.wav"
-		"wave"	")ui/hitsound_vortex5.wav"	
 	}
 }
 
@@ -7450,9 +7444,6 @@
 
 	"rndwave"
 	{
-		"wave"	")ui/hitsound_electro1.wav"
-		"wave"	")ui/hitsound_electro2.wav"
-		"wave"	")ui/hitsound_electro3.wav"
 	}
 }
 
@@ -7465,16 +7456,6 @@
 
 	"rndwave"
 	{
-		"wave"	"ui/hitsound_menu_note1.wav"
-		"wave"	"ui/hitsound_menu_note2.wav"
-		"wave"	"ui/hitsound_menu_note3.wav"
-		"wave"	"ui/hitsound_menu_note4.wav"
-		"wave"	"ui/hitsound_menu_note5.wav"
-		"wave"	"ui/hitsound_menu_note6.wav"
-		"wave"	"ui/hitsound_menu_note7.wav"
-		"wave"	"ui/hitsound_menu_note7b.wav"
-		"wave"	"ui/hitsound_menu_note8.wav"
-		"wave"	"ui/hitsound_menu_note9.wav"			
 	}
 }
 
@@ -7487,11 +7468,6 @@
 
 	"rndwave"
 	{
-		"wave"	")ui/hitsound_percussion1.wav"
-		"wave"	")ui/hitsound_percussion2.wav"
-		"wave"	")ui/hitsound_percussion3.wav"
-		"wave"	")ui/hitsound_percussion4.wav"
-		"wave"	")ui/hitsound_percussion5.wav"						
 	}
 }
 
@@ -7504,11 +7480,6 @@
 
 	"rndwave"
 	{
-		"wave"	")ui/hitsound_retro1.wav"
-		"wave"	")ui/hitsound_retro2.wav"
-		"wave"	")ui/hitsound_retro3.wav"
-		"wave"	")ui/hitsound_retro4.wav"
-		"wave"	")ui/hitsound_retro5.wav"						
 	}
 }
 
@@ -7519,7 +7490,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/hitsound_space.wav"
 }
 
 "Player.HitSoundSquasher"
@@ -7529,7 +7499,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/hitsound_squasher.wav"
 }
 
 "Player.HitSoundSynth"
@@ -7541,11 +7510,6 @@
 
 	"rndwave"
 	{
-		"wave"	"ui/hitsound_synth1.wav"
-		"wave"	"ui/hitsound_synth2.wav"
-		"wave"	"ui/hitsound_synth3.wav"
-		"wave"	"ui/hitsound_synth4.wav"
-		"wave"	"ui/hitsound_synth5.wav"						
 	}
 }
 
@@ -7570,7 +7534,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_beepo.wav"
 }
 
 "Player.KillSoundElectro"
@@ -7580,7 +7543,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_electro.wav"
 }
 
 "Player.KillSoundNotes"
@@ -7590,7 +7552,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	"ui/killsound_note.wav"
 }
 
 "Player.KillSoundPercussion"
@@ -7600,7 +7561,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_percussion.wav"
 }
 
 "Player.KillSoundRetro"
@@ -7610,7 +7570,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_retro.wav"
 }
 
 "Player.KillSoundSpace"
@@ -7620,7 +7579,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_space.wav"
 }
 
 "Player.KillSoundSquasher"
@@ -7630,7 +7588,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_squasher.wav"
 }
 
 "Player.KillSoundVortex"
@@ -7640,7 +7597,6 @@
 	"soundlevel"  	"SNDLVL_NONE"	
 	"pitch"			"PITCH_NORM"
 
-	"wave"	")ui/killsound_vortex.wav"
 }
 
 // ------------------------------------------------------------------------------------ //

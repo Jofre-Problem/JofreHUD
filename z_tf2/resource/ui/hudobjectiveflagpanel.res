@@ -9,7 +9,6 @@
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
-		"visible"			"1"
 		"enabled"			"1"
 		
 		"if_null_hybrid"
@@ -28,7 +27,6 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
@@ -59,7 +57,6 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
@@ -90,7 +87,6 @@
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
@@ -120,7 +116,6 @@
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
@@ -152,7 +147,6 @@
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
@@ -184,7 +178,6 @@
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
@@ -216,7 +209,6 @@
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
-		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
@@ -249,7 +241,6 @@
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
 		"scaleImage"	"1"	
@@ -293,7 +284,6 @@
 		"wide"			"140"	[$WIN32]
 		"wide"			"120"	[$X360]
 		"tall"			"30"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
@@ -329,7 +319,6 @@
 		"wide"			"140"	[$X360]
 		"tall"			"38"	[$WIN32]
 		"tall"			"35"	[$X360]
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_playingto"
 		"scaleImage"	"1"	
@@ -360,7 +349,6 @@
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
-		"visible"		"1"
 		"enabled"		"1"
 		
 		"if_null_hybrid"
@@ -400,7 +388,6 @@
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
-		"visible"		"1"
 		"enabled"		"1"
 				
 		"if_null_hybrid"

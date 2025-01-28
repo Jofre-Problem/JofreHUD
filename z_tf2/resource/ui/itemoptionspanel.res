@@ -9,7 +9,6 @@
 		"wide"		"f-19"
 		"tall"		"f0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"proportionalToParent"	"1"
@@ -39,7 +38,6 @@
 			"textinsety"		"0"
 			"auto_wide_tocontents"		"0"
 			"use_proportional_insets"		"0"
-			"Default"		"0"
 			"Command"		"particle_use_head_clicked"
 		}
 	
@@ -74,8 +72,6 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"set_style"
 		}
 	}

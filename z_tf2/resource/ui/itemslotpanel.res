@@ -10,7 +10,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
@@ -103,7 +102,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -121,7 +119,6 @@
 		"wide"			"210"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -135,7 +132,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_OK"
@@ -143,7 +139,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

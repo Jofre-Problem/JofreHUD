@@ -9,7 +9,6 @@
 		"zpos"		"2"
 		"wide"		"33"
 		"tall"		"33"
-		"visible"	"1"
 		"enabled"	"1"
 	}
 	
@@ -22,7 +21,6 @@
 		"zpos"		"4"
 		"wide"		"33"
 		"tall"		"33"
-		"visible"	"1"
 		"enabled"	"1"
 	}	
 
@@ -53,7 +51,6 @@
 		"tall"			"33"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"west"

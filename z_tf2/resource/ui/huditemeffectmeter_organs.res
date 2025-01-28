@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"r174"	[$WIN32]
@@ -25,7 +24,6 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
@@ -44,7 +42,6 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"textAlignment"			"center"
@@ -78,7 +75,6 @@
 		"wide"					"40"
 		"tall"					"20"	
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"%progresscount%"

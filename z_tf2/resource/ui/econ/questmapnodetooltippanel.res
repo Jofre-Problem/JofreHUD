@@ -25,7 +25,6 @@
 			"tall"			"f0"
 			"autoResize"	"3"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"proportionaltoparent"	"1"

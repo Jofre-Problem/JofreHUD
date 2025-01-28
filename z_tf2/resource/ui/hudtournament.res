@@ -82,7 +82,6 @@
 
 			if_null_competitive
 			{
-				"visible"		"1"
 			}
 		}
 		
@@ -126,7 +125,6 @@
 				"tall"			"8"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -170,7 +168,6 @@
 				"zpos"			"2"
 				"wide"			"22"
 				"tall"			"22"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
@@ -220,7 +217,6 @@
 				
 				if_null_mvm
 				{
-					"visible"		"1"
 				}
 
 				if_null_competitive
@@ -229,13 +225,11 @@
 					"ypos"			"4"
 					"wide"			"p0.4"
 					"tall"			"p0.6"
-					"visible"		"1"
 					"proportionaltoparent" "1"
 				}
 
 				if_null_readymode
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -248,7 +242,6 @@
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
-				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
@@ -260,7 +253,6 @@
 				{
 					"wide"			"p0.64"
 					"tall"			"p0.96"
-					"visible"		"1"
 					"proportionaltoparent" "1"
 				}
 			}
@@ -288,7 +280,6 @@
 				
 				if_null_mvm
 				{
-					"visible"		"1"
 				}
 				
 				if_null_competitive
@@ -298,12 +289,10 @@
 					"wide"			"p0.3"
 					"tall"			"p0.45"
 					"proportionaltoparent" "1"
-					"visible"		"1"
 				}
 				
 				if_null_readymode
 				{
-					"visible"		"1"
 				}		
 			}
 			
@@ -325,7 +314,6 @@
 
 				if_null_mvm
 				{
-					"visible"		"1"
 				}
 
 				if_null_competitive
@@ -335,12 +323,10 @@
 					"wide"			"p0.21"
 					"tall"			"p0.34"
 					"proportionaltoparent" "1"
-					"visible"		"1"
 				}
 
 				if_null_readymode
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -356,7 +342,6 @@
 				"tall"			"10"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
@@ -384,7 +369,6 @@
 				"tall"			"15"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
@@ -416,7 +400,6 @@
 				"tall"			"8"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -442,7 +425,6 @@
 		"tall"			"55"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 		"proportionaltoparent"	"1"
@@ -463,13 +445,11 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
-			"visible"		"1"
 		}
 		
 		if_null_readymode
 		{
 			"xpos"			"195"
-			"visible"		"1"
 		}		
 	}
 	"TournamentLabel"
@@ -484,7 +464,6 @@
 		"tall"			"19"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
@@ -519,7 +498,6 @@
 		"tall"			"16"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_blu"
 		"proportionaltoparent"	"1"
@@ -559,7 +537,6 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
@@ -594,7 +571,6 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
@@ -629,7 +605,6 @@
 		"tall"			"16"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_red"
 
@@ -669,7 +644,6 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
@@ -703,7 +677,6 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
@@ -738,7 +711,6 @@
 		"tall"			"35"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%winconditions%"
 		"textAlignment"		"north-west"
@@ -753,7 +725,6 @@
 			"xpos"			"c-45"
 			"ypos"			"18"
 			"tall"			"35"
-			"visible"		"1"
 			"font"			"TFFontMedium"
 		}
 
@@ -761,7 +732,6 @@
 		{
 			"xpos"			"285"
 			"ypos"			"26"
-			"visible"		"1"
 			"font"			"TFFontMedium"
 		}
 	}
@@ -777,7 +747,6 @@
 		"tall"			"17"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -815,7 +784,6 @@
 		"zpos"			"1"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
@@ -877,7 +845,6 @@
 			"ypos"			"106"
 			"wide"			"190"
 			"tall"			"20"
-			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 
@@ -888,7 +855,6 @@
 			"ypos"			"111"
 			"wide"			"190"
 			"tall"			"20"
-			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 
@@ -899,7 +865,6 @@
 			"ypos"			"111"
 			"wide"			"190"
 			"tall"			"20"
-			"visible"		"1"
 			"fgcolor"		"Black"
 		}
 	}

@@ -7,7 +7,6 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"15"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -23,7 +22,6 @@
 		"textinsetx"	"4"
 		//	"1"
 		//		"0"	
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%price%"
 	}
@@ -39,7 +37,6 @@
 		"textinsetx"	"4"
 		//	"1"
 		//		"0"	
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%og_price%"
 		"fgcolor"		"117 107 94 255"

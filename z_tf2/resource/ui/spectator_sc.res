@@ -6,7 +6,6 @@
 		"fieldName"		"Spectator"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -22,7 +21,6 @@
 		"tall"			"84"
 		"wide"			"f0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -34,7 +32,6 @@
 		"ypos"			"r70"		
 		"tall"			"70"
 		//		"0"
-		"visible"		"1"
 		//		"0"
 	}
 	"bottombarblank"
@@ -46,7 +43,6 @@
 		"tall"			"70"		// this needs to match the size of BottomBar
 		"wide"			"f0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 	}
@@ -59,7 +55,6 @@
 		"wide"			"600"
 		"tall"			"18"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
@@ -95,7 +90,6 @@
 		"wide"			"220"	[$X360]
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
@@ -110,7 +104,6 @@
 		"wide"			"18"
 		"tall"			"18"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionName"	"changeclass"
 		"actionSet"		"SpectatorControls"
@@ -126,7 +119,6 @@
 		"tall"			"20"
 		"zpos"			"2"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam_NoKey"
 		"textAlignment"		"west"
@@ -142,7 +134,6 @@
 		"wide"			"18"
 		"tall"			"18"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionName"	"next_target"
 		"actionSet"		"SpectatorControls"
@@ -157,7 +148,6 @@
 		"wide"			"18"
 		"tall"			"18"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"actionName"	"prev_target"
 		"actionSet"		"SpectatorControls"
@@ -187,7 +177,6 @@
 		"wide"			"125"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
@@ -202,7 +191,6 @@
 		"wide"			"145"
 		"tall"			"64"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%tip%"
 		"textAlignment"		"center"	[$WIN32]
@@ -256,7 +244,6 @@
 			"wide"			"270"
 			"tall"			"9"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
@@ -271,7 +258,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}		
 }

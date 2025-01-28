@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"visible"			"1"
 		"enabled"			"1"
 	}
 	
@@ -22,7 +21,6 @@
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
-		"visible"			"1"
 		"enabled"			"1"
 	}
 	
@@ -35,7 +33,6 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
-		"visible"			"1"
 		"enabled"			"1"
 		
 		"pin_to_sibling"               "WaveStatusPanel"
@@ -51,7 +48,6 @@
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"visible" 			"1"
 		"enabled" 			"1"
 	}
 
@@ -89,7 +85,6 @@
 			"ypos"			"r35"
 			"wide"			"640"
 			"tall"			"480"
-			"visible"		"1"	
 		}
 		
 		"UpgradeLevel1" 
@@ -102,7 +97,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
@@ -119,7 +113,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
@@ -136,7 +129,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
@@ -216,7 +208,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
@@ -238,7 +229,6 @@
 			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"tanlight"		
 		}

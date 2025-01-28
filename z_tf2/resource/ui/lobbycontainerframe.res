@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
@@ -41,7 +40,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
@@ -54,7 +52,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
@@ -67,7 +64,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
@@ -92,7 +88,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
@@ -122,16 +117,12 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"default"		"0"
 		"Command"		"options"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"
@@ -144,7 +135,6 @@
 			"zpos"			"1"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
@@ -161,7 +151,6 @@
 		"wide"			"180"
 		"tall"			"25"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallBold"
@@ -171,8 +160,6 @@
 		"NavUp"			"PlayNowButton"
 		"NavRight"		"LearnMoreButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"NotificationsPresentPanel"
@@ -215,7 +202,6 @@
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"40"
-			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"1"
 			//		"0"
@@ -233,7 +219,6 @@
 		"wide"			"180"
 		"tall"			"25"
 		////		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallBold"
@@ -244,8 +229,6 @@
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"StartPartyButton"
@@ -258,7 +241,6 @@
 		"wide"			"180"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Matchmaking_StartParty"
@@ -271,7 +253,5 @@
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

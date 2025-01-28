@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent" "1"
 
@@ -48,7 +47,6 @@
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"f0"
-			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"east"
 			"labelText"			""
@@ -69,7 +67,6 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"o1"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"contracts\contracts_base1"

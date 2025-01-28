@@ -41,7 +41,6 @@
 				"tall"			"8"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -65,7 +64,6 @@
 				"zpos"			"2"
 				"wide"			"22"
 				"tall"			"22"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
@@ -96,7 +94,6 @@
 				
 				if_null_mvm
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -109,7 +106,6 @@
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
-				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
@@ -141,7 +137,6 @@
 				
 				if_null_mvm
 				{
-					"visible"		"1"
 				}	
 			}
 			
@@ -163,7 +158,6 @@
 
 				if_null_mvm
 				{
-					"visible"		"1"
 				}
 			}
 			
@@ -179,7 +173,6 @@
 				"tall"			"10"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
@@ -202,7 +195,6 @@
 				"tall"			"15"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
@@ -220,7 +212,6 @@
 				"tall"			"8"
 				//	"0"
 				//		"0"
-				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -276,7 +267,6 @@
 		"tall"			"18"
 		//		"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
@@ -310,7 +300,6 @@
 	
 		if_null_mvm
 		{
-			"visible"		"1"
 		}	
 	}
 	"MapLabel"
@@ -415,7 +404,6 @@
 			"tall"			"9"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
@@ -433,7 +421,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
@@ -451,7 +438,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}		
 }

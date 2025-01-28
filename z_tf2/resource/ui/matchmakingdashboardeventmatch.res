@@ -10,7 +10,6 @@
 		"zpos"			"1002"
 		"wide"			"270"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -59,7 +58,6 @@
 		"zpos"			"110"
 		"wide"			"o1"
 		"tall"			"70"
-		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -76,7 +74,6 @@
 		"zpos"			"100"
 		"wide"			"330"
 		"tall"			"92"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -95,7 +92,6 @@
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"o0.25"
-		"visible"	"1"
 		"enabled"	"1"
 
 		"DropShadow"
@@ -107,7 +103,6 @@
 			"zpos"			"101"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
@@ -123,7 +118,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"mvm/mannup"
@@ -222,7 +216,6 @@
 		"wide"			"f20"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -234,8 +227,6 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"

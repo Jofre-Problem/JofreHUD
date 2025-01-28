@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r86"	[$WIN32]
 		"ypos"			"r102"	[$WIN32]
@@ -22,7 +21,6 @@
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"56"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -39,7 +37,6 @@
 		"zpos"			"1"
 		"wide"			"27"
 		"tall"			"27"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"
 		"scaleImage"	"1"
@@ -56,7 +53,6 @@
 		"tall"					"25"
 		//			"1"
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_Ball"
@@ -91,7 +87,6 @@
 		"wide"					"40"
 		"tall"					"20"	
 		//				"2"
-		"visible"				"1"
 		"enabled"				"1"
 		//			"0"
 		"labelText"				"%progresscount%"

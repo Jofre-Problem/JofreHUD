@@ -9,7 +9,6 @@
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"300"
-		"visible"			"1"
 		"enabled"			"1"
 		
 		"auto_scale"		"1"
@@ -23,7 +22,6 @@
 			"wide"				"20"
 			"tall"				"40"
 			//			"2"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"0"
 			"labelText"			""
@@ -35,9 +33,6 @@
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
 			"paintborder"		"0"
@@ -58,7 +53,6 @@
 				"zpos"			"7"
 				"wide"			"100"
 				"tall"			"200"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}				

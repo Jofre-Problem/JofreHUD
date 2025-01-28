@@ -10,7 +10,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
@@ -29,7 +28,6 @@
 		"ypos"			"0"
 		"wide"			"250"
 		"tall"			"35"
-		"visible"		"1"
 		"PaintBackgroundType" "2"
 		
 		"WaveCompleteLabelShadow"
@@ -43,7 +41,6 @@
 			"ypos"			"3"
 			"wide"			"245"
 			"tall"			"36"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"black"		
 			
@@ -64,7 +61,6 @@
 			"ypos"			"2"
 			"wide"			"244"
 			"tall"			"35"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"tanlight"		
 		}
@@ -79,8 +75,6 @@
 		"wide"			"400"
 		"tall"			"400"
 		//	"1"
-		"visible"		"1"
-		
 		"CreditCollectedTextLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -175,8 +169,6 @@
 		"wide"			"400"
 		"tall"			"400"
 		//	"1"
-		"visible"		"1"
-		
 		"RatingLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -249,7 +241,6 @@
 		"ypos"			"80"
 		"wide"			"250"
 		"tall"			"25"
-		"visible"		"1"
 		"PaintBackgroundType" "2"
 	
 		"RespecTextLabelWin"

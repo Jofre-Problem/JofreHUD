@@ -10,7 +10,6 @@
 		"zpos"			"1002"
 		"wide"			"270"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -42,16 +41,12 @@
 		"wide"			"15"
 		"tall"			"o1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"default"		"0"
 		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
 	}
@@ -65,7 +60,6 @@
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 		"image"			"info"
@@ -81,7 +75,6 @@
 		"zpos"			"100"
 		"wide"			"305"
 		"tall"			"f80"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -112,7 +105,6 @@
 		"wide"			"f20"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -124,8 +116,6 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"

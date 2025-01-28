@@ -37,7 +37,6 @@
 		"tall"			"34"
 		"zpos"			"0"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontSmallestBold"
@@ -51,8 +50,6 @@
 		"paintbackground"	"1"
 		"stay_armed_on_click"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"VotesLabel"
@@ -64,7 +61,6 @@
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"20"
-		"visible"		"1"
 		"enabled"		"1"
 		"font"			"MapVotesPercentage"
 		"fgcolor_override"	"TanLight"
@@ -83,7 +79,6 @@
 		"wide"			"f0"
 		"zpos"			"10"
 		"tall"			"20"
-		"visible"		"1"
 		"enabled"		"1"
 		"font"			"ItemFontAttribSmall"
 		"fgcolor_override"	"TanLight"

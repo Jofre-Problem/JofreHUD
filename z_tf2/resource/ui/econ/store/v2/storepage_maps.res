@@ -67,7 +67,6 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -85,7 +84,6 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"96 90 85 255"
 	}
@@ -100,14 +98,11 @@
 		"wide"			"120"
 		"tall"			"25"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_LearnMore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"maps_learnmore"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 }

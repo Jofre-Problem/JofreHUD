@@ -19,7 +19,6 @@
 		"wide"			"195"
 		"tall"			"25"
 		////		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_MvM_LearnMore"
@@ -31,8 +30,6 @@
 		"NavLeft"		"BackButton"
 		"NavRight"		"NextButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"PlayNowButton"
@@ -45,7 +42,6 @@
 		"wide"			"180"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_MvM_MannUp"
@@ -59,8 +55,6 @@
 		"NavLeft"		"Sheet"
 		"NavRight"		"PracticeButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -81,7 +75,6 @@
 		"wide"			"180"
 		"tall"			"40"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_MvM_BootCamp"
@@ -95,8 +88,6 @@
 		"NavLeft"		"PlayNowButton"
 		"NavRight"		"StartPartyButton"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -144,7 +135,6 @@
 			"zpos"			"0"
 			"wide"			"180"
 			"tall"			"90"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"pve/mvm_friends_image"
 			"scaleImage"	"1"

@@ -24,7 +24,6 @@
 		"wide"			"f0"
 		"tall"			"p0.9"
 		"proportionaltoparent"	"1"
-		"visible"		"1"
 		"enabled"		"1"
 		"border"		"MainMenuBGBorder"
 
@@ -37,7 +36,6 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"p0.7"
-			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"competitive/comp_background_tier001a"
@@ -54,7 +52,6 @@
 			"wide"			"p0.987"
 			"tall"			"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"bgcolor_override"	"255 255 255 252"
@@ -74,7 +71,6 @@
 			"wide"			"f0"
 			"tall"			"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
@@ -89,7 +85,6 @@
 			"zpos"		"2"
 			"wide"		"f0"
 			"tall"		"f0"
-			"visible"	"1"
 			"enabled"	"1"
 			//"border"	"MainMenuHighlightBorder"
 
@@ -102,7 +97,6 @@
 				"zpos"			"2"
 				"wide"			"50"
 				"tall"			"20"
-				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
 				//"fgcolor_override"	"89 81 71 255"
@@ -122,15 +116,9 @@
 				"wide"				"85"
 				"tall"				"15"
 				//			"0"
-				"visible"			"1"
 				"enabled"			"1"
-				"textHidden"		"0"
 				"editable"			"0"
 				"maxchars"			"-1"
-				"NumericInputOnly"	"0"
-				"unicode"			"0"
-				"default"			"0"
-		
 				"fgcolor_override"	"235 226 202 255"
 				"bgcolor_override"	"0 0 0 0"
 				"disabledFgColor_override" "235 226 202 255"
@@ -150,15 +138,12 @@
 				"wide"			"160"
 				"tall"			"25"
 				////		"3"
-				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_StartSearch"
 				"Command"		"search"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
 			"StopSearchButton"
@@ -178,8 +163,6 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_CancelSearch"
 				"Command"		"stopsearch"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
 
@@ -211,7 +194,6 @@
 				"wide"		"340"
 				"tall"		"40"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 				"proportionaltoparent"	"1"
 			}
@@ -228,7 +210,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"south-east"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -244,7 +225,6 @@
 				"wide"		"90"
 				"tall"		"20"
 				"textAlignment"	"south-east"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -260,7 +240,6 @@
 				"wide"		"300"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -276,7 +255,6 @@
 				"wide"		"130"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -291,7 +269,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -307,7 +284,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -324,7 +300,6 @@
 				"wide"		"130"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -339,7 +314,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -355,7 +329,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -372,7 +345,6 @@
 				"wide"		"300"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -388,7 +360,6 @@
 				"wide"		"130"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -403,7 +374,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -419,7 +389,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -436,7 +405,6 @@
 				"wide"		"130"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -451,7 +419,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -467,7 +434,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -484,7 +450,6 @@
 				"wide"		"300"
 				"tall"		"20"
 				"textAlignment"	"north-west"
-				"visible"	"1"
 				"enabled"	"1"
 			}
 
@@ -499,7 +464,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -515,7 +479,6 @@
 					"wide"		"90"
 					"tall"		"20"
 					"textAlignment"	"north-east"
-					"visible"	"1"
 					"enabled"	"1"
 					"labelText"		"?"
 				}
@@ -541,7 +504,6 @@
 					"zpos"			"0"
 					"wide"			"50"
 					"tall"			"50"
-					"visible"		"1"
 					"enabled"		"1"
 					"mouseinputenabled" "0"
 					"image"			"pve/mvm_timeout_active_large"
@@ -560,7 +522,6 @@
 					"wide"		"275"
 					"tall"		"60"
 					"textAlignment"	"west"
-					"visible"	"1"
 					"enabled"	"1"
 					"wrap"		"1"
 					"fgcolor_override"	"250 114 45 255"

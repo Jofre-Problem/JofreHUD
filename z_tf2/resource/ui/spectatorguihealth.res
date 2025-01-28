@@ -9,7 +9,6 @@
 		"zpos"			"4"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -22,7 +21,6 @@
 		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
@@ -64,7 +62,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"10"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	

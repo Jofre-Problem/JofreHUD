@@ -26,7 +26,6 @@
 		"tall"			"f0"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"

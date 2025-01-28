@@ -9,7 +9,6 @@
 		"wide"		"f0"
 		"tall"		"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 200"
@@ -25,7 +24,6 @@
 		"wide"		"450"
 		"tall"		"400"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"PaintBackgroundType"	"0"
@@ -59,7 +57,6 @@
 			"wide"		"450"
 			"tall"		"500"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"40 37 37 255"
@@ -79,7 +76,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -97,7 +93,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -118,8 +113,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"prevpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
 		"CancelButton"
@@ -131,7 +124,6 @@
 			"wide"			"100"
 			"tall"			"25"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
@@ -139,8 +131,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}			
 		
 		"ModeSelectionPanel"
@@ -153,7 +143,6 @@
 			"wide"				"500"
 			"tall"				"400"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"0"
 			"paintBackground"	"0"

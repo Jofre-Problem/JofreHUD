@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
 		"bgcolor_override"		"20 20 20 200"
 	}
 
@@ -21,8 +20,6 @@
 		"ypos"			"100"
 		"wide"			"550"
 		"tall"			"350"
-		"visible"		"1"
-		
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
@@ -64,7 +61,6 @@
 		"ypos"			"128"
 		"wide"			"500"
 		"tall"			"2"
-		"visible"		"1"
 		"bgcolor_override"		"20 20 20 100"
 	}
 	
@@ -90,8 +86,6 @@
 		"ypos"			"160"
 		"wide"			"300"
 		"tall"			"100"
-		"visible"		"1"
-		
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -192,8 +186,6 @@
 		"ypos"			"160"
 		"wide"			"300"
 		"tall"			"100"
-		"visible"		"1"
-		
 		"Header"
 		{
 			"ControlName"	"CExLabel"
@@ -359,8 +351,6 @@
 		"ypos"			"250"
 		"wide"			"500"
 		"tall"			"150"
-		"visible"		"1"
-		
 		"Background"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -370,7 +360,6 @@
 			"wide"			"500"
 			"tall"			"150"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 
@@ -448,7 +437,6 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"		"1"
 		}
@@ -477,7 +465,6 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"		"1"
 		}
@@ -507,15 +494,12 @@
 		"zpos"			"999"
 		"wide"			"200"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_PVE_Vote_MissionRestart"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"vote_restart"
@@ -530,15 +514,12 @@
 		"zpos"			"1000"
 		"wide"			"100"
 		"tall"			"25"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"continue"

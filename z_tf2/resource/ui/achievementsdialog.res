@@ -12,7 +12,6 @@
 		"wide"		"630"
 		"tall"		"444"
 		//					"0"
-		"visible"					"1"
 		"enabled"					"1"
 		//				"0"
 		"settitlebarvisible"		"1"
@@ -29,13 +28,11 @@
 		"wide"		"70"
 		"tall"		"24"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Back"
 		"textAlignment"		"west"
 		"Command"		"Close"
-		"Default"		"0"
 	}
 
 	"ResetAchievements"
@@ -47,13 +44,11 @@
 		"wide"		"200"
 		"tall"		"24"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ConfirmResetAchievements_Title"
 		"textAlignment"		"west"
 		"Command"		"ResetAchievements"
-		"Default"		"0"
 	}
 	
 	"listpanel_achievements"
@@ -66,7 +61,6 @@
 		"tall"		"268"
 		"autoResize"		"3"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 	}
@@ -81,7 +75,6 @@
 		"tall"		"268"
 		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"autoResize"		"3"
@@ -142,7 +135,6 @@
 		"wide"			"225"
 		"tall"			"24"
 		"enabled"		"1"
-		"visible"		"1"
 		"editable"		"0"
 	}
 	
@@ -156,7 +148,6 @@
 		"tall"		"50"
 		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -169,7 +160,6 @@
 		"wide"		"200"
 		"tall"		"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievements_Earned"
@@ -187,7 +177,6 @@
 		"wide"		"150"
 		"tall"		"24"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievement_Hide_Achieved"

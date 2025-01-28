@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"p0.75"
-		"visible"		"1"
 		"enabled"		"1"
 		"image"			"item_carousel_bg"
 		"scaleImage"	"1"
@@ -25,7 +24,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"200"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
@@ -57,8 +55,6 @@
 		"zpos"			"5"
 		"wide"			"o1.5"
 		"tall"			"p0.8"
-		"visible"		"1"
-
 		"proportionaltoparent"	"1"
 
 		"force_use_model"		"1"
@@ -129,7 +125,6 @@
 		"wide"				"60"
 		"tall"				"25"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		"proportionaltoparent"	"1"
 		
@@ -145,7 +140,6 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			"visible"			"1"
 			"enabled"			"1"
 			//		"0"
 			"labelText"			""
@@ -157,9 +151,6 @@
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
 			"paintbackgroundtype"	"0"
@@ -183,7 +174,6 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
@@ -236,12 +226,10 @@
 		"fixed_item"
 		{
 			"tall"		"80"
-			"visible"	"1"
 		}
 		"fixed_paintkit"
 		{
 			"tall"		"60"
-			"visible"	"1"
 		}
 		"consume_mode"
 		{
@@ -264,9 +252,6 @@
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"debug_menu"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
@@ -288,7 +273,6 @@
 				"zpos"			"1"
 				"wide"			"8"
 				"tall"			"8"
-				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_workshop_edit"
 				"scaleImage"	"1"
@@ -307,14 +291,9 @@
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			"default"			"0"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
@@ -344,7 +323,6 @@
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
@@ -369,14 +347,9 @@
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"visible"			"1"
 			"enabled"			"1"
-			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
-			"NumericInputOnly"	"0"
-			"unicode"			"0"
-			"default"			"0"
 			"actionsignallevel"	"2"
 
 			"fixed_item"
@@ -411,7 +384,6 @@
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
@@ -474,7 +446,6 @@
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
@@ -506,7 +477,6 @@
 			"zpos"			"10"
 			"wide"			"70"
 			"tall"			"20"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
@@ -515,8 +485,6 @@
 			"textAlignment"	"center"
 			"keyboardinputenabled"	"0"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"command"	"random_seed"
 
@@ -543,7 +511,6 @@
 			"zpos"			"10"
 			"wide"			"115"
 			"tall"			"20"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"actionsignallevel" "2"
@@ -594,9 +561,6 @@
 			"defaultBgColor_override"	"72 103 32 255"
 			"armedBgColor_override"		"72 133 32 255"
 
-			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
 }

@@ -9,7 +9,6 @@
 		"wide"		"f0"
 		"tall"		"480"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 200"
@@ -25,7 +24,6 @@
 		"wide"		"450"
 		"tall"		"150"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"PaintBackgroundType"	"0"
@@ -41,7 +39,6 @@
 			"wide"		"450"
 			"tall"		"150"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"40 37 37 255"
@@ -60,7 +57,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -73,7 +69,6 @@
 			"wide"		"410"
 			"tall"		"30"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -91,7 +86,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -105,7 +99,6 @@
 			"wide"			"100"
 			"tall"			"25"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
@@ -113,8 +106,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"user_close"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}			
 		
 	}
@@ -129,7 +120,6 @@
 		"wide"		"500"
 		"tall"		"400"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
 		"PaintBackgroundType"	"0"
@@ -145,7 +135,6 @@
 			"wide"		"500"
 			"tall"		"400"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"40 37 37 255"
@@ -165,7 +154,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 
@@ -192,7 +180,6 @@
 			"wide"			"150"
 			"tall"			"25"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_Quickplay_Connect"
@@ -200,8 +187,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"ConnectToServer"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"CancelButton"
@@ -214,7 +199,6 @@
 			"wide"			"150"
 			"tall"			"25"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
@@ -222,8 +206,6 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"user_close"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}			
 		
 	}

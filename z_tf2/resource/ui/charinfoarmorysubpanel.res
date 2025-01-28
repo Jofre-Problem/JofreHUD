@@ -6,7 +6,6 @@
 		"fieldName"		"armory_panel"
 		"wide"			"f0"
 		"zpos"			"501"
-		"visible"		"1"
 		//	"0"
 		//		"0"
 		"enabled"		"1"
@@ -74,7 +73,6 @@
 		"tall"			"15"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -92,7 +90,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 
@@ -110,7 +107,6 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -126,15 +122,10 @@
 		"tall"				"20"
 		//		"0"
 		//			"0"
-		"visible"			"1"
 		"enabled"			"1"
 		//		"1"
-		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
-		
 		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"51 47 46 255"
 		"disabledFgColor_override" "235 226 202 255"
@@ -153,7 +144,6 @@
 		"zpos"			"0"
 		"wide"			"270"
 		"tall"			"253"
-		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"StorePreviewBorder"
@@ -171,7 +161,6 @@
 			"tall"			"125"
 			//	"0"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"TanLight"
 			"wrap"			"1"
@@ -196,7 +185,6 @@
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"135"
-		"visible"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
@@ -290,15 +278,12 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"CurPageLabel"
@@ -315,7 +300,6 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -331,15 +315,12 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 		
 	"WikiButton"
@@ -353,7 +334,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ArmoryButton_Wiki"
@@ -361,8 +341,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"wiki"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"ViewSetButton"
@@ -376,7 +354,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ArmoryButton_SetDetails"
@@ -384,8 +361,6 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"viewset"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"StoreButton"
@@ -406,8 +381,6 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"openstore"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"ReloadSchemeButton"
@@ -429,7 +402,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

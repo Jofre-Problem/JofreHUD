@@ -10,7 +10,6 @@
 		"zpos"			"1002"
 		"wide"			"270"
 		"tall"			"f70"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -41,7 +40,6 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f73"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -72,7 +70,6 @@
 		"wide"			"f20"
 		"tall"			"20"
 		//		"3"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"font"			"HudFontMediumSmallBold"
@@ -84,8 +81,6 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"GreenSolid"

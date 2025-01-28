@@ -17,7 +17,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
@@ -34,7 +33,6 @@
 		"wide"			"f0"
 		"tall"			"30"
 		"zpos"			"10"
-		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -105,7 +103,6 @@
 			"wide"			"f0"
 			"tall"			"100"
 			"zpos"			"10"
-			"visible"		"1"
 			"proportionaltoparent"	"1"
 
 			"font"			"AdFont_AdText"
@@ -127,7 +124,6 @@
 		"zpos"			"9"
 		"wide"			"o1.5"
 		"tall"			"p.9"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"proportionaltoparent"	"1"
@@ -177,9 +173,6 @@
 		"defaultBgColor_override"	"72 103 32 255"
 		"armedBgColor_override"		"72 133 32 255"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"MarketButton"
@@ -209,8 +202,5 @@
 		"defaultBgColor_override"	"72 103 32 255"
 		"armedBgColor_override"		"72 133 32 255"
 
-		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 }

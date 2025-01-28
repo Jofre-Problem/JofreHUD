@@ -9,7 +9,6 @@
 		"wide"			"320"
 		"tall"			"150"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"PaintBackgroundType"	"2"
@@ -29,7 +28,6 @@
 		"wide"			"320"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 	}
 	
@@ -38,7 +36,6 @@
 		"ControlName"	"TextEntry"
 		"fieldName"		"URLInput"
 		"maxchars"		"255"
-		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
 		"xpos"			"60"
@@ -47,7 +44,6 @@
 		"wide"			"200"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"fgcolor_override"		"0 0 0 255"
@@ -68,7 +64,6 @@
 		"wide"			"200"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"10"
 		"editable"		"0"
@@ -87,7 +82,6 @@
 		"wide"			"90"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Cancel"
@@ -96,8 +90,6 @@
 		"textinsetx"	"50"
 		"brighttext"	"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
 	"RulesButton"
@@ -110,7 +102,6 @@
 		"wide"			"90"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_Rules"
@@ -119,8 +110,6 @@
 		"textinsetx"	"50"
 		"brighttext"	"1"
 		"Command"		"rules"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 	
 	"SubmitButton"
@@ -133,7 +122,6 @@
 		"wide"			"90"
 		"tall"			"20"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_Submit"
@@ -141,7 +129,5 @@
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"submit"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 }

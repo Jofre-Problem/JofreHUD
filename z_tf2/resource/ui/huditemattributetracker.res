@@ -3,7 +3,6 @@
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
-		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -72,7 +71,6 @@
 			"zpos"			"0"
 			"wide"			"o1"
 			"tall"			"p0.8"
-			"visible"		"1"
 			"enabled"		"1"
 			"image"			"tf2_folder_icon"
 			"scaleImage"	"1"	

@@ -86,7 +86,6 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"	"1"
 		"enabled"	"1"
 
 		"NonInteractiveHeaders"
@@ -98,7 +97,6 @@
 			"zpos"		"2"
 			"wide"		"f0"
 			"tall"		"480"
-			"visible"	"1"
 			"enabled"	"1"
 	
 			"BarChartLabelA"
@@ -115,7 +113,6 @@
 				"wide"			"170" [$X360]
 				"tall"			"20"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}
 			"BarChartLabelB"
@@ -131,7 +128,6 @@
 				"wide"			"150"
 				"tall"			"20"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}			
 			"OverallRecordLabel"
@@ -147,7 +143,6 @@
 				"wide"			"200"
 				"tall"			"20"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 			}				
 		}
@@ -160,7 +155,6 @@
 			"zpos"		"2"
 			"wide"		"f0"
 			"tall"		"480"
-			"visible"	"1"
 			"enabled"	"1"
 
 			"BarChartComboA"
@@ -173,14 +167,10 @@
 				"wide"		"154"
 				"tall"		"14"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				//		"1"
-				"textHidden"		"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
-				"unicode"		"0"
 			}
 			"BarChartComboB"
 			{
@@ -192,14 +182,10 @@
 				"wide"		"154"
 				"tall"		"14"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				//		"1"
-				"textHidden"		"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
-				"unicode"		"0"
 			}
 			"ClassCombo"
 			{
@@ -211,14 +197,10 @@
 				"wide"		"167"
 				"tall"		"14"
 				//		"0"
-				"visible"		"1"
 				"enabled"		"1"
 				//		"1"
-				"textHidden"		"0"
 				"editable"		"0"
 				"maxchars"		"-1"
-				"NumericInputOnly"		"0"
-				"unicode"		"0"
 			}
 		}
 		"AveragesBG"
@@ -230,7 +212,6 @@
 			"wide"			"406"
 			"tall"			"300"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFThinLineBorder"
 		}
@@ -247,7 +228,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"ClassBarBG1A"
@@ -260,7 +240,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -276,7 +255,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -292,7 +270,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"162 148 135 255"
@@ -308,7 +285,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"162 148 135 255"
@@ -327,7 +303,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel1B"
@@ -343,7 +318,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel1"
@@ -359,7 +333,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG2A"
@@ -372,7 +345,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -388,7 +360,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -404,7 +375,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"93 60 27 255"
@@ -420,7 +390,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"93 60 27 255"
@@ -439,7 +408,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel2B"
@@ -455,7 +423,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel2"
@@ -471,7 +438,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG3A"
@@ -484,7 +450,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -500,7 +465,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -516,7 +480,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"134 93 39 255"
@@ -532,7 +495,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"134 93 39 255"
@@ -551,7 +513,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel3B"
@@ -567,7 +528,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel3"
@@ -583,7 +543,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG4A"
@@ -596,7 +555,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -612,7 +570,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -628,7 +585,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"207 147 95 255"
@@ -644,7 +600,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"207 147 95 255"
@@ -663,7 +618,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel4B"
@@ -679,7 +633,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel4"
@@ -695,7 +648,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG5A"
@@ -708,7 +660,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -724,7 +675,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -740,7 +690,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"226 184 146 255"
@@ -756,7 +705,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"226 184 146 255"
@@ -775,7 +723,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel5B"
@@ -791,7 +738,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel5"
@@ -807,7 +753,6 @@
 			"wide"			"282"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG6A"
@@ -820,7 +765,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -836,7 +780,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -852,7 +795,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"162 148 135 255"
@@ -868,7 +810,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"162 148 135 255"
@@ -887,7 +828,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel6B"
@@ -903,7 +843,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel6"
@@ -919,7 +858,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarBG7A"
@@ -932,7 +870,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -948,7 +885,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -964,7 +900,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"93 60 27 255"
@@ -980,7 +915,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"93 60 27 255"
@@ -999,7 +933,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel7B"
@@ -1015,7 +948,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel7"
@@ -1031,7 +963,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}		
 		"ClassBarBG8A"
@@ -1044,7 +975,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -1060,7 +990,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -1076,7 +1005,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"134 93 39 255"
@@ -1092,7 +1020,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"134 93 39 255"
@@ -1111,7 +1038,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel8B"
@@ -1127,7 +1053,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel8"
@@ -1143,7 +1068,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}		
 		"ClassBarBG9A"
@@ -1156,7 +1080,6 @@
 			"wide"			"312"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -1172,7 +1095,6 @@
 			"wide"			"70"
 			"tall"			"16"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -1188,7 +1110,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"207 147 95 255"
@@ -1204,7 +1125,6 @@
 			"wide"			"151"
 			"tall"			"12"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"207 147 95 255"
@@ -1223,7 +1143,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassBarLabel9B"
@@ -1239,7 +1158,6 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}				
 		"ClassLabel9"
@@ -1255,7 +1173,6 @@
 			"wide"			"300"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}		
 		"RecordsBG"
@@ -1267,7 +1184,6 @@
 			"wide"			"200"
 			"tall"			"260"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFThinLineBorder"
 		}
@@ -1298,7 +1214,6 @@
 			"wide"			"167"
 			"tall"			"157"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"0 0 0 80"
@@ -1334,7 +1249,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord1Value"
@@ -1350,7 +1264,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord2Label"
@@ -1366,7 +1279,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord2Value"
@@ -1382,7 +1294,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord3Label"
@@ -1398,7 +1309,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord3Value"
@@ -1414,7 +1324,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord4Label"
@@ -1430,7 +1339,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord4Value"
@@ -1446,7 +1354,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord5Label"
@@ -1462,7 +1369,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord5Value"
@@ -1478,7 +1384,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord6Label"
@@ -1494,7 +1399,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord6Value"
@@ -1510,7 +1414,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord7Label"
@@ -1526,7 +1429,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord7Value"
@@ -1542,7 +1444,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord8Label"
@@ -1558,7 +1459,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord8Value"
@@ -1574,7 +1474,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord9Label"
@@ -1590,7 +1489,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord9Value"
@@ -1606,7 +1504,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord10Label"
@@ -1622,7 +1519,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord10Value"
@@ -1638,7 +1534,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord11Label"
@@ -1654,7 +1549,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord11Value"
@@ -1670,7 +1564,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord12Label"
@@ -1686,7 +1579,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord12Value"
@@ -1702,7 +1594,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord13Label"
@@ -1718,7 +1609,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord13Value"
@@ -1734,7 +1624,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord14Label"
@@ -1750,7 +1639,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord14Value"
@@ -1766,7 +1654,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 		"OverallRecord15Label"
@@ -1782,7 +1669,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}							
 		"OverallRecord15Value"
@@ -1798,7 +1684,6 @@
 			"wide"			"200"
 			"tall"			"20"
 			//		"0"
-			"visible"		"1"
 			"enabled"		"1"
 		}
 	}
@@ -1829,7 +1714,6 @@
 		"wide"			"350"
 		"tall"			"48"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 	}
@@ -1843,7 +1727,6 @@
 		"wide"			"90"
 		"tall"			"15"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_NextTip"
@@ -1860,7 +1743,6 @@
 		"wide"			"150"
 		"tall"			"30"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_ResetStats"

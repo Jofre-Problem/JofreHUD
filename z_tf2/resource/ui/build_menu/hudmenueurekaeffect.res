@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"170"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
@@ -25,7 +24,6 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
@@ -41,7 +39,6 @@
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
-		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
@@ -60,7 +57,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"Left"
@@ -79,7 +75,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"Left"
@@ -98,7 +93,6 @@
 		"tall"			"13"
 		//	"0"
 		//		"0"
-		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
@@ -113,7 +107,6 @@
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
 	}	
 	
 	"available_target_2"
@@ -125,7 +118,6 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"124"
-		"visible"		"1"
 	}	
 
 	"unavailable_target_1"
