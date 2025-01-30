@@ -20,7 +20,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"6"
 				//"weight"	"0"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -32,7 +32,7 @@ Scheme
 				"tall"		"44"
 				////"tall_lodef"	"52"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -44,7 +44,7 @@ Scheme
 				"tall"		"35"
 				////"tall_lodef"	"40"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -55,7 +55,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"30"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}	
@@ -66,7 +66,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"24"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -78,7 +78,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"18"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}	
@@ -89,7 +89,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -100,7 +100,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"10"
 				//"weight"	"600"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}	
@@ -111,7 +111,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -122,7 +122,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"16"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -141,7 +141,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"12"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 				//"dropshadow"	"1"
 			}
@@ -226,7 +226,7 @@ Scheme
 				"tall"		"8"
 				//"weight"	"400"
 				//"antialias" "1"
-				//"additive"	"0"
+				//
 			}
 		}
 		"AdFont_PurchaseButton"
@@ -246,7 +246,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 			
 				//"antialias" "1"
 			}
@@ -258,7 +258,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"0"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -277,7 +277,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"0"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}	
@@ -288,7 +288,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -311,7 +311,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -365,7 +365,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"9"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -384,7 +384,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -414,7 +414,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"600"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}		
@@ -425,7 +425,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -436,7 +436,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		

@@ -511,7 +511,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"6"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -533,7 +533,7 @@ Scheme
 				"tall"		"24"
 				
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 				//"yres""		"480 599"
 			}
@@ -547,7 +547,7 @@ Scheme
 				"tall"		"36"
 				////"tall_hidef"	"48"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -558,7 +558,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"30"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}		
@@ -570,7 +570,7 @@ Scheme
 				"tall"		"24"
 				////"tall_lodef"		"28"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -581,7 +581,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"24"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -625,7 +625,7 @@ Scheme
 //				"name"		"Segoe UI"
 //				"tall"		"14"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 //			}
 //		}
@@ -636,7 +636,7 @@ Scheme
 //				"name"		"Segoe UI"
 //				"tall"		"14"
 //				//"weight"	"500"
-//				//"additive"	"0"
+//				//
 //				//"antialias" "1"
 //				//"dropshadow"	"1"
 //			}
@@ -648,7 +648,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -659,7 +659,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"4"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -670,7 +670,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"10"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -750,7 +750,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -778,7 +778,7 @@ Scheme
 				"tall"		"8"
 				////"tall_hidef"	"7"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -836,7 +836,7 @@ Scheme
 				////"weight"	"900"
 				//"range"		"0x0000 0x007F"	//	Basic Latin
 				//"antialias" "1"
-				//"additive"	"0"
+				//
 			}
 		}
 
@@ -968,7 +968,7 @@ Scheme
 				////"tall_hidef"	"14"
 				////"tall_lodef"	"17"
 				//"weight"	"800"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}		
@@ -1080,7 +1080,7 @@ Scheme
 				//"weight"	"500"
 				//"range"		"0x0000 0x007F"	//	Basic Latin
 				//"antialias" "1"
-				//"additive"	"0"
+				//
 			}
 		}
 
@@ -1092,7 +1092,7 @@ Scheme
 				"tall"		"36"
 				////"tall_hidef"	"48"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1118,7 +1118,7 @@ Scheme
 				//"weight"	"500"
 				//"range"		"0x0000 0x007F"	//	Basic Latin
 				//"antialias" "1"
-				//"additive"	"0"
+				//
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -1128,7 +1128,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1139,7 +1139,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"20"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1150,7 +1150,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1169,7 +1169,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1373,7 +1373,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"36"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1385,7 +1385,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"18"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}			
@@ -1407,7 +1407,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1429,7 +1429,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"12"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1440,7 +1440,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"18"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1451,7 +1451,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"7"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -1472,7 +1472,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"8"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -1483,7 +1483,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"11"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}	
@@ -1494,7 +1494,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" 	"1"
 			}
 		}
@@ -1619,7 +1619,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1639,7 +1639,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"24"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1652,7 +1652,7 @@ Scheme
 				////"tall_hidef"	"24"
 				////"tall_lodef"	"20"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1667,7 +1667,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1678,7 +1678,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"24"
 				//"weight"	"500"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1692,7 +1692,7 @@ Scheme
 				//"weight"	"500"
 				//"range"		"0x0000 0x007F"	//	Basic Latin
 				//"antialias" "1"
-				//"additive"	"0"
+				//
 			}
 		}
 
@@ -1708,7 +1708,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"10"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1720,7 +1720,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"14"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}
@@ -1732,7 +1732,7 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"30"
 				//"weight"	"400"
-				//"additive"	"0"
+				//
 				//"antialias" "1"
 			}
 		}

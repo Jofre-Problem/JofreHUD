@@ -291,7 +291,8 @@
 			"2" "purple" //ammo
 			"3" "QualityColorComplete" //disguise
 			"4" "yellow"
-		}		
+			"5" "blue"
+		}			
 	}
 	"TargetDataAnchor"
 	{

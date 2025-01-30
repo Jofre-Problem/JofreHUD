@@ -132,7 +132,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"6"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}		
@@ -144,7 +144,7 @@ Scheme
 				"name"		"blocks blocks" 
 				"tall"		"200"
 				"antialias" "1"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}		
@@ -155,7 +155,7 @@ Scheme
 				"name"		"blocks blocks" 
 				"tall"		"30"
 				"antialias" "1"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}				

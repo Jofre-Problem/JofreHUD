@@ -1111,7 +1111,7 @@ Scheme
 				"name"		"Open Sans Bold"
 				"tall"		"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -1122,7 +1122,7 @@ Scheme
 				"name"		"Open Sans Bold"
 				"tall"		"13"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -1133,7 +1133,7 @@ Scheme
 				"name"		"Open Sans Bold"
 				"tall"		"16"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -1144,7 +1144,7 @@ Scheme
 				"name"		"Open Sans Bold"
 				"tall"		"18"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -1165,7 +1165,7 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"7"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" 	"1"
 			}
 		}
@@ -1176,7 +1176,7 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"8"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" 	"1"
 			}
 		}
@@ -1187,7 +1187,7 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" 	"1"
 			}
 		}	
@@ -1198,7 +1198,7 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"14"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias" 	"1"
 			}
 		}

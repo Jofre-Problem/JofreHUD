@@ -21,7 +21,7 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"32"
 				"tall_lodef"	"80"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 			"2"
@@ -29,28 +29,28 @@ Scheme
 				"name"		"Open Sans"
 				"tall"		"44"
 				"tall_hidef"	"120"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 			"3"
 			{
 				"name"		"Open Sans"
 				"tall"		"48"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 			"4"
 			{
 				"name"		"Open Sans"
 				"tall"		"52"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 			"5"
 			{
 				"name"		"Open Sans"
 				"tall"		"72"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -60,7 +60,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"64"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -71,7 +71,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"48"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -82,7 +82,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"44"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -92,7 +92,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"36"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}	
@@ -102,7 +102,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"36"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}		
@@ -112,7 +112,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"32"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -122,7 +122,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"32"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -132,7 +132,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"32"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -142,7 +142,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"28"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -152,7 +152,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"28"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -162,7 +162,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"28"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -172,7 +172,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"14"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}	
@@ -182,7 +182,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"16"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -192,7 +192,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"14"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -202,7 +202,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"14"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -212,7 +212,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -222,7 +222,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -232,7 +232,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -242,7 +242,7 @@ Scheme
 			{
 				"name"		"Open Sans Bold"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -252,7 +252,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -262,7 +262,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"10"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -272,7 +272,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"16"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -282,7 +282,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -292,7 +292,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"10"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -302,7 +302,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"8"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -312,7 +312,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"12"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}
@@ -322,7 +322,7 @@ Scheme
 			{
 				"name"		"Open Sans"
 				"tall"		"11"
-				"additive"	"0"
+				
 				"antialias" "1"
 			}
 		}

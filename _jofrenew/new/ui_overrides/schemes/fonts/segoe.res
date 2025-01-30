@@ -9,7 +9,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"10"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -19,7 +19,7 @@ Scheme
 			{
 				"name"	"Segoe UI"
 				"tall"	"7"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -32,7 +32,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"yres"	"480 599"
 			}
@@ -41,7 +41,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"32"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"yres"	"600 767"
 			}
@@ -50,7 +50,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"44"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"yres"	"768 1023"
 			}
@@ -59,7 +59,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"48"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"yres"	"1024 1199"
 			}
@@ -68,7 +68,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"52"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"yres"	"1200 6000"
 			}
@@ -81,7 +81,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"35"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -93,7 +93,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"36"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -104,7 +104,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"30"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -115,7 +115,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -126,7 +126,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -137,7 +137,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -148,7 +148,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -159,7 +159,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -170,7 +170,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -181,7 +181,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"16"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -192,7 +192,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -203,7 +203,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -214,7 +214,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -225,7 +225,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"10"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -236,7 +236,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"9"
 				"weight"	"0"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -247,7 +247,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"9"
 				"weight"	"0"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -258,7 +258,7 @@ Scheme
 				"name"	"Verdana"
 				"tall"	"6"
 				"weight"	"0"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -269,7 +269,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -341,7 +341,7 @@ Scheme
 				"name"	"tfd" // tfd.ttf
 				"tall"	"28"
 				"weight"	"0"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -410,7 +410,7 @@ Scheme
 				"name"	"Verdana"
 				"tall"	"6"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -421,7 +421,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -432,7 +432,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"10"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -445,7 +445,7 @@ Scheme
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardMedium"
@@ -457,7 +457,7 @@ Scheme
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardTeamName"
@@ -469,7 +469,7 @@ Scheme
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"ScoreboardTeamScore"
@@ -529,7 +529,7 @@ Scheme
 				"weight"	"500"
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 		"MatchSummaryStatsAndMedals"
@@ -539,7 +539,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -550,7 +550,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"20"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -561,7 +561,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -608,7 +608,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"9"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -637,7 +637,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -648,7 +648,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"12"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -659,7 +659,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -670,7 +670,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -681,7 +681,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -692,7 +692,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -704,7 +704,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"9"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -783,7 +783,7 @@ Scheme
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
@@ -791,7 +791,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -800,7 +800,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -814,7 +814,7 @@ Scheme
 				"tall"	"10"
 				"weight"	"800"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
@@ -822,7 +822,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"800"
-				"additive"	"0"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -831,7 +831,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"800"
-				"additive"	"0"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -844,7 +844,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"16"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -869,7 +869,7 @@ Scheme
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
@@ -877,7 +877,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -886,7 +886,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"22"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -900,7 +900,7 @@ Scheme
 				"tall"	"10"
 				"weight"	"400"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"italic"	"1"
 			}
@@ -909,7 +909,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 				"italic"	"1"
@@ -919,7 +919,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"22"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 				"italic"	"1"
@@ -934,7 +934,7 @@ Scheme
 				"tall"	"10"
 				"weight"	"800"
 				"yres"	"480 599"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 			"2"
@@ -942,7 +942,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"800"
-				"additive"	"0"
+				
 				"yres"	"600 1023"
 				"antialias"	"1"
 			}
@@ -951,7 +951,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"18"
 				"weight"	"800"
-				"additive"	"0"
+				
 				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
@@ -964,7 +964,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"13"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -976,7 +976,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"16"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -988,7 +988,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"10"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1000,7 +1000,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"8"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1023,7 +1023,7 @@ Scheme
 				"tall"	"8"
 				"weight"	"400"
 				"antialias"	"1"
-				"additive"	"0"
+				
 			}
 		}
 
@@ -1035,7 +1035,7 @@ Scheme
 				"tall"	"9"
 				"weight"	"400"
 				"antialias"	"1"
-				"additive"	"0"
+				
 				"italic"	"1"
 			}
 		}
@@ -1050,7 +1050,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"11"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1065,7 +1065,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1076,7 +1076,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"24"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1088,7 +1088,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"9"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1100,7 +1100,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"12"
 				"weight"	"500"
-				"additive"	"0"
+				
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -1126,7 +1126,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"7"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1138,7 +1138,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"10"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1150,7 +1150,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"14"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -1162,7 +1162,7 @@ Scheme
 				"name"	"Segoe UI"
 				"tall"	"30"
 				"weight"	"400"
-				"additive"	"0"
+				
 				"antialias"	"1"
 			}
 		}
