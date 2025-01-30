@@ -146,7 +146,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_SoundEffectVolume"
-		"associate"		"SFXSlider"
 	}
 	"MusicVolumeLabel"
 	{
@@ -160,7 +159,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_MusicVolume"
-		"associate"		"MusicSlider"
 	}
 	"SoundQualityLabel"
 	{
@@ -174,7 +172,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_SoundQuality"
-		"associate"		"SoundQuality"
 	}
 	"SpeakerConfigLabel"
 	{
@@ -188,7 +185,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_SpeakerConfiguration"
-		"associate"		"SpeakerSetup"
 	}
 	"TestSpeakersWarning"
 	{
@@ -233,6 +229,5 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_Captioning"
-		"associate"		"CloseCaptionCheck"
 	}
 }

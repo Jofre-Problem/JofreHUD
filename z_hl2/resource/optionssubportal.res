@@ -51,7 +51,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_PortalDepthLabel"
-		"associate"		"PortalDepth"
 	}
 	"BuildModeDialog"
 	{

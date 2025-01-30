@@ -6,31 +6,21 @@
 
 	{
 
-		"ControlName"		"CSubPanelFindBuddyResults"
 
-		"fieldName"		"SubPanelFindBuddyResults"
 
-		"xpos"		"5"
 
-		"ypos"		"29"
 
-		"wide"		"470"
 
-		"tall"		"291"
 
 		//"autoResize"		"0"
 
 		//"pinCorner"		"0"
 
-		"visible"		"1"
 
-		"enabled"		"1"
 
 		//		"1"
 
-		"WizardWide"		"0"
 
-		"WizardTall"		"0"
 
 	}
 
@@ -38,25 +28,17 @@
 
 	{
 
-		"ControlName"		"ListPanel"
 
-		"fieldName"		"Table"
 
-		"xpos"		"16"
 
-		"ypos"		"68"
 
-		"wide"		"440"
 
-		"tall"		"208"
 
 		//"autoResize"		"0"
 
 		//"pinCorner"		"0"
 
-		"visible"		"1"
 
-		"enabled"		"1"
 
 		//		"1"
 
@@ -66,37 +48,26 @@
 
 	{
 
-		"ControlName"		"Label"
 
-		"fieldName"		"InfoText"
 
-		"xpos"		"16"
 
-		"ypos"		"12"
 
-		"wide"		"412"
 
-		"tall"		"44"
 
 		//"autoResize"		"0"
 
 		//"pinCorner"		"0"
 
-		"visible"		"1"
 
-		"enabled"		"1"
 
 		//		"0"
 
-		"labelText"		"#TrackerUI_SelectFriendFromList"
 
-		"textAlignment"		"west"
 
 		////		"0"
 
 		////		"0"
 
-		"wrap"		"1"
 
 	}
 

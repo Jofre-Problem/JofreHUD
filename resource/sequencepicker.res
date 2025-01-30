@@ -3,7 +3,6 @@
 	"SequencePicker"
 	{
 		"ControlName"	"CSequencePicker"
-		"fieldName"		"SequencePicker"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,13 +14,11 @@
 		"PreviewSplitter"
 		{
 			"ControlName"	"Splitter"
-			"fieldName"		"PreviewSplitter"
 			"child0"
 			{
 				"MDLPreview"
 				{
 					"ControlName"	"MDLPanel"
-					"fieldName"		"MDLPreview"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"
@@ -41,7 +38,6 @@
 				"ViewsSheet"
 				{
 					"ControlName"	"PropertySheet"
-					"fieldName"		"ViewsSheet"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"

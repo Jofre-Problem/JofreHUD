@@ -19,7 +19,6 @@
 	"ChangeGameDialog"
 	{
 		"ControlName"		"CBugUIPanel"
-		"fieldName"		"ChangeGameDialog"
 
 		"wide"		"245"
 		"tall"		"300"
@@ -27,7 +26,6 @@
 	"Line1"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"Line1"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"5"
@@ -40,7 +38,6 @@
 	"SliderLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"SliderLabel"
 		"xpos"		"10"
 		"ypos"		"40"
 		"wide"		"60"
@@ -51,7 +48,6 @@
 	"ChatLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"ChatLabel"
 		"xpos"		"-1"
 		"ypos"		"-25"
 		"wide"		"25"
@@ -64,7 +60,6 @@
 	"ChatSlider"
 	{
 		"ControlName"		"CCVarSlider"
-		"fieldName"		"ChatSlider"
 		"xpos"		"5"
 		"ypos"		"-2"
 		"wide"		"190"
@@ -82,7 +77,6 @@
 	"DeathLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"DeathLabel"
 		"xpos"		"0"
 		"ypos"		"-30"
 		"zpos"		"111"
@@ -96,7 +90,6 @@
 	"DeathSlider"
 	{
 		"ControlName"		"CCVarSlider"
-		"fieldName"		"DeathSlider"
 		"xpos"		"5"
 		"ypos"		"-5"
 		"wide"		"190"

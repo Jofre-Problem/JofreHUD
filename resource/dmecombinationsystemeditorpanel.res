@@ -3,7 +3,6 @@
 	"EditorSheet"
 	{
 		"ControlName"	"PropertySheet"
-		"fieldName"		"EditorSheet"
 		"xpos"			"0"
 		"ypos"			"00"
 		"wide"			"463"

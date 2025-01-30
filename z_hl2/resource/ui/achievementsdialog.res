@@ -50,7 +50,6 @@
 		"ypos"		"136"
 		"wide"		"600"
 		"tall"		"268"
-		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
 		//		"0"
 		//		"3"
@@ -63,7 +62,6 @@
 		"ypos"		"67"
 		"wide"		"584"
 		"tall"		"16"
-		"fillcolor"	"79 79 79 255"
 		"zpos"	"-2"
 		"visible"		"0"
 	}
@@ -75,7 +73,6 @@
 		"ypos"		"67"
 		"wide"		"0"
 		"tall"		"16"
-		"fillcolor"	"157 194 80 255"
 		"zpos"	"-1"
 		"visible"		"0"
 	}
@@ -93,7 +90,6 @@
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
-		"fillcolor"	"255 255 255 255"
 	}
 	
 	"achievement_pack_combo"
@@ -112,7 +108,6 @@
 		"ypos"		"42"
 		"wide"		"600"
 		"tall"		"50"
-		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
 	}
 	
@@ -127,7 +122,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Achievements_Earned"
-		"fillcolor"	"255 255 255 255"
 	}
 	
 	"HideAchieved"

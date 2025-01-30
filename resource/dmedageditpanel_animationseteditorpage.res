@@ -3,7 +3,6 @@
 	"AnimationSetEditor"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"AnimationSetEditor"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"AnimationSetEditorPanel"
 		{
 			"ControlName"	"CDmeCombinationOperatorPanel2"
-			"fieldName"		"AnimationSetEditorPanel"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"

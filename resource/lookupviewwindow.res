@@ -2,7 +2,6 @@
 {
 	"LookupViewPanel"
 	{
-		"fieldName"	"LookupViewPanel"
 		"xpos"		"10"
 		"ypos"		"32"
 		"wide"		"128"

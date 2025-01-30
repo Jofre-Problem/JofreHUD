@@ -197,7 +197,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_JoystickLookSpeedYaw"
-		"associate"		"Slider"
 	}
 	"JoystickPitchSlider"
 	{
@@ -225,7 +224,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_JoystickLookSpeedPitch"
-		"associate"		"Slider"
 	}
 	"JoystickYawSensitivityLabel"
 	{
@@ -269,7 +267,6 @@
 		//"RoundedCorners"		"15"
 		//		"0"
 		"labelText"		"#GameUI_MouseSensitivity"
-		"associate"		"Slider"
 	}
 	"Label1"
 	{

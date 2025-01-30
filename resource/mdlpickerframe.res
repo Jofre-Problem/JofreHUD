@@ -3,7 +3,6 @@
 	"AssetPickerFrame"
 	{
 		"ControlName"	"CMDLPickerFrame"
-		"fieldName"		"AssetPickerFrame"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
@@ -15,7 +14,6 @@
 		"OpenButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OpenButton"
 			"xpos"		"10"
 			"ypos"		"450"
 			"wide"		"130"
@@ -31,7 +29,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"160"
 			"ypos"		"450"
 			"wide"		"130"
@@ -47,7 +44,6 @@
 		"AssetPicker"
 		{
 			"ControlName"	"CMDLPicker"
-			"fieldName"		"AssetPicker"
 			"xpos"			"0"
 			"ypos"			"28"
 			"wide"			"640"

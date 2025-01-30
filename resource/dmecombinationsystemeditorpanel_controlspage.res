@@ -3,7 +3,6 @@
 	"CombinationControls"
 	{
 		"ControlName"	"CDmeCombinationControlsPanel"
-		"fieldName"		"CombinationControls"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"ControlsSplitter"
 		{
 			"ControlName"	"Splitter"
-			"fieldName"		"ControlsSplitter"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -28,7 +26,6 @@
 				"ControlList"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"ControlList"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"
@@ -48,7 +45,6 @@
 				"RawControlList"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"RawControlList"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"

@@ -3,7 +3,6 @@
 	"AnimationListPanel"
 	{
 		"ControlName"	"CDmeAnimationListPanel"
-		"fieldName"		"AnimationListPanel"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -19,7 +18,6 @@
 		"AnimationList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"AnimationList"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"256"

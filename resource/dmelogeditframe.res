@@ -3,7 +3,6 @@
 	"DmeLogEditFrame"
 	{
 		"ControlName"	"CDmeLogEditFrame"
-		"fieldName"		"DmeLogEditFrame"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"LogFilter"
 		{
 			"ControlName"		"ComboBox"
-			"fieldName"		"LogFilter"
 			"xpos"		"6"
 			"ypos"		"298"
 			"wide"		"256"
@@ -32,7 +30,6 @@
 		"OkButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OkButton"
 			"xpos"		"6"
 			"ypos"		"328"
 			"wide"		"122"
@@ -48,7 +45,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"140"
 			"ypos"		"328"
 			"wide"		"122"
@@ -64,7 +60,6 @@
 		"DmeLogEditPanel"
 		{
 			"ControlName"	"CDmeLogEditPanel"
-			"fieldName"		"DmeLogEditPanel"
 			"xpos"			"6"
 			"ypos"			"34"
 			"wide"			"256"

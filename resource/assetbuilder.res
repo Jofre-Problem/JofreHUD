@@ -3,7 +3,6 @@
 	"AssetBuilder"
 	{
 		"ControlName"	"CAssetBuilder"
-		"fieldName"		"AssetBuilder"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"InputOutputSheet"
 		{
 			"ControlName"	"PropertySheet"
-			"fieldName"		"InputOutputSheet"
 			"xpos"			"0"
 			"ypos"			"00"
 			"wide"			"463"
@@ -32,7 +30,6 @@
 		"CompileButton"
 		{
 			"ControlName"	"Button"
-			"fieldName"		"CompileButton"
 			"xpos"			"0"
 			"ypos"			"60"
 			"wide"			"120"
@@ -47,7 +44,6 @@
 		"PublishButton"
 		{
 			"ControlName"	"Button"
-			"fieldName"		"PublishButton"
 			"xpos"			"124"
 			"ypos"			"60"
 			"wide"			"120"
@@ -62,7 +58,6 @@
 		"CompileStatus"
 		{
 			"ControlName"	"CCompileStatusBar"
-			"fieldName"		"CompileStatus"
 			"xpos"			"248"
 			"ypos"			"60"
 			"wide"			"120"
@@ -78,7 +73,6 @@
 		"AbortCompileButton"
 		{
 			"ControlName"	"Button"
-			"fieldName"		"AbortCompileButton"
 			"xpos"			"130"
 			"ypos"			"60"
 			"wide"			"120"

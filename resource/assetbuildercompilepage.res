@@ -3,7 +3,6 @@
 	"CompilePage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"CompilePage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"CompileOutputLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"CompileOutputLabel"
 			"xpos"			"12"
 			"ypos"			"6"
 			"wide"			"100"
@@ -31,7 +29,6 @@
 		"CompileOutput"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"CompileOutput"
 			"xpos"		"6"
 			"ypos"		"30"
 			"wide"		"390"

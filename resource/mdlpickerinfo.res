@@ -3,7 +3,6 @@
 	"InfoPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"InfoPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"PhysicsObject"
 		{
 			"ControlName"		"CheckButton"
-			"fieldName"		"PhysicsObject"
 			"xpos"		"6"
 			"ypos"		"6"
 			"wide"		"216"
@@ -32,7 +30,6 @@
 		"DynamicObject"
 		{
 			"ControlName"		"CheckButton"
-			"fieldName"		"DynamicObject"
 			"xpos"		"100"
 			"ypos"		"6"
 			"wide"		"216"
@@ -49,7 +46,6 @@
 		"StaticObject"
 		{
 			"ControlName"		"CheckButton"
-			"fieldName"		"StaticObject"
 			"xpos"		"6"
 			"ypos"		"28"
 			"wide"		"216"
@@ -66,7 +62,6 @@
 		"StaticText"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"StaticText"
 			"xpos"		"100"
 			"ypos"		"28"
 			"wide"		"216"
@@ -83,7 +78,6 @@
 		"Mass"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"Mass"
 			"xpos"		"6"
 			"ypos"		"50"
 			"wide"		"216"
@@ -99,7 +93,6 @@
 		"MassValue"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"MassValue"
 			"xpos"		"50"
 			"ypos"		"50"
 			"wide"		"216"

@@ -96,7 +96,6 @@
 			"ypos"			"50"
 			"wide"			"180"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
 		}
 		
@@ -124,7 +123,6 @@
 			"wide"			"180"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 		}
 		
 		"Option1CountLabel"
@@ -162,7 +160,6 @@
 			"wide"			"180"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 		}
 		
 		"Option2CountLabel"
@@ -200,7 +197,6 @@
 			"wide"			"180"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 		}
 		
 		"LabelOption4"
@@ -225,7 +221,6 @@
 			"wide"			"180"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 		}
 		
 		"LabelOption5"
@@ -250,7 +245,6 @@
 			"wide"			"180"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
 		}
 		
 		// divider
@@ -261,7 +255,6 @@
 			"ypos"			"100"
 			"wide"			"180"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
 			"zpos"			"0"
 		}
 		

@@ -108,7 +108,6 @@
 		//		"2"
 		//		"0"
 		"labelText"		"Everything"
-		"SubTabPosition"		"1"
 	}
 	"PointRadio"
 	{
@@ -121,7 +120,6 @@
 		//		"2"
 		//		"0"
 		"labelText"		"Point"
-		"SubTabPosition"		"2"
 	}
 	"BrushRadio"
 	{
@@ -134,7 +132,6 @@
 		//		"2"
 		//		"0"
 		"labelText"		"Brush"
-		"SubTabPosition"		"3"
 	}
 	"HiddenCheck"
 	{

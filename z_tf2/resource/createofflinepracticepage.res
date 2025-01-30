@@ -38,7 +38,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Map"
-		"associate"		"MapList"
 	}
 
 	"MapDivider"
@@ -67,7 +66,6 @@
 		//		"0"
 		"labelText"		"%gametype%"
 		"textAlignment"		"center"
-		"associate"		"MapList"
 	}
 	"MapImageContainer"
 	{
@@ -187,7 +185,6 @@
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty3"
 		"textAlignment"		"east"
-		"SubTabPosition"		"3"
 	}
 	"SkillLevel2"
 	{
@@ -202,7 +199,6 @@
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty2"
 		"textAlignment"		"center"
-		"SubTabPosition"		"3"
 	}
 	"SkillLevel1"
 	{
@@ -217,7 +213,6 @@
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty1"
 		"textAlignment"		"center"
-		"SubTabPosition"		"2"
 	}
 	"SkillLevel0"
 	{
@@ -231,6 +226,5 @@
 		//		"0"
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty0"
-		"SubTabPosition"		"1"
 	}
 }

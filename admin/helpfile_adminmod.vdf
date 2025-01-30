@@ -2,7 +2,6 @@
 {
 	"allow_client_exec"
 	{
-		"text"	"allow_client_exec: This controls whether or not the execclient() scripting function is enabled in the Admin Mod DLL. If enabled, execclient() is enabled; if disabled, execclient() is disabled. Enabling execclient() functionality allows scripts to execute commands remotely on players."
 	}
 	"default_access "
 	{

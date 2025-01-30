@@ -3,7 +3,6 @@
 	"WavPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"WavPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -19,7 +18,6 @@
 		"AssetSplitter"
 		{
 			"ControlName"	"Splitter"
-			"fieldName"		"AssetSplitter"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -32,7 +30,6 @@
 				"ModFilterLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"ModFilterLabel"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"65"
@@ -49,7 +46,6 @@
 				"ModFilter"
 				{
 					"ControlName"	"ComboBox"
-					"fieldName"		"ModFilter"
 					"xpos"			"75"
 					"ypos"			"6"
 					"wide"			"256"
@@ -69,7 +65,6 @@
 				"RescanButton"
 				{
 					"ControlName"	"Button"
-					"fieldName"		"RescanButton"
 					"xpos"			"212"
 					"ypos"			"6"
 					"wide"			"60"
@@ -86,7 +81,6 @@
 				"FolderFilter"
 				{
 					"ControlName"	"CAssetTreeView"
-					"fieldName"		"FolderFilter"
 					"xpos"			"6"
 					"ypos"			"36"
 					"wide"			"65"
@@ -104,7 +98,6 @@
 				"AssetBrowser"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"AssetBrowser"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"
@@ -119,7 +112,6 @@
 				"FullPathLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"FullPathLabel"
 					"xpos"			"6"
 					"ypos"			"210"
 					"wide"			"65"
@@ -137,7 +129,6 @@
 				"FullPath"
 				{
 					"ControlName"	"TextEntry"
-					"fieldName"		"FullPath"
 					"xpos"			"6"
 					"ypos"			"210"
 					"wide"			"75"
@@ -157,7 +148,6 @@
 				"FilterLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"FilterLabel"
 					"xpos"			"6"
 					"ypos"			"210"
 					"wide"			"65"
@@ -175,7 +165,6 @@
 				"FilterList"
 				{
 					"ControlName"	"TextEntry"
-					"fieldName"		"FilterList"
 					"xpos"			"70"
 					"ypos"			"210"
 					"wide"			"256"

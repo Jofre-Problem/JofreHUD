@@ -137,10 +137,9 @@ Scheme
 		{
 			"1"	
 			{
-				"name"		"TF2 Build"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"500"
-				"antialias" "1"
+				//"antialias" "1"
 			}
 		}
 
@@ -148,10 +147,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Segoe UI"
 				"tall"		"35"
-				"weight"	"500"
-				"antialias" "1"
+				//"antialias" "1"
 			}
 		}
 
@@ -161,39 +159,34 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				//"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				//"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
-				"antialias"	"1"
+				//"yres"	"768 1023"
+				//"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Segoe UI"
 				"tall"		"19"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
-				"antialias"	"1"
+				//"yres"	"1024 1199"
+				//"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Segoe UI"
 				"tall"		"19"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
-				"antialias"	"1"
+				//"yres"	"1200 6000"
+				//"antialias"	"1"
 			}
 		}
 		
@@ -203,7 +196,7 @@ Scheme
 			"1"
 			{
 				"name"		"Segoe UI"
-				"antialias"		"1"
+				//"antialias"		"1"
 			}
 		}
 		
@@ -212,81 +205,8 @@ Scheme
 			"1"
 			{
 				"name"		"Segoe UI"
-				"antialias"		"1"
+				//"antialias"		"1"
 			}
-		}
-		
-		AchievementItemDescription	
-		{
-			"1"
-			{
-				"weight"		"1000"
-			}
-		}
-
-	}
-	
-	CustomFontFiles
-	{
-		"6" 
-		{
-			"name" "TF2 Build"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
 		}
 	}
 }

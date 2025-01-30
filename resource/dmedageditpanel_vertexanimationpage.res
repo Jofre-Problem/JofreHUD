@@ -3,7 +3,6 @@
 	"VertexAnimationPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"VertexAnimationPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"VertexAnimationListPanel"
 		{
 			"ControlName"	"CDmeAnimationListPanel"
-			"fieldName"		"VertexAnimationListPanel"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"

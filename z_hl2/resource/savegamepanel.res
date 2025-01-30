@@ -17,7 +17,6 @@
 		"ypos"		"8"
 		"wide"		"196"
 		"tall"		"116"
-		"fillcolor"	"0 0 0 255"
 		"zpos"	"-1"
 	}
 	"SaveGameImage"

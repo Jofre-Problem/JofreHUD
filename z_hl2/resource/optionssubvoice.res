@@ -87,7 +87,6 @@
 		//		"0"
 		//		"0"
 		//		"0"
-		"associate"		"#GameUI_MicrophoneVolume"
 		"labelText"		"#GameUI_VoiceTransmitVolume"
 	}
 	"ReceiveLabel"
@@ -101,7 +100,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_VoiceReceiveVolume"
-		"associate"		"VoiceReceive"
 	}
 	"topHorizLeft"
 	{

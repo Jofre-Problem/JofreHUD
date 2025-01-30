@@ -3,7 +3,6 @@
 	"InputPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"InputPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"PropertiesSplitter"
 		{
 			"ControlName"	"Splitter"
-			"fieldName"		"PropertiesSplitter"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -29,7 +27,6 @@
 				"SourcesList"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"SourcesList"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"
@@ -47,7 +44,6 @@
 				"CompileOptionsLabel"
 				{
 					"ControlName"	"Label"
-					"fieldName"		"CompileOptionsLabel"
 					"xpos"			"12"
 					"ypos"			"6"
 					"wide"			"100"
@@ -63,7 +59,6 @@
 				"CompileOptions"
 				{
 					"ControlName"	"CDmePanel"
-					"fieldName"		"CompileOptions"
 					"xpos"			"6"
 					"ypos"			"30"
 					"wide"			"256"

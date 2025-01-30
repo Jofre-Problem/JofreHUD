@@ -3,7 +3,6 @@
 	"PropertiesSplitter"
 	{
 		"ControlName"	"Splitter"
-		"fieldName"		"PropertiesSplitter"
 		//	"3"
 		//		"0"
 		"xpos"			"0"
@@ -16,7 +15,6 @@
 			"EditorSheet"
 			{
 				"ControlName"	"PropertySheet"
-				"fieldName"		"EditorSheet"
 				"xpos"			"0"
 				"ypos"			"00"
 				"wide"			"463"
@@ -36,7 +34,6 @@
 			"DagRenderPanel"
 			{
 				"ControlName"	"CDmeDagRenderPanel"
-				"fieldName"		"DagRenderPanel"
 				"xpos"			"0"
 				"ypos"			"00"
 				"wide"			"463"

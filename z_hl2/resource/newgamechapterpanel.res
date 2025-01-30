@@ -19,7 +19,6 @@
 		"tall"		"86"	
 		//		"0"
 		//		"0"
-		"fillcolor"		"255 255 255 255"
 	}
 	"ChapterLabel"
 	{

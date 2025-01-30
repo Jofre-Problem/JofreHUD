@@ -3,7 +3,6 @@
 	"DmePresetGroupEditorPanel"
 	{
 		"ControlName"	"CDmePresetGroupEditorPanel"
-		"fieldName"		"DmePresetGroupEditorPanel"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"PresetGroupSplitter"
 		{
 			"ControlName"	"Splitter"
-			"fieldName"		"PresetGroupSplitter"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -28,7 +26,6 @@
 				"PresetGroupList"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"PresetGroupList"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"
@@ -48,7 +45,6 @@
 				"PresetList"
 				{
 					"ControlName"	"ListPanel"
-					"fieldName"		"PresetList"
 					"xpos"			"6"
 					"ypos"			"6"
 					"wide"			"256"

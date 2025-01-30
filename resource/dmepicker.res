@@ -3,7 +3,6 @@
 	"DmePicker"
 	{
 		"ControlName"	"CDmePicker"
-		"fieldName"		"DmePicker"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"DmeBrowser"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"DmeBrowser"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"
@@ -30,7 +28,6 @@
 		"FilterLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"FilterLabel"
 			"xpos"			"6"
 			"ypos"			"210"
 			"wide"			"75"
@@ -48,7 +45,6 @@
 		"FilterList"
 		{
 			"ControlName"	"TextEntry"
-			"fieldName"		"FilterList"
 			"xpos"			"70"
 			"ypos"			"210"
 			"wide"			"256"

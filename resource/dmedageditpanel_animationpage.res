@@ -3,7 +3,6 @@
 	"AnimationPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"AnimationPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"AnimationListPanel"
 		{
 			"ControlName"	"CDmeAnimationListPanel"
-			"fieldName"		"AnimationListPanel"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"

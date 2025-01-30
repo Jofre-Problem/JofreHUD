@@ -3,7 +3,6 @@
 	"DemoEditorPanel"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"DemoEditorPanel"
 		"xpos"		"579"
 		"ypos"		"397"
 		"wide"		"440"
@@ -16,7 +15,6 @@
 	"DemoEditSave"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditSave"
 		"xpos"		"10"
 		"ypos"		"267"
 		"wide"		"64"
@@ -32,7 +30,6 @@
 	"DemoEditRevert"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditRevert"
 		"xpos"		"78"
 		"ypos"		"267"
 		"wide"		"64"
@@ -48,7 +45,6 @@
 	"DemoEditOk"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditOk"
 		"xpos"		"299"
 		"ypos"		"267"
 		"wide"		"64"
@@ -64,7 +60,6 @@
 	"DemoEditCancel"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditCancel"
 		"xpos"		"367"
 		"ypos"		"267"
 		"wide"		"64"
@@ -80,7 +75,6 @@
 	"DemoEditNew"
 	{
 		"ControlName"		"MenuButton"
-		"fieldName"		"DemoEditNew"
 		"xpos"		"10"
 		"ypos"		"59"
 		"wide"		"64"
@@ -95,7 +89,6 @@
 	"DemoEditEdit"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditEdit"
 		"xpos"		"10"
 		"ypos"		"88"
 		"wide"		"64"
@@ -111,7 +104,6 @@
 	"DemoEditDelete"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"DemoEditDelete"
 		"xpos"		"10"
 		"ypos"		"117"
 		"wide"		"64"
@@ -127,7 +119,6 @@
 	"DemoName"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"DemoName"
 		"xpos"		"4"
 		"ypos"		"34"
 		"wide"		"342"
@@ -142,7 +133,6 @@
 	"DemoActionList"
 	{
 		"ControlName"		"ListPanel"
-		"fieldName"		"DemoActionList"
 		"xpos"		"81"
 		"ypos"		"58"
 		"wide"		"349"

@@ -474,24 +474,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"	[$WIN32]
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -499,8 +493,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -508,8 +500,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -517,15 +507,11 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
 			}
 
 			
@@ -536,16 +522,12 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"500"
 				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"11"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
 			}
 		}
 		"DefaultSmall"
@@ -554,21 +536,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -576,7 +555,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -584,7 +562,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"22"
-				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -592,7 +569,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
 			}
 		}
 
@@ -603,21 +579,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -625,7 +598,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -633,7 +605,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -644,24 +615,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"21"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"22"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
@@ -669,8 +634,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"28"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
@@ -678,8 +641,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"30"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -687,15 +648,11 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
 			}
 		}
 		CenterPrintText
@@ -704,7 +661,6 @@ Scheme
 			"1"
 			{
 				"tall"		"18"
-				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -716,7 +672,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"6"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -726,35 +681,30 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"	[$WIN32]
-				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"700"
 				"yres"	"1200 10000"
 			}
 		}
@@ -764,7 +714,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 				"yres"		"480 599"
 			}
@@ -772,7 +721,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"32"
-				"weight"	"500"
 				"antialias" "1"
 				"yres"		"600 767"
 			}
@@ -780,7 +728,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"44"
-				"weight"	"500"
 				"antialias" "1"
 				"yres"		"768 1023"
 			}
@@ -788,7 +735,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"48"
-				"weight"	"500"
 				"antialias" "1"
 				"yres"		"1024 1199"
 			}
@@ -796,7 +742,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"52"
-				"weight"	"500"
 				"antialias" "1"
 				"yres"		"1200 10000"
 			}
@@ -807,7 +752,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -818,7 +762,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -829,7 +772,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -839,7 +781,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"30"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}	
@@ -849,7 +790,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}		
@@ -859,7 +799,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -869,7 +808,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -879,7 +817,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -889,7 +826,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -899,7 +835,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -909,7 +844,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -919,7 +853,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}	
@@ -929,7 +862,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -939,7 +871,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -949,7 +880,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" "1"
 				"dropshadow"	"1"
 			}
@@ -960,7 +890,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -970,7 +899,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" 	"1"
 				"dropshadow"	"1"
 			}
@@ -981,7 +909,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -991,7 +918,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"4"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1001,7 +927,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"10"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1010,7 +935,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1043,7 +967,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"12"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1053,7 +976,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1123,7 +1045,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1133,7 +1054,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"16"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1143,7 +1063,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1153,7 +1072,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"9"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1163,7 +1081,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1173,7 +1090,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1183,48 +1099,38 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"15"
-				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"1 599"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"2"
 			{
 				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
-				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
 			"3"
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"768 1023"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"4"
 			{
 				"name"		"TF2"
 				"tall"		"21"
-				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"1024 1199"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"weight"	"1000"
 				"antialias" 	"1"
 				"yres"		"1200 10000"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		DebugOverlay
@@ -1233,9 +1139,7 @@ Scheme
 			{
 				"name"		"Courier New"
 				"tall"		"14"
-				"weight"	"400"
 				"outline"	"1"
-				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}		
 		TFTypeDeath
@@ -1264,8 +1168,6 @@ Scheme
 			{
 				"name"		"Courier New"
 				"tall"		"90"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1293,8 +1195,6 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
@@ -1303,9 +1203,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"500"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
@@ -1314,8 +1212,6 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -1324,9 +1220,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"900"
 				"italic"	"1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
@@ -1335,8 +1229,6 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"16"
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -1348,7 +1240,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"20"
 				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 		"MarlettSmall"
@@ -1358,7 +1249,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"14"
 				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 		"MenuMainTitle"
@@ -1368,7 +1258,6 @@ Scheme
 				"name"		"TF2"
 				"tall"		"24"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 		"MenuClassBuckets"
@@ -1378,7 +1267,6 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 		"MenuKeys"
@@ -1388,7 +1276,6 @@ Scheme
 				"name"		"TF2"
 				"tall"		"12"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 		
@@ -1398,7 +1285,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"800"
 				"antialias" 	"1"
 			}
 		}		
@@ -1410,7 +1296,6 @@ Scheme
 				"name"			"TF2 Professor"
 				"tall"			"28"
 				"antialias"		"1" 
-				"weight"		"500"
 			}
 		}
 		"ChalkboardTitleBig"
@@ -1420,7 +1305,6 @@ Scheme
 				"name"			"TF2 Professor"
 				"tall"			"40"
 				"antialias"		"1"
-				"weight"		"500"
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -1430,7 +1314,6 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"24"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 		"ChalkboardText"
@@ -1439,7 +1322,6 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"antialias"		"1"
-				"weight"		"500"
 			}
 		}
 		"ScoreboardSmallest"
@@ -1448,7 +1330,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"6"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1458,7 +1339,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1468,7 +1348,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1478,8 +1357,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1489,8 +1366,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1500,8 +1375,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1511,8 +1384,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1522,8 +1393,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1533,8 +1402,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"34"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1545,7 +1412,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1555,8 +1421,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"52"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
 				"yres"		"1 599"
 				"antialias" "1"
 			}
@@ -1564,8 +1428,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"72"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
 				"yres"		"600 767"
 				"antialias" "1"
 			}
@@ -1573,8 +1435,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"100"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
 				"yres"		"768 1023"
 				"antialias" "1"
 			}
@@ -1582,8 +1442,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"140"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
 				"yres"		"1024 1199"
 				"antialias" "1"
 			}
@@ -1591,8 +1449,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"180"
-				"range" 	"0x0000 0x00FF"
-				"weight"	"400"
 				"yres"		"1200 10000"
 				"antialias" "1"
 			}
@@ -1603,8 +1459,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -1614,7 +1468,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1624,7 +1477,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1634,7 +1486,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1644,7 +1495,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1654,7 +1504,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"7"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1665,7 +1514,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -1676,7 +1524,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"0"
 			}
@@ -1684,7 +1531,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"0"
 			}
@@ -1692,7 +1538,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"0"
 			}
@@ -1700,7 +1545,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
@@ -1708,7 +1552,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"0"
 			}
@@ -1719,7 +1562,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"12"
-				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
@@ -1727,7 +1569,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
@@ -1735,7 +1576,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
@@ -1743,7 +1583,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
@@ -1751,7 +1590,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
@@ -1762,7 +1600,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
@@ -1770,7 +1607,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
@@ -1778,7 +1614,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
@@ -1786,7 +1621,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
@@ -1794,7 +1628,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"15"
-				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
@@ -1804,10 +1637,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Segoe UI Black"
+				"name"			"Segoe UI"
 				"tall"			"8"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
 				"antialias"		"1"
 			}
 		}	
@@ -1818,8 +1649,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"14"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"300"
 				"antialias"		"1"
 			}
 		}			
@@ -1829,8 +1658,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"12"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -1841,8 +1668,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"8"
-				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
 			}
@@ -1864,7 +1689,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"9"
-				"weight"	"400"
 				"antialias" 	"1"
 			}
 		}		
@@ -1874,7 +1698,6 @@ Scheme
 			"1"
 			{
 				"name"		"Segoe UI"
-				"weight"	"800"
 				"antialias" 	"1"
 			}
 		}		
@@ -1885,7 +1708,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"weight"	"500"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
@@ -1894,7 +1716,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuLarge
@@ -1903,7 +1724,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"28"
-				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
@@ -1912,7 +1732,6 @@ Scheme
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"22"
-				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
@@ -1921,7 +1740,6 @@ Scheme
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"18"
-				"weight"	"900"
 			}
 		}		
 		MatchmakingDialogMenuMedium
@@ -1930,7 +1748,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
@@ -1939,7 +1756,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuSmall
@@ -1948,7 +1764,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"22"
-				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuSmallest
@@ -1957,7 +1772,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"900"
 			}
 		}
 		RankingDialogHeaders
@@ -1966,7 +1780,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"15"
-				"weight"	"900"
 			}
 		}
 		
@@ -1976,7 +1789,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -1986,7 +1798,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"600"
 				"antialias" 	"1"
 			}
 		}		
@@ -1996,7 +1807,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"400"
 				"antialias" 	"1"
 			}
 		}			
@@ -2006,7 +1816,6 @@ Scheme
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"14"
-				"weight"	"900"
 				"antialias" "1"
 			}
 		}
@@ -2016,7 +1825,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"600"
 				"antialias" 	"1"
 			}
 		}
@@ -2026,7 +1834,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2036,7 +1843,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"7"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2047,7 +1853,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"10"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2055,7 +1860,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
 				"antialias"	"1"
 			}
@@ -2063,7 +1867,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"15"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
@@ -2075,7 +1878,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"8"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2085,7 +1887,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2095,7 +1896,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2105,7 +1905,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2115,7 +1914,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"7"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2126,7 +1924,6 @@ Scheme
 				"name"		"Segoe UI"
 				"tall"		"8"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -2135,7 +1932,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"8"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2145,7 +1941,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}	
@@ -2155,7 +1950,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2166,7 +1960,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2176,7 +1969,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2239,7 +2031,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
-				"weight"	"400"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2248,7 +2039,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
-				"weight"	"400"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
@@ -2257,7 +2047,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"	
 				"tall"		"18"
-				"weight"	"400"
 				"yres"		"1024 6000"
 				"antialias"	"1"
 			}
@@ -2270,7 +2059,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
-				"weight"	"800"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2279,7 +2067,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
-				"weight"	"800"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
@@ -2288,7 +2075,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"18"
-				"weight"	"800"
 				"yres"		"1024 6000"
 				"antialias"	"1"
 			}
@@ -2301,7 +2087,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"16"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2313,7 +2098,6 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"weight"	"500"
 			}
 		}
 
@@ -2323,7 +2107,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2331,7 +2114,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"400"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
@@ -2339,7 +2121,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"400"
 				"yres"		"1024 6000"
 				"antialias"	"1"
 			}
@@ -2351,7 +2132,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"yres"		"480 599"
 				"antialias"	"1"
 				"italic"	"1"
@@ -2360,7 +2140,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"400"
 				"yres"		"600 1023"
 				"antialias"	"1"
 				"italic"	"1"
@@ -2369,7 +2148,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"400"
 				"yres"		"1024 6000"
 				"antialias"	"1"
 				"italic"	"1"
@@ -2382,7 +2160,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"800"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
@@ -2390,7 +2167,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"800"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
@@ -2398,7 +2174,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"800"
 				"yres"		"1024 6000"
 				"antialias"	"1"
 			}
@@ -2410,7 +2185,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"13"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2421,7 +2195,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"16"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2432,7 +2205,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"10"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2443,7 +2215,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2463,7 +2234,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2474,7 +2244,6 @@ Scheme
 			{
 				"name"		"Trebuchet MS"
 				"tall"		"9"
-				"weight"	"400"
 				"antialias" "1"
 				"italic"	"1"
 			}
@@ -2489,21 +2258,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -2511,7 +2277,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -2519,7 +2284,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -2530,7 +2294,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2540,21 +2303,18 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Segoe UI"
 				"tall"		"14"
-				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -2562,7 +2322,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -2570,7 +2329,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"22"
-				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -2578,7 +2336,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
 			}
 		}
 		"ReplayMediumSmall"
@@ -2587,7 +2344,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2597,7 +2353,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2607,7 +2362,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2617,7 +2371,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2627,7 +2380,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2641,7 +2393,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2651,7 +2402,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -2662,8 +2412,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"15"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 			}
 		}
@@ -2674,7 +2422,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"9"
-				"weight"	"400"
 				"antialias" 	"1"
 			}
 		}
@@ -2685,7 +2432,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias" 	"1"
 			}
 		}
@@ -2696,7 +2442,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2709,7 +2454,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
 				"antialias" "1"
 				"dropshadow"	"1"
 			}
@@ -2735,7 +2479,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"		
 				"tall"		"7"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2747,7 +2490,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"10"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2759,7 +2501,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"14"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -2771,7 +2512,6 @@ Scheme
 				"name"		"OCR A Extended" [$WINDOWS]
 				"name"		"ocra"
 				"tall"		"30"
-				"weight"	"400"
 				"antialias" "1"
 			}
 		}
@@ -5474,11 +5214,9 @@ Scheme
 			"name" "TF2"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 		}
 		"4" 
@@ -5486,11 +5224,9 @@ Scheme
 			"name" "TF2 Secondary"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 		}
 		"5" 
@@ -5498,11 +5234,9 @@ Scheme
 			"name" "TF2 Professor"
 			"russian"
 			{
-				"range" "0x0000 0x00FF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x00FF"
 			}
 		}	
 		"6" 
@@ -5510,15 +5244,12 @@ Scheme
 			"name" "TF2 Build"
 			"russian"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 			"polish"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 			"turkish"
 			{
-				"range" "0x0000 0xFFFF"
 			}
 		}			
 		"7"
@@ -5526,59 +5257,45 @@ Scheme
 			"name" "ocra"
 			"turkish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"swedish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"spanish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"romanian"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"polish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"norwegian"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"danish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"hungarian"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"german"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"french"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"finnish"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"czech"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"bulgarian"
 			{
-				"range" "0x0000 0x007E"
 			}
 			"russian"
 			{
-				"range" "0x0000 0x007E"
 			}
 		}
 	}

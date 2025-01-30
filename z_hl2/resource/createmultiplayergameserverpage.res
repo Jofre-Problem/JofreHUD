@@ -34,6 +34,5 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Map"
-		"associate"		"MapList"
 	}
 }

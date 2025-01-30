@@ -3,7 +3,6 @@
 	"GameSoundPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"GameSoundPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"GameSoundsList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"GameSoundsList"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"
@@ -30,7 +28,6 @@
 		"FilterLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"FilterLabel"
 			"xpos"			"6"
 			"ypos"			"210"
 			"wide"			"65"
@@ -48,7 +45,6 @@
 		"GameSoundFilter"
 		{
 			"ControlName"	"TextEntry"
-			"fieldName"		"GameSoundFilter"
 			"xpos"			"70"
 			"ypos"			"210"
 			"wide"			"256"

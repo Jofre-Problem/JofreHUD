@@ -3,7 +3,6 @@
 	"Picker"
 	{
 		"ControlName"	"CPicker"
-		"fieldName"		"Picker"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"Browser"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"Browser"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"
@@ -30,7 +28,6 @@
 		"FilterLabel"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"FilterLabel"
 			"xpos"			"6"
 			"ypos"			"210"
 			"wide"			"75"
@@ -48,7 +45,6 @@
 		"FilterList"
 		{
 			"ControlName"	"TextEntry"
-			"fieldName"		"FilterList"
 			"xpos"			"70"
 			"ypos"			"210"
 			"wide"			"256"

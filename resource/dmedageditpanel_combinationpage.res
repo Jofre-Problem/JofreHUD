@@ -3,7 +3,6 @@
 	"CombinationPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"CombinationPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"SliderScroll"
 		{
 			"ControlName"	"ScrollableEditablePanel"
-			"fieldName"		"SliderScroll"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"100"

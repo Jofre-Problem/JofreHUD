@@ -23,7 +23,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Easy"
-		"SubTabPosition"		"1"
 	}
 	"MediumRadio"
 	{
@@ -36,7 +35,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Medium"
-		"SubTabPosition"		"2"
 	}
 	"HardRadio"
 	{
@@ -49,7 +47,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Hard"
-		"SubTabPosition"		"3"
 	}
 	"CancelButton"
 	{

@@ -1250,7 +1250,6 @@
 		"zone_id"	"short"		// type of area (0 for general, 1 for capture zone)
 	}
 
-	// If your party changes ~at all~, heavyweight
 	"party_updated"
 	{
 	}

@@ -109,7 +109,6 @@
 		"scaleImage"		"1"
 		"scaleAmount"		"0.72"
 		//		"0"
-		"fillcolor"		"255 255 255 255"
 	}
 	"ChapterLabel"
 	{
@@ -194,7 +193,6 @@
 		"tall"		"360"
 		//		"0"
 		//		"0"
-		"fillcolor"		"0 0 0 128"
 	}
 	"OptionsBackgroundRight"
 	{
@@ -206,7 +204,6 @@
 		"tall"		"360"
 		//		"0"
 		//		"0"
-		"fillcolor"		"0 0 0 128"
 	}
 	
 	"OptionsSelectionLeft"
@@ -401,7 +398,6 @@
 		"ypos"			"7"
 		"wide"		"128"
 		"tall"		"15"
-		"fillcolor"	"0 0 0 64"
 		"zpos"	"10"
 		"visible"		"0"
 	}
@@ -413,7 +409,6 @@
 		"ypos"			"7"
 		"wide"		"0"
 		"tall"		"15"
-		"fillcolor"	"255 255 255 255"
 		"zpos"	"20"
 		"visible"		"0"
 	}
@@ -688,7 +683,6 @@
 		//		"0"
 		//			"0"
 		"visible"			"0"
-		"fillcolor"			"0 0 0 128"
 	}
 	"BonusSelectionLabel"
 	{
@@ -858,7 +852,6 @@
 		"scaleImage"		"1"
 		"scaleAmount"		"0.72"
 		//		"0"
-		"fillcolor"		"0 0 0 0"
 	}
 	"ChallengeNextMedal"
 	{

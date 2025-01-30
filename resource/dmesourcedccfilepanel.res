@@ -3,7 +3,6 @@
 	"DCCObjectList"
 	{
 		"ControlName"	"ListPanel"
-		"fieldName"		"DCCObjectList"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"256"
@@ -18,7 +17,6 @@
 	"AddDCCObjectButton"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"AddDCCObjectButton"
 		"xpos"			"0"
 		"ypos"			"60"
 		"wide"			"60"
@@ -33,7 +31,6 @@
 	"RemoveDCCObjectButton"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"RemoveDCCObjectButton"
 		"xpos"			"50"
 		"ypos"			"60"
 		"wide"			"60"
@@ -49,7 +46,6 @@
 	"DCCObjectBrowser"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"DCCObjectBrowser"
 		"xpos"			"0"
 		"ypos"			"60"
 		"wide"			"30"
@@ -63,7 +59,6 @@
 	"DCCObjectName"
 	{
 		"ControlName"		"TextEntry"
-		"fieldName"		"DCCObjectName"
 		"xpos"		"40"
 		"ypos"		"32"
 		"wide"		"390"
@@ -83,7 +78,6 @@
 	"ApplyChangesButton"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"ApplyChangesButton"
 		"xpos"			"50"
 		"ypos"			"60"
 		"wide"			"60"

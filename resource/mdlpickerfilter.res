@@ -3,7 +3,6 @@
 	"FilterPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"FilterPage"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"640"
@@ -15,7 +14,6 @@
 		"MDLBrowser"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"MDLBrowser"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"
@@ -30,7 +28,6 @@
 		"FilterList"
 		{
 			"ControlName"	"ComboBox"
-			"fieldName"		"FilterList"
 			"xpos"			"70"
 			"ypos"			"210"
 			"wide"			"256"

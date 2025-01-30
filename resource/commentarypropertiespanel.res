@@ -3,7 +3,6 @@
 	"CommentaryPropertiesPanel"
 	{
 		"ControlName"		"CCommentaryPropertiesPanel"
-		"fieldName"		"CommentaryPropertiesPanel"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
@@ -15,7 +14,6 @@
 	"CommentaryNodeScroll"
 	{
 		"ControlName"		"CScrollableEditablePanel"
-		"fieldName"		"CommentaryNodeScroll"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
@@ -30,7 +28,6 @@
 	"InfoTargetScroll"
 	{
 		"ControlName"		"CScrollableEditablePanel"
-		"fieldName"		"InfoTargetScroll"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"

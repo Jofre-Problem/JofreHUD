@@ -3,7 +3,6 @@
 	"SkillSelection"
 	{
 		"ControlName"		"CSkillSelectionDialog"
-		"fieldName"		"SkillSelection"
 		"xpos"		"388"
 		"ypos"		"200"
 		"wide"		"248"
@@ -15,7 +14,6 @@
 	"EasyRadio"
 	{
 		"ControlName"		"RadioButton"
-		"fieldName"		"EasyRadio"
 		"xpos"		"52"
 		"ypos"		"42"
 		"wide"		"120"
@@ -32,7 +30,6 @@
 	"MediumRadio"
 	{
 		"ControlName"		"RadioButton"
-		"fieldName"		"MediumRadio"
 		"xpos"		"52"
 		"ypos"		"68"
 		"wide"		"120"
@@ -49,7 +46,6 @@
 	"HardRadio"
 	{
 		"ControlName"		"RadioButton"
-		"fieldName"		"HardRadio"
 		"xpos"		"52"
 		"ypos"		"94"
 		"wide"		"120"
@@ -66,7 +62,6 @@
 	"CancelButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"CancelButton"
 		"xpos"		"142"
 		"ypos"		"132"
 		"wide"		"80"
@@ -83,7 +78,6 @@
 	"StartButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"StartButton"
 		"xpos"		"52"
 		"ypos"		"132"
 		"wide"		"80"

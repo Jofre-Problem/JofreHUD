@@ -3,7 +3,6 @@
 	"Splitter"
 	{
 		"ControlName"	"Splitter"
-		"fieldName"		"Splitter"
 		//		"0"
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
@@ -17,7 +16,6 @@
 			"FunctionTypeCombo"
 			{
 				"ControlName"	"ComboBox"
-				"fieldName"		"FunctionTypeCombo"
 				"xpos"			"0"
 				"ypos"			"6"
 				"wide"			"463"
@@ -34,7 +32,6 @@
 			"FunctionBrowserArea"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"FunctionBrowserArea"
 				"xpos"			"0"
 				"ypos"			"36"
 				"wide"			"463"
@@ -54,7 +51,6 @@
 			"FunctionProperties"
 			{
 				"ControlName"	"CDmeElementPanel"
-				"fieldName"		"FunctionProperties"
 				//		"0"
 				//	"3"
 				//"PinnedCornerOffsetX" "6"

@@ -3,7 +3,6 @@
 	"ParticleFunctionPickerFrame"
 	{
 		"ControlName"	"CParticleFunctionPickerFrame"
-		"fieldName"		"ParticleFunctionPickerFrame"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"OkButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OkButton"
 			"xpos"		"6"
 			"ypos"		"350"
 			"wide"		"122"
@@ -31,7 +29,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"140"
 			"ypos"		"350"
 			"wide"		"122"
@@ -47,7 +44,6 @@
 		"ParticleFunctionList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"ParticleFunctionList"
 			"xpos"			"6"
 			"ypos"			"28"
 			"wide"			"256"

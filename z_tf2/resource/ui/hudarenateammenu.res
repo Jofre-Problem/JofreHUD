@@ -70,7 +70,6 @@
 		"labelText"		"&1"	[$WIN32]
 		"textAlignment"	"south-west"
 		"command"		"jointeam spectate"
-		"associated_model"	"autodoor"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -89,7 +88,6 @@
 		"labelText"		"&2"	[$WIN32]
 		"textAlignment"	"south-west"
 		"command"		"jointeam spectatearena"
-		"associated_model"	"spectate"	
 		"fgcolor"		"255 255 255 255"
 	}
 	

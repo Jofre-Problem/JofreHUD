@@ -3,7 +3,6 @@
 	"TrackGroupVisibilityPanel"
 	{
 		"ControlName"	"CTrackGroupVisibilityPanel"
-		"fieldName"		"TrackGroupVisibilityPanel"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"OkButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OkButton"
 			"xpos"		"16"
 			"ypos"		"450"
 			"wide"		"96"
@@ -31,7 +29,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"144"
 			"ypos"		"450"
 			"wide"		"96"
@@ -47,7 +44,6 @@
 		"CheckButtonList"
 		{
 			"ControlName"	"CheckButtonList"
-			"fieldName"		"CheckButtonList"
 			"xpos"			"0"
 			"ypos"			"28"
 			"wide"			"256"

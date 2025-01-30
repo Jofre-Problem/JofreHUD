@@ -3,7 +3,6 @@
 	"OutputPreviewPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"OutputPreviewPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"OutputPreview"
 		{
 			"ControlName"		"DmePanel"
-			"fieldName"		"OutputPreview"
 			"xpos"		"6"
 			"ypos"		"6"
 			"wide"		"390"

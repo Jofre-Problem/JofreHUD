@@ -5,7 +5,6 @@
 	"GameLogo"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"GameLogo"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"50"

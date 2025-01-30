@@ -134,7 +134,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Resolution"
-		"associate"		"Resolution"
 	}
 	"Label2"
 	{
@@ -160,7 +159,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_DisplayMode"
-		"associate"		"DisplayModeCombo"
 	}
 	"AspectRatioLabel"
 	{
@@ -173,7 +171,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_AspectRatio"
-		"associate"		"AspectRatio"
 	}
 	"HDContentButton"
 	{
@@ -200,6 +197,5 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_VRMode"
-		"associate"		"VRMode"
 	}
 }

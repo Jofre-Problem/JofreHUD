@@ -3,7 +3,6 @@
 	"PickerFrame"
 	{
 		"ControlName"	"CPickerFrame"
-		"fieldName"		"PickerFrame"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"OpenButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OpenButton"
 			"xpos"		"6"
 			"ypos"		"350"
 			"wide"		"122"
@@ -31,7 +29,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"140"
 			"ypos"		"350"
 			"wide"		"122"
@@ -47,7 +44,6 @@
 		"Picker"
 		{
 			"ControlName"	"CPicker"
-			"fieldName"		"Picker"
 			"xpos"			"0"
 			"ypos"			"28"
 			"wide"			"268"

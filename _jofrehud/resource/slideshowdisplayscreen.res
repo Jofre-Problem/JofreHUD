@@ -1,0 +1,1 @@
+#base "base/scheme/_slideshowdisplayscreen.res"

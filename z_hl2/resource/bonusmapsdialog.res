@@ -86,7 +86,6 @@
 		"ypos"		"410"
 		"wide"		"346"
 		"tall"		"24"
-		"fillcolor"	"0 0 0 64"
 		"zpos"	"-2"
 		"visible"		"0"
 	}
@@ -97,7 +96,6 @@
 		"ypos"		"410"
 		"wide"		"0"
 		"tall"		"24"
-		"fillcolor"	"255 255 255 255"
 		"zpos"	"-1"
 		"visible"		"0"
 	}

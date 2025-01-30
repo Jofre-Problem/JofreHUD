@@ -3,7 +3,6 @@
 	"Splitter"
 	{
 		"ControlName"	"Splitter"
-		"fieldName"		"Splitter"
 		//		"0"
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
@@ -17,7 +16,6 @@
 			"ControlSheet"
 			{
 				"ControlName"	"PropertySheet"
-				"fieldName"		"ControlSheet"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"463"
@@ -37,7 +35,6 @@
 			"ParticlePreview"
 			{
 				"ControlName"	"CParticleSystemPanel"
-				"fieldName"		"ParticlePreview"
 				"xpos"			"0"
 				"ypos"			"00"
 				"wide"			"463"
@@ -54,7 +51,6 @@
 			"ParticleCountLabel"
 			{
 				"ControlName"	"Label"
-				"fieldName"		"ParticleCountLabel"
 				"xpos"			"12"
 				"ypos"			"6"
 				"wide"			"165"

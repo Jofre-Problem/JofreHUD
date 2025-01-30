@@ -3,7 +3,6 @@
 	"listpanel_keybindlist"
 	{
 		"ControlName"		"SectionedListPanel"
-		"fieldName"		"listpanel_keybindlist"
 		"xpos"		"8"
 		"ypos"		"10"
 		"wide"		"480"
@@ -15,7 +14,6 @@
 	"ChangeKeyButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"ChangeKeyButton"
 		"xpos"		"272"
 		"ypos"		"276"
 		"wide"		"106"
@@ -32,7 +30,6 @@
 	"ClearKeyButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"ClearKeyButton"
 		"xpos"		"384"
 		"ypos"		"276"
 		"wide"		"105"
@@ -49,7 +46,6 @@
 	"Defaults"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"Defaults"
 		"xpos"		"8"
 		"ypos"		"276"
 		"wide"		"134"
@@ -66,7 +62,6 @@
 	"KeyAdvancedButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"KeyAdvancedButton"
 		"xpos"		"148"
 		"ypos"		"276"
 		"wide"		"111"

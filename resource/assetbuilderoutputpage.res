@@ -3,7 +3,6 @@
 	"OutputPage"
 	{
 		"ControlName"	"PropertyPage"
-		"fieldName"		"OutputPage"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -15,7 +14,6 @@
 		"OutputList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"OutputList"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"

@@ -11,7 +11,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_SkillEasy"
-		"SubTabPosition"		"1"
 	}
 	"Skill2Radio"
 	{
@@ -24,7 +23,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_SkillNormal"
-		"SubTabPosition"		"2"
 	}
 	"Skill3Radio"
 	{
@@ -37,7 +35,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_SkillHard"
-		"SubTabPosition"		"3"
 	}
 	"Label1"
 	{

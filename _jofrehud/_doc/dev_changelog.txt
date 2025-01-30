@@ -1,0 +1,13 @@
+8/7/21
+- Removed "2" of font definitions, including dropshadows 
+Due to this there are some fonts that include dropshadow that
+became totally useless, so I will just remove them and replace it by their 
+cunterparts
+RIP low screen resolution players haha
+- HudFontSmallBoldShadow HudFontSmallBold
+- HudFontSmallestShadow
+
+As well, there are some unused / 1 time used borders
+Removing...
+
+HudFontSmallBold

@@ -3,7 +3,6 @@
 	"FunctionBrowser"
 	{
 		"ControlName"	"CParticleFunctionBrowser"
-		"fieldName"		"FunctionBrowser"
 		//	"3"
 		//		"0"
 		"xpos"			"0"
@@ -15,7 +14,6 @@
 	"FunctionList"
 	{
 		"ControlName"	"ListPanel"
-		"fieldName"		"FunctionList"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"

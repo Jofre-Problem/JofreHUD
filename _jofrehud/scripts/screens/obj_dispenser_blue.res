@@ -1,0 +1,1 @@
+#base "res_base/obj_dispenser_base.res"

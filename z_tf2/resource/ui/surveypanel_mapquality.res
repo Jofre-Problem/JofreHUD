@@ -97,7 +97,6 @@
 					"labelText"		"#TF_SurveyQuestion_Rating0"
 					"textAlignment"	"center"
 
-					"associate"		"Radio0"
 				}
 
 				"Radio1" // Bad

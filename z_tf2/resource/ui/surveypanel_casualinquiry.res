@@ -82,7 +82,6 @@
 					"labelText"		"#TF_SurveyQuestion_CasualInquiry_Answer0"
 					"textAlignment"	"left"
 
-					"associate"		"Radio0"
 				}
 
 				"Answer1"

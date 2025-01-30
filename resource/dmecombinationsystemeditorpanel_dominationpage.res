@@ -3,7 +3,6 @@
 	"DominationRules"
 	{
 		"ControlName"	"CDmeCombinationDominationRulesPanel"
-		"fieldName"		"DominationRules"
 		"xpos"			"6"
 		"ypos"			"6"
 		"wide"			"256"
@@ -21,7 +20,6 @@
 		"DominationRulesList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"DominationRulesList"
 			"xpos"			"6"
 			"ypos"			"6"
 			"wide"			"256"

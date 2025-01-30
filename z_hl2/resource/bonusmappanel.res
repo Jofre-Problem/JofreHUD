@@ -17,7 +17,6 @@
 		"ypos"		"108"
 		"wide"		"180"
 		"tall"		"20"
-		"fillcolor"	"0 0 0 255"
 		"zpos"	"-1"
 	}
 	"BonusMapTGAImage"
@@ -39,7 +38,6 @@
 		"visible"		"0"
 		//	"0"
 		"scaleImage"	"0"
-		"fillcolor"		"255 255 255 255"
 	}
 	"LockIcon" 
 	{

@@ -3,7 +3,6 @@
 	"AssetBuilderFrame"
 	{
 		"ControlName"	"CAssetBuilderFrame"
-		"fieldName"		"AssetBuilderFrame"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"268"
@@ -15,7 +14,6 @@
 		"AssetBuilder"
 		{
 			"ControlName"	"PropertySheet"
-			"fieldName"		"InputOutputSheet"
 			"xpos"			"6"
 			"ypos"			"60"
 			"wide"			"463"

@@ -3,7 +3,6 @@
 	"InfoTargetPropertiesPanel"
 	{
 		"ControlName"		"CInfoTargetPropertiesPanel"
-		"fieldName"		"InfoTargetPropertiesPanel"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
@@ -15,7 +14,6 @@
 	"InfoTargetScroll"
 	{
 		"ControlName"		"CScrollableEditablePanel"
-		"fieldName"		"InfoTargetScroll"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"

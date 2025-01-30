@@ -332,7 +332,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_MotionBlur"
-		"associate"		"HDR"
 	}
 	"Button1"
 	{
@@ -400,7 +399,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Model_Detail"
-		"associate"		"ModelDetail"
 	}
 	"Label4"
 	{
@@ -413,7 +411,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Texture_Detail"
-		"associate"		"TextureDetail"
 	}
 	"Label5"
 	{
@@ -437,7 +434,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Filtering_Mode"
-		"associate"		"FilteringMode"
 	}
 	"dxinstalledlabel"
 	{
@@ -473,7 +469,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Water_Detail"
-		"associate"		"WaterDetail"
 	}
 	"Label8"
 	{
@@ -486,7 +481,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Shadow_Detail"
-		"associate"		"ShadowDetail"
 	}
 	"Label12"
 	{
@@ -499,7 +493,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Color_Correction"
-		"associate"		"ColorCorrection"
 	}
 	"Label10"
 	{
@@ -512,7 +505,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Wait_For_VSync"
-		"associate"		"VSync"
 	}
 	"Label9"
 	{
@@ -525,7 +517,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GameUI_Shader_Detail"
-		"associate"		"ShaderDetail"
 	}
 	"Label11"
 	{
@@ -552,7 +543,6 @@
 		"visible"		"1" 
 		//		"0"
 		"labelText"		"#GameUI_HDR"
-		"associate"		"HDR"
 	}
 	"Divider2"
 	{

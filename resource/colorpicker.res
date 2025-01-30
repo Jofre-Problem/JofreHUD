@@ -3,7 +3,6 @@
 	"ColorPicker"
 	{
 		"ControlName"	"CColorPicker"
-		"fieldName"		"ColorPicker"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"640"
@@ -15,7 +14,6 @@
 		"ColorXYPreview"
 		{
 			"ControlName"	"CColorXYPreview"
-			"fieldName"		"ColorXYPreview"
 			"xpos"			"10"
 			"ypos"			"10"
 			"wide"			"256"
@@ -28,7 +26,6 @@
 		"ColorZPreview"
 		{
 			"ControlName"	"CColorZPreview"
-			"fieldName"		"ColorZPreview"
 			"xpos"			"274"
 			"ypos"			"4"
 			"wide"			"36"
@@ -41,7 +38,6 @@
 		"CurrentColor"
 		{
 			"ControlName"	"Panel"
-			"fieldName"		"CurrentColor"
 			"xpos"			"325"
 			"ypos"			"10"
 			"wide"			"100"
@@ -54,7 +50,6 @@
 		"InitialColor"
 		{
 			"ControlName"	"Panel"
-			"fieldName"		"InitialColor"
 			"xpos"			"325"
 			"ypos"			"67"
 			"wide"			"100"
@@ -67,7 +62,6 @@
 		"HueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"HueRadio"
 			"xpos"			"325"
 			"ypos"			"125"
 			"wide"			"48"
@@ -86,7 +80,6 @@
 		"SaturationRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"SaturationRadio"
 			"xpos"			"325"
 			"ypos"			"150"
 			"wide"			"48"
@@ -104,7 +97,6 @@
 		"ValueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"ValueRadio"
 			"xpos"			"325"
 			"ypos"			"175"
 			"wide"			"48"
@@ -122,7 +114,6 @@
 		"RedRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"RedRadio"
 			"xpos"			"325"
 			"ypos"			"200"
 			"wide"			"48"
@@ -140,7 +131,6 @@
 		"GreenRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"GreenRadio"
 			"xpos"			"325"
 			"ypos"			"225"
 			"wide"			"48"
@@ -158,7 +148,6 @@
 		"BlueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"fieldName"		"BlueRadio"
 			"xpos"			"325"
 			"ypos"			"250"
 			"wide"			"48"
@@ -176,7 +165,6 @@
 		"HueText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"HueText"
 			"xpos"			"375"
 			"ypos"			"125"
 			"wide"			"48"
@@ -193,7 +181,6 @@
 		"SaturationText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"SaturationText"
 			"xpos"			"375"
 			"ypos"			"150"
 			"wide"			"48"
@@ -210,7 +197,6 @@
 		"SaturationLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"SaturationLabel"
 			"xpos"			"425"
 			"ypos"			"150"
 			"wide"			"15"
@@ -227,7 +213,6 @@
 		"ValueText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"ValueText"
 			"xpos"			"375"
 			"ypos"			"175"
 			"wide"			"48"
@@ -244,7 +229,6 @@
 		"ValueLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"ValueLabel"
 			"xpos"			"425"
 			"ypos"			"175"
 			"wide"			"15"
@@ -261,7 +245,6 @@
 		"RedText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"RedText"
 			"xpos"			"375"
 			"ypos"			"200"
 			"wide"			"48"
@@ -278,7 +261,6 @@
 		"GreenText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"GreenText"
 			"xpos"			"375"
 			"ypos"			"225"
 			"wide"			"48"
@@ -295,7 +277,6 @@
 		"BlueText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"BlueText"
 			"xpos"			"375"
 			"ypos"			"250"
 			"wide"			"48"
@@ -312,7 +293,6 @@
 		"AlphaText"
 		{
 			"ControlName"		"TextEntry"
-			"fieldName"		"AlphaText"
 			"xpos"			"375"
 			"ypos"			"275"
 			"wide"			"48"
@@ -329,7 +309,6 @@
 		"AlphaLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"AlphaLabel"
 			"xpos"			"350"
 			"ypos"			"275"
 			"wide"			"15"

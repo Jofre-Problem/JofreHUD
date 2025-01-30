@@ -1,0 +1,16 @@
+TanDarker
+46 43 42 255
+
+"200 80 60 255"
+LightRed
+
+235 226 202 255
+TanLight
+
+200 187 161 255
+HudOffWhite
+
+117 107 94 255"
+TanDark
+
+image_draw3### doesnt work on scheme definitions

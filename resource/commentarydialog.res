@@ -3,7 +3,6 @@
 	"CommentaryDialog"
 	{
 		"ControlName"		"CCommentaryDialog"
-		"fieldName"		"CommentaryDialog"
 		"xpos"		"278"
 		"ypos"		"357"
 		"wide"		"400"
@@ -15,7 +14,6 @@
 	"ModeLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"ModeLabel"
 		"xpos"		"56"
 		"ypos"		"44"
 		"wide"		"300"
@@ -32,7 +30,6 @@
 	"CommentaryExists"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"CommentaryExists"
 		"xpos"		"56"
 		"ypos"		"88"
 		"wide"		"336"
@@ -48,7 +45,6 @@
 	"TurnOnButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"TurnOnButton"
 		"xpos"		"120"
 		"ypos"		"154"
 		"wide"		"200"
@@ -66,7 +62,6 @@
 	"TurnOffButton"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"TurnOffButton"
 		"xpos"		"120"
 		"ypos"		"216"
 		"wide"		"200"
@@ -84,7 +79,6 @@
 	"CommentaryIcon"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"CommentaryIcon"
 		"xpos"			"40"
 		"ypos"			"134"
 		"wide"			"64"
@@ -97,7 +91,6 @@
 	"NoCommentaryIcon"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"NoCommentaryIcon"
 		"xpos"			"40"
 		"ypos"			"196"
 		"wide"			"64"

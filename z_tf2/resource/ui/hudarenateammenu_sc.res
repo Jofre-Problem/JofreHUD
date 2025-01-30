@@ -100,7 +100,6 @@
 		//	"1"
 		"textAlignment"	"south-west"
 		"command"		"jointeam spectate"
-		"associated_model"	"autodoor"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -134,7 +133,6 @@
 		//	"2"
 		"textAlignment"	"south-west"
 		"command"		"jointeam spectatearena"
-		"associated_model"	"spectate"	
 		"fgcolor"		"255 255 255 255"
 	}
 

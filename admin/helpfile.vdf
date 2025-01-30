@@ -203,7 +203,6 @@
 
 "sv_voiceenable"
 	{
-		"text" "sv_voiceenable: enabled voice to be used on the server. Default:1"
 	}
 
 "sv_wateraccelerate"

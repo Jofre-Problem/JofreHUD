@@ -3,7 +3,6 @@
 	"PerfUIPanel"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"PerfUIPanel"
 		"xpos"		"750"
 		"ypos"		"275"
 		"wide"		"250"
@@ -15,7 +14,6 @@
 	"PerformanceTool"
 	{
 		"ControlName"		"ComboBox"
-		"fieldName"		"PerformanceTool"
 		"xpos"		"10"
 		"ypos"		"35"
 		"wide"		"230"

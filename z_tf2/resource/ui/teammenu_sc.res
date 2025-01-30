@@ -97,7 +97,6 @@
 		"textAlignment"	"south-west"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"associated_model"	"bluedoor"
 		"hover"				"2.0"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -132,7 +131,6 @@
 		"textAlignment"	"south-west"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
-		"associated_model"	"reddoor"	
 		"hover"				"2.0"
 		"fgcolor"		"255 255 255 255"
 	}
@@ -166,7 +164,6 @@
 		"labelText"		""
 		"textAlignment"	"south-west"
 		"command"		"jointeam auto"
-		"associated_model"	"autodoor"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -199,7 +196,6 @@
 		"labelText"		""
 		"textAlignment"	"south-west"
 		"command"		"jointeam spectate"
-		"associated_model"	"spectate"	
 		"fgcolor"		"255 255 255 255"
 	}
 

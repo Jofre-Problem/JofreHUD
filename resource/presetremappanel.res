@@ -3,7 +3,6 @@
 	"DmePresetRemapPanel"
 	{
 		"ControlName"	"CDmePresetRemapPanel"
-		"fieldName"		"DmePresetRemapPanel"
 		"xpos"			"147"
 		"ypos"			"128"
 		"wide"			"368"
@@ -15,7 +14,6 @@
 		"SourcePresetGroupLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"		"SourcePresetGroupLabel"
 			"xpos"		"6"
 			"ypos"		"32"
 			"wide"		"110"
@@ -31,7 +29,6 @@
 		"SourcePresetGroup"
 		{
 			"ControlName"		"ComboBox"
-			"fieldName"		"SourcePresetGroup"
 			"xpos"		"120"
 			"ypos"		"32"
 			"wide"		"242"
@@ -51,7 +48,6 @@
 		"OkButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"OkButton"
 			"xpos"		"6"
 			"ypos"		"350"
 			"wide"		"122"
@@ -68,7 +64,6 @@
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"fieldName"		"CancelButton"
 			"xpos"		"140"
 			"ypos"		"350"
 			"wide"		"122"
@@ -85,7 +80,6 @@
 		"PresetRemapList"
 		{
 			"ControlName"	"ListPanel"
-			"fieldName"		"PresetRemapList"
 			"xpos"			"6"
 			"ypos"			"60"
 			"wide"			"356"

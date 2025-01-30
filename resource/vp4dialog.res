@@ -3,7 +3,6 @@
 	"vp4dialog"
 	{
 		"ControlName"		"CVP4Dialog"
-		"fieldName"		"vp4dialog"
 		"xpos"		"147"
 		"ypos"		"128"
 		"wide"		"1024"
@@ -15,7 +14,6 @@
 	"ClientCombo"
 	{
 		"ControlName"		"ComboBox"
-		"fieldName"		"ClientCombo"
 		"xpos"		"16"
 		"ypos"		"32"
 		"wide"		"292"
@@ -32,7 +30,6 @@
 	"FileTree"
 	{
 		"ControlName"		"CFileTreeView"
-		"fieldName"		"FileTree"
 		"xpos"		"16"
 		"ypos"		"66"
 		"wide"		"292"
@@ -44,7 +41,6 @@
 	"ViewsSheet"
 	{
 		"ControlName"		"PropertySheet"
-		"fieldName"		"ViewsSheet"
 		"xpos"		"318"
 		"ypos"		"32"
 		"wide"		"682"
