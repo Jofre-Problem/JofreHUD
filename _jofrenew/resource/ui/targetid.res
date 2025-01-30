@@ -263,7 +263,7 @@
 	}	    
 	"TargetDataLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"		"cautofittinglabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"killfeeduber"//"Size 16 uber"
 		"xpos"			"0"
@@ -279,6 +279,19 @@
 	///	"auto_wide_tocontents"		"1"
 		"pin_to_sibling"		"TargetDataAnchor"
 		"bgcolor_override"	"0 0 0 0"
+
+		"fonts"
+		{	
+			"1" "killfeeduber"
+		}
+		"colors"
+		{	
+			"0" "red"
+			"1" "green" //uber
+			"2" "purple" //ammo
+			"3" "QualityColorComplete" //disguise
+			"4" "yellow"
+		}		
 	}
 	"TargetDataAnchor"
 	{
@@ -296,7 +309,7 @@
 	}	
 	"TargetDataLabelTrue"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"		"cautofittinglabel"
 		"fieldName"		"TargetDataLabelTrue"
 		"font"			"KillfeedUber"
 		"xpos"			"40"
@@ -313,6 +326,15 @@
 		////	"0"
 		////		"0"
 		"fgcolor"		"Notowhite"
+		"colors"
+		{	
+			"0" "red"
+			"1" "green" //uber
+			"2" "purple" //ammo
+			"3" "QualityColorComplete" //disguise
+			"4" "yellow"
+			"5" "blue"
+		}			
 	}
 	"TargetDataLabelTrue2"
 	{	

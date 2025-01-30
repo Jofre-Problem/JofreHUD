@@ -26,7 +26,6 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"image"					"replay/thumbnails/GradientTimer"
 		"border"	"noborder"
 	}
@@ -42,7 +41,6 @@
 		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"image"					"replay/thumbnails/GradientTimer"
 		"border"	"noborder"
 	}
@@ -58,7 +56,6 @@
 		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"image"					"replay/thumbnails/GradientTimer"
 		"border"	"noborder"
 	}

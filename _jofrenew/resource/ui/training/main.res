@@ -10,7 +10,6 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"bgcolor_override"	"0 0 0 0"
 	}
 
@@ -25,7 +24,6 @@
 		"tall"		"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
@@ -58,7 +56,6 @@
 			"tall"		"500"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"NotoWhite"
 		}
 
@@ -107,7 +104,6 @@
 			"tall"			"26"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"Back"
 			"font"			"NotoBold26"
 			"textAlignment"	"center"
@@ -143,7 +139,6 @@
 			"tall"			"26"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#Cancel"
 			"font"			"NotoBold26" 
 			"textAlignment"	"center"
@@ -180,7 +175,6 @@
 			"tall"				"400"
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"paintBackground"	"0"
 			
 			"TrainingTitle"		"#TF_Training_Title"
@@ -197,7 +191,6 @@
 			"tall"				"400"
 			"visible"			"0"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"paintBackground"	"0"
 			
 			"TrainingTitle"		"#TR_AttackDefense"
@@ -230,7 +223,6 @@
 			"tall"				"500"
 			"visible"			"0"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"paintBackground"	"0"
 			
 			"TrainingTitle"		"#TR_AttackDefense"
@@ -246,7 +238,6 @@
 			"tall"				"500"
 			"visible"			"0"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"paintBackground"	"0"
 			
 			"TrainingTitle"		"#TR_PracticeModeSelectTitle"
@@ -277,7 +268,6 @@
 			"tall"				"500"
 			"visible"			"0"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"paintBackground"	"0"
 			
 			"TrainingTitle"		"#TR_PracticeMapSelectTitle"

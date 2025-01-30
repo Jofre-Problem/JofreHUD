@@ -98,7 +98,6 @@
 		"tall"			"480"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"ForceStereoRenderToFrameBuffer" "1"
 	}
@@ -196,7 +195,6 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		"labelText"		"#CContinue"
 		"textAlignment"		"center"
 		"wrap"		"0"

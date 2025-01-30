@@ -9,7 +9,6 @@
 		"zpos"			"500"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"proportional"	"0"
 		"bgcolor_override"	"57 51 42 255"
 	}

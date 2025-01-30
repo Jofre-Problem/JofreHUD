@@ -172,7 +172,6 @@
 		"wide"			"p0.065"
 		"tall"			"40"
 		"tabPosition"	"1"	
-		"pinCorner"				"0"
 		paintBackground			1
 		paintBorder				0
 		"bgcolor_override"		"37 39 37 255"
@@ -295,11 +294,8 @@
 			"zpos"		"-10"
 			"wide"		"210"
 			"tall"		"80"
-			"autoResize"		"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"				"27 27 27 248"	//"27 27 27 248"
@@ -506,7 +502,6 @@
 		wide					15
 		tall					13//p0.043
 		//"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 			"pin_to_sibling"	"SafeMode2"
@@ -520,10 +515,8 @@
 		wide					15
 		tall					13
 			//"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"u"
 			"font"			"NewIcons9"
 			"textAlignment"	"center"

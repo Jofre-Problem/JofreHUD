@@ -10,7 +10,6 @@
 		"tall"			"415"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		
@@ -61,7 +60,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
 		"font"			"ReplayMedium"
 		"textAlignment"	"center"
@@ -86,7 +84,6 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#Replay_Go"
 		"font"			"ReplayMedium"
 		"textAlignment"	"center"

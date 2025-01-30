@@ -9,7 +9,6 @@
 		"zpos"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"proportional"	"1"
 		"bgcolor_override"	"0 0 0 0"
 		"anim_scale"	"7"

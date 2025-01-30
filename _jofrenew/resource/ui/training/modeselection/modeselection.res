@@ -10,7 +10,6 @@
 		"tall"				"300"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"paintBackground"	"0"
 		
 		"modename"			"#TR_AttackDefense"
@@ -29,7 +28,6 @@
 		"tall"				"300"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"paintBackground"	"0"
 		
 		"modename"			"#TF_OfflinePractice"

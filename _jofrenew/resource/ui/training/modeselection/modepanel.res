@@ -92,7 +92,6 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"#TF_Training_SelectMode"
 		"font"				"NotoBold30"
 		"textAlignment"		"center"

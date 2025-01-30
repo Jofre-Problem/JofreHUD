@@ -81,7 +81,6 @@
 				"autoResize"	"1"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"scaleImage"	"0"	
 				"Image"			"replay/thumbnails/panels/green"
 			}
@@ -112,7 +111,6 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 				"image"			"replay/thumbnails/panels/black"
 				
 				"alpha"		"220"

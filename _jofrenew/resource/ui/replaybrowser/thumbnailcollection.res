@@ -8,7 +8,6 @@
 		"tall"					"180"
 		"visible"				"1"
 		"enabled"				"1"
-		"tabPosition"			"0"
 		"settitlebarvisible"	"1"
 	}
 	
@@ -115,7 +114,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"%prevbuttontext%"
 		"font"			"ItemFontNameSmall"
 		"textAlignment"	"center"
@@ -140,7 +138,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"%nextbuttontext%"
 		"font"			"ItemFontNameSmall"
 		"textAlignment"	"center"

@@ -338,7 +338,6 @@
 		"wide"			"p0.065"
 		"tall"			"40"
 		"tabPosition"	"1"	
-		"pinCorner"				"0"
 		paintBackground			1
 		paintBorder				0
 		"bgcolor_override"		"Notodark"
@@ -461,11 +460,8 @@
 			"zpos"		"-10"
 			"wide"		"210"
 			"tall"		"80"
-			"autoResize"		"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"				"Notodark"	//"Notodark"
@@ -733,7 +729,6 @@
 		wide					13
 		tall					19//p0.043
 		//"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 
@@ -747,10 +742,8 @@
 		wide					13
 		tall					p0.043
 			//"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"1"
 			"font"			"Regular9"
 			"textAlignment"	"center"

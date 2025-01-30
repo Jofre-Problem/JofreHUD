@@ -17,7 +17,6 @@
 		"fieldName"			"SelectButton"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"%selectbuttontext%"
 		"font"				"NotoBold20"
 		"textAlignment"		"center"

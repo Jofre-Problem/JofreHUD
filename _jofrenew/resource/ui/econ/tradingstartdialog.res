@@ -383,7 +383,6 @@
 			//"pinCorner"		"0"
 			"visible"		"0"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"224 224 224 255"
 			"proportionalToParent"	"1"
 		}
@@ -401,7 +400,6 @@
 			//"pinCorner"		"0"
 			"visible"		"0"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"Notogray"
 			"proportionalToParent"	"1"
 			"alpha"	"150"
@@ -498,7 +496,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"Notogray"
 			"proportionalToParent"	"1"
 		}
@@ -516,7 +513,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"Notogray"
 			"proportionalToParent"	"1"
 			"alpha"	"150"
@@ -612,7 +608,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"224 224 224 255"
 			"proportionalToParent"	"1"
 		}
@@ -630,7 +625,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"250 250 250 255"
 			"proportionalToParent"	"1"
 		}
@@ -772,7 +766,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"Notowhite"
 			"alpha"	"180"
 		}
@@ -830,7 +823,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"0 0 0 255"
 			"proportionalToParent"	"1"
 		}
@@ -848,7 +840,6 @@
 			//"pinCorner"		"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"0 0 0 255"
 			"proportionalToParent"	"1"
 			"alpha"	"180"

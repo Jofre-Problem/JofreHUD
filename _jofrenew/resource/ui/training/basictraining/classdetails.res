@@ -10,7 +10,6 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"0"
 		"labelText"			"Start Training"
 		"font"				"NotoBold30"
 		"textAlignment"		"center"

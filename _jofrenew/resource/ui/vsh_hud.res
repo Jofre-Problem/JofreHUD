@@ -159,7 +159,6 @@
 			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"Image"			"vssaxtonhale/boss_bar_layer1"
 			"scaleImage"	"1"					
 		}
@@ -189,7 +188,6 @@
 				"autoResize"	"1"
 				"visible"		"1"
 				"enabled"		"1"
-				"tabPosition"	"0"
 				"scaleImage"	"0"	
 				"Image"			"vssaxtonhale/boss_bar"
 				"alpha"	"140"

@@ -392,7 +392,7 @@
 		"labelText"									"%redteamname%"
 		"visible"	"1"
 		"font"			"Notobold28"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"30 30 30 255"
 		"textAlignment"		"east"
 		"xpos"			"rs1-22"
 		"ypos"			"79" 
@@ -400,6 +400,8 @@
 		"wide"			"p0.5"
 		"allcaps"	"1"
 		"tall"			"20"	
+		"enabled" 0
+		"disabledfgcolor2_override" "notodark"
 	}					
 	"RedTeamScore"
 	{

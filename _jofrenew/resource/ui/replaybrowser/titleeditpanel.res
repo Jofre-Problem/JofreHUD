@@ -10,7 +10,6 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"CaratLabel"
@@ -44,7 +43,6 @@
 		"zpos"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"0 0 0 0"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
 		"Font"			"ReplayLarger"

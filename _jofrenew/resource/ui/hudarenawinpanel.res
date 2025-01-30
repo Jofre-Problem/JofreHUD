@@ -295,7 +295,6 @@
 		"tall"			"84"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 0"
 		"fillcolor_lodef"		"0 0 0 0"
 		"PaintBackgroundType"	"0"
@@ -387,7 +386,6 @@
 		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"0"
 	}

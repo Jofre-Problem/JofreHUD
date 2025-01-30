@@ -10,7 +10,6 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"setclosebuttonvisible"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
@@ -76,7 +75,6 @@
 			"zpos"	"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"notodark"
 		}	
 		"Background2"
@@ -90,7 +88,6 @@
 			"zpos"	"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"primaryt1"
 		}	
 		"Background"
@@ -157,7 +154,6 @@
 			"zpos"	"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"		"0"
 			"bgcolor_override"	"notoblack"
 		}	
 
@@ -1577,7 +1573,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"labelText"		"#Cancel"
 		"font"			"NotoBold28"
 		"textAlignment"	"center"
