@@ -24,7 +24,7 @@
 	
 //		#base "../resource/ui/ui2/position.res"
 //		#base "../resource/ui/ui2/heighto_left.res"
-	#base "../resource/fallback/targetid.res"
+//	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 	#base "../_minmode/scripts/hudlayout.res"
 "j"
@@ -142,16 +142,7 @@
 		"xpos" "9999"
 		"alpha" "0"
 		}			
-	CMainTargetID
-	{
 
-		"xpos"		"c-126"
-		"ypos"		"275"
-		"wide"	 	"252"
-		"tall"	 	"70"
-		"priority"	"40"
-		"zpos"	"1090"
-	}
 	"MedicIcon"
 	{
 		"ControlName"	"ctfimagepanel"
@@ -188,37 +179,13 @@
 								"xpos"		"-50"
 							}	
 	}
-	CSpectatorTargetID
-	{
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"-555" //-550
-		"wide"	 	"252"
-		"tall"	 	"1035"
-		"priority"	"40"
-		"zpos"	"1090"
-		"x_offset" "0"
-		"y_offset" "0"
-		
-		"pin_to_sibling" 	"CSpectatorTargetIDAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+	"CMainTargetID"
+	{	"xpos"	"0"	"ypos"	"r200"	"wide"	"f0"	"tall"	"f0"	"ypos_minmode"	"r230"	}
+	"CSecondaryTargetID"
+	{	"xpos"	"cs-0.5"	"ypos"	"r166"	"wide"	"f0"	"tall"	"f0"	"ypos_minmode"	"r201"	}
+	"CSpectatorTargetID"
+	{	"xpos"	"cs-0.5"	"ypos"	"300"	"wide"	"f0"	"tall"	"f0"	} 
 
-
-	}
-	
-	CSecondaryTargetID
-	{
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"-165"
-		"wide"	 	"252"
-		"tall"	 	"550"
-		"priority"	"35"
-		"zpos"	"1090"
-	}	
 	"DisguiseDust"
 	{
 		"ControlName"	"CTFParticlePanel"

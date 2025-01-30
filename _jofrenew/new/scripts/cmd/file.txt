@@ -5,19 +5,6 @@ event TestStart_B
 //	SetVisible CMainTargetID 1 0.0
 }
 
-event Test_B
-{
-//	SetVisible HudItemEffectMeter 1 0.0
-//	SetVisible CMainTargetID 1 0.0
-//	SetVisible HudScopeCharge 1 0.0
-   // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
-    RunEvent        TestLoop_B        0.01
-}
-
-event TestLoop_B
-{
-    RunEvent    Test_B    0.0
-}
 
 event ForceSafemode
 {

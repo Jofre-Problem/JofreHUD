@@ -322,8 +322,8 @@ Copy("sound/4plug/magnum_button2.wav", "sound/ui/buttonclickrelease.wav");
 }
 #if UI Sound Effects == "Half-Life"
 {
-Copy("sound/4plug/magnum_button.wav", "sound/ui/hl1-buttonclick.wav");
-Copy("sound/4plug/magnum_button2.wav", "sound/ui/hl1-buttonclickrelease.wav");
+Copy("sound/4plug/hl1-buttonclick.wav", "sound/ui/hl1-buttonclick.wav");
+Copy("sound/4plug/hl1-buttonclickrelease.wav", "sound/ui/hl1-buttonclickrelease.wav");
 }
 #if Boss Health == "Def"
 {
