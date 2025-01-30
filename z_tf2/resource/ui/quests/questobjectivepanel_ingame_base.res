@@ -9,8 +9,6 @@
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"18"
-		"enabled"		"1"	
-		
 		"PaintBackgroundType"	"2"
 
 		"enabled_text_color_override"		"235 226 202 255"
@@ -31,7 +29,6 @@
 		"tall"			"18"
 		"zpos"			"5"
 		"textinsetx"	"5"
-		"font"			"QuestObjectiveTracker_DescGlow"
 		"alpha"			"0"
 
 		"TextAlignment"		"north-east"
@@ -49,7 +46,6 @@
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"QuestObjectiveTracker_Desc"
 
 		"TextAlignment"		"north-east"
 		"proportionaltoparent" "1"
@@ -65,7 +61,6 @@
 		"wide"			"f0"
 		"tall"			"10"
 		"zpos"			"3"
-		"font"			"QuestObjectiveTracker_DescBlur"
 		"textinsetx"	"5"
 		"textAlignment"		"north-east"
 		"proportionaltoparent" "1"

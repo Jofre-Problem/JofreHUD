@@ -3,21 +3,17 @@
 	"CommentaryPropertiesPanel"
 	{
 		"ControlName"		"CCommentaryPropertiesPanel"
-		"fieldName"		"CommentaryPropertiesPanel"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
 		"tall"		"418"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 	"CommentaryNodeScroll"
 	{
 		"ControlName"		"CScrollableEditablePanel"
-		"fieldName"		"CommentaryNodeScroll"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
@@ -27,13 +23,11 @@
 		//"PinnedCornerOffsetY" "0"
 		//"UnpinnedCornerOffsetY" "0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"InfoTargetScroll"
 	{
 		"ControlName"		"CScrollableEditablePanel"
-		"fieldName"		"InfoTargetScroll"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"784"
@@ -43,7 +37,6 @@
 		//		"3"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 }

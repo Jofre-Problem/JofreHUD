@@ -24,8 +24,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
@@ -54,7 +52,6 @@
 		"tall"			"298"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}

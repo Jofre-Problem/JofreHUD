@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"3"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		//"PinnedCornerOffsetX" "0"
 		//"PinnedCornerOffsetY" "0"
@@ -32,8 +30,6 @@
 			//"PinnedCornerOffsetY" "0"
 			//"PinnedCornerOffsetY" "0"
 			//"UnpinnedCornerOffsetY" "0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 	}

@@ -11,7 +11,6 @@
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"0"
 		
 		"TipLabel"
@@ -22,17 +21,14 @@
 
 			if_null_small
 			{
-				"font"	"FontStoreOriginalPrice"
 			}
 
 			if_null_medium
 			{
-				"font"	"HudFontSmall"
 			}
 
 			if_null_large
 			{
-				"font"	"HudFontSmallBold"
 			}
 
 			"labelText"		"%tiptext%"
@@ -44,7 +40,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"auto_wide_tocontents" "1"
 			"auto_tall_tocontents"	"1"

@@ -4,7 +4,6 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Marker"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"x"
 		"textAlignment" "center"
 		"xpos"			"0"
@@ -24,8 +23,6 @@
 		"tall"			"20"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
-		
 		"model_ypos"	"0"
 		"model_tall"	"20"
 		"model_wide"	"32"

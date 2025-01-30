@@ -3,14 +3,12 @@
 	"ReplayInputPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ReplayInputPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"10"
 		"bgcolor_override"	"0 0 0 50"
 	}
@@ -18,7 +16,6 @@
 	"Dlg"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Dlg"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -26,8 +23,6 @@
 		"tall"			"120"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"10"
 		"bgcolor_override"	"ReplayBrowser.BgColor"
 		"border"		"EconItemBorder"
@@ -39,8 +34,6 @@
 		"NameYourReplayLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"NameYourReplayLabel"
-			"font"			"EconFontSmall"
 			"labelText"		"#Replay_NameYourReplay"
 			"xpos"			"13"
 			"ypos"			"8"
@@ -49,16 +42,12 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"10"
 		}
 		
 		"EnterANameLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"EnterANameLabel"
-			"font"			"DefaultVerySmall"
 			"labelText"		"#Replay_EnterYourName"
 			"xpos"			"13"
 			"ypos"			"18"
@@ -67,16 +56,12 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"10"
 		}
 		
 		"TitleInput"
 		{
 			"ControlName"	"TextEntry"
-			"fieldName"		"TitleInput"
-			"font"			"ReplayBrowserSmallest"
 			"unicode"		"1"
 			"xpos"			"13"
 			"ypos"			"50"
@@ -85,8 +70,6 @@
 			"tall"			"15"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"117 107 95 255"
 			"fgcolor_override"		"202 190 164 255"
 			//	"10"
@@ -96,7 +79,6 @@
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
-			"fieldName"		"CancelButton"
 			"xpos"			"207"
 			"ypos"			"90"
 			"zpos"			"20"
@@ -104,22 +86,15 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
 			"labelText"		"#GameUI_CancelBold"
-			"font"			"ReplayMediumSmall"
 			"textAlignment"	"center"
-			"textinsetx"	"50"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}		
 
 		"SaveButton"
 		{
 			"ControlName"	"CExButton"
-			"fieldName"		"SaveButton"
 			"xpos"			"103"
 			"ypos"			"90"
 			"zpos"			"20"
@@ -127,16 +102,10 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 			"labelText"		"#Replay_Save"
-			"font"			"ReplayMediumSmall"
 			"textAlignment"	"center"
-			"textinsetx"	"50"
 			"Command"		"save"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}			
 	}
 }

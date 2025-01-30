@@ -10,11 +10,7 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"Select Sequence/Activity"
 		
 		"OpenButton"
 		{
@@ -26,14 +22,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"0"
 			//		"0"
 			"labelText"		"Open"
-			"textAlignment"		"center"
 			////		"0"
 			////		"0"
-			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -46,14 +38,10 @@
 			"tall"		"24"
 			//	"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 			"labelText"		"Cancel"
-			"textAlignment"	"center"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"SequencePicker"
@@ -66,8 +54,6 @@
 			"tall"			"420"
 			//	"3"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 	}

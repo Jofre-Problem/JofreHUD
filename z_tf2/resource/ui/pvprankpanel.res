@@ -23,10 +23,7 @@
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
-			if_null_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
+
 
 			"ParticleEffects"
 			{
@@ -55,7 +52,6 @@
 			"tall"			"p0.12"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fov"			"70"
 			"proportionaltoparent"	"1"
 
@@ -120,10 +116,6 @@
 
 			"paintbackground"	"0"
 
-			if_null_mini
-			{
-				"xpos"		"cs-0.5-228"
-			}
 
 			"ParticleEffects"
 			{
@@ -190,13 +182,7 @@
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
 
-		if_null_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
+
 
 		"NameLabel"
 		{
@@ -207,17 +193,11 @@
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
-			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
-			if_null_mini
-			{
-				"visible"	"0"
-			}
 		}
 
 		"DescLine1"
@@ -229,24 +209,14 @@
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
-			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-
-			if_null_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
 				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
 			}
 		}
 
@@ -259,24 +229,14 @@
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
-			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
-
-			if_null_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
 			"fonts"
 			{
 				"0"		"HudFontSmallestBold"
 				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
 			}
 
 			"colors"
@@ -324,8 +284,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -341,8 +299,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
@@ -399,7 +355,6 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"InnerShadowBorderThin"
 					}
 				}
 			}
@@ -416,11 +371,6 @@
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"0 0 0 150"
 
-				"if_null_mini"
-				{
-					"visible"		"0"
-				}
-
 				"Frame"
 				{
 					"ControlName"	"EditablePanel"
@@ -431,7 +381,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
 				}
 
 
@@ -446,8 +395,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_games%"
@@ -463,8 +410,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_kills%"
@@ -480,8 +425,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_deaths%"
@@ -498,8 +441,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_damage%"
@@ -515,8 +456,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
@@ -532,8 +471,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_support%"
@@ -550,8 +487,6 @@
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_score%"

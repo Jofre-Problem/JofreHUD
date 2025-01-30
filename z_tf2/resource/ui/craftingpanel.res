@@ -11,10 +11,8 @@
 		"zpos"			"501"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -78,7 +76,6 @@
 					"tall"			"30"
 					//	"0"
 					//		"0"
-					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
 					"fgcolor"		"235 226 202 255"
@@ -90,7 +87,6 @@
 		
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -99,7 +95,6 @@
 			//	"0"
 			//		"0"
 			"centerwrap"	"0"
-			"textAlignment" "west"
 			"textinsetx"	"0"
 			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
@@ -121,12 +116,10 @@
 			"tall"				"30"
 			//		"0"
 			//			"0"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
-			"font"				"MenuKeys"
 			"scaleImage"		"1"
 		}	
 	}
@@ -135,7 +128,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-290"
@@ -145,7 +137,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
 	
@@ -165,9 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%recipetitle%"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"1"
@@ -175,7 +164,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
@@ -184,7 +172,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeInputStringLabel"
-			"font"			"ItemFontAttribLarge"
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -194,7 +181,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"153 204 255 255"
 			"wrap"			"1"
 		}
@@ -203,7 +189,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -213,14 +198,12 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -230,7 +213,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
 		
@@ -247,7 +229,6 @@
 			//		"0"
 			//	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"craft"
@@ -257,9 +238,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeAccountLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#Craft_PremiumRecipe"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"318"
 			"zpos"			"21"
@@ -267,7 +246,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"178 82 22 255"
 		}
@@ -282,10 +260,8 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_Trial_Upgrade"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"upgrade"
@@ -347,7 +323,6 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -355,7 +330,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -403,13 +377,11 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -419,7 +391,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
@@ -438,10 +409,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"reloadscheme"

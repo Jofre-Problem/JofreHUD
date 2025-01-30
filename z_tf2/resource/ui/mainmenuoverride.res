@@ -3,7 +3,6 @@
 	"MainMenuOverride"
 	{
 		"fieldName"									"MainMenuOverride"
-		"enabled"									"1"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
@@ -28,9 +27,7 @@
 				"ypos"								"0"
 				"wide"								"f0"
 				"tall"								"f0"
-				"enabled"							"1"
 				"AllCaps"				 			"1"
-				"font"								"MenuMainTitle"
 				"textAlignment"						"center"
 				"default"							"1"
 				"proportionaltoparent"				"1"
@@ -57,8 +54,6 @@
 		"zpos"										"16"
 		"wide"										"150"
 		"tall"										"18"
-		"enabled"									"1"
-
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"ControlName"							"CExImageButton"
@@ -68,10 +63,8 @@
 			"zpos"									"1"
 			"wide"									"f0"
 			"tall"									"f0"
-			"enabled"								"1"
 			"AllCaps"				 				"1"
 			"labelText"								"notification"
-			"font"									"MenuMainTitle"
 			"textAlignment"							"center"
 			"default"								"1"
 			"actionsignallevel"  					"2"
@@ -106,9 +99,7 @@
 			"zpos"									"10"
 			"wide"									"14"
 			"tall"									"14"
-			"enabled"								"1"
 			"labeltext"								""
-			"font"									"HudFontSmallBold"
 			"textAlignment"							"center"
 			"actionsignallevel"						"2"
 			"Command"								"noti_hide"
@@ -128,7 +119,6 @@
 				"zpos"								"1"
 				"wide"								"14"
 				"tall"								"14"
-				"enabled"							"1"
 				"image"								"close_button"
 				"scaleImage"						"1"
 			}
@@ -138,14 +128,12 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"Notifications_TitleLabel"
-			"font"									"HudFontSmallBold"
 			"labelText"								"%notititle%"
 			"textAlignment"							"north-west"
 			"xpos"									"12"
 			"ypos"									"8"
 			"wide"									"250"
 			"tall"									"20"
-			"enabled"								"1"
 			"fgcolor"								"235 226 202 255"
 			"wrap"									"1"
 		}
@@ -158,7 +146,6 @@
 			"ypos"									"25"
 			"wide"									"210"
 			"tall"									"135"
-			"PaintBackgroundType"					"0"
 			"fgcolor_override"						"117 107 94 255"
 
 			"Notifications_Control"
@@ -196,7 +183,6 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"MenuThumbMissingFix"
 		"xpos"										"9999"
-		"enabled"									"1"
 		"image"										"../vgui/maps/menu_thumb_Missing"
 	}
 }

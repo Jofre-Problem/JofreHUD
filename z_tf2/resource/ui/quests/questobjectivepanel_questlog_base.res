@@ -9,7 +9,6 @@
 		"zpos"			"300"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"	
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
 		
@@ -32,7 +31,6 @@
 		"tall"			"f0"
 		"zpos"			"4"
 		//"textinsetx"	"400"
-		"font"			"QuestObjectiveText"
 
 		"wrap"				"1"
 		"TextAlignment"		"north-west"
@@ -51,7 +49,6 @@
 		"tall"			"f0"
 		"zpos"			"4"
 		"visible"		"0"
-		"font"			"QuestObjectiveTracker_DescBlur"
 		"textinsetx"	"5"
 		"textAlignment"		"north-west"
 		"wrap"			"1"

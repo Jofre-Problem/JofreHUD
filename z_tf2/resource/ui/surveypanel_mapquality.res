@@ -10,7 +10,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"#TF_SurveyQuestion_MapQuality"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -20,7 +19,6 @@
 				"tall"			"30"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				"centerwrap"	"1"
 				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"
@@ -29,7 +27,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MapLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"%mapname%"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -39,7 +36,6 @@
 				"tall"			"30"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				"centerwrap"	"1"
 				"fgcolor_override" "Orange"
 				"proportionaltoparent"	"1"
@@ -67,7 +63,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"PaintBackgroundType"	"2"
-					"border"		"InnerShadowBorder"
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"	"0"
 				}
@@ -100,7 +95,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating0"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 
 					"associate"		"Radio0"
@@ -134,7 +128,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating1"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 				}
 
@@ -166,7 +159,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating2"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 					"default"		"1"
 				}
@@ -199,7 +191,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating3"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 				}
 
@@ -231,7 +222,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_Rating4"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"center"
 				}
 			}
@@ -246,7 +236,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"proportionaltoparent"	"1"

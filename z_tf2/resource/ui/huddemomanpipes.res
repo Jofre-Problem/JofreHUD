@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"38"
-		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -27,18 +26,15 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"TFFontSmall"
 	}
 
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
-		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
 		"zpos"					"2"
@@ -46,7 +42,6 @@
 		"tall"					"6"				
 		//			"0"
 		//				"0"
-		"enabled"				"1"
 		"textAlignment"			"Left"
 	}				
 		
@@ -67,7 +62,6 @@
 			"ypos"			"16"
 			"wide"			"20"
 			"tall"			"20"
-			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
@@ -85,11 +79,8 @@
 			"tall"			"20"
 			//	"1"
 			//		"2"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
-			"font"			"HudFontMedium"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -102,11 +93,8 @@
 			"tall"			"20"
 			//	"1"
 			//		"2"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
-			"font"			"HudFontMedium"
 			"fgcolor"		"black"
 		}		
 	}
@@ -128,7 +116,6 @@
 			"ypos"			"16"
 			"wide"			"20"
 			"tall"			"20"
-			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
@@ -146,12 +133,9 @@
 			"tall"			"20"
 			//	"1"
 			//		"2"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
 			"dulltext"		"1"
-			"font"			"HudFontMedium"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -164,12 +148,9 @@
 			"tall"			"20"
 			//	"1"
 			//		"2"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"%activepipes%"
-			"textAlignment"	"west"
 			"dulltext"		"1"
-			"font"			"HudFontMedium"
 			"fgcolor"		"black"
 		}			
 	}				

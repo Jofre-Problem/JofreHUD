@@ -9,10 +9,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
@@ -46,8 +44,6 @@
 				"bgcolor_override"		"0 0 0 255"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
-				"paintborder"	"0"
-				
 				"model_xpos"	"2"
 				"model_ypos"	"0"
 				"model_wide"	"85"
@@ -72,7 +68,6 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
 				"textAlignment"	"north-east"
 				"xpos"			"70"
 				"ypos"			"45"
@@ -81,7 +76,6 @@
 				"tall"			"10"
 				"autoResize"	"1"
 				//		"0"
-				"enabled"		"1"
 				"labelText"		"%quantity%"
 			}
 			
@@ -94,7 +88,6 @@
 				"zpos"			"5"
 				"wide"			"580"
 				"tall"			"5"
-				"enabled"		"1"
 				"image"			"loadout_solid_line"
 			}			
 			
@@ -108,10 +101,8 @@
 				"wide"			"100"
 				"tall"			"25"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		"#Store_Remove"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"remove"
@@ -121,7 +112,6 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"PriceLabel"
-				"font"			"FontCartPrice"
 				"textAlignment"	"east"
 				"xpos"			"475"
 				"ypos"			"0"
@@ -130,7 +120,6 @@
 				"tall"			"60"
 				"autoResize"	"1"
 				//		"0"
-				"enabled"		"1"
 				"labelText"		"%price%"
 				"fgcolor_override" "130 120 104 255"
 			}
@@ -146,7 +135,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"55"
-		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
 	"BackgroundFooter"
@@ -158,7 +146,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
 	"FooterLine"
@@ -170,7 +157,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -194,7 +180,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -203,9 +188,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"%storecart%"
-			"textAlignment"	"west"
 			"xpos"			"c-300"
 			"ypos"			"25"
 			"zpos"			"1"
@@ -213,7 +196,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"SeparatorLine"
@@ -225,7 +207,6 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"enabled"		"1"
 			"image"			"loadout_solid_line"
 		}				
 		
@@ -233,7 +214,6 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"EmptyCartLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_CartIsEmpty"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
@@ -244,7 +224,6 @@
 			"autoResize"	"1"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 		}
 		
 		"ItemListContainerScroller"
@@ -282,7 +261,6 @@
 					"zpos"			"99"
 					"wide"			"32"
 					"tall"			"32"
-					"enabled"		"1"
 					"image"			"store_special"
 					"scaleImage"	"1"
 				}
@@ -299,7 +277,6 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"EstimatedTotalLabel"
-						"font"			"HudFontSmall"
 						"labelText"		"#Store_EstimatedTotal"
 						"textAlignment"	"south-east"
 						"xpos"			"0"
@@ -309,13 +286,11 @@
 						"tall"			"15"
 						"autoResize"	"1"
 						//		"0"
-						"enabled"		"1"
 					}
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"WashingtonStateSalesTaxLabel"
-						"font"			"HudFontSmallest"
 						"labelText"		"#Store_WAStateSalesTax"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -325,14 +300,12 @@
 						"tall"			"12"
 						"autoResize"	"1"
 						//		"0"
-						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"TotalSubtextLabelB"
-						"font"			"HudFontSmallest"
 						"labelText"		"#Store_TotalSubtextB"
 						"textAlignment"	"north-east"
 						"xpos"			"0"
@@ -342,7 +315,6 @@
 						"tall"			"12"
 						"autoResize"	"1"
 						//		"0"
-						"enabled"		"1"
 						"fgcolor_override" "130 120 104 255"
 					}
 					
@@ -350,7 +322,6 @@
 					{
 						"ControlName"	"Label"
 						"fieldname"		"TotalPriceLabel"
-						"font"			"FontCartPrice"
 						"textAlignment"	"east"
 						"xpos"			"475"
 						"ypos"			"0"
@@ -359,7 +330,6 @@
 						"tall"			"60"
 						"autoResize"	"1"
 						//		"0"
-						"enabled"		"1"
 						"labelText"		"%totalprice%"
 						"fgcolor_override" "130 120 104 255"
 					}
@@ -378,10 +348,8 @@
 			"wide"			"130"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Store_Checkout"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"checkout"
@@ -397,10 +365,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Store_ContinueShopping"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"

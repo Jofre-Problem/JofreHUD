@@ -8,8 +8,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-				
 		"team1_player_base_offset_x"		"-75"
 		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"-47"
@@ -33,7 +31,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -51,7 +48,6 @@
 					"ypos"				"25"
 					"wide"				"55"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
 				}
 			}
 			
@@ -64,7 +60,6 @@
 				"zpos"			"2"
 				"wide"			"22"
 				"tall"			"22"
-				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
 				
@@ -88,10 +83,7 @@
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
-				"enabled"		"1"
 				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
-				
 				if_null_mvm
 				{
 				}
@@ -106,7 +98,6 @@
 				"zpos"				"3"
 				"wide"				"32"
 				"tall"				"32"
-				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
 				"HealthDeathWarning"		"0.49"
 				"TFFont"					"HudFontSmallest"
@@ -126,7 +117,6 @@
 				//	"0"
 				//		"0"
 				"visible"		"0"
-				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
 				"src_corner_height"	"22"				// pixels inside the image
@@ -152,7 +142,6 @@
 				//	"0"
 				//		"0"
 				"visible"		"0"
-				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
 
@@ -165,7 +154,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
 				"xpos"			"30"
 				"ypos"			"18"
 				"zpos"			"5"
@@ -174,7 +162,6 @@
 				//	"0"
 				//		"0"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
 				
 				if_null_mvm
@@ -187,7 +174,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
@@ -204,7 +190,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
 				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
@@ -267,10 +252,8 @@
 		"tall"			"18"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
 		
 		if_null_mvm
 		{
@@ -291,10 +274,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -368,8 +349,6 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
@@ -396,7 +375,6 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -404,7 +382,6 @@
 			"tall"			"9"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 		}
@@ -413,7 +390,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -421,7 +397,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"
@@ -438,6 +413,5 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 	}		
 }

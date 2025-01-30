@@ -10,7 +10,6 @@
 		"tall"		"140"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 	}
 	"CommentaryScreenshotBackground"
 	{
@@ -41,7 +40,6 @@
 		"ypos"		"8"
 		"wide"		"180"
 		"tall"		"24"
-		"font"		"UiBold"
 		"textAlignment"	"north-west"
 	}
 	
@@ -56,6 +54,5 @@
 		//		"0"
 		//		"0"
 		"textAlignment"	"north-west"
-		"font"	"DefaultSmall"
 	}
 }

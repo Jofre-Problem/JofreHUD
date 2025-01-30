@@ -199,7 +199,7 @@ Copy("_4plug/4plug_overrides/sourcescheme/solar.res", "_4plug/resource/sourcesch
 }
 #if Map Radar == "Null"
 {
-Copy("_4plug/null.res", "_4plug/scripts/animations/!radar.txt");		
+Copy("_4plug/4plug_overrides/Radar/radar_off.txt", "_4plug/scripts/animations/!radar.txt");		
 }
 #if Map Radar == "ON"
 {

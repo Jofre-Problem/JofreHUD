@@ -11,7 +11,6 @@
 		"tall"			"44"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"	"1"
 	}
@@ -24,7 +23,6 @@
 		"ypos"			"9"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_notify_sixty_seconds"
 	}
@@ -33,15 +31,12 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"Default"
 		"xpos"			"30"
 		"ypos"			"9"
 		"wide"			"200"
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"60 seconds until gates open"
-		"textAlignment"	"West"
 	}
 }

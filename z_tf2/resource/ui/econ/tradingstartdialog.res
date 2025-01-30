@@ -3,7 +3,6 @@
 	"TradingStartDialog"
 	{
 		"fieldName"				"TradingStartDialog"
-		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"80"
 		"wide"					"400"
@@ -11,7 +10,6 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
 		
 		"button_kv"
 		{
@@ -27,11 +25,8 @@
 				"wide"			"350"
 				"tall"			"30"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
 				"default"		"1"
@@ -47,7 +42,6 @@
 				"wide"			"20"
 				"tall"			"20"
 				"image"			""
-				"enabled"		"1"
 				"scaleImage"	"1"	
 				"color_outline"	"52 48 45 255"
 			}
@@ -58,7 +52,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -67,7 +60,6 @@
 		"wide"			"400"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -98,7 +90,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel0"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"50"
 		"wide"	 				"400"
@@ -109,7 +100,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -118,7 +108,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 
@@ -132,10 +121,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"friends"
@@ -150,10 +137,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"server"
@@ -168,10 +153,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"profile"
@@ -181,7 +164,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel1"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"50"
 		"wide"	 				"400"
@@ -192,7 +174,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_Friends"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -200,7 +181,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -208,7 +188,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -217,7 +196,6 @@
 			"wide"			"400"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
@@ -227,7 +205,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel2"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"50"
 		"wide"	 				"400"
@@ -238,7 +215,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_Server"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -247,7 +223,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -255,7 +230,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_ServerNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -264,7 +238,6 @@
 			"wide"			"400"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
@@ -274,7 +247,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel3"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"50"
 		"wide"	 				"400"
@@ -285,7 +257,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_TradeStartDialog_Profile"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -294,7 +265,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -302,7 +272,6 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLHelpLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -311,7 +280,6 @@
 			"wide"			"400"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "117 107 94 255"
@@ -321,7 +289,6 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLFailLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -331,7 +298,6 @@
 			"tall"			"40"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 80 60 255"
@@ -340,7 +306,6 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLSearchingLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_TradeStartDialog_ProfileLookup"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -350,7 +315,6 @@
 			"tall"			"40"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 80 60 255"
@@ -366,7 +330,6 @@
 			"tall"				"24"
 			"autoResize"		"1"
 			//			"0"
-			"enabled"			"1"
 			//		"0"
 			"editable"			"1"
 			"maxchars"			"256"
@@ -374,8 +337,6 @@
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
-			"font"				"HudFontSmall"
-			"textAlignment"		"west"
 		}
 		
 		"subbutton0"
@@ -388,10 +349,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"url_ok"
@@ -408,10 +367,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"cancel"

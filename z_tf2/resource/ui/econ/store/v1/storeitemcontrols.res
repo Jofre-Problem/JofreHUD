@@ -10,7 +10,6 @@
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 
 	"AddToCart"
@@ -22,12 +21,9 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"textinsetx"	"100"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
 		"default"		"1"
 		
 		"border_default"	"MainMenuMiniButtonDefault"
@@ -54,7 +50,6 @@
 			"zpos"			"1"
 			"wide"			"9"
 			"tall"			"9"
-			"enabled"		"1"
 			"image"			"store_cart"
 			"scaleImage"	"1"
 		}				

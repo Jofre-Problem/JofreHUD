@@ -3,7 +3,6 @@
 	"QueueHUDStatus"
 	{
 		"fieldName"				"QueueHUDStatus"
-		"enabled"				"1"
 		"xpos"					"rs1-5"
 		"ypos"					"1"
 		"zpos"					"1001"
@@ -41,8 +40,6 @@
 		"wide"			"f35"
 		"zpos"			"100"
 		"tall"			"f0"
-		"enabled"		"1"
-		"font"			"AchievementTracker_Name"
 		"fgcolor_override"	"TanLight"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"

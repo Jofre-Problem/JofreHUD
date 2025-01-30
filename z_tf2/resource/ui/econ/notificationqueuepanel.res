@@ -9,8 +9,6 @@
 		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"100"
-		"enabled"		"1"
-
 		"buffer_between_visible"	"5"
 		"overlap_offset_y"			"35"
 		"overlap_offset_x"			"10"

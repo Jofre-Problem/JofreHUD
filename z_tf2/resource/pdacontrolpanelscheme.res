@@ -245,7 +245,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"48"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -257,7 +256,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}

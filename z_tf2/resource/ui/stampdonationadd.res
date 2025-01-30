@@ -9,17 +9,14 @@
 		"wide"			"450"
 		"tall"			"260"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -29,14 +26,12 @@
 		"tall"			"30"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%text%"
 		"textAlignment"	"north-west"
 		"xpos"			"35"
@@ -45,7 +40,6 @@
 		"wide"			"340"
 		"tall"			"50"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -54,7 +48,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel2"
-		"font"			"HudFontSmallest"
 		"labelText"		"#Store_ConfirmStampDonationAddText2"
 		"textAlignment"	"north-west"
 		"xpos"			"35"
@@ -63,7 +56,6 @@
 		"wide"			"330"
 		"tall"			"170"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -77,7 +69,6 @@
 		"wide"			"150"
 		"tall"			"150"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"scaleImage"		"1"
 	}
@@ -91,7 +82,6 @@
 		"wide"			"140"
 		"tall"			"140"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"scaleImage"		"1"
 	}
@@ -106,10 +96,8 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_Nope"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"nope"
@@ -125,10 +113,8 @@
 		"wide"			"175"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"add_stamp_to_cart"
@@ -138,7 +124,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%price%"
 		"textAlignment"	"north-east"
 		"xpos"			"345"
@@ -147,7 +132,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "121 195 58 255"
 	}

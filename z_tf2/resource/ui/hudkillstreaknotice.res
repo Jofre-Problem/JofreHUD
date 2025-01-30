@@ -10,7 +10,6 @@
 		"wide"			"500"
 		"tall"			"50"
 		//	"0"
-		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 160"	
 	}
@@ -19,7 +18,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

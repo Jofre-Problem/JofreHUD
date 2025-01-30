@@ -14,7 +14,6 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -22,7 +21,6 @@
 		"zpos"			"10"
 		"wide"			"f20"
 		"tall"			"30"
-		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 		"proportionaltoparent"	"1"
 	}
@@ -31,7 +29,6 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DescText"
-		"font"			"HudFontSmall"
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -39,7 +36,6 @@
 		"zpos"			"10"
 		"wide"			"f20"
 		"tall"			"30"
-		"enabled"		"1"
 		"fgcolor_override" "Orange"
 		"proportionaltoparent"	"1"
 	}
@@ -53,7 +49,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 	}
 
@@ -83,7 +78,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
 		"CTFLogoPanel"
@@ -105,14 +99,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
 			"ypos"			"r30"
 			"wide"			"f20"
 			"tall"			"30"
-			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -129,7 +121,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
 		"CTFLogoPanel"
@@ -151,14 +142,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
 			"ypos"			"r40"
 			"wide"			"f20"
 			"tall"			"30"
-			"enabled"		"1"
 			"fgcolor_override" "CreditsGreen"
 			"proportionaltoparent"	"1"
 		}
@@ -175,7 +164,6 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
 		"CTFLogoPanel"
@@ -197,14 +185,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
 			"ypos"			"r40"
 			"wide"			"f20"
 			"tall"			"30"
-			"enabled"		"1"
 			"fgcolor_override" "RedSolid"
 			"proportionaltoparent"	"1"
 			"centerwrap"	"1"
@@ -232,10 +218,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"cancel"
@@ -259,10 +243,8 @@
 		"tall"			"25"
 		"default"		"1"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_QuestView_RedeemReward"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"accept"

@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"enabled"		"1"
 		"xpos"			"r216"
 		"ypos"			"r57"
 		"wide"			"100"
@@ -21,7 +20,6 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
@@ -39,18 +37,15 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
-		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
 		"xpos"					"45"
 		"ypos"					"23"
 		"zpos"					"2"
@@ -58,7 +53,6 @@
 		"tall"					"5"				
 		//			"0"
 		//				"0"
-		"enabled"				"1"
 		"textAlignment"			"Left"
 	}
 	
@@ -74,11 +68,9 @@
 		//			"1"
 		//				"2"
 		"visible"				"0"
-		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_KILLCOMBO"
 		"textAlignment"			"center"
-		"font"					"TFFontSmall"
 	}
 	
 	"KillComboClassIcon1"
@@ -90,7 +82,6 @@
 		"wide"			"12"
 		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/leaderboard_class_scout"
 		"scaleImage"	"1"	
 	}
@@ -103,7 +94,6 @@
 		"wide"			"12"
 		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/leaderboard_class_scout"
 		"scaleImage"	"1"	
 	}
@@ -116,7 +106,6 @@
 		"wide"			"12"
 		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/leaderboard_class_scout"
 		"scaleImage"	"1"	
 	}

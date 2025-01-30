@@ -9,7 +9,6 @@
 		"zpos"			"20"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 	}
 
 	"AddToCartButton"
@@ -23,10 +22,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"addtocart"
 		
@@ -49,7 +46,6 @@
 			"zpos"			"13"
 			"wide"			"18"
 			"tall"			"18"
-			"enabled"		"1"
 			"image"			"store_cart"
 			"scaleImage"	"1"
 		}				

@@ -3,19 +3,16 @@
 	"AbuseReportSubmitDialog"
 	{
 		"fieldName"				"AbuseReportSubmitDialog"
-		"enabled"				"1"
 		"xpos"					"c-280"
 		"ypos"					"c-240"
 		"wide"					"560"
 		"tall"					"405"
-		"border"				"GrayDialogBorder"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#AbuseReport_DialogTitle"
 		"textAlignment"	"north-west"
 		"xpos"			"10"
@@ -37,7 +34,6 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 	}
 
 	"PlayerRadio"
@@ -51,7 +47,6 @@
 		"wide"		"170"
 		"tall"		"20"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 	}
 
 	"PlayerLabel"
@@ -65,7 +60,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 	}
 
 	"PlayerComboBox"
@@ -78,7 +72,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -100,7 +93,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 	}
 
 	"AbuseContentComboBox"
@@ -113,7 +105,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -135,7 +126,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 	}
 
 	"AbuseTypeComboBox"
@@ -148,7 +138,6 @@
 		"wide"		"170"
 		"tall"		"15"
 		"editable"		"0"
-		"font"			"HudFontSmall"
 
 		//"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
@@ -167,7 +156,6 @@
 		"ypos"			"40"
 		"wide"			"360"
 		"tall"			"200"
-		"enabled"		"1"
 	}
 
 	"ScreenShotAttachCheckButton"
@@ -180,8 +168,6 @@
 		"wide"			"360"
 		"tall"			"18"
 		"labelText"		"Screenshot shows abuse; upload it with report."
-		"font"			"HudFontSmall"
-		"textAlignment"	"west"
 	}
 
 	"AvatarImage"
@@ -192,7 +178,6 @@
 		"ypos"			"40"
 		"wide"			"200"
 		"tall"			"200"
-		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 
@@ -204,9 +189,7 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoAvatar"
-		"font"			"HudFontSmall"
 		"centerwrap"	"1"
 	}
 
@@ -218,7 +201,6 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"enabled"		"1"
 	}
 
 	"CustomTexturePrevButton"
@@ -232,10 +214,8 @@
 		"tall"			"43"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"prevcustomtexture"
@@ -252,10 +232,8 @@
 		"tall"			"43"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"nextcustomtexture"
@@ -269,9 +247,7 @@
 		"ypos"			"40"
 		"wide"			"220"
 		"tall"			"220"
-		"enabled"		"1"
 		"labelText"		"#AbuseReport_NoCustomTextures"
-		"font"			"HudFontSmall"
 		"centerwrap"	"1"
 	}
 
@@ -286,7 +262,6 @@
 		"wide"		"140"
 		"tall"		"15"
 		"editable"		"0"
-		"font"		"HudFontSmall"
 	}
 
 	"DescriptionTextEntry"
@@ -298,11 +273,9 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"90"
-		"font"		"HudFontSmall"
 		//"bgcolor_override"		"117 107 95 255"
 		"bgcolor_override"		"0 0 0 255"
 		"fgcolor_override"		"202 190 164 255"
-		//"border"	"TFThinLineBorder"
 		"maxchars"		"512"
 	}
 
@@ -316,7 +289,6 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_Discard"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"discard"
 	}
@@ -331,7 +303,6 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_Submit"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"submit"
 	}
@@ -346,7 +317,6 @@
 		"wide"			"130"
 		"tall"			"25"
 		"labelText"		"#AbuseReport_SaveForLater"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 	}

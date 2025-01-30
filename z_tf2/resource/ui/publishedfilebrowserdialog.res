@@ -9,11 +9,9 @@
 		"wide"		"600"
 		"tall"		"292"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"1"
 		"Title"		"#TF_PublishedFiles_Browse"
-		"border"				"QuickplayBorder"
 	}
 
 	"Background"
@@ -26,7 +24,6 @@
 		"wide"		"600"
 		"tall"		"292"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"40 37 37 255"
 	}
@@ -40,10 +37,8 @@
 		"wide"		"180"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishedFiles_Files"
-		"textAlignment"		"west"
 	}
 
 	"PublishedFileList"
@@ -55,9 +50,7 @@
 		"wide"		"300"
 		"tall"		"180"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
 	}
 	
 	"LabelPublishedFileTitle"
@@ -69,10 +62,8 @@
 		"wide"		"180"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishFile_TitleLabel"
-		"textAlignment"		"west"
 	}
 
 	"LabelPublishedFileTitleValue"
@@ -84,9 +75,7 @@
 		"wide"		"250"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"west"
 		"labelText"		""
 		// "editable"		"0"
 		// "maxchars"		"128"
@@ -101,10 +90,8 @@
 		"wide"		"180"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishFile_DescLabel"
-		"textAlignment"		"west"
 		"wrap"		"1"
 	}
 
@@ -117,7 +104,6 @@
 		"wide"		"250"
 		"tall"		"112"
 		//		"1"
-		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"north-west"
 		"wrap"		"1"
@@ -135,7 +121,6 @@
 		"wide"		"64"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishedFiles_Add"
 		"textAlignment"		"center"
@@ -151,7 +136,6 @@
 		"wide"		"64"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishedFiles_Delete"
 		"textAlignment"		"center"
@@ -167,7 +151,6 @@
 		"wide"		"64"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishedFiles_Edit"
 		"textAlignment"		"center"
@@ -183,7 +166,6 @@
 		"wide"		"64"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_PublishedFiles_Refresh"
 		"textAlignment"		"center"
@@ -199,7 +181,6 @@
 		"wide"		"64"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_CLOSE"
 		"textAlignment"		"center"

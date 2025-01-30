@@ -34,21 +34,18 @@
 		"PointsLabel"
 		{
 			"fgcolor_override"		"Black"
-			"font"			"QuestFlavorText"
 		}
 
 		"ProgressBarStandard" // current completed
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ProgressBarStandard"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"bgcolor_override"	"0 0 0 180"
 
 			"PointsLabelInvert"
 			{
-				"font"			"QuestFlavorText"
 				"fgcolor_override"	"White"
 			}
 		}
@@ -59,7 +56,6 @@
 
 			"PointsLabelInvert"
 			{
-				"font"			"QuestFlavorText"
 				"fgcolor_override"	"White"
 			}
 		}

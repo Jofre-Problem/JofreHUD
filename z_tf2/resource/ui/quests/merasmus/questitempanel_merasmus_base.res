@@ -70,7 +70,6 @@
 				"zpos"			"1"
 				"wide"			"f0"
 				"tall"			"o0.5"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"alpha"			"0"
 				"image"			"contracts\halloween\contracts_hilight"
@@ -91,7 +90,6 @@
 					"zpos"			"1"
 					"wide"			"f0"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"contracts\halloween\contracts_papers1"
 					"proportionaltoparent"	"1"
@@ -109,7 +107,6 @@
 					"zpos"			"199"
 					"wide"			"f0"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"contracts\halloween\contracts_papers_encoded"
 					"proportionaltoparent"	"1"
@@ -127,12 +124,10 @@
 					"wide"		"p0.63"
 					"tall"		"30"
 					//		"0"
-					"enabled"		"1"
 					//		"0"
 					"labelText"			"%title%"
 					"bgcolor_override"	"0 0 0 220"
 					"fgcolor"		"Black"
-					"font"			"QuestMediumText_Merasmus"
 					"textinsetx"		"0"
 					"textAlignment"	"center"
 					"auto_wide_tocontents"	"0"
@@ -162,7 +157,6 @@
 					"SubButton"
 					{
 						"wide"			"110"
-						"font"			"QuestInstructionText_Merasmus"
 						"labelText"		"#TF_Quest_PlayThisMap_Merasmission"
 
 						"auto_wide_tocontents"	"0"
@@ -197,7 +191,6 @@
 						"zpos"			"0"
 						"wide"			"f0"
 						"tall"			"f0"
-						"enabled"		"1"
 						"proportionaltoparent" "1"
 						"bgcolor_override"	"0 0 0 247"
 						"mouseinputenabled"	"0"
@@ -207,7 +200,6 @@
 					{
 						"labelText"		"#QuestLog_Identify_Merasmus"
 	
-						"font"			"QuestLargeText_Merasmus"
 						"allcaps"	"1"
 						"textAlignment"	"center"
 
@@ -238,7 +230,6 @@
 						"zpos"			"0"
 						"wide"			"f0"
 						"tall"			"f0"
-						"enabled"		"1"
 						"proportionaltoparent" "1"
 						"bgcolor_override"	"150 255 0 100"
 						"mouseinputenabled"	"0"
@@ -253,7 +244,6 @@
 						"zpos"			"0"
 						"wide"			"f0"
 						"tall"			"f0"
-						"enabled"		"1"
 						"proportionaltoparent" "1"
 						"bgcolor_override"	"0 0 0 230"
 						"mouseinputenabled"	"0"
@@ -268,13 +258,11 @@
 						"zpos"			"10"
 						"wide"			"f0"
 						"tall"			"f0"
-						"enabled"		"1"
 						//	"0"
 						"proportionaltoparent"	"1"
 						"labelText"		"#QuestLog_TurnIn"
 						"actionsignallevel" "4"
 						"use_proportional_insets" "1"
-						"font"			"QuestLargeText_Merasmus"
 						"allcaps"	"1"
 						"textAlignment"	"center"
 						"default"		"1"
@@ -305,8 +293,6 @@
 							"labelText"		"#QuestLog_TurningIn_Merasmus"
 							"use_proportional_insets" "1"
 							"textinsetx"			"55"
-							"font"			"QuestLargeText_Merasmus"
-							"textAlignment"	"west"
 						}
 					}
 				}
@@ -322,7 +308,6 @@
 					"wide"			"p0.5"
 					"tall"			"o1"
 					"visible"		"0"
-					"enabled"		"1"
 					"image"			"contracts/halloween/accepted"
 					"scaleImage"	"1"	
 					"proportionaltoparent"	"1"	
@@ -347,12 +332,10 @@
 				
 					"QuestExpirationWarning"
 					{
-						"font"					"QuestInstructionText_Merasmus"
 					}
 
 					"QuestObjectiveExplanation"
 					{
-						"font"					"QuestInstructionText_Merasmus"
 						"labelText"				"#TF_QuestObjective_Explanation_Merasmus"
 						"allcaps"				"0"
 					}
@@ -361,7 +344,6 @@
 					{
 						"xpos"					"cs-0.5"
 						"wide"					"p0.95"
-						"font"					"QuestFlavorText_Merasmus"
 					}
 				}
 			}
@@ -391,7 +373,6 @@
 				"wide"		"f0"
 				"tall"		"f0"
 				//		"0"
-				"enabled"		"1"
 				//		"0"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"1"
@@ -410,7 +391,6 @@
 					"zpos"			"10"
 					"wide"			"o1"
 					"tall"			"87"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"contracts\halloween\contracts_scroll_sleeve"
 					"proportionaltoparent"	"1"

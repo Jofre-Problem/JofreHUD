@@ -11,7 +11,6 @@
 		"tall"			"150"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -21,16 +20,13 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"HudFontSmallBold"
 		"xpos"			"80"
 		"ypos"			"70"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
@@ -46,7 +42,6 @@
 		"tall"			"50"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/ico_teambalance"
 		"scaleImage"		"1"
 	}

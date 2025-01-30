@@ -11,7 +11,6 @@
 		"tall"	 		"50"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -36,7 +35,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
@@ -57,7 +55,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
@@ -71,7 +68,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"8"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -79,7 +75,6 @@
 		"tall"			"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"North-West"
 	}
@@ -87,16 +82,13 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
 		"xpos"			"8"
 		"ypos"			"17"	[$WIN32]
-		"ypos"			"22"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"Left"
 	}
@@ -126,7 +118,6 @@
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
@@ -141,7 +132,6 @@
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}
@@ -155,8 +145,6 @@
 		"zpos"			"-5"
 		"wide"			"32"
 		"tall"			"36"
-		"enabled"		"1"	
-		
 		"MoveableIconBG"
 		{
 			"ControlName"	"CIconPanel"
@@ -166,7 +154,6 @@
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
-			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
@@ -181,7 +168,6 @@
 			"zpos"			"11"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
@@ -195,7 +181,6 @@
 			"zpos"			"12"
 			"wide"			"16"
 			"tall"			"8"
-			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
@@ -205,7 +190,6 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
@@ -213,7 +197,6 @@
 			"tall"			"24"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"		"North"
 		}	
@@ -224,11 +207,9 @@
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
 		"ypos"			"6"	[$WIN32]
-		"ypos"			"0"	[$X360]
 		"zpos"			"99"
 		"wide"			"11"
 		"tall"			"11"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"

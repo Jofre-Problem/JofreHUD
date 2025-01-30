@@ -10,10 +10,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -71,7 +69,6 @@
 		"zpos"			"7"
 		"wide"			"30"
 		"tall"			"30"
-		"enabled"		"1"
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
@@ -80,7 +77,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"HudFontMediumBigBold"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -89,14 +85,12 @@
 		"wide"			"f0"
 		"tall"			"35"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -105,14 +99,12 @@
 		"wide"			"f0"
 		"tall"			"35"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemCountLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -121,13 +113,11 @@
 		"wide"			"100"
 		"tall"			"10"
 		//		"0"
-		"enabled"		"1"
 	}
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"HudFontMediumBigBold"
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -136,7 +126,6 @@
 		"wide"			"120"
 		"tall"			"40"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"NextButton"
@@ -149,10 +138,8 @@
 		"wide"			"70"
 		"tall"			"30"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#NextItem"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"nextitem"
 	}
@@ -166,10 +153,8 @@
 		"wide"			"70"
 		"tall"			"30"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#PreviousItem"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"previtem"
 	}
@@ -184,10 +169,8 @@
 		"wide"			"250"
 		"tall"			"30"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"default"		"1"
@@ -202,10 +185,8 @@
 		"wide"			"250"
 		"tall"			"30"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"%loadouttext%"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"changeloadout"
 	}
@@ -220,10 +201,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"discarditem"
 
@@ -243,10 +222,8 @@
 			"zpos"			"1"
 			"wide"			"p1"
 			"tall"			"p1"
-			"enabled"		"1"
 			"image"			"icon_trash_on"
 			"scaleImage"	"1"
-			"paintbackgroundtype" "0"
 			"proportionaltoparent"	"1"
 		}				
 	}		
@@ -261,13 +238,11 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
 			"xpos"			"12"
@@ -275,7 +250,6 @@
 			"wide"			"80"
 			"tall"			"50"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
@@ -285,7 +259,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#Discarded"
 		"textAlignment"	"center"
 		"xpos"			"c-215"
@@ -294,7 +267,6 @@
 		"wide"			"420"
 		"tall"			"60"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override"	"46 43 42 255"
 	}

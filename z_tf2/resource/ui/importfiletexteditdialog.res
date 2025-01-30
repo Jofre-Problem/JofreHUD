@@ -3,19 +3,16 @@
 	"ImportFileTextEditDialog"
 	{
 		"fieldName"				"ImportFileTextEditDialog"
-		"enabled"				"1"
 		"xpos"					"c-280"
 		"ypos"					"c-180"
 		"wide"					"560"
 		"tall"					"360"
-		"border"				"GrayDialogBorder"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"textAlignment"	"center"
 		"labelText"		"#Frame_Untitled"
 		"xpos"			"10"
@@ -35,7 +32,6 @@
 		"zpos"		"-1"
 		"wide"		"540"
 		"tall"		"280"
-		"font"		"HudFontSmall"
 		"textAlignment"	"north-west"
 		"labelText"		""
 		"bgcolor_override"		"0 0 0 255"
@@ -51,12 +47,10 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
 		"Command"		"Close"
-		"font"		"HudFontSmallBold"
 	}
 
 	"ButtonDone"
@@ -68,11 +62,9 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
 		"Command"		"Done"
-		"font"		"HudFontSmallBold"
 	}
 }

@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"180"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -24,7 +23,6 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
@@ -39,7 +37,6 @@
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
@@ -49,7 +46,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"8"
 		"zpos"			"2"
@@ -57,7 +53,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"Left"
 	}
@@ -66,7 +61,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiant"
 		"fgcolor"		"Black"
 		"xpos"			"70"			// align me to the left edge of the first selection
 		"ypos"			"10"
@@ -75,7 +69,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"Left"
 		"dulltext"		"1"

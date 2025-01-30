@@ -9,10 +9,8 @@
 		"tall"			"200" // Bottom of confirm button + 10 margin
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
@@ -22,7 +20,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CasualTitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Casual_Welcome_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -33,7 +30,6 @@
 		"tall"			"14"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "StoreGreen"
 	}
@@ -42,7 +38,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubtitleLabel"
-		"font"			"Link"
 		"labelText"		"#TF_Casual_Welcome_Subtitle"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -53,7 +48,6 @@
 		"tall"			"14"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 	}
 
@@ -61,7 +55,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTitleLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Casual_Welcome_Section_One_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -72,7 +65,6 @@
 		"tall"			"11"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "Yellow"
 	}
@@ -81,7 +73,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Casual_Welcome_Section_One_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -92,7 +83,6 @@
 		"tall"			"44" // Size 11 font - 4 rows
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanDark"
 	}
@@ -102,7 +92,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTitleLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Casual_Welcome_Section_Three_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -113,7 +102,6 @@
 		"tall"			"11"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "Yellow"
 	}
@@ -122,7 +110,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTextLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Casual_Welcome_Section_Three_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -133,7 +120,6 @@
 		"tall"			"44" // Size 11 font - 4 rows
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanDark"
 	}
@@ -151,10 +137,8 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_MM_TakeUITour"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"show_explanations"
@@ -179,10 +163,8 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Competitive_Welcome_Confirm"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"
@@ -203,7 +185,6 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
-		"font"		"HudFontSmall"
 		"labelText"	"#TF_Competitive_Welcome_DontShow"
 		"proportionalToParent"  "1"
 	}

@@ -13,9 +13,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Position"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%position%"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"2"
@@ -23,7 +21,6 @@
 			"tall"			"16"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		"Background"
 		{
@@ -46,7 +43,6 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -55,9 +51,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%username%"
-			"textAlignment"	"west"
 			"xpos"			"40"
 			"ypos"			"2"
 			"zpos"			"2"
@@ -65,7 +59,6 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 		}
 		"RankImage"
 		{
@@ -76,7 +69,6 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"40"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 		}
 		"StreamImageButton"
@@ -89,7 +81,6 @@
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"labelText"		""
 			"proportionaltoparent"	"1"
@@ -110,7 +101,6 @@
 				"zpos"			"1"
 				"wide"			"16"
 				"tall"			"16"
-				"enabled"		"1"
 				"image"			"button_streaming_glb"
 				"scaleImage"	"1"
 			}

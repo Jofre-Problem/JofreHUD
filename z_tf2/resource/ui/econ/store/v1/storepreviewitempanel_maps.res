@@ -9,7 +9,6 @@
 		"wide"			"305"
 		"tall"			"255"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
 	}
@@ -26,8 +25,6 @@
 		"wide"			"295"
 		"tall"			"250"
 		//		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"0"
@@ -64,7 +61,6 @@
 		"zpos"			"0"
 		"wide"			"225"
 		"tall"			"67"
-		"enabled"		"1"
 		"image"			"store/store_inspector_bottom"
 		"scaleImage"	"1"
 	}
@@ -80,8 +76,6 @@
 		"tall"			"200"
 		"bgcolor_override"		"0 0 0 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
-		
 		"model_xpos"	"0"
 		"model_ypos"	"0"
 		"model_wide"	"175"
@@ -105,7 +99,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"45"
@@ -114,7 +107,6 @@
 		"tall"			"33"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		
@@ -123,7 +115,6 @@
 	{
 		"ControlName"	"CEconItemDetailsRichText"
 		"fieldName"		"DetailsRichText"
-		"font"			"ScoreboardSmall"
 		"labelText"		"%datatext%"
 		"textAlignment"	"north-west"
 		"xpos"			"45"
@@ -131,7 +122,6 @@
 		"wide"			"205"
 		"tall"			"165"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"TanLight"
 		"wrap"			"1"
 		"highlight_color"	"177 168 149 255"
@@ -178,8 +168,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -229,8 +217,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -280,8 +266,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -331,8 +315,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -382,8 +364,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -410,7 +390,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -425,7 +404,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -440,7 +418,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -455,7 +432,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -470,7 +446,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -485,7 +460,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -502,10 +476,8 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"command"		"icons_left"
 	}		
@@ -519,10 +491,8 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"command"		"icons_right"
 	}	
@@ -531,7 +501,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassUsageMouseoverLabel"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"xpos"			"36"
 		"ypos"			"170"
@@ -540,13 +509,11 @@
 		"tall"			"55"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
 	}
 
 	"RotLeftButton"
@@ -559,10 +526,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"Command"		"-1"
 	}		
@@ -576,10 +541,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"Command"		"1"
 	}	
@@ -595,10 +558,8 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"next_weapon"

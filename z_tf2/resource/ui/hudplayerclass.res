@@ -10,7 +10,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
-		"enabled"		"1"		
 	}
 	"PlayerStatusClassImage"
 	{
@@ -19,7 +18,6 @@
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"
-		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
@@ -30,7 +28,6 @@
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
-		"enabled"		"1"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/class_spyred"
@@ -42,13 +39,10 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
@@ -58,12 +52,9 @@
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
@@ -89,8 +80,6 @@
 		"tall"			"200"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
@@ -234,7 +223,6 @@
 			"tall"	 				"f0"
 			//			"0"
 			//				"0"
-			"enabled"				"1"
 			"image"					"../hud/color_panel_brown"
 			"scaleImage"			"1"
 			"teambg_1"				"../hud/color_panel_brown"
@@ -253,7 +241,6 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"ReplayBrowserSmallest"
 			"xpos"				"5"
 			"ypos"				"3"
 			"zpos"				"1"
@@ -261,7 +248,6 @@
 			"tall"	 			"f0"
 			//		"0"
 			//			"0"
-			"enabled"			"1"
 			"textAlignment"		"North-West"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
@@ -272,7 +258,6 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"ReplayBrowserSmallest"
 			"xpos"				"p0.011"
 			"ypos"				"p0.12"
 			"zpos"				"0"
@@ -280,7 +265,6 @@
 			"tall"	 			"f0"
 			//		"0"
 			//			"0"
-			"enabled"			"1"
 			"textAlignment"		"North-West"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
@@ -292,7 +276,6 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
 			"xpos"				"5"
 			"ypos"				"12"
 			"zpos"				"0"
@@ -300,7 +283,6 @@
 			"tall"	 			"f0"
 			//		"0"
 			//			"0"
-			"enabled"			"1"
 			"textAlignment"		"North-West"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"

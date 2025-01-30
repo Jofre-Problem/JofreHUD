@@ -46,15 +46,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#MMenu_Stream_Loading"
-			"textAlignment"	"west"
 			"xpos"			"90"
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"56 53 49 255"
 
 			"proportionaltoparent"	"1"
@@ -72,22 +69,18 @@
 		"wide"			"80"
 		"tall"			"50"
 		"enable"		"1"
-		"scaleImage"	"0"
 	}
 
 	"DisplayNameLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%display_name%"
-		"textAlignment"	"west"
 		"xpos"			"90"
 		"ypos"			"5"
 		"wide"			"205"
 		"tall"			"12"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
 
@@ -95,7 +88,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -103,7 +95,6 @@
 		"wide"			"205"
 		"tall"			"12"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
 
@@ -111,15 +102,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%viewer_count%"
-		"textAlignment"	"west"
 		"xpos"			"90"
 		"ypos"			"31"
 		"wide"			"205"
 		"tall"			"12"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
 

@@ -17,7 +17,6 @@
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
-		"enabled"			"1"
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
@@ -44,14 +43,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
-			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
@@ -63,7 +60,6 @@
 				"ypos"			"12"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"HudFontSmall"
 			
 			}
 		}	
@@ -78,7 +74,6 @@
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
-		"enabled"			"1"
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
@@ -105,14 +100,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
-			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
@@ -124,7 +117,6 @@
 				"ypos"			"12"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
 			
 			}
 		}	
@@ -140,7 +132,6 @@
 		"wide"				"78"
 		"tall"				"33"
 		"visible"			"0"
-		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_active_bg"	
 		"scaleImage"		"1"	
 	}

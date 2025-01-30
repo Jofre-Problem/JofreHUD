@@ -10,10 +10,8 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"Testing 1 2 3"
-		"textAlignment"	"west"
 		"paintBackground" "0"
 	}
 	
@@ -27,7 +25,6 @@
 		"tall"			"60"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"Change Team"
 		"textAlignment"	"center"
@@ -45,7 +42,6 @@
 		"tall"			"60"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"Change Class"
 		"textAlignment"	"center"

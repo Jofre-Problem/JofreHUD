@@ -9,7 +9,6 @@
 		"zpos"			"4"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -21,7 +20,6 @@
 		"zpos"			"3"
 		"wide"			"24"
 		"tall"			"24"
-		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -35,7 +33,6 @@
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
@@ -49,7 +46,6 @@
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -62,10 +58,8 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"10"
-		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SpectatorVerySmall"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusPlayerLevel"
@@ -78,9 +72,7 @@
 		"wide"			"16"
 		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
 	}							
 }

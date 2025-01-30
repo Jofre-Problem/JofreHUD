@@ -3,17 +3,13 @@
 	"commentary_modelviewer"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"commentary_modelviewer"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 255"
 		"infocus_bgcolor_override" "0 0 0 255"
@@ -23,7 +19,6 @@
 	"modelpanel"
 	{
 		"ControlName"		"CCommentaryModelPanel"
-		"fieldName"		"modelpanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"		
@@ -31,9 +26,6 @@
 		"tall"			"480"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-
 		"fov"			"75"
 		"start_framed"		"1"
 		

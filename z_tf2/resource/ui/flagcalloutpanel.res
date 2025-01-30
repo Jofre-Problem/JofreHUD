@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"30"
 		"tall"			"30"
-		"enabled"		"1"
 		"image"			"../HUD/obj_briefcase_blue"
 		"scaleImage"	"1"
 	}
@@ -23,11 +22,9 @@
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"15"
-		"enabled"		"1"
 		//	"1"
 		"labelText"		"0"
 		"textAlignment"	"center"
-		"font"			"TeamMenu"
 	}
 
 	"StatusIcon"
@@ -39,7 +36,6 @@
  		"zpos"			"3"
  		"wide"			"14"
  		"tall"			"14"
- 		"enabled"		"1"
  		"image"			"../hud/objectives_flagpanel_ico_flag_home"
  		"scaleImage"	"1"
 	}

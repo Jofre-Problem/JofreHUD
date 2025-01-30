@@ -24,8 +24,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderSpecialEvent"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
 		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
@@ -42,8 +40,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title%"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumSmallBold"
 		"fgcolor_override"	"Orange"
 		
 		"mouseinputenabled"	"0"
@@ -58,7 +54,6 @@
 		"zpos"			"110"
 		"wide"			"o1"
 		"tall"			"70"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
@@ -92,8 +87,6 @@
 		"zpos"		"1"
 		"wide"		"250"
 		"tall"		"o0.25"
-		"enabled"	"1"
-
 		"DropShadow"
 		{
 			"ControlName"	"EditablePanel"
@@ -104,7 +97,6 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -118,7 +110,6 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"image"			"mvm/mannup"
 			"scaleImage"	"1"
@@ -173,7 +164,6 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ModeDesc"
-			"font"			"HudFontSmall"
 			"fgcolor_override"	"TanLight"
 			"labelText"		"%desc%"
 			"textAlignment"	"north-west"
@@ -199,7 +189,6 @@
 		"wide"			"f20"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"mouseinputenabled"	"1"
 		"eatmouseinput"	"0"	
 		"showtooltipswhenmousedisabled"	"1"
@@ -216,9 +205,7 @@
 		"wide"			"f20"
 		"tall"			"20"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
-		"font"			"HudFontMediumSmallBold"
 		"textAlignment"	"center"
 		"Command"		"find_game"
 		"proportionaltoparent"	"1"

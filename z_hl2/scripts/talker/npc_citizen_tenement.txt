@@ -1,23 +1,11 @@
 //============================================================================================================
 // Tenement Apartment specific criteria
 //============================================================================================================
-criterion "IsBreenCastOn" "breencast" "1" weight 12 required
-criterion "IsBreenCastOff" "breencast" "0" weight 12 required
 
-criterion "IsTenementFloor1" "tenement_flr1" "1" weight 2 required
-criterion "IsTenementFloor2" "tenement_flr2" "1" weight 2 required
-criterion "IsTenementAttic" "tenement_attic" "1" weight 2 required
 
 //floor1, room1
-criterion "IsTenementFlr1Drinker" "tenement_flr1_drinker" "1" weight 11 required
-criterion "IsTenementFlr1WindowGuy" "tenement_flr1_windowGuy" "1" weight 11 required
-criterion "IsTenementFlr1WindowGal" "tenement_flr1_windowGal" "1" weight 11 required
 
 //floor1, room2, tv-watchers
-criterion "IsTenementFlr1TVWatcher1_TVon" "tenement_flr1_TVwatcher1_TVon" "1" weight 10 required
-criterion "IsTenementFlr1TVWatcher2_TVon" "tenement_flr1_TVwatcher2_TVon" "1" weight 10 required
-criterion "IsTenementFlr1TVWatcher1_TVoff" "tenement_flr1_TVwatcher1_TVon" "0" weight 10 required
-criterion "IsTenementFlr1TVWatcher2_TVoff" "tenement_flr1_TVwatcher2_TVon" "0" weight 10 required
 
 
 

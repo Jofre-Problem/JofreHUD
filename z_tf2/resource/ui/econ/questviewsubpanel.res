@@ -8,7 +8,6 @@
 		"zpos"			"101"
 		"wide"			"80"
 		"tall"			"16"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 		"eatmouseinput"	"0"		
 	} // EditableTooltip
@@ -23,7 +22,6 @@
 		"wide"			"80"
 		"tall"			"16"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		"#TF_QuestView_Accept"
 		"textAlignment"	"center"
@@ -32,7 +30,6 @@
 		"actionsignallevel"	"2"
 		"textinsety"	"0"
 		"eatmouseinput"	"0"	
-		"font"			"QuestMap_Large"
 		//"RoundedCorners"	"0"
 
 		"paintbackground"	"1"
@@ -55,7 +52,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"o0.25"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
 		"image"			"cyoa/node_view_contract_image"
@@ -64,7 +60,7 @@
 
 	"NameLabel"
 	{
-		"ControlName"	"CAutoFittingLabel"
+		"ControlName"	"cexlabel"
 		"fieldName"		"NameLabel"
 		"labeltext"		"%name%"
 		"xpos"			"rs1"
@@ -72,7 +68,6 @@
 		"wide"			"f0"
 		"tall"			"20"
 		"zpos"			"2"
-		"font"			"QuestMap_Large"
 		"TextAlignment"		"north-west"
 		"textinsetx"	"10"
 		"textinsety"	"5"
@@ -80,27 +75,11 @@
 		"mouseinputenabled"		"0"
 		"fgcolor_override"	"TanLight"
 		"skip_autoresize"	"1"
-
-		"fonts"
-		{
-			"0"
-			{
-				"font"	"QuestMap_Large"
-			}
-			"1"
-			{
-				"font"	"QuestMap_Medium"
-			}
-			"2"
-			{
-				"font"	"QuestMap_Small"
-			}
-		}
 	}
 
 	"NameShadowLabel"
 	{
-		"ControlName"	"CAutoFittingLabel"
+		"ControlName"	"cexlabel"
 		"fieldName"		"NameShadowLabel"
 		"labeltext"		"%name%"
 		"xpos"			"rs1+1"
@@ -108,7 +87,6 @@
 		"wide"			"f0"
 		"tall"			"20"
 		"zpos"			"1"
-		"font"			"QuestMap_Large"
 		"TextAlignment"		"north-west"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"		"0"
@@ -116,21 +94,6 @@
 		"textinsety"	"5"
 		"fgcolor_override"	"0 0 0 255"
 
-		"fonts"
-		{
-			"0"
-			{
-				"font"	"QuestMap_Large"
-			}
-			"1"
-			{
-				"font"	"QuestMap_Medium"
-			}
-			"2"
-			{
-				"font"	"QuestMap_Small"
-			}
-		}
 	}
 
 	"BGImageDarkener"
@@ -142,7 +105,6 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"o0.25"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"bgcolor_override"	"0 0 0 255"
@@ -158,7 +120,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"o0.25"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 		"keyboardinputenabled"	"0"
@@ -177,7 +138,6 @@
 		"wide"			"f0"
 		"tall"			"o0.25"
 		"zpos"			"1"
-		"font"			"QuestObjectiveTracker_Desc"
 		"TextAlignment"		"south"
 		"textinsety"	"-5"
 		"proportionaltoparent" "1"
@@ -197,7 +157,6 @@
 		"wide"			"f0"
 		"tall"			"o0.25"
 		"zpos"			"1"
-		"font"			"QuestObjectiveTracker_DescBlur"
 		"TextAlignment"		"south"
 		"textinsetx"	"2"
 		"textinsety"	"-3"
@@ -219,7 +178,6 @@
 		"wide"			"f0"
 		"tall"			"15"
 		"zpos"			"1"
-		"font"			"QuestMap_Medium"
 		"TextAlignment"		"east"
 		"textinsetx"	"40"
 		"proportionaltoparent" "1"
@@ -241,7 +199,6 @@
 		"zpos"			"2"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
 		"image"			"info"
@@ -296,7 +253,6 @@
 				"wide"			"f0"	
 				"tall"			"30"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labeltext"		"#QuestLog_TurnIn"
 				"textAlignment"	"center"
@@ -305,12 +261,9 @@
 				"actionsignallevel"	"3"
 				"textinsety"	"0"
 				"eatmouseinput"	"0"	
-				"font"			"QuestMap_Large"
 				//"RoundedCorners"	"0"
 
 				"paintbackground"	"1"
-				"paintborder"		"0"
-
 				"defaultBgColor_override"	"76 107 34 240"
 				"armedBgColor_override"		"76 107 34 240"
 				"depressedBgColor_override" "76 107 34 240"

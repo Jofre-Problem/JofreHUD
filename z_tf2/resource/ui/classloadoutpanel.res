@@ -9,10 +9,8 @@
 		"wide"			"f0"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -55,7 +53,6 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
 			
@@ -76,10 +73,8 @@
 			"tall"			"14"
 			//	"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 		}
@@ -89,9 +84,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -99,16 +92,13 @@
 		"tall"			"15"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -116,16 +106,13 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 	}
 
 	"TauntCaratLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TauntCaratLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-150"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -133,16 +120,13 @@
 		"tall"			"15"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"TauntLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Taunt"
-		"textAlignment"	"west"
 		"xpos"			"c-130"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -150,7 +134,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"TopLine"
@@ -162,7 +145,6 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
 	}				
@@ -179,8 +161,6 @@
 		"tall"			"340"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"30"
 		"allow_rot"		"1"
@@ -227,7 +207,6 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -235,7 +214,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -247,7 +225,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -256,7 +233,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
 		"fgcolor"		"255 215 0 255"
@@ -272,7 +248,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"paintbackground"	"0"
 	}
@@ -289,7 +264,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -304,7 +278,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -313,7 +286,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -322,7 +294,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#ClassLoadoutItemPresetsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -331,7 +302,6 @@
 			"tall"			"200"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -347,10 +317,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -371,7 +339,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -397,7 +364,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
-		"font"			"ItemFontAttribLarge"
 		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	
@@ -405,7 +371,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_ClassLoadoutTauntInputHint"
 		"textAlignment"	"east"
 		"centerwrap"	"1"
@@ -423,7 +388,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"Command"		"characterloadout"
 
@@ -436,7 +400,6 @@
 			"zpos"			"1"
 			"wide"			"17"
 			"tall"			"17"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"glyph_items"
 		}
@@ -454,7 +417,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"Command"		"tauntloadout"
 
@@ -467,7 +429,6 @@
 			"zpos"			"1"
 			"wide"			"17"
 			"tall"			"17"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
 		}
@@ -485,7 +446,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-180"
@@ -500,7 +460,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TauntsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -509,7 +468,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -518,7 +476,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#ClassLoadoutTauntsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -527,7 +484,6 @@
 			"tall"			"200"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -543,10 +499,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -567,7 +521,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				

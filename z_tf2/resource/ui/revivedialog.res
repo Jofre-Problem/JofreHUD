@@ -9,10 +9,8 @@
 		"wide"			"220"
 		"tall"			"70"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 
@@ -20,7 +18,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"EconFontSmall"
 			"labelText"		"#ConfirmTitle"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -30,14 +27,12 @@
 			"tall"			"30"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 	
 		"ExplanationLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ExplanationLabel"
-			"font"			"ReplayBrowserSmallest"
 			"labelText"		"%text%"
 			"textAlignment"	"north"
 			"xpos"			"10"
@@ -46,7 +41,6 @@
 			"wide"			"200"
 			"tall"			"170"
 			//		"0"
-			"enabled"		"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 80 60 255"
 		}
@@ -61,10 +55,8 @@
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#ConfirmButtonText"
-			"font"			"ReplayBrowserSmallest"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"confirm"
@@ -85,7 +77,6 @@
 			"zpos"				"20"
 			"wide"				"48"
 			"tall"				"48"
-			"enabled"			"1"	
 			"HealthBonusPosAdj"	"10"
 			"HealthDeathWarning"		"0.49"
 			"TFFont"					"HudFontSmallest"

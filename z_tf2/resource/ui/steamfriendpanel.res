@@ -45,11 +45,9 @@
 		"wide"					"f22"
 		"tall"					"10"
 		"textAlignment"			"north-west"
-		"enabled"				"1"
 		"proportionaltoparent"	"1"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"ControlPointTimer"
 		"mouseinputenabled"		"0"
 	}
 
@@ -62,11 +60,9 @@
 		"wide"					"f22"
 		"tall"					"10"
 		"textAlignment"			"north-west"
-		"enabled"				"1"
 		"proportionaltoparent"	"1"
 		"labelText"				"%status%"
 		"proportionaltoparent"	"1"
-		"font"					"QuestObjectiveTracker_Desc"
 		"fgcolor_override"				"TanDark"
 		"mouseinputenabled"		"0"
 	}

@@ -9,7 +9,6 @@
 		"wide"			"160"
 		"tall"			"60"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 	}
 	
@@ -22,7 +21,6 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"60"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_tall_disabled"
 		"iconColor"		"255 255 255 255"
@@ -36,7 +34,6 @@
 		"ypos"			"12"
 		"wide"			"36"
 		"tall"			"36"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
 		"iconColor"		"255 255 255 255"
@@ -51,7 +48,6 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_2"
 		"iconColor"		"255 255 255 255"
@@ -66,7 +62,6 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_3"
 		"iconColor"		"255 255 255 255"
@@ -84,13 +79,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#Building_hud_sentry_not_built"
 			"textAlignment"	"Left"
 		}
@@ -116,7 +109,6 @@
 			"wide"			"8"
 			"tall"			"8"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
@@ -132,7 +124,6 @@
 			"wide"			"8"
 			"tall"			"8"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
@@ -148,7 +139,6 @@
 			"wide"			"8"
 			"tall"			"8"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
@@ -164,7 +154,6 @@
 			"zpos"			"-2"
 			"wide"			"44"
 			"tall"			"60"
-			"enabled"		"1"	
 			"icon"			"obj_status_alert_background_tall"
 		}
 		
@@ -178,7 +167,6 @@
 			"wide"			"27"
 			"tall"			"27"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
@@ -194,7 +182,6 @@
 			"wide"			"35"
 			"tall"			"35"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
@@ -204,13 +191,11 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"53"
 			//		"0"
-			"enabled"		"1"
 			"textAlignment"	"Left"
 		}
 		
@@ -228,13 +213,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
 				//		"0"
-				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
 			}
@@ -243,13 +226,11 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
 				//		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 		}
@@ -273,7 +254,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
@@ -283,13 +263,11 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"DefaultSmall"
 				"xpos"			"12"
 				"ypos"			"13"
 				"wide"			"200"
 				"tall"			"22"
 				//		"0"
-				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"north-west"
 			}
@@ -303,7 +281,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
@@ -313,13 +290,11 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
-				"font"			"Default"
 				"xpos"			"12"
 				"ypos"			"26"
 				"wide"			"38"
 				"tall"			"8"				
 				//		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 			
@@ -333,7 +308,6 @@
 				"wide"			"10"
 				"tall"			"10"
 				"visible"		"0"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
 				"drawcolor"		"ProgressOffWhite"
@@ -343,14 +317,12 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
-				"font"			"Default"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
 				//		"0"
 				"visible"		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 
@@ -363,7 +335,6 @@
 				"zpos"			"1"
 				"wide"			"10"
 				"tall"			"10"
-				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
 				"iconColor"		"ProgressOffWhite"
@@ -373,13 +344,11 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
-				"font"			"Default"
 				"xpos"			"12"
 				"ypos"			"39"
 				"wide"			"38"
 				"tall"			"8"
 				//		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 		}

@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"450"
 		"tall"			"185"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -24,7 +23,6 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
@@ -39,7 +37,6 @@
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
@@ -49,7 +46,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"3"
 		"zpos"			"2"
@@ -57,7 +53,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"Engineering"
 		"textAlignment"	"Left"
 	}
@@ -66,7 +61,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
 		"ypos"			"4"
@@ -75,7 +69,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"Engineering"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
@@ -230,7 +223,6 @@
 		"zpos"			"-1"
 		"wide"			"115"
 		"tall"			"138"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"TanLight"
@@ -240,7 +232,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"330"			// align me to the left edge of the first selection
 		"ypos"			"152"
 		"zpos"			"1"
@@ -248,7 +239,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"Left"
 	}
@@ -257,7 +247,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Bright"
-		"font"			"ControllerHintText"
 		"xpos"			"350"
 		"ypos"			"151"
 		"zpos"			"1"
@@ -265,7 +254,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"Left"
 	}
@@ -274,7 +262,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildHintLabel_Dim"
-		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
 		"xpos"			"350"
 		"ypos"			"151"
@@ -284,7 +271,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Build"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
@@ -294,7 +280,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"200"			// align me to the left edge of the first selection
 		"ypos"			"152"
 		"zpos"			"1"
@@ -302,7 +287,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"0"
 		"textAlignment"	"Left"
 	}
@@ -311,7 +295,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Bright"
-		"font"			"ControllerHintText"
 		"xpos"			"220"			// align me to the left edge of the first selection
 		"ypos"			"151"
 		"zpos"			"1"
@@ -320,7 +303,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"Left"
 	}
@@ -329,7 +311,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyHintLabel_Dim"
-		"font"			"ControllerHintText"
 		"fgcolor"		"TanDark"
 		"xpos"			"220"			// align me to the left edge of the first selection
 		"ypos"			"151"
@@ -338,7 +319,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Action_Demolish"
 		"textAlignment"	"Left"
 	}
@@ -347,7 +327,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"152"
 		"zpos"			"1"
@@ -355,7 +334,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"B"
 		"textAlignment"	"Left"
 	}
@@ -364,7 +342,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"40"
 		"ypos"			"151"
 		"zpos"			"1"
@@ -372,7 +349,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
 	}
@@ -387,9 +363,7 @@
 		"tall"			"30"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
 	}
 }

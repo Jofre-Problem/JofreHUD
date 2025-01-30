@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Splitter"
 		"fieldName"		"Splitter"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
@@ -28,8 +26,6 @@
 				//		"0"
 				//"PinnedCornerOffsetX" "6"
 				//"PinnedCornerOffsetY" "-6"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 				"editable"		"0"
 				"maxchars"		"-1"
@@ -49,8 +45,6 @@
 				//"PinnedCornerOffsetY" "30"
 				//"PinnedCornerOffsetY" "0"
 				//"UnpinnedCornerOffsetY" "0"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 			}
 		}
@@ -61,8 +55,6 @@
 			{
 				"ControlName"	"CDmeElementPanel"
 				"fieldName"		"FunctionProperties"
-				"visible"		"1"
-				"enabled"		"1"
 				//		"0"
 				//	"3"
 				//"PinnedCornerOffsetX" "6"

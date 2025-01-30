@@ -20,7 +20,6 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"70"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -65,7 +64,6 @@
 			"actionsignallevel"		"2"
 			"command"		"show_leaderboards"
 			"labeltext"		"#TF_Competitive_ViewLeaderboards"
-			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
@@ -85,7 +83,6 @@
 			"actionsignallevel"		"2"
 			"command"		"show_match_history"
 			"labeltext"		"#TF_Competitive_ViewMatches"
-			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"	"center"
 
@@ -101,7 +98,6 @@
 			"wide"			"p0.98"
 			"tall"			"p1-200"
 			"PaintBackgroundType"	"2"
-			//"border"		"MainMenuBGBorder"
 			"proportionaltoparent"	"1"
 
 			//		"2"
@@ -117,7 +113,6 @@
 				"wide"			"p0.95"
 				"tall"			"p0.89"
 				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}
@@ -143,7 +138,6 @@
 					"wide"			"p1.2"
 					"tall"			"p1.3"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
 				}
 
 				"SortArrow"
@@ -159,9 +153,6 @@
 					"mouseinputenabled"	"0"
 			
 					"labeltext"			"6"
-					"font"				"MarlettSmall"
-					"textAlignment"		"west"
-
 					"defaultFgColor_override" "TanDark"
 					"armedFgColor_override"	"TanDark"
 					"selectedFgColor_override" "TanDark"
@@ -180,9 +171,7 @@
 					"border_default"		"SortCategoryBorder"	
 			
 					"labeltext"			"#TF_Competitive_Result"
-					"font"				"HudFontSmallest"
 					"fgcolor_override"	"141 63 63 255"
-					"textAlignment"		"west"
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "TanDark"
@@ -211,9 +200,7 @@
 					"border_default"		"SortCategoryBorder"
 			
 					"labeltext"			"#TF_Competitive_Date"
-					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"		"west"
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "TanDark"
@@ -242,9 +229,7 @@
 					"border_default"		"SortCategoryBorder"
 			
 					"labeltext"			"#TF_Competitive_Map"
-					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"		"west"
 					"textinsetx"		"15"
 
 					"defaultFgColor_override" "TanDark"
@@ -272,10 +257,7 @@
 					"paintbackground"	"0"
 			
 					"labeltext"			"#TF_Competitive_KDR"
-					"font"				"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"		"west"
-
 					"defaultFgColor_override" "TanDark"
 					"armedFgColor_override"	"Orange"
 					"selectedFgColor_override" "TanLight"
@@ -345,7 +327,6 @@
 				"tall"			"p0.89"
 				"tall"			"f20"
 				"visible"		"0"
-				"enabled"		"1"
 				"mouseinputenabled" "1"
 				"scaleImage"	"1"
 				"entry_step"	"23"

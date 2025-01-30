@@ -3,7 +3,6 @@
 	"ConfirmDialog"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
 		"xpos"			"c-150"
 		"ypos"			"75"
 		"zpos"			"1000"
@@ -11,18 +10,13 @@
 		"tall"			"200"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#YouTube_LoginDlg_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -32,16 +26,12 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"UserNameLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"UserNameLabel"
-		"font"			"EconFontSmall"
 		"labelText"		"#YouTube_LoginDlg_UserName"
 		"xpos"			"10"
 		"ypos"			"50"
@@ -50,14 +40,11 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"UserNameTextEntry"
 	{
 		"ControlName"	"TextEntry"
-		"fieldName"		"UserNameTextEntry"
 		"maxchars"		"255"
 		"unicode"		"1"
 		"xpos"			"10"
@@ -67,19 +54,14 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"1"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"60 54 46 255"
-		"Font"			"ReplayBrowserSmallest"
 	}
 
 	"PasswordLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PasswordLabel"
-		"font"			"EconFontSmall"
 		"labelText"		"#YouTube_LoginDlg_Password"
 		"xpos"			"10"
 		"ypos"			"100"
@@ -88,14 +70,11 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"PasswordTextEntry"
 	{
 		"ControlName"	"TextEntry"
-		"fieldName"		"PasswordTextEntry"
 		"maxchars"		"255"
 		"unicode"		"1"
 		"xpos"			"10"
@@ -105,19 +84,15 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"2"
 		"textHidden"	"1"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"60 54 46 255"
-		"Font"			"ReplayBrowserSmallest"
 	}
 	
 	"RegisterButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"RegisterButton"
 		"xpos"			"10"
 		"ypos"			"165"
 		"zpos"			"20"
@@ -125,22 +100,15 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#YouTube_LoginDlg_Register"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"register"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"ConfirmButton"
 		"xpos"			"100"
 		"ypos"			"165"
 		"zpos"			"20"
@@ -149,22 +117,15 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#YouTube_LoginDlg_Login"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
 		"xpos"			"200"
 		"ypos"			"165"
 		"zpos"			"20"
@@ -172,16 +133,10 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 		
 }

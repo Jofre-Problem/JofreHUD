@@ -11,10 +11,8 @@
 		"zpos"			"501"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -76,12 +74,10 @@
 			"tall"				"30"
 			//		"0"
 			//			"0"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
-			"font"				"MenuKeys"
 			"scaleImage"		"1"
 		}	
 	}
@@ -102,9 +98,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecipeTitle"
-			"font"			"ItemFontNameLarge"
 			"labelText"		"%recipetitle%"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"1"
@@ -112,7 +106,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
@@ -121,7 +114,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -131,14 +123,12 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
 		"OutputLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -148,16 +138,13 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
 		"UntradableLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UntradableLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Tradable"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"296"
 			"zpos"			"1"
@@ -166,7 +153,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
 		}
 		
@@ -183,7 +169,6 @@
 			//		"0"
 			//	"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"craft"
@@ -200,10 +185,8 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"previnputpage"
 		}
@@ -211,7 +194,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurInputPageLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%inputpage%"
 			"textAlignment"	"center"
 			"xpos"			"210"
@@ -221,7 +203,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextInputPageButton"
@@ -235,10 +216,8 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextinputpage"
 		}			
@@ -260,9 +239,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoMatches"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_No_Matching_Items"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"125"
 			"zpos"			"1"
@@ -271,7 +248,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
@@ -281,8 +257,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"UntradableCheckBox"
 			"labelText"		"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"			"HudFontSmallestBold"
-			"textAlignment"	"west"
 			"xpos"			"-4"
 			"ypos"			"2"
 			"zpos"			"1"
@@ -290,7 +264,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 		}
 
@@ -298,9 +271,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackpackItems"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Dynamic_Recipe_Matching_Items"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"1"
@@ -308,7 +279,6 @@
 			"tall"			"25"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
 			"wrap"			"1"
 		}
@@ -324,10 +294,8 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
@@ -344,10 +312,8 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevpage"
 		}
@@ -355,7 +321,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurPageLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%backpackpage%"
 			"textAlignment"	"center"
 			"xpos"			"26"
@@ -365,7 +330,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextPageButton"
@@ -379,10 +343,8 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextpage"
 		}				
@@ -411,7 +373,6 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -419,7 +380,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"

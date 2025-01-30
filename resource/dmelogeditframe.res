@@ -10,11 +10,7 @@
 		"tall"			"358"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"Edit Log"
 		
 		"LogFilter"
 		{
@@ -26,8 +22,6 @@
 			"tall"		"24"
 			//		"1"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"3"
 			"textHidden"		"0"
 			"editable"		"0"
@@ -45,14 +39,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"1"
 			"labelText"		"Ok"
-			"textAlignment"		"center"
 			////		"0"
 			////		"0"
-			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -65,14 +55,10 @@
 			"tall"		"24"
 			//	"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
 			"labelText"		"Cancel"
-			"textAlignment"	"center"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"DmeLogEditPanel"
@@ -85,8 +71,6 @@
 			"tall"			"256"
 			//	"3"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 	}

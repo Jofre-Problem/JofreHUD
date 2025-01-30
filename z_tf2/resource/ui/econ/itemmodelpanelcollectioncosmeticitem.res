@@ -26,8 +26,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"paintborder"	"0"
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
@@ -54,7 +52,6 @@
 			"tall"			"100"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"useparentbg"		"1"
 			"proportionaltoparent" "1"
 		
@@ -66,7 +63,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -74,9 +70,7 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"west"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
@@ -85,7 +79,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -93,9 +86,7 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
-			"textAlignment"	"west"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"0"
 		}
@@ -104,7 +95,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"collectionnamelabel"
-			"font"			"ItemFontNameLarge"
 			"xpos"			"100"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -113,9 +103,7 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"labelText"		"%collectionname%"
-			"textAlignment"	"west"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"0"
 		}
@@ -124,7 +112,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"collectionlistlabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"100"
 			"ypos"			"60"
 			"zpos"			"2"
@@ -133,9 +120,7 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"labelText"		"%collectionlist%"
-			"textAlignment"	"west"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"0"
 		}
@@ -158,7 +143,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -166,7 +150,6 @@
 			"tall"			"10"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
@@ -184,15 +167,12 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
-
 		}
 
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -201,7 +181,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
@@ -213,7 +192,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -222,7 +200,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
@@ -234,7 +211,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -243,7 +219,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
@@ -263,7 +238,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"
 		}
 		"is_strange_icon"
@@ -278,7 +252,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"
 		}
 		"is_unusual_icon"
@@ -293,7 +266,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"
 		}
 		"is_loaner_icon"
@@ -308,7 +280,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"	"1"
 		}
 		
@@ -324,11 +295,7 @@
 			"bgcolor_override"		"0 0 0 200"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"useparentbg"	"0"
-		
-			"enabled"		"1"
-		
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"

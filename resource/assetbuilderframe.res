@@ -10,11 +10,7 @@
 		"tall"			"380"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"#Frame_Untitled"
 			
 		"AssetBuilder"
 		{
@@ -30,8 +26,6 @@
 			//"PinnedCornerOffsetY" "30"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 		}
 	}

@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -32,32 +30,26 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"name_label"
-				"font"			"HudFontSmallest"
 				"labelText"		"%playername%"
-				"textAlignment"	"west"
 				"xpos"			"10"
 				"ypos"			"4"
 				"wide"			"200"
 				"tall"			"15"
 				//	"1"
 				//		"0"
-				"enabled"		"1"
 				"fgcolor_override" "200 80 60 255"
 			}
 			"score_label"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"score_label"
-				"font"			"HudFontSmallest"
 				"labelText"		"%playerscore%"
-				"textAlignment"	"west"
 				"xpos"			"220"
 				"ypos"			"4"
 				"wide"			"20"
 				"tall"			"15"
 				//	"1"
 				//		"0"
-				"enabled"		"1"
 			}
 		}
 	}
@@ -66,9 +58,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -76,7 +66,6 @@
 		"tall"			"15"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -84,9 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"REWARD GIVEAWAY"
-		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -94,7 +81,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"TopLine"
@@ -106,7 +92,6 @@
 		"zpos"			"2"
 		"wide"			"610"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
 	}				
@@ -145,10 +130,8 @@
 		"tall"			"5"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 		"default"		"1"

@@ -42,7 +42,6 @@ Scheme
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
 		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		[$X360]
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -65,9 +64,7 @@ Scheme
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		[$X360]
 		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		[$X360]
 		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -181,12 +178,9 @@ Scheme
 
 		// scheme-specific colors
 		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	[$X360]
 		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				[$X360]
 		MainMenu.DepressedTextColor	"192 186 80 255"
 		MainMenu.MenuItemHeight		"16"	[$WIN32]
-		MainMenu.MenuItemHeight		"32"	[$X360]
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
@@ -196,7 +190,6 @@ Scheme
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
 		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
 		TFColors.ChatTextYellow		"251 235 202 255"
@@ -225,7 +218,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
@@ -233,7 +225,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"13"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
@@ -241,7 +232,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -250,7 +240,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"16"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -259,7 +248,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -274,7 +262,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"10"
-				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
 			}
@@ -282,7 +269,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
 			}
@@ -290,7 +276,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"13"
-				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
 			}
@@ -298,7 +283,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"17"
-				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
 			}
@@ -306,7 +290,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"22"
-				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
 			}
@@ -318,7 +301,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"7"
-				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
 			}
@@ -326,7 +308,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"9"
-				"weight"	"0"
 				"yres"		"600 767"
 				"symbol"	"1"
 			}
@@ -334,7 +315,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"11"
-				"weight"	"0"
 				"yres"		"768 1023"
 				"symbol"	"1"
 			}
@@ -342,7 +322,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"13"
-				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
 			}
@@ -350,7 +329,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"17"
-				"weight"	"0"
 				"yres"		"1200 10000"
 				"symbol"	"1"
 			}
@@ -362,7 +340,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"12"	[$WIN32]
-				"tall"		"15"	[$X360]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
@@ -371,7 +348,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"14"	[$WIN32]
-				"tall"		"17"	[$X360]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
@@ -380,7 +356,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[$X360]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
@@ -389,7 +364,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"17"	[$WIN32]
-				"tall"		"20"	[$X360]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -398,7 +372,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"22"	[$WIN32]
-				"tall"		"25"	[$X360]
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"

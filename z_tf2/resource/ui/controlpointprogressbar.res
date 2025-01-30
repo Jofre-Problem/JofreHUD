@@ -10,7 +10,6 @@
 		"wide"		"100"
 		"tall"		"65"
 		"visible"	"0"
-		"enabled"	"1"
 	}
 
 	"ProgressBar"
@@ -24,7 +23,6 @@
 		"tall"		"45"
 		//	"0"
 		//	"0"
-		"enabled"	"1"
 		"fg_image"	"progress_bar_blu"
 		"bg_image"	"progress_bar_blu"
 	}
@@ -38,7 +36,6 @@
 		"zpos"		"21"
 		"wide"		"54"
 		"tall"		"65"
-		"enabled"	"1"
 		"scaleImage"	"1"
 		"icon"		"cappoint_progressbar_teardrop"
 		"iconColor"	"255 255 255 255"
@@ -53,7 +50,6 @@
 		"zpos"		"21"
 		"wide"		"54"
 		"tall"		"54"
-		"enabled"	"1"
 		"scaleImage"	"1"
 		"icon"		"cappoint_progressbar_teardrop"
 		"iconColor"	"255 255 255 255"
@@ -63,7 +59,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
-		"font"			"DefaultSmall"
 		"xpos"			"14"
 		"ypos"			"8"
 		"zpos"			"23"
@@ -71,7 +66,6 @@
 		"tall"			"40"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"progress"
 		"centerwrap"	"1"
 	}
@@ -85,7 +79,6 @@
 		"zpos"		"21"
 		"wide"		"50"
 		"tall"		"50"
-		"enabled"	"1"
 		"scaleImage"	"1"
 		"icon"		"cappoint_progressbar_blocked"
 		"iconColor"	"255 255 255 255"

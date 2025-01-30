@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"120"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_spy_red"
 	}

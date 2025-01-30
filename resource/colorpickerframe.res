@@ -10,11 +10,7 @@
 		"tall"			"375"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"Select Color"
 		
 		"OkButton"
 		{
@@ -26,14 +22,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"2"
 			"labelText"		"Ok"
-			"textAlignment"		"center"
 			////		"0"
 			////		"0"
-			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -46,14 +38,10 @@
 			"tall"		"24"
 			//	"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"3"
 			"labelText"		"Cancel"
-			"textAlignment"	"center"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"ColorPicker"
@@ -66,11 +54,7 @@
 			"tall"			"300"
 			//	"3"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
-			"settitlebarvisible"	"1"
-			"title"		"#Frame_Untitled"
 		}
 	}
 }

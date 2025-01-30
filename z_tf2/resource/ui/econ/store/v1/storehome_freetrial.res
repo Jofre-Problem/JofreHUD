@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -34,8 +32,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"18"
 			"model_ypos"	"5"
 			"model_wide"	"53"
@@ -58,7 +54,6 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -68,8 +63,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
-			
 			"use_item_sounds" "1"
 		}
 	}
@@ -97,14 +90,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -120,8 +111,6 @@
 		"ypos"			"10"
 		"wide"			"300"
 		"tall"			"300"
-		"enabled"		"1"
-	
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -131,7 +120,6 @@
 			"zpos"			"0"
 			"wide"			"220"
 			"tall"			"80"
-			"enabled"		"1"
 			"image"			"store/store_mannco_logo"
 			"scaleImage"	"1"
 		}
@@ -144,7 +132,6 @@
 			"zpos"			"1"
 			"wide"			"275"
 			"tall"			"200"
-			"enabled"		"1"
 			"image"			"store/store_saxton_thumbs_up"
 			"scaleImage"	"1"
 		}
@@ -184,7 +171,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_FeaturedItem"
 		"textAlignment"	"north"
 		"xpos"			"c-215"
@@ -194,13 +180,11 @@
 		"tall"			"70"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}		
 	"FeaturedItemPrice"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemPrice"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%featured_item_price%"
 		"textAlignment"	"center"
 		"xpos"			"c-97"
@@ -210,7 +194,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}		
 	"FeaturedItemSymbol"
 	{
@@ -221,7 +204,6 @@
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"store/store_starburst"
 		"scaleImage"	"1"
 	}
@@ -230,7 +212,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"east"
 		"xpos"			"c-330"
@@ -241,7 +222,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"CheckoutButton"
@@ -254,10 +234,8 @@
 		"wide"			"210"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_StartShopping"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"startshopping"
@@ -273,7 +251,6 @@
 		"wide"			"325"
 		"tall"			"260"
 		"visible"		"0"
-		"border"		"GrayDialogBorder"
 		
 		"TitleBG"
 		{
@@ -284,16 +261,13 @@
 			"zpos"			"0"
 			"wide"			"325"
 			"tall"			"40"
-			"border"		"StoreFreeTrialBorder"
 		}
 		
 		"FreeTrialTitle"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialTitle"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#Store_FreeTrial_Title"
-			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -301,15 +275,12 @@
 			"tall"			"45"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		"FreeTrialTitleShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialTitleShadow"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#Store_FreeTrial_Title"
-			"textAlignment"	"west"
 			"xpos"			"12"
 			"ypos"			"2"
 			"zpos"			"1"
@@ -317,7 +288,6 @@
 			"tall"			"45"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"0 0 0 255"
 		}
 
@@ -325,7 +295,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialSubTitle"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_FreeTrial_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -335,7 +304,6 @@
 			"tall"			"40"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 		
@@ -348,7 +316,6 @@
 			"zpos"			"2"
 			"wide"			"3"
 			"tall"			"5"
-			"enabled"		"1"
 			"image"			"loadout_dotted_line"
 			"tileVertically" "0"
 		}				
@@ -356,9 +323,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint1"
-			"font"			"HudFontSmall"
 			"labelText"		"#Store_FreeTrial_Point1"
-			"textAlignment"	"west"
 			"xpos"			"24"
 			"ypos"			"88"
 			"zpos"			"2"
@@ -366,7 +331,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -379,7 +343,6 @@
 			"zpos"			"2"
 			"wide"			"3"
 			"tall"			"5"
-			"enabled"		"1"
 			"image"			"loadout_dotted_line"
 			"tileVertically" "0"
 		}				
@@ -387,9 +350,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint2"
-			"font"			"HudFontSmall"
 			"labelText"		"#Store_FreeTrial_Point2"
-			"textAlignment"	"west"
 			"xpos"			"24"
 			"ypos"			"104"
 			"zpos"			"2"
@@ -397,7 +358,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -410,7 +370,6 @@
 			"zpos"			"2"
 			"wide"			"3"
 			"tall"			"5"
-			"enabled"		"1"
 			"image"			"loadout_dotted_line"
 			"tileVertically" "0"
 		}				
@@ -418,9 +377,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint3"
-			"font"			"HudFontSmall"
 			"labelText"		"#Store_FreeTrial_Point4"
-			"textAlignment"	"west"
 			"xpos"			"24"
 			"ypos"			"120"
 			"zpos"			"2"
@@ -428,7 +385,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -441,7 +397,6 @@
 			"zpos"			"2"
 			"wide"			"3"
 			"tall"			"5"
-			"enabled"		"1"
 			"image"			"loadout_dotted_line"
 			"tileVertically" "0"
 		}				
@@ -449,7 +404,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FreeTrialPoint4"
-			"font"			"HudFontSmall"
 			"labelText"		"#Store_FreeTrial_Point3"
 			"textAlignment"	"north-west"
 			"xpos"			"24"
@@ -459,7 +413,6 @@
 			"tall"			"40"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"117 107 94 255"
 		}
@@ -468,7 +421,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#Store_FreeTrial_Bonus"
 			"textAlignment"	"north-west"
 			"xpos"			"100"
@@ -478,7 +430,6 @@
 			"tall"			"40"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"178 82 22 255"
 		}
 		
@@ -486,7 +437,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusTextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#Store_FreeTrial_BonusText"
 			"textAlignment"	"north-west"
 			"xpos"			"100"
@@ -496,7 +446,6 @@
 			"tall"			"60"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 
@@ -509,7 +458,6 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"100"
-			"enabled"		"1"
 			"image"			"../backpack/player/items/all_class/all_manncap_large"
 			"scaleImage"	"1"
 		}
@@ -526,10 +474,8 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"

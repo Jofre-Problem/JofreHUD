@@ -44,12 +44,10 @@
 				"ypos"			"35"
 
 				"textAlignment"	"center"
-
 				"fonts"
 				{
 					"0"		"HudFontSmallBold"
 					"1"		"StorePromotionsTitle"
-					"2"		"FontStorePrice"
 				}
 			}
 		}

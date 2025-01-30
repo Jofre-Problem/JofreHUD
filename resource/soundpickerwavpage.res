@@ -14,16 +14,12 @@
 		//"PinnedCornerOffsetY" "6"
 		//"PinnedCornerOffsetY" "-6"
 		//"UnpinnedCornerOffsetY" "-6"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		
 		"AssetSplitter"
 		{
 			"ControlName"	"Splitter"
 			"fieldName"		"AssetSplitter"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -44,11 +40,8 @@
 					//	"0"
 					//		"0"
 					//"PinnedCornerOffsetX" "6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"labelText"		"Mod Filter"
-					"textAlignment"	"east"
 					//		"1"
 					
 				}
@@ -65,8 +58,6 @@
 					//		"0"
 					//"PinnedCornerOffsetX" "75"
 					//"PinnedCornerOffsetY" "-70"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"textHidden"	"0"
 					"editable"		"0"
@@ -87,12 +78,8 @@
 					//	"0"
 					//		"1"
 					"labelText"		"#AssetPicker_Rescan"
-					"textAlignment"	"center"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"textHidden"	"0"
-					"Default"		"0"
 					"command"		"AssetRescan"
 				}
 		
@@ -108,8 +95,6 @@
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}						
 			}
@@ -128,8 +113,6 @@
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-64"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"1"
 				}
 				
@@ -145,11 +128,8 @@
 					//		"2"
 					//"PinnedCornerOffsetX" "6"
 					//"PinnedCornerOffsetY" "-34"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"labelText"		"Full Path"
-					"textAlignment"	"east"
 					//		"1"
 					
 				}
@@ -167,12 +147,9 @@
 					//"PinnedCornerOffsetX" "75"
 					//"PinnedCornerOffsetY" "-34"
 					//"PinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"0"
 					"editable"		"0"
 					//	"0"
 					"labelText"		""
-					"textAlignment"	"west"
 					//		"1"
 					
 				}
@@ -189,11 +166,8 @@
 					//		"2"
 					//"PinnedCornerOffsetX" "6"
 					//"PinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"2"
 					"labelText"		"Filter"
-					"textAlignment"	"east"
 					//		"1"
 					
 				}
@@ -211,8 +185,6 @@
 					//"PinnedCornerOffsetX" "75"
 					//"PinnedCornerOffsetY" "-6"
 					//"PinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"2"
 					"textHidden"	"0"
 					"editable"		"1"

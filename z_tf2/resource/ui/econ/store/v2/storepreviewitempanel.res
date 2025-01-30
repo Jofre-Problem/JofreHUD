@@ -12,7 +12,6 @@
 		"skip_autoresize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		
 		"small_vertical_break_size"		"0"
@@ -72,8 +71,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -87,9 +84,7 @@
 		"zpos"			"0"
 		"wide"			"480"
 		"tall"			"300"
-		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -102,9 +97,7 @@
 			"zpos"			"1"
 			"wide"			"220"
 			"tall"			"213"
-			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -117,9 +110,6 @@
 			"zpos"			"1"
 			"wide"			"474"
 			"tall"			"10"
-			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -134,8 +124,6 @@
 			"zpos"			"1"
 			"wide"			"474"
 			"tall"			"58"
-			"enabled"		"1"
-			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
@@ -145,16 +133,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%itemname%"
-			"textAlignment"	"west"
 			"xpos"			"240"
 			"ypos"			"17"
 			"wide"			"230"
 			"tall"			"15"
 			"skip_autoresize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}		
 				
@@ -168,7 +153,6 @@
 			"zpos"			"100"
 			"wide"			"230"
 			"tall"			"201"
-			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			"ScrollableChild"
@@ -180,7 +164,6 @@
 				"zpos"			"100"
 				"wide"			"230"
 				"tall"			"222"
-				"PaintBackgroundType"	"0"
 				"bgcolor_override"	"0 0 0 0"
 				"skip_autoresize"	"1"
 				//
@@ -190,13 +173,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ItemLevelInfoLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%item_level_info%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"15"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"118 107 94 255"
 				}		
@@ -205,14 +186,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Restrictions"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
 					"visible"		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"200 80 60 255"
 				}		
@@ -221,14 +200,12 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_HolidayRestrictionText"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
 					"visible"		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"200 80 60 255"
 				}		
@@ -237,13 +214,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_UsedBy"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -252,13 +227,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 				
@@ -266,13 +239,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Slot"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -281,13 +252,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%slot%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 				
@@ -295,12 +264,10 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"PriceLabel"
-					"font"			"HudFontMediumSmallBold"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"25"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%price%"
 				}
@@ -309,12 +276,10 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ArmoryTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%armory_text%"
 				}			
@@ -323,12 +288,10 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"AttributesLabel"
-					"font"			"FontStoreOriginalPrice"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 				
@@ -340,10 +303,8 @@
 					"wide"			"150"
 					"tall"			"20"
 					//		"0"
-					"enabled"		"1"
 					//	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
 					"command"		"viewwikipage"
 				}		
@@ -352,13 +313,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TradableLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Tradable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -367,13 +326,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TradableTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%tradable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 				
@@ -381,13 +338,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"GiftableLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Giftable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -396,13 +351,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"GiftableTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%giftable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 				
@@ -410,13 +363,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"NameableLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Nameable"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -425,13 +376,11 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"NameableTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%nameable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}		
 
@@ -439,13 +388,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"CraftableLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Craftable"
 					"textAlignment"		"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"173 165 146 255"
 				}		
@@ -454,13 +401,11 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"CraftableTextLabel"
-					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%craftable%"
 					"textAlignment"		"north-west"
 					"wide"			"205"
 					"tall"			"10"
 					//		"0"
-					"enabled"		"1"
 					"wrap"			"1"
 				}
 			}
@@ -479,8 +424,6 @@
 		"tall"			"213"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"1"
@@ -518,8 +461,6 @@
 		"wide"			"220"
 		"tall"			"220"
 		"paintbackground"	"0"
-		"paintborder"	"0"
-		
 		"model_xpos"	"10"
 		"model_ypos"	"10"
 		"model_wide"	"200"
@@ -572,8 +513,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -623,8 +562,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -674,8 +611,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -725,8 +660,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -776,8 +709,6 @@
 			"fieldName"		"itempanel"
 			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -804,7 +735,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -819,7 +749,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -834,7 +763,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -849,7 +777,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -864,7 +791,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -879,7 +805,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -896,10 +821,8 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"command"		"icons_left"
 		"paintbackground"	"0"
@@ -918,10 +841,8 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"command"		"icons_right"
 		"paintbackground"	"0"
@@ -934,7 +855,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassUsageMouseoverLabel"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"xpos"			"c-215"
 		"ypos"			"c75"
@@ -943,13 +863,11 @@
 		"tall"			"55"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
 	}
 
 	"RotLeftButton"
@@ -962,10 +880,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
 		"Command"		"-1"
 		"paintbackground"	"0"
@@ -985,10 +901,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
 		"Command"		"1"
 		"paintbackground"	"0"
@@ -1005,10 +919,8 @@
 		"zpos"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"next_weapon"
@@ -1025,10 +937,8 @@
 		"tall"			"11"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"gofullscreen"
 		
@@ -1046,7 +956,6 @@
 			"zpos"			"1"
 			"wide"			"11"
 			"tall"			"11"
-			"enabled"		"1"
 			"image"			"store/store_fullscreen"
 			"scaleImage"	"1"
 		}				
@@ -1062,10 +971,8 @@
 		"wide"			"11"
 		"tall"			"11"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"zoom_toggle"
 		
@@ -1083,7 +990,6 @@
 			"zpos"			"1"
 			"wide"			"11"
 			"tall"			"11"
-			"enabled"		"1"
 			"image"			"store/store_zoom"
 			"scaleImage"	"1"
 		}				
@@ -1100,10 +1006,8 @@
 		"tall"			"11"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"options"
 		
@@ -1121,7 +1025,6 @@
 			"zpos"			"1"
 			"wide"			"11"
 			"tall"			"11"
-			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
 		}				
@@ -1137,8 +1040,6 @@
 		"wide"				"19"
 		"tall"				"40"
 		//			"0"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -1151,7 +1052,6 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -1164,11 +1064,7 @@
 			
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
@@ -1185,7 +1081,6 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}
@@ -1223,7 +1118,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTextLabel"
-		"font"			"FontStorePrice"
 		"labelText"		""
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -1232,7 +1126,6 @@
 		"tall"			"28"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -1244,7 +1137,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PaintNameLabel"
-		"font"			"FontStorePrice"
 		"labelText"		"#Store_NoPaint"
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -1254,7 +1146,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		
@@ -1263,7 +1154,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StyleNameLabel"
-		"font"			"FontStorePrice"
 		"labelText"		"None"
 		"textAlignment"	"left"
 		"xpos"			"132"
@@ -1272,7 +1162,6 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		
@@ -1289,10 +1178,8 @@
 		"wide"			"14"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
@@ -1310,7 +1197,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
@@ -1325,10 +1211,8 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"22"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
@@ -1344,10 +1228,8 @@
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"22"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"tryitout"
@@ -1363,10 +1245,8 @@
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"27"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"addtocart"

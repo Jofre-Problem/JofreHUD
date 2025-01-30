@@ -9,7 +9,6 @@
 		"wide"		"620"
 		"tall"		"195"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"Background"
@@ -23,8 +22,6 @@
 		"zpos"					"0"
 		"wide"					"620"
 		"tall"					"195"
-		"enabled"				"1"
-		"PaintBackgroundType"			"0"
 	}
 	"Image"
 	{
@@ -35,7 +32,6 @@
 		"wide"			"128"
 		"tall"			"256"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"scaleImage"		"1"
 	}
@@ -48,10 +44,8 @@
 		"wide"		"620"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"%name%"
-		"textAlignment"		"west"
 	}
 	"Description"
 	{
@@ -62,10 +56,8 @@
 		"wide"		"620"
 		"tall"		"100"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"%description%"
-		"textAlignment"		"west"
 	}
 	"CompletedLabel"
 	{
@@ -76,11 +68,8 @@
 		"wide"		"620"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TR_Completed"
-		"textAlignment"		"west"
-		"font"		"CenterPrintText"
 		"fgcolor_override"	"0 160 0 255"
 	}
 	"NotCompletedLabel"
@@ -92,11 +81,8 @@
 		"wide"		"620"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TR_Not_Completed"
-		"textAlignment"		"west"
-		"font"		"CenterPrintText"
 		"fgcolor_override"	"192 28 0 255"
 	}
 }

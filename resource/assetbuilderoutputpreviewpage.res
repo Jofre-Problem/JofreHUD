@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	
 		"OutputPreview"
@@ -26,8 +24,6 @@
 			//"UnpinnedCornerOffsetY" "-6"
 			//		"3"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"0"
 		}
 	}

@@ -6,7 +6,6 @@
 	{
 		"fieldName"				"CollectionCraftingPanel"
 		"visible"				"0"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"zpos"					"101"
@@ -115,7 +114,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Paragraph1"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"20"
 				"ypos"			"105"
@@ -123,12 +121,10 @@
 				"wide"			"p0.2"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_Halloween_Paragraph1"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"Black"
 				"wrap"			"1"
 			}
@@ -137,7 +133,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Paragraph2"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"20"
 				"ypos"			"160"
@@ -145,12 +140,10 @@
 				"wide"			"p0.2"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_Halloween_Paragraph2"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"Black"
 				"wrap"			"1"
 			}
@@ -159,7 +152,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Paragraph3"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"20"
 				"ypos"			"215"
@@ -167,12 +159,10 @@
 				"wide"			"p0.8"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_Halloween_Paragraph3"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"Black"
 				"wrap"			"1"
 			}
@@ -181,7 +171,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Instructions"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"295"
 				"ypos"			"105"
@@ -189,12 +178,10 @@
 				"wide"			"p0.4"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_Instructions_Halloween"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"RedSolid"
 				"wrap"			"1"
 			}

@@ -12,10 +12,8 @@
 		"tall"			"480"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -30,6 +28,5 @@
 		"zpos"		"1000"
 		"wide"		"400"
 		"tall"		"350"
-		"enabled"	"1"
 	}
 }

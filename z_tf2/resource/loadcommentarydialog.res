@@ -10,7 +10,6 @@
 		"tall"		"460"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"1"
 		"title"		"#GameUI_LoadCommentary"
@@ -25,7 +24,6 @@
 		"tall"		"354"
 		//		"3"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 	}
 	"loadcommentary"
@@ -40,7 +38,6 @@
 		//		"3"
 		//		"2"
 		"labelText"		"#GameUI_Load"
-		"textAlignment"		"west"
 		"Command"		"loadcommentary"
 		"Default"		"1"
 	}
@@ -54,10 +51,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"3"
-		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
 		"Command"		"Close"
 	}
 	"HelpText"
@@ -70,10 +65,8 @@
 		"tall"		"36"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_LoadCommentaryHelp"
-		"textAlignment"		"west"
 		"wrap"		"1"
 	}
 	"topHorizLeft"
@@ -87,10 +80,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
 	}
 	"topVertLeft"
 	{
@@ -103,10 +94,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
 	}
 	"bottomHorizRight"
 	{
@@ -119,10 +108,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
 	}
 	"bottomVertRight"
 	{
@@ -135,9 +122,7 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"Label"
-		"textAlignment"		"west"
 	}
 }

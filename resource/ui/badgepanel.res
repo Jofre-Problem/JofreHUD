@@ -9,10 +9,6 @@
 		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"f0"
-		//	"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fov"			"70"
 		"start_framed"	"0"
 		"proportionaltoparent"	"1"
@@ -33,17 +29,6 @@
 			"animation"
 			{
 				"sequence"	"idle"
-				"default"	"1"
-			}
-		}
-
-		"lights"
-		{
-			"default"
-			{
-				"name"			"directional"
-				"color"			"0.5 0.5 0.5"
-				"direction"		"1 0 -1"
 			}
 		}
 	}

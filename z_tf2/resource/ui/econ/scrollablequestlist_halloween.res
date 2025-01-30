@@ -11,7 +11,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 
 		"SelectButton"
@@ -23,7 +22,6 @@
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"f0"
-			"enabled"		"1"
 			"textAlignment"	"east"
 			"labelText"			""
 
@@ -41,7 +39,6 @@
 
 	"EmptyLabel"
 	{
-		"font"			"HudFontSmallBold"
 		"fgcolor"		"HalloweenThemeColor2015_Light"
 	}
 }

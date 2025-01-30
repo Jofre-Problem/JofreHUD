@@ -12,7 +12,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"			// pixels inside the image
@@ -33,7 +32,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
 		
 		"src_corner_height"		"23"			// pixels inside the image
@@ -64,7 +62,6 @@
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
@@ -74,7 +71,6 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"CoachNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
 		"xpos"			"42"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -82,9 +78,7 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"West"
 	}
 
 	"KickCoachLabel"
@@ -99,11 +93,8 @@
 		"tall"			"10"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_Coach_KickCoach"
-		"textAlignment"	"West"
-		"font"			"TFFontSmall"
 	}
 
 	"LikeCoachLabel"
@@ -119,11 +110,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_Coach_LikeCoach"
-		"textAlignment"	"West"
-		"font"			"TFFontSmall"
 	}
 
 }

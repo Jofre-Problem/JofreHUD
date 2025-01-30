@@ -9,8 +9,6 @@
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"300"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -22,7 +20,6 @@
 			"wide"				"20"
 			"tall"				"40"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -35,8 +32,6 @@
 			
 			
 			"paintbackground"	"0"
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 180"
 			"image_armedcolor"		"255 255 255 255"
 			"image_selectedcolor"	"255 255 255 255"
@@ -53,7 +48,6 @@
 				"zpos"			"7"
 				"wide"			"100"
 				"tall"			"200"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}

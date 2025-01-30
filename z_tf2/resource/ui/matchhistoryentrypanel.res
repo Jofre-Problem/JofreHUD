@@ -58,9 +58,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Win"
-			"font"				"HudFontSmallestBold"
 			"fgcolor_override"	"95 164 44 255"
-			"textAlignment"		"west"
 		}
 
 		"LossLabel"
@@ -76,9 +74,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Loss"
-			"font"				"HudFontSmallestBold"
 			"fgcolor_override"	"141 63 63 255"
-			"textAlignment"		"west"
 		}
 
 		"DateLabel"
@@ -93,9 +89,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%match_date%"
-			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"		"west"
 		}
 
 		"MapNameLabel"
@@ -110,9 +104,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%map_name%"
-			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"		"west"
 		}
 
 		"KDLabel"
@@ -127,9 +119,7 @@
 			"mouseinputenabled"	"0"
 			
 			"labeltext"			"%kd_ratio%"
-			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"		"west"
 		}
 	}
 
@@ -159,7 +149,6 @@
 			//		"2"
 			//			"3"
 			
-			"border"			"InnerShadowBorder"	
 		}
 
 		"SlidingStatsContainer"
@@ -226,9 +215,7 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_kills%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			"DeathsLabel"
@@ -243,9 +230,7 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_deaths%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			"DamageMedal"
@@ -273,9 +258,7 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_damage%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			// Second column
@@ -304,9 +287,7 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_healing%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			"SupportMedal"
@@ -334,9 +315,7 @@
 				"mouseinputenabled"	"0"
 			
 				"labeltext"			"%stat_support%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			"ScoreMedal"
@@ -366,9 +345,7 @@
 				//			"3"
 			
 				"labeltext"			"%stat_score%"
-				"font"				"MMenuPlayListDesc"
 				"fgcolor_override"	"TanLight"
-				"textAlignment"		"west"
 			}
 
 			"ClassIcons"

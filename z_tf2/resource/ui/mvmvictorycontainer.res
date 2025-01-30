@@ -21,8 +21,6 @@
 		"ypos"			"20"
 		"wide"			"600"
 		"tall"			"50"
-		"enabled"		"1"
-		
 		"BannerImage"
 		{
 			"ControlName"	"ScalableImagePanel"
@@ -31,7 +29,6 @@
 			"ypos"			"0"
 			"wide"			"600"
 			"tall"			"50"
-			"enabled"		"1"
 			"image"			"mvm/smallbanner"
 			"scaleImage"    "1"
 			
@@ -46,7 +43,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"2"
@@ -60,7 +56,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"HudFontBiggerBold"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -80,7 +75,6 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"		
 	}
 	
 	"VictoryPanelMannUp"
@@ -93,6 +87,5 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"		
 	}
 }

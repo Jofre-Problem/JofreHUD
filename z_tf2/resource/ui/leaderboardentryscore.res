@@ -30,7 +30,6 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -39,9 +38,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%username%"
-			"textAlignment"	"west"
 			"xpos"			"25"
 			"ypos"			"2"
 			"zpos"			"2"
@@ -49,15 +46,12 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 		}
 		"Score"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%score%"
-			"textAlignment"	"west"
 			"xpos"			"200"
 			"ypos"			"2"
 			"zpos"			"2"
@@ -65,7 +59,6 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 		}	
 	}	
 }

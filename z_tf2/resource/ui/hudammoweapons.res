@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"45"
-		"enabled"		"1"
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -25,7 +24,6 @@
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -35,7 +33,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"4"
 		"ypos"			"0"
@@ -43,7 +40,6 @@
 		"wide"			"55"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
 		
@@ -52,7 +48,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"5"
 		"ypos"			"1"
@@ -60,7 +55,6 @@
 		"wide"			"55"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-east"	
 		"labelText"		"%Ammo%"
 		
@@ -69,7 +63,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"59"
 		"ypos"			"8"
@@ -77,7 +70,6 @@
 		"wide"			"40"
 		"tall"			"27"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 	}		
@@ -85,7 +77,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"HudFontMediumSmall"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"60"
 		"ypos"			"9"
@@ -93,7 +84,6 @@
 		"wide"			"40"
 		"tall"			"27"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-west"		
 		"labelText"		"%AmmoInReserve%"
 	}									
@@ -101,7 +91,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"2"
@@ -109,7 +98,6 @@
 		"wide"			"84"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
 		
@@ -118,7 +106,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"1"
 		"ypos"			"3"
@@ -126,7 +113,6 @@
 		"wide"			"84"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
 		

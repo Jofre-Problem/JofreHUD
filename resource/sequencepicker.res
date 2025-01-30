@@ -10,17 +10,12 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		
 		"PreviewSplitter"
 		{
 			"ControlName"	"Splitter"
 			"fieldName"		"PreviewSplitter"
-			"visible"		"1"
-			"enabled"		"1"
-			
 			"child0"
 			{
 				"MDLPreview"
@@ -37,8 +32,6 @@
 					//"PinnedCornerOffsetY" "6"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}
@@ -59,8 +52,6 @@
 					//"PinnedCornerOffsetY" "6"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}

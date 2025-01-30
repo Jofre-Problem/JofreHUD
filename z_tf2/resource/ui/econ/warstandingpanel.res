@@ -15,7 +15,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0Name"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%team0name%"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -25,7 +24,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -34,7 +32,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0YourSide"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_War_YourSide"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -45,7 +42,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"Orange"
 			"proportionaltoparent"	"1"
 		}
@@ -68,9 +64,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team0Score"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%team0score%"
-			"textAlignment"	"west"
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -78,7 +72,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent"	"1"
 			"textinsetx"	"5"
@@ -99,7 +92,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1Name"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%team1name%"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -109,7 +101,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -118,7 +109,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1YourSide"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_War_YourSide"
 			"textAlignment"	"east"
 			"xpos"			"rp0.7+s-1-40"
@@ -129,7 +119,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"Orange"
 			"proportionaltoparent"	"1"
 		}
@@ -152,9 +141,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Team1Score"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%team1score%"
-			"textAlignment"	"west"
 			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -162,7 +149,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent"	"1"
 			"textinsetx"	"5"

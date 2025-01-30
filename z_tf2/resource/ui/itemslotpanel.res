@@ -10,10 +10,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -54,7 +52,6 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
 			
@@ -92,9 +89,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -102,7 +97,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 
@@ -110,16 +104,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#EditSlots"
-		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 	}
 
 	"OKButton"
@@ -132,10 +123,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_OK"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"ok"

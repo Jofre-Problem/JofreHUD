@@ -10,6 +10,7 @@
         "^docs": true,
         "**/^root": true,
         "^root": true
+		"typescript.tsserver.experimental.enableProjectDiagnostics": true		
     },
     "explorerExclude.backup": {}
 }

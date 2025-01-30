@@ -9,7 +9,6 @@
 		"zpos"				"1"
 		"wide"				"320"
 		"tall"				"90"
-		"enabled"			"1"
 	}
 	"GoalLabel"
 	{	
@@ -25,10 +24,8 @@
 
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%goal%"
-		"font"			"GoalText"
 		"textAlignment"		"North"
 	}
 	"GoalLabelShadow"
@@ -45,10 +42,8 @@
 
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%goal%"
-		"font"			"GoalText"
 		"textAlignment"		"North"
 	}
 	"MsgLabel"
@@ -65,11 +60,9 @@
 
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
-		"font"			"InstructionalText"
 	}
 	"PressSpacebarToContinue"
 	{	
@@ -86,11 +79,9 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_Training_SpaceToContinue"
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
 	}
 	"HudTrainingMsgBG"
 	{
@@ -105,7 +96,6 @@
 
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"

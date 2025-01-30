@@ -8,7 +8,6 @@
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"enabled"			"1"
 	}
 	
 	"BlueEscortPanel"
@@ -20,7 +19,6 @@
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"200"
-		"enabled"			"1"
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		
@@ -39,7 +37,6 @@
 		"zpos"				"1"
 		"wide"				"400"
 		"tall"				"200"
-		"enabled"			"1"
 		"progress_xpos"		"79"
 		"progress_wide"		"270"
 		

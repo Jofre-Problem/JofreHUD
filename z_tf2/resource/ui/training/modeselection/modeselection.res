@@ -9,7 +9,6 @@
 		"wide"				"225"
 		"tall"				"300"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"paintBackground"	"0"
 		
@@ -28,7 +27,6 @@
 		"wide"				"225"
 		"tall"				"300"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"paintBackground"	"0"
 		

@@ -3,7 +3,6 @@
 	"ConfirmDialog"
 	{
 		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
 		"xpos"			"c-200"
 		"ypos"			"30"
 		"zpos"			"10000"
@@ -11,18 +10,13 @@
 		"tall"			"300"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#YouTube_UploadDlg_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -32,16 +26,12 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"MovieTitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"MovieTitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#YouTube_UploadDlg_MovieTitle"
 		"xpos"			"10"
 		"ypos"			"50"
@@ -50,14 +40,11 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"MovieTitleTextEntry"
 	{
 		"ControlName"	"TextEntry"
-		"fieldName"		"MovieTitleTextEntry"
 		"maxchars"		"60"
 		"unicode"		"1"
 		"xpos"			"10"
@@ -67,19 +54,14 @@
 		"tall"			"15"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"1"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"60 54 46 255"
-		"Font"			"HudFontSmallest"
 	}
 
 	"MovieDescLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"MovieDescLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#YouTube_UploadDlg_MovieDesc"
 		"xpos"			"10"
 		"ypos"			"100"
@@ -88,14 +70,11 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 
 	"MovieDescTextEntry"
 	{
 		"ControlName"	"TextEntry"
-		"fieldName"		"MovieDescTextEntry"
 		"maxchars"		"1024"
 		"unicode"		"1"
 		"xpos"			"10"
@@ -105,18 +84,14 @@
 		"tall"			"75"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"2"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"60 54 46 255"
-		"Font"			"HudFontSmallest"
 	}
 
 	"UnlistedCheckbox"
 	{
 		"ControlName"	"CheckButton"
-		"fieldName"		"UnlistedCheckbox"
 		"xpos"			"10"
 		"ypos"			"205"
 		"zpos"			"2"
@@ -124,19 +99,14 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#YouTube_UploadDlg_Unlisted"
-		"font"			"HudFontSmallest"
 		"selected_fgcolor_override" "255 0 0 255"
 	}
 	
 	"DisclaimerLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DisclaimerLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#YouTube_UploadDlg_Disclaimer"
 		"textAlignment"	"north"
 		"xpos"			"10"
@@ -146,15 +116,12 @@
 		"tall"			"50"
 		//	"1"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"wrap"			"1"
 	}
 
 	"TermsButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"TermsButton"
 		"xpos"			"10"
 		"ypos"			"265"
 		"zpos"			"20"
@@ -162,22 +129,15 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#YouTube_UploadDlg_Terms"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"termsofservice"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"ConfirmButton"
 		"xpos"			"155"
 		"ypos"			"265"
 		"zpos"			"20"
@@ -186,22 +146,15 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#YouTube_UploadDlg_Upload"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
 		"xpos"			"305"
 		"ypos"			"265"
 		"zpos"			"20"
@@ -209,15 +162,9 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 }

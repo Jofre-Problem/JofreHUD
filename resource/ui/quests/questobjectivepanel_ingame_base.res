@@ -9,9 +9,6 @@
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"	
-		
 		"PaintBackgroundType"	"2"
 
 		"enabled_text_color_override"		"235 226 202 255"
@@ -35,7 +32,6 @@
 		"font"			"QuestObjectiveTracker_DescGlow"
 		"alpha"			"0"
 
-		"TextAlignment"		"north-east"
 		"proportionaltoparent" "1"
 	}
 	
@@ -52,7 +48,6 @@
 		"textinsetx"	"5"
 		"font"			"QuestObjectiveTracker_Desc"
 
-		"TextAlignment"		"north-east"
 		"proportionaltoparent" "1"
 	}
 
@@ -66,10 +61,8 @@
 		"wide"			"f0"
 		"tall"			"10"
 		"zpos"			"3"
-		"visible"		"1"
 		"font"			"QuestObjectiveTracker_DescBlur"
 		"textinsetx"	"5"
-		"textAlignment"		"north-east"
 		"proportionaltoparent" "1"
 		"fgcolor_override"	"White"
 	}

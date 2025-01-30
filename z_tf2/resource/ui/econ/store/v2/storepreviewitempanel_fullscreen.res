@@ -10,9 +10,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 255"
 		
 		"fullscreen_fade_to_black_duration"	"0.32"
@@ -34,9 +32,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 255"
 	}
 		
@@ -50,10 +46,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
@@ -71,10 +65,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontBiggerBold"
 		"textAlignment"	"center"
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
@@ -89,10 +81,8 @@
 		"zpos"			"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"next_weapon"
@@ -108,10 +98,8 @@
 		"wide"			"15"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"zoom_toggle"
 		
@@ -129,7 +117,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"image"			"store/store_zoom"
 			"scaleImage"	"1"
 		}				
@@ -145,8 +132,6 @@
 		"wide"				"38"
 		"tall"				"60"
 		//			"0"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -159,7 +144,6 @@
 			"wide"				"38"
 			"tall"				"38"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -172,11 +156,7 @@
 			
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
@@ -193,7 +173,6 @@
 				"zpos"			"7"
 				"wide"			"38"
 				"tall"			"38"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}
@@ -237,10 +216,8 @@
 		"wide"			"14"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"close"	// Intentionally using "closex" instead of "close" for stats
 		
@@ -258,7 +235,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"image"			"store/store_fullscreen_exit"
 			"scaleImage"	"1"
 		}				
@@ -274,10 +250,8 @@
 		"wide"			"160"
 		"tall"			"22"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_TryItOut"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"tryitout"
@@ -293,10 +267,8 @@
 		"zpos"			"4"
 		"wide"			"160"
 		"tall"			"27"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"addtocart"

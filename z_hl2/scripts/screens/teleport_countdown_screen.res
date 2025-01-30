@@ -23,8 +23,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"Time Remaining"
 		"textAlignment"	"center"
@@ -32,7 +30,6 @@
 
 		// NOTE: These settings change the font + color as defined in CombinePanelScheme.res
 		"font"			"DefaultLarge"
-		"dulltext"		"1"
 	}
 
 	"TimeRemaining"
@@ -45,8 +42,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"0"
 		"textAlignment"	"center"
@@ -54,7 +49,6 @@
 
 		// NOTE: These settings change the font + color as defined in CombinePanelScheme.res
 		"font"			"DefaultLarge"
-		"dulltext"		"1"
 	}
 
 	"MalfunctionLabel"
@@ -67,8 +61,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"MALFUNCTION"
 		"textAlignment"	"center"

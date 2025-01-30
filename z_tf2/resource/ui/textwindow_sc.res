@@ -9,7 +9,6 @@
 		"wide"					"f0"
 		"tall"					"480"
 		//				"0"
-		"enabled"				"1"
 		//			"0"
 		"settitlebarvisible"	"0"
 	}
@@ -24,10 +23,7 @@
 		"wide"			"420"
 		"tall"			"24"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_WELCOME"
-		"textAlignment"	"west"
-		"font"			"ChalkboardTitle"
 		"fgcolor"		"White"
 	}	
 
@@ -42,7 +38,6 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -50,8 +45,6 @@
 		"tall"			"240"
 		"autoResize"	"3"
 		//		"0"
-		"enabled"		"1"
-		"paintborder"	"0"
 		"textAlignment"	"northwest"
 		"fgcolor"		"Gray"
 	}
@@ -67,9 +60,7 @@
 		"tall"			"295"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-		"paintborder"	"0"
 	}
 	
 	"ok"
@@ -82,13 +73,11 @@
 		"wide"			"150"
 		"tall"			"30"
 		//		"2"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
 	}
 
 	"OkIntroHintIcon"
@@ -101,53 +90,14 @@
 		"wide"			"25"
 		"tall"			"25"
 		//		"2"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
 	}
 	
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
-	}
+
 	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		//		"0"
-		"enabled"		"1"
-		//	"0"	
-		"image"			"loadout_bottom_gradient"
-		"PaintBackgroundType"	"0"
-	}						
+				
 	
 	"MessageTitle"
 	{

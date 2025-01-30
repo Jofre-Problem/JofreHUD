@@ -16,7 +16,6 @@ WeaponData
 	"primary_ammo"			"Buckshot"
 	"secondary_ammo"		"None"
 
-	"weight"				"4"
 	"rumble"			"5"
 	"item_flags"			"0"
 

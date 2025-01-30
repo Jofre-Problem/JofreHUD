@@ -3,14 +3,11 @@
 	"RecordPanel"
 	{
 		"ControlName"		"EditablePanel"
-		"FieldName"			"Embedded"
 	}
 
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"TitleLabel"
-		"font"				"ReplayMediumSmall"
 		"labelText"			"#Replay_NoNewRecord"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -24,8 +21,6 @@
 	"RecordInfoLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"RecordInfoLabel"
-		"font"				"ReplayMediumSmall"
 		"labelText"			"#Replay_NoNewRecord"
 		"xpos"				"0"
 		"ypos"				"0"
@@ -39,7 +34,6 @@
 	"ScoreBackgroundPanel"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"ScoreBackgroundPanel"
 		"zpos"				"0"
 		"visible"			"0"
 		"Border"			"ButtonBorder"
@@ -49,8 +43,6 @@
 	"ScoreLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"			"ScoreLabel"
-		"font"				"EconFontSmall"
 		"labelText"			"0"
 		"xpos"				"0"
 		"ypos"				"0"

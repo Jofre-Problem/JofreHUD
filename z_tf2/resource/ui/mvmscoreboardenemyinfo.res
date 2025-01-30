@@ -9,7 +9,6 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
@@ -24,7 +23,6 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 	
@@ -32,7 +30,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescriptionLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%description%"
 		"textAlignment" "north-west"
 		"xpos"			"20"

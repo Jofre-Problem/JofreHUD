@@ -30,7 +30,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespawnTimeLabel"
-			"font"			"MenuSmallFont"
 			"labelText"		"%time%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -52,7 +51,6 @@
 			"zpos"				"4"	
 			"wide"				"f-2"
 			"tall"				"f-2"	
-			"enabled"			"1"
 			"scaleImage"		"1"
 			"color_active"		"TimerProgress.Active"
 			"color_inactive"	"TimerProgress.InActive"

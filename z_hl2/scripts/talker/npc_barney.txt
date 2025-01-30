@@ -189,7 +189,6 @@ response BarneyTurret
 
 response BarneyTurretGroundGroup
 {
-	scene "scenes/npc/Barney/ba_turret.vcd"   weight 2
 	scene "scenes/npc/Barney/ba_grenade01.vcd"
 	scene "scenes/npc/Barney/ba_grenade02.vcd"
 }
@@ -297,7 +296,6 @@ rule SniperBarneyLeadStart
 
 response SniperBarneyLeadCatchup
 {
-   scene "scenes/Streetwar/sniper/ba_heycomeon.vcd" weight 2
    scene "scenes/Streetwar/sniper/ba_letsgetgoing.vcd"
    scene "scenes/Streetwar/sniper/ba_overhere.vcd"
 }

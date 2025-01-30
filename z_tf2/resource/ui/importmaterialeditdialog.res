@@ -3,12 +3,10 @@
 	"ImportMaterialEditDialog"
 	{
 		"fieldName"				"ImportMaterialEditDialog"
-		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
-		"border"				"GrayDialogBorder"
 	}
 
 	"Background"
@@ -21,7 +19,6 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 255"
 	}
@@ -68,7 +65,6 @@
 		"labelText"		""
 		"textAlignment"		"center"
 		"Command"		"EditSkin0"
-		"font"		"HudFontSmallBold"
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 	}
@@ -87,7 +83,6 @@
 		"labelText"		""
 		"textAlignment"		"center"
 		"Command"		"EditSkin1"
-		"font"		"HudFontSmallBold"
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 	}
@@ -96,7 +91,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"textAlignment"	"east"
 		"labelText"		""
 		"xpos"			"c-100"
@@ -118,9 +112,6 @@
 		"tall"			"15"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"BrowseMaterial"			
 					
@@ -145,7 +136,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BaseTextureLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Base Texture"
 		"xpos"			"c-80"
@@ -165,9 +155,7 @@
 		"tall"		"15"
 		//		"0"
 		"labelText"			"#TF_PublishFile_NoFileSelected"
-		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
-		"textAlignment"	"west"
 	}
 
 	"NormalTextureBrowse"
@@ -181,9 +169,6 @@
 		"tall"			"15"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"BrowseNormalTexture"			
 					
@@ -215,9 +200,6 @@
 		//		"3"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"ClearNormalTexture"				
 					
@@ -242,7 +224,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NormalTextureLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Shared Normal"
 		"xpos"			"c-70"
@@ -262,16 +243,13 @@
 		"tall"		"15"
 		//		"0"
 		"labelText"			"#TF_PublishFile_Optional"
-		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
-		"textAlignment"	"west"
 	}
 
 	"LightwarpLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LightwarpLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Lightwarp"
 		"xpos"			"c-80"
@@ -285,7 +263,6 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"LightwarpComboBox"
-		"Font"				"ImportToolSmallest"
 		"xpos"				"c+5"
 		"ypos"				"90"
 		"wide"				"175"
@@ -298,7 +275,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BaseMapAlphaPhongMaskLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Base Map Alpha Phong Mask"
 		"xpos"			"c-125"
@@ -313,16 +289,12 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"BaseMapAlphaPhongMaskCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"103"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"command"		"UpdateBaseMapAlphaPhongMask"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"PhongExponentTextureBrowse"
@@ -336,9 +308,6 @@
 		"tall"			"15"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"BrowsePhongExponentTexture"			
 					
@@ -370,9 +339,6 @@
 		//		"3"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"ClearPhongExponentTexture"				
 					
@@ -397,7 +363,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PhongExponentTextureLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Shared Phong Exponent / Rim Mask"
 		"xpos"			"c-170"
@@ -417,16 +382,13 @@
 		"tall"		"15"
 		//		"0"
 		"labelText"			"#TF_PublishFile_Optional"
-		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
-		"textAlignment"	"west"
 	}
 
 	"PhongExponentLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PhongExponentLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Phong Exponent"
 		"xpos"			"c-100"
@@ -445,7 +407,6 @@
 		"wide"		"35"
 		"tall"		"12"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -454,14 +415,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"PhongBoostLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PhongBoostLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Phong Boost"
 		"xpos"			"c-100"
@@ -480,7 +439,6 @@
 		"wide"		"35"
 		"tall"		"12"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -489,14 +447,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"RimLightExponentLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RimLightExponentLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Rim Light Exponent"
 		"xpos"			"c-100"
@@ -515,7 +471,6 @@
 		"wide"		"35"
 		"tall"		"12"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -524,14 +479,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"RimLightBoostLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RimLightBoostLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Rim Light Boost"
 		"xpos"			"c-100"
@@ -550,7 +503,6 @@
 		"wide"		"35"
 		"tall"		"12"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -559,14 +511,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"RimMaskLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RimMaskLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Rim Mask"
 		"xpos"			"c-100"
@@ -581,22 +531,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"RimMaskCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"203"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
 		"command"		"UpdateRimMask"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"HalfLambertLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HalfLambertLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Half Lambert"
 		"xpos"			"c-100"
@@ -611,23 +557,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"HalfLambertCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"223"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"command"		"UpdateHalfLambert"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"BlendTintByBaseAlphaLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlendTintByBaseAlphaLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Blend Tint By Base Alpha"
 		"xpos"			"c-150"
@@ -642,22 +583,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"BlendTintByBaseAlphaCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"243"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
 		"command"		"UpdateBlendTintByBaseAlpha"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"BlendTintColorOverBaseLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlendTintColorOverBaseLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Blend Tint Color Over Base"
 		"xpos"			"c-150"
@@ -684,14 +621,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"ColorTintBaseLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ColorTintBaseLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Color Tint Base (RGB)"
 		"xpos"			"c-150"
@@ -718,7 +653,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"ColorTintBaseGreenTextEntry"
@@ -738,7 +672,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"ColorTintBaseBlueTextEntry"
@@ -758,14 +691,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"AdditiveLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdditiveLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Additive"
 		"xpos"			"c-100"
@@ -780,23 +711,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"AdditiveCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"293"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"command"		"UpdateAdditive"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"TranslucentLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TranslucentLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Translucent"
 		"xpos"			"c+19"
@@ -811,23 +737,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"TranslucentCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+81" 
 		"ypos"			"293"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"command"		"UpdateTranslucent"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"AlphaTestLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AlphaTestLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Alpha Test"
 		"xpos"			"c+96"
@@ -842,22 +763,18 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"AlphaTestCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+158"
 		"ypos"			"293"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
 		"command"		"UpdateAlphaTest"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"EnvmapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnvmapLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Cube Map"
 		"xpos"			"c-100"
@@ -871,7 +788,6 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"EnvmapComboBox"
-		"Font"				"ImportToolSmallest"
 		"xpos"				"c+5"
 		"ypos"				"315"
 		"wide"				"175"
@@ -884,7 +800,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnvmapAlphaMaskLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Cube Map Alpha Mask"
 		"xpos"			"c-150"
@@ -898,7 +813,6 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"EnvmapAlphaMaskComboBox"
-		"Font"				"ImportToolSmallest"
 		"xpos"				"c+5"
 		"ypos"				"330"
 		"wide"				"175"
@@ -911,7 +825,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnvmapTintLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Cube Map Tint (RGB)"
 		"xpos"			"c-150"
@@ -938,7 +851,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"CubemapTintGreenTextEntry"
@@ -958,7 +870,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"CubemapTintBlueTextEntry"
@@ -978,14 +889,12 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"SelfIllumLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelfIllumLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Self Illumination"
 		"xpos"			"c-100"
@@ -1000,16 +909,12 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"SelfIllumCheckButton"
 		"labelText"		""
-		"Font"			"ImportToolSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"c+1" 
 		"ypos"			"357"
 		"wide"			"30"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"command"		"UpdateSelfIllum"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"SelfIllumTextureBrowse"
@@ -1023,9 +928,6 @@
 		"tall"			"15"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"BrowseSelfIllumTexture"			
 					
@@ -1057,9 +959,6 @@
 		//		"3"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
-					
 		"labelText"		""
 		"command"		"ClearSelfIllumTexture"				
 					
@@ -1084,7 +983,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelfIllumTextureLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Shared Illum Mask"
 		"xpos"			"c-85"
@@ -1104,16 +1002,13 @@
 		"tall"		"15"
 		//		"0"
 		"labelText"			"#TF_PublishFile_Optional"
-		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
-		"textAlignment"	"west"
 	}
 
 	"SelfIllumTintLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelfIllumTintLabel"
-		"font"			"ImportToolSmallestBold"
 		"textAlignment"	"east"
 		"labelText"		"Self Illumination Tint"
 		"xpos"			"c-150"
@@ -1140,7 +1035,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"SelfIllumTintGreenTextEntry"
@@ -1160,7 +1054,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"SelfIllumTintBlueTextEntry"
@@ -1180,7 +1073,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"ImportToolSmallest"
 	}
 
 	"ButtonDone"
@@ -1192,12 +1084,10 @@
 		"wide"		"175"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
 		"Command"		"Done"
-		"font"		"HudFontSmallBold"
 	}
 
 	"ButtonClose"
@@ -1209,11 +1099,9 @@
 		"wide"		"175"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
 		"Command"		"Close"
-		"font"		"HudFontSmallBold"
 	}
 }

@@ -38,7 +38,6 @@
 			"wide"			"f0"
 			"tall"			"9"
 			"zpos"			"4"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"bgcolor_override"		"212 127 25 41"
@@ -53,7 +52,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"QuestMap_Medium"
 				"TextAlignment"		"center"
 				"proportionaltoparent" "1"
 				"fgcolor_override"	"TanLight"
@@ -69,7 +67,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestUncommitted"
 				"zpos"			"2"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"PointsLabelInvert"
@@ -82,7 +79,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"QuestMap_Medium"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
 					"fgcolor_override"	"Black"
@@ -98,7 +94,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"3"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"bgcolor_override"	"QuestMap_ActiveOrange"
@@ -113,7 +108,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"QuestMap_Medium"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
 					"fgcolor_override"	"TanLight"
@@ -128,7 +122,6 @@
 			"wide"			"f0"
 			"tall"			"6"
 			"zpos"			"4"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"bgcolor_override"		"222 217 166 41"
@@ -143,7 +136,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"QuestMap_Small"
 				"textinsety"	"-1"
 				"TextAlignment"		"center"
 				"proportionaltoparent" "1"
@@ -160,7 +152,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestUncommitted"
 				"zpos"			"2"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"PointsLabelInvert"
@@ -173,7 +164,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"QuestMap_Small"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -190,7 +180,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"3"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"bgcolor_override"	"QuestMap_Bonus"
@@ -205,7 +194,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"QuestMap_Small"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -232,7 +220,6 @@
 		"zpos"			"4"
 		"textinsetx"	"0"
 		"fgcolor"		"TanDark"
-		"font"			"QuestMap_Small"
 		"TextAlignment"		"north-west"
 	}
 
@@ -248,7 +235,6 @@
 		"zpos"			"4"
 		"textinsetx"	"0"
 		"fgcolor"		"TanDark"
-		"font"			"QuestMap_Small"
 		"TextAlignment"		"north-west"
 	}
 
@@ -261,7 +247,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -276,7 +261,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -291,7 +275,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -306,8 +289,6 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"	
-
 		"proportionaltoparent" "1"
 
 		"PendingText"
@@ -322,7 +303,6 @@
 			"zpos"			"4"
 			"textinsetx"	"0"
 			"fgcolor_override"		"RedSolid"
-			"font"			"QuestMap_Small"
 			"TextAlignment"		"center"
 		}
 	}

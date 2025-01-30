@@ -9,10 +9,8 @@
 		"wide"				"160"
 		"tall"				"35"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"labelText"			"#TF_Training_StartTraining"
-		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"startbasictraining"
@@ -35,16 +33,13 @@
 		"wide"				"300"
 		"tall"				"200"
 		//			"0"
-		"enabled"			"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"40 37 37 255"
-		"border"			"ButtonBorder"
 		
 		"ClassNameLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassNameLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"%classname%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -54,14 +49,12 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"DescLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%description%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -70,7 +63,6 @@
 			"tall"			"100"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 		
@@ -78,7 +70,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WeaponSetLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TR_StandardWeaponSet"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -87,7 +78,6 @@
 			"tall"			"15"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "116 108 101 255"
 		}
 		
@@ -131,7 +121,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PrimaryLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Primary"
 			"textAlignment"	"center"
 			"xpos"			"15"
@@ -140,14 +129,12 @@
 			"tall"			"15"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"SecondaryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SecondaryLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Secondary"
 			"textAlignment"	"center"
 			"xpos"			"115"
@@ -156,14 +143,12 @@
 			"tall"			"15"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"MeleeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MeleeLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Melee"
 			"textAlignment"	"center"
 			"xpos"			"215"
@@ -172,7 +157,6 @@
 			"tall"			"15"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 	}
 	

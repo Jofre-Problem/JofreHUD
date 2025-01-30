@@ -3,61 +3,46 @@
 	"BottomPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BottomPanel"
-		"visible"		"1"
 		"bgcolor_override"	"46 43 42 255"
 	}
 	
 	"FilenameLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"FilenameLabel"
-		"font"			"DefaultVerySmall"
 		"labelText"		""
 		"zpos"			"10"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "235 235 235 255"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"EconFontSmall"
 		"labelText"		"#Replay_RenderOverlayText"
 		"zpos"			"10"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"ReplayRenderOverlay"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"ReplayRenderOverlay"
 		//	"0"
 		//		"0"
 		"visible"		"0"
 		"zpos"			"1000"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"0"
 		"paintbackground"	"0"
 	}
 	
 	"RenderProgress"
 	{
 		"ControlName"	"ProgressBar"
-		"fieldName"		"RenderProgress"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"progress"		"0"
 		"bgcolor_override" "117 107 95 255"
 		"fgcolor_override" "255 255 255 255"
@@ -66,45 +51,32 @@
 	"ProgressLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ProgressLabel"
-		"font"			"DefaultVerySmall"
 		"labelText"		""
 		"textAlignment"	"east"
 		"zpos"			"10"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "235 235 235 255"
 	}
 	
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Replay_CancelRender"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"confirmcancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"PreviewCheckButton"
 	{
 		"ControlName"	"CheckButton"
-		"fieldName"		"PreviewCheckButton"
 		"labelText"		"#Replay_RenderPreview"
-		"Font"			"DefaultVerySmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -112,8 +84,6 @@
 		"tall"			"15"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"10"
 	}
 }

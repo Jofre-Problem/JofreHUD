@@ -57,7 +57,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
@@ -67,14 +66,12 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"SubTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
@@ -84,7 +81,6 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"96 90 85 255"
 	}
 	
@@ -98,10 +94,8 @@
 		"wide"			"120"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_LearnMore"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"maps_learnmore"
 	}	

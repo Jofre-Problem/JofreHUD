@@ -28,7 +28,6 @@ event HudHealthDyingPulse
 	SetVisible HealthBarLowHealth 1 0.0		
 	RunEvent TI_Death 0.0
 
-	
 	Animate PlayerStatusHealthValueLowester Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLowest Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLower Alpha "255" Linear 0.0 0.0
@@ -42,9 +41,14 @@ event HudHealthDyingPulse
 	RunEvent HudHealthDyingPulseLoop4a	0.0 //normal - at 1		
 }
 
+event HealthLowCMD
+{
+	FireCommand 0.0 "engine tf_party_chat Respawning..."
+}
 
 event HudHealthDyingPulseStop
 {
+	RunEventChild Mainmenuoverride HealthLowCMD 0.0		
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop1a 0.0
 	StopEvent HudHealthDyingPulseLoop1b 0.0

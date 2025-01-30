@@ -23,8 +23,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
 		"smallcheckimage"	"1"
 
 		"button_activation_type"	"1"
@@ -41,8 +39,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
 		

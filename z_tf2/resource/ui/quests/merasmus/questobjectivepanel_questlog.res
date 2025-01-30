@@ -13,11 +13,9 @@
 	
 	"AttribDesc"
 	{
-		"font"			"QuestObjectiveText_Merasmus"
 	}
 
 	"AttribGlow"
 	{
-		"font"			"QuestObjectiveText_Merasmus"
 	}
 }

@@ -4,7 +4,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Image"
-		"enabled"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"illustrations/training_basic"
@@ -15,10 +14,8 @@
 		"ControlName"		"CExButton"
 		"fieldName"			"SelectButton"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"labelText"			"%selectbuttontext%"
-		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"%selectcommand%"
@@ -37,7 +34,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ProgressLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -47,7 +43,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"201 79 57 255"
 	}
 }

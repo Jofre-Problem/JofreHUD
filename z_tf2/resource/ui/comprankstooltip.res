@@ -11,7 +11,6 @@
 		"tall"			"400"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"ReplayDefaultBorder"
 		"mouseinputenabled"	"0"
 	}
 
@@ -19,7 +18,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"XPSource"
 		"labelText"		"#TF_Competitive_RankTooltipTitle"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -29,7 +27,6 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
@@ -39,7 +36,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"MMenuPlayListDesc"
 		"labelText"		"#TF_Competitive_RankTooltipDesc"
 		"xpos"			"cs-0.5"
 		"ypos"			"15"
@@ -48,7 +44,6 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"

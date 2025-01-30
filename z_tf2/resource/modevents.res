@@ -835,7 +835,7 @@
 
 	"show_annotation"
 	{
-		"worldPosX" "float"
+	"worldPosX" "float" 
 		"worldPosY" "float"
 		"worldPosZ" "float"
 		"worldNormalX" "float"

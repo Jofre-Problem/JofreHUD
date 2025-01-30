@@ -11,7 +11,6 @@
 		"tall"			"480"		
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		
@@ -32,8 +31,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_ypos"	"5"
 			"model_tall"	"32"
 			"model_wide"	"48"
@@ -61,7 +58,6 @@
 		"tall"		"480"
 		"zpos"		"-1"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 210"
 	}
@@ -75,7 +71,6 @@
 		"wide"			"500"
 		"tall"			"350"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"63 59 55 0"
 		
@@ -89,7 +84,6 @@
 			"wide"			"500"
 			"tall"			"310"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -110,8 +104,6 @@
 			"wide"			"480"
 			"tall"			"230"
 			//		"0"
-			"enabled"		"1"
-			
 			"PaintBackgroundType" "2"
 			"bgcolor_override"	"142 132 121 255"
 		}
@@ -126,7 +118,6 @@
 			"wide"			"470"
 			"tall"			"220"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
 		}
 	
 		"PlayerUpgradeButton"
@@ -139,10 +130,8 @@
 			"wide"			"70"
 			"tall"			"50"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"PLAYER"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"PlayerUpgrade"
@@ -159,7 +148,6 @@
 			"zpos"			"-2"
 			"wide"			"40"
 			"tall"			"40"
-			"enabled"		"1"
 			"image"			"../hud/class_scoutred"
 			"scaleImage"	"1"	
 		}
@@ -173,8 +161,6 @@
 			"wide"			"34"
 			"tall"			"34"
 			"zpos"			"-2"
-			"enabled"		"1"
-			
 			"scaleImage"	"1"	
 
 			"image"		"../hud/eng_build_sentry"
@@ -190,7 +176,6 @@
 			"wide"			"74"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"142 132 121 255"
 			"PaintBackgroundType"	"2"
@@ -207,7 +192,6 @@
 			"tall"			"54"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"239 128 73 255"
 			"PaintBackgroundType"	"2"
@@ -224,7 +208,6 @@
 			"tall"			"47"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"239 128 73 255"
 			"PaintBackgroundType"	"2"
@@ -240,7 +223,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -256,7 +238,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -272,7 +253,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -288,7 +268,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -304,7 +283,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -320,7 +298,6 @@
 			"wide"			"70"
 			"tall"			"54"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
@@ -336,7 +313,6 @@
 			"wide"			"480"
 			"tall"			"5"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"0 0 0 128"
 		}
@@ -345,7 +321,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GreyedOutLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%powerup_hint%"
 			"textAlignment"	"north"
 			"wrap"			"1"
@@ -356,7 +331,6 @@
 			"wide"			"240"
 			"tall"			"140"
 			//		"0"
-			"enabled"		"1"
 			"mouseinputenabled" "0"
 		}
 
@@ -371,10 +345,8 @@
 			"tall"			"17"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_PVE_Quick_Equip_Bottle"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"quick_equip_bottle"
@@ -391,10 +363,8 @@
 			"tall"			"17"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#OpenGeneralLoadout"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"open_charinfo_direct"
@@ -410,8 +380,6 @@
 			"wide"			"130"
 			"tall"			"65"
 			//		"0"
-			"enabled"		"1"
-			
 			"bgcolor_override"	"52 48 45 255"
 		}
 		
@@ -419,7 +387,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsDescriptionLabel"
-			"font"			"ItemFontAttribLarge"
 			"labelText"		"%upgrade_description%"
 			"textAlignment"	"center"
 			"wrap"			"1"
@@ -430,7 +397,6 @@
 			"wide"			"120"
 			"tall"			"65"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"UpgradeItemsBG"
@@ -443,8 +409,6 @@
 			"wide"			"130"
 			"tall"			"130"
 			//		"0"
-			"enabled"		"1"
-			
 			"bgcolor_override"	"97 94 84 255"
 		}
 		
@@ -458,8 +422,6 @@
 			"wide"			"130"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
-			
 			"bgcolor_override"	"72 68 63 255"
 		}
 		
@@ -467,7 +429,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemsLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%upgrade_label%"
 			"textAlignment"	"center"
 			"xpos"			"25"
@@ -476,14 +437,12 @@
 			"wide"			"130"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"UpgradeItemStatsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeItemStatsLabel"
-			"font"			"ItemFontAttribSmall"
 			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"30"
@@ -492,7 +451,6 @@
 			"wide"			"120"
 			"tall"			"105"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 		
@@ -500,7 +458,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
 			"labelText"		"%credits%"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -508,7 +465,6 @@
 			"wide"			"245"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"121 195 58 255"
 		}
 		
@@ -516,15 +472,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_UpgradeAmount"
-			"textAlignment"	"west"
 			"xpos"			"250"
 			"ypos"			"280"
 			"wide"			"500"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"tanlight"
 		}
 		
@@ -538,10 +491,8 @@
 			"wide"			"75"
 			"tall"			"17"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_PVE_UpgradeCancel"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
@@ -559,7 +510,6 @@
 			//		"0"
 			//	"0"
 			"labelText"		"#TF_PVE_UpgradeDone"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"close"
@@ -578,7 +528,6 @@
 			"visible"		"0"
 			//	"0"
 			"labelText"		"#TF_PVE_UpgradeRespec"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"brighttext"	"1"
@@ -596,7 +545,6 @@
 		"wide"			"500"
 		"tall"			"40"
 		//		"0"
-		"enabled"		"1"
 		"bgcolor_override"	"63 59 55 0"
 		
 		"TipPanelBG"
@@ -609,7 +557,6 @@
 			"wide"			"500"
 			"tall"			"40"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
@@ -623,16 +570,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipText"
-			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
-			"textAlignment" "west"
 			"xpos"			"10"
 			"ypos"			"0"
 			"zpos"			"11"
 			"wide"			"460"
 			"tall"			"40"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor"		"tanlight"
 		}
@@ -647,7 +591,6 @@
 			"wide"			"20"
 			"tall"			"23"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		" > "
 			"textAlignment"	"center"

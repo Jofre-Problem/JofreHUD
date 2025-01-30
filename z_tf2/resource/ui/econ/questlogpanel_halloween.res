@@ -12,18 +12,15 @@
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 	}
 
 
 	"MainContainer"
 	{
-		"border"		"MainMenuBGBorder"
 
 		"QuestLogTitle"
 		{
-			"font"			"HudFontSmallBold"
 			"labelText"		"#QuestLog_Title_Halloween"
 			"fgcolor"		"TanLight"
 		}

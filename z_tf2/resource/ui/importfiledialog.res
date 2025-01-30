@@ -9,10 +9,8 @@
 		"wide"		"600"
 		"tall"		"400"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"0"
-		"border"				"SteamWorkshopBorder"
 	}
 
 	"Background"
@@ -25,7 +23,6 @@
 		"wide"		"600"
 		"tall"		"400"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 255"
 	}
@@ -39,7 +36,6 @@
 		"zpos"			"-100"
 		"wide"			"600"
 		"tall"			"400"
-		"enabled"		"1"
 		"image"			"workshop_sandvich_top"
 		"scaleImage"	"1"
 	}
@@ -53,7 +49,6 @@
 		"wide"		"600"
 		"tall"		"45"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"57 52 49 255"
 	}
@@ -68,11 +63,8 @@
 		"tall"		"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_Title"
-		"textAlignment"		"west"
-		"font"		"HudFontMediumBold"
 	}
 
 	"NameLabel"
@@ -84,11 +76,8 @@
 		"wide"		"200"
 		"tall"		"20"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_NameLabel"
-		"textAlignment"		"west"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"Name"
@@ -100,7 +89,6 @@
 		"wide"		"190"
 		"tall"		"20"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -108,7 +96,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
 	}
 
 	"TypeLabel"
@@ -120,18 +107,14 @@
 		"wide"		"150"
 		"tall"		"20"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_TypeLabel"
-		"textAlignment"		"west"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"TypeComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"TypeComboBox"
-		"Font"				"HudFontSmallestBold"
 		"xpos"				"5"
 		"ypos"				"63"
 		"wide"				"190"
@@ -159,18 +142,14 @@
 			"wide"		"150"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_EquipRegionLabel"
-			"textAlignment"		"west"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"EquipRegionComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"EquipRegionComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"0"
 			"ypos"				"20"
 			"wide"				"190"
@@ -190,11 +169,8 @@
 		"tall"		"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_WorkshopIDLabel"
-		"textAlignment"		"west"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"WorkshopIDTextEntry"
@@ -207,7 +183,6 @@
 		"tall"		"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -216,7 +191,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
 	}
 
 	"TFEnglishNameLabel"
@@ -229,11 +203,8 @@
 		"tall"		"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"TF_English Name"
-		"textAlignment"		"west"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"TFEnglishNameTextEntry"
@@ -246,7 +217,6 @@
 		"tall"		"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -254,7 +224,6 @@
 		"fgcolor_override"	"0 0 0 255"
 		"bgcolor_override"	"235 226 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmallest"
 	}
 
 	"PerforceCheckButton"
@@ -262,15 +231,11 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"PerforceCheckButton"
 		"labelText"		"Perforce"
-		"Font"			"HudFontSmallest"
-		"textAlignment"	"west"
 		"xpos"			"245" 
 		"ypos"			"85"
 		"wide"			"80"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"PartnerCheckButton"
@@ -278,15 +243,11 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"PartnerCheckButton"
 		"labelText"		"Partner"
-		"Font"			"HudFontSmallest"
-		"textAlignment"	"west"
 		"xpos"			"325" 
 		"ypos"			"85"
 		"wide"			"80"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
-		"border"		"SteamWorkshopBorder"
 	}
 
 	"IconPanel"
@@ -298,7 +259,6 @@
 		"wide"			"190"
 		"tall"			"122"
 		"paintbackground" "0"
-		"border"				"SteamWorkshopBorder"
 				
 		"ButtonIconClear"
 		{
@@ -312,9 +272,6 @@
 			//		"3"
 			"textinsetx"	"15"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"west"
-				
 			"labelText"		""
 			"command"		"ClearIcon"				
 				
@@ -347,9 +304,6 @@
 			//		"3"
 			"textinsetx"	"15"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"west"
-				
 			"labelText"		""
 			"command"		"BrowseIcon"					
 				
@@ -391,11 +345,8 @@
 			"wide"		"105"
 			"tall"		"15"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_IconLabel"
-			"textAlignment"		"west"
-			"font"		"HudFontSmallestBold"
 		}
 	}
 	
@@ -408,7 +359,6 @@
 		"wide"			"70"
 		"tall"			"219"
 		"paintbackground" "0"
-		"border"				"SteamWorkshopBorder"
 
 		"ClassesTitle"
 		{
@@ -419,11 +369,8 @@
 			"wide"		"100"
 			"tall"		"25"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_Models"
-			"textAlignment"		"west"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"ClassHighlight1"
@@ -447,7 +394,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Scout"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight2"
@@ -471,7 +417,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Sniper"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight3"
@@ -495,7 +440,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Soldier"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight4"
@@ -519,7 +463,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Demoman"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight5"
@@ -543,7 +486,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Medic"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight6"
@@ -567,7 +509,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_HWGuy"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight7"
@@ -591,7 +532,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Pyro"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight8"
@@ -615,7 +555,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Spy"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 		"ClassHighlight9"
@@ -639,7 +578,6 @@
 			"wide"		"63"
 			"tall"		"25"
 			"labelText"		"#TF_Class_Name_Engineer"
-			"font"		"HudFontSmallest"
 			"defaultFgColor_override"	"235 226 202 255"
 		}
 	}
@@ -652,9 +590,7 @@
 		"ypos"			"130"
 		"wide"			"90"
 		"tall"			"219"
-		"enabled"		"1"
 		"paintbackground" "0"
-		"border"				"SteamWorkshopBorder"
 
 		"BodygroupTitle"
 		{
@@ -665,11 +601,8 @@
 			"wide"		"100"
 			"tall"		"25"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_Bodygroups"
-			"textAlignment"		"west"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"Bodygroup0"
@@ -677,8 +610,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup0"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"18"
 			"wide"			"150"
@@ -686,7 +617,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup1"
@@ -694,8 +624,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup1"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"38"
 			"wide"			"150"
@@ -703,7 +631,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup2"
@@ -711,8 +638,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup2"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"58"
 			"wide"			"150"
@@ -720,7 +645,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup3"
@@ -728,8 +652,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup3"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"78"
 			"wide"			"150"
@@ -737,7 +659,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup4"
@@ -745,8 +666,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup4"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"98"
 			"wide"			"150"
@@ -754,7 +673,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup5"
@@ -762,8 +680,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup5"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"118"
 			"wide"			"150"
@@ -771,7 +687,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup6"
@@ -779,8 +694,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup6"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"138"
 			"wide"			"150"
@@ -788,7 +701,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup7"
@@ -796,8 +708,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup7"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"158"
 			"wide"			"150"
@@ -805,7 +715,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"Bodygroup8"
@@ -813,8 +722,6 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Bodygroup8"
 			"labelText"		""
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"178"
 			"wide"			"150"
@@ -822,7 +729,6 @@
 			//		"0"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
-			"border"		"SteamWorkshopBorder"
 		}
 	}
 	
@@ -845,7 +751,6 @@
 			"wide"			"150"
 			"tall"			"50"
 			"paintbackground" "0"
-			"border"				"SteamWorkshopBorder"
 
 
 			"LOD0Label"
@@ -858,8 +763,6 @@
 				"tall"		"25"
 				//		"0"
 				"labelText"		"#TF_ImportFile_LOD0"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonLOD0Clear"
 			{
@@ -872,9 +775,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"ClearLOD0"				
 				
@@ -905,9 +805,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"BrowseLOD0"				
 				
@@ -937,7 +834,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 			"LOD0Details"
 			{
@@ -949,7 +845,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			""
-				"font"		"HudFontSmallest"
 			}
 		}
 	
@@ -962,7 +857,6 @@
 			"wide"			"150"
 			"tall"			"50"
 			"paintbackground" "0"
-			"border"				"SteamWorkshopBorder"
 
 			"LOD1Label"
 			{
@@ -974,8 +868,6 @@
 				"tall"		"25"
 				//		"0"
 				"labelText"		"#TF_ImportFile_LOD1"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonLOD1Clear"
 			{
@@ -988,8 +880,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"ClearLOD1"				
 				
@@ -1020,8 +910,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseLOD1"				
 				
@@ -1051,7 +939,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 			"LOD1Details"
 			{
@@ -1063,7 +950,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			""
-				"font"		"HudFontSmallest"
 			}
 		}
 	
@@ -1076,7 +962,6 @@
 			"wide"			"150"
 			"tall"			"50"
 			"paintbackground" "0"
-			"border"				"SteamWorkshopBorder"
 
 			"LOD2Label"
 			{
@@ -1088,8 +973,6 @@
 				"tall"		"25"
 				//		"0"
 				"labelText"		"#TF_ImportFile_LOD2"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonLOD2Clear"
 			{
@@ -1102,8 +985,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"ClearLOD2"				
 				
@@ -1134,8 +1015,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
 				"labelText"		""
 				"command"		"BrowseLOD2"				
 				
@@ -1165,7 +1044,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 			"LOD2Details"
 			{
@@ -1177,7 +1055,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			""
-				"font"		"HudFontSmallest"
 			}
 		}
 
@@ -1191,12 +1068,10 @@
 			"wide"			"92"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ImportFile_EditQC"
 			"textAlignment"	"center"
 			"Command"		"EditQC"
-			"font"			"HudFontSmallestBold"
 		}
 	}
 
@@ -1209,7 +1084,6 @@
 		"wide"			"190"
 		"tall"			"219"
 		"paintbackground" "0"
-		"border"				"SteamWorkshopBorder"
 		
 		"SkinsTitle"
 		{
@@ -1220,11 +1094,8 @@
 			"wide"		"100"
 			"tall"		"25"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_Skins"
-			"textAlignment"		"west"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"SwapVMTButton"
@@ -1237,20 +1108,17 @@
 			"tall"		"12"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_SwapVMT"
 			"textAlignment"		"center"
 			"Command"		"SwapVMT"
 			"Default"		"1"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"SkinComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"SkinComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"4"
 			"ypos"				"18"
 			"wide"				"181"
@@ -1279,8 +1147,6 @@
 				"wide"		"240"
 				"tall"		"15"
 				//		"0"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonMaterial0Edit"
 			{
@@ -1293,9 +1159,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-					
 				"labelText"		""
 				"command"		"EditMaterial0"				
 					
@@ -1325,7 +1188,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 		}
 		
@@ -1349,8 +1211,6 @@
 				"wide"		"240"
 				"tall"		"15"
 				//		"0"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonMaterial1Edit"
 			{
@@ -1363,9 +1223,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-					
 				"labelText"		""
 				"command"		"EditMaterial1"				
 					
@@ -1395,7 +1252,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 				"fillcolor"	"255 0 0 255"
 			}
 		}
@@ -1420,8 +1276,6 @@
 				"wide"		"240"
 				"tall"		"15"
 				//		"0"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonMaterial2Edit"
 			{
@@ -1434,9 +1288,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-					
 				"labelText"		""
 				"command"		"EditMaterial2"				
 					
@@ -1466,7 +1317,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 		}
 
@@ -1490,8 +1340,6 @@
 				"wide"		"240"
 				"tall"		"15"
 				//		"0"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonMaterial3Edit"
 			{
@@ -1504,9 +1352,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-					
 				"labelText"		""
 				"command"		"EditMaterial3"				
 					
@@ -1536,7 +1381,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 		}
 
@@ -1545,18 +1389,14 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Paintable0CheckBox"
 			"labelText"		"#TF_ImportFile_Paintable0"
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"4" 
 			"ypos"			"190"
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdatePaintable0"	
-			"border"				"SteamWorkshopBorder"
 		}
 
 		"Paintable1CheckBox"
@@ -1564,18 +1404,14 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"Paintable1CheckBox"
 			"labelText"		"#TF_ImportFile_Paintable1"
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"100" 
 			"ypos"			"190"
 			"wide"			"100"
 			"tall"			"20"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdatePaintable1"	
-			"border"				"SteamWorkshopBorder"
 		}
 	}
 
@@ -1589,8 +1425,6 @@
 		"tall"		"25"
 		//		"0"
 		"labelText"		"#TF_ImportFile_AnimationProp"
-		"textAlignment"		"west"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"TauntInputPanel"
@@ -1601,7 +1435,6 @@
 		"ypos"			"130"
 		"wide"			"150"
 		"tall"			"219"
-		"enabled"		"1"
 		"paintbackground" "0"
 
 		"AnimationSourcePanel"
@@ -1613,7 +1446,6 @@
 			"wide"			"150"
 			"tall"			"50"
 			"paintbackground" "0"
-			"border"				"SteamWorkshopBorder"
 
 
 			"AnimationSourceLabel"
@@ -1626,8 +1458,6 @@
 				"tall"		"25"
 				//		"0"
 				"labelText"		"#TF_ImportFile_AnimationSource"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonAnimationSourceClear"
 			{
@@ -1640,9 +1470,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"ClearAnimationSource"				
 				
@@ -1673,9 +1500,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"BrowseAnimationSource"				
 				
@@ -1705,7 +1529,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 			"AnimationSourceDetails"
 			{
@@ -1717,7 +1540,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			""
-				"font"		"HudFontSmallest"
 			}
 		}
 
@@ -1730,7 +1552,6 @@
 			"wide"			"150"
 			"tall"			"50"
 			"paintbackground" "0"
-			"border"				"SteamWorkshopBorder"
 
 
 			"AnimationVCDLabel"
@@ -1743,8 +1564,6 @@
 				"tall"		"25"
 				//		"0"
 				"labelText"		"#TF_ImportFile_AnimationVCD"
-				"textAlignment"		"west"
-				"font"		"HudFontSmallestBold"
 			}
 			"ButtonAnimationVCDClear"
 			{
@@ -1757,9 +1576,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"ClearAnimationVCD"				
 				
@@ -1790,9 +1606,6 @@
 				//		"3"
 				"textinsetx"	"15"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallestBold"
-				"textAlignment"	"west"
-				
 				"labelText"		""
 				"command"		"BrowseAnimationVCD"				
 				
@@ -1822,7 +1635,6 @@
 				"tall"		"15"
 				//		"0"
 				"labelText"			"#TF_PublishFile_NoFileSelected"
-				"font"		"HudFontSmallest"
 			}
 		}
 
@@ -1836,7 +1648,6 @@
 			"tall"		"15"
 			//		"0"
 			"labelText"			"#TF_ImportFile_AnimationDuration"
-			"font"		"HudFontSmallest"
 		}
 
 		"AnimationLoopCheckButton"
@@ -1844,16 +1655,12 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"AnimationLoopCheckButton"
 			"labelText"		"Loop"
-			"Font"			"HudFontSmallest"
-			"textAlignment"	"west"
 			"xpos"			"0" 
 			"ypos"			"140"
 			"wide"			"80"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 			"command"		"UpdateAnimationLoopable"
-			"border"		"SteamWorkshopBorder"
 		}
 
 		"AnimationLoopStartLabel"
@@ -1867,7 +1674,6 @@
 			"proportionaltoparent"	"1"
 			//		"0"
 			"labelText"			"Start Time:"
-			"font"		"HudFontSmallest"
 		}
 
 		"AnimationLoopStartTextEntry"
@@ -1888,7 +1694,6 @@
 			"fgcolor_override"	"0 0 0 255"
 			"bgcolor_override"	"235 226 202 255"
 			"paintbackgroundtype" "2"
-			"font"		"HudFontSmallest"
 		}
 
 		"ButtonEditQCI"
@@ -1901,12 +1706,10 @@
 			"wide"			"92"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ImportFile_EditQCI"
 			"textAlignment"	"center"
 			"Command"		"EditQCI"
-			"font"			"HudFontSmallestBold"
 		}
 	}
 
@@ -1921,9 +1724,6 @@
 		//		"3"
 		"textinsetx"	"15"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"west"
-				
 		"labelText"		"#TF_ImportFile_Browse"
 		"command"		"Load"				
 				
@@ -1953,10 +1753,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Close"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"Close"
@@ -1971,13 +1769,11 @@
 		"wide"		"100"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_Preview"
 		"textAlignment"		"center"
 		"Command"		"BuildPreview"
 		"Default"		"1"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"ButtonVerify"
@@ -1989,13 +1785,11 @@
 		"wide"		"100"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_Verify"
 		"textAlignment"		"center"
 		"Command"		"BuildVerify"
 		"Default"		"1"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"ButtonBuild"
@@ -2007,13 +1801,11 @@
 		"wide"		"100"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_Build"
 		"textAlignment"		"center"
 		"Command"		"BuildFinal"
 		"Default"		"1"
-		"font"		"HudFontSmallestBold"
 	}
 
 	"BetaNotice"
@@ -2043,8 +1835,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_manip"	"1"

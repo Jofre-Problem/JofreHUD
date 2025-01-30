@@ -10,7 +10,6 @@
 		"tall"		"112"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"InfoLabel"
@@ -23,10 +22,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_ParseBaseline"
-		"textAlignment"		"west"
 		"dulltext"		"1"
 	}
 	"progress"
@@ -39,7 +36,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"CancelButton"
@@ -52,10 +48,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
 		"command"		"Cancel"
 	}
 	"Divider1"
@@ -69,7 +63,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"Label1"
@@ -83,10 +76,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_LoadingDialog_ContentHosting"
-		"textAlignment"		"west"
 		"dulltext"		"1"
 	}
 	"BannerAd"
@@ -100,7 +91,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 }

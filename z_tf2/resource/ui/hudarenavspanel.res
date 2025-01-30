@@ -20,7 +20,6 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
 				
 			"src_corner_height"		"23"			// pixels inside the image
@@ -39,7 +38,6 @@
 			"zpos"			"1"
 			"wide"			"58"
 			"tall"			"36"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -57,10 +55,7 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
-			"font"			"HudFontMediumBold"
 			"labelText"		"%blueleader%"
-			"textAlignment"	"west"
 			"fgcolor"		"HudOffWhite"
 		}	
 	}
@@ -76,8 +71,6 @@
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		"font"			"HudFontMedium"
 		"labelText"		"VS"
 		"textAlignment"	"center"
 		"fgcolor"		"HudOffWhite"
@@ -103,7 +96,6 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 				
 			"src_corner_height"		"23"			// pixels inside the image
@@ -122,7 +114,6 @@
 			"zpos"			"1"
 			"wide"			"58"
 			"tall"			"36"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -139,10 +130,7 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
-			"font"			"HudFontMediumBold"
 			"labelText"		"%redleader%"
-			"textAlignment"	"west"
 			"fgcolor"		"HudOffWhite"
 		}	
 	}

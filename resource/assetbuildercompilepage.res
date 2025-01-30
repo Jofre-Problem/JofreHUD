@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	
 		"CompileOutputLabel"
@@ -24,11 +22,8 @@
 			"tall"			"24"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"Compile Output"
-			"textAlignment"	"west"
 			//		"1"
 			
 		}
@@ -45,8 +40,6 @@
 			//"UnpinnedCornerOffsetY" "-6"
 			//		"3"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"0"
 			"textHidden"		"0"
 			"editable"		"0"

@@ -28,7 +28,6 @@
 		"labelText"				"%source%"
 		"fgcolor_override"		"CreditsGreen"
 
-		"font"			"XPSource"
 		"textAlignment"	"south"
 	}
 
@@ -46,7 +45,6 @@
 		"labelText"				"%source%"
 		"fgcolor_override"		"CreditsGreen"
 
-		"font"			"XPSource_Glow"
 		"textAlignment"	"south"
 	}
 }

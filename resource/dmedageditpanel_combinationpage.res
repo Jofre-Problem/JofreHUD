@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	
 		"SliderScroll"
@@ -28,8 +26,6 @@
 			//"PinnedCornerOffsetY" "0"
 			//"PinnedCornerOffsetY" "0"
 			//"UnpinnedCornerOffsetY" "0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 	}

@@ -21,14 +21,12 @@
 		"PointsLabel"
 		{
 			"fgcolor_override"		"Black"
-			"font"			"QuestInstructionText_Merasmus"
 		}
 
 		"ProgressBarStandard" // current completed
 		{
 			"PointsLabelInvert"
 			{
-				"font"			"QuestInstructionText_Merasmus"
 				"fgcolor_override"	"White"
 			}
 		}
@@ -37,7 +35,6 @@
 		{
 			"PointsLabelInvert"
 			{
-				"font"			"QuestInstructionText_Merasmus"
 				"fgcolor_override"	"White"
 			}
 		}

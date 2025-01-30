@@ -11,7 +11,6 @@
 		"tall"			"50"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
@@ -26,8 +25,6 @@
 		"zpos"			"4"
 		"wide"			"168"
 		"tall"			"18"
-		"enabled"			"1"
-		
 		"BarImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -39,7 +36,6 @@
 			"tall"			"18"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/halloween_bar"
 			"scaleImage"	"1"					
@@ -50,7 +46,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"StunMeter"
-		"font"			"Default"
 		"xpos"			"50"
 		"ypos"			"19"
 		"zpos"			"2"
@@ -58,7 +53,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 		"fgcolor_override"	"255 255 0 255"
 		"bgcolor_override"	"50 0 0 255"

@@ -8,13 +8,10 @@
 		"ypos"			"0"
 		"wide"			"225"
 		"tall"			"205"
-		"enabled"		"1"
-
 		"ModeNameLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ModeNameLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%modename%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -23,7 +20,6 @@
 			"wide"			"225"
 			"tall"			"25"
 			//		"0"
-			"enabled"		"1"
 			"mouseinputenabled" "0"
 			"fgcolor_override"	"87 79 70 255"
 		}
@@ -32,7 +28,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -41,7 +36,6 @@
 			"wide"			"225"
 			"tall"			"55"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"89 81 71 255"
 			"auto_wide_tocontents" "0"
 			"wrap"				   "1"
@@ -56,8 +50,6 @@
 			"ypos"			"0"
 			"wide"			"205"
 			"tall"			"205"
-			"enabled"		"1"
-			"border"		"MainMenuHighlightBorder"
 		}
 		
 		// Parented to ImageFrame in code.
@@ -69,7 +61,6 @@
 			"ypos"			"32"
 			"wide"			"185"
 			"tall"			"185"
-			"enabled"		"1"
 			"tileImage"		"0"
 			"scaleImage"	"1"
 			"image"			""
@@ -86,10 +77,8 @@
 		"wide"				"130"
 		"tall"				"30"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"labelText"			"#TF_Training_SelectMode"
-		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"%startcommand%"

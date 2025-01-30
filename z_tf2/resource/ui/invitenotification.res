@@ -7,7 +7,6 @@
 		"wide"			"200"
 		"tall"			"35"
 		"proportionaltoparent"	"1"
-		"border"		"ReplayDefaultBorder"
 		"paintbackground"	"0"
 		"bgcolor_override"	"255 0 0 250"
 	}
@@ -27,16 +26,8 @@
 
 	"Text"
 	{
-		"ControlName"	"CAutoFittingLabel"
+		"ControlName"	"label"
 		"fieldName"		"Text"
-		
-
-		if_null_incoming
-		{
-			"xpos"			"rs1-5"
-			"wide"			"f35"
-		}
-
 		"xpos"			"rs1-30"
 		"ypos"			"0"
 		"wide"			"f65"
@@ -45,35 +36,6 @@
 		"textAlignment"	"east"
 		"proportionaltoparent"	"1"
 		"fgcolor_override"	"TanLight"
-
-		"fonts"
-		{
-			"1"
-			{
-				"font"			"AdFont_ItemName" // Secondary 10
-			}
-
-			"2"
-			{
-				"font"			"MMenuPlayListDesc" // Secondary 9
-			}
-
-			"3"
-			{
-				"font"			"ItemFontAttribSmall" // Secondary 8
-			}
-
-			"4"
-			{
-				"font"			"ItemFontAttribSmallest" // Secondary 7
-			}
-		}
-
-		"colors"
-		{
-			"1"		"Orange"
-			"2"		"TanLight"
-		}
 	}
 
 	"Spinner"
@@ -109,9 +71,7 @@
 		"wide"			"80"
 		"zpos"			"100"
 		"tall"			"15"
-		"enabled"		"1"
 		//	"0"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
@@ -141,9 +101,7 @@
 		"wide"			"60"
 		"zpos"			"100"
 		"tall"			"15"
-		"enabled"		"1"
 		//	"0"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"decline"
 		"proportionaltoparent"	"1"

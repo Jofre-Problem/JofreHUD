@@ -11,7 +11,6 @@
 		"tall"			"f0"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"70"
 		"start_framed"	"0"
 		"proportionaltoparent"	"1"

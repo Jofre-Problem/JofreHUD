@@ -12,7 +12,6 @@
 		"tall"			"100"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"useparentbg"		"1"
 
 		"fov"			"54"
@@ -38,7 +37,6 @@
 		"tall"	 		"32"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -56,7 +54,6 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
 		"xpos"			"52"
 		"ypos"			"31"
 		"zpos"			"1"
@@ -64,7 +61,6 @@
 		"tall"			"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%disguisename%"
 		"textAlignment"		"North-West"
 	}
@@ -73,7 +69,6 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
 		"xpos"			"52"
 		"ypos"			"45"
 		"zpos"			"1"
@@ -81,7 +76,6 @@
 		"tall"			"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%weaponname%"
 		"textAlignment"		"North-West"
 	}
@@ -94,7 +88,6 @@
 		"ypos"			"30"
 		"wide"			"32"
 		"tall"			"32"
-		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"

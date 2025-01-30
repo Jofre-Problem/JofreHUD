@@ -10,8 +10,6 @@
 		"wide"				"275"
 		"tall"				"190"
 		"visible"			"0"
-		"enabled"			"1"
-
 		if_null_comp
 		{
 			"ypos"	"120"
@@ -28,7 +26,6 @@
 			"tall"			"170"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
 	
 	
@@ -50,7 +47,6 @@
 			//		"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
 	
 	
@@ -64,7 +60,6 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBoldShadow"
 			"xpos"			"25"
 			"ypos"			"15"
 			"zpos"			"1"
@@ -72,10 +67,8 @@
 			"tall"			"15"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"labelText"		"%objectivelabel%"
-			"textAlignment"		"west"
 		}
 		"HudStopWatchObjectiveText1"
 		{
@@ -88,10 +81,7 @@
 			"wrap"			"1"
 			//		"1"
 			//		"1"
-			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"
 		}
 
@@ -106,10 +96,8 @@
 			"tall"			"2"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"125 125 125 125"
-			"PaintBackgroundType"	"0"
 		}
 
 		"HudStopWatchObjectiveText2"
@@ -123,10 +111,7 @@
 			"wrap"			"1"
 			//		"1"
 			//		"1"
-			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
 			"maxchars"		"-1"
 		}
 	}	
@@ -143,7 +128,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/arrow_big"
 
 		if_null_comp

@@ -34,13 +34,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"MenuLarge"
 		"xpos"			"20"	
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"720"
 		"tall"			"35"
-		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"#GameUI_Options"
 	}
@@ -55,7 +53,6 @@
 		"wide"		"268"
 		"tall"		"360"
 		//		"0"
-		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 	}
 	"OptionsBackgroundRight"
@@ -68,7 +65,6 @@
 		"wide"		"268"
 		"tall"		"360"
 		//		"0"
-		"enabled"		"1"
 		"fillcolor"		"0 0 0 128"
 	}
 	
@@ -82,7 +78,6 @@
 		"wide"		"528"
 		"tall"			"21"
 		//		"0"
-		"enabled"		"1"
 		"paintBackgroundType" "3"
 	}
 	"OptionsSelectionLeft2"
@@ -95,7 +90,6 @@
 		"wide"			"524"
 		"tall"			"17"
 		//		"0"
-		"enabled"		"1"
 		"paintBackgroundType" "3"
 	}
 	
@@ -109,10 +103,8 @@
 		"wide"			"32"
 		"tall"			"32"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#GameUI_Icons_UPCURSOR"
 		"textAlignment"	"center"
-		"font"			"GameUIButtons"
 	}
 	"DownArrow"
 	{
@@ -124,10 +116,8 @@
 		"wide"			"32"
 		"tall"			"32"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#GameUI_Icons_DOWNCURSOR"
 		"textAlignment"	"center"
-		"font"			"GameUIButtons"
 	}
 	
 	"OptionLabel0"
@@ -140,10 +130,7 @@
 		"wide"			"245"
 		"tall"			"24"
 		//		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"
 		"labelText"		""
-		"font"			"MenuLarge"
 	}	
 	"ValueLabel0"
 	{
@@ -155,10 +142,7 @@
 		"wide"			"245"
 		"tall"			"24"
 		//		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"
 		"labelText"		""
-		"font"			"MenuLarge"
 	}	
 	"ValueBar0"
 	{
@@ -171,7 +155,6 @@
 		"tall"			"23"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"progress"		"0.5"
 	}	
@@ -228,7 +211,6 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"MenuLarge"
 		"xpos"			"20"	
 		"ypos"			"10"
 		"zpos"			"2"
@@ -280,7 +262,6 @@
 		"ControlName"	"label"
 		"xpos"			"8"
 		"ypos"			"8"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 	
 	"menuitemdesc"
@@ -288,7 +269,6 @@
 		// This label should only be created in code, so don't set "ControlName"
 		"xpos"			"8"
 		"ypos"			"30"
-		"font"			"MatchmakingDialogMenuSmall"
 	}
 }
 
@@ -306,7 +286,6 @@
 		"ControlName"	"label"
 		"xpos"			"35"
 		"ypos"			"3"
-		"font"			"MatchmakingDialogMenuSmall"
 	}
 	
 	"voiceicon"
@@ -317,7 +296,6 @@
 		"wide"			"16"
 		"tall"			"16"
 		"labeltext"		"#TF_Icon_Alert"
-		"font"			"GameUIButtonsSmall"
 	}
 
 	"readyicon"
@@ -326,7 +304,6 @@
 		"ypos"			"5"
 		"wide"			"16"
 		"tall"			"16"
-		"font"			"GameUIButtonsSmall"
 		"visible"		"0"
 	}
 }
@@ -344,7 +321,6 @@
 		"ControlName"	"label"
 		"xpos"			"5"
 		"ypos"			"5"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 
 	"players"
@@ -352,14 +328,12 @@
 		"ControlName"	"label"
 		"xpos"			"265"
 		"ypos"			"5"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 
 	"scenario"
 	{
 		"ControlName"	"label"
 		"ypos"			"5"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 
 	"ping"
@@ -369,7 +343,6 @@
 		"ypos"			"0"
 		"wide"			"30"
 		"tall"			"30"
-		"font"			"GameUIButtonsSmall"
 	}
 }
 
@@ -383,7 +356,6 @@
 	"menuitemtext"
 	{
 		"labeltext"	""
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 }
 
@@ -408,7 +380,6 @@
 		"ControlName"	"label"
 		"xpos"			"5"
 		"ypos"			"5"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 	
 	"leftarrow"
@@ -418,7 +389,6 @@
 		"ypos"			"1"
 		"wide"			"32"
 		"tall"			"32"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_LEFTCURSOR"
 	}
 
@@ -428,7 +398,6 @@
 		"ypos"			"1"
 		"wide"			"32"
 		"tall"			"32"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_RIGHTCURSOR"
 	}
 }
@@ -472,7 +441,6 @@
 	{
 		"ControlName"	"label"
 		"ypos"			"13"
-		"font"			"MatchmakingDialogMenuSmall"
 	}
 	
 	"lockedicon"
@@ -512,7 +480,6 @@
 		"fillcolor"	"0 0 0 64"
 		"zpos"	"10"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"PercentageBar" //dark grey current completed
@@ -526,7 +493,6 @@
 		"fillcolor"	"255 255 255 255"
 		"zpos"	"20"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"PercentageText" //Percent Text inside the percentage field
@@ -540,7 +506,6 @@
 		"tall"		"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"center"
@@ -572,7 +537,6 @@
 		"center"			"1"
 		"buttonoffsety"		"20"
 		"button_separator"	"10"
-		"fonttext"			"MatchmakingDialogMenuLarge"
 		"buttongap"			"50"
 		"textadjust"		"3"
 	}	
@@ -603,7 +567,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Welcome"
 	}
 	
@@ -695,7 +658,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Paused_Title"
 	}
 	
@@ -776,7 +738,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogSessionOptionsTitle"
 		"labeltext"		"#TF_Unranked"
 	}
 	
@@ -839,7 +800,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogSessionOptionsTitle"
 		"labeltext"		"#TF_Ranked"
 	}
 	
@@ -902,7 +862,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogSessionOptionsTitle"
 		"labeltext"		"#TF_SystemLink_Title"
 	}
 	
@@ -953,7 +912,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Achievements_Dialog_Title"
 	}
 	
@@ -967,26 +925,22 @@
 	"ProgressPercent"
 	{
 		"ControlName"	"label"
-		"font"			"MatchmakingDialogMenuSmall"
 	}
 	
 	"Numbering"
 	{
 		"ControlName"	"label"
-		"font"			"MatchmakingDialogMenuSmall"
 	}
 
 	"uparrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_UPCURSOR"
 	}
 
 	"downarrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_DOWNCURSOR"
 	}
 	
@@ -1031,7 +985,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Rankings_Title"
 	}
 	
@@ -1077,7 +1030,6 @@
 	"Title"
 	{
 		"ControlName"	"Label"
-		"font"			"MatchmakingDialogTitle"
 		"xpos"			"15"
 		"ypos"			"10"
 		"wide"			"271"
@@ -1088,7 +1040,6 @@
 	{
 		"ControlName"	"Label"
 		"labelText"		""
-		"font"			"MatchmakingDialogMenuLarge"
 		"xpos"			"15"
 		"ypos"			"35"
 		"wide"			"271"
@@ -1110,7 +1061,6 @@
 	{
 		"ControlName"	"Label"
 		"labelText"		""
-		"font"			"MatchmakingDialogMenuLarge"
 		"xpos"			"15"
 		"ypos"			"70"
 		"wide"			"271"
@@ -1121,7 +1071,6 @@
 	{
 		"ControlName"	"Label"
 		"labelText"		""
-		"font"			"MatchmakingDialogMenuLarge"
 		"xpos"			"15"
 		"ypos"			"90"
 		"wide"			"271"
@@ -1131,7 +1080,6 @@
 	{
 		"ControlName"	"Label"
 		"labelText"		""
-		"font"			"MatchmakingDialogMenuLarge"
 		"xpos"			"15"
 		"ypos"			"110"
 		"wide"			"271"
@@ -1321,7 +1269,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogSessionOptionsTitle"
 	}
 	
 	"RecommendedLabel"
@@ -1332,7 +1279,6 @@
 		"wide"			"750"
 		"tall"			"50"
 		"zpos"			"1"
-		"font"			"MatchmakingDialogMenuMediumSmall"
 		"labeltext"		"#TF_Recommended_Players"
 		"textAlignment"	"east"
 		"wrap"			"1"
@@ -1574,7 +1520,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#GameUI_Icons_R_SHOULDER"
-		"font"			"GameUIButtons"
 		"xpos"			"362"
 		"ypos"			"360"
 		"wide"			"64"
@@ -1587,7 +1532,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#GameUI_PlayerReview"
-		"font"			"MatchmakingDialogMenuMediumSmall"
 		"xpos"			"420"
 		"ypos"			"367"
 		"wide"			"300"
@@ -1598,7 +1542,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Lobby_Title"
 	}
 	
@@ -1608,7 +1551,6 @@
 		"ypos"			"45"
 		"wide"			"350"
 		"tall"			"40"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 
 	"LobbyStateBg"
@@ -1623,7 +1565,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#TF_Icon_Start"
-		"font"			"GameUIButtons"
 		"xpos"			"25"
 		"ypos"			"121"
 		"wide"			"32"
@@ -1636,7 +1577,6 @@
 		"ypos"			"125"
 		"wide"			"350"
 		"tall"			"30"
-		"font"			"MatchmakingDialogMenuLarge"
 		"labeltext"		"#game_WaitingForPlayers"
 	}
 	
@@ -1653,7 +1593,6 @@
 		"Title"
 		{
 			"PropertyString"	"CONTEXT_SCENARIO"
-			"font"				"MatchmakingDialogTitle"
 			"xpos"				"15"
 			"ypos"				"15"
 			"wide"				"275"
@@ -1661,7 +1600,6 @@
 		"Subtitle"
 		{
 			"PropertyString"	"scenariotype"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"45"
 			"wide"				"275"
@@ -1669,7 +1607,6 @@
 		"DescOne"
 		{
 			"PropertyString"	"CONTEXT_GAME_TYPE"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"100"
 			"wide"				"275"
@@ -1677,7 +1614,6 @@
 		"DescTwo"
 		{
 			"labelText"			"#TF_MatchOption_WinLimit"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"130"
 			"wide"				"275"
@@ -1685,7 +1621,6 @@
 		"DescThree"
 		{
 			"labelText"			"#TF_GameTime"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"160"
 			"wide"				"275"
@@ -1693,7 +1628,6 @@
 		"ValueTwo"
 		{
 			"PropertyString"	"PROPERTY_WIN_LIMIT"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"75"
 			"ypos"				"130"
 			"wide"				"275"
@@ -1702,7 +1636,6 @@
 		"ValueThree"
 		{
 			"PropertyString"	"PROPERTY_MAX_GAME_TIME"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"75"
 			"ypos"				"160"
 			"wide"				"275"
@@ -1730,7 +1663,6 @@
 			{
 				"ControlName"	"Label"
 				"labeltext"		"#GameUI_Icons_START"
-				"font"			"GameUIButtons"
 				"xpos"			"32"
 				"ypos"			"7"
 				"wide"			"64"
@@ -1741,7 +1673,6 @@
 			{
 				"ControlName"	"Label"
 				"labeltext"		"#GameUI_Icons_Y_BUTTON"
-				"font"			"GameUIButtons"
 				"xpos"			"32"
 				"ypos"			"83"
 				"wide"			"64"
@@ -1752,7 +1683,6 @@
 			{
 				"ControlName"	"Label"
 				"labeltext"		"#GameUI_Icons_L_SHOULDER"
-				"font"			"GameUIButtons"
 				"xpos"			"15"
 				"ypos"			"45"
 				"wide"			"64"
@@ -1764,7 +1694,6 @@
 		{
 			"ControlName"	"Label"
 			"labeltext"		"#GameUI_StartGame"
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"98"
 			"ypos"			"14"
 			"wide"			"300"
@@ -1774,7 +1703,6 @@
 		{
 			"ControlName"	"Label"
 			"labeltext"		"#GameUI_StopCountdown"
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"98"
 			"ypos"			"14"
 			"wide"			"300"
@@ -1785,7 +1713,6 @@
 		{
 			"ControlName"	"Label"
 			"labeltext"		"#GameUI_ChangeGameSettings"
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"98"
 			"ypos"			"90"
 			"wide"			"300"
@@ -1795,7 +1722,6 @@
 		{
 			"ControlName"	"Label"
 			"labeltext"		"#TF_KickPlayer"
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"98"
 			"ypos"			"51"
 			"wide"			"300"
@@ -1813,7 +1739,6 @@
 		"Title"
 		{
 			"labeltext"		"#TF_ScoreBoard_Blue"
-			"font"			"MatchmakingDialogTitle"
 			"xpos"			"12"
 			"ypos"			"10"
 			"wide"			"180"
@@ -1822,7 +1747,6 @@
 		"Subtitle"
 		{
 			"labelText"		"#TF_ScoreBoard_Players"
-			"font"			"MatchmakingDialogMenuSmallest"
 			"xpos"			"87"
 			"ypos"			"11"
 			"wide"			"85"
@@ -1830,7 +1754,6 @@
 		
 		"DescOne"
 		{
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"12"
 			"ypos"			"45"
 			"wide"			"150"
@@ -1848,7 +1771,6 @@
 		"Title"
 		{
 			"labeltext"		"#TF_ScoreBoard_Red"
-			"font"			"MatchmakingDialogTitle"
 			"xpos"			"12"
 			"ypos"			"10"
 			"wide"			"180"
@@ -1857,7 +1779,6 @@
 		"Subtitle"
 		{
 			"labelText"		"#TF_ScoreBoard_Players"
-			"font"			"MatchmakingDialogMenuSmallest"
 			"xpos"			"87"
 			"ypos"			"11"
 			"wide"			"85"
@@ -1865,7 +1786,6 @@
 		
 		"DescOne"
 		{
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"12"
 			"ypos"			"45"
 			"wide"			"150"
@@ -1935,7 +1855,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#GameUI_Icons_R_SHOULDER"
-		"font"			"GameUIButtons"
 		"xpos"			"362"
 		"ypos"			"360"
 		"wide"			"64"
@@ -1948,7 +1867,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#GameUI_PlayerReview"
-		"font"			"MatchmakingDialogMenuMediumSmall"
 		"xpos"			"420"
 		"ypos"			"367"
 		"wide"			"300"
@@ -1959,7 +1877,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_Lobby_Title"
 	}
 	
@@ -1969,7 +1886,6 @@
 		"ypos"			"45"
 		"wide"			"350"
 		"tall"			"30"
-		"font"			"MatchmakingDialogMenuLarge"
 	}
 
 	"LobbyStateBg"
@@ -1984,7 +1900,6 @@
 	{
 		"ControlName"	"Label"
 		"labeltext"		"#TF_Icon_Alert"
-		"font"			"GameUIButtons"
 		"xpos"			"25"
 		"ypos"			"121"
 		"wide"			"32"
@@ -1997,7 +1912,6 @@
 		"ypos"			"125"
 		"wide"			"350"
 		"tall"			"30"
-		"font"			"MatchmakingDialogMenuLarge"
 		"labeltext"		"#TF_waitingForMinPlayers"
 	}
 	
@@ -2014,7 +1928,6 @@
 		"Title"
 		{
 			"PropertyString"	"CONTEXT_SCENARIO"
-			"font"				"MatchmakingDialogTitle"
 			"xpos"				"15"
 			"ypos"				"15"
 			"wide"				"275"
@@ -2022,7 +1935,6 @@
 		"Subtitle"
 		{
 			"PropertyString"	"scenariotype"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"45"
 			"wide"				"275"
@@ -2030,7 +1942,6 @@
 		"DescOne"
 		{
 			"PropertyString"	"CONTEXT_GAME_TYPE"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"100"
 			"wide"				"275"
@@ -2038,7 +1949,6 @@
 		"DescTwo"
 		{
 			"labelText"			"#TF_MatchOption_WinLimit"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"130"
 			"wide"				"275"
@@ -2046,7 +1956,6 @@
 		"DescThree"
 		{
 			"labelText"			"#TF_GameTime"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"15"
 			"ypos"				"160"
 			"wide"				"275"
@@ -2054,7 +1963,6 @@
 		"ValueTwo"
 		{
 			"PropertyString"	"PROPERTY_WIN_LIMIT"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"75"
 			"ypos"				"130"
 			"wide"				"275"
@@ -2063,7 +1971,6 @@
 		"ValueThree"
 		{
 			"PropertyString"	"PROPERTY_MAX_GAME_TIME"
-			"font"				"MatchmakingDialogMenuLarge"
 			"xpos"				"75"
 			"ypos"				"160"
 			"wide"				"275"
@@ -2092,7 +1999,6 @@
 		"Title"
 		{
 			"labeltext"		"#TF_ScoreBoard_Blue"
-			"font"			"MatchmakingDialogTitle"
 			"xpos"			"12"
 			"ypos"			"10"
 			"wide"			"180"
@@ -2101,7 +2007,6 @@
 		"Subtitle"
 		{
 			"labelText"		"#TF_ScoreBoard_Players"
-			"font"			"MatchmakingDialogMenuSmallest"
 			"xpos"			"87"
 			"ypos"			"11"
 			"wide"			"85"
@@ -2109,7 +2014,6 @@
 		
 		"DescOne"
 		{
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"12"
 			"ypos"			"45"
 			"wide"			"150"
@@ -2127,7 +2031,6 @@
 		"Title"
 		{
 			"labeltext"		"#TF_ScoreBoard_Red"
-			"font"			"MatchmakingDialogTitle"
 			"xpos"			"12"
 			"ypos"			"10"
 			"wide"			"180"
@@ -2136,7 +2039,6 @@
 		"Subtitle"
 		{
 			"labelText"		"#TF_ScoreBoard_Players"
-			"font"			"MatchmakingDialogMenuSmallest"
 			"xpos"			"87"
 			"ypos"			"11"
 			"wide"			"85"
@@ -2144,7 +2046,6 @@
 		
 		"DescOne"
 		{
-			"font"			"MatchmakingDialogMenuLarge"
 			"xpos"			"12"
 			"ypos"			"45"
 			"wide"			"150"
@@ -2279,7 +2180,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_SystemLink_Client_Dialog"
 	}
 	
@@ -2303,7 +2203,6 @@
  				"xpos"			"5"
  				"ypos"			"4"
  				"wide"			"295"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
  			}
  			"Column"
@@ -2312,7 +2211,6 @@
    				"ypos"			"5"
 				"wide"			"80"
   				"align"			"5"	// east
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
  			"Column"
@@ -2321,7 +2219,6 @@
    				"ypos"			"4"
 				"wide"			"145"
   				"align"			"5"	// east
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
  			"Column"
@@ -2330,7 +2227,6 @@
   				"ypos"			"0"
 				"wide"			"40"
   				"align"			"4"	// center
-				"font"			"GameUIButtonsSmall"
 				"fgcolor"		"white"
  			}
  		}
@@ -2446,7 +2342,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_SystemLink_Client_Dialog"
 	}
 	
@@ -2470,7 +2365,6 @@
  				"xpos"			"5"
  				"ypos"			"4"
  				"wide"			"315"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
  			}
  			"Column"
@@ -2479,7 +2373,6 @@
    				"ypos"			"5"
 				"wide"			"90"
   				"align"			"5"	// east
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
  			"Column"
@@ -2488,7 +2381,6 @@
    				"ypos"			"4"
 				"wide"			"155"
   				"align"			"5"	// east
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
  		}
@@ -2532,7 +2424,6 @@
 	{
 		"xpos"			"15"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_RankedLeaderboards_Title"
 	}
 	
@@ -2559,7 +2450,6 @@
  				"wide"			"100"
  				"align"			"4"	// center
 				"locked"		"1"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
  			}
   			"Column"
@@ -2569,7 +2459,6 @@
 				"wide"			"480"
   				"align"			"3"	// west
 				"locked"		"1"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
 			"Column"
@@ -2579,7 +2468,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
 		}
@@ -2598,20 +2486,17 @@
 		"xpos"			"15"
 		"ypos"			"458"
 		"ControlName"	"label"
-		"font"			"MatchmakingDialogMenuSmall"
 	}	
 	
 	"uparrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_UPCURSOR"
 	}
 
 	"downarrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_DOWNCURSOR"
 	}
 	
@@ -2622,7 +2507,6 @@
 		"wide"			"240"
 		"ControlName"	"Label"
 		"textAlignment"	"east"
-		"font"			"RankingDialogHeaders"
 		"labeltext"		"#Leaderboard_BestMoments"
 		"visible"		"0"
 	}	
@@ -2632,7 +2516,6 @@
 		"zpos"				"7"
 		"textAlignment"	"east"
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_DPAD"
 	}
 	
@@ -2643,8 +2526,6 @@
 		"zpos"				"7"
 		"wide"				"240"
 		"ControlName"		"Label"
-		"textAlignment"		"west"
-		"font"				"MatchmakingDialogMenuLarge"
 		"labeltext"			"#GameUI_Select"
 	}	
 	
@@ -2653,7 +2534,6 @@
 		"zpos"			"8"
 		"textAlignment"	"east"
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_B_BUTTON"
 	}
 	
@@ -2664,8 +2544,6 @@
 		"zpos"				"8"
 		"wide"				"240"
 		"ControlName"		"Label"
-		"textAlignment"		"west"
-		"font"				"MatchmakingDialogMenuLarge"
 		"labeltext"			"#GameUI_Back"
 	}								
 }
@@ -2707,7 +2585,6 @@
 	{
 		"xpos"			"20"
 		"ypos"			"15"
-		"font"			"MatchmakingDialogTitle"
 		"labeltext"		"#TF_StatsLeaderboards_Title"
 	}
 	
@@ -2734,7 +2611,6 @@
  				"wide"			"80"
  				"align"			"4"	// center
 				"locked"		"1"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
  			}
   			"Column"
@@ -2744,7 +2620,6 @@
 				"wide"			"325"
   				"align"			"3"	// west
 				"locked"		"1"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
 			"Column"
@@ -2754,7 +2629,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}
 			"Column"
@@ -2764,7 +2638,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}			
 			"Column"
@@ -2774,7 +2647,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
-				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}	
 			"Column"
@@ -2784,7 +2656,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}	
 			"Column"
@@ -2794,7 +2665,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2804,7 +2674,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2814,7 +2683,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2824,7 +2692,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2834,7 +2701,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2844,7 +2710,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2854,7 +2719,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}						
 			"Column"
@@ -2864,7 +2728,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2874,7 +2737,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2884,7 +2746,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 			"Column"
@@ -2894,7 +2755,6 @@
 				"wide"			"150"
   				"align"			"4"	// center
 				"locked"		"0"
- 				"font"			"MatchmakingDialogMenuLarge"
 				"fgcolor"		"MatchmakingMenuItemDescriptionColor"
 			}									
 		}
@@ -2913,20 +2773,17 @@
 		"xpos"			"20"
 		"ypos"			"450"
 		"ControlName"	"label"
-		"font"			"MatchmakingDialogMenuSmall"
 	}	
 	
 	"uparrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_UPCURSOR"
 	}
 
 	"downarrow"
 	{
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_DOWNCURSOR"
 	}
 	
@@ -2937,7 +2794,6 @@
 		"wide"				"240"
 		"ControlName"		"Label"
 		"textAlignment"		"east"
-		"font"				"RankingDialogHeaders"
 		"labeltext"			"#Leaderboard_BestMoments"
 	}
 	
@@ -2946,7 +2802,6 @@
 		"zpos"			"7"
 		"textAlignment"	"east"
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_DPAD"
 	}
 	
@@ -2957,8 +2812,6 @@
 		"zpos"				"7"
 		"wide"				"240"
 		"ControlName"		"Label"
-		"textAlignment"		"west"
-		"font"				"MatchmakingDialogMenuLarge"
 		"labeltext"			"#GameUI_Select"
 	}	
 	
@@ -2967,7 +2820,6 @@
 		"zpos"			"8"
 		"textAlignment"	"east"
 		"ControlName"	"Label"
-		"font"			"GameUIButtons"
 		"labeltext"		"#GameUI_Icons_B_BUTTON"
 	}
 	
@@ -2978,8 +2830,6 @@
 		"zpos"				"8"
 		"wide"				"240"
 		"ControlName"		"Label"
-		"textAlignment"		"west"
-		"font"				"MatchmakingDialogMenuLarge"
 		"labeltext"			"#GameUI_Back"
 	}									
 }
@@ -3059,7 +2909,6 @@
 		"scrollfast"			"0.1"
 		"centerbgtall"			"120"
 		//				"0"
-		"enabled"				"1"
 		//			"0"
 		"settitlebarvisible"	"0"
 		"title"					"#GameUI_NewGame"
@@ -3074,10 +2923,8 @@
 		"wide"				"32"
 		"tall"				"32"
 		//			"0"
-		"enabled"			"1"
 		"labelText"			"#GameUI_Icons_LEFTCURSOR"
 		"textAlignment"		"center"
-		"font"				"GameUIButtons"
 	}
 	"RightArrow"
 	{
@@ -3088,10 +2935,8 @@
 		"wide"				"32"
 		"tall"				"32"
 		//			"0"
-		"enabled"			"1"
 		"labelText"			"#GameUI_Icons_RIGHTCURSOR"
 		"textAlignment"		"center"
-		"font"				"GameUIButtons"
 	}
 	"UpArrow"
 	{
@@ -3104,10 +2949,8 @@
 		"tall"				"32"
 		//			"0"
 		"visible"			"0"
-		"enabled"			"1"
 		"labelText"			"#GameUI_Icons_UPCURSOR"
 		"textAlignment"		"center"
-		"font"				"GameUIButtons"
 	}
 	"DownArrow"
 	{
@@ -3120,10 +2963,8 @@
 		"tall"				"32"
 		//			"0"
 		"visible"			"0"
-		"enabled"			"1"
 		"labelText"			"#GameUI_Icons_DOWNCURSOR"
 		"textAlignment"		"center"
-		"font"				"GameUIButtons"
 	}
 	"BonusSelectionBorder"
 	{
@@ -3136,7 +2977,6 @@
 		"tall"				"17"
 		//			"0"
 		"visible"			"0"
-		"enabled"			"1"
 		"fillcolor"			"0 0 0 128"
 	}
 	"BonusSelectionLabel"
@@ -3150,9 +2990,7 @@
 		"tall"			"24"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"DefaultLarge"
 	}
 	"ChallengeEarnedMedal"
 	{
@@ -3176,7 +3014,6 @@
 		"wide"				"45"
 		"tall"				"30"
 		"visible"			"0"
-		"enabled"			"1"
 		//		"0"
 		"textAlignment"		"north"
 		"wrap"				"1"
@@ -3204,7 +3041,6 @@
 		"wide"				"45"
 		"tall"				"30"
 		"visible"			"0"
-		"enabled"			"1"
 		//		"0"
 		"textAlignment"		"north"
 		"wrap"				"1"
@@ -3219,9 +3055,7 @@
 		"wide"			"518"
 		"tall"			"40"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"ChapterTitle"
 	}
 	"ChapterTitleLabel2"
 	{
@@ -3232,9 +3066,7 @@
 		"wide"			"518"
 		"tall"			"40"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"ChapterTitle"
 	}
 	"ControllerMap"
 	{
@@ -3309,7 +3141,6 @@
 		"wide"			"122"
 		"tall"			"75"
 		//		"0"
-		"enabled"		"1"
 	}
 	"LevelPic"
 	{
@@ -3323,7 +3154,6 @@
 		"scaleAmount"		"0.72"
 		"scaleAmount"	"0"
 		//		"0"
-		"enabled"		"1"
 		"fillcolor"		"0 0 0 0"
 	}
 	"ChallengeNextMedal"
@@ -3348,10 +3178,8 @@
 		"wide"			"107"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"textAlignment"	"center"
-		"font"			"DefaultLarge"
 	}
 	
 	// not used in xbox NewGame Dialog
@@ -3364,10 +3192,8 @@
 		"wide"			"152"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"textAlignment"	"center"
-		"font"			"UiBold"
 	}
 	
 	"HasBonusLabel"
@@ -3380,10 +3206,8 @@
 		"tall"			"14"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"textAlignment"		"east"
-		"font"			"DefaultLarge"
 		"labelText"		"#GameUI_BonusMapsUnlocked"
 	}
 
@@ -3398,10 +3222,8 @@
 		"tall"				"42"
 		//			"0"
 		"visible"			"0"
-		"enabled"			"1"
 		//		"0"
 		"image"				"hud/icon_commentary_small"
-		"scaleImage"		"0"
 	}
 
 }
@@ -3418,7 +3240,6 @@
 		"wide"				"200"
 		"tall"				"35"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 	}
 
@@ -3432,7 +3253,6 @@
 		"wide"				"200"
 		"tall"				"20"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"paintbackground"	"1"
 		"bgcolor"		"46 43 42 255"
@@ -3447,8 +3267,6 @@
 		"ypos"				"0"
 		"wide"				"200"
 		"tall"				"20"
-		"enabled"			"1"
-		"textAlignment"		"west"
 	}
 	
 	// unused, just used to anchor layout params

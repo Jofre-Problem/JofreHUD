@@ -1,7 +1,5 @@
 //============================================================================================================
 criterion "IsTerminalBenchSitter" "terminal_benchsitter" "1" required
-criterion "IsTerminalPreCustoms" "pre_customs" "1" weight 2 required
-//the above was given a weight of 2 to override the "TrainGuy" criteria, which is based on TargetName
 
 criterion "IsTerminalWaitingLady" "waiting_lady" "1" required
 criterion "IsTerminalCustomsQueue" "customs_queue" "1" required

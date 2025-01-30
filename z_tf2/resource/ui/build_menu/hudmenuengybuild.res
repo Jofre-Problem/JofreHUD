@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"450"
 		"tall"			"170"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -36,7 +35,6 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"255 255 255 255"
@@ -51,7 +49,6 @@
 		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 0 0 255"
@@ -61,7 +58,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"2"
@@ -69,7 +65,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
 		"textAlignment"	"Left"
 	}
@@ -78,7 +73,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"69"			// align me to the left edge of the first selection
 		"ypos"			"1"
@@ -87,7 +81,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
@@ -97,7 +90,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
 		"xpos"			"218"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -105,7 +97,6 @@
 		"tall"			"13"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
 	}

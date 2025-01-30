@@ -11,7 +11,6 @@
 		"tall"			"150"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_black_bg"
 		"scaleImage"		"1"
 	}
@@ -19,7 +18,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
-		"font"			"HudFontMedium"
 		"xpos"			"25"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -27,7 +25,6 @@
 		"tall"			"35"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"		"northwest"
@@ -36,7 +33,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"ReasonLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"25"
 		"ypos"			"34"
 		"zpos"			"1"
@@ -44,7 +40,6 @@
 		"tall"			"55"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"northwest"

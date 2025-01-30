@@ -12,7 +12,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
 			"xpos"			"0"
@@ -20,7 +19,6 @@
 			"wide"			"300"
 			"tall"			"24"
 			//		"0"
-			"enabled"		"1"
 			"PaintBackgroundType" "2"
 			"fgcolor_override"	"235 226 202 255"
 			"bgcolor_override"	"184 108 55 255"
@@ -37,10 +35,8 @@
 		"wide"			"14"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"navDown"			"MOTD_URLButton"
 		"navActivate"		"<QuickplayButton"
@@ -66,7 +62,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
@@ -76,15 +71,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#MMenu_Stream_Title"
-		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"26"
 		"wide"			"200"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
 
@@ -98,7 +90,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -112,7 +103,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -126,7 +116,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -140,7 +129,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -154,7 +142,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 	}
 
@@ -167,12 +154,10 @@
 		"wide"			"150"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#MMenu_Stream_ViewMore"
 		"textinsetx"	"20"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"command"		"view_more"

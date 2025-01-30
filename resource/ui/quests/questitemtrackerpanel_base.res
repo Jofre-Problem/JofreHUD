@@ -14,7 +14,6 @@
 		"fgcolor_override"		"235 226 202 255"
 		"font"			"AchievementTracker_Name"
 		//"wrap"			"1"
-		"TextAlignment"		"north-east"
 		"proportionaltoparent" "1"
 	}
 
@@ -27,9 +26,6 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"	
-
 		"proportionaltoparent" "1"
 
 		"PendingText"
@@ -46,7 +42,6 @@
 			"fgcolor_override"		"235 226 202 255"
 			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
-			"TextAlignment"		"north-east"
 			"proportionaltoparent" "1"
 		}
 	}

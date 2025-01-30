@@ -20,11 +20,8 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
-		"border"		"EconItemBorder"
 		
 		"model_xpos"	"0"
 		"model_ypos"	"0"

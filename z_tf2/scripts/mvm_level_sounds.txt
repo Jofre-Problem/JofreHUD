@@ -18548,7 +18548,6 @@
 	"pitch"		"PITCH_NORM"
 	
 	"wave"		"#misc/your_team_suddendeath.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_suddendeath.wav"	[$X360]
 }
 
 "Game.Stalemate"
@@ -18559,7 +18558,6 @@
 	"pitch"		"PITCH_NORM"
 	
 	"wave"		"#misc/your_team_stalemate.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_stalemate.wav"	[$X360]
 }
 
 "Game.Overtime"
@@ -18585,7 +18583,6 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_lost.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_lost.wav"	[$X360]
 }
 
 "Game.YourTeamWon"
@@ -18596,7 +18593,6 @@
 	"pitch"		"PITCH_NORM"
 
 	"wave"		"#misc/your_team_won.mp3"	[$WIN32]
-	"wave"		"#misc/your_team_won.wav"	[$X360]
 }
 
 "Game.Revenge"
@@ -18746,7 +18742,6 @@
 		"wave"	"ui/tv_tune3.mp3"
 	}
 	
-	"rndwave"	[$X360]
 	{
 		"wave"	"ui/tv_tune.wav"
 		"wave"	"ui/tv_tune2.wav"

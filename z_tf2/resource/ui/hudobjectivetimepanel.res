@@ -9,7 +9,6 @@
 		"zpos"			"2"
 		"wide"			"78"
 		"tall"			"33"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
 
@@ -27,7 +26,6 @@
 		"zpos"				"4"	
 		"wide"				"20"
 		"tall"				"20"
-		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
 		"color_active"			"TimerProgress.Active"
@@ -50,10 +48,8 @@
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
-		"font"			"ClockSubTextTiny"
 
 		if_null_match
 		{
@@ -61,7 +57,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -69,13 +64,11 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
@@ -94,10 +87,8 @@
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#game_Overtime"
 		"textAlignment"		"center"
-		"font"			"ClockSubText"
 
 		if_null_match
 		{
@@ -105,7 +96,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
 		}
 	}			
 	"OvertimeBG"
@@ -113,13 +103,11 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
@@ -138,10 +126,8 @@
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
 		"textAlignment"		"center"
-		"font"			"ClockSubTextSuddenDeath"
 
 		if_null_match
 		{
@@ -149,7 +135,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
 		}
 	}			
 	"SuddenDeathBG"
@@ -157,13 +142,11 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
@@ -182,10 +165,8 @@
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#game_Setup"
 		"textAlignment"		"center"
-		"font"			"ClockSubText"
 
 		if_null_match
 		{
@@ -193,7 +174,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
 		}
 	}	
 	"SetupBG"
@@ -201,13 +181,11 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 
@@ -226,10 +204,8 @@
 		"wide"			"78"
 		"tall"			"19"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
-		"font"			"ClockSubText"
 
 		if_null_match
 		{
@@ -237,7 +213,6 @@
 			"xpos"					"0"
 			"ypos"					"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
@@ -245,13 +220,11 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"16"	[$WIN32]
-		"xpos"			"11"	[$X360]
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"78"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"
 		

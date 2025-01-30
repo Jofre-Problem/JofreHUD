@@ -11,7 +11,6 @@
 		"tall"			"100"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"
@@ -35,7 +34,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
@@ -59,8 +57,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
 		"fgcolor"		"TanLight"
@@ -76,8 +72,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
@@ -94,8 +88,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
 		"fgcolor"		"TanLight"
@@ -111,8 +103,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
 		"fgcolor"		"Black"
@@ -128,7 +118,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -142,7 +131,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -156,7 +144,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -170,7 +157,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -184,7 +170,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -198,7 +183,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -212,7 +196,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -226,7 +209,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -240,7 +222,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -254,7 +235,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -268,7 +248,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}
@@ -282,7 +261,6 @@
 		"wide"			"45"
 		"tall"			"90"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			""	
 		"scaleImage"	"1"	
 	}

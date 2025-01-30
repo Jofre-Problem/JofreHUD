@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-		"enabled"		"1"
 	}
 
 	"AvatarBGPanel"
@@ -33,7 +32,6 @@
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
@@ -52,11 +50,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%avatartext%"
-		"textAlignment"	"West"
-		"font"			"TFFontSmall"
 	}
 
 	"TextLabel"
@@ -72,10 +67,7 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%text%"
-		"textAlignment"	"West"
-		"font"			"TFFontSmall"
 	}
 }

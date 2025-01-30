@@ -46,7 +46,6 @@
 		"wide"		"60"
 		"tall"		"20"
 		"labelText"		"Settings:"
-		"textAlignment"		"west"
 		"fgcolor_override"		"White"	
 	}		
 	"ChatLabel"
@@ -58,7 +57,6 @@
 		"wide"		"25"
 		"tall"		"20"
 		"labelText"		"z"
-		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 		"font"					"NewIcons9"	
 		"pin_to_sibling"	"SliderLabel"	
@@ -91,7 +89,6 @@
 		"wide"		"25"
 		"tall"		"20"
 		"labelText"		"0"
-		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 		"font"					"NewIcons9"	
 		"pin_to_sibling"	"ChatLabel"		

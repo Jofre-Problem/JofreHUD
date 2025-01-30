@@ -10,7 +10,6 @@
 		"wide"			"300"
 		"tall"			"350"
 		"visible"		"0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 	}
 
@@ -28,7 +27,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -39,14 +37,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -65,13 +61,11 @@
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -80,7 +74,6 @@
 			"wide"			"100"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
@@ -97,8 +90,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"enabled"		"1"
-		"border"		"MainMenuBGBorder"
 
 		"UpperLine"
 		{
@@ -111,7 +102,6 @@
 			"tall"		"1"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"255 255 255 252"
 			"proportionaltoparent"	"1"
@@ -122,7 +112,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
@@ -131,7 +120,6 @@
 			"wide"			"p.95"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -146,10 +134,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			"proportionaltoparent" "1"
@@ -172,7 +158,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -187,7 +172,6 @@
 			"zpos"			"10"
 			"wide"			"p.95"
 			"tall"			"o1"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"entry_step" "10"
@@ -210,7 +194,6 @@
 		"tall"		"30"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
@@ -224,8 +207,6 @@
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"30"
-			"PaintBackgroundType"	"0"
-			"paintborder"	"0"
 			"proportionaltoparent"	"1"
 		
 			"model_xpos"	"0"
@@ -251,16 +232,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BadgeProgressLabel"
-			"font"			"AdFont_AdText"
 			"labelText"		"#QuestLog_BadgeProgress"
-			"textAlignment"	"west"
 			"xpos"			"p.15"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -275,7 +253,6 @@
 			"wide"			"100"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
@@ -290,7 +267,6 @@
 				"wide"			"98"
 				"tall"			"13"				
 				//		"0"
-				"enabled"		"1"
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
@@ -300,7 +276,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BadgeProgressMeterText"
-				"font"			"AdFont_AdText"
 				"labelText"		""
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -309,7 +284,6 @@
 				"wide"			"f0"
 				"tall"			"f0"					
 				//		"0"
-				"enabled"		"1"
 				"proportionaltoparent"	"1"
 				"fgcolor"		"TanLight"
 			}
@@ -319,16 +293,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ContractsCompletedLabel"
-			"font"			"AdFont_AdText"
 			"labelText"		"#QuestLog_ContractsCompleted"
-			"textAlignment"	"west"
 			"xpos"			"p.57"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"p.45"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
 		}
@@ -343,7 +314,6 @@
 			"wide"			"100"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
@@ -358,7 +328,6 @@
 				"wide"			"98"
 				"tall"			"13"
 				//		"0"
-				"enabled"		"1"
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
 				"bgcolor_override"		"0 0 0 255"
@@ -368,7 +337,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ContractsCompletedProgressMeterText"
-				"font"			"AdFont_AdText"
 				"labelText"		""
 				"textAlignment"	"center"
 				"xpos"			"0"
@@ -377,7 +345,6 @@
 				"wide"			"f0"
 				"tall"			"f0"					
 				//		"0"
-				"enabled"		"1"
 				"proportionaltoparent"	"1"
 				"fgcolor"		"TanLight"
 			}

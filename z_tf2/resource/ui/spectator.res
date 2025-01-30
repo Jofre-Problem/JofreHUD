@@ -6,7 +6,6 @@
 		"fieldName"		"Spectator"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"specgui"
@@ -18,7 +17,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"tall"			"18"
-		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 	}
 
@@ -26,9 +24,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
 		"tall"			"20"
-		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
 	}
@@ -44,8 +40,6 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
@@ -72,14 +66,12 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 		}
@@ -93,7 +85,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 	}		
 "MapLabel"
 	{

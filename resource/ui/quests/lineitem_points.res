@@ -23,7 +23,6 @@
 		"zpos"			"1"
 		"fgcolor_override"		"TanLight"
 		"font"			"ScoreboardMediumSmall"
-		"TextAlignment"		"center"
 		"proportionaltoparent" "1"
 	}
 }

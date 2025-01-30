@@ -9,7 +9,6 @@
 		"wide"		"f0"
 		"tall"		"480"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 240"
 
@@ -26,11 +25,8 @@
 		"wide"		"400"
 		"tall"		"410"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"QuickplayBorder"
 
 		"Background"
 		{
@@ -41,7 +37,6 @@
 			"wide"		"f0"
 			"tall"		"f0"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"40 37 37 255"
 			"proportionalToParent"	"1"
@@ -51,7 +46,6 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Quickplay_Title"
 			"textAlignment"	"center"
 			"xpos"			"40"
@@ -61,7 +55,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 
 		"SimplifiedOptionsContainer"
@@ -74,13 +67,10 @@
 			"wide"		"380"
 			"tall"		"250"
 			"visible"	"0"
-			"enabled"	"1"
-
 			"CurPageLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"CurPageLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"%page%"
 				"textAlignment"	"north-west"
 				"xpos"			"40"
@@ -90,7 +80,6 @@
 				"tall"			"20"
 				"autoResize"	"1"
 				//		"0"
-				"enabled"		"1"
 				"fgcolor_override"	"89 81 71 255"
 			}
 
@@ -104,10 +93,8 @@
 				"wide"			"15"
 				"tall"			"15"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		"?"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"more_info"
@@ -121,8 +108,6 @@
 				"ypos"		"0"
 				"wide"		"320"
 				"tall"		"245"
-				"enabled"	"1"
-				"border"				"MainMenuHighlightBorder"
 
 				"ModeImage"
 				{
@@ -133,7 +118,6 @@
 					"zpos"			"0"
 					"wide"			"230"
 					"tall"			"230"
-					"enabled"		"1"
 					"mouseinputenabled" "0"
 					"image"			"maps/menu_screen_ctf_2fort"
 					"scaleImage"	"1"
@@ -143,7 +127,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"Label_GameType"
-					"font"			"HudFontMediumSmallBold"
 					"labelText"		"%gametype%"
 					"textAlignment"	"center"
 					"xpos"			"0"
@@ -152,7 +135,6 @@
 					"wide"			"320"
 					"tall"			"25"
 					//		"0"
-					"enabled"		"1"
 					"mouseinputenabled" "0"
 					"fgcolor_override"	"89 81 71 255"
 				}
@@ -161,7 +143,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DescLabel"
-					"font"			"HudFontSmallest"
 					"labelText"		"%description%"
 					"textAlignment"	"south"
 					"xpos"			"5"
@@ -170,19 +151,16 @@
 					"wide"			"310"
 					"tall"			"50"
 					//		"0"
-					"enabled"		"1"
 					"fgcolor_override"	"89 81 71 255"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
-	//				"border"				"QuickplayBorder"
 				}
 
 				"ComplexityLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ComplexityLabel"
-					"font"			"HudFontSmallest"
 					"labelText"		"%complexity%"
 					"textAlignment"	"south"
 					"xpos"			"5"
@@ -191,12 +169,10 @@
 					"wide"			"310"
 					"tall"			"15"
 					//		"0"
-					"enabled"		"1"
 					"fgcolor_override"	"201 79 57 255"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
-	//				"border"				"QuickplayBorder"
 				}
 
 				"MoreInfoContainer"
@@ -210,11 +186,8 @@
 					"tall"		"205"
 					//		"0"
 					"visible"		"0"
-					"enabled"		"1"
 					//		"0"
-					"PaintBackgroundType"	"0"
 					"paintbackground"		"1"
-					"border"				"MainMenuBGBorder"
 		
 					"Background"
 					{
@@ -226,7 +199,6 @@
 						"tall"		"400"
 						//		"0"
 						"visible"		"0"
-						"enabled"		"1"
 						//		"0"
 						"bgcolor_override"	"40 37 37 255"
 					}
@@ -235,7 +207,6 @@
 					{
 						"ControlName"		"CExLabel"
 						"fieldName"		"MoreInfoLabel"
-						"font"			"HudFontSmallest"
 						"labelText"		"%more_info%"
 						"textAlignment"	"center"
 						"xpos"			"10"
@@ -245,7 +216,6 @@
 						"tall"			"160"
 						"autoResize"	"1"
 						//		"0"
-						"enabled"		"1"
 						"wrap"			"1"
 						"centerwrap"	"1"
 					}
@@ -262,10 +232,8 @@
 				"wide"			"20"
 				"tall"			"40"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		"<"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"prevpage"
 			}		
@@ -280,10 +248,8 @@
 				"wide"			"20"
 				"tall"			"40"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		">"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"nextpage"
 			}	
@@ -299,15 +265,12 @@
 			"wide"		"380"
 			"tall"		"240"
 			"visible"	"0"
-			"enabled"	"1"
-			"border"	"QuickplayBorder"
 			"bgcolor_override"	"0 0 0 255"
 
 			"TitleLabel"
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"#TF_Quickplay_AdvancedOptions"
 				"textAlignment"	"center"
 				"xpos"			"10"
@@ -317,7 +280,6 @@
 				"tall"			"15"
 				"autoResize"	"1"
 				//		"0"
-				"enabled"		"1"
 			}
 
 			"GameModeOptionContainer"
@@ -330,13 +292,10 @@
 				"wide"		"355"
 				"tall"		"20"
 				"visible"	"0"
-				"enabled"	"1"
-
 				"OptionNameLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"Game mode"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -350,7 +309,6 @@
 				{
 					"ControlName"		"ComboBox"
 					"fieldName"			"OptionCombo"
-					"Font"				"HudFontSmallest"
 					"xpos"				"190"
 					"ypos"				"0"
 					"zpos"				"1"
@@ -374,7 +332,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"#TF_Quickplay_ServerHost"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -388,7 +345,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -400,7 +356,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -412,7 +367,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -435,7 +389,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"#TF_Quickplay_MaxPlayers"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -449,7 +402,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -461,7 +413,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -473,7 +424,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -496,7 +446,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"#TF_Quickplay_RandomCrits"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -510,7 +459,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -522,7 +470,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -534,7 +481,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -557,7 +503,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"#TF_Quickplay_RespawnTimes"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -571,7 +516,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -583,7 +527,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -595,7 +538,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -618,7 +560,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"OptionNameLabel"
-					"font"			"HudFontSmallBold"
 					"labelText"		"#TF_Quickplay_DamageSpread"
 					"textAlignment"	"left"
 					"xpos"			"0"
@@ -632,7 +573,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton0"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"15"
 					"zpos"				"1"
@@ -644,7 +584,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton1"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"30"
 					"zpos"				"1"
@@ -656,7 +595,6 @@
 				{
 					"ControlName"		"RadioButton"
 					"fieldName"			"RadioButton2"
-					"Font"				"HudFontSmallest"
 					"xpos"				"20"
 					"ypos"				"45"
 					"zpos"				"1"
@@ -677,10 +615,8 @@
 			"wide"			"185"
 			"tall"			"40"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_Quickplay_PlayNow"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"playnow"
@@ -704,10 +640,8 @@
 			"wide"			"185"
 			"tall"			"40"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_Quickplay_ShowServers"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"show_servers"
@@ -731,11 +665,8 @@
 			"wide"			"25"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
 			"default"		"1"
@@ -752,7 +683,6 @@
 				"zpos"			"1"
 				"wide"			"19"
 				"tall"			"19"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_options"
 			}			
@@ -762,7 +692,6 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"OptionsSummaryLabel"
-			"font"			"HudFontSmallest"
 			"textAlignment"	"left"
 			"wrap"			"1"
 			"proportionalToParent"	"1"
@@ -773,7 +702,6 @@
 			"tall"			"30"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 
 		"ExplainBetaButton"
@@ -786,10 +714,8 @@
 			"wide"			"15"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"?"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"explain_beta"
@@ -805,8 +731,6 @@
 			"ControlName"			"CheckButton"
 			"fieldName"				"BetaCheckButton"
 			"labelText"				"#TF_Quickplay_BetaMaps"
-			"Font"					"HudFontSmallestBold"
-			"textAlignment"			"west"
 			"Command"				"beta_toggle"
 			"xpos"					"10"
 			"ypos"					"r30"
@@ -814,7 +738,6 @@
 			"wide"					"140"
 			"tall"					"20"
 			//				"0"
-			"enabled"				"1"
 			"proportionaltoparent"	"1"
 		}
 
@@ -829,10 +752,8 @@
 			"wide"			"100"
 			"tall"			"25"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
@@ -850,7 +771,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"50"
@@ -865,7 +785,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"#QuickplayBetaExplanation_Title"
 				"textAlignment"	"north"
 				"xpos"			"20"
@@ -873,7 +792,6 @@
 				"wide"			"210"
 				"tall"			"30"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 				"fgcolor_override" "46 43 42 255"
 			}
@@ -882,7 +800,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmall"
 				"labelText"		"#QuickplayBetaExplanation_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"20"
@@ -890,7 +807,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 				"fgcolor_override" "46 43 42 255"
 				"proportionaltoparent"	"1"
@@ -906,10 +822,8 @@
 				"wide"			"14"
 				"tall"			"14"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"close"
 				"proportionaltoparent"	"1"
@@ -931,7 +845,6 @@
 					"zpos"			"1"
 					"wide"			"14"
 					"tall"			"14"
-					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
 				}				

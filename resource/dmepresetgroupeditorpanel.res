@@ -10,16 +10,12 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	
 		"PresetGroupSplitter"
 		{
 			"ControlName"	"Splitter"
 			"fieldName"		"PresetGroupSplitter"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -43,8 +39,6 @@
 					//"PinnedCornerOffsetY" "6"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}
@@ -65,8 +59,6 @@
 					//"PinnedCornerOffsetY" "6"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}

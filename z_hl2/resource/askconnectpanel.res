@@ -3,7 +3,6 @@
 	"AskConnectPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"AskConnectPanel"
 		"xpos"			"335"
 		"ypos"			"18"
 		"zpos"			"1002"
@@ -12,17 +11,14 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"BgColor"		"0 0 0 192"
 		//	"0"
 		paintborder		1
-		"settitlebarvisible"		"0"
 		"title"			""
 	}
 	"InfoLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"HostNameLabel"
 		Font			DefaultLarge
 		"xpos"			"10"
 		"ypos"			"10"
@@ -30,15 +26,12 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"..."
 	}
 	"HostNameLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"HostNameLabel"
 		Font			DefaultLarge
 		"xpos"			"10"
 		"ypos"			"30"
@@ -46,8 +39,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"textAlignment"	"center"
@@ -56,7 +47,6 @@
 	"AcceptLabel"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"HostNameLabel"
 		Font			DefaultLarge
 		"xpos"			"10"
 		"ypos"			"50"
@@ -64,8 +54,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 	}

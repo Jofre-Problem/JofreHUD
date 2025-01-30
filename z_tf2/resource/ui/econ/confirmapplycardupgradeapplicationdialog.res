@@ -3,15 +3,12 @@
 	"ConfirmApplyCardUpgradeApplicationDialog"
 	{
 		"fieldName"				"ConfirmApplyCardUpgradeApplicationDialog"
-		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
 	}
 
 	"mouseoveritempanel"
@@ -37,7 +34,6 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -45,7 +41,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -57,7 +52,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -67,7 +61,6 @@
 		"tall"			"60"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 	}
 
@@ -75,7 +68,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToolBG"
-		"font"			"HudFontSmallBold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"10"
@@ -85,9 +77,7 @@
 		"tall"			"64"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"paintbackground" "0"
-		"border"		"BackpackItemBorder_SelfMade"
 	}
 	"tool_icon"
 	{
@@ -98,7 +88,6 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
 		"tileImage"		"0"
 		"tileVertically" "0"
@@ -116,7 +105,6 @@
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -135,7 +123,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubjectBG"
-		"font"			"HudFontSmallBold"
 		"labelText"		""
 		"textAlignment"	"east"
 		"xpos"			"300"
@@ -145,9 +132,7 @@
 		"tall"			"64"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"paintbackground" "0"
-		"border"		"BackpackItemBorder_Vintage"
 	}
 	"subject_icon"
 	{
@@ -158,7 +143,6 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"enabled"		"1"
 		"image"			"backpack_jewel_modify_target_b_g"
 		"tileImage"		"0"
 		"tileVertically" "0"
@@ -176,7 +160,6 @@
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
 		"model_xpos"	"2"
 		"model_ypos"	"5"
 		"model_wide"	"80"
@@ -195,7 +178,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolCardUpgradeApplyConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -205,7 +187,6 @@
 		"tall"			"120"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 
@@ -220,10 +201,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 	}
@@ -239,10 +218,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"apply"

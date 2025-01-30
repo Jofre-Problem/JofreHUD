@@ -18,7 +18,6 @@
 			"tall"			"70"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../hud/ammo_red_bg"
 		}
 		
@@ -26,7 +25,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabelShadow"
-			"font"			"HudFontGiantBold"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"2"
@@ -40,7 +38,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HudFontGiantBold"
 			"labelText"		"#TF_MVM_Victory"
 			"textAlignment" "center"
 			"xpos"			"0"

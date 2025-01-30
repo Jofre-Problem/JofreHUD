@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-		"enabled"		"1"
 		"fgcolor"		"56 47 29 255"
 		"fgcolor_override"		"56 47 29 255"
 	}
@@ -35,7 +34,6 @@
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
 		"color_outline"	"52 48 45 255"
@@ -55,11 +53,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%avatartext%"
-		"textAlignment"	"West"
-		"font"			"HudFontSmallest"
 	}
 
 	"TextLabel"
@@ -72,7 +67,6 @@
 		{
 			"fgcolor"			"BrightYellow"
 			"fgcolor_override"	"BrightYellow"
-			"font"				"StorePromotionsTitle"
 		}
 		"xpos"			"7"
 		"ypos"			"7"
@@ -82,10 +76,7 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%text%"
-		"textAlignment"	"West"
-		"font"			"HudFontSmallest"
 	}
 }

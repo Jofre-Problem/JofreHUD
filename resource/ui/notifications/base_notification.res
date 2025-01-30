@@ -8,11 +8,8 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
-		"textAlignment"								"center"
 		"font"										"Regular12"
 	}
 

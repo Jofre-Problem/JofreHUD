@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -57,8 +55,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -89,7 +85,6 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -99,7 +94,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
 			"use_item_sounds" "1"		
 		}
 		
@@ -115,8 +109,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -139,7 +131,6 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -149,7 +140,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
 			"use_item_sounds" "1"		
 		}
 	}
@@ -163,28 +153,24 @@
 		"wide"		"90"
 		"tall"		"19"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"251 235 202 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
 	}
 	
 	"SubcategoryFilterComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
-		"Font"				"HudFontSmallestBold"
 		"xpos"				"c30"
 		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"112"
 		"tall"				"19"
 		//			"0"
-		"enabled"			"1"
 		//		"1"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -213,14 +199,12 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
-		"Font"				"HudFontSmallestBold"
 		"xpos"				"c152"
 		"ypos"				"30"
 		"zpos"				"1"
 		"wide"				"142"
 		"tall"				"19"
 		//			"0"
-		"enabled"			"1"
 		//		"1"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -268,14 +252,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -287,7 +269,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterTooltipLabel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"xpos"			"36"
 		"ypos"			"170"
@@ -297,13 +278,11 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
 		"fgcolor"		"243 234 216 255"
 	}
 
@@ -317,10 +296,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
 	}		
@@ -329,7 +306,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -339,7 +315,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -353,10 +328,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
 	}	
@@ -365,7 +338,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PriceLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%selectionprice%"
 		"textAlignment"	"east"
 		"xpos"			"c20"
@@ -376,7 +348,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}		
@@ -385,9 +356,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
-		"textAlignment"	"west"
 		"xpos"			"c-70"
 		"ypos"			"12"
 		"zpos"			"1"
@@ -395,7 +364,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"StoreDarkTan"
 	}
 	
@@ -403,9 +371,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubcategoryFiltersLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_ItemTypeFilterLabel"
-		"textAlignment"	"west"
 		"xpos"			"c30"
 		"ypos"			"12"
 		"zpos"			"1"
@@ -413,7 +379,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"StoreDarkTan"
 	}
 	
@@ -421,9 +386,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SortFilterLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_SortByLabel"
-		"textAlignment"	"west"
 		"xpos"			"c152"
 		"ypos"			"12"
 		"zpos"			"1"
@@ -431,7 +394,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"StoreDarkTan"
 	}
 	
@@ -439,9 +401,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassFilterLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_ClassFilterLabel"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"12"
 		"zpos"			"1"
@@ -449,7 +409,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor"		"StoreDarkTan"
 	}
 	
@@ -463,8 +422,6 @@
 		"wide"				"225"
 		"tall"				"19"
 		//			"0"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -477,7 +434,6 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -490,8 +446,6 @@
 			
 			
 			"paintbackground"	"0"
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 180"
 			"image_armedcolor"		"255 255 255 255"
 			"image_selectedcolor"	"255 255 255 255"
@@ -508,7 +462,6 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}
@@ -652,9 +605,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"315"
 		"zpos"			"0"
@@ -662,14 +613,12 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"CartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-300"
@@ -677,12 +626,10 @@
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
-		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
 	}
 	
 	"CartImage"
@@ -694,7 +641,6 @@
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
-		"enabled"		"1"
 		"image"			"store_cart"
 		"scaleImage"	"1"
 	}
@@ -709,7 +655,6 @@
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"store_special"
 		"scaleImage"	"1"
 	}
@@ -725,10 +670,8 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
@@ -745,10 +688,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"show_explanations"
@@ -766,7 +707,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -781,7 +721,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreWelcomeExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -789,7 +728,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -798,7 +736,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreWelcomeExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -806,7 +743,6 @@
 			"wide"			"260"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -821,10 +757,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -845,7 +779,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -854,7 +787,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -863,7 +795,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -876,10 +807,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -901,7 +830,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -920,7 +848,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -935,7 +862,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreTabsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -943,7 +869,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -952,7 +877,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreTabsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -960,7 +884,6 @@
 			"wide"			"260"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -975,10 +898,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -999,7 +920,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1014,10 +934,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1038,7 +956,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1047,7 +964,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1056,7 +972,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1069,10 +984,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1094,7 +1007,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1113,7 +1025,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-190"
@@ -1128,7 +1039,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreItemsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1136,7 +1046,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1145,7 +1054,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreItemsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1153,7 +1061,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1168,10 +1075,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1193,7 +1098,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1208,10 +1112,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1232,7 +1134,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1247,10 +1148,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1272,7 +1171,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1281,7 +1179,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1290,7 +1187,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
@@ -1307,7 +1203,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-260"
@@ -1322,7 +1217,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreDetailsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1330,7 +1224,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1339,7 +1232,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreDetailsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1347,7 +1239,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1362,10 +1253,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1387,7 +1276,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1402,10 +1290,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1426,7 +1312,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1441,10 +1326,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1466,7 +1349,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1475,7 +1357,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1484,7 +1365,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
@@ -1501,7 +1381,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"AddToCartExplanation"
 		
 		"force_close"	"1"
@@ -1516,7 +1395,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StorePreviewToggleExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1524,7 +1402,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1533,7 +1410,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StorePreviewToggleExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1541,7 +1417,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1556,10 +1431,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1581,7 +1454,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1596,10 +1468,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1620,7 +1490,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1635,10 +1504,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1660,7 +1527,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1669,7 +1535,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1678,7 +1543,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
@@ -1695,7 +1559,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-260"
@@ -1710,7 +1573,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreAddToCartExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1718,7 +1580,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1727,7 +1588,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreAddToCartExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1735,7 +1595,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1750,10 +1609,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1775,7 +1632,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1790,10 +1646,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1814,7 +1668,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1829,10 +1682,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1854,7 +1705,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1863,7 +1713,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1872,7 +1721,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}	
@@ -1889,7 +1737,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1904,7 +1751,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreCartStatusExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1912,7 +1758,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1921,7 +1766,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreCartStatusExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1929,7 +1773,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1944,10 +1787,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1969,7 +1810,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1984,10 +1824,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -2008,7 +1846,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -2023,10 +1860,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -2048,7 +1883,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -2057,7 +1891,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2066,7 +1899,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
@@ -2083,7 +1915,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"HelpExplanation"
 		
 		"force_close"	"1"
@@ -2098,7 +1929,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreCheckoutExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -2106,7 +1936,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -2115,7 +1944,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreCheckoutExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -2123,7 +1951,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -2138,10 +1965,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -2163,7 +1988,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -2178,10 +2002,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -2202,7 +2024,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -2217,10 +2038,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -2242,7 +2061,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -2251,7 +2069,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2260,7 +2077,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}
@@ -2277,7 +2093,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -2291,7 +2106,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#StoreHelpExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -2299,7 +2113,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -2308,7 +2121,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#StoreHelpExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -2316,7 +2128,6 @@
 			"wide"			"260"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -2331,10 +2142,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -2356,7 +2165,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -2371,10 +2179,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -2395,7 +2201,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -2405,7 +2210,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2414,7 +2218,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}

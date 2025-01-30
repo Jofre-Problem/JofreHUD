@@ -10,8 +10,6 @@
 		"wide"			"280"
 		"tall"			"29"
 		"visible"		"0"
-		"enabled"		"1"	
-		
 		"PaintBackgroundType"	"2"
 	}
 	
@@ -26,7 +24,6 @@
 		"tall"			"10"
 		"zpos"			"4"
 		"textinsetx"	"5"
-		"font"			"AchievementTracker_Name"
 		"textAlignment"		"north-west"
 	}
 	"AchievementNameGlow"
@@ -40,7 +37,6 @@
 		"tall"			"10"
 		"zpos"			"4"
 		"fgcolor_override"		"235 226 202 255"
-		"font"			"AchievementTracker_NameGlow"
 		"textinsetx"	"5"
 		"textAlignment"		"north-west"
 	}
@@ -57,7 +53,6 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"fgcolor_override"		"235 226 202 255"
-		"font"			"AchievementTracker_Desc"
 		"wrap"			"1"
 		"TextAlignment"		"north-west"
 	}
@@ -72,7 +67,6 @@
 		"tall"		"6"
 		"fillcolor"	 "250 234 201 51"
 		"zpos"			"4"
-		"enabled"		"1"
 	}
 	
 	"ProgressBar" // current completed
@@ -85,6 +79,5 @@
 		"tall"			"6"
 		"fillcolor"		"251 235 202 255"
 		"zpos"			"5"
-		"enabled"		"1"
 	}
 }

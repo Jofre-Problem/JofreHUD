@@ -11,7 +11,6 @@
 		"tall"			"250"
 		"tileImage"		"0"
 		"scaleImage"	"1"
-		"border"		"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
@@ -39,10 +38,8 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"goprev"
@@ -58,10 +55,8 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"gonext"
@@ -71,7 +66,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GameModeLabel"
-		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -80,7 +74,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
 	
@@ -88,7 +81,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"xpos"			"70"
@@ -98,7 +90,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
@@ -107,7 +98,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%description%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -116,7 +106,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"83 75 66 255"
 	}
 	
@@ -129,10 +118,8 @@
 		"wide"				"130"
 		"tall"				"30"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"labelText"			"#TF_Select"
-		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"selectcurrentgamemode"

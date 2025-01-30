@@ -12,7 +12,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TextLabel"
-				"font"			"HudFontSmallestBold"
 				"labelText"		"#TF_SurveyQuestion_CompInquiry"
 				"textAlignment"	"north"
 				"xpos"			"cs-0.5"
@@ -22,7 +21,6 @@
 				"tall"			"30"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				"centerwrap"	"1"
 				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"
@@ -50,7 +48,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"PaintBackgroundType"	"2"
-					"border"		"InnerShadowBorder"
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"	"0"
 				}
@@ -83,7 +80,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer0"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 
 					"associate"		"Radio0"
@@ -117,7 +113,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer1"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -149,7 +144,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer2"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 					"default"		"1"
 				}
@@ -182,7 +176,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer3"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -214,7 +207,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer4"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 
@@ -246,7 +238,6 @@
 					"proportionaltoparent"	"1"
 					
 					"labelText"		"#TF_SurveyQuestion_CompInquiry_Answer5"
-					"font"			"HudFontSmallest"
 					"textAlignment"	"left"
 				}
 			}
@@ -261,7 +252,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#AbuseReport_Submit"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"submit"
 				"proportionaltoparent"	"1"

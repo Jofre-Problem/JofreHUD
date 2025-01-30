@@ -6,7 +6,6 @@
 	{
 		"fieldName"				"CollectionCraftingPanel"
 		"visible"				"0"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"zpos"					"101"
@@ -138,7 +137,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SaxtonQuote"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"p0.66"
 				"ypos"			"p0.1"
@@ -146,13 +144,11 @@
 				"wide"			"150"
 				"tall"			"50"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_TitleJoke0"
 				"wrap"			"1"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"0 0 0 255"
 			}
 
@@ -160,7 +156,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SaxtonMessage"
-				"font"			"TradeUp_Quote"
 				"textAlignment"	"north-west"
 				"xpos"			"p0.63"
 				"ypos"			"p0.35"
@@ -168,12 +163,10 @@
 				"wide"			"250"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_SaxtonMessage"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"0 0 0 255"
 			}
 
@@ -181,7 +174,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Instructions"
-				"font"			"TradeUp_Text"
 				"textAlignment"	"north-west"
 				"xpos"			"28"
 				"ypos"			"p0.73"
@@ -189,12 +181,10 @@
 				"wide"			"p0.56"
 				"tall"			"300"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_Instructions"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"RedSolid"
 				"wrap"			"1"
 			}
@@ -210,10 +200,8 @@
 				"tall"			"p0.085"
 				//	"0"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		"#TF_CollectionCrafting_Submit"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"doneselectingitems"

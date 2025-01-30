@@ -9,7 +9,6 @@
 		"wide"		"640"
 		"tall"		"480"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 
@@ -22,7 +21,6 @@
 		"wide"		"620"
 		"tall"		"405"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		
 		"class_list"
@@ -34,7 +32,6 @@
 			"wide"		"620"
 			"tall"		"405"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"paintbackground"	"1"
 		}

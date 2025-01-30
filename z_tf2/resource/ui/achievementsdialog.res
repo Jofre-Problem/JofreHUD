@@ -12,7 +12,6 @@
 		"wide"		"630"
 		"tall"		"444"
 		//					"0"
-		"enabled"					"1"
 		//				"0"
 		"settitlebarvisible"		"1"
 		"title"						"#GameUI_Achievements_Title"
@@ -28,10 +27,8 @@
 		"wide"		"70"
 		"tall"		"24"
 		//		"3"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Back"
-		"textAlignment"		"west"
 		"Command"		"Close"
 	}
 
@@ -44,10 +41,8 @@
 		"wide"		"200"
 		"tall"		"24"
 		//		"3"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ConfirmResetAchievements_Title"
-		"textAlignment"		"west"
 		"Command"		"ResetAchievements"
 	}
 	
@@ -61,7 +56,6 @@
 		"tall"		"268"
 		"autoResize"		"3"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 	}
 	
@@ -75,7 +69,6 @@
 		"tall"		"268"
 		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
-		"enabled"		"1"
 		//		"0"
 		"autoResize"		"3"
 	}
@@ -91,7 +84,6 @@
 		"fillcolor"	"60 56 53 255"
 		"zpos"	"-2"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"PercentageBar" //dark grey current completed
@@ -105,7 +97,6 @@
 		"fillcolor"	"156 82 33 255"
 		"zpos"	"-1"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"PercentageText" //Percent Text inside the percentage field
@@ -118,12 +109,10 @@
 		"tall"		"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
 		"fillcolor"	"255 255 255 255"
-		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
 	
 	"achievement_pack_combo"
@@ -134,7 +123,6 @@
 		"ypos"			"102"
 		"wide"			"225"
 		"tall"			"24"
-		"enabled"		"1"
 		"editable"		"0"
 	}
 	
@@ -148,7 +136,6 @@
 		"tall"		"50"
 		"fillcolor"	"32 32 32 255"
 		"zpos"	"-3"
-		"enabled"		"1"
 	}
 	
 	"AchievementsEarnedLabel" 
@@ -160,12 +147,9 @@
 		"wide"		"200"
 		"tall"		"20"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievements_Earned"
-		"textAlignment"		"west"
 		"fillcolor"	"255 255 255 255"
-		"font"		"AchievementItemDescription"	//"defaultlarg"
 	}
 	
 	"HideAchieved"
@@ -177,10 +161,7 @@
 		"wide"		"150"
 		"tall"		"24"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Achievement_Hide_Achieved"
-		"textAlignment"		"west"
-		"font"			"AchievementItemDescription"
 	}
 }

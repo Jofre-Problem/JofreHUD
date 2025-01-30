@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -61,8 +59,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
 			"model_wide"	"71"
@@ -90,7 +86,6 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -100,8 +95,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
-			
 			"use_item_sounds" "1"
 		}
 		
@@ -117,8 +110,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -141,7 +132,6 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -151,7 +141,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
 			"use_item_sounds" "1"		
 		}
 	}
@@ -179,14 +168,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -203,8 +190,6 @@
 		"zpos"			"-1"
 		"wide"			"300"
 		"tall"			"300"
-		"enabled"		"1"
-	
 		"MannCoImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -215,7 +200,6 @@
 			"wide"			"420"
 			"tall"			"220"
 			"visible"		"0"
-			"enabled"		"1"
 			"image"			"store/saxton_welcome"
 			"scaleImage"	"1"
 		}
@@ -230,7 +214,6 @@
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
 		"proportiontoparent"	"1"
 
 		"StoreBackgroundImage"
@@ -260,10 +243,8 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"
@@ -279,8 +260,6 @@
 		"wide"				"430"
 		"tall"				"30"
 		//			"0"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -293,11 +272,9 @@
 			"tall"				"30"
 			"textinsety"		"-5"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"textAlignment"		"center"
 			"scaleImage"		"1"
-			"font"			"HudFontSmallestBold"
 			
 			"fgcolor"	"124 114 99 255"
 			"defaultBgColor_override" "38 35 33 255"
@@ -311,7 +288,6 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"border"				"ButtonBorder"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -329,10 +305,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
 	}		
@@ -341,7 +315,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c160"
@@ -351,7 +324,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -366,10 +338,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
 	}	
@@ -378,9 +348,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
-		"textAlignment"	"west"
 		"xpos"			"c-237"
 		"ypos"			"283"
 		"zpos"			"10"
@@ -388,14 +356,12 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"CartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CartButton"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-238"
@@ -403,12 +369,10 @@
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
-		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"textinsetx"	"15"
 		
 		"Command"		"viewcart"
-		"font"			"HudFontSmallBold"
 	}
 	
 	"CartImage"
@@ -420,7 +384,6 @@
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
-		"enabled"		"1"
 		"image"			"store_cart"
 		"scaleImage"	"1"
 	}
@@ -436,10 +399,8 @@
 		"tall"			"23"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_BrowseTheStore"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"startshopping"
@@ -455,10 +416,8 @@
 		"wide"			"170"
 		"tall"			"23"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_MarketPlace"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"marketplace"
@@ -470,9 +429,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		""
-		"textAlignment"	"west"
 		"xpos"			"c-45"
 		"ypos"			"c-230"
 		"zpos"			"100"
@@ -481,7 +438,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 
 	"HomePageLabelContainer"
@@ -500,9 +456,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CaseLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#Store_Case_Label"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -511,16 +465,13 @@
 			"autoresize"	"1"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 		}
 
 		"KeyLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KeyLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#Store_Key_Label"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"70"
 			"zpos"			"0"
@@ -529,16 +480,13 @@
 			"autoresize"	"1"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 		}
 
 		"TauntLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CaseLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#Store_Taunt_Label"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"140"
 			"zpos"			"0"
@@ -547,7 +495,6 @@
 			"autoresize"	"1"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 		}
 	}
 }

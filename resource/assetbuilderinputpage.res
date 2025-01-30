@@ -10,16 +10,12 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 			
 		"PropertiesSplitter"
 		{
 			"ControlName"	"Splitter"
 			"fieldName"		"PropertiesSplitter"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"0"
 			//	"3"
 			//"PinnedCornerOffsetX" "0"
@@ -42,8 +38,6 @@
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}
@@ -60,11 +54,8 @@
 					"tall"			"24"
 					//	"0"
 					//		"0"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"labelText"		"Compile Options"
-					"textAlignment"	"west"
 					//		"1"
 					
 				}
@@ -81,8 +72,6 @@
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 				}
 			}

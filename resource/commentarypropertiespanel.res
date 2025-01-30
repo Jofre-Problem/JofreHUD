@@ -10,8 +10,6 @@
 		"tall"		"418"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 	"CommentaryNodeScroll"
@@ -27,7 +25,6 @@
 		//"PinnedCornerOffsetY" "0"
 		//"UnpinnedCornerOffsetY" "0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"InfoTargetScroll"
@@ -43,7 +40,6 @@
 		//		"3"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 }

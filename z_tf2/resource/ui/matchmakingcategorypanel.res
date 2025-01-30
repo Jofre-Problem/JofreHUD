@@ -23,7 +23,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"p1.17"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
 		"BGColor"
@@ -35,7 +34,6 @@
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"enabled"		"1"
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
@@ -51,7 +49,6 @@
 			"zpos"			"0"
 			"wide"			"o4"
 			"tall"			"f0"
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
 		}
@@ -70,8 +67,6 @@
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
 			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
 			"textinsetx"	"40"
 
 			"stay_armed_on_click"	"1"
@@ -97,7 +92,6 @@
 				"zpos"			"1"
 				"wide"			"o1"
 				"tall"			"p.9"
-				"enabled"		"1"
 				"scaleImage"	"1"
 
 				"proportionaltoparent"	"1"
@@ -144,11 +138,9 @@
 			"zpos"			"3"
 			"wide"			"200"
 			"tall"			"15"
-			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
 			"default"		"1"
 			"proportionaltoparent" "1"
@@ -166,11 +158,9 @@
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"15"
-			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"east"
 			"default"		"1"
 			"proportionaltoparent" "1"
@@ -183,7 +173,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"MMenuPlayListDesc"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-5"
@@ -193,8 +182,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
-
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent" "1"
@@ -205,7 +192,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabelShadow"
-			"font"			"MMenuPlayListDesc"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
 			"xpos"			"rs1-4"
@@ -215,8 +201,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
-
 			"wrap"			"1"
 			"fgcolor_override" "Black"
 			"proportionaltoparent" "1"
@@ -234,7 +218,6 @@
 		"wide"			"p1.5"
 		"tall"			"1000"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -248,10 +231,8 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
 
 		//		"2"
 		//	"1"

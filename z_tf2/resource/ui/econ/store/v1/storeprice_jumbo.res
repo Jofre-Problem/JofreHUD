@@ -9,14 +9,12 @@
 		"zpos"			"15"
 		"wide"			"181"
 		"tall"			"100"
-		"enabled"		"1"
 	}
 
 	"Price"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Price"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"88"
@@ -26,7 +24,6 @@
 		"textinsetx"	"4"
 		//	"1"
 		//		"0"	
-		"enabled"		"1"
 		"labelText"		"%price%"
 	}
 
@@ -34,7 +31,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OG_Price"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"76"
@@ -44,7 +40,6 @@
 		"textinsetx"	"4"
 		//	"1"
 		//		"0"	
-		"enabled"		"1"
 		"labelText"		"%og_price%"
 		"fgcolor"		"117 107 94 255"
 	}
@@ -59,7 +54,6 @@
 		"wide"			"181"
 		"tall"			"5"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}
@@ -68,8 +62,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Discount"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"88"
 		"zpos"			"15"
@@ -78,10 +70,8 @@
 		"textinsetx"	"8"
 		//	"1"
 		//		"0"	
-		"enabled"		"1"
 		"labelText"		"%discount%"
 		"paintbackground"	"0"
-		"border"		"StoreDiscountBorder"
 	}
 
 	"LimitedLarge"
@@ -94,7 +84,6 @@
 		"wide"			"48"
 		"tall"			"48"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../backpack/crafting/limited_time_sticker"
 		"scaleImage"	"1"
 	}

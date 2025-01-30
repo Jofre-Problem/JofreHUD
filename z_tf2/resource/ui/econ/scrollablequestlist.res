@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 
 		"ItemAd"
@@ -22,7 +21,6 @@
 			"wide"					"p0.9"
 			"tall"					"60"
 			"visible"				"0"
-			"enabled"				"1"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 
@@ -47,7 +45,6 @@
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"f0"
-			"enabled"		"1"
 			"textAlignment"	"east"
 			"labelText"			""
 
@@ -67,7 +64,6 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"o1"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"contracts\contracts_base1"
 		"proportionaltoparent"	"1"
@@ -80,7 +76,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EmptyLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%noquests%"
 		"xpos"			"cs-0.5"
 		"ypos"			"p0.5"
@@ -90,7 +85,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"

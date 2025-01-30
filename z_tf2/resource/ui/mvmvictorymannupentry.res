@@ -25,7 +25,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"skip_autoresize" "1"
 			
 			"model_xpos"	"2"
@@ -103,7 +102,6 @@
 				"wide"			"35"
 				"tall"			"35"
 				"image"			"../backpack/crafting/mvm_squad_surplus_ripped"
-				"enabled"		"1"
 				"scaleImage"		"1"
 				"proportionalToParent"	"1"
 			}
@@ -136,7 +134,6 @@
 				"wide"			"35"
 				"tall"			"35"
 				"image"			"../backpack/crafting/mvm_ticket_ripped"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionalToParent"	"1"
 			}
@@ -151,9 +148,7 @@
 			"wide"		"427"
 			"tall"		"225"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
-			"PaintBackgroundType"	"0"
 			"bgcolor_override"		"blank"
 		}
 
@@ -285,7 +280,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%level%"
 			"textAlignment" "center"
 			"xpos"			"-1"
@@ -301,7 +295,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabelDropShadow"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%level%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -317,7 +310,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TourProgressLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_MVM_Victory_TourProgress"
 			"textAlignment" "south-west"
 			"xpos"			"0"
@@ -371,7 +363,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MissingVoucher"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_PVE_Server_SquadVoucherMissing"
 		"textAlignment" "center"
 		"xpos"			"320"
@@ -403,7 +394,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MannUpLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_MVM_Victory_MannUpLoot"
 		"textAlignment" "south-west"
 		"xpos"			"-2"
@@ -423,7 +413,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SquadSurplusLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_MVM_Victory_SquadSurplus"
 		"textAlignment" "south-west"
 		"xpos"			"10"
@@ -443,7 +432,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TourOfDutyLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_MvM_TourLootTitle"
 		"textAlignment" "south-west"
 		"xpos"			"18"
@@ -463,7 +451,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VeteranBonusLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_MVM_Victory_VeteranBonus"
 		"textAlignment" "south-west"
 		"xpos"			"0"
@@ -478,7 +465,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"HudFontMediumSmall"
 		"labelText"		"%name%"
 		"textAlignment" "south"
 		"xpos"			"-10"
@@ -505,9 +491,6 @@
 		"wide"			"300"
 		"tall"			"280"
 		//		"0"
-		"enabled"		"1"
-
-			
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"0"

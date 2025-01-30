@@ -9,8 +9,6 @@
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 				
 		"PassedIcon"
 		{
@@ -20,7 +18,6 @@
 			"ypos"			"10"
 			"wide"			"17"
 			"tall"			"17"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"hud/vote_yes"
 		}
@@ -33,10 +30,7 @@
 			"ypos"			"10"
 			"wide"			"98"
 			"tall"			"17"
-			"enabled"		"1"
 			"labelText"		"#GameUI_vote_passed"
-			"textAlignment"	"west"
-			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}
@@ -49,10 +43,8 @@
 			"ypos"			"29"
 			"wide"			"130"
 			"tall"			"40"
-			"enabled"		"1"
 			"labelText"		"%passedresult%"
 			"textAlignment"	"north-west"
-			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -68,8 +60,6 @@
 		"wide"			"150"
 		"tall"			"144"
 		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 		
 		"Header"
 		{
@@ -79,10 +69,8 @@
 			"ypos"			"5"
 			"wide"			"130"
 			"tall"			"20"
-			"enabled"		"1"
 			"labelText"		"%header%"
 			"textAlignment"		"north-west"
-			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -95,10 +83,8 @@
 			"ypos"			"22"
 			"wide"			"120"
 			"tall"			"40"
-			"enabled"		"1"
 			"labelText"		"%voteissue%"
 			"textAlignment"	"north-west"
-			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
@@ -113,7 +99,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"visible"		"0"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -143,10 +128,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -171,10 +154,8 @@
 			"wide"			"16"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		"Yes"
 			"textAlignment"	"center"
-			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -187,10 +168,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -215,10 +194,8 @@
 			"wide"			"16"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		"No"
 			"textAlignment"	"center"
-			"font"			"ScoreboardSmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -231,10 +208,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -260,10 +235,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -289,10 +262,8 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"2"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"left"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -330,10 +301,8 @@
 			"ypos"			"100"
 			"wide"			"140"
 			"tall"			"20"
-			"enabled"		"1"
 			"labelText"		"#GameUI_vote_current_vote_count"
 			"textAlignment"	"north-west"
-			"font"			"ScoreboardVerySmall"
 			"fgcolor_override"	"128 128 128 255"
 		}
 		
@@ -347,7 +316,6 @@
 			"wide"			"130"
 			"tall"			"18"
 			"zpos"			"2"
-			"enabled"		"1"			
 			"box_size"		"16"
 			"spacer"		"6"
 			"box_inset"		"1"
@@ -366,8 +334,6 @@
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -377,7 +343,6 @@
 			"ypos"			"10"
 			"wide"			"17"
 			"tall"			"17"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
@@ -390,10 +355,7 @@
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"17"
-			"enabled"		"1"
 			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -406,10 +368,8 @@
 			"ypos"			"29"
 			"wide"			"140"
 			"tall"			"40"
-			"enabled"		"1"
 			"labelText"		"%FailedReason%"
 			"textAlignment"	"north-west"
-			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -425,8 +385,6 @@
 		"wide"			"150"
 		"tall"			"67"
 		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 				
 		"FailedIcon"
 		{
@@ -436,7 +394,6 @@
 			"ypos"			"10"
 			"wide"			"17"
 			"tall"			"17"
-			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"hud/vote_no"
 		}
@@ -449,10 +406,7 @@
 			"ypos"			"10"
 			"wide"			"98"
 			"tall"			"17"
-			"enabled"		"1"
 			"labelText"		"#GameUI_vote_failed"
-			"textAlignment"	"west"
-			"font"			"ScoreboardSmall"
 			"wrap"			"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -465,10 +419,8 @@
 			"ypos"			"29"
 			"wide"			"130"
 			"tall"			"40"
-			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"north-west"
-			"font"			"ScoreboardVerySmall"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -483,10 +435,8 @@
 		"wide"				"400"
 		"tall"				"310"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"border"			"TFFatLineBorderOpaque"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackground"	"0"
 
@@ -504,7 +454,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Vote_Title"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -512,7 +461,6 @@
 			"wide"			"400"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 		}
 									
 		"VoteSetupList"
@@ -525,7 +473,6 @@
 			"wide"		"180"
 			"tall"		"200"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"linespacing"	"16"
 		}
@@ -540,7 +487,6 @@
 			"wide"		"200"
 			"tall"		"200"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"linespacing"	"16"
 		}
@@ -549,7 +495,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -559,20 +504,17 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}
 		"ComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
 			"wide"				"235"
 			"tall"				"20"
 			//			"0"
-			"enabled"			"1"
 			//		"1"
 			"editable"			"0"
 			"maxchars"			"-1"
@@ -598,7 +540,6 @@
 			"labelText"		"#TF_call_vote"
 			"textAlignment"	"center"
 			"Command"		"CallVote"
-			"font"			"HudFontSmallBold"
 		}
 		"Button1"
 		{
@@ -609,12 +550,10 @@
 			"wide"		"80"
 			"tall"		"24"
 			//		"3"
-			"enabled"		"1"
 			//	"4"
 			"labelText"		"#GameUI_Close"
 			"textAlignment"	"center"
 			"Command"		"Close"
-			"font"			"HudFontSmallBold"
 		}
 	}
 }

@@ -333,12 +333,6 @@ rule CitizenGiveAmmo
 response "CitizenDanger" 
 {
 	permitrepeats
-	scene "scenes/npc/$gender01/watchout.vcd" weight 1
-	scene "scenes/npc/$gender01/uhoh.vcd" weight 1.1
-	scene "scenes/npc/$gender01/lookoutfm01.vcd" weight .9
-	scene "scenes/npc/$gender01/startle01.vcd" weight 1.1
-	scene "scenes/npc/$gender01/startle02.vcd" weight 1.1
-	scene "scenes/npc/$gender01/getdown02.vcd" weight 1
 }
 
 rule CitizenDanger
@@ -352,7 +346,6 @@ response CitizenDangerBig
 	permitrepeats
 	scene "scenes/npc/$gender01/strider_run.vcd"
 	scene "scenes/npc/$gender01/gethellout.vcd"
-	response CitizenDanger weight 12 // 6 * 2
 }
 
 rule CitizenDangerBig
@@ -453,7 +446,6 @@ response CitizenOuch
    permitrepeats
 	scene "scenes/npc/$gender01/ow01.vcd"
 	scene "scenes/npc/$gender01/ow02.vcd"
-	speak npc_citizen.die weight 9   // there are nine waves in there
 }
 
 //------------------------------------------------------------------------------------------------------------
@@ -500,7 +492,6 @@ response "CitizenShotArm"
    permitrepeats
 	scene "scenes/npc/$gender01/myarm01.vcd"
 	scene "scenes/npc/$gender01/myarm02.vcd" 
-	response CitizenOuch weight 8
 }
 
 rule CitizenShotArm
@@ -514,7 +505,6 @@ response "CitizenShotLeg"
    permitrepeats
 	scene "scenes/npc/$gender01/myleg01.vcd"
 	scene "scenes/npc/$gender01/myleg02.vcd"
-	response  CitizenOuch weight 8
 }
 
 
@@ -531,7 +521,6 @@ response "CitizenShotGut"
 	scene "scenes/npc/$gender01/mygut02.vcd"
 	scene "scenes/npc/$gender01/hitingut01.vcd"
 	scene "scenes/npc/$gender01/hitingut02.vcd"
-	response  CitizenOuch weight 16
 }
 
 rule CitizenShotGut

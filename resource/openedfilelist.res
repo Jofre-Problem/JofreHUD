@@ -10,11 +10,7 @@
 		"tall"			"380"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"Select"
 		
 		"OkButton"
 		{
@@ -26,14 +22,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"1"
 			"labelText"		"Ok"
-			"textAlignment"		"center"
 			////		"0"
 			////		"0"
-			"Default"		"1"
 		}
 
 		"Browser"
@@ -48,8 +40,6 @@
 			//		"0"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-34"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 	}

@@ -20,7 +20,6 @@
 		"zpos"			"0"
 		"wide"			"84"
 		"tall"			"42"
-		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -36,7 +35,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
 		"iconColor"		"ProgressOffWhite"
@@ -53,10 +51,8 @@
 		"tall"			"26"
 		//	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"font"			"HudFontMediumSmall"
 	}
 }

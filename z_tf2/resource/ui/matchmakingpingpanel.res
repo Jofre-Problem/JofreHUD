@@ -26,7 +26,6 @@
 		"wide"			"f0"
 		"tall"			"f-50"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 	}
 
@@ -41,8 +40,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
-		"textAlignment"	"west"
-		"font"			"HudFontMediumBold"
 		"fgcolor_override"	"TanDark"
 		
 		"mouseinputenabled"	"0"
@@ -59,8 +56,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_InviteMode"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 		"fgcolor_override"	"TanDark"
 
@@ -76,8 +71,6 @@
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"15"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"keyboardinputenabled"	"0"
 
 		"editable"		"0"
@@ -101,8 +94,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_IgnoreInvites"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
 		"button_activation_type"	"1"
@@ -121,8 +112,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
 	}
@@ -138,8 +127,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_PartySameTeam"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
 		"button_activation_type"	"1"
@@ -157,8 +144,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
 		"smallcheckimage"	"1"
 		"actionsignallevel"	"1"
 
@@ -180,8 +165,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingButton"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		"smallcheckimage"	"1"
 
 		"button_activation_type"	"1"
@@ -199,7 +182,6 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
 		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
 
@@ -217,8 +199,6 @@
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
-		"textAlignment"	"west"
-		"font"			"HudFontSmallestBold"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -235,7 +215,6 @@
 		//"RoundedCorners"		"15"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"0"
-		"enabled"		"1"
 		//		"0"
 		"proportionaltoparent"	"1"
 
@@ -253,7 +232,6 @@
 		"wide"			"f37"
 		"tall"			"f220"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"proportionaltoparent"	"1"
 
@@ -312,7 +290,6 @@
 			"tall"			"f0"
 			"zpos"			"5"
 			"proportionaltoparent"	"1"
-			"border"		"InnerShadowBorder"
 			"mouseinputenabled"	"0"
 		}
 			
@@ -325,11 +302,9 @@
 			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"ReplayDefaultBorder"
 		}
 	}
 }

@@ -10,7 +10,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 	}
 
@@ -54,7 +53,6 @@
 		//		"0"
 		"visible"		"0"
 		"labelText"		""
-		"textAlignment"	"west"
 		"brighttext"	"1"
 	}
 	"teambutton2"
@@ -68,15 +66,11 @@
 		"tall"			"310"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		//	"1"
 		"labelText"		"&1"	[$WIN32]
-		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -91,15 +85,11 @@
 		"tall"			"57"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"&2"	[$WIN32]
-		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -115,12 +105,10 @@
 		//	"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
 	}
 		
 	"TeamMenuAuto"
@@ -128,18 +116,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
 		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
 		"tall"			"24"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
 	
@@ -154,39 +138,12 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"font"			"MenuSmallestFont"
 		"fgcolor"		"white"
 	}
 
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arena01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
-	}	
+
 
 
 	
@@ -201,10 +158,8 @@
 		"tall"			"50"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
 	}		
 		
 	"autodoor"
@@ -218,7 +173,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -264,7 +218,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -298,41 +251,5 @@
 			}
 		}
 	}			
-	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"center"			"0"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}	
 }
 

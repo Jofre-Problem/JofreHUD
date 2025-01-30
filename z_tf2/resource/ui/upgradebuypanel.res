@@ -9,7 +9,6 @@
 		"wide"			"155"
 		"tall"			"45"		
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		
 		"upgradebutton_xpos"	"37"
@@ -20,7 +19,6 @@
 			"wide"			"16"
 			"tall"			"16"
 			"textAlignment"	"center"
-			"font"			"HudFontSmallest"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
 			
@@ -46,8 +44,6 @@
 		"wide"			"155"
 		"tall"			"45"
 		//		"0"
-		"enabled"		"1"
-		
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"97 94 85 255"
 	}
@@ -62,8 +58,6 @@
 		"wide"			"30"
 		"tall"			"30"
 		//		"0"
-		"enabled"		"1"
-		
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"235 226 202 255"
 	}
@@ -95,12 +89,10 @@
 		"tall"			"13"
 		"zpos"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
 	}
 	
 	"ShortDescriptionLabel"
@@ -113,13 +105,11 @@
 		"tall"			"22"
 		"zpos"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"wrap"			"1"
 		
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"font"			"HudFontSmallest"
 	}
 	
 	"BuySellBG"
@@ -132,8 +122,6 @@
 		"wide"			"20"
 		"tall"			"45"
 		//		"0"
-		"enabled"		"1"
-		
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"117 114 103 255"
 	}

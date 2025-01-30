@@ -61,7 +61,6 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		Frame.TitleTextInsetX			12
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 		Frame.BgColor					"160 160 160 128"
@@ -205,7 +204,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"32"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -215,7 +213,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"32"
-				"weight"	"900"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -226,7 +223,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -236,7 +232,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"18"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -247,7 +242,6 @@ Scheme
 			{
 				"name"		"Impact"
 				"tall"		"48"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -259,7 +253,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}

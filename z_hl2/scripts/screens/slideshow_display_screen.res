@@ -13,7 +13,6 @@
 		"tall"			"128"
 		//	"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"scaleImage"	"0"
 		"fillcolor"		"255 255 255 255"
 	}
@@ -31,8 +30,6 @@
 		"tall"				"128"
 		//		"0"
 		//			"0"
-		"visible"			"1"
-		"enabled"			"1"
 		//		"0"		
 		"textAlignment"		"center"
 		"paintBackground" 	"0"
@@ -50,8 +47,6 @@
 		"zpos"			"-1"
 		"wide"			"256"
 		"tall"			"128"
-
-		"visible"		"1"
 		"material"		"vgui/screens/vgui_overlay"
 	}
 }

@@ -9,10 +9,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
@@ -40,7 +38,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
 	"BackgroundFooter"
@@ -52,7 +49,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
 	"FooterLine"
@@ -64,7 +60,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -88,7 +83,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -96,7 +90,6 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -117,10 +110,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"options"
 
@@ -135,7 +126,6 @@
 			"zpos"			"1"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
 		}
@@ -151,9 +141,7 @@
 		"wide"			"180"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"back"
 
@@ -172,7 +160,6 @@
 		"wide"			"190"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 
 	"MatchmakingBanPanel"
@@ -185,7 +172,6 @@
 		"wide"			"220"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"mouseinputenabled"	"0"
 		"bgcolor_override"	"Black"
 
@@ -193,7 +179,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MatchmakingBanDurationLabel"
-			"font"			"HudFontSmallest"
 			"fgcolor_override"	"RedSolid"
 			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"	"center"
@@ -202,7 +187,6 @@
 			"zpos"			"2"
 			"wide"			"200"
 			"tall"			"40"
-			"enabled"		"1"
 			"autoResize"	"1"
 			//		"0"
 		}
@@ -219,9 +203,7 @@
 		"wide"			"180"
 		"tall"			"25"
 		////		"3"
-		"enabled"		"1"
 		//	"0"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"next"
 
@@ -241,10 +223,8 @@
 		"wide"			"180"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Matchmaking_StartParty"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"start_party"

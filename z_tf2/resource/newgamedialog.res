@@ -1,4 +1,4 @@
-"Resource/NewGameDialog.res"	[$WIN32]
+"Resource/NewGameDialog.res"
 {
 	"NewGameDialog"
 	{
@@ -10,7 +10,6 @@
 		"tall"		"318"	
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"1"	
 		"title"		"#GameUI_NewGame"
@@ -25,10 +24,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Next"
-		"textAlignment"		"west"
 		"Command"		"next"
 	}
 	"Prev" 
@@ -42,10 +39,8 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Prev"
-		"textAlignment"		"west"
 		"Command"		"Prev"
 	}
 	"Play" 
@@ -58,10 +53,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_Start"
-		"textAlignment"		"west"
 		"Command"		"Play"
 		"Default"		"1"
 	}
@@ -75,10 +68,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
 		"Command"		"Close"
 	}
 	"divider"	
@@ -91,7 +82,6 @@
 		"tall"		"2"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"Div"	
@@ -104,129 +94,6 @@
 		"tall"		"2"		
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-	}
-}
-
-"Resource/NewGameDialog.res"	[$X360]
-{
-	"NewGameDialog"
-	{
-		"ControlName"		"CNewGameDialog"
-		"fieldName"		"NewGameDialog"
-		"xpos"		"180"	
-		"ypos"		"280"	
-		"wide"		"775"	
-		"tall"		"280"	
-		"chapterypos"		"90"	
-		"scrollslow"		"0.2"	
-		"scrollfast"		"0.1"	
-		"centerbgtall"		"190"	
-		//		"0"
-		//		"0"
-		"enabled"		"1"
-		//		"0"
-		"settitlebarvisible"		"0"
-		"title"		"#GameUI_NewGame"
-		"paintbackground"	"1"
-	}
-	"LeftArrow" 
-	{
-		"ControlName" 		"Label"
-		"fieldName"		"LeftArrow"
-		"xpos" 		"15"
-		"ypos"		"150"
-		"wide"		"32"
-		"tall"		"32"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"labelText"		"#GameUI_Icons_LEFTCURSOR"
-		"textAlignment"	"center"
-		"font"			"GameUIButtons"
-	}
-	"RightArrow"
-	{
-		"ControlName" 		"Label"
-		"fieldName"		"RightArrow"
-		"xpos" 		"730"
-		"ypos"		"150"
-		"wide"		"32"
-		"tall"		"32"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"labelText"		"#GameUI_Icons_RIGHTCURSOR"
-		"textAlignment"	"center"
-		"font"			"GameUIButtons"
-	}
-	"ChapterTitleLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"ChapterTitleLabel"
-		"xpos"		"0"
-		"ypos"		"15"
-		"wide"		"795"
-		"tall"		"40"
-		//		"0"
-		//		"0"
-		"enabled"		"1"
-		"textAlignment"		"center"
-		"font"		"ChapterTitle"
-	}
-	"ChapterTitleLabel2"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"ChapterTitleLabel2"
-		"xpos"		"0"
-		"ypos"		"15"
-		"wide"		"795"
-		"tall"		"40"
-		//		"0"
-		//		"0"
-		"enabled"		"1"
-		"textAlignment"		"center"
-		"font"		"ChapterTitle"
-	}
-	"ControllerMap"
-	{
-		"ControlName"	"CControllerMap"
-		"fieldName"		"ControllerMap"
-
-		"button"
-		{
-			"name"		"KEY_XBUTTON_A"
-			"command"	"play"
-			"text"		"#GameUI_StartNewGame"
-			"icon"		"#GameUI_Icons_UIBUTTONA"
-		}
-		"button"
-		{
-			"name"		"KEY_XBUTTON_B"
-			"command"	"close"
-			"text"		"#GameUI_Close"
-			"icon"		"#GameUI_Icons_UIBUTTONB"
-		}
-		"button"
-		{
-			"name"		"KEY_XSTICK1_RIGHT"
-			"command"	"next"
-		}
-		"button"
-		{
-			"name"		"KEY_XBUTTON_RIGHT"
-			"command"	"next"
-		}
-		"button"
-		{
-			"name"		"KEY_XSTICK1_LEFT"
-			"command"	"prev"
-		}
-		"button"
-		{
-			"name"		"KEY_XBUTTON_LEFT"
-			"command"	"prev"
-		}
 	}
 }

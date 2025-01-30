@@ -3,7 +3,6 @@
 	"SelectPlayerDialog"
 	{
 		"fieldName"				"SelectPlayerDialog"
-		"enabled"				"1"
 		"xpos"					"c-200"
 		"ypos"					"80"
 		"wide"					"400"
@@ -11,7 +10,6 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
 		
 		"button_kv"
 		{
@@ -27,11 +25,8 @@
 				"wide"			"350"
 				"tall"			"30"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		""
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
 				"default"		"1"
@@ -47,7 +42,6 @@
 				"wide"			"20"
 				"tall"			"20"
 				"image"			""
-				"enabled"		"1"
 				"scaleImage"	"1"	
 				"color_outline"	"52 48 45 255"
 			}
@@ -58,7 +52,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%title%"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -67,7 +60,6 @@
 		"wide"			"400"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -98,7 +90,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel0"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"100"
 		"wide"	 				"400"
@@ -109,7 +100,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -118,7 +108,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 
@@ -132,10 +121,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_SelectPlayer_SelectFriends"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"friends"
@@ -150,10 +137,8 @@
 			"wide"			"200"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_SelectPlayer_SelectServer"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"server"
@@ -163,7 +148,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel1"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"100"
 		"wide"	 				"400"
@@ -174,7 +158,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_Friends"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -182,7 +165,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -190,7 +172,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_FriendsNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -199,7 +180,6 @@
 			"wide"			"400"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
@@ -209,7 +189,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"StatePanel2"
-		"enabled" 				"1"
 		"xpos"					"0"
 		"ypos"					"100"
 		"wide"	 				"400"
@@ -220,7 +199,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_Server"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -229,7 +207,6 @@
 			"wide"			"400"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -237,7 +214,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EmptyPlayerListLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_ServerNone"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -246,7 +222,6 @@
 			"wide"			"400"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
@@ -257,7 +232,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%player_class%"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -266,14 +240,12 @@
 		"wide"			"400"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 	}
 
 	"ClassUsageMouseoverLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassUsageMouseoverLabel"
-		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"xpos"			"100"
 		"ypos"			"100"
@@ -283,13 +255,11 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
 	}
 
 	"ClassUsageImage_Any"
@@ -301,7 +271,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -329,7 +298,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -346,10 +314,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"cancel"

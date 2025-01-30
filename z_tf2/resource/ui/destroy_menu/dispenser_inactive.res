@@ -4,7 +4,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Default"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -12,7 +11,6 @@
 		"tall"			"15"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Object_dispenser"
 		"textAlignment"	"Left"
 	}
@@ -26,7 +24,6 @@
 		"zpos"			"0"
 		"wide"			"98"
 		"tall"			"105"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
 		"iconColor"		"ProgressOffWhiteTransparent"
@@ -36,7 +33,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"Default"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -44,7 +40,6 @@
 		"tall"			"18"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_NotBuilt"
 		"textAlignment"	"Center"
 	}	
@@ -53,7 +48,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"Default"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -62,7 +56,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"Center"
 	}		
@@ -76,7 +69,6 @@
 		"zpos"			"0"
 		"wide"			"18"
 		"tall"			"18"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 128"
@@ -86,7 +78,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudMenuNumberFont"
 		"fgcolor"		"Black"
 		"xpos"			"0"
 		"ypos"			"98"
@@ -95,7 +86,6 @@
 		"tall"			"18"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"

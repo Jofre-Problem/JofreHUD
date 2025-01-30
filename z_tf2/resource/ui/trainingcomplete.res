@@ -9,8 +9,6 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"enabled"			"1"
-  
 		"Next" [$WIN32] 
 		{
 			"ControlName"		"CExButton"
@@ -21,12 +19,10 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_NextTraining"
 			"textAlignment"		"center"
 			"command"		"next"
-			"font"			"MenuSmallFont"
 		}
 
 		"Quit" [$WIN32] 
@@ -39,12 +35,10 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#Button_QuitTraining"
 			"textAlignment"		"center"
 			"command"		"quit"
-			"font"			"MenuSmallFont"
 		}	
 		
 		"Replay" [$WIN32] 
@@ -57,11 +51,9 @@
 			"wide"			"150"
 			"tall"			"30"
 			//		"2"
-			"enabled"		"1"
 			"labelText"		"#Button_ReplayTraining"
 			"textAlignment"	"center"
 			"command"		"replay"
-			"font"			"MenuSmallFont"
 			"fgcolor"		"Black"
 		}
 		
@@ -75,10 +67,8 @@
 			"wide"			"f0"
 			"tall"			"50"
 			//		"0"
-			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
-			"PaintBackgroundType"	"0"
 		}	
 
 		"TopBar"
@@ -91,10 +81,8 @@
 			"wide"			"f0"
 			"tall"			"50"
 			//		"0"
-			"enabled"		"1"
 			//	"0"	
 			"fillcolor"		"56 51 44 255"
-			"PaintBackgroundType"	"0"
 		}
 	}
 
@@ -107,7 +95,6 @@
 		"zpos"			"2"
 		"wide"			"128"
 		"tall"			"128"
-		"enabled"		"1"
 		"image"			"../hud/graduation_bomb"
 		"scaleImage"	"1"
 	}
@@ -121,13 +108,10 @@
 		"zpos"		"1"
 		"wide"		"400"
 		"tall"		"480"
-		"enabled"	"1"
-
 		"ResultsLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ResultsLabel"
-		  	"font"			"HudFontMediumSmallBold"
 			"labelText"		"%wintext%"
 			"textAlignment"		"center"
 			"xpos"			"0"
@@ -136,7 +120,6 @@
 			"wide"			"400"
 			"tall"			"20"
 			//		"0"
-			"enabled"		"1"
 		}
 		"ResultsBG"
 		{
@@ -147,7 +130,6 @@
 			"wide"			"400"
 			"tall"			"275"
 			"PaintBackgroundType"	"2"
-			"border"		"TrainingResultsBG"
 		}
 		"ResultsText"
 		{
@@ -160,13 +142,11 @@
 			"tall"			"215"
 			"autoResize"		"3"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"maxchars"		"-1"
 			"text"			""
 			"wrap"			"1"
 			"textAlignment"		"north-west"
-			"font"			"HudFontSmall"
 		}
 	}			
 }

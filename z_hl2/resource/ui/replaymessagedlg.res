@@ -3,14 +3,12 @@
 	"ReplayMessageDlg"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ReplayMessageDlg"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"10"
 		"bgcolor_override"	"0 0 0 240"
 	}
@@ -18,7 +16,6 @@
 	"Dlg"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"Dlg"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -26,8 +23,6 @@
 		"tall"			"160"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"10"
 		"paintborder"	"1"
 		"border"		"EconItemBorder"
@@ -35,14 +30,11 @@
 		"Icon"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"Icon"
 			"xpos"			"13"
 			"ypos"			"8"
 			"zpos"			"1"
 			"wide"			"18"
 			"tall"			"18"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			"replay/replayicon"
 			"scaleImage"	"1"	
 		}		
@@ -50,8 +42,6 @@
 		"Title"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Title"
-			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#Replay_ReplayIntroTitle"
 			"xpos"			"37"
 			"ypos"			"8"
@@ -60,8 +50,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"10"
 			"fgcolor_override" "255 255 255 255"
 		}
@@ -69,8 +57,6 @@
 		"TextLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"textAlignment"	"north"
 			"xpos"			"13"
 			"ypos"			"35"
@@ -79,8 +65,6 @@
 			"tall"			"300"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"fgcolor_override" "255 255 255 255"
 			"wrap"			"1"
 		}
@@ -88,9 +72,7 @@
 		"DontShowAgainCheckButton"
 		{
 			"ControlName"	"CheckButton"
-			"fieldName"		"DontShowAgainCheckButton"
 			"labelText"		"#Replay_NeverShowAgain"
-			"Font"			"DefaultVerySmall"
 			"xpos"			"9"
 			"ypos"			"63"
 			"zpos"			"20"
@@ -99,14 +81,12 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"10"
 		}
 		
 		"OKButton"
 		{
 			"ControlName"	"CExImageButton"
-			"fieldName"		"OKButton"
 			"xpos"			"207"
 			"ypos"			"115"
 			"zpos"			"20"
@@ -114,16 +94,10 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
-			"font"			"ReplayMediumSmall"
 			"textAlignment"	"center"
-			"textinsetx"	"50"
 			"labelText"		"#GameUI_OK"
 			"Command"		"close"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 		}		
 	}
 }

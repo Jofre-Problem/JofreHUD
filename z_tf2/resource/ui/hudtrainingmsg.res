@@ -11,7 +11,6 @@
 		"tall"			"265"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -21,7 +20,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"GoalLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"30"
 		"ypos"			"40"
 		"zpos"			"1"
@@ -29,7 +27,6 @@
 		"tall"			"105"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
@@ -46,7 +43,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/hud_icon_attack"
 		"scaleImage"		"1"
 	}

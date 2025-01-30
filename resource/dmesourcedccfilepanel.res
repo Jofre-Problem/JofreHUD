@@ -12,8 +12,6 @@
 		//		"0"
 		//"PinnedCornerOffsetY" "0"
 		//"UnpinnedCornerOffsetY" "-60"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	}
 
@@ -29,8 +27,6 @@
 		//		"2"
 		//"PinnedCornerOffsetY" "-30"
 		"labelText"		"#AssetBuilder_AddSource"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"2"
 	}
 	
@@ -47,8 +43,6 @@
 		//"PinnedCornerOffsetY" "-30"
 		//"PinnedCornerOffsetX" "0"
 		"labelText"		"#AssetBuilder_RemoveSource"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"3"
 	}
 
@@ -63,8 +57,6 @@
 		//	"0"
 		//		"2"
 		//"PinnedCornerOffsetY" "0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"4"
 	}
 
@@ -80,8 +72,6 @@
 		//"PinnedCornerOffsetY" "0"
 		//		"1"
 		//		"2"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"5"
 		"textHidden"		"0"
 		"editable"		"1"
@@ -103,9 +93,6 @@
 		//"PinnedCornerOffsetY" "0"
 		//"PinnedCornerOffsetX" "0"
 		"labelText"		"#AssetBuilder_ApplyChanges"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"1"
-		"Default"		"1"
 	}
 }

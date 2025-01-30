@@ -12,8 +12,6 @@
 		"image"			"../hud/tournament_panel_brown"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
-		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
@@ -35,7 +33,6 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -43,7 +40,6 @@
 			"tall"			"26"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 			// blue Background
@@ -56,14 +52,12 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
 			"tall"			"26"
 			//		"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"		"Center"
 		}
@@ -73,7 +67,6 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"0"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -81,7 +74,6 @@
 		"tall"			"20"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
 		"textAlignment"		"Center"
 	}
@@ -90,7 +82,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFontSmallest"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"1"
@@ -98,7 +89,6 @@
 		"tall"			"30"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
 		"wrap"			"1"
@@ -116,7 +106,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
 		"src_corner_height"	"22"				// pixels inside the image
@@ -140,7 +129,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelLoss"
-			"font"			"HudFontSmall"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -154,7 +142,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%respeccount%"
 			"textAlignment" "center"
 			"xpos"			"145"

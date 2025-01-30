@@ -10,7 +10,6 @@
 		"wide"			"400"
 		"tall"			"300"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		
@@ -18,11 +17,9 @@
 		
 		"recipepanel_xpos"		"0"
 		"recipepanel_ydelta"	"4"
-		"border"		"EconItemBorder"
 		
 		"recipeskv"	
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -32,7 +29,6 @@
 			//		"0"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"enabled"		"1"
 			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "235 226 202 255"
@@ -50,7 +46,6 @@
 		{
 			"wide"			"20"
 			"tall"			"20"
-			"enabled"		"1"
 			"activeimage"	"checkmark"
 			"inactiveimage"	"checkmark"
 			"scaleImage"	"1"
@@ -63,14 +58,12 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
 		"wide"			"400"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"labelText"		"#CraftRecipe"
 		"textAlignment"		"center"
@@ -87,7 +80,6 @@
 		"zpos"			"2"
 		"wide"			"380"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
 	}				
@@ -120,14 +112,12 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"CenterPositioner"
-			"font"			"HudFontSmallBold"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"366"
 			"tall"			"0"
 			//		"0"
-			"enabled"		"1"
 			"centerwrap"	"0"
 			"labelText"		""
 			"textAlignment"		"center"
@@ -158,14 +148,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -177,7 +165,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoRecipesLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#CraftNoknownRecipes"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -187,7 +174,6 @@
 		"tall"			"30"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -202,10 +188,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"ok"
 	}		

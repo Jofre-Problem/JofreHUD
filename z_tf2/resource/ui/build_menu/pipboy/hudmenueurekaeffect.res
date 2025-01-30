@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"250"
 		"tall"			"170"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"paintbackground" "0"
 	}
@@ -23,7 +22,6 @@
 		"zpos"			"-2"
 		"wide"			"250"
 		"tall"			"180"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"pipboy_overlay"
 		"drawcolor"		"192 192 192 255"
@@ -37,7 +35,6 @@
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"40"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"pipboy_engineer"
 		"tileImage"		"0"
@@ -53,7 +50,6 @@
 		"zpos"			"1"
 		"wide"			"48"
 		"tall"			"48"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
 		"iconColor"		"0 255 0 255"
@@ -63,7 +59,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiant"
 		"xpos"			"68"			// align me to the left edge of the first selection
 		"ypos"			"8"
 		"zpos"			"2"
@@ -71,7 +66,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Teleport_Title"
 		"textAlignment"	"Left"
 		"fgcolor"		"0 255 0 255"
@@ -81,7 +75,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"SpectatorKeyHints"
 		"xpos"			"35"
 		"ypos"			"35"
 		"zpos"			"1"
@@ -89,7 +82,6 @@
 		"tall"			"13"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
 		"fgcolor"		"0 255 0 255"

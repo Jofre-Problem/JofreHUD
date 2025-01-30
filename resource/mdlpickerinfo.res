@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	
 		"PhysicsObject"
@@ -24,15 +22,11 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"physics"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"DynamicObject"
@@ -45,15 +39,11 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"dynamic"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"StaticObject"
@@ -66,15 +56,11 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"static"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"StaticText"
@@ -87,15 +73,11 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			"disabled"		"1"
 			//	"1"
 			"labelText"		"Model is missing $staticprop entry"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"Mass"
@@ -108,14 +90,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 			"labelText"		"Mass"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"MassValue"
@@ -128,14 +106,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 			"labelText"		"100"
-			"textAlignment"		"west"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}	
 	}
 }

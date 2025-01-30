@@ -3,23 +3,18 @@
 	"TitleEditPanel"
 	{
 		"ControlName"	"CTitleEditPanel"
-		"fieldName"		"TitleEditPanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"40"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	}
 	
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"ReplayMediumSmall"
 		"labelText"		">>"
 		"xpos"			"0"
 		"ypos"			"6"
@@ -28,15 +23,12 @@
 		"tall"			"15"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor"		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"
 	}
 	
 	"TitleInput"
 	{
 		"ControlName"	"TextEntry"
-		"fieldName"		"TitleInput"
 		"maxchars"		"255"
 		"unicode"		"1"
 		"xpos"			"15"
@@ -44,24 +36,18 @@
 		"zpos"			"1"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"fgcolor_override"		"202 190 164 255"
 		"bgcolor_override"		"blank"		// Background is drawn explicitly in CTitleEditPanel::PaintBackground()
-		"Font"			"ReplayLarger"
 	}
 	
 	"HeaderLine"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"HeaderLine"
 		"xpos"			"0"
 		"zpos"			"5"
 		"wide"			"586"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
 		"image"			"replay/replaybrowser_dottedline"
 		"scaleImage"	"0"
 		"tileHorizontally" "1"
@@ -70,11 +56,8 @@
 	"ClickToEditLabel"
 	{
 		"ControlName"		"CExLabel"
-		"FieldName"			"ClickToEditLabel"
 		"LabelText"			"#Replay_ClickToEdit"
 		"zpos"				"1000"
-		"font"				"ReplayBrowserSmallest"
-		"Visible"			"1"
 		"fgcolor_override" "118 106 94 255"
 	}
 }

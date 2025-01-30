@@ -4,7 +4,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemName"
-		"font"			"Default"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -13,7 +12,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Class_Name_HWGuy"
 		"textAlignment"	"Center"
 	}
@@ -27,7 +25,6 @@
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"90"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_heavy_blu"
 	}
@@ -41,7 +38,6 @@
 		"zpos"			"0"
 		"wide"			"15"
 		"tall"			"15"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
@@ -51,7 +47,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
 		"fgcolor"		"Black"
 		"xpos"			"15"
 		"ypos"			"90"
@@ -61,7 +56,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"2"
 		"textAlignment"	"Center"
 		"dulltext"		"1"
@@ -71,7 +65,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Default"
 		"fgcolor"		"Black"
 		"xpos"			"15"
 		"ypos"			"90"
@@ -80,7 +73,6 @@
 		"tall"			"15"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"5"
 		"textAlignment"	"Center"
 		"dulltext"		"1"

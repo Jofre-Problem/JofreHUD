@@ -26,115 +26,96 @@
 
 		"plus_sign"
 		{
-				"font"		"Icons"
 				"character"	"+"
 		}
 		
 		"minus_sign"
 		{
-				"font"		"Icons"
 				"character"	"-"
 		}
 		
 		"dollar_sign"
 		{
-				"font"		"Icons"
 				"character"	"$"
 		}
 		
 		"health_icon"
 		{
-				"font"		"Icons"
 				"character"	"b"
 		}
 		
 		"timer_icon"
 		{
-				"font"		"Icons"
 				"character"	"e"
 		}
 		
 		"shield_kevlar_bright"
 		{
-				"font"		"Icons"
 				"character"	"l"
 		}
 		
 		"shield_kevlar"
 		{
-				"font"		"Icons"
 				"character"	"l"
 		}
 		
 		"shield_bright"
 		{
-				"font"		"Icons"
 				"character"	"a"
 		}
 		
 		"shield"
 		{
-				"font"		"Icons"
 				"character"	"a"
 		}
 		
 		"number_0"
 		{
-				"font"		"Icons"
 				"character"	"0"
 		}
 
 		"number_1"
 		{
-				"font"		"Icons"
 				"character"	"1"
 		}
 
 		"number_2"
 		{
-				"font"		"Icons"
 				"character"	"2"
 		}
 
 		"number_3"
 		{
-				"font"		"Icons"
 				"character"	"3"
 		}
 
 		"number_4"
 		{
-				"font"		"Icons"
 				"character"	"4"
 		}
 
 		"number_5"
 		{
-				"font"		"Icons"
 				"character"	"5"
 		}
 
 		"number_6"
 		{
-				"font"		"Icons"
 				"character"	"6"
 		}
 
 		"number_7"
 		{
-				"font"		"Icons"
 				"character"	"7"
 		}
 
 		"number_8"
 		{
-				"font"		"Icons"
 				"character"	"8"
 		}
 
 		"number_9"
 		{
-				"font"		"Icons"
 				"character"	"9"
 		}
 		
@@ -185,7 +166,6 @@
 		
 		"ammo_12g"
 		{
-				"font"		"TFTypeDeath"
 				"character"	"J"
 		}
 		
@@ -236,25 +216,21 @@
 		
 		"item_healthkit"
 		{
-				"font"		"TFTypeDeath"
 				"character"	"F"
 		}
 
 		"item_armor"
 		{
-				"font"		"TFTypeDeath"
 				"character"	"E"
 		}
 
 		"item_grenadepack"
 		{
-				"font"		"TFTypeDeath"
 				"character"	"h"
 		}
 
 		"item_ammopack"
 		{
-				"font"		"TFTypeDeath"
 				"character"	"R"
 		}
 		"obj_attachment_sapper"

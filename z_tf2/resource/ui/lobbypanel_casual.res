@@ -12,10 +12,8 @@
 		"tall"			"f0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
@@ -30,7 +28,6 @@
 		"wide"			"f0"
 		"tall"			"p0.8"
 		"visible"		"0"
-		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"image"			"competitive/comp_background_tier001a"
 		"scaleImage"	"1"
@@ -47,7 +44,6 @@
 		"tall"			"290"
 		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
 	}
 
 
@@ -61,21 +57,18 @@
 		"PartyGroupBox"
 		{
 			"tall"		"160"
-			"border"		"QuickplayBorder"
 		}
 
 		"ChatLog"
 		{
 			"ypos"			"165"
 			"tall"			"100"
-			"border"		"QuickplayBorder"
 		}
 
 		"ChatTextEntry"
 		{
 			"ypos"			"270"
 			"tall"			"16"
-			"border"		"QuickplayBorder"
 		}
 	}
 
@@ -95,34 +88,29 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
 
 		"PlayersInGameLabel"
 		{
-			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 		}
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
 
 			"PlayersInGameTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-90"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -130,7 +118,6 @@
 
 			"PlayersInGameTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-10"
 				"ypos"		"85"
 				"proportionaltoparent"	"1"
@@ -138,14 +125,12 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
 
 			"PlayersInGameMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-90"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -153,7 +138,6 @@
 
 			"PlayersInGameMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-10"
 				"ypos"		"97"
 				"proportionaltoparent"	"1"
@@ -161,21 +145,18 @@
 
 		"PlayersSearchingLabel"
 		{
-			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 			"ypos"		"120"
 		}
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
 
 			"PlayersSearchingTotalNearbyValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-90"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -183,7 +164,6 @@
 
 			"PlayersSearchingTotalWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-10"
 				"ypos"		"135"
 				"proportionaltoparent"	"1"
@@ -191,14 +171,12 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"147"
 		}
 
 			"PlayersSearchingMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-90"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -206,7 +184,6 @@
 
 			"PlayersSearchingMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-10"
 				"ypos"		"147"
 				"proportionaltoparent"	"1"
@@ -214,14 +191,12 @@
 
 		"EmptyGameserversLabel"
 		{
-			"font"			"HudFontSmallestBold"
 			"xpos"		"10"
 			"ypos"		"170"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-90"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -229,7 +204,6 @@
 
 			"EmptyGameserversMatchingWorldwideValue"
 			{
-				"font"			"HudFontSmallest"
 				"xpos"		"rs1-10"
 				"ypos"		"170"
 				"proportionaltoparent"	"1"
@@ -254,7 +228,6 @@
 
 			"PartyHasLowPriorityLabel"
 			{
-				"font"		"HudFontSmallest"
 				"xpos"		"60"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -266,7 +239,6 @@
 
 			"PartyLowPriorityPenaltyTimer"
 			{
-				"font"		"HudFontSmallest"
 				"xpos"		"60"
 				"ypos"		"rs1"
 				"wide"		"f0"

@@ -157,7 +157,15 @@
 		"border_armed" "blumaterial"
 		"armedFgColor_override"						"notored"
 	}
-
+	"BackShortKey2"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey2"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"next"
+		"visible"									"1"
+	}
 	"BackShortKey"
 	{
 		"ControlName"								"CExButton"

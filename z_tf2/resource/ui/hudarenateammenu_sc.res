@@ -10,7 +10,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 	}
 
@@ -54,7 +53,6 @@
 		//		"0"
 		"visible"		"0"
 		"labelText"		""
-		"textAlignment"	"west"
 		"brighttext"	"1"
 	}
 
@@ -68,7 +66,6 @@
 		"tall"			"50"
 		"zpos"			"4"
 		//	"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_left"
@@ -84,7 +81,6 @@
 		"tall"			"50"
 		"zpos"			"4"
 		//	"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_right"
@@ -101,13 +97,10 @@
 		"tall"			"310"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		//	"1"
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"autodoor"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -122,7 +115,6 @@
 		"zpos"			"5"
 		//	"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -139,13 +131,10 @@
 		"tall"			"57"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		//	"2"
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
 		"associated_model"	"spectate"	
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -160,7 +149,6 @@
 		"zpos"			"5"
 		//	"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -178,12 +166,10 @@
 		//	"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
 	}
 
 	"CancelHintIcon"
@@ -198,7 +184,6 @@
 		//	"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 	}
@@ -208,18 +193,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
 		"xpos"			"c-280" [$WIN32] 
-		"xpos"			"c-276" [$X360]
 		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
-		"wide"			"94" [$X360]
 		"tall"			"24"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
 	
@@ -234,149 +215,9 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"font"			"MenuSmallestFont"
 		"fgcolor"		"white"
 	}
-
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arena01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
-	}	
-
-
-	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		//	"0"	
-		"fillcolor"		"0 0 0 180"
-		"PaintBackgroundType"	"0"
-	}		
-		
-	"autodoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"autodoor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arenadoor01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hoveropen"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"hoverclose"
-			}
-		}
-	}		
-	
-	"spectate"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"spectate"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01_spectate.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hover"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"idle"
-			}
-		}
-	}				
 }
 

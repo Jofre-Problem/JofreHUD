@@ -16,7 +16,6 @@ WeaponData
 	"secondary_ammo"		"Gravity"
 	"default_clip2"			"8"
 
-	"weight"				"0"
 	"item_flags"			"2"
 
 	SoundData

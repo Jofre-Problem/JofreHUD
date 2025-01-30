@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"CParticleFunctionBrowser"
 		"fieldName"		"FunctionBrowser"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"3"
 		//		"0"
 		"xpos"			"0"
@@ -26,8 +24,6 @@
 		//		"0"
 		//"PinnedCornerOffsetY" "-6"
 		//"UnpinnedCornerOffsetY" "-6"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 	}
 }

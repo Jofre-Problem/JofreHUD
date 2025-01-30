@@ -1,5 +1,5 @@
 /////////////
-// X360 button names
+button names
 //
 // A_BUTTON
 // B_BUTTON

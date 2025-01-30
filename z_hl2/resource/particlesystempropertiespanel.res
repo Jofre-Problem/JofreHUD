@@ -3,9 +3,6 @@
 	"Splitter"
 	{
 		"ControlName"	"Splitter"
-		"fieldName"		"Splitter"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
@@ -19,7 +16,6 @@
 			"FunctionTypeCombo"
 			{
 				"ControlName"	"ComboBox"
-				"fieldName"		"FunctionTypeCombo"
 				"xpos"			"0"
 				"ypos"			"6"
 				"wide"			"463"
@@ -28,8 +24,6 @@
 				//		"0"
 				//"PinnedCornerOffsetX" "6"
 				//"PinnedCornerOffsetY" "-6"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 				"maxchars"		"-1"
 			}
@@ -37,7 +31,6 @@
 			"FunctionBrowserArea"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"FunctionBrowserArea"
 				"xpos"			"0"
 				"ypos"			"36"
 				"wide"			"463"
@@ -48,8 +41,6 @@
 				//"PinnedCornerOffsetY" "30"
 				//"PinnedCornerOffsetY" "0"
 				//"UnpinnedCornerOffsetY" "0"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 			}
 		}
@@ -59,9 +50,6 @@
 			"FunctionProperties"
 			{
 				"ControlName"	"CDmeElementPanel"
-				"fieldName"		"FunctionProperties"
-				"visible"		"1"
-				"enabled"		"1"
 				//		"0"
 				//	"3"
 				//"PinnedCornerOffsetX" "6"

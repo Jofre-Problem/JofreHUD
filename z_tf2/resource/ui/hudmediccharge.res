@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"130"
 		"tall"			"65"
-		"enabled"		"1"
 		"image"			"../hud/medic_charge_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/medic_charge_red_bg"
@@ -27,11 +26,8 @@
 		"tall"			"15"
 		//	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Ubercharge"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
 	}
 
 	"IndividualChargesLabel"
@@ -45,18 +41,14 @@
 		"tall"			"15"
 		//	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_IndividualUbercharges"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
 	}
 	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"Default"
 		"xpos"			"30"
 		"ypos"			"38"
 		"zpos"			"2"
@@ -64,7 +56,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 	}		
 
@@ -72,7 +63,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
-		"font"			"Default"
 		"xpos"			"30"
 		"ypos"			"38"
 		"zpos"			"2"
@@ -80,7 +70,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 	}
 
@@ -88,7 +77,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
-		"font"			"Default"
 		"xpos"			"52"
 		"ypos"			"38"
 		"zpos"			"2"
@@ -96,7 +84,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 	}
 
@@ -104,7 +91,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
-		"font"			"Default"
 		"xpos"			"74"
 		"ypos"			"38"
 		"zpos"			"2"
@@ -112,7 +98,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 	}
 
@@ -120,7 +105,6 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
-		"font"			"Default"
 		"xpos"			"96"
 		"ypos"			"38"
 		"zpos"			"2"
@@ -128,7 +112,6 @@
 		"tall"			"8"				
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 	}
 	
@@ -140,7 +123,6 @@
 		"ypos"			"17"
 		"wide"			"36"
 		"tall"			"36"
-		"enabled"		"1"
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
 	}	
@@ -153,7 +135,6 @@
 		"ypos"			"-25"
 		"wide"			"36"
 		"tall"			"36"
-		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
 	}

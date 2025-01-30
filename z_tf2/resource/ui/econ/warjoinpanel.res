@@ -11,9 +11,7 @@
 		"tall"			"f0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
 
 		if_null_war_active
@@ -38,7 +36,6 @@
 			"wide"		"f0"
 			"tall"		"f0"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"bgcolor_override"	"0 0 0 240"
 		}
@@ -53,13 +50,11 @@
 			"wide"		"f0"
 			"tall"		"f0"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"			""
 			"bgcolor_override"	"0 0 0 220"
 			"command"	"close"
 			"paintbackground"	"0"
-			"paintborder"		"0"
 		}
 
 		"MainContainer"
@@ -73,9 +68,7 @@
 			"tall"			"350"
 			"autoResize"	"3"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
-			"border"		"MainMenuBGBorder"
 
 			"CloseButton"
 			{
@@ -87,10 +80,8 @@
 				"wide"			"14"
 				"tall"			"14"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"close"
 				"proportionaltoparent" "1"
@@ -113,7 +104,6 @@
 					"zpos"			"1"
 					"wide"			"14"
 					"tall"			"14"
-					"enabled"		"1"
 					"image"			"close_button"
 					"scaleImage"	"1"
 				}				
@@ -129,7 +119,6 @@
 				"tall"			"60"
 				"zpos"			"100"
 				"proportionaltoparent"	"1"
-				"border"		"MainMenuBGBorder"
 
 				"NoGCExplanation"
 				{
@@ -140,8 +129,6 @@
 					"zpos"			"0"
 					"wide"			"200"
 					"tall"			"p0.8"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"center"
 					"labelText"		"#TF_War_NoGC"
@@ -158,7 +145,6 @@
 					"zpos"			"0"
 					"wide"			"o1"
 					"tall"			"40"
-					"enabled"		"1"
 					"image"			"glyph_alert"
 		
 					"proportionaltoparent"	"1"
@@ -188,11 +174,9 @@
 					"wide"			"145"
 					"tall"			"20"
 					//		"3"
-					"enabled"		"1"
 					//	"0"
 					"textinsetx"	"25"
 					"use_proportional_insets" "1"
-					"font"			"HudFontSmall"
 					"textAlignment"	"south-east"
 					"default"		"1"
 					"labelText"			"#MMenu_ViewUpdateComic" 
@@ -219,11 +203,9 @@
 					"wide"			"300"
 					"tall"			"20"
 					//		"3"
-					"enabled"		"1"
 					//	"0"
 					"textinsetx"	"25"
 					"use_proportional_insets" "1"
-					"font"			"HudFontSmall"
 					"textAlignment"	"center"
 					"default"		"1"
 					"labelText"			"%end_date%" 
@@ -257,7 +239,6 @@
 						"proportionaltoparent"	"1"
 						"zpos"			"1000" // Be on top of everything
 
-						"border"		"InnerShadowBorderThin"
 						"mouseinputenabled"	"0"
 					}
 				}
@@ -271,7 +252,6 @@
 					"zpos"			"0"
 					"wide"			"p1"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 
 					if_null_war_active
@@ -301,7 +281,6 @@
 					{
 						"visible"		"0"
 					}
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"heavy_pyro_war/war_screen_heavy"
 					"proportionaltoparent" "1"
@@ -321,7 +300,6 @@
 					{
 						"visible"		"0"
 					}
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"heavy_pyro_war/war_screen_pyro"
 					"proportionaltoparent" "1"
@@ -338,7 +316,6 @@
 						"zpos"			"1"
 						"wide"			"p0.80"
 						"tall"			"o1"
-						"enabled"		"1"
 						"scaleImage"	"1"
 						"image"			"heavy_pyro_war/winner_screen_pyro"
 						"proportionaltoparent" "1"
@@ -354,7 +331,6 @@
 					"zpos"			"2"
 					"wide"			"p1"
 					"tall"			"o1"
-					"enabled"		"1"
 					"proportionaltoparent" "1"
 
 					if_null_war_active
@@ -381,7 +357,6 @@
 							"zpos"			"2"
 							"wide"			"p1"
 							"tall"			"o0.25"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"heavy_pyro_war/war_screen_foreground"
 							"proportionaltoparent" "1"
@@ -399,7 +374,6 @@
 							"zpos"			"2"
 							"wide"			"p1"
 							"tall"			"o0.25"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"heavy_pyro_war/winner_screen_foreground"
 							"proportionaltoparent" "1"
@@ -429,8 +403,6 @@
 					"zpos"			"0"
 					"wide"			"270"
 					"tall"			"200"
-					"enabled"		"1"
-					"font"			"HudFontMediumBold"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north"
 					"labelText"		"#TF_War_StandingsTitle"
@@ -473,7 +445,6 @@
 						"proportionaltoparent"	"1"
 						"zpos"			"1000" // Be on top of everything
 
-						"border"		"InnerShadowBorderThin"
 					}
 				}
 
@@ -486,8 +457,6 @@
 					"zpos"			"0"
 					"wide"			"500"
 					"tall"			"200"
-					"enabled"		"1"
-					"font"			"HudFontSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north"
 					"labelText"		"#TF_War_HowToPlay"
@@ -515,8 +484,6 @@
 					"zpos"			"0"
 					"wide"			"270"
 					"tall"			"200"
-					"enabled"		"1"
-					"font"			"HudFontMediumBold"
 					"fgcolor_override"	"HUDRedTeamSolid"
 					"textAlignment"	"north"
 					"labelText"		"#TF_War_Winner_PyroTitle"
@@ -559,7 +526,6 @@
 						"proportionaltoparent"	"1"
 						"zpos"			"1000" // Be on top of everything
 
-						"border"		"InnerShadowBorderThin"
 					}
 				}
 
@@ -572,8 +538,6 @@
 					"zpos"			"0"
 					"wide"			"f0"
 					"tall"			"200"
-					"enabled"		"1"
-					"font"			"HudFontSmall"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north"
 					"labelText"		"#TF_War_Winner_PyroDesc"
@@ -604,7 +568,6 @@
 					"tall"			"100"
 					"zpos"			"100"
 					"proportionaltoparent"	"1"
-					"border"		"MainMenuBGBorder"
 
 					"ConfirmSelectionContainer"
 					{
@@ -625,8 +588,6 @@
 							"zpos"			"0"
 							"wide"			"p0.8"
 							"tall"			"200"
-							"enabled"		"1"
-							"font"			"HudFontSmallest"
 							"fgcolor_override"	"TanLight"
 							"textAlignment"	"north"
 							"labelText"		"%confirm_selection%"
@@ -644,11 +605,9 @@
 							"wide"			"100"
 							"tall"			"26"
 							//		"3"
-							"enabled"		"1"
 							//	"0"
 							"textinsetx"	"25"
 							"use_proportional_insets" "1"
-							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
 							"default"		"1"
 							"labelText"			"#Voice_Menu_Yes" 
@@ -678,11 +637,9 @@
 							"wide"			"100"
 							"tall"			"26"
 							//		"3"
-							"enabled"		"1"
 							//	"0"
 							"textinsetx"	"25"
 							"use_proportional_insets" "1"
-							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
 							"default"		"1"
 							"labelText"			"#Store_CANCEL" 
@@ -722,8 +679,6 @@
 							"zpos"			"0"
 							"wide"			"p0.8"
 							"tall"			"50"
-							"enabled"		"1"
-							"font"			"HudFontSmallest"
 							"fgcolor_override"	"TanLight"
 							"textAlignment"	"center"
 							"labelText"		"%joining_team%"
@@ -739,7 +694,6 @@
 							"zpos"			"0"
 							"wide"			"o1"
 							"tall"			"80"
-							"enabled"		"1"
 							"image"			"animated/tf2_logo_hourglass"
 		
 							"proportionaltoparent"	"1"
@@ -765,8 +719,6 @@
 							"zpos"			"0"
 							"wide"			"p0.8"
 							"tall"			"50"
-							"enabled"		"1"
-							"font"			"HudFontSmallestBold"
 							"fgcolor_override"	"TanLight"
 							"textAlignment"	"center"
 							"labelText"		"%team_joined%"
@@ -783,11 +735,9 @@
 							"wide"			"100"
 							"tall"			"26"
 							//		"3"
-							"enabled"		"1"
 							//	"0"
 							"textinsetx"	"25"
 							"use_proportional_insets" "1"
-							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
 							"default"		"1"
 							"labelText"			"#TF_OK" 
@@ -827,7 +777,6 @@
 							"zpos"			"-1"
 							"wide"			"30"
 							"tall"			"o1"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"glyph_alert"
 							"proportionaltoparent" "1"
@@ -844,10 +793,7 @@
 							"zpos"			"0"
 							"wide"			"p0.6"
 							"tall"			"50"
-							"enabled"		"1"
-							"font"			"HudFontSmallest"
 							"fgcolor_override"	"TanLight"
-							"textAlignment"	"west"
 							"labelText"		"#TF_War_FailedToJoin"
 							"proportionaltoparent"	"1"
 						}
@@ -862,11 +808,9 @@
 							"wide"			"100"
 							"tall"			"26"
 							//		"3"
-							"enabled"		"1"
 							//	"0"
 							"textinsetx"	"25"
 							"use_proportional_insets" "1"
-							"font"			"HudFontSmallBold"
 							"textAlignment"	"center"
 							"default"		"1"
 							"labelText"			"#TF_OK" 
@@ -908,7 +852,6 @@
 					"zpos"			"-1"
 					"wide"			"100"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"		"heavy_pyro_war/heavy_logo"
 					"proportionaltoparent" "1"
@@ -925,7 +868,6 @@
 					"zpos"			"-1"
 					"wide"			"100"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"		"heavy_pyro_war/pyro_logo"
 					"proportionaltoparent" "1"
@@ -955,11 +897,9 @@
 						"wide"			"150"
 						"tall"			"26"
 						//		"3"
-						"enabled"		"1"
 						//	"0"
 						"textinsetx"	"25"
 						"use_proportional_insets" "1"
-						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"default"		"1"
 						"labelText"			"#JoinHeavyButton" 
@@ -1001,11 +941,9 @@
 						"wide"			"150"
 						"tall"			"26"
 						//		"3"
-						"enabled"		"1"
 						//	"0"
 						"textinsetx"	"25"
 						"use_proportional_insets" "1"
-						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"default"		"1"
 						"labelText"			"#JoinPyroButton" 
@@ -1035,8 +973,6 @@
 					"zpos"			"0"
 					"wide"			"270"
 					"tall"			"200"
-					"enabled"		"1"
-					"font"			"HudFontSmallest"
 					"fgcolor_override"	"TanLight"
 					"textAlignment"	"north-west"
 					"labelText"		"#TF_War_HeavyVsPyro_Explanation"

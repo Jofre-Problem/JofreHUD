@@ -9,7 +9,6 @@
 		"zpos"			"4"
 		"wide"			"128"
 		"tall"			"32"
-		"enabled"		"1"	
 	}
 	
 	"FloatingNumberLabel"
@@ -21,9 +20,7 @@
 		"zpos"			"4"
 		"wide"			"128"
 		"tall"			"32"
-		"enabled"		"1"
 		"fgcolor"		"TanLight"
-		"font"			"ScoreboardMediumSmall"	//AchievementTracker_Name
 		"textAlignment"		"north-west"
 	}
 }

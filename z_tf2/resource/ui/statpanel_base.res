@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"286"
 		"tall"			"183"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -24,7 +23,6 @@
 		"zpos"			"1"
 		"wide"			"72"
 		"tall"			"72"
-		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 	}
@@ -32,7 +30,6 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"titleLable"
-		"font"			"TFFontSmall"
 		"xpos"			"72"
 		"ypos"			"29"
 		"zpos"			"2"
@@ -40,15 +37,12 @@
 		"tall"			"10"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%title%"
-		"textAlignment"	"west"
 	}
 	"summaryLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"summaryLabel"
-		"font"			"TFFontMedium"
 		"xpos"			"72"
 		"ypos"			"35"
 		"zpos"			"2"
@@ -56,16 +50,13 @@
 		"tall"			"40"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%statdesc%"
-		"textAlignment"		"west"
 		"wrap"			"1"
 	}
 	"StatLabelLarge"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"StatLabelLarge"
-		"font"			"HudFontMedium"
 		"xpos"			"82"
 		"ypos"			"78"
 		"zpos"			"3"
@@ -73,15 +64,12 @@
 		"tall"			"20"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%stattextlarge%"
-		"textAlignment"		"west"
 	}
 	"StatLabelSmall"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"StatLabelSmall"
-		"font"			"TFFontMedium"
 		"xpos"			"82"
 		"ypos"			"78"
 		"zpos"			"3"
@@ -89,15 +77,12 @@
 		"tall"			"20"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%stattextsmall%"
-		"textAlignment"		"west"
 	}
 	StatBox
 	{
 		"ControlName"		"Panel"		
 		"fieldName"		"StatBox"
-		"enabled"		"1"
 		//		"0"
 		"xpos"			"72"
 		"ypos"			"77"

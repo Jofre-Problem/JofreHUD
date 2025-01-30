@@ -39,12 +39,10 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
 				"character"	"c"
 		}
 		"weapon_s"
 		{	
-				"font"		"WeaponIcons"
 				"character"	"c"
 		}
 

@@ -23,13 +23,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#AnnotationPanel_Callout"
 		"textAlignment"	"center"
 	}
@@ -42,7 +40,6 @@
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"../hud/freezecam_callout_arrow"
 		"scaleImage"	"1"	
 	}
@@ -50,7 +47,6 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"HudFontSmallest"
 		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"

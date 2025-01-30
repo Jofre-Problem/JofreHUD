@@ -23,7 +23,6 @@
 		"zpos"				"100"
 		"wide"				"f0"
 		"tall"				"f0"
-		"enabled"			"1"
 	}
 
 	"EventTitleLabel"
@@ -31,13 +30,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"HudFontBiggerBold"
 		"xpos"			0
 		"ypos"			c100
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"25"
-		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
 		fgcolor_override	"224 217 197 255"
@@ -47,14 +44,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"20"
-		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
 		fgcolor_override	"255 235 35 200"
@@ -67,14 +62,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"HudFontMediumSmallBold"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
 		"zpos"			"3"
 		"wide"			"f"
 		"tall"			"24"
-		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"A TEAM STOLE THE BALL"
 		fgcolor_override	"224 217 197 255"
@@ -92,7 +85,6 @@
 		"zpos"			"0"
 		"wide"			"380"
 		"tall"			"48"
-		"enabled"		"1"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ballcontrol_bar"
 		"scaleImage"	"1"
@@ -132,7 +124,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
@@ -151,7 +142,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
@@ -170,7 +160,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_blue_icon"
@@ -190,7 +179,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
@@ -209,7 +197,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
@@ -229,7 +216,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_goal_red_icon"
@@ -247,7 +233,6 @@
 		"tall"			"42"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"image"			"../passtime/hud/passtime_ball"
@@ -265,7 +250,6 @@
 		"tall"			"42"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
 		"scaleImage"	"1"	
@@ -276,7 +260,6 @@
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
 		//font					TargetID
-		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -302,8 +285,6 @@
 		"wide" "f0"
 		"tall" "f0"
 		//	"0"
-		"enabled"		"1"
-
 		"BallPowerMeterFrame"
 		{
 			"ControlName"	"ImagePanel"
@@ -315,7 +296,6 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../passtime/hud/passtime_powerball_meter_frame"
 			"scaleImage"	"1"					
@@ -335,8 +315,6 @@
 			"zpos"			"3"
 			"wide"			"168"
 			"tall"			"18"
-			"enabled"			"1"
-
 			"BallPowerMeterFinalSection"
 			{
 				"ControlName"	"ImagePanel"
@@ -348,7 +326,6 @@
 				"tall"			"18"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"image"			"white"
 				"scaleImage"	"1"					
@@ -369,8 +346,6 @@
 			"zpos"				"4"
 			"wide"				"168"
 			"tall"				"18"
-			"enabled"			"1"
-
 			"BallPowerMeterFill"
 			{
 				"ControlName"	"ImagePanel"
@@ -382,7 +357,6 @@
 				"tall"			"18"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"image"			"white"
 				"scaleImage"	"1"					

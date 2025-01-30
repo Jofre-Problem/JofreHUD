@@ -17,11 +17,9 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
 		"proportionaltoparent"	"1"
 
 		"paintborder"	"1"
-		"border"		"ReplayDefaultBorder"
 	}
 
 	"ItemName"
@@ -36,7 +34,6 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"font"			"AdFont_ItemName"
 		"fgcolor"	"235 227 203 255"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"5"
@@ -105,7 +102,6 @@
 			"zpos"			"10"
 			"proportionaltoparent"	"1"
 
-			"font"			"AdFont_AdText"
 			"fgcolor_override"	"163 163 163 255"
 			"textinsetx"	"10"
 			"textinsety"	"0"
@@ -125,7 +121,6 @@
 		"wide"			"o1.5"
 		"tall"			"p.9"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
 		"proportionaltoparent"	"1"
 			
 		"model_xpos"	"0"
@@ -156,7 +151,6 @@
 		"wide"		"40"
 		"tall"		"10"
 		"labelText"			"%price%"
-		"font"			"AdFont_PurchaseButton"
 		"textinsetx"		"0"
 		"textAlignment"	"center"
 		
@@ -185,7 +179,6 @@
 		"wide"		"60"
 		"tall"		"10"
 		"labelText"			"#TF_ItemAd_ViewOnMarket"
-		"font"			"AdFont_PurchaseButton"
 		"textinsetx"		"0"
 		"textAlignment"	"center"
 		

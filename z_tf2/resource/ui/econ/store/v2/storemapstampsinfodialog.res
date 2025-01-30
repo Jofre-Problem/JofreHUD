@@ -10,7 +10,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	
@@ -24,9 +23,7 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -40,9 +37,7 @@
 		"zpos"			"0"
 		"wide"			"240"
 		"tall"			"300"
-		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -55,9 +50,7 @@
 			"zpos"			"1"
 			"wide"			"220"
 			"tall"			"209"
-			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
 		}
 	
 	
@@ -71,9 +64,6 @@
 			"zpos"			"1"
 			"wide"			"235"
 			"tall"			"10"
-			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -88,8 +78,6 @@
 			"zpos"			"1"
 			"wide"			"235"
 			"tall"			"58"
-			"enabled"		"1"
-			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
@@ -99,7 +87,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapsDescLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#Store_MapsDesc"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -109,7 +96,6 @@
 			"tall"			"200"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}	
 		
@@ -122,7 +108,6 @@
 			"zpos"			"2"
 			"wide"			"150"
 			"tall"			"150"
-			"enabled"		"1"
 			"image"			"../backpack/player/items/all_class/world_traveller_large"
 			"scaleImage"	"1"
 		}
@@ -138,10 +123,8 @@
 		"wide"			"14"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"close"
 		
@@ -159,7 +142,6 @@
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
-			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
@@ -174,10 +156,8 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"22"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"

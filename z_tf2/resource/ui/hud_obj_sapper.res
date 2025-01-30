@@ -9,7 +9,6 @@
 		"wide"			"150"
 		"tall"			"31"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 	}
 	
@@ -22,7 +21,6 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
 		"iconColor"		"255 255 255 255"
@@ -36,7 +34,6 @@
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
 		"iconColor"		"255 255 255 255"
@@ -54,13 +51,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#Building_hud_sapper_not_built"
 			"textAlignment"	"Left"
 		}
@@ -80,13 +75,11 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
 			"xpos"			"13"
 			"ypos"			"2"
 			"wide"			"8"
 			"tall"			"24"
 			//		"0"
-			"enabled"		"1"
 			"textAlignment"	"Left"
 		}
 
@@ -104,13 +97,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
 				//		"0"
-				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
 			}
@@ -119,13 +110,11 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
 				"tall"			"8"				
 				//		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 		}
@@ -148,7 +137,6 @@
 				"ypos"			"5"
 				"wide"			"20"
 				"tall"			"20"
-				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
 				"iconColor"		"255 255 255 255"
@@ -158,13 +146,11 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
-				"font"			"Default"
 				"xpos"			"22"
 				"ypos"			"12"
 				"wide"			"35"
 				"tall"			"8"
 				//		"0"
-				"enabled"		"1"
 				"textAlignment"	"Left"
 			}
 		}

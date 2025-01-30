@@ -11,7 +11,6 @@
 		"skip_autoresize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		
 		"small_vertical_break_size"		"0"
@@ -36,8 +35,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"0 0 0 240"
 	}
 	
@@ -51,9 +48,7 @@
 		"zpos"			"0"
 		"wide"			"600"
 		"tall"			"400"
-		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -66,25 +61,20 @@
 			"zpos"			"1"
 			"wide"			"340"
 			"tall"			"313"
-			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
 		}
 		
 		"ItemNameLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%itemname%"
-			"textAlignment"	"west"
 			"xpos"			"360"
 			"ypos"			"17"
 			"wide"			"230"
 			"tall"			"15"
 			"skip_autoresize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}		
 				
@@ -97,7 +87,6 @@
 			"ypos"			"30"
 			"wide"			"230"
 			"tall"			"300"
-			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			//
@@ -107,13 +96,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UsedByLabel"
-				"font"			"FontStoreOriginalPrice"
 				"labelText"		"#Store_ItemDesc_UsedBy"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 				"fgcolor"		"173 165 146 255"
 			}		
@@ -122,13 +109,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UsedByTextLabel"
-				"font"			"FontStoreOriginalPrice"
 				"labelText"		"%used_by_classes%"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 			}		
 				
@@ -136,13 +121,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SlotLabel"
-				"font"			"FontStoreOriginalPrice"
 				"labelText"		"#Store_ItemDesc_Slot"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 				"fgcolor"		"173 165 146 255"
 			}		
@@ -151,13 +134,11 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SlotTextLabel"
-				"font"			"FontStoreOriginalPrice"
 				"labelText"		"%slot%"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 			}		
 				
@@ -165,12 +146,10 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AttributesLabel"
-				"font"			"FontStoreOriginalPrice"
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"300"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 			}
 		}
@@ -188,8 +167,6 @@
 		"tall"			"313"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_manip"	"1"
@@ -227,8 +204,6 @@
 		"wide"			"340"
 		"tall"			"320"
 		"paintbackground"	"0"
-		"paintborder"	"0"
-		
 		"model_xpos"	"10"
 		"model_ypos"	"10"
 		"model_wide"	"320"
@@ -252,7 +227,6 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"LODComboBox"
-		"Font"				"HudFontSmallestBold"
 		"xpos"				"c-18"
 		"ypos"				"c102"
 		"zpos"				"5"
@@ -270,7 +244,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -284,7 +257,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -298,7 +270,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -312,7 +283,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -326,7 +296,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -340,7 +309,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -354,7 +322,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -368,7 +335,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -382,7 +348,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -396,7 +361,6 @@
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
-		"enabled"		"1"
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
@@ -413,8 +377,6 @@
 		"wide"				"19"
 		"tall"				"40"
 		//			"0"
-		"enabled"			"1"
-		
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
@@ -427,7 +389,6 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -440,11 +401,7 @@
 			
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
@@ -461,7 +418,6 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}
@@ -506,10 +462,8 @@
 		"tall"			"11"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"options"
 		
@@ -527,7 +481,6 @@
 			"zpos"			"1"
 			"wide"			"11"
 			"tall"			"11"
-			"enabled"		"1"
 			"image"			"glyph_options"
 			"scaleImage"	"1"
 		}				
@@ -541,22 +494,17 @@
 		"ypos"			"c-100"
 		"wide"			"200"
 		"tall"			"150"
-		"enabled"		"1"
-	
 		"LoadoutLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LoadoutLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportPreview_LoadoutLabel"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"15"
 			"skip_autoresize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 
@@ -564,7 +512,6 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"LoadoutComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"0"
 			"ypos"				"15"
 			"wide"				"200"
@@ -577,16 +524,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PoseLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportPreview_PoseLabel"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"45"
 			"wide"			"95"
 			"tall"			"15"
 			"skip_autoresize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 
@@ -594,7 +538,6 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"PoseComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"0"
 			"ypos"				"60"
 			"wide"				"95"
@@ -612,19 +555,15 @@
 			"wide"			"100"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#TF_ImportPreview_ActionLabel"
-			"textAlignment"	"west"
 			"wrap"			"1"
 			"Command"		"Action"
-			"font"			"HudFontSmallestBold"
 		}
 
 		"ActionComboBox"
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ActionComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"100"
 			"ypos"				"60"
 			"wide"				"100"
@@ -637,16 +576,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"EffectLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportPreview_EffectLabel"
-			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"90"
 			"wide"			"200"
 			"tall"			"15"
 			"skip_autoresize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 		}
 
@@ -654,7 +590,6 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"EffectComboBox"
-			"Font"				"HudFontSmallestBold"
 			"xpos"				"0"
 			"ypos"				"105"
 			"wide"				"200"
@@ -673,26 +608,22 @@
 		"wide"		"92"
 		"tall"		"20"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportFile_EditQCI"
 		"textAlignment"		"center"
 		"Command"		"EditQCI"
-		"font"		"HudFontSmallestBold"
 	}
 	
 	"AdvancedLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AdvancedLabel"
-		"font"		"HudFontSmallestBold"
 		"textAlignment"	"north-west"
 		"xpos"			"c60"
 		"ypos"			"c40"
 		"wide"			"200"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_ImportFile_Advanced"
 	}
@@ -705,9 +636,7 @@
 		"ypos"			"c55"
 		"wide"			"200"
 		"tall"			"76"
-		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
 		"PaintBorder"	"1"
 
 		"ButtonEditQC"
@@ -719,12 +648,10 @@
 			"wide"		"92"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		"#TF_ImportFile_EditQC"
 			"textAlignment"		"center"
 			"Command"		"EditQC"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"ButtonEditMaterial0"
@@ -736,12 +663,10 @@
 			"wide"		"92"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial0"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"ButtonEditMaterial1"
@@ -753,12 +678,10 @@
 			"wide"		"92"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial1"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"ButtonEditMaterial2"
@@ -770,12 +693,10 @@
 			"wide"		"92"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial2"
-			"font"		"HudFontSmallestBold"
 		}
 
 		"ButtonEditMaterial3"
@@ -787,12 +708,10 @@
 			"wide"		"92"
 			"tall"		"20"
 			//		"0"
-			"enabled"		"1"
 			//		"0"
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial3"
-			"font"		"HudFontSmallestBold"
 		}
 	}
 
@@ -805,10 +724,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"show_explanations"
@@ -826,7 +743,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-10"
@@ -841,7 +757,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportFile_PreviewExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -849,7 +764,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -858,7 +772,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ImportFile_PreviewExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -866,7 +779,6 @@
 			"wide"			"260"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -881,10 +793,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -905,7 +815,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -914,7 +823,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -923,7 +831,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -936,10 +843,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -961,7 +866,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -980,7 +884,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-240"
@@ -995,7 +898,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportFile_OptionsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1003,7 +905,6 @@
 			"wide"			"210"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1012,7 +913,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ImportFile_OptionsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1020,7 +920,6 @@
 			"wide"			"210"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1035,10 +934,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1059,7 +956,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1074,10 +970,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1098,7 +992,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1107,7 +1000,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1116,7 +1008,6 @@
 			"wide"			"250"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1129,10 +1020,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1154,7 +1043,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1173,7 +1061,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-240"
@@ -1188,7 +1075,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_ImportFile_AdvancedExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1196,7 +1082,6 @@
 			"wide"			"210"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1205,7 +1090,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ImportFile_AdvancedExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1213,7 +1097,6 @@
 			"wide"			"210"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1228,10 +1111,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1252,7 +1133,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1267,10 +1147,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1291,7 +1169,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1300,7 +1177,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1309,7 +1185,6 @@
 			"wide"			"250"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1322,10 +1197,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"nextexplanation"
@@ -1347,7 +1220,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1366,7 +1238,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c100"
@@ -1380,7 +1251,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#ExplanationExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1388,7 +1258,6 @@
 			"wide"			"210"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1397,7 +1266,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#ExplanationExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1405,7 +1273,6 @@
 			"wide"			"210"
 			"tall"			"65"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1420,10 +1287,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -1445,7 +1310,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1460,10 +1324,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -1484,7 +1346,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1493,7 +1354,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1502,7 +1362,6 @@
 			"wide"			"250"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}	
@@ -1516,12 +1375,10 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_ImportPreview_Refresh"
 		"textAlignment"		"center"
 		"Command"		"BuildPreview"
-		"font"		"HudFontSmallestBold"
 	}
 	
 	"ButtonClose"
@@ -1533,12 +1390,10 @@
 		"wide"		"150"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
 		"Command"		"Close"
 		"Default"		"1"
-		"font"		"HudFontSmallestBold"
 	}
 }

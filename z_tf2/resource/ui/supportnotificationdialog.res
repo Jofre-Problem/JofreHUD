@@ -8,10 +8,8 @@
 		"wide"			"564"
 		"tall"			"387" // Bottom of confirm button + 10 margin
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
@@ -20,7 +18,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ComptTitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Support_Message_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -30,7 +27,6 @@
 		"wide"			"p0.9"
 		"tall"			"14"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "StoreGreen"
 	}
@@ -39,7 +35,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%text%" // Filled with the CS message
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
@@ -49,7 +44,6 @@
 		"wide"			"p0.9"
 		"tall"			"301" // Size 11 font - 27 rows & change
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "Yellow"
 	}
@@ -66,10 +60,8 @@
 		"tall"			"25"
 		"default"		"1"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Support_Message_Show_Later"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"show_later"
@@ -93,10 +85,8 @@
 		"tall"			"25"
 		"default"		"1"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Support_Message_Acknowledge"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"acknowledge"

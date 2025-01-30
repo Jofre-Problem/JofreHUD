@@ -10,8 +10,6 @@
 		"tall"		"300"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 
@@ -25,15 +23,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Save"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"save"
-		"Default"		"0"
 	}
 	"DemoEditRevert"
 	{
@@ -45,15 +39,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Revert"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"revert"
-		"Default"		"0"
 	}
 	"DemoEditOk"
 	{
@@ -65,15 +55,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"OK"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"Close"
-		"Default"		"0"
 	}
 	"DemoEditCancel"
 	{
@@ -85,15 +71,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"Cancel"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"cancel"
-		"Default"		"0"
 	}
 	"DemoEditNew"
 	{
@@ -105,14 +87,10 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"New->"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
-		"Default"		"0"
 	}
 	"DemoEditEdit"
 	{
@@ -124,15 +102,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Edit..."
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"edit"
-		"Default"		"0"
 	}
 	"DemoEditDelete"
 	{
@@ -144,15 +118,11 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"0"
 		//		"0"
 		"labelText"		"Delete"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 		"command"		"delete"
-		"Default"		"0"
 	}
 	"DemoName"
 	{
@@ -164,11 +134,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"yahn.dem"
-		"textAlignment"		"west"
 		////		"0"
 		////		"0"
 	}
@@ -182,8 +149,6 @@
 		"tall"		"206"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 }

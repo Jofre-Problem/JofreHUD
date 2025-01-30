@@ -78,7 +78,6 @@
 					"zpos"			"1"
 					"wide"			"f0"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"contracts/contracts_papers1_vacation"
 					"proportionaltoparent"	"1"
@@ -105,7 +104,6 @@
 				"wide"		"f0"
 				"tall"		"f0"
 				//		"0"
-				"enabled"		"1"
 				//		"0"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"1"
@@ -119,7 +117,6 @@
 					"zpos"			"9"
 					"wide"			"f0"
 					"tall"			"o1"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"contracts\contracts_folder1_front"
 					"proportionaltoparent"	"1"
@@ -137,8 +134,6 @@
 					"zpos"		"100"
 					"wide"		"f0"
 					"tall"		"f0"
-					"enabled"		"1"
-
 					"proportionaltoparent"	"1"
 				}
 
@@ -170,7 +165,6 @@
 							"zpos"			"0"
 							"wide"			"f0"
 							"tall"			"f0"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"contracts/sticky"
 							"proportionaltoparent"	"1"
@@ -183,7 +177,6 @@
 						{
 							"ControlName"			"Label"
 							"fieldName"				"Label"
-							"font"					"QuestStickyText"
 							"labelText"				"#TF_Quest_Status_Encoded"
 							"textAlignment"			"center"
 							"xpos"					"0"
@@ -192,7 +185,6 @@
 							"wide"					"f0"
 							"tall"					"30"
 							//				"0"
-							"enabled"				"1"
 							"proportionaltoparent"	"1"
 
 							"fgcolor"				"Black"
@@ -229,7 +221,6 @@
 							"zpos"			"0"
 							"wide"			"f0"
 							"tall"			"f0"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"contracts/sticky_turn_in"
 							"proportionaltoparent"	"1"
@@ -242,7 +233,6 @@
 						{
 							"ControlName"			"Label"
 							"fieldName"				"Label"
-							"font"					"QuestStickyText"
 							"labelText"				"#TF_Quest_Status_ReadyToTurnIn"
 							"textAlignment"			"center"
 							"xpos"					"0"
@@ -251,7 +241,6 @@
 							"wide"					"f0"
 							"tall"					"30"
 							//				"0"
-							"enabled"				"1"
 							"proportionaltoparent"	"1"
 
 							"fgcolor"				"Black"
@@ -292,7 +281,6 @@
 							"zpos"			"0"
 							"wide"			"f0"
 							"tall"			"f0"
-							"enabled"		"1"
 							"scaleImage"	"1"
 							"image"			"contracts/sticky_inactive"
 							"proportionaltoparent"	"1"
@@ -305,7 +293,6 @@
 						{
 							"ControlName"			"Label"
 							"fieldName"				"Label"
-							"font"					"QuestStickyText"
 							"labelText"				"#TF_Quest_Status_Inactive"
 							"textAlignment"			"center"
 							"xpos"					"0"
@@ -314,7 +301,6 @@
 							"wide"					"f0"
 							"tall"					"30"
 							//				"0"
-							"enabled"				"1"
 							"proportionaltoparent"	"1"
 
 							"mouseinputenabled"	"0"

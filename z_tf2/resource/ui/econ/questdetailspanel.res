@@ -10,7 +10,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 	}
 
@@ -24,7 +23,6 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 252"
 	}
@@ -43,7 +41,6 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -53,14 +50,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -72,7 +67,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"QuestDetailsTitle"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#QuestDetails_Title"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -81,7 +75,6 @@
 		"wide"			"f0"
 		"tall"			"30"
 		//		"0"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"QuestGold"
 
@@ -100,8 +93,6 @@
 		"wide"			"315"
 		"tall"			"340"
 		"proportionaltoparent"	"1"
-		"enabled"		"1"
-
 		"Background"
 		{
 			"ControlName"	"CTFImagePanel"
@@ -111,7 +102,6 @@
 			"zpos"			"0"
 			"wide"			"p1.05"
 			"tall"			"p1"
-			"enabled"		"1"
 			"image"			"quest_details_background"
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"	
@@ -128,9 +118,6 @@
 			"wide"			"105"
 			"tall"			"105"
 			"proportionaltoparent"	"1"
-			"enabled"		"1"
-			"paintborder"	"0"
-
 			"CharacterBackdropImage"
 			{
 				"ControlName"	"CTFImagePanel"
@@ -140,7 +127,6 @@
 				"zpos"			"11"
 				"wide"			"p0.93"
 				"tall"			"p0.93"
-				"enabled"		"1"
 				"image"			"quest_pauling"
 				"scaleImage"	"1"	
 				"proportionaltoparent"	"1"	
@@ -157,7 +143,6 @@
 			"wide"			"210"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"209 201 184 255"
 			"PaintBackgroundType"	"2"
@@ -166,7 +151,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"FlavorTextLabel"
-				"font"			"QuestFlavorText"
 				"labelText"		"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 				"textAlignment"	"north-west"
 				"xpos"			"cs-0.5"
@@ -175,7 +159,6 @@
 				"wide"			"p0.95"
 				"tall"			"p0.9"
 				//		"0"
-				"enabled"		"1"
 				"wrap"			"1"
 				"proportionaltoparent"	"1"
 				"fgcolor"		"Black"
@@ -187,7 +170,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestName"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%questname%"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -196,7 +178,6 @@
 			"wide"			"f0"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"QuestGold"
 			"textinsetx"	"21"
@@ -231,7 +212,6 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"25"
-			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"SubButton"
@@ -243,14 +223,11 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"proportionaltoparent"	"1"
 				"textinsetx"	"25"
 				"labelText"		"#QuestDetails_Accept"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
 				"default"		"1"
 				"actionsignallevel" "3"
 
@@ -277,7 +254,6 @@
 					"zpos"			"1"
 					"wide"			"14"
 					"tall"			"14"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_quest_icon"
 
@@ -296,7 +272,6 @@
 			"zpos"			"11"
 			"wide"			"100"
 			"tall"			"25"
-			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"SubButton"
@@ -308,14 +283,11 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"proportionaltoparent"	"1"
 				"textinsetx"	"25"
 				"labelText"		"#QuestDetails_Discard"
 				"use_proportional_insets" "1"
-				"font"			"HudFontSmallBold"
-				"textAlignment"	"west"
 				"default"		"1"
 				"actionsignallevel" "3"
 
@@ -342,7 +314,6 @@
 					"zpos"			"1"
 					"wide"			"14"
 					"tall"			"14"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"image"			"glyph_workshop_delete"
 

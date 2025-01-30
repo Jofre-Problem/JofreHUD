@@ -10,19 +10,12 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"#Frame_Untitled"
 		
 		"MDLSplitter"
 		{
 			"ControlName"	"Splitter"
 			"fieldName"		"MDLSplitter"
-			"visible"		"1"
-			"enabled"		"1"
-			
 			"child0"
 			{
 				"FilterList"
@@ -36,8 +29,6 @@
 					//	"1"
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"0"
 					"textHidden"	"0"
 					"editable"		"1"
@@ -57,8 +48,6 @@
 					//		"0"
 					//"PinnedCornerOffsetY" "-6"
 					//"UnpinnedCornerOffsetY" "-6"
-					"visible"		"1"
-					"enabled"		"1"
 					//		"0"
 				}
 			}
@@ -69,8 +58,6 @@
 				{
 					"ControlName"	"Splitter"
 					"fieldName"		"SequenceSplitter"
-					"visible"		"1"
-					"enabled"		"1"
 					//	"3"
 					//		"0"
 					"xpos"			"0"
@@ -92,8 +79,6 @@
 							//		"0"
 							//"PinnedCornerOffsetY" "-6"
 							//"UnpinnedCornerOffsetY" "-6"
-							"visible"		"1"
-							"enabled"		"1"
 							//	"0"
 						}
 					}
@@ -112,8 +97,6 @@
 							//		"0"
 							//"PinnedCornerOffsetY" "-6"
 							//"UnpinnedCornerOffsetY" "-6"
-							"visible"		"1"
-							"enabled"		"1"
 							//	"0"
 						}
 					}

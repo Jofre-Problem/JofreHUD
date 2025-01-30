@@ -10,7 +10,6 @@
 		"tall"			"330"
 		"tileImage"		"0"
 		"scaleImage"	"1"
-		"border"		"ButtonBorder"
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
@@ -24,7 +23,6 @@
 		"wide"		"330"
 		"tall"		"15"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"40 37 37 255"
 	}
@@ -53,10 +51,8 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"goprev"
@@ -72,10 +68,8 @@
 		"wide"			"18"
 		"tall"			"43"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"gonext"
@@ -85,7 +79,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameLabel"
-		"font"			"HudFontMedium"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -95,7 +88,6 @@
 		"tall"			"40"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -103,7 +95,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"
@@ -114,10 +105,8 @@
 		"tall"			"18"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"246 237 211 255"
 		"bgcolor_override"	"0 0 0 200"
-		"border"		"ButtonBorder"
 	}
 	
 	"StartOfflinePracticeButton"
@@ -129,10 +118,8 @@
 		"wide"				"150"
 		"tall"				"30"
 		//			"0"
-		"enabled"			"1"
 		//		"0"
 		"labelText"			"#TF_StartPractice"
-		"font"				"HudFontSmallBold"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"startofflinepractice"
@@ -150,7 +137,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DifficultyLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -159,7 +145,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -167,14 +152,12 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"DifficultyComboBox"
-		"Font"				"HudFontSmallestBold"
 		"xpos"				"200"
 		"ypos"				"200"
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"20"
 		//			"0"
-		"enabled"			"1"
 		//		"1"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -194,7 +177,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -203,7 +185,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"246 237 211 255"
 	}
 	
@@ -211,8 +192,6 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
-		"font"			"HudFontSmallest"
-		"textAlignment"	"west"
 		"unicode"		"1"
 		"xpos"			"200"
 		"ypos"			"230"
@@ -220,7 +199,6 @@
 		"wide"			"22"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"maxchars"		"2"
 		"NumericInputOnly"	"1"
@@ -234,9 +212,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		""
-		"textAlignment"	"west"
 		"xpos"			"230"
 		"ypos"			"230"
 		"zpos"			"2"
@@ -244,7 +220,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"116 105 92 255"
 	}
 }

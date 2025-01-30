@@ -3,7 +3,6 @@
 	"partychat"
 	{
 		"fieldName"				"partychat"
-		"enabled"				"1"
 		"xpos"					"5"
 		"ypos"					"10"
 		"zpos"					"1001"
@@ -12,7 +11,6 @@
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
-		"border"		"QuickplayBorder"
 
 		"log_font_small"			"HudFontSmall"
 		"log_font_medium"			"HudFontMediumSmallSecondary"
@@ -111,7 +109,6 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 0"
 		//"RoundedCorners"	"0"
-		"border"		"QuickplayBorder"
 
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"

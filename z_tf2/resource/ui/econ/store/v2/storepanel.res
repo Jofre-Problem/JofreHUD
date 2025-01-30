@@ -9,10 +9,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
@@ -38,7 +36,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
 	"BackgroundFooter"
@@ -50,7 +47,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
 	"FooterLine"
@@ -62,7 +58,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -87,7 +82,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -96,7 +90,6 @@
 		{
 			"textinsetx"		"6"
 			"textAlignment"		"center"
-			"font"				"HudFontSmallBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -116,10 +109,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"close"
@@ -147,7 +138,6 @@
 		"wide"			"190"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 
 	"SupportCommunityMapMakersCheckButton"
@@ -159,7 +149,6 @@
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
-		"font"			"HudFontSmall"
 		"labelText"		""
 		"visible"		"0"
 	}
@@ -174,7 +163,6 @@
 		"zpos"				"5"
 		"wide"				"70"
 		"tall"				"100"
-		"font"				"HudFontSmallest"
 		"wrap"				"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
 		"visible"			"0"
@@ -190,10 +178,8 @@
 		"wide"			"130"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_Checkout"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"checkout"

@@ -10,12 +10,10 @@
 		"wide"		"10"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"			"<"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
 
 		"proportionaltoparent"	"1"
@@ -40,12 +38,10 @@
 		"wide"		"10"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"			">"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
 
 		"proportionaltoparent"	"1"
@@ -70,7 +66,6 @@
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
-		"enabled"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
 	}
@@ -85,7 +80,6 @@
 		"tall"			"f0"
 		"zpos"			"5"
 		"proportionaltoparent"	"1"
-		"border"		"InnerShadowBorder"
 		"mouseinputenabled"	"0"
 	}
 
@@ -98,7 +92,6 @@
 		"zpos"					"1"
 		"wide"					"f0"
 		"tall"					"f0"
-		"enabled"				"1"
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"

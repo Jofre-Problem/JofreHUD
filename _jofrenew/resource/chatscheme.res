@@ -889,7 +889,7 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 			"3"
 		{
-			"font" "fonts/ProductChat.ttf"
+			"font" "_mainstream/_qol/chat-icons/ProductChat.ttf"
 			"name" "ProductChat"
 			"range"         "0x0000 0x017F"
 		}	

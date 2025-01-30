@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 	}
 
@@ -51,7 +50,6 @@
 		//		"0"
 		"visible"		"0"
 		"labelText"		""
-		"textAlignment"	"west"
 		"brighttext"	"1"
 	}
 
@@ -64,7 +62,6 @@
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"4"
-		"enabled"		"1"
 		"textAlignment"	"south-west"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
@@ -80,7 +77,6 @@
 		"wide"			"25"
 		"tall"			"25"
 		"zpos"			"4"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_right"
@@ -96,17 +92,13 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"enabled"		"1"
 		//	"3"
 		"labelText"		""	[$WIN32]
-		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"associated_model"	"bluedoor"
 		"hover"				"2.0"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -120,7 +112,6 @@
 		"tall"			"50"
 		"zpos"			"5"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -136,16 +127,13 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"enabled"		"1"
 		//	"4"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
 		"associated_model"	"reddoor"	
 		"hover"				"2.0"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -159,7 +147,6 @@
 		"tall"			"50"
 		"zpos"			"5"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -175,14 +162,11 @@
 		"wide"			"124"
 		"tall"			"310"
 		//		"2"
-		"enabled"		"1"
 		//	"1"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -196,7 +180,6 @@
 		"tall"			"50"
 		"zpos"			"5"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -212,14 +195,11 @@
 		"wide"			"82"
 		"tall"			"57"
 		//		"2"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -233,7 +213,6 @@
 		"tall"			"50"
 		"zpos"			"5"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
@@ -250,12 +229,10 @@
 		"tall"			"30"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Cancel_NoKey"
 		"textAlignment"	"center"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
 	}
 
 	"CancelHintIcon"
@@ -269,7 +246,6 @@
 		"tall"			"25"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
 		"textAlignment"	"Left"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
@@ -285,10 +261,7 @@
 		"wide"			"450"
 		"tall"			"30"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"west"
-		"font"			"MenuMainTitle"
 		"fgcolor"		"HudOffWhite"
 	}
 	
@@ -302,10 +275,8 @@
 		"wide"			"102" 
 		"tall"			"24"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
-		"font"			"MenuSmallFont"
 		"fgcolor"		"black"
 	}
 	
@@ -319,54 +290,14 @@
 		"wide"			"44"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		"font"			"MenuSmallestFont"
 		"fgcolor"		"white"
 	}
 
-	"MenuBG"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//		"0"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
-	}	
+
 	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		//		"0"
-		"enabled"		"1"
-		//	"0"	
-		"image"			"loadout_bottom_gradient"
-		"PaintBackgroundType"	"0"
-	}		
+
 	
 	"BlueCount"
 	{
@@ -378,11 +309,9 @@
 		"wide"			"90"
 		"tall"			"30"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
 		"brighttext"	"1"
-		"font"			"TeamMenuBold"
 		"fgcolor"		"black"
 	}		
 	
@@ -396,11 +325,9 @@
 		"wide"			"90"
 		"tall"			"30"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
 		"brighttext"	"1"
-		"font"			"TeamMenuBold"
 		"fgcolor"		"black"
 	}	
 	
@@ -414,7 +341,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -483,7 +409,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -552,7 +477,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -597,7 +521,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -643,10 +566,7 @@
 		"tall"			"35"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"west"
-		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
 	}
@@ -662,10 +582,7 @@
 		"tall"			"35"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"west"
-		"font"			"CapPlayerFont"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
@@ -681,10 +598,7 @@
 		"tall"			"35"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Teams_Full"
-		"textAlignment"	"west"
-		"font"			"CapPlayerFont"
 		"fgcolor"		"HudOffWhite"
 		"centerwrap"	"1"
 	}
@@ -700,10 +614,7 @@
 		"tall"			"35"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_Teams_Full"
-		"textAlignment"	"west"
-		"font"			"CapPlayerFont"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}
@@ -718,7 +629,6 @@
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../HUD/arrow_big_down"
 		"scaleImage"	"1"	
 	}

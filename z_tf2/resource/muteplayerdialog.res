@@ -10,7 +10,6 @@
 		"tall"		"380"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"		"1"
 		"medal_width"			"20"
@@ -30,7 +29,6 @@
 		"tall"		"25"
 		//		"0"
 		//		"2"
-		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_MuteIngameVoice"
 		"textAlignment"		"center"
@@ -47,7 +45,6 @@
 		"tall"		"279"
 		//		"3"
 		//		"0"
-		"enabled"		"1"
 		//		"1"
 	}
 	"Button1"
@@ -61,10 +58,8 @@
 		//		"0"
 		//		"3"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Close"
-		"textAlignment"		"west"
 		"Command"		"Close"
 	}
 }

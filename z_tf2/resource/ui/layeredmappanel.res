@@ -35,7 +35,6 @@
 			"zpos"			"-1"
 			"wide"			"480"
 			"tall"			"480"
-			"enabled"		"1"
 			"image"			"mvm/campaign_1_map"
 		}
 	}
@@ -58,7 +57,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/color_panel_blu"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -72,7 +70,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TourLabel"
-			"font"			"HudFontMediumSmall"
 			"labelText"		"Tour of Duty 1"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -104,7 +101,6 @@
 			"tall"			"180"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -118,7 +114,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%tooltipdescription%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -143,8 +138,6 @@
 		"ypos"			"300"
 		"wide"			"60"
 		"tall"			"60"
-		"enabled"		"1"
-		
 		"mapitem_kv"
 		{
 			"name"		  "pop1"
@@ -160,8 +153,6 @@
 		"ypos"			"200"
 		"wide"			"60"
 		"tall"			"60"
-		"enabled"		"1"
-		
 		"mapitem_kv"
 		{
 			"name"		  "pop2"

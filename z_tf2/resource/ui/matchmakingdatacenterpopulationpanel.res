@@ -23,8 +23,6 @@
 		"tall"		"f0"
 		"proportionaltoparent"	"1"
 		"labeltext"		"%datacenter_name%"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallest"
 		"textinsetx"	"10"
 		
 		"mouseinputenabled"	"0"

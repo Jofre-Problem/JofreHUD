@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"enabled"			"1"
 	}
 	
 	"WaveCompleteSummaryPanel"
@@ -21,7 +20,6 @@
 		"zpos"				"0"
 		"wide"				"400"
 		"tall"				"400"
-		"enabled"			"1"
 	}
 	
 	"BossStatusPanel"
@@ -33,8 +31,6 @@
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
-		"enabled"			"1"
-		
 		"pin_to_sibling"               "WaveStatusPanel"
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
@@ -48,7 +44,6 @@
 		"ypos"				"r15"
 		"wide"				"100"
 		"tall"				"100"
-		"enabled" 			"1"
 	}
 
 	"WarningSwoop"
@@ -61,7 +56,6 @@
 		"wide"			"24"
 		"tall"			"220"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../sprites/obj_icons/warning_highlight"
 		"scaleImage"	"1"
 		"time"			"0.3"		
@@ -97,7 +91,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_1_disabled"
 			"scaleImage"	"1"
@@ -113,7 +106,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_2_disabled"
 			"scaleImage"	"1"
@@ -129,7 +121,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_3_disabled"
 			"scaleImage"	"1"
@@ -146,7 +137,6 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"image"			"../hud/hud_mvm_bomb_upgrade_boss"
 			"scaleImage"	"1"
@@ -163,7 +153,6 @@
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
-		"enabled"			"1"			
 	}
 	
 	"VictoryPanelContainer"
@@ -208,7 +197,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -222,14 +210,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
 			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
-			"enabled"		"1"
 			"fgcolor"		"tanlight"		
 		}
 	}

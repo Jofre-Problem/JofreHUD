@@ -19,14 +19,12 @@
 		"PointsLabel"
 		{
 			"fgcolor_override"		"Black"
-			"font"			"QuestFlavorText"
 		}
 
 		"ProgressBarStandard" // current completed
 		{
 			"PointsLabelInvert"
 			{
-				"font"			"QuestFlavorText"
 				"fgcolor_override"	"White"
 			}
 		}
@@ -35,7 +33,6 @@
 		{
 			"PointsLabelInvert"
 			{
-				"font"			"QuestFlavorText"
 				"fgcolor_override"	"White"
 			}
 		}

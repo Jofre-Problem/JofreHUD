@@ -9,8 +9,6 @@
 		"zpos"			"1"
 		"wide"			"46"
 		"tall"			"14"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"TanLight"
 	}	
 	
@@ -23,8 +21,6 @@
 		"zpos"			"2"
 		"wide"			"44"
 		"tall"			"12"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"221 182 72 250"	
 	}
 	
@@ -38,7 +34,6 @@
 		"wide"		"14"
 		"tall"		"14"
 		"image"			"../HUD/mvm_cash"
-		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 	
@@ -46,14 +41,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"HudFontSmallestBold"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"9"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"12"
-		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}
@@ -62,14 +55,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"HudFontSmallestBold"
 		"fgcolor"		"TanDarker"
 		"xpos"			"9"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"12"
-		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 	}

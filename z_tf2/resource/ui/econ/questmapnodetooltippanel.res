@@ -8,9 +8,7 @@
 		"tall"			"50"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"0"
 
 
@@ -25,11 +23,9 @@
 			"tall"			"f0"
 			"autoResize"	"3"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-			"border"		"MainMenuBGBorder"
 
 			"NameLabel"
 			{
@@ -41,7 +37,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"HudFontSmall"
 				"TextAlignment"		"north"
 				"proportionaltoparent" "1"
 			}	
@@ -56,7 +51,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"HudFontSmall"
 				"TextAlignment"		"north"
 				"proportionaltoparent" "1"
 			}

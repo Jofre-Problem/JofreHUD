@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Splitter"
 		"fieldName"		"Splitter"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
@@ -30,8 +28,6 @@
 				//"PinnedCornerOffsetY" "0"
 				//"PinnedCornerOffsetY" "0"
 				//"UnpinnedCornerOffsetY" "0"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 			}
 		}
@@ -52,8 +48,6 @@
 				//"PinnedCornerOffsetY" "0"
 				//"PinnedCornerOffsetY" "0"
 				//"UnpinnedCornerOffsetY" "0"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"1"
 			}
 			
@@ -69,11 +63,8 @@
 				//		"3"
 				//"PinnedCornerOffsetX" "-6"
 				//"PinnedCornerOffsetY" "-6"
-				"visible"		"1"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		""
-				"textAlignment"	"west"
 				////		"0"
 				
 			}			

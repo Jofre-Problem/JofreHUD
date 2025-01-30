@@ -3,7 +3,6 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"enabled"		"1"
 		"xpos"			"125"	[$WIN32]
 		"ypos"			"r62"	[$WIN32]
 		"wide"			"100"
@@ -21,7 +20,6 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
@@ -39,18 +37,15 @@
 		"tall"					"15"
 		//			"1"
 		//				"2"
-		"enabled"				"1"
 		//			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
 		"xpos"					"47"
 		"ypos"					"28"
 		"zpos"					"2"
@@ -58,7 +53,6 @@
 		"tall"					"5"				
 		//			"0"
 		//				"0"
-		"enabled"				"1"
 		"textAlignment"			"Left"
 	}					
 }

@@ -24,7 +24,12 @@ event CompetitiveGame_RestoreChatWindow
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0
 }
-
+event EveryRespawn
+{
+	FireCommand 0 "engine ds_mark respawn"
+//	FireCommand 0 "engine ds_stop"
+//	FireCommand 5 "engine ds_record"
+} 
 event HudMatchStatus_ShowCountdown
 {
 	Animate CountdownLabel	ypos	150	Linear 0.0 0.0

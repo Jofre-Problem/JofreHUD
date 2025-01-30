@@ -11,7 +11,6 @@
 		"tall"			"31"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
 		if_null_comp
@@ -36,7 +35,6 @@
 		"zpos"			"0"
 		"wide"			"17"
 		"tall"			"17"
-		"enabled"		"1"
 		"image"			"../hud/ico_time_10"
 		"scaleImage"		"1"	
 		//"teambg_2"		"../hud/objectives_timepanel_red_bg"
@@ -58,8 +56,6 @@
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
-		"enabled"			"1"
-
 		if_null_comp
 		{
 			"ypos"	"11"
@@ -69,14 +65,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"31"
-			"enabled"		"1"
 			"textAlignment"		"center"
 		}	
 	}
@@ -85,7 +79,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -96,8 +89,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
-
 		if_null_comp
 		{
 			"ypos"	"21"
@@ -107,7 +98,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"xpos"			"0"
@@ -117,7 +107,6 @@
 		"tall"			"30"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		if_null_comp
 		{
 			"ypos"	"24"
@@ -128,9 +117,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"%stopwatchlabel%"
-		"textAlignment"		"west"
 		"xpos"			"25"
 		"ypos"			"5"
 		"zpos"			"4"
@@ -139,7 +126,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 
 		if_null_comp
@@ -160,7 +146,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 
 
@@ -180,7 +165,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"ClockSubTextTiny"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -191,7 +175,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		if_null_comp
 		{
 			"ypos"	"38"

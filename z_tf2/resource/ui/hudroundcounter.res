@@ -8,7 +8,6 @@
 		"zpos"			"2"		
 		"wide"			"300"
 		"tall"			"25"
-		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
 		"starting_width"	"20"

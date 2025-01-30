@@ -3,18 +3,15 @@
 	"ListThumbnail"
 	{
 		"ControlName"			"Panel"
-		"fieldName"				"ListThumbnail"
 		"wide"					"88"
 		"tall"					"74"
 		//			"0"
 		//				"0"
-		"enabled"				"1"
 	}
 
 	"BorderPanel"
 	{
 		"ControlName"			"EditablePanel"
-		"FieldName"				"BorderPanel"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
@@ -22,15 +19,12 @@
 		"tall"					"54"
 		//			"0"
 		//				"0"
-		"visible"				"1"
-		"enabled"				"1"
 		"border"				"ReplayDefaultBorder"
 	}
 	
 	"ScreenshotThumbnail"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"ScreenshotThumbnail"
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -43,13 +37,11 @@
 	"DownloadProgress"
 	{
 		"ControlName"	"ProgressBar"
-		"fieldName"		"DownloadProgress"
 		"zpos"			"3"
 		//	"0"
 		//		"0"
 		"visible"		"0"
 		"tall"			"10"
-		"enabled"		"1"
 		"bgcolor_override" "117 107 95 255"
 		"fgcolor_override" "202 186 160 255"
 	}
@@ -57,14 +49,11 @@
 	"RecordingInProgressLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"RecordingInProgressLabel"
-		"font"			"ReplayMediumSmall"
 		"labelText"		"#Replay_RecordingInProgress"
 		"zpos"			"3"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"paintbackground"	"0"
 		"fgcolor_override" "200 33 27 255"
@@ -73,38 +62,28 @@
 	"DownloadLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"DownloadLabel"
-		"font"			"ReplayMediumSmall"
 		"labelText"		"#Replay_Connecting"
 		"zpos"			"3"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "44 33 27 255"
 	}
 	
 	"ErrorLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ErrorLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#Replay_Error"
 		"zpos"			"3"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 33 27 255"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"DefaultVerySmall"
 		"labelText"		"Untitled"
-		"textAlignment"	"north-west"
 		"xpos"			"2"
 		"ypos"			"56"
 		"wide"			"76"
@@ -112,14 +91,12 @@
 		"zpos"			"10"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override"	"198 186 160 255"
 	}
 	
 	"DownloadButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"DownloadButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
@@ -128,10 +105,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Replay_Download"
-		"font"			"ReplayMediumSmall"
 		"textAlignment"	"center"
 		"Command"		"download"
 	}
@@ -139,12 +114,10 @@
 	"DownloadOverlay"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"DownloadOverlay"
 		"zpos"			"2"
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 200"
 		"Command"		"overlay_clicked"
 	}
@@ -152,7 +125,6 @@
 	"DeleteButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"DeleteButton"
 		"xpos"			"70"
 		"ypos"			"3"
 		"zpos"			"10"
@@ -161,10 +133,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"X"
-		"font"			"ReplayMediumSmall"
 		"textAlignment"	"center"
 		"Command"		"delete_replayitem"
 		"fgcolor"		"200 80 60 255"

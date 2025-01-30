@@ -11,7 +11,6 @@
 		"tall"			"65"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 
 
@@ -26,7 +25,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmallBold"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -34,16 +32,13 @@
 		"tall"			"35"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"west"
 	}
 
 	"TournamentTeamNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"HudFontSmallest"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -51,9 +46,7 @@
 		"tall"			"15"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Tournament_TeamNamePanel"
-		"textAlignment"		"west"
 	}
 
 	"TournamentNameEdit"
@@ -66,14 +59,12 @@
 		"tall"		"16"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"editable"		"1"
 		"maxchars"		"5"
 		"fgcolor_override"		"235 226 202 255"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
-		"textAlignment"		"west"
 	}
 
 	"HudTournamentNameBG"
@@ -87,7 +78,6 @@
 		"zpos"		"0"
 		//	"0"
 		//	"0"
-		"enabled"	"1"
 		"fillcolor"	"0 0 0 255"
 		"scaleImage"	"1"
 	}
@@ -103,12 +93,10 @@
 		"zpos"		"0"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		"labelText"		"Not Ready"
 		"textAlignment"	"center"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
 		"fgcolor"		"Red"
 	}
 
@@ -123,12 +111,10 @@
 		"zpos"		"0"
 		//	"0"
 		//		"2"
-		"enabled"		"1"
 		"labelText"		"Ready"
 		"textAlignment"	"center"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"HudFontSmallestBold"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

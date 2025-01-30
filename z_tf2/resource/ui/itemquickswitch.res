@@ -10,7 +10,6 @@
 		"tall"			"160"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
 		
@@ -26,7 +25,6 @@
 			"tall"			"40"
 			"bgcolor_override"		"59 54 48 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"text_forcesize" "2"
 			
 			"model_xpos"	"25"
@@ -47,9 +45,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"5"
 		"zpos"			"1"
@@ -57,39 +53,32 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 	}
 
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"west"
 		"xpos"			"80"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"140"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"TopLine"
@@ -101,7 +90,6 @@
 		"zpos"			"2"
 		"wide"			"265"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_dotted_line"
 		"tileVertically" "0"
 	}				
@@ -135,7 +123,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
-			"font"			"ItemFontNameSmallest"
 			"labelText"		"#QuickSwitchEquipped"
 			"textAlignment"	"north-west"
 			"xpos"			"3"
@@ -153,7 +140,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoItemsLabel"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
 		"xpos"			"3"
@@ -163,7 +149,6 @@
 		"tall"			"30"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -177,7 +162,6 @@
 		"wide"			"25"
 		"tall"			"120"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"paintbackground"	"0"
 	}

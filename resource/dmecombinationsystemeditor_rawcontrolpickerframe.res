@@ -10,11 +10,7 @@
 		"tall"			"380"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"Select Dme Element"
 		
 		"OkButton"
 		{
@@ -26,14 +22,10 @@
 			"tall"		"24"
 			//		"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//		"2"
 			"labelText"		"Open"
-			"textAlignment"		"center"
 			////		"0"
 			////		"0"
-			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -46,14 +38,10 @@
 			"tall"		"24"
 			//	"0"
 			//		"2"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"3"
 			"labelText"		"Cancel"
-			"textAlignment"	"center"
 			////		"0"
 			////		"0"
-			"Default"		"0"
 		}
 		
 		"RawControlList"
@@ -70,8 +58,6 @@
 			//"PinnedCornerOffsetY" "30"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-36"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 		}
 	}

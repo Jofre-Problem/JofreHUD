@@ -10,17 +10,14 @@
 		"tall"			"250"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -30,14 +27,12 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"40"
@@ -47,7 +42,6 @@
 		"tall"			"130"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -63,10 +57,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"cancel"
@@ -97,10 +89,8 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"
@@ -130,11 +120,9 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Confirm_Opt_Out"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallest"
 		"selected_fgcolor_override" "255 0 0 255"
 	}
 }

@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"470"
 		"tall"			"170"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -19,7 +18,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
 		"xpos"			"19"			// align me to the left edge of the first selection
 		"ypos"			"0"
 		"zpos"			"3"
@@ -27,7 +25,6 @@
 		"tall"			"45"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
 	}
@@ -36,7 +33,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"21"			// align me to the left edge of the first selection
 		"ypos"			"2"
@@ -44,7 +40,6 @@
 		"wide"			"300"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"north-west"
 		"dulltext"		"1"
@@ -61,10 +56,8 @@
 		"tall"			"87"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
 	}
 	
 	"active_selection_bg"
@@ -84,7 +77,6 @@
 			"ypos"			"36"
 			"wide"			"45"
 			"tall"			"110"		
-			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"hud_menu_item_bg_outline"
 			"iconColor"		"ProgressOffWhite"
@@ -303,7 +295,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamToggleHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"130"
 		"ypos"			"130"
 		"zpos"			"1"
@@ -311,7 +302,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"Y"
 		"textAlignment"	"Left"
 	}
@@ -320,7 +310,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamToggleHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"150"
 		"ypos"			"129"
 		"zpos"			"1"
@@ -328,7 +317,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Toggle"
 		"textAlignment"	"Left"
 	}
@@ -337,7 +325,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"280"
 		"ypos"			"130"
 		"zpos"			"1"
@@ -345,7 +332,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"A"
 		"textAlignment"	"Left"
 	}
@@ -354,7 +340,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"300"
 		"ypos"			"129"
 		"zpos"			"1"
@@ -362,7 +347,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Select_Disguise"
 		"textAlignment"	"Left"
 	}
@@ -371,7 +355,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintIcon"
-		"font"			"GameUIButtons"
 		"xpos"			"20"
 		"ypos"			"130"
 		"zpos"			"1"
@@ -379,7 +362,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"B"
 		"textAlignment"	"Left"
 	}
@@ -388,7 +370,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"40"
 		"ypos"			"129"
 		"zpos"			"1"
@@ -396,7 +377,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
 	}
@@ -411,9 +391,7 @@
 		"tall"			"30"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"	
 		"fillcolor"		"0 0 0 190"
-		"PaintBackgroundType"	"0"
 	}
 }

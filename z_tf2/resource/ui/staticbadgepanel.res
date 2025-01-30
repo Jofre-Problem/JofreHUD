@@ -10,7 +10,6 @@
 		"tall"			"f0"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fov"			"70"
 		"start_framed"	"0"
 		"proportionaltoparent"	"1"
@@ -77,7 +76,6 @@
 		"textinsetx"	"0"
 		"textinsety"	"0"
 
-		"font"			"HudFontSmallest"
 		"fgcolor_override"	"HUDBlueTeamSolid"
 		"labelText"		"%rank%"
 		"textAlignment"	"south"
@@ -98,7 +96,6 @@
 		"textinsetx"	"0"
 		"textinsety"	"0"
 
-		"font"			"FontStorePrice"
 		"fgcolor_override"	"TanLight"
 		"labelText"		"%name%"
 		"textAlignment"	"south"

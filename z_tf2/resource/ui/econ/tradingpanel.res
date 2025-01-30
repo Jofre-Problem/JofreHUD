@@ -9,10 +9,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -87,7 +85,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
 	"HeaderLine"
@@ -99,7 +96,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -108,9 +104,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-300"
 		"ypos"			"20"
 		"zpos"			"1"
@@ -118,23 +112,19 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_TradeWindow_Title"
-		"textAlignment"	"west"
 		"xpos"			"c-280"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"560"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 	}
 
 	"AvatarPanel"
@@ -158,7 +148,6 @@
 			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -169,7 +158,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label1Title"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_TradeWindow_Step1"
 		"textAlignment"	"north-west"
 		"xpos"			"c-288"
@@ -178,14 +166,12 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
 	"Label1Explanation"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label1Explanation"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step1Desc"
 		"textAlignment"	"north-west"
 		"xpos"			"c-288"
@@ -194,7 +180,6 @@
 		"wide"			"200"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
 	}
@@ -203,7 +188,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label2Title"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_TradeWindow_Step2"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -212,14 +196,12 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
 	"Label2Explanation"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label2Explanation"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step2Desc"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -228,7 +210,6 @@
 		"wide"			"300"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
 	}
@@ -236,7 +217,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label2ExplanationFreeTrial"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step2Desc_FreeTrial"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -246,7 +226,6 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "201 79 57 255"
 	}
@@ -261,16 +240,11 @@
 		"wide"			"40"
 		"tall"			"40"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"ready"
-		
-		"PaintBackgroundType" "0"
-		
 		"armedBgColor_override" "200 80 60 255"
 		"defaultBgColor_override" "235 226 202 255"
 	}	
@@ -283,7 +257,6 @@
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
-		"enabled"		"1"
 		"bgcolor_override" "46 43 42 255"
 	}
 	"MyReadyImage"
@@ -295,7 +268,6 @@
 		"zpos"			"3"
 		"wide"			"40"
 		"tall"			"40"
-		"enabled"		"1"
 		"image"			"checkmark"
 		"scaleImage"	"1"	
 		"drawcolor"		"200 80 60 255"
@@ -305,7 +277,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MyReadyLabel"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_NotReady"
 		"textAlignment"	"north"
 		"xpos"			"c200"
@@ -314,7 +285,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "117 107 94 255"
@@ -324,7 +294,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label3Title"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_TradeWindow_Step3"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -333,14 +302,12 @@
 		"wide"			"300"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
 	"Label3Explanation"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label3Explanation"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step3Desc"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -349,7 +316,6 @@
 		"wide"			"300"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
 	}
@@ -357,7 +323,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label3ExplanationFreeTrial"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step3Desc_FreeTrial"
 		"textAlignment"	"north-west"
 		"xpos"			"c-40"
@@ -367,7 +332,6 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "201 79 57 255"
 	}
@@ -381,7 +345,6 @@
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
-		"enabled"		"1"
 		"bgcolor_override" "117 107 94 255"
 		
 		"TheirReadyImageBGCenter"
@@ -393,7 +356,6 @@
 			"zpos"			"1"
 			"wide"			"36"
 			"tall"			"36"
-			"enabled"		"1"
 			"bgcolor_override" "46 43 42 255"
 		}
 	}
@@ -406,7 +368,6 @@
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"40"
-		"enabled"		"1"
 		"image"			"checkmark"
 		"scaleImage"	"1"	
 		"drawcolor"		"200 80 60 255"
@@ -415,7 +376,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TheirReadyLabel"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_NotReady"
 		"textAlignment"	"north"
 		"xpos"			"c200"
@@ -424,7 +384,6 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "117 107 94 255"
@@ -434,7 +393,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label4Title"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#TF_TradeWindow_Step4"
 		"textAlignment"	"north-west"
 		"xpos"			"c50"
@@ -444,14 +402,12 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 187 161 255"
 	}
 	"Label4Explanation"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label4Explanation"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"#TF_TradeWindow_Step4Desc"
 		"textAlignment"	"north-west"
 		"xpos"			"c50"
@@ -461,7 +417,6 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"fgcolor_override" "117 107 94 255"
 	}
@@ -469,7 +424,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label4Yours"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"Your showcase"
 		"textAlignment"	"north-west"
 		"xpos"			"c50"
@@ -479,14 +433,12 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
 	}
 	"Label4Theirs"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Label4Theirs"
-		"font"			"ItemFontNameSmallest"
 		"labelText"		"Their showcase"
 		"textAlignment"	"north-east"
 		"xpos"			"c50"
@@ -496,7 +448,6 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
 	}
 	
@@ -523,14 +474,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -579,7 +528,6 @@
 		//		"0"
 		//	"0"
 		"labelText"		"#BackpackShowDetails"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"showdetails"
@@ -595,10 +543,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
 	}		
@@ -606,7 +552,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-127"
@@ -616,7 +561,6 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"NextPageButton"
@@ -629,10 +573,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
 	}		
@@ -648,7 +590,6 @@
 		"wrap"				"1"
 		"autoResize"		"1"
 		//			"0"
-		"enabled"			"1"
 		"labelText"			"CHAT TEXT"
 		"textAlignment"		"south-west"
 		"maxchars"			"4096"
@@ -658,7 +599,6 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName" 			"ChatInputLine"
-		"enabled" 				"1"
 		"xpos"					"c-288"
 		"ypos"					"420"
 		"wide"	 				"286"
@@ -681,16 +621,13 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 
 	"ConfirmEllipsis"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmEllipsis"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%confirm_button_ellipsis%"
-		"textAlignment"	"west"
 		"xpos"			"c50"
 		"ypos"			"350"
 		"zpos"			"1"
@@ -698,14 +635,12 @@
 		"tall"			"40"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "46 43 42 255"
 	}
 	"ConfirmDisabledLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmDisabledLabel"
-		"font"			"ItemFontNameSmall"
 		"labelText"		"#TF_TradeWindow_Verifying"
 		"textAlignment"	"center"
 		"xpos"			"c50"
@@ -715,7 +650,6 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"ConfirmButton"
@@ -730,7 +664,6 @@
 		//		"0"
 		//	"0"
 		"labelText"		"#TF_TradeWindow_WaitingForTrade"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"wrap"			"1"
@@ -747,10 +680,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"cancel"

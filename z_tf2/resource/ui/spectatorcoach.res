@@ -6,7 +6,6 @@
 		"fieldName"		"Spectator"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"specgui"
@@ -21,9 +20,7 @@
 		"tall"			"70"	[$WIN32]
 		"wide"			"f0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
-		"border"		"TFThinLineBorder"
 	}
 
 	"AvatarBGPanel"
@@ -47,7 +44,6 @@
 		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"32"
-		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
 		"color_outline"	"52 48 45 255"
@@ -72,7 +68,6 @@
 		"zpos"			"-100"
 		"wide"			"16"
 		"tall"			"16"
-		"enabled"		"1"
 		"image"			"crosshairs/default"
 		"scaleImage"	"1"
 	}
@@ -81,43 +76,34 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CoachingLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"57"
 		"ypos"			"5"
 		"wide"			"240"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%student_name%"
-		"textAlignment"		"west"
 	}
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"57"
 		"ypos"			"20"
 		"wide"			"240"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"		"west"
 	}	
 	"DistanceLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"57"
 		"ypos"			"35"
 		"wide"			"240"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"%student_distance%"
-		"textAlignment"		"west"
 	}
 
 	"DirectionsLabel"
@@ -130,10 +116,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_StudentCommands"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"		
 	}
 
 	"SwitchCamModeKeyLabel"
@@ -146,10 +129,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"		
 	}
 	"SwitchCamModeLabel"
 	{
@@ -161,11 +142,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"visible"		"0"	[$X360]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_ControlView"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
@@ -177,10 +154,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
 	}
 	"CycleTargetFwdLabel"
 	{
@@ -192,10 +167,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_AttackDesc"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
 	}
 	"CycleTargetRevKeyLabel"
 	{
@@ -207,10 +179,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
 	}
 	"CycleTargetRevLabel"
 	{
@@ -222,10 +192,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_DefendDesc"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
 	}
 	"Slot1KeyLabel"
 	{
@@ -237,10 +204,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"%coach_command_1%"
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
 	}
 	"Slot1Label"
 	{
@@ -252,10 +217,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_Slot1Desc"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
 	}
 	"Slot2KeyLabel"
 	{
@@ -267,10 +229,8 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"%coach_command_2%"
 		"textAlignment"		"east"
-		"font"			"SpectatorKeyHints"
 	}
 	"Slot2Label"
 	{
@@ -282,10 +242,7 @@
 		"tall"			"20"
 		//		"0"
 		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
 		"labelText"		"#TF_Coach_Slot2Desc"
-		"textAlignment"		"west"
-		"font"			"SpectatorKeyHints"
 	}
 
 	"itempanel"
@@ -299,8 +256,6 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
@@ -327,14 +282,12 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 		}
@@ -343,14 +296,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
 			"fgcolor"		"235 226 202 255"

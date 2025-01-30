@@ -10,10 +10,7 @@
 		"tall"		"400"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"		"1"
 	}
 	"PerformanceTool"
 	{
@@ -25,8 +22,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"textHidden"		"0"
 		"editable"		"0"

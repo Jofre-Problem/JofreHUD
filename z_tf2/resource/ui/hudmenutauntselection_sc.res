@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"470"
 		"tall"			"170"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
 		"iconColor"		"255 255 255 255"
@@ -36,7 +35,6 @@
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_taunt_menu_icon"
 		"iconColor"		"255 255 255 255"
@@ -46,7 +44,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
 		"xpos"			"60"			// align me to the left edge of the first selection
 		"ypos"			"5"
 		"zpos"			"3"
@@ -54,7 +51,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
 	}
@@ -63,7 +59,6 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 		"xpos"			"60"			// align me to the left edge of the first selection
 		"ypos"			"6"
@@ -72,7 +67,6 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
@@ -89,7 +83,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -101,7 +94,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -123,7 +115,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 
 		"model_ypos"	"5"
@@ -135,7 +126,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -157,7 +147,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -169,7 +158,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -191,7 +179,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -203,7 +190,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -225,7 +211,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -237,7 +222,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -259,7 +243,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -271,7 +254,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -293,7 +275,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -305,7 +286,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -327,7 +307,6 @@
 		"tall"			"40"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
 		"model_ypos"	"5"
@@ -339,7 +318,6 @@
 			
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"visible"		"0"
 		}
 			
@@ -361,7 +339,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_left"
 	}
@@ -377,7 +354,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_right"
 	}
@@ -393,7 +369,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_select"
 	}
@@ -402,7 +377,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"352"
 		"ypos"			"145"
 		"zpos"			"1"
@@ -410,7 +384,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
 		"textAlignment"	"Left"
 	}
@@ -426,7 +399,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_alt_function"
 	}
@@ -435,7 +407,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"200"
 		"ypos"			"145"
 		"zpos"			"1"
@@ -443,7 +414,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Weapon_NoKey"
 		"textAlignment"	"Left"
 	}
@@ -459,7 +429,6 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"actionSet"		"InGameHUDControls"
 		"actionName"	"menu_cancel"
 
@@ -469,7 +438,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelHintLabel"
-		"font"			"ControllerHintText"
 		"xpos"			"47"
 		"ypos"			"145"
 		"zpos"			"1"
@@ -477,7 +445,6 @@
 		"tall"			"39"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Cancel"
 		"textAlignment"	"Left"
 	}

@@ -14,8 +14,6 @@
 		//"PinnedCornerOffsetY" "0"
 		//"PinnedCornerOffsetY" "0"
 		//"UnpinnedCornerOffsetY" "0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"1"
 	}
 }

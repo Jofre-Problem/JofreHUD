@@ -10,7 +10,6 @@
 		"tall"		"420"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 	"MapList"
@@ -23,7 +22,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"5"
 		"editable"		"0"
 		"maxchars"		"-1"
@@ -38,10 +36,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_Map"
-		"textAlignment"		"west"
 		"associate"		"MapList"
 	}
 
@@ -55,7 +51,6 @@
 		"tall"		"2"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 	}
 
@@ -69,7 +64,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"%gametype%"
 		"textAlignment"		"center"
@@ -85,10 +79,8 @@
 		"tall"		"96"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		""
-		"textAlignment"	"west"
 	}
 
 	"MapDescription"
@@ -101,7 +93,6 @@
 		"tall"			"120"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"maxchars"		"-1"
 		"text"			""
@@ -119,10 +110,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_Bot_NumberOfBots"
-		"textAlignment"		"west"
 	}
 
 	"BotQuotaCombo"
@@ -135,7 +124,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"2"
@@ -152,10 +140,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		""
-		"textAlignment"		"west"
 		"dulltext"		"1"
 	}
 
@@ -169,10 +155,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#TF_Bot_Difficulty"
-		"textAlignment"		"west"
 	}
 
 	"BotDifficultySlider"
@@ -185,7 +169,6 @@
 		"tall"		"50"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"leftText"		""
 		"rightText"		""
@@ -201,7 +184,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty3"
 		"textAlignment"		"east"
@@ -217,7 +199,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty2"
 		"textAlignment"		"center"
@@ -233,7 +214,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty1"
 		"textAlignment"		"center"
@@ -249,10 +229,8 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#TF_Bot_Difficulty0"
-		"textAlignment"		"west"
 		"SubTabPosition"		"1"
 	}
 }

@@ -10,7 +10,6 @@
 		"wide"			"20"
 		"tall"			"34"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"EnemyCountImage"
@@ -22,7 +21,6 @@
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
-		"enabled"		"1"
 		"scaleImage"	"1"
 	}
 	
@@ -35,7 +33,6 @@
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
@@ -50,7 +47,6 @@
 		"zpos"			"1"
 		"wide"			"18"
 		"tall"			"18"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		//"bgcolor" "Yellow"
@@ -64,14 +60,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EnemyCount"
-		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"18"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"14"
-		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
 	}

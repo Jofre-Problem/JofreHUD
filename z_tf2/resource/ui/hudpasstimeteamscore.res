@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
-		"enabled"			"1"
 	}
 
 	"LeftSideBG"
@@ -21,7 +20,6 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_left"
 		"scaleImage"	"1"	
 	}
@@ -35,7 +33,6 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
-		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_right"
 		"scaleImage"	"1"	
 	}
@@ -49,7 +46,6 @@
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
-		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 	}
@@ -63,10 +59,7 @@
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"35"
-		"enabled"		"1"
-		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
 		"fgcolor"		"TanLight"
 	}	
 		
@@ -79,10 +72,7 @@
 		"zpos"			"7"
 		"wide"			"80"
 		"tall"			"35"
-		"enabled"		"1"
-		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"HudFontBig"
 		"fgcolor"		"Black"
 	}	
 							
@@ -95,10 +85,8 @@
 		"zpos"			"8"
 		"wide"			"80"
 		"tall"			"35"
-		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
 		"fgcolor"		"TanLight"		
 	}	
 		
@@ -111,10 +99,8 @@
 		"zpos"			"7"
 		"wide"			"80"
 		"tall"			"35"
-		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontBig"
 		"fgcolor"		"Black"		
 	}
 
@@ -127,8 +113,6 @@
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
-		"enabled"			"1"
-
 		"PlayingTo"
 		{
 			"ControlName"	"CExLabel"
@@ -138,10 +122,8 @@
 			"zpos"			"4"
 			"wide"			"140"
 			"tall"			"30"
-			"enabled"		"1"
 			"labelText"		"#TF_PlayingTo"
 			"textAlignment"	"center"
-			"font"			"HudFontSmall"
 			"fgcolor"		"TanLight"
 		}	
 				
@@ -154,7 +136,6 @@
 			"zpos"			"3"
 			"wide"			"150"
 			"tall"			"38"
-			"enabled"		"1"
 			"image"			"../hud/objectives_flagpanel_bg_playingto"
 			"scaleImage"	"1"	
 		}

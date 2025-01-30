@@ -10,11 +10,7 @@
 		"tall"			"380"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"#Frame_Untitled"
 			
 		"InputOutputSheet"
 		{
@@ -30,8 +26,6 @@
 			//"PinnedCornerOffsetY" "0"
 			//"PinnedCornerOffsetY" "0"
 			//"UnpinnedCornerOffsetY" "-30"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 		}
 		
@@ -47,10 +41,7 @@
 			//		"2"
 			//"PinnedCornerOffsetY" "0"
 			"labelText"		"#AssetBuilder_Compile"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
-			"Default"		"1"
 		}
 
 		"PublishButton"
@@ -65,10 +56,7 @@
 			//		"2"
 			//"PinnedCornerOffsetY" "0"
 			"labelText"		"#AssetBuilder_Publish"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
-			"Default"		"1"
 		}
 
 		"CompileStatus"
@@ -84,10 +72,7 @@
 			//"PinnedCornerOffsetY" "-124"
 			//"PinnedCornerOffsetY" "0"
 			"labelText"		"#AssetBuilder_Publish"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
-			"Default"		"1"
 		}
 
 		"AbortCompileButton"
@@ -103,10 +88,7 @@
 			//"PinnedCornerOffsetX" "0"
 			//"PinnedCornerOffsetY" "0"
 			"labelText"		"#AssetBuilder_AbortCompile"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
-			"Default"		"1"
 		}		
 	}
 }

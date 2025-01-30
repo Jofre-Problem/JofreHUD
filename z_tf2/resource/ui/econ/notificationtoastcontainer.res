@@ -9,8 +9,6 @@
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
-		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
 	}
 
 
@@ -26,11 +24,9 @@
 		"tall"			"38"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

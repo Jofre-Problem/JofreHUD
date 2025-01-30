@@ -10,7 +10,6 @@
 		"tall"			"230"
 		//"PaintBackgroundType"	"0"
 		//"paintbackground"	"0"
-		//"border"		"MainMenuHighlightBorder"
 		
 		"StatsBackground"
 		{
@@ -21,7 +20,6 @@
 			"wide"			"530"
 			"tall"			"230"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -43,7 +41,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
 				"labelText"		"%headershadow%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -57,7 +54,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"HeaderLabel"
-				"font"			"HudFontMediumBold"
 				"labelText"		"%header%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -72,7 +68,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditLabel"
-			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"80"
@@ -106,7 +101,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingLabel"
-				"font"			"HudFontMediumBold"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -120,7 +114,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"1"
@@ -134,7 +127,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingText"
-				"font"			"HudFontGiantBold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
 				"xpos"			"0"
@@ -166,10 +158,8 @@
 		"zpos"			"100"
 		"wide"			"106"
 		"tall"			"25"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		

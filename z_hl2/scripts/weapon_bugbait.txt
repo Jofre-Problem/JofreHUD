@@ -21,7 +21,6 @@ WeaponData
 
 	"autoswitchto"			"0"
 	"autoswitchfrom"		"0"
-	"weight"				"0"
 	"item_flags"			"0"
 
 	// Weapon Sprite data is loaded by the Client DLL.

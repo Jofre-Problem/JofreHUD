@@ -24,7 +24,6 @@
 			"zpos"			"110"
 			"wide"			"o1"
 			"tall"			"60"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -59,10 +58,8 @@
 			"wide"			"15"
 			"tall"			"o1"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"restore_search_criteria"
 			"actionsignallevel"	"2"
@@ -78,7 +75,6 @@
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
-				"enabled"		"1"
 				"image"			"button_load"
 				"scaleImage"	"1"
 			}
@@ -94,10 +90,8 @@
 			"wide"			"15"
 			"tall"			"o1"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"save_search_criteria"
 			"actionsignallevel"	"2"
@@ -113,7 +107,6 @@
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
-				"enabled"		"1"
 				"image"			"button_save"
 				"scaleImage"	"1"
 			}
@@ -129,10 +122,8 @@
 			"wide"			"15"
 			"tall"			"o1"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"?"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"show_explanations"
 			"actionsignallevel"	"2"
@@ -151,7 +142,6 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
 			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -167,8 +157,6 @@
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
-			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanDark"
 		
 			"mouseinputenabled"	"1"
@@ -186,7 +174,6 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
-			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
@@ -204,7 +191,6 @@
 			"wide"			"f15"
 			"tall"			"f65"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -220,7 +206,6 @@
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
-			"border"		"MainMenuBGBorder"
 
 			"ScrollBar"
 			{

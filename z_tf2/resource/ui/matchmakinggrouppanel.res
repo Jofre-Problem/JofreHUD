@@ -20,7 +20,6 @@
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
 	}
 
 	"Checkbutton"
@@ -36,7 +35,6 @@
 		"labeltext"		""
 		"smallcheckimage"	"1"
 		"fgcolor"	"TanLight"	
-		"font"		"HudFontSmallBold"
 
 		"button_activation_type"	"1"
 	}	

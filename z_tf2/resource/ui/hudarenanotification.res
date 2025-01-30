@@ -11,7 +11,6 @@
 		"tall"			"200"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -22,18 +21,15 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"ScoreboardTeamScore"
 		"xpos"			"40"
 		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"!"
 		"textAlignment"		"north"
@@ -42,38 +38,30 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFontSmallBold"
 		"xpos"			"75"
 		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"55"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		""
-		"textAlignment"		"west"
 	}
 
 	"BalanceLabelTip"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabelTip"
-		"font"			"HudFontSmallest"
 		"xpos"			"75"
 		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"230"	[$WIN32]
-		"wide"			"180"	[$X360]
 		"tall"			"30"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"%notificationtip%"
-		"textAlignment"		"west"
 	}
 	"SwitchImage"
 	{
@@ -87,7 +75,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../hud/ico_teambalance"
 		"scaleImage"		"1"
 	}

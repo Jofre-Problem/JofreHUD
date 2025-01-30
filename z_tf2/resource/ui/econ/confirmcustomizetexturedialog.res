@@ -3,12 +3,10 @@
 	"ConfirmCustomizeTextureDialog"
 	{
 		"fieldName"				"ConfirmCustomizeTextureDialog"
-		"enabled"				"1"
 		"xpos"					"c-280"
 		"ypos"					"c-225"
 		"wide"					"560"
 		"tall"					"345"
-		"border"				"GrayDialogBorder"
 	}
 
 //	"Container"
@@ -26,7 +24,6 @@
 //		//		"0"
 //		"PaintBackgroundType"	"0"
 //		"paintbackground"		"1"
-//		"border"				"QuickplayBorder"
 
 		"mouseoveritempanel"
 		{
@@ -51,7 +48,6 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
 				"xpos"			"0"
 				"ypos"			"30"
 				"zpos"			"2"
@@ -68,7 +64,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ToolBG"
-			"font"			"HudFontSmallBold"
 			"labelText"		""
 			"textAlignment"	"east"
 			"xpos"			"10"
@@ -77,7 +72,6 @@
 			"wide"			"84"
 			"tall"			"64"
 			"paintbackground" "0"
-			"border"		"BackpackItemBorder_SelfMade"
 		}
 		"tool_icon"
 		{
@@ -88,7 +82,6 @@
 			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			"backpack_jewel_modify_target_b_g"
 			"tileImage"		"0"
 			"tileVertically" "0"
@@ -106,7 +99,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"80"
@@ -125,7 +117,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"dynamic"
 			"textAlignment"	"center"
 			"xpos"			"100"
@@ -140,7 +131,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubjectBG"
-			"font"			"HudFontSmallBold"
 			"labelText"		""
 			"textAlignment"	"east"
 			"xpos"			"465"
@@ -149,7 +139,6 @@
 			"wide"			"84"
 			"tall"			"64"
 			"paintbackground" "0"
-			"border"		"BackpackItemBorder_3"
 		}
 		"subject_icon"
 		{
@@ -160,7 +149,6 @@
 			"zpos"			"2"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			"backpack_jewel_modify_target_b_g"
 			"tileImage"		"0"
 			"tileVertically" "0"
@@ -179,7 +167,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"80"
@@ -207,7 +194,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			//"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"model_xpos"	"00"
 			"model_ypos"	"00"
 			"model_wide"	"160"
@@ -234,13 +220,10 @@
 			"ypos"			"80"
 			"wide"			"540"
 			"tall"			"260"
-			"enabled"		"1"
-
 			"PageTitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
 				"labelText"		"#ToolCustomizeTextureStep1"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -259,7 +242,6 @@
 				"zpos"		"-1"
 				"wide"		"350"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"UseAvatarRadio"
 				{
@@ -270,8 +252,6 @@
 					"wide"				"330"
 					"tall"				"20"
 					"labelText"		"#ToolCustomizeTextureUseAvatarImage"
-					"textAlignment"		"west"
-					"font"			"HudFontSmallBold"
 				}
 
 				"UseAnyImageRadio"
@@ -283,8 +263,6 @@
 					"wide"				"330"
 					"tall"				"20"
 					"labelText"		"#ToolCustomizeTextureUseAnyImage"
-					"textAlignment"		"west"
-					"font"			"HudFontSmallBold"
 				}
 
 				"BrowseForNewImageButton"
@@ -297,7 +275,6 @@
 					"wide"			"300"
 					"tall"			"20"
 					"labelText"		"#ToolCustomizeTextureBrowseButton"
-					"font"			"HudFontSmallBold"
 					"Command"		"pick_image"
 				}
 
@@ -305,7 +282,6 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"ForBestResultsLabel"
-					"font"			"HudFontSmall"
 					"xpos"		"40"
 					"ypos"		"140"
 					"wide"		"300"
@@ -326,7 +302,6 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"PreviewCroppedImage"
 				{
@@ -349,7 +324,6 @@
 					"wide"		"140"
 					"tall"		"15"
 					"editable"		"0"
-					"font"			"HudFontSmall"
 
 					//"fgcolor_override"	"235 226 202 255"
 					"bgcolor_override"	"0 0 0 255"
@@ -372,7 +346,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 			}
@@ -387,7 +360,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_NextCarat"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"next_page"
 			}
@@ -402,13 +374,10 @@
 			"ypos"			"80"
 			"wide"			"540"
 			"tall"			"260"
-			"enabled"		"1"
-
 			"PageTitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
 				"labelText"		"#ToolCustomizeTextureStep2"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -422,19 +391,16 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"SelectFilterGroupBox"
-				"Font"		"HudFontSmallestBold"
 				"xpos"		"0"
 				"ypos"		"25"
 				"zpos"		"-1"
 				"wide"		"160"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"FilterLabel"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"FilterLabel"
-					"font"			"HudFontSmallBold"
 					"xpos"		"10"
 					"ypos"		"10"
 					"wide"		"140"
@@ -454,7 +420,6 @@
 					"wide"		"140"
 					"tall"		"15"
 					"editable"		"0"
-					"font"			"HudFontSmall"
 					"visible"	"0"
 
 					//"fgcolor_override"	"235 226 202 255"
@@ -486,7 +451,6 @@
 						"tall"		"80"
 						"labelText"		"#ToolCustomizeTexturePainterlyDescription"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmall"
 						"wrap"			"1"
 					}
 				}
@@ -511,7 +475,6 @@
 						"tall"		"60"
 						"labelText"		"#ToolCustomizeTextureStencilDescription"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmall"
 						"wrap"			"1"
 						"visible"	"0"
 					}
@@ -526,7 +489,6 @@
 						"tall"		"15"
 						"labelText"		"#ToolCustomizeTextureColorPalette"
 						"textAlignment"	"north-west"
-						"font"			"HudFontSmallBold"
 					}
 
 					"PrevStencilPaletteButton"
@@ -539,7 +501,6 @@
 						"wide"			"65"
 						"tall"			"15"
 						"labelText"		"<<"
-						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"Command"		"prev_stencil_palette"
 					}
@@ -554,7 +515,6 @@
 						"wide"			"65"
 						"tall"			"15"
 						"labelText"		">>"
-						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"Command"		"next_stencil_palette"
 					}
@@ -580,7 +540,6 @@
 						"wide"		"140"
 						"tall"		"15"
 						"editable"		"0"
-						"font"			"HudFontSmall"
 
 						//"fgcolor_override"	"235 226 202 255"
 						"bgcolor_override"	"0 0 0 255"
@@ -602,7 +561,6 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"PreviewFilteredImage"
 				{
@@ -625,7 +583,6 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"GradientBgPanel"
 				{
@@ -639,7 +596,6 @@
 					"tileImage"		"0"
 					"scaleImage"	"1"
 					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
 					"paintbackgroundtype"	"2"
 					"paintbackground"	"1"
 				}
@@ -648,7 +604,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -670,7 +625,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 			}
@@ -685,7 +639,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_BackCarat"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
 			}
@@ -700,7 +653,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_NextCarat"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"next_page"
 			}
@@ -720,7 +672,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PageTitleLabel"
-				"font"			"HudFontMediumSmall"
 				"labelText"		"#ToolCustomizeTextureStep3"
 				"textAlignment"	"north-west"
 				"xpos"			"0"
@@ -734,25 +685,21 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"WarningTextGroupBox"
-				"Font"		"HudFontSmallestBold"
 				"xpos"		"0"
 				"ypos"		"25"
 				"zpos"		"-1"
 				"wide"		"350"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"WarningText"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"WarningText"
-					"font"			"HudFontSmall"
 					"xpos"		"10"
 					"ypos"		"10"
 					"wide"		"330"
 					"tall"		"180"
 					"labelText"		 "#ToolCustomizeTextureConfirmWarning"
-					"textAlignment"	"west"
 					"wrap"	"1"
 				}
 			}
@@ -766,7 +713,6 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"GradientBgPanel"
 				{
@@ -780,7 +726,6 @@
 					"tileImage"		"0"
 					"scaleImage"	"1"
 					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
 					"paintbackgroundtype"	"2"
 					"paintbackground"	"1"
 				}
@@ -789,7 +734,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"
@@ -811,7 +755,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#Cancel"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 			}
@@ -826,7 +769,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#TF_BackCarat"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
 			}
@@ -841,7 +783,6 @@
 				"wide"			"130"
 				"tall"			"25"
 				"labelText"		"#ToolCustomizeTextureOKButton"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"apply"
@@ -862,7 +803,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PleaseWaitLabel"
-				"font"			"HudFontSmallBold"
 				"labelText"		"#ToolCustomizeTexturePleaseWait"
 				"textAlignment"	"center"
 				"xpos"			"20"
@@ -882,7 +822,6 @@
 				"zpos"		"-1"
 				"wide"		"180"
 				"tall"		"200"
-				"border"		"GrayDialogBorder"
 
 				"GradientBgPanel"
 				{
@@ -896,7 +835,6 @@
 					"tileImage"		"0"
 					"scaleImage"	"1"
 					"image"			"loadout_bottom_gradient"
-					"border"		"ButtonBorder"
 					"paintbackgroundtype"	"2"
 					"paintbackground"	"1"
 				}
@@ -905,7 +843,6 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"DragToRotateLabel"
-					"font"			"HudFontSmall"
 					"labelText"		"#ToolCustomizeTextureDragToRotate"
 					"textAlignment"	"center"
 					"xpos"			"10"

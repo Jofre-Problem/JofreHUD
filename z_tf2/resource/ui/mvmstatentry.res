@@ -4,7 +4,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"%labeltext%"
 		"textAlignment" "north-west"
 		"xpos"			"0"
@@ -17,7 +16,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemValue"
-		"font"			"HudFontSmall"
 		"labelText"		"%valuetext%"
 		"textAlignment" "north-east"
 		"xpos"			"70"

@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"140"
 		"tall"			"40"
-		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -24,7 +23,6 @@
 		"ypos"			"-6"
 		"wide"			"45"
 		"tall"			"45"
-		"enabled"		"1"
 		"image"			"war_soldier_kills"
 		"scaleImage"	"1"
 	}	
@@ -36,7 +34,6 @@
 		"ypos"			"-10"
 		"wide"			"50"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"war_demo_kills"
 		"scaleImage"	"1"
 	}	
@@ -52,11 +49,9 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_WarContribution"
 		"textAlignment"	"north"
-		"font"			"HudFontSmallestBold"
 	}
 	
 	"NumPipesLabel"
@@ -70,11 +65,9 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"%warkills%"
 		"textAlignment"	"center"
-		"font"			"HudFontMedium"
 	}
 	"NumPipesLabelDropshadow"
 	{
@@ -87,11 +80,9 @@
 		"tall"			"20"
 		"autoResize"	"1"
 		//		"2"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"%warkills%"
 		"textAlignment"	"center"
-		"font"			"HudFontMedium"
 		"fgcolor"		"black"
 	}		
 }

@@ -33,11 +33,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"1"
-			"enabled"		"1"
 			//	"0"
 			//"labelText"		"#GameUI_GameMenu_Options"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
 			"textinsetx"	"35"
 			"use_proportional_insets" "1"
 			"default"		"1"
@@ -55,7 +52,6 @@
 				"zpos"			"1"
 				"wide"			"p0.8"
 				"tall"			"p0.8"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"glyph_options"
 				"proportionaltoparent"	"1"
@@ -119,7 +115,6 @@
 
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
 				}
 		
 				"UpButton"
@@ -195,7 +190,6 @@
 
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
 				}
 		
 				"UpButton"
@@ -245,7 +239,6 @@
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"0"
 				}
 				
 				"nobuttons"		"1"

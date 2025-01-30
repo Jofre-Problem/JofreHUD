@@ -9,16 +9,12 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
-		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"paintborder"		"0"
-
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_CompetitiveAccess"
 			"textAlignment"	"center"
 			"xpos"			"5"
@@ -27,7 +23,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -36,7 +31,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#MMenu_CompetitiveAccess_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -45,7 +39,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
@@ -55,7 +48,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1Label"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#MMenu_CompetitiveAccessOption1"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -64,7 +56,6 @@
 			"tall"			"15"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -73,7 +64,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option1DescLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#MMenu_CompetitiveAccessOption1_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -82,7 +72,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
@@ -99,7 +88,6 @@
 			"tall"			"p0.2"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"proportionaltoparent"	"1"
 
@@ -113,7 +101,6 @@
 				"tall"			"f0"
 				"zpos"			"5"
 				"proportionaltoparent"	"1"
-				"border"		"InnerShadowBorder"
 				"mouseinputenabled"	"0"
 			}
 			
@@ -126,11 +113,9 @@
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
-				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
 				"paintborder"	"1"
-				"border"		"ReplayDefaultBorder"
 			}
 
 			"PremiumButton"
@@ -143,7 +128,6 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"enabled"		"1"
 				//	"0"
 				"default"		"1"
 				"labelText"		""
@@ -169,7 +153,6 @@
 					"zpos"			"1"
 					"wide"			"o1"
 					"tall"			"f0"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
 					"image"			"../backpack/crafting/gift_premium_large"
@@ -186,7 +169,6 @@
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"checkmark"
@@ -197,7 +179,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel1"
-				"font"			"HudFontMediumBigBold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.3"
@@ -206,7 +187,6 @@
 				"tall"			"f0"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"
 			}
@@ -221,7 +201,6 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"enabled"		"1"
 				//	"0"
 				"default"		"1"
 				"labelText"		""
@@ -247,7 +226,6 @@
 					"zpos"			"1"
 					"wide"			"o1"
 					"tall"			"f0"
-					"enabled"		"1"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
 					"image"			"mobile_phone"
@@ -264,7 +242,6 @@
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"checkmark"
@@ -275,7 +252,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"AndLabel2"
-				"font"			"HudFontMediumBigBold"
 				"labelText"		"+"
 				"textAlignment"	"center"
 				"xpos"			"p0.65"
@@ -284,7 +260,6 @@
 				"tall"			"f0"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				"fgcolor_override" "TanLight"
 				"proportionaltoparent"	"1"
 			}
@@ -298,7 +273,6 @@
 				"zpos"			"10"
 				"wide"			"p0.3"
 				"tall"			"f0"
-				"enabled"		"1"
 				"proportionaltoparent"	"1"
 
 				"BadgePanel"
@@ -317,7 +291,6 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"enabled"		"1"
 				//	"0"
 				"default"		"1"
 				"labelText"		""
@@ -345,7 +318,6 @@
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
-				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"checkmark"
@@ -357,7 +329,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2Label"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#MMenu_CompetitiveAccessOption2"
 			"textAlignment"	"center"
 			"xpos"			"10"
@@ -366,7 +337,6 @@
 			"tall"			"15"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
 		}
@@ -375,7 +345,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Option2DescLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#MMenu_CompetitiveAccessOption2_Desc"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -384,7 +353,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "TanLight"
 			"proportionaltoparent"	"1"
@@ -399,7 +367,6 @@
 			"zpos"					"100"
 			"wide"					"f40"
 			"tall"					"p0.2"
-			"enabled"				"1"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 

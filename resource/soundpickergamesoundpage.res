@@ -10,8 +10,6 @@
 		"tall"			"256"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		
 		"GameSoundsList"
@@ -26,8 +24,6 @@
 			//		"0"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-36"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 		}
 
@@ -43,11 +39,8 @@
 			//		"2"
 			//"PinnedCornerOffsetX" "6"
 			//"PinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
 			"labelText"		"Filter"
-			"textAlignment"	"east"
 			//		"1"
 			
 		}
@@ -65,8 +58,6 @@
 			//"PinnedCornerOffsetX" "75"
 			//"PinnedCornerOffsetY" "-6"
 			//"PinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
 			"textHidden"	"0"
 			"editable"		"1"

@@ -317,7 +317,6 @@
 		"xpos"			"130"
 		//"xpos_minbad"	"145"
 		"ypos"			"38"
-		"ypos_minbad"	"55"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"

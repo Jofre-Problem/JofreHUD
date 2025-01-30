@@ -32,10 +32,6 @@ rule OdessaVillagerLeadWaitOver
 //------------------------------------------------------------------------------------------------------------
 response "OdessaVillagerLeadCatchup"
 {
-	scene "scenes/coast/odessa/leadlaggingbehind01.vcd" weight 0.5
-	scene "scenes/coast/odessa/leadlaggingbehind02.vcd" weight 0.5
-	scene "scenes/coast/odessa/$gender01/stairman_follow01.vcd" weight 2.0
-	scene "scenes/coast/odessa/$gender01/stairman_follow03.vcd" weight 2.0
 }
 
 rule OdessaVillagerLeadCatchup

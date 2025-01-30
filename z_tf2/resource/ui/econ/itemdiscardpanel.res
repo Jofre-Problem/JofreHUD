@@ -10,10 +10,8 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 255"
 		"infocus_bgcolor_override"		"46 43 42 255"
 		"outoffocus_bgcolor_override"	"46 43 42 255"
@@ -75,14 +73,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -94,9 +90,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel2"
-		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"c-105"
 		"ypos"			"40"
 		"zpos"			"10"
@@ -104,7 +98,6 @@
 		"tall"			"15"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -112,7 +105,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallest"
 		"labelText"		"#DiscardExplanation"
 		"textAlignment"	"north"
 		"xpos"			"c-280"
@@ -122,7 +114,6 @@
 		"tall"			"60"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 	}
 	
@@ -130,7 +121,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel2"
-		"font"			"HudFontSmallest"
 		"labelText"		"#DiscardExplanation2"
 		"textAlignment"	"north"
 		"xpos"			"c90"
@@ -140,7 +130,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"wrap"			"1"
 	}
 	
@@ -148,7 +137,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedCaratLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"<<"
 		"textAlignment"	"east"
 		"xpos"			"c90"
@@ -158,16 +146,13 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	"DiscardedLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#Discarded"
-		"textAlignment"	"west"
 		"xpos"			"c115"
 		"ypos"			"50"
 		"zpos"			"10"
@@ -175,7 +160,6 @@
 		"tall"			"25"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -189,10 +173,8 @@
 		"wide"			"100"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#X_DiscardItem"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"discarditem"
@@ -222,10 +204,8 @@
 		"tall"			"25"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Close"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
 	}
@@ -240,10 +220,8 @@
 		"wide"			"20"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"show_explanations"
 	}
@@ -260,7 +238,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -275,7 +252,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#DiscardItemsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -283,7 +259,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -292,7 +267,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#DiscardItemsExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -300,7 +274,6 @@
 			"wide"			"260"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -315,10 +288,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -339,7 +310,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -348,7 +318,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -357,7 +326,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -370,10 +338,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextexplanation"
 			
@@ -394,7 +360,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -413,7 +378,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-50"
@@ -428,7 +392,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#DiscardButtonExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -436,7 +399,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -445,7 +407,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#DiscardButtonExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -453,7 +414,6 @@
 			"wide"			"260"
 			"tall"			"45"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -468,10 +428,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -492,7 +450,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -507,10 +464,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -531,7 +486,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -540,7 +494,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -549,7 +502,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -562,10 +514,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextexplanation"
 			
@@ -586,7 +536,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -605,7 +554,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c0"
@@ -619,7 +567,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#DiscardDeleteExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -627,7 +574,6 @@
 			"wide"			"260"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -636,7 +582,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#DiscardDeleteExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -644,7 +589,6 @@
 			"wide"			"260"
 			"tall"			"85"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -659,10 +603,8 @@
 			"wide"			"14"
 			"tall"			"14"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -683,7 +625,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -698,10 +639,8 @@
 			"wide"			"30"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			
@@ -722,7 +661,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -731,7 +669,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -740,7 +677,6 @@
 			"wide"			"300"
 			"tall"			"30"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 	}

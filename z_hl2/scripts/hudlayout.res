@@ -7,9 +7,6 @@
 		"ypos"	"432"
 		"wide"	"102"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 		
 		"text_xpos" "8"
@@ -17,16 +14,12 @@
 		"digit_xpos" "50"
 		"digit_ypos" "2"
 	}
-	HudHealth [$X360]
 	{
 		"fieldName"		"HudHealth"
 		"xpos"	"48"
 		"ypos"	"416"
 		"wide"	"115"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 		
 		"text_xpos" "8"
@@ -42,9 +35,6 @@
 		"ypos"	"432"
 		"wide"	"108"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -52,16 +42,12 @@
 		"digit_xpos" "50"
 		"digit_ypos" "2"
 	}
-	HudSuit [$X360]
 	{
 		"fieldName"		"HudSuit"
 		"xpos"	"176"
 		"ypos"	"416"
 		"wide"	"117"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -77,9 +63,6 @@
 		"ypos"	"432"
 		"wide"	"136"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -89,16 +72,12 @@
 		"digit2_xpos" "98"
 		"digit2_ypos" "16"
 	}
-	HudAmmo	[$X360]
 	{
 		"fieldName" "HudAmmo"
 		"xpos"	"r208"
 		"ypos"	"416"
 		"wide"	"160"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -116,9 +95,6 @@
 		"ypos"	"432"
 		"wide"	"60"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -126,16 +102,12 @@
 		"digit_xpos" "36"
 		"digit_ypos" "2"
 	}
-	HudAmmoSecondary	[$X360]
 	{
 		"fieldName" "HudAmmoSecondary"
 		"xpos"	"r113"
 		"ypos"	"416"
 		"wide"	"65"
 		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
 		"PaintBackgroundType"	"2"
 
 		"text_xpos" "8"
@@ -147,8 +119,6 @@
 	HudSuitPower	[$WIN32]
 	{
 		"fieldName" "HudSuitPower"
-		"visible" "1"
-		"enabled" "1"
 		"xpos"	"16"
 		"ypos"	"396"
 		"wide"	"102"
@@ -173,11 +143,8 @@
 
 		"PaintBackgroundType"	"2"
 	}
-	HudSuitPower	[$X360]
 	{
 		"fieldName" "HudSuitPower"
-		"visible" "1"
-		"enabled" "1"
 		"xpos"	"48"
 		"ypos"	"370"
 		"wide"	"102"
@@ -206,7 +173,6 @@
 	HudPosture	[$WIN32]
 	{
 		"fieldName" 		"HudPosture"
-		"visible" 		"1"
 		"PaintBackgroundType"	"2"
 		"xpos"	"16"
 		"ypos"	"316"
@@ -216,10 +182,8 @@
 		"icon_xpos"	"10"
 		"icon_ypos" 	"0"
 	}
-	HudPosture	[$X360]
 	{
 		"fieldName" 		"HudPosture"
-		"visible" 		"1"
 		"PaintBackgroundType"	"2"
 		"xpos"	"48"
 		"ypos"	"316"
@@ -233,13 +197,12 @@
 	HudFlashlight
 	{
 		"fieldName" "HudFlashlight"
-		"visible" "1"
 		"PaintBackgroundType"	"2"
 		"xpos"	"270"		[$WIN32]
 		"ypos"	"444"		[$WIN32]
-		"xpos_hidef"	"293"		[$X360]		// aligned to left
-		"xpos_lodef"	"c-18"		[$X360]		// centered in screen
-		"ypos"	"428"		[$X360]				
+		// aligned to left
+		// centered in screen
+				
 		"tall"  "24"
 		"wide"	"36"
 		"font"	"WeaponIconsSmall"
@@ -257,8 +220,6 @@
 	HudDamageIndicator
 	{
 		"fieldName" "HudDamageIndicator"
-		"visible" "1"
-		"enabled" "1"
 		"DmgColorLeft" "255 0 0 0"
 		"DmgColorRight" "255 0 0 0"
 		
@@ -272,29 +233,20 @@
 	HudZoom
 	{
 		"fieldName" "HudZoom"
-		"visible" "1"
-		"enabled" "1"
 		"Circle1Radius" "66"
 		"Circle2Radius"	"74"
 		"DashGap"	"16"
 		"DashHeight" "4"	[$WIN32]
-		"DashHeight" "6"	[$X360]		
+		
 		"BorderThickness" "88"
 	}
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
 		"ypos" 	"16"	[$WIN32]
-		"ypos" 	"32"	[$X360]
-		"visible" "1"
-		"enabled" "1"
 		"SmallBoxSize" "32"
 		"MediumBoxWide"	"95"
-		"MediumBoxWide_hidef"	"78"
 		"MediumBoxTall"	"50"
-		"MediumBoxTall_hidef"	"50"
-		"MediumBoxWide_lodef"	"74"
-		"MediumBoxTall_lodef"	"50"
 		"LargeBoxWide" "112"
 		"LargeBoxTall" "80"
 		"BoxGap" "8"
@@ -307,8 +259,6 @@
 	HudCrosshair
 	{
 		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -316,8 +266,6 @@
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -325,8 +273,6 @@
 	HudVehicle
 	{
 		"fieldName" "HudVehicle"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -334,8 +280,6 @@
 	ScorePanel
 	{
 		"fieldName" "ScorePanel"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -343,8 +287,6 @@
 	HudTrain
 	{
 		"fieldName" "HudTrain"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -352,8 +294,6 @@
 	HudMOTD
 	{
 		"fieldName" "HudMOTD"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -361,8 +301,6 @@
 	HudMessage
 	{
 		"fieldName" "HudMessage"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
@@ -370,8 +308,6 @@
 	HudMenu
 	{
 		"fieldName" "HudMenu"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -379,14 +315,10 @@
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
 		"xpos"		"c-250"
 		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
 
 		"BgAlpha"	"128"
 
@@ -395,14 +327,12 @@
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"		"0"		[$WIN32]
-		"topoffset"		"0"	[$X360]
 	}
 
 	HudChat
 	{
 		"fieldName" "HudChat"
 		"visible" "0"
-		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	 "4"
@@ -412,8 +342,6 @@
 	HudHistoryResource	[$WIN32]
 	{
 		"fieldName" "HudHistoryResource"
-		"visible" "1"
-		"enabled" "1"
 		"xpos"	"r252"
 		"ypos"	"40"
 		"wide"	 "248"
@@ -426,11 +354,8 @@
 		"text_inset"	"26"
 		"NumberFont"	"HudNumbersSmall"
 	}
-	HudHistoryResource	[$X360]
 	{
 		"fieldName" "HudHistoryResource"
-		"visible" "1"
-		"enabled" "1"
 		"xpos"	"r300"
 		"ypos"	"40" 
 		"wide"	 "248"
@@ -445,8 +370,6 @@
 	HudGeiger
 	{
 		"fieldName" "HudGeiger"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -454,8 +377,6 @@
 	HUDQuickInfo
 	{
 		"fieldName" "HUDQuickInfo"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -463,16 +384,12 @@
 	HudWeapon
 	{
 		"fieldName" "HudWeapon"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -480,8 +397,6 @@
 	HudPredictionDump
 	{
 		"fieldName" "HudPredictionDump"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -490,11 +405,8 @@
 	{
 		"fieldName"				"HudHintDisplay"
 		"visible"				"0"
-		"enabled"				"1"
 		"xpos"					"c-240"
 		"ypos"					"c60"
-		"xpos"	"r148"	[$X360]
-		"ypos"	"r338"	[$X360]
 		"wide"					"480"
 		"tall"					"100"
 		"HintSize"				"1"
@@ -509,11 +421,8 @@
 	{
 		"fieldName"	"HudHintKeyDisplay"
 		"visible"	"0"
-		"enabled" 	"1"
 		"xpos"		"r120"	[$WIN32]
 		"ypos"		"r340"	[$WIN32]
-		"xpos"		"r148"	[$X360]
-		"ypos"		"r338"	[$X360]
 		"wide"		"100"
 		"tall"		"200"
 		"text_xpos"	"8"
@@ -529,8 +438,6 @@
 	HudSquadStatus	[$WIN32]
 	{
 		"fieldName"	"HudSquadStatus"
-		"visible"	"1"
-		"enabled" "1"
 		"xpos"	"r120"
 		"ypos"	"380"
 		"wide"	"104"
@@ -544,11 +451,8 @@
 
 		"PaintBackgroundType"	"2"
 	}
-	HudSquadStatus	[$X360]
 	{
 		"fieldName"	"HudSquadStatus"
-		"visible"	"1"
-		"enabled" "1"
 		"xpos"	"r182"
 		"ypos"	"348"
 		"wide"	"134"
@@ -568,7 +472,6 @@
 	{
 		"fieldName"	"HudPoisonDamageIndicator"
 		"visible"	"0"
-		"enabled" "1"
 		"xpos"	"16"
 		"ypos"	"346"
 		"wide"	"136"
@@ -579,11 +482,9 @@
 		"TextColor"	"255 170 0 220"
 		"PaintBackgroundType"	"2"
 	}
-	HudPoisonDamageIndicator	[$X360]
 	{
 		"fieldName"	"HudPoisonDamageIndicator"
 		"visible"	"0"
-		"enabled" "1"
 		"xpos"	"48"
 		"ypos"	"264"
 		"wide"	"192"
@@ -599,7 +500,6 @@
 	{
 		"fieldName"	"HudCredits"
 		"TextFont"	"Default"
-		"visible"	"1"
 		"xpos"	"0"
 		"ypos"	"0"
 		"wide"	"640"
@@ -611,12 +511,8 @@
 	HUDAutoAim
 	{
 		"fieldName" "HUDAutoAim"
-		"visible" "1"
-		"enabled" "1"
 		"wide"	 "640"	[$WIN32]
 		"tall"	 "480"	[$WIN32]
-		"wide"	 "960"	[$X360]
-		"tall"	 "720"	[$X360]
 	}
 
 	HudCommentary
@@ -626,9 +522,6 @@
 		"ypos"	"350"
 		"wide"	"380"
 		"tall"  "40"
-		"visible" "1"
-		"enabled" "1"
-		
 		"PaintBackgroundType"	"2"
 		
 		"bar_xpos"		"50"
@@ -654,9 +547,6 @@
 		"ypos"	"0"
 		"wide"	"640"
 		"tall"  "480"
-		"visible" "1"
-		"enabled" "1"
-		
 		"Alpha"	"255"
 		"PaintBackgroundType"	"2"
 		
@@ -675,12 +565,9 @@
 	AchievementNotificationPanel	
 	{
 		"fieldName"				"AchievementNotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
 		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
 
@@ -691,8 +578,6 @@
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}	

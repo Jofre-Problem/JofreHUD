@@ -1,6 +1,4 @@
 // Response file to make actors respond to player specific player actions
-criterion "IsVortLabUseEnable" "VortLab_Enable" "1" weight 2 required
-criterion "IsVortLabUseEnable_Bugfix" "VortLab_Enable_Bugfix" "1" weight 2 required
 
 
 response "VortLabUsedisable"

@@ -10,8 +10,6 @@
 		"wide"			"220"
 		"tall"			"26"
 		"visible"		"0"
-		"enabled"		"1"
-		"border"		"TFThinLineBorder"
 	}
 
 	"TextLabel"
@@ -26,10 +24,8 @@
 		"tall"			"f0"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
-		"font"			"TFFontSmall"
 		"proportionaltoparent"	"1"
 	}
 }

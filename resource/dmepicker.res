@@ -10,11 +10,7 @@
 		"tall"			"380"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"1"
-		"title"		"#Frame_Untitled"
 		
 		"DmeBrowser"
 		{
@@ -28,8 +24,6 @@
 			//		"0"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-34"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"1"
 		}
 		
@@ -45,11 +39,8 @@
 			//		"2"
 			//"PinnedCornerOffsetX" "6"
 			//"PinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"Dme Element"
-			"textAlignment"	"east"
 			//		"1"
 			
 		}
@@ -67,8 +58,6 @@
 			//"PinnedCornerOffsetX" "85"
 			//"PinnedCornerOffsetY" "-6"
 			//"PinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"2"
 			"textHidden"	"0"
 			"editable"		"1"

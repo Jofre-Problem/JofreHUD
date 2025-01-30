@@ -22,14 +22,12 @@
 		"tall"			"350"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
 	}
 	
 	"WaveFailHeaderShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveFailHeaderShadow"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-274"
@@ -43,7 +41,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"
@@ -68,9 +65,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SummaryHeader"
-		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%summaryheader%"
-		"textAlignment" "west"
 		"xpos"			"c-250"
 		"ypos"			"135"
 		"wide"			"550"
@@ -90,7 +85,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Collection"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -103,9 +97,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Collected"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
@@ -116,7 +108,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CollectedCount"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -129,9 +120,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Missed"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
@@ -142,7 +131,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MissedCount"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -155,9 +143,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Bonus"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
@@ -168,7 +154,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusCount"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -190,7 +175,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Credit_Use"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -203,7 +187,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"YouLabel"
-			"font"			"FontStorePriceSmall"
 			"labelText"		"#TF_PVE_You"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -216,7 +199,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeamLabel"
-			"font"			"FontStorePriceSmall"
 			"labelText"		"#Winpanel_Team2"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -229,9 +211,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Buybacks"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
@@ -242,7 +222,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountYou"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%buybacksyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -255,7 +234,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BuybackCountTeam"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%buybacksteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -268,9 +246,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Bottles"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
@@ -281,7 +257,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountYou"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%bottlesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -294,7 +269,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BottleCountTeam"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%bottlesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -307,9 +281,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InactiveLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_PVE_Inactive_Upgrades"
-			"textAlignment" "west"
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
@@ -320,7 +292,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountYou"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesyou%"
 			"textAlignment" "east"
 			"xpos"			"120"
@@ -333,7 +304,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ActiveCountTeam"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%inactiveupgradesteam%"
 			"textAlignment" "east"
 			"xpos"			"175"
@@ -360,7 +330,6 @@
 			"wide"			"500"
 			"tall"			"150"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -374,7 +343,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Header"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_PVE_Hint_Header"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -394,7 +362,6 @@
 			"tall"		"50"
 			"image"			""
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"		"1"
 		}
 
@@ -409,7 +376,6 @@
 			"tall"		"50"
 			"image"			""
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"		"1"
 		}
 
@@ -424,7 +390,6 @@
 			"tall"		"50"
 			"image"			""
 			"visible"		"0"
-			"enabled"		"1"
 			"scaleImage"		"1"
 		}
 		
@@ -437,7 +402,6 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"enabled"		"1"
 			"scaleImage"		"1"
 		}
 		
@@ -445,7 +409,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint1"
-			"font"			"HudFontSmallest"
 			"labelText"		"%hint1%"
 			"textAlignment" "north-west"
 			"xpos"			"55"
@@ -465,7 +428,6 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"enabled"		"1"
 			"scaleImage"		"1"
 		}
 		
@@ -473,7 +435,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Hint2"
-			"font"			"HudFontSmallest"
 			"labelText"		"%hint2%"
 			"textAlignment" "north-west"
 			"xpos"			"305"
@@ -494,10 +455,8 @@
 		"zpos"			"999"
 		"wide"			"200"
 		"tall"			"25"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_PVE_Vote_MissionRestart"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		
@@ -514,10 +473,8 @@
 		"zpos"			"1000"
 		"wide"			"100"
 		"tall"			"25"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		

@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"80"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
 	"Briefcase"
@@ -21,17 +20,8 @@
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"30"
-		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"	"1"
-		
-		"if_null_mvm"
-		{
-			"xpos"			"62"
-			"ypos"			"21"
-			"wide"			"38"
-			"tall"			"38"
-		}	
 	}				
 	"StatusIcon"
 	{
@@ -42,7 +32,6 @@
 		"zpos"			"3"
 		"wide"			"30"
 		"tall"			"30"
-		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
 		

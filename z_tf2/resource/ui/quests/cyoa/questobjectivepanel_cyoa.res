@@ -11,7 +11,6 @@
 		"zpos"			"3"
 		"wide"			"148"
 		"tall"			"18"
-		"enabled"		"1"	
 		"proportionaltoparent"	"1"
 		"map_view"	"1"
 		
@@ -35,7 +34,6 @@
 		"tall"			"18"
 		"zpos"			"5"
 		"textinsetx"	"0"
-		"font"			"QuestMap_Small_Blur"
 		"alpha"			"0"
 
 		"TextAlignment"		"north-west"
@@ -54,7 +52,6 @@
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"0"
-		"font"			"QuestMap_Small"
 
 		"TextAlignment"		"north-west"
 		"proportionaltoparent" "1"
@@ -72,7 +69,6 @@
 		"tall"			"10"
 		"zpos"			"3"
 		"alpha"			"0"
-		"font"			"QuestMap_Small_Blur"
 		"textinsetx"	"0"
 		"textAlignment"		"north-west"
 		"proportionaltoparent" "1"

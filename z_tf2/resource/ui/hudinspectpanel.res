@@ -11,8 +11,6 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
@@ -39,7 +37,6 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -47,7 +44,6 @@
 			"tall"			"9"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 		}

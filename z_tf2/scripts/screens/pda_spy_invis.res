@@ -11,7 +11,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//"fg_image"		"flagtime_full"
 		//"bg_image"		"flagtime_empty"
 	}	

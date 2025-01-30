@@ -14,7 +14,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolStrangifierConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -24,7 +23,6 @@
 		"tall"			"100"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"centerwrap"	"1"
 	}
@@ -33,7 +31,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PreviewLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolPaintKitPreview"
 		"textAlignment"	"north"
 		"xpos"			"20"
@@ -43,7 +40,6 @@
 		"tall"			"100"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "TanLight"
 		"centerwrap"	"1"
 		"mouseinputenabled"	"0"
@@ -57,7 +53,6 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"150"
-		"border"		"StorePreviewBorder"
 		"paintborder"	"1"
 
 		"proportionaltoparent"	"1"

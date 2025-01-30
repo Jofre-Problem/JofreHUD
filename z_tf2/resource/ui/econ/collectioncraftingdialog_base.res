@@ -4,7 +4,6 @@
 	{
 		"fieldName"				"CollectionCraftingPanel"
 		"visible"				"0"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"zpos"					"101"
@@ -48,7 +47,6 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"InstructionsLabel"
-				"font"			"TradeUp_Quote"
 				"textAlignment"	"center"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
@@ -56,12 +54,10 @@
 				"wide"			"p0.8"
 				"tall"			"f0"
 				//		"0"	
-				"enabled"		"1"
 				"labelText"		"#TF_CollectionCrafting_AttachItem"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"paintborder"		"0"
 				"fgcolor"		"0 0 0 255"
 				"centerwrap"	"1"
 			}
@@ -77,10 +73,8 @@
 				"tall"			"p0.8"
 				//	"0"
 				//		"0"
-				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
 				"proportionaltoparent" "1"
@@ -108,7 +102,6 @@
 					"zpos"			"1"
 					"wide"			"o1"
 					"tall"			"p1.5"
-					"enabled"		"1"
 					"image"			"trade_ups/trade_ups_attach_box"
 					"scaleImage"	"1"
 					"proportionaltoparent" "1"
@@ -144,7 +137,6 @@
 				"bgcolor_override"		"blank"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
-				"paintborder"	"0"
 				"model_center_x"	"1"
 				"model_center_y"	"1"
 				"model_wide"	"40"
@@ -167,7 +159,6 @@
 	{
 		"fieldName"				"Dimmer"
 		"ControlName"			"EditablePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"zpos"					"0"
@@ -182,19 +173,15 @@
 	{
 		"fieldName"				"BG"
 		"ControlName"			"EditablePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"p1"
 		"tall"					"300"
 		"proportionaltoparent"	"1"
-
-		"Border"
+		"bg"
 		{
-			"fieldName"				"Border"
 			"ControlName"			"EditablePanel"
-			"enabled"				"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"cs-0.5"
 			"zpos"					"1"
@@ -205,7 +192,6 @@
 			"paintbackgroundtype"	"1"
 			"proportionaltoparent"	"1"
 
-			"border"				"GrayDialogBorder"
 		}
 	}
 
@@ -213,7 +199,6 @@
 	{
 		"fieldName"				"DrawingPanel"
 		"ControlName"			"CDrawingPanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"60"
 		"zpos"					"5"
@@ -228,7 +213,6 @@
 	{
 		"fieldName"				"LetterBack_Bottom"
 		"ControlName"			"ImagePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"35"
 		"zpos"					"1"
@@ -244,7 +228,6 @@
 	{
 		"fieldName"				"LetterBack_Top"
 		"ControlName"			"ImagePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"35"
 		"zpos"					"3"
@@ -260,7 +243,6 @@
 	{
 		"fieldName"				"LetterBack_Flap"
 		"ControlName"			"ImagePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"35"
 		"zpos"					"4"
@@ -322,7 +304,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForResponse"
-		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
 		"ypos"			"175"
@@ -331,13 +312,11 @@
 		"tall"			"30"
 		//		"0"	
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_CollectionCrafting_WaitingForResponse"
 		"textAlignment"	"center"
 		"mouseinputenabled" "0"
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
-		"paintborder"		"0"
 		"fgcolor"		"TanLight"
 	}
 
@@ -345,7 +324,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ResponseTimeout"
-		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
 		"ypos"			"175"
@@ -354,14 +332,12 @@
 		"tall"			"30"
 		//		"0"	
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_CollectionCrafting_ReponseTimeout"
 		"textAlignment"	"center"
 		"centerwrap"	"1"
 		"mouseinputenabled" "0"
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
-		"paintborder"		"0"
 		"fgcolor"		"TanLight"
 	}
 
@@ -381,7 +357,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"YouTradedForLabel"
-			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"xpos"			"f0"
 			"ypos"			"17"
@@ -389,12 +364,10 @@
 			"wide"			"f0"
 			"tall"			"50"
 			//		"0"	
-			"enabled"		"1"
 			"labelText"		"%resultstring%"
 			"mouseinputenabled" "0"
 			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
-			"paintborder"		"0"
 			"fgcolor"		"TanLight"
 		}
 
@@ -410,7 +383,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"mouseinputenabled"	"0"
 			"proportionaltoparent"	"1"
 
@@ -438,7 +410,6 @@
 			"zpos"			"1"
 			"wide"			"p0.7"
 			"tall"			"p0.4"
-			"enabled"		"1"
 			"image"			"item_carousel_bg"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
@@ -456,7 +427,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"actionsignallevel"	"4"
 			"proportionaltoparent"	"1"
 
@@ -559,10 +529,8 @@
 			//	"0"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			"proportionaltoparent" "1"
@@ -590,7 +558,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"0"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 				"proportionaltoparent" "1"
@@ -609,7 +576,6 @@
 			//		"0"
 			//			"0"
 			"visible"			"0"
-			"enabled"			"1"
 			"proportionaltoparent"	"1"
 		
 			"auto_scale"		"1"
@@ -626,7 +592,6 @@
 				//		"0"
 				//			"2"
 				"visible"			"0"
-				"enabled"			"1"
 				//		"0"
 				"labelText"			""
 				"textAlignment"		"south-west"
@@ -639,11 +604,7 @@
 			
 			
 				"paintbackground"	"0"
-				"paintbackgroundtype"	"0"
 				"defaultBgColor_Override"	"0 0 0 255"
-			
-				"paintborder"		"0"
-			
 				"image_drawcolor"		"255 255 255 77"
 				"image_armedcolor"		"255 255 255 128"
 				"image_selectedcolor"	"255 255 255 255"
@@ -660,7 +621,6 @@
 					"zpos"			"7"
 					"wide"			"19"
 					"tall"			"19"
-					"enabled"		"1"
 					"scaleImage"	"1"
 				}				
 			}
@@ -708,7 +668,6 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		"mouseinputenabled" "0"
 		"proportionaltoparent"	"1"
 
@@ -736,7 +695,6 @@
 	{
 		"fieldName"				"LetterFront"
 		"ControlName"			"ImagePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"60"
 		"zpos"					"3"
@@ -752,7 +710,6 @@
 	{
 		"fieldName"				"Stamp"
 		"ControlName"			"ImagePanel"
-		"enabled"				"1"
 		"xpos"					"c150"
 		"ypos"					"63"
 		"zpos"					"4"
@@ -775,10 +732,8 @@
 		"tall"			"p0.12"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_CollectionCrafting_ApplyStamp"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"centerwrap"	"0"
 		"default"		"1"
@@ -803,10 +758,8 @@
 		"tall"			"20"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"Send"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"envelopesend"
@@ -823,15 +776,12 @@
 	{
 		"fieldName"				"TradeUpContainer"
 		"ControlName"			"EditablePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"s-1"
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"250"
 		"bgcolor_override"		"46 43 42 0"
-		"paintborder"			"0"
-		"paintbackgroundtype"	"0"
 		"proportionaltoparent"	"1"
 
 		"PaperContainer"
@@ -886,10 +836,8 @@
 				"tall"			"p0.085"
 				//	"0"
 				//		"3"
-				"enabled"		"1"
 				//	"0"
 				"labelText"		"#TF_CollectionCrafting_Submit"
-				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"doneselectingitems"
@@ -915,10 +863,8 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 		"proportionaltoparent" "1"
@@ -945,7 +891,6 @@
 			"zpos"			"1"
 			"wide"			"f0"
 			"tall"			"f0"
-			"enabled"		"1"
 			"image"			"close_button"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
@@ -964,10 +909,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_CollectionCrafting_NextItem"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextitem"
 	}
@@ -983,10 +926,8 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"startexplanation1"
 	}
@@ -1003,10 +944,8 @@
 		//	"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"reload"
 	}
@@ -1022,10 +961,8 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"?"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"startexplanation2"
 	}
@@ -1042,7 +979,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1057,7 +993,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TradeUpsExplanation_Overview_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1066,7 +1001,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1075,7 +1009,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#TradeUpsExplanation_Overview_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1084,7 +1017,6 @@
 			"tall"			"85"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1100,10 +1032,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1124,7 +1054,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1133,7 +1062,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1143,7 +1071,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1157,10 +1084,8 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextexplanation"
 			
@@ -1181,7 +1106,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1200,7 +1124,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c0"
@@ -1214,7 +1137,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TradeUpsExplanation_ItemSlots_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1223,7 +1145,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1232,7 +1153,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#TradeUpsExplanation_ItemSlots_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1241,7 +1161,6 @@
 			"tall"			"p0.8"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1258,10 +1177,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1282,7 +1199,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1298,10 +1214,8 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
@@ -1323,7 +1237,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1332,7 +1245,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1342,7 +1254,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "200 80 60 255"
 		}	
@@ -1360,7 +1271,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-30"
@@ -1375,7 +1285,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TradeUpsExplanation_Signing_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1384,7 +1293,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1393,7 +1301,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#TradeUpsExplanation_Signing_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1402,7 +1309,6 @@
 			"tall"			"p0.8"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1419,10 +1325,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1443,7 +1347,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1452,7 +1355,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1462,7 +1364,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "200 80 60 255"
 		}
@@ -1477,10 +1378,8 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"nextexplanation"
 			"proportionaltoparent"	"1"
@@ -1502,7 +1401,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_forward"
 				"scaleImage"	"1"
 			}				
@@ -1521,7 +1419,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -1535,7 +1432,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TradeUpsExplanation_Stamp_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1544,7 +1440,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1553,7 +1448,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#TradeUpsExplanation_Stamp_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1562,7 +1456,6 @@
 			"tall"			"p0.8"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "46 43 42 255"
@@ -1579,10 +1472,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"close"
 			
@@ -1603,7 +1494,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1619,10 +1509,8 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
@@ -1644,7 +1532,6 @@
 				"zpos"			"1"
 				"wide"			"30"
 				"tall"			"30"
-				"enabled"		"1"
 				"image"			"blog_back"
 				"scaleImage"	"1"
 			}				
@@ -1653,7 +1540,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PositionLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%explanationnumber%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1663,7 +1549,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor_override" "200 80 60 255"
 		}

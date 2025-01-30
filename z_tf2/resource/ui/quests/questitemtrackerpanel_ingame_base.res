@@ -11,8 +11,6 @@
 		"zpos"			"3"
 		"wide"			"250"
 		"tall"			"500"
-		"enabled"		"1"	
-		
 		"attrib_y_start_offset" "8"
 		"attrib_x_offset" "0"
 
@@ -42,7 +40,6 @@
 			"wide"			"100"
 			"tall"			"6"
 			"zpos"			"4"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"bgcolor_override"		"250 234 201 51"
@@ -57,7 +54,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"QuestObjectiveTracker_Desc"
 				"textinsety"	"-1"
 				"TextAlignment"		"center"
 				"proportionaltoparent" "1"
@@ -73,7 +69,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestUncommitted"
 				"zpos"			"2"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"PointsLabelInvert"
@@ -86,7 +81,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"ItemTrackerScore_InGame"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -103,7 +97,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"3"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"bgcolor_override"		"251 235 202 255"
@@ -118,7 +111,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"ItemTrackerScore_InGame"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -136,7 +128,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestMap_Bonus"
 				"zpos"			"4"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 			}
 		}
@@ -148,7 +139,6 @@
 			"wide"			"100"
 			"tall"			"6"
 			"zpos"			"4"
-			"enabled"		"1"
 			"proportionaltoparent" "1"
 
 			"bgcolor_override"		"222 217 166 41"
@@ -163,7 +153,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"1"
-				"font"			"ItemTrackerScore_InGame"
 				"textinsety"	"-1"
 				"TextAlignment"		"center"
 				"proportionaltoparent" "1"
@@ -180,7 +169,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestUncommitted"
 				"zpos"			"2"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 
@@ -194,7 +182,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"ItemTrackerScore_InGame"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -211,7 +198,6 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"zpos"			"3"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 				"bgcolor_override"	"QuestMap_Bonus"
@@ -226,7 +212,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"ItemTrackerScore_InGame"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -244,7 +229,6 @@
 				"tall"			"f0"
 				"bgcolor_override"		"QuestMap_Bonus"
 				"zpos"			"4"
-				"enabled"		"1"
 				"proportionaltoparent" "1"
 
 
@@ -258,7 +242,6 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"zpos"			"8"
-					"font"			"ItemTrackerScore_InGame"
 					"textinsety"	"-1"
 					"TextAlignment"		"center"
 					"proportionaltoparent" "1"
@@ -280,7 +263,6 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"fgcolor_override"		"235 226 202 255"
-		"font"			"AchievementTracker_Name"
 		//"wrap"			"1"
 		"TextAlignment"		"north-east"
 		"proportionaltoparent" "1"
@@ -298,7 +280,6 @@
 		"zpos"			"4"
 		"textinsetx"	"0"
 		"fgcolor"		"TanDark"
-		"font"			"ItemTrackerScore_InGame"
 		"TextAlignment"		"north-west"
 	}
 
@@ -314,7 +295,6 @@
 		"zpos"			"4"
 		"textinsetx"	"0"
 		"fgcolor"		"TanDark"
-		"font"			"ItemTrackerScore_InGame"
 		"TextAlignment"		"north-west"
 	}
 
@@ -327,7 +307,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -342,7 +321,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -357,7 +335,6 @@
 		"zpos"			"1"
 		"wide"			"10"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"cyoa/star_on"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -373,8 +350,6 @@
 		"zpos"			"3"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"	
-
 		"proportionaltoparent" "1"
 
 		"PendingText"
@@ -389,7 +364,6 @@
 			"zpos"			"4"
 			"textinsetx"	"5"
 			"fgcolor_override"		"QuestMap_ActiveOrange"
-			"font"			"QuestObjectiveTracker_Desc"
 			//"wrap"			"1"
 			"TextAlignment"		"north-east"
 			"proportionaltoparent" "1"

@@ -9,7 +9,6 @@
 		"wide"		"125"
 		"tall"		"200"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"bgcolor_override"	"0 0 0 240"
 	}
@@ -47,11 +46,9 @@
 		"wide"		"125"
 		"tall"		"25"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"%title%"
 		"textAlignment"		"north-west"
-		"font"		"HudFontSmallest"
 		"fgcolor_override" "86 78 68 255"
 		"mouseinputenabled" "0"
 	}

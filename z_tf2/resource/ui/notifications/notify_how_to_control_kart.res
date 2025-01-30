@@ -11,7 +11,6 @@
 		"tall"			"120"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"image"			"../hud/notification_black"
 		"scaleImage"	"1"
 	}
@@ -24,7 +23,6 @@
 		"ypos"			"35"
 		"wide"			"30"
 		"tall"			"30"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_kart"
 	}
@@ -33,14 +31,12 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"Default"
 		"xpos"			"30"
 		"ypos"			"27"
 		"wide"			"200"
 		"tall"			"300"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#TF_How_To_Control_Kart"
 		"textAlignment"	"North-West"
 	}

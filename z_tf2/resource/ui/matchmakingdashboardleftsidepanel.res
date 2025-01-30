@@ -24,7 +24,6 @@
 		"wide"		"f0"
 		"tall"		"60"
 		"zpos"	"98"
-		"enabled"		"1"
 		"rotation"		"3"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -43,7 +42,6 @@
 		"wide"		"30"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"enabled"		"1"
 		"rotation"		"2"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -61,7 +59,6 @@
 		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"enabled"		"1"
 		"rotation"		"1"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -84,7 +81,6 @@
 		"command"		"nav_close"
 		"labelText"		">"
 		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -104,8 +100,6 @@
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -124,6 +118,5 @@
 		"tall"			"f-20"
 		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
 	}
 }

@@ -53,18 +53,15 @@ Scheme
 		// Top-left corner of the "Half-Life 2" on the main screen
 		"Main.Title1.X"			"53"
 		"Main.Title1.Y"			"190"
-		"Main.Title1.Y_hidef"	"184"
 		"Main.Title1.Color"	"255 255 255 255"
 
 		// Top-left corner of secondary title e.g. "DEMO" on the main screen
 		"Main.Title2.X"				"291"
 		"Main.Title2.Y"				"207"
-		"Main.Title2.Y_hidef"		"242"
 		"Main.Title2.Color"	"255 255 255 200"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
-		"Main.Menu.X_hidef"		"76"
 		"Main.Menu.Y"			"240"
 
 		// Blank space to leave beneath the menu on the main screen
@@ -92,10 +89,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"400"
-				"antialias" "1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -103,61 +98,46 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"400"
-				"antialias" "1"
 			}
 		}
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
 		Default
 		{
-			"1"	[$X360]
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"700"
-				"antialias" "1"
 			}
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"9"
-				"weight"	"700"
-				"antialias" "1"
 				"yres"	"1 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"700"
-				"antialias" "1"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
-				"antialias" "1"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
-				"antialias" "1"
 				"yres"	"1200 10000"
 				"additive"	"1"
 			}
@@ -166,113 +146,94 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
-				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
-				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
 			}
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"0"
 			}
 		}
 		WeaponIcons
@@ -281,9 +242,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"64"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -294,9 +252,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"64"
-				"tall_hidef"	"58"
-				"weight"	"0"
-				"antialias" "1"
 				"blur"		"5"
 				"scanlines"	"2"
 				"additive"	"1"
@@ -309,8 +264,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"32"
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -322,8 +275,6 @@ Scheme
 				"name"		"HalfLife2"
 				"tall"		"40" [!$OSX]
 				"tall"		"41" [$OSX]
-				"weight"	"0"
-				"antialias" "0"
 				"additive"	"1"
 				"custom"	"1"
 				"yres"		"1 10000"
@@ -331,12 +282,9 @@ Scheme
 		}
 		QuickInfo
 		{
-			"1"	[$X360]
 			{
 				"name"		"HL2cross"
 				"tall"		"57"
-				"weight"	"0"
-				"antialias" 	"1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -345,8 +293,6 @@ Scheme
 				"name"		"HL2cross"
 				"tall"		"28" [!$OSX]
 				"tall"		"50" [$OSX]
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1" [!$OSX]
 			}
@@ -357,21 +303,15 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"32"	[$WIN32]
-				"tall"		"38"	[$X360]
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
 		}
-		SquadIcon	[$X360]
 		{
 			"1"
 			{
 				"name"		"HalfLife2"
 				"tall"		"50"
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -382,11 +322,8 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"32"	[$WIN32]
-				"tall"		"38"	[$X360]
-				"weight"	"0"
 				"blur"		"4"
 				"scanlines" "2"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -398,10 +335,7 @@ Scheme
 				"name"		"HalfLife2" [!$OSX]
 				"name"		"Helvetica Bold" [$OSX]
 				"tall"		"16"	[$WIN32]
-				"tall"		"22"	[$X360]
-				"weight"	"1000"
 				"additive"	"1"
-				"antialias" "1"
 				"custom"	"1"
 			}
 		}
@@ -409,29 +343,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"11"
-				"weight"	"700"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
 		HudHintTextLarge
 		{
-			"1"	[$X360]
-			{
-				"bitmap"	"1"
-				"name"		"Buttons"
-				"scalex"	"1.0"
-				"scaley"	"1.0"
-			}
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"1000"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -439,19 +361,8 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Segoe UI" 
 				"tall"		"11"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"700"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -459,104 +370,82 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"8"
-				"weight"	"700"
-				"antialias" "1"
 				"yres"	"1 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"700"
-				"antialias" "1"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"900"
-				"antialias" "1"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
-				"antialias" "1"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"17"
-				"weight"	"1000"
-				"antialias" "1"
 				"yres"	"1200 10000"
 			}
 		}
 		GameUIButtons
 		{
-			"1"	[$X360]
 			{
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.63"
 				"scaley"	"0.63"
-				"scalex_hidef"	"1.0"
-				"scaley_hidef"	"1.0"
 			}
 		}
 		BudgetLabel
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
 			}
 		}
 		DebugOverlay
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
 			}
-			"1"	[$X360]
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"200"
-				"outline"	"1"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Segoe UI" [!$OSX]
+				"name"		"Segoe UI" [$OSX]
 				"tall"		"26" [!$OSX]
 				"tall"		"24" [$OSX]
-				"weight"	"500"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
+				"name"		"Segoe UI" [!$OSX]
+				"name"		"Segoe UI Italic" [$OSX]
 				"tall"		"26" [!$OSX]
 				"tall"		"24" [$OSX]
-				"weight"	"500"
 				"italic"	"1"
 			}
 		}
@@ -564,22 +453,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Segoe UI" [!$OSX]
+				"name"		"Segoe UI Bold" [$OSX]
 				"tall"		"26" [!$OSX]
 				"tall"		"24" [$OSX]
-				"weight"	"900"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
+				"name"		"Segoe UI" [!$OSX]
+				"name"		"Segoe UI Bold Italic" [$OSX]
 				"tall"		"26" [!$OSX]
 				"tall"		"24" [$OSX]
-				"weight"	"900"
 				"italic"	"1"
 			}
 		}
@@ -587,12 +474,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Segoe UI" [!$OSX]
+				"name"		"Segoe UI" [$OSX]
 				"tall"		"16" [!$OSX]
 				"tall"		"14" [$OSX]
- 				"tall_hidef"	"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -603,7 +488,6 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
 				"symbol"	"1"
 			}
 		}
@@ -611,11 +495,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"segoe ui"
 				"tall"		"24"
-				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -623,9 +505,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"segoe ui"
 				"tall"		"18"
-				"weight"	"900"
 			}
 		}
 		ClientTitleFont
@@ -634,10 +515,7 @@ Scheme
 			{
 				"name"  "HalfLife2"
 				"tall"			"32"
-				"tall_hidef"	"46"
-				"weight" "0"
 				"additive" "0"
-				"antialias" "1"
 				"custom"	"1" [$OSX]
 			}
 		}
@@ -647,8 +525,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"128"
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -657,10 +533,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"segoe ui"
 				"tall"		"20"
-				"weight"	"900"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -670,8 +544,6 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"48"
-				"weight"	"0"
-				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
@@ -680,11 +552,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana" [!$OSX]
+				"name"		"Segoe UI" [!$OSX]
 				"name"		"Courier Bold" [$OSX]
 				"tall"		"9"
-				"weight"	"900"
-				"antialias" "1"
 			}
 		}
 		CenterPrintText
@@ -692,11 +562,9 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"segoe ui" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -705,10 +573,8 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"segoe ui"
 				"tall"		"24"
-				"weight"	"900"
-				"antialias" "1"
 				"additive"	"1"
 			}
 		}
@@ -716,71 +582,58 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"segoe ui"
 				"tall"		"14"
-				"weight"	"900"
-				"antialias" "1"
 			}
 		}
 		"CommentaryDefault"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
-				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
 			}
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
 			}
 			
 		}

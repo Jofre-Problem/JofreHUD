@@ -24,7 +24,6 @@
 			"tall"					"20"
 			"proportionaltoparent"	"1"
 
-			"border"	"QuestStatusBorder"
 			"paintborder"	"2"
 
 			"ItemName"
@@ -39,7 +38,6 @@
 				"zpos"			"4"
 				"textinsetx"	"5"
 				"fgcolor_override"		"235 226 202 255"
-				"font"			"AchievementTracker_Name"
 				//"wrap"			"1"
 				"TextAlignment"		"east"
 				"proportionaltoparent" "1"
@@ -54,7 +52,6 @@
 				"zpos"			"0"
 				"wide"			"o1"
 				"tall"			"p0.8"
-				"enabled"		"1"
 				"image"			"animated/tf2_speaker_icon"
 				"scaleImage"	"1"	
 				"proportionaltoparent"	"1"	

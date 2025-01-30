@@ -6,8 +6,6 @@
 		"zpos"			"9999"
 		"wide"			"200"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"	
 	}
 
 	"ScorerLabel"
@@ -20,7 +18,6 @@
 		"tall"			"f0"
 				"proportionaltoparent"	"1"
 
-		"textAlignment"	"north-east"
 		"labelText"	"%scorer%"
 		"font"			"QuestObjectiveTracker_Desc"
 	//	"fgcolor_override"		"QuestMap_ActiveOrange"
@@ -36,7 +33,6 @@
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 
-		"textAlignment"	"north-east"
 		"labelText"	"%scorer%"
 		"font"			"QuestObjectiveTracker_DescBlur"
 	//	"fgcolor_override"		"QuestMap_ActiveOrange"

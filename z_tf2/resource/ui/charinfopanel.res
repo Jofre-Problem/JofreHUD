@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
@@ -39,7 +37,6 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"enabled"		"1"
 		"image"			"loadout_header"
 	}				
 	"BackgroundFooter"
@@ -51,7 +48,6 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 	}				
 	"FooterLine"
@@ -63,7 +59,6 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -88,7 +83,6 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"enabled"		"1"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -96,7 +90,6 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -117,10 +110,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"back"
 	}		
@@ -135,6 +126,5 @@
 		"wide"			"190"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 }

@@ -3,29 +3,23 @@
 	"confirmquitdlg"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"confirmquitdlg"
 		"xpos"			"c-200"
 		"ypos"			"c-95"
 		"wide"			"400"
 		"tall"			"275"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
-		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 	}
 
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
 		"xpos"			"25"
 		"ypos"			"0"
 		"wide"			"350"
 		"tall"			"190"
-		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"59 54 48 255"
 	}
@@ -33,8 +27,6 @@
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
 		"labelText"		"#Replay_ConfirmQuitTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -44,16 +36,12 @@
 		"tall"			"50"
 		//	"1"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#Replay_ConfirmQuit"
 		"textAlignment"	"north"
 		"xpos"			"10"
@@ -63,15 +51,12 @@
 		"tall"			"100"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"centerwrap"	"1"
 	}
 
 	"RenderButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"RenderButton"
 		"xpos"			"65"
 		"ypos"			"90"
 		"zpos"			"20"
@@ -79,22 +64,15 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Replay_RenderNow"
-		"font"			"ReplayMediumSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"rendernow"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"ReplaysButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"ReplaysButton"
 		"xpos"			"65"
 		"ypos"			"115"
 		"zpos"			"20"
@@ -102,22 +80,15 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Replay_TakeMeToReplays"
-		"font"			"ReplayMediumSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"gotoreplays"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}			
 	
 	"QuitButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"QuitButton"
 		"xpos"			"65"
 		"ypos"			"140"
 		"zpos"			"20"
@@ -125,24 +96,16 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Replay_YesReallyQuit"
-		"font"			"ReplayMediumSmall"
 		"textAlignment"	"center"
-		"textinsetx"	"50"
 		"Command"		"quit"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
 
 	"DontShowThisAgainCheckbox"
 	{
 		"ControlName"	"CheckButton"
-		"fieldName"		"DontShowThisAgainCheckbox"
 		"labelText"		"#Replay_DontShowThisAgain"
-		"Font"			"ItemFontAttribSmall"
 		"xpos"			"130"
 		"ypos"			"165"
 		"zpos"			"1"
@@ -150,8 +113,6 @@
 		"tall"			"20"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"10"
 	}
 }

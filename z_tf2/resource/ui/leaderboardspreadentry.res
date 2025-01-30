@@ -10,18 +10,6 @@
 		"wide"			"f0"
 		"tall"			"30"
 		"proportionaltoparent"	"1"
-
-		"Border"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"Border"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"f0"
-			"tall"					"f0"
-			"border"				"MainMenuBGBorderAlpha"
-			"proportionaltoparent"	"1"
-		}
 	
 		"Background"
 		{
@@ -46,7 +34,6 @@
 			"zpos"			"3"
 			"wide"			"16"
 			"tall"			"16"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -57,9 +44,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UserName"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%username%"
-			"textAlignment"	"west"
 			"xpos"			"35"
 			"ypos"			"cs-0.5"
 			"zpos"			"2"
@@ -67,7 +52,6 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 		}
 
@@ -75,7 +59,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Score"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"%score%"
 			"textAlignment"	"east"
 			"xpos"			"r200"
@@ -85,7 +68,6 @@
 			"tall"			"16"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 		}		
 
@@ -98,7 +80,6 @@
 			"zpos"					"100"
 			"wide"					"80"
 			"tall"					"10"
-			"border"				"MainMenuBGBorderAlpha"
 			"proportionaltoparent"	"1"
 		
 			"ProgressToNextLevel"
@@ -112,7 +93,6 @@
 				"tall"				"p0.4"
 				//		"1"
 				//			"0"
-				"enabled"			"1"
 				"fgcolor_override"	"89 81 71 255"
 				"bgcolor_override"	"196 145 38 255"
 				"proportionaltoparent" "1"
@@ -129,7 +109,6 @@
 				"zpos"					"1"
 				"wide"					"f0"
 				"tall"					"f0"
-				"border"				"MainMenuBGBorderAlpha"
 				"proportionaltoparent"	"1"
 			}
 		}

@@ -18,7 +18,6 @@
 		"ypos"			"10"
 		"wide"			"80"
 		"tall"			"40"
-		"enabled"		"1"
 		"image"			"../hud/ammo_blue_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -34,7 +33,6 @@
 		"zpos"			"0"
 		"wide"			"64"
 		"tall"			"56"
-		"enabled"		"1"
 		"image"			"spellbook_book"
 		"scaleImage"	"1"		
 	}
@@ -48,7 +46,6 @@
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
-		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
@@ -58,9 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ActionText"
-		"font"			"Default"
 		"labelText"		"%actiontext%"
-		"textAlignment" "west"
 		"xpos"			"18"
 		"ypos"			"48"
 		"wide"			"100"
@@ -72,9 +67,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpellText"
-		"font"			"Default"
 		"labelText"		"%selectedspell%"
-		"textAlignment" "west"
 		"xpos"			"35"
 		"ypos"			"25"
 		"wide"			"100"
@@ -87,7 +80,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"47"
@@ -101,7 +93,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"46"

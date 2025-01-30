@@ -22,7 +22,6 @@
 		"tall"			"30"
 		"proportionaltoparent"	"1"
 		//"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"

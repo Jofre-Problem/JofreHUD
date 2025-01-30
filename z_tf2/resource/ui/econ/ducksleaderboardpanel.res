@@ -10,9 +10,7 @@
 		"tall"			"f0"
 		//	"3"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
-		"PaintBackgroundType"	"0"
 		"entry_step"	"30"
 		"proportionaltoparent" "1"
 
@@ -42,7 +40,6 @@
 			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"100"
-			"enabled"		"1"
 			"image"			"animated/tf2_logo_hourglass"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
@@ -53,7 +50,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%title%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -63,7 +59,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent" "1"
 		}
@@ -87,7 +82,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"font"			"HudFontSmall"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
 			"xpos"			"p0.05"
@@ -97,7 +91,6 @@
 			"tall"			"40"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent" "1"
@@ -107,7 +100,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LevelLabel"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_Duck_Level"
 			"textAlignment"	"east"
 			"xpos"			"230"
@@ -117,7 +109,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent" "1"
 		}
@@ -126,7 +117,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DuckXP"
-			"font"			"HudFontSmallestBold"
 			"labelText"		"#TF_Duck_XP"
 			"textAlignment"	"east"
 			"xpos"			"303"
@@ -136,7 +126,6 @@
 			"tall"			"20"
 			//	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"TanLight"
 			"proportionaltoparent" "1"
 		}
@@ -153,13 +142,11 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -169,7 +156,6 @@
 			"tall"			"30"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
 			"wrap"			"1"
 			"centerwrap"	"1"

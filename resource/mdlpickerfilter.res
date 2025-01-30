@@ -10,8 +10,6 @@
 		"tall"			"480"
 		//	"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//	"0"
 		
 		"MDLBrowser"
@@ -26,8 +24,6 @@
 			//		"0"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-34"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 		}
 		
@@ -45,8 +41,6 @@
 			//"PinnedCornerOffsetY" "-6"
 			//"PinnedCornerOffsetY" "-6"
 			//"UnpinnedCornerOffsetY" "-6"
-			"visible"		"1"
-			"enabled"		"1"
 			//	"0"
 			"textHidden"	"0"
 			"editable"		"1"

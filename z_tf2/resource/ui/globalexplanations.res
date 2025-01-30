@@ -9,7 +9,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"paintbackground"		"0"
-		"paintborder"			"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"1"
 		"keyboardinputenabled"	"0"
@@ -28,7 +27,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -56,7 +54,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r280"
@@ -84,7 +81,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -112,7 +108,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r280"
@@ -140,7 +135,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -168,7 +162,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"0"
 			"end_x"			"r515"
@@ -196,7 +189,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -224,7 +216,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -252,7 +243,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -280,7 +270,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -308,7 +297,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -336,7 +324,6 @@
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground" "0"
-			"border"		"MainMenuHighlightBorder"
 		
 			"force_close"	"1"
 			"end_x"			"r515"
@@ -363,7 +350,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"r100"
@@ -390,7 +376,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -407,7 +392,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -416,7 +400,6 @@
 			"tall"			"60"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -425,7 +408,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_TutorialHighlight_Text"
 			"textAlignment"	"south-west"
 			"xpos"			"20"
@@ -434,7 +416,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -451,10 +432,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -476,7 +455,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -493,7 +471,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -510,7 +487,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_PracticeHighlight_Title"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -519,7 +495,6 @@
 			"tall"			"50"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -528,7 +503,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_PracticeHighlight_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -537,7 +511,6 @@
 			"tall"			"40"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override" "46 43 42 255"
 		}
 		
@@ -552,10 +525,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -577,7 +548,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -596,7 +566,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c-112"
 		"start_y"		"437"
@@ -613,7 +582,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -622,7 +590,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -631,7 +598,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_NewUserForumHighlight_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -640,7 +606,6 @@
 			"tall"			"90"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -656,10 +621,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -681,7 +644,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -700,7 +662,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c238"
 		"start_y"		"437"
@@ -717,7 +678,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -726,7 +686,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -735,7 +694,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -744,7 +702,6 @@
 			"tall"			"90"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -760,10 +717,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -785,7 +740,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -804,7 +758,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c-190"
 		"start_y"		"267"
@@ -821,7 +774,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -830,7 +782,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -839,7 +790,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -848,7 +798,6 @@
 			"tall"			"190"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -864,10 +813,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -889,7 +836,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -908,7 +854,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"start_x"		"c20"
 		"start_y"		"285"
@@ -925,7 +870,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -934,7 +878,6 @@
 			"tall"			"20"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -943,7 +886,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -952,7 +894,6 @@
 			"tall"			"190"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -968,10 +909,8 @@
 			"tall"			"14"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"close"
@@ -993,7 +932,6 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"enabled"		"1"
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
@@ -1012,7 +950,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"0"
 		"end_x"			"r300"
@@ -1039,7 +976,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"0"
 		"end_x"			"r450"
@@ -1068,7 +1004,6 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"0"
 		"end_x"			"r600"

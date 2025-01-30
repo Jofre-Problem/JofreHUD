@@ -26,7 +26,6 @@
 		"scaleImage"	"1"
 		"image"			"class_portraits/silhouette_alpha"
 		"mouseinputenabled"	"0"
-		"border"	"QuickplayBorder"
 	}
 
 	"BGPanel"
@@ -52,7 +51,6 @@
 		"zpos"			"105"
 		"wide"			"28"
 		"tall"			"o1"
-		"enabled"		"1"
 		"image"			"pve/mvm_ticket_active"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
@@ -69,7 +67,6 @@
 		"zpos"			"105"
 		"wide"			"28"
 		"tall"			"o1"
-		"enabled"		"1"
 		"image"			"pve/mvm_voucher_active"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"

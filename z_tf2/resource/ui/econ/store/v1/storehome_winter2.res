@@ -10,10 +10,8 @@
 		"tall"			"480"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
@@ -45,8 +43,6 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
 			"model_xpos"	"18"
 			"model_ypos"	"5"
 			"model_wide"	"53"
@@ -69,7 +65,6 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -79,8 +74,6 @@
 			"autoResize"	"1"
 			//		"0"	
 			"visible"		"0"
-			"enabled"		"1"
-			
 			"use_item_sounds" "1"
 		}
 	}
@@ -108,14 +101,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -131,8 +122,6 @@
 		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"300"
-		"enabled"		"1"
-	
 		"SaxtonImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -142,7 +131,6 @@
 			"zpos"			"1"
 			"wide"			"275"
 			"tall"			"275"
-			"enabled"		"1"
 			"image"			"store/store_xmas_sale_2"
 			"scaleImage"	"1"
 		}
@@ -182,7 +170,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_FeaturedItem"
 		"textAlignment"	"north"
 		"xpos"			"c-215"
@@ -192,13 +179,11 @@
 		"tall"			"70"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}		
 	"FeaturedItemPrice"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FeaturedItemPrice"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%featured_item_price%"
 		"textAlignment"	"center"
 		"xpos"			"c-97"
@@ -208,7 +193,6 @@
 		"tall"			"50"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 	}		
 	"FeaturedItemSymbol"
 	{
@@ -219,7 +203,6 @@
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"50"
-		"enabled"		"1"
 		"image"			"store/store_starburst"
 		"scaleImage"	"1"
 	}
@@ -228,7 +211,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackpackSpaceLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"east"
 		"xpos"			"c-330"
@@ -239,7 +221,6 @@
 		"autoResize"	"1"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"CheckoutButton"
@@ -252,10 +233,8 @@
 		"wide"			"210"
 		"tall"			"25"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_StartShopping"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"startshopping"
@@ -270,7 +249,6 @@
 		"zpos"			"0"
 		"wide"			"355"
 		"tall"			"290"
-		"border"		""
 
 		"BGImage"
 		{
@@ -281,7 +259,6 @@
 			"zpos"			"-1"
 			"wide"			"355"
 			"tall"			"290"
-			"enabled"		"1"
 			"image"			"store/store_home_background"
 			"scaleImage"	"1"
 		}
@@ -290,7 +267,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"IntroTitleLabel"
-			"font"			"HudFontMediumSmallBold"
 			"labelText"		"#Store_IntroTitle_Winter2"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -300,7 +276,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"46 43 42 255"
 		}		
 
@@ -308,7 +283,6 @@
 		{
 			"ControlName"	"CRichTextWithScrollbarBorders"
 			"fieldName"		"IntroRichText"
-			"font"			"HudFontSmallest"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
 			"ypos"			"30"
@@ -317,7 +291,6 @@
 			"tall"			"115"
 			"autoResize"	"3"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"text"			"#Store_IntroText_Winter2"
 			"fgcolor"		"46 43 42 255"
@@ -339,7 +312,6 @@
 			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"25"
-			"enabled"		"1"
 			"image"			"store/store_saxton_signature"
 			"scaleImage"	"1"
 		}
@@ -347,7 +319,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SaxtonSignatureLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#Store_CEOMannCo"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -357,7 +328,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor"		"46 43 42 255"
 		}		
 
@@ -365,7 +335,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionsTitleLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#Store_Promotions"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -375,7 +344,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 		}		
 		
 		"PromotionBonusItem"
@@ -387,14 +355,11 @@
 			"zpos"			"1"
 			"wide"			"160"
 			"tall"			"95"
-			"enabled"		"1"
-			"border"		"StorePromotion"
 		}
 		"PromotionLabel_BonusItem"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionLabel_BonusItem"
-			"font"			"StorePromotionsTitle"
 			"labelText"		"#Store_Promotion_SpendForGift"
 			"textAlignment"	"north"
 			"xpos"			"185"
@@ -404,7 +369,6 @@
 			"tall"			"50"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
@@ -418,7 +382,6 @@
 			"zpos"			"2"
 			"wide"			"60"
 			"tall"			"30"
-			"enabled"		"1"
 			"image"			"store/store_surprise"
 			"scaleImage"	"1"
 		}
@@ -426,7 +389,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionSubLabel_BonusItem"
-			"font"			"HudFontSmallest"
 			"labelText"		"#Store_Promotion_SpendForGift_Sub"
 			"textAlignment"	"center"
 			"xpos"			"185"
@@ -436,7 +398,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
@@ -451,14 +412,11 @@
 			"zpos"			"1"
 			"wide"			"165"
 			"tall"			"95"
-			"enabled"		"1"
-			"border"		"StorePromotion"
 		}
 		"PromotionLabel_Hat"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionLabel_Hat"
-			"font"			"StorePromotionsTitle"
 			"labelText"		"#Store_Promotion_FirstPurchaseGift"
 			"textAlignment"	"north"
 			"xpos"			"18"
@@ -468,7 +426,6 @@
 			"tall"			"50"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
@@ -482,7 +439,6 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"100"
-			"enabled"		"1"
 			"image"			"../backpack/player/items/all_class/all_manncap_large"
 			"scaleImage"	"1"
 		}
@@ -490,7 +446,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PromotionSubLabel_Hat"
-			"font"			"HudFontSmallest"
 			"labelText"		"#Store_Promotion_FirstPurchaseGift_Sub"
 			"textAlignment"	"center"
 			"xpos"			"18"
@@ -500,7 +455,6 @@
 			"tall"			"20"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor"		"46 43 42 255"
@@ -518,10 +472,8 @@
 		"tall"			"15"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"reloadscheme"

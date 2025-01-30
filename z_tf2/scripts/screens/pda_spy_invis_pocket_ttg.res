@@ -11,7 +11,6 @@
 		"tall"			"80"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"fg_image"	"ttg_watch_FG"
 		"bg_image"	"ttg_watch_BG"
 	}	

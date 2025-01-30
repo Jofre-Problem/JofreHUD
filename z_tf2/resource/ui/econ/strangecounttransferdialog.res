@@ -3,7 +3,6 @@
 	"StrangeCountTrasnferDialog"
 	{
 		"fieldName"				"StrangeCountTrasnferDialog"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.5"
 		"zpos"					"101"
@@ -16,23 +15,19 @@
 	{
 		"fieldName"				"BG"
 		"ControlName"			"EditablePanel"
-		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"cs-0.7"
 		"zpos"					"0"
 		"wide"					"400"
 		"tall"					"240"
 		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"proportionaltoparent"	"1"
-		"border"				"GrayDialogBorder"
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -42,7 +37,6 @@
 			"tall"			"60"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"centerwrap"	"1"
 		}
 
@@ -50,7 +44,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ToolBG"
-			"font"			"HudFontSmallBold"
 			"labelText"		""
 			"textAlignment"	"east"
 			"xpos"			"10"
@@ -60,9 +53,7 @@
 			"tall"			"64"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"paintbackground" "0"
-			"border"		"BackpackItemBorder_SelfMade"
 		}				
 		"SourceItem"
 		{		
@@ -76,7 +67,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"80"
@@ -96,7 +86,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubjectBG"
-			"font"			"HudFontSmallBold"
 			"labelText"		""
 			"textAlignment"	"east"
 			"xpos"			"300"
@@ -106,9 +95,7 @@
 			"tall"			"64"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"paintbackground" "0"
-			"border"		"BackpackItemBorder_Vintage"
 		}	
 		"TargetItem"
 		{		
@@ -122,7 +109,6 @@
 			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"80"
@@ -142,7 +128,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -152,7 +137,6 @@
 			"tall"			"100"
 			"autoResize"	"1"
 			//		"0"
-			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "200 80 60 255"
 		}
@@ -167,10 +151,8 @@
 			"wide"			"130"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#Cancel"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"cancel"
 			"actionsignallevel"	"2"
@@ -186,10 +168,8 @@
 			"wide"			"130"
 			"tall"			"25"
 			//		"3"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#CraftNameConfirm"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"default"		"1"
 			"Command"		"apply"

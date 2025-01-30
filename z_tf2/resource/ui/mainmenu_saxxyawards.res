@@ -11,8 +11,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//		"0"
-		"enabled"		"1"
-		
 		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 255"
 	}
@@ -28,8 +26,6 @@
 		"wide"			"360"
 		"tall"			"340"
 		//		"0"
-		"enabled"		"1"
-		
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"scaleAmount"	"0"
@@ -56,7 +52,6 @@
 		"tall"			"128"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	
 	"InfoLabel"
@@ -65,7 +60,6 @@
 		"FieldName"			"InfoLabel"
 		"LabelText"			"#Replay_Contest_Info"
 		"zpos"				"1000"
-		"font"				"HudFontSmallestBold"
 		"visible"			"0"
 		"fgcolor_override" "220 220 220 255"
 		"centerwrap"		"1"
@@ -83,7 +77,6 @@
 		"FieldName"			"ContestOverLabel"
 		"LabelText"			"#Replay_Contest_Over"
 		"zpos"				"1000"
-		"font"				"HudFontSmallestBold"
 		"visible"			"0"
 		"fgcolor_override" "220 220 220 255"
 		"centerwrap"		"1"
@@ -105,10 +98,8 @@
 		"wide"			"95"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_SubmitEntry"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"submit"
@@ -129,10 +120,8 @@
 		"wide"			"95"
 		"tall"			"20"
 		//		"0"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"#Replay_Contest_Details"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"Command"		"viewdetails"
 		"border_default"	"ButtonBorder"
@@ -158,7 +147,6 @@
 		"wide"			"350"
 		"tall"			"290"
 		//		"0"
-		"enabled"		"1"
 	}
 	
 	"CurtainsPanel"
@@ -172,8 +160,6 @@
 		"wide"			"350"
 		"tall"			"290"
 		//		"0"
-		"enabled"		"1"
-		
 		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 0"
 		
@@ -181,7 +167,6 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SaxxyTitleImage"
-			"enabled"		"1"
 			"tileImage"		"0"
 			"scaleImage"	"1"
 			"scaleAmount"	"0"
@@ -205,8 +190,6 @@
 			"wide"			"100"
 			"tall"			"195"
 			//		"0"
-			"enabled"		"1"
-
 			"fov"			"20"
 			"allow_rot"		"0"
 			"start_framed"	"1"
@@ -236,8 +219,6 @@
 			"wide"			"175"
 			"tall"			"290"
 			//		"0"
-			"enabled"		"1"
-			
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "0 0 0 255"
 		}
@@ -258,7 +239,6 @@
 			"wide"			"175"
 			"tall"			"290"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"CurtainsStatic"
@@ -277,7 +257,6 @@
 			"wide"			"350"
 			"tall"			"290"
 			//		"0"
-			"enabled"		"1"
 		}
 		
 		"TestPanel"
@@ -292,8 +271,6 @@
 			"zpos"	"1002"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
-			
 			"PaintBackgroundType"	"2"
 			"bgcolor_override" "0 255 0 255"
 		}

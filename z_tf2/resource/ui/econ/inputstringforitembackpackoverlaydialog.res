@@ -3,15 +3,12 @@
 	"InputStringForItemBackpackOverlayDialog"
 	{
 		"fieldName"				"InputStringForItemBackpackOverlayDialog"
-		"enabled"				"1"
 		"xpos"					"c-140"
 		"ypos"					"c-165"
 		"wide"					"320"
 		"tall"					"330"
 		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"GrayDialogBorder"
 
 		"modelpanels_kv"
 		{
@@ -70,14 +67,12 @@
 		
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
 			//		"0"
-			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
@@ -89,7 +84,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#ShuffleContents_Title"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -99,7 +93,6 @@
 		"tall"			"60"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"proportionalToParent"	"1"
 	}
@@ -113,7 +106,6 @@
 		"zpos"			"1"
 		"wide"			"120"
 		"tall"			"90"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
@@ -142,7 +134,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LootlistLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Econ_Revolving_Loot_List"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -152,7 +143,6 @@
 		"tall"			"60"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"proportionalToParent"	"1"
 	}
@@ -161,7 +151,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RareLootLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#Econ_Revolving_Loot_List_Rare_Item"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -172,7 +161,6 @@
 		"fgcolor"		"ItemAttribPositive"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"proportionalToParent"	"1"
 	}
@@ -181,7 +169,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#ShuffleContents_Desc"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -191,7 +178,6 @@
 		"tall"			"60"
 		"autoResize"	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"proportionalToParent"	"1"
 	}
@@ -206,7 +192,6 @@
 		"wide"			"200"
 		"tall"			"15"
 		//		"0"
-		"enabled"		"1"
 		"proportionalToParent"	"1"
 	}
 
@@ -214,14 +199,12 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"TextEntryControl"
-		"Font"				"HudFontSmall"
 		"xpos"				"c-150"
 		"ypos"				"r75"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"15"
 		//		"0"
-		"enabled"		"1"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"117 107 94 255"
@@ -241,10 +224,8 @@
 		"wide"			"95" //From 90
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"#ShuffleContents"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		//	"0"
@@ -262,10 +243,8 @@
 		"wide"			"90"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"1"
 		"labelText"		"#TF_VR_Close"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 		//	"1"
@@ -282,10 +261,8 @@
 		"wide"			"150"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"#GetKey"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"getkey"
 		"proportionalToParent"	"1"
@@ -301,10 +278,8 @@
 		"wide"			"150"
 		"tall"			"25"
 		//		"3"
-		"enabled"		"1"
 		//	"2"
 		"labelText"		"#UseKey"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"usekey"
 		"proportionalToParent"	"1"

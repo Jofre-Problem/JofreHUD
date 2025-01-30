@@ -10,11 +10,7 @@
 		"tall"		"768"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
 	}
 	"ClientCombo"
 	{
@@ -26,8 +22,6 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"textHidden"		"0"
 		"editable"		"0"
@@ -45,8 +39,6 @@
 		"tall"		"670"
 		//		"2"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 	"ViewsSheet"
@@ -59,8 +51,6 @@
 		"tall"		"704"
 		//		"3"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 	}
 }

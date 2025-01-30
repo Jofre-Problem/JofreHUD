@@ -3,38 +3,30 @@
 	"BonusMapsDialog" //basic components of large window
 	{
 		"ControlName"		"CBonusMapsDialog"
-		"fieldName"		"BonusMapsDialog"
 		"xpos"		"272"
 		"ypos"		"154"
 		"wide"		"630"
 		"tall"		"444"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"settitlebarvisible"		"1"
 		"title"		"#GameUI_BonusMaps"
 	}
 	"listpanel_bonusmaps" //inside box w/ scroll bar
 	{
 		"ControlName"		"PanelListPanel"
-		"fieldName"		"listpanel_bonusmaps"
 		"xpos"		"20"
 		"ypos"		"50"
 		"wide"		"594"
 		"tall"		"280"
 		//		"3"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"1"
 	}
 	
 	"Back" //back button
 	{
 		"ControlName"		"Button"
-		"fieldName"		"Back"
 		"xpos"		"20"
 		"ypos"		"410"
 		"wide"		"70"
@@ -49,14 +41,12 @@
 	"LoadBonusMap" //load button
 	{
 		"ControlName"		"Button"
-		"fieldName"		"LoadBonusMap"
 		"xpos"		"452"
 		"ypos"		"410"
 		"wide"		"82"
 		"tall"		"24"
 		//		"0"
 		//		"3"
-		"visible"		"1"
 		//		"3"
 		"labelText"		"#GameUI_Load"
 		"Command"		"loadbonusmap"
@@ -65,15 +55,12 @@
 	"Cancel" //cancel button
 	{
 		"ControlName"		"Button"
-		"fieldName"		"Cancel"
 		"xpos"		"544"
 		"ypos"		"410"
 		"wide"		"70"
 		"tall"		"24"
 		//		"0"
 		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
 		"Command"		"Close"
@@ -81,15 +68,12 @@
 	"ImportBonusMaps"
 	{
 		"ControlName"		"Button"
-		"fieldName"		"ImportBonusMaps"
 		"xpos"		"20"
 		"ypos"		"410"
 		"wide"		"160"
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
 		"Command"		"ImportBonusMaps"
@@ -98,7 +82,6 @@
 	"PercentageBarBackground" //light grey overall percentage
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"PercentageBarBackground"
 		"xpos"		"98"
 		"ypos"		"410"
 		"wide"		"346"
@@ -106,12 +89,10 @@
 		"fillcolor"	"0 0 0 64"
 		"zpos"	"-2"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	"PercentageBar" //dark grey current completed
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"PercentageBar"
 		"xpos"		"98"
 		"ypos"		"410"
 		"wide"		"0"
@@ -119,12 +100,10 @@
 		"fillcolor"	"255 255 255 255"
 		"zpos"	"-1"
 		"visible"		"0"
-		"enabled"		"1"
 	}
 	"PercentageText" //Percent Text inside the percentage field
 	{
 		"ControlName"		"Label"
-		"fieldName"		"PercentageText"
 		"xpos"		"90"
 		"ypos"		"410"
 		"wide"		"176"
@@ -132,7 +111,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"0%"
 		"textAlignment"		"east"
@@ -140,7 +118,6 @@
 	"CompletionText" //Complete text inside the percentage field
 	{
 		"ControlName"		"Label"
-		"fieldName"		"CompletionText"
 		"xpos"		"276"
 		"ypos"		"410"
 		"wide"		"176"
@@ -148,7 +125,6 @@
 		//		"0"
 		//		"0"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
 	}
@@ -156,15 +132,12 @@
 	"HelpText" //Upper large menu screen description
 	{
 		"ControlName"		"Label"
-		"fieldName"		"HelpText"
 		"xpos"		"20"
 		"ypos"		"26"
 		"wide"		"444"
 		"tall"		"36"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
 		"labelText"		"#GameUI_BonusMapsHelp"
 		"wrap"		"1"
@@ -173,39 +146,28 @@
 	"FileName" //file path name
 	{
 		"ControlName"		"Label"
-		"fieldName"		"FileName"
 		"xpos"		"20"
 		"ypos"		"340"
 		"wide"		"368"
 		"tall"		"12"
 		//		"0"
 		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"north-west"
-		"font"	"DefaultSmall"
 	}
 	"CommentLabel" //description underneath the file name
 	{
 		"ControlName"		"Label"
-		"fieldName"		"CommentLabel"
 		"xpos"		"20"
 		"ypos"		"358"
 		"wide"		"360"
 		"tall"		"40"
-		"visible"		"1"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"	"north-west"
-		"font"	"DefaultSmall"
 		"wrap"		"1"
 	}
 	
 	"ChallengeSelection" //drop down challenge box
 	{
 		"ControlName"		"ComboBox"
-		"fieldName"		"ChallengeSelection"
 		"xpos"		"452"
 		"ypos"		"340"
 		"wide"		"162"
@@ -219,22 +181,17 @@
 	"ChallengeCommentLabel" //when you select a challenge it's the text description
 	{
 		"ControlName"		"Label"
-		"fieldName"		"ChallengeCommentLabel"
 		"xpos"		"452"
 		"ypos"		"367"
 		"wide"		"162"
 		"tall"		"32"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"north-west"
-		"font"		"DefaultSmall"
 		"wrap"		"1"
 	}
 	"ChallengeMedalOverview00" //image when no challenge is selected
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeMedalOverview00"
 		"xpos"			"452"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -246,7 +203,6 @@
 	"ChallengeMedalOverview01"
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeMedalOverview01"
 		"xpos"			"488"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -258,7 +214,6 @@
 	"ChallengeMedalOverview02"
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeMedalOverview02"
 		"xpos"			"524"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -270,7 +225,6 @@
 	"ChallengeMedalOverview03"
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeMedalOverview03"
 		"xpos"			"560"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -282,7 +236,6 @@
 	"ChallengeMedalOverview04"
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeMedalOverview04"
 		"xpos"			"596"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -294,7 +247,6 @@
 	"ChallengeEarnedMedal" //big image on the left when you've selected a challenge mode from the drop down tab
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeEarnedMedal"
 		"xpos"			"325"
 		"ypos"			"340"
 		"zpos"			"-1"
@@ -306,22 +258,17 @@
 	"ChallengeBestLabel" //"Best: #"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"ChallengeBestLabel"
 		"xpos"		"395"
 		"ypos"		"340"
 		"wide"		"60"
 		"tall"		"12"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"north-west"
-		"font"		"DefaultSmall"
 		"wrap"		"1"
 	}
 	"ChallengeNextMedal" //Small icon
 	{
 		"ControlName"	"CBitmapImagePanel"
-		"fieldName"		"ChallengeNextMedal"
 		"xpos"			"395"
 		"ypos"			"372"
 		"zpos"			"-1"
@@ -333,16 +280,12 @@
 	"ChallengeNextLabel" //"Goal: #"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"ChallengeNextLabel"
 		"xpos"		"395"
 		"ypos"		"354"
 		"wide"		"54"
 		"tall"		"12"
 		"visible"		"0"
-		"enabled"		"1"
 		//		"0"
-		"textAlignment"		"north-west"
-		"font"		"DefaultSmall"
 		"wrap"		"1"
 	}
 }

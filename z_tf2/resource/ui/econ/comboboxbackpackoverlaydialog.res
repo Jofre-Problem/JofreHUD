@@ -3,22 +3,18 @@
 	"ComboBoxBackpackOverlayDialogBase"
 	{
 		"fieldName"				"ComboBoxBackpackOverlayDialogBase"
-		"enabled"				"1"
 		"xpos"					"c-140"
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
 		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"GrayDialogBorder"
 	}
 	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -28,7 +24,6 @@
 		"tall"			"60"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 	}
 
@@ -41,7 +36,6 @@
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"120"
-		"enabled"		"1"
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
@@ -66,7 +60,6 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ComboBox"
-		"Font"				"HudFontSmallest"
 		"xpos"				"30"
 		"ypos"				"170"
 		"zpos"				"1"
@@ -74,7 +67,6 @@
 		"tall"				"15"
 		//		"0"
 		//			"0"
-		"enabled"			"1"
 		//		"1"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -98,10 +90,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
 	}
@@ -117,10 +107,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"3"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_OK"
-		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"default"		"1"
 		"Command"		"apply"

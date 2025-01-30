@@ -10,10 +10,8 @@
 		"tall"			"200"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
@@ -22,7 +20,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -32,7 +29,6 @@
 		"tall"			"20"
 		//	"1"
 		//		"0"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	
@@ -40,7 +36,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"EconFontSmall"
 		"labelText"		"%text%"
 		"textAlignment"	"north"
 		"xpos"			"40"
@@ -50,7 +45,6 @@
 		"tall"			"170"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "TanLight"
 	}
@@ -66,10 +60,8 @@
 		"tall"			"25"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"cancel"
@@ -106,10 +98,8 @@
 		"default"		"1"
 		//	"0"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"confirm"

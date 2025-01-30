@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"enabled"		"1"
 		"proportionaltoparent" "1"
 		"skip_autoresize"	"1"
 
@@ -17,9 +16,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RewardsLabel"
-			"font"			"HudFontSmallBold"
 			"labelText"		"#QuestDetails_Reward"
-			"textAlignment"	"west"
 			"xpos"			"10"
 			"ypos"			"20"
 			"zpos"			"2"
@@ -27,7 +24,6 @@
 			"tall"			"f0"
 			//	"0"
 			//		"0"
-			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"QuestGold"
 		}
@@ -42,9 +38,6 @@
 			"wide"			"80"
 			"tall"			"60"
 			"proportionaltoparent"	"1"
-			"enabled"		"1"
-			"paintborder"	"0"
-	
 			"ItemPanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -57,7 +50,6 @@
 				"bgcolor_override"		"blank"
 				"noitem_textcolor"		"117 107 94 255"
 				"PaintBackgroundType"	"2"
-				"paintborder"	"0"
 				"proportionaltoparent"	"1"
 			
 				"model_xpos"	"4"
@@ -100,6 +92,5 @@
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"0 0 0 255"
 		"autohide_buttons" "1"
-		"paintborder"	"0"
 	}
 }

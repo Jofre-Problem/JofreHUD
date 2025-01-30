@@ -9,8 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
 	
@@ -18,7 +16,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"ScoreboardMedium"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"290"
@@ -40,7 +37,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -54,7 +50,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -74,7 +69,6 @@
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"150"
-		"enabled"		"1"
 		"image"			"../hud/tournament_panel_brown"
 		
 		"scaleImage"		"1"
@@ -95,7 +89,6 @@
 		"wide"			"530"
 		"tall"			"150"
 		//		"0"
-		"enabled"		"1"
 		//	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
@@ -120,7 +113,6 @@
 			"wide"			"400"
 			"tall"			"135"
 			//		"0"
-			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -134,7 +126,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"8"
@@ -192,7 +183,6 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "north-east"
 			"xpos"			"115"

@@ -82,7 +82,7 @@ Scheme
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
 		FrameTitleButton.FgColor		"TFTanBright"
-		FrameTitleBar.Font			"DefaultLarge"		[$WIN32]
+		FrameTitleBar.Font			"DefaultLarge"		
 		FrameTitleBar.TextColor			"TFTanBright"
 		FrameTitleBar.DisabledTextColor	"TFTanLight"
 		
@@ -99,8 +99,8 @@ Scheme
 		ListPanel.SelectedBgColor			"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
 		
-		MainMenu.TextColor			"TanLight"			[$WIN32]
-		MainMenu.ArmedTextColor		"117 107 94 255"	[$WIN32]
+		MainMenu.TextColor			"TanLight"			
+		MainMenu.ArmedTextColor		"117 107 94 255"	
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
@@ -135,19 +135,12 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"	[$WIN32]
+			"1"	
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-		"MenuLarge"
-		{
-			"1"	[$X360]
-			{
 			}
 		}
 
@@ -158,18 +151,7 @@ Scheme
 				"name"		"TF2 Build"
 				"tall"		"35"
 				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
-			}
-		}
-
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
 			}
 		}
 
@@ -177,43 +159,38 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"19"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"19"
-				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -221,42 +198,29 @@ Scheme
 		}
 		
 				
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle	
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
+				"name"		"Segoe UI"
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge	
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
+				"name"		"Segoe UI"
 				"antialias"		"1"
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription	
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
 			}
 		}
 
@@ -266,7 +230,6 @@ Scheme
 	{
 		"6" 
 		{
-			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
 			"turkish"
 			{

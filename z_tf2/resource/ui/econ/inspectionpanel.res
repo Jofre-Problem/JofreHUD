@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"o1"
 		"tall"			"p0.75"
-		"enabled"		"1"
 		"image"			"item_carousel_bg"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
@@ -27,7 +26,6 @@
 		"bgcolor_override"		"blank"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"0"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
 
@@ -125,7 +123,6 @@
 		"wide"				"60"
 		"tall"				"25"
 		//			"0"
-		"enabled"			"1"
 		"proportionaltoparent"	"1"
 		
 		"auto_scale"		"1"
@@ -140,7 +137,6 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			"enabled"			"1"
 			//		"0"
 			"labelText"			""
 			"textAlignment"		"south-west"
@@ -153,11 +149,7 @@
 			
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
-			
-			"paintborder"		"0"
-			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
 			"image_selectedcolor"	"255 255 255 255"
@@ -174,7 +166,6 @@
 				"zpos"			"7"
 				"wide"			"19"
 				"tall"			"19"
-				"enabled"		"1"
 				"scaleImage"	"1"
 			}				
 		}
@@ -217,7 +208,6 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -233,7 +223,6 @@
 		}
 		"consume_mode"
 		{
-			"border"		"ReplayHighlightBorder"
 		}
 
 		"DebugButton"
@@ -247,10 +236,8 @@
 			"tall"			"8"
 			//		"0"
 			"visible"		"0"
-			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"debug_menu"
 			"proportionaltoparent" "1"
@@ -273,7 +260,6 @@
 				"zpos"			"1"
 				"wide"			"8"
 				"tall"			"8"
-				"enabled"		"1"
 				"image"			"glyph_workshop_edit"
 				"scaleImage"	"1"
 			}				
@@ -284,14 +270,12 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"HudFontSmallest"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
 			"zpos"				"100"
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"enabled"			"1"
 			"editable"			"0"
 			"maxchars"			"-1"
 			"actionsignallevel"	"2"
@@ -315,15 +299,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
-			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_paintkit"
@@ -336,7 +317,6 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"HudFontSmallest"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
 			"fixed_paintkit"
@@ -347,7 +327,6 @@
 			"wide"				"200"
 			"tall"				"15"
 			//			"0"
-			"enabled"			"1"
 			"editable"			"0"
 			"maxchars"			"-1"
 			"actionsignallevel"	"2"
@@ -372,9 +351,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
-			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"30"
 			"fixed_paintkit"
@@ -384,7 +361,6 @@
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_item"
@@ -434,9 +410,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
-			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"50"
 			"fixed_item"
@@ -446,7 +420,6 @@
 			"wide"			"80"
 			"tall"			"15"
 			//		"0"
-			"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
 
 			"fixed_paintkit"
@@ -477,7 +450,6 @@
 			"zpos"			"10"
 			"wide"			"70"
 			"tall"			"20"
-			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
 			"actionsignallevel" "2"
@@ -511,7 +483,6 @@
 			"zpos"			"10"
 			"wide"			"115"
 			"tall"			"20"
-			"enabled"		"1"
 			//	"0"
 			"actionsignallevel" "2"
 			"default"		"1"
@@ -543,7 +514,6 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		

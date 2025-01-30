@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"24"
-		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
@@ -30,7 +29,6 @@
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"10"
-		"enabled"		"1"
 		"image"			"../hud/freezecam_callout_arrow"
 		"scaleImage"	"1"	
 	}		
@@ -38,7 +36,6 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CalloutLabel"
-		"font"			"HudFontSmall"
 		"xpos"			"15"
 		"ypos"			"15"
 		"zpos"			"2"
@@ -46,7 +43,6 @@
 		"tall"			"20"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#FreezePanel_Callout"
 		"textAlignment"		"center"
 	}

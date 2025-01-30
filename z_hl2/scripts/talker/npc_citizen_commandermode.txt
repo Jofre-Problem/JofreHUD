@@ -341,7 +341,6 @@ response CitizenFollowGroup
 	scene "scenes/npc/$gender01/squad_follow02.vcd"
 	scene "scenes/npc/$gender01/squad_follow03.vcd"
 	scene "scenes/npc/$gender01/squad_follow04.vcd"
-	response CitizenFollowGeneral weight 2
 }
 
 rule CitizenFollow
@@ -426,7 +425,6 @@ response CitizenJoin_d3_c17_07
 rule CitizenJoin_d3_c17_07
 {
 	criteria		IsCitizen ConceptJoinPlayer 
-	"map" "d3_c17_07" required weight 1000
 	response		CitizenJoin_d3_c17_07
 	matchonce
 }

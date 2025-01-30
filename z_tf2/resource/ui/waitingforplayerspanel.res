@@ -9,7 +9,6 @@
 		"zpos"			"0"
 		"wide"			"292"
 		"tall"			"64"
-		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
 		"scaleImage"		"1"	
 		"teambg_2"		"../hud/death_panel_red_bg"
@@ -20,7 +19,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WaitingForPlayersLabel"
-		"font"			"HudFontMedium"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -28,7 +26,6 @@
 		"tall"			"64"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#WaitingForPlayersPanel_WaitOnPlayers"
 		"textAlignment"		"Center"
 	}
@@ -37,7 +34,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WaitingForPlayersEndingLabel"
-		"font"			"HudFontMedium"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -45,7 +41,6 @@
 		"tall"			"64"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#WaitingForPlayersPanel_WaitEnding"
 		"textAlignment"		"Center"
 	}

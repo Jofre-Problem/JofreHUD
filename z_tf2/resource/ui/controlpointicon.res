@@ -9,7 +9,6 @@
 		"zpos"		"2"
 		"wide"		"33"
 		"tall"		"33"
-		"enabled"	"1"
 	}
 	
 	"Countdown"
@@ -21,7 +20,6 @@
 		"zpos"		"4"
 		"wide"		"33"
 		"tall"		"33"
-		"enabled"	"1"
 	}	
 
 	"CapPlayerImage"
@@ -34,7 +32,6 @@
 		"wide"		"10"
 		"tall"		"20"
 		"visible"	"0"
-		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
 	}
@@ -43,7 +40,6 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"CapPlayerFont"
 		"xpos"			"15"
 		"ypos"			"4"
 		"zpos"			"4"
@@ -51,9 +47,7 @@
 		"tall"			"33"
 		//		"0"
 		//		"0"
-		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
-		"textAlignment"		"west"
 	}
 
 	"OverlayImage"
@@ -66,7 +60,6 @@
 		"wide"		"14"
 		"tall"		"14"
 		"visible"	"0"
-		"enabled"	"1"
 		"image"		"capture_icon"
 		"scaleImage"	"1"
 	}
@@ -81,10 +74,8 @@
 		"wide"			"9"
 		"tall"			"20"
 		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"60"
 		"textAlignment"	"center"
-		"font"			"ControlPointTimer"
 	}
 				
 	"CPTimerBG"
@@ -97,7 +88,6 @@
 		"wide"		"66"
 		"tall"		"33"
 		"visible"		"0"
-		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"	
 		"scaleImage"	"1"	
 	}

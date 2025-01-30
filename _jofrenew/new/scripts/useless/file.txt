@@ -1,8 +1,4 @@
-event EveryRespawn
-{
-//	FireCommand 0 "engine ds_stop"
-//	FireCommand 5 "engine ds_record"
-} 
+
 event TargetIDLoop
 {	
 	SetVisible CSecondaryTargetID 1 0.001
