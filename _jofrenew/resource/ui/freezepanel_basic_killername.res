@@ -9,11 +9,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKillerCustom"
-			"font"			"Size 8 Shadow"
+			"font"			"Noto10"
 			"xpos"			"7"
 			"ypos"			"0"
 			"wide"			"299"
-			"tall"			"8"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"

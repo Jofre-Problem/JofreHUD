@@ -60,7 +60,8 @@
 				"xpos"			"rs1-3"
 				"ypos"			"rs1+3"
 				"zpos"			"1000"
-				"wide"			"o1"
+				"wide"			"0"
+				visible 0
 				"tall"			"20"
 				
 				
@@ -110,8 +111,8 @@
 				"xpos"			"rs1-3"
 				"ypos"			"rs1+3"
 				"zpos"			"1000"
-				"wide"			"o1"
-				"tall"			"20"
+				"wide"			"0"
+				visible 0
 				
 				
 				//"visible"		"1"
