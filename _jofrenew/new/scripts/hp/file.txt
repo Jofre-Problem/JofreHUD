@@ -43,7 +43,7 @@ event HudHealthDyingPulse
 
 event HealthLowCMD
 {
-	FireCommand 0.0 "engine tf_party_chat Respawning..."
+//	FireCommand 0.0 "engine tf_party_chat Respawning..."
 }
 
 event HudHealthDyingPulseStop
