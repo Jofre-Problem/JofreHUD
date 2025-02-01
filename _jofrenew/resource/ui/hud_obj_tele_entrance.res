@@ -278,6 +278,15 @@
 				"bgcolor_override"		"TransparentGrayDarkest"
 				"alpha" "200"
 			}
+			"UpgradeIcon"
+			{
+				xpos 9999
+				"visible"			"0"
+			}
+						"TeleportedIcon"
+			{
+				"visible"			"0"
+			}		
 		}
 	}
 

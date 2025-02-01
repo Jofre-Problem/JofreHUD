@@ -1,0 +1,9 @@
+event StreamerCMD
+{
+	FireCommand 0.0 "engine incrementvar tf_spec_xray_disable 0 2 1; hud_saytext_time 0; voice_modenable 0; cl_spec_carrieditems 0; cl_hud_killstreak_display_time 0"
+}
+
+event StreamerTest
+{
+	RunEventChild MainMenuOverride StreamerCMD 0.0
+}

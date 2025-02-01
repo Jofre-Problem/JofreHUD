@@ -240,7 +240,11 @@
 				"labelText"		"#Building_hud_sentry_upgrade"
 				"textAlignment"	"Left"
 			}
-
+			"UpgradeIcon"
+			{
+				xpos 9999
+				"visible"			"0"
+			}
 			"Upgrade"
 			{
 				"ControlName"	"ContinuousProgressBar"

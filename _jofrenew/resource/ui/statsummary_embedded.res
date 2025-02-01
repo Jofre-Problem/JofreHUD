@@ -44,6 +44,8 @@
 	}
 	"TipText2"
 	{
+
+		"visible" "0"	// controlled by #customization
 		"ControlName"		"cexlabel"
 		"fieldName"		"TipText2"
 		"font"			"noto10"

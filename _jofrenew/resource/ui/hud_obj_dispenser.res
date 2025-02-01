@@ -234,6 +234,18 @@
 				"bgcolor_override"		"TransparentGrayDarkest"
 				"alpha" "200"
 			}
+			"AmmoIcon"	
+			{
+				"visible"			"0"
+			}
+
+			
+			"UpgradeIcon"
+			{
+				xpos 9999
+				"visible"			"0"
+			}
+						
 		}
 	}
 

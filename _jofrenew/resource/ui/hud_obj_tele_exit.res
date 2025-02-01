@@ -184,7 +184,11 @@
 			"wide"			"100"
 			"tall"			"35"
 			"visible"		"0"
-
+			"UpgradeIcon"
+			{
+				xpos 9999
+				"visible"			"0"
+			}
 			"Upgrade"
 			{
 				"ControlName"	"ContinuousProgressBar"

@@ -120,6 +120,11 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
 	}
+	"PlayerStatusHealthValue"
+	{
+
+		"visible"			"0"
+	}	
 	"PlayerStatusHealthValueID"
 	{
 		"ControlName"	"CExLabel"

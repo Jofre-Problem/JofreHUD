@@ -356,8 +356,8 @@
 			}			
 			"UpgradeIcon"
 			{
-				"xpos"			"999"
-				"visible" "0"
+				xpos 9999
+				"visible"			"0"
 			}
 			"SkullIcon"
 			{

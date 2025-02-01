@@ -650,7 +650,29 @@
 					labelText				"+vgui_drawtreee"
 					Command				"engine sv_cheats 1; vgui_drawtree 1"
 
-				}				
+				}
+				"DEVBTN_POSITION:w2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:w2"
+					"xpos"							"0"
+					"YPOS" "80+60+40+40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"Map Background Test"
+					Command				"engine map_background koth_viaduct; tf_bot_difficulty 3; tf_bot_quota 12; play /ui/gamestartup1.mp3; tf_bot_melee_only 1;  tf_bot_force_class heavy; tf_playergib 1 ; tf_always_loser 0"
+
+				}						
 				"DEVBTN_POSITION:X2"			// other classes pinned to this
 				{
 					ControlName				CExButton
