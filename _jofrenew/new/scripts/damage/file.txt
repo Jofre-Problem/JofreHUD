@@ -6,7 +6,7 @@ event DamagedPlayer
 }
 event DamageCMD
 {
-//	FireCommand 0.0 "engine tf_party_chat DAMAGE!"
+	FireCommand 0.0 "engine echo ====="
 //	FireCommand 0.0 "say_team DAMAGE!"
 }
 event DamagedPlayerMain

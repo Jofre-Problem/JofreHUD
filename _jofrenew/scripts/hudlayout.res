@@ -47,6 +47,20 @@
 	//	"SteamFriendsList"{}
 	//	"ResolutionSelector"{}
 	}	
+	"MMDashboard"
+	{
+	//	"ControlName"		"CHudMainMenuOverride"
+		"enabled"		"1"
+
+		"RankPanel"
+		{
+			"xpos" "109"
+		}
+
+		//Enable quick menu reload
+	//	"SteamFriendsList"{}
+	//	"ResolutionSelector"{}
+	}		
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{

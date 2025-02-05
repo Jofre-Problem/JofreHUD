@@ -18,8 +18,24 @@
 
 "x"
 {	
+	"RankPanel"
+	{
+		"ControlName"		"CPvPRankPanel"
+		"fieldName"		"RankPanel"
+		"zpos"		"-52"
+		"wide"		"40"
+		"tall"		"40"
+		xpos c0
+		ypos c0
+		"visible"		"1"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"		"0"
 
-	// player health data
+		"matchgroup"		"MatchGroup_Casual_12v12"
+
+		"show_model"		"0"
+		"show_type"		"1"
+	}		
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"

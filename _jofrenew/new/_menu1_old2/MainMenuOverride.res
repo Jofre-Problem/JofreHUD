@@ -795,7 +795,7 @@
 		"zpos"		"-52"
 		"wide"		"f0"
 		"tall"		"f0"
-		"visible"		"0"
+		"visible"		"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"		"0"
 
