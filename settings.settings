@@ -54,3 +54,19 @@ sourcescheme Color|Def
 Loading Icon|Def
 Loading Background|Def
 HudMatchStatus|Def
+
+Console Text|Null
+UI Sound Effects|Xhud-Niterux
+Sound Manifest|Null
+Surface Manifest|Null
+Particle Manifest|Null
+ANIMATIONS Show Health Ammo on Spec|OFF
+ANIMATIONS Move Hp Ammo|OFF
+Crosshair Hud Type|Null
+Boss Health|Null
+Killfeed Position|Null
+Map Radar|Null
+sourcescheme Color|Def
+Loading Icon|DDLC
+Loading Background|Def
+HudMatchStatus|Def
