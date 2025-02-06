@@ -1,5 +1,10 @@
+//#base "../../../custom_menu/custom_menu.res"
+
+#base "../../../../../../cfg/_jp_custom.txt"
+#base "../../../../../cfg/_jp_custom.txt"
 #base "../../../../cfg/_jp_custom.txt"
 #base "../../../cfg/_jp_custom.txt"
+#base "../../cfg/_jp_custom.txt"
 #base "../../new/_menu1_old2/mainmenuoverride.res"
 #base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
 #base "../../../../cfg/_jp_particle_rain.txt"

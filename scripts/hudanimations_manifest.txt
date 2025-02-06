@@ -33,12 +33,6 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Log-Base Scripts (WIN32 & OSX)
     ////////////////////////////////////////////////////////////////////////////////////////////////////	
-	
-		"file"		"../../../cfg/_jp_hitmarker.txt"	
-		"file"		"../../../cfg/_jp_snd_dead.txt"	
-		"file"		"../../../cfg/_jp_snd_vivo.txt"	
-		"file"		"../../../cfg/_jp_ex_scope.txt"	
-		"file"		"../../../cfg/_jp_anim_cartglow.txt"
 
 		"file"		"../../cfg/_jp_hitmarker.txt"	
 		"file"		"../../cfg/_jp_snd_dead.txt"	

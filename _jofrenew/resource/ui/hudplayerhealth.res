@@ -27,7 +27,7 @@
 		"tall"		"40"
 		xpos c0
 		ypos c0
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"		"0"
 
