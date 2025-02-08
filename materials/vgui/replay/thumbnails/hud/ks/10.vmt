@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui/replay/thumbnails/hud\ks/10"
-	"$translucent" 1
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-}

@@ -1,7 +1,0 @@
-#base "../speedo.vmt"
-
-"UnlitGeneric" {
-	$digit 10
-	$lt 99
-	$gt 9
-}

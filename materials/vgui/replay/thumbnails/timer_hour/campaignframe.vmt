@@ -1,5 +1,0 @@
-UnlitGeneric
-{
-$baseTexture "vgui/replay/thumbnails/timer_hour/campaignFrame"
-$translucent 1
-}

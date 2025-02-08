@@ -1,7 +1,0 @@
-#base "../timer.vmt"
-
-"UnlitGeneric" {
-	$basetexture "vgui/replay/thumbnails/timer/colon"
-	
-	$digit 999999999
-}

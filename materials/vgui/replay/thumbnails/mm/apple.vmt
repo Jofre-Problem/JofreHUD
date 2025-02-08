@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "vgui\replay\thumbnails\mm\apple"
-	"$vertexcolor"	1
-	"$vertexalpha"	1
-	"$ignorez"	1
-	"$translucent"	1
-	"$additive"	1
-}

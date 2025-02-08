@@ -1,6 +1,0 @@
-UnlitGeneric
-{
-	"$baseTexture" "vgui/replay/thumbnails/l4d2/loadingbar"
-$translucent 1
-$ignorez 1
-}

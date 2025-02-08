@@ -1,7 +1,0 @@
-UnlitGeneric
-{
-$basetexture "vgui\replay/thumbnails/timer_hour\arrow_left_small"
-$translucent 1
-$ignorez 1
-$vertexcolor 1
-}

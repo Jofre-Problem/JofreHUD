@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent" 1
-	"$basetexture" "VGUI/replay/thumbnails/crosshair/osu"
-	"$vertexcolor" 0
-	"$vertexalpha" 0
-	"$ignorez" 1
-}
