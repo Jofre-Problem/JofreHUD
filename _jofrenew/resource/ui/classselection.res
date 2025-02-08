@@ -10,6 +10,69 @@
 		wide					f0
 		tall					480
 	}
+	"Scoutlabel"
+	{
+					"ControlName""cexlabel"
+		"fieldName""Scoutlabel"
+		"xpos"			"0"
+		"zpos"			"0"
+		"ypos"			"0"
+		"tall"	"48"
+		"wide"			"o1"
+		bgcolor_override blacksolid
+		"font" "Future30"
+		"fgcolor_override"	"red"
+		"labeltext"		"Ñ"
+		textalignment center
+	}			
+	"ProgressBar1Scout"
+	{
+					"ControlName""ContinuousProgressBar"
+		"fieldName""ProgressBar1Scout"
+		"xpos"			"0"
+		"zpos"			"0"
+		"ypos"			"0"
+		"tall"	"48"
+		"wide"			"f0"
+		"fgcolor_override"	"red"
+		"variable"		"numScout"
+	"pin_to_sibling" "Scoutlabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}	
+	"Soldiderlabel"
+	{
+					"ControlName""cexlabel"
+		"fieldName""Soldiderlabel"
+		"xpos"			"0"
+		"zpos"			"0"
+		"ypos"			"0"
+		"tall"	"48"
+		"wide"			"o1"
+		bgcolor_override blacksolid
+		"font" "Future30"
+		"fgcolor_override"	"red"
+		"labeltext"		"Ò"
+		textalignment center
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling scoutlabel
+	}			
+	"ProgressBar1Soldier"
+	{
+					"ControlName""ContinuousProgressBar"
+		"fieldName""ProgressBar1Soldier"
+		"xpos"			"0"
+		"zpos"			"0"
+		"ypos"			"0"
+		"tall"	"48"
+		"wide"			"f0"
+		"fgcolor_override"	"red"
+		"variable"		"numSoldier"
+	"pin_to_sibling" "Soldiderlabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}			
 	"BlurMainBG"
 	{
 		"zpos"			"-100"
