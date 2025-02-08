@@ -1,0 +1,4 @@
+"Resource/UI/HudArenaCapPointCountdown.res"
+{
+
+}

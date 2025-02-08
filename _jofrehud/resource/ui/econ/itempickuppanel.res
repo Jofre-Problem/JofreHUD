@@ -1,0 +1,22 @@
+#base "../../../#uni_base/filesv1/classimage/main.res"
+#base "../../../#uni_base/filesv1/classimage/content1.res"
+#base "../../../#uni_base/filesv1/classimage/vis1.res"
+#base "../../../#uni_base/filesv1/classimage/enabled1.res"
+#base "../base/filesv1/discardbtn/main.res"
+#base "../base/filesv1/discardbtn/content2.res"
+#base "../../../#uni_base/filesv1/closebutton/main.res"
+#base "../../../#uni_base/filesv1/closebutton/vis1.res"
+#base "../../../#uni_base/filesv1/closebutton/text/center.res"
+#base "../../../#uni_base/filesv1/closebutton/enabled.res"
+#base "../../../#uni_base/filesv1/closebutton/ctrl/cex.res"
+#base "../../../#uni_base/filesv1/closebutton/def1.res"
+#base "../../../#uni_base/filesv1/closebutton/tab.res"
+#base "../../../#uni_base/filesv1/closebutton/dull0.res"
+#base "../../../#uni_base/filesv1/closebutton/bright0.res"
+#base "../../../#uni_base/filesv1/closebutton/sound.res"
+
+#base "../../../#uni_base/filesv1/closebutton/font/hudfontsmallbold.res"
+#base "../../../#uni_base/filesv1/closebutton/auto.res"
+
+
+#base "../../../#uni_base/filesv1/closebutton/cmd/vguicancel.res"

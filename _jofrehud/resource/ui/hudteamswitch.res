@@ -1,0 +1,1 @@
+#base "base/label/switchlabel.res"

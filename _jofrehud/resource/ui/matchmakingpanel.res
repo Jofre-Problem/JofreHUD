@@ -1,0 +1,5 @@
+#base "econ/base/maincontainer/main.res"
+#base "econ/base/maincontainer/zpos10.res"
+#base "econ/base/maincontainer/widef0.res"
+#base "econ/base/maincontainer/border_mm.res"
+#base "econ/base/maincontainer/upperline/main.res"

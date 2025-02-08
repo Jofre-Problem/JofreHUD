@@ -1,0 +1,1 @@
+#base "base/replayinputpanel_base.res"

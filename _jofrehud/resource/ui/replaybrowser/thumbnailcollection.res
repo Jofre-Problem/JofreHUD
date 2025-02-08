@@ -1,0 +1,17 @@
+#base "../../../#uni_base/filesv1/warninglabel/main.res"
+#base "../../../#uni_base/filesv1/warninglabel/west.res"
+#base "../../../#uni_base/filesv1/warninglabel/auto0.res"
+#base "../../../#uni_base/filesv1/warninglabel/pin0.res"
+#base "../../../#uni_base/filesv1/warninglabel/vis0.res"
+
+#base "../base/filesv2/caratlabel/main.res"
+#base "../base/filesv2/caratlabel/auto0.res"
+#base "../base/filesv2/caratlabel/font/replay.res"
+
+#base "../../../#uni_base/filesv1/titlelabel/controlname/cex.res"
+#base "../../../#uni_base/filesv1/titlelabel/main.res"
+#base "../../../#uni_base/filesv1/titlelabel/auto.res"
+#base "../../../#uni_base/filesv1/titlelabel/pin.res"
+#base "../../../#uni_base/filesv1/titlelabel/vis0.res"
+#base "../../../#uni_base/filesv1/titlelabel/enabled.res"
+#base "../../../#uni_base/filesv1/titlelabel/text/west.res"

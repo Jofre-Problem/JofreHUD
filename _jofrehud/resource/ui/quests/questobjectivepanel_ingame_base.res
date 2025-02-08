@@ -1,0 +1,1 @@
+#base "base/questobjectivepanel_ingame_base.res"

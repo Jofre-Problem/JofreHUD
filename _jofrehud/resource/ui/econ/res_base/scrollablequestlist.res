@@ -1,0 +1,7 @@
+#base "../../base/filesv1/container/main.res"
+#base "../../base/filesv1/container/w_f0.res"
+#base "../../base/filesv1/container/t_f0.res"
+#base "../../base/filesv1/container/xp_0.res"
+#base "../../base/filesv1/container/zpos_1.res"
+#base "../../base/filesv1/container/vis1.res"
+#base "../../base/filesv1/container/proportional.res"

@@ -1,0 +1,1 @@
+#base "filesv2/shadedbar/main.res"

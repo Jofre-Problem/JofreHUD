@@ -1,0 +1,1 @@
+#base "base/filesv1/cdamage/main.res"
