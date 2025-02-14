@@ -31,5 +31,8 @@ event ForceCmd
 event ForceForceCmd
 {	
 	Firecommand 0.0 "engine toggle_interp_shit"
+
+
+	FireCommand 0.0 "sm_besar vanne"
 }
 
