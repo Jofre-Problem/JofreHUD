@@ -4,9 +4,9 @@
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"ConfirmDialog"
-		// Auto-centered by GenericConfirmDialog
+		//Auto-centeredbyGenericConfirmDialog
 		"wide"			"564"
-		"tall"			"387" // Bottom of confirm button + 10 margin
+		"tall"			"387"//Bottomofconfirmbutton+10margin
 		//	"0"
 		//		"0"
 		"visible"		"1"
@@ -25,7 +25,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Competitive_Welcome_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -36,7 +36,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "StoreGreen"
+		"fgcolor_override""StoreGreen"
 	}
 
 	"SubtitleLabel"
@@ -46,7 +46,7 @@
 		"font"			"Link"
 		"labelText"		"#TF_Competitive_Welcome_Subtitle"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
 		"ypos"			"29"
 		"zpos"			"1"
@@ -56,7 +56,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override""TanLight"
 	}
 
 	"SectionOneTitleLabel"
@@ -66,9 +66,9 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionOne_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"47" // 4 margin
+		"ypos"			"47"//4margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -77,7 +77,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override""Yellow"
 	}
 
 	"SectionOneTextLabel"
@@ -87,18 +87,18 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionOne_Text"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"60" // 2 margin
+		"ypos"			"60"//2margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44"//Size11font-4rows
 		//	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override""TanDark"
 	}
 
 	"SectionTwoTitleLabel"
@@ -108,9 +108,9 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionTwo_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"108" // 4 margin
+		"ypos"			"108"//4margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override""Yellow"
 	}
 
 	"SectionTwoTextLabel"
@@ -129,18 +129,18 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionTwo_Text"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"121" // 2 margin
+		"ypos"			"121"//2margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44"//Size11font-4rows
 		//	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override""TanDark"
 	}
 
 	"SectionThreeTitleLabel"
@@ -150,9 +150,9 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionThree_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"169" // 4 margin
+		"ypos"			"169"//4margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -161,7 +161,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override""Yellow"
 	}
 
 	"SectionThreeTextLabel"
@@ -171,18 +171,18 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionThree_Text"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"182" // 2 margin
+		"ypos"			"182"//2margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44"//Size11font-4rows
 		//	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override""TanDark"
 	}
 
 	"SectionFourTitleLabel"
@@ -192,9 +192,9 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionFour_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"230" // 4 margin
+		"ypos"			"230"//4margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -203,7 +203,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override""Yellow"
 	}
 
 	"SectionFourTextLabel"
@@ -213,18 +213,18 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionFour_Text"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"243" // 2 margin
+		"ypos"			"243"//2margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44"//Size11font-4rows
 		//	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override""TanDark"
 	}
 
 	"SectionFiveTitleLabel"
@@ -234,9 +234,9 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionFive_Title"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"291" // 4 margin
+		"ypos"			"291"//4margin
 		"zpos"			"1"
 		"wide"			"p0.9"
 		"tall"			"11"
@@ -245,7 +245,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"fgcolor_override""Yellow"
 	}
 
 	"SectionFiveTextLabel"
@@ -255,27 +255,27 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Competitive_Welcome_SectionFive_Text"
 		"textAlignment"	"north"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"cs-0.5"
-		"ypos"			"304" // 2 margin
+		"ypos"			"304"//2margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44"//Size11font-4rows
 		//	"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override""TanDark"
 	}
 
 	"TakeTourButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TakeTourButton"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"rs1-170"
-		"ypos"			"352" // 4 margin
+		"ypos"			"352"//4margin
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"25"
@@ -306,9 +306,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
-		"proportionalToParent"  "1"
+		"proportionalToParent""1"
 		"xpos"			"rs1-10"
-		"ypos"			"352" // 4 margin
+		"ypos"			"352"//4margin
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"25"
@@ -340,7 +340,7 @@
 		"ControlName"		"CheckButton"
 		"fieldName"		"NeverShowAgainCheckBox"
 		"xpos"		"20"
-		"ypos"			"352" // 4 margin
+		"ypos"			"352"//4margin
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"

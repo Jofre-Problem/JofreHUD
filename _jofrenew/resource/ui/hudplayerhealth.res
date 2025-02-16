@@ -18,24 +18,6 @@
 
 "x"
 {	
-	"RankPanel"
-	{
-		"ControlName"		"CPvPRankPanel"
-		"fieldName"		"RankPanel"
-		"zpos"		"-52"
-		"wide"		"40"
-		"tall"		"40"
-		xpos c0
-		ypos c0
-		"visible"		"0"
-		"proportionaltoparent"		"1"
-		"mouseinputenabled"		"0"
-
-		"matchgroup"		"MatchGroup_Casual_12v12"
-
-		"show_model"		"0"
-		"show_type"		"1"
-	}		
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -228,7 +210,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthpadded"
 		"textAlignment"	"center"	
-		"font"			"HealthAndAmmoShadow1"
+		"font"			"HealthAndAmmoShadow1" [$WINDOWS]
+		"font" 	"blank"	[$LINUX]			
 		"fgcolor"		"0 0 0 185"
 	}	
 	//healthshadow was here u kno

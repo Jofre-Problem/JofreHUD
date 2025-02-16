@@ -1,157 +1,394 @@
 
 "Resource/UI/TeamMenu.res"
 {
-	"class"
+	                          "class"
 	{
 		ControlName				Frame
-		fieldName				"class"
+		fieldName				            "class"
 		xpos					0
 		ypos					0
 		wide					f0
 		tall					480
 	}
-	"Scoutlabel"
+	                          "Scoutlabel"
 	{
-					"ControlName""cexlabel"
-		"fieldName""Scoutlabel"
-		"xpos"			"0"
-		"zpos"			"0"
-		"ypos"			"0"
-		"tall"	"48"
-		"wide"			"o1"
+					                      "ControlName""cexlabel"
+		                         "fieldName""Scoutlabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"			"48" 
+		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		"font" "Future30"
-		"fgcolor_override"	"red"
-		"labeltext"		"Ñ"
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ñ"
 		textalignment center
 	}			
-	"ProgressBar1Scout"
+	                          "ProgressBar1Scout    "
 	{
-					"ControlName""ContinuousProgressBar"
-		"fieldName""ProgressBar1Scout"
-		"xpos"			"0"
-		"zpos"			"0"
-		"ypos"			"0"
-		"tall"	"48"
-		"wide"			"f0"
-		"fgcolor_override"	"red"
-		"variable"		"numScout"
-	"pin_to_sibling" "Scoutlabel"
+					                      "ControlName          "                    "ContinuousProgressBar"
+		                         "fieldName            "                    "ProgressBar1Scout    "
+		                         "xpos                 "			        "0                    "
+		                         "zpos                 "			        "0                    "
+		                         "ypos                 "			        "0                    "
+		                         "tall                 "	                "48                   "
+		                         "wide                 "			        "f0                   "
+		                         "fgcolor_override     "	                "red                  "
+		                         "variable             "		            "numScout             "
+	                          "pin_to_sibling       "                    "Scoutlabel           "
+                           "pin_corner_to_sibling"					"PIN_TOPLEFT          "
+                           "pin_to_sibling_corner"					"PIN_TOPRIGHT         "
+	} 
+"Soldiderlabel"
+{
+"ControlName""cexlabel"
+"fieldName""Soldiderlabel"
+"xpos"			"0"
+"zpos"			"0"
+"ypos"			"0"
+"tall"	"48"
+"wide"			"o1"
+bgcolor_override blacksolid
+"font" "Future30"
+"fgcolor_override"	"red"
+"labeltext"		"Ò"
+textalignment center
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
-"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}	
-	"Soldiderlabel"
-	{
-					"ControlName""cexlabel"
-		"fieldName""Soldiderlabel"
-		"xpos"			"0"
-		"zpos"			"0"
-		"ypos"			"0"
-		"tall"	"48"
-		"wide"			"o1"
-		bgcolor_override blacksolid
-		"font" "Future30"
-		"fgcolor_override"	"red"
-		"labeltext"		"Ò"
-		textalignment center
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
 pin_to_sibling scoutlabel
-	}			
-	"ProgressBar1Soldier"
+}
+	                          "ProgressBar1Soldier"
 	{
-					"ControlName""ContinuousProgressBar"
-		"fieldName""ProgressBar1Soldier"
-		"xpos"			"0"
-		"zpos"			"0"
-		"ypos"			"0"
-		"tall"	"48"
-		"wide"			"f0"
-		"fgcolor_override"	"red"
-		"variable"		"numSoldier"
-	"pin_to_sibling" "Soldiderlabel"
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1Soldier"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numSoldier"
+	                          "pin_to_sibling" "Soldiderlabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}			
-	"BlurMainBG"
+
+	                          "pyrolabel"
 	{
-		"zpos"			"-100"
-	}
-	"Hint"
-	{
-		"visible"			"0"
+					                      "ControlName""cexlabel"
+		                         "fieldName""pyrolabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ó"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling Soldiderlabel
 	}			
-	"Offense"
+	                          "ProgressBar1pyro"
 	{
-		"visible"			"0"
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1pyro"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numpyro"
+	                          "pin_to_sibling" "Soldiderlabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}			
+	                          "demolabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""demolabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ô"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling pyrolabel
+	}			
+	                          "ProgressBar1demo"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1demo"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numdemoman"
+	                          "pin_to_sibling" "pyrolabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}			
+	                          "heavylabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""heavylabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Õ"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling demolabel
+	}			
+	                          "ProgressBar1heavy"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1heavy"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numheavy"
+	                          "pin_to_sibling" "pyrolabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}			
+	                          "engilabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""engilabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ö"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling heavylabel
+	}			
+	                          "ProgressBar1engi"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1engi"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numengineer"
+	                          "pin_to_sibling" "heavylabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}		
+	                          "mediclabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""mediclabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ø"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling engilabel
+	}			
+	                          "ProgressBar1mediclabel"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1mediclabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"nummedic"
+	                          "pin_to_sibling" "engilabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}		
+
+	                          "sniperlabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""sniperlabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"×"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling mediclabel
+	}			
+	                          "ProgressBar1sniperlabel"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1sniperlabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numsniper"
+	                          "pin_to_sibling" "mediclabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}						
+
+
+	                          "spylabel"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""spylabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"red"
+		                         "labeltext"		"Ù"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling sniperlabel
+	}			
+	                          "ProgressBar1spylabel"
+	{
+					                      "ControlName""ContinuousProgressBar"
+		                         "fieldName""ProgressBar1spylabel"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"f0"
+		                         "fgcolor_override"	"red"
+		                         "variable"		"numspy"
+	                          "pin_to_sibling" "mediclabel"
+"pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}		
+
+
+	                          "BlurMainBG"
+	{
+		                         "zpos"			"-100"
+	}
+	                          "Hint"
+	{
+		                         "visible"			"0"
+	}			
+	                          "Offense"
+	{
+		                         "visible"			"0"
 	}	
 "CountLabel"
 	{
-		"ypos"			"r0"
+		                         "ypos"			"r0"
 	}	
 
 "ClassHighlightText"
 	{
-		"visible"			"0"
+		                         "visible"			"0"
 	}	
-	"Defense"
+	                          "Defense"
 	{
-		"visible"			"0"
+		                         "visible"			"0"
 	}	
-	"Support"
+	                          "Support"
 	{
-		"visible"			"0"
+		                         "visible"			"0"
 	}		
-	"ClassMenuSelect2"
+	                          "ClassMenuSelect2"
 	{
-		"visible"			"0"
+		                         "visible"			"0"
 	}	
-	"ClassMenuSelect"		//seems to be broken?
+	                          "ClassMenuSelect"  //seems to be broken?
 	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		                         "visible"			"0"
+		                         "tall"			"0"
+		                         "visible"		"0"
+		                         "enabled"		"0"
 	}		
-	"MenuBG"
+	                          "MenuBG"
 	{
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		                         "visible"			"0"
+		                         "tall"			"0"
+		                         "visible"		"0"
+		                         "enabled"		"0"
 	}	
-	"ShadedBar"
+	                          "ShadedBar"
 	{
-		"visible"			"0"
-		"tall"			"0"
+		                         "visible"			"0"
+		                         "tall"			"0"
 	}
-	"CancelButton" 
+	                          "CancelButton" 
 	{
-		"xpos"	"cs-0.5"
-		"ypos"	"rs1-5"
-		"font"	"NewIcons12"
-		"wide""25"
-			"tall""o1"	
-		"textAlignment"	"center"
-		"paintBackground"	"1"
-		"labelText"	"M"
-		"defaultFgColor_override"	"Black"
-		"armedFgColor_override"	"Primary"
-		"Command"		"vguicancel"
+		                         "xpos"	"cs-0.5"
+		                         "ypos"	"rs1-5"
+		                         "font"	"NewIcons12"
+		                         "wide""25"
+			                        "tall""o1"	
+		                         "textAlignment"	"center"
+		                         "paintBackground"	"1"
+		                         "labelText"	"M"
+		                         "defaultFgColor_override"	"Black"
+		                         "armedFgColor_override"	"Primary"
+		                         "Command"		"vguicancel"
 	}
-	"CancelContinue" 
+	                          "CancelContinue" 
 	{
-		"Command"		"vguicancel"
+		                         "Command"		"vguicancel"
 	}	
-	"Footer"
+	                          "Footer"
 	{
-		"tall"				"0"
+		                         "tall"				"0"
 	}	
 
-	"1_image"
+	                          "1_image"
 	{
-		"ControlName"			"Imagepanel"
-		"fieldName"				"1_image"		
+		                         "ControlName"			"Imagepanel"
+		                         "fieldName"				"1_image"		
 		xpos					cs-0.5
 		ypos					cs-0.5
 		zpos					-2
@@ -159,13 +396,13 @@ pin_to_sibling scoutlabel
 		tall					300
 		alpha					30
 		scaleImage				1
-		image					"replay/thumbnails/hud/SelectionWheel9"
+		image					               "replay/thumbnails/hud/SelectionWheel9"
 	}
 	
-	"scout"				// icon, updates the player model
+	                          "scout"  // icon, updates the player model
 	{
 		ControlName				CExButton
-		fieldName				"scout"
+		fieldName				            "scout"
 		xpos					cs-0.5
 		ypos					90
 		zpos					6
@@ -173,37 +410,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ñ"
-		font					"Future30"
+		labelText				            "Ñ"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 1"
+		Command				              "select 1"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"scout_extra_0"			// these fill the rest of the space, unfortunately they can't update the model
+	                          "scout_extra_0"  // these fill the rest of the space, unfortunately they can't update the model
 	{
 		ControlName				CExButton
-		fieldName				"scout_extra_0"
+		fieldName				            "scout_extra_0"
 		xpos					cs-0.5
 		ypos					116
 		zpos					4
@@ -211,18 +448,18 @@ pin_to_sibling scoutlabel
 		tall					36
 		proportionaltoparent		1
 
-		Command				"select 1"
-		labelText				""
+		Command				              "select 1"
+		labelText				            ""
 		
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"scout_extra_1"
+	                          "scout_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"scout_extra_1"
+		fieldName				            "scout_extra_1"
 		xpos					cs-0.5
 		ypos					85
 		zpos					4
@@ -230,18 +467,18 @@ pin_to_sibling scoutlabel
 		tall					32
 		proportionaltoparent		1
 
-		Command				"select 1"
-		labelText				""
+		Command				              "select 1"
+		labelText				            ""
 		
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"scout_extra_2"
+	                          "scout_extra_2"
 	{
 		ControlName				CExButton
-		fieldName				"scout_extra_2"
+		fieldName				            "scout_extra_2"
 		xpos					cs-0.5
 		ypos					45
 		zpos					4
@@ -249,18 +486,18 @@ pin_to_sibling scoutlabel
 		tall					40
 		proportionaltoparent		1
 
-		Command				"select 1"
-		labelText				""
+		Command				              "select 1"
+		labelText				            ""
 		
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"scout_extra_3"
+	                          "scout_extra_3"
 	{
 		ControlName				CExButton
-		fieldName				"scout_extra_3"
+		fieldName				            "scout_extra_3"
 		xpos					cs-0.5
 		ypos					0
 		zpos					4
@@ -268,22 +505,22 @@ pin_to_sibling scoutlabel
 		tall					45
 		proportionaltoparent		1
 
-		Command				"select 1"
-		labelText				""
+		Command				              "select 1"
+		labelText				            ""
 		
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region SOLDIER 
+			  // #region SOLDIER 
 	
-	"soldier"				// icon, updates the player model
+	                          "soldier"  // icon, updates the player model
 	{
 		ControlName				CExButton
-		fieldName				"soldier"
+		fieldName				            "soldier"
 		xpos					cs-0.5+78
 		ypos					118
 		zpos					6
@@ -291,37 +528,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ò"
-		font					"Future30"
+		labelText				            "Ò"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 3"
+		Command				              "select 3"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"soldier_extra_0"
+	                          "soldier_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"soldier_extra_0"
+		fieldName				            "soldier_extra_0"
 		xpos					c39
 		ypos					0
 		zpos					2
@@ -329,18 +566,18 @@ pin_to_sibling scoutlabel
 		tall					160
 		proportionaltoparent		1
 
-		Command				"select 3"
-		labelText				""
+		Command				              "select 3"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"soldier_extra_1"
+	                          "soldier_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"soldier_extra_1"
+		fieldName				            "soldier_extra_1"
 		xpos					c70
 		ypos					160
 		zpos					2
@@ -348,22 +585,22 @@ pin_to_sibling scoutlabel
 		tall					31
 		proportionaltoparent		1
 
-		Command				"select 3"
-		labelText				""
+		Command				              "select 3"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region PYRO 
+			  // #region PYRO 
 
-	"pyro"
+	                          "pyro"
 	{
 		ControlName				CExButton
-		fieldName				"pyro"
+		fieldName				            "pyro"
 		xpos					cs-0.5+119
 		ypos					192
 		zpos					6
@@ -371,38 +608,38 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ó"
-		font					"Future30"
+		labelText				            "Ó"
+		font					                "Future30"
 		textAlignment			center
 		textinsetx				-0
 		textinsety				-5
 
-		Command				"select 7"
+		Command				              "select 7"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"pyro_extra_0"
+	                          "pyro_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_0"
+		fieldName				            "pyro_extra_0"
 		xpos					c98
 		ypos					169
 		zpos					4
@@ -410,18 +647,18 @@ pin_to_sibling scoutlabel
 		tall					22
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_1"
+	                          "pyro_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_1"
+		fieldName				            "pyro_extra_1"
 		xpos					c139
 		ypos					150
 		zpos					4
@@ -429,18 +666,18 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_2"
+	                          "pyro_extra_2"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_2"
+		fieldName				            "pyro_extra_2"
 		xpos					c168
 		ypos					117
 		zpos					4
@@ -448,18 +685,18 @@ pin_to_sibling scoutlabel
 		tall					33
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_3"
+	                          "pyro_extra_3"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_3"
+		fieldName				            "pyro_extra_3"
 		xpos					c229
 		ypos					85
 		zpos					4
@@ -467,18 +704,18 @@ pin_to_sibling scoutlabel
 		tall					32
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_4"
+	                          "pyro_extra_4"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_4"
+		fieldName				            "pyro_extra_4"
 		xpos					c290
 		ypos					45
 		zpos					4
@@ -486,18 +723,18 @@ pin_to_sibling scoutlabel
 		tall					40
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_5"
+	                          "pyro_extra_5"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_5"
+		fieldName				            "pyro_extra_5"
 		xpos					c84
 		ypos					190
 		zpos					4
@@ -505,18 +742,18 @@ pin_to_sibling scoutlabel
 		tall					66
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_6"
+	                          "pyro_extra_6"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_6"
+		fieldName				            "pyro_extra_6"
 		xpos					c120
 		ypos					255
 		zpos					4
@@ -524,18 +761,18 @@ pin_to_sibling scoutlabel
 		tall					11
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"pyro_extra_7"
+	                          "pyro_extra_7"
 	{
 		ControlName				CExButton
-		fieldName				"pyro_extra_7"
+		fieldName				            "pyro_extra_7"
 		xpos					c225
 		ypos					265
 		zpos					4
@@ -543,22 +780,22 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 7"
-		labelText				""
+		Command				              "select 7"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region DEMOMAN 
+			  // #region DEMOMAN 
 
-	"demoman"
+	                          "demoman"
 	{
 		ControlName				CExButton
-		fieldName				"demoman"
+		fieldName				            "demoman"
 		xpos					cs-0.5+104
 		ypos					270
 		zpos					6
@@ -566,37 +803,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ô"
-		font					"Future30"
+		labelText				            "Ô"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 4"
+		Command				              "select 4"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"demoman_extra_0"
+	                          "demoman_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"demoman_extra_0"
+		fieldName				            "demoman_extra_0"
 		xpos					c90
 		ypos					255
 		zpos					2
@@ -604,18 +841,18 @@ pin_to_sibling scoutlabel
 		tall					226
 		proportionaltoparent		1
 
-		Command				"select 4"
-		labelText				""
+		Command				              "select 4"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"demoman_extra_1"
+	                          "demoman_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"demoman_extra_1"
+		fieldName				            "demoman_extra_1"
 		xpos					c62
 		ypos					300
 		zpos					2
@@ -623,22 +860,22 @@ pin_to_sibling scoutlabel
 		tall					225
 		proportionaltoparent		1
 
-		Command				"select 4"
-		labelText				""
+		Command				              "select 4"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region HEAVY 
+			  // #region HEAVY 
 
-	"heavyweapons"
+	                          "heavyweapons"
 	{
 		ControlName				CExButton
-		fieldName				"heavyweapons"
+		fieldName				            "heavyweapons"
 		xpos					cs-0.5+40
 		ypos					325
 		zpos					6
@@ -646,37 +883,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Õ"
-		font					"Future30"
+		labelText				            "Õ"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-8
 
-		Command				"select 6"
+		Command				              "select 6"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"heavy_extra_0"
+	                          "heavy_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"heavy_extra_0"
+		fieldName				            "heavy_extra_0"
 		xpos					c0
 		ypos					334
 		zpos					4
@@ -684,18 +921,18 @@ pin_to_sibling scoutlabel
 		tall					147
 		proportionaltoparent		1
 
-		Command				"select 6"
-		labelText				""
+		Command				              "select 6"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"heavy_extra_1"
+	                          "heavy_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"heavy_extra_1"
+		fieldName				            "heavy_extra_1"
 		xpos					c40
 		ypos					315
 		zpos					4
@@ -703,18 +940,18 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 6"
-		labelText				""
+		Command				              "select 6"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"heavy_extra_2"
+	                          "heavy_extra_2"
 	{
 		ControlName				CExButton
-		fieldName				"heavy_extra_2"
+		fieldName				            "heavy_extra_2"
 		xpos					c86
 		ypos					365
 		zpos					4
@@ -722,18 +959,18 @@ pin_to_sibling scoutlabel
 		tall					116
 		proportionaltoparent		1
 
-		Command				"select 6"
-		labelText				""
+		Command				              "select 6"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"heavy_extra_3"
+	                          "heavy_extra_3"
 	{
 		ControlName				CExButton
-		fieldName				"heavy_extra_3"
+		fieldName				            "heavy_extra_3"
 		xpos					c116
 		ypos					410
 		zpos					4
@@ -741,22 +978,22 @@ pin_to_sibling scoutlabel
 		tall					70
 		proportionaltoparent		1
 
-		Command				"select 6"
-		labelText				""
+		Command				              "select 6"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 	
-	// #endregion
+			  // #endregion
 
-	// #region ENGINEER 
+			  // #region ENGINEER 
 
-	"engineer"
+	                          "engineer"
 	{
 		ControlName				CExButton
-		fieldName				"engineer"
+		fieldName				            "engineer"
 		xpos					cs-0.5-40
 		ypos					325
 		zpos					6
@@ -764,37 +1001,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ö"
-		font					"Future30"
+		labelText				            "Ö"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-9
 
-		Command				"select 9"
+		Command				              "select 9"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"engineer_extra_0"
+	                          "engineer_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"engineer_extra_0"
+		fieldName				            "engineer_extra_0"
 		xpos					cs-1
 		ypos					334
 		zpos					4
@@ -802,18 +1039,18 @@ pin_to_sibling scoutlabel
 		tall					147
 		proportionaltoparent		1
 
-		Command				"select 9"
-		labelText				""
+		Command				              "select 9"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"engineer_extra_1"
+	                          "engineer_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"engineer_extra_1"
+		fieldName				            "engineer_extra_1"
 		xpos					cs-1-40
 		ypos					315
 		zpos					4
@@ -821,18 +1058,18 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 9"
-		labelText				""
+		Command				              "select 9"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"engineer_extra_2"
+	                          "engineer_extra_2"
 	{
 		ControlName				CExButton
-		fieldName				"engineer_extra_2"
+		fieldName				            "engineer_extra_2"
 		xpos					cs-1-86
 		ypos					365
 		zpos					4
@@ -840,18 +1077,18 @@ pin_to_sibling scoutlabel
 		tall					116
 		proportionaltoparent		1
 
-		Command				"select 9"
-		labelText				""
+		Command				              "select 9"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"engineer_extra_3"
+	                          "engineer_extra_3"
 	{
 		ControlName				CExButton
-		fieldName				"engineer_extra_3"
+		fieldName				            "engineer_extra_3"
 		xpos					cs-1-116
 		ypos					410
 		zpos					4
@@ -859,22 +1096,22 @@ pin_to_sibling scoutlabel
 		tall					70
 		proportionaltoparent		1
 
-		Command				"select 9"
-		labelText				""
+		Command				              "select 9"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region MEDIC 
+			  // #region MEDIC 
 
-	"medic"
+	                          "medic"
 	{
 		ControlName				CExButton
-		fieldName				"medic"
+		fieldName				            "medic"
 		xpos					cs-0.5-104
 		ypos					270
 		zpos					6
@@ -882,36 +1119,36 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"×"
-		font					"Future30"
+		labelText				            "×"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 5"
+		Command				              "select 5"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"medic_extra_0"
+	                          "medic_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"medic_extra_0"
+		fieldName				            "medic_extra_0"
 		xpos					cs-1-90
 		ypos					255
 		zpos					2
@@ -919,18 +1156,18 @@ pin_to_sibling scoutlabel
 		tall					226
 		proportionaltoparent		1
 
-		Command				"select 5"
-		labelText				""
+		Command				              "select 5"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"medic_extra_1"
+	                          "medic_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"medic_extra_1"
+		fieldName				            "medic_extra_1"
 		xpos					cs-1-62
 		ypos					300
 		zpos					2
@@ -938,22 +1175,22 @@ pin_to_sibling scoutlabel
 		tall					225
 		proportionaltoparent		1
 
-		Command				"select 5"
-		labelText				""
+		Command				              "select 5"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region SNIPER 
+			  // #region SNIPER 
 
-	"sniper"
+	                          "sniper"
 	{
 		ControlName				CExButton
-		fieldName				"sniper"
+		fieldName				            "sniper"
 		xpos					cs-0.5-119
 		ypos					192
 		zpos					6
@@ -961,38 +1198,38 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ø"
-		font					"Future30"
+		labelText				            "Ø"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 2"
+		Command				              "select 2"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
 	
-	"sniper_extra_0"
+	                          "sniper_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_0"
+		fieldName				            "sniper_extra_0"
 		xpos					cs-1-98
 		ypos					169
 		zpos					4
@@ -1000,18 +1237,18 @@ pin_to_sibling scoutlabel
 		tall					22
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_1"
+	                          "sniper_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_1"
+		fieldName				            "sniper_extra_1"
 		xpos					cs-1-139
 		ypos					150
 		zpos					4
@@ -1019,18 +1256,18 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_2"
+	                          "sniper_extra_2"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_2"
+		fieldName				            "sniper_extra_2"
 		xpos					cs-1-168
 		ypos					117
 		zpos					4
@@ -1038,18 +1275,18 @@ pin_to_sibling scoutlabel
 		tall					33
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_3"
+	                          "sniper_extra_3"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_3"
+		fieldName				            "sniper_extra_3"
 		xpos					cs-1-229
 		ypos					85
 		zpos					4
@@ -1057,18 +1294,18 @@ pin_to_sibling scoutlabel
 		tall					32
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_4"
+	                          "sniper_extra_4"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_4"
+		fieldName				            "sniper_extra_4"
 		xpos					cs-1-290
 		ypos					45
 		zpos					4
@@ -1076,18 +1313,18 @@ pin_to_sibling scoutlabel
 		tall					40
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_5"
+	                          "sniper_extra_5"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_5"
+		fieldName				            "sniper_extra_5"
 		xpos					cs-1-84
 		ypos					190
 		zpos					4
@@ -1095,18 +1332,18 @@ pin_to_sibling scoutlabel
 		tall					66
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_6"
+	                          "sniper_extra_6"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_6"
+		fieldName				            "sniper_extra_6"
 		xpos					cs-1-120
 		ypos					255
 		zpos					4
@@ -1114,18 +1351,18 @@ pin_to_sibling scoutlabel
 		tall					11
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"sniper_extra_7"
+	                          "sniper_extra_7"
 	{
 		ControlName				CExButton
-		fieldName				"sniper_extra_7"
+		fieldName				            "sniper_extra_7"
 		xpos					cs-1-225
 		ypos					265
 		zpos					4
@@ -1133,22 +1370,22 @@ pin_to_sibling scoutlabel
 		tall					20
 		proportionaltoparent		1
 
-		Command				"select 2"
-		labelText				""
+		Command				              "select 2"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 0 30"
 		paintbackground			0
 		paintborder				0
 	}
 	
-	// #endregion
+			  // #endregion
 
-	// #region SPY 
+			  // #region SPY 
 
-	"spy"
+	                          "spy"
 	{
 		ControlName				CExButton
-		fieldName				"spy"
+		fieldName				            "spy"
 		xpos					cs-0.5-78
 		ypos					118
 		zpos					6
@@ -1156,37 +1393,37 @@ pin_to_sibling scoutlabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				"Ù"
-		font					"Future30"
+		labelText				            "Ù"
+		font					                "Future30"
 		textAlignment			center
 		textinsety				-5
 
-		Command				"select 8"
+		Command				              "select 8"
 		stayselectedonclick		1
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		sound_armed				"UI/buttonrollover.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
+		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
 		selectedFgColor_override	"Primary"
-		FgColor_override		"Neutral"
-		FgColor		"Neutral"
+		FgColor_override		       "Neutral"
+		FgColor		                "Neutral"
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
 		paintborder				0
 
-		"image_default"	"replay/thumbnails/null"
-		"image_armed"	"replay/thumbnails/null"
+		                         "image_default"	"replay/thumbnails/null"
+		                         "image_armed"	"replay/thumbnails/null"
 	}
 
-	"spy_extra_0"
+	                          "spy_extra_0"
 	{
 		ControlName				CExButton
-		fieldName				"spy_extra_0"
+		fieldName				            "spy_extra_0"
 		xpos					cs-1-39
 		ypos					0
 		zpos					2
@@ -1194,18 +1431,18 @@ pin_to_sibling scoutlabel
 		tall					160
 		proportionaltoparent		1
 
-		Command				"select 8"
-		labelText				""
+		Command				              "select 8"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 
-	"spy_extra_1"
+	                          "spy_extra_1"
 	{
 		ControlName				CExButton
-		fieldName				"spy_extra_1"
+		fieldName				            "spy_extra_1"
 		xpos					cs-1-70
 		ypos					160
 		zpos					2
@@ -1213,43 +1450,43 @@ pin_to_sibling scoutlabel
 		tall					31
 		proportionaltoparent		1
 
-		Command				"select 8"
-		labelText				""
+		Command				              "select 8"
+		labelText				            ""
 
 		defaultBgColor_override		"0 255 255 30"
 		paintbackground			0
 		paintborder				0
 	}
 	
-	// #endregion
+			  // #endregion
 
-	"EditLoadoutButton"		// click in the center opens loadout
+	                          "EditLoadoutButton"  // click in the center opens loadout
 	{
 		ControlName				CExButton
-		fieldName				"EditLoadoutButton"
+		fieldName				            "EditLoadoutButton"
 		xpos					0
 		ypos					0
 		zpos					0
 		wide					f0
 		tall					480
 
-		Command				"openloadout"		
-		labelText				""
+		Command				              "openloadout"		
+		labelText				            ""
 		
 		paintbackground			0
 		
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+		sound_depressed			       "ui/buttonclick.wav"
+		sound_released			        "ui/buttonclickrelease.wav"
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region CLASS PICKED NUMBERS 
+			  // #region CLASS PICKED NUMBERS 
 	
-	"numScout"
+	                          "numScout"
 	{
 		ControlName				CExLabel
-		fieldName				"numScout"
+		fieldName				            "numScout"
 		xpos					cs-0.5
 		ypos					66
 		zpos					5
@@ -1257,18 +1494,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numScout%"
+		labelText				            "%numScout%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 
-	"numSoldier"
+	                          "numSoldier"
 	{
 		ControlName				CExLabel
-		fieldName				"numSoldier"
+		fieldName				            "numSoldier"
 		xpos					cs-0.5+102
 		ypos					102
 		zpos					5
@@ -1276,18 +1513,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numSoldier%"
+		labelText				            "%numSoldier%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numPyro"
+	                          "numPyro"
 	{
 		ControlName				CExLabel
-		fieldName				"numPyro"
+		fieldName				            "numPyro"
 		xpos					cs-0.5+154
 		ypos					198
 		zpos					5
@@ -1295,18 +1532,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numPyro%"
+		labelText				            "%numPyro%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numDemoman"
+	                          "numDemoman"
 	{
 		ControlName				CExLabel
-		fieldName				"numDemoman"
+		fieldName				            "numDemoman"
 		xpos					cs-0.5+140
 		ypos					306
 		zpos					5
@@ -1314,18 +1551,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numDemoman%"
+		labelText				            "%numDemoman%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numHeavy"
+	                          "numHeavy"
 	{
 		ControlName				CExLabel
-		fieldName				"numHeavy"
+		fieldName				            "numHeavy"
 		xpos					cs-0.5+58
 		ypos					376
 		zpos					5
@@ -1333,18 +1570,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numHeavy%"
+		labelText				            "%numHeavy%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numEngineer"
+	                          "numEngineer"
 	{
 		ControlName				CExLabel
-		fieldName				"numEngineer"
+		fieldName				            "numEngineer"
 		xpos					cs-0.5-58
 		ypos					376
 		zpos					5
@@ -1352,18 +1589,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numEngineer%"
+		labelText				            "%numEngineer%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numMedic"
+	                          "numMedic"
 	{
 		ControlName				CExLabel
-		fieldName				"numMedic"
+		fieldName				            "numMedic"
 		xpos					cs-0.5-140
 		ypos					306
 		zpos					5
@@ -1371,18 +1608,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numMedic%"
+		labelText				            "%numMedic%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numSniper"
+	                          "numSniper"
 	{
 		ControlName				CExLabel
-		fieldName				"numSniper"
+		fieldName				            "numSniper"
 		xpos					cs-0.5-154
 		ypos					198
 		zpos					5
@@ -1390,18 +1627,18 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numSniper%"
+		labelText				            "%numSniper%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 	
-	"numSpy"
+	                          "numSpy"
 	{
 		ControlName				CExLabel
-		fieldName				"numSpy"
+		fieldName				            "numSpy"
 		xpos					cs-0.5-102
 		ypos					102
 		zpos					5
@@ -1409,154 +1646,154 @@ pin_to_sibling scoutlabel
 		tall					30
 		mouseinputenabled			0
 		
-		labelText				"%numSpy%"
+		labelText				            "%numSpy%"
 		textAlignment			center
-		font					"Size 20"
+		font					                "Size 20"
 
-		fgcolor				"Neutral"
+		fgcolor				              "Neutral"
 		paintbackground			0
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region KEYBOARD SHORTCUTS 
+			  // #region KEYBOARD SHORTCUTS 
 	
-	"KeyboardShortcutScout"
+	                          "KeyboardShortcutScout"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutScout"
+		fieldName				            "KeyboardShortcutScout"
 		wide					0
 		tall					0
-		labelText				"&1"
-		Command				"select 1"
+		labelText				            "&1"
+		Command				              "select 1"
 	}
 
-	"KeyboardShortcutSoldier"
+	                          "KeyboardShortcutSoldier"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutSoldier"
+		fieldName				            "KeyboardShortcutSoldier"
 		wide					0
 		tall					0
-		labelText				"&1"
-		Command				"select 3"
+		labelText				            "&1"
+		Command				              "select 3"
 	}
 
-	"KeyboardShortcutPyro"
+	                          "KeyboardShortcutPyro"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutPyro"
+		fieldName				            "KeyboardShortcutPyro"
 		wide					0
 		tall					0
-		labelText				"&1"
-		Command				"select 7"
+		labelText				            "&1"
+		Command				              "select 7"
 	}
 
-	"KeyboardShortcutDemoman"
+	                          "KeyboardShortcutDemoman"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutDemoman"
+		fieldName				            "KeyboardShortcutDemoman"
 		wide					0
 		tall					0
-		labelText				"&4"
-		Command				"select 4"
+		labelText				            "&4"
+		Command				              "select 4"
 	}
 
-	"KeyboardShortcutHeavy"
+	                          "KeyboardShortcutHeavy"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutHeavy"
+		fieldName				            "KeyboardShortcutHeavy"
 		wide					0
 		tall					0
-		labelText				"&5"
-		Command				"select 6"
+		labelText				            "&5"
+		Command				              "select 6"
 	}
 
-	"KeyboardShortcutEngineer"
+	                          "KeyboardShortcutEngineer"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutEngineer"
+		fieldName				            "KeyboardShortcutEngineer"
 		wide					0
 		tall					0
-		labelText				"&6"
-		Command				"select 9"
+		labelText				            "&6"
+		Command				              "select 9"
 	}
 
-	"KeyboardShortcutMedic"
+	                          "KeyboardShortcutMedic"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutMedic"
+		fieldName				            "KeyboardShortcutMedic"
 		wide					0
 		tall					0
-		labelText				"&7"
-		Command				"select 5"
+		labelText				            "&7"
+		Command				              "select 5"
 	}
 
-	"KeyboardShortcutSniper"
+	                          "KeyboardShortcutSniper"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutSniper"
+		fieldName				            "KeyboardShortcutSniper"
 		wide					0
 		tall					0
-		labelText				"&8"
-		Command				"select 2"
+		labelText				            "&8"
+		Command				              "select 2"
 	}
 
-	"KeyboardShortcutSpy"
+	                          "KeyboardShortcutSpy"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutSpy"
+		fieldName				            "KeyboardShortcutSpy"
 		wide					0
 		tall					0
-		labelText				"&9"
-		Command				"select 8"
+		labelText				            "&9"
+		Command				              "select 8"
 	}
 
-	"KeyboardShortcutRandom(0)"
+	                          "KeyboardShortcutRandom(0)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutRandom(0)"
+		fieldName				            "KeyboardShortcutRandom(0)"
 		wide					0
 		tall					0
-		labelText				"&0"
-		Command				"select 12"
+		labelText				            "&0"
+		Command				              "select 12"
 	}
 
-	"KeyboardShortcutRandom(R)"
+	                          "KeyboardShortcutRandom(R)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutRandom(R)"
+		fieldName				            "KeyboardShortcutRandom(R)"
 		wide					0
 		tall					0
-		labelText				"&R"
-		Command				"select 12"
+		labelText				            "&R"
+		Command				              "select 12"
 	}
 
-	"KeyboardShortcutLoadout(E)"
+	                          "KeyboardShortcutLoadout(E)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutLoadout(E)"
+		fieldName				            "KeyboardShortcutLoadout(E)"
 		wide					0
 		tall					0
-		labelText				"&E"
-		Command				"openloadout"
+		labelText				            "&E"
+		Command				              "openloadout"
 	}
 
-	"KeyboardShortcutLoadout(L)"
+	                          "KeyboardShortcutLoadout(L)"
 	{
 		ControlName				CExButton
-		fieldName				"KeyboardShortcutLoadout(L)"
+		fieldName				            "KeyboardShortcutLoadout(L)"
 		wide					0
 		tall					0
-		labelText				"&L"
-		Command				"openloadout"
+		labelText				            "&L"
+		Command				              "openloadout"
 	}
 
-	// #endregion
+			  // #endregion
 
-	"TFPlayerModel"
+	                          "TFPlayerModel"
 	{
 		ControlName				CTFPlayerModelPanel
-		fieldName				"TFPlayerModel"
+		fieldName				            "TFPlayerModel"
 		
 		xpos					cs-0.5
 		ypos					cs-0.5
@@ -1569,402 +1806,403 @@ pin_to_sibling scoutlabel
 		allow_rot				0
 
 		paintbackground			1
-		paintbackgroundenabled 		1	// ?
+		paintbackgroundenabled 1  // ?
 		
-		"model"
+		                         "model"
 		{
-			"force_pos"						"1"
+			                        "force_pos"						"1"
 
-			"angles_x" 						"0"
-			"angles_y" 						"180"
-			"angles_z" 						"0"
-			"origin_x" 						"510"
-			"origin_y" 						"0"
-			"origin_z" 						"-45"
-			"frame_origin_x"				"0"
-			"frame_origin_y"				"0"
-			"frame_origin_z"				"0"
-			"spotlight" 					"1"
+			                        "angles_x" 						"0"
+			                        "angles_y" 						"180"
+			                        "angles_z" 						"0"
+			                        "origin_x" 						"510"
+			                        "origin_y" 						"0"
+			                        "origin_z" 						"-45"
+			                        "frame_origin_x"				"0"
+			                        "frame_origin_y"				"0"
+			                        "frame_origin_z"				"0"
+			                        "spotlight" 					"1"
 		
-			"modelname"						""
-			"vcd"					"class_select.vcd"
+			                        "modelname"						""
+			                        "vcd"					"class_select.vcd"
 			
-			"animation"
+			                        "animation"
 			{
-				"name"						"PRIMARY"
-				"activity"					"ACT_MP_STAND_PRIMARY"
-				"default"					"1"
+				                       "name"						"PRIMARY"
+				                       "activity"					"ACT_MP_STAND_PRIMARY"
+				                       "default"					"1"
 			}
-			"animation"
+			                        "animation"
 			{
-				"name"						"SECONDARY"
-				"activity"					"ACT_MP_STAND_SECONDARY"
+				                       "name"						"SECONDARY"
+				                       "activity"					"ACT_MP_STAND_SECONDARY"
 			}
-			"animation"
+			                        "animation"
 			{
-				"name"						"MELEE"
-				"activity"					"ACT_MP_STAND_MELEE"
+				                       "name"						"MELEE"
+				                       "activity"					"ACT_MP_STAND_MELEE"
 			}
-			"animation"
+			                        "animation"
 			{
-				"name"						"BUILDING"
-				"activity"					"ACT_MP_STAND_BUILDING"
+				                       "name"						"BUILDING"
+				                       "activity"					"ACT_MP_STAND_BUILDING"
 			}
-			"animation"
+			                        "animation"
 			{
-				"name"						"PDA"
-				"activity"					"ACT_MP_STAND_PDA"
+				                       "name"						"PDA"
+				                       "activity"					"ACT_MP_STAND_PDA"
 			}
-			"animation"
+			                        "animation"
 			{
-				"name"						"ITEM1"
-				"activity"					"ACT_MP_STAND_ITEM1"
+				                       "name"						"ITEM1"
+				                       "activity"					"ACT_MP_STAND_ITEM1"
 			}						
-			"animation"
+			                        "animation"
 			{
-				"name"						"ITEM2"
-				"activity"					"ACT_MP_STAND_ITEM2"
+				                       "name"						"ITEM2"
+				                       "activity"					"ACT_MP_STAND_ITEM2"
 			}	
-			"animation"
+			                        "animation"
 			{
-				"name"						"MELEE_ALLCLASS"
-				"activity"					"ACT_MP_STAND_MELEE_ALLCLASS"
+				                       "name"						"MELEE_ALLCLASS"
+				                       "activity"					"ACT_MP_STAND_MELEE_ALLCLASS"
 			}						
 		}
 		
-		"customclassdata"
+		                         "customclassdata"
 		{
-			"undefined"
+"undefined"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"300"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"300"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Scout"
+			                        "Scout"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Sniper"
+			                        "Sniper"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Soldier"
+			                        "Soldier"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Demoman"
+			                        "Demoman"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"-5"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"-5"
+				                       "origin_z" 					"-45"
 			}
-			"Medic"
+			                        "Medic"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Heavy"
+			                        "Heavy"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Pyro"
+			                        "Pyro"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
-			"Spy"
+			                        "Spy"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"-5"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"-5"
+				                       "origin_z" 					"-45"
 			}
-			"Engineer"
+			                        "Engineer"
 			{
-				"fov"						"16"
-				"angles_x" 					"0"
-				"angles_y" 					"180"
-				"angles_z" 					"0"
-				"origin_x" 					"640"
-				"origin_y" 					"0"
-				"origin_z" 					"-45"
+				                       "fov"						"16"
+				                       "angles_x" 					"0"
+				                       "angles_y" 					"180"
+				                       "angles_z" 					"0"
+				                       "origin_x" 					"640"
+				                       "origin_y" 					"0"
+				                       "origin_z" 					"-45"
 			}
 		}
 	}
 	
-	// #region MVM 
+			  // #region MVM 
 
-	"MvMUpgradeImageScout"
+	                          "MvMUpgradeImageScout"
 	{
-		"wide"						"0"
+		                         "wide"						"0"
 	}
 	
-	"MvMUpgradeImageSolider"
+	                          "MvMUpgradeImageSolider"
 	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 	
-	"MvMUpgradeImagePyro" 
+	                          "MvMUpgradeImagePyro" 
 	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 	
-	"MvMUpgradeImageDemoman" 
+	                          "MvMUpgradeImageDemoman" 
 	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
-	"MvMUpgradeImageHeavy"
+	                          "MvMUpgradeImageHeavy"
 	{
-	"wide"						"0"
-	}
-	
-	"MvMUpgradeImageEngineer"
-	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 	
-	"MvMUpgradeImageMedic"
+	                          "MvMUpgradeImageEngineer"
+	{
+	                          "wide"						"0"
+	}
+	
+	                          "MvMUpgradeImageMedic"
 		{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 	
-	"MvMUpgradeImageSniper"
+	                          "MvMUpgradeImageSniper"
 	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 	
-	"MvMUpgradeImageSpy"
+	                          "MvMUpgradeImageSpy"
 	{
-	"wide"						"0"
+	                          "wide"						"0"
 	}
 
-	// #endregion
+			  // #endregion
 
-	// #region DISABLED 
+			  // #region DISABLED 
 
-	"ClassInfo"
+	                          "ClassInfo"
 	{
 		visible			0
 	}
-	"ClassTipsPanel"
+	                          "ClassTipsPanel"
 	{
 		visible			0
 	}
-	"localPlayerImage"
-	{
-		visible			0
-		visible 0
-		tall				0
-	}
-	"localPlayerBG"
+	                          "localPlayerImage"
 	{
 		visible			0
 		visible 0
 		tall				0
 	}
-	"ClassTipsPanel"
-	{
-		visible			0
-	}
-	"random"
-	{
-		visible 0
-		tall				0
-	}
-	"ClassInfo"
-	{
-		visible			0
-	}
-	"ClassTipsPanel"
-	{
-		visible			0
-	}
-	"localPlayerImage"
+	                          "localPlayerBG"
 	{
 		visible			0
 		visible 0
 		tall				0
 	}
-	"countImage0" 
+	                          "ClassTipsPanel"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage0"
-		"tall"			"0"
-		"scaleImage"	"1"	
+		visible			0
+	}
+	                          "random"
+	{
+		visible 0
+		tall				0
+	}
+	                          "ClassInfo"
+	{
+		visible			0
+	}
+	                          "ClassTipsPanel"
+	{
+		visible			0
+	}
+	                          "localPlayerImage"
+	{
+		visible			0
+		visible 0
+		tall				0
+	}
+	                          "countImage0" 
+	{
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage0"
+		                         "tall"			"0"
+		                         "scaleImage"	"1"	
 	}							
 	
-	"countImage1" 
+	                          "countImage1" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage1"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage0"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage1"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage0"
 	}
 	
-	"countImage2" 
+	                          "countImage2" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage2"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage1"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage2"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage1"
 	}
 	
-	"countImage3" 
+	                          "countImage3" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage3"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage2"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage3"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage2"
 	}
 	
-	"countImage4" 
+	                          "countImage4" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage4"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		pin_to_sibling	"countImage3"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage4"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		pin_to_sibling	          "countImage3"
 	}
 	
-	"countImage5" 
+	                          "countImage5" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage5"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage4"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage5"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage4"
 	}
 	
-	"countImage6" 
+	                          "countImage6" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage6"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		pin_to_sibling	"countImage5"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage6"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		pin_to_sibling	          "countImage5"
 	}
 	
-	"countImage7" 
+	                          "countImage7" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage7"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		//"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage6"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage7"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+				  //                   "enabled"		"1"
+		                         "image"			""	
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage6"
 	}
 	
-	"countImage8" 
+	                          "countImage8" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage8"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		//"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage7"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage8"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+				  //                   "enabled"		"1"
+		                         "image"			""	
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage7"
 	}
 	
-	"countImage9" 
+	                          "countImage9" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage9"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"tall"			"0"
-		"visible"		"0"
-		//"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-	pin_to_sibling	"countImage8"		
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage9"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "tall"			"0"
+		                         "visible"		"0"
+				  //                   "enabled"		"1"
+		                         "image"			""	
+		                         "scaleImage"	"1"	
+	pin_to_sibling	           "countImage8"		
 	}
 	
-	"countImage10" 
+	                          "countImage10" 
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage10"
-		"xpos"			"-25"
-		"ypos"			"0"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"0"
-		"visible"		"0"
-		//"enabled"		"1"
-		"image"			""	
-		"scaleImage"	"1"	
-		pin_to_sibling	"countImage9"
+		                         "ControlName"	"CTFImagePanel"
+		                         "fieldName"		"countImage10"
+		                         "xpos"			"-25"
+		                         "ypos"			"0"
+		                         "zpos"			"9"
+		                         "wide"			"30"
+		                         "tall"			"0"
+		                         "visible"		"0"
+				  //                   "enabled"		"1"
+		                         "image"			""	
+		                         "scaleImage"	"1"	
+		pin_to_sibling	          "countImage9"
+		
 	}
-	// #endregion
+			  // #endregion
 }

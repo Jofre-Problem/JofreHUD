@@ -1,4 +1,4 @@
-	#base "../../../../cfg/_jp_awsd_hudlayout.txt"
+#base "../../../../cfg/_jp_awsd_hudlayout.txt"
 	#base "../../../../cfg/_jp_hud_radar.txt"		
 	#base "../new/ui_overrides/close-caption/file.res"
 	#base "../../../../cfg/_jp_speed_style.txt"
@@ -409,18 +409,17 @@
 	}
 	HudDeathNotice
 	{
-		"xpos"	 "0" // 6 KF
-		"ypos"	 "35" // 7 KF
-		"wide"	 "f0"
-		"tall"	 "p0.6"
-
-		"MaxDeathNotices"		"15"
-		"IconScale"	  "0.38"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"
-				
+		"xpos"	"r619"	"ypos"	"35"	"wide"	"628"	"tall"	"468"
+		    "PaintBackgroundType"    "2"
+    "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture2"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture3"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture4"         "vgui/replay/thumbnails/hp/gradienttest"
+		"MaxDeathNotices"		"14"
+		"IconScale"	  "0.39"
+		"LineHeight"	"16"	"LineSpacing"	"0"
+		"CornerRadius"	"4"
+		"RightJustify"	"1"
 		"TextFont"		"Killfeed2"
 		
 		"TeamBlue"		"13 117 190 255"

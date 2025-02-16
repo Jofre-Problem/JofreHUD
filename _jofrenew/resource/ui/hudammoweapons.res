@@ -266,7 +266,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDudeS1"//AmmoEverywhereDude1
-		"font"			"HealthAndAmmoShadow1"
+		"font"			"HealthAndAmmoShadow1"  [$WINDOWS]
+		"font" 	"blank"	[$LINUX]			
 		"fgcolor"		"0 0 0 185"
 		"xpos"			"58"
 		"ypos"			"5"
