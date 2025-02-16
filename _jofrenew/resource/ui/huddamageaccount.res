@@ -99,7 +99,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelHeals"
 		"font"			"DamageTextheals"	[$WINDOWS]
-		"font"			"Blank"	[$OSX]
+		"font"			"Blank"	[$LINUX]
 		"fgcolor"		"46 255 83 255"
 	"xpos"			"c-50"
 		"ypos"			"c17+20+6"
@@ -116,7 +116,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelHealsS"
 		"font"			"DamageTexthealsshadow"	[$WINDOWS]
-		"font"			"Blank"	[$OSX]
+		"font"			"Blank"	[$LINUX]
 		"fgcolor"		"0 0 0 150"
 	"xpos"			"c-50"
 		"ypos"			"c17+20+6"
