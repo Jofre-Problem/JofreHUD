@@ -421,8 +421,6 @@
 		"zpos"			"1"
 //		"wide"			"1001"//1000
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		"#healthlow"
 		"textAlignment"	"center"	
 		"font"			"LowerHealthFont" [$WINDOWS]

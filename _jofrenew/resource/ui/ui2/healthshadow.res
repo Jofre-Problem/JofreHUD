@@ -31,7 +31,8 @@
 	}
 	"PlayerStatusHealthValueLower2"
 	{
-		"xpos"			"-335"//-285
+		"visible" "0"
+		"xpos"			"-0"//-285
 		"ypos"			"2"//0
 		"wide"			"1001"//1000
 	}

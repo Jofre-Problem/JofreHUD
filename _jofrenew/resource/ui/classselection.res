@@ -21,24 +21,25 @@
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Ñ"
 		textalignment center
 	}			
-	                          "ProgressBar1Scout    "
+	                          "ProgressBar1Scout"
 	{
-					                      "ControlName          "                    "ContinuousProgressBar"
-		                         "fieldName            "                    "ProgressBar1Scout    "
-		                         "xpos                 "			        "0                    "
-		                         "zpos                 "			        "0                    "
-		                         "ypos                 "			        "0                    "
-		                         "tall                 "	                "48                   "
-		                         "wide                 "			        "f0                   "
-		                         "fgcolor_override     "	                "red                  "
-		                         "variable             "		            "numScout             "
-	                          "pin_to_sibling       "                    "Scoutlabel           "
-                           "pin_corner_to_sibling"					"PIN_TOPLEFT          "
-                           "pin_to_sibling_corner"					"PIN_TOPRIGHT         "
+					                      "ControlName"                    "ContinuousProgressBar"
+		                         "fieldName"                    "ProgressBar1Scout"
+		                         "xpos"			        "0"
+		                         "zpos"			        "0"
+		                         "ypos"			        "0"
+		                         "tall"	                "48"
+		                         "wide"			        "f0"
+								 bgcolor_override blank
+		                         "fgcolor_override"	                "notowhite"
+		                         "variable"		            "numScout"
+	                          "pin_to_sibling"                    "Scoutlabel"
+                           "pin_corner_to_sibling"					"PIN_TOPLEFT"
+                           "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	} 
 "Soldiderlabel"
 {
@@ -51,7 +52,7 @@
 "wide"			"o1"
 bgcolor_override blacksolid
 "font" "Future30"
-"fgcolor_override"	"red"
+"fgcolor_override"	"notowhite"
 "labeltext"		"Ò"
 textalignment center
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -67,7 +68,8 @@ pin_to_sibling scoutlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
+								 "bgcolor_override" "blank"
 		                         "variable"		"numSoldier"
 	                          "pin_to_sibling" "Soldiderlabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -85,7 +87,7 @@ pin_to_sibling scoutlabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Ó"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -101,7 +103,8 @@ pin_to_sibling Soldiderlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+								 bgcolor_override blank
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"numpyro"
 	                          "pin_to_sibling" "Soldiderlabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -118,7 +121,7 @@ pin_to_sibling Soldiderlabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Ô"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -134,9 +137,10 @@ pin_to_sibling pyrolabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+								 bgcolor_override blank
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"numdemoman"
-	                          "pin_to_sibling" "pyrolabel"
+	                          "pin_to_sibling" "demolabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}			
@@ -151,7 +155,7 @@ pin_to_sibling pyrolabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Õ"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -167,9 +171,10 @@ pin_to_sibling demolabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"numheavy"
-	                          "pin_to_sibling" "pyrolabel"
+	                          "pin_to_sibling" "heavylabel"
+							  bgcolor_override blank
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}			
@@ -184,7 +189,7 @@ pin_to_sibling demolabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Ö"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -200,9 +205,10 @@ pin_to_sibling heavylabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"numengineer"
-	                          "pin_to_sibling" "heavylabel"
+								 bgcolor_override blank
+	                          "pin_to_sibling" "engilabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}		
@@ -217,8 +223,8 @@ pin_to_sibling heavylabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
-		                         "labeltext"		"Ø"
+		                         "fgcolor_override"	"notowhite"
+		                         "labeltext"		"×"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -233,9 +239,10 @@ pin_to_sibling engilabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"nummedic"
-	                          "pin_to_sibling" "engilabel"
+								 bgcolor_override blank
+	                          "pin_to_sibling" "mediclabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}		
@@ -251,8 +258,8 @@ pin_to_sibling engilabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
-		                         "labeltext"		"×"
+		                         "fgcolor_override"	"notowhite"
+		                         "labeltext"		"Ø"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -267,9 +274,10 @@ pin_to_sibling mediclabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
+								 bgcolor_override blank
 		                         "variable"		"numsniper"
-	                          "pin_to_sibling" "mediclabel"
+	                          "pin_to_sibling" "sniperlabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}						
@@ -286,7 +294,7 @@ pin_to_sibling mediclabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "labeltext"		"Ù"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -300,11 +308,12 @@ pin_to_sibling sniperlabel
 		                         "xpos"			"0"
 		                         "zpos"			"0"
 		                         "ypos"			"0"
+								 bgcolor_override blank
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"red"
+		                         "fgcolor_override"	"notowhite"
 		                         "variable"		"numspy"
-	                          "pin_to_sibling" "mediclabel"
+	                          "pin_to_sibling" "spylabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}		

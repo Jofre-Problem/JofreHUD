@@ -33,7 +33,7 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValueLower Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLow Alpha "255" Linear 0.0 0.0
 	Animate PlayerStatusHealthValueLowest2 Alpha "255" Linear 0.0 0.0
-	Animate PlayerStatusHealthValueLower2 Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower2 Alpha "255" Linear 0.0 0.0 //problem
 	Animate PlayerStatusHealthValueLow2 Alpha "255" Linear 0.0 0.0
 
 	RunEvent HudHealthDyingPulseLoop2a	0.0 //normal - sub50
