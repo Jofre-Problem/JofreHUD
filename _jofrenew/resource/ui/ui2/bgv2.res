@@ -46,7 +46,7 @@
 	{
 		"ControlName"			"cexlabel"
 		"fieldName"				"btnlabel2"
-		xpos rs1-2
+		xpos r30
 		"ypos"					"rs1-2"
 		labelText "o"
 		font "newicons57"
@@ -77,7 +77,7 @@
 		"ypos"			"00"
 		"zpos" "-10"
 		"wide"			"p1"
-		"tall"			"f0"
+		"tall"			"p1.01"
 		"visible"		"1"
 
 

@@ -23,7 +23,7 @@ event MenuPulse
 }
 event whatcmd
 {
-	FireCommand 0.0 "engine echo ====================loser"
+	FireCommand 0.0 "engine echo ====================Testing===================="
 }
 
 
@@ -34,12 +34,12 @@ event HasMOTDBlink
 
 event HasMOTDBlinkLoop
 {
-		FireCommand 0.0 "engine echo loser"
+		FireCommand 0.0 "engine echo HasMOTDBlinkLoop"
 }
 
 event HasMOTDBlinkStop
 {
-		FireCommand 0.0 "engine echo loser"
+		FireCommand 0.0 "engine echo HasMOTDBlinkStop"
 }
 event LevelInit
 {

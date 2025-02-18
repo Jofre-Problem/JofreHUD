@@ -81,7 +81,7 @@
 		settitlebarvisible		1
 		paintbackground			0
         "settitlebarvisible"                    "1"
-        "titletextinsetY"                       "-30"
+        "titletextinsetY"                       "-28"
         "sheetinset_bottom"                     "0"
 		clientinsetx_override		0		// content xpos offset
 		sheetinset_bottom			0           // perfect
