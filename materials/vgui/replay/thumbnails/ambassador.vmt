@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent"	1
-	"$basetexture" "vgui\replay\thumbnails\ambassador"
-	"$vertexcolor" 1
-	
-	"$ignorez" 1
-}
