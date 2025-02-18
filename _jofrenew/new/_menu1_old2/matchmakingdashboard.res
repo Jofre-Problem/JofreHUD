@@ -757,7 +757,7 @@
 			"defaultBgColor_override"	"blank"
 			"fgcolor"			"notowhite"
 			"fgcolor_override"			"notowhite"
-			
+			"depressedbgcolor_override" "blank"
 			"defaultFgColor_override" "notowhite"
 			"armedFgColor_override" "W_CerrarArmed"
 			"depressedFgColor_override" "215 215 215 255"
@@ -806,7 +806,7 @@
 			"armedFgColor_override" "W_CerrarArmed"
 			"depressedFgColor_override" "notowhite"
 
-
+"depressedbgcolor_override" "blank"
 
 			"SubImage"
 			{
@@ -853,6 +853,8 @@
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
 			"defaultFgColor_override" "black"
+			"depressedbgcolor_override" "blank"
+			"depressedfgcolor_override" "green"
 			"fgcolor"			"black"
 			
 			"SubImage"
