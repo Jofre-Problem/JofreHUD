@@ -58,7 +58,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"64"
 				
 				"antialias" "1"
@@ -69,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"48"
 				
 				"antialias" "1"
@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"36"
 				
 				"antialias" "1"
@@ -130,7 +130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"32"
 				
 				"antialias" "1"
@@ -140,7 +140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"28"
 				
 				"antialias" "1"
@@ -180,7 +180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"16"
 				
 				"antialias" "1"
@@ -190,7 +190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans Bold"
+				"name"		"open_sans_bold"
 				"tall"		"12"
 				
 				"antialias" "1"

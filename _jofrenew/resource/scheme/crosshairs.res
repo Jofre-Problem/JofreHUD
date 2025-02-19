@@ -433,7 +433,7 @@
 	{
 		"100"
 		{
-			"font"		"fonts/TF2Crosshairs.ttf"
+			"font"		"fonts/tf2crosshairs.ttf"
 			"name"		"TF2Crosshairs"
 		}
 	}

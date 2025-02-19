@@ -1,3 +1,5 @@
+	#base "../_hud/scheme/clientscheme_fontentries.res"
+
 	#base "../_mainstream/scream-fortress/clientscheme.txt"
 	#base "../_stream/resource/clientscheme.res"
 	#base "../_jofrenew/resource/clientscheme.res"

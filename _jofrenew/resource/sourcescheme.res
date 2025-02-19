@@ -508,7 +508,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"20"		
 				"antialias"			"1"
 			}
@@ -517,7 +517,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"25"		
 				"antialias"			"1"
 			}
@@ -526,7 +526,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"70"		
 				"antialias"			"1"
 			}
@@ -772,28 +772,30 @@ Button.DepressedTextColor "220 220 220 255"
 	{
   		"57"
 		{
-			"font" "fonts/JofreIconsMaster.otf"
+			"font" "fonts/jofreiconsre.ttf"
 			"name" "JofreIconsRe"
 		}	      
+       
 		"58"
 		{
-			"font" "fonts/CallingCode-Regular.otf"
+			"font" "fonts/callingcode-regular.otf"
 			"name" "Calling Code Regular"
 		}      
 		"61"
 		{
-			"font" "fonts/ProductJofre.otf"
+			"font" "fonts/productjofre.otf"
 			"name" "Product Jofre"
 			"range"	"0x0000 0x017F"
 		} 
 		"79"
 		{
-			"font" "fonts/optimized/OpenSans-Bold.ttf"
+			"font" "fonts/optimized/opensans_bold.ttf"
 			"name" "Open Sans Bold"
+
 		}		
 		"62"
 		{
-			"font" "fonts/ProductJofre2.otf"
+			"font" "fonts/productjofre2.otf"
 			"name" "Product Jofre2"
 			"range"	"0x0000 0x017F"
 		} 		

@@ -182,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"38"				
 				"antialias"			"1"
 			}
@@ -191,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"25"		
 				"antialias"			"1"
 			}
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"22"		
 				"antialias"			"1"
 			}
@@ -209,7 +209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				20		
 				"antialias"			"1"
 			}
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				20		
 				"antialias"			"1"
 				blur 2
@@ -228,7 +228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				18	
 				"antialias"			"1"
 			}
@@ -237,7 +237,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				17	
 				"antialias"			"1"
 			}
@@ -256,7 +256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				15	
 				"antialias"			"1"
 			}
@@ -274,7 +274,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"12"		
 				"antialias"			"1"
 			}
@@ -283,7 +283,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"11"		
 				"antialias"			"1"
 			}
@@ -292,7 +292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"				"JofreIconsRe"
+				"name"				"jofreiconsre"
 				"tall"				"10"		
 				"antialias"			"1"
 			}
@@ -709,18 +709,6 @@ Scheme
 			"src_corner_height"	"23"	"src_corner_width"	"23"	"draw_corner_width"	"8"	"draw_corner_height"	"8"	
 		}
 	
-	CustomFontFiles
-	{
-		"linux1"		"resource/HALFLIFE2.ttf"
 
-		"linux14"		"resource/linux_fonts/DejaVuSans.ttf"
-		"linux15"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"linux16"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"linux17"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"linux18"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"linux19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"linux110"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"
-	}
 	}
 }
