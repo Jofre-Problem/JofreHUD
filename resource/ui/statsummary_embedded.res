@@ -1,3 +1,4 @@
+
 	#base	"../../#customization/_enabled/jh_tiptext.res"
 	//#base	"../../_stream/resource/ui/statsummary_embedded.res"
 	#base	"../../_jofrenew/resource/ui/statsummary_embedded.res"
