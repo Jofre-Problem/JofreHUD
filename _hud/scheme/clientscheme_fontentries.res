@@ -67,7 +67,7 @@ Scheme
 		"boldsans"
 		{
 			"font" "fonts/productsansbold.ttf"
-			"name" "Product Sans Bold"
+			"name" "productsansbold"
 		}
 		"91"
 		{
@@ -204,15 +204,10 @@ Scheme
 		//	"font" "fonts/LowAmmoWarning-Zero_linux.otf" [$OSX]
 			"name" "LowAmmoWarning Zero"
 		}
-		"11"
-		{
-			"font" "fonts/OpenSans-Nodash.ttf"
-			"name" "Open Sans Nodash"
-		}
 		"12"
 		{
-			"font" "fonts/OpenSans-Checkmark.ttf"
-			"name" "Open Sans Checkmark"
+			"font" "fonts/opensanscheckmark.ttf"
+			"name" "opensanscheckmark"
 		}
 		"13"
 		{
@@ -318,36 +313,25 @@ Scheme
 			}
 		}
 
-		"61"
+		"reservefont"
 		{
-			"font" "fonts/OpenSans-Nodash.ttf"
-			"name" "Open Sans Nodash"
-		}
-		"62"
-		{
-			"font" "fonts/OpenSans-Checkmark.ttf"
-//[$WINDOWS]			"font" "fonts/OpenSans-Checkmark-linux.otf" [$POSIX]
-			"name" "Open Sans Checkmark"
+			"font" "fonts/opensansnodash.ttf"
+			"name" "opensansnodash"
 		}
 		"136"
 		{
-			"font" "fonts/OpenSans-LowAmmo.ttf"
+			"font" "fonts/opensans-lowammo.ttf"
 			"name" "Open Sans LowAmmo"
 		}
 		"48"
 		{
-			"font" "fonts/OpenSans-AlphaInvertedNEW.ttf"
+			"font" "fonts/opensans-alphainvertednew.ttf"
 			"name" "Open Sans AlphaInvertedNEW"
 		}
 		"wowcircles"
 		{
 			"font" "fonts/circles.ttf"
 			"name" "circles Medium"
-		}
-		"95"
-		{
-			"font" "fonts/OpenSans-Nodash.ttf"
-			"name" "Open Sans Nodash"
 		}
 		"137"
 		{
@@ -361,7 +345,7 @@ Scheme
 		}
 		"shadow"
 		{
-			"font" "fonts/OpenSans-Shadow.ttf"
+			"font" "fonts/opensans-shadow.ttf"
 			"name" "Open Sans Shadow"
 		}
 		"hpnonumber"

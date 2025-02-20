@@ -14,7 +14,7 @@ event TeamStatus_PlayerDead
 		Animate healthbar position "0 0" Linear  0.0  0.0
 	//	SetVisible chargeamount 1 0
 		RunEvent	TStatus_Snd_Dead 0.0
-
+		RunEventChild Mainmenuoverride TeamStatusCMD 0.0	
 }
 
 event TeamStatus_PlayerAlive
@@ -31,3 +31,8 @@ event TeamStatus_PlayerAlive
 
 		RunEvent	TStatus_Snd_Vivo 0.0
 }
+
+event TeamStatusCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
+{
+		Firecommand 0.0 "engine hud_fastswitch 1"
+}		

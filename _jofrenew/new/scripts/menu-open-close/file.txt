@@ -37,7 +37,7 @@ event MenuOpen
 
 //	SetVisible	roundinfo	1	0
 
-
+	RunEventChild Mainmenuoverride MenuCMD 0.0
 //	RunEventChild DisguiseDust StartParticle0 1
 	// fade in
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
@@ -72,3 +72,7 @@ event MenuOpen
 	RunEvent ForceCmd 0.01
 	setfont HudDeathNotice "textfont" "Killfeed"	0.001
 }
+event MenuCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
+{
+		Firecommand 0.0 "engine hud_fastswitch 1"
+}		

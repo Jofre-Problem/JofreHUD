@@ -23,21 +23,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"15"
 				"range"	"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -45,7 +45,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"22"
 				"range"	"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -53,7 +53,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"24"
 				"range"	"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -61,13 +61,13 @@ Scheme
 			}
 			"6"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"6"
 				"weight"	"0"
 				//
@@ -144,7 +144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"7"
 				//
 				"antialias"	"1"
@@ -154,7 +154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"8"
 				//
 				"antialias"	"1"
@@ -164,7 +164,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"10"
 				//
 				"antialias"	"1"
@@ -175,7 +175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"11"
 				//
 				"antialias"	"1"
@@ -185,7 +185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				//
 				"antialias"	"1"
@@ -195,7 +195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"14"
 				//
 				"antialias"	"1"
@@ -205,7 +205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"16"
 				//
 				"antialias"	"1"
@@ -216,7 +216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"20"
 				//
 				"antialias"	"1"
@@ -226,7 +226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"24"
 				//
 				"antialias"	"1"
@@ -237,7 +237,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"28"
 				//
 				"antialias"	"1"
@@ -247,7 +247,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"30"
 				//
 				"antialias"	"1"
@@ -258,7 +258,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"8"
 				//
 				"antialias"	"1"
@@ -267,9 +267,9 @@ Scheme
 		}
 		"Size 12 Shadow"
 		{
-			"1"
+			"1"Size 16
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				//
 				"antialias"	"1"
@@ -280,7 +280,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"16"
 				//
 				"antialias"	"1"
@@ -291,7 +291,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"20"
 				//
 				"antialias"	"1"
@@ -302,7 +302,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Product Sans Bold"
+				"name"	"productsansbold"
 				"tall"	"28"
 				//
 				"antialias"	"1"

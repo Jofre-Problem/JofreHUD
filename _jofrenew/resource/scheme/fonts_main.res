@@ -142,7 +142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "19"	
 				"antialias"	"1"
 				"blur" "2"
@@ -152,7 +152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "19"
 				"antialias"	"1"
 			}
@@ -161,7 +161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "19"		[$WIN32]
 				"tall"	"12"	[$LINUX]
 				"antialias"	"1"
@@ -182,7 +182,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "23"	[$WIN32]
 				"tall"	"14"	[$LINUX]
 				"antialias"	"1"
@@ -210,7 +210,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Checkmark"
+				"name" "opensanscheckmark"
 				"tall" "50"
 				"antialias"	"1"
 			}
@@ -286,7 +286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "22"	[$WINDOWS]
 				"tall" "12"	[$LINUX]
 				"antialias"	"1"
@@ -296,7 +296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Nodash"
+				"name" "opensansnodash"
 				"tall" "34"
 				"antialias"	"1"
 			}

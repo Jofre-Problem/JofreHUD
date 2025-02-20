@@ -889,8 +889,8 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 			"3"
 		{
-			"font" "_mainstream/_qol/chat-icons/ProductChat.ttf"
-			"name" "ProductChat"
+			"font" "_mainstream/_qol/chat-icons/productchat.ttf"
+			"name" "productchat"
 			"range"         "0x0000 0x017F"
 		}	
 		"4"		"resource/linux_fonts/DejaVuSans.ttf"

@@ -331,7 +331,9 @@
 		"ypos"							"70"
 		"wide"							"155"
 		"tall"							"16"
-		labelText				"New: +hudmenu"
+		labelText				"New: +hudmenu" [$WINDOWS]
+		labeltext "Linux Detected"	[$LINUX]
+		labeltext "Steam Deck ON" [$DECK]
 		"textAlignment"	"center"
 		font		"NotoBold16"
 		"actionsignallevel"		"2"
