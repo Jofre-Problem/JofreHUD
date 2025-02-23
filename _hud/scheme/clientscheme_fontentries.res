@@ -133,7 +133,7 @@ Scheme
 		}
 		"98"
 		{
-			"font" "resource/fonts/jofreiconsre.ttf"
+			"font" "fonts/jofreiconsre.ttf"
 			"name" "jofreiconsre"
 		}
 		"99"

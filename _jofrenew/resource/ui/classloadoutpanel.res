@@ -2,6 +2,32 @@
 #base "ui2/bgv2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+	"ADContainerTest"
+	{
+		"items"
+		{
+			"0"
+			{
+				"present_time"	"3.0"
+			}	
+			"1"
+			{
+				"present_time"	"3.0"
+			}	
+			"2"
+			{
+				"present_time"	"3.0"
+			}	
+			"3"
+			{
+				"present_time"	"3.0"
+			}	
+			"4"
+			{
+				"present_time"	"3.0"
+			}													
+		}
+	}	
 
 			"mouse2"
 	{

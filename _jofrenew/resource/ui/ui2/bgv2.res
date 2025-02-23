@@ -71,7 +71,7 @@
 		"pin_to_sibling" "btnlabel2"
 	}				
 	"ADContainerTest"
-	{
+	{ 
 		"ControlName"	"CCyclingAdContainerPanel"
 		"xpos"			"00"
 		"ypos"			"00"
