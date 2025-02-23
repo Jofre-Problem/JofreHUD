@@ -5,7 +5,11 @@ Banner("_4plug/4plug_images/managers/thumbnailBanner.png", "auto", "topleft");
 Banner("_4plug/4plug_images/managers/thumbnailBanner_v2.png", "auto", "topleft");
 
 Banner("_4plug/4plug_images/color_seccion.png", "auto", "topleft");
-
+[Name:Menu Style, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
+GlobalComboBox("Menu Style", "Menu Style")
+{
+	2025
+}
 [Name:Console Text, Default:Lower, FG:#7A5EF8, BG:#F4F4F5, Border:0]
 GlobalComboBox("Console Text", "Console Text")
 {
@@ -100,25 +104,7 @@ GlobalComboBox("sourcescheme Color", "sourcescheme Color")
 	MagnumHUD
 	XP
 }
-[Name:Loading Icon, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
-GlobalComboBox("Loading Icon", "Loading Icon")
-{
-	Def
-	Blank
-	TF2 Icon
-	DDLC
-	LoadingText
-	Booting
 
-}
-[Name:Loading Background, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
-GlobalComboBox("Loading Background", "Loading Background")
-{
-	Def
-	BudHUD
-	VCRHud
-	Apple Monterrey
-}
 [Name:HudMatchStatus, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
 GlobalComboBox("HudMatchStatus", "HudMatchStatus")
 {

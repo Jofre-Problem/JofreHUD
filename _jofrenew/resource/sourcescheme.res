@@ -790,7 +790,7 @@ Button.DepressedTextColor "220 220 220 255"
 		"79"
 		{
 			"font" "fonts/optimized/opensans_bold.ttf"
-			"name" "Open Sans Bold"
+			"name" "open_sans_bold"
 
 		}		
 		"62"

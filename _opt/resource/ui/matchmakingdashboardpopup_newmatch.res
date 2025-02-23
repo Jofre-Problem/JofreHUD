@@ -55,7 +55,7 @@
 
 			"DescLabel"
 			{
-				"ControlName"	"CAutoFittingLabel"
+				"ControlName"	"CAutoFittingLabel" 
 				"fieldName"		"DescLabel"
 				
 				"ypos"			"7"

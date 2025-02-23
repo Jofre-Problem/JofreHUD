@@ -1,5 +1,5 @@
-#base "../../_jofrehud/#uni_base/filesv1/leftsidebg/main.res"
-#base "../../_jofrehud/#uni_base/filesv1/rightsidebg/main.res"
+#base "../../_opt/#uni_base/filesv1/leftsidebg/main.res"
+#base "../../_opt/#uni_base/filesv1/rightsidebg/main.res"
 #base "../../z_tf2/resource/ui/hudminigame_base.res"
 "Resource/UI/HudMiniGame_Base.res"
 {

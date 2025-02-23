@@ -1,2 +1,2 @@
-#base "../_jofrehud/resource/baseactionplaysoundstartdialog.res"
+#base "../_opt/resource/baseactionplaysoundstartdialog.res"
 #base "../z_hl2/resource/baseactionplaysoundstartdialog.res"

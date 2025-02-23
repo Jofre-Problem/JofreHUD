@@ -135,7 +135,7 @@
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
                 "font"                      "newicons20"
-                "labelText"                 "Ł"
+                "labelText"                 "İ"
                 "textAlignment"             "center"
                "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "blank"

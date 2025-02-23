@@ -1008,7 +1008,7 @@ Scheme
 	  "433"
       {
          "font" "fonts/optimized/opensans_Semibold.ttf"
-         "name" "Open Sans Bold"
+         "name" "open_sans_bold"
       }
 		"999"
 		{

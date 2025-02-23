@@ -5,7 +5,7 @@
 #base "../../../../cfg/_jp_custom.txt"
 #base "../../../cfg/_jp_custom.txt"
 #base "../../cfg/_jp_custom.txt"
-#base "../../new/_menu1_old2/mainmenuoverride.res"
+
 #base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
 #base "../../../../cfg/_jp_particle_rain.txt"
 
@@ -15,7 +15,7 @@
 
 //#base "../../../../../cfg/_jp_mm_layout.txt"
 //#base ../../new/_menu1/mainmenuoverride.res 
-
+#base ../../../_log/resource/ui/mainmenuoverride.res 
 #base "../../../../cfg/_jp_mm_bg.txt"
 #base "../../scripts/preload.res"
 #base "../../../../cfg/_jp_medal_mm.txt"
@@ -29,8 +29,8 @@
 
 #base "ui2/+motd_main_only.res"
 #base "ui2/motd_fallback.res"
-#base "ui2/+safemode.res"
-#base "../fallback/mainmenu.res"
+//#base "ui2/+safemode.res"
+//#base "../fallback/mainmenu.res"
 "j"
 {
 
@@ -131,7 +131,7 @@
 		"ControlName"	"CCyclingAdContainerPanel"
 		"xpos"			"00"
 		"ypos"			"00"
-		"wide"			"p1"
+		"wide"			"p1.01"
 		"tall"			"481"
 		"visible"		"1"
 

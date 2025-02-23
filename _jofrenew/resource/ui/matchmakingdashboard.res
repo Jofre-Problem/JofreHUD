@@ -1,3 +1,3 @@
-#base ../../new/_menu1_old2/matchmakingdashboard.res 
+#base ../../../_log/resource/ui/matchmakingdashboard.res 
 
 #base	"_tf2hud/matchmakingdashboard.res"

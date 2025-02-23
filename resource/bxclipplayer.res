@@ -1,2 +1,2 @@
-#base "../_jofrehud/resource/bxclipplayer.res"
+#base "../_opt/resource/bxclipplayer.res"
 #base "../z_hl2/resource/bxclipplayer.res"

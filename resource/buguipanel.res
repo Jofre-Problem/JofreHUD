@@ -1,2 +1,2 @@
-#base "../_jofrehud/resource/buguipanel.res"
+#base "../_opt/resource/buguipanel.res"
 #base "../z_hl2/resource/buguipanel.res"

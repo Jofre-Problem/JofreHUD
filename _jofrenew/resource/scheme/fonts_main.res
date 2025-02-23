@@ -450,7 +450,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Bold"
+				"name" "open_sans_bold"
 				"tall" "24"
 				"antialias"	"1"
 			}

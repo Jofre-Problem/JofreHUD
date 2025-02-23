@@ -1,2 +1,2 @@
-#base "../_jofrehud/resource/soundpicker.res"
-#base "../_jofrehud/root/resource/soundpicker.res"
+#base "../_opt/resource/soundpicker.res"
+#base "../_opt/root/resource/soundpicker.res"

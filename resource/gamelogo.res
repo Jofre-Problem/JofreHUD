@@ -1,4 +1,4 @@
-#base "../_jofrehud/resource/gamelogo.res"
+#base "../_opt/resource/gamelogo.res"
 #base "../z_hl2/resource/gamelogo.res"
 "Resource/GameLogo.res"
 {

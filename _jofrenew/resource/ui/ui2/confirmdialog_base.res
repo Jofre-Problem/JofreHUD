@@ -38,18 +38,24 @@
 	}		
 	"TitleLabel2"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"cexlabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"NotoBold20"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"-15"
+		"font" "notobold14"
+		"xpos"			"2"
+		"ypos"			"-13"
 		"zpos"			"1"
-		"wide"			"p0.4"//"p0.3"
+		"wide"			"p0.38"//"p0.3"
 		"tall"			"80"
 		"centerwrap"		"1"
 		"fgcolor_override"	"Notowhite"
+							"fonts"
+				{
+					"0"		"NotoBold10"
+					"1"		"NotoBold14"
+					"2"		"NotoBold18"
+				}	
 	}
 	//This is the most stupid
 	// weird
@@ -60,7 +66,7 @@
 	// wtf?
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"CAutoFittingLabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"Size 14"//"EconFontSmall"
 		"labelText"		"Quit?"
@@ -73,6 +79,12 @@
 		//"enabled"		"1"
 		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
+					"fonts"
+				{
+					"0"		"HudFontSmallest"
+					"1"		"StorePromotionsTitle"
+					"2"		"Size 14"
+				}	
 	}
 		
 	"CancelButtonNew"
