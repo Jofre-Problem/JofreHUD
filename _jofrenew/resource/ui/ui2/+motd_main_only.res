@@ -667,14 +667,16 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Vote Next Map:"
-		font					"Noto16"
+		font					"NotoBold16"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine next_map_vote 0"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
-		paintbackground 			0
+				"bgcolor_override"	"notowhite"
+		"fgcolor_override"	"notodark"	
+					"defaultbgcolor_override"	"notowhite"
+		"defaultfgcolor_override"	"notodark"		
+		paintbackground 			1
 	}
 		"vote1a"			// other classes pinned to this
 	{
