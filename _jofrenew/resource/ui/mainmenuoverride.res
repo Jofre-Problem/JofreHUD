@@ -559,7 +559,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "black"
 					"defaultfgcolor_override" "Notowhite"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -625,7 +625,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "black"
 					"defaultfgcolor_override" "Notowhite"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -743,7 +743,53 @@
 					labelText				"exec Tournament.cfg"
 					Command				"engine mp_tournament 0;mp_restartgame 1"
 
-				}				
+				}		
+				"DEVBTN_POSITION:X2V2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:X2V2"
+					"xpos"							"0"
+					"YPOS" "rs1-20-40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "black"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"HIDE MENU"
+					Command				"engine cl_mainmenu_safemode 0; testhudanim HideMenu"
+
+				}		
+				"DEVBTN_POSITION:X2V3"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"DEVBTN_POSITION:X2V3"
+					"xpos"							"0"
+					"YPOS" "rs1-20-40-40"
+					"wide"							"p0.35"
+					"tall"							"40"
+					zpos	"300"
+					font					"NotoBold20"
+					textAlignment			center
+					"actionsignallevel"		"4"
+					paintbackground 			1
+					"defaultbgcolor_override" "black"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"SHOW MENU"
+					
+					Command		"engine testhudanim ShowMenu"		
+					//"engine cl_mainmenu_safemode 1; testhudanim ShowMenu"
+
+				}											
 				"DEVBTN_POSITION:Otherside0"			// other classes pinned to this
 				{
 					ControlName				CExButton
@@ -757,7 +803,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "black"
 					"defaultfgcolor_override" "Notowhite"
 					"armedbgcolor_override" "NotoGreenSolid"
 

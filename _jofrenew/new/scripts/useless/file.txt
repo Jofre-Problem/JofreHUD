@@ -21,10 +21,7 @@ event MenuPulse
 	
 //	RunEvent MenuClose 0.0
 }
-event whatcmd
-{
-	FireCommand 0.0 "engine echo ====================Testing===================="
-}
+
 
 
 event HasMOTDBlink

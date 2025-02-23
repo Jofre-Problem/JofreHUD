@@ -1,8 +1,8 @@
 //#base "multiple-bg.res"
 "Resource/UI/HudArenaPlayerCount.res"
 {	
-			"polybar0bg"						{			ControlName				ImagePanel			FieldName				
-			"polybar0bg"
+			"polybar0bgmm"						{			ControlName				ImagePanel			FieldName				
+			"polybar0bgmm"
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"zpos"				2
@@ -12,10 +12,10 @@
 	}	
 
 
-		"polybar0slash"
+		"polybar0slashmm"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"polybar0slash"
+			"fieldName"		"polybar0slashmm"
 			"font"			"NewIcons20"
 			"labelText"		"ù"
 			"textAlignment"		"west"
@@ -26,8 +26,8 @@
 			"tall"			"15"
 			"fgcolor"		"24 24 24 255"	}
 
-			"bgg1"						{			ControlName				ImagePanel			FieldName				
-			"bgg1"
+			"bgg1mm"						{			ControlName				ImagePanel			FieldName				
+			"bgg1mm"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"//70
@@ -35,10 +35,10 @@
 			fillColor				"255 108 107 255"			
 	}	
 
-		"slash1"
+		"slash1mm"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"slash1"
+			"fieldName"		"slash1mm"
 			"font"			"NewIcons20"
 			"labelText"		"ù"//"%kills%"
 			"textAlignment"		"west"
@@ -54,8 +54,8 @@
 
 
 
-			"bgg2"						{			ControlName				ImagePanel			FieldName				
-			"bgg2"
+			"bgg2mm"						{			ControlName				ImagePanel			FieldName				
+			"bgg2mm"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
@@ -64,10 +64,10 @@
 	}	
 
 
-		"slash2"
+		"slash2mm"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"slash2"
+			"fieldName"		"slash2mm"
 			"font"			"NewIcons20"
 			"labelText"		"ù"//"%kills%"
 			"textAlignment"		"west"
@@ -83,8 +83,8 @@
 
 
 
-			"bgg3"						{			ControlName				ImagePanel			FieldName				
-			"bgg3"
+			"bgg3mm"						{			ControlName				ImagePanel			FieldName				
+			"bgg3mm"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
@@ -93,10 +93,10 @@
 	}	
 
 
-		"slash3"
+		"slash3mm"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"slash3"
+			"fieldName"		"slash3mm"
 			"font"			"NewIcons20"
 			"labelText"		"ù"//"%kills%"
 			"textAlignment"		"west"
@@ -110,8 +110,8 @@
 		}	
 
 
-			"bgg4"						{			ControlName				ImagePanel			FieldName				
-			"bgg4"
+			"bgg4mm"						{			ControlName				ImagePanel			FieldName				
+			"bgg4mm"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"30"
@@ -120,10 +120,10 @@
 	}	
 
 
-		"slash4"
+		"slash4mm"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"slash4"
+			"fieldName"		"slash4mm"
 			"font"			"NewIcons20"
 			"labelText"		"ù"//"%kills%"
 			"textAlignment"		"west"

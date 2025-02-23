@@ -4,9 +4,50 @@ event HintMessageHide
     Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
 	RunEventChild MainMenuOverride PeachRecSpawn 0.0	// peach rec
  	RunEvent  Engineer  0.02
-	RunEventChild MainMenuOverride whatcmd 0.0
+
+
+	// MAIN MENU 
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	// running these 3 times works		
+
+
+	// MMDashboard
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	// running these 3 times works			
+}
+event MainMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Testing===================="
+
+	Animate MMDashboard ypos -15 linear 0.0 0.0
+	Animate MMDashboard ypos 0 linear 0.5 0.1
+
+	Animate WorkshopButton ypos -15 linear 0.0 0.0
+	Animate WorkshopButton ypos 0 linear 0.5 0.1	
+
+	Animate Rankpanel ypos 15 linear 0.0 0.0
+	Animate Rankpanel ypos 0 linear 0.5 0.1	
+
+	Animate polybar0bgmm ypos -15 linear 0.0 0.0
+	Animate polybar0bgmm ypos 0 linear 0.5 0.1	
+
+	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0
+	Animate QuickPlayExpandable ypos 0 linear 0.5 0.2		
 }
 
+	// RankPanel xpos 0 ypos 0
+	// polybar0bg xpos 0 ypos 0
+
+event MMDashboardCMD
+{
+	FireCommand 0.0 "engine echo MMDashboard working"
+	Animate TopBar ypos -15 linear 0.0 0.0
+	Animate TopBar ypos 0 linear 0.5 0.1
+}
 event CompetitiveGame_LowerChatWindow
 {
 	StopEvent	Radar		0.0
@@ -71,4 +112,48 @@ event ScoreboardAlpha
 	Animate scores alpha "0" linear 0.0 0.0
 	Animate scores alpha "255" accel 0.0 0.22
 	
+}
+
+
+event HideMenu
+{
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+//	RunEventChild MMDashboard HideMenuCMD 0.0
+}
+event HideMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Menu HIDDEN===================="
+
+	Animate MMDashboard ypos -15 linear 0.0 0.0
+
+	Animate WorkshopButton ypos -15 linear 0.0 0.0
+
+	Animate Rankpanel ypos 15 linear 0.0 0.0
+
+	Animate polybar0bgmm ypos -15 linear 0.0 0.0
+
+	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0	
+}
+event ShowMenu
+{
+	RunEventChild MainMenuOverride ShowMenuCMD 0.0
+}
+event ShowMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Menu SHOW===================="
+
+	Animate MMDashboard ypos 0 linear 0.0 0.0
+
+
+	Animate WorkshopButton ypos 0 linear 0.0 0.0	
+
+
+	Animate Rankpanel ypos 0 linear 0.0 0.0
+
+
+	Animate polybar0bgmm ypos 0 linear 0.0 0.0
+
+	Animate QuickPlayExpandable ypos 0 linear 0.0 0.0
 }

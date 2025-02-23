@@ -1,5 +1,5 @@
-#base "polybar_1.res"
-#base "polyconfig1.res"
+#base "polybar_1_mm.res"
+#base "polyconfig1_mm.res"
 "j"
 {	
 
@@ -76,50 +76,50 @@
 	}		
 	"MainMenuOverride"
 	{	}
-	"polybar0bg"	
+	"polybar0bgmm"	
 	{
 		"zpos"	"1000"
 		"wide"	"18-p0.002"
 		"xpos"			"0"	
 	}	
-	"polybar0slash"	
+	"polybar0slashmm"	
 	{		"wide"	"30"
 		"textinsetx"	"-2"
 		"labelText"		"É"
 		"zpos"	"1000"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"polybar0bg"		
+		"pin_to_sibling"	"polybar0bgmm"		
 	}
-	"bgg1"	
+	"bgg1mm"	
 	{"wide"	"30"
 	"zpos"	"999"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"polybar0bg"		
+		"pin_to_sibling"	"polybar0bgmm"		
 	}
-	"slash1"
+	"slash1mm"
 	{		"wide"	"30"
 		"textinsetx"	"-2"
 		"labelText"		"É""zpos"	"999"
-		"pin_to_sibling"	"bgg1"
+		"pin_to_sibling"	"bgg1mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 	}	
 
-	"bgg2"		
+	"bgg2mm"		
 	{"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg1"
+		"pin_to_sibling"	"bgg1mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 	}	
 
 
-	"slash2"
+	"slash2mm"
 	{		"wide"	"30""zpos"	"999"
 		"textinsetx"	"-2"
 		"labelText"		"É"
-		"pin_to_sibling"	"bgg2"
+		"pin_to_sibling"	"bgg2mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 	}	
@@ -127,39 +127,39 @@
 
 
 
-	"bgg3"	
+	"bgg3mm"	
 	{"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg2"
+		"pin_to_sibling"	"bgg2mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 	}	
 
 
-		"slash3"
+		"slash3mm"
 		{		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
 		"labelText"		"É"
-"pin_to_sibling"	"bgg3"
+"pin_to_sibling"	"bgg3mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		}	
 
 
-			"bgg4"						{
+			"bgg4mm"						{
 		"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg3"
+		"pin_to_sibling"	"bgg3mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 	}	
 
 
-		"slash4"
+		"slash4mm"
 		{
 		"font"	"NewIcons20"
 		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
 		"labelText"		"É"
-			"pin_to_sibling"	"bgg4"
+			"pin_to_sibling"	"bgg4mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 		}				
@@ -167,7 +167,11 @@
 	"NoSkill"
 	{	
 		"wide"		"0"
-	}			
+	}	
+	"MMDashboard"
+	{	
+		"xpos"		"0"
+	}					
 	"TFCharacterImage"
 	{
 		"tall"			"0"
