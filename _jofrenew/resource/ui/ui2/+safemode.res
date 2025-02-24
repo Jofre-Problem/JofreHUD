@@ -322,32 +322,7 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 	}
-	"quickplay"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"quickplay"
-		"xpos"							"0"
-		"ypos"							"70"
-		"wide"							"155"
-		"tall"							"16"
-		labelText				"New: +hudmenu" [$WINDOWS]
-		labeltext "Linux Detected"	[$LINUX]
-		labeltext "Steam Deck ON" [$DECK]
-		"textAlignment"	"center"
-		font		"NotoBold16"
-		"actionsignallevel"		"2"
-		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
-		//"engine open_replaybrowser"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}										
+							
 		"Background"		//Only not removed cuz save settings button
 		{
 			"ControlName"	"EditablePanel"
@@ -458,6 +433,179 @@
 				"xpos"			"r0"
 			}
 		}
+				
+	"ADContainerTest"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"							"48"
+		"ypos"							"rs1-98+16"
+		"wide"							"155"
+		"tall"							"32"
+		"visible"		"1"
+		"zpos" "9999"
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				"quickplay"			// other classes pinned to this
+				{
+					zpos	"300"
+					ControlName				CExButton
+					fieldName				"quickplay"
+					"xpos"							"0"
+					"ypos"							"0"
+					"wide"							"155"
+					"tall"							"16"
+					labelText				"Windows Detected" [$WINDOWS]
+					labeltext "Linux Detected"	[$LINUX]
+					labeltext "Steam Deck ON" [$DECK]
+					"textAlignment"	"center"
+					font		"NotoBold16"
+					"actionsignallevel"		"2"
+					Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
+					//"engine open_replaybrowser"
+							pin_to_sibling 			"Console"
+					"pin_corner_to_sibling" "0"
+					"pin_to_sibling_corner" "2"
+								"border_default"	"MM_BUTTON_BLANK"
+								"border_armed"		"MM_BUTTON_ADDITIVE"
+					paintbackground 			0
+						"sound_depressed"	"ui/buttonclick.wav"
+						"sound_released"	"ui/buttonclickrelease.wav"
+				}			
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+			
+	
+	"quickplay"			// other classes pinned to this
+	{
+		zpos	"300"
+		ControlName				CExButton
+		fieldName				"quickplay"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"155"
+		"tall"							"16"
+		labelText				"+hudmenu panel!"
+		"textAlignment"	"center"
+		font		"NotoBold16"
+		"actionsignallevel"		"2"
+		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
+		//"engine open_replaybrowser"
+				pin_to_sibling 			"Console"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+					"border_default"	"MM_BUTTON_BLANK"
+					"border_armed"		"MM_BUTTON_ADDITIVE"
+		paintbackground 			0
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+	}	
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+			
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+				
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	"quickplay"			// other classes pinned to this
+	{
+		zpos	"300"
+		ControlName				CExButton
+		fieldName				"quickplay"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"155"
+		"tall"							"16"
+		labelText				"Download BG"
+		"textAlignment"	"center"
+		font		"NotoBold16"
+		"actionsignallevel"		"2"
+		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
+		//"engine open_replaybrowser"
+				pin_to_sibling 			"Console"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+					"border_default"	"MM_BUTTON_BLANK"
+					"border_armed"		"MM_BUTTON_ADDITIVE"
+		paintbackground 			0
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+	}	
+		
+			}
+	}	
+	}		
 		"InfoImage"
 		{
 			"xpos"					"r0"

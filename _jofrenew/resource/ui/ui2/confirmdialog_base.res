@@ -66,7 +66,7 @@
 	// wtf?
 	"ExplanationLabel"
 	{
-		"ControlName"	"CAutoFittingLabel"
+		"ControlName"	"cexlabel"
 		"fieldName"		"ExplanationLabel"
 		"font"			"Size 14"//"EconFontSmall"
 		"labelText"		"Quit?"

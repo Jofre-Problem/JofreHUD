@@ -3,7 +3,7 @@
 //	#base "_motd_spray.res"
 //	#base "_motd_sourcemod.res"
 //	#base "_motd_boxes.res"
-	#base "../../../../../../cfg/_jp_friends.txt"
+//	#base "../../../../../../cfg/_jp_friends.txt" //not anymore
 "x"
 {
 		"MOTD_Panel"	
@@ -29,6 +29,7 @@
 		"zpos"		"500"
 		"wide"		"258"
 		"tall"		"456"
+		"visible" "0"
 	//	"border"		"blurborder"
 		"bgcolor_override"	"30 30 30 100"
 
