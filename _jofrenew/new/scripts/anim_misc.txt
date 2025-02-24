@@ -40,7 +40,10 @@ event MainMenuCMD
 
 	Animate TestPanel xpos -15 linear 0.0 0.0
 	Animate TestPanel xpos 0 linear 0.5 0.8
-	
+
+	Animate TestPanel4 xpos r0 linear 0.0 0.0
+	Animate TestPanel4 xpos r12 linear 0.5 1
+		
 }
 
 	// RankPanel xpos 0 ypos 0
@@ -141,7 +144,7 @@ event HideMenuCMD
 	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0	
 
 	Animate TestPanel xpos -15 linear 0.0 0.0
-		
+	Animate TestPanel4 xpos r-12 linear 0.0 0.0	
 }
 event ShowMenu
 {
@@ -165,4 +168,6 @@ event ShowMenuCMD
 	Animate QuickPlayExpandable ypos 0 linear 0.5 0.4	
 
 	Animate TestPanel xpos 0 linear 0.5 0.6
+
+	Animate TestPanel4 xpos r12 linear 0.5 0.6	
 }

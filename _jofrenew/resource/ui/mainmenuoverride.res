@@ -1333,6 +1333,10 @@
 			"zpos" "1000"
 			"ignorescheme"	"1"
 			expand_direction "right"
+			"container"
+			{"visible"	"0"}
+			"BottomStats"
+			{"visible"	"0"}			
 			"toggle"
 			{
 				"ControlName"	"Button"
@@ -1352,10 +1356,25 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"paintbackground"	"2"
-				"defaultFgColor_override"	"White"
-				"defaultbgcolor_override" "0 0 0 150"
+				"defaultFgColor_override"	"255 255 255 0"
+				"defaultbgcolor_override" "0 0 0 0"
 				"armedFgColor_override"		"Primary"
 			}
+				"buttonimage"
+				{
+					"fieldName" "buttonimage"
+					"ControlName"	"imagepanel"
+					"xpos"			"0"//359
+					"ypos"			"0"//179
+					"zpos"			"0"
+					"mouseinputenabled" "0"
+					"wide"			"64"
+					"tall"			"512"
+					"zpos" "300"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/buttonleft"
+				}			
 			"RandomPinnerThatWorks" //leftover
 			{
 				"ControlName"	"CExButton"
@@ -1387,93 +1406,251 @@
 				paintBackground "1"	
 				bgcolor_override "0 0 0 150"
 				"pin_to_sibling"		"RandomPinnerThatWorks"
-	"FriendsContainer"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldname"									"FriendsContainer"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"51"
-		"wide"										"178"
-		"tall"										"184"
-		"visible"									"1"
-		"proportionaltoparent"						"1"
-		"paintbackground"							"1"
-		"bgcolor_override"							"TransparentBlack"
+				"FriendsContainer"
+				{
+					"ControlName"								"EditablePanel"
+					"fieldname"									"FriendsContainer"
+					"xpos"										"0"
+					"ypos"										"0"
+					"zpos"										"51"
+					"wide"										"178"
+					"tall"										"184"
+					"visible"									"1"
+					"proportionaltoparent"						"1"
+					"paintbackground"							"1"
+					"bgcolor_override"							"TransparentBlack"
 
-		"SteamFriendsList"
+					"SteamFriendsList"
+					{
+						"ControlName"							"CSteamFriendsListPanel"
+						"fieldname"								"SteamFriendsList"
+						"xpos"									"0"
+						"ypos"									"5"
+						"zpos"									"500"
+						"wide"									"f0"
+						"tall"									"f10"
+						"visible"								"1"
+						"proportionaltoparent"					"1"
+
+						"columns_count"							"1"
+						"inset_x"								"0"
+						"inset_y"								"0"
+						"row_gap"								"0"
+						"column_gap"							"0"
+						"restrict_width"						"0"
+
+						"friendpanel_kv"
+						{
+							"wide"								"200"
+							"tall"								"20"
+						}
+
+						"ScrollBar"
+						{
+							"ControlName"						"ScrollBar"
+							"FieldName"							"ScrollBar"
+							"xpos"								"rs1"
+							"ypos"								"0"
+							"tall"								"f0"
+							"wide"								"5"
+							"zpos"								"1000"
+							"nobuttons"							"1"
+							"proportionaltoparent"				"1"
+
+							"Slider"
+							{
+								"fgcolor_override"				"PrimaryT4"
+							}
+								"UpButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"UpButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}
+							
+							"DownButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"DownButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}			
+						}
+					}
+				}
+			} // RandomImagePanel2 end
+		}	
+	
+	"TestPanel4"
 		{
-			"ControlName"							"CSteamFriendsListPanel"
-			"fieldname"								"SteamFriendsList"
-			"xpos"									"0"
-			"ypos"									"5"
-			"zpos"									"500"
-			"wide"									"f0"
-			"tall"									"f10"
-			"visible"								"1"
-			"proportionaltoparent"					"1"
-
-			"columns_count"							"1"
-			"inset_x"								"0"
-			"inset_y"								"0"
-			"row_gap"								"0"
-			"column_gap"							"0"
-			"restrict_width"						"0"
-
-			"friendpanel_kv"
-			{
-				"wide"								"200"
-				"tall"								"20"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"						"ScrollBar"
-				"FieldName"							"ScrollBar"
-				"xpos"								"rs1"
-				"ypos"								"0"
-				"tall"								"f0"
-				"wide"								"5"
-				"zpos"								"1000"
-				"nobuttons"							"1"
-				"proportionaltoparent"				"1"
-
-				"Slider"
-				{
-					"fgcolor_override"				"PrimaryT4"
-				}
-					"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-					"tall"			"0"
-					"wide"			"0"
-				}
-				
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-					"tall"			"0"
-					"wide"			"0"
-				}			
-			}
-		}
-		}
-	}
-
-
-
-
-
-
-
-
+			"ControlName"		"CMatchHistoryEntryPanel"
+			"fieldName"		"TestPanel4"
+			"wide"		"12"
+			"tall"		"184"	//same as collapsed_height?
+			"visible"	"1"
+			"ypos" "cs-0.5"
+			"xpos" "r12"
+			"collapsed_height"	"12"	// actual area show by default
+			"expanded_height"	"184" // importatn
+			"resize_time"		"0.05"
+			"zpos" "1000"
+			"ignorescheme"	"1"
+			expand_direction "left"
 			"container"
 			{"visible"	"0"}
 			"BottomStats"
-			{"visible"	"0"}
-		}	
-}
+			{"visible"	"0"}			
+			"toggle"
+			{
+				"ControlName"	"Button"
+				"xpos"		"0"
+				"wide"		"f0"
+				"tall"		"184" // defines the tall
+				"visible"	"1"
+				"labelText"	"<"
+				"textinsetx" "-8"
+				"font"		"newicons20"
+				"command"	"toggle_collapse"
+				"textAlignment"	"west"
+				"proportionaltoparent"	"1"
+				"button_activation_type"	"1"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"paintbackground"	"2"
+				"defaultFgColor_override"	"255 255 255 0"
+				"defaultbgcolor_override" "0 0 0 0"
+				"armedFgColor_override"		"Primary"
+			}
+				"buttonimage"
+				{
+					"fieldName" "buttonimage"
+					"ControlName"	"imagepanel"
+					"xpos"			"0"//359
+					"ypos"			"0"//179
+					"zpos"			"0"
+					"mouseinputenabled" "0"
+					"wide"			"64"
+					"tall"			"512"
+					"zpos" "300"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/buttonright"
+				}					
+			"RandomPinnerThatWorks" //leftover
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"RandomPinnerThatWorks"
+
+
+
+
+				"xpos"		"12"
+				ypos 0
+
+
+
+				"wide"		"90"
+				"tall"		"24"
+				"visible"		"0"
+
+				"alpha" "0"
+				"pinCorner"		"2"
+			}		
+			"RandomImagePanel2"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"RandomImagePanel2"
+				"zpos"		"1"
+				xpos 0
+				"wide"		"182"
+				"tall"		"184"
+				"visible"	"1"	
+				paintBackground "1"	
+				bgcolor_override "0 0 0 150"
+				"pin_to_sibling"		"RandomPinnerThatWorks"
+				"FriendsContainer"
+				{
+					"ControlName"								"EditablePanel"
+					"fieldname"									"FriendsContainer"
+					"xpos"										"0"
+					"ypos"										"0"
+					"zpos"										"51"
+					"wide"										"178"
+					"tall"										"184"
+					"visible"									"1"
+					"proportionaltoparent"						"1"
+					"paintbackground"							"1"
+					"bgcolor_override"							"TransparentBlack"
+
+					"SteamFriendsList"
+					{
+						"ControlName"							"CSteamFriendsListPanel"
+						"fieldname"								"SteamFriendsList"
+						"xpos"									"0"
+						"ypos"									"5"
+						"zpos"									"500"
+						"wide"									"f0"
+						"tall"									"f10"
+						"visible"								"1"
+						"proportionaltoparent"					"1"
+
+						"columns_count"							"1"
+						"inset_x"								"0"
+						"inset_y"								"0"
+						"row_gap"								"0"
+						"column_gap"							"0"
+						"restrict_width"						"0"
+
+						"friendpanel_kv"
+						{
+							"wide"								"200"
+							"tall"								"20"
+						}
+
+						"ScrollBar"
+						{
+							"ControlName"						"ScrollBar"
+							"FieldName"							"ScrollBar"
+							"xpos"								"rs1"
+							"ypos"								"0"
+							"tall"								"f0"
+							"wide"								"5"
+							"zpos"								"1000"
+							"nobuttons"							"1"
+							"proportionaltoparent"				"1"
+
+							"Slider"
+							{
+								"fgcolor_override"				"PrimaryT4"
+							}
+								"UpButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"UpButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}
+							
+							"DownButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"DownButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}			
+						}
+					}
+				}
+			} // RandomImagePanel2 end
+		}
+
+
+		
+} // mm end

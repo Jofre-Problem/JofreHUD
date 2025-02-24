@@ -438,9 +438,9 @@
 	{ 
 		"ControlName"	"CCyclingAdContainerPanel"
 		"xpos"							"48"
-		"ypos"							"rs1-98+16"
+		"ypos"							"r32-98+16"
 		"wide"							"155"
-		"tall"							"32"
+		"tall"							"200"
 		"visible"		"1"
 		"zpos" "9999"
 
