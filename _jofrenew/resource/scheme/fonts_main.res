@@ -8,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Open Sans Bold"
+				"name"	"open_sans_bold"
 				"tall"	"10"
 				////"weight"	"500"
 				
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Open Sans Bold"
+				"name"	"open_sans_bold"
 				"tall"	"13"
 				"outline"	"1"
 				"antialias"	"1"
