@@ -36,7 +36,11 @@ event MainMenuCMD
 	Animate polybar0bgmm ypos 0 linear 0.5 0.1	
 
 	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0
-	Animate QuickPlayExpandable ypos 0 linear 0.5 0.2		
+	Animate QuickPlayExpandable ypos 0 linear 0.5 0.4		
+
+	Animate TestPanel xpos -15 linear 0.0 0.0
+	Animate TestPanel xpos 0 linear 0.5 0.8
+	
 }
 
 	// RankPanel xpos 0 ypos 0
@@ -135,6 +139,9 @@ event HideMenuCMD
 	Animate polybar0bgmm ypos -15 linear 0.0 0.0
 
 	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0	
+
+	Animate TestPanel xpos -15 linear 0.0 0.0
+		
 }
 event ShowMenu
 {
@@ -144,16 +151,18 @@ event ShowMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Menu SHOW===================="
 
-	Animate MMDashboard ypos 0 linear 0.0 0.0
+	Animate MMDashboard ypos 0 linear 0.5 0.2	
 
 
-	Animate WorkshopButton ypos 0 linear 0.0 0.0	
+	Animate WorkshopButton ypos 0 linear 0.5 0.2		
 
 
-	Animate Rankpanel ypos 0 linear 0.0 0.0
+	Animate Rankpanel ypos 0 linear 0.5 0.2	
 
 
-	Animate polybar0bgmm ypos 0 linear 0.0 0.0
+	Animate polybar0bgmm ypos 0 linear 0.5 0.2	
 
-	Animate QuickPlayExpandable ypos 0 linear 0.0 0.0
+	Animate QuickPlayExpandable ypos 0 linear 0.5 0.4	
+
+	Animate TestPanel xpos 0 linear 0.5 0.6
 }
