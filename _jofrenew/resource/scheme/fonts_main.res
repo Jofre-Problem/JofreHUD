@@ -143,7 +143,8 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "19"	
+				"tall" "19"		[$WINDOWS]
+				"tall"	"12"	[$LINUX]
 				"antialias"	"1"
 				"blur" "2"
 			}
@@ -153,7 +154,9 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "19"
+				"tall" "19"		[$WINDOWS]
+				"tall"	"12"	[$LINUX]
+				
 				"antialias"	"1"
 			}
 		}
@@ -162,7 +165,7 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "19"		[$WIN32]
+				"tall" "19"		[$WINDOWS]
 				"tall"	"12"	[$LINUX]
 				"antialias"	"1"
 				"outline"	"1"
@@ -183,7 +186,7 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "23"	[$WIN32]
+				"tall" "23"	[$WINDOWS]
 				"tall"	"14"	[$LINUX]
 				"antialias"	"1"
 				"outline"	"1"

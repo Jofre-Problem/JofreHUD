@@ -29,6 +29,11 @@
 	#base "../_minmode/scripts/hudlayout.res"
 "j"
 {
+		HudMatchStatus
+	{
+		"tall"				"480"
+		"enabled"				"1"
+	}
 	"MainMenuOverride"
 	{
 		"ControlName"		"CHudMainMenuOverride"
@@ -483,11 +488,12 @@
 		"xpos"					"0"
 		"ypos"					"-25"
 		"wide"					"f0"
-		"tall"					"510"
+		"tall"					"1980"//"510"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
-		"alpha"	"150"
+		"alpha"	"100"
+		"zpos" "10000"
 	}
 	
 

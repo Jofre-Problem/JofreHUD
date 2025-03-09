@@ -2,7 +2,9 @@ event DamagedPlayer
 {
 	StopEvent 	DamagedPlayerMain	0.0
 	RunEvent 	DamagedPlayerMain      0.0001 //lol
-	RunEventChild Mainmenuoverride DamageCMD 0.0	
+	// errors
+	// RunEventChild Mainmenuoverride DamageCMD 0.0	
+	//		Animate scores tall "480" linear 0.0 0.0
 }
 event DamageCMD
 {
@@ -18,12 +20,12 @@ event DamagedPlayerMain
 	StopEvent 	HitM 	0.0
 	RunEvent 	HitM	0.01
 	StopEvent 	TestTestingCmd 	0.0
-	RunEvent TestTestingCmd 0.1
+	RunEvent 	TestTestingCmd 0.1
 }
 event DamageAccountStuff
 {
 	Animate DamageAccountLabel fgcolor "255 40 0 255" linear 0.0 0.0
-	Animate DamageAccountLabel fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel fgcolor "255 40 0 255" linear 0.01 0.0
 	Animate DamageAccountLabel fgcolor "255 215 0 255" linear 0.1 0.3
 	Animate DamageAccountLabel fgcolor "215 215 215 0" Accel 0.6 5.0
 
@@ -33,7 +35,7 @@ event DamageAccountStuff
 
 
 	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
-	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3
+//	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3
 	Animate DamageAccountLabelShadow fgcolor "35 35 35 0" Accel 0.5 5.0
 	
 	Animate DamageAccountLabelShadow2 Alpha "255" linear 0.0 0.0

@@ -60,8 +60,8 @@ UI Sound Effects|Xhud-Niterux
 Sound Manifest|Null
 Surface Manifest|Null
 Particle Manifest|Null
-ANIMATIONS Show Health Ammo on Spec|OFF
-ANIMATIONS Move Hp Ammo|OFF
+ANIMATIONS Show Health Ammo on Spec|ON
+ANIMATIONS Move Hp Ammo|ON
 Crosshair Hud Type|Null
 Boss Health|Null
 Killfeed Position|Null
@@ -70,3 +70,4 @@ sourcescheme Color|Def
 Loading Icon|Def
 Loading Background|Def
 HudMatchStatus|Def
+Menu Style|2025

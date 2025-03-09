@@ -6,6 +6,9 @@ event TeamStatus_PlayerDead
 		//PlaySound 0 "vo/gift_drop.wav"
 		Animate DeathPanel ypos 0 Accel 0 0.2
 		Animate SkullPanel ypos 0 Accel 0 0.2
+
+		Animate respawntime ypos 299 Accel 0 0
+
 		Animate respawntime Alpha "0" linear 0.0 0.0
 		Animate respawntime Alpha "255" linear 0.3 0.15
 		Animate respawntime Alpha "0" linear 0.3 0.30
@@ -15,13 +18,14 @@ event TeamStatus_PlayerDead
 	//	SetVisible chargeamount 1 0
 		RunEvent	TStatus_Snd_Dead 0.0
 		RunEventChild Mainmenuoverride TeamStatusCMD 0.0	
+		
 }
 
 event TeamStatus_PlayerAlive
 {
 		Animate DeathPanel ypos 0 Accel 0 0.2
 		Animate SkullPanel ypos 0 Accel 0 0.2
-		Animate respawntime ypos 0 Accel 0 0.2
+		Animate respawntime ypos 0 Accel 0 0.0
 		Animate healthbar position "0 0" Linear  0.0  0.0
 		Animate overhealbar position "0 0" Linear  0.0  0.0
 	//	PlaySound 0 "vo/littlereward.wav"

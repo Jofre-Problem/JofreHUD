@@ -609,7 +609,7 @@
 
 			
 					labelText				"Remove all bots"
-					Command				"engine tf_bot_kick all"
+					Command				"engine tf_bot_kick all; bot_kick all"
 
 				}
 				"DEVBTN_POSITION:X1"			// other classes pinned to this
@@ -809,7 +809,7 @@
 
 			
 					labelText				"Preload!!!"
-					Command				"engine exec preload"
+					Command				"engine exec preloader.cfg"
 
 				}
 				"DEVBTN_POSITION:Otherside1"			// other classes pinned to this

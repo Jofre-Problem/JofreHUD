@@ -20,10 +20,17 @@ event MenuClose
 	RunEvent	HealthAmmoAnimateEnd 0.0
 	//RunEvent LevelInitAny 0.0
 		StopEvent	MenuOpen 0.0 	
+		Animate CDamageAccountPanel ypos "-25" linear 0.0 0.0
+		Animate HudMatchStatus ypos "0" linear 0.0 0.0
+		StopEvent TestLoop_C 0.0
+		StopEvent TestLoop_C 0.01
+	//
+
 }
 
 event MenuOpen
 {
+	RunEvent TestLoop_C 0.0
 	StopEvent	MenuClose 0.0 
 	SetVisible CMainTargetID 1 0.0
 	SetVisible CMainTargetID 1 0.01
@@ -32,9 +39,12 @@ event MenuOpen
 	RunEvent HealthAmmoAnimateOpen 0.0	
 	// shows hp ammo on spec
 
-
+//	Animate scores tall "480" linear 0.0 0.0
 	//4plug end
-
+//	RunEvent TestLoop_C 0.0
+	Animate CDamageAccountPanel ypos "80" linear 0.0 0.0
+	Animate HudMatchStatus ypos "20" linear 0.0 0.0
+	SetVisible DamageAccountLabelScoreboard 1 0.0
 //	SetVisible	roundinfo	1	0
 
 	RunEventChild Mainmenuoverride MenuCMD 0.0

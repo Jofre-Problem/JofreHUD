@@ -220,7 +220,7 @@
 		"fieldName"		"TeamStatus"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"75"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -242,7 +242,7 @@
 		{
 			"visible"		"0"
 			"wide"			"25"
-			"tall"			"50"
+			"tall"			"480"
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"Red"
@@ -293,19 +293,19 @@
 				"fieldName"		"playername"
 				"font"			"CustomVerdanaSmall"
 				"xpos"								"0"
-				"ypos"								"19"
-				"zpos"								"5"
+				"ypos"								"0"
+				"zpos"								"50"
 				"wide"								"f0"
 				"tall"								"7"
 				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"center"
-				"bgcolor_override"					"60 60 60 190"
+				"bgcolor_override"					"60 60 60 255"
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
 
-				"pin_to_sibling"					"classimagebg"
+				"pin_to_sibling"					"respawntime"
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
 			}
@@ -314,7 +314,7 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"1"
-				"ypos"			"1"
+				"ypos"			"0"
 				"zpos"			"6"
 				"wide"			"18"
 				"tall"			"17"
@@ -323,6 +323,7 @@
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
+				"pin_to_sibling" "respawntime"
 			}
 			"classimagebg"
 			{
@@ -387,7 +388,7 @@
 				"fieldName"		"respawntime"
 				"font"			"Notobold16"
 				"zpos"			"9"
-				"wide"			"f0"
+				"wide"			"f0" 
 				"tall"			"19"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
@@ -397,7 +398,7 @@
 				"proportionaltoparent"	"1"
 				"fgcolor_override"	"255 215 0 255"
 				"bgcolor_override"		"32 32 32 50"
-				"border"		"WhiteHighlightBorderThick"
+				"border"		"LINE_BOTTOM_0_Primary_0"
 			}
 			"chargeamount"
 			{

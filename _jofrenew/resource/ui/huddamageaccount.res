@@ -19,11 +19,10 @@
 //		"RedRobotScoreColor"	"255 255 255 255"
 //		"BlueRobotScoreColor"	"255 255 255 255"
 		
-		"delta_lifetime"		"5.6"
+		"delta_lifetime"		"5.6" // 5.6 old value but still appears on linux, thats why the font is gone on linux since on heals makes it mvoes
 		"alpha" "125"
 		"Additive" "1"
 	}	
-
 	"DamageAccountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -99,7 +98,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelHeals"
 		"font"			"DamageTextheals"	[$WINDOWS]
-		"font"			"Blank"	[$LINUX]
+		"font"			"blank"	[$LINUX]
 		"fgcolor"		"46 255 83 255"
 	"xpos"			"c-50"
 		"ypos"			"c17+20+6"
@@ -116,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabelHealsS"
 		"font"			"DamageTexthealsshadow"	[$WINDOWS]
-		"font"			"Blank"	[$LINUX]
+		"font"			"blank"	[$LINUX]
 		"fgcolor"		"0 0 0 150"
 	"xpos"			"c-50"
 		"ypos"			"c17+20+6"
