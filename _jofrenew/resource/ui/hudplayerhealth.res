@@ -60,13 +60,13 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"0"	
 	}	
-	"TeamColoredAmmoTextBG"
+	"TeamColoredAmmoTextBG" // where the plus icons is
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredAmmoTextBG"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"150"
+		"wide"			"34"
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
@@ -111,7 +111,8 @@
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"150"
-		"tall"			"34"
+		"tall"			"34" [$WINDOWS]
+				"tall" "33"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
@@ -310,7 +311,8 @@
 		"zpos"			"5"
 		"wide"			"95"
 		"tall"			"34"
-		"visible"		"1"
+		"visible"		"1" [$WINDOWS]
+		"visible"		"0" 	[$LINUX]
 		"enabled"		"1"
 		"fillcolor" 	"255 0 0 255"
 		"additive"		"1"
@@ -328,7 +330,8 @@
 		"zpos"			"205"
 		"wide"			"95"
 		"tall"			"34"
-		"visible"		"1"
+		"visible"		"1" [$WINDOWS]
+		"visible"		"0" 	[$LINUX]
 		"enabled"		"1"
 		"image" 		"replay/thumbnails/hp/medical_flatline_not_the_hud_guy_add"
 		"scaleimage"	"1"

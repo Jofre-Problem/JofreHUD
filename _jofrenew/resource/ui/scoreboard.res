@@ -44,7 +44,7 @@
 		"zpos"				"1000"
 		"wide"				"f0"
 		"tall"				"68"
-				
+		"visible" "0"
 
 		"DamageIndicatorButtons"
 			{
@@ -483,7 +483,8 @@
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0" [$WINDOWS]
+				"ypos" "2"	[$LINUX]		
 		"zpos"			"5000"
 		"wide"			"f0"
 		"tall"			"10"
@@ -1080,7 +1081,7 @@ if_mvm
 			"zpos"			"3"
 			"wide"			"f0"
 			"tall"			"57-p0.001"[$WINDOWS]
-		"tall"			"51" [$LINUX]
+		"tall"			"71" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
 		
@@ -1094,7 +1095,7 @@ if_mvm
 			"zpos"			"3"
 			"wide"			"f0"
 			"tall"			"11"[$WINDOWS]
-		"tall"			"8" [$LINUX]
+		"tall"			"14" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
 		if_mvm		{			"visible"		"0"		}
@@ -1113,7 +1114,7 @@ if_mvm
 		"fieldName"		"up1"
 		"xpos"			"0"
 		"ypos"			"11"[$WINDOWS]
-		"ypos"			"8" [$LINUX]
+		"ypos"			"14" [$LINUX]
 		"zpos""10000"
 		"wide"			"f0"
 		"tall"			"p0.001"
@@ -1200,13 +1201,13 @@ if_mvm
 			"pin_to_sibling"	"ButtonLegendBG"
 		}
 	}						
-	"team1"
+	"team1" //down
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"team1"
 		"xpos"			"0"
-		"ypos"			"rs1-57-p0.001" [$WINDOWS]
-		"ypos"			"rs1-51" [$LINUX]
+		"ypos"			"0"
+		"pin_to_sibling" "teambg1"
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"p0.001"
@@ -1241,7 +1242,7 @@ if_mvm
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"95"
-			"ypos"				"rs1"[$LINUX]
+			"ypos"				"rs1-15"[$LINUX]
 		"ypos"			"rs1-4" [$WINDOWS]
 			"zpos"				"3"
 			"wide"				"20"
@@ -1382,7 +1383,7 @@ if_mvm
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
-			"ypos"				"rs1-28"[$LINUX]
+			"ypos"				"rs1-42"[$LINUX]
 		"ypos"			"rs1-32" [$WINDOWS]
 			"zpos"				"3"
 			"wide"				"50"

@@ -314,7 +314,7 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"1"
-				"ypos"			"0"
+				"ypos"			"-2"
 				"zpos"			"6"
 				"wide"			"18"
 				"tall"			"17"
@@ -339,7 +339,24 @@
 				//
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"Blank"
+				//"pin_to_sibling" "respawntime"
 			}
+	"DisguiseStatusBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"60"
+		"tall"			"2"
+		"image"			"replay/thumbnails/panels/black"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/panels/black"
+		"teambg_2"		"replay/thumbnails/panels/black"
+		"teambg_3"		"replay/thumbnails/panels/black"
+		"alpha"		"180"
+		"pin_to_sibling" "respawntime"
+	}			
 			"healthbar"
 			{
 				"ControlName"			"ContinuousProgressBar"
@@ -398,8 +415,8 @@
 				"proportionaltoparent"	"1"
 				"fgcolor_override"	"255 215 0 255"
 				"bgcolor_override"		"32 32 32 50"
-				"border"		"LINE_BOTTOM_0_Primary_0"
-			}
+				"border"		"noborder"
+			}	
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"

@@ -68,11 +68,83 @@ Scheme
 		{
 			"font" "fonts/productsansbold.ttf"
 			"name" "productsansbold"
+						"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
 		}
 		"91"
 		{
 			"font" "fonts/Product Sans.ttf"
 			"name" "Product Sans"
+						"english"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"brazilian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"french"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"german"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"italian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"russian"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"spanish"
+			{
+				"range" "0x021 0xFFFF"
+			}
+			"japanese"
+			{
+				"range" "0x021 0xFFFF"
+			}
 		}
 		"78"
 		{
@@ -391,7 +463,7 @@ Scheme
 		"16"
 		{
 			"font" "fonts/OpenSans-Killfeed.ttf"
-			"name" "Open Sans Killfeed"
+			"name" "opensanskillfeed"
 		}
 		"work"
 		{

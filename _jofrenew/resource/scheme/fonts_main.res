@@ -345,7 +345,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Killfeed"
+				"name" "opensanskillfeed"
 				"tall" "16"
 				"antialias"	"1"
 			}
@@ -354,8 +354,9 @@ Scheme
 		{
 			"1"
 			{
-				"name" "OpenSansUber"
-				"tall" "18"
+				"name" "OpenSansUber" 
+			"tall" "18"	[$WINDOWS]
+				"tall" "14"	[$LINUX]
 				"antialias"	"1"
 			}
 		}	
@@ -364,7 +365,8 @@ Scheme
 			"1"
 			{
 				"name" "OpenSansUber"
-				"tall" "18"
+			"tall" "18"	[$WINDOWS]
+				"tall" "14"	[$LINUX]
 				"antialias"	"1"
 				"blur"	"2"
 			}
@@ -373,7 +375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Killfeed"
+				"name" "opensanskillfeed"
 				"tall" "18"
 				"antialias"	"1"
 			}
@@ -391,7 +393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans Killfeed"
+				"name" "opensanskillfeed"
 				"tall" "18"
 				"blur"	"2"
 				"antialias"	"1"

@@ -24,5 +24,7 @@
 
         #base "../_opt/resource/sourcescheme.res"
         #base "../_opt/_tf2fix/resource/sourcescheme.res"
+        #base "../^linux/segoeui.res"
+
         //#base "../z_tf2/resource/sourcescheme.res"
         //#base "../z_tf2/root/resource/sourceschemebase.res"

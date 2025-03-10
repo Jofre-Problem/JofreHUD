@@ -267,7 +267,7 @@ Scheme
 		}
 		"Size 12 Shadow"
 		{
-			"1"Size 16
+			"1"
 			{
 				"name"	"productsansbold"
 				"tall"	"12"

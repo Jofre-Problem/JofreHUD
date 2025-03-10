@@ -267,7 +267,7 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"killfeeduber"//"Size 16 uber"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos" 0
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"30"
@@ -299,8 +299,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"TargetDataAnchor"
 		"xpos"		"0+p0.3-30+13"
-		"ypos"		"-20-15"
-		"wide"		"0"
+		"ypos"		"-20-15" 
 		"tall"		"0"
 		"enabled"		"1"
 
@@ -314,7 +313,8 @@
 		"fieldName"		"TargetDataLabelTrue"
 		"font"			"KillfeedUber"
 		"xpos"			"40"
-		"ypos"			"410"
+					"ypos" "410"	[$WINDOWS]
+				"ypos" "412"	[$LINUX]
 		"zpos"			"5"
 		"wide"			"655"
 		"tall"			"35"
@@ -342,8 +342,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue2"
 		"font"			"KillfeedUberBlur"
-		"xpos"			"40"
-		"ypos"			"410"
+		"xpos"			"0"
+		pin_to_sibling "TargetDataLabelTrue"
+
 		"zpos"			"4"
 		"wide"			"655"
 		"tall"			"35"

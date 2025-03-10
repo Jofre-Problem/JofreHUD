@@ -207,7 +207,8 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"80"
-		"tall"			"34"
+		"tall"			"34" [$WINDOWS]
+				"tall" "33"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
@@ -226,7 +227,8 @@
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 	//	"teambg_3"		"replay/thumbnails/hp/bluteam"		
 		"wide"			"123"
-		"tall"			"34"
+		"tall"			"34" [$WINDOWS]
+				"tall" "33"	[$LINUX]
 		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"LowAmmoTextBG"

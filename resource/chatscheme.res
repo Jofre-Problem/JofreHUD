@@ -1,3 +1,6 @@
+#base "../^linux/segoeui.res"
+
+
 #base "../_mainstream/_qol/chat-icons/scheme.res"
 
 #base "../_mainstream/scream-fortress/chatscheme.txt"

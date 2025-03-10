@@ -653,8 +653,9 @@ Button.DepressedTextColor "220 220 220 255"
             {
 
                 "name"         "Product Sans"              
-                "tall"         "20"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Renogare Soft" font.            
-                "weight"     "0"
+                "tall"         "20" [$WINDOWS] 
+                "tall" "26" [$LINUX]
+				"weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "768 1023"
                 "outline"     "0"  //"1" //Adds a black outline around the text, good for standing out... that is, if the font allows it, use with caution on smaller fonts.
@@ -664,7 +665,8 @@ Button.DepressedTextColor "220 220 220 255"
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
                 "name"         "Product Sans" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
-                "tall"         "20"               
+                "tall"         "20" [$WINDOWS] 
+                "tall" "26" [$LINUX]             
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1024 1199"
@@ -675,7 +677,8 @@ Button.DepressedTextColor "220 220 220 255"
             "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
             {
                 "name"         "Product Sans"// "11"                
-                "tall"         "20" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.             
+                 "tall"         "20" [$WINDOWS] 
+                "tall" "26" [$LINUX]
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1200 6000"

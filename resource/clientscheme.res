@@ -1,4 +1,5 @@
 	#base "../_hud/scheme/clientscheme_fontentries.res"
+#base "../^linux/segoeui.res"
 
 	#base "../_mainstream/scream-fortress/clientscheme.txt"
 	#base "../_stream/resource/clientscheme.res"

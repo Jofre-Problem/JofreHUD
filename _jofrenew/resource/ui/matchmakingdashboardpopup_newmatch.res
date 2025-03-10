@@ -6,7 +6,7 @@
 		"fieldName"		"NewMatchFound"
 
 		// "xpos"			"cs-0.5"
-		"xpos"			"0"
+		"xpos"			"cs-0.5"
 		"PinnedCornerOffSetX"	"0"
 		"UnpinnedCornerOffSetX"	"0"
 

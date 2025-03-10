@@ -1415,7 +1415,8 @@
 					"zpos"										"51"
 					"wide"										"178"
 					"tall"										"184"
-					"visible"									"1"
+							"visible"		"1" [$WINDOWS]
+		"visible"		"0" 	[$LINUX]
 					"proportionaltoparent"						"1"
 					"paintbackground"							"1"
 					"bgcolor_override"							"TransparentBlack"
@@ -1582,7 +1583,7 @@
 					"zpos"										"51"
 					"wide"										"178"
 					"tall"										"184"
-					"visible"									"1"
+					"visible"									"0"
 					"proportionaltoparent"						"1"
 					"paintbackground"							"1"
 					"bgcolor_override"							"TransparentBlack"
