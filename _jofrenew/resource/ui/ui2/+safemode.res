@@ -13,7 +13,7 @@
 		"ypos"			"25"
 		"zpos"			"500"
 		"wide"			"250"
-		"tall"			"440"
+		"tall"			"433"
 		"visible"		"1"
 		//"enabled"		"1"
 		"bgcolor_override"	"255 255 255 0"
@@ -32,7 +32,34 @@
 					"scaleimage" "1"
 					"image" "replay/thumbnails/thatguy/intro"
 				}
+	"DeckPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DeckPanel"
+		"xpos"			"-35"////"cS-0.5-227-75"
+		"ypos" 			"50"
+		"zpos"			"500"
+		"wide"			"400"
+		"tall"			"130"
+		"visible"		"1"
+		//"enabled"		"1"
+		"bgcolor_override"	"255 55 25 250"
 
+				"bg"
+				{
+					"fieldName" "bg"
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"//359
+					"ypos"			"0"//179
+					"zpos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"zpos" "300"
+					"visible"		"1"
+					"scaleimage" "1"
+					"bgcolor_override" "SaleGreen"
+				}
+	}			
 	"LogoButtons"
 	{
 		"ControlName"	"ImagePanel"
@@ -47,7 +74,21 @@
 		"image"			"replay\thumbnails\mm\LogoButtons"
 		"scaleImage"	"1"
 	}		
-
+	"LogoButtonsJOFRE"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LogoButtonsJOFRE"
+		"xpos"			"-35"////"cS-0.5-227-75"
+		"ypos" 			"cS-0.5-35+17"
+		"zpos"			"299"
+		"wide"			"320"
+		"tall"			"320"
+		"visible"		"1" [$WINDOWS] 
+		"visible"		"0" [$LINUX] 
+		"enabled"		"1"
+		"image"			"replay\thumbnails\mm\LogoButtons_jofre" 
+		"scaleImage"	"1"
+	}		
 	"Browse"			// other classes pinned to this
 	{
 		ControlName				CExButton

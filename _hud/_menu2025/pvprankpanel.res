@@ -51,10 +51,12 @@
 			"ControlName"		"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"		"-3-p0.001"
-			"ypos"		"rs1"
+			"ypos"		"rs1" [$WINDOWS] 
+			ypos rs1-3 [$LINUX] 
 			"wide"		"f0"
 			"zpos"		"100"
-			"tall"		"15"
+			"tall"		"15"[$WINDOWS] 
+			"tall"		"20" [$LINUX] 
 			"visible"		"1"
 			"enabled"		"1"
 			"font"		"NotoBold16"
@@ -65,9 +67,12 @@
 
 			"fonts"
 			{
-				"0"		"NotoBold16"
-				"1"		"NotoBold16"
-				"2"		"NotoBold16"
+				"0"		"NotoBold16" [$WINDOWS] 
+				"1"		"NotoBold16" [$WINDOWS] 
+				"2"		"NotoBold16" [$WINDOWS] 
+				"0"		"NotoBold24" [$LINUX] 
+				"1"		"NotoBold24" [$LINUX] 
+				"2"		"NotoBold24" [$LINUX] 				
 			}
 
 			"colors"
@@ -94,7 +99,8 @@
 				"xpos"		"cs-0.5"
 				"ypos"		"rs1"
 				"wide"		"f0"
-				"tall"		"15"
+				"tall"		"15"  [$WINDOWS] 
+                "tall" "24" [$LINUX]
 				"proportionaltoparent"		"1"
 
 				"CurrentXPLabel"
@@ -105,10 +111,11 @@
 					"ypos"		"rs1"
 					"zpos"		"1"
 					"wide"		"100"
-					"tall"		"15"
+					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"
+					"font"		"NotoBold16"	 [$WINDOWS] 
+                "font" "NotoBold24" [$LINUX]
 					"fgcolor_override"		"White"
 					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
@@ -125,10 +132,11 @@
 					"xpos"	"rs1"
 					"ypos"	"rs1"
 					"wide"		"100"
-					"tall"		"15"
+					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"
+					"font"		"NotoBold16"	 [$WINDOWS] 
+                "font" "NotoBold24" [$LINUX]
 					"fgcolor_override"		"White"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"
@@ -143,7 +151,7 @@
 					"xpos"		"0"
 					"ypos"		"0"
 					"wide"		"f0"
-					"tall"		"15"
+						"tall"		"f0"
 					"proportionaltoparent"		"1"
 					"alpha"	"255"
 					"ProgressBar"

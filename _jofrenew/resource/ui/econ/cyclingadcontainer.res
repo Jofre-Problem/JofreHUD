@@ -8,7 +8,8 @@
 		"ypos"		"rs1"
 		"zpos"		"2"
 		"wide"		"p0.5"
-		"tall"		"16"
+		"tall"		"16"    [$WINDOWS] 
+                "tall" "25" [$LINUX]    
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"			" <"
@@ -42,7 +43,8 @@
 		"ypos"		"rs1"
 		"zpos"		"2"
 		"wide"		"p0.5"
-		"tall"		"16"
+		"tall"		"16"    [$WINDOWS] 
+                "tall" "25" [$LINUX]    
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"			">   "

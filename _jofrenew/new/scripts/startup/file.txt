@@ -1,0 +1,32 @@
+event HintMessageHide
+{
+    Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
+    Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0	// peach rec
+ 	RunEvent  Engineer  0.02
+
+
+	// MAIN MENU
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	// running these 3 times works
+
+
+	// MMDashboard
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	RunEventChild MMDashboard MMDashboardCMD 0.0
+	// running these 3 times works
+
+	// Linux CMD
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+}
+event LinuxCMD
+{
+	FireCommand 0.0 "engine echo ==== STEAM DECK DETECTED ==="
+    // vgui_ui_scale_factor_deck_additional 1 = dock
+    // vgui_ui_scale_factor_deck_additional 1.5 = steam deck
+}
