@@ -10,6 +10,8 @@ event TeamStatus_PlayerDead
 		Animate respawntime ypos 299 Accel 0 0 
 		Animate classimagebg ypos 299 accel 0 0 
 		Animate respawntime Alpha "0" linear 0.0 0.0
+		Animate whitebg Alpha "255" linear 0.3 0.15		
+
 		Animate respawntime Alpha "255" linear 0.3 0.15
 		Animate respawntime Alpha "0" linear 0.3 0.30
 		Animate respawntime Alpha "255" linear 0.4 0.45
@@ -33,7 +35,7 @@ event TeamStatus_PlayerAlive
 		SetVisible DeathPanel	0 0.2
 		SetVisible SkullPanel	0 0.2
 		SetVisible respawntime 0 0.2
-
+		Animate whitebg Alpha "0" linear 0.0 0.0
 		RunEvent	TStatus_Snd_Vivo 0.0
 }
 

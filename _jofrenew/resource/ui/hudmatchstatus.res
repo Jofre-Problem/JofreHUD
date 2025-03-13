@@ -357,6 +357,18 @@
 		"alpha"		"180"
 		"pin_to_sibling" "respawntime"
 	}			
+	"whitebg"
+	{
+		"ControlName"		"imagepanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"60"
+		"tall"			"20"
+		"fillcolor" "Ammo"
+		"alpha"		"0"
+		"pin_to_sibling" "respawntime"
+	}				
 			"healthbar"
 			{
 				"ControlName"			"ContinuousProgressBar"

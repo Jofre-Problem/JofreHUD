@@ -30,7 +30,8 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSansExtraboldUber"
-				"tall"	"24"
+				"tall" "24"	[$WINDOWS]
+				"tall"	"20"	[$LINUX]
 				//
 				"antialias"	"1"
 				"outline"	"1"
@@ -41,7 +42,8 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSansExtraboldUber"
-				"tall"	"24"
+				"tall" "24"	[$WINDOWS]
+				"tall"	"20"	[$LINUX]
 				//
 				"antialias"	"1"
 				//
@@ -63,7 +65,8 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSansExtraboldUber"
-				"tall"	"16"
+				"tall" "16"	[$WINDOWS]
+				"tall"	"12"	[$LINUX]
 				"blur"	"2"
 				"antialias"	"1"
 			//	"dropshadow"	"1"
@@ -74,7 +77,8 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSansExtraboldUber"
-				"tall"	"18"
+				"tall" "18"	[$WINDOWS]
+				"tall"	"14"	[$LINUX]
 				//
 				"antialias"	"1"
 				//
