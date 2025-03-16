@@ -31,7 +31,7 @@
 
 	#base 	"../_jofrenew/scripts/hudlayout.res"
 	#base	"../_opt/scripts/hudlayout.res"
-	#base 	"../_fixes/scripts/hudlayout.res"	
+	#base 	"../_hud/_fixes/scripts/hudlayout.res"	
 	#base	"../z_tf2/scripts/hudlayout.res"
 
 	"Resource/HudLayout.res"{}
