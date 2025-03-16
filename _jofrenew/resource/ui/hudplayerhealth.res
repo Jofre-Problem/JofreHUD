@@ -293,7 +293,8 @@
 		"zpos"			"199"
 		"wide"			"95"
 		"tall"			"34"
-		"visible"		"1"
+		"visible"		"1" [$WINDOWS]
+		"visible"		"0" 	[$LINUX]
 		"enabled"		"1"
 		"fillcolor" 	"0 0 0 40"
 		"additive"		"1"

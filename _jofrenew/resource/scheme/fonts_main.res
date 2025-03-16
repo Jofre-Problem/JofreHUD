@@ -54,7 +54,8 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSansExtraboldUber"
-				"tall"	"16"
+				"tall" "16"	[$WINDOWS]
+				"tall"	"12"	[$LINUX]
 				//
 				"antialias"	"1"
 			//	"dropshadow"	"1"

@@ -4,7 +4,20 @@
 //	#base "_safemode1.res"
 "Resource/#jofre/safe-mode.res"
 {
-
+				"CS0.5REFERENCEdeck0"
+				{
+					"fieldName" "5REFERENCEdeck0"
+					"ControlName"	"ImagePanel"
+					"xpos"			"CS-0.5"//359
+					"ypos"			"70"//179
+					"zpos"			"0"
+					"wide"			"120"
+					"tall"			"o1"
+					"zpos" "300"
+					"visible"		"0"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/playstyle_decked"
+				}	
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
@@ -32,19 +45,60 @@
 					"scaleimage" "1"
 					"image" "replay/thumbnails/thatguy/intro"
 				}
-	"DeckPanel"
+	"DeckPanel" [$LINUX] 
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DeckPanel"
 		"xpos"			"-35"////"cS-0.5-227-75"
-		"ypos" 			"50"
+		"ypos" 			"80"
 		"zpos"			"500"
 		"wide"			"400"
 		"tall"			"130"
 		"visible"		"1"
 		//"enabled"		"1"
-		"bgcolor_override"	"255 55 25 250"
-
+		"bgcolor_override"	"255 55 25 0"
+				"deck0"
+				{
+					"fieldName" "deck0"
+					"ControlName"	"ImagePanel"
+					"xpos"			"100"//359
+					"ypos"			"-3"//179
+					"zpos"			"0"
+					"wide"			"120"
+					"tall"			"o1"
+					"zpos" "300"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/playstyle_decked"
+				}				"deck1"
+				{
+					"fieldName" "deck1"
+					"ControlName"	"ImagePanel"
+					"xpos"			"75"//359
+					"ypos"			"0"//179
+					"zpos"			"0"
+					"wide"			"80"
+					"tall"			"o1"
+					"zpos" "300"
+					"visible"		"0"
+					"scaleimage" "1"[$LINUX] 
+					"image" "replay/thumbnails/playstyle_decked"
+				}
+				"deckdocked"
+				{
+					"fieldName" "deck1"
+					"ControlName"	"ImagePanel"
+					"xpos"			"-90"//359
+					"ypos"			"0"//179
+					"zpos"			"0"
+					"wide"			"80"
+					"tall"			"o1"
+					"zpos" "300"
+					"visible"		"0"
+					"scaleimage" "1"
+					pin_to_sibling deck1
+					"image" "replay/thumbnails/playstyle_docked"
+				}				
 				"bg"
 				{
 					"fieldName" "bg"
@@ -74,21 +128,22 @@
 		"image"			"replay\thumbnails\mm\LogoButtons"
 		"scaleImage"	"1"
 	}		
-	"LogoButtonsJOFRE"
+	"LogoButtonsJOFRE"[$LINUX] 
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LogoButtonsJOFRE"
 		"xpos"			"-35"////"cS-0.5-227-75"
 		"ypos" 			"cS-0.5-35+17"
 		"zpos"			"299"
-		"wide"			"320"
+		"wide"			"320"[$LINUX] 
 		"tall"			"320"
 		"visible"		"1" [$WINDOWS] 
 		"visible"		"0" [$LINUX] 
 		"enabled"		"1"
 		"image"			"replay\thumbnails\mm\LogoButtons_jofre" 
 		"scaleImage"	"1"
-	}		
+	}	
+		
 	"Browse"			// other classes pinned to this
 	{
 		ControlName				CExButton

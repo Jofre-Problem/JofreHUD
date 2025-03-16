@@ -422,7 +422,10 @@
 	{
 		"wide"			"0"	
 	}		
-		
+		"ReportPlayerButton2"
+	{
+		"wide"			"0"	
+	}		
 
 		"GeneralStoreButton"
 		{

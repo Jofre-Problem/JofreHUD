@@ -357,15 +357,17 @@
 		"alpha"		"180"
 		"pin_to_sibling" "respawntime"
 	}			
-	"whitebg"
+	"testbg"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"ProgressBar"
+		"variable" "respawntime"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"20"
-		"fillcolor" "Ammo"
+		"zpos"			"60"
+		"wide"			"20"
+		"tall"			"10"
+		"fgcolor_override"	"124 124 124 200"
+		"bgcolor_override"	"0 0 0 0"
 		"alpha"		"0"
 		"pin_to_sibling" "respawntime"
 	}				
@@ -425,7 +427,7 @@
 				"textinsetx"		"6"
 				"textinsety"		"-2"
 				"proportionaltoparent"	"1"
-				"fgcolor_override"	"255 215 0 255"
+				"fgcolor_override"	"0 255 170 255"
 				"bgcolor_override"		"32 32 32 50"
 				"border"		"noborder"
 			}	

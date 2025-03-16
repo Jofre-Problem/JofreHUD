@@ -37,6 +37,7 @@ event MMDashboardCMD
 }
 event CompetitiveGame_LowerChatWindow
 {
+	
 	StopEvent	Radar		0.0
 	StopEvent	RadarLoop	0.0
 	SetVisible	roundinfo	0		0.05
@@ -45,8 +46,8 @@ event CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild    MainMenuOverride    TestStart_B    0.0
 	RunEvent	Radar	0.0
-
-
+	RunEventChild Mainmenuoverride MenuCMD 0.0
+	RunEventChild Mainmenuoverride MenuCMD 0.0
 	// DMG Looper
 	//RunEvent TestLoop_C 0.0
 
