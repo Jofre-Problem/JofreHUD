@@ -29,6 +29,20 @@
 	#base "../_minmode/scripts/hudlayout.res"
 "j"
 {
+	"basechatbg" // Icon Anchor to move Vaccinator Resistance
+	{
+		"ControlName" "EditablePanel"
+		"xpos" 		"cs-0.5" //"rs1-7"
+		"bgcolor_override" "0 0 0 140"
+		"ypos"		"rs1-104"
+		zpos -9999
+		"wide"		"120"
+		"paintBackgroundtype" "2"
+		//"roundedcorners" "2"
+		"tall" 		"100"
+		"visible"	"0"
+		"enabled" 	"1"
+	}	
 		HudMatchStatus
 	{
 		"tall"				"480"

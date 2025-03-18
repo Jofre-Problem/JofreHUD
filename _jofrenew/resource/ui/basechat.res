@@ -22,14 +22,13 @@
 	//	"xpos"			"4+p0.001"
 	//	"ypos"			"rs1-85" //enough space for nohboard
 	//	"wide"	 		"200"
-	"WIDE"	"140"	[$LINUX]
+	"WIDE"	"p0.987"
 	//	"tall"	 		"120"
 		    "PaintBackgroundType"    "2"
     "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
     "Texture2"         "vgui/replay/thumbnails/null"
     "Texture3"         "vgui/replay/thumbnails/null"
     "Texture4"         "vgui/replay/thumbnails/null"
-	"src"	"settings_default"
 		"bgcolor_override" "0 0 0 0"
 	}
 
@@ -41,7 +40,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"395"
-	//	"wide"	 		"300" //350
+		"wide"	 		"600" //350
 		"tall"	 		"2"
 	}
 
@@ -76,7 +75,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 	//	"wide"	 		"200"
-		"WIDE"	"140"	[$LINUX]
+		"WIDE"	"p0.987"
 		"tall"			"1"
 		"wrap"			"1"
 		"autoResize"		"1"
@@ -86,7 +85,7 @@
 		"labelText"		""
 		"textAlignment"		"south-west"
 		"font"			"ChatFont"
-		"maxchars"		"-1"
+		"maxchars"		"9999"
 		"bgcolor_override" "255 0 0 0"
 	}
 }

@@ -289,7 +289,6 @@
 			}
 			"playername"
 			{
-				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"CustomVerdanaSmall"
 				"xpos"								"0"
@@ -301,10 +300,19 @@
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"center"
-				"bgcolor_override"					"60 60 60 255"
+				"bgcolor_override"					"30 30 30 255"
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
+			"ControlName"	"CAutoFittingLabel"
 
+
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"CustomVerdanaSmall"
+			}
 				"pin_to_sibling"					"respawntime"
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
 				"pin_to_sibling_corner"				"PIN_CENTER_BOTTOM"
