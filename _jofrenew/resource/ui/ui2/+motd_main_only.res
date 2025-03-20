@@ -29,7 +29,7 @@
 		"zpos"		"500"
 		"wide"		"258"
 		"tall"		"456"
-		"visible" "0"
+		"visible" "1"
 	//	"border"		"blurborder"
 		"bgcolor_override"	"30 30 30 100"
 
