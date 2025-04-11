@@ -16,6 +16,12 @@
 
 		"collapsed_height"	"0"
 		"expanded_height"	"60"
+		"PinnedCornerOffSetX"	"0"
+		"UnpinnedCornerOffSetX"	"0"
+
+		"pin_to_sibling"	"NewMatchAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		//"pinCorner"		"2"
 		"autoResize"	"1"
