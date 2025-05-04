@@ -1,0 +1,10 @@
+"x"{"LogoImage"{
+
+"image"     "replay/thumbnails/spray_20"
+
+            // put your spray path here
+
+            // usually its on tf/materials/vgui/logos/
+// example
+// "image"     "logos/UI/spray"
+}}

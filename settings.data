@@ -129,6 +129,7 @@ Copy("_4plug/4plug_file/spray_stuff/bottom_left.txt", "_jofrenew/new/ui_override
 #if Spray Settings == "Reset"
 {
 Copy("_4plug/null.res", "_jofrenew/new/ui_overrides/spray_stuff/bottom_left.txt");
+Copy("_4plug/null.res", "_jofrenew/new/ui_overrides/spray_stuff/bottom_right.txt");
 }
 #if HudMatchStatus == "Bottom"
 {

@@ -13,12 +13,20 @@ event WinningNextMapVote
 //	RunEventChild MainMenuOverride ForceSafemode 0.0
 }
 
+// can lead to crashes
 event LosingNextMapVote
 {
 	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
 //	RunEventChild MainMenuOverride ForceSafemode 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0		
 }
 
+event OnMatchCMD
+{
+	FireCommand 0.0 "gamemenucommand OpenLoadSingleplayerCommentaryDialog"
+}
 
 event CasualCategory_NotSelected
 {
