@@ -1,0 +1,15 @@
+"Resource/UI/HudPlayerClass.res"
+{
+					"LogoImage"
+					{
+					"ControlName""ImagePanel"
+					"fieldName""LogoImage"
+					"xpos""0"
+					"ypos""rs1"
+					"wide""p0.15"
+					"tall""o1"
+					zpos 9999
+					"image""replay/thumbnails/spray_20"
+					"scaleImage""1"
+					}
+	}

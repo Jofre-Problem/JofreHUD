@@ -9,6 +9,8 @@
 
 #base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
 #base "../../../../cfg/_jp_stat_bg.txt"
+
+#base "../../new/ui_overrides/spray_stuff/bottom_right.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -52,6 +54,18 @@
 		"scaleimage"			"1"
 		"zpos"					"6000"
 	}
+					"LogoImage"
+					{
+					"ControlName""ImagePanel"
+					"fieldName""LogoImage"
+					"xpos""rs1"
+					"ypos""rs1-36"
+					"wide""280"
+					"tall""o1"
+
+					//"image""replay/thumbnails/spray"
+					"scaleImage""1"
+					}		
 		"MOTD_Panel"	{	
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"

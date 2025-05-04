@@ -111,6 +111,25 @@ GlobalComboBox("HudMatchStatus", "HudMatchStatus")
 	Def
 	Bottom
 }
+[Name:Spray Settings, Default:Lower, FG:#7A5EF8, BG:#5caeff, Border:0]
+GlobalComboBox("Spray Settings", "Spray Settings")
+{
+	On_Player_Class
+	On_Stats
+	Reset
+}
+#if Spray Settings == "On_Player_Class"
+{
+Copy("_4plug/4plug_file/spray_stuff/bottom_left.txt", "_jofrenew/new/ui_overrides/spray_stuff/bottom_left.txt");
+}
+#if Spray Settings == "On_Stats"
+{
+Copy("_4plug/4plug_file/spray_stuff/bottom_left.txt", "_jofrenew/new/ui_overrides/spray_stuff/bottom_right.txt");
+}
+#if Spray Settings == "Reset"
+{
+Copy("_4plug/null.res", "_jofrenew/new/ui_overrides/spray_stuff/bottom_left.txt");
+}
 #if HudMatchStatus == "Bottom"
 {
 Copy("_4plug/4plug_overrides/MatchStatus/kbn_hudmatchstatus.res", "_4plug/resource/ui/HudMatchStatus/!matchstatus.res");	

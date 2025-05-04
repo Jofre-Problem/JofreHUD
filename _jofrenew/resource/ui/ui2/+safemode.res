@@ -57,6 +57,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"bgcolor_override"	"255 55 25 0"
+		mouseinputenabled 0
 				"deck0"
 				{
 					"fieldName" "deck0"
@@ -83,6 +84,7 @@
 					"visible"		"0"
 					"scaleimage" "1"[$LINUX] 
 					"image" "replay/thumbnails/playstyle_decked"
+					"mouseinputenabled" 0
 				}
 				"deckdocked"
 				{
@@ -98,6 +100,7 @@
 					"scaleimage" "1"
 					pin_to_sibling deck1
 					"image" "replay/thumbnails/playstyle_docked"
+					"mouseinputenabled" 0
 				}				
 				"bg"
 				{

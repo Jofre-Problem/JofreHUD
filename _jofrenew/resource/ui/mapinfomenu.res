@@ -25,7 +25,7 @@
 		"labeltext"	"0"
 		"bgcolor_override"	"blank"
 		"mouseInputEnabled"	"0"
-							"LogoImage"
+					"LogoImage"
 					{
 					"ControlName""ImagePanel"
 					"fieldName""LogoImage"
@@ -36,7 +36,8 @@
 
 					//"image""replay/thumbnails/spray"
 					"scaleImage""1"
-					}		}		
+					}		
+					}		
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
