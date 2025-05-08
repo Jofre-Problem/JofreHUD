@@ -1,5 +1,20 @@
 "Resource/UI/GiveawayItemPanel.res"
 {
+	"cleanhurt"
+	{
+	"ControlName"	"ImagePanel"
+	"fieldName"	"cleanhurt"
+	"xpos"	"0"
+	"ypos"	"0"
+	"zpos"	"-100"
+	"wide"	"f0"
+	"tall"	"f0"
+	"visible" "1"
+	"bgcolor_override" "Black"
+			"enabled"		"1"
+	"image"	"replay/thumbnails/hp/REFRACTnormal"
+	"scaleimage""1"
+	}			
 	"giveaway_item"
 	{
 		"ControlName"		"Frame"
