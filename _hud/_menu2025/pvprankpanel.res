@@ -449,8 +449,8 @@
 					"sequence"	"idle"
 					"default"	"1"
 				}
-			}
-		
+			}	
+			if_mini		{			"visible"		"0"		}		
 			"lights"
 			{
 				"default"

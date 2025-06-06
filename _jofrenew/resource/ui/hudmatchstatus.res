@@ -26,7 +26,7 @@
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"White"
-
+if_mini		{			"visible"		"0"		}	
 		if_readymode
 		{
 			"xpos"			"300"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
-
+if_mini		{			"visible"		"0"		}	
 		"model"
 		{
 			"modelname"	"models/vgui/versus_doors.mdl"
@@ -751,7 +751,7 @@
 	"FrontParticlePanel"
 	{
 		"fieldName"		"FrontParticlePanel"
-		"xpos"			"9999"
+		"xpos" "9999" "ypos" "9999" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"
 	}
 	"CountdownLabelShadow"
 	{
