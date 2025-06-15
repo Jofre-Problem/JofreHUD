@@ -185,6 +185,22 @@
 		"priority"	"40"
 		"zpos"	"1090"
 	}
+	"gradientbruh"
+	{
+		"ControlName"	"imagepanel"
+		xpos c0
+		"ypos"			"c0"
+		"zpos"			"9"
+		"wide"			"90"
+		"tall"			"o1"
+		"visible"		"0"
+		"enabled"		"1"
+	//	"drawcolor" "green"
+		"scaleImage" 1
+		paintBackground 1
+		drawcolor red
+		"image"				"replay/thumbnails/hp/2mod_side_panel_gradient_bottom"
+	}			
 	"MedicIcon"
 	{
 		"ControlName"	"ctfimagepanel"

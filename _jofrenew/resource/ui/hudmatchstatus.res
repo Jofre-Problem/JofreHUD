@@ -390,9 +390,9 @@ if_mini		{			"visible"		"0"		}
 		"zpos"			"60"
 		"wide"			"20"
 		"tall"			"10"
-		"fgcolor_override"	"124 124 124 200"
+		"fgcolor_override"	"43 165 53 200"
 		"bgcolor_override"	"0 0 0 0"
-		"alpha"		"0"
+		"alpha"		"255"
 		"pin_to_sibling" "respawntime"
 	}				
 			"healthbar"

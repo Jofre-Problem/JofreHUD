@@ -180,6 +180,8 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"236 240 241 255"
+		"auto_wide_tocontents" "1"
+		bgcolor_override "30 30 30 255"
 	}
 	"TargetNameLabelMidS" //healing targetid
 	{	
@@ -212,6 +214,7 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"236 240 241 255"
+		bgcolor_override "blank"
 	}
 	"TargetNameLabelMid2S" // healer targetid
 	{	

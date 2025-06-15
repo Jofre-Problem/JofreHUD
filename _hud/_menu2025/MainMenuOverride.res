@@ -2,7 +2,24 @@
 #base "polyconfig1_mm.res"
 "j"
 {	
+		"SeedTextEntry"
+		{
+			"ControlName"							"combobox"
+			"fieldName"								"SeedTextEntry"
+			"xpos"									"90"
+			"ypos"									"75"
+			"zpos"									"10"
+			"wide"									"115"
+			"tall"									"20"
+			"labeltext" "help" 	"textAlignment"		"North"
+			"keyboardinputenabled"						"1"
+			"font" "noto10"
+			"visible"								"0"
+			"enabled"								"1"
+			"bgcolor_override"						"0 0 0 20"
+			"maxchars"								"-1"
 
+		}
 	
 "ChatPin"
 {

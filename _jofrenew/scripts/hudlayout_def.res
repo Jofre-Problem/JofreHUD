@@ -455,11 +455,17 @@
 		"tall"		"16"
 		"textAlignment"	"north"
 	}
-
+	trest
+	{
+		ControlName editablepanel
+		fieldName trest
+		"ypos"	 "999"
+	}
 	HudScope
 	{
 		"wide"	 "640"
 		"tall"	 "480"
+		pin_to_sibling 	trest
 	}
 	
 	HudScopeCharge
