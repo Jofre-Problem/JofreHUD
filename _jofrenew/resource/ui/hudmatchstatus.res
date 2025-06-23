@@ -371,7 +371,7 @@ if_mini		{			"visible"		"0"		}
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"600"
-		"wide"			"60"
+		"wide"			"0"
 		"tall"			"7"
 		"image"			"replay/thumbnails/hp/modulate_orange"
 		"scaleImage"		"1"

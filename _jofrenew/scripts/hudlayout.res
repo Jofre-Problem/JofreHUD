@@ -75,11 +75,26 @@
 		{
 			"xpos" "109"
 		}
-
+ 
 		//Enable quick menu reload
 	//	"SteamFriendsList"{}
 	//	"ResolutionSelector"{}
-	}		
+	}
+	"yourteam1"
+	{
+		"ControlName"		"CTFImagePanel"
+		"xpos"			"c-230-20"
+		"ypos"			"325-7"
+		"zpos"			"600"
+		"wide"			"160"
+		"tall"			"7"
+		"image"			"replay/thumbnails/hp/modulate_blu"
+		"scaleImage"		"1"
+		"teambg_1"		"replay/thumbnails/hp/modulate_blu"
+		"teambg_2"		"replay/thumbnails/hp/modulate_red"
+		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
+		"alpha"		"255"
+	}					
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{
