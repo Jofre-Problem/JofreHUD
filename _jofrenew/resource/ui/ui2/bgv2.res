@@ -262,7 +262,7 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"image"			"replay/thumbnails/bg/bliss"
+					"image"			"replay/thumbnails/hp/REFRACTblur"
 					"scaleImage"		"1"
 				}
 
