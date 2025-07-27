@@ -24,12 +24,14 @@
 	//	"wide"	 		"200"
 	"WIDE"	"p0.987"
 	//	"tall"	 		"120"
-		    "PaintBackgroundType"    "2"
+	
     "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
     "Texture2"         "vgui/replay/thumbnails/null"
     "Texture3"         "vgui/replay/thumbnails/null"
     "Texture4"         "vgui/replay/thumbnails/null"
-		"bgcolor_override" "0 0 0 0"
+		"PaintBackgroundType"	"2"
+		"usetitlesafe"			"1"
+		"bgcolor_override"		"44 44 44 222"
 	}
 
 	ChatInputLine

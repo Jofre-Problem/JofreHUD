@@ -1,9 +1,9 @@
 event MenuClose
 {	
-//	Animate HudChat bgcolor "0 0 0 0" linear 0.0 0.0
-//	Animate HudChat bgcolor "0 0 0 0" linear 0.0 100.0
+//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 0.0
+//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 100.0
 //	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
-//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0	
+//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
 
 //	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
 //	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01

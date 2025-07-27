@@ -29,7 +29,7 @@ Scheme
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"0 0 0 0"
 		"Orange"			"255 155 0 255"
-		"TransparentBlack"		"0 0 0 0"
+		"TransparentBlack"		"0 0 0 250"
 		"Black"				"0 0 0 255"
 	    "TFDarkBrown"               					"60 56 53 255"
 	    "TFDarkBrownTransparent"    					"60 56 53 190"
@@ -126,8 +126,8 @@ Scheme
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 240"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 240"			// the additional border color for displaying the default/selected button
+		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
+		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
@@ -161,7 +161,7 @@ Scheme
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 240"//"0 0 0 196"
+		FrameGrip.Color2				"0 0 0 196"
 		FrameTitleButton.FgColor		"200 200 200 196"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
