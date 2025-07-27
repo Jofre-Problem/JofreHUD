@@ -719,7 +719,7 @@
 
 			
 					labelText				"mat_reload"
-					Command				"engine mat_reloadallmaterials"
+					Command				"engine sv_cheats 1; mat_reloadallmaterials"
 
 				}														
 				"DEVBTN_POSITION:X2"			// other classes pinned to this
