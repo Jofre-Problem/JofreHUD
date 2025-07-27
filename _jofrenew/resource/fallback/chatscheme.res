@@ -3,7 +3,7 @@ Scheme
 {
 	BaseSettings
 	{
-		ScrollBar.Wide					"3"
+		ScrollBar.Wide					"20"
 		"TFColors.ChatTextYellow"						"201 200 200 255"
 	//	"TFColors.ChatTextYellow"						"201 188 162 255"
 	//	"TFColors.ChatTextYellow"						"136 230 134 255"

@@ -5,12 +5,12 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-236"
+		"xpos"		"r80"//"c-236"
 		//////"c-175"
 		//////"257"
-		"ypos"		"229"
+		"ypos"		"0"
 		"zpos"		"0"
-		"tall"		"100"
+		"tall"		"390"
 		
 		//these are for the caption crosshairs
 		//i dont want to properly set them up but here it is if you want to try them

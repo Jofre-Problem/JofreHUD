@@ -254,7 +254,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"Blue"
-			//
+			// 
 		}
 		"ClassBar1B"
 		{

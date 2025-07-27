@@ -304,7 +304,7 @@ if_mini		{			"visible"		"0"		}
 				"proportionaltoparent"				"1"
 				"alpha"								"255"
 			"ControlName"	"CAutoFittingLabel"
-
+				"auto_tall_tocontents" "1"
 
 
 			"fonts"

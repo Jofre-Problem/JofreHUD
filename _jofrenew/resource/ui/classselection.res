@@ -1,6 +1,19 @@
 
 "Resource/UI/TeamMenu.res"
 {
+	"BlurMainBG"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""BlurMainBG"
+	"xpos""0"
+	"ypos""0"
+	"zpos""-1000"
+	"wide""f0"
+	"tall""f0"
+	"image""replay/thumbnails/hp/REFRACTblur"
+	"scaleimage""1"
+
+	}		
 	                          "class"
 	{
 		ControlName				Frame
@@ -21,7 +34,7 @@
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"Blue"
 		                         "labeltext"		"Ñ"
 		textalignment center
 	}			
@@ -35,7 +48,7 @@
 		                         "tall"	                "48"
 		                         "wide"			        "f0"
 								 bgcolor_override blank
-		                         "fgcolor_override"	                "notowhite"
+		                         "fgcolor_override"	                "Blue"
 		                         "variable"		            "numScout"
 	                          "pin_to_sibling"                    "Scoutlabel"
                            "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -52,7 +65,7 @@
 "wide"			"o1"
 bgcolor_override blacksolid
 "font" "Future30"
-"fgcolor_override"	"notowhite"
+"fgcolor_override"	"125 161 255 255"
 "labeltext"		"Ò"
 textalignment center
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -68,7 +81,7 @@ pin_to_sibling scoutlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"125 161 255 255"
 								 "bgcolor_override" "blank"
 		                         "variable"		"numSoldier"
 	                          "pin_to_sibling" "Soldiderlabel"
@@ -87,7 +100,7 @@ pin_to_sibling scoutlabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"161 146 249 255"
 		                         "labeltext"		"Ó"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -104,7 +117,7 @@ pin_to_sibling Soldiderlabel
 		                         "tall"	"48"
 		                         "wide"			"f0"
 								 bgcolor_override blank
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"161 146 249 255"
 		                         "variable"		"numpyro"
 	                          "pin_to_sibling" "Soldiderlabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -121,7 +134,7 @@ pin_to_sibling Soldiderlabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"194 129 235 255"
 		                         "labeltext"		"Ô"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -138,7 +151,7 @@ pin_to_sibling pyrolabel
 		                         "tall"	"48"
 		                         "wide"			"f0"
 								 bgcolor_override blank
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"194 129 235 255"
 		                         "variable"		"numdemoman"
 	                          "pin_to_sibling" "demolabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -155,7 +168,8 @@ pin_to_sibling pyrolabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"222 108 212 255"
+			//"
 		                         "labeltext"		"Õ"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -171,7 +185,8 @@ pin_to_sibling demolabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"222 108 212 255"
+			//"
 		                         "variable"		"numheavy"
 	                          "pin_to_sibling" "heavylabel"
 							  bgcolor_override blank
@@ -189,7 +204,7 @@ pin_to_sibling demolabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"244 86 182 255"
 		                         "labeltext"		"Ö"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -205,7 +220,7 @@ pin_to_sibling heavylabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"244 86 182 255"
 		                         "variable"		"numengineer"
 								 bgcolor_override blank
 	                          "pin_to_sibling" "engilabel"
@@ -223,7 +238,7 @@ pin_to_sibling heavylabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"255 63 146 255"
 		                         "labeltext"		"×"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -239,7 +254,7 @@ pin_to_sibling engilabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"255 63 146 255"
 		                         "variable"		"nummedic"
 								 bgcolor_override blank
 	                          "pin_to_sibling" "mediclabel"
@@ -258,7 +273,7 @@ pin_to_sibling engilabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"255 48 107 255"
 		                         "labeltext"		"Ø"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -274,7 +289,7 @@ pin_to_sibling mediclabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"255 48 107 255"
 								 bgcolor_override blank
 		                         "variable"		"numsniper"
 	                          "pin_to_sibling" "sniperlabel"
@@ -294,7 +309,7 @@ pin_to_sibling mediclabel
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
 		                         "font" "Future30"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"Ù"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -311,7 +326,7 @@ pin_to_sibling sniperlabel
 								 bgcolor_override blank
 		                         "tall"	"48"
 		                         "wide"			"f0"
-		                         "fgcolor_override"	"notowhite"
+		                         "fgcolor_override"	"Red"
 		                         "variable"		"numspy"
 	                          "pin_to_sibling" "spylabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -382,7 +397,7 @@ pin_to_sibling sniperlabel
 		                         "paintBackground"	"1"
 		                         "labelText"	"M"
 		                         "defaultFgColor_override"	"Black"
-		                         "armedFgColor_override"	"Primary"
+		                         "armedFgColor_override"	"245 245 245 50"
 		                         "Command"		"vguicancel"
 	}
 	                          "CancelContinue" 
@@ -434,7 +449,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -552,7 +567,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -633,7 +648,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -827,7 +842,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -907,7 +922,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -1025,7 +1040,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -1142,7 +1157,7 @@ pin_to_sibling sniperlabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -1222,7 +1237,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -1417,7 +1432,7 @@ pin_to_sibling sniperlabel
 		sound_armed				          "UI/buttonrollover.wav"
 
 		defaultFgColor_override		"Neutral"
-		selectedFgColor_override	"Primary"
+		selectedFgColor_override	"245 245 245 50"
 		FgColor_override		       "Neutral"
 		FgColor		                "Neutral"
 
@@ -1837,8 +1852,8 @@ pin_to_sibling sniperlabel
 			
 			                        "animation"
 			{
-				                       "name"						"PRIMARY"
-				                       "activity"					"ACT_MP_STAND_PRIMARY"
+				                       "name"						"245 245 245 50"
+				                       "activity"					"ACT_MP_STAND_245 245 245 50"
 				                       "default"					"1"
 			}
 			                        "animation"

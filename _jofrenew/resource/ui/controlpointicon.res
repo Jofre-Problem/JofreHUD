@@ -60,7 +60,25 @@
 		"fgcolor_override"	"Notowhite"
 		//		"1"
 	}
-
+	"CapNumPlayers2"
+	{
+		"ControlName"		"cexLabel"
+		"fieldName"		"CapNumPlayers2"
+		"font"			"AmmoReserve2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"disabledfgcolor2_override" "black"
+		"labelText"		"#ControlPointIconCappers"
+		"textAlignment"		"center"
+		//		"1"
+		"fgcolor_override"	"black"
+		//		"1"
+	}
 	"OverlayImage"		//ABC icons
 	{
 		"ControlName"	"ImagePanel"
