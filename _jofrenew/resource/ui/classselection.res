@@ -13,7 +13,20 @@
 	"image""replay/thumbnails/hp/REFRACTblur"
 	"scaleimage""1"
 
-	}		
+	}
+	                          "1_image"
+	{
+		                         "ControlName"			"Imagepanel"
+		                         "fieldName"				"1_image"		
+		xpos					cs-0.5
+		ypos					cs-0.5
+		zpos					-999
+		wide					o1
+		tall					300
+		alpha					30
+		scaleImage				1
+		image					               "replay/thumbnails/hud/SelectionWheel9"
+	}			
 	                          "class"
 	{
 		ControlName				Frame
@@ -46,7 +59,7 @@
 		                         "zpos"			        "0"
 		                         "ypos"			        "0"
 		                         "tall"	                "48"
-		                         "wide"			        "f0"
+		                        "wide""p2"
 								 bgcolor_override blank
 		                         "fgcolor_override"	                "Blue"
 		                         "variable"		            "numScout"
@@ -80,7 +93,7 @@ pin_to_sibling scoutlabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                       "wide""p2"
 		                         "fgcolor_override"	"125 161 255 255"
 								 "bgcolor_override" "blank"
 		                         "variable"		"numSoldier"
@@ -115,11 +128,11 @@ pin_to_sibling Soldiderlabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                     "wide""p2"
 								 bgcolor_override blank
 		                         "fgcolor_override"	"161 146 249 255"
 		                         "variable"		"numpyro"
-	                          "pin_to_sibling" "Soldiderlabel"
+	                          "pin_to_sibling" "pyrolabel"
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}			
@@ -149,7 +162,7 @@ pin_to_sibling pyrolabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                       "wide""p2"
 								 bgcolor_override blank
 		                         "fgcolor_override"	"194 129 235 255"
 		                         "variable"		"numdemoman"
@@ -184,7 +197,7 @@ pin_to_sibling demolabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                         "wide""p2"
 		                         "fgcolor_override"	"222 108 212 255"
 			//"
 		                         "variable"		"numheavy"
@@ -219,7 +232,7 @@ pin_to_sibling heavylabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                         "wide""p2"
 		                         "fgcolor_override"	"244 86 182 255"
 		                         "variable"		"numengineer"
 								 bgcolor_override blank
@@ -253,7 +266,7 @@ pin_to_sibling engilabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                         "wide""p2"
 		                         "fgcolor_override"	"255 63 146 255"
 		                         "variable"		"nummedic"
 								 bgcolor_override blank
@@ -288,7 +301,7 @@ pin_to_sibling mediclabel
 		                         "zpos"			"0"
 		                         "ypos"			"0"
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                         "wide""p2"
 		                         "fgcolor_override"	"255 48 107 255"
 								 bgcolor_override blank
 		                         "variable"		"numsniper"
@@ -325,7 +338,7 @@ pin_to_sibling sniperlabel
 		                         "ypos"			"0"
 								 bgcolor_override blank
 		                         "tall"	"48"
-		                         "wide"			"f0"
+		                         "wide""p2"
 		                         "fgcolor_override"	"Red"
 		                         "variable"		"numspy"
 	                          "pin_to_sibling" "spylabel"
@@ -333,7 +346,51 @@ pin_to_sibling sniperlabel
 "pin_to_sibling_corner"					"PIN_TOPRIGHT"
 	}		
 
+	                          "extrabg"
+	{
+					                      "ControlName""cexlabel"
+		                         "fieldName""extrabg"
+		                         "xpos"			"0"
+		                         "zpos"			"0"
+		                         "ypos"			"0"
+		                         "tall"	"48"
+		                         "wide"			"o1"
+		bgcolor_override blacksolid
+		                         "font" "Future30"
+		                         "fgcolor_override"	"Red"
+		                         "labeltext"		"-"
+		textalignment center
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling spylabel
+	}			
+		"Removeline"
+	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+			xpos					-1	 
+			ypos					0
+			zpos					1000
+			wide					42
+			tall					40
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
+		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
+"pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
+pin_to_sibling spylabel
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					42
+			tall					o1
 
+			party_slot				0
+		}	
+	}		
 	                          "BlurMainBG"
 	{
 		                         "zpos"			"-100"
@@ -409,19 +466,7 @@ pin_to_sibling sniperlabel
 		                         "tall"				"0"
 	}	
 
-	                          "1_image"
-	{
-		                         "ControlName"			"Imagepanel"
-		                         "fieldName"				"1_image"		
-		xpos					cs-0.5
-		ypos					cs-0.5
-		zpos					-2
-		wide					o1
-		tall					300
-		alpha					30
-		scaleImage				1
-		image					               "replay/thumbnails/hud/SelectionWheel9"
-	}
+
 	
 	                          "scout"  // icon, updates the player model
 	{

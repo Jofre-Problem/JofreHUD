@@ -3,8 +3,8 @@ event MainMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Testing===================="
 
-	Animate MMDashboard ypos -15 linear 0.0 0.0
-	Animate MMDashboard ypos 0 linear 0.5 0.1
+//	Animate MMDashboard ypos -15 linear 0.0 0.0
+//	Animate MMDashboard ypos 0 linear 0.5 0.1
 
 	Animate WorkshopButton ypos -15 linear 0.0 0.0
 	Animate WorkshopButton ypos 0 linear 0.5 0.1	
@@ -152,7 +152,7 @@ event HideMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Menu HIDDEN===================="
 
-	Animate MMDashboard ypos -15 linear 0.0 0.0
+//	Animate MMDashboard ypos -15 linear 0.0 0.0
 
 	Animate WorkshopButton ypos -15 linear 0.0 0.0
 
@@ -173,7 +173,7 @@ event ShowMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Menu SHOW===================="
 
-	Animate MMDashboard ypos 0 linear 0.5 0.2	
+//	Animate MMDashboard ypos 0 linear 0.5 0.2	
 
 
 	Animate WorkshopButton ypos 0 linear 0.5 0.2		

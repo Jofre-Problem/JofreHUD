@@ -14,9 +14,10 @@ event HintMessageHide
 
 
 	// MMDashboard
-	RunEventChild MMDashboard MMDashboardCMD 0.0
-	RunEventChild MMDashboard MMDashboardCMD 0.0
-	RunEventChild MMDashboard MMDashboardCMD 0.0
+	// trouble with crash and joining match popup
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
 	// running these 3 times works
 
 	// Windows CMD

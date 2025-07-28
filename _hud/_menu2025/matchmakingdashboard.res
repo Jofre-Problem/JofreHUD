@@ -433,10 +433,10 @@
             {
                 "ControlName"               "ImagePanel"
                 "fieldName"                 "BGImage"
-                "xpos"                      "0"
-                "ypos"                      "0"
+                "xpos"                      "100"
+                "ypos"                      "1-p0.001"
                 "zpos"                      "0"
-                "wide"                      "P0.1"
+                "wide"                      "P1"
                 "tall"                      "p0.43"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"
@@ -515,7 +515,7 @@
                 "font"                      "notobold14"
                 "fgcolor_override"          "notowhite"
                 "fgcolor"                   "notowhite"
-                "bgcolor_override"          "Blank"
+                "bgcolor_override"          "red"
                 "textAlignment"             "center"
                 "labelText"                 "%queue_state%"
                 "textinsetx"                "0"
@@ -523,7 +523,7 @@
                 "allcaps"                   "0"
                 "proportionaltoparent"      "1"
                 "mouseinputenabled"         "0"
-
+				"bgcolor_override" "red"
                 "auto_wide_tocontents"      "0"
 
                 "pin_to_sibling"            "QueueTextAnchor"
