@@ -158,8 +158,8 @@ Scheme
 		}
 		"Captions Font"
 		{
-			"font" "fonts/OpenSans-Caption.otf"
-			"name" "OpenSans-Captions"
+			"font" "fonts/openSans-caption.otf"
+			"name" "opensans-captions"
 
 		}
 		"96"
