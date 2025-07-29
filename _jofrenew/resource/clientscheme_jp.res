@@ -261,7 +261,11 @@ Scheme
 				"antialias"			"1"
 			}
 		}
-		"NewIconsv2=15" 
+		"NewIconsv2=15" //mfw when going to need every font i have to fit tf2 new standard or crash the game
+		// you are using collyhud as tester, product regular works fine there, so something its wrong with your
+		// u have put jofrehud2 font to colly and see if crashes or not, then change tall to 20 instead of 12 to see if
+		// tall makes something happen, if your theory its right then you should fix the font manually using other font as base
+		// yep
 		{
 			"1"
 			{
