@@ -259,7 +259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias"	"1"
@@ -270,7 +270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"35"
 			//	"tall_lodef"	"40"
 				"weight"	"500"
@@ -283,7 +283,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
@@ -294,7 +294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -302,7 +302,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -310,7 +310,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -319,7 +319,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -328,7 +328,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -423,7 +423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"weight"	"0"
 				"antialias"	"1"
@@ -462,7 +462,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Blank"//"Product Sans"
+				"name"		"Blank"//"product_sans_regular"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -853,7 +853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"1"
 				"additive"  "0"
 				"antialias"	"1"
@@ -864,7 +864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"1"
 				"additive"  "0"
 				"antialias"	"1"
@@ -876,7 +876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"2"
 				"additive"  "0"
 				"antialias"	"1"
@@ -887,7 +887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"2"
 				"additive"  "0"
 				"antialias"	"1"
@@ -899,7 +899,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"3"
 				"additive"  "0"
 				"antialias"	"1"
@@ -910,7 +910,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"3"
 				"additive"  "0"
 				"antialias"	"1"
@@ -922,7 +922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"4"
 				"additive"  "0"
 				"antialias"	"1"
@@ -933,7 +933,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"4"
 				"additive"  "0"
 				"antialias"	"1"
@@ -945,7 +945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"5"
 				"additive"  "0"
 				"antialias"	"1"
@@ -956,7 +956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"5"
 				"additive"  "0"
 				"antialias"	"1"
@@ -968,7 +968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"6"
 				"additive"  "0"
 				"antialias"	"1"
@@ -979,7 +979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"6"
 				"additive"  "0"
 				"antialias"	"1"
@@ -991,7 +991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"7"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1002,7 +1002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"7"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1014,7 +1014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1025,7 +1025,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1037,7 +1037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1048,7 +1048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1060,7 +1060,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1071,7 +1071,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1083,7 +1083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1094,7 +1094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"11"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1106,7 +1106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"12"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1117,7 +1117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"12"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1129,7 +1129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"13"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1140,7 +1140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"13"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1152,7 +1152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1163,7 +1163,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1175,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"15"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1186,7 +1186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"15"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1198,7 +1198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1209,7 +1209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1221,7 +1221,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1232,7 +1232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1244,7 +1244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1255,7 +1255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1267,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1278,7 +1278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1290,7 +1290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"20"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1301,7 +1301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"20"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1313,7 +1313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"21"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1324,7 +1324,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"21"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1336,7 +1336,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1347,7 +1347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"22"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1359,7 +1359,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"23"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1370,7 +1370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"23"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1382,7 +1382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1393,7 +1393,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1405,7 +1405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"25"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1416,7 +1416,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"25"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1428,7 +1428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"26"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1439,7 +1439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"26"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1451,7 +1451,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"27"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1462,7 +1462,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"27"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1474,7 +1474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"28"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1485,7 +1485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"28"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1497,7 +1497,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"29"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1508,7 +1508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"29"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1520,7 +1520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1531,7 +1531,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1543,7 +1543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"31"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1554,7 +1554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"31"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1566,7 +1566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"32"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1577,7 +1577,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"32"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1589,7 +1589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"33"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1600,7 +1600,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"33"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1612,7 +1612,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"34"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1623,7 +1623,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"34"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1635,7 +1635,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"35"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1646,7 +1646,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"35"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1658,7 +1658,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"36"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1669,7 +1669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"36"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1681,7 +1681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"37"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1692,7 +1692,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"37"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1704,7 +1704,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"38"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1715,7 +1715,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"38"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1727,7 +1727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"39"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1738,7 +1738,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"39"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1750,7 +1750,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"40"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1761,7 +1761,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"40"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1773,7 +1773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"41"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1784,7 +1784,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"41"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1796,7 +1796,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"42"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1807,7 +1807,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"42"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1819,7 +1819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"43"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1830,7 +1830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"43"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1842,7 +1842,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"44"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1853,7 +1853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"44"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1865,7 +1865,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"45"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1876,7 +1876,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"45"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1888,7 +1888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"46"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1899,7 +1899,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"46"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1911,7 +1911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"47"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1922,7 +1922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"47"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1934,7 +1934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"48"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1945,7 +1945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"48"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1957,7 +1957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"49"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1968,7 +1968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"49"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1980,7 +1980,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"50"
 				"additive"  "0"
 				"antialias"	"1"
@@ -1991,7 +1991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"50"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2003,7 +2003,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"51"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2014,7 +2014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"51"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2026,7 +2026,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2037,7 +2037,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2049,7 +2049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"53"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2060,7 +2060,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"53"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2072,7 +2072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"54"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2083,7 +2083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"54"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2095,7 +2095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"55"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2106,7 +2106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"55"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2118,7 +2118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"56"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2129,7 +2129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"56"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2141,7 +2141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"57"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2152,7 +2152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"57"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2164,7 +2164,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"58"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2175,7 +2175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"58"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2187,7 +2187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"59"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2198,7 +2198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"59"
 				"additive"  "0"
 				"antialias"	"1"
@@ -2274,7 +2274,7 @@ Scheme
 		"7"
 		{
 			"font" "fonts/optimized/ProductSans-Regular.ttf"
-			"name" "Product Sans"
+			"name" "product_sans_regular"
 		}
 		"8"
 		{

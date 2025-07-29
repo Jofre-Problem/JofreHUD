@@ -107,8 +107,8 @@ Scheme
 		}
 		"91"
 		{
-			"font" "fonts/Product Sans.ttf"
-			"name" "Product Sans"
+			"font" "fonts/product_sans_regular.ttf"
+			"name" "product_sans_regular"
 						"english"
 			{
 				"range" "0x021 0xFFFF"

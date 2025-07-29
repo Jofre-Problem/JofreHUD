@@ -88,7 +88,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"9"
 				"antialias" 								"1"
 			}
@@ -97,7 +97,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -106,7 +106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -115,7 +115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -125,7 +125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -134,7 +134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans"
+				"name"										"product_sans_regular"
 				"tall"										"36"
 				"antialias" 								"1"
 			}

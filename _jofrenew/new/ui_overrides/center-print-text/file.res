@@ -6,7 +6,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"15"
 				"weight"	"900"
 				"antialias" "1"

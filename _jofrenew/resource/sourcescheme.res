@@ -442,7 +442,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -450,7 +450,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -458,7 +458,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"17"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -467,7 +467,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -476,7 +476,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -545,7 +545,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"12"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -555,7 +555,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"14"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -565,7 +565,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"16"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -575,7 +575,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"18"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -615,7 +615,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 				
 				"antialias" "1"
@@ -627,7 +627,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 			
 				"antialias" "1"
@@ -639,7 +639,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"30"
 			
 				"antialias" "1"
@@ -652,7 +652,7 @@ Button.DepressedTextColor "220 220 220 255"
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
             {
 
-                "name"         "Product Sans"              
+                "name"         "product_sans_regular"              
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
 				"weight"     "0"
@@ -664,7 +664,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
-                "name"         "Product Sans" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
+                "name"         "product_sans_regular" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]             
                 "weight"     "0"
@@ -676,7 +676,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
             {
-                "name"         "Product Sans"// "11"                
+                "name"         "product_sans_regular"// "11"                
                  "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
                 "weight"     "0"
@@ -749,7 +749,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"product_sans_regular"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias"	"1"
@@ -810,7 +810,7 @@ Button.DepressedTextColor "220 220 220 255"
 		"102"
 		{
 			"font" "fonts/Product Sans.ttf"
-			"name" "Product Sans"
+			"name" "product_sans_regular"
 		}		
 		"103"
 		{
