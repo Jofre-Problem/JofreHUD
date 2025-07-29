@@ -177,8 +177,8 @@
 			"concept"				"TLK_PLAYER_ASK_FOR_BALL"
 			"distance_check_subtitle"		"0"
 			"show_subtitle"				"1"
-			"subtitle"					"#Voice_Menu_AskForBall"
-			"menu_label"				"#Voice_Menu_AskForBall"
+			"subtitle"					"#Backup_Voice_Menu_AskForBall"
+			"menu_label"				"#Backup_Voice_Menu_AskForBall"
 			"activity"				"ACT_MP_GESTURE_VC_FINGERPOINT"	
 		}
 	}

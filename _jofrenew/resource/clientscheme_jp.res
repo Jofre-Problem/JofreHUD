@@ -266,7 +266,7 @@ Scheme
 			"1"
 			{
 				"name"				"jofreicons2"
-				"tall"				12	
+				"tall"				20	
 				"antialias"			"1"
 			}
 		}		
@@ -275,7 +275,7 @@ Scheme
 			"1"
 			{
 				"name"				"jofreiconsre"
-				"tall"				"12"		
+				"tall"				"20"		
 				"antialias"			"1"
 			}
 		}		
@@ -284,7 +284,7 @@ Scheme
 			"1"
 			{
 				"name"				"jofreiconsre"
-				"tall"				"11"		
+				"tall"				"20"		
 				"antialias"			"1"
 			}
 		}
@@ -293,7 +293,7 @@ Scheme
 			"1"
 			{
 				"name"				"jofreiconsre"
-				"tall"				"10"		
+				"tall"				"20"		
 				"antialias"			"1"
 			}
 		}	
