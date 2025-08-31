@@ -436,7 +436,7 @@
                 "xpos"                      "135"
                 "ypos"                      "0"
                 "zpos"                      "0"
-                "wide"                      "P1"
+                "wide"                      "P0.745"
                 "tall"                      "p0.43"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"

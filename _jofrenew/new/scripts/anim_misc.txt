@@ -1,4 +1,36 @@
+event UberTimerRun
+{
+	Animate UberTimerBG	tall	2	Linear 0.0 0.001
+	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
+	Animate UberTimer	wide	50	Linear	0.0 1.93 //same value
+	Animate UberTimer	BgColor	"Yellow"	Linear	0.0 0.001 // -15 value
+	Animate UberTimer	BgColor	"purple"	Linear	1.7 0.001 // when you are lucky
+	Animate UberTimer	BgColor	"Red"	Linear	1.93 0.001 //with this
+	RunEvent UberTimerHide 60.0
+}
 
+event UberTimerHide
+{
+	StopEvent UberTimerRun 0.0
+	Animate UberTimerBG tall	0	Linear 0.0 0.001
+	Animate UberTimer	wide	0	Linear	0.0 0.001
+}
+event vanillaRun
+{
+	Animate vanillaBG	tall	2	Linear 0.0 0.001
+	Animate vanillaTimer	BgColor	"White"	Linear	0.0 0.001
+	Animate vanillaTimer	wide	50	Linear	0.0 1.2 //same value
+	Animate vanillaTimer	BgColor	"green"	Linear	0.0 0.001 // -15 value
+	Animate vanillaTimer	BgColor	"purple"	Linear	1.2 0.001 //with this
+	RunEvent vanillaHide 60.0
+}
+
+event vanillaHide
+{
+	StopEvent vanillaRun 0.0
+	Animate vanillaBG tall	0	Linear 0.0 0.001
+	Animate vanillaTimer	wide	0	Linear	0.0 0.001
+}
 event MainMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Testing===================="
@@ -91,7 +123,7 @@ event Test_C
 
 event TestLoop_C
 {
-    RunEvent    Test_C    0.0
+ //   RunEvent    Test_C    0.0
 }
 event EveryRespawn
 {
@@ -189,4 +221,16 @@ event ShowMenuCMD
 	Animate TestPanel xpos 0 linear 0.5 0.6
 
 	Animate TestPanel4 xpos r12 linear 0.5 0.6	
+}
+event ArenaVsPanelOnShow
+{
+PlaySound 0 "vo/misc2/win.mp3"
+}
+event ArenaVsPanelSlideIn
+{
+PlaySound 0 "vo/misc2/win.mp3"
+}
+event ArenaVsPanelSlideOut
+{
+PlaySound 0 "vo/misc2/win.mp3"
 }

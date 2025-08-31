@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 	//       Resource/ui/jofrehud/custom/tf/cfg/
 	#base 	"../../../../../../_jp_custom.txt"
 	#base 	"../../../../../_jp_custom.txt"
@@ -11,5 +12,5 @@
 	#base	"../../_log/resource/ui/mainmenuoverride.res"
 	#base	"../../z_tf2/resource/ui/mainmenuoverride.res"
 
-
+#base "vguipreload.res"
 	x	{MainMenuOverride {} }

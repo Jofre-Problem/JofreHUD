@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HudPlayerStatus
+	HudPlayerStatus 
 	{
 		"xpos"	"0"
 		"ypos"	"0"

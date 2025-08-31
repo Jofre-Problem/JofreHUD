@@ -29,6 +29,50 @@
 	#base "../_minmode/scripts/hudlayout.res"
 "j"
 {
+	"UberTimerBG"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"UberTimerBG"
+		"xpos"		"cs-0.5"
+		"ypos"		"c41"
+		"zpos"		"-2"
+		"wide"		"50"
+		"tall"		"0"
+		"bgcolor_override"		"0 0 0 200"
+	}
+
+	"UberTimer"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"UberTimer"
+		"zpos"		"-1"
+		"wide"		"0"
+		"tall"		"2"
+
+		"pin_to_sibling"	"UberTimerBG"
+	}
+	"vanillaBG"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"vanillaBG"
+		"xpos"		"cs-0.5"
+		"ypos"		"c51"
+		"zpos"		"-2"
+		"wide"		"50"
+		"tall"		"0"
+		"bgcolor_override"		"0 0 0 200"
+	}
+
+	"vanillaTimer"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"vanillaTimer"
+		"zpos"		"-1"
+		"wide"		"0"
+		"tall"		"2"
+
+		"pin_to_sibling"	"vanillaBG"
+	}	
 	"basechatbg" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
@@ -115,7 +159,8 @@ visible 0
 		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
 		"alpha"		"255"
 		
-	}					
+	}
+	ViewmodelRefract { visible 1 enabled 1 image replay/thumbnails/misc/viewmodel/viewmodel_refract_1 }				
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{
@@ -221,6 +266,19 @@ visible 0
 		"priority"	"40"
 		"zpos"	"1090"
 	}
+	"ReplacementCharge"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ReplacementCharge"
+		"zpos"		"0"
+		"xpos"		"402"
+		"ypos"		"23"
+		"wide"		"50"
+		"tall"		"512"
+		"visible"		"1"
+		"image"		"replay/thumbnails/sniperscope/snipercharge"
+		"scaleimage"	"1"
+	}	
 	"gradientbruh"
 	{
 		"ControlName"	"imagepanel"

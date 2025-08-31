@@ -11,7 +11,7 @@ event MenuClose
 	setfont HudDeathNotice "textfont" "Killfeed2"	0.001
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
-	PlaySound 0 "vo/deck_ui_slider_down.wav"
+//	PlaySound 0 "vo/deck_ui_slider_down.wav"
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
@@ -20,20 +20,49 @@ event MenuClose
 	RunEvent	HealthAmmoAnimateEnd 0.0
 	//RunEvent LevelInitAny 0.0
 		StopEvent	MenuOpen 0.0 	
-		Animate CDamageAccountPanel ypos "-25" linear 0.0 0.0
-		Animate HudMatchStatus ypos "0" linear 0.0 0.0
+	//	Animate CDamageAccountPanel ypos "-25" linear 0.0 0.0
+	//	Animate HudMatchStatus ypos "0" linear 0.0 0.0
 		StopEvent TestLoop_C 0.0
 		StopEvent TestLoop_C 0.01
-	//
 
+
+	SetVisible hudplayerhealth 1 0.0
+	SetVisible HudPlayerStatus 1 0.0
+	SetVisible HudMatchStatus 1 0.0
+	SetVisible huditemeffectmeter 1 0.0
+	SetVisible HudWeaponAmmo 1 0.0
+		SetVisible HudMedicCharge 1 0.0
+			SetVisible HudBossHealth 1 0.0
+				SetVisible CHudAccountPanel 1 0.0	
+				SetVisible HudObjectiveStatus 1 0.0			
+	SetVisible hudplayerclass 1 0.0	
+	SetVisible HudCloseCaption 1 0.0	
+	//
+	RunEvent UberTimerHide 0.0
+	RunEvent UberTimerRun 0.1
+
+	//RunEvent vanillahide 0.0
+	//RunEvent vanillaRun 0.1
 }
 
 event MenuOpen
 {
 	RunEvent TestLoop_C 0.0
 	StopEvent	MenuClose 0.0 
-	SetVisible CMainTargetID 1 0.0
-	SetVisible CMainTargetID 1 0.01
+	RunEvent AddToCartBlink 0.0
+//	SetVisible hudplayerhealth 0 0.0
+//	SetVisible HudPlayerStatus 0 0.0
+//	SetVisible HudMatchStatus 0 0.0
+//	SetVisible huditemeffectmeter 0 0.0
+//	SetVisible HudWeaponAmmo 0 0.0
+//		SetVisible HudMedicCharge 0 0.0
+//			SetVisible HudBossHealth 0 0.0
+//				SetVisible CHudAccountPanel 0 0.0	
+//				SetVisible HudObjectiveStatus 0 0.0			
+//	SetVisible hudplayerclass 0 0.0	
+//	SetVisible HudCloseCaption 0 0.0	
+//	SetVisible CMainTargetID 1 0.0
+//	SetVisible CMainTargetID 1 0.01
 	//4plug start
 	RunEvent ScoreboardCrosshairAnimate 0.0	
 	RunEvent HealthAmmoAnimateOpen 0.0	
@@ -42,8 +71,8 @@ event MenuOpen
 //	Animate scores tall "480" linear 0.0 0.0
 	//4plug end
 //	RunEvent TestLoop_C 0.0
-	Animate CDamageAccountPanel ypos "80" linear 0.0 0.0
-	Animate HudMatchStatus ypos "20" linear 0.0 0.0
+//	Animate CDamageAccountPanel ypos "80" linear 0.0 0.0
+//	Animate HudMatchStatus ypos "20" linear 0.0 0.0
 	SetVisible DamageAccountLabelScoreboard 1 0.0
 //	SetVisible	roundinfo	1	0
 
@@ -60,7 +89,7 @@ event MenuOpen
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 	setfont HudMenu 	"textfont"		"Noto10"		0.001
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
-	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
+//	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
 	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
 	Animate HudMenu ItemColor		"255 167 42 245"	Linear 0.05 0.1
@@ -68,7 +97,7 @@ event MenuOpen
 	//SetVisible hudplayerhealth 1 0.0	
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
-	PlaySound 0 "vo/deck_ui_slider_up.wav"
+//	PlaySound 0 "vo/deck_ui_slider_up.wav"
 	RunEvent ScoreboardAnimate 0.0
 	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
