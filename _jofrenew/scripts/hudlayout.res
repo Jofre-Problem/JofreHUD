@@ -845,7 +845,7 @@ visible 0
 	{
 		"wide"			"f0"
 		"tall"			"f0"
-		"zpos"			"2000"
+		"zpos"			"-2000"
 	}
 	HudArenaPlayerCount //fix for vsh
 	{

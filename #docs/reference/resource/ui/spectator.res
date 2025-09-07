@@ -14,6 +14,7 @@
 	"specgui"
 	{
 	}
+
 	"topbar"
 	{
 		"ControlName"		"Panel"
