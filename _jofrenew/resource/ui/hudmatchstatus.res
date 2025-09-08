@@ -189,7 +189,7 @@ if_mini		{			"visible"		"0"		}
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"proportionaltoparent"		"1"
-			"font"			"killfeed"
+			"font"			"G_FontBig_2"
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"
@@ -205,7 +205,7 @@ if_mini		{			"visible"		"0"		}
 			{
 				"proportionaltoparent"	"1"
 
-			"font"			"killfeed"
+			"font"			"G_FontBig_2"
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"

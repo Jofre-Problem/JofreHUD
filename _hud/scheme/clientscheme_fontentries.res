@@ -59,6 +59,11 @@ Scheme
 				"range" "0x021 0xFFFF"
 			}
 		}
+		"loadout"
+		{
+			"font" "fonts/jofreloadout.ttf"
+			"name" "jofreloadout"
+		}		
 		"uber2"
 		{
 			"font" "fonts/OpenSansUber.ttf"

@@ -306,6 +306,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
+				"name" "TF2 Secondary"
 			//	"tall"		"11"
 			//	"weight"	"900"
 				"antialias" "1"
@@ -363,7 +364,16 @@ Scheme
 				"wide"		"300"
 			}
 		}						
-
+		"jofreloadout"
+		{
+			"1"
+			{
+				"name"		"jofreloadout"
+				"tall"		"18"
+				"antialias" 	"1"
+				"wide"		"300"
+			}
+		}	
 
 
 

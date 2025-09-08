@@ -8,23 +8,23 @@
 		{
 			"0"
 			{
-				"present_time"	"3.0"
+				"present_time"	"120.0"
 			}	
 			"1"
 			{
-				"present_time"	"3.0"
+				"present_time"	"120.0"
 			}	
 			"2"
 			{
-				"present_time"	"3.0"
+				"present_time"	"120.0"
 			}	
 			"3"
 			{
-				"present_time"	"3.0"
+				"present_time"	"120.0"
 			}	
 			"4"
 			{
-				"present_time"	"3.0"
+				"present_time"	"120.0"
 			}													
 		}
 	}	
@@ -47,7 +47,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mouse2label"
-			"font"			"noto10"
+			"font"			"G_FontTiny_2"
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -56,7 +56,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"notowhite"		"pin_to_sibling"	"mouse2"
+			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"mouse2"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
@@ -78,7 +78,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"shiftlabel"
-			"font"			"noto10"
+			"font"			"G_FontTiny_2"
 			"labelText"		"Move"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -87,7 +87,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"notowhite"		"pin_to_sibling"	"shift"
+			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"shift"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
@@ -109,7 +109,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"altlabel"
-			"font"			"noto10"
+			"font"			"G_FontTiny_2"
 			"labelText"		"Rotate"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -118,7 +118,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"notowhite"		"pin_to_sibling"	"alt"
+			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"alt"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}	
@@ -140,7 +140,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ctrllabel"
-			"font"			"noto10"
+			"font"			"G_FontTiny_2"
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -149,7 +149,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"notowhite"		"pin_to_sibling"	"ctrl"
+			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"ctrl"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}							
@@ -168,7 +168,7 @@
 		"zpos"			"10"
 		"wide"			"70"
 		"tall"			"70"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/yakuza/cuadro2"	
 		"scaleImage"		"1"	
@@ -184,10 +184,10 @@
 		"xpos"			"-24"
 		"ypos"			"-25"
 		"zpos"			"11"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"G_MainMenuButton"
 		"wide"			"20"
 		"tall"			"20"
-	//	"bgcolor_override"	"notowhite"
+	//	"bgcolor_override"	"G_MainMenuButton"
 		"pin_to_sibling"	"cuadro"
 		"mouseinputenabled"	"0"
 	}	
@@ -196,7 +196,7 @@
 	{
 		ControlName					CExButton
 		fieldName					"TauntLoadoutButton"
-		"xpos"			"-20"
+		"xpos"			"0"
 		"ypos"			"0"
 		zpos	"100"
 		wide							24
@@ -214,27 +214,22 @@
 		Command						"tauntloadout"
 				
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"		
+		"armedFgColor_override" "G_MainMenuButton"
+		"depressedFgColor_override" "G_MainMenuButton"		
 		
 		"paintbackground"	"1"
 		
-		"pin_to_sibling" "loadout_preset_panel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
-
+			"pin_to_sibling"	"CharacterLoadoutButton"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
 			
 	}	
 	"CharacterLoadoutButton"
 	{
 		ControlName					CExButton
 		fieldName					"CharacterLoadoutButton"
-		"xpos"			"-20"
-		"ypos"			"-35"
-		
-		"pin_to_sibling" "loadout_preset_panel"
-		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
-		"pin_to_sibling_corner" "PIN_TOPRIGHT" // Corner of Element you are pinning to
+		"xpos"			"cs-0.5+160"
+		"ypos"			"67"
 
 		wide							24
 		tall							35
@@ -256,8 +251,8 @@
 		sound_released				"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"		
+		"armedFgColor_override" "G_MainMenuButton"
+		"depressedFgColor_override" "G_MainMenuButton"		
 		
 		paintbackground				1
 
@@ -301,7 +296,7 @@
 			"visible"		"0"
 			"bgcolor"		"NotoBlack"
 			"bgcolor_override"		"NotoBlack"
-			"noitem_textcolor"		"NotoWhite"
+			"noitem_textcolor"		"G_MainMenuButton"
 			"PaintBackgroundType"	"0"
 			"PaintBackground"	"0"
 			"paintborder"	"1"
@@ -405,16 +400,29 @@
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}	
-	"loadout_preset_panel"
-	{
-		"ControlName"	"CLoadoutPresetPanel"
-		"FieldName"		"loadout_preset_panel"
-		"zpos"			"20"
-		"wide"			"90"
-		"tall"			"25"
-	}
+"presetpinner"
+{
+    "ControlName"    "Panel"
+    "xpos"            "p-0.1-75"
+    "ypos"            "0"
+    "wide"            "0"
+    "tall"            "0"
+    "proportionaltoparent"    "1"
+}
 
-
+"loadout_preset_panel"
+{
+    "ControlName"            "CLoadoutPresetPanel"
+    "FieldName"                "loadout_preset_panel"
+    "xpos"                    "0"
+    "zpos"                    "20"
+    "wide"                    "30"
+    "tall"                    "135"
+    "visible"                "1"
+    "ignorescheme"            "1"
+    "pin_to_sibling"        "presetpinner"
+    "pin_to_sibling_corner"    "3"
+}
 
 	"ItemOptionsPanel"
 	{

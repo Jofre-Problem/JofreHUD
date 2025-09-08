@@ -21,7 +21,9 @@
 
 // not the culprit
 
-
+#base "scheme/toonhud_borders.res"
+#base "scheme/toonhud_colors.res"
+#base "scheme/toonhud_fonts.res"
 
 #base "scheme/fonts.res"
 #base "scheme/symbols.res"
