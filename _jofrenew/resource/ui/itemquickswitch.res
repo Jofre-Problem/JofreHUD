@@ -4,19 +4,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemQuickSwitchPanel"
-		"xpos"			"c-125"
-		"ypos"			"280"
+		"xpos"			"rs1-6"
+		"ypos"			"5"
 		"wide"			"275"
-		"tall"			"160"
+		"tall"			"f10"
 		zpos		10000
 		//		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		
+		"border" "G_TargetBorder"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"64 64 64 255"
+		"bgcolor_override"	"G_Brown"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
@@ -27,7 +27,7 @@
 					"xpos"			"0"
 					
 					"tall"			"f0"
-					"wide"			"9" // This gets slammed from client schme.  GG.
+					"wide"			"15" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
@@ -55,14 +55,14 @@
 				}		
 		"itemskv"	
 		{
-			"wide"			"220"
+			"wide"			"275"
 			"tall"			"40"
-			"bgcolor_override"		"59 54 48 255"
+			"bgcolor_override"		"G_Brown"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			
-			"model_xpos"	"25"
+			"model_xpos"	"20"
 			"model_ypos"	"3"
 			"model_wide"	"58"		
 			"model_tall"	"34"
@@ -82,7 +82,7 @@
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
-	
+
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -107,11 +107,11 @@
 		"fieldName"		"ClassLabel"
 		"font"			"Size 24 Uber"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"20"
+		"textAlignment"	"east"
+		"xpos"			"250"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"20"
 		"tall"			"20"
 		
 		//		"0"
@@ -148,8 +148,9 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"30 30 30 255"
+		"fillcolor"			"G_PanelBg"
 		PaintBackgroundType	"2"
+		"image"			""
 		roundedcorners	"3"
 	}				
 		
@@ -157,10 +158,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainerscroller"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"30"
-		"wide"			"265"
-		"tall"			"125"
+		"wide"			"275"
+		"tall"			"f0"
 		"PaintBackgroundType"	"3"
 		"fgcolor_override"	"notowhite"
 		"bgcolor_override"	"200 187 161 0"
@@ -172,7 +173,7 @@
 					"xpos"			"rs1"
 					
 					"tall"			"f0"
-					"wide"			"35" // This gets slammed from client schme.  GG.
+					"wide"			"15" // This gets slammed from client schme.  GG.
 					"zpos"			"1000"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
@@ -204,13 +205,45 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"240"
+		"wide"			"260"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
-		
+									"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"15" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"notowhite"
+						"alpha" "100"
+						"bgcolor_override"	"Blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}			
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -253,12 +286,12 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"xpos"			"5"
-		"ypos"			"0"
-		"zpos"			"20"
-		"wide"			"25"
+		"xpos"			"0"
+		"ypos"			"999"
+		"zpos"			"200"
+		"wide"			"0"
 		"tall"			"0"
-		
+		alpha 100
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
