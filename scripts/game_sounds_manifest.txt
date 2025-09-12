@@ -1,7 +1,9 @@
 game_sounds_manifest
 {
-	"precache_file"		"scripts/game_sounds_jofre.txt"	
-	"precache_file"		"scripts/game_sounds.txt"	
+	"precache_file"		"scripts/game_sounds_jofrehud.txt"
+	"precache_file"		"scripts/game_sounds_jofresounds.txt"
+	"precache_file"		"scripts/game_sounds_taunt_workshop_2024.txt"
+	"precache_file"		"scripts/game_sounds.txt"
 	"precache_file"  	"scripts/game_sounds_physics.txt"
 	"precache_file"  	"scripts/game_sounds_weapons.txt"
 	"precache_file"  	"scripts/game_sounds_vo.txt"
