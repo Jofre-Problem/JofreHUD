@@ -58,36 +58,28 @@
 		"SaxxySettings"
 		{"xpos"	"9999"}
 	}
-		"HolidayIndicator"
+	"HolidayConditional"	
+	//thanks Niterux
+	{
+		"ControlName"		"CExImageButton"
+		"visible"		"0"
+		"command"	"soundentry xhud.main_menu"
+
+		"if_halloween"
 		{
-			"ControlName"	"CEximageButton"
-			"xpos"			"rs1"
-			"ypos"			"40"
-			"wide"			"200"
-			"tall"			"44"
-			"textalignment"	"center"
-			font "NotoBold24"
-			zpos 1000
-			"command"		"soundentry TEST.MMusic"
-			"labeltext" "Holiday: NONE"
-			"actionsignallevel" 4
-			paintBackground 1
-			"if_halloween"
-			{
-					"command" "soundentry TEST.MMusicHalloween"
-					"labeltext" "Holiday: Halloween"
-			}	
-			"if_soldier"
-			{
-					"command" "soundentry TEST.MMusicRickMay"
-					"labeltext" "Holiday: Rick May"
-			}					
-			"SubImage"
-			{
-					"fieldName" "MessageRelay"
-					"actionsignallevel" 1
-			}
-		}			
+			"command"	"soundentry xhud.main_menu_halloween"
+		}
+		"if_soldier"
+		{
+			"command"	"soundentry xhud.main_menu_rickmay"
+		}
+		"SubImage"
+		{
+			"fieldName"	"MessageRelay"
+			"visible"	"0"
+			"actionsignallevel"	"1"
+		}
+	}		
 	//Stupid piece of shit mmd
 	"NewMatchAnchor"
 	{
