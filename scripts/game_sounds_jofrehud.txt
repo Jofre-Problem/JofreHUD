@@ -89,7 +89,7 @@
 	"wave" "ui/holiday/gamestartup_soldier.mp3"						
 	}
 }
-"xhud.main_menu"
+"xhud.main_menu"	//this is overwriten by jofresounds / my mod sounds folder / dont change this anyway
 {
 	"channel"	"CHAN_STATIC"
 	"rndwave"

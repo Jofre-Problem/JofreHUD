@@ -31,7 +31,7 @@
     "Texture4"         "vgui/replay/thumbnails/null"
 		"PaintBackgroundType"	"2"
 		"usetitlesafe"			"1"
-		"bgcolor_override"		"44 44 44 222"
+		"bgcolor_override"		"0 0 0 255"
 	}
 
 	ChatInputLine
