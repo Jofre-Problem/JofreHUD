@@ -107,9 +107,16 @@
 		}
 
 		//Enable quick menu reload
-	//	"SteamFriendsList"{}
-	//	"ResolutionSelector"{}
+		"AdContainerTest"
+		{
+			visible 0
+		}
+		"ResolutionSelector"{}
 	}	
+	"BaseGameUIPanel" // hardcoded
+	{
+		xpos 20
+	}		
 	"MMDashboard"
 	{
 	//	"ControlName"		"CHudMainMenuOverride"

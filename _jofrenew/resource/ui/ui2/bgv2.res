@@ -1,5 +1,9 @@
 "_jofrehud/resource/#jofre/1wide.res"
 {
+	"frame_bottomgrip"
+	{
+		"tall"	"0"
+	}		
 	"bgbtn"
 	{
 		"ControlName"			"ImagePanel"
@@ -123,8 +127,7 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"image"			"replay/thumbnails/yakuza/menubg"
-					"scaleImage"		"1"
+					"fillcolor" G_MenuBg
 				}				
 			}
 			"1"

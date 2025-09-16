@@ -30,10 +30,54 @@
 #base "ui2/+motd_main_only.res"
 #base "ui2/motd_fallback.res"
 #base "ui2/+safemode.res"
+#base "ui2/test_mainmenubg.res"
+#base "ui2/test_chara.res"
 //#base "../fallback/mainmenu.res"
 "j"
 {
-
+	"newtopbarbg"
+		{
+			ControlName editablepanel
+			fieldName newtopbarbg
+			bgcolor_override G_Brown
+			tall 15
+			wide f0
+			zpos -999
+			visible 1
+		}
+		"newbottombarbg"
+		{
+			ControlName editablepanel
+			fieldName newbottombarbg
+			bgcolor_override G_Brown
+			tall 15
+			wide f0
+			ypos rs1
+			zpos -999
+			visible 1
+		}	
+		"newizquierdabarbg"
+		{
+			ControlName editablepanel
+			fieldName newizquierdabarbg
+			bgcolor_override G_Brown
+			tall f0
+			wide 15
+			ypos 0
+			zpos -999
+			visible 1
+		}	
+		"newderechabarbg"
+		{
+			ControlName editablepanel
+			fieldName newderechabarbg
+			bgcolor_override G_Brown
+			tall f0
+			wide 15
+			xpos rs1
+			zpos -999
+			visible 1
+		}		
 
 		//////////////////////
 	//	 ↑UNTOUCHED↑	//
@@ -45,7 +89,8 @@
 		"visible"		"1"
 		"wide"		"f0"
 		"tall"		"480"
-
+		xpos 0
+		ypos 0
 		"DashboardDimmer"
 		{
 			"ControlName"		"CDimmerButton"
@@ -54,7 +99,6 @@
 			"defaultBgColor_override"	"0 0 0 0"
 			"armedBgColor_override"		"0 0 0 0"
 		}
-
 		"SaxxySettings"
 		{"xpos"	"9999"}
 	}
@@ -79,7 +123,8 @@
 			"visible"	"0"
 			"actionsignallevel"	"1"
 		}
-	}		
+	}	
+	
 	//Stupid piece of shit mmd
 	"NewMatchAnchor"
 	{
@@ -151,12 +196,83 @@
 	"ADContainerTest"
 	{
 		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "ADContainerTest"
 		"xpos"			"00"
 		"ypos"			"00"
 		"wide"			"p1.01"
-		"tall"			"481"
-		"visible"		"1"
+		"tall"			"440"
+		"visible"		"0"
+		"AdsContainer"
+		{
+			tall f0
+			wide f0
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"2"
+				"wide"		"20"
+				"tall"		"20"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"east"
 
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"yellow"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"0"
+				"ypos"		"r60"
+				"zpos"		"2"
+				"wide"		"20"
+				"tall"		"20"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"east"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"yellow"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+		}
 
 		"items"
 		{
@@ -1344,7 +1460,7 @@
 		{
 			"ControlName"		"CMatchHistoryEntryPanel"
 			"fieldName"		"TestPanel"
-			"wide"		"12"
+			"wide"		"13"
 			"tall"		"184"	//same as collapsed_height?
 			"visible"	"1"
 			"ypos" "cs-0.5"
@@ -1402,13 +1518,8 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"RandomPinnerThatWorks"
 
-
-
-
 				"xpos"		"15"
 				ypos 0
-
-
 
 				"wide"		"90"
 				"tall"		"24"
@@ -1428,82 +1539,52 @@
 				paintBackground "1"	
 				bgcolor_override "0 0 0 150"
 				"pin_to_sibling"		"RandomPinnerThatWorks"
-				"FriendsContainer"
+
+				"Main1"			// other classes pinned to this
 				{
-					"ControlName"								"EditablePanel"
-					"fieldname"									"FriendsContainer"
-					"xpos"										"0"
-					"ypos"										"0"
-					"zpos"										"51"
-					"wide"										"178"
-					"tall"										"184"
-							"visible"		"1" [$WINDOWS]
-		"visible"		"0" 	[$LINUX]
-					"proportionaltoparent"						"1"
-					"paintbackground"							"1"
-					"bgcolor_override"							"TransparentBlack"
+					ControlName				CExButton
+					fieldName				"Main1"
+					"xpos"							"0"
+					"YPOS" "0"
+					"wide"							"182"
+					"tall"							"40"
+					zpos	"300"
+					font					"G_FontSmall"
+					textAlignment			center
+					"actionsignallevel"		"3"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
 
-					"SteamFriendsList"
-					{
-						"ControlName"							"CSteamFriendsListPanel"
-						"fieldname"								"SteamFriendsList"
-						"xpos"									"0"
-						"ypos"									"5"
-						"zpos"									"500"
-						"wide"									"f0"
-						"tall"									"f10"
-						"visible"								"1"
-						"proportionaltoparent"					"1"
+			
+					labelText				"Enable Dev Menu"
+					Command				"engine testhudanim showdevmenu"
 
-						"columns_count"							"1"
-						"inset_x"								"0"
-						"inset_y"								"0"
-						"row_gap"								"0"
-						"column_gap"							"0"
-						"restrict_width"						"0"
-
-						"friendpanel_kv"
-						{
-							"wide"								"200"
-							"tall"								"20"
-						}
-
-						"ScrollBar"
-						{
-							"ControlName"						"ScrollBar"
-							"FieldName"							"ScrollBar"
-							"xpos"								"rs1"
-							"ypos"								"0"
-							"tall"								"f0"
-							"wide"								"5"
-							"zpos"								"1000"
-							"nobuttons"							"1"
-							"proportionaltoparent"				"1"
-
-							"Slider"
-							{
-								"fgcolor_override"				"PrimaryT4"
-							}
-								"UpButton"
-							{
-								"ControlName"	"Button"
-								"FieldName"		"UpButton"
-								"visible"		"0"
-								"tall"			"0"
-								"wide"			"0"
-							}
-							
-							"DownButton"
-							{
-								"ControlName"	"Button"
-								"FieldName"		"DownButton"
-								"visible"		"0"
-								"tall"			"0"
-								"wide"			"0"
-							}			
-						}
-					}
 				}
+				"Main2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"Main2"
+					"xpos"							"0"
+					"YPOS" "40"
+					"wide"							"182"
+					"tall"							"40"
+					zpos	"300"
+					font					"G_FontSmall"
+					textAlignment			center
+					"actionsignallevel"		"3"
+					paintbackground 			1
+					"defaultbgcolor_override" "notodark"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"Hide Dev Menu"
+					Command				"engine testhudanim hidedevmenu"
+
+				}	
+				
 			} // RandomImagePanel2 end
 		}	
 	

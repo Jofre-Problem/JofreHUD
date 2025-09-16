@@ -1,19 +1,9 @@
 "chapters"
 {
-	1	"background_2fort"
-	2	"background_gravelpit"
-	3	"background_mvm"
-	4	"background_upward"
-	5	"title_war"
-	6	"title_red"
+            1       "background_upward"
 }
 
 "BackgroundMaps"
 {
-	1	"background_2fort"
-	2	"background_gravelpit"
-	3	"background_mvm"
-	4	"background_upward"
-	5	"title_war"
-	6	"title_red"
+            1       "background_upward"
 }

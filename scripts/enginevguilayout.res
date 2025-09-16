@@ -41,4 +41,9 @@
 		"xpos"	"0"
 		"ypos"	"400"
 	}
+	"BaseGameUIPanel"
+	{
+	"fieldName" "BaseGameUIPanel"
+		xpos 20
+	}
 }

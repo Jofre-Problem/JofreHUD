@@ -21,7 +21,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"76"
-		"tall"			"24"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"

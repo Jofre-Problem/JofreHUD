@@ -3,7 +3,270 @@
 
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
-		
+			"Wall_Backpack_etc"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Wall_Backpack_etc"
+			"xpos"			"0"
+			"ypos"			"235+40"
+			"zpos"			"-5"		
+			"wide"			"f0"
+			"tall"			"95"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_MenuShader"
+		}
+		"Wall_Classes"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Wall_Classes"
+			"xpos"			"0"
+			"ypos"			"90"
+			"zpos"			"-5"		
+			"wide"			"f0"
+			"tall"			"95"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_MenuShader"
+		}
+	"ShowBackpackButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowBackpackButton"
+		"xpos"				"c-290"
+		"ypos"				"285"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"60"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"backpack"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"..\hud\backpack_01"
+		"inactiveimage"		"..\hud\backpack_01_grey"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
+	"ShowBackpackLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowBackpackLabel"
+		"font"			"G_FontSmall"
+		"labelText"		"#BackpackTitle"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"				"1"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"G_MenuText"
+		"pin_to_sibling"               "ShowBackpackButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6"  
+	}
+	"ShowCraftingButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowCraftingButton"
+		"xpos"				"c-160"
+		"ypos"				"285"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"60"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"crafting"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"crafting_anvil"
+		"inactiveimage"		"crafting_anvil_gray"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"ShowCraftingLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowCraftingLabel"
+		"font"			"G_FontSmall"
+		"labelText"		"#CraftingExplanation_Title"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"				"1"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor" 		"G_MenuText"
+		"pin_to_sibling"               "ShowCraftingButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6"  
+	}	
+	"ShowArmoryButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowArmoryButton"
+		"xpos"				"c-30"
+		"ypos"				"285"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"60"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"armory"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"catalog_book"
+		"inactiveimage"		"catalog_book_gray"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
+	"ShowArmoryLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowArmoryLabel"
+		"font"			"G_FontSmall"
+		"labelText"		"#Armory"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"				"1"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor" 		"G_MenuText"
+		"pin_to_sibling"               "ShowArmoryButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
+	}
+	"ShowTradeButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowTradeButton"
+		"xpos"				"c100"
+		"ypos"				"285"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"60"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"trading"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"trading_parcel"
+		"inactiveimage"		"trading_parcel_gray"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
+	"ShowTradeLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowTradeLabel"
+		"font"			"G_FontSmall"
+		"labelText"		"#TradingExplanation_Title"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"				"1"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"fgcolor" 		"G_MenuText"
+		"pin_to_sibling"               "ShowTradeButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
+	}
+	"ShowPaintkitsButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowPaintkitsButton"
+		"xpos"				"c230"
+		"ypos"				"285"
+		"zpos"				"1"
+		"wide"				"60"
+		"tall"				"60"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"paintkit_preview"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"paintkit_tool"
+		"inactiveimage"		"paintkit_tool_bw"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}		
+	"ShowPaintkitsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowPaintkitsLabel"
+		"font"			"G_FontSmall"
+		"labelText"		"#PaintkitTitle"
+		"textAlignment"	"north"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"				"1"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"fgcolor" 		"G_MenuText"
+		"pin_to_sibling"               "ShowPaintkitsButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
+	}					
 			"q"
 	{
 		"ControlName"	"ImagePanel"
@@ -729,152 +992,6 @@
 			"image"			"replay/thumbnails/spy_red_selected"
 		}
 	}		
-	// #region CLASS BUTTONS 
-	// #endregion
-
-	// #endregion
-
-	// #region CHARINFO BUTTONS 
-		
-	"BackpackButton"
-	{
-		ControlName				CExButton
-		fieldName				"BackpackButton"
-		"xpos"							"5"
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"120"
-		
-		font					"NewIcons57"
-		labelText				"="
-		textAlignment			center
-
-		Command				"backpack"
-		
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-		paintbackground			1
-		"border_default"			"notograyborder"
-		"border_armed"					"L4d2new2"			
-		
-			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"NotoGRAY"
-		pin_to_sibling 			"CraftingButton"
-		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
-	}
-	
-	"CraftingButton"
-	{
-		ControlName				CExButton
-		fieldName				"CraftingButton"
-		"xpos"							5
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"120"
-		paintbackground			1
-		"border_default"			"notograyborder"
-		"border_armed"					"L4d2new2"		
-		font					"NewIcons57"
-		labelText				"À"
-		textAlignment			center
-
-		Command				"crafting"
-		
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-				
-			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"NotoGRAY"
-
-	
-		
-		pin_to_sibling 			"ArmoryButton"
-		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"					"PIN_TOPLEFT"
-	}
-	
-	"ArmoryButton"
-	{
-		ControlName				CExButton
-		fieldName				"ArmoryButton"
-		"xpos"							"c-30"
-		"ypos"							"250"
-		"wide"							"60"
-		"tall"							"120"
-		paintbackground			1
-		"border_default"			"notograyborder"
-		"border_armed"					"L4d2new2"		
-		font					"NewIcons57"
-		labelText				"Á"
-		textAlignment			center
-		
-		Command				"armory"
-		
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-				
-			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"NotoGRAY"
-
-	
-
-	}
-	"TradeButton"
-	{
-		ControlName				CExButton
-		fieldName				"TradeButton"
-		"xpos"							"5"
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"120"
-		paintbackground			1
-		"border_default"			"notograyborder"
-		"border_armed"					"L4d2new2"					
-		font					"NewIcons57"
-		labelText				"Ã"
-		textAlignment			center
-
-		Command				"trading"
-
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-				
-			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"NotoGRAY"
-		"pin_to_sibling" 				"ArmoryButton"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-	
-	}	
-	"PaintsButton"
-	{
-		ControlName				CExButton
-		fieldName				"PaintsButton"
-		"xpos"							"5"
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"120"
-
-		font					"NewIcons57"
-		labelText				"Â"
-		textAlignment			center
-
-		Command				"paintkit_preview"
-
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
-				
-			defaultFgColor_override		"notowhite"
-		armedFgColor_override		"NotoGRAY"
-
-		paintbackground			1
-		"border_default"			"notograyborder"
-		"border_armed"					"L4d2new2"	
-		pin_to_sibling 			"TradeButton"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-	}
 	
 
 
@@ -890,7 +1007,7 @@
 		ypos					0
 		zpos					5
 		wide					f0
-		tall					f0		//  411 parent's height
+		tall					480		//  411 parent's height
 		//proportionaltoparent	1	// requires reload on launch
 		visible				0
 

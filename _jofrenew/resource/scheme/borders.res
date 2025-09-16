@@ -88,6 +88,7 @@ Scheme
 		SectionedListPanel "Cs1"
 		CustomCyanBorderThick 
 		{
+			"proportional_scalar"    "0.5"
 			"inset" "0 0 0 0"
 			Left
 			{

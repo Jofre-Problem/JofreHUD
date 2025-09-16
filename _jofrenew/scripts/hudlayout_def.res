@@ -352,7 +352,9 @@
 	}
 
 	HudMessage
-	{
+	{	
+		zpos 9999
+		ypos 5
 		"wide"	 "f0"
 		"tall"	 "480"
 	}

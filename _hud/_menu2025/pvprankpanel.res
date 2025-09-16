@@ -55,8 +55,7 @@
 			ypos rs1-3 [$LINUX] 
 			"wide"		"f0"
 			"zpos"		"100"
-			"tall"		"15"[$WINDOWS] 
-			"tall"		"20" [$LINUX] 
+			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"		"NotoBold16"
@@ -67,12 +66,9 @@
 
 			"fonts"
 			{
-				"0"		"NotoBold16" [$WINDOWS] 
-				"1"		"NotoBold16" [$WINDOWS] 
-				"2"		"NotoBold16" [$WINDOWS] 
-				"0"		"NotoBold24" [$LINUX] 
-				"1"		"NotoBold24" [$LINUX] 
-				"2"		"NotoBold24" [$LINUX] 				
+				"0"		"NotoBold16" 
+				"1"		"NotoBold16"
+				"2"		"NotoBold16" 				
 			}
 
 			"colors"
@@ -99,8 +95,7 @@
 				"xpos"		"cs-0.5"
 				"ypos"		"rs1"
 				"wide"		"f0"
-				"tall"		"15"  [$WINDOWS] 
-                "tall" "24" [$LINUX]
+				"tall"		"15" 
 				"proportionaltoparent"		"1"
 
 				"CurrentXPLabel"
@@ -114,8 +109,7 @@
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"	 [$WINDOWS] 
-                "font" "NotoBold24" [$LINUX]
+					"font"		"NotoBold16"
 					"fgcolor_override"		"White"
 					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
@@ -135,8 +129,7 @@
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"	 [$WINDOWS] 
-                "font" "NotoBold24" [$LINUX]
+					"font"		"NotoBold16"
 					"fgcolor_override"		"White"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"

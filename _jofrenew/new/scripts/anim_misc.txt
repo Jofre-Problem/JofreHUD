@@ -1,3 +1,21 @@
+event ShowDevMenu
+{
+	RunEventChild MainMenuOverride ShowDevMenuChild 0.0
+}
+event ShowDevMenuChild
+{
+ SetVisible ADContainerTest 1 0
+}
+
+event HideDevMenu
+{
+	RunEventChild MainMenuOverride HideDevMenuChild 0.0
+}
+event HideDevMenuChild
+{
+	 SetVisible ADContainerTest 0 0
+}
+
 event UberTimerRun
 {
 	Animate UberTimerBG	tall	2	Linear 0.0 0.001

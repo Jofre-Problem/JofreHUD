@@ -19,7 +19,7 @@
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/hour10"
 		"scaleimage"			"1"
-		"zpos"					"6000" "alpha"	"0"
+		"zpos"					"6000" "alpha"	"0" "mouseinputenabled" "0"
 	}
 	"Time_hour01"
 	{
@@ -36,7 +36,7 @@
 		"zpos"					"6000"
 		"pin_to_sibling"		"Time_hour10"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT" "alpha"	"0"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT" "alpha"	"0" "mouseinputenabled" "0"
 	}
 	"Separator2"
 	{
@@ -45,7 +45,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"10"
-		"tall"					"o2"
+		"tall"					"o2" "mouseinputenabled" "0"
 	"drawcolor"				"notowhite"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/Separator"
@@ -66,7 +66,7 @@
 		"ypos"					"0"
 		"wide"					"20"
 		"tall"					"o1"
-	"drawcolor"				"notowhite"
+	"drawcolor"				"notowhite" "mouseinputenabled" "0"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/min10"
 		"scaleimage"			"1"
@@ -83,7 +83,7 @@
 		"ypos"					"0"
 		"wide"					"20"
 		"tall"					"o1"
-	"drawcolor"				"notowhite"
+	"drawcolor"				"notowhite" "mouseinputenabled" "0"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/min01"
 		"scaleimage"			"1"
@@ -100,7 +100,7 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 		"ypos"					"0"
 		"wide"					"10"
-		"tall"					"o2"
+		"tall"					"o2" "mouseinputenabled" "0"
 	"drawcolor"				"notowhite"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/Separator"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_sec10"
-		"xpos"					"0"
+		"xpos"					"0" "mouseinputenabled" "0"
 		"pin_to_sibling"		"Time_Separator1"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
@@ -126,7 +126,7 @@
 	}
 	"Time_sec01"
 	{
-		"ControlName"			"ImagePanel"
+		"ControlName"			"ImagePanel" "mouseinputenabled" "0"
 		"fieldName"				"Time_sec01"
 		"xpos"					"0"			
 		"pin_to_sibling"		"Time_sec10"
@@ -135,7 +135,7 @@
 		"ypos"					"0"
 		"wide"					"20"
 		"tall"					"o1"
-	"drawcolor"				"notowhite"
+	"drawcolor"				"notowhite" "mouseinputenabled" "0"
 		"enabled"				"1"
 		"image"					"replay/thumbnails/timer_hour_v2/sec01"
 		"scaleimage"			"1"

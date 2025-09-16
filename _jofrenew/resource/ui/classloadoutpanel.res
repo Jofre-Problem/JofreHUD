@@ -158,7 +158,25 @@
 	{
 //	"tall"	"0"
 	}	
+	"PassiveAttribsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PassiveAttribsLabel"
+		"font"			"DefaultVerySmall"
+		"xpos"			"c-135"
+		"ypos"			"332"
+		"zpos"			"0"	
+		"wide"			"270"
+		"tall"			"56" 
 
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"	"center" [$WINDOWS]
+		"textAlignment"	"north" [!$WINDOWS]
+		"fgcolor"		"255 215 0 255"
+		"centerwrap"	"1"
+	}
 	"cuadro"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -178,19 +196,38 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Size 24 Uber"
+		"font"			"Size 18 Uber"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
-		"xpos"			"-24"
-		"ypos"			"-25"
-		"zpos"			"11"
+		"xpos"			"0"
+		"ypos"			"14"
+		"zpos"			"5000"
 		"fgcolor_override"	"G_MainMenuButton"
-		"wide"			"20"
+		"bgcolor_override" "G_ButtonSelectedBg"
+		"wide"			"40"
 		"tall"			"20"
 	//	"bgcolor_override"	"G_MainMenuButton"
-		"pin_to_sibling"	"cuadro"
 		"mouseinputenabled"	"0"
 	}	
+	"polybar0slashmm2"	
+	{		
+		"ControlName"		"CExLabel"
+			"fieldName"		"polybar0slashmm2"
+			"font"			"NewIcons57"
+			"labelText"		"È"
+			"textAlignment"		"west"
+			"xpos" 			"40"					//"c-60"//			"180"
+			"ypos"			"14"
+			"mouseinputenabled" 0
+		//	"wide"			"10"
+			"tall"			"20"
+		"fgcolor_override" "G_ButtonSelectedBg"
+
+		"wide"	"40"
+		"textinsetx"	"-2"
+		"zpos"	"2001"	
+	}		
+
 
 	"TauntLoadoutButton"
 	{
