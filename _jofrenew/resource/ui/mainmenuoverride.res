@@ -53,11 +53,11 @@
 			ControlName editablepanel
 			fieldName dumbnewtopbarbg
 			bgcolor_override blank
-			tall 16
+			tall 15
 			wide f0
 			ypos 0
 			mouseinputenabled 0
-			zpos 998
+			zpos 1111
 			visible 1
 			border G_TargetBorder2
 		}	

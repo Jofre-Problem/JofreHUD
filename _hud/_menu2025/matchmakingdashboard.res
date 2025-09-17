@@ -823,7 +823,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
-			"xpos"			"0"
+			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"20"
@@ -846,7 +846,7 @@
 			"textinsety"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
-
+			paintBackground 0
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
@@ -862,5 +862,48 @@
 				"tall"			"0"
 			}
 		}
+
+		"FindAGameButton2"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FindAGameButton2"
+			"xpos"			"c100"
+			"ypos"			"0"
+			"zpos"			"99"
+			"wide"			"20"
+			"tall"			"16"
+			//"autoResize"	"0"
+			"visible"		"1"
+			//"enabled"		"1"
+			font					"NewIcons12"
+			textAlignment			west
+			labeltext				"Z"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"ShowCompAccess"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"1"
+			"textinsety"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets"	"1"
+			paintBackground 1
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+
+			"armedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Black"
+			"defaultFgColor_override" "black"
+			"depressedbgcolor_override" "blank"
+			"depressedfgcolor_override" "green"
+			"fgcolor"			"black"
+			
+			"SubImage"
+			{
+				"tall"			"0"
+			}
+		}		
 	}
 }
