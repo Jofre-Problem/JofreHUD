@@ -12,7 +12,19 @@
 		"visible"		"1"
 
 		"NextButton"	{"wide"		"1"		}
-
+		"FadeTransition"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+		}
+		
+		"Frame"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+		}	
 		"AdsContainer"
 		{
 			tall f0
