@@ -8,7 +8,7 @@
 		"ypos"			"15"
 		"zpos" "-10"
 		"wide"			"p0.9651"
-		"tall"			"450"
+		"tall"			"465"
 		"visible"		"1"
 
 		"NextButton"	{"wide"		"1"		}
@@ -21,18 +21,18 @@
 			{
 				"ControlName"	"Button"
 				"fieldName"		"NextButton"
-				"xpos"		"2+22"
-				"ypos"		"r52"
+				"xpos"		"2+92"
+				"ypos"		"r28"
 				"zpos"		"2"
-				"wide"		"20"
-				"tall"		"20"   
+				"wide"		"14"
+				"tall"		"o1"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontMedium"
-				"textAlignment"	"east"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
 
 				"proportionaltoparent"	"1"
 				"paintbackground"	"1"
@@ -54,18 +54,18 @@
 			{
 				"ControlName"	"Button"
 				"fieldName"		"PrevButton"
-				"xpos"		"22"
+				"xpos"		"17"
 				"ypos"		"0"
 				"zpos"		"2"
-				"wide"		"20"
-				"tall"		"20"   
+				"wide"		"14"
+				"tall"		"o1"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontMedium"
-				"textAlignment"	"east"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
 				pin_to_sibling "NextButton"
 				"proportionaltoparent"	"1"
 				"paintbackground"	"1"
@@ -123,7 +123,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
-					"tall"			"f0"
+					"tall"			"450"
 					"visible"		"1"
 					zpos 10
 					"image"			"../console/background_2fort_widescreen"
@@ -143,7 +143,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
-					"tall"			"f0"
+					"tall"			"450"
 					"visible"		"1"
 					zpos 10
 					"image"			"../console/background_upward_widescreen"
@@ -197,7 +197,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
-					"tall"			"f0"
+					"tall"			"450"
 					"visible"		"1"
 					zpos 10
 					"image"			"../console/background_gravelpit_widescreen"
@@ -241,7 +241,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
-					"tall"			"f0"
+					"tall"			"450"
 					"visible"		"1"
 					zpos 10
 					"image"			"../console/background_mvm_widescreen"
@@ -261,17 +261,20 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
-					"tall"			"f0"
+					"tall"			"450"
 					"visible"		"1"
 					zpos 10
-					"image"			"../console/background_mercenarypark_widescreen"
+					"image"			"../console/background_summer2023_widescreen"
 				}	
 
 				"Background"		{"wide"	"0"	}
 
 				"ItemIcon"	{"wide"	"0"	}
 
-				"ItemName"	{"wide"	"0"	}
+					"ItemName"
+				{
+					"xpos"		"r0"
+				}
 
 				"BuyButton"	{"wide"	"0"	}
 

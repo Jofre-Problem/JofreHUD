@@ -51,30 +51,29 @@
 			"ControlName"		"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
 			"xpos"		"-3-p0.001"
-			"ypos"		"rs1" [$WINDOWS] 
-			ypos rs1-3 [$LINUX] 
+			"ypos"		"rs1"
 			"wide"		"f0"
 			"zpos"		"100"
-			"tall"		"15"
+			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"		"NotoBold16"
-			"fgcolor_override"		"White"
+			"font"		"G_fontsmall"
+			"fgcolor_override"		"235 226 202 255"
 			"textAlignment"		"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"		"1"
 
 			"fonts"
 			{
-				"0"		"NotoBold16" 
-				"1"		"NotoBold16"
-				"2"		"NotoBold16" 				
+				"0"		"G_fontsmall" 
+				"1"		"G_fontsmall"
+				"2"		"G_fontsmall" 				
 			}
 
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"White"
+				"2"		"235 226 202 255"
 			}
 		}
 
@@ -95,7 +94,7 @@
 				"xpos"		"cs-0.5"
 				"ypos"		"rs1"
 				"wide"		"f0"
-				"tall"		"15" 
+				"tall"		"14" 
 				"proportionaltoparent"		"1"
 
 				"CurrentXPLabel"
@@ -103,14 +102,14 @@
 					"ControlName"		"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"		"1"
-					"ypos"		"rs1"
+					"ypos"		"rs1+1"
 					"zpos"		"1"
 					"wide"		"100"
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"
-					"fgcolor_override"		"White"
+					"font"		"G_fontsmall"
+					"fgcolor_override"		"235 226 202 255"
 					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"		"1"
@@ -129,8 +128,8 @@
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"NotoBold16"
-					"fgcolor_override"		"White"
+					"font"		"G_fontsmall"
+					"fgcolor_override"		"235 226 202 255"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"
 					//"auto_wide_tocontents" "1"
@@ -174,7 +173,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"		"PrimaryT3"
+						"fgcolor_override"		"TFOrange"
 						"bgcolor_override"		"16 16 16 100"
 
 						if_mini

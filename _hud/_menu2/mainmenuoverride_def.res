@@ -42,7 +42,7 @@ MainMenuOverride
 
 "textinsetx""25"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -286,7 +286,7 @@ if_christmas
 "textinsetx""25"
 "labelText" ""
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "command""open_rank_type_menu"
 //"textAlignment""west"
 ////"dulltext""0"
@@ -376,7 +376,7 @@ if_christmas
 "textinsetx""40"
 "textinsety""10"
 
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 "fgcolor_override""TanLight"
 "labelText""#TF_MM_NoGC_Rank"
 "textAlignment""north-west"
@@ -431,7 +431,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""TipSubLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""%tipsubtext%"
 "textAlignment""center"
 "xpos""20"
@@ -451,7 +451,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""TipLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""%tiptext%"
 "textAlignment""center"
 "xpos""20"
@@ -508,7 +508,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""Notifications_CountLabel"
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 "labelText""%noticount%"
 "textAlignment""center"
 "xpos""16"
@@ -538,7 +538,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -605,7 +605,7 @@ if_christmas
 "textinsetx""25"
 "labelText" ""
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "command""watch_stream"
 //"textAlignment""west"
 ////"dulltext""0"
@@ -678,7 +678,7 @@ if_christmas
 "textinsetx""25"
 "labelText" ""
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "command""questlog"
 //"textAlignment""west"
 ////"dulltext""0"
@@ -752,7 +752,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -821,7 +821,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -862,7 +862,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""Notifications_TitleLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""%notititle%"
 "textAlignment""north-west"
 "xpos""12"
@@ -946,7 +946,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""TitleLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""#TF_Competitive_Friends"
 //"textAlignment""west"
 "xpos""12"
@@ -1087,7 +1087,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""TitleLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""#MMenu_Update"
 //"textAlignment""west"
 "xpos""12"
@@ -1147,7 +1147,7 @@ if_christmas
 //
 //
 //"use_proportional_insets" "1"
-//"font""HudFontSmall"
+//"font""G_fontsmall"
 //"textAlignment""center"
 //////"dulltext""0"
 ////"brighttext""0"
@@ -1217,7 +1217,7 @@ if_christmas
 //
 //
 //"use_proportional_insets" "1"
-//"font""HudFontSmall"
+//"font""G_fontsmall"
 //"textAlignment""center"
 //////"dulltext""0"
 ////"brighttext""0"
@@ -1400,7 +1400,7 @@ if_christmas
 {
 "ControlName""CExLabel"
 "fieldName""TitleLabel"
-"font""HudFontSmall"
+"font""G_fontsmall"
 "labelText""#MMenu_SafeMode_Title"
 //"textAlignment""west"
 
@@ -1430,7 +1430,7 @@ if_christmas
 
 
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1467,7 +1467,7 @@ if_christmas
 
 
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1505,7 +1505,7 @@ if_christmas
 "wrap""1"
 "labelText""#MMenu_SafeMode_Explanation"
 "proportionaltoparent""1"
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 }
 
 } // Background
@@ -1544,7 +1544,7 @@ if_christmas
 //"visible""1"
 
 
-"font""HudFontSmallest"
+"font""G_fontsmallest"
 "labelText""#MMenu_ShowPromoCodes"
 "textAlignment""center"
 ////"dulltext""0"
@@ -1596,7 +1596,7 @@ if_christmas
 
 "textinsetx""100"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1665,7 +1665,7 @@ if_christmas
 
 "textinsetx""100"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1732,7 +1732,7 @@ if_christmas
 
 "textinsetx""100"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1800,7 +1800,7 @@ if_christmas
 
 "textinsetx""100"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1837,20 +1837,7 @@ if_christmas
 }
 }
 
-"BackgroundFooter"
-{
-"ControlName""ImagePanel"
-"fieldName""BackgroundFooter"
-
-"ypos""420"
-"zpos""-50"
-"wide""f0"
-"tall""60"
-//"visible""1"
-
-"image""loadout_bottom_gradient"
-"tileImage""1"
-}
+ 
 "FooterLine"
 {
 "ControlName""ImagePanel"
@@ -1881,7 +1868,7 @@ if_christmas
 
 "textinsetx""25"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1942,7 +1929,7 @@ if_christmas
 
 "textinsetx""25"
 "use_proportional_insets" "1"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 ////"dulltext""0"
 //"brighttext""0"
@@ -1988,7 +1975,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 "textinsetx""25"
 "use_proportional_insets" "1"
@@ -2084,7 +2071,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2132,7 +2119,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2179,7 +2166,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2226,7 +2213,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2273,7 +2260,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2320,7 +2307,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2367,7 +2354,7 @@ if_christmas
 
 
 "labelText" ""
-"font""HudFontSmall"
+"font""G_fontsmall"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -2414,7 +2401,7 @@ if_christmas
 
 
 "labelText""#GameUI_GameMenu_ExitReplay"
-"font""HudFontSmall"
+"font""G_fontsmall"
 //"textAlignment""west"
 "textinsetx""35"
 "use_proportional_insets" "1"

@@ -582,7 +582,7 @@
 		"fieldName"		"Notifications_Panel"
 		xPos					rs1-5
 		yPos					35
-		"zpos"		"10"
+		"zpos"		"999"
 		"wide"		"210"
 		"tall"		"80"
 		"visible"		"0"

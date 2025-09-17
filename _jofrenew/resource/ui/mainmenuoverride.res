@@ -32,6 +32,7 @@
 #base "ui2/+safemode.res"
 #base "ui2/test_mainmenubg.res"
 #base "ui2/test_chara.res"
+#base "ui2/test_ui.res"
 //#base "../fallback/mainmenu.res"
 "j"
 {
@@ -42,9 +43,24 @@
 			bgcolor_override G_Brown
 			tall 15
 			wide f0
+			ypos 0
 			zpos -999
 			visible 1
+			border G_targetborder
 		}
+		"dumbnewtopbarbg"
+		{
+			ControlName editablepanel
+			fieldName dumbnewtopbarbg
+			bgcolor_override blank
+			tall 16
+			wide f0
+			ypos 0
+			mouseinputenabled 0
+			zpos 998
+			visible 1
+			border G_TargetBorder2
+		}	
 		"newbottombarbg"
 		{
 			ControlName editablepanel
@@ -54,7 +70,8 @@
 			wide f0
 			ypos rs1
 			zpos -999
-			visible 1
+			visible 1 
+			border G_targetborder
 		}	
 		"newizquierdabarbg"
 		{
@@ -66,6 +83,7 @@
 			ypos 0
 			zpos -999
 			visible 1
+			border G_targetborder
 		}	
 		"newderechabarbg"
 		{
@@ -77,6 +95,7 @@
 			xpos rs1
 			zpos -999
 			visible 1
+			border G_targetborder
 		}		
 
 		//////////////////////
@@ -199,8 +218,9 @@
 		fieldName "ADContainerTest"
 		"xpos"			"00"
 		"ypos"			"00"
+		zpos "100"
 		"wide"			"p1.01"
-		"tall"			"440"
+		"tall"			"480"
 		"visible"		"0"
 		"AdsContainer"
 		{
@@ -210,10 +230,10 @@
 			{
 				"ControlName"	"Button"
 				"fieldName"		"NextButton"
-				"xpos"		"0"
-				"ypos"		"0"
+				"xpos"		"0+p0.5"
+				"ypos"		"r35"
 				"zpos"		"2"
-				"wide"		"20"
+				"wide"		"p0.5"
 				"tall"		"20"   
 				"visible"		"1"
 				"enabled"		"1"
@@ -228,7 +248,7 @@
 				"command"	"next"
 				"actionsignallevel" "2"
 
-				"defaultBgColor_override"	"yellow"
+				"defaultBgColor_override"	"black"
 				"armedBgColor_override"		"0 0 0 180"
 
 
@@ -244,24 +264,24 @@
 				"ControlName"	"Button"
 				"fieldName"		"PrevButton"
 				"xpos"		"0"
-				"ypos"		"r60"
+				"ypos"		"r35"
 				"zpos"		"2"
-				"wide"		"20"
+				"wide"		"p0.5"
 				"tall"		"20"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 220"
-				"fgcolor"		"White"
+				"fgcolor"		"notodark"
 				"font"			"G_FontSmall"
-				"textAlignment"	"east"
+				"textAlignment"	"west"
 
 				"proportionaltoparent"	"1"
 				"paintbackground"	"1"
 				"command"	"prev"
 				"actionsignallevel" "2"
 
-				"defaultBgColor_override"	"yellow"
+				"defaultBgColor_override"	"black"
 				"armedBgColor_override"		"0 0 0 180"
 
 
@@ -1132,13 +1152,14 @@
 			"resize_time"		"0.05"
 			"zpos" "1000"
 			"ignorescheme"	"1"
+			
 		//expand_direction "left"
 			"toggle"
 			{
 				"ControlName"	"Button"
 				"xpos"		"0"
 				"wide"		"f0"
-				"tall"		"10"
+				"tall"		"14"
 				"visible"	"1"
 				"labelText"	"v"
 				"font"		"Newicons20"
@@ -1149,11 +1170,12 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"paintbackground"	"2"
-				"defaultFgColor_override"	"White"
-				"defaultbgcolor_override" "0 0 0 150"
-				"armedFgColor_override"		"Primary"
+				"border" "g_targetborder"
+				"paintbackground"	"1"
+			"defaultbgcolor_override" "117 107 94 255"
+				"defaultfgcolor_override" "235 226 202 255"
+				"armedbgcolor_override" "145 73 59 255"
+				"armedfgcolor_override" "235 226 202 255"
 			}
 			"RandomPinnerThatWorks" //leftover
 			{
@@ -1460,15 +1482,16 @@
 		{
 			"ControlName"		"CMatchHistoryEntryPanel"
 			"fieldName"		"TestPanel"
-			"wide"		"13"
+			"wide"		"14"
 			"tall"		"184"	//same as collapsed_height?
 			"visible"	"1"
 			"ypos" "cs-0.5"
 			"xpos" "0"
-			"collapsed_height"	"12"	// actual area show by default
+			"collapsed_height"	"14"	// actual area show by default
 			"expanded_height"	"219"
 			"resize_time"		"0.05"
 			"zpos" "1000"
+			border g_targetborder
 			"ignorescheme"	"1"
 			expand_direction "right"
 			"container"
@@ -1483,7 +1506,7 @@
 				"tall"		"184" // defines the tall
 				"visible"	"1"
 				"labelText"	">"
-				"textinsetx" "-8"
+				"textinsetx" "-6"
 				"font"		"newicons20"
 				"command"	"toggle_collapse"
 				"textAlignment"	"west"
@@ -1493,10 +1516,11 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"paintbackground"	"2"
-				"defaultFgColor_override"	"255 255 255 0"
-				"defaultbgcolor_override" "0 0 0 0"
-				"armedFgColor_override"		"Primary"
+				"paintbackground"	"1"
+			"defaultbgcolor_override" "117 107 94 255"
+				"defaultfgcolor_override" "235 226 202 255"
+				"armedbgcolor_override" "145 73 59 255"
+				"armedfgcolor_override" "235 226 202 255"
 			}
 				"buttonimage"
 				{
@@ -1592,12 +1616,12 @@
 		{
 			"ControlName"		"CMatchHistoryEntryPanel"
 			"fieldName"		"TestPanel4"
-			"wide"		"12"
+			"wide"		"14"
 			"tall"		"184"	//same as collapsed_height?
 			"visible"	"1"
 			"ypos" "cs-0.5"
-			"xpos" "r12"
-			"collapsed_height"	"12"	// actual area show by default
+			"xpos" "r14"
+			"collapsed_height"	"14"	// actual area show by default
 			"expanded_height"	"184" // importatn
 			"resize_time"		"0.05"
 			"zpos" "1000"
@@ -1625,10 +1649,12 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
-				"paintbackground"	"2"
-				"defaultFgColor_override"	"255 255 255 0"
-				"defaultbgcolor_override" "0 0 0 0"
-				"armedFgColor_override"		"Primary"
+				"border" "g_targetborder"
+				"paintbackground"	"1"
+			"defaultbgcolor_override" "117 107 94 255"
+				"defaultfgcolor_override" "235 226 202 255"
+				"armedbgcolor_override" "145 73 59 255"
+				"armedfgcolor_override" "235 226 202 255"
 			}
 				"buttonimage"
 				{
