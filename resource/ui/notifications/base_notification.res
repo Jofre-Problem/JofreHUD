@@ -4,13 +4,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"Notification_Label"
-		"xpos"										"cs-0.5"
+		"xpos"										"cs-0.5-15"
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"20"
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
-		"font"										"Regular12"
+		"font"										"G_FontSmall"
+		border G_targetborder
 	}
 
 

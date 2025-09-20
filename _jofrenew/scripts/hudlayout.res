@@ -48,7 +48,7 @@
 		"zpos"		"-1"
 		"wide"		"0"
 		"tall"		"2"
-
+		visible 0
 		"pin_to_sibling"	"UberTimerBG"
 	}
 	"vanillaBG"
@@ -60,6 +60,7 @@
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"0"
+		visible 0
 		"bgcolor_override"		"0 0 0 200"
 	}
 
@@ -70,7 +71,7 @@
 		"zpos"		"-1"
 		"wide"		"0"
 		"tall"		"2"
-
+		visible 0
 		"pin_to_sibling"	"vanillaBG"
 	}	
 	"basechatbg" // Icon Anchor to move Vaccinator Resistance

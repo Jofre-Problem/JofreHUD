@@ -1,145 +1,126 @@
 "resource/ui/CompetitiveAccessInfo.res"
 {
+
 	"MainContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainContainer"
-		"xpos"			"-15"
+		"xpos"			"2"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"350"
+		"wide"			"p1"
+		"tall"			"450"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
+		bgcolor_override "g_brown"
+		border noborder
 		"paintborder"		"0"
 
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#MMenu_CompetitiveAccess"
-			"textAlignment"	"center"
-			"xpos"			"5"
-			"ypos"			"10"
-			"wide"			"f10"
-			"tall"			"20"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TextLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#MMenu_CompetitiveAccess_Desc"
-			"textAlignment"	"north-west"
-			"xpos"			"20"
-			"ypos"			"35"
-			"wide"			"f40"
-			"tall"			"40"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
-
 		"Option1Label"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Option1Label"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"#MMenu_CompetitiveAccessOption1"
-			"textAlignment"	"center"
-			"xpos"			"10"
-			"ypos"			"70"
-			"wide"			"f20"
-			"tall"			"15"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 
 		"Option1DescLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Option1DescLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#MMenu_CompetitiveAccessOption1_Desc"
-			"textAlignment"	"north-west"
-			"xpos"			"20"
-			"ypos"			"85"
-			"wide"			"f40"
-			"tall"			"60"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
 
 		"Option1Panel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"Option1Panel"
-			"xpos"			"20"
-			"ypos"			"135"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"f40"
-			"tall"			"p0.2"
+			"wide"			"p1"
+			"tall"			"80"
 			//	"0"
 			//		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			//	"0"
+			bgcolor_override "G_MenuShader"
 			"proportionaltoparent"	"1"
 
 			"Frame"
 			{
-				"Controlname"	"EditablePanel"
-				"fieldName"		"Frame"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				"zpos"			"5"
-				"proportionaltoparent"	"1"
-				"border"		"InnerShadowBorder"
-				"mouseinputenabled"	"0"
-			}
+			"visible"		"0"
+		}
 			
 			"Background"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"Background"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"0"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				//
-				"proportionaltoparent"	"1"
+		{
+			"visible"		"0"
+		}			
+		"TipSubLabel"
+		{
+		"ControlName""CExLabel"
+		"fieldName""TipSubLabel"
+		"font""newicons25"
+		"labelText""[¢J¢U"
+		"textAlignment""center"
+		"xpos""cs-0.5-15"
+		"ypos""0"
+		"zpos""2"
+		"wide""120"
+		"tall""40"
 
-				"paintborder"	"1"
-				"border"		"ReplayDefaultBorder"
-			}
 
+		//"visible""1"
+
+		"fgcolor_override""203 186 177 255"
+		bgcolor_override "0 0 0 0"
+		}	
+		"testbtn"			// other classes pinned to this
+		{
+			ControlName				CExButton
+			fieldName				"testbtn"
+			"xpos"							"0"
+			"YPOS" "40"
+			"wide"							"40"
+			"tall"							"o1"
+			zpos	"3000"
+			font					"newicons25"
+			textAlignment			center
+			"actionsignallevel"		"3"
+			"default"		"1"
+			ignorescheme 1
+			"defaultfgcolor_override" "203 186 177 255"
+			defaultbgcolor_override G_ButtonBg
+			paintbackground 			1
+			labelText				"u"
+			Command				"addpremium"
+		}
+		"testbtn2"			// other classes pinned to this
+		{
+			ControlName				CExButton
+			fieldName				"testbtn2"
+			"xpos"							"rs1-15"
+			"YPOS" "40"
+			"wide"							"40"
+			"tall"							"o1"
+			zpos	"3000"
+			font					"newicons25"
+			textAlignment			center
+			"actionsignallevel"		"3"
+			"default"		"1"
+			ignorescheme 1
+			"defaultfgcolor_override" "203 186 177 255"
+			defaultbgcolor_override G_ButtonBg
+			paintbackground 			1
+			labelText				"Z"
+			Command				"open_casual"
+		}		
 			"PremiumButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -150,7 +131,7 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"default"		"1"
@@ -188,40 +169,14 @@
 			}
 
 			"PremiumCheckImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"PremiumCheckImage"
-				"xpos"			"p0.15-s0.5"
-				"ypos"			"p0.5-s0.5"
-				"zpos"			"100"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"checkmark"
-				"drawcolor_override"	"0 255 0 255"
-			}
+		{
+			"xpos"		"r0"
+		}
 
 			"AndLabel1"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"AndLabel1"
-				"font"			"HudFontMediumBigBold"
-				"labelText"		"+"
-				"textAlignment"	"center"
-				"xpos"			"p0.3"
-				"ypos"			"0"
-				"wide"			"p0.05"
-				"tall"			"f0"
-				//	"0"
-				//		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override" "TanLight"
-				"proportionaltoparent"	"1"
-			}
+		{
+			"visible"		"0"
+		}
 
 			"PhoneButton"
 			{
@@ -233,7 +188,7 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"default"		"1"
@@ -271,51 +226,24 @@
 			}
 
 			"PhoneCheckImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"PhoneCheckImage"
-				"xpos"			"p0.5-s0.5"
-				"ypos"			"p0.5-s0.5"
-				"zpos"			"100"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"checkmark"
-				"drawcolor_override"	"0 255 0 255"
-			}
-
+		{
+			"xpos"		"r0"
+		}
 			"AndLabel2"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"AndLabel2"
-				"font"			"HudFontMediumBigBold"
-				"labelText"		"+"
-				"textAlignment"	"center"
-				"xpos"			"p0.65"
-				"ypos"			"0"
-				"wide"			"p0.05"
-				"tall"			"f0"
-				//	"0"
-				//		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"fgcolor_override" "TanLight"
-				"proportionaltoparent"	"1"
-			}
+		{
+			"visible"		"0"
+		}
 
 			"RankImage"
 			{
 				"ControlName"	"CTFBadgePanel"
-				"fieldName"		"RankImage"
+				"fieldName"		"RankImagbgcolor_override G_Browne"
 				"xpos"			"p0.7"
 				"ypos"			"5"
 				"zpos"			"10"
 				"wide"			"p0.3"
 				"tall"			"f0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"proportionaltoparent"	"1"
 
@@ -335,7 +263,7 @@
 				"wide"			"p0.3"
 				"tall"			"f0"
 				//	"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"default"		"1"
@@ -358,61 +286,309 @@
 
 			"RankCheckImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"RankCheckImage"
-				"xpos"			"p0.85-s0.5"
-				"ypos"			"p0.5-s0.5"
-				"zpos"			"100"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image"			"checkmark"
-				"drawcolor_override"	"0 255 0 255"
-			}
+			"xpos"		"r0"
+		}
 		}
 
 		"Option2Label"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Option2Label"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"#MMenu_CompetitiveAccessOption2"
-			"textAlignment"	"center"
-			"xpos"			"10"
-			"ypos"			"140+p0.2"
-			"wide"			"f10"
-			"tall"			"15"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
+				"PartySlot0"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot0"
+						"xpos"		"c-120-15"
+						"ypos"		"40"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+	bgcolor_override G_Brown
+						"party_slot"		"0"
+					}
+					"PartySlot1"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot1"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+		bgcolor_override G_Brown
+						"party_slot"		"1"
 
+						"pin_to_sibling"		"PartySlot0"
+						"pin_corner_to_sibling"		"0"
+						"pin_to_sibling_corner"		"1"
+					}
+					"PartySlot2"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot2"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+				bgcolor_override G_Brown
+						"party_slot"		"2"
+
+						"pin_to_sibling"		"PartySlot1"
+						"pin_corner_to_sibling"		"0"
+						"pin_to_sibling_corner"		"1"
+					}
+					"PartySlot3"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot3"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+			bgcolor_override G_Brown
+						"party_slot"		"3"
+
+						"pin_to_sibling"		"PartySlot2"
+						"pin_corner_to_sibling"		"0"
+						"pin_to_sibling_corner"		"1"
+					}
+					"PartySlot4"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot4"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+			bgcolor_override G_Brown
+						"party_slot"		"4"
+
+						"pin_to_sibling"		"PartySlot3"
+						"pin_corner_to_sibling"		"0"
+						"pin_to_sibling_corner"		"1"
+					}
+					"PartySlot5"
+					{
+						"ControlName"		"CDashboardPartyMember"
+						"fieldName"		"PartySlot5"
+						"zpos"		"990"
+						"wide"		"40"
+						"tall"		"o1"
+						"visible"		"1"
+						"enabled"		"1"
+						"proportionaltoparent"		"1"
+						"mouseinputenabled"		"1"
+						"keyboardinputenabled"		"0"
+			bgcolor_override G_Brown
+						"party_slot"		"5"
+
+						"pin_to_sibling"		"PartySlot4"
+						"pin_corner_to_sibling"		"0"
+						"pin_to_sibling_corner"		"1"
+					}
+           "BG2"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "BG2"
+                "xpos"                      "0"
+                "ypos"                      "80"
+                "zpos"                      "0"
+                "wide"                      "40"
+                "tall"                      "155"
+                "visible"                   "1"
+                "proportionaltoparent"      "1"
+                "fillcolor" "G_MenuShader"
+
+            }	
+           "BG2otherside"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "BG2otherside"
+                "xpos"                      "rs1-14"
+                "ypos"                      "80"
+                "zpos"                      "0"
+                "wide"                      "40"
+                "tall"                      "155"
+                "visible"                   "1"
+                "proportionaltoparent"      "1"
+                "fillcolor" "G_MenuShader"
+
+            }	
+	           "bgcenter"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "bgcenter"
+                "xpos"                      "cs-0.5-15"
+                "ypos"                      "80"
+                "zpos"                      "0"
+                "wide"                      "40"
+                "tall"                      "155"
+                "visible"                   "1"
+                "proportionaltoparent"      "1"
+                "fillcolor" "G_MenuShader"
+
+            }			
+			"Volabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Volabel"
+		"xpos"		"0"
+		"ypos"		"80"
+		"zpos"		"111"
+		"wide"		"40"
+		"tall"		"o1"
+		"labelText"		"ã"
+		"textAlignment"		"center"
+		"fgcolor_override"		"203 186 177 255"
+		"font"					"NewIcons57"		
+	}
+	"VolumeSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"VolumeSlider"
+		"xpos"		"-45"
+		"ypos"		"-8"
+		"wide"		"p0.4"
+		"tall"		"40"
+		"zpos"		"111"
+		"leftText"		"#GameUI_Low"
+		"rightText"		"#GameUI_High"
+		"minvalue"		"0"
+		"maxvalue"		"100"
+		"cvar_name"		"volume"
+		pin_to_sibling volabel
+		fgcolor_override		"203 186 177 255"
+	}
+           "BGImage"
+            {
+                "ControlName"               "ImagePanel"
+                "fieldName"                 "BGImage"
+                "xpos"                      "0"
+                "ypos"                      "235"
+                "zpos"                      "0"
+                "wide"                      "P1"
+                "tall"                      "10"
+                "visible"                   "1"
+                "proportionaltoparent"      "1"
+                "image"                     "replay/thumbnails/menu/queue_stripes"
+                "scaleImage"                "1"
+                "drawcolor"                 "G_ButtonBG"
+				 "alpha"                     "200"
+
+            }	
+		"gradient2"
+			{
+				ControlName				ImagePanel
+				fieldName				"gradient2"
+				zpos					1
+				ypos					"235"
+				zpos 6001
+				wide					p1
+				tall					10
+				proportionaltoparent		1
+				image					"replay/thumbnails/gradient"
+				scaleImage				1
+				mouseinputenabled 0
+			}					
+			"FriendsContainer"
+				{
+					"ControlName"								"EditablePanel"
+					"fieldname"									"FriendsContainer"
+					"xpos"										"0"
+					"ypos"										"rs1"
+					"zpos"										"51"
+					"wide"										"p1"
+					"tall"										"205"
+					"visible"									"1"
+					"proportionaltoparent"						"1"
+					"paintbackground"							"1"
+					"bgcolor_override"							"TransparentBlack"
+
+					"SteamFriendsList"
+					{
+						"ControlName"							"CSteamFriendsListPanel"
+						"fieldname"								"SteamFriendsList"
+						"xpos"									"0"
+						"ypos"									"5"
+						"zpos"									"500"
+						"wide"									"f0"
+						"tall"									"f5"
+						"visible"								"1"
+						"proportionaltoparent"					"1"
+
+						"columns_count"							"4"
+						"inset_x"								"0"
+						"inset_y"								"0"
+						"row_gap"								"0"
+						"column_gap"							"0"
+						"restrict_width"						"0"
+
+						"friendpanel_kv"
+						{
+							"wide"								"p0.24"
+							"tall"								"20"
+						}
+
+						"ScrollBar"
+						{
+							"ControlName"						"ScrollBar"
+							"FieldName"							"ScrollBar"
+							"xpos"								"rs1-17"
+							"ypos"								"0"
+							"tall"								"f0"
+							"wide"								"p0.02"
+							"zpos"								"1000"
+							"nobuttons"							"1"
+							"proportionaltoparent"				"1"
+
+							"Slider"
+							{
+								"fgcolor_override"				"G_BUttonbg"
+							}
+								"UpButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"UpButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}
+							
+							"DownButton"
+							{
+								"ControlName"	"Button"
+								"FieldName"		"DownButton"
+								"visible"		"0"
+								"tall"			"0"
+								"wide"			"0"
+							}			
+						}
+					}
+				}
 		"Option2DescLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Option2DescLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#MMenu_CompetitiveAccessOption2_Desc"
-			"textAlignment"	"north-west"
-			"xpos"			"20"
-			"ypos"			"140+p0.2+15"
-			"wide"			"f40"
-			"tall"			"40"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override" "TanLight"
-			"proportionaltoparent"	"1"
+			"visible"		"0"
 		}
-
 		"CyclingAd"
 		{
 			"ControlName"			"CCyclingAdContainerPanel"
@@ -422,7 +598,7 @@
 			"zpos"					"100"
 			"wide"					"f40"
 			"tall"					"p0.2"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"

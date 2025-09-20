@@ -524,6 +524,7 @@
 		"text_ypos"				"8"
 		"center_x"				"0"	 
 		"center_y"				"-1"
+		"font" "G_fontsmall"
 	}
 	HudHintKeyDisplay
 	{
@@ -537,7 +538,7 @@
 		"text_xgap"	"8"
 		"text_ygap"	"8"
 		"TextColor"	"255 170 0 220"
-
+		"font" "G_fontsmall"
 		"PaintBackgroundType"	"2"
 	}
 	

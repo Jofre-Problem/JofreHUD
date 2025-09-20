@@ -109,11 +109,11 @@ Scheme
 		}				
 		"HudHintText"
 		{
-			"1" { "name" "product_sans_regular" "tall" "15" "yres" "480 599" "antialias" "1" }
-			"2" { "name" "product_sans_regular" "tall" "16" "yres" "600 767" "antialias" "1" }
-			"3" { "name" "product_sans_regular" "tall" "17" "yres" "768 1023" "antialias" "1" }
-			"4" { "name" "product_sans_regular" "tall" "23" "yres" "1024 1199" "antialias" "1" }
-			"5" { "name" "product_sans_regular" "tall" "12" "antialias" "1" }
+			"1" { "name" "TF2 Secondary" "tall" "15" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "TF2 Secondary" "tall" "16" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "TF2 Secondary" "tall" "17" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "TF2 Secondary" "tall" "23" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name" "TF2 Secondary" "tall" "12" "antialias" "1" }
 		}
 
 		"HudFontGiant"

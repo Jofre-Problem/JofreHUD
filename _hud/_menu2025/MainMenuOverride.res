@@ -741,6 +741,20 @@
 	{
 		wide				0
 	}
+		"gradient2"
+			{
+				ControlName				ImagePanel
+				fieldName				"gradient2"
+				zpos					1
+				ypos					"0"
+				zpos 6001
+				wide					p1
+				tall					15
+				proportionaltoparent		1
+				image					"replay/thumbnails/gradient"
+				scaleImage				1
+				mouseinputenabled 0
+			}		
 	"WorkshopButton"		// open advanced options
 	{
 		xPos					0

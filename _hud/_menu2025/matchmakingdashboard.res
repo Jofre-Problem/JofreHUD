@@ -29,7 +29,7 @@
 			fillColor				"24 24 24 255"
 	}	
 
-
+	
 		"polybar0slash"
 		{
 			"ControlName"		"CExLabel"
@@ -871,13 +871,13 @@
 			"ypos"			"0"
 			"zpos"			"99"
 			"wide"			"20"
-			"tall"			"16"
+			"tall"			"14"
 			//"autoResize"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			font					"NewIcons12"
-			textAlignment			west
-			labeltext				"Z"
+			font					"NewIcons10"
+			textAlignment			center
+			labeltext				"["
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"ShowCompAccess"
@@ -893,12 +893,11 @@
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"Blank"
-			"defaultBgColor_override"	"Black"
-			"defaultFgColor_override" "black"
-			"depressedbgcolor_override" "blank"
-			"depressedfgcolor_override" "green"
-			"fgcolor"			"black"
+				"defaultbgcolor_override" "117 107 94 0"
+				"defaultfgcolor_override" "203 186 177 255"
+				"armedbgcolor_override" "145 73 59 0"
+				"armedfgcolor_override" "235 226 202 255"
+			//"fgcolor"			"black"
 			
 			"SubImage"
 			{

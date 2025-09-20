@@ -253,6 +253,6 @@ Scheme
 
 		"ItemColor"											"255 167 42 245"
 		"MenuColor"											"White"
-		"MenuBoxBg"											"0 0 0 220"
-	}
+		"MenuBoxBg"											"73 65 65 220"
+	}	// tf2 sf2 ff2 box
 }

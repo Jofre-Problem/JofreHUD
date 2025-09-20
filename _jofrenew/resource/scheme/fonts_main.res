@@ -8,9 +8,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"open_sans_bold"
+				"name"	"TF2 Secondary"
 				"tall"	"10"
-				////"weight"	"500"
+				"weight"	"500"
 				
 				"antialias"	"1"
 			}

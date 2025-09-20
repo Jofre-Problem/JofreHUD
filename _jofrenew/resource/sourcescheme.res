@@ -504,6 +504,15 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" "1"
 			}
 		}  		
+     	"Trebuchet24" 
+		{
+			"1"
+			{
+				"name"				"TF2 Secondary"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		} 		
       	"NewIcons8" 
 		{
 			"1"
@@ -611,17 +620,6 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" 	"1"
 			}
 		} 
-		"Trebuchet24"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
-				"tall"		"30"
-				
-				"antialias" "1"
-			
-			}
-		}
 
 		"Trebuchet20"
 		{
@@ -827,5 +825,35 @@ Button.DepressedTextColor "220 220 220 255"
 		"linux19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"linux110"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"		
+		"tf2def"
+		{
+			"font" "resource/TF2Secondary.ttf"
+			"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"tf22" 
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}		
 	}	
 }	

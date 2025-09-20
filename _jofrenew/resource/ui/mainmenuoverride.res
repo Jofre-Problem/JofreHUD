@@ -36,6 +36,7 @@
 //#base "../fallback/mainmenu.res"
 "j"
 {
+
 	"newtopbarbg"
 		{
 			ControlName editablepanel
@@ -47,7 +48,8 @@
 			zpos -999
 			visible 1
 			border G_targetborder
-		}
+		}			
+
 		"dumbnewtopbarbg"
 		{
 			ControlName editablepanel
@@ -1716,7 +1718,7 @@
 					"proportionaltoparent"						"1"
 					"paintbackground"							"1"
 					"bgcolor_override"							"TransparentBlack"
-
+"border""InnerShadowBorder"
 					"SteamFriendsList"
 					{
 						"ControlName"							"CSteamFriendsListPanel"
