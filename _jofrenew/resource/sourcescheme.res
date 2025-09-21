@@ -590,6 +590,26 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" 	"1"
 			}
 		} 
+		"tf2_18"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"18"
+				"wide"		"300"
+				"antialias" 	"1"
+			}
+		} 	
+		"tf2_12"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"12"
+				"wide"		"300"
+				"antialias" 	"1"
+			}
+		} 			
 		"Productv2_14"
 		{
 			"1"

@@ -10,8 +10,8 @@
 		"tall"										"20"
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
-		"font"										"G_FontSmall"
-		border G_targetborder
+		"font"										"G_FontSmall_2"
+		border noborder
 	}
 
 

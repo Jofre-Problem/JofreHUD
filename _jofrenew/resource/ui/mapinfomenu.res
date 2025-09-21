@@ -43,7 +43,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Time_hour10"
 		"xpos"					"cs-0.5-78"
-		"ypos"					"15"
+		"ypos"					"25"
 		"wide"					"10"
 		"tall"					"o2"
 	"drawcolor"				"notowhite"
@@ -126,23 +126,47 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
 	"MapInfoTitle"
 	{
+		"visible"		"0"
+
+	}
+	"MapInfoTitle2"
+	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"MapInfoTitle"
-		"xpos"			"c-150"
-		"ypos"			"r326"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
+		"fieldName"		"MapInfoTitle2"
+		"xpos"			"0"
+		"ypos"			"-80"
+	"zpos"	"1010"
+		"wide"				"f0"
+		"tall"				"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
-		"textAlignment"	"center"
-		"font"			"Noto14"
-		"fgcolor"		"255 255 255 255"
+		"AllCaps"			"1"
+		font G_fontMedium
+		"fgcolor_override"	"yellow"
+		"bgcolor_override"	"0 0 0 0"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+				"auto_wide_tocontents" "1"
+		border blurborder
+		"pin_to_sibling" "ExampleAnchor"
+        "pin_corner_to_sibling" "4"
+        "pin_to_sibling_corner" "4"
 	}
+	"ExampleAnchor"
+    {
+        "ControlName"     "EditablePanel"
+        "fieldName"     "ExampleAnchor"
+        "xpos"             "0"
+        "ypos"             "50"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+    }	
 	
 	"MapInfoType"
 	{
@@ -195,7 +219,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Noto14"
+		"font"			"G_FontSmall_2"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -215,7 +239,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Noto14"
+		"font"			"G_FontSmall_2"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -240,7 +264,7 @@
 		"wide"			"135"
 		"tall"			"15"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_WatchIntro"
 		"textAlignment"	"east"

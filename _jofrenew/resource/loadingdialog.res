@@ -44,7 +44,7 @@
 		"tall"		"26"
 		"textAlignment"		"center"
 		"fgcolor_override"	"White"
-		"font"		"Product18"
+		"font"		"tf2_18"
 	}
 	"progress"
 	{

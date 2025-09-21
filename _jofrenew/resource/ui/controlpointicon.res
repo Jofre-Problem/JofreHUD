@@ -64,7 +64,7 @@
 	{
 		"ControlName"		"cexLabel"
 		"fieldName"		"CapNumPlayers2"
-		"font"			"AmmoReserve2"
+		"font"			"AmmoPipesOut2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"

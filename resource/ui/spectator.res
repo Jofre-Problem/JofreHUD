@@ -1,3 +1,4 @@
+	#base	"hudinspectpanel.res"
 	#base	"../../_mainstream/spec-bar/file.txt"
 	#base	"../../_stream/resource/ui/spectator.res"
 	//#base	"../../_opt/resource/#beta/spec.res"

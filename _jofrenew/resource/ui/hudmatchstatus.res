@@ -232,16 +232,16 @@ if_mini		{			"visible"		"0"		}
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"264"
+		"team1_max_expand"	"180" //133 def
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"264"
+		"team2_max_expand"	"180"
 
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"25"
+			"wide"			"23"
 			"tall"			"480"
 			"zpos"			"1"
 
@@ -281,11 +281,11 @@ if_mini		{			"visible"		"0"		}
 				"fieldName"		"MatchStatusBG"
 				"zpos"		"2"
 				"wide"		"f0"
-				"tall"		"24"
+				"tall"		"19"
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"		"27 28 30 90"
+				"bgcolor_override"		"27 28 30 1"
 			}
 			"playername"
 			{
@@ -295,8 +295,8 @@ if_mini		{			"visible"		"0"		}
 				"ypos"								"0"
 				"zpos"								"50"
 				"wide"								"f0"
-				"tall"								"7"
-				"visible"							"1"
+				"tall"								"0"
+				"visible"							"0"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"center"

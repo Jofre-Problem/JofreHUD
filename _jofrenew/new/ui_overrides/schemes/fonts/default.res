@@ -58,7 +58,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"64"
 				
 				"antialias" "1"
@@ -69,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"48"
 				
 				"antialias" "1"
@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"36"
 				
 				"antialias" "1"
@@ -130,7 +130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"32"
 				
 				"antialias" "1"
@@ -140,7 +140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"28"
 				
 				"antialias" "1"
@@ -180,7 +180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"16"
 				
 				"antialias" "1"
@@ -190,7 +190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				
 				"antialias" "1"

@@ -33,22 +33,7 @@ event UberTimerHide
 	Animate UberTimerBG tall	0	Linear 0.0 0.001
 	Animate UberTimer	wide	0	Linear	0.0 0.001
 }
-event vanillaRun
-{
-	Animate vanillaBG	tall	2	Linear 0.0 0.001
-	Animate vanillaTimer	BgColor	"White"	Linear	0.0 0.001
-	Animate vanillaTimer	wide	50	Linear	0.0 1.2 //same value
-	Animate vanillaTimer	BgColor	"green"	Linear	0.0 0.001 // -15 value
-	Animate vanillaTimer	BgColor	"purple"	Linear	1.2 0.001 //with this
-	RunEvent vanillaHide 60.0
-}
 
-event vanillaHide
-{
-	StopEvent vanillaRun 0.0
-	Animate vanillaBG tall	0	Linear 0.0 0.001
-	Animate vanillaTimer	wide	0	Linear	0.0 0.001
-}
 event MainMenuCMD
 {
 	FireCommand 0.0 "engine echo ====================Testing===================="
