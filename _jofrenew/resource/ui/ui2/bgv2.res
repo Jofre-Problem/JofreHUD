@@ -127,7 +127,7 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"fillcolor" G_MenuBg
+					"fillcolor" "27 27 27 255"
 				}				
 			}
 			"1"

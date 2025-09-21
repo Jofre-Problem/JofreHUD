@@ -892,9 +892,10 @@
 			paintBackground 1
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
-
+			"fgcolor" 	"27 27 27 255"
+				"fgcolor_override" 	"27 27 27 255"		
 				"defaultbgcolor_override" "117 107 94 0"
-				"defaultfgcolor_override" "203 186 177 255"
+				"defaultfgcolor_override" 	"27 27 27 255"
 				"armedbgcolor_override" "145 73 59 0"
 				"armedfgcolor_override" "235 226 202 255"
 			//"fgcolor"			"black"

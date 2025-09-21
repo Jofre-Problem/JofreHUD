@@ -86,7 +86,7 @@
 					"wide""280"
 					"tall""o1"
 
-					//"image""replay/thumbnails/spray"
+					"image""replay/thumbnails/spray"
 					"scaleImage""1"
 					}		}	
 		"defbg"
@@ -304,7 +304,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"Noto18"
+		"font"			"G_fontsmall_2"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -321,7 +321,7 @@
 
 	"MapLabel"
 	{
-		"font"			"NotoBold24"
+		"font"			"G_fontmedium"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"

@@ -342,7 +342,7 @@
 		yPos					0
 		zPos					1050
 		wide					80
-		tall					20
+		tall					15
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
 
@@ -355,10 +355,10 @@
 			xpos					0
 			ypos					0
 			wide					80
-			tall					20
+			tall					15
 			proportionaltoparent		1
 
-			font					"newicons15"
+			font					"newicons12"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -396,7 +396,7 @@
 		yPos					0
 		zPos					1050
 		wide					80
-		tall					20
+		tall					15
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
 
@@ -409,10 +409,10 @@
 			xpos					0
 			ypos					0
 			wide					80
-			tall					20
+			tall					15
 			proportionaltoparent		1
 
-			font					"newicons15"
+			font					"newicons12"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -519,7 +519,7 @@
 				fieldName				"SubImage"
 				xpos					cs-0.5
 				ypos					cs-0.5
-				wide					p0.4
+				wide					p0.5
 				tall					o1
 				proportionaltoparent		1
 				image					"replay/thumbnails/mainmenu/notification_bell"
@@ -536,12 +536,12 @@
 			xpos					cs-0.5
 			ypos					cs-0.5
 			zpos					0
-			wide					p0.4
+			wide					p0.5
 			tall					o1
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"primary"
+			drawcolor				"g_brown"
 			scaleImage				1
 		}
 
@@ -553,17 +553,17 @@
 			xpos					6
 			ypos					2
 			zpos					20
-			wide					20
+			wide					18
 			tall					14
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"NotoBold12"
+			font					"g_fonttiny"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
 
-			fgcolor_override			"White"
+			fgcolor_override			"g_White"
 			paintBackground			0
 
 			pin_to_sibling			"NotificationCountBg"

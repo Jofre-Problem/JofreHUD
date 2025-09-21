@@ -276,7 +276,7 @@
 		"zpos"			"299"
 		"wide"			"14"
 		"tall"			"o1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\yakuza/letterq"
 		"scaleImage"	"1"
@@ -293,7 +293,7 @@
 			"zpos"			"300"
 			"wide"			"30"
 			"tall"			"12"
-			
+			visible 0
 			"fgcolor"		"notowhite"		"pin_to_sibling"	"q"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	

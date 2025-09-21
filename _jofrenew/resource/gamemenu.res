@@ -14,4 +14,10 @@
 		"label" 									""
 		"OnlyAtMenu" "1"
 	}
+		"CharaBG0" //for bg
+	{
+		"command"									"engine none"
+		"label" 									""
+		"OnlyAtMenu" "1"
+	}	
 }

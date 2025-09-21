@@ -1,11 +1,19 @@
 "_jofrehud/resource/#jofre/1wide.res"
-{
+{	"CharaBG0"
+	{ 		"ControlName"	"EditablePanel"
+		"fieldName"		"CharaBG0"
+		"xpos"			"rs1"
+		"ypos"			"16"
+		"zpos" "10"
+		"wide"			"p0.4+15"
+		"tall"			"450"
+		"visible"		"1"
 	"CharaBG"
 	{ 
 		fieldname CharaBG
 		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"			"rs1"
-		"ypos"			"16"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos" "10"
 		"wide"			"p0.4+15"
 		"tall"			"450"
@@ -643,4 +651,4 @@
 				"ScrollableItemText"	{"wide"	"0"	}
 			}															
 	}	
-	}}	
+	}}	}

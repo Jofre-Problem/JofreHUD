@@ -16,6 +16,7 @@ Scheme
 		"G_Heal"				"127 224 74 255" // Heal color
 		"G_Hit"					"235 167 50 255" // Hit color
 		"G_Brown"				"49 44 41 255"
+			"G_Brown2"				"27 27 27 255"		//"49 44 41 255"
 		"G_Yellow"				"235 220 50 255"
 		"G_WhiteShadow"			"255 255 255 50"
 		"G_WhiteShadowDim"		"255 255 255 40"

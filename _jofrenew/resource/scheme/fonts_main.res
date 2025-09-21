@@ -1114,79 +1114,79 @@ Scheme
 			}
 		}	
 				
-		"ItemFontNameSmallest"
+	"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
-				"tall"		"11"
-				"weight"	"500"
-				
-				"antialias" "1"
+				"name"			"TF2 Build"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
-				"tall"		"13"
-				"weight"	"500"
-				
-				"antialias" "1"
+				"name"			"TF2 Build"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
-				"tall"		"16"
-				"weight"	"500"
-				
-				"antialias" "1"
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		"ItemFontNameLarger"
 		{
 			"1"
 			{
-				"name"		"open_sans_bold"
-				"tall"		"18"
-				"weight"	"500"
-				
-				"antialias" "1"
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
-		"ItemFontAttribSmallv2"
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"antialias" "1"
-				"weight"	"500"
-			}
-		}		
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"		"Open Sans"
-				"tall"		"7"
-				"weight"	"500"
-				
+				"name"			"TF2 Secondary"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
+			}
+		}
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"8"
+				"antialias"		"1"
+				"weight"		"500"
 			}
 		}
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
-				"name"		"Open Sans"
-				"tall"		"8"
-				"weight"	"500"
-				
+				"name"			"TF2 Secondary"
+				"tall"			"10"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}
@@ -1194,21 +1194,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
-				"tall"		"11"
-				"weight"	"500"
-				
+				"name"			"TF2 Secondary"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
-				"name"		"Open Sans"
-				"tall"		"14"
-				"weight"	"500"
-				
+				"name"			"TF2 Secondary"
+				"tall"			"14"
+				"weight"		"500"
+				"additive"		"0"
 				"antialias" 	"1"
 			}
 		}

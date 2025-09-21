@@ -28,13 +28,29 @@
 			}													
 		}
 	}	
+	"ADContainerTest2"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"							"60"
+		"ypos"							"rs1-20"
+		"wide"							"50"
+		"tall"							"20"
+		"visible"		"1"
+		"zpos" "9999"
 
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
 			"mouse2"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"mouse2"
 		"xpos"			"5"
-		"ypos" 			"rs1-86"
+		"ypos" 			"0"
 		"zpos"			"299"
 		"wide"			"10"
 		"tall"			"o1"
@@ -56,16 +72,48 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"mouse2"
+			"fgcolor"		"G_White"		"pin_to_sibling"	"mouse2"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+			
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
 			"shift"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"shift"
 		"xpos"			"5"
-		"ypos" 			"rs1-74"
+		"ypos" 			"0"
 		"zpos"			"299"
 		"wide"			"10"
 		"tall"			"o1"
@@ -87,16 +135,32 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"shift"
+			"fgcolor"		"G_White"		"pin_to_sibling"	"shift"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+					"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
 			"alt"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"alt"
 		"xpos"			"5"
-		"ypos" 			"rs1-62"
+		"ypos" 			"0"
 		"zpos"			"299"
 		"wide"			"10"
 		"tall"			"o1"
@@ -118,16 +182,34 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"alt"
+			"fgcolor"		"G_White"		"pin_to_sibling"	"alt"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}	
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}						
+					"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+
 			"ctrl"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ctrl"
 		"xpos"			"5"
-		"ypos" 			"rs1-50"
+		"ypos" 			"0"
 		"zpos"			"299"
 		"wide"			"10"
 		"tall"			"o1"
@@ -149,10 +231,26 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_MainMenuButton"		"pin_to_sibling"	"ctrl"
+			"fgcolor"		"G_White"		"pin_to_sibling"	"ctrl"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}							
+		}	
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}		
+	}	}	
+
+
+
+						
 
 	"testg"
 	{
@@ -162,18 +260,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"DefaultVerySmall"
+		"font"			"g_fonttiny_2"
 		"xpos"			"c-135"
-		"ypos"			"332"
+		"ypos"			"rs1"
 		"zpos"			"0"	
 		"wide"			"270"
-		"tall"			"56" 
+		"tall"			"50" 
 
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"center" [$WINDOWS]
-		"textAlignment"	"north" [!$WINDOWS]
+		"textAlignment"	"center"
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}
@@ -196,31 +293,32 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Size 18 Uber"
+		"font"			"Size 16 Uber"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"14"
+		"textAlignment"	"east"
+		"xpos"			"160"
+		"ypos"			"0-p0.002"
 		"zpos"			"5000"
-		"fgcolor_override"	"G_MainMenuButton"
+		"fgcolor_override"	"G_White"
 		"bgcolor_override" "G_ButtonSelectedBg"
-		"wide"			"40"
-		"tall"			"20"
-	//	"bgcolor_override"	"G_MainMenuButton"
+		"wide"			"25"
+		"tall"			"16"
+		textinsety 2
+	//	"bgcolor_override"	"G_White"
 		"mouseinputenabled"	"0"
 	}	
 	"polybar0slashmm2"	
 	{		
 		"ControlName"		"CExLabel"
 			"fieldName"		"polybar0slashmm2"
-			"font"			"NewIcons57"
+			"font"			"NewIcons25"
 			"labelText"		"È"
 			"textAlignment"		"west"
-			"xpos" 			"40"					//"c-60"//			"180"
-			"ypos"			"14"
+			"xpos" 			"180"					//"c-60"//			"180"
+			"ypos"			"0-p0.002"
 			"mouseinputenabled" 0
 		//	"wide"			"10"
-			"tall"			"20"
+			"tall"			"16"
 		"fgcolor_override" "G_ButtonSelectedBg"
 
 		"wide"	"40"
@@ -236,25 +334,25 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		zpos	"100"
-		wide							24
+		wide							50
 		tall							35
 		visible						1
 		enabled						1
             "tall"                    "20"
-			"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"		
+			"border_default"	"BackpackItemBorder_RarityLegendary"
+			"border_armed"	"BackpackItemMouseOverBorder_RarityLegendary"		
 		labelText					"a"
-		font							"NewIcons15"
+		font							"NewIcons20"
 		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"	
 		Command						"tauntloadout"
 				
-		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "G_MainMenuButton"
-		"depressedFgColor_override" "G_MainMenuButton"		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		
 			"pin_to_sibling"	"CharacterLoadoutButton"
 			"pin_corner_to_sibling"	"0"
@@ -265,21 +363,21 @@
 	{
 		ControlName					CExButton
 		fieldName					"CharacterLoadoutButton"
-		"xpos"			"cs-0.5+160"
+		"xpos"			"rs1"
 		"ypos"			"67"
 
-		wide							24
+		wide							50
 		tall							35
 		visible						1
 		enabled						1
             "tall"                    "20"
-			"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"	
+			"border_default"	"BackpackItemBorder_RarityLegendary"
+			"border_armed"	"BackpackItemMouseOverBorder_RarityLegendary"	
 		visible						1
 		enabled						1
 
 		labeltext					"_"
-		font							"NewIcons15"
+		font							"NewIcons20"
 		textAlignment				center
 
 		Command						"characterloadout"
@@ -287,11 +385,11 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "G_MainMenuButton"
-		"depressedFgColor_override" "G_MainMenuButton"		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
 		
-		paintbackground				1
+		paintbackground				0
 
 	}										
 	"class_loadout_panel"
@@ -333,7 +431,7 @@
 			"visible"		"0"
 			"bgcolor"		"NotoBlack"
 			"bgcolor_override"		"NotoBlack"
-			"noitem_textcolor"		"G_MainMenuButton"
+			"noitem_textcolor"		"G_White"
 			"PaintBackgroundType"	"0"
 			"PaintBackground"	"0"
 			"paintborder"	"1"
@@ -358,6 +456,22 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+			"modelpanel7"
+			{			
+			"wide" "80"
+			}
+			"modelpanel8"
+			{			
+			"wide" "80"
+			}			
+			"modelpanel9"
+			{			
+			"wide" "80"
+			}
+					"modelpanel10"
+			{			
+			"wide" "80"
+			}	
 		}
 
 		"itemoptionpanels_kv"
@@ -370,10 +484,11 @@
 			"tall"			"14"
 			"visible"		"0"
 			"enabled"		"1"
-			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"labelText"		"ŀ"
+			"font"			"newicons15"
 			"textAlignment"	"center"
 			"default"		"1"
+			textinsetx -2
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -418,29 +533,10 @@
 		}
 	}
 
-	"PassiveAttribsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-135"
-		"ypos"			"120"
-			
-		"wide"			"270"
-		"tall"			"240"
-		"bgcolor_override"	"0 0 0 90"
-		
-		"visible"		"0"
-		
-		"labeltext"		""
-		"textAlignment"	"south"
-		"fgcolor"		"255 215 0 255"
-		"centerwrap"	"1"
-	}	
 "presetpinner"
 {
     "ControlName"    "Panel"
-    "xpos"            "p-0.1-75"
+    "xpos"            "p-0.45"
     "ypos"            "0"
     "wide"            "0"
     "tall"            "0"

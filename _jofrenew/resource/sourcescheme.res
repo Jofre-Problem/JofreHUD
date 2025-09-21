@@ -827,7 +827,7 @@ Button.DepressedTextColor "220 220 220 255"
 		}		
 		"102"
 		{
-			"font" "fonts/Product Sans.ttf"
+			"font" "fonts/product_sans_regular.ttf"
 			"name" "product_sans_regular"
 		}		
 		"103"

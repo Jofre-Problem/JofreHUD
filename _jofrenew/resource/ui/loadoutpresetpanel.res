@@ -6,7 +6,7 @@
         "FieldName"            "loadout_preset_panel"
         "wide"                "24"
         "tall"                "150"
-        "zpos"          "0"
+        "zpos"          "0" 
      	"presetbutton_kv"
 		{
 			"zpos"			"20"
@@ -39,11 +39,12 @@
             "labeltext"			"A"
             "textAlignment"		"center"
             "Command"			"loadpreset_0"
+            paintBackground 0
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"CustomCyanBorderThick"
-			"border_armed"	"CustomCyanBorderThick"	
-			"roundedcorners"	"0"
+				"border_default"	"BackpackItemBorder_RarityLegendary"
+			"border_armed"	  "BackpackItemMouseOverBorder_RarityMythical"	
+			//"roundedcorners"	"0"
 
 
         }

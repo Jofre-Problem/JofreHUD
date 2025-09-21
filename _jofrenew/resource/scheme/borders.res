@@ -2582,7 +2582,7 @@ Scheme
             "draw_corner_height"        "2"
         }
 
-        "BackpackItemMouseOverBorder_RarityLegendary"
+        "BackpackItemMouseOverBorder_RarityLegendary" 
         {
             "bordertype"                "scalable_image"
             "backgroundtype"            "2"
