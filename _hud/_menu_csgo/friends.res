@@ -52,7 +52,7 @@
 		visible						1
 		enabled						1
 
-		font							"Regular9"
+		font							"g_fontsmall"
 		labelText					"%name%"
 		textAlignment				center
 		wrap							0

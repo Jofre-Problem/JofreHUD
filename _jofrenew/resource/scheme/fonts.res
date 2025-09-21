@@ -23,21 +23,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"15"
 				"range"	"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -45,7 +45,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"22"
 				"range"	"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -53,7 +53,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"24"
 				"range"	"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -61,13 +61,13 @@ Scheme
 			}
 			"6"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"	"productsansbold"
+				"name"	"TF2 Secondary"//"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x00FF"
 			}
@@ -84,7 +84,7 @@ Scheme
 				"range"	"0x0000 0x017F"
 			}
 		}		
-		"regular9"
+		"g_fontsmall"
 		{
 			"1"
 			{

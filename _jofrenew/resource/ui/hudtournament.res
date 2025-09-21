@@ -1055,7 +1055,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"Regular9"
+		"font"			"g_fontsmall"
 		"fgcolor"		"White"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -1078,7 +1078,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Regular9"
+		"font"			"g_fontsmall"
 		"FgColor"		"White"
 		"xpos"			"cs-0.5"
 		"ypos"			"26"

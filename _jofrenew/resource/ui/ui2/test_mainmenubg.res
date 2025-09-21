@@ -1,11 +1,19 @@
 "_jofrehud/resource/#jofre/1wide.res"
-{
+{	"ContainerBG0"
+	{ 		"ControlName"	"EditablePanel"
+		"fieldName"		"ContainerBG0"
+		"xpos"			"15"
+		"ypos"			"15"
+		"zpos" "-10"
+		"wide"			"p0.9651"
+		"tall"			"465"
+		"visible"		"1"
 	"ContainerBG"
 	{ 
 		fieldname ContainerBG
 		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"			"15"
-		"ypos"			"15"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos" "-10"
 		"wide"			"p0.9651"
 		"tall"			"465"
@@ -294,3 +302,4 @@
 			}		
 	}	
 	}}	
+}

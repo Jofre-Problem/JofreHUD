@@ -231,7 +231,7 @@
 			wide					0 //35
 			tall					20
 
-			font					"Regular9"
+			font					"g_fontsmall"
 			labelText				"%desc1%"
 			textAlignment			center
 			AllCaps				1
@@ -245,9 +245,9 @@
 
 			"fonts"		// multiple?
 			{
-				"0"				"Regular9"
-				"1"				"Regular9"
-				"2"				"Regular9"
+				"0"				"g_fontsmall"
+				"1"				"g_fontsmall"
+				"2"				"g_fontsmall"
 			}
 		}
 

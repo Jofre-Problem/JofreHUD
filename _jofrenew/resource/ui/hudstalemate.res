@@ -33,7 +33,7 @@
 {
 "ControlName""Label"
 "fieldName""ReasonLabel"
-"font""Regular9"
+"font""g_fontsmall"
 "xpos""30"
 "ypos""25"
 "zpos""1"

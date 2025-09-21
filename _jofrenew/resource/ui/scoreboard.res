@@ -478,7 +478,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel3"
-		"font"			"Regular9"
+		"font"			"g_fontsmall"
 		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"

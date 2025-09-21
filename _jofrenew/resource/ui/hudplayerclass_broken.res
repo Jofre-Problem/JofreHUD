@@ -102,7 +102,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"Regular9"
+			"font"				"g_fontsmall"
 			"xpos"				"5"
 			"ypos"				"12"
 			"zpos"				"0"

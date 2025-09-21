@@ -146,7 +146,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Regular9"
+				"font"			"g_fontsmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"0"

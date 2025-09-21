@@ -682,7 +682,7 @@
 		wide					13
 		tall					16-p0.001//p0.042
 			"labelText"		"3"
-			"font"			"Regular9"
+			"font"			"g_fontsmall"
 			"textAlignment"	"center"
 		
 		command				"engine showstatsdlg"
@@ -706,7 +706,7 @@
 		wide					13
 		tall					16//p0.042
 			"labelText"		"2"
-			"font"			"Regular9"
+			"font"			"g_fontsmall"
 			"textAlignment"	"center"
 		
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
@@ -745,7 +745,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"labelText"		"1"
-			"font"			"Regular9"
+			"font"			"g_fontsmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

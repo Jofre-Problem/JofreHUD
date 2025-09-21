@@ -6523,7 +6523,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6545,7 +6545,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6567,7 +6567,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6589,7 +6589,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6611,7 +6611,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6633,7 +6633,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6831,7 +6831,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6853,7 +6853,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6875,7 +6875,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6897,7 +6897,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular9"
+						"font"					"g_fontsmall"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 

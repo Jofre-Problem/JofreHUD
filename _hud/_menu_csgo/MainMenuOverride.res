@@ -872,7 +872,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_Label"
-			"font"			"Regular9"
+			"font"			"g_fontsmall"
 			"labelText"		"%motddate%"
 			"textAlignment"	"west"
 			"xpos"			"65"
