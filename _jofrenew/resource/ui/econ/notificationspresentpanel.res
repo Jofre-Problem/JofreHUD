@@ -45,7 +45,7 @@
 		"labelText"		"#Notifications_Present"
 		"textAlignment"	"center"
 		"textinsetx"	"30"
-		"font"			"Noto12"
+		"font"			"G_fonttiny_2"
 		"proportionaltoparent"	"1"
 	}
 }

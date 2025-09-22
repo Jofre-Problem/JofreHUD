@@ -1,0 +1,5 @@
+	#base	"../../../_mainstream/warpaint-seed/file.txt"
+	#base	"../../../_stream/resource/ui/econ/inspectionpanel.res"
+	#base	"../../../_jofrenew/resource/ui/econ/inspectionpanel.res"
+	#base	"../../../_opt/resource/ui/econ/inspectionpanel.res"
+	#base	"../../../z_tf2/resource/ui/econ/inspectionpanel.res"

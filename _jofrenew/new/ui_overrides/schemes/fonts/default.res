@@ -270,10 +270,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans"
-				"tall"		"16"
-				
-				"antialias" "1"
+				"name"			"TF2 Secondary"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
 			}
 		}
 		"FontStorePrice"

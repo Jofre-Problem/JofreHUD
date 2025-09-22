@@ -1,3 +1,5 @@
+	#base "../ui2/bgv3.res"
+
 "Resource/UI/Econ/BackPackPanel.res"
 {
 	"backpack_panel"
@@ -152,20 +154,7 @@
 			"use_item_sounds"						"1"
 		}
 	}
-	"aaa"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"aaa"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/menubg"	
-		"scaleImage"		"1"	
-	}		
+	
 	"CaratLabel"
 	{
 		"xpos"			"999"
@@ -184,7 +173,7 @@
 		"ypos"			"cs-0.5-40"
 		"zpos"			"100"
 		"wide"			"25"
-		"tall"			"226"
+		"tall"			"50"
 		"visible"		"1"
 		"bgcolor_override"	"16 16 16 255"
 
@@ -346,13 +335,62 @@
 		"tileVertically"							"0"
 		"drawcolor"									"112 176 74 255"
 	}
-
+	"PrevPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton"
+		"xpos"			"32"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"226"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"<"
+		"font"			"g_fontsmall"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		paintBackground 1
+		"Command"		"prevpage"
+			"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"	
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			"pin_to_sibling"							"BackpackBG"
+	}
+	"nextPageButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"nextPageButton"
+		"xpos"			"2"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"30"
+		"tall"			"226"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		">"
+		"font"			"g_fontsmall"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		paintBackground 1
+		"Command"		"nextpage"
+			"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"	
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+			"pin_to_sibling"							"BackpackBG"
+					"pin_corner_to_sibling"					"2"
+		"pin_to_sibling_corner"					"3"	
+	}	
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"ShowBaseItemsCheckbox"
 		"labelText"									"#ShowBaseItemsCheckBox"
-		"Font"										"StorePromotionsTitle"
+		"Font"										"g_fonttiny_2"
 		"textAlignment"								"east"
 		"xpos"										"5"
 		"ypos"										"0"

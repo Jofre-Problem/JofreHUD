@@ -14,7 +14,7 @@
 {
 "ControlName""Label"
 "fieldName""StalemateLabel"
-"font""Regular16"
+"font""G_fonttiny_2"
 "xpos""-25"
 "ypos""0"
 "zpos""1"
@@ -38,10 +38,10 @@
 "ypos""25"
 "zpos""1"
 "wide""200"
-"tall""70"
+"tall""0"
 
 
-//"visible""1"
+"visible""0"
 
 "wrap""1"
 "labelText" ""

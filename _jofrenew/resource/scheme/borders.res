@@ -389,7 +389,7 @@ Scheme
 			"draw_corner_width"			"2"
 			"draw_corner_height"		"2"
 		}		
-		"FLAT_Black_4"
+		"Black_4"
 		{
 			"bordertype"				"scalable_image"
 			"background_type"			"0"

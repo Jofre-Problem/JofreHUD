@@ -4,6 +4,77 @@
 {
 	"ADContainerTest"
 	{
+		"AdsContainer"
+		{
+			tall f0
+			wide f0
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"rs1-22"
+				"ypos"		"rs1-72"
+				"zpos"		"2"
+		wide							18
+		tall							40 
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"20"
+				"ypos"		"0"
+				"zpos"		"2"
+		wide							18
+		tall							40
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+				pin_to_sibling "NextButton"
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+		}		
 		"items"
 		{
 			"0"
@@ -72,7 +143,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_White"		"pin_to_sibling"	"mouse2"
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"mouse2"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
@@ -135,7 +206,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_White"		"pin_to_sibling"	"shift"
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"shift"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}		
@@ -182,7 +253,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_White"		"pin_to_sibling"	"alt"
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"alt"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}	
@@ -231,7 +302,7 @@
 			"wide"			"40"
 			"tall"			"10"
 			
-			"fgcolor"		"G_White"		"pin_to_sibling"	"ctrl"
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"ctrl"
 					"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}	
@@ -261,11 +332,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"g_fonttiny_2"
-		"xpos"			"c-135"
+		"xpos"			"rs1-120"
 		"ypos"			"rs1"
 		"zpos"			"0"	
 		"wide"			"270"
-		"tall"			"50" 
+		"tall"			"70" 
 
 		"visible"		"1"
 		"enabled"		"1"
@@ -299,7 +370,7 @@
 		"xpos"			"160"
 		"ypos"			"0-p0.002"
 		"zpos"			"5000"
-		"fgcolor_override"	"G_White"
+		"fgcolor_override"	"G_Brown2"
 		"bgcolor_override" "G_ButtonSelectedBg"
 		"wide"			"25"
 		"tall"			"16"
@@ -332,16 +403,16 @@
 		ControlName					CExButton
 		fieldName					"TauntLoadoutButton"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"3"
 		zpos	"100"
-		wide							50
-		tall							35
+		wide							40
+		tall							o1
 		visible						1
 		enabled						1
-            "tall"                    "20"
-			"border_default"	"BackpackItemBorder_RarityLegendary"
-			"border_armed"	"BackpackItemMouseOverBorder_RarityLegendary"		
-		labelText					"a"
+
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"		
+		labelText					"ĳ"
 		font							"NewIcons20"
 		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
@@ -363,20 +434,20 @@
 	{
 		ControlName					CExButton
 		fieldName					"CharacterLoadoutButton"
-		"xpos"			"rs1"
-		"ypos"			"67"
+		"xpos"			"rs1-20"
+		"ypos"			"66"
 
-		wide							50
-		tall							35
+		wide							40
+		tall							o1
 		visible						1
 		enabled						1
-            "tall"                    "20"
-			"border_default"	"BackpackItemBorder_RarityLegendary"
-			"border_armed"	"BackpackItemMouseOverBorder_RarityLegendary"	
+           
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"	
 		visible						1
 		enabled						1
 
-		labeltext					"_"
+		labeltext					"ı"
 		font							"NewIcons20"
 		textAlignment				center
 
@@ -391,14 +462,80 @@
 		
 		paintbackground				0
 
-	}										
+	}	
+	"redbtn"
+	{
+		ControlName					CExButton
+		fieldName					"redbtn"
+		"xpos"			"rs1-21"
+		"ypos"			"rs1-117"
+
+		wide							18
+		tall							40
+		visible						1
+		enabled						1
+           
+			"border_default"	"BackpackItemBorder_Collectors"
+			"border_armed"	"BackpackItemMouseOverBorder_Collectors"	
+		visible						1
+		enabled						1
+
+		labeltext					""
+		font							"NewIcons20"
+		textAlignment				center
+
+		Command						"sv_cheats 1; r_skin 0"
+		
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
+		
+		paintbackground				0
+
+	}			
+	"blubtn"
+	{
+		ControlName					CExButton
+		fieldName					"blubtn"
+		"xpos"			"rs1-21-21"
+		"ypos"			"rs1-117"
+
+		wide							18
+		tall							40
+		visible						1
+		enabled						1
+           
+			"border_default"	"BackpackItemBorder_Vintage"
+			"border_armed"	"BackpackItemMouseOverBorder_Vintage"	
+		visible						1
+		enabled						1
+
+		labeltext					""
+		font							"NewIcons20"
+		textAlignment				center
+
+		Command						"sv_cheats 1; r_skin 1"
+		
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
+		
+		paintbackground				0
+
+	}												
 	"class_loadout_panel"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"class_loadout_panel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"p0.93"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"0"
@@ -421,12 +558,33 @@
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
+			"presetpinnermodelpanel0"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel0"
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001"  
+			}	
+
+			"presetpinnermodelpanel1"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel1"
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001+152"  
+			}	
+			"presetpinnermodelpanel2"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel2"
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001+152+152"  
+			}	
+			"presetpinnermodelpanel3"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel3"
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001+152+152+152"  
+			}											
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"140"
+			"wide"			"120"
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor"		"NotoBlack"
@@ -438,9 +596,9 @@
 			"border"	"LoadoutItemPopupBorder"
 			
 			"model_center_x"	"1"
-			"model_ypos"		"5"			
-			"model_tall"		"55"
-			"model_wide"		"82"
+			"model_ypos"		"10"			
+			"model_tall"		"45"
+			"model_wide"		"72"
 			"text_ypos"			"254"
 			"text_center"		"1"
 			"name_only"			"1"
@@ -456,6 +614,39 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
+			"modelpanel0"	
+			{		
+			"wide" "80"
+			pin_to_sibling presetpinnermodelpanel0
+			}		
+
+			"modelpanel1"
+			{		
+			"wide" "80" 	
+			pin_to_sibling "presetpinnermodelpanel1"
+			}			
+			"modelpanel2"
+			{			
+			"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel2"
+			}
+			"modelpanel3"
+			{			
+			"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel3"
+			}	
+			"modelpanel4"
+			{			
+			"wide" "63"
+			}
+			"modelpanel5"
+			{			
+			"wide" "63"
+			}						
+			"modelpanel6"	//spy watch
+			{		
+			"wide" "63"
+			}			
 			"modelpanel7"
 			{			
 			"wide" "80"
@@ -468,7 +659,7 @@
 			{			
 			"wide" "80"
 			}
-					"modelpanel10"
+			"modelpanel10"
 			{			
 			"wide" "80"
 			}	
@@ -516,15 +707,17 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "180"
+			"angles_y" "230"
 			"angles_z" "0"
-			"origin_x" "220"
-			"origin_y" "0"
-			"origin_z" "-52"	//lower mas arriba
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"-5"
-			"frame_origin_z"	"0"
+			"origin_x" "180"    //closer-farther
+			"origin_y" "40"		//right-left
+			"origin_z" "-46"
+			"frame_origin_x"	"260"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"-42"
 			"spotlight" "1"
+			"model_wide"	"300"
+			"frame_wide"	"400"
 
 			//origin_x 				450	// distance
 			//origin_y 				50		// horizontal
@@ -536,8 +729,8 @@
 "presetpinner"
 {
     "ControlName"    "Panel"
-    "xpos"            "p-0.45"
-    "ypos"            "0"
+    "xpos"            "p+0.454-p0.001+27"
+	ypos "85"
     "wide"            "0"
     "tall"            "0"
     "proportionaltoparent"    "1"
@@ -547,10 +740,10 @@
 {
     "ControlName"            "CLoadoutPresetPanel"
     "FieldName"                "loadout_preset_panel"
-    "xpos"                    "0"
+
     "zpos"                    "20"
-    "wide"                    "30"
-    "tall"                    "135"
+    "wide"                    "100"
+    "tall"                    "180"
     "visible"                "1"
     "ignorescheme"            "1"
     "pin_to_sibling"        "presetpinner"
@@ -577,8 +770,8 @@
 	{
 		"ControlName" "editablepanel"
 		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos" 		"p1.296"
-		"ypos"		"r256" //its coincidence
+		"xpos" 		"p1.205"
+		"ypos"		"r262" //its coincidence
 		"wide"		"0"
 		"tall" 		"0"
 		"visible"	"1"

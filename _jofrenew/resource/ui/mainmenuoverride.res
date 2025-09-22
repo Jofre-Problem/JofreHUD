@@ -1705,81 +1705,8 @@
 				paintBackground "1"	
 				bgcolor_override "0 0 0 150"
 				"pin_to_sibling"		"RandomPinnerThatWorks"
-				"FriendsContainer"
-				{
-					"ControlName"								"EditablePanel"
-					"fieldname"									"FriendsContainer"
-					"xpos"										"0"
-					"ypos"										"0"
-					"zpos"										"51"
-					"wide"										"178"
-					"tall"										"184"
-					"visible"									"0"
-					"proportionaltoparent"						"1"
-					"paintbackground"							"1"
-					"bgcolor_override"							"TransparentBlack"
-"border""InnerShadowBorder"
-					"SteamFriendsList"
-					{
-						"ControlName"							"CSteamFriendsListPanel"
-						"fieldname"								"SteamFriendsList"
-						"xpos"									"0"
-						"ypos"									"5"
-						"zpos"									"500"
-						"wide"									"f0"
-						"tall"									"f10"
-						"visible"								"1"
-						"proportionaltoparent"					"1"
-
-						"columns_count"							"1"
-						"inset_x"								"0"
-						"inset_y"								"0"
-						"row_gap"								"0"
-						"column_gap"							"0"
-						"restrict_width"						"0"
-
-						"friendpanel_kv"
-						{
-							"wide"								"200"
-							"tall"								"20"
-						}
-
-						"ScrollBar"
-						{
-							"ControlName"						"ScrollBar"
-							"FieldName"							"ScrollBar"
-							"xpos"								"rs1"
-							"ypos"								"0"
-							"tall"								"f0"
-							"wide"								"5"
-							"zpos"								"1000"
-							"nobuttons"							"1"
-							"proportionaltoparent"				"1"
-
-							"Slider"
-							{
-								"fgcolor_override"				"PrimaryT4"
-							}
-								"UpButton"
-							{
-								"ControlName"	"Button"
-								"FieldName"		"UpButton"
-								"visible"		"0"
-								"tall"			"0"
-								"wide"			"0"
-							}
-							
-							"DownButton"
-							{
-								"ControlName"	"Button"
-								"FieldName"		"DownButton"
-								"visible"		"0"
-								"tall"			"0"
-								"wide"			"0"
-							}			
-						}
-					}
-				}
+	
+				
 			} // RandomImagePanel2 end
 		}
 

@@ -215,7 +215,20 @@
 			"visible"		"0"
 		}
 	}
-		
+	"Gradient"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Gradient"
+		"xpos"				"0"
+		"ypos"				"79"
+		"zpos"				"101"
+		"wide"				"f0"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/gradient"
+		"scaleImage"		"1"
+	}		
 	"RedScoreBG2"
 	{
 		"ControlName"		"ImagePanel"
@@ -348,7 +361,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
 		"labelText"									"%blueteamscore%"		
-		"font"			"notobold32"
+		"font"			"healthandammo20"
 		"fgcolor_override"	"notowhite"
 		"textAlignment"		"east"
 		"xpos"			"1"
@@ -368,7 +381,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"Size 14"
+		"font"			"g_fonttiny_2"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
@@ -408,7 +421,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
 		"labelText"									"%redteamscore%"
-		"font"			"notobold32"
+		"font"			"healthandammo20"
 		"fgcolor_override"	"notowhite"
 		"textAlignment"		"west"
 		"xpos"			"c1"
@@ -428,7 +441,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"Size 14"
+		"font"			"g_fonttiny_2"
 		"textAlignment"		"center"
 		"xpos"			"rs1-20"
 		"ypos"			"79"
@@ -478,7 +491,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel3"
-		"font"			"g_fontsmall"
+		"font"			"g_fonttiny_2"
 		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
@@ -610,13 +623,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
+		"font"			"G_fonttiny_2"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"348"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"r90"
 		"zpos"			"4"
-		"wide"			"424"
+		"wide"			"f0"
 		"tall"			"20"
 		////"autoResize"		"0"
 		//		"0"
@@ -627,7 +640,7 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}								
 	"ShadedBar"
 	{
 		"visible"		"0"

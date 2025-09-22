@@ -17,63 +17,7 @@
 		"zpos"					"-9"
 		"mouseinputenabled" "0"
 	}		
-	"btnlabel1"
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"btnlabel1"
-		xpos 2
-		"ypos"					"rs1-2"
-		labelText "o"
-		font "newicons57"
-		"wide"	"42"
-		"tall"	"20"
-		"zpos"					"-9"
-		"mouseinputenabled" "0"
-		fgcolor_override "notodark"
-	}		
-	"btnlabel1a"
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"btnlabel1a"
-		labelText "<"
-		font "newicons20"
-		ypos "-1"
-		"wide"	"20"
-		"tall"	"20"
-		"zpos"					"-8"
-		"mouseinputenabled" "0"
-		fgcolor_override "notowhite"
-		"pin_to_sibling" "btnlabel1"
-	}	
-
-	"btnlabel2"
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"btnlabel2"
-		xpos r30
-		"ypos"					"rs1-2"
-		labelText "o"
-		font "newicons57"
-		"wide"	"42"
-		"tall"	"20"
-		"zpos"					"-9"
-		"mouseinputenabled" "0"
-		fgcolor_override "notodark"
-	}		
-	"btnlabel2a"
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"btnlabel2a"
-		labelText ">"
-		font "newicons20"
-		ypos "-1"
-		"wide"	"20"
-		"tall"	"20"
-		"zpos"					"-8"
-		"mouseinputenabled" "0"
-		fgcolor_override "notowhite"
-		"pin_to_sibling" "btnlabel2"
-	}				
+		
 	"ADContainerTest"
 	{ 
 		"ControlName"	"CCyclingAdContainerPanel"
@@ -134,7 +78,7 @@
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
-				"present_time"	"5.0"
+				"present_time"	"999.0"
 
 			
 	

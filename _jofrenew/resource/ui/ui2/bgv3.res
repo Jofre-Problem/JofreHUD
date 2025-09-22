@@ -1,0 +1,110 @@
+"_jofrehud/resource/#jofre/1wide.res"
+{
+	"frame_bottomgrip"
+	{
+		"tall"	"0"
+	}		
+	"bgbtn"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"bgbtn"
+		"ypos"					"rs1"
+	"fillcolor"				"16 16 16 1"
+		"enabled"				"1"
+		"scaleimage"			"1"
+		"wide"	"f0"
+		"tall"	"15"
+		"zpos"					"-9"
+		"mouseinputenabled" "0"
+	}		
+		
+	"newadbg"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"			"00"
+		"ypos"			"00"
+		"zpos" "-10"
+		"wide"			"p1"
+		"tall"			"p1.01"
+		"visible"		"1"
+
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"65.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"p1"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"fillcolor" "27 27 27 255"
+				}				
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"60.0"
+
+			
+	
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos" 2
+					"wide"			"p1"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"image"			"replay/thumbnails/hp/REFRACTblur"
+					"scaleImage"		"1"
+				}
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+	}	
+	}}	

@@ -55,7 +55,7 @@
 			"wide"			"30"
 			"tall"			"19"
 			"labelText"		"%blue_alive%"
-			"font"			"DamageText"
+			"font"			"G_Fontmedium"
 			"textAlignment"	"center"
 			"fgcolor"		"White"
 		}	
@@ -125,7 +125,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"19"
-			"font"			"DamageText"
+			"font"			"G_Fontmedium"
 			"textAlignment"	"center"
 			"labelText"		"%red_alive%"
 			"fgcolor"		"White"

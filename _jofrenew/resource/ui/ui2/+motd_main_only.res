@@ -20,64 +20,6 @@
 
 
 				"ControlName"			"EditablePanel"
-	"FriendsContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"		"cs-0.5+4"
-		"ypos"		"24"
-		"zpos"		"500"
-		"wide"		"258"
-		"tall"		"456"
-		"visible" "1"
-	//	"border"		"blurborder"
-		"bgcolor_override"	"30 30 30 100"
-
-		"SteamFriendsList"
-		{
-			"ControlName"		"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"zpos"		"500"
-			"wide"		"f0"
-			"tall"		"f0"
-			"visible"		"1"
-			"proportionaltoparent"		"1"
-
-            "columns_count"                                         "2"
-            "inset_x"                                               "5"
-            "inset_y"                                               "5"
-            "row_gap"                                               "5"
-            "column_gap"                                            "5"
-            "restrict_width"                                        "0"
-
-			"friendpanel_kv"
-			{
-				"wide"		"129"
-				"tall"		"20"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"		"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"		"0"
-				"tall"		"f0"
-				"wide"		"0"
-				"zpos"		"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"		"1"
-
-				"Slider"
-				{
-					"fgcolor_override"		"White"
-				}
-				"UpButton"
-				{"visible"	"0"}
-				"DownButton"
-				{"visible"	"0"}
-			}
-		}
-	}
 		"SideBar1"
 			{
 				"ControlName"			"CScrollableList"

@@ -7,8 +7,8 @@
 	"mouseoveitempanelAnchor"
 	{
 		"ControlName" "imagePanel"
-		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos" 		"p1.296"
+		"fieldName" 	"mouseoveitempanelAnchor"
+		"xpos" 		"p1.29"
 		"ypos"		"0"
 		"wide"		"0"
 		"tall" 		"0"
@@ -25,13 +25,13 @@
 		"text_xpos_collection"	"0"
 		"text_ypos"			"5"
 		"text_forcesize" "0"
-		"text_xpos"		"39"
-		"text_wide"		"270"
+		"text_xpos"		"0"//"39"
+		"text_wide"		"300"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
 		//"model_tall_collection"	"100"
-		"pin_to_sibling" 	"mouseoveritempanelAnchor"
+		"pin_to_sibling" 	"mouseoveritempanelAnchor" //its intended the bad
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
 		
@@ -42,7 +42,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-100"
-			"wide"			"348"
+			"wide"			"p0.4"
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
