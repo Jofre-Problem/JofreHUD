@@ -437,7 +437,37 @@ Button.DepressedTextColor "220 220 220 255"
 }	
     Fonts
 	{
-
+		"Default"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"17"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultSmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+	
 		"ServerBrowserSmall"
 		{
 			"1"

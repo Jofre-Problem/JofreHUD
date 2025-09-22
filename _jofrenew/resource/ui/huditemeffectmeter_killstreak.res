@@ -9,6 +9,7 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
+		zpos -1
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -22,7 +23,7 @@
 		"ypos" "0"
 		"wide"	"100"
 		"tall" "17"
-		"zpos" "0"
+		"zpos" "0" visible 0
 		"ControlName""CTFImagePanel"
 		"fieldName""FixForHP"
 		"image"			"replay/thumbnails/hp/cover"
@@ -42,7 +43,7 @@
 		"wide"			"331"	// limit at 30
 		"tall"			"17"
 		"variable"		"progresscount"
-
+		visible 1
 		"fgcolor_override"	"White"
 		"bgcolor_override" "0 0 0 0"
 		"pin_to_sibling"	"ItemEffectMeterBG"
@@ -51,34 +52,20 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"rs1-10"
-		"ypos"			"10"
+		"xpos"			"80"
+		"ypos"			"rs1-20"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
-		"fillcolor"		"0 0 0 175"	
+		"fillcolor"		"0 0 0 0"	
 	}
 	
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"-25"
-		"ypos"					"-27"
-		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
 		"visible"				"0"
-		"enabled"				"0"
-		"labelText"				"#TF_KillStreak"
-		"textAlignment"			"center"
-		"font"					"TFFontSmall"
-		"pin_to_sibling" "ItemEffectMeterBG"
 	}
 
 	"ItemEffectMeter"
@@ -103,7 +90,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-70"
+		"xpos"					"-25"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"50"
@@ -113,7 +100,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%" // "killstreak_count_spaced"
 		"textAlignment"			"west"
-		"font"					"Killfeed"
+		"font"					"g_fontmedium"
 		"fgcolor"				"245 245 245 255"
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}
@@ -121,7 +108,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-25"
+		"xpos"					"-10"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"200"
@@ -129,25 +116,11 @@
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"labelText"				"Streak:"
-		"textAlignment"			"west"
-		"font"					"NotoBold16"
-		"fgcolor"				"245 245 245 150"
-		"pin_to_sibling" "ItemEffectMeterBG"
-	}
-	"StreakLabel2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"StreakLabel2"
-		"xpos"					"-10"
-		"ypos"					"0"
-		"zpos"					"3"
-		"wide"					"20"
-		"tall"					"16"
 		"labelText"				"H"
 		"textAlignment"			"west"
 		"font"					"NewIcons10"
 		"fgcolor"				"245 245 245 150"
-		"pin_to_sibling"	"ItemEffectMeterBG"
-	}	
+		"pin_to_sibling" "ItemEffectMeterBG"
+	}
+
 }

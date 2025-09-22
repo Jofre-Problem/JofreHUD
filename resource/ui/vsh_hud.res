@@ -57,38 +57,11 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
-			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"wide"			"0"
 		}	
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
-			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"11"
-			"zpos"			"3"
-			"wide"			"8"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"capture_icon_white"
-			"scaleImage"	"1"
+	"wide"			"0"
 		}
 	}
 	
@@ -97,15 +70,16 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"damagecounter"
 		"xpos"			"c-36"
-		"ypos"			"r112"
+		"ypos"			"r107"
 		"zpos"			"-10"
 		"wide"			"80"
-		"tall"			"30"
+		"tall"			"28"
 		"visible"		"1"
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"editablepanel"
+			border "FLAT_Black_2"
 			"fieldName"		"background"
 			"xpos"			"5"
 			"ypos"			"7"
@@ -116,13 +90,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thinlineborder"
-				
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"image"			""
+			
 		}	
 		"dmg_icon"
 		{
@@ -236,13 +205,13 @@
 			"border"		"G_TargetBorder"		
 		}
 		
-		"BlueScoreValueContainer"
+			"BlueScoreValueContainer"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
 			"xpos"				"c-100"
 			"ypos"				"57"
-			"zpos"				"52"
+			"zpos"				"200"
 			"wide"				"200"
 			"tall"				"100"
 			"visible"			"1"
@@ -263,8 +232,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumSmallBold"
-				"fgcolor"		"TanLight"		
+				"font"			"g_fontmedium"
+				"fgcolor"		"g_white"//"154 246 165 255"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -272,8 +241,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-99"
-				"ypos"			"1"
+				"xpos"			"c-100"
+				"ypos"			"0"
 				"zpos"			"27"
 				"wide"			"200"
 				"tall"			"20"
@@ -281,7 +250,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"g_fontmediumblur"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -305,8 +274,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-100"
-				"ypos"			"0"
+				"xpos"			"c-104"
+				"ypos"			"20"
 				"zpos"			"28"
 				"wide"			"200"
 				"tall"			"20"
@@ -314,8 +283,8 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"CenterPrintText"
-				"fgcolor"		"TanLight"		
+				"font"			"Damagetext"
+				"fgcolor"		"RedSolid"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -323,8 +292,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-99"
-				"ypos"			"1"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"27"
 				"wide"			"200"
 				"tall"			"20"
@@ -332,9 +301,10 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"CenterPrintText"
+				"font"			"DamagetextShadow"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
+				"pin_to_sibling"	"Score"
 			}
 		}
 	}

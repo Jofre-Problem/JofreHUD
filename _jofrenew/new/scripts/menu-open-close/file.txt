@@ -87,7 +87,7 @@ event MenuOpen
 //	RunEvent Forcecmd 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
-	setfont HudMenu 	"textfont"		"Noto10"		0.001
+	setfont HudMenu 	"textfont"		"g_fontsmall_2"		0.001
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
 //	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
 	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
@@ -98,8 +98,8 @@ event MenuOpen
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
 //	PlaySound 0 "vo/deck_ui_slider_up.wav"
-	RunEvent ScoreboardAnimate 0.0
-	RunEvent ScoreboardAlpha 0.0
+//	RunEvent ScoreboardAnimate 0.0
+//	RunEvent ScoreboardAlpha 0.0
 	RunEvent ScopeRemoval 0.0
 //	RunEvent LevelInitAny 0.0
 

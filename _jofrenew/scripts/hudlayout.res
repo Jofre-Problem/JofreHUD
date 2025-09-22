@@ -27,6 +27,8 @@
 	#base "../resource/fallback/targetid.res"
 	#base "hudlayout_def.res"
 	#base "../_minmode/scripts/hudlayout.res"
+	//#base "../resource/ui/winpanel.res"
+//	#base "../resource/ui/hudarenawinpanel.res"
 "j"
 {
 

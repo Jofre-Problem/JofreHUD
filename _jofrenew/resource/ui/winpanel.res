@@ -1,4 +1,4 @@
-#base "winpanelbase.res"
+#base "winpanelbase.res" 
 "Resource/UI/winpanel.res"
 {
     "TeamScoresPanel"
@@ -324,9 +324,24 @@
     }
 
     // P1
+     "Player1Avatar"
+    {
+     //  ControlName editablepanel
+        fieldName player1avatar
+        xpos 0
+        "wide"                      "20"
+        "tall"                      "20"
+        "visible"                   "1"
+        zpos 1000
+        "enabled"                   "1" 
+        ypos 0
+        bgcolor_override red
+               "pin_to_sibling"            "Player1BG"
+
+    }   
     "Player1Name"
     {
-        "xpos"                      "-5"
+        "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -352,21 +367,13 @@
     "Player1Badge"
     {
         "xpos"                      "9999"
-        "ypos"                      "9999"
+        "ypos"                      "r0"
         "wide"                      "0"
         "tall"                      "0"
         "visible"                   "0"
         "enabled"                   "0"
     }
-    "Player1Avatar"
-    {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
-    }
+
     "Player1Class"
     {
         "xpos"                      "-25"
@@ -383,7 +390,7 @@
     // P2
     "Player2Name"
     {
-        "xpos"                      "-5"
+        "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -417,12 +424,17 @@
     }
     "Player2Avatar"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+     //   controlname editablepanel
+        fieldName player2avatar
+        xpos 0
+        "wide"                      "20"
+        "tall"                      "20"
+        "visible"                   "1"
+        zpos 1000
+        "enabled"                   "1" 
+        ypos 0
+         "pin_to_sibling"            "Player2BG"
+        bgcolor_override yellow
     }
     "Player2Class"
     {
@@ -440,7 +452,7 @@
     // P3
     "Player3Name"
     {
-        "xpos"                      "-5"
+        "xpos"                     "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -474,12 +486,17 @@
     }
     "Player3Avatar"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+     //   controlname editablepanel
+        fieldName player3avatar
+        xpos 0
+        "wide"                      "20"
+        "tall"                      "20"
+        "visible"                   "1"
+        zpos 1000
+        "enabled"                   "1" 
+        ypos 0
+         "pin_to_sibling"            "Player3BG"
+        bgcolor_override yellow
     }
     "Player3Class"
     {
@@ -497,7 +514,7 @@
     // P4 (KS)
     "KillStreakPlayer1Name"
     {
-        "xpos"                      "-5"
+        "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -531,12 +548,17 @@
     }
     "KillStreakPlayer1Avatar"
     {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
+     //  controlname editablepanel
+        fieldName KillStreakPlayer1Avatar
+        xpos 0
+        "wide"                      "20"
+        "tall"                      "20"
+        "visible"                   "1"
+        zpos 1000
+        "enabled"                   "1" 
+        ypos 0
+         "pin_to_sibling"            "Player4BG"
+        bgcolor_override yellow
     }
     "KillStreakPlayer1Class"
     {
