@@ -86,7 +86,7 @@
 					"wide""280"
 					"tall""o1"
 
-					"image""replay/thumbnails/spray"
+					"image""replay/thumbnails/spray_24"
 					"scaleImage""1"
 					}		}	
 		"defbg"

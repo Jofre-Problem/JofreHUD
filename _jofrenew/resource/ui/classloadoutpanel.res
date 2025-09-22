@@ -336,7 +336,7 @@
 		"ypos"			"rs1"
 		"zpos"			"0"	
 		"wide"			"270"
-		"tall"			"70" 
+		"tall"			"110" 
 
 		"visible"		"1"
 		"enabled"		"1"
@@ -578,7 +578,29 @@
 			fieldName "presetpinnermodelpanel3"
     		"xpos"            "0+p0.791"
    			"ypos"            "134-P0.001+152+152+152"  
-			}											
+			}	
+
+
+						"presetpinnermodelpanel11"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel11"
+    		"xpos"            "0+p0.7415"
+   			"ypos"            "134-P0.001"  
+			}			
+					"presetpinnermodelpanel12"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel12"
+    		"xpos"            "0+p0.7415"
+   			"ypos"            "134-P0.001+152"  
+			}	
+			"presetpinnermodelpanel13"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel13"
+    		"xpos"            "0+p0.7415"
+   			"ypos"            "134-P0.001+152+152"  
+			}	
+			"presetpinnermodelpanel14"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
+			fieldName "presetpinnermodelpanel14"
+    		"xpos"            "0+p0.7415"
+   			"ypos"            "134-P0.001+152+152+152"  
+			}										
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -663,6 +685,27 @@
 			{			
 			"wide" "80"
 			}	
+			"modelpanel11"
+			{			
+			//"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel11"
+			}		
+					"modelpanel12"
+			{			
+			//"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel12"
+			}	
+					"modelpanel13"
+			{			
+			//"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel13"
+			}	
+						"modelpanel14"
+			{			
+			//"wide" "80"
+			pin_to_sibling "presetpinnermodelpanel14"
+			}	
+		
 		}
 
 		"itemoptionpanels_kv"

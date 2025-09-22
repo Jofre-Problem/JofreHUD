@@ -19,7 +19,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"40 40 45 100"
+		"bgcolor_override"	"g_brown"
 		"keyboardinputenabled" "0"
 		
 		"top_line"

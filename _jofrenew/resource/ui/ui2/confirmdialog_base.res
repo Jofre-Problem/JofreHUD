@@ -12,8 +12,8 @@
 	// hardcoded?
 		"settitlebarvisible"	"0"
 		//
-		"paintbackground"		"3"
-		"border"		"notograyborder"
+		"paintbackground"		"1"
+		"border"		"g_targetborder"
 		"bgcolor_override"		"Blank"
 	}
 		"Windows_Notification"
@@ -27,8 +27,8 @@
 			"tall"		"118+p0.02"
 			//
 			"paintbackground"		"1"
-			"border"		"notograyborder"		 	
-			"bgcolor_override"				"NotoDarker"
+			"border"		"g_targetborder"		 	
+			"bgcolor_override"				"g_brown2"
 		}	
 	"TitleLabel"
 	{
@@ -42,7 +42,7 @@
 		"fieldName"		"TitleLabel2"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
-		"font" "notobold14"
+		"font" "g_fontsmall"
 		"xpos"			"2"
 		"ypos"			"-13"
 		"zpos"			"1"
@@ -52,8 +52,8 @@
 		"fgcolor_override"	"Notowhite"
 							"fonts"
 				{
-					"0"		"NotoBold10"
-					"1"		"NotoBold14"
+					"0"		"g_fonttiny2"
+					"1"		"g_fontsmall"
 					"2"		"NotoBold18"
 				}	
 	}

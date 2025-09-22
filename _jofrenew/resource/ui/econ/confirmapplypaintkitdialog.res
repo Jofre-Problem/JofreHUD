@@ -9,7 +9,30 @@
 		"wide"					"400"
 		"tall"					"300"
 	}
+	"bgpanel2" 	//new panel since ConfirmDialog cannot be moved.
+	{			//this meanwhile can be moved and everything tied to this
 
+		"PLHDR1"
+		{
+			"actionsignallevel" "1"
+		}
+		"PLHDR2"
+		{
+
+			"actionsignallevel" "1"
+
+		}
+		"PLHDR3"
+		{
+
+			"actionsignallevel" "1"
+
+		}
+		"reloadthisshit"
+		{
+			"actionsignallevel" "1"
+		}
+	}
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
