@@ -2,8 +2,32 @@
 #base "../../../../../cfg/_jp_mm_bg.txt"
 "Resource/UI/TradingPanel.res"
 {
-
-
+	"BGImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage"
+		"xpos"			"20"
+		"ypos"			"20"
+		"zpos"			"1"
+		"wide"			"o1"
+		"tall"			"p0.2"
+		"image"			"item_carousel_bg"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
+	"BGImage2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"			"g_brown2"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
 	"ItemName"
 	{		
 		"ControlName"	"CItemModelPanel"
