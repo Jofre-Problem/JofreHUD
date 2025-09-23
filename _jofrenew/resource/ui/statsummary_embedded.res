@@ -109,7 +109,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"g_fontsmall"
+				"font"			"g_fontsmall_2"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-202"
@@ -124,7 +124,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"g_fontsmall"
+				"font"			"g_fontsmall_2"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-27"
@@ -139,7 +139,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"g_fontsmall"
+				"font"			"g_fontsmall_2"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c130"
@@ -274,7 +274,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -288,7 +288,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -343,7 +343,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -357,7 +357,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -412,7 +412,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -426,7 +426,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -481,7 +481,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -495,7 +495,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -550,7 +550,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -564,7 +564,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -619,7 +619,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -633,7 +633,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -688,7 +688,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -702,7 +702,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -757,7 +757,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -771,7 +771,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -826,7 +826,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -840,7 +840,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -883,7 +883,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -898,7 +898,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -913,7 +913,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -928,7 +928,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -943,7 +943,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -958,7 +958,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -973,7 +973,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -988,7 +988,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1003,7 +1003,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1018,7 +1018,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1033,7 +1033,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1048,7 +1048,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1078,7 +1078,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1093,7 +1093,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1108,7 +1108,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1123,7 +1123,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1138,7 +1138,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1153,7 +1153,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1168,7 +1168,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1183,7 +1183,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1198,7 +1198,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1213,7 +1213,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1228,7 +1228,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1243,7 +1243,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1258,7 +1258,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1273,7 +1273,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1288,7 +1288,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1303,7 +1303,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1318,7 +1318,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"g_fontsmall"
+			"font"			"g_fontsmall_2"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
