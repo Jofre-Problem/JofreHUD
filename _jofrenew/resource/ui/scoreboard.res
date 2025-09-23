@@ -202,7 +202,7 @@
 		"xpos"			"0"
 		"ypos"			"79"
 		"zpos"			"100"
-		"wide"			"p0.5"
+		"wide"			"p0.494"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -221,7 +221,7 @@
 		"fieldName"			"Gradient"
 		"xpos"				"0"
 		"ypos"				"79"
-		"zpos"				"101"
+		"zpos"				"5001"
 		"wide"				"f0"
 		"tall"				"20"
 		"visible"			"1"
@@ -355,21 +355,41 @@
 		"wide"			"p0.5"
 		"tall"			"20"
 		"allcaps"	"1"
-	}							
+	}		
+	"G_Slash"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"G_Slash"
+		"font"			"Newicons57"
+		"labelText"		"/"
+		"textAlignment"	"center"
+		"xpos"			"cs-0.5+4" 
+		"ypos"			"79+p0.001"
+		"wide"			"20"
+		"tall"			"20" 
+		"zpos"			"200"
+		"enabled"		"1"
+		"fgcolor"		"NotoBlueSolid"
+		
+		if_mvm
+		{
+			"visible" 0
+		}
+	}						
 	"BlueTeamScore"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"BlueTeamScore"
 		"labelText"									"%blueteamscore%"		
-		"font"			"healthandammo20"
+		"font"			"G_FontBig"
 		"fgcolor_override"	"notowhite"
 		"textAlignment"		"east"
-		"xpos"			"1"
-		"ypos"			"1"
+		"xpos"			"6"
+		"ypos"			"1-p0.002"
 		"zpos"			"5000"
 		"wide"			"p0.5"
 		"tall"			"20"
-		"pin_to_sibling"	"BlueScoreBG"
+		"pin_to_sibling"	"RedScoreBG"
 		if_mvm
 		{
 			"visible"		"0"
@@ -404,7 +424,7 @@
 		"fieldName"									"RedTeamLabel"
 		"labelText"									"%redteamname%"
 		"visible"	"1"
-		"font"			"Notobold28"
+		"font"			"G_fontmedium"
 		"fgcolor_override"	"30 30 30 255"
 		"textAlignment"		"east"
 		"xpos"			"rs1-22"
@@ -421,11 +441,11 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"RedTeamScore"
 		"labelText"									"%redteamscore%"
-		"font"			"healthandammo20"
+		"font"			"G_FontBig"
 		"fgcolor_override"	"notowhite"
 		"textAlignment"		"west"
-		"xpos"			"c1"
-		"ypos"			"78" 
+		"xpos"			"c1+5"
+		"ypos"			"78+p0.002" 
 		"zpos"			"5000"
 		"wide"			"p0.5"
 		"tall"			"20"
