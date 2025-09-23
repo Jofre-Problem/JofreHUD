@@ -444,7 +444,7 @@
 		"font"			"G_FontBig"
 		"fgcolor_override"	"notowhite"
 		"textAlignment"		"west"
-		"xpos"			"c1+5"
+		"xpos"			"c1+12"
 		"ypos"			"78+p0.002" 
 		"zpos"			"5000"
 		"wide"			"p0.5"
