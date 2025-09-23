@@ -417,8 +417,319 @@
 				"BuyButton"	{"wide"	"0"	}
 
 				"ScrollableItemText"	{"wide"	"0"	}
+			}				"9"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"195.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				"Test2"
+				{
+					"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_demoman"
+				}				
+			}
+			"10"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+			
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_engineer"
+				}
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "r0"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+			
+			"11"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+				
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_heavy"
+				}		
+			}
+			"12"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"10.0"
+
+
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_medic"
+				}		
+			}	
+			"13"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+			
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_pyro"
+				}	
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+			"ItemName"	{"xpos"	"r0"	}
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
 			}		
-			"9"
+			"14"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+			
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_scout"
+				}	
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"xpos"	"r0"	}
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}		
+			"15"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_sniper"
+				}	
+				
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"xpos"	"r0"	}
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}	
+			"16"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_soldier"
+				}	
+				
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"xpos"	"r0"	}
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}		
+			"17"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+				"Test2"
+				{
+				"ControlName"	"scalableImagePanel"
+					"xpos"			"-200"
+					"ypos"			"-50"
+					"wide"			"500"
+					"tall"			"o1"
+					"visible"		"1"
+					zpos 10
+					scaleimage 1
+					"image"			"../console/characters/fwk_spy"
+				
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"xpos"	"r0"	}
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+				}	
+			}	
+			"18"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -447,7 +758,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}		
-				"10"
+				"19"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -476,7 +787,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}	
-					"11"
+					"20"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -505,7 +816,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}	
-						"12"
+						"21"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -534,7 +845,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}			
-						"12"
+						"22"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -563,7 +874,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}		
-						"13"
+						"23"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -592,7 +903,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}		
-							"14"
+							"24"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
@@ -621,7 +932,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}		
-							"15"
+							"25"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"

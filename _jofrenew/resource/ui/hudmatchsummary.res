@@ -244,7 +244,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-
+"wide_minmode"				"0"
 				"BlueTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"
@@ -514,7 +514,7 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-
+"wide_minmode"				"0"
 				"RedTeamScoreBG"
 				{
 					"ControlName"		"EditablePanel"

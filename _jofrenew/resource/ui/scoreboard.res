@@ -521,8 +521,7 @@
 		"zpos"			"5000"
 		"wide"			"f0"
 		"tall"			"10"
-		////"autoResize"		"0"
-		//		"0"
+		"font_minmode"				"newicons15"
 		"visible"		"1"
 		"enabled"		"1"
 		

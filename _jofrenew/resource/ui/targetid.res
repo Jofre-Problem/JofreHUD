@@ -101,8 +101,7 @@
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		////"autoResize"		"0"
-		//		"0"
+		"font_minmode"			"newicons15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -113,7 +112,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTopS"
-		"font"			"Killfeed"
+		"font"			"Killfeed""font_minmode"			"newicons15"
 		"xpos"			"8"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -135,7 +134,7 @@
 		"fieldName"		"TargetNameLabelBot"
 		"font"			"SpecTargetIDname"
 		"xpos"			"40"
-		"ypos"			"1010"
+		"ypos"			"1010""font_minmode"			"newicons15"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
@@ -152,6 +151,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBotS"
 		"font"			"SpecTargetIDname"
+
+		"font_minmode"			"newicons15"
 		"xpos"			"40"
 		"ypos"			"1011"
 		"zpos"			"1"
@@ -180,8 +181,8 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"236 240 241 255"
-		"auto_wide_tocontents" "1"
-		bgcolor_override "30 30 30 255"
+		//"auto_wide_tocontents" "1"
+		//bgcolor_override "30 30 30 255"
 	}
 	"TargetNameLabelMidS" //healing targetid
 	{	

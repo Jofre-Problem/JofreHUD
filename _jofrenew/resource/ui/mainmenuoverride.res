@@ -1600,7 +1600,7 @@
 					"xpos"							"0"
 					"YPOS" "0"
 					"wide"							"182"
-					"tall"							"40"
+					"tall"							"22"
 					zpos	"300"
 					font					"G_FontSmall"
 					textAlignment			center
@@ -1620,9 +1620,9 @@
 					ControlName				CExButton
 					fieldName				"Main2"
 					"xpos"							"0"
-					"YPOS" "40"
+					"YPOS" "22"
 					"wide"							"182"
-					"tall"							"40"
+					"tall"							"22"
 					zpos	"300"
 					font					"G_FontSmall"
 					textAlignment			center
@@ -1637,7 +1637,50 @@
 					Command				"engine testhudanim hidedevmenu"
 
 				}	
-				
+				"soundlist"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"soundlist"
+					"xpos"							"0"
+					"YPOS" "44"
+					"wide"							"182"
+					"tall"							"22"
+					zpos	"300"
+					font					"g_fonttiny_2"
+					textAlignment			center
+					"actionsignallevel"		"3"
+					paintbackground 			1
+					"defaultbgcolor_override" "g_brown2"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"soundlist"
+					Command				"engine soundlist"
+
+				}	
+				"snd_restart"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"snd_restart"
+					"xpos"							"0"
+					"YPOS" "66"
+					"wide"							"182"
+					"tall"							"22"
+					zpos	"300"
+					font					"g_fonttiny_2"
+					textAlignment			center
+					"actionsignallevel"		"3"
+					paintbackground 			1
+					"defaultbgcolor_override" "g_brown2"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "AssassinGrade"
+
+			
+					labelText				"snd_restart"
+					Command				"engine snd_restart"
+
+				}									
 			} // RandomImagePanel2 end
 		}	
 	
