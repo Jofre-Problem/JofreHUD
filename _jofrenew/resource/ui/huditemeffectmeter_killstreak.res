@@ -13,14 +13,57 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
+"CyclingAd"
+{
+"ControlName""CCyclingAdContainerPanel"
+"fieldName""CyclingAd"
+"xpos""0"
+"zpos""-100"
+"wide""f0"
+
+"tall""f0"
+
+
+"items"
+{
+
+"0"
+{	
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"35.0"
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
 	"TitleScreenRain"
 	{
 		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"TitleScreenRain"
-		"xpos"			"50"
+		"xpos"			"0"
 		"ypos"			"rs1"
 		"zpos"			"-100"
-		"wide"			"100"
+		"wide"			"p0.3"
 		"tall"			"o1"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -29,10 +72,10 @@
 		{
             "0"
             {
-                "particle_xpos"         "c10"
-                "particle_ypos"      "c20"
+                "particle_xpos"         "c-18"
+                "particle_ypos"      "c100"
                 "particle_scale"      "3"
-                "particlename"     "weapon_unusual_isotope_grenade_launcher"
+                "particlename"     "weapon_unusual_isotope_sniperrifle"
                     // cauldron_embers | scale 3 | fire sputters
                     // hammer_souls_rising | scale 2 | ghosts rising
                     // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
@@ -41,6 +84,184 @@
 		}
 		"paintbackground"	"0"
 	}
+}
+"1"
+{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"35.0"
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	"TitleScreenRain"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"TitleScreenRain"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"-100"
+		"wide"			"p0.3"
+		"tall"			"o1"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+            "0"
+            {
+                "particle_xpos"         "c-20"
+                "particle_ypos"      "c110"
+                "particle_scale"      "3"
+                "particlename"     "superrare_beams1"
+                    // cauldron_embers | scale 3 | fire sputters
+                    // hammer_souls_rising | scale 2 | ghosts rising
+                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+                "loop"     "1"
+            }
+		}
+		"paintbackground"	"0"
+	}
+}
+"1"
+{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"35.0"
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	"TitleScreenRain"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"TitleScreenRain"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"-100"
+		"wide"			"p0.3"
+		"tall"			"o1"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+            "0"
+            {
+                "particle_xpos"         "c-20"
+                "particle_ypos"      "c130"
+                "particle_scale"      "3"
+                "particlename"     "unusual_shootingstar_purple_parent"
+                    // cauldron_embers | scale 3 | fire sputters
+                    // hammer_souls_rising | scale 2 | ghosts rising
+                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+                "loop"     "1"
+            }
+		}
+		"paintbackground"	"0"
+	}
+}
+"0"
+{	
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"635.0"
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	"TitleScreenRain"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"TitleScreenRain"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"-100"
+		"wide"			"p0.3"
+		"tall"			"o1"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"ParticleEffects"
+		{
+            "0"
+            {
+                "particle_xpos"         "c-18"
+                "particle_ypos"      "c110"
+                "particle_scale"      "3"
+                "particlename"     "unusual_invasion_nebula"
+                    // cauldron_embers | scale 3 | fire sputters
+                    // hammer_souls_rising | scale 2 | ghosts rising
+                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+                "loop"     "1"
+            }
+		}
+		"paintbackground"	"0"
+	}
+}	
+}
+}	
+
 
 		"FixForHP"
 		{
@@ -166,5 +387,24 @@
 		"fgcolor"				"245 245 245 150"
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}
+	"ItemEffectMeterTint"
+	{	
+		"ControlName"				"EditablePanel"
+		"fieldName"				"ItemEffectMeterTint"
+
+		"xpos"					"1"
+		"ypos"					"22"
+		"zpos"					"9"
+
+		"wide"					"120"
+		"tall"					"8"				
+
+		"visible"				"0"
+		"enabled"				"1"
+		
+		"bgcolor_override"			"235 226 202 165"
+
+	}
+	
 
 }
