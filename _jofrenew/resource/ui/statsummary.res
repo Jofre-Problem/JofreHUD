@@ -62,7 +62,8 @@
 					"ypos""rs1-36"
 					"wide""280"
 					"tall""o1"
-
+					
+					zpos 2000
 					//"image""replay/thumbnails/spray"
 					"scaleImage""1"
 					}		
@@ -243,7 +244,22 @@
 			}					
 		}
 	
-
+		"TeamSilhouette"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"			"TeamSilhouette"
+			"xpos"				"c-300"
+			"ypos"				"r355"
+			"zpos"				"198"
+			"wide"				"600"
+			"tall"				"300"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"replay/thumbnails/teamsilhouette"
+			"scaleImage"		"1"
+			"drawcolor"			"43 43 43 255"
+			"Alpha"				"255"
+		}
 		"Title"
 		{
 			"ControlName"	"CExLabel"

@@ -148,21 +148,23 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"NotoBold8"
-			"xpos"			"37"
+			"font"			"newicons12"
+			"xpos"			"35"
 			"ypos"			"28"
 			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"10"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#ItemPanelEquipped"
+			"labelText"		"y"
+			textinsety 2
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"NotoDark"
+			"bgcolor_override"		"27 27 27 255"
 			"PaintBackgroundType"	"2"
+			paintBackground 0
 			"paintborder"	"1"
-			"border"	"Noborder"
+			"border"	"FP_ButtonDefault"
 		}
 	
 		"paint_icon"

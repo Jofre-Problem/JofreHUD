@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"g_fontmedium" //"AmmoReserve2"
+		"font"			"AmmoReserve2" //"AmmoReserve2"
 		"fgcolor"		"236 240 241 255"
 		"xpos"			"-88"
 		"ypos"			"0"

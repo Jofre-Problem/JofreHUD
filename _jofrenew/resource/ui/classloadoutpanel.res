@@ -99,225 +99,7 @@
 			}													
 		}
 	}	
-	"ADContainerTest2"
-	{ 
-		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"							"60"
-		"ypos"							"rs1-20"
-		"wide"							"50"
-		"tall"							"20"
-		"visible"		"1"
-		"zpos" "9999"
 
-		"items"
-		{
-			"0"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-			"mouse2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"mouse2"
-		"xpos"			"5"
-		"ypos" 			"0"
-		"zpos"			"299"
-		"wide"			"10"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\yakuza/mouse2"
-		"scaleImage"	"1"
-	}	
-		"mouse2label"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"mouse2label"
-			"font"			"G_FontTiny_2"
-			"labelText"		"Zoom"//"%kills%"
-			"textAlignment"		"west"
-			"xpos" 			"5"
-			"ypos"			"0"
-			"zpos"			"300"
-			"wide"			"40"
-			"tall"			"10"
-			
-			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"mouse2"
-					"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}		
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	
-			
-			}
-			"1"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-			"shift"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"shift"
-		"xpos"			"5"
-		"ypos" 			"0"
-		"zpos"			"299"
-		"wide"			"10"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\yakuza/shift"
-		"scaleImage"	"1"
-	}	
-		"shiftlabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"shiftlabel"
-			"font"			"G_FontTiny_2"
-			"labelText"		"Move"//"%kills%"
-			"textAlignment"		"west"
-			"xpos" 			"5"
-			"ypos"			"0"
-			"zpos"			"300"
-			"wide"			"40"
-			"tall"			"10"
-			
-			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"shift"
-					"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}		
-
-				"Background"		{"wide"	"0"	}
-
-				"ItemIcon"	{"wide"	"0"	}
-
-				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
-
-				"BuyButton"	{"wide"	"0"	}
-
-				"ScrollableItemText"	{"wide"	"0"	}
-			}
-					"2"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-			"alt"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"alt"
-		"xpos"			"5"
-		"ypos" 			"0"
-		"zpos"			"299"
-		"wide"			"10"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\yakuza/alt"
-		"scaleImage"	"1"
-	}	
-		"altlabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"altlabel"
-			"font"			"G_FontTiny_2"
-			"labelText"		"Rotate"//"%kills%"
-			"textAlignment"		"west"
-			"xpos" 			"5"
-			"ypos"			"0"
-			"zpos"			"300"
-			"wide"			"40"
-			"tall"			"10"
-			
-			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"alt"
-					"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}	
-
-				"Background"		{"wide"	"0"	}
-
-				"ItemIcon"	{"wide"	"0"	}
-
-				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
-
-				"BuyButton"	{"wide"	"0"	}
-
-				"ScrollableItemText"	{"wide"	"0"	}
-			}						
-					"3"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-
-
-			"ctrl"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ctrl"
-		"xpos"			"5"
-		"ypos" 			"0"
-		"zpos"			"299"
-		"wide"			"10"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\yakuza/ctrl"
-		"scaleImage"	"1"
-	}	
-		"ctrllabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"ctrllabel"
-			"font"			"G_FontTiny_2"
-			"labelText"		"Light"//"%kills%"
-			"textAlignment"		"west"
-			"xpos" 			"5"
-			"ypos"			"0"
-			"zpos"			"300"
-			"wide"			"40"
-			"tall"			"10"
-			
-			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"ctrl"
-					"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}	
-
-				"Background"		{"wide"	"0"	}
-
-				"ItemIcon"	{"wide"	"0"	}
-
-				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
-
-				"BuyButton"	{"wide"	"0"	}
-
-				"ScrollableItemText"	{"wide"	"0"	}
-			}		
-	}	}	
 
 
 
@@ -529,7 +311,40 @@
 		
 		paintbackground				0
 
-	}												
+	}			
+	"screenshotbtn"
+	{
+		ControlName					CExButton
+		fieldName					"screenshotbtn"
+		"xpos"			"rs1-21"
+		"ypos"			"rs1-30"
+
+		wide							39
+		tall							40
+		visible						1
+		enabled						1
+	 armedfgcolor_override "G_ButtonBg"
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"	
+		visible						1
+		enabled						1
+
+		labeltext					"đ"
+		font							"NewIcons20"
+		textAlignment				center
+
+		Command						"screenshot"
+		"actionsignallevel" "2"
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
+		
+		paintbackground				0
+
+	}											
 	"class_loadout_panel"
 	{
 		"ControlName"	"Frame"
@@ -832,44 +647,235 @@
 			"wide"		"p2"
 			"tall"		"p8"		
 		}	
-		"TitleScreenRain"
-		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"TitleScreenRain"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-100"
-			"wide"			"p1"
-			"tall"			"p1"
-			"visible"		"0"
-			"proportionaltoparent"	"1"
+	"ADContainerTest2"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"							"60"
+		"ypos"							"400"
+		"wide"							"50"
+		"tall"							"20"
+		"visible"		"1"
+		"zpos" "9999"
 
-			"ParticleEffects"
+		"items"
+		{
+			"0"
 			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+			"mouse2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"mouse2"
+		"xpos"			"5"
+		"ypos" 			"0"
+		"zpos"			"299"
+		"wide"			"10"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\yakuza/mouse2"
+		"scaleImage"	"1"
+	}	
+		"mouse2label"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"mouse2label"
+			"font"			"G_FontTiny_2"
+			"labelText"		"Zoom"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"5"
+			"ypos"			"0"
+			"zpos"			"300"
+			"wide"			"40"
+			"tall"			"10"
 			
-				"0" // supposed to be nothing
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"mouse2"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}		
+				"Background"
 				{
-					"particle_xpos"         "c-150"
-					"particle_ypos"      "120"
-					"particle_scale"      "3"
-					"particlename"     "unusual_invasion_nebula"
-						// cauldron_embers | scale 3 | fire sputters
-						// hammer_souls_rising | scale 2 | ghosts rising
-						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-					"loop"     "0"
+					"wide"		"0"
 				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+			
 			}
-			"paintbackground"	"0"
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+			"shift"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"shift"
+		"xpos"			"5"
+		"ypos" 			"0"
+		"zpos"			"299"
+		"wide"			"10"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\yakuza/shift"
+		"scaleImage"	"1"
+	}	
+		"shiftlabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"shiftlabel"
+			"font"			"G_FontTiny_2"
+			"labelText"		"Move"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"5"
+			"ypos"			"0"
+			"zpos"			"300"
+			"wide"			"40"
+			"tall"			"10"
+			
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"shift"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}		
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+					"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+			"alt"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"alt"
+		"xpos"			"5"
+		"ypos" 			"0"
+		"zpos"			"299"
+		"wide"			"10"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\yakuza/alt"
+		"scaleImage"	"1"
+	}	
+		"altlabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"altlabel"
+			"font"			"G_FontTiny_2"
+			"labelText"		"Rotate"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"5"
+			"ypos"			"0"
+			"zpos"			"300"
+			"wide"			"40"
+			"tall"			"10"
+			
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"alt"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}	
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}						
+					"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+
+
+			"ctrl"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ctrl"
+		"xpos"			"5"
+		"ypos" 			"0"
+		"zpos"			"299"
+		"wide"			"10"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\yakuza/ctrl"
+		"scaleImage"	"1"
+	}	
+		"ctrllabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"ctrllabel"
+			"font"			"G_FontTiny_2"
+			"labelText"		"Light"//"%kills%"
+			"textAlignment"		"west"
+			"xpos" 			"5"
+			"ypos"			"0"
+			"zpos"			"300"
+			"wide"			"40"
+			"tall"			"10"
+			
+			"fgcolor"		"245 245 2 255"		"pin_to_sibling"	"ctrl"
+					"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		}	
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}		
+	}	}			
+
 		"TitleScreenRain2"
 		{
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"TitleScreenRain2"
 			"xpos"			"0"
-			"ypos"			"300"
+			"ypos"			"400"
 			"zpos"			"-100"
 			"wide"			"p1"
-			"tall"			"p1"
+			"tall"			"p1.5"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -879,8 +885,8 @@
 				"0"
 				{
 					"particle_xpos"         "c-150"
-					"particle_ypos"      "300"
-					"particle_scale"      "15"
+					"particle_ypos"      "500"
+					"particle_scale"      "30"
 					"particlename"     "unusual_invasion_nebula"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -895,7 +901,7 @@
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"TitleScreenRain3"
 			"xpos"			"0"
-			"ypos"			"480+480"
+			"ypos"			"480+480+150"
 			"zpos"			"-100"
 			"wide"			"p1"
 			"tall"			"p1.5"
@@ -908,8 +914,8 @@
 				"0"
 				{
 					"particle_xpos"         "c-150"
-					"particle_ypos"      "400"
-					"particle_scale"      "15"
+					"particle_ypos"      "600"
+					"particle_scale"      "25"
 					"particlename"     "unusual_shootingstar_purple_parent"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -924,10 +930,10 @@
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"TitleScreenRain4"
 			"xpos"			"0"
-			"ypos"			"480+480+480"
+			"ypos"			"480+480+480+250+90"
 			"zpos"			"-100"
 			"wide"			"p1"
-			"tall"			"p1.2"
+			"tall"			"p1.4"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -937,8 +943,8 @@
 				"0"
 				{
 					"particle_xpos"         "c-150"
-					"particle_ypos"      "600"
-					"particle_scale"      "12"
+					"particle_ypos"      "900"
+					"particle_scale"      "20"
 					"particlename"     "unusual_eotl_sunset"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -948,75 +954,60 @@
 			}
 			"paintbackground"	"0"
 		}
-		"TitleScreenRain5"
-		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"TitleScreenRain5"
-			"xpos"			"0"
-			"ypos"			"480+480+480+480+40"
-			"zpos"			"-100"
-			"wide"			"p1"
-			"tall"			"p1.3"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"ParticleEffects"
-			{
-			
-				"0"
-				{
-					"particle_xpos"         "c-150"
-					"particle_ypos"      "350"
-					"particle_scale"      "4"
-					"particlename"     "spellbook_major_burning"
-						// cauldron_embers | scale 3 | fire sputters
-						// hammer_souls_rising | scale 2 | ghosts rising
-						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-					"loop"     "1"
-				}
-				"1"
-				{
-					"particle_xpos"         "c-150"
-					"particle_ypos"      "350"
-					"particle_scale"      "4"
-					"particlename"     "spellbook_major_encircling"
-						// cauldron_embers | scale 3 | fire sputters
-						// hammer_souls_rising | scale 2 | ghosts rising
-						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-					"loop"     "1"
-				}				
-			}
-			"paintbackground"	"0"
-		}
-		"TitleScreenRain6"
-		{
-			"ControlName"	"CTFParticlePanel"
-			"fieldName"		"TitleScreenRain6"
-			"xpos"			"0"
-			"ypos"			"480+480+480+480+480"
+"goffyahparticle1"
+    {
+        "ControlName"    "CTFParticlePanel"
+        "fieldName"        "goffyahparticle1"
+        "xpos"            "0"
+			"ypos"			"480+480+480+480"
 			"zpos"			"-100"
 			"wide"			"p1"
 			"tall"			"p1.2"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
+        "tall"            "o1"
+        "proportionaltoparent"    "1"
+		"visible"			"1"
 
-			"ParticleEffects"
-			{
-			
-				"0"
-				{
-					"particle_xpos"         "c-150"
-					"particle_ypos"      "600"
-					"particle_scale"      "7"
-					"particlename"     "unusual_sparkletree_gold_parent"
-						// cauldron_embers | scale 3 | fire sputters
-						// hammer_souls_rising | scale 2 | ghosts rising
-						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-					"loop"     "1"
-				}
-			}
-			"paintbackground"	"0"
-		}
+        "ParticleEffects"
+        {
+            "0"
+            {
+				"visible"        "0"
+                "particle_xpos"        "c-3"
+                "particle_ypos"      "c32"
+                "particle_scale"      "3.3"
+                "particlename"     "unusual_pigeons_white_parent"
+                "loop"     "1"
+            }
+        }
+        //"paintbackground"    "0"
+    }
+
+	"goffyahparticle2"
+    {
+        "ControlName"    "CTFParticlePanel"
+        "fieldName"        "goffyahparticle2"
+        "xpos"            "0"
+			"ypos"			"480+480+480+480"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1.2"
+        "proportionaltoparent"    "1"
+		"visible"			"1"
+
+        "ParticleEffects"
+        {
+            "0"
+            {
+				"visible"        "0"
+                "particle_xpos"        "c-3"
+                "particle_ypos"      "c36"
+                "particle_scale"      "3.3"
+                "particlename"     "unusual_pigeons_purple_parent"
+                "loop"     "1"
+            }
+        }
+        //"paintbackground"    "0"
+    }
 
 }
 

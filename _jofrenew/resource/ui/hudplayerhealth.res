@@ -82,7 +82,7 @@
 		"xpos"		"39"
 		"ypos"		"0"
 		zpos 999
-		"wide"		"85"
+		"wide"		"85+p0.002"
 		"tall"		"34" 
 		border g_targetborder
 		"bgcolor_override"	"0 0 0 0"

@@ -565,9 +565,9 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"204"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
-		"image"			"replay/thumbnails/hp/REFRACTblurRed"
+		"image"			"replay/thumbnails/hp/REFRACTblurRedLightish"
 		"scaleImage"	"1"
 		
 		if_mvm
@@ -584,9 +584,9 @@
 		"zpos"				"0"
 		"wide"				"p0.51"
 		"tall"				"204"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
-		"image"			"replay/thumbnails/hp/REFRACTblurBlu"
+		"image"			"replay/thumbnails/hp/REFRACTblurBluLightish"
 		"scaleImage"	"1"
 		"pin_to_sibling"	"BluePlayerList"	
 		if_mvm

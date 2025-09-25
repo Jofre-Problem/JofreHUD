@@ -25,6 +25,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}		
+		"ScoreboardVerySmall"	// stats combo box font
+		{
+			"1"
+			{
+				"name"		"tf2 secondary"
+				"tall"		"8"
+				
+				"antialias" "1"
+			}
+		}		
 		"Size 24 Damage"
 		{
 			"1"
