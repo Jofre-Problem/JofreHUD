@@ -189,7 +189,7 @@
 					"wide"			"p1"
 					"tall"			"p1"
 					"visible"		"1"
-					"fillcolor" "notodark"
+					"fillcolor" "0 0 0 255"
 				}	
 			}	
 			"4"

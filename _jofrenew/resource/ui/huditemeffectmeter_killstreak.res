@@ -85,64 +85,7 @@
 		"paintbackground"	"0"
 	}
 }
-"1"
-{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"35.0"
-				"Background"
-				{
-					"wide"		"0"
-				}
 
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"TitleScreenRain"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"TitleScreenRain"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"-100"
-		"wide"			"p0.3"
-		"tall"			"o1"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"ParticleEffects"
-		{
-            "0"
-            {
-                "particle_xpos"         "c-20"
-                "particle_ypos"      "c110"
-                "particle_scale"      "3"
-                "particlename"     "superrare_beams1"
-                    // cauldron_embers | scale 3 | fire sputters
-                    // hammer_souls_rising | scale 2 | ghosts rising
-                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-                "loop"     "1"
-            }
-		}
-		"paintbackground"	"0"
-	}
-}
 "1"
 {
 				"item"		"Frying Pan"
@@ -201,7 +144,7 @@
 		"paintbackground"	"0"
 	}
 }
-"0"
+"2"
 {	
 				"item"		"Frying Pan"
 				"show_market"	"0"

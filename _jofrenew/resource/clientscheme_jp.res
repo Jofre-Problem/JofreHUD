@@ -323,7 +323,7 @@ Scheme
 			"1"
 			{
 				"name" "TF2 Secondary"
-			//	"tall"		"11"
+			//	"tall"		"20"
 			//	"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"

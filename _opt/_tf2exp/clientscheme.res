@@ -4411,8 +4411,8 @@ Scheme
 		}
 		"4"
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "fonts/tf2custom2_secondary.ttf"
+			"name" "tf2custom2_secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

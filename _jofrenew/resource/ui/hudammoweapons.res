@@ -34,6 +34,30 @@
 		"tall"		"36"
 		"bgcolor_override"	"0 0 0 125"
 		"visible"		"1"
+	}		"border1"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"border1"
+		"xpos"		"0"
+		"ypos"		"0"
+		zpos 999
+		"wide"		"124"
+		"tall"		"34" 
+		border g_targetborder
+		"bgcolor_override"	"0 0 0 0"
+		"visible"		"1"
+	}		"border2"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"border2"
+		"xpos"		"90"
+		"ypos"		"0"
+		zpos 9999
+		"wide"		"34"
+		"tall"		"34" 
+		border g_targetborder
+		"bgcolor_override"	"255 255 255 0"
+		"visible"		"1"
 	}	
 	"cover1"
 	{

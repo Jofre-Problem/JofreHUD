@@ -16,6 +16,7 @@
 			zpos					100
 			wide					32
 			tall					31
+			border g_targetborder
 		if_mvm
 		{
 			"visible"		"0"
@@ -23,6 +24,7 @@
 				"PartySlot0"  // player
 		{
 			wide					32
+			
 		}	
 	}		
 					"SummerBorder"

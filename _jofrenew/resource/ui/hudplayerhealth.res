@@ -72,10 +72,22 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"	border g_targetborder
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}
+	}	"border1"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"border1"
+		"xpos"		"39"
+		"ypos"		"0"
+		zpos 999
+		"wide"		"84"
+		"tall"		"34" 
+		border g_targetborder
+		"bgcolor_override"	"0 0 0 0"
+		"visible"		"1"
+	}	
 	"BarShadow"
 	{
 		"ControlName"	"ImagePanel"
@@ -113,11 +125,11 @@
 		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"34" [$WINDOWS]
-				"tall" "33"	[$LINUX]
+				"tall" "34"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
+		"scaleImage"		"1"	border g_targetborder
 //		"teambg_2"		"replay/thumbnails/hp/redteam2"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}

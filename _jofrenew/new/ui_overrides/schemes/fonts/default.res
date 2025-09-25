@@ -58,7 +58,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"64"
 				
 				"antialias" "1"
@@ -69,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"48"
 				
 				"antialias" "1"
@@ -100,7 +100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"36"
 				
 				"antialias" "1"
@@ -130,7 +130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"32"
 				
 				"antialias" "1"
@@ -140,7 +140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"28"
 				
 				"antialias" "1"
@@ -180,7 +180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"16"
 				
 				"antialias" "1"
@@ -190,7 +190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -200,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				
 				"antialias" "1"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"12"
 				
 				"antialias" "1"
@@ -270,7 +270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"tf2custom2_secondary"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"

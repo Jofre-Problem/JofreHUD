@@ -806,7 +806,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"24"
 				"antialias" "1"
 			}
@@ -842,7 +842,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -851,7 +851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"antialias" 	"1"
 			}
@@ -888,7 +888,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" 	"1"
 			}
@@ -897,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -949,7 +949,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"9"
 				"antialias" "1"
 			}
@@ -965,7 +965,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -974,7 +974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" "1"
 			}
@@ -1043,7 +1043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -1264,7 +1264,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" "1"
 			}
@@ -1346,7 +1346,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -1364,7 +1364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1373,7 +1373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1382,7 +1382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -1391,7 +1391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1400,7 +1400,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"34"
 				"antialias" "1"
 			}
@@ -1466,7 +1466,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -1475,7 +1475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -1484,7 +1484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"antialias" "1"
 			}
@@ -1493,7 +1493,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -1502,7 +1502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"7"
 				"antialias" "1"
 			}
@@ -1512,7 +1512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -1722,7 +1722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"28"
 			}
 		}
@@ -1746,7 +1746,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 			}
 		}
@@ -1754,7 +1754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 			}
 		}
@@ -1796,7 +1796,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" 	"1"
 			}
@@ -1805,7 +1805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"antialias" 	"1"
 			}
@@ -1912,7 +1912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"7"
 				"antialias" 	"1"
 			}
@@ -1930,7 +1930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"8"
 				"antialias" 	"1"
 			}
@@ -1939,7 +1939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" 	"1"
 			}
@@ -1948,7 +1948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"antialias" 	"1"
 			}
@@ -2105,21 +2105,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 				"yres"		"1024 6000"
 				"antialias"	"1"
@@ -2130,7 +2130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"yres"		"480 599"
 				"antialias"	"1"
@@ -2138,7 +2138,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"yres"		"600 1023"
 				"antialias"	"1"
@@ -2146,7 +2146,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 				"yres"		"1024 6000"
 				"antialias"	"1"
@@ -2158,21 +2158,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"yres"		"480 599"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"yres"		"1024 6000"
 				"antialias"	"1"
@@ -2183,7 +2183,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"13"
 				"antialias" "1"
 			}
@@ -2193,7 +2193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"16"
 				"antialias" "1"
 			}
@@ -2203,7 +2203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -2292,7 +2292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"antialias" 	"1"
 			}
@@ -2378,7 +2378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"antialias" "1"
 			}
@@ -2410,7 +2410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -2420,7 +2420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"9"
 				"antialias" 	"1"
 			}
@@ -5221,7 +5221,7 @@ Scheme
 		}
 		"4" 
 		{
-			"name" "TF2 Secondary"
+			"name" "tf2custom2_secondary"
 			"russian"
 			{
 			}

@@ -13,7 +13,7 @@
 				"ControlName"	"Button"
 				"fieldName"		"NextButton"
 				"xpos"		"rs1-22"
-				"ypos"		"rs1-72"
+				"ypos"		"rs1-72"// +44
 				"zpos"		"2"
 		wide							18
 		tall							40 
@@ -462,7 +462,8 @@
 		
 		paintbackground				0
 
-	}	
+	}
+		
 	"redbtn"
 	{
 		ControlName					CExButton
@@ -732,10 +733,10 @@
 	{
 		ControlName					CTFPlayerModelPanel
 		fieldName					"classmodelpanel"
-		xpos							cs-0.5
+		xpos							0
 		ypos							0
 		zpos							-1
-		wide							f0		// without side bars
+		wide							p0.986		// without side bars
 		tall							f0
 		proportionaltoparent		1
 		visible						1
@@ -765,9 +766,259 @@
 			//origin_x 				450	// distance
 			//origin_y 				50		// horizontal
 			//origin_z 				-50	// vertical -55
-		
+
 		}
 	}
+				"ControlName"			"EditablePanel"
+		"SideBar1"
+			{
+				"ControlName"			"CScrollableList"
+				"fieldName"					"SideBar1"
+				"xpos"						"0"
+				"ypos"						"0"
+				"zpos"						"-2"
+		"wide"			"p1"
+		"tall"			"409"
+				"proportionaltoparent"		"1"
+				"bgcolor_override"			"blank"
+
+								"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					ypos 66
+					"tall"			"342"
+					"wide"			"9" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{	
+						ypos 50
+						"fgcolor_override"	"TransparentBlack"
+						"alpha" "255"
+						"bgcolor_override"	"Blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"upButton"
+						"visible"		"0"
+						alpha 0
+						xpos r0
+
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}	
+					"bb"
+		{
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"-2"		
+			"ControlName"		"ImagePanel"
+			"fieldName"			"bb"
+			"fillcolor"				"27 27 27 0"
+			"scaleImage"		"1"
+			"mouseInputenabled"	"0"
+			"wide"		"p2"
+			"tall"		"p8"		
+		}	
+		"TitleScreenRain"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1"
+			"visible"		"0"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0" // supposed to be nothing
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "120"
+					"particle_scale"      "3"
+					"particlename"     "unusual_invasion_nebula"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "0"
+				}
+			}
+			"paintbackground"	"0"
+		}	
+		"TitleScreenRain2"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain2"
+			"xpos"			"0"
+			"ypos"			"300"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "300"
+					"particle_scale"      "15"
+					"particlename"     "unusual_invasion_nebula"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}
+			}
+			"paintbackground"	"0"
+		}	
+		"TitleScreenRain3"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain3"
+			"xpos"			"0"
+			"ypos"			"480+480"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1.5"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "400"
+					"particle_scale"      "15"
+					"particlename"     "unusual_shootingstar_purple_parent"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}
+			}
+			"paintbackground"	"0"
+		}	
+		"TitleScreenRain4"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain4"
+			"xpos"			"0"
+			"ypos"			"480+480+480"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1.2"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "600"
+					"particle_scale"      "12"
+					"particlename"     "unusual_eotl_sunset"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}
+			}
+			"paintbackground"	"0"
+		}
+		"TitleScreenRain5"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain5"
+			"xpos"			"0"
+			"ypos"			"480+480+480+480+40"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1.3"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "350"
+					"particle_scale"      "4"
+					"particlename"     "spellbook_major_burning"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}
+				"1"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "350"
+					"particle_scale"      "4"
+					"particlename"     "spellbook_major_encircling"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}				
+			}
+			"paintbackground"	"0"
+		}
+		"TitleScreenRain6"
+		{
+			"ControlName"	"CTFParticlePanel"
+			"fieldName"		"TitleScreenRain6"
+			"xpos"			"0"
+			"ypos"			"480+480+480+480+480"
+			"zpos"			"-100"
+			"wide"			"p1"
+			"tall"			"p1.2"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"ParticleEffects"
+			{
+			
+				"0"
+				{
+					"particle_xpos"         "c-150"
+					"particle_ypos"      "600"
+					"particle_scale"      "7"
+					"particlename"     "unusual_sparkletree_gold_parent"
+						// cauldron_embers | scale 3 | fire sputters
+						// hammer_souls_rising | scale 2 | ghosts rising
+						// env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
+					"loop"     "1"
+				}
+			}
+			"paintbackground"	"0"
+		}
+
+}
 
 "presetpinner"
 {

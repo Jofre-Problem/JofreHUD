@@ -6,7 +6,7 @@
         {
             "1"
             {
-             //   "name"        "TF2 Secondary"
+             //   "name"        "tf2custom2_secondary"
                 "tall"        "26"
                 "weight"    "500"
              //   "yres"        "1 1199"
@@ -15,7 +15,7 @@
             }
             "2" // Misyl: Proportional
             {
-            //    "name"        "TF2 Secondary"
+            //    "name"        "tf2custom2_secondary"
                 "tall"        "16"
             //   "weight"    "500"
                 "additive"    "0"

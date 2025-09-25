@@ -30,11 +30,24 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}		
+		}	
+		"tf2 def secondary" 
+		{
+			"font" "resource/tf2secondary.ttf"
+			"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}			
 		"244" 
 		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
+			"font" "fonts/tf2custom2_secondary.ttf"
+			"name" "tf2custom2_secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

@@ -434,7 +434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"24"
 				"weight"	"500"
 				//
@@ -480,7 +480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				//"tall_lodef"	"24"
 				//"tall_lodef"	"20"
@@ -493,7 +493,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				//"tall_lodef"	"16"
 				"weight"	"500"
@@ -539,7 +539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"500"
 				//
@@ -550,7 +550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"500"
 				//
@@ -617,7 +617,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"9"
 				"weight"	"0"
 				//
@@ -639,7 +639,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"12"
 				//"tall_lodef"	"14"
 				//"tall_lodef"	"16"
@@ -652,7 +652,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"500"
 				//
@@ -664,7 +664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				//"tall_lodef"	"24"
 				//"tall_lodef"	"18"
@@ -941,7 +941,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				//"tall_lodef"	"14"
 				"antialias" "1"
@@ -1058,7 +1058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				//"tall_lodef"	"12"
 				//"tall_lodef"	"14"
@@ -1083,7 +1083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1095,7 +1095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				//"tall_lodef"	"24"
 				//"tall_lodef"	"24"
@@ -1109,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1121,7 +1121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1133,7 +1133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"34"
 				//"tall_lodef"	"38"
 				//"tall_lodef"	"38"
@@ -1222,7 +1222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"400"
 				//
@@ -1233,7 +1233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"20"
 				"weight"	"400"
 				//
@@ -1244,7 +1244,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"400"
 				//
@@ -1255,7 +1255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"weight"	"400"
 				//
@@ -1266,7 +1266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"7"
 				"weight"	"400"
 				//
@@ -1278,7 +1278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				//"tall_lodef"	"12"
 				//"tall_lodef"	"14"
@@ -1533,7 +1533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"28"
 				//"tall_lodef"	"24"
 				"weight"	"500"
@@ -1561,7 +1561,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1570,7 +1570,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1620,7 +1620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"600"
 				//
@@ -1631,7 +1631,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"weight"	"400"
 				//
@@ -1761,7 +1761,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"7"
 				"weight"	"500"
 				//
@@ -1782,7 +1782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"8"
 				"weight"	"500"
 				//
@@ -1793,7 +1793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"500"
 				//
@@ -1804,7 +1804,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"500"
 				//
@@ -1987,7 +1987,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -1996,7 +1996,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"400"
 				//
@@ -2005,7 +2005,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 				"weight"	"400"
 				//
@@ -2018,7 +2018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2028,7 +2028,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"400"
 				//
@@ -2038,7 +2038,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"22"
 				"weight"	"400"
 				//
@@ -2052,7 +2052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2061,7 +2061,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"14"
 				"weight"	"800"
 				//
@@ -2070,7 +2070,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				"weight"	"800"
 				//
@@ -2083,7 +2083,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"13"
 				"weight"	"400"
 				//
@@ -2095,7 +2095,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"16"
 				"weight"	"400"
 				//
@@ -2107,7 +2107,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"10"
 				"weight"	"400"
 				//
@@ -2215,7 +2215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"11"
 				"weight"	"500"
 				//
@@ -2325,7 +2325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"18"
 				//"tall_lodef"	"24"
 				//"tall_lodef"	"20"
@@ -2365,7 +2365,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2378,7 +2378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"tf2custom2_secondary"
 				"tall"		"9"
 				"weight"	"400"
 				//

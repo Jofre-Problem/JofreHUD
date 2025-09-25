@@ -209,7 +209,7 @@
 	}
 	"PlayerStatusHealthValueID3"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"cautofittinglabel"
 		"fieldName"		"PlayerStatusHealthValueID3"
 		"xpos"			"0"
 		"ypos"			"1010"
@@ -222,6 +222,22 @@
 		"textAlignment"	"center"	
 		"font"			"SpecTargetIDhp"
 		"fgcolor"		"236 240 241 255"
+
+					"fonts"
+				{
+					"0"
+					{
+						"font"	"SpecTargetIDhp" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"killfeed" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"killfeed" // TF2 Build 9
+					}
+				}
 	}
 	"PlayerStatusHealthValue3S"
 	{

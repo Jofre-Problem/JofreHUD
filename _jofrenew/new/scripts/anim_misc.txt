@@ -1,3 +1,11 @@
+event MoveUnusualPanelY
+{
+	RunEventChild character_info MoveUnusualPanelYChild 0.0
+}
+event MoveUnusualPanelYChild
+{
+ Animate UnusualCyclingAd ypos 15 linear 0.0 0.0
+}
 event ShowDevMenu
 {
 	RunEventChild MainMenuOverride ShowDevMenuChild 0.0
