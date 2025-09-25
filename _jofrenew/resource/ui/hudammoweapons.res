@@ -32,7 +32,7 @@
 		"ypos"		"0"
 		"wide"		"124"
 		"tall"		"36"
-		"bgcolor_override"	"0 0 0 125"
+		"bgcolor_override"	"0 0 0 0"
 		"visible"		"1"
 	}		"border1"
 	{
@@ -40,8 +40,8 @@
 		"fieldName"		"border1"
 		"xpos"		"0"
 		"ypos"		"0"
-		zpos 999
-		"wide"		"124"
+		zpos 9999
+		"wide"		"85"
 		"tall"		"34" 
 		border g_targetborder
 		"bgcolor_override"	"0 0 0 0"
@@ -95,7 +95,7 @@
 		"ypos"			"1"
 		"zpos"			"500"
 		"wide"			"4"
-		"tall"			"35"
+		"tall"			"33"
 		"visible"		"1"
 		"enabled"		"1"
 	//	"border"	"cleanup"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"AmmoReserve2"
+		"font"			"g_fontmedium" //"AmmoReserve2"
 		"fgcolor"		"236 240 241 255"
 		"xpos"			"-88"
 		"ypos"			"0"
@@ -251,8 +251,7 @@
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 	//	"teambg_3"		"replay/thumbnails/hp/bluteam"		
 		"wide"			"123"
-		"tall"			"34" [$WINDOWS]
-				"tall" "33"	[$LINUX]
+		"tall"			"33"
 		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"LowAmmoTextBG"
@@ -352,7 +351,7 @@
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 0"
 	///	"border"		"cleanup"		
 		"ypos"	"-34"
 		"pin_to_sibling"	"AmmoAnchor"

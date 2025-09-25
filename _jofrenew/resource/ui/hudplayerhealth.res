@@ -82,7 +82,7 @@
 		"xpos"		"39"
 		"ypos"		"0"
 		zpos 999
-		"wide"		"84"
+		"wide"		"85"
 		"tall"		"34" 
 		border g_targetborder
 		"bgcolor_override"	"0 0 0 0"
@@ -99,7 +99,7 @@
 		"zpos"	"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 0"
 		border noborder
 	}
 	"overhealthclean"
@@ -472,7 +472,7 @@
 		"ypos"			"0"
 		"zpos"			"200"
 		"wide"			"5"
-		"tall"			"36"
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image" 		"replay/thumbnails/hp/REFRACTnormal"
