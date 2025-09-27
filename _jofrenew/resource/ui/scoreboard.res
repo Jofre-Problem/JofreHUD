@@ -513,7 +513,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel3"
-		"font"			"g_fonttiny_2"
+		"font"			"ScoreboardVerySmall"
 		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
@@ -521,7 +521,7 @@
 		"ypos"			"0" [$WINDOWS]
 				"ypos" "2"	[$LINUX]		
 		"zpos"			"5000"
-		"wide"			"f0"
+		"wide"			"p0.9"
 		"tall"			"10"
 		"font_minmode"				"newicons15"
 		"visible"		"1"

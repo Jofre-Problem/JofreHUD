@@ -11,6 +11,7 @@
 		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
+		border g_targetborder
 	}
 
 	"Countdown"
@@ -45,7 +46,7 @@
 	{
 		"ControlName"		"cexLabel"
 		"fieldName"		"CapNumPlayers"
-		"font"			"DamagetextOutline"
+		"font"			"Damagetext"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -64,7 +65,7 @@
 	{
 		"ControlName"		"cexLabel"
 		"fieldName"		"CapNumPlayers2"
-		"font"			"AmmoPipesOut2"
+		"font"			"Damagetext"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"

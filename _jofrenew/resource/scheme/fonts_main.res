@@ -19,8 +19,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"open_sans_bold"
-				"tall"	"13"
+				"name"	"tf2 secondary"
+				"tall"	"9"
 				"outline"	"1"
 				"antialias"	"1"
 			}

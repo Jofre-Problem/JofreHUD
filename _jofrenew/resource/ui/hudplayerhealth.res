@@ -72,12 +72,26 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	border g_targetborder
+		"scaleImage"		"1"
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam"
-	}	"border1"
+	}	
+"border0"
 	{
-		"ControlName"		"Panel"
+		"ControlName"		"editablePanel"
+		"fieldName"		"border0"
+		"xpos"		"0"
+		"ypos"		"0"
+		zpos 9999
+		"wide"		"34"
+		"tall"		"34" 
+		border g_targetborder
+		"bgcolor_override"	"0 0 0 0"
+		"visible"		"1"
+	}		
+	"border1"
+	{
+		"ControlName"		"editablePanel"
 		"fieldName"		"border1"
 		"xpos"		"39"
 		"ypos"		"0"
