@@ -52,8 +52,8 @@
 		"fgcolor_override"	"Notowhite"
 							"fonts"
 				{
-					"0"		"g_fonttiny2"
-					"1"		"g_fontsmall"
+					"0"		"NotoBold12"
+					"1"		"Notobold16"
 					"2"		"NotoBold18"
 				}	
 	}

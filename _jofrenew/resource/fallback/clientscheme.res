@@ -46,8 +46,8 @@ Scheme
 		}			
 		"244" 
 		{
-			"font" "fonts/tf2custom2_secondary.ttf"
-			"name" "tf2custom2_secondary"
+			"font" "fonts/productsansbold.ttf"
+			"name" "productsansbold"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"

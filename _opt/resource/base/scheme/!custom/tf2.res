@@ -5,7 +5,7 @@ CustomFontFiles
 "4" 
 {
 "font" "resource/TF2Secondary.ttf"
-"name" "tf2custom2_secondary"
+"name" "productsansbold"
 "russian"
 {
 "range" "0x0000 0xFFFF"

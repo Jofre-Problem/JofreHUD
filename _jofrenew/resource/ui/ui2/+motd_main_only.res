@@ -75,11 +75,11 @@
 				"wide"						"300"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-				"font"						"g_fontsmall"
+				"font"						"NotoBold12"
 				"labelText"					"Demo Settings (hud/tools/)" 
 				"textAlignment"				"center"
-				"fgcolor"					"notowhite"
-				"bgcolor_override"			"g_brown"
+				"fgcolor"					"notodark"
+				"bgcolor_override"			"notowhite"
 			}	
 				"HelpDemo"			// other classes pinned to this
 			{
@@ -109,7 +109,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"REC START / STOP"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +STASTO"
@@ -127,7 +127,7 @@
 		"tall"							"30"
 	zpos	"100"
 		labelText				"REC RESET"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +recreset"
@@ -146,7 +146,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"Next Slot >"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +next"
@@ -164,7 +164,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"< Previous Slot"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +prev"
@@ -182,7 +182,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"# Funny"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +reccatfun"
@@ -200,7 +200,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Random"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +reccatrandom"
@@ -218,7 +218,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Casual"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +reccatcasual"
@@ -236,7 +236,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Comp"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +reccatcomp"
@@ -272,7 +272,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"# VSH"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +reccatvsh"
@@ -483,11 +483,11 @@
 				"wide"						"300"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-				"font"						"g_fontsmall"
+				"font"						"NotoBold12"
 				"labelText"					"Voice Settings"
 				"textAlignment"				"center"
-				"fgcolor"					"notowhite"
-				"bgcolor_override"			"g_brown"
+				"fgcolor"					"notodark"
+				"bgcolor_override"			"notowhite"
 			}
 		"+voice"			// other classes pinned to this
 	{
@@ -499,7 +499,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"+VoiceOn"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +voicerecord"
@@ -518,7 +518,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"-VoiceOFF"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine -voicerecord"
@@ -537,11 +537,11 @@
 				"wide"						"300"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-				"font"						"g_fontsmall"
+				"font"						"NotoBold12"
 				"labelText"					"Bug Fixes"
 				"textAlignment"				"center"
-				"fgcolor"					"notowhite"
-				"bgcolor_override"			"g_brown"
+					"fgcolor"					"notodark"
+				"bgcolor_override"			"notowhite"
 			}	
 		"invisplayers"			// other classes pinned to this
 	{
@@ -553,7 +553,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Invisible Players"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine stop;record null; stop"
@@ -572,7 +572,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Stuck On Spectator"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine jointeam red; joinclass sniper"
@@ -591,7 +591,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Visual bugs on MVM"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine hud_reloadscheme"
@@ -631,7 +631,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"1"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine next_map_vote 1"
@@ -650,7 +650,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"2"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine next_map_vote 1"
@@ -669,7 +669,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"3"
-		font					"g_fontsmall_2"
+		font					"noto12"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine next_map_vote 2"
@@ -686,7 +686,7 @@
 			"zpos"		"-2"		
 			"ControlName"		"ImagePanel"
 			"fieldName"			"bb"
-			"fillcolor"				"27 27 27 255"
+			"fillcolor"				"27 27 27 150"
 			"scaleImage"		"1"
 			"mouseInputenabled"	"0"
 			"wide"		"p2"
@@ -749,21 +749,21 @@
 				"wide"						"293"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-				"font"						"g_fontsmall"
+				"font"						"NotoBold12"
 				"labelText"					"Tools Panel"
 				"textAlignment"				"center"
-				"fgcolor"					"notowhite"
-				"bgcolor_override"			"g_brown"
+					"fgcolor"					"notodark"
+				"bgcolor_override"			"notowhite"
 			}		
 	"ContractLabel"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ContractLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Contract:"
 		"textAlignment"	"west"
 		"xpos"		"10"
-		"ypos"		"10"
+		"ypos"		"420"
 		"zpos"		"200"
 		"wide"		"105"
 		"tall"		"20"
@@ -783,7 +783,7 @@
 		"ControlName"		"CvarToggleCheckButton"
 		"fieldName"		"ContractCheck"
 		"xpos"		"90"
-		"ypos"		"10"
+		"ypos"		"420"
 		"zpos"		"199"
 		"wide"		"18"
 		"tall"		"20"
@@ -800,7 +800,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"VoiceLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Voice Chat:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -841,7 +841,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VoiceVolume"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -872,7 +872,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TextChatLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Text Chat:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -914,7 +914,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextChatTime"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -944,7 +944,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NotificationsLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Notifications:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -985,7 +985,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotificationsTime"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1017,7 +1017,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CCLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"CC Callouts:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1057,7 +1057,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CCTime"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1091,7 +1091,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MatchHudLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Team Status:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1131,7 +1131,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LeftHandedLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Left Handed Weapons:"
 		"textAlignment"	"west"
 		"xpos"		"118"
@@ -1170,7 +1170,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Minmodelabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Minmode:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1210,7 +1210,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Loopbacklabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Voice Loopback:"
 		"textAlignment"	"west"
 		"xpos"		"117"
@@ -1250,7 +1250,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CrosshairEnableLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Show Xhair:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1294,7 +1294,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairScale"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Size:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1327,7 +1327,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumEnableLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Show DMG:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1372,7 +1372,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumBatchingLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Adding:"
 		"textAlignment"	"west"
 		"xpos"		"117"
@@ -1414,7 +1414,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBatchingWindow"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Time:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1447,7 +1447,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TartgetIDBGLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"TargetID BG Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1482,7 +1482,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillFeedLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Killfeed Duration:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1514,7 +1514,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakAlphaLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Streak Alert Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1547,7 +1547,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakDurationLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Streak Alert Duration:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1581,7 +1581,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HitSoundEnableLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Hit Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1623,7 +1623,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundVolume"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1656,7 +1656,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMinLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Low DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1690,7 +1690,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMaxLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"High DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1722,7 +1722,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"KillSoundEnableLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Kill Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1764,7 +1764,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundVolume"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1797,7 +1797,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMinLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"Low DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1830,7 +1830,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMaxLabel"
-		"font"		"g_fontsmall_2"
+		"font"		"noto12"
 		"labelText"		"High DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"

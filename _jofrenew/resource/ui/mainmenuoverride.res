@@ -159,7 +159,7 @@
 		zpos "100"
 		"wide"			"p1.01"
 		"tall"			"480"
-		"visible"		"0"
+		"visible"		"1"
 		"AdsContainer"
 		{
 			tall f0
@@ -169,14 +169,14 @@
 				"ControlName"	"Button"
 				"fieldName"		"NextButton"
 				"xpos"		"0+p0.5"
-				"ypos"		"r35"
+				"ypos"		"r15"
 				"zpos"		"2"
 				"wide"		"p0.5"
-				"tall"		"20"   
+				"tall"		"15"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
-				"bgcolor_override"	"0 0 0 220"
+				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"White"
 				"font"			"G_FontSmall"
 				"textAlignment"	"east"
@@ -186,8 +186,8 @@
 				"command"	"next"
 				"actionsignallevel" "2"
 
-				"defaultBgColor_override"	"black"
-				"armedBgColor_override"		"0 0 0 180"
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
 
 
 				"defaultFgColor_override"		"255 255 255 170"
@@ -202,14 +202,14 @@
 				"ControlName"	"Button"
 				"fieldName"		"PrevButton"
 				"xpos"		"0"
-				"ypos"		"r35"
+				"ypos"		"r15"
 				"zpos"		"2"
 				"wide"		"p0.5"
-				"tall"		"20"   
+				"tall"		"15"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
-				"bgcolor_override"	"0 0 0 220"
+				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"notodark"
 				"font"			"G_FontSmall"
 				"textAlignment"	"west"
@@ -219,8 +219,8 @@
 				"command"	"prev"
 				"actionsignallevel" "2"
 
-				"defaultBgColor_override"	"black"
-				"armedBgColor_override"		"0 0 0 180"
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
 
 
 				"defaultFgColor_override"		"255 255 255 170"
@@ -395,183 +395,441 @@
 				{
 					"wide"		"0"
 				}
-	"Paint"
-	{
-		"ControlName"    "CMatchHistoryEntryPanel"
-		"xpos"            "10"
-		"ypos"            "30"
-		"zpos"            "2002"
-		"wide"            "200"
-		"tall"            "250"
-		"visible"        "1"
-		"proportionaltoparent"    "1"
-
-		"collapsed_height"    "24"
-		"expanded_height"    "250"
-		"resize_time"		"0.0"
-
-		"ignorescheme"    "1"
-
-		"container"{"visible"    "0"}
-		"BottomStats"{"visible"    "0"}
-
-		"Toggle"
-		{
-			"ControlName"	"CExImageButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"24"
-			"tall"			"24"
-			"textalignment"	"south"
-			"labeltext"		"Paint"
-			"command"		"toggle_collapse"
-			"font"			"Noto10"
-			"defaultfgcolor_override"	"255 255 255 255"
-			"paintBackground"	"0"
-			
-			"SubImage"
-			{
-				"xpos"	"cs-0.5"
-				"wide"	"16"
-				"tall"	"o1"
-				"proportionaltoparent"	"1"
-				"scaleimage"	"1"
-				"image"	"replay/thumbnails/bg/paint_logo"
-			}
-		}
-
-		"Contents"
-		{
-			"ControlName"	"EditablePanel"
-			"ypos"			"rs1-24"
-			"wide"			"f0"
-			"tall"			"f48"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"paintBorder"	"1"
-		//	"border"		"xpborder"
-
-			"Logo"
-			{
-				"ControlName"	"ImagePanel"
-				"xpos"			"2"
-				"ypos"			"4"
-				"wide"			"o1"
-				"tall"			"8"
-				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/bg/paint_logo"
-			}
-
-
-			"Title"
-			{
-				"ControlName"	"Label"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"16"
-				"proportionaltoparent"	"1"
-				"font"			"Noto10"
-				"fgcolor_override"	"255 255 255 255"
-				"labelText"		"Paint"
-			}
-			"Close"
-			{
-				"ControlName"	"CImageButton"
-				"xpos"			"rs1-4"
-				"ypos"			"4"
-				"wide"			"8"
-				"tall"			"8"
-				"proportionaltoparent"	"1"
-				"command"		"toggle_collapse"
-				"actionsignallevel"		"2"
-				"scaleimage"			"1"
-				"activeimage"			"replay/thumbnails/bg/xpclosearmed"
-				"inactiveimage"			"replay/thumbnails/bg/xpclose"
-			}
-			"Inside"
-			{
-				"ControlName"	"ImagePanel"
-				"xpos"			"2"
-				"ypos"			"14"
-				"wide"			"f4"
-				"tall"			"f16"
-				"proportionaltoparent"	"1"
-				"scaleImage"	"1"
-				"image"			"replay/thumbnails/bg/paint_inside"
-			}
-			"Draw"
-			{
-				"ControlName"	"CDrawingPanel"
-				"xpos"			"rs1-4"
-				"ypos"			"24"
-				"wide"			"f35"
-				"tall"			"f63"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"	"255 255 255 255"
-				"linecolor"		"0 0 0 255"
-			}
-			
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-		}
-	}	
-			"HolidayIndicator"
-		{
-			"ControlName"	"CEximageButton"
-			"xpos"			"rs1"
-			"ypos"			"40"
-			"wide"			"200"
-			"tall"			"44"
-			"textalignment"	"center"
-			font "NotoBold24"
+	"ScrollingPanel"
+        {
+            "ControlName"               "CScrollableList"
+            "fieldName"                 "ScrollingPanel"
+            "xpos"                      "1"
+            "ypos"                      "36"
+            "wide"                      "f1"
+            "tall"                      "f52"
+            "proportionaltoparent"      "1"
+            "restrict_width"            "0"
+            "scroll_step"               "20"
 			zpos 1000
-			"command"		"soundentry TEST.MMusic"
-			"labeltext" "Holiday: NONE"
-			"actionsignallevel" 4
-			paintBackground 1
-			"if_halloween"
-			{
-					"command" "soundentry TEST.MMusicHalloween"
-					"labeltext" "Holiday: Halloween"
-			}	
-			"if_soldier"
-			{
-					"command" "soundentry TEST.MMusicRickMay"
-					"labeltext" "Holiday: Rick May"
-			}					
-			"SubImage"
-			{
-					"fieldName" "MessageRelay"
-					"actionsignallevel" 1
-			}
-		}		
-				}
+            "ContentPanel"
+            {
+                "ControlName"           "EditablePanel"
+                "fieldName"             "ContentPanel"
+                "xpos"                  "0"
+                "ypos"                  "0"
+                "wide"                  "f20"
+                "tall"                  "4000"
+                "proportionaltoparent"  "1"
+                "bgcolor_override"      "255 0 0 0"
 
+ 				"Supporters"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Supporters"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
 
+                    "collapsed_height"          "20"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""535"
+					  "expanded_height""535"
+					
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "19"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Presets"
+                        "font"                      "regular12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "f20"
+                        "proportionaltoparent"      "1"
+					     "whatitslabel"
+                        {
+                            "ControlName"               "EditablePanel"
+                            "fieldName"                 "whatitslabel"
+                            "xpos"                      "0"
+                            "ypos"                      "0"
+                            "wide"                      "f0"
+                            "tall"                      "20"
+                            "proportionaltoparent"      "1"
+
+                            "whatitslabelButton"
+                            {
+                                "ControlName"               "CExButton"
+                                "fieldName"                 "whatitslabelButton"
+                                "xpos"                      "5"
+                                "ypos"                      "0"
+                                "wide"                      "f10"
+                                "tall"                      "f1"
+                                "proportionaltoparent"      "1"
+                                "labelText"                 "Presets"
+                                "font"                      "regular16"
+                                "textinsetx"                "5"
+                                "use_proportional_insets"   "1"
+                                "allcaps"                   "1"
+                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                "sound_depressed"           "UI/buttonclick.wav"
+                                "sound_released"            "UI/buttonclickrelease.wav"
+
+                            }
+                        }	
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "20"
+                            "wide"                           "f0"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "p0.3"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "p0.3"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Presets: Low"
+                                "font"                          "regular12"
+                                "fgcolor_override"                              "notowhite"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                               "command"   "engine exec presets/low.cfg; exec +mastercomfig.cfg"                            "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                        }
+   "1" {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f80"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Presets: Medium"
+                                "font"                          "regular12"
+                                "fgcolor_override"                              "notowhite"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                               "command"   "engine exec presets/medium.cfg; exec +mastercomfig.cfg"                            "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }
+  "3"
+    {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f80"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Presets: High"
+                                "font"                          "regular12"
+                                "fgcolor_override"                              "notowhite"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                              "command"   "engine exec presets/high; exec +mastercomfig"
+							    "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }
+	  "4"
+    {
+                            "controlname"                          "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0+p0.25+p0.25+p0.25"
+                          "ypos"                          "20"
+                            "wide"                           "p0.25"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+                            "bgpanel0" {
+                                "controlname"                              "editablepanel"
+                                "fieldname"                               "bgpanel0"
+                                "xpos"                               "5"
+                                "ypos"                              "0"
+                                "wide"                             "f10"
+                                "tall"                             "f1"
+                                "proportionaltoparent"                             "1"
+                                "mouseinputenabled"                            "0"
+                                "bgcolor_override"                            "0 0 0 255"
+                            }
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "f80"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Presets: Ultra"
+                                "font"                          "regular12"
+                                "fgcolor_override"                              "notowhite"
+         
+                            }
+                            "profilebutton" {
+                                "controlname"                             "ceximagebutton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "5"
+                                "ypos"                             "0"
+                                "wide"                             "f10"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+                                "labeltext"                            ""
+                              "command"   "engine exec presets/ultra; exec +mastercomfig"
+							    "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "0"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                         
+                        }					
+                    }
+                }
+                "Colors"
+                {
+                    "pin_to_sibling"            "Supporters"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "MMenu"
+                {
+                    "pin_to_sibling"            "Colors"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Hitmarker"
+                {
+                    "pin_to_sibling"            "MMenu"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Killfeed"
+                {
+                    "pin_to_sibling"            "Hitmarker"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Playerclass"
+                {
+                    "pin_to_sibling"            "Killfeed"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+                "Scoreboard"
+                {
+                    "pin_to_sibling"            "Playerclass"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                    "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                }
+            }
+
+            "Scrollbar"
+            {
+                "xpos"                  "202"
+                "wide"                  "16"
+                "proportionaltoparent"  "1"
+                "nobuttons"             "1"
+                
+                "Slider"
+                {
+                    "bgcolor_override"          "0 0 0 0"
+                    "fgcolor_override"          "0 0 0 0"
+                }
+
+                "UpButton"
+                {
+                    "xpos"              "9999"
+                    "ypos"              "9999"
+                    "wide"              "0"
+                    "tall"              "0"
+                    "visible"           "0"
+                    "enabled"           "0"
+                }
+                "DownButton"
+                {
+                    "xpos"              "9999"
+                    "ypos"              "9999"
+                    "wide"              "0"
+                    "tall"              "0"
+                    "visible"           "0"
+                    "enabled"           "0"
+                }
+            }
+        }
+																																															
+		}
 
 				"3"
 			{

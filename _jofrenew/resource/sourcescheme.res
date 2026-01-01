@@ -441,7 +441,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"22"
 				"weight"	"500"
 				"antialias" "1"
@@ -451,7 +451,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
@@ -461,7 +461,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
@@ -538,7 +538,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"tf2custom2_secondary_ss"
+				"name"				"productsansbold_ss"
 				"tall"		"12"
 				"antialias" "1"
 			}
@@ -624,7 +624,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"22"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -634,7 +634,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"16"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -644,7 +644,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"18"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -654,7 +654,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"20"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -664,7 +664,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"22"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -700,7 +700,7 @@ Button.DepressedTextColor "220 220 220 255"
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
             {
 
-                "name"         "tf2custom2_secondary_ss"              
+                "name"         "productsansbold_ss"              
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
 				"weight"     "0"
@@ -712,7 +712,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
-                "name"         "tf2custom2_secondary_ss" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
+                "name"         "productsansbold_ss" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]             
                 "weight"     "0"
@@ -724,7 +724,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
             {
-                "name"         "tf2custom2_secondary_ss"// "11"                
+                "name"         "productsansbold_ss"// "11"                
                  "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
                 "weight"     "0"
@@ -740,7 +740,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"20"
 				"weight"	"1000"
 			}
@@ -788,7 +788,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"tf2custom2_secondary_ss"
+				"name"		"productsansbold_ss"
 				"tall"		"18"
 				
 			}
@@ -877,8 +877,8 @@ Button.DepressedTextColor "220 220 220 255"
 		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"		
 		"tf2def"
 		{
-			"font" "fonts/tf2custom2_secondary_ss.ttf"
-			"name" "tf2custom2_secondary_ss"
+			"font" "fonts/productsansbold_ss.ttf"
+			"name" "productsansbold_ss"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
