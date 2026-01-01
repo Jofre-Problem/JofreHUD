@@ -1,1 +1,1 @@
-#base "../../_hud/_menu2025/gamemenu.res"
+#base "../../_hud/_menu1_old2/gamemenu.res"
