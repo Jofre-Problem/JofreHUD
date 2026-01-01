@@ -1,5 +1,5 @@
 	#base	"../../_mainstream/playlist-reappearing/matchmakingdashboardcasualcriteria.txt"
 	//#base	"../../_stream/resource/ui/matchmakingdashboardcasualcriteria.res"
 	#base	"../../_jofrenew/resource/ui/matchmakingdashboardcasualcriteria.res"
-	#base	"../../_opt/resource/ui/matchmakingdashboardcasualcriteria.res"
+//	#base	"../../_opt/resource/ui/matchmakingdashboardcasualcriteria.res"
 	#base	"../../z_tf2/resource/ui/matchmakingdashboardcasualcriteria.res"

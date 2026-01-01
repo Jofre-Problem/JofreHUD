@@ -8,75 +8,11 @@
 #base "ui2/+motd_main_only.res"
 #base "ui2/motd_fallback.res"
 #base "ui2/+safemode.res"
-#base "ui2/test_mainmenubg.res"
-#base "ui2/test_chara.res"
-#base "ui2/test_ui.res"
+
 //#base "../fallback/mainmenu.res"
 "j"
 {
-
-	"newtopbarbg"
-		{
-			ControlName editablepanel
-			fieldName newtopbarbg
-			bgcolor_override G_Brown
-			tall 15
-			wide f0
-			ypos 0
-			zpos -999
-			visible 1
-			border G_targetborder
-		}			
-
-		"dumbnewtopbarbg"
-		{
-			ControlName editablepanel
-			fieldName dumbnewtopbarbg
-			bgcolor_override blank
-			tall 15
-			wide f0
-			ypos 0
-			mouseinputenabled 0
-			zpos 1111
-			visible 1
-			border G_TargetBorder2
-		}	
-		"newbottombarbg"
-		{
-			ControlName editablepanel
-			fieldName newbottombarbg
-			bgcolor_override G_Brown
-			tall 15
-			wide f0
-			ypos rs1
-			zpos -999
-			visible 1 
-			border G_targetborder
-		}	
-		"newizquierdabarbg"
-		{
-			ControlName editablepanel
-			fieldName newizquierdabarbg
-			bgcolor_override G_Brown
-			tall f0
-			wide 15
-			ypos 0
-			zpos -999
-			visible 1
-			border G_targetborder
-		}	
-		"newderechabarbg"
-		{
-			ControlName editablepanel
-			fieldName newderechabarbg
-			bgcolor_override G_Brown
-			tall f0
-			wide 15
-			xpos rs1
-			zpos -999
-			visible 1
-			border G_targetborder
-		}		
+	
 
 		//////////////////////
 	//	 ↑UNTOUCHED↑	//
@@ -1174,10 +1110,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"border" "g_targetborder"
 				"paintbackground"	"1"
-			"defaultbgcolor_override" "117 107 94 255"
-				"defaultfgcolor_override" "235 226 202 255"
-				"armedbgcolor_override" "145 73 59 255"
-				"armedfgcolor_override" "235 226 202 255"
+			"defaultbgcolor_override" "0 0 0 120"
+				"defaultfgcolor_override" "notogreen"
+				"armedbgcolor_override" "0 0 0 220"
+				"armedfgcolor_override" "notogreen"
 			}
 			"RandomPinnerThatWorks" //leftover
 			{
@@ -1524,10 +1460,10 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 
 				"paintbackground"	"1"
-			"defaultbgcolor_override" "117 107 94 255"
-				"defaultfgcolor_override" "235 226 202 255"
-				"armedbgcolor_override" "145 73 59 255"
-				"armedfgcolor_override" "235 226 202 255"
+			"defaultbgcolor_override" "0 0 0 120"
+				"defaultfgcolor_override" "notogreen"
+				"armedbgcolor_override" "0 0 0 220"
+				"armedfgcolor_override" "notogreen"
 			}
 				"buttonimage"
 				{
@@ -1701,10 +1637,10 @@
 
 				"border" "g_targetborder"
 				"paintbackground"	"1"
-			"defaultbgcolor_override" "117 107 94 255"
-				"defaultfgcolor_override" "235 226 202 255"
-				"armedbgcolor_override" "145 73 59 255"
-				"armedfgcolor_override" "235 226 202 255"
+			"defaultbgcolor_override" "0 0 0 120"
+				"defaultfgcolor_override" "notogreen"
+				"armedbgcolor_override" "0 0 0 220"
+				"armedfgcolor_override" "notogreen"
 			}
 				"buttonimage"
 				{

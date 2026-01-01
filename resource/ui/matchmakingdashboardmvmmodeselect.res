@@ -1,5 +1,5 @@
 	#base	"../../_mainstream/playlist-reappearing/matchmakingdashboardmvmmodeselect.txt"
 	//#base	"../../_stream/resource/ui/matchmakingdashboardmvmmodeselect.res"
 	#base	"../../_jofrenew/resource/ui/matchmakingdashboardmvmmodeselect.res"
-	#base	"../../_opt/resource/ui/matchmakingdashboardmvmmodeselect.res"
+//	#base	"../../_opt/resource/ui/matchmakingdashboardmvmmodeselect.res"
 	#base	"../../z_tf2/resource/ui/matchmakingdashboardmvmmodeselect.res"

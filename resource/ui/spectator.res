@@ -3,5 +3,5 @@
 	#base	"../../_stream/resource/ui/spectator.res"
 	//#base	"../../_opt/resource/#beta/spec.res"
 	#base	"../../_jofrenew/resource/ui/spectator.res"
-	#base	"../../_opt/resource/ui/spectator.res"
+//	#base	"../../_opt/resource/ui/spectator.res"
 	#base	"../../z_tf2/resource/ui/spectator.res"

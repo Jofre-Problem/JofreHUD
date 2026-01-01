@@ -1,5 +1,5 @@
 	#base	"../../_mainstream/textwindow-html/file.txt"	
 	//#base	"../../_stream/resource/ui/textwindow.res"
 	#base	"../../_jofrenew/resource/ui/textwindow.res"
-	#base	"../../_opt/resource/ui/textwindow.res"
+//	#base	"../../_opt/resource/ui/textwindow.res"
 	#base	"../../z_tf2/resource/ui/textwindow.res"

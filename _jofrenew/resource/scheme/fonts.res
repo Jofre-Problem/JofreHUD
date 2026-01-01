@@ -23,7 +23,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"tf2custom2_secondary"//"productsansbold"
+				"name"	"productsansbold"//"productsansbold"
 				"tall"	"13"
 				"range"	"0x0000 0x017F"
 				"yres"	"480 599"
