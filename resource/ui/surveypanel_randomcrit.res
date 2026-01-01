@@ -1,5 +1,5 @@
 	//#base	"../../_stream/resource/ui/surveypanel_randomcrit.res"
 	#base	"../../_jofrenew/resource/ui/surveypanel_randomcrit.res"
-	//#base	"../../_opt/resource/ui/surveypanel_randomcrit.res"
+	#base	"../../_opt/resource/ui/surveypanel_randomcrit.res"
 	//#base	"../../_opt/_tf2fix/resource/ui/surveypanel_randomcrit.res"
 //	#base	"../../z_tf2/resource/ui/surveypanel_randomcrit.res"

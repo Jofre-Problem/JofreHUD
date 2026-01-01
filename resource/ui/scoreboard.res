@@ -1,5 +1,5 @@
 	#base 	"../../_mainstream/scream-fortress/scoreboard.txt"
 	#base	"../../_stream/resource/ui/scoreboard.res"
 	#base	"../../_jofrenew/resource/ui/scoreboard.res"
-	//#base	"../../_opt/resource/ui/scoreboard.res"
+	#base	"../../_opt/resource/ui/scoreboard.res"
 	#base	"../../z_tf2/resource/ui/scoreboard.res"

@@ -1,5 +1,5 @@
 	#base	"../../_stream/resource/ui/spectatortournament.res"
 //	#base 	"../../_opt/resource/#beta/spec.res"
 	#base	"../../_jofrenew/resource/ui/spectatortournament.res"
-	//#base	"../../_opt/resource/ui/spectatortournament.res"
+	#base	"../../_opt/resource/ui/spectatortournament.res"
 	#base	"../../z_tf2/resource/ui/spectatortournament.res"

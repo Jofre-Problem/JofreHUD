@@ -2,5 +2,5 @@
 	//#base	"../../_stream/resource/ui/classloadoutpanel.res"
 	//#base	"../../_opt/resource/#beta/menu_reloadbutton.res"
 	#base	"../../_jofrenew/resource/ui/classloadoutpanel.res"
-	//#base	"../../_opt/resource/ui/classloadoutpanel.res"
+	#base	"../../_opt/resource/ui/classloadoutpanel.res"
 	#base	"../../z_tf2/resource/ui/classloadoutpanel.res"

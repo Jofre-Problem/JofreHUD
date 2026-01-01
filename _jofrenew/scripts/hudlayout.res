@@ -127,7 +127,7 @@ visible 0
 		"alpha"		"255"
 		
 	}
-	ViewmodelRefract { visible 1 enabled 1 image replay/thumbnails/misc/viewmodel/viewmodel_refract_1 }				
+			
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 	"TEST:CTFItemCardPanel"
 	{

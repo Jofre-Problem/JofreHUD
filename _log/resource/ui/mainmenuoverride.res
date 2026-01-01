@@ -1,3 +1,3 @@
-#base	"../../../_hud/_menu2025/mainmenuoverride.res"
+#base	"../../../_hud/_menu1_old/mainmenuoverride.res"
 
 x	{MainMenuOverride {} }

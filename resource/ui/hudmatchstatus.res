@@ -1,5 +1,5 @@
 	#base	"../../_4plug/resource/ui/hudmatchstatus.res"
 	#base	"../../_stream/resource/ui/hudmatchstatus.res"
 	#base	"../../_jofrenew/resource/ui/hudmatchstatus.res"
-	//#base	"../../_opt/resource/ui/hudmatchstatus.res"
+	#base	"../../_opt/resource/ui/hudmatchstatus.res"
 	#base	"../../z_tf2/resource/ui/hudmatchstatus.res"

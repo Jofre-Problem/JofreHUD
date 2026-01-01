@@ -1,5 +1,5 @@
 	//#base	"../../_stream/resource/ui/craftingpanel.res"
 	//#base	"../../_opt/resource/#beta/menu_reloadbutton.res"
 	#base	"../../_jofrenew/resource/ui/craftingpanel.res"
-	//#base	"../../_opt/resource/ui/craftingpanel.res"
+	#base	"../../_opt/resource/ui/craftingpanel.res"
 	#base	"../../z_tf2/resource/ui/craftingpanel.res"

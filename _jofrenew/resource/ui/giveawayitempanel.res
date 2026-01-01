@@ -699,11 +699,11 @@
 	Chromatic
 	{
 		"ControlName"	"ImagePanel"
-		"xpos"			"rs1-5-3"
-		"ypos"			"5"
-		"zpos"			"-991"	
-		"wide"			"220" //109
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"991"	
+		"wide"			"f0" //109
+		"tall"			"f0"
 		"scaleimage"	"1"
 		"visible" "0"
 		"image"			"replay/thumbnails/example_depth"
