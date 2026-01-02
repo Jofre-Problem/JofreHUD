@@ -69,7 +69,7 @@
 		//Enable quick menu reload
 		"AdContainerTest"
 		{
-			visible 0
+			visible 1
 		}
 		"ResolutionSelector"{}
 	}	

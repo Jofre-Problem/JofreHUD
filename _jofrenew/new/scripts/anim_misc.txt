@@ -12,7 +12,7 @@ event ShowDevMenu
 }
 event ShowDevMenuChild
 {
- SetVisible ADContainerTest 1 0
+ //SetVisible ADContainerTest 1 0
 }
 
 event HideDevMenu
@@ -21,7 +21,7 @@ event HideDevMenu
 }
 event HideDevMenuChild
 {
-	 SetVisible ADContainerTest 0 0
+//	 SetVisible ADContainerTest 0 0
 }
 
 event UberTimerRun
