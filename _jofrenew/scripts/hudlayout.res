@@ -402,7 +402,8 @@ visible 0
 		"zpos"					"-100"
 		"wide"					"f0"
 		"tall"					"480"
-		"scaleImage"			"1"
+		"scaleImage"			"0"
+		image "replay/thumbnails/misc/viewmodel/viewmodel_refract_3"
 	}
 	"CurrencyStatusPanel"
 	{

@@ -322,7 +322,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name" "TF2 Secondary"
+				"name" "Product Sans"
 			//	"tall"		"20"
 			//	"weight"	"900"
 				"antialias" "1"

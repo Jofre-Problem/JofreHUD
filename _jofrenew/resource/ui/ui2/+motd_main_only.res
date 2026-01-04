@@ -686,7 +686,8 @@
 			"zpos"		"-2"		
 			"ControlName"		"ImagePanel"
 			"fieldName"			"bb"
-			"fillcolor"				"27 27 27 150"
+			"fillcolor"				"27 27 27 100"
+			"border" "blurborder"
 			"scaleImage"		"1"
 			"mouseInputenabled"	"0"
 			"wide"		"p2"
@@ -769,7 +770,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_contract_progress_show"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -810,7 +811,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle voice_modenable"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -851,7 +852,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 	}
 
 	"VoiceSlider"
@@ -882,7 +883,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_enable_text_chat"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -954,7 +955,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_notifications_show_ingame"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -995,7 +996,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 	}
 
 	"NotificationsSlider"
@@ -1027,7 +1028,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle closecaption"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1067,7 +1068,7 @@
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	
 	}
@@ -1101,7 +1102,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_use_match_hud"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1141,7 +1142,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1180,7 +1181,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_hud_minmode"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1220,7 +1221,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle voice_loopback"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1260,7 +1261,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle crosshair"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1304,7 +1305,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 
 	}
@@ -1337,7 +1338,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1382,7 +1383,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle hud_combattext_batching"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1424,7 +1425,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 
 	}
@@ -1457,7 +1458,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	
 	}
@@ -1492,7 +1493,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	}
 
@@ -1524,7 +1525,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	}
 
@@ -1557,7 +1558,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 
 	}
@@ -1591,7 +1592,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_dingalingaling"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1633,7 +1634,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	}
 
@@ -1666,7 +1667,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 
 	}
@@ -1700,7 +1701,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	}
 
@@ -1732,7 +1733,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
 		"actionsignallevel"		"3"
 		"paintbackground"	"0"
@@ -1774,7 +1775,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	
 	}
@@ -1807,7 +1808,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 
 	}
 
@@ -1840,7 +1841,7 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"g_white"
+		"fgcolor"		"notowhite"
 	}
 
 	"KillSoundMaxSlider"
@@ -1885,7 +1886,8 @@
 			"zpos"		"-2"		
 			"ControlName"		"ImagePanel"
 			"fieldName"			"bb"
-			"fillcolor"				"g_brown2"
+		"fillcolor"				"27 27 27 100"
+			"border" "blurborder"
 			"scaleImage"		"1"
 			"mouseInputenabled"	"0"
 			"wide"		"p2"

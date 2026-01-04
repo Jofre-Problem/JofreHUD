@@ -818,7 +818,48 @@
 		{
 			"tall"			"0"
 		}
-
+	"FindAGameButton2"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"FindAGameButton2"
+			"xpos"			"c100"
+			"ypos"			"0"
+			"zpos"			"99"
+			"wide"			"20"
+			"tall"			"14"
+			//"autoResize"	"0"
+			"visible"		"1"
+			//"enabled"		"1"
+			font					"NewIcons10"
+			textAlignment			center
+			labeltext				"["
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"Command"		"ShowCompAccess"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
+			"roundedcorners"	"1"
+			"textinsety"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets"	"1"
+			paintBackground 1
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
+			"fgcolor" 	"27 27 27 255"
+				"fgcolor_override" 	"27 27 27 255"		
+				"defaultbgcolor_override" "117 107 94 0"
+				"defaultfgcolor_override" 	"27 27 27 255"
+				"armedbgcolor_override" "145 73 59 0"
+				"armedfgcolor_override" "235 226 202 255"
+			//"fgcolor"			"black"
+			
+			"SubImage"
+			{
+				"tall"			"0"
+			}
+		}	
 		"FindAGameButton"
 		{
 			"ControlName"	"CExImageButton"
