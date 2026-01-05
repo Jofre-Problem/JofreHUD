@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/mainmenu/light_blur"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	
+	
+	
+}

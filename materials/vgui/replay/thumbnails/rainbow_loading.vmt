@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$translucent" 0
+	"$basetexture" "vgui/rainbow_loading"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"$additive"	0
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedTextureVar 			$basetexture
+			animatedTextureFrameNumVar	$frame
+			animatedTextureFrameRate 	25
+		}
+	}
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\yakuza/profilebg"
+	"$vertexcolor" 1
+	
+	"$ignorez" 1
+
+}

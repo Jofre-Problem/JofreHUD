@@ -1,0 +1,19 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\buttonleft"
+	"$vertexcolor" 1
+	
+	"$ignorez" 1
+	"Proxies"
+{
+"Sine"
+{
+"sineperiod" "30"
+"sinemin""-5"
+"sinmax""100"
+"resultvar""$alpha"
+"timeoffset""-1"
+}
+}
+}

@@ -1,0 +1,17 @@
+"Modulate"
+{
+	"$basetexture" "vgui\replay\thumbnails\rainbow/gif_rgb"
+$writez 1 
+$texoffset "[0 0]"
+$texscale 1
+$translucent 1
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "10" 
+		}
+	}
+}

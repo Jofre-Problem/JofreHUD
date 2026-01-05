@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$yertexcolor" 1
+	
+	"$ignorez" 1
+	"$basetexture" "vgui\replay\thumbnails\obj\cartRed"
+	"$translucent" 1
+}

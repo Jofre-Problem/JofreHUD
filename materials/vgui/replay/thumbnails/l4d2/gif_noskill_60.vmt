@@ -1,0 +1,19 @@
+"Modulate"
+{
+	"$basetexture" "vgui\replay\thumbnails\l4d2/gif_noskill"	
+	"$vertexcolor" 1
+	
+	"$vertexalpha" "1"	
+	"$ignorez" 1
+	
+	"$translucent" 1
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "60" 
+		}
+	}
+}

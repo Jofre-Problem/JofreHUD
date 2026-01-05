@@ -1,0 +1,49 @@
+"UnlitGeneric"
+{
+	"$translucent"	"1"
+	"$basetexture"	"vgui\replay\thumbnails\superxhair\crosshair_dot"
+	
+	"$angle"		"0.0"
+	"$translate"	"[0.0 0.0]"
+	"$center"		"[0.5 0.5]"
+	
+	"$color"	"[1.0 1.0 1.0]"
+	"$speed"	"0"
+	"$speed2"	"0"
+	"$speed3"	"0"
+	"$Matheyvar1"		"1.0"
+	"$Matheyvar2"		"-1.0"
+	
+	"$vertexcolor"		"1"
+	
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	
+	"Proxies"
+	{
+		// Makes the crosshair light up when the player is moving
+		"PlayerSpeed"
+		{
+			"resultVar"	"$speed"
+		}
+		"Subtract"
+		{
+			"srcVar1"	"$speed"
+			"srcVar2"	"$Matheyvar1"
+			"resultVar"	"$Speed2"
+		}
+		"Multiply"
+		{
+			"srcVar1"	"$speed2"
+			"srcVar2"	"$Matheyvar2"
+			"resultVar"	"$Speed3"
+		}
+		"Clamp"
+		{
+			"min"		"0.0"
+			"max"		"1.0"
+			"srcVar1"	"$speed3"
+			"resultVar"	"$alpha"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\replay\thumbnails\steam_summersale\s_border_hearts"
+	"$vertexcolor" "1"
+	
+	"$ignorez" "1"
+	"$translucent" "1"		
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "47" 
+		}
+	}
+}

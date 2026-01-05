@@ -1,0 +1,14 @@
+//"UnlitGeneric"
+//{
+//	"$basetexture"	"vgui\replay\thumbnails\hp\cover"
+//	
+//	"$vertexcolor"		"1"
+//	
+//}
+
+"UnlitGeneric"
+{
+	
+	"$basetexture" "dev\null"
+	"$translucent" 1
+}

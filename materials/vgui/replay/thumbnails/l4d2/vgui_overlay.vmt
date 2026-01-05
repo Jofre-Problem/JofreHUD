@@ -1,0 +1,8 @@
+Modulate
+{
+
+	"$baseTexture" "vgui/replay/thumbnails/l4d2/vgui_overlay"
+$writez 1 
+$texoffset "[0 0]"
+$texscale 1
+}

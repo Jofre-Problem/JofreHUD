@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$baseTexture" ""
+	"$vertexalpha" "1"
+	"$translucent" "1"
+	"$color" "{92 173 255}"
+	"$alpha" "0.706"
+	"$ignorez" "1"
+}

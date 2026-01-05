@@ -1,0 +1,10 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\misc/paint_2"	
+	"$vertexcolor" 1
+	
+	"$vertexalpha" "1"	
+	"$ignorez" 1
+	
+	"$translucent" 1
+}

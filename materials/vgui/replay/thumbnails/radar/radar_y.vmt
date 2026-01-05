@@ -1,0 +1,60 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/replay/thumbnails/radar/radar_y"
+    "$translucent" 1
+    "$vertexcolor" 1
+    "$no_fullbright" 1
+    "$ignorez" 1
+	
+    $pos "[0.0 0.0 0.0]"
+	$zero 0
+	$five 5
+    $size 256
+
+	$posY .0
+    $newpos .0
+    $finalpos .0
+
+    $offsetY 3250
+    $totalY 5398
+
+    // bottom left  -- adding 50 
+    // -2438 -3158
+
+    // top right
+    // 2960 2115
+    
+    Proxies {
+        PlayerPosition {
+            scale 1
+            resultVar $pos
+        }
+        Clamp {
+			srcVar1 $zero
+            min "$pos[1]"
+            max "$pos[1]"
+            resultVar $posY
+        }
+        Add {
+            srcVar1 $posY
+            srcVar2 $offsetY
+            resultVar $newpos
+        }
+        Divide {
+            srcVar1 $newpos
+            srcVar2 $totalY
+            resultVar $newpos
+        }
+        Multiply {
+            srcVar1 $newpos
+            srcVar2 $size
+            resultVar $finalpos
+        }
+		Clamp {
+			srcVar1 $finalpos
+			min 0
+			max 255
+			resultVar $frame
+		}
+    }
+}
