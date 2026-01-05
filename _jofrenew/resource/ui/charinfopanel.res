@@ -14,7 +14,8 @@
 	"FooterLine"
 	{
 		"visible"		"0"
-	}		
+	}	
+		
 	"aaa"
 	{
 		"ControlName"		"ScalableImagePanel"

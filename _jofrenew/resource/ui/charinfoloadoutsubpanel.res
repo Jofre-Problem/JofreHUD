@@ -3,7 +3,20 @@
 
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
-	
+			"tank_gif"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""tank_gif"
+			"wide""p0.4"
+			xpos rs1-15
+			"tall""o1"
+			ypos rs1
+			zpos 10
+			mouseinputenabled 0
+			"scaleImage""1"
+			"image""replay/thumbnails/l4d2/noskill_tank_t"
+			"fgcolor""TanDark"
+			}		
 			"Wall_Backpack_etc"
 		{
 			"ControlName"	"EditablePanel"

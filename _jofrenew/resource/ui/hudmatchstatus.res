@@ -290,13 +290,13 @@ if_mini		{			"visible"		"0"		}
 			"playername"
 			{
 				"fieldName"		"playername"
-				"font"			"CustomVerdanaSmall"
+				"font"			"CustomDejaVu SansSmall"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"50"
 				"wide"								"f0"
-				"tall"								"0"
-				"visible"							"0"
+				"tall"								"12"
+				"visible"							"1"
 				"textinsetx"						"1"
 				"labelText"							"%playername%"
 				"textAlignment"						"center"
@@ -311,7 +311,7 @@ if_mini		{			"visible"		"0"		}
 			{
 				"0"		"HudFontSmallestBold"
 				"1"		"StorePromotionsTitle"
-				"2"		"CustomVerdanaSmall"
+				"2"		"CustomDejaVu SansSmall"
 			}
 				"pin_to_sibling"					"respawntime"
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"

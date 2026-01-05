@@ -11242,424 +11242,7 @@
 
 
 
-			"Water"
-                {
-                    "ControlName"               "CMatchHistoryEntryPanel"
-                    "fieldName"                 "Water"
-                    "xpos"                      "0"
-                    "ypos"                      "0"
-                    "wide"                      "f0"
-                    "proportionaltoparent"      "1"
-                    "bgcolor_override"          "0 255 0 0"
-
-                    "collapsed_height"          "20"
-                    "ignorescheme"              "1"
-                    "resize_time"               "0.1"
-					  "tall""65"
-					  "expanded_height""65"
-					
-                    "container"
-                    {
-                        "visible"               "0"
-                        "tall"                  "0"
-                        "xpos"                  "r0"
-                    }
-                    "BottomStats"
-                    {
-                        "visible"               "0"
-                        "tall"                  "0"
-                        "xpos"                  "r0"
-                    }
-
-                    "Toggle"
-                    {
-                        "ControlName"               "ToggleButton"
-                        "fieldName"                 "Toggle"
-                        "xpos"                      "5"
-                        "ypos"                      "0"
-                        "wide"                      "f10"
-                        "tall"                      "19"
-                        "proportionaltoparent"      "1"
-                        "labelText"                 "Sniper"
-                        "font"                      "regular12"
-                        "textinsetx"                "5"
-                        "use_proportional_insets"   "1"
-                        "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
-
-                        
-                    }
-
-                    "Sections"
-                    {
-                        "ControlName"               "EditablePanel"
-                        "fieldName"                 "Sections"
-                        "xpos"                      "0"
-                        "ypos"                      "20"
-                        "wide"                      "f0"
-                        "tall"                      "40"
-                        "proportionaltoparent"      "1"
-					     "whatitslabel"
-                        {
-                            "ControlName"               "EditablePanel"
-                            "fieldName"                 "whatitslabel"
-                            "xpos"                      "0"
-                            "ypos"                      "0"
-                            "wide"                      "f0"
-                            "tall"                      "20"
-                            "proportionaltoparent"      "1"
-
-                            "whatitslabelButton"
-                            {
-                                "ControlName"               "CExButton"
-                                "fieldName"                 "whatitslabelButton"
-                                "xpos"                      "5"
-                                "ypos"                      "0"
-                                "wide"                      "f10"
-                                "tall"                      "f1"
-                                "proportionaltoparent"      "1"
-                                "labelText"                  "Water"
-                                "font"                      "regular16"
-                                "textinsetx"                "5"
-                                "use_proportional_insets"   "1"
-                                "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
-
-                            }
-                        }	
-						 "0" {
-                            "controlname"
-                            "editablepanel"
-                            "fieldname"                         "0"
-                            "xpos"                          "0"
-                          "ypos"                          "20"
-                            "wide"                           "f0"
-                            "tall"                           "45"
-                            "proportionaltoparent"                          "1"
-
-                            "name" {                            "controlname"
-                                "cexlabel"
-                                "fieldname"                              "name"
-                                "xpos"                              "10"
-                                "ypos"                            "0"
-                                "wide" "f0"
-                                "tall"                             "20"
-                                "proportionaltoparent"                            "1"
-                                "mouseinputenabled"                            "0"
-                            "labeltext"                           "Water: Very Low"
-                                "font"                          "regular12"
-                                "fgcolor_override"                              "notowhite"
-         
-                            }
-                            "profilebutton" {
-                                "controlname"                             "CExButton"
-                                "fieldname"                             "profilebutton"
-                                "xpos"                             "0"
-                                "ypos"                             "0"
-                                "wide"                             "p0.2""actionsignallevel" "9"
-                             "tall"                            "f1"
-                                "proportionaltoparent"                            "1"
-								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
-                                "labeltext"                            ""
-                               "command"   "engine r_WaterDrawReflection 0;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 0;tf_water_resolution 32;cheap_water_full;alias cheap_water_override cheap_water_full;alias water_level echo water=very_low; r_cheapwaterstart 0;r_cheapwaterend .1"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
-                                "paintbackground"                             "1"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
-                            }
-                        }
-   "1" {
-                            "controlname"                          "editablepanel"
-                            "fieldname"                         "0"
-                            "xpos"                          "0+p0.2"
-                          "ypos"                          "20"
-                            "wide"                           "p0.2"
-                            "tall"                           "45"
-                            "proportionaltoparent"                          "1"
-                            "bgpanel0" {
-                                "controlname"                              "editablepanel"
-                                "fieldname"                               "bgpanel0"
-                                "xpos"                               "5"
-                                "ypos"                              "0"
-                                "wide"                             "f10"
-                                "tall"                             "f1"
-                                "proportionaltoparent"                             "1"
-                                "mouseinputenabled"                            "0"
-                                "bgcolor_override"                            "0 0 0 255"
-                            }
-                            "name" {                            "controlname"
-                                "cexlabel"
-                                "fieldname"                              "name"
-                                "xpos"                              "10"
-                                "ypos"                            "0"
-                                "wide" "f0"
-                                "tall"                             "20"
-                                "proportionaltoparent"                            "1"
-                                "mouseinputenabled"                            "0"
-                            "labeltext"                            "Water: Low"
-                                "font"                          "regular12"
-                                "fgcolor_override"                              "notowhite"
-         
-                            }
-                            "profilebutton" {
-                                "controlname"                             "ceximagebutton"
-                                "fieldname"                             "profilebutton"
-                                "xpos"                             "5"
-                                "ypos"                             "0"
-                                "wide"                             "f10"
-                             "tall"                            "f1""actionsignallevel" "9"
-                                "proportionaltoparent"                            "1"
-                                "labeltext"                            ""
-                               "command"   "engine r_cheapwaterstart 500;r_cheapwaterend 800; r_WaterDrawReflection 0;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 1;tf_water_resolution 128;cheap_water_partial;alias cheap_water_override cheap_water_partial;alias water_level echo water=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
-                                "paintbackground"                             "0"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
-                            }
-                         
-                        }
-  "3"
-    {
-                            "controlname"                          "editablepanel"
-                            "fieldname"                         "0"
-                            "xpos"                          "0+p0.2+p0.2"
-                          "ypos"                          "20"
-                            "wide"                           "p0.2"
-                            "tall"                           "45"
-                            "proportionaltoparent"                          "1"
-                            "bgpanel0" {
-                                "controlname"                              "editablepanel"
-                                "fieldname"                               "bgpanel0"
-                                "xpos"                               "5"
-                                "ypos"                              "0"
-                                "wide"                             "f10"
-                                "tall"                             "f1"
-                                "proportionaltoparent"                             "1"
-                                "mouseinputenabled"                            "0"
-                                "bgcolor_override"                            "0 0 0 255"
-                            }
-                            "name" {                            "controlname"
-                                "cexlabel"
-                                "fieldname"                              "name"
-                                "xpos"                              "10"
-                                "ypos"                            "0"
-                                "wide" "f0"
-                                "tall"                             "20"
-                                "proportionaltoparent"                            "1"
-                                "mouseinputenabled"                            "0"
-                            "labeltext"                      "Water: Medium"
-                                "font"                          "regular12"
-                                "fgcolor_override"                              "notowhite"
-         
-                            }
-                            "profilebutton" {
-                                "controlname"                             "ceximagebutton"
-                                "fieldname"                             "profilebutton"
-                                "xpos"                             "5"
-                                "ypos"                             "0"
-                                "wide"                             "f10""actionsignallevel" "9"
-                             "tall"                            "f1"
-                                "proportionaltoparent"                            "1"
-                                "labeltext"                            ""
-                              "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 1;tf_water_resolution 256;cheap_water_light;alias cheap_water_override cheap_water_light;alias water_level echo water=medium; r_cheapwaterstart 2000;r_cheapwaterend 3500"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
-                                "paintbackground"                             "0"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
-                            }
-                         
-                        }
-	  "4"
-    {
-                            "controlname"                          "editablepanel"
-                            "fieldname"                         "0"
-                            "xpos"                          "0+p0.2+p0.2+p0.2"
-                          "ypos"                          "20"
-                            "wide"                           "p0.2"
-                            "tall"                           "45"
-                            "proportionaltoparent"                          "1"
-                            "bgpanel0" {
-                                "controlname"                              "editablepanel"
-                                "fieldname"                               "bgpanel0"
-                                "xpos"                               "5"
-                                "ypos"                              "0"
-                                "wide"                             "f10"
-                                "tall"                             "f1"
-                                "proportionaltoparent"                             "1"
-                                "mouseinputenabled"                            "0"
-                                "bgcolor_override"                            "0 0 0 255"
-                            }
-                            "name" {                            "controlname"
-                                "cexlabel"
-                                "fieldname"                              "name"
-                                "xpos"                              "10"
-                                "ypos"                            "0"
-                                "wide" "f0"
-                                "tall"                             "20"
-                                "proportionaltoparent"                            "1"
-                                "mouseinputenabled"                            "0"
-                            "labeltext"                       "Water: High"
-                                "font"                          "regular12"
-                                "fgcolor_override"                              "notowhite"
-         
-                            }
-                            "profilebutton" {
-                                "controlname"                             "ceximagebutton"
-                                "fieldname"                             "profilebutton"
-                                "xpos"                             "5"
-                                "ypos"                             "0"
-                                "wide"                             "f10" "actionsignallevel" "9"
-                             "tall"                            "f1"
-                                "proportionaltoparent"                            "1"
-                                "labeltext"                            ""
-                              "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 0;r_waterforcereflectentities 1;r_WaterDrawRefraction 1;tf_water_resolution 1024;cheap_water_light;alias cheap_water_override cheap_water_light;alias water_level echo water=high; r_cheapwaterstart 2000;r_cheapwaterend 3500"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
-                                "paintbackground"                             "0"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
-                            }
-                         
-                        }		
-	  "5"
-    {
-                            "controlname"                          "editablepanel"
-                            "fieldname"                         "0"
-                            "xpos"                          "0+p0.2+p0.2+p0.2+p0.2"
-                          "ypos"                          "20"
-                            "wide"                           "p0.2"
-                            "tall"                           "45"
-                            "proportionaltoparent"                          "1"
-                            "bgpanel0" {
-                                "controlname"                              "editablepanel"
-                                "fieldname"                               "bgpanel0"
-                                "xpos"                               "5"
-                                "ypos"                              "0"
-                                "wide"                             "f10"
-                                "tall"                             "f1"
-                                "proportionaltoparent"                             "1"
-                                "mouseinputenabled"                            "0"
-                                "bgcolor_override"                            "0 0 0 255"
-                            }
-                            "name" {                            "controlname"
-                                "cexlabel"
-                                "fieldname"                              "name"
-                                "xpos"                              "10"
-                                "ypos"                            "0"
-                                "wide" "f0"
-                                "tall"                             "20"
-                                "proportionaltoparent"                            "1"
-                                "mouseinputenabled"                            "0"
-                            "labeltext"                        "Water: Ultra"
-                                "font"                          "regular12"
-                                "fgcolor_override"                              "notowhite"
-         
-                            }
-                            "profilebutton" {
-                                "controlname"                             "ceximagebutton"
-                                "fieldname"                             "profilebutton"
-                                "xpos"                             "5"
-                                "ypos"                             "0"
-                                "wide"                             "f10" "actionsignallevel" "9"
-                             "tall"                            "f1"
-                                "proportionaltoparent"                            "1"
-                                "labeltext"                            ""
-                              "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 1;r_waterforcereflectentities 1;r_WaterDrawRefraction 1;tf_water_resolution 2048;cheap_water_never;alias cheap_water_override cheap_water_never;alias water_level echo water=ultra; r_cheapwaterstart 8192;r_cheapwaterend 8193"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
-                                "paintbackground"                             "0"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
-                            }
-                         
-                        }										
-                    }
-                }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 			"PostProcessing"
                 {
                     "ControlName"               "CMatchHistoryEntryPanel"
@@ -11718,43 +11301,14 @@
                         "wide"                      "f0"
                         "tall"                      "40"
                         "proportionaltoparent"      "1"
-					     "whatitslabel"
-                        {
-                            "ControlName"               "EditablePanel"
-                            "fieldName"                 "whatitslabel"
-                            "xpos"                      "0"
-                            "ypos"                      "0"
-                            "wide"                      "f0"
-                            "tall"                      "20"
-                            "proportionaltoparent"      "1"
-
-                            "whatitslabelButton"
-                            {
-                                "ControlName"               "CExButton"
-                                "fieldName"                 "whatitslabelButton"
-                                "xpos"                      "5"
-                                "ypos"                      "0"
-                                "wide"                      "f10"
-                                "tall"                      "f1"
-                                "proportionaltoparent"      "1"
-                                "labelText"                  "PostProcessing"
-                                "font"                      "regular16"
-                                "textinsetx"                "5"
-                                "use_proportional_insets"   "1"
-                                "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
-
-                            }
-                        }	
+					   
 						 "0" {
                             "controlname"
                             "editablepanel"
                             "fieldname"                         "0"
                             "xpos"                          "0"
-                          "ypos"                          "20"
-                            "wide"                           "f0"
+                          "ypos"                          "0"
+                            "wide"                           "p0.2"
                             "tall"                           "45"
                             "proportionaltoparent"                          "1"
 
@@ -11764,10 +11318,11 @@
                                 "xpos"                              "10"
                                 "ypos"                            "0"
                                 "wide" "f0"
+                                zpos "10"
                                 "tall"                             "20"
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
-                            "labeltext"                           "OFF"
+                            "labeltext"                           "Crouch Jump (Spacebar)"
                                 "font"                          "regular12"
                                 "fgcolor_override"                              "notowhite"
          
@@ -11777,13 +11332,13 @@
                                 "fieldname"                             "profilebutton"
                                 "xpos"                             "0"
                                 "ypos"                             "0"
-                                "wide"                             "p0.1""actionsignallevel" "9"
-                             "tall"                            "f1"
+                                "wide"                             "f0""actionsignallevel" "9"
+                             "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								defaultbgcolor_override "0 0 0 200"
                                 "labeltext"                            ""
-                               "command"   "engine mat_hdr_level 0;mat_colorcorrection 0;mat_colcorrection_disableentities 1;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar 1;r_shader_srgb 0;alias post_processing_level echo post_processing=off"
+                               "command"   "engine bind space +crouchjump"
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -11802,6 +11357,38 @@
                                     "scaleimage"                                   "1"
                                 }
                             }
+                            "rstbtn" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "rstbtn"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "20""actionsignallevel" "9"
+                             "tall"                            "20"
+                             textAlignment "center"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								defaultbgcolor_override "0 0 0 200"
+                                "labeltext"                            "ì"
+                                "font" "NewIcons15"
+                               "command"   "engine bind space +jump"
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }                            
                         }
    "1" {
                             "controlname"                          "editablepanel"

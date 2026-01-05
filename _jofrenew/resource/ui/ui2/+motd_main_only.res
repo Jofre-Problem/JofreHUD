@@ -11,7 +11,7 @@
 		"fieldName"		"MOTD_Panel"
 		"xpos"			"0"
 		"ypos"			"15"
-		"zpos"			"11000"
+		"zpos"			"2000"
 		"wide"			"f0"
 		"tall"			"480"
 		"border"	"noborder"
@@ -105,7 +105,7 @@
 		fieldName				"Record"
 		"xpos"							"0"
 		"ypos"							"30"
-		"wide"							"150"
+		"wide"							"100"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"REC START / STOP"
@@ -121,9 +121,9 @@
 	{
 		ControlName				CExButton
 		fieldName				"Stop"
-		"xpos"							"150"
+		"xpos"							"100"
 		"ypos"							"30"
-		"wide"							"150"
+		"wide"							"100"
 		"tall"							"30"
 	zpos	"100"
 		labelText				"REC RESET"
@@ -135,7 +135,24 @@
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}			
-
+		"statu"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"statu"
+		"xpos"							"200"
+		"ypos"							"30"
+		"wide"							"100"
+		"tall"							"30"
+		zpos	"100"
+		labelText				"STATUS"
+		font					"noto12"
+		textAlignment			center
+		"actionsignallevel"		"3"
+		Command				"engine ds_status"
+		defaultbgcolor_override "notowhite"
+		defaultfgcolor_override "Black"
+		paintbackground 			1
+	}	
 		"Rec_next_slot"			// other classes pinned to this
 	{
 		ControlName				CExButton
@@ -284,13 +301,13 @@
 	{
 		ControlName				CExButton
 		fieldName				"Rec_CurrentMAP"
-		"xpos"							"150"
-		"ypos"							"185"
-		"wide"							"150"
-		"tall"							"25"
+		"xpos"							"0"
+		"ypos"							"210"
+		"wide"							"300"
+		"tall"							"30"
 	zpos	"100"
 		labelText				"Current map!"
-		font					"g_fonttiny_2"
+		font					"Noto16"
 		textAlignment			center
 		"actionsignallevel"		"3"
 		Command				"engine +recmapname"
@@ -478,13 +495,13 @@
 				"ControlName"				"CExLabel"
 				"fieldName"					"VoiceSpam"
 				"xpos"						"0"
-				"ypos"						"210"
+				"ypos"						"240"
 				"zpos"						"53"
-				"wide"						"300"
+				"wide"						"50"
 				"tall"						"30"
 				"proportionaltoparent"		"1"
-				"font"						"NotoBold12"
-				"labelText"					"Voice Settings"
+				"font"						"newicons20"
+				"labelText"					"â"
 				"textAlignment"				"center"
 				"fgcolor"					"notodark"
 				"bgcolor_override"			"notowhite"
@@ -493,9 +510,9 @@
 	{
 		ControlName				CExButton
 		fieldName				"+voice"
-		"xpos"							"0"
+		"xpos"							"50"
 		"ypos"							"240"
-		"wide"							"150"
+		"wide"							"120"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"+VoiceOn"
@@ -512,9 +529,9 @@
 	{
 		ControlName				CExButton
 		fieldName				"-voice"
-		"xpos"							"150"
+		"xpos"							"170"
 		"ypos"							"240"
-		"wide"							"150"
+		"wide"							"120"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"-VoiceOFF"
