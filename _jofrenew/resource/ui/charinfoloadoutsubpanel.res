@@ -7,14 +7,14 @@
 			{
 			"ControlName""ImagePanel"
 			"fieldName""tank_gif"
-			"wide""p0.4"
+			"wide""f0"
 			xpos rs1-15
-			"tall""o1"
+			"tall""f0"
 			ypos rs1
-			zpos 10
+			zpos -6
 			mouseinputenabled 0
 			"scaleImage""1"
-			"image""replay/thumbnails/l4d2/noskill_tank_t"
+			"image""replay/thumbnails/rainbow_loading_2"
 			"fgcolor""TanDark"
 			}		
 			"Wall_Backpack_etc"

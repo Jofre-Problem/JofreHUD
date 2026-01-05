@@ -311,7 +311,7 @@ if_mini		{			"visible"		"0"		}
 			{
 				"0"		"HudFontSmallestBold"
 				"1"		"StorePromotionsTitle"
-				"2"		"CustomDejaVu SansSmall"
+				"2"		"customverdanasmall"
 			}
 				"pin_to_sibling"					"respawntime"
 				"pin_corner_to_sibling"				"PIN_CENTER_TOP"
