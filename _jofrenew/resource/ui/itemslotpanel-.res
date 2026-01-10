@@ -10,10 +10,10 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+		//	"0"
 		"settitlebarvisible"	"0"
 		//
 		"bgcolor_override"	"Graydark"
@@ -112,7 +112,7 @@
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
-		
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Size 18 Uber"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#EditSlots"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -131,7 +131,7 @@
 		"wide"			"210"
 		"tall"			"25"
 		
-		
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -146,15 +146,15 @@
 		"wide"			"p0.5"
 		"tall"			"50"
 		
-		
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+		//	"0"
 		"labelText"		"#TF_OK"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		//
+		////		"0"
 		
 		"Command"		"ok"
 		"sound_depressed"	"UI/buttonclick.wav"

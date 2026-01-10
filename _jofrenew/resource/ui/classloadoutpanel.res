@@ -2,6 +2,7 @@
 #base "ui2/bgv2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+
 	"ADContainerTest"
 	{
 		"AdsContainer"
@@ -114,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"g_fonttiny_2"
-		"xpos"			"rs1-120"
+		"xpos"			"rs1-60"
 		"ypos"			"rs1"
 		"zpos"			"0"	
 		"wide"			"270"
@@ -150,7 +151,7 @@
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
 		"xpos"			"160"
-		"ypos"			"0-p0.002"
+		"ypos"			"3"
 		"zpos"			"5000"
 		"fgcolor_override"	"G_Brown2"
 		"bgcolor_override" "G_ButtonSelectedBg"
@@ -168,7 +169,7 @@
 			"labelText"		"È"
 			"textAlignment"		"west"
 			"xpos" 			"180"					//"c-60"//			"180"
-			"ypos"			"0-p0.002"
+			"ypos"			"3"
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"16"
@@ -359,9 +360,9 @@
 		"bgcolor_override"	"16 16 16 150"
 		"infocus_bgcolor_override" "16 16 16 150"
 		"outoffocus_bgcolor_override" "16 16 16 150"
-		
-		"item_xpos_offcenter_a"	"-315"//"-420"
-		"item_xpos_offcenter_b"	"175"//"280"
+		tall 480
+		"item_xpos_offcenter_a"	"-360"//"-420"
+		"item_xpos_offcenter_b"	"260"//"280"
 		"item_ypos"		"67"
 		"item_ydelta"	"76"
 		"item_mod_wide"	"40"
@@ -383,12 +384,14 @@
 			"presetpinnermodelpanel1"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel1"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152"  
+   			"ypos"            "134-P0.001+152"
+   			ypos_minmode "134-P0.001+152+76"
 			}	
 			"presetpinnermodelpanel2"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel2"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152+152"  
+   			"ypos"            "134-P0.001+152+152"
+   			ypos_minmode "134-P0.001+152+76"
 			}	
 			"presetpinnermodelpanel3"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel3"
@@ -432,44 +435,212 @@
 			"PaintBackground"	"0"
 			"paintborder"	"1"
 			"border"	"LoadoutItemPopupBorder"
-			
+
 			"model_center_x"	"1"
-			"model_ypos"		"10"			
+			"model_ypos"		"10"
 			"model_tall"		"45"
 			"model_wide"		"72"
 			"text_ypos"			"254"
 			"text_center"		"1"
 			"name_only"			"1"
-			
+
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
 			
-			"itemmodelpanel"
-			{
-				"use_item_rendertarget" "0"
-				"allow_rot"				"0"
-			}
+		//	"itemmodelpanel"
+		//	{
+		//	"allow_rot"				"0"
+		//	model_rotate_yaw_speed	0
+		//	"model_xpos"	"-20"
+		//	"model_ypos"	"3"
+		//	"model_wide"	"58"		
+		////	"model_tall"	"34"	
+		//	"use_particle"			"1"	
+		//	"use_item_rendertarget" "1"	
+		//	"force_use_model"		"1"
+		//	"allow_rot"							"0"
+		//	}
+
 			"modelpanel0"	
 			{		
-			"wide" "80"
+
+			//	ControlName CItemModelPanel	
+				"use_item_rendertarget" "1"	
+				"force_use_model"		"1"
+		//	"model_wide"	"120"
+	
+			"itemmodelpanel"
+			{
+			"use_item_rendertarget" "1"	
+				"force_use_model"		"1"
+		//	"model_tall"	"999"
+			"model_wide"	"100"
+			"model_ypos"	"-10"
+		
+						"use_particle"			"1"	
+			}
+
+			"wide" "120"
+
 			pin_to_sibling presetpinnermodelpanel0
+
+
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"strange_pin"
+					{
+						ControlName editablepanel
+						fieldName strange_pin
+						tall 1
+						"wide" "1"
+						xpos 100
+						ypos 20
+						
+					}						
+
+											
+					"is_strange_icon"
+					{
+						tall 20
+						"wide" "20"
+						xpos 236
+						ypos 20
+						scaleimage 1
+					//		pin_to_sibling strange_pin
+					}					
+					"is_unusual_icon"
+					{
+					//	visible 0
+						tall 18
+						"wide" "o1"
+						xpos 245
+						ypos 2
+						scaleimage 1
+					}
+				}
+
+
+
+
+
 			}		
 
 			"modelpanel1"
-			{		
-			"wide" "80" 	
+			{				
+						"itemmodelpanel"
+					{
+					"allow_rot"				"0"
+					model_rotate_yaw_speed	0
+					"model_xpos"	"-20"
+					"model_ypos"	"3"
+					"model_wide"	"85"
+					"model_tall"	"34"	
+					"use_particle"			"1"	
+					"use_item_rendertarget" "1"	
+					"force_use_model"		"1"
+					"allow_rot"							"0"
+					}	
+			"model_center_x"	"125"
+			"model_ypos"	"3"
+			"model_wide"	"85"
+			"model_tall"	"90"
+			"wide" "120"
 			pin_to_sibling "presetpinnermodelpanel1"
+
+
+
+
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"strange_pin"
+					{
+						ControlName editablepanel
+						fieldName strange_pin
+						tall 1
+						"wide" "1"
+						xpos 90
+						ypos 62
+						
+					}						
+					"itemmodelpanel"
+					{
+								xpos 54
+						ypos -22
+					"wide" "20"	
+							tall 157
+						
+						"model_wide"	"1"
+			
+					}						
+					"is_strange_icon"
+					{
+						tall 21
+						"wide" "o1"
+						xpos 236
+						ypos 80
+						scaleimage 1
+					//	pin_to_sibling strange_pin
+					}					
+					"is_unusual_icon"
+					{
+					//	visible 0
+						tall 18
+						"wide" "o1"
+						xpos 245
+						ypos 2
+						scaleimage 1
+					}
+				}
+
+
+
 			}			
 			"modelpanel2"
-			{			
-			"wide" "80"
+			{				
+				"itemmodelpanel"
+			{
+			"allow_rot"				"0"
+			model_rotate_yaw_speed	0
+			"model_xpos"	"-20"
+			"model_ypos"	"3"
+			"model_wide"	"58"
+			"model_tall"	"34"	
+			"use_particle"			"1"	
+			"use_item_rendertarget" "1"	
+			"force_use_model"		"1"
+			"allow_rot"							"0"
+			}			
+			"model_tall"	"80"
+			"model_ypos"	"-10"
+			"wide" "120"
 			pin_to_sibling "presetpinnermodelpanel2"
 			}
 			"modelpanel3"
-			{			
+			{				
+				"itemmodelpanel"
+			{
+			"allow_rot"				"0"
+			model_rotate_yaw_speed	0
+			"model_xpos"	"-20"
+			"model_ypos"	"3"
+			"model_wide"	"58"		
+			"model_tall"	"34"	
+			"use_particle"			"1"	
+			"use_item_rendertarget" "1"	
+			"force_use_model"		"1"
+			"allow_rot"							"1"
+			}			
 			"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel3"
 			}	
@@ -485,8 +656,11 @@
 			{		
 			"wide" "63"
 			}			
-			"modelpanel7"
+			"modelpanel7" //loadout slot 1 / hat slot 1
 			{			
+			"text_ypos"			"255"//"52"
+			"text_center"		"1"
+			"name_only"			"0"
 			"wide" "80"
 			}
 			"modelpanel8"
@@ -494,7 +668,8 @@
 			"wide" "80"
 			}			
 			"modelpanel9"
-			{			
+			{
+
 			"wide" "80"
 			}
 			"modelpanel10"
@@ -645,7 +820,7 @@
 			"scaleImage"		"1"
 			"mouseInputenabled"	"0"
 			"wide"		"p2"
-			"tall"		"p8"		
+			"tall"		"p6.1"		
 		}	
 	"ADContainerTest2"
 	{ 
@@ -886,7 +1061,7 @@
 				{
 					"particle_xpos"         "c-150"
 					"particle_ypos"      "500"
-					"particle_scale"      "30"
+					"particle_scale"      "20"
 					"particlename"     "unusual_invasion_nebula"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -915,7 +1090,7 @@
 				{
 					"particle_xpos"         "c-150"
 					"particle_ypos"      "600"
-					"particle_scale"      "25"
+					"particle_scale"      "12"
 					"particlename"     "unusual_shootingstar_purple_parent"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -944,7 +1119,7 @@
 				{
 					"particle_xpos"         "c-150"
 					"particle_ypos"      "900"
-					"particle_scale"      "20"
+					"particle_scale"      "10"
 					"particlename"     "unusual_eotl_sunset"
 						// cauldron_embers | scale 3 | fire sputters
 						// hammer_souls_rising | scale 2 | ghosts rising
@@ -954,61 +1129,6 @@
 			}
 			"paintbackground"	"0"
 		}
-"goffyahparticle1"
-    {
-        "ControlName"    "CTFParticlePanel"
-        "fieldName"        "goffyahparticle1"
-        "xpos"            "0"
-			"ypos"			"480+480+480+480"
-			"zpos"			"-100"
-			"wide"			"p1"
-			"tall"			"p1.2"
-        "tall"            "o1"
-        "proportionaltoparent"    "1"
-		"visible"			"1"
-
-        "ParticleEffects"
-        {
-            "0"
-            {
-				"visible"        "0"
-                "particle_xpos"        "c-3"
-                "particle_ypos"      "c32"
-                "particle_scale"      "3.3"
-                "particlename"     "unusual_pigeons_white_parent"
-                "loop"     "1"
-            }
-        }
-        //"paintbackground"    "0"
-    }
-
-	"goffyahparticle2"
-    {
-        "ControlName"    "CTFParticlePanel"
-        "fieldName"        "goffyahparticle2"
-        "xpos"            "0"
-			"ypos"			"480+480+480+480"
-			"zpos"			"-100"
-			"wide"			"p1"
-			"tall"			"p1.2"
-        "proportionaltoparent"    "1"
-		"visible"			"1"
-
-        "ParticleEffects"
-        {
-            "0"
-            {
-				"visible"        "0"
-                "particle_xpos"        "c-3"
-                "particle_ypos"      "c36"
-                "particle_scale"      "3.3"
-                "particlename"     "unusual_pigeons_purple_parent"
-                "loop"     "1"
-            }
-        }
-        //"paintbackground"    "0"
-    }
-
 }
 
 "presetpinner"

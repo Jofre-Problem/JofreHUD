@@ -139,6 +139,7 @@ event TestLoop_C
 event EveryRespawn
 {
 	FireCommand 0 "engine ds_mark respawn"
+	FireCommand 5 "engine ds_status"
 //	FireCommand 0 "engine ds_stop"
 //	FireCommand 5 "engine ds_record"
 } 

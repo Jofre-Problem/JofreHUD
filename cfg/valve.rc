@@ -20,8 +20,8 @@
     // Allow menu backgrounds to display randomly by unlocking all chapters
     // Default: 1
     sv_unlockedchapters
-
-
+// demos
+ds_log 1
     
 sv_pure -1
 echo [JOFREHUD] Applied default settings

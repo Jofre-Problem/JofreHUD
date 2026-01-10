@@ -18,7 +18,7 @@
 		"bgcolor_override"	"7 27 27 0"
 		"fillcolor"	"7 27 27 0"
 
-
+	
 				"ControlName"			"EditablePanel"
 		"SideBar1"
 			{
@@ -31,6 +31,8 @@
 				"tall"						"480-25"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"			"blank"
+
+
 
 								"ScrollBar"
 				{
@@ -711,7 +713,7 @@
 			"tall"		"p2"		
 		}			
 	}
-			
+				
 		"SideBar2"
 			{
 				"ControlName"			"CScrollableList"
@@ -757,64 +759,251 @@
 						"visible"		"0"
 					}
 				}
-			"ToolsLabel"
-			{
-				"ControlName"				"CExLabel"
-				"fieldName"					"ToolsLabel"
-				"xpos"						"7"
-				"ypos"						"0"
-				"zpos"						"53"
-				"wide"						"293"
-				"tall"						"30"
-				"proportionaltoparent"		"1"
-				"font"						"NotoBold12"
-				"labelText"					"Tools Panel"
-				"textAlignment"				"center"
-					"fgcolor"					"notodark"
-				"bgcolor_override"			"notowhite"
-			}		
-	"ContractLabel"
+ 
+	"ADContainerTest"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ContractLabel"
-		"font"		"noto12"
-		"labelText"		"Contract:"
-		"textAlignment"	"west"
-		"xpos"		"10"
-		"ypos"		"420"
-		"zpos"		"200"
-		"wide"		"105"
-		"tall"		"20"
+		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "ADContainerTest"
+		"xpos"			"2"
+		"ypos"			"00"
+		zpos "100"
+		"wide"			"285"
+		"tall"			"480"
 		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor"		"notowhite"
-		"Command"		"engine toggle tf_contract_progress_show"
-		"actionsignallevel"		"3"
-		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		"AdsContainer"
+		{
+			tall f0
+			wide f0
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"0+p0.5"
+				"ypos"		"r15"
+				"zpos"		"2"
+				"wide"		"p0.5"
+				"tall"		"15"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 0"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"east"
 
-	}
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
 
-	"ContractCheck" 
-	{
-		"ControlName"		"CvarToggleCheckButton"
-		"fieldName"		"ContractCheck"
-		"xpos"		"90"
-		"ypos"		"420"
-		"zpos"		"199"
-		"wide"		"18"
-		"tall"		"20"
-		"labeltext"		""
-		"textAlignment"	"west"
-		"smallcheckimage"	"1"
-		"button_activation_type"	"1"
-		"cvar_name" "tf_contract_progress_show"
-		"mouseinputenabled"	"0"
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
 
-	}	
-			
-	"VoiceLabel"
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"0"
+				"ypos"		"r15"
+				"zpos"		"2"
+				"wide"		"p0.5"
+				"tall"		"15"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 0"
+				"fgcolor"		"notodark"
+				"font"			"G_FontSmall"
+				"textAlignment"	"west"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+		}
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"9999.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+
+
+
+
+
+
+
+
+
+			"Tools"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Tools"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+					
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Tools Panel"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480" // controlls how much expands
+                        "proportionaltoparent"      "1"
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "20"
+                            "wide"                           "f0"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+							visible 0
+
+                            "name" {                            "controlname"
+                                "cexlabel"
+                                "fieldname"                              "name"
+                                "xpos"                              "10"
+                                "ypos"                            "0"
+                                "wide" "p0.3"
+                                "tall"                             "20"
+                                "proportionaltoparent"                            "1"
+                                "mouseinputenabled"                            "0"
+                            "labeltext"                           "Shading: Low"
+                                "font"                          "regular12"
+                                "fgcolor_override"                              "notowhite"
+	visible 0
+                            }
+                            "profilebutton" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "profilebutton"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "f1"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								defaultbgcolor_override "0 0 0 200"
+                                "labeltext"                            ""
+								visible 0
+                               "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+                        }
+		"VoiceLabel"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"VoiceLabel"
@@ -830,7 +1019,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle voice_modenable"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -885,7 +1074,50 @@
 		"maxvalue"		"1"
 		"cvar_name"		"voice_scale"
 
+	}	
+
+	"ContractLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ContractLabel"
+		"font"		"noto12"
+		"labelText"		"Contract:"
+		"textAlignment"	"west"
+		"xpos"		"10"
+		"ypos"		"10"
+		"zpos"		"200"
+		"wide"		"105"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"notowhite"
+		"Command"		"engine toggle tf_contract_progress_show"
+		"actionsignallevel"		"8"
+		"paintbackground"	"0"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
 	}
+
+	"ContractCheck" 
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"ContractCheck"
+		"xpos"		"90"
+		"ypos"		"10"
+		"zpos"		"199"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "tf_contract_progress_show"
+		"mouseinputenabled"	"0"
+
+	}	
+			
+	
 	"TextChatLabel"
 	{
 		"ControlName"	"CExButton"
@@ -902,7 +1134,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_enable_text_chat"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -974,7 +1206,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_notifications_show_ingame"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1047,7 +1279,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle closecaption"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1121,7 +1353,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_use_match_hud"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1161,7 +1393,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1200,7 +1432,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle cl_hud_minmode"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1240,7 +1472,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle voice_loopback"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1280,7 +1512,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle crosshair"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1357,7 +1589,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1402,7 +1634,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle hud_combattext_batching"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
@@ -1611,7 +1843,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_dingalingaling"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1752,7 +1984,7 @@
 		"enabled"		"1"
 		"fgcolor"		"notowhite"
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1882,6 +2114,192 @@
 
 
 
+
+
+
+                    }
+                }	
+
+
+
+
+
+
+
+			"Marks"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Marks"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                    "pin_to_sibling"            "tools"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Demo Bookmark"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"
+					  
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f10"
+                            "tall"                           "45"
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Win"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Win"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+
+
+                            "lose" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "lose"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "f0""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Lose"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Lose"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+
+
+
+                        }
+   
+
+
+
+
+
+
+
+
+
+                    }
+                }
+
+
+
+
+
+
+
+
+
+			}			
+	}
+}
 
 
 
