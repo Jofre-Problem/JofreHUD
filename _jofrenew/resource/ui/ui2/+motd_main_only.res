@@ -2200,7 +2200,10 @@
                             "xpos"                          "6"
                           "ypos"                          "10"
                             "wide"                           "f10"
-                            "tall"                           "45"
+
+                            "tall"                           "480"
+
+
                             "proportionaltoparent"                          "1"
 
                       
@@ -2273,10 +2276,761 @@
                                 }
                             }
 
+                            "lol" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "lol"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "f0""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Delete this demo! Waste of space."
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Lose"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+				"AAA"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "AAA"
+                    "xpos"                      "0"
+                    "ypos"                      "60"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+             
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "VSH Specific Bookmark"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notoblue"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"
+					 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f10"
 
 
+                            "tall"                           "300" //important
+
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Pre-Round"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Pre-Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "First" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "First"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "First-Round"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark First-Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "Second" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "Second"
+                                "xpos"                             "rs1"
+                                "ypos"                             "20"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Second-Round"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Second-Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "third" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "third"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Third-Round"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Third-Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "fourth" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "fourth"
+                                "xpos"                             "rs1"
+                                "ypos"                             "40"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Fourth-Round"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Fourth-Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                         "1k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "1k"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "1k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 1000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "2k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "2k"
+                                "xpos"                             "0+p0.25"
+                                "ypos"                             "60"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "2k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 2000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                         "3k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "3k"
+                                "xpos"                             "0+p0.5"
+                                "ypos"                             "60"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "3k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 3000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "4k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "4k"
+                                "xpos"                              "0+p0.5+p0.25"
+                                "ypos"                             "60"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "4k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 4000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+
+
+
+
+
+
+
+
+
+                       "5k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "5k"
+                                "xpos"                             "0"
+                                "ypos"                             "80"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "5k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 5000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "6k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "6k"
+                                "xpos"                             "0+p0.25"
+                                "ypos"                             "80"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "6k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 6000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                         "7k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "7k"
+                                "xpos"                             "0+p0.5"
+                                "ypos"                             "80"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "7k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 7000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "8k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "8k"
+                                "xpos"                              "0+p0.5+p0.25"
+                                "ypos"                             "80"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "8k Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 8000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+
+                       "9k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "9k"
+                                "xpos"                             "0"
+                                "ypos"                             "100"
+                                "wide"                             "p1"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "9000 Damage"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 9000 Damage"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+						
+                       "hide" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "hide"
+                                "xpos"                             "0"
+                                "ypos"                             "120"
+                                "wide"                             "p1"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notored"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Hiding"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Hiding"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+
+                            "miracle" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "miracle"
+                                "xpos"                             "0"
+                                "ypos"                             "140"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Miracle Moment"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Miracle Moment"                       
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "stupid" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "stupid"
+                                "xpos"                             "rs1"
+                                "ypos"                             "140"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Stupid Moment"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Stupid Moment"                       
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+                          "Spectating" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "Spectating"
+                                "xpos"                             "0"
+                                "ypos"                             "160"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Spectating Someone"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Spectating Someone"                       
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "Spec" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "Spec"
+                                "xpos"                             "rs1"
+                                "ypos"                             "160"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Spec Hale"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Spec Hale"                     
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+                          "Hale" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "Hale"
+                                "xpos"                             "0"
+                                "ypos"                             "180"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "I am Hale!"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark I am Hale!"                       
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "last" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "last"
+                                "xpos"                             "rs1"
+                                "ypos"                             "180"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "I'm Last One Alive"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark I'm Last One Alive"                     
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+
+
+
+
+                       "round1" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round1"
+                                "xpos"                             "0"
+                                "ypos"                             "200"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "30 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 30 min left"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "round2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round2"
+                                "xpos"                             "0+p0.25"
+                                "ypos"                             "200"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "25 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 25 min left"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                         "round23k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round23k"
+                                "xpos"                             "0+p0.5"
+                                "ypos"                             "200"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "20 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 20 min left"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "round4k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round4k"
+                                "xpos"                              "0+p0.5+p0.25"
+                                "ypos"                             "200"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "15 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 15 min left"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+
+
+
+
+
+
+
+
+
+                       "round5k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round5k"
+                                "xpos"                             "0"
+                                "ypos"                             "220"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "10 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 10 min left"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "round6k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "round6k"
+                                "xpos"                             "0+p0.25"
+                                "ypos"                             "220"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "5 min"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 5 min left"                          
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                         "ound7k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ound7k"
+                                "xpos"                             "0+p0.5"
+                                "ypos"                             "220"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Last"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Last Round"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "r8k" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "r8k"
+                                "xpos"                              "0+p0.5+p0.25"
+                                "ypos"                             "220"
+                                "wide"                             "p0.25"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                           "wtf?"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark WTF Moment!"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+
+						}
                         }
-   
+				 } }
 
 
 
@@ -2287,7 +3041,7 @@
 
 
                     }
-                }
+                } //marks
 
 
 
