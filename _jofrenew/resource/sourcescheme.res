@@ -539,7 +539,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"				"Product Jofre"
-				"tall"		"12"
+				"tall"		"10"
 				"antialias" "1"
 			}
 		} 		
@@ -676,7 +676,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"30"
+				"tall"		"24"
 			
 				"antialias" "1"
 			
@@ -688,7 +688,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"30"
+				"tall"		"24"
 			
 				"antialias" "1"
 		

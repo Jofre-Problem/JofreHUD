@@ -67,53 +67,272 @@
 						"visible"		"0"
 					}
 				}
-			"DemoSettings"
+
+
+
+
+	"ADContainerTest"
+	{
+		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "ADContainerTest"
+		"xpos"			"0"
+		"ypos"			"00"
+		zpos "100"
+		"wide"			"291"
+		"tall"			"480"
+		"visible"		"1"
+		"AdsContainer"
+		{
+			tall f0
+			wide f0
+			"NextButton"
 			{
-				"ControlName"				"CExLabel"
-				"fieldName"					"DemoSettings"
-				"xpos"						"0"
-				"ypos"						"0"
-				"zpos"						"53"
-				"wide"						"300"
-				"tall"						"30"
-				"proportionaltoparent"		"1"
-				"font"						"NotoBold12"
-				"labelText"					"Demo Settings (hud/tools/)" 
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"0+p0.5"
+				"ypos"		"r15"
+				"zpos"		"2"
+				"wide"		"p0.5"
+				"tall"		"15"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 0"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"east"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"0"
+				"ypos"		"r15"
+				"zpos"		"2"
+				"wide"		"p0.5"
+				"tall"		"15"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 0"
+				"fgcolor"		"notodark"
+				"font"			"G_FontSmall"
+				"textAlignment"	"west"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"blank"
+				"armedBgColor_override"		"0 0 0 100"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+		}
+
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"9999.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+
+
+
+
+
+
+
+					  	
+
+			"demostuff"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "demostuff"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""285"
+					  "expanded_height""285"
+					
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Demo Settings!"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
 				"textAlignment"				"center"
-				"fgcolor"					"notodark"
-				"bgcolor_override"			"notowhite"
-			}	
-				"HelpDemo"			// other classes pinned to this
-			{
-				ControlName				CExButton
-				fieldName				"HelpDemo"
-				"xpos"							"250"
-				"ypos"							"0"
-				"wide"							"50"
-				"tall"							"30"
-				zpos	"100"
-				labelText				"Ð"
-				font					"Newicons25"
-				textAlignment			east
-				"textinsety" "5"
-				"actionsignallevel"		"3"
-				Command				"engine +con; +rechelp"
-				paintbackground 			0
-				"armedfgcolor_override" "Primary"
-			}				
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "280" // controlls how much expands
+                        "proportionaltoparent"      "1"
+
+					 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+
+                            "tall"                           "280" //important
+
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "reccc" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "reccc"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Z"
+								textAlignment center
+								 "font"                      "newicons15"
+                               "command"   "engine ds_record"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+	                            "stoopp" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "stoopp"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notoredsolid"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Z n"
+								textAlignment center
+								 "font"                      "newicons15"
+								 
+                               "command"   "engine ds_stop"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+
 		"Record"			// other classes pinned to this
 	{
 		ControlName				CExButton
 		fieldName				"Record"
 		"xpos"							"0"
-		"ypos"							"30"
-		"wide"							"100"
+		"ypos"							"20"
+		"wide"							"p0.33"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"REC START / STOP"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"proportionaltoparent"                            "1"
+		"actionsignallevel"		"9"
 		Command				"engine +STASTO"
 	"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -123,17 +342,18 @@
 	{
 		ControlName				CExButton
 		fieldName				"Stop"
-		"xpos"							"100"
-		"ypos"							"30"
-		"wide"							"100"
+		"xpos"							"0+p0.33"
+		"ypos"							"20"
+		"wide"							"p0.33"
 		"tall"							"30"
 	zpos	"100"
 		labelText				"REC RESET"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +recreset"
 		"border_default"	"FLAT_Black_4"
+		"proportionaltoparent"                            "1"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}			
@@ -141,20 +361,22 @@
 	{
 		ControlName				CExButton
 		fieldName				"statu"
-		"xpos"							"200"
-		"ypos"							"30"
-		"wide"							"100"
+		"xpos"							"0+p0.66"
+		"ypos"							"20"
+		"wide"							"p0.35"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"STATUS"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"proportionaltoparent"                            "1"
+		"actionsignallevel"		"9"
 		Command				"engine ds_status"
 		defaultbgcolor_override "notowhite"
 		defaultfgcolor_override "Black"
 		paintbackground 			1
 	}	
+
 		"Rec_next_slot"			// other classes pinned to this
 	{
 		ControlName				CExButton
@@ -167,7 +389,7 @@
 		labelText				"Next Slot >"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +next"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -185,7 +407,7 @@
 		labelText				"< Previous Slot"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +prev"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -203,7 +425,7 @@
 		labelText				"# Funny"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatfun"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -221,7 +443,7 @@
 		labelText				"# Random"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatrandom"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -239,7 +461,7 @@
 		labelText				"# Casual"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatcasual"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -257,7 +479,7 @@
 		labelText				"# Comp"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatcomp"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -275,7 +497,7 @@
 		labelText				"# Community"
 		font					"g_fonttiny_2"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatcommu"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -293,7 +515,7 @@
 		labelText				"# VSH"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +reccatvsh"
 		"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -306,12 +528,12 @@
 		"xpos"							"0"
 		"ypos"							"210"
 		"wide"							"300"
-		"tall"							"30"
+		"tall"							"26"
 	zpos	"100"
-		labelText				"Current map!"
-		font					"Noto16"
+		labelText				"ó"
+		font					"newicons20"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine +recmapname"
 		"border_default"	"ModulateRgb"
 		"border_armed"	"FLAT_Black_2"	
@@ -329,7 +551,7 @@
 		labelText				"Ñ"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1scout"
 
 			"border_default"	"FLAT_Black_4"
@@ -348,7 +570,7 @@
 		labelText				"Ò"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1soldier"
 
 			"border_default"	"FLAT_Black_4"
@@ -367,7 +589,7 @@
 		labelText				"Ó"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1pyro"
 
 			"border_default"	"FLAT_Black_4"
@@ -386,7 +608,7 @@
 		labelText				"Ô"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1demo"
 
 				"border_default"	"FLAT_Black_4"
@@ -406,7 +628,7 @@
 		labelText				"Õ"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1heavy"
 
 			"border_default"	"FLAT_Black_4"
@@ -425,7 +647,7 @@
 		labelText				"Ö"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1engi"
 
 			"border_default"	"FLAT_Black_4"
@@ -444,7 +666,7 @@
 		labelText				"×"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1medic"
 
 				"border_default"	"FLAT_Black_4"
@@ -464,7 +686,7 @@
 		labelText				"Ø"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1sniper"
 
 				"border_default"	"FLAT_Black_4"
@@ -484,7 +706,7 @@
 		labelText				"Ù"
 		font					"Future30"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1spy"
 
 				"border_default"	"FLAT_Black_4"
@@ -492,37 +714,137 @@
 		paintbackground 			0
 	}				
 
-			"VoiceSpam"
-			{
-				"ControlName"				"CExLabel"
-				"fieldName"					"VoiceSpam"
-				"xpos"						"0"
-				"ypos"						"240"
-				"zpos"						"53"
-				"wide"						"50"
-				"tall"						"30"
-				"proportionaltoparent"		"1"
-				"font"						"newicons20"
+
+
+                            "ds_enable0" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ds_enable0"
+                                "xpos"                             "0"
+                                "ypos"                             "235"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Manually set Demos"
+								textAlignment center
+								 "font"                      "notobold10"
+                               "command"   "engine ds_enable 0"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+	                            "ds_enable2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ds_enable2"
+                                "xpos"                             "rs1"
+                                "ypos"                             "235"
+                                "wide"                             "p0.5"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notoredsolid"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "ALL demos automatically"
+								textAlignment center
+								 "font"                      "notobold10"
+								 
+                               "command"   "engine ds_enable 2"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+
+						}
+					}
+				}
+
+			"voiceee"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "voiceee"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""60"
+					  "expanded_height""60"
+						                              "pin_to_sibling"            "demostuff"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+         			"font"						"newicons20"
 				"labelText"					"â"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
 				"textAlignment"				"center"
-				"fgcolor"					"notodark"
-				"bgcolor_override"			"notowhite"
-			}
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "240" // controlls how much expands
+                        "proportionaltoparent"      "1"
+
 		"+voice"			// other classes pinned to this
 	{
 		ControlName				CExButton
 		fieldName				"+voice"
-		"xpos"							"50"
-		"ypos"							"240"
-		"wide"							"120"
-		"tall"							"30"
+		"xpos"							"0"
+		"ypos"							"10"
+		"wide"							"p0.33"
+		"tall"							"20"
 		zpos	"100"
 		labelText				"+VoiceOn"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
-		Command				"engine +voicerecord"
-
+		"actionsignallevel"		"8"
+		Command				"engine echo lol" //+voicerecord"
+proportionaltoparent 1
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
@@ -531,50 +853,127 @@
 	{
 		ControlName				CExButton
 		fieldName				"-voice"
-		"xpos"							"170"
-		"ypos"							"240"
-		"wide"							"120"
-		"tall"							"30"
+		"xpos"							"0+p0.33"
+		"ypos"							"10"
+		"wide"							"p0.33"
+		"tall"							"20"
 		zpos	"100"
 		labelText				"-VoiceOFF"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		Command				"engine -voicerecord"
-
+	proportionaltoparent 1
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}		
-			"QuickFix"
-			{
-				"ControlName"				"CExLabel"
-				"fieldName"					"QuickFix"
-				"xpos"						"0"
-				"ypos"						"270"
-				"zpos"						"53"
-				"wide"						"300"
-				"tall"						"30"
-				"proportionaltoparent"		"1"
-				"font"						"NotoBold12"
+		"-voiceloop"			// other classes pinned to this
+	{
+		ControlName				CExButton
+		fieldName				"-voiceloop"
+		"xpos"							"0+p0.33+p0.33"
+		"ypos"							"10"
+		"wide"							"p0.35"
+		"tall"							"20"
+		proportionaltoparent 1
+		zpos	"100"
+		labelText				"Loopback Toggle"
+		font					"noto12"
+		textAlignment			center
+		"actionsignallevel"		"8"
+		Command				"engine toggle voice_loopback"
+
+				"border_default"	"FLAT_Black_4"
+		"border_armed"	"FLAT_Black_2"	
+		paintbackground 			0
+	}						
+					 }
+				}
+		
+
+
+			"bugxid"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "bugxid"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""150"
+					  "expanded_height""150"
+						                              "pin_to_sibling"            "voiceee"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+         			"font"						"notobold16"
 				"labelText"					"Bug Fixes"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
 				"textAlignment"				"center"
-					"fgcolor"					"notodark"
-				"bgcolor_override"			"notowhite"
-			}	
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "240" // controlls how much expands
+                        "proportionaltoparent"      "1"
+					
+						
 		"invisplayers"			// other classes pinned to this
 	{
 		ControlName				CExButton
 		fieldName				"invisplayers"
 		"xpos"							"0"
-		"ypos"							"300"
-		"wide"							"300"
+		"ypos"							"10"
+		"wide"							"f0"
+		proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Invisible Players"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		Command				"engine stop;record null; stop"
 
 				"border_default"	"FLAT_Black_4"
@@ -586,14 +985,15 @@
 		ControlName				CExButton
 		fieldName				"Stuckspec"
 		"xpos"							"0"
-		"ypos"							"330"
-		"wide"							"300"
+		"ypos"							"40"
+		"wide"							"f0"
+		proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Stuck On Spectator"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		Command				"engine jointeam red; joinclass sniper"
 
 				"border_default"	"FLAT_Black_4"
@@ -605,55 +1005,106 @@
 		ControlName				CExButton
 		fieldName				"mvmfix"
 		"xpos"							"0"
-		"ypos"							"360"
-		"wide"							"300"
+		"ypos"							"70"
+		"wide"							"f0"
+		proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Visual bugs on MVM"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
 		Command				"engine hud_reloadscheme"
 
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}	
-		"vote1"			// other classes pinned to this
-	{
-		ControlName				CExButton
-		fieldName				"vote1"
-		"xpos"							"0"
-		"ypos"							"390"
-		"wide"							"150"
-		"tall"							"30"
-		zpos	"100"
-		labelText				"Vote Next Map:"
-		font					"NotoBold16"
-		textAlignment			center
-		"actionsignallevel"		"3"
-		Command				"engine next_map_vote 0"
+					}
+					
+					}
 
-				"bgcolor_override"	"notowhite"
-		"fgcolor_override"	"notodark"	
-					"defaultbgcolor_override"	"notowhite"
-		"defaultfgcolor_override"	"notodark"		
-		paintbackground 			1
-	}
+			"votenxt"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "votenxt"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""150"
+					  "expanded_height""150"
+						                              "pin_to_sibling"            "bugxid"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+         			"font"						"notobold16"
+				"labelText"					"Vote Next Map (Casual)"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "240" // controlls how much expands
+                        "proportionaltoparent"      "1"
+					
 		"vote1a"			// other classes pinned to this
 	{
 		ControlName				CExButton
 		fieldName				"vote1a"
-		"xpos"							"150"
-		"ypos"							"390"
-		"wide"							"50"
+		"xpos"							"0"
+		"ypos"							"10"
+		"wide"							"p0.33"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"1"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
-		Command				"engine next_map_vote 1"
+		"actionsignallevel"		"8"
+		proportionaltoparent 1
+		Command				"engine next_map_vote 0"
 
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -663,16 +1114,17 @@
 	{
 		ControlName				CExButton
 		fieldName				"vote12"
-		"xpos"							"200"
-		"ypos"							"390"
-		"wide"							"50"
+		"xpos"							"0+p0.33"
+		"ypos"							"10"
+		"wide"							"p0.33"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"2"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
-		Command				"engine next_map_vote 1"
+		"actionsignallevel"		"8"
+		proportionaltoparent 1
+		Command				"engine next_map_vote 0"
 
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
@@ -682,22 +1134,61 @@
 	{
 		ControlName				CExButton
 		fieldName				"vote123"
-		"xpos"							"250"
-		"ypos"							"390"
-		"wide"							"50"
+		"xpos"							"0+p.66"
+		"ypos"							"10"
+		"wide"							"p0.35"
 		"tall"							"30"
 		zpos	"100"
 		labelText				"3"
 		font					"noto12"
 		textAlignment			center
-		"actionsignallevel"		"3"
+		"actionsignallevel"		"8"
+		proportionaltoparent 1
 		Command				"engine next_map_vote 2"
 
 				"border_default"	"FLAT_Black_4"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}									
-	
+			
+					}
+					
+					}
+			}
+		}
+	}
+
+		
+
+
+
+
+
+
+
+
+
+
+				"HelpDemo"			// other classes pinned to this
+			{
+				ControlName				CExButton
+				fieldName				"HelpDemo"
+				"xpos"							"250"
+				"ypos"							"0"
+				"wide"							"50"
+				"tall"							"30"
+				zpos	"100"
+				labelText				"Ð"
+				font					"Newicons25"
+				textAlignment			east
+				"textinsety" "5"
+				"actionsignallevel"		"3"
+				Command				"engine +con; +rechelp"
+				paintbackground 			0
+				"armedfgcolor_override" "Primary"
+			}				
+
+
 		"bb"
 		{
 			"xpos"		"0"
@@ -768,7 +1259,7 @@
 		"ypos"			"00"
 		zpos "100"
 		"wide"			"285"
-		"tall"			"480"
+		"tall"			"550"
 		"visible"		"1"
 		"AdsContainer"
 		{
@@ -782,7 +1273,7 @@
 				"ypos"		"r15"
 				"zpos"		"2"
 				"wide"		"p0.5"
-				"tall"		"15"   
+				"tall"		"0"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
@@ -815,7 +1306,7 @@
 				"ypos"		"r15"
 				"zpos"		"2"
 				"wide"		"p0.5"
-				"tall"		"15"   
+				"tall"		"0"   
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
@@ -988,19 +1479,7 @@
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
                                 "paintbackground"                             "1"
-                                "image_drawcolor"                               "255 160 48 0"
-                                "image_armedcolor"                             "255 160 48 5"
-                                "subimage" {
-                                    "controlname"                                   "imagepanel"
-                                    "fieldname"                                   "subimage"
-                                    "xpos"                                   "0"
-                                    "ypos"                                   "0"
-                                    "wide"                                  "f0"
-                                    "tall"                                   "f0"
-                                    "proportionaltoparent"                                   "1"
-                                    "image"                                  "replay/thumbnails/fill_additive"
-                                    "scaleimage"                                   "1"
-                                }
+                        
                             }
                         }
 		"VoiceLabel"
@@ -2287,7 +2766,7 @@
 								"actionsignallevel" "9"
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "I forgot to do the bookmark ealier..."
+                                "labeltext"                            "I forgot to do the bookmark earlier..."
 								textAlignment center
 								 "font"                      "NotoBold12"
                                "command"   "engine ds_mark ^LateBookmark"                        
@@ -3219,6 +3698,124 @@
                                 "image_armedcolor"                             "255 160 48 5"
                            
                             }	
+	                            "20ks" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "20ks"
+                                "xpos"                             "0+p0.25+p0.25+p0.25"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "20 Killstreak"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 20 Killstreak"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+
+
+                            "quake1" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "quake1"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "p0.5""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Dominating"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Dominating"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+	                            "quake12" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "quake12"
+                                "xpos"                             "rs1"
+                                "ypos"                             "20"
+                                "wide"                             "p0.5""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Killing_Spree"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Killing Spree"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+                       "quake123" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "quake123"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "p0.5""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "God-Like"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark God-Like"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+	                            "quake1234" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "quake1234"
+                                "xpos"                             "rs1"
+                                "ypos"                             "40"
+                                "wide"                             "p0.5""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Monster-Kill"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark Monster Kill"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+
 				 	}
 				 }}
 				 
