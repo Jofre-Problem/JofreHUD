@@ -2212,7 +2212,7 @@
                                 "fieldname"                             "win"
                                 "xpos"                             "0"
                                 "ypos"                             "0"
-                                "wide"                             "f0""actionsignallevel" "9"
+                                "wide"                             "p0.5""actionsignallevel" "9"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2245,9 +2245,9 @@
                             "lose" {
                                 "controlname"                             "CExButton"
                                 "fieldname"                             "lose"
-                                "xpos"                             "0"
-                                "ypos"                             "20"
-                                "wide"                             "f0""actionsignallevel" "9"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "p0.5""actionsignallevel" "9"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2257,6 +2257,40 @@
 								textAlignment center
 								 "font"                      "NotoBold12"
                                "command"   "engine ds_mark Lose"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                                "subimage" {
+                                    "controlname"                                   "imagepanel"
+                                    "fieldname"                                   "subimage"
+                                    "xpos"                                   "0"
+                                    "ypos"                                   "0"
+                                    "wide"                                  "f0"
+                                    "tall"                                   "f0"
+                                    "proportionaltoparent"                                   "1"
+                                    "image"                                  "replay/thumbnails/fill_additive"
+                                    "scaleimage"                                   "1"
+                                }
+                            }
+
+                            "Late" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "Late"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "p1""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "9"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "I forgot to do the bookmark ealier..."
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark ^LateBookmark"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -2290,7 +2324,7 @@
                                 "labeltext"                            "Delete this demo! Waste of space."
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Lose"                        
+                               "command"   "engine ds_mark Delete!"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -2322,8 +2356,8 @@
                     "collapsed_height"          "30"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
-					  "tall""480"
-					  "expanded_height""480"
+					  "tall""120"
+					  "expanded_height""280"
 		
              
                 
@@ -3029,8 +3063,178 @@
                             }	
 
 						}
-                        }
-				 } }
+                     }
+
+
+
+				 } // vsh bookmark end
+				 
+				"Casual"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Casual"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                                 "pin_to_sibling"            "AAA"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Casual Specific Bookmark"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notoblue"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"		
+
+												 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f10"
+
+                            "tall"                           "480"
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "5 Killstreak"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 5 Killstreak"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+	                            "10ks" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "10ks"
+                                "xpos"                             "0+p0.25"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "10 Killstreak"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 10 Killstreak"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }							
+	                            "15ks" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "15ks"
+                                "xpos"                             "0+p0.25+p0.25"
+                                "ypos"                             "0"
+                                "wide"                             "p0.25""actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "15 Killstreak"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine ds_mark 15 Killstreak"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+				 	}
+				 }}
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 }
 
 
 
