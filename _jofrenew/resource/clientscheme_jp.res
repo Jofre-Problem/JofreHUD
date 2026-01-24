@@ -322,9 +322,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name" "Product Sans"
-			//	"tall"		"20"
-			//	"weight"	"900"
+				"name"		"product_sans_regular" [$LINUX]
+				"name"		"Trebuchet MS" [$WINDOWS]
+			"weight"	"500" [$LINUX]
+				"weight"	"900" [$WINDOWS]
 				"antialias" "1"
 				"additive"	"1"
 			}

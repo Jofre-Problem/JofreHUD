@@ -8,9 +8,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"product_sans_regular" [$LINUX]
+				"name"		"Trebuchet MS" [$WINDOWS]
 				"tall"		"14"
-				"weight"	"0"
+				"weight"	"500" [$LINUX]
+				"weight"	"900" [$WINDOWS]
 				"antialias" "1"
 
 			}

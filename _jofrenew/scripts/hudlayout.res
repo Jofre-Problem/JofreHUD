@@ -403,6 +403,7 @@ visible 0
 		"wide"					"f0"
 		"tall"					"480"
 		"scaleImage"			"1"
+		visible 0
 		image "replay/thumbnails/misc/viewmodel/viewmodel_refract_3"
 	}
 	"CurrencyStatusPanel"
