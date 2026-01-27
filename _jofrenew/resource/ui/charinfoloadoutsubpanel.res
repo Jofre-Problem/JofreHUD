@@ -207,37 +207,36 @@
 
 		"fgcolor"		"G_White"
 	}	
-	"dashboardlabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"dashboardlabel"
-		"font"			"noto10"
-		"labelText"		"Dashboard"
+		"icon1labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon1labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Dashboard"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
-							"Pin_To_Sibling"			"dashboardl"
-							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
-			"dashboardlabelurl"
-			{
-				"ControlName"		"URLLabel"
-				"fieldName"		"dashboardlabelurl"
-				"xpos"		"0"
-				"ypos"		"0"
-				"zpos"		"900"
-		"wide"			"120"
-		"tall"			"20"
-				"labelText"		""
-				"URLText"		"https://next.backpack.tf/"
-				"pin_to_sibling"	"dashboardlabel"
-			}	
+		"Pin_To_Sibling"			"dashboardl"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
+				
+
 	"pricelistbar"
 	{
 		"ControlName"	"CExLabel"
@@ -274,38 +273,37 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"icon2label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"icon2label"
-		"font"			"noto10"
-		"labelText"		"Pricelist"
+
+
+		"icon2labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon2labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Pricelist"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/pricelist"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"icon2"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
-			"icon2labellurl"
-			{
-				"ControlName"		"URLLabel"
-				"fieldName"		"icon2labellurl"
-				"xpos"		"0"
-				"ypos"		"0"
-				"zpos"		"900"
-		"wide"			"120"
-		"tall"			"20"
-				"labelText"		""
-				"URLText"		"https://next.backpack.tf/pricelist"
-				"pin_to_sibling"	"icon2label"
-			}		
-		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
+			
 
 	"icon3"
 	{
@@ -338,7 +336,7 @@
 		"font"			"noto10"
 		"labelText"		"Market Pricelist"
 		textinsetx -1
-			"Command"		"url https://next.backpack.tf/marke"
+			"Command"		"url https://next.backpack.tf/market"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 

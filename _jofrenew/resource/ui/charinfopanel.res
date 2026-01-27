@@ -107,7 +107,7 @@
         "tabheight"                     "0"
         "tabxdelta"                     "0"
         "tabfittotext"                  "0"
-        "yoffset"                       "0"	
+        "yoffset"                       "1"	
 		
 			zpos					0		// buttons above sheet	
 			tall 		"f0"			//JP f0

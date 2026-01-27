@@ -14,7 +14,7 @@
 				"ControlName"	"Button"
 				"fieldName"		"NextButton"
 				"xpos"		"rs1-22"
-				"ypos"		"rs1-72"// +44
+				"ypos"		"rs1-88"// +44
 				"zpos"		"2"
 		wide							18
 		tall							40 
@@ -218,7 +218,7 @@
 		ControlName					CExButton
 		fieldName					"CharacterLoadoutButton"
 		"xpos"			"rs1-20"
-		"ypos"			"66"
+		"ypos"			"50"
 
 		wide							40
 		tall							o1
@@ -252,7 +252,7 @@
 		ControlName					CExButton
 		fieldName					"redbtn"
 		"xpos"			"rs1-21"
-		"ypos"			"rs1-117"
+		"ypos"			"rs1-134"
 
 		wide							18
 		tall							40
@@ -285,7 +285,7 @@
 		ControlName					CExButton
 		fieldName					"blubtn"
 		"xpos"			"rs1-21-21"
-		"ypos"			"rs1-117"
+		"ypos"			"rs1-134"
 
 		wide							18
 		tall							40
@@ -312,13 +312,70 @@
 		
 		paintbackground				0
 
-	}			
+	}	
+	
+	"wow2"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "wow2"
+		"xpos"			"rs1-21"
+		"ypos"			"rs1-26"
+		wide							39
+		tall							60
+		"visible"		"1"
+		"zpos" "111"
+		bgcolor_override blank
+		"AdsContainer"
+		{
+			tall f0
+			wide f0		
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"0"
+				"ypos"		"42"// +44
+				"zpos"		"2"
+		wide							40
+		tall							15 
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+		}			
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
 	"screenshotbtn"
 	{
 		ControlName					CExButton
 		fieldName					"screenshotbtn"
-		"xpos"			"rs1-21"
-		"ypos"			"rs1-30"
+		"xpos"			"0"
+		"ypos"			"0"
 
 		wide							39
 		tall							40
@@ -335,7 +392,7 @@
 		textAlignment				center
 
 		Command						"screenshot"
-		"actionsignallevel" "2"
+		"actionsignallevel" "5"
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"
 		
@@ -345,7 +402,105 @@
 		
 		paintbackground				0
 
-	}											
+	}	
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+			
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15.0"
+	"test"
+	{
+		ControlName					ImagePanel
+		fieldName					"test"
+		"xpos"			"7"
+		"ypos"			"7"
+		zpos 1110
+		wide							25
+		tall							o1
+		mouseinputenabled 0
+		image "replay/thumbnails/backpacktf/all"
+		visible						1
+		enabled						1
+		scaleImage 1
+		paintbackground				1
+		bgcolor_override white
+
+	}	
+
+	"screenshotbtn"
+	{
+		ControlName					CExButton
+		fieldName					"screenshotbtn"
+		"xpos"			"0"
+		"ypos"			"0"
+
+		wide							39
+		tall							40
+		visible						1
+		enabled						1
+	 armedfgcolor_override "G_ButtonBg"
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"	
+		visible						1
+		enabled						1
+
+		labeltext					""
+		font							"NewIcons20"
+		textAlignment				center
+
+		Command						"tf_forced_holiday 2"// incrementvar tf_forced_holiday 0 2 -2"
+		"actionsignallevel" "5"
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
+		
+		paintbackground				0
+
+	}	
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+		}
+	}					
+											
 	"class_loadout_panel"
 	{
 		"ControlName"	"Frame"
@@ -1135,7 +1290,7 @@
 {
     "ControlName"    "Panel"
     "xpos"            "p+0.454-p0.001+27"
-	ypos "85"
+	ypos "69"
     "wide"            "0"
     "tall"            "0"
     "proportionaltoparent"    "1"

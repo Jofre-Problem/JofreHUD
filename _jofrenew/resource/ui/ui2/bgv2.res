@@ -25,7 +25,7 @@
 		"ypos"			"00"
 		"zpos" "-10"
 		"wide"			"p1"
-		"tall"			"p1.01"
+		"tall"			"490"
 		"visible"		"1"
 
 
@@ -68,7 +68,7 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"p1"
-					"tall"			"p1"
+					"tall"			"490"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					"fillcolor" "27 27 27 255"
@@ -89,7 +89,7 @@
 					"ypos"			"0"
 					"zpos" 2
 					"wide"			"p1"
-					"tall"			"p1"
+					"tall"			"p1.1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					"image"			"replay/thumbnails/hp/REFRACTblur"
@@ -144,9 +144,9 @@
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"p1"
-					"tall"			"p1"
+					"tall"			"p1.1"
 					"visible"		"1"
-					"fillcolor" "Green"
+					"fillcolor" "0 255 0 255"
 				}		
 			}
 			"3"
