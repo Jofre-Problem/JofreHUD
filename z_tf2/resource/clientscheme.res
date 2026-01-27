@@ -134,7 +134,7 @@ Scheme
 
 		"ItemSetName"							"225 255 15 255"
 		"ItemSetItemEquipped"					"149 175 12 255"
-		"ItemSetItemMissing"					"139 137 137 255"
+		//"ItemSetItemMissing"					"139 137 137 255"
 		"ItemIsotope"							"225 255 15 255"
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"

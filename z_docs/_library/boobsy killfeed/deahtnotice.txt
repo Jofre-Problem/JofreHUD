@@ -1,0 +1,23 @@
+	HudDeathNotice
+	{
+		"xpos"	"r619"	"ypos"	"35"	"wide"	"628"	"tall"	"468"
+		    "PaintBackgroundType"    "2"
+    "Texture1"        "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture2"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture3"         "vgui/replay/thumbnails/hp/gradienttest"
+    "Texture4"         "vgui/replay/thumbnails/hp/gradienttest"
+		"MaxDeathNotices"		"14"
+		"IconScale"	  "0.39"
+		"LineHeight"	"16"	"LineSpacing"	"0"
+		"CornerRadius"	"4"
+		"RightJustify"	"1"
+		"TextFont"		"Killfeed2"
+
+		"TeamBlue"		"13 117 190 255"
+		"TeamRed"		"190 45 57 255"
+		"IconColor"     		"255 255 255 255"
+	//	"LocalPlayerColor"  	"12 12 12 255"
+
+		"BaseBackgroundColor"	"0 0 0 220"
+		"LocalBackgroundColor"	"TransparentWhite"
+	}

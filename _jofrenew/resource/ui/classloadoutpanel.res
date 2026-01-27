@@ -151,7 +151,7 @@
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
 		"xpos"			"160"
-		"ypos"			"3"
+		"ypos"			"-2"
 		"zpos"			"5000"
 		"fgcolor_override"	"G_Brown2"
 		"bgcolor_override" "G_ButtonSelectedBg"
@@ -169,7 +169,7 @@
 			"labelText"		"È"
 			"textAlignment"		"west"
 			"xpos" 			"180"					//"c-60"//			"180"
-			"ypos"			"3"
+			"ypos"			"-2"
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"16"
@@ -337,7 +337,7 @@
 				"ypos"		"42"// +44
 				"zpos"		"2"
 		wide							40
-		tall							15 
+		tall							20 
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
@@ -1349,7 +1349,7 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
+		"visible"		"1"
 		"bgcolor_override"		"0 0 0 255"
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"2"
@@ -1380,9 +1380,28 @@
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"110 110 110 255"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"0 0 0 220"
 			"centerwrap"	"1"
 		}
+		"maincontentscontainer"
+		{
+			"fieldName"		"maincontentscontainer"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"p0.4"
+
+						"level"
+					{
+						ControlName editablepanel
+						fieldName 						"level"
+						tall 1
+						"wide" "1"
+						xpos 100
+						ypos 20
+						
+					}			
+		}			
 	}	
 	
 	"CaratLabel"

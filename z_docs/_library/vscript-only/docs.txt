@@ -1,0 +1,8 @@
+vsh_hud 				- vsh_*
+vsh_maul 				- vsh_maul
+vsh_hud_hell			- vsh_outburst
+krampus_boss_bar 		- koth_krampus
+carrier_boss_bar2 		- cp_carrier
+tug_of_war/ 			- tow_dynamite
+mallhud					- pd_galleria
+hudobjectivearenahybrid - arena_perks

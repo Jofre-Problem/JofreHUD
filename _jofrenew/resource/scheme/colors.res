@@ -2,6 +2,12 @@ Scheme
 {
 	Colors
 	{
+		"ItemAttribLevel"						"117 107 94 255"
+		"ItemAttribNeutral"						"221 242 85 255"
+		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribNegative"					"255 64 64 255"		
+		// halloween spells label
+		"ItemSetItemMissing"								"255 38 176 255"		
 		"NotoWhite"			"220 220 220 255"
 		"NotoBlue"			"70 130 180 125"
 		"NotoRed"			"205 50 50 153"
@@ -204,7 +210,7 @@ Scheme
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
-		"ItemSetItemMissing"								"139 137 137 255"
+		//"ItemSetItemMissing"								"139 137 137 255"
 		"ItemIsotope"										"225 255 15 255"
 		"ItemBundleItem"									"149 175 12 255"
 		"ItemLimitedUse"									"0 160 0 255"

@@ -46,8 +46,27 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "8 8 8 230"	// pin color
+			"fillcolor" "8 8 8 240"	// pin color
 		}
+		"maincontentscontainer"
+		{
+			"fieldName"		"maincontentscontainer"
+			"xpos"			"20"
+			"ypos"			"0"
+			"zpos"			""
+			"wide"			"p0.4"
+
+						"name_label"
+					{
+						ControlName editablepanel
+						fieldName 						"name_label"
+						tall 1
+						"wide" "1"
+						xpos 100
+						ypos 20
+						
+					}			
+		}		
 	}
 
 	"LoadingSpinner"

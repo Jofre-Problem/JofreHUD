@@ -357,7 +357,7 @@
 		"zpos"										"100"
 		"wide"										"300"
 		"tall"										"300"
-		"visible"									"0"
+		"visible"									"1"
 		"bgcolor_override"							"Blank"
 		"noitem_textcolor"							"White"
 		"PaintBackgroundType"						"2"

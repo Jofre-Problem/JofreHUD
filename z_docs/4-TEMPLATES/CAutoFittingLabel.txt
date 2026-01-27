@@ -1,0 +1,21 @@
+				"Credit"
+				{
+					"ControlName"	"CAutoFittingLabel"
+					"fieldName"		"Credit"
+					"wide"		"137"
+					"tall"		"10"
+					"visible"		"1"
+					"labelText"		"Comfig Quickplay by mastercoms"
+					"font"		"Size 10"
+					"centerwrap"	"1"
+					"alpha"		"100"
+
+					"pin_to_sibling"		"Arena"
+					"pin_to_sibling_corner"	"2"
+
+					"colors"
+					{
+						"1"		"White"
+						"2"		"0 150 136 255"
+					}
+				}
