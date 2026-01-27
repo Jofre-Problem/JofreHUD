@@ -7,48 +7,975 @@
 			{
 			"ControlName""ImagePanel"
 			"fieldName""tank_gif"
-			"wide""f0"
-			xpos rs1-15
-			"tall""f0"
+			"wide""p0.4"
+			xpos rs1
+			"tall""o1"
 			ypos rs1
 			zpos -6
 			mouseinputenabled 0
 			"scaleImage""1"
-			"image""replay/thumbnails/rainbow_loading_2"
+			"image""replay/thumbnails/l4d2/noskill_tank_2"
 			"fgcolor""TanDark"
+			}	
+
+
+
+
+	"newadbg"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		"xpos"			"0"
+		"ypos"			"17"
+		"zpos" "1"
+		"wide"			"p0.135"
+		"tall"			"465"
+		"visible"		"1"
+		bgcolor_override "0 0 0 0"
+		"FadeTransition"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+		}
+		
+		"Frame"
+		{
+			"wide"		"0"
+			"tall"		"0"
+			"visible"	"0"
+		}	
+		"AdsContainer"
+		{
+			tall f0
+			wide f0
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"2"
+				"wide"		"60"
+				"tall"		"25"   
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+				pin_to_sibling "PrevButton"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"					
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"0"
+				"ypos"		"rs1-18"
+				"zpos"		"2"
+				"wide"		"60"
+				"tall"		"25"    
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+				
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+		}
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"30.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+				"left"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"left"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"15"		
+			"wide"			"f0" //260 wide
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"32 40 51 255"
+		}						
+			"logo"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""logo"
+			
+			xpos 15
+			ypos 22
+			"wide""120"
+			"tall""o0.12"
+			
+			zpos 100
+			mouseinputenabled 0
+			"scaleImage""1"
+			"image""replay/thumbnails/backpacktf/logo"
+			"fgcolor""TanDark"
+			}	
+			"logourl"
+			{
+				"ControlName"		"URLLabel"
+				"fieldName"		"logourl"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"900"
+			"wide""120"
+			"tall""o0.12"
+				"labelText"		""
+				"URLText"		"https://next.backpack.tf/"
+				"pin_to_sibling"	"logo"
+			}
+					"dashboardl"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"dashboardl"
+		"font"			"newicons12"
+		"labelText"		"Ê"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+	}	
+	"dashboardlabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"dashboardlabel"
+		"font"			"noto10"
+		"labelText"		"Dashboard"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+							"Pin_To_Sibling"			"dashboardl"
+							"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+							"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+			"dashboardlabelurl"
+			{
+				"ControlName"		"URLLabel"
+				"fieldName"		"dashboardlabelurl"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"900"
+		"wide"			"120"
+		"tall"			"20"
+				"labelText"		""
+				"URLText"		"https://next.backpack.tf/"
+				"pin_to_sibling"	"dashboardlabel"
+			}	
+	"pricelistbar"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"pricelistbar"
+		"font"			"CustomVerdanaSmall"
+		"labelText"		"Pricing"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		textinsetx 24
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"100"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"dashboardl"		
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"		
+	}	
+	"icon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon2"
+		"font"			"newicons12"
+		"labelText"		"ŀ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"pricelistbar"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"icon2label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon2label"
+		"font"			"noto10"
+		"labelText"		"Pricelist"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"icon2"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+			"icon2labellurl"
+			{
+				"ControlName"		"URLLabel"
+				"fieldName"		"icon2labellurl"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"900"
+		"wide"			"120"
+		"tall"			"20"
+				"labelText"		""
+				"URLText"		"https://next.backpack.tf/pricelist"
+				"pin_to_sibling"	"icon2label"
 			}		
-			"Wall_Backpack_etc"
+		
+
+	"icon3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon3"
+		"font"			"newicons12"
+		"labelText"		"Ę"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"icon2"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+
+		"icon3labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon3labelb"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"120"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Market Pricelist"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/marke"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"icon3"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
+	
+	"icon4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon4"
+		"font"			"newicons12"
+		"labelText"		"ö"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"icon3"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+		"icon4labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon4labelb"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"120"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Suggestions"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/suggestions?state=open"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"icon4"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}
+			
+	"icon5"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon5"
+		"font"			"newicons12"
+		"labelText"		"Đ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"icon4"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"icon5label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"icon5label"
+		"font"			"noto10"
+		"labelText"		"Latest Changes"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"icon5"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+	"sidebar2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"sidebar2"
+		"font"			"CustomVerdanaSmall"
+		"labelText"		"Classifieds"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		textinsetx 24
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"100"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"icon5"		
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"		
+	}	
+	"vicon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon2"
+		"font"			"newicons12"
+		"labelText"		"ę"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"sidebar2"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"vicon2label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon2label"
+		"font"			"noto10"
+		"labelText"		"Browse Listings"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"vicon2"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}		
+					"vicon2log"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"vicon2log"
+					"font"			"newicons12"
+					"labelText"		"ő"
+					"textAlignment"	"east"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"25"
+					"tall"			"20"
+					"Pin_To_Sibling"			"vicon2"		
+					"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+					"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"fgcolor"		"g_yellow"
+				}	
+				"vicon2loglabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"vicon2loglabel"
+					"font"			"noto10"
+					"labelText"		"My Listings"
+					"textAlignment"	"west"
+					"xpos"			"5"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"120"
+					"tall"			"20"
+
+					"fgcolor"		"g_yellow"
+					"Pin_To_Sibling"			"vicon2log"
+					"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+					"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+				}	
+
+	"vicon3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon3"
+		"font"			"newicons12"
+		"labelText"		"đ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"vicon2log"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"vicon3label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon3label"
+		"font"			"noto10"
+		"labelText"		"Deals"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"vicon3"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+	"vicon4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon4"
+		"font"			"newicons12"
+		"labelText"		"Ã"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"vicon3"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"vicon4label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"vicon4label"
+		"font"			"noto10"
+		"labelText"		"Matches"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"vicon4"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}
+	"sidebar3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"sidebar3"
+		"font"			"CustomVerdanaSmall"
+		"labelText"		"Lists"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		textinsetx 24
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"100"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"vicon4"		
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"		
+	}	
+	"lvicon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon2"
+		"font"			"newicons12"
+		"labelText"		"Õ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"sidebar3"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"lvicon2label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon2label"
+		"font"			"noto10"
+		"labelText"		"Effects"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"lvicon2"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}		
+	"lvicon3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon3"
+		"font"			"newicons12"
+		"labelText"		"þ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"lvicon2"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"lvicon3label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon3label"
+		"font"			"noto10"
+		"labelText"		"War Paints"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"202"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"lvicon3"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+	"lvicon4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon4"
+		"font"			"newicons12"
+		"labelText"		"ĕ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"lvicon3"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"lvicon4label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon4label"
+		"font"			"noto10"
+		"labelText"		"Items"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"lvicon4"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}
+	"lvicon5"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon5"
+		"font"			"newicons12"
+		"labelText"		"Ô"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"lvicon4"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notored"
+	}	
+	"lvicon5label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"lvicon5label"
+		"font"			"noto10"
+		"labelText"		"Steam API Health"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"notored"
+		"Pin_To_Sibling"			"lvicon5"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}	
+	"sidebar4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"sidebar4"
+		"font"			"CustomVerdanaSmall"
+		"labelText"		"Others"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		textinsetx 24
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"100"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"lvicon5"		
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"		
+	}		
+	"kkkicon2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"kkkicon2"
+		"font"			"newicons12"
+		"labelText"		"Ĳ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"sidebar4"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"kkkicon2label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"kkkicon2label"
+		"font"			"noto10"
+		"labelText"		"Scrap TF"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"kkkicon2"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}		
+	"kkkicon3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"kkkicon3"
+		"font"			"newicons12"
+		"labelText"		"Ĳ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"kkkicon2"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"G_White"
+	}	
+	"kkkicon3label"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"kkkicon3label"
+		"font"			"noto10"
+		"labelText"		"Mann Co Store"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"120"
+		"tall"			"20"
+
+		"fgcolor"		"G_White"
+		"Pin_To_Sibling"			"kkkicon3"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+	}						
+			}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"60.0"
+
+			"logo"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""logo"
+			
+			xpos 38
+			ypos 10
+			"wide""40"
+			"tall""o1"
+			
+			zpos 100
+			mouseinputenabled 0
+			"scaleImage""1"
+			"image""replay/thumbnails/backpacktf/mannco"
+			"fgcolor""TanDark"
+			}	
+				"left"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"Wall_Backpack_etc"
+			"fieldName"		"left"
 			"xpos"			"0"
-			"ypos"			"235+40"
-			"zpos"			"-5"		
-			"wide"			"f0"
-			"tall"			"95"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"ypos"			"0"
+			"zpos"			"15"		
+			"wide"			"f0" //260 wide
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintbackground"	"1"
-			"bgcolor_override"	"G_MenuShader"
-		}
-		"Wall_Classes"
+			"bgcolor_override"	"22 125 156 255"
+		}					
+	
+
+
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}
+		}	
+	}
+
+
+
+
+
+
+
+
+
+
+
+			"bbbbbb"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"Wall_Classes"
+			"fieldName"		"bbbbbb"
 			"xpos"			"0"
-			"ypos"			"90"
+			"ypos"			"0"
 			"zpos"			"-5"		
 			"wide"			"f0"
-			"tall"			"95"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintbackground"	"1"
-			"bgcolor_override"	"G_MenuShader"
-		}
+			"bgcolor_override"	"17 22 26 255"
+		}	
+				"bbbbbb2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"bbbbbb2"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"		
+			"wide"			"f0"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"0 0 0 255"
+		}	
+				"line1"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"line1"
+			"xpos"			"0"
+			"ypos"			"15+p0.002"
+			"zpos"			"5"		
+			"wide"			"f0"
+			"tall"			"p0.002"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"209 209 209 255"
+		}			
+				"left"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"left"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-5"		
+			"wide"			"p0.135" //260 wide
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"32 40 51 255"
+		}							
+				"arriba1"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"arriba1"
+			"xpos"			"0+p0.135"
+			"ypos"			"17"
+			"zpos"			"1"		
+			"wide"			"f0" //260 wide
+			"tall"			"23"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"39 50 65 255"
+		}	
 	"ShowBackpackButton"
 	{
 		"ControlName"		"ImageButton"
@@ -67,7 +994,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"backpack"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"notobold12"
 		"scaleImage"		"1"
 		"activeimage"		"..\hud\backpack_01"
 		"inactiveimage"		"..\hud\backpack_01_grey"
@@ -78,7 +1005,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"G_FontSmall"
+		"font"			"notobold12"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -113,7 +1040,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"crafting"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"notobold12"
 		"scaleImage"		"1"
 		"activeimage"		"crafting_anvil"
 		"inactiveimage"		"crafting_anvil_gray"
@@ -124,7 +1051,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"G_FontSmall"
+		"font"			"notobold12"
 		"labelText"		"#CraftingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -159,7 +1086,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"armory"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"notobold12"
 		"scaleImage"		"1"
 		"activeimage"		"catalog_book"
 		"inactiveimage"		"catalog_book_gray"
@@ -170,7 +1097,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"G_FontSmall"
+		"font"			"notobold12"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -205,7 +1132,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"trading"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"notobold12"
 		"scaleImage"		"1"
 		"activeimage"		"trading_parcel"
 		"inactiveimage"		"trading_parcel_gray"
@@ -216,7 +1143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"G_FontSmall"
+		"font"			"notobold12"
 		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -252,7 +1179,7 @@
 		"textAlignment"		"south-west"
 		"Command"			"paintkit_preview"
 		"Default"			"0"
-		"font"				"MenuKeys"
+		"font"				"notobold12"
 		"scaleImage"		"1"
 		"activeimage"		"paintkit_tool"
 		"inactiveimage"		"paintkit_tool_bw"
@@ -263,7 +1190,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
-		"font"			"G_FontSmall"
+		"font"			"notobold12"
 		"labelText"		"#PaintkitTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
