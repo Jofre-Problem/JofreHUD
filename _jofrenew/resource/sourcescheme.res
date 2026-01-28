@@ -442,7 +442,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"Product Jofre"
-				"tall"		"22"
+				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -645,7 +645,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"Product Jofre"
-				"tall"		"18"
+				"tall"		"14"
 				"wide"		"300"
 				"antialias" 	"1"
 			}
@@ -655,7 +655,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"Product Jofre"
-				"tall"		"20"
+				"tall"		"16"
 				"wide"		"300"
 				"antialias" 	"1"
 			}
@@ -665,7 +665,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"Product Jofre"
-				"tall"		"22"
+				"tall"		"18"
 				"wide"		"300"
 				"antialias" 	"1"
 			}
@@ -877,7 +877,7 @@ Button.DepressedTextColor "220 220 220 255"
 		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"		
 		"tf2def"
 		{
-			"font" "fonts/Product Jofre.ttf"
+			"font" "fonts/ProductJofre.otf"
 			"name" "Product Jofre"
 			"russian"
 			{

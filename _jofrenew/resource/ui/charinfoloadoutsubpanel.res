@@ -415,24 +415,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"icon5label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"icon5label"
-		"font"			"noto10"
-		"labelText"		"Latest Changes"
+		"icon5labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon5labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Latest Changes"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/latest"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"icon5"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
+
 	"sidebar2"
 	{
 		"ControlName"	"CExLabel"
@@ -469,24 +480,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"vicon2label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"vicon2label"
-		"font"			"noto10"
-		"labelText"		"Browse Listings"
+		"icon6labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon6labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Browse Listings"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/classifieds"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"vicon2"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}		
+
 					"vicon2log"
 				{
 					"ControlName"	"CExLabel"
@@ -503,25 +525,36 @@
 					"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 					"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 					"fgcolor"		"g_yellow"
-				}	
-				"vicon2loglabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"vicon2loglabel"
-					"font"			"noto10"
-					"labelText"		"My Listings"
-					"textAlignment"	"west"
-					"xpos"			"5"
-					"ypos"			"0"
-					"zpos"				"20"
-					"wide"			"120"
-					"tall"			"20"
+				}
+		"icon7labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon7labelb"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"120"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"			"My Listings"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/classifieds/manage"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-					"fgcolor"		"g_yellow"
-					"Pin_To_Sibling"			"vicon2log"
-					"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
-					"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-				}	
+		"Pin_To_Sibling"			"vicon2log"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"g_yellow"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}							
+	
 
 	"vicon3"
 	{
@@ -540,24 +573,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"vicon3label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"vicon3label"
-		"font"			"noto10"
-		"labelText"		"Deals"
+		"icon8labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon8labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Deals"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/premium"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"vicon3"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}			
+
 	"vicon4"
 	{
 		"ControlName"	"CExLabel"
@@ -575,24 +619,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"vicon4label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"vicon4label"
-		"font"			"noto10"
-		"labelText"		"Matches"
+		"icon9labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon9labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Matches"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/premium"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"vicon4"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}				
+
 	"sidebar3"
 	{
 		"ControlName"	"CExLabel"

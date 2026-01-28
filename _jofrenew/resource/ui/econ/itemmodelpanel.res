@@ -1,6 +1,6 @@
 //#base ..\..\..\overrides\16-by-10-aspectratio\file.res
 //#base ..\..\..\overrides\4-by-3-aspectratio\file.res
-#base ..\..\ui2\16-by-9_centereditempanel.res
+///#base ..\..\ui2\16-by-9_centereditempanel.res
 
 "Resource/UI/ItemModelPanel.res"
 {

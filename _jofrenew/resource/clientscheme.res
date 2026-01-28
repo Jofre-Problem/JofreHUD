@@ -1,4 +1,5 @@
 #base "clientscheme_jp.res"
+#base "scheme/fonts_groovy.res"
 
 
 #base "../../../../../cfg/_jp_fonts_scheme.txt"		// font default tf2 stuff uses

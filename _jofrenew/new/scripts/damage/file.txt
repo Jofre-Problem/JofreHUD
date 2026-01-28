@@ -13,10 +13,9 @@ event DamageCMD
 }
 event DamagedPlayerMain
 {
-	setfont HudDeathNotice "textfont" "Killfeed"	0.001
-	setfont HudDeathNotice "textfont" "Killfeed2"	5
+
 	StopEvent 	DamageAccountStuff	0.0
-	RunEvent 	DamageAccountStuff      0.01 //lol
+	RunEvent 	DamageAccountStuff      0.1 //lol
 	StopEvent 	HitM 	0.0
 	RunEvent 	HitM	0.01
 	StopEvent 	TestTestingCmd 	0.0
@@ -38,12 +37,14 @@ event DamageAccountStuff [$WINDOWS]
 	
 	Animate DamageAccountLabelShadow2 Alpha "255" linear 0.0 0.0
 	Animate DamageAccountLabelShadow2 Alpha "0" linear 0.5 5.0
-
+	setfont HudDeathNotice "textfont" "Killfeed"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed2"	5
 }
 
 event DamageAccountStuff [$LINUX]
 {
 	Animate DamageAccountLabel fgcolor "255 215 0 255" linear 0.1 0.3 
-
+	setfont HudDeathNotice "textfont" "Killfeed"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed2"	5
 	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
 }

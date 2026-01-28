@@ -8,7 +8,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"tf2s_jofre"
+				"name"			"hwnjofre1"
 			//	"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -19,7 +19,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"tf2s_jofre"
+				"name"			"hwnjofre1"
 			//	"tall"			"12"
 				"antialias"		"1"
 				"weight"		"500"
@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"tf2s_jofre"
+				"name"			"hwnjofre1"
 			//	"tall"			"13"
 				"weight"		"500"
 				"additive"		"0"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"tf2s_jofre"
+				"name"			"hwnjofre1"
 			//	"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
@@ -51,7 +51,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"tf2s_jofre"
+				"name"			"hwnjofre1"
 			//	"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
@@ -1182,9 +1182,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"8"
-				"weight"		"500"
+				"name"			"hwnjofre1"
+				"tall"			"12"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -1193,9 +1193,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"10"
-				"weight"		"500"
+				"name"			"hwnjofre1"
+				"tall"			"12"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -1204,9 +1204,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"12"
-				"weight"		"500"
+				"name"			"hwnjofre1"
+				"tall"			"14"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -1215,9 +1215,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
-				"tall"			"18"
-				"weight"		"500"
+				"name"			"hwnjofre1"
+				"tall"			"20"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
 			}

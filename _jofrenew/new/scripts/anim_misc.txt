@@ -41,6 +41,15 @@ event UberTimerHide
 	Animate UberTimerBG tall	0	Linear 0.0 0.001
 	Animate UberTimer	wide	0	Linear	0.0 0.001
 }
+event HudMatchStatus_ShowMatchWinDoors
+{
+
+}
+
+event HudMatchStatus_ShowMatchWinDoors_NoOpen
+{
+
+}
 
 event MainMenuCMD
 {

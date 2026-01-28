@@ -40,7 +40,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"NotoBold8"
+			"font"			"NotoBold20"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

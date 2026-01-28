@@ -22,13 +22,13 @@
 		"is_mouseover"		"1"
 		"text_xpos_collection"	"0"
 		
-		"text_xpos"		"40"
+		"text_xpos"		"10"
 		"text_ypos"			"5"
 		"model_xpos"	"3"
-		"model_ypos"	"3"
-		"model_wide"	"195"
+		"model_ypos"	"130"
+		"model_wide"	"300"
 		"model_tall"	"130"
-		"text_wide"		"180"
+		"text_wide"		"250"
 		"text_forcesize" "2"
 		
 		"pin_to_sibling" 	"mouseoveritempanelAnchor"
@@ -42,15 +42,16 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-100"
-			"wide"			"348"
-			"tall"			"140"
+			"wide"			"360"
+			"tall"			"250"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "0 0 0 230"
+			"fillcolor" "30 30 30 255"
+			border G_targetborder
 		}
 	}
 	
-	"LoadingSpinner"
+	"LoadingSpinner" // fuck this elements
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadingSpinner"
@@ -62,6 +63,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"0"
+		"mouseinputenabled" 0
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
@@ -85,7 +87,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"		
-			"wide"			"140"
+			"wide"			"f0"
 			"tall"			"100"
 			"visible"		"1"
 			"enabled"		"1"
@@ -104,7 +106,7 @@
 			"use_particle"			"1"
 			"fov"					"75"
 
-			"model_rotate_yaw_speed"	"100"
+			"model_rotate_yaw_speed"	"50"
 			
 			"inventory_image_type" "1"
 		
@@ -113,10 +115,10 @@
 				"force_pos"	"1"
 				"use_particle"	"1"
 				"angles_x" "7"
-				"angles_y" "130"
+				"angles_y" "10"
 				"angles_z" "0"
-				"origin_x" "175"
-				"origin_y" "0"
+				"origin_x" "0"
+				"origin_y" "10"
 				"origin_z" "0"
 				"frame_origin_x"	"0"
 				"frame_origin_y"	"0"
@@ -161,7 +163,28 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"0"
 		}
+		"anchor"
+		{
+			"ControlName"	"editablepanel"
+			"fieldName"		"anchor"
+			"xpos"			"c20"
+			"ypos"			"50"
+			"wide"			"1"
+			"tall"			"1"
+			"enabled"		"1"
 
+		}
+		"anchor2"
+		{
+			"ControlName"	"editablepanel"
+			"fieldName"		"anchor2"
+			"xpos"			"c20"
+			"ypos"			"10"
+			"wide"			"1"
+			"tall"			"1"
+			"enabled"		"1"
+
+		}		
 		"collectionnamelabel"
 		{
 			"ControlName"	"CExLabel"
@@ -171,31 +194,33 @@
 			"ypos"			"30"
 			"zpos"			"2"
 			"wide"			"100"
-			"tall"			"30"
+			"tall"			"40"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"0"
+			"pin_to_sibling" "anchor2"
 		}
 	
 		"collectionlistlabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"collectionlistlabel"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"100"
-			"ypos"			"60"
+			"font"			"default"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"100"
-			"tall"			"60"
+			"tall"			"40"
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"%collectionlist%"
 			"textAlignment"	"west"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"0"
+			"pin_to_sibling" "anchor"
 		}
 			
 		"collectionhighlight"
@@ -206,10 +231,11 @@
 			"ypos"			"42"
 			"zpos"			"1"
 			"wide"			"145"
-			"tall"			"9"
+			"tall"			"0"
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
 			"bgcolor_override"		"215 206 182 255"
+			"pin_to_sibling" "anchor"	
 		}
 		
 		"equippedlabel"

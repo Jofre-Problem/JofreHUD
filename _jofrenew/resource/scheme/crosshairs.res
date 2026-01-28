@@ -438,8 +438,8 @@
 		}
 		"hwn"
 		{
-			"font"		"fonts/tf2s_jofre.otf"
-			"name"		"tf2s_jofre"
+			"font"		"fonts/hwnjofre1.otf"
+			"name"		"hwnjofre1"
         	"arabic"
             {
                 "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
