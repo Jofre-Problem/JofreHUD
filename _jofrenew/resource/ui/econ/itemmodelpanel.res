@@ -25,7 +25,7 @@
 		"text_xpos_collection"	"0"
 		"text_ypos"			"5"
 		"text_forcesize" "0"
-		"text_xpos"		"0"//"39"
+		"text_xpos"		"20"//"39"
 		"text_wide"		"300"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"

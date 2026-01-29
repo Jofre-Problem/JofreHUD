@@ -21,12 +21,12 @@
 		"collection_list_xpos"	"200"
 		"is_mouseover"		"1"
 		"text_xpos_collection"	"0"
-		"text_xpos"		"40"
+		"text_xpos"		"10"
 		"text_ypos"			"5"
 		"model_xpos"	"5"
-		"model_ypos"	"10"
+		"model_ypos"	"100"
 		"model_wide"	"180"
-		"model_tall"	"120"
+		"model_tall"	"80"
 		"text_forcesize" "2"
 		
 		"pin_to_sibling" 	"mouseoveritempanelAnchor"
@@ -40,11 +40,12 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-100"
-			"wide"			"348"
-			"tall"			"140"
+			"wide"			"360"
+			"tall"			"220"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "0 0 0 230"
+			"fillcolor" "30 30 30 255"
+			border G_targetborder
 		}
 	}
 	
@@ -60,6 +61,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintborder"	"0"
+		mouseinputenabled 0
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}

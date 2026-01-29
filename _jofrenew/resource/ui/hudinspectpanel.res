@@ -40,9 +40,29 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"NotoBold20"
+			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			//	"0"
+			//		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#FreezePanel_Item"
+			"textAlignment"	"Left"
+			alpha 0
+			////		"0"
+			
+		}
+		"ItemLabel2"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"ItemLabel2"
+			"font"			"ItemFontAttribSmall"
+			"xpos"			"10"
+			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
@@ -54,6 +74,6 @@
 			"textAlignment"	"Left"
 			////		"0"
 			
-		}
+		}		
 	}	
 }

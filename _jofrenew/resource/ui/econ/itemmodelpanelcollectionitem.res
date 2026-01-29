@@ -25,9 +25,9 @@
 		"text_xpos"		"10"
 		"text_ypos"			"5"
 		"model_xpos"	"3"
-		"model_ypos"	"130"
+		"model_ypos"	"50"
 		"model_wide"	"300"
-		"model_tall"	"130"
+		"model_tall"	"280"
 		"text_wide"		"250"
 		"text_forcesize" "2"
 		
@@ -115,10 +115,10 @@
 				"force_pos"	"1"
 				"use_particle"	"1"
 				"angles_x" "7"
-				"angles_y" "10"
+				"angles_y" "130"
 				"angles_z" "0"
-				"origin_x" "0"
-				"origin_y" "10"
+				"origin_x" "95" // nothing
+				"origin_y" "0" // xpos
 				"origin_z" "0"
 				"frame_origin_x"	"0"
 				"frame_origin_y"	"0"
