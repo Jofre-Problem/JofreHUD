@@ -292,7 +292,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ProductChat"
+				"name"			"hwnjofre1"
 			//	"tall"		"15"
 				"weight"	"0"
 				"yres"		"480 1023"
@@ -301,7 +301,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"ProductChat"
+				"name"		"hwnjofre1"
 			//	"tall"		"17"
 				"weight"	"0"
 				"yres"		"1024 1199"
@@ -310,7 +310,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"ProductChat"
+				"name"		"hwnjofre1"
 			//	"tall"		"24"
 				"weight"	"0"
 				"yres"		"1200 6000"
@@ -319,7 +319,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"ProductChat"
+				"name"		"hwnjofre1"
 				"tall"		"36"
 				"yres"		"1600 6000"
 				"antialias"		"1"
@@ -329,7 +329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"hwnjofre1"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -337,7 +337,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"hwnjofre1"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -345,7 +345,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"hwnjofre1"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -354,7 +354,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"hwnjofre1"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -363,7 +363,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"hwnjofre1"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -948,6 +948,175 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}	
+		"hwn"
+		{
+			"font"		"fonts/hwnjofre1.otf"
+			"name"		"hwnjofre1"
+        	"arabic"
+            {
+                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
+            }
+
+            "brazilian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "bulgarian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "czech"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "danish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "dutch"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "english"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "finnish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "french"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "german"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "greek"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "hebrew"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "hungarian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "italian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "japanese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "korean"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "koreana"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "latvian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "lithuanian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "norwegian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "pirate"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "polish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "portuguese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "romanian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "russian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "schinese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "slovak"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "spanish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "swedish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "tchinese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "thai"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "turkish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "ukrainian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }			
+		}				
 		"4"		"resource/linux_fonts/DejaVuSans.ttf"
 		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
 		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"

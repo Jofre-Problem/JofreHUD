@@ -52,7 +52,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"0"
 		"PaintBackground"							"1"
-		"bgcolor_override"							"FooterBGBlack"
+		"bgcolor_override"							"0 0 0 0"
 		"PaintBorder"								"1"
 		"border"									"TFFatLineBorderClearBG"
 		"proportionaltoparent"						"1"
@@ -120,7 +120,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"DarkBrown"
+		"bgcolor_override"							"0 0 0 0"
 	}
 	"DrawingPanel"
 	{

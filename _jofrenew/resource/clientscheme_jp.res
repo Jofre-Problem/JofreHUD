@@ -146,13 +146,32 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Segoe UI"
+				"name"	"hwnjofre1"
 				"tall"	"6"
 				
 				"antialias"	"1"
 			}
 		}		
-
+	"DefaultSmall"		//pin bruh font used on vgui build mode
+		{
+			"1"
+			{
+				"name"	"hwnjofre1"
+				"tall"	"6"
+				
+				"antialias"	"1"
+			}
+		}	
+	"Defaultlarge"		//pin bruh font used on vgui build mode
+		{
+			"1"
+			{
+				"name"	"hwnjofre1"
+				"tall"	"6"
+				
+				"antialias"	"1"
+			}
+		}			
 		"blocks"
 		{
 			"1"

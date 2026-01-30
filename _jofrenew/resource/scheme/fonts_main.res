@@ -58,6 +58,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
+		"hwn18"
+		{
+			"1"
+			{
+				"name"			"hwnjofre1"
+				"tall"			"16"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}		
 		HudHintText
 		{
 			"1"
@@ -68,7 +79,29 @@ Scheme
 				
 				"antialias"	"1"
 			}
+		}
+		TFFontSmall
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+			}
 		}		
+		TFFontMedium
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+			}
+		}		
+		
+		InstructionalText
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+			}
+		}					
 		"SpectatorVerySmall"		//Player outline name
 		{
 			"1"
@@ -1177,7 +1210,51 @@ Scheme
 				"antialias"	"1"
 			}
 		}	
+		"HudFontSmall"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"11"
+				"weight"	"500"
 				
+				"antialias" 	"1"
+			}
+		}		
+		"HudFontSmallest"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"11"
+				"weight"	"500"
+				
+				"antialias" 	"1"
+			}
+		}
+		"HudFontSmallestShadow"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"11"
+				"weight"	"500"
+				
+				"antialias" 	"1"
+				"dropshadow"	"1"
+			}
+		}
+		"HudFontSmallestBold"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"11"
+				"weight"	"500"
+				
+				"antialias" "1"
+			}
+		}				
 	"ItemFontNameSmallest"
 		{
 			"1"

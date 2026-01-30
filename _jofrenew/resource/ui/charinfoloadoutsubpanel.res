@@ -684,24 +684,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"lvicon2label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"lvicon2label"
-		"font"			"noto10"
-		"labelText"		"Effects"
+		"icon12labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon12labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Effects"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/effects"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"lvicon2"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}		
+
 	"lvicon3"
 	{
 		"ControlName"	"CExLabel"
@@ -718,25 +729,36 @@
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
-	}	
-	"lvicon3label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"lvicon3label"
-		"font"			"noto10"
-		"labelText"		"War Paints"
+	}
+		"icon13labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon13labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"202"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"War Paints"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/war-paints"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"lvicon3"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}			
+
 	"lvicon4"
 	{
 		"ControlName"	"CExLabel"
@@ -754,24 +776,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"lvicon4label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"lvicon4label"
-		"font"			"noto10"
-		"labelText"		"Items"
+		"icon14labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon14labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Items"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/items"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"lvicon4"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}				
+
 	"lvicon5"
 	{
 		"ControlName"	"CExLabel"
@@ -789,24 +822,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"notored"
 	}	
-	"lvicon5label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"lvicon5label"
-		"font"			"noto10"
-		"labelText"		"Steam API Health"
+		"icon19labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon19labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Steam API Health"
+		textinsetx -1
+			"Command"		"url https://next.backpack.tf/almanac/steam-api-health"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"notored"
 		"Pin_To_Sibling"			"lvicon5"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}	
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"notored"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}		
+
 	"sidebar4"
 	{
 		"ControlName"	"CExLabel"
@@ -843,24 +887,36 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"kkkicon2label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"kkkicon2label"
-		"font"			"noto10"
-		"labelText"		"Scrap TF"
+
+		"icon15labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon15labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Scrap TF"
+		textinsetx -1
+			"Command"		"url https://scrap.tf/"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"kkkicon2"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}				
+
 	"kkkicon3"
 	{
 		"ControlName"	"CExLabel"

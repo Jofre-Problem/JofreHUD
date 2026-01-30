@@ -2,21 +2,18 @@
 
 event MapVoted
 {
-	Animate VotesLabel	ypos	30		Deaccel 0	0.05
-	Animate VotesLabel	ypos	40		Deaccel 0.05 0.1
-//	RunEventChild MainMenuOverride ForceSafemode 0.0
+
 }
 
 event WinningNextMapVote
 {
-	Animate VotesLabel	FgColor	CreditsGreen Deaccel	0	0.1.5
-//	RunEventChild MainMenuOverride ForceSafemode 0.0
+
 }
 
 // can lead to crashes
 event LosingNextMapVote
 {
-	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+//	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
 //	RunEventChild MainMenuOverride ForceSafemode 0.0
 //	RunEventChild Mainmenuoverride OnMatchCMD 0.0
 //	RunEventChild Mainmenuoverride OnMatchCMD 0.0

@@ -24,6 +24,7 @@
 	}
 	"AutoRetryAlert"
 	{
+		
 		"selected"		"0"
 	}
 	"AutoRetryJoin"
