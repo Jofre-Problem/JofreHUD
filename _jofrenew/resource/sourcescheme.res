@@ -467,7 +467,7 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" "1"
 			}
 		}
-	
+
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -574,7 +574,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Calling Code Regular"
+				"name"		"Product Jofre"
 				"tall"		"12"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -827,11 +827,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"name" "JofreIconsRe"
 		}	      
        
-		"58"
-		{
-			"font" "fonts/callingcode-regular.otf"
-			"name" "Calling Code Regular"
-		}      
+
 		"61"
 		{
 			"font" "fonts/productjofre.otf"
