@@ -1,10 +1,34 @@
 #base 	"hudinspectpanel.res"
+#base ui2/speedograph/speedograph_layout_vertical.res
+#base ui2/speedograph/speedograph_position_topleft.res
+
+// BASE GRAPHS
+#base ui2/speedograph/speedograph_h.res
+#base ui2/speedograph/speedograph_v.res
+//#base speedograph/speedograph_a.res
+
+// GRAPHS CONTAINER
+#base "ui2/timer_and_speed.res"
+#base ui2/speedograph/speedograph_base.res
 "Resource/UI/Spectator.res"
 { 
 	"specgui"
 	{
 	}
-
+    "speedograph"
+    {
+		ypos 25
+		        visible         1 
+    }
+		"fps" {
+			"controlName" "CTFImagePanel"
+			xpos rs1
+			ypos 23
+			"wide" "60"
+			"tall" "15"
+			"image" "replay/thumbnails/fps/fps_slow"
+			
+		}	
 	"ReinforcementsLabel"
 	{
 
@@ -120,4 +144,34 @@
 		"fieldName"					"bottombarblank"
 		"ypos"			"r0"
 	}
+	"itempanel"
+	{
+	//	pin_to_sibling "anchor"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"itempanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"0"
+		"bgcolor_override"		"30 30 30 255"
+		border "G_TargetBorder"
+		//
+		
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"170"
+		"text_center"	"1"
+		
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"	
+	}	
 }

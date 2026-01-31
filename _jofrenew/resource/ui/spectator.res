@@ -270,4 +270,5 @@
 		"textAlignment"		"east"
 		"fgcolor_override"	"G_White"
 	}
+	
 }

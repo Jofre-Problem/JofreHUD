@@ -7,7 +7,7 @@
 #base "../../../../cfg/_jp_hudplayerclass_3d_bg.txt"
 
 #base "../../new/ui_overrides/spray_stuff/bottom_left.txt"
-
+#base "ui2/speeds_all.res"
 //#base "../../../../../cfg/_jp_hud_radar.txt"	
 
 "Resource/UI/HudPlayerClass.res"
@@ -178,4 +178,17 @@
 	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
 	"classmodelpanelBG"
 	{"ControlName"	"CTFImagePanel"	"xpos"	"9990"}
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }

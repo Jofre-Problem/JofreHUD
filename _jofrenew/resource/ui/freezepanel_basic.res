@@ -1,7 +1,7 @@
 #base "../../../../../cfg/_jp_freezepnl_stress.txt"
 #base "../../../../cfg/_jp_freezepnl_stress.txt"
-//#base 	"freezepanel_basic_killername.res"
-//#base 	"hudinspectpanel.res"
+#base 	"freezepanel_basic_killername.res"
+#base 	"hudinspectpanel.res"
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"
@@ -73,98 +73,49 @@
 			"wide"			"0"
 		}
 	}
-
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"9999"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
-		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
-		"model_wide"		"90"
-		"model_tall"		"55"
-		
-		"text_xpos"		"90"
-		"text_wide"		"170"
-		"text_center"	"1"
-		
-		"max_text_height"	"90"
-		"padding_height"	"40"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
-		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
-		
-		"ItemLabel"
+		"anchor"
 		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
-			"xpos"			"10"
-			"ypos"			"3"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
-			alpha 0
-			////		"0"
-			
-		}
-		"ItemLabel2"
-		{	
-			"ControlName"	"Label"
-			"fieldName"		"ItemLabel2"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
-			//	"0"
-			//		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"ControlName"	"editablepanel"
+			"fieldName"		"anchor"
+			"xpos" "-50"
+			ypos 0
+			wide 1
+			tall o1
+			zpos -1111
+			bgcolor_override "30 30 30 1"
 			////		"0"
 			
 		}	
+	"itempanel"
+	{
+		pin_to_sibling "anchor"
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"itempanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"0"
+		"bgcolor_override"		"30 30 30 255"
+		border "G_TargetBorder"
+		//
 		
-		"attriblabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
-			"centerwrap"	"1"
-		}
-	}	
-
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
+		
+		"text_xpos"		"10"
+		"text_ypos"		"10"
+		"text_wide"		"170"
+		"text_center"	"1"
+		
+		"max_text_height"	"100"
+		"padding_height"	"10"
+		"resize_to_text"	"1"
+		"text_forcesize"	"2"
+	
+		
+	}
 }

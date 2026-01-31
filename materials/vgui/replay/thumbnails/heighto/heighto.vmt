@@ -2,7 +2,10 @@
 
 "UnlitGeneric" {
 	"$digit" 0.0
-	
+	"$vertexalpha" 	"1"
+	"$vertexcolor"	"1"
+	"$distancealpha"		"1"
+	"$softedges"			"1"	
 	"$leading" 0.0
 	"$leading_check" 0.0
 

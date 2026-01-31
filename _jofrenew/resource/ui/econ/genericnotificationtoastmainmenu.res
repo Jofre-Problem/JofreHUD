@@ -44,12 +44,12 @@
 		"color_outline"	"52 48 45 255"
 	}
 
-	"AvatarTextLabel"
+	"AvatarTextLabel" // i think this its for level up stuff for example
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"56 47 29 255"
-		"fgcolor_override" "56 47 29 255"
+		"fgcolor"		"g_white"
+		"fgcolor_override" "g_white"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"

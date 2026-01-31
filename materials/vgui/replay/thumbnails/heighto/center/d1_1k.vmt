@@ -4,4 +4,8 @@
 	$digit 1
 	$leading 1
 	$lt 10
+	"$vertexalpha" 	"1"
+	"$vertexcolor"	"1"
+	"$distancealpha"		"1"
+	"$softedges"			"1"	
 }

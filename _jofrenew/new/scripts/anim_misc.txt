@@ -168,7 +168,13 @@ event ScoreboardAnimate
 	Animate scores Position "0 0" deaccel 0.0 0.125
 //RunEvent ScoreboardCrosshairAnimate	 linear 0.0 0.0
 }	
-
+event MiscAnimate
+{
+	SetVisible speedograph 1 0.0
+	SetVisible speedograph 0 20.0
+	SetVisible workdammit 1 0.0
+	SetVisible workdammit 0 20.0	
+}	
 event ScoreboardCrosshairAnimate
 {
 	Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0

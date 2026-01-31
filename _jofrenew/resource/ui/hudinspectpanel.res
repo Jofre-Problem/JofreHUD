@@ -1,31 +1,34 @@
 "Resource/UI/HudInspectPanel.res"
 {	
+
 	
 	"itempanel"
 	{
+	//	pin_to_sibling "anchor"
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"190"
+		"wide"			"110"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"30 30 30 255"
+		border "G_TargetBorder"
 		//
 		
-		"model_ypos"		"10"
+		"model_ypos"		"20"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
 		
-		"text_xpos"		"10"
+		"text_xpos"		"5"
 		"text_ypos"		"10"
-		"text_wide"		"170"
+		"text_wide"		"100"
 		"text_center"	"1"
 		
-		"max_text_height"	"100"
-		"padding_height"	"10"
+		"max_text_height"	"200"
+		"padding_height"	"5"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
@@ -61,7 +64,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel2"
 			"font"			"ItemFontAttribSmall"
-			"xpos"			"10"
+			"xpos"			"8"
 			"ypos"			"5"
 			"zpos"			"1"
 			"wide"			"270"
@@ -75,5 +78,18 @@
 			////		"0"
 			
 		}		
+		"bg2"
+		{	
+			"ControlName"	"editablepanel"
+			"fieldName"		"bg2"
+			"xpos" "0"
+			ypos 0
+			wide p1
+			tall o1
+			zpos -1111
+			bgcolor_override "30 30 30 255"
+			////		"0"
+			
+		}			
 	}	
 }

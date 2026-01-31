@@ -1,0 +1,80 @@
+//FPS counter by VillageGreenPreserver
+//https://github.com/VillageGreenPreserver/FPSMaterial
+
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/timer/digits"
+	"$translucent"	"1"
+	"$vertexalpha"	"1"
+	"$vertexcolor"	"1"
+
+	"$time"				"0.0"
+	"$timeOld"			"0.0"
+	"$timeDelta"		"0.0"
+	"$timeDelay"		"0.0"
+	"$timeDelayTemp"	"0.0"
+
+	"$delay"			"0.1" //refresh rate of FPS counter
+	"$frameNumber"		"0"
+	
+	"$one"				"1.0"
+
+	Proxies
+	{
+		CurrentTime
+		{
+			resultVar	"$time"
+		}
+
+		Subtract
+		{
+			srcVar1		"$time"
+			srcVar2		"$timeOld"
+			resultVar	"$timeDelta"
+		}
+
+		Divide
+		{
+			srcVar1		"$one"
+			srcVar2		"$timeDelta"
+			resultVar	"$timeDelta"
+		}
+
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$frameNumber"
+			greaterVar		"$frameNumber"
+			lessEqualVar	"$timeDelta"
+		}
+
+		Equals
+		{
+			srcVar1		"$frameNumber"
+			resultVar	"$frame"
+		}
+
+		Add
+		{
+			srcVar1		"$time"
+			srcVar2		"$delay"
+			resultVar	"$timeDelayTemp"
+		}
+
+		LessOrEqual
+		{
+			srcVar1			"$timeDelay"
+			srcVar2			"$time"
+			resultVar		"$timeDelay"
+			greaterVar		"$timeDelay"
+			lessEqualVar	"$timeDelayTemp"
+		}
+
+		Equals
+		{
+			srcVar1		"$time"
+			resultVar	"$timeOld"
+		}
+	}
+}
