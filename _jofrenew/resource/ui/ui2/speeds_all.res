@@ -6,7 +6,7 @@
 // BASE GRAPHS
 #base speedograph/speedograph_h.res
 #base speedograph/speedograph_v.res
-//#base speedograph/speedograph_a.res
+#base speedograph/speedograph_a.res
 
 // GRAPHS CONTAINER
 #base speedograph/speedograph_base.res

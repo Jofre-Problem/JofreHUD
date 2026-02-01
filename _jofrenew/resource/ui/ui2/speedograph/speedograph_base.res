@@ -5,7 +5,7 @@
         visible         0  // invisible until soldier or demo speedo loaded is active
         enabled         1
         wide            180
-        tall            180
+        tall            560
         xpos    5
         ypos    5
         paintBackground   0

@@ -1,6 +1,6 @@
 "UnlitGeneric" {
-	$basetexture "vgui/replay/thumbnails/speedo/digits"
-	// $basetexture "vgui/replay/thumbnails/speedo/digits_trebuchet"
+	//$basetexture "vgui/replay/thumbnails/speedo/digits"
+	 $basetexture "vgui/replay/thumbnails/speedo/digits_trebuchet"
 
 	$translucent 1 $vertexcolor 1 $no_fullbright 1 $ignorez 1
 	
