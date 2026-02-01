@@ -3,6 +3,7 @@
 {
 	"DialogGameInfo"
 	{
+		"wide" "450"
 		"tall"		"500"
 	}
 	"Connect"
@@ -24,11 +25,17 @@
 	}
 	"AutoRetryAlert"
 	{
-		
+		ypos 430
 		"selected"		"0"
+		"labeltext" "#NEWServerBrowser_AlertMeWhenSlotOpens"
+		font "hwn18"
 	}
+
 	"AutoRetryJoin"
 	{
+		ypos 475
 		"selected"		"0"
+		font "hwn18"
+		"labeltext" "#NEWServerBrowser_JoinWhenSlotOpens"
 	}
 }
