@@ -170,6 +170,29 @@ event Test_C
    // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
     RunEvent        TestLoop_C        0.01
 }
+event PvPRankLevelUpXPBar
+{
+
+}
+event HudTournament_DoorsCleanup
+{
+
+}
+
+event PlayDoorSlamParticles
+{
+
+}
+
+event PlayDoorCloseAnim
+{
+
+}
+
+event PlayDoorOpenAnim
+{
+
+}
 
 event TestLoop_C
 {
@@ -291,3 +314,17 @@ event ArenaVsPanelSlideOut
 {
 PlaySound 0 "vo/misc2/win.mp3"
 }
+event QuestMap_LoadingLoop{}
+event QuestMap_StaticBar1Loop{}
+event QuestMap_StaticBar2Loop{}
+event QuestMap_StaticBarOverlayLoop{}
+event QuestMap_StaticBarOverlayBrighten{}
+event QuestMap_StaticBarOverlayDarken{}
+event QuestNodeView_PinTipHighlight{}
+event QuestMap_CreditNotificationAcknowledge{}
+event QuestMap_CreditHideAnim{}
+event QuestMap_CreditNotificationShow{}
+event QuestReport_ContractComplete{}
+event QuestReport_ContractProgress{}
+event ObjectiveCompletionFanfare{}
+event ObjectiveCompletionFanfareEnd{}

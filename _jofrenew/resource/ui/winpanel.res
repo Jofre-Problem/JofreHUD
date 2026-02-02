@@ -380,7 +380,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                    "Size 18 Uber"
+        "font"                    "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player1BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -442,7 +442,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                    "Size 18 Uber"
+        "font"                    "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player2BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -504,7 +504,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                    "Size 18 Uber"
+        "font"                    "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player3BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -566,7 +566,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                    "Size 18 Uber"
+        "font"                    "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player4BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"

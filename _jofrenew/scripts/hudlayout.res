@@ -875,6 +875,15 @@ visible 0
 		"tall"					"320"
 	}	
 
-
+	HudWeaponSelection
+	{
+		"fieldName" "HudWeaponSelection"
+		"xpos"	"0"
+		"wide"	"f0"
+		"ypos" 	"0"
+		"tall"	"480"
+		"visible" "1"
+		"enabled" "1"
+	}	
 	
 }

@@ -438,25 +438,6 @@
 			"visible"	"1"
 			"image"	"../hud/leaderboard_class_heavy.vmt"
 		}			
-	
-		"skybox_upward"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../skybox/sky_upwardbk.vmt"
-		}
-		"skybox_upward2"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../skybox/sky_upwarddn.vmt"
-		}	
-		"skybox_upward3"
-		{
-			"ControlName"	"ImagePanel"
-			"visible"	"1"
-			"image"	"../skybox/sky_upwardbk.vmt"
-		}		
 
 		"icon_obj_1_blu"
 		{

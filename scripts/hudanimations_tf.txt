@@ -1487,7 +1487,7 @@ event HudMatchStatus_ShowCountdown
 event HudTournament_DoorsCleanup
 {
 	SetVisible	MatchDoors	0	0
-	SetVisible	BlueTeamPanel	0	0
+	SetVisible	BlueTeamPanel	0	0 
 	SetVisible	RedTeamPanel	0	0
 
 	Animate RedTeamPanel xpos r-5 Accel 0 0

@@ -91,16 +91,23 @@
 	//	pin_to_sibling "anchor"
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"rs1-3"
+		"ypos"			"-200"
 		"zpos"			"10"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"30 30 30 255"
 		border "G_TargetBorder"
 		//
-		
+		"force_use_model"		"1"
+		"use_item_rendertarget" "0"
+		"allow_rot"				"1"
+		"allow_pitch"			"1"
+		"max_pitch"				"30"
+		"use_pedestal"			"1"
+		"use_particle"			"1"
+		"fov"					"75"		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
@@ -115,7 +122,7 @@
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-	
+
 		
 	}
 }
