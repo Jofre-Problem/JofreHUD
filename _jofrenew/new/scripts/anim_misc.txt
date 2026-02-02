@@ -90,18 +90,46 @@ event MMDashboardCMD
 event CompetitiveGame_LowerChatWindow
 {
 	
-	StopEvent	Radar		0.0
-	StopEvent	RadarLoop	0.0
-	SetVisible	roundinfo	0		0.05
+//	StopEvent	Radar		0.0
+//	StopEvent	RadarLoop	0.0
+//	SetVisible	roundinfo	0		0.05
 }
 event CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild    MainMenuOverride    TestStart_B    0.0
-	RunEvent	Radar	0.0
-	RunEventChild Mainmenuoverride MenuCMD 0.0
-	RunEventChild Mainmenuoverride MenuCMD 0.0
+//	RunEvent	Radar	0.0
+//	RunEventChild Mainmenuoverride MenuCMD 0.0
+//	RunEventChild Mainmenuoverride MenuCMD 0.0
 	// DMG Looper
 	//RunEvent TestLoop_C 0.0
+
+//	StopEvent	Radar		0.0
+//	StopEvent	RadarLoop	0.0
+
+//	SetVisible	roundinfo	0		0.05
+		//	Animate scores tall "0" linear 0.0 0.0
+}
+
+event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
+{
+//	RunEventChild Mainmenuoverride MedicCMD2 0.0		
+	Animate ChargeLabel xpos 58 Linear 0.0 0.0
+//	RunEventChild CoolBeam StopParticle0 0.0
+//	RunEventChild CoolBeam StopParticle1 0.0		
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicCharged2 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	Animate	1_label 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"245 245 245 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	1_progress		 	Alpha		"255"					Linear 0.0 0.0001
+//	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
+
+
+	StopEvent	Radar		0.0
+	StopEvent	RadarLoop	0.0
+
+	SetVisible	roundinfo	0		0.05
 
 
 	RunEvent HealthFixer 0.0
@@ -110,8 +138,10 @@ event CompetitiveGame_RestoreChatWindow
 	RunEventChild Mainmenuoverride EveryRespawn 0.0 
 	SetInputEnabled		giveaway_item	1			0.0
 	RunEventChild		giveaway_item	Refresh		0.0
-		//	Animate scores tall "0" linear 0.0 0.0
 }
+
+
+
 event Test_B
 {
 //	SetVisible HudItemEffectMeter 1 0.0
@@ -170,10 +200,10 @@ event ScoreboardAnimate
 }	
 event MiscAnimate
 {
-	SetVisible speedograph 1 0.0
-	SetVisible speedograph 0 20.0
-	SetVisible workdammit 1 0.0
-	SetVisible workdammit 0 20.0	
+//	SetVisible speedograph 1 0.0
+//	SetVisible speedograph 0 20.0
+//	SetVisible workdammit 1 0.0
+//	SetVisible workdammit 0 20.0	
 }	
 event ScoreboardCrosshairAnimate
 {

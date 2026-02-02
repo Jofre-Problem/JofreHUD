@@ -88,7 +88,7 @@
 		}	
 	"itempanel"
 	{
-		pin_to_sibling "anchor"
+	//	pin_to_sibling "anchor"
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
@@ -96,7 +96,7 @@
 		"zpos"			"10"
 		"wide"			"200"
 		"tall"			"100"
-		"visible"		"0"
+		"visible"		"1"
 		"bgcolor_override"		"30 30 30 255"
 		border "G_TargetBorder"
 		//

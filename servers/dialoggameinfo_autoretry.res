@@ -25,7 +25,7 @@
 	}
 	"AutoRetryAlert"
 	{
-		ypos 430
+		ypos 440
 		"selected"		"0"
 		"labeltext" "#NEWServerBrowser_AlertMeWhenSlotOpens"
 		font "hwn18"
@@ -33,7 +33,7 @@
 
 	"AutoRetryJoin"
 	{
-		ypos 475
+		ypos 465
 		"selected"		"0"
 		font "hwn18"
 		"labeltext" "#NEWServerBrowser_JoinWhenSlotOpens"

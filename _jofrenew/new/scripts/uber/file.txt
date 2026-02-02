@@ -103,18 +103,3 @@ event HudMedicChargedLoop
 	RunEvent HudMedicCharged2 0.0
 }
 
-event HudMedicChargedStop
-{
-//	RunEventChild Mainmenuoverride MedicCMD2 0.0		
-	Animate ChargeLabel xpos 58 Linear 0.0 0.0
-	RunEventChild CoolBeam StopParticle0 0.0
-	RunEventChild CoolBeam StopParticle1 0.0		
-	StopEvent HudMedicCharged 0.0
-	StopEvent HudMedicCharged2 0.0
-	StopEvent HudMedicChargedLoop 0.0
-	Animate	1_label 	Alpha		"0"						Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"245 245 245 255"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	Alpha		"0"						Linear 0.0 0.0001
-	Animate	1_progress		 	Alpha		"255"					Linear 0.0 0.0001
-//	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
-}

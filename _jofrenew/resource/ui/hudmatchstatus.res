@@ -439,7 +439,7 @@ if_mini		{			"visible"		"0"		}
 			}
 			"respawntime"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"cautofittinglabel"
 				"fieldName"		"respawntime"
 				"font"			"Notobold16"
 				"zpos"			"9"
@@ -453,7 +453,13 @@ if_mini		{			"visible"		"0"		}
 				"proportionaltoparent"	"1"
 				"fgcolor_override"	"0 255 170 255"
 				"bgcolor_override"		"32 32 32 50"
-				"border"		"noborder"
+				"border"		"WhiteHighlightBorderThick"
+				"fonts"
+				{
+					"0"		"HudFontSmallestBold"
+					"1"		"StorePromotionsTitle"
+					"2"		"customverdanasmall"
+				}				
 			}	
 			"chargeamount"
 			{
