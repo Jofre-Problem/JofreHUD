@@ -77,20 +77,13 @@
 	{
 		xpos 20
 	}		
-	"MMDashboard"
-	{
-	//	"ControlName"		"CHudMainMenuOverride"
-		"enabled"		"1"
-
-		"RankPanel"
-		{
-			"xpos" "109"
-		}
+//	"MMDashboard"	{		"enabled"		"1"
+//		"RankPanel"		{			"xpos" "109"		}
  
 		//Enable quick menu reload
 	//	"SteamFriendsList"{}
 	//	"ResolutionSelector"{}
-	}
+//	}
 	"yourteam1"
 	{
 visible 0
@@ -137,13 +130,13 @@ visible 0
 		"zpos"				"2000"
 		"visible"			"0"
 	}
-	"MMDashBoardPopupContainer"
-	{
-		xpos 0
-		"ypos"					"380"
-		"tall"					"550"
-		"mouseinputenabled"		"1"
-	}
+//	"MMDashBoardPopupContainer"
+//	{
+//		xpos 0
+//		"ypos"					"380"
+//		"tall"					"550"
+//		"mouseinputenabled"		"1"
+//	}
 	"HudChat"
 	{
 		//"ypos"					"0"
