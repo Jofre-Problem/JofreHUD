@@ -515,20 +515,13 @@ Scheme
 				}
 			}
 		}
-		"MedHealtargetNoNumber"
-		{
-			"1"
-			{
-				"name" "OpenSansNoNumber"
-				"tall" "12"
-				"range" "0x0000 0x9999"
-				"antialias"	"1"
-				"english"
-				{
-					"range" "0x0000 0x9999"
-				}
-			}
-		}		
+//		"MedHealtargetNoNumber"		{			"1"			{
+//				"name" "OpenSansNoNumber"
+//				"tall" "12"
+//				"range" "0x0000 0x9999"
+///				"antialias"	"1"
+//				"english"				{					"range" "0x0000 0x9999"				}			}
+//		}		
 		"MedHealtargetBlur"
 		{
 			"1"
@@ -1299,79 +1292,28 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
-		"ItemIcons40"
+		"hwnjofre30" 
 		{
 			"1"
 			{
-				"name"	"ItemIcons"
-				"tall"	"40"
-				"antialias"	"1"
+				"name"			"hwnjofre1"
+				"tall"			"30"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
+
 		"ItemIcons6"
 		{
 			"1"
 			{
-				"name"	"ItemIcons"
+				"name"	"hwnjofre1"
 				"tall"	"6"
 				"antialias"	"1"
 			}
 		}
-		"ItemIcons8"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"8"
-				"antialias"	"1"
-			}
-		}
-		"ItemIcons10"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"10"
-				"antialias"	"1"
-			}
-		}
-		"ItemIcons12"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"12"
-				"antialias"	"1"
-			}
-		}
-		"ItemIcons14"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"14"
-				"antialias"	"1"
-			}
-		}
-		"ItemIcons16"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"16"
-				"antialias"	"1"
-			}
-		}
-		"ItemIcons18"
-		{
-			"1"
-			{
-				"name"	"ItemIcons"
-				"tall"	"18"
-				"antialias"	"1"
-			}
-		}				
+
 	}
 }
 	

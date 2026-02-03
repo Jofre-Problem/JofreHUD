@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassIconLabel"
-		"font"			"Class Symbols 24"
+		"font"			"default"
 		"fgcolor"		"Blue"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"

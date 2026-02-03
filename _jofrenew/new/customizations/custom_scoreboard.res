@@ -899,7 +899,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""ServerTimeLeftValue2"
-"font""Code8"
+"font""default"
 "labelText""%servertime%"
 "fgcolor_override"	"3 216 6 255"
 "xpos""rs1"
@@ -1178,7 +1178,7 @@ if_mvm
 		}
 	"MapName"
 	{
-		"font"				"Code8"
+		"font"				"default"
 		"textAlignment"		"center"
 		"xpos"				"cs-0.5"
 		"fgcolor_override"	"3 216 6 255"
@@ -1196,7 +1196,7 @@ if_mvm
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ServerLabel2"
-		"font"				"Code8"
+		"font"				"default"
 		"fgcolor_override"	"3 216 6 255"
 		"labelText"			"%server%"
 		"textAlignment"		"center"

@@ -18,47 +18,6 @@ Scheme
 
 
 
-		"testing"
-		{
-			"font" "fonts/itemicons.ttf"
-			"name" "ItemIcons"
-			"english"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x021 0xFFFF"
-			}
-		}
 		"loadout"
 		{
 			"font" "fonts/jofreloadout.ttf"
@@ -210,7 +169,7 @@ Scheme
 		}
 		"jofreicons"
 		{
-			"font" "fonts/jofreiconsre.ttf"
+			"font" "fonts/jofreiconsre.otf"
 			"name" "jofreiconsre"
         	"arabic"
             {
@@ -598,11 +557,7 @@ Scheme
             }			
 		}
 
-		"8"
-		{
-			"font" "fonts/OpenSans-AlphaInverted2.ttf"
-			"name" "Open Sans AlphaInverted2"
-		}
+
 		"10"
 		{
 			"font" "fonts/LowAmmoWarningZero.ttf"// [$WINDOWS]
@@ -834,53 +789,6 @@ Scheme
 			{
 				"range" "0x021 0xFFFF"
 			}
-		}
-	"131"
-		{
-			"font" "fonts/TF2 Class Icons.ttf"
-			"name" "TF2 Class Icons V2"
-			"english"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x021 0xFFFF"
-			}
-		}
-
-		"142"
-		{
-			"font" "fonts/Readyup XHud.otf"
-			"name" "ReadyUp XHud"
 		}
 	}
 

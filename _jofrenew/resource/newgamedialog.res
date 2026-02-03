@@ -118,9 +118,9 @@
 				yPos					20
 				wide					70
 				tall					70	
-				font					"NewIcons25"
+				font					"Product32"
 				fgcolor_override		"Primary"
-				labelText				"j"
+				labelText				"Č"
 				textAlignment			west
 			}	
 
@@ -296,9 +296,9 @@
 		//"visible"		"1"
 		"textAlignment"	"center"
 		//		"0"
-		"labelText"		"y"
+		"labelText"		"×"
 		"zpos"	"200"
-		"font" "newicons9"
+		"font" "Product18"
 	}
 	"divider"	
 	{
@@ -319,10 +319,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"æ"
+		"labelText"		"ĕ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons9"		
+		"font"					"Product18"		
 	}	
 	"GammaSlider"
 	{
@@ -349,10 +349,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"ã"
+		"labelText"		"ď"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons9"		
+		"font"					"Product18"		
 	}
 	"VolumeSlider"
 	{
@@ -379,10 +379,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"Ï"
+		"labelText"		"č"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons8"		
+		"font"					"Product18"		
 	}
 	"ViewSlider"
 	{
@@ -413,7 +413,7 @@
 		"labelText"		"Ë"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons8"		
+		"font"					"Product18"		
 	}
 	"FSlider"
 	{
@@ -443,7 +443,7 @@
 		"labelText"		"R"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons8"		
+		"font"					"Product18"		
 	}
 	"CSlider"
 	{
@@ -473,7 +473,7 @@
 		"labelText"		"V"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons8"		
+		"font"					"Product18"		
 	}
 	"NSlider"
 	{

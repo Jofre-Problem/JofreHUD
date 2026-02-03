@@ -172,28 +172,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}			
-		"blocks"
-		{
-			"1"
-			{
-				"name"		"blocks blocks" 
-				"tall"		"200"
-				"antialias" "1"
-				
-				"antialias" "1"
-			}
-		}		
-		"blocks2"
-		{
-			"1"
-			{
-				"name"		"blocks blocks" 
-				"tall"		"30"
-				"antialias" "1"
-				
-				"antialias" "1"
-			}
-		}				
+			
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -277,16 +256,7 @@ Scheme
 				"antialias"			"1"
 			}
 		}		
-		"CodeOutline1"
-		{
-			"1"
-			{
-				"name"		"Calling Code Regular"
-				"tall"		"7"
-				////"antialias"	"1"
-				"outline"     "1"
-			}
-		}				
+		
 		"NewIcons15" 
 		{
 			"1"
@@ -354,18 +324,6 @@ Scheme
 
 
 
-		
-		"Code8"
-		{
-			"1"
-			{
-				"name"		"Calling Code Regular"
-				"tall"		"8"
-				"wide"		"300"
-				"outline"	"1"
-				"antialias" 	"1"
-			}
-		}	
 
 		
 		"Blank" //backup

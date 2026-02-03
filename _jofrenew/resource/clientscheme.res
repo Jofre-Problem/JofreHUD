@@ -27,7 +27,6 @@
 #base "scheme/toonhud_fonts.res"
 
 #base "scheme/fonts.res"
-#base "scheme/symbols.res"
 #base "scheme/borders.res"
 #base "../new/ui_overrides/schemes/fonts/default.res"	
 #base "fallback/clientscheme.res"

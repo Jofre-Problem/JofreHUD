@@ -46,9 +46,9 @@
 		                         "tall"			"48" 
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"Blue"
-		                         "labeltext"		"Ñ"
+		                         "labeltext"		"Đ"
 		textalignment center
 	}			
 	                          "ProgressBar1Scout"
@@ -77,9 +77,9 @@
 "tall"	"48"
 "wide"			"o1"
 bgcolor_override blacksolid
-"font" "Future30"
+"font" "hwnjofre30"
 "fgcolor_override"	"125 161 255 255"
-"labeltext"		"Ò"
+"labeltext"		"đ"
 textalignment center
 "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -112,9 +112,9 @@ pin_to_sibling scoutlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"161 146 249 255"
-		                         "labeltext"		"Ó"
+		                         "labeltext"		"æ"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -146,9 +146,9 @@ pin_to_sibling Soldiderlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"194 129 235 255"
-		                         "labeltext"		"Ô"
+		                         "labeltext"		"ē"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -180,10 +180,10 @@ pin_to_sibling pyrolabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"222 108 212 255"
 			//"
-		                         "labeltext"		"Õ"
+		                         "labeltext"		"Ĕ"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -216,9 +216,9 @@ pin_to_sibling demolabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"244 86 182 255"
-		                         "labeltext"		"Ö"
+		                         "labeltext"		"ĕ"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -250,9 +250,9 @@ pin_to_sibling heavylabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"255 63 146 255"
-		                         "labeltext"		"×"
+		                         "labeltext"		"Ė"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -285,9 +285,9 @@ pin_to_sibling engilabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"255 48 107 255"
-		                         "labeltext"		"Ø"
+		                         "labeltext"		"ė"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -321,9 +321,9 @@ pin_to_sibling mediclabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"Red"
-		                         "labeltext"		"Ù"
+		                         "labeltext"		"Ę"
 		textalignment center
 		                         "pin_corner_to_sibling"					"PIN_TOPLEFT"
 "pin_to_sibling_corner"					"PIN_BOTTOMLEFT"
@@ -356,7 +356,7 @@ pin_to_sibling sniperlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "Future30"
+		                         "font" "hwnjofre30"
 		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"-"
 		textalignment center
@@ -479,8 +479,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ñ"
-		font					                "Future30"
+		labelText				            "Đ"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 
@@ -597,8 +597,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ò"
-		font					                "Future30"
+		labelText				            "đ"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 
@@ -677,8 +677,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ó"
-		font					                "Future30"
+		labelText				            "æ"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsetx				-0
 		textinsety				-5
@@ -872,8 +872,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ô"
-		font					                "Future30"
+		labelText				            "ē"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 
@@ -952,8 +952,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Õ"
-		font					                "Future30"
+		labelText				            "Ĕ"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-8
 
@@ -1070,8 +1070,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ö"
-		font					                "Future30"
+		labelText				            "ĕ"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-9
 
@@ -1188,8 +1188,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "×"
-		font					                "Future30"
+		labelText				            "Ė"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 
@@ -1267,8 +1267,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ø"
-		font					                "Future30"
+		labelText				            "ė"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 
@@ -1462,8 +1462,8 @@ pin_to_sibling spylabel
 		tall					60
 		proportionaltoparent		1
 
-		labelText				            "Ù"
-		font					                "Future30"
+		labelText				            "Ę"
+		font					                "hwnjofre30"
 		textAlignment			center
 		textinsety				-5
 

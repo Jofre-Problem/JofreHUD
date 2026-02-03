@@ -441,7 +441,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
@@ -451,7 +451,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
@@ -461,7 +461,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
@@ -518,7 +518,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Droid Sans Mono"
+				"name"		"product_sans_regular"//"Droid Sans Mono"
 				"tall"		"13"
 				"weight"	"500"
 				"antialias"	"1"				
@@ -528,7 +528,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"Product Jofre"
+				"name"				"productsource"
 			"tall"		"13"
 				"weight"	"500"
 				"antialias" "1"
@@ -538,48 +538,32 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"Product Jofre"
+				"name"				"productsource"
 				"tall"		"10"
 				"antialias" "1"
 			}
 		} 		
-      	"NewIcons8" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"20"		
-				"antialias"			"1"
-			}
-		}        
-    	"NewIcons9" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"25"		
-				"antialias"			"1"
-			}
-		}       
-   		"NewIcons25" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"70"		
-				"antialias"			"1"
-			}
-		}
+
 		"Code10"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"12"
 				"wide"		"300"
 				"antialias" 	"1"
 			}
 		}    
+		"Product38"
+		{
+			"1"
+			{
+				"name"		"product_sans_regular"
+				"tall"		"38"
+				"wide"		"300"
+				"antialias" 	"1"
+			}
+		}  			
 		"Product12"
 		{
 			"1"
@@ -624,7 +608,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"22"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -634,7 +618,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"16"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -644,7 +628,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"14"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -664,7 +648,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"16"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -674,7 +658,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"18"
 				"wide"		"300"
 				"antialias" 	"1"
@@ -710,7 +694,7 @@ Button.DepressedTextColor "220 220 220 255"
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
             {
 
-                "name"         "Product Jofre"              
+                "name"         "productsource"              
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
 				"weight"     "0"
@@ -722,7 +706,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
-                "name"         "Product Jofre" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
+                "name"         "productsource" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]             
                 "weight"     "0"
@@ -734,7 +718,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
             {
-                "name"         "Product Jofre"// "11"                
+                "name"         "productsource"// "11"                
                  "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
                 "weight"     "0"
@@ -750,7 +734,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"20"
 				"weight"	"1000"
 			}
@@ -759,7 +743,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre2"
+				"name"		"productsource"
 				"tall"		"16"
 				"weight"	"500"
 				"underline" "1"
@@ -769,7 +753,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre2"
+				"name"		"productsource"
 				"tall"		"17"
 				"antialias"	"1"
 			}
@@ -788,7 +772,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre2"
+				"name"		"productsource"
 				"tall"		"12"
 			
 			}
@@ -798,7 +782,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Product Jofre"
+				"name"		"productsource"
 				"tall"		"18"
 				
 			}
@@ -830,20 +814,7 @@ Button.DepressedTextColor "220 220 220 255"
         }					
 	 }	
 	CustomFontFiles
-	{
-  		"57"
-		{
-			"font" "fonts/jofreiconsre.ttf"
-			"name" "JofreIconsRe"
-		}	      
-       
-
-		"61"
-		{
-			"font" "fonts/productjofre.otf"
-			"name" "Product Jofre"
-			"range"	"0x0000 0x017F"
-		} 
+	{    
 		"79"
 		{
 			"font" "fonts/optimized/opensans_bold.ttf"
@@ -852,9 +823,172 @@ Button.DepressedTextColor "220 220 220 255"
 		}		
 		"62"
 		{
-			"font" "fonts/productjofre2.otf"
-			"name" "Product Jofre2"
-			"range"	"0x0000 0x017F"
+			"font" "fonts/productsource.otf"
+			"name" "productsource"
+        	"arabic"
+            {
+                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
+            }
+
+            "brazilian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "bulgarian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "czech"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "danish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "dutch"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "english"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "finnish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "french"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "german"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "greek"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "hebrew"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "hungarian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "italian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "japanese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "korean"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "koreana"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "latvian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "lithuanian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "norwegian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "pirate"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "polish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "portuguese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "romanian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "russian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "schinese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "slovak"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "spanish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "swedish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "tchinese"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "thai"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "turkish"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }
+
+            "ukrainian"
+            {
+                "range"                                             "0x0021 0x1EFF"
+            }		
 		} 		
 		"104"
 		{
@@ -881,19 +1015,7 @@ Button.DepressedTextColor "220 220 220 255"
 		"linux19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"linux110"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"		
-		"tf2def"
-		{
-			"font" "fonts/ProductJofre.otf"
-			"name" "Product Jofre"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
+
 		"tf22" 
 		{
 			"font" "resource/TF2Build.ttf"
