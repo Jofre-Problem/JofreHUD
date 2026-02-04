@@ -15,7 +15,7 @@
 		"labelText"									"%button_token%"
 		"textinsetx"								"0"
 		"use_proportional_insets" 					"1"
-		"font"										"Default"
+		"font"										"Size 20"
 		"textAlignment"								"south"
 		"wrap"										"0"
 		"centerwrap"								"1"

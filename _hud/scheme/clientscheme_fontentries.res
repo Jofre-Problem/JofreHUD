@@ -18,11 +18,7 @@ Scheme
 
 
 
-		"loadout"
-		{
-			"font" "fonts/jofreloadout.ttf"
-			"name" "jofreloadout"
-		}		
+	
 		"uber2"
 		{
 			"font" "fonts/OpenSansUber.ttf"
@@ -126,47 +122,7 @@ Scheme
 			"name" "opensans-captions"
 
 		}
-		"96"
-		{
-			"font" "fonts/FutureRotfix.otf"
-			"name" "Future Rot"
-			"english"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x021 0xFFFF"
-			}
-		}
+
 		"jofreicons"
 		{
 			"font" "fonts/jofreiconsre.otf"
@@ -336,57 +292,7 @@ Scheme
                 "range"                                             "0x0021 0x1EFF"
             }
 		}
-		"99"
-		{
-			"font" "fonts/CallingCode-Regular.otf"
-			"name" "Calling Code Regular"
-			"english"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x021 0xFFFF"
-			}
-		}
-		"105"
-		{
-			"font" "fonts/Blocks-Blocks.ttf"
-			"name" "blocks"
-		}
-		"310"
-		{
-			"font"	"fonts/Renogare XHud.ttf"
-			"name"	"Renogare Soft XHud"
-		}
+	
 		"311"
 		{
 			"font"	"fonts/OpenSansExtraBold-Uber.ttf"

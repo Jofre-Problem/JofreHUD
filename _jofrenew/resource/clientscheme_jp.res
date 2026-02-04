@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Future Rot"
+				"name"		"hwnjofre1"
 				"tall"		"30"
 				"antialias" 	"1"
 				"wide"		"300"
@@ -352,22 +352,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Future Rot"
+				"name"		"hwnjofre1"
 				"tall"		"18"
 				"antialias" 	"1"
 				"wide"		"300"
 			}
 		}						
-		"jofreloadout"
-		{
-			"1"
-			{
-				"name"		"jofreloadout"
-				"tall"		"18"
-				"antialias" 	"1"
-				"wide"		"300"
-			}
-		}	
 
 
 

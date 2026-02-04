@@ -112,7 +112,7 @@ Button.DepressedTextColor "220 220 220 255"
 		Frame.ClientInsetX				"6"
 		Frame.ClientInsetY				"6"
 		FrameTitleBar.BgColor			"Black"
-		FrameTitleBar.Font				"Default"
+		FrameTitleBar.Font				"blank"
 		FrameTitleBar.TextColor			"Black"
 		FrameTitleBar.DisabledTextColor	"Black"
 		FrameTitleButton.FgColor		"White"
@@ -992,7 +992,7 @@ Button.DepressedTextColor "220 220 220 255"
 		} 		
 		"104"
 		{
-			"font" "fonts/Blank.otf"
+			"font" "fonts/blank.otf"
 			"name" "Blank"
 		}		
 		"102"
@@ -1000,11 +1000,6 @@ Button.DepressedTextColor "220 220 220 255"
 			"font" "fonts/product_sans_regular.ttf"
 			"name" "product_sans_regular"
 		}		
-		"103"
-		{
-			"font" "fonts/optimized/DroidSansMono.ttf"
-			"name" "Droid Sans Mono"
-		}	
 		"linux1"		"resource/HALFLIFE2.ttf"
 
 		"linux14"		"resource/linux_fonts/DejaVuSans.ttf"

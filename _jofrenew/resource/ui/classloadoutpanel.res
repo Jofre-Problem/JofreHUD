@@ -147,7 +147,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Size 16 Uber"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
 		"xpos"			"160"

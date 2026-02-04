@@ -7,7 +7,7 @@ event TeamStatus_PlayerDead
 		//PlaySound 0 "vo/gift_drop.wav"
 		Animate DeathPanel ypos 0 Accel 0 0.2
 		Animate SkullPanel ypos 0 Accel 0 0.2
-
+//	Animate DeathPanel wide 0 Accel 0 0.2
 	//	Animate respawntime ypos 299 Accel 0 0 
 	//	Animate classimagebg wide 0 accel 0 0 
 		Animate respawntime Alpha "0" linear 0.0 0.0

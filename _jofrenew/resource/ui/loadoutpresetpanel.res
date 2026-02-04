@@ -35,8 +35,8 @@
             "ypos"				"0"
 		wide							40
 		tall							o1
-            "font"				"jofreloadout"
-            "labeltext"			"A"
+            "font"				"Future18"
+            "labeltext"			"с"
             "textAlignment"		"center"
             "Command"			"loadpreset_0"
             paintBackground 0
@@ -58,8 +58,8 @@
             "ypos"				"3"
 		wide							40
 		tall							o1
-            "font"				"jofreloadout"
-            "labeltext"			"B"
+            "font"				"Future18"
+            "labeltext"			"т"
             "textAlignment"		"center"
             "Command"			"loadpreset_1"
             "sound_depressed"	"UI/buttonclick.wav"
@@ -81,8 +81,8 @@
             "ypos"				"3"
 		wide							40
 		tall							o1
-            "font"				"jofreloadout"
-            "labeltext"			"C"
+            "font"				"Future18"
+            "labeltext"			"у"
             "textAlignment"		"center"
             "Command"			"loadpreset_2"
             "sound_depressed"	"UI/buttonclick.wav"
@@ -105,8 +105,8 @@
             "ypos"				"3"
 		wide							40
 		tall							o1  
-            "font"				"jofreloadout"
-            "labeltext"			"D"
+            "font"				"Future18"
+            "labeltext"			"ф"
             "textAlignment"		"center"
             "Command"			"loadpreset_3"
             "sound_depressed"	"UI/buttonclick.wav"
