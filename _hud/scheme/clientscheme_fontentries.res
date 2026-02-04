@@ -297,7 +297,7 @@ Scheme
 		{
 			"font"	"fonts/OpenSansExtraBold-Uber.ttf"
 			"name"	"OpenSansExtraboldUber"
-       	"arabic"
+       		"arabic"
             {
                 "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
             }
@@ -599,7 +599,7 @@ Scheme
 			"font" "fonts/circles.ttf"
 			"name" "circles Medium"
 		}
-		"137"
+		"blank"
 		{
 			"font" "fonts/Blank.otf"
 			"name" "Blank"
