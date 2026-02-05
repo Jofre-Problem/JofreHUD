@@ -28,3 +28,51 @@
 
         //#base "../z_tf2/resource/sourcescheme.res"
         //#base "../z_tf2/root/resource/sourceschemebase.res"
+
+Scheme
+{
+
+	Fonts
+	{
+
+		"DefaultFixed"
+		{
+			"1"
+			{
+				"name"		 "Lucida Console" [!$OSX]
+				"name"		 "Verdana" [$OSX]
+				"tall"		"11" [$POSIX]
+				"tall"		"10" [!$POSIX]
+				"weight"	"0"
+			}
+//			"1"
+//			{
+//				"name"		"FixedSys"
+//				"tall"		"20"
+//				"weight"	"0"
+//			}
+		}
+
+		"DefaultFixedDropShadow" // snd_show 1 ; developer 1 font
+		{
+			"1"
+			{
+				"name"		 "Lucida Console" [!$OSX]
+				"name"		 "Verdana" [$OSX]
+				"tall"		"14"
+				"weight"	"0"
+				"dropshadow" "1"
+			}
+//			"1"
+//			{
+//				"name"		"FixedSys"
+//				"tall"		"20"
+//				"weight"	"0"
+//			}
+		}
+
+	
+	
+	}
+
+}

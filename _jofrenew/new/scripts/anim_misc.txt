@@ -105,7 +105,7 @@ event CompetitiveGame_RestoreChatWindow
 
 //	StopEvent	Radar		0.0
 //	StopEvent	RadarLoop	0.0
-
+	RunEventChild Mainmenuoverride EveryRespawn 0.0 
 //	SetVisible	roundinfo	0		0.05
 		//	Animate scores tall "0" linear 0.0 0.0
 	SetInputEnabled		giveaway_item	1			0.0
@@ -116,8 +116,8 @@ event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild Mainmenuoverride MedicCMD2 0.0		
 	Animate ChargeLabel xpos 58 Linear 0.0 0.0
-//	RunEventChild CoolBeam StopParticle0 0.0
-//	RunEventChild CoolBeam StopParticle1 0.0		
+	RunEventChild CoolBeam StopParticle0 0.0
+	RunEventChild CoolBeam StopParticle1 0.0		
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicCharged2 0.0
 	StopEvent HudMedicChargedLoop 0.0
@@ -137,7 +137,7 @@ event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
 	RunEvent HealthFixer 0.0
   	RunEvent  Engineer  0.02
 	Animate CSpectatorTargetID xpos 0 Linear 0.0 0.0	
-	RunEventChild Mainmenuoverride EveryRespawn 0.0 
+
 
 }
 

@@ -55,7 +55,7 @@
 			"labelText"		"K"
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
-		command				"engine showstatsdlg"
+		command				"engine playerstats"
 		defaultFgColor_override		"black"
 		armedFgColor_override		"notowhite"
 		"selectedFgColor_override"	"W_CerrarArmed"
@@ -990,7 +990,7 @@
 			"labelText"		"K"
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
-		command				"engine showstatsdlg"
+		command				"engine playerstats"
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"White"
 

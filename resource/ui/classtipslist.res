@@ -1,4 +1,16 @@
-	#base	"../../_stream/resource/ui/classtipslist.res"
-	#base	"../../_jofrenew/resource/ui/classtipslist.res"
-//	#base	"../../_opt/resource/ui/classtipslist.res"
-	#base	"../../z_tf2/resource/ui/classtipslist.res"
+"classes/ClassTipsList.res"
+{
+	"ClassTipsListPanel"
+	{
+		"ControlName"			"PanelListPanel"
+		"fieldName"				"ClassTipsListPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"235"
+		"tall"					"165"
+		//			"3"
+		//				"0"
+		//			"0"
+		"bgcolor_override"		"blank"
+	}
+}
