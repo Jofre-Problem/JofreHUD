@@ -8,7 +8,7 @@ Scheme
 		// ToonHUD colors
 		
 		"G_Highlight"			"156 53 51 255" // Highlight color
-		"G_White"				"255 255 255 255"
+
 		"G_Black"				"0 0 0 255"
 		"G_Red"					"230 0 0 255"
 		"G_Shadow"				"0 0 0 220" // Shadow color

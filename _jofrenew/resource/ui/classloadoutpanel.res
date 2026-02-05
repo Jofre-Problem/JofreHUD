@@ -498,6 +498,122 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15.0"
+	"test"
+	{
+		ControlName					ImagePanel
+		fieldName					"test"
+		"xpos"			"7"
+		"ypos"			"7"
+		zpos 1110
+		wide							25
+		tall							o1
+		mouseinputenabled 0
+		image "replay/thumbnails/backpacktf/duplicate"
+		visible						1
+		enabled						1
+		scaleImage 1
+		paintbackground				1
+		bgcolor_override white
+
+	}	
+
+	"screenshotbtn"
+	{
+		ControlName					CExButton
+		fieldName					"screenshotbtn"
+		"xpos"			"0"
+		"ypos"			"0"
+
+		wide							39
+		tall							40
+		visible						1
+		enabled						1
+	 armedfgcolor_override "G_ButtonBg"
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"	
+		visible						1
+		enabled						1
+
+		labeltext					""
+		font							"NewIcons20"
+		textAlignment				center
+
+		Command						"cl_showbackpackrarities 0"// incrementvar tf_forced_holiday 0 2 -2"
+		"actionsignallevel" "5"
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "G_white"
+		"armedFgColor_override" "G_White"
+		"depressedFgColor_override" "G_White"		
+		
+		paintbackground				0
+
+	}	
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}		
+			"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15.0"
+
+
+	"screenshotbtn"
+	{
+		ControlName					CExButton
+		fieldName					"screenshotbtn"
+		"xpos"			"0"
+		"ypos"			"0"
+
+		wide							39
+		tall							40
+		visible						1
+		enabled						1
+			"border_default"	"flat_black_2"
+			"border_armed"	"flat_black_4"	
+		visible						1
+		enabled						1
+
+		labeltext					"õ"
+		font							"Future30"
+		textAlignment				center
+
+		Command						"cl_showbackpackrarities 1; tf_forced_holiday 0"// incrementvar tf_forced_holiday 0 2 -2"
+		"actionsignallevel" "5"
+		sound_depressed			"UI/buttonclick.wav"
+		sound_released				"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" "Notoredsolid"
+		"armedFgColor_override" "Notowhite"
+		"depressedFgColor_override" "Notowhite"		
+		
+		paintbackground				0
+
+	}	
+				"Background"		{"wide"	"0"	}
+
+				"ItemIcon"	{"wide"	"0"	}
+
+				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
+
+				"BuyButton"	{"wide"	"0"	}
+
+				"ScrollableItemText"	{"wide"	"0"	}
+			}						
 		}
 	}					
 											

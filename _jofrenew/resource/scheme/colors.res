@@ -2,6 +2,7 @@ Scheme
 {
 	Colors
 	{
+				"G_White"				"255 255 255 255"
 		"ItemAttribLevel"						"117 107 94 255"
 		"ItemAttribNeutral"						"221 242 85 255"
 		"ItemAttribPositive"					"153 204 255 255"

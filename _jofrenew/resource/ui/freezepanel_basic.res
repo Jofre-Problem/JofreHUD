@@ -123,6 +123,15 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 
+					"itemmodelpanel"
+			{
+			"use_item_rendertarget" "1"	
+				"force_use_model"		"1"
+		//	"model_tall"	"999"
+			"model_wide"	"100"
+			"model_ypos"	"-10"
 		
+						"use_particle"			"1"	
+			}
 	}
 }

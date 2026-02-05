@@ -108,6 +108,8 @@ event CompetitiveGame_RestoreChatWindow
 
 //	SetVisible	roundinfo	0		0.05
 		//	Animate scores tall "0" linear 0.0 0.0
+	SetInputEnabled		giveaway_item	1			0.0
+	RunEventChild		giveaway_item	Refresh		0.0		
 }
 
 event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
@@ -136,8 +138,7 @@ event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
   	RunEvent  Engineer  0.02
 	Animate CSpectatorTargetID xpos 0 Linear 0.0 0.0	
 	RunEventChild Mainmenuoverride EveryRespawn 0.0 
-	SetInputEnabled		giveaway_item	1			0.0
-	RunEventChild		giveaway_item	Refresh		0.0
+
 }
 
 
