@@ -1,4 +1,4 @@
-
+#base "../../../custom_menu/custom_menu.res"
 
 //#base "../../../../../cfg/_jp_mm_layout.txt"
 //#base ../../new/_menu1/mainmenuoverride.res 

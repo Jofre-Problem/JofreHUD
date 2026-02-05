@@ -16,7 +16,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 		"bgcolor_override"		"Black"
-
+		visible 1
 		"MenuColorizer"
 		{
 			"ControlName"		"EditablePanel"

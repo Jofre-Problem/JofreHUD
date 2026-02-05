@@ -1,4 +1,10 @@
-#base "../../../../cfg/_jp_awsd_hudlayout.txt"
+
+	// customization menu
+	#base "../../../../cfg/jofrehud/mm_home.txt"
+	#base "layout_customization.res"	
+
+
+	#base "../../../../cfg/_jp_awsd_hudlayout.txt"
 	#base "../../../../cfg/_jp_hud_radar.txt"		
 	#base "../new/ui_overrides/close-caption/file.res"
 	#base "../../../../cfg/_jp_speed_style.txt"
