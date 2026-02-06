@@ -507,7 +507,7 @@
                 "ControlName"               "CExLabel"
                 "fieldName"                 "QueueText2"
                 "xpos"                      "0"
-                "ypos"                      "-14"
+                "ypos"                      "-19"
                 "wide"                      "184"
                 "tall"                      "14"
                 "visible"                   "1"
