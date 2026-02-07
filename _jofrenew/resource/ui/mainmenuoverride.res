@@ -8,7 +8,7 @@
 #base "ui2/+motd_main_only.res"
 #base "ui2/motd_fallback.res"
 #base "ui2/+safemode.res"
-
+#base "preload.res"
 //#base "../fallback/mainmenu.res"
 "j"
 {
