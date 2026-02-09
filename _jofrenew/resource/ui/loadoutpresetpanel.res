@@ -35,7 +35,7 @@
             "ypos"				"0"
 		wide							40
 		tall							o1
-            "font"				"Future18"
+            "font"				"Future30"
             "labeltext"			"с"
             "textAlignment"		"center"
             "Command"			"loadpreset_0"
@@ -58,7 +58,7 @@
             "ypos"				"3"
 		wide							40
 		tall							o1
-            "font"				"Future18"
+            "font"				"Future30"
             "labeltext"			"т"
             "textAlignment"		"center"
             "Command"			"loadpreset_1"
@@ -81,7 +81,7 @@
             "ypos"				"3"
 		wide							40
 		tall							o1
-            "font"				"Future18"
+            "font"				"Future30"
             "labeltext"			"у"
             "textAlignment"		"center"
             "Command"			"loadpreset_2"
@@ -105,7 +105,7 @@
             "ypos"				"3"
 		wide							40
 		tall							o1  
-            "font"				"Future18"
+            "font"				"Future30"
             "labeltext"			"ф"
             "textAlignment"		"center"
             "Command"			"loadpreset_3"

@@ -538,8 +538,10 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"productsource"
+				"name"				"oswald"//"productsource"
 				"tall"		"10"
+
+				"wide" "0"
 				"antialias" "1"
 			}
 		} 		
@@ -994,7 +996,12 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"font" "fonts/blank.otf"
 			"name" "Blank"
-		}		
+		}	
+		"thin"
+		{
+			"font" "fonts/oswald.ttf"
+			"name" "oswald"
+		}				
 		"102"
 		{
 			"font" "fonts/product_sans_regular.ttf"

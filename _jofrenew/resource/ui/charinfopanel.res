@@ -156,7 +156,7 @@
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"labelText"									"#TF_BackCarat"
-		"font"										"g_fontsmall"
+		"font"										"notobold16"
 		"textAlignment"								"west"
 		"default"									"0"
 		"Command"									"back"

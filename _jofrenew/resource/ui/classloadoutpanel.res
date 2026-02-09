@@ -896,6 +896,44 @@
 			"model_ypos"	"-10"
 			"wide" "120"
 			pin_to_sibling "presetpinnermodelpanel2"
+
+						"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"strange_pin"
+					{
+						ControlName editablepanel
+						fieldName strange_pin
+						tall 1
+						"wide" "1"
+						xpos 100
+						ypos 20
+						
+					}						
+
+											
+					"is_strange_icon"
+					{
+						tall 20
+						"wide" "20"
+						xpos 236
+						ypos 20
+						scaleimage 1
+					//		pin_to_sibling strange_pin
+					}					
+					"is_unusual_icon"
+					{
+					//	visible 0
+						tall 18
+						"wide" "o1"
+						xpos 245
+						ypos 2
+						scaleimage 1
+					}
+				}
 			}
 			"modelpanel3"
 			{				
@@ -914,6 +952,45 @@
 			}			
 			"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel3"
+
+			"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"strange_pin"
+					{
+						ControlName editablepanel
+						fieldName strange_pin
+						tall 1
+						"wide" "1"
+						xpos 100
+						ypos 20
+						
+					}						
+
+											
+					"is_strange_icon"
+					{
+						tall 20
+						"wide" "20"
+						xpos 236
+						ypos 20
+						scaleimage 1
+					//		pin_to_sibling strange_pin
+					}					
+					"is_unusual_icon"
+					{
+					//	visible 0
+						tall 18
+						"wide" "o1"
+						xpos 245
+						ypos 2
+						scaleimage 1
+					}
+				}
+
 			}	
 			"modelpanel4"
 			{			
