@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-    "$baseTexture"  "vgui/replay/thumbnails/web/web_uncraft"
+    "$baseTexture"  "vgui/replay/thumbnails/web/web_trade"
     "$vertexalpha"  "1"
     "$vertexcolor"  "1"
     "$translucent"  "1"
