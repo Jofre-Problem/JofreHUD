@@ -851,10 +851,10 @@
 				"show_market"	"0"
 				"present_time"	"5.0"
 	
-		"web_other2"
+		"web_promo"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"web_other2"
+			"fieldName"		"web_promo"
 
 						xpos 12
 						ypos "32"
@@ -864,7 +864,7 @@
 			"scaleImage"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/web/web_other2"
+			"image"			"replay/thumbnails/web/web_promo"
 			mouseinputenabled 0
 		}
 				"Background"
