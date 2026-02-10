@@ -443,7 +443,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "13 110 253 255"
 					"offset" "0 1"
 				}
 			}
@@ -452,7 +452,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "13 110 253 255"
 					"offset" "1 0"
 				}
 			}
@@ -461,7 +461,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "13 110 253 255"
 					"offset" "0 0"
 				}
 			}
@@ -470,7 +470,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Primary"
+					"color" "13 110 253 255"
 					"offset" "0 0"
 				}
 			}
@@ -1311,6 +1311,18 @@ Scheme
 			{	"1"	{	"color" "TanDark"	}	}
 			Bottom
 			{	"1"	{	"color" "TanDark"	}	}
+		}
+		SteamWorkshopBorder2
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "62 75 90 255"	}	}
+			Right
+			{	"1"	{	"color" "62 75 90 255"	}	}
+			Top
+			{	"1"	{	"color" "62 75 90 255"	}	}
+			Bottom
+			{	"1"	{	"color" "62 75 90 255"	}	}
 		}
 
 		ReplayFatLineBorderRedBGOpaque

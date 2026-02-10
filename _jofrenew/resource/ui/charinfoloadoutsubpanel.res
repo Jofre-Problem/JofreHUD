@@ -3,6 +3,1011 @@
 
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
+
+		"details3"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"details3"
+			"xpos"			"120"
+			"ypos"			"rs1-5"
+			"zpos"			"-1"		
+			"wide"			"p0.852" //260 wide
+			"tall"			"72"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"		"27 35 41 255"
+							"barra1a"
+				{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1a"
+				"xpos"			"cs-0.5"
+				"ypos"			"8"
+				"zpos"			"15"		
+				"wide"			"p0.98" //260 wide
+				"tall"			"58"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"17 22 26 255"
+				proportionaltoparent 1
+				}
+		}			
+		"details2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"details2"
+			"xpos"			"120"
+			"ypos"			"275"
+			"zpos"			"0"		
+			"wide"			"p0.852" //260 wide
+			"tall"			"122"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"		"27 35 41 255"
+				"barra1a"
+				{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1a"
+				"xpos"			"cs-0.5"
+				"ypos"			"8"
+				"zpos"			"15"		
+				"wide"			"p0.98" //260 wide
+				"tall"			"106"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"17 22 26 255"
+				proportionaltoparent 1
+				}
+
+		}		
+		"details"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"details"
+			"xpos"			"120"
+			"ypos"			"45"
+			"zpos"			"1"		
+			"wide"			"400"//"p0.852" //260 wide
+			"tall"			"224"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"39 50 65 255"
+			
+			"barra1"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1"
+				"xpos"			"0"
+				"ypos"			"20"
+				"zpos"			"15"		
+				"wide"			"f0" //260 wide
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"27 35 41 255"
+				proportionaltoparent 1
+				"barra1a"
+				{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1a"
+				"xpos"			"cs-0.5"
+				"ypos"			"8"
+				"zpos"			"15"		
+				"wide"			"p0.98" //260 wide
+				"tall"			"p0.83"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"17 22 26 255"
+				proportionaltoparent 1
+
+								proportionaltoparent 1
+					"icon1"
+					{
+					"ControlName"	"cexlabel"
+					"font" "hwn18"
+					"labelText" "ʌ"
+					"fieldName"		"icon1"
+					"xpos"			"4"
+					"ypos"			"5"
+					"zpos"			"15"		
+					"wide"			"18" //260 wide
+					"tall"			"20"
+					"visible"		"1"
+					textAlignment "center"
+					"enabled"		"1"
+					"paintbackground"	"1"
+					"fgcolor_override"	"13 110 253 255"
+					proportionaltoparent 1
+					textinsety 2
+					border "cs1"
+					}	
+					"bg1"
+					{
+					"ControlName"	"editablepanel"
+		
+					"fieldName"		"bg1"
+					"xpos"			"2"
+					"ypos"			"0"
+					"zpos"			"15"		
+					"wide"			"158"
+					"tall"			"20"
+					"visible"		"1"
+			
+					"enabled"		"1"
+					"paintbackground"	"1"
+				
+					proportionaltoparent 1
+					pin_to_sibling "icon1"
+							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+						border "SteamWorkshopBorder2"
+						"imagered1"
+						{
+						"ControlName" "ImagePanel"
+						"fieldName" "imagered1"
+						"wide" "200"
+						
+						"tall"	"24"
+						xpos 4
+						ypos 4
+					
+						mouseinputenabled 0
+						"scaleImage""1"
+						"image""replay/thumbnails/web/unique"
+						
+						}	
+					}		
+					"bg2"
+					{
+					"ControlName"	"editablepanel"
+		
+					"fieldName"		"bg2"
+					"xpos"			"2"
+					"ypos"			"0"
+					"zpos"			"15"		
+					"wide"			"205"
+					"tall"			"20"
+					"visible"		"1"
+			
+					"enabled"		"1"
+					"paintbackground"	"1"
+				
+					proportionaltoparent 1
+					pin_to_sibling "bg1"
+							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+						border "SteamWorkshopBorder2"
+										"imagered1"
+						{
+						"ControlName" "ImagePanel"
+						"fieldName" "imagered1"
+						"wide" "200"
+						
+						"tall"	"24"
+						xpos 4
+						ypos 4
+					
+						mouseinputenabled 0
+						"scaleImage""1"
+						"image""replay/thumbnails/web/uweapon"
+						
+						}	
+					}
+				}		
+			}		
+		}	
+	"itempedialabel"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "itempedialabel"
+			"xpos"			"rs1-7"
+			"ypos"			"45"
+			"zpos"			"1"		
+			"wide"			"p0.3775"//"p0.852" //260 wide
+			"tall"			"224"
+		"visible"		"1"
+		"zpos" "1"
+		bgcolor_override blank
+		"AdsContainer"
+		{
+			tall f0
+			wide f0		
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"270"
+				"ypos"		"0"// +44
+				"zpos"		"2"
+		wide							40
+		tall							20 
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_FontSmall"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"TransparentBlack"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 255 255 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+		}			
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_trade"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_trade"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_trade"
+			mouseinputenabled 0
+		}
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				}			
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"spellstest"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"spellstest"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/spelllstest"
+			mouseinputenabled 0
+		}
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				}
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_selfamde"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_selfamde"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_selfamde"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_contest"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_contest"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_contest"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+			}	
+
+			"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_collector"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_collector"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_collector"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}			
+			"4"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_normal"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_normal"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_normal"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"5"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_tips"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_tips"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_tips"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"6"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_killstreak"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_killstreak"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_killstreak"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}	
+			"7"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_expired"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_expired"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_expired"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}			
+			"8"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_other"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_other"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_other"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}			
+			"9"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_strange_glitch"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_strange_glitch"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_strange_glitch"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"10"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_valve"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_valve"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_valve"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"11"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_vintage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_vintage"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_vintage"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}	
+			"12"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_craft"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_craft"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_craft"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"13"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_other2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_other2"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_other2"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"13"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_other2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_other2"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_other2"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"14"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_ounique"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_ounique"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_ounique"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}		
+			"15"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+	
+		"web_uncraft"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_uncraft"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/web_uncraft"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}																																														
+			}
+		}			
+		"detailsa11"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"detailsa11"
+			"xpos"			"rs1-7"
+			"ypos"			"45"
+			"zpos"			"1"		
+			"wide"			"p0.3775"//"p0.852" //260 wide
+			"tall"			"224"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintbackground"	"1"
+			"bgcolor_override"	"39 50 65 255"
+			
+			"barra1"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1"
+				"xpos"			"0"
+				"ypos"			"20"
+				"zpos"			"15"		
+				"wide"			"f0" //260 wide
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"27 35 41 255"
+				proportionaltoparent 1
+				"barra1a"
+				{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1a"
+				"xpos"			"cs-0.5+p0.001"
+				"ypos"			"8"
+				"zpos"			"15"		
+				"wide"			"306" //260 wide
+				"tall"			"p0.83"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"17 22 26 255"
+				proportionaltoparent 1
+
+								proportionaltoparent 1
+				}	
+			}		
+		}	
 			"tank_gif"
 			{
 			"ControlName""ImagePanel"
@@ -18,9 +1023,112 @@
 			"fgcolor""TanDark"
 			}	
 
-
-
-
+		"exce"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"exce"
+			"xpos"			"rs1-23"
+			"ypos"			"rs1-20"
+			zpos "0"
+			"wide"			"40"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/excel"
+		}
+		"exceurl"
+		{
+			"ControlName"	"urllabel"
+			"fieldName"		"exceurl"
+			"pin_to_sibling" "exce"
+			zpos 1
+			"wide"			"40"
+			"tall"			"o1"
+			"font" "blank"
+			"URLText" "https://docs.google.com/spreadsheets/u/0/?pli=1"
+		}
+		"word"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"word"
+						"Pin_To_Sibling"				"exce"
+						"Pin_Corner_To_Sibling"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
+						xpos 10
+			zpos "0"
+			"wide"			"40"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/word"
+		}
+		"wordurl"
+		{
+			"ControlName"	"urllabel"
+			"fieldName"		"wordurl"
+			"pin_to_sibling" "word"
+			zpos 115
+			"wide"			"40"
+			"tall"			"o1"
+			"font" "blank"
+			"URLText" "https://docs.google.com/document/u/0/"
+		}
+		"drive"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"drive"
+						"Pin_To_Sibling"				"word"
+						"Pin_Corner_To_Sibling"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
+						xpos 10
+			zpos "0"
+			"wide"			"40"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/drive"
+		}
+		"driveurl"
+		{
+			"ControlName"	"urllabel"
+			"fieldName"		"driveurl"
+			"pin_to_sibling" "drive"
+			zpos 1
+			"wide"			"40"
+			"tall"			"o1"
+			"font" "blank"
+			"URLText" "https://drive.google.com/drive/home"
+		}		
+		"chromext"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"chromext"
+						"Pin_To_Sibling"				"drive"
+						"Pin_Corner_To_Sibling"			"PIN_TOPRIGHT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPLEFT"
+						xpos 10
+			zpos "0"
+			"wide"			"40"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/chromext"
+		}
+		"chromexturl"
+		{
+			"ControlName"	"urllabel"
+			"fieldName"		"chromexturl"
+			"pin_to_sibling" "chromext"
+			zpos 1
+			"wide"			"40"
+			"tall"			"o1"
+			"font" "blank"
+			"URLText" "https://github.com/juliarose/steam-trade-offer-enhancer"
+		}			
 	"newadbg"
 	{ 
 		"ControlName"	"CCyclingAdContainerPanel"
@@ -899,9 +2007,9 @@
 		"wide"			"120"
 		"tall"			"20"
 		"font"			"noto10"
-		"labelText"		"Scrap TF"
+		"labelText"		"Loadout TF"
 		textinsetx -1
-			"Command"		"url https://scrap.tf/"
+			"Command"		"url https://loadout.tf/"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
@@ -934,24 +2042,35 @@
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"G_White"
 	}	
-	"kkkicon3label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"kkkicon3label"
-		"font"			"noto10"
-		"labelText"		"Mann Co Store"
+		"icon16labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"icon16labelb"
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"0"
-		"zpos"				"20"
+		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Itempedia"
+		textinsetx -1
+			"Command"		"url https://itempedia.tf/"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
-		"fgcolor"		"G_White"
 		"Pin_To_Sibling"			"kkkicon3"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
-	}						
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 0
+			"defaultFgColor_override"	"145 158 164 255"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}			
+	
 			}
 			"1"
 			{
@@ -1090,10 +2209,10 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
 		"xpos"				"c-290"
-		"ypos"				"285"
+		"ypos"				"rs1-15"
 		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"40"
+		"tall"				"o1"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -1114,7 +2233,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"notobold12"
+		"font"			"blank"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1135,11 +2254,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-160"
-		"ypos"				"285"
+		"xpos"				"10"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"40"
+		"tall"				"o1"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -1155,12 +2274,15 @@
 		"inactiveimage"		"crafting_anvil_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+						"Pin_To_Sibling"				"ShowBackpackButton"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"		
 	}
 	"ShowCraftingLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"notobold12"
+		"font"			"blank"
 		"labelText"		"#CraftingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1181,11 +2303,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c-30"
-		"ypos"				"285"
+		"xpos"				"10"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"40"
+		"tall"				"o1"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -1201,12 +2323,15 @@
 		"inactiveimage"		"catalog_book_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+						"Pin_To_Sibling"				"ShowCraftingButton"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"			
 	}	
 	"ShowArmoryLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"notobold12"
+		"font"			"blank"
 		"labelText"		"#Armory"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1227,11 +2352,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c100"
-		"ypos"				"285"
+		"xpos"				"10"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"40"
+		"tall"				"o1"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -1247,12 +2372,15 @@
 		"inactiveimage"		"trading_parcel_gray"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+						"Pin_To_Sibling"				"ShowArmoryButton"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"				
 	}	
 	"ShowTradeLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
-		"font"			"notobold12"
+		"font"			"blank"
 		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1274,11 +2402,11 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowPaintkitsButton"
-		"xpos"				"c230"
-		"ypos"				"285"
+		"xpos"				"10"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"60"
+		"wide"				"40"
+		"tall"				"o1"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -1292,14 +2420,21 @@
 		"scaleImage"		"1"
 		"activeimage"		"paintkit_tool"
 		"inactiveimage"		"paintkit_tool_bw"
+		bgcolor_override "BlackDark"
+		"border" "SteamWorkshopBorder"
+		border_default  "SteamWorkshopBorder"
+		paintBackground 1
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+						"Pin_To_Sibling"				"ShowTradeButton"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"			
 	}		
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowPaintkitsLabel"
-		"font"			"notobold12"
+		"font"			"blank"
 		"labelText"		"#PaintkitTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -1377,673 +2512,273 @@
 		itemcountcolor			"OrangeLight"		// check out!
 		itemcountcolor_noitems		"117 105 94 255"
 	}	
-	"ScoutDeselected" //button texture when deselected, is a non-functioning image
+	"ScoutButton"			// other classes pinned to this
 	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"ScoutDeselected"
-		"xpos"				"c-290"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
+		ControlName				CExButton
+		fieldName				"ScoutButton"
+		"xpos"							"7"
+		"ypos"							"0"
+		"wide"							"72"
+		"tall"							"100"
+			"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+		labelText				"Đ"
+		font					"future30"
+		textAlignment			center
+		textinsety				-2		// tune icon position
 
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/scout_red_grey"
-		}
-	}
-	"ScoutSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"ScoutSelected"
-		"xpos"				"c-290"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout scout"
-		"labeltext"			"&1"
-		"font"				"blank"
-		"scaleImage"		"1"
+		Command				"loadout scout"
 
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/scout_red_selected"
-		}
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/scout_go01.mp3"
+		
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+		pin_to_sibling 			"SoldierButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		paintbackground 			0
 	}
 	
-	"SoldierDeselected" //button texture when deselected, is a non-functioning image
+	"SoldierButton"
 	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"SoldierDeselected"
-		"xpos"				"c-225"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
+		ControlName				CExButton
+		fieldName				"SoldierButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+			"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+		labelText				"đ"
+		font					"future30"
+		textAlignment			center
+		
+		Command				"loadout soldier"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/soldier_go01.mp3"
+		
 
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/soldier_red_grey"
-		}
-	}
-	"SoldierSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"SoldierSelected"
-		"xpos"				"c-225"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout soldier"
-		"labeltext"			"&2"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/soldier_red_selected"
-		}
+		paintbackground 			0	
+		pin_to_sibling 			"PyroButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
 	
-	"PyroDeselected" //button texture when deselected, is a non-functioning image
+	"PyroButton"
 	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"PyroDeselected"
-		"xpos"				"c-160"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
+		ControlName				CExButton
+		fieldName				"PyroButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+			"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
 
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/pyro_red_grey"
-		}
-	}
-	"PyroSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"PyroSelected"
-		"xpos"				"c-160"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout pyro"
-		"labeltext"			"&3"
-		"font"				"blank"
-		"scaleImage"		"1"
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
 
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
+		labelText				"æ"
+		font					"future30"
+		textAlignment			center
 
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
+		Command				"loadout pyro"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/pyro_go01.mp3"
 
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/pyro_red_selected"
-		}
+		paintbackground 			0
+		
+		pin_to_sibling 			"DemomanButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
 	
-	"DemoDeselected" //button texture when deselected, is a non-functioning image
+	"DemomanButton"
 	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"DemoDeselected"
-		"xpos"				"c-95"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/demo_red_grey"
-		}
-	}
-	"DemoSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"DemoSelected"
-		"xpos"				"c-95"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout demoman"
-		"labeltext"			"&4"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/demo_red_selected"
-		}
-	}
-	
-	"HeavyDeselected" //button texture when deselected, is a non-functioning image
-	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"HeavyDeselected"
-		"xpos"				"c-30"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/heavy_red_grey"
-		}
-	}
-	"HeavySelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"HeavySelected"
-		"xpos"				"c-30"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout heavy"
-		"labeltext"			"&5"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/heavy_red_selected"
-		}
-	}
-
-	"EngiDeselected" //button texture when deselected, is a non-functioning image
-	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"EngiDeselected"
-		"xpos"				"c35"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/engineer_red_grey"
-		}
-	}
-	"EngiSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"EngiSelected"
-		"xpos"				"c35"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout engineer"
-		"labeltext"			"&6"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/engineer_red_selected"
-		}
-	}
-	
-	"MedicDeselected" //button texture when deselected, is a non-functioning image
-	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"MedicDeselected"
-		"xpos"				"c100"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/medic_red_grey"
-		}
-	}
-	"MedicSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"MedicSelected"
-		"xpos"				"c100"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout medic"
-		"labeltext"			"&7"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/medic_red_selected"
-		}
-	}
-	
-	"SniperDeselected" //button texture when deselected, is a non-functioning image
-	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"SniperDeselected"
-		"xpos"				"c165"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/sniper_red_grey"
-		}
-	}
-	"SniperSelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"SniperSelected"
-		"xpos"				"c165"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout sniper"
-		"labeltext"			"&8"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/sniper_red_selected"
-		}
-	}
-	
-	"SpyDeselected" //button texture when deselected, is a non-functioning image
-	{
-		"controlname"		"EditablePanel"
-		"fieldName"			"SpyDeselected"
-		"xpos"				"c230"
-		"ypos"				"75"
-		"zpos"				"0"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"Image"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Image"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/spy_red_grey"
-		}
-	}
-	"SpySelected" //button texture when selected, hidden until mouseover
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"SpySelected"
-		"xpos"				"c230"
-		"ypos"				"75"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"120"
-		"visible"			"1"
-		"enabled"			"1"
-		"command"			"loadout spy"
-		"labeltext"			"&9"
-		"font"				"blank"
-		"scaleImage"		"1"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
-			
-		"defaultFgColor_override" 	"0 0 0 0"
-		"armedFgColor_override" 	"0 0 0 0"
-		"depressedFgColor_override" "0 0 0 0"
-
-		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-
-		"image_drawcolor"			"0 0 0 0"
-		"image_armedcolor"			"255 255 255 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"60"
-			"tall"			"120"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"image"			"replay/thumbnails/spy_red_selected"
-		}
-	}		
+		ControlName				CExButton
+		fieldName				"DemomanButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
 	
 
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+
+		labelText				"ē"
+		font					"future30"
+		textAlignment			center
+		
+		Command				"loadout demoman"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released				"vo/demoman_go01.mp3"
+				"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"	
+
+		
+		paintbackground 			0
+
+		pin_to_sibling 			"HeavyButton"
+		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+	}
+	
+	"HeavyButton"
+	{
+		ControlName				CExButton
+		fieldName				"HeavyButton"
+		"xpos"							"cs-0.5+56"
+		"ypos"							"286"
+		"wide"							"72"
+		"tall"							"100"
+
+
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+		labelText				"Ĕ"
+		font					"future30"
+		textAlignment			center
+		
+		Command						"loadout heavy"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/heavy_go01.mp3"
+					"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+
+
+		paintbackground 			0
+	}
+	
+	"EngineerButton"
+	{
+		ControlName				CExButton
+		fieldName				"EngineerButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+		
+		labelText				"ĕ"
+		font					"future30"
+		textAlignment			center
+		
+		Command				"loadout engineer"
+		
+
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"	
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/engineer_go01.mp3"
+		
+			"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+		paintbackground 			0
+
+		pin_to_sibling 			"HeavyButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"MedicButton"
+	{
+		ControlName				CExButton
+		fieldName				"MedicButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+				"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"	
+		
+		labelText				"Ė"
+		font					"future30"
+		textAlignment			center
+		
+		Command				"loadout medic"
+
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/medic_go01.mp3"
+		
+
+		
+		paintbackground 			0
+		
+		pin_to_sibling 			"EngineerButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"SniperButton"
+	{
+		ControlName				CExButton
+		fieldName				"SniperButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+				
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+			"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+		labelText				"ė"
+		font					"future30"
+		textAlignment			center
+		
+		Command						"loadout sniper"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released				"vo/sniper_go01.mp3"
+
+		
+		paintbackground 			0
+		
+		pin_to_sibling 			"MedicButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
+	
+	"SpyButton"
+	{
+		ControlName				CExButton
+		fieldName				"SpyButton"
+		xpos					7
+		ypos					0
+		"wide"							"72"
+		"tall"							"100"
+				"border_default"				"cs1"
+		"border_armed"					"steamworkshopborder"
+
+			defaultFgColor_override		"g_white"
+		armedFgColor_override		"notogreensolid"
+
+		labelText				"Ę"
+		font					"future30"
+		textAlignment			center
+
+		Command				"loadout spy"
+		
+		sound_depressed			"sound_menu/button.wav"
+		sound_released			"vo/spy_go01.mp3"
+	
+
+		paintbackground 			0
+		
+		pin_to_sibling 			"SniperButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+	}
 
 	// #endregion
 
@@ -2335,7 +3070,7 @@
 			wrap					0
 			enabled					1
 			visible					1
-			fgcolor				"W_ColorTheme1"
+			fgcolor				"g_white"
 			paintBackground			0
 	}		
 	"NoGCLabel"
