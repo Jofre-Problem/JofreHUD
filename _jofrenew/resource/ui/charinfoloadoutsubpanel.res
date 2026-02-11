@@ -1,6 +1,6 @@
 //#base "../../../../../cfg/_jp_mm_bg.txt"
 #base "ui2/bgv3.res"
-
+#base "charinfo_extended.res"
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 
@@ -39,7 +39,7 @@
 			"fieldName"		"details2"
 			"xpos"			"120"
 			"ypos"			"275"
-			"zpos"			"0"		
+			"zpos"			"-1"		
 			"wide"			"p0.852" //260 wide
 			"tall"			"122"
 			"visible"		"1"
@@ -61,8 +61,22 @@
 				"bgcolor_override"	"17 22 26 255"
 				proportionaltoparent 1
 				}
-
-		}		
+					"barra1v1"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"barra1v1"
+				"xpos"			"0"
+				"ypos"			"20"
+				"zpos"			"15"		
+				"wide"			"f0" //260 wide
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"paintbackground"	"1"
+				"bgcolor_override"	"27 35 41 255"
+				proportionaltoparent 1}
+		}	
+			
 		"details"
 		{
 			"ControlName"	"EditablePanel"
@@ -77,130 +91,7 @@
 			"paintbackground"	"1"
 			"bgcolor_override"	"39 50 65 255"
 			
-			"barra1"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"barra1"
-				"xpos"			"0"
-				"ypos"			"20"
-				"zpos"			"15"		
-				"wide"			"f0" //260 wide
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"paintbackground"	"1"
-				"bgcolor_override"	"27 35 41 255"
-				proportionaltoparent 1
-				"barra1a"
-				{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"barra1a"
-				"xpos"			"cs-0.5"
-				"ypos"			"8"
-				"zpos"			"15"		
-				"wide"			"p0.98" //260 wide
-				"tall"			"p0.83"
-				"visible"		"1"
-				"enabled"		"1"
-				"paintbackground"	"1"
-				"bgcolor_override"	"17 22 26 255"
-				proportionaltoparent 1
 
-								proportionaltoparent 1
-					"icon1"
-					{
-					"ControlName"	"cexlabel"
-					"font" "hwn18"
-					"labelText" "ʌ"
-					"fieldName"		"icon1"
-					"xpos"			"4"
-					"ypos"			"5"
-					"zpos"			"15"		
-					"wide"			"18" //260 wide
-					"tall"			"20"
-					"visible"		"1"
-					textAlignment "center"
-					"enabled"		"1"
-					"paintbackground"	"1"
-					"fgcolor_override"	"13 110 253 255"
-					proportionaltoparent 1
-					textinsety 2
-					border "cs1"
-					}	
-					"bg1"
-					{
-					"ControlName"	"editablepanel"
-		
-					"fieldName"		"bg1"
-					"xpos"			"2"
-					"ypos"			"0"
-					"zpos"			"15"		
-					"wide"			"158"
-					"tall"			"20"
-					"visible"		"1"
-			
-					"enabled"		"1"
-					"paintbackground"	"1"
-				
-					proportionaltoparent 1
-					pin_to_sibling "icon1"
-							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-						border "SteamWorkshopBorder2"
-						"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/unique"
-						
-						}	
-					}		
-					"bg2"
-					{
-					"ControlName"	"editablepanel"
-		
-					"fieldName"		"bg2"
-					"xpos"			"2"
-					"ypos"			"0"
-					"zpos"			"15"		
-					"wide"			"205"
-					"tall"			"20"
-					"visible"		"1"
-			
-					"enabled"		"1"
-					"paintbackground"	"1"
-				
-					proportionaltoparent 1
-					pin_to_sibling "bg1"
-							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-						border "SteamWorkshopBorder2"
-										"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/uweapon"
-						
-						}	
-					}
-				}		
-			}		
 		}	
 	"itempedialabel"
 	{ 

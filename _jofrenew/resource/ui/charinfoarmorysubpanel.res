@@ -1,4 +1,4 @@
-#base "ui2/lead_bg.res"
+//#base "ui2/lead_bg.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 				
@@ -19,8 +19,8 @@
 		thumbnail_bgcolor_mouseover	"Notodark"
 		thumbnail_bgcolor_selected	"Primary"
 		
-		thumbnails_rows			4
-		thumbnails_columns		4
+		thumbnails_rows			0
+		thumbnails_columns		0
 		
 		thumbnails_x			c-290
 		thumbnails_y			74
@@ -57,18 +57,457 @@
 			}
 		}
 	}
+	"TitleScreenRain"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"TitleScreenRain"
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"TitleScreenRain"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		mouseinputenabled 0
+		"ParticleEffects"
+		{
+			"0"
+			{
+				"particle_xpos" "c-260.27"
+				"particle_ypos" "0"
+				"particle_scale"	"0.65"
+				"particleName"	"env_rain_512x768"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 20"
+			}
+			"1"
+			{
+				"particle_xpos" "c72.53"
+				"particle_ypos" "0"
+				"particle_scale"	"0.65"
+				"particleName"	"env_rain_512x768"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 20"
+			}
+			"2"
+			{
+				"particle_xpos" "c405.33"
+				"particle_ypos" "0"
+				"particle_scale"	"0.65"
+				"particleName"	"env_rain_512x768"
+				"start_activated" "1"
+				"loop"	"1"
+				"angles"	"0 0 20"
+			}
 
+		}
+		"paintbackground"	"0"
+	}		
+	"itempedialabel"
+	{ 
+		"ControlName"	"CCyclingAdContainerPanel"
+		fieldName "itempedialabel"
+			"xpos"			"cs-0.5"
+			"ypos"			"0"
+			"zpos"			"3"		
+			"wide"			"f0"//"p0.852" //260 wide
+			"tall"			"480"
+		"visible"		"1"
+		"zpos" "1"
+		bgcolor_override blank
+		"AdsContainer"
+		{
+			tall f0
+			wide f0		
+			"PrevButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"PrevButton"
+				"xpos"		"0"
+				"ypos"		"cs-0.5"// +44
+				"zpos"		"2"
+		wide							40
+		tall							373 
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			"<"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_Fontmedium"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"prev"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"17 22 26 255"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 250 250 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}			
+			"NextButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"NextButton"
+				"xpos"		"rs1"
+				"ypos"		"cs-0.5"// +44
+				"zpos"		"2"
+		wide							40
+		tall							373 
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"			">"
+				"bgcolor_override"	"0 0 0 220"
+				"fgcolor"		"White"
+				"font"			"G_Fontmedium"
+				"textAlignment"	"center"
+
+				"proportionaltoparent"	"1"
+				"paintbackground"	"1"
+				"command"	"next"
+				"actionsignallevel" "2"
+
+				"defaultBgColor_override"	"17 22 26 255"
+				"armedBgColor_override"		"0 0 0 180"
+
+
+				"defaultFgColor_override"		"255 250 250 170"
+				"armedFgColor_override"		"white"
+
+				"sound_armed"		""
+				"sound_depressed"	""
+				"sound_released"	""
+			}
+		}			
+		"items"
+		{
+			"0"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+		"thelabel"
+		{
+
+			"fieldName"		"thelabel"
+			labelText "Self-Made Max Severed Head"
+			fgcolor_override "QualityColorSelfMade"
+						xpos cs-0.5
+						ypos "30"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"20"
+			textAlignment center
+			font "G_fontsmall"
+			mouseinputenabled 0
+			"ControlName"	"cautofittinglabel"			
+			"fonts"
+			{
+				"0"		"G_FontMedium"
+				"1"		"G_fontsmall"
+				"2"		"G_FontTiny"
+			}	
+		}	
+		"thedesc"
+		{
+			"ControlName"	"cexlabel"
+			"fieldName"		"thedesc"
+			wrap 1
+			labelText "This item was awarded to the employees of 'Telltale Games', creators of the Sam & Max games, in Self-Made quality with a Community Sparkle effect and a non-tradable attribute. An oversight by Valve use to exist where one could gift-wrap non-tradable items, and gift them to someone else. This was later patched, but various non-tradable item were gift wrapped in the meantime. Some of them remain wrapped, while some were gifted and unwrapped. This is exactly what happened with this item, as indicated by 'Gift from' tag."
+			fgcolor_override "123 116 101 255"
+						xpos cs-0.5
+						ypos "rs1"
+			zpos "2"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"55"
+			textAlignment center
+			font "g_fonttiny_2"
+			mouseinputenabled 0
+		}			
+		"web_trade"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_trade"
+
+						xpos cs-0.5
+						ypos "60"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web2/selfmade_max"
+			border "noborder"
+			mouseinputenabled 0
+		}
+	
+				"Background"			{					"wide"		"0"			}
+				"ItemIcon"				{					"wide"		"0"				}
+				"ItemName"				{					"xpos"		"r0"				}
+				"BuyButton"			{					"wide"		"0"				}
+				"ScrollableItemText"				{					"wide"		"0"				}
+	
+				}	
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+		"thelabel"
+		{
+
+			"fieldName"		"thelabel"
+			labelText "Team Fortress 2 - Upgrade To Premium"
+			fgcolor_override "QualityColorUnique"
+						xpos cs-0.5
+						ypos "30"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"20"
+			textAlignment center
+			"ControlName"	"cautofittinglabel"			
+			"fonts"
+			{
+				"0"		"G_FontMedium"
+				"1"		"G_fontsmall"
+				"2"		"G_FontTiny"
+			}	
+			mouseinputenabled 0
+		}	
+		"thedesc"
+		{
+			"ControlName"	"cexlabel"
+			"fieldName"		"thedesc"
+			wrap 1
+			labelText "This 'tool' is automatically added and used when upgrading to a Premium account after the first Mann Co. Store purchase. It is never meant to exist in an inventory, but for unknown reason, one got glitched and was not used. Only 1 exists."
+			fgcolor_override "123 116 101 255"
+						xpos cs-0.5
+						ypos "rs1"
+			zpos "2"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"55"
+			textAlignment center
+			font "g_fonttiny_2"
+			mouseinputenabled 0
+		}					
+		"upgrade"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"upgrade"
+
+						xpos cs-0.5
+						ypos "60"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web2/upgrade"
+			border "noborder"
+			mouseinputenabled 0
+		}
+	
+				"Background"			{					"wide"		"0"			}
+				"ItemIcon"				{					"wide"		"0"				}
+				"ItemName"				{					"xpos"		"r0"				}
+				"BuyButton"			{					"wide"		"0"				}
+				"ScrollableItemText"				{					"wide"		"0"				}
+	
+				}		
+			"3"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+		"thelabel"
+		{
+			"ControlName"	"cautofittinglabel"			
+			"fonts"
+			{
+				"0"		"G_FontMedium"
+				"1"		"G_fontsmall"
+				"2"		"G_FontTiny"
+			}	
+			"fieldName"		"thelabel"
+			labelText "Strange Australium Sniper Rifle"
+			fgcolor_override "QualityColorUnique"
+						xpos cs-0.5
+						ypos "30"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"20"
+			textAlignment center
+			font "G_fontsmall"
+			mouseinputenabled 0
+		}	
+		"thedesc"
+		{
+			"ControlName"	"cexlabel"
+			"fieldName"		"thedesc"
+			wrap 1
+			labelText "Strange Unique items were created due to a bug introduced into TF2 with the Scream Fortress 2016 update. The nature of the bug was that any item that should have been created with Strange quality ended up being created as a Strange Unique. The majority of items that were produced from this glitch originated from crate unboxings, but the glitch affected all items that should have been Strange, including MvM rewards. A handful of Strange Unique Australiums and Botkillers were created as a result."
+			fgcolor_override "123 116 101 255"
+						xpos cs-0.5
+						ypos "rs1"
+			zpos "2"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"55"
+			textAlignment center
+			font "g_fonttiny_2"
+			mouseinputenabled 0
+		}			
+		"unique-australium"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"unique-australium"
+
+						xpos cs-0.5
+						ypos "60"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web2/unique-australium"
+			border "noborder"
+			mouseinputenabled 0
+		}
+	
+				"Background"			{					"wide"		"0"			}
+				"ItemIcon"				{					"wide"		"0"				}
+				"ItemName"				{					"xpos"		"r0"				}
+				"BuyButton"			{					"wide"		"0"				}
+				"ScrollableItemText"				{					"wide"		"0"				}
+	
+				}		
+			"4"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"5.0"
+		"thelabel"
+		{
+			"ControlName"	"cautofittinglabel"			
+			"fonts"
+			{
+				"0"		"G_FontMedium"
+				"1"		"G_fontsmall"
+				"2"		"G_FontTiny"
+			}	
+			"fieldName"		"thelabel"
+			labelText "Strange AWPer Hand w/ Halloween Spell"
+			fgcolor_override "QualityColorStrange"
+						xpos cs-0.5
+						ypos "30"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"20"
+			textAlignment center
+			font "G_fontsmall"
+			mouseinputenabled 0
+		}	
+		"thedesc"
+		{
+			"ControlName"	"cexlabel"
+			"fieldName"		"thedesc"
+			wrap 0
+			labelText "This PostLife AWP was sold for almost 2000 keys."
+			fgcolor_override "123 116 101 255"
+						xpos cs-0.5
+						ypos "rs1"
+			zpos "2"
+			proportionaltoparent 1
+			"wide"			"480"
+			"tall"			"55"
+			textAlignment center
+			font "g_fonttiny_2"
+			mouseinputenabled 0
+		}			
+		"unique-australium"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"unique-australium"
+
+						xpos cs-0.5
+						ypos "67"
+			zpos "1"
+			proportionaltoparent 1
+			"wide"			"p0.8"
+			"tall"			"o0.5"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web2/exo_awp"
+			border "noborder"
+			mouseinputenabled 0
+		}
+	
+				"Background"			{					"wide"		"0"			}
+				"ItemIcon"				{					"wide"		"0"				}
+				"ItemName"				{					"xpos"		"r0"				}
+				"BuyButton"			{					"wide"		"0"				}
+				"ScrollableItemText"				{					"wide"		"0"				}
+	
+				}												
+			}
+		}				
 	"LeftBackground"
 	{
 		ControlName				ImagePanel
 		fieldName				"LeftBackground"
-		xpos					c-293
-		ypos					120
-		zpos					-1
-		wide					290
-		tall					223
-		fillColor				"Notodark"
+		xpos					0
+		ypos					0
+		zpos					1
+		wide					f0
+		tall					f0
+		fillColor				"27 35 41 255"
 	}
+	"LeftBackground2"
+	{
+		ControlName				ImagePanel
+		fieldName				"LeftBackground2"
+		xpos					0
+		ypos					0
+		zpos					2
+		wide					f0
+		tall					55
+		fillColor				"17 22 26 255"
+	}	
+	"LeftBackground3"
+	{
+		ControlName				ImagePanel
+		fieldName				"LeftBackground3"
+		xpos					0
+		ypos					rs1
+		zpos					2
+		wide					f0
+		tall					55
+		fillColor				"17 22 26 255"
+	}		
 	"CaratLabel"
 	{
 		"visible"			"0"
@@ -90,7 +529,7 @@
 	{
 		ControlName				ComboBox
 		fieldName				"FilterComboBox"
-		xpos						140
+		xpos						999
 		ypos						60
 		zpos						1
 		wide						195
@@ -119,7 +558,7 @@
 	{
 		ControlName					EditablePanel
 		fieldName					"DataPanel"
-		xpos							c3
+		xpos							999
 		ypos							140 // 71
 		zpos							5
 		wide							290
