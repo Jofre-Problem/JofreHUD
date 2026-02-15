@@ -61,13 +61,13 @@
 		}
 		"ItemLabel2"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"cautofittinglabel"
 			"fieldName"		"ItemLabel2"
 			"font"			"ItemFontAttribSmall"
 			"xpos"			"8"
 			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"270"
+			"wide"			"110"
 			"tall"			"9"
 			//	"0"
 			//		"0"
@@ -76,7 +76,21 @@
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			////		"0"
-			
+				"fonts"
+				{
+					"0"
+					{
+						"font"	"ItemFontAttribSmall" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"DefaultSmall" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"DefaultSmall" // TF2 Build 9
+					}
+				}			
 		}		
 		"bg2"
 		{	

@@ -12,5 +12,5 @@
 	#base	"../../_log/resource/ui/mainmenuoverride.res"
 	#base	"../../z_tf2/resource/ui/mainmenuoverride.res"
 
-#base "vguipreload.res"
+//#base "vguipreload.res"
 	x	{MainMenuOverride {} }

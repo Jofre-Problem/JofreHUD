@@ -475,7 +475,45 @@ Scheme
 				}
 			}
 		}				
+			Cs3
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "79 51 99 255"
+					"offset" "0 1"
+				}
+			}
 
+			Right
+			{
+				"1"
+				{
+					"color" "79 51 99 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "79 51 99 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "79 51 99 255"
+					"offset" "0 0"
+				}
+			}
+		}	
 	
 		BlueHighlightBorderUltraThick
 		{

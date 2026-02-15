@@ -1,8 +1,8 @@
 //==============================================================================
-
+// possible load longer time
 event DimmerFix
 {
-	RunEventChild MainMenuOverride DimmerReload 0.0
+//	RunEventChild MainMenuOverride DimmerReload 0.0
 }
  
 event DimmerReload

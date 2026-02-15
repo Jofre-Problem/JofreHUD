@@ -3,12 +3,12 @@
 //#base "../../../../../cfg/_jp_mm_layout.txt"
 //#base ../../new/_menu1/mainmenuoverride.res 
 #base ../../../_log/resource/ui/mainmenuoverride.res 
-#base "../../scripts/preload.res"
+// #base "../../scripts/preload.res"
 
 #base "ui2/+motd_main_only.res"
 #base "ui2/motd_fallback.res"
 #base "ui2/+safemode.res"
-#base "preload.res"
+//#base "preload.res"
 //#base "../fallback/mainmenu.res"
 "j"
 {
