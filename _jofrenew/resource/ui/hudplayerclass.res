@@ -94,8 +94,8 @@
 				"angles_y"		"215"
 				"angles_z"		"0"
 				"origin_x"		"220"
-				"origin_y"		"18"
-				"origin_z"		"-85"
+				"origin_y"		"10"
+				"origin_z"		"-80"
 			}
 			"Soldier"
 			{

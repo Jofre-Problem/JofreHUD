@@ -413,7 +413,18 @@ Scheme
 			"src_corner_height"			"12"
 			"draw_corner_width"			"2"
 			"draw_corner_height"		"2"
-		}		
+		}
+		"FLAT_Black_4"
+		{
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Black"
+			"image"						"replay/thumbnails/panels/FLAT_4"
+			"src_corner_width"			"12"
+			"src_corner_height"			"12"
+			"draw_corner_width"			"2"
+			"draw_corner_height"		"2"
+		}						
 		"Black_4"
 		{
 			"bordertype"				"scalable_image"
