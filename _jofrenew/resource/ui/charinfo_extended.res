@@ -3872,19 +3872,74 @@
 				"ypos"			"12"
 				"zpos"				"201"
 				"wide"			"57"
-				"tall"			"56"
-				"labelText"		""
+				"tall"			"19" //56 / 3 ) 14
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
 					"Command"		"url https://next.backpack.tf/classifieds?itemName=Crone%27s%20Dome&elevatedQuality=11"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 			
 					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 100"
+					"armedbgColor_override"		"0 0 0 200"
 					"depressedbgcolor_override" "0 0 0 160"
-					border_armed "cs3"
-			
+				
 				}	
+				"dreamitem1b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem1b"
+						"Pin_To_Sibling"				"dreamitem1"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem1c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem1c"
+						"Pin_To_Sibling"				"dreamitem1b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=strange%20crone&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}							
 				"dreamitem2"
 				{
 					"ControlName"	"CExButton"
