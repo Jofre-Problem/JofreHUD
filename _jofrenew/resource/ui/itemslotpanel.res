@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Size 18 Uber"
+		"font"			"TFFontMedium"
 		"labelText"		"#EditSlots"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

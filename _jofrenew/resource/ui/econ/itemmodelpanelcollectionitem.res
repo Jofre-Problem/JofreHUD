@@ -42,11 +42,11 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-100"
-			"wide"			"360"
+			"wide"			"400"
 			"tall"			"250"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "30 30 30 255"
+			"fillcolor" "10 10 10 255"
 			border G_targetborder
 		}
 	}
@@ -178,8 +178,8 @@
 		{
 			"ControlName"	"editablepanel"
 			"fieldName"		"anchor2"
-			"xpos"			"c20"
-			"ypos"			"10"
+			"xpos"			"c30"
+			"ypos"			"23"
 			"wide"			"1"
 			"tall"			"1"
 			"enabled"		"1"

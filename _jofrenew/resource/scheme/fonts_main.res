@@ -170,18 +170,6 @@ Scheme
 			//	"dropshadow"	"1"
 			}
 		}		
-		"Size 18 Uber"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall" "18"	[$WINDOWS]
-				"tall"	"14"	[$LINUX]
-				//
-				"antialias"	"1"
-				//
-			}
-		}		
 		"Size 10 Uber"
 		{
 			"1"

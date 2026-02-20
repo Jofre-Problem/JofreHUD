@@ -1,29 +1,87 @@
+
+
 "Resource/UI/ItemSelectionPanel.res"
 {
+
 	"ItemSelectionPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ItemSelectionPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"500"
-		"wide"										"f0"
-		"tall"										"f0"
+		"zpos"										"5500"
+		"wide"										"p0.655"
+		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
-		"bgcolor_override"							"DarkBrown"
+		"bgcolor_override"							"0 0 0 0"
 
-		"item_ypos"									"90"
-		"item_ydelta"								"80"
-		"item_backpack_offcenter_x"					"-283"
+		"item_ypos"									"58"
+		"item_ydelta"								"70"
+		"item_backpack_offcenter_x"					"-271"
 		"item_backpack_xdelta"						"3"
 		"item_backpack_ydelta"						"3"
+		"ItemName"
+		{		
+			"ControlName"	"CItemModelPanel"
+			"fieldName"		"ItemName"
+			"xpos"			"cs-0.5"
+			"ypos"			"35"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"bgcolor_override"		"blank"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"0"
+			"mouseinputenabled"	"0"
+			"proportionaltoparent"	"1"
+
+			"text_ypos"		"2"
+			"text_center"	"0"
+			"paint_icon_hide" "1"
+			"model_hide"	"1"
+			"text_forcesize"	"4"
+			"name_only"	"1"
+
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"namelabel"
+					{
+						ControlName cexlabel
+						fieldName namelabel
+						 "proportionaltoparent"    "1"
+						border "G_TargetBorder"
+						bgcolor_override "Blank"
+					}
+				}
+		}			
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"namelabel"
+					{
+						ControlName cexlabel
+						fieldName namelabel
+						 "proportionaltoparent"    "1"
+
+						bgcolor_override "Blank"
+					}
+				}
 
 		"modelpanels_selection_kv"
 		{
-			"wide"									"92"
-			"tall"									"72"
+			"wide"									"88"
+			"tall"									"135"//"141" //72
 			"model_xpos"							"2"
 			"model_wide"							"75"
 			"model_tall"							"50"
@@ -52,24 +110,39 @@
 			"paintborder"							"1"
 
 			"model_xpos"							"2"
-			"model_ypos"							"5"
+			"model_ypos"							"20"
 			"model_wide"							"50"
 			"model_tall"							"35"
 			"text_ypos"								"60"
 			"text_center"							"1"
 			"name_only"								"1"
 
-			"inset_eq_x"							"4"
-			"inset_eq_y"							"2"
+			"inset_eq_x"							"0"
+			"inset_eq_y"							"0"
 
 			"deferred_description"					"1"
-
+			"text_forcesize" "2"
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" 			"0"
 				"allow_rot"							"0"
 			}
-
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"namelabel"
+					{
+						ControlName cexlabel
+						fieldName namelabel
+						 "proportionaltoparent"    "1"
+						border "Black"
+						"wide" "f0"
+						bgcolor_override "0 0 0 255"
+					}
+				}
 			"use_item_sounds"						"1"
 		}
 
@@ -92,14 +165,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarger"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"35"
-		"zpos"			"100"
+		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"20"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -107,17 +180,17 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"BackpackBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5-40"
+		"xpos"										"6"
+		"ypos"										"55"
 		"zpos"										"-1"
-		"wide"										"568"
-		"tall"										"225"
+		"wide"										"p0.98"
+		"tall"										"418"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		//
-		"bgcolor_override"							"FooterBGBlack"
+		"bgcolor_override"							"0 0 0 255"
 	}
 	"FiltersBG"
 	{
@@ -126,14 +199,14 @@
 		"xpos"										"0"
 		"ypos"										"2"
 		"zpos"										"-1"
-		"wide"										"568"
+		"wide"										"p0.98"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		//
-		"bgcolor_override"							"FooterBGBlack"
+		"bgcolor_override"							"0 0 0 255"
 
 		"pin_to_sibling"							"BackpackBG"
 		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
@@ -229,7 +302,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"<"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"g_fontsmall"
 		"textAlignment"								"center"
 		"Command"									"prevpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -281,7 +354,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									">"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"g_fontsmall"
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"sound_depressed"							"UI/buttonclick.wav"
@@ -304,7 +377,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowBackpack"
-		"xpos"										"-2"
+		"xpos"										"-20"
 		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"170"
@@ -328,7 +401,7 @@
 	{
 		"ControlName"								"CExButton"
 		"fieldName"									"ShowSelection"
-		"xpos"										"-2"
+		"xpos"										"-20"
 		"ypos"										"0"
 		"zpos"										"20"
 		"wide"										"170"

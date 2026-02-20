@@ -213,13 +213,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build" [$WINDOWS] // Crit damage font | Primary font
-				"name"			"TF2 Build" [!$WINDOWS] // Crit damage font | Primary font
-				"tall"			"22" // Crit damage size
+				"name"			"TF2 Build"
+				"tall"			"30" // Crit damage size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
-				"outline"		"1" // Crit damage outline
+				"outline"		"0" // Crit damage outline
 			}
 		}
 

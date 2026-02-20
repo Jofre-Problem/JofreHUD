@@ -71,10 +71,53 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
+					"fillcolor" "43 39 36 255"
+				}				
+			}			
+			"1"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"65.0"
+
+				"Background"
+				{
+					"wide"		"0"
+				}
+
+				"ItemIcon"
+				{
+					"wide"		"0"
+				}
+
+				"ItemName"
+				{
+					"xpos"		"r0"
+				}
+
+				"BuyButton"
+				{
+					"wide"		"0"
+				}
+
+				"ScrollableItemText"
+				{
+					"wide"		"0"
+				}
+	
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"p1"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
 					"fillcolor" "27 27 27 255"
 				}				
 			}
-			"1"
+			"2"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"

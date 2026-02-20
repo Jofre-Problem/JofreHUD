@@ -2,7 +2,156 @@
 #base "ui2/bgv2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+	"Frame"
+	{
+		"ControlName"								"EditablePanel"
+		"FieldName"									"Frame"
+		"XPos"										"rs1-60"
+		"YPos"										"15"
+		"ZPos"										"-1"
+		"Wide"										"f0"
+		"Tall"										"400"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"ProportionalToParent"						"1"
+		"PaintBorder"								"0"
+		"Border"									"BackgroundOutline"
+		"PaintBackground"							"0"
+		"PaintBackgroundType"						"0"
+		"BGcolor_Override"							"0 0 0 255"
+		mouseinputenabled 0
+		"Weapon1"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Weapon1"
+			"XPos"									"rs1-32-79"
+			"YPos"									"88" // pls speed i need this p.001 to work
+			"ZPos"									"0"
+			"Wide"									"125"
+			"Tall"									"75"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+		}
+		"Weapon2"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Weapon2"
+			"XPos"									"0"
+			"YPos"									"2"
+			"ZPos"									"0"
+			"Wide"									"125"
+			"Tall"									"75"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
 
+						"Pin_To_Sibling"				"Weapon1"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"			
+		}
+		"Weapon3"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Weapon3"
+			"XPos"									"0"
+			"YPos"									"2"
+			"ZPos"									"0"
+			"Wide"									"125"
+			"Tall"									"75"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+						"Pin_To_Sibling"				"Weapon2"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		}
+
+
+		"Item1"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Item1"
+			"XPos"									"rs1-19"
+			"YPos"									"50"
+			"ZPos"									"0"
+			"Wide"									"86"
+			"Tall"									"74"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+		}
+		"Item2"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Item2"
+			"XPos"									"0"
+			"YPos"									"2"
+			"ZPos"									"0"
+			"Wide"									"86"
+			"Tall"									"75"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+
+						"Pin_To_Sibling"				"Item1"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+		}
+		"Item3"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Item3"
+			"XPos"									"0"
+			"YPos"									"2"
+			"ZPos"									"0"
+			"Wide"									"86"
+			"Tall"									"74"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+						"Pin_To_Sibling"				"Item2"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"			
+		}
+		"Item4"
+		{
+			"ControlName"							"EditablePanel"
+			"FieldName"								"Item4"
+			"XPos"									"0"
+			"YPos"									"2"
+			"ZPos"									"0"
+			"Wide"									"86"
+			"Tall"									"75"
+			"Visible"								"1"
+			"Enabled"								"1"
+			"ProportionalToParent"					"1"
+			"PaintBackground"						"1"
+			"PaintBackgroundType"					"0"
+			"BGcolor_Override"						"0 0 0 255"
+						"Pin_To_Sibling"				"Item3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"				
+		}
+	}
 	"ADContainerTest"
 	{
 		"AdsContainer"
@@ -633,7 +782,7 @@
 		"outoffocus_bgcolor_override" "16 16 16 150"
 		tall 480
 		"item_xpos_offcenter_a"	"-360"//"-420"
-		"item_xpos_offcenter_b"	"260"//"280"
+		"item_xpos_offcenter_b"	"265"//"280"
 		"item_ypos"		"67"
 		"item_ydelta"	"76"
 		"item_mod_wide"	"40"
@@ -649,47 +798,47 @@
 			"presetpinnermodelpanel0"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel0"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001"  
+   			"ypos"            "134-P0.001+33+6"  
 			}	
 
 			"presetpinnermodelpanel1"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel1"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152"
-   			ypos_minmode "134-P0.001+152+76"
+   			"ypos"            "134-P0.002+152+33+7"
+   	
 			}	
 			"presetpinnermodelpanel2"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel2"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152+152"
-   			ypos_minmode "134-P0.001+152+76"
+   			"ypos"            "134-P0.001+152+152+33+6"
+   		
 			}	
 			"presetpinnermodelpanel3"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel3"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152+152+152"  
+   			"ypos"            "134-P0.001+152+152+152+3"  
 			}	
 
 
 						"presetpinnermodelpanel11"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel11"
-    		"xpos"            "0+p0.7415"
-   			"ypos"            "134-P0.001"  
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001+33+6"  
 			}			
 					"presetpinnermodelpanel12"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel12"
-    		"xpos"            "0+p0.7415"
-   			"ypos"            "134-P0.001+152"  
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.002+152+33+7"
 			}	
 			"presetpinnermodelpanel13"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel13"
-    		"xpos"            "0+p0.7415"
-   			"ypos"            "134-P0.001+152+152"  
+    		"xpos"            "0+p0.791"
+   			"ypos"            "134-P0.001+152+152+33+6"
 			}	
 			"presetpinnermodelpanel14"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel14"
-    		"xpos"            "0+p0.7415"
-   			"ypos"            "134-P0.001+152+152+152"  
+    		"xpos"            "0+80"
+   			"ypos"            "134-P0.002+152+38"
 			}										
 		"modelpanels_kv"
 		{
@@ -711,7 +860,7 @@
 			"model_ypos"		"10"
 			"model_tall"		"45"
 			"model_wide"		"72"
-			"text_ypos"			"254"
+			"text_ypos"			"200" //254
 			"text_center"		"1"
 			"name_only"			"1"
 
@@ -720,7 +869,10 @@
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
-			
+			"namelabel"
+			{
+		//		"ypos" -55
+			}			
 		//	"itemmodelpanel"
 		//	{
 		//	"allow_rot"				"0"
@@ -1024,27 +1176,91 @@
 			{			
 			"wide" "80"
 			}	
-			"modelpanel11"
+
+
+			"modelpanel11" // taunt i think
 			{			
-			//"wide" "80"
+		//	"wide" "20"
 			pin_to_sibling "presetpinnermodelpanel11"
 			}		
 					"modelpanel12"
 			{			
-			//"wide" "80"
+		//	"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel12"
 			}	
 					"modelpanel13"
 			{			
-			//"wide" "80"
+		//	"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel13"
 			}	
 						"modelpanel14"
 			{			
-			//"wide" "80"
+			"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel14"
+				"test"							
+				{   "ControlName"    "editablePanel""wide"            "f0"  "tall"            "f0" 		 "proportionaltoparent"    "1"
+				fieldName "test"
+				"xpos"            "0"
+				"ypos"            "0" 
+				zpos -25 
+				bgcolor_override "0 0 0 100"
+				mouseinputenabled 0
+				border "G_TargetBorder"
+				}				
+				"maincontentscontainer"
+				{
+					xpos 0
+					ypos 0
+					wide 1920
+					tall 1080
+					"namelabel"
+					{
+						ControlName cexlabel
+						fieldName namelabel
+
+				//		xpos 100
+						 "proportionaltoparent"    "1"
+				//		"wide" "110"
+					//	"tall" "50"
+					//font "Default"
+					//textinsety 10
+						bgcolor_override "Blank"
+						pin_to_sibling "namelabel_pin"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					}
+										"namelabel_pin"
+					{
+						ControlName editablepanel
+						fieldName namelabel_pin
+						tall 21
+						"wide" "1"
+						ypos  -940
+						 "proportionaltoparent"    "1"
+					}																	
+				}
+
 			}	
-		
+						"modelpanel15"
+			{			
+			"wide" "80"
+
+			}		
+						"modelpanel16"
+			{			
+			"wide" "80"
+			
+			}
+						"modelpanel17"
+			{			
+			"wide" "80"
+			
+			}		
+						"modelpanel18"
+			{			
+			"wide" "80"
+			
+			}												
 		}
 
 		"itemoptionpanels_kv"
@@ -1368,7 +1584,7 @@
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
-			"ypos"			"0"
+			"ypos"			"2"
 			"zpos"			"300"
 			"wide"			"40"
 			"tall"			"10"
@@ -1523,8 +1739,8 @@
 	{
 		"ControlName" "editablepanel"
 		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos" 		"p1.205"
-		"ypos"		"r262" //its coincidence
+		"xpos" 		"p1.18"
+		"ypos"		"r255" //its coincidence
 		"wide"		"0"
 		"tall" 		"0"
 		"visible"	"1"

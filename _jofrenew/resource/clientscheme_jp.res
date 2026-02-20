@@ -343,7 +343,7 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"30"
+				"tall"		"25"
 				"antialias" 	"1"
 				"wide"		"300"
 			}

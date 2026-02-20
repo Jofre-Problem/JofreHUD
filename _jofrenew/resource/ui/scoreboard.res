@@ -1319,7 +1319,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
-			"font"				"Notobold34"
+			"font"				"G_FontCritDamage"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1356,7 +1356,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"Size 30"
+			"font"				"G_FontCritDamage"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1378,7 +1378,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
-			"font"				"Notobold34"
+			"font"				"G_FontCritDamage"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
