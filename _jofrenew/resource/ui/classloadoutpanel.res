@@ -1167,10 +1167,24 @@
 			{			
 			"wide" "80"
 			}			
-			"modelpanel9"
+			"modelpanel9" // action slot / battery canteen
 			{
 
 			"wide" "80"
+
+						"test"							
+			{   "ControlName"    "editablePanel"
+			"wide"            "80"  "tall"            "o1" 		 "proportionaltoparent"    "1"
+			fieldName "test"
+    		"xpos"            "0"
+   			"ypos"            "0" 
+			zpos -5 
+			bgcolor_override "qualitycolorcollectors"
+			mouseinputenabled 0
+
+			}
+
+							
 			}
 			"modelpanel10"
 			{			
@@ -1723,15 +1737,16 @@
 	{
 		ControlName					CLoadoutParticleSlider
 		fieldname					"ItemOptionsPanel"
-		xpos							0
-		ypos							0
+		xpos							9
+		ypos							17
 		zpos							100
-		wide							140
-		tall							75
+		wide							240
+		tall							78
 		visible						0
 
-		paintbackground			0
-		border						"LoadoutItemPopupBorder"
+		paintbackground			1
+		bgcolor_override "BlackLight"
+		border						"SteamWorkshopBorder"//"LoadoutItemPopupBorder"
 
 		// => resource\ui\ItemOptionsPanel.res"
 	}

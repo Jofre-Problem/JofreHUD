@@ -25,12 +25,13 @@
 			"ypos"			"0"
 			"wide"		"140"
 			"tall"		"20"
+			"font" "ItemFontAttribLarge"
 			//"autoResize"		"0"
 			//		"0"
 			//
 			"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			//		"0"
 			"labelText"		"#GameUI_ParticleHatUseHead"
@@ -54,12 +55,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"		"140"
-			"tall"		"14"
+			"tall"		"16"
 			//"autoResize"		"0"
 			//
 			"visible"		"0"
 			"enabled"		"1"
-			//		"0"
+		"minvalue"		"0"
+		"maxvalue"		"2400"
 			"fgcolor_override" "TanLight"
 		}
 
@@ -69,15 +71,16 @@
 			"fieldName"		"SetStyleButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"140"
+			"wide"			"p0.8"
 			"tall"			"14"
 			
 			//		"3"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_Item_SelectStyle"
-			"font"			"HudFontSmallBold"
+			"font" "ItemFontAttribLarge"
+
 			"textAlignment"	"center"
 			////		"0"
 			

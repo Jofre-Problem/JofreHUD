@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
