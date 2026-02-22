@@ -30,8 +30,22 @@
 
 
 	#base 	"../_jofrenew/scripts/hudlayout.res"
-	#base	"../_opt/scripts/hudlayout.res"
+//	#base	"../_opt/scripts/hudlayout.res"
 	#base 	"../_hud/_fixes/scripts/hudlayout.res"	
 	#base	"../z_tf2/scripts/hudlayout.res"
 
-	"Resource/HudLayout.res"{}
+	"Resource/HudLayout.res"
+    {
+
+	"CMainTargetID"
+	{	"xpos"	"0"	"ypos"	"r200"	"wide"	"p1"	"tall"	"f0"			"centerwrap"	"0"	
+		"proportionaltoparent"	"1"		}
+	"CSecondaryTargetID"
+	{	"xpos"	"cs-0.5"	"ypos"	"r166"	"wide"	"p1"	"tall"	"f0"		"centerwrap"	"0"	
+		"proportionaltoparent"	"1"		}
+	"CSpectatorTargetID"
+	{	"xpos"	"cs-0.5"	"ypos"	"300"	"wide"	"p1"	"tall"	"f0"			"centerwrap"	"0"	
+		"proportionaltoparent"	"1"		} 
+	
+
+    }
