@@ -39,25 +39,24 @@
 		"ControlName"		"Panel"
 		"fieldName"		"border1"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"34"
 		zpos 9999
 		"wide"		"85"
-		"tall"		"34" 
-		border g_targetborder
-		"bgcolor_override"	"0 0 0 0"
+		"tall"		"2" 
+		border noborder
+		"bgcolor_override"	"0 0 0 200"
 		"visible"		"1"
 	}		"border2"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"border2"
-		"xpos"		"90"
-		"ypos"		"0"
+		"xpos"		"89"
+		"ypos"		"34"
 		zpos 9999
-		"wide"		"34"
-		"tall"		"34" 
-		border g_targetborder
-		"bgcolor_override"	"255 255 255 0"
-		"visible"		"1"
+		"wide"		"85"
+		"tall"		"2" 
+		border noborder
+		"bgcolor_override"	"0 0 0 200"
 	}	
 	"cover1"
 	{
@@ -228,10 +227,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredAmmoTextBG2"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0-p0.01"
 		"zpos"			"-1"
 		"wide"			"80"
-		"tall"			"34" [$WINDOWS]
+		"tall"			"34+p0.01" [$WINDOWS]
 				"tall" "33"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
@@ -251,7 +250,7 @@
 //		"teambg_2"		"replay/thumbnails/hp/redteam"
 	//	"teambg_3"		"replay/thumbnails/hp/bluteam"		
 		"wide"			"123"
-		"tall"			"33"
+		"tall"			"34"
 		"pin_to_sibling"	"AmmoAnchor"
 	}
 	"LowAmmoTextBG"

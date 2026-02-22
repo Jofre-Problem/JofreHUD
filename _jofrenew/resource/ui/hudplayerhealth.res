@@ -85,7 +85,7 @@
 		zpos 9999
 		"wide"		"34"
 		"tall"		"34" 
-		border g_targetborder
+		border noborder
 		"bgcolor_override"	"0 0 0 0"
 		"visible"		"1"
 	}		
@@ -97,11 +97,24 @@
 		"ypos"		"0"
 		zpos 999
 		"wide"		"85+p0.002"
-		"tall"		"34" 
-		border g_targetborder
+		"tall"		"36" 
+		border noborder
 		"bgcolor_override"	"0 0 0 0"
 		"visible"		"1"
 	}	
+	"border1a"
+	{
+		"ControlName"		"editablePanel"
+		"fieldName"		"border1a"
+		"xpos"		"33"
+		"ypos"		"0"
+		zpos 9991
+		"wide"		"6"
+		"tall"		"36" 
+		border refractborder
+		"bgcolor_override"	"0 0 0 1"
+		"visible"		"1"
+	}		
 	"BarShadow"
 	{
 		"ControlName"	"ImagePanel"
@@ -114,7 +127,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 0"
-		border noborder
+		border blurborder
 	}
 	"overhealthclean"
 	{
@@ -143,7 +156,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	border g_targetborder
+		"scaleImage"		"1"	border noborder
 //		"teambg_2"		"replay/thumbnails/hp/redteam2"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}
@@ -158,7 +171,7 @@
 		"tall"		"38"
 		"visible"		"0"
 		"enabled"		"1"
-		"drawcolor"	"Positive"
+		"drawcolor"	"100 226 13 255"
 		"image"		"replay/thumbnails/panels/Material_Generic"
 		"scaleimage"	"1"
 		"alpha" "255"

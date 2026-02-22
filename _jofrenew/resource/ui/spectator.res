@@ -76,7 +76,7 @@
 		"enabled"		"1"
 		"labelText"		"Press [ , ] to Change Team"
 		"textAlignment"		"center"
-		"font"				"SpectatorKeyHints"
+		"font"				"TFFontSmall"
 		"fgcolor_override"		"G_White"
 	}
 				"Background"
@@ -140,7 +140,7 @@
 					"labelText"		"Spectate Next Target"
 					"textAlignment"		"west"
 					fgcolor G_White
-					"font"			"SpectatorKeyHints"
+					"font"			"TFFontSmall"
 				}
 
 				"Background"		{"wide"	"0"	}
@@ -187,7 +187,7 @@
 		"labelText"		"Spectate Previous Target"
 		"textAlignment"		"west"
 					fgcolor G_White
-					"font"			"SpectatorKeyHints"
+					"font"			"TFFontSmall"
 	}
 
 				"Background"		{"wide"	"0"	}
@@ -236,7 +236,7 @@
 		"enabled"		"1"
 		"labelText"		"Switch Camera Mode"
 					fgcolor G_White
-					"font"			"SpectatorKeyHints"
+					"font"			"TFFontSmall"
 	}
 
 				"Background"		{"wide"	"0"	}

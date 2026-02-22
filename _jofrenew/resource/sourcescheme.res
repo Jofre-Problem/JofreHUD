@@ -16,18 +16,56 @@ Scheme
 {
 	Colors
 	{
-		//--------------------------------Phones? ok! (Android)
-		// rayshud	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-
+		"RaysPrimaryLight"		"0 255 255 255"
+		"RaysPrimaryDark"		"65 255 255 255"
+		"RaysBlack"				"32 32 32 255"
+		"RaysBlackTrans"		"32 32 32 200"
+		"RaysButtonHover"		"70 130 180 255"
+		
+		"PrimaryText"		"240 240 240 255"
+		"SecondaryText"		"210 210 210 255"
+		"AccentText"		"24 24 24 255"
+		
+		"PrimaryBG"				"27 27 27 255"//248
+		"PrimaryBGOffFocus"		"27 27 27 200"//170
+		"SecondaryBG"			"27 27 27 0"
+		"SecondaryBG2"			"35 35 35 200"
+		"AccentBG"				"255 160 0 255"
+		
 		"NotoWhite"				"240 240 240 255"
-		"NotoGreen"				"81 214 81 255"
+		"NotoGreen"				"27 27 27 255"
 		"NotoDark"				"15 15 15 255"
+
+		// TF2
+	    "TFDarkBrown"               "60 56 53 255"
+	    "TFDarkBrownTransparent"    "60 56 53 190"
+	    "TFTanBright"               "236 227 203 150"
+	    "TFTanLight"                "201 188 162 150"
+	    "TFTanMedium"               "131 121 104 150"
+
+	    "TFTanLightBright"          "229 223 211 90"
+	    "TFTanLightDark"            "96 90 78 90"
+
+	    "TFOrangeBright"            "69 90 100 255"
+
+	    "TFTextBright"              "251 236 203 150"
+	    "TFTextLight"               "201 188 162 255"
+	    "TFTextMedium"              "131 121 104 255"
+	    "TFTextMediumDark"          "104 96 83 255"
+	    "TFTextBlack"               "42 39 37 255"
+	    "TFTextDull"                "131 121 104 255"
+
+	    "TFMediumBrown"		"69 64 58 255"
+
+	    "QuickListBGDeselected"		"69 90 100 255"
+	    "QuickListBGSelected"       "96 125 139 255"
+
 	    "Blank"				"0 0 0 0"
 
 		"ControlBG"			"76 88 68 255"		// background color of controls
@@ -37,7 +75,9 @@ Scheme
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
 		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
 		
-
+		"AchievementsDarkGrey"	"69 90 100 255"  // omni you're a genius for finding this buried within the game.
+		"AchievementsLightGrey"	"69 90 100 150" // Thanks dude I know. I guess I'm just too good for this world.
+		"AchievementsInactiveFG"	"69 90 100 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
 	}	
 	BaseSettings	{
 
@@ -442,17 +482,17 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"productsource"
-				"tall"		"19"
+				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
 			}
-		}
+		}	
 		"DefaultSmall"
 		{
 			"1"
 			{
 				"name"		"productsource"
-				"tall"		"19"
+				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -462,7 +502,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"productsource"
-				"tall"		"19"
+				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -470,10 +510,10 @@ Button.DepressedTextColor "220 220 220 255"
 
 		"ServerBrowserSmall"
 		{
-			"1"
+		"1"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"20"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -481,7 +521,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"2"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"20"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -489,7 +529,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"3"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"22"
+				"tall"		"17"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -498,7 +538,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"4"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"24"
+				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -507,7 +547,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"5"
 			{
 				"name"		"product_sans_regular"
-				"tall"		"24"
+				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -524,16 +564,7 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias"	"1"				
 			}
 		}		
-      	"Default" 
-		{
-			"1"
-			{
-				"name"				"productsource"
-			"tall"		"13"
-				"weight"	"500"
-				"antialias" "1"
-			}
-		}  		
+
      	"Trebuchet24" 
 		{
 			"1"

@@ -314,7 +314,7 @@ Scheme
 			"1"
 			{
 				"name"	"OpenSans-Captions"
-				"tall"	"50"
+				"tall"	"20"
 				"antialias"	"1"
 				"outline"	"0"
 				"dropshadow"	"1"

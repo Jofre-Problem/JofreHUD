@@ -364,7 +364,7 @@ Scheme
 			"5"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"20"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"

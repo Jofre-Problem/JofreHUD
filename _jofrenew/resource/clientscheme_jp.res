@@ -313,9 +313,10 @@ Scheme
 			{
 				"name"		"product_sans_regular" [$LINUX]
 				"name"		"Trebuchet MS" [$WINDOWS]
-			"weight"	"500" [$LINUX]
+				"weight"	"500" [$LINUX]
 				"weight"	"900" [$WINDOWS]
 				"antialias" "1"
+				"tall" "12"
 				"additive"	"1"
 			}
 		}
@@ -682,7 +683,17 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}			
-	
+		RefractBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/hp/refractnormal"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}		
 	
 		TFThinLineBorder
 		{
