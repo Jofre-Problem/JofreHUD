@@ -102,11 +102,11 @@ Scheme
 				"name"		"hwnjofre1"
 			}
 		}					
-		"SpectatorVerySmall"		//Player outline name
+		"SpectatorVerySmall"		//Player outline name jofrepin
 		{
 			"1"
 			{
-				"name"	"tf2 secondary"
+				"name"	"hwnjofre1"
 				"tall"	"9"
 				"outline"	"1"
 				"antialias"	"1"
@@ -488,7 +488,16 @@ Scheme
 				"blur"	"2"
 				"antialias"	"1"
 			}
-		}		
+		}
+		"Killfeedtiny"
+		{
+			"1"
+			{
+				"name"			"opensanskillfeed"
+				"tall"			"10"
+				"antialias" 	"1"
+			}
+		}				
 		"MedHealtarget"
 		{
 			"1"

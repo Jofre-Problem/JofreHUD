@@ -1559,13 +1559,13 @@ pin_to_sibling spylabel
 		xpos					cs-0.5
 		ypos					66
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
 		labelText				            "%numScout%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1584,7 +1584,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numSoldier%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1603,7 +1603,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numPyro%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1622,7 +1622,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numDemoman%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1641,7 +1641,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numHeavy%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1660,7 +1660,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numEngineer%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1679,7 +1679,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numMedic%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1698,7 +1698,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numSniper%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0
@@ -1717,7 +1717,7 @@ pin_to_sibling spylabel
 		
 		labelText				            "%numSpy%"
 		textAlignment			center
-		font					                "Size 20"
+		font					                "killfeed"
 
 		fgcolor				              "Neutral"
 		paintbackground			0

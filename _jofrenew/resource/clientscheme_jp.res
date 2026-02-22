@@ -177,8 +177,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
-				"tall"		"6"
+				"name"		"hwnjofre1"//"product_sans_regular"
+				"tall"		"5"
 			}
 		}		
 		"Regular7"
@@ -312,11 +312,11 @@ Scheme
 			"1"
 			{
 				"name"		"product_sans_regular" [$LINUX]
-				"name"		"Trebuchet MS" [$WINDOWS]
+				"name"		"opensanskillfeed" [$WINDOWS]
 				"weight"	"500" [$LINUX]
-				"weight"	"900" [$WINDOWS]
+				"weight"	"0" [$WINDOWS]
 				"antialias" "1"
-				"tall" "12"
+				"tall" "14"
 				"additive"	"1"
 			}
 		}

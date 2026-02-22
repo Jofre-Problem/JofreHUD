@@ -293,16 +293,16 @@ Scheme
 			"1"
 			{
 				"name"			"hwnjofre1"
-			//	"tall"		"15"
+			//	"tall"		"12"
 				"weight"	"0"
 				"yres"		"480 1023"
 			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
-			"2"
+			"2" // this one
 			{
 				"name"		"hwnjofre1"
-			//	"tall"		"17"
+				"tall"		"14"
 				"weight"	"0"
 				"yres"		"1024 1199"
 			//	"dropshadow"	"1"
@@ -311,7 +311,7 @@ Scheme
 			"3"
 			{
 				"name"		"hwnjofre1"
-			//	"tall"		"24"
+				"tall"		"12"
 				"weight"	"0"
 				"yres"		"1200 6000"
 			//	"dropshadow"	"1"
@@ -320,10 +320,17 @@ Scheme
 			"4"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"36"
+				"tall"		"12"
 				"yres"		"1600 6000"
 				"antialias"		"1"
-			}			
+			}
+			"5"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"12"
+				"yres"		"0 10000"
+				"antialias"		"1"
+			}							
 		}	
 		"Default"
 		{

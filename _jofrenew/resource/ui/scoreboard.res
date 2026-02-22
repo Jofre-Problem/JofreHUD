@@ -403,7 +403,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"g_fonttiny_2"
+		"font"			"itemfontnamesmallest"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
@@ -463,7 +463,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"g_fonttiny_2"
+		"font"			"itemfontnamesmallest"
 		"textAlignment"		"center"
 		"xpos"			"rs1-20"
 		"ypos"			"79"
@@ -648,7 +648,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"G_fonttiny_2"
+		"font"			"CenterPrintText"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -838,29 +838,7 @@
 	{
 		"visible"			"0"
 	}
-	"PlayerNameLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
-		"labelText"		"%playername%"
-		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"377"
-		"zpos"			"3"
-		"wide"			"300"
-		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		
-		if_mvm
-		{
-			"visible"		"0"
-			"wide"			"175"
-		}
-	}
+
 "ServerTimeLeft"
 {	"alpha"	"0"
 "visible"		"0"
@@ -1291,8 +1269,210 @@ if_mvm
 			"enabled"			"1"
 			"fgcolor"			"notowhite"
 		}
+	"killprogress"
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""killprogress"
+		"xpos"			"cs-0.5+40"
+		"ypos"			"30"
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"kills"
+		"fg_image"		"replay/thumbnails/scoreboard/kills"
+		"bg_image"		"replay/thumbnails/scoreboard/kills2"
+		border "G_TargetBorder"
+	
+
+	}	
+	"assitsprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""assitsprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"killprogress"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"assits"
+		"fg_image"		"replay/thumbnails/scoreboard/assits"
+		"bg_image"		"replay/thumbnails/scoreboard/assits_c"
+		border "G_TargetBorder"
+	
+
+	}	
+	"capprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""capprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"assitsprogress"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"captures"
+		"fg_image"		"replay/thumbnails/scoreboard/captures"
+		"bg_image"		"replay/thumbnails/scoreboard/captures_c"
+		border "G_TargetBorder"
+	
+
+	}	
+	"domprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""domprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"capprogress"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"dominations"
+		"fg_image"		"replay/thumbnails/scoreboard/dominations"
+		"bg_image"		"replay/thumbnails/scoreboard/dominations_c"
+		border "G_TargetBorder"
+	
+
+	}	
 
 
+
+	// left	
+	"deathprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""deathprogress"
+		"xpos"			"cs-0.5-40"
+		"ypos"			"30"
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"deaths"
+		"fg_image"		"replay/thumbnails/scoreboard/death"
+		"bg_image"		"replay/thumbnails/scoreboard/death_c"
+		border "G_TargetBorder"
+	
+
+	}	
+	"buildsprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""buildsprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"deathprogress"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"destruction"
+		"fg_image"		"replay/thumbnails/scoreboard/builds_c"
+		"bg_image"		"replay/thumbnails/scoreboard/builds" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}		
+	"defprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""defprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"buildsprogress"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"defenses"
+		"fg_image"		"replay/thumbnails/scoreboard/defense"
+		"bg_image"		"replay/thumbnails/scoreboard/defense_c" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}		
+	"revprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""revprogress"
+		"xpos"			"8"
+		"ypos"			"0"
+		pin_to_sibling 			"defprogress"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"revenge"
+		"fg_image"		"replay/thumbnails/scoreboard/revenge"
+		"bg_image"		"replay/thumbnails/scoreboard/revenge_c" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}		
+	// else
+	"headprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""headprogress"
+		"xpos"			"8"
+		"ypos"			"30"
+
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"headshots"
+		"fg_image"		"replay/thumbnails/scoreboard/headshot"
+		"bg_image"		"replay/thumbnails/scoreboard/headshot_c" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}	
+	"uberprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""uberprogress"
+		xpos "8"
+		pin_to_sibling 			"headprogress"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"invulns"
+		"fg_image"		"replay/thumbnails/scoreboard/uber"
+		"bg_image"		"replay/thumbnails/scoreboard/uber_c" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}	
+	"teleprogress" // you cant use pin on these vgui1 panels
+	{
+					"ControlName""CircularProgressBar"
+		"fieldName""teleprogress"
+		xpos "8"
+		pin_to_sibling 			"uberprogress"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"zpos"			"0"
+		"wide"			"32"
+		"tall"			"31"
+		"variable"		"teleports"
+		"fg_image"		"replay/thumbnails/scoreboard/teleport"
+		"bg_image"		"replay/thumbnails/scoreboard/teleport_c" // whatever,  c stands for chroma
+		border "G_TargetBorder"
+	
+
+	}			
 		"Kills"
 		{
 			"ControlName"		"CExLabel"
@@ -2461,9 +2641,19 @@ if_mvm
 	}
 	"PlayerNameLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"CExLabel"		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 		"fieldName"									"PlayerNameLabel"
-		"xpos"			         					"9999"
+		"xpos"			         					"cs-0.5"
+		"wide" "f0"
+		"ypos" "60"
+		"tall" "20"
+		zpos "888"
+		"labelText" "%playername%"
+		textAlignment "center"
 	}
 	"ServerLabelNew"
 	{

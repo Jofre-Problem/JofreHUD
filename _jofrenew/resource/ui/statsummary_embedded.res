@@ -109,7 +109,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"ScoreboardVerySmall"
+				"font"			"Killfeedtiny"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-202"
@@ -124,7 +124,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"ScoreboardVerySmall"
+				"font"			"Killfeedtiny"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-27"
@@ -139,7 +139,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"ScoreboardVerySmall"
+				"font"			"Killfeedtiny"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c130"
@@ -170,7 +170,7 @@
 				"zpos"		"10"
 				"wide"		"155"
 				"tall"		"14"
-					font "G_FontTiny_2"
+					font "Killfeedtiny"
 				"visible"		"0"
 				"enabled"		"1"
 				"textHidden"		"0"
@@ -190,8 +190,8 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				font "G_FontTiny_2"
-				font_override "G_FontTiny_2"
+				font "Killfeedtiny"
+				font_override "Killfeedtiny"
 				"textHidden"		"0"
 				"editable"		"0"
 				"maxchars"		"-1"
@@ -207,7 +207,7 @@
 				"zpos"		"10"
 				"wide"		"148"
 				"tall"		"14"
-					font "G_FontTiny_2"
+					font "Killfeedtiny"
 				"visible"		"0"
 				"enabled"		"1"
 				"textHidden"		"0"
@@ -278,7 +278,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -292,7 +292,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -347,7 +347,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -361,7 +361,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -416,7 +416,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -430,7 +430,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -485,7 +485,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -499,7 +499,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -554,7 +554,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -568,7 +568,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -623,7 +623,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -637,7 +637,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -692,7 +692,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -706,7 +706,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -761,7 +761,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -775,7 +775,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -830,7 +830,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -844,7 +844,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -887,7 +887,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -902,7 +902,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -917,7 +917,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -932,7 +932,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -947,7 +947,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -962,7 +962,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -977,7 +977,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -992,7 +992,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1007,7 +1007,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1022,7 +1022,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1037,7 +1037,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1052,7 +1052,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1067,7 +1067,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1082,7 +1082,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1097,7 +1097,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1112,7 +1112,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1127,7 +1127,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1142,7 +1142,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1157,7 +1157,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1172,7 +1172,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1187,7 +1187,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1202,7 +1202,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1217,7 +1217,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1232,7 +1232,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1247,7 +1247,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1262,7 +1262,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1277,7 +1277,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1292,7 +1292,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1307,7 +1307,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1322,7 +1322,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"Killfeedtiny"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"

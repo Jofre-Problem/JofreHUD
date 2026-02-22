@@ -45,7 +45,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"G_FontSmall"
+		"font"					"Killfeed"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -76,7 +76,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"G_FontSmall"
+		"font"					"Killfeedblur"
 		"fgcolor_override"		"Shadow"
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"		"ItemEffectMeterCount"
