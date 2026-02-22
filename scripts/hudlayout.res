@@ -74,7 +74,7 @@
 	"CSpectatorTargetIDAnchor" // Icon Anchor to move Vaccinator Resistance
 	{
 		"ControlName" "EditablePanel"
-		"xpos" 		"120"
+		"xpos" 		"80"
 		// 150
 		"ypos"		"-1109"
 		"wide"		"f0"
