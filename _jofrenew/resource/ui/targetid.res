@@ -75,20 +75,20 @@
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"0"
+		"xpos"			"8"
 		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"640" // wide doesnt matter i think
 		"tall"			"24"
 		////"autoResize"		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labeltext"		""
+		"labeltext"		"WWWWW)"
 		//"labelText"		"|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 		"textAlignment"		"North-West"
-		"centerwrap"	"0"	
-		"proportionaltoparent"	"1"		
+		////	"0"
+		////		"0"
 		"alpha"			"0"
 	}
 	"TargetNameLabelTop"
@@ -96,13 +96,12 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTop"
 		"font"			"Killfeed"
-		"xpos"			"cs-0.5"
+		"xpos"			"-80"
 		"ypos"			"23"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
-		"centerwrap"	"0"	
-		"proportionaltoparent"	"1"		
+		"font_minmode"			"newicons15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -113,20 +112,20 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTopS"
-		"font"			"Killfeed"
+		"font"			"Killfeed""font_minmode"			"newicons15"
 		"xpos"			"-1"
-		pin_to_sibling "TargetNameLabelTop"
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
-		"centerwrap"	"0"	
-		"proportionaltoparent"	"1"
+		////"autoResize"		"0"
+		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"Center"
 		"fgcolor"		"0 0 0 100"
+		"pin_to_sibling" "TargetNameLabelTop"
 	}
 
 
@@ -136,7 +135,7 @@
 		"fieldName"		"TargetNameLabelBot"
 		"font"			"SpecTargetIDname"
 		"xpos"			"40"
-		"ypos"			"1010"
+		"ypos"			"1010""font_minmode"			"newicons15"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
@@ -148,15 +147,15 @@
 		"textAlignment"		"west"
 		"fgcolor"		"236 240 241 255"
 	}
-	"TargetNameLabelBotS"
+	"TargetNameLabelBotS" //spectator
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBotS"
 		"font"			"SpecTargetIDname"
 
 		"font_minmode"			"newicons15"
-		"xpos"			"40"
-		"ypos"			"1011"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
@@ -167,13 +166,14 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"0 0 0 100"
+		"pin_to_sibling" "TargetNameLabelBot"
 	}
 	"TargetNameLabelMid" //healing targetid
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid"
 		"font"			"Medhealtarget"
-		"xpos"			"427+5"
+		"xpos"			"455"
 		"ypos"			"522"
 		"zpos"			"1"
 		"wide"			"130"
@@ -191,8 +191,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMidS"
 		"font"			"Medhealtarget"
-		"xpos"			"427+5"
-		"ypos"			"522"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"130"
 		"tall"			"25"
@@ -201,14 +201,15 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"0 0 0 100"
+		"pin_to_sibling" "TargetNameLabelMid"
 	}
-	"TargetNameLabelMid2" // healer targetid
+	"TargetNameLabelMid2" // healer targetid // pov u heavy and medic heals you
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid2"
 		"font"			"Medhealtarget"
-		"xpos"			"-175+8"
-		"ypos"			"520"
+		"xpos"			"-138"
+		"ypos"			"522"
 		"zpos"			"1"
 		"wide"			"408"
 		"tall"			"24"
@@ -224,8 +225,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid2S"
 		"font"			"Medhealtarget"
-		"xpos"			"-175+8"
-		"ypos"			"520"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"408"
 		"tall"			"25"
@@ -234,48 +235,38 @@
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
 		"fgcolor"		"0 0 0 100"
+		"pin_to_sibling" "TargetNameLabelMid2"
 	}
-	"TargetNameLabelTop3S"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabelTop3S"
-		"font"			"killfeeduber"//"Size 16 uber"
-		"xpos"			"8"
-		"ypos"			"38"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"24"
-		"visible"		"0"
+
+
+
+
+
+
+
+
+	"TargetDataAnchor"
+	{
+		"ControlName"		"Panel"
+		"fieldName"		"TargetDataAnchor"
+		"xpos"		"0+p0.3+10"
+		"ypos"		"-20-15" 
+		"tall"		"0"
 		"enabled"		"1"
-		"labelText"		"%targetdata%"
-		"textAlignment"		"Center"
-		"fgcolor"		"0 0 0 100"
-	}	  		
-	"TargetNameLabelTop3"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabelTop3"
-		"font"			"killfeeduber"//"Size 16 uber"
-		"xpos"			"8"
-		"ypos"			"37"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"%targetdata%"
-		"textAlignment"		"Center"
-		"fgcolor"		"236 240 241 255"
-	}	    
+
+		"pin_to_sibling"		"SpectatorGUIHealth"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"1"
+	}		
 	"TargetDataLabel"
 	{	
 		"ControlName"		"cautofittinglabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"killfeeduber"//"Size 16 uber"
 		"xpos"			"0"
-		"ypos" 0
+		"ypos" 			"0"
 		"zpos"			"1"
-		"wide"			"200"
+		"wide"			"200"//"200"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -300,25 +291,13 @@
 			"5" "blue"
 		}			
 	}
-	"TargetDataAnchor"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"TargetDataAnchor"
-		"xpos"		"0+p0.3-30+13"
-		"ypos"		"-20-15" 
-		"tall"		"0"
-		"enabled"		"1"
 
-		"pin_to_sibling"		"SpectatorGUIHealth"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"1"
-	}	
-	"TargetDataLabelTrue"
+	"TargetDataLabelTrue" // healer target id uber
 	{	
 		"ControlName"		"cautofittinglabel"
 		"fieldName"		"TargetDataLabelTrue"
 		"font"			"KillfeedUber"
-		"xpos"			"40"
+		"xpos"			"60"
 					"ypos" "410"	[$WINDOWS]
 				"ypos" "412"	[$LINUX]
 		"zpos"			"5"
@@ -342,6 +321,7 @@
 			"4" "yellow"
 			"5" "blue"
 		}			
+
 	}
 	"TargetDataLabelTrue2"
 	{	
@@ -401,6 +381,7 @@
 		// ammo never gets to 4 digits big and names never contain either so we're good boys
 		"textAlignment"		"east"
 		"fgcolor"		"blue"//"150 245 0 80"
+	//	bgcolor_override "AssassinGrade"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -418,38 +399,59 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"236 240 241 255"
 	}	
-	
-	"AmmoIcon"
+	"AmmoIconPinner"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		//	"38"
-		"ypos"			"20"
-		//	"16"
+		"ControlName"	"editablePanel"
+		"fieldName"		"AmmoIconPinner"
+		"xpos"			"cs-0.5-66"
+		"ypos"			"cs-0.5+185"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
+	}	
+	"AmmoIcon"
+	{
+		pin_to_sibling "AmmoIconPinner"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoIcon"
+		"xpos"			"0"
+		//	"38"
+		"ypos"			"0"
+		//	"16"
+		"zpos"			"12"
+		"wide"			"12"
+		"tall"			"o1"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
 	}
-	
+	"KillStreakIconPinner"
+	{
+		"ControlName"	"editablePanel"
+		"fieldName"		"KillStreakIconPinner"
+		"xpos"			"p1+119" //"750" // very left away
+		"ypos"			"43"
+		"zpos"			"12"
+		"wide"			"1"
+		"tall"			"1"
+	}		
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
+		pin_to_sibling "KillStreakIconPinner"		
+		"xpos"			"0"
 		//	"30"
-		"ypos"			"20"
+		"ypos"			"0"
 		//	"19"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"15"
+		"tall"			"13"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
+		bgcolor_override "Black"
 	}
 }

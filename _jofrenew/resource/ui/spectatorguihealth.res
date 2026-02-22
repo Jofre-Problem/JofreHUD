@@ -18,11 +18,11 @@
 		"visible"			"0"
 		"tall"			"0"
 	}	
-	"PlayerStatusHealthBonusImage"
+	"PlayerStatusHealthBonusImage" //healer hp shit
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"cs-0.5-30"
+		"xpos"			"cs-0.5"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"6969"
@@ -129,10 +129,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID"
-		"xpos"			"0"
+		"xpos"			"-80"
 		"ypos"			"11"
 		"zpos"			"50"
-		"wide"			"654"
+		"wide"			"f0"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -141,11 +141,28 @@
 		"font"			"Killfeed"
 		"fgcolor"		"236 240 241 255"
 	}
-	"PlayerStatusHealthValueID2"
+	"PlayerStatusHealthValueS"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueS"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Killfeed"
+		"fgcolor"		"0 0 0 100"
+		"pin_to_sibling" "PlayerStatusHealthValueID"
+	}	
+	"PlayerStatusHealthValueID2" // healer target// pov medic te cura siendo heavy
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID2"
-		"xpos"			"-40"
+		"xpos"			"-10"
 		"ypos"			"420"
 		"zpos"			"49"
 		"wide"			"655"
@@ -162,8 +179,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueID2S"
-		"xpos"			"-40"
-		"ypos"			"420"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"4"
 		"wide"			"655"
 		"tall"			"15"
@@ -174,39 +191,10 @@
 		"font"			"KillfeedBlur"
 		"fgcolor"		"notoblack"
 		"fgcolor_override"		"notoblack"
+		"pin_to_sibling" "PlayerStatusHealthValueID2"
 	}
-	"PlayerStatusHealthValueS"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueS"
-		"xpos"			"0"
-		"ypos"			"12"
-		"zpos"			"5"
-		"wide"			"654"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"Killfeed"
-		"fgcolor"		"0 0 0 100"
-	}
-	"PlayerStatusHealthValue2S"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue2S"
-		"xpos"			"-40"
-		"ypos"			"420"
-		"zpos"			"5"
-		"wide"			"655"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"Killfeed"
-		"fgcolor"		"0 0 0 100"
-	}
+
+
 	"PlayerStatusHealthValueID3"
 	{
 		"ControlName"	"cautofittinglabel"

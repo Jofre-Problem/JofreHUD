@@ -1,43 +1,4 @@
-//	#base	"../../_jofrenew/resource/ui/targetid.res"
-"Resource/UI/TargetID.res" 
-{
-	
-
-	"SpectatorGUIHealth"
-	{
-		"ControlName"	"EditablePanel"	"fieldName"	"SpectatorGUIHealth"
-		"xpos"	"cs-0.5"	"ypos"	"-5"	"wide"	"40"	"tall"	"40"
-		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
-		"HealthBonusPosAdj"	"10"	"HealthDeathWarning"	"0.49"
-	}	
-	"TargetNameLabelCustom"
-	{	
-		"ControlName"	"Label"	"fieldName"	"TargetNameLabelCustom"
-		"xpos"	"cs-0.5"	"ypos"	"13"	"zpos"	"1"	"wide"	"f0"	"tall"	"24"
-		"font"	"HudFontSmallest"	"visible"	"1"	"enabled"	"1"	"centerwrap"	"0"	"proportionaltoparent"	"1"
-		"labelText"	"%targetname%"	"textAlignment"	"center"
-		"fgcolor_override"	"White"
-	}
-	"TargetNameLabelCustomShadow"
-	{	
-		"ControlName"	"Label"	"fieldName"	"TargetNameLabelCustomShadow"
-		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"1"	"wide"	"f0"	"tall"	"24"
-		"font"	"HudFontSmallest"	"visible"	"1"	"enabled"	"1"	"centerwrap"	"0"	"proportionaltoparent"	"1"
-		"labelText"	"%targetname%"	"textAlignment"	"center"
-		"fgcolor_override"	"Black"
-		"pin_to_sibling"	"TargetNameLabelCustom"
-	}	
-	
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"TargetIDBG_Spec_Blue"	
-	{	"fieldName"	"TargetIDBG_Spec_Blue"	"xpos"	"9999"	}
-	"TargetIDBG_Spec_Red"
-	{	"fieldName"	"TargetIDBG_Spec_Red"	"xpos"	"9999"}
-	"TargetIDBG"
-	{	"fieldName"	"TargetIDBG"	"xpos"	"9999"	}
-	"MoveableSubPanel"	
-	{	"fieldName"	"MoveableSubPanel"	"xpos"	"9999"	}
-}
+	#base	"../../_stream/resource/ui/targetid.res"
+	#base	"../../_jofrenew/resource/ui/targetid.res"
+//	#base	"../../_opt/resource/ui/targetid.res"
+	//#base	"../../z_tf2/resource/ui/targetid.res"

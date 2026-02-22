@@ -252,27 +252,6 @@ visible 0
 		drawcolor red
 		"image"				"replay/thumbnails/hp/2mod_side_panel_gradient_bottom"
 	}			
-	"MedicIcon"
-	{
-		"ControlName"	"ctfimagepanel"
-		xpos 0-706
-		"ypos"			"-1010"
-		"zpos"			"9"
-		"wide"			"25"
-		"tall"			"o1"
-		"visible"		"0"
-		"enabled"		"1"
-	//	"drawcolor" "green"
-		"scaleImage" 1
-		paintBackground 1
-		bgcolor_override notodark
-		"image"				"replay/thumbnails/redcorner"
-		"teambg_2"			"replay/thumbnails/redcorner"
-		"teambg_3"			"replay/thumbnails/bluecorner"
-"pin_to_sibling" "CSpectatorTargetID"
-"pin_corner_to_sibling"					"PIN_TOPLEFT"
-"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-	}		
 
 	"DisguiseDust"
 	{

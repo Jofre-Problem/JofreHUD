@@ -122,39 +122,6 @@
 	}
 	
 	
-
-
-	CMainTargetID
-	{
-		"visible" 	"0"
-		"xpos"		"c-126"
-		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
-	}
-	
-	CSpectatorTargetID
-	{
-		"visible" 	"0"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"40"
-	}
-	
-	CSecondaryTargetID
-	{
-		"visible" 	"0"
-		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"priority"	"35"
-
-
-	}
 	
 	BuildingStatus_Spy
 	{
