@@ -33,11 +33,13 @@
 		tall							f0
 		proportionaltoparent		1
 
-		labeltext					""
+		labeltext					"" // overwritten by game code
 		AllCaps						1
 		smallcheckimage			1
 		button_activation_type	1		// check out!
-
+		"textalignemt" "east"
+		"fgcolor"	"TanLight"	
+		"font" "ItemFontAttribSmall"
 
 		sound_depressed			"ui/buttonclickrelease.wav"
 	}	

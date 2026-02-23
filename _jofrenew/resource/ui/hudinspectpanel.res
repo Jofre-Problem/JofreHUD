@@ -38,7 +38,14 @@
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+		"paint_icon"
+		{
+			"ControlName"	"CItemMaterialCustomizationIconPanel"
+			"fieldName"		"paint_icon"
+			"wide"			"40"
+			"tall"			"o1"
+
+		}		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"

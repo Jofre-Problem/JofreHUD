@@ -131,6 +131,6 @@
 		//"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
+		"border"		"noborder"
 	}
 }

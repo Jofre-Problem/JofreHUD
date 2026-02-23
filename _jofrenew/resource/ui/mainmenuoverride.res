@@ -37,27 +37,7 @@
 		"SaxxySettings"
 		{"xpos"	"9999"}
 	}
- 	"uuu"
-	{
-		"ControlName"		"cexlabel"
-		"fieldName"			"uuu"
-		"font"				"ItemFontAttribLarge"
-		"labelText"			"ͻ"
-		"xpos"				"c0"
-		"ypos"				"c0"
-		"zpos"				"10000"
-		"wide"				"130"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintbackground"	"1"
-		"sound_depressed"	""
-		"textAlignment"		"east"
-		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"TanLight"
-	}	   
+
 	"VersionLabel"
 	{
 		"ControlName"		"CExImageButton"

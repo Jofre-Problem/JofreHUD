@@ -41,7 +41,7 @@
 
 			"text_ypos"		"2"
 			"text_center"	"0"
-			"paint_icon_hide" "1"
+			"paint_icon_hide" "0" //????
 			"model_hide"	"1"
 			"text_forcesize"	"4"
 			"name_only"	"1"
@@ -60,6 +60,14 @@
 						border "G_TargetBorder"
 						bgcolor_override "Blank"
 					}
+					"paint_icon"
+					{
+					"ControlName"	"CItemMaterialCustomizationIconPanel"
+					"fieldName"		"paint_icon"					
+						zpos 1000
+						tall o1
+						"wide" "40"
+					}							
 				}
 		}			
 				"maincontentscontainer"
@@ -76,6 +84,14 @@
 
 						bgcolor_override "Blank"
 					}
+					"paint_icon"
+					{
+					"ControlName"	"CItemMaterialCustomizationIconPanel"
+					"fieldName"		"paint_icon"					
+						zpos 1000
+						tall o1
+						"wide" "40"
+					}						
 				}
 
 		"modelpanels_selection_kv"
@@ -142,6 +158,18 @@
 						"wide" "f0"
 						bgcolor_override "0 0 0 255"
 					}
+					"paint_icon" // working one
+					{
+				//	"ControlName"	"CItemMaterialCustomizationIconPanel"
+				//	"fieldName"		"paint_icon"	
+// bugs out so bad				//	xpos 0
+ 				//	ypos 0				
+				//		zpos 1000
+						tall o1
+						"wide" "26" // def 14
+				//		scaleimage 1
+						bgcolor_override "blank"
+					}							
 				}
 			"use_item_sounds"						"1"
 		}

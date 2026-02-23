@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		//
-		"bgcolor_override"							"BlackLight"
+		"bgcolor_override"							"0 0 0 255"
 
 		//"pinCorner"									"2"
 		"autoResize"								"1"
@@ -88,16 +88,17 @@
                 "ControlName"               "cexlabel"
                 "fieldName"                 "Button2"
                 "xpos"                      "0"
-                "ypos"                      "7"
+                "ypos"                      "8"
                 "wide"                      "f0"
                 "tall"                      "f0"
 					"mouseinputenabled" "0"
                 "proportionaltoparent"      "1"
-                "font"                      "notobold10"
+                "font"                      "tffontsmall"
                 "labelText"                 "Save"
                 "textAlignment"             "center"
-                "defaultbgcolor_override"   "Blank"
+                "defaultbgcolor_override"   "0 0 0 100"
                 "armedbgcolor_override"     "blank"
+				paintBackground 1
                 "defaultfgcolor_override"   "green"
                 "armedfgcolor_override"     "yellow"
             }
@@ -155,7 +156,7 @@
                 "wide"                      "f0"
                 "tall"                      "f0"
                 "proportionaltoparent"      "1"
-                "font"                      "notobold10"
+                "font"                      "tffontsmall"
                 "labelText"                 "Restore"
                 "textAlignment"             "center"
                 "defaultbgcolor_override"   "Blank"
@@ -217,21 +218,23 @@
 			"mouseinputenabled"						"1"
 		}
 
-		"QueueEstimation"
+		"QueueEstimation" // doesnt work
 		{
 			"ControlName"							"Label"
 			"fieldName"								"QueueEstimation"
 			"xpos"									"0"
 			"ypos"									"0"
-			"zpos"									"0"
-			"wide"									"0"		//Find a place for this
-			"tall"									"0"
+			"zpos"									"100"
+			"wide"									"f0"		//Find a place for this
+			"tall"									"40"
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Size 14"
+			"font"									"default"
 			"fgcolor_override"						"White"
 			"AllCaps"								"1"
+
+			
 			"visible"								"0"
 		
 			"mouseinputenabled"						"0"
@@ -239,10 +242,12 @@
 		
 		"Title"
 		{
-			"ControlName"							"Label"
-			"fieldName"								"Title"
+			"ControlName"		"Label"
+			"fieldName"		"Title"
 			"xpos"									"9999"
+			visible 0
 		}
+
 		"PlayListDropShadow"
 		{
 			"ControlName"							"EditablePanel"
@@ -265,7 +270,7 @@
 			"paintborder"							"1"
 			"paintbackground"						"1"
 			//
-			"bgcolor_override"						"64 64 46 255"
+			"bgcolor_override"						"0 0 0 255" // bruh jofrepin
 
 			"ScrollBar"
 			{

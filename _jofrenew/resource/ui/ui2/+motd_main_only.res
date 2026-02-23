@@ -2669,7 +2669,7 @@ proportionaltoparent 1
                         "xpos"                      "0"
                         "ypos"                      "20"
                         "wide"                      "f0"
-                        "tall"                      "480"
+                        "tall"                      "600"
                         "proportionaltoparent"      "1"
 					  
 						 "0" {
@@ -2680,7 +2680,7 @@ proportionaltoparent 1
                           "ypos"                          "10"
                             "wide"                           "f10"
 
-                            "tall"                           "480"
+                            "tall"                           "600" // lol was this one
 
 
                             "proportionaltoparent"                          "1"
@@ -2691,7 +2691,7 @@ proportionaltoparent 1
                                 "fieldname"                             "win"
                                 "xpos"                             "0"
                                 "ypos"                             "0"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2726,7 +2726,7 @@ proportionaltoparent 1
                                 "fieldname"                             "lose"
                                 "xpos"                             "rs1"
                                 "ypos"                             "0"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2760,7 +2760,7 @@ proportionaltoparent 1
                                 "fieldname"                             "Late"
                                 "xpos"                             "0"
                                 "ypos"                             "20"
-                                "wide"                             "p1""actionsignallevel" "9"
+                                "wide"                             "p1"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2794,7 +2794,7 @@ proportionaltoparent 1
                                 "fieldname"                             "lol"
                                 "xpos"                             "0"
                                 "ypos"                             "40"
-                                "wide"                             "f0""actionsignallevel" "9"
+                                "wide"                             "f0"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
@@ -2835,10 +2835,8 @@ proportionaltoparent 1
                     "collapsed_height"          "30"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
-					  "tall""120"
-					  "expanded_height""280"
-		
-             
+					  "tall""400"
+					  "expanded_height""400"       
                 
                     "container"
                     {
@@ -2884,7 +2882,7 @@ proportionaltoparent 1
                         "xpos"                      "0"
                         "ypos"                      "20"
                         "wide"                      "f0"
-                        "tall"                      "480"
+                        "tall"                      "260"
                         "proportionaltoparent"      "1"
 					 "0" {
                             "controlname"
@@ -2895,7 +2893,7 @@ proportionaltoparent 1
                             "wide"                           "f10"
 
 
-                            "tall"                           "300" //important
+                            "tall"                           "260" //important
 
 
 
@@ -3022,7 +3020,7 @@ proportionaltoparent 1
                                 "labeltext"                            "1k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 1000 Damage"                        
+                               "command"   "engine ds_mark 1000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3043,7 +3041,7 @@ proportionaltoparent 1
                                 "labeltext"                           "2k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 2000 Damage"                        
+                               "command"   "engine ds_mark 2000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3064,7 +3062,7 @@ proportionaltoparent 1
                                 "labeltext"                            "3k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 3000 Damage"                        
+                               "command"   "engine ds_mark 3000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3085,7 +3083,7 @@ proportionaltoparent 1
                                 "labeltext"                           "4k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 4000 Damage"                        
+                               "command"   "engine ds_mark 4000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3115,7 +3113,7 @@ proportionaltoparent 1
                                 "labeltext"                            "5k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 5000 Damage"                        
+                               "command"   "engine ds_mark 5000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3136,7 +3134,7 @@ proportionaltoparent 1
                                 "labeltext"                           "6k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 6000 Damage"                        
+                               "command"   "engine ds_mark 6000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3157,7 +3155,7 @@ proportionaltoparent 1
                                 "labeltext"                            "7k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 7000 Damage"                        
+                               "command"   "engine ds_mark 7000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3178,7 +3176,7 @@ proportionaltoparent 1
                                 "labeltext"                           "8k Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 8000 Damage"                        
+                               "command"   "engine ds_mark 8000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3200,7 +3198,7 @@ proportionaltoparent 1
                                 "labeltext"                            "9000 Damage"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 9000 Damage"                        
+                               "command"   "engine ds_mark 9000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3245,7 +3243,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Miracle Moment"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Miracle Moment"                       
+                               "command"   "engine ds_mark Miracle.Moment"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3266,7 +3264,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Stupid Moment"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Stupid Moment"                       
+                               "command"   "engine ds_mark Stupid.Moment"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3288,7 +3286,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Spectating Someone"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Spectating Someone"                       
+                               "command"   "engine ds_mark Spectating.Someone"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3309,7 +3307,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Spec Hale"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Spec Hale"                     
+                               "command"   "engine ds_mark Spec.Hale"                     
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3331,7 +3329,7 @@ proportionaltoparent 1
                                 "labeltext"                            "I am Hale!"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark I am Hale!"                       
+                               "command"   "engine ds_mark I.am.Hale!"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3352,7 +3350,7 @@ proportionaltoparent 1
                                 "labeltext"                            "I'm Last One Alive"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark I'm Last One Alive"                     
+                               "command"   "engine ds_mark Im.Last.One.Alive"                     
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3375,10 +3373,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "30 min"
+                                "labeltext"                            "30min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 30 min left"                        
+                               "command"   "engine ds_mark 30.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3396,10 +3394,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                           "25 min"
+                                "labeltext"                           "25min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 25 min left"                        
+                               "command"   "engine ds_mark 25.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3417,10 +3415,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "20 min"
+                                "labeltext"                            "20min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 20 min left"                        
+                               "command"   "engine ds_mark 20.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3438,10 +3436,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                           "15 min"
+                                "labeltext"                           "15min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 15 min left"                        
+                               "command"   "engine ds_mark 15.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3468,10 +3466,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "10 min"
+                                "labeltext"                            "10min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 10 min left"                        
+                               "command"   "engine ds_mark 10.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3489,10 +3487,10 @@ proportionaltoparent 1
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                           "5 min"
+                                "labeltext"                           "5min"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 5 min left"                          
+                               "command"   "engine ds_mark 5.min.left"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3513,7 +3511,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Last"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Last Round"                        
+                               "command"   "engine ds_mark Last.Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3534,7 +3532,7 @@ proportionaltoparent 1
                                 "labeltext"                           "wtf?"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark WTF Moment!"                        
+                               "command"   "engine ds_mark WTF_Moment!"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3561,8 +3559,8 @@ proportionaltoparent 1
                     "collapsed_height"          "30"
                     "ignorescheme"              "1"
                     "resize_time"               "0.1"
-					  "tall""480"
-					  "expanded_height""480"
+					  "tall""100"
+					  "expanded_height""100"
 		
                                  "pin_to_sibling"            "AAA"
                     "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -3634,16 +3632,16 @@ proportionaltoparent 1
                                 "fieldname"                             "win"
                                 "xpos"                             "0"
                                 "ypos"                             "0"
-                                "wide"                             "p0.25""actionsignallevel" "9"
+                                "wide"                             "p0.25"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "5 Killstreak"
+                                "labeltext"                            "5.Killstreak"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 5 Killstreak"                        
+                               "command"   "engine ds_mark 5.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3657,7 +3655,7 @@ proportionaltoparent 1
                                 "fieldname"                             "10ks"
                                 "xpos"                             "0+p0.25"
                                 "ypos"                             "0"
-                                "wide"                             "p0.25""actionsignallevel" "9"
+                                "wide"                             "p0.25"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3666,7 +3664,7 @@ proportionaltoparent 1
                                 "labeltext"                            "10 Killstreak"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 10 Killstreak"                        
+                               "command"   "engine ds_mark 10.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3680,7 +3678,7 @@ proportionaltoparent 1
                                 "fieldname"                             "15ks"
                                 "xpos"                             "0+p0.25+p0.25"
                                 "ypos"                             "0"
-                                "wide"                             "p0.25""actionsignallevel" "9"
+                                "wide"                             "p0.25"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3689,7 +3687,7 @@ proportionaltoparent 1
                                 "labeltext"                            "15 Killstreak"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 15 Killstreak"                        
+                               "command"   "engine ds_mark 15.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3703,7 +3701,7 @@ proportionaltoparent 1
                                 "fieldname"                             "20ks"
                                 "xpos"                             "0+p0.25+p0.25+p0.25"
                                 "ypos"                             "0"
-                                "wide"                             "p0.25""actionsignallevel" "9"
+                                "wide"                             "p0.25"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3712,7 +3710,7 @@ proportionaltoparent 1
                                 "labeltext"                            "20 Killstreak"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark 20 Killstreak"                        
+                               "command"   "engine ds_mark 20.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3728,7 +3726,7 @@ proportionaltoparent 1
                                 "fieldname"                             "quake1"
                                 "xpos"                             "0"
                                 "ypos"                             "20"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3751,7 +3749,7 @@ proportionaltoparent 1
                                 "fieldname"                             "quake12"
                                 "xpos"                             "rs1"
                                 "ypos"                             "20"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3760,7 +3758,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Killing_Spree"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Killing Spree"                        
+                               "command"   "engine ds_mark Killing.Spree"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3774,7 +3772,7 @@ proportionaltoparent 1
                                 "fieldname"                             "quake123"
                                 "xpos"                             "0"
                                 "ypos"                             "40"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3797,7 +3795,7 @@ proportionaltoparent 1
                                 "fieldname"                             "quake1234"
                                 "xpos"                             "rs1"
                                 "ypos"                             "40"
-                                "wide"                             "p0.5""actionsignallevel" "9"
+                                "wide"                             "p0.5"
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
@@ -3806,7 +3804,7 @@ proportionaltoparent 1
                                 "labeltext"                            "Monster-Kill"
 								textAlignment center
 								 "font"                      "NotoBold12"
-                               "command"   "engine ds_mark Monster Kill"                        
+                               "command"   "engine ds_mark Monster.Kill"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
                                 "sound_released"                  "ui/buttonclickrelease.wav"
@@ -3817,10 +3815,10 @@ proportionaltoparent 1
                             }	
 
 				 	}
-				 }}
+				 }
 				 
-				 
-				 
+				 }
+
 				 
 				 
 				 
@@ -3843,6 +3841,1296 @@ proportionaltoparent 1
 
                     }
                 } //marks
+
+
+						
+
+					
+				
+				 
+				 
+
+
+
+
+
+
+
+
+
+			"ServerList"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "ServerList"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                    "pin_to_sibling"            "Marks"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Server List ShortCut"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"
+					  
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f10"
+
+                            "tall"                           "480"
+
+
+                            "proportionaltoparent"                          "1"
+
+              
+				"AAA"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "AAA"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""120"
+					  "expanded_height""200"
+		
+             
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "VSH"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notoblue"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "200"
+                        "proportionaltoparent"      "1"
+					 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+
+                            "tall"                           "200" //important
+
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "█ [#1] MULTIMOD | Servilive | Comunidad Latinoamericana"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 45.235.98.222:27080"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }
+                            "win2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win2"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/45.235.98.222:27080"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "svldd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "svldd"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "¬"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://discord.gg/SwpgRW4zKX"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }														
+                            "skial" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skial"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "skial.com | FREAK FORTRESS | NY ██"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 91.216.250.54:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "skialweb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialweb"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "20"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/91.216.250.54:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                            "skialwebbans" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialwebbans"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "п"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.skial.com/sourcebans/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "skialwebfff" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialwebfff"
+                                "xpos"                             "20"
+                                "ypos"                             "20"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "Ͼ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.skial.com/forums/team-fortress-2.16/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }																								
+                            "chillout" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "chillout"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "RU █ CHILLOUT.PW █ Freak Fortress"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect s2.chillout.pw:27017"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "chillbans" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "chillbans"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "п"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://bans.chillout.pw/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "chillsvldd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "chillsvldd"
+                                "xpos"                             "20"
+                                "ypos"                             "40"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "¬"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://discord.com/invite/chillout-pw"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }									
+                            "chillweb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "chillweb"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "40"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/37.230.210.248:27017/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "chillwebssteam" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "chillwebssteam"
+                                "xpos"                             "rs1-5-20"
+                                "ypos"                             "40"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/chilloutpwtf2"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+
+                            "discff" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discff"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress #1|"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 74.91.119.154:27016"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }		
+                            "discbans" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discbans"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "п"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://disc-ff.site.nfoservers.com/sourcebanstf2/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }								
+                            "discffweb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discffweb"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/74.91.119.154:27016/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "discffssteam" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discffssteam"
+                                "xpos"                             "rs1-5-20"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/firefriendly"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }			
+                            "discwebfff2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discwebfff2"
+                                "xpos"                             "20"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "Ͼ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://disc-ff.com/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }																	
+                            "discff2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discff2"
+                                "xpos"                             "0"
+                                "ypos"                             "80"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress X10|"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 145.239.70.42:27019"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "discffwebx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discffwebx10"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "80"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/145.239.70.42:27019/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "discffssteamx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discffssteamx10"
+                                "xpos"                             "rs1-5-20"
+                                "ypos"                             "80"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/NecGaming"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }									
+                            "wimne" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wimne"
+                                "xpos"                             "0"
+                                "ypos"                             "100"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "[MULTIMOD] WineWald | Freak Fortress 2"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 45.235.99.105:27318"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "wwwebx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wwwebx10"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "100"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.gametracker.com/server_info/45.235.99.105:27318/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "wwffssteamx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wwffssteamx10"
+                                "xpos"                             "rs1-5-20"
+                                "ypos"                             "100"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/Winewald"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }										
+                            "mill" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "mill"
+                                "xpos"                             "0"
+                                "ypos"                             "120"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Versus Ponyville Reborn | Custom FF2"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 192.223.29.143:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "ponywwwebx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ponywwwebx10"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "120"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://www.battlemetrics.com/servers/tf2/27391717"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }	
+                            "ponywwffssteamx10" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ponywwffssteamx10"
+                                "xpos"                             "rs1-5-20"
+                                "ypos"                             "120"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                             "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/VersusPonyvilleReborn"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }									
+                            "vscr" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "vscr"
+                                "xpos"                             "0"
+                                "ypos"                             "140"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Big Bang Gamers | Freak Fortress 2"
+								textAlignment center
+								 "font"                      "NotoBold10"
+                               "command"   "engine connect 136.47.136.13:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                            }																																									
+						}
+                     }
+
+
+
+				 } // vsh bookmark end
+				 
+
+
+
+
+
+
+
+				"Casual"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Casual"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""200"
+		
+                                 "pin_to_sibling"            "AAA"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Trade Servers + Misc"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notoblue"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "200"
+                        "proportionaltoparent"      "1"		
+
+												 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+                            "tall"                           "200"
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "Liquid.TF"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine connect trade.liquid.tf"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+
+                           
+                            }	
+                            "discordd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discordd"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "¬"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://discord.com/invite/liquid-tf-1009357455312044102"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }		                         
+                            "discordd2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discordd2"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://liquid.tf/"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "ugc" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ugc"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine connect 193.221.192.210:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+
+                           
+                            }	
+                            "skialtrad" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialtrad"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "skial.com | TRADE | US █████"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine connect 91.216.250.30:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+
+                           
+                            }
+                            "frags" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "frags"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine connect 89.58.11.228:27015"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+
+                           
+                            }		
+                            "fragsdd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "fragsdd"
+                                "xpos"                             "rs1"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "Я"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/sickfrags"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "fragsddbbb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "fragsddbbb"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "Ю"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://bans.sickfrags.com/index.php?p=home"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }																																					
+				 	}
+				 }
+				 
+				 }
+
+				"TemplateWithJust1option"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "TemplateWithJust1option"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                                 "pin_to_sibling"            "Casual"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Item Test"
+                        "font"                      "NotoBold12"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        "sound_depressed"           "UI/buttonclick.wav"
+                        "sound_released"            "UI/buttonclickrelease.wav"
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"notoblue"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"		
+
+												 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+                            "tall"                           "480"
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"notodark"
+								"defaultbgcolor_override"			"notowhite"		
+                                "labeltext"                            "SuperTest V-Script"
+								textAlignment center
+								 "font"                      "NotoBold12"
+                               "command"   "engine map supertest"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+                            "gamebanana" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "gamebanana"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ϭ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://gamebanana.com/mods/571547"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }		                         
+                            "wkshop" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wkshop"
+                                "xpos"                             "rs1-20"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/sharedfiles/filedetails?id=3415171198"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "wkshop2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wkshop2"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ɧ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "engine map workshop/3415171198"                        
+							     "sound_depressed"                         "ui/buttonclick.wav"
+                                 "sound_depressed"                         "ui/buttonclick.wav"
+                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"notodark"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }								
+				 	}
+				 }
+				 
+				 }				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 }
+
+
+
+
+
+
+
+
+
+                    }
+                } //marks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

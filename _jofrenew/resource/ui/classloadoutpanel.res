@@ -947,8 +947,8 @@
 						ypos 2
 						scaleimage 1
 					}
+				
 				}
-
 
 
 
@@ -1065,7 +1065,17 @@
 						ypos 20
 						
 					}						
-
+					"paint_icon"
+					{
+					"ControlName"	"CItemMaterialCustomizationIconPanel"
+					"fieldName"		"paint_icon"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"2"						
+						zpos 1000
+						tall o1
+						"wide" "40"
+					}			
 											
 					"is_strange_icon"
 					{

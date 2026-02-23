@@ -4,6 +4,20 @@
 //	#base "_safemode1.res"
 "Resource/#jofre/safe-mode.res"
 {
+				"logotest"
+				{
+					"fieldName" "logotest"
+					"ControlName"	"ImagePanel"
+					"xpos"			"69-p0.001"//359
+					"ypos"			"0"//179
+					"zpos"			"41"
+					"wide"			"112"
+					"tall"			"112"
+					"zpos" "300"
+					"visible"		"1"
+					"scaleimage" "1"
+					"image" "replay/thumbnails/thatguy/intro"
+				}	
 				"CS0.5REFERENCEdeck0"
 				{
 					"fieldName" "5REFERENCEdeck0"

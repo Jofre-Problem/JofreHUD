@@ -34,7 +34,6 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"fgcolor"	"TanLight"	
 
 		"button_activation_type"	"1"
 	}	

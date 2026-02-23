@@ -32,10 +32,10 @@
 		"matchgroup"								"7" // k_eTFMatchGroup_Casual_12v12
 		
 		"pin_to_sibling"							"CompetitiveEntry"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
-
+ 
 	"CompetitiveEntry"
 	{
 		"ControlName"								"CPlayListEntry"
@@ -55,8 +55,8 @@
 		"desc_token"								"#MMenu_PlayList_Competitive_Desc"
 		"matchgroup"								"2" // k_eTFMatchGroup_Ladder_6v6
 		"pin_to_sibling"							"ServerBrowserEntry"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	"ServerBrowserEntry"
 	{
@@ -92,8 +92,8 @@
 		"matchgroup"								"1" // k_eTFMatchGroup_MvM_MannUp
 		
 		"pin_to_sibling"							"ServerBrowserEntry"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 	
 	"TrainingEntry"
@@ -113,8 +113,8 @@
 		"desc_token"								"#MMenu_PlayList_Training_Desc"
 		
 		"pin_to_sibling"							"MvMEntry"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	}
 
 

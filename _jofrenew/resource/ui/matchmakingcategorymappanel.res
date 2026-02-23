@@ -6,7 +6,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"p0.5"
-		"tall"										"18"
+		"tall"										"20"
 		"proportionaltoparent"						"1"
 
 		"skip_autoresize"							"1"
@@ -19,12 +19,12 @@
 		"xpos"										"0"
 		"ypos"										"cs-0.5"
 		"zpos"										"3"
-		"wide"										"18"
-		"tall"										"18"
+		"wide"										"f0" // why didnt i do this before
+		"tall"										"f0"
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Size 14"
+		"font"										"default"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"ui/buttonclick.wav"
@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									"%title_token%"
 		"textAlignment"								"west"
-		"font"										"Size 10"
+		"font"										"tffontsmall"
 		"textinsetx"								"0"
 		"use_proportional_insets"					"1"
 		
@@ -58,12 +58,13 @@
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f18"
-		"tall"										"16"
+		"tall"										"f0"
 		"proportionaltoparent"						"1"
 		"progress"									"0.5"
 
 		"fgcolor_override"							"White"
-		"bgcolor_override"							"64 64 64 255"
+		"bgcolor_override"							"0 0 0 255"
+		border "G_TargetBorder"
 	}
 
 	"BG"
@@ -73,12 +74,12 @@
 		"xpos"										"18"
 		"ypos"										"cs-0.5"
 		"wide"										"f18"
-		"tall"										"13"
+		"tall"										"f0"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		//
-		"bgcolor_override"							"0 0 0 100"
+			border "noborder"
+		"bgcolor_override"							"0 0 0 160"
 	}
 }
