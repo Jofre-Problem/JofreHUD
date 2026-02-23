@@ -170,7 +170,7 @@ if_mini		{			"visible"		"0"		}
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"cs-0.5+2"
-		"ypos"				"30"
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"310"
 		"tall"				"150"
@@ -186,7 +186,7 @@ if_mini		{			"visible"		"0"		}
 
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"cexlabel"
 			"fieldName"		"TimePanelValue"
 			"proportionaltoparent"		"1"
 			"font"			"killfeed"
@@ -201,17 +201,20 @@ if_mini		{			"visible"		"0"		}
 			"enabled"		"1"
 			"textAlignment"		"north"
 			"labelText"		"0:00"
+	
 			if_match
 			{
 				"proportionaltoparent"	"1"
 
-			"font"			"killfeed"
+	//		"font"			"killfeed"
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"
-			"ypos"			"1"
+			"ypos"			"30"
+		
 			}			
 		}
+
 	}
 
 	"TeamStatus"

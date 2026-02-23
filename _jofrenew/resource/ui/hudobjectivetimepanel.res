@@ -125,7 +125,17 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
 		"scaleImage"		"1"	
+			if_match
+			{
+				"proportionaltoparent"	"1"
 
+	//		"font"			"killfeed"
+			"fgcolor"		"White"
+			"bgcolor_override"	"blank"
+			"xpos"			"cs-0.5-0"
+			"ypos"			"30"
+		
+			}	
 	}
 	"TimeCircleThingOverlay"
 	{
@@ -147,10 +157,10 @@
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
 		"xpos"				"0"
-		"ypos"				"4"
+		"ypos"				"3"
 		"zpos"				"4"	
 		"wide"				"25"
-		"tall"				"26"
+		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
 		"scaleImage"			"1"
