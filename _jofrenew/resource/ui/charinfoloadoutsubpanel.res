@@ -150,7 +150,179 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"notobold12"//"g_fonttiny_2"
+					"labelText"		"Trade Records"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/valuable#records"
+				}		
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/double-spelled-golden-frying-pan"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "29 30 34 200"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/double-spelled-spellbound-crones-dome"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/arcana-virtual-viewfinder"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/double-spelled-poisoned-shadows-antlers"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spellbound-virtual-viewfinder"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/double-spelled-golden-frying-pan-2"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "29 30 34 200"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/hellfire-exquisite-rack"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/burning-flames-team-captain"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/dual-tone-orange-gem-hot-macaw-masked-sniper-rifle"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+				}		
+
+
+
+
+
+
+
+
+
 		"web_trade"
 		{
 			"ControlName"	"ImagePanel"

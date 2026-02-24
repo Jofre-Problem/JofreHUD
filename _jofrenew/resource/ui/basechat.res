@@ -20,7 +20,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 	//	"xpos"			"4+p0.001"
-	//	"ypos"			"rs1-85" //enough space for nohboard
+		"ypos"			"rs1-110" //enough space for nohboard
 	//	"wide"	 		"200"
 	"WIDE"	"p0.987"
 	//	"tall"	 		"120"

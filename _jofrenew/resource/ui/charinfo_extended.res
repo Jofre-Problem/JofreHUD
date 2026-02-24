@@ -3900,7 +3900,7 @@
 				"tall"			"19"
 				"labelText"		"Ƕ"
 				font "ItemFontAttribLarge"
-					"Command"		"url https://marketplace.tf/"
+					"Command"		"url https://marketplace.tf/browse/tf2?squality%5B%5D=5&sterm=crone"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 			
@@ -3948,22 +3948,77 @@
 				"ypos"			"0"
 				"zpos"				"201"
 				"wide"			"57"
-				"tall"			"56"
-				"labelText"		""
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
 					"Command"		"url https://next.backpack.tf/classifieds?class=sniper&particle=704&itemName=Sniper%20Rifle"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 			
 					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 100"
+					"armedbgColor_override"		"0 0 0 200"
 					"depressedbgcolor_override" "0 0 0 160"
-					border_armed "cs3"
 		pin_to_sibling 			"dreamitem1"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
 			
 				}	
+				"dreamitem2b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem2b"
+						"Pin_To_Sibling"				"dreamitem2"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/browse/tf2?sclass=Sniper&seffect%5B%5D=704"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem2c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem2c"
+						"Pin_To_Sibling"				"dreamitem2b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=energy%20orb&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}					
 				"dreamitem3"
 				{
 					"ControlName"	"CExButton"
@@ -3972,22 +4027,732 @@
 				"ypos"			"0"
 				"zpos"				"201"
 				"wide"			"57"
-				"tall"			"56"
-				"labelText"		""
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
 					"Command"		"url https://next.backpack.tf/classifieds?class=sniper&particle=704&itemName=SMG"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 			
 					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 100"
+					"armedbgColor_override"		"0 0 0 200"
 					"depressedbgcolor_override" "0 0 0 160"
-					border_armed "cs3"
 		pin_to_sibling 			"dreamitem2"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
 			
 				}												
+				"dreamitem3b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem3b"
+						"Pin_To_Sibling"				"dreamitem3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/browse/tf2?sclass=Sniper&seffect%5B%5D=704"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem3c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem3c"
+						"Pin_To_Sibling"				"dreamitem3b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=energy%20orb&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}	
+
+				"dreamitem4"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem4"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"28"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=701&elevatedQuality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem3"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}		
+				"dreamitem4aaa"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem4aaa"
+				"xpos"			"31"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"31"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=701&quality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem3"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}																
+				"dreamitem4b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem4b"
+						"Pin_To_Sibling"				"dreamitem4"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/browse/tf2?squality%5B%5D=5&sstrange=1&seffect%5B%5D=701&ssortfield=min_price&ssortdir=1"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem4c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem4c"
+						"Pin_To_Sibling"				"dreamitem4b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=energy%20orb&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}		
+				"dreamitem5"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem5"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"28"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=703&elevatedQuality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem4aaa"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}		
+				"dreamitem5aaa"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem5aaa"
+				"xpos"			"31"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"28"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=703&quality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem4aaa"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}																
+				"dreamitem5b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem5b"
+						"Pin_To_Sibling"				"dreamitem5"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/browse/tf2?squality%5B%5D=5&sstrange=1&seffect%5B%5D=703&ssortfield=min_price&ssortdir=1"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem5c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem5c"
+						"Pin_To_Sibling"				"dreamitem5b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=energy%20orb&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}	
+				"dreamitem6"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem6"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"28"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=703&elevatedQuality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem5aaa"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}		
+				"dreamitem6aaa"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem6aaa"
+				"xpos"			"31"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"28"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?particle=702&quality=11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"dreamitem5aaa"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}																
+				"dreamitem6b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem6b"
+						"Pin_To_Sibling"				"dreamitem6"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/browse/tf2?squality%5B%5D=5&sstrange=1&seffect%5B%5D=702&ssortfield=min_price&ssortdir=1"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"dreamitem6c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"dreamitem6c"
+						"Pin_To_Sibling"				"dreamitem6b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=energy%20orb&page=2&i=148702"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+
+
+
+
+				"2dreamitem1"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem1"
+				"xpos"			"0"
+				"ypos"			"4"
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19" //56 / 3 ) 14
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds/440_15868155339"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+						"Pin_To_Sibling"				"dreamitem1c"
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"				
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+				}	
+				"2dreamitem1b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem1b"
+						"Pin_To_Sibling"				"2dreamitem1"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/items/tf2/1071;11;kt-3"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"2dreamitem1c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem1c"
+						"Pin_To_Sibling"				"2dreamitem1b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/item/440-strange-professional-killstreak-golden-frying-pan"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}						
+				"2dreamitem2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem2"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?quality=11&itemName=Toowoomba%20Tunic&spell=standard-SPELL%3A%20Halloween%20voice%20modulation&spell=paint-3"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"2dreamitem1"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}	
+				"2dreamitem2b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem2b"
+						"Pin_To_Sibling"				"2dreamitem2"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/items/tf2/30373;11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"2dreamitem2c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem2c"
+						"Pin_To_Sibling"				"2dreamitem2b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/tf2?&search=toow&page=2&i=1898"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				"2dreamitem3"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem3"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?itemName=Villain%27s%20Veil&quality=11&spell=paint-3"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"2dreamitem2"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}	
+				"2dreamitem3b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem3b"
+						"Pin_To_Sibling"				"2dreamitem3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/items/tf2/393;11"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"2dreamitem3c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem3c"
+						"Pin_To_Sibling"				"2dreamitem3b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/item/440-strange-villains-veil"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}
+				"2dreamitem4"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem4"
+				"xpos"			"3"
+				"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ǿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://next.backpack.tf/classifieds?itemName=Triggerman%27s%20Tacticals&spell=footsteps-13595446&spell=footsteps-8421376&spell=footsteps-8208497&spell=footsteps-5322826&spell=footsteps-3100495&spell=footsteps-2&spell=footsteps-1"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"2dreamitem3"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"							
+			
+				}	
+				"2dreamitem4b"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem4b"
+						"Pin_To_Sibling"				"2dreamitem4"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƕ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://marketplace.tf/items/tf2/30424;6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}			
+				"2dreamitem4c"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"2dreamitem4c"
+						"Pin_To_Sibling"				"2dreamitem4b"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+				"zpos"				"201"
+				"wide"			"57"
+				"tall"			"19"
+				"labelText"		"Ƿ"
+				font "ItemFontAttribLarge"
+					"Command"		"url https://mannco.store/item/440-the-triggermans-tacticals"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+			
+					paintBackground 1
+					"defaultfgColor_override"	"blank"
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+					"defaultbgColor_override"	"blank"
+					"armedbgColor_override"		"0 0 0 200"
+					"depressedbgcolor_override" "0 0 0 160"
+				
+			
+				}				
 			}			
 				"xxxxx"
 				{

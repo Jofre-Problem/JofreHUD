@@ -8,29 +8,16 @@
 				{
 					"fieldName" "logotest"
 					"ControlName"	"ImagePanel"
-					"xpos"			"69-p0.001"//359
-					"ypos"			"0"//179
+					"xpos"			"cs-0.5"//359
+					"ypos"			"50"//179
 					"zpos"			"41"
 					"wide"			"112"
 					"tall"			"112"
 					"zpos" "300"
 					"visible"		"1"
 					"scaleimage" "1"
+					bgcolor_override "Black"
 					"image" "replay/thumbnails/thatguy/intro"
-				}	
-				"CS0.5REFERENCEdeck0"
-				{
-					"fieldName" "5REFERENCEdeck0"
-					"ControlName"	"ImagePanel"
-					"xpos"			"CS-0.5"//359
-					"ypos"			"70"//179
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/playstyle_decked"
 				}	
 	"SafeMode"
 	{
@@ -145,14 +132,14 @@
 		"image"			"replay\thumbnails\mm\LogoButtons"
 		"scaleImage"	"1"
 	}		
-	"LogoButtonsJOFRE"[$LINUX] 
+	"LogoButtonsJOFRE" //logo
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LogoButtonsJOFRE"
 		"xpos"			"-35"////"cS-0.5-227-75"
 		"ypos" 			"cS-0.5-35+17"
 		"zpos"			"299"
-		"wide"			"320"[$LINUX] 
+		"wide"			"320"
 		"tall"			"320"
 		"visible"		"1" [$WINDOWS] 
 		"visible"		"0" [$LINUX] 
