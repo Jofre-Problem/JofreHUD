@@ -2649,11 +2649,12 @@ if_mvm
 		"fieldName"									"PlayerNameLabel"
 		"xpos"			         					"cs-0.5"
 		"wide" "f0"
-		"ypos" "60"
-		"tall" "20"
+		"ypos" "15"
+		"tall" "15"
 		zpos "888"
 		"labelText" "%playername%"
 		textAlignment "center"
+		bgcolor_override "30 30 30 255"
 	}
 	"ServerLabelNew"
 	{

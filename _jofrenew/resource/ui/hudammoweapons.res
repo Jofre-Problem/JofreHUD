@@ -236,7 +236,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam2"
+		"teambg_2"		"replay/thumbnails/backpacktf/ss_2"
 //		"teambg_3"		"replay/thumbnails/hp/bluteam2"
 	}
 	"TeamColoredAmmoTextBG"
@@ -247,7 +247,7 @@
 		"ypos"			"0"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-//		"teambg_2"		"replay/thumbnails/hp/redteam"
+"teambg_2"		"replay/thumbnails/backpacktf/ss_2"
 	//	"teambg_3"		"replay/thumbnails/hp/bluteam"		
 		"wide"			"123"
 		"tall"			"34"

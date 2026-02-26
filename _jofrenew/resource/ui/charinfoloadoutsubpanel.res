@@ -2702,7 +2702,243 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/no-series-number-supply-crate"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/upgrade-to-premium"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/invalid-particle-taunt-burstchester"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/post-life-spelled-cosmetic"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/big-image-conscientious-objector"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/gif-decal-conscientious-objector"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/duplicated-item"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/off-quantity-unlimited-noise-maker"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/glitched-ssfss"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/long-custom-name"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/glitched-circuit-board"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+				"3dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/deflector"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_a"
+				}	
+				"3dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_c"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/non-factory-new-dragon-slayer-war-paint"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_b"
+				}	
+					
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Other & Borderline Glitches"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/glitched#other"
+				}				
 		"web_other"
 		{
 			"ControlName"	"ImagePanel"
@@ -2740,7 +2976,125 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Strange Glitches"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/glitched#strange"
+				}		
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/long-distance-kills-big-earner"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/tanks-destroyed-mantreads"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/non-tracking-strange-southern-hospitality"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/non-tracking-strange-quick-fix"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/buildings-and-tanks-destroyed-flying-guillotine"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/non-tracking-strange-human-cannonball"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+			
 		"web_strange_glitch"
 		{
 			"ControlName"	"ImagePanel"
@@ -2778,7 +3132,280 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/flying-bits-valve-eyelander"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/particle-1-valve-eyelander"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/invalid-particle-valve-eyelander"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/invalid-particle-valve-chargin-targe"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/valve-golden-frying-pan"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/flying-bits-valve-rocket-launcher"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/valve-scattergun"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/valve-equalizer"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/valve-flame-thrower"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/valve-stickybomb-launcher"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/valve-minigun"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+				"3dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/valve-shotgun"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_a"
+				}	
+				"3dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_c"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/valve-medi-gun"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_b"
+				}	
+				"3dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_d"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/valve-syringe-gun"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_c"
+				}					
+				"3dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_e"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/valve-sniper-rifle"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_d"
+				}		
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Valve Quality Items"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/other#valve-quality"
+				}		
 		"web_valve"
 		{
 			"ControlName"	"ImagePanel"
@@ -2816,7 +3443,280 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-maxs-severed-head"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-earbuds"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-ghastlierest-gibus"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-bills-hat"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-alien-swarm-parasite"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-lumbricus-lid"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-mildly-disturbing-halloween-mask"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-cheaters-lament"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-scrap-metal"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-reclaimed-metal"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-refined-metal"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+				"3dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-mercenary"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_a"
+				}	
+				"3dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_c"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-soldier-of-fortune"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_b"
+				}	
+				"3dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_d"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-grizzled-veteran"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_c"
+				}					
+				"3dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_e"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/vintage-primeval-warrior"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_d"
+				}		
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Vintage Glitches"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/glitched#vintage"
+				}			
 		"web_vintage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2854,7 +3754,171 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/crafted-stock-weapon"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-black-rose"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-iron-curtain"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-enthusiasts-timepiece"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-shooting-star"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/crafted-giger-counter"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-manniversary-paper-hat"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/crafted-festive-shotgun"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/no-craft-number-apoco-fists"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
 	
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Craft Glitches"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/glitched#craft"
+				}		
 		"web_craft"
 		{
 			"ControlName"	"ImagePanel"
@@ -2892,7 +3956,281 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"present_time"	"5.0"
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/world-travelers-hat"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/proof-of-purchase"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/beta-pocket-shotgun"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-vintage-merryweather"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/vintage-vintage-tyrolean"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/haunted-haunted-hat"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/underwater-kills-strange-flame-thrower"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/underwater-kills-strange-phlogistinator"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/halloween-fire-phlogistinator"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/eotl-supporter-item"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/pass-time-early-participation-pin"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+				"3dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/magnanimous-monarch"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_a"
+				}	
+				"3dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_c"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/saxxy-clapper-badge"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_b"
+				}	
+				"3dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_d"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/number-one-craft-team-captain"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_c"
+				}					
+				"3dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_e"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/first-unusual"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_d"
+				}		
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Other Cool Items"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/other#other"
+				}		
 		"web_other2"
 		{
 			"ControlName"	"ImagePanel"
@@ -2930,7 +4268,205 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/grandmaster"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/tf2vrh"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/genuine-taunt-boiling-point"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/genuine-nabler"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/robo-sandvich"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/spycrab"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/genuine-little-bear"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/genuine-friends-forever-companion-square-badge"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/conspiracy-cap"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/public-accessor"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/tux"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+		
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Promotional Items"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/other#promo"
+				}		
 		"web_promo"
 		{
 			"ControlName"	"ImagePanel"
@@ -2968,7 +4504,171 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/strange-bacon-grease"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/houwar"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/smissmas-caribou"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/randolph-the-blood-nosed-caribou"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/fireproof-secret-diary"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/whats-in-the-sandvich-box"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/ssfss"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/collectors-conscientious-objector-chemistry-set"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/hhhh-strangifier"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+			
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Valuable Unique Items"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/valuable#unique"
+				}		
 		"web_ounique"
 		{
 			"ControlName"	"ImagePanel"
@@ -3006,7 +4706,224 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+					"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/uncraftable-earbuds"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-houwar"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-lumbricus-lid"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-mask-of-the-shaman"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-conjurers-crow"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/uncraftable-dead-cone"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-brain-bucket"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-sun-on-a-stick"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-sharpened-volcano-fragment"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/uncraftable-maxs-severed-head"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/uncraftable-big-kill"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}		
+				"3dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
+					xpos 2+p0.002
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/uncraftable-lugermorph"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+					"pin_to_sibling" "3dafila_a"
+				}	
+
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Uncraftable (Dirty) Glitches "
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/glitched#uncraftable"
+				}		
 		"web_uncraft"
 		{
 			"ControlName"	"ImagePanel"
@@ -3044,7 +4961,98 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/community-sparkle-ghastlierest-gibus"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/sparkling-lights-golden-frying-pan"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/community-sparkle-golden-frying-pan"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/sunbeams-golden-frying-pan"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/community-spine-chilling-skull"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}					
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"g_fonttiny_2"
+					"labelText"		"Charity "
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/community#charity"
+				}			
 		"web_charity"
 		{
 			"ControlName"	"ImagePanel"
