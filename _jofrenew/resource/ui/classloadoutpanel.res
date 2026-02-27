@@ -772,6 +772,7 @@
 		"fieldName"		"class_loadout_panel"
 		"xpos"			"0"
 		"ypos"			"0"
+		zpos 2
 		"wide"			"p0.93"
 		"visible"		"1"
 		"enabled"		"1"

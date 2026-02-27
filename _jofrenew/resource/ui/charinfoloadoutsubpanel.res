@@ -154,7 +154,7 @@
 				{
 					"ControlName"	"urllabel"
 					"fieldName"		"xxxxx"
-					"font"			"notobold12"//"g_fonttiny_2"
+					"font"			"g_fonttiny_2"
 					"labelText"		"Trade Records"
 					"textAlignment"	"west"
 					"xpos"			"10"
@@ -5195,7 +5195,7 @@
 			"ControlName"	"urllabel"
 			"fieldName"		"wordurl"
 			"pin_to_sibling" "word"
-			zpos 115
+			zpos 1
 			"wide"			"40"
 			"tall"			"o1"
 			"font" "blank"
@@ -6227,16 +6227,157 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"15"		
-			"wide"			"f0" //260 wide
-			"tall"			"f0"
+			"wide"			"113" //260 wide
+			"tall"			"p0.5"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintbackground"	"1"
 			"bgcolor_override"	"22 125 156 255"
 		}					
-	
+	"c1111"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"c1111"
+		"font"			"itemfontnamesmall"
+		"labelText"		"Ƿ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+	//	"Pin_To_Sibling"			"vicon3"		
+	//	"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+	//	"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"c1111labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"c1111labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Market"
+		textinsetx 6
+			"Command"		"url https://mannco.store/tf2"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
 
+		"Pin_To_Sibling"			"c1111"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
 
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}		
+	"manco2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"manco2"
+		"font"			"itemfontnamesmall"
+		"labelText"		"Ƿ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"c1111"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"manco2labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"manco2labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Auctions"
+		textinsetx 6
+			"Command"		"url https://mannco.store/auctions"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"manco2"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
+	"manco3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"manco3"
+		"font"			"itemfontnamesmall"
+		"labelText"		"Ƿ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"manco2"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"manco3labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"manco3labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Deposit"
+		textinsetx 6
+			"Command"		"url https://mannco.store/deposit"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"manco3"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}	
 				"Background"		{"wide"	"0"	}
 
 				"ItemIcon"	{"wide"	"0"	}
@@ -6916,7 +7057,7 @@
 		fieldName				"class_loadout_panel"
 		xpos					0
 		ypos					0
-		zpos					5
+		zpos					15
 		wide					f0
 		tall					480		//  411 parent's height
 		//proportionaltoparent	1	// requires reload on launch

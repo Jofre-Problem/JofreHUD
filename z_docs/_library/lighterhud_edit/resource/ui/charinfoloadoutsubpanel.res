@@ -894,6 +894,7 @@
 		"fieldName"									"class_loadout_panel"
 		"xpos"										"0"
 		"ypos"										"0"
+		zpos 2
 		"wide"										"f0"
 		"tall"										"f0"
 		"zpos"										"500"
@@ -904,6 +905,7 @@
 		"ControlName"								"CBackpackPanel"
 		"fieldName"									"backpack_panel"
 		"xpos"										"0"
+		zpos 2
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
