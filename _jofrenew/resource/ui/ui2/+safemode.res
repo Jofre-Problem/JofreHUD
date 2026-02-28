@@ -1,720 +1,514 @@
-//	#base "_motd_spray.res"
-//	#base "_motd_sourcemod.res"
-//	#base "_safemode.res"
-//	#base "_safemode1.res"
-"Resource/#jofre/safe-mode.res"
+"Resource/UI/Customizations/#Customization_Menu/HUD_Customization_Frame.res"
 {
-				"logotest"
-				{
-					"fieldName" "logotest"
-					"ControlName"	"ImagePanel"
-					"xpos"			"cs-0.5"//359
-					"ypos"			"50"//179
-					"zpos"			"41"
-					"wide"			"112"
-					"tall"			"112"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					bgcolor_override "Black"
-					"image" "replay/thumbnails/thatguy/intro"
-				}	
 	"SafeMode"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"SafeMode"
-		"xpos"			"cs-0.5"
-		"ypos"			"25"
-		"zpos"			"2001"
-		"wide"			"250"
-		"tall"			"433"
-		"visible"		"1"
-		//"enabled"		"1"
-		"bgcolor_override"	"255 255 255 0"
-
-				"logotest"
-				{
-					"fieldName" "logotest"
-					"ControlName"	"ImagePanel"
-					"xpos"			"69-p0.001"//359
-					"ypos"			"25"//179
-					"zpos"			"41"
-					"wide"			"112"
-					"tall"			"112"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/thatguy/intro"
-				}
-	"DeckPanel" [$LINUX] 
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"DeckPanel"
-		"xpos"			"-35"////"cS-0.5-227-75"
-		"ypos" 			"80"
-		"zpos"			"500"
-		"wide"			"400"
-		"tall"			"130"
-		"visible"		"1"
-		//"enabled"		"1"
-		"bgcolor_override"	"255 55 25 0"
-		mouseinputenabled 0
-				"deck0"
-				{
-					"fieldName" "deck0"
-					"ControlName"	"ImagePanel"
-					"xpos"			"100"//359
-					"ypos"			"-3"//179
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/playstyle_decked"
-				}				"deck1"
-				{
-					"fieldName" "deck1"
-					"ControlName"	"ImagePanel"
-					"xpos"			"75"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"[$LINUX] 
-					"image" "replay/thumbnails/playstyle_decked"
-					"mouseinputenabled" 0
-				}
-				"deckdocked"
-				{
-					"fieldName" "deck1"
-					"ControlName"	"ImagePanel"
-					"xpos"			"-90"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"
-					pin_to_sibling deck1
-					"image" "replay/thumbnails/playstyle_docked"
-					"mouseinputenabled" 0
-				}				
-				"bg"
-				{
-					"fieldName" "bg"
-					"ControlName"	"ImagePanel"
-					"xpos"			"0"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"bgcolor_override" "SaleGreen"
-				}
-	}			
-	"LogoButtons"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LogoButtons"
-		"xpos"			"-35"////"cS-0.5-227-75"
-		"ypos" 			"cS-0.5-35+17"
-		"zpos"			"299"
-		"wide"			"320"
-		"tall"			"320"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\mm\LogoButtons"
-		"scaleImage"	"1"
-	}		
-	"LogoButtonsJOFRE" //logo
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LogoButtonsJOFRE"
-		"xpos"			"-35"////"cS-0.5-227-75"
-		"ypos" 			"cS-0.5-35+17"
-		"zpos"			"299"
-		"wide"			"320"
-		"tall"			"320"
-		"visible"		"1" [$WINDOWS] 
-		"visible"		"0" [$LINUX] 
-		"enabled"		"1"
-		"image"			"replay\thumbnails\mm\LogoButtons_jofre" 
-		"scaleImage"	"1"
-	}	
-		
-	"Browse"			// other classes pinned to this
-	{
-		ControlName				CExButton
-		fieldName				"Browse"
-	
-		"xpos"							"48"
-		"ypos"							"cs-0.5-41"
-		"wide"							"92"
-		"tall"							"20"
-		zpos	"300"
-		labelText				""
-		font					"NotoBold22"
-		textAlignment			west
-		"actionsignallevel"		"2"
-		Command				"OpenServerBrowser"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}		
-		"Plus"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Plus"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"20"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"OpenAchievementsDialog"
-				pin_to_sibling 			"Browse"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-		"Create"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Create"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"82"
-		"tall"							"20"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"OpenCreateMultiplayerGameDialog"
-				pin_to_sibling 			"Browse"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-		"Quest"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Quest"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"70"
-		"tall"							"20"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"questlog"
-				pin_to_sibling 			"Create"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-
-	"Options"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Options"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"100"
-		"tall"							"18"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"OpenOptionsDialog"
-				pin_to_sibling 			"Create"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-	"adv"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"adv"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"52"
-		"tall"							"18"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"opentf2options"
-				pin_to_sibling 			"Options"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}				
-	"Shop"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Shop"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"54"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command						"engine open_store"
-				pin_to_sibling 			"Options"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-	"Loadout"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Loadout"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"100"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"engine open_charinfo; hideconsole"
-				pin_to_sibling 			"Shop"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-	"Training"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Training"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"95"
-		"tall"							"18"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command						"offlinepractice"
-				pin_to_sibling 			"Shop"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}					
-	"Bugs"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Bugs"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"60"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"url https://github.com/Jofre-Problem/JofreHUD/issues"
-				pin_to_sibling 			"Training"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}				
-	"Console"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Console"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"90"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command						"engine showconsole"
-				pin_to_sibling 			"Training"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}			
-	"Demo"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Demo"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"65"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command				"engine demoui"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}		
-	"Customization"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"Customization"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"155"
-		"tall"							"16"
-		labelText				""
-		"actionsignallevel"		"2"
-		Command						"engine jp_custom_on; jp_reloadmenus"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}
-							
-		"Background"		//Only not removed cuz save settings button
+		"ControlName"									"EditablePanel"
+		"FieldName"										"SafeMode"
+		"XPos"											"cs-0.5"
+		"YPos"											"cs-0.5+15"
+		"Wide"											"600"
+		"Tall"											"302"
+		"ZPos"											"10000"
+		"Visible"										"0"
+		"Enabled"										"1"
+		"ProportionalToParent"							"1"
+		"PaintBackground"								"1"
+		"PaintBackgroundType"							"0"
+		"BGcolor_Override"								"Background_Dark"
+//==============================================================================================================================
+// TITLE BAR
+//==============================================================================================================================
+		"Title"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"5"
-			"ypos"			"25"
-			
-			"wide"			"p0.22"
-			"tall"			"50"
-			"visible"		"1"
-			//
-			"proportionaltoparent"	"1"
+			"ControlName"								"CExLabel"
+			"FieldName"									"Title"
+			"XPos"										"cs-0.5"
+			"YPos"										"0"
+			"ZPos"										"-1"
+			"Wide"										"f0"
+			"Tall"										"22"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"Use_Proportional_Insets"					"1"
+			"AllCaps"									"1"
+			"LabelText"									"HUD Customization"
+			"Font"										"HudFontSmallBold"
+			"TextAlignment"								"west"
+			"TextInsetX"								"5"
+			"FGColor"									"White"
+			"PaintBackground"							"1"
+			"paintBackgroundtype"						"0"
+			"RoundedCorners"							"0"
+			"BGColor_Override"							"Background_Bright"
+		}
+		"CloseButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"CloseButton"
+			"XPos"										"rs1-2"
+			"YPos"										"2"
+			"ZPos"										"20"
+			"Wide"										"18"
+			"Tall"										"18"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"LabelText"									"X"
+			"Font"										"Symbols16"
+			"TextAlignment"								"center"
+			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
+			"ActionSignalLevel"							"2"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+			"PaintBackground"							"1"
 
-			"paintborder"	"1"
-			"border"		"noborder"
+			"DefaultFGColor_Override"					"White"
+			"ArmedFGColor_Override"						"White"
+			"DepressedFGColor_Override"					"White"
 
-			"TitleLabel"
+			"DefaultBGColor_Override"					"Button_Red"
+			"ArmedBGColor_Override"						"Button_Red_Hover"
+			"DepressedBGColor_Override"					"Button_Red_Hover"
+		}
+		"GitHubWiki"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"GitHubWiki"
+			"XPos"										"2"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"54"
+			"Tall"										"18"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"LabelText"									"HUD WIKI"
+			"Font"										"FontStorePrice"
+			"TextAlignment"								"center"
+			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
+			"PaintBackground"							"1"
+
+			"DefaultBGColor_Override"					"Button_Dark"
+			"ArmedBGColor_Override"						"Button_Hover"
+			"DepressedBGColor_Override"					"Button_Hover"
+
+			"Pin_To_Sibling"							"CloseButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+		}
+		"ResetAllButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"ResetAllButton"
+			"XPos"										"2"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"100"
+			"Tall"										"18"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"AllCaps"									"1"
+			"LabelText"									"Reset HUD To Default"
+			"Font"										"FontStorePrice"
+			"TextAlignment"								"center"
+			"Command"									"engine m0_customization_reset"
+			"ActionSignalLevel"							"2"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+
+			"PaintBackground"							"1"
+			"DefaultBGColor_Override"					"200 170 65 255"
+			"ArmedBGColor_Override"						"150 120 50 255"
+			"DepressedBGColor_Override"					"150 120 50 255"
+
+			"Pin_To_Sibling"							"GitHubWiki"
+			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+		}
+		"ReloadGameButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"ReloadGameButton"
+			"XPos"										"2"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"70"
+			"Tall"										"18"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"AllCaps"									"1"
+			"LabelText"									"Restart TF2"
+			"Font"										"FontStorePrice"
+			"TextAlignment"								"center"
+			"Command"									"engine gameui_allowescape; mat_queue_mode -1; gamemenucommand RestartWithNewLanguage"
+			"ActionSignalLevel"							"2"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+
+			"PaintBackground"							"1"
+			"DefaultBGColor_Override"					"Button_Red"
+			"ArmedBGColor_Override"						"Button_Red_Hover"
+			"DepressedBGColor_Override"					"Button_Red_Hover"
+
+			"Pin_To_Sibling"							"ResetAllButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+		}
+		"TroubleshootingButton"
+		{
+			"ControlName"								"CExButton"
+			"FieldName"									"TroubleshootingButton"
+			"XPos"										"2"
+			"YPos"										"0"
+			"ZPos"										"20"
+			"Wide"										"76"
+			"Tall"										"18"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"AllCaps"									"1"
+			"LabelText"									"Troubleshooting"
+			"Font"										"FontStorePrice"
+			"TextAlignment"								"center"
+			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/TROUBLESHOOTING"
+			"ActionSignalLevel"							"2"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+
+			"PaintBackground"							"1"
+			"DefaultBGColor_Override"					"Background_Main"
+			"ArmedBGColor_Override"						"Button_Hover"
+			"DepressedBGColor_Override"					"Button_Hover"
+
+			"Pin_To_Sibling"							"ReloadGameButton"
+			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
+			"Pin_To_Sibling_Corner"						"PIN_TOPLEFT"
+		}
+//==============================================================================================================================
+// MAIN SCROLLER LIST
+//==============================================================================================================================
+		"Categories_Navigation"
+		{
+			"ControlName"								"EditablePanel"
+			"FieldName"									"Categories_Navigation"
+			"XPos"										"0"
+			"YPos"										"cs-0.5"
+			"Wide"										"150"
+			"Tall"										"f44"
+			"ZPos"										"50"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"PaintBackground"							"1"
+			"PaintBackgroundType"						"0"
+			"BGcolor_Override"							"Background_Darkest"
+
+			"Title"
 			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"xpos"			"r0"
+				"ControlName"							"CExLabel"
+				"FieldName"								"Title"
+				"XPos"									"cs-0.5"
+				"YPos"									"0"
+				"ZPos"									"0"
+				"Wide"									"f0"
+				"Tall"									"20"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Select a Category:"
+				"Font"									"HudFontSmallBold"
+				"TextAlignment"							"center"
+				"FGColor"								"White"
+				"PaintBackground"						"1"
+				"paintBackgroundtype"					"0"
+				"RoundedCorners"						"0"
+				"BGColor_Override"						"Black"
 			}
-	
-			"SaveSettingsButton"
+			"Home_Button"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"SaveSettingsButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"11"
-				"wide"										"p0.5"
-				"tall"										"25"
-				//////"autoResize"		"0"
-				//"pinCorner"		"3"
-				"visible"		"0"
-				//"enabled"		"1"
-				////	"0"
-				"use_proportional_insets" "1"
-				"font"			"ControlPointTimer"
-				"textAlignment"	"center"
-				////	"0"
-				
-				"default"		"1"
-
-				"labeltext"		"#MMenu_SafeMode_SaveSettings"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_save_settings"
-				"actionsignallevel"	"3"
-				"sound_depressed"							"ui/buttonclick.wav"
-				"sound_released"							"ui/buttonclickrelease.wav"
-				
-				"paintbackground"							"0"
-				
-				"defaultFgColor_override"					"Black"
-				"armedFgColor_override" 					"White"
-				"depressedFgColor_override" 				"Black"
-				
-				"border_default"							"MainMenuButtonGlow"
-				"border_armed"								"MainMenuButtonGlow2"
+				"ControlName"							"CExButton"
+				"FieldName"								"Home_Button"
+				"XPos"									"cs-0.5"
+				"YPos"									"22"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Home"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_home; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
 			}
-			
-			"LeaveSafeModeButton"
+			"Quick_Settings_Button"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"LeaveSafeModeButton"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"11"
-				"wide"										"p0.5"
-				"tall"										"25"
-				//////"autoResize"		"0"
-				//"pinCorner"		"3"
-				"visible"		"0"
-				//"enabled"		"1"
-				////	"0"
-				"use_proportional_insets" "1"
-				"font"			"ControlPointTimer"
-				"textAlignment"	"center"
-				////	"0"
-				
-				"default"		"1"
+				"ControlName"							"CExButton"
+				"FieldName"								"Quick_Settings_Button"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Quick Settings"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_settings; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"labeltext"		"#MMenu_SafeMode_LeaveSafeMode"
-				"proportionaltoparent"	"1"
-				"command"		"safemode_leave"
-				"actionsignallevel"	"3"
-				"sound_depressed"							"ui/buttonclick.wav"
-				"sound_released"							"ui/buttonclickrelease.wav"
-				
-				"paintbackground"							"0"
-				
-				"defaultFgColor_override"					"Black"
-				"armedFgColor_override" 					"White"
-				"depressedFgColor_override" 				"Black"
-				
-				"border_default"							"MainMenuButtonGlow"
-				"border_armed"								"MainMenuButtonGlow2"
-				
-				"pin_to_sibling"		"SaveSettingsButton"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"				
+				"Pin_To_Sibling"						"Home_Button"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
-
-			"Explanation"
+			"Fonts_Button"
 			{
-				"ControlName"			"Label"
-				"fieldName"				"Explanation"
-				"xpos"			"r0"
+				"ControlName"							"CExButton"
+				"FieldName"								"Fonts_Button"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Fonts"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_fonts; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Quick_Settings_Button"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Colors_Button"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Colors_Button"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Colors"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_colors; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Fonts_Button"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Health_Ammo_Uber_Button"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Health_Ammo_Uber_Button"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Health - Ammo - Uber"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_health_ammo; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Colors_Button"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Damage"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Damage"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Damage"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_damage; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Health_Ammo_Uber_Button"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Match_Status"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Match_Status"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Match Status"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_match_status; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Damage"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Counters"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Counters"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Killstreak - Meters"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_meters; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Match_Status"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Crosshairs"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Crosshairs"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Crosshairs - Hitmarkers"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_crosshairs; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Counters"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+			}
+			"Miscellaneous"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Miscellaneous"
+				"XPos"									"0"
+				"YPos"									"2"
+				"ZPos"									"20"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"Miscellaneous"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_miscellaneous; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+				"Pin_To_Sibling"						"Crosshairs"
+				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
+				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 		}
-				
-	"ADContainerTest"
-	{ 
-		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"							"48"
-		"ypos"							"r32-98+16"
-		"wide"							"155"
-		"tall"							"200"
-		"visible"		"1"
-		"zpos" "9999"
-
-		"items"
+//==============================================================================================================================
+// MAIN CUSTOMIZATION PANEL
+//==============================================================================================================================
+		"Customizations_Panel"
 		{
-			"0"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	
-				"quickplay"			// other classes pinned to this
-				{
-					zpos	"300"
-					ControlName				CExButton
-					fieldName				"quickplay"
-					"xpos"							"0"
-					"ypos"							"0"
-					"wide"							"155"
-					"tall"							"16"
-					labelText				"Windows Detected" [$WINDOWS]
-					labeltext "Linux Detected"	[$LINUX]
-					labeltext "Steam Deck ON" [$DECK]
-					"textAlignment"	"center"
-					font		"NotoBold16"
-					"actionsignallevel"		"2"
-					Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
-					//"engine open_replaybrowser"
-							pin_to_sibling 			"Console"
-					"pin_corner_to_sibling" "0"
-					"pin_to_sibling_corner" "2"
-								"border_default"	"MM_BUTTON_BLANK"
-								"border_armed"		"MM_BUTTON_ADDITIVE"
-					paintbackground 			0
-						"sound_depressed"	"ui/buttonclick.wav"
-						"sound_released"	"ui/buttonclickrelease.wav"
-				}			
-			}
-			"1"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-
-			
-	
-	"quickplay"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"quickplay"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"155"
-		"tall"							"16"
-		labelText				"+hudmenu panel!"
-		"textAlignment"	"center"
-		font		"NotoBold16"
-		"actionsignallevel"		"2"
-		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
-		//"engine open_replaybrowser"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}	
-
-				"Background"		{"wide"	"0"	}
-
-				"ItemIcon"	{"wide"	"0"	}
-
-				"ItemName"	{"wide"	"0" "xpos" "9999"	} // its hardcoded wide
-
-				"BuyButton"	{"wide"	"0"	}
-
-				"ScrollableItemText"	{"wide"	"0"	}
-			}
-			
-			"2"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-				
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"quickplay"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"quickplay"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"155"
-		"tall"							"16"
-		labelText				"Download BG"
-		"textAlignment"	"center"
-		font		"NotoBold16"
-		"actionsignallevel"		"2"
-		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
-		//"engine open_replaybrowser"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
-	}	
-		
-			}
-	}	
-	}		
-		"InfoImage"
+			"ControlName"								"EditablePanel"
+			"FieldName"									"Customizations_Panel"
+			"XPos"										"rs1-2"
+			"YPos"										"cs-0.5"
+			"ZPos"										"-1"
+			"Wide"										"f154"
+			"Tall"										"f48"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"PaintBackground"							"0"
+			"BGColor_Override"							"Gray"
+		}
+//==============================================================================================================================
+// OK/APPLY BUTTON
+//==============================================================================================================================
+		"ApplyButton"
 		{
-			"xpos"					"r0"
-			"zpos"					"0"
-			"wide"					"0"
-			"tall"					"0"
-			"visible"				"0"
-			"enabled"				"0"
-		}	
-	}	
-			
-}	
+			"ControlName"								"CExButton"
+			"FieldName"									"ApplyButton"
+			"XPos"										"cs-0.5"
+			"YPos"										"rs1"
+			"ZPos"										"20"
+			"Wide"										"f0"
+			"Tall"										"22"
+			"Visible"									"1"
+			"Enabled"									"1"
+			"ProportionalToParent"						"1"
+			"AllCaps"									"1"
+			"LabelText"									"Reload to Apply Changes"
+			"Font"										"HudFontSmallBold"
+			"TextAlignment"								"center"
+			"Command"									"engine cl_mainmenu_safemode 0; gameui_allowescape; mat_queue_mode -1; hud_reloadscheme"
+			"ActionSignalLevel"							"2"
+			"Sound_Depressed"							"UI/buttonclick.wav"
+
+			"PaintBackground"							"1"
+			"PaintBorder"								"0"
+			"RoundedCorners"							"0"
+
+			"DefaultBGColor_Override"					"Button_Green"
+			"ArmedBGColor_Override"						"Button_Green_Hover"
+			"DepressedBGColor_Override"					"Button_Green_Hover"
+		}
+	}
+}

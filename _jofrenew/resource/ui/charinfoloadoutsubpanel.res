@@ -6228,7 +6228,7 @@
 			"ypos"			"0"
 			"zpos"			"15"		
 			"wide"			"113" //260 wide
-			"tall"			"p0.5"
+			"tall"			"p0.3"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintbackground"	"1"
@@ -6377,7 +6377,165 @@
 			"defaultFgColor_override"	"notowhite"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
+		}
+			"logo2"
+			{
+			"ControlName""ImagePanel"
+			"fieldName""logo2"
+			
+			xpos 38
+			ypos 160
+			"wide""40"
+			"tall""o1"
+			
+			zpos 100
+			mouseinputenabled 0
+			"scaleImage""1"
+			"image""replay/thumbnails/backpacktf/quicksell"
+			"fgcolor""TanDark"
+			}			
+	"manco4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"manco4"
+		"font"			"itemfontnamesmall"
+		"labelText"		"ͻ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"220"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"manco4labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"manco4labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Trade"
+		textinsetx 6
+			"Command"		"url https://quicksell.store/trade"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"manco4"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}
+	"manco5"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"manco5"
+		"font"			"itemfontnamesmall"
+		"labelText"		"ͻ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"manco4"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"manco5labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"manco5labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Buy / Sell Keys"
+		textinsetx 6
+			"Command"		"url https://quicksell.store/keys"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"manco5"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
 		}	
+	"manco6"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"manco6"
+		"font"			"itemfontnamesmall"
+		"labelText"		"ͻ"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"				"20"
+		"wide"			"25"
+		"tall"			"20"
+		"Pin_To_Sibling"			"manco5"		
+		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+		"fgcolor"		"notowhite"
+		bgcolor_override "0 0 0 100"
+	}	
+		"manco6labelb"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"manco6labelb"
+		"textAlignment"	"west"
+		"xpos"			"0"
+		
+		"ypos"			"0"
+		"zpos"				"201"
+		"wide"			"85"
+		"tall"			"20"
+		"font"			"noto10"
+		"labelText"		"Giveaway"
+		textinsetx 6
+			"Command"		"url https://quicksell.store/giveaway"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+
+		"Pin_To_Sibling"			"manco6"
+		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
+		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"		
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			paintBackground 1
+			defaultbgcolor_override "0 0 0 100"
+			"defaultFgColor_override"	"notowhite"
+			"armedFgColor_override"		"243 244 246 255"
+			"depressedFgColor_override" "TanLight"
+		}				
 				"Background"		{"wide"	"0"	}
 
 				"ItemIcon"	{"wide"	"0"	}

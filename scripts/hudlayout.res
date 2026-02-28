@@ -1,4 +1,5 @@
- 
+	#base	"../../../cfg/jofrehud/hud_friendslist.txt"
+	#base	"../../../cfg/jofrehud/jofrehud_customization_menu.txt"	
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // #users/custom
     ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -33,9 +34,11 @@
 	#base	"../_opt/scripts/hudlayout.res"
 	#base 	"../_hud/_fixes/scripts/hudlayout.res"	
 	#base	"../z_tf2/scripts/hudlayout.res"
-
+	#base 	"layout_customization.res"
 	"Resource/HudLayout.res"
     {
+
+
     // target id being so funky
     // doesnt cover up medic with quickfix
 	CMainTargetID

@@ -10,6 +10,8 @@
 
 		"SafeMode"
 		{
+			"XPos"											"cs-0.5"
+			"YPos"											"cs-0.5+15"
 			"Customizations_Panel"
 			{
 				"HUD_Customization_Home_Panel"		{Visible 0}
@@ -24,11 +26,5 @@
 				"HUD_Miscellaneous_Selection"		{Visible 0}
 			}
 		}
-
-
-		"CustomizationMenu"
-		{
-			Visible 0
-		}		
 	}
 }

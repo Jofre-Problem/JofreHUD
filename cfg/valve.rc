@@ -4,7 +4,8 @@
     // Run user script files
     exec joystick.cfg
     exec autoexec.cfg
-
+    
+    exec hud/hud_always.cfg
     // Parse and stuff command line + commands to command buffer
     stuffcmds
 

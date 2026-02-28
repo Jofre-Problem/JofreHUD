@@ -75,7 +75,32 @@ Scheme
 		"TransparentLightBlack"								"0 0 0 100"
 		"TransparentGrayDarkest"							"27 28 30 200"
 		"TransparentWhite"									"227 228 230 150"
-
+		//----------------------------------------------------------------------------------
+		// MENUS
+		//----------------------------------------------------------------------------------
+		"Menu_Accent"										"255 0 127 255"
+		"Class_Selection"									"0 215 0 255"
+		
+		//BACKGROUNDS
+		"Background_Main"									"46 43 42 255"
+		"Background_Dark"									"28 26 25 255"
+		"Background_Darkest"								"18 15 14 255"
+		"Background_Bright"									"66 63 61 255"
+		
+		//BUTTONS
+		"Button_Bright"										"66 63 61 255"
+		"Button_Dark"										"28 26 25 255"
+		"Button_Hover"										"104 101 100 255"
+		"Button_Red"										"190 60 60 255"
+		"Button_Red_Hover"									"120 25 25 255"
+		"Button_Green"										"75 105 35 255"
+		"Button_Green_Hover"								"55 75 25 255"
+		"Black"												"0 0 0 255"
+		"TransparentBlack"									"0 0 0 200"
+		"TransparentMediumBlack"							"0 0 0 150"
+		"TransparentLightBlack"								"0 0 0 100"
+		"TransparentLightestBlack"							"0 0 0 50"
+		"FooterBGBlack"										"35 32 33 255"
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================

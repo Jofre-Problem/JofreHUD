@@ -12,7 +12,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 	//	"wide"										"0"
-		"tall"										"f0"
+		"tall"										"10" //f0
 	//	"visible"									"0"
 		//
 

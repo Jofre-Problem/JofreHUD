@@ -12,19 +12,22 @@
 {
  //   "pin_to_sibling"    "ChatPin"
 }
-	"1_btn"		// open achievements window
+
+	"1_btn"		// only useful cuz pining rn
 	{
 		"zpos"			"3000"
 		wide					30
 		tall					15
-			"labelText"		"r"
-			"font"			"NewIcons12"
-			"textAlignment"	"center"
-		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
 		defaultFgColor_override		"black"
 		armedFgColor_override		"notowhite"
 		"depressedFgColor_override" "W_CerrarArmed"
-		"selectedFgColor_override"	"W_CerrarArmed"
+		"selectedFgColor_override"	"W_CerrarArmed"		
+			"labelText"		"" // "r"
+			"font"			"NewIcons12"
+			"textAlignment"	"center"
+	//	command	"engine hud_hide_friends_on; wait 5; hud_reloadscheme; cl_mainmenu_safemode 1; wait 5; cl_mainmenu_safemode 0"
+		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
+
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
@@ -819,7 +822,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"f0"
-		"tall"										"f0"
+		"tall"										"10" //f0
 		"visible"									"0"
 		//
 
