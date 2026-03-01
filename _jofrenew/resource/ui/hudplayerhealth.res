@@ -255,6 +255,17 @@
 		"font" 	"blank"	[$LINUX]			
 		"fgcolor"		"0 0 0 185"
 	}	
+	"linuxcover"	[$LINUX]
+	{
+		"ControlName"	"editablepanel"
+		"fieldName"		"linuxcover"
+		"xpos"			"36"
+		"ypos"			"32"
+		"zpos"			"9"
+		"wide"			"80"
+		"tall"			"2"	
+		"bgcolor_override"		"35 35 35 255"
+	}		
 	//healthshadow was here u kno
 	
 //	"PlayerStatusHealthValueLowester2"
