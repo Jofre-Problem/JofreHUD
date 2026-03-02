@@ -17,6 +17,7 @@
 	}
     "speedograph"
     {
+			
 		ypos 25
 		visible         1 
 		tall 180

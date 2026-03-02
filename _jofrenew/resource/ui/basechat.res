@@ -19,8 +19,8 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-	//	"xpos"			"4+p0.001"
-		"ypos"			"rs1-110" //enough space for nohboard
+		"xpos"			"4"
+		"ypos"			"250"
 	//	"wide"	 		"200"
 	"WIDE"	"p0.987"
 	//	"tall"	 		"120"
@@ -42,7 +42,7 @@
 		"enabled" 		"1"
 		"xpos"			"0"
 		"ypos"			"395"
-		"wide"	 		"600" //350
+		"wide"	 		"210" //350
 		"tall"	 		"2"
 	}
 

@@ -13,16 +13,16 @@
 		"enabled"		"1"
 
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"210"
+		"team1_player_base_y"				"360"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-19"
+		"team1_player_delta_y"				"-13" // spacing
 		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"250"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"19"
 		
 		"avatar_width"	"20"
-		"spacer"		"2"
+		"spacer"		"0"
 		"name_width"	"57"
 		"horiz_inset"	"2"
 		
@@ -41,8 +41,8 @@
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"167"
-			"tall"			"18"
+			"wide"			"145"
+			"tall"			"12"
 			"zpos"			"1"
 
 			"color_ready"	"Green"
@@ -52,7 +52,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"20"
+				"xpos"				"12"
 				"ypos"				"0"
 				"zpos"				"3"
 				"wide"				"148"
@@ -74,10 +74,10 @@
 
 			"playername"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"cexlabel"
 				"fieldName"		"playername"
-				"font"			"MedHealtarget"
-				"xpos"			"46"
+				"font"			"ItemFontAttribSmall"//"MedHealtarget"
+				"xpos"			"42"
 				"ypos"			"0"
 				"zpos"			"10"
 				"wide"			"96"
@@ -85,16 +85,13 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
+				auto_wide_tocontents "1"
+
 				"fgcolor"		"White"
-				"bgcolor_override"	"Blank"
+				"bgcolor_override"	"0 0 0 100"
 				"proportionaltoparent"		"1"
 
-				if_aids
-				{
-					"font"		"Size 8 Shadow"
-					"xpos"		"0"
-					"ypos"		"18"
-				}
+
 			}
 
 			"classimage"
@@ -104,8 +101,9 @@
 				"xpos"			"1"
 				"ypos"			"1"
 				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"16"
+				"wide"			"11"
+				"tall"			"o1"
+				proportionaltoparent 1
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -132,7 +130,7 @@
 				"enabled"					"1"
 				"border"					"MaterialGrayDarkest"
 				"proportionaltoparent"		"1"
-
+			
 				if_aids
 				{
 					"visible"		"0"

@@ -215,13 +215,6 @@ event HudMatchStatus_ShowCountdown
 	SetVisible CountdownLabelShadow 1 0
 	SetVisible CountdownLabelShadow 0 9.9
 }	
-
-event ScoreboardAnimate
-{
-	Animate scores Position "0 480" linear 0.0 0.0DamageText
-	Animate scores Position "0 0" deaccel 0.0 0.125
-//RunEvent ScoreboardCrosshairAnimate	 linear 0.0 0.0
-}	
 event MiscAnimate
 {
 //	SetVisible speedograph 1 0.0
@@ -229,21 +222,36 @@ event MiscAnimate
 //	SetVisible workdammit 1 0.0
 //	SetVisible workdammit 0 20.0	
 }	
-event ScoreboardCrosshairAnimate
+event ScoreboardAnimate
 {
-	Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
-	Animate CDamageAccountPanel ypos -660 linear 0.0 0.0
-	SetVisible CDamageAccountPanel	1 0.0
-	SetVisible CDamageAccountPanel	1 0.001
-	SetVisible CDamageAccountPanel	1 0.002
-	SetVisible CDamageAccountPanel	1 0.003
-	SetVisible CDamageAccountPanel	1 0.004
+	Animate scores Position "0 480" linear 0.0 0.0
+	Animate scores Position "0 0" deaccel 0.0 0.125
+	RunEvent SpecAnimate 0.0
+}	
 
-	RunEvent ScoreboardCrosshairAnimateLoop 0.005
-}
-event ScoreboardCrosshairAnimateLoop
+event SpecAnimate
 {
-	RunEvent ScoreboardCrosshairAnimate 0.0
+	//Animate hudweaponammo never_draw "0" linear 0.0 0.0
+	SetVisible hudweaponammo	1 0.001
+	SetVisible hudweaponammo	1 0.002
+	SetVisible hudweaponammo	1 0.003
+	SetVisible hudweaponammo	1 0.004
+	//Animate hudplayerstatus never_draw "0" linear 0.0 0.0
+	SetVisible hudplayerstatus	1 0.001
+	SetVisible hudplayerstatus	1 0.002
+	SetVisible hudplayerstatus	1 0.003
+	SetVisible hudplayerstatus	1 0.004
+	SetVisible hudplayerclass	1 0.004
+	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
+	SetVisible HudCrosshair	1 0.001
+	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
+//	SetVisible CDamageAccountPanel	1 0.0	
+	
+	RunEvent SpecAnimateLoop 0.005
+}
+event SpecAnimateLoop
+{
+	RunEvent SpecAnimate 0.0
 }
 
 event ScoreboardAlpha

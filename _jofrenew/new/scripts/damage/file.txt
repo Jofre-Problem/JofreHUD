@@ -37,14 +37,14 @@ event DamageAccountStuff [$WINDOWS]
 	
 	Animate DamageAccountLabelShadow2 Alpha "255" linear 0.0 0.0
 	Animate DamageAccountLabelShadow2 Alpha "0" linear 0.5 5.0
-//	setfont HudDeathNotice "textfont" "Killfeed"	0.001
-//	setfont HudDeathNotice "textfont" "Killfeed2"	5
+	setfont HudDeathNotice "textfont" "Killfeed2"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed3"	5
 }
 
 event DamageAccountStuff [$LINUX]
 {
 	Animate DamageAccountLabel fgcolor "255 215 0 255" linear 0.1 0.3 
-	setfont HudDeathNotice "textfont" "Killfeed"	0.001
-	setfont HudDeathNotice "textfont" "Killfeed2"	5
+//	setfont HudDeathNotice "textfont" "Killfeed"	0.001
+//	setfont HudDeathNotice "textfont" "Killfeed2"	5
 	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
 }

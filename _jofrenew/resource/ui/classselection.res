@@ -1578,7 +1578,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5+102
 		ypos					102
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1597,7 +1597,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5+154
 		ypos					198
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1616,7 +1616,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5+140
 		ypos					306
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1635,7 +1635,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5+58
 		ypos					376
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1654,7 +1654,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5-58
 		ypos					376
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1673,7 +1673,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5-140
 		ypos					306
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1692,7 +1692,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5-154
 		ypos					198
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		
@@ -1711,7 +1711,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5-102
 		ypos					102
 		zpos					5
-		wide					30
+		wide					40
 		tall					30
 		mouseinputenabled			0
 		

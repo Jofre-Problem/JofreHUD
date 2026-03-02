@@ -316,7 +316,8 @@ Scheme
 				"weight"	"500" [$LINUX]
 				"weight"	"0" [$WINDOWS]
 				"antialias" "1"
-				"tall" "14"
+				"tall" "14" [$LINUX]
+				"tall"	"11" [$WINDOWS]
 				"additive"	"1"
 			}
 		}

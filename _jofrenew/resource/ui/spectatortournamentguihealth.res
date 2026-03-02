@@ -72,6 +72,7 @@
 		"textAlignment"	"center"
 		"font"			"Size 16 Uber"
 		"fgcolor"		"GrayDarkest"
+		bgcolor_override blank
 		"proportionaltoparent"		"1"
 	}
 

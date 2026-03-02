@@ -19,7 +19,7 @@
 		"team2_player_delta_x"						"0"
 		"team2_player_delta_y"						"-12"
 
-		"playerpanels_kv"
+		"playerpanels_kv" 
 		{
 			"visible"								"0"
 			"wide"									"110"

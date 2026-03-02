@@ -10,6 +10,7 @@ event ScoreboardCrosshairAnimate
 	SetVisible hudplayerstatus	1 0.002
 	SetVisible hudplayerstatus	1 0.003
 	SetVisible hudplayerstatus	1 0.004
+		SetVisible hudplayerclass	1 0.004
 	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
 	SetVisible HudCrosshair	1 0.001
 	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0

@@ -431,7 +431,7 @@ visible 0
 	}
 	HudDeathNotice
 	{
-		"xpos"	 "0" // 6 KF
+		"xpos"	 "3" // 6 KF
 		"ypos"	 "35" // 7 KF
 		"wide"	 "f0"
 		"tall"	 "p0.6"
@@ -440,10 +440,10 @@ visible 0
 		"IconScale"	  "0.38"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "6"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Killfeed2"
+		"TextFont"		"Killfeed3"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
