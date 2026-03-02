@@ -55,7 +55,7 @@
 			"wide"			"30"
 			"tall"			"19"
 			"labelText"		"%blue_alive%"
-			"font"			"G_Fontmedium"
+			"font"			"G_Fontsmall"
 			"textAlignment"	"center"
 			"fgcolor"		"White"
 		}	
@@ -125,7 +125,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"19"
-			"font"			"G_Fontmedium"
+			"font"			"G_Fontsmall"
 			"textAlignment"	"center"
 			"labelText"		"%red_alive%"
 			"fgcolor"		"White"

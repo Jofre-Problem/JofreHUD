@@ -661,7 +661,7 @@ visible 0
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		"text_xpos"			"33"
-
+		"text_font" "Killfeed"
 	
 		"fade_in_time"			"0.06"
 		"fade_out_time"			"0.5"

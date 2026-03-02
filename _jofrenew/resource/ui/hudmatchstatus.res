@@ -235,11 +235,11 @@ if_mini		{			"visible"		"0"		}
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"210" //133 def
+		"team1_max_expand"	"250" //133 def
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"210"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{

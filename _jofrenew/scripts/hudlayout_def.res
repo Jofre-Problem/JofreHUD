@@ -321,7 +321,7 @@
 	HudMessage
 	{	
 		zpos 9999
-		ypos 5
+		ypos 0
 		"wide"	 "f0"
 		"tall"	 "480"
 	//	font_override "hudfontgiant"

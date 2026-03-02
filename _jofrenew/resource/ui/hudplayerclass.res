@@ -186,9 +186,9 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"0"
+		"xpos"					"200"
 
-		"ypos"					"r20"
+		"ypos"					"r22"
 
 		"zpos"					"100"
 		"wide"					"500"
@@ -216,36 +216,37 @@
 			"teambg_2"				"replay/thumbnails/backpacktf/ss_2"
 			"teambg_3"				"../hud/color_panel_blu"
 
-			"proportionaltoparent"	"1"
-		
+			"proportionaltoparent"	"1"	
+		border "G_TargetBorder"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+
+			
 			"draw_corner_height" 	"5"	
+
 		}
 
 		"CarryingLabel"
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"HudFontSmall"
+			"font"				"itemfontnamesmall"
 			"xpos"				"5"
-			"xpos_minmode"		"5"
-			"ypos"				"3"
-			"ypos_minmode"		"2"
+			
+			"ypos"				"2"
+			
 			"zpos"				"1"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+			
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+			
+		
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
+			
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 			"labelText"			"%carrying%"
@@ -255,24 +256,20 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabelDropShadow"
-			"font"				"HudFontSmall"
-			"font_minmode"		"TFFontMedium"
-			"xpos"				"p0.011"
-			"xpos_minmode"		"6"
-			"ypos"				"p0.12"
-			"ypos_minmode"		"3"
+			"font"				"itemfontnamesmall"
+			pin_to_sibling "CarryingLabel"
+			"xpos"				"-1"
+		
+			"ypos"				"-1"
+			
 			"zpos"				"0"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+			
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+	
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"North-West"
-			"dulltext"			"0"
-			"brighttext"		"0"
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 			"fgcolor_override"	"Black"
@@ -283,19 +280,17 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"FontStoreOriginalPrice"
-			"font_minmode"		"TFFontSmall"
+			"font"				"itemfontnamesmall"
+		
 			"xpos"				"5"
-			"xpos_minmode"		"5"
+		
 			"ypos"				"12"
-			"ypos_minmode"		"10"
+	
 			"zpos"				"0"
 			"wide"				"200"
-			"wide_minmode"		"f0"
+		
 			"tall"	 			"f0"
-			"tall_minmode"		"f0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
+
 			"visible"			"1"
 			"enabled"			"1"
 			"textAlignment"		"North-West"
