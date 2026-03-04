@@ -12,7 +12,17 @@
 #base "hudmediccharge_base.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
-
+	"linuxcover"	[$LINUX]
+	{
+		"ControlName"	"editablepanel"
+		"fieldName"		"linuxcover"
+		"xpos"			"0"
+		"ypos"			"32"
+		"zpos"			"9"
+		"wide"			"80"
+		"tall"			"2"	
+		"bgcolor_override"		"35 35 35 255"
+	}		
 	"CoolBeam"
 	{
 		"ControlName"	"CTFParticlePanel"
