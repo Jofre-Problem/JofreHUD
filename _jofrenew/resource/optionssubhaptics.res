@@ -81,8 +81,19 @@
 		"wide""128"
 		"tall""256"
 		"scaleImage""1"
-		"image""replay/thumbnails/discordlogo"
+		"image""replay/thumbnails/reze"
 			}
+		"Logo2"
+		{
+		"ControlName""ImagePanel"
+		"fieldName""Logo2"
+        "xpos"  "28"
+        "ypos"  "207"
+		"wide""90"
+		"tall""90"
+		"scaleImage""1"
+		"image""replay/thumbnails/reze2"
+			}			
 "ForceMasterPreLabel"
 {
 "ControlName""Label"

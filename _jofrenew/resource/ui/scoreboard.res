@@ -516,7 +516,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel3"
-		"font"			"ScoreboardVerySmall"
+		"font"			"SpectatorVerySmall"
 		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
@@ -2657,7 +2657,7 @@ if_mvm
 		zpos "888"
 		"labelText" "%playername%"
 		textAlignment "center"
-		bgcolor_override "30 30 30 255"
+
 	}
 	"ServerLabelNew"
 	{

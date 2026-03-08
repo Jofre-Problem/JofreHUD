@@ -5,7 +5,7 @@
 #base "../../../cfg/_jp_mainmenu_spray_frame.txt"
 
 
-#base "../../new/ui_overrides/full-timer/file2.res"
+#base "../../new/ui_overrides/full-timer/file3.res"
 
 #base "ui2/partyslot0.res"
 #base "ui2/tank_gif.res"
@@ -308,17 +308,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"11111"
-		"ypos"			"11111"
+		"xpos"			"10"
+		"ypos"			"cs-0.5"
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
-		"tall_hidef"			"0"
-		"tall_lodef"	"0"
+		"wide"			"275"
+		"tall"			"o1"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
+	//	border "blurborder"
 	}
 	
 	

@@ -166,6 +166,8 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
+		xpos 0
+		ypos 0
 		"zpos"		"100"
 		"wide"		"f0"
 		"tall"		"480"
@@ -180,7 +182,7 @@
 		"fieldName"		"ok3"
 		"xpos"		"0"
 		"ypos"		"rs1"
-		"zpos"		"106"
+		"zpos"		"1001"
 		"wide"		"f0"
 		"tall"		"20"
 		"visible"		"1"
@@ -189,10 +191,10 @@
 		"textAlignment"		"center"
 		"command"		"okay"
 		"font"		"NotoBold28"
-
+		paintBackground 1
 		"alpha"		"190"
-		"defaultBgColor_override"	"Black"
-		"armedBgColor_override"		"WhiteGray"
+		"defaultBgColor_override"	"0 0 0 200"
+		"armedBgColor_override"		"0 0 0 100"
 		"depressedBgColor_override"	"WhiteGray"
 	}	
 	"Key1"

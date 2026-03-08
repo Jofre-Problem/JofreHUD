@@ -186,9 +186,9 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"CarryingWeapon"
-		"xpos"					"200"
+		"xpos"					"r325"
 
-		"ypos"					"r22"
+		"ypos"					"r170"
 
 		"zpos"					"100"
 		"wide"					"500"
@@ -213,11 +213,11 @@
 			"image"					"../hud/color_panel_brown"
 			"scaleImage"			"1"
 			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"replay/thumbnails/backpacktf/ss_2"
-			"teambg_3"				"../hud/color_panel_blu"
+			"teambg_2"				"replay/thumbnails/null"
+			"teambg_3"				"replay/thumbnails/null"
 
 			"proportionaltoparent"	"1"	
-		border "G_TargetBorder"
+		border "noborder"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			
@@ -284,7 +284,7 @@
 		
 			"xpos"				"5"
 		
-			"ypos"				"12"
+			"ypos"				"50"
 	
 			"zpos"				"0"
 			"wide"				"200"

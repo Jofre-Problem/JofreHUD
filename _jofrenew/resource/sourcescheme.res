@@ -109,7 +109,6 @@ Button.DepressedTextColor "220 220 220 255"
 		FrameTitleBar.BgColor			"Blank"
 		TextEntry.BgColor			"35 35 35 200"
 		Button.BgColor			"blank" 
-		"FrameTitleBar.Font"		"Blank"	
 		ProgressBar.BgColor				"20 21 23 255"
 		ScrollBarSlider.FgColor								"220 220 220 255"
 		ScrollBarSlider.BgColor								"blank"
@@ -152,7 +151,7 @@ Button.DepressedTextColor "220 220 220 255"
 		Frame.ClientInsetX				"6"
 		Frame.ClientInsetY				"6"
 		FrameTitleBar.BgColor			"Black"
-		FrameTitleBar.Font				"blank"
+		FrameTitleBar.Font				"uibold"
 		FrameTitleBar.TextColor			"Black"
 		FrameTitleBar.DisabledTextColor	"Black"
 		FrameTitleButton.FgColor		"White"
@@ -791,12 +790,23 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias"	"1"
 			}
 		}
+		"uibold"
+		{
+			"1"
+			{
+				"name"		"Blank"
+				"tall"		"20"
+				"yres" "0 10000"	//the tall determines the position the buttons of frame will be
+				// 12 is the def
+			}
+		}			
 		"Blank"
 		{
 			"1"
 			{
 				"name"		"Blank"
-				"tall"		"12"	//the tall determines the position the buttons of frame will be
+				"tall"		"20"
+				"yres" "0 10000"	//the tall determines the position the buttons of frame will be
 				// 12 is the def
 			}
 		}				
@@ -1023,7 +1033,7 @@ Button.DepressedTextColor "220 220 220 255"
                 "range"                                             "0x0021 0x1EFF"
             }		
 		} 		
-		"104"
+		"1blank"
 		{
 			"font" "fonts/blank.otf"
 			"name" "Blank"

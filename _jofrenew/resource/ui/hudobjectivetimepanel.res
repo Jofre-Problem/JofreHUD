@@ -14,7 +14,7 @@
 		"labelText"		"#game_WaitingForPlayers"
 		"textAlignment"		"center"
 		
-		"font"			"Regular12"
+		"font"			"itemfontnamesmallest"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}

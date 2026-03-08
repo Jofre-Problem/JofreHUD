@@ -154,16 +154,101 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ValveAreDumb"
-		"font"			"NotoBold10"
-		"labelText"		"Having problems getting out of this menu? Press the Enter Key on your keyboard to exit!  "
-		"textAlignment"	"east"
-		"xpos"			"rs1"
-		"ypos"			"0"
+		"font"			"itemicons6"
+		"labelText"		"ǥ Having problems getting out of this menu? ¤ Press the Enter Key on your keyboard to exit!"
+		"textAlignment"	"center"
+		"xpos"			"cs-0.5"
+		"ypos"			"8"
 		"zpos"			"2"
-		"wide"			"f0"
+		"wide"			"230"
 		"tall"			"16"
+		bgcolor_override "TransparentBlack"
 		"fgcolor_override"	"notowhite"
 	}	
+				"bptf2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"bptf2"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-30"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"ʇ"
+				font "ItemFontnamesmall"
+					"Command"		"screenshot"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+				
+				}	
+				"bptf"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"bptf"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ǿ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://next.backpack.tf"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+				
+				}		
+				"mmm"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"mmm"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ƿ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://mannco.store/tf2"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"bptf"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"					
+				}	
+				"mmm2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"mmm2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ƿ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://marketplace.tf/browse/"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"bptf"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"					
+				}									
 	"NextButton"
 	{
 		"ControlName"		"CExButton"

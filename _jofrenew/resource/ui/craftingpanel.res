@@ -96,7 +96,7 @@
 
 		"recipedarklights_kv"
 		{
-			"font"							"HudFontSmallestBold"
+			"font"							"itemfontnamesmallest"
 			"xpos"							"0"
 			"ypos"							"0"
 			"zpos"							"1"
