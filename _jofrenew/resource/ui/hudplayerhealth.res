@@ -73,8 +73,8 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"
-		"teambg_2"		"replay/thumbnails/backpacktf/ss_2"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam"
+		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
+		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}	
 "border0"
 	{
@@ -157,8 +157,8 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	border noborder
-		"teambg_2"		"replay/thumbnails/backpacktf/ss_2"
-//		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
+		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}
 	"HealthBarOverheal"
 	{

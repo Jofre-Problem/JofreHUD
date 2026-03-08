@@ -1037,7 +1037,7 @@
 		pin_to_sibling 			"2dafila_a"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-	xpos 2+p0.002
+		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
 					proportionaltoparent 1					bgcolor_override "0 0 0 200"
 
@@ -1113,7 +1113,7 @@
 				{
 					"ControlName"	"cexbutton"
 					"fieldName"		"3dafila_b"					"labelText"		""					"textAlignment"	"west"
-					"xpos"			"0"
+				xpos 2+p0.002
 					"ypos"			"0"
 					"zpos"				"20"
 					"wide"			"58"
@@ -1132,7 +1132,7 @@
 				{
 					"ControlName"	"cexbutton"
 					"fieldName"		"3dafila_c"					"labelText"		""					"textAlignment"	"west"
-					"xpos"			"0"
+				xpos 2+p0.002
 					"ypos"			"0"
 					"zpos"				"20"
 					"wide"			"58"

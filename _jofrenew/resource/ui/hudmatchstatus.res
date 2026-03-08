@@ -239,7 +239,7 @@ if_mini		{			"visible"		"0"		}
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"250"
+		"team2_max_expand"	"245"
 
 		"playerpanels_kv"
 		{

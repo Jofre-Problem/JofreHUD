@@ -61,17 +61,30 @@
 		"zpos"			"6"
 		"wide"			"36"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"1" 	
+		paintBackgroundtype "2"
 		"bgcolor_override" "0 0 0 255"
 	}
-	
+	"classimageoutline2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"classimageoutline2"
+		"xpos"			"c208"
+		"ypos"			"115"
+		"zpos"			"6"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		paintBackgroundtype "2"
+		"bgcolor_override" "0 0 0 255"
+	}	
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
 		"xpos"			"c211"
 		"ypos"			"118"
-		"zpos"			"7"
+		"zpos"			"8"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
@@ -79,7 +92,21 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	
+	"reze"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"reze"
+		"xpos"			"c211"
+		"ypos"			"118"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/reze2_low"
+		"scaleImage"	"1"
+	}
+		
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -165,10 +192,71 @@
 		bgcolor_override "TransparentBlack"
 		"fgcolor_override"	"notowhite"
 	}	
-				"bptf2"
+	"BackShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"next"
+		"visible"									"1"
+	}	
+	"BackShortKey2"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey2"
+		"xpos"										"9999"
+		"labelText"									"&S"
+		"Command"									"screenshot"
+		"visible"									"1"
+	}	
+	"BackShortKey3"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey3"
+		"xpos"										"9999"
+		"labelText"									"&B"
+		"Command"									"url https://next.backpack.tf"
+		"visible"									"1"
+	}			
+				"screenshotttbbb"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"screenshotttbbb"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		" ¤"
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "west"
+					mouseinputenabled 0
+					pin_to_sibling "screenshottt"
+				}					
+				"screenshotttbbb2"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"screenshotttbbb2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		"S "
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "east"
+					mouseinputenabled 0
+					pin_to_sibling "screenshottt"
+				}			
+				"screenshottt"
 				{
 					"ControlName"	"CExButton"
-					"fieldName"		"bptf2"
+					"fieldName"		"screenshottt"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1-30"
 				"zpos"				"201"
@@ -185,6 +273,40 @@
 					"depressedfgcolor_override" "0 0 0 160"
 				
 				}	
+				"bptflabbbb"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"bptflabbbb"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		" ¤"
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "west"
+					mouseinputenabled 0
+					pin_to_sibling "bptf"
+				}					
+				"bptflabbbb2"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"bptflabbbb2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		"B "
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "east"
+					mouseinputenabled 0
+					pin_to_sibling "bptf"
+				}					
 				"bptf"
 				{
 					"ControlName"	"CExButton"
@@ -236,7 +358,7 @@
 				"zpos"				"201"
 				"wide"			"30"
 				"tall"			"30" //56 / 3 ) 14
-				"labelText"		"Ƿ"
+				"labelText"		"Ƕ"
 				font "ItemFontnamesmall"
 					"Command"		"url https://marketplace.tf/browse/"
 					"actionsignallevel"	"2"
