@@ -598,10 +598,10 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"oswald"//"productsource"
+				"name"				"mono"//"productsource"
 				"tall"		"8"
 
-				"wide" "300"
+				"wide" "100"
 				"antialias" "1"
 			}
 		} 		
@@ -712,6 +712,16 @@ Button.DepressedTextColor "220 220 220 255"
 			{
 				"name"		"hwnjofre1"
 				"tall"		"18"
+				"wide"		"0"
+				"antialias" 	"1"
+			}
+		}  			
+		"hwn16"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"16"
 				"wide"		"0"
 				"antialias" 	"1"
 			}
@@ -1082,6 +1092,11 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"font" "fonts/oswald.ttf"
 			"name" "oswald"
+		}	
+		"thin"
+		{
+			"font" "fonts/mono.ttf"
+			"name" "mono"
 		}				
 		"102"
 		{

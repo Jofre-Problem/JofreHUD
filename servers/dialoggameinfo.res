@@ -214,7 +214,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"¦ Game"
+		"labelText"		"¦ TF2"
 		"textAlignment"		"east"
 		"font"	"Productv2_18"
 		"dulltext"		"1"

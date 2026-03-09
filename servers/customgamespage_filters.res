@@ -31,7 +31,7 @@
                 "enabled"                "1"
                 "tabPosition"                "0"
                 "paintbackground"                "1"
-		"labelText"		"¦ Game"
+		"labelText"		"¦ TF2"
 		"font"	"Productv2_16"
 		"textAlignment"		"east"
                 "wrap"                "0"
