@@ -2,6 +2,46 @@
 #base "ui2/bgv2.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
+	"classimageoutline2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"classimageoutline2"
+		"xpos"			"10"
+		"ypos"			"22"
+		"zpos"			"6"
+		"wide"			"54"
+		"tall"			"52"
+		"visible"		"1"
+		paintBackgroundtype "2"
+		"bgcolor_override" "0 0 0 1"
+		border "black"
+	}		
+	"Removeline"
+	{
+		ControlName				EditablePanel
+		FieldName				"Removeline"
+		pin_to_sibling "classimageoutline2"
+			xpos					-6
+			ypos					-6
+			zpos					100
+			wide					42
+			tall					39
+			"border"		"noborder"
+		bgcolor_override				"blank"
+		mouseInputEnabled			0
+		"PartySlot0"  // player
+		{
+			ControlName				CDashboardPartyMember
+			fieldName				"PartySlot0"
+			xpos					0
+			ypos					0
+			zpos					100
+			wide					42
+			tall					o1
+
+			party_slot				0
+		}	
+	}		
 	"Frame"
 	{
 		"ControlName"								"EditablePanel"
@@ -160,7 +200,7 @@
 			wide f0
 			"NextButton"
 			{
-				"ControlName"	"Button"
+				"ControlName"	"cexButton"
 				"fieldName"		"NextButton"
 				"xpos"		"rs1-22"
 				"ypos"		"rs1-88"// +44
@@ -174,9 +214,10 @@
 				"fgcolor"		"White"
 				"font"			"G_FontSmall"
 				"textAlignment"	"center"
-
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 				"proportionaltoparent"	"1"
-				"paintbackground"	"1"
+				"paintbackground"	"0"
 				"command"	"next"
 				"actionsignallevel" "2"
 
@@ -193,7 +234,7 @@
 			}
 			"PrevButton"
 			{
-				"ControlName"	"Button"
+				"ControlName"	"cexButton"
 				"fieldName"		"PrevButton"
 				"xpos"		"20"
 				"ypos"		"0"
@@ -209,10 +250,11 @@
 				"textAlignment"	"center"
 				pin_to_sibling "NextButton"
 				"proportionaltoparent"	"1"
-				"paintbackground"	"1"
+				"paintbackground"	"0"
 				"command"	"prev"
 				"actionsignallevel" "2"
-
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 				"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"
 
@@ -263,7 +305,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"g_fonttiny_2"
+		"font"			"killfeedtiny"
 		"xpos"			"rs1-60"
 		"ypos"			"rs1"
 		"zpos"			"0"	
@@ -342,8 +384,8 @@
 		visible						1
 		enabled						1
 
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"		
+			"border_default"	"black"
+			"border_armed"	"Black2"		
 		labelText					"ĳ"
 		font							"NewIcons20"
 		textAlignment				center
@@ -374,8 +416,8 @@
 		visible						1
 		enabled						1
            
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
 
@@ -480,7 +522,7 @@
 			wide f0		
 			"NextButton"
 			{
-				"ControlName"	"Button"
+				"ControlName"	"cexButton"
 				"fieldName"		"NextButton"
 				"xpos"		"0"
 				"ypos"		"42"// +44
@@ -496,13 +538,14 @@
 				"textAlignment"	"center"
 
 				"proportionaltoparent"	"1"
-				"paintbackground"	"1"
+				"paintbackground"	"0"
 				"command"	"next"
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"
-
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
@@ -531,8 +574,8 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "G_ButtonBg"
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
 
@@ -616,8 +659,8 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "G_ButtonBg"
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
 
@@ -683,8 +726,8 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "G_ButtonBg"
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
 
@@ -732,8 +775,8 @@
 		tall							40
 		visible						1
 		enabled						1
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
 
@@ -1449,7 +1492,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mouse2label"
-			"font"			"G_FontTiny_2"
+			"font"			"killfeedtiny"
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1512,7 +1555,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"shiftlabel"
-			"font"			"G_FontTiny_2"
+			"font"			"killfeedtiny"
 			"labelText"		"Move"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1559,7 +1602,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"altlabel"
-			"font"			"G_FontTiny_2"
+			"font"			"killfeedtiny"
 			"labelText"		"Rotate"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1608,7 +1651,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ctrllabel"
-			"font"			"G_FontTiny_2"
+			"font"			"killfeedtiny"
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"

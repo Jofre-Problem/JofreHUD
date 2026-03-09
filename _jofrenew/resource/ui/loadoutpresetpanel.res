@@ -46,8 +46,8 @@
 			//	"border_default"	"BackpackItemBorder_RarityLegendary"
 			//"border_armed"	  "BackpackItemMouseOverBorder_RarityMythical"	
 			//"roundedcorners"	"0"
-			"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+			"border_default"	"black"
+			"border_armed"	"Black2"	
 
         }
 		
@@ -64,8 +64,8 @@
             "Command"			"loadpreset_1"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+				"border_default"	"black"
+			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "G_ButtonBg"
 			  paintBackground 0
@@ -87,8 +87,8 @@
             "Command"			"loadpreset_2"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
-					"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+					"border_default"	"black"
+			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "G_ButtonBg"
 			  paintBackground 0
@@ -111,8 +111,8 @@
             "Command"			"loadpreset_3"
             "sound_depressed"	"UI/buttonclick.wav"
             "sound_released"	"UI/buttonclickrelease.wav"
-				"border_default"	"flat_black_2"
-			"border_armed"	"flat_black_4"	
+				"border_default"	"black"
+			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "G_ButtonBg"
 			  paintBackground 0

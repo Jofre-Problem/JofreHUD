@@ -177,7 +177,7 @@
 		{
 			"ControlName"	"editablepanel"
 			"fieldName"		"anchor2"
-			"xpos"			"c30"
+			"xpos"			"c28"
 			"ypos"			"23"
 			"wide"			"1"
 			"tall"			"1"

@@ -46,8 +46,7 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			border Black100
-			alpha "100"
+			border Black
 		}
 		"maincontentscontainer"
 		{
