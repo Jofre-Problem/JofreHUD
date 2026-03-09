@@ -46,8 +46,7 @@
 			"tall"			"250"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "10 10 10 255"
-			border G_targetborder
+			border GrayDialogBorder
 		}
 	}
 	

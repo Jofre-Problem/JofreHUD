@@ -70,11 +70,25 @@
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
 	}
+	"metric"
+	{
+	"ControlName"	"ImagePanel"
+	"fieldName"	"metric"
+	"xpos"	"257"
+	"ypos"	"400"
+	"zpos"	"61"
+	"wide"	"50"
+	"tall"	"51"
+	"visible" "1"
+	"enabled"		"1"
+	"image"	"replay/thumbnails/metrica"
+	"scaleimage""1"
+	}			
 	"cleanhurt"
 	{
 	"ControlName"	"ImagePanel"
 	"fieldName"	"cleanhurt"
-	"xpos"	"275"
+	"xpos"	"275+30+p0.001"
 	"ypos"	"401+p0.0029"
 	"zpos"	"6"
 	"wide"	"25"
@@ -82,6 +96,7 @@
 	"visible" "1"
 	"bgcolor_override" "Black"
 			"enabled"		"1"
+	//		"image"	"replay/thumbnails/backpacktf/spectral_spectrum_60"
 	"image"	"replay/thumbnails/hp/REFRACTnormal"
 	"scaleimage""1"
 	}		
@@ -89,7 +104,7 @@
 	{
 	"ControlName"	"ImagePanel"
 	"fieldName"	"cleanoverheal"
-	"xpos"	"275"
+	"xpos"	"275+30+p0.001"
 	"ypos"	"420+15"
 	"zpos"	"6"
 	"wide"	"25"

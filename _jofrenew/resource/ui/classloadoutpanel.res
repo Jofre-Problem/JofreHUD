@@ -1298,11 +1298,14 @@
 			"tall"			"14"
 			"visible"		"0"
 			"enabled"		"1"
-			"labelText"		"ŀ"
-			"font"			"newicons15"
+			"labelText"		"¦"
+			"font"			"itemfontnamesmallest"
 			"textAlignment"	"center"
 			"default"		"1"
 			textinsetx -2
+			paintBackground 0
+			border_default GrayDialogBorder
+			border_armed "blumaterial"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}

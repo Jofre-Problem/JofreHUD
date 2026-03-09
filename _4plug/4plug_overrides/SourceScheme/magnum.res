@@ -1561,7 +1561,16 @@ Scheme
 				"blur"		"2"
 			}
 		}
-		
+		"product60"
+		{
+			"1"
+			{
+				"name"		"product_sans_regular"
+				"tall"		"60"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}		
 		"product32"
 		{
 			"1"

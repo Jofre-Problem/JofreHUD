@@ -57,7 +57,7 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"Primary"
+			"drawcolor"								"245 245 245 255"
 		}
 
 		"SubImage2"
@@ -71,20 +71,20 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"Primary"
+			"drawcolor"								"245 245 245 255"
 		}
 
 		"SubImage3"
 		{
-			"ControlName"							"ImagePanel"
+			"ControlName"							"editablePanel"
 			"fieldName"								"SubImage3"
 			"xpos"									"0"
 			"zpos"									"-10"
 			"wide"									"f0"
 			"tall"									"f0"
 			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"	"../console/background_upward_widescreen"
+		
+			"bgcolor_override" "0 0 0 255"
 		
 		}			
 	"MMBackgroundPanel"
@@ -118,10 +118,10 @@
 				yPos					20
 				wide					70
 				tall					70	
-				font					"Product32"
-				fgcolor_override		"Primary"
+				font					"product60" 
+				fgcolor_override		"245 245 245 255"
 				labelText				"Č"
-				textAlignment			west
+				textAlignment			center
 			}	
 
 			"logohud"		
@@ -133,7 +133,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"Primary"
+				fgcolor_override		"245 245 245 255"
 				labelText				"jofre-hud@team-fortress"
 				textAlignment			west
 				pin_to_sibling			"Dunno"
@@ -149,7 +149,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"Primary"
+				fgcolor_override		"245 245 245 255"
 				labelText				"-------------------------"
 				textAlignment			west
 		"pin_to_sibling"	"logohud"
@@ -165,7 +165,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"Primary"
+				fgcolor_override		"245 245 245 255"
 				labelText				"MADE BY: Jofre Problem?"
 				textAlignment			west
 		"pin_to_sibling"	"spacer"
@@ -181,7 +181,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"Primary"
+				fgcolor_override		"245 245 245 255"
 				labelText				"DEDICATED TO: ❀ vanne ❀"
 				textAlignment			west
 		"pin_to_sibling"	"credits"
@@ -197,7 +197,7 @@
 				wide					150
 				tall					12	
 				font					"Code10"
-				fgcolor_override		"Primary"
+				fgcolor_override		"245 245 245 255"
 				labelText				"INSPIRED BY: Archcraft OS"
 				textAlignment			west
 		"pin_to_sibling"	"credits2"
@@ -321,8 +321,8 @@
 		"tall"		"25"
 		"labelText"		"ĕ"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"tf2_18"		
 	}	
 	"GammaSlider"
 	{
@@ -338,7 +338,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"2.6"
 		"cvar_name"		"mat_monitorgamma"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}
 	"Volabel"
 	{
@@ -351,8 +351,8 @@
 		"tall"		"25"
 		"labelText"		"ď"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"tf2_18"		
 	}
 	"VolumeSlider"
 	{
@@ -368,7 +368,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"100"
 		"cvar_name"		"volume"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}	
 	"Viewlabel"
 	{
@@ -379,10 +379,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"č"
+		"labelText"		"Đ"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"tf2_18"		
 	}
 	"ViewSlider"
 	{
@@ -398,7 +398,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"200"
 		"cvar_name"		"viewmodel_fov"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}		
 	"Fovlabel"
 	{
@@ -410,10 +410,10 @@
 		"wide"		"20"
 		"tall"		"25"
 		
-		"labelText"		"Ë"
+		"labelText"		"č"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"tf2_18"		
 	}
 	"FSlider"
 	{
@@ -429,7 +429,7 @@
 		"minvalue"		"50"
 		"maxvalue"		"90"
 		"cvar_name"		"fov_desired"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}
 	"ColorLabel"
 	{
@@ -440,10 +440,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"R"
+		"labelText"		"ĸ"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"hwn24"		
 	}
 	"CSlider"
 	{
@@ -459,7 +459,7 @@
 		"minvalue"		"0"
 		"maxvalue"		"6"
 		"cvar_name"		"mat_color_projection"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}			
 	"Netlabel"
 	{
@@ -470,10 +470,10 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"V"
+		"labelText"		"ª"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
-		"font"					"Product18"		
+		"fgcolor_override"		"245 245 245 255"
+		"font"					"tf2_18"		
 	}
 	"NSlider"
 	{
@@ -489,6 +489,6 @@
 		"minvalue"		"0"
 		"maxvalue"		"4"
 		"cvar_name"		"net_graph"
-		fgcolor_override		"Primary"
+		fgcolor_override		"245 245 245 255"
 	}								
 }

@@ -346,8 +346,8 @@
 		"fieldName"		"HealthClusterIcon"
 		"xpos"			"cs-0.5"
 		"ypos"			"rs1"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"32"
+		"tall"			"o1"
 		"visible"		"0"
 		//		"0"
 		//"enabled"		"1"
@@ -369,8 +369,8 @@
 		"xpos"			"50"
 		"ypos"			"40"
 		"zpos"			"1000"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"25"
+		"tall"			"o1"
 		"visible"		"1"
 		//"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
@@ -378,7 +378,7 @@
 		"pin_to_sibling" 	"1_editable"
 		"pin_corner_to_sibling" "1"
 		"pin_to_sibling_corner" "1"
-		"alpha"			"220"
+		"alpha"			"240"
 	}
 	
 }

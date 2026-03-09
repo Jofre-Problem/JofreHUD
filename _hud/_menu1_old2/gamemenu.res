@@ -12,11 +12,6 @@
 "command""OpenMutePlayerDialog"
 "OnlyInGame""1"
 }
-"ReportPlayerButton2"
-{
-"label""!"
-"command""OpenReportPlayerDialog"
-"OnlyInGame""1"
-}
+
 
 }

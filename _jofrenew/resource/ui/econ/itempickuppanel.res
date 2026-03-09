@@ -187,7 +187,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"8"
 		"zpos"			"2"
-		"wide"			"230"
+		"wide"			"220"
 		"tall"			"16"
 		bgcolor_override "TransparentBlack"
 		"fgcolor_override"	"notowhite"

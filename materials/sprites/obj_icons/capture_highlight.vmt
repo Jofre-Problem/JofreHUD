@@ -1,8 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture"				"vgui\replay\thumbnails\cp_icons\icon_obj_b"
+	"$baseTexture"				"sprites/obj_icons/capture_highlight"
 	"$vertexalpha"				"1"
-	"$alpha"					"1"
+	"$alpha"					"0"
 	"$translucent"				"1"
 	"$vertexcolor"				"1"
 }

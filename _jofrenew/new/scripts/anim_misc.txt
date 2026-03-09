@@ -337,3 +337,36 @@ event QuestReport_ContractComplete{}
 event QuestReport_ContractProgress{}
 event ObjectiveCompletionFanfare{}
 event ObjectiveCompletionFanfareEnd{}
+event ActiveTimerBGPulse
+{
+
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.5 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.7 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.9 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
+}

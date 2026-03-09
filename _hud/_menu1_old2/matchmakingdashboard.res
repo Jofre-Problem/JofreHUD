@@ -818,12 +818,29 @@
 		{
 			"tall"			"0"
 		}
+						"Circle3"
+						{	
+						"ControlName"		"cexLabel"
+						"fieldName"		"Circle3"
+						"font"			"hwn18"
+			"xpos"			"0"
+			"ypos"			"0"
+						"zpos"			"71"
+						"wide"			"20"
+						"tall"			"16"
+						"visible"		"1"
+						"enabled"		"1"
+						"labelText"		"ʏ"
+						"textAlignment"		"center"
+						"fgcolor_override" "170 255 0 255"
+						pin_to_sibling "FindAGameButton2"
+						}		
 	"FindAGameButton2"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton2"
-			"xpos"			"c100"
-			"ypos"			"0"
+			"xpos"			"r200"
+			"ypos"			"2"
 			"zpos"			"99"
 			"wide"			"20"
 			"tall"			"14"
@@ -844,15 +861,16 @@
 			"textinsety"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
-			paintBackground 1
+			paintBackground 0
 			"sound_depressed"	"ui/buttonclick.wav"
 			"sound_released"	"ui/buttonclickrelease.wav"
 			"fgcolor" 	"27 27 27 255"
 				"fgcolor_override" 	"27 27 27 255"		
 				"defaultbgcolor_override" "117 107 94 0"
 				"defaultfgcolor_override" 	"27 27 27 255"
-				"armedbgcolor_override" "145 73 59 0"
-				"armedfgcolor_override" "235 226 202 255"
+				"armedbgcolor_override" "blank"
+				"armedfgcolor_override" "notogreensolid"
+				"depressedfgcolor_override" "AssassinGrade"
 			//"fgcolor"			"black"
 			
 			"SubImage"

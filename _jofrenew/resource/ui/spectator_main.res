@@ -12,6 +12,15 @@
 #base ui2/speedograph/speedograph_base.res
 "Resource/UI/Spectator.res"
 { 
+	"BackShortKey3"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey3"
+		"xpos"										"9999"
+		"labelText"									"&B"
+		"Command"									"url https://next.backpack.tf"
+		"visible"									"1"
+	}		
 	"specgui"
 	{
 	}

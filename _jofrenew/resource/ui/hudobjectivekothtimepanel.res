@@ -8,6 +8,10 @@
 		}
 	} 
 
+	"ActiveTimerBG"
+	{
+		"tall"				"0"
+	}
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"

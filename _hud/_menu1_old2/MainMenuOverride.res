@@ -450,8 +450,8 @@
 		xPos					cs-0.5
 		yPos					35
 		zPos					3000
-		"wide"			"p0.065"
-		"tall"			"40"
+		"wide"			"p0.09"
+		"tall"			"80"
 		paintBackground			0
 		paintBorder				0
 		"PaintBackgroundType"	"0"
@@ -517,7 +517,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"primary"
+			drawcolor				"29 39 97 255"
 			scaleImage				1
 		}
 
@@ -526,11 +526,11 @@
 		{
 			ControlName				CExLabel
 			fieldName				"Notifications_CountLabel"
-			xpos					6
-			ypos					2
+			xpos					4
+			ypos					3
 			zpos					20
 			wide					20
-			tall					14
+			tall					o1
 			proportionalToParent		1
 			mouseInputEnabled			0
 

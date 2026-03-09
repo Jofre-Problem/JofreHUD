@@ -46,7 +46,8 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor" "8 8 8 240"	// pin color
+			border Black100
+			alpha "100"
 		}
 		"maincontentscontainer"
 		{
@@ -134,7 +135,7 @@
 			"fieldName"		"namelabel"
 			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"30"
@@ -151,7 +152,7 @@
 			"fieldName"		"attriblabel"
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"34"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"

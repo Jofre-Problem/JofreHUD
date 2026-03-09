@@ -168,12 +168,12 @@
 		"fgcolor"		"0 0 0 100"
 		"pin_to_sibling" "TargetNameLabelBot"
 	}
-	"TargetNameLabelMid" //healing targetid
+	"TargetNameLabelMid" //healing targetid // debajo del ammo, a quien curas vos como medic
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid"
 		"font"			"Medhealtarget"
-		"xpos"			"455"
+		"xpos"			"470"
 		"ypos"			"522"
 		"zpos"			"1"
 		"wide"			"130"
@@ -186,6 +186,47 @@
 		//"auto_wide_tocontents" "1"
 		//bgcolor_override "30 30 30 255"
 	}
+	"TargetNameLabelMidicon" //healing targetid // debajo del ammo, a quien curas vos como medic
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabelMidicon"
+		"pin_to_sibling" "TargetNameLabelMid"
+		"font"			"itemfontnamesmall"
+		"xpos"			"0"
+		"ypos"			"0-P.001"
+		"zpos"			"1"
+		"wide"			"15"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Ǐ"
+		"textAlignment"		"center"
+		"fgcolor"		"236 240 241 255"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"				
+		//"auto_wide_tocontents" "1"
+		//bgcolor_override "30 30 30 255"
+	}	
+	"TargetNameLabelMidiconS" //healing targetid // debajo del ammo, a quien curas vos como medic
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabelMidiconS"
+
+		"font"			"itemfontnamesmall"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"15"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Ǐ"
+		"textAlignment"		"center"
+		"fgcolor"		"0 0 0 200"	
+		pin_to_sibling "TargetNameLabelMidicon"		
+		//"auto_wide_tocontents" "1"
+		//bgcolor_override "30 30 30 255"
+	}			
 	"TargetNameLabelMidS" //healing targetid
 	{	
 		"ControlName"		"CExLabel"
@@ -203,12 +244,51 @@
 		"fgcolor"		"0 0 0 100"
 		"pin_to_sibling" "TargetNameLabelMid"
 	}
+	"TargetNameLabelMid2icon" //healing targetid // debajo del ammo, a quien curas vos como medic
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabelMid2icon"
+
+		"font"			"itemfontnamesmall"
+		"xpos"			"120"
+		"ypos"			"522"
+		"zpos"			"2"
+		"wide"			"15"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"ƿ"
+		"textAlignment"		"center"
+		"fgcolor"		"236 240 241 255"			
+		//"auto_wide_tocontents" "1"
+		//bgcolor_override "30 30 30 255"
+	}	
+	"TargetNameLabelMid2iconS" //healing targetid // debajo del ammo, a quien curas vos como medic
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetNameLabelMid2iconS"
+
+		"font"			"itemfontnamesmall"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"15"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"ƿ"
+		"textAlignment"		"center"
+		"fgcolor"		"0 0 0 200"	
+		pin_to_sibling "TargetNameLabelMid2icon"		
+		//"auto_wide_tocontents" "1"
+		//bgcolor_override "30 30 30 255"
+	}				
 	"TargetNameLabelMid2" // healer targetid // pov u heavy and medic heals you
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid2"
 		"font"			"Medhealtarget"
-		"xpos"			"-138"
+		"xpos"			"-125"
 		"ypos"			"522"
 		"zpos"			"1"
 		"wide"			"408"
@@ -229,12 +309,12 @@
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"408"
-		"tall"			"25"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"0 0 0 100"
+		"fgcolor"		"0 0 0 200"
 		"pin_to_sibling" "TargetNameLabelMid2"
 	}
 

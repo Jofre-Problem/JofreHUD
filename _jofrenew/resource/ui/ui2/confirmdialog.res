@@ -11,9 +11,8 @@
 		"wide"			"p0.4"
 		zpos 1000
 		"tall"			"200"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
+
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"

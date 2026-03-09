@@ -3,9 +3,9 @@ Scheme
 	Colors
 	{
 				"G_White"				"255 255 255 255"
-		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"221 242 85 255"
-		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribLevel"									"227 228 230 255"
+		"ItemAttribNeutral"									"227 228 230 255"
+		"ItemAttribPositive"								"150 200 255 255"
 		"ItemAttribNegative"					"255 64 64 255"		
 		// halloween spells label
 		"ItemSetItemMissing"								"255 38 176 255"		
@@ -229,9 +229,7 @@ Scheme
 
 		"HTMLBackground"									"30 30 30 255"
 
-		"ItemAttribLevel"									"227 228 230 255"
-		"ItemAttribNeutral"									"227 228 230 255"
-		"ItemAttribPositive"								"150 200 255 255"
+
 		"ItemAttribNegative"								"255 61 61 255"
 
 		"ItemSetName"										"225 255 15 255"

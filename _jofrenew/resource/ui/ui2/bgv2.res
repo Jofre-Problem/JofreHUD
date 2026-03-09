@@ -71,7 +71,7 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"fillcolor" "43 39 36 255"
+					"fillcolor" "27 28 30 255"
 				}				
 			}				
 			"1"

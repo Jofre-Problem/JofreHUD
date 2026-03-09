@@ -1,11 +1,8 @@
 "UnlitGeneric"
 {
-        "$translucent" "1"
-        "$baseTexture" "vgui\replay\thumbnails\icon_obj_cap_mask"
-        
-        "$ignorez" "1"
-        
+	"$baseTexture"				"vgui\replay\thumbnails\cp_icons\icon_obj_cap_mask"
+	"$vertexalpha"				"1"
+	"$alpha"					"1"
+	"$translucent"				"1"
+	"$vertexcolor"				"1"
 }
-
-
-

@@ -111,6 +111,11 @@
 		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
 		"scaleImage"		"1"	
 		"pin_to_sibling"	"TimePanelBGReal"
+
+		if_match
+		{
+			//	"visible"		"0"
+		}			
 	}
 	"TimePanelBGReal"
 	{
@@ -170,6 +175,10 @@
 		"color_inactive"		"35 35 35 255"
 		"percent_warning"		"0.75"
 		"pin_to_sibling"	"TimePanelBGReal"
+		if_match
+		{
+			"visible"	"0"
+		}
 	}
 	"WaitingForPlayersBG"
 	{

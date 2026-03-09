@@ -476,6 +476,36 @@ Button.DepressedTextColor "220 220 220 255"
 }	
     Fonts
 	{
+		"hwn60"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"60"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}		
+		"hwn20"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"20"
+				"additive"  "0"
+				"antialias"	"1"
+			}
+		}		
+		"product60"
+		{
+			"1"
+			{
+				"name"		"productsource"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}							
 		"Default"
 		{
 			"1"
@@ -665,7 +695,17 @@ Button.DepressedTextColor "220 220 220 255"
 				"wide"		"300"
 				"antialias" 	"1"
 			}
-		}  	
+		}  
+		"hwn24"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"24"
+				"wide"		"0"
+				"antialias" 	"1"
+			}
+		}  			
 		"hwn18"
 		{
 			"1"
