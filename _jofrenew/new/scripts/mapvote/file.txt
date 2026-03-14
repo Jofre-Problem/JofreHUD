@@ -13,6 +13,7 @@ event WinningNextMapVote
 // can lead to crashes
 event LosingNextMapVote
 {
+	SetVisible FriendsContainer 1 0
 //	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
 //	RunEventChild MainMenuOverride ForceSafemode 0.0
 //	RunEventChild Mainmenuoverride OnMatchCMD 0.0

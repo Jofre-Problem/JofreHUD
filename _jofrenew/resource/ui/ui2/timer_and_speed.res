@@ -1,6 +1,6 @@
 "Resource/UI/GiveawayItemPanel.res"
 {
-            bgmore3{
+            timerbg{
                 controlname editablepanel 
 				ypos rs1
 				xpos rs1-78
@@ -11,7 +11,8 @@
                 paintBackgroundtype 2
                 bgcolor_override "255 255 255 200"
 				roundedcorners "3"
-				
+				visible 1
+				enabled 1
             }	
 	timerlabel
 	{

@@ -14,7 +14,7 @@ event ShowDevMenuChild
 {
  //SetVisible ADContainerTest 1 0
 }
-
+////////////
 event HideDevMenu
 {
 	RunEventChild MainMenuOverride HideDevMenuChild 0.0
@@ -23,7 +23,26 @@ event HideDevMenuChild
 {
 //	 SetVisible ADContainerTest 0 0
 }
+///////////
+////////////
+event HideButtonsMenu
+{
+	RunEventChild MainMenuOverride HideButtonsMenuChild 0.0
+}
+event HideButtonsMenuChild
+{
+	 SetVisible FriendsContainer 0 0
+}
 
+event ShowButtonsMenu
+{
+	RunEventChild MainMenuOverride ShowButtonsMenuChild 0.0
+}
+event ShowButtonsMenuChild
+{
+	 SetVisible FriendsContainer 1 0
+}
+///////////
 event UberTimerRun
 {
 	Animate UberTimerBG	tall	2	Linear 0.0 0.001

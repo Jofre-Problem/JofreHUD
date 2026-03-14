@@ -116,7 +116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"tf2 secondary"
+				"name"		"hwnjofre1"
 				"tall"		"8"
 				
 				"antialias" "1"

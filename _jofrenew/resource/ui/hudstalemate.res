@@ -14,9 +14,9 @@
 {
 "ControlName""Label"
 "fieldName""StalemateLabel"
-"font""G_fonttiny_2"
-"xpos""-25"
-"ypos""0"
+"font""itemfontnamesmall"
+"xpos""cs-0.5"
+"ypos""50"
 "zpos""1"
 "wide""280"
 "tall""25"
@@ -26,15 +26,14 @@
 
 "wrap""1"
 "labelText""#TF_teambalanced"
-"textAlignment""west"
-"pin_to_sibling"    "Monika"
+"textAlignment""center"
 }
 "ReasonLabel"
 {
 "ControlName""Label"
 "fieldName""ReasonLabel"
-"font""g_fontsmall"
-"xpos""30"
+"font""itemfontnamesmall"
+"xpos""cs-0.5"
 "ypos""25"
 "zpos""1"
 "wide""200"

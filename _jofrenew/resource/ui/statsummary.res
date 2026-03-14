@@ -222,14 +222,14 @@
 				"paintbackground"	"0"
 			}
 	
-			"ActualLabel"
+			"ActualLabel" // thanks jfore
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ActualLabel"
 				"font"			"DefaultVerySmall"
 				"labelText"		"#TF_Contributed"
 				"textAlignment"	"center"
-				"fgcolor"		"Black"
+				"fgcolor"		"notowhite"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"40"

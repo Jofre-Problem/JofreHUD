@@ -12,7 +12,7 @@
 		{
 			"XPos"											"cs-0.5"
 			"YPos"											"cs-0.5+15"		
-			zpos "10000"	
+		//	zpos "10000"	
 			"Customizations_Panel"
 			{
 				"HUD_Customization_Home_Panel"		{Visible 0}
@@ -32,7 +32,8 @@
 		{
 			"ToggleFriendsListButton"
 			{
-				"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
+			//	"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
+				command "engine buttonsmainmenu"
 				"font"			"NewIcons12"
 			}
 		}	
@@ -45,7 +46,8 @@
 			"visible"		"1"			
 			"ToggleFriendsListButton"
 			{
-				"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
+			//	"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
+				command "engine buttonsmainmenu"
 				"SubImage"
 				{
 					"scaleImage"	"1"

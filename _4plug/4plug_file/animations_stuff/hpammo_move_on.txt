@@ -2,6 +2,7 @@ event HealthAmmoAnimateOpen
 {
 	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
 	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
+	Animate hudmessage ypos 		"-100"		Linear 0.0 0.2		
 	Animate HudPlayerStatus xpos 		"-192"		Spline 0.0 0.2
 	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
 	Animate HudWeaponAmmo xpos 		"725"		Spline 0.0 0.2
@@ -11,6 +12,7 @@ event HealthAmmoAnimateOpen
 }
 event HealthAmmoAnimateEnd
 {
+	Animate hudmessage ypos 		"0"		Linear 0.0 0.2			
 	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
 	Animate Hudmatchstatus ypos 	"0" Spline 0.0 0.5
 	Animate HudPlayerStatus xpos 		"0"		Spline 0.0 0.5

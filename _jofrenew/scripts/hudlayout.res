@@ -128,14 +128,9 @@ visible 0
 	}
 			
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
-	"TEST:CTFItemCardPanel"
-	{
-		"ControlName"		"CTFItemCardPanel"
-		"wide"				"f0"
-		"tall"				"480"
-		"zpos"				"2000"
-		"visible"			"0"
-	}
+//	"TEST:CTFItemCardPanel"{		"ControlName"		"CTFItemCardPanel"		"wide"				"f0"
+//		"tall"				"480"		"zpos"				"2000"		"visible"			"0"
+//	}
 //	"MMDashBoardPopupContainer"
 //	{
 //		xpos 0

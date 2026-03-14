@@ -18,8 +18,8 @@
 	{ 
 
 	//	"Visible"										"0"
-		"Enabled"										"1"
-		"ProportionalToParent"							"1"		
+	 //	"Enabled"										"1"
+	 //	"ProportionalToParent"							"1"		
     }    
 		"FriendsContainer"
 	{
@@ -399,7 +399,8 @@
 		"tall"							"16"
 		labelText				""
 		"actionsignallevel"		"2"
-		Command						"engine jp_custom_on; jp_reloadmenus"
+		Command     "engine toggle cl_mainmenu_safemode"						
+        //"engine jp_custom_on; jp_reloadmenus"
 				pin_to_sibling 			"Console"
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "2"
@@ -417,7 +418,7 @@
 		"wide"							"155"
 		"tall"							"200"
 		"visible"		"1"
-		"zpos" "101"
+		"zpos" "1101"
 
 		"items"
 		{
@@ -614,8 +615,8 @@
 			"textAlignment"	"center"
 			zpos 9999
 			"actionsignallevel"	"2"
-			"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme; cl_mainmenu_safemode 1; wait 5; cl_mainmenu_safemode 0"
-
+			//	"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
+				command "engine buttonsmainmenu"
 			"border_default"    ""
 			"border_armed"      ""
 			"paintbackground"   "0"
