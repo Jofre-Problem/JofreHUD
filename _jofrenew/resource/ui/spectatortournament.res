@@ -13,11 +13,11 @@
 		"enabled"		"1"
 
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"360"
+		"team1_player_base_y"				"440" // red
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-13" // spacing
+		"team1_player_delta_y"				"-11" // spacing
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"250"
+		"team2_player_base_y"				"350" // 
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"19"
 		
@@ -42,7 +42,7 @@
 		{
 			"visible"		"0"
 			"wide"			"145"
-			"tall"			"12"
+			"tall"			"10"
 			"zpos"			"1"
 
 			"color_ready"	"Green"

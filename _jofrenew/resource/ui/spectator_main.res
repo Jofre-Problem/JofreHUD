@@ -29,7 +29,8 @@
 			
 		ypos 25
 		visible         1 
-		tall 180
+		wide 40
+		tall 140
        "SpeedoGraph_H"
         {
             graph00{drawcolor notoredsolid}
@@ -125,7 +126,7 @@
                 controlname editablepanel 
 				ypos 25
 				xpos 5
-                wide 60 
+                wide 40 
                 tall 18
                 proportionaltoparent 1 
 
@@ -238,9 +239,9 @@
             bgmore2
 			{
                 controlname editablepanel 
-				ypos 25+80
+				ypos 25+67
 				xpos 5
-                wide 60 
+                wide 40 
                 tall 18
                 proportionaltoparent 1 
 
@@ -267,7 +268,7 @@
 	{
 		"ControlName"			"cexlabel"
 		"fieldName"				"dddlabe2"
-				ypos 108
+				ypos 95
 				xpos 7
 		"font" "ItemFontNameSmall"
 		"labelText" "ǰ"
@@ -384,19 +385,7 @@
 		}
 	} 
 
-            bgmore3{
-                controlname editablepanel 
-				ypos 185
-				xpos 5
-                wide 60 
-                tall 18
-                proportionaltoparent 1 
 
-                fgcolor_override "255 255 255 50" 
-                paintBackground 1 
-                bgcolor_override "0 0 0 200"
-				border blurborder
-            }
 
 
 

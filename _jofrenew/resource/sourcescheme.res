@@ -599,7 +599,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"				"mono"//"productsource"
-				"tall"		"8"
+				"tall"		"5"
 
 				"wide" "100"
 				"antialias" "1"
@@ -1095,7 +1095,7 @@ Button.DepressedTextColor "220 220 220 255"
 		}	
 		"monono"
 		{
-			"font" "fonts/mono.ttf"
+			"font" "fonts/mono.otf"
 			"name" "mono"
 		}				
 		"102"

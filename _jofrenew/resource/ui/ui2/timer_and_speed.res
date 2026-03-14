@@ -1,31 +1,45 @@
 "Resource/UI/GiveawayItemPanel.res"
 {
-	dddlabe
+            bgmore3{
+                controlname editablepanel 
+				ypos rs1
+				xpos rs1-78
+                wide 60 
+                tall 17
+                proportionaltoparent 1 
+
+                paintBackgroundtype 2
+                bgcolor_override "255 255 255 200"
+				roundedcorners "3"
+				
+            }	
+	timerlabel
 	{
 		"ControlName"			"cexlabel"
-		"fieldName"				"dddlabe"
-				ypos 187
-				xpos 8
+		"fieldName"				"timerlabel"
+				ypos 2
+				xpos 10
+				 fgcolor_override "0 0 0 250"
 		"font" "ItemFontNameSmall"
 		"labelText" "Ɩ"
 		"wide"					"10"
 		"tall"					"12"
 		"visible"				"1"
 		"enabled"				"1"
-
+		pin_to_sibling "MMDigits"
 	}
 	MMDigits
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MMDigits"
-				ypos 189
-				xpos 18
+				xpos r125
+				ypos rs1-3
 		"zpos"					"1"
 		"wide"					"10"
 		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
-		 //drawcolor "68 68 68 250"
+		 drawcolor "0 0 0 250"
 		"image"					"replay/thumbnails/old_timer/digits_1"
 		"scaleImage"			"1"
 	}
@@ -43,7 +57,7 @@
 		"enabled"				"1"
 		"image"					"replay/thumbnails/old_timer/digits_2"
 		"scaleImage"			"1"
-		 //drawcolor "68 68 68 250"
+		 drawcolor "0 0 0 250"
 		"pin_to_sibling"		"MMDigits"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -58,7 +72,7 @@
 		"zpos"					"1"
 		"wide"					"4"
 		"tall"					"10"
-		 //drawcolor "68 68 68 250"
+		 drawcolor "0 0 0 250"
 		"image"					"replay/thumbnails/old_timer/hmm"
 		"scaleImage"			"1"
 		"pin_to_sibling"		"MMDigits2"
@@ -78,7 +92,7 @@
 		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
-		 //drawcolor "68 68 68 250"
+		 drawcolor "0 0 0 250"
 		"image"					"replay/thumbnails/old_timer/digits_3"
 		"scaleImage"			"1"
 		"pin_to_sibling"		"MMhmm"	
@@ -98,7 +112,7 @@
 		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
-		 //drawcolor "68 68 68 250" 
+		 drawcolor "0 0 0 250" 
 		"image"					"replay/thumbnails/old_timer/digits_4"
 		"scaleImage"			"1"
 		"pin_to_sibling"		"MMDigits3"	
