@@ -83,7 +83,7 @@ Scheme
 
 		Menu.TextColor			"notodark"
 		Menu.BgColor			"DullWhite"
-		Menu.ArmedTextColor		"NotoGreen"
+		Menu.ArmedTextColor		"143 143 143 255"
 		Menu.ArmedBgColor		"notodark"
 		Menu.TextInset			"6"
 		Menu.Font "Code10"
