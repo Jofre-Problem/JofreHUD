@@ -510,7 +510,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"productsource"
+				"name"		"hwnjofre1"
 				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
@@ -526,12 +526,12 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" "1"
 			}
 		}
-		"DefaultVerySmall"
+		"DefaultVerySmall" // list panel keyboard
 		{
 			"1"
 			{
-				"name"		"productsource"
-				"tall"		"17"
+				"name"		"hwnjofre1"
+				"tall"		"19"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -691,8 +691,8 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"productsource"
-				"tall"		"14"
-				"wide"		"300"
+				"tall"		"16"
+				"wide"		"0"
 				"antialias" 	"1"
 			}
 		}  

@@ -342,7 +342,7 @@
 		"enabled"		"1"
 		"tabPosition"		"8"
 		"paintbackground"		"1"
-		"labelText"		"#ServerBrowser_SupportsReplays"
+		"labelText"		"#2"
 		"textAlignment"		"west"
 		//"wrap"		"0"
 		"Default"		"0"

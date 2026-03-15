@@ -10,7 +10,7 @@
 		"ypos"			"22"
 		"zpos"			"6"
 		"wide"			"54"
-		"tall"			"52"
+		"tall"			"51"
 		"visible"		"1"
 		paintBackgroundtype "2"
 		"bgcolor_override" "0 0 0 1"

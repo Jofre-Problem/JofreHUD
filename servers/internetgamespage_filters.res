@@ -18,6 +18,7 @@
         }		
         "QuickListCheck"
         {        
+				"labelText"		"#ServerBrowser_QuickListCheck2"
 	     "wide"                "120"
         }		
       "GameFilter"

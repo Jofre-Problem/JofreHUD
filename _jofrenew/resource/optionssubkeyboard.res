@@ -7,7 +7,7 @@
 		"xpos"		"8"
 		"ypos"		"10"
 		"wide"		"480"
-		"tall"		"258"
+		"tall"		"350"
 		//		"0"
 		//		"0"
 		"visible"		"1"
@@ -60,8 +60,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"Defaults"
-		"xpos"		"8"
-		"ypos"		"276"
+		"xpos"		"419"
+		"ypos"		"132"
 		"wide"		"134"
 		"tall"		"24"
 		//		"0"
@@ -81,8 +81,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"KeyAdvancedButton"
-		"xpos"		"148"
-		"ypos"		"276"
+		"xpos"		"419"
+		"ypos"		"160"
 		"wide"		"111"
 		"tall"		"24"
 		//		"0"
@@ -98,4 +98,20 @@
 		"Command"		"Advanced"
 		"Default"		"1"
 	}
+	"changekeybutton"
+	{
+		"ControlName"		"Button"
+		"xpos"		"419"
+		"ypos"		"190"
+		"wide"		"111"
+		"tall"		"24"
+	}	
+	"changekeybutton"
+	{
+		"ControlName"		"Button"
+		"xpos"		"419"
+		"ypos"		"225"
+		"wide"		"111"
+		"tall"		"24"
+	}		
 }
