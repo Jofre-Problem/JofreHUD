@@ -31,7 +31,7 @@ event HideButtonsMenu
 }
 event HideButtonsMenuChild
 {
-	 SetVisible FriendsContainer 0 0
+	 SetVisible FriendsContainerv2 0 0
 }
 
 event ShowButtonsMenu
@@ -40,7 +40,7 @@ event ShowButtonsMenu
 }
 event ShowButtonsMenuChild
 {
-	 SetVisible FriendsContainer 1 0
+	 SetVisible FriendsContainerv2 1 0
 }
 ///////////
 event UberTimerRun

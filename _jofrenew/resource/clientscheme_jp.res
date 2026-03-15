@@ -96,12 +96,22 @@ Scheme
 	}	
 	Fonts
 	{
-		
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"hwnjofre1"
+				"tall"		"11"
+				"blur"		"0"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}		
 		// Scream Fortress Fixes
 		"HudFontMediumSecondary"
 		{
-			"1" { "name" "ProductSans_LoadoutIcons" "tall" "28" "yres" "1 1199" "antialias" "1" }
-			"2" { "name" "ProductSans_LoadoutIcons" "tall" "18" "wide" "500" "antialias" "1" }
+			"1" { "name" "hwnjofre1" "tall" "28" "yres" "1 1199" "antialias" "1" }
+			"2" { "name" "hwnjofre1" "tall" "18" "wide" "500" "antialias" "1" }
 		}
 		"HudFontMediumSecondaryD"
 		{
@@ -110,11 +120,11 @@ Scheme
 		}				
 		"HudHintText"
 		{
-			"1" { "name" "mono" "tall" "13" "yres" "480 599" "antialias" "1" }
-			"2" { "name" "mono" "tall" "14" "yres" "600 767" "antialias" "1" }
-			"3" { "name" "mono" "tall" "15" "yres" "768 1023" "antialias" "1" }
-			"4" { "name" "mono" "tall" "21" "yres" "1024 1199" "antialias" "1" }
-			"5" { "name"  "mono" "tall" "10" "antialias" "1" }
+			"1" { "name" "mono" "tall" "11" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "mono" "tall" "11" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "mono" "tall" "13" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "mono" "tall" "19" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name"  "mono" "tall" "9" "antialias" "1" }
 		}
 
 		"HudFontGiant"

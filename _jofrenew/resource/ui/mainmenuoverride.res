@@ -18,13 +18,13 @@
 	{ 
 
 	//	"Visible"										"0"
-	 //	"Enabled"										"1"
-	 //	"ProportionalToParent"							"1"		
+	    "Enabled"										"1"
+	 	"ProportionalToParent"							"1"		
     }    
-		"FriendsContainer"
+		"FriendsContainerv2"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
+		"fieldname"		"FriendsContainerv2"
 		"xpos"			"cs-0.5"
 		"ypos"			"25"
 		"zpos"			"2001"
