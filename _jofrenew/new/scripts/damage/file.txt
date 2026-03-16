@@ -1,7 +1,7 @@
 event DamagedPlayer
 {
 	StopEvent 	DamagedPlayerMain	0.0
-	RunEvent 	DamagedPlayerMain      0.0001 //lol
+	RunEvent 	DamagedPlayerMain      0.01 //lol
 	// errors
 	// RunEventChild Mainmenuoverride DamageCMD 0.0	
 	//		Animate scores tall "480" linear 0.0 0.0

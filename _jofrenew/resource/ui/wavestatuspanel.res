@@ -13,7 +13,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"Size 12"
+		"font"			"itemfontnamesmall"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"0"

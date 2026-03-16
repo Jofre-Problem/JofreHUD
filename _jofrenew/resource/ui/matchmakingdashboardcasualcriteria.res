@@ -84,7 +84,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		//								"0"
-		"font"										"Size 16"
+		"font"										"itemfontnamelarger"
 		"textAlignment"								"center"
 		//									"0"
 		//								"0"

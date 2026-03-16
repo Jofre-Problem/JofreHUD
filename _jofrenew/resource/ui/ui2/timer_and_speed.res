@@ -13,6 +13,7 @@
 				roundedcorners "3"
 				visible 1
 				enabled 1
+				if_mvm{		"visible"		"0"}
             }	
 	timerlabel
 	{

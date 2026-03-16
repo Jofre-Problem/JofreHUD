@@ -753,16 +753,7 @@
 	//	 ↑UNTOUCHED↑	//
 	//	↓MENU IMAGES↓	//
 	//////////////////////	
-	"TEST:CTFItemCardPanel"
-	{
-		"ControlName"	"CTFItemCardPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
-		"tall"			"480"
-		"zpos"			"2000"
-		"visible"		"0"
-	}
+
 
 	"ADContainerTest"
 	{

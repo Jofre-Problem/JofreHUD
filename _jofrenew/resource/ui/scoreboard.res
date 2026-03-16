@@ -230,6 +230,7 @@
 		"enabled"			"1"
 		"image"				"replay/thumbnails/gradient"
 		"scaleImage"		"1"
+		if_mvm{		"visible"		"0"}
 	}		
 	"RedScoreBG2"
 	{
@@ -1285,7 +1286,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/kills"
 		"bg_image"		"replay/thumbnails/scoreboard/kills2"
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"assitsprogress" // you cant use pin on these vgui1 panels
@@ -1304,7 +1305,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/assits"
 		"bg_image"		"replay/thumbnails/scoreboard/assits_c"
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"capprogress" // you cant use pin on these vgui1 panels
@@ -1323,7 +1324,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/captures"
 		"bg_image"		"replay/thumbnails/scoreboard/captures_c"
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"domprogress" // you cant use pin on these vgui1 panels
@@ -1342,7 +1343,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/dominations"
 		"bg_image"		"replay/thumbnails/scoreboard/dominations_c"
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 
@@ -1362,7 +1363,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/death"
 		"bg_image"		"replay/thumbnails/scoreboard/death_c"
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"buildsprogress" // you cant use pin on these vgui1 panels
@@ -1381,7 +1382,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/builds_c"
 		"bg_image"		"replay/thumbnails/scoreboard/builds" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}		
 	"defprogress" // you cant use pin on these vgui1 panels
@@ -1400,7 +1401,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/defense"
 		"bg_image"		"replay/thumbnails/scoreboard/defense_c" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}		
 	"revprogress" // you cant use pin on these vgui1 panels
@@ -1419,7 +1420,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/revenge"
 		"bg_image"		"replay/thumbnails/scoreboard/revenge_c" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}		
 	// else
@@ -1437,7 +1438,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/headshot"
 		"bg_image"		"replay/thumbnails/scoreboard/headshot_c" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"uberprogress" // you cant use pin on these vgui1 panels
@@ -1455,7 +1456,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/uber"
 		"bg_image"		"replay/thumbnails/scoreboard/uber_c" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}	
 	"teleprogress" // you cant use pin on these vgui1 panels
@@ -1473,7 +1474,7 @@ if_mvm
 		"fg_image"		"replay/thumbnails/scoreboard/teleport"
 		"bg_image"		"replay/thumbnails/scoreboard/teleport_c" // whatever,  c stands for chroma
 		border "G_TargetBorder"
-	
+	if_mvm{		"visible"		"0"}
 
 	}			
 		"Kills"

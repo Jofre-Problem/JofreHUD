@@ -29,7 +29,7 @@
 		if_mvm
 		{
 			"xpos"					"0"
-			"ypos"					"70"
+			"ypos"					"0"
 			"wide"					"500"
 			"tall"					"180"
 
@@ -47,6 +47,10 @@
 
 			"color_ready"	"Green"
 			"color_notready"	"GrayDarkest"
+			if_mvm
+			{
+			"tall"			"30"
+			}
 
 			"HealthIcon"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(151/81)
 			{
