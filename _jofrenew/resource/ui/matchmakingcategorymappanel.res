@@ -10,6 +10,7 @@
 		"proportionaltoparent"						"1"
 
 		"skip_autoresize"							"1"
+
 	}
 
 	"MapCheckbutton"

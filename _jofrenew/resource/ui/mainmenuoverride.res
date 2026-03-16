@@ -13810,7 +13810,7 @@
 			"ControlName"		"CMatchHistoryEntryPanel"
 			"fieldName"		"TestPanel"
 			"wide"		"14"
-			"tall"		"184"	//same as collapsed_height?
+			"tall"		"400"	//same as collapsed_height?
 			"visible"	"1"
 			"ypos" "cs-0.5"
 			"xpos" "0"
@@ -13829,6 +13829,7 @@
 			{
 				"ControlName"	"Button"
 				"xpos"		"0"
+                ypos "cs-0.5"
 				"wide"		"f0"
 				"tall"		"184" // defines the tall
 				"visible"	"1"
@@ -13839,7 +13840,7 @@
 				"textAlignment"	"west"
 				"proportionaltoparent"	"1"
 				"button_activation_type"	"1"
-
+    
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -13849,21 +13850,6 @@
 				"armedbgcolor_override" "0 0 0 220"
 				"armedfgcolor_override" "notogreen"
 			}
-				"buttonimage"
-				{
-					"fieldName" "buttonimage"
-					"ControlName"	"imagepanel"
-					"xpos"			"0"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"mouseinputenabled" "0"
-					"wide"			"64"
-					"tall"			"512"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/buttonleft"
-				}			
 			"RandomPinnerThatWorks" //leftover
 			{
 				"ControlName"	"CExButton"
@@ -13885,10 +13871,10 @@
 				"fieldName"		"RandomImagePanel2"
 				"zpos"		"1"
 				"wide"		"182"
-				"tall"		"184"
+				"tall"		"400"
 				"visible"	"1"	
 				paintBackground "1"	
-				bgcolor_override "0 0 0 150"
+				bgcolor_override "0 0 0 205"
 				"pin_to_sibling"		"RandomPinnerThatWorks"
 
 				"Main1"			// other classes pinned to this
@@ -13897,88 +13883,46 @@
 					fieldName				"Main1"
 					"xpos"							"0"
 					"YPOS" "0"
-					"wide"							"182"
-					"tall"							"22"
+					"wide"							"60"
+					"tall"							"o1"
 					zpos	"300"
-					font					"G_FontSmall"
 					textAlignment			center
 					"actionsignallevel"		"3"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "blank"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "AssassinGrade"
-
+					"armedbgcolor_override" "0 0 0 100"
+                    depressedbgcolor_override "0 0 0 150"
+                    pin_to_sibling "album1"
 			
-					labelText				"Enable Dev Menu"
-					Command				"engine testhudanim showdevmenu"
+					labelText				""
+					Command				"engine play vo/songs/duncan.mp3"
 
 				}
-				"Main2"			// other classes pinned to this
+				"album1"			// other classes pinned to this
 				{
-					ControlName				CExButton
-					fieldName				"Main2"
-					"xpos"							"0"
-					"YPOS" "22"
-					"wide"							"182"
-					"tall"							"22"
-					zpos	"300"
-					font					"G_FontSmall"
-					textAlignment			center
-					"actionsignallevel"		"3"
-					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "AssassinGrade"
+					ControlName				imagepanel
+					fieldName				"album1"
+					"xpos"							"5"
+					"YPOS" "5"
+					"wide"							"60"
+					"tall"							"o1"
+                    scaleImage 1
+                    "image" "replay/thumbnails/songs/duncan_a_un_minuto_de_ti"
 
-			
-					labelText				"Hide Dev Menu"
-					Command				"engine testhudanim hidedevmenu"
-
-				}	
-				"soundlist"			// other classes pinned to this
+				}			
+				"album21"			// other classes pinned to this
 				{
-					ControlName				CExButton
-					fieldName				"soundlist"
-					"xpos"							"0"
-					"YPOS" "44"
-					"wide"							"182"
-					"tall"							"22"
-					zpos	"300"
-					font					"g_fonttiny_2"
-					textAlignment			center
-					"actionsignallevel"		"3"
-					paintbackground 			1
-					"defaultbgcolor_override" "g_brown2"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "AssassinGrade"
+					ControlName				imagepanel
+					fieldName				"album21"
+					"xpos"							"55"
+					"YPOS" "315"
+					"wide"							"60"
+					"tall"							"o1"
+                    scaleImage 1
+                    "image" "replay/thumbnails/songs/onsight"
 
-			
-					labelText				"soundlist"
-					Command				"engine soundlist"
-
-				}	
-				"snd_restart"			// other classes pinned to this
-				{
-					ControlName				CExButton
-					fieldName				"snd_restart"
-					"xpos"							"0"
-					"YPOS" "66"
-					"wide"							"182"
-					"tall"							"22"
-					zpos	"300"
-					font					"g_fonttiny_2"
-					textAlignment			center
-					"actionsignallevel"		"3"
-					paintbackground 			1
-					"defaultbgcolor_override" "g_brown2"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "AssassinGrade"
-
-			
-					labelText				"snd_restart"
-					Command				"engine snd_restart"
-
-				}									
+				}		                					
 			} // RandomImagePanel2 end
 		}	
 	
