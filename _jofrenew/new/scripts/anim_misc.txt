@@ -42,9 +42,10 @@ event ShowButtonsMenu
 event ShowButtonsMenuChild
 {
 	 SetVisible FriendsContainerv2 1 0
-
+	 SetVisible kanyestatic 0 0
+	 SetVisible kanyestaticplaying 1 0
 }
-event MusicPlaying
+event MusicPlaying // add child thing, that seems to work
 {
 	 SetVisible kanyestatic 0 0
 	 SetVisible kanyestaticplaying 1 0
