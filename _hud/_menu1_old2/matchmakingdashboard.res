@@ -155,7 +155,42 @@
 		}	
 
 
+                    "kanyestatic"			// other classes pinned to this
+                    {
+                        ControlName				imagepanel
+                        fieldName				"kanyestatic"
+                        "xpos"							"r250"
+                        "YPOS" "-2"
+                        "wide"							"22"
+                        "tall"							"o1"
+                        scaleImage 1
+                        proportionaltoparent "1"
+                        "image" "replay/thumbnails/songs/onsight_static"
 
+                    }	
+				"kanyestaticplaying"			// other classes pinned to this
+				{
+					ControlName				editablepanel
+					fieldName				"kanyestaticplaying"
+					"xpos"							"r247-p0.002"
+					"YPOS" "0"
+					"wide"							"18"
+					"tall"							"o1"
+					visible 0
+                    "aaa"			// other classes pinned to this
+                    {
+                        ControlName				imagepanel
+                        fieldName				"aaa"
+                        "xpos"							"cs-0.5"
+                        "YPOS" "cs-0.5"
+                        "wide"							"22"
+                        "tall"							"o1"
+                        scaleImage 1
+                        proportionaltoparent "1"
+                        "image" "replay/thumbnails/songs/onsight"
+
+                    }	
+				}						
 
 
 

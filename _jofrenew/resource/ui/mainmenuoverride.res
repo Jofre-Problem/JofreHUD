@@ -12,6 +12,7 @@
 //#base "../fallback/mainmenu.res"
 "j"
 {
+    
 	"SafeMode"
     // I have no idea why the position gets so broken so im doing this workaround
 	// EDIT: "ProportionalToParent"							"1"	 fucks this panel very bad for some reason
@@ -13896,9 +13897,31 @@
                     pin_to_sibling "album1"
 			
 					labelText				""
-					Command				"engine play vo/songs/duncan.mp3"
+					Command				"engine play vo/songs/duncan.mp3;sv_cheats 1; testhudanim MusicPlaying"
 
 				}
+				"Main2"			// other classes pinned to this
+				{
+					ControlName				CExButton
+					fieldName				"Main2"
+					"xpos"							"0"
+					"YPOS" "0"
+					"wide"							"60"
+					"tall"							"o1"
+					zpos	"300"
+					textAlignment			center
+					"actionsignallevel"		"3"
+					paintbackground 			1
+					"defaultbgcolor_override" "blank"
+					"defaultfgcolor_override" "Notowhite"
+					"armedbgcolor_override" "0 0 0 100"
+                    depressedbgcolor_override "0 0 0 150"
+                    pin_to_sibling "album2"
+			
+					labelText				""
+					Command				"engine play vo/songs/zar.mp3; sv_cheats 1; testhudanim MusicPlaying"
+
+				}                
 				"album1"			// other classes pinned to this
 				{
 					ControlName				imagepanel
@@ -13910,18 +13933,42 @@
                     scaleImage 1
                     "image" "replay/thumbnails/songs/duncan_a_un_minuto_de_ti"
 
-				}			
-				"album21"			// other classes pinned to this
+				}		
+				"album2"			// other classes pinned to this
 				{
 					ControlName				imagepanel
-					fieldName				"album21"
+					fieldName				"album2"
+					"xpos"							"5"
+					"YPOS" "0"
+					"wide"							"60"
+					"tall"							"o1"
+                    scaleImage 1
+                    "image" "replay/thumbnails/songs/zar_nunca_sin_ti"
+		pin_to_sibling 			"album1"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+				}	                	
+				"kanyeonsight"			// other classes pinned to this
+				{
+					ControlName				editablepanel
+					fieldName				"kanyeonsight"
 					"xpos"							"55"
 					"YPOS" "315"
 					"wide"							"60"
 					"tall"							"o1"
-                    scaleImage 1
-                    "image" "replay/thumbnails/songs/onsight"
+                    "aaa"			// other classes pinned to this
+                    {
+                        ControlName				imagepanel
+                        fieldName				"aaa"
+                        "xpos"							"cs-0.5"
+                        "YPOS" "cs-0.5"
+                        "wide"							"68"
+                        "tall"							"o1"
+                        scaleImage 1
+                        proportionaltoparent "1"
+                        "image" "replay/thumbnails/songs/onsight"
 
+                    }	
 				}		                					
 			} // RandomImagePanel2 end
 		}	

@@ -32,6 +32,7 @@ event HideButtonsMenu
 event HideButtonsMenuChild
 {
 	 SetVisible FriendsContainerv2 0 0
+
 }
 
 event ShowButtonsMenu
@@ -41,6 +42,18 @@ event ShowButtonsMenu
 event ShowButtonsMenuChild
 {
 	 SetVisible FriendsContainerv2 1 0
+
+}
+event MusicPlaying
+{
+	 SetVisible kanyestatic 0 0
+	 SetVisible kanyestaticplaying 1 0
+}
+
+event MusicStop
+{
+	 SetVisible kanyestatic 1 0
+	 SetVisible kanyestaticplaying 0 0
 }
 ///////////
 event UberTimerRun
