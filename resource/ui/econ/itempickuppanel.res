@@ -1,4 +1,593 @@
-	#base	"../../../_stream/resource/ui/econ/itempickuppanel.res"
-	#base	"../../../_jofrenew/resource/ui/econ/itempickuppanel.res"
-	#base	"../../../_opt/resource/ui/econ/itempickuppanel.res"
-	#base	"../../../z_tf2/resource/ui/econ/itempickuppanel.res"
+"Resource/UI/ItemPickupPanel.res"
+{
+	"item_pickup"
+	{
+		"ControlName"		"Frame"
+		"fieldName"		"item_pickup"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"f0"
+		"tall"			"480"
+		//"autoResize"		"0"
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//		"0"
+		"settitlebarvisible"	"0"
+		//
+		"bgcolor_override"	"Graydark"
+		"infocus_bgcolor_override" "Graydark"
+		"outoffocus_bgcolor_override" "Graydark"
+		
+		"modelpanels_spacing"		"40"
+		"modelpanels_width"			"500"
+		"modelpanels_height"		"260"
+		"modelpanels_ypos"			"110"
+		
+		
+		"modelpanelskv"	
+		{
+			"PaintBackgroundType"	"2"
+			"paintborder"			"1"
+			"bgcolor_override"		"blank"
+			
+			"model_xpos"	"0"
+			"model_center_y"	"1"
+			"model_tall"	"160"
+			"model_wide"	"240"
+			
+			"text_forcesize"	"1"
+			"text_xpos"		"245"
+			"text_wide"		"230"
+			"text_center"	"1"
+			"is_mouseover"		"1"
+			"hide_collection_panel" "1"
+			
+			"itemmodelpanel"
+			{
+				"use_item_rendertarget" "0"
+				"inventory_image_type" "1"
+			}
+		}
+	}
+	
+	"classimageoutline"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"classimageoutline"
+		"xpos"			"c208"
+		"ypos"			"115"
+		"zpos"			"6"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1" 	
+		paintBackgroundtype "2"
+		"bgcolor_override" "0 0 0 255"
+	}
+	"classimageoutline2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"classimageoutline2"
+		"xpos"			"c208"
+		"ypos"			"115"
+		"zpos"			"6"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		paintBackgroundtype "2"
+		"bgcolor_override" "0 0 0 255"
+	}	
+	"classimage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"classimage"
+		"xpos"			"c211"
+		"ypos"			"118"
+		"zpos"			"8"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"achievements/tf_medic_heal_grind"
+		"scaleImage"	"1"
+	}
+	"reze"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"reze"
+		"xpos"			"c211"
+		"ypos"			"118"
+		"zpos"			"7"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/reze2_low"
+		"scaleImage"	"1"
+	}
+		
+	"ItemsFoundLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemsFoundLabel"
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"#NewItemsAcquired"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"35"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"SelectedItemFoundMethodLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SelectedItemFoundMethodLabel"
+		"font"			"HudFontMediumSmallBold"
+		"labelText"		""
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"75"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"35"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"ItemCountLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ItemCountLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#Item"
+		"textAlignment"	"north-west"
+		"xpos"			"c-245"
+		"ypos"			"115"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"10"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"SelectedItemNumberLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"SelectedItemNumberLabel"
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"#SelectedItemNumber"
+		"textAlignment"	"north-west"
+		"xpos"			"c-245"
+		"ypos"			"120"
+		"zpos"			"5"
+		"wide"			"120"
+		"tall"			"40"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"ValveAreDumb"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ValveAreDumb"
+		"font"			"itemicons6"
+		"labelText"		"ǥ Having problems getting out of this menu? ¤ Press the Enter Key on your keyboard to exit!"
+		"textAlignment"	"center"
+		"xpos"			"cs-0.5"
+		"ypos"			"8"
+		"zpos"			"2"
+		"wide"			"220"
+		"tall"			"16"
+		bgcolor_override "TransparentBlack"
+		"fgcolor_override"	"notowhite"
+	}	
+	"BackShortKey"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey"
+		"xpos"										"9999"
+		"labelText"									"&E"
+		"Command"									"next"
+		"visible"									"1"
+	}	
+	"BackShortKey2"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey2"
+		"xpos"										"9999"
+		"labelText"									"&S"
+		"Command"									"screenshot"
+		"visible"									"1"
+	}	
+	"BackShortKey3"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"BackShortKey3"
+		"xpos"										"9999"
+		"labelText"									"&B"
+		"Command"									"url https://next.backpack.tf"
+		"visible"									"1"
+	}			
+				"screenshotttbbb"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"screenshotttbbb"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		" ¤"
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "west"
+					mouseinputenabled 0
+					pin_to_sibling "screenshottt"
+				}					
+				"screenshotttbbb2"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"screenshotttbbb2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		"S "
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "east"
+					mouseinputenabled 0
+					pin_to_sibling "screenshottt"
+				}			
+				"screenshottt"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"screenshottt"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1-30"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"ʇ"
+				font "ItemFontnamesmall"
+					"Command"		"screenshot"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+				
+				}	
+				"bptflabbbb"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"bptflabbbb"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		" ¤"
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "west"
+					mouseinputenabled 0
+					pin_to_sibling "bptf"
+				}					
+				"bptflabbbb2"
+				{
+					"ControlName"	"cexlabel"
+					"fieldName"		"bptflabbbb2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"10" //56 / 3 ) 14
+				"labelText"		"B "
+				font "itemicons6"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "east"
+					mouseinputenabled 0
+					pin_to_sibling "bptf"
+				}					
+				"bptf"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"bptf"
+		"xpos"			"cs-0.5"
+		"ypos"			"rs1"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ǿ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://next.backpack.tf"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+				
+				}		
+				"mmm"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"mmm"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ƿ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://mannco.store/tf2"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"bptf"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"					
+				}	
+				"mmm2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"mmm2"
+		"xpos"			"0"
+		"ypos"			"0"
+				"zpos"				"201"
+				"wide"			"30"
+				"tall"			"30" //56 / 3 ) 14
+				"labelText"		"Ƕ"
+				font "ItemFontnamesmall"
+					"Command"		"url https://marketplace.tf/browse/"
+					"actionsignallevel"	"2"
+					"proportionaltoparent"	"1"
+					"textAlignment" "center"
+					paintBackground 1
+					"armedfgColor_override"		"249 249 249 255"
+					"depressedfgcolor_override" "0 0 0 160"
+		pin_to_sibling 			"bptf"
+		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"					"PIN_TOPLEFT"					
+				}									
+	"NextButton"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"NextButton"
+		"xpos"			"c195"
+		"ypos"			"350"
+		"zpos"			"1"
+		"wide"			"70"
+		"tall"			"30"
+		
+		//		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		"labelText"		"#NextItem"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		////		"0"
+		
+		"Command"		"nextitem"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"PrevButton"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"PrevButton"
+		"xpos"			"c-265"
+		"ypos"			"350"
+		"zpos"			"1"
+		"wide"			"70"
+		"tall"			"30"
+		
+		//		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		"labelText"		"#PreviousItem"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		////		"0"
+		
+		"Command"		"previtem"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"rs1"
+		"ypos"			"rs1"
+		"zpos"			"6"
+		"wide"			"250"
+		"tall"			"30"
+		
+		//		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		"labelText"		"#CloseItemPanel"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		////		"0"
+		
+		"Command"		"vguicancel"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"OpenLoadoutButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"OpenLoadoutButton"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"6"
+		"wide"			"250"
+		"tall"			"30"
+		
+		//		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		"labelText"		"%loadouttext%"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		////		"0"
+		
+		"Command"		"changeloadout"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"DiscardButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"DiscardButton"
+		"xpos"			"c224"
+		"ypos"			"155"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+		"labelText"		"ь"
+		"font"			"itemfontnamesmall"
+		"textAlignment"	"center"
+		////		"0"
+		paintBackgroundtype 2
+		"Command"		"discarditem"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override" "117 107 94 255"
+		"armedBgColor_override" "145 73 59 255"
+		"depressedBgColor_override" "117 107 94 255"
+			
+		"image_drawcolor"	"235 226 202 255"		
+		"image_armedcolor"	"235 226 202 255"		
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"icon_trash_on"
+			"scaleImage"	"1"
+			"paintbackgroundtype" "0"
+			"proportionaltoparent"	"1"
+		}				
+	}		
+	"DiscardButtonTooltip"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"DiscardButtonTooltip"
+		"xpos"			"c180"
+		"ypos"			"175"
+		"zpos"			"11"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"#DiscardItem"
+			"textAlignment"	"center"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"80"
+			"tall"			"50"
+			
+			//		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"235 226 202 255"
+			"wrap"			"1"
+			"centerwrap"	"1"
+		}
+	}
+	"DiscardedLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DiscardedLabel"
+		"font"			"HudFontMediumBold"
+		"labelText"		"#Discarded"
+		"textAlignment"	"center"
+		"xpos"			"c-215"
+		"ypos"			"210"
+		"zpos"			"5"
+		"wide"			"420"
+		"tall"			"60"
+		
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "200 80 60 255"
+		"bgcolor_override"	"Graydark"
+	}
+	
+	"ScoreEntry"
+	{
+		"ControlName"		"TextEntry"
+		"fieldName"			"ScoreEntry"
+		"xpos"				"c-100"
+		"ypos"				"380"
+		"wide"				"200"
+		"tall"				"16"
+		//"autoResize"		"0"
+		//			"0"
+		"visible"			"0"
+		"enabled"			"0"
+		//		"0"
+		"textHidden"		"0"
+		"editable"			"1"
+		"maxchars"			"5"
+		"NumericInputOnly"	"0"
+		"unicode"			"0"
+		"wrap"				"0"
+		"fgcolor_override"	"235 226 202 255"
+		"bgcolor_override"	"black"
+		"labelText"			"Enter Score Here"
+		"textAlignment"		"center"
+	}
+}

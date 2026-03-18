@@ -1,4 +1,14 @@
-	//#base	"../../_stream/resource/ui/videopanel.res"
-	#base	"../../_jofrenew/resource/ui/videopanel.res"
-//	#base	"../../_opt/resource/ui/videopanel.res"
-	#base	"../../z_tf2/resource/ui/videopanel.res"
+"Resource/UI/VideoPanel.res"
+{
+	BaseSettings
+	{
+		Frame.FocusTransitionEffectTime	"0.3"
+		Frame.TransitionEffectTime		"0.3"
+		"keyboardinputenabled"	"0"
+	}
+
+	"videopanel"
+	{
+		"keyboardinputenabled"	"0"
+	}
+}

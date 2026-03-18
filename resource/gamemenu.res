@@ -1,4 +1,34 @@
-#base "../_log/resource/gamemenu.res"
-#base "../_jofrenew/resource/gamemenu.res"
-//#base "../_opt/resource/gamemenu.res"
-//#base "../z_tf2/resource/gamemenu.res"
+"GameMenu" 
+{
+    "CallVoteButton2"
+{
+"label""Æ"
+"command""callvote"
+"OnlyInGame""1"
+}
+"MutePlayersButton2"
+{
+"label""Ä"
+"command""OpenMutePlayerDialog"
+"OnlyInGame""1"
+}
+
+	"MenuColorizer" //for bg
+	{
+		"command"									"engine none"
+		"label" 									""
+		"OnlyAtMenu" "1"
+	}
+		"ContainerBG0" //for bg
+	{
+		"command"									"engine none"
+		"label" 									""
+		"OnlyAtMenu" "1"
+	}
+		"CharaBG0" //for bg
+	{
+		"command"									"engine none"
+		"label" 									""
+		"OnlyAtMenu" "1"
+	}	
+}

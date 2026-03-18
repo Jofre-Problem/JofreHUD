@@ -1,4 +1,28 @@
-	//#base	"../../_stream/resource/ui/mvmstatentry.res"
-	#base	"../../_jofrenew/resource/ui/mvmstatentry.res"
-//	#base	"../../_opt/resource/ui/mvmstatentry.res"
-	#base	"../../z_tf2/resource/ui/mvmstatentry.res"
+"Resource/UI/MvMStatEntry.res"
+{	
+	"ItemLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemLabel"
+		"font"			"HudFontSmall"
+		"labelText"		"%labeltext%"
+		"textAlignment" "north-west"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"70"
+		"fgcolor"		"tanlight"
+	}
+	
+	"ItemValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemValue"
+		"font"			"HudFontSmall"
+		"labelText"		"%valuetext%"
+		"textAlignment" "north-east"
+		"xpos"			"70"
+		"ypos"			"0"
+		"wide"			"70"
+		"fgcolor"		"tanlight"
+	}
+}

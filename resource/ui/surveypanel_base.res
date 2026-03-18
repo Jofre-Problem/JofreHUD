@@ -1,4 +1,11 @@
-	//#base	"../../_stream/resource/ui/surveypanel_base.res"
-	#base	"../../_jofrenew/resource/ui/surveypanel_base.res"
-//	#base	"../../_opt/resource/ui/surveypanel_base.res"
-	#base	"../../z_tf2/resource/ui/surveypanel_base.res"
+"Resource/UI/SurveyPanel_Base.res"
+{
+	"Survey"
+	{
+		"fieldName"		"Survey"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"tall"			"0"
+		"visible"		"1"
+		}
+	}	

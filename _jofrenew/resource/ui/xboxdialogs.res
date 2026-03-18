@@ -1,5 +1,0 @@
-"resource/XboxDialogs.res"
-{
-
-
-}

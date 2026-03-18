@@ -43,6 +43,7 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"35"
 
+				"textAlignment"	"center"
 
 				"fonts"
 				{
@@ -55,6 +56,8 @@
 
 		"StatsContainer"
 		{
+			"visible"		"1"
+
 			if_mini
 			{
 				"xpos"	"cs-0.5"
@@ -68,9 +71,12 @@
 
 				"CurrentXPLabel"
 				{
+					"visible"		"1"
+
 					if_mini
 					{
 						"xpos"			"cs-0.5"
+						"textAlignment"	"center"
 					}
 				}
 

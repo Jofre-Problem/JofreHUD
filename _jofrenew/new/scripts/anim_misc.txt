@@ -45,16 +45,24 @@ event ShowButtonsMenuChild
 	 SetVisible kanyestatic 0 0
 	 SetVisible kanyestaticplaying 1 0
 }
-event MusicPlaying // add child thing, that seems to work
+event MusicPlayingChild
 {
 	 SetVisible kanyestatic 0 0
 	 SetVisible kanyestaticplaying 1 0
 }
 
-event MusicStop
+event MusicPlaying // add child thing, that seems to work
+{
+	RunEventChild MainMenuOverride MusicPlayingChild 0.0
+}
+event MusicStopChild
 {
 	 SetVisible kanyestatic 1 0
 	 SetVisible kanyestaticplaying 0 0
+}
+event MusicStop
+{
+	RunEventChild MainMenuOverride MusicStopChild 0.0
 }
 ///////////
 event UberTimerRun

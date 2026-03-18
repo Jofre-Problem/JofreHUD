@@ -1,1 +1,0 @@
-#base "mapinfomenu.res"

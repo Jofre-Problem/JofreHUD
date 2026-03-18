@@ -1,4 +1,17 @@
-	//#base	"../../_stream/resource/ui/classmenu.res"
-	#base	"../../_jofrenew/resource/ui/classmenu.res"
-//	#base	"../../_opt/resource/ui/classmenu.res"
-	#base	"../../z_tf2/resource/ui/classmenu.res"
+"Resource/UI/ClassMenu.res"
+{
+	"class"
+	{
+		"ControlName"	"CClassMenu"
+		"fieldName"		"class"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		//	"0"
+		//		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//	"0"
+	}
+}
