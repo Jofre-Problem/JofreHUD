@@ -6,8 +6,8 @@
 		"fieldName"		"SaxxySubmitForm"
 		"xpos"			"c-160"
 		"ypos"			"c-75"
-		"wide"			"320"
-		"tall"			"150"
+		"wide"			"1"
+		"tall"			"1"
 		
 		//		"0"
 		"visible"		"1"

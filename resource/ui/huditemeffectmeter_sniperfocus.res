@@ -1,4 +1,16 @@
-	//#base	"../../_stream/resource/ui/huditemeffectmeter_sniperfocus.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_sniperfocus.res"
-//	#base	"../../_opt/resource/ui/huditemeffectmeter_sniperfocus.res"
-	#base	"../../z_tf2/resource/ui/huditemeffectmeter_sniperfocus.res"
+#base "huditemeffectmeter.res"
+
+//Hitman's heatmaker
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"c135"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
+	}
+
+}

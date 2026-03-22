@@ -1,1 +1,0 @@
-#base "../base/filesv2/label/main.res"

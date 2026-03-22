@@ -1,7 +1,0 @@
-#base "base/filesv1/avatarbgpanel/main.res"
-#base "base/filesv1/avatarbgpanel/contentwith36.res"
-#base "base/filesv1/avatarbgpanel/bgcolor.res"
-#base "base/filesv1/avatarimage/main.res"
-#base "base/filesv1/avatarimage/enabled.res"
-#base "base/filesv1/avatarimage/color.res"
-#base "base/filesv1/avatarimage/contentwith32.res"

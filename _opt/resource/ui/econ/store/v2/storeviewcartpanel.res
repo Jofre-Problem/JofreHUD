@@ -1,8 +1,0 @@
-#base "../../../../base/reload_scheme.res"
-#base "../../../base/filesv2/footerline/main.res"
-#base "../../../base/filesv2/bgfooter/main.res"
-#base "../../../base/filesv2/bgheader/main.res"
-	#base "../../../base/filesv2/footerline/main.res"
-	#base "../../../base/filesv2/footerline/xpos0.res"
-	#base "../../../base/filesv2/footerline/ypos420.res"
-	#base "../../../base/filesv2/footerline/zpos2.res"	

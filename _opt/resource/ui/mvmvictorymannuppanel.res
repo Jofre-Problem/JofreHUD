@@ -1,8 +1,0 @@
-#base "base/filesv2/headerline/main.res"
-#base "base/filesv2/headerline/zpos_2.res"
-#base "base/filesv2/headerline/image1.res"
-	#base "base/filesv2/footerline/main.res"
-	#base "base/filesv2/footerline/xpos0.res"
-	#base "base/filesv2/footerline/zpos2.res"
-	#base "base/filesv1/mouseoveritem/mouse_main.res"
-	#base "base/filesv1/mouseoveritem/mouseoveritem3.res"

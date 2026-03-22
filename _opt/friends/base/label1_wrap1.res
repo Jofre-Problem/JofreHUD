@@ -1,1 +1,0 @@
-#base "../../#uni_base/filesv1/label1/wrap1.res"

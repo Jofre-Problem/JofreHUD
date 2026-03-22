@@ -1,5 +1,0 @@
-#base "base/filesv1/rankpanel/main.res"
-#base "base/filesv1/rankpanel/cpvp.res"
-#base "base/filesv1/rankpanel/content2.res"
-#base "base/filesv1/rankpanel/x_cs-0.5.res"
-#base "base/filesv1/rankpanel/matchgroup_12.res"

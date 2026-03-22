@@ -1,1 +1,0 @@
-#base "res_base/lobbypanel_cc.res"

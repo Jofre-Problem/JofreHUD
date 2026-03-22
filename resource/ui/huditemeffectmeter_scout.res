@@ -1,4 +1,16 @@
-	//#base	"../../_stream/resource/ui/huditemeffectmeter_scout.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_scout.res"
-//	#base	"../../_opt/resource/ui/huditemeffectmeter_scout.res"
-	#base	"../../z_tf2/resource/ui/huditemeffectmeter_scout.res"
+#base "huditemeffectmeter.res"
+
+//Scout drinks
+"Resource/UI/HudItemEffectMeter_Scout.res"
+{
+	HudItemEffectMeter
+	{
+		xpos "cs-0.5"
+		"ypos"			"c96"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
+	}
+}

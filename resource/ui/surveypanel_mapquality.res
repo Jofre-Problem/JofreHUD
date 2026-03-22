@@ -1,5 +1,1 @@
-	//#base	"../../_stream/resource/ui/surveypanel_mapquality.res"
-	#base	"../../_jofrenew/resource/ui/surveypanel_mapquality.res"
-//	#base	"../../_opt/resource/ui/surveypanel_mapquality.res"
-	//#base	"../../_opt/_tf2fix/resource/ui/surveypanel_mapquality.res"
-//	#base	"../../z_tf2/resource/ui/surveypanel_mapquality.res"
+#base	"SurveyPanel_Base.res"

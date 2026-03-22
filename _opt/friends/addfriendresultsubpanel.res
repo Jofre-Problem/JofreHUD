@@ -1,1 +1,0 @@
-#base "addfriend_base.res"

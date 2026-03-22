@@ -1,6 +1,0 @@
-#base "res_base/questlogpanel.res"
-#base "base/maincontainer/main.res"
-#base "base/maincontainer/zpos10.res"
-#base "base/maincontainer/widef0.res"
-#base "base/maincontainer/border_mm.res"
-#base "base/maincontainer/upperline/main.res"

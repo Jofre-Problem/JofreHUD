@@ -1,1 +1,0 @@
-#base "base/scheme/_videopanelscheme.res"

@@ -1,1 +1,0 @@
-#base "econ/base/maincontainer/main.res"

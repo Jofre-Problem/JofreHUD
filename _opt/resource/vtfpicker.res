@@ -1,1 +1,0 @@
-#base "res_base/vmt_vtf_picker.res"

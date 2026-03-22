@@ -13,7 +13,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-"CyclingAd"
+"CyclingAd" [$WINDOWS]
 {
 "ControlName""CCyclingAdContainerPanel"
 "fieldName""CyclingAd"
@@ -56,7 +56,7 @@
 				{
 					"wide"		"0"
 				}
-	"TitleScreenRain"
+	"TitleScreenRain" 
 	{
 		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"TitleScreenRain"

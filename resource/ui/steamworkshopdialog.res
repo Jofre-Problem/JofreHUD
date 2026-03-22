@@ -65,7 +65,7 @@
 		"zpos"				"5000"
 		"wide"				"23"
 		"tall"	"o1"
-		"image"				"replay/thumbnails/windows"[$WINDOWS]
+		"image"				"replay/thumbnails/windows" [$WINDOWS]
 		"image"			"replay/thumbnails/linux" [$LINUX]
 		"scaleImage"	"1"
 	}	

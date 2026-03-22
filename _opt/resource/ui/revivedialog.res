@@ -1,1 +1,0 @@
-#base "../../#uni_base/filesv2/confirmdialog/main.res"

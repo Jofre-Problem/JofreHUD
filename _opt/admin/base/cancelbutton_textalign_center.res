@@ -1,1 +1,0 @@
-#base "../../#uni_base/filesv1/cancelbutton/text/center.res"

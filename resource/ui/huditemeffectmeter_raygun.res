@@ -1,4 +1,15 @@
-	//#base	"../../_stream/resource/ui/huditemeffectmeter_raygun.res"
-	#base	"../../_jofrenew/resource/ui/huditemeffectmeter_raygun.res"
-//	#base	"../../_opt/resource/ui/huditemeffectmeter_raygun.res"
-	#base	"../../z_tf2/resource/ui/huditemeffectmeter_raygun.res"
+#base "huditemeffectmeter.res"
+
+//Bison
+"Resource/UI/HudItemEffectMeter_Raygun.res"
+{
+	HudItemEffectMeter
+	{
+		"ypos"			"c93"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"labelText"				"#TF_ENERGYDRINK"
+	}
+}
