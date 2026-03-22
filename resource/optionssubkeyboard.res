@@ -5,9 +5,9 @@
 		"ControlName"		"SectionedListPanel"
 		"fieldName"		"listpanel_keybindlist"
 		"xpos"		"8"
-		"ypos"		"0"
+		"ypos"		"10"
 		"wide"		"480"
-		"tall"		"308"
+		"tall"		"350"
 		//		"0"
 		//		"0"
 		"visible"		"1"
@@ -39,11 +39,11 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ClearKeyButton"
-		"xpos"		"419"
+		"xpos"		"384"
 		"ypos"		"276"
 		"wide"		"105"
 		"tall"		"24"
-		zpos 111
+		//		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -64,7 +64,7 @@
 		"ypos"		"132"
 		"wide"		"134"
 		"tall"		"24"
-		zpos 111
+		//		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -85,7 +85,7 @@
 		"ypos"		"160"
 		"wide"		"111"
 		"tall"		"24"
-		zpos 111
+		//		"0"
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"

@@ -1,2 +1,66 @@
-#base "../_opt/resource/bxsavedocumentquery.res"
-#base "../z_hl2/resource/bxsavedocumentquery.res"
+"resource/BxSaveDocumentQuery.res"
+{
+	"SaveDocumentQuery"
+	{
+		"ControlName"		"CSaveDocumentQuery"
+		"xpos"		"362"
+		"ypos"		"324"
+		"wide"		"300"
+		"tall"		"120"
+		//		"0"
+		//		"0"
+		//		"0"
+		"title"		"#BxSaveChanges"
+	}
+	"SaveChangesLabel"
+	{
+		"ControlName"		"Label"
+		"xpos"		"17"
+		"ypos"		"43"
+		"wide"		"264"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Save changes to test.dme"
+	}
+	"Yes"
+	{
+		"ControlName"		"Button"
+		"xpos"		"47"
+		"ypos"		"87"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Yes"
+		"Command"		"yes"
+	}
+	"No"
+	{
+		"ControlName"		"Button"
+		"xpos"		"120"
+		"ypos"		"87"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"No"
+		"Command"		"no"
+	}
+	"Cancel"
+	{
+		"ControlName"		"Button"
+		"xpos"		"193"
+		"ypos"		"87"
+		"wide"		"64"
+		"tall"		"24"
+		//		"0"
+		//		"0"
+		//		"0"
+		"labelText"		"Cancel"
+		"Command"		"cancel"
+	}
+}

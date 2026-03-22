@@ -3,54 +3,72 @@
 	"AssetPickerFrame"
 	{
 		"ControlName"	"CAssetPickerFrame"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"268"
-		"tall"			"380"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"AssetPickerFrame"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"268"
+		//"tall"			"380"
+		
+		
+		////"visible"		"1"
+		
+		
+		"settitlebarvisible"	"1"
+		"title"		"Select Asset"
 		
 		"OpenButton"
 		{
 			"ControlName"		"Button"
-			"xpos"		"6"
-			"ypos"		"350"
-			"wide"		"122"
-			"tall"		"24"
-			//		"0"
-			//		"2"
-			//		"2"
-			"labelText"		"Open"
-			////		"0"
-			////		"0"
+			"fieldName"		"OpenButton"
+			//"xpos"		"6"
+			//"ypos"		"350"
+			//"wide"		"122"
+			//"tall"		"24"
+			
+			//"pinCorner"		"2"
+			////"visible"		"1"
+			
+			//"tabPosition"		"2"
+			////"labelText"		"Open"
+			//"textAlignment"		"center"
+			//////"dulltext"		"0"
+			////"brighttext"		"0"
+			////"Default"		"1"
 		}
 
 		"CancelButton"
 		{
 			"ControlName"		"Button"
-			"xpos"		"140"
-			"ypos"		"350"
-			"wide"		"122"
-			"tall"		"24"
-			//	"0"
-			//		"2"
-			//	"3"
-			"labelText"		"Cancel"
-			////		"0"
-			////		"0"
+			"fieldName"		"CancelButton"
+			//"xpos"		"140"
+			//"ypos"		"350"
+			//"wide"		"122"
+			//"tall"		"24"
+			
+			//"pinCorner"		"2"
+			////"visible"		"1"
+			
+			//"tabPosition"	"3"
+			////"labelText"		"Cancel"
+			//"textAlignment"	"center"
+			//////"dulltext"		"0"
+			////"brighttext"		"0"
+			//"Default"		"0"
 		}
 		
 		"AssetPicker"
 		{
 			"ControlName"	"CAssetPicker"
-			"xpos"			"0"
-			"ypos"			"28"
-			"wide"			"268"
-			"tall"			"320"
-			//	"3"
-			//		"0"
-			//	"1"
+			"fieldName"		"AssetPicker"
+			
+			//"ypos"			"28"
+			//"wide"			"268"
+			//"tall"			"320"
+			//"autoResize"	"3"
+			
+			////"visible"		"1"
+			
+			//"tabPosition"	"1"
 		}
 	}
 }

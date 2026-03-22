@@ -25,7 +25,6 @@
 				//"PinnedCornerOffsetX" "6"
 				//"PinnedCornerOffsetY" "-6"
 				//	"1"
-				"editable"		"0"
 				"maxchars"		"-1"
 			}
 

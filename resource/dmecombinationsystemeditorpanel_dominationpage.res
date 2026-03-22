@@ -3,34 +3,40 @@
 	"DominationRules"
 	{
 		"ControlName"	"CDmeCombinationDominationRulesPanel"
-		"xpos"			"6"
-		"ypos"			"6"
-		"wide"			"256"
-		"tall"			"256"
-		//	"0"
-		//		"0"
-		//	"0"
-		//	"3"
-		//		"0"
-		//"PinnedCornerOffsetX" "0"
-		//"PinnedCornerOffsetY" "0"
-		//"PinnedCornerOffsetY" "0"
-		//"UnpinnedCornerOffsetY" "0"
+		"fieldName"		"DominationRules"
+		//"xpos"			"6"
+		//"ypos"			"6"
+		//"wide"			"256"
+		//"tall"			"256"
+		
+		
+		////"visible"		"1"
+		
+		
+		//"autoResize"	"3"
+		
+		
+		
+		
+		
 	
 		"DominationRulesList"
 		{
 			"ControlName"	"ListPanel"
-			"xpos"			"6"
-			"ypos"			"6"
-			"wide"			"256"
-			"tall"			"256"
-			//	"3"
-			//		"0"
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "6"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
-			//	"0"
+			"fieldName"		"DominationRulesList"
+			//"xpos"			"6"
+			//"ypos"			"6"
+			//"wide"			"256"
+			//"tall"			"256"
+			//"autoResize"	"3"
+			
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "6"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
+			////"visible"		"1"
+			
+			
 		}
 	}
 }

@@ -3,48 +3,63 @@
 	"MDLSequencePicker"
 	{
 		"ControlName"	"CMDLSequencePicker"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"640"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"MDLSequencePicker"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"640"
+		//"tall"			"480"
+		
+		
+		////"visible"		"1"
+		
+		
+		"settitlebarvisible"	"1"
+		"title"		"#Frame_Untitled"
 		
 		"MDLSplitter"
 		{
 			"ControlName"	"Splitter"
+			"fieldName"		"MDLSplitter"
+			////"visible"		"1"
+			
+			
 			"child0"
 			{
 				"FilterList"
 				{
 					"ControlName"	"ComboBox"
-					"xpos"			"11"
-					"ypos"			"19"
-					"wide"			"292"
-					"tall"			"24"
-					//	"1"
-					//		"0"
-					//"PinnedCornerOffsetY" "-6"
-					//	"0"
+					"fieldName"		"FilterList"
+					//"xpos"			"11"
+					//"ypos"			"19"
+					//"wide"			"292"
+					//"tall"			"24"
+					//"autoResize"	"1"
+					
+					////"PinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					
 					"textHidden"	"0"
-					"editable"		"1"
-					"maxchars"		"-1"
-					"NumericInputOnly"		"0"
-					"unicode"		"0"
+					//"editable"		"1"
+					//"maxchars"		"-1"
+					//"NumericInputOnly"		"0"
+					//"unicode"		"0"
 				}
 				"FileTree"
 				{
 					"ControlName"	"CFileTreeView"
-					"xpos"			"11"
-					"ypos"			"53"
-					"wide"			"292"
-					"tall"			"542"
-					//	"3"
-					//		"0"
-					//"PinnedCornerOffsetY" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
-					//		"0"
+					"fieldName"		"FileTree"
+					//"xpos"			"11"
+					//"ypos"			"53"
+					//"wide"			"292"
+					//"tall"			"542"
+					//"autoResize"	"3"
+					
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					
 				}
 			}
 			
@@ -53,27 +68,33 @@
 				"SequenceSplitter"
 				{
 					"ControlName"	"Splitter"
-					//	"3"
-					//		"0"
-					"xpos"			"0"
-					"ypos"			"0"
-					//"PinnedCornerOffsetY" "0"
-					//"UnpinnedCornerOffsetY" "0"
+					"fieldName"		"SequenceSplitter"
+					////"visible"		"1"
+					
+					//"autoResize"	"3"
+					
+					
+					
+					
+					
 					
 					"child0"
 					{
 						"MDLPreview"
 						{
 							"ControlName"	"MDLPanel"
-							"xpos"			"6"
-							"ypos"			"6"
-							"wide"			"256"
-							"tall"			"256"
-							//	"3"
-							//		"0"
-							//"PinnedCornerOffsetY" "-6"
-							//"UnpinnedCornerOffsetY" "-6"
-							//	"0"
+							"fieldName"		"MDLPreview"
+							//"xpos"			"6"
+							//"ypos"			"6"
+							//"wide"			"256"
+							//"tall"			"256"
+							//"autoResize"	"3"
+							
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-6"
+							////"visible"		"1"
+							
+							
 						}
 					}
 					
@@ -82,15 +103,18 @@
 						"ViewsSheet"
 						{
 							"ControlName"	"PropertySheet"
-							"xpos"			"6"
-							"ypos"			"6"
-							"wide"			"256"
-							"tall"			"256"
-							//	"3"
-							//		"0"
-							//"PinnedCornerOffsetY" "-6"
-							//"UnpinnedCornerOffsetY" "-6"
-							//	"0"
+							"fieldName"		"ViewsSheet"
+							//"xpos"			"6"
+							//"ypos"			"6"
+							//"wide"			"256"
+							//"tall"			"256"
+							//"autoResize"	"3"
+							
+							////"PinnedCornerOffsetY" "-6"
+							////"UnpinnedCornerOffsetY" "-6"
+							////"visible"		"1"
+							
+							
 						}
 					}
 				}

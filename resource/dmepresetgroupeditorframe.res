@@ -3,43 +3,56 @@
 	"DmePresetGroupEditorFrame"
 	{
 		"ControlName"	"CDmePresetGroupEditorFrame"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"480"
-		"tall"			"380"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"DmePresetGroupEditorFrame"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"480"
+		//"tall"			"380"
+		
+		
+		////"visible"		"1"
+		
+		
+		"settitlebarvisible"	"1"
+		"title"		"Manage Presets"
 		
 		"OkButton"
 		{
 			"ControlName"		"Button"
-			"xpos"		"6"
-			"ypos"		"350"
-			"wide"		"122"
-			"tall"		"24"
-			//		"0"
-			//		"2"
-			//		"2"
-			"labelText"		"Ok"
-			////		"0"
-			////		"0"
+			"fieldName"		"OkButton"
+			//"xpos"		"6"
+			//"ypos"		"350"
+			//"wide"		"122"
+			//"tall"		"24"
+			
+			//"pinCorner"		"2"
+			////"visible"		"1"
+			
+			//"tabPosition"		"2"
+			////"labelText"		"Ok"
+			//"textAlignment"		"center"
+			//////"dulltext"		"0"
+			////"brighttext"		"0"
+			////"Default"		"1"
 		}
 
 		"DmePresetGroupEditorPanel"
 		{
 			"ControlName"	"CDmePresetGroupEditorPanel"
-			"xpos"			"0"
-			"ypos"			"28"
-			"wide"			"480"
-			"tall"			"320"
-			//	"3"
-			//		"0"
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "30"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetY" "-36"
-			//	"1"
+			"fieldName"		"DmePresetGroupEditorPanel"
+			
+			//"ypos"			"28"
+			//"wide"			"480"
+			//"tall"			"320"
+			//"autoResize"	"3"
+			
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "30"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-36"
+			////"visible"		"1"
+			
+			//"tabPosition"	"1"
 		}
 	}
 }

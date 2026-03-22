@@ -3,28 +3,36 @@
 	"AssetBuilderFrame"
 	{
 		"ControlName"	"CAssetBuilderFrame"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"268"
-		"tall"			"380"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"AssetBuilderFrame"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"268"
+		//"tall"			"380"
+		
+		
+		////"visible"		"1"
+		
+		
+		"settitlebarvisible"	"1"
+		"title"		"#Frame_Untitled"
 			
 		"AssetBuilder"
 		{
 			"ControlName"	"PropertySheet"
-			"xpos"			"6"
-			"ypos"			"60"
-			"wide"			"463"
-			"tall"			"212"
-			//	"3"
-			//		"0"
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "30"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
-			//	"1"
+			"fieldName"		"InputOutputSheet"
+			//"xpos"			"6"
+			//"ypos"			"60"
+			//"wide"			"463"
+			//"tall"			"212"
+			//"autoResize"	"3"
+			
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "30"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
+			////"visible"		"1"
+			
+			//"tabPosition"	"1"
 		}
 	}
 }

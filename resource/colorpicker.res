@@ -3,323 +3,410 @@
 	"ColorPicker"
 	{
 		"ControlName"	"CColorPicker"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"640"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"ColorPicker"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"640"
+		//"tall"			"480"
+		
+		
+		////"visible"		"1"
+		
+		
+		"settitlebarvisible"	"1"
+		"title"		"#Frame_Untitled"
 		
 		"ColorXYPreview"
 		{
 			"ControlName"	"CColorXYPreview"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"256"
-			"tall"			"256"
-			//	"0"
-			//		"0"
-			//	"0"
+			"fieldName"		"ColorXYPreview"
+			//"xpos"			"10"
+			//"ypos"			"10"
+			//"wide"			"256"
+			//"tall"			"256"
+			
+			
+			////"visible"		"1"
+			
+			
 		}
 
 		"ColorZPreview"
 		{
 			"ControlName"	"CColorZPreview"
-			"xpos"			"274"
-			"ypos"			"4"
-			"wide"			"36"
-			"tall"			"268"
-			//	"0"
-			//		"0"
-			//	"0"
+			"fieldName"		"ColorZPreview"
+			//"xpos"			"274"
+			//"ypos"			"4"
+			//"wide"			"36"
+			//"tall"			"268"
+			
+			
+			////"visible"		"1"
+			
+			
 		}
 		
 		"CurrentColor"
 		{
 			"ControlName"	"Panel"
-			"xpos"			"325"
-			"ypos"			"10"
-			"wide"			"100"
-			"tall"			"50"
-			//	"0"
-			//		"0"
-			//	"0"
+			"fieldName"		"CurrentColor"
+			//"xpos"			"325"
+			//"ypos"			"10"
+			//"wide"			"100"
+			//"tall"			"50"
+			
+			
+			////"visible"		"1"
+			
+			
 		}
 
 		"InitialColor"
 		{
 			"ControlName"	"Panel"
-			"xpos"			"325"
-			"ypos"			"67"
-			"wide"			"100"
-			"tall"			"50"
-			//	"0"
-			//		"0"
-			//	"0"
+			"fieldName"		"InitialColor"
+			//"xpos"			"325"
+			//"ypos"			"67"
+			//"wide"			"100"
+			//"tall"			"50"
+			
+			
+			////"visible"		"1"
+			
+			
 		}
 
 		"HueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"125"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"HueRadio"
+			//"xpos"			"325"
+			//"ypos"			"125"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"selected"		"1"
-			//		"8"
-			"labelText"			"H"
-			//			"0"
-			////		"0"
+			//"tabPosition"		"8"
+			////"labelText"			"H"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"1"
 		}
 		
 		"SaturationRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"150"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
-			//		"8"
-			"labelText"			"S"
-			//			"0"
-			////		"0"
+			"fieldName"		"SaturationRadio"
+			//"xpos"			"325"
+			//"ypos"			"150"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"8"
+			////"labelText"			"S"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"2"
 		}
 		
 		"ValueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"175"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
-			//		"8"
-			"labelText"			"V"
-			//			"0"
-			////		"0"
+			"fieldName"		"ValueRadio"
+			//"xpos"			"325"
+			//"ypos"			"175"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"8"
+			////"labelText"			"V"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"3"
 		}
 		
 		"RedRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"200"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
-			//		"8"
-			"labelText"			"R"
-			//			"0"
-			////		"0"
+			"fieldName"		"RedRadio"
+			//"xpos"			"325"
+			//"ypos"			"200"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"8"
+			////"labelText"			"R"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"4"
 		}
 		
 		"GreenRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"225"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
-			//		"8"
-			"labelText"			"G"
-			//			"0"
-			////		"0"
+			"fieldName"		"GreenRadio"
+			//"xpos"			"325"
+			//"ypos"			"225"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"8"
+			////"labelText"			"G"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"5"
 		}
 		
 		"BlueRadio"
 		{
 			"ControlName"		"RadioButton"
-			"xpos"			"325"
-			"ypos"			"250"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
-			//		"8"
-			"labelText"			"B"
-			//			"0"
-			////		"0"
+			"fieldName"		"BlueRadio"
+			//"xpos"			"325"
+			//"ypos"			"250"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"8"
+			////"labelText"			"B"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 			"wrap"				"0"
+			//"Default"			"0"
 			"SubTabPosition"	"6"
 		}
 		
 		"HueText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"125"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"HueText"
+			//"xpos"			"375"
+			//"ypos"			"125"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"1"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			//"tabPosition"		"1"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 		
 		"SaturationText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"150"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"SaturationText"
+			//"xpos"			"375"
+			//"ypos"			"150"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"2"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			//"tabPosition"		"2"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"SaturationLabel"
 		{
 			"ControlName"		"Label"
-			"xpos"			"425"
-			"ypos"			"150"
-			"wide"			"15"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"SaturationLabel"
+			//"xpos"			"425"
+			//"ypos"			"150"
+			//"wide"			"15"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"0"
-			"labelText"			"%"
-			//			"0"
-			////		"0"
+			
+			////"labelText"			"%"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"ValueText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"175"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"ValueText"
+			//"xpos"			"375"
+			//"ypos"			"175"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"3"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			//"tabPosition"		"3"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"ValueLabel"
 		{
 			"ControlName"		"Label"
-			"xpos"			"425"
-			"ypos"			"175"
-			"wide"			"15"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"ValueLabel"
+			//"xpos"			"425"
+			//"ypos"			"175"
+			//"wide"			"15"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"0"
-			"labelText"			"%"
-			//			"0"
-			////		"0"
+			
+			////"labelText"			"%"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"RedText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"200"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"RedText"
+			//"xpos"			"375"
+			//"ypos"			"200"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"4"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			//"tabPosition"		"4"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"GreenText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"225"
-			"wide"			"48"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"GreenText"
+			//"xpos"			"375"
+			//"ypos"			"225"
+			//"wide"			"48"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"5"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			//"tabPosition"		"5"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 
 		"BlueText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"250"
-			"wide"			"48"
-			"tall"			"24"
+			"fieldName"		"BlueText"
+			//"xpos"			"375"
+			//"ypos"			"250"
+			//"wide"			"48"
+			//"tall"			"24"
 			"NumericInputOnly" "1"
-			//	"0"
-			//		"0"
-			//		"6"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"6"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}		
 			
 		"AlphaText"
 		{
 			"ControlName"		"TextEntry"
-			"xpos"			"375"
-			"ypos"			"275"
-			"wide"			"48"
-			"tall"			"24"
+			"fieldName"		"AlphaText"
+			//"xpos"			"375"
+			//"ypos"			"275"
+			//"wide"			"48"
+			//"tall"			"24"
 			"NumericInputOnly" "1"
-			//	"0"
-			//		"0"
-			//		"7"
-			"labelText"			""
-			//			"0"
-			////		"0"
+			
+			
+			////"visible"		"1"
+			
+			//"tabPosition"		"7"
+			////"labelText"			""
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}	
 		
 		"AlphaLabel"
 		{
 			"ControlName"		"Label"
-			"xpos"			"350"
-			"ypos"			"275"
-			"wide"			"15"
-			"tall"			"24"
-			//	"0"
-			//		"0"
+			"fieldName"		"AlphaLabel"
+			//"xpos"			"350"
+			//"ypos"			"275"
+			//"wide"			"15"
+			//"tall"			"24"
+			
+			
+			////"visible"		"1"
+			
 			"NumericInputOnly" "1"
-			//		"0"
-			"labelText"			"A"
-			//			"0"
-			////		"0"
+			
+			////"labelText"			"A"
+			////"textAlignment"		"west"
+			////"dulltext"			"0"
+			////"brighttext"		"0"
 		}
 	}
 }

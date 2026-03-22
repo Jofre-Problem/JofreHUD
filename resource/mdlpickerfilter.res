@@ -3,47 +3,56 @@
 	"FilterPage"
 	{
 		"ControlName"	"PropertyPage"
-		"xpos"			"147"
-		"ypos"			"128"
-		"wide"			"640"
-		"tall"			"480"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"FilterPage"
+		//"xpos"			"147"
+		//"ypos"			"128"
+		//"wide"			"640"
+		//"tall"			"480"
+		
+		
+		////"visible"		"1"
+		
+		
 		
 		"MDLBrowser"
 		{
 			"ControlName"	"ListPanel"
-			"xpos"			"6"
-			"ypos"			"6"
-			"wide"			"256"
-			"tall"			"212"
-			//	"3"
-			//		"0"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetY" "-34"
-			//	"0"
+			"fieldName"		"MDLBrowser"
+			//"xpos"			"6"
+			//"ypos"			"6"
+			//"wide"			"256"
+			//"tall"			"212"
+			//"autoResize"	"3"
+			
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-34"
+			////"visible"		"1"
+			
+			
 		}
 		
 		"FilterList"
 		{
 			"ControlName"	"ComboBox"
-			"xpos"			"70"
-			"ypos"			"210"
-			"wide"			"256"
-			"tall"			"24"
-			//	"1"
-			//		"2"
-			//"PinnedCornerOffsetX" "6"
-			//"PinnedCornerOffsetY" "-6"
-			//"PinnedCornerOffsetY" "-6"
-			//"UnpinnedCornerOffsetY" "-6"
-			//	"0"
+			"fieldName"		"FilterList"
+			//"xpos"			"70"
+			//"ypos"			"210"
+			//"wide"			"256"
+			//"tall"			"24"
+			//"autoResize"	"1"
+			//"pinCorner"		"2"
+			////"PinnedCornerOffsetX" "6"
+			////"PinnedCornerOffsetY" "-6"
+			////"PinnedCornerOffsetY" "-6"
+			////"UnpinnedCornerOffsetY" "-6"
+			////"visible"		"1"
+			
+			
 			"textHidden"	"0"
-			"editable"		"1"
-			"maxchars"		"-1"
-			"NumericInputOnly"		"0"
-			"unicode"		"0"
+			//"editable"		"1"
+			//"maxchars"		"-1"
+			//"NumericInputOnly"		"0"
+			//"unicode"		"0"
 		}
 	}
 }

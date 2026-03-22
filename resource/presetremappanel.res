@@ -10,6 +10,7 @@
 		//	"0"
 		//		"0"
 		//	"0"
+		"title"		"Select Presets"
 		
 		"SourcePresetGroupLabel"
 		{
@@ -22,9 +23,7 @@
 			//		"0"
 			//		"0"
 			"labelText"		"Source Preset Group:"
-			////		"0"
-			////		"0"
-			//"wrap"		"0"
+			"textAlignment"		"east"
 		}
 		"SourcePresetGroup"
 		{
@@ -38,11 +37,7 @@
 			//		"1"
 			//		"0"
 			//		"0"
-			"textHidden"		"0"
-			"editable"		"0"
 			"maxchars"		"-1"
-			"NumericInputOnly"		"0"
-			"unicode"		"0"
 		}
 
 		"OkButton"
@@ -57,8 +52,8 @@
 			//		"2"
 			"labelText"		"Ok"
 			"command"		"ok"
-			////		"0"
-			////		"0"
+			"textAlignment"		"center"
+			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -73,8 +68,7 @@
 			//	"3"
 			"labelText"		"Cancel"
 			"command"		"Cancel"
-			////		"0"
-			////		"0"
+			"textAlignment"	"center"
 		}
 		
 		"PresetRemapList"

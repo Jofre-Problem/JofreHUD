@@ -19,6 +19,7 @@
 	"ChangeGameDialog"
 	{
 		"ControlName"		"CBugUIPanel"
+		"fieldName"		"ChangeGameDialog"
 
 		"wide"		"245"
 		"tall"		"300"
@@ -26,6 +27,7 @@
 	"Line1"
 	{
 		"ControlName"		"ImagePanel"
+		"fieldName"		"Line1"
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"5"
@@ -38,28 +40,33 @@
 	"SliderLabel"
 	{
 		"ControlName"		"Label"
+		"fieldName"		"SliderLabel"
 		"xpos"		"10"
 		"ypos"		"40"
 		"wide"		"60"
 		"tall"		"20"
 		"labelText"		"Settings:"
+		"textAlignment"		"west"
 		"fgcolor_override"		"White"	
 	}		
 	"ChatLabel"
 	{
 		"ControlName"		"Label"
+		"fieldName"		"ChatLabel"
 		"xpos"		"-1"
 		"ypos"		"-25"
 		"wide"		"25"
 		"tall"		"20"
-		"labelText"		"z"
+		"labelText"		"ğ"
+		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-		"font"					"NewIcons9"	
+		"font"					"Product16"	
 		"pin_to_sibling"	"SliderLabel"	
 	}	
 	"ChatSlider"
 	{
 		"ControlName"		"CCVarSlider"
+		"fieldName"		"ChatSlider"
 		"xpos"		"5"
 		"ypos"		"-2"
 		"wide"		"190"
@@ -77,19 +84,22 @@
 	"DeathLabel"
 	{
 		"ControlName"		"Label"
+		"fieldName"		"DeathLabel"
 		"xpos"		"0"
 		"ypos"		"-30"
 		"zpos"		"111"
 		"wide"		"25"
 		"tall"		"20"
-		"labelText"		"0"
+		"labelText"		"Ě"
+		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-		"font"					"NewIcons9"	
+		"font"					"Product18"	
 		"pin_to_sibling"	"ChatLabel"		
 	}	
 	"DeathSlider"
 	{
 		"ControlName"		"CCVarSlider"
+		"fieldName"		"DeathSlider"
 		"xpos"		"5"
 		"ypos"		"-5"
 		"wide"		"190"

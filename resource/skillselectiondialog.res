@@ -10,6 +10,7 @@
 		//		"0"
 		//		"0"
 		//		"0"
+		"title"		"#GameUI_SelectSkill"
 	}
 	"EasyRadio"
 	{
@@ -22,10 +23,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Easy"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
-		"SubTabPosition"		"1"
 	}
 	"MediumRadio"
 	{
@@ -38,10 +35,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Medium"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
-		"SubTabPosition"		"2"
 	}
 	"HardRadio"
 	{
@@ -54,10 +47,6 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GameUI_Hard"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
-		"SubTabPosition"		"3"
 	}
 	"CancelButton"
 	{
@@ -70,9 +59,6 @@
 		//		"0"
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
 		"Command"		"Close"
 	}
 	"StartButton"
@@ -86,9 +72,7 @@
 		//		"0"
 		//		"2"
 		"labelText"		"#GameUI_Start"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
 		"Command"		"Play"
+		"Default"		"1"
 	}
 }

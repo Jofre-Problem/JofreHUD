@@ -10,6 +10,7 @@
 		//		"0"
 		//		"0"
 		//		"0"
+		"title"			"#GameUI_CommentaryDialogTitle"
 	}
 	"ModeLabel"
 	{
@@ -22,10 +23,7 @@
 		//		"0"
 		//		"0"
 		"labelText"		"COMMENTARY MODE IS CURRENTLY: OFF"
-		////		"0"
-		//		"1"
-		//"wrap"		"0"
-		"font"			"UiBold"
+		"brighttext"		"1"
 	}
 	"CommentaryExists"
 	{
@@ -38,8 +36,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"#GAMEUI_LostCoastHasCommentary"
-		////		"0"
-		////		"0"
 		"wrap"		"1"
 	}
 	"TurnOnButton"
@@ -53,11 +49,7 @@
 		//		"0"
 		//		"1"
 		"labelText"		"#GAMEUI_Commentary_TurnOn"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
 		"Command"		"turnon"
-		"selected"		"0"
 	}
 	"TurnOffButton"
 	{
@@ -70,11 +62,8 @@
 		//		"0"
 		//		"2"
 		"labelText"		"#GAMEUI_Commentary_LeaveOff"
-		////		"0"
-		////		"0"
-		//"wrap"		"0"
 		"Command"		"turnoff"
-		"selected"		"0"
+		"Default"		"1"
 	}
 	"CommentaryIcon"
 	{

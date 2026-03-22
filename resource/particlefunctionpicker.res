@@ -10,6 +10,7 @@
 		//	"0"
 		//		"0"
 		//	"0"
+		"title"		"Select Dme Element"
 		
 		"OkButton"
 		{
@@ -22,8 +23,8 @@
 			//		"2"
 			//		"2"
 			"labelText"		"Open"
-			////		"0"
-			////		"0"
+			"textAlignment"		"center"
+			"Default"		"1"
 		}
 
 		"CancelButton"
@@ -37,8 +38,7 @@
 			//		"2"
 			//	"3"
 			"labelText"		"Cancel"
-			////		"0"
-			////		"0"
+			"textAlignment"	"center"
 		}
 		
 		"ParticleFunctionList"

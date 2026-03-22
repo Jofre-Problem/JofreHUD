@@ -3,93 +3,114 @@
 	"WavPage"
 	{
 		"ControlName"	"PropertyPage"
-		"xpos"			"6"
-		"ypos"			"6"
-		"wide"			"256"
-		"tall"			"256"
-		//	"3"
-		//		"0"
-		//"PinnedCornerOffsetX" "6"
-		//"PinnedCornerOffsetY" "6"
-		//"PinnedCornerOffsetY" "-6"
-		//"UnpinnedCornerOffsetY" "-6"
-		//	"0"
+		"fieldName"		"WavPage"
+		//"xpos"			"6"
+		//"ypos"			"6"
+		//"wide"			"256"
+		//"tall"			"256"
+		//"autoResize"	"3"
+		
+		////"PinnedCornerOffsetX" "6"
+		////"PinnedCornerOffsetY" "6"
+		////"PinnedCornerOffsetY" "-6"
+		////"UnpinnedCornerOffsetY" "-6"
+		////"visible"		"1"
+		
+		
 		
 		"AssetSplitter"
 		{
 			"ControlName"	"Splitter"
-			//		"0"
-			//	"3"
-			//"PinnedCornerOffsetX" "0"
-			//"PinnedCornerOffsetX" "0"
-			//"PinnedCornerOffsetY" "0"
-			//"UnpinnedCornerOffsetY" "0"
+			"fieldName"		"AssetSplitter"
+			////"visible"		"1"
+			
+			
+			//"autoResize"	"3"
+			
+			
+			
+			
 					
 			"child0"
 			{
 				"ModFilterLabel"
 				{
 					"ControlName"	"Label"
-					"xpos"			"6"
-					"ypos"			"6"
-					"wide"			"65"
-					"tall"			"24"
-					//	"0"
-					//		"0"
-					//"PinnedCornerOffsetX" "6"
-					//	"0"
-					"labelText"		"Mod Filter"
-					//		"1"
+					"fieldName"		"ModFilterLabel"
+					//"xpos"			"6"
+					//"ypos"			"6"
+					//"wide"			"65"
+					//"tall"			"24"
 					
+					
+					////"PinnedCornerOffsetX" "6"
+					////"visible"		"1"
+					
+					
+					////"labelText"		"Mod Filter"
+					//"textAlignment"	"east"
+					//"dulltext"		"1"
+					//"brighttext"	"0"
 				}
 				
 				"ModFilter"
 				{
 					"ControlName"	"ComboBox"
-					"xpos"			"75"
-					"ypos"			"6"
-					"wide"			"256"
-					"tall"			"24"
-					//	"1"
-					//		"0"
-					//"PinnedCornerOffsetX" "75"
-					//"PinnedCornerOffsetY" "-70"
-					//	"0"
+					"fieldName"		"ModFilter"
+					//"xpos"			"75"
+					//"ypos"			"6"
+					//"wide"			"256"
+					//"tall"			"24"
+					//"autoResize"	"1"
+					
+					////"PinnedCornerOffsetX" "75"
+					////"PinnedCornerOffsetY" "-70"
+					////"visible"		"1"
+					
+					
 					"textHidden"	"0"
 					"editable"		"0"
-					"maxchars"		"-1"
-					"NumericInputOnly"		"0"
-					"unicode"		"0"
+					//"maxchars"		"-1"
+					//"NumericInputOnly"		"0"
+					//"unicode"		"0"
 				}
 
 				"RescanButton"
 				{
 					"ControlName"	"Button"
-					"xpos"			"212"
-					"ypos"			"6"
-					"wide"			"60"
-					"tall"			"24"
-					//"PinnedCornerOffsetX" "-6"
-					//	"0"
-					//		"1"
-					"labelText"		"#AssetPicker_Rescan"
-					//	"0"
+					"fieldName"		"RescanButton"
+					//"xpos"			"212"
+					//"ypos"			"6"
+					//"wide"			"60"
+					//"tall"			"24"
+					////"PinnedCornerOffsetX" "-6"
+					
+					//"pinCorner"		"1"
+					////"labelText"		"#AssetPicker_Rescan"
+					//"textAlignment"	"center"
+					////"visible"		"1"
+					
+					
 					"textHidden"	"0"
-					"command"		"AssetRescan"
+					//"Default"		"0"
+					//"Command"		"AssetRescan"
 				}
 		
 				"FolderFilter"
 				{
 					"ControlName"	"CAssetTreeView"
-					"xpos"			"6"
-					"ypos"			"36"
-					"wide"			"65"
-					"tall"			"24"
-					//	"3"
-					//		"0"
-					//"PinnedCornerOffsetY" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
-					//	"0"
+					"fieldName"		"FolderFilter"
+					//"xpos"			"6"
+					//"ypos"			"36"
+					//"wide"			"65"
+					//"tall"			"24"
+					//"autoResize"	"3"
+					
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					
 				}						
 			}
 
@@ -98,88 +119,106 @@
 				"AssetBrowser"
 				{
 					"ControlName"	"ListPanel"
-					"xpos"			"6"
-					"ypos"			"6"
-					"wide"			"256"
-					"tall"			"212"
-					//	"3"
-					//		"0"
-					//"PinnedCornerOffsetY" "-6"
-					//"UnpinnedCornerOffsetY" "-64"
-					//	"1"
+					"fieldName"		"AssetBrowser"
+					//"xpos"			"6"
+					//"ypos"			"6"
+					//"wide"			"256"
+					//"tall"			"212"
+					//"autoResize"	"3"
+					
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-64"
+					////"visible"		"1"
+					
+					//"tabPosition"	"1"
 				}
 				
 				"FullPathLabel"
 				{
 					"ControlName"	"Label"
-					"xpos"			"6"
-					"ypos"			"210"
-					"wide"			"65"
-					"tall"			"24"
-					//	"0"
-					//		"2"
-					//"PinnedCornerOffsetX" "6"
-					//"PinnedCornerOffsetY" "-34"
-					//	"0"
-					"labelText"		"Full Path"
-					//		"1"
+					"fieldName"		"FullPathLabel"
+					//"xpos"			"6"
+					//"ypos"			"210"
+					//"wide"			"65"
+					//"tall"			"24"
 					
+					//"pinCorner"		"2"
+					////"PinnedCornerOffsetX" "6"
+					////"PinnedCornerOffsetY" "-34"
+					////"visible"		"1"
+					
+					
+					////"labelText"		"Full Path"
+					//"textAlignment"	"east"
+					//"dulltext"		"1"
+					//"brighttext"	"0"
 				}
 								
 				"FullPath"
 				{
 					"ControlName"	"TextEntry"
-					"xpos"			"6"
-					"ypos"			"210"
-					"wide"			"75"
-					"tall"			"24"
-					//	"1"
-					//		"2"
-					//"PinnedCornerOffsetX" "75"
-					//"PinnedCornerOffsetY" "-34"
-					//"PinnedCornerOffsetY" "-6"
+					"fieldName"		"FullPath"
+					//"xpos"			"6"
+					//"ypos"			"210"
+					//"wide"			"75"
+					//"tall"			"24"
+					//"autoResize"	"1"
+					//"pinCorner"		"2"
+					////"PinnedCornerOffsetX" "75"
+					////"PinnedCornerOffsetY" "-34"
+					////"PinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					//"enabled"		"0"
 					"editable"		"0"
-					//	"0"
-					"labelText"		""
-					//		"1"
 					
+					////"labelText"		""
+					////"textAlignment"	"west"
+					//"dulltext"		"1"
+					//"brighttext"	"0"
 				}
 					
 				"FilterLabel"
 				{
 					"ControlName"	"Label"
-					"xpos"			"6"
-					"ypos"			"210"
-					"wide"			"65"
-					"tall"			"24"
-					//	"0"
-					//		"2"
-					//"PinnedCornerOffsetX" "6"
-					//"PinnedCornerOffsetY" "-6"
-					//	"2"
-					"labelText"		"Filter"
-					//		"1"
+					"fieldName"		"FilterLabel"
+					//"xpos"			"6"
+					//"ypos"			"210"
+					//"wide"			"65"
+					//"tall"			"24"
 					
+					//"pinCorner"		"2"
+					////"PinnedCornerOffsetX" "6"
+					////"PinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					//"tabPosition"	"2"
+					////"labelText"		"Filter"
+					//"textAlignment"	"east"
+					//"dulltext"		"1"
+					//"brighttext"	"0"
 				}
 				
 				"FilterList"
 				{
 					"ControlName"	"TextEntry"
-					"xpos"			"70"
-					"ypos"			"210"
-					"wide"			"256"
-					"tall"			"24"
-					//	"1"
-					//		"2"
-					//"PinnedCornerOffsetX" "75"
-					//"PinnedCornerOffsetY" "-6"
-					//"PinnedCornerOffsetY" "-6"
-					//	"2"
+					"fieldName"		"FilterList"
+					//"xpos"			"70"
+					//"ypos"			"210"
+					//"wide"			"256"
+					//"tall"			"24"
+					//"autoResize"	"1"
+					//"pinCorner"		"2"
+					////"PinnedCornerOffsetX" "75"
+					////"PinnedCornerOffsetY" "-6"
+					////"PinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					//"tabPosition"	"2"
 					"textHidden"	"0"
-					"editable"		"1"
-					"maxchars"		"-1"
-					"NumericInputOnly"		"0"
-					"unicode"		"0"
+					//"editable"		"1"
+					//"maxchars"		"-1"
+					//"NumericInputOnly"		"0"
+					//"unicode"		"0"
 				}
 			}
 		}	

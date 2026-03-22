@@ -3,40 +3,49 @@
 	"DmePresetGroupEditorPanel"
 	{
 		"ControlName"	"CDmePresetGroupEditorPanel"
-		"xpos"			"6"
-		"ypos"			"6"
-		"wide"			"256"
-		"tall"			"256"
-		//	"0"
-		//		"0"
-		//	"0"
+		"fieldName"		"DmePresetGroupEditorPanel"
+		//"xpos"			"6"
+		//"ypos"			"6"
+		//"wide"			"256"
+		//"tall"			"256"
+		
+		
+		////"visible"		"1"
+		
+		
 	
 		"PresetGroupSplitter"
 		{
 			"ControlName"	"Splitter"
-			//		"0"
-			//	"3"
-			//"PinnedCornerOffsetX" "0"
-			//"PinnedCornerOffsetX" "0"
-			//"PinnedCornerOffsetY" "0"
-			//"UnpinnedCornerOffsetY" "0"
+			"fieldName"		"PresetGroupSplitter"
+			////"visible"		"1"
+			
+			
+			//"autoResize"	"3"
+			
+			
+			
+			
 					
 			"child0"
 			{
 				"PresetGroupList"
 				{
 					"ControlName"	"ListPanel"
-					"xpos"			"6"
-					"ypos"			"6"
-					"wide"			"256"
-					"tall"			"256"
-					//	"3"
-					//		"0"
-					//"PinnedCornerOffsetX" "6"
-					//"PinnedCornerOffsetY" "6"
-					//"PinnedCornerOffsetY" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
-					//	"0"
+					"fieldName"		"PresetGroupList"
+					//"xpos"			"6"
+					//"ypos"			"6"
+					//"wide"			"256"
+					//"tall"			"256"
+					//"autoResize"	"3"
+					
+					////"PinnedCornerOffsetX" "6"
+					////"PinnedCornerOffsetY" "6"
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					
 				}
 			}
 			
@@ -45,17 +54,20 @@
 				"PresetList"
 				{
 					"ControlName"	"ListPanel"
-					"xpos"			"6"
-					"ypos"			"6"
-					"wide"			"256"
-					"tall"			"256"
-					//	"3"
-					//		"0"
-					//"PinnedCornerOffsetX" "6"
-					//"PinnedCornerOffsetY" "6"
-					//"PinnedCornerOffsetY" "-6"
-					//"UnpinnedCornerOffsetY" "-6"
-					//	"0"
+					"fieldName"		"PresetList"
+					//"xpos"			"6"
+					//"ypos"			"6"
+					//"wide"			"256"
+					//"tall"			"256"
+					//"autoResize"	"3"
+					
+					////"PinnedCornerOffsetX" "6"
+					////"PinnedCornerOffsetY" "6"
+					////"PinnedCornerOffsetY" "-6"
+					////"UnpinnedCornerOffsetY" "-6"
+					////"visible"		"1"
+					
+					
 				}
 			}
 		}

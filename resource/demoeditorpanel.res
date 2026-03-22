@@ -23,8 +23,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"Save"
-		////		"0"
-		////		"0"
 		"command"		"save"
 	}
 	"DemoEditRevert"
@@ -38,8 +36,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"Revert"
-		////		"0"
-		////		"0"
 		"command"		"revert"
 	}
 	"DemoEditOk"
@@ -53,8 +49,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"OK"
-		////		"0"
-		////		"0"
 		"command"		"Close"
 	}
 	"DemoEditCancel"
@@ -68,8 +62,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"Cancel"
-		////		"0"
-		////		"0"
 		"command"		"cancel"
 	}
 	"DemoEditNew"
@@ -83,8 +75,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"New->"
-		////		"0"
-		////		"0"
 	}
 	"DemoEditEdit"
 	{
@@ -97,8 +87,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"Edit..."
-		////		"0"
-		////		"0"
 		"command"		"edit"
 	}
 	"DemoEditDelete"
@@ -112,8 +100,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"Delete"
-		////		"0"
-		////		"0"
 		"command"		"delete"
 	}
 	"DemoName"
@@ -127,8 +113,6 @@
 		//		"0"
 		//		"0"
 		"labelText"		"yahn.dem"
-		////		"0"
-		////		"0"
 	}
 	"DemoActionList"
 	{

@@ -1,6 +1,13 @@
-	#base "../../../cfg/_jp_events_specgui.txt"
-	#base "../../cfg/_jp_events_specgui.txt"
-	#base "../../../../cfg/_jp_events_specgui.txt"
+//=========== (C) Copyright 1999 Valve, L.L.C. All rights reserved. ===========
+//
+// The copyright to the contents herein is the property of Valve, L.L.C.
+// The contents may be used and/or copied only with the written permission of
+// Valve, L.L.C., or in accordance with the terms and conditions stipulated in
+// the agreement/contract under which the contents have been supplied.
+//=============================================================================
+
+// Don't change this file, it defines engine events
+
 "engineevents"
 {
 //////////////////////////////////////////////////////////////////////
@@ -60,10 +67,6 @@
 		"by"		"string"	// removed by...
 	}
 	
-
-
-
-	
 	"player_connect"			// a new client connected - we should only really have server listeners for this, due to the IP being exposed
 	{
 		"name"		"string"	// player name		
@@ -91,19 +94,7 @@
 		"networkid"		"string"	// player network (i.e steam) id
 		"bot"			"bool"		// true if player is a AI bot
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 	"player_disconnect"			// a client was disconnected
 	{
 		"userid"	"short"		// user ID on server
@@ -124,21 +115,18 @@
 		"text"		"string"	// the say text
 	}
 	
-
-
-	
 	"client_disconnect"			// client side disconnect message
 	{
 		"message"	"string"		// Why are we disconnecting?  This could be a localization token or an English-language string
 	}
 
-//	"client_beginconnect"			// client tries to connect to server
-//	{
-//		"address"	"string"		// Name we used to connect to the server
-//		"ip"		"long"
-//		"port"		"short"			// server port
-//		"source"	"string"		// what caused us to attempt this connection?  (blank for general command line, "serverbrowser", "quickplay", etc)
-//	}
+	"client_beginconnect"			// client tries to connect to server
+	{
+		"address"	"string"		// Name we used to connect to the server
+		"ip"		"long"
+		"port"		"short"			// server port
+		"source"	"string"		// what caused us to attempt this connection?  (blank for general command line, "serverbrowser", "quickplay", etc)
+	}
 
 	"client_connected"			// client has completed the challenge / handshake process and is in SIGNONSTATE_CONNECTED
 	{
