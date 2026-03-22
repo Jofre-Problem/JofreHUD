@@ -1,4 +1,4 @@
-	//#base	"../../../custom/resource/ui/econ/confirmdialogoptout.res"
-	#base	"../ui2/confirmdialogoptout.res"
-	//#base	"../../../_opt/resource/ui/econ/confirmdialogoptout.res"
-	#base	"../_tf2hud/econ/confirmdialogoptout.res"
+	#base	"../../../_stream/resource/ui/econ/confirmdialogoptout.res"
+	#base	"../../../_jofrenew/resource/ui/econ/confirmdialogoptout.res"
+	#base	"../../../_opt/resource/ui/econ/confirmdialogoptout.res"
+	#base	"../../../z_tf2/resource/ui/econ/confirmdialogoptout.res"
