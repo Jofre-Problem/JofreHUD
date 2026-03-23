@@ -1,0 +1,33 @@
+
+
+event MapVoted
+{
+
+}
+
+event WinningNextMapVote
+{
+
+}
+
+// can lead to crashes
+event LosingNextMapVote
+{
+	SetVisible FriendsContainerv2 1 0
+//	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+//	RunEventChild MainMenuOverride ForceSafemode 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0		
+}
+
+event OnMatchCMD
+{
+	FireCommand 0.0 "gamemenucommand OpenLoadSingleplayerCommentaryDialog"
+}
+
+event CasualCategory_NotSelected
+{
+	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
+	Animate Title		FgColor TanLight Deaccel 0 0.2
+}
