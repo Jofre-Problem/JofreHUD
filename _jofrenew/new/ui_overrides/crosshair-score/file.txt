@@ -1,4 +1,0 @@
-//hurts fps but idk if the multiple setvisibles or the loop hurt more
-event ScoreboardCrosshairAnimate
-{
-}

@@ -282,7 +282,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Tools_Title"
-		"font"		"Size 28"
+		"font"		"Size 30"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"		"0"

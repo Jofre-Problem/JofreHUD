@@ -1,4 +1,4 @@
-	#base	"../../../_stream/resource/ui/econ/confirmdialogabandonnopenalty.res"
-	#base	"../../../_jofrenew/resource/ui/econ/confirmdialogabandonnopenalty.res"
-	#base	"../../../_opt/resource/ui/econ/confirmdialogabandonnopenalty.res"
-	#base	"../../../z_tf2/resource/ui/econ/confirmdialogabandonnopenalty.res"
+	//#base	"../../../custom/resource/ui/econ/confirmdialogabandonnopenalty.res"
+	#base	"../ui2/confirmdialogabandonnopenalty.res"
+	//#base	"../../../_opt/resource/ui/econ/confirmdialogabandonnopenalty.res"
+	#base	"../_tf2hud/econ/confirmdialogabandonnopenalty.res"

@@ -1,1 +1,0 @@
-in case you fucked up these are default values

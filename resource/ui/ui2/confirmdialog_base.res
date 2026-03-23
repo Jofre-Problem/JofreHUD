@@ -157,12 +157,18 @@
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
 
-	"ConfirmButton"
+	"ConfirmButton" // if removed, causes crash
 	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ConfirmButton"
 		"visible"			"0"
+		xpos r0
 	}		
-	"CancelButton"
+	"CancelButton"  // if removed, causes crash
 	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ConfirmButton"	
 		"visible"			"0"
+		xpos r0
 	}				
 }

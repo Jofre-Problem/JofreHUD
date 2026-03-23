@@ -2,13 +2,13 @@
 {
     "CallVoteButton2"
 {
-"label""Æ"
+"label""ʃ"
 "command""callvote"
 "OnlyInGame""1"
 }
 "MutePlayersButton2"
 {
-"label""Ä"
+"label""ж"
 "command""OpenMutePlayerDialog"
 "OnlyInGame""1"
 }

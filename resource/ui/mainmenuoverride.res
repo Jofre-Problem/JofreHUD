@@ -334,7 +334,7 @@
 			tall					20
 			proportionaltoparent		1
 
-			font					"newicons15"
+			font					"itemfontnamesmall"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -388,7 +388,7 @@
 			tall					20
 			proportionaltoparent		1
 
-			font					"newicons15"
+			font					"itemfontnamesmall"
 			textAlignment			center
 			
 			sound_depressed			"UI/buttonclick.wav"
@@ -574,8 +574,8 @@
 			"tall"		"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"labeltext"		"x"
-			"font"		"newicons20"
+			"labeltext"		"ʺ"
+			"font"		"itemfontnamesmall"
 			"textAlignment"		"center"
 			"actionsignallevel"		"2"
 
