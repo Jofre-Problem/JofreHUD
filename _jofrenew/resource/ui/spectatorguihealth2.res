@@ -138,7 +138,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"fgcolor"		"236 240 241 255"
 	}
 	"PlayerStatusHealthValueID2"
@@ -154,7 +154,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"fgcolor"		"Notowhite"
 		"fgcolor_override"		"236 240 241 255"
 	}
@@ -171,7 +171,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			G_FontSmall //"G_FontSmallBlur"
+		"font"			G_FontSmall //"ItemFontAttribSmallv2"
 		"fgcolor"		"notoblack"
 		"fgcolor_override"		"notoblack"
 	}
@@ -188,7 +188,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"fgcolor"		"0 0 0 100"
 	}
 	"PlayerStatusHealthValue2S"
@@ -204,7 +204,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"fgcolor"		"0 0 0 100"
 	}
 	"PlayerStatusHealthValueID3"

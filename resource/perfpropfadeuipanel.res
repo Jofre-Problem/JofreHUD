@@ -7,9 +7,9 @@
 		"ypos"		"35"
 		"wide"		"230"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Fade Visualization Mode:"
 		"textAlignment"		"center"
 	}
@@ -21,9 +21,9 @@
 		"ypos"		"65"
 		"wide"		"230"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"8"
 	}
 
@@ -34,9 +34,9 @@
 		"ypos"		"95"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Min Screen Width:"
 		"textAlignment"		"east"
 	}
@@ -48,8 +48,8 @@
 		"ypos"		"95"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"8"
@@ -63,9 +63,9 @@
 		"ypos"		"125"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Max Screen Width:"
 		"textAlignment"		"east"
 	}
@@ -77,8 +77,8 @@
 		"ypos"		"125"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"

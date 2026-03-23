@@ -43,10 +43,10 @@
 		"wide"			"29"
 		"tall"			"29"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"239 128 73 255"
 		"PaintBackgroundType"	"2"
 		"mouseinputenabled" "0"
@@ -80,10 +80,10 @@
 		"wide"			"f0"
 		"tall"			"f15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"76 70 66 255"
 		"PaintBackgroundType"	"2"	
 		"proportionalToParent"	"1"
@@ -99,10 +99,10 @@
 		"wide"			"f0"
 		"tall"			"16"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"76 70 66 255"
 		//	
 		"proportionalToParent"	"1"
@@ -118,10 +118,10 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"42 39 37 255"
 		"PaintBackgroundType"	"2"
 		"mouseinputenabled" "0"

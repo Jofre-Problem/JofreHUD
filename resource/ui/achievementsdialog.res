@@ -24,7 +24,7 @@
 		"ypos"		"410"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		//		"4"
 		"labelText"		"#GameUI_Back"
@@ -39,8 +39,8 @@
 		"wide"		"600"
 		"tall"		"268"
 		//		"3"
-		//		"0"
-		//		"1"
+		
+		
 	}
 	
 	"listpanel_background"
@@ -51,7 +51,7 @@
 		"wide"		"600"
 		"tall"		"268"
 		"zpos"	"-3"
-		//		"0"
+		
 		//		"3"
 	}
 	
@@ -84,10 +84,10 @@
 		"ypos"		"46"
 		"wide"		"200"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0%"
 		"textAlignment"		"east"
 	}
@@ -118,9 +118,9 @@
 		"ypos"		"46"
 		"wide"		"200"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Achievements_Earned"
 	}
 	
@@ -131,9 +131,9 @@
 		"ypos"		"410"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#GameUI_Achievement_Hide_Achieved"
 	}
 }

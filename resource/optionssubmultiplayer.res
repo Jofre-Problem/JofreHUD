@@ -8,13 +8,13 @@
 		"ypos"		"28"
 		"wide"		"496"
 		"tall"		"305"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 	"Cancel"
 	{
@@ -24,17 +24,17 @@
 		"ypos"		"603"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -52,17 +52,17 @@
 		"ypos"		"603"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -80,17 +80,17 @@
 		"ypos"		"603"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Apply"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -108,8 +108,8 @@
 		"ypos"		"260"
 		"wide"		"144"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
@@ -117,8 +117,8 @@
 		//		"5"
 		"labelText"		"#GameUI_AdvancedEllipsis"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -136,8 +136,8 @@
 		"ypos"		"198"
 		"wide"		"124"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
@@ -145,8 +145,8 @@
 		//		"4"
 		"labelText"		"#GameUI_ImportSprayEllipsis"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -164,8 +164,8 @@
 		"ypos"		"178"
 		"wide"		"140"
 		"tall"		"39"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -182,8 +182,8 @@
 		"ypos"		"213"
 		"wide"		"140"
 		"tall"		"42"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -200,8 +200,8 @@
 		"ypos"		"249"
 		"wide"		"174"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -209,8 +209,8 @@
 		//		"5"
 		"labelText"		"#GameUI_HighModels"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -227,8 +227,8 @@
 		"ypos"		"112"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -248,8 +248,8 @@
 		"ypos"		"158"
 		"wide"		"124"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
@@ -269,13 +269,13 @@
 		"ypos"		"36"
 		"wide"		"164"
 		"tall"		"200"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 	"LogoImage"
 	{
@@ -285,13 +285,13 @@
 		"ypos"		"160"
 		"wide"		"100"
 		"tall"		"100"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"logos/UI/spray"
 		"border"		"DepressedBorder"
 		"scaleImage"		"1"
@@ -308,8 +308,8 @@
 		"ypos"		"150"
 		"wide"		"108"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -329,8 +329,8 @@
 		"ypos"		"110"
 		"wide"		"108"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
@@ -350,17 +350,17 @@
 		"ypos"		"178"
 		"wide"		"181"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Translucent"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -377,13 +377,13 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"replay/thumbnails/crosshair_bg"
 		"border"		"DepressedBorder"
 		"scaleImage"		"0"
@@ -400,13 +400,13 @@
 		"ypos"		"38"
 		"wide"		"136"
 		"tall"		"24"
-		//		"0"
+		
 			"fgcolor_override"	"255 108 107 255"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"leftText"		" "
 		"rightText"		" "
 	}
@@ -418,13 +418,13 @@
 		"ypos"		"66"
 		"wide"		"136"
 		"tall"		"24"
-		//		"0"
+		
 		"fgcolor_override"	"152 190 101 255"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"leftText"		" "
 		"rightText"		" "
 	}
@@ -442,7 +442,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"leftText"		" "
 		"rightText"		" "
 	}
@@ -454,13 +454,13 @@
 		"ypos"		"94"
 		"wide"		"132"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"leftText"		" "
 		"rightText"		" "
 	}
@@ -472,8 +472,8 @@
 		"ypos"		"42"
 		"wide"		"124"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
@@ -493,13 +493,13 @@
 		"ypos"		"42"
 		"wide"		"64"
 		"tall"		"64"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"replay/thumbnails/crosshair_bg"
 		"border"		"DepressedBorder"
 		"scaleImage"		"1"
@@ -516,8 +516,8 @@
 		"ypos"		"260"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
@@ -537,17 +537,17 @@
 		"ypos"		"84"
 		"wide"		"181"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairDescription"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -564,17 +564,17 @@
 		"ypos"		"164"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_ColorSliders"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -589,17 +589,17 @@
 		"ypos"		"98"
 		"wide"		"152"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_PlayerModel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -614,18 +614,18 @@
 		"ypos"		"134"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SpraypaintImage"
 		"textAlignment"		"west"
 		"associate"		"SpraypaintList"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -640,17 +640,17 @@
 		"ypos"		"157"
 		"wide"		"204"
 		"tall"		"64"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SpraypaintServerNote"
 		"textAlignment"		"north-west"
 		//		"1"
-		////		"0"
+		//
 		"font"		"defaultSmall"
 		"wrap"		"1"
 		
@@ -666,17 +666,17 @@
 		"ypos"		"14"
 		"wide"		"181"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairDescription"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -691,17 +691,17 @@
 		"ypos"		"37"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairRed"
 		"textAlignment"		"east"
-		////		"0"
-		////		"0"
+		//
+		//
 		"font"		"defaultSmall"
 		//"wrap"		"0"
 		
@@ -717,17 +717,17 @@
 		"ypos"		"65"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairGreen"
 		"textAlignment"		"east"
-		////		"0"
-		////		"0"
+		//
+		//
 		"font"		"defaultSmall"
 		//"wrap"		"0"
 		
@@ -743,17 +743,17 @@
 		"ypos"		"92"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairBlue"
 		"textAlignment"		"east"
-		////		"0"
-		////		"0"
+		//
+		//
 		"font"		"defaultSmall"
 		//"wrap"		"0"
 		
@@ -769,17 +769,17 @@
 		"ypos"		"76"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_CrosshairScale"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"font"		"defaultSmall"
 		//"wrap"		"0"
 		
@@ -795,13 +795,13 @@
 		"ypos"		"128"
 		"wide"		"432"
 		"tall"		"2"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 	"DownloadFilterLabel"
 	{
@@ -811,18 +811,18 @@
 		"ypos"		"212"
 		"wide"		"260"
 		"tall"		"36"
-		//		"0"
+		
 		//		"2"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_DownloadFilter_Title"
 		"textAlignment"		"west"
 		"associate"		"DownloadFilterCheck"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		

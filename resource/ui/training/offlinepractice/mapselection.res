@@ -60,8 +60,8 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"goprev"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"paintbackground"	"0"
 		"paintborder"		"0"
@@ -97,8 +97,8 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"gonext"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"paintbackground"	"0"
 		"paintborder"		"0"
@@ -130,7 +130,7 @@
 		"zpos"			"2"
 		"wide"			"330"
 		"tall"			"40"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -150,7 +150,7 @@
 		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"16"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -174,8 +174,8 @@
 		"textAlignment"		"center"
 		"textinsetx"		"10"
 		"Command"			"startofflinepractice"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"
@@ -208,7 +208,7 @@
 		"ypos"			"140"
 		"wide"			"190"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -227,7 +227,7 @@
 		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
-		"tabPosition"		"1"
+		//"		"1"
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -256,7 +256,7 @@
 		"ypos"			"162"
 		"wide"			"190"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -299,7 +299,7 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"

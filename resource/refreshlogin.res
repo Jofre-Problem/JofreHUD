@@ -7,9 +7,9 @@
 		"ypos"		"400"
 		"wide"		"360"
 		"tall"		"230"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"Title"		"#GameUI_RefreshLogin"
 	}
 	"UserName"
@@ -19,8 +19,8 @@
 		"ypos"		"94"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"maxchars"		"-1"
 	}
@@ -31,8 +31,8 @@
 		"ypos"		"126"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"textHidden"		"1"
 		"editable"		"1"
@@ -45,8 +45,8 @@
 		"ypos"		"158"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"#GameUI_RefreshLogin_RememberPassword"
 		"Command"		"RememberPassword"
@@ -58,9 +58,9 @@
 		"ypos"		"39"
 		"wide"		"300"
 		"tall"		"40"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_RefreshLogin_InfoTicketExpired"
 		"brighttext"		"1"
 		"wrap"		"1"
@@ -72,9 +72,9 @@
 		"ypos"		"93"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_RefreshLogin_UserName"
 		"textAlignment"		"east"
 	}
@@ -85,9 +85,9 @@
 		"ypos"		"125"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_RefreshLogin_Password"
 		"textAlignment"		"east"
 	}
@@ -98,8 +98,8 @@
 		"ypos"		"193"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		"#GameUI_RefreshLogin_Login"
 		"textAlignment"		"center"
@@ -113,8 +113,8 @@
 		"ypos"		"193"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"labelText"		"#GameUI_RefreshLogin_Cancel"
 		"textAlignment"		"center"

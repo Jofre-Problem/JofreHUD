@@ -7,9 +7,9 @@
 		"ypos"		"450"
 		"wide"		"400"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_CustomTab_Title"
 	}
 	"frame_topGrip"
@@ -19,9 +19,9 @@
 		"ypos"		"0"
 		"wide"		"384"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_bottomGrip"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"295"
 		"wide"		"374"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_leftGrip"
 	{
@@ -41,9 +41,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"284"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_rightGrip"
 	{
@@ -52,9 +52,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"274"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_tlGrip"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_trGrip"
 	{
@@ -74,9 +74,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_blGrip"
 	{
@@ -85,9 +85,9 @@
 		"ypos"		"292"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_brGrip"
 	{
@@ -96,9 +96,9 @@
 		"ypos"		"282"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_caption"
 	{
@@ -107,9 +107,9 @@
 		"ypos"		"0"
 		"wide"		"390"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_minimize"
 	{
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"frame_maximize"
@@ -131,10 +131,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"frame_mintosystray"
@@ -144,10 +144,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}
@@ -158,9 +158,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"r"
 	}
 	"frame_menu"
@@ -170,9 +170,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Explanation"
 	{
@@ -181,9 +181,9 @@
 		"ypos"		"41"
 		"wide"		"338"
 		"tall"		"37"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_CustomTab_Explanation"
 		"wrap"		"1"
 	}
@@ -194,9 +194,9 @@
 		"ypos"		"83"
 		"wide"		"338"
 		"tall"		"71"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_CustomTab_Explanation2"
 		"wrap"		"1"
 	}
@@ -207,9 +207,9 @@
 		"ypos"		"168"
 		"wide"		"320"
 		"tall"		"48"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_CustomTab_Explanation3"
 		"wrap"		"1"
 	}
@@ -220,9 +220,9 @@
 		"ypos"		"218"
 		"wide"		"250"
 		"tall"		"27"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#GameUI_CustomTab_Link"
 		"URLText"		"http://support.steampowered.com/kb_article.php?ref=7958-WSCV-6557"
 	}
@@ -233,9 +233,9 @@
 		"ypos"		"256"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_ok"
 		"Command"		"ok"
 		"Default"		"1"
@@ -247,10 +247,10 @@
 		"ypos"		"256"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#vgui_Cancel"
 		"Command"		"cancel"
 	}
@@ -261,9 +261,9 @@
 		"ypos"		"662"
 		"wide"		"300"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 }

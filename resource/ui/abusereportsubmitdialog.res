@@ -184,8 +184,8 @@
 		"labelText"		"Screenshot shows abuse; upload it with report."
 		"font"			"HudFontSmall"
 		"textAlignment"	"west"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"AvatarImage"
@@ -238,7 +238,7 @@
 		"wide"			"18"
 		"tall"			"43"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -246,11 +246,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		////		"0"
+		//
 		
 		"Command"		"prevcustomtexture"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 	
 	"CustomTextureNextButton"
@@ -263,7 +263,7 @@
 		"wide"			"18"
 		"tall"			"43"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -271,11 +271,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		////		"0"
+		//
 		
 		"Command"		"nextcustomtexture"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 	
 	"NoCustomTexturesLabel"
@@ -337,8 +337,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"discard"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"SubmitButton"
@@ -354,8 +354,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"submit"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"SaveForLaterButton"
@@ -371,7 +371,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

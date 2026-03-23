@@ -7,9 +7,9 @@
 		"ypos"		"305"
 		"wide"		"300"
 		"tall"		"140"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Bug Reporter"
 	}
 	"CloseBtn"
@@ -19,9 +19,9 @@
 		"ypos"		"96"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_OK"
 		"Command"		"Close"
 		"Default"		"1"
@@ -33,9 +33,9 @@
 		"ypos"		"38"
 		"wide"		"240"
 		"tall"		"48"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Successful"
 		"textAlignment"		"center"
 		"wrap"		"1"

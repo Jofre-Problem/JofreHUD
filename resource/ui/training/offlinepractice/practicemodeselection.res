@@ -47,8 +47,8 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"goprev"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"paintbackground"	"0"
 		"paintborder"		"0"
@@ -84,8 +84,8 @@
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"Command"		"gonext"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"paintbackground"	"0"
 		"paintborder"		"0"
@@ -116,7 +116,7 @@
 		"ypos"			"5"
 		"wide"			"330"
 		"tall"			"24"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -135,7 +135,7 @@
 		"zpos"			"20"
 		"wide"			"40"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -153,7 +153,7 @@
 		"ypos"			"180"
 		"wide"			"330"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
@@ -175,8 +175,8 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"selectcurrentgamemode"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"

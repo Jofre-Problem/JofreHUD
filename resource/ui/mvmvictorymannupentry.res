@@ -153,11 +153,11 @@
 			"ypos"		"50"
 			"wide"		"427"
 			"tall"		"225"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			//
 			"bgcolor_override"		"blank"
 		}
@@ -530,7 +530,7 @@
 		"wide"			"300"
 		"tall"			"280"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 

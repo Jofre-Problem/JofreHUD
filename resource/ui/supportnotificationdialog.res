@@ -8,10 +8,10 @@
 		"wide"			"564"
 		"tall"			"387" // Bottom of confirm button + 10 margin
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
@@ -32,7 +32,7 @@
 		"wide"			"p0.9"
 		"tall"			"14"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -53,7 +53,7 @@
 		"wide"			"p0.9"
 		"tall"			"301" // Size 11 font - 27 rows & change
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -72,7 +72,7 @@
 		"tall"			"25"
 		"default"		"1"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -80,11 +80,11 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"show_later"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
@@ -105,7 +105,7 @@
 		"tall"			"25"
 		"default"		"1"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -113,11 +113,11 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"acknowledge"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"			"RedSolid"

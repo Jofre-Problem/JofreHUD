@@ -8,7 +8,7 @@
 		"wide"			"220"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"labelText"		""
 		"textAlignment"	"center"
 		"command"		"LoadLookup"
@@ -20,9 +20,9 @@
 		"ypos"				"96"
 		"wide"				"74"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Blend Factor:"
 	}
 	"BlendFactorSlider"
@@ -32,9 +32,9 @@
 		"ypos"				"92"
 		"wide"				"130"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}

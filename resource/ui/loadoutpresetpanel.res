@@ -12,19 +12,19 @@
 			"zpos"			"20"
 			"wide"			"0"
 			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"	"0"
+			//"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			//"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"centerwrap"	"1"
 		}		
 		
@@ -40,8 +40,8 @@
             "textAlignment"		"center"
             "Command"			"loadpreset_0"
             paintBackground 0
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
+            
+            
             armedfgcolor_override "G_ButtonBg"
 			//	"border_default"	"BackpackItemBorder_RarityLegendary"
 			//"border_armed"	  "BackpackItemMouseOverBorder_RarityMythical"	
@@ -62,8 +62,8 @@
             "labeltext"			"т"
             "textAlignment"		"center"
             "Command"			"loadpreset_1"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
+            
+            
 				"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
@@ -85,8 +85,8 @@
             "labeltext"			"у"
             "textAlignment"		"center"
             "Command"			"loadpreset_2"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
+            
+            
 					"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
@@ -109,8 +109,8 @@
             "labeltext"			"ф"
             "textAlignment"		"center"
             "Command"			"loadpreset_3"
-            "sound_depressed"	"UI/buttonclick.wav"
-            "sound_released"	"UI/buttonclickrelease.wav"
+            
+            
 				"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"

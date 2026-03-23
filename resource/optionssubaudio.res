@@ -8,8 +8,8 @@
 		"ypos"		"43"
 		"wide"		"175"
 		"tall"		"50"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -26,8 +26,8 @@
 		"ypos"		"43"
 		"wide"		"175"
 		"tall"		"50"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -44,8 +44,8 @@
 		"ypos"		"179"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -65,8 +65,8 @@
 		"ypos"		"116"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -86,8 +86,8 @@
 		"ypos"		"116"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -107,8 +107,8 @@
 		"ypos"		"179"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -128,8 +128,8 @@
 		"ypos"		"230"
 		"wide"		"430"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -137,8 +137,8 @@
 		//		"1"
 		"labelText"		"#GameUI_SndMuteLoseFocus"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -155,8 +155,8 @@
 		"ypos"		"270"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -164,8 +164,8 @@
 		//		"8"
 		"labelText"		"#GameUI_ThirdPartyTechCredits"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -183,17 +183,17 @@
 		"ypos"		"155"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GAMEUI_AudioSpokenLanguage"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -208,17 +208,17 @@
 		"ypos"		"199"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GAMEUI_RequiresRestart"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -233,18 +233,18 @@
 		"ypos"		"19"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SoundEffectVolume"
 		"textAlignment"		"west"
 		"associate"		"SFXSlider"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -259,18 +259,18 @@
 		"ypos"		"19"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_MusicVolume"
 		"textAlignment"		"west"
 		"associate"		"MusicSlider"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -285,18 +285,18 @@
 		"ypos"		"92"
 		"wide"		"179"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SoundQuality"
 		"textAlignment"		"west"
 		"associate"		"SoundQuality"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -311,18 +311,18 @@
 		"ypos"		"92"
 		"wide"		"184"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SpeakerConfiguration"
 		"textAlignment"		"west"
 		"associate"		"SpeakerSetup"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -337,17 +337,17 @@
 		"ypos"		"222"
 		"wide"		"182"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_TestSpeakerSettingsWarning"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"Font"		"DefaultSmall"
 		"wrap"		"1"
 		
@@ -363,8 +363,8 @@
 		"ypos"		"194"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"0"
@@ -372,8 +372,8 @@
 		//		"5"
 		"labelText"		"#GameUI_TestSpeakerSettings"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -391,18 +391,18 @@
 		"ypos"		"155"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Captioning"
 		"textAlignment"		"west"
 		"associate"		"CloseCaptionCheck"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		

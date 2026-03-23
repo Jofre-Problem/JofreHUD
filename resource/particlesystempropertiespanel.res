@@ -3,7 +3,7 @@
 	"Splitter"
 	{
 		"ControlName"	"Splitter"
-		//		"0"
+		
 		//	"3"
 		//"PinnedCornerOffsetX" "0"
 		//"PinnedCornerOffsetY" "0"
@@ -21,7 +21,7 @@
 				"wide"			"463"
 				"tall"			"24"
 				//	"1"
-				//		"0"
+				
 				//"PinnedCornerOffsetX" "6"
 				//"PinnedCornerOffsetY" "-6"
 				//	"1"
@@ -36,7 +36,7 @@
 				"wide"			"463"
 				"tall"			"212"
 				//	"3"
-				//		"0"
+				
 				//"PinnedCornerOffsetX" "0"
 				//"PinnedCornerOffsetY" "30"
 				//"PinnedCornerOffsetY" "0"
@@ -50,7 +50,7 @@
 			"FunctionProperties"
 			{
 				"ControlName"	"CDmeElementPanel"
-				//		"0"
+				
 				//	"3"
 				//"PinnedCornerOffsetX" "6"
 				//"PinnedCornerOffsetY" "6"

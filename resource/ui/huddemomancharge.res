@@ -11,7 +11,6 @@
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
 		"fgcolor_override"		"255 255 255 255"

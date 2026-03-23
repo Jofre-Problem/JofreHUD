@@ -61,7 +61,7 @@
 			"wide"			"300"
 			"tall"			"30"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_blu"
@@ -108,7 +108,7 @@
 			"wide"			"180"
 			"tall"			"180"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"

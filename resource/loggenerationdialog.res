@@ -7,9 +7,9 @@
 		"ypos"		"370"
 		"wide"		"330"
 		"tall"		"160"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 	"AxisLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"25"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Rotation Axis:"
 	}
 	"AxisText"
@@ -31,9 +31,9 @@
 		"ypos"		"25"
 		"wide"		"75"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -44,9 +44,9 @@
 		"ypos"		"54"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Time:"
 	}
 	"Time0Text"
@@ -56,9 +56,9 @@
 		"ypos"		"54"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -70,9 +70,9 @@
 		"ypos"		"121"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Generate"
 		"Command"		"GenerateLog"
 	}
@@ -83,9 +83,9 @@
 		"ypos"		"122"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"CancelLogGeneration"
 	}
@@ -96,9 +96,9 @@
 		"ypos"		"54"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -110,9 +110,9 @@
 		"ypos"		"54"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -124,9 +124,9 @@
 		"ypos"		"54"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -138,9 +138,9 @@
 		"ypos"		"83"
 		"wide"		"82"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Rotation Speed:"
 	}
 	"BuildModeDialog"
@@ -150,9 +150,9 @@
 		"ypos"		"230"
 		"wide"		"300"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 	"Speed0Text"
@@ -162,9 +162,9 @@
 		"ypos"		"83"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -176,9 +176,9 @@
 		"ypos"		"83"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -190,9 +190,9 @@
 		"ypos"		"83"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -204,9 +204,9 @@
 		"ypos"		"83"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"

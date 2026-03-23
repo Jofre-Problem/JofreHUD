@@ -9,8 +9,8 @@
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
-		////"autoResize"		"0"
-		//"pinCorner"		"3"
+		//////"		"0"
+		////"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -24,8 +24,8 @@
 			"zpos"			"1"
 			"wide"			"32"
 			"tall"			"32"
-			////"autoResize"		"0"
-			//"pinCorner"		"3"
+			//////"		"0"
+			////"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			////	"0"
@@ -40,8 +40,8 @@
 			"Command"		"motd_show"
 			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -102,8 +102,8 @@
 				"ypos"			"0"
 				"wide"			"300"
 				"tall"			"24"
-				////"autoResize"		"0"
-				//		"0"
+				//////"		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
@@ -121,8 +121,8 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			////	"0"
@@ -137,8 +137,8 @@
 			"navDown"			"MOTD_URLButton"
 			"navActivate"		"<QuickplayButton"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"motd_hide"
 			
 			"paintbackground"	"0"
@@ -193,8 +193,8 @@
 			"ypos"			"25"
 			"wide"			"250"
 			"tall"			"15"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"LabelDark"
@@ -212,8 +212,8 @@
 			"ypos"			"40"
 			"wide"			"300"
 			"tall"			"15"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"LabelDark"
@@ -296,8 +296,8 @@
 					"ypos"			"0"
 					"wide"			"250"
 					"tall"			"300"
-					////"autoResize"		"0"
-					//		"0"
+					//////"		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"fgcolor"		"LabelDark"
@@ -314,8 +314,8 @@
 			"ypos"			"rs1.2"
 			"wide"			"150"
 			"tall"			"15"
-			////"autoResize"		"0"
-			//"pinCorner"		"3"
+			//////"		"0"
+			////"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			////	"0"
@@ -333,8 +333,8 @@
 
 
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			
 			"defaultFgColor_override" "235 226 202 255"
 			"defaultBgColor_override" "Graydark"
@@ -351,8 +351,8 @@
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
-			////"autoResize"		"0"
-			//"pinCorner"		"3"
+			//////"		"0"
+			////"		"3"
 			"visible"		"0"
 			"enabled"		"1"
 			////	"0"
@@ -368,8 +368,8 @@
 			"navUp"			"MOTD_CloseButton"
 			"navRight"		"MOTD_URLButton"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -399,8 +399,8 @@
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
-			////"autoResize"		"0"
-			//"pinCorner"		"3"
+			//////"		"0"
+			////"		"3"
 			"visible"		"0"
 			"enabled"		"1"
 			////	"0"
@@ -416,8 +416,8 @@
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_URLButton"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			
 			"image_drawcolor"	"235 226 202 255"

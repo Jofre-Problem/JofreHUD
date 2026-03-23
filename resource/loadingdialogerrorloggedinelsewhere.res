@@ -1,3 +1,21 @@
-#base "../_jofrenew/resource/loadingdialogerrorloggedinelsewhere.res"
-#base "../_opt/resource/loadingdialogerrorloggedinelsewhere.res"
-#base "../z_hl2/resource/loadingdialogerrorloggedinelsewhere.res"
+#base "loadingdialogerror.res"
+"Resource/LoadingDialogErrorLoggedInElsewhere.res"
+{
+	"LoadingDialog"
+	{
+		"title"		"#VAC_LoggedInElsewhere_Title"
+	}
+	"progress"
+	{
+	}
+	"Progress2"
+	{
+	}
+	"TimeRemainingLabel"
+	{
+	}
+	"InfoLabel"
+	{
+		"labelText"		"#VAC_LoggedInElsewhereReason"
+	}
+}

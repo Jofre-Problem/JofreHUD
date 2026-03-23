@@ -1,1 +1,0 @@
-// check resource/ui/pvprankpanel.res

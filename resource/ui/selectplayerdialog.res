@@ -37,11 +37,11 @@
 				"textAlignment"	"west"
 				"textinsetx"	"34"
 				"use_proportional_insets" "1"
-				////		"0"
+				//
 				
 				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"avatar"
@@ -75,7 +75,7 @@
 		"wide"			"400"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -130,7 +130,7 @@
 			"wide"			"400"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
@@ -153,12 +153,12 @@
 			"labelText"		"#TF_SelectPlayer_SelectFriends"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"friends"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"subbutton1"
 		{
@@ -177,12 +177,12 @@
 			"labelText"		"#TF_SelectPlayer_SelectServer"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"server"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 	}
 	"StatePanel1"
@@ -209,7 +209,7 @@
 			"wide"			"400"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
@@ -228,7 +228,7 @@
 			"wide"			"400"
 			"tall"			"30"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -261,7 +261,7 @@
 			"wide"			"400"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
@@ -280,7 +280,7 @@
 			"wide"			"400"
 			"tall"			"30"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -306,11 +306,11 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

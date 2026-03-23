@@ -8,11 +8,11 @@
 		"ypos"		"35"
 		"wide"		"640"
 		"tall"		"480"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 
 	"TrainingPanel"
@@ -23,11 +23,11 @@
 		"ypos"		"35"
 		"wide"		"620"
 		"tall"		"405"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		
 		"class_list"
 		{
@@ -37,11 +37,11 @@
 			"ypos"		"0"
 			"wide"		"620"
 			"tall"		"405"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"paintbackground"	"1"
 		}
 	}

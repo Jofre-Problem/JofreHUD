@@ -149,8 +149,8 @@
 		////	"0"
 		
 		"Command"		"confirm"
-		"sound_depressed"	"ui/buttonclick.wav"
-		"sound_released"	"ui/buttonclickrelease.wav"
+		
+		
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
 		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"

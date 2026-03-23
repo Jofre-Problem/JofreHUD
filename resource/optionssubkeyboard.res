@@ -8,8 +8,8 @@
 		"ypos"		"10"
 		"wide"		"480"
 		"tall"		"350"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -22,15 +22,15 @@
 		"ypos"		"276"
 		"wide"		"106"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_SetNewKey"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"ChangeKey"
 		"Default"		"0"
@@ -43,15 +43,15 @@
 		"ypos"		"276"
 		"wide"		"105"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"#GameUI_ClearKey"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"ClearKey"
 		"Default"		"0"
@@ -64,15 +64,15 @@
 		"ypos"		"132"
 		"wide"		"134"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_UseDefaults"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Defaults"
 		"Default"		"0"
@@ -85,15 +85,15 @@
 		"ypos"		"160"
 		"wide"		"111"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_AdvancedEllipsis"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Advanced"
 		"Default"		"1"

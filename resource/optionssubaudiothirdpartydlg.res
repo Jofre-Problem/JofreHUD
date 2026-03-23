@@ -8,15 +8,15 @@
 		"ypos"		"50"
 		"wide"		"440"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Miles_Audio"
 		"textAlignment"		"north-west"
 		//		"1"
-		////		"0"
+		//
 		"font"		"DefaultSmall"
 		"wrap"		"1"
 	}
@@ -28,15 +28,15 @@
 		"ypos"		"90"
 		"wide"		"460"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"north-west"
 		//		"1"
-		////		"0"
+		//
 		"font"		"DefaultSmall"
 		//"wrap"		"0"
 	}
@@ -48,15 +48,15 @@
 		"ypos"		"120"
 		"wide"		"460"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bink"
 		"textAlignment"		"north-west"
 		//		"1"
-		////		"0"
+		//
 		"font"		"DefaultSmall"
 		//"wrap"		"0"
 	}
@@ -68,15 +68,15 @@
 		"ypos"		"170"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"1"
@@ -90,7 +90,7 @@
 		"wide"		"64"
 		"tall"		"64"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"		"west"

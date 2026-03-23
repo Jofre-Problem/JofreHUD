@@ -8,11 +8,11 @@
 		"ypos"		"406"
 		"wide"		"482"
 		"tall"		"510" 
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"		"1"
 		"title"		"#GameUI_VideoAdvanced_Title"
 	}

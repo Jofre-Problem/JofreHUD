@@ -7,9 +7,9 @@
 		"ypos"		"427"
 		"wide"		"350"
 		"tall"		"170"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#SFM_Progressive_Refinement_Settings"
 	}
 	"frame_topGrip"
@@ -19,9 +19,9 @@
 		"ypos"		"0"
 		"wide"		"334"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_bottomGrip"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"165"
 		"wide"		"324"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_leftGrip"
 	{
@@ -41,9 +41,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"154"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_rightGrip"
 	{
@@ -52,9 +52,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"144"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_tlGrip"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_trGrip"
 	{
@@ -74,9 +74,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_blGrip"
 	{
@@ -85,9 +85,9 @@
 		"ypos"		"162"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_brGrip"
 	{
@@ -96,9 +96,9 @@
 		"ypos"		"152"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_caption"
 	{
@@ -107,9 +107,9 @@
 		"ypos"		"0"
 		"wide"		"340"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_minimize"
 	{
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"frame_maximize"
@@ -131,10 +131,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"frame_mintosystray"
@@ -144,10 +144,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}
@@ -158,10 +158,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"r"
 	}
 	"frame_menu"
@@ -171,9 +171,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"OkButton"
 	{
@@ -182,8 +182,8 @@
 		"ypos"		"132"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"labelText"		"#vgui_ok"
 		"Command"		"Ok"
@@ -195,8 +195,8 @@
 		"ypos"		"132"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"8"
 		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
@@ -208,8 +208,8 @@
 		"ypos"		"29"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"Progressive Refinement"
 	}
@@ -220,8 +220,8 @@
 		"ypos"		"53"
 		"wide"		"110"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"Depth of Field"
 	}
@@ -232,9 +232,9 @@
 		"ypos"		"53"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"# Samples:"
 	}
 	"DoFQuality"
@@ -244,8 +244,8 @@
 		"ypos"		"53"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"maxchars"		"-1"
 	}
@@ -256,8 +256,8 @@
 		"ypos"		"77"
 		"wide"		"110"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		"Motion Blur"
 	}
@@ -268,9 +268,9 @@
 		"ypos"		"77"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"# Samples:"
 	}
 	"MotionBlurQuality"
@@ -280,8 +280,8 @@
 		"ypos"		"77"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"maxchars"		"-1"
 	}

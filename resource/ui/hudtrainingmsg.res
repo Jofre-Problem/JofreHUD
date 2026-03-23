@@ -1,3 +1,4 @@
+#base "ui3/base/label1.res"
 "Resource/UI/HudTrainingMsg.res"
 {
 	"HudTrainingMsgBG"
@@ -9,8 +10,8 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"265"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
@@ -20,36 +21,6 @@
 	}
 	"GoalLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"GoalLabel"
 		"font"			"HudFontSmall"
-		"xpos"			"30"
-		"ypos"			"40"
-		"zpos"			"1"
-		"wide"			"345"
-		"tall"			"105"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		""
-		"textAlignment"		"North"
-	}
-	"GoalImage"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"GoalImage"
-		"xpos"			"27"
-		"ypos"			"55"
-		"zpos"			"1"
-		"wide"			"45"
-		"tall"			"45"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/hud_icon_attack"
-		"scaleImage"		"1"
 	}
 }

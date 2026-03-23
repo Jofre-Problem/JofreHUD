@@ -7,9 +7,9 @@
 		"ypos"		"390"
 		"wide"		"300"
 		"tall"		"110"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Filter Log"
 	}
 	"Resample"
@@ -19,10 +19,10 @@
 		"ypos"		"25"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"selected"		"1"
-		//		"0"
+		
 		"labelText"		"Resample"
 	}
 	"FramerateLabel"
@@ -32,9 +32,9 @@
 		"ypos"		"25"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Resampled Framerate:"
 	}
 	"FramerateText"
@@ -44,9 +44,9 @@
 		"ypos"		"25"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -58,10 +58,10 @@
 		"ypos"		"50"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"selected"		"1"
-		//		"0"
+		
 		"labelText"		"Smooth"
 	}
 	"FilterWidthLabel"
@@ -71,9 +71,9 @@
 		"ypos"		"50"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Filter Width:"
 	}
 	"FilterWidthText"
@@ -83,9 +83,9 @@
 		"ypos"		"50"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -97,9 +97,9 @@
 		"ypos"		"75"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Filter"
 		"Command"		"FilterLog"
 		"Default"		"1"
@@ -111,9 +111,9 @@
 		"ypos"		"75"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"CancelFilter"
 	}

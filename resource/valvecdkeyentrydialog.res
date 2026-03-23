@@ -7,9 +7,9 @@
 		"ypos"		"202"
 		"wide"		"392"
 		"tall"		"192"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"SysMenu"
 	{
@@ -18,10 +18,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 	"OKButton"
 	{
@@ -30,8 +30,8 @@
 		"ypos"		"148"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"labelText"		"#GameUI_OK"
 		"command"		"OK"
@@ -44,8 +44,8 @@
 		"ypos"		"148"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"labelText"		"#GameUI_Quit"
 		"command"		"Cancel"
@@ -57,8 +57,8 @@
 		"ypos"		"98"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"5"
@@ -70,8 +70,8 @@
 		"ypos"		"98"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"5"
@@ -83,8 +83,8 @@
 		"ypos"		"98"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"5"
@@ -96,8 +96,8 @@
 		"ypos"		"98"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"5"
@@ -109,8 +109,8 @@
 		"ypos"		"98"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"editable"		"1"
 		"maxchars"		"5"
@@ -122,9 +122,9 @@
 		"ypos"		"44"
 		"wide"		"344"
 		"tall"		"48"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_EnterCDKey"
 	}
 }

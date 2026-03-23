@@ -9,7 +9,7 @@
 		"wide"			"240"
 		"tall"			"40"
 		//	"0"
-		//		"0"
+		
 		"scaleImage"	"1"
 		"paintbackgroundtype"	"2"
 	}
@@ -33,7 +33,7 @@
 		"wide"			"220"
 		"tall"			"20"
 		//	"0"
-		//		"0"
+		
 		"labelText"		"%heading%"
 		"textAlignment"	"center"
 	}
@@ -46,7 +46,7 @@
 		"wide"			"220"
 		"tall"			"20"
 		//	"0"
-		//		"0"
+		
 		"labelText"		"%title%"
 		"textAlignment"	"center"
 	}

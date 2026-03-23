@@ -131,7 +131,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"ItemFontNamesmall"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -149,7 +149,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"ItemFontNamesmall"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -188,7 +188,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"collectionnamelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"ItemFontNamesmall"
 			"xpos"			"100"
 			"ypos"			"30"
 			"zpos"			"2"

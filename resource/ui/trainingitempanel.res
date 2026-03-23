@@ -8,17 +8,17 @@
 		"ypos"		"0"
 		"wide"		"620"
 		"tall"		"195"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 	"Background"
 	{
 		"ControlName"			"Panel"
 		//				"2"
-		"AutoResize"			"1"
+		//"			"1"
 		"fieldName"				"background"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -37,11 +37,11 @@
 		"ypos"			"-64"
 		"wide"			"128"
 		"tall"			"256"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"scaleImage"		"1"
 	}
 	"Name"
@@ -52,15 +52,15 @@
 		"ypos"		"2"
 		"wide"		"620"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"%name%"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"Description"
@@ -71,15 +71,15 @@
 		"ypos"		"35"
 		"wide"		"620"
 		"tall"		"100"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"%description%"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"CompletedLabel"
@@ -90,15 +90,15 @@
 		"ypos"		"160"
 		"wide"		"620"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TR_Completed"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"CenterPrintText"
 		"fgcolor_override"	"0 160 0 255"
@@ -111,15 +111,15 @@
 		"ypos"		"160"
 		"wide"		"620"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TR_Not_Completed"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"CenterPrintText"
 		"fgcolor_override"	"192 28 0 255"

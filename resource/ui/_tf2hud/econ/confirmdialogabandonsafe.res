@@ -9,10 +9,10 @@
 		"wide"			"300"
 		"tall"			"200"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
@@ -32,7 +32,7 @@
 		"wide"			"300"
 		"tall"			"20"
 		//	"1"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -51,7 +51,7 @@
 		"wide"			"220"
 		"tall"			"170"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -68,7 +68,7 @@
 		"wide"			"100"
 		"tall"			"25"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -76,7 +76,7 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -114,7 +114,7 @@
 		"tall"			"25"
 		"default"		"1"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -122,11 +122,11 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"

@@ -370,7 +370,7 @@
 			"wide"			"500"
 			"tall"			"150"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
@@ -515,11 +515,11 @@
 		"labelText"		"#TF_PVE_Vote_MissionRestart"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"vote_restart"
@@ -541,11 +541,11 @@
 		"labelText"		"#ConfirmButtonText"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"continue"

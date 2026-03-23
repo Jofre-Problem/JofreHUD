@@ -12,7 +12,7 @@
 		"zpos"			"1"
 		"wide"			"430"
 		"tall"			"20"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"NotoBlack"

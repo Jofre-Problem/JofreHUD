@@ -77,7 +77,7 @@
 		"labelText"		"Press [ , ] to Change Team"
 		"textAlignment"		"center"
 		"font"				"TFFontSmall"
-		"fgcolor_override"		"G_White"
+		"fgcolor_override"		"Tanlight"
 	}
 				"Background"
 				{
@@ -256,7 +256,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"textinsetx"	"5"
 		"xpos"			"r260"
 		"ypos"			"0"
@@ -268,7 +268,7 @@
 		"enabled"		"1"
 		"labelText"		"" // map: cp_bridge
 		"textAlignment"		"east"
-		"fgcolor_override"	"G_White"
+		"fgcolor_override"	"Tanlight"
 	}
 	
 }

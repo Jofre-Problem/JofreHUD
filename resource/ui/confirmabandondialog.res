@@ -9,10 +9,10 @@
 		"wide"			"300"
 		"tall"			"250"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 	}
@@ -30,7 +30,7 @@
 		"wide"			"300"
 		"tall"			"20"
 		//	"1"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -48,7 +48,7 @@
 		"wide"			"220"
 		"tall"			"130"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -65,7 +65,7 @@
 		"wide"			"100"
 		"tall"			"25"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -73,11 +73,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}		
 
 	"CancelButtonHintIcon"
@@ -105,7 +105,7 @@
 		"tall"			"25"
 		"default"		"1"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -113,11 +113,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"ConfirmButtonHintIcon"
@@ -144,13 +144,13 @@
 		"wide"			"300"
 		"tall"			"25"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#TF_Confirm_Opt_Out"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		
 		"font"			"HudFontSmallest"

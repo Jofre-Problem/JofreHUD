@@ -7,8 +7,8 @@
 		"ypos"		"0"
 		"wide"		"180"
 		"tall"		"128"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"BonusMapScreenshotBackground"
 	{
@@ -46,9 +46,9 @@
 		"ypos"		"26"
 		"wide"		"64"
 		"tall"		"64"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"image"		"hud/icon_locked"
 		"scaleImage"		"0"
 	}
@@ -59,10 +59,10 @@
 		"ypos"		"26"
 		"wide"		"64"
 		"tall"		"64"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"image"		"hud/icon_complete"
 		"scaleImage"		"0"
 	}

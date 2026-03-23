@@ -1,4 +1,54 @@
-//	#base	"../../../_stream/resource/ui/disguise_menu/scout_blue.res"
-	#base	"../../../_jofrenew/resource/ui/disguise_menu/scout_blue.res"
-//	#base	"../../../_opt/resource/ui/disguise_menu/scout_blue.res"
-//	#base	"../../../z_tf2/resource/ui/disguise_menu/scout_blue.res"
+"Resource/UI/disguise_menu/scout_blue.res"
+{
+	"ClassIconLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassIconLabel"
+		"font"			"default"
+		"fgcolor"		"Blue"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"a"
+		"textAlignment"	"Center"
+		"proportionaltoparent"		"1"
+	}
+
+	"NewNumberLabel"		//Concise menu
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"NotoBold20"
+		"fgcolor"		"White"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"15"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"Center"
+	}
+
+	"NumberLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabel"
+		"font"			"NotoBold20"
+		"fgcolor"		"White"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"Center"
+	}
+}

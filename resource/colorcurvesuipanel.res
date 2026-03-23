@@ -7,9 +7,9 @@
 		"ypos"		"42"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Channel:"
 	}
 	"ColorMask"
@@ -19,9 +19,9 @@
 		"ypos"		"42"
 		"wide"		"130"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"CurveEditor"
@@ -31,9 +31,9 @@
 		"ypos"		"72"
 		"wide"		"192"
 		"tall"		"192"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LabelBlendFactor"
 	{
@@ -42,9 +42,9 @@
 		"ypos"		"272"
 		"wide"		"64"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Blend Factor:"
 	}
 	"BlendFactorSlider"
@@ -54,9 +54,9 @@
 		"ypos"		"272"
 		"wide"		"130"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"leftText"		"0"
 		"rightText"		"255"
 	}

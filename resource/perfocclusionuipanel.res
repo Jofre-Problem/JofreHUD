@@ -7,9 +7,9 @@
 		"ypos"		"35"
 		"wide"		"230"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Occlusion Visualization Mode:"
 		"textAlignment"		"center"
 	}
@@ -21,9 +21,9 @@
 		"ypos"		"65"
 		"wide"		"230"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 
@@ -35,7 +35,7 @@
 		"wide"			"230"
 		"tall"			"28"
 		//	"0"
-		//		"0"
+		
 		//	"0"
 		"labelText"		"Deactivate Occlusion System"
 	}
@@ -47,9 +47,9 @@
 		"ypos"		"125"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Min Occluder Size (%):"
 		"textAlignment"		"east"
 	}
@@ -61,8 +61,8 @@
 		"ypos"		"125"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"8"
@@ -76,9 +76,9 @@
 		"ypos"		"155"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Max Occludee Size (%):"
 		"textAlignment"		"east"
 	}
@@ -90,8 +90,8 @@
 		"ypos"		"155"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"8"

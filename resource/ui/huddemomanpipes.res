@@ -33,8 +33,8 @@
 
 		"tall"		"3"	
 		////	"3"			
-		////"autoResize"		"0"
-		//"pinCorner"	"0"
+		//////"		"0"
+		////"	"0"
 		"visible"	"1"
 		"enabled"	"1"
 		"textAlignment"	"Left"
@@ -73,15 +73,15 @@
 			"zpos"			"5"
 			"wide"			"35" //"74"
 			"tall"			"21"
-			"autoResize"		"1"
-			//"pinCorner"		"2"
+			//"		"1"
+			////"		"2"
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			////	"0"
-			////		"0"
+			//
 			"font"			"AmmoPipesOut3"
 			"fgcolor"		"notowhite"
 		}
@@ -94,15 +94,15 @@
 			"zpos"			"5"
 			"wide"			"35" //"74"
 			"tall"			"21"//"13"
-			"autoResize"		"1"
-			//"pinCorner"		"2"
+			//"		"1"
+			////"		"2"
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			////	"0"
-			////		"0"
+			//
 			"font"			"AmmoPipesOut2"
 			"fgcolor"		"110 255 25 255"
 		}
@@ -117,11 +117,11 @@
 			"tall"			"21"
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"%activepipes%"
 			"textAlignment"		"center"
 			////	"0"
-			////		"0"
+			//
 			"font"			"AmmoPipesOutS"
 			"fgcolor"		"0 0 0 100"
 		}

@@ -19,7 +19,7 @@
 			"wide"			"250"
 			"tall"			"70"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ammo_red_bg"

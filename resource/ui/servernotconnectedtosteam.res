@@ -23,8 +23,8 @@
 		"zpos"			"1"
 		"wide"			"320"
 		"tall"			"15"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -42,8 +42,8 @@
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"55"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -68,11 +68,11 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

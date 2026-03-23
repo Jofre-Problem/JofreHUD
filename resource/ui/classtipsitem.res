@@ -34,7 +34,7 @@
 			"tall"			"30"
 			"wrap"			"1"
 			//	"3"
-			//		"1"
+			
 			"textAlignment"	"north-west"
 		}
 	}

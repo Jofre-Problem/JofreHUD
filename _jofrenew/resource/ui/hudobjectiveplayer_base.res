@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"font"			"Size 12 Shadow"
+		"font"			"Size 12"
 		"fgcolor"		"White"
 
 		"pin_to_sibling"		"PlayerDestructionBG"
@@ -106,7 +106,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"Size 20"
+			"font"			"NotoBold20"
 			"fgcolor"		"White"
 			"proportionalToParent"	"1"
 		}
@@ -124,7 +124,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"
 			"labelText"		"%flagvalue%"
-			"font"			"Size 20"
+			"font"			"NotoBold20"
 			"fgcolor"		"Shadow"
 			"proportionalToParent"	"1"
 
@@ -844,7 +844,7 @@
 			"enabled"		"1"
 			"textAlignment"	"west"
 			"labelText"		"%countdowntime%"
-			"font"			"Size 20"
+			"font"			"NotoBold20"
 			"fgcolor"		"White"
 			"proportionalToParent"	"1"
 
@@ -866,7 +866,7 @@
 			"enabled"		"1"
 			"textAlignment"	"west"
 			"labelText"		"%countdowntime%"
-			"font"			"Size 20"
+			"font"			"NotoBold20"
 			"fgcolor"		"Shadow"
 			"proportionalToParent"	"1"
 

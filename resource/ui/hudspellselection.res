@@ -12,23 +12,7 @@
 			
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
-		"ypos"			"10"
-		//	"0"
-		//	"10"
-		"wide"			"80"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		//	"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		//	"../hud/ammo_red_bg_lodef"
-		"teambg_3"		"../hud/ammo_blue_bg"
-		//	"../hud/ammo_blue_bg_lodef"				
+		"visible"		"0"		
 	}
 	
 	"Spellbook"

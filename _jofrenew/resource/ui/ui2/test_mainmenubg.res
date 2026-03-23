@@ -51,7 +51,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
 
 				"proportionaltoparent"	"1"
@@ -84,7 +84,7 @@
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
 				pin_to_sibling "NextButton"
 				"proportionaltoparent"	"1"

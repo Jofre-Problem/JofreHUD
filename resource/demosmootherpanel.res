@@ -7,9 +7,9 @@
 		"ypos"		"397"
 		"wide"		"440"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"DemoSmootherType"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"141"
 		"wide"		"74"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Process->"
 	}
 	"DemoSmoothRevert"
@@ -30,9 +30,9 @@
 		"ypos"		"116"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Revert"
 		"command"		"revert"
 	}
@@ -43,9 +43,9 @@
 		"ypos"		"33"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"OK"
 		"command"		"close"
 	}
@@ -56,9 +56,9 @@
 		"ypos"		"59"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"command"		"cancel"
 	}
@@ -69,9 +69,9 @@
 		"ypos"		"141"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Save"
 		"command"		"save"
 	}
@@ -82,9 +82,9 @@
 		"ypos"		"91"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Reload"
 		"command"		"reload"
 	}
@@ -95,9 +95,9 @@
 		"ypos"		"59"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -108,9 +108,9 @@
 		"ypos"		"84"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -121,9 +121,9 @@
 		"ypos"		"241"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Show Original"
 		"command"		"original"
 	}
@@ -134,9 +134,9 @@
 		"ypos"		"241"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Show Processed"
 		"command"		"processed"
 	}
@@ -147,9 +147,9 @@
 		"ypos"		"167"
 		"wide"		"114"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Back off"
 	}
 	"DemoSmoothHideLegend"
@@ -159,9 +159,9 @@
 		"ypos"		"78"
 		"wide"		"106"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hide legend"
 	}
 	"DemoSmoothHideOriginal"
@@ -171,9 +171,9 @@
 		"ypos"		"98"
 		"wide"		"121"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hide original"
 	}
 	"DemoSmoothHideProcessed"
@@ -183,9 +183,9 @@
 		"ypos"		"117"
 		"wide"		"129"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hide processed"
 	}
 	"DemoSmoothSelectionInfo"
@@ -195,9 +195,9 @@
 		"ypos"		"33"
 		"wide"		"344"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"No smoothing info loaded"
 	}
 	"DemoSmoothShowAll"
@@ -207,9 +207,9 @@
 		"ypos"		"58"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Show All"
 	}
 	"DemoSmoothSelect"
@@ -219,9 +219,9 @@
 		"ypos"		"70"
 		"wide"		"49"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Select"
 		"command"		"select"
 	}
@@ -232,9 +232,9 @@
 		"ypos"		"266"
 		"wide"		"55"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Resume"
 		"command"		"togglepause"
 	}
@@ -245,9 +245,9 @@
 		"ypos"		"266"
 		"wide"		"34"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		">>"
 		"command"		"stepforward"
 	}
@@ -258,9 +258,9 @@
 		"ypos"		"266"
 		"wide"		"34"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"<<"
 		"command"		"stepbackward"
 	}
@@ -271,9 +271,9 @@
 		"ypos"		"266"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Revert Pt."
 		"command"		"revertpoint"
 	}
@@ -284,9 +284,9 @@
 		"ypos"		"266"
 		"wide"		"118"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Make Keyframe"
 		"command"		"keyframe"
 	}
@@ -297,9 +297,9 @@
 		"ypos"		"242"
 		"wide"		"117"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Make Look Target"
 		"command"		"looktarget"
 	}
@@ -310,9 +310,9 @@
 		"ypos"		"185"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Undo"
 		"command"		"undo"
 	}
@@ -323,9 +323,9 @@
 		"ypos"		"210"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Redo"
 		"command"		"redo"
 	}
@@ -336,9 +336,9 @@
 		"ypos"		"186"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"+Key"
 		"command"		"nextkey"
 	}
@@ -349,9 +349,9 @@
 		"ypos"		"186"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"-Key"
 		"command"		"prevkey"
 	}
@@ -362,9 +362,9 @@
 		"ypos"		"210"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"+Target"
 		"command"		"nexttarget"
 	}
@@ -375,9 +375,9 @@
 		"ypos"		"210"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"-Target"
 		"command"		"prevtarget"
 	}
@@ -388,9 +388,9 @@
 		"ypos"		"166"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Set View"
 		"command"		"setview"
 	}
@@ -401,9 +401,9 @@
 		"ypos"		"109"
 		"wide"		"53"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Edge->"
 	}
 	"DemoSmoothFixFrames"
@@ -413,9 +413,9 @@
 		"ypos"		"110"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -426,9 +426,9 @@
 		"ypos"		"242"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Save Key"
 		"command"		"processkey"
 	}
@@ -440,9 +440,9 @@
 		"ypos"		"141"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -453,9 +453,9 @@
 		"ypos"		"141"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Jump To"
 		"command"		"gotoframe"
 	}
@@ -466,9 +466,9 @@
 		"ypos"		"59"
 		"wide"		"77"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Start Tick:"
 	}
 	"Label2"
@@ -478,9 +478,9 @@
 		"ypos"		"84"
 		"wide"		"77"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"End Tick:"
 	}
 	"Label3"
@@ -490,9 +490,9 @@
 		"ypos"		"110"
 		"wide"		"81"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Edge Ticks:"
 	}
 }

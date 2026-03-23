@@ -102,7 +102,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"			"OwnerLabel"
-			"font"				"g_fontsmall"
+			"font"				"itemfontattribsmallv2"
 			"xpos"				"5"
 			"ypos"				"12"
 			"zpos"				"0"

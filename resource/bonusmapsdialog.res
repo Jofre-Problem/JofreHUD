@@ -7,9 +7,9 @@
 		"ypos"		"154"
 		"wide"		"630"
 		"tall"		"444"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_BonusMaps"
 	}
 	"listpanel_bonusmaps" //inside box w/ scroll bar
@@ -20,7 +20,7 @@
 		"wide"		"594"
 		"tall"		"280"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 	}
 	
@@ -31,7 +31,7 @@
 		"ypos"		"410"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		"visible"		"0"
 		//		"2"
@@ -45,7 +45,7 @@
 		"ypos"		"410"
 		"wide"		"82"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		//		"3"
 		"labelText"		"#GameUI_Load"
@@ -59,7 +59,7 @@
 		"ypos"		"410"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
@@ -72,8 +72,8 @@
 		"ypos"		"410"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
 		"Command"		"ImportBonusMaps"
@@ -106,10 +106,10 @@
 		"ypos"		"410"
 		"wide"		"176"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0%"
 		"textAlignment"		"east"
 	}
@@ -120,10 +120,10 @@
 		"ypos"		"410"
 		"wide"		"176"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
 	}
 	
@@ -134,9 +134,9 @@
 		"ypos"		"26"
 		"wide"		"444"
 		"tall"		"36"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_BonusMapsHelp"
 		"wrap"		"1"
 	}
@@ -148,9 +148,9 @@
 		"ypos"		"340"
 		"wide"		"368"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"CommentLabel" //description underneath the file name
 	{
@@ -159,7 +159,7 @@
 		"ypos"		"358"
 		"wide"		"360"
 		"tall"		"40"
-		//		"0"
+		
 		"wrap"		"1"
 	}
 	
@@ -170,8 +170,8 @@
 		"ypos"		"340"
 		"wide"		"162"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		//		"4"
 		"maxchars"		"-1"
@@ -184,7 +184,7 @@
 		"wide"		"162"
 		"tall"		"32"
 		"visible"		"0"
-		//		"0"
+		
 		"wrap"		"1"
 	}
 	"ChallengeMedalOverview00" //image when no challenge is selected
@@ -261,7 +261,7 @@
 		"wide"		"60"
 		"tall"		"12"
 		"visible"		"0"
-		//		"0"
+		
 		"wrap"		"1"
 	}
 	"ChallengeNextMedal" //Small icon
@@ -283,7 +283,7 @@
 		"wide"		"54"
 		"tall"		"12"
 		"visible"		"0"
-		//		"0"
+		
 		"wrap"		"1"
 	}
 }

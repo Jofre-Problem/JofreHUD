@@ -26,7 +26,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		//"enabled"		"1"
-		"autoResize"	"1"
+		//"	"1"
 		"labelText"		"0"
 		"textAlignment"	"center"
 		"font"			"TeamMenu"

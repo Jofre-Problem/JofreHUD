@@ -26,7 +26,7 @@
 		"wide"			"200"
 		"tall"			"42"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -48,7 +48,7 @@
 		"wide"			"200"
 		"tall"			"20"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
@@ -68,7 +68,7 @@
 		"wide"			"200"
 		"tall"			"60"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%duration%"
@@ -94,11 +94,11 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"user_close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

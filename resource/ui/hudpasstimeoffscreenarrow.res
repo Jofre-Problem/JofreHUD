@@ -1,4 +1,15 @@
-	//#base	"../../_stream/resource/ui/hudpasstimeoffscreenarrow.res"
-	#base	"../../_jofrenew/resource/ui/hudpasstimeoffscreenarrow.res"
-//	#base	"../../_opt/resource/ui/hudpasstimeoffscreenarrow.res"
-	#base	"../../z_tf2/resource/ui/hudpasstimeoffscreenarrow.res"
+"Resource/UI/HudPasstimeOffscreenArrow.res"
+{
+	"Image"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Image"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"scaleImage"	"1"	
+	}
+}

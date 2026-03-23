@@ -9,10 +9,10 @@
 		"wide"			"220"
 		"tall"			"70"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
@@ -30,8 +30,8 @@
 			"zpos"			"1"
 			"wide"			"220"
 			"tall"			"30"
-			"autoResize"	"1"
-			//		"0"
+			//"	"1"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -49,7 +49,7 @@
 			"wide"			"200"
 			"tall"			"170"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
@@ -66,7 +66,7 @@
 			"wide"			"100"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -74,11 +74,11 @@
 			"font"			"ReplayBrowserSmallest"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			////		"0"
+			//
 			
 			"Command"		"confirm"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"border_default"			"Econ.Button.Border.Default"
 			"border_armed"				"Econ.Button.Border.Armed"
 			"armedBgColor_override"		"Econ.Button.ArmedBgColor"
@@ -103,7 +103,7 @@
 			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"					"HudOffWhite"
-			"autoResize"	"1"
+			//"	"1"
 		}
 	}
 }

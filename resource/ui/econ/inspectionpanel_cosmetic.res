@@ -11,10 +11,10 @@
 		"tall"			"f0"
 		
 		"skip_autoresize"	"1"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
@@ -60,17 +60,17 @@
 				"wide"			"20"
 				"tall"			"20"
 				
-				//		"0"
+				
 				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"labelText"		"<"
 				"font"			"HudFontBiggerBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"paintbackground"	"0"
 				"defaultFgColor_override"	"118 107 94 255"
 				"armedFgColor_override"		"128 117 104 255"
@@ -87,17 +87,17 @@
 				"wide"			"20"
 				"tall"			"20"
 				
-				//		"0"
+				
 				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"labelText"		">"
 				"font"			"HudFontBiggerBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"paintbackground"	"0"
 				"defaultFgColor_override"	"118 107 94 255"
 				"armedFgColor_override"		"128 117 104 255"
@@ -114,18 +114,18 @@
 				"wide"			"15"
 				"tall"			"15"
 				
-				//		"0"
+				
 				"visible"		"0"
 				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"zoom_toggle"
 		
 				"paintbackground"	"0"
@@ -240,7 +240,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"g_fontsmall"
+			"font"			"itemfontattribsmallv2"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"rs1"
@@ -249,7 +249,7 @@
 			"tall"			"15"
 			
 			"skip_autoresize"	"1"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -269,7 +269,7 @@
 			//
 			"bgcolor_override"	"10 10 10 255"
 			"skip_autoresize"	"1"
-			//"autoResize"		"0"
+			////"		"0"
 			
 			"ScrollableChild"
 			{
@@ -284,7 +284,7 @@
 				//
 				"bgcolor_override"	"blank"
 				"skip_autoresize"	"1"
-				//"autoResize"		"0"
+				////"		"0"
 				
 				//
 				// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file
@@ -299,7 +299,7 @@
 					"wide"			"228"
 					"tall"			"15"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -316,7 +316,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"0"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -333,7 +333,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"0"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -350,7 +350,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -367,7 +367,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -383,7 +383,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -400,7 +400,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -415,7 +415,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -432,7 +432,7 @@
 					"wide"			"228"
 					"tall"			"10"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
@@ -460,18 +460,18 @@
 					"wide"			"150"
 					"tall"			"20"
 					
-					//		"0"
+					
 					"visible"		"1"
 					"enabled"		"1"
 					//	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
 					"font"			"HudFontSmallestBold"
 					"textAlignment"	"center"
-					////		"0"
+					//
 					
 					"command"		"viewwikipage"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					
 				}
 			}
 		}
@@ -487,8 +487,8 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"f0"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -713,18 +713,18 @@
 		"wide"			"15"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"<"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"command"		"icons_left"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
@@ -741,18 +741,18 @@
 		"wide"			"15"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		">"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"command"		"icons_right"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
@@ -770,8 +770,8 @@
 		"zpos"			"100"
 		"wide"			"230"
 		"tall"			"55"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"blank"
@@ -792,18 +792,18 @@
 		"wide"			"11"
 		"tall"			"11"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"gofullscreen"
 		
 		"paintbackground"	"0"
@@ -837,18 +837,18 @@
 		"wide"			"11"
 		"tall"			"11"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"options"
 		
 		"paintbackground"	"0"
@@ -881,7 +881,7 @@
 		"zpos"				"2"
 		"wide"				"19"
 		"tall"				"40"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -897,11 +897,11 @@
 		{
 			"wide"				"19"
 			"tall"				"19"
-			//"autoResize"		"0"
+			////"		"0"
 			//			"2"
 			"visible"			"1"
 			"enabled"			"1"
-			//		"0"
+			
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
@@ -911,8 +911,8 @@
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
@@ -983,8 +983,8 @@
 		"ypos"			"c-176"
 		"wide"			"138"
 		"tall"			"28"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -1005,8 +1005,8 @@
 		"ypos"			"-1000"
 		"wide"			"138"
 		"tall"			"28"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -1024,8 +1024,8 @@
 		"ypos"			"-1000"
 		"wide"			"110"
 		"tall"			"25"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -1044,18 +1044,18 @@
 		"wide"			"14"
 		"tall"			"14"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
 		"paintbackground"	"0"

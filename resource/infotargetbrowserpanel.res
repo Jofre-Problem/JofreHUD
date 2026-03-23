@@ -7,9 +7,9 @@
 		"ypos"		"14"
 		"wide"		"383"
 		"tall"		"708"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Entities"
 	{
@@ -19,7 +19,7 @@
 		"wide"		"255"
 		"tall"		"636"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 	}
 	"CreateTargetButton"
@@ -29,9 +29,9 @@
 		"ypos"		"36"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Create Targets"
 		"Command"		"DropInfoTargets"
 	}
@@ -42,9 +42,9 @@
 		"ypos"		"70"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Delete"
 		"Command"		"Delete"
 	}
@@ -55,9 +55,9 @@
 		"ypos"		"676"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Save"
 		"Command"		"Save"
 	}
@@ -68,9 +68,9 @@
 		"ypos"		"676"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Restart Map"
 		"Command"		"RestartMap"
 	}
@@ -81,9 +81,9 @@
 		"ypos"		"8"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Entities:"
 	}
 	"QuickSaveButton"
@@ -93,9 +93,9 @@
 		"ypos"		"104"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Quick Save"
 		"Command"		"quicksave"
 	}
@@ -106,9 +106,9 @@
 		"ypos"		"138"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Quick Load"
 		"Command"		"quickload"
 	}
@@ -119,9 +119,9 @@
 		"ypos"		"78"
 		"wide"		"409"
 		"tall"		"504"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 }

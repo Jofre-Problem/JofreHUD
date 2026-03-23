@@ -7,9 +7,9 @@
 		"ypos"		"224"
 		"wide"		"348"
 		"tall"		"124"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_QuitConfirmationTitle"
 	}
 	"Button1"
@@ -19,8 +19,8 @@
 		"ypos"		"80"
 		"wide"		"72"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GameUI_SaveAndQuit"
 		"Command"		"SaveAndQuit"
@@ -33,8 +33,8 @@
 		"ypos"		"80"
 		"wide"		"89"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"#GameUI_DontSaveAndQuit"
 		"Command"		"Quit"
@@ -46,8 +46,8 @@
 		"ypos"		"80"
 		"wide"		"72"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
@@ -59,9 +59,9 @@
 		"ypos"		"34"
 		"wide"		"312"
 		"tall"		"42"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_SaveAndQuitQuery_Info"
 		"wrap"		"1"
 	}

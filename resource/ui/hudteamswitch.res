@@ -9,8 +9,8 @@
 		"zpos"			"-1"
 		"wide"			"320"
 		"tall"			"150"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/death_panel_blue_bg"
@@ -30,8 +30,8 @@
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"55"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -50,8 +50,8 @@
 		"zpos"			"1"
 		"wide"			"230"
 		"tall"			"55"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -67,8 +67,8 @@
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_teambalance"

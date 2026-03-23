@@ -7,9 +7,9 @@
 		"ypos"		"0"
 		"wide"		"784"
 		"tall"		"418"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"InfoTargetScroll"
 	{
@@ -21,8 +21,8 @@
 		//"PinnedCornerOffsetY" "0"
 		//"UnpinnedCornerOffsetY" "0"
 		//		"3"
-		//		"0"
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 }

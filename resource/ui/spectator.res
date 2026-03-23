@@ -10,7 +10,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 	"G_Topbar"
 	{
@@ -21,11 +21,11 @@
 		"zpos"			"-10"
 		"tall"			"21"	
 		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"	"0"
+		//"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		//"		"0"
 		"paintbackground"	"1"
 		"Alpha"				"255"
 		"bgcolor_override"	"40 40 40 255"
@@ -71,14 +71,14 @@
 		"wide"			"170"
 		"tall"			"21"
 		"zpos"			"2"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"		"0"
+		//"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"Press [ , ] to Change Team"
 		"textAlignment"		"center"
 		"font"				"TFFontSmall"
-		"fgcolor_override"		"G_White"
+		"fgcolor_override"		"Tanlight"
 	}
 				"Background"
 				{
@@ -140,7 +140,7 @@
 					"enabled"		"1"
 					"labelText"		"Spectate Next Target"
 					"textAlignment"		"west"
-					fgcolor G_White
+					fgcolor White
 					"font"			"TFFontSmall"
 				}
 
@@ -187,7 +187,7 @@
 		"enabled"		"1"
 		"labelText"		"Spectate Previous Target"
 		"textAlignment"		"west"
-					fgcolor G_White
+					fgcolor White
 					"font"			"TFFontSmall"
 	}
 
@@ -236,7 +236,7 @@
 		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"Switch Camera Mode"
-					fgcolor G_White
+					fgcolor White
 					"font"			"TFFontSmall"
 	}
 
@@ -257,19 +257,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"textinsetx"	"5"
 		"xpos"			"r260"
 		"ypos"			"0"
 		"wide"			"240"
 		"tall"			"21"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"	"0"
+		//"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"" // map: cp_bridge
 		"textAlignment"		"east"
-		"fgcolor_override"	"G_White"
+		"fgcolor_override"	"Tanlight"
 	}
 	
 }

@@ -1,4 +1,9 @@
-//	#base	"../../../_stream/resource/ui/disguise_menu/medic_red.res"
-	#base	"../../../_jofrenew/resource/ui/disguise_menu/medic_red.res"
-//	#base	"../../../_opt/resource/ui/disguise_menu/medic_red.res"
-//	#base	"../../../z_tf2/resource/ui/disguise_menu/medic_red.res"
+#base "medic_blue.res"
+
+"Resource/UI/disguise_menu/medic_red.res"
+{
+	"ClassIconLabel"
+	{
+		"fgcolor"		"Red"
+	}
+}

@@ -52,12 +52,12 @@
 		"tall"			"10"
 		//"tall_lodef"	"18"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%title%"
 		"textAlignment"	"west"
-		////		"0"
+		//
 		
 	}
 	"summaryLabel"
@@ -75,14 +75,14 @@
 		//	"280"
 		"tall"			"40"
 		//"tall_lodef"	"40"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%statdesc%"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"			"1"
 	}
 	"StatLabelLarge"
@@ -99,14 +99,14 @@
 		"wide"			"200"
 		"tall"			"20"
 		//"tall_lodef"	"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%stattextlarge%"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 	"StatLabelSmall"
 	{	
@@ -121,14 +121,14 @@
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"20"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%stattextsmall%"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 	StatBox
 	{
@@ -136,7 +136,7 @@
 		"fieldName"		"StatBox"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"xpos"			"72"
 		//xpos_lodef	"100"
 		"ypos"			"77"

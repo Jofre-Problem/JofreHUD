@@ -132,7 +132,7 @@
 				"tall"						"f0"
 				"visible"					"1"
 				"enabled"					"1"
-				"border"					"MaterialGrayDarkest"
+			//	"border"					"MaterialGrayDarkest"
 				"proportionaltoparent"		"1"
 			
 				if_aids

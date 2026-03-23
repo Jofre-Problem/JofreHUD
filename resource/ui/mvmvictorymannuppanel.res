@@ -31,7 +31,7 @@
 			"wide"			"140"
 			"tall"			"60"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
@@ -57,11 +57,11 @@
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"
@@ -90,7 +90,7 @@
 		"wide"			"f0"
 		"tall"			"320"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 			
@@ -160,7 +160,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"42 41 39 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
@@ -176,10 +176,10 @@
 			"wide"			"62"
 			"tall"			"f0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
@@ -195,10 +195,10 @@
 			"wide"			"62"
 			"tall"			"f0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
@@ -214,10 +214,10 @@
 			"wide"			"62"
 			"tall"			"f0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
@@ -233,10 +233,10 @@
 			"wide"			"62"
 			"tall"			"f0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"
@@ -252,10 +252,10 @@
 			"wide"			"62"
 			"tall"			"f0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"77 72 68 255"
 			"PaintBackgroundType"	"2"
 			"proportionalToParent"	"1"

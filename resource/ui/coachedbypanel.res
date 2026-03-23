@@ -10,7 +10,7 @@
 		"wide"			"252"
 		"tall"	 		"40"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
@@ -32,7 +32,7 @@
 		"wide"			"252"
 		"tall"	 		"40"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
@@ -86,12 +86,12 @@
 		"wide"			"110"
 		"tall"			"25"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"West"
-		////		"0"
+		//
 		
 	}
 
@@ -106,7 +106,7 @@
 		"wide"			"110"
 		"tall"			"10"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -126,7 +126,7 @@
 		"wide"			"110"
 		"tall"			"10"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"

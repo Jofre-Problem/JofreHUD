@@ -29,7 +29,7 @@
 		"wide"			"f0"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -60,7 +60,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -78,10 +78,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -98,10 +98,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -118,10 +118,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -138,10 +138,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -158,10 +158,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -178,10 +178,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -198,10 +198,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -218,10 +218,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -238,10 +238,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -258,10 +258,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -292,7 +292,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -310,7 +310,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -327,7 +327,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -350,12 +350,12 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_test0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"RemoveItemButton0"
 		{
@@ -374,12 +374,12 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_remove0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"TestingHeadgearLabel"
 		{
@@ -394,7 +394,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -411,7 +411,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -434,12 +434,12 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_test1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"RemoveItemButton1"
 		{
@@ -458,12 +458,12 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_remove1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"TestingMisc1Label"
 		{
@@ -478,7 +478,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -495,7 +495,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -518,12 +518,12 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_test2"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"RemoveItemButton2"
 		{
@@ -542,12 +542,12 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_remove2"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"TestingMisc2Label"
 		{
@@ -562,7 +562,7 @@
 			"wide"			"85"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -579,7 +579,7 @@
 			"wide"			"165"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -602,12 +602,12 @@
 			"labelText"		"#IT_Item_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_test3"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"RemoveItemButton3"
 		{
@@ -626,12 +626,12 @@
 			"labelText"		"#IT_Item_Remove"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"item_remove3"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 	}
 	
@@ -660,7 +660,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -678,10 +678,10 @@
 			"wide"			"90"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}	
@@ -699,10 +699,10 @@
 			"wide"			"90"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 		}
@@ -724,12 +724,12 @@
 			"labelText"		"#IT_Bot_Add"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"bot_add"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 				
 		"BotSelectionComboBox"
@@ -742,11 +742,11 @@
 			"zpos"				"1"
 			"wide"				"100"
 			"tall"				"15"
-			//"autoResize"		"0"
+			////"		"0"
 			//			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			//		"1"
+			
 			"textHidden"		"0"
 			"editable"			"0"
 			"maxchars"			"-1"
@@ -779,12 +779,12 @@
 			"labelText"		"#IT_Bot_RemoveAll"
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"Command"		"bot_removeall"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 	}
 	
@@ -817,12 +817,12 @@
 		"labelText"		"#IT_ExportLoadout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"export"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"ImportButton"
 	{
@@ -841,12 +841,12 @@
 		"labelText"		"#IT_ImportLoadout"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"import"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"ImportRecentButton"
 	{
@@ -865,12 +865,12 @@
 		"labelText"		"#IT_ImportLast"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"importrecent"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"CancelButton"
@@ -890,12 +890,12 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"OkButton"
 	{
@@ -914,12 +914,12 @@
 		"labelText"		"#IT_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"SteamWorkshopButton"
@@ -951,14 +951,14 @@
 			"use_proportional_insets" "1"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			////		"0"
+			//
 			
 			"default"		"1"
 			"command"		"steamworkshop"
 			"labeltext"			"#MMenu_SteamWorkshop"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 					
 			"image_armedcolor"	"235 226 202 255"
 			"image_drawcolor"	"235 226 202 255"
@@ -990,7 +990,7 @@
 		"wide"			"30"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
@@ -998,10 +998,10 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

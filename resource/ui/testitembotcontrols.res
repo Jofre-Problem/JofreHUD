@@ -29,7 +29,7 @@
 		"wide"			"200"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -47,7 +47,7 @@
 		"wide"			"85"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -61,11 +61,11 @@
 		"zpos"				"1"
 		"wide"				"100"
 		"tall"				"15"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"
@@ -94,10 +94,10 @@
 		"wide"			"180"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
@@ -114,10 +114,10 @@
 		"wide"			"180"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
@@ -134,10 +134,10 @@
 		"wide"			"180"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"disabledfgcolor2_override"	"117 107 94 255"
 	}	
@@ -155,7 +155,7 @@
 		"wide"			"85"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -191,12 +191,12 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"OkButton"
 	{
@@ -215,12 +215,12 @@
 		"labelText"		"#IT_Apply"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"ReloadSchemeButton"
@@ -233,7 +233,7 @@
 		"wide"			"30"
 		"tall"			"15"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -241,10 +241,10 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

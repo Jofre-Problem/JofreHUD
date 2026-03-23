@@ -7,9 +7,9 @@
 		"ypos"		"12"
 		"wide"		"312"
 		"tall"		"340"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"topHorizLeft"
 	{
@@ -18,10 +18,10 @@
 		"ypos"		"-10"
 		"wide"		"22"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"10"
 	}
 	"topVertLeft"
@@ -31,10 +31,10 @@
 		"ypos"		"-7"
 		"wide"		"22"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"10"
 	}
 	"bottomHorizRight"
@@ -44,10 +44,10 @@
 		"ypos"		"276"
 		"wide"		"22"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"10"
 	}
 	"bottomVertRight"
@@ -57,10 +57,10 @@
 		"ypos"		"273"
 		"wide"		"22"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"10"
 	}
 }

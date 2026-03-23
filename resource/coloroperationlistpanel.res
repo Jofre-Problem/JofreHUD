@@ -9,7 +9,7 @@
 		"wide"			"38"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"textAlignment"	"center"
 		"command"		"NewOperation"
 	}
@@ -22,7 +22,7 @@
 		"wide"			"38"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"textAlignment"	"center"
 		"command"		"DeleteOperation"
 	}
@@ -35,7 +35,7 @@
 		"wide"			"38"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"textAlignment"	"center"
 		"command"		"BringForward"
 	}
@@ -48,7 +48,7 @@
 		"wide"			"38"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"textAlignment"	"center"
 		"command"		"PushBack"
 	}
@@ -61,7 +61,7 @@
 		"wide"			"38"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"textAlignment"	"center"
 		"command"		"Save"
 	}
@@ -80,9 +80,9 @@
 		"ypos"				"32"
 		"wide"				"50"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Blend:"
 	}
 	"BlendFactorSlider"
@@ -92,9 +92,9 @@
 		"ypos"				"36"
 		"wide"				"180"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}
@@ -105,9 +105,9 @@
 		"ypos"				"0"
 		"wide"				"70"
 		"tall"				"24"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 	}
 	"EnableEntities"
 	{
@@ -116,9 +116,9 @@
 		"ypos"				"0"
 		"wide"				"130"
 		"tall"				"24"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"selected"			"1"
 	}
 	

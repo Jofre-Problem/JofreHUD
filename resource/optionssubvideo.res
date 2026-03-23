@@ -8,15 +8,15 @@
 		"ypos"		"126"
 		"wide"		"182"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"0"
 		//		"4"
 		"labelText"		"#GameUI_AdjustGamma"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 	}
@@ -28,8 +28,8 @@
 		"ypos"		"50"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -47,8 +47,8 @@
 		"ypos"		"126"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
@@ -66,8 +66,8 @@
 		"ypos"		"196"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
@@ -85,15 +85,15 @@
 		"ypos"		"196"
 		"wide"		"182"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"#GameUI_AdvancedEllipsis"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 	}
@@ -105,15 +105,15 @@
 		"ypos"		"230"
 		"wide"		"130"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_LaunchBenchmarkVideoPanel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 	}
@@ -125,15 +125,15 @@
 		"ypos"		"270"
 		"wide"		"225"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"6"
 		"labelText"		"#GameUI_ThirdPartyTechCredits"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 		"selected"		"0"
@@ -146,8 +146,8 @@
 		"ypos"		"50"
 		"wide"		"182"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
@@ -165,15 +165,15 @@
 		"ypos"		"117"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Gamma"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"Renderer"
@@ -184,8 +184,8 @@
 		"ypos"		"52"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//		"1"
@@ -203,16 +203,16 @@
 		"ypos"		"24"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Resolution"
 		"textAlignment"		"west"
 		"associate"		"Resolution"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"Label2"
@@ -223,15 +223,15 @@
 		"ypos"		"28"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Renderer"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"Label4"
@@ -242,16 +242,16 @@
 		"ypos"		"24"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_DisplayMode"
 		"textAlignment"		"west"
 		"associate"		"DisplayModeCombo"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"AspectRatioLabel"
@@ -262,16 +262,16 @@
 		"ypos"		"100"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_AspectRatio"
 		"textAlignment"		"west"
 		"associate"		"AspectRatio"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"HDContentButton"
@@ -282,17 +282,17 @@
 		"ypos"		"240"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_HDContent"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -309,16 +309,16 @@
 		"ypos"		"170"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_VRMode"
 		"textAlignment"		"west"
 		"associate"		"VRMode"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 }

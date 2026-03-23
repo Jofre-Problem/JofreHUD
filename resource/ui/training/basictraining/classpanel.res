@@ -22,8 +22,8 @@
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"Command"			"%selectcommand%"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
@@ -56,7 +56,7 @@
 		"ypos"			"201"
 		"wide"			"30"
 		"tall"			"15"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"

@@ -7,9 +7,9 @@
 		"ypos"		"162"
 		"wide"		"476"
 		"tall"		"470"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"BUG REPORTER"
 	}
 	"BugTitle"
@@ -19,8 +19,8 @@
 		"ypos"		"66"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -32,8 +32,8 @@
 		"ypos"		"96"
 		"wide"		"320"
 		"tall"		"71"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -45,8 +45,8 @@
 		"ypos"		"328"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -58,9 +58,9 @@
 		"ypos"		"378"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"PublicUser"
 	}
 	"BugScreenShotURL"
@@ -70,9 +70,9 @@
 		"ypos"		"174"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BugSaveGameURL"
 	{
@@ -81,9 +81,9 @@
 		"ypos"		"204"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BugBSPURL"
 	{
@@ -92,10 +92,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_BSP_File"
 	}
 	"BugVMFURL"
@@ -105,10 +105,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_VMF_File"
 	}
 	"BugIncludedFiles"
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugTakeShot"
@@ -131,8 +131,8 @@
 		"ypos"		"174"
 		"wide"		"132"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		"#GameUI_Bug_TakeScreenshot"
 		"Command"		"snapshot"
@@ -144,8 +144,8 @@
 		"ypos"		"204"
 		"wide"		"132"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"labelText"		"#GameUI_Bug_AttachSavedGame"
 		"Command"		"savegame"
@@ -157,10 +157,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_Include_BSP"
 	}
 	"BugSaveVMF"
@@ -170,10 +170,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_Include_VMF"
 	}
 	"BugIncludeFile"
@@ -183,10 +183,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_IncludeFile"
 	}
 	"BugClearIncludedFiles"
@@ -196,10 +196,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Bug_ClearFiles"
 	}
 	"BugPosition"
@@ -209,9 +209,9 @@
 		"ypos"		"256"
 		"wide"		"160"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Console"
 	}
 	"BugOrientation"
@@ -221,9 +221,9 @@
 		"ypos"		"278"
 		"wide"		"160"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Console"
 	}
 	"BugLevel"
@@ -233,9 +233,9 @@
 		"ypos"		"234"
 		"wide"		"160"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Console"
 	}
 	"BugBuild"
@@ -245,9 +245,9 @@
 		"ypos"		"4"
 		"wide"		"44"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"2092"
 		"textAlignment"		"east"
 	}
@@ -258,10 +258,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"PublicUser"
 	}
 	"BugOwner"
@@ -271,10 +271,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugSeverity"
@@ -284,10 +284,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugReportType"
@@ -297,9 +297,9 @@
 		"ypos"		"36"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"BugPriority"
@@ -309,10 +309,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugArea"
@@ -322,10 +322,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugMapNumber"
@@ -335,10 +335,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugSubmit"
@@ -348,8 +348,8 @@
 		"ypos"		"420"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"9"
 		"labelText"		"#GameUI_Bug_Submit"
 		"Command"		"submit"
@@ -361,8 +361,8 @@
 		"ypos"		"420"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"10"
 		"labelText"		"#GameUI_Cancel"
 		"Command"		"cancel"
@@ -374,8 +374,8 @@
 		"ypos"		"420"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"8"
 		"labelText"		"#GameUI_Bug_ClearForm"
 		"Command"		"clearform"
@@ -388,9 +388,9 @@
 		"ypos"		"66"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Title"
 		"textAlignment"		"east"
 	}
@@ -401,9 +401,9 @@
 		"ypos"		"96"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Description"
 		"textAlignment"		"east"
 	}
@@ -414,9 +414,9 @@
 		"ypos"		"256"
 		"wide"		"80"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Position"
 		"textAlignment"		"east"
 	}
@@ -427,9 +427,9 @@
 		"ypos"		"234"
 		"wide"		"80"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Map"
 		"textAlignment"		"east"
 	}
@@ -440,9 +440,9 @@
 		"ypos"		"4"
 		"wide"		"134"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_EngineBuild"
 		"textAlignment"		"east"
 	}
@@ -453,9 +453,9 @@
 		"ypos"		"278"
 		"wide"		"92"
 		"tall"		"22"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Orientation"
 		"textAlignment"		"east"
 	}
@@ -466,9 +466,9 @@
 		"ypos"		"36"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_ReportType"
 		"textAlignment"		"east"
 	}
@@ -479,9 +479,9 @@
 		"ypos"		"328"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_EmailAddress"
 		"textAlignment"		"east"
 	}
@@ -492,9 +492,9 @@
 		"ypos"		"355"
 		"wide"		"144"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_PrivacyPolicy"
 		"URLText"		"http://www.valvesoftware.com/privacy.html"
 		"underline"		"1"
@@ -506,9 +506,9 @@
 		"ypos"		"308"
 		"wide"		"320"
 		"tall"		"2"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Label9"
 	{
@@ -517,9 +517,9 @@
 		"ypos"		"351"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_Optional"
 		"textAlignment"		"east"
 	}
@@ -530,9 +530,9 @@
 		"ypos"		"378"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_Bug_AccountName"
 		"textAlignment"		"east"
 	}

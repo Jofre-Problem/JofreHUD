@@ -7,9 +7,9 @@
 		"ypos"		"357"
 		"wide"		"400"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"			"#GameUI_CommentaryDialogTitle"
 	}
 	"ModeLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"44"
 		"wide"		"300"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"COMMENTARY MODE IS CURRENTLY: OFF"
 		"brighttext"		"1"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"88"
 		"wide"		"336"
 		"tall"		"60"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_LostCoastHasCommentary"
 		"wrap"		"1"
 	}
@@ -45,8 +45,8 @@
 		"ypos"		"154"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GAMEUI_Commentary_TurnOn"
 		"Command"		"turnon"
@@ -58,8 +58,8 @@
 		"ypos"		"216"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"#GAMEUI_Commentary_LeaveOff"
 		"Command"		"turnoff"
@@ -72,9 +72,9 @@
 		"ypos"			"134"
 		"wide"			"64"
 		"tall"			"64"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"image"			"hud/icon_commentary"
 	}
 	"NoCommentaryIcon"
@@ -84,9 +84,9 @@
 		"ypos"			"196"
 		"wide"			"64"
 		"tall"			"64"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"image"			"hud/icon_commentary_off"
 	}
 }

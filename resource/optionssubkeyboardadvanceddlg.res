@@ -8,15 +8,15 @@
 		"ypos"		"38"
 		"wide"		"240"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_FastSwitchCheck"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 	}
@@ -28,15 +28,15 @@
 		"ypos"		"66"
 		"wide"		"244"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
 		"labelText"		"#GameUI_DeveloperConsoleCheck"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
 	}
@@ -48,15 +48,15 @@
 		"ypos"		"100"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"OK"
 		"Default"		"1"
@@ -69,15 +69,15 @@
 		"ypos"		"100"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"

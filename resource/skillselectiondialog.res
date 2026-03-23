@@ -7,9 +7,9 @@
 		"ypos"		"200"
 		"wide"		"248"
 		"tall"		"180"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_SelectSkill"
 	}
 	"EasyRadio"
@@ -19,8 +19,8 @@
 		"ypos"		"42"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GameUI_Easy"
 	}
@@ -31,8 +31,8 @@
 		"ypos"		"68"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GameUI_Medium"
 	}
@@ -43,8 +43,8 @@
 		"ypos"		"94"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GameUI_Hard"
 	}
@@ -55,8 +55,8 @@
 		"ypos"		"132"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
 		"Command"		"Close"
@@ -68,8 +68,8 @@
 		"ypos"		"132"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"#GameUI_Start"
 		"Command"		"Play"

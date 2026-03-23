@@ -46,7 +46,7 @@
 			"wide"			"140"
 			"tall"			"60"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
@@ -82,7 +82,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
@@ -114,11 +114,11 @@
 			"zpos"		"50"
 			"wide"		"p0.987"
 			"tall"		"1"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"255 255 255 252"
 			"proportionaltoparent"	"1"
 		}
@@ -137,7 +137,7 @@
 			"wide"			"p.95"
 			"tall"			"30"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -155,18 +155,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel" "2"
@@ -226,11 +226,11 @@
 		"zpos"		"50"
 		"wide"		"p0.95"
 		"tall"		"30"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"blank"
 		"proportionaltoparent"	"1"
 
@@ -280,7 +280,7 @@
 			"wide"			"100"
 			"tall"			"15"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -297,11 +297,11 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
 
@@ -315,10 +315,10 @@
 				"wide"			"98"
 				"tall"			"13"				
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
-				////		"0"
+				//
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
@@ -338,7 +338,7 @@
 				"wide"			"f0"
 				"tall"			"f0"					
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				
@@ -360,7 +360,7 @@
 			"wide"			"100"
 			"tall"			"p.45"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -377,11 +377,11 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"bgcolor_override"	"235 226 202 255" // tanlight
 			"proportionaltoparent"	"1"
 
@@ -395,10 +395,10 @@
 				"wide"			"98"
 				"tall"			"13"
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
-				////		"0"
+				//
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
@@ -418,7 +418,7 @@
 				"wide"			"f0"
 				"tall"			"f0"					
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				

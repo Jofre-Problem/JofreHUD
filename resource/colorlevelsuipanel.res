@@ -7,9 +7,9 @@
 		"ypos"		"42"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Channel:"
 	}
 	"ColorMask"
@@ -19,9 +19,9 @@
 		"ypos"		"42"
 		"wide"		"130"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"Histogram"
@@ -31,9 +31,9 @@
 		"ypos"		"72"
 		"wide"		"192"
 		"tall"		"192"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"InputLevelSlider"
 	{
@@ -42,9 +42,9 @@
 		"ypos"		"265"
 		"wide"		"192"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LabelOutputLevel"
 	{
@@ -53,9 +53,9 @@
 		"ypos"		"277"
 		"wide"		"192"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"-----------Output Level-----------"
 		"textAlignment"		"center"
 	}
@@ -66,9 +66,9 @@
 		"ypos"		"302"
 		"wide"		"192"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LabelBlendFactor"
 	{
@@ -77,9 +77,9 @@
 		"ypos"		"332"
 		"wide"		"80"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Blend Factor:"
 	}
 	"BlendFactorSlider"
@@ -89,9 +89,9 @@
 		"ypos"		"332"
 		"wide"		"130"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"leftText"		"0"
 		"rightText"		"255"
 	}

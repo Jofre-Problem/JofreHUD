@@ -7,9 +7,9 @@
 		"ypos"		"420"
 		"wide"		"600"
 		"tall"		"360"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#SFM_Extract_Phonemes_Title"
 	}
 
@@ -20,10 +20,10 @@
 		"ypos"		"328"
 		"wide"		"370"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"FilterType"
@@ -33,9 +33,9 @@
 		"ypos"		"236"
 		"wide"		"300"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"Waves"
@@ -45,9 +45,9 @@
 		"ypos"		"32"
 		"wide"		"560"
 		"tall"		"147"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Extract"
 	{
@@ -56,9 +56,9 @@
 		"ypos"		"264"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#extract_button"
 	}
 	"ReApply"
@@ -68,9 +68,9 @@
 		"ypos"		"294"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#reapply_button"
 	}
 	"Cancel"
@@ -80,9 +80,9 @@
 		"ypos"		"323"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_Cancel"
 	}
 	"Play"
@@ -92,9 +92,9 @@
 		"ypos"		"183"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#sfm_play"
 	}
 	"SentenceText"
@@ -104,9 +104,9 @@
 		"ypos"		"211"
 		"wide"		"565"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -117,9 +117,9 @@
 		"ypos"		"236"
 		"wide"		"50"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"FilterSize"
@@ -129,9 +129,9 @@
 		"ypos"		"236"
 		"wide"		"50"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"UseWave"
@@ -141,9 +141,9 @@
 		"ypos"		"264"
 		"wide"		"363"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#SFM_UseWaveFilePhonemes"
 	}
 	"IgnoreVisibility"
@@ -153,9 +153,9 @@
 		"ypos"		"284"
 		"wide"		"370"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#SFM_IgnoreAnimationSetVisibility"
 	}
 	"CreateBookmarks"
@@ -165,9 +165,9 @@
 		"ypos"		"303"
 		"wide"		"370"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#SFM_CreateBookmarks"
 	}
 	"Label1"
@@ -177,9 +177,9 @@
 		"ypos"		"191"
 		"wide"		"560"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Sentence Text:"
 	}
 	"Label2"
@@ -189,9 +189,9 @@
 		"ypos"		"235"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Sample Rate:"
 	}
 	"Label3"
@@ -201,9 +201,9 @@
 		"ypos"		"235"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Filter Size:"
 	}
 }

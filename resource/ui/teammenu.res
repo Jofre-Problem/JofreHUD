@@ -250,7 +250,7 @@
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"G_Fontmedium"
+		font					"ItemFontNameLarger"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -287,7 +287,7 @@
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"G_Fontmedium"
+		font					"ItemFontNameLarger"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"

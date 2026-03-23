@@ -8,11 +8,11 @@
 		"ypos"			"148"
 		"wide"			"158"
 		"tall"			"32"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"			"resource/mic_meter_dead"
 		"image2"		"resource/mic_meter_live"
 		"barCount"		"19"
@@ -26,11 +26,11 @@
 		"ypos"			"148"
 		"wide"			"158"
 		"tall"			"32"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"resource/mic_meter_live"
 		"barCount"		"19"
 		"barSpacing"		"8"
@@ -43,8 +43,8 @@
 		"ypos"		"94"
 		"wide"		"160"
 		"tall"		"42"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
@@ -59,8 +59,8 @@
 		"ypos"		"94"
 		"wide"		"160"
 		"tall"		"26"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
@@ -73,15 +73,15 @@
 		"ypos"		"32"
 		"wide"		"216"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_EnableVoice"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"Default"		"0"
 	}
 	"MicBoost"
@@ -92,15 +92,15 @@
 		"ypos"		"212"
 		"wide"		"216"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
 		"labelText"		"#GameUI_BoostMicrophone"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"Default"		"0"
 	}
 	"Microphonelabel"
@@ -111,16 +111,16 @@
 		"ypos"		"70"
 		"wide"		"180"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"associate"		"#GameUI_MicrophoneVolume"
 		"labelText"		"#GameUI_VoiceTransmitVolume"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 	"ReceiveLabel"
 	{
@@ -130,16 +130,16 @@
 		"ypos"		"70"
 		"wide"		"180"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_VoiceReceiveVolume"
 		"textAlignment"		"west"
 		"associate"		"VoiceReceive"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 	"TestMicrophone"
 	{
@@ -149,15 +149,15 @@
 		"ypos"		"176"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#GameUI_TestMicrophone"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"command"		"TestMicrophone"
 		"Default"		"0"
 	}
@@ -169,15 +169,15 @@
 		"ypos"			"250"
 		"wide"			"350"
 		"tall"			"48"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"west"
 		//		"1"
-		////		"0"
+		//
 		"wrap"			"1"
 	}
 }

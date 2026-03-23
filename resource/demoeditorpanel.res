@@ -7,9 +7,9 @@
 		"ypos"		"397"
 		"wide"		"440"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 
 	"DemoEditSave"
@@ -19,9 +19,9 @@
 		"ypos"		"267"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Save"
 		"command"		"save"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"267"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Revert"
 		"command"		"revert"
 	}
@@ -45,9 +45,9 @@
 		"ypos"		"267"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"OK"
 		"command"		"Close"
 	}
@@ -58,9 +58,9 @@
 		"ypos"		"267"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"command"		"cancel"
 	}
@@ -71,9 +71,9 @@
 		"ypos"		"59"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"New->"
 	}
 	"DemoEditEdit"
@@ -83,9 +83,9 @@
 		"ypos"		"88"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Edit..."
 		"command"		"edit"
 	}
@@ -96,9 +96,9 @@
 		"ypos"		"117"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Delete"
 		"command"		"delete"
 	}
@@ -109,9 +109,9 @@
 		"ypos"		"34"
 		"wide"		"342"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"yahn.dem"
 	}
 	"DemoActionList"
@@ -121,8 +121,8 @@
 		"ypos"		"58"
 		"wide"		"349"
 		"tall"		"206"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 }

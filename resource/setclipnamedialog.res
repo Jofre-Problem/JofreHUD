@@ -7,9 +7,9 @@
 		"ypos"		"390"
 		"wide"		"450"
 		"tall"		"180"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Set Clip Name"
 	}
 	"OkButton"
@@ -19,8 +19,8 @@
 		"ypos"		"140"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"labelText"		"#vgui_ok"
 		"Command"		"Ok"
@@ -33,8 +33,8 @@
 		"ypos"		"140"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
@@ -46,9 +46,9 @@
 		"ypos"		"43"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"New Clip Name:"
 		"textAlignment"		"east"
 	}
@@ -59,8 +59,8 @@
 		"ypos"		"44"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -72,10 +72,10 @@
 		"ypos"		"74"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"selected"		"1"
-		//		"0"
+		
 		"labelText"		"Renumber Clips"
 	}
 	"FirstNumber"
@@ -85,8 +85,8 @@
 		"ypos"		"105"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -99,8 +99,8 @@
 		"ypos"		"105"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -113,8 +113,8 @@
 		"ypos"		"105"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -127,9 +127,9 @@
 		"ypos"		"105"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"First:"
 		"textAlignment"		"east"
 	}
@@ -140,9 +140,9 @@
 		"ypos"		"105"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Increment:"
 		"textAlignment"		"east"
 	}
@@ -153,9 +153,9 @@
 		"ypos"		"105"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Num Digits:"
 		"textAlignment"		"east"
 	}

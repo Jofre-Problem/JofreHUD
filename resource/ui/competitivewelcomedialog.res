@@ -8,10 +8,10 @@
 		"wide"			"564"
 		"tall"			"387"//Bottomofconfirmbutton+10margin
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
@@ -32,7 +32,7 @@
 		"wide"			"p0.9"
 		"tall"			"14"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -53,7 +53,7 @@
 		"wide"			"p0.9"
 		"tall"			"14"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override""TanLight"
@@ -73,7 +73,7 @@
 		"wide"			"p0.9"
 		"tall"			"11"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -94,7 +94,7 @@
 		"wide"			"p0.9"
 		"tall"			"44"//Size11font-4rows
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -115,7 +115,7 @@
 		"wide"			"p0.9"
 		"tall"			"11"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -136,7 +136,7 @@
 		"wide"			"p0.9"
 		"tall"			"44"//Size11font-4rows
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -157,7 +157,7 @@
 		"wide"			"p0.9"
 		"tall"			"11"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -178,7 +178,7 @@
 		"wide"			"p0.9"
 		"tall"			"44"//Size11font-4rows
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -199,7 +199,7 @@
 		"wide"			"p0.9"
 		"tall"			"11"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -220,7 +220,7 @@
 		"wide"			"p0.9"
 		"tall"			"44"//Size11font-4rows
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -241,7 +241,7 @@
 		"wide"			"p0.9"
 		"tall"			"11"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -262,7 +262,7 @@
 		"wide"			"p0.9"
 		"tall"			"44"//Size11font-4rows
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -281,7 +281,7 @@
 		"tall"			"25"
 		"default"		"1"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -289,11 +289,11 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
@@ -314,7 +314,7 @@
 		"tall"			"25"
 		"default"		"1"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -322,11 +322,11 @@
 		"font"			"EconFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"

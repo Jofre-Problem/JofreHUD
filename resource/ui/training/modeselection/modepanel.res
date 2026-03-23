@@ -97,8 +97,8 @@
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"%startcommand%"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"fgcolor"			"NotoMenu"
 		"fgcolor_override"	"NotoMenu"

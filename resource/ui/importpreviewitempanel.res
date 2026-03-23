@@ -9,9 +9,9 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"skip_autoresize"	"1"
-		//		"0"
+		
 		"visible"		"0"
-		//		"0"
+		
 		
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
@@ -74,7 +74,7 @@
 			"wide"			"230"
 			"tall"			"15"
 			"skip_autoresize"	"1"
-			//		"0"
+			
 			"wrap"			"1"
 		}		
 				
@@ -100,7 +100,7 @@
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
-				//		"0"
+				
 				"wrap"			"1"
 				"fgcolor"		"173 165 146 255"
 			}		
@@ -113,7 +113,7 @@
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
-				//		"0"
+				
 				"wrap"			"1"
 			}		
 				
@@ -125,7 +125,7 @@
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
-				//		"0"
+				
 				"wrap"			"1"
 				"fgcolor"		"173 165 146 255"
 			}		
@@ -138,7 +138,7 @@
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"10"
-				//		"0"
+				
 				"wrap"			"1"
 			}		
 				
@@ -149,7 +149,7 @@
 				"textAlignment"	"north-west"
 				"wide"			"228"
 				"tall"			"300"
-				//		"0"
+				
 				"wrap"			"1"
 			}
 		}
@@ -165,8 +165,8 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"313"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_manip"	"1"
@@ -389,7 +389,7 @@
 			"wide"				"19"
 			"tall"				"19"
 			//			"2"
-			//		"0"
+			
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
@@ -460,7 +460,7 @@
 		"zpos"			"20"
 		"wide"			"11"
 		"tall"			"11"
-		//		"0"
+		
 		"visible"		"0"
 		//	"0"
 		"labeltext"		""
@@ -504,7 +504,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			"skip_autoresize"	"1"
-			//		"0"
+			
 			"wrap"			"1"
 		}
 
@@ -530,7 +530,7 @@
 			"wide"			"95"
 			"tall"			"15"
 			"skip_autoresize"	"1"
-			//		"0"
+			
 			"wrap"			"1"
 		}
 
@@ -554,7 +554,7 @@
 			"ypos"			"43"
 			"wide"			"100"
 			"tall"			"15"
-			//		"0"
+			
 			"labelText"		"#TF_ImportPreview_ActionLabel"
 			"wrap"			"1"
 			"Command"		"Action"
@@ -582,7 +582,7 @@
 			"wide"			"200"
 			"tall"			"15"
 			"skip_autoresize"	"1"
-			//		"0"
+			
 			"wrap"			"1"
 		}
 
@@ -607,8 +607,8 @@
 		"ypos"		"c40"
 		"wide"		"92"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		"labelText"		"#TF_ImportFile_EditQCI"
 		"textAlignment"		"center"
 		"Command"		"EditQCI"
@@ -623,7 +623,7 @@
 		"ypos"			"c40"
 		"wide"			"200"
 		"tall"			"15"
-		//		"0"
+		
 		"wrap"			"1"
 		"labelText"		"#TF_ImportFile_Advanced"
 	}
@@ -647,8 +647,8 @@
 			"ypos"		"5"
 			"wide"		"92"
 			"tall"		"20"
-			//		"0"
-			//		"0"
+			
+			
 			"labelText"		"#TF_ImportFile_EditQC"
 			"textAlignment"		"center"
 			"Command"		"EditQC"
@@ -662,8 +662,8 @@
 			"ypos"		"28"
 			"wide"		"92"
 			"tall"		"20"
-			//		"0"
-			//		"0"
+			
+			
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial0"
@@ -677,8 +677,8 @@
 			"ypos"		"28"
 			"wide"		"92"
 			"tall"		"20"
-			//		"0"
-			//		"0"
+			
+			
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial1"
@@ -692,8 +692,8 @@
 			"ypos"		"51"
 			"wide"		"92"
 			"tall"		"20"
-			//		"0"
-			//		"0"
+			
+			
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial2"
@@ -707,8 +707,8 @@
 			"ypos"		"51"
 			"wide"		"92"
 			"tall"		"20"
-			//		"0"
-			//		"0"
+			
+			
 			"labelText"		""
 			"textAlignment"		"center"
 			"Command"		"EditMaterial3"
@@ -723,7 +723,7 @@
 		"ypos"			"45"
 		"wide"			"20"
 		"tall"			"20"
-		//		"0"
+		
 		//	"0"
 		"labelText"		"?"
 		"textAlignment"	"center"
@@ -763,7 +763,7 @@
 			"ypos"			"10"
 			"wide"			"260"
 			"tall"			"30"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -778,7 +778,7 @@
 			"ypos"			"45"
 			"wide"			"260"
 			"tall"			"85"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -792,7 +792,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -830,7 +830,7 @@
 			"zpos"			"-1"
 			"wide"			"300"
 			"tall"			"30"
-			//		"0"
+			
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -842,7 +842,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -904,7 +904,7 @@
 			"ypos"			"10"
 			"wide"			"210"
 			"tall"			"30"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -919,7 +919,7 @@
 			"ypos"			"45"
 			"wide"			"210"
 			"tall"			"85"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -933,7 +933,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -969,7 +969,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1007,7 +1007,7 @@
 			"zpos"			"-1"
 			"wide"			"250"
 			"tall"			"30"
-			//		"0"
+			
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1019,7 +1019,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1081,7 +1081,7 @@
 			"ypos"			"10"
 			"wide"			"210"
 			"tall"			"30"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1096,7 +1096,7 @@
 			"ypos"			"45"
 			"wide"			"210"
 			"tall"			"85"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1110,7 +1110,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1146,7 +1146,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1184,7 +1184,7 @@
 			"zpos"			"-1"
 			"wide"			"250"
 			"tall"			"30"
-			//		"0"
+			
 			"fgcolor_override" "200 80 60 255"
 		}
 		"NextButton"
@@ -1196,7 +1196,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1257,7 +1257,7 @@
 			"ypos"			"10"
 			"wide"			"210"
 			"tall"			"30"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1272,7 +1272,7 @@
 			"ypos"			"45"
 			"wide"			"210"
 			"tall"			"65"
-			//		"0"
+			
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
@@ -1286,7 +1286,7 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1323,7 +1323,7 @@
 			"zpos"			"10"
 			"wide"			"30"
 			"tall"			"30"
-			//		"0"
+			
 			//	"0"
 			"labeltext"		""
 			"textAlignment"	"center"
@@ -1361,7 +1361,7 @@
 			"zpos"			"-1"
 			"wide"			"250"
 			"tall"			"30"
-			//		"0"
+			
 			"fgcolor_override" "200 80 60 255"
 		}
 	}	
@@ -1374,8 +1374,8 @@
 		"ypos"		"405"
 		"wide"		"150"
 		"tall"		"25"
-		//		"0"
-		//		"0"
+		
+		
 		"labelText"		"#TF_ImportPreview_Refresh"
 		"textAlignment"		"center"
 		"Command"		"BuildPreview"
@@ -1389,8 +1389,8 @@
 		"ypos"		"405"
 		"wide"		"150"
 		"tall"		"25"
-		//		"0"
-		//		"0"
+		
+		
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
 		"Command"		"Close"

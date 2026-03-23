@@ -27,14 +27,14 @@
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"64"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#WaitingForPlayersPanel_WaitOnPlayers"
 		"textAlignment"		"Center"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 
 	"WaitingForPlayersEndingLabel"
@@ -47,13 +47,13 @@
 		"zpos"			"1"
 		"wide"			"292"
 		"tall"			"64"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#WaitingForPlayersPanel_WaitEnding"
 		"textAlignment"		"Center"
-		////		"0"
-		////		"0"
+		//
+		//
 	}
 }

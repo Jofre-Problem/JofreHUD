@@ -1,7 +1,0 @@
-UnlitGeneric
-{
-    "$baseTexture"  "vgui/replay/thumbnails/bg/xpbutton"
-    "$vertexalpha"  "1"
-    "$vertexcolor"  "1"
-    "$translucent"  "1"
-}

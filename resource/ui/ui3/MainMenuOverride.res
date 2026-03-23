@@ -776,8 +776,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			"SubImage"
 			{
@@ -1471,8 +1471,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			"SubImage"
 			{

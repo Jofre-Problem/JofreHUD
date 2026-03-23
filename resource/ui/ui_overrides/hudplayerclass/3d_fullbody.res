@@ -13,7 +13,7 @@
 		"wide"			"75"
 		"tall"			"150"
 		
-		//"pinCorner"		"0"
+		////"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		

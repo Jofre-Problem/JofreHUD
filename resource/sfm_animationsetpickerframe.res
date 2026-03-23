@@ -7,9 +7,9 @@
 		"ypos"		"200"
 		"wide"		"400"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxAnimationSetChooser"
 	}
 	"topGrip"
@@ -19,9 +19,9 @@
 		"ypos"		"0"
 		"wide"		"384"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"bottomGrip"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"415"
 		"wide"		"374"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"leftGrip"
 	{
@@ -41,9 +41,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"404"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"rightGrip"
 	{
@@ -52,9 +52,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"394"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"tlGrip"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"trGrip"
 	{
@@ -74,9 +74,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"blGrip"
 	{
@@ -85,9 +85,9 @@
 		"ypos"		"412"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"brGrip"
 	{
@@ -96,9 +96,9 @@
 		"ypos"		"402"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"caption"
 	{
@@ -107,9 +107,9 @@
 		"ypos"		"0"
 		"wide"		"390"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Minimize"
 	{
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"maximize"
@@ -131,10 +131,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"mintosystray"
@@ -144,10 +144,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}
@@ -158,9 +158,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"r"
 	}
 	"Menu"
@@ -170,9 +170,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"AnimationSetPicker"
 	{
@@ -182,8 +182,8 @@
 		"wide"		"390"
 		"tall"		"340"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"OpenButton"
 	{
@@ -192,9 +192,9 @@
 		"ypos"		"383"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#FileOpenDialog_Open"
 		"Command"		"Open"
 	}
@@ -205,9 +205,9 @@
 		"ypos"		"383"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#FileOpenDialog_Cancel"
 		"Command"		"Cancel"
 		"Default"		"1"

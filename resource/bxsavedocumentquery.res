@@ -7,9 +7,9 @@
 		"ypos"		"324"
 		"wide"		"300"
 		"tall"		"120"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxSaveChanges"
 	}
 	"SaveChangesLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"43"
 		"wide"		"264"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Save changes to test.dme"
 	}
 	"Yes"
@@ -31,9 +31,9 @@
 		"ypos"		"87"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Yes"
 		"Command"		"yes"
 	}
@@ -44,9 +44,9 @@
 		"ypos"		"87"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"No"
 		"Command"		"no"
 	}
@@ -57,9 +57,9 @@
 		"ypos"		"87"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"cancel"
 	}

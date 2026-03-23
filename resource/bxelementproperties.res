@@ -7,9 +7,9 @@
 		"ypos"		"63"
 		"wide"		"470"
 		"tall"		"323"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#DmeElementProperties"
 	}
 }

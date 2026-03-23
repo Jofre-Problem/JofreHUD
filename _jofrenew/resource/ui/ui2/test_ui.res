@@ -31,7 +31,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontMedium"
+				"font"			"ItemFontNameLarger"
 				"textAlignment"	"east"
 
 				"proportionaltoparent"	"1"
@@ -64,7 +64,7 @@
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 220"
 				"fgcolor"		"White"
-				"font"			"G_FontMedium"
+				"font"			"ItemFontNameLarger"
 				"textAlignment"	"east"
 				
 				"proportionaltoparent"	"1"
@@ -175,7 +175,7 @@
 
 				"textinsetx""25"
 				"use_proportional_insets" "1"
-				"font""G_FontSmall"
+				"font""ItemFontAttribSmallv2"
 				"textAlignment""west"
 				////"dulltext""0"
 				//"brighttext""0"
@@ -219,7 +219,7 @@
 
 				"textinsetx""25"
 				"use_proportional_insets" "1"
-				"font""G_FontSmall"
+				"font""ItemFontAttribSmallv2"
 				//"textAlignment""west"
 				////"dulltext""0"
 				//"brighttext""0"
@@ -271,7 +271,7 @@
 				"armedbgcolor_override" "145 73 59 255"
 				"armedfgcolor_override" "235 226 202 255"
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 //"textAlignment""west"
 "textinsetx""25"
 "use_proportional_insets" "1"
@@ -375,7 +375,7 @@
 
 
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -427,7 +427,7 @@
 
 
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -478,7 +478,7 @@
 
 
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -529,7 +529,7 @@
 				"armedbgcolor_override" "145 73 59 255"
 				"armedfgcolor_override" "235 226 202 255"
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -580,7 +580,7 @@
 				"armedbgcolor_override" "145 73 59 255"
 				"armedfgcolor_override" "235 226 202 255"
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -631,7 +631,7 @@
 				"armedbgcolor_override" "145 73 59 255"
 				"armedfgcolor_override" "235 226 202 255"
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -682,7 +682,7 @@
 				"armedfgcolor_override" "235 226 202 255"
 
 "labelText" ""
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "textAlignment""center"
 ////"dulltext""0"
 //"brighttext""0"
@@ -733,7 +733,7 @@
 
 
 "labelText""#GameUI_GameMenu_ExitReplay"
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 //"textAlignment""west"
 "textinsetx""35"
 "use_proportional_insets" "1"
@@ -777,7 +777,7 @@
 "textinsetx""25"
 "labelText" ""
 "use_proportional_insets" "1"
-"font""G_fontsmall"
+"font""ItemFontAttribSmallv2"
 "command""questlog"
 	actionsignallevel 4
 				"defaultbgcolor_override" "117 107 94 255"
@@ -917,7 +917,7 @@ paintBackground 0
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"G_Fontsmall"
+			"font"			"ItemFontAttribSmallv2"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -983,7 +983,7 @@ paintBackground 0
 			"tabPosition"	"0"
 			"textinsetx"	"25"
 			"use_proportional_insets" "1"
-			"font"			"g_fontsmall"
+			"font"			"itemfontattribsmallv2"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1067,7 +1067,7 @@ paintBackground 0
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#MMenu_ViewAll"
-		"font"			"G_fontsmall"
+		"font"			"ItemFontAttribSmallv2"
 		"textAlignment"	"center"
 		"dulltext"		"0" 				
 		"defaultbgcolor_override" "117 107 94 255"
@@ -1099,7 +1099,7 @@ paintBackground 0
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecentAchievementsLabel"
-			"font"			"G_fontsmall"
+			"font"			"ItemFontAttribSmallv2"
 			"labelText"		"#MMenu_RecentAchievements"
 			"textAlignment"	"north-west"
 			"xpos"			"70"

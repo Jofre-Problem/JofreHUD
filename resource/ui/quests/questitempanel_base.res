@@ -163,9 +163,9 @@
 					"zpos"		"99"
 					"wide"		"f0"
 					"tall"		"30"
-					//"autoResize"		"0"
-					//		"0"
-					//		"0"
+					////"		"0"
+					
+					
 					"labelText"			"%title%"
 					"bgcolor_override"	"0 0 0 220"
 					"fgcolor"		"Black"
@@ -242,11 +242,11 @@
 						"use_proportional_insets" "1"
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
-						////		"0"
+						//
 						
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 
 						"paintbackground"	"0"
 
@@ -314,11 +314,11 @@
 						"use_proportional_insets" "1"
 						"font"			"QuestLargeText"
 						"allcaps"	"1"
-						////		"0"
+						//
 						
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 
 						"paintbackground"	"0"
 
@@ -355,7 +355,7 @@
 							"textinsetx"			"55"
 							"font"			"QuestLargeText"
 							"allcaps"	"1"
-							////		"0"
+							//
 							
 							"paintbackground"	"0"
 						}
@@ -519,12 +519,12 @@
 					"use_proportional_insets" "0"
 					"font"			"QuestFlavorText"
 					"allcaps"	"1"
-					////		"0"
+					//
 					
 					"actionsignallevel" "3"
 
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					
 
 					"auto_wide_tocontents"	"0"
 					"paintbackground"	"0"
@@ -597,12 +597,12 @@
 						"use_proportional_insets" "0"
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
-						////		"0"
+						//
 						
 						"actionsignallevel" "4"
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 
 						"auto_wide_tocontents"	"0"
 						"paintbackground"	"0"
@@ -631,12 +631,12 @@
 						"use_proportional_insets" "0"
 						"font"			"QuestFlavorText"
 						"allcaps"	"1"
-						////		"0"
+						//
 						
 						"actionsignallevel" "4"
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 
 						"auto_wide_tocontents"	"0"
 						"paintbackground"	"0"
@@ -835,9 +835,9 @@
 				"zpos"		"-5"
 				"wide"		"f0"
 				"tall"		"f0"
-				//"autoResize"		"0"
-				//		"0"
-				//		"0"
+				////"		"0"
+				
+				
 				"proportionaltoparent"	"1"
 
 				"BackFolderImage"
@@ -867,9 +867,9 @@
 				"zpos"		"100"
 				"wide"		"f0"
 				"tall"		"f0"
-				//"autoResize"		"0"
-				//		"0"
-				//		"0"
+				////"		"0"
+				
+				
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"1"
 

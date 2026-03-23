@@ -7,9 +7,9 @@
 		"ypos"				"40"
 		"wide"				"210"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"Cyan"
 		"rightText"			"Red"
 	}
@@ -21,9 +21,9 @@
 		"ypos"				"88"
 		"wide"				"210"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"Magenta"
 		"rightText"			"Green"
 	}
@@ -35,9 +35,9 @@
 		"ypos"				"136"
 		"wide"				"210"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"Yellow"
 		"rightText"			"Blue"
 	}
@@ -49,9 +49,9 @@
 		"ypos"				"190"
 		"wide"				"210"
 		"tall"				"20"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 	}
 
 	"MidtoneMode"
@@ -61,9 +61,9 @@
 		"ypos"				"210"
 		"wide"				"210"
 		"tall"				"20"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"selected"			"1"
 	}
 
@@ -74,9 +74,9 @@
 		"ypos"				"230"
 		"wide"				"210"
 		"tall"				"20"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 	}
 
 	"PreserveLuminosity"
@@ -86,9 +86,9 @@
 		"ypos"				"264"
 		"wide"				"210"
 		"tall"				"20"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"selected"			"1"
 	}
 
@@ -99,9 +99,9 @@
 		"ypos"				"304"
 		"wide"				"74"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Blend Factor:"
 	}
 	"BlendFactorSlider"
@@ -111,9 +111,9 @@
 		"ypos"				"304"
 		"wide"				"130"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}

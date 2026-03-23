@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CParticleFunctionBrowser"
 		//	"3"
-		//		"0"
+		
 		"xpos"			"0"
 		"ypos"			"0"
 		//"PinnedCornerOffsetY" "0"
@@ -19,7 +19,7 @@
 		"wide"			"256"
 		"tall"			"212"
 		//	"3"
-		//		"0"
+		
 		//"PinnedCornerOffsetY" "-6"
 		//"UnpinnedCornerOffsetY" "-6"
 		//	"0"

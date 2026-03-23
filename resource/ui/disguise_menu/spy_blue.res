@@ -1,4 +1,18 @@
-//	#base	"../../../_stream/resource/ui/disguise_menu/spy_blue.res"
-	#base	"../../../_jofrenew/resource/ui/disguise_menu/spy_blue.res"
-//	#base	"../../../_opt/resource/ui/disguise_menu/spy_blue.res"
-//	#base	"../../../z_tf2/resource/ui/disguise_menu/spy_blue.res"
+#base "scout_blue.res"
+
+"Resource/UI/disguise_menu/spy_blue.res"
+{
+	"ClassIconLabel"
+	{
+		"labelText"		"W"
+	}
+	"NewNumberLabel"
+	{
+		"labelText"		"3"
+	}
+
+	"NumberLabel"
+	{
+		"labelText"		"9"
+	}
+}

@@ -7,9 +7,9 @@
 		"ypos"		"14"
 		"wide"		"1154"
 		"tall"		"944"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Engine"
 	{
@@ -19,8 +19,8 @@
 		"wide"		"1124"
 		"tall"		"826"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"Clip Player"
 	{
@@ -32,7 +32,7 @@
 		"tall"		"36"
 		//		"1"
 		//		"2"
-		//		"0"
+		
 	}
 	"TimeCode"
 	{
@@ -42,9 +42,9 @@
 		"zpos"		"1"
 		"wide"		"300"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Clip Slider"
 	{
@@ -56,7 +56,7 @@
 		"tall"		"34"
 		//		"1"
 		//		"2"
-		//		"0"
+		
 		"leftText"		"0.0 s."
 		"rightText"		"60.0 s."
 	}
@@ -67,9 +67,9 @@
 		"ypos"		"5"
 		"wide"		"180"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"sequence"
 	}
 	"ActiveCamera"
@@ -79,9 +79,9 @@
 		"ypos"		"20"
 		"wide"		"180"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"camera"
 	}
 	"ActiveClipLabel"
@@ -91,9 +91,9 @@
 		"ypos"		"5"
 		"wide"		"80"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Active Clip:"
 	}
 	"ActiveCameraButton"
@@ -103,9 +103,9 @@
 		"ypos"		"18"
 		"wide"		"88"
 		"tall"		"16"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Active Camera:"
 		"Command"		"ToggleWorkCamera"
 		"Default"		"1"
@@ -117,8 +117,8 @@
 		"ypos"		"901"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 	}
 }

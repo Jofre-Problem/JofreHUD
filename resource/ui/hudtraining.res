@@ -1,3 +1,4 @@
+#base "ui3/base/label1.res"
 "Resource/UI/HudTraining.res"
 {
  	"ObjectiveStatusTraining"
@@ -15,23 +16,7 @@
 	"GoalLabel"
 	{	
 		"ControlName"	"CExLabel"
-		"fieldName"		"GoalLabel"
-		"fgcolor"		"TanLight"
-
-		"xpos"			"20"
-		"ypos"			"5"
-		"zpos"			"4"
-		"wide"			"300"
-		"tall"			"20"
-
-		//	"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
 		"labelText"		"%goal%"
-		"font"			"GoalText"
-		"textAlignment"		"North"
 	}
 	"GoalLabelShadow"
 	{	
@@ -45,8 +30,8 @@
 		"wide"			"300"
 		"tall"			"20"
 
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -67,7 +52,7 @@
 		"tall"			"45"
 
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -88,32 +73,12 @@
 		"tall"			"15"
 
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_Training_SpaceToContinue"
 		"textAlignment"	"North"
 		"font"			"TFFontSmall"
-	}
-	"HudTrainingMsgBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"HudTrainingMsgBG"
-
-		"xpos"			"-5"
-		"ypos"			"-25"
-		"zpos"			"2"
-		"wide"			"330"
-		"tall"			"205"
-
-		//	"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
 	}
 }

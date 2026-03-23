@@ -7,9 +7,9 @@
 		"ypos"		"14"
 		"wide"		"510"
 		"tall"		"522"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Entities"
 	{
@@ -19,7 +19,7 @@
 		"wide"		"412"
 		"tall"		"340"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 	}
 	"GotoButton"
@@ -29,9 +29,9 @@
 		"ypos"		"36"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Go To"
 	}
 	"DeleteButton"
@@ -41,9 +41,9 @@
 		"ypos"		"70"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Delete"
 		"command"		"Delete"
 	}
@@ -54,9 +54,9 @@
 		"ypos"		"104"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Properties"
 		"Default"		"1"
 		"command"		"ShowProperties"
@@ -68,9 +68,9 @@
 		"ypos"		"490"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
-		//		"0"
+		
 		"labelText"		"Close"
 	}
 	"EntitiesLabel"
@@ -80,9 +80,9 @@
 		"ypos"		"8"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Entities:"
 	}
 	"FilterLabel"
@@ -92,9 +92,9 @@
 		"ypos"		"375"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Filter:"
 	}
 	"EverythingRadio"
@@ -104,9 +104,9 @@
 		"ypos"		"400"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Everything"
 	}
 	"PointRadio"
@@ -116,9 +116,9 @@
 		"ypos"		"430"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Point"
 	}
 	"BrushRadio"
@@ -128,9 +128,9 @@
 		"ypos"		"460"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Brush"
 	}
 	"HiddenCheck"
@@ -140,9 +140,9 @@
 		"ypos"		"490"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Include Hidden Objects"
 	}
 	"KeyvalueCheck"
@@ -152,9 +152,9 @@
 		"ypos"		"400"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"By Key/Value"
 	}
 	"KeyTextEntry"
@@ -164,7 +164,7 @@
 		"ypos"		"430"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"2"
 		"editable"		"1"
@@ -177,9 +177,9 @@
 		"ypos"		"430"
 		"wide"		"12"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"="
 	}
 	"ValueTextEntry"
@@ -189,7 +189,7 @@
 		"ypos"		"430"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"3"
 		"editable"		"1"
@@ -202,9 +202,9 @@
 		"ypos"		"400"
 		"wide"		"128"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Exact Matches Only"
 	}
 	"ClassnameCheck"
@@ -214,9 +214,9 @@
 		"ypos"		"460"
 		"wide"		"128"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"By Class Name"
 	}
 	"ClassNameComboBox"
@@ -226,7 +226,7 @@
 		"ypos"		"490"
 		"wide"		"155"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"4"
 		"editable"		"1"

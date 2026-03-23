@@ -7,9 +7,9 @@
 		"ypos"		"275"
 		"wide"		"450"
 		"tall"		"440"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxMovieLayoff"
 	}
 	"Layoff"
@@ -19,9 +19,9 @@
 		"ypos"		"405"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Export"
 		"Command"		"Layoff"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"405"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"cancel"
 	}
@@ -45,9 +45,9 @@
 		"ypos"		"42"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Choose File"
 		"textAlignment"		"center"
 		"Command"		"ChooseFile"
@@ -59,9 +59,9 @@
 		"ypos"		"248"
 		"wide"		"190"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Progressive Refinement Settings..."
 		"textAlignment"		"center"
 		"Command"		"ProgressiveRefinementSettings"
@@ -73,9 +73,9 @@
 		"ypos"		"69"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output .avi file"
 	}
 	"TGA"
@@ -85,9 +85,9 @@
 		"ypos"		"92"
 		"wide"		"110"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output .tga files"
 		"selected"		"1"
 	}
@@ -98,9 +98,9 @@
 		"ypos"		"115"
 		"wide"		"110"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output .wav file"
 		"selected"		"1"
 	}
@@ -111,9 +111,9 @@
 		"ypos"		"260"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Players"
 		"selected"		"1"
 	}
@@ -124,9 +124,9 @@
 		"ypos"		"282"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw NPCs"
 		"selected"		"1"
 	}
@@ -137,9 +137,9 @@
 		"ypos"		"304"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Other Entities"
 		"selected"		"1"
 	}
@@ -150,9 +150,9 @@
 		"ypos"		"326"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Ropes"
 		"selected"		"1"
 	}
@@ -163,9 +163,9 @@
 		"ypos"		"348"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Beams"
 		"selected"		"1"
 	}
@@ -176,9 +176,9 @@
 		"ypos"		"370"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Particle Systems"
 	}
 	"DrawElementsLabel"
@@ -188,9 +188,9 @@
 		"ypos"		"300"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Recorded Elements:"
 	}
 	"DrawPuppets"
@@ -200,9 +200,9 @@
 		"ypos"		"320"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Puppets"
 		"Default"		"1"
 	}
@@ -213,9 +213,9 @@
 		"ypos"		"340"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Effects"
 		"Default"		"1"
 	}
@@ -226,9 +226,9 @@
 		"ypos"		"360"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Particle Systems"
 		"Default"		"1"
 	}
@@ -239,8 +239,8 @@
 		"ypos"		"41"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -252,8 +252,8 @@
 		"ypos"		"145"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -266,8 +266,8 @@
 		"ypos"		"146"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -280,8 +280,8 @@
 		"ypos"		"175"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -293,8 +293,8 @@
 		"ypos"		"146"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"maxchars"		"-1"
 	}
@@ -305,9 +305,9 @@
 		"ypos"		"145"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Start Time"
 		"textAlignment"		"east"
 	}
@@ -318,9 +318,9 @@
 		"ypos"		"146"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"End Time"
 		"textAlignment"		"east"
 	}
@@ -331,8 +331,8 @@
 		"ypos"		"206"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -345,8 +345,8 @@
 		"ypos"		"206"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -358,8 +358,8 @@
 		"ypos"		"206"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"maxchars"		"-1"
 	}
@@ -370,9 +370,9 @@
 		"ypos"		"92"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Override Shutter Speed:"
 	}
 	"Shutterspeed"
@@ -382,8 +382,8 @@
 		"ypos"		"114"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -395,9 +395,9 @@
 		"ypos"		"40"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output File:"
 	}
 	"Label1"
@@ -407,9 +407,9 @@
 		"ypos"		"175"
 		"wide"		"119"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output Framerate"
 		"textAlignment"		"east"
 	}
@@ -420,9 +420,9 @@
 		"ypos"		"206"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Width"
 		"textAlignment"		"east"
 	}
@@ -433,9 +433,9 @@
 		"ypos"		"206"
 		"wide"		"70"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Height"
 		"textAlignment"		"east"
 	}
@@ -446,9 +446,9 @@
 		"ypos"		"69"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Clear Decals"
 	}
 }

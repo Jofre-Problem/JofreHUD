@@ -214,8 +214,8 @@
 				"ypos"			"0"
 				"visible"			"0"
 				"tall"			"0"
-				//////"autoResize"		"0"
-				//		"0"
+				////////"		"0"
+				
 				"visible"		"0"
 				"enabled"		"0"
 				"paintborder"	"0"
@@ -235,8 +235,8 @@
 				"zpos"			"40"
 				"wide"			"f0"
 				"tall"			"30"
-				//////"autoResize"		"0"
-				//		"0"
+				////////"		"0"
+				
 				"visible"		"1"
 				//"enabled"		"1"
 				"centerwrap"	"0"
@@ -272,8 +272,8 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"30"
-			//////"autoResize"		"0"
-			//		"0"
+			////////"		"0"
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			"fgcolor" "255 181 50 255"
@@ -290,8 +290,8 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"275"
-			//////"autoResize"		"0"
-			//		"0"
+			////////"		"0"
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			
@@ -309,8 +309,8 @@
 			"zpos"			"2"
 			"wide"			"245"
 			"tall"			"30"
-			//////"autoResize"		"0"
-			//		"0"
+			////////"		"0"
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			"fgcolor" "137 191 60 255"
@@ -320,7 +320,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"G_fontsmall_2"
+		"font"			"ItemFontAttribSmallv2"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
 		"xpos"			"0"
@@ -337,7 +337,9 @@
 
 	"MapLabel"
 	{
-		"font"			"G_fontmedium"
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"ItemFontNameLarger"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -378,8 +380,8 @@
 		"ypos"			"75"
 		"zpos"	"1010"
 		"tall"			"20"
-		//////"autoResize"		"0"
-		//		"0"
+		////////"		"0"
+		
 		"visible"		"1"
 		//"enabled"		"1"
 		"fgcolor" 		"Notowhite"
@@ -502,7 +504,7 @@
 		"wide"			"f0"
 		"tall"			"36"
 		
-		//"pinCorner"			"2"
+		////"			"2"
 		"visible"		"0"
 		
 		"font"	"Regular16"

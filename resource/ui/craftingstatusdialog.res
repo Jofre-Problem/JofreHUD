@@ -24,7 +24,7 @@
 		"wide"			"200"
 		"tall"			"0"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -50,7 +50,7 @@
 		"wide"			"200"
 		"tall"			"60"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -74,8 +74,8 @@
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"60"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
@@ -104,11 +104,11 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

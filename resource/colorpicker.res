@@ -96,7 +96,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"1"
+			//"SubTabPosition"	"1"
 		}
 		
 		"SaturationRadio"
@@ -118,7 +118,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"2"
+			//"SubTabPosition"	"2"
 		}
 		
 		"ValueRadio"
@@ -140,7 +140,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"3"
+			//"SubTabPosition"	"3"
 		}
 		
 		"RedRadio"
@@ -162,7 +162,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"4"
+			//"SubTabPosition"	"4"
 		}
 		
 		"GreenRadio"
@@ -184,7 +184,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"5"
+			//"SubTabPosition"	"5"
 		}
 		
 		"BlueRadio"
@@ -206,7 +206,7 @@
 			////"brighttext"		"0"
 			"wrap"				"0"
 			//"Default"			"0"
-			"SubTabPosition"	"6"
+			//"SubTabPosition"	"6"
 		}
 		
 		"HueText"

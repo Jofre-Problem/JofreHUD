@@ -7,9 +7,9 @@
 		"ypos"		"272"
 		"wide"		"600"
 		"tall"		"480"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Bug Reporter"
 	}
 	"frame_topGrip"
@@ -19,9 +19,9 @@
 		"ypos"		"0"
 		"wide"		"584"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_bottomGrip"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"475"
 		"wide"		"574"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_leftGrip"
 	{
@@ -41,9 +41,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"464"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_rightGrip"
 	{
@@ -52,9 +52,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"454"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_tlGrip"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_trGrip"
 	{
@@ -74,9 +74,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_blGrip"
 	{
@@ -85,9 +85,9 @@
 		"ypos"		"472"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_brGrip"
 	{
@@ -96,9 +96,9 @@
 		"ypos"		"462"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_caption"
 	{
@@ -107,9 +107,9 @@
 		"ypos"		"0"
 		"wide"		"590"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_minimize"
 	{
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"frame_maximize"
@@ -131,10 +131,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"frame_mintosystray"
@@ -144,10 +144,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}
@@ -158,9 +158,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"r"
 	}
 	"frame_menu"
@@ -170,9 +170,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BugTitle"
 	{
@@ -181,8 +181,8 @@
 		"ypos"		"35"
 		"wide"		"481"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"75"
@@ -194,8 +194,8 @@
 		"ypos"		"65"
 		"wide"		"481"
 		"tall"		"111"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -207,10 +207,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"80"
 	}
@@ -221,9 +221,9 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BugScreenShotURL"
 	{
@@ -232,9 +232,9 @@
 		"ypos"		"180"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Shot URL"
 	}
 	"BugSaveGameURL"
@@ -244,9 +244,9 @@
 		"ypos"		"208"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Save URL"
 	}
 	"BugBSPURL"
@@ -256,9 +256,9 @@
 		"ypos"		"235"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		".bsp file"
 	}
 	"BugVMFURL"
@@ -268,9 +268,9 @@
 		"ypos"		"262"
 		"wide"		"210"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		".vmf file"
 	}
 	"BugIncludedFiles"
@@ -280,9 +280,9 @@
 		"ypos"		"292"
 		"wide"		"481"
 		"tall"		"49"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"BugTakeShot"
@@ -292,8 +292,8 @@
 		"ypos"		"180"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"11"
 		"labelText"		"Take shot"
 		"Command"		"snapshot"
@@ -305,8 +305,8 @@
 		"ypos"		"208"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"12"
 		"labelText"		"Save game"
 		"Command"		"savegame"
@@ -318,9 +318,9 @@
 		"ypos"		"235"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Include .bsp"
 		"Command"		"savebsp"
 	}
@@ -331,9 +331,9 @@
 		"ypos"		"262"
 		"wide"		"31"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		".vmf"
 		"Command"		"savevmf"
 	}
@@ -344,9 +344,9 @@
 		"ypos"		"262"
 		"wide"		"48"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Folder..."
 	}
 	"BugIncludeFile"
@@ -356,9 +356,9 @@
 		"ypos"		"292"
 		"wide"		"85"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Include file..."
 		"Command"		"addfile"
 	}
@@ -369,9 +369,9 @@
 		"ypos"		"316"
 		"wide"		"85"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Clear files"
 		"Command"		"clearfiles"
 	}
@@ -382,9 +382,9 @@
 		"ypos"		"182"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"-1072.00 128.00 16.03"
 	}
 	"BugOrientation"
@@ -394,9 +394,9 @@
 		"ypos"		"207"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"0.00 180.00 0.00"
 	}
 	"BugLevel"
@@ -406,9 +406,9 @@
 		"ypos"		"227"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"box"
 	}
 	"BugBuild"
@@ -418,9 +418,9 @@
 		"ypos"		"253"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"3029"
 	}
 	"BugSubmitter"
@@ -430,9 +430,9 @@
 		"ypos"		"344"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Yahn Bernier"
 	}
 	"BugOwner"
@@ -442,8 +442,8 @@
 		"ypos"		"372"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"maxchars"		"-1"
 	}
@@ -454,8 +454,8 @@
 		"ypos"		"400"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"maxchars"		"-1"
 	}
@@ -466,8 +466,8 @@
 		"ypos"		"344"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"maxchars"		"-1"
 	}
@@ -478,8 +478,8 @@
 		"ypos"		"372"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"maxchars"		"-1"
 	}
@@ -490,8 +490,8 @@
 		"ypos"		"400"
 		"wide"		"160"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"maxchars"		"-1"
 	}
@@ -502,10 +502,10 @@
 		"ypos"		"428"
 		"wide"		"161"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"BugSubmit"
@@ -515,8 +515,8 @@
 		"ypos"		"454"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"8"
 		"labelText"		"Submit"
 		"Command"		"submit"
@@ -528,8 +528,8 @@
 		"ypos"		"454"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"9"
 		"labelText"		"Cancel"
 		"Command"		"cancel"
@@ -542,8 +542,8 @@
 		"ypos"		"454"
 		"wide"		"82"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"10"
 		"labelText"		"Clear Form"
 		"Command"		"clearform"
@@ -555,9 +555,9 @@
 		"ypos"		"35"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Title:"
 	}
 	"Label2"
@@ -567,9 +567,9 @@
 		"ypos"		"65"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Description:"
 	}
 	"Label3"
@@ -579,9 +579,9 @@
 		"ypos"		"183"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Position:"
 	}
 	"Label5"
@@ -591,9 +591,9 @@
 		"ypos"		"227"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Map:"
 	}
 	"Label6"
@@ -603,9 +603,9 @@
 		"ypos"		"253"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Build:"
 	}
 	"Label7"
@@ -615,9 +615,9 @@
 		"ypos"		"344"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Submitter:"
 	}
 	"Label8"
@@ -627,9 +627,9 @@
 		"ypos"		"372"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Owner:"
 	}
 	"Label9"
@@ -639,9 +639,9 @@
 		"ypos"		"400"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Severity:"
 	}
 	"Label10"
@@ -651,9 +651,9 @@
 		"ypos"		"344"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Report Type:"
 	}
 	"Label11"
@@ -663,9 +663,9 @@
 		"ypos"		"372"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Priority:"
 	}
 	"Label12"
@@ -675,9 +675,9 @@
 		"ypos"		"400"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Area:"
 	}
 	"Label4"
@@ -687,9 +687,9 @@
 		"ypos"		"210"
 		"wide"		"92"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Orientation:"
 	}
 	"Label13"
@@ -699,9 +699,9 @@
 		"ypos"		"428"
 		"wide"		"84"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Map Number:"
 	}
 	"BuildModeDialog"
@@ -711,9 +711,9 @@
 		"ypos"		"78"
 		"wide"		"300"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 }

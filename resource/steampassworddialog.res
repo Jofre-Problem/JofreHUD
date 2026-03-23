@@ -7,9 +7,9 @@
 		"ypos"		"270"
 		"wide"		"372"
 		"tall"		"260"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"HelpText"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"48"
 		"wide"		"310"
 		"tall"		"90"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"PasswordEdit"
 	{
@@ -29,8 +29,8 @@
 		"ypos"		"158"
 		"wide"		"300"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"textHidden"		"1"
 		"editable"		"1"
@@ -44,8 +44,8 @@
 		"ypos"		"222"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"#GameUI_OK"
 		"command"		"Close"
@@ -57,8 +57,8 @@
 		"ypos"		"222"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"#GameUI_Quit"
 		"command"		"QuitGame"
@@ -70,8 +70,8 @@
 		"ypos"		"218"
 		"wide"		"285"
 		"tall"		"665"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 }

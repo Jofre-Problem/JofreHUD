@@ -1,7 +1,6 @@
 	#base "../../../../cfg/jofrehud/hud_friendslist.txt"
 	#base "customizations/#customization_menu/hud_customization.res"
 	#base "ui3/vguipreload.res"
-	//#base "../../_jofrenew/resource/ui/mainmenuoverride.res"
 	#base "ui2/+motd_main_only.res"
 	#base "ui2/motd_fallback.res"
 	#base "ui2/+safemode.res"
@@ -776,8 +775,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			"SubImage"
 			{
@@ -1471,8 +1470,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"paintbackground" "0"
 			"SubImage"
 			{
@@ -1638,8 +1637,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}		
 		"Plus"			// other classes pinned to this
 	{
@@ -1659,8 +1658,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 		"Create"			// other classes pinned to this
 	{
@@ -1680,8 +1679,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 		"Quest"			// other classes pinned to this
 	{
@@ -1701,8 +1700,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 
 	"Options"			// other classes pinned to this
@@ -1723,8 +1722,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 	"adv"			// other classes pinned to this
 	{
@@ -1744,8 +1743,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}				
 	"Shop"			// other classes pinned to this
 	{
@@ -1765,8 +1764,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 	"Loadout"			// other classes pinned to this
 	{
@@ -1786,8 +1785,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 	"Training"			// other classes pinned to this
 	{
@@ -1807,8 +1806,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}					
 	"Bugs"			// other classes pinned to this
 	{
@@ -1828,8 +1827,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}				
 	"Console"			// other classes pinned to this
 	{
@@ -1849,8 +1848,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-				"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+				
+			
 	}			
 	"Demo"			// other classes pinned to this
 	{
@@ -1870,8 +1869,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 	}		
 	"Customization"			// other classes pinned to this
 	{
@@ -1892,8 +1891,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 	}
  	"SafemodeADContainerTest"
 	{ 
@@ -1961,8 +1960,8 @@
 								"border_default"	"MM_BUTTON_BLANK"
 								"border_armed"		"MM_BUTTON_ADDITIVE"
 					paintbackground 			0
-						"sound_depressed"	"ui/buttonclick.wav"
-						"sound_released"	"ui/buttonclickrelease.wav"
+						
+						
 				}			
 			}
 			"1"
@@ -1994,8 +1993,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 	}	
 
 				"Background"		{"wide"	"0"	}
@@ -2060,8 +2059,8 @@
 					"border_default"	"MM_BUTTON_BLANK"
 					"border_armed"		"MM_BUTTON_ADDITIVE"
 		paintbackground 			0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 	}	
 		
 			}
@@ -2107,7 +2106,7 @@
 			"paintbackground"   "0"
 				
 			"image_drawcolor"	"235 226 202 255"
-			"sound_depressed"	"UI/buttonclick.wav"
+			
 			"proportionaltoparent"	"1"
 		}
 	}	
@@ -2140,7 +2139,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
-		"font"				"g_fonttiny_2"
+		"font"				"itemfontnamesmallest"
 		"labelText"			""
 		"labelText_minmode"	"Streamer Mode ON!"
 		"xpos"				"rs1-95"
@@ -2268,7 +2267,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"White"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"east"
 
 				"proportionaltoparent"	"1"
@@ -2301,7 +2300,7 @@
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"notodark"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
 				"proportionaltoparent"	"1"
@@ -14974,8 +14973,8 @@
 				"proportionaltoparent"	"1"
 				"button_activation_type"	"1"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"border" "noborder"
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
@@ -15013,7 +15012,7 @@
 				"defaultFgColor_override"		"White"
 				"armedFgColor_override"		"MainTheme"
 				"alpha" "0"
-				"pinCorner"		"2"
+				//"		"2"
 			}		
 			"RandomImagePanel"
 			{
@@ -15326,8 +15325,8 @@
 				"proportionaltoparent"	"1"
 				"button_activation_type"	"1"
     
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
@@ -15348,7 +15347,7 @@
 				"visible"		"0"
 
 				"alpha" "0"
-				"pinCorner"		"2"
+				//"		"2"
 			}		
 			"RandomImagePanel2"
 			{
@@ -15491,8 +15490,8 @@
 				"proportionaltoparent"	"1"
 				"button_activation_type"	"1"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 
 				"border" "noborder"
 				"paintbackground"	"1"
@@ -15530,7 +15529,7 @@
 				"visible"		"0"
 
 				"alpha" "0"
-				"pinCorner"		"2"
+				//"		"2"
 			}		
 			"RandomImagePanel2"
 			{
@@ -15560,7 +15559,7 @@
 				"command"						"engine toggle cl_hud_minmode;toggle mat_aaquality"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15576,7 +15575,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Stream Mode (Game will freeze)"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15598,7 +15597,7 @@
 				"command"						"engine toggle tf_use_match_hud"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15613,7 +15612,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Match Status Toggle"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15635,7 +15634,7 @@
 				"command"						"engine toggle hud_saytext_time 10 0"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15650,7 +15649,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Toggle Chat"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15673,7 +15672,7 @@
 				"command"						"engine toggle hud_deathnotice_time 6 0"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15688,7 +15687,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Toggle Killfeed"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15710,7 +15709,7 @@
 				"command"						"engine toggle voice_enable"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15725,7 +15724,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Enable Voice"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15747,7 +15746,7 @@
 				"command"						"engine toggle glow_outline_effect_enable"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15762,7 +15761,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Enable Glow"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15784,7 +15783,7 @@
 				"command"						"engine toggle cl_spraydisable"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15799,7 +15798,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Enable Sprays"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"
@@ -15821,7 +15820,7 @@
 				"command"						"engine toggle mat_filtertextures"
 				"actionsignallevel"				"3"
 				"paintbackground"				"0"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
@@ -15836,7 +15835,7 @@
 				"wide"							"170"
 				"tall"							"22"
 				"proportionaltoparent"			"1"
-				"font"							"g_fonttiny_2"
+				"font"							"itemfontnamesmallest"
 				"labeltext"						"Minecraft Textures?"
 				"textAlignment"					"west"
 				"smallcheckimage"				"1"

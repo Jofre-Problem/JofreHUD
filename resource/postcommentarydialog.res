@@ -7,9 +7,9 @@
 		"ypos"		"357"
 		"wide"		"400"
 		"tall"		"262"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_CommentaryDialogTitle"
 	}
 	"PostModeLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"44"
 		"wide"		"300"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Label"
 	}
 	"HowToUseCommentary"
@@ -31,9 +31,9 @@
 		"ypos"		"78"
 		"wide"		"276"
 		"tall"		"60"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_Commentary_HowToUse"
 		"wrap"		"1"
 	}
@@ -44,9 +44,9 @@
 		"ypos"		"208"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_ok"
 		"Command"		"close"
 		"Default"		"1"

@@ -7,9 +7,9 @@
 		"ypos"		"410"
 		"wide"		"450"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxPosterLayoff"
 	}
 	"Layoff"
@@ -19,9 +19,9 @@
 		"ypos"		"388"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Export"
 		"command"		"Layoff"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"388"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"command"		"cancel"
 	}
@@ -45,9 +45,9 @@
 		"ypos"		"42"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Choose File"
 		"textAlignment"		"center"
 		"command"		"ChooseFile"
@@ -59,9 +59,9 @@
 		"ypos"		"255"
 		"wide"		"190"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Progressive Refinement Settings..."
 		"textAlignment"		"center"
 		"command"		"ProgressiveRefinementSettings"
@@ -73,8 +73,8 @@
 		"ypos"		"41"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -86,8 +86,8 @@
 		"ypos"		"185"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -100,8 +100,8 @@
 		"ypos"		"185"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"8"
 		"maxchars"		"-1"
 	}
@@ -112,8 +112,8 @@
 		"ypos"		"80"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"maxchars"		"-1"
 	}
@@ -124,8 +124,8 @@
 		"ypos"		"115"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"maxchars"		"-1"
 	}
@@ -136,9 +136,9 @@
 		"ypos"		"185"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Time"
 		"textAlignment"		"east"
 	}
@@ -149,8 +149,8 @@
 		"ypos"		"80"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -163,8 +163,8 @@
 		"ypos"		"115"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -177,8 +177,8 @@
 		"ypos"		"150"
 		"wide"		"65"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -191,9 +191,9 @@
 		"ypos"		"215"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Clear Decals"
 	}
 	"DrawEntitiesLabel"
@@ -203,9 +203,9 @@
 		"ypos"		"240"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Game Entities:"
 	}
 	"DrawPlayers"
@@ -215,9 +215,9 @@
 		"ypos"		"260"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Players"
 	}
 	"DrawNPCs"
@@ -227,9 +227,9 @@
 		"ypos"		"280"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw NPCs"
 	}
 	"DrawOtherEntities"
@@ -239,9 +239,9 @@
 		"ypos"		"300"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Other Entities"
 	}
 	"DrawRopes"
@@ -251,9 +251,9 @@
 		"ypos"		"340"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Ropes"
 		"Default"		"1"
 	}
@@ -264,9 +264,9 @@
 		"ypos"		"320"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Beams"
 		"Default"		"1"
 	}
@@ -277,9 +277,9 @@
 		"ypos"		"360"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Particle Systems"
 		"Default"		"1"
 	}
@@ -290,9 +290,9 @@
 		"ypos"		"300"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Recorded Elements:"
 	}
 	"DrawPuppets"
@@ -302,9 +302,9 @@
 		"ypos"		"320"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Puppets"
 		"Default"		"1"
 	}
@@ -315,9 +315,9 @@
 		"ypos"		"340"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Effects"
 		"Default"		"1"
 	}
@@ -328,9 +328,9 @@
 		"ypos"		"360"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Draw Particle Systems"
 		"Default"		"1"
 	}
@@ -341,9 +341,9 @@
 		"ypos"		"80"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Width"
 		"textAlignment"		"east"
 	}
@@ -354,9 +354,9 @@
 		"ypos"		"115"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Height"
 		"textAlignment"		"east"
 	}
@@ -367,9 +367,9 @@
 		"ypos"		"150"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"dpi"
 	}
 	"LabelOutputFile"
@@ -379,9 +379,9 @@
 		"ypos"		"40"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Output File:"
 	}
 }

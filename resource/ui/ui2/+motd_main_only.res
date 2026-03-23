@@ -99,7 +99,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"White"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"east"
 
 				"proportionaltoparent"	"1"
@@ -132,7 +132,7 @@
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"notodark"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
 				"proportionaltoparent"	"1"
@@ -495,7 +495,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"# Community"
-		font					"g_fonttiny_2"
+		font					"itemfontnamesmallest"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcommu"
@@ -1279,7 +1279,7 @@ proportionaltoparent 1
 				"labelText"			">"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"White"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"east"
 
 				"proportionaltoparent"	"1"
@@ -1312,7 +1312,7 @@ proportionaltoparent 1
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
 				"fgcolor"		"notodark"
-				"font"			"G_FontSmall"
+				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
 				"proportionaltoparent"	"1"

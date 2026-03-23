@@ -7,9 +7,9 @@
 		"ypos"		"382"
 		"wide"		"480"
 		"tall"		"270"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 	"frame_topGrip"
@@ -19,9 +19,9 @@
 		"ypos"		"0"
 		"wide"		"468"
 		"tall"		"3"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_bottomGrip"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"267"
 		"wide"		"462"
 		"tall"		"3"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_leftGrip"
 	{
@@ -41,9 +41,9 @@
 		"ypos"		"6"
 		"wide"		"3"
 		"tall"		"258"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_rightGrip"
 	{
@@ -52,9 +52,9 @@
 		"ypos"		"6"
 		"wide"		"3"
 		"tall"		"252"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_tlGrip"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"0"
 		"wide"		"6"
 		"tall"		"6"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_trGrip"
 	{
@@ -74,9 +74,9 @@
 		"ypos"		"0"
 		"wide"		"6"
 		"tall"		"6"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_blGrip"
 	{
@@ -85,9 +85,9 @@
 		"ypos"		"264"
 		"wide"		"6"
 		"tall"		"6"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_brGrip"
 	{
@@ -96,9 +96,9 @@
 		"ypos"		"258"
 		"wide"		"12"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_caption"
 	{
@@ -107,9 +107,9 @@
 		"ypos"		"0"
 		"wide"		"470"
 		"tall"		"12"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"frame_minimize"
 	{
@@ -118,10 +118,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"frame_maximize"
@@ -131,10 +131,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"frame_mintosystray"
@@ -144,10 +144,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}
@@ -158,10 +158,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"r"
 	}
 	"frame_menu"
@@ -171,9 +171,9 @@
 		"ypos"		"8"
 		"wide"		"7"
 		"tall"		"7"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Record"
 	{
@@ -182,9 +182,9 @@
 		"ypos"		"235"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record"
 		"Command"		"RecordGame"
 	}
@@ -195,9 +195,9 @@
 		"ypos"		"235"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"CancelRecord"
 	}
@@ -208,9 +208,9 @@
 		"ypos"		"25"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Choose Dem:"
 	}
 	"ChooseDemText"
@@ -220,9 +220,9 @@
 		"ypos"		"25"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -233,9 +233,9 @@
 		"ypos"		"50"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Choose Map:"
 	}
 	"ChooseMapText"
@@ -245,9 +245,9 @@
 		"ypos"		"50"
 		"wide"		"250"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -258,9 +258,9 @@
 		"ypos"		"50"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Choose Map"
 		"textAlignment"		"center"
 		"Command"		"ChooseMap"
@@ -272,9 +272,9 @@
 		"ypos"		"75"
 		"wide"		"145"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Camera Position"
 		"selected"		"1"
 	}
@@ -285,9 +285,9 @@
 		"ypos"		"75"
 		"wide"		"145"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Camera Angles"
 		"selected"		"1"
 	}
@@ -298,9 +298,9 @@
 		"ypos"		"75"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Camera FOV"
 		"selected"		"1"
 	}
@@ -311,9 +311,9 @@
 		"ypos"		"100"
 		"wide"		"145"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"View From Player"
 		"selected"		"1"
 	}
@@ -324,9 +324,9 @@
 		"ypos"		"100"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Snap Player To Tool Camera"
 	}
 	"Noclip"
@@ -336,9 +336,9 @@
 		"ypos"		"100"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Enable noclip"
 	}
 	"RecordWorld"
@@ -348,9 +348,9 @@
 		"ypos"		"125"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record World"
 		"selected"		"1"
 	}
@@ -361,9 +361,9 @@
 		"ypos"		"125"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Stationary Ents"
 	}
 	"RecordSprites"
@@ -373,9 +373,9 @@
 		"ypos"		"125"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Sprites"
 	}
 	"RecordSounds"
@@ -385,9 +385,9 @@
 		"ypos"		"150"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Sounds"
 		"selected"		"1"
 	}
@@ -398,9 +398,9 @@
 		"ypos"		"150"
 		"wide"		"130"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Record Narration"
 	}
 	"RecordNarrationFromStart"
@@ -410,9 +410,9 @@
 		"ypos"		"150"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"From Start of Sequence"
 	}
 	"SequenceLabel"
@@ -422,9 +422,9 @@
 		"ypos"		"175"
 		"wide"		"119"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Sequence Name"
 		"textAlignment"		"east"
 	}
@@ -435,9 +435,9 @@
 		"ypos"		"175"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -448,9 +448,9 @@
 		"ypos"		"200"
 		"wide"		"119"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Shot Name"
 		"textAlignment"		"east"
 	}
@@ -461,9 +461,9 @@
 		"ypos"		"200"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -474,10 +474,10 @@
 		"ypos"		"128"
 		"wide"		"268"
 		"tall"		"380"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"title"		"#Frame_Untitled"
 	}
 	"BuildModeDialog"
@@ -487,9 +487,9 @@
 		"ypos"		"0"
 		"wide"		"300"
 		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 }

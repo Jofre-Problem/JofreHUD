@@ -10,7 +10,7 @@
 		"wide"			"400"
 		"tall"			"300"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -32,7 +32,7 @@
 			"wide"			"300"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
@@ -74,7 +74,7 @@
 		"wide"			"400"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -136,7 +136,7 @@
 			"wide"			"366"
 			"tall"			"0"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -177,7 +177,7 @@
 			"wide"			"140"
 			"tall"			"60"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
@@ -200,7 +200,7 @@
 		"wide"			"400"
 		"tall"			"30"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -224,10 +224,10 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}		
 }

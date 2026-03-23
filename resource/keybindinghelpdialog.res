@@ -7,9 +7,9 @@
 		"ypos"		"250"
 		"wide"		"720"
 		"tall"		"400"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxToolTimeline"
 	}
 	"keybindings"
@@ -20,8 +20,8 @@
 		"wide"		"705"
 		"tall"		"340"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"Button1"
 	{
@@ -30,9 +30,9 @@
 		"ypos"		"368"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#vgui_close"
 		"Command"		"close"
 		"Default"		"1"
@@ -45,9 +45,9 @@
 		"ypos"		"368"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#KBHelpEditBindings"
 		"Command"		"edit"
 		"Default"		"1"

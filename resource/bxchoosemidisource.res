@@ -7,9 +7,9 @@
 		"ypos"		"390"
 		"wide"		"450"
 		"tall"		"110"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Choose Midi Source"
 	}
 	"MidiSourceLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"25"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Midi Source:"
 	}
 	"MidiSource"
@@ -31,8 +31,8 @@
 		"ypos"		"25"
 		"wide"		"350"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"maxchars"		"-1"
 	}
@@ -43,8 +43,8 @@
 		"ypos"		"75"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"Choose"
 		"Command"		"ChooseMidiSource"
@@ -57,8 +57,8 @@
 		"ypos"		"75"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"Cancel"
 		"Command"		"CancelChooseMidiSource"

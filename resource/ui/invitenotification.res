@@ -120,7 +120,7 @@
 		//	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
@@ -132,8 +132,8 @@
 		"armedBgColor_override"		"CreditsGreen"
 		"defaultBgColor_override"	"SaleGreen"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"DeclineButton"
@@ -159,7 +159,7 @@
 		//	"0"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"decline"
 		"proportionaltoparent"	"1"
@@ -169,8 +169,8 @@
 		"actionsignallevel"	"1"
 
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 }

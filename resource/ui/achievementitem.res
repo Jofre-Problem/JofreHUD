@@ -77,10 +77,10 @@
 		"ypos"		"41"
 		"wide"		"150"
 		"tall"		"12"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0%"
 	}
 	"ShowOnHUD"
@@ -90,10 +90,10 @@
 		"ypos"		"7"
 		"wide"		"150"
 		"tall"		"12"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_Achievement_Show_HUD"
 	}
 }

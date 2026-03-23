@@ -11,8 +11,8 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"1500"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/color_panel_brown"
@@ -36,8 +36,8 @@
 		"zpos"			"100"
 		"wide"			"5"
 		"tall"	 		"2"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/blu_spec_targetid"
@@ -57,8 +57,8 @@
 		"zpos"			"100"
 		"wide"			"5"
 		"tall"	 		"2"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/red_spec_targetid"
@@ -80,15 +80,15 @@
 		"zpos"			"1"
 		"wide"			"640" // wide doesnt matter i think
 		"tall"			"24"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"WWWWW)"
 		//"labelText"		"|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 		"textAlignment"		"North-West"
 		////	"0"
-		////		"0"
+		//
 		"alpha"			"0"
 	}
 	"TargetNameLabelTop"
@@ -118,8 +118,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -139,8 +139,8 @@
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -159,8 +159,8 @@
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -383,14 +383,14 @@
 		"zpos"			"5"
 		"wide"			"655"
 		"tall"			"35"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"center"
 		////	"0"
-		////		"0"
+		//
 		"fgcolor"		"Notowhite"
 		"colors"
 		{	
@@ -414,14 +414,14 @@
 		"zpos"			"4"
 		"wide"			"655"
 		"tall"			"35"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"center"
 		////	"0"
-		////		"0"
+		//
 		"fgcolor"		"Black"
 	}
 	"TriUberTID"
@@ -453,8 +453,8 @@
 		"zpos"			"3"
 		"wide"			"1500"
 		"tall"			"15" //15
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TIDdatafulluber" //basically checks for 4 of a combo of numbers and %

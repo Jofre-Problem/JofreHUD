@@ -416,7 +416,7 @@
 			"wide"			"210"
 			"tall"			"60"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -435,7 +435,7 @@
 			"wide"			"210"
 			"tall"			"40"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -453,18 +453,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -527,7 +527,7 @@
 			"wide"			"210"
 			"tall"			"50"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -546,7 +546,7 @@
 			"wide"			"210"
 			"tall"			"40"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "Graydark"
@@ -562,18 +562,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -638,7 +638,7 @@
 			"wide"			"210"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -657,7 +657,7 @@
 			"wide"			"210"
 			"tall"			"90"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -674,18 +674,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -750,7 +750,7 @@
 			"wide"			"210"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -769,7 +769,7 @@
 			"wide"			"210"
 			"tall"			"90"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -786,18 +786,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -862,7 +862,7 @@
 			"wide"			"210"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -881,7 +881,7 @@
 			"wide"			"210"
 			"tall"			"190"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -898,18 +898,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -974,7 +974,7 @@
 			"wide"			"210"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -993,7 +993,7 @@
 			"wide"			"210"
 			"tall"			"190"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -1010,18 +1010,18 @@
 			"wide"			"14"
 			"tall"			"14"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"

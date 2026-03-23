@@ -1,16 +1,12 @@
+#base "ui3/base/editablepanel1.res"
 "Resource/UI/HudStopWatch.res"
 {
 	"ObjectiveStatusTimePanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"ObjectiveStatusTimePanel"
 		"xpos"		"-1"
 		"wide"		"p0.5"
 		"tall"		"10"
 		"visible"		"0"
-		"enabled"		"1"
-		"proportionaltoparent"	"1"
-
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"

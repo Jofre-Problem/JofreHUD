@@ -8,8 +8,8 @@
 		"wide"		"310"
 		"tall"		"160"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 		"title"		"Edit Bookmark"
 	}
 	"NameTextEntry"
@@ -20,7 +20,7 @@
 		"wide"		"250"
 		"tall"		"24"
 		//		"1"
-		//		"0"
+		
 		//		"1"
 		"maxchars"		"-1"
 	}
@@ -31,8 +31,8 @@
 		"ypos"		"50"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -46,7 +46,7 @@
 		"wide"		"250"
 		"tall"		"44"
 		//		"3"
-		//		"0"
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -58,9 +58,9 @@
 		"ypos"		"25"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Name:"
 	}
 	"TimeLabel"
@@ -70,9 +70,9 @@
 		"ypos"		"50"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Time:"
 	}
 	"NoteLabel"
@@ -82,9 +82,9 @@
 		"ypos"		"75"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Note:"
 	}
 	"PrevButton"
@@ -94,7 +94,7 @@
 		"ypos"		"125"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"4"
 		"labelText"		"Y"
@@ -108,7 +108,7 @@
 		"ypos"		"125"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		"labelText"		"X"
 		"textAlignment"		"center"
@@ -121,7 +121,7 @@
 		"ypos"		"125"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"6"
 		"labelText"		"Okay"
@@ -135,7 +135,7 @@
 		"ypos"		"125"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
 		//		"7"
 		"labelText"		"Cancel"

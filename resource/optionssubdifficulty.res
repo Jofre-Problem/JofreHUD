@@ -8,18 +8,18 @@
 		"ypos"		"58"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillEasy"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
-		"SubTabPosition"		"1"
+		//"SubTabPosition"		"1"
 	}
 	"Skill2Radio"
 	{
@@ -29,18 +29,18 @@
 		"ypos"		"116"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillNormal"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
-		"SubTabPosition"		"2"
+		//"SubTabPosition"		"2"
 	}
 	"Skill3Radio"
 	{
@@ -50,18 +50,18 @@
 		"ypos"		"176"
 		"wide"		"140"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
 		"labelText"		"#GameUI_SkillHard"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"0"
-		"SubTabPosition"		"3"
+		//"SubTabPosition"		"3"
 	}
 	"Label1"
 	{
@@ -71,15 +71,15 @@
 		"ypos"		"24"
 		"wide"		"212"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_SelectDifficulty"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"Label2"
@@ -90,15 +90,15 @@
 		"ypos"		"80"
 		"wide"		"380"
 		"tall"		"36"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_EasyDescription"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 	}
 	"Label3"
@@ -109,15 +109,15 @@
 		"ypos"		"138"
 		"wide"		"380"
 		"tall"		"36"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_NormalDescription"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 	}
 	"Label4"
@@ -128,15 +128,15 @@
 		"ypos"		"198"
 		"wide"		"380"
 		"tall"		"36"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_HardDescription"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 	}
 }

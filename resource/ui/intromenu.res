@@ -8,27 +8,12 @@
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"paintbackground"	"0"
-	}
-	
-	"titlelabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"titlelabel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"70"
-		//		"0"
-		//			"0"
-		"visible"			"0"
-		"enabled"			"0"
-		//		"0"
 	}
 
 	"Skip"  
@@ -48,11 +33,11 @@
 		//		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#Button_SkipIntro"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"command"		"skip"
 		"font"			"MenuSmallFont"
@@ -75,11 +60,11 @@
 		//		"2"
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"command"		"skip"
 		"font"			"MenuSmallFont"
@@ -103,7 +88,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"command"		"back"
 		"font"			"MenuSmallFont"
@@ -128,35 +113,13 @@
 		"enabled"		"1"
 		"labelText"		"#TF_ReplayIntro"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"command"		"replayVideo"
 		"font"			"MenuSmallFont"
 		"fgcolor"		"Black"
 	}
 	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-		//			"r74"
-		//			"r65"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		//"tall_lodef"			"74"
-		//"tall_lodef"			"65"
-		//	"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		//
-	}		
 	
 	"VideoPanel"
 	{
@@ -168,7 +131,7 @@
 		"wide"			"300"
 		"tall"			"225"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"start_delay"	"0.0"
@@ -186,12 +149,12 @@
 		"wide"			"295"
 		"tall"			"70"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		" "
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"font"			"Default"
 		"fgcolor"		"White"

@@ -8,9 +8,9 @@
 		"zpos"		"1002"
 		"wide"		"1215"
 		"tall"		"864"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"VProf (running) --  8103 frames sampled"
 	}
 	"ProfileTree"
@@ -20,9 +20,9 @@
 		"ypos"		"17"
 		"wide"		"387"
 		"tall"		"777"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Hierarchy"
 	{
@@ -32,8 +32,8 @@
 		"wide"		"1195"
 		"tall"		"794"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"CategoryCombo"
 	{
@@ -42,9 +42,9 @@
 		"ypos"		"30"
 		"wide"		"230"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"SortCombo"
@@ -54,9 +54,9 @@
 		"ypos"		"30"
 		"wide"		"149"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"HierarchicalViewSelection"
@@ -66,9 +66,9 @@
 		"ypos"		"30"
 		"wide"		"151"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hierarchical View"
 	}
 	"RedoSorting"
@@ -78,9 +78,9 @@
 		"ypos"		"30"
 		"wide"		"105"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Redo Sorting"
 		"Command"		"redosort"
 		"Default"		"1"
@@ -92,9 +92,9 @@
 		"ypos"		"30"
 		"wide"		"135"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Verbose"
 	}
 	"PlaybackLabel"
@@ -104,10 +104,10 @@
 		"ypos"		"65"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"Playback (tick 0)"
 	}
 	"StepForward"
@@ -117,10 +117,10 @@
 		"ypos"		"65"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"Forward"
 		"textAlignment"		"center"
 		"Command"		"StepForward"
@@ -132,10 +132,10 @@
 		"ypos"		"65"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"Back"
 		"textAlignment"		"center"
 		"Command"		"StepBack"
@@ -147,10 +147,10 @@
 		"ypos"		"65"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"<-- goto"
 		"textAlignment"		"center"
 		"Command"		"GotoButton"
@@ -162,10 +162,10 @@
 		"ypos"		"65"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 	"CategoryLabel"
 	{
@@ -174,9 +174,9 @@
 		"ypos"		"30"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Category :"
 		"textAlignment"		"east"
 	}

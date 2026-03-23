@@ -105,7 +105,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -122,7 +122,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -139,7 +139,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -156,7 +156,7 @@
 			"wide"			"20"
 			"tall"			"40"
 			//	"0"
-			//		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			//	"0"
@@ -219,7 +219,7 @@
 			"wide"			"300"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"

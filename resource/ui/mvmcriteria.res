@@ -538,11 +538,11 @@
 			"labelText"		"#TF_MvM_MannUpNow"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"command" "mann_up_now"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 	}
 

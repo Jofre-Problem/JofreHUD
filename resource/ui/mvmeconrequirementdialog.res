@@ -9,10 +9,10 @@
 		"wide"			"300"
 		"tall"			"240"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 	}
@@ -29,8 +29,8 @@
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"30"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -48,7 +48,7 @@
 		"wide"			"220"
 		"tall"			"170"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -82,7 +82,7 @@
 		"wide"			"175"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -90,11 +90,11 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"proportionaltoparent"	"1"
 	}			
 }

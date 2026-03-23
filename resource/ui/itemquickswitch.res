@@ -9,7 +9,7 @@
 		"wide"			"325"
 		"tall"			"f10"
 		zpos		10000
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		//	"0"
@@ -95,8 +95,8 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -128,7 +128,7 @@
 		"wide"			"20"
 		"tall"			"24"
 		fgcolor_override "G_Brown"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -137,7 +137,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"G_FontSmall"
+		"font"			"ItemFontAttribSmallv2"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -146,7 +146,7 @@
 		"wide"			"325"
 		"tall"			"24"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -290,7 +290,7 @@
 		"wide"			"220"
 		"tall"			"30"
 		
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -306,7 +306,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		alpha 100
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"

@@ -8,11 +8,11 @@
 		"ypos"		"c-200"
 		"wide"		"600"
 		"tall"		"400"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"		"0"
 		"border"				"SteamWorkshopBorder"
 	}
@@ -26,11 +26,11 @@
 		"zpos"		"-100"
 		"wide"		"600"
 		"tall"		"400"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"black"
 	}
 
@@ -57,11 +57,11 @@
 		"ypos"		"355"
 		"wide"		"600"
 		"tall"		"45"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"57 52 49 255"
 	}
 
@@ -73,15 +73,15 @@
 		"ypos"		"15"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Title"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontMediumBold"
 	}
@@ -94,15 +94,15 @@
 		"ypos"		"45"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Preview"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
@@ -116,11 +116,11 @@
 		"zpos"		"-99"
 		"wide"		"150"
 		"tall"		"150"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"border"				"SteamWorkshopBorder"
 
 		"PreviewDescription"
@@ -131,15 +131,15 @@
 			"ypos"		"0"
 			"wide"		"140"
 			"tall"		"120"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_PublishFile_PreviewDesc"
 			"textAlignment"		"center"
-			////		"0"
-			////		"0"
+			//
+			//
 			"wrap"		"1"
 			"font"		"HudFontSmallest"
 		}
@@ -164,15 +164,15 @@
 		"ypos"		"225"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Browse"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"PreviewBrowse"
 		"Default"		"1"
@@ -187,15 +187,15 @@
 		"ypos"		"45"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_TitleLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
@@ -208,11 +208,11 @@
 		"ypos"		"70"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -232,15 +232,15 @@
 		"ypos"		"95"
 		"wide"		"275"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_DescLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
@@ -252,11 +252,11 @@
 		"ypos"		"120"
 		"wide"		"250"
 		"tall"		"125"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"8000"
@@ -276,15 +276,15 @@
 		"ypos"		"250"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_FileLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
@@ -297,11 +297,11 @@
 		"ypos"		"250"
 		"wide"		"275"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"labelText"			"#TF_PublishFile_NoFileSelected"
 		"textHidden"		"0"
 		"editable"		"0"
@@ -319,15 +319,15 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Cosmetics"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"MainFileCosmetics"
 		"Default"		"1"
@@ -355,15 +355,15 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Other"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"MainFileOther"
 		"Default"		"1"
@@ -378,15 +378,15 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Maps"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"MainFileMaps"
 		"Default"		"1"
@@ -414,15 +414,15 @@
 		"ypos"		"300"
 		"wide"		"270"
 		"tall"		"55"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_BrowseDesc"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 		"font"		"HudFontSmallest"
 		"fgcolor_override"	"TanDark"
@@ -436,15 +436,15 @@
 		"ypos"		"45"
 		"wide"		"100"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Tags"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallBold"
 	}
@@ -473,10 +473,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -494,10 +494,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -515,10 +515,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -536,10 +536,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -557,10 +557,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -578,10 +578,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -599,10 +599,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -620,10 +620,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -641,10 +641,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -663,10 +663,10 @@
 			"wide"			"75"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -684,10 +684,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -705,10 +705,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -726,10 +726,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -747,10 +747,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -768,10 +768,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -789,10 +789,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -810,10 +810,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -831,10 +831,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -852,10 +852,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -873,10 +873,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -894,10 +894,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -916,10 +916,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -937,10 +937,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -958,10 +958,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -979,10 +979,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1000,10 +1000,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1021,10 +1021,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1042,10 +1042,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1063,10 +1063,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1084,10 +1084,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1105,10 +1105,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1126,10 +1126,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1147,10 +1147,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1168,10 +1168,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1189,10 +1189,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1210,10 +1210,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1231,10 +1231,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1252,10 +1252,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1273,10 +1273,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1294,10 +1294,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1315,10 +1315,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"smallcheckimage" "1"
 			"disabledfgcolor2_override"	"117 107 94 255"
@@ -1333,15 +1333,15 @@
 		"ypos"		"365"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
@@ -1356,15 +1356,15 @@
 		"ypos"		"365"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_Publish"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Publish"
 		"Default"		"1"

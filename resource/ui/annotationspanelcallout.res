@@ -20,20 +20,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"76"
+		"wide"			"6"
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/color_panel_red"	// Reversed, due to showing killer's name
-		"teambg_3"		"../hud/color_panel_blu"	// Reversed, due to showing killer's name
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"		
 	}
 	"CalloutLabel"
 	{	
@@ -43,7 +33,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"autoResize"	"1"
+		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#AnnotationPanel_Callout"
@@ -73,7 +63,7 @@
 		"zpos"			"2"
 		"wide"			"70"
 		"tall"			"10"
-		"autoResize"		"1"
+		//"		"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""

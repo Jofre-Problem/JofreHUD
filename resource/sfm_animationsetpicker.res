@@ -8,8 +8,8 @@
 		"wide"		"421"
 		"tall"		"365"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"AnimationSetBrowser"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"34"
 		"wide"		"414"
 		"tall"		"330"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"FilterList"
 	{
@@ -30,8 +30,8 @@
 		"wide"		"415"
 		"tall"		"24"
 		//		"1"
-		//		"0"
-		//		"0"
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}

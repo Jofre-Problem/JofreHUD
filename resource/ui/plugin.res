@@ -7,9 +7,9 @@
 		"ypos"		"68"
 		"wide"		"460"
 		"tall"		"340"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#Frame_Untitled"
 	}
 	"PluginMenu"
@@ -20,9 +20,9 @@
 		"wide"		"400"
 		"tall"		"330"
 		//		"3"
-		//		"0"
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 	"Rich"
 	{
@@ -32,9 +32,9 @@
 		"wide"		"406"
 		"tall"		"254"
 		//		"3"
-		//		"0"
+		
 		"visible"		"0"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"label"
@@ -45,9 +45,9 @@
 		"wide"		"390"
 		"tall"		"300"
 		//		"3"
-		//		"0"
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		""
 		"textAlignment"		"center"
 	}
@@ -58,9 +58,9 @@
 		"ypos"		"175"
 		"wide"		"300"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"255"
 	}
@@ -71,9 +71,9 @@
 		"ypos"		"144"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Enter something"
 	}
 	"Close"
@@ -83,9 +83,9 @@
 		"ypos"		"294"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
-		//		"0"
+		
 		"labelText"		"#GameUI_Close"
 		"Command"		"close"
 		"Default"		"1"

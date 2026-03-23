@@ -46,7 +46,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"g_fontmedium"
+		"font"			"itemfontnamelarger"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -83,7 +83,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"g_fontmedium"
+		"font"			"itemfontnamelarger"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -200,7 +200,7 @@
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"proportionaltoparent" "1"
-		"font"			"G_FontSmall_2"
+		"font"			"ItemFontAttribSmallv2"
 		"fgcolor"		"White"
 		"bgcolor_override"	"black"
 		"roundedcorners"	"3"

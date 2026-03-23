@@ -7,9 +7,9 @@
 		"ypos"		"325"
 		"wide"		"400"
 		"tall"		"175"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#KBCustomBindingEdit"
 	}
 	"Ok"
@@ -19,9 +19,9 @@
 		"ypos"		"140"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_ok"
 		"Command"		"ok"
 		"Default"		"1"
@@ -33,9 +33,9 @@
 		"ypos"		"140"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_Cancel"
 		"Command"		"close"
 	}
@@ -46,9 +46,9 @@
 		"ypos"		"50"
 		"wide"		"372"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -59,9 +59,9 @@
 		"ypos"		"108"
 		"wide"		"372"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -72,9 +72,9 @@
 		"ypos"		"24"
 		"wide"		"372"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#KBCustomBindingName"
 	}
 	"Label2"
@@ -84,9 +84,9 @@
 		"ypos"		"80"
 		"wide"		"372"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#KBCustomBindingCommand"
 	}
 }

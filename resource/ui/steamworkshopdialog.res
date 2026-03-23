@@ -173,11 +173,11 @@
 		"zpos"			"1"
 		"wide"			"f0"	// disabled
 		"tall"			"f0"	//disabled
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		//"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"Blank"
 	}
 	
@@ -229,8 +229,8 @@
 			"zpos"					"20"
 			"labelText"		""
 			"command"		"cancel"	
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"border"		"noborder"
 			"paintbackground"	"0"
 		
@@ -259,8 +259,8 @@
 			"zpos"					"2000"
 			"labelText"		"Home Server"
 			"command"		"engine toggle cl_mainmenu_safemode; wait 5; exec user/server"	
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"border"		"noborder"
 			"paintbackground"	"1"
 

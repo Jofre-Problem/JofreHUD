@@ -63,7 +63,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NotoBold36"
+			"font"			"NotoBold20"
 			"labelText"		"%title%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -71,7 +71,7 @@
 			"zpos"			"1"
 			"wide"			"450"
 			"tall"			"36"
-			"autoResize"	"1"
+			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"NotoBlack"
@@ -89,7 +89,7 @@
 			"zpos"			"1"
 			"wide"			"450"
 			"tall"			"20"
-			"autoResize"	"1"
+			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -109,8 +109,8 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"prevpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			
 			"paintbackground"	"1"
 		
@@ -144,8 +144,8 @@
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			
 			"paintbackground"	"1"
 		

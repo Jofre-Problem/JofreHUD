@@ -7,9 +7,9 @@
 		"ypos"		"324"
 		"wide"		"500"
 		"tall"		"120"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#ToolSaveChanges"
 	}
 	"PerforceLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"30"
 		"wide"		"464"
 		"tall"		"30"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Open for edit?"
 		"textAlignment"		"center"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"46"
 		"wide"		"464"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		""
 		"textAlignment"		"center"
 	}
@@ -45,9 +45,9 @@
 		"ypos"		"80"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Yes"
 		"textAlignment"		"center"
 		"Command"		"yes"
@@ -60,9 +60,9 @@
 		"ypos"		"80"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"No"
 		"textAlignment"		"center"
 		"Command"		"no"

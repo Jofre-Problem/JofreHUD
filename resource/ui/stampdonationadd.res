@@ -9,10 +9,10 @@
 		"wide"			"450"
 		"tall"			"260"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 	}
@@ -29,8 +29,8 @@
 		"zpos"			"1"
 		"wide"			"450"
 		"tall"			"30"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -48,7 +48,7 @@
 		"wide"			"340"
 		"tall"			"50"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -68,7 +68,7 @@
 		"wide"			"330"
 		"tall"			"170"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -83,11 +83,11 @@
 		"ypos"			"20"
 		"wide"			"150"
 		"tall"			"150"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"scaleImage"		"1"
 	}
 
@@ -99,11 +99,11 @@
 		"ypos"			"95"
 		"wide"			"140"
 		"tall"			"140"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"scaleImage"		"1"
 	}
 
@@ -117,18 +117,18 @@
 		"wide"			"175"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Store_Nope"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"nope"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}			
 
 	"ConfirmButton"
@@ -141,7 +141,7 @@
 		"wide"			"175"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -149,10 +149,10 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"add_stamp_to_cart"
-		"sound_depressed"	"UI/buttonclick.wav"
+		
 		"sound_released"	"UI/vote_success.wav"
 	}
 
@@ -169,7 +169,7 @@
 		"wide"			"100"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"

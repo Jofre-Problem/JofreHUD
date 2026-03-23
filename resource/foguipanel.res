@@ -7,10 +7,10 @@
 		"ypos"		"563"
 		"wide"		"420"
 		"tall"		"360"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"title"		"Fog Panel"
 	}
 	"FogOverride"
@@ -20,10 +20,10 @@
 		"ypos"		"35"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"Fog Override"
 		"Command"		"FogOverride"
 	}
@@ -34,10 +34,10 @@
 		"ypos"		"64"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"Fog Enable"
 		"Command"		"FogEnable"
 	}
@@ -48,10 +48,10 @@
 		"ypos"		"97"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogStartText"
 	{
@@ -60,10 +60,10 @@
 		"ypos"		"97"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"5"
 		"NumericInputOnly"		"1"
@@ -75,10 +75,10 @@
 		"ypos"		"128"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogEndText"
 	{
@@ -87,10 +87,10 @@
 		"ypos"		"128"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"5"
 		"NumericInputOnly"		"1"
@@ -102,10 +102,10 @@
 		"ypos"		"97"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorRedText"
 	{
@@ -114,10 +114,10 @@
 		"ypos"		"97"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -129,10 +129,10 @@
 		"ypos"		"128"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorGreenText"
 	{
@@ -141,10 +141,10 @@
 		"ypos"		"128"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -156,10 +156,10 @@
 		"ypos"		"158"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorBlueText"
 	{
@@ -168,10 +168,10 @@
 		"ypos"		"158"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -183,10 +183,10 @@
 		"ypos"		"170"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"Enable Skybox"
 		"Command"		"FogEnableSky"
 	}
@@ -197,10 +197,10 @@
 		"ypos"		"197"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogStartTextSky"
 	{
@@ -209,10 +209,10 @@
 		"ypos"		"197"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"5"
 		"NumericInputOnly"		"1"
@@ -224,10 +224,10 @@
 		"ypos"		"228"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogEndTextSky"
 	{
@@ -236,10 +236,10 @@
 		"ypos"		"228"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"5"
 		"NumericInputOnly"		"1"
@@ -251,10 +251,10 @@
 		"ypos"		"197"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorRedTextSky"
 	{
@@ -263,10 +263,10 @@
 		"ypos"		"197"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -278,10 +278,10 @@
 		"ypos"		"228"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorGreenTextSky"
 	{
@@ -290,10 +290,10 @@
 		"ypos"		"228"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -305,10 +305,10 @@
 		"ypos"		"258"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FogColorBlueTextSky"
 	{
@@ -317,10 +317,10 @@
 		"ypos"		"258"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"3"
 		"NumericInputOnly"		"1"
@@ -332,10 +332,10 @@
 		"ypos"		"288"
 		"wide"		"109"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"FarZ Override"
 		"Command"		"FarZOverride"
 	}
@@ -346,10 +346,10 @@
 		"ypos"		"318"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 	}
 	"FarZText"
 	{
@@ -358,10 +358,10 @@
 		"ypos"		"318"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"editable"		"1"
 		"maxchars"		"5"
 		"NumericInputOnly"		"1"
@@ -373,10 +373,10 @@
 		"ypos"		"97"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"Start"
 	}
 	"FogStartLabelZero"
@@ -386,10 +386,10 @@
 		"ypos"		"106"
 		"wide"		"6"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"|"
 	}
 	"FogEndLabel"
@@ -399,10 +399,10 @@
 		"ypos"		"128"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"End"
 	}
 	"FogEndLabelZero"
@@ -412,10 +412,10 @@
 		"ypos"		"137"
 		"wide"		"6"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"|"
 	}
 	"FogColorRedLabel"
@@ -425,10 +425,10 @@
 		"ypos"		"97"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"R"
 		"textAlignment"		"center"
 	}
@@ -439,10 +439,10 @@
 		"ypos"		"128"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"G"
 		"textAlignment"		"center"
 	}
@@ -453,10 +453,10 @@
 		"ypos"		"158"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"B"
 		"textAlignment"		"center"
 	}
@@ -467,10 +467,10 @@
 		"ypos"		"197"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"Start"
 	}
 	"FogStartLabelSkyZero"
@@ -480,10 +480,10 @@
 		"ypos"		"206"
 		"wide"		"6"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"|"
 	}
 	"FogEndLabelSky"
@@ -493,10 +493,10 @@
 		"ypos"		"228"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"End"
 	}
 	"FogEndLabelSkyZero"
@@ -506,10 +506,10 @@
 		"ypos"		"237"
 		"wide"		"6"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"|"
 	}
 	"FogColorRedLabelSky"
@@ -519,10 +519,10 @@
 		"ypos"		"197"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"R"
 		"textAlignment"		"center"
 	}
@@ -533,10 +533,10 @@
 		"ypos"		"228"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"G"
 		"textAlignment"		"center"
 	}
@@ -547,10 +547,10 @@
 		"ypos"		"258"
 		"wide"		"16"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"B"
 		"textAlignment"		"center"
 	}
@@ -561,10 +561,10 @@
 		"ypos"		"318"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"labelText"		"FarZ"
 	}
 	"FrameButton"
@@ -574,11 +574,11 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"BuildModeDialog"
@@ -588,10 +588,10 @@
 		"ypos"		"349"
 		"wide"		"319"
 		"tall"		"760"
-		//		"0"
-		//		"0"
+		
+		
 		//"RoundedCorners"		"15"
-		//		"0"
+		
 		"title"		"#Frame_Untitled"
 	}
 }

@@ -7,9 +7,9 @@
 		"ypos"		"0"
 		"wide"		"784"
 		"tall"		"152"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TargetName"
 	{
@@ -20,7 +20,7 @@
 		"tall"		"24"
 		//		"1"
 		//"PinnedCornerOffsetY" "-20"
-		//		"0"
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -32,9 +32,9 @@
 		"ypos"		"3"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Target Name:"
 	}
 	"PositionLabel"
@@ -44,9 +44,9 @@
 		"ypos"		"66"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Location:"
 	}
 	"TargetPositionLabel"
@@ -56,9 +56,9 @@
 		"ypos"		"90"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Position"
 		"textAlignment"		"east"
 	}
@@ -69,8 +69,8 @@
 		"ypos"		"90"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -83,9 +83,9 @@
 		"ypos"		"90"
 		"wide"		"15"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"X"
 	}
 	"PositionYLabel"
@@ -95,9 +95,9 @@
 		"ypos"		"90"
 		"wide"		"15"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Y"
 	}
 	"PositionZLabel"
@@ -107,9 +107,9 @@
 		"ypos"		"90"
 		"wide"		"15"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Z"
 	}
 	"PositionY"
@@ -119,8 +119,8 @@
 		"ypos"		"90"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -133,8 +133,8 @@
 		"ypos"		"90"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -147,9 +147,9 @@
 		"ypos"		"118"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Orientation"
 		"textAlignment"		"east"
 	}
@@ -160,8 +160,8 @@
 		"ypos"		"118"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -174,8 +174,8 @@
 		"ypos"		"118"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -188,8 +188,8 @@
 		"ypos"		"118"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -202,9 +202,9 @@
 		"ypos"		"118"
 		"wide"		"30"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Pitch"
 	}
 	"YawLabel"
@@ -214,9 +214,9 @@
 		"ypos"		"118"
 		"wide"		"30"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Yaw"
 	}
 	"RollLabel"
@@ -226,9 +226,9 @@
 		"ypos"		"118"
 		"wide"		"30"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Roll"
 	}
 	"Divider1"
@@ -240,7 +240,7 @@
 		"tall"		"2"
 		//		"1"
 		//"PinnedCornerOffsetY" "-20"
-		//		"0"
-		//		"0"
+		
+		
 	}
 }

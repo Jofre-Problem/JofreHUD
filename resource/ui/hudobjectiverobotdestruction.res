@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"font"			"HudFontSmall"
 		"fgcolor"		"TanLight"

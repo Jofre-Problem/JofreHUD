@@ -7,9 +7,9 @@
 		"ypos"		"197"
 		"wide"		"328"
 		"tall"		"250"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"ContentStatus"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"30"
 		"wide"		"280"
 		"tall"		"28"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"	"#GameUI_ContentStatusDisabled"
 	}
 	"PasswordPrompt"
@@ -30,9 +30,9 @@
 		"ypos"		"68"
 		"wide"		"166"
 		"tall"		"28"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_PasswordPrompt"
 	}
 	"PasswordReentryPrompt"
@@ -42,9 +42,9 @@
 		"ypos"		"124"
 		"wide"		"166"
 		"tall"		"28"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_PasswordReentryPrompt"
 	}
 	"ContentControlExplain"
@@ -54,9 +54,9 @@
 		"ypos"		"182"
 		"wide"		"272"
 		"tall"		"28"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		""
 	}
 	"Password"
@@ -66,8 +66,8 @@
 		"ypos"		"98"
 		"wide"		"166"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"textHidden"		"1"
 		"editable"		"1"
@@ -80,8 +80,8 @@
 		"ypos"		"154"
 		"wide"		"166"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"textHidden"		"1"
 		"editable"		"1"
@@ -94,8 +94,8 @@
 		"ypos"		"216"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		"#GameUI_OK"
 		"command"		"Ok"
@@ -108,8 +108,8 @@
 		"ypos"		"216"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		"#GameUI_Cancel"
 		"command"		"Cancel"
@@ -121,8 +121,8 @@
 		"ypos"		"51"
 		"wide"		"285"
 		"tall"		"590"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 }

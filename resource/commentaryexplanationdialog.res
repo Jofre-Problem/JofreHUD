@@ -7,9 +7,9 @@
 		"ypos"		"357"
 		"wide"		"400"
 		"tall"		"330"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_CommentaryDialogTitle"
 	}
 	"CommentaryIsOn"
@@ -19,9 +19,9 @@
 		"ypos"		"44"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_Commentary_LabelOn"
 	}
 	"WhatIsCommentary"
@@ -31,9 +31,9 @@
 		"ypos"		"76"
 		"wide"		"320"
 		"tall"		"54"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_Commentary_WhatIs"
 		"wrap"		"1"
 	}
@@ -44,9 +44,9 @@
 		"ypos"		"145"
 		"wide"		"306"
 		"tall"		"58"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_Commentary_HowToUse"
 		"wrap"		"1"
 	}
@@ -57,9 +57,9 @@
 		"ypos"		"210"
 		"wide"		"320"
 		"tall"		"58"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GAMEUI_COMMENTARY_GOD"
 		"wrap"		"1"
 	}
@@ -70,9 +70,9 @@
 		"ypos"		"276"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_ok"
 		"Command"		"ok"
 		"Default"		"1"
@@ -84,9 +84,9 @@
 		"ypos"		"276"
 		"wide"		"88"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#vgui_cancel"
 		"Command"		"cancel"
 		"Default"		"1"

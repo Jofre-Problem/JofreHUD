@@ -9,7 +9,7 @@
 		"wide"			"o1"
 		"tall"			"f0"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"70"

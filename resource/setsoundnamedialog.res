@@ -7,9 +7,9 @@
 		"ypos"		"430"
 		"wide"		"450"
 		"tall"		"210"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Set Sound Name"
 	}
 	"OkButton"
@@ -19,8 +19,8 @@
 		"ypos"		"170"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"labelText"		"#vgui_ok"
 		"Command"		"Ok"
@@ -32,8 +32,8 @@
 		"ypos"		"170"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
@@ -45,9 +45,9 @@
 		"ypos"		"45"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Sound Directory:"
 		"textAlignment"		"east"
 	}
@@ -58,8 +58,8 @@
 		"ypos"		"45"
 		"wide"		"303"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -71,8 +71,8 @@
 		"ypos"		"45"
 		"wide"		"20"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"labelText"		"..."
 		"Command"		"PickSoundDirectory"
@@ -84,9 +84,9 @@
 		"ypos"		"75"
 		"wide"		"90"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"New Sound Name:"
 		"textAlignment"		"east"
 	}
@@ -97,8 +97,8 @@
 		"ypos"		"75"
 		"wide"		"303"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -110,10 +110,10 @@
 		"ypos"		"105"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"selected"		"1"
-		//		"0"
+		
 		"labelText"		"Rename Clips"
 	}
 	"FirstNumber"
@@ -123,8 +123,8 @@
 		"ypos"		"135"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -137,8 +137,8 @@
 		"ypos"		"135"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -151,8 +151,8 @@
 		"ypos"		"135"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -165,9 +165,9 @@
 		"ypos"		"135"
 		"wide"		"40"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"First:"
 		"textAlignment"		"east"
 	}
@@ -178,9 +178,9 @@
 		"ypos"		"135"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Increment:"
 		"textAlignment"		"east"
 	}
@@ -191,9 +191,9 @@
 		"ypos"		"135"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Num Digits:"
 		"textAlignment"		"east"
 	}

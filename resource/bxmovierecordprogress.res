@@ -7,9 +7,9 @@
 		"ypos"		"462"
 		"wide"		"200"
 		"tall"		"100"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxMovieLayoffProgress"
 	}
 	"PercentCompleteLabel"
@@ -19,9 +19,9 @@
 		"ypos"		"20"
 		"wide"		"130"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Percent Complete:  40%"
 	}
 	"TimeRemainingLabel"
@@ -31,9 +31,9 @@
 		"ypos"		"40"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Time Remaining:    63 seconds"
 	}
 	"CancelButton"
@@ -43,9 +43,9 @@
 		"ypos"		"65"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"Command"		"cancel"
 	}

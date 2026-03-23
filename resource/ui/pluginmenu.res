@@ -7,9 +7,9 @@
 		"ypos"		"60"
 		"wide"		"380"
 		"tall"		"350"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"text"
 	{
@@ -19,9 +19,9 @@
 		"wide"		"256"
 		"tall"		"300"
 		//		"3"
-		//		"0"
+		
 		"wrap"			"1"
-		//		"0"
+		
 		"maxchars"		"-1"
 	}
 	"option1"
@@ -31,9 +31,9 @@
 		"ypos"		"30"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
-		//		"1"
+		
+		
+		
 		"labelText"		""
 		"Command"		"option1"
 		"Default"		"1"
@@ -45,8 +45,8 @@
 		"ypos"		"60"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		""
 		"Command"		"option2"
@@ -58,8 +58,8 @@
 		"ypos"		"90"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"3"
 		"labelText"		""
 		"Command"		"option3"
@@ -71,8 +71,8 @@
 		"ypos"		"120"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"4"
 		"labelText"		""
 		"Command"		"option4"
@@ -84,8 +84,8 @@
 		"ypos"		"150"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"5"
 		"labelText"		""
 		"Command"		"option5"
@@ -97,8 +97,8 @@
 		"ypos"		"180"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"6"
 		"labelText"		""
 		"Command"		"option6"
@@ -110,8 +110,8 @@
 		"ypos"		"210"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"7"
 		"labelText"		""
 		"Command"		"option7"
@@ -123,8 +123,8 @@
 		"ypos"		"240"
 		"wide"		"152"
 		"tall"		"20"
-		//		"0"
-		//		"0"
+		
+		
 		//		"8"
 		"labelText"		""
 		"Command"		"option8"

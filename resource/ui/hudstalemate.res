@@ -1,4 +1,5 @@
 #base "ui2/monika.res"
+#base "ui3/base/label1.res.res"
 "Resource/HudStalemate.res"
 {
 "HudStalemateBG"
@@ -10,10 +11,10 @@
 "xpos""5"
 "ypos"	"25"
 }
-"StalemateLabel"
+"GoalLabel"
 {
 "ControlName""Label"
-"fieldName""StalemateLabel"
+"fieldName""GoalLabel"
 "font""itemfontnamesmall"
 "xpos""cs-0.5"
 "ypos""50"

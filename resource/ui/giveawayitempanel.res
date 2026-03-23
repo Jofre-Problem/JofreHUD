@@ -416,13 +416,13 @@
 		"ypos"		"rs1"
 		"wide"		"100"
 		"tall"		"100"
-		//		"0"
-		//		"0"
+		
+		
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"logos/UI/spray"
 		"border"		"DepressedBorder"
 		"scaleImage"		"1"

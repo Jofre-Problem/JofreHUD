@@ -8,8 +8,8 @@
 		"ypos"		"28"
 		"wide"		"148"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -17,8 +17,8 @@
 		//		"1"
 		"labelText"		"#GameUI_PortalFunnel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -34,8 +34,8 @@
 		"ypos"		"106"
 		"wide"		"175"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -55,17 +55,17 @@
 		"ypos"		"31"
 		"wide"		"320"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_PortalFunnelLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -80,18 +80,18 @@
 		"ypos"		"82"
 		"wide"		"179"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_PortalDepthLabel"
 		"textAlignment"		"west"
 		"associate"		"PortalDepth"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		

@@ -9,11 +9,11 @@
 		"zpos"			"10000"
 		"wide"			"f0"
 		"tall"			"480"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"	"0"
 		//
 		"bgcolor_override"	"Graydark"
@@ -120,7 +120,7 @@
 		"wide"			"f0"
 		"tall"			"35"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -138,7 +138,7 @@
 		"wide"			"f0"
 		"tall"			"35"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -156,7 +156,7 @@
 		"wide"			"100"
 		"tall"			"10"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -173,7 +173,7 @@
 		"wide"			"120"
 		"tall"			"40"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -388,11 +388,11 @@
 		"labelText"		"#NextItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"nextitem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"PrevButton"
 	{
@@ -411,11 +411,11 @@
 		"labelText"		"#PreviousItem"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"previtem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"CloseButton"
@@ -435,12 +435,12 @@
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"vguicancel"
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"OpenLoadoutButton"
 	{
@@ -459,11 +459,11 @@
 		"labelText"		"%loadouttext%"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"Command"		"changeloadout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"DiscardButton"
@@ -476,18 +476,18 @@
 		"wide"			"20"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"ь"
 		"font"			"itemfontnamesmall"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		paintBackgroundtype 2
 		"Command"		"discarditem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 
 		"defaultBgColor_override" "117 107 94 255"
 		"armedBgColor_override" "145 73 59 255"
@@ -538,7 +538,7 @@
 			"wide"			"80"
 			"tall"			"50"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
@@ -559,7 +559,7 @@
 		"wide"			"420"
 		"tall"			"60"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -574,11 +574,11 @@
 		"ypos"				"380"
 		"wide"				"200"
 		"tall"				"16"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		//		"0"
+		
 		"textHidden"		"0"
 		"editable"			"1"
 		"maxchars"			"5"

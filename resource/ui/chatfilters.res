@@ -18,9 +18,9 @@
 		"ypos"			"5"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_joinleave"
 	}
 	"namechange_button"
@@ -30,9 +30,9 @@
 		"ypos"			"15"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_namechange"
 	}
 	"publicchat_button"
@@ -42,9 +42,9 @@
 		"ypos"			"25"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_publicchat"
 	}
 	"servermsg_button"
@@ -54,9 +54,9 @@
 		"ypos"			"35"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_servermsg"
 	}
 	"teamchange_button"
@@ -66,9 +66,9 @@
 		"ypos"			"45"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_teamchange"
 	}
 	
@@ -79,9 +79,9 @@
 		"ypos"			"55"
 		"wide"			"150"
 		"tall"			"10"
-		//		"1"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#filter_achievement"
 	}
 }

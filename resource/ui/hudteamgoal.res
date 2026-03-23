@@ -1,3 +1,4 @@
+#base "ui3/base/label1.res"
 "Resource/UI/HudTeamGoal.res"
 {
 	"HudTeamGoalBG"
@@ -16,8 +17,8 @@
 		"zpos"			"1"
 		"wide"			"220"
 		"tall"			"15"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 	//	"wrap"			"1"
@@ -26,30 +27,6 @@
 	}
 	"GoalLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"GoalLabel"
-		"font"			"Noto10"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"f0"
-		//	"200"
-		//		"230"
-		"tall"			"55"
-		//"tall_lodef"	"60"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-	//"wrap"			"1"
-		"labelText"		""
 		"textAlignment"		"center"
-	}
-	"GoalImage"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"GoalImage"
-"visible"	"1"
-		"xpos"	"9990"
 	}
 }

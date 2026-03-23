@@ -1,3 +1,4 @@
+#base "demouipanel2.res"
 "Resource\DemoUIPanel.res"
 {
 	"DemoUIPanel"
@@ -7,24 +8,21 @@
 		"ypos"		"379"
 		"wide"		"302"
 		"tall"		"224"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Demo Playback"
 	}
 	"DemoPlayPauseResume"
 	{
-		"ControlName"		"Button"
+
 		"xpos"		"123"
 		"ypos"		"116"
-		"wide"		"58"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"Play"
-		"Command"		"play"
-		"Default"		"1"
+
+		
+		
+		
+
 	}
 	"DemoStop"
 	{
@@ -32,25 +30,18 @@
 		"xpos"		"254"
 		"ypos"		"32"
 		"wide"		"38"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"Stop"
-		"Command"		"stop"
+
+
 	}
 	"DemoLoad"
 	{
-		"ControlName"		"Button"
+
 		"xpos"		"12"
 		"ypos"		"32"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"Load..."
-		"Command"		"load"
+		
+		
 	}
 	"DemoEdit"
 	{
@@ -59,9 +50,9 @@
 		"ypos"		"192"
 		"wide"		"62"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Edit..."
 		"Command"		"edit"
 	}
@@ -72,9 +63,9 @@
 		"ypos"		"192"
 		"wide"		"72"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Smooth..."
 		"Command"		"smooth"
 	}
@@ -85,86 +76,58 @@
 		"ypos"		"192"
 		"wide"		"62"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Drive..."
 		"Command"		"drive"
 	}
 	"DemoGoStart"
 	{
-		"ControlName"		"Button"
+
 		"xpos"		"12"
 		"ypos"		"116"
-		"wide"		"32"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"|<"
-		"Command"		"reload"
+
+		
+
 	}
 	"DemoGoEnd"
 	{
-		"ControlName"		"Button"
+	
 		"xpos"		"260"
 		"ypos"		"116"
-		"wide"		"32"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		">|"
+	
+
 	}
 	"DemoFastForward"
 	{
-		"ControlName"		"Button"
+	
 		"xpos"		"224"
 		"ypos"		"116"
-		"wide"		"32"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		">>"
+
 	}
 	"DemoFastBackward"
 	{
-		"ControlName"		"Button"
+		
 		"xpos"		"50"
 		"ypos"		"116"
-		"wide"		"32"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"<<"
+
 	}
 	"DemoPrevFrame"
 	{
-		"ControlName"		"Button"
+	
 		"xpos"		"86"
 		"ypos"		"116"
-		"wide"		"24"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"<"
-		"Command"		"prevframe"
+
+		
+	
 	}
 	"DemoNextFrame"
 	{
-		"ControlName"		"Button"
+		
 		"xpos"		"196"
 		"ypos"		"116"
-		"wide"		"24"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		">"
-		"Command"		"nextframe"
+
 	}
 	"DemoName"
 	{
@@ -173,9 +136,9 @@
 		"ypos"		"32"
 		"wide"		"176"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"DemoProgress"
 	{
@@ -184,45 +147,32 @@
 		"ypos"		"94"
 		"wide"		"280"
 		"tall"		"13"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"progress"		"0.000000"
 	}
 	"DemoProgressLabelFrame"
 	{
-		"ControlName"		"Label"
-		"xpos"		"12"
+
 		"ypos"		"148"
-		"wide"		"116"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"brighttext"		"1"
+
 	}
 	"DemoProgressLabelTime"
 	{
-		"ControlName"		"Label"
+
 		"xpos"		"13"
 		"ypos"		"64"
-		"wide"		"116"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"brighttext"		"1"
+
 	}
 	"DemoSpeedScale"
 	{
-		"ControlName"		"Slider"
+
 		"xpos"		"140"
-		"ypos"		"64"
-		"wide"		"98"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+
+		
+		
+		
 	}
 	"SpeedScale"
 	{
@@ -231,9 +181,9 @@
 		"ypos"		"64"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"100.00 %"
 	}
 	"DemoGo"
@@ -243,9 +193,9 @@
 		"ypos"		"148"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Goto:"
 		"Command"		"gototick"
 	}
@@ -256,9 +206,9 @@
 		"ypos"		"148"
 		"wide"		"60"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -269,10 +219,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"FrameButton"
@@ -282,10 +232,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"MinimiseToSysTray"
@@ -295,10 +245,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"Command"		"MinimizeToSysTray"
 	}

@@ -111,7 +111,7 @@
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
-		"autoResize"	"1"
+		//"	"1"
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -157,7 +157,7 @@
 		//
 		
 		"Command"		"ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

@@ -7,9 +7,9 @@
 		"ypos"		"256"
 		"wide"		"384"
 		"tall"		"256"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_BenchmarkResults_Title"
 	}
 	"UploadCheck"
@@ -19,8 +19,8 @@
 		"ypos"		"177"
 		"wide"		"300"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"1"
 		"labelText"		"#GameUI_BenchmarkResults_UploadNow"
 	}
@@ -31,8 +31,8 @@
 		"ypos"		"217"
 		"wide"		"82"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//		"2"
 		"labelText"		"#vgui_close"
 		"Command"		"Close"
@@ -44,9 +44,9 @@
 		"ypos"		"40"
 		"wide"		"320"
 		"tall"		"120"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_BenchmarkResults_Info"
 		"wrap"		"1"
 	}

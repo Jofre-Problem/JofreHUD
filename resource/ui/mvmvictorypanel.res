@@ -23,7 +23,7 @@
 			"wide"			"530"
 			"tall"			"230"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
@@ -96,7 +96,7 @@
 			"ypos"			"90"
 			"wide"			"400"
 			"tall"			"70"
-			"autoResize"	"1"
+			//"	"1"
 			"visible"		"1"
 		}
 
@@ -108,7 +108,7 @@
 			"ypos"			"80"
 			"wide"			"400"
 			"tall"			"400"
-			"autoResize"	"1"
+			//"	"1"
 			"visible"		"1"
 			
 			"RatingLabel"
@@ -162,7 +162,7 @@
 			"ypos"			"135"
 			"wide"			"400"
 			"tall"			"70"
-			"autoResize"	"1"
+			//"	"1"
 			"visible"		"1"
 		}
 	}
@@ -183,11 +183,11 @@
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		
 		"image_drawcolor"	"235 226 202 255"
 		"Command"		"done"

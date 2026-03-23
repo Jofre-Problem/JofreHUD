@@ -7,9 +7,9 @@
 		"ypos"		"107"
 		"wide"		"480"
 		"tall"		"460"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#GameUI_SaveGame"
 	}
 	"listpanel_loadgame"
@@ -20,7 +20,7 @@
 		"wide"		"444"
 		"tall"		"344"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 	}
 	"LoadSave"
@@ -30,7 +30,7 @@
 		"ypos"		"422"
 		"wide"		"82"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		//		"2"
 		"labelText"		"#GameUI_Save"
@@ -44,7 +44,7 @@
 		"ypos"		"422"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"3"
 		//		"3"
 		"labelText"		"#GameUI_Cancel"
@@ -57,9 +57,9 @@
 		"ypos"		"28"
 		"wide"		"426"
 		"tall"		"44"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"#GameUI_SaveGameHelp"
 		"wrap"		"1"
 	}

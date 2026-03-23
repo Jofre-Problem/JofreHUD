@@ -1,4 +1,9 @@
-//	#base	"../../../_stream/custom/resource/ui/destroy_menu/tele_entrance_inactive.res"
-	#base	"../../../_jofrenew/resource/ui/destroy_menu/tele_entrance_inactive.res"
-//	#base	"../../../_opt/resource/ui/destroy_menu/tele_entrance_inactive.res"
-//	#base	"../../../z_tf2/resource/ui/destroy_menu/tele_entrance_inactive.res"
+#base "base_inactive.res"
+
+"Resource/UI/build_menu/tele_entrance_inactive.res"
+{
+  "SmallBuildingIcon"
+	{
+		"icon"			"obj_status_tele_entrance"
+	}
+}

@@ -7,9 +7,9 @@
 		"ypos"		"217"
 		"wide"		"400"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TopGrip"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"0"
 		"wide"		"384"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomGrip"
 	{
@@ -29,9 +29,9 @@
 		"ypos"		"295"
 		"wide"		"374"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LeftGrip"
 	{
@@ -40,9 +40,9 @@
 		"ypos"		"8"
 		"wide"		"5"
 		"tall"		"284"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"RightGrip"
 	{
@@ -51,9 +51,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TopLeftGrip"
 	{
@@ -62,9 +62,9 @@
 		"ypos"		"0"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomLeftGrip"
 	{
@@ -73,9 +73,9 @@
 		"ypos"		"292"
 		"wide"		"8"
 		"tall"		"8"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomRightGrip"
 	{
@@ -84,9 +84,9 @@
 		"ypos"		"282"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"CaptionGrip"
 	{
@@ -95,9 +95,9 @@
 		"ypos"		"0"
 		"wide"		"390"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"MinimizeButton"
 	{
@@ -106,10 +106,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"0"
 	}
 	"FrameButton"
@@ -119,10 +119,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"MinimiseToSysTray"
@@ -132,10 +132,10 @@
 		"ypos"		"0"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"o"
 		"command"		"MinimizeToSysTray"
 	}
@@ -146,9 +146,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"r"
 	}
 	"MenuButton"
@@ -158,9 +158,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"OK"
 	{
@@ -169,9 +169,9 @@
 		"ypos"		"255"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"OK"
 		"Default"		"1"
 		"command"		"OK"
@@ -183,9 +183,9 @@
 		"ypos"		"255"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"command"		"Cancel"
 	}
@@ -196,9 +196,9 @@
 		"ypos"		"37"
 		"wide"		"251"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -209,9 +209,9 @@
 		"ypos"		"70"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -222,9 +222,9 @@
 		"ypos"		"70"
 		"wide"		"143"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"ZoomFOV"
@@ -234,9 +234,9 @@
 		"ypos"		"101"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -247,9 +247,9 @@
 		"ypos"		"129"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -260,9 +260,9 @@
 		"ypos"		"157"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -273,9 +273,9 @@
 		"ypos"		"184"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -286,9 +286,9 @@
 		"ypos"		"101"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Spline"
 	}
 	"ZoomStayout"
@@ -298,9 +298,9 @@
 		"ypos"		"129"
 		"wide"		"100"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Stay Out"
 	}
 	"Label1"
@@ -310,9 +310,9 @@
 		"ypos"		"37"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Name:"
 	}
 	"Label2"
@@ -322,9 +322,9 @@
 		"ypos"		"70"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Start on:"
 	}
 	"Label3"
@@ -334,9 +334,9 @@
 		"ypos"		"101"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Final FOV:"
 	}
 	"Label4"
@@ -346,9 +346,9 @@
 		"ypos"		"129"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Zoom In Time"
 	}
 	"Label5"
@@ -358,9 +358,9 @@
 		"ypos"		"157"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Zoom Out Time"
 	}
 	"Label6"
@@ -370,9 +370,9 @@
 		"ypos"		"185"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hold Time:"
 	}
 }

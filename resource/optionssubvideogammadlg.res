@@ -8,11 +8,11 @@
 		"ypos"		"312"
 		"wide"		"290"
 		"tall"		"396"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"		"1"
 		"title"		"#GameUI_AdjustGamma_Title"
 	}
@@ -24,8 +24,8 @@
 		"ypos"		"112"
 		"wide"		"200"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"1"
@@ -40,15 +40,15 @@
 		"ypos"		"88"
 		"wide"		"108"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_Gamma"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	"GammaEntry"
@@ -59,8 +59,8 @@
 		"ypos"		"114"
 		"wide"		"44"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"2"
@@ -78,15 +78,15 @@
 		"ypos"		"356"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
 		"labelText"		"#vgui_ok"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Default"		"1"
 	}
@@ -99,11 +99,11 @@
 		"zpos"		"-1"
 		"wide"		"256"
 		"tall"		"192"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"image"		"gamma"
 		"scaleImage"		"0"
 	}
@@ -115,15 +115,15 @@
 		"ypos"		"356"
 		"wide"		"80"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
 		"labelText"		"#vgui_Cancel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
@@ -136,15 +136,15 @@
 		"ypos"		"36"
 		"wide"		"264"
 		"tall"		"53"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_GammaInfo"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 	}
 }

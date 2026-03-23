@@ -9,7 +9,7 @@
 		"wide"			"1"
 		"tall"			"1"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"

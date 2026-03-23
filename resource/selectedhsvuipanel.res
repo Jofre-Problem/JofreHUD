@@ -7,9 +7,9 @@
 		"ypos"		"42"
 		"wide"		"155"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"SelectionButton"
@@ -28,9 +28,9 @@
 		"ypos"		"77"
 		"wide"		"192"
 		"tall"		"144"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LabelHue"
 	{
@@ -39,9 +39,9 @@
 		"ypos"		"262"
 		"wide"		"64"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Hue:"
 	}
 	"HueSlider"
@@ -51,9 +51,9 @@
 		"ypos"		"262"
 		"wide"		"160"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"leftText"		"-360"
 		"rightText"		"360"
 	}
@@ -64,9 +64,9 @@
 		"ypos"		"298"
 		"wide"		"64"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Saturation:"
 	}
 	"SaturationSlider"
@@ -76,9 +76,9 @@
 		"ypos"		"298"
 		"wide"		"160"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"leftText"		"-255"
 		"rightText"		"255"
 	}
@@ -89,9 +89,9 @@
 		"ypos"		"334"
 		"wide"		"64"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Value:"
 	}
 	"ValueSlider"
@@ -101,9 +101,9 @@
 		"ypos"		"334"
 		"wide"		"160"
 		"tall"		"34"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"leftText"		"-255"
 		"rightText"		"255"
 	}
@@ -115,9 +115,9 @@
 		"ypos"				"370"
 		"wide"				"64"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Tolerance:"
 	}
 	"ToleranceSlider"
@@ -127,9 +127,9 @@
 		"ypos"				"370"
 		"wide"				"160"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}
@@ -142,9 +142,9 @@
 		"ypos"				"406"
 		"wide"				"64"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Fuzziness:"
 	}
 	"FuzzinessSlider"
@@ -154,9 +154,9 @@
 		"ypos"				"406"
 		"wide"				"160"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}
@@ -169,9 +169,9 @@
 		"ypos"				"442"
 		"wide"				"64"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Blend Factor:"
 	}
 	"BlendFactorSlider"
@@ -181,9 +181,9 @@
 		"ypos"				"442"
 		"wide"				"160"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"leftText"			"0"
 		"rightText"			"255"
 	}
@@ -196,9 +196,9 @@
 		"ypos"				"226"
 		"wide"				"96"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Colorize"
 	}
 
@@ -209,9 +209,9 @@
 		"ypos"				"226"
 		"wide"				"128"
 		"tall"				"34"
-		//		"0"
+		
 		//			"0"
-		//		"0"
+		
 		"labelText"			"Invert Selection"
 	}
 }

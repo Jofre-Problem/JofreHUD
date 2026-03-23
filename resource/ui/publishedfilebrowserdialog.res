@@ -8,11 +8,11 @@
 		"ypos"		"0"
 		"wide"		"600"
 		"tall"		"292"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"		"1"
 		"Title"		"#TF_PublishedFiles_Browse"
 		"border"				"QuickplayBorder"
@@ -27,11 +27,11 @@
 		"zpos"		"-100"
 		"wide"		"600"
 		"tall"		"292"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"40 37 37 255"
 	}
 
@@ -43,15 +43,15 @@
 		"ypos"		"32"
 		"wide"		"180"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishedFiles_Files"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 
@@ -63,14 +63,14 @@
 		"ypos"		"56"
 		"wide"		"300"
 		"tall"		"180"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 	
@@ -82,15 +82,15 @@
 		"ypos"		"32"
 		"wide"		"180"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_TitleLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 	}
 
@@ -102,14 +102,14 @@
 		"ypos"		"56"
 		"wide"		"250"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"labelText"		""
 		// "editable"		"0"
@@ -124,15 +124,15 @@
 		"ypos"		"100"
 		"wide"		"180"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishFile_DescLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 	}
 
@@ -144,14 +144,14 @@
 		"ypos"		"124"
 		"wide"		"250"
 		"tall"		"112"
-		//"autoResize"		"0"
-		//		"1"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		"wrap"		"1"
 		"labelText"		""
 		//"editable"		"0"
@@ -166,15 +166,15 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishedFiles_Add"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"AddFile"
 		"Default"		"0"
@@ -188,15 +188,15 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishedFiles_Delete"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"DeleteFile"
 		"Default"		"0"
@@ -210,15 +210,15 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishedFiles_Edit"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"EditFile"
 		"Default"		"0"
@@ -232,15 +232,15 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_PublishedFiles_Refresh"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Refresh"
 		"Default"		"0"
@@ -254,15 +254,15 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_CLOSE"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"

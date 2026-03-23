@@ -53,7 +53,7 @@
 		"wide"			"100"
 		"tall"			"38"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -73,7 +73,7 @@
 		"wide"			"138"
 		"tall"			"38"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"

@@ -9,8 +9,8 @@
 		"tooltiptext"		"#GameUI_ReverseMouseLabel"
 		"wide"		"150"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -18,8 +18,8 @@
 		//		"1"
 		"labelText"		"#GameUI_ReverseMouse"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -37,8 +37,8 @@
 		"tooltiptext"		"#GameUI_MouseFilterLabel"
 		"wide"		"150"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -46,8 +46,8 @@
 		//		"2"
 		"labelText"		"#GameUI_MouseFilter"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -65,17 +65,17 @@
 		"tooltiptext"		"#GameUI_MouseRaw_Hint"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_MouseRaw"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -93,18 +93,18 @@
 		"tooltiptext"		"#GameUI_MouseAcceleration_Hint"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"	[!$OSX]
 		"enabled"		"0" [$OSX]
-		//		"0"
+		
 		"labelText"		"#GameUI_MouseAcceleration"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -121,8 +121,8 @@
 		"ypos"		"148"
 		"wide"		"226"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -130,8 +130,8 @@
 		//		"5"
 		"labelText"		"#GameUI_JoystickLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -148,8 +148,8 @@
 		"ypos"		"202"
 		"wide"		"296"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -157,8 +157,8 @@
 		//		"6"
 		"labelText"		"#GameUI_JoystickSouthpaw"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -175,8 +175,8 @@
 		"ypos"		"176"
 		"wide"		"296"
 		"tall"		"28"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -184,8 +184,8 @@
 		//		"1"
 		"labelText"		"#GameUI_ReverseJoystick"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -202,8 +202,8 @@
 		"ypos"		"167"
 		"wide"		"148"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"0"
@@ -211,8 +211,8 @@
 		//		"4"
 		"labelText"		"#GameUI_HudQuickInfo"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		"textinsetx"		"6"
@@ -229,13 +229,13 @@
 		"ypos"		"40"
 		"wide"		"200"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"leftText"		"#GameUI_Low"
 		"rightText"		"#GameUI_High"
 	}
@@ -247,8 +247,8 @@
 		"ypos"		"40"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -269,14 +269,14 @@
 		"tooltiptext"		"#GameUI_MouseAccelerationAmount_Hint"
 		"wide"		"200"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"	[!$OSX]
 		"enabled"		"0" [$OSX]
-		//		"0"
+		
 		"leftText"		"Low"
 		"rightText"		"High"
 	}
@@ -289,14 +289,14 @@
 		"tooltiptext"		"#GameUI_MouseAccelerationAmount_Hint"
 		"wide"		"50"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"	[!$OSX]
 		"enabled"		"0" [$OSX]
-		//		"0"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -311,13 +311,13 @@
 		"ypos"		"237"
 		"wide"		"186"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"0"
+		
 		"leftText"		"#GameUI_Low"
 		"rightText"		"#GameUI_High"
 	}
@@ -329,18 +329,18 @@
 		"ypos"		"235"
 		"wide"		"148"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_JoystickLookSpeedYaw"
 		"textAlignment"		"west"
 		"associate"		"Slider"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -356,13 +356,13 @@
 		"ypos"		"274"
 		"wide"		"186"
 		"tall"		"40"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"0"
+		
 		"leftText"		"#GameUI_Low"
 		"rightText"		"#GameUI_High"
 	}
@@ -374,18 +374,18 @@
 		"ypos"		"270"
 		"wide"		"148"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"0"
+		
 		"labelText"		"#GameUI_JoystickLookSpeedPitch"
 		"textAlignment"		"west"
 		"associate"		"Slider"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -401,8 +401,8 @@
 		"ypos"		"179"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -422,8 +422,8 @@
 		"ypos"		"256"
 		"wide"		"48"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
@@ -443,18 +443,18 @@
 		"ypos"		"40"
 		"wide"		"148"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_MouseSensitivity"
 		"textAlignment"		"west"
 		"associate"		"Slider"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -470,17 +470,17 @@
 		"ypos"		"167"
 		"wide"		"301"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_HudQuickInfo_Info"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		
 		
@@ -496,12 +496,12 @@
 		"ypos"		"140"
 		"wide"		"396"
 		"tall"		"2"
-		//		"0"
-		//		"0"
+		
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 	}
 }

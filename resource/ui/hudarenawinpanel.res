@@ -1,3 +1,4 @@
+#base "_tf2hud/hudarenawinpanel.res"
 "Resource/UI/arenawinpanel.res" 
 {
 	"ArenaWinPanelScores"

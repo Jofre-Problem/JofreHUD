@@ -100,11 +100,11 @@
 		"ypos"			"c-52-70"
 		"wide"			"530"
 		"tall"			"150"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		////	"0"
-		"autoresize"	"3"
+		//"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"
 	}
@@ -128,8 +128,8 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"135"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_brown"
@@ -218,8 +218,8 @@
 			"tall"			"32"
 			"zpos"			"20"
 			"alpha"			"255"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"250 250 250 0"
@@ -240,8 +240,8 @@
 			"tall"			"32"
 			"zpos"			"20"
 			"alpha"			"255"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"250 250 250 0"

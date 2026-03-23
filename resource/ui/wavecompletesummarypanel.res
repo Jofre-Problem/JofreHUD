@@ -216,7 +216,7 @@
 		"wide"			"250"
 		"tall"			"25"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"

@@ -7,9 +7,9 @@
 		"ypos"		"261"
 		"wide"		"400"
 		"tall"		"300"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Commands"
 	{
@@ -18,9 +18,9 @@
 		"ypos"		"106"
 		"wide"		"298"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -31,9 +31,9 @@
 		"ypos"		"0"
 		"wide"		"378"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomGrip"
 	{
@@ -42,9 +42,9 @@
 		"ypos"		"295"
 		"wide"		"378"
 		"tall"		"5"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"LeftGrip"
 	{
@@ -53,9 +53,9 @@
 		"ypos"		"11"
 		"wide"		"5"
 		"tall"		"278"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"RightGrip"
 	{
@@ -64,9 +64,9 @@
 		"ypos"		"11"
 		"wide"		"5"
 		"tall"		"278"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TopLeftGrip"
 	{
@@ -75,9 +75,9 @@
 		"ypos"		"0"
 		"wide"		"11"
 		"tall"		"11"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TopRightGrip"
 	{
@@ -86,9 +86,9 @@
 		"ypos"		"0"
 		"wide"		"11"
 		"tall"		"11"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomLeftGrip"
 	{
@@ -97,9 +97,9 @@
 		"ypos"		"289"
 		"wide"		"11"
 		"tall"		"11"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"BottomRightGrip"
 	{
@@ -108,9 +108,9 @@
 		"ypos"		"289"
 		"wide"		"11"
 		"tall"		"11"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Caption"
 	{
@@ -119,9 +119,9 @@
 		"ypos"		"4"
 		"wide"		"390"
 		"tall"		"23"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Minimize"
 	{
@@ -130,9 +130,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"0"
 	}
 	"Maximize"
@@ -142,10 +142,10 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"1"
 	}
 	"Close"
@@ -155,9 +155,9 @@
 		"ypos"		"8"
 		"wide"		"18"
 		"tall"		"18"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"r"
 	}
 	"SysMenu"
@@ -167,10 +167,10 @@
 		"ypos"		"0"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 	"OK"
 	{
@@ -179,9 +179,9 @@
 		"ypos"		"146"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"OK"
 		"command"		"OK"
 	}
@@ -192,9 +192,9 @@
 		"ypos"		"146"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Cancel"
 		"command"		"Cancel"
 	}
@@ -205,9 +205,9 @@
 		"ypos"		"37"
 		"wide"		"251"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -218,9 +218,9 @@
 		"ypos"		"70"
 		"wide"		"103"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -231,9 +231,9 @@
 		"ypos"		"70"
 		"wide"		"143"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"Label1"
@@ -243,9 +243,9 @@
 		"ypos"		"37"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Name:"
 	}
 	"Label2"
@@ -255,9 +255,9 @@
 		"ypos"		"70"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Start on:"
 	}
 	"topHorizLeft"
@@ -267,10 +267,10 @@
 		"ypos"		"-11"
 		"wide"		"14"
 		"tall"		"16"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"94"
 	}
 	"topVertLeft"
@@ -280,10 +280,10 @@
 		"ypos"		"-7"
 		"wide"		"7"
 		"tall"		"16"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"2"
 	}
 	"bottomHorizRight"
@@ -293,10 +293,10 @@
 		"ypos"		"22"
 		"wide"		"7"
 		"tall"		"16"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"2"
 	}
 	"bottomVertRight"
@@ -306,10 +306,10 @@
 		"ypos"		"154"
 		"wide"		"7"
 		"tall"		"16"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 		"labelText"		"2"
 	}
 	"Label3"
@@ -319,9 +319,9 @@
 		"ypos"		"106"
 		"wide"		"75"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Commands:"
 	}
 }

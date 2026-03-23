@@ -45,7 +45,7 @@
 			"wide"			"140"
 			"tall"			"60"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
@@ -67,8 +67,8 @@
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"60"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
@@ -86,8 +86,8 @@
 		"zpos"			"-1"
 		"wide"			"84"
 		"tall"			"64"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground" "0"
@@ -151,8 +151,8 @@
 		"zpos"			"-1"
 		"wide"			"84"
 		"tall"			"64"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground" "0"
@@ -216,8 +216,8 @@
 		"zpos"			"-1"
 		"wide"			"380"
 		"tall"			"32"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "0 0 0 255"
@@ -235,8 +235,8 @@
 		"zpos"			"0"
 		"wide"			"185"
 		"tall"			"32"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
@@ -253,8 +253,8 @@
 		"ypos"			"94"
 		"wide"			"180"
 		"tall"			"24"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
@@ -273,8 +273,8 @@
 		"zpos"			"-1"
 		"wide"			"380"
 		"tall"			"32"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override" "0 0 0 255"
@@ -292,8 +292,8 @@
 		"zpos"			"0"
 		"wide"			"185"
 		"tall"			"32"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "117 107 94 255"
@@ -307,11 +307,11 @@
 		"ypos"				"134"
 		"wide"				"180"
 		"tall"				"24"
-		"autoResize"		"1"
+		//"		"1"
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		//		"0"
+		
 		"textHidden"		"0"
 		"editable"			"1"
 		"maxchars"			"32"
@@ -338,8 +338,8 @@
 		"zpos"			"0"
 		"wide"			"400"
 		"tall"			"20"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
@@ -362,12 +362,12 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"OkButton"
@@ -387,11 +387,11 @@
 		"labelText"		"#CraftNameOk"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"apply"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

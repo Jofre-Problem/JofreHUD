@@ -12,7 +12,7 @@
 		"wide"			"f20"
 		"tall"			"30"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -33,7 +33,7 @@
 		"wide"			"f20"
 		"tall"			"135"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -51,21 +51,21 @@
 		"zpos"			"10"
 		"wide"			"24"
 		"tall"			"20"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"close"
 		"proportionaltoparent"	"1"
-		//		"0"
+		
 			
 		"paintbackground"	"0"
 			
@@ -107,11 +107,11 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"prevexplanation"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"
@@ -155,11 +155,11 @@
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"nextexplanation"
 		"proportionaltoparent"	"1"
 		"skip_autoresize"	"1"

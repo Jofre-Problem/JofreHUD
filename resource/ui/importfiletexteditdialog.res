@@ -51,15 +51,15 @@
 		"ypos"		"325"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"
@@ -74,15 +74,15 @@
 		"ypos"		"325"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Done"
 		"Default"		"0"

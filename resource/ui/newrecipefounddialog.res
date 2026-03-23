@@ -26,7 +26,7 @@
 		"wide"			"400"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -66,7 +66,7 @@
 			"wide"			"140"
 			"tall"			"100"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
@@ -93,11 +93,11 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

@@ -7,9 +7,9 @@
 		"ypos"		"250"
 		"wide"		"300"
 		"tall"		"154"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#BxCreateAnimationSet"
 	}
 	"setname"
@@ -20,8 +20,8 @@
 		"wide"		"200"
 		"tall"		"24"
 		//		"1"
-		//		"0"
-		//		"0"
+		
+		
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"93"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Create Model At Camera"
 	}
 	"modelname"
@@ -44,9 +44,9 @@
 		"ypos"		"36"
 		"wide"		"200"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"maxchars"		"-1"
 	}
 	"OkButton"
@@ -56,9 +56,9 @@
 		"ypos"		"124"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#vgui_ok"
 		"Command"		"Ok"
 	}
@@ -69,9 +69,9 @@
 		"ypos"		"124"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
 	}
@@ -82,9 +82,9 @@
 		"ypos"		"66"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Name:"
 		"textAlignment"		"east"
 	}
@@ -95,9 +95,9 @@
 		"ypos"		"36"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Model Name:"
 		"textAlignment"		"east"
 	}

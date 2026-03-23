@@ -7,9 +7,9 @@
 		"ypos"		"698"
 		"wide"		"600"
 		"tall"		"85"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"Demo Playback - "
 	}
 	"DemoPlayPauseResume"
@@ -19,9 +19,9 @@
 		"ypos"		"58"
 		"wide"		"58"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Play"
 		"textAlignment"		"center"
 		"Command"		"play"
@@ -33,9 +33,9 @@
 		"ypos"		"5"
 		"wide"		"47"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Stop"
 		"textAlignment"		"center"
 		"Command"		"stop"
@@ -47,9 +47,9 @@
 		"ypos"		"5"
 		"wide"		"75"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Load..."
 		"textAlignment"		"center"
 		"Command"		"load"
@@ -62,9 +62,9 @@
 		"ypos"		"58"
 		"wide"		"32"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"|<"
 		"Command"		"reload"
 	}
@@ -75,9 +75,9 @@
 		"ypos"		"58"
 		"wide"		"32"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		">|"
 	}
 	"DemoFastForward"
@@ -87,9 +87,9 @@
 		"ypos"		"58"
 		"wide"		"32"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		">>"
 	}
 	"DemoFastBackward"
@@ -99,9 +99,9 @@
 		"ypos"		"58"
 		"wide"		"32"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"<<"
 	}
 	"DemoPrevFrame"
@@ -111,9 +111,9 @@
 		"ypos"		"58"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"<"
 		"Command"		"prevframe"
 	}
@@ -124,9 +124,9 @@
 		"ypos"		"58"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		">"
 		"Command"		"nextframe"
 	}
@@ -137,9 +137,9 @@
 		"ypos"		"32"
 		"wide"		"450"
 		"tall"		"25"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"DemoProgressLabelFrame"
 	{
@@ -148,9 +148,9 @@
 		"ypos"		"31"
 		"wide"		"116"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Tick: 0 / 0"
 		"brighttext"		"1"
 	}
@@ -161,9 +161,9 @@
 		"ypos"		"58"
 		"wide"		"116"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Time: 00:00 / 00:00"
 		"brighttext"		"1"
 	}
@@ -174,9 +174,9 @@
 		"ypos"		"58"
 		"wide"		"98"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"SpeedScale"
 	{
@@ -185,9 +185,9 @@
 		"ypos"		"58"
 		"wide"		"54"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"100.0 %"
 	}
 }

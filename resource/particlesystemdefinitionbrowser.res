@@ -7,9 +7,9 @@
 		"ypos"		"14"
 		"wide"		"510"
 		"tall"		"522"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"ParticleSystems"
 	{
@@ -19,7 +19,7 @@
 		"wide"		"382"
 		"tall"		"450"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 		//"PinnedCornerOffsetX" "6"
 		//"PinnedCornerOffsetY" "36"
@@ -33,9 +33,9 @@
 		"ypos"		"36"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Create"
 		//"PinnedCornerOffsetX" "-6"
 		//"PinnedCornerOffsetY" "36"
@@ -48,9 +48,9 @@
 		"ypos"		"70"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Delete"
 		//"PinnedCornerOffsetX" "-6"
 		//"PinnedCornerOffsetY" "70"
@@ -63,9 +63,9 @@
 		"ypos"		"106"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Copy"
 		//"PinnedCornerOffsetX" "-6"
 		//"PinnedCornerOffsetY" "106"
@@ -78,9 +78,9 @@
 		"ypos"		"142"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Create From KV"
 		//"PinnedCornerOffsetX" "-6"
 		//"PinnedCornerOffsetY" "142"
@@ -93,9 +93,9 @@
 		"ypos"		"490"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Save"
 		//"PinnedCornerOffsetX" "20"
 		//"PinnedCornerOffsetY" "-6"
@@ -108,9 +108,9 @@
 		"ypos"		"490"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Save and Test"
 		//"PinnedCornerOffsetX" "130"
 		//"PinnedCornerOffsetY" "-6"
@@ -123,9 +123,9 @@
 		"ypos"		"8"
 		"wide"		"150"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Particle System Definitions:"
 	}
 }

@@ -7,9 +7,9 @@
 		"ypos"		"14"
 		"wide"		"510"
 		"tall"		"522"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"Entities"
 	{
@@ -19,7 +19,7 @@
 		"wide"		"382"
 		"tall"		"450"
 		//		"3"
-		//		"0"
+		
 		//		"1"
 	}
 	"CreateNodeButton"
@@ -29,9 +29,9 @@
 		"ypos"		"36"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Create Nodes"
 		"command"		"DropNodes"
 	}
@@ -42,9 +42,9 @@
 		"ypos"		"70"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Delete"
 		"command"		"Delete"
 	}
@@ -55,9 +55,9 @@
 		"ypos"		"106"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"Center View"
 		"command"		"CenterView"
 	}
@@ -68,9 +68,9 @@
 		"ypos"		"490"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Save"
 		"command"		"Save"
 	}
@@ -81,9 +81,9 @@
 		"ypos"		"490"
 		"wide"		"94"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"Save and Test"
 		"command"		"SaveAndTest"
 	}
@@ -94,9 +94,9 @@
 		"ypos"		"8"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Entities:"
 	}
 }

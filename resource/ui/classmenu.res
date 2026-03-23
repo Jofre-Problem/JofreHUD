@@ -9,7 +9,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"

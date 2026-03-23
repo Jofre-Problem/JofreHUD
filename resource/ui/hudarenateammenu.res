@@ -9,7 +9,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -26,7 +26,7 @@
 		"wide"			"450"
 		"tall"			"365"
 		//	"3"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		//	"0"
@@ -41,12 +41,12 @@
 		"wide"			"90"
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"west"
-		////		"0"
+		//
 		//	"1"
 	}
 	"teambutton2"
@@ -65,7 +65,7 @@
 		//	"1"
 		"labelText"		"&1"
 		"textAlignment"	"south-west"
-		////		"0"
+		//
 		
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
@@ -90,7 +90,7 @@
 		//	"2"
 		"labelText"		"&2"
 		"textAlignment"	"south-west"
-		////		"0"
+		//
 		
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
@@ -118,7 +118,7 @@
 		//	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
@@ -134,12 +134,12 @@
 		"wide"			"102" 
 		"tall"			"24"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		
 		"font"			"MenuSmallFont"
@@ -160,12 +160,12 @@
 
 		"tall"			"20"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
-		////		"0"
+		//
 		
 		
 		"font"			"MenuSmallestFont"
@@ -182,7 +182,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -214,7 +214,7 @@
 		"tall"			"50"
 
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"	
@@ -232,7 +232,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"
@@ -279,7 +279,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"20"

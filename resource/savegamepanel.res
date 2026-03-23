@@ -7,8 +7,8 @@
 		"ypos"		"0"
 		"wide"		"300"
 		"tall"		"140"
-		//		"0"
-		//		"0"
+		
+		
 	}
 	"SaveGameScreenshotBackground"
 	{
@@ -51,10 +51,10 @@
 		"ypos"		"26"
 		"wide"		"180"
 		"tall"		"24"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
-		//		"0"
+		
 	}
 	"FileTimeLabel"
 	{
@@ -63,9 +63,9 @@
 		"ypos"		"26"
 		"wide"		"180"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 	}
 	"TypeLabel"
 	{

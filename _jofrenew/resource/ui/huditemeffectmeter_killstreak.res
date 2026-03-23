@@ -290,7 +290,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%" // "killstreak_count_spaced"
 		"textAlignment"			"west"
-		"font"					"g_fontmedium"
+		"font"					"itemfontnamelarger"
 		"fgcolor"				"245 245 245 255"
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}
@@ -308,7 +308,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%" // "killstreak_count_spaced"
 		"textAlignment"			"west"
-		"font"					"g_fontmediumblur"
+		"font"					"itemfontnamelarger"
 		"fgcolor"				"17 17 17 255"
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}	

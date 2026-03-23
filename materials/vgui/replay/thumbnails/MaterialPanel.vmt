@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$baseTexture" "vgui/replay/thumbnails/materialPanel"
-	"$vertexcolor" 1
-	
-	"$ignorez" 1
-	
-	"$translucent" 1
-}

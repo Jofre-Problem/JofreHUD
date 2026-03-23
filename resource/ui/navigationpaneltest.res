@@ -9,7 +9,7 @@
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"300"
-		//"autoResize"		"0"
+		////"		"0"
 		"visible"			"1"
 		"enabled"			"1"
 		
@@ -23,11 +23,11 @@
 		{
 			"wide"				"20"
 			"tall"				"40"
-			//"autoResize"		"0"
+			////"		"0"
 			//			"2"
 			"visible"			"1"
 			"enabled"			"1"
-			//		"0"
+			
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
@@ -37,8 +37,8 @@
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
 			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"

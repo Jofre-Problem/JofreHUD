@@ -55,7 +55,7 @@
 			"wide"			"30"
 			"tall"			"19"
 			"labelText"		"%blue_alive%"
-			"font"			"G_Fontsmall"
+			"font"			"ItemFontAttribSmallv2"
 			"textAlignment"	"center"
 			"fgcolor"		"White"
 		}	
@@ -104,8 +104,8 @@
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/hp/redteam2"
@@ -125,7 +125,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"19"
-			"font"			"G_Fontsmall"
+			"font"			"ItemFontAttribSmallv2"
 			"textAlignment"	"center"
 			"labelText"		"%red_alive%"
 			"fgcolor"		"White"

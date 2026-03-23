@@ -26,8 +26,8 @@
 			"zpos"			"-1"
 			"wide"			"275"
 			"tall"			"170"
-			//		"0"
-			//		"0"
+			
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
@@ -48,8 +48,8 @@
 			"zpos"			"-1"
 			"wide"			"275"
 			"tall"			"100"
-			//		"0"
-			//		"0"
+			
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
@@ -71,8 +71,8 @@
 			"zpos"			"1"
 			"wide"			"275"
 			"tall"			"15"
-			//		"0"
-			//		"0"
+			
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
@@ -88,8 +88,8 @@
 			"wide"			"225"
 			"tall"			"150"
 			"wrap"			"1"
-			//		"1"
-			//		"1"
+			
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
@@ -108,7 +108,7 @@
 			"wide"			"225"
 			"tall"			"2"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"	
@@ -124,8 +124,8 @@
 			"wide"			"225"
 			"tall"			"165"
 			"wrap"			"1"
-			//		"1"
-			//		"1"
+			
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
@@ -144,8 +144,8 @@
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"80"
-		//		"0"
-		//		"0"
+		
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/arrow_big"

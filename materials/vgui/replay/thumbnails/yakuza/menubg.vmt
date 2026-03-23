@@ -1,9 +1,0 @@
-"UnlitGeneric"
-{
-	"$translucent"	1
-	"$basetexture" "vgui\replay\thumbnails\yakuza/menubg"
-	"$vertexcolor" 1
-	
-	"$ignorez" 1
-
-}

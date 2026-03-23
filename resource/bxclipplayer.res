@@ -10,7 +10,7 @@
 		"tall"		"36"
 		//		"1"
 		//		"2"
-		//		"0"
+		
 	}
 	"FirstFrame"
 	{
@@ -19,9 +19,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"W"
 		"textAlignment"		"center"
 		"Command"		"OnFirstFrame"
@@ -33,9 +33,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"["
 		"textAlignment"		"center"
 		"Command"		"OnPrevClipTop"
@@ -47,9 +47,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Y"
 		"textAlignment"		"center"
 		"Command"		"OnPrevFrame"
@@ -61,9 +61,9 @@
 		"ypos"		"3"
 		"wide"		"30"
 		"tall"		"30"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"Z"
 		"textAlignment"		"center"
 		"Command"		"OnShowRecordGameDialog"
@@ -75,9 +75,9 @@
 		"ypos"		"3"
 		"wide"		"30"
 		"tall"		"30"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"R"
 		"textAlignment"		"center"
 		"Command"		"OnPlayPause"
@@ -89,9 +89,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"X"
 		"textAlignment"		"center"
 		"Command"		"OnNextFrame"
@@ -103,9 +103,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"]"
 		"textAlignment"		"center"
 		"Command"		"OnNextClipTop"
@@ -117,9 +117,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"labelText"		"S"
 		"textAlignment"		"center"
 		"Command"		"OnLastFrame"
@@ -131,9 +131,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"R"
 		"textAlignment"		"center"
 		"Command"		"TrackMidiTime"
@@ -145,9 +145,9 @@
 		"ypos"		"6"
 		"wide"		"24"
 		"tall"		"24"
-		//		"0"
+		
 		//		"1"
-		//		"0"
+		
 		"labelText"		"+"
 		"textAlignment"		"center"
 		"Command"		"RepeatType"

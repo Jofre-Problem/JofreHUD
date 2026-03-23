@@ -246,7 +246,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"<A"
-		"font"			"g_fontsmall"
+		"font"			"itemfontattribsmallv2"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -254,8 +254,8 @@
 		"Command"		"prevpage"
 			"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"	
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 			"pin_to_sibling"							"BackpackBG"
 	}
 	"nextPageButton"
@@ -270,7 +270,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"D>"
-		"font"			"g_fontsmall"
+		"font"			"itemfontattribsmallv2"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -279,15 +279,15 @@
 		"Command"		"nextpage"
 			"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"	
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 	"ShowBaseItemsCheckbox"
 	{
 		"ControlName"								"CheckButton"
 		"fieldName"									"ShowBaseItemsCheckbox"
 		"labelText"									"#ShowBaseItemsCheckBox"
-		"Font"										"g_fonttiny_2"
+		"Font"										"itemfontnamesmallest"
 		"textAlignment"								"east"
 		"xpos"										"5"
 		"ypos"										"0"

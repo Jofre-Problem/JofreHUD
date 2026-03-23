@@ -7,9 +7,9 @@
 		"ypos"		"250"
 		"wide"		"650"
 		"tall"		"400"
-		//		"0"
-		//		"0"
-		//		"0"
+		
+		
+		
 		"title"		"#KBEditorTitle"
 	}
 	"Save"
@@ -19,9 +19,9 @@
 		"ypos"		"370"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#KBEditorSave"
 		"Command"		"save"
 	}
@@ -32,9 +32,9 @@
 		"ypos"		"370"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#KBEditorCancel"
 		"Command"		"cancel"
 	}
@@ -45,9 +45,9 @@
 		"ypos"		"370"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#KBEditorRevert"
 		"Command"		"revert"
 	}
@@ -58,9 +58,9 @@
 		"ypos"		"370"
 		"wide"		"120"
 		"tall"		"24"
-		//		"0"
+		
 		//		"2"
-		//		"0"
+		
 		"labelText"		"#KBEditorUseDefaults"
 		"Command"		"defaults"
 	}
@@ -72,7 +72,7 @@
 		"wide"		"630"
 		"tall"		"330"
 		//		"3"
-		//		"0"
-		//		"0"
+		
+		
 	}
 }

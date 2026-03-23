@@ -48,15 +48,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"g_white"
-		"fgcolor_override" "g_white"
+		"fgcolor"		"Tanlight"
+		"fgcolor_override" "Tanlight"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"38"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"
@@ -83,7 +83,7 @@
 		"wide"			"138"
 		"tall"			"38"
 		//	"0"
-		//		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"1"

@@ -21,10 +21,10 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"f0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"black"
 	}
 
@@ -66,15 +66,15 @@
 		"ypos"		"c-218"
 		"wide"		"55"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
-		//		"0"
+		
 		"labelText"		""
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"EditSkin0"
 		"Default"		"0"
@@ -91,15 +91,15 @@
 		"ypos"		"c-218"
 		"wide"		"55"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
-		//		"0"
+		
 		"labelText"		""
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"EditSkin1"
 		"Default"		"0"
@@ -180,8 +180,8 @@
 		"ypos"		"60"
 		"wide"		"190"
 		"tall"		"15"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"labelText"			"#TF_PublishFile_NoFileSelected"
 		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
@@ -280,8 +280,8 @@
 		"ypos"		"77"
 		"wide"		"190"
 		"tall"		"15"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
@@ -311,7 +311,7 @@
 		"ypos"				"90"
 		"wide"				"175"
 		"tall"				"12"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -343,10 +343,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"command"		"UpdateBaseMapAlphaPhongMask"
 		"border"		"SteamWorkshopBorder"
@@ -444,8 +444,8 @@
 		"ypos"		"125"
 		"wide"		"190"
 		"tall"		"15"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
@@ -474,11 +474,11 @@
 		"ypos"		"145"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -512,11 +512,11 @@
 		"ypos"		"160"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -550,11 +550,11 @@
 		"ypos"		"175"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -588,11 +588,11 @@
 		"ypos"		"190"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -631,10 +631,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		////		"0"
+		//
 		
 		"command"		"UpdateRimMask"
 		"border"		"SteamWorkshopBorder"
@@ -666,10 +666,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"command"		"UpdateHalfLambert"
 		"border"		"SteamWorkshopBorder"
@@ -702,10 +702,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		////		"0"
+		//
 		
 		"command"		"UpdateBlendTintByBaseAlpha"
 		"border"		"SteamWorkshopBorder"
@@ -734,11 +734,11 @@
 		"ypos"		"265"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -773,11 +773,11 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -797,11 +797,11 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -821,11 +821,11 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -863,10 +863,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"command"		"UpdateAdditive"
 		"border"		"SteamWorkshopBorder"
@@ -898,10 +898,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"command"		"UpdateTranslucent"
 		"border"		"SteamWorkshopBorder"
@@ -934,10 +934,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		////		"0"
+		//
 		
 		"command"		"UpdateAlphaTest"
 		"border"		"SteamWorkshopBorder"
@@ -966,7 +966,7 @@
 		"ypos"				"315"
 		"wide"				"175"
 		"tall"				"12"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -996,7 +996,7 @@
 		"ypos"				"330"
 		"wide"				"175"
 		"tall"				"12"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -1026,11 +1026,11 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1050,11 +1050,11 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1074,11 +1074,11 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1116,10 +1116,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"command"		"UpdateSelfIllum"
 		"border"		"SteamWorkshopBorder"
@@ -1217,8 +1217,8 @@
 		"ypos"		"380"
 		"wide"		"190"
 		"tall"		"15"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
 		"fillcolor"	"255 0 0 255"
@@ -1248,11 +1248,11 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1272,11 +1272,11 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1296,11 +1296,11 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -1320,15 +1320,15 @@
 		"ypos"		"420"
 		"wide"		"175"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Done"
 		"Default"		"0"
@@ -1343,15 +1343,15 @@
 		"ypos"		"420"
 		"wide"		"175"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#Cancel"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"Close"
 		"Default"		"0"

@@ -8,11 +8,11 @@
 		"ypos"		"c-200"
 		"wide"		"600"
 		"tall"		"400"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"settitlebarvisible"		"0"
 		"border"				"SteamWorkshopBorder"
 	}
@@ -26,11 +26,11 @@
 		"zpos"		"-100"
 		"wide"		"600"
 		"tall"		"400"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"black"
 	}
 
@@ -57,11 +57,11 @@
 		"ypos"		"355"
 		"wide"		"600"
 		"tall"		"45"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"57 52 49 255"
 	}
 
@@ -73,15 +73,15 @@
 		"ypos"		"15"
 		"wide"		"250"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_Title"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontMediumBold"
 	}
@@ -94,15 +94,15 @@
 		"ypos"		"0"
 		"wide"		"200"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_NameLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallestBold"
 	}
@@ -115,11 +115,11 @@
 		"ypos"		"20"
 		"wide"		"190"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -139,15 +139,15 @@
 		"ypos"		"43"
 		"wide"		"150"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_TypeLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallestBold"
 	}
@@ -161,7 +161,7 @@
 		"ypos"				"63"
 		"wide"				"190"
 		"tall"				"20"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -175,7 +175,7 @@
 		"ypos"				"85"
 		"wide"				"190"
 		"tall"				"40"
-		//"autoResize"		"0"
+		////"		"0"
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -188,15 +188,15 @@
 			"ypos"		"0"
 			"wide"		"150"
 			"tall"		"20"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_EquipRegionLabel"
 			"textAlignment"		"west"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"font"		"HudFontSmallestBold"
 		}
@@ -210,7 +210,7 @@
 			"ypos"				"20"
 			"wide"				"190"
 			"tall"				"20"
-			//"autoResize"		"0"
+			////"		"0"
 			//			"0"
 			"editable"			"0"
 			"visible"			"1"
@@ -225,15 +225,15 @@
 		"ypos"		"0"
 		"wide"		"200"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_WorkshopIDLabel"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallestBold"
 	}
@@ -246,11 +246,11 @@
 		"ypos"		"20"
 		"wide"		"190"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -270,15 +270,15 @@
 		"ypos"		"43"
 		"wide"		"200"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"TF_English Name"
 		"textAlignment"		"west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallestBold"
 	}
@@ -291,11 +291,11 @@
 		"ypos"		"63"
 		"wide"		"190"
 		"tall"		"20"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"1"
-		//		"1"
+		
 		"textHidden"		"0"
 		"editable"		"1"
 		"maxchars"		"128"
@@ -319,10 +319,10 @@
 		"wide"			"80"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"border"		"SteamWorkshopBorder"
 	}
@@ -339,10 +339,10 @@
 		"wide"			"80"
 		"tall"			"20"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		////		"0"
+		//
 		
 		"border"		"SteamWorkshopBorder"
 	}
@@ -452,15 +452,15 @@
 			"zpos"		"2"
 			"wide"		"105"
 			"tall"		"15"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_IconLabel"
 			"textAlignment"		"west"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"font"		"HudFontSmallestBold"
 		}
@@ -486,15 +486,15 @@
 			"ypos"		"-3"
 			"wide"		"100"
 			"tall"		"25"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_Models"
 			"textAlignment"		"west"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"font"		"HudFontSmallestBold"
 		}
@@ -738,15 +738,15 @@
 			"ypos"		"-3"
 			"wide"		"100"
 			"tall"		"25"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_Bodygroups"
 			"textAlignment"		"west"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"font"		"HudFontSmallestBold"
 		}
@@ -763,10 +763,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -785,10 +785,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -807,10 +807,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -829,10 +829,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -851,10 +851,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -873,10 +873,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -895,10 +895,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -917,10 +917,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -939,10 +939,10 @@
 			"wide"			"150"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdateBodygroup"
@@ -982,8 +982,8 @@
 				"ypos"		"-3"
 				"wide"		"150"
 				"tall"		"25"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"		"#TF_ImportFile_LOD0"
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
@@ -1064,8 +1064,8 @@
 				"ypos"		"20"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -1077,8 +1077,8 @@
 				"ypos"		"35"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			""
 				"font"		"HudFontSmallest"
 			}
@@ -1104,8 +1104,8 @@
 				"ypos"		"-3"
 				"wide"		"150"
 				"tall"		"25"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"		"#TF_ImportFile_LOD1"
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
@@ -1189,8 +1189,8 @@
 				"ypos"		"20"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 				"enabled"		"0"
@@ -1203,8 +1203,8 @@
 				"ypos"		"35"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			""
 				"font"		"HudFontSmallest"
 				"enabled"		"0"
@@ -1231,8 +1231,8 @@
 				"ypos"		"-3"
 				"wide"		"150"
 				"tall"		"25"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"		"#TF_ImportFile_LOD2"
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
@@ -1316,8 +1316,8 @@
 				"ypos"		"20"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 				"enabled"		"0"
@@ -1330,8 +1330,8 @@
 				"ypos"		"35"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			""
 				"font"		"HudFontSmallest"
 				"enabled"		"0"
@@ -1348,13 +1348,13 @@
 			"wide"			"92"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ImportFile_EditQC"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			
 			"Command"		"EditQC"
@@ -1383,15 +1383,15 @@
 			"ypos"		"-3"
 			"wide"		"100"
 			"tall"		"25"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_Skins"
 			"textAlignment"		"west"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"font"		"HudFontSmallestBold"
 		}
@@ -1404,15 +1404,15 @@
 			"ypos"		"3"
 			"wide"		"60"
 			"tall"		"12"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
-			//		"0"
+			
 			"labelText"		"#TF_ImportFile_SwapVMT"
 			"textAlignment"		"center"
-			////		"0"
-			////		"0"
+			//
+			//
 			//"wrap"		"0"
 			"Command"		"SwapVMT"
 			"Default"		"1"
@@ -1428,7 +1428,7 @@
 			"ypos"				"18"
 			"wide"				"181"
 			"tall"				"20"
-			//"autoResize"		"0"
+			////"		"0"
 			//			"0"
 			"editable"			"0"
 			"visible"			"1"
@@ -1453,8 +1453,8 @@
 				"ypos"		"3"
 				"wide"		"240"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
 			}
@@ -1500,8 +1500,8 @@
 				"ypos"		"18"
 				"wide"		"190"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -1526,8 +1526,8 @@
 				"ypos"		"3"
 				"wide"		"240"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
 			}
@@ -1573,8 +1573,8 @@
 				"ypos"		"18"
 				"wide"		"190"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 				"fillcolor"	"Red"
@@ -1600,8 +1600,8 @@
 				"ypos"		"3"
 				"wide"		"240"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
 			}
@@ -1647,8 +1647,8 @@
 				"ypos"		"18"
 				"wide"		"190"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -1673,8 +1673,8 @@
 				"ypos"		"3"
 				"wide"		"240"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
 			}
@@ -1720,8 +1720,8 @@
 				"ypos"		"18"
 				"wide"		"190"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -1739,10 +1739,10 @@
 			"wide"			"100"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdatePaintable0"	
@@ -1761,10 +1761,10 @@
 			"wide"			"100"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"disabledfgcolor2_override"	"117 107 94 255"
 			"command"		"UpdatePaintable1"	
@@ -1780,8 +1780,8 @@
 		"ypos"		"105"
 		"wide"		"150"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"labelText"		"#TF_ImportFile_AnimationProp"
 		"textAlignment"		"west"
 		"font"		"HudFontSmallestBold"
@@ -1820,8 +1820,8 @@
 				"ypos"		"-3"
 				"wide"		"150"
 				"tall"		"25"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"		"#TF_ImportFile_AnimationSource"
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
@@ -1902,8 +1902,8 @@
 				"ypos"		"20"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -1915,8 +1915,8 @@
 				"ypos"		"35"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			""
 				"font"		"HudFontSmallest"
 			}
@@ -1943,8 +1943,8 @@
 				"ypos"		"-3"
 				"wide"		"150"
 				"tall"		"25"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"		"#TF_ImportFile_AnimationVCD"
 				"textAlignment"		"west"
 				"font"		"HudFontSmallestBold"
@@ -2025,8 +2025,8 @@
 				"ypos"		"20"
 				"wide"		"150"
 				"tall"		"15"
-				//"autoResize"		"0"
-				//		"0"
+				////"		"0"
+				
 				"labelText"			"#TF_PublishFile_NoFileSelected"
 				"font"		"HudFontSmallest"
 			}
@@ -2040,8 +2040,8 @@
 			"ypos"		"120"
 			"wide"		"120"
 			"tall"		"15"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"labelText"			"#TF_ImportFile_AnimationDuration"
 			"font"		"HudFontSmallest"
 		}
@@ -2058,10 +2058,10 @@
 			"wide"			"80"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"command"		"UpdateAnimationLoopable"
 			"border"		"SteamWorkshopBorder"
@@ -2076,8 +2076,8 @@
 			"wide"		"60"
 			"tall"		"15"
 			"proportionaltoparent"	"1"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"labelText"			"Start Time:"
 			"font"		"HudFontSmallest"
 		}
@@ -2091,11 +2091,11 @@
 			"wide"		"40"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
-			//"autoResize"		"0"
-			//		"0"
+			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
-			//		"1"
+			
 			"textHidden"		"0"
 			"editable"		"1"
 			"maxchars"		"128"
@@ -2117,13 +2117,13 @@
 			"wide"			"92"
 			"tall"			"20"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"#TF_ImportFile_EditQCI"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			
 			"Command"		"EditQCI"
@@ -2176,7 +2176,7 @@
 		"wide"			"100"
 		"tall"			"25"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -2184,7 +2184,7 @@
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		////		"0"
+		//
 		
 		"Command"		"Close"
 	}
@@ -2197,15 +2197,15 @@
 		"ypos"		"365"
 		"wide"		"100"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_Preview"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"BuildPreview"
 		"Default"		"1"
@@ -2220,15 +2220,15 @@
 		"ypos"		"365"
 		"wide"		"100"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_Verify"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"BuildVerify"
 		"Default"		"1"
@@ -2243,15 +2243,15 @@
 		"ypos"		"365"
 		"wide"		"100"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"#TF_ImportFile_Build"
 		"textAlignment"		"center"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"Command"		"BuildFinal"
 		"Default"		"1"
@@ -2282,8 +2282,8 @@
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"313"
-		"autoResize"	"1"
-		//		"0"
+		//"	"1"
+		
 		"visible"		"0"
 		"enabled"		"1"
 		

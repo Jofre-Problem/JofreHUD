@@ -220,8 +220,8 @@
 		"actionsignallevel""2"
 		"RoundedCorners""0"
 		"pin_to_sibling"		"bgg3"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 
 		"defaultBgColor_override""Blank"
 
@@ -253,8 +253,8 @@
 		"actionsignallevel""2"
 		"RoundedCorners""0"
 		"pin_to_sibling"		"bgg4"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 
 		"defaultBgColor_override""Blank"
 
@@ -279,8 +279,8 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"pinCorner"		"2"
-		"autoResize"	"1"
+		//"		"2"
+		//"	"1"
 		"Gradient"
 		{
 			"tall"		"0"
@@ -334,7 +334,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			//"autoResize"	"0"
+			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			"labeltext"		"z"
@@ -349,8 +349,8 @@
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
 			"paintbackground"	"0"
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"fgcolor"			"black"
 			"fgcolor_override"	"black"
 			"defaultFgColor_override"	"black"
@@ -505,7 +505,7 @@
 				"zpos"			"10"
 				"wide"			"o1"
 				"tall"			"0"
-				//"autoResize"	"0"
+				////"	"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"labelText"		""
@@ -737,8 +737,8 @@
 					"wide"			"150"
 				}
 				
-				//"autoResize"	"0"
-				"pinCorner"		"3"
+				////"	"0"
+				//"		"3"
 				"visible"		"1"
 				//"enabled"		"1"
 				"font"			"HudFontSmallestBold"
@@ -755,8 +755,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 			}
 		}
 
@@ -769,7 +769,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			//"autoResize"	"0"
+			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			"font"			"NewIcons12"
@@ -785,8 +785,8 @@
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
 
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"blank"
 			"defaultBgColor_override"	"blank"
@@ -811,7 +811,7 @@
 			"zpos"			"100"
 			"wide"			"30"
 			"tall"			"15"
-			//"autoResize"	"0"
+			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			"font"			"NewIcons12"
@@ -829,8 +829,8 @@
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
@@ -879,7 +879,7 @@
 			"zpos"			"99"
 			"wide"			"20"
 			"tall"			"14"
-			//"autoResize"	"0"
+			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			font					"NewIcons10"
@@ -897,8 +897,8 @@
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 			paintBackground 0
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 			"fgcolor" 	"27 27 27 255"
 				"fgcolor_override" 	"27 27 27 255"		
 				"defaultbgcolor_override" "117 107 94 0"
@@ -922,7 +922,7 @@
 			"zpos"			"100"
 			"wide"			"20"
 			"tall"			"16"
-			//"autoResize"	"0"
+			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
 			font					"NewIcons12"
@@ -941,8 +941,8 @@
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"ui/buttonclick.wav"
-			"sound_released"	"ui/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"

@@ -8,7 +8,7 @@
 		"wide"			"368"
 		"tall"			"380"
 		//	"0"
-		//		"0"
+		
 		//	"0"
 		"title"		"Select Presets"
 		
@@ -19,9 +19,9 @@
 			"ypos"		"32"
 			"wide"		"110"
 			"tall"		"24"
-			//		"0"
-			//		"0"
-			//		"0"
+			
+			
+			
 			"labelText"		"Source Preset Group:"
 			"textAlignment"		"east"
 		}
@@ -35,8 +35,8 @@
 			//"PinnedCornerOffsetX" "120"
 			//"PinnedCornerOffsetY" "-6"
 			//		"1"
-			//		"0"
-			//		"0"
+			
+			
 			"maxchars"		"-1"
 		}
 
@@ -47,7 +47,7 @@
 			"ypos"		"350"
 			"wide"		"122"
 			"tall"		"24"
-			//		"0"
+			
 			//		"2"
 			//		"2"
 			"labelText"		"Ok"
@@ -79,7 +79,7 @@
 			"wide"			"356"
 			"tall"			"284"
 			//	"3"
-			//		"0"
+			
 			//"PinnedCornerOffsetX" "6"
 			//"PinnedCornerOffsetY" "60"
 			//"PinnedCornerOffsetY" "-6"

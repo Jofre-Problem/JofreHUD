@@ -57,9 +57,9 @@
 		"disabledfgcolor2_override" "notowhite"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
-		//		"1"
+		
 		"fgcolor_override"	"Notowhite"
-		//		"1"
+		
 	}
 	"CapNumPlayers2"
 	{
@@ -76,9 +76,9 @@
 		"disabledfgcolor2_override" "black"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
-		//		"1"
+		
 		"fgcolor_override"	"black"
-		//		"1"
+		
 	}
 	"OverlayImage"		//ABC icons
 	{

@@ -21,7 +21,7 @@
 			"wide"			"200"
 			"tall"			"50"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
@@ -60,7 +60,7 @@
 			"wide"			"200"
 			"tall"			"50"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontMediumBold"
@@ -80,7 +80,7 @@
 		"wide"			"160"
 		"tall"			"40"
 		//	"0"
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"HudFontMedium"
@@ -110,7 +110,7 @@
 			"wide"			"200"
 			"tall"			"50"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
@@ -148,7 +148,7 @@
 			"wide"			"160"
 			"tall"			"50"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"HudFontMediumBold"

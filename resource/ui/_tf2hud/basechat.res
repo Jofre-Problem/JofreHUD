@@ -35,16 +35,16 @@
 		"ypos"			"r0" //r18
 		"wide"			"25"
 		"tall"			"10"
-		"autoResize"		"1"
-		//		"0"
+		//"		"1"
+		
 		"visible"		"1"
 		//"enabled"		"1"
-		//		"0"
+		
 		"proportionaltoparent" "1"
 		"labelText"		"opt"
 		"textAlignment"		"center"
 		////	"0"
-		////		"0"
+		//
 		"Default"		"0"
 	}
 
@@ -57,8 +57,8 @@
 		"wide"	 		"228"
 		"tall"			"75"
 		"wrap"			"1"
-		"autoResize"		"1"
-		//"pinCorner"		"1"
+		//"		"1"
+		////"		"1"
 		"visible"		"1"
 		//"enabled"		"1"
 		"labelText"		""

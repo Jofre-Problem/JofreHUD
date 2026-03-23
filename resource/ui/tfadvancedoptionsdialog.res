@@ -51,7 +51,7 @@
 		"wide"			"p0.9"
 		"tall"			"40"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "notoblack"
@@ -74,7 +74,7 @@
 		"labelText"		"#Cancel"
 		"font"			"NotoBold28"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		
 		
 		"defaultFgColor_override" "NotoGray"
@@ -82,8 +82,8 @@
 		"depressedFgColor_override" "NotoWhite"		
 		"default"		"1"
 		"Command"		"Close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	"OkButton"
 	{
@@ -102,14 +102,14 @@
 		"labelText"		"#GameUI_Ok"
 		"font"			"NotoBold28"
 		"textAlignment"	"center"
-		////		"0"
+		//
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		
 		"default"		"1"
 		"Command"		"Ok"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"PanelListPanel"
@@ -120,11 +120,11 @@
 		"ypos"		"40"
 		"wide"		"480"
 		"tall"		"380"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"17 17 17 255"
 		"border"	"noborder"
 		"Slider"
@@ -175,7 +175,7 @@
 			"wide"			"200"
 			"tall"			"30"
 			
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"

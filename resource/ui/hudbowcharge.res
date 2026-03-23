@@ -1,8 +1,8 @@
-"Resource/UI/HudBowCharge.res"
+#base "huddemomancharge.res"
+"Resource/UI/HudDemomanCharge.res"
 {
 	"ChargeMeter"
 	{
-		"fieldName"	"ChargeMeter"
-		"xpos"	"9999"
+		"tall"			"0"
 	}
 }

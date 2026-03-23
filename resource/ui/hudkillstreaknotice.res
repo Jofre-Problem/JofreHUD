@@ -63,9 +63,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"G_FontSMall"
-		"visible_minmode" "0"
-		"wide_minmode" "0"
+		"font"			"ItemFontAttribSmallv2"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

@@ -8,11 +8,11 @@
 		"ypos"		"0"
 		"wide"		"125"
 		"tall"		"200"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"bgcolor_override"	"0 0 0 240"
 	}
 
@@ -50,15 +50,15 @@
 		"ypos"		"155"
 		"wide"		"125"
 		"tall"		"25"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"labelText"		"%title%"
 		"textAlignment"		"north-west"
-		////		"0"
-		////		"0"
+		//
+		//
 		//"wrap"		"0"
 		"font"		"HudFontSmallest"
 		"fgcolor_override" "86 78 68 255"

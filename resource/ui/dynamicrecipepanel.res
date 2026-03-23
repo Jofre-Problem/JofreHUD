@@ -11,7 +11,7 @@
 		"zpos"			"501"
 		"visible"		"1"
 		//	"0"
-		//		"0"
+		
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
@@ -76,19 +76,19 @@
 			"zpos"				"2"
 			"wide"				"30"
 			"tall"				"30"
-			//		"0"
+			
 			//			"0"
 			"visible"			"1"
 			"enabled"			"1"
-			//		"0"
+			
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
 			"Default"			"0"
 			"font"				"MenuKeys"
 			"scaleImage"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}	
 	}
 
@@ -117,7 +117,7 @@
 			"wide"			"280"
 			"tall"			"30"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
@@ -137,7 +137,7 @@
 			"wide"			"f0"
 			"tall"			"25"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
@@ -155,7 +155,7 @@
 			"wide"			"f0"
 			"tall"			"25"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
@@ -173,7 +173,7 @@
 			"wide"			"250"
 			"tall"			"25"
 			//	"0"
-			//		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"117 107 94 255"
@@ -189,7 +189,7 @@
 			"wide"			"200"
 			"tall"			"30"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"0"
 			//	"0"
@@ -197,11 +197,11 @@
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			////		"0"
+			//
 			
 			"Command"		"craft"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}		
 		
 		"PrevInputPageButton"
@@ -214,18 +214,18 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"Command"		"previnputpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"CurInputPageLabel"
 		{
@@ -240,7 +240,7 @@
 			"wide"			"45"
 			"tall"			"20"
 			//	"1"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -255,18 +255,18 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"Command"		"nextinputpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}			
 	}
 
@@ -295,7 +295,7 @@
 			"wide"			"280"
 			"tall"			"30"
 			//	"0"
-			//		"0"
+			
 			"visible"		"0"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
@@ -315,10 +315,10 @@
 			"wide"			"280"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
-			////		"0"
+			//
 			
 			"fgcolor"		"200 187 161 255"
 		}
@@ -336,7 +336,7 @@
 			"wide"			"280"
 			"tall"			"25"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"200 187 161 255"
@@ -353,7 +353,7 @@
 			"wide"			"200"
 			"tall"			"30"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -361,11 +361,11 @@
 			"font"			"HudFontMediumBold"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
-			////		"0"
+			//
 			
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}	
 		
 		"PrevPageButton"
@@ -378,18 +378,18 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		"<"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"Command"		"prevpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}
 		"CurPageLabel"
 		{
@@ -404,7 +404,7 @@
 			"wide"			"45"
 			"tall"			"20"
 			//	"1"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
@@ -419,18 +419,18 @@
 			"wide"			"20"
 			"tall"			"20"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
 			"labelText"		">"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			////		"0"
+			//
 			
 			"Command"		"nextpage"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		}				
 	}
 
@@ -464,7 +464,7 @@
 			"wide"			"140"
 			"tall"			"60"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"

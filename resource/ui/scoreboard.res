@@ -179,8 +179,8 @@
 		"zpos"			"99"
 		"wide"			"f0"
 		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"0"
@@ -241,8 +241,8 @@
 		"zpos"			"1059"
 		"wide"			"22"
 		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
@@ -283,8 +283,8 @@
 		"zpos"			"101"
 		"wide"			"22"
 		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
@@ -332,8 +332,8 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"480"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		"border"		"TFThinLineBorder"
@@ -494,8 +494,8 @@
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"43"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		"border"		"TFThinLineBorder"
@@ -547,11 +547,11 @@
 		"tall"				"204"
 		"visible_minmode" "0"
 		"wide_minmode" "0"
-		//		"0"
+		
 		"visible"			"1"
 		"enabled"			"1"
-		//		"0"
-		"autoresize"		"3"
+		
+		//"		"3"
 		"linespacing"		"16"
 		"linegap"		"0"
 		"show_columns"	"0"
@@ -606,11 +606,11 @@
 		"wide"				"p0.505"
 		"tall"				"204"
 	
-		//		"0"
+		
 		"visible"			"1"
 		"enabled"			"1"
-		//		"0"
-		"autoresize"		"3"
+		
+		//"		"3"
 		"linespacing"		"16"
 		//"show_columns"	"1"
 		"wide_minmode" "0"
@@ -637,8 +637,8 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 				"wide_minmode" "0"
@@ -703,8 +703,8 @@
 	//	////	"240"
 		"tall"			"200"
 	//	////"200"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
@@ -871,8 +871,8 @@ if_mvm
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -891,8 +891,8 @@ if_mvm
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
-		////"autoResize"		"0"
-		//		"0"
+		//////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -913,8 +913,8 @@ if_mvm
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 		}
@@ -942,8 +942,8 @@ if_mvm
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 	
@@ -985,8 +985,8 @@ if_mvm
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				////"autoResize"		"0"
-				//		"0"
+				//////"		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				
@@ -1005,8 +1005,8 @@ if_mvm
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
-				////"autoResize"		"0"
-				//		"0"
+				//////"		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -1021,8 +1021,8 @@ if_mvm
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 	
@@ -1064,8 +1064,8 @@ if_mvm
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				////"autoResize"		"0"
-				//		"0"
+				//////"		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				
@@ -1084,8 +1084,8 @@ if_mvm
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
-				////"autoResize"		"0"
-				//		"0"
+				//////"		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -1267,8 +1267,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"notowhite"
@@ -1489,8 +1489,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 			"fgcolor"			"NOTOWHITE"
@@ -1503,7 +1503,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
-			"font"				"G_FontCritDamage"
+			"font"				"Hwnjofre30"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1511,8 +1511,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"NOTOWHITE"
@@ -1531,8 +1531,8 @@ if_mvm
 			"zpos"				"0"
 			"wide"				"0"
 			"tall"				"0"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 		}
@@ -1540,7 +1540,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"G_FontCritDamage"
+			"font"				"Hwnjofre30"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1548,8 +1548,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 			"fgcolor"			"NOTOWHITE"
@@ -1562,7 +1562,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
-			"font"				"G_FontCritDamage"
+			"font"				"Hwnjofre30"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1570,8 +1570,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"NOTOWHITE"
@@ -1590,8 +1590,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"585"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 			"fgcolor"			"notowhite"
@@ -1610,8 +1610,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 		}
@@ -1627,8 +1627,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1648,8 +1648,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1671,8 +1671,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1693,8 +1693,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1715,8 +1715,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1738,8 +1738,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1760,8 +1760,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1782,8 +1782,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1806,8 +1806,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1829,8 +1829,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1852,8 +1852,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1875,8 +1875,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"55"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1897,8 +1897,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1920,8 +1920,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1943,8 +1943,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1966,8 +1966,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -1989,8 +1989,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2012,8 +2012,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2034,8 +2034,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2055,8 +2055,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2077,8 +2077,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2098,8 +2098,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2163,8 +2163,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2184,8 +2184,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2207,8 +2207,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2229,8 +2229,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2250,8 +2250,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2273,8 +2273,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2295,8 +2295,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2316,8 +2316,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2339,8 +2339,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2360,8 +2360,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2381,8 +2381,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2404,8 +2404,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2425,8 +2425,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 
@@ -2446,8 +2446,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2468,8 +2468,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"70"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2490,8 +2490,8 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			////"autoResize"		"0"
-			//		"0"
+			//////"		"0"
+			
 			"visible"			"0"
 			"enabled"			"0"
 

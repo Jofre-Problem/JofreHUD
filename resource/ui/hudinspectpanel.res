@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"110"
-		"tall"			"100"
+		"tall"			"200"
 		"visible"		"0"
 		"bgcolor_override"		"30 30 30 0"
 		border "GrayDialogBorder"
@@ -57,13 +57,13 @@
 			"wide"			"0"
 			"tall"			"0"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			alpha 0
-			////		"0"
+			//
 			
 		}
 		"ItemLabel2"
@@ -77,12 +77,12 @@
 			"wide"			"110"
 			"tall"			"9"
 			//	"0"
-			//		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
-			////		"0"
+			//
 				"fonts"
 				{
 					"0"

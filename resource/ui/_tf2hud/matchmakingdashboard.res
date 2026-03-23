@@ -30,7 +30,7 @@
 		"proportionaltoparent"	"1"
 
 		//		"2"
-		"autoResize"	"1"
+		//"	"1"
 
 		"Gradient"
 		{
@@ -220,18 +220,18 @@
 				"wide"			"14"
 				"tall"			"14"
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
 				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"manage_queues"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
@@ -255,18 +255,18 @@
 				"wide"			"14"
 				"tall"			"14"
 				
-				//		"0"
+				
 				"visible"		"1"
 				"enabled"		"1"
 				//	"0"
 				"labeltext"		""
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
 				"default"		"1"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
@@ -343,7 +343,7 @@
 				//	"0"
 				"font"			"HudFontSmallestBold"
 				"textAlignment"	"center"
-				////		"0"
+				//
 				
 				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
@@ -355,8 +355,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 		}
 
@@ -377,7 +377,7 @@
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
-			////		"0"
+			//
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
@@ -387,8 +387,8 @@
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
@@ -414,7 +414,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			////		"0"
+			//
 			
 			"Command"		"quit"
 			"proportionaltoparent"	"1"
@@ -427,8 +427,8 @@
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"192 28 0 150"
 			"defaultBgColor_override"	"192 28 0 50"
@@ -454,7 +454,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			////		"0"
+			//
 			
 			"Command"		"resume_game"
 			"proportionaltoparent"	"1"
@@ -467,8 +467,8 @@
 			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 
 		//	"armedBgColor_override"		"CreditsGreen"
 		//	"defaultBgColor_override"	"GreenSolid"
@@ -493,7 +493,7 @@
 			//	"0"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
-			////		"0"
+			//
 			
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
@@ -506,8 +506,8 @@
 			"textinsetx"	"25"
 			"use_proportional_insets"	"1"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 
 			"armedBgColor_override"		"CreditsGreen"
 			"defaultBgColor_override"	"GreenSolid"

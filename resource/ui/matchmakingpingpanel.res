@@ -241,13 +241,13 @@
 		"ypos"		"175"
 		"wide"		"f40"
 		"tall"		"24"
-		//"autoResize"		"0"
-		//		"0"
+		////"		"0"
+		
 		//
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"0"
+		
 		"proportionaltoparent"	"1"
 
 		"cvar_name"	"tf_mm_custom_ping"
@@ -264,7 +264,7 @@
 		"wide"			"f37"
 		"tall"			"f220"
 		
-		//		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
