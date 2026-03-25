@@ -80,6 +80,6 @@
 		"labelText"		"%text%"
 		"textAlignment"	"West"
 			"fgcolor_override"		"notowhite"
-		"font"			"Noto12"
+		"font"			"PerformanceModeSmall"
 	}
 }

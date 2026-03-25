@@ -35,7 +35,6 @@
 				//"enabled"		"1"
 				//"tabPosition"	"0"
 				"labelText"		""
-				"font"			"Noto14"
 				"textAlignment"	"west"
 				"textinsetx"	"23"
 				"use_proportional_insets" "1"

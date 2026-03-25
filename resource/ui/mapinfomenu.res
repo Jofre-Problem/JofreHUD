@@ -298,7 +298,7 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Noto16"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"Blank"
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"

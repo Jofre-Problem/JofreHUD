@@ -70,7 +70,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
 "fgcolor_override"		"notowhite"
-		"font"			"Noto12"
+		"font"			"PerformanceModeSmall"
 		"if_high_priority"
 		{
 			"fgcolor"			"BrightYellow"

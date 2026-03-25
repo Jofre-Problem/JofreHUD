@@ -41,7 +41,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"REC"
-		font					"Noto16"
+		font					"HudFontSmallishBold"
 		textAlignment			center
 		"actionsignallevel"		"2"
 		Command				"engine ds_record;tf_spectator_target_location 0;tf_hud_target_id_disable_floating_health 1;cl_vote_non_input_alpha 255;tf_dashboard_slide_time 0.05;echo suggested convars applied"
@@ -59,7 +59,7 @@
 		"tall"							"30"
 	zpos	"100"
 		labelText				"REC STOP"
-		font					"Noto16"
+		font					"HudFontSmallishBold"
 		textAlignment			center
 		"actionsignallevel"		"2"
 		Command				"engine ds_stop"
@@ -315,7 +315,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"VoiceLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Voice Chat:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -364,7 +364,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VoiceVolume"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -403,7 +403,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TextChatLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Text Chat:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -452,7 +452,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextChatTime"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -491,7 +491,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NotificationsLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Notifications:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -540,7 +540,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotificationsTime"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -579,7 +579,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CCLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"CC Callouts:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -628,7 +628,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CCTime"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -667,7 +667,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MatchHudLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Team Status:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -716,7 +716,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LeftHandedLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Left Handed Weapons:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -782,7 +782,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CrosshairEnableLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Show Xhair:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -831,7 +831,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairScale"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Size:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -870,7 +870,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairRedLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Red:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -909,7 +909,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairGreenLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Green:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -948,7 +948,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairBlueLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Blue:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -987,7 +987,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ColorPresetLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Preset:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -1372,7 +1372,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumEnableLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Show DMG:"
 		"textAlignment"	"west"
 		"xpos"		"2"
@@ -1421,7 +1421,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumBatchingLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Adding:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -1470,7 +1470,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBatchingWindow"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Time:"
 		"textAlignment"	"west"
 		"xpos"		"3"
@@ -1509,7 +1509,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumRedLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Red:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -1548,7 +1548,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumGreenLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Green:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -1587,7 +1587,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBlueLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Blue:"
 		"textAlignment"	"west"
 		"xpos"		"4"
@@ -1626,7 +1626,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumColorPresetLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Preset:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2011,7 +2011,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TartgetIDBGLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"TargetID BG Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2067,7 +2067,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillFeedLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Killfeed Duration:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -2106,7 +2106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakAlphaLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Streak Alert Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2145,7 +2145,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakDurationLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Streak Alert Duration:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2201,7 +2201,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HitSoundEnableLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Hit Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"-4"
@@ -2250,7 +2250,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundVolume"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -2289,7 +2289,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMinLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Low DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -2328,7 +2328,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMaxLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"High DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"0"
@@ -2367,7 +2367,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"KillSoundEnableLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Kill Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"2"
@@ -2416,7 +2416,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundVolume"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"14"
@@ -2455,7 +2455,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMinLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"Low DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"-2"
@@ -2494,7 +2494,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMaxLabel"
-		"font"		"Noto16"
+		"font"		"HudFontSmallishBold"
 		"labelText"		"High DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"0"

@@ -329,7 +329,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"REC START / STOP"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"proportionaltoparent"                            "1"
 		"actionsignallevel"		"9"
@@ -348,7 +348,7 @@
 		"tall"							"30"
 	zpos	"100"
 		labelText				"REC RESET"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recreset"
@@ -367,7 +367,7 @@
 		"tall"							"30"
 		zpos	"100"
 		labelText				"STATUS"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"proportionaltoparent"                            "1"
 		"actionsignallevel"		"9"
@@ -387,7 +387,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"Next Slot >"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +next"
@@ -405,7 +405,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"< Previous Slot"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +prev"
@@ -423,7 +423,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"# Funny"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatfun"
@@ -441,7 +441,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Random"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatrandom"
@@ -459,7 +459,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Casual"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcasual"
@@ -477,7 +477,7 @@
 		"tall"							"24"
 	zpos	"100"
 		labelText				"# Comp"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcomp"
@@ -513,7 +513,7 @@
 		"tall"							"25"
 	zpos	"100"
 		labelText				"# VSH"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatvsh"
@@ -840,7 +840,7 @@
 		"tall"							"20"
 		zpos	"100"
 		labelText				"+VoiceOn"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine echo lol" //+voicerecord"
@@ -859,7 +859,7 @@ proportionaltoparent 1
 		"tall"							"20"
 		zpos	"100"
 		labelText				"-VoiceOFF"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine -voicerecord"
@@ -879,7 +879,7 @@ proportionaltoparent 1
 		proportionaltoparent 1
 		zpos	"100"
 		labelText				"Loopback Toggle"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine toggle voice_loopback"
@@ -971,7 +971,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Invisible Players"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine stop;record null; stop"
@@ -991,7 +991,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Stuck On Spectator"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine jointeam red; joinclass sniper"
@@ -1011,7 +1011,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"Visual bugs on MVM"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		Command				"engine hud_reloadscheme"
@@ -1100,7 +1100,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"1"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		proportionaltoparent 1
@@ -1120,7 +1120,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"2"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		proportionaltoparent 1
@@ -1140,7 +1140,7 @@ proportionaltoparent 1
 		"tall"							"30"
 		zpos	"100"
 		labelText				"3"
-		font					"noto12"
+		font					"PerformanceModeSmall"
 		textAlignment			center
 		"actionsignallevel"		"8"
 		proportionaltoparent 1
@@ -1486,7 +1486,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"VoiceLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Voice Chat:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1527,7 +1527,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"VoiceVolume"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1559,7 +1559,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ContractLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Contract:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1601,7 +1601,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TextChatLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Text Chat:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1643,7 +1643,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextChatTime"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1673,7 +1673,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NotificationsLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Notifications:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1714,7 +1714,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotificationsTime"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1746,7 +1746,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CCLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"CC Callouts:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1786,7 +1786,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CCTime"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Duration:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -1820,7 +1820,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MatchHudLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Team Status:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1860,7 +1860,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LeftHandedLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Left Handed Weapons:"
 		"textAlignment"	"west"
 		"xpos"		"118"
@@ -1899,7 +1899,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Minmodelabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Minmode:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -1939,7 +1939,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Loopbacklabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Voice Loopback:"
 		"textAlignment"	"west"
 		"xpos"		"117"
@@ -1979,7 +1979,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CrosshairEnableLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Show Xhair:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -2023,7 +2023,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairScale"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Size:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -2056,7 +2056,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumEnableLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Show DMG:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -2101,7 +2101,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumBatchingLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Adding:"
 		"textAlignment"	"west"
 		"xpos"		"117"
@@ -2143,7 +2143,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DmgNumBatchingWindow"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Time:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2176,7 +2176,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TartgetIDBGLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"TargetID BG Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2211,7 +2211,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillFeedLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Killfeed Duration:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2243,7 +2243,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakAlphaLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Streak Alert Opacity:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2276,7 +2276,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakDurationLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Streak Alert Duration:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2310,7 +2310,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"HitSoundEnableLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Hit Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -2352,7 +2352,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundVolume"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -2385,7 +2385,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMinLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Low DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2419,7 +2419,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HitSoundMaxLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"High DMG Hit Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2451,7 +2451,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"KillSoundEnableLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Kill Sounds:"
 		"textAlignment"	"west"
 		"xpos"		"10"
@@ -2493,7 +2493,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundVolume"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Volume:"
 		"textAlignment"	"west"
 		"xpos"		"120"
@@ -2526,7 +2526,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMinLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"Low DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"
@@ -2559,7 +2559,7 @@ proportionaltoparent 1
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillSoundMaxLabel"
-		"font"		"noto12"
+		"font"		"PerformanceModeSmall"
 		"labelText"		"High DMG Kill Pitch:"
 		"textAlignment"	"west"
 		"xpos"		"12"

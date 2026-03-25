@@ -20,7 +20,7 @@
 						"tall"					"40"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Keep Gray solid color one! (Removes bg)"
-						"font"					"Noto20"
+						"font"					"Notobold20"
 						"textalignment"			"center"
 "command" "engine sixense_clear_bindings; sixense_write_bindings _jp_mm_bg.txt"
 						"actionsignallevel"		"5" 

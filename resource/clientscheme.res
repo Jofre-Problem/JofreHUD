@@ -1469,28 +1469,6 @@ Scheme
 			}
 		}
 
-
-		"Size 8"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"8"
-				//
-				"antialias"	"1"
-			}
-		}
-		"Size 10"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"10"
-				//
-				"antialias"	"1"
-			}
-		}
-
 		"Size 11"
 		{
 			"1"
@@ -1613,15 +1591,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}			
-		TFFontMedium
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-			}
-		}		
-
-
 
 
 		ItemFontAttribSmallv2 // collection item
@@ -1633,17 +1602,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"hwn18"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"16"
-				
-				
-				"antialias" 	"1"
-			}
-		}		
 
 		TFFontSmall
 		{
@@ -1654,16 +1612,6 @@ Scheme
 				antialias "1"
 			}
 		}		
-		TFFontMedium
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall" "4"
-					antialias "1"
-			}
-		}		
-		
 		InstructionalText
 		{
 			"1"
@@ -2119,16 +2067,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Noto12"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"12"
-				
-				"antialias"	"1"
-			}
-		}
 		"Noto14"
 		{
 			"1"
@@ -2139,27 +2077,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Noto16"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"16"
-				
-				"antialias"	"1"
-			}
-		}
-
-		"Noto20"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"20"
-				
-				"antialias"	"1"
-			}
-		}	
 
 
 
@@ -2173,16 +2090,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}		
-		"Noto32"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"32"
-				
-				"antialias"	"1"
-			}
-		}			
+		
 		"NotoBold12"
 		{
 			"1"

@@ -65,7 +65,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"SappingLabel"
-				"font"			"Size 8"
+				"font"			"ScoreboardSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
