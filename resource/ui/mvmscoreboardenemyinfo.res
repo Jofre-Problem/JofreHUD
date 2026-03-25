@@ -1,16 +1,11 @@
+#base "../gamelogo.res"
 "Resource/UI/MvMScoreboardEnemyInfo.res"
 {	
 	"Background"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"Background"
-		"xpos"			"1"
-		"ypos"			"1"
 		"zpos"			"2"
 		"wide"			"16"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"

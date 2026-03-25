@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "PublishedFileBrowserDialog.res"
 {
 	"PublishedFileBrowserDialog"
@@ -20,18 +21,9 @@
 
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"-100"
 		"wide"		"600"
 		"tall"		"292"
-		////"		"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
 		"bgcolor_override"	"40 37 37 255"
 	}
 

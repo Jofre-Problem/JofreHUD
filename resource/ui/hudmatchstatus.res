@@ -350,38 +350,7 @@ if_mini		{			"visible"		"0"		}
 				"bgcolor_override"					"Blank"
 				//"pin_to_sibling" "respawntime"
 			}
-	"DisguiseStatusBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"2"
-		"image"			"replay/thumbnails/panels/black"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/panels/black"
-		"teambg_2"		"replay/thumbnails/panels/black"
-		"teambg_3"		"replay/thumbnails/panels/black"
-		"alpha"		"180"
-		"pin_to_sibling" "respawntime"
-	}	
-"udeadbg"
-	{
-		"ControlName"		"CTFImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"600"
-		"wide"			"0"
-		"tall"			"7"
-		"image"			"replay/thumbnails/hp/modulate_orange"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/hp/modulate_orange"
-		"teambg_2"		"replay/thumbnails/hp/modulate_orange"
-		"teambg_3"		"replay/thumbnails/hp/modulate_orange"
-		"alpha"		"0"
-		"pin_to_sibling" "playername"
-	}				
+	
 	"testbg"
 	{
 		"ControlName"		"ProgressBar"

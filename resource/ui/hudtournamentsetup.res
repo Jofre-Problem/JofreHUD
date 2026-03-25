@@ -114,15 +114,15 @@
 
 	"HudTournamentNameBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"9999"
-		"wide"		"0"
+		"visible"		"0"
 		"enabled"	"0"
 	}
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"HudTournamentSetupBG"
 		"xpos"			"9999"
 		"wide"			"0"

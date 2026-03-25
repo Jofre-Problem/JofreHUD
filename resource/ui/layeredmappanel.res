@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "Resource/UI/LayeredMapPanel.res"
 {		
 	"LayeredMapPanel"
@@ -7,14 +8,7 @@
 	
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
 		"bgcolor_override"		"50 50 50 200"
 	}
 	

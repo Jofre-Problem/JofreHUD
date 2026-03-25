@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "ImportFileDialog.res"
 {
 	"ImportFileDialog"
@@ -19,17 +20,9 @@
 
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"-100"
 		"wide"		"600"
 		"tall"		"400"
-		////"		"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
 		
 		"bgcolor_override"	"black"
 	}

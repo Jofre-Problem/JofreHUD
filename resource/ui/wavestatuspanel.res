@@ -1,11 +1,8 @@
-
+#base "../gamelogo.res"
 "Resource/UI/WaveStatusPanel.res"
 {
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"9999"
 		"visible"		"0"
 		"image"			"replay/thumbnails/panels/blank"
 	}

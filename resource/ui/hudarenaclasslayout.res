@@ -1,18 +1,9 @@
+#base "../gamelogo.res"
 "Resource/UI/HudArenaClassLayout.res"
 {
 	"background"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"			"c-100"
-		"ypos"			"130"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"100"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay/thumbnails/null"
-		"scaleImage"	"1"	
 	}
 	
 

@@ -164,10 +164,6 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 		}				
 
-	"NoSkill"
-	{	
-		"wide"		"0"
-	}	
 	"MMDashboard"
 	{	
 		"xpos"		"0"

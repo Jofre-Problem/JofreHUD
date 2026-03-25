@@ -1,4 +1,4 @@
-#base "_tf2hud/hudarenawinpanel.res"
+
 "Resource/UI/arenawinpanel.res" 
 {
 	"ArenaWinPanelScores"
@@ -12,16 +12,20 @@
 	     "bgcolor_override"  "0 0 0 204"
 		"BlueScoreBG"
 		{
-	
+		"ControlName"		"Panel"
+		"fieldName"		"BlueScoreBG"	
 			"visible"		"0"
 		}
 		"RedScoreBG"
 		{
-
+		"ControlName"		"Panel"
+		"fieldName"		"RedScoreBG"
 			"visible"		"0"
 		}
         "BlueTeamScore"
         {
+		"ControlName"		"cexlabel"
+		"fieldName"		"BlueTeamScore"			
             "xpos"                      "c0-s1-80"
             "ypos"                      "0"
             "wide"                      "40"
@@ -34,7 +38,8 @@
 			"labelText"		"%blueteamscore%"
         }
         "RedTeamScore"
-        {
+        {		"ControlName"		"cexlabel"
+		"fieldName"		"RedTeamScore"	
             "xpos"                      "c80"
             "ypos"                      "0"
             "wide"                      "40"
@@ -51,7 +56,8 @@
 
 
         "BlueTeamLabel"
-        {
+        {		"ControlName"		"cexlabel"
+		"fieldName"		"BlueTeamLabel"	
             "xpos"                      "10"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -67,7 +73,8 @@
             "pin_to_sibling_corner"     "PIN_TOPLEFT"
         }
         "RedTeamLabel"
-        {
+        {		"ControlName"		"cexlabel"
+		"fieldName"		"RedTeamLabel"	
             "xpos"                      "10"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -83,17 +90,20 @@
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
         }
 		"BlueTeamScoreDropshadow"
-		{
+        {		"ControlName"		"panel"
+		"fieldName"		"BlueTeamScoreDropshadow"	
 			"visible"		"0"
 		}							
 		"RedTeamScoreDropshadow"
-		{
+        {		"ControlName"		"panel"
+		"fieldName"		"RedTeamScoreDropshadow"	
 			"visible"		"0"
 		}			
 
 	
 		"ArenaStreaksBG"
-		{
+        {		"ControlName"		"panel"
+		"fieldName"		"ArenaStreaksBG"	
 			visible 0
 
 		}	
@@ -117,11 +127,13 @@
 	}
 
 	"WinPanelBG"
-	{
+        {		"ControlName"		"panel"
+		"fieldName"		"WinPanelBG"
 		"visible"		"0"
 	}
    "WinningTeamLabel"
-    {
+        {		"ControlName"		"cexlabel"
+		"fieldName"		"WinningTeamLabel"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1"
         "wide"                      "160"
@@ -133,14 +145,15 @@
     }
 
 	"WinningTeamLabelDropshadow"
-	{	
+        {		"ControlName"		"panel"
+		"fieldName"		"WinningTeamLabelDropshadow"	
 	"visible"		"0"
 	}
 
 	"LosingTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"WinningTeamLabel"
+		"fieldName"		"LosingTeamLabel"
 		"font"			"NotoBold20"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1"
@@ -154,23 +167,24 @@
 		"fgcolor_override"	"NotoWhite"
 	}
 	"LosingTeamLabelDropshadow"
-	{	
+        {		"ControlName"		"panel"
+		"fieldName"		"LosingTeamLabelDropshadow"		
 	"visible"		"0"
 	}
 	"WinReasonLabel"
-	{	
+        {		"ControlName"		"panel"
+		"fieldName"		"WinReasonLabel"		
 	"visible"		"0"
 	}
 	"DetailsLabel"
-	{	
+        {		"ControlName"		"panel"
+		"fieldName"		"DetailsLabel"		
 	"visible"		"0"
 	}
-	"ShadedBar"
-	{
-"visible"		"0"
-	}
+
 	"TopPlayersLabel"
-	{	
+        {		"ControlName"		"panel"
+		"fieldName"		"TopPlayersLabel"	
 "visible"		"0"
 	}
 	"DamageThisRoundLabel"
@@ -442,7 +456,9 @@
 			}
     }
 		"Player1Class"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player1Class"
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -475,7 +491,9 @@
 			"visible"		"0"
 		}
 		"Player1Kills"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player1Kills"
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -501,7 +519,9 @@
 			"color_outline"		"52 48 45 255"
 		}
   "Player2Name"
-    {
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player2Name"
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "f45"
@@ -513,7 +533,9 @@
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
 		"Player2Class"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player2Class"
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -551,7 +573,9 @@
 		
 		}
 		"Player2Kills"
-    {
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player2Kills"
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -577,7 +601,9 @@
 			"color_outline"		"52 48 45 255"
 		}
 		"Player3Name"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player3Name"
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "f45"
@@ -589,7 +615,9 @@
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
 		}
 		"Player3Class"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player3Class"
 		      "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -623,7 +651,9 @@
 			"visible"		"0"
 		}
 		"Player3Kills"
-		{	
+	{	
+		"ControlName"		"cexlabel"
+		"fieldName"		"Player3Kills"
 	     "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"

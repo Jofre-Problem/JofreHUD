@@ -175,11 +175,11 @@
 	}					
 	"TFCharacterImage"
 	{
-		"tall"			"0"
+		"visible"		"0"
 	}	
 	"CharacterSetupButton"
 	{
-		"tall"			"0"
+		"visible"		"0"
 	}			
 	"TFLogoImage"
 	{
@@ -457,7 +457,7 @@
 		"SubImage"
 		{
 			"wide"			"0"
-			"tall"			"0"
+			"visible"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}	
@@ -673,47 +673,47 @@
 	}
 	"FriendsContainer"	
 	{
-	wide				0
+	"visible"		"0"
 	}	
 	"BackgroundFooter"
 	{
-	wide				0
+	"visible"		"0"
 	}				
 	"FooterLine"
 	{
-	wide				0
+	"visible"		"0"
 	}	
 	"CommentaryButton"
 	{
-	wide				0
+	"visible"		"0"
 	}	
 	"CoachPlayersButton"
 	{
-	wide				0
+	"visible"		"0"
 	}	
 	"ReplayButton"
 	{
-	wide				0
+	"visible"		"0"
 	}		
 	"ReportBugButton"
 	{
-	wide				0
+	"visible"		"0"
 	}		
 	"BackToReplaysButton"
 	{
-	wide				0
+	"visible"		"0"
 	}	
 	"RequestCoachButton"
 	{
-	wide				0
+	"visible"		"0"
 	}		
 	"QuestLogButton"
 	{
-		"tall"			"0"
+		"visible"		"0"
 	}
 	"EventPromo"
 	{
-		wide				0
+		"visible"		"0"
 	}
 	"WorkshopButton"		// open advanced options
 	{
@@ -1135,7 +1135,7 @@
 		"SubImage"
 		{
 			"visible"			"0"
-			"tall"			"0"
+			"visible"		"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}	
@@ -1396,7 +1396,7 @@
 	}		
 	"QuestLogButton"
 	{
-		"tall"			"0"
+		"visible"		"0"
 	}
 	"EventPromo"
 	{

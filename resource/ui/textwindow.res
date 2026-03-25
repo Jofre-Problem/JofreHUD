@@ -232,11 +232,11 @@
 	
 	"ShadedBar"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"MenuBG"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}
 	"MessageTitle"
 	{

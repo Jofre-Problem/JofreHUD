@@ -11,7 +11,7 @@
 		
 		
 		"visible"		"1"
-		"enabled"		"1"
+		
 		
 		"paintbackground"	"0"
 	}
@@ -32,7 +32,7 @@
 		//	"0"
 		//		"2"
 		"visible"		"1"
-		"enabled"		"1"
+		
 		
 		"labelText"		"#Button_SkipIntro"
 		"textAlignment"		"center"
@@ -59,7 +59,7 @@
 		//	"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		
 		
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
@@ -85,7 +85,7 @@
 		//	"0"
 		//		"2"
 		"visible"		"1"
-		"enabled"		"1"
+		
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
 		//
@@ -110,7 +110,7 @@
 		//	"0"
 		//		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		
 		"labelText"		"#TF_ReplayIntro"
 		"textAlignment"	"center"
 		//
@@ -133,7 +133,7 @@
 		//	"0"
 		
 		"visible"		"1"
-		"enabled"		"1"
+		
 		"start_delay"	"0.0"
 		"end_delay"		"2.0"
 	}
@@ -151,7 +151,7 @@
 		//	"0"
 		
 		"visible"		"0"
-		"enabled"		"1"
+		
 		"labelText"		" "
 		"textAlignment"	"center"
 		//
@@ -163,7 +163,7 @@
 	
 	"Footer" 
 	{
-		"ControlName"		"CTFFooter"
+		"ControlName"		"panel"
 		"fieldName"			"Footer"
 		"visible"				"0"
 	}	

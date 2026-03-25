@@ -1,18 +1,13 @@
+#base "../gamelogo.res"
 "Resource/UI/HudKillStreakNotice.res"
 {	
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
 		"xpos"			"c-250"
 		"ypos"			"60"
-		"zpos"			"0"
 		"wide"			"500"
 		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"46 43 42 0"	
+		"PaintBackgroundType"	"2"	
 	}
 	"Shadow"
 	{

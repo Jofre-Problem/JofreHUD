@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "ImportMaterialEditDialog.res"
 {
 	"ImportMaterialEditDialog"
@@ -14,18 +15,7 @@
 
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"f0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"bgcolor_override"	"black"
 	}
 
 	"RedBG"

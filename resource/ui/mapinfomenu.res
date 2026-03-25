@@ -107,7 +107,7 @@
 	}			
 	"MenuBG"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"Key1"
 	{
@@ -248,11 +248,11 @@
 	}	
 	"ShadedBar"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"MapInfoContinue"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}			
 	"MapInfoWatchIntro" 
 	{

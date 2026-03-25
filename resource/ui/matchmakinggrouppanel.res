@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "Resource/UI/MatchmakingGroupPanel.res"
 {
 	"MatchmakingGroupPanel"
@@ -13,11 +14,6 @@
 	"Background"
 	{
 		ControlName					ImagePanel
-		fieldName					"Background"
-		xpos							0
-		ypos							0
-		wide							f0
-		tall							f0
 		proportionaltoparent		1
 
 	}

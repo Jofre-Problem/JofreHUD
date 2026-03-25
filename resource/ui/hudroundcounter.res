@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "Resource/UI/HudRoundCounter.res"
 {
 	"RoundCounter"
@@ -51,7 +52,6 @@
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"5"
