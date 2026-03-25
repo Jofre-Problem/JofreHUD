@@ -1321,220 +1321,6 @@ Scheme
 			}
 		}
 
-
-
-
-
-		"CrosshairsBlur10"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"10"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur11"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"11"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur12"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"12"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur13"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"13"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur14"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"14"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur15"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"15"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur16"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"16"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur17"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"17"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur18"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"18"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur19"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"19"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur20"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"20"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur21"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"21"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur22"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"22"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur23"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"23"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur24"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"24"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur25"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"25"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur26"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"26"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur27"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"27"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur28"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"28"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur29"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"29"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
-		"CrosshairsBlur30"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"30"
-				"blur" "2"
-				"antialias"		"1"
-			}
-		}
 		"NewIcons57" 
 		{
 			"1"
@@ -1780,18 +1566,6 @@ Scheme
 				
 				
 				"antialias"		"1"
-			}
-		}
-
-		"ItemFontAttribSmallest"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"12"
-				"weight"		"500"
-				
-				"antialias" 	"1"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -2429,16 +2203,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"NotoBold16"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"16"
-				"custom" "1" [$LINUX]
-				"antialias"	"1"
-			}
-		}
 	
 		"NotoBold18"
 		{
@@ -2478,17 +2242,6 @@ Scheme
 				"tall"		"24"
 				
 				"antialias"	"1"
-			}
-		}
-		"NotoBold24Outline"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"24"
-				
-				"antialias"	"1"
-				"outline"	"1"
 			}
 		}
 		"NotoBold26"
@@ -2579,7 +2332,7 @@ Scheme
 				"antialias" "1"
 			}
 		}				
-	"ItemFontNameSmallest"
+		"ItemFontNameSmallest"
 		{
 			"1"
 			{
@@ -2596,17 +2349,6 @@ Scheme
 			{
 				"name"			"hwnjofre1"
 				"tall"			"12"
-				
-				
-				"antialias" 	"1"
-			}
-		}
-		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"14"
 				
 				
 				"antialias" 	"1"
@@ -3021,56 +2763,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontSmallBoldShadow"
-		{
-			"1"
-			{
-				"name"		"productsansbold"
-				"tall"		"14"
-				
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallestOriginal"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"12"
-				
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallest"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"12"
-				
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallestShadow"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"12"
-				
-				"antialias" "1"
-			}
-		}
-		"HudFontSmallestBold"
-		{
-			"1"
-			{
-				"name"		"productsansbold"
-				"tall"		"12"
-				
-				"antialias" "1"
-			}
-		}
+
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -3555,17 +3248,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"18"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-			}
-		}
 		"ItemFontAttribSmallest"
 		{
 			"1"
@@ -3577,29 +3259,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"ItemFontAttribSmall"
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"8"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-			}
-		}
-		"ItemFontAttribLarge"
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"11"
-				////"weight"	"500"
-				
-				"antialias"	"1"
-			}
-		}
-
 		"AchievementTracker_Name"
 		{
 			"1"

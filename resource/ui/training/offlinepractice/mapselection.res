@@ -141,7 +141,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"
@@ -201,7 +201,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DifficultyLabel"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -249,7 +249,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -267,7 +267,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"

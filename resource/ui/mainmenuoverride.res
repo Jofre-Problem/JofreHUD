@@ -1946,7 +1946,7 @@
 					labeltext "Linux Detected"	[$LINUX]
 					labeltext "Steam Deck ON" [$DECK]
 					"textAlignment"	"center"
-					font		"NotoBold16"
+					font		"HudFontSmallishBold"
 					"actionsignallevel"		"2"
 					Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
 					//"engine open_replaybrowser"
@@ -1979,7 +1979,7 @@
 		"tall"							"16"
 		labelText				"+hudmenu panel!"
 		"textAlignment"	"center"
-		font		"NotoBold16"
+		font		"HudFontSmallishBold"
 		"actionsignallevel"		"2"
 		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
 		//"engine open_replaybrowser"
@@ -2045,7 +2045,7 @@
 		"tall"							"16"
 		labelText				"Download BG"
 		"textAlignment"	"center"
-		font		"NotoBold16"
+		font		"HudFontSmallishBold"
 		"actionsignallevel"		"2"
 		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
 		//"engine open_replaybrowser"

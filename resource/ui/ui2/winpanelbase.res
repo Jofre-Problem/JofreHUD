@@ -1,7 +1,7 @@
 "Resource/UI/winpanel.res"
 {
 	"TeamScoresPanel"
-	{
+	{ 
 		"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
 		"xpos"			"-41"

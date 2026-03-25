@@ -1,8 +1,9 @@
-#base "ui2/winpanelbase.res" 
+//#base "ui2/winpanelbase.res" 
 "Resource/UI/winpanel.res"
 {
     "TeamScoresPanel"
-    {
+    {		"ControlName"		"EditablePanel"
+		"fieldName"		"TeamScoresPanel"
         "xpos"              "0"
         "ypos"              "rs1"
         "wide"              "f0"
@@ -10,7 +11,9 @@
         "bgcolor_override"  "0 0 0 204"
 
         "BlueTeamScore"
-        {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"BlueTeamScore"
             "xpos"                      "c0-s1-80"
             "ypos"                      "0"
             "wide"                      "40"
@@ -23,7 +26,9 @@
 			"labelText"		"%blueteamscore%"
         }
         "RedTeamScore"
-        {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"RedTeamScore"
             "xpos"                      "c80"
             "ypos"                      "0"
             "wide"                      "40"
@@ -40,7 +45,9 @@
 
 
         "BlueTeamLabel"
-        {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"BlueTeamLabel"
             "xpos"                      "10"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -56,7 +63,9 @@
             "pin_to_sibling_corner"     "PIN_TOPLEFT"
         }
         "RedTeamLabel"
-        {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"RedTeamLabel"
             "xpos"                      "10"
             "ypos"                      "0"
             "wide"                      "f0"
@@ -73,7 +82,9 @@
         }
 
         "BlueScoreBG"
-        {
+		{
+			"ControlName"		"Panel"
+			"fieldName"		"BlueScoreBG"
             "xpos"                      "9999"
             "ypos"                      "9999"
             "wide"                      "0"
@@ -82,7 +93,9 @@
             "enabled"                   "0"
         }
         "RedScoreBG"
-        {
+		{
+			"ControlName"		"Panel"
+			"fieldName"		"RedScoreBG"
             "xpos"                      "9999"
             "ypos"                      "9999"
             "wide"                      "0"
@@ -91,7 +104,9 @@
             "enabled"                   "0"
         }
         "BlueTeamScoreDropshadow"
-        {
+		{
+			"ControlName"		"Panel"
+			"fieldName"		"BlueTeamScoreDropshadow"
             "xpos"                      "9999"
             "ypos"                      "9999"
             "wide"                      "0"
@@ -100,7 +115,9 @@
             "enabled"                   "0"
         }
         "RedTeamScoreDropshadow"
-        {
+		{
+			"ControlName"		"Panel"
+			"fieldName"		"RedTeamScoreDropshadow"
             "xpos"                      "9999"
             "ypos"                      "9999"
             "wide"                      "0"
@@ -111,7 +128,9 @@
     }
 
     "WinningTeamLabel"
-    {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"WinningTeamLabel"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1"
         "wide"                      "160"
@@ -119,16 +138,20 @@
         "textalignment"             "center"
         "centerwrap"                "1"
         "font"                      "NotoBold20"
+      	"labelText"		"%WinningTeamLabel%"  
 		"bgcolor_override"	"30 30 30 255"
     }
     "AdvancingTeamLabel"
-    {
+		{
+			"ControlName"		"cexlabel"
+			"fieldName"		"AdvancingTeamLabel"
         "xpos"                      "cs-0.5"
         "ypos"                      "rs1"
         "wide"                      "160"
         "tall"                      "40"
         "textalignment"             "center"
         "centerwrap"                "1"
+        "labelText"		"%AdvancingTeamLabel%"
         "font"                      "NotoBold26"
     }
 
@@ -313,7 +336,7 @@
         "ypos"                      "0"
         "wide"                      "p0.25"
         "tall"                      "20"
-        "font"                      "NotoBold16"
+        "font"                      "HudFontSmallishBold"
         "fgcolor"                   "255 80 64 255"
         "labelText"                 "KS"
         "textAlignment"             "center"
@@ -326,7 +349,7 @@
     // P1
      "Player1Avatar"
     {
-     //  ControlName editablepanel
+		"ControlName"		"CAvatarImagePanel"
         fieldName player1avatar
         xpos 0
         "wide"                      "20"
@@ -336,11 +359,15 @@
         "enabled"                   "1" 
         ypos 0
         bgcolor_override red
+    		"image"			""
+		"scaleImage"		"1"	    
                "pin_to_sibling"            "Player1BG"
 
     }   
     "Player1Name"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player1Name"      
         "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
@@ -353,6 +380,8 @@
     }
     "Player1Score"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player1Score"   
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -376,6 +405,8 @@
 
     "Player1Class"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player1Score"  
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -390,6 +421,8 @@
     // P2
     "Player2Name"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player2Name"  
         "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
@@ -402,6 +435,8 @@
     }
     "Player2Score"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player2Score"  
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -424,7 +459,7 @@
     }
     "Player2Avatar"
     {
-     //   controlname editablepanel
+     "ControlName"		"CAvatarImagePanel"
         fieldName player2avatar
         xpos 0
         "wide"                      "20"
@@ -438,6 +473,8 @@
     }
     "Player2Class"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player2Class"  
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -452,6 +489,8 @@
     // P3
     "Player3Name"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player3Name"  
         "xpos"                     "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
@@ -464,6 +503,8 @@
     }
     "Player3Score"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player3Score"  
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -486,7 +527,7 @@
     }
     "Player3Avatar"
     {
-     //   controlname editablepanel
+		"ControlName"		"CAvatarImagePanel"
         fieldName player3avatar
         xpos 0
         "wide"                      "20"
@@ -500,6 +541,8 @@
     }
     "Player3Class"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"Player3Class"  
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -514,18 +557,21 @@
     // P4 (KS)
     "KillStreakPlayer1Name"
     {
+  		"ControlName"		"CExLabel"
+		"fieldName"		"KillStreakPlayer1Name"  
         "xpos"                      "-5-20"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
         "font"                      "NotoBold12"
-
+      
         "pin_to_sibling"            "Player4BG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
     "KillStreakPlayer1Score"
-    {
+    {  		"ControlName"		"CExLabel"
+		"fieldName"		"KillStreakPlayer1Score"  
         "xpos"                      "-5"
         "ypos"                      "0"
         "wide"                      "40"
@@ -548,7 +594,7 @@
     }
     "KillStreakPlayer1Avatar"
     {
-     //  controlname editablepanel
+     	"ControlName"		"CAvatarImagePanel"
         fieldName KillStreakPlayer1Avatar
         xpos 0
         "wide"                      "20"
@@ -561,7 +607,8 @@
         bgcolor_override yellow
     }
     "KillStreakPlayer1Class"
-    {
+    {  		"ControlName"		"CExLabel"
+		"fieldName"		"KillStreakPlayer1Class"  
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
@@ -576,7 +623,9 @@
     // DISABLED
 
     "WinPanelBGBorder"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"WinPanelBGBorder"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -585,7 +634,9 @@
         "enabled"                   "0"
     }
     "WinningTeamLabelDropshadow"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"WinningTeamLabelDropshadow"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -594,7 +645,9 @@
         "enabled"                   "0"
     }
     "AdvancingTeamLabelDropshadow"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"AdvancingTeamLabelDropshadow"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -603,7 +656,9 @@
         "enabled"                   "0"
     }
     "WinReasonLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"WinReasonLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -612,7 +667,9 @@
         "enabled"                   "0"
     }
     "DetailsLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"DetailsLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -620,35 +677,11 @@
         "visible"                   "0"
         "enabled"                   "0"
     }
-    "ShadedBar"
-    {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
-    }
-    "HorizontalLine"
-    {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
-    }
-    "HorizontalLine2"
-    {
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
-    }
+   
     "TopPlayersLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"TopPlayersLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -657,7 +690,9 @@
         "enabled"                   "0"
     }
     "PointsThisRoundLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"PointsThisRoundLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -666,7 +701,9 @@
         "enabled"                   "0"
     }
     "KillStreakLeaderLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"KillStreakLeaderLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"
@@ -675,7 +712,9 @@
         "enabled"                   "0"
     }
     "KillStreakMaxCountLabel"
-    {
+    {  		
+        "ControlName"		"panel"
+		"fieldName"		"KillStreakMaxCountLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
         "wide"                      "0"

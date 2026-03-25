@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"notoBlue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -28,7 +28,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"notoRed"
 		"xpos"			"0"
 		"ypos"			"0"

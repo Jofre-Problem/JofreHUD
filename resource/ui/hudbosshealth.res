@@ -1,3 +1,4 @@
+#base "../gamelogo.res"
 "Resource/UI/HudBossHealth.res"
 {
 	"BorderImage"
@@ -9,28 +10,19 @@
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"50"
-		//"	"0"
-		//"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		//"	"0"
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
 	}
 	
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"	
 		"xpos"			"15"
 		"ypos"			"16"
 		"zpos"			"1"
 		"wide"			"168"
 		"tall"			"10"
-		//"	"0"
-		//"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"0 0 0 180"	
 	}
@@ -59,8 +51,6 @@
 		"zpos"			"50"
 		"wide"			"168"
 		"tall"			"10"
-		//"	"0"
-		//"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"1"

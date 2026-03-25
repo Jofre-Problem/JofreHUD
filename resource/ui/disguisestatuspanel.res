@@ -1,3 +1,4 @@
+#base "healthiconpanel.res"
 "Resource/UI/ItemModelPanel.res"
 {
 	"DisguiseStatusBG"
@@ -82,17 +83,14 @@
 	}
 	"SpectatorGUIHealth"
 	{
-		"ControlName"					"EditablePanel"
 		"xpos"							"70"
 		"ypos"							"380"
 		"wide"							"36"
 		"tall"							"14"
 		"HealthBonusPosAdj"				"0"
 		"HealthDeathWarning"			"0.3"
-		"TFFont"						"NotoBold16"
 		"textAlignment"					"center"
 		"HealthDeathWarningColor"		"Blank"
-		"TextColor"						"GrayDarkest"
 		"PlayerStatusHealthValue"
 		{
 			"ControlName"		"CExLabel"

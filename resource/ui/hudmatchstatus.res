@@ -132,7 +132,7 @@ if_mini		{			"visible"		"0"		}
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
-		"font"			"Notobold16"
+		"font"			"HudFontSmallishBold"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"wide"			"600"
@@ -151,7 +151,7 @@ if_mini		{			"visible"		"0"		}
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"Notobold16"
+		"font"			"HudFontSmallishBold"
 		"xpos"			"cs-0.5+2"
 		"ypos"			"80+2"
 		"wide"			"600"
@@ -180,7 +180,7 @@ if_mini		{			"visible"		"0"		}
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Notobold16"
+		"delta_item_font"		"HudFontSmallishBold"
 
 		"TimePanelValue"
 		{
@@ -411,7 +411,7 @@ if_mini		{			"visible"		"0"		}
 			{
 				"ControlName"	"cautofittinglabel"
 				"fieldName"		"respawntime"
-				"font"			"Notobold16"
+				"font"			"HudFontSmallishBold"
 				"zpos"			"9"
 				"wide"			"f0" 
 				"tall"			"19"
@@ -464,9 +464,9 @@ if_mini		{			"visible"		"0"		}
 				"xpos"			"9999"
 				"enabled"		"0"
 			}
-			"HealthIcon"
+			"HealthIcon" // hypnotize noted about this element, being removed kills fps
 			{
-				"ControlName"	"EditablePanel"
+				"ControlName"	"editablePanel"
 				"fieldName"	"HealthIcon"
 				"xpos"	"9999"
 				"visible"	"0"
@@ -506,7 +506,7 @@ if_mini		{			"visible"		"0"		}
 		}
 		"BlueTeamImage"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"Panel"
 			"fieldName"		"BlueTeamImage"
 			"xpos"			"9"
 			"ypos"			"0"

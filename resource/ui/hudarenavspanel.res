@@ -15,22 +15,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"50"
-			//	"0"
-			
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"visible"		"0"
 		}
 		
 		"AvatarImage"
@@ -42,8 +27,6 @@
 			"zpos"			"1"
 			"wide"			"58"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -59,14 +42,9 @@
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"50"
-			//	"0"
-			
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontMediumBold"
+			"font"			"defaultBold"
 			"labelText"		"%blueleader%"
 			"textAlignment"	"west"
-			"fgcolor"		"HudOffWhite"
 		}	
 	}
 	
@@ -79,14 +57,9 @@
 		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"40"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"font"			"HudFontMedium"
+		"font"			"default"
 		"labelText"		"VS"
 		"textAlignment"	"center"
-		"fgcolor"		"HudOffWhite"
 	}
 	
 	"redpanel"
@@ -104,22 +77,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"200"
-			"tall"			"50"
-			//	"0"
-			
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"visible"		"0"
 		}
 		
 		"AvatarImage"
@@ -131,8 +89,6 @@
 			"zpos"			"1"
 			"wide"			"58"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
@@ -147,14 +103,8 @@
 			"zpos"			"1"
 			"wide"			"160"
 			"tall"			"50"
-			//	"0"
-			
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"HudFontMediumBold"
 			"labelText"		"%redleader%"
 			"textAlignment"	"west"
-			"fgcolor"		"HudOffWhite"
 		}	
 	}
 }

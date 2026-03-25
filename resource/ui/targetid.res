@@ -1,5 +1,5 @@
-#base "../../../../../cfg/_jp_custom_resolution.txt"
-#base "../../../../cfg/_jp_custom_resolution.txt"
+#base "healthiconpanel.res"
+
 "Resource/UI/TargetID.res"
 {
 	"TargetIDBG"
@@ -465,8 +465,6 @@
 	}
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"634"
@@ -475,7 +473,6 @@
 		"enabled"		"0"	
 	//	"HealthBonusPosAdj"	"31"//"10"
 		"HealthDeathWarning"	"1.0" // nice
-		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"236 240 241 255"
 	}	

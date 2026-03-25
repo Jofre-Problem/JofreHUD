@@ -65,7 +65,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBoldShadow"
+			"font"			"itemfontnamesmall"
 			"xpos"			"25"
 			"ypos"			"15"
 			"zpos"			"1"

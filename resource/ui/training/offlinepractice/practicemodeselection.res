@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"NotoBold16"
+		"font"			"HudFontSmallishBold"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"xpos"			"218"

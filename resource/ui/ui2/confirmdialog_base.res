@@ -42,7 +42,7 @@
 		"fieldName"		"TitleLabel2"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
-		"font" "Notobold16"
+		"font" "HudFontSmallishBold"
 		"xpos"			"2"
 		"ypos"			"-13"
 		"zpos"			"1"
@@ -53,7 +53,7 @@
 							"fonts"
 				{
 					"0"		"NotoBold12"
-					"1"		"Notobold16"
+					"1"		"HudFontSmallishBold"
 					"2"		"NotoBold18"
 				}	
 	}

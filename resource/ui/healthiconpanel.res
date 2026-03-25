@@ -1,35 +1,21 @@
-"Resource/UI/HealthIconPanel.res"
-{
-	"HealthIcon"
+// literally tf_hud_target_id_disable_floating_health doesnt work, so im using this as base!
+"x"
+{	"HealthIcon"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HealthIcon"
-		"xpos"			"0"
-		//	"0"
-		"ypos"			"0"
-		//	"0"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
-		//	"1"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"0"
-		//	"0"
 		"ypos"			"0"
-		//	"0"
 		"wide"			"128"
-		"tall"			"128"
+		"tall"			"o1"
 		"visible"		"1"
 		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"HudFontSmallishBold"
 		"TextColor"		"HudOffWhite"
-		//	"1"
 	}	
 }

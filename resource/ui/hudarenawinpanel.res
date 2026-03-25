@@ -413,7 +413,7 @@
         "ypos"                      "0"
         "wide"                      "p0.25"
         "tall"                      "20"
-        "font"                      "NotoBold16"
+        "font"                      "HudFontSmallishBold"
         "fgcolor"                   "255 80 64 255"
         "labelText"                 "KS"
         "textAlignment"             "center"
