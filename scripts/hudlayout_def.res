@@ -72,23 +72,14 @@
 		"priority"	"35"
 		"zpos"	"1090"
 	}	
-	"basechatbg" // Icon Anchor to move Vaccinator Resistance
+
+	HudMatchStatus
 	{
-		"ControlName" "EditablePanel"
-		"xpos" 		"cs-0.5" //"rs1-7"
-		"bgcolor_override" "0 0 0 140"
-		"ypos"		"rs1-104"
-		zpos -9999
-		"wide"		"120"
-		"paintBackgroundtype" "2"
-		//"roundedcorners" "2"
-		"tall" 		"100"
-		"visible"	"0"
-		"enabled" 	"1"
-	}	
-		HudMatchStatus
-	{
-		"tall"				"480"
+		xpos 0
+		ypos 0
+		zpos 10
+		wide f0
+		"tall"				"80" // does it need to be 480?
 		"enabled"				"1"
 	}
 	"MainMenuOverride"
@@ -123,42 +114,7 @@
 	//	"SteamFriendsList"{}
 	//	"ResolutionSelector"{}
 //	}
-	"yourteam1"
-	{
-visible 0
 
-		"ControlName"		"CTFImagePanel"
-		"xpos"			"c-230-20"
-		"ypos"			"325-7"
-		"zpos"			"600"
-		"wide"			"160"
-		"tall"			"6"
-		"image"			"replay/thumbnails/hp/modulate_blu"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/hp/modulate_blu"
-		"teambg_2"		"replay/thumbnails/hp/modulate_blu"
-		"teambg_3"		"replay/thumbnails/hp/modulate_red"
-		"alpha"		"255"
-		
-	}		
-	"yourteam2"
-	{
-visible 0
-
-		"ControlName"		"CTFImagePanel"
-		"xpos"			"r320"
-		"ypos"			"325-7"
-		"zpos"			"600"
-		"wide"			"160"
-		"tall"			"6"
-		"image"			"replay/thumbnails/hp/modulate_blu"
-		"scaleImage"		"1"
-		"teambg_1"		"replay/thumbnails/hp/modulate_blu"
-		"teambg_2"		"replay/thumbnails/hp/modulate_red"
-		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
-		"alpha"		"255"
-		
-	}
 			
 	//"cbaseviewport"	{	 	"xpos"	"0"	}	
 //	"TEST:CTFItemCardPanel"{		"ControlName"		"CTFItemCardPanel"		"wide"				"f0"
@@ -171,11 +127,7 @@ visible 0
 //		"tall"					"550"
 //		"mouseinputenabled"		"1"
 //	}
-	"HudChat"
-	{
-		//"ypos"					"0"
-	}
-	// fixing shit -START->
+
 	HudDemomanCharge
 	{
 		"xpos"			"0"	
@@ -203,7 +155,6 @@ visible 0
 	
 	HudBowCharge
 	{
-
 		"tall"			"0"
 	}
 	// fixing shit -END->
@@ -222,44 +173,11 @@ visible 0
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"0"
-		////"c106-62"
 		"ypos"			"0"
-		////"325+28"
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f0"
 	}	
-	MainMenuOverride
-	{
-		"ControlName"	"CHudMainMenuOverride"
-		"enabled" "1"
-		"DashboardDimmer"
-    	{
-			"ControlName"	"CDimmerButton"
-        	"wide"                "420"
-        	"paintbackground"    "1"
-    	}
-	}
-		"EscortHilightSwoop"
-		{
-		"ControlName" "CControlPointIconSwoop"
-		"xpos" "9999"
-		"alpha" "0"
-		}			
-
-	"ReplacementCharge"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ReplacementCharge"
-		"zpos"		"0"
-		"xpos"		"402"
-		"ypos"		"23"
-		"wide"		"50"
-		"tall"		"512"
-		"visible"		"0"
-		"image"		"replay/thumbnails/sniperscope/snipercharge"
-		"scaleimage"	"1"
-	}			
 
 	"DisguiseDust"
 	{
@@ -286,15 +204,7 @@ visible 0
 				"angles"			"0 0 0"
 			}
 		}
-	}		
-	"1_editable" // Icon Anchor to move Vaccinator Resistance
-	{
-		"ControlName" "EditablePanel"
-		"wide"		"32"
-		"tall" 		"32"
-		"visible"	"1"
-		"enabled" 	"1"
-	}	
+	}
 	"TimerShit"
 	{
 		"ControlName"			"EditablePanel"
@@ -427,9 +337,10 @@ visible 0
 	}			
 	HudControlPointIcons
 	{
+		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
 		"ypos"					"410"
-		"wide"					"f0"
+		"wide"					"640"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
@@ -506,7 +417,7 @@ visible 0
 		"xpos"	 "c64"
 		"ypos"	 "c-60"
 		"wide"	 "64"
-	//	"tall"	 "0"
+		"tall"	 "128"
 		"alpha" "1"
 	}
 	CDamageAccountPanel
@@ -599,15 +510,35 @@ visible 0
 		"enabled"		"1"
 	//	"pin_to_sibling" "HudChat"
 	}
-
+	HudObjectiveStatus // payload control points etc
+	{
+		"fieldName" "HudObjectiveStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}	
 	BuildingStatus_Engineer
 	{
 		xpos 0
 		ypos 0
 		"wide"		"f0"
 		"tall"		"f0"
-	
-//		"pin_to_sibling"	"BuildingStatusAnchor"
+	}
+	HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
 	}
         HudProgressBar
         {
@@ -804,18 +735,21 @@ visible 0
 	}
 	HudStalemate
 	{
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 	}
-	"HudAlert"
+	"HudAlert" // has to be visible 0
 	{
-		// might fix something
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"visible"									"0"
+		"enabled"									"0"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
 	}	
 	HudBossHealth
 	{
@@ -1169,7 +1103,30 @@ visible 0
                 "enabled"                                "1"
                 "icon_space"                        "2"
         }
-        
+	HudCloseCaption
+	{
+		"fieldName" "HudCloseCaption"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"c-236"
+		"ypos"		"r250"
+		"zpos"		"0"
+		"tall"		"100"
+		"BgAlpha"	"0"
+		"GrowTime"		"0.0"
+		"ItemHiddenTime"	"0.0"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"	"0.0"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"	"0.1"
+		"topoffset"		"1"
+	} 
+	"HudChat"
+	{
+		"xpos"			"10"	
+		"ypos"			"275"
+		"wide"	 		"320"
+		"tall"	 		"120"
+		"PaintBackgroundType"	"2"
+	}	 
         HUDAutoAim
         {
         }        
@@ -1193,13 +1150,13 @@ visible 0
                 "visible"                                "1"
                 "enabled"                                "1"
                 "xpos"                                        "c-133"
-                "xpos_lodef"                        "c-190"
+                
                 "ypos"                                "270"
-                "ypos_lodef"                        "250"
+           
                 "wide"                                        "266"
-                "wide_lodef"                        "400"
+              
                 "tall"                                        "120"
-                "tall_lodef"                        "190"
+           
         }
         
         FreezePanel
