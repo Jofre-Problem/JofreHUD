@@ -11,7 +11,7 @@
 				zpos		"1011"
 				wide					50
 				tall					20	
-				font					"Regular12"
+				font					"HudFontMediumSmallSecondary"
 				fgcolor_override		"255 255 255 255"
 				labelText				"Speed Meter"
 				textAlignment			west

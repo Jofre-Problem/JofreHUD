@@ -7,10 +7,16 @@
 	#base "preload.res"
 	#base "ui3/polybar_1_mm.res"
 	#base "ui3/polyconfig1_mm.res"
-	#base	"ui3/mainmenuoverride_base.res"
+	#base "ui3/mainmenuoverride_base.res"
 "j"
 {	
-
+"Safemode"
+{
+    xpos cs-0.5
+    ypos cs-0.5
+    zpos 1000
+    proportionaltoparent 0
+}
 	
 "ChatPin"
 {
@@ -74,8 +80,6 @@
 	
 		paintBackground			0
 	}		
-	"MainMenuOverride"
-	{	}
 	"polybar0bgmm"	
 	{
 		"zpos"	"1000"
@@ -269,7 +273,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipSubLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tipsubtext%"
 "textAlignment""center"
 "xpos""20"
@@ -289,7 +293,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tiptext%"
 "textAlignment""center"
 "xpos""20"
@@ -595,7 +599,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"		"Size 14"
+			"font"		"EconFontSmall"
 			"labelText"		"%notititle%"
 			"textAlignment"		"north-west"
 			"xpos"		"12"
@@ -780,23 +784,19 @@
 				"image"			"replay/thumbnails/null"
 			}			
 		}
-	}
-
-
-	"NewUserForumsButton"
-	{
-		wide					0
-	}					
+	}		
 
 	"RankPanel"
 	{
 		"ControlName"		"CPvPRankPanel"
 		"fieldName"		"RankPanel"
+        xpos cs-0.5
+        ypos 0
 		"zpos"		"-52"
-		"wide"		"f0"
-		"tall"		"f0"
+		"wide"		"p1" // it stops working randomly lol if proportional to 1
+		"tall"		"480"
 		"visible"		"1"
-		"proportionaltoparent"		"1"
+		"proportionaltoparent"		"0"
 		"mouseinputenabled"		"0"
 
 		"matchgroup"		"MatchGroup_Casual_12v12"
@@ -804,9 +804,8 @@
 		"show_model"		"0"
 		"show_type"		"1"
 	}		
-	"MainMenuOverride"
-	{	}
-	"Warning"{			"visible"			"0"	}		
+
+		
 	"MenuColorizer"
 	{
 		"ControlName"								"EditablePanel"
@@ -946,7 +945,7 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine playerstats"
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
 
 				"defaultBgColor_override" 	"Blank"
@@ -960,16 +959,6 @@
 		"pin_to_sibling"	"1_btn"		
 	
 		paintBackground			0
-	}	
-	"testcmd"
-	{
-			"ControlName"							"CExButton"
-			"fieldName"								"testcmd"				
-		wide					30
-		tall					15
-		command				"engine say_team no"
-		paintBackground			0
-		"labeltext" ""
 	}			
 	"3_btn"
 	{
@@ -982,7 +971,7 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"OpenLoadSingleplayerCommentaryDialog"
-				"defaultFgColor_override" 	"White"
+				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
 
 				"defaultBgColor_override" 	"Blank"
@@ -1040,7 +1029,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipSubLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tipsubtext%"
 "textAlignment""center"
 "xpos""20"
@@ -1060,7 +1049,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tiptext%"
 "textAlignment""center"
 "xpos""20"
@@ -1205,7 +1194,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Size 14"
+			font					"EconFontSmall"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
@@ -1222,100 +1211,6 @@
 	"StoreHasNewItemsImage"		//Possible use in the future
 	{
 		"visible"			"0"
-	}
-	"Notifications_Panel"
-	{
-		ControlName				EditablePanel
-		FieldName				"Notifications_Panel"
-		xPos					rs1-5
-		yPos					35
-		zPos					300
-		wide					210
-		tall					80
-		visible				0
-		border			"noborder"
-
-		"Notifications_CloseButton"
-		{
-			ControlName				CExButton
-			FieldName				"Notifications_CloseButton"
-			xPos					rs1
-			yPos					3
-			zPos					10
-			wide					16
-			tall					10
-			proportionalToParent		1
-
-			font					"Default"
-			labeltext				"x"
-			textAlignment			center
-			actionsignallevel			2
-
-			Command				"noti_hide"
-
-			sound_depressed			"ui/buttonclick.wav"
-			sound_released			"ui/buttonclickrelease.wav"
-		
-			defaultFgColor_override		"black"
-			defaultBgColor_override		"white"
-			armedBgColor_override		"Red"
-			armedFgColor_override		"white"
-
-			paintBackground			1
-		}		
-	
-		"Notifications_TitleLabel"
-		{
-			ControlName				CExLabel
-			FieldName				"Notifications_TitleLabel"
-			xPos					8
-			yPos					3
-			"zpos"					"100"
-			wide					f30
-			tall					10
-			proportionalToParent		1
-
-			font					"Default"
-			labelText				"%notititle%"
-			textAlignment			west
-			wrap					0
-			textInsetY				2
-			fgcolor_override		"white"
-			
-			paintBackground			0
-		}
-
-		"Notifications_Scroller"
-		{
-			ControlName				ScrollableEditablePanel
-			FieldName				"Notifications_Scroller"
-			xPos					3
-			yPos					22
-			wide					f3
-			tall					f25
-			proportionalToParent		1
-
-			fgcolor_override			"Primary"
-			
-			"Notifications_Control"		// width harcoded as parent - scrollbar
-			{
-				ControlName				CMainMenuNotificationsControl
-				FieldName				"Notifications_Control"
-				xPos					0
-				yPos					0
-				tall					f0
-				proportionalToParent		1
-
-				// => resource\ui\econ\NotificationToastControl.res"
-			}
-
-			"VerticalScrollBar"
-			{
-				xpos					rs1-1
-				wide					2
-				proportionalToParent		1
-			}
-		}
 	}
 
 	"NoGCMessage"		
@@ -1391,7 +1286,7 @@
 	}		
 	"QuestLogButton"
 	{
-		"tall"			"0"
+	"visible"			"0"
 	}
 	"EventPromo"
 	{
@@ -1455,7 +1350,7 @@
 			
 			"default"		"1"
 			
-					"defaultFgColor_override" 	"White"
+					"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
 
 				"defaultBgColor_override" 	"Blank"
@@ -1507,7 +1402,7 @@
 		"fieldname"		"FriendsContainerv2"
 		"xpos"			"cs-0.5"
 		"ypos"			"25"
-		"zpos"			"2001"
+		"zpos"			"10"
 		"wide"			"250"
 		"tall"			"433"
 		"visible"		"1"
@@ -2131,28 +2026,6 @@
 		{"xpos"	"9999"}
 	}
 
-	"VersionLabel"
-	{
-		"ControlName"		"CExImageButton"
-		"fieldName"			"VersionLabel"
-		"font"				"itemfontnamesmallest"
-		"labelText"			""
-		"labelText_minmode"	"Streamer Mode ON!"
-		"xpos"				"rs1-95"
-		"ypos"				"rs1"
-		"zpos"				"100"
-		"wide"				"130"
-		"tall"				"15"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintbackground"	"0"
-		"sound_depressed"	""
-		"textAlignment"		"east"
-		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override"	"TanLight"
-	}	
 	"HolidayConditional"	
 	//thanks Niterux
 	{
@@ -2241,7 +2114,7 @@
 		fieldName "ADContainerTest"
 		"xpos"			"00"
 		"ypos"			"00"
-		zpos "100"
+		zpos "2"
 		"wide"			"p1.01"
 		"tall"			"480"
 		"visible"		"1"
@@ -2586,7 +2459,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Presets"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2625,7 +2498,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "Presets"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -2655,7 +2528,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -2719,7 +2592,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -2781,7 +2654,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -2844,7 +2717,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -2986,7 +2859,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Graphics Model Quality"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3025,7 +2898,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Graphics Model Quality"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3055,7 +2928,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3119,7 +2992,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3182,7 +3055,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3245,7 +3118,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3361,7 +3234,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Lighting"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3400,7 +3273,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Lighting"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3430,7 +3303,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3494,7 +3367,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3557,7 +3430,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3620,7 +3493,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3683,7 +3556,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3808,7 +3681,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Shading"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3847,7 +3720,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shading"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -3877,7 +3750,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -3941,7 +3814,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4004,7 +3877,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4119,7 +3992,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Phong Shading"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4158,7 +4031,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Phong Shading"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -4188,7 +4061,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4252,7 +4125,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4315,7 +4188,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4434,7 +4307,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Shadows"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4473,7 +4346,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shadows"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -4503,7 +4376,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4567,7 +4440,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4630,7 +4503,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4693,7 +4566,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4756,7 +4629,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4843,7 +4716,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Effects"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4882,7 +4755,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Effects"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -4912,7 +4785,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -4976,7 +4849,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5039,7 +4912,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5102,7 +4975,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5165,7 +5038,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5278,7 +5151,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Tracers"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5317,7 +5190,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Tracers"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -5347,7 +5220,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5411,7 +5284,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5473,7 +5346,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5562,7 +5435,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Water"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5601,7 +5474,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Water"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -5631,7 +5504,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Water: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5695,7 +5568,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Water: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5758,7 +5631,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Water: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5821,7 +5694,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Water: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5884,7 +5757,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Water: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -5980,7 +5853,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Post Processing"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6019,7 +5892,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "PostProcessing"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6049,7 +5922,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6113,7 +5986,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6176,7 +6049,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Default"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6239,7 +6112,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Calm"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6301,7 +6174,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Vivid"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6364,7 +6237,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Washed"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6429,7 +6302,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Dreamy"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6530,7 +6403,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Motion Blur"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6569,7 +6442,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6599,7 +6472,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6663,7 +6536,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6725,7 +6598,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6789,7 +6662,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -6889,7 +6762,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Characters"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -6928,7 +6801,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Characters"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -6958,7 +6831,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7021,7 +6894,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7082,7 +6955,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7146,7 +7019,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7259,7 +7132,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Decals"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -7298,7 +7171,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Controls bullet holes and overall decal support."
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -7328,7 +7201,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7392,7 +7265,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Decals: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7455,7 +7328,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7518,7 +7391,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7581,7 +7454,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Decals: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7693,7 +7566,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Decals Models"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -7732,7 +7605,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Decals Models"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -7762,7 +7635,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7826,7 +7699,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7888,7 +7761,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals Models: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -7951,7 +7824,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals Models: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8041,7 +7914,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Sprays"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8080,7 +7953,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Sprays"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8110,7 +7983,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8174,7 +8047,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: ON"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8235,7 +8108,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: KEEP ALL"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8357,7 +8230,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Silly Gibs"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8396,7 +8269,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "silly!"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8426,7 +8299,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8490,7 +8363,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: ON"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8581,7 +8454,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "gibs"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8620,7 +8493,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "gibs"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8650,7 +8523,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8714,7 +8587,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8775,7 +8648,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8859,7 +8732,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Props"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -8898,7 +8771,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "props"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -8928,7 +8801,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -8992,7 +8865,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9053,7 +8926,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9150,7 +9023,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Ragdoll"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -9189,7 +9062,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Ragdoll"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -9219,7 +9092,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9283,7 +9156,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9344,7 +9217,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9436,7 +9309,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Jigglebones"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -9475,7 +9348,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "jigglebones"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -9505,7 +9378,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9569,7 +9442,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9630,7 +9503,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9709,7 +9582,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Texture Quality"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -9749,7 +9622,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9813,7 +9686,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9874,7 +9747,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9935,7 +9808,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Very High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -9996,7 +9869,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10390,7 +10263,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "General"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -10429,7 +10302,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                 "general"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -10459,7 +10332,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10523,7 +10396,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10585,7 +10458,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10648,7 +10521,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10790,7 +10663,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Scout"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -10829,7 +10702,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Graphics Model Quality"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -10859,7 +10732,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10923,7 +10796,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -10986,7 +10859,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11049,7 +10922,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11165,7 +11038,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Soldier"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11204,7 +11077,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Lighting"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -11234,7 +11107,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11298,7 +11171,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11361,7 +11234,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11424,7 +11297,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11487,7 +11360,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11612,7 +11485,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Pyro"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11651,7 +11524,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shading"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -11681,7 +11554,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11745,7 +11618,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11808,7 +11681,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -11923,7 +11796,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Demoman"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -11962,7 +11835,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Phong Shading"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -11992,7 +11865,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12056,7 +11929,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12119,7 +11992,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12238,7 +12111,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Heavy"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -12277,7 +12150,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Shadows"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -12307,7 +12180,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12371,7 +12244,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12434,7 +12307,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12497,7 +12370,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12560,7 +12433,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12647,7 +12520,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Engineer"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -12686,7 +12559,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Effects"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -12716,7 +12589,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12780,7 +12653,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12843,7 +12716,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12906,7 +12779,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -12969,7 +12842,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13082,7 +12955,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Medic"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -13121,7 +12994,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Tracers"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -13151,7 +13024,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13215,7 +13088,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13277,7 +13150,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13367,7 +13240,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Sniper"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -13408,7 +13281,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Crouch Jump (Spacebar)"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13506,7 +13379,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Crouch Jump (Spacebar)"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13641,7 +13514,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Spy"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -13680,7 +13553,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -13710,7 +13583,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13774,7 +13647,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13836,7 +13709,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -13900,7 +13773,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -14005,7 +13878,7 @@
                         "tall"                      "19"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Mann Vs. Machine"
-                        "font"                      "regular12"
+                        "font"                      "HudFontMediumSmallSecondary"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -14044,7 +13917,7 @@
                                 "tall"                      "f1"
                                 "proportionaltoparent"      "1"
                                 "labelText"                  "Motion Blur"
-                                "font"                      "regular16"
+                                "font"                      "HudFontSmallishBold"
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
@@ -14074,7 +13947,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -14138,7 +14011,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -14200,7 +14073,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -14264,7 +14137,7 @@
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
          
                             }
@@ -14944,16 +14817,15 @@
 			"ControlName"		"CMatchHistoryEntryPanel"
 			"fieldName"		"QuickPlayExpandable"
 			"wide"		"184"
-			"tall"		"24"
+			"tall"		"14"
 			"visible"	"1"
 			"ypos" "0"
 			"xpos" "cs-0.5"
-			"collapsed_height"	"24"
+			"collapsed_height"	"14"
 			"expanded_height"	"219"
 			"resize_time"		"0.05"
 			"zpos" "1000"
-			"ignorescheme"	"1"
-			
+			"ignorescheme"	"1"		
 		//expand_direction "left"
 			"toggle"
 			{
@@ -14978,48 +14850,15 @@
 				"armedbgcolor_override" "0 0 0 220"
 				"armedfgcolor_override" "notogreen"
 			}
-			"RandomPinnerThatWorks" //leftover
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"RandomPinnerThatWorks"
-				"font"		"NewIcons10"//"Symbols 26"
-				"labelText"		"}"
-				"textAlignment"		"south"
-				"textinsety"		"0"
-				"use_proportional_insets"	"1"
-
-
-
-				"ypos"		"-185"
-
-
-
-
-				"wide"		"24"
-				"tall"		"24"
-				"visible"		"0"
-				"Command"		"url https://comfig.app/quickplay/?autostart=2"
-				"button_activation_type"	"1"
-
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-
-				"paintbackground"		"0"
-				"defaultFgColor_override"		"White"
-				"armedFgColor_override"		"MainTheme"
-				"alpha" "0"
-				//"		"2"
-			}		
 			"RandomImagePanel"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"		"RandomImagePanel"
 				"zpos"		"1"
+                ypos 14
 				"wide"		"182"
-				"tall"		"50"
+				"tall"		"30"
 				"visible"	"1"		
-				
-				"pin_to_sibling"		"RandomPinnerThatWorks"
 				"PartySlot0"
 					{
 						"ControlName"		"CDashboardPartyMember"
@@ -15044,7 +14883,7 @@
 						"zpos"		"99"
 						"wide"		"30"
 						"tall"		"o1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -15063,7 +14902,7 @@
 						"fieldName"		"PartySlot2"
 						"zpos"		"99"
 						"wide"		"30"		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
 						"tall"		"o1"
 						"visible"		"1"
 						"enabled"		"1"
@@ -15083,7 +14922,7 @@
 						"fieldName"		"PartySlot3"
 						"zpos"		"99"
 						"wide"		"30"		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
 						"tall"		"o1"
 						"visible"		"1"
 						"enabled"		"1"
@@ -15104,7 +14943,7 @@
 						"zpos"		"99"
 						"wide"		"30"
 						"tall"		"o1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -15124,7 +14963,7 @@
 						"zpos"		"99"
 						"wide"		"30"
 						"tall"		"o1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -15252,39 +15091,15 @@
 					}
 		}
 
-
-
-
-
-
-
-
-
 			"container"
 			{"visible"	"0"}
 			"BottomStats"
 			{"visible"	"0"}
 		}
-
-
-
-
-
-	"MenuColorizer"	//always on
-	{
-		"zpos"										"-101"
-
-	}	
 	"EventPromo"
 	{
 		"visible"										"0"
 	}
-	"RankPanel"
-	{
-		zpos -999
-		"visible"										"0"
-	}
-
 	"TestPanel"
 		{
 			"ControlName"		"CMatchHistoryEntryPanel"
@@ -15537,7 +15352,7 @@
 				"tall"		"184"
 				"visible"	"1"	
 				paintBackground "1"	
-				bgcolor_override "g_brown"
+				bgcolor_override "black"
 				"pin_to_sibling"		"RandomPinnerThatWorks"
 				border noborder
 
@@ -15559,7 +15374,7 @@
 				"textAlignment"					"center"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
-				defaultbgcolor_override G_brown2
+				defaultbgcolor_override "27 27 27 255"
 			}
 			
 			"StreamerModeCheckbox"

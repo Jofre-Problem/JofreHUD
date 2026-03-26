@@ -71,7 +71,7 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"BlueCount"
 		labelText		  		"%bluecount%"
-		font			  		"G_Fontbig"
+		font			  		"HudFontBig"
 		textAlignment	  		center
 
 		fgcolor		  		"White"
@@ -206,7 +206,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%redcount%"
-		font			  		"G_Fontbig"
+		font			  		"HudFontBig"
 		textAlignment	  		center
 
 		fgcolor		  		"White"

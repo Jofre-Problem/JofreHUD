@@ -141,7 +141,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Regular12"
+				"font"			"HudFontMediumSmallSecondary"
 				"xpos"			"30"
 				"ypos"			"18"
 				"zpos"			"5"
@@ -171,7 +171,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Regular12"
+				"font"			"HudFontMediumSmallSecondary"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
@@ -887,7 +887,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"Regular12"
+		"font"			"HudFontMediumSmallSecondary"
 		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -985,7 +985,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"Regular12"
+		"font"			"HudFontMediumSmallSecondary"
 		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -1093,11 +1093,11 @@
 
 		if_mvm
 		{
-			"font"		"Regular12"
+			"font"		"HudFontMediumSmallSecondary"
 		}
 		if_readymode
 		{
-			"font"		"Regular12"
+			"font"		"HudFontMediumSmallSecondary"
 		}
 	}
 

@@ -1458,7 +1458,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
-                                "font"                          "regular12"
+                                "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "notowhite"
 	visible 0
                             }
@@ -5179,7 +5179,7 @@ proportionaltoparent 1
 		"MOTD_Label"
 		{			"ControlName"	"cexLabel"
 			"fieldname"		"MOTD_Label"
-			"font"			"NotoBold18"
+			"font"			"NotoBold14"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-5"
 			"visible"			"0"	//cant find a good use

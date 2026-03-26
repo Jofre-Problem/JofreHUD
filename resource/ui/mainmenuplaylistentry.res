@@ -89,7 +89,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"MatchmakingBanDurationLabel"
-			"font"									"Size 12"
+			"font"									"ItemFontNameLarge"
 		//	"fgcolor_override"						"RedDark"
 			"labelText"								"#TF_Matchmaking_Ban_Duration_Remaining"
 			"textalignment"							"south-west"

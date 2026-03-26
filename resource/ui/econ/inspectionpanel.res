@@ -24,7 +24,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"			"g_brown2"
+		"fillcolor"			"27 27 27 255"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}	

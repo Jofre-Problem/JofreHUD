@@ -326,7 +326,7 @@
 		"enabled"				"1"
 		"labelText"				"H"
 		"textAlignment"			"west"
-		"font"					"NewIcons10"
+		"font"					"NewIcons12"
 		"fgcolor"				"245 245 245 150"
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}

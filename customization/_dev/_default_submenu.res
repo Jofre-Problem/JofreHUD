@@ -21,7 +21,7 @@
 					"labelText"				"Please select an option from the sidebar on the left."
 					"textAlignment"			"center"
 					"centerwrap"			"1"
-					"font"					"regular12"
+					"font"					"HudFontMediumSmallSecondary"
 					"mouseinputenabled"		"0"
 					"fgcolor"				"Text0"
 					"border"				"FLAT_Black_4"

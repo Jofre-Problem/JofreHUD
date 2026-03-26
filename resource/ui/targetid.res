@@ -342,7 +342,7 @@
 	{	
 		"ControlName"		"cautofittinglabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"killfeeduber"//"Size 16 uber"
+		"font"			"killfeeduber"
 		"xpos"			"0"
 		"ypos" 			"0"
 		"zpos"			"1"

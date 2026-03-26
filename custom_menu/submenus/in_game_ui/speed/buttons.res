@@ -12,7 +12,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"FOntlabel"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Speed Meter Style"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -34,7 +34,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Disable it"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_speed_style; jp_reload"
 						"actionsignallevel"		"5"
@@ -54,7 +54,7 @@
 						"tall"					"200"
 						"proportionaltoparent"	"1"
 						"labeltext"				"L4D2 Workshop Speedrun"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_speed_style.txt"	;con_logfile cfg/_jp_speed_style.txt; echo #base ../custom/jofrehud-main/_jofrenew/new/ui_overrides/speed/file.res; con_logfile ."
 

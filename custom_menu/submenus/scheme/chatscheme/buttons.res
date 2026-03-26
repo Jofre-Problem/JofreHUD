@@ -12,7 +12,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"MainFont"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Font Size:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -34,7 +34,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"15"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	15} 2 {tall	17}3{tall 24}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -54,7 +54,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"16"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	16} 2 {tall	18}3{tall 25}}}}; con_logfile ."
 						"actionsignallevel"		"5"
@@ -74,7 +74,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"17"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	17} 2 {tall	19}3{tall 25}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -94,7 +94,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"18"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	18} 2 {tall	20}3{tall 26}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -114,7 +114,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"19"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	19} 2 {tall	21}3{tall 27}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -134,7 +134,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"20"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_size_clear; con_logfile cfg/_jp_chat_size.txt; echo Scheme{Fonts{ChatFont{1{tall	20} 2 {tall	22}3{tall 28}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -148,7 +148,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"MainScrollbarWide"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Scrollbar Wide:"
 						"textAlignment"	"center"
 						"xpos"		"120"
@@ -170,7 +170,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"3"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	3}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -190,7 +190,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"4"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	4}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -210,7 +210,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"5"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	5}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -230,7 +230,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"6"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	6}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -250,7 +250,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"7"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	7}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -270,7 +270,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"8"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_scwide_clear; con_logfile cfg/_jp_chat_scrollbar_wide.txt; echo Scheme{BaseSettings{ScrollBar.Wide	8}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -284,7 +284,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"MainFColor"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Choose Color:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -5719,7 +5719,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"MainFontShadow"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Use Shadow Font?"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -5741,7 +5741,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Yes"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_shadow_clear; con_logfile cfg/_jp_chat_shadow.txt; echo Scheme{Fonts{ChatFont{1{dropshadow	1} 2 {dropshadow	1}3{dropshadow 1}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5761,7 +5761,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"No"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_shadow_clear"
 						"actionsignallevel"		"5" 
@@ -5775,7 +5775,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"MainFontOutline"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Use Outline?"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -5797,7 +5797,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Yes"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_line_clear; con_logfile cfg/_jp_chat_outline.txt; echo Scheme{Fonts{ChatFont{1{outline	1} 2 {outline	1}3{outline 1}}}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5817,7 +5817,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"No"
-						"font"					"Size 14"
+						"font"					"EconFontSmall"
 						"textalignment"			"center"
 						"command"				"engine jp_chatscheme_line_clear"
 						"actionsignallevel"		"5" 
@@ -5831,7 +5831,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"basechat"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Chat Rich Text Settings:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -5847,7 +5847,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"basechatwidelabel"
-						"font"		"Regular12"
+						"font"		"HudFontMediumSmallSecondary"
 						"labelText"		"Wide:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -5869,7 +5869,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"200"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 200}ChatInputLine{wide 200}HudChatHistory{wide 200}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5889,7 +5889,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"210"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 210}ChatInputLine{wide 210}HudChatHistory{wide 210}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5909,7 +5909,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"220"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 220}ChatInputLine{wide 220}HudChatHistory{wide 220}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5929,7 +5929,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"230"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 230}ChatInputLine{wide 230}HudChatHistory{wide 230}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5949,7 +5949,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"240"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 240}ChatInputLine{wide 240}HudChatHistory{wide 240}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5969,7 +5969,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"250"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 250}ChatInputLine{wide 250}HudChatHistory{wide 250}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -5989,7 +5989,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"260"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{wide 260}ChatInputLine{wide 260}HudChatHistory{wide 260}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -6010,7 +6010,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 			
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"ControlName"			"CExButton"
 
@@ -6032,7 +6032,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 			
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"ControlName"			"CExButton"
 
@@ -6047,7 +6047,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"basechattalllabel"
-						"font"		"Regular12"
+						"font"		"HudFontMediumSmallSecondary"
 						"labelText"		"Tall:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -6069,7 +6069,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"120"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"command"				"engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{tall 120}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -6089,7 +6089,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"140"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 "command""engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{tall 140}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -6111,7 +6111,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 "command""engine sixense_clear_bindings; sixense_write_bindings _jp_chat_wide.txt; con_logfile cfg/_jp_chat_wide.txt; echo x{HudChat{tall 160}}; con_logfile ."
 						"actionsignallevel"		"5" 
@@ -6133,7 +6133,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6155,7 +6155,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6177,7 +6177,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6199,7 +6199,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6221,7 +6221,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6243,7 +6243,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6265,7 +6265,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6287,7 +6287,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6309,7 +6309,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6323,7 +6323,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"basechatxposlabel"
-						"font"		"Regular12"
+						"font"		"HudFontMediumSmallSecondary"
 						"labelText"		"ypos: (- is for upper + is for lower)"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -6347,7 +6347,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6369,7 +6369,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6391,7 +6391,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6413,7 +6413,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6435,7 +6435,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6457,7 +6457,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6479,7 +6479,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6501,7 +6501,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6655,7 +6655,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6677,7 +6677,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6699,7 +6699,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6721,7 +6721,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6743,7 +6743,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6765,7 +6765,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6787,7 +6787,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 
@@ -6809,7 +6809,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 
 						"actionsignallevel"		"5" 

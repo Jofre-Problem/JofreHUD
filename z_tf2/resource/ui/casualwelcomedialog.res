@@ -80,7 +80,7 @@
 		"ypos"			"60" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44" // XPSource_Glow font - 4 rows
 		//	"0"
 		//		"0"
 		"wrap"			"1"
@@ -117,7 +117,7 @@
 		"ypos"			"121" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44" // XPSource_Glow font - 4 rows
 		//	"0"
 		//		"0"
 		"wrap"			"1"

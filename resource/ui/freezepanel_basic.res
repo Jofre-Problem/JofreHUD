@@ -34,7 +34,7 @@
 			"enabled"		"1"
 			"HealthBonusPosAdj"	"42"
 			"HealthDeathWarning"	"1"
-			"TFFont"		"Size 16"
+			"TFFont"		"HudFontSmallishBold"
 			"textAlignment"		"center"
 			"HealthDeathWarningColor"	"Low Health"
 			"TextColor"		"GrayDarkest"

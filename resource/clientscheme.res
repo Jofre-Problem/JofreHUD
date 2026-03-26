@@ -27,127 +27,34 @@ Scheme
 		"PositiveT2"		"64 255 160 153"
 		"WarningT2"			"255 160 64 153"
 		"NegativeT2"		"255 64 80 153"
-
+	"G_Brown"				"49 44 41 255"
+		"G_ButtonBg"				"96 83 73 255" // Button bg color
+		"G_ButtonText"				"255 255 255 255" // Button text color
+		"G_ButtonHoverBg"			"170 103 102 255" // Button hover bg color
+		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
+		"G_ButtonSelectedBg"		"156 53 51 255" // Button selected bg color
+		"G_ButtonSelectedText"		"255 255 255 255" // Button selected text color	
 		"PrimaryT3"			"64 160 255 102"
 		"NeutralT3"			"255 255 255 102"
 		"PositiveT3"		"64 255 160 102"
 		"WarningT3"			"255 160 64 102"
 		"NegativeT3"		"255 64 80 102"
+		"G_Highlight"			"156 53 51 255" // Highlight color
+
 
 		"PrimaryT4"			"64 160 255 51"
 		"NeutralT4"			"255 255 255 51"
 		"PositiveT4"		"64 255 160 51"
 		"WarningT4"			"255 160 64 51"
 		"NegativeT4"		"255 64 80 51"
-
+	"G_MenuShader"				"0 0 0 99" // Menu shader color
+	"G_MenuText"				"220 206 199 255" // Menu text color
 		"Crosshair"			"255 255 255 255"
 		"CreditsGreen"		"64 160 255 255"
 		// yeah
 		"whattimeis1"											"30 30 30 255"
 		"whattimeisinvert"											"30 30 30 255"
-		"G_Highlight"			"156 53 51 255" // Highlight color
 
-		"G_Black"				"0 0 0 255"
-		"G_Red"					"230 0 0 255"
-		"G_Shadow"				"0 0 0 220" // Shadow color
-		"G_LightShadow"			"0 0 0 110"
-		"G_Heal"				"127 224 74 255" // Heal color
-		"G_Hit"					"235 167 50 255" // Hit color
-		"G_Brown"				"49 44 41 255"
-			"G_Brown2"				"27 27 27 255"		//"49 44 41 255"
-		"G_Yellow"				"235 220 50 255"
-		"G_WhiteShadow"			"255 255 255 50"
-		"G_WhiteShadowDim"		"255 255 255 40"
-		"G_WhiteShadowCharge"	"255 255 255 100"
-		"G_Grey"				"54 54 54 255" // Move building bg
-		"G_LightGrey"			"179 179 179 255" // Metal color in build/destroy menu
-		"G_HealthBarBg"			"0 0 0 220" // Target health bg
-		"G_CurrencyBad"			"255 60 60 255" // Red currency in MvM
-		"G_TransparentMenuBG"	"0 0 0 200" // Transparent menu color
-		"G_PanelBg"				"40 40 40 200" // Panel color
-		"G_OpaquePanelBg"		"40 40 40 255" // Opaque Panel color
-		"G_Warning"				"243 82 82 255" // Warning color
-		"G_HealthValue"			"255 255 255 255" // Health value color
-		"G_Overheal"			"54 255 0 255" // Overhealed health value color
-		"G_LowHealthValue"		"255 0 0 255" // Low health value color
-		"G_AmmoClipValue"		"255 255 255 255" // Ammo in clip value color
-		"G_AmmoReserveValue"	"179 179 179 255" // Ammo in reserve value color
-		"G_LowAmmo"				"255 0 0 255" // Low ammo color
-		"G_MetalValue"			"179 179 179 255" // Metal color
-		"G_MetalIcon"			"179 179 179 255" // Metal icon color
-		"G_HeadsValue"			"235 153 50 255" // Heads value color
-		"G_HeadsLabel"			"235 153 50 255" // Heads value icon color
-		"G_KillstreakValue"		"246 255 0 255" // Killstreak value color
-		"G_KillstreakIcon"		"246 255 0 255" // Killstreak icon color
-		"G_StickyColor"					"255 255 255 255" // Stickybomb color
-		"G_StickyIconColor"				"255 255 255 255" // Stickybomb icon color
-		"G_CustomTargetID" 				"0 0 0 99" // Custom target id bg color
-		"G_CustomBuildingStatusBg" 		"0 0 0 100" // Custom building status bg color
-		"G_TargetHealthValue" 			"255 255 255 255" // Target ID health value color
-		"G_TargetHealthValueShadow" 	"0 0 0 220" // Target ID health value shadow color
-		"G_Killfeed_Base"			"0 0 0 171" // Killfeed Base color
-		"G_Killfeed_Local"			"235 235 235 255" // Killfeed Local color
-		"G_CenteredMetalBg"			"50 50 50 120" // Centered metal background color
-		"G_CenteredUberchargeBg"	 "0 0 0 100" // Centered ubercharge meter background color
-		"G_BrownBg"					"46 43 42 220"
-		"G_DestroyBg"				"120 0 0 150"
-		"G_ScoreboardBlue"			"55 73 85 100"
-		"G_ScoreboardRed"			"106 34 34 100"
-		"G_TeamBlue"				"91 122 140 255"
-		"G_TeamRed"					"189 58 58 255"
-		"G_TeamButtonBlue"			"91 122 140 100"
-		"G_TeamButtonRed"			"189 58 58 100"
-		"G_TeamButtonBlueArmed"		"111 142 160 255"
-		"G_TeamButtonRedArmed"		"209 78 78 255"		
-		"G_Footer"					"28 23 19 255" // Menu footer color
-		"G_DimmFooter"				"28 23 19 200" // Dimm Menu footer color
-		"G_FooterText"				"203 186 177 255" // Footer text color
-		"G_DimmFooterText"			"196 178 168 120" // Dimm Footer text color
-		"G_OuterBorder"				"0 0 0 255" // Outer border color
-		"G_InnerBorder"				"0 0 0 30" // Inner border color
-		"G_KillfeedBlue"			"83 155 242 255" // Killfeed blue text
-		"G_KillfeedRed"				"243 82 82 255" // Killfeed red text
-		"G_KillfeedIcon"			"255 255 255 255" // Killfeed icon color
-		"G_CustomHealthValue"		"120 120 120 255"
-		"G_MainMenuOverlay"			"247 70 70 0" // Main Menu overlay color
-		"G_MainMenuPanel"			"28 23 19 255" // Main Menu panel color
-		"G_MainMenuButton"			"232 202 172 255" // Main Menu button color
-		"G_MainMenuButtonHover"		"156 53 51 255" // Main Menu hovered button color
-		"G_MainMenuButtonFg"		"38 30 22 255" // Main Menu button text color
-		"G_MainMenuButtonHoverFg"	"240 240 240 255" // Main Menu hovered button text color
-		"G_MainMenuShader" 			"0 0 0 0" // Main Menu shader color
-		"G_BackpackItemBg"			"55 50 45 255" // Backpack item bg color
-		"G_LoadoutItemBg"			"52 47 42 255" // Loadout item bg color
-		"G_MenuBg"					"40 34 30 255" // Menu bg color
-		"G_MenuText"				"220 206 199 255" // Menu text color
-		"G_InputText"				"0 0 0 240" // Input text color
-		"G_DimmInputText"			"0 0 0 100" // Dimm Input text color
-		"G_DimmMenuText"			"220 206 199 120" // Dimm Menu text color
-		"G_ItemDescriptionPanelBg"	"24 22 20 255" // Item description panel bg
-		"G_ButtonBg"				"96 83 73 255" // Button bg color
-		"G_ButtonText"				"255 255 255 255" // Button text color
-		"G_ButtonHoverBg"			"170 103 102 255" // Button hover bg color
-		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
-		"G_ButtonSelectedBg"		"156 53 51 255" // Button selected bg color
-		"G_ButtonSelectedText"		"255 255 255 255" // Button selected text color
-		"G_MiniButtonBg"			"50 50 50 255" // Mini button bg color
-		"G_MiniButtonHoverBg"		"10 10 10 255" // Mini button hover bg color
-		"G_GhostWhite"				"255 255 255 210"
-		"G_ItemMeterBg"				"0 0 0 100" // Item meter bg
-		"G_ItemMeterBorder"			"0 0 0 255" // Item meter border color
-		"G_MenuShader"				"0 0 0 99" // Menu shader color
-		"G_XPBar"					"240 240 240 255" // XP Bar color
-		"G_ItemEffectMeterLineColor"	"120 120 120 130"
-		"G_MvmLobbyPanelBg"			"40 40 40 255"
-		"G_MvmLobbyPanelText"		"220 220 220 255"
-		
-		// Crosshairs
-		"G_Crosshair1Color"		"255 0 0 255" // Crosshair1 color
-		"G_Crosshair2Color"		"255 0 0 255" // Crosshair2 color
-		"G_Crosshair3Color"		"255 255 255 255" // Crosshair3 color
-		"G_Hitmarker1Color"		"255 0 0 255" // Hitmarker1 color
-		"G_Hitmarker2Color"		"255 0 0 255" // Hitmarker2 color
-		"G_Hitmarker3Color"		"255 0 0 255" // Hitmarker3 color
 		"Tanlight"			"255 255 255 255"	
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
@@ -201,19 +108,10 @@ Scheme
 		"TextT2"											"255 255 255 160"
 		"TextT3"											"255 255 255 112"
 		"TextT4"											"255 255 255 64"		
-		//=============================================================================
-		// MENU COLORS
-		//=============================================================================
+
 		"WhiteFull"											"255 255 255 255"
-
-
-		//----------------------------------------------------------------------------------
-		// MENUS
-		//----------------------------------------------------------------------------------
 		"Menu_Accent"										"255 0 127 255"
 		"Class_Selection"									"0 215 0 255"
-		
-		//BACKGROUNDS
 		"Background_Main"									"46 43 42 255"
 		"Background_Dark"									"28 26 25 255"
 		"Background_Darkest"								"18 15 14 255"
@@ -526,7 +424,6 @@ Scheme
 	BaseSettings
 	{
 		ScrollBar.Wide					"7"
-		ScrollBarSlider.FgColor								"245 245 245 255"
 		ScrollBarSlider.BgColor								"0 0 0 100"	
 		Slider.NobColor				"Notowhite"
 
@@ -911,9 +808,6 @@ Scheme
 		ScrollBarButton.DepressedFgColor					"Black"
 		ScrollBarButton.DepressedBgColor					"Blank"
 
-		ScrollBarSlider.FgColor								"Gray"
-		ScrollBarSlider.BgColor								"Blank"
-
 		SectionedListPanel.HeaderTextColor					"White"
 		SectionedListPanel.HeaderBgColor					"Blank"
 		SectionedListPanel.DividerColor						"Black"
@@ -1060,14 +954,6 @@ Scheme
 			"5" { "name"  "mono" "tall" "9" "antialias" "1" }
 		}
 
-		"HudFontGiant"
-		{
-			"1" { "name" "product_sans_regular" "tall" "24" "yres" "480 599" "antialias" "1" }
-			"2" { "name" "product_sans_regular" "tall" "32" "yres" "600 767" "antialias" "1" }
-			"3" { "name" "product_sans_regular" "tall" "44" "yres" "768 1023" "antialias" "1" }
-			"4" { "name" "product_sans_regular" "tall" "48" "yres" "1024 1199" "antialias" "1" }
-			"5" { "name" "product_sans_regular" "tall" "24" "antialias" "1" }
-		}		
 		//"Size 24 Uber"
 		// End
 	"DefaultVerySmall"		//pin bruh font used on vgui build mode
@@ -1080,7 +966,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}		
-	"DefaultSmall"		//pin bruh font used on vgui build mode
+		"DefaultSmall"		//pin bruh font used on vgui build mode
 		{
 			"1"
 			{
@@ -1090,7 +976,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}	
-	"Defaultlarge"		//pin bruh font used on vgui build mode
+		"Defaultlarge"		//pin bruh font used on vgui build mode
 		{
 			"1"
 			{
@@ -1431,97 +1317,6 @@ Scheme
 			}
 		}
 
-		"regular12"
-		{
-			"1"
-			{
-				"name"										"product_sans_regular"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"regular16"
-		{
-			"1"
-			{
-				"name"										"product_sans_regular"
-				"tall"										"16"
-				"antialias" 								"1"
-			}
-		}
-		"regular18"
-		{
-			"1"
-			{
-				"name"										"product_sans_regular"
-				"tall"										"18"
-				"antialias" 								"1"
-			}
-		}
-
-		"regular24"
-		{
-			"1"
-			{
-				"name"										"product_sans_regular"
-				"tall"										"24"
-				"antialias" 								"1"
-			}
-		}
-
-		"Size 11"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"11"
-				//
-				"antialias"	"1"
-			}
-		}
-		"Size 12"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"12"
-				//
-				"antialias"	"1"
-			}
-		}
-		"Size 14"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"14"
-				//
-				"antialias"	"1"
-			}
-		}
-		"Size 16"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"16"
-				//
-				"antialias"	"1"
-			}
-		}
-
-
-		"Size 30"
-		{
-			"1"
-			{
-				"name"	"productsansbold"
-				"tall"	"30"
-				//
-				"antialias"	"1"
-			}
-		}
-
 		"CloseCaption_Normal"
 		{
 			"1"
@@ -1534,18 +1329,6 @@ Scheme
 			}
 		}		
 
-		"G_FontBig"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1" 
-				
-				"tall"			"43" // Size Big Primary
-				
-				
-				"antialias"		"1"
-			}
-		}
 		"ItemFontAttribSmall"
 		{
 			"1"
@@ -1689,25 +1472,6 @@ Scheme
 			//	"dropshadow"	"1"
 			}
 		}		
-		"Size 10 Uber"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall"	"10"
-				//
-				"antialias"	"1"
-			}
-		}
-		"HealthAndAmmoShadow"
-		{
-			"1"
-			{
-				"name" "Open Sans Shadow"
-				"tall" "38"
-				"antialias"	"1"
-			}
-		}
 		"HealthAndAmmoShadow1"
 		{
 			"1"
@@ -1815,14 +1579,14 @@ Scheme
 			{
 				"name" "Open Sans LowHealth"
 				"tall" "89"
-				//"antialias"	"0"
+				
 				"yres" "1024 1199"
 			}
 			"2"
 			{
 				"name" "Open Sans LowHealth"
 				"tall" "51"
-				//"antialias"	"0"
+				
 			}
 		}
 		"LowerHealthFont"
@@ -1831,14 +1595,14 @@ Scheme
 			{
 				"name" "Open Sans LowerHealth2"
 				"tall" "100"
-				//"antialias"	"0"
+				
 				"yres" "1024 1199"
 			}
 			"1"
 			{
 				"name" "Open Sans LowerHealth"
 				"tall" "70"
-				//"antialias"	"0"
+				
 			}
 		}
 		"LowAmmoFont"
@@ -1847,7 +1611,7 @@ Scheme
 			{
 				"name" "LowAmmoWarning Zero"
 				"tall" "51"
-				//"antialias"	"0"
+				
 			}
 		}
 		"LowestAmmoFont"
@@ -1856,23 +1620,14 @@ Scheme
 			{
 				"name" "Open Sans LowAmmo"
 				"tall" "89"
-				//"antialias"	"0"
+				
 				"yres" "1024 1199"
 			}
 			"2"
 			{
 				"name" "Open Sans LowAmmo"
 				"tall" "51"
-				//"antialias"	"0"
-			}
-		}
-		"AmmoReserve"
-		{
-			"1"
-			{
-				"name" "Open Sans AlphaInvertedNEW"
-				"tall" "21"
-				"antialias"	"1"
+				
 			}
 		}
 		"AmmoReserve2"
@@ -2111,17 +1866,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-	
-		"NotoBold18"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"18"
-				
-				"antialias"	"1"
-			}
-		}
 		"NotoBold20"
 		{
 			"1"
@@ -2240,17 +1984,6 @@ Scheme
 				"antialias" "1"
 			}
 		}				
-		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"12"
-				
-				
-				"antialias" 	"1"
-			}
-		}
 		"ItemFontNameSmall"
 		{
 			"1"
@@ -2274,15 +2007,6 @@ Scheme
 			}
 		}
 
-		"ItemIcons6"
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"6"
-				"antialias"	"1"
-			}
-		}		
 		"NewIcons15" 
 		{
 			"1"
@@ -2299,26 +2023,17 @@ Scheme
 			{
 				"name"	"Open Sans"
 				"tall"	"30"
-				////"weight"	"400"
 				"outline"	"1"
 				"range"	"0x0000 0x017F"
 			}
-		}		
-		"HudFontGiantBold"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				"tall"		"44"
-			}
-		}		
+		}			
 		DebugOverlay
 		{
 			"1"
 			{
 				"name"	"Open Sans"
 				"tall"	"30"
-				////"weight"	"400"
+				
 				"outline"	"1"
 				"range"	"0x0000 0x017F"
 			}
@@ -2357,24 +2072,6 @@ Scheme
 				"antialias"			"1"
 			}
 		}		
-		"NewIcons11" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"11"		
-				"antialias"			"1"
-			}
-		}
-		"NewIcons10" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"10"		
-				"antialias"			"1"
-			}
-		}	
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -2463,40 +2160,28 @@ Scheme
 				"blur" "2"
 			}
 		}
-				"1HealthPusherFont"
+		"1HealthPusherFont"
 		{
 			"1"
 			{
 				"name" "Open Sans HealthLowesterImage"
 				"tall" "100"
-				"antialias" "0"
+				
 				"yres" "1024 1199"
 			}
 			"2"
 			{
 				"name" "Open Sans HealthLowesterImage"
 				"tall" "100"
-				"antialias" "0"
+				
 			}
 		}	
-		"SpectatorVerySmall"		//Player outline name
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"7"
-				
-				"antialias"	"1"
-			}
-		}
 		"HudFontGiant"
 		{
 			"1"
 			{
 				"name"		"hwnjofre1"
 				"tall"		"32"
-				"tall_lodef"	"80"
-				
 				"antialias" "1"
 			}
 			"2"
@@ -2636,7 +2321,7 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"28"
+				"tall"		"12"
 				
 				"antialias" "1"
 			}
@@ -2760,7 +2445,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -2791,7 +2476,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"18"
-				////"weight"	"900"
+				
 				"antialias"	"1"
 				"yres"	"768 1023"
 				"range"	"0x0000 0x017F"
@@ -2800,7 +2485,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"21"
-				////"weight"	"900"
+				
 				"antialias"	"1"
 				"yres"	"1024 1199"
 				"range"	"0x0000 0x017F"
@@ -2821,7 +2506,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				"outline"	"1"
 				"range"	"0x0000 0x017F"
 			}
@@ -2892,7 +2577,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"24"
 				"antialias"	"1"
-				////"weight"	"500"
+				
 			}
 		}
 
@@ -2903,8 +2588,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"28"
 				"antialias"	"1"
-				"custom"	"1" 	[$OSX]
-				////"weight"	"500"
+			
 			}
 		}
 		"ScoreboardSmallest"		//Player connecting?
@@ -2913,29 +2597,19 @@ Scheme
 			{
 				"name"	"Verdana"
 				"tall"	"6"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
 		}
-		"ScoreboardVerySmall"
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"8"
-				////"weight"	"400"
-				
-				"antialias"	"1"
-			}
-		}
+
 		"ScoreboardSmall"
 		{
 			"1"
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -2946,7 +2620,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"500"
+				
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
 				
@@ -2958,7 +2632,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"20"
-				////"weight"	"500"
+				
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
 				
@@ -2970,7 +2644,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"20"
-				////"weight"	"500"
+				
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
 				
@@ -2983,7 +2657,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"52"
 				"range"	"0x0000 0x00FF"
-				////"weight"	"400"
+				
 				"yres"	"1 599"
 				"antialias"	"1"
 			}
@@ -2992,7 +2666,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"72"
 				"range"	"0x0000 0x00FF"
-				////"weight"	"400"
+				
 				"yres"	"600 767"
 				"antialias"	"1"
 			}
@@ -3001,7 +2675,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"100"
 				"range"	"0x0000 0x00FF"
-				////"weight"	"400"
+				
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
@@ -3010,7 +2684,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"140"
 				"range"	"0x0000 0x00FF"
-				////"weight"	"400"
+				
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
@@ -3019,7 +2693,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"180"
 				"range"	"0x0000 0x00FF"
-				////"weight"	"400"
+				
 				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
@@ -3030,7 +2704,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"36"
-				////"weight"	"500"
+				
 				"range"	"0x0000 0x007F"
 				"antialias"	"1"
 				
@@ -3042,7 +2716,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3053,7 +2727,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"20"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3064,7 +2738,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3093,25 +2767,13 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		TFFontSmall
-		{
-			"1"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"8"
-				////"weight"	"0"
-				"additive"	"1"
-				"antialias"	"1"
-			}
-		}
 		TFFontMedium
 		{
 			"1"
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3122,7 +2784,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"28"
-				////"weight"	"500"
+				
 			}
 		}
 		MatchmakingDialogMenuSmall
@@ -3131,7 +2793,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"22"
-				////"weight"	"900"
+				
 			}
 		}
 		"ItemFontNameSmallest"
@@ -3140,7 +2802,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3151,7 +2813,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"12"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3162,7 +2824,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3173,7 +2835,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3184,7 +2846,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				////"weight"	"500"
+				
 				"blur"	"3"
 				"additive"	"1"
 				"antialias"	"1"
@@ -3251,7 +2913,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				"yres"	"480 599"
 				
 				"antialias"	"1"
@@ -3260,7 +2922,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"yres"	"600 1023"
 				"antialias"	"1"
@@ -3269,7 +2931,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"18"
-				////"weight"	"400"
+				
 				
 				"yres"	"1024 6000"
 				"antialias"	"1"
@@ -3282,7 +2944,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"800"
+				
 				"yres"	"480 599"
 				
 				"antialias"	"1"
@@ -3291,7 +2953,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"800"
+				
 				
 				"yres"	"600 1023"
 				"antialias"	"1"
@@ -3300,7 +2962,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"18"
-				////"weight"	"800"
+				
 				
 				"yres"	"1024 6000"
 				"antialias"	"1"
@@ -3313,7 +2975,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"16"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3327,7 +2989,7 @@ Scheme
 				"tall"	"20"
 				"antialias"	"1"
 				
-				////"weight"	"500"
+				
 			}
 		}
 
@@ -3337,7 +2999,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				"yres"	"480 599"
 				
 				"antialias"	"1"
@@ -3346,7 +3008,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"yres"	"600 1023"
 				"antialias"	"1"
@@ -3355,7 +3017,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"22"
-				////"weight"	"400"
+				
 				
 				"yres"	"1024 6000"
 				"antialias"	"1"
@@ -3368,7 +3030,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				"yres"	"480 599"
 				
 				"antialias"	"1"
@@ -3378,7 +3040,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"yres"	"600 1023"
 				"antialias"	"1"
@@ -3388,7 +3050,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"22"
-				////"weight"	"400"
+				
 				
 				"yres"	"1024 6000"
 				"antialias"	"1"
@@ -3402,7 +3064,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"800"
+				
 				"yres"	"480 599"
 				
 				"antialias"	"1"
@@ -3411,7 +3073,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"800"
+				
 				
 				"yres"	"600 1023"
 				"antialias"	"1"
@@ -3420,7 +3082,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"18"
-				////"weight"	"800"
+				
 				
 				"yres"	"1024 6000"
 				"antialias"	"1"
@@ -3433,7 +3095,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"13"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3445,7 +3107,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"16"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3457,7 +3119,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3469,7 +3131,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3491,7 +3153,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"400"
+				
 				"antialias"	"1"
 				
 			}
@@ -3503,7 +3165,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				////"weight"	"400"
+				
 				"antialias"	"1"
 				
 				//	"1"
@@ -3519,7 +3181,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"11"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3534,7 +3196,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3545,7 +3207,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"24"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 			}
@@ -3557,7 +3219,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3569,7 +3231,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"12"
-				////"weight"	"500"
+				
 				
 				"antialias"	"1"
 				//	"1"
@@ -3581,9 +3243,7 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"7"
-				////"weight"	"0"
-				"blur"	"3"
+				"tall"	"18"
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -3595,7 +3255,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3607,7 +3267,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3619,7 +3279,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -3631,7 +3291,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"30"
-				////"weight"	"400"
+				
 				
 				"antialias"	"1"
 			}
@@ -4222,16 +3882,6 @@ Scheme
 			{	"1"	{	"color" "Blank"	}	}
 		}
 
-		ScrollBarButtonBorder
-		{
-			"inset" "0 0 0 0"
-		}
-
-		ScrollBarButtonDepressedBorder
-		{
-			"inset" "0 0 0 0"
-		}
-
 		ButtonBorder
 		{
 			"color" "Blank"
@@ -4322,28 +3972,6 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		TFThinLineBorder
-		{
-			"bordertype"		"scalable_image"
-			"color"		"BlackLight"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height"	"0"
-		}
-		TFFatLineBorderOpaque
-		{
-			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 		TFFatLineBorder		//SpectatorGUI dead
 		{
 			"bordertype"		"scalable_image"
@@ -4606,18 +4234,6 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		MainMenuButtonGlow2
-		{
-			"bordertype"		"scalable_image"
-			"color"		"255 150 5 255"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
 		NotificationDefault
 		{
 			"bordertype"		"scalable_image"
@@ -4641,29 +4257,7 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		MainMenuButtonDepressed
-		{
-			"bordertype"		"scalable_image"
-			"color"		"GrayDarker"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		MainMenuButtonDepressedArmed
-		{
-			"bordertype"		"scalable_image"
-			"color"		"MainTheme"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		MainMenuButtonDefault
+			MainMenuButtonDefault
 		{
 			"bordertype"		"scalable_image"
 			"color"		"GrayDark"
@@ -4912,18 +4506,6 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "TanDark"	}	}
-			Right
-			{	"1"	{	"color" "TanDark"	}	}
-			Top
-			{	"1"	{	"color" "TanDark"	}	}
-			Bottom
-			{	"1"	{	"color" "TanDark"	}	}
-		}
-		SteamWorkshopBorder2
-		{
-			"inset" "0 0 1 1"
-			Left
 			{	"1"	{	"color" "62 75 90 255"	}	}
 			Right
 			{	"1"	{	"color" "62 75 90 255"	}	}
@@ -5000,17 +4582,7 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		ReplayDefaultBorder
-		{
-			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 		ReplayHighlightBorder
 		{
 			"bordertype"		"scalable_image"
@@ -6374,30 +5946,9 @@ Scheme
 				"draw_corner_height" 	"0"	
 			}
 		
- 	//	BaseBorder		FrameBorder
-	//	ButtonBorder	FrameBorder
-	//	ComboBoxBorder	FrameBorder
-	//	MenuBorder		FrameBorder
-	//	BrowserBorder	FrameBorder
-		ButtonBorder
-		{
-			"RoundedCorner" "0"
-			"inset" "0 0 0 0"
-			"backgroundtype" "0"
-		}	
-		ButtonKeyFocusBorder
-		{	"RoundedCorner" "0"
-			"inset" "0 0 0 0"
-			"backgroundtype" "0"
-		}
 
-		ButtonDepressedBorder
-		{	"RoundedCorner" "0"
-			"inset" "0 0 0 0"
-			"backgroundtype" "0"
-		}		
 	//	PropertySheetBorder	FrameBorder		
-	    	FrameBorder 
+	    FrameBorder 
 		{
 			"inset" "0 0 0 0"
 			"backgroundtype" "0"
@@ -6597,22 +6148,12 @@ Scheme
 				}
 			}
 		}	
-		l4d2new
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			
-			"image"					"replay/thumbnails/l4d2/avatarframe_portal_white_add"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}	
+
 		l4d2new2
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"Primary"
+			"color"					"primary"
 			"image"					"replay/thumbnails/l4d2/avatarframe_portal_white_test"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -6743,18 +6284,7 @@ Scheme
 	
 	
 		
-		HighlightBg
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color"					"G_Highlight"
-			"image"					"replay/thumbnails/fill"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"	
-			"draw_corner_height" 	"0"	
-		}
-		
+
 		TeamMenuBorder
 		{
 			"inset" "0 0 0 0"
@@ -6837,119 +6367,6 @@ Scheme
 				}
 			}
 		}
-		
-		3d
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "255 255 255 30"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 0 0 30"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "255 255 255 30"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 30"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		SharpWhiteContainer
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/vertical_gradient_box"
-			"color"					"255 255 255 255"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-		
-		SharpBlackContainer
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/vertical_gradient_box"
-			"color"					"10 10 10 255"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-
-		SharpPurpleContainer
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/vertical_gradient_box"
-			"color"					"100 65 165 255"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-
-		SharpBrownContainer
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/vertical_gradient_box"
-			"color"					"170 150 85 255"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-		
-		SharpMainMenuButton
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/mainmenu/mmbutton"
-			"color"					"G_MainMenuButton"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-		
-		SharpMainMenuButtonArmed
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"image"					"replay/thumbnails/mainmenu/mmbutton"
-			"color"					"G_MainMenuButtonHover"
-			"src_corner_height"		"3"
-			"src_corner_width"		"3"
-			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
-		}
-
 	}
 	CustomFontFiles
 	{
@@ -6969,7 +6386,7 @@ Scheme
 		{
 			"font" "fonts/mono.otf"
 			"name" "mono"
-      	"arabic"
+      		"arabic"
             {
                 "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
             }

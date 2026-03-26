@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"fgcolor"		"Blank"
 		"xpos"			"55"
 		"ypos"			"6"

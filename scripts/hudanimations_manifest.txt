@@ -9,36 +9,36 @@
     // #Customization Animations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"file"		"#customization/_enabled/jp_mapbackgroundtest.txt"
-		"file"		"#customization/_enabled/jp_streameroff.txt"			//takes priority
-		"file"		"#customization/_enabled/jp_streameron.txt"
+	//	"file"		"#customization/_enabled/jp_mapbackgroundtest.txt"
+	//	"file"		"#customization/_enabled/jp_streameroff.txt"			//takes priority
+	//	"file"		"#customization/_enabled/jp_streameron.txt"
 	
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // XHUD Null Animations
     ////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-		"file"		"_jofrenew/new/scripts/hudanimations_null.txt"
+	//	"file"		"_jofrenew/new/scripts/hudanimations_null.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // QoL Scripts
     ////////////////////////////////////////////////////////////////////////////////////////////////////	
 
-		"file"		"_mainstream/health-fix/file.txt"	
-		"file"		"_mainstream/niterux-skip/file.txt"
-		"file"		"_mainstream/trade-fix/file.txt"
-		"file"		"_mainstream/dimmer-reload/file.txt"
-		"file"		"_mainstream/mvm-fixer/file.txt"
-		"file"		"_mainstream/peachrec/file.txt"    
+	//	"file"		"_mainstream/health-fix/file.txt"	
+	//	"file"		"_mainstream/niterux-skip/file.txt"
+	//	"file"		"_mainstream/trade-fix/file.txt"
+	//	"file"		"_mainstream/dimmer-reload/file.txt"
+	//	"file"		"_mainstream/mvm-fixer/file.txt"
+	//	"file"		"_mainstream/peachrec/file.txt"    
 	
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // Log-Base Scripts (WIN32 & OSX)
     ////////////////////////////////////////////////////////////////////////////////////////////////////	
 
-		"file"		"../../cfg/_jp_hitmarker.txt"	
-		"file"		"../../cfg/_jp_snd_dead.txt"	
-		"file"		"../../cfg/_jp_snd_vivo.txt"	
-		"file"		"../../cfg/_jp_ex_scope.txt"	
-		"file"		"../../cfg/_jp_anim_cartglow.txt"
+	//	"file"		"../../cfg/_jp_hitmarker.txt"	
+	//	"file"		"../../cfg/_jp_snd_dead.txt"	
+	//	"file"		"../../cfg/_jp_snd_vivo.txt"	
+	//	"file"		"../../cfg/_jp_ex_scope.txt"	
+	//	"file"		"../../cfg/_jp_anim_cartglow.txt"
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////
     // 4Plug Scripts

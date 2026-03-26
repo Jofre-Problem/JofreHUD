@@ -47,7 +47,7 @@
 		"disabledfgcolor2_override" "notodark"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"itemicons6"
+		"font"					"Defaultlarge"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
 		"bgcolor_override" "220 220 220 100"

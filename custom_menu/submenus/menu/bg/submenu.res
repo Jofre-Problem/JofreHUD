@@ -28,7 +28,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"choosebg"
-						"font"		"Regular12"
+						"font"		"HudFontMediumSmallSecondary"
 						"labelText"		"Choose Background:"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -44,7 +44,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"warning"
-						"font"		"Regular12"
+						"font"		"HudFontMediumSmallSecondary"
 						"labelText"		"Download the VPK file at this link. Click here."
 						"textAlignment"	"center"
 						"xpos"		"0"

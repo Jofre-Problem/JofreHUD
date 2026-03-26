@@ -882,7 +882,7 @@
 			////"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			font					"NewIcons10"
+			font					"NewIcons12"
 			textAlignment			center
 			labeltext				"["
 			"dulltext"		"0"

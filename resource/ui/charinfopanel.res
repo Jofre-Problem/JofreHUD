@@ -125,7 +125,7 @@
 		{
 			textinsety				0   //cant be changed
 			"textinsetx"		"0"
-			"font"				"Blank"//"Size 14"
+			"font"				"Blank"//"EconFontSmall"
 	//		"defaultBgColor_override"	"Blank"
 			"selectedcolor"		"Blank"
 			"unselectedcolor"	"Blank"	

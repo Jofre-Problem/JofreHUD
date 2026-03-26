@@ -30,13 +30,13 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"size 12"
+		"delta_item_font"		"ItemFontNameLarge"
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Regular16"
+			"font"			"HudFontSmallishBold"
 			"fgcolor_override"		"White"
 			"bgcolor_override"		"TransparentBlack"
 			"xpos"			"cs-1"
@@ -70,13 +70,13 @@
 		"PositiveColor"			"Green"
 		"NegativeColor"			"Red"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"size 12"
+		"delta_item_font"		"ItemFontNameLarge"
 
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Regular16"
+			"font"			"HudFontSmallishBold"
 			"fgcolor_override"		"White"
 			"bgcolor_override"		"TransparentBlack"
 			"xpos"			"c0"

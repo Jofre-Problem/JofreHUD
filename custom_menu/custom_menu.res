@@ -308,7 +308,7 @@
 				"wide"						"f160"
 				"tall"						"20"
 				"proportionaltoparent"		"1"
-				"font"						"regular12"
+				"font"						"HudFontMediumSmallSecondary"
 				"labelText"					"Hover on the buttons for a few seconds to see the tooltip text!"
 				"textAlignment"				"center"
 				"fgcolor"					"Primary"

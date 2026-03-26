@@ -507,7 +507,7 @@
 		////"			"2"
 		"visible"		"0"
 		
-		"font"	"Regular16"
+		"font"	"HudFontSmallishBold"
 		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, Yellow Devil, Sgtjoe, etc"
 		"textAlignment"	"center"
 		////	"0"

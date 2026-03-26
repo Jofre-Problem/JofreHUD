@@ -88,8 +88,8 @@
 		xpos							1
 		ypos							1
 		zpos							10
-		wide							f2
-		tall							f2
+		wide							30
+		tall							o1
 		proportionaltoparent		1
 		visible						1
 		mouseinputenabled			0
@@ -130,12 +130,13 @@
 		labeltext					""
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released				"ui/buttonclickrelease.wav"
-
+		wide							30
+		tall							o1
 		paintbackground				1
 		defaultBgColor_override		"0 0 0 0"
 		armedBgColor_override		"0 0 0 100"
 
 		border_default				"NoBorder"
-		border_armed				"l4d2new"		
+		border_armed				"l4d2new2"		
 	}
 }

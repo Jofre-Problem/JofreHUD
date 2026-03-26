@@ -28,7 +28,7 @@
 			//
 			"paintbackground"		"1"
 			"border"		"g_targetborder"		 	
-			"bgcolor_override"				"g_brown2"
+			"bgcolor_override"				"27 27 27 255"
 		}	
 	"TitleLabel"
 	{
@@ -54,7 +54,7 @@
 				{
 					"0"		"NotoBold12"
 					"1"		"HudFontSmallishBold"
-					"2"		"NotoBold18"
+					"2"		"NotoBold14"
 				}	
 	}
 			"tank_gif"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"cexlabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"Size 14"//"EconFontSmall"
+		"font"			"EconFontSmall"//"EconFontSmall"
 		"labelText"		"Quit?"
 		"textAlignment"	"north"
 		"xpos"			"40"
@@ -97,7 +97,7 @@
 				{
 					"0"		"HudFontSmallest"
 					"1"		"StorePromotionsTitle"
-					"2"		"Size 14"
+					"2"		"EconFontSmall"
 				}	
 	}
 		

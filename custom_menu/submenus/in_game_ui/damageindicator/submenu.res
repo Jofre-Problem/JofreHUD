@@ -34,7 +34,7 @@
 						"tall"					"20"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Choose Style"
-						"font"					"Regular12"
+						"font"					"HudFontMediumSmallSecondary"
 						"textalignment"			"center"
 						"paintbackground"		"1"
 						"bgcolor_override"		"Primary"

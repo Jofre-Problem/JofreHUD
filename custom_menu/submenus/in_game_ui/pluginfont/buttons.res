@@ -12,7 +12,7 @@
 					{
 						"ControlName"	"CExLabel"
 						"fieldName"		"FOntlabel"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"Choose Font"
 						"textAlignment"	"center"
 						"xpos"		"0"

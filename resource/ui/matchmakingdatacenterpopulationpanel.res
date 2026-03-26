@@ -24,7 +24,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%datacenter_name%"
 		"textAlignment"	"west"
-		"font"			"Size 11"
+		"font"			"XPSource_Glow"
 		"textinsetx"	"10"
 		"auto_wide_tocontents"	"1"
 		"bgcolor_override" "0 0 0 100"

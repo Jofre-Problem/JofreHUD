@@ -127,7 +127,7 @@
 					pin_to_sibling "icon1"
 							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-						border "SteamWorkshopBorder2"
+						border "SteamWorkshopBorder"
 						"imagered1"
 						{
 						"ControlName" "ImagePanel"
@@ -165,7 +165,7 @@
 					pin_to_sibling "bg1"
 							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-						border "SteamWorkshopBorder2"
+						border "SteamWorkshopBorder"
 										"imagered1"
 						{
 						"ControlName" "ImagePanel"
@@ -199,7 +199,7 @@
 				
 					proportionaltoparent 1
 
-						border "SteamWorkshopBorder2"
+						border "SteamWorkshopBorder"
 						"imagered1"
 						{
 						"ControlName" "ImagePanel"
@@ -263,7 +263,7 @@
 				
 					proportionaltoparent 1
 
-						border "SteamWorkshopBorder2"
+						border "SteamWorkshopBorder"
 							"imagered1"
 						{
 						"ControlName" "ImagePanel"
@@ -323,7 +323,7 @@
 					"visible"		"1"
 				proportionaltoparent 1
 
-						border "SteamWorkshopBorder2"
+						border "SteamWorkshopBorder"
 					"enabled"		"1"
 					"paintbackground"	"1"		
 											"spell1"

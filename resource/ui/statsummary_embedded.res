@@ -15,7 +15,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Size 30"
+		"font"			"QuestMap_Huge"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"cs-0.5"

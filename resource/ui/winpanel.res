@@ -1,4 +1,4 @@
-//#base "ui2/winpanelbase.res" 
+#base "ui2/winpanelbase.res" 
 "Resource/UI/winpanel.res"
 {
     "TeamScoresPanel"
@@ -9,7 +9,7 @@
         "wide"              "f0"
         "tall"              "40"
         "bgcolor_override"  "0 0 0 204"
-
+        visible 1
         "BlueTeamScore"
 		{
 			"ControlName"		"cexlabel"

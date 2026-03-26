@@ -522,7 +522,7 @@ if_mini		{			"visible"		"0"		}
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Size 14"
+			"font"			"EconFontSmall"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
 			"xpos"			"48"
@@ -647,7 +647,7 @@ if_mini		{			"visible"		"0"		}
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Size 14"
+			"font"			"EconFontSmall"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
 			"xpos"			"5"

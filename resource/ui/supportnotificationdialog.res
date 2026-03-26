@@ -51,7 +51,7 @@
 		"ypos"			"47" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"301" // Size 11 font - 27 rows & change
+		"tall"			"301" // XPSource_Glow font - 27 rows & change
 		
 		
 		"visible"		"1"

@@ -274,7 +274,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipSubLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tipsubtext%"
 "textAlignment""center"
 "xpos""20"
@@ -294,7 +294,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tiptext%"
 "textAlignment""center"
 "xpos""20"
@@ -600,7 +600,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"		"Size 14"
+			"font"		"EconFontSmall"
 			"labelText"		"%notititle%"
 			"textAlignment"		"north-west"
 			"xpos"		"12"
@@ -1045,7 +1045,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipSubLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tipsubtext%"
 "textAlignment""center"
 "xpos""20"
@@ -1065,7 +1065,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TipLabel"
-"font""Regular12"
+"font""HudFontMediumSmallSecondary"
 "labelText""%tiptext%"
 "textAlignment""center"
 "xpos""20"
@@ -1210,7 +1210,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Size 14"
+			font					"EconFontSmall"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2

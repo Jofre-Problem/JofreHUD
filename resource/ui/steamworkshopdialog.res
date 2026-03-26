@@ -129,7 +129,7 @@
 		wide					p0.5
 		tall					25	
 		"zpos"	"80"
-		font					"Regular16"
+		font					"HudFontSmallishBold"
 		fgcolor_override			"255 255 255 255"
 		labelText				"Join the Discord Server for more info! Click here."
 		textAlignment			center
@@ -144,7 +144,7 @@
 		wide					p0.5
 		tall					25	
 		"zpos"	"80"
-		font					"Regular16"
+		font					"HudFontSmallishBold"
 		fgcolor_override			"255 255 255 255"
 		labelText				"Found a bug? Need help? Click here."
 		textAlignment			center

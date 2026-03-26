@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"xpos"			"-1"
 		"ypos"			"0"
 		"zpos"			"1"

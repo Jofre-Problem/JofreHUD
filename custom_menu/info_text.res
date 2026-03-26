@@ -27,7 +27,7 @@
 					"labeltext"					"Select an option from the sidebar on the left."
 					"textalignment"				"center"
 					"centerwrap"				"1"
-					"font"						"regular12"
+					"font"						"HudFontMediumSmallSecondary"
 					"border"					"NoBorder"
 				}
 			}
@@ -55,7 +55,7 @@
 					"labeltext"					"..."
 					"textalignment"				"center"
 					"centerwrap"				"1"
-					"font"						"regular12"
+					"font"						"HudFontMediumSmallSecondary"
 					"border"					"NoBorder"
 				}
 			}

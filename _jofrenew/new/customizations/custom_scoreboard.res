@@ -434,7 +434,7 @@
 	"BlueTeamLabel"
 	{
 		"visible"	"1"
-		"font"			"Size 30"
+		"font"			"QuestMap_Huge"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
 		"xpos"			"22"
@@ -445,7 +445,7 @@
 	}							
 	"BlueTeamScore"
 	{
-		"font"			"Size 30"
+		"font"			"QuestMap_Huge"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
@@ -465,7 +465,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"Size 14"
+		"font"			"EconFontSmall"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
@@ -486,7 +486,7 @@
 	"RedTeamLabel"
 	{
 		"visible"	"1"
-		"font"			"Size 30"
+		"font"			"QuestMap_Huge"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"east"
 		"xpos"			"rs1-22"
@@ -497,7 +497,7 @@
 	}							
 	"RedTeamScore"
 	{
-		"font"			"Size 30"
+		"font"			"QuestMap_Huge"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
 		"xpos"			"c3"
@@ -517,7 +517,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"Size 14"
+		"font"			"EconFontSmall"
 		"textAlignment"		"center"
 		"xpos"			"rs1-20"
 		"ypos"			"79"
@@ -1332,7 +1332,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"KillsLabel"
-			"font"				"Size 30"
+			"font"				"QuestMap_Huge"
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"95"
@@ -1387,7 +1387,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills"
-			"font"				"Size 30"
+			"font"				"QuestMap_Huge"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1409,7 +1409,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
-			"font"				"Size 30"
+			"font"				"QuestMap_Huge"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1446,7 +1446,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"Size 30"
+			"font"				"QuestMap_Huge"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1468,7 +1468,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
-			"font"				"Size 30"
+			"font"				"QuestMap_Huge"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"

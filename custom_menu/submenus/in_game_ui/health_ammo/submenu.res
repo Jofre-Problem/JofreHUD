@@ -36,7 +36,7 @@
 					"labeltext"					"Health & Ammo Progress Bars"
 					"textalignment"				"center"
 					"centerwrap"				"1"
-					"font"						"Size 14"
+					"font"						"EconFontSmall"
 					"border"					"FLAT_Black_4"
 					"fgcolor"					"PrimaryT2"
 				}
@@ -63,7 +63,7 @@
 					"labeltext"					"Health Speed Meter"
 					"textalignment"				"center"
 					"centerwrap"				"1"
-					"font"						"Size 14"
+					"font"						"EconFontSmall"
 					"border"					"FLAT_Black_4"
 					"fgcolor"					"PrimaryT2"
 				}
@@ -90,7 +90,7 @@
 					"labeltext"					"Health Mode: Light or Dark (Requires Restart)"
 					"textalignment"				"center"
 					"centerwrap"				"1"
-					"font"						"Size 14"
+					"font"						"EconFontSmall"
 					"border"					"FLAT_Black_4"
 					"fgcolor"					"PrimaryT2"
 				}

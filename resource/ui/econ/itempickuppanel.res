@@ -181,7 +181,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ValveAreDumb"
-		"font"			"itemicons6"
+		"font"			"Defaultlarge"
 		"labelText"		"ǥ Having problems getting out of this menu? ¤ Press the Enter Key on your keyboard to exit!"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
@@ -229,7 +229,7 @@
 				"wide"			"30"
 				"tall"			"10" //56 / 3 ) 14
 				"labelText"		" ¤"
-				font "itemicons6"
+				font "Defaultlarge"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "west"
@@ -246,7 +246,7 @@
 				"wide"			"30"
 				"tall"			"10" //56 / 3 ) 14
 				"labelText"		"S "
-				font "itemicons6"
+				font "Defaultlarge"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "east"
@@ -283,7 +283,7 @@
 				"wide"			"30"
 				"tall"			"10" //56 / 3 ) 14
 				"labelText"		" ¤"
-				font "itemicons6"
+				font "Defaultlarge"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "west"
@@ -300,7 +300,7 @@
 				"wide"			"30"
 				"tall"			"10" //56 / 3 ) 14
 				"labelText"		"B "
-				font "itemicons6"
+				font "Defaultlarge"
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "east"

@@ -68,7 +68,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		//								"0"
-		"font"										"Regular18"
+		"font"										"QuestMap_Small_Blur"
 		"textAlignment"								"center"
 		//									"0"
 		//								"0"

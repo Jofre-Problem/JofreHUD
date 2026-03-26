@@ -45,7 +45,7 @@
 					"tall"					"40"
 					"proportionaltoparent"	"1"
 					"labeltext"				"RESET"
-					"font"					"Size 14"
+					"font"					"EconFontSmall"
 					"textalignment"			"center"
 					"command"				"engine jp_custom_res_clear; jp_reload"
 					"actionsignallevel"		"4"

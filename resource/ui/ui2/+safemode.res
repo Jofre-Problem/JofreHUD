@@ -55,7 +55,7 @@
 			"Enabled"									"1"
 			"ProportionalToParent"						"1"
 			"LabelText"									"X"
-			"Font"										"Symbols16"
+			"Font"										"itemfontnamelarge"
 			"TextAlignment"								"center"
 			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"ActionSignalLevel"							"2"

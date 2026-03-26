@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"xpos"			"0"
 		"ypos"			"33"
 		"zpos"			"2"
@@ -22,7 +22,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReasonShadow"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
@@ -58,7 +58,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"fgcolor"		"Red"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"fgcolor"		"Shadow"
 		"xpos"			"-1"
 		"ypos"			"-1"

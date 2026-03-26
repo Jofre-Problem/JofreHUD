@@ -91,7 +91,7 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"center"
 		
-		"font"			"Regular12"
+		"font"			"HudFontMediumSmallSecondary"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}

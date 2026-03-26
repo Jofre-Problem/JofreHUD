@@ -12,10 +12,10 @@
 		"enabled"		"1"
 		
 	}
-	"G_Topbar"
+	"1Topbar"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"G_Topbar"
+		"fieldName"		"1Topbar"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-10"

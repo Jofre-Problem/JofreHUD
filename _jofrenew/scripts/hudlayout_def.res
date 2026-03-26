@@ -1047,4 +1047,39 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+        HudWeaponSelection
+        {
+                "fieldName" "HudWeaponSelection"
+                "xpos"        "0"
+                "wide"        "f0"
+                "ypos"         "0"
+                "tall"        "480"
+                "RightMargin" "0"
+      
+                "visible" "1"
+                "enabled" "1"
+                "SmallBoxWide" "72"
+                "SmallBoxTall" "54"
+                "PlusStyleBoxWide" "90"
+                "PlusStyleBoxTall" "63"
+                "PlusStyleExpandSelected"        "0.3"
+                "LargeBoxWide" "110"
+                "LargeBoxTall" "77"
+         
+                "SelectionNumberXPos" "12"
+                "SelectionNumberYPos" "4"
+                "IconXPos" "8"
+                "IconYPos" "0"
+           
+                "ErrorYPos" "48"
+                "TextColor" "SelectionTextFg"
+                "MaxSlots"        "6"
+                "PlaySelectSounds"        "1"
+                "Alpha" "220"
+                "SelectionAlpha" "220"
+                "BoxColor" "0 0 0 220"
+                "SelectedBoxClor" "0 0 0 220"
+                "SelectionNumberFg"        "200 187 161 255"
+                "NumberFont" "HudSelectionText"
+        }    
 }

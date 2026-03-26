@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"fgcolor"		"Blue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -37,7 +37,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"Size 12"
+		"font"			"ItemFontNameLarge"
 		"fgcolor"		"Shadow"
 		"xpos"			"-1"
 		"ypos"			"-1"

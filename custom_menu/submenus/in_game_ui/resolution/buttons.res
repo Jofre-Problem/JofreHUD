@@ -13,7 +13,7 @@
 					{
 						"ControlName"	"CexLabel"
 						"fieldName"		"label4_3"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"4:3"
 						"textAlignment"	"center"
 						"xpos"		"0"
@@ -90,7 +90,7 @@
 					{
 						"ControlName"	"CEXLabel"
 						"fieldName"		"label16_9"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"16:9"
 						"textAlignment"	"center"
 						"xpos"		"0+p0.18"
@@ -209,7 +209,7 @@
 					{
 						"ControlName"	"CEXLabel"
 						"fieldName"		"label16_10"
-						"font"		"Regular16"
+						"font"		"Size 16"
 						"labelText"		"16:10"
 						"textAlignment"	"center"
 						"xpos"		"p0.18+p0.18"

@@ -344,7 +344,7 @@
 		"xpos"			"160"
 		"ypos"			"-2"
 		"zpos"			"5000"
-		"fgcolor_override"	"G_Brown2"
+		"fgcolor_override"	"27 27 27 255"
 		"bgcolor_override" "G_ButtonSelectedBg"
 		"wide"			"25"
 		"tall"			"16"

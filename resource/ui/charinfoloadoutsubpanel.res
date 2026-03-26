@@ -5758,7 +5758,7 @@
 					"Pin_To_Sibling"			"vicon2"		
 					"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 					"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-					"fgcolor"		"g_yellow"
+					"fgcolor"		"235 220 50 255"
 				}
 		"icon7labelb"
 		{
@@ -5784,7 +5784,7 @@
 			
 			
 			paintBackground 0
-			"defaultFgColor_override"	"g_yellow"
+			"defaultFgColor_override"	"235 220 50 255"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}							

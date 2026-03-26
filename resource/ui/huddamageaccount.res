@@ -12,7 +12,7 @@
 		"delta_item_end_y"		"-10"
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
-	//	"delta_item_font"		"DamagetextOldBitMap"//Size 12"
+	//	"delta_item_font"		"DamagetextOldBitMap"//ItemFontNameLarge"
 		"delta_item_font_big"	"DamagetextOld"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
