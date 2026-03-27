@@ -11,7 +11,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"Noto10"
+		"font"			"InstructionalText"
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"1"

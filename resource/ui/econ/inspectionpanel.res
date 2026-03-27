@@ -659,10 +659,10 @@
 			"zpos"			"99"
 			"wide"			"20"
 			"tall"			"20"
-			"font"			"NewIcons15"
+			"font"			"itemfontnamesmall"
 			"textAlignment"		"center"
 			"enabled"		"1"
-			"labeltext"			"þ"
+			"labeltext"			"ϲ"
 
 			"fgcolor_override"		"24 24 24 255"
 			"BgColor_override"	"72 133 32 255"

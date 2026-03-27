@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold24"
+		"font"			"ScoreboardTeamName"
 		"labelText"		"Please take your time to configure this stuff."
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -72,7 +72,7 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"NotoBold28"
+		"font"			"EconFontMedium"
 		"textAlignment"	"center"
 		//
 		
@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#GameUI_Ok"
-		"font"			"NotoBold28"
+		"font"			"EconFontMedium"
 		"textAlignment"	"center"
 		//
 		"defaultFgColor_override" "NotoGray"
@@ -202,7 +202,7 @@
 	{
 		"ControlName"	"urllabel"
 		"fieldName"		"moreinfo2"
-		"font"			"Noto10"
+		"font"			"InstructionalText"
 		"labelText"		"https://wiki.teamfortress.com/wiki/Multiplayer_options#Advanced_multiplayer_options"
 		"textAlignment"	"west"
 		"xpos"			"20"

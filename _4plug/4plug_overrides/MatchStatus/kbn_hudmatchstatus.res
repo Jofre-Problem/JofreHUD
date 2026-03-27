@@ -329,13 +329,13 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"NotoBold20"
+		"delta_item_font"		"ScoreboardTeamName"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"NotoBold20"
+			"font"			"ScoreboardTeamName"
 			"fgcolor_override"		"White"
 			"xpos"			"28"
 			"ypos"			"3"

@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"NotoBold20"
+		"font"			"ScoreboardTeamName"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5"
@@ -48,7 +48,7 @@
 		"visible" "1"	// controlled by #customization
 		"ControlName"		"cexlabel"
 		"fieldName"		"TipText2"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"center"
 		"xpos"			"0"
@@ -67,9 +67,9 @@
         "pin_to_sibling_corner" "4"
 			"fonts"
 			{
-				"0"		"NotoBold10"
-				"1"		"NotoBold10"
-				"2"		"NotoBold10"
+				"0"		"FontCartPrice"
+				"1"		"FontCartPrice"
+				"2"		"FontCartPrice"
 			}		
 	}
 	"ExampleAnchor2"
@@ -221,7 +221,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"TFLabel"
-			"font"			"Newicons12"
+			"font"			"ItemFontNameLarge"
 			"labelText"		"!"
 			"textAlignment"		"center"
 			"xpos"			"c-86"

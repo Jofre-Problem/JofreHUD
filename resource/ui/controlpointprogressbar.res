@@ -81,7 +81,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"ProgressText"
-		"font"			"Noto10"
+		"font"			"InstructionalText"
 		"xpos"			"14"
 		"ypos"			"8"
 		"zpos"			"23"

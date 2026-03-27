@@ -5,7 +5,7 @@ Scheme
 	{
 		//--------------------------------Windows :)
 		"W_BorderArmed"	"204 135 41 255"
-		"W_CerrarArmed"	"255 64 64 255"
+		"redsolid"	"255 64 64 255"
 
 		"W_ColorTheme1"	"238 238 238 255"	//barra
 		"W_ColorTheme2"	"228 228 228 255"	//tipo asi "fondo"

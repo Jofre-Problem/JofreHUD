@@ -286,9 +286,9 @@
 							
 								"defaultfgcolor_override"					"notodark"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "Z"
+                                "labeltext"                            "ʏ"
 								textAlignment center
-								 "font"                      "newicons15"
+								 "font"                      "itemfontnamelarge"
                                "command"   "engine ds_record"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -307,9 +307,9 @@
 							
 								"defaultfgcolor_override"					"notoredsolid"
 				"defaultbgcolor_override"			"notowhite"		
-                                "labeltext"                            "Z n"
+                                "labeltext"                            "ʏ ы"
 								textAlignment center
-								 "font"                      "newicons15"
+								 "font"                      "itemfontnamesmall"
 								 
                                "command"   "engine ds_stop"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -530,8 +530,8 @@
 		"wide"							"300"
 		"tall"							"26"
 	zpos	"100"
-		labelText				"æ"
-		font					"newicons20"
+		labelText				"Ȩ"
+		font					"scoreboardmedium"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recmapname"
@@ -730,7 +730,7 @@
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Manually set Demos"
 								textAlignment center
-								 "font"                      "notobold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine ds_enable 0"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -751,7 +751,7 @@
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "ALL demos automatically"
 								textAlignment center
-								 "font"                      "notobold10"
+								 "font"                      "FontCartPrice"
 								 
                                "command"   "engine ds_enable 2"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -804,8 +804,8 @@
                         "wide"                      "f0"
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
-         			"font"						"newicons20"
-				"labelText"					"â"
+         			"font"						"scoreboardmedium"
+				"labelText"					"ǫ"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -1178,8 +1178,8 @@ proportionaltoparent 1
 				"wide"							"50"
 				"tall"							"30"
 				zpos	"100"
-				labelText				"Ð"
-				font					"Newicons25"
+				labelText				"ũ"
+				font					"itemfontnamelarge"
 				textAlignment			east
 				"textinsety" "5"
 				"actionsignallevel"		"3"
@@ -4033,7 +4033,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "█ [#1] MULTIMOD | Servilive | Comunidad Latinoamericana"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 45.235.98.222:27080"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4100,7 +4100,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "skial.com | FREAK FORTRESS | NY ██"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 91.216.250.54:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4190,7 +4190,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "RU █ CHILLOUT.PW █ Freak Fortress"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect s2.chillout.pw:27017"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4304,7 +4304,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress #1|"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 74.91.119.154:27016"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4417,7 +4417,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress X10|"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 145.239.70.42:27019"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4484,7 +4484,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "[MULTIMOD] WineWald | Freak Fortress 2"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 45.235.99.105:27318"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4551,7 +4551,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Versus Ponyville Reborn | Custom FF2"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 192.223.29.143:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4618,7 +4618,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Big Bang Gamers | Freak Fortress 2"
 								textAlignment center
-								 "font"                      "NotoBold10"
+								 "font"                      "FontCartPrice"
                                "command"   "engine connect 136.47.136.13:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"

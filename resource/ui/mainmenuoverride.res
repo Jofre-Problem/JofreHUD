@@ -26,34 +26,48 @@
 {
  //   "pin_to_sibling"    "ChatPin"
 }
-
-	"1_btn"		// only useful cuz pining rn
+	"1_btn"
 	{
+			"ControlName"							"CExButton"
+			"fieldName"								"1_btn"		
 		"zpos"			"3000"
 		wide					30
 		tall					15
-	
-			"labelText"		"" // "r"
-			"font"			"NewIcons12"
+			"labelText"		"ʾ"
+			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
-		command	"engine buttonsmainmenu"
+		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
+				"defaultFgColor_override" 	"black"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"MOTD_ShowButtonPanel"		
-	}		
+	}	
+
 	"2_btn"
 	{
+					"ControlName"							"CExButton"
+			"fieldName"								"2_btn"		        
 		"zpos"			"3000"
 		wide					30
 		tall					15
-			"labelText"		"K"
-			"font"			"NewIcons12"
+			"labelText"		"ũ"
+			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
 		command				"engine playerstats"
+				"defaultFgColor_override" 	"black"
+				"armedFgColor_override" 	"White"
 
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -64,14 +78,22 @@
 	}	
 	"3_btn"
 	{
+			"ControlName"							"CExButton"
+			"fieldName"								"3_btn"				
 		"zpos"			"3000"
 		wide					30
 		tall					15
-			"labelText"		"@"
-			"font"			"NewIcons12"
+			"labelText"		"ʫ"
+			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
 		command				"OpenLoadSingleplayerCommentaryDialog"
+				"defaultFgColor_override" 	"black"
+				"armedFgColor_override" 	"White"
 
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+	
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -80,6 +102,7 @@
 	
 		paintBackground			0
 	}		
+
 	"polybar0bgmm"	
 	{
 		"zpos"	"1000"
@@ -89,7 +112,7 @@
 	"polybar0slashmm"	
 	{		"wide"	"30"
 		"textinsetx"	"-2"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 		"zpos"	"1000"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -105,7 +128,7 @@
 	"slash1mm"
 	{		"wide"	"30"
 		"textinsetx"	"-2"
-		"labelText"		"É""zpos"	"999"
+		"labelText"		"ʄ""zpos"	"999"
 		"pin_to_sibling"	"bgg1mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -122,7 +145,7 @@
 	"slash2mm"
 	{		"wide"	"30""zpos"	"999"
 		"textinsetx"	"-2"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 		"pin_to_sibling"	"bgg2mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -142,7 +165,7 @@
 		"slash3mm"
 		{		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 "pin_to_sibling"	"bgg3mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -159,10 +182,9 @@
 
 		"slash4mm"
 		{
-		"font"	"NewIcons20"
 		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 			"pin_to_sibling"	"bgg4mm"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -359,11 +381,6 @@
 		}		
 		}
 	}
-	"CallVoteButton"
-	{
-		wide					0					
-	}	
-
 	"MutePlayersButton2"
 	{
 		ControlName				EditablePanel
@@ -413,33 +430,7 @@
 		}		
 		}
 	}
-	"RequestCoachButton"
-	{
-		"wide"			"0"
-	}	
 
-	"ReportPlayerButton"
-	{
-		"wide"			"0"	
-	}		
-		
-
-		"GeneralStoreButton"
-		{
-			"wide"			"0"
-		}		
-		"TF2SettingsButton"
-		{
-			"wide"			"0"
-		}			
-		"AchievementsButton"
-		{
-			"wide"			"0"
-		}		
-		"SettingsButton"
-		{
-			"wide"			"0"
-		}	
 	"Notifications_ShowButtonPanel"	// notification alert
 	{
 		ControlName				EditablePanel
@@ -484,7 +475,7 @@
 			paintbackground			0
 			
 			image_drawcolor				"NotoWhite"			// scheme colors don't work
-			image_armedcolor			"W_CerrarArmed"
+			image_armedcolor			"redsolid"
 			
 			"SubImage"
 			{
@@ -545,10 +536,6 @@
 		}
 	}	
 
-	"StoreHasNewItemsImage"		//Possible use in the future
-	{
-		"wide"			"0"
-	}
 	"Notifications_Panel"
 	{
 		"ControlName"		"EditablePanel"
@@ -644,108 +631,15 @@
 		zPos					3002
 		wide					40
 		tall					o1	
-		font					"NewIcons20"
+		font					"scoreboardmedium"
 		fgcolor_override			"NotoWhite"
-		labelText				","
+		labelText				"No ˁ"
 		textAlignment			west
-	}
-
-	"NoGCImage"
-	{
-		"wide"			"0"
-	}	
-	"RankBorder"
-	{
-		"wide"			"0"
-	}
-	"WatchStreamButton"
-	{
-		"wide"			"0"
-	}
-	"VRBGPanel"
-	{
-		"wide"			"0"
-	}	
-	"VRModeButton"
-	{
-		"wide"			"0"
-	}
-	"FriendsContainer"	
-	{
-	wide				0
-	}	
-	"BackgroundFooter"
-	{
-	wide				0
-	}				
-	"FooterLine"
-	{
-	wide				0
-	}	
-	"CommentaryButton"
-	{
-	wide				0
-	}	
-	"CoachPlayersButton"
-	{
-	wide				0
-	}	
-	"ReplayButton"
-	{
-	wide				0
-	}		
-	"ReportBugButton"
-	{
-	wide				0
-	}		
-	"BackToReplaysButton"
-	{
-	wide				0
-	}	
-	"RequestCoachButton"
-	{
-	wide				0
-	}		
-	"QuestLogButton"
-	{
-		"tall"			"0"
-	}
-	"EventPromo"
-	{
-		wide				0
-	}
-	"WorkshopButton"		// open advanced options
-	{
-		xPos					0
-		yPos					0
-		wide					30
-		tall					15
-		zpos		"2000"
-		labelText				"j"//"ø"
-		textAlignment			center
-		font			"NewIcons12"
-		command				"engine workshop"
-
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		
-		defaultFgColor_override		"210 130 231 255"
-		armedFgColor_override		"157 83 33 255"
-		paintBackground			0
-
-		"navUp"			""
-		"navLeft"		""
-		"navRight"		"BrowseServers"
-		"border_default"	"NoBorder"
-		
-		"image_drawcolor"	"Blank"		
-		"SubImage"
-		{
-			"wide"			"0"
-		}	
 	}
 	"MOTD_ShowButtonPanel"
 	{
+        ControlName editablepanel
+        fieldName MOTD_ShowButtonPanel
 		"xpos"	"0"
 		"ypos"	"0"
 		"zpos"			"3000"	
@@ -762,8 +656,8 @@
 		wide					30
 		tall					15
 
-			"labelText"		"p"
-			"font"			"NewIcons12"
+			"labelText"		"ʼ"
+			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -827,7 +721,7 @@
 	"polybar0slash"	
 	{		"wide"	"30"
 		"textinsetx"	"-2"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 		"zpos"	"1000"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -843,7 +737,7 @@
 	"slash1"
 	{		"wide"	"30"
 		"textinsetx"	"-2"
-		"labelText"		"É""zpos"	"999"
+		"labelText"		"ʄ""zpos"	"999"
 		"pin_to_sibling"	"bgg1"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -860,7 +754,7 @@
 	"slash2"
 	{		"wide"	"30""zpos"	"999"
 		"textinsetx"	"-2"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 		"pin_to_sibling"	"bgg2"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -880,7 +774,7 @@
 		"slash3"
 		{		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 "pin_to_sibling"	"bgg3"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -897,10 +791,9 @@
 
 		"slash4"
 		{
-		"font"	"NewIcons20"
 		"wide"	"30"
 		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
+		"labelText"		"ʄ"
 			"pin_to_sibling"	"bgg4"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -909,83 +802,9 @@
 	}
 
 
-	"1_btn"
-	{
-			"ControlName"							"CExButton"
-			"fieldName"								"1_btn"		
-		"zpos"			"3000"
-		wide					30
-		tall					15
-			"labelText"		"r"
-			"font"			"NewIcons12"
-			"textAlignment"	"center"
-		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
-				"defaultFgColor_override" 	"White"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		paintBackground			0
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"MOTD_ShowButtonPanel"		
-	}		
-	"2_btn"
-	{
-					"ControlName"							"CExButton"
-			"fieldName"								"2_btn"		
-		"zpos"			"3000"
-		wide					30
-		tall					15
-			"labelText"		"K"
-			"font"			"NewIcons12"
-			"textAlignment"	"center"
-		command				"engine playerstats"
-				"defaultFgColor_override" 	"black"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-			
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"1_btn"		
 	
-		paintBackground			0
-	}			
-	"3_btn"
-	{
-			"ControlName"							"CExButton"
-			"fieldName"								"3_btn"				
-		"zpos"			"3000"
-		wide					30
-		tall					15
-			"labelText"		"@"
-			"font"			"NewIcons12"
-			"textAlignment"	"center"
-		command				"OpenLoadSingleplayerCommentaryDialog"
-				"defaultFgColor_override" 	"black"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
 	
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"2_btn"		
 	
-		paintBackground			0
-	}			
 	"TFCharacterImage"
 	{
 		"visible"			"0"
@@ -1103,129 +922,11 @@
 		{
 			"visible"			"0"
 		}	
-	"Notifications_ShowButtonPanel"	// notification alert
-	{
-		ControlName				EditablePanel
-		FieldName				"Notifications_ShowButtonPanel"
-		xPos					cs-0.5
-		yPos					50
-		zPos					11000
-		"wide"			"p0.1"
-		"tall"			"40"
-		paintBackground			0
-		paintBorder				0
-		//
-		
-		"SubImage"
-		{
-			"visible"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}	
 
-		"Notifications_ShowButtonPanel_SB"		// clickable button with the bell animation
-		{
-			ControlName				CExImageButton
-			fieldName				"Notifications_ShowButtonPanel_SB"
-			xpos					cs-0.5
-			ypos					rs1
-			zpos					1
-			wide					f0
-			tall					f0
-			proportionaltoparent		1
-
-			Command				"noti_show"
-			actionsignallevel			2
-
-			labelText				""
-			
-			sound_depressed			"ui/buttonclick.wav"
-			sound_released			"ui/buttonclickrelease.wav"
-			sound_armed				"UI/buttonrollover.wav"
-			
-			paintbackground			0
-			
-			image_drawcolor				"Primary"			// scheme colors don't work
-			image_armedcolor			"Primary"
-			
-			"SubImage"
-			{
-				ControlName				ImagePanel
-				fieldName				"SubImage"
-				xpos					cs-0.5
-				ypos					cs-0.5
-				wide					p0.4
-				tall					o1
-				proportionaltoparent		1
-				image					"replay/thumbnails/mainmenu/notification_bell"
-				scaleImage				1
-				"drawcolor_override"				"Primary"
-			}				
-		}
-
-
-		"NotificationCountBg"	// circle background for the count label
-		{
-			ControlName				ImagePanel
-			fieldName				"NotificationCountBg"
-			xpos					cs-0.5
-			ypos					cs-0.5
-			zpos					0
-			wide					p0.4
-			tall					o1
-			proportionaltoparent		1
-
-			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"Primary"
-			scaleImage				1
-		}
-
-
-		"Notifications_CountLabel"
-		{
-			ControlName				CExLabel
-			fieldName				"Notifications_CountLabel"
-			xpos					4
-			ypos					3
-			zpos					2
-			wide					20
-			tall					20
-			proportionalToParent		1
-			mouseInputEnabled			0
-
-			font					"EconFontSmall"
-			labelText				"%noticount%"
-			textAlignment			center
-			textInsetY				-2
-
-			fgcolor_override			"Neutral"
-			paintBackground			0
-
-			pin_to_sibling			"NotificationCountBg"
-			pin_corner_to_sibling		PIN_TOPRIGHT
-			pin_to_sibling_corner		PIN_TOPRIGHT
-		}
-	}	
 
 	"StoreHasNewItemsImage"		//Possible use in the future
 	{
 		"visible"			"0"
-	}
-
-	"NoGCMessage"		
-	{
-		ControlName				Label
-		FieldName				"NoGCMessage"
-		xPos					cs-0.5
-		yPos					rs1
-		zPos					3002
-		wide					40
-		tall					o1	
-		font					"NewIcons20"
-		fgcolor_override			"White"
-		labelText				","
-		textAlignment			west
 	}
 
 	"NoGCImage"
@@ -1303,7 +1004,7 @@
 		zpos		"2000"
 		labelText				"ø"
 		textAlignment			center
-		font			"NewIcons12"
+		font			"ItemFontNameLarge"
 		command				"engine workshop"
 
 		sound_depressed			"ui/buttonclick.wav"
@@ -1325,53 +1026,7 @@
 			"visible"			"0"
 		}	
 	}
-	"MOTD_ShowButtonPanel"
-	{
-		"xpos"	"0"
-		"ypos"	"0"
-		"zpos"			"3000"	
-		wide					30
-		tall					15//p0.043
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"WorkshopButton"			
-		"MOTD_ShowButtonPanel_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"zpos"			"1"
-		wide					30
-		tall					15
 
-			"labelText"		"p"
-			"font"			"NewIcons12"
-			"textAlignment"	"center"
-			////	"0"
-			
-			"default"		"1"
-			
-					"defaultFgColor_override" 	"black"
-				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
-
-			
-		
-		"depressedFgColor_override" "35 255 35 222"
-			"actionsignallevel" "2"
-			"Command"		"motd_show"
-			
-			
-			"paintbackground" "0"
-			"SubImage"
-			{
-				"visible"			"0"
-				"image"			"replay/thumbnails/null"
-			}			
-		
-		}
-	}
 
 	"NewUserForumsButton"
 	{
@@ -1521,7 +1176,7 @@
 		"tall"							"20"
 		zpos	"300"
 		labelText				""
-		font					"NotoBold22"
+		font					"ScoreboardTeamName"
 		textAlignment			west
 		"actionsignallevel"		"2"
 		Command				"OpenServerBrowser"
@@ -1977,16 +1632,16 @@
 			"fieldName"		"ToggleFriendsListButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"26"
+			"wide"			"27"
 			"tall"			"17"
 			"visible"		"1"
 			"enabled"		"1"
-		defaultFgColor_override		"black"
+		defaultFgColor_override		"blank"
 		armedFgColor_override		"notowhite"
-		"depressedFgColor_override" "W_CerrarArmed"
-		"selectedFgColor_override"	"W_CerrarArmed"		
-			"labelText"		"r"
-			"font"			"NewIcons12"
+		"depressedFgColor_override" "redsolid"
+		"selectedFgColor_override"	"redsolid"		
+			"labelText"		"ʾ"
+			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
 			zpos 9999
 			"actionsignallevel"	"2"
@@ -13326,8 +12981,8 @@
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								defaultbgcolor_override "0 0 0 200"
-                                "labeltext"                            "ì"
-                                "font" "NewIcons15"
+                                "labeltext"                            "ɡ"
+                                "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -13424,8 +13079,8 @@
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								defaultbgcolor_override "0 0 0 200"
-                                "labeltext"                            "ì"
-                                "font" "NewIcons15"
+                                "labeltext"                            "ɡ"
+                                "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -14387,7 +14042,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14409,7 +14064,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14431,7 +14086,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14453,7 +14108,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14475,7 +14130,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14497,7 +14152,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14519,7 +14174,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14541,7 +14196,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14563,7 +14218,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14585,7 +14240,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14607,7 +14262,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14631,7 +14286,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14653,7 +14308,7 @@
 					"wide"							"p0.175"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14675,7 +14330,7 @@
 					"wide"							"p0.175"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14697,7 +14352,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14719,7 +14374,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14741,7 +14396,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14763,7 +14418,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14785,7 +14440,7 @@
 					"wide"							"p0.35"
 					"tall"							"40"
 					zpos	"300"
-					font					"NotoBold20"
+					font					"ScoreboardTeamName"
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
@@ -14834,8 +14489,8 @@
 				"wide"		"f0"
 				"tall"		"14"
 				"visible"	"1"
-				"labelText"	"v"
-				"font"		"Newicons20"
+				"labelText"	"ǳ"
+				"font"		"scoreboardmedium"
 				"command"	"toggle_collapse"
 				"textAlignment"	"center"
 				"proportionaltoparent"	"1"
@@ -15069,8 +14724,8 @@
 					{
 						"ControlName"	"CExButton"
 						"fieldName"		"NewUserForumsButton"
-						"font"		"newicons15"
-						"labelText"		"u"
+                                "labeltext"                            "ϰ"
+                                "font" "itemfontnamesmall"
 						"textAlignment"		"center"
 						"use_proportional_insets"	"1"
 						"ypos"		"32"
@@ -15130,7 +14785,7 @@
 				"visible"	"1"
 				"labelText"	">"
 				"textinsetx" "-6"
-				"font"		"newicons20"
+				"font"		"scoreboardmedium"
 				"command"	"toggle_collapse"
 				"textAlignment"	"west"
 				"proportionaltoparent"	"1"
@@ -15295,7 +14950,7 @@
 				"visible"	"1"
 				"labelText"	"<"
 				"textinsetx" "-8"
-				"font"		"newicons20"
+				"font"		"scoreboardmedium"
 				"command"	"toggle_collapse"
 				"textAlignment"	"west"
 				"proportionaltoparent"	"1"

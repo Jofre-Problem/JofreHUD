@@ -34,7 +34,7 @@
 			{
 			//	"command"		"engine hud_hide_friends_on; wait 5; hud_reloadscheme"
 				command "engine buttonsmainmenu"
-				"font"			"NewIcons12"
+				"font"			"ItemFontNameLarge"
 			}
 		}	
 		"FriendsContainer"

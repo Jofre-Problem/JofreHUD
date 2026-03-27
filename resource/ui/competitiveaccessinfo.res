@@ -66,7 +66,7 @@
 		{
 		"ControlName""CExLabel"
 		"fieldName""TipSubLabel"
-		"font""newicons25"
+		"font""itemfontnamelarge"
 		"labelText""[¢J¢U"
 		"textAlignment""center"
 		"xpos""cs-0.5-15"
@@ -90,7 +90,7 @@
 			"wide"							"40"
 			"tall"							"o1"
 			zpos	"3000"
-			font					"newicons25"
+			font					"itemfontnamelarge"
 			textAlignment			center
 			"actionsignallevel"		"3"
 			"default"		"1"
@@ -110,7 +110,7 @@
 			"wide"							"40"
 			"tall"							"o1"
 			zpos	"3000"
-			font					"newicons25"
+			font					"itemfontnamelarge"
 			textAlignment			center
 			"actionsignallevel"		"3"
 			"default"		"1"
@@ -118,7 +118,7 @@
 			"defaultfgcolor_override" "203 186 177 255"
 			defaultbgcolor_override G_ButtonBg
 			paintbackground 			1
-			labelText				"Z"
+			labelText				"ʆ"
 			Command				"open_casual"
 		}		
 			"PremiumButton"
@@ -463,10 +463,10 @@
 		"zpos"		"111"
 		"wide"		"40"
 		"tall"		"o1"
-		"labelText"		"ã"
+		"labelText"		"ǫ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"203 186 177 255"
-		"font"					"NewIcons57"		
+		"font"			"ReplayBrowserSmallest"	
 	}
 	"VolumeSlider"
 	{

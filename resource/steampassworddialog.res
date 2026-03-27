@@ -63,15 +63,4 @@
 		"labelText"		"#GameUI_Quit"
 		"command"		"QuitGame"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"87"
-		"ypos"		"218"
-		"wide"		"285"
-		"tall"		"665"
-		
-		
-		
-	}
 }

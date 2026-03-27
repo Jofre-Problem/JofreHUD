@@ -109,7 +109,7 @@
 		"labelText"		"60"
 		"textAlignment"	"center"
 		
-		"font"			"Noto10"
+		"font"			"InstructionalText"
 	}
 
 	"CPTimerBG"

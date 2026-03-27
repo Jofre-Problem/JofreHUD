@@ -11,7 +11,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Start Training"
-		"font"				"NotoBold30"
+		"font"				"HudFontGiant"
 		"textAlignment"		"center"
 		"textinsetx"		"10"
 		"Command"			"startbasictraining"

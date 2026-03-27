@@ -707,7 +707,7 @@ WaveSchedule
 			
 			Squad
 			{
-				FormationNotoBold200
+				FormationScoreboardTeamName0
 				TFBot
 				{
 					Template T_TFBot_Giant_Heavyweapons

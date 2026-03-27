@@ -998,7 +998,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PaintNameLabel"
-		"font"			"notobold20"
+		"font"			"ScoreboardTeamName"
 		"labelText"		"#Store_NoPaint"
 		"textAlignment"	"left"
 		"xpos"			"100"

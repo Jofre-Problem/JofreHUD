@@ -1156,114 +1156,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Crosshairs26"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"26"
-				
-				"antialias"		"1"
-			}
-		}
-		"Crosshairs27"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"27"
-				
-				"antialias"		"1"
-			}
-		}
-		"Crosshairs28"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"28"
-				
-				"antialias"		"1"
-			}
-		}
-		"Crosshairs29"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"29"
-				
-				"antialias"		"1"
-			}
-		}
-		"Crosshairs30"
-		{
-			"1"
-			{
-				"name"			"TF2Crosshairs"
-				"tall"			"30"
-				
-				"antialias"		"1"
-			}
-		}
-
-		"NewIcons57" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"38"				
-				"antialias"			"1"
-			}
-		}			
-		"NewIcons25" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"25"		
-				"antialias"			"1"
-			}
-		}	
-
-		"NewIcons20" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				20		
-				"antialias"			"1"
-			}
-		}		
-		"NewIcons20blur" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				20		
-				"antialias"			"1"
-				blur 2
-			}
-		}			
-		"NewIcons18" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				18	
-				"antialias"			"1"
-			}
-		}	
-		"NewIcons17" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				17	
-				"antialias"			"1"
-			}
-		}
-"Default"
+		"Default"
 		{
 			"1"
 			{
@@ -1765,24 +1658,6 @@ Scheme
 			}
 		}
 	
-		"SpecTargetIDname"
-		{
-			"1"
-			{
-				"name" "Open Sans"
-				"tall" "24"
-				"antialias"	"1"
-			}
-		}
-		"SpecTargetIDhp"
-		{
-			"1"
-			{
-				"name" "open_sans_bold"
-				"tall" "24"
-				"antialias"	"1"
-			}
-		}	
 		"HealthAndAmmo20"
 		{
 			"1"
@@ -1799,53 +1674,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-
-
 		"CustomVerdanaSmall"
 		{
 			"1"
 			{
 				"name" "Verdana"
 				"tall" "7"
-				//
 				"antialias" "1"
 			}
-		}	
-		"Noto10"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"10"
-				
-				"antialias"	"1"
-			}
 		}
-		"Noto14"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"14"
-				
-				"antialias"	"1"
-			}
-		}
-
-
-
-		"NotoBold10"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"10"
-				
-				"antialias"	"1"
-			}
-		}		
-		
 		"NotoBold12"
 		{
 			"1"
@@ -1862,72 +1699,10 @@ Scheme
 			{
 				"name"		"open_sans_bold"
 				"tall"		"14"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold20"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"20"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold22"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"22"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold24"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"24"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold26"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"26"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold28"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"28"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold30"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"30"
-				
 				"antialias"	"1"
 			}
 		}
 
-	
 		"NotoExtraBold34"
 		{
 			"1"
@@ -2007,16 +1782,6 @@ Scheme
 			}
 		}
 
-		"NewIcons15" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				15	
-				"antialias"			"1"
-			}
-		}
-
 		"DefaultUnderline"
 		{
 			"1"
@@ -2027,51 +1792,13 @@ Scheme
 				"range"	"0x0000 0x017F"
 			}
 		}			
-		DebugOverlay
-		{
-			"1"
-			{
-				"name"	"Open Sans"
-				"tall"	"30"
-				
-				"outline"	"1"
-				"range"	"0x0000 0x017F"
-			}
-		}
-		"BetaFont"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"90"
-				//"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				//
-			}
-		}					
-		"NewIconsv2=15" //mfw when going to need every font i have to fit tf2 new standard or crash the game
+		//mfw when going to need every font i have to fit tf2 new standard or crash the game
 		// you are using collyhud as tester, product regular works fine there, so something its wrong with your
 		// u have put jofrehud2 font to colly and see if crashes or not, then change tall to 20 instead of 12 to see if
 		// tall makes something happen, if your theory its right then you should fix the font manually using other font as base
 		// yep
-		{
-			"1"
-			{
-				"name"				"hwnjofre1"
-				"tall"				12	
-				"antialias"			"1"
-			}
-		}		
-		"NewIcons12" 
-		{
-			"1"
-			{
-				"name"				"jofreiconsre"
-				"tall"				"12"		
-				"antialias"			"1"
-			}
-		}		
+		// jofreiconsre on tall 15.
+
 		CenterPrintText
 		{
 			// note that this scales with the screen resolution
@@ -2088,12 +1815,6 @@ Scheme
 			}
 		}
 		
-		
-
-
-
-
-		
 		"Blank" //backup
 		{
 			"1"
@@ -2104,21 +1825,6 @@ Scheme
 				"yres"			"0 2000"
 			}
 		}
-	
-			
-		"Future30"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"25"
-				"antialias" 	"1"
-				"wide"		"300"
-			}
-		}	
-
-
-
 		
 		"DamagetextShadowOld"
 		{
@@ -2311,7 +2017,7 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"28"
+				"tall"		"25"
 				
 				"antialias" "1"
 			}
@@ -2529,7 +2235,7 @@ Scheme
 			{
 				"name"	"tfd" // tfd.ttf
 				"tall"	"28"
-				////"weight"	"0"
+				
 				
 				"antialias"	"1"
 			}
@@ -2541,7 +2247,7 @@ Scheme
 			 {
 				"name"	"Team Fortress" // tf.ttf
 				"tall"	"28"
-				////"weight"	"0"
+				
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -2554,7 +2260,7 @@ Scheme
 			{
 				"name"	"Marlett"
 				"tall"	"20"
-				////"weight"	"0"
+				
 				"symbol"	"1"
 				"range"	"0x0000 0x007F"
 			}
@@ -2565,7 +2271,7 @@ Scheme
 			{
 				"name"	"Marlett"
 				"tall"	"14"
-				////"weight"	"0"
+				
 				"symbol"	"1"
 				"range"	"0x0000 0x007F"
 			}
@@ -2858,7 +2564,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"0"
+				
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -2869,7 +2575,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"0"
+				
 				"additive"	"1"
 				"antialias"	"1"
 			}
@@ -2880,7 +2586,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -2890,7 +2596,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"0"
+				
 				"blur"	"3"
 				"additive"	"1"
 				"antialias"	"1"
@@ -2902,7 +2608,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -3142,7 +2848,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				////"weight"	"0"
+				
 				"antialias"	"1"
 			}
 		}
@@ -3180,7 +2886,7 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"11"
+				"tall"	"38"
 				
 				
 				"antialias"	"1"
@@ -3312,18 +3018,7 @@ Scheme
 			"draw_corner_height" 	"8"		
 		}
 		
-		FP_ButtonHover
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color"					"255 152 0 255"
-			
-			"image"					"replay/thumbnails/MaterialPanel"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"		
-		}		
+	
 		G_TargetBorder
 		{
 			"inset" "0 0 0 0"
@@ -3383,25 +3078,6 @@ Scheme
 				}
 			}
 		}	
-		G_TargetBorder2
-		{
-			"inset" "0 0 0 0"
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 255"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "0 0 0 255"
-					"offset" "1 2"
-				}
-			}
-		}			
-	
 		MM_BUTTON_ADDITIVE
 		{
 			"bordertype"			"scalable_image"
@@ -3425,8 +3101,7 @@ Scheme
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
-		}		
-		SectionedListPanel "Cs1"
+		}
 		CustomCyanBorderThick 
 		{
 			"proportional_scalar"    "0.5"
@@ -3504,82 +3179,6 @@ Scheme
 				}
 			}
 		}		
-		notograyborder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "notogray"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "notogray"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "notogray"
-					"offset" "2 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "notogray"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "notogray"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "notogray"
-					"offset" "2 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "notogray"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "notogray"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "notogray"
-					"offset" "2 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "notogray"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "notogray"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "notogray"
-					"offset" "2 0"
-				}
-			}
-		}				
 		"LINE_LEFT_0_Primary_0"
 		{
 			"bordertype" "scalable_image"
@@ -3701,17 +3300,6 @@ Scheme
 			"draw_corner_width"			"2"
 			"draw_corner_height"		"2"
 		}		
-	"Modal_0"
-		{
-			"bordertype"				"scalable_image"
-			"background_type"			"0"
-			"color"						"Primary"
-			"image"						"replay/thumbnails/panels/misc/modal"
-			"src_corner_width"			"12"
-			"src_corner_height"			"12"
-			"draw_corner_width"			"2"
-			"draw_corner_height"		"2"
-		}
 			Cs1
 		{
 			"inset" "0 0 1 1"
@@ -3751,58 +3339,7 @@ Scheme
 				}
 			}
 		}				
-			Cs3
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "79 51 99 255"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "79 51 99 255"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "79 51 99 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "79 51 99 255"
-					"offset" "0 0"
-				}
-			}
-		}	
 	
-		BlueHighlightBorderUltraThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
-			Right
-			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
-			Top
-			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
-			Bottom
-			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
-		}
 
 	
 		RedHighlightBorder
@@ -3816,30 +3353,6 @@ Scheme
 			{	"1"	{	"color" "Red"	}	}
 			Bottom
 			{	"1"	{	"color" "Red"	}	}
-		}
-		RedHighlightBorderThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
-			Right
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
-			Top
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
-			Bottom
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
-		}
-		RedHighlightBorderUltraThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
-			Right
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
-			Top
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
-			Bottom
-			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
 		}
 
 
@@ -5945,9 +5458,7 @@ Scheme
 				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"0"	
 			}
-		
 
-	//	PropertySheetBorder	FrameBorder		
 	    FrameBorder 
 		{
 			"inset" "0 0 0 0"
@@ -6821,177 +6332,6 @@ Scheme
 			"name" "opensans-captions"
 
 		}
-
-		"jofreicons"
-		{
-			"font" "fonts/jofreiconsre.otf"
-			"name" "jofreiconsre"
-        	"arabic"
-            {
-                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
-            }
-
-            "brazilian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "bulgarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "czech"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "danish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "dutch"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "english"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "finnish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "french"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "german"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "greek"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hungarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "italian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "japanese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "latvian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "lithuanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "norwegian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "pirate"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "polish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "portuguese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "romanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "russian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "schinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "slovak"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "spanish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "swedish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "tchinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "thai"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "turkish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "ukrainian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-		}
-	
 		"311"
 		{
 			"font"	"fonts/OpenSansExtraBold-Uber.ttf"

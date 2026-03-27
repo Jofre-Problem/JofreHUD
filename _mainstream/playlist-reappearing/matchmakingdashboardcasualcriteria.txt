@@ -1,7 +1,0 @@
-x
-{
-	"CasualCriteria"
-	{
-		"visible"		"0"
-	}
-}

@@ -4,10 +4,10 @@
 	{
 		"ControlName"	"CPerforceFileListFrame"
 		"fieldName"		"PerforceFileList"
-		//"xpos"			"147"
-		//"ypos"			"128"
-		//"wide"			"580"
-		//"tall"			"380"
+		"xpos"			"147"
+		"ypos"			"128"
+		"wide"			"580"
+		"tall"			"380"
 		
 		
 		////"visible"		"1"

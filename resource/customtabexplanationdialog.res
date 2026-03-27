@@ -1,3 +1,4 @@
+#base "optionssubportal.res"
 "Resource/CustomTabExplanationDialog.res"
 {
 	"CustomTabExplanationDialog"
@@ -253,17 +254,5 @@
 		
 		"labelText"		"#vgui_Cancel"
 		"Command"		"cancel"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"1470"
-		"ypos"		"662"
-		"wide"		"300"
-		"tall"		"420"
-		
-		
-		
-		"title"		"#Frame_Untitled"
 	}
 }

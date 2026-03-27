@@ -132,7 +132,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Welcome"
 		"textAlignment"	"center"
-		"font"			"Noto14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -190,7 +190,7 @@
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
 		"command"		"okay"
-		"font"		"NotoBold28"
+		"font"		"EconFontMedium"
 		paintBackground 1
 		"alpha"		"190"
 		"defaultBgColor_override"	"0 0 0 200"
@@ -222,7 +222,7 @@
 		"border_default"		""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Noto14"
+		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
 		"armedFgColor_override" "primary"
 		"defaultFgColor_override" "255 255 255 255"

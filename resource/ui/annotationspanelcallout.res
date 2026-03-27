@@ -57,7 +57,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DistanceLabel"
-		"font"			"Notobold20"
+		"font"			"ScoreboardTeamName"
 		"xpos"			"0"
 		"ypos"			"28"
 		"zpos"			"2"

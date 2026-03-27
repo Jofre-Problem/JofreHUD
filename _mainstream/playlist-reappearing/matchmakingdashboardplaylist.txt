@@ -1,7 +1,0 @@
-"Resource/UI/MatchMakingDashboardPlayList.res"
-{
-	"playlist"
-	{
-		"visible"		"0"
-	}
-}

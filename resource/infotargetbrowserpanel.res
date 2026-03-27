@@ -1,3 +1,4 @@
+#base "optionssubportal.res"
 "resource/infotargetbrowserpanel.res"
 {
 	"InfoTargetBrowserPanel"
@@ -111,17 +112,5 @@
 		
 		"labelText"		"Quick Load"
 		"Command"		"quickload"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"535"
-		"ypos"		"78"
-		"wide"		"409"
-		"tall"		"504"
-		
-		
-		
-		"title"		"#Frame_Untitled"
 	}
 }

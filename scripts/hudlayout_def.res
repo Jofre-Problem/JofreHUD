@@ -1110,6 +1110,7 @@
 		"enabled"	"1"
 		"xpos"		"c-236"
 		"ypos"		"r250"
+		wide "200"
 		"zpos"		"0"
 		"tall"		"100"
 		"BgAlpha"	"0"

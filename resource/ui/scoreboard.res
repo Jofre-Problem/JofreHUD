@@ -114,10 +114,10 @@
 		
 		"wide"		"23"
 		"tall"		"20"
-		"labelText"		"z"
+		"labelText"		"ǐ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"notowhite"
-		"font"					"NewIcons12"
+		"font"					"itemfontnamesmall"
 	}	
 	"ChatSlider"
 	{
@@ -365,8 +365,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"G_Slash"
-		"font"			"Newicons57"
-		"labelText"		"/"
+		"font"			"ReplayBrowserSmallest"
+		"labelText"		"ʚ"
 		"textAlignment"	"center"
 		"xpos"			"cs-0.5+4" 
 		"ypos"			"79+p0.001"
@@ -527,7 +527,6 @@
 		"zpos"			"5000"
 		"wide"			"p0.9"
 		"tall"			"10"
-		"font_minmode"				"newicons15"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -629,7 +628,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -1523,7 +1522,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DeathsLabel"
-			"font"				"Newicons15"
+			"font"				"itemfontnamesmall"
 			"labelText"			"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1601,7 +1600,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"AssistsLabel"
-			"font"				"Newiconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
@@ -1663,7 +1662,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DestructionLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1730,7 +1729,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapturesLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1798,7 +1797,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DefensesLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -1867,7 +1866,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DominationLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1935,7 +1934,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"RevengeLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2004,7 +2003,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HealingLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -2069,7 +2068,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"InvulnLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2134,7 +2133,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TeleportsLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2199,7 +2198,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -2265,7 +2264,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BackstabsLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2331,7 +2330,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"BonusLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -2396,7 +2395,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"SupportLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
 			"xpos"				"80"
@@ -2460,7 +2459,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"DamageLabel"
-			"font"				"NewIconsv2=15"
+			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
 			"xpos"				"0"

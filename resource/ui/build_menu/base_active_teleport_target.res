@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold20"
+		"font"			"ScoreboardTeamName"
 		"fgcolor"		"White"
 		"xpos"			"cs-0.5"
 		"ypos"			"33"
@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
-		"font"			"NotoBold20"
+		"font"			"ScoreboardTeamName"
 		"fgcolor"		"Shadow"
 		"xpos"			"-1"
 		"ypos"			"-1"

@@ -9,7 +9,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKillerCustom"
-			"font"			"Noto10"
+			"font"			"InstructionalText"
 			"xpos"			"7"
 			"ypos"			"0"
 			"wide"			"299"

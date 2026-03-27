@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Notobold26"
+		"font"			"EconFontMedium"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"100"
@@ -435,7 +435,7 @@ if_mini		{			"visible"		"0"		}
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Notobold10"
+				"font"			"FontCartPrice"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"6"

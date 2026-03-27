@@ -223,14 +223,14 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SpecTargetIDhp"
+		"font"			"MenuMainTitle"
 		"fgcolor"		"236 240 241 255"
 
 					"fonts"
 				{
 					"0"
 					{
-						"font"	"SpecTargetIDhp" // TF2 Build 11
+						"font"	"MenuMainTitle" // TF2 Build 11
 					}
 					"1"
 					{
@@ -255,14 +255,14 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SpecTargetIDhp"
+		"font"			"MenuMainTitle"
 		"fgcolor_override"		"0 0 0 100"
 
 							"fonts"
 				{
 					"0"
 					{
-						"font"	"SpecTargetIDhp" // TF2 Build 11
+						"font"	"MenuMainTitle" // TF2 Build 11
 					}
 					"1"
 					{

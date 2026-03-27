@@ -1,3 +1,4 @@
+#base "optionssubportal.res"
 "Resource\FogUIPanel.res"
 {
 	"FogUIPanel"
@@ -580,18 +581,5 @@
 		"visible"		"0"
 		
 		"labelText"		"1"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"1339"
-		"ypos"		"349"
-		"wide"		"319"
-		"tall"		"760"
-		
-		
-		//"RoundedCorners"		"15"
-		
-		"title"		"#Frame_Untitled"
 	}
 }

@@ -180,7 +180,7 @@
 	{		
 		"ControlName"		"CExLabel"
 			"fieldName"		"polybar0slashmm"
-			"font"			"NewIcons20"
+			"font"			"scoreboardmedium"
 			"labelText"		"ʄ"
 			"textAlignment"		"west"
 			"xpos" 			"87"					//"c-60"//			"180"
@@ -197,7 +197,7 @@
 	{		
 		"ControlName"		"CExLabel"
 			"fieldName"		"polybar0slashmm2"
-			"font"			"NewIcons20"
+			"font"			"scoreboardmedium"
 			"labelText"		"ʄ"
 			"textAlignment"		"west"
 			"xpos" 			"150"					//"c-60"//			"180"

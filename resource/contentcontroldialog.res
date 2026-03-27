@@ -114,15 +114,4 @@
 		"labelText"		"#GameUI_Cancel"
 		"command"		"Cancel"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"504"
-		"ypos"		"51"
-		"wide"		"285"
-		"tall"		"590"
-		
-		
-		
-	}
 }

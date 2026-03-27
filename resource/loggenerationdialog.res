@@ -1,3 +1,4 @@
+#base "optionssubportal.res"
 "resource/LogGenerationDialog.res"
 {
 	"GenerateLog"
@@ -142,18 +143,6 @@
 		
 		
 		"labelText"		"Rotation Speed:"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"1065"
-		"ypos"		"230"
-		"wide"		"300"
-		"tall"		"420"
-		
-		
-		
-		"title"		"#Frame_Untitled"
 	}
 	"Speed0Text"
 	{

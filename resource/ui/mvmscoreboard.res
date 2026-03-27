@@ -25,7 +25,7 @@
 			"xpos"			"0"
 			"ypos"	"90"
 			"fgcolor_override"	"notowhite"
-			"font"	"Notobold20"
+			"font"	"ScoreboardTeamName"
 			"tall"	"30"
 			"wide"	"f0"
 	}

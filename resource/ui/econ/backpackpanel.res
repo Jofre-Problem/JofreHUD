@@ -130,7 +130,7 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"New"
-				"font"								"newicons12"
+				"font"								"ItemFontNameLarge"
 				"textAlignment"						"center"
 				"xpos"								"0"
 				"ypos"								"24"

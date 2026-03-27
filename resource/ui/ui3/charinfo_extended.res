@@ -4758,7 +4758,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"xxxxx"
-					"font"			"notobold10"
+					"font"			"FontCartPrice"
 					"labelText"		"Dream Items:"
 					"textAlignment"	"west"
 					"xpos"			"10"

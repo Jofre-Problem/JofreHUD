@@ -28,7 +28,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"font"					"Noto10"
+		"font"					"InstructionalText"
 		"proportionaltoparent"		"1"
 	}
 

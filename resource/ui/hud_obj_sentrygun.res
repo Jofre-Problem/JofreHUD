@@ -226,7 +226,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"KillsLabelLabel"
-				"font"		"newicons12"
+				"font"		"ItemFontNameLarge"
 				"xpos"		"c106"
 				"ypos"		"360+26"
 				"zpos"		"1"
@@ -316,7 +316,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"ShellsLabel"
-				"font"		"Newicons12"
+				"font"		"ItemFontNameLarge"
 				"zpos"		"10"
 				"wide"		"40"
 				"tall"		"8"

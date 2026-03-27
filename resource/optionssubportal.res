@@ -2,100 +2,193 @@
 {
 	"PortalFunnel"
 	{
-		"ControlName"		"CCvarToggleCheckButton"
-		"fieldName"		"PortalFunnel"
-		"xpos"		"28"
-		"ypos"		"28"
-		"wide"		"148"
-		"tall"		"28"
-		
-		
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"1"
-		"labelText"		"#GameUI_PortalFunnel"
-		"textAlignment"		"west"
-		//
-		//
-		//"wrap"		"0"
-		
-		"textinsetx"		"6"
-		
-		
-		"Default"		"0"
+		"ControlName"		"panel"
+		"visible"		"0"
 	}
 	"PortalDepth"
 	{
-		"ControlName"		"ComboBox"
-		"fieldName"		"PortalDepth"
-		"xpos"		"35"
-		"ypos"		"106"
-		"wide"		"175"
-		"tall"		"24"
-		
-		
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"4"
-		"textHidden"		"0"
-		"editable"		"0"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
+		"ControlName"		"panel"
+		"visible"		"0"
 	}
 	"Portal Funnel label"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Portal Funnel label"
-		"xpos"		"159"
-		"ypos"		"31"
-		"wide"		"320"
-		"tall"		"24"
-		
-		
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_PortalFunnelLabel"
-		"textAlignment"		"west"
-		//
-		//
-		//"wrap"		"0"
-		
-		
-		
-		
+		"ControlName"		"panel"
+		"visible"		"0"
 	}
 	"PortalDepthLabel"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"PortalDepthLabel"
-		"xpos"		"35"
-		"ypos"		"82"
-		"wide"		"179"
-		"tall"		"24"
-		
-		
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_PortalDepthLabel"
-		"textAlignment"		"west"
-		"associate"		"PortalDepth"
-		//
-		//
-		//"wrap"		"0"
-		
+		"ControlName"		"panel"
+		"visible"		"0"
+	}
+	"BuildModeDialog"
+	{
+		"ControlName"		"BuildModeDialog"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"300"
+		"tall"		"420"
+		"title"		"#Frame_Untitled"
+	}
+	"frame_topGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"8"
+		"ypos"		"0"
+		"wide"		"584"
+		"tall"		"5"
 		
 		
 		
 	}
+	"frame_bottomGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"8"
+		"ypos"		"475"
+		"wide"		"574"
+		"tall"		"5"
+		
+		
+		
+	}
+	"frame_leftGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"8"
+		"wide"		"5"
+		"tall"		"464"
+		
+		
+		
+	}
+	"frame_rightGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"595"
+		"ypos"		"8"
+		"wide"		"5"
+		"tall"		"454"
+		
+		
+		
+	}
+	"frame_tlGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"8"
+		"tall"		"8"
+		
+		
+		
+	}
+	"frame_trGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"592"
+		"ypos"		"0"
+		"wide"		"8"
+		"tall"		"8"
+		
+		
+		
+	}
+	"frame_blGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"472"
+		"wide"		"8"
+		"tall"		"8"
+		
+		
+		
+	}
+	"frame_brGrip"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"582"
+		"ypos"		"462"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		
+	}
+	"frame_caption"
+	{
+		"ControlName"		"Panel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"590"
+		"tall"		"23"
+		
+		
+		
+	}
+	"frame_minimize"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		"visible"		"0"
+		
+		"labelText"		"0"
+	}
+	"frame_maximize"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		"visible"		"0"
+		
+		"labelText"		"1"
+	}
+	"frame_mintosystray"
+	{
+		"ControlName"		"Button"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		"visible"		"0"
+		
+		"labelText"		"o"
+		"Command"		"MinimizeToSysTray"
+	}
+	"frame_close"
+	{
+		"ControlName"		"Button"
+		"xpos"		"575"
+		"ypos"		"8"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		
+		"labelText"		"r"
+	}
+	"frame_menu"
+	{
+		"ControlName"		"FrameSystemButton"
+		"xpos"		"7"
+		"ypos"		"8"
+		"wide"		"18"
+		"tall"		"18"
+		
+		
+		
+	}	
 }

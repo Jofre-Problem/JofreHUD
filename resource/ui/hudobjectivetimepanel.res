@@ -30,10 +30,10 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"Ù"
+		"labelText"		"ʕ"
 		"textAlignment"		"center"
 		
-		"font"			"NewIcons15"
+		"font"			"itemfontnamesmall"
 		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
@@ -49,10 +49,10 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"2"
+		"labelText"		"Ь"
 		"textAlignment"		"center"
 		
-		"font"			"NewIcons15"
+		"font"			"itemfontnamesmall"
 		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
@@ -68,10 +68,10 @@
 		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"2"
+		"labelText"		"Ь"
 		"textAlignment"		"center"
 		
-		"font"			"NewIcons15"
+		"font"			"itemfontnamesmall"
 		"fgcolor_override"		"notoWhite"
 		"proportionaltoparent"		"1"
 	}
@@ -99,13 +99,9 @@
 
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"0"
-		"ypos"			"9"
-		"zpos"			"2"
-		"wide"			"78"
-		"tall"			"33"
+
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
@@ -177,7 +173,7 @@
 		"pin_to_sibling"	"TimePanelBGReal"
 		if_match
 		{
-			"visible"	"0"
+			"visible"	"1"
 		}
 	}
 	"WaitingForPlayersBG"

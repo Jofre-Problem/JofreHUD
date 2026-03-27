@@ -37,10 +37,10 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"command"									"nav_to"
-		"labelText"									"m"
+		"labelText"									"ɡ"
 
 		"textAlignment"								"center"
-		"font"										"NewIcons12"
+		"font"										"itemfontnamesmall"
 
 		"paintbackground"							"1"
 		//
@@ -60,7 +60,7 @@
 		"ControlName"								"CExButton"
 		"fieldName"									"CloseButton"
 		"xpos"										"0"
-		"labelText"									"n"
+		"labelText"									"Ð"
 
 		if_left
 		{
@@ -77,7 +77,7 @@
 		"command"									"nav_close"
 
 		"textAlignment"								"center"
-		"font"										"NewIcons12"
+		"font"										"itemfontnamesmall"
 
 		"paintbackground"							"0"
 		//

@@ -1088,11 +1088,6 @@ Button.DepressedTextColor "220 220 220 255"
 			"font" "fonts/blank.otf"
 			"name" "Blank"
 		}	
-		"thin"
-		{
-			"font" "fonts/oswald.ttf"
-			"name" "oswald"
-		}	
 		"monono"
 		{
 			"font" "fonts/mono.otf"

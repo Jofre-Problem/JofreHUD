@@ -167,7 +167,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"newicons12"
+			"font"			"itemfontnamesmall"
 			"xpos"			"35"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -175,7 +175,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"y"
+			"labelText"		"Ɋ"
 			textinsety 2
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"

@@ -204,7 +204,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"AmmoLabel"
-				"font"		"Newicons12"
+				"font"		"ItemFontNameLarge"
 				"zpos"		"1"
 				"wide"		"50"
 				"tall"		"8"

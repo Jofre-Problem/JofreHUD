@@ -37,15 +37,4 @@
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"center"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"430"
-		"ypos"		"83"
-		"wide"		"285"
-		"tall"		"445"
-		
-		
-		
-	}
 }

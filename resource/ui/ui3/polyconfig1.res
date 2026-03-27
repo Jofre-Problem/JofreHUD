@@ -38,8 +38,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"slash2"
-			"font"			"NewIcons20"
-			"labelText"		"ù"//"%kills%"
+			"font"			"ScoreboardMedium"
+			"labelText"		"ǔ"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"0"					//"c-60"//			"180"
 			"ypos"			"0"
@@ -72,8 +72,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"slash3"
-			"font"			"NewIcons20"
-			"labelText"		"ù"//"%kills%"
+			"font"			"ScoreboardMedium"
+			"labelText"		"ǔ"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"0"					//"c-60"//			"180"
 			"ypos"			"0"
@@ -104,8 +104,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"slash4"
-			"font"			"NewIcons20"
-			"labelText"		"ù"//"%kills%"
+			"font"			"ScoreboardMedium"
+			"labelText"		"ǔ"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"0"					//"c-60"//			"180"
 			"ypos"			"0"

@@ -356,7 +356,7 @@
 	{		
 		"ControlName"		"CExLabel"
 			"fieldName"		"polybar0slashmm2"
-			"font"			"NewIcons25"
+			"font"			"itemfontnamelarge"
 			"labelText"		"È"
 			"textAlignment"		"west"
 			"xpos" 			"180"					//"c-60"//			"180"
@@ -386,8 +386,8 @@
 
 			"border_default"	"black"
 			"border_armed"	"Black2"		
-		labelText					"ĳ"
-		font							"NewIcons20"
+		labelText					"ȭ"
+		font							"scoreboardmedium"
 		textAlignment				center
 			sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"	
@@ -421,8 +421,8 @@
 		visible						1
 		enabled						1
 
-		labeltext					"ı"
-		font							"NewIcons20"
+		labeltext					"ȫ"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"characterloadout"
@@ -456,7 +456,7 @@
 		enabled						1
 
 		labeltext					""
-		font							"NewIcons20"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"sv_cheats 1; r_skin 0"
@@ -489,7 +489,7 @@
 		enabled						1
 
 		labeltext					""
-		font							"NewIcons20"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"sv_cheats 1; r_skin 1"
@@ -579,8 +579,8 @@
 		visible						1
 		enabled						1
 
-		labeltext					"đ"
-		font							"NewIcons20"
+		labeltext					"ȫ"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"screenshot"
@@ -665,7 +665,7 @@
 		enabled						1
 
 		labeltext					""
-		font							"NewIcons20"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"tf_forced_holiday 2"// incrementvar tf_forced_holiday 0 2 -2"
@@ -732,7 +732,7 @@
 		enabled						1
 
 		labeltext					""
-		font							"NewIcons20"
+		font							"scoreboardmedium"
 		textAlignment				center
 
 		Command						"cl_showbackpackrarities 0"// incrementvar tf_forced_holiday 0 2 -2"
@@ -781,7 +781,7 @@
 		enabled						1
 
 		labeltext					"õ"
-		font							"Future30"
+		font							"HudFontMediumSmall"
 		textAlignment				center
 
 		Command						"cl_showbackpackrarities 1; tf_forced_holiday 0"// incrementvar tf_forced_holiday 0 2 -2"

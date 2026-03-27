@@ -226,7 +226,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"NotoBold20"
+					"font"			"ScoreboardTeamName"
 					"xpos"			"1"
 					"ypos"			"0"
 					"wide"			"200"
@@ -247,7 +247,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"TimesUsedLabelLabel"
-					"font"		"newicons12"
+					"font"		"ItemFontNameLarge"
 					"xpos"		"0"
 					"ypos"		"6"
 					"zpos"		"1"

@@ -1,3 +1,4 @@
+#base "optionssubportal.res"
 "resource/BxRecordGame.res"
 {
 	"RecordGame"
@@ -477,18 +478,6 @@
 		
 		
 		"visible"		"0"
-		
-		"title"		"#Frame_Untitled"
-	}
-	"BuildModeDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"300"
-		"tall"		"420"
-		
-		
 		
 		"title"		"#Frame_Untitled"
 	}

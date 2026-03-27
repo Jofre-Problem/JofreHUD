@@ -1,7 +1,0 @@
-x
-{
-	"MVMCriteria"
-	{
-		"visible"		"0"
-	}
-}

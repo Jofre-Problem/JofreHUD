@@ -16,7 +16,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ModeNameLabel"
-			"font"			"NotoBold24"
+			"font"			"ScoreboardTeamName"
 			"labelText"		"%modename%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -93,7 +93,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"#TF_Training_SelectMode"
-		"font"				"NotoBold30"
+		"font"				"HudFontGiant"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"Command"			"%startcommand%"

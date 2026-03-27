@@ -39,9 +39,9 @@
 			//"visible"		"1"
 			"proportionaltoparent"	"1"
 			"command"		"nav_close"
-			"labelText"		"ń"
+			"labelText"		"Ð"
 			"textAlignment"	"center"
-			"font"			"newicons18"
+			"font"			"itemfontnamelarge"
 			paintBackground 0
 			actionsignallevel 2
 			"armedBgColor_override"	"Blank"
@@ -64,7 +64,7 @@
 			"command"		"nav_close"
 			"labelText"		"x"
 			"textAlignment"	"center"
-			"font"			"newicons18"
+			"font"			"itemfontnamelarge"
 			actionsignallevel 1
 			"armedBgColor_override"	"Blank"
 			"defaultBgColor_override"	"Blank"

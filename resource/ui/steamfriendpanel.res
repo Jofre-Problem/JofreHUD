@@ -52,7 +52,7 @@
 		"labelText"		"%name%"
 		"labelText_minmode"	"Friend"
 		"proportionaltoparent"		"1"
-		"font"		"Noto10"
+		"font"		"InstructionalText"
 		"mouseinputenabled"		"0"
 	}
 
@@ -71,7 +71,7 @@
 		"wrap"		"0"
 		"labelText"		"%status%"
 		"proportionaltoparent"		"1"
-		"font"		"Noto10"
+		"font"		"InstructionalText"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}

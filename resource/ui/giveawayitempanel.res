@@ -143,7 +143,7 @@
 		"labelText"		"z"
 		"textAlignment"		"center"
 		"fgcolor_override"		"white"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"ChatSlider"
 	{
@@ -173,7 +173,7 @@
 		"labelText"		"0"
 		"textAlignment"		"center"
 		"fgcolor_override"		"white"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"DDDSlider"
 	{
@@ -203,7 +203,7 @@
 		"labelText"		"ã"
 		"textAlignment"		"center"
 		"fgcolor_override"		"white"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"VolumeSlider"
 	{
@@ -233,7 +233,7 @@
 		"labelText"		"V"
 		"textAlignment"		"center"
 		"fgcolor_override"		"white"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"NSlider"
 	{
@@ -279,7 +279,7 @@
 		"labelText"		"w"
 		"textAlignment"		"center"
 		"fgcolor_override"		"white"
-		"font"					"NewIcons12"	
+		"font"					"ItemFontNameLarge"	
 		"pin_to_sibling" "custombg2"	
 	}	
 	"crossSlider"
@@ -312,7 +312,7 @@
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"fgcolor_override"		"RED"
-		"font"					"NewIcons12"	
+		"font"					"ItemFontNameLarge"	
 		"pin_to_sibling" "crosslabel"	
 	}	
 	"crossREDSlider"
@@ -344,7 +344,7 @@
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"fgcolor_override"		"green"
-		"font"					"NewIcons12"	
+		"font"					"ItemFontNameLarge"	
 		"pin_to_sibling" "crosslabelred"	
 	}	
 	"crossgreenSlider"
@@ -377,7 +377,7 @@
 		"labelText"		"o"
 		"textAlignment"		"center"
 		"fgcolor_override"		"blue"
-		"font"					"NewIcons12"	
+		"font"					"ItemFontNameLarge"	
 		"pin_to_sibling" "crosslabelgreen"	
 	}	
 	"crossyellowSlider"

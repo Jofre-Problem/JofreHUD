@@ -1105,7 +1105,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"NotoBold26"
+		"font"			"EconFontMedium"
 		"textAlignment"		"center"
 		"xpos"			"0+15"
 		"ypos"			"40"
@@ -1131,7 +1131,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"NotoBold26"
+		"font"			"EconFontMedium"
 		"xpos"			"0+15"
 		"ypos"			"40"
 		"wide"			"f0"

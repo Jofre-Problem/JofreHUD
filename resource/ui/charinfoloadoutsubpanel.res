@@ -5451,7 +5451,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Dashboard"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/"
@@ -5494,7 +5494,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"icon2"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"ŀ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5519,7 +5519,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Pricelist"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/pricelist"
@@ -5543,7 +5543,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"icon3"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Ę"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5567,7 +5567,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Market Pricelist"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/market"
@@ -5590,7 +5590,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"icon4"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"ö"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5613,7 +5613,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Suggestions"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/suggestions?state=open"
@@ -5636,7 +5636,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"icon5"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Đ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5659,7 +5659,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Latest Changes"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/latest"
@@ -5701,7 +5701,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"vicon2"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"ę"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5724,7 +5724,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Browse Listings"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/classifieds"
@@ -5747,7 +5747,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"vicon2log"
-					"font"			"newicons12"
+					"font"			"ItemFontNameLarge"
 					"labelText"		"ő"
 					"textAlignment"	"east"
 					"xpos"			"0"
@@ -5770,7 +5770,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"			"My Listings"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/classifieds/manage"
@@ -5794,7 +5794,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"vicon3"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"đ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5817,7 +5817,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Deals"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/premium"
@@ -5840,7 +5840,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"vicon4"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Ã"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5863,7 +5863,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Matches"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/premium"
@@ -5905,7 +5905,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"lvicon2"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Õ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5928,7 +5928,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Effects"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/effects"
@@ -5951,7 +5951,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"lvicon3"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"þ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -5974,7 +5974,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"War Paints"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/war-paints"
@@ -5997,7 +5997,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"lvicon4"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"ĕ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -6020,7 +6020,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Items"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/items"
@@ -6043,7 +6043,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"lvicon5"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Ô"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -6066,7 +6066,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Steam API Health"
 		textinsetx -1
 			"Command"		"url https://next.backpack.tf/almanac/steam-api-health"
@@ -6108,7 +6108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"kkkicon2"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Ĳ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -6132,7 +6132,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Loadout TF"
 		textinsetx -1
 			"Command"		"url https://loadout.tf/"
@@ -6155,7 +6155,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"kkkicon3"
-		"font"			"newicons12"
+		"font"			"ItemFontNameLarge"
 		"labelText"		"Ĳ"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -6178,7 +6178,7 @@
 		"zpos"				"201"
 		"wide"			"120"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Itempedia"
 		textinsetx -1
 			"Command"		"url https://itempedia.tf/"
@@ -6263,7 +6263,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Market"
 		textinsetx 6
 			"Command"		"url https://mannco.store/tf2"
@@ -6311,7 +6311,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Auctions"
 		textinsetx 6
 			"Command"		"url https://mannco.store/auctions"
@@ -6359,7 +6359,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Deposit"
 		textinsetx 6
 			"Command"		"url https://mannco.store/deposit"
@@ -6421,7 +6421,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Trade"
 		textinsetx 6
 			"Command"		"url https://quicksell.store/trade"
@@ -6469,7 +6469,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Buy / Sell Keys"
 		textinsetx 6
 			"Command"		"url https://quicksell.store/keys"
@@ -6517,7 +6517,7 @@
 		"zpos"				"201"
 		"wide"			"85"
 		"tall"			"20"
-		"font"			"noto10"
+		"font"			"InstructionalText"
 		"labelText"		"Giveaway"
 		textinsetx 6
 			"Command"		"url https://quicksell.store/giveaway"
@@ -6780,7 +6780,7 @@
 			"border_default"				"cs1"
 		"border_armed"					"steamworkshopborder"
 		labelText				"Đ"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		textinsety				-2		// tune icon position
 
@@ -6810,7 +6810,7 @@
 			defaultFgColor_override		"Tanlight"
 		armedFgColor_override		"notogreensolid"
 		labelText				"đ"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command				"loadout soldier"
@@ -6840,7 +6840,7 @@
 		armedFgColor_override		"notogreensolid"
 
 		labelText				"æ"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 
 		Command				"loadout pyro"
@@ -6869,7 +6869,7 @@
 		armedFgColor_override		"notogreensolid"
 
 		labelText				"ē"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command				"loadout demoman"
@@ -6900,7 +6900,7 @@
 			defaultFgColor_override		"Tanlight"
 		armedFgColor_override		"notogreensolid"
 		labelText				"Ĕ"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command						"loadout heavy"
@@ -6924,7 +6924,7 @@
 		"tall"							"100"
 		
 		labelText				"ĕ"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command				"loadout engineer"
@@ -6959,7 +6959,7 @@
 		armedFgColor_override		"notogreensolid"	
 		
 		labelText				"Ė"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command				"loadout medic"
@@ -6990,7 +6990,7 @@
 			"border_default"				"cs1"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ė"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 		
 		Command						"loadout sniper"
@@ -7021,7 +7021,7 @@
 		armedFgColor_override		"notogreensolid"
 
 		labelText				"Ę"
-		font					"future30"
+		font					"HudFontMediumSmall"
 		textAlignment			center
 
 		Command				"loadout spy"

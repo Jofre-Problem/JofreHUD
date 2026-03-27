@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescriptionLabel"
-		"font"			"Notobold10"
+		"font"			"FontCartPrice"
 		"labelText"		"%description%"
 		"textAlignment" "north-west"
 		"xpos"			"20"

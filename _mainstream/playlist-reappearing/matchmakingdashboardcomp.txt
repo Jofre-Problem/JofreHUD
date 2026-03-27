@@ -1,7 +1,0 @@
-x
-{
-	"CompStats"
-	{
-		"visible"		"0"
-	}
-}

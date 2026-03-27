@@ -281,9 +281,9 @@
 		wide					20
 		tall					20	
 		"zpos"	"80"
-		font					"newicons20"
+		font					"scoreboardmedium"
 		fgcolor_override			"255 255 255 255"
-		labelText				"Ê"
+		labelText				"ȫ"
 		textAlignment			center
 		"bgcolor_override"	"0 0 0 150"
 	}		
@@ -1090,6 +1090,6 @@
 		"labelText"		"z"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}		
 }}

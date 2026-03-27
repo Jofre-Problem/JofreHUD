@@ -91,7 +91,7 @@
 		"labelText"		"z"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"ChatSlider"
 	{
@@ -121,7 +121,7 @@
 		"labelText"		"0"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"DDDSlider"
 	{
@@ -151,7 +151,7 @@
 		"labelText"		"ã"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"VolumeSlider"
 	{
@@ -181,7 +181,7 @@
 		"labelText"		"V"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"NSlider"
 	{
@@ -211,7 +211,7 @@
 		"labelText"		"R"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Primary"
-		"font"					"NewIcons12"		
+		"font"					"ItemFontNameLarge"		
 	}
 	"CSlider"
 	{

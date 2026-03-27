@@ -20,7 +20,7 @@
 						"tall"					"40"
 						"proportionaltoparent"	"1"
 						"labeltext"				"Keep Gray solid color one! (Removes bg)"
-						"font"					"Notobold20"
+						"font"					"ScoreboardTeamName"
 						"textalignment"			"center"
 "command" "engine sixense_clear_bindings; sixense_write_bindings _jp_stat_bg.txt"
 						"actionsignallevel"		"5" 

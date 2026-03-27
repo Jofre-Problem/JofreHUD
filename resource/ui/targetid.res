@@ -11,7 +11,7 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"1500"
-		//////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -36,7 +36,7 @@
 		"zpos"			"100"
 		"wide"			"5"
 		"tall"	 		"2"
-		//////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"1"
@@ -57,7 +57,7 @@
 		"zpos"			"100"
 		"wide"			"5"
 		"tall"	 		"2"
-		//////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"1"
@@ -80,7 +80,7 @@
 		"zpos"			"1"
 		"wide"			"640" // wide doesnt matter i think
 		"tall"			"24"
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -101,7 +101,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
-		"font_minmode"			"newicons15"
+
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -112,13 +112,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelTopS"
-		"font"			"Killfeed""font_minmode"			"newicons15"
+		"font"			"Killfeed"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -133,14 +133,12 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBot"
-		"font"			"SpecTargetIDname"
+		"font"			"MenuMainTitle"
 		"xpos"			"40"
-		"ypos"			"1010""font_minmode"			"newicons15"
+		"ypos"			"1010"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
-		//////"		"0"
-		
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
@@ -151,15 +149,13 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelBotS"
-		"font"			"SpecTargetIDname"
-
-		"font_minmode"			"newicons15"
+		"font"			"MenuMainTitle"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"295"
 		"tall"			"24"
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -383,7 +379,7 @@
 		"zpos"			"5"
 		"wide"			"655"
 		"tall"			"35"
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -414,7 +410,7 @@
 		"zpos"			"4"
 		"wide"			"655"
 		"tall"			"35"
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -453,7 +449,7 @@
 		"zpos"			"3"
 		"wide"			"1500"
 		"tall"			"15" //15
-		//////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"

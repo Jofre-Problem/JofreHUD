@@ -18,7 +18,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"%selectbuttontext%"
-		"font"				"NotoBold20"
+		"font"				"ScoreboardTeamName"
 		"textAlignment"		"center"
 		"textinsetx"		"0"
 		"Command"			"%selectcommand%"
