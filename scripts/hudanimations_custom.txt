@@ -1,0 +1,1564 @@
+event HealthAmmoAnimateOpen
+{
+	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
+	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
+	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
+	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
+	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
+//	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
+}
+event HealthAmmoAnimateEnd
+{
+	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
+	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
+	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
+	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
+}
+
+
+
+// low ammo
+
+
+
+event HudLowAmmoPulse
+{
+	Animate LowAmmoTextBG Alpha "255"	Linear 0.0 0.0
+	Animate AmmoNoClip Alpha "255"	Linear 0.0 0.0
+
+	RunEvent AmmoLowPulseLoopa	0.0	
+}
+
+event AmmoLowPulseLoopa
+{
+	Animate	AmmoInReserveShadow	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	AmmoInReserveShadow	Fgcolor "155 0 0 255" Linear 0.15 0.06
+
+	Animate	AmmoEverywhereDudeDoubleLow	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	AmmoEverywhereDudeDoubleLow	Fgcolor "155 0 0 255" Linear 0.15 0.06
+	
+	RunEvent AmmoLowPulseLoopb	0.3
+}
+event AmmoLowPulseLoopb
+{
+	RunEvent AmmoLowPulseLoopa	0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	Animate LowAmmoTextBG Alpha "0"	Linear 0.0 0.0
+	Animate AmmoNoClip Alpha "0"	Linear 0.0 0.0
+}
+
+
+
+
+
+
+
+
+
+event TestStart_B
+{
+ //   FireCommand        0.0                "engine mat_viewportscale 0"
+    RunEvent        Test_B            0.0
+//	SetVisible CMainTargetID 1 0.0
+}
+
+
+event ForceSafemode
+{
+	FireCommand 0.0 "engine cl_mainmenu_safemode 1"
+}
+event Refresh
+{
+	FireCommand		0.0		"reloadscheme"
+}
+event TestTestingCmd
+{	
+	RuneventChild Mainmenuoverride TestCmd 0.0
+
+	RunEvent TESTING	0.0
+}
+event TestCmd
+{	
+	Firecommand 0.0 "engine rgbdmg"
+}
+event ForceCmd
+{	
+	RuneventChild Mainmenuoverride ForceForceCmd 0.0
+}
+event ForceForceCmd
+{	
+	Firecommand 0.0 "engine toggle_interp_shit"
+
+
+	FireCommand 0.0 "sm_besar vanne"
+}
+
+
+
+
+
+
+
+
+
+
+
+event DamagedPlayer
+{
+	StopEvent 	DamagedPlayerMain	0.0
+	RunEvent 	DamagedPlayerMain      0.01 //lol
+	// errors
+	// RunEventChild Mainmenuoverride DamageCMD 0.0	
+	//		Animate scores tall "480" linear 0.0 0.0
+}
+event DamageCMD
+{
+	FireCommand 0.0 "engine echo ====="
+//	FireCommand 0.0 "say_team DAMAGE!"
+}
+event DamagedPlayerMain
+{
+
+	StopEvent 	DamageAccountStuff	0.0
+	RunEvent 	DamageAccountStuff      0.1 //lol
+	StopEvent 	HitM 	0.0
+	RunEvent 	HitM	0.01
+	StopEvent 	TestTestingCmd 	0.0
+	RunEvent 	TestTestingCmd 0.1
+}
+event DamageAccountStuff [$WINDOWS]
+{
+	Animate DamageAccountLabel fgcolor "255 40 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabel fgcolor "255 40 0 255" linear 0.01 0.0
+//	Animate DamageAccountLabel fgcolor "255 215 0 255" linear 0.1 0.3 
+	Animate DamageAccountLabel fgcolor "215 215 215 0" Accel 0.6 5.0
+
+	Animate DamageAccountLabel2 Alpha "255" linear 0.0 0.0
+	Animate DamageAccountLabel2 Alpha "0" linear 0.3 4.0
+
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
+//	Animate DamageAccountLabelShadow fgcolor "0 0 0 150" linear 0.1 0.3 
+	Animate DamageAccountLabelShadow fgcolor "35 35 35 0" Accel 0.5 5.0
+	
+	Animate DamageAccountLabelShadow2 Alpha "255" linear 0.0 0.0
+	Animate DamageAccountLabelShadow2 Alpha "0" linear 0.5 5.0
+	setfont HudDeathNotice "textfont" "Killfeed2"	0.001
+	setfont HudDeathNotice "textfont" "Killfeed3"	5
+}
+
+event DamageAccountStuff [$LINUX]
+{
+	Animate DamageAccountLabel fgcolor "255 215 0 255" linear 0.1 0.3 
+//	setfont HudDeathNotice "textfont" "Killfeed"	0.001
+//	setfont HudDeathNotice "textfont" "Killfeed2"	5
+	Animate DamageAccountLabelShadow fgcolor "0 0 0 255" linear 0.0 0.0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-185 c12"	Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"75 75"		Linear 0.0 0.2
+
+
+	
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	RunEventChild DisguiseDust StartParticle0 0.0
+	RunEventChild Mainmenuoverride DisguiseCMD 0.0	
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+event DisguiseCMD
+{
+	FireCommand 0.0 "engine tf_party_chat Disguising..."
+}
+event StopParticle0
+{
+	FireCommand 0 "stop0"
+}
+event StopParticle1
+{
+	FireCommand 0 "stop1"
+}
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+}
+
+//===========================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event Engineer
+{
+    //Animate  SentryGun  Position  "c106 360"  Linear  0.0  0.0
+  	Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
+    Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
+	Animate TimerShit	wide  "0"  Spline  0.0  0
+	Animate TimerShit	wide  "999"  Spline  0.0  1.2
+	Animate TimerShit	wide  "0"  Spline  1.1 0.5
+
+    Animate  Dispenser  Position  "c-191 360"  Linear  0.0  0.0
+    Animate  Dispenser wide  "999"  Spline  0.0  0.0	
+    Animate  Dispenser tall  "480"  Spline  0.0  0.0	
+
+    Animate  TeleIn  Position  "0 325"  Linear  0.0  0.0
+    Animate  TeleIn wide  "999"  Spline  0.0  0.0	
+    Animate  TeleIn Tall  "480"  Spline  0.0  0.0	
+
+    Animate  TeleOut  Position  "r190 325"  Linear  0.0  0.0
+    Animate  TeleOut wide  "999"  Spline  0.0  0.0	
+    Animate  TeleOut Tall  "480"  Spline  0.0  0.0		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
+	RunEvent TI_Bonus 0.0
+	SetVisible HealthBarOverheal 1 0.0
+	SetVisible HealthBarLowHealth 0 0.0
+	SetVisible HealthSpectatorBarBuff 1 0.0
+	SetVisible overhealthclean 1 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0	0.0	
+	RunEvent TI_Neutral 0.0
+	SetVisible HealthBarOverheal 0 0.0
+	SetVisible HealthBarLowHealth 0 0.0
+	SetVisible HealthSpectatorBarBuff 0 0.0
+	StopEvent TI_Bonus 0.0
+	SetVisible overhealthclean 0 0.0
+
+}
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
+	SetVisible HealthSpectatorBarHurt 1 0.0
+	SetVisible HealthBarLowHealth 1 0.0		
+	RunEvent TI_Death 0.0
+
+	Animate PlayerStatusHealthValueLowester Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest2 Alpha "255" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower2 Alpha "255" Linear 0.0 0.0 //problem
+	Animate PlayerStatusHealthValueLow2 Alpha "255" Linear 0.0 0.0
+
+	RunEvent HudHealthDyingPulseLoop2a	0.0 //normal - sub50
+	RunEvent HudHealthDyingPulseLoop3a	0.0 //normal - sub10
+	RunEvent HudHealthDyingPulseLoop4a	0.0 //normal - at 1		
+}
+
+event HealthLowCMD
+{
+//	FireCommand 0.0 "engine tf_party_chat Respawning..."
+}
+
+event HudHealthDyingPulseStop
+{
+	RunEventChild Mainmenuoverride HealthLowCMD 0.0		
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop1a 0.0
+	StopEvent HudHealthDyingPulseLoop1b 0.0
+	SetVisible HealthSpectatorBarHurt 0 0.0
+	RunEvent TI_Neutral 0.0
+	StopEvent TI_Death 0.0
+	SetVisible HealthBarLowHealth 0 0.0		
+	Animate TeamColoredAmmoTextBG Alpha "255" Linear 0.0 0.0
+	Animate TeamColoredAmmoTextBG2 Alpha "255" Linear 0.0 0.0	
+	Animate PlayerStatusHealthValueLowester Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLowest2 Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLower2 Alpha "0" Linear 0.0 0.0
+	Animate PlayerStatusHealthValueLow2 Alpha "0" Linear 0.0 0.0	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+event HudHealthDyingPulseLoop2a
+{
+	Animate	PlayerStatusHealthValueLower	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLower	Fgcolor "155 0 0 255" Linear 0.15 0.06
+	
+	Animate	PlayerStatusHealthValueLower2	Fgcolor "255 30 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLower2	Fgcolor "155 0 0 255" Linear 0.15 0.06
+	
+	RunEvent HudHealthDyingPulseLoop2b	0.3
+}
+event HudHealthDyingPulseLoop3a
+{
+	Animate	PlayerStatusHealthValueLowest	Fgcolor "255 0 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLowest	Fgcolor "75 0 0 255" Linear 0.1 0.06
+	
+	Animate	PlayerStatusHealthValueLowest2	Fgcolor "255 0 0 255" Linear 0.0 0.06
+	Animate	PlayerStatusHealthValueLowest2	Fgcolor "75 0 0 255" Linear 0.1 0.06
+	
+	RunEvent HudHealthDyingPulseLoop3b	0.2
+}
+event HudHealthDyingPulseLoop4a
+{
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "255 0 0 255" Linear 0.0 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "50 0 0 255" Linear 0.1 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "255 0 0 255" Linear 0.2 0.055
+	Animate	PlayerStatusHealthValueLowester	Fgcolor "50 0 0 255" Linear 0.3 0.055
+	
+//	Animate	PlayerStatusHealthValueLowester2	Fgcolor "255 150 0 100" Linear 0.0 0.0
+	
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.0 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.0 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.0 0.17
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.12 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.13 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.14 0.0
+//	
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.2 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.2 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.2 0.17
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.32 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.33 0.0
+//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.34 0.0
+//	
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 12" Linear 0.1 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Position "-40 -5" Linear 0.1 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Position "-40 34" Linear 0.1 0.3
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 7" Linear 0.05 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 4" Linear 0.075 0.0
+//	Animate	PlayerStatusHealthValueLowester3	Size "148 0" Linear 0.09 0.0
+	
+	RunEvent HudHealthDyingPulseLoop4b	0.4
+}
+
+event HudHealthDyingPulseLoop1b
+{
+	RunEvent HudHealthDyingPulseLoop1a	0.0
+}
+event HudHealthDyingPulseLoop2b
+{
+	RunEvent HudHealthDyingPulseLoop2a	0.0
+}
+event HudHealthDyingPulseLoop3b
+{
+	RunEvent HudHealthDyingPulseLoop3a	0.0
+}
+event HudHealthDyingPulseLoop4b
+{
+	RunEvent HudHealthDyingPulseLoop4a	0.0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event TI_Bonus{	Animate PlayerStatusHealthValueID Fgcolor "Positive" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Positive" linear 0.0 0.1}
+event TI_Death{	Animate PlayerStatusHealthValueID Fgcolor "Negative" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Negative" linear 0.0 0.1}
+event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Neutral" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Neutral" linear 0.0 0.1}
+
+
+
+
+
+
+
+
+
+
+
+
+// can lead to crashes
+event LosingNextMapVote
+{
+	SetVisible FriendsContainerv2 1 0
+//	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
+//	RunEventChild MainMenuOverride ForceSafemode 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
+//	RunEventChild Mainmenuoverride OnMatchCMD 0.0		
+}
+
+event OnMatchCMD
+{
+	FireCommand 0.0 "gamemenucommand OpenLoadSingleplayerCommentaryDialog"
+}
+
+event CasualCategory_NotSelected
+{
+	Animate Shade BgColor "0 0 0 200" Deaccel 0 0.2
+	Animate Title		FgColor TanLight Deaccel 0 0.2
+}
+
+
+
+
+
+event MenuClose
+{	
+//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 0.0
+//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 100.0
+//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
+//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
+
+//	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
+//	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01
+//	Animate HudDemomanCharge ypos 		"0"		Linear 0.0 0.5
+//	setfont HudDeathNotice "textfont" "Killfeed2"	0.001
+	// Hide it
+	Animate HudMenu xPos		"-210" Linear 0.0 0.15
+//	PlaySound 0 "vo/deck_ui_slider_down.wav"
+	Animate HudMenu Alpha 		"0" Linear 0.0 1
+	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
+	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
+	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
+	RunEvent	HealthAmmoAnimateEnd 0.0
+	//RunEvent LevelInitAny 0.0
+		StopEvent	MenuOpen 0.0 	
+	//	Animate CDamageAccountPanel ypos "-25" linear 0.0 0.0
+	//	Animate HudMatchStatus ypos "0" linear 0.0 0.0
+		StopEvent TestLoop_C 0.0
+		StopEvent TestLoop_C 0.01
+
+	RunEvent ScoreboardCrosshairAnimate	 0.0
+//	SetVisible hudplayerhealth 1 0.0
+//	SetVisible HudPlayerStatus 1 0.0
+//	SetVisible HudMatchStatus 1 0.0
+//	SetVisible huditemeffectmeter 1 0.0
+//	SetVisible HudWeaponAmmo 1 0.0
+//		SetVisible HudMedicCharge 1 0.0
+//			SetVisible HudBossHealth 1 0.0
+//				SetVisible CHudAccountPanel 1 0.0	
+//				SetVisible HudObjectiveStatus 1 0.0			
+//	SetVisible hudplayerclass 1 0.0	
+	SetVisible HudCloseCaption 1 0.0	
+	//
+//	RunEvent UberTimerHide 0.0
+//	RunEvent UberTimerRun 0.1
+
+	//RunEvent vanillahide 0.0
+	//RunEvent vanillaRun 0.1
+}
+
+event MenuOpen
+{
+	RunEvent TestLoop_C 0.0
+	StopEvent	MenuClose 0.0 
+//	RunEvent AddToCartBlink 0.0
+//	SetVisible hudplayerhealth 0 0.0
+//	SetVisible HudPlayerStatus 0 0.0
+//	SetVisible HudMatchStatus 0 0.0
+//	SetVisible huditemeffectmeter 0 0.0
+//	SetVisible HudWeaponAmmo 0 0.0
+//		SetVisible HudMedicCharge 0 0.0
+//			SetVisible HudBossHealth 0 0.0
+//				SetVisible CHudAccountPanel 0 0.0	
+//				SetVisible HudObjectiveStatus 0 0.0			
+//	SetVisible hudplayerclass 0 0.0	
+//	SetVisible HudCloseCaption 0 0.0	
+//	SetVisible CMainTargetID 1 0.0
+//	SetVisible CMainTargetID 1 0.01
+	//4plug start
+
+	RunEvent HealthAmmoAnimateOpen 0.0	
+	// shows hp ammo on spec
+
+//	Animate scores tall "480" linear 0.0 0.0
+	//4plug end
+//	RunEvent TestLoop_C 0.0
+//	Animate CDamageAccountPanel ypos "80" linear 0.0 0.0
+//	Animate HudMatchStatus ypos "20" linear 0.0 0.0
+	SetVisible DamageAccountLabelScoreboard 1 0.0
+//	SetVisible	roundinfo	1	0
+
+	RunEventChild Mainmenuoverride MenuCMD 0.0
+//	RunEventChild DisguiseDust StartParticle0 1
+	// fade in
+	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
+	RunEvent TestTestingCmd 0.0
+
+
+//	RunEvent TESTING 0.0
+//	RunEvent Forcecmd 0.0
+	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
+	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
+	setfont HudMenu 	"textfont"		"TFFontSmall"		0.001
+	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
+//	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
+	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
+	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
+	Animate HudMenu ItemColor		"255 167 42 245"	Linear 0.05 0.1
+	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
+	//SetVisible hudplayerhealth 1 0.0	
+	// Undo any blur
+	Animate HudMenu		Blur		"1"			Linear	0	0
+//	PlaySound 0 "vo/deck_ui_slider_up.wav"
+	RunEvent ScoreboardAnimate 0.0
+	RunEvent MiscAnimate 0.0
+//	RunEvent ScoreboardAlpha 0.0
+	RunEvent ScopeRemoval 0.0
+//	RunEvent LevelInitAny 0.0
+
+//	Animate CSecondaryTargetID never_draw "0" linear 0.0 0.0
+//	Animate CMainTargetID never_draw "0" linear 0.0 0.0	
+	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
+//	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
+
+	RunEvent ForceCmd 0.01
+//	setfont HudDeathNotice "textfont" "Killfeed"	0.001
+}
+event MenuCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
+{
+		Firecommand 0.0 "engine hud_fastswitch 1"
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event HintMessageHide
+{
+    Animate  HudHintDisplay  FgColor  "255 220 0 0"  Linear  0.0  0.2
+    Animate  HudHintDisplay  HintSize  "0"  Deaccel  0.2  0.3
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0	// peach rec
+ 	RunEvent  Engineer  0.02
+	SetInputEnabled		CompAccessEmbedded	1			0.0
+	SetInputEnabled		CompAccess	1			0.0
+	// MAIN MENU
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	RunEventChild MainMenuOverride MainMenuCMD 0.0
+	// running these 3 times works
+
+
+	// MMDashboard
+	// trouble with crash and joining match popup
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
+//	RunEventChild MMDashboard MMDashboardCMD 0.0
+	// running these 3 times works
+
+	// Windows CMD
+	RunEventChild MainMenuOverride WindowsCMD 0.0 [$WINDOWS]
+	RunEventChild MainMenuOverride WindowsCMD 0.0 [$WINDOWS]
+	RunEventChild MainMenuOverride WindowsCMD 0.0 [$WINDOWS]
+
+	// Linux CMD
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+	RunEventChild MainMenuOverride LinuxCMD 0.0 [$LINUX]
+}
+event LinuxCMD
+{
+	FireCommand 0.0 "engine echo ==== STEAM DECK DETECTED ==="
+	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1.5"
+	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
+    // vgui_ui_scale_factor_deck_additional 1 = dock
+    // vgui_ui_scale_factor_deck_additional 1.5 = steam deck
+}
+event WindowsCMD
+{
+	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
+    // vgui_ui_scale_factor_deck_additional 1 = dock
+    // vgui_ui_scale_factor_deck_additional 1.5 = steam deck
+}
+
+
+
+
+
+
+
+event SurveyShowSequence	// prevents chat lock
+{
+	FireCommand 0.05 "delete"
+	RunEventChild Survey SurveyDelete 0.6
+	RunEvent	SurveyDelete 0.0
+}
+
+event SurveySubmitSequence
+{
+	RunEventChild Survey SurveyDelete 0.6
+}
+
+event SurveyDelete
+{
+	FireCommand 0 "delete"
+}
+
+event SurveyHideSequence
+{
+	SetVisible CloseButton 0 0 
+	RunEventChild Survey SurveyDelete 0.6
+}
+
+
+
+
+
+
+
+
+event TeamStatus_PlayerDead
+{
+		SetVisible DeathPanel	1 0
+		SetVisible SkullPanel	1 0
+		SetVisible respawntime	1 0
+		Animate udeadbg Alpha 255 linear 0.0 0.0
+		//PlaySound 0 "vo/gift_drop.wav"
+		Animate DeathPanel ypos 0 Accel 0 0.2
+		Animate SkullPanel ypos 0 Accel 0 0.2
+//	Animate DeathPanel wide 0 Accel 0 0.2
+	//	Animate respawntime ypos 299 Accel 0 0 
+	//	Animate classimagebg wide 0 accel 0 0 
+		Animate respawntime Alpha "0" linear 0.0 0.0
+		Animate whitebg Alpha "255" linear 0.3 0.15		
+
+		Animate respawntime Alpha "255" linear 0.3 0.15
+		Animate respawntime Alpha "0" linear 0.3 0.30
+		Animate respawntime Alpha "255" linear 0.4 0.45
+		Animate overhealbar position "0 0" Linear  0.0  0.0		
+		Animate healthbar position "0 0" Linear  0.0  0.0
+	//	SetVisible chargeamount 1 0
+		RunEvent	TStatus_Snd_Dead 0.0
+		RunEventChild Mainmenuoverride TeamStatusCMD 0.0	
+		
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate udeadbg Alpha 0 linear 0.0 0.0
+		Animate DeathPanel ypos 0 Accel 0 0.2
+		Animate SkullPanel ypos 0 Accel 0 0.2
+	//	Animate respawntime ypos 0 Accel 0 0.0
+	//	Animate classimagebg wide f0 accel 0 0
+		Animate healthbar position "0 0" Linear  0.0  0.0
+		Animate overhealbar position "0 0" Linear  0.0  0.0
+	//	PlaySound 0 "vo/littlereward.wav"
+		SetVisible DeathPanel	0 0.2
+		SetVisible SkullPanel	0 0.2
+		SetVisible respawntime 0 0.2
+		Animate whitebg Alpha "0" linear 0.0 0.0
+		RunEvent	TStatus_Snd_Vivo 0.0
+}
+
+event TeamStatusCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
+{
+		Firecommand 0.0 "engine hud_fastswitch 1"
+}		
+
+
+
+
+
+
+
+
+
+
+
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 0
+	RunEvent CompetitiveGame_RestoreChatWindow 10
+}
+//ReadyUp Timers
+event HudTournament_ShowTimerCompetitive
+{
+		SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+		SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+		SetVisible CountdownBG  1 0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabelShadow 1 0
+}
+
+event HudTournament_HideTimer
+{
+		SetVisible CountdownBG  0 0
+	SetVisible CountdownLabel 0 0.0
+	SetVisible CountdownLabelShadow 0 0
+}
+event HudTournamentSetupPanelOpen
+{
+	Animate	HudTournamentSetup	ypos	95	Linear 0.3 	 0.0
+	Animate TournamentReadyButton FgColor "community" Linear 0 0
+	Animate TournamentNotReadyButton FgColor "red" Linear 0 0	
+//	Animate TournamentReadyButton11			pressed		"1"			Linear 0.3 			0
+//	Animate HudTournamentSetup				Position	"c-90 0"	Linear 0.3 			0
+//	Animate HudTournamentSetup				Position	"c-90 0"	Linear 0.3 			0
+	Animate Circle1							alpha		"255"		Linear 0.025		0.01
+	Animate Circle2							alpha		"255"		Linear 0.05			0.01
+	Animate Circle3							alpha		"255"		Linear 0.75 		0.01
+	Animate Circle4							alpha		"255"		Linear 0.1			0.01
+	Animate Circle5							alpha		"255"		Linear 0.125 		0.01
+	Animate Circle6							alpha		"255"		Linear 0.175 		0.01
+	Animate Circle7a						alpha		"255"		Linear 0.2 			0.01
+	Animate Circle7b						alpha		"255"		Linear 0.2 			0.01
+	Animate Circle8a						alpha		"255"		Linear 0.225 		0.01
+	Animate Circle8b						alpha		"255"		Linear 0.225 		0.01
+	Animate Circle9a						alpha		"255"		Linear 0.25			0.01
+	Animate Circle9b						alpha		"255"		Linear 0.25 		0.01
+	Animate Circle10a						alpha		"255"		Linear 0.275 		0.01
+	Animate Circle10b						alpha		"255"		Linear 0.275		0.01
+	Animate Circle11a						alpha		"255"		Linear 0.3 			0.01
+	Animate Circle11b						alpha		"255"		Linear 0.3 			0.01
+	Animate Circle12a						alpha		"255"		Linear 0.325 		0.01
+	Animate Circle12b						alpha		"255"		Linear 0.325 		0.01
+	Animate Circle13a						alpha		"255"		Linear 0.35 		0.01
+	Animate Circle13b						alpha		"255"		Linear 0.35 		0.01
+	Animate CircleFinal						alpha		"255"		Linear 0.375 		0.01
+
+	RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.0
+
+	Animate Circle1							alpha		"255"		Linear 0.35 	0.01
+	Animate Circle2							alpha		"0"			Linear 0.325 	0.01
+	Animate Circle3							alpha		"0"			Linear 0.3 		0.01
+	Animate Circle4							alpha		"0"			Linear 0.275 	0.01
+	Animate Circle5							alpha		"0"			Linear 0.25 	0.01
+	Animate Circle6							alpha		"0"			Linear 0.225 	0.01
+	Animate Circle7a						alpha		"0"			Linear 0.2 		0.01
+	Animate Circle7b						alpha		"0"			Linear 0.2 		0.01
+	Animate Circle8a						alpha		"0"			Linear 0.175 	0.01
+	Animate Circle8b						alpha		"0"			Linear 0.175 	0.01
+	Animate Circle9a						alpha		"0"			Linear 0.15 	0.01
+	Animate Circle9b						alpha		"0"			Linear 0.15 	0.01
+	Animate Circle10a						alpha		"0"			Linear 0.125 	0.01
+	Animate Circle10b						alpha		"0"			Linear 0.125 	0.01
+	Animate Circle11a						alpha		"0"			Linear 0.1 		0.01
+	Animate Circle11b						alpha		"0"			Linear 0.1 		0.01
+	Animate Circle12a						alpha		"0"			Linear 0.075 	0.01
+	Animate Circle12b						alpha		"0"			Linear 0.075 	0.01
+	Animate Circle13a						alpha		"0"			Linear 0.05 	0.01
+	Animate Circle13b						alpha		"0"			Linear 0.05 	0.01
+	Animate CircleFinal						alpha		"0"			Linear 0.025 	0.01
+
+	// PeachRec Stuff
+	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
+	RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event HudMedicCharged
+{
+//	RunEventChild MainMenuOverride MedicCMD 0
+	Animate ChargeLabel xpos 55 Linear 0.0 0.0
+	RunEventChild CoolBeam StartParticle0 0.0
+	RunEventChild CoolBeam StartParticle1 0.0		
+
+	Animate	ChargeMeter 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	1_label 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter1 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter2 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter3 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+	Animate	ChargeMeter4 	FgColor		"255 255 255 0"		Accel 0.0 0.0
+
+	RunEvent HudMedicCharged2 0.0
+}
+event MedicCMD
+{
+	FireCommand 0.0 "engine tf_party_chat UBERCHARGE!"
+	FireCommand 0.0 "say_team UBERCHARGE!"
+}
+event MedicCMD2
+
+{	FireCommand 0 "echo HI"
+	FireCommand 0.0 "engine tf_party_chat USINGUBERCHARGE!"
+	FireCommand 0.0 "engine say_team USINGUBERCHARGE!"
+}
+event TIDuberFull
+{
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" linear 0.0 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "180 255 40 40" accel 0.15 0.0
+	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" deaccel 0.15 0.15
+	RunEvent TIDuberFullLoop 0.3
+}
+event TIDuberFullLoop
+{
+	RunEvent TIDuberFull 0.0
+}
+
+event HudMedicCharged2
+{
+	Animate	1_label 	Alpha		"255"		Linear 0.0 0.0
+	
+	Animate	1_progress			Alpha		"0"					Accel 0.0 0.0
+	
+	Animate	1_label 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	1_label 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	1_label 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	1_label 	FgColor		"255 25 50 255"		Accel 0.9 0.35
+	Animate	1_label 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	1_label 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	1_label 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate ChargeMeter		Alpha		"255"				Accel 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter 	FgColor		"255 25 50 255"		Accel 0.9 0.35
+	Animate	ChargeMeter 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+//	Animate ChargeMeterBG		Position	"89 0"			Linear 0.3 0.0
+	
+	Animate	ChargeMeter1 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter1 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter1 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter1 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter1 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter1 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter1 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter2 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter2 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter2 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter2 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter2 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter2 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter2 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter3 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter3 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter3 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter3 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter3 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter3 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter3 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+	
+	Animate	ChargeMeter4 	FgColor		"45 225 230 255"		Accel 0.0 0.3
+	Animate	ChargeMeter4 	FgColor		"0 113 255 255"		Accel 0.3 0.3
+	Animate	ChargeMeter4 	FgColor		"250 40 240 255"		Accel 0.6 0.3
+	Animate	ChargeMeter4 	FgColor		"255 25 50 255"		Accel 0.9 0.3
+	Animate	ChargeMeter4 	FgColor		"244 102 7 255"		Accel 1.2 0.3
+	Animate	ChargeMeter4 	FgColor		"255 220 20 255"		Accel 1.5 0.3
+	Animate	ChargeMeter4 	FgColor		"110 255 25 255"		Accel 1.8 0.3
+
+	RunEvent HudMedicChargedLoop	2.1
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged2 0.0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+event MoveUnusualPanelY
+{
+	RunEventChild character_info MoveUnusualPanelYChild 0.0
+}
+event MoveUnusualPanelYChild
+{
+ Animate UnusualCyclingAd ypos 15 linear 0.0 0.0
+}
+event ShowDevMenu
+{
+	RunEventChild MainMenuOverride ShowDevMenuChild 0.0
+}
+event ShowDevMenuChild
+{
+ //SetVisible ADContainerTest 1 0
+}
+////////////
+event HideDevMenu
+{
+	RunEventChild MainMenuOverride HideDevMenuChild 0.0
+}
+event HideDevMenuChild
+{
+//	 SetVisible ADContainerTest 0 0
+}
+///////////
+////////////
+event HideButtonsMenu
+{
+	RunEventChild MainMenuOverride HideButtonsMenuChild 0.0
+}
+event HideButtonsMenuChild
+{
+	 SetVisible FriendsContainerv2 0 0
+
+}
+
+event ShowButtonsMenu
+{
+	RunEventChild MainMenuOverride ShowButtonsMenuChild 0.0
+}
+event ShowButtonsMenuChild
+{
+	 SetVisible FriendsContainerv2 1 0
+	 SetVisible kanyestatic 0 0
+	 SetVisible kanyestaticplaying 1 0
+}
+event MusicPlayingChild
+{
+	 SetVisible kanyestatic 0 0
+	 SetVisible kanyestaticplaying 1 0
+}
+
+event MusicPlaying // add child thing, that seems to work
+{
+	RunEventChild MainMenuOverride MusicPlayingChild 0.0
+}
+event MusicStopChild
+{
+	 SetVisible kanyestatic 1 0
+	 SetVisible kanyestaticplaying 0 0
+}
+event MusicStop
+{
+	RunEventChild MainMenuOverride MusicStopChild 0.0
+}
+///////////
+event UberTimerRun
+{
+	Animate UberTimerBG	tall	2	Linear 0.0 0.001
+	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
+	Animate UberTimer	wide	50	Linear	0.0 1.93 //same value
+	Animate UberTimer	BgColor	"Yellow"	Linear	0.0 0.001 // -15 value
+	Animate UberTimer	BgColor	"purple"	Linear	1.7 0.001 // when you are lucky
+	Animate UberTimer	BgColor	"Red"	Linear	1.93 0.001 //with this
+	RunEvent UberTimerHide 60.0
+}
+
+event UberTimerHide
+{
+	StopEvent UberTimerRun 0.0
+	Animate UberTimerBG tall	0	Linear 0.0 0.001
+	Animate UberTimer	wide	0	Linear	0.0 0.001
+}
+event HudMatchStatus_ShowMatchWinDoors
+{
+
+}
+
+event HudMatchStatus_ShowMatchWinDoors_NoOpen
+{
+
+}
+
+event MainMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Testing===================="
+
+//	Animate MMDashboard ypos -15 linear 0.0 0.0
+//	Animate MMDashboard ypos 0 linear 0.5 0.1
+
+	Animate WorkshopButton ypos -15 linear 0.0 0.0
+	Animate WorkshopButton ypos 0 linear 0.5 0.1	
+
+	Animate Rankpanel ypos 15 linear 0.0 0.0
+	Animate Rankpanel ypos 0 linear 0.5 0.1	
+
+	Animate polybar0bgmm ypos -15 linear 0.0 0.0
+	Animate polybar0bgmm ypos 0 linear 0.5 0.1	
+
+	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0
+	Animate QuickPlayExpandable ypos 0 linear 0.5 0.4		
+
+	Animate TestPanel xpos -15 linear 0.0 0.0
+	Animate TestPanel xpos 0 linear 0.5 0.8
+
+	Animate TestPanel4 xpos r0 linear 0.0 0.0
+	Animate TestPanel4 xpos r12 linear 0.5 1
+		
+}
+
+	// RankPanel xpos 0 ypos 0
+	// polybar0bg xpos 0 ypos 0
+
+event MMDashboardCMD
+{
+	FireCommand 0.0 "engine echo MMDashboard working"
+	Animate TopBar ypos -15 linear 0.0 0.0
+	Animate TopBar ypos 0 linear 0.5 0.1
+}
+event CompetitiveGame_LowerChatWindow
+{
+	
+//	StopEvent	Radar		0.0
+//	StopEvent	RadarLoop	0.0
+//	SetVisible	roundinfo	0		0.05
+}
+event CompetitiveGame_RestoreChatWindow
+{
+//	RunEventChild    MainMenuOverride    TestStart_B    0.0
+//	RunEvent	Radar	0.0
+//	RunEventChild Mainmenuoverride MenuCMD 0.0
+//	RunEventChild Mainmenuoverride MenuCMD 0.0
+	// DMG Looper
+	//RunEvent TestLoop_C 0.0
+
+//	StopEvent	Radar		0.0
+//	StopEvent	RadarLoop	0.0
+	RunEventChild Mainmenuoverride EveryRespawn 0.0 
+//	SetVisible	roundinfo	0		0.05
+		//	Animate scores tall "0" linear 0.0 0.0
+	SetInputEnabled		giveaway_item	1			0.0
+	RunEventChild		giveaway_item	Refresh		0.0		
+}
+
+event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
+{
+//	RunEventChild Mainmenuoverride MedicCMD2 0.0		
+	Animate ChargeLabel xpos 58 Linear 0.0 0.0
+	RunEventChild CoolBeam StopParticle0 0.0
+	RunEventChild CoolBeam StopParticle1 0.0		
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicCharged2 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	Animate	1_label 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"245 245 245 255"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	Alpha		"0"						Linear 0.0 0.0001
+	Animate	1_progress		 	Alpha		"255"					Linear 0.0 0.0001
+//	Animate ChargeMeterBG		Position	"89 9999"			Linear 0.0 0.0001
+
+
+	StopEvent	Radar		0.0
+	StopEvent	RadarLoop	0.0
+
+	SetVisible	roundinfo	0		0.05
+
+
+	RunEvent HealthFixer 0.0
+  	RunEvent  Engineer  0.02
+	Animate CSpectatorTargetID xpos 0 Linear 0.0 0.0	
+
+
+}
+
+
+
+event Test_B
+{
+//	SetVisible HudItemEffectMeter 1 0.0
+//	SetVisible CMainTargetID 1 0.0
+//	SetVisible HudScopeCharge 1 0.0
+
+	SetVisible Sapper 1 0.0
+
+   // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+    RunEvent        TestLoop_B        0.01
+}
+
+event TestLoop_B
+{
+    RunEvent    Test_B    0.0
+}
+event Test_C
+{
+//	SetVisible HudItemEffectMeter 1 0.0
+	SetVisible CDamageAccountPanel 1 0.0
+	SetVisible HudMatchStatus 1 0.0
+	SetVisible CDamageAccountPanel 1 0.03
+	SetVisible HudMatchStatus 1 0.03
+//	SetVisible Sapper 1 0.0
+
+   // FireCommand        0.0                "engine incrementvar mat_viewportscale 0 1.01 0.01"
+    RunEvent        TestLoop_C        0.01
+}
+event PvPRankLevelUpXPBar
+{
+
+}
+event HudTournament_DoorsCleanup
+{
+
+}
+
+event PlayDoorSlamParticles
+{
+
+}
+
+event PlayDoorCloseAnim
+{
+
+}
+
+event PlayDoorOpenAnim
+{
+
+}
+
+event TestLoop_C
+{
+ //   RunEvent    Test_C    0.0
+}
+event EveryRespawn
+{
+	FireCommand 0 "engine ds_mark respawn(auto)"
+	FireCommand 5 "engine ds_status"
+//	FireCommand 0 "engine ds_stop"
+//	FireCommand 5 "engine ds_record"
+} 
+event HudMatchStatus_ShowCountdown
+{
+	Animate CountdownLabel	ypos	150	Linear 0.0 0.0
+	Animate CountdownLabelShadow	ypos	150	Linear 0.0 0.0
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabel 0 9.9
+	SetVisible CountdownLabelShadow 1 0
+	SetVisible CountdownLabelShadow 0 9.9
+}	
+event MiscAnimate
+{
+//	SetVisible speedograph 1 0.0
+//	SetVisible speedograph 0 20.0
+//	SetVisible workdammit 1 0.0
+//	SetVisible workdammit 0 20.0	
+}	
+event ScoreboardAnimate
+{
+	Animate scores Position "0 480" linear 0.0 0.0
+	Animate scores Position "0 0" deaccel 0.0 0.125
+	RunEvent SpecAnimate 0.0
+}	
+
+event SpecAnimate
+{
+	//Animate hudweaponammo never_draw "0" linear 0.0 0.0
+	SetVisible hudweaponammo	1 0.001
+	SetVisible hudweaponammo	1 0.002
+	SetVisible hudweaponammo	1 0.003
+	SetVisible hudweaponammo	1 0.004
+	//Animate hudplayerstatus never_draw "0" linear 0.0 0.0
+	SetVisible hudplayerstatus	1 0.001
+	SetVisible hudplayerstatus	1 0.002
+	SetVisible hudplayerstatus	1 0.003
+	SetVisible hudplayerstatus	1 0.004
+	SetVisible hudplayerclass	1 0.004
+	//Animate HudCrosshair never_draw "0" linear 0.0 0.0
+	SetVisible HudCrosshair	1 0.001
+	//Animate CDamageAccountPanel never_draw "0" linear 0.0 0.0
+//	SetVisible CDamageAccountPanel	1 0.0	
+	
+	RunEvent SpecAnimateLoop 0.005
+}
+event SpecAnimateLoop
+{
+	RunEvent SpecAnimate 0.0
+}
+
+event ScoreboardAlpha
+{
+	Animate scores alpha "0" linear 0.0 0.0
+	Animate scores alpha "255" accel 0.0 0.22
+	
+}
+
+
+event HideMenu
+{
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+	RunEventChild MainMenuOverride HideMenuCMD 0.0
+//	RunEventChild MMDashboard HideMenuCMD 0.0
+}
+event HideMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Menu HIDDEN===================="
+
+//	Animate MMDashboard ypos -15 linear 0.0 0.0
+
+	Animate WorkshopButton ypos -15 linear 0.0 0.0
+
+	Animate Rankpanel ypos 15 linear 0.0 0.0
+
+	Animate polybar0bgmm ypos -15 linear 0.0 0.0
+
+	Animate QuickPlayExpandable ypos -15 linear 0.0 0.0	
+
+	Animate TestPanel xpos -15 linear 0.0 0.0
+	Animate TestPanel4 xpos r-12 linear 0.0 0.0	
+}
+event ShowMenu
+{
+	RunEventChild MainMenuOverride ShowMenuCMD 0.0
+}
+event ShowMenuCMD
+{
+	FireCommand 0.0 "engine echo ====================Menu SHOW===================="
+
+//	Animate MMDashboard ypos 0 linear 0.5 0.2	
+
+
+	Animate WorkshopButton ypos 0 linear 0.5 0.2		
+
+
+	Animate Rankpanel ypos 0 linear 0.5 0.2	
+
+
+	Animate polybar0bgmm ypos 0 linear 0.5 0.2	
+
+	Animate QuickPlayExpandable ypos 0 linear 0.5 0.4	
+
+	Animate TestPanel xpos 0 linear 0.5 0.6
+
+	Animate TestPanel4 xpos r12 linear 0.5 0.6	
+}
+event ArenaVsPanelOnShow
+{
+PlaySound 0 "vo/misc2/win.mp3"
+}
+event ArenaVsPanelSlideIn
+{
+PlaySound 0 "vo/misc2/win.mp3"
+}
+event ArenaVsPanelSlideOut
+{
+PlaySound 0 "vo/misc2/win.mp3"
+}
+event QuestMap_LoadingLoop{}
+event QuestMap_StaticBar1Loop{}
+event QuestMap_StaticBar2Loop{}
+event QuestMap_StaticBarOverlayLoop{}
+event QuestMap_StaticBarOverlayBrighten{}
+event QuestMap_StaticBarOverlayDarken{}
+event QuestNodeView_PinTipHighlight{}
+event QuestMap_CreditNotificationAcknowledge{}
+event QuestMap_CreditHideAnim{}
+event QuestMap_CreditNotificationShow{}
+event QuestReport_ContractComplete{}
+event QuestReport_ContractProgress{}
+event ObjectiveCompletionFanfare{}
+event ObjectiveCompletionFanfareEnd{}
+event ActiveTimerBGPulse
+{
+
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.5 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.7 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 0.9 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
+
+	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
+}
+
+
+
+
+
+
+
+
+
+
+//event LevelInit{}
+event OpenWeaponSelectionMenu{}
+event CloseWeaponSelectionMenu{}
+event MenuPulse{}
+event TimerIncrement{}
+event TimerDecrement{}
+event ResourceIncrement{}
+event ResourceDecrement{}
+event ResourcePickup{}
+event HudHealthBonusPulseLoop{}
+event HudHealthDyingPulseLoop{}
+event HudLowAmmoPulseLoop{}
+event ControlPointIconShrink{}
+event ControlPointIconGrow{}
+event AccountMoneyRemoved{}
+event AccountMoneyAdded{}
+event AccountMoneyInvisible{}
+event FlagOutlineHide{}
+event FlagOutline{}
+event HudSpyDisguiseChanged{}
+event HudSpyDisguiseHide{}
+event OvertimeShow{}
+//event HudSnapShotReminderIn{}	//USED
+event HudReplayReminderIn{}
+event HudReplayReminderIn2{}
+event HudReplayTipIn{}
+event HudReplayTipOut{}
+event VideoCaptionFadeIn{}
+event VideoCaptionFadeOut{}
+event ArenaVsPanelOnShow{}
+event ArenaVsPanelSlideIn{}
+event ArenaVsPanelSlideOut{}
+event HudCartAlarmPulse{}
+event HudCartAlarmPulseLoop{}
+event HudCartAlarmPulseStop{}
+event ActiveTimerBGPulse{}
+event TeamsFullArrowAnimate{}
+event TeamsFullArrowAnimateLoop{}
+event TeamsFullArrowAnimateEnd{}
+event TrainingHudBounce{}
+event TrainingPressSpacebarBlink{}
+event TrainingPressSpacebarBlinkLoop{}
+event TrainingPressSpacebarBlinkStop{}
+event IntroMovieContinueBlink{}
+event IntroMovieContinueBlinkLoop{}
+// event IntroMovieContinueBlinkStop{}
+event HasMOTDBlink{}
+event HasMOTDBlinkLoop{}
+event HasMOTDBlinkStop{}
+event HasNotificationsBlink{}
+event HasNotificationsBlinkLoop{}
+event HasNotificationsBlinkStop{}
+event AddToCartBlink{}
+event NotificationsPresentBlink{}
+event NotificationsPresentBlinkLoop{}
+event NotificationsPresentBlinkStop{}
+event SpyWarningFlash{}
+event SpyWarningFlashLoop{}
+event SpyWarningFlashEnd{}
+event RespecEarnedPulse{}
+event RespecEarnedPulseLoop{}
+event RespecEarnedPulseEnd{}
+event RespecEarnedPulseLoss{}
+event RespecEarnedPulseLoopLoss{}
+event RespecEarnedPulseEndLoss{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event QuestNotification_Present{}
+event QuestNotification_Hide{}
+event ItemCard_ShowPinHint{}
+event ItemCard_HidePinHint{}
+//event StartParticle0{}
+//event StartParticle1{}
+event StartParticle2{}
+event CollectionCrafting_OKBlink_Repeatable{}
+event CollectionCrafting_OKBlink{}
+event QuestItem_Options_Flash{}
+event HudTournament_MoveTimerDown{}
+event HudTournament_AnimateTeams_In{}
+event HudTournament_AnimateTeams_Out{}
+event HudMatchStatus_ShowMatchStartDoors{}
+event HudMatchStatus_ShowRankMatch{}
+event HudTournament_DoorsCleanup{}
+event PlayDoorSlamParticles{}
+event PlayDoorCloseAnim{}
+event PlayDoorOpenAnim{}
+event HudTournament_ShowRoundSign{}
+event HudTournament_PlaySignAnim{}
+event HudMatchStatus_ShowMatchWinDoors{}
+event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
+event MMenu_PlayList_Expand{}
+event MMenu_PlayList_Collapse{}
+event MMenu_PlayList_Collapse_Immediate{}
+event MMenu_SafeMode_Blink{}
+event PvPRankModelClicked{}
+//event PvPRankLevelUpXPBar{}
+//event PvPRankLevelUpModel{}
+//event PvPRankLevelDownXPBar{}
+//event PvPRankLevelDownModel{}
+//event CompetitiveGame_ShowPvPRankPanel{}
+event PvPRankPanelShowXPChange{}
+event PyroVsHeavyWar_ShowChooseScene{}
+event PyroVsHeavyWar_PyroWinnerScene{}
+event CasualCategory_Checkbox_Hide{}
+event CasualCategory_Checkbox_Show{}
+event MMenu_UpdateButton_StartGlow{}
+event MMenu_UpdateButton_SubtleGlow{}
+event XPSourceShow_Positive{}
+event XPSourceShow_Negative{}
+//event SurveyShowSequence { }
+event SurveySubmitSequence{}
+//event SurveyDelete{}
+event SurveyHideSequence{}
+//event MapVoted{}
+//event WinningNextMapVote{}
+//event LosingNextMapVote{}
+event QuestMap_LoadingLoop{}
+event QuestMap_StaticBar1Loop{}
+event QuestMap_StaticBar2Loop{}
+event QuestMap_StaticBarOverlayLoop{}
+event QuestMap_StaticBarOverlayBrighten{}
+event QuestMap_StaticBarOverlayDarken{}
+event QuestNodeView_PinTipHighlight{}
+event QuestMap_CreditNotificationAcknowledge{}
+event QuestMap_CreditHideAnim{}
+event QuestMap_CreditNotificationShow{}
+event QuestReport_ContractComplete{}
+event QuestReport_ContractProgress{}
+event ObjectiveCompletionFanfare{}
+event ObjectiveCompletionFanfareEnd{}

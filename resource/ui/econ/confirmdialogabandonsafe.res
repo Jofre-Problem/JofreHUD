@@ -7,7 +7,7 @@
 	}	
 	"ConfirmButtonNew"
 	{
-		"labelText"		"M"//"M"//"y"
+		"labelText"		"Ɋ"
 	}	
 	
 	"ConfirmButtonHintIcon"

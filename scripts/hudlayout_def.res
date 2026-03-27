@@ -952,18 +952,6 @@
                 "wide"         "f0"
                 "tall"         "480"
         }
-        HudMenu
-        {
-                "fieldName" "HudMenu"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "640"
-                "tall"         "480"
-                "zpos" "1"
-                "TextFont"                                "Default"
-                "ItemFont"                                "Default"
-                "ItemFontPulsing"                "Default"
-        }
         HudHistoryResource
         {
                 "fieldName" "HudHistoryResource"
@@ -1103,6 +1091,21 @@
                 "enabled"                                "1"
                 "icon_space"                        "2"
         }
+	HudMenu
+	{
+		"fieldName" "HudMenu"
+		"visible" "1"
+		"enabled" "1"
+		xpos 0
+		ypos 0
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" "1"
+
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}		
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
