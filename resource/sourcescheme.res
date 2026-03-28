@@ -18,22 +18,7 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimaryLight"		"0 255 255 255"
-		"RaysPrimaryDark"		"65 255 255 255"
-		"RaysBlack"				"32 32 32 255"
-		"RaysBlackTrans"		"32 32 32 200"
-		"RaysButtonHover"		"70 130 180 255"
-		
-		"PrimaryText"		"240 240 240 255"
-		"SecondaryText"		"210 210 210 255"
-		"AccentText"		"24 24 24 255"
-		
-		"PrimaryBG"				"27 27 27 255"//248
-		"PrimaryBGOffFocus"		"27 27 27 200"//170
-		"SecondaryBG"			"27 27 27 0"
-		"SecondaryBG2"			"35 35 35 200"
-		"AccentBG"				"255 160 0 255"
-		
+	
 		"NotoWhite"				"240 240 240 255"
 		"NotoGreen"				"27 27 27 255"
 		"NotoDark"				"15 15 15 255"
