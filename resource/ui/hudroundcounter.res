@@ -1,5 +1,5 @@
 #base "../gamelogo.res"
-"Resource/UI/HudRoundCounter.res"
+"x"
 {
 	"RoundCounter"
 	{
@@ -51,17 +51,7 @@
 
 	"Background"
 	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
-
-		"backgroundtype"		"2"
-		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
-		"scaleimage"			"1"
+		"ControlName"	"Panel"
+		"visible"			"0"
 	}
 }

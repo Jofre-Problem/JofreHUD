@@ -64,7 +64,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""EnemyCount"
-"font""notobold12"
+"font""ItemFontAttribLarge"
 "fgcolor""notowhite"
 "xpos""1"
 "ypos""13"
@@ -80,7 +80,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""EnemyCount"
-"font""notobold12"
+"font""ItemFontAttribLarge"
 "fgcolor""notodark"
 "xpos""2"
 "ypos""14"

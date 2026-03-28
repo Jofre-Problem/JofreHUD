@@ -1,3 +1,4 @@
+#base "commentarymodelviewer.res"
 "Resource/UI/DynamicRecipe.res"
 {
 	"dynamic_recipe_panel"
@@ -436,18 +437,7 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+
 		
 		"text_ypos"			"20"
 		"text_center"		"1"

@@ -1,20 +1,14 @@
+#base "commentarymodelviewer.res"
 "Resource/UI/MvMVictoryMannUpPanel.res"
 {			
 	//Mouse over panel
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
 		"xpos"			"0"
 		"ypos"			"600"
 		"zpos"			"9999"
 		"wide"			"250"
 		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
 		
 		"text_ypos"			"0"
 		"text_center"		"1"

@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ProgressLabel"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"

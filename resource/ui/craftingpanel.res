@@ -1,3 +1,4 @@
+#base "commentarymodelviewer.res"
 "Resource/UI/CraftingPanel.res"
 {
 	"ReloadSchemedarklight"
@@ -446,18 +447,7 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"						"CItemModelPanel"
-		"fieldName"							"mouseoveritempanel"
-		"xpos"								"c-70"
-		"ypos"								"270"
-		"zpos"								"100"
-		"wide"								"320"
-		"tall"								"300"
-		"visible"							"0"
-		"bgcolor_override"					"Blank"
-		"noitem_textcolor"					"whitegray"
-		"PaintBackgroundType"				"2"
-		"paintborder"						"1"
+
 
 		"text_ypos"							"20"
 		"text_center"						"1"

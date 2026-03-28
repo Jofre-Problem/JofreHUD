@@ -1,5 +1,4 @@
-
-//#base "../../new/ui_overrides/full-timer/file2.res"
+#base "lobbypanel.res"
 #base "../../../../../cfg/_jp_steam_border.txt"
 #base "ui2/partyslot0.res"
 //#base "_tf2hud/scoreboard.res"
@@ -669,11 +668,7 @@
 			"visible"		"0"
 		}
 	}								
-	"ShadedBar"
-	{
-		"visible"		"0"
-		"xpos"	"r0"
-	}	
+
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -1618,7 +1613,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Assists"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%assists%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1639,7 +1634,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Assists2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%assists%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1684,7 +1679,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Destruction"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1706,7 +1701,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Destruction2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%destruction%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1751,7 +1746,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Captures"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1773,7 +1768,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Captures2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%captures%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1820,7 +1815,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Defenses"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1843,7 +1838,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Defenses2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%defenses%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1888,7 +1883,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Domination"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1911,7 +1906,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Domination2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%dominations%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1957,7 +1952,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Revenge"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -1980,7 +1975,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Revenge2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2025,7 +2020,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Healing"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2046,7 +2041,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Healing2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%healing%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2089,7 +2084,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Invuln"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2110,7 +2105,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Invuln2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%invulns%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2154,7 +2149,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Teleports"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2175,7 +2170,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Teleports2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%teleports%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2220,7 +2215,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Headshots"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2241,7 +2236,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Headshots2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%headshots%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2286,7 +2281,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Backstabs"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2307,7 +2302,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Backstabs2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2351,7 +2346,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Bonus"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2372,7 +2367,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Bonus2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%bonus%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2416,7 +2411,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Support"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%support%"
 			"textAlignment"		"west"
 			"xpos"				"35"
@@ -2437,7 +2432,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Support2"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%support%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -2481,7 +2476,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage"
-			"font"				"NotoBold12"
+			"font"				"ItemFontAttribLarge"
 			"labelText"			"%damage%"
 			"textAlignment"		"west"
 			"xpos"				"35"

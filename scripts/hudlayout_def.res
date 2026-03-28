@@ -753,7 +753,8 @@
 	}	
 	HudBossHealth
 	{
-		"wide"			"f0"
+		xpos "cs-0.5"
+		"wide"			"200"
 		"tall"			"f0"
 		"zpos"			"-2000"
 	}

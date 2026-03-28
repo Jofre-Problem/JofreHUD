@@ -20,62 +20,23 @@
 
 	"Gradient"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"Gradient"
-		"xpos"		"rs1-50"
-		"ypos"		"0"
-		"wide"		"100"
-		"tall"		"f0"
-		"zpos"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"1"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"255"
-
-		"image"		"gradient_pure_black"
+		"visible"		"0"
 	}
 
 	"Gradient2"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Gradient2"
-		"xpos"		"rs1-50"
-		"ypos"		"0"
-		"wide"		"100"
-		"tall"		"f0"
-		"zpos"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"1"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"255"
-
-		"image"		"gradient_pure_black"
+		"ControlName"		"Panel"
+		"fieldName"		"Gradient"
+		"visible"		"0"
 	}
 
 	"Gradient3"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Gradient3"
-		"xpos"		"rs1-50"
-		"ypos"		"0"
-		"wide"		"100"
-		"tall"		"f0"
-		"zpos"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"rotation"		"1"
-		"proportionaltoparent"	"1"
-		"scaleimage"	"1"
-		"mouseinputenabled"	"0"
-		"alpha"		"255"
-
-		"image"		"gradient_pure_black"
+		"ControlName"		"Panel"
+		"fieldName"		"Gradient"
+		"visible"		"0"
 	}
 
 	"GradientHoriz"

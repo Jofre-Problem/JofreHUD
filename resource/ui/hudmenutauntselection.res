@@ -16,37 +16,37 @@
 	"MainBackground"	
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"Divider"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"TitleLabel"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"WeaponTauntLabel"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"CancelLabel"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel1"
@@ -87,13 +87,13 @@
 	"NumberBg1"	
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel1"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	"TauntModelPanel2"
 	{
@@ -133,13 +133,13 @@
 	"NumberBg2"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel2"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel3"
@@ -180,13 +180,13 @@
 	"NumberBg3"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel3"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel4"
@@ -227,13 +227,13 @@
 	"NumberBg4"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel4"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel5"
@@ -274,13 +274,13 @@
 	"NumberBg5"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel5"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel6"
@@ -321,13 +321,13 @@
 	"NumberBg6"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel6"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel7"
@@ -368,13 +368,13 @@
 	"NumberBg7"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel7"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 
 	"TauntModelPanel8"
@@ -415,12 +415,12 @@
 	"NumberBg8"
 	{
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 	
 	"NumberLabel8"
 	{	
 		"visible"		"0"
-		"tall"		"0"
+		"controlname" "panel"
 	}
 }

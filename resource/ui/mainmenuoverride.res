@@ -522,7 +522,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"NotoBold12"
+			font					"ItemFontAttribLarge"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2

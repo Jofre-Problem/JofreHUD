@@ -1,4 +1,5 @@
 #base "ui3/base/editablepanel1.res"
+#base "hudroundcounter.res"
 "Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
@@ -82,16 +83,10 @@ if_mini		{			"visible"		"0"		}
 	}
 	"RoundCounter"
 	{
-		"fieldName"							"RoundCounter"
-		"xpos"									"c-150"
 		"ypos"									"15"
 		"zpos"									"7"
 		"wide"									"300"
 		"tall"									"15"
-		"visible"								"1"
-		"enabled"								"1"
-
-		"indicator_start_offset"	"4"
 		"indicator_max_wide"			"32"
 
 		"RoundIndicatorPanel_kv"
@@ -103,7 +98,6 @@ if_mini		{			"visible"		"0"		}
 			"image"		"replay/thumbnails/panels/blank"
 			"scaleImage"				"1"
 			"fillcolor"		"GrayDarkest"
-			"alpha"		"180"
 		}
 		"RoundWinPanelRed_kv"
 		{
@@ -122,10 +116,6 @@ if_mini		{			"visible"		"0"		}
 			"zpos"		"8"
 			"image"		"replay/thumbnails/panels/blue"
 			"scaleimage"		"1"
-		}
-		"Background"
-		{
-			"ypos"	"9999"
 		}
 	}
 	"RankUpLabel"
@@ -149,22 +139,9 @@ if_mini		{			"visible"		"0"		}
 	}
 	"RankUpShadowLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"panel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"HudFontSmallishBold"
-		"xpos"			"cs-0.5+2"
-		"ypos"			"80+2"
-		"wide"			"600"
-		"tall"			"60"
-		"zpos"			"5"
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"alpha"			"0"
-		"labelText"		"%rank_possibility%"
-		"textAlignment"	"center"
-		"proportionaltoparent"	"1"
-		"fgcolor"		"Shadow"
+		"visible"			"0"
 	}
 	"ObjectiveStatusTimePanel"
 	{

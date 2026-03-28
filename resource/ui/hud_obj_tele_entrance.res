@@ -148,7 +148,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"NotoBold12"
+				"font"			"ItemFontAttribLarge"
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"200"

@@ -510,8 +510,6 @@ event MenuClose
 	//	Animate HudMatchStatus ypos "0" linear 0.0 0.0
 		StopEvent TestLoop_C 0.0
 		StopEvent TestLoop_C 0.01
-
-	RunEvent ScoreboardCrosshairAnimate	 0.0
 //	SetVisible hudplayerhealth 1 0.0
 //	SetVisible HudPlayerStatus 1 0.0
 //	SetVisible HudMatchStatus 1 0.0
@@ -533,7 +531,6 @@ event MenuClose
 
 event MenuOpen
 {
-	RunEvent TestLoop_C 0.0
 	StopEvent	MenuClose 0.0 
 //	RunEvent AddToCartBlink 0.0
 //	SetVisible hudplayerhealth 0 0.0
@@ -559,7 +556,7 @@ event MenuOpen
 //	RunEvent TestLoop_C 0.0
 //	Animate CDamageAccountPanel ypos "80" linear 0.0 0.0
 //	Animate HudMatchStatus ypos "20" linear 0.0 0.0
-	SetVisible DamageAccountLabelScoreboard 1 0.0
+//	SetVisible DamageAccountLabelScoreboard 1 0.0
 //	SetVisible	roundinfo	1	0
 
 	RunEventChild Mainmenuoverride MenuCMD 0.0

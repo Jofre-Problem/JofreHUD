@@ -14,7 +14,7 @@
 		"labelText"			" <"
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"textAlignment"	"west"
 
 		"proportionaltoparent"	"1"
@@ -48,7 +48,7 @@
 		"labelText"			">   "
 		"bgcolor_override"	"0 0 0 220"
 		"fgcolor"		"White"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"textAlignment"	"east"
 
 		"proportionaltoparent"	"1"
@@ -85,34 +85,13 @@
 
 	"Frame"
 	{
-		"Controlname"	"EditablePanel"
-		"fieldName"		"Frame"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"zpos"			"5"
-		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"InnerShadowBorder"
-		"mouseinputenabled"	"0"
 	}
 
 	"FadeTransition"
 	{
 		"ControlName"			"EditablePanel"
-		"fieldName"				"FadeTransition"
-		"xpos"					"cs-0.5"
-		"ypos"					"0"
-		"zpos"					"1"
-		"wide"					"f0"
-		"tall"					"f0"
-		"visible"				"1"
-		"enabled"				"1"
-		"scaleImage"			"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"		"0"
-		
-		"bgcolor_override"		"26 23 22 0"
+		"fieldName" "fadetransition"
+		"visible"				"0"
 	}
 }

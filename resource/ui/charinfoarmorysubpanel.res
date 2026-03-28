@@ -1,4 +1,4 @@
-//#base "ui2/lead_bg.res"
+#base "commentarymodelviewer.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 				
@@ -661,19 +661,7 @@
 	
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"10000"
-		"visible"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"bgcolor_override"		"Blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		
+
 		"text_ypos"			"9999"
 		"text_center"		"1"
 		"model_hide"		"0"

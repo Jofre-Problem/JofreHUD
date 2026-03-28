@@ -64,24 +64,14 @@
 	}
 
 	"AccountBG"
-	{
+	{	"ControlName"	"Panel"
 		"visible" "0"
 	}
 	
 	"MetalIcon"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"-11"
-		"ypos"			"-4"
-		"zpos"			"1"
-		"wide"			"23"
-		"tall"			"22"
 		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
-		"pin_to_sibling"	"BuildBGSentry"
 	}
 }

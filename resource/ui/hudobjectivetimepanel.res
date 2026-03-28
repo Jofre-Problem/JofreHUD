@@ -1,24 +1,14 @@
+#base "waitingforplayerspanel.res"
 "Resource/UI/HudObjectiveTimePanel.res"
 {
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"cs-0.5"
-		"ypos"			"18"
-		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"center"
-		
-		"font"			"itemfontnamesmallest"
-		"fgcolor_override"		"White"
-		"proportionaltoparent"		"1"
 	}
-
+	"WaitingForPlayersEndingLabel"
+	{	
+		"visible"		"0"
+	}
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -106,12 +96,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/timericon_bg_dx9"	
 		"scaleImage"		"1"	
-		"pin_to_sibling"	"TimePanelBGReal"
-
-		if_match
-		{
-			//	"visible"		"0"
-		}			
+		"pin_to_sibling"	"TimePanelBGReal"		
 	}
 	"TimePanelBGReal"
 	{
@@ -178,28 +163,28 @@
 	}
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
 		"enabled"		"0"
 	}
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"
 		"enabled"		"0"
 	}
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
 		"enabled"		"0"
 	}
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
 		"enabled"		"0"
@@ -207,7 +192,7 @@
 
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"panel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
 		"enabled"		"0"

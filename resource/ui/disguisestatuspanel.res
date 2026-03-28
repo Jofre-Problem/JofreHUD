@@ -35,7 +35,7 @@
 	"DisguiseNameLabelShadow"
 	{
 		"ControlName"			"Label"
-		"font"					"NotoBold12"
+		"font"					"ItemFontAttribLarge"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"

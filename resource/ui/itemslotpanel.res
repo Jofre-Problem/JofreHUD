@@ -1,3 +1,4 @@
+#base "commentarymodelviewer.res"
 "Resource/UI/ItemSlotPanel.res"
 {
 	"item_slot_panel"
@@ -78,18 +79,8 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
 		"wide"			"250"
 		"tall"			"300"
-		"visible"		"1"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
 		
 		"text_ypos"			"0"
 		"text_center"		"1"

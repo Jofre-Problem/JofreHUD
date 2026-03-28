@@ -547,7 +547,7 @@
                 "tall"                      "14"
                 "visible"                   "1"
                 "enabled"                   "1"
-                "font"                      "notobold14"
+                "font"                      "HudFontSmall"
                 "fgcolor_override"          "notowhite"
                 "fgcolor"                   "notowhite"
                 "bgcolor_override"          "Blank"

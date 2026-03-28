@@ -1,17 +1,11 @@
 #base "ItemRenameInvalidDialog.res"
+#base "commentarymodelviewer.res"
 "Resource/UI/ItemRenameInvalidDialog.res"
 {
 	// Need to be named ItemRenameConfirmationDialog, because it uses the same base confirmation dialog in code
 
 	"mouseoveritempanel"
 	{
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"0"
-		"paintborder"	"1"
 		
 		"text_ypos"			"20"
 		"model_hide"		"1"

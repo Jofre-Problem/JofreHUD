@@ -2,7 +2,7 @@
 {
 	"background"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"background"
 		"wide"					"0"
 		"tall"					"0"
@@ -12,7 +12,7 @@
 	
 	"ChargeLabel"
 	{
-		"ControlName"			"CExLabel"
+		"ControlName"			"Panel"
 		"fieldName"				"ChargeLabel"
 		"wide"					"0"
 		"tall"					"0"
@@ -110,8 +110,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"1"
+			"ypos"			"1"
 			"zpos"			"5"
 			"wide"			"35" //"74"
 			"tall"			"21"
@@ -122,7 +122,7 @@
 			"textAlignment"		"center"
 			////	"0"
 			//
-			"font"			"AmmoPipesOutS"
+			"font"			"AmmoPipesOut"
 			"fgcolor"		"0 0 0 100"
 		}
 	}

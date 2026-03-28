@@ -13,7 +13,7 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"background"
 			"visible"		"0"
 		}
@@ -75,7 +75,7 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"background"
 			"visible"		"0"
 		}

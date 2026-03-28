@@ -11,7 +11,7 @@
 		"wide" "100"
 		"bgcolor_override" "blank"
 		"labelText"		"#TF_RocketPack_Disabled"
-		"font" "notobold14"
+		"font" "HudFontSmall"
 	}
 
 	"ItemEffectMeter"

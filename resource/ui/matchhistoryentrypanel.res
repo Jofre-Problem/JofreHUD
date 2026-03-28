@@ -182,27 +182,14 @@
 
 			"BGImage"
 			{
-				"ControlName"	"ScalableImagePanel"
-				"fieldName"		"BGImage"
-				"xpos"			"-2"
-				"ypos"			"0"
-				"wide"			"o1"
-				"tall"			"50"
-				"image"			"casual\gametype_koth"
-				"proportionaltoparent"	"1"	
+				"ControlName"		"Panel"
+				"visible"		"0"
 			}
 
 			"GradientImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"GradientImage"
-				"xpos"			"8"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"40"
-				"image"			"training\gradient_black"
-				"proportionaltoparent"	"1"	
+				"ControlName"		"Panel"
+				"visible"		"0"
 				"rotation"		"1"
 			}
 

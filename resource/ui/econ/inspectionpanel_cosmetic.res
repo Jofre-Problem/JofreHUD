@@ -1,3 +1,4 @@
+#base "../commentarymodelviewer.res"
 "Resource/UI/econ/InspectionPanel_Cosmetic.res"
 {
 	"storepreviewitem"
@@ -1081,17 +1082,9 @@
 
 	"mouseoveritempanel"
 	{
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"c-70"
-		"ypos"			"270"
+
 		"zpos"			"10001"
-		"wide"			"200"
-		"tall"			"150"
-		"visible"		"0"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+
 
 		"text_center_x"		"1"
 		"resize_to_text"	"1"

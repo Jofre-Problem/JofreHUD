@@ -146,7 +146,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"%description%"
 		"textAlignment"	"center"
 		"xpos"			"60"

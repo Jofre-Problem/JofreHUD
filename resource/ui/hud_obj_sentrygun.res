@@ -184,7 +184,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"NotoBold12"
+				"font"			"ItemFontAttribLarge"
 				"xpos"			"42"
 				"ypos"			"15"
 				"wide"			"200"
@@ -244,7 +244,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"NotoBold12"
+				"font"			"ItemFontAttribLarge"
 				"xpos"			"1"
 				"ypos"			"0"
 				"wide"			"20"

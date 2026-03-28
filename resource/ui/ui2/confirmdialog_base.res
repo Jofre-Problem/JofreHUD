@@ -52,9 +52,9 @@
 		"fgcolor_override"	"Notowhite"
 							"fonts"
 				{
-					"0"		"NotoBold12"
+					"0"		"ItemFontAttribLarge"
 					"1"		"HudFontSmallishBold"
-					"2"		"NotoBold14"
+					"2"		"HudFontSmall"
 				}	
 	}
 			"tank_gif"

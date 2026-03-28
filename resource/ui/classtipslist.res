@@ -6,11 +6,8 @@
 		"fieldName"				"ClassTipsListPanel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"235"
-		"tall"					"165"
-		//			"3"
-		//				"0"
-		//			"0"
+		"wide"					"1"
+		"tall"					"1"
 		"bgcolor_override"		"blank"
 	}
 }

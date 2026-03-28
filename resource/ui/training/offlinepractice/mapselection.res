@@ -291,7 +291,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"230"

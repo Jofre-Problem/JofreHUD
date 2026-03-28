@@ -1,4 +1,4 @@
-
+#base "commentarymodelviewer.res"
 
 "Resource/UI/ItemSelectionPanel.res"
 {
@@ -451,18 +451,7 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
-		"xpos"										"c-70"
-		"ypos"										"270"
-		"zpos"										"100"
-		"wide"										"300"
-		"tall"										"300"
-		"visible"									"1"
-		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"White"
-		"PaintBackgroundType"						"2"
-		"paintborder"								"1"
+
 
 		"text_ypos"									"20"
 		"text_center"								"1"

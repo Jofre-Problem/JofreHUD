@@ -6,7 +6,7 @@
 
 #base "../../../cfg/_jp_steam_border.txt"
 #base "../../../cfg/_jp_mainmenu_spray_frame.txt"
-
+#base "lobbypanel.res"
 //#base "ui2/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
@@ -230,10 +230,6 @@
 		"alpha"	"190"
 	}
 	
-	"ShadedBar"
-	{
-		"visible"		"0"
-	}	
 	"MenuBG"
 	{
 		"visible"		"0"

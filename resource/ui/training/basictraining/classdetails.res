@@ -74,7 +74,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"%description%"
 			"textAlignment"	"left"
 			"xpos"			"10"
@@ -148,7 +148,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PrimaryLabel"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"#TR_Primary"
 			"textAlignment"	"center"
 			"xpos"			"15"
@@ -165,7 +165,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SecondaryLabel"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"#TR_Secondary"
 			"textAlignment"	"center"
 			"xpos"			"115"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MeleeLabel"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"#TR_Melee"
 			"textAlignment"	"center"
 			"xpos"			"215"

@@ -2,19 +2,9 @@
 {
 	"WaitingForPlayersPanelBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"WaitingForPlayersPanelBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"292"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"	
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"visible"		"0"
 	}
 
 	"WaitingForPlayersLabel"
@@ -22,11 +12,13 @@
 		"ControlName"		"Label"
 		"fieldName"		"WaitingForPlayersLabel"
 		"font"			"HudFontMedium"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"292"
-		"tall"			"64"
+		"xpos"			"cs-0.5"
+		"ypos"			"18"
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
 		
 		
 		"visible"		"1"

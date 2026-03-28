@@ -17,9 +17,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RanksContainer"
 		"xpos"			"0"
-		"ypos"			"30"
-		"wide"			"f0"
+		"ypos"			"0"
+		"wide"			"1"
 		"tall"			"1"
-		"proportionaltoparent"	"1"
 	}
 }

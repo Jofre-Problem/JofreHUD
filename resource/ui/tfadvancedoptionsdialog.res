@@ -188,7 +188,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"moreinfo"
-		"font"			"Notobold14"
+		"font"			"HudFontSmall"
 		"labelText"		"Need more info? Click here."
 		"textAlignment"	"west"
 		"xpos"			"20"

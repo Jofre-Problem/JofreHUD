@@ -189,7 +189,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"NotoBold14"
+			"font"			"HudFontSmall"
 			"xpos"			"0"
 			"ypos"			"38"
 			"zpos"			"4"
@@ -310,7 +310,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"NotoBold14"
+			"font"			"HudFontSmall"
 			"xpos"			"0"
 			"ypos"			"38"
 			"zpos"			"4"
@@ -375,7 +375,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"NotoBold14"
+				"font"				"HudFontSmall"
 				"xpos"				"0"
 				"ypos"				"0"
 				"zpos"				"23"

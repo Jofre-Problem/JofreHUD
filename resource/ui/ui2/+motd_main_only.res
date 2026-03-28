@@ -233,7 +233,7 @@
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Demo Settings!"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -1413,7 +1413,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Tools Panel"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2648,7 +2648,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Demo Bookmark"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2699,7 +2699,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Win"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Win"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2734,7 +2734,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Lose"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Lose"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2768,7 +2768,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "I forgot to do the bookmark earlier..."
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark ^LateBookmark"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2802,7 +2802,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Delete this demo! Waste of space."
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Delete!"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2861,7 +2861,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "VSH Specific Bookmark"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -2914,7 +2914,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Pre-Round"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Pre-Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2935,7 +2935,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "First-Round"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark First-Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2956,7 +2956,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Second-Round"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Second-Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2977,7 +2977,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Third-Round"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Third-Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -2998,7 +2998,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Fourth-Round"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Fourth-Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3019,7 +3019,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "1k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 1000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3040,7 +3040,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "2k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 2000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3061,7 +3061,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "3k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 3000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3082,7 +3082,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "4k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 4000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3112,7 +3112,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "5k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3133,7 +3133,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "6k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 6000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3154,7 +3154,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "7k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 7000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3175,7 +3175,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "8k Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 8000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3197,7 +3197,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "9000 Damage"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 9000.Damage"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3219,7 +3219,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Hiding"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Hiding"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3242,7 +3242,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Miracle Moment"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Miracle.Moment"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3263,7 +3263,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Stupid Moment"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Stupid.Moment"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3285,7 +3285,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Spectating Someone"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Spectating.Someone"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3306,7 +3306,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Spec Hale"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Spec.Hale"                     
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3328,7 +3328,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "I am Hale!"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark I.am.Hale!"                       
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3349,7 +3349,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "I'm Last One Alive"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Im.Last.One.Alive"                     
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3375,7 +3375,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "30min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 30.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3396,7 +3396,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "25min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 25.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3417,7 +3417,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "20min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 20.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3438,7 +3438,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "15min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 15.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3468,7 +3468,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "10min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 10.min.left"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3489,7 +3489,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "5min"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5.min.left"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3510,7 +3510,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Last"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Last.Round"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3531,7 +3531,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                           "wtf?"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark WTF_Moment!"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3589,7 +3589,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Casual Specific Bookmark"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3640,7 +3640,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "5.Killstreak"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3663,7 +3663,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "10 Killstreak"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 10.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3686,7 +3686,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "15 Killstreak"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 15.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3709,7 +3709,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "20 Killstreak"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 20.Killstreak"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3734,7 +3734,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Dominating"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Dominating"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3757,7 +3757,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Killing_Spree"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Killing.Spree"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3780,7 +3780,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "God-Like"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark God-Like"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3803,7 +3803,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Monster-Kill"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Monster.Kill"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -3901,7 +3901,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Server List ShortCut"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -3980,7 +3980,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "VSH"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4682,7 +4682,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Trade Servers + Misc"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -4734,7 +4734,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "Liquid.TF"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect trade.liquid.tf"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4805,7 +4805,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 193.221.192.210:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4828,7 +4828,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "skial.com | TRADE | US █████"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 91.216.250.30:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4851,7 +4851,7 @@ proportionaltoparent 1
 				"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 89.58.11.228:27015"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -4956,7 +4956,7 @@ proportionaltoparent 1
                         "tall"                      "30"
                         "proportionaltoparent"      "1"
                         "labelText"                 "Item Test"
-                        "font"                      "NotoBold12"
+                        "font"                      "ItemFontAttribLarge"
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
@@ -5008,7 +5008,7 @@ proportionaltoparent 1
 								"defaultbgcolor_override"			"notowhite"		
                                 "labeltext"                            "SuperTest V-Script"
 								textAlignment center
-								 "font"                      "NotoBold12"
+								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine map supertest"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -5179,7 +5179,7 @@ proportionaltoparent 1
 		"MOTD_Label"
 		{			"ControlName"	"cexLabel"
 			"fieldname"		"MOTD_Label"
-			"font"			"NotoBold14"
+			"font"			"HudFontSmall"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-5"
 			"visible"			"0"	//cant find a good use

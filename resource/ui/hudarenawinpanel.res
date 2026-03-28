@@ -443,7 +443,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 		zpos 9999
         "pin_to_sibling"            "Player1BG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -480,7 +480,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Healing"
 		{	
@@ -498,7 +498,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player1BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -526,7 +526,7 @@
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player2BG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -558,7 +558,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Healing"
 		{	
@@ -580,7 +580,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player2BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -608,7 +608,7 @@
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player3BG"
         "pin_corner_to_sibling"     "PIN_TOPLEFT"
@@ -640,7 +640,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Healing"
 		{	
@@ -658,7 +658,7 @@
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
-        "font"                      "NotoBold12"
+        "font"                      "ItemFontAttribLarge"
 
         "pin_to_sibling"            "Player3BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
@@ -702,7 +702,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Class"
 		{	
@@ -716,7 +716,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Damage"
 		{	
@@ -730,7 +730,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Healing"
 		{	
@@ -744,7 +744,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Lifetime"
 		{	
@@ -758,7 +758,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player1Kills"
 		{	
@@ -772,7 +772,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Avatar"	
 		{
@@ -800,7 +800,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Class"
 		{	
@@ -814,7 +814,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Damage"
 		{	
@@ -828,7 +828,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Healing"
 		{	
@@ -842,7 +842,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Lifetime"
 		{	
@@ -856,7 +856,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player2Kills"
 		{	
@@ -870,7 +870,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Avatar"
 		{
@@ -898,7 +898,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Class"
 		{	
@@ -912,7 +912,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Damage"
 		{	
@@ -926,7 +926,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Healing"
 		{	
@@ -940,7 +940,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Lifetime"
 		{	
@@ -954,7 +954,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 		"Player3Kills"
 		{	
@@ -968,7 +968,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"east"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 		}
 	}
 }

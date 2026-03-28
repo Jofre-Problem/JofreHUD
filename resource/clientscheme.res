@@ -207,7 +207,6 @@ Scheme
 
 		"CreditsGreen"										"95 150 50 255"
 
-		"Gray"												"227 228 230 255"
 
 		"Blank"												"0 0 0 0"
 		"ForTesting"										"255 0 0 32"
@@ -378,25 +377,18 @@ Scheme
 		"BlackDark"											"15 16 18 255"
 		"Black"												"0 0 0 255"
 		"TransparentBlack"									"0 0 0 150"
-		"TransparentLightBlack"								"0 0 0 100"
+
 		"TransparentGrayDarkest"							"27 28 30 200"
 		"TransparentWhite"									"227 228 230 150"		
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
-		"Yellow"											"245 220 60 255"		
-		"TransparentLightBlack""0 0 0 100"
-	//	"Green"					"0 135 68 255"
-	//	"TanLight"				"193 175 75 255"			
-
+		"Yellow"											"245 220 60 255"				
 		"White"									"235 235 235 255"
 		"WhiteSolid"							"255 255 255 255"
 		"WhiteTransparent"						"235 235 235 180"
 		"WhiteMoreTransparent"					"235 235 235 150"
-		
 		"WhiteGray"								"185 185 185 255"
-		
-//"Black"									"18 18 18 255"
 		"BlackSolid"							"0 0 0 255"
 		"BlackTransparent"						"0 0 0 150"
 		"BlackLightTransparent"					"0 0 0 50"
@@ -1561,16 +1553,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"AmmoPipesOutS"
-		{
-			"1"
-			{
-				"name" "Open Sans Pipes"
-				"tall" "23"
-				"antialias"	"1"
-				"blur" "1"
-			}
-		}
 		"Killfeed2"
 		{
 			"1"
@@ -1619,15 +1601,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"KillfeedEdit"
-		{
-			"1"
-			{
-				"name" "Open Sans KillfeedEdit"
-				"tall" "18"
-				"antialias"	"1"
-			}
-		}		
+	
 		"KillfeedBlur"
 		{
 			"1"
@@ -1681,25 +1655,6 @@ Scheme
 				"name" "Verdana"
 				"tall" "7"
 				"antialias" "1"
-			}
-		}
-		"NotoBold12"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"12"
-				
-				"antialias"	"1"
-			}
-		}
-		"NotoBold14"
-		{
-			"1"
-			{
-				"name"		"open_sans_bold"
-				"tall"		"14"
-				"antialias"	"1"
 			}
 		}
 
@@ -1786,7 +1741,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"Open Sans"
+				"name"	"hwnjofre1"
 				"tall"	"30"
 				"outline"	"1"
 				"range"	"0x0000 0x017F"
@@ -2089,7 +2044,7 @@ Scheme
 			{
 				"name"			"productsansbold"
 				"tall"			"10"
-				"additive"		"0"
+				
 				"antialias"		"1"
 			}
 		}
@@ -6316,16 +6271,6 @@ Scheme
 				"range" "0x021 0xFFFF"
 			}
 		}
-		"78"
-		{
-			"font" "fonts/optimized/opensans_regular.ttf"
-			"name" "Open Sans"
-		}
-		"79"
-		{
-			"font" "fonts/optimized/opensans_bold.ttf"
-			"name" "open_sans_bold"
-		}
 		"Captions Font"
 		{
 			"font" "fonts/openSans-caption.otf"
@@ -6698,12 +6643,6 @@ Scheme
                 "range"                                             "0x0021 0x1EFF"
             }	           
 		}
-		"work"
-		{
-			"font" "fonts/OpenSans-KillfeedEdit.ttf"
-			"name" "Open Sans KillfeedEdit"
-		}
-	//	"17"		{			"font" "fonts/OpenSans-Shadow.ttf"			"name" "Open Sans Shadow"	}
 		"20"
 		{
 			"font" "fonts/OpenSans-Healtarget.ttf"

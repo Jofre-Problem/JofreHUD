@@ -30,35 +30,35 @@
 
 	"Stream1"
 	{
-		"ControlName"	"CTFStreamPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Stream1"
 		"visible"		"0"
 	}
 
 	"Stream2"
 	{
-		"ControlName"	"CTFStreamPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Stream2"
 		"visible"		"0"
 	}
 
 	"Stream3"
 	{
-		"ControlName"	"CTFStreamPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Stream3"
 		"visible"		"0"
 	}
 
 	"Stream4"
 	{
-		"ControlName"	"CTFStreamPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Stream4"
 		"visible"		"0"
 	}
 
 	"Stream5"
 	{
-		"ControlName"	"CTFStreamPanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Stream5"
 		"visible"		"0"
 	}

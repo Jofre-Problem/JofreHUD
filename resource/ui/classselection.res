@@ -1,4 +1,4 @@
-
+#base "lobbypanel.res"
 "Resource/UI/TeamMenu.res"
 {
 	"BlurMainBG"
@@ -438,11 +438,6 @@ pin_to_sibling spylabel
 		                         "visible"		"0"
 		                         "enabled"		"0"
 	}	
-	                          "ShadedBar"
-	{
-		                         "visible"			"0"
-		                         "tall"			"0"
-	}
 	                          "CancelButton" 
 	{
 		                         "xpos"	"cs-0.5"

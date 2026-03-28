@@ -1,3 +1,4 @@
+#base "../commentarymodelviewer.res"
 "Resource/UI/econ/QuestLogPanel.res"
 {
 	"QuestLog"	//stupid
@@ -16,18 +17,9 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"1000"
 		"wide"			"300"
 		"tall"			"300"
-		"visible"		"0"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
 		
 		"text_ypos"			"20"

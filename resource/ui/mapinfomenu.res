@@ -10,7 +10,7 @@
 #base "ui2/partyslot0.res"
 #base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
-
+#base "lobbypanel.res"
 "Resource/UI/TeamMenu.res"
 {
 		"MOTD_Panel"	{	
@@ -245,10 +245,6 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "primary"
 		"depressedFgColor_override" "White"
-	}	
-	"ShadedBar"
-	{
-		"visible"		"0"
 	}	
 	"MapInfoContinue"
 	{

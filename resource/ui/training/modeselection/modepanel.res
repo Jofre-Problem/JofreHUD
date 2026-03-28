@@ -34,7 +34,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescLabel"
-			"font"			"NotoBold12"
+			"font"			"ItemFontAttribLarge"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
 			"xpos"			"0"

@@ -68,7 +68,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpellText"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"%selectedspell%"
 		"textAlignment" "west"
 		"xpos"			"35"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"47"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"NotoBold12"
+		"font"			"ItemFontAttribLarge"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"46"

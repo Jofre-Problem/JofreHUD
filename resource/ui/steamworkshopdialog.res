@@ -248,7 +248,7 @@
 			"fieldName"		"yoursv"
 			"zpos"			"0"
 
-			"font"			"NotoBold14"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"actionsignallevel"	"2"
 			"textinsetx"	"40"

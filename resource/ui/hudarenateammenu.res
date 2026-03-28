@@ -1,3 +1,4 @@
+#base "lobbypanel.res"
 "Resource/UI/ArenaTeamMenu.res"
 {
 	"team"
@@ -200,28 +201,6 @@
 		}
 	}	
 
-
-	
-	"ShadedBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r50"
-
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"	
-		"fillcolor"		"0 0 0 180"
-		//
-	}		
-		
 	"autodoor"
 	{
 		"ControlName"	"Panel"

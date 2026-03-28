@@ -36,30 +36,15 @@
 	}	
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"0"	
+		"visible"		"0"	
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"0"	
+		"visible"		"0"	
 	}	
 	"TeamColoredAmmoTextBG" // where the plus icons is
 	{
@@ -76,7 +61,7 @@
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}	
-"border0"
+	"border0"
 	{
 		"ControlName"		"editablePanel"
 		"fieldName"		"border0"

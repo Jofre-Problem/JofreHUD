@@ -1,3 +1,4 @@
+#base "../commentarymodelviewer.res"
 "Resource/UI/Econ/BackPackPanel.res"
 {
 	"backpack_panel"
@@ -457,18 +458,6 @@
 
 	"mouseoveritempanel"
 	{
-		"ControlName"								"CItemModelPanel"
-		"fieldName"									"mouseoveritempanel"
-		"xpos"										"c-70"
-		"ypos"										"270"
-		"zpos"										"102"
-		"wide"										"300"
-		"tall"										"300"
-		"visible"									"0"
-		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"White"
-		"PaintBackgroundType"						"2"
-		"paintborder"								"1"
 
 		"text_center"								"1"
 		"model_hide"								"1"
