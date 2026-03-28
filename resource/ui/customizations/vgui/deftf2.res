@@ -37,7 +37,7 @@ Scheme
 	}
 	BaseSettings
 	{
-		// scheme-specific colors
+		
 		Border.Bright					"TFTanLightDark"	// the lit side of a control
 		Border.Dark						"TFTanLightDark"		// the dark/unlit side of a control
 		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button

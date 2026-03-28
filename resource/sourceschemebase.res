@@ -1,15 +1,9 @@
-
-// Tracker scheme resource file
-//
-
+#base "portalstatsdisplayscreen.res"
+#base "portalstatsdisplayscreen2.res"
 Scheme
 {
-	
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
@@ -24,11 +18,6 @@ Scheme
 		"AchievementsDarkGrey"		"55 55 55 255"
 		"AchievementsInactiveFG"	"130 130 130 255"
 	}
-
-	///////////////////// BASE SETTINGS ////////////////////////
-	//
-	// default settings for all panels
-	// controls use these to determine their settings
 	BaseSettings
 	{
 		// vgui_controls color specifications
@@ -39,8 +28,7 @@ Scheme
 		Button.TextColor				"White"
 		Button.BgColor					"Blank"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"				[$WIN32]
-		Button.ArmedBgColor				"190 115 0 255"		
+		Button.ArmedBgColor				"Blank"	
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
@@ -64,13 +52,10 @@ Scheme
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"	[$WIN32]
-		Frame.BgColor					"80 80 80 192"		
-		Frame.OutOfFocusBgColor			"160 160 160 32"	[$WIN32]
-		Frame.OutOfFocusBgColor			"80 80 80 192"		
+		Frame.BgColor					"160 160 160 128"
+		Frame.OutOfFocusBgColor			"160 160 160 32"	
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"				[$WIN32]	// time it takes for a window to fade in/out on open/close
-		Frame.TransitionEffectTime		"0.2"						// time it takes for a window to fade in/out on open/close
+		Frame.TransitionEffectTime		"0.3"		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"200 200 200 196"
 		FrameGrip.Color2				"0 0 0 196"
@@ -82,8 +67,7 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.Font				"DefaultLarge"	[$WIN32]
+		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"White"
 		FrameTitleBar.BgColor			"Blank"
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
@@ -180,14 +164,11 @@ Scheme
 
 		WizardSubPanel.BgColor		"Blank"
 
-		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.TextColor			"200 200 200 255"	
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.ArmedTextColor		"White"				
+		
+		MainMenu.TextColor			"White"		
+		MainMenu.ArmedTextColor		"200 200 200 255"	
 		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"30"				[$WIN32]
-		MainMenu.MenuItemHeight			"22"				
+		MainMenu.MenuItemHeight		"30"				
 		//MainMenu.MenuItemHeight_hidef	"32"				
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
@@ -197,8 +178,7 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"			[$WIN32]
-		NewGame.SelectionColor		"0 0 0 255"			
+		NewGame.SelectionColor		"Orange"	
 		NewGame.DisabledColor		"128 128 128 196"
 
 		MessageDialog.MatchmakingBG			"46 43 42 255"	
@@ -229,7 +209,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"10"
 				"weight"	"500"
 				"antialias" "1"
@@ -240,7 +220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"7"
 				"weight"	"500"
 				"antialias" "1"
@@ -250,69 +230,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [$WINDOWS]
-				"name"		 "Segoe UI" 
-				"name"		 "Verdana" [$POSIX]
-				//"tall"		"14" [$LINUX]
-				//"tall"		"11" [$OSX]
-				//"tall"		 "10"
-				////"tall_lodef" "15"
-				////"tall_hidef" "20"
-				"weight"	 "0"
-				"outline"	 "1"
+				"name"		 "verdana"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				"weight"	"1000"
+				"name"		"verdana"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				"weight"	"500"
-				"underline" "1"
+				"name"		"verdana"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"12" [!$POSIX]
-				//"tall"		"13" [$POSIX]
-				"weight"	"0"
+				"name"		"verdana" 
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
+				"name"		"verdana"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"12"
-				"weight"	"0"
+				"name"		"verdana" 
 			}
 		}
 
@@ -320,86 +273,43 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"18"
-				"weight"	"0"
+				"name"		"verdana"
 			}
 		}
 		"UiBold"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"12"
-				"weight"	"1000"
-			}
-			"1"	
-			{
-				"name"		"Segoe UI"
-				//"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				"name"		"verdana" 
 			}
 		}
 		"ChapterTitle"	
 		{
 			"1"
 			{
-				"name"			"Segoe UI"
-				//"tall"			"20"
-				////"tall_hidef"	"28"
-				"weight"		"2000"
-				"outline"		"1"
+				"name"			"verdana"
 			}
 		}
 		"ChapterTitleBlur"	
 		{
 			"1"
 			{
-				"name"			"Segoe UI"
-				//"tall"			"20"
-				////"tall_hidef"	"28"
-				"weight"		"2000"
-				"blur"			"3"
-				//"blur_hidef"	"5"
+				"name"			"verdana"
 			}
 		}
 		"MenuLarge"
 		{
-			"1"	[$POSIX]
-			{
-				"name"		"Segoe UI"
-				//"tall"		"20"
-				"antialias" "1"
-			}
-			"1"	[$WIN32]
-			{
-				"name"		"Segoe UI" 
-				//"tall"		"16" 
-				"weight"	"600"
-				"antialias" "1"
-			}
 			"1"	
 			{
-				"name"		"Segoe UI"
-				//"tall"			"14"
-				////"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				"name"		"verdana"
 			}
 		}
 		"AchievementTitleFont"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
-				//"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				"name"		"verdana"
+
 			}
 		}
 		
@@ -407,11 +317,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
-				//"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
-				//"outline" "1"
+				"name"		"verdana"
+
 			}
 		}
 		
@@ -420,24 +327,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
-				//"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
+				"name"		"verdana"
 			}
-			"2"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
-			}
-		}
-		
+		}	
 		GameUIButtons
 		{
 			"1"	
@@ -446,227 +338,21 @@ Scheme
 				"name"		"Buttons"
 				"scalex"	"0.63"
 				"scaley"	"0.63"
-				//"scalex_hidef"	"1.0"
-				//"scaley_hidef"	"1.0"
-				//"scalex_lodef"	"0.75"
-				//"scaley_lodef"	"0.75"
-			}
-		}
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		 "Segoe UI" [$WINDOWS]
-				"name"		 "Segoe UI" 
-				"name"		 "Verdana" [$POSIX]
-				//"tall"		"11" [$OSX]
-				//"tall"		"14" [$LINUX]
-				//"tall"		"10"
-				"weight"	"500"
-			}
-		}
-
-		// this is the symbol font
-		"Marlett"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				//"tall"		"14"
-				"weight"	"0"
-				"symbol"	"1"
-			}
-		}
-
-		"Trebuchet24"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"24"
-				//"weight"	"900"
-			}
-		}
-
-		"Trebuchet20"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"20"
-				//"weight"	"900"
-			}
-		}
-
-		"Trebuchet18"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"18"
-				//"weight"	"900"
-			}
-		}
-
-		// HUD numbers
-		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
-		"HUDNumber"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"40"
-				//"weight"	"900"
-			}
-		}
-		"HUDNumber1"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"41"
-				//"weight"	"900"
-			}
-		}
-		"HUDNumber2"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"42"
-				//"weight"	"900"
-			}
-		}
-		"HUDNumber3"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"43"
-				//"weight"	"900"
-			}
-		}
-		"HUDNumber4"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"44"
-				//"weight"	"900"
-			}
-		}
-		"HUDNumber5"
-		{
-			"1"
-			{
-				"name"		"Segoe UI"
-				//"tall"		"45"
-				//"weight"	"900"
 			}
 		}
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [$WINDOWS]
-				"name"		 "Segoe UI" 
-				"name"		 "Verdana" [$POSIX]
-				//"tall"		"11" [$POSIX]
-				//"tall"		"10"
-				"weight"	"0"
+				"name"		 "verdana"
 			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				//"tall"		"20"
-//				"weight"	"0"
-//			}
 		}
 
 		"DefaultFixedDropShadow"
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [$WINDOWS]
-				"name"		 "Segoe UI" 
-				"name"		 "Verdana" [$POSIX]
-				//"tall"		"11" [$POSIX]
-				//"tall"		"10"
-				"weight"	"0"
-				"dropshadow" "1"
-			}
-//			"1"
-//			{
-//				"name"		"FixedSys"
-//				//"tall"		"20"
-//				"weight"	"0"
-//			}
-		}
-
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				"weight"	"500"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Segoe UI" [!$OSX]
-				"name"		"Segoe UI" [$OSX]
-				//"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				//"weight"	"900"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"16"
-				//"weight"	"900"
-				"italic"	"1"
-			}
-		}
-
-		TitleFont
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				//"tall"		"72"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
-			}
-		}
-
-		TitleFont2
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				//"tall"		"120"
-				"weight"	"400"
-				"antialias"	"1"
-				"custom"	"1"
+				"name"		 "verdana"
 			}
 		}
 
@@ -674,11 +360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
-				//"tall"			"16"
-				////"tall_hidef"	"24"
-				"weight"		"900"
-				"antialias"		"1"
+				"name"		"verdana"
 			}
 		}
 
@@ -686,62 +368,39 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
-				//"tall"			"16"
-				////"tall_hidef"	"24"
-				"weight"		"900"
-				"blur"			"3"
-				//"blur_hidef"	"5"
-				"antialias"		"1"
+				"name"		"verdana"
 			}
 		}
 		
-		StatsTitle	[$WIN32]
+		StatsTitle
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"2000"
-				//"tall"			"20"
-				"antialias"		"1"
+				"name"		"verdana"
 			}
 		}
 		
-		StatsText	[$WIN32]
+		StatsText
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"2000"
-				//"tall"			"18"
-				"antialias"		"1"
+				"name"		"verdana"
 			}
 		}
 		
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				//"tall"			"16" [!$POSIX]
-				//"tall"			"18" [$POSIX]
-				"antialias"		"1"
+				"name"		"verdana" 
 			}
 		}
 
-		AchievementItemDate	[$WIN32]
+		AchievementItemDate
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				//"tall"			"16"
-				"antialias"		"1"
+				"name"		"verdana" 
 			}
 		}
 
@@ -750,38 +409,23 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				//"tall"			"14" [!$POSIX]
-				//"tall"			"16" [$POSIX]
-				"antialias"		"1"
+				"name"		"verdana" 
 			}
 		}
 		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				//"tall"			"18" [!$POSIX]
-				//"tall"			"19" [$POSIX]
-				"antialias"		"1"
+				"name"		"verdana" 
 			}
 		}
 		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1000"
-				//"tall"			"14" [!$POSIX]
-				//"tall"			"15" [$POSIX]
-				"antialias"		"1"
+				"name"		"verdana"
 			}
 		}
 
@@ -790,13 +434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				//"tall"		"35"
-				////"tall_lodef"	"40"
-				"weight"	"500"
-				//
-				"antialias" "1"
+				"name"		"verdana"
 			}
 		}
 
@@ -804,7 +442,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -812,7 +450,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -820,7 +458,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -829,7 +467,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -838,7 +476,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				//"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -964,8 +602,7 @@ Scheme
 
 		ScrollBarButtonBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0"
 			Left
 			{
 				"1"
@@ -1005,8 +642,7 @@ Scheme
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0"
 			Left
 			{
 				"1"
@@ -1246,15 +882,5 @@ Scheme
 				}
 			}
 		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"	
-		"3"		"resource/marlett.ttf"
 	}
 }

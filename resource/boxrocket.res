@@ -1,9 +1,11 @@
 #base "combinepanelscheme.res"
+#base "portalstatsdisplayscreen.res"
+#base "portalstatsdisplayscreen2.res"
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
 	// color details
-	// this is a list of all the colors used by the scheme
+	
 	Colors
 	{
 
@@ -216,26 +218,6 @@ Scheme
 				"tall"		"16"
 			}
 		}
-
-		"ConsoleText"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"10"
-			}
-		}
-
-		// this is the symbol font
-		"Marlett"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"symbol"	"1"
-			}
-		}
 		"MarlettSmall"
 		{
 			"1"
@@ -245,145 +227,12 @@ Scheme
 				"symbol"	"1"
 			}
 		}
-		"Trebuchet24"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"24"
-			}
-		}
-
-
-		"Trebuchet20"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"20"
-			}
-		}
-
-		"Trebuchet18"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"18"
-			}
-		}
-
-		// HUD numbers
-		// We use multiple fonts to 'pulse' them in the HUD, hence the need for many of near size
-		"HUDNumber"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"40"
-			}
-		}
-		"HUDNumber1"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"41"
-			}
-		}
-		"HUDNumber2"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"42"
-			}
-		}
-		"HUDNumber3"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"43"
-			}
-		}
-		"HUDNumber4"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"44"
-			}
-		}
-		"HUDNumber5"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"45"
-			}
-		}
 		"DefaultFixed"
 		{
 			"1"
 			{
 				"name"		"verdana"
 				"tall"		"10"
-			}
-		}
-
-
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"16"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"16"
-
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"16"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"16"
-			}
-		}
-
-		TitleFont
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"72"
-				"custom"	"1"
-			}
-		}
-
-		TitleFont2
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"120"
-				"custom"	"1"
 			}
 		}
 

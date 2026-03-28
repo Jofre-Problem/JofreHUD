@@ -6,12 +6,8 @@
 //#base "../new/resource/cs_windows.res"
 #base "../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
 #base "../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
-//#base "../new/resource/cs_windows.res"
 
-#base "fallback/sourcescheme.res"	// in case user didnt set nothing
-#base "sourceschemebase.res"	// in case user didnt set nothing
-//#base "../ui_overrides/frame-border/modulate.res"	//fallback
-// code from flarepunch hud
+#base "sourceschemebase.res"
 Scheme
 {
 	Colors
@@ -859,18 +855,7 @@ Button.DepressedTextColor "220 220 220 255"
 				"yres" "0 10000"	//the tall determines the position the buttons of frame will be
 				// 12 is the def
 			}
-		}				
-//	"DefaultSmallDropShadow"		{			"1"			{				"name"		"Segoe UI"				"tall"		"13"			}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"12"
-			
-			}
 		}
-
 		"DefaultLarge"
 		{
 			"1"
@@ -1098,16 +1083,6 @@ Button.DepressedTextColor "220 220 220 255"
 			"font" "fonts/product_sans_regular.ttf"
 			"name" "product_sans_regular"
 		}		
-		"linux1"		"resource/HALFLIFE2.ttf"
-
-		"linux14"		"resource/linux_fonts/DejaVuSans.ttf"
-		"linux15"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"linux16"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"linux17"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"linux18"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"linux19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"linux110"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"		
 
 		"tf22" 
 		{

@@ -15,17 +15,11 @@
 
 
 
-
+#base "combinepanelscheme.res"
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"0 0 0 0"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 250"
 		"Black"				"0 0 0 255"
@@ -48,13 +42,6 @@ Scheme
 	    "QuickListBGSelected"							"131 121 104 150"
 	    "Blank"											"0 0 0 0"
 		"Green"											"63 185 73 255"
-		"ControlBG"										"76 88 68 255"
-		"ControlDarkBG"									"90 106 80 255"
-		"WindowBG"										"62 70 55 255"
-		"SelectionBG"									"90 84 75 255"
-		"SelectionBG2"									"69 64 57 255"
-		"ListBG"										"39 36 34 0"
-		"Blank"				"0 0 0 0"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -67,221 +54,16 @@ Scheme
 		"Chat.TypingText"	"245 245 245 255"
 		TextEntry.CursorColor		"90 255 2 255"
 		RichText.TextColor				"255 255 255 255"
-		// vgui_controls color specifications
-		Border.Bright					"0 0 0 0"	// the lit side of a control
-		Border.Dark						"0 0 0 0"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 0"
 
-		Button.TextColor				"White"
-		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
-		Button.FocusBorderColor			"Black"
-		
-		CheckButton.TextColor			"OffWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
-
-	//	ScrollBar.Wide					"3"
-
-		"TextEntry.TextColor"							"TFTextBright"
-		"TextEntry.BgColor"								"ListBG"
-		
-		"TextEntry.DisabledTextColor"					"DullWhite"
-		"TextEntry.DisabledBgColor"						"Blank"
-		"TextEntry.SelectedTextColor"					"White"
-		"TextEntry.SelectedBgColor"						"TFOrangeBright"
-		"TextEntry.OutOfFocusSelectedBgColor"			"255 155 0 128"
-		"TextEntry.FocusEdgeColor"						"0 0 0 196"
-	//	"TFColors.ChatTextYellow"						"255 255 255 255"
 		"TFColors.ChatTextTeamBlue"						"153 204 255 255"
 		"TFColors.ChatTextTeamRed"						"255 63 53 255"
-		ScrollBarButton.FgColor				"0 0 0 0"
-		ScrollBarButton.BgColor				"0 0 0 0"
-		ScrollBarButton.ArmedFgColor		"0 0 0 0"
-		ScrollBarButton.ArmedBgColor		"0 0 0 0"
-		ScrollBarButton.DepressedFgColor	"0 0 0 0"
-		ScrollBarButton.DepressedBgColor	"0 0 0 0"
-
+	
 		ScrollBarSlider.FgColor				"255 215 0 255"			// nob color
 		ScrollBarSlider.BgColor				"0 0 0 0"	// slider background color
 
-		TFColors.ChatTextYellow		"251 235 202 255" // chat color or something
+		TFColors.ChatTextYellow		"255 255 255 255" // chat color or something
 		TFColors.ChatTextBlue	"153 204 255 255"
 		TFColors.ChatTextRed	"255 63 53 255"
-				TextEntry.TextColor			"OffWhite"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
-		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
-		Border.Bright					"200 200 200 196"	// the lit side of a control
-		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
-
-		Button.TextColor				"White"
-		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
-		Button.FocusBorderColor			"Black"
-		
-		CheckButton.TextColor			"OffWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
-
-		ComboBoxButton.ArrowColor		"DullWhite"
-		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
-
-		"Chat.TypingText"		"White"
-
-		Frame.TitleTextInsetX			16
-		Frame.ClientInsetX				8
-		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 150"	
-		Frame.OutOfFocusBgColor			"160 160 160 32"	
-
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"200 200 200 196"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
-		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"Blank"
-
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
-
-		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"OffWhite"
-		Label.TextBrightColor				"White"
-		Label.SelectedTextColor				"White"
-		Label.BgColor					"TransparentBlack"
-		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"30 30 30 255"
-
-		ListPanel.TextColor					"OffWhite"
-		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Orange"
-		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
-		ListPanel.EmptyListInfoTextColor	"OffWhite"
-
-		Menu.TextColor					"White"
-		Menu.BgColor					"160 160 160 128"
-		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"Orange"
-		Menu.TextInset					"6"
-
-		Panel.FgColor					"Blank"
-		Panel.BgColor					"DullWhite"
-
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"TransparentBlack"
-
-		PropertySheet.TextColor			"OffWhite"
-		PropertySheet.SelectedTextColor	"White"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
-
-		RadioButton.TextColor			"DullWhite"
-		RadioButton.SelectedTextColor	"White"
-
-		RichText.TextColor				"OffWhite"
-		RichText.BgColor				"TransparentBlack"
-		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"Orange"
-
-
-		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"White"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"White"
-		ScrollBarButton.DepressedBgColor	"Blank"
-
-		ScrollBarSlider.FgColor				"Blank"			// nob color
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
-
-		SectionedListPanel.HeaderTextColor	"White"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Orange"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
-
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"180 180 180 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
-
-		TextEntry.TextColor			"OffWhite"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"OffWhite"
-		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
-
-		ToggleButton.SelectedTextColor	"White"
-
-		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"Orange"
-
-		TreeView.BgColor			"TransparentBlack"
-
-		WizardSubPanel.BgColor		"Blank"
-
-		// scheme-specific colors
-		MainMenu.TextColor			"White"				
-		MainMenu.ArmedTextColor		"200 200 200 255"	
-		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"16"
-		MainMenu.Inset				"32"
-		MainMenu.Backdrop			"0 0 0 156"
-
-		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"White"
-
-		NewGame.TextColor			"White"
-		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"Orange"
-		NewGame.DisabledColor		"128 128 128 196"
-
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
 	}
 
 	Fonts
@@ -376,52 +158,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-		// this is the symbol font
-		"Marlett"
-		{
-
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"10"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"22"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"symbol"	"1"
-			}
-		}
 
 		"MarlettSmall"
 		{
@@ -431,38 +167,6 @@ Scheme
 				"tall"		"7"
 				"weight"	"0"
 				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"9"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"11"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1200 10000"
 				"symbol"	"1"
 			}
 		}
@@ -481,12 +185,7 @@ Scheme
 	    	FrameBorder {
 			"bordertype"				"scalable_image"
 			"background_type"			"0"
-			"color"						"Primary"
-			"image"						"replay/thumbnails/hp/modulate_white_test"
-			"src_corner_width"			"12"
-			"src_corner_height"			"12"
-			"draw_corner_width"			"2"
-			"draw_corner_height"		"2"	 }			
+			}			
 		DepressedBorder //scrollbar
 		{
 			"bordertype"			"scalable_image"
@@ -884,75 +583,8 @@ Scheme
 			}
 		}
 	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
-		"3"
-		{
-			"font" "_mainstream/_qol/chat-icons/productchat.ttf"
-			"name" "productchat"
-			"turkish"
-			{
-				"range" "0x0000 0x015F"
-			}
-			"swedish"
-			{
-				"range" "0x0000 0x00F6"
-			}
-			"spanish"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"romanian"
-			{
-				"range" "0x0000 0x021B"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x017C"
-			}
-			"norwegian"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"danish"
-			{
-				"range" "0x0000 0x00F8"
-			}
-			"hungarian"
-			{
-				"range" "0x0000 0x0171"
-			}
-			"german"
-			{
-				"range" "0x0000 0x00FC"
-			}
-			"french"
-			{
-				"range" "0x0000 0x0178"
-			}
-			"finnish"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"czech"
-			{
-				"range" "0x0000 0x017E"
-			}
-			"bulgarian"
-			{
-				"range" "0x0000 0x0451"
-			}
-			"russian"
-			{
-				"range" "0x0000 0x0451"
-			}	
-		}	
 		"hwn"
 		{
 			"font"		"fonts/hwnjofre1.otf"
@@ -1121,15 +753,7 @@ Scheme
             {
                 "range"                                             "0x0021 0x1EFF"
             }			
-		}				
-		"4"		"resource/linux_fonts/DejaVuSans.ttf"
-		"5"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"6"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"7"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"8"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"9"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"		
+		}
 	}
 }
 

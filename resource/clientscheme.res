@@ -5482,18 +5482,6 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"linux1"		"resource/HALFLIFE2.ttf"
-
-		"linux14"		"resource/linux_fonts/DejaVuSans.ttf"
-		"linux15"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
-		"linux16"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
-		"linux17"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
-		"linux18"		"resource/linux_fonts/LiberationSans-Regular.ttf"
-		"linux19"		"resource/linux_fonts/LiberationSans-Bold.ttf"
-		"linux110"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"linux111"		"resource/linux_fonts/FiraSans-Regular.ttf"
-
-
 		"monono"
 		{
 			"font" "fonts/mono.otf"

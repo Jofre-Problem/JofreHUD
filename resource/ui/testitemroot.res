@@ -1,40 +1,6 @@
+#base "testitembotcontrols.res"
 "Resource/UI/TestItemRoot.res"
 {
-	"TestItemRoot"
-	{
-		"fieldName"				"TestItemRoot"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"bgcolor_override"		"Graydark"
-		"paintbackgroundtype"	"2"
-		"settitlebarvisible"	""
-		"paintborder"			"0"
-		"paintbackground"		"1"
-	}
-	
-	"TitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#IT_Title"
-		"textAlignment"	"north"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"25"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-	}
-	
 	"ClassUsagePanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -897,30 +863,6 @@
 		
 		
 	}
-	"OkButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"OkButton"
-		"xpos"			"220"
-		"ypos"			"430"
-		"zpos"			"1"
-		"wide"			"200"
-		"tall"			"25"
-		
-		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"#IT_Ok"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"1"
-		"Command"		"ok"
-		
-		
-	}
 
 	"SteamWorkshopButton"
 	{
@@ -978,30 +920,5 @@
 				"image"			"glyph_steamworkshop"
 			}		
 		}
-	}
-	
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"10"
-		"ypos"			"460"
-		"zpos"			"25"
-		"wide"			"30"
-		"tall"			"15"
-		
-		
-		"visible"		"0"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		//
-		
-		"Command"		"reloadscheme"
-		
-		
 	}
 }
