@@ -1,29 +1,10 @@
-///////////////////////////////////////////////////////////
-// Tracker scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-///////////////////////////////////////////////////////////
+#base "combinepanelscheme.res"
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
-		"OffWhite"			"221 221 221 255"
-		"DullWhite"			"211 211 211 255"
-		
-		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-
-		"Blank"				"0 0 0 0"
+	
 
 		// base colors
 		"BaseText"			"216 222 211 255"	// used in text windows, lists
@@ -69,148 +50,17 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		// vgui_controls color specifications
-		Border.Bright					"BorderBright"	// the lit side of a control
-		Border.Dark						"BorderDark"		// the dark/unlit side of a control
-		Border.Selection				"BorderSelection"			// the additional border color for displaying the default/selected button
-
-		Button.TextColor				"ControlText"
-		Button.BgColor					"ControlBG"
-//		Button.ArmedTextColor			"BrightBaseText"
-//		Button.ArmedBgColor				"SelectionBG"
-//		Button.DepressedTextColor		"DimBaseText"
-//		Button.DepressedBgColor			"ControlDarkBG"	
-		Button.FocusBorderColor			"TransparentBlack"
-		
-		CheckButton.TextColor			"BaseText"
-		CheckButton.SelectedTextColor	"BrightControlText"
-		CheckButton.BgColor				"ListBG"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"BrightControlText"	// color of the check itself
-
-		ComboBoxButton.ArrowColor		"DimBaseText"
-		ComboBoxButton.ArmedArrowColor	"BrightBaseText"
-		ComboBoxButton.BgColor			"ListBG"
-		ComboBoxButton.DisabledBgColor	"ControlBG"
-
-		Frame.ClientInsetX				20
-		Frame.ClientInsetY				6
-		Frame.BgColor					"ControlBG"
-		Frame.OutOfFocusBgColor			"ControlBG"
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"BorderBright"
-		FrameGrip.Color2				"BorderSelection"
-		FrameTitleButton.FgColor		"BorderBright"
-		FrameTitleButton.BgColor		"ControlBG"
-		FrameTitleButton.DisabledFgColor	"TitleDimText"
-		FrameTitleButton.DisabledBgColor	"TitleDimBG"
-		FrameSystemButton.FgColor		"TitleBG"
-		FrameSystemButton.BgColor		"TitleBG"
-		FrameSystemButton.Icon			"resource/icon_steam"
-		FrameSystemButton.DisabledIcon	"resource/icon_steam_disabled"
-		FrameTitleBar.TextColor			"TitleText"
-		FrameTitleBar.BgColor			"TitleBG"
-		FrameTitleBar.DisabledTextColor	"TitleText"
-		FrameTitleBar.DisabledBgColor	"TitleBG"
-
-		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
-
-		Label.TextDullColor				"DimBaseText"
-		Label.TextColor					"ControlText"
-		Label.TextBrightColor			"BrightBaseText"
-		Label.SelectedTextColor			"BrightControlText"
-		Label.BgColor					"ControlBG"
-		Label.DisabledFgColor1			"DisabledText1"	
-		Label.DisabledFgColor2			"DisabledText2"	
-
+	
 		StatusLabel.ValidColor			"0 192 0 255"
 		StatusLabel.InvalidColor		"192 0 0 255"
 
-		ListPanel.TextColor					"BaseText"
-		ListPanel.BgColor					"ListBG"
-		ListPanel.SelectedTextColor			"BrightBaseText"
-		ListPanel.SelectedBgColor			"SelectionBG"
-		ListPanel.SelectedOutOfFocusBgColor	"SelectionBG2"
-		ListPanel.EmptyListInfoTextColor	"DimBaseText"
-
-		Menu.TextInset					"6"
-		Menu.FgColor			"DimBaseText"
-		Menu.BgColor			"ControlBG"
-		Menu.ArmedFgColor		"BrightBaseText"
-		Menu.ArmedBgColor		"SelectionBG"
-		Menu.DividerColor		"BorderDark"
-
-		Panel.FgColor					"BorderSelection"
-		Panel.BgColor					"ControlBG"
-
+	
 		PanelListPanel.autohide_scrollbar	1
 
-		ProgressBar.FgColor				"Label.FgColor"
-		ProgressBar.BgColor				"Label.BgColor"
-
-		PropertySheet.TextColor			"ControlText"
-		PropertySheet.SelectedTextColor		"BrightControlText"
-		PropertySheet.TransitionEffectTime	"0"	// time to change from one tab to another
-
-		RadioButton.TextColor			"ToggleButton.TextColor"
-		RadioButton.SelectedTextColor		"ToggleButton.SelectedTextColor"
-
-		RichText.TextColor				"TextEntry.TextColor"
-		RichText.BgColor				"TextEntry.BgColor"
-		RichText.SelectedTextColor		"TextEntry.SelectedTextColor"
-		RichText.SelectedBgColor		"SelectionBG"
-
-		ScrollBar.Wide					17
-
-		ScrollBarButton.FgColor				"ControlText"
-		ScrollBarButton.BgColor				"ControlDarkBG"
-		ScrollBarButton.ArmedFgColor		"BrightBaseText"
-		ScrollBarButton.ArmedBgColor		"ControlDarkBG"
-		ScrollBarButton.DepressedFgColor	"BrightBaseText"
-		ScrollBarButton.DepressedBgColor	"ControlDarkBG"
-
-		ScrollBarSlider.BgColor				"ControlDarkBG"		// this isn't really used
-		ScrollBarSlider.FgColor				"ControlBG"		// handle with which the slider is grabbed
-
-		SectionedListPanel.HeaderTextColor	"BrightControlText"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"BorderDark"
-		SectionedListPanel.TextColor		"BaseText"
-		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"ListBG"
-		SectionedListPanel.SelectedTextColor			"SelectedText"
-		SectionedListPanel.SelectedBgColor				"SelectionBG"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"SelectedText"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"SelectionBG2"
-
-		Slider.NobColor				"ControlDarkBG"		
-		Slider.TextColor			"ControlBG"
-		Slider.TrackColor			"ControlDarkBG"
-//		Slider.DisabledTextColor1	"117 117 117 255"
-//		Slider.DisabledTextColor2	"30 30 30 255"
-
-		TextEntry.TextColor			"ControlText"
-		TextEntry.BgColor			"ListBG"
-		TextEntry.CursorColor		"Label.CursoColor"
-		TextEntry.DisabledTextColor	"DimBaseText"
-		TextEntry.DisabledBgColor	"ControlBG"
-		TextEntry.SelectedTextColor	"SelectedText"
-		TextEntry.SelectedBgColor	"SelectionBG"
-		TextEntry.OutOfFocusSelectedBgColor	"SelectionBG2"
-		TextEntry.FocusEdgeColor	"SelectionBG"
-
+	
 		ToggleButton.SelectedTextColor	"Label.SelectedTextColor"
 
-//		Tooltip.TextColor			"0 0 0 196"
-//		Tooltip.BgColor				"255 155 0 255"
 
-		TreeView.BgColor			"ControlBG"
-
-		WizardSubPanel.BgColor		"ControlBG"
 	}
 
 	//
@@ -227,7 +77,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"10"
 			}
 		}
@@ -236,7 +86,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"7"
 			}
 		}
@@ -244,7 +94,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 			}
 		}
@@ -252,7 +102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 			}
 		}
@@ -260,7 +110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 				"underline" "1"
 			}
@@ -269,7 +119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"13"
 			}
 		}
@@ -277,7 +127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"12"
 			}
 		}
@@ -286,7 +136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"18"
 			}
 		}
@@ -294,7 +144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"12"
 			}
 		}
@@ -302,7 +152,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 			}
 		}
@@ -311,7 +161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"10"
 			}
 		}
@@ -331,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"24"
 			}
 		}
@@ -341,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"20"
 			}
 		}
@@ -350,7 +200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"18"
 			}
 		}
@@ -361,7 +211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"40"
 			}
 		}
@@ -369,7 +219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"41"
 			}
 		}
@@ -377,7 +227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"42"
 			}
 		}
@@ -385,7 +235,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"43"
 			}
 		}
@@ -393,7 +243,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"44"
 			}
 		}
@@ -401,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"segoe ui"
+				"name"		"verdana"
 				"tall"		"45"
 			}
 		}
@@ -409,7 +259,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"10"
 			}
 //			"1"
@@ -423,7 +273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 			}
 		}
@@ -431,16 +281,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
-				"italic"	"1"
+				
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
 			}
 		}
@@ -448,9 +298,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"16"
-				"italic"	"1"
+				
 			}
 		}
 
@@ -458,9 +308,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"verdana"
 				"tall"		"72"
-				"custom"	"1"
+				
 			}
 		}
 
@@ -468,19 +318,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
+				"name"		"verdana"
 				"tall"		"120"
-				"custom"	"1"
+				
 			}
 		}
-	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1"		"resource/HALFLIFE2.ttf"
-	
 	}
 }

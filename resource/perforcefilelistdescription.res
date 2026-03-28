@@ -5,15 +5,6 @@
 	{
 		"ControlName"	"CPerforceFileListFrame"
 		"fieldName"		"PerforceFileList"
-		//"xpos"			"147"
-		//"ypos"			"128"
-		//"wide"			"580"
-		//"tall"			"380"
-		
-		
-		////"visible"		"1"
-		
-		
 		"settitlebarvisible"	"1"
 		"title"		"Select"
 		
@@ -76,24 +67,6 @@
 				{
 					"ControlName"	"TextEntry"
 					"fieldName"		"Description"
-					
-					//"ypos"			"26"
-					//"wide"			"75"
-					//"tall"			"24"
-					//"autoResize"	"3"
-					
-					
-					////"PinnedCornerOffsetY" "26"
-					
-					
-					////"visible"		"1"
-					
-					//"editable"		"1"
-					//"tabPosition"	"1"
-					////"labelText"		""
-					////"textAlignment"	"west"
-					//"dulltext"		"1"
-					//"brighttext"	"0"
 				}						
 			}
 		}

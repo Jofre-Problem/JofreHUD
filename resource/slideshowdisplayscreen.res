@@ -1,15 +1,4 @@
-///////////////////////////////////////////////////////////
-// Object Control Panel scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-// hit ctrl-alt-shift-R in the app to reload this file
-//
-///////////////////////////////////////////////////////////
+
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -194,37 +183,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"128"	//45
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"32"
-				"underline" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				
+				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"24"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"18"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -232,9 +221,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"verdana"
 				"tall"		"48"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 
@@ -246,7 +235,7 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"14"
 				"symbol"	"1"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				//		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 	}

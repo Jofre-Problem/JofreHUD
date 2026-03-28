@@ -41,47 +41,50 @@ Scheme
 		Border.Dark						"40 40 40 196"		// the dark/unlit side of a control
 		Border.Selection				"0 0 0 196"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"White"
-		Button.BgColor					"Blank"
-		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"Blank"
-		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"Blank"
+		Button.TextColor								"240 240 240 255"
+		Button.BgColor									"27 27 27 255"
+		Button.ArmedTextColor							"240 240 240 255"
+		Button.ArmedBgColor								"90 180 0 255"				//!!!
+		Button.SelectedTextColor						"255 152 0 255"
+		Button.SelectedBgColor							"TFOrange"							//!!!1
+		Button.DepressedTextColor						"245 245 245 180"
+		Button.DepressedBgColor							"TFOrange"
 		Button.FocusBorderColor			"Black"
 		
-		CheckButton.TextColor			"DullWhite"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
-		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"White"				// color of the check itself
+		CheckButton.TextColor			"220 220 220 255"
+		CheckButton.SelectedTextColor	"220 220 220 255"
+		CheckButton.BgColor				"0 0 0 255"
+		CheckButton.Border1  			"220 220 220 255" 		// the left checkbutton border
+		CheckButton.Border2  			"220 220 220 255"		// the right checkbutton border
+		CheckButton.Check				"220 220 220 255"		// color of the check itself
+		CheckButton.HighlightFgColor	"220 220 220 255"
 
-		ComboBoxButton.ArrowColor		"DullWhite"
+		ComboBoxButton.ArrowColor		"White"
 		ComboBoxButton.ArmedArrowColor	"White"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
+		"Frame.BgColor"										"TransparentBlack"
+		"Frame.OutOfFocusBgColor"							"TransparentBlack"
+		"Frame.FocusTransitionEffectTime"					"0.0"
+		"Frame.TransitionEffectTime"						"0.0"
+		"Frame.AutoSnapRange"								"0"
+		"FrameGrip.Color1"									"Blank"
+		"FrameGrip.Color2"									"Blank"
+		"FrameTitleButton.FgColor"							"Blank"
+		"FrameTitleButton.BgColor"							"Blank"
+		"FrameTitleButton.DisabledFgColor"					"Blank"
+		"FrameTitleButton.DisabledBgColor"					"Blank"
+		"FrameSystemButton.FgColor"							"Blank"
+		"FrameSystemButton.BgColor"							"Blank"
+		"FrameSystemButton.Icon"							""
+		"FrameSystemButton.DisabledIcon"					""
+		"FrameTitleBar.TextColor"							"Orange"
+		"FrameTitleBar.BgColor"								"Blank"
+		"FrameTitleBar.DisabledTextColor"					"Orange"
+		"FrameTitleBar.DisabledBgColor"						"Blank"
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"160 160 160 128"
-		Frame.OutOfFocusBgColor			"160 160 160 32"
-		Frame.FocusTransitionEffectTime	"0.3"	// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
-		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"200 200 200 196"
-		FrameGrip.Color2				"0 0 0 196"
-		FrameTitleButton.FgColor		"200 200 200 196"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
-		FrameTitleButton.DisabledBgColor	"Blank"
-		FrameSystemButton.FgColor		"Blank"
-		FrameSystemButton.BgColor		"Blank"
-		FrameSystemButton.Icon			""
-		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"White"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"255 255 255 192"
-		FrameTitleBar.DisabledBgColor	"Blank"
 
 		GraphPanel.FgColor				"White"
 		GraphPanel.BgColor				"TransparentBlack"
@@ -134,7 +137,7 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Blank"			// nob color
+		ScrollBarSlider.FgColor				"245 245 245 180"
 		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
 
 		SectionedListPanel.HeaderTextColor	"White"
@@ -148,11 +151,11 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"30 30 30 255"
+		"Slider.NobColor"									"255 255 255 255"
+		"Slider.TextColor"									"128 128 128 255"
+		"Slider.TrackColor"									"64 64 64 255"
+		"Slider.DisabledTextColor1"							"96 96 96 255"
+		"Slider.DisabledTextColor2"							"32 32 32 255"
 
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.BgColor			"TransparentBlack"
@@ -166,8 +169,8 @@ Scheme
 
 		ToggleButton.SelectedTextColor	"White"
 
-		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"255 155 0 255"
+		"Tooltip.TextColor"									"TransparentBlack"
+		"Tooltip.BgColor"									"255 0 0 255"
 
 		TreeView.BgColor			"TransparentBlack"
 
@@ -213,7 +216,6 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"32"
-				"underline" "1"
 				//"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
