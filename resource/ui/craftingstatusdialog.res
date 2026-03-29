@@ -1,3 +1,5 @@
+#base "vrcalibration.res"
+#base "ui3/base/label2.res.res"
 "Resource/UI/CraftingStatusDialog.res"
 {
 	"CraftingStatusDialog"
@@ -90,25 +92,10 @@
 	
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
 		"xpos"			"50"
 		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"25"
-		//	"0"
-		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"1"
-		"Command"		"close"
-		
-		
 	}
 }

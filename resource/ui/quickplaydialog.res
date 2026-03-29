@@ -1,4 +1,4 @@
-"Resource/QuickplayDialog.res"
+"j"
 { // not like its used anyways
 	"QuickplayDialog"
 	{

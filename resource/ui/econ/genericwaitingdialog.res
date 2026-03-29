@@ -1,3 +1,5 @@
+#base "../vrcalibration.res"
+#base "../ui3/base/label2.res.res"
 "Resource/UI/GenericWaitingDialog.res"
 {
 	"GenericWaitingDialog"
@@ -17,22 +19,12 @@
 	
 	"TitleLabel"
 	{	
-		"ControlName"	"Label"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"42"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
-		"textAlignment"		"center"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override" "0 0 0 0"
 	}
@@ -79,26 +71,8 @@
 	
 	"CloseButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CloseButton"
 		"xpos"			"50"
 		"ypos"			"70"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"25"
-		//	"0"
-		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"1"
 		"Command"		"user_close"
-		
-		
 	}
 }

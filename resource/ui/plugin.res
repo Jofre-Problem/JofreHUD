@@ -1,4 +1,5 @@
-"Resource/UI/Plugin.res"
+#base "pluginmenu.res"
+"x"
 {
 	"Plugins"
 	{
@@ -11,18 +12,6 @@
 		
 		
 		"title"		"#Frame_Untitled"
-	}
-	"PluginMenu"
-	{
-		"ControlName"		"CPluginMenu"
-		"xpos"		"10"
-		"ypos"		"10"
-		"wide"		"400"
-		"tall"		"330"
-		//		"3"
-		
-		"visible"		"0"
-		
 	}
 	"Rich"
 	{

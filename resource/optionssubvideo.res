@@ -1,3 +1,4 @@
+#base "optionssubvideogammadlg.res"
 "Resource\OptionsSubVideo.res"
 {
 	"GammaButton"
@@ -60,22 +61,9 @@
 	}
 	"VRMode"
 	{
-		"ControlName"		"ComboBox"
+		"ControlName"		"panel"
 		"fieldName"		"VRMode"
-		"xpos"		"36"
-		"ypos"		"196"
-		"wide"		"160"
-		"tall"		"24"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"3"
-		"textHidden"		"0"
-		"editable"		"0"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
+		"visible"		"0"
 	}
 	"AdvancedButton"
 	{
@@ -159,22 +147,7 @@
 	}
 	"Gamma label"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Gamma label"
-		"xpos"		"257"
-		"ypos"		"117"
-		"wide"		"140"
-		"tall"		"24"
-		
-		
 		"visible"		"0"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_Gamma"
-		"textAlignment"		"west"
-		//
-		//
-		//
 	}
 	"Renderer"
 	{
@@ -197,23 +170,7 @@
 	}
 	"Label1"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Label1"
-		"xpos"		"36"
-		"ypos"		"24"
-		"wide"		"160"
-		"tall"		"24"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
 		"labelText"		"#GameUI_Resolution"
-		"textAlignment"		"west"
-		"associate"		"Resolution"
-		//
-		//
-		//
 	}
 	"Label2"
 	{

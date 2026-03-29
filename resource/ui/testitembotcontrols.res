@@ -1,3 +1,4 @@
+#base "vrcalibration.res"
 "Resource/UI/TestItemBotControls.res"
 {
 	"TestItemBotControls"
@@ -176,27 +177,7 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"10"
-		"ypos"			"170"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"25"
-		
-		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"1"
-		"Command"		"cancel"
-		
-		
 	}
 	"OkButton"
 	{
@@ -223,28 +204,5 @@
 		
 	}
 	
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"10"
-		"ypos"			"430"
-		"zpos"			"25"
-		"wide"			"30"
-		"tall"			"15"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"R"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		//
-		
-		"Command"		"reloadscheme"
-		
-		
-	}
+
 }

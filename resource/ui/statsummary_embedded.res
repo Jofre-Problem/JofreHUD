@@ -1,4 +1,4 @@
-//#base "../../../../../cfg/_jp_mm_bg.txt"
+#base "vrcalibration.res"
 "Resource/UI/winpanel.res"
 {
 	"TFStatsSummary"
@@ -1367,21 +1367,12 @@
 	"CloseButton"
 	{
 	"ControlName""Button"
-	"fieldName""CloseButton"
-	"xpos""cs-0.5"
 	"ypos""rs1"
 	"zpos""6000"
 	"wide""f0"
 	"tall""20"
-	////""0"
-	////""2"
-	"visible""1"
-	//"enabled""1"
-	////"0"
 	"labelText""#TF_Close"
 	"textAlignment""center"
-	//"0"
-	//"0"
 	"Command""vguicancel"
 	}		
 
