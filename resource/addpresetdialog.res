@@ -1,47 +1,6 @@
+#base "skillselectiondialog.res"
 "resource/addpresetdialog.res"
 {
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"CancelButton"
-		//"xpos"		"172"
-		//"ypos"		"120"
-		//"wide"		"72"
-		//"tall"		"24"
-		
-		
-		////"visible"		"1"
-		
-		
-		////"labelText"		"#vgui_Cancel"
-		////"textAlignment"		"west"
-		//////"dulltext"		"0"
-		////"brighttext"		"0"
-		//
-		//"Command"		"Cancel"
-		//"Default"		"0"
-	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"OKButton"
-		//"xpos"		"76"
-		//"ypos"		"120"
-		//"wide"		"72"
-		//"tall"		"24"
-		
-		
-		////"visible"		"1"
-		
-		
-		////"labelText"		"#vgui_ok"
-		////"textAlignment"		"west"
-		//////"dulltext"		"0"
-		////"brighttext"		"0"
-		//
-		//"Command"		"OK"
-		//"Default"		"0"
-	}
 	"PresetName"
 	{
 		"ControlName"		"TextEntry"

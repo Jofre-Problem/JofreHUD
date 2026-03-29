@@ -1,3 +1,4 @@
+#base "multiplayeradvanceddialog.res"
 "Resource\MultiplayerCustomizeDi"
 {
 	"MultiplayerCustomizeDialog"
@@ -7,35 +8,6 @@
 		"ypos"		"159"
 		"wide"		"540"
 		"tall"		"358"
-		//		"0"
-		//		"0"
-		//		"0"
-	}
-	"Cancel"
-	{
-		"ControlName"		"Button"
-		"xpos"		"448"
-		"ypos"		"322"
-		"wide"		"64"
-		"tall"		"24"
-		//		"0"
-		//		"3"
-		//		"0"
-		"labelText"		"#GameUI_Cancel"
-		"command"		"Close"
-	}
-	"OK"
-	{
-		"ControlName"		"Button"
-		"xpos"		"378"
-		"ypos"		"322"
-		"wide"		"64"
-		"tall"		"24"
-		//		"0"
-		//		"3"
-		//		"0"
-		"labelText"		"#GameUI_OK"
-		"command"		"Ok"
 	}
 	"Advanced"
 	{
@@ -99,26 +71,11 @@
 	}
 	"High Quality Models"
 	{
-		"ControlName"		"CheckButton"
-		"xpos"		"208"
-		"ypos"		"264"
-		"wide"		"174"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"#GameUI_HighModels"
+		"visible"		"0"
 	}
 	"Player model"
 	{
-		"ControlName"		"CLabeledCommandComboBox"
-		"xpos"		"40"
-		"ypos"		"114"
-		"wide"		"160"
-		"tall"		"58"
-		//		"0"
-		//		"0"
-		//		"0"
+		"visible"		"0"
 	}
 	"SpraypaintList"
 	{
@@ -144,14 +101,7 @@
 	}
 	"ModelImage"
 	{
-		"ControlName"		"Panel"
-		"xpos"		"210"
-		"ypos"		"62"
-		"wide"		"164"
-		"tall"		"200"
-		//		"0"
-		//		"0"
-		//		"0"
+			visible "0"
 	}
 	"LogoImage"
 	{
@@ -160,69 +110,6 @@
 		"ypos"		"108"
 		"wide"		"64"
 		"tall"		"64"
-		//		"0"
-		//		"0"
-		//		"0"
-	}
-	"topHorizLeft"
-	{
-		"ControlName"		"Label"
-		"xpos"		"187"
-		"ypos"		"276"
-		"wide"		"29"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		//		"0"
-		"labelText"		"402"
-	}
-	"topVertLeft"
-	{
-		"ControlName"		"Label"
-		"xpos"		"377"
-		"ypos"		"136"
-		"wide"		"29"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		//		"0"
-		"labelText"		"296"
-	}
-	"bottomHorizRight"
-	{
-		"ControlName"		"Label"
-		"xpos"		"518"
-		"ypos"		"316"
-		"wide"		"29"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		//		"0"
-		"labelText"		"296"
-	}
-	"bottomVertRight"
-	{
-		"ControlName"		"Label"
-		"xpos"		"492"
-		"ypos"		"335"
-		"wide"		"29"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		"visible"		"0"
-		//		"0"
-		"labelText"		"296"
-	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"570"
-		"ypos"		"159"
-		"wide"		"285"
-		"tall"		"465"
 		//		"0"
 		//		"0"
 		//		"0"

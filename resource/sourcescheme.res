@@ -6,12 +6,18 @@
 //#base "../new/resource/cs_windows.res"
 #base "../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
 #base "../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
-
-#base "sourceschemebase.res"
+#base "combinepanelscheme.res"
+//#base "sourceschemebase.res"
+#base "portalstatsdisplayscreen.res"
+#base "portalstatsdisplayscreen2.res"
 Scheme
 {
 	Colors
 	{
+		"SteamLightGreen"	"157 194 80 255"
+		"AchievementsLightGrey"		"79 79 79 255"
+		"AchievementsDarkGrey"		"55 55 55 255"
+		"AchievementsInactiveFG"	"130 130 130 255"	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
@@ -61,21 +67,6 @@ Scheme
 		"AchievementsInactiveFG"	"69 90 100 150" // Descend to Hell brother, there's nothing left for you within this mortal realm.
 	}	
 	BaseSettings	{
-
-		Menu.TextColor			"notodark"
-		Menu.BgColor			"DullWhite"
-		Menu.ArmedTextColor		"143 143 143 255"
-		Menu.ArmedBgColor		"notodark"
-		Menu.TextInset			"6"
-		Menu.Font "Code10"
-
-
-
-
-
-
-
-
 		MainMenu.Backdrop   "Blank"
 // basically the shadow when you open console
  Tooltip.TextColor	"White"
@@ -89,7 +80,6 @@ Button.DepressedTextColor "220 220 220 255"
 		Border.Selection				"blank"
 		FrameTitleBar.BgColor			"Blank"
 		TextEntry.BgColor			"35 35 35 200"
-		Button.BgColor			"blank" 
 		ProgressBar.BgColor				"20 21 23 255"
 		ScrollBarSlider.FgColor								"220 220 220 255"
 		ScrollBarSlider.BgColor								"blank"
@@ -110,35 +100,14 @@ Button.DepressedTextColor "220 220 220 255"
 //		Button.DepressedBgColor			"DullWhite"
 //		Button.FocusBorderColor			"204 135 41 255"
 
-		//C
-		ComboBoxButton.ArrowColor		"White"
-		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
-		CheckButton.TextColor			"White"
-		CheckButton.SelectedTextColor	"White"
-		CheckButton.HighlightFgColor	"White"
-		CheckButton.ArmedBgColor		"Blank"
-		CheckButton.DepressedBgColor	"Blank"
-		CheckButton.Check				"White"
-		CheckButton.DisabledBgColor	    "Blank"
-		CheckButton.BgColor				"Black"
+	
 		CheckButton.Border1  			"cs1"
 		CheckButton.Border2  			"cs1"
 
-		//F
-		Frame.TitleTextInsetX			"12"
-		Frame.TitleTextInsetY			"8"
-		Frame.ClientInsetX				"6"
-		Frame.ClientInsetY				"6"
-		FrameTitleBar.BgColor			"Black"
 		FrameTitleBar.Font				"uibold"
 		FrameTitleBar.TextColor			"Black"
 		FrameTitleBar.DisabledTextColor	"Black"
-		FrameTitleButton.FgColor		"White"
-		FrameTitleButton.BgColor		"Blank"
-		FrameTitleButton.DisabledFgColor	"255 255 255 192"
-		FrameTitleButton.DisabledBgColor	"Blank"
+
 		Frame.FocusTransitionEffectTime	"0.3"
 		Frame.TransitionEffectTime		"0.3"
 	//	Frame.AutoSnapRange				"0"
@@ -146,89 +115,13 @@ Button.DepressedTextColor "220 220 220 255"
 	//	FrameSystemButton.BgColor		"Blank"
 	//	FrameSystemButton.Icon			""
 	//	FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.DisabledBgColor	"Blank"
-		Frame.BgColor					"27 27 27 248"
-		Frame.OutOfFocusBgColor			"27 27 27 170"
-		FrameGrip.Color1				"220 220 220 255"
-		FrameGrip.Color2				"220 220 220 255"
+	//	FrameTitleBar.DisabledBgColor	"Blank"
+	//	Frame.BgColor					"27 27 27 248"
+	//	Frame.OutOfFocusBgColor			"27 27 27 170"
+	//	FrameGrip.Color1				"220 220 220 255"
+	//	FrameGrip.Color2				"220 220 220 255"
 
 
-
-		//L
-		Label.TextBrightColor			"White"
-		Label.SelectedTextColor			"White"
-		Label.BgColor					"Blank"
-		Label.DisabledFgColor2			"Blank"
-		Label.TextDullColor				"131 121 104 255"
-		Label.TextColor					"200 200 200 255"
-		Label.DisabledFgColor1			"117 117 117 255"
-		
-		ListPanel.OutOfFocusSelectedTextColor	"245 245 245 120"
-		ListPanel.EmptyListInfoTextColor	"245 245 245 120"
-		ListPanel.TextColor					"245 245 245 245"
-		ListPanel.TextBgColor				"Blank"
-		ListPanel.SelectedTextColor			"0 0 0 255"
-		ListPanel.SelectedBgColor			"245 245 245 255"
-		ListPanel.BgColor					"Blank"
-
-		ListPanel.SelectedOutOfFocusBgColor	"Black"
-
-		//M
-		MainMenu.TextColor			"40 34 30 255"
-		MainMenu.ArmedTextColor		"White"
-		MainMenu.Inset				"32"
-		Menu.TextColor			"White"
-		Menu.BgColor			"Black"
-		Menu.ArmedTextColor		"Black"
-		Menu.ArmedBgColor		"White"
-		Menu.TextInset			"6"
-
-		//S
-		ScrollBarSlider.FgColor				"Black"
-		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedBgColor	"Blank"
-
-		ScrollBarButton.FgColor				"Black"
-		ScrollBarButton.ArmedFgColor		"193 175 75 255"
-	//	ScrollBarButton.DepressedFgColor	"Black"	
-		ScrollBarSlider.BgColor	"Blank"
-		SectionedListPanel.HeaderTextColor	"220 200 200 255"
-		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"220 220 220 255"
-		SectionedListPanel.BgColor				"Blank"
-		SectionedListPanel.SelectedTextColor	"0 0 0 255"
-		SectionedListPanel.SelectedBgColor		"255 255 255 255"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"255 255 255 255"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"220 220 220 255"
-		SectionedListPanel.TextColor			"Black"
-		SectionedListPanel.BrightTextColor		"White"
-		Slider.TextColor			"244 244 244 255"
-		Slider.DisabledTextColor1	"Blank"
-		Slider.DisabledTextColor2	"Blank"
-		Slider.TrackColor			"blank"
-
-		//P
-		Panel.FgColor					"Red"
-		Panel.BgColor					"Blank"
-		PropertySheet.SelectedTextColor	"White"
-		PropertySheet.TransitionEffectTime	"0.25"
-		PropertySheet.BgColor				"TransparentBlack"
-		PropertySheet.TextColor			"White"
-		PropertySheet.SelectedTextColor	"White"
-		ProgressBar.BgColor				"Black"
-		ProgressBar.FgColor				"White"	
-
-		//R
-		RichText.TextColor				"White"
-		RichText.SelectedTextColor		"White"
-		RichText.SelectedBgColor		"Black"
-		RichText.BgColor				"blank"
-	
-		RadioButton.SelectedTextColor	"White"
-		RadioButton.TextColor			"White"
-
-		//T
 //		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 //		TextEntry.OutOfFocusSelectedtextColor	"245 245 245 60"
 //		TextEntry.FocusEdgeColor	"Black"
@@ -239,24 +132,7 @@ Button.DepressedTextColor "220 220 220 255"
 //		TextEntry.SelectedBgColor		"204 135 41 255"
 //		TextEntry.BgColor				"White"
 //TF		TextEntry.CursorColor		"204 135 41 255"
-		ToggleButton.SelectedTextColor	"White"
-        		TextEntry.TextColor			"White"
-		TextEntry.BgColor			"Black"
-		TextEntry.DisabledTextColor	"White"
-		TextEntry.DisabledBgColor	"Black"
-		TextEntry.SelectedTextColor	"193 175 75 255"
-		TextEntry.SelectedBgColor	"Black"
-		TextEntry.OutOfFocusSelectedBgColor	"Blank"
-		TextEntry.FocusEdgeColor	"Blank"	
-		TextEntry.CursorColor		"220 220 220 255"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"Black"
-		Button.FocusBorderColor			"204 135 41 255"	
-		ProgressBar.BgColor				"Black"
-		ScrollBarButton.FgColor				"White"
-		ScrollBarButton.ArmedFgColor		"Black"
-		ScrollBarButton.DepressedFgColor	"Black"
-		Frame.AutoSnapRange				"0"
+
 		}
 
    		Borders
@@ -318,162 +194,30 @@ Button.DepressedTextColor "220 220 220 255"
 				}
 			}
 		}				
-
-				
-	ScrollBarButtonBorder
+		ScrollBarButtonBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			"color"	"220 220 220 255"
 			"image"					"replay/thumbnails/mm/circle"
-			
 		}
-		
 		ScrollBarButtonDepressedBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
 			"image"					"replay/thumbnails/mm/circle_rgb"
-		}			 	
-		
-		Rice3
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "251 241 199 255"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "251 241 199 255"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color""251 241 199 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "251 241 199 255"
-					"offset" "0 0"
-				}
-			}
-		}				
-		Rice2
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "155 104 186 255"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "155 104 186 255"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "155 104 186 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "155 104 186 255"
-					"offset" "0 0"
-				}
-			}
-		}	
-		Rice1
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "220 220 220 255"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "220 220 220 255"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "220 220 220 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "220 220 220 255"
-					"offset" "0 0"
-				}
-			}
-		}		
+		}
 }	
     Fonts
-	{
-		"hwn60"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"60"
-				"additive"  "0"
-				"antialias"	"1"
-			}
-		}		
+	{	
 		"hwn20"
 		{
 			"1"
 			{
 				"name"		"hwnjofre1"
 				"tall"		"20"
-				"additive"  "0"
+				
 				"antialias"	"1"
 			}
 		}		
@@ -586,17 +330,6 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" "1"
 			}
 		} 		
-
-		"Code10"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"12"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}    
 		"Product38"
 		{
 			"1"
@@ -851,8 +584,8 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 		}		
 	}	
-  Borders
-        {		
+	Borders
+	{		
        noborder
         {
 			"bordertype"			"scalable_image"
@@ -865,7 +598,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"draw_corner_height" 	"0"	
 	
         }					
-	 }	
+	}	
 	CustomFontFiles
 	{    
 		"79"
@@ -1057,25 +790,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"font" "fonts/product_sans_regular.ttf"
 			"name" "product_sans_regular"
-		}		
-
-		"tf22" 
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}	
+		}
 		"hwn"
 		{
 			"font"		"fonts/hwnjofre1.otf"

@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/BxMovieRecordProgress.res"
 {
 	"MovieRecordProgress"
@@ -36,17 +37,5 @@
 		
 		"labelText"		"Time Remaining:    63 seconds"
 	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"75"
-		"ypos"		"65"
-		"wide"		"50"
-		"tall"		"24"
-		
-		
-		
-		"labelText"		"Cancel"
-		"Command"		"cancel"
-	}
+
 }

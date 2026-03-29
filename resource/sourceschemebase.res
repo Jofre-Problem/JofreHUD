@@ -1,23 +1,6 @@
-#base "portalstatsdisplayscreen.res"
-#base "portalstatsdisplayscreen2.res"
+
 Scheme
 {
-	Colors
-	{
-		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"142 142 142 255"
-		"Orange"			"255 155 0 255"
-		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-
-		"Blank"				"0 0 0 0"
-		
-		"SteamLightGreen"	"157 194 80 255"
-		"AchievementsLightGrey"		"79 79 79 255"
-		"AchievementsDarkGrey"		"55 55 55 255"
-		"AchievementsInactiveFG"	"130 130 130 255"
-	}
 	BaseSettings
 	{
 		// vgui_controls color specifications

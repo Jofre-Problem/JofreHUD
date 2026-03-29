@@ -3,74 +3,50 @@
 	"SkillSelection"
 	{
 		"ControlName"		"CSkillSelectionDialog"
-		"xpos"		"388"
-		"ypos"		"200"
-		"wide"		"248"
-		"tall"		"180"
-		
-		
-		
-		"title"		"#GameUI_SelectSkill"
+			visible 0	
 	}
 	"EasyRadio"
 	{
 		"ControlName"		"RadioButton"
-		"xpos"		"52"
-		"ypos"		"42"
-		"wide"		"120"
-		"tall"		"24"
-		
-		
-		//		"1"
-		"labelText"		"#GameUI_Easy"
+		visible 0
 	}
 	"MediumRadio"
 	{
 		"ControlName"		"RadioButton"
-		"xpos"		"52"
-		"ypos"		"68"
-		"wide"		"120"
-		"tall"		"24"
-		
-		
-		//		"1"
-		"labelText"		"#GameUI_Medium"
+		visible 0
 	}
 	"HardRadio"
 	{
 		"ControlName"		"RadioButton"
-		"xpos"		"52"
-		"ypos"		"94"
-		"wide"		"120"
-		"tall"		"24"
-		
-		
-		//		"1"
-		"labelText"		"#GameUI_Hard"
+		visible 0
 	}
 	"CancelButton"
 	{
 		"ControlName"		"Button"
-		"xpos"		"142"
-		"ypos"		"132"
-		"wide"		"80"
+		"wide"		"64"
 		"tall"		"24"
-		
-		
-		//		"3"
 		"labelText"		"#GameUI_Cancel"
 		"Command"		"Close"
+		pin_to_sibling 			"StartButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"				
 	}
+	"OkButton"
+	{
+		"ControlName"		"Button"
+		"wide"		"64"
+		"tall"		"24"
+		pin_to_sibling 			"StartButton"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		"labelText"		"#vgui_ok"
+		"Command"		"Ok"
+	}	
 	"StartButton"
 	{
 		"ControlName"		"Button"
-		"xpos"		"52"
-		"ypos"		"132"
-		"wide"		"80"
+		"wide"		"64"
 		"tall"		"24"
-		
-		
-		//		"2"
 		"labelText"		"#GameUI_Start"
 		"Command"		"Play"
 		"Default"		"1"

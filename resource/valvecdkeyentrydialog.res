@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "Resource/ValveCDKeyEntryDialog.res"
 {
 	"CDKeyEntryDialog"
@@ -22,33 +23,6 @@
 		
 		"visible"		"0"
 		
-	}
-	"OKButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"196"
-		"ypos"		"148"
-		"wide"		"84"
-		"tall"		"24"
-		
-		
-		//		"6"
-		"labelText"		"#GameUI_OK"
-		"command"		"OK"
-		"Default"		"1"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"287"
-		"ypos"		"148"
-		"wide"		"84"
-		"tall"		"24"
-		
-		
-		//		"7"
-		"labelText"		"#GameUI_Quit"
-		"command"		"Cancel"
 	}
 	"Entry1"
 	{

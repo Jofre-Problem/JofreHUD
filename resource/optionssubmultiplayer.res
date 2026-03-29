@@ -1,3 +1,5 @@
+#base "multiplayercustomizedialog.res"
+
 "Resource/OptionsSubMultiplayer.res"
 {
 	"OptionsSubMultiplayer"
@@ -18,81 +20,38 @@
 	}
 	"Cancel"
 	{
-		"ControlName"		"Button"
-		"fieldName"		"Cancel"
-		"xpos"		"810"
-		"ypos"		"603"
-		"wide"		"64"
-		"tall"		"24"
-		
-		//		"3"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_Cancel"
-		"textAlignment"		"west"
-		//
-		//
-		//
-		
-		"textinsetx"		"6"
-		
-		
+		"textinsetx"		"6"	
 		"Command"		"Close"
 		"Default"		"0"
 		"selected"		"0"
 	}
 	"ok"
 	{
-		"ControlName"		"Button"
-		"fieldName"		"OK"
 		"xpos"		"740"
 		"ypos"		"603"
 		"wide"		"64"
 		"tall"		"24"
-		
-		//		"3"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
 		"labelText"		"#GameUI_OK"
 		"textAlignment"		"west"
-		//
-		//
-		//
-		
+
 		"textinsetx"		"6"
 		
 		
 		"Command"		"Ok"
-		"Default"		"0"
-		"selected"		"0"
+
 	}
 	"Apply"
 	{
 		"ControlName"		"Button"
 		"fieldName"		"Apply"
-		"xpos"		"880"
-		"ypos"		"603"
 		"wide"		"64"
 		"tall"		"24"
-		
-		//		"3"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
+		pin_to_sibling 			"Cancel"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
+
 		"labelText"		"#GameUI_Apply"
 		"textAlignment"		"west"
-		//
-		//
-		//
-		
 		"textinsetx"		"6"
 		
 		
@@ -102,32 +61,24 @@
 	}
 	"Advanced"
 	{
-		"ControlName"		"Button"
-		"fieldName"		"Advanced"
+
 		"xpos"		"32"
 		"ypos"		"260"
 		"wide"		"144"
 		"tall"		"24"
 		
-		
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"5"
 		"labelText"		"#GameUI_AdvancedEllipsis"
 		"textAlignment"		"west"
-		//
-		//
-		//
-		
+
 		"textinsetx"		"6"
-		
-		
+			
 		"Command"		"Advanced"
-		"Default"		"0"
-		"selected"		"0"
+
 	}
+	"nameentry"
+	{
+		"visible"		"0"
+	}	
 	"ImportSprayImage"
 	{
 		"ControlName"		"Button"
@@ -158,8 +109,7 @@
 	}
 	"Primary Color Slider"
 	{
-		"ControlName"		"CCvarSlider"
-		"fieldName"		"Primary Color Slider"
+
 		"xpos"		"20"
 		"ypos"		"178"
 		"wide"		"140"
@@ -176,8 +126,7 @@
 	}
 	"Secondary Color Slider"
 	{
-		"ControlName"		"CCvarSlider"
-		"fieldName"		"Secondary Color Slider"
+
 		"xpos"		"20"
 		"ypos"		"213"
 		"wide"		"140"
@@ -192,58 +141,8 @@
 		"leftText"		" "
 		"rightText"		" "
 	}
-	"High Quality Models"
-	{
-		"ControlName"		"CCvarToggleCheckButton"
-		"fieldName"		"High Quality Models"
-		"xpos"		"190"
-		"ypos"		"249"
-		"wide"		"174"
-		"tall"		"24"
-		
-		
-		
-		
-		"visible"		"0"
-		"enabled"		"1"
-		//		"5"
-		"labelText"		"#GameUI_HighModels"
-		"textAlignment"		"west"
-		//
-		//
-		//
-		
-		"textinsetx"		"6"
-		
-		
-		"Default"		"0"
-		"selected"		"0"
-	}
-	"Player model"
-	{
-		"ControlName"		"CLabeledCommandComboBox"
-		"fieldName"		"Player model"
-		"xpos"		"40"
-		"ypos"		"112"
-		"wide"		"140"
-		"tall"		"24"
-		
-		
-		
-		
-		"visible"		"0"
-		"enabled"		"1"
-		//		"2"
-		"textHidden"		"0"
-		"editable"		"0"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"0"
-		"unicode"		"0"
-	}
 	"SpraypaintList"
 	{
-		"ControlName"		"CLabeledCommandComboBox"
-		"fieldName"		"SpraypaintList"
 		"xpos"		"106"
 		"ypos"		"158"
 		"wide"		"124"
@@ -261,26 +160,8 @@
 		"NumericInputOnly"		"0"
 		"unicode"		"0"
 	}
-	"ModelImage"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"ModelImage"
-		"xpos"		"176"
-		"ypos"		"36"
-		"wide"		"164"
-		"tall"		"200"
-		
-		
-		
-		
-		"visible"		"0"
-		"enabled"		"1"
-		
-	}
 	"LogoImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"LogoImage"
 		"xpos"		"2"
 		"ypos"		"160"
 		"wide"		"100"
@@ -293,7 +174,6 @@
 		"enabled"		"1"
 		
 		"image"		"logos/UI/spray"
-		"border"		"DepressedBorder"
 		"scaleImage"		"1"
 		"scaleAmount"		"0.000000"
 		"tileImage"		"0"

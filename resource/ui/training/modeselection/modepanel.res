@@ -102,8 +102,6 @@
 		
 		"fgcolor"			"NotoMenu"
 		"fgcolor_override"	"NotoMenu"
-
-		"paintborder"		"NoBorder"
 		
 		"paintbackground"	"0"
 		

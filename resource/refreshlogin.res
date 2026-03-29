@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "Resource/RefreshLogin.res"
 {
 	"RefreshSteamLogin"
@@ -93,32 +94,7 @@
 	}
 	"OKButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"62"
-		"ypos"		"193"
-		"wide"		"100"
-		"tall"		"24"
-		
-		
-		//		"4"
-		"labelText"		"#GameUI_RefreshLogin_Login"
-		"textAlignment"		"center"
 		"Command"		"Login"
-		"Default"		"1"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"192"
-		"ypos"		"193"
-		"wide"		"100"
-		"tall"		"24"
-		
-		
-		//		"5"
-		"labelText"		"#GameUI_RefreshLogin_Cancel"
-		"textAlignment"		"center"
-		"Command"		"Close"
 	}
 }
  

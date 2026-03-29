@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/setsoundnamedialog.res"
 {
 	"SetSoundNameDialog"
@@ -12,30 +13,9 @@
 		
 		"title"		"Set Sound Name"
 	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"88"
-		"ypos"		"170"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		//		"6"
-		"labelText"		"#vgui_ok"
-		"Command"		"Ok"
-	}
+
 	"CancelButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"279"
-		"ypos"		"170"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		//		"7"
-		"labelText"		"#vgui_Cancel"
 		"Command"		"Cancel"
 	}
 	"SoundDirectoryLabel"

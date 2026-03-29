@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/SFM_AnimationSetCreateFrame.res"
 {
 	"AnimationSetCreateDialog"
@@ -48,32 +49,6 @@
 		
 		
 		"maxchars"		"-1"
-	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"45"
-		"ypos"		"124"
-		"wide"		"64"
-		"tall"		"24"
-		
-		//		"2"
-		
-		"labelText"		"#vgui_ok"
-		"Command"		"Ok"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"177"
-		"ypos"		"124"
-		"wide"		"64"
-		"tall"		"24"
-		
-		//		"2"
-		
-		"labelText"		"#vgui_Cancel"
-		"Command"		"Cancel"
 	}
 	"Label1"
 	{

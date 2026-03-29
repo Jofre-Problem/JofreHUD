@@ -4745,48 +4745,7 @@ Scheme
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
-		}	
-
-		Rice1
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "White"
-					"offset" "0 0"
-				}
-			}
-		}	
-
+		}
 		l4d2new2
 		{
 			"bordertype"			"scalable_image"

@@ -63,5 +63,9 @@
 			}
 		}
     }
+	CustomFontFiles
+	{
+		"10"		"resource/marlett.ttf"
+	}
 }
 }

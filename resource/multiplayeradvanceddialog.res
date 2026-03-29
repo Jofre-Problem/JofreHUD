@@ -14,15 +14,13 @@
 	"Cancel"
 	{
 		"ControlName"		"Button"
-		"xpos"		"396"
-		"ypos"		"338"
 		"wide"		"64"
 		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"2"
 		"labelText"		"#GameUI_Cancel"
 		"command"		"Close"
+		pin_to_sibling 			"OK"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"				
 	}
 	"OK"
 	{
@@ -49,15 +47,5 @@
 		//		"0"
 		//		"0"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"xpos"		"532"
-		"ypos"		"108"
-		"wide"		"285"
-		"tall"		"640"
-		//		"0"
-		//		"0"
-		//		"0"
-	}
+
 }

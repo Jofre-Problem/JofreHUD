@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/soundrecordpanel.res"
 {
 	"SoundRecordPanel"
@@ -15,48 +16,6 @@
 		
 		"settitlebarvisible"		"1"
 		"title"		"#Frame_Untitled"
-	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"OkButton"
-		//"xpos"		"6"
-		//"ypos"		"255"
-		//"wide"		"122"
-		//"tall"		"24"
-		
-		//"pinCorner"		"2"
-		////"visible"		"1"
-		
-		//"tabPosition"		"2"
-		////"labelText"		"Ok"
-		//"textAlignment"		"center"
-		//////"dulltext"		"0"
-		////"brighttext"		"0"
-		//
-		//"Command"		"Ok"
-		//"Default"		"0"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"fieldName"		"CancelButton"
-		//"xpos"		"140"
-		//"ypos"		"255"
-		//"wide"		"122"
-		//"tall"		"24"
-		
-		//"pinCorner"		"2"
-		////"visible"		"1"
-		
-		//"tabPosition"		"3"
-		////"labelText"		"#FileOpenDialog_Cancel"
-		//"textAlignment"		"center"
-		//////"dulltext"		"0"
-		////"brighttext"		"0"
-		//
-		//"Command"		"Cancel"
-		//"Default"		"0"
 	}
 	"PlayButton"
 	{

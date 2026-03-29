@@ -668,7 +668,6 @@
 				//"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"bgcolor_override" "64 64 64 255"
-				"border"		"Rice1"
 				"proportionaltoparent"	"1"
 			}
 

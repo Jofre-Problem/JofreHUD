@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/SFM_AnimationSetModelPickerFrame.res"
 {
 	"AnimationSetModelPickerFrame"
@@ -50,33 +51,4 @@
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"6"
-		"ypos"		"290"
-		"wide"		"64"
-		"tall"		"24"
-		
-		//		"2"
-		//"PinnedCornerOffsetY" "-6"
-		
-		"labelText"		"#VGui_OK"
-		"Command"		"Ok"
-		"Default"		"1"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"76"
-		"ypos"		"290"
-		"wide"		"64"
-		"tall"		"24"
-		
-		//		"2"
-		//"PinnedCornerOffsetY" "-6"
-		
-		"labelText"		"#VGui_Cancel"
-		"Command"		"Cancel"
-	}	
 }

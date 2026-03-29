@@ -1,3 +1,4 @@
+#base "skillselectiondialog.res"
 "resource/setclipnamedialog.res"
 {
 	"SetClipNameDialog"
@@ -11,33 +12,6 @@
 		
 		
 		"title"		"Set Clip Name"
-	}
-	"OkButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"88"
-		"ypos"		"140"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		//		"6"
-		"labelText"		"#vgui_ok"
-		"Command"		"Ok"
-		"Default"		"1"
-	}
-	"CancelButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"279"
-		"ypos"		"140"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		//		"7"
-		"labelText"		"#vgui_Cancel"
-		"Command"		"Cancel"
 	}
 	"ClipNameLabel"
 	{
