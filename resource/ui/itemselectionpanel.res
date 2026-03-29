@@ -57,7 +57,7 @@
 						ControlName cexlabel
 						fieldName namelabel
 						 "proportionaltoparent"    "1"
-						border "G_TargetBorder"
+						border "TrainingResultsBG"
 						bgcolor_override "Blank"
 					}
 					"paint_icon"

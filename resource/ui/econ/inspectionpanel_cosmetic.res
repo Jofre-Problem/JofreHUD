@@ -270,7 +270,7 @@
 			//
 			"bgcolor_override"	"10 10 10 255"
 			"skip_autoresize"	"1"
-			////"		"0"
+			
 			
 			"ScrollableChild"
 			{
@@ -285,7 +285,7 @@
 				//
 				"bgcolor_override"	"blank"
 				"skip_autoresize"	"1"
-				////"		"0"
+				
 				
 				//
 				// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file
@@ -882,7 +882,7 @@
 		"zpos"				"2"
 		"wide"				"19"
 		"tall"				"40"
-		////"		"0"
+		
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -898,7 +898,7 @@
 		{
 			"wide"				"19"
 			"tall"				"19"
-			////"		"0"
+			
 			//			"2"
 			"visible"			"1"
 			"enabled"			"1"

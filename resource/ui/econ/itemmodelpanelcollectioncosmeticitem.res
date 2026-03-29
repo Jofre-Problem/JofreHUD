@@ -45,7 +45,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor" "30 30 30 255"
-			border G_targetborder
+			border TrainingResultsBG
 		}
 	}
 	

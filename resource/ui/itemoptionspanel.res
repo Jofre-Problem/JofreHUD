@@ -8,7 +8,7 @@
 		"ypos"		"0"
 		"wide"		"f-19"
 		"tall"		"f0"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -26,7 +26,7 @@
 			"wide"		"140"
 			"tall"		"20"
 			"font" "ItemFontAttribLarge"
-			////"		"0"
+			
 			
 			//
 			"pin_corner_to_sibling"		"0"
@@ -38,7 +38,7 @@
 			"textAlignment"		"west"
 			//
 			
-			//"wrap"		"0"
+			//
 			
 			"textinsetx"		"6"
 			
@@ -56,7 +56,7 @@
 			"ypos"			"0"
 			"wide"		"140"
 			"tall"		"16"
-			////"		"0"
+			
 			//
 			"visible"		"0"
 			"enabled"		"1"

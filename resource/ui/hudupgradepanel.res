@@ -61,7 +61,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		"zpos"		"-1"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"

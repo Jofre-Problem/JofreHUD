@@ -12,7 +12,7 @@
 		"settitlebarvisible"	""
 		"paintborder"			"1"
 		"paintbackground"		"1"
-		"border"				"G_TargetBorder"
+		"border"				"TrainingResultsBG"
 		"bgcolor_override"		"17 17 17 255"
 		"control_w"			"500"
 		"control_h"			"25"
@@ -120,7 +120,7 @@
 		"ypos"		"40"
 		"wide"		"480"
 		"tall"		"380"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"

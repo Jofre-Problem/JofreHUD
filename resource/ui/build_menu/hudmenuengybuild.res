@@ -1,17 +1,15 @@
+#base "../ui3/base/label2.res"
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
 		"font"			"ItemFontNameLarge"
 		"xpos"			"cs-0.5-5"
 		"ypos"			"15"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
 		"textAlignment"	"center"
 		"fgcolor"		"Blue"
@@ -19,21 +17,9 @@
 
 	"TitleLabelDropshadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"panel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"ItemFontNameLarge"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"center"
-		"fgcolor"		"Shadow"
-
-		"pin_to_sibling"		"TitleLabel"
+		"visible"		"0"
 	}
 
 	"active_item_1"

@@ -139,14 +139,6 @@ Scheme
 				"tall"		"14"
 			}
 		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"verdana"
-				"tall"		"16"
-			}
-		}
 
 		"UiBold"
 		{

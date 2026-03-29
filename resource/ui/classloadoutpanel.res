@@ -1273,7 +1273,7 @@
 				zpos -25 
 				bgcolor_override "0 0 0 100"
 				mouseinputenabled 0
-				border "G_TargetBorder"
+				border "TrainingResultsBG"
 				}				
 				"maincontentscontainer"
 				{

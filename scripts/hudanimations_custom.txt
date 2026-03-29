@@ -14,7 +14,10 @@ event HealthAmmoAnimateEnd
 	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
 	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
 }
-
+event IntroMovieContinueBlinkStop
+{
+	FireCommand 0.0    "skip"
+}
 
 
 // low ammo

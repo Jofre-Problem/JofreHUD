@@ -49,7 +49,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"GammaEntry"
 	{
@@ -87,7 +87,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"1"
 	}
 	"ImagePanel1"
@@ -124,7 +124,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 	}

@@ -31,7 +31,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"ChangeKey"
 		"Default"		"0"
 	}
@@ -52,7 +52,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"ClearKey"
 		"Default"		"0"
 	}
@@ -73,7 +73,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Defaults"
 		"Default"		"0"
 	}
@@ -94,7 +94,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Advanced"
 		"Default"		"1"
 	}

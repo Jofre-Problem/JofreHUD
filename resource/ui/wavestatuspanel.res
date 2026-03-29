@@ -3,7 +3,6 @@
 {
 	"Background"
 	{
-		"visible"		"0"
 		"image"			"replay/thumbnails/panels/blank"
 	}
 

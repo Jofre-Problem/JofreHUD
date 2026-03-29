@@ -142,8 +142,8 @@
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
-		////"		"0"
-		////"		"0"
+		
+		
 		"visible"			"1"
 		"enabled"			"1"
 		"proportionaltoparent"	"1"
@@ -159,7 +159,7 @@
 		{
 			"wide"				"19"
 			"tall"				"19"
-			////"		"0"
+			
 			//"			"2"
 			"visible"			"1"
 			"enabled"			"1"
@@ -272,8 +272,8 @@
 			"zpos"			"1005"
 			"wide"			"8"
 			"tall"			"8"
-			//////"		"0"
-			////"		"0"
+			//
+			
 			"visible"		"0"
 			//"enabled"		"1"
 			////"	"0"
@@ -325,8 +325,8 @@
 			"zpos"				"100"
 			"wide"				"150"
 			"tall"				"15"
-			////"		"0"
-			////"		"0"
+			
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"textHidden"		"0"
@@ -363,8 +363,8 @@
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"0"
-			//////"		"0"
-			////"		"0"
+			//
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
@@ -390,8 +390,8 @@
 			"zpos"				"100"
 			"wide"				"150"
 			"tall"				"15"
-			////"		"0"
-			////"		"0"
+			
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"textHidden"		"0"
@@ -433,8 +433,8 @@
 			}
 			"wide"			"80"
 			"tall"			"15"
-			//////"		"0"
-			////"		"0"
+			//
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
@@ -497,8 +497,8 @@
 			}
 			"wide"			"204"
 			"tall"			"13"
-			//////"		"0"
-			////"		"0"
+			//
+			
 			"visible"		"1"
 			//"enabled"		"1"
 			"fgcolor_override"	"235 227 203 255"
@@ -531,7 +531,7 @@
 			"zpos"			"10"
 			"wide"			"20"
 			"tall"			"20"
-			//////"		"0"
+			//
 			"visible"		"1"
 			//"enabled"		"1"
 			////"	"0"
@@ -594,7 +594,7 @@
 			"zpos"			"10"
 			"wide"			"110"
 			"tall"			"20"
-			//////"		"0"
+			//
 			"visible"		"1"
 			//"enabled"		"1"
 			////"	"0"

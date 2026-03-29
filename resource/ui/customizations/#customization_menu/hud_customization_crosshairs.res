@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // VISIBILITY ------------------------------------------------------------------------------------------------------------
 				"Crosshair_Visibility"
@@ -133,7 +133,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -374,7 +374,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3679,7 +3679,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4172,7 +4172,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Edge_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4502,7 +4502,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Pulse_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4728,7 +4728,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"TF2_Cross_Visibility"
 				{
@@ -4775,7 +4775,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4902,7 +4902,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Colors_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5112,7 +5112,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5552,7 +5552,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5644,7 +5644,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // HITMARKER VISIBILITY --------------------------------------------------------------------------------------------------
 				"Hitmarker_Visibility"
@@ -5692,7 +5692,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5929,7 +5929,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6792,7 +6792,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7300,7 +7300,7 @@
 						"ProportionalToParent"				"1"
 						"paintBackground"					"1"
 						"paintBackgroundtype"				"3"
-						"BGcolor_Override"					"Background_Bright"
+						"BGcolor_Override"					"Button_Bright"
 					}
 					"SubTitle_1"
 					{
@@ -7334,7 +7334,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"Explanation_1"
 					{
@@ -7444,7 +7444,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"DownloadButton_1"
 					{

@@ -70,7 +70,7 @@
 		"tall"			"220"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/warning_highlight"
+		"image"			"../sprites/obj_icons/warnin156 53 51 255"
 		"scaleImage"	"1"
 		"time"			"0.3"		
 	}

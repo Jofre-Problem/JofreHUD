@@ -9,7 +9,7 @@
 		"ypos"		"0"
 		"wide"		"600"
 		"tall"		"292"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -35,7 +35,7 @@
 		"ypos"		"32"
 		"wide"		"180"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -44,7 +44,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 
 	"PublishedFileList"
@@ -55,7 +55,7 @@
 		"ypos"		"56"
 		"wide"		"300"
 		"tall"		"180"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -63,7 +63,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	
 	"LabelPublishedFileTitle"
@@ -74,7 +74,7 @@
 		"ypos"		"32"
 		"wide"		"180"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,7 +83,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 
 	"LabelPublishedFileTitleValue"
@@ -94,7 +94,7 @@
 		"ypos"		"56"
 		"wide"		"250"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -102,7 +102,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"labelText"		""
 		// "editable"		"0"
 		// "maxchars"		"128"
@@ -116,7 +116,7 @@
 		"ypos"		"100"
 		"wide"		"180"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -136,7 +136,7 @@
 		"ypos"		"124"
 		"wide"		"250"
 		"tall"		"112"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -158,7 +158,7 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -167,7 +167,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"AddFile"
 		"Default"		"0"
 	}
@@ -180,7 +180,7 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -189,7 +189,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"DeleteFile"
 		"Default"		"0"
 	}
@@ -202,7 +202,7 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -211,7 +211,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"EditFile"
 		"Default"		"0"
 	}
@@ -224,7 +224,7 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -233,7 +233,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Refresh"
 		"Default"		"0"
 	}
@@ -246,7 +246,7 @@
 		"ypos"		"244"
 		"wide"		"64"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -255,7 +255,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 	}

@@ -8,7 +8,7 @@
 		"ypos"		"0"
 		"wide"		"125"
 		"tall"		"200"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -50,7 +50,7 @@
 		"ypos"		"155"
 		"wide"		"125"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -59,7 +59,7 @@
 		"textAlignment"		"north-west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallest"
 		"fgcolor_override" "86 78 68 255"
 		"mouseinputenabled" "0"

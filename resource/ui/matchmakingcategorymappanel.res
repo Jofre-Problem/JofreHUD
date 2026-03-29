@@ -65,7 +65,7 @@
 
 		"fgcolor_override"							"White"
 		"bgcolor_override"							"0 0 0 255"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	}
 
 	"BG"

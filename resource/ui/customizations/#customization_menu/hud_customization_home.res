@@ -72,7 +72,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Warning_Icon"
 				{
@@ -125,7 +125,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Restart_Icon"
 				{
@@ -178,7 +178,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Support_Icon"
 				{
@@ -231,7 +231,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Links_Desc"
 				{

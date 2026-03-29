@@ -12,7 +12,7 @@
 		"wide"			"75"
 		"tall"			"150"
 		
-		////"		"0"
+		
 		"visible"		"1"
 		"enabled"		"1"
 		

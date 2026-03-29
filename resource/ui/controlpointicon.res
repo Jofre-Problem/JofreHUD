@@ -11,7 +11,7 @@
 		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
-		border g_targetborder
+		border TrainingResultsBG
 	}
 
 	"Countdown"

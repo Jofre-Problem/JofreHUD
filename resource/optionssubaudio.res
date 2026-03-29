@@ -139,7 +139,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -166,7 +166,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -194,7 +194,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -219,7 +219,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -245,7 +245,7 @@
 		"associate"		"SFXSlider"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -271,7 +271,7 @@
 		"associate"		"MusicSlider"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -297,7 +297,7 @@
 		"associate"		"SoundQuality"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -323,7 +323,7 @@
 		"associate"		"SpeakerSetup"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -374,7 +374,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -403,7 +403,7 @@
 		"associate"		"CloseCaptionCheck"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		

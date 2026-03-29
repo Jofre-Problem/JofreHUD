@@ -51,7 +51,7 @@
 		"ypos"		"325"
 		"wide"		"150"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -60,7 +60,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
@@ -74,7 +74,7 @@
 		"ypos"		"325"
 		"wide"		"150"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,7 +83,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Done"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"

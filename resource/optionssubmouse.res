@@ -20,7 +20,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -48,7 +48,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -76,7 +76,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -105,7 +105,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -132,7 +132,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -159,7 +159,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -186,7 +186,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -213,7 +213,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -341,7 +341,7 @@
 		"associate"		"Slider"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -386,7 +386,7 @@
 		"associate"		"Slider"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -455,7 +455,7 @@
 		"associate"		"Slider"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		
@@ -481,7 +481,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		
 		

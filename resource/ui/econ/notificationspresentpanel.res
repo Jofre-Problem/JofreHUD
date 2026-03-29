@@ -11,7 +11,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"CustomCyanBorderThick"
+		"border"		"WhiteHighlightBorder"
 		"bgcolor_override"	"notodark"
 	}
 			"image"

@@ -52,7 +52,7 @@
 		"fieldName"				"Time_hour10"
 		"xpos"					"80"
 		"ypos"					"0"
-	"drawcolor"				"G_MenuText"
+	"drawcolor"				"Tanlight"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"zpos"					"6000"

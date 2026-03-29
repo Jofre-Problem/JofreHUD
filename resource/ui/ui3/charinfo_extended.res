@@ -91,7 +91,7 @@
 					"icon1"
 					{
 					"ControlName"	"cexlabel"
-					"font" "hwn18"
+					"font" "QuestLargeText"
 					"labelText" "ʌ"
 					"fieldName"		"icon1"
 					"xpos"			"4"
@@ -106,7 +106,7 @@
 					"fgcolor_override"	"13 110 253 255"
 					proportionaltoparent 1
 					textinsety 2
-					border "cs1"
+					border "FriendHighlightBorder"
 					}	
 					"bg1"
 					{

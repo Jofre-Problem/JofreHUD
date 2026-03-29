@@ -38,7 +38,7 @@
 		//		"1"
 		//
 		"font"		"DefaultSmall"
-		//"wrap"		"0"
+		//
 	}
 	"Label2"
 	{
@@ -58,7 +58,7 @@
 		//		"1"
 		//
 		"font"		"DefaultSmall"
-		//"wrap"		"0"
+		//
 	}
 	"Button2"
 	{
@@ -77,7 +77,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"1"
 	}

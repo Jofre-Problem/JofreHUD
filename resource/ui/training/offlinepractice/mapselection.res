@@ -133,7 +133,7 @@
 		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"NotoBlack"
 	}
 	
@@ -153,7 +153,7 @@
 		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"NotoBlack"
 		"bgcolor_override"	"NotoWhite"
 		"border"		"NoBorder"
@@ -211,7 +211,7 @@
 		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"NotoBlack"
 	}
 	
@@ -259,7 +259,7 @@
 		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"NotoBlack"
 	}
 	
@@ -271,7 +271,7 @@
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
-		"wrap"			"0"
+		
 		"xpos"			"200"
 		"ypos"			"162"
 		"zpos"			"50"
@@ -302,7 +302,7 @@
 		//"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"fgcolor_override"	"NotoBlack"
 	}
 }

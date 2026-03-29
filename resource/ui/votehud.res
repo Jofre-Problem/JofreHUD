@@ -217,7 +217,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 			"paintborder"	"1"
-			"border"		"CustomCyanBorderThick"
+			"border"		"WhiteHighlightBorder"
 
 		}
 		
@@ -271,7 +271,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"1"
 			"paintborder"	"1"
-			"border"		"CustomCyanBorderThick"
+			"border"		"WhiteHighlightBorder"
 		}
 		
 		"Option2CountLabel"
@@ -324,7 +324,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 			"paintborder"	"1"
-			"border"		"CustomCyanBorderThick"
+			"border"		"WhiteHighlightBorder"
 		}
 		
 		"LabelOption4"
@@ -358,7 +358,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 			"paintborder"	"1"
-			"border"		"CustomCyanBorderThick"
+			"border"		"WhiteHighlightBorder"
 		}
 		
 		"LabelOption5"
@@ -392,7 +392,7 @@
 			"fillcolor"		"88 119 140 180"
 			"visible"		"0"
 			"paintborder"	"1"
-			"border"		"CustomCyanBorderThick"
+			"border"		"WhiteHighlightBorder"
 		}
 		
 		// divider
@@ -456,7 +456,7 @@
 		"ypos"				"c-150"
 		"wide"				"420"
 		"tall"				"310"
-		////"		"0"
+		
 		////"			"0"
 		"visible"			"1"
 		"enabled"			"1"
@@ -479,7 +479,7 @@
 			"zpos"		"2"
 			"wide"		"160"
 			"tall"		"200"
-			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"
@@ -496,7 +496,7 @@
 			"zpos"		"2"
 			"wide"		"255"
 			"tall"		"200"
-			////"		"0"
+			
 			"visible"		"1"
 			"enabled"		"1"
 			//	"0"

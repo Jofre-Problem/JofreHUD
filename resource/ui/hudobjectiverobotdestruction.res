@@ -1,49 +1,6 @@
+#base "vsh_hud.res"
 "Resource/UI/HudObjectiveFlagPanel.res"
-{	
-	"ObjectiveStatusRobotDestruction"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusRobotDestruction"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
-
-		"left_steal_edge_offset"	"97"
-		"right_steal_edge_offset"	"97"
-		"robot_x_offset"		"78"
-		"robot_y_offset"		"47"
-		"robot_x_step"			"23"
-		"robot_y_step"			"0"
-		
-
-		"color_blue"			"84 111 127 255"
-		"color_red"				"171 59 59 255"
-
-		"if_hybrid"
-		{
-			"zpos"			"-1"
-		}
-
-		"robot_kv"
-		{
-			"ControlName"	"CTFHudRobotDestruction_RobotIndicator"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"bgcolor_override"		"blank"
-			//
-			"paintborder"	"0"
-			// "0"
-			"skip_autoresize" "1"
-		}
-	}	
-	
+{
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -80,35 +37,10 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"
-		"ypos"			"r31"	
-		"zpos"			"3"
-		"wide"			"150"	
-		"tall"			"38"	
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/objectives_flagpanel_bg_playingto"
-		//	"../hud/objectives_flagpanel_bg_playingto_hidef"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
+		"visible"		"0"
 	}
-
 	"CarriedContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -185,40 +117,14 @@
 
 		"FlagValueShadow"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"FlagValueShadow"
-			"xpos"			"c-49"
-			"ypos"			"24"
-			"zpos"			"11"
-			"wide"			"100"
-			"tall"			"35"
-			//"tall_lodef"	"100"
-			//"tall_lodef"	"75"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"	
-			"labelText"		"%flagvalue%"
-			"font"			"HudFontMediumBold"
-			//"font_hidef"	"HudFontGiant"
-			//"font_hidef"	"HudFontGiant"
-			"fgcolor"		"Black"	
-			"proportionalToParent"	"1"	
+		"ControlName"	"Panel"
+		"fieldName"		"FlagValueShadow"
+		"visible"		"0"
 		}
 	}
 
 	"ScoreContainer"
 	{
-		"fieldName"				"ScoreContainer"
-		"ControlName"			"EditablePanel"
-		"xpos"					"c-200"
-		"ypos"					"r131"
-		"zpos"					"0"
-		"wide"					"400"
-		"tall"					"120"
-		"scaleimage"			"0"
-		"visible"				"1"
-		"enabled"				"1"
-
 		"ProgressBarContainer"
 		{
 			"fieldName"				"ProgressBarContainer"
@@ -281,20 +187,9 @@
 
 				"VictoryLabelShadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"95"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+		"ControlName"	"Panel"
+		"fieldName"		"VictoryLabelShadow"
+		"visible"		"0"
 				}
 
 				"VictoryLabelTime"
@@ -321,24 +216,9 @@
 
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"55"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+		"ControlName"	"Panel"
+		"fieldName"		"VictoryLabelTimeShadow"
+		"visible"		"0"
 				}
 			}
 
@@ -425,20 +305,9 @@
 
 				"VictoryLabelShadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"141"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"90"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"#TF_RD_RedFinale"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
+		"ControlName"	"Panel"
+		"fieldName"		"VictoryLabelShadow"
+		"visible"		"0"
 				}
 
 				"VictoryLabelTime"
@@ -465,24 +334,9 @@
 
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
-					"ypos"			"1"
-					"zpos"			"7"
-					"wide"			"55"
-					"tall"			"35"
-					"visible"		"1"
-					"enabled"		"1"
-					"textAlignment"	"west"	
-					"labelText"		"%victorytime%"
-					"font"			"HudFontSmallBold"
-					"fgcolor"		"Black"		
-					"proportionalToParent"	"1"
-
-					"pin_to_sibling"               "VictoryLabel"
-					"pin_corner_to_sibling"        "7"          
-					"pin_to_sibling_corner"        "5"  
+		"ControlName"	"Panel"
+		"fieldName"		"VictoryLabelTimeShadow"
+		"visible"		"0"
 				}
 			}
 
@@ -539,111 +393,21 @@
 
 		"BlueScoreValueContainer"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
-			"zpos"				"10"
-			"wide"				"60"
-			"tall"				"60"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"		"blank"
-			"proportionalToParent"	"1"
-
-			"Score"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-20"
-				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"west"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				//"font_hidef"	"HudFontGiant"
-				//"font_hidef"	"HudFontGiant"
-				"fgcolor"		"TanLight"		
-				"proportionalToParent"	"1"
-			}	
-		
 			"ScoreShadow"
 			{
-				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"west"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				//"font_hidef"	"HudFontGiant"
-				//"font_hidef"	"HudFontGiant"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"ControlName"	"panel"
+				"visible"		"0"
 			}
 		}
 
 		"RedScoreValueContainer"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
-			"zpos"				"10"
-			"wide"				"60"
-			"tall"				"60"
-			"visible"			"1"
-			"enabled"			"1"
-			"bgcolor_override"		"blank"
-			"proportionalToParent"	"1"
-
-			"Score"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-20"
-				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"east"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				//"font_hidef"	"HudFontGiant"
-				//"font_hidef"	"HudFontGiant"
-				"fgcolor"		"TanLight"	
-				"proportionalToParent"	"1"	
-			}	
-		
 			"ScoreShadow"
-			{
-				"ControlName"	"CExLabel"
+			{		
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-19"
-				"zpos"			"7"
-				"wide"			"55"
-				"tall"			"35"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"east"	
-				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				//"font_hidef"	"HudFontGiant"
-				//"font_hidef"	"HudFontGiant"
-				"fgcolor"		"Black"		
-				"proportionalToParent"	"1"
+				"ControlName"	"panel"
+				"visible"		"0"
 			}
 		}
 
@@ -730,20 +494,9 @@
 
 			"IntelValueShadow"
 			{
-				"ControlName"	"CExLabel"
 				"fieldName"		"IntelValueShadow"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"11"
-				"wide"			"f0"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"	
-				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
-				"fgcolor"		"Black"
-				"proportionalToParent"	"1"
+				"ControlName"	"panel"
+				"visible"		"0"
 			}
 		}
 
@@ -830,20 +583,9 @@
 
 			"IntelValueShadow"
 			{
-				"ControlName"	"CExLabel"
 				"fieldName"		"IntelValueShadow"
-				"xpos"			"1"
-				"ypos"			"1"
-				"zpos"			"11"
-				"wide"			"f0"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"textAlignment"	"center"	
-				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
-				"fgcolor"		"Black"	
-				"proportionalToParent"	"1"
+				"ControlName"	"panel"
+				"visible"		"0"
 			}
 		}
 	}

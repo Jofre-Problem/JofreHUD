@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Settings"
 				{
@@ -626,7 +626,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"Demo_Recording_ON"
 					{
@@ -717,7 +717,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					// 16x9 -------------------------------------------------------------
 					"16x9"
@@ -759,7 +759,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Bright"
+							"BGColor_Override"			"Button_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -847,7 +847,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Bright"
+							"BGColor_Override"			"Button_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -935,7 +935,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Bright"
+							"BGColor_Override"			"Button_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -1023,7 +1023,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Bright"
+							"BGColor_Override"			"Button_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -1104,7 +1104,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"Streamer_Mode_Explanation"
 					{

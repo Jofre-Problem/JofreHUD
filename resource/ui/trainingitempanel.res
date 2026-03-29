@@ -1,3 +1,5 @@
+#base "hudpasstimeoffscreenarrow.res"
+#base "../gamelogo.res"
 "Resource/TrainingClassPanel.res"
 {
 	"TrainingItemPanel"
@@ -8,41 +10,11 @@
 		"ypos"		"0"
 		"wide"		"620"
 		"tall"		"195"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
 		
-	}
-	"Background"
-	{
-		"ControlName"			"Panel"
-		//				"2"
-		//"			"1"
-		"fieldName"				"background"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"0"
-		"wide"					"620"
-		"tall"					"195"
-		"visible"				"1"
-		"enabled"				"1"
-		//
-	}
-	"Image"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Image"
-		"xpos"			"0"
-		"ypos"			"-64"
-		"wide"			"128"
-		"tall"			"256"
-		////"		"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"scaleImage"		"1"
 	}
 	"Name"
 	{
@@ -52,7 +24,7 @@
 		"ypos"		"2"
 		"wide"		"620"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,7 +33,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"Description"
 	{
@@ -71,7 +43,7 @@
 		"ypos"		"35"
 		"wide"		"620"
 		"tall"		"100"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -80,7 +52,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"CompletedLabel"
 	{
@@ -90,7 +62,7 @@
 		"ypos"		"160"
 		"wide"		"620"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,7 +71,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"CenterPrintText"
 		"fgcolor_override"	"0 160 0 255"
 	}
@@ -111,7 +83,7 @@
 		"ypos"		"160"
 		"wide"		"620"
 		"tall"		"24"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -120,7 +92,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"CenterPrintText"
 		"fgcolor_override"	"192 28 0 255"
 	}

@@ -241,6 +241,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultBgColor_override"	"notogreensolid"
 	}
 }

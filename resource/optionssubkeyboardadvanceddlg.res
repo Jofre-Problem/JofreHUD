@@ -17,7 +17,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 	}
 	"ConsoleCheck"
@@ -37,7 +37,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 	}
 	"Button1"
@@ -57,7 +57,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"OK"
 		"Default"		"1"
 	}
@@ -78,7 +78,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 	}

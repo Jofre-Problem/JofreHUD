@@ -89,7 +89,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // SCOREBOARD STYLES -------------------------------------------------------------------------------------------------------
 				"Scoreboard_Styles"
@@ -137,7 +137,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -353,7 +353,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -533,7 +533,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -758,7 +758,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // TRANSPARENT VIEWMODELS ----------------------------------------------------------------------------------------
 				"Transparent_Viewmodels"
@@ -806,7 +806,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1023,7 +1023,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1386,7 +1386,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // SPEEDOMETER STYLE ----------------------------------------------------------------------------------------
 				"Speedometer_Style"
@@ -1721,7 +1721,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // DISGUISE TOGGLE ----------------------------------------------------------------------------------------
 				"Disguise_Toggle"
@@ -1769,7 +1769,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2004,7 +2004,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

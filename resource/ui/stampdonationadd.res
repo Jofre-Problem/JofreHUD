@@ -83,7 +83,7 @@
 		"ypos"			"20"
 		"wide"			"150"
 		"tall"			"150"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -99,7 +99,7 @@
 		"ypos"			"95"
 		"wide"			"140"
 		"tall"			"140"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"

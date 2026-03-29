@@ -35,7 +35,7 @@
 		"textAlignment"		"west"
 		////	"0"
 		////		"0"
-		//"wrap"		"0"
+		//
 		"URLText"		"#VAC_ConnectionIssuesSupportURL"
 
 	}

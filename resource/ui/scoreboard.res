@@ -15,7 +15,7 @@
 			zpos					100
 			wide					32
 			tall					31
-			border g_targetborder
+			border TrainingResultsBG
 		if_mvm
 		{
 			"visible"		"0"
@@ -178,7 +178,7 @@
 		"zpos"			"99"
 		"wide"			"f0"
 		"tall"			"20"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -240,7 +240,7 @@
 		"zpos"			"1059"
 		"wide"			"22"
 		"tall"			"20"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -282,7 +282,7 @@
 		"zpos"			"101"
 		"wide"			"22"
 		"tall"			"20"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -331,7 +331,7 @@
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"			"480"
-		//////"		"0"
+		//
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -493,7 +493,7 @@
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"43"
-		//////"		"0"
+		//
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -635,7 +635,7 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -697,7 +697,7 @@
 	//	////	"240"
 		"tall"			"200"
 	//	////"200"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -865,7 +865,7 @@ if_mvm
 		"zpos"			"3"
 		"wide"			"140"
 		"tall"			"20"
-		//////"		"0"
+		//
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -885,7 +885,7 @@ if_mvm
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
-		//////"		"0"
+		//
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -907,7 +907,7 @@ if_mvm
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
-			//////"		"0"
+			//
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -936,7 +936,7 @@ if_mvm
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			//////"		"0"
+			//
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -979,7 +979,7 @@ if_mvm
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//////"		"0"
+				//
 				
 				"visible"		"1"
 				"enabled"		"1"
@@ -999,7 +999,7 @@ if_mvm
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
-				//////"		"0"
+				//
 				
 				"visible"		"1"
 				"enabled"		"1"
@@ -1015,7 +1015,7 @@ if_mvm
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"53"
-			//////"		"0"
+			//
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -1058,7 +1058,7 @@ if_mvm
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//////"		"0"
+				//
 				
 				"visible"		"1"
 				"enabled"		"1"
@@ -1078,7 +1078,7 @@ if_mvm
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
-				//////"		"0"
+				//
 				
 				"visible"		"1"
 				"enabled"		"1"
@@ -1261,7 +1261,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1279,7 +1279,7 @@ if_mvm
 		"variable"		"kills"
 		"fg_image"		"replay/thumbnails/scoreboard/kills"
 		"bg_image"		"replay/thumbnails/scoreboard/kills2"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1298,7 +1298,7 @@ if_mvm
 		"variable"		"assits"
 		"fg_image"		"replay/thumbnails/scoreboard/assits"
 		"bg_image"		"replay/thumbnails/scoreboard/assits_c"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1317,7 +1317,7 @@ if_mvm
 		"variable"		"captures"
 		"fg_image"		"replay/thumbnails/scoreboard/captures"
 		"bg_image"		"replay/thumbnails/scoreboard/captures_c"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1336,7 +1336,7 @@ if_mvm
 		"variable"		"dominations"
 		"fg_image"		"replay/thumbnails/scoreboard/dominations"
 		"bg_image"		"replay/thumbnails/scoreboard/dominations_c"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1356,7 +1356,7 @@ if_mvm
 		"variable"		"deaths"
 		"fg_image"		"replay/thumbnails/scoreboard/death"
 		"bg_image"		"replay/thumbnails/scoreboard/death_c"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1375,7 +1375,7 @@ if_mvm
 		"variable"		"destruction"
 		"fg_image"		"replay/thumbnails/scoreboard/builds_c"
 		"bg_image"		"replay/thumbnails/scoreboard/builds" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}		
@@ -1394,7 +1394,7 @@ if_mvm
 		"variable"		"defenses"
 		"fg_image"		"replay/thumbnails/scoreboard/defense"
 		"bg_image"		"replay/thumbnails/scoreboard/defense_c" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}		
@@ -1413,7 +1413,7 @@ if_mvm
 		"variable"		"revenge"
 		"fg_image"		"replay/thumbnails/scoreboard/revenge"
 		"bg_image"		"replay/thumbnails/scoreboard/revenge_c" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}		
@@ -1431,7 +1431,7 @@ if_mvm
 		"variable"		"headshots"
 		"fg_image"		"replay/thumbnails/scoreboard/headshot"
 		"bg_image"		"replay/thumbnails/scoreboard/headshot_c" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1449,7 +1449,7 @@ if_mvm
 		"variable"		"invulns"
 		"fg_image"		"replay/thumbnails/scoreboard/uber"
 		"bg_image"		"replay/thumbnails/scoreboard/uber_c" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}	
@@ -1467,7 +1467,7 @@ if_mvm
 		"variable"		"teleports"
 		"fg_image"		"replay/thumbnails/scoreboard/teleport"
 		"bg_image"		"replay/thumbnails/scoreboard/teleport_c" // whatever,  c stands for chroma
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 	if_mvm{		"visible"		"0"}
 
 	}			
@@ -1483,7 +1483,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1505,7 +1505,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1525,7 +1525,7 @@ if_mvm
 			"zpos"				"0"
 			"wide"				"0"
 			"tall"				"0"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1542,7 +1542,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1564,7 +1564,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1584,7 +1584,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"585"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1604,7 +1604,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1621,7 +1621,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1642,7 +1642,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1665,7 +1665,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1687,7 +1687,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1709,7 +1709,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1732,7 +1732,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1754,7 +1754,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1776,7 +1776,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1800,7 +1800,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1823,7 +1823,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1846,7 +1846,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1869,7 +1869,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"55"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1891,7 +1891,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1914,7 +1914,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1937,7 +1937,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1960,7 +1960,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -1983,7 +1983,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2006,7 +2006,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2028,7 +2028,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2049,7 +2049,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2071,7 +2071,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2092,7 +2092,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2157,7 +2157,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2178,7 +2178,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2201,7 +2201,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2223,7 +2223,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2244,7 +2244,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2267,7 +2267,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2289,7 +2289,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2310,7 +2310,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2333,7 +2333,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2354,7 +2354,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2375,7 +2375,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2398,7 +2398,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2419,7 +2419,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2440,7 +2440,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2462,7 +2462,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"70"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -2484,7 +2484,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			//////"		"0"
+			//
 			
 			"visible"			"0"
 			"enabled"			"0"
@@ -2497,7 +2497,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Damage2"
-			"font"				"NotoExtraBold34"
+			"font"				"ItemFontAttribLarger"
 			"labelText"			"%damage%"
 			"textAlignment"		"center"
 			"xpos"				"0"

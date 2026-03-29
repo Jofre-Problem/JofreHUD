@@ -686,17 +686,7 @@ Button.DepressedTextColor "220 220 220 255"
 				"wide"		"0"
 				"antialias" 	"1"
 			}
-		}  			
-		"hwn18"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"18"
-				"wide"		"0"
-				"antialias" 	"1"
-			}
-		}  			
+		}
 		"hwn16"
 		{
 			"1"

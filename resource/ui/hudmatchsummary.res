@@ -503,7 +503,7 @@
 					"enabled"						"1"
 					"PaintBackgroundType"			"0"
 					"PaintBackground"				"1"
-					"bgcolor_override"				"FooterBGBlack"
+					"bgcolor_override"				"HudTimerProgressInActive"
 					"PaintBorder"					"1"
 					"border"						"TFFatLineBorderClearBG"
 
@@ -802,7 +802,7 @@
 					"enabled"						"1"
 					"PaintBackgroundType"			"0"
 					"PaintBackground"				"1"
-					"bgcolor_override"				"FooterBGBlack"
+					"bgcolor_override"				"HudTimerProgressInActive"
 					"PaintBorder"					"1"
 					"border"						"TFFatLineBorderClearBG"
 

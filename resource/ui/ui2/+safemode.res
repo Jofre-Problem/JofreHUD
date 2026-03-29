@@ -40,7 +40,7 @@
 			"PaintBackground"							"1"
 			"paintBackgroundtype"						"0"
 			"RoundedCorners"							"0"
-			"BGColor_Override"							"Background_Bright"
+			"BGColor_Override"							"Button_Bright"
 		}
 		"CloseButton"
 		{

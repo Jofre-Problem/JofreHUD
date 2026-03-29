@@ -29,7 +29,7 @@
 		"paintbackground"	"1"
 		"Alpha"				"255"
 		"bgcolor_override"	"40 40 40 255"
-		border G_targetborder
+		border TrainingResultsBG
 	}
 	"Gradient"
 	{

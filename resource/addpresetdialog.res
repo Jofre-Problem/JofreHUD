@@ -17,7 +17,7 @@
 		////"textAlignment"		"west"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"Cancel"
 		//"Default"		"0"
 	}
@@ -38,7 +38,7 @@
 		////"textAlignment"		"west"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"OK"
 		//"Default"		"0"
 	}
@@ -97,7 +97,7 @@
 		//"textAlignment"		"east"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 	}
 	"PresetGroupLabel"
 	{
@@ -116,6 +116,6 @@
 		//"textAlignment"		"east"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 	}
 }

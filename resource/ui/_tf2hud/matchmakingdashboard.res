@@ -471,7 +471,7 @@
 			
 
 		//	"armedBgColor_override"		"CreditsGreen"
-		//	"defaultBgColor_override"	"GreenSolid"
+		//	"defaultBgColor_override"	"notogreensolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
@@ -510,7 +510,7 @@
 			
 
 			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
+			"defaultBgColor_override"	"notogreensolid"
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"

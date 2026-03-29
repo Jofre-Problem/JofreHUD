@@ -91,7 +91,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // KILLSTREAK STYLE ----------------------------------------------------------------------------------------
 				"Killstreak_Style"
@@ -139,7 +139,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"Killstreak_Disabled"
 					{
@@ -452,7 +452,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 					}
 					"Notice_Disabled"
 					{

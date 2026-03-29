@@ -306,7 +306,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class1%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -375,7 +375,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class2%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -444,7 +444,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class3%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -513,7 +513,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class4%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -582,7 +582,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class5%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -651,7 +651,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class6%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -720,7 +720,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class7%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -789,7 +789,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class8%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"
@@ -858,7 +858,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"hwn18"
+			"font"			"QuestLargeText"
 			"labelText"		"%class9%"
 			"textAlignment"		"center"
 			"xpos"			"c-86"

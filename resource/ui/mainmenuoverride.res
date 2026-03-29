@@ -8,6 +8,8 @@
 	#base "ui3/polybar_1_mm.res"
 	#base "ui3/polyconfig1_mm.res"
 	#base "ui3/mainmenuoverride_base.res"
+
+    #base "../gamelogo.res"
 "j"
 {	
 "Safemode"
@@ -213,7 +215,6 @@
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"-200"
@@ -894,11 +895,6 @@
 	{
 		visible					0					
 	}
-
-	"RequestCoachButton"
-	{
-		"visible"			"0"
-	}	
 
 	"ReportPlayerButton"
 	{

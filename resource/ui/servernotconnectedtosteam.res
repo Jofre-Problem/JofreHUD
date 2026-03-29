@@ -23,7 +23,7 @@
 		"zpos"			"1"
 		"wide"			"320"
 		"tall"			"15"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -42,7 +42,7 @@
 		"zpos"			"1"
 		"wide"			"290"
 		"tall"			"55"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"

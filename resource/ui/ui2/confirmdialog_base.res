@@ -13,7 +13,7 @@
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
-		"border"		"g_targetborder"
+		"border"		"TrainingResultsBG"
 		"bgcolor_override"		"Blank"
 	}
 		"Windows_Notification"
@@ -27,7 +27,7 @@
 			"tall"		"118+p0.02"
 			//
 			"paintbackground"		"1"
-			"border"		"g_targetborder"		 	
+			"border"		"TrainingResultsBG"		 	
 			"bgcolor_override"				"27 27 27 255"
 		}	
 	"TitleLabel"

@@ -684,7 +684,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		"OuterShadowBorder"
 			}
 
 			"BGPanel"
@@ -857,7 +857,7 @@
 						{	
 						"ControlName"		"cexLabel"
 						"fieldName"		"Circle3"
-						"font"			"hwn18"
+						"font"			"QuestLargeText"
 			"xpos"			"0"
 			"ypos"			"0"
 						"zpos"			"71"

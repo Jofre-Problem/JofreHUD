@@ -12,7 +12,7 @@
 		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"north"
 		"proportionaltoparent"		"1"
@@ -35,7 +35,7 @@
 		"maxchars"		"5"
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
-		"wrap"			"0"
+		
 		"fgcolor_override"		"notowhite"
 		"bgcolor_override"	"notodark"
 		"labelText"		"%teamname%"
@@ -55,7 +55,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"wrap"			"0"
+		
 		"labelText"		"#Tournament_TeamNamePanel"
 		"textAlignment"		"east"
 		"auto_wide_tocontents"		"1"

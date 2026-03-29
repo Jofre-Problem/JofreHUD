@@ -33,7 +33,7 @@
 		//"textAlignment"		"center"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"Ok"
 		//"Default"		"0"
 	}
@@ -54,7 +54,7 @@
 		//"textAlignment"		"center"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"Cancel"
 		//"Default"		"0"
 	}
@@ -75,7 +75,7 @@
 		//"textAlignment"		"center"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"Play"
 		//"Default"		"0"
 	}
@@ -96,7 +96,7 @@
 		//"textAlignment"		"center"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 		//"Command"		"ToggleRecord"
 		//"Default"		"0"
 	}
@@ -117,7 +117,7 @@
 		////"textAlignment"		"west"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 	}
 	"filename"
 	{
@@ -156,7 +156,7 @@
 		//"textAlignment"		"east"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 	}
 	"RecordTime"
 	{
@@ -194,7 +194,7 @@
 		////"textAlignment"		"west"
 		//////"dulltext"		"0"
 		////"brighttext"		"0"
-		//"wrap"		"0"
+		//
 	}
 	"Divider1"
 	{

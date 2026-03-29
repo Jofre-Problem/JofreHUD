@@ -66,7 +66,7 @@
 				"labelText"							"%page%"
 				"font"								"HudFontSmallestBold"
 				"sound_depressed"					"UI/buttonclick.wav" 
-				"border"	"CustomCyanBorderThick"
+				"border"	"WhiteHighlightBorder"
 			}
 
 			"New"

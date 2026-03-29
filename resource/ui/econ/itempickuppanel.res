@@ -9,7 +9,7 @@
 		"zpos"			"10000"
 		"wide"			"f0"
 		"tall"			"480"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -574,7 +574,7 @@
 		"ypos"				"380"
 		"wide"				"200"
 		"tall"				"16"
-		////"		"0"
+		
 		//			"0"
 		"visible"			"0"
 		"enabled"			"0"

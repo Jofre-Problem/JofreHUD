@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"General_Styles"
 				{
@@ -393,7 +393,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Health_Options"
 				{
@@ -1019,7 +1019,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Health_Warning"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1274,7 +1274,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Health_Fullscreen_Warning"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1503,7 +1503,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Health_Gain"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1810,7 +1810,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 				"Target_Options"
 				{
@@ -1861,7 +1861,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Target_CVARS"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1957,7 +1957,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Separator_5"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2100,7 +2100,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Separator_6"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

@@ -38,7 +38,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}
@@ -65,7 +65,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}

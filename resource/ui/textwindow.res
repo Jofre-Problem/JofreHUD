@@ -216,7 +216,7 @@
 		"enabled"		"1"
 		"labelText"		"#CContinue"
 		"textAlignment"		"center"
-		"wrap"		"0"
+		
 		"command"		"okay"
 		"default"		"1"
 		"border_default"		""

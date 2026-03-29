@@ -527,7 +527,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"30 30 30 255"
-		border "G_TargetBorder"
+		border "TrainingResultsBG"
 		//
 		
 		"model_ypos"		"10"

@@ -106,7 +106,7 @@
 			"zpos"		"50"
 			"wide"		"p0.987"
 			"tall"		"1"
-			////"		"0"
+			
 			
 			"visible"		"0"
 			"enabled"		"1"
@@ -218,7 +218,7 @@
 		"zpos"		"50"
 		"wide"		"p0.95"
 		"tall"		"30"
-		////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"1"
@@ -289,7 +289,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			////"		"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -369,7 +369,7 @@
 			"zpos"			"2"
 			"wide"			"100"
 			"tall"			"15"
-			////"		"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"

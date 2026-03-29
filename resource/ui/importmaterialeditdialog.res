@@ -56,7 +56,7 @@
 		"ypos"		"c-218"
 		"wide"		"55"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -65,7 +65,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"EditSkin0"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
@@ -81,7 +81,7 @@
 		"ypos"		"c-218"
 		"wide"		"55"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"0"
 		"enabled"		"0"
@@ -90,7 +90,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"EditSkin1"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
@@ -170,7 +170,7 @@
 		"ypos"		"60"
 		"wide"		"190"
 		"tall"		"15"
-		////"		"0"
+		
 		
 		"labelText"			"#TF_PublishFile_NoFileSelected"
 		"font"		"ImportToolSmallest"
@@ -270,7 +270,7 @@
 		"ypos"		"77"
 		"wide"		"190"
 		"tall"		"15"
-		////"		"0"
+		
 		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
@@ -301,7 +301,7 @@
 		"ypos"				"90"
 		"wide"				"175"
 		"tall"				"12"
-		////"		"0"
+		
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -434,7 +434,7 @@
 		"ypos"		"125"
 		"wide"		"190"
 		"tall"		"15"
-		////"		"0"
+		
 		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
@@ -464,7 +464,7 @@
 		"ypos"		"145"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -502,7 +502,7 @@
 		"ypos"		"160"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -540,7 +540,7 @@
 		"ypos"		"175"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -578,7 +578,7 @@
 		"ypos"		"190"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -724,7 +724,7 @@
 		"ypos"		"265"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -763,7 +763,7 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -787,7 +787,7 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -811,7 +811,7 @@
 		"ypos"		"280"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -956,7 +956,7 @@
 		"ypos"				"315"
 		"wide"				"175"
 		"tall"				"12"
-		////"		"0"
+		
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -986,7 +986,7 @@
 		"ypos"				"330"
 		"wide"				"175"
 		"tall"				"12"
-		////"		"0"
+		
 		//			"0"
 		"editable"			"0"
 		"visible"			"1"
@@ -1016,7 +1016,7 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1040,7 +1040,7 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1064,7 +1064,7 @@
 		"ypos"		"345"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1207,7 +1207,7 @@
 		"ypos"		"380"
 		"wide"		"190"
 		"tall"		"15"
-		////"		"0"
+		
 		
 		"labelText"			"#TF_PublishFile_Optional"
 		"font"		"ImportToolSmallest"
@@ -1238,7 +1238,7 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1262,7 +1262,7 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1286,7 +1286,7 @@
 		"ypos"		"400"
 		"wide"		"35"
 		"tall"		"12"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"0"
@@ -1310,7 +1310,7 @@
 		"ypos"		"420"
 		"wide"		"175"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -1319,7 +1319,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Done"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
@@ -1333,7 +1333,7 @@
 		"ypos"		"420"
 		"wide"		"175"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -1342,7 +1342,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"

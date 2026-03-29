@@ -163,7 +163,7 @@
 					"zpos"		"99"
 					"wide"		"f0"
 					"tall"		"30"
-					////"		"0"
+					
 					
 					
 					"labelText"			"%title%"
@@ -835,7 +835,7 @@
 				"zpos"		"-5"
 				"wide"		"f0"
 				"tall"		"f0"
-				////"		"0"
+				
 				
 				
 				"proportionaltoparent"	"1"
@@ -867,7 +867,7 @@
 				"zpos"		"100"
 				"wide"		"f0"
 				"tall"		"f0"
-				////"		"0"
+				
 				
 				
 				"proportionaltoparent"	"1"

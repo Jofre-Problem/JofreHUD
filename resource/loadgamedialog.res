@@ -47,7 +47,7 @@
 		"textAlignment"		"west"
 		////		"0"
 		////		"0"
-		//"wrap"		"0"
+		//
 		"Command"		"loadsave"
 		"Default"		"1"
 	}
@@ -68,7 +68,7 @@
 		"textAlignment"		"west"
 		////		"0"
 		////		"0"
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 	}
@@ -89,7 +89,7 @@
 		"textAlignment"		"west"
 		////		"0"
 		////		"0"
-		//"wrap"		"0"
+		//
 		"Command"		"Delete"
 		"Default"		"0"
 	}

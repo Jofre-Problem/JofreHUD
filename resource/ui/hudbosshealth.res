@@ -54,7 +54,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"1"
-		"border"		"G_TargetBorder"		
+		"border"		"TrainingResultsBG"		
 	}
 	
 	"HealthBarPanel"

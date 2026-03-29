@@ -88,7 +88,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // MATCH STATUS CVARS -------------------------------------------------------------------------------------
 				"Match_Status_CVARS"
@@ -136,7 +136,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Match_Status_Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -353,7 +353,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Match_Status_Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -909,7 +909,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // TIMER BG ----------------------------------------------------------------------------------------------
 				"Timer_BG_Style"
@@ -957,7 +957,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Timer_BG_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1174,7 +1174,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Round_Counter_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1415,7 +1415,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Background_Bright"
+					"BGcolor_Override"					"Button_Bright"
 				}
 // CAPTURE POINTS ----------------------------------------------------------------------------------------------
 				"Capture_Progress"
@@ -1463,7 +1463,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Background_Bright"
+						"BGcolor_Override"				"Button_Bright"
 
 						"Pin_To_Sibling"				"Capture_Progress_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

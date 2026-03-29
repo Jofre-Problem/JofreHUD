@@ -68,7 +68,7 @@
 		"textAlignment"			"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
-		border g_targetborder
+		border TrainingResultsBG
 	}
 	"ItemEffectMeterbgnew"
 	{
@@ -85,7 +85,7 @@
 		"textAlignment"			"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"blank"
-		border g_targetborder
+		border TrainingResultsBG
 	}	
 	"ChargeColor_25"
 	{

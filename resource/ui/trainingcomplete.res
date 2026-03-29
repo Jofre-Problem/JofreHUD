@@ -34,7 +34,7 @@
 			"textAlignment"		"center"
 			//
 			//
-			//"wrap"		"0"
+			//
 			"command"		"next"
 			"font"			"MenuSmallFont"
 			
@@ -63,7 +63,7 @@
 			"textAlignment"		"center"
 			//
 			//
-			//"wrap"		"0"
+			//
 			"command"		"quit"
 			"font"			"MenuSmallFont"
 			
@@ -181,7 +181,7 @@
 			"zpos"			"1"
 			"wide"			"400"
 			"tall"			"20"
-			////"		"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"

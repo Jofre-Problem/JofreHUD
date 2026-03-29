@@ -17,7 +17,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 		//"SubTabPosition"		"1"
 	}
@@ -38,7 +38,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 		//"SubTabPosition"		"2"
 	}
@@ -59,7 +59,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 		//"SubTabPosition"		"3"
 	}
@@ -80,7 +80,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"Label2"
 	{

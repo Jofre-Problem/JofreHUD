@@ -14,9 +14,9 @@
 		"enabled"		"1"
 		//	"0"
 		"settitlebarvisible"	"0"
-		"border" "G_TargetBorder"
+		"border" "TrainingResultsBG"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"G_Brown"
+		"bgcolor_override"	"HealthBgGrey"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
@@ -57,7 +57,7 @@
 		{
 			"wide"			"325"
 			"tall"			"40"
-			"bgcolor_override"		"G_Brown"
+			"bgcolor_override"		"HealthBgGrey"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"text_forcesize" "2"
@@ -127,7 +127,7 @@
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"24"
-		fgcolor_override "G_Brown"
+		fgcolor_override "HealthBgGrey"
 		
 		"visible"		"1"
 		"enabled"		"1"

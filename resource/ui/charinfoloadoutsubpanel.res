@@ -6638,7 +6638,7 @@
 		"zpos"				"1"
 		"wide"				"40"
 		"tall"				"48"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ʨ"
 		font					"itemfontnamelarger"
@@ -6663,7 +6663,7 @@
 		"zpos"				"0"
 		"wide"				"40"
 		"tall"				"48"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ƾ"
 		font					"itemfontnamelarger"
@@ -6686,7 +6686,7 @@
 	{
 		"ControlName"		"cexButton"
 		"fieldName"			"ArmoryButton"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"Ȩ"
 		font					"itemfontnamelarger"
@@ -6716,7 +6716,7 @@
 		"fieldName"			"PaintkitsButton"
 
 		"Command"			"paintkit_preview"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ĸ"
 		font					"itemfontnamelarger"
@@ -6777,7 +6777,7 @@
 		"ypos"							"0"
 		"wide"							"72"
 		"tall"							"100"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"Đ"
 		font					"HudFontMediumSmall"
@@ -6805,7 +6805,7 @@
 		ypos					0
 		"wide"							"72"
 		"tall"							"100"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 			defaultFgColor_override		"Tanlight"
 		armedFgColor_override		"notogreensolid"
@@ -6833,7 +6833,7 @@
 		ypos					0
 		"wide"							"72"
 		"tall"							"100"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
@@ -6876,7 +6876,7 @@
 		
 		sound_depressed			"sound_menu/button.wav"
 		sound_released				"vo/demoman_go01.mp3"
-				"border_default"				"cs1"
+				"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"	
 
 		
@@ -6907,7 +6907,7 @@
 		
 		sound_depressed			"sound_menu/button.wav"
 		//sound_released			"vo/heavy_go01.mp3"
-					"border_default"				"cs1"
+					"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 
 
@@ -6935,7 +6935,7 @@
 		sound_depressed			"sound_menu/button.wav"
 		//sound_released			"vo/engineer_go01.mp3"
 		
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		paintbackground 			0
 
@@ -6952,7 +6952,7 @@
 		ypos					0
 		"wide"							"72"
 		"tall"							"100"
-				"border_default"				"cs1"
+				"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
@@ -6987,7 +6987,7 @@
 				
 			defaultFgColor_override		"Tanlight"
 		armedFgColor_override		"notogreensolid"
-			"border_default"				"cs1"
+			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ė"
 		font					"HudFontMediumSmall"
@@ -7014,7 +7014,7 @@
 		ypos					0
 		"wide"							"72"
 		"tall"							"100"
-				"border_default"				"cs1"
+				"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"

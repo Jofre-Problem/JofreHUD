@@ -17,7 +17,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 	}
 	"Resolution"
@@ -94,7 +94,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 	}
 	"BenchmarkButton"
@@ -114,7 +114,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 	}
 	"ThirdPartyVideoCredits"
@@ -134,7 +134,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Default"		"0"
 		"selected"		"0"
 	}
@@ -174,7 +174,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"Renderer"
 	{
@@ -213,7 +213,7 @@
 		"associate"		"Resolution"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"Label2"
 	{
@@ -232,7 +232,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"Label4"
 	{
@@ -252,7 +252,7 @@
 		"associate"		"DisplayModeCombo"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"AspectRatioLabel"
 	{
@@ -272,7 +272,7 @@
 		"associate"		"AspectRatio"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 	"HDContentButton"
 	{
@@ -293,7 +293,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		
 		"textinsetx"		"6"
 		
@@ -319,6 +319,6 @@
 		"associate"		"VRMode"
 		//
 		//
-		//"wrap"		"0"
+		//
 	}
 }

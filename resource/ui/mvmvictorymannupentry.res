@@ -153,7 +153,7 @@
 			"ypos"		"50"
 			"wide"		"427"
 			"tall"		"225"
-			////"		"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"

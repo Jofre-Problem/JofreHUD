@@ -48,7 +48,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"		"1"
-		"wrap"		"0"
+		
 		"labelText"		"%name%"
 		"labelText_minmode"	"Friend"
 		"proportionaltoparent"		"1"
@@ -68,7 +68,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"		"1"
-		"wrap"		"0"
+		
 		"labelText"		"%status%"
 		"proportionaltoparent"		"1"
 		"font"		"InstructionalText"

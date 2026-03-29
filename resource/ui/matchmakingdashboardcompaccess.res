@@ -46,7 +46,7 @@
 			actionsignallevel 2
 			"armedBgColor_override"	"Blank"
 			"defaultBgColor_override"	"Blank"
-			"defaultfgColor_override" "G_Highlight"
+			"defaultfgColor_override" "156 53 51 255"
 			"armedFgColor_override"	"Orange"
 		}	
 	}
@@ -68,7 +68,7 @@
 			actionsignallevel 1
 			"armedBgColor_override"	"Blank"
 			"defaultBgColor_override"	"Blank"
-			"defaultfgColor_override" "G_Highlight"
+			"defaultfgColor_override" "156 53 51 255"
 			"armedFgColor_override"	"Orange"
 		}		
 }

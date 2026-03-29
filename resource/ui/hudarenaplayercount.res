@@ -104,7 +104,7 @@
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			//////"		"0"
+			//
 			
 			"visible"		"1"
 			"enabled"		"1"

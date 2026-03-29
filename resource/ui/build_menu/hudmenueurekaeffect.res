@@ -1,3 +1,4 @@
+#base "../ui3/base/label2.res"
 "Resource/UI/build_menu/HudMenuEurekaEffect.res"
 {
 	"TitleLabel"
@@ -19,21 +20,9 @@
 
 	"TitleLabelDropshadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"panel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"ItemFontNameLarge"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Teleport_Title"
-		"textAlignment"	"center"
-		"fgcolor"		"Shadow"
-
-		"pin_to_sibling"		"TitleLabel"
+		"visible"		"0"
 	}
 
 	"available_target_1"

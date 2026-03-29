@@ -9,7 +9,7 @@
 		"ypos"		"c-200"
 		"wide"		"600"
 		"tall"		"400"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -49,7 +49,7 @@
 		"ypos"		"355"
 		"wide"		"600"
 		"tall"		"45"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -65,7 +65,7 @@
 		"ypos"		"15"
 		"wide"		"250"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -74,7 +74,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontMediumBold"
 	}
 
@@ -86,7 +86,7 @@
 		"ypos"		"45"
 		"wide"		"250"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -95,7 +95,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallBold"
 	}
 
@@ -108,7 +108,7 @@
 		"zpos"		"-99"
 		"wide"		"150"
 		"tall"		"150"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -123,7 +123,7 @@
 			"ypos"		"0"
 			"wide"		"140"
 			"tall"		"120"
-			////"		"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"
@@ -156,7 +156,7 @@
 		"ypos"		"225"
 		"wide"		"150"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -165,7 +165,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"PreviewBrowse"
 		"Default"		"1"
 		"font"		"HudFontSmallBold"
@@ -179,7 +179,7 @@
 		"ypos"		"45"
 		"wide"		"250"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -188,7 +188,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallBold"
 	}
 
@@ -200,7 +200,7 @@
 		"ypos"		"70"
 		"wide"		"250"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -224,7 +224,7 @@
 		"ypos"		"95"
 		"wide"		"275"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -233,7 +233,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallBold"
 	}
 	"FileDesc"
@@ -244,7 +244,7 @@
 		"ypos"		"120"
 		"wide"		"250"
 		"tall"		"125"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -268,7 +268,7 @@
 		"ypos"		"250"
 		"wide"		"250"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -277,7 +277,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallBold"
 	}
 	
@@ -289,7 +289,7 @@
 		"ypos"		"250"
 		"wide"		"275"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -311,7 +311,7 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -320,7 +320,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"MainFileCosmetics"
 		"Default"		"1"
 		"font"		"HudFontSmallBold"
@@ -347,7 +347,7 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -356,7 +356,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"MainFileOther"
 		"Default"		"1"
 		"font"		"HudFontSmallBold"
@@ -370,7 +370,7 @@
 		"ypos"		"275"
 		"wide"		"140"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -379,7 +379,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"MainFileMaps"
 		"Default"		"1"
 		"font"		"HudFontSmallBold"
@@ -406,7 +406,7 @@
 		"ypos"		"300"
 		"wide"		"270"
 		"tall"		"55"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -428,7 +428,7 @@
 		"ypos"		"45"
 		"wide"		"100"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -437,7 +437,7 @@
 		"textAlignment"		"west"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"font"		"HudFontSmallBold"
 	}
 
@@ -1325,7 +1325,7 @@
 		"ypos"		"365"
 		"wide"		"150"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -1334,7 +1334,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Close"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
@@ -1348,7 +1348,7 @@
 		"ypos"		"365"
 		"wide"		"150"
 		"tall"		"25"
-		////"		"0"
+		
 		
 		"visible"		"1"
 		"enabled"		"1"
@@ -1357,7 +1357,7 @@
 		"textAlignment"		"center"
 		//
 		//
-		//"wrap"		"0"
+		//
 		"Command"		"Publish"
 		"Default"		"1"
 		"font"		"HudFontSmallBold"

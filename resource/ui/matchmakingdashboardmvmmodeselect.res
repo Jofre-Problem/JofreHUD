@@ -291,7 +291,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayOnCommunityServerExplanation"
 		"font"										"HudFontMediumSmallSecondary"
-		"fgcolor"									"GrayBlueLight"
+		"fgcolor"									"Gray"
 		"labelText"									"#TF_MvM_PracticeExplaination"
 		"textAlignment"								"center"
 		"xpos"										"0"

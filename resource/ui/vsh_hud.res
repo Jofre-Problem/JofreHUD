@@ -1,4 +1,4 @@
-"Resource/UI/VSH_Hud.res"
+"Resource/UI/VSH_Hud.res" 
 {
 	"ObjectiveStatusRobotDestruction"
 	{

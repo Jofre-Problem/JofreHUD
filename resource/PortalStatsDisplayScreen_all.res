@@ -59,7 +59,7 @@
 				"name"		"Marlett"
 				"tall"		"14"
 				"symbol"	"1"
-				//		"0x0000 0x007F"	//	Basic Latin
+				"range"	"0x0000 0x007F" // importatn
 			}
 		}
     }

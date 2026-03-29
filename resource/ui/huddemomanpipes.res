@@ -1,15 +1,6 @@
+#base "../gamelogo.res"
 "Resource/UI/HudDemomanPipes.res"
 {
-	"background"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"background"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"		"0"
-		"enabled"				"0"			
-	}
-	
 	"ChargeLabel"
 	{
 		"ControlName"			"Panel"
@@ -33,7 +24,7 @@
 
 		"tall"		"3"	
 		////	"3"			
-		//////"		"0"
+		//
 		////"	"0"
 		"visible"	"1"
 		"enabled"	"1"

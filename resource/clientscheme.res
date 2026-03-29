@@ -27,30 +27,16 @@ Scheme
 		"PositiveT2"		"64 255 160 153"
 		"WarningT2"			"255 160 64 153"
 		"NegativeT2"		"255 64 80 153"
-	"G_Brown"				"49 44 41 255"
 		"G_ButtonBg"				"96 83 73 255" // Button bg color
-		"G_ButtonText"				"255 255 255 255" // Button text color
 		"G_ButtonHoverBg"			"170 103 102 255" // Button hover bg color
-		"G_ButtonHoverText"			"255 255 255 255" // Button hover text color
 		"G_ButtonSelectedBg"		"156 53 51 255" // Button selected bg color
-		"G_ButtonSelectedText"		"255 255 255 255" // Button selected text color	
 		"PrimaryT3"			"64 160 255 102"
 		"NeutralT3"			"255 255 255 102"
 		"PositiveT3"		"64 255 160 102"
 		"WarningT3"			"255 160 64 102"
 		"NegativeT3"		"255 64 80 102"
-		"G_Highlight"			"156 53 51 255" // Highlight color
-
-
 		"PrimaryT4"			"64 160 255 51"
-		"NeutralT4"			"255 255 255 51"
-		"PositiveT4"		"64 255 160 51"
-		"WarningT4"			"255 160 64 51"
-		"NegativeT4"		"255 64 80 51"
-	"G_MenuShader"				"0 0 0 99" // Menu shader color
-	"G_MenuText"				"220 206 199 255" // Menu text color
-		"Crosshair"			"255 255 255 255"
-		"CreditsGreen"		"64 160 255 255"
+
 		// yeah
 		"whattimeis1"											"30 30 30 255"
 		"whattimeisinvert"											"30 30 30 255"
@@ -97,26 +83,10 @@ Scheme
 		"PanelAT3"											"255 255 255 112"
 		"PanelAT4"											"255 255 255 64"
 
-		"Text0"												"255 255 255 255"
-		"Text1"												"192 192 192 255"
-		"Text2"												"160 160 160 255"
-		"Text3"												"128 128 128 255"
-		"Text4"												"96 96 96 255"
-
-		"TextT0"											"255 255 255 255"
-		"TextT1"											"255 255 255 208"
-		"TextT2"											"255 255 255 160"
-		"TextT3"											"255 255 255 112"
-		"TextT4"											"255 255 255 64"		
-
-		"WhiteFull"											"255 255 255 255"
-		"Menu_Accent"										"255 0 127 255"
-		"Class_Selection"									"0 215 0 255"
 		"Background_Main"									"46 43 42 255"
 		"Background_Dark"									"28 26 25 255"
 		"Background_Darkest"								"18 15 14 255"
-		"Background_Bright"									"66 63 61 255"
-		
+
 		//BUTTONS
 		"Button_Bright"										"66 63 61 255"
 		"Button_Dark"										"28 26 25 255"
@@ -130,7 +100,7 @@ Scheme
 		"TransparentMediumBlack"							"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
 		"TransparentLightestBlack"							"0 0 0 50"
-		"FooterBGBlack"										"35 32 33 255"
+
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
@@ -190,9 +160,7 @@ Scheme
 		"RedSolid"											"255 61 61 255"
 		"TransparentYellow"									"227 228 230 255"
 		"BrightYellow"										"255 255 0 255"
-		"GreenSolid"										"76 107 34 255"
 
-		"FooterBGBlack"										"0 0 0 255"
 
 		"HUDBlueTeam"										"92 173 255 255"
 		"HUDRedTeam"										"255 61 61 255"
@@ -336,9 +304,6 @@ Scheme
 		"UpgradeSelectedBg"									"80 150 255 255"
 		"UpgradeDisabledFg"									"60 60 60 255"
 
-		"White"												"255 255 255 255"
-		"Black"												"0 0 0 255"
-
 		"Text0"												"255 255 255 255"
 		"Text1"												"192 192 192 255"
 		"Text2"												"160 160 160 255"
@@ -351,26 +316,11 @@ Scheme
 		"TextT3"											"255 255 255 112"
 		"TextT4"											"255 255 255 64"		
 		"Health"											"227 228 230 255"
-		"Buffed Health"										"92 173 255 255"
 		"Low Health"										"255 50 65 255"
 
-		"Ammo"												"227 228 230 255"
-		"Low Ammo"											"255 50 65 255"
-
-		"Heal Numbers"										"92 173 255 255"
-		"Last Damage Done"									"255 50 65 255"
-		"Medic Drop"										"245 220 60 255"
-
 		"Shadow"											"0 0 0 175"		
-		"MainTheme"											"60 140 255 255"
-
-		"WhiteLight"										"227 228 230 255"
-	
 		"WhiteDark"											"172 173 175 255"
-		"WhiteGray"											"127 128 130 255"
 		"GrayLight"											"77 78 82 255"
-		"GrayMedium"										"62 63 66 255"
-		"GrayDark"											"46 47 51 255"
 		"GrayDarker"										"37 38 40 255"
 		"GrayDarkest"										"27 28 30 255"
 		"BlackLight"										"20 21 23 255"
@@ -384,10 +334,7 @@ Scheme
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
 		"Yellow"											"245 220 60 255"				
-		"White"									"235 235 235 255"
-		"WhiteSolid"							"255 255 255 255"
-		"WhiteTransparent"						"235 235 235 180"
-		"WhiteMoreTransparent"					"235 235 235 150"
+
 		"WhiteGray"								"185 185 185 255"
 		"BlackSolid"							"0 0 0 255"
 		"BlackTransparent"						"0 0 0 150"
@@ -396,22 +343,12 @@ Scheme
 		"Gray"									"50 50 50 255"
 		"GrayMedium"							"130 130 130 255"
 		"GrayDark"								"100 100 100 255"
-		"GrayTransparent"						"175 175 175 150"
-		
-	//	"Blue"									"66 133 244 255"
 		"BlueLight"								"150 200 220 255"
-		
-	//	"red"								"220 30 30 255"
 		"RedLight"								"245 70 70 255"
 		
 		"OrangeLight"							"255 200 55 255"
 		
 		"GreenLight"							"185 220 25 255"
-
-		//=============================================================================
-		// ITEM QUALITY COLORS
-		//=============================================================================
-
 	}	
 	BaseSettings
 	{
@@ -577,12 +514,7 @@ Scheme
 		{
 			"1" { "name" "hwnjofre1" "tall" "28" "yres" "1 1199" "antialias" "1" }
 			"2" { "name" "hwnjofre1" "tall" "18" "wide" "500" "antialias" "1" }
-		}
-		"HudFontMediumSecondaryD"
-		{
-			"1" { "name" "product_sans_regular" "tall" "24" "yres" "1 1199" "antialias" "1" }
-			"2" { "name" "product_sans_regular" "tall" "10" "antialias" "1" }
-		}				
+		}			
 		"HudHintText"
 		{
 			"1" { "name" "mono" "tall" "11" "yres" "480 599" "antialias" "1" }
@@ -629,7 +561,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hwnjofre1"//"product_sans_regular"
+				"name"		"hwnjofre1"
 				"tall"		"5"
 			}
 		}		
@@ -894,19 +826,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
-		"hwn18"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"16"
-				
-				
-				"antialias" 	"1"
-			}
-		}			
-
-
 		ItemFontAttribSmallv2 // collection item
 		{
 			"1"
@@ -1122,18 +1041,10 @@ Scheme
 		}
 		"LowerHealthFont"
 		{
-			"2"
-			{
-				"name" "Open Sans LowerHealth2"
-				"tall" "100"
-				
-				"yres" "1024 1199"
-			}
 			"1"
 			{
 				"name" "Open Sans LowerHealth"
-				"tall" "70"
-				
+				"tall" "70"	
 			}
 		}
 		"LowAmmoFont"
@@ -1303,17 +1214,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		"NotoExtraBold34"
-		{
-			"1"
-			{
-				"name"		"Open Sans Extrabold"
-				"tall"		"34"
-				
-				"antialias"	"1"
-			}
-		}
 	
 		"HudFontSmall"
 		{
@@ -1405,7 +1305,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"product_sans_regular" [$LINUX]
+				"name"		"hwnjofre1" [$LINUX]
 				"name"		"opensanskillfeed" [$WINDOWS]
 				"weight"	"500" [$LINUX]
 				"weight"	"0" [$WINDOWS]
@@ -1834,7 +1734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"tfd" // tfd.ttf
+				"name"	"hwnjofre1" // tfd.ttf
 				"tall"	"28"
 				
 				
@@ -1846,10 +1746,8 @@ Scheme
 		{
 			"1"
 			 {
-				"name"	"Team Fortress" // tf.ttf
+				"name"	"hwnjofre1" // tf.ttf
 				"tall"	"28"
-				
-				"additive"	"1"
 				"antialias"	"1"
 			}
 		}
@@ -2153,9 +2051,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"9"
-				
-				"blur"	"3"
-				"additive"	"1"
 				"antialias"	"1"
 			}
 		}
@@ -2165,8 +2060,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"7"
-				
-				"additive"	"1"
+		
 				"antialias"	"1"
 			}
 		}
@@ -2177,7 +2071,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"7"
 				
-				"additive"	"1"
+		
 				"antialias"	"1"
 			}
 		}
@@ -2198,8 +2092,6 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"7"
 				
-				"blur"	"3"
-				"additive"	"1"
 				"antialias"	"1"
 			}
 		}
@@ -2295,8 +2187,6 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"20"
 				"antialias"	"1"
-				
-				
 			}
 		}
 
@@ -2306,27 +2196,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				
-				"yres"	"480 599"
-				
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"14"
-				
-				
-				"yres"	"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"22"
-				
-				
-				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2370,28 +2239,7 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"10"
-				
-				"yres"	"480 599"
-				
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"hwnjofre1"
 				"tall"	"14"
-				
-				
-				"yres"	"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"hwnjofre1"
-				"tall"	"18"
-				
-				
-				"yres"	"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2402,8 +2250,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"13"
-				
-				
 				"antialias"	"1"
 			}
 		}
@@ -2414,8 +2260,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"16"
-				
-				
 				"antialias"	"1"
 			}
 		}
@@ -2426,8 +2270,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"10"
-				
-				
 				"antialias"	"1"
 			}
 		}
@@ -2438,8 +2280,6 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				
-				
 				"antialias"	"1"
 			}
 		}
@@ -2448,8 +2288,7 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"8"
-				
+				"tall"	"8"	
 				"antialias"	"1"
 			}
 		}
@@ -2460,9 +2299,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				
-				"antialias"	"1"
-				
+				"antialias"	"1"	
 			}
 		}
 
@@ -2471,17 +2308,10 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"9"
-				
+				"tall"	"9"	
 				"antialias"	"1"
-				
-				//	"1"
 			}
 		}
-
-		//
-		//////////////////// REPLAY FONTS //////////////////////////////
-		//
 		"ReplayBrowserSmallest"
 		{
 			"1"
@@ -2493,10 +2323,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		//
-		//////////////////// ECON FONTS //////////////////////////////
-		//
 		"EconFontSmall"
 		{
 			"1"
@@ -2619,66 +2445,6 @@ Scheme
 			"draw_corner_height" 	"8"		
 		}
 		
-	
-		G_TargetBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "0 0 0 99"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "0 0 0 30"
-					"offset" "2 2"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 0 0 99"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "0 0 0 30"
-					"offset" "1 1"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "0 0 0 99"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "0 0 0 30"
-					"offset" "1 2"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 0 0 99"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "0 0 0 30"
-					"offset" "1 2"
-				}
-			}
-		}	
 		MM_BUTTON_ADDITIVE
 		{
 			"bordertype"			"scalable_image"
@@ -2703,171 +2469,7 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		CustomCyanBorderThick 
-		{
-			"proportional_scalar"    "0.5"
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "NOTOWHITE"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "NOTOWHITE"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "NOTOWHITE"
-					"offset" "2 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "NOTOWHITE"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "NOTOWHITE"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "NOTOWHITE"
-					"offset" "2 0"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "NOTOWHITE"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "NOTOWHITE"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "NOTOWHITE"
-					"offset" "2 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "NOTOWHITE"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "NOTOWHITE"
-					"offset" "1 0"
-				}
-				"3"
-				{
-					"color" "NOTOWHITE"
-					"offset" "2 0"
-				}
-			}
-		}		
-		"LINE_LEFT_0_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/LEFT_0"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}
-		"LINE_LEFT_3_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/LEFT_3"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}		
-		"LINE_RIGHT_0_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/1/RIGHT_0"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}
-		"LINE_RIGHT_3_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/1/RIGHT_3"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}		
-		"LINE_BOTTOM_0_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/BOTTOM_0"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}
-		"LINE_BOTTOM_3_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/BOTTOM_3"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}		
-		"LINE_TOP_0_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/TOP_0"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}		
-		"LINE_TOP_3_Primary_0"
-		{
-			"bordertype" "scalable_image"
-			"backgroundtype" "0"
-			"color" "Primary"
-			"image" "replay/thumbnails/panels/line/0/TOP_3"
-			"src_corner_width" "12"
-			"src_corner_height" "12"
-			"draw_corner_width" "2"
-			"draw_corner_height" "2"
-		}		
+	
 		"FLAT_Black_2"
 		{
 			"bordertype"				"scalable_image"
@@ -2890,59 +2492,7 @@ Scheme
 			"draw_corner_width"			"2"
 			"draw_corner_height"		"2"
 		}						
-		"Black_4"
-		{
-			"bordertype"				"scalable_image"
-			"background_type"			"0"
-			"color"						"Black"
-			"image"						"replay/thumbnails/panels/FLAT_4"
-			"src_corner_width"			"12"
-			"src_corner_height"			"12"
-			"draw_corner_width"			"2"
-			"draw_corner_height"		"2"
-		}		
-			Cs1
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "13 110 253 255"
-					"offset" "0 1"
-				}
-			}
 
-			Right
-			{
-				"1"
-				{
-					"color" "13 110 253 255"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "13 110 253 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "13 110 253 255"
-					"offset" "0 0"
-				}
-			}
-		}				
-	
-
-	
 		RedHighlightBorder
 		{
 			"inset" "0 0 1 1"
@@ -3385,7 +2935,7 @@ Scheme
 		MainMenuButtonArmed
 		{
 			"bordertype"		"scalable_image"
-			"color"		"MainTheme"
+			"color"		"UpgradeDepressedBg"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -3469,14 +3019,62 @@ Scheme
 
 		TrainingResultsBG
 		{
-			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "2 2"
+				}
+			}
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 1"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 2"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 99"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "0 0 0 30"
+					"offset" "1 2"
+				}
+			}
 		}
 
 		StoreInnerShadowBorder
@@ -3727,39 +3325,12 @@ Scheme
 		{
 			"bordertype"		"scalable_image"
 			"offset" 				"0 0"
-			"Alpha" 				"0"
-
 			"image"		""
 			"src_corner_height"		"0"
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-
-		RedWithThinBorder
-		{
-			"bordertype"		"scalable_image"
-			"color"		"Red"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
-		BlueWithThinBorder
-		{
-			"bordertype"		"scalable_image"
-			"color"		"Blue"
-
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
 		InnerShadowBorder
 		{
 			"bordertype"		"scalable_image"
@@ -3793,16 +3364,6 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		OuterShadowBorderThin
-		{
-			"bordertype"		"scalable_image"
-
-			"image"		"outer_shadow_border"
-			"src_corner_height"		"8"
-			"src_corner_width"		"8"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 
 		CYOAScreenBorder
 		{
@@ -3876,13 +3437,40 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "MainTheme"	}	}
+			{
+				"1"
+				{
+					"color" "13 110 253 255"
+					"offset" "0 1"
+				}
+			}
+
 			Right
-			{	"1"	{	"color" "MainTheme"	}	}
+			{
+				"1"
+				{
+					"color" "13 110 253 255"
+					"offset" "1 0"
+				}
+			}
+
 			Top
-			{	"1"	{	"color" "MainTheme"	}	}
+			{
+				"1"
+				{
+					"color" "13 110 253 255"
+					"offset" "0 0"
+				}
+			}
+
 			Bottom
-			{	"1"	{	"color" "MainTheme"	}	}
+			{
+				"1"
+				{
+					"color" "13 110 253 255"
+					"offset" "0 0"
+				}
+			}
 		}
         "BackpackItemBorder"
         {
@@ -5095,28 +4683,7 @@ Scheme
 			
 			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
 		}
-		Positive
-		{
-			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
-			
-            "color"	"PositiveColor"					
-			
-			"image"	"replay/thumbnails/panels/material_generic"	
-			
-			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
-		}						
-		"GrayDialogBorder" //"replay/thumbnails/panels/misc/modal"
-		{
-			"bordertype"									"scalable_image"
-			"backgroundtype"								"0"
-			"Color"											"notodark"
 
-			"image"											"replay/thumbnails/panels/Material_Generic"
-			"src_corner_height"								"12"
-			"src_corner_width"								"12"
-			"draw_corner_width"								"2"
-			"draw_corner_height" 							"2"
-		}
 		"blumaterial" //"replay/thumbnails/panels/misc/modal"
 		{
 			"bordertype"									"scalable_image"
@@ -5180,47 +4747,6 @@ Scheme
 			"draw_corner_height" 	"0"	
 		}	
 
-		Econ.Button.Border.Default		
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Blank"
-					"offset" "0 0"
-				}
-			}
-		}	
-
-	
 		Rice1
 		{
 			"inset" "0 0 1 1"
@@ -5864,47 +5390,6 @@ Scheme
 				"range" "0x021 0xFFFF"
 			}
 		}
-		"91"
-		{
-			"font" "fonts/product_sans_regular.ttf"
-			"name" "product_sans_regular"
-						"english"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"brazilian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"french"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"german"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"italian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"russian"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"spanish"
-			{
-				"range" "0x021 0xFFFF"
-			}
-			"japanese"
-			{
-				"range" "0x021 0xFFFF"
-			}
-		}
 		"Captions Font"
 		{
 			"font" "fonts/openSans-caption.otf"
@@ -6103,11 +5588,6 @@ Scheme
 			"font" "fonts/OpenSans-LowerHealth.ttf"
 			"name" "Open Sans LowerHealth"
 		}
-		"15"
-		{
-			"font" "fonts/OpenSans-LowHealthZero.ttf"
-			"name" "Open Sans LowHealth"
-		}
 		"16"
 		{
 			"font" "fonts/OpenSans-Killfeed.ttf"
@@ -6284,19 +5764,13 @@ Scheme
 		}
 		"21"
 		{
-			"font" "fonts/OpenSans-NodashHeals.ttf" //	[$WINDOWS]
-		//	"font" "fonts/OpenSans-NodashHeals-Linux.ttf" 	[$OSX]
+			"font" "fonts/OpenSans-NodashHeals.ttf"
 			"name" "Open Sans NodashHeals"
 		}
 		"25"
 		{
 			"font" "fonts/OpenSans-Pipes.ttf"
 			"name" "Open Sans Pipes"
-		}
-		"38"
-		{
-			"font" "fonts/OpenSansExtraBold.ttf"
-			"name" "Open Sans Extrabold"
 		}
 		"40"
 		{
@@ -6307,11 +5781,6 @@ Scheme
 		{
 			"font" "fonts/OpenSans-Pipes3.ttf"
 			"name" "Open Sans Pipes3"
-		}
-		"47"
-		{
-			"font" "fonts/OpenSans-LowerHealth2.ttf"
-			"name" "Open Sans LowerHealth2"
 		}
 
 		"reservefont"

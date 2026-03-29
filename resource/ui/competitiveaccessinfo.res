@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
-		bgcolor_override "g_brown"
+		bgcolor_override "HealthBgGrey"
 		border noborder
 		"paintborder"		"0"
 
@@ -50,7 +50,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			bgcolor_override "G_MenuShader"
+			bgcolor_override "TransparentLightBlack"
 			"proportionaltoparent"	"1"
 
 			"Frame"
@@ -237,7 +237,7 @@
 			"RankImage"
 			{
 				"ControlName"	"CTFBadgePanel"
-				"fieldName"		"RankImagbgcolor_override G_Browne"
+				"fieldName"		"RankImagbgcolor_override HealthBgGreye"
 				"xpos"			"p0.7"
 				"ypos"			"5"
 				"zpos"			"10"
@@ -308,7 +308,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-	bgcolor_override G_Brown
+	bgcolor_override HealthBgGrey
 						"party_slot"		"0"
 					}
 					"PartySlot1"
@@ -325,7 +325,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-		bgcolor_override G_Brown
+		bgcolor_override HealthBgGrey
 						"party_slot"		"1"
 
 						"pin_to_sibling"		"PartySlot0"
@@ -345,7 +345,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-				bgcolor_override G_Brown
+				bgcolor_override HealthBgGrey
 						"party_slot"		"2"
 
 						"pin_to_sibling"		"PartySlot1"
@@ -365,7 +365,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-			bgcolor_override G_Brown
+			bgcolor_override HealthBgGrey
 						"party_slot"		"3"
 
 						"pin_to_sibling"		"PartySlot2"
@@ -385,7 +385,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-			bgcolor_override G_Brown
+			bgcolor_override HealthBgGrey
 						"party_slot"		"4"
 
 						"pin_to_sibling"		"PartySlot3"
@@ -405,7 +405,7 @@
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
-			bgcolor_override G_Brown
+			bgcolor_override HealthBgGrey
 						"party_slot"		"5"
 
 						"pin_to_sibling"		"PartySlot4"
@@ -423,7 +423,7 @@
                 "tall"                      "155"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"
-                "fillcolor" "G_MenuShader"
+                "fillcolor" "TransparentLightBlack"
 
             }	
            "BG2otherside"
@@ -437,7 +437,7 @@
                 "tall"                      "155"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"
-                "fillcolor" "G_MenuShader"
+                "fillcolor" "TransparentLightBlack"
 
             }	
 	           "bgcenter"
@@ -451,7 +451,7 @@
                 "tall"                      "155"
                 "visible"                   "1"
                 "proportionaltoparent"      "1"
-                "fillcolor" "G_MenuShader"
+                "fillcolor" "TransparentLightBlack"
 
             }			
 			"Volabel"

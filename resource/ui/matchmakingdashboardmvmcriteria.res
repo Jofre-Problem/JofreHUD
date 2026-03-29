@@ -79,8 +79,8 @@
 			"defaultFgColor_override"		"White"
 
 		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override" 					"tanlight"
+		"depressedFgColor_override" 				"tanlight"
 	}
 	"MannUpQueueButton"
 	{
@@ -115,8 +115,8 @@
 		"depressedBgColor_override" 				"MainTheme"
 
 		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override" 					"tanlight"
+		"depressedFgColor_override" 				"tanlight"
 	}
 	"BackButton"
 	{
@@ -151,8 +151,8 @@
 			"defaultFgColor_override"		"White"
 
 		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override" 					"tanlight"
+		"depressedFgColor_override" 				"tanlight"
 	}
 
 	"BootCampQueueButton"
@@ -188,8 +188,8 @@
 			"defaultFgColor_override"		"White"
 
 		"defaultFgColor_override" 					"White"
-		"armedFgColor_override" 					"WhiteSolid"
-		"depressedFgColor_override" 				"WhiteSolid"
+		"armedFgColor_override" 					"tanlight"
+		"depressedFgColor_override" 				"tanlight"
 	}
 
 	"JoinLateCheckButton"
