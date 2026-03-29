@@ -1,3 +1,4 @@
+#base "replayinputpanel.res"
 "Resource/UI/ObjectiveStatusEscort.res"
 {
 	"ObjectiveStatusEscort"
@@ -78,15 +79,12 @@
 	"ProgressBar"
 	{
 		"ControlName"	"CTFHudEscortProgressBar"
-		"fieldName"		"ProgressBar"
 		"xpos"			"32"
 		"ypos"			"64"
 		"zpos"			"4"
 		"wide"			"256"
 		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
 
 		"if_multiple_trains"
 		{

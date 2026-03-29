@@ -774,7 +774,7 @@
 			//"enabled"		"1"
 			"font"			"itemfontnamesmall"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"quit"
@@ -825,8 +825,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			//"RoundedCorners"	"0"
-			"textinsety"	"0"
-			"textinsetx"	"0"
+			
+			
 			"use_proportional_insets"	"1"
 
 			
@@ -893,8 +893,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"0"
-			"textinsetx"	"0"
+			
+			
 			"use_proportional_insets"	"1"
 			paintBackground 0
 			
@@ -937,8 +937,8 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"0"
-			"textinsetx"	"0"
+			
+			
 			"use_proportional_insets"	"1"
 
 			

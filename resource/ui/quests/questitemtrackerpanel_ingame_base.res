@@ -278,7 +278,7 @@
 		"wide"			"190"
 		"tall"			"20"
 		"zpos"			"4"
-		"textinsetx"	"0"
+		
 		"fgcolor"		"TanDark"
 		"font"			"ItemTrackerScore_InGame"
 	}
@@ -293,7 +293,7 @@
 		"wide"			"190"
 		"tall"			"20"
 		"zpos"			"4"
-		"textinsetx"	"0"
+		
 		"fgcolor"		"TanDark"
 		"font"			"ItemTrackerScore_InGame"
 	}

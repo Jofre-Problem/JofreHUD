@@ -1,7 +1,7 @@
 #base "lobbypanel.res"
 #base "../../../../../cfg/_jp_steam_border.txt"
 #base "ui2/partyslot0.res"
-//#base "_tf2hud/scoreboard.res"
+
 #base "../../../../../cfg/_jp_particle_rain.txt"
 
 #base "../../../../cfg/_jp_steam_border.txt"

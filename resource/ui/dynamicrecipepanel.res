@@ -1,4 +1,5 @@
 #base "commentarymodelviewer.res"
+#base "streamlistpanel.res"
 "Resource/UI/DynamicRecipe.res"
 {
 	"dynamic_recipe_panel"
@@ -463,34 +464,4 @@
 			"centerwrap"	"1"
 		}
 	}
-
-	"mousedragitempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"mousedragitempanel"
-		
-		"xpos"			"c-70"
-		"ypos"			"270"
-		"zpos"			"100"
-		"wide"			"54"
-		"tall"			"42"
-		"visible"		"0"
-		"bgcolor_override"		"blank"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		
-		"model_ypos"	"5"
-		"model_tall"	"35"
-		"text_ypos"		"60"
-		"text_center"	"1"
-		"name_only"		"1"
-		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"allow_rot"				"0"
-		}
-	}
-	
 }

@@ -45,7 +45,7 @@
 		"labelText"		"<"
 		"font"			"scoreboardmedium"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		"Command"		"goprev"
 		
 		
@@ -82,7 +82,7 @@
 		"labelText"		">"
 		"font"			"scoreboardmedium"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		"Command"		"gonext"
 		
 		

@@ -1,4 +1,4 @@
-"resource/ui/enemycountpanel.res"
+"s"
 {
 "EnemyCountPanel"
 {

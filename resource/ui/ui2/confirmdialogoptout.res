@@ -34,7 +34,7 @@
 		"labelText"		"ɉ"//"ì"
 		"font"			"ReplayBrowserSmallest"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		////	"0"
 		////	"0"
 		"Command"		"cancel"

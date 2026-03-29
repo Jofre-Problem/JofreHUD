@@ -245,7 +245,7 @@
 		"labelText"		"#TF_LessThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		//
 		
 		"Command"		"prevcustomtexture"
@@ -270,7 +270,7 @@
 		"labelText"		"#TF_GreaterThan"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		//
 		
 		"Command"		"nextcustomtexture"

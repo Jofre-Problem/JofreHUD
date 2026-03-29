@@ -1,6 +1,4 @@
-//------------------------------------
-// Achievement Item
-//------------------------------------
+#base "hudachievementtrackeritem.res"
 "AchievementItem.res"
 {	
 	"AchievementDialogItemPanel"
@@ -13,7 +11,7 @@
 		//				"0"
 		//				"0"
 		//					"0"
-		"ProgressBarColor" 	"200 184 148 255" [$WIN32]
+		"ProgressBarColor" 	"200 184 148 255"
 		"PaintBackgroundType"	"2"
 	}
 			
@@ -25,27 +23,6 @@
 		"wide"			"56"
 		"tall"			"56"
 		"scaleImage"		"1"
-	}
-			
-	"AchievementName"
-	{
-		"ControlName"	"label"
-		"labeltext"		"name"
-		"xpos"			"70"
-		"ypos"			"2"
-		"wide"			"400"
-		"tall"			"20"
-	}
-	
-	"AchievementDesc"
-	{
-		"ControlName"	"label"
-		"labeltext"		"desc"
-		"xpos"			"71"
-		"ypos"			"22"
-		"wide"			"490"
-		"tall"			"40"
-		"wrap"			"1"
 	}
 	
 	"PercentageBarBackground"

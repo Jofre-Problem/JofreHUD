@@ -19,7 +19,7 @@
 			//"	"0"
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""

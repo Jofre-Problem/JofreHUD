@@ -40,7 +40,7 @@
  		"ypos"			"0"
  		"zpos"			"3"
  		"wide"			"14"
- 		"tall"			"14"
+ 		"tall"			"o1"
  		"visible"		"1"
  		//"enabled"		"1"
  		"image"			"../hud/objectives_flagpanel_ico_flag_home"

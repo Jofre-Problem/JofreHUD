@@ -1,15 +1,10 @@
-#base "huditemeffectmeter.res"
+#base "huditemeffectmeter_sniperfocus.res"
 
 //Soda popper
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"x"
 {
 	HudItemEffectMeter
 	{
 		"ypos"			"c135+10"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"labelText"				"#TF_ENERGYDRINK"
 	}
 }

@@ -70,7 +70,7 @@
 			"labelText"		"STREAM: OFF"
 			"font"			"InstructionalText"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"engine streamermodeoff"
@@ -104,7 +104,7 @@
 			"labelText"		"STREAM: ON"
 			"font"			"InstructionalText"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"engine streamermodeon"
@@ -138,7 +138,7 @@
 			"labelText"		"Open QuickPlay Menu"
 			"font"			"InstructionalText"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
+			
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"engine replay_reloadbrowser"

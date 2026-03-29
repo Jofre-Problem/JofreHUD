@@ -1,3 +1,4 @@
+#base "replayinputpanel.res"
 "Resource/UI/TankProgressBar.res"
 {
 	"TankProgressBar"
@@ -27,44 +28,24 @@
 		"image"			"../hud/leaderboard_class_tank"
 		"scaleImage"	"1"
 	}
-
 	"ProgressBar"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"ProgressBar"
-		"xpos"			"30"
-		"ypos"			"4"
-		"zpos"			"1"
-		"wide"			"153"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
-		
- 		"src_corner_height"	"22"				// pixels inside the image
- 		"src_corner_width"	"22"
- 	
- 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
- 		"draw_corner_height" 	"5"	
-	}
-	
+	"pin_to_sibling"		"ProgressBarBG"
+	}	
+
 	"ProgressBarBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"29"
-		"ypos"			"3"
-		"zpos"			"1"
-		"wide"			"155"
+		"xpos"			"cs-0.5"
+		"ypos"			"5"
+		"zpos"			"0"
+		"wide"			"300"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"image"			"replay/thumbnails/panels/black"
+		"alpha"		"150"
+		"proportionaltoparent"		"1"
 	}
 }

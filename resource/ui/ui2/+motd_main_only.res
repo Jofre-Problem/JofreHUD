@@ -5184,7 +5184,7 @@ proportionaltoparent 1
 			"ypos"			"rs1-5"
 			"visible"			"0"	//cant find a good use
 			"textAlignment"	"center"
-			"textinsety"	"0"
+			
 			"zpos""10"
 			"labelText"	"%motddate%"
 			"tall"			"20"

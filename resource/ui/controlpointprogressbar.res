@@ -1,3 +1,4 @@
+#base "replayinputpanel.res"
 "Resource/UI/ControlPointProgressBar.res"
 {
 	"ControlPointProgressBar"
@@ -16,14 +17,11 @@
 	"ProgressBar"
 	{
 		"ControlName"	"CircularProgressBar"
-		"fieldName"	"ProgressBar"
 		"xpos"		"28"
 		"ypos"		"5"
 		"zpos"		"23"
 		"wide"		"45"
 		"tall"		"45"
-		"visible"	"1"
-		"enabled"	"1"
 		"fg_image"	"progress_bar_blu"
 		"bg_image"	"progress_bar_blu"
 	}

@@ -139,7 +139,7 @@
 				"enabled"							"1"
 				"proportionaltoparent"				"1"
 				"scaleImage"						"0"
-				"Image"								"replay/thumbnails/progressbg2"
+				"Image"								"replay/thumbnails/panels/blue"
 			}
 		}
 		"BlueScoreValueContainer"

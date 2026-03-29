@@ -114,7 +114,7 @@
 		"labelText"		"ɉ"//"ì"
 		"font"			"ReplayBrowserSmallest"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		"paintbackground"	"0"
 		////	"0"
 		"Command"		"cancel"
@@ -144,7 +144,7 @@
 		"labelText"		"Ɋ"//"M"//"y"
 		"font"			"ReplayBrowserSmallest"
 		"textAlignment"	"center"
-		"textinsetx"	"0"
+		
 		////	"0"
 		////	"0"
 		

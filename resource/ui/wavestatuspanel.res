@@ -1,11 +1,19 @@
 #base "../gamelogo.res"
+#base "tankprogressbar.res"
 "Resource/UI/WaveStatusPanel.res"
 {
 	"Background"
 	{
 		"image"			"replay/thumbnails/panels/blank"
 	}
-
+	"TankProgressBar"
+	{
+		"visible" "0"
+	}
+	"TankImage"
+	{
+		"visible" "0"
+	}	
 	"WaveCountLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -70,32 +78,8 @@
 
 	"ProgressBar"
 	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"ProgressBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blue"
-		"pin_to_sibling"		"ProgressBarBG"
+		
 	}
 
-	"ProgressBarBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ProgressBarBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"5"
-		"zpos"			"0"
-		"wide"			"300"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/black"
-		"alpha"		"150"
-		"proportionaltoparent"		"1"
-	}
+
 }
