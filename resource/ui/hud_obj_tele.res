@@ -195,7 +195,4 @@
 			}
 		}
 	}
-
-	"Background"
-	{"ControlName"	"Panel"	"visible"	"0"}
 }

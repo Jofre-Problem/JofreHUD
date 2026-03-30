@@ -27,22 +27,7 @@
 	"OnYourWayLabel"
 	{
 		"visible"		"0"
-	}	
-
-	"TimePanelBGReal"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TimePanelBGReal"
-		"xpos"			"15"
-		"ypos"			"10"
-		"zpos"			"7000"
-		"wide"			"22"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/indicador"	
-		"scaleImage"		"1"	
-	}	
+	}
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
@@ -388,9 +373,7 @@
 	}			
 	"TipImage"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"TipImage"
-		"xpos"				"9999"
+		"visible"				"0"
 	}
 	"StatData"
 	{

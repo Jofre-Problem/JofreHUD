@@ -1,57 +1,17 @@
+#base "youtubelogindialog.res"
+#base "C4Panel.res"
 "Resource/UI/UpgradeBoxDialog.res"
 {
-	"ConfirmDialog"
-	{
-		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-150"
-		"ypos"			"140"
-		"wide"			"300"
-		"tall"			"200"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"settitlebarvisible"	"0"
-		//
-	}
-	
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ConfirmTitle"
-		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"300"
 		"tall"			"30"
-		//"	"1"
-		
-		"visible"		"1"
-		"enabled"		"1"
 	}
 	
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%text%"
-		"textAlignment"	"north"
-		"xpos"			"40"
-		"ypos"			"50"
-		"zpos"			"1"
-		"wide"			"220"
-		"tall"			"170"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 

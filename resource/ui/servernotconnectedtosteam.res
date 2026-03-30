@@ -1,5 +1,6 @@
-#Base "ui3/base/label2.res"
-#Base "vrcalibration.res"
+#base "ui3/base/label2.res"
+#base "vrcalibration.res"
+#base "C4Panel.res"
 "Resource/UI/ServerNotConnectedToSteam.res"
 {
 	"ServerNotConnectedToSteamDialog"
@@ -26,21 +27,6 @@
 	}
 	"ExplanationLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"20"
-		"ypos"			"35"
-		"zpos"			"1"
-		"wide"			"290"
-		"tall"			"55"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
 		"labelText"		"#TF_ServerNoSteamConn_Explanation"
-		"textAlignment"		"North"
-		"fgcolor_override"	"117 107 94 255"
 	}
 }

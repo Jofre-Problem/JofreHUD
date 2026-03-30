@@ -13,7 +13,7 @@
 		"wide"			"110"
 		"tall"			"200"
 		"visible"		"0"
-		"bgcolor_override"		"30 30 30 0"
+		"bgcolor_override"		"blank"
 		border "GrayDialogBorder"
 		//
 		
@@ -98,19 +98,6 @@
 						"font"	"DefaultSmall" // TF2 Build 9
 					}
 				}			
-		}		
-		"bg2"
-		{	
-			"ControlName"	"editablepanel"
-			"fieldName"		"bg2"
-			"xpos" "0"
-			ypos 0
-			wide p1
-			tall o1
-			zpos -1111
-			bgcolor_override "30 30 30 0"
-			border "GrayDialogBorder"
-			
 		}			
 	}	
 }

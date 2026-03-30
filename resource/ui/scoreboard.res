@@ -6,6 +6,7 @@
 
 #base "../../../../cfg/_jp_steam_border.txt"
 #base "../../../../cfg/_jp_particle_rain.txt"
+#base "buymenu.res"
 "Resource/UI/Scoreboard.res"
 {
 	"Removeline"
@@ -694,13 +695,7 @@
 		"ypos"			"r200"
 		"zpos"			"1011"		
 		"wide"			"240"
-	//	////	"240"
 		"tall"			"200"
-	//	////"200"
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
 		"paintbackground"	"1"
 		"bgcolor_override"	"200 0 0 0"
 		
@@ -712,19 +707,9 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
 			"angles_y" "172"
-			"angles_z" "0"
+
 			"origin_x" "200"
-			"origin_y" "0"
-			"origin_z" "-60"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
-			"fov"		"100"
-		
-			"modelname"		""
 			
 		}
 

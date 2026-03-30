@@ -52,22 +52,6 @@
 	"CloseButton"
 	{
 		"visible"		"0"
-	}	
-	Chromatic
-	{
-		"ControlName"	"ImagePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"991"	
-		"wide"			"f0" //109
-		"tall"			"f0"
-		"scaleimage"	"1"
-		"visible" "0"
-		"image"			"replay/thumbnails/example_depth"
-	//	"image"			"replay/thumbnails/example_flip"
-	//	"image"			"replay/thumbnails/example_sdf"
-	//	"image"			"replay/thumbnails/example_square"
-	//	"image"			"replay/thumbnails/example_wave"	
 	}				
 	"MinVM-On"
 	{

@@ -1,58 +1,10 @@
+#base "youtubelogindialog.res"
+#base "C4Panel.res"
 "Resource/UI/StampDonationAdd.res"
 {
-	"ConfirmDialog"
-	{
-		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-150"
-		"ypos"			"90"
-		"wide"			"450"
-		"tall"			"260"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"settitlebarvisible"	"0"
-		//
-	}
-	
-	"TitleLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ConfirmTitle"
-		"textAlignment"	"north"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"450"
-		"tall"			"30"
-		//"	"1"
-		
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"%text%"
-		"textAlignment"	"north-west"
-		"xpos"			"35"
-		"ypos"			"153"
-		"zpos"			"1"
-		"wide"			"340"
-		"tall"			"50"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 
 	"ExplanationLabel2"

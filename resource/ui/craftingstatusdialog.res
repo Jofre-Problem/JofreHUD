@@ -44,17 +44,12 @@
 
 	"TitleLabel"
 	{	
-		"ControlName"		"Label"
 		"font"			"HudFontSmallBold"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"60"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
 		
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"

@@ -1,3 +1,4 @@
+#base "hudminigame_base.res"
 "Resource/UI/HudObjectiveFlagPanel.res"
 {	
 	"ObjectiveStatusFlagPanel"
@@ -17,95 +18,7 @@
 			"zpos"			"-1"
 		}
 	}
-	
-	"LeftSideBG"
-	{
-		"visible"			"0"
-	}
-		
-	"RightSideBG"
-	{
-		"visible"			"0"
-	}
-		
-	"OutlineBG"
-	{	"xpos"	"999"
-		"visible"			"0"
-	}
-	
-	"BlueScore"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScore"
-		"xpos"			"c-96"
-		"ypos"			"rs1"
-		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"20"
-		"visible"		"1"
-		//"enabled"		"1"
-		"textAlignment"	"west"	
-		"labelText"		"%bluescore%"
-		"font"			"itemfontnamelarger"
-		"fgcolor"		"White"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
-		
-	"BlueScoreShadow"
-	{
-		"visible"			"0"
-	}	
-							
-	"RedScore"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedScore"
-		"xpos"			"c22"
-		"ypos"			"rs1"
-		"zpos"			"8"
-		"wide"			"75"
-		"tall"			"20"
-		"visible"		"1"
-		//"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
-		"font"			"itemfontnamelarger"
-		"fgcolor"		"White"		
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
-		
-	"RedScoreShadow"
-	{
-		"visible"			"0"
-	}
+
 
 	"BluePanelBG"
 	{
@@ -185,49 +98,6 @@
 		"scaleImage"	"1"	
 	}			
 	
-	"PlayingTo"
-	{
-		"ControlName"	"cautofittinglabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"c-45"
-		"ypos"			"r16"	
-		"zpos"			"4"
-		"textinsetx" "10"
-		"wide"			"80"	
-		"tall"			"16"
-		"visible"		"1"
-		//"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		"proportionaltoparent" "1"
-		"font"			"ItemFontAttribSmallv2"
-		"fgcolor"		"White"
-		"bgcolor_override"	"black"
-		"roundedcorners"	"3"
-		"paintBackgroundtype"	"2"
-		"colors"
-		{
-			"0"	"white"
-			"1" "white"
-			"2" "green"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
-			
-	"PlayingToBG"
-	{	"xpos"	"999"
-		"visible"			"0"
-	}	
-		
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"

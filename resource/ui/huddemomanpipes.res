@@ -1,4 +1,5 @@
 #base "../gamelogo.res"
+#base "huddemomancharge.res"
 "Resource/UI/HudDemomanPipes.res"
 {
 	"ChargeLabel"
@@ -13,24 +14,10 @@
 
 	"ChargeMeter"
 	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"	"ChargeMeter"
-		"font"		"Default"
-		"xpos"			"cs-0.5"
 		"ypos"			"C85"
 		"zpos"			"2"
 		"wide"			"160"
 		"zpos"		"2"
-
-		"tall"		"3"	
-		////	"3"			
-		//
-		////"	"0"
-		"visible"	"1"
-		"enabled"	"1"
-		"textAlignment"	"Left"
-		//	"0"
-		////	"0"
 		"fgcolor_override"	"245 245 245 255"
 		"bgcolor_override"	"0 0 0 100"
 	}	

@@ -90,7 +90,7 @@
 
 	"FadeTransition"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"			"Panel"
 		"fieldName" "fadetransition"
 		"visible"				"0"
 	}

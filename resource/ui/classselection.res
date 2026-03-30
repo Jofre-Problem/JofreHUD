@@ -12,7 +12,7 @@
 	"tall""f0"
 	"image""replay/thumbnails/hp/REFRACTblur"
 	"scaleimage""1"
-
+	proportionaltoparent "1"
 	}
 	                          "1_image"
 	{
@@ -391,10 +391,6 @@ pin_to_sibling spylabel
 			party_slot				0
 		}	
 	}		
-	                          "BlurMainBG"
-	{
-		                         "zpos"			"-100"
-	}
 	                          "Hint"
 	{
 		                         "visible"			"0"

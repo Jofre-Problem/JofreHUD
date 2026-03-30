@@ -49,19 +49,6 @@
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"	"AccountValue"
 	}
-	"BuildBGSentry"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildBGSentry"
-		"xpos"			"cs-0.5"
-		"ypos"			"135"
-		"zpos"			"-2"
-		"wide"			"0"
-		"tall"			"29"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
-	}
 
 	"AccountBG"
 	{	"ControlName"	"Panel"

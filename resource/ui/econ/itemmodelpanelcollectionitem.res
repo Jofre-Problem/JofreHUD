@@ -77,7 +77,7 @@
 		{
 			"ControlName"	"editablepanel"
 			"fieldName"		"anchor"
-			"xpos"			"c20"
+			"xpos"			"c40"
 			"ypos"			"50"
 			"wide"			"1"
 			"tall"			"1"
@@ -88,7 +88,7 @@
 		{
 			"ControlName"	"editablepanel"
 			"fieldName"		"anchor2"
-			"xpos"			"c28"
+			"xpos"			"c48"
 			"ypos"			"23"
 			"wide"			"1"
 			"tall"			"1"

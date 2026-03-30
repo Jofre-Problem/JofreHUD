@@ -1,3 +1,4 @@
+#base "hudminigame_base.res"
 "Resource/UI/HudPasstimeTeamScore.res"
 {
 	"HudTeamScore"
@@ -10,99 +11,11 @@
 		"wide"				"f0"
 		"tall"				"480"
 	}
+	"PlayingTo"
+	{
+		"visible" "0"
+	}
 
-	"LeftSideBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
-		"image"			"../hud/objectives_flagpanel_bg_left"
-		"scaleImage"	"1"	
-	}
-		
-	"RightSideBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
-		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"80"
-		"image"			"../hud/objectives_flagpanel_bg_right"
-		"scaleImage"	"1"	
-	}
-		
-	"OutlineBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"OutlineBG"
-		"xpos"			"c-140"
-		"ypos"			"r95"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
-	}
-	
-	"BlueScore"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScore"
-		"xpos"			"c-120"
-		"ypos"			"r67"
-		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
-		"labelText"		"%bluescore%"
-		"fgcolor"		"TanLight"
-	}	
-		
-	"BlueScoreShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-118"
-		"ypos"			"r66"
-		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
-		"labelText"		"%bluescore%"
-		"fgcolor"		"Black"
-	}	
-							
-	"RedScore"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedScore"
-		"xpos"			"c42"
-		"ypos"			"r67"
-		"zpos"			"8"
-		"wide"			"80"
-		"tall"			"35"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
-		"fgcolor"		"TanLight"		
-	}	
-		
-	"RedScoreShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedScoreShadow"
-		"xpos"			"c44"
-		"ypos"			"r66"
-		"zpos"			"7"
-		"wide"			"80"
-		"tall"			"35"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
-		"fgcolor"		"Black"		
-	}
 
 	"PlayingToCluster"
 	{

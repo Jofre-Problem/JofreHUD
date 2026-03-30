@@ -41,18 +41,8 @@
 	}
 	"SwitchImage"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"SwitchImage"
-		"xpos"			"25"
-		"ypos"			"23"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"50"
-		
-		
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/ico_teambalance"
-		"scaleImage"		"1"
 	}
 }

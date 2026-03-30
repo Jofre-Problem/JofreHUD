@@ -1,6 +1,8 @@
 
+
 #base "ui2/bgv2.res"
-"Resource/UI/FullLoadoutPanel.res"
+#base "buymenu.res"
+"x"
 {
 	"classimageoutline2"
 	{
@@ -1145,7 +1147,6 @@
 			{				
 				"itemmodelpanel"
 			{
-			"allow_rot"				"0"
 			model_rotate_yaw_speed	0
 			"model_xpos"	"-20"
 			"model_ypos"	"3"
@@ -1154,7 +1155,7 @@
 			"use_particle"			"1"	
 			"use_item_rendertarget" "1"	
 			"force_use_model"		"1"
-			"allow_rot"							"1"
+			"allow_rot"							"0"
 			}			
 			"wide" "80"
 			pin_to_sibling "presetpinnermodelpanel3"
@@ -1356,16 +1357,13 @@
 
 	"classmodelpanel"		// player model
 	{
-		ControlName					CTFPlayerModelPanel
-		fieldName					"classmodelpanel"
+
 		xpos							0
 		ypos							0
 		zpos							-1
 		wide							p0.986		// without side bars
 		tall							f0
 		proportionaltoparent		1
-		visible						1
-		enabled						1
 		
 		"render_texture"	"0"
 		"fov"			"60"
@@ -1373,8 +1371,6 @@
 				
 		"model"
 		{
-			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "230"
 			"angles_z" "0"
@@ -1811,7 +1807,7 @@
 	{
 		"ControlName" "editablepanel"
 		"fieldName" 	"mouseoveritempanelAnchor"
-		"xpos" 		"p1.18"
+		"xpos" 		"p1.181"
 		"ypos"		"r255" //its coincidence
 		"wide"		"0"
 		"tall" 		"0"
@@ -1887,38 +1883,38 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"					"CExLabel"
+		"ControlName"					"panel"
 		"fieldName"						"CaratLabel"
-		"xpos"							"9999"
+		visible "0"
 	}
 	"TauntCaratLabel"
 	{
-		"ControlName"					"CExLabel"
+		"ControlName"					"panel"
 		"fieldName"						"TauntCaratLabel"
-		"xpos"							"9999"
+		visible "0"
 	}
 	"TauntLabel"
 	{
-		"ControlName"					"CExLabel"
+		"ControlName"					"panel"
 		"fieldName"						"TauntLabel"
-		"xpos"							"9999"
+		visible "0"
 	}
 	"TopLine"
 	{
-		"ControlName"					"ImagePanel"
+		"ControlName"					"panel"
 		"fieldName"						"TopLine"
-		"xpos"							"9999"
+		visible "0"
 	}
 	"TauntHintLabel"
 	{
-		"xpos"							"9999"
+		visible "0"
 	}
 	"PresetsExplanation"
 	{
-		"xpos"							"9999"
+		visible "0"
 	}
 	"TauntsExplanation"
 	{
-		"xpos"							"9999"
+		visible "0"
 	}	
 }

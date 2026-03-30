@@ -1,26 +1,7 @@
+#base "vrcalibration.res"
+#base "ui3/base/label2.res"
 "Resource/UI/ExplanationPopup.res"
 {
-	"TitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%title%"
-		"textAlignment"	"north"
-		"xpos"			"cs-0.5"
-		"ypos"			"10"
-		"wide"			"f20"
-		"tall"			"30"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"proportionaltoparent"	"1"
-		"fgcolor_override" "Graydark"
-		"auto_tall_tocontents"	"1"
-	}
-		
 	"TextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -41,57 +22,7 @@
 		"fgcolor_override" "Graydark"
 		"auto_tall_tocontents"	"1"
 	}
-		
-	"CloseButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"ypos"			"5"
-		"zpos"			"10"
-		"wide"			"24"
-		"tall"			"20"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"0"
-		
-		
-		"Command"		"close"
-		"proportionaltoparent"	"1"
-		
-			
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "Graydark"
-		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "Graydark"
-			
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"200 80 60 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}				
-	}	
-		
+	
 	"PrevButton"
 	{
 		"ControlName"	"CExImageButton"

@@ -18,14 +18,14 @@
 
 	"CTFLogoPanel"
 	{
-		"ControlName"								"CTFLogoPanel"
+		"ControlName"								"panel"
 		"fieldname"									"CTFLogoPanel"
 		"xpos"										"9999"
 	}
 
 	"QueueText"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"panel"
 		"fieldName"									"QueueText"
 		"xpos"										"9999"
 	}

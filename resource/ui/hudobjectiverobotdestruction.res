@@ -1,46 +1,8 @@
 #base "vsh_hud.res"
+#base "BuyMenu_TER.res"
 "Resource/UI/HudObjectiveFlagPanel.res"
 {
-	"PlayingTo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"
-		"ypos"			"r28"
-		"zpos"			"4"
-		"wide"			"140"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_PlayingTo"
-		"textAlignment"	"center"
-		//
-		
-		"font"			"HudFontSmall"
-		"fgcolor"		"TanLight"
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}	
-			
-	"PlayingToBG"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"PlayingToBG"
-		"visible"		"0"
-	}
+
 	"CarriedContainer"
 	{
 		"ControlName"		"EditablePanel"

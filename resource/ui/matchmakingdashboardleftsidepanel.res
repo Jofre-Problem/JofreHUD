@@ -2,18 +2,9 @@
 {
 	"Shade"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Shade"
-		"xpos"			"3"
-		
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		//"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"bgcolor_override"	"black"
+		"ControlName"								"Panel"
+		"fieldName"									"Shade"
+		"xpos"										"9999"
 	}
 
 	"TitleGradient"

@@ -1,19 +1,6 @@
 #base "../../customization/colors/user_colors.res"
 #base "../../customization/colors/custom_colors.res"
 
-#base "../../../../../cfg/_jp_chat_size.txt"
-#base "../../../../../cfg/_jp_chat_color.txt"
-#base "../../../../../cfg/_jp_chat_shadow.txt"
-#base "../../../../../cfg/_jp_chat_outline.txt"
-#base "../../../../../cfg/_jp_chat_scrollbar_wide.txt"
-
-#base "../../../../cfg/_jp_chat_size.txt"
-#base "../../../../cfg/_jp_chat_color.txt"
-#base "../../../../cfg/_jp_chat_shadow.txt"
-#base "../../../../cfg/_jp_chat_outline.txt"
-#base "../../../../cfg/_jp_chat_scrollbar_wide.txt"
-
-
 
 #base "combinepanelscheme.res"
 Scheme

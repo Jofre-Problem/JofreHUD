@@ -1,3 +1,6 @@
+#base "vrcalibration.res"
+#base "ui3/base/label2.res"
+#base "C4Panel.res"
 "Resource/UI/CheatDetectionDialog.res"
 {
 	"CheatDetectionDialog"
@@ -15,63 +18,8 @@
 
 	"TitleLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
-		"xpos"			"0"
-		"ypos"			"13"
-		"zpos"			"1"
-		"wide"			"320"
-		"tall"			"15"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
 		"labelText"		"#TF_CheatDetected_Title"
-		"textAlignment"		"North"
-		"fgcolor_override" "200 80 60 255"
 	}
-	"ExplanationLabel"
-	{	
-		"ControlName"		"Label"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmall"
-		"xpos"			"20"
-		"ypos"			"35"
-		"zpos"			"1"
-		"wide"			"290"
-		"tall"			"85"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"labelText"		"%reason%"
-		"textAlignment"		"North"
-	}
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"110"
-		"ypos"			"130"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"25"
-		//	"0"
-		//		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
-		"default"		"1"
-		"Command"		"close"
-		
-		
-	}
+
+
 }

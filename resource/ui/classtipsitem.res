@@ -1,4 +1,4 @@
-"classes/ClassTipsItem.res"
+"x"
 {
 	"ClassTipsItemPanel"
 	{

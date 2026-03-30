@@ -2755,7 +2755,7 @@ Scheme
 		GrayDialogBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"NotoBlack"
 			"offset" 				"0 0"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"

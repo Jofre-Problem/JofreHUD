@@ -1,58 +1,11 @@
+#base "youtubelogindialog.res"
+#base "C4Panel.res"
 "Resource/UI/ConfirmDialogOptOut.res"
 {
-	"ConfirmDialog"
-	{
-		"ControlName"		"Frame"
-		"fieldName"		"ConfirmDialog"
-		"xpos"			"c-150"
-		"ypos"			"140"
-		"wide"			"300"
-		"tall"			"250"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"settitlebarvisible"	"0"
-		//
-	}
-	
-	"TitleLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ConfirmTitle"
-		"textAlignment"	"north"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"300"
-		"tall"			"20"
-		//	"1"
-		
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
+
 	"ExplanationLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ExplanationLabel"
-		"font"			"HudFontSmallBold"
 		"labelText"		"%text%"
-		"textAlignment"	"center"
-		"xpos"			"40"
-		"ypos"			"45"
-		"zpos"			"1"
-		"wide"			"220"
-		"tall"			"130"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 		
 	"CancelButton"
@@ -82,16 +35,8 @@
 
 	"CancelButtonHintIcon"
 	{
-		"ControlName"	"CSCHintIcon"
-		"fieldName"		"CancelButtonHintIcon"
-		"xpos"			"195"
-		"ypos"			"165"
-		"zpos"			"25"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"actionSet"		"MenuControls"
-		"actionName"	"menu_cancel"
+		"ControlName"	"panel"
+		"visible"		"0"
 	}
 
 	"ConfirmButton"
@@ -122,16 +67,8 @@
 
 	"ConfirmButtonHintIcon"
 	{
-		"ControlName"	"CSCHintIcon"
-		"fieldName"		"ConfirmButtonHintIcon"
-		"xpos"			"15"
-		"ypos"			"165"
-		"zpos"			"25"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"actionSet"		"MenuControls"
-		"actionName"	"menu_select"
+		"ControlName"	"panel"
+		"visible"		"0"
 	}
 	
 	"OptOutCheckbox"
@@ -143,15 +80,10 @@
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"25"
-		//	"0"
-		
 		"visible"		"1"
 		"enabled"		"1"
-		//	"0"
 		"labelText"		"#TF_Confirm_Opt_Out"
 		"textAlignment"	"center"
-		//
-		
 		
 		"font"			"HudFontSmallest"
 		"selected_fgcolor_override" "255 0 0 255"
