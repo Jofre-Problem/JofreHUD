@@ -2758,7 +2758,7 @@ Scheme
 			"color"		"NotoBlack"
 			"offset" 				"0 0"
 
-			  "image"                     "replay/thumbnails/panels/backpack_slot"
+			  "image"                     "replay/thumbnails/noto_black"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"

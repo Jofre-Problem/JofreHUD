@@ -11,7 +11,16 @@
 		"screenshot_move_panel_to_corner"	"0"
 		"visible"		"0"
 	}
-
+	"itempanel"
+	{
+		"xpos"			"rs1"
+		"ypos"			"cs-0.5"
+		"zpos"			"10"
+		"wide"			"110"
+		"tall"			"200"
+		bgcolor_override "Black"
+		border "black"
+	}	
 	"FreezePanelBase"
 	{
 		"ControlName"	"EditablePanel"
