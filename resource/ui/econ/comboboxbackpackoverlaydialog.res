@@ -61,7 +61,8 @@
 		{
 			"force_use_model"		"1"
 			"use_item_rendertarget" "1"
-			"allow_rot"				"1"
+			"allow_rot"				"1" 
+			model_rotate_yaw_speed	100
 		}
 	}
 
