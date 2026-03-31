@@ -70,20 +70,6 @@
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
 	}
-	"metric"
-	{
-	"ControlName"	"ImagePanel"
-	"fieldName"	"metric"
-	"xpos"	"257"
-	"ypos"	"400"
-	"zpos"	"61"
-	"wide"	"50"
-	"tall"	"51"
-	"visible" "1"
-	"enabled"		"1"
-	"image"	"replay/thumbnails/metrica"
-	"scaleimage""1"
-	}			
 	"cleanhurt"
 	{
 	"ControlName"	"ImagePanel"
