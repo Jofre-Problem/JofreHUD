@@ -1060,11 +1060,11 @@
 		//"enabled"		"1"
 		"bgcolor_override"	"blank"
 
-	"LogoButtonsJOFRE" //logo
+	"LogoButtons"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"LogoButtonsJOFRE"
-		"xpos"			"-35"////"cS-0.5-227-75"
+		"fieldName"		"LogoButtons"
+		"xpos"			"-35"
 		"ypos" 			"cS-0.5-35+17"
 		"zpos"			"299"
 		"wide"			"320"
@@ -14861,21 +14861,7 @@
 				"armedbgcolor_override" "0 0 0 220"
 				"armedfgcolor_override" "notogreen"
 			}
-				"buttonimage"
-				{
-					"fieldName" "buttonimage"
-					"ControlName"	"imagepanel"
-					"xpos"			"0"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"mouseinputenabled" "0"
-					"wide"			"64"
-					"tall"			"184"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/buttonright"
-				}					
+	
 			"RandomPinnerThatWorks" //leftover
 			{
 				"ControlName"	"CExButton"

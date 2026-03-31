@@ -669,8 +669,244 @@
 					"wide"		"0"
 				}
 	
-				}				
-			"5"
+				}
+			"2"
+			{
+				"item"		"Frying Pan"
+				"show_market"	"0"
+				"present_time"	"15.0"
+				"xxxxx"
+				{
+					"ControlName"	"urllabel"
+					"fieldName"		"xxxxx"
+					"font"			"itemfontnamesmallest"
+					"labelText"		"Halloween Spells!"
+					"textAlignment"	"west"
+					"xpos"			"10"
+					"ypos"			"0"
+					"zpos"				"20"
+					"wide"			"200"
+					"tall"			"20"
+					proportionaltoparent 1
+					"fgcolor_override"		"217 141 53 255"
+					"urltext" "https://itempedia.tf/other#spells"
+				}		
+				"1erfila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"12"
+					"ypos"			"32"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/spell-demomans-cadaverous-croak-voice"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-heavys-bottomless-bass-voice"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"1erfila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-engineers-gravelly-growl-voice"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"1erfila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-medics-blood-curdling-bellow-voice"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"1erfila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"1erfila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"1erfila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-snipers-deep-downunder-drawl-voice"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+
+
+
+
+
+
+
+
+				"2dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/spell-spys-creepy-croon-voice"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "1erfila_a"
+				}	
+				"2dafila_b"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_b"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_a"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+	xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-exorcism"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}
+				"2dafila_c"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_c"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_b"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-gourd-grenades"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}	
+				"2dafila_d"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_d"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_c"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-sentry-quad-pumpkins"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"2dafila_e"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"2dafila_e"					"labelText"		""					"textAlignment"	"west"
+		pin_to_sibling 			"2dafila_d"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+		xpos 2+p0.002
+					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
+					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+
+					"command" "url https://itempedia.tf/item/spell-squash-rockets"
+
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+				}		
+				"3dafila_a"
+				{
+					"ControlName"	"cexbutton"
+					"fieldName"		"3dafila_a"					"labelText"		""					"textAlignment"	"west"
+					"xpos"			"0"
+					"ypos"			"3+p0.004"
+					"zpos"				"20"
+					"wide"			"58"
+					"tall"			"o1"
+					proportionaltoparent 1
+					bgcolor_override "0 0 0 200"
+					"command" "url https://itempedia.tf/item/spell-spectral-flame"
+					"defaultbgcolor_override" "blank"
+					"armedbgcolor_override" "0 0 0 200"
+					"depressedbgcolor_override" "125 109 0 255"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
+					"pin_to_sibling" "2dafila_a"
+				}	
+	
+		"web_selfamde"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_selfamde"
+
+						xpos 12
+						ypos "32"
+			zpos "1"
+			"wide"			"p0.535"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/spelllstest2"
+			mouseinputenabled 0
+		}
+				"Background"
+				{					"wide"		"0"				}
+
+				"ItemIcon"
+				{					"wide"		"0"				}
+
+				"ItemName"
+				{					"xpos"		"r0"				}
+
+				"BuyButton"
+				{					"wide"		"0"				}
+
+				"ScrollableItemText"
+				{					"wide"		"0"				}
+	
+				}	
+			"3"
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"

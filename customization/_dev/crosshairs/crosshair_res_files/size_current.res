@@ -1,1 +1,0 @@
-"#base" "../../../../../../../cfg/_jp_crosshair_size.txt"

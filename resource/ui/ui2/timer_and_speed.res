@@ -75,7 +75,7 @@
 		"wide"					"4"
 		"tall"					"10"
 		 drawcolor "0 0 0 250"
-		"image"					"replay/thumbnails/old_timer/hmm"
+		"image"					"replay/thumbnails/timer_hour_V2/separator"
 		"scaleImage"			"1"
 		"pin_to_sibling"		"MMDigits2"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"

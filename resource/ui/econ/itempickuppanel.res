@@ -103,7 +103,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/reze2_low"
+		"image"			"replay/thumbnails/reze2"
 		"scaleImage"	"1"
 	}
 		
