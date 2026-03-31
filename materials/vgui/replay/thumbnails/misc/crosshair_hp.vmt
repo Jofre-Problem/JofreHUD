@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/misc/crosshair_speed"
+	"$translucent" 1
+	"$vertexcolor" 1
+	
+	"$ignorez" 1
+	"$health" 0
+	Proxies {
+		Health {
+			scale 0.04
+			resultVar $health 
+		}
+		Clamp {
+			min 0
+			max 25
+			srcVar1 $health
+			resultVar $frame
+		}
+	}
+}

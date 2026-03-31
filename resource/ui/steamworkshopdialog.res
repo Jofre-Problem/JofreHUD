@@ -105,21 +105,6 @@
 		"tall"	"f0"
 		"zpos"					"-1000"
 	}	
-			"tank"
-			{
-				ControlName				ImagePanel
-				fieldName				"tank"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/menubg"	
-		"scaleImage"		"1"	
-	}		
-	
 	"discord"		
 	{
 		ControlName				Label

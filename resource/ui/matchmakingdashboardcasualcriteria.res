@@ -39,9 +39,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"scaleimage"								"1"
-	//	"fillcolor"			"64 64 64 200"
-	//	"image"										"replay/thumbnails/l4d2/scoreboardbg"//
-	
+
 	"image""replay/thumbnails/mm_menu/casualbg"
 	}
 	

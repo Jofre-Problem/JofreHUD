@@ -1,0 +1,5 @@
+#base "../timer.vmt"
+
+"UnlitGeneric" {
+	$digit 1000
+}

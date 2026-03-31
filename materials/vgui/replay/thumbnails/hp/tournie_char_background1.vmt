@@ -1,0 +1,66 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\hp\tournie_char_background1"
+	//"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$ignorez" 1
+	"$isalpha1" "0.0"
+	"$isalpha2" "0.0"
+	"$isalpha3" "0.0"
+	"$isalpha4"	"0.0"
+	"$isalpha5"	"0.0"
+	"$isalpha6"	"0.0"
+	"$isalpha7"	"0.0"
+	
+	"$color"	"[1.0 1.0 1.0]"
+	
+	"$RNGmin" "0.2"
+	"$RNGmax" "1.2"
+	"$varzero" "0.0"
+	
+	"$isalpha" 0
+	
+	"Proxies"
+	{
+		// find 1 or 0 with a higher likelyhood of 0
+		"UniformNoise"
+        {
+            "minVal"	"$RNGmin"
+			"maxVal"	"$RNGmax"
+            "resultVar" "$isalpha1"
+        }
+		"Abs"
+		{
+			"srcVar1"	"$isalpha1"
+			"resultVar"	"$isalpha2"
+		}
+		"Frac"
+		{
+			"srcVar1"	"$isalpha2"
+			"resultVar"	"$isalpha3"
+		}
+		"Subtract"
+		{
+			"srcVar1"	"$isalpha2"
+			"srcVar2"	"$isalpha3"
+			"resultVar"	"$isalpha4"
+		}
+		
+		// I NEED TO FIND OUT A WAY TO WORK THIS
+		// AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		// something in the middle here should either stop that uniformnoise from working or make all later results of it irrelevant, while keeping the first value intact
+		// but I do not know how and whatever I tried did not work
+		// entityrandom won't work because hud elements are not tied to an entity
+		// attempt at your own risk
+		// I will love you if you fix this
+		
+		// apply the found value to set whether the image is visible or not
+		"Clamp"
+		{
+			"min"		"0.0"
+			"max"		"1.0"
+			"srcVar1"	"$isalpha6"
+			"resultVar"	"$alpha"
+		}
+	} 
+}

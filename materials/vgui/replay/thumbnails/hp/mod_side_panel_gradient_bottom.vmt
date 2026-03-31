@@ -1,0 +1,9 @@
+Modulate
+{
+    "$baseTexture"              "vgui/replay/thumbnails/side_panel_gradient"
+    "$basetexturetransform"     "center .5 .5 scale 1 1 rotate 270 translate 0 0"
+$writez 1
+$texoffset "[0 0]"
+$texscale 1
+$translucent 1
+}

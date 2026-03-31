@@ -1,1 +1,0 @@
-#base "../../resource/ui/general/bosshealth/HUD_LAYOUT_Default.res"

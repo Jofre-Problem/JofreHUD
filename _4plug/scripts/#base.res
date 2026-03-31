@@ -1,1 +1,0 @@
-#base "!crosshair.res"

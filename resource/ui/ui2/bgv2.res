@@ -234,21 +234,6 @@
 					"visible"		"1"
 					"fillcolor" "0 0 0 255"
 				}	
-				"reze"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"reze"
-		"xpos"			"c0"
-		"ypos"			"rs1"
-		"zpos"			"1"
-		"wide"			"p0.2"
-		"tall"			"o1"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/agnes"
-		"scaleImage"	"1"
-		mouseinputenabled 0
-	}			
 			}	
 			"5"
 			{

@@ -1,0 +1,145 @@
+UnlitGeneric
+{
+"$baseTexture" "vgui\replay\thumbnails\speed\digits_1"
+$translucent 1
+$alpha 1
+$vertexalpha 1
+$ignorez 1
+$no_fullbright 1
+$vertexcolor 1
+
+$const1 100
+$const2 10
+$tmp1 0
+$tmp2 0
+$tmp3 0
+$speed 0
+$res1 0
+$res2 0
+$tmp4 0
+$tmp5 0
+$const3 0.05
+$speed2 0
+$speed3 0
+$franum 0
+$franum2 0
+$const4 1
+$const5 1
+$const6 0
+$const7 -1
+$res 0
+$max 0
+$max1 0
+
+$speed5 0
+$speed6 0
+$speed7 0
+
+$const10 1
+$const12 1
+$const13 0
+$const14 -1
+$franum5 0
+$franum6 0
+$franum7 0
+
+    Proxies
+      {
+       PlayerSpeed
+        {
+        "scale" "1"
+        "resultVar" "$speed2"
+        }
+	
+	Clamp
+	{
+	"min" "0"
+	"max" "9999"
+	"srcVar1" "$speed2"
+	"resultVar" "$speed2"
+	}
+	
+	Add
+        {
+        "srcVar1" "$speed2"
+        "srcVar2" "$const3"
+        "resultVar" "$speed2"
+        }
+       
+        Equals
+        {
+        "srcVar1" "$max"
+        "resultVar" "$max1"
+        }
+ 
+        Equals
+        {
+        "srcVar1" "$speed2"
+        "resultVar" "$speed"
+        }
+ 
+       LessOrEqual
+       {
+      "lessEqualVar" "$max1"
+      "greaterVar" "$speed"
+      "srcVar1" "$speed2"
+      "srcVar2" "$max"
+      "resultVar" "$max"
+       }
+       
+        Divide
+        {
+        "srcVar1" "$max"
+        "srcVar2" "$const1"
+        "resultVar" "$tmp1"
+        }
+
+        Frac
+        {
+        "srcVar1" "$tmp1"
+        "resultVar" "$res1"
+        }
+
+       Multiply
+        {
+        "srcVar1" "$res1"
+        "srcVar2" "$const1"
+        "resultVar" "$tmp2"
+        }
+    
+        Subtract
+        {
+        "srcVar1" "$max"
+        "srcVar2" "$tmp2"
+        "resultVar" "$res2"
+        }
+
+       Divide
+        {
+        "srcVar1" "$res1"
+        "srcVar2" "$const2"
+        "resultVar" "$tmp3"
+        }
+
+        Frac
+        {
+        "srcVar1" "$tmp3"
+        "resultVar" "$tmp4"
+        }
+
+       Multiply
+        {
+        "srcVar1" "$tmp4"
+        "srcVar2" "$const2"
+        "resultVar" "$tmp5"
+        }
+    
+        Subtract
+        {
+        "srcVar1" "$res1"
+        "srcVar2" "$tmp5"
+        "resultVar" "$frame"
+        }
+
+      }
+}

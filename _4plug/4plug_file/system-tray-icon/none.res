@@ -1,5 +1,0 @@
-Scheme
-{
-	BaseSettings
-	{FrameSystemButton.Icon			""}	
-}	

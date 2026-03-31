@@ -1,0 +1,69 @@
+UnlitGeneric
+{
+"$baseTexture" "vgui\replay/thumbnails/timer_hour_v2\digits"
+$translucent 1
+$alpha 1
+$vertexalpha 1
+$ignorez 1
+$no_fullbright 1
+$vertexcolor 1
+$curtime 0
+$const 3600
+$curtime2 0
+$frame 1
+$hour 0
+$a 0
+$b 0
+$c 0
+$const2 10
+
+Proxies
+{
+   CurrentTime
+    {
+        "resultVar" "$curtime"
+    }
+  
+   
+   Divide
+   {
+        "srcVar1" "$curtime"
+        "srcVar2" "$const"
+        "resultVar" "$curtime2"
+   }
+
+   Int
+   {
+        "srcVar1" "$curtime2"
+        "resultVar" "$hour"
+   }
+
+   Divide
+   {
+        "srcVar1" "$hour"
+        "srcVar2" "$const2"
+        "resultVar" "$a"
+   }
+
+   Int
+   {
+        "srcVar1" "$a"
+        "resultVar" "$b"
+   }
+
+    Multiply
+   {
+        "srcVar1" "$b"
+        "srcVar2" "$const2"
+        "resultVar" "$c"
+   }
+    
+   Subtract
+   {
+        "srcVar1" "$hour"
+        "srcVar2" "$c"
+        "resultVar" "$frame"
+   }
+
+}
+}

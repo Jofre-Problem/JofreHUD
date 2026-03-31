@@ -1,0 +1,21 @@
+"UnlitGeneric"
+{
+	"$translucent"	"1"
+	"$basetexture"	"vgui\replay\thumbnails\linux"
+	
+	"$vertexcolor"		"0"
+	
+	"$vertexalpha"		"1"
+	"$ignorez"			"1"
+	"$alpha"			"0"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" "1"
+			"initialValue" "-0.5"
+			"resultvar" "$alpha"
+		}
+	}
+}

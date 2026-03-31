@@ -96,7 +96,7 @@
 		zpos 9991
 		"wide"		"6"
 		"tall"		"36" 
-		border refractborder
+		border cleanup
 		"bgcolor_override"	"0 0 0 1"
 		"visible"		"1"
 	}		

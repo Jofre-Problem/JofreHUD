@@ -22,7 +22,7 @@
 "image""replay/thumbnails/noto_black"
 "scaleImage""1"
 "teambg_2""replay/thumbnails/steam_summersale/s_border_orange"
-"teambg_3""replay/thumbnails/steam_summersale/s_border_azul"
+"teambg_3""replay/thumbnails/steam_summersale/s_border_holy"
 
 "src_corner_height""32"
 "src_corner_width""32"

@@ -33,17 +33,16 @@
 
 	"CompetitiveImage"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"CompetitiveImage"
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"f0"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"scaleimage"								"1"
-		"image"										"replay/thumbnails/mm_menu/mvmbg"
 	}
 
 	"NextButton"

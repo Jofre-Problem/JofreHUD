@@ -13,7 +13,7 @@
 		"wide"			"110"
 		"tall"			"200"
 		"visible"		"0"
-		"bgcolor_override"		"blank"
+		"bgcolor_override"		"10 10 10 255"
 		border "GrayDialogBorder"
 		//
 		

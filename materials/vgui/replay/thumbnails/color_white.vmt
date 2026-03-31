@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud\color_white"
+	"$vertexalpha" 1
+}

@@ -197,64 +197,7 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-		"thelabel"
-		{
-
-			"fieldName"		"thelabel"
-			labelText "Self-Made Max Severed Head"
-			fgcolor_override "QualityColorSelfMade"
-						xpos cs-0.5
-						ypos "30"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"20"
-			textAlignment center
-			font "ItemFontAttribSmallv2"
-			mouseinputenabled 0
-			"ControlName"	"cautofittinglabel"			
-			"fonts"
-			{
-				"0"		"ItemFontNameLarger"
-				"1"		"ItemFontAttribSmallv2"
-				"2"		"Itemfontnamesmallest"
-			}	
-		}	
-		"thedesc"
-		{
-			"ControlName"	"cexlabel"
-			"fieldName"		"thedesc"
-			wrap 1
-			labelText "This item was awarded to the employees of 'Telltale Games', creators of the Sam & Max games, in Self-Made quality with a Community Sparkle effect and a non-tradable attribute. An oversight by Valve use to exist where one could gift-wrap non-tradable items, and gift them to someone else. This was later patched, but various non-tradable item were gift wrapped in the meantime. Some of them remain wrapped, while some were gifted and unwrapped. This is exactly what happened with this item, as indicated by 'Gift from' tag."
-			fgcolor_override "123 116 101 255"
-						xpos cs-0.5
-						ypos "rs1"
-			zpos "2"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"55"
-			textAlignment center
-			font "itemfontnamesmallest"
-			mouseinputenabled 0
-		}			
-		"web_trade"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"web_trade"
-
-						xpos cs-0.5
-						ypos "60"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"o1"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/web2/selfmade_max"
-			border "noborder"
-			mouseinputenabled 0
-		}
+		
 	
 				"Background"			{					"wide"		"0"			}
 				"ItemIcon"				{					"wide"		"0"				}
@@ -268,63 +211,7 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-		"thelabel"
-		{
-
-			"fieldName"		"thelabel"
-			labelText "Team Fortress 2 - Upgrade To Premium"
-			fgcolor_override "QualityColorUnique"
-						xpos cs-0.5
-						ypos "30"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"20"
-			textAlignment center
-			"ControlName"	"cautofittinglabel"			
-			"fonts"
-			{
-				"0"		"ItemFontNameLarger"
-				"1"		"ItemFontAttribSmallv2"
-				"2"		"Itemfontnamesmallest"
-			}	
-			mouseinputenabled 0
-		}	
-		"thedesc"
-		{
-			"ControlName"	"cexlabel"
-			"fieldName"		"thedesc"
-			wrap 1
-			labelText "This 'tool' is automatically added and used when upgrading to a Premium account after the first Mann Co. Store purchase. It is never meant to exist in an inventory, but for unknown reason, one got glitched and was not used. Only 1 exists."
-			fgcolor_override "123 116 101 255"
-						xpos cs-0.5
-						ypos "rs1"
-			zpos "2"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"55"
-			textAlignment center
-			font "itemfontnamesmallest"
-			mouseinputenabled 0
-		}					
-		"upgrade"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"upgrade"
-
-						xpos cs-0.5
-						ypos "60"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"o1"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/web2/upgrade"
-			border "noborder"
-			mouseinputenabled 0
-		}
+	
 	
 				"Background"			{					"wide"		"0"			}
 				"ItemIcon"				{					"wide"		"0"				}
@@ -338,63 +225,7 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-		"thelabel"
-		{
-			"ControlName"	"cautofittinglabel"			
-			"fonts"
-			{
-				"0"		"ItemFontNameLarger"
-				"1"		"ItemFontAttribSmallv2"
-				"2"		"Itemfontnamesmallest"
-			}	
-			"fieldName"		"thelabel"
-			labelText "Strange Australium Sniper Rifle"
-			fgcolor_override "QualityColorUnique"
-						xpos cs-0.5
-						ypos "30"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"20"
-			textAlignment center
-			font "ItemFontAttribSmallv2"
-			mouseinputenabled 0
-		}	
-		"thedesc"
-		{
-			"ControlName"	"cexlabel"
-			"fieldName"		"thedesc"
-			wrap 1
-			labelText "Strange Unique items were created due to a bug introduced into TF2 with the Scream Fortress 2016 update. The nature of the bug was that any item that should have been created with Strange quality ended up being created as a Strange Unique. The majority of items that were produced from this glitch originated from crate unboxings, but the glitch affected all items that should have been Strange, including MvM rewards. A handful of Strange Unique Australiums and Botkillers were created as a result."
-			fgcolor_override "123 116 101 255"
-						xpos cs-0.5
-						ypos "rs1"
-			zpos "2"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"55"
-			textAlignment center
-			font "itemfontnamesmallest"
-			mouseinputenabled 0
-		}			
-		"unique-australium"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"unique-australium"
-
-						xpos cs-0.5
-						ypos "60"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"o1"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/web2/unique-australium"
-			border "noborder"
-			mouseinputenabled 0
-		}
+	
 	
 				"Background"			{					"wide"		"0"			}
 				"ItemIcon"				{					"wide"		"0"				}
@@ -408,63 +239,6 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-		"thelabel"
-		{
-			"ControlName"	"cautofittinglabel"			
-			"fonts"
-			{
-				"0"		"ItemFontNameLarger"
-				"1"		"ItemFontAttribSmallv2"
-				"2"		"Itemfontnamesmallest"
-			}	
-			"fieldName"		"thelabel"
-			labelText "Strange AWPer Hand w/ Halloween Spell"
-			fgcolor_override "QualityColorStrange"
-						xpos cs-0.5
-						ypos "30"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"20"
-			textAlignment center
-			font "ItemFontAttribSmallv2"
-			mouseinputenabled 0
-		}	
-		"thedesc"
-		{
-			"ControlName"	"cexlabel"
-			"fieldName"		"thedesc"
-			wrap 0
-			labelText "This PostLife AWP was sold for almost 2000 keys."
-			fgcolor_override "123 116 101 255"
-						xpos cs-0.5
-						ypos "rs1"
-			zpos "2"
-			proportionaltoparent 1
-			"wide"			"480"
-			"tall"			"55"
-			textAlignment center
-			font "itemfontnamesmallest"
-			mouseinputenabled 0
-		}			
-		"unique-australium"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"unique-australium"
-
-						xpos cs-0.5
-						ypos "67"
-			zpos "1"
-			proportionaltoparent 1
-			"wide"			"p0.8"
-			"tall"			"o0.5"
-			"scaleImage"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/web2/exo_awp"
-			border "noborder"
-			mouseinputenabled 0
-		}
 	
 				"Background"			{					"wide"		"0"			}
 				"ItemIcon"				{					"wide"		"0"				}

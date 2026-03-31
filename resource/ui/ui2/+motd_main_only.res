@@ -555,7 +555,7 @@
 		Command				"engine ds_dir demos/1scout"
 
 			"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}
 		"SoldierButton"			// other classes pinned to this
@@ -574,7 +574,7 @@
 		Command				"engine ds_dir demos/1soldier"
 
 			"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}	
 		"PyroButton"			// other classes pinned to this
@@ -593,7 +593,7 @@
 		Command				"engine ds_dir demos/1pyro"
 
 			"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}		
 		"DemoBTN"			// other classes pinned to this
@@ -612,7 +612,7 @@
 		Command				"engine ds_dir demos/1demo"
 
 				"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 
 	}	
@@ -632,7 +632,7 @@
 		Command				"engine ds_dir demos/1heavy"
 
 			"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}	
 		"Engiebtn"			// other classes pinned to this
@@ -651,7 +651,7 @@
 		Command				"engine ds_dir demos/1engi"
 
 			"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}			
 		"Medicbtn"			// other classes pinned to this
@@ -670,7 +670,7 @@
 		Command				"engine ds_dir demos/1medic"
 
 				"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 
 	}		
@@ -690,7 +690,7 @@
 		Command				"engine ds_dir demos/1sniper"
 
 				"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 
 	}			
@@ -710,7 +710,7 @@
 		Command				"engine ds_dir demos/1spy"
 
 				"border_default"	"FLAT_Black_4"
-		"border_armed"	"l4d2new2"	
+		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}				
 

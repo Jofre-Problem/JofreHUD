@@ -7,7 +7,6 @@
 #base "../../../../cfg/_jp_hudplayerclass_3d_bg.txt"
 
 #base "ui_overrides/spray_stuff/bottom_left.txt"
-#base "buymenu.res"
 //#base "ui2/speeds_all.res"
 //#base "../../../../../cfg/_jp_hud_radar.txt"	
 
@@ -42,10 +41,14 @@
 
 	"classmodelpanel"
 	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
 		"ypos"	"290"
 		"zpos"		"2"
 		"wide"		"150"
 		"tall"		"200"
+		"visible"		"1"
+		"enabled"		"1"
 		"render_texture"	"0"
 		"fov"		"12"
 		"allow_rot"		"1"
@@ -54,9 +57,20 @@
 
 		"model"
 		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
 			"angles_y" "172"
+			"angles_z" "0"
 			"origin_x" "200"
+			"origin_y" "0"
 			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+
+			"modelname"		""
 		}
 
 		"customclassdata"

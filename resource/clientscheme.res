@@ -4745,18 +4745,7 @@ Scheme
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
-		}
-		l4d2new2
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color"					"primary"
-			"image"					"replay/thumbnails/l4d2/avatarframe_portal_white_test"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"
-		}					
+		}				
 		l4d2
 		{
 			"bordertype"			"scalable_image"
@@ -4779,19 +4768,7 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
-		}			
-		RefractBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			
-			"image"					"replay/thumbnails/hp/refractnormal"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}		
-	
+		}
 		TFThinLineBorder
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	

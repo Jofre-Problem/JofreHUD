@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\bluecorner"
+	"$vertexalpha" 1
+}

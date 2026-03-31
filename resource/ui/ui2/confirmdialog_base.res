@@ -57,20 +57,6 @@
 					"2"		"HudFontSmall"
 				}	
 	}
-			"tank_gif"
-			{
-			"ControlName""ImagePanel"
-			"fieldName""tank_gif"
-			"wide""120"
-			xpos 215
-			"tall""o1"
-			ypos -3
-			zpos 100
-			mouseinputenabled 0
-			"scaleImage""1"
-			"image""replay/thumbnails/l4d2/noskill_tank_t"
-			"fgcolor""TanDark"
-			}	
 	//This is the most stupid
 	// weird
 	// element

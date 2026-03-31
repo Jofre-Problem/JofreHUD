@@ -1,0 +1,4 @@
+"Patch"
+{
+	"include" "cfg\VCR/tester3.txt"
+}

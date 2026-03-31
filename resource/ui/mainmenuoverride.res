@@ -1058,93 +1058,8 @@
 		"tall"			"433"
 		"visible"		"1"
 		//"enabled"		"1"
-		"bgcolor_override"	"255 255 255 0"
-	"DeckPanel" [$LINUX] 
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"DeckPanel"
-		"xpos"			"-35"////"cS-0.5-227-75"
-		"ypos" 			"80"
-		"zpos"			"500"
-		"wide"			"400"
-		"tall"			"130"
-		"visible"		"1"
-		//"enabled"		"1"
-		"bgcolor_override"	"255 55 25 0"
-		mouseinputenabled 0
-				"deck0"
-				{
-					"fieldName" "deck0"
-					"ControlName"	"ImagePanel"
-					"xpos"			"100"//359
-					"ypos"			"-3"//179
-					"zpos"			"0"
-					"wide"			"120"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/playstyle_decked"
-				}				"deck1"
-				{
-					"fieldName" "deck1"
-					"ControlName"	"ImagePanel"
-					"xpos"			"75"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"[$LINUX] 
-					"image" "replay/thumbnails/playstyle_decked"
-					"mouseinputenabled" 0
-				}
-				"deckdocked"
-				{
-					"fieldName" "deck1"
-					"ControlName"	"ImagePanel"
-					"xpos"			"-90"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"80"
-					"tall"			"o1"
-					"zpos" "300"
-					"visible"		"0"
-					"scaleimage" "1"
-					pin_to_sibling deck1
-					"image" "replay/thumbnails/playstyle_docked"
-					"mouseinputenabled" 0
-				}				
-				"bg"
-				{
-					"fieldName" "bg"
-					"ControlName"	"ImagePanel"
-					"xpos"			"0"//359
-					"ypos"			"0"//179
-					"zpos"			"0"
-					"wide"			"f0"
-					"tall"			"f0"
-					"zpos" "300"
-					"visible"		"1"
-					"scaleimage" "1"
-					"bgcolor_override" "SaleGreen"
-				}
-	}			
-        "LogoButtons"
-        {
-            "ControlName"	"ImagePanel"
-            "fieldName"		"LogoButtons"
-            "xpos"			"-35"////"cS-0.5-227-75"
-            "ypos" 			"cS-0.5-35+17"
-            "zpos"			"299"
-            "wide"			"320"
-            "tall"			"320"
-            "visible"		"1"
-            "enabled"		"1"
-            "image"			"replay\thumbnails\mm\LogoButtons"
-            "scaleImage"	"1"
-        }	
+		"bgcolor_override"	"blank"
+
 	"LogoButtonsJOFRE" //logo
 	{
 		"ControlName"	"ImagePanel"
@@ -1154,10 +1069,9 @@
 		"zpos"			"299"
 		"wide"			"320"
 		"tall"			"320"
-		"visible"		"1" [$WINDOWS] 
-		"visible"		"0" [$LINUX] 
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\mm\LogoButtons_jofre" 
+		"image"			"replay\thumbnails\mm\LogoButtons" 
 		"scaleImage"	"1"
 	}	 
 		
@@ -14701,21 +14615,6 @@
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 			}	
-			"l4d2pic5"
-			{
-				ControlName				ImagePanel
-				fieldName				"l4d2pic5"
-				xpos					0
-				ypos					0
-				wide					30
-				tall					o1
-				proportionaltoparent		1
-				image					"replay/thumbnails/l4d2/goodguinick"
-				scaleImage				1
-			"pin_to_sibling" "l4d2pic4"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-			}										
 					"NewUserForumsButton"
 					{
 						"ControlName"	"CExButton"

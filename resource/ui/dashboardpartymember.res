@@ -137,6 +137,6 @@
 		armedBgColor_override		"0 0 0 100"
 
 		border_default				"NoBorder"
-		border_armed				"l4d2new2"		
+		border_armed				"l4d2"		
 	}
 }
