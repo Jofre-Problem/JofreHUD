@@ -111,10 +111,9 @@
 				"zpos"								"14"
 				"wide"								"150"
 				"tall"								"150"
-				"visible"							"1"
+				"visible"							"0"
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/mm_menu/mannup"
 				"proportionaltoparent"				"1"
 			}
 		}
@@ -246,11 +245,10 @@
 				"zpos"								"14"
 				"wide"								"150"
 				"tall"								"150"
-				"visible"							"1"
+				"visible"							0
 				"enabled"							"1"
 				"scaleImage"						"1"
-				"image"								"replay/thumbnails/mm_menu/bootcamp"
-				"proportionaltoparent"				"1"
+			"proportionaltoparent"				"1"
 			}
 		}
 
