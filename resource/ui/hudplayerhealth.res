@@ -157,7 +157,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"drawcolor"	"100 226 13 255"
-		"image"		"replay/thumbnails/panels/Material_Generic"
+		"image"		"replay/thumbnails/materialPanel"
 		"scaleimage"	"1"
 		"alpha" "255"
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"

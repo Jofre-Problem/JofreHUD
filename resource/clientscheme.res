@@ -3,10 +3,7 @@ Scheme
 {
 	"BitmapFontFiles"
 	{
-	//	"Ergoe_72"										"materials/replay/thumbnails/Ergoe_72.vbf"
-		"Ergoe_72"										"materials/vgui/fonts/Ergoe_72.vbf"
-	//	"Ergoe_72"										"fonts/Ergoe_72.vbf"
-	//	"Ergoe_72"										"../vgui/fonts/Ergoe_72.vbf"
+		"Ergoe_72"	"materials/vgui/replay/thumbnails/Ergoe_72.vbf"
 	}		
 	Colors
 	{	
@@ -4659,7 +4656,7 @@ Scheme
 			
             "color"	"TanLight"					
 			
-			"image"	"replay/thumbnails/panels/material_generic"	
+			"image"	"replay/thumbnails/materialPanel"	
 			
 			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
 		}
@@ -4669,7 +4666,7 @@ Scheme
 			
             "color"	"43 42 42 255"					
 			
-			"image"	"replay/thumbnails/panels/material_generic"		
+			"image"	"replay/thumbnails/materialPanel"		
 			
 			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
 		}		
@@ -4679,7 +4676,7 @@ Scheme
 			
             "color"	"Black"					
 			
-			"image"	"replay/thumbnails/panels/material_generic"		
+			"image"	"replay/thumbnails/materialPanel"		
 			
 			"src_corner_height"	"32"	"src_corner_width"	"32"	"draw_corner_width"	"8"	"draw_corner_height"	"8"
 		}
@@ -4690,7 +4687,7 @@ Scheme
 			"backgroundtype"								"0"
 			"Color"											"blue"
 
-			"image"											"replay/thumbnails/panels/Material_Generic"
+			"image"											"replay/thumbnails/materialPanel"
 			"src_corner_height"								"12"
 			"src_corner_width"								"12"
 			"draw_corner_width"								"2"

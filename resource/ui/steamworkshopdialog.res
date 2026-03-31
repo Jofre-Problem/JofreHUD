@@ -178,8 +178,7 @@
 
 			//
 			"paintbackground"		"1"
-			"mouseInputenabled"	"0"
-		//	"border"		"Modal_0"			
+			"mouseInputenabled"	"0"		
 			"bgcolor_override"				"11 4 22 1"
 
 
