@@ -14,7 +14,7 @@
 
 	"RanksContainer"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"RanksContainer"
 		"xpos"			"0"
 		"ypos"			"0"

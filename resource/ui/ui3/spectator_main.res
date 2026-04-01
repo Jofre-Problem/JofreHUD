@@ -4,63 +4,7 @@
 	"specgui"
 	{
 	}
-            bgmore1{
-                controlname editablepanel 
-				ypos 25
-				xpos 5
-                wide 40 
-                tall 18
-                proportionaltoparent 1 
-
-                fgcolor_override "255 255 255 50" 
-                paintBackground 1 
-                bgcolor_override "0 0 0 200"
-				border blurborder
-            }
-
-            bgmore2
-			{
-                controlname editablepanel 
-				ypos 25+67
-				xpos 5
-                wide 40 
-                tall 18
-                proportionaltoparent 1 
-
-                fgcolor_override "255 255 255 50" 
-                paintBackground 1 
-                bgcolor_override "0 0 0 200"
-				border blurborder
-            }	
-	dddlabe1
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"dddlabe1"
-				ypos 28
-				xpos 7
-		"font" "ItemFontNameSmall"
-		"labelText" "Ǯ"
-		"wide"					"10"
-		"tall"					"12"
-		"visible"				"1"
-		"enabled"				"1"
-
-	}	
-	dddlabe2
-	{
-		"ControlName"			"cexlabel"
-		"fieldName"				"dddlabe2"
-				ypos 95
-				xpos 7
-		"font" "ItemFontNameSmall"
-		"labelText" "ǰ"
-		"wide"					"10"
-		"tall"					"12"
-		"visible"				"1"
-		"enabled"				"1"
-
-	}				
-
+         
 
 
 
@@ -93,14 +37,6 @@
 		"textAlignment"		"center"
 		"font"			"ScoreboardTeamName"
 	}
-
-	"MapLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"visible"			"0"
-	}
-
 
 	"spectator_extras"
 	{
@@ -138,25 +74,25 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"SwitchCamModeLabel"
-		"tall"		"0"
+		"visible"		"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"tall"		"0"
+		"visible"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"tall"		"0"
+		"visible"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"tall"		"0"
+		"visible"		"0"
 	}
 	"CycleTargetRevLabel"
 	{

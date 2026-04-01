@@ -13,21 +13,10 @@
 		"proportionaltoparent"	"1"
 
 		"RankImage"
-		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"-8"
-			"ypos"			"-15"
-			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Ladder_6v6"
-		}
+			{
+				"ControlName"	"Panel"
+				"visible"		"0"
+			}
 	
 		"RankPanel"
 		{
@@ -119,8 +108,7 @@
 
 			"PlayListDropShadow"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"PlayListDropShadow"
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 
@@ -137,29 +125,25 @@
 				"proportionaltoparent"	"1"
 
 				"BGPanel"
-				{
-					"ControlName"	"EditablePanel"
-					"fieldName"		"BGPanel"
-					"visible"		"0"
-				}
+			{
+				"ControlName"	"Panel"
+				"visible"		"0"
+			}
 
 				"SortArrow"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"SortArrow"
+			{
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 
 				"ResultButton"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"ResultButton"
+			{
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 				"DateButton"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"DateButton"
+			{
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 					
@@ -167,16 +151,14 @@
 				
 
 				"MapButton"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"MapButton"
+			{
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 
 				"KDRButton"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"KDRButton"
+			{
+				"ControlName"	"Panel"
 				"visible"		"0"
 			}
 			}
