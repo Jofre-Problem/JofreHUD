@@ -69,18 +69,7 @@
 		"image"			"replay/thumbnails/linux" [$LINUX]
 		"scaleImage"	"1"
 	}	
-	"dx"
-	{
-		ControlName				ImagePanel
-		FieldName				"dx"	
-		"xpos"				"180"
-		"ypos"				"3"
-		"zpos"				"5000"
-		"wide"				"35"
-		"tall"	"o1"
-		"image"				"replay/thumbnails/dx8warning"
-		"scaleImage"	"1"
-	}		
+
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
