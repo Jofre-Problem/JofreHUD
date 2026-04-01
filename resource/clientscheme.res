@@ -4343,7 +4343,7 @@ Scheme
 				"bordertype"			"scalable_image"
 				"backgroundtype"		"2"
 				
-				"image"					"replay/thumbnails/noto_white"
+				"image"					"replay/thumbnails/white"
 				"src_corner_height"		"24"				// pixels inside the image
 				"src_corner_width"		"24"
 				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -4498,25 +4498,25 @@ Scheme
 		TFThinLineBorder
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
-				"image"					"replay/thumbnails/noto_black2"
+				"image"					"replay/thumbnails/noto_black"
 			"src_corner_height"	"23"	"src_corner_width"	"23"	"draw_corner_width"	"8"	"draw_corner_height"	"8"	
 		}
 		TFFatLineBorderOpaque
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
-			"image"					"replay/thumbnails/noto_black2"
+			"image"					"replay/thumbnails/noto_black"
 			"src_corner_height"	"23"	"src_corner_width"	"23"	"draw_corner_width"	"8"	"draw_corner_height"	"8"	
 		}
 		TFFatLineBorder
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
-				"image"					"replay/thumbnails/noto_black2"
+				"image"					"replay/thumbnails/noto_black"
 			"src_corner_height"	"23"	"src_corner_width"	"23"	"draw_corner_width"	"8"	"draw_corner_height"	"8"	
 		}
 		ReplayDefaultBorder
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
-			"image"					"replay/thumbnails/noto_black2"
+			"image"					"replay/thumbnails/noto_black"
 			"src_corner_height"	"23"	"src_corner_width"	"23"	"draw_corner_width"	"8"	"draw_corner_height"	"8"	
 		}
 

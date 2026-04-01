@@ -5,22 +5,6 @@
 	{
 	}
          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	"ReinforcementsLabel"
 	{
 
@@ -50,8 +34,14 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
+	}	
+	"BuyBackLabel"
+	{
+		"ControlName"				"Panel"
+		"fieldName"					"BuyBackLabel"
+		"xpos"						"9999"
 	}		
-"MapLabel"
+	"MapLabel"
 	{
 		"ControlName"				"Panel"
 		"fieldName"					"MapLabel"

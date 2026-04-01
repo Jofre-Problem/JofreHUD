@@ -233,49 +233,12 @@
 	}
 	"HDContentButton"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"HDContentButton"
-		"xpos"		"29"
-		"ypos"		"240"
-		"wide"		"250"
-		"tall"		"24"
-		
-		
-		//
-		
-		"visible"		"0"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_HDContent"
-		"textAlignment"		"west"
-		//
-		//
-		//
-		
-		"textinsetx"		"6"
-		
-		
-		
-		"Default"		"0"
+		"ControlName"		"panel"
+		"fieldName"		"VRModeLabel"
 	}
 	"VRModeLabel"
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"fieldName"		"VRModeLabel"
-		"xpos"		"36"
-		"ypos"		"170"
-		"wide"		"160"
-		"tall"		"24"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_VRMode"
-		"textAlignment"		"west"
-		"associate"		"VRMode"
-		//
-		//
-		//
 	}
 }

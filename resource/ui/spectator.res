@@ -2,7 +2,7 @@
 	#base 	"ui3/spectator_main.res"
 "Resource/UI/Spectator.res"
 { 
-	"Spectator"
+	"Spectator" 
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"

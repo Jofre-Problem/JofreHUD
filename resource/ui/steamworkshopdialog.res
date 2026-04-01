@@ -28,19 +28,6 @@
 		"pin_to_sibling"	"lostjudgmentbgtimer"
 	}	
 	
-	"os"
-	{
-		ControlName				ImagePanel
-		FieldName				"os"	
-		"xpos"				"150"
-		"ypos"				"8"
-		"zpos"				"5000"
-		"wide"				"23"
-		"tall"	"o1"
-		"image"				"replay/thumbnails/windows" [$WINDOWS]
-		"image"			"replay/thumbnails/linux" [$LINUX]
-		"scaleImage"	"1"
-	}	
 
 	"Time_hour10"
 	{

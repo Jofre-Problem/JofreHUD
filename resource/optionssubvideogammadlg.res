@@ -18,57 +18,18 @@
 	}
 	"Gamma"
 	{
-		"ControlName"		"CCvarSlider"
-		"fieldName"		"Gamma"
-		"xpos"		"17"
-		"ypos"		"112"
-		"wide"		"200"
-		"tall"		"40"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"1"
-		"leftText"		"#GameUI_LIGHT"
-		"rightText"		"#GameUI_DARK"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 	"Gamma label"
 	{
-		"ControlName"		"Label"
-		"fieldName"		"Gamma label"
-		"xpos"		"16"
-		"ypos"		"88"
-		"wide"		"108"
-		"tall"		"24"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_Gamma"
-		"textAlignment"		"west"
-		//
-		//
-		//
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 	"GammaEntry"
 	{
-		"ControlName"		"TextEntry"
-		"fieldName"		"GammaEntry"
-		"xpos"		"228"
-		"ypos"		"114"
-		"wide"		"44"
-		"tall"		"24"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//		"2"
-		"textHidden"		"0"
-		"editable"		"1"
-		"maxchars"		"-1"
-		"NumericInputOnly"		"1"
-		"unicode"		"0"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 	"OKButton"
 	{
@@ -92,20 +53,8 @@
 	}
 	"ImagePanel1"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ImagePanel1"
-		"xpos"		"16"
-		"ypos"		"156"
-		"zpos"		"-1"
-		"wide"		"256"
-		"tall"		"192"
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"image"		"gamma"
-		"scaleImage"		"0"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 	"Button1"
 	{
