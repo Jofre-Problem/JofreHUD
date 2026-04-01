@@ -72,17 +72,6 @@
 "tall" "24"
 "labelText" "ö  Multiplayer"
 } 
-		"Logo"
-		{
-		"ControlName""ImagePanel"
-		"fieldName""Logo"
-        "xpos"  "310"
-        "ypos"  "57"
-		"wide""128"
-		"tall""256"
-		"scaleImage""1"
-		"image""replay/thumbnails/reze"
-			}
 		"Logo2"
 		{
 		"ControlName""ImagePanel"

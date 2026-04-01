@@ -159,20 +159,6 @@
 				"item"		"Frying Pan"
 				"show_market"	"0"
 				"present_time"	"5.0"
-	"Mouse2Icon"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Mouse2Icon"
-					"xpos"			"30"
-					"ypos"			"5"
-					"zpos"			"1"
-					"wide"			"10"
-					"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"image"			"replay/thumbnails/hud/mouse2_icon_shadow"
-	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"CExLabel"

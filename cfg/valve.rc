@@ -38,7 +38,10 @@ chud_firstrun
 alias "jp_setup" "exec hud/jp_setup"
 exec _jp_setup_complete.txt
 jp_setup
-
+    cc_lang english
+    cc_subtitles 1
+    closecaption 1
+    cc_predisplay_time 0
 //  HOTFIX
 ///alias chud_hotfixrun "exec hud/hud_hotfix_1.cfg"
 ///exec "_jp_hud_hotfix_has_run.txt"
