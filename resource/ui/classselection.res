@@ -46,7 +46,7 @@
 		                         "tall"			"48" 
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"Blue"
 		                         "labeltext"		"Đ"
 		textalignment center
@@ -77,7 +77,7 @@
 "tall"	"48"
 "wide"			"o1"
 bgcolor_override blacksolid
-"font" "hwnjofre30"
+"font" "betafont"
 "fgcolor_override"	"125 161 255 255"
 "labeltext"		"đ"
 textalignment center
@@ -112,7 +112,7 @@ pin_to_sibling scoutlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"161 146 249 255"
 		                         "labeltext"		"æ"
 		textalignment center
@@ -146,7 +146,7 @@ pin_to_sibling Soldiderlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"194 129 235 255"
 		                         "labeltext"		"ē"
 		textalignment center
@@ -180,7 +180,7 @@ pin_to_sibling pyrolabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"222 108 212 255"
 			//"
 		                         "labeltext"		"Ĕ"
@@ -216,7 +216,7 @@ pin_to_sibling demolabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"244 86 182 255"
 		                         "labeltext"		"ĕ"
 		textalignment center
@@ -250,7 +250,7 @@ pin_to_sibling heavylabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"255 63 146 255"
 		                         "labeltext"		"Ė"
 		textalignment center
@@ -285,7 +285,7 @@ pin_to_sibling engilabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"255 48 107 255"
 		                         "labeltext"		"ė"
 		textalignment center
@@ -321,7 +321,7 @@ pin_to_sibling mediclabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"Ę"
 		textalignment center
@@ -356,7 +356,7 @@ pin_to_sibling sniperlabel
 		                         "tall"	"48"
 		                         "wide"			"o1"
 		bgcolor_override blacksolid
-		                         "font" "hwnjofre30"
+		                         "font" "betafont"
 		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"-"
 		textalignment center
@@ -471,7 +471,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "Đ"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 
@@ -589,7 +589,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "đ"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 
@@ -669,7 +669,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "æ"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsetx				-0
 		textinsety				-5
@@ -864,7 +864,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "ē"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 
@@ -944,7 +944,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "Ĕ"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-8
 
@@ -1062,7 +1062,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "ĕ"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-9
 
@@ -1180,7 +1180,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "Ė"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 
@@ -1259,7 +1259,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "ė"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 
@@ -1454,7 +1454,7 @@ pin_to_sibling spylabel
 		proportionaltoparent		1
 
 		labelText				            "Ę"
-		font					                "hwnjofre30"
+		font					                "betafont"
 		textAlignment			center
 		textinsety				-5
 

@@ -12,34 +12,6 @@
 "Resource/SteamWorkshopDialog.res"
 
 {
-	"aaa"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"aaa"
-		"xpos"			"8"
-		"ypos"			"5"
-		"zpos"			"100"
-		"wide"			"145"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/panel1"	
-		"scaleImage"		"1"	
-	}	
-	"aaa2"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"aaa2"
-		"xpos"			"130"
-		"ypos"			"5"
-		"zpos"			"100"
-		"wide"			"120"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/panel1"	
-		"scaleImage"		"1"	
-	}		
 	"TimePanelBGReal"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -297,7 +269,7 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"Primary"
+			"drawcolor"								"NotoBlueSolid"
 		}
 
 		"SubImage2"
@@ -311,7 +283,7 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"Primary"
+			"drawcolor"								"NotoBlueSolid"
 		}	
 	}				
 				"ScrollBar"
@@ -328,7 +300,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"Primary"
+						"fgcolor_override"	"NotoBlueSolid"
 						"bgcolor_override"	"Black"
 					}
 				
@@ -1062,7 +1034,7 @@
 		"tall"		"o1"
 		"labelText"		"z"
 		"textAlignment"		"center"
-		"fgcolor_override"		"Primary"
+		"fgcolor_override"		"NotoBlueSolid"
 		"font"					"ItemFontNameLarge"		
 	}		
 }}

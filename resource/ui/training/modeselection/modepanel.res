@@ -100,14 +100,14 @@
 		
 		
 		
-		"fgcolor"			"NotoMenu"
-		"fgcolor_override"	"NotoMenu"
+		"fgcolor"			"whattimeis1"
+		"fgcolor_override"	"whattimeis1"
 		
 		"paintbackground"	"0"
 		
 		// default style
 		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoMenu"
+		"defaultFgColor_override" "whattimeis1"
 		"border_default"		"noborder"
 		
 		// armed style

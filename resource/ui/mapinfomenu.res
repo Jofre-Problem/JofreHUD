@@ -210,7 +210,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "primary"
+		"armedFgColor_override" "NotoBlueSolid"
 		"depressedFgColor_override" "White"
 	}
 	"MapInfoBack2" 
@@ -230,7 +230,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "primary"
+		"armedFgColor_override" "NotoBlueSolid"
 		"depressedFgColor_override" "White"
 	}	
 	"MapInfoContinue"
@@ -259,7 +259,7 @@
 		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "primary"
+		"armedFgColor_override" "NotoBlueSolid"
 		"depressedFgColor_override" "White"
 	}
 

@@ -549,7 +549,7 @@
 		"tall"							"o1"
 		zpos	"100"
 		labelText				"Đ"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1scout"
@@ -568,7 +568,7 @@
 		"tall"							"o1"
 	zpos	"100"
 		labelText				"đ"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1soldier"
@@ -587,7 +587,7 @@
 		"tall"							"o1"
 	zpos	"100"
 		labelText				"æ"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1pyro"
@@ -606,7 +606,7 @@
 		"tall"							"o1"
 		zpos	"100"
 		labelText				"ē"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1demo"
@@ -626,7 +626,7 @@
 		"tall"							"o1"
 	zpos	"200"
 		labelText				"Ĕ"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1heavy"
@@ -645,7 +645,7 @@
 		"tall"							"o1"
 	zpos	"200"
 		labelText				"ĕ"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1engi"
@@ -664,7 +664,7 @@
 		"tall"							"o1"
 		zpos	"100"
 		labelText				"Ė"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1medic"
@@ -684,7 +684,7 @@
 		"tall"							"o1"
 		zpos	"100"
 		labelText				"ė"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1sniper"
@@ -704,7 +704,7 @@
 		"tall"							"o1"
 		zpos	"100"
 		labelText				"Ę"
-		font					"hwnjofre30"
+		font					"betafont"
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1spy"
@@ -1185,7 +1185,7 @@ proportionaltoparent 1
 				"actionsignallevel"		"3"
 				Command				"engine +con; +rechelp"
 				paintbackground 			0
-				"armedfgcolor_override" "Primary"
+				"armedfgcolor_override" "NotoBlueSolid"
 			}				
 
 

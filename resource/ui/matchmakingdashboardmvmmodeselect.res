@@ -96,8 +96,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteGray"
+			"depressedFgColor_override"				"WhiteGray"
 
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"225 225 225 255"
@@ -230,8 +230,8 @@
 			"paintborder"							"0"
 
 			"defaultFgColor_override"				"White"
-			"armedFgColor_override"					"WhiteDark"
-			"depressedFgColor_override"				"WhiteDark"
+			"armedFgColor_override"					"WhiteGray"
+			"depressedFgColor_override"				"WhiteGray"
 
 			"image_drawcolor"						"255 255 255 255"
 			"image_armedcolor"						"225 225 225 255"

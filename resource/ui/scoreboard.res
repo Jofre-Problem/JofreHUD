@@ -1279,7 +1279,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Kills2"
-			"font"				"Hwnjofre30"
+			"font"				"betafont"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1316,7 +1316,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths"
-			"font"				"Hwnjofre30"
+			"font"				"betafont"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"
@@ -1338,7 +1338,7 @@ if_mvm
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"Deaths2"
-			"font"				"Hwnjofre30"
+			"font"				"betafont"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
 			"xpos"				"0"

@@ -17,20 +17,6 @@
 		"visible"		"0"
 	}	
 		
-	"aaa"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"aaa"
-		"xpos"			"8"
-		"ypos"			"5"
-		"zpos"			"100"
-		"wide"			"150"
-		"tall"			"30"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/panel1"	
-		"scaleImage"		"1"	
-	}	
 	"TimePanelBGReal"
 	{
 		"ControlName"		"ScalableImagePanel"

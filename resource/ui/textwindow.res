@@ -218,7 +218,7 @@
 		"paintbackground"	"0"
 		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
-		"armedFgColor_override" "primary"
+		"armedFgColor_override" "NotoBlueSolid"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 		"alpha"	"190"

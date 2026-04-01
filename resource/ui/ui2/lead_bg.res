@@ -24,7 +24,7 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"Primary"
+			"drawcolor"								"NotoBlueSolid"
 		}
 
 		"SubImage2"
@@ -38,7 +38,7 @@
 			"proportionaltoparent"					"1"
 			"scaleImage"							"1"
 			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"Primary"
+			"drawcolor"								"NotoBlueSolid"
 		}
 
 		"SubImage3"

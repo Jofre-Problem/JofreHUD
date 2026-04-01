@@ -96,7 +96,7 @@
 			"default"		"1"
 			ignorescheme 1
 			"defaultfgcolor_override" "203 186 177 255"
-			defaultbgcolor_override G_ButtonBg
+			defaultbgcolor_override 96 83 73 255
 			paintbackground 			1
 			labelText				"u"
 			Command				"addpremium"
@@ -116,7 +116,7 @@
 			"default"		"1"
 			ignorescheme 1
 			"defaultfgcolor_override" "203 186 177 255"
-			defaultbgcolor_override G_ButtonBg
+			defaultbgcolor_override 96 83 73 255
 			paintbackground 			1
 			labelText				"ʆ"
 			Command				"open_casual"
@@ -552,7 +552,7 @@
 
 							"Slider"
 							{
-								"fgcolor_override"				"G_BUttonbg"
+								"fgcolor_override"				"96 83 73 255"
 							}
 								"UpButton"
 							{

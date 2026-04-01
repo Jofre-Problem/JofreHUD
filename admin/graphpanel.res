@@ -11,8 +11,6 @@
 		//		"3"
 		//		"0"
 		//		"0"
-		"border"		"ButtonDepressedBorder"
-		"scaleImage"		"0"
 	}
 	"InCheck"
 	{

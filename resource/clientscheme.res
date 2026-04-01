@@ -3,41 +3,15 @@ Scheme
 {
 	"BitmapFontFiles"
 	{
-		"Ergoe_72"	"materials/vgui/replay/thumbnails/Ergoe_72.vbf"
+	//	"Ergoe_72"	"materials/vgui/replay/thumbnails/Ergoe_72.vbf"
 	}		
 	Colors
 	{	
-	"Primary"			"64 160 255 204"
 		"Neutral"			"255 255 255 255"
 		"Positive"			"64 255 160 255"
 		"Warning"			"255 160 64 255"
 		"Negative"			"255 64 80 255"
-
-		"PrimaryT1"			"64 160 255 204"
-		"NeutralT1"			"255 255 255 204"
-		"PositiveT1"		"64 255 160 204"
-		"WarningT1"			"255 160 64 204"
-		"NegativeT1"		"255 64 80 204"
-
-		"PrimaryT2"			"64 160 255 153"
-		"NeutralT2"			"255 255 255 153"
-		"PositiveT2"		"64 255 160 153"
-		"WarningT2"			"255 160 64 153"
-		"NegativeT2"		"255 64 80 153"
-		"G_ButtonBg"				"96 83 73 255" // Button bg color
-		"G_ButtonHoverBg"			"170 103 102 255" // Button hover bg color
-		"G_ButtonSelectedBg"		"156 53 51 255" // Button selected bg color
-		"PrimaryT3"			"64 160 255 102"
-		"NeutralT3"			"255 255 255 102"
-		"PositiveT3"		"64 255 160 102"
-		"WarningT3"			"255 160 64 102"
-		"NegativeT3"		"255 64 80 102"
-		"PrimaryT4"			"64 160 255 51"
-
-		// yeah
-		"whattimeis1"											"30 30 30 255"
-		"whattimeisinvert"											"30 30 30 255"
-
+		"whattimeis1"		"30 30 30 255"
 		"Tanlight"			"255 255 255 255"	
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
@@ -52,51 +26,23 @@ Scheme
 		"NotoRedSolid"		"205 50 50 255"
 		"NotoDark"			"32 32 32 255"
 		"NotoGreenSolid"	"90 180 0 255"
-		"NotoDarker"		"43 43 43 255"
 		"NotoGray"			"95 95 95 255"
 		"Notowhite"			"220 220 220 255"
 		"NotoBlack"			"24 24 24 255"
-		"NotoBackground"		"70 130 180 255" //Menu Backgrounds, Backpack, Crafting, MvM Lobby, etc. Wouldn't recommend ever making this transparent.
-		"NotoText"				"220 220 220 255"
-		"NotoMenuText"			"220 220 220 255"
-		"NotoMenuText2"			"24 24 24 255"	
-		"NotoMenu"				"43 43 43 255"	
-
-
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
-
-		"Black"											"0 0 0 255"
-		"PanelO1"											"24 24 24 255"
-		"PanelO2"											"40 40 40 255"
-		"PanelO3"											"56 56 56 255"
-		"PanelO4"											"72 72 72 255"
-		"PanelO5"											"88 88 88 255"
-		"PanelO6"											"104 104 104 255"
-
-		"PanelAT0"											"255 255 255 255"
-		"PanelAT1"											"255 255 255 208"
-		"PanelAT2"											"255 255 255 160"
-		"PanelAT3"											"255 255 255 112"
-		"PanelAT4"											"255 255 255 64"
-
 		"Background_Main"									"46 43 42 255"
 		"Background_Dark"									"28 26 25 255"
 		"Background_Darkest"								"18 15 14 255"
-
-		//BUTTONS
 		"Button_Bright"										"66 63 61 255"
 		"Button_Dark"										"28 26 25 255"
 		"Button_Hover"										"104 101 100 255"
 		"Button_Red"										"190 60 60 255"
 		"Button_Red_Hover"									"120 25 25 255"
 		"Button_Green"										"75 105 35 255"
-		"Button_Green_Hover"								"55 75 25 255"
-		"Black"												"0 0 0 255"
+		"Button_Green_Hover"								"55 75 25 255"		
 		"TransparentBlack"									"0 0 0 200"
-		"TransparentMediumBlack"							"0 0 0 150"
 		"TransparentLightBlack"								"0 0 0 100"
-		"TransparentLightestBlack"							"0 0 0 50"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS
@@ -131,8 +77,7 @@ Scheme
 
 		"Orange"											"255 122 42 255"
 		"OrangeDim"											"80 150 255 255"
-		"LightOrange"										"80 150 255 255"
-		"GoalOrange"										"255 133 0"
+		"GoalOrange"										"255 133 0 255"
 		"TFOrange"											"95 95 95 255"
 		"Purple"											"170 20 220 255"
 
@@ -155,7 +100,7 @@ Scheme
 		"PartyMember6"										"255 133 255 255"
 
 		"RedSolid"											"255 61 61 255"
-		"TransparentYellow"									"227 228 230 255"
+
 		"BrightYellow"										"255 255 0 255"
 
 
@@ -301,24 +246,10 @@ Scheme
 		"UpgradeSelectedBg"									"80 150 255 255"
 		"UpgradeDisabledFg"									"60 60 60 255"
 
-		"Text0"												"255 255 255 255"
-		"Text1"												"192 192 192 255"
-		"Text2"												"160 160 160 255"
-		"Text3"												"128 128 128 255"
-		"Text4"												"96 96 96 255"
-
-		"TextT0"											"255 255 255 255"
-		"TextT1"											"255 255 255 208"
-		"TextT2"											"255 255 255 160"
-		"TextT3"											"255 255 255 112"
-		"TextT4"											"255 255 255 64"		
 		"Health"											"227 228 230 255"
 		"Low Health"										"255 50 65 255"
 
 		"Shadow"											"0 0 0 175"		
-		"WhiteDark"											"172 173 175 255"
-		"GrayLight"											"77 78 82 255"
-		"GrayDarker"										"37 38 40 255"
 		"GrayDarkest"										"27 28 30 255"
 		"BlackLight"										"20 21 23 255"
 		"BlackDark"											"15 16 18 255"
@@ -417,12 +348,12 @@ Scheme
 
 		"MenuBoxBg"											"73 65 65 220"
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"Primary"
-		ReplayBrowser.Button.ArmedBgColor					"Primary"
-		ReplayBrowser.Button.DepressedBgColor				"Primary"
-		ReplayBrowser.CollectionTitle.FgColor				"Primary"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"NotoBlueSolid"
+		ReplayBrowser.Button.ArmedBgColor					"NotoBlueSolid"
+		ReplayBrowser.Button.DepressedBgColor				"NotoBlueSolid"
+		ReplayBrowser.CollectionTitle.FgColor				"NotoBlueSolid"
 		ReplayBrowser.Warning.FgColor						"NotoWhite"
-		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
+		ReplayBrowser.ScrollBar.SliderButton.FgColor		"HUDSpectator"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"NotoWhite"
 
@@ -435,26 +366,18 @@ Scheme
 		Econ.Button.ArmedFgColor							"Red"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
-		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
 		Econ.Button.PresetDepressedColorFg					"TanLight"
-		
 		Econ.Button.PresetDefaultColorBg					"Notogray"
 		Econ.Button.PresetArmedColorBg						"Notogray"
 		Econ.Button.PresetDepressedColorBg					"notogray"
-
-
-
 		ComboBoxButton.ArrowColor		"220 220 220 255"
 		ComboBoxButton.ArmedArrowColor	"220 220 220 255"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
-
 		"ItemColor"											"255 167 42 200"
 		"MenuColor"											"White"
-
-
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
 		"SelectionEmptyBoxBg" 								"0 0 0 80"
@@ -479,24 +402,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-	
-		"Hwnjofre30"
-		{
-			"1"
-			{
-				"name"			"hwnjofre1"
-				"tall"			"30" // Crit damage size
-				
-				
-				"antialias"		"1"
-				"outline"		"0" // Crit damage outline
-			}
-		}
-
-	
-
-
 		"XPSource_Glow"
 		{
 			"1"
@@ -520,10 +425,7 @@ Scheme
 			"4" { "name" "mono" "tall" "19" "yres" "1024 1199" "antialias" "1" }
 			"5" { "name"  "mono" "tall" "9" "antialias" "1" }
 		}
-
-		//"Size 24 Uber"
-		// End
-	"DefaultVerySmall"		//pin bruh font used on vgui build mode
+		"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{
 			"1"
 			{
@@ -560,27 +462,28 @@ Scheme
 			{
 				"name"		"hwnjofre1"
 				"tall"		"5"
+				"antialias" "1"
 			}
 		}		
 		"Default"
 		{
 			"1"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				"range"	"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				"range"	"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"14"
 				"range"	"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -588,7 +491,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"21"
 				"range"	"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -596,7 +499,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"23"
 				"range"	"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -604,13 +507,13 @@ Scheme
 			}
 			"6"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				"range"	"0x0000 0x00FF"
 			}
 			"7"
 			{
-				"name"	"productsansbold"//"productsansbold"
+				"name"	"productsansbold"
 				"tall"	"12"
 				"range"	"0x0000 0x00FF"
 			}
@@ -810,17 +713,7 @@ Scheme
 				"antialias"	"1"
 				"outline"	"1"
 			}
-		}		
-		"DamagetextBitMap"
-		{
-			"1"
-			{
-				"bitmap"    "1"
-				"name"        "Ergoe_72"
-				"scalex"    "0.4"
-				"scaley"    "0.4"
-			}
-		}			
+		}
 		"DamagetextOutline"
 		{
 			"1"
@@ -1559,11 +1452,8 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"90"
-				//"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"tall"		"30"
 				"antialias" "1"
-				//
 			}
 		}		
 		TFTypeDeath
@@ -2406,25 +2296,25 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Right
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Top
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Bottom
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 		}
 		DarkComboBoxBorder
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Right
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Top
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 			Bottom
-			{	"1"	{	"color" "WhiteDark"	}	}
+			{	"1"	{	"color" "WhiteGray"	}	}
 		}
 		SalePriceBorder
 		{
@@ -5341,8 +5231,7 @@ Scheme
 
 		"10"
 		{
-			"font" "fonts/LowAmmoWarningZero.ttf"// [$WINDOWS]
-		//	"font" "fonts/LowAmmoWarning-Zero_linux.otf" [$OSX]
+			"font" "fonts/LowAmmoWarningZero.ttf"
 			"name" "LowAmmoWarning Zero"
 		}
 		"12"

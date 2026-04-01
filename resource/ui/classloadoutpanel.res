@@ -321,20 +321,6 @@
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}
-	"cuadro"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"cuadro"
-		"xpos"			"8"
-		"ypos"			"50"
-		"zpos"			"10"
-		"wide"			"70"
-		"tall"			"70"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/cuadro2"	
-		"scaleImage"		"1"	
-	}			
 
 	"ClassLabel"
 	{
@@ -347,7 +333,7 @@
 		"ypos"			"-2"
 		"zpos"			"5000"
 		"fgcolor_override"	"27 27 27 255"
-		"bgcolor_override" "G_ButtonSelectedBg"
+		"bgcolor_override" "156 53 51 255"
 		"wide"			"25"
 		"tall"			"16"
 		textinsety 2
@@ -366,7 +352,7 @@
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"16"
-		"fgcolor_override" "G_ButtonSelectedBg"
+		"fgcolor_override" "156 53 51 255"
 
 		"wide"	"40"
 		"textinsetx"	"-2"
@@ -575,7 +561,7 @@
 		tall							40
 		visible						1
 		enabled						1
-	 armedfgcolor_override "G_ButtonBg"
+	 armedfgcolor_override "96 83 73 255"
 			"border_default"	"black"
 			"border_armed"	"Black2"	
 		visible						1
@@ -660,7 +646,7 @@
 		tall							40
 		visible						1
 		enabled						1
-	 armedfgcolor_override "G_ButtonBg"
+	 armedfgcolor_override "96 83 73 255"
 			"border_default"	"black"
 			"border_armed"	"Black2"	
 		visible						1
@@ -727,7 +713,7 @@
 		tall							40
 		visible						1
 		enabled						1
-	 armedfgcolor_override "G_ButtonBg"
+	 armedfgcolor_override "96 83 73 255"
 			"border_default"	"black"
 			"border_armed"	"Black2"	
 		visible						1

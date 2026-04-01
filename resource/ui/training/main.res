@@ -116,7 +116,7 @@
 		
 			// default style
 			"defaultBgColor_override"	"NotoWhite"
-			"defaultFgColor_override" "NotoMenu"
+			"defaultFgColor_override" "whattimeis1"
 			"border_default"		"noborder"
 			
 			// armed style
@@ -151,7 +151,7 @@
 		
 			// default style
 			"defaultBgColor_override"	"NotoWhite"
-			"defaultFgColor_override" "NotoMenu"
+			"defaultFgColor_override" "whattimeis1"
 			"border_default"		"noborder"
 			
 			// armed style

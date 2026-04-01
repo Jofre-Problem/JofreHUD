@@ -17,7 +17,7 @@
 		
 		thumbnail_bgcolor			"Notogray"
 		thumbnail_bgcolor_mouseover	"Notodark"
-		thumbnail_bgcolor_selected	"Primary"
+		thumbnail_bgcolor_selected	"NotoBlueSolid"
 		
 		thumbnails_rows			0
 		thumbnails_columns		0

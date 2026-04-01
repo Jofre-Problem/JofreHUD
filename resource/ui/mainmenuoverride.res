@@ -364,7 +364,7 @@
 			sound_released			"UI/buttonclickrelease.wav"
 							
 		defaultFgColor_override		"NotoWhite"
-		armedFgColor_override		"Primary"
+		armedFgColor_override		"NotoBlueSolid"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -413,7 +413,7 @@
 			sound_released			"UI/buttonclickrelease.wav"
 							
 		defaultFgColor_override		"NotoWhite"
-		armedFgColor_override		"Primary"
+		armedFgColor_override		"NotoBlueSolid"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -1846,7 +1846,7 @@
 				"tall"			"p1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"255 255 255 0"
-				"linecolor"		"Primary"
+				"linecolor"		"NotoBlueSolid"
 				}				
 			}}	
 				"Test2"

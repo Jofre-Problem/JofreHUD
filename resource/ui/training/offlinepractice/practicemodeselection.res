@@ -55,7 +55,7 @@
 		
 		// default style
 		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoMenu"
+		"defaultFgColor_override" "whattimeis1"
 		"border_default"		"noborder"
 		
 		// armed style
@@ -92,7 +92,7 @@
 		
 		// default style
 		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoMenu"
+		"defaultFgColor_override" "whattimeis1"
 		"border_default"		"noborder"
 		
 		// armed style
@@ -186,7 +186,7 @@
 		
 		// default style
 		"defaultBgColor_override"	"NotoDark"
-		"defaultFgColor_override" "NotoMenu"
+		"defaultFgColor_override" "whattimeis1"
 		"border_default"		"noborder"
 		
 		// armed style

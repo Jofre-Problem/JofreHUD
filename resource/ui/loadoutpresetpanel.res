@@ -42,7 +42,7 @@
             paintBackground 0
             
             
-            armedfgcolor_override "G_ButtonBg"
+            armedfgcolor_override "96 83 73 255"
 			//	"border_default"	"BackpackItemBorder_RarityLegendary"
 			//"border_armed"	  "BackpackItemMouseOverBorder_RarityMythical"	
 			//"roundedcorners"	"0"
@@ -67,7 +67,7 @@
 				"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
-		armedfgcolor_override "G_ButtonBg"
+		armedfgcolor_override "96 83 73 255"
 			  paintBackground 0
 			"pin_to_sibling"	"A"
 			"pin_corner_to_sibling"	"0"
@@ -90,7 +90,7 @@
 					"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
-		armedfgcolor_override "G_ButtonBg"
+		armedfgcolor_override "96 83 73 255"
 			  paintBackground 0
 			
 			"pin_to_sibling"	"B"
@@ -114,7 +114,7 @@
 				"border_default"	"black"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
-		armedfgcolor_override "G_ButtonBg"
+		armedfgcolor_override "96 83 73 255"
 			  paintBackground 0
 
 			"pin_to_sibling"	"C"
