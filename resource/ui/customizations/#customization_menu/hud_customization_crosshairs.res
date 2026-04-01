@@ -275,7 +275,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -4541,7 +4541,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/crosshairs/crosshair_pulse"
+							//"Image"						"replay/thumbnails/customizations/crosshairs/crosshair_pulse"
 						}
 						"Flash_Label"
 						{
@@ -5731,7 +5731,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/crosshairs/hitmarker_pulse"
+							//"Image"						"replay/thumbnails/customizations/crosshairs/hitmarker_pulse"
 						}
 						"XHair_Label"
 						{
@@ -5830,7 +5830,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -7267,7 +7267,7 @@
 						"ProportionalToParent"				"1"
 						"scaleimage" 						"1"
 						"drawcolor" 						"Gray"
-						"image" 							"replay/thumbnails/customizations/crosshairs/maxicross_icon"
+					//	"image" 							"replay/thumbnails/customizations/crosshairs/maxicross_icon"
 					}
 					"Title"
 					{
@@ -7480,7 +7480,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-							"image"			"../vgui/replay/thumbnails/glyph_link"
+						//	"image"			"../vgui/replay/thumbnails/glyph_link"
 							"scaleImage"	"1"
 						}
 					}
@@ -7518,7 +7518,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-							"image"			"../vgui/replay/thumbnails/glyph_link"					
+						//	"image"			"../vgui/replay/thumbnails/glyph_link"					
 							"scaleImage"	"1"
 						}
 					}

@@ -46,7 +46,7 @@
 					"ZPos"								"0"
 					"Wide"								"25"
 					"Tall"								"25"
-					"Visible"							"1"
+					"Visible"							"0"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"6"
@@ -55,7 +55,6 @@
 					"FGColor"							"Gray"
 					scaleimage 1
 					drawcolor gray
-					image "replay/thumbnails/glyph_hardhat"
 				}
 				"Title"
 				{
@@ -170,7 +169,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/8rows"
+							//"Image"						"replay/thumbnails/customizations/maxi/8rows"
 						}
 						"Style_Label"
 						{
@@ -253,7 +252,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/12rows"
+							//"Image"						"replay/thumbnails/customizations/maxi/12rows"
 						}
 						"Style_Label"
 						{
@@ -335,7 +334,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/12rows2"
+							//"Image"						"replay/thumbnails/customizations/maxi/12rows2"
 						}
 						"Style_Label"
 						{
@@ -417,7 +416,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/24rows"
+							//"Image"						"replay/thumbnails/customizations/maxi/24rows"
 						}
 						"Style_Label"
 						{
@@ -549,7 +548,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/dmg"
+							//"Image"						"replay/thumbnails/customizations/maxi/dmg"
 						}
 						"Style_Disabled"
 						{
@@ -564,7 +563,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -650,7 +649,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/dmg"
+							//"Image"						"replay/thumbnails/customizations/maxi/dmg"
 						}
 						"Style_Label"
 						{
@@ -781,7 +780,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/tm_full"
+							//"Image"						"replay/thumbnails/customizations/maxi/tm_full"
 						}
 						"Style_Label"
 						{
@@ -864,7 +863,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
+							//"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
 						}
 						"Style_Label"
 						{
@@ -943,7 +942,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/tm_full"
+							//"Image"						"replay/thumbnails/customizations/maxi/tm_full"
 						}
 						"Style_Label"
 						{
@@ -1025,7 +1024,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
+							//"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
 						}
 						"Style_Label"
 						{
@@ -1313,7 +1312,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/payload_vex"
+							//"Image"						"replay/thumbnails/customizations/maxi/payload_vex"
 						}
 						"Style_Label"
 						{
@@ -1396,7 +1395,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/payload_stock"
+							//"Image"						"replay/thumbnails/customizations/maxi/payload_stock"
 						}
 						"Style_Label"
 						{
@@ -1528,7 +1527,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/charge_og"
+							//"Image"						"replay/thumbnails/customizations/maxi/charge_og"
 						}
 						"Style_Label"
 						{
@@ -1611,7 +1610,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/charge_def"
+							//"Image"						"replay/thumbnails/customizations/maxi/charge_def"
 						}
 						"Style_Label"
 						{
@@ -1741,7 +1740,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/rc2"
+							//"Image"						"replay/thumbnails/customizations/maxi/rc2"
 						}
 						"Style_Label"
 						{
@@ -1844,7 +1843,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-							"image"			"../vgui/replay/thumbnails/glyph_link"
+						//	"image"			"../vgui/replay/thumbnails/glyph_link"
 							"scaleImage"	"1"
 						}
 					}
@@ -1882,7 +1881,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-							"image"			"../vgui/replay/thumbnails/glyph_link"					
+						//	"image"			"../vgui/replay/thumbnails/glyph_link"					
 							"scaleImage"	"1"
 						}
 					}
@@ -1920,7 +1919,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/h1"
+							//"Image"						"replay/thumbnails/customizations/maxi/h1"
 						}
 						"Style_Label"
 						{
@@ -2051,7 +2050,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/build_center"
+							//"Image"						"replay/thumbnails/customizations/maxi/build_center"
 						}
 						"Style_Label"
 						{
@@ -2134,7 +2133,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/build_top"
+							//"Image"						"replay/thumbnails/customizations/maxi/build_top"
 						}
 						"Style_Label"
 						{
@@ -2283,7 +2282,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/ss_facelift"
+							//"Image"						"replay/thumbnails/customizations/maxi/ss_facelift"
 						}
 						"Style_Label"
 						{
@@ -2366,7 +2365,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/ss_def"
+							//"Image"						"replay/thumbnails/customizations/maxi/ss_def"
 						}
 						"Style_Label"
 						{
@@ -2448,7 +2447,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/maxi/ss_deftf2"
+							//"Image"						"replay/thumbnails/customizations/maxi/ss_deftf2"
 						}
 						"Style_Label"
 						{

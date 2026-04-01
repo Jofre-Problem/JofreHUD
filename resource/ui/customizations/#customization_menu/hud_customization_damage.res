@@ -169,7 +169,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_small"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_small"
 						}
 						"Style_Label"
 						{
@@ -252,7 +252,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_small_minusless"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_small_minusless"
 						}
 						"Style_Label"
 						{
@@ -335,7 +335,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -440,7 +440,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -545,7 +545,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -650,7 +650,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -1198,7 +1198,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
+							//"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
 						}
 						"Style_Disabled"
 						{
@@ -1213,7 +1213,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1298,7 +1298,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
+							//"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
 						}
 						"Style_Label"
 						{
@@ -1381,7 +1381,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/last_damage_ammo"
+							//"Image"						"replay/thumbnails/customizations/damage/last_damage_ammo"
 						}
 						"Style_Label"
 						{
@@ -1463,7 +1463,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/last_damage_center"
+							//"Image"						"replay/thumbnails/customizations/damage/last_damage_center"
 						}
 						"Style_Label"
 						{
@@ -1594,7 +1594,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
 						}
 						"Style_Disabled"
 						{
@@ -1609,7 +1609,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1694,7 +1694,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
 						}
 						"Style_Label"
 						{
@@ -1776,7 +1776,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_small"
+							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_small"
 						}
 						"Style_Label"
 						{

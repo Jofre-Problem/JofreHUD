@@ -393,7 +393,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_c"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_c"
 						}
 						"Style_Label"
 						{
@@ -476,7 +476,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_small_hp"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_small_hp"
 						}
 						"Style_Label"
 						{
@@ -559,7 +559,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_names"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_names"
 						}
 						"Style_Label"
 						{
@@ -642,7 +642,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_ext"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_ext"
 						}
 						"Style_Label"
 						{
@@ -725,7 +725,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_ext_noframe"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_ext_noframe"
 						}
 						"Style_Label"
 						{
@@ -808,7 +808,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_c_nf"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_c_nf"
 						}
 						"Style_Label"
 						{
@@ -996,7 +996,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer"
 						}
 						"Style_Label"
 						{
@@ -1078,7 +1078,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer_bg"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer_bg"
 						}
 						"Style_Label"
 						{
@@ -1213,7 +1213,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
 						}
 						"Style_Disabled"
 						{
@@ -1228,7 +1228,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1313,7 +1313,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
+							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
 						}
 						"Style_Label"
 						{
@@ -1502,7 +1502,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
+							//"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
 						}
 						"Style_Disabled"
 						{
@@ -1517,7 +1517,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1602,7 +1602,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
+							//"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
 						}
 						"Style_Label"
 						{

@@ -174,7 +174,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/killstreak/killstreak"
+							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak"
 						}
 						"Style_Disabled"
 						{
@@ -189,7 +189,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -274,7 +274,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_bottom_left"
+							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_bottom_left"
 						}
 						"Style_Label"
 						{
@@ -356,7 +356,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_top_right"
+							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_top_right"
 						}
 						"Style_Label"
 						{
@@ -487,7 +487,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
+							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
 						}
 						"Style_Disabled"
 						{
@@ -502,7 +502,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -587,7 +587,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
+							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
 						}
 						"Style_Label"
 						{

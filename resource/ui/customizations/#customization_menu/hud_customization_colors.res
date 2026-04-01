@@ -131,7 +131,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/damage_numbers"
+							//"Image"						"replay/thumbnails/customizations/colors/damage_numbers"
 						}
 						"Element_Name"
 						{
@@ -824,7 +824,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/damage_last"
+							//"Image"						"replay/thumbnails/customizations/colors/damage_last"
 						}
 						"Element_Name"
 						{
@@ -1517,7 +1517,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair"
+							//"Image"						"replay/thumbnails/customizations/colors/hudcrosshair"
 						}
 						"Element_Name"
 						{
@@ -2210,7 +2210,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair_flash"
+							//"Image"						"replay/thumbnails/customizations/colors/hudcrosshair_flash"
 						}
 						"Element_Name"
 						{
@@ -2903,7 +2903,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/hitmarker"
+							//"Image"						"replay/thumbnails/customizations/colors/hitmarker"
 						}
 						"Element_Name"
 						{
@@ -3642,7 +3642,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_shadow"
+							//"Image"						"replay/thumbnails/customizations/colors/color_shadow"
 						}
 						"Element_Name"
 						{
@@ -3725,7 +3725,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_number"
+							//"Image"						"replay/thumbnails/customizations/colors/color_number"
 						}
 						"Element_Name"
 						{
@@ -3890,7 +3890,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
+							//"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
 						}
 						"Style_Label"
 						{
@@ -3973,7 +3973,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
+							//"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
 						}
 						"Style_Label"
 						{

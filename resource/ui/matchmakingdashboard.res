@@ -477,7 +477,7 @@
                 "proportionaltoparent"      "1"
                 "image"                     "replay/thumbnails/menu/queue_stripes"
                 "scaleImage"                "1"
-                "drawcolor"                 "Primary"
+                "drawcolor"                 "0 255 0 255"
 				 "alpha"                     "200"
             }
 			"OuterShadow"

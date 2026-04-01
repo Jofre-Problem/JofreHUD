@@ -150,7 +150,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/size/size_small"
+							//"Image"						"replay/thumbnails/customizations/size/size_small"
 						}
 						"Size_Button"
 						{
@@ -232,7 +232,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/size/size_small"
+							//"Image"						"replay/thumbnails/customizations/size/size_small"
 						}
 						"Size_Button"
 						{
@@ -314,7 +314,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/size/size_minmode"
+							//"Image"						"replay/thumbnails/customizations/size/size_minmode"
 						}
 						"Size_Button"
 						{
@@ -437,7 +437,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_normal"
+							//"Image"						"replay/thumbnails/customizations/health/health_normal"
 						}
 						"Health_Style_Label"
 						{
@@ -520,7 +520,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_colored_cross"
+							//"Image"						"replay/thumbnails/customizations/health/health_colored_cross"
 						}
 						"Health_Style_Label"
 						{
@@ -603,7 +603,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_cross"
+							//"Image"						"replay/thumbnails/customizations/health/health_cross"
 						}
 						"Health_Style_Label"
 						{
@@ -686,7 +686,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_cross_team"
+							//"Image"						"replay/thumbnails/customizations/health/health_cross_team"
 						}
 						"Health_Style_Label"
 						{
@@ -769,7 +769,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_bonus_off"
+							//"Image"						"replay/thumbnails/customizations/health/health_bonus_off"
 						}
 						"Health_Style_Label"
 						{
@@ -852,7 +852,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_box_animated"
+							//"Image"						"replay/thumbnails/customizations/health/health_box_animated"
 						}
 						"Health_Style_Label"
 						{
@@ -935,7 +935,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_box_static"
+							//"Image"						"replay/thumbnails/customizations/health/health_box_static"
 						}
 						"Health_Style_Label"
 						{
@@ -1059,7 +1059,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_warning_50"
+							//"Image"						"replay/thumbnails/customizations/health/health_warning_50"
 						}
 						"Health_Warning_Label2"
 						{
@@ -1164,7 +1164,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_warning_75"
+							//"Image"						"replay/thumbnails/customizations/health/health_warning_75"
 						}
 						"Health_Warning_Label"
 						{
@@ -1314,7 +1314,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/fullscreen_effect"
+							//"Image"						"replay/thumbnails/customizations/health/fullscreen_effect"
 						}
 						"Style_Label"
 						{
@@ -1397,7 +1397,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/fullscreen_effect"
+							//"Image"						"replay/thumbnails/customizations/health/fullscreen_effect"
 						}
 						"Style_Disabled"
 						{
@@ -1412,7 +1412,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1543,7 +1543,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_gain_bottom_left"
+							//"Image"						"replay/thumbnails/customizations/health/health_gain_bottom_left"
 						}
 						"Health_Gain_Label"
 						{
@@ -1626,7 +1626,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_gain_under_health"
+							//"Image"						"replay/thumbnails/customizations/health/health_gain_under_health"
 						}
 						"Health_Gain_Label"
 						{
@@ -1708,7 +1708,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/health/health_gain_def"
+							//"Image"						"replay/thumbnails/customizations/health/health_gain_def"
 						}
 						"Health_Gain_Label"
 						{

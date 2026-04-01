@@ -867,7 +867,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/transparent_viewmodels/transparent_viewmodels_off"
+							//"Image"						"replay/thumbnails/customizations/transparent_viewmodels/transparent_viewmodels_off"
 						}
 						"Style_Button"
 						{
@@ -949,7 +949,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/transparent_viewmodels/transparent_viewmodels_on"
+							//"Image"						"replay/thumbnails/customizations/transparent_viewmodels/transparent_viewmodels_on"
 						}
 						"Style_Button"
 						{
@@ -1453,7 +1453,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedometer/speedometer_absolute"
+							//"Image"						"replay/thumbnails/customizations/speedometer/speedometer_absolute"
 						}
 						"Style_Name2"
 						{
@@ -1512,7 +1512,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1641,7 +1641,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/speedometer/speedometer_absolute"
+							//"Image"						"replay/thumbnails/customizations/speedometer/speedometer_absolute"
 						}
 						"Style_Button"
 						{
@@ -1927,7 +1927,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"

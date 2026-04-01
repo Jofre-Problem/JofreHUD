@@ -485,23 +485,6 @@
 		pin_to_sibling volabel
 		fgcolor_override		"203 186 177 255"
 	}
-           "BGImage"
-            {
-                "ControlName"               "ImagePanel"
-                "fieldName"                 "BGImage"
-                "xpos"                      "0"
-                "ypos"                      "235"
-                "zpos"                      "0"
-                "wide"                      "P1"
-                "tall"                      "10"
-                "visible"                   "1"
-                "proportionaltoparent"      "1"
-                "image"                     "replay/thumbnails/menu/queue_stripes"
-                "scaleImage"                "1"
-                "drawcolor"                 "G_ButtonBG"
-				 "alpha"                     "200"
-
-            }	
 		"gradient2"
 			{
 				ControlName				ImagePanel

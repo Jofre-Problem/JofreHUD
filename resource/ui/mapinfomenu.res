@@ -52,19 +52,6 @@
 		"scaleimage"			"1"
 		"zpos"					"6000"
 	}
-	"sidegradient1"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"sidegradient1"
-		"xpos"					"-1"
-		"ypos"					"rs1"
-		"wide"					"150"
-		"tall"					"20"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/sidegradient"
-		"scaleimage"			"1"
-		"zpos"					"1"
-	}	
 		"SummerBorder"
 		{
 		"xpos""cs-0.5"

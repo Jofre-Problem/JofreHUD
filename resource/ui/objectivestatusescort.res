@@ -157,7 +157,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"replay/thumbnails/obj/pointNeutral"
+		"image"			"replay/thumbnails/obj/point"
 		"scaleImage"	"1"
 
 		"if_multiple_trains"

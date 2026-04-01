@@ -10,8 +10,50 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
-
-
+	HudScope
+	{
+		"fieldName" "HudScope"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+	}
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
+	}
+	HudArenaCapPointCountdown
+	{
+		"fieldName"				"HudArenaCapPointCountdown"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-15"
+		"ypos"					"442"
+		"wide"					"30"
+		"tall"					"30"
+		"zpos"					"99"
+	}
+	HudVoiceSelfStatus
+	{
+		"fieldName" "HudVoiceSelfStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "r42"
+		"ypos" "355"
+		"wide" "32"
+		"tall" "32"
+	}		
     // target id being so funky
     // doesnt cover up medic with quickfix
 	CMainTargetID
@@ -236,18 +278,6 @@
 		}
 
 	}	
-	"ViewmodelRefract"
-	{
-		"ControlName"			"ImagePanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-100"
-		"wide"					"f0"
-		"tall"					"480"
-		"scaleImage"			"1"
-		visible 0
-		image "replay/thumbnails/misc/viewmodel/viewmodel_refract_3"
-	}
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
