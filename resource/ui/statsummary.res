@@ -179,18 +179,8 @@
 	
 			"BG"
 			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"visible"			"0"
-				"tall"			"0"
-				////
-				
+				"ControlName"	"Panel"
 				"visible"		"0"
-				"enabled"		"0"
-				"paintborder"	"0"
-				"paintbackground"	"0"
 			}
 	
 			"ActualLabel" // thanks jfore
@@ -251,40 +241,14 @@
 		}
 		"MapAuthors"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapAuthors"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%authors%"
-			"textAlignment"	"north"
-			"xpos"			"-9999"
-			"ypos"			"150"
-			"zpos"			"2"
-			"wide"			"245"
-			"tall"			"275"
-			////
-			
-			"visible"		"1"
-			//"enabled"		"1"
-			
+			"ControlName"	"panel"
+			"visible"		"0"	
 		}
 
 		"MapLeaderboardTitle"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapLeaderboardTitle"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%map_leaderboard_title%"
-			"textAlignment"	"north"
-			"xpos"			"-9999"
-			"ypos"			"130"
-			"zpos"			"2"
-			"wide"			"245"
-			"tall"			"30"
-			////
-			
-			"visible"		"1"
-			//"enabled"		"1"
-			"fgcolor" "137 191 60 255"
+			"ControlName"	"panel"
+			"visible"		"0"	
 		}
 	}		
 	"OnYourWayLabel"
@@ -467,20 +431,15 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
+		"xpos"			"0"
 		"ypos"			"rs1"
-	"zpos"	"11000"
+		"zpos"	"1100"
 		"wide"			"f0"
 		"tall"			"36"
-		
-		////"			"2"
 		"visible"		"0"
-		
 		"font"	"HudFontSmallishBold"
 		"labelText"		"Credits to: JarateKing, Hypnotize, Peaches, Lead, Yellow Devil, Sgtjoe, etc"
 		"textAlignment"	"center"
-		////	"0"
-		////	"0"
 		"Command"		"vguicancel"
 	}
 }
