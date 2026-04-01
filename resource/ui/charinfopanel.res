@@ -17,21 +17,7 @@
 		"visible"		"0"
 	}	
 		
-	"TimePanelBGReal"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"TimePanelBGReal"
-		"xpos"			"15"
-		"ypos"			"10"
-		"zpos"			"7000"
-		"wide"			"22"
-		"tall"			"o1"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/yakuza/indicador"	
-		"scaleImage"		"1"	
-		"pin_to_sibling"	"lostjudgmentbgtimer"
-	}	
+
 	"Time_hour10"
 	{
 		"ControlName"			"ImagePanel"
