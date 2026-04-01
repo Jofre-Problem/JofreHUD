@@ -94,7 +94,7 @@
 			"wide""p1"
 			"zpos"	"1002"
 			"tall""2"
-			"image""replay/thumbnails/misc/test2"
+			"image""replay/thumbnails/test2"
 		}		
 	"MenuColorizer"
 	{
