@@ -14,7 +14,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"TrainingResultsBG"
-		"bgcolor_override"		"17 17 17 255"
+		"bgcolor_override"		"BlackDark"	
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"bgcolor_override"	"17 17 17 255"
+		"bgcolor_override"	"BlackDark"	
 		"border"	"noborder"
 		"Slider"
 		{

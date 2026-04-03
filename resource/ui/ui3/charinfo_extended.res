@@ -615,7 +615,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notogreensolid"
+					"armedbgColor_override"		"NotoGreen"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1440,7 +1440,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notogreensolid"
+					"armedbgColor_override"		"NotoGreen"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2265,7 +2265,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notogreensolid"
+					"armedbgColor_override"		"NotoGreen"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3108,7 +3108,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notogreensolid"
+					"armedbgColor_override"		"NotoGreen"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			

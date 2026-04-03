@@ -85,7 +85,7 @@
 			"border_armed"		"NoBorder"
 			"armedBgColor_override"	"notowhite"
 			"armedfgColor_override"	"0 0 0 255"
-			"selectedBGColor_override" "notogreensolid"
+			"selectedBGColor_override" "NotoGreen"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

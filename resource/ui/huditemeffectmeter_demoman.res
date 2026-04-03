@@ -77,7 +77,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"Killfeedblur"
-		"fgcolor_override"		"Shadow"
+		"fgcolor_override"		"TransparentBlack"
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}

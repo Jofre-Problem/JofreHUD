@@ -33,7 +33,7 @@
 		"labelText"		"Built"
 		"centerwrap"		"1"
 		"textAlignment"	"center"
-		"fgcolor"		"Shadow"
+		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"CantBuildReason"
 	}

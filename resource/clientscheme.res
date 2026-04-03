@@ -25,7 +25,7 @@ Scheme
 		"NotoBlueSolid"		"70 130 180 255"
 		"NotoRedSolid"		"205 50 50 255"
 		"NotoDark"			"32 32 32 255"
-		"NotoGreenSolid"	"90 180 0 255"
+		"NotoGreen"	"90 180 0 255"
 		"NotoGray"			"95 95 95 255"
 		"Notowhite"			"220 220 220 255"
 		"NotoBlack"			"24 24 24 255"
@@ -167,9 +167,6 @@ Scheme
 
 		"HTMLBackground"									"30 30 30 255"
 
-
-		"ItemAttribNegative"								"255 61 61 255"
-
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
 		//"ItemSetItemMissing"								"139 137 137 255"
@@ -247,9 +244,7 @@ Scheme
 		"UpgradeDisabledFg"									"60 60 60 255"
 
 		"Health"											"227 228 230 255"
-		"Low Health"										"255 50 65 255"
-
-		"Shadow"											"0 0 0 175"		
+		"Low Health"										"255 50 65 255"	
 		"GrayDarkest"										"27 28 30 255"
 		"BlackLight"										"20 21 23 255"
 		"BlackDark"											"15 16 18 255"
@@ -2134,7 +2129,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/hp/divider_dx8"
+			"image"					"replay/thumbnails/null"
 			
 			"src_corner_height"		"0"				// pixels inside the image
 			"src_corner_width"		"0"

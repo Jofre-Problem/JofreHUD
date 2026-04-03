@@ -29,7 +29,7 @@
 		"text_center"			"1"
 		"textinsetx"			"28"
 				"auto_wide_tocontents" "1"
-		
+		"labelText" "%mapname%"
 		"pin_to_sibling" "ExampleAnchor"
         "pin_corner_to_sibling" "4"
         "pin_to_sibling_corner" "4"

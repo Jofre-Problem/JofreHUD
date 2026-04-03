@@ -33,7 +33,7 @@
 		"labelText"		"Metal"
 		"centerwrap"		"1"
 		"textAlignment"	"center"
-		"fgcolor"		"Shadow"
+		"fgcolor"		"TransparentBlack"
 
 		"pin_to_sibling"		"CantBuildReason"
 	}
@@ -76,7 +76,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
 		"font"			"ItemFontNameLarge"
-		"fgcolor"		"Shadow"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"

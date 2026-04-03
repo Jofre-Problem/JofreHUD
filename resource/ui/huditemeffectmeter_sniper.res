@@ -51,7 +51,7 @@
 		"enabled"				"1"
 		"labelText"				"ʦ"
 		"textAlignment"			"center"
-		"fgcolor"				"Shadow"
+		"fgcolor"				"TransparentBlack"
 		"font"					"itemfontnamesmall"
 		"proportionaltoparent"		"1"
 		"pin_to_sibling" "ItemEffectMeterImageC"

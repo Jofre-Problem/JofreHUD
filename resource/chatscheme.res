@@ -178,7 +178,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
 			
-			"image"					"replay/thumbnails/mm/chatbar"
+			"image"					"replay/thumbnails/panels/green"
 			
 			"src_corner_height"		"0"				// pixels inside the image
 			"src_corner_width"		"0"

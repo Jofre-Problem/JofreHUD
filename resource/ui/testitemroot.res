@@ -1,17 +1,70 @@
 #base "testitembotcontrols.res"
+#base "DeathStats.res"
 "Resource/UI/TestItemRoot.res"
 {
 	"ClassUsagePanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ClassUsagePanel"
-		"xpos"			"c-310"
-		"ypos"			"50"
-		"wide"			"400"
-		"tall"			"95"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"0 0 0 128"
+		"ClassCheckBox0"
+		{
+			"labelText"		"#IT_Classes_All"
+			"textAlignment"	"west"
+			"xpos"			"45"
+			"ypos"			"15"
+		}
+		"ClassCheckBox1"
+		{
+			"labelText"		"#TF_Class_Name_Scout"
+			"xpos"			"145"
+			"ypos"			"15"
+		}
+		"ClassCheckBox2"
+		{
+			"labelText"		"#TF_Class_Name_Sniper"
+			"xpos"			"220"
+			"ypos"			"15"
+		}
+		"ClassCheckBox3"
+		{
+			"labelText"		"#TF_Class_Name_Soldier"
+			"xpos"			"295"
+			"ypos"			"15"
+		}
+		"ClassCheckBox4"
+		{
+			"labelText"		"#TF_Class_Name_Demoman"
+			"xpos"			"145"
+			"ypos"			"40"
+		}
+		"ClassCheckBox5"
+		{
+			"labelText"		"#TF_Class_Name_Medic"
+			"xpos"			"220"
+			"ypos"			"40"
+		}
+		"ClassCheckBox6"
+		{
+			"labelText"		"#TF_Class_Name_HWGuy"
+			"xpos"			"295"
+			"ypos"			"40"
+		}
+		"ClassCheckBox7"
+		{
+			"labelText"		"#TF_Class_Name_Pyro"
+			"xpos"			"145"
+			"ypos"			"65"
+		}
+		"ClassCheckBox8"
+		{
+			"labelText"		"#TF_Class_Name_Spy"
+			"xpos"			"220"
+			"ypos"			"65"
+		}
+		"ClassCheckBox9"
+		{
+			"labelText"		"#TF_Class_Name_Engineer"
+			"xpos"			"295"
+			"ypos"			"65"
+		}	
 		
 		"ClassUsageLabel"
 		{
@@ -29,208 +82,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-		}
-		
-		"ClassCheckBox0"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox0"
-			"labelText"		"#IT_Classes_All"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"45"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox1"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox1"
-			"labelText"		"#TF_Class_Name_Scout"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"145"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox2"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox2"
-			"labelText"		"#TF_Class_Name_Sniper"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"220"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox3"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox3"
-			"labelText"		"#TF_Class_Name_Soldier"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"295"
-			"ypos"			"15"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox4"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox4"
-			"labelText"		"#TF_Class_Name_Demoman"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"145"
-			"ypos"			"40"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox5"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox5"
-			"labelText"		"#TF_Class_Name_Medic"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"220"
-			"ypos"			"40"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox6"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox6"
-			"labelText"		"#TF_Class_Name_HWGuy"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"295"
-			"ypos"			"40"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox7"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox7"
-			"labelText"		"#TF_Class_Name_Pyro"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"145"
-			"ypos"			"65"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox8"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox8"
-			"labelText"		"#TF_Class_Name_Spy"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"220"
-			"ypos"			"65"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}
-		"ClassCheckBox9"
-		{
-			"ControlName"	"CheckButton"
-			"fieldName"		"ClassCheckBox9"
-			"labelText"		"#TF_Class_Name_Engineer"
-			"Font"			"ItemFontAttribSmall"
-			"textAlignment"	"west"
-			"xpos"			"295"
-			"ypos"			"65"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
-			"disabledfgcolor2_override"	"117 107 94 255"
-		}	
+		}		
 	}
 	
 	"TestingPanel"

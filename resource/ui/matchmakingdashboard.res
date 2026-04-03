@@ -904,7 +904,7 @@
 				"defaultbgcolor_override" "117 107 94 0"
 				"defaultfgcolor_override" 	"27 27 27 255"
 				"armedbgcolor_override" "blank"
-				"armedfgcolor_override" "notogreensolid"
+				"armedfgcolor_override" "NotoGreen"
 				"depressedfgcolor_override" "AssassinGrade"
 			//"fgcolor"			"black"
 			

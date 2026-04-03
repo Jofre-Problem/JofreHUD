@@ -1255,7 +1255,7 @@
 		"tall"							"18"
 		labelText				""
 		"actionsignallevel"		"2"
-		Command						"offlinepractice"
+		Command						"echo nope"
 				pin_to_sibling 			"Shop"
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "2"
@@ -14202,7 +14202,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"Preload!!!"
@@ -14224,7 +14224,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"TrWalkway H1"
@@ -14246,7 +14246,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"TrWalkway OG"
@@ -14268,7 +14268,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"Tr_newbots"
@@ -14290,7 +14290,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"Tr Rocket Shooting"
@@ -14312,7 +14312,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"Tr Demo Aim"
@@ -14334,7 +14334,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"Tr Bunny Hop"
@@ -14356,7 +14356,7 @@
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
 					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreenSolid"
+					"armedbgcolor_override" "NotoGreen"
 
 			
 					labelText				"ItemTest"

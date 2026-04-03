@@ -2769,7 +2769,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		paintbackground 			0
 	}
@@ -2794,7 +2794,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		paintbackground 			0
 						"Pin_To_Sibling"				"BpButton"
@@ -2821,7 +2821,7 @@
 		"tall"				"48"
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		paintbackground 			0
 		
@@ -2851,7 +2851,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		paintbackground 			0
 						"Pin_To_Sibling"				"ArmoryButton"
@@ -2910,7 +2910,7 @@
 		//sound_released			"vo/scout_go01.mp3"
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 		pin_to_sibling 			"SoldierButton"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -2928,7 +2928,7 @@
 			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 		labelText				"đ"
 		font					"HudFontMediumSmall"
 		textAlignment			center
@@ -2957,7 +2957,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		labelText				"æ"
 		font					"HudFontMediumSmall"
@@ -2986,7 +2986,7 @@
 	
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		labelText				"ē"
 		font					"HudFontMediumSmall"
@@ -3018,7 +3018,7 @@
 
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 		labelText				"Ĕ"
 		font					"HudFontMediumSmall"
 		textAlignment			center
@@ -3051,7 +3051,7 @@
 		
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"	
+		armedFgColor_override		"NotoGreen"	
 		sound_depressed			"sound_menu/button.wav"
 		//sound_released			"vo/engineer_go01.mp3"
 		
@@ -3076,7 +3076,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"	
+		armedFgColor_override		"NotoGreen"	
 		
 		labelText				"Ė"
 		font					"HudFontMediumSmall"
@@ -3106,7 +3106,7 @@
 		"tall"							"100"
 				
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ė"
@@ -3138,7 +3138,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"notogreensolid"
+		armedFgColor_override		"NotoGreen"
 
 		labelText				"Ę"
 		font					"HudFontMediumSmall"

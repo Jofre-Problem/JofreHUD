@@ -111,7 +111,7 @@
 		"border_default"		"noborder"
 		
 		// armed style
-		"armedBgColor_override"	"NotoGreenSolid"
+		"armedBgColor_override"	"NotoGreen"
 		"armedFgColor_override" 	"NotoBlack"
 		"border_armed"		"noborder"
 		

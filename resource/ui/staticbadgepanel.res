@@ -3,19 +3,8 @@
 {
 	"Shadow"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Shadow"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-1"
-		"wide"			"p0.8"
-		"tall"			"o1"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-		"image"			"gradient_radial_pure_black"
-		"scaleImage"	"1"	
-		"alpha"			"200"
+		"ControlName" "panel"
+		"visible"		"0"
 	}
 
 	"RankLabel"

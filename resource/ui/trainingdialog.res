@@ -27,23 +27,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		
-		
-		"class_list"
-		{
-			"ControlName"	"PanelListPanel"
-			"fieldName"		"class_list"
-			"xpos"		"0"
-			"ypos"		"0"
-			"wide"		"620"
-			"tall"		"405"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"paintbackground"	"1"
-		}
 	}
-
 }
+
+

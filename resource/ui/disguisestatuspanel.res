@@ -44,7 +44,7 @@
 		"labelText"				"%disguisename%"
 		"labelText_minmode"		"Disguised"
 		"textAlignment"			"center"
-		"fgcolor_override"		"Shadow"
+		"fgcolor_override"		"TransparentBlack"
 		"pin_to_sibling"		"DisguiseNameLabel"
 	}
 	"WeaponNameLabel"
@@ -76,7 +76,7 @@
 		"labelText"				"%weaponname%"
 		"textAlignment"			"north"
 		"centerwrap"			"1"
-		"fgcolor_override"		"Shadow"
+		"fgcolor_override"		"TransparentBlack"
 		"pin_to_sibling"		"WeaponNameLabel"
 	}
 	"SpectatorGUIHealth"

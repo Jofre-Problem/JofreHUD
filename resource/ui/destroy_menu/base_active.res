@@ -56,7 +56,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabelShadow"
 		"font"			"ScoreboardTeamName"
-		"fgcolor"		"Shadow"
+		"fgcolor"		"TransparentBlack"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"

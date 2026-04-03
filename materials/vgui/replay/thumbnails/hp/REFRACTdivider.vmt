@@ -10,6 +10,6 @@
 	
 	<dx90
 	{
-		 	"$fallbackmaterial" "vgui/replay/thumbnails/hp/divider_dx8"
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/null"
 	}
 }
