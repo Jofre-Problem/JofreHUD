@@ -88,19 +88,19 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"visible"		"0"
+		"xpos"						"9999"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"visible"		"0"
+		"xpos"						"9999"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"CycleTargetRevLabel"
-		"visible"		"0"
+		"xpos"						"9999"
 	}
 	"TipLabel"
 	{

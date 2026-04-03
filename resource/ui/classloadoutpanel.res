@@ -307,7 +307,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"killfeedtiny"
+		"font"			"MapVotesPercentage"
 		"xpos"			"rs1-60"
 		"ypos"			"rs1"
 		"zpos"			"0"	
@@ -1474,7 +1474,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mouse2label"
-			"font"			"killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1537,7 +1537,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"shiftlabel"
-			"font"			"killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"Move"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1584,7 +1584,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"altlabel"
-			"font"			"killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"Rotate"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1633,7 +1633,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ctrllabel"
-			"font"			"killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"

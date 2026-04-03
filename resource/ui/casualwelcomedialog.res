@@ -15,134 +15,44 @@
 		"settitlebarvisible"	"0"
 		//
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
 
 
 	"CasualTitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CasualTitleLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"#TF_Casual_Welcome_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"15"
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"14"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"fgcolor_override" "StoreGreen"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	"SubtitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SubtitleLabel"
-		"font"			"Link"
-		"labelText"		"#TF_Casual_Welcome_Subtitle"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"29"
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"14"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	"SectionOneTitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionOneTitleLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_One_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"47" // 4 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"11"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	"SectionOneTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionOneTextLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_One_Text"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"60" // 2 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"44" // XPSource_Glow font - 4 rows
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	
 	"SectionThreeTitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionThreeTitleLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_Three_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"108" // 4 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"11"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "Yellow"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	"SectionThreeTextLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionThreeTextLabel"
-		"font"			"HudFontSmallest"
-		"labelText"		"#TF_Casual_Welcome_Section_Three_Text"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"121" // 2 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"44" // XPSource_Glow font - 4 rows
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 
 	"TakeTourButton"

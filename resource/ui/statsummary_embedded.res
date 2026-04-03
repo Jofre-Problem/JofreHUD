@@ -13,9 +13,38 @@
 	}
 	"MapLabel"
 	{
-		"ControlName"		"panel"
-		"visible"		"0"
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"ItemFontNameLarger"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
+	"zpos"	"1010"
+		"wide"				"f0"
+		"tall"				"24"
+		"AllCaps"			"1"
+		"fgcolor_override"	"Notodark"
+		"bgcolor_override"	"Notowhite"
+				"proportionaltoparent"	"1"
+		"text_center"			"1"
+		"textinsetx"			"28"
+				"auto_wide_tocontents" "1"
+		
+		"pin_to_sibling" "ExampleAnchor"
+        "pin_corner_to_sibling" "4"
+        "pin_to_sibling_corner" "4"
 	}
+	"ExampleAnchor"
+    {
+        "ControlName"     "EditablePanel"
+        "fieldName"     "ExampleAnchor"
+        "xpos"             "0"
+        "ypos"             "50"
+        "wide"             "f0"
+        "tall"             "1"
+        "visible"         "1"
+        "enabled"         "1"
+    }	
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -98,7 +127,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"Killfeedtiny"
+				"font"			"MapVotesPercentage"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-202"
@@ -113,7 +142,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"Killfeedtiny"
+				"font"			"MapVotesPercentage"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-27"
@@ -128,7 +157,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"Killfeedtiny"
+				"font"			"MapVotesPercentage"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c130"
@@ -159,7 +188,7 @@
 				"zpos"		"10"
 				"wide"		"155"
 				"tall"		"14"
-					font "Killfeedtiny"
+					font "MapVotesPercentage"
 				"visible"		"0"
 				"enabled"		"1"
 				"textHidden"		"0"
@@ -179,8 +208,8 @@
 				"tall"		"14"
 				"visible"		"1"
 				"enabled"		"1"
-				font "Killfeedtiny"
-				font_override "Killfeedtiny"
+				font "MapVotesPercentage"
+				font_override "MapVotesPercentage"
 				"textHidden"		"0"
 				"editable"		"0"
 				"maxchars"		"-1"
@@ -196,7 +225,7 @@
 				"zpos"		"10"
 				"wide"		"148"
 				"tall"		"14"
-					font "Killfeedtiny"
+					font "MapVotesPercentage"
 				"visible"		"0"
 				"enabled"		"1"
 				"textHidden"		"0"
@@ -267,7 +296,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -281,7 +310,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"ypos"			"212"
@@ -336,7 +365,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -350,7 +379,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"ypos"			"228"
@@ -405,7 +434,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -419,7 +448,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"ypos"			"244"
@@ -474,7 +503,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -488,7 +517,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"ypos"			"260"
@@ -543,7 +572,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -557,7 +586,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"ypos"			"276"
@@ -612,7 +641,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -626,7 +655,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"ypos"			"292"
@@ -681,7 +710,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -695,7 +724,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"ypos"			"308"
@@ -750,7 +779,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -764,7 +793,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"ypos"			"324"
@@ -819,7 +848,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -833,7 +862,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"ypos"			"340"
@@ -876,7 +905,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -891,7 +920,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -906,7 +935,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -921,7 +950,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -936,7 +965,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -951,7 +980,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -966,7 +995,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -981,7 +1010,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -996,7 +1025,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1011,7 +1040,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1026,7 +1055,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1041,7 +1070,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1056,7 +1085,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1071,7 +1100,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1086,7 +1115,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1101,7 +1130,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1116,7 +1145,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1131,7 +1160,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1146,7 +1175,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1161,7 +1190,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1176,7 +1205,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1191,7 +1220,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1206,7 +1235,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1221,7 +1250,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1236,7 +1265,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1251,7 +1280,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1266,7 +1295,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1281,7 +1310,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"
@@ -1296,7 +1325,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
 			"xpos"			"c97"
@@ -1311,7 +1340,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"Killfeedtiny"
+			"font"			"MapVotesPercentage"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
 			"xpos"			"c169"

@@ -625,18 +625,6 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"Size 24 Uber"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall" "24"	[$WINDOWS]
-				"tall"	"20"	[$LINUX]
-				//
-				"antialias"	"1"
-				//
-			}
-		}		
 		"Size 16 Uber"
 		{
 			"1"
@@ -649,18 +637,6 @@ Scheme
 			//	"dropshadow"	"1"
 			}
 		}
-		"Size 16 Uber Blur"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall" "16"	[$WINDOWS]
-				"tall"	"12"	[$LINUX]
-				"blur"	"2"
-				"antialias"	"1"
-			//	"dropshadow"	"1"
-			}
-		}		
 		"HealthAndAmmoShadow1"
 		{
 			"1"
@@ -866,18 +842,7 @@ Scheme
 				"tall" "14"	[$LINUX]
 				"antialias"	"1"
 			}
-		}	
-		"KillfeedUberBlur"
-		{
-			"1"
-			{
-				"name" "OpenSansUber"
-			"tall" "18"	[$WINDOWS]
-				"tall" "14"	[$LINUX]
-				"antialias"	"1"
-				"blur"	"2"
-			}
-		}						
+		}					
 		"Killfeed"
 		{
 			"1"
@@ -897,16 +862,7 @@ Scheme
 				"blur"	"2"
 				"antialias"	"1"
 			}
-		}
-		"Killfeedtiny"
-		{
-			"1"
-			{
-				"name"			"opensanskillfeed"
-				"tall"			"10"
-				"antialias" 	"1"
-			}
-		}				
+		}		
 		"MedHealtarget"
 		{
 			"1"
@@ -921,13 +877,6 @@ Scheme
 		"HealthAndAmmo20"
 		{
 			"1"
-			{
-				"name" "Open Sans AlphaInvertedNEW"
-				"tall" "24"
-				"antialias"	"1"
-				"yres" "479 481"
-			}
-			"2"
 			{
 				"name" "Open Sans AlphaInvertedNEW"
 				"tall" "22"
@@ -2088,12 +2037,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"hwnjofre1"
-				"tall"	"12"
-				
-				
-				"antialias"	"1"
-				//	"1"
+				"name"			"opensanskillfeed"
+				"tall"			"10"
+				"antialias" 	"1"
 			}
 		}
 

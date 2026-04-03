@@ -230,9 +230,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount2"
-				"font"			"Size 16 Uber Blur"
-				"xpos"			"rs1-1"
-				"ypos"			"0"
+				"font"			"Size 16 Uber"
+				"xpos"			"rs1-2"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"32"
 				"tall"			"f0"

@@ -403,8 +403,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue2"
-		"font"			"KillfeedUberBlur"
-		"xpos"			"0"
+		"font"			"KillfeedUber"
+		"xpos"			"1"
+		ypos 1
 		pin_to_sibling "TargetDataLabelTrue"
 
 		"zpos"			"4"
