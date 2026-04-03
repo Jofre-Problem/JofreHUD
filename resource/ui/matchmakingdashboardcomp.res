@@ -27,15 +27,17 @@
 
 	"ShowExplanationsButton"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"panel"
 		"fieldName"									"ShowExplanationsButton"
 		"xpos"										"9999"
+		visible "0"
 	}
 
 	"RankTooltipPanel"
 	{
-		"ControlName"								"ImagePanel"
+		"ControlName"								"panel"
 		"fieldName"									"RankTooltipPanel"
+		visible "0"
 	}
 
 	"ToolTipButtonHack"

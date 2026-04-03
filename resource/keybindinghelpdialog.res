@@ -1,3 +1,4 @@
+#base "keyboardeditorpage.res"
 "resource/KeyBindingHelpDialog.res"
 {
 	"KeyBindingHelpDialog"
@@ -11,17 +12,6 @@
 		
 		
 		"title"		"#BxToolTimeline"
-	}
-	"keybindings"
-	{
-		"ControlName"		"SectionedListPanel"
-		"xpos"		"8"
-		"ypos"		"19"
-		"wide"		"705"
-		"tall"		"340"
-		//		"3"
-		
-		
 	}
 	"Button1"
 	{

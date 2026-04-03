@@ -38,10 +38,6 @@
 	}
 	"URLLabel1"
 	{
-		//		"0"
-		//		"0"
-		//		"1"
-		"URLText"		"http://developer.valvesoftware.com/wiki/Friends_Beta"
 	}
 	"Divider1"
 	{

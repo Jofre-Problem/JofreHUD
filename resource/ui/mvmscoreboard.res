@@ -1,17 +1,13 @@
+#base "CSStatsSummary.res"
 "Resource/UI/MvMScoreboard.res"
 {		
 	"WaveStatusPanel"
 	{
-		"ControlName"		"CWaveStatusPanel"
-		"fieldName"			"WaveStatusPanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
-		
 		"verbose"			"1"
 	}
 	

@@ -45,11 +45,11 @@
 	
 	"Title"
 	{
-		"wide"										"0"		//500
+		"visible"										"0"		//500
 	}
 	"Description"
 	{
-		"tall"										"0"
+		"visible"										"0"
 	}
 
 	"ToolTipButtonHack"

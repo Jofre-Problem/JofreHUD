@@ -1,45 +1,6 @@
+#base "createmultiplayergameserverpage.res"
 "Resource/CreateOfflinePracticePage.res"
 {
-	"ServerPage"
-	{
-		"ControlName"		"COfflinePracticeServerPanel"
-		"fieldName"		"ServerPage"
-		"xpos"		"10"
-		"ypos"		"25"
-		"wide"		"320"
-		"tall"		"420"
-		//		"0"
-		//		"0"
-		//		"0"
-	}
-	"MapList"
-	{
-		"ControlName"	"ComboBox"
-		"fieldName"		"MapList"
-		"xpos"		"50"
-		"ypos"		"15"
-		"wide"		"240"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"5"
-		"editable"		"0"
-		"maxchars"		"-1"
-	}
-	"MapLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"MapLabel"
-		"xpos"		"15"
-		"ypos"		"15"
-		"wide"		"40"
-		"tall"		"24"
-		//		"0"
-		//		"0"
-		//		"0"
-		"labelText"		"#GameUI_Map"
-	}
-
 	"MapDivider"
 	{
 		"ControlName"		"Divider"

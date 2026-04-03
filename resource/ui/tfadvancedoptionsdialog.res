@@ -1,3 +1,4 @@
+#base "matchmakingtooltip.res"
 "Resource\UI\TFAdvancedOptionsDialog.res"
 {
 	"TFAdvancedOptionsDialog"
@@ -151,66 +152,9 @@
 	
 	"TooltipPanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"240"
-		"tall"			"50"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		
 		"TipLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
-			"textAlignment"	"center"
-			"xpos"			"20"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"200"
-			"tall"			"30"
-			
-			
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
-			"wrap"			"1"
-			//"centerwrap"	"1"
 		}
-	}	
-
-	"moreinfo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"moreinfo"
-		"font"			"HudFontSmall"
-		"labelText"		"Need more info? Click here."
-		"textAlignment"	"west"
-		"xpos"			"20"
-		"ypos"			"46"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"16"
-		"fgcolor_override" "notowhite"
-	}	
-	"moreinfo2"
-	{
-		"ControlName"	"urllabel"
-		"fieldName"		"moreinfo2"
-		"font"			"InstructionalText"
-		"labelText"		"https://wiki.teamfortress.com/wiki/Multiplayer_options#Advanced_multiplayer_options"
-		"textAlignment"	"west"
-		"xpos"			"20"
-		"ypos"			"60"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"40"
-		"wrap"	"1"
-		"fgcolor_override" "notowhite"
-	}		
+	}
 }

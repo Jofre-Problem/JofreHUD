@@ -295,16 +295,8 @@
 
 	"DescriptionLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"DescriptionLabel"
-		"labelText"		"#AbuseReport_DescriptionLabel"
-		"xpos"		"10"
-		"ypos"		"250"
-		"zpos"		"-1"
-		"wide"		"140"
-		"tall"		"15"
-		"editable"		"0"
-		"font"		"HudFontSmall"
+		"ControlName"		"panel"
+		"visible"		"0"
 	}
 
 	"DescriptionTextEntry"

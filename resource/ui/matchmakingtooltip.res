@@ -2,54 +2,36 @@
 {
 	"TooltipPanel"
 	{
-	//	"ControlName"	"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"30000"
-		"wide"			"300"
+		"zpos"			"10000"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"mouseinputenabled"	"0"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-
-
-			if_small
-			{
-				"font"	"FontStoreOriginalPrice"
-			}
-
-			if_medium
-			{
-				"font"	"HudFontSmall"
-			}
-
-			if_large
-			{
-				"font"	"HudFontSmallBold"
-			}
-
+			"font"			"HudFontSmallest"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
-			"xpos"			"10"
+			"xpos"			"20"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"140"
+			"wide"			"100"
 			"tall"			"30"
-			//	"0"
+			
 			
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"235 226 202 255"
-			"auto_wide_tocontents" "1"
-			"auto_tall_tocontents"	"1"
-			"wrap"	"1"
+			"wrap"			"1"
+			"centerwrap"	"1"
 		}
-	}	
+	}
 }

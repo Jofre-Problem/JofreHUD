@@ -43,9 +43,21 @@
 	}		
 	"MapLabel"
 	{
-		"ControlName"				"Panel"
-		"fieldName"					"MapLabel"
-		"xpos"						"9999"
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapLabel"
+		"font"			"ItemFontAttribSmallv2"
+		"textinsetx"	"5"
+		"xpos"			"r260"
+		"ypos"			"0"
+		"wide"			"240"
+		"tall"			"21"
+		//"	"0"
+		//"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"" // map: cp_bridge
+		"textAlignment"		"east"
+		"fgcolor_override"	"Tanlight"
 	}
 	"ClassOrTeamLabel"
 	{

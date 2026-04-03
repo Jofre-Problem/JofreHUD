@@ -162,7 +162,7 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"G_PanelBg"
+		"fillcolor"			"34 34 34 255"
 		PaintBackgroundType	"2"
 		"image"			""
 		roundedcorners	"3"

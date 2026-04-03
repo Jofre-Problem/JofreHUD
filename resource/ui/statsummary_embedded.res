@@ -13,19 +13,8 @@
 	}
 	"MapLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MapLabel"
-		"font"			"QuestMap_Huge"
-		"labelText"		"%maplabel%"
-		"textAlignment"		"center"
-		"xpos"			"cs-0.5"
-		"ypos"			"48"
-		"zpos"			"50"
-		"wide"			"350"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"mouseinputenabled"	"0"
+		"ControlName"		"panel"
+		"visible"		"0"
 	}
 	"MapType"
 	{

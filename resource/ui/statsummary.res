@@ -94,14 +94,8 @@
 			"wide""p1"
 			"zpos"	"1002"
 			"tall""2"
-			"image""replay/thumbnails/test2"
+			"image" "replay/thumbnails/panels/red"
 		}		
-	"MenuColorizer"
-	{
-		"zpos"										"1001"
-		"tall"								"f38"
-	
-	}		
 		"BG4"
 			{
 				"ControlName"	"EditablePanel"
@@ -203,23 +197,6 @@
 				"centerwrap"	"0"
 				
 			}					
-		}
-	
-		"TeamSilhouette"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"			"TeamSilhouette"
-			"xpos"				"c-300"
-			"ypos"				"r355"
-			"zpos"				"198"
-			"wide"				"600"
-			"tall"				"300"
-			"visible"			"1"
-			"enabled"			"1"
-			"image"				"replay/thumbnails/teamsilhouette"
-			"scaleImage"		"1"
-			"drawcolor"			"43 43 43 255"
-			"Alpha"				"255"
 		}
 		"Title"
 		{

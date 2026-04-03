@@ -1,5 +1,6 @@
 #base "commentarymodelviewer.res"
 #base "streamlistpanel.res"
+#base "matchmakingtooltip.res"
 "Resource/UI/CraftingPanel.res"
 {
 	"crafting_panel"
@@ -469,37 +470,9 @@
 	}
 	"TooltipPanel"
 	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TooltipPanel"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"100"
-		"wide"								"140"
-		"tall"								"50"
-		"visible"							"0"
-		"PaintBackgroundType"				"0"
-		"PaintBackground"					"1"
-		"paintborder"						"1"
-		"bgcolor_override"					"graydark"
-		"border"							"notodarkOutline"
-
 		"TipLabel"
 		{
-			"ControlName"					"CExLabel"
-			"fieldName"						"TipLabel"
-			"font"							"HudFontSmallest"
 			"labelText"						"%tiptext%"
-			"textAlignment"					"center"
-			"xpos"							"20"
-			"ypos"							"10"
-			"zpos"							"2"
-			"wide"							"100"
-			"tall"							"30"
-			"visible"						"1"
-			"enabled"						"1"
-			"fgcolor"						"whitegray"
-			"wrap"							"1"
-			"centerwrap"					"1"
 		}
 	}
 

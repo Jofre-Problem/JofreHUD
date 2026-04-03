@@ -58,23 +58,9 @@
 	}
 	"URLLabel1"
 	{
-		"ControlName"		"URLLabel"
-		"fieldName"		"URLLabel1"
-		"xpos"		"95"
-		"ypos"		"152"
-		"wide"		"340"
-		"tall"		"24"
-		//"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#VAC_ForDetails"
-		"textAlignment"		"west"
-		//"dulltext"		"0"
-		//"brighttext"		"0"
-		//"wrap"		"0"
-		"URLText"		"http://support.steampowered.com/cgi-bin/steampowered.cfg/php/enduser/std_adp.php?p_faqid=370"
+		"ControlName"		"Panel"
+		"visible"		"0"
+		
 	}
 	"vac_shield"
 	{

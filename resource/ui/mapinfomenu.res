@@ -4,9 +4,6 @@
 #base "../../../cfg/_jp_steam_border.txt"
 #base "../../../cfg/_jp_mainmenu_spray_frame.txt"
 
-
-#base "ui_overrides/full-timer/file3.res"
-
 #base "ui2/partyslot0.res"
 #base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
@@ -38,27 +35,6 @@
 					"scaleImage""1"
 					}		
 					}		
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"cs-0.5-78"
-		"ypos"					"25"
-		"wide"					"10"
-		"tall"					"o2"
-	"drawcolor"				"notowhite"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/timer_hour_v2/hour10"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-	}
-		"SummerBorder"
-		{
-		"xpos""cs-0.5"
-		"ypos""45"
-			//"pin_to_sibling"	"PartySlot0"
-				//cant pin
-		}	
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -123,7 +99,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle2"
 		"xpos"			"0"
-		"ypos"			"-80"
+		"ypos"			"120"
 	"zpos"	"1010"
 		"wide"				"f0"
 		"tall"				"24"
@@ -131,29 +107,13 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"AllCaps"			"1"
-		font G_fontMedium
+		font itemfontnamelarge
+		textAlignment "center"
 		"fgcolor_override"	"yellow"
 		"bgcolor_override"	"0 0 0 0"
 				"proportionaltoparent"	"1"
-		"text_center"			"1"
-		"textinsetx"			"28"
-				"auto_wide_tocontents" "1"
-		border blurborder
-		"pin_to_sibling" "ExampleAnchor"
-        "pin_corner_to_sibling" "4"
-        "pin_to_sibling_corner" "4"
+	
 	}
-	"ExampleAnchor"
-    {
-        "ControlName"     "EditablePanel"
-        "fieldName"     "ExampleAnchor"
-        "xpos"             "0"
-        "ypos"             "50"
-        "wide"             "f0"
-        "tall"             "1"
-        "visible"         "1"
-        "enabled"         "1"
-    }	
 	
 	"MapInfoType"
 	{

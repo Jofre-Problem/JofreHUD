@@ -118,11 +118,9 @@
 				"fieldName"		"MatchHistoryCategories"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"		"10"
-				"wide"			"p0.95"
-				"tall"			"20"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
+				"wide"			"1"
+				"tall"			"1"
+				"visible"		"0"
 
 				"BGPanel"
 			{
@@ -165,32 +163,14 @@
 
 			"MatchHistoryContainer"
 			{
-				"ControlName"	"CScrollableList"
-				"fieldName"		"MatchHistoryContainer"
-				"xpos"			"cs-0.5"
-				"ypos"			"40"
-				"wide"			"p0.95"
-				"tall"			"p0.78"
-				"visible"		"0"
-				"proportionaltoparent"	"1"
-				"restrict_width" "0"
+		"ControlName"	"panel"
+		"visible" "0"
 			}
 
 			"Leaderboard"
 			{
-				"ControlName"	"CLadderLobbyLeaderboard"
-				"fieldName"		"Leaderboard"
-				"xpos"			"cs-0.5"
-				"ypos"			"7"
-				"wide"			"p0.95"
-				"tall"			"p0.89"
-				"tall"			"f20"
-				"visible"		"0"
-				"enabled"		"1"
-				"mouseinputenabled" "1"
-				"scaleImage"	"1"
-				"entry_step"	"23"
-				"proportionaltoparent"	"1"
+		"ControlName"	"panel"
+		"visible" "0"
 			}
 		}
 	}
