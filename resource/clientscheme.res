@@ -819,15 +819,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Killfeed3"
-		{
-			"1"
-			{
-				"name" "opensanskillfeed"
-				"tall" "14"
-				"antialias"	"1"
-			}
-		}		
 		"KillfeedUber"
 		{
 			"1"

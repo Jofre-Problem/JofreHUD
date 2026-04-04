@@ -217,7 +217,7 @@
 		"zpos" "0" visible 0
 		"ControlName""CTFImagePanel"
 		"fieldName""FixForHP"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/hp/modulate_red"
 		"teambg_3"		"replay/thumbnails/hp/modulate_blu"

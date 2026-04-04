@@ -392,7 +392,7 @@
 		"CornerRadius"	  "6"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Killfeed3"
+		"TextFont"		"Killfeed2"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

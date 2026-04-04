@@ -5,18 +5,18 @@
 	"TeamColoredAmmoTextBG"
 	{
 
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"
+		"teambg_2"		"replay/thumbnails/panels/redteam"
+		"teambg_3"		"replay/thumbnails/panels/bluteam"
 	}
 	
 	"TeamColoredAmmoTextBG2"
 	{
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam2"
-		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+		"teambg_2"		"replay/thumbnails/panels/redteam"
+		"teambg_3"		"replay/thumbnails/panels/bluteam"
 	}
 	"HudPlayerHealth"
 	{

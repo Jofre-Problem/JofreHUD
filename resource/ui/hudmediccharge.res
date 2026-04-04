@@ -63,10 +63,10 @@
 		"ypos"			"325"
 		"wide"			"124-p0.001"
 		"tall"			"34"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"
+		"teambg_2"		"replay/thumbnails/panels/redteam"
+		"teambg_3"		"replay/thumbnails/panels/bluteam"
 
 	}	
 	"2_Image"
@@ -160,8 +160,8 @@
 		"wide"			"36"
 		"tall"			"36"
 		"variable"		"charge"
-		"fg_image"		"replay/thumbnails/hp/cover"
-		"bg_image"		"replay/thumbnails/bg_blank"
+		"fg_image"		"replay/thumbnails/panels/white"
+		"bg_image"		"replay/thumbnails/null"
 		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	
@@ -199,10 +199,10 @@
 		"tall"			"34"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam2"
-		"teambg_3"		"replay/thumbnails/hp/bluteam2"
+		"teambg_2"		"replay/thumbnails/panels/redteam"
+		"teambg_3"		"replay/thumbnails/panels/bluteam"
 		"pin_to_sibling"	"TeamColoredAmmoTextBG"
 	}
 	"ChargeMeter1"

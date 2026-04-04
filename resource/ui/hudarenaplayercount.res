@@ -20,7 +20,7 @@
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			"image"			"replay/thumbnails/hp/bluteam2"
+			"image"			"replay/thumbnails/panels/bluteam"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -108,7 +108,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/hp/redteam2"
+			"image"			"replay/thumbnails/panels/redteam"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"

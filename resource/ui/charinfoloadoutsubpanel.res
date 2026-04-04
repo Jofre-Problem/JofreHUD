@@ -328,15 +328,15 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"web_trade"
 
-						xpos 12
-						ypos "32"
+						xpos "-315"
+						ypos "-180"
 			zpos "1"
-			"wide"			"p0.535"
+			"wide"			"909"
 			"tall"			"o1"
 			"scaleImage"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/web/web_trade"
+			"image"			"replay/thumbnails/web/spelllstest"
 			mouseinputenabled 0
 		}
 				"Background"
@@ -636,7 +636,7 @@
 						xpos 12
 						ypos "32"
 			zpos "1"
-			"wide"			"p0.535"
+			"wide"			"909"
 			"tall"			"o1"
 			"scaleImage"	"1"
 			"visible"		"1"
@@ -880,14 +880,14 @@
 			"fieldName"		"web_selfamde"
 
 						xpos 12
-						ypos "32"
+						ypos "-178"
 			zpos "1"
-			"wide"			"p0.535"
+			"wide"			"909"
 			"tall"			"o1"
 			"scaleImage"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/web/spelllstest2"
+			"image"			"replay/thumbnails/web/spelllstest"
 			mouseinputenabled 0
 		}
 				"Background"
@@ -1190,15 +1190,15 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"web_normal"
 
-						xpos 12
+						xpos "-310"
 						ypos "32"
 			zpos "1"
-			"wide"			"p0.535"
+			"wide"			"909"
 			"tall"			"o1"
 			"scaleImage"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/web/web_normal"
+			"image"			"replay/thumbnails/web/spelllstest"
 			mouseinputenabled 0
 		}
 				"Background"

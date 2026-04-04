@@ -71,76 +71,65 @@
 "wide" "150"
 "tall" "24"
 "labelText" "ö  Multiplayer"
-} 
-		"Logo2"
-		{
-		"ControlName""ImagePanel"
-		"fieldName""Logo2"
-        "xpos"  "28"
-        "ypos"  "207"
-		"wide""90"
-		"tall""90"
-		"scaleImage""1"
-		"image""replay/thumbnails/reze2"
-			}			
+} 			
 "ForceMasterPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""ForceMasterPreLabel"
 "visible"   "0"
 }
 
 "ForceMasterSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""ForceMasterSlider"
 "visible"   "0"
 }
 
 "ForceRecoilPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""ForceRecoilPreLabel"
 "visible"   "0"
 }
 
 "ForceRecoilSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""ForceRecoilSlider"
 "visible"   "0"
 }
 
 "ForceDamagePreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""ForceDamagePreLabel"
 "visible"   "0"
 }
 
 "ForceDamageSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""ForceDamageSlider"
 "visible"   "0"
 }
 
 "ForceMovementPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""ForceMovementPreLabel"
 "visible"   "0"
 }
 "ForceMovementSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""ForceMovementSlider"
 "visible"   "0"
 }
 
 "PlayerBoxPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""PlayerBoxPreLabel"
 "visible"   "0"
 }
@@ -148,67 +137,67 @@
 
 "PlayerBoxVisual"
 {
-"ControlName""PlayerBoxVisual"
+"ControlName""panel"
 "fieldName""PlayerBoxScaleSlider"
 "visible"   "0"
 }
 "PlayerScalePreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""PlayerScalePreLabel"
 "visible"   "0"
 }
 
 "PlayerBoxScaleSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""PlayerBoxScaleSlider"
 "visible"   "0"
 }
 
 "PlayerStiffnessPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""PlayerStiffnessPreLabel"
 "visible"   "0"
 }
 
 "PlayerStiffnessSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""PlayerStiffnessSlider"
 "visible"   "0"
 }
 "PlayerTurnPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""PlayerTurnPreLabel"
 "visible"   "0"
 }
 
 "PlayerTurnSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""PlayerTurnSlider"
 "visible"   "0"
 }
 "PlayerAimPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""PlayerAimPreLabel"
 "visible"   "0"
 }
 
 "PlayerAimSlider"
 {
-"ControlName""CCvarSlider"
+"ControlName""panel"
 "fieldName""PlayerAimSlider"
 "visible"   "0"
 }
 
 "VehicleBoxPreLabel"
 {
-"ControlName""Label"
+"ControlName""panel"
 "fieldName""VehicleBoxPreLabel"
 "visible"   "0"
 }
@@ -216,75 +205,53 @@
 
 "VehicleBoxVisual"
 {
-"ControlName""VehicleBoxVisual"
-"fieldName""VehicleBoxScaleSlider"
-"xpos""400"
-"ypos""48"
-"wide""64"
-"tall""64"
-
+"ControlName""panel"
 "visible"   "0"
-////"visible""1"
-
-
-"leftText""#GameUI_Low"
-"rightText""#GameUI_High"
 }
 "VehicleScalePreLabel"
 {
-"ControlName""Label"
-"fieldName""VehicleScalePreLabel"
+"ControlName""panel"
 "visible"   "0"
 }
 
 "VehicleBoxScaleSlider"
 {
-"ControlName""CCvarSlider"
-"fieldName""VehicleBoxScaleSlider"
+"ControlName""panel"
 "visible"   "0"
 }
-
 "VehicleStiffnessPreLabel"
 {
-"ControlName""Label"
-"fieldName""VehicleStiffnessPreLabel"
+"ControlName""panel"
 "visible"   "0"
 }
 "VehicleStiffnessSlider"
 {
-"ControlName""CCvarSlider"
-"fieldName""VehicleStiffnessSlider"
+"ControlName""panel"
 "visible"   "0"
 }
 
 
 "VehicleTurnPreLabel"
 {
-"ControlName""Label"
-"fieldName""VehicleTurnPreLabel"
+"ControlName""panel"
 "visible"   "0"
 }
 
 "VehicleTurnSlider"
 {
-"ControlName""CCvarSlider"
-"fieldName""VehicleTurnSlider"
+"ControlName""panel"
 "visible"   "0"
 }
-
 "VehicleAimPreLabel"
 {
-"ControlName""Label"
-"fieldName""VehicleAimPreLabel"
+"ControlName""panel"
 "visible"   "0"
 }
 "VehicleAimSlider"
 {
-"ControlName""CCvarSlider"
-"fieldName""VehicleAimSlider"
+"ControlName""panel"
 "visible"   "0"
 }
-
 "Defaults"      //executes 'haptics_default.cfg', do whatever you want with it
 {
 "ControlName""Button"

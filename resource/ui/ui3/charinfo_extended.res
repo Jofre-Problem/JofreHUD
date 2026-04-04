@@ -56,8 +56,8 @@
 			{
 				"item"		"Frying Pan"
 				"show_market"	"0"
-				"present_time"	"5.0"
-	
+				"present_time"	"25.0"
+
 			"barra1"
 			{
 				"ControlName"	"EditablePanel"
@@ -72,6 +72,22 @@
 				"paintbackground"	"1"
 				"bgcolor_override"	"27 35 41 255"
 				proportionaltoparent 1
+		"web_trade"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"web_trade"
+
+						xpos "0"
+						ypos "-243"
+			zpos "1111"
+			"wide"			"390"
+			"tall"			"o1"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/web/spelllstest"
+			mouseinputenabled 0
+		}					
 				"barra1a"
 				{
 				"ControlName"	"EditablePanel"
@@ -128,21 +144,6 @@
 							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 						border "SteamWorkshopBorder"
-						"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/unique"
-						
-						}	
 
 								
 					}		
@@ -166,21 +167,7 @@
 							"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 					"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 						border "SteamWorkshopBorder"
-										"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/uweapon"
-						
-						}	
+	
 					}
 					"2bg2"
 					{
@@ -200,51 +187,7 @@
 					proportionaltoparent 1
 
 						border "SteamWorkshopBorder"
-						"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/killstreak1"
-						
-						}
-						"imagered2"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered2"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 186
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/killstreak2"
-						
-						}	
-						"imagered3"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered3"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 341
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/killstreak3"
-						
-						}														
+														
 					}	
 					"3bg2"
 					{
@@ -263,52 +206,7 @@
 				
 					proportionaltoparent 1
 
-						border "SteamWorkshopBorder"
-							"imagered1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered1"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/sheen1"
-						
-						}	
-							"imagered2"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "imagered2"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 156
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/sheen2"
-						
-						}		
-							"vv"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "vv"
-						"wide" "200"
-						
-						"tall"	"24"
-						xpos 323
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/vv"
-						
-						}																							
+						border "SteamWorkshopBorder"																						
 					}	
 					"4bg2"
 					{
@@ -325,37 +223,7 @@
 
 						border "SteamWorkshopBorder"
 					"enabled"		"1"
-					"paintbackground"	"1"		
-											"spell1"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "spell1"
-						"wide" "390"
-						
-						"tall"	"o0.125"
-						xpos 4
-						ypos 4
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/spell1"
-						
-						}		
-						"spell2"
-						{
-						"ControlName" "ImagePanel"
-						"fieldName" "spell2"
-						"wide" "400"
-						
-						"tall"	"12"
-						xpos 4
-						ypos 50+p0.001
-					
-						mouseinputenabled 0
-						"scaleImage""1"
-						"image""replay/thumbnails/web/spell2"
-						
-						}							
+					"paintbackground"	"1"							
 					}											
 				}		
 			}		
@@ -3854,14 +3722,14 @@
 						{
 						"ControlName" "ImagePanel"
 						"fieldName" "dream1"
-			"wide"			"p0.535"
-			"tall"			"o1"
-						xpos 4
-						ypos 4
+			"wide"			"909"
+			"tall"			"909"
+						xpos "4"
+						ypos "-403"
 						zpos 999
 						mouseinputenabled 0
 						"scaleImage""1"
-						"image""replay/thumbnails/web/dream1"						
+						"image" "replay/thumbnails/web/spelllstest"						
 						}	
 				}	
 				"dreamitem1"

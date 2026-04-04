@@ -2,7 +2,7 @@
 {
 	"Notification_Label"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"Notification_Label"
 		"xpos"										"cs-0.5-15"
 		"ypos"										"0"
@@ -11,7 +11,6 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
 		"font"										"hudhinttext"
-		border noborder
 	}
 
 

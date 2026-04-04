@@ -108,10 +108,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		zpos 1
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/redteam"
-		"teambg_3"		"replay/thumbnails/hp/bluteam"		
+		"teambg_2"		"replay/thumbnails/panels/redteam"
+		"teambg_3"		"replay/thumbnails/panels/bluteam"		
 		"wide"			"24"
 		"tall"			"24" 
 	}	

@@ -245,7 +245,7 @@
 				"tall" "33"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
@@ -256,7 +256,7 @@
 		"fieldName"		"TeamColoredAmmoTextBG"
 		"xpos"			"0-p0.0015"
 		"ypos"			"0"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	
 "teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"		

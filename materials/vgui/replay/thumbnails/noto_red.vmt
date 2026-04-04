@@ -1,11 +1,6 @@
 "UnlitGeneric"
 {
-        "$translucent" "1"
-        "$baseTexture" "vgui\replay\thumbnails\noto_red"
-        "$alpha" "1"
-        "$vertexalpha" "1"     
-        "$vertexcolor" "1"
-        
-        "$ignorez" "1"
-        
+	"$baseTexture" ""
+	"$color" "{200 49 48}"
+	"$ignorez" "1"
 }

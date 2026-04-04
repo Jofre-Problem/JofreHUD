@@ -1,6 +1,6 @@
 Modulate
 {
-	"$baseTexture" "vgui/replay/thumbnails/hp/bluteam"
+	"$baseTexture" "vgui/replay/thumbnails/panels/bluteam"
 $writez 1 
 $texoffset "[0 0]"
 $texscale 1

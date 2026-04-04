@@ -56,7 +56,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
@@ -140,7 +140,7 @@
 				"tall" "34"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"		"1"	border noborder
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
@@ -204,7 +204,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
+		"image"			"replay/thumbnails/null"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"

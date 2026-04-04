@@ -1,7 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui\replay\thumbnails\hp\whiteam"
-	
-	"$vertexcolor"		"1"
-	
+	"$baseTexture" ""
+	"$color" "{102 102 102}"
+	"$ignorez" "1"
 }

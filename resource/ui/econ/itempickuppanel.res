@@ -65,19 +65,7 @@
 		paintBackgroundtype "2"
 		"bgcolor_override" "0 0 0 255"
 	}
-	"classimageoutline2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"classimageoutline2"
-		"xpos"			"c208"
-		"ypos"			"115"
-		"zpos"			"6"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
-		paintBackgroundtype "2"
-		"bgcolor_override" "0 0 0 255"
-	}	
+
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
@@ -92,20 +80,7 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	"reze"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"reze"
-		"xpos"			"c211"
-		"ypos"			"118"
-		"zpos"			"7"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/reze2"
-		"scaleImage"	"1"
-	}
+
 		
 	"ItemsFoundLabel"
 	{
