@@ -1,31 +1,7 @@
-//#base "../#jofre/motd-list.res"
-//#base "../#jofre/motd-code.res"
-//#base "../#jofre/training maps.txt"
-//#base "../#jofre/workshop.res"
-//#base "matchmakingpingpanel.res"
-#base "ui_overrides/full-timer/file2.res"
-//#base "ui2/lead_bg.res"
-//#base "../#jofre/nobar.res"		//always activated
-//#base "../../ui_overrides/speed-meter/sc_exist.res"
-//#base "../../ui_overrides/global-timer/sc_exist.res"
-//#base "../../ui_overrides/transparent-viewmodel/sc_exist.res"
-"Resource/SteamWorkshopDialog.res"
 
+"Resource/SteamWorkshopDialog.res"
 {
 
-
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"-15"
-		"ypos"					"10"
-	"drawcolor"				"notowhite"
-		"enabled"				"1"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-		"alpha"	"0"
-	}
 	"bg"
 	{
 		"ControlName"			"ImagePanel"

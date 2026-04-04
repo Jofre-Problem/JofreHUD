@@ -1,15 +1,9 @@
-#base "../customization/colors/user_colors.res"
-#base "../customization/colors/custom_colors.res"
-
-#base "../../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
-#base "../../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
-//#base "../new/resource/cs_windows.res"
 #base "../../../cfg/_jp_sourcescheme_border.txt"		// font default tf2 stuff uses
 #base "../../../cfg/_jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
 #base "combinepanelscheme.res"
-//#base "sourceschemebase.res"
 #base "portalstatsdisplayscreen.res"
 #base "portalstatsdisplayscreen2.res"
+#base "sourceschemebase.res"
 Scheme
 {
 	Colors
@@ -68,10 +62,9 @@ Scheme
 	}	
 	BaseSettings	{
 		MainMenu.Backdrop   "Blank"
-// basically the shadow when you open console
  Tooltip.TextColor	"White"
  Tooltip.BgColor	"Black"
-PropertySheet.SelectedTextColor "220 220 220 255"      
+PropertySheet.SelectedTextColor "210 220 220 255"      
 
 SectionedListPanel.DividerColor "220 220 220 255"
 Button.DepressedTextColor "220 220 220 255"
@@ -89,16 +82,13 @@ Button.DepressedTextColor "220 220 220 255"
 		ScrollBarButton.DepressedFgColor					"Blank"	
 		TextEntry.SelectedTextColor	"69 64 57 255"
 		TextEntry.SelectedBgColor	"210 210 210 255"
-        		Button.BgColor					"Black"
+        Button.BgColor					"Black"
 		Button.TextColor				"White"
 		Button.ArmedBgColor				"220 220 220 255"
 		Button.ArmedTextColor			"Black"
 		
 		Console.TextColor			"35 240 55 255"
 		Console.DevTextColor		"35 240 55 255"		//offwhite
-//		Button.DepressedTextColor		"Black"
-//		Button.DepressedBgColor			"DullWhite"
-//		Button.FocusBorderColor			"204 135 41 255"
 
 	
 		CheckButton.Border1  			"cs1"
@@ -110,29 +100,17 @@ Button.DepressedTextColor "220 220 220 255"
 
 		Frame.FocusTransitionEffectTime	"0.3"
 		Frame.TransitionEffectTime		"0.3"
-	//	Frame.AutoSnapRange				"0"
-	//	FrameSystemButton.FgColor		"Blank"
-	//	FrameSystemButton.BgColor		"Blank"
-	//	FrameSystemButton.Icon			""
-	//	FrameSystemButton.DisabledIcon	""
-	//	FrameTitleBar.DisabledBgColor	"Blank"
-	//	Frame.BgColor					"27 27 27 248"
-	//	Frame.OutOfFocusBgColor			"27 27 27 170"
-	//	FrameGrip.Color1				"220 220 220 255"
-	//	FrameGrip.Color2				"220 220 220 255"
 
-
-//		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-//		TextEntry.OutOfFocusSelectedtextColor	"245 245 245 60"
-//		TextEntry.FocusEdgeColor	"Black"
-//		TextEntry.TextColor				"Black"
-//		TextEntry.DisabledTextColor		"Black"
 		TextEntry.DisabledBgColor	"Blank"
-//		TextEntry.SelectedTextColor		"DullWhite"
-//		TextEntry.SelectedBgColor		"204 135 41 255"
-//		TextEntry.BgColor				"White"
-//TF		TextEntry.CursorColor		"204 135 41 255"
+		MessageDialog.MatchmakingBG			"46 43 42 255"	
+		MessageDialog.MatchmakingBGBlack			"22 22 22 255"	
+		
+		MatchmakingMenuItemTitleColor			"200 184 151 255"
+		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	
 
+		"QuickListBGDeselected"		"AchievementsDarkGrey"
+	 	"QuickListBGSelected"           "AchievementsLightGrey"
+	
 		}
 
    		Borders
@@ -548,9 +526,9 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"Blank"
+				"name"		"verdana"
 				"tall"		"20"
-				"yres" "0 10000"	//the tall determines the position the buttons of frame will be
+			//	"yres" "0 10000"	//the tall determines the position the buttons of frame will be
 				// 12 is the def
 			}
 		}			
@@ -582,7 +560,8 @@ Button.DepressedTextColor "220 220 220 255"
 				"weight"	"500"
 				"antialias"	"1"
 			}
-		}		
+		}	
+			
 	}	
 	Borders
 	{		
@@ -1128,6 +1107,6 @@ Button.DepressedTextColor "220 220 220 255"
             {
                 "range"                                             "0x0021 0x1EFF"
             }				
-		}						
+		}
 	}	
 }	

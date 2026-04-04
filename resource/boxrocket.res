@@ -210,15 +210,6 @@ Scheme
 				"tall"		"16"
 			}
 		}
-		"MarlettSmall"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"10"
-				"symbol"	"1"
-			}
-		}
 		"DefaultFixed"
 		{
 			"1"

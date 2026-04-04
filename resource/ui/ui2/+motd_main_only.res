@@ -535,7 +535,6 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recmapname"
-		"border_default"	"ModulateRgb"
 		"border_armed"	"FLAT_Black_2"	
 		paintbackground 			0
 	}				

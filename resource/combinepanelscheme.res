@@ -32,9 +32,9 @@ Scheme
 		Button.ArmedTextColor							"240 240 240 255"
 		Button.ArmedBgColor								"90 180 0 255"				//!!!
 		Button.SelectedTextColor						"255 152 0 255"
-		Button.SelectedBgColor							"TFOrange"							//!!!1
+		Button.SelectedBgColor							"blank"							//!!!1
 		Button.DepressedTextColor						"245 245 245 180"
-		Button.DepressedBgColor							"TFOrange"
+		Button.DepressedBgColor							"blank"
 		Button.FocusBorderColor			"Black"
 		
 		CheckButton.TextColor			"220 220 220 255"
@@ -50,25 +50,26 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Frame.BgColor"										"TransparentBlack"
-		"Frame.OutOfFocusBgColor"							"TransparentBlack"
-		"Frame.FocusTransitionEffectTime"					"0.0"
-		"Frame.TransitionEffectTime"						"0.0"
-		"Frame.AutoSnapRange"								"0"
-		"FrameGrip.Color1"									"Blank"
-		"FrameGrip.Color2"									"Blank"
-		"FrameTitleButton.FgColor"							"Blank"
-		"FrameTitleButton.BgColor"							"Blank"
-		"FrameTitleButton.DisabledFgColor"					"Blank"
-		"FrameTitleButton.DisabledBgColor"					"Blank"
-		"FrameSystemButton.FgColor"							"Blank"
-		"FrameSystemButton.BgColor"							"Blank"
-		"FrameSystemButton.Icon"							""
-		"FrameSystemButton.DisabledIcon"					""
-		"FrameTitleBar.TextColor"							"Orange"
-		"FrameTitleBar.BgColor"								"Blank"
-		"FrameTitleBar.DisabledTextColor"					"Orange"
-		"FrameTitleBar.DisabledBgColor"						"Blank"
+		Frame.TitleTextInsetX			16
+		Frame.BgColor					"black"	
+		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.3"		// time it takes for a window to fade in/out on open/close
+		Frame.AutoSnapRange				"0"
+		FrameGrip.Color1				"200 200 200 196"
+		FrameGrip.Color2				"0 0 0 196"
+		FrameTitleButton.FgColor		"200 200 200 196"
+		FrameTitleButton.BgColor		"Blank"
+		FrameTitleButton.DisabledFgColor	"255 255 255 192"
+		FrameTitleButton.DisabledBgColor	"Blank"
+		FrameSystemButton.FgColor		"Blank"
+		FrameSystemButton.BgColor		"Blank"
+		FrameSystemButton.Icon			""
+		FrameSystemButton.DisabledIcon	""
+		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.BgColor			"Blank"
+		FrameTitleBar.DisabledTextColor	"255 255 255 192"
+		FrameTitleBar.DisabledBgColor	"Blank"
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
 
@@ -102,14 +103,14 @@ Scheme
 		ProgressBar.FgColor				"White"
 		ProgressBar.BgColor				"TransparentBlack"
 
-		PropertySheet.TextColor			"OffWhite"
+		PropertySheet.TextColor			"225 225 225 255"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
-		RichText.TextColor				"OffWhite"
+		RichText.TextColor				"black"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"255 155 0 255"

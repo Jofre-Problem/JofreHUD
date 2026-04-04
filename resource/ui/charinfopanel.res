@@ -1,7 +1,3 @@
-#base "ui_overrides/full-timer/file.res"
-//#base "../../z_tf2/resource/ui/charinfopanel.res"
-
-
 "Resource/UI/CharInfoPanel.res"
 {
 	"BackgroundHeader"
@@ -18,28 +14,7 @@
 	}	
 		
 
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"80"
-		"ypos"					"0"
-	"drawcolor"				"Tanlight"
-		"enabled"				"1"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-		"alpha"	"0"
-		"pin_to_sibling" "timebg"
-		"mouseinputenabled" "0"
-	}
-	"Time_hour01"
-	{
-		"alpha"	"0"
-	}	
-	"Separator2"
-	{
-		"alpha"	"0"
-	}		
+
 	"bg"
 	{
 		"ControlName"			"ImagePanel"

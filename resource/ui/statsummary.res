@@ -1,16 +1,5 @@
-#base "../../../../../cfg/_jp_mainmenu_spray_frame.txt"
 #base "ui2/tank_gif.res"
-//#base "../ui3/menu_multiple.res"
-#base "ui_overrides/full-timer/file2.res"
 #base "statsummary_embedded.res"
-//#base "../../../../../cfg/_jp_mm_bg.txt"
-//#base "../../../../../cfg/_jp_stat_bg.txt"
-
-
-#base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
-//#base "../../../../cfg/_jp_stat_bg.txt"
-
-#base "ui_overrides/spray_stuff/bottom_right.txt"
 "Resource/UI/StatSummary.res"
 {
 	"TFStatsSummary"
@@ -28,17 +17,7 @@
 	{
 		"visible"		"0"
 	}
-	"Time_hour10"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Time_hour10"
-		"xpos"					"-15"
-		"ypos"					"9"
-//	"drawcolor"				"Primary"
-		"enabled"				"1"
-		"scaleimage"			"1"
-		"zpos"					"6000"
-	}
+
 					"LogoImage"
 					{
 					"ControlName""ImagePanel"
@@ -265,7 +244,7 @@
 		"text_center"			"1"
 		"textinsetx"			"28"
 				"auto_wide_tocontents" "1"
-		"labelText" "%mapname%"
+		"labelText" "%maplabel%"
 		"pin_to_sibling" "ExampleAnchor"
         "pin_corner_to_sibling" "4"
         "pin_to_sibling_corner" "4"

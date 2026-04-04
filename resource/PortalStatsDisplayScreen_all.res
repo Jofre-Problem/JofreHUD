@@ -1,14 +1,14 @@
 "x"{
-    	"scheme"
-		{ 
-           		"fonts"
-		{ 
+"scheme"
+{ 
+    "fonts"
+	{ 
 		"Default"
 		{
 			"1"
 			{
 				"name"		"verdana"
-				"tall"		"128"	//45
+				"tall"		"12"	//45
 				//		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -59,13 +59,21 @@
 				"name"		"Marlett"
 				"tall"		"14"
 				"symbol"	"1"
-				"range"	"0x0000 0x007F" // importatn
 			}
 		}
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"7"
+				"symbol"	"1"
+			}
+		}		
     }
 	CustomFontFiles
 	{
-		"10"		"resource/marlett.ttf"
+		"ffff"		"resource/marlett.ttf"
 	}
 }
 }

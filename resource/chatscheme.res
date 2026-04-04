@@ -145,22 +145,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		"MarlettSmall"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"7"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-		}
-
-	
-
-
 	}
 
 	//
