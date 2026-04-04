@@ -48,7 +48,7 @@
 		"tall"			"f-2"
 		"visible"		"0"
 		"enabled"		"1"
-		"drawcolor"	"Positive"
+		"drawcolor"	"NotoGreen"
 		"image"		"replay/thumbnails/panels/green"
 		"scaleImage"		"1"
 		"proportionaltoparent"		"1"

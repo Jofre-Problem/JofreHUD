@@ -271,7 +271,7 @@
         "bgcolor_override"          "Blank"
         "image"                     "replay/thumbnails/panels/fill_additive"
         "scaleImage"                "1"
-        "drawcolor"                 "FragNegative100"
+        "drawcolor"                 "255 160 128 100"
 
         "pin_to_sibling"            "Player4BG"
         "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"

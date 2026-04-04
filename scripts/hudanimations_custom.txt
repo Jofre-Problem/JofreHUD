@@ -278,21 +278,15 @@ event Engineer
 
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 	RunEvent TI_Bonus 0.0
 	SetVisible HealthBarOverheal 1 0.0
-	SetVisible HealthBarLowHealth 0 0.0
-	SetVisible HealthSpectatorBarBuff 1 0.0
 	SetVisible overhealthclean 1 0.0
 }
 
 event HudHealthBonusPulseStop
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0	0.0	
 	RunEvent TI_Neutral 0.0
 	SetVisible HealthBarOverheal 0 0.0
-	SetVisible HealthBarLowHealth 0 0.0
-	SetVisible HealthSpectatorBarBuff 0 0.0
 	StopEvent TI_Bonus 0.0
 	SetVisible overhealthclean 0 0.0
 
@@ -302,8 +296,6 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
-	SetVisible HealthSpectatorBarHurt 1 0.0
-	SetVisible HealthBarLowHealth 1 0.0		
 	RunEvent TI_Death 0.0
 
 	Animate PlayerStatusHealthValueLowester Alpha "255" Linear 0.0 0.0
@@ -325,15 +317,11 @@ event HealthLowCMD
 }
 
 event HudHealthDyingPulseStop
-{
-	RunEventChild Mainmenuoverride HealthLowCMD 0.0		
+{	
 	StopEvent HudHealthDyingPulse 0.0
-	StopEvent HudHealthDyingPulseLoop1a 0.0
 	StopEvent HudHealthDyingPulseLoop1b 0.0
-	SetVisible HealthSpectatorBarHurt 0 0.0
 	RunEvent TI_Neutral 0.0
 	StopEvent TI_Death 0.0
-	SetVisible HealthBarLowHealth 0 0.0		
 	Animate TeamColoredAmmoTextBG Alpha "255" Linear 0.0 0.0
 	Animate TeamColoredAmmoTextBG2 Alpha "255" Linear 0.0 0.0	
 	Animate PlayerStatusHealthValueLowester Alpha "0" Linear 0.0 0.0
@@ -444,9 +432,9 @@ event HudHealthDyingPulseLoop4b
 
 
 
-event TI_Bonus{	Animate PlayerStatusHealthValueID Fgcolor "Positive" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Positive" linear 0.0 0.1}
-event TI_Death{	Animate PlayerStatusHealthValueID Fgcolor "Negative" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Negative" linear 0.0 0.1}
-event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Neutral" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Neutral" linear 0.0 0.1}
+event TI_Bonus{	Animate PlayerStatusHealthValueID Fgcolor "NotoGreen" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "NotoGreen" linear 0.0 0.1}
+event TI_Death{	Animate PlayerStatusHealthValueID Fgcolor "ItemAttribNegative" linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "ItemAttribNegative" linear 0.0 0.1}
+event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Tanlight"	 linear 0.0 0.1	Animate PlayerStatusHealthValueID2 Fgcolor "236 240 241 255" linear 0.0 0.1	Animate PlayerStatusHealthValueID3 Fgcolor "Tanlight"	 linear 0.0 0.1}
 
 
 

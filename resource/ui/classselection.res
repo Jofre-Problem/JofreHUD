@@ -484,10 +484,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -602,10 +602,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -683,10 +683,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -877,10 +877,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -957,10 +957,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1075,10 +1075,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1192,10 +1192,10 @@ pin_to_sibling spylabel
 		sound_depressed			       "ui/buttonclick.wav"
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1272,10 +1272,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1467,10 +1467,10 @@ pin_to_sibling spylabel
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
-		defaultFgColor_override		"Neutral"
+		defaultFgColor_override		"Tanlight"	
 		selectedFgColor_override	"245 245 245 50"
-		FgColor_override		       "Neutral"
-		FgColor		                "Neutral"
+		FgColor_override		       "Tanlight"	
+		FgColor		                "Tanlight"	
 
 		defaultBgColor_override		"255 0 0 100"
 		paintbackground			0
@@ -1558,7 +1558,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 
@@ -1577,7 +1577,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1596,7 +1596,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1615,7 +1615,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1634,7 +1634,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1653,7 +1653,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1672,7 +1672,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1691,7 +1691,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 	
@@ -1710,7 +1710,7 @@ pin_to_sibling spylabel
 		textAlignment			center
 		font					                "killfeed"
 
-		fgcolor				              "Neutral"
+		fgcolor				              "Tanlight"	
 		paintbackground			0
 	}
 

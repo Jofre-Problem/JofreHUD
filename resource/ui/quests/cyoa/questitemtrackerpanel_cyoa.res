@@ -228,7 +228,7 @@
 
 	"PrimaryLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"label"
 		"fieldName"		"PrimaryLabel"
 		"labeltext"		"#QuestPoints_Primary"
 		"xpos"			"0"
@@ -236,7 +236,7 @@
 		"wide"			"190"
 		"tall"			"20"
 		"zpos"			"4"
-		"textinsetx"	"0"
+		
 		"fgcolor"		"TanDark"
 		"font"			"QuestMap_Small"
 		"TextAlignment"		"north-west"
@@ -244,7 +244,7 @@
 
 	"BonusLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"label"
 		"fieldName"		"BonusLabel"
 		"labeltext"		"#QuestPoints_Bonus"
 		"xpos"			"0"
@@ -252,7 +252,7 @@
 		"wide"			"190"
 		"tall"			"20"
 		"zpos"			"4"
-		"textinsetx"	"0"
+		
 		"fgcolor"		"TanDark"
 		"font"			"QuestMap_Small"
 		"TextAlignment"		"north-west"
@@ -322,7 +322,7 @@
 
 		"PendingText"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"label"
 			"fieldName"		"PendingText"
 			"labeltext"		"#QuestTracker_Pending"
 			"xpos"			"0"
@@ -330,7 +330,7 @@
 			"wide"			"190"
 			"tall"			"f0"
 			"zpos"			"4"
-			"textinsetx"	"0"
+			
 			"fgcolor_override"		"RedSolid"
 			"font"			"QuestMap_Small"
 			"TextAlignment"		"center"

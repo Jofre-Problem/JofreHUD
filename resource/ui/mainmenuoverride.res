@@ -2067,7 +2067,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -2467,7 +2467,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -2842,7 +2842,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -3289,7 +3289,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -3600,7 +3600,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -3915,7 +3915,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -4324,7 +4324,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -4759,7 +4759,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -5043,7 +5043,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -5461,7 +5461,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -6011,7 +6011,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -6370,7 +6370,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -6740,7 +6740,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -7174,7 +7174,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -7522,7 +7522,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -7838,7 +7838,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -8062,7 +8062,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -8340,7 +8340,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -8631,7 +8631,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -8917,7 +8917,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -9871,7 +9871,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -10271,7 +10271,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -10646,7 +10646,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -11093,7 +11093,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -11404,7 +11404,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -11719,7 +11719,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -12128,7 +12128,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -12563,7 +12563,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -13122,7 +13122,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -13486,7 +13486,7 @@
                                 "textinsetx"                "5"
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
-                                "command"                   "url https://github.com/leadscales/fragmenthud/wiki/Donations"
+                                
                                 "sound_depressed"           "UI/buttonclick.wav"
                                 "sound_released"            "UI/buttonclickrelease.wav"
 
@@ -13918,30 +13918,7 @@
 					"fillcolor" "BlackSolid"
 					"alpha" "200"
 				}
-				"logo"
-				{
-					"ControlName"	"ImagePanel"
-"xpos"			"c-56"//359
-		"ypos"			"c-60-130"//179
-		"zpos"			"41"
-		"wide"			"112"
-		"tall"			"112"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/thatguy/intro"
-				}
-				"logofreeze"
-				{
-					"ControlName"	"ImagePanel"
-"xpos"			"c-56"//359
-		"ypos"			"c-60-130"//179
-		"zpos"			"41"
-		"wide"			"112"
-		"tall"			"112"
-					"visible"		"1"
-					"scaleimage" "1"
-					"image" "replay/thumbnails/thatguy/intro-freeze"
-				}
+
 
 				"DEVBTN_POSITION:1"			// other classes pinned to this
 				{
@@ -14765,33 +14742,7 @@
 					labelText				""
 					Command				"engine play vo/songs/zar.mp3; sv_cheats 1; testhudanim MusicPlaying"
 
-				}                
-				"album1"			// other classes pinned to this
-				{
-					ControlName				imagepanel
-					fieldName				"album1"
-					"xpos"							"5"
-					"YPOS" "5"
-					"wide"							"60"
-					"tall"							"o1"
-                    scaleImage 1
-                    "image" "replay/thumbnails/songs/duncan_a_un_minuto_de_ti"
-
-				}		
-				"album2"			// other classes pinned to this
-				{
-					ControlName				imagepanel
-					fieldName				"album2"
-					"xpos"							"5"
-					"YPOS" "0"
-					"wide"							"60"
-					"tall"							"o1"
-                    scaleImage 1
-                    "image" "replay/thumbnails/songs/zar_nunca_sin_ti"
-		pin_to_sibling 			"album1"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-				}	                	
+				}                     	
 				"kanyeonsight"			// other classes pinned to this
 				{
 					ControlName				editablepanel

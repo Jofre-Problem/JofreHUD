@@ -35,7 +35,7 @@
 		"wide"			"f0"
 		"tall"			"18"
 		"zpos"			"5"
-		"textinsetx"	"0"
+		
 		"font"			"QuestMap_Small_Blur"
 		"alpha"			"0"
 
@@ -54,7 +54,7 @@
 		"wide"			"f0"
 		"tall"			"18"
 		"zpos"			"4"
-		"textinsetx"	"0"
+		
 		"font"			"QuestMap_Small"
 
 		"TextAlignment"		"north-west"
@@ -75,7 +75,7 @@
 		"visible"		"1"
 		"alpha"			"0"
 		"font"			"QuestMap_Small_Blur"
-		"textinsetx"	"0"
+		
 		"textAlignment"		"north-west"
 		"proportionaltoparent" "1"
 		"fgcolor_override"	"White"

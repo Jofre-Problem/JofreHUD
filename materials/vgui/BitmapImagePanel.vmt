@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 "$translucent" "1"
-"$baseTexture" "vgui\replay\thumbnails\monika_c"
+"$baseTexture" "dev/null"
 "$alpha" "1"
 "$vertexalpha" "1"
 "$vertexcolor" "1"

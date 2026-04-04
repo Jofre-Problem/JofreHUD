@@ -78,7 +78,7 @@
 		//
 		
 		
-		"defaultFgColor_override" "NotoGray"
+		"defaultFgColor_override" "TFOrange"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		
 		"default"		"1"
@@ -104,7 +104,7 @@
 		"font"			"EconFontMedium"
 		"textAlignment"	"center"
 		//
-		"defaultFgColor_override" "NotoGray"
+		"defaultFgColor_override" "TFOrange"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"		
 		"default"		"1"

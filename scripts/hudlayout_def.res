@@ -17,6 +17,9 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
+		"pin_to_sibling"		"HudPlayerStatus"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"4"				
 	}
 	"QueueHUDStatus"
 	{

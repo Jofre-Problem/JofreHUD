@@ -15,7 +15,7 @@
 
 		// Model panels
 		
-		thumbnail_bgcolor			"Notogray"
+		thumbnail_bgcolor			"TFOrange"
 		thumbnail_bgcolor_mouseover	"Notodark"
 		thumbnail_bgcolor_selected	"NotoBlueSolid"
 		
@@ -319,9 +319,9 @@
 		unicode					0
 		
 		fgcolor_override							"White"
-		bgcolor_override							"Notogray"
+		bgcolor_override							"TFOrange"
 		disabledFgColor_override				"White"
-		disabledBgColor_override				"Notogray"
+		disabledBgColor_override				"TFOrange"
 		selectionColor_override					"Blank"
 		selectionTextColor_override			"White"
 		defaultSelectionBG2Color_override	"Blank"
@@ -469,7 +469,7 @@
 		wide							100
 		tall							15
 		visible						1
-		fillColor					"Notogray"
+		fillColor					"TFOrange"
 
 		pin_to_sibling				"LeftBackground"
 		pin_corner_to_sibling	PIN_TOPRIGHT
@@ -496,7 +496,7 @@
 		textAlignment		center
 
 		defaultFgColor_override			"White"
-		armedFgColor_override			"Notogray"
+		armedFgColor_override			"TFOrange"
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
@@ -559,7 +559,7 @@
 		textAlignment		center
 
 		defaultFgColor_override			"White"
-		armedFgColor_override			"Notogray"
+		armedFgColor_override			"TFOrange"
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
@@ -606,11 +606,11 @@
 		pin_to_sibling_corner	PIN_BOTTOMRIGHT
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Notogray"
+		"depressedFgColor_override" "TFOrange"
 		
 		"defaultBgColor_override" "Black"
-		"armedBgColor_override" "Notogray"
-		"depressedBgColor_override" "Notogray"	
+		"armedBgColor_override" "TFOrange"
+		"depressedBgColor_override" "TFOrange"	
 	}				
 	
 	"StoreButton"
@@ -640,11 +640,11 @@
 
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Black"
-		"depressedFgColor_override" "Notogray"
+		"depressedFgColor_override" "TFOrange"
 		
 		"defaultBgColor_override" "Black"
-		"armedBgColor_override" "Notogray"
-		"depressedBgColor_override" "Notogray"	
+		"armedBgColor_override" "TFOrange"
+		"depressedBgColor_override" "TFOrange"	
 	}
 
 	"ViewSetButton"

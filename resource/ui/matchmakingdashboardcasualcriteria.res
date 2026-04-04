@@ -40,7 +40,7 @@
 		"enabled"									"1"
 		"scaleimage"								"1"
 
-	"image""replay/thumbnails/mm_menu/casualbg"
+	"image" "replay/thumbnails/panels/black"
 	}
 	
 	"Title"

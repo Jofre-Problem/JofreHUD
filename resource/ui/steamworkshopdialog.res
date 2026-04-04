@@ -229,34 +229,6 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"mouseinputenabled"							"0"
-
-		"SubImage"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"p3"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"NotoBlueSolid"
-		}
-
-		"SubImage2"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"SubImage2"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"p3"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"NotoBlueSolid"
-		}	
 	}				
 				"ScrollBar"
 				{

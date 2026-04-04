@@ -1,4 +1,3 @@
-#base "ui2/monika.res"
 #base "ui3/base/label1.res.res"
 "Resource/HudStalemate.res"
 {
@@ -6,11 +5,7 @@
 {
 "visible""0"
 }
-"Monika"
-{
-"xpos""5"
-"ypos"	"25"
-}
+
 "GoalLabel"
 {
 "ControlName""Label"

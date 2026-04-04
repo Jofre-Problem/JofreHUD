@@ -1,17 +1,21 @@
-#base "../../../../../cfg/_jp_hudplayerclass_pilotbars.txt"
-#base "../../../../../cfg/_jp_hudplayerclass_3d.txt"
-#base "../../../../../cfg/_jp_hudplayerclass_3d_bg.txt"
-
-#base "../../../../cfg/_jp_hudplayerclass_pilotbars.txt"
-#base "../../../../cfg/_jp_hudplayerclass_3d.txt"
-#base "../../../../cfg/_jp_hudplayerclass_3d_bg.txt"
-
-#base "ui_overrides/spray_stuff/bottom_left.txt"
-//#base "ui2/speeds_all.res"
-//#base "../../../../../cfg/_jp_hud_radar.txt"	
-
 "Resource/UI/HudPlayerClass.res"
 {
+	"classmodelpanelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos"			"0"
+		"ypos"			"rs1"
+		"zpos"			"599"		
+		"wide"			"100"//100
+		"tall"			"200"//200
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/hp/REFRACT3dclassover"
+		"teambg_2"			"replay/thumbnails/hp/REFRACT3dclassover"
+		"teambg_3"			"replay/thumbnails/hp/REFRACT3dclassover"
+	}
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -176,9 +180,6 @@
 	{"ControlName"	"Panel"	"xpos"	"9990" "visible" "0"}
 	"PlayerStatusClassImageBG"
 	{"ControlName"	"Panel"	"xpos"	"9990" "visible" "0"}
-	"classmodelpanelBG"
-	{"ControlName"	"Panel"	"xpos"	"9990" "visible" "0"}
-
 
 
 

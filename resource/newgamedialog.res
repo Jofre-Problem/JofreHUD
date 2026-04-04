@@ -44,36 +44,6 @@
 			"border"		"CS1"			
 			"bgcolor_override"				"24 24 24 0"
 
-
-
-		"SubImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow"
-			"drawcolor"								"245 245 245 255"
-		}
-
-		"SubImage2"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"SubImage2"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"f0"
-			"tall"									"f0"
-			"proportionaltoparent"					"1"
-			"scaleImage"							"1"
-			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
-			"drawcolor"								"245 245 245 255"
-		}
-
 		"SubImage3"
 		{
 			"ControlName"							"editablePanel"

@@ -1,21 +1,3 @@
-#base "../../../../../cfg/_jp_ui_hpcirculo.txt"
-#base "../../../../../cfg/_jp_ui_ammobg.txt"
-#base "../../../../../cfg/_jp_custom_resolution.txt"
-#base "../../../../../cfg/_jp_custom_hp_speed.txt"
-#base "../../../../../cfg/_jp_custom_hp_progressbar.txt"
-//#base "../../../../../cfg/_jp_custom_hp_speed.txt"
-#base "../../../../cfg/_jp_ui_hpcirculo.txt"
-#base "../../../../cfg/_jp_ui_ammobg.txt"
-#base "../../../../cfg/_jp_custom_resolution.txt"
-#base "../../../../cfg/_jp_custom_hp_speed.txt"
-#base "../../../../cfg/_jp_custom_hp_progressbar.txt"
-//#base "../../../../../cfg/_jp_custom_hp_speed.txt"
-//fallback
-#base "ui2/healthshadow.res"
-#base "ui2/hp_fallback.res"
-#base "ui2/HudPlayerHealthbase.res"
-//#base "../../_minmode/resource/ui/hudplayerhealth.res"
-
 "x"
 {	
 
@@ -30,16 +12,15 @@
 		"tall"			"80" //36
 		"visible"		"1"
 		"enabled"		"1"	
-	//	"HealthBonusPosAdj"	"73"//51
-		"HealthDeathWarning"	"1.0"
-		"HealthDeathWarningColor"	"255 255 255 255"
+		"HealthBonusPosAdj"	"73"//51
+		"HealthDeathWarning"		"1"
+		"HealthDeathWarningColor"	"HUDDeathWarning" // never change this
 	}	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"Panel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"visible"		"0"	
-	}
+		"visible"		"0"
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"Panel"
@@ -56,7 +37,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/null"
+		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
@@ -134,14 +115,13 @@
 		"fieldName"		"TeamColoredAmmoTextBG2"
 		"xpos"			"35"
 		"ypos"			"0"
-		"zpos"			"4"
+		"zpos"			"1"
 		"wide"			"150"
-		"tall"			"34" [$WINDOWS]
-				"tall" "34"	[$LINUX]
+		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/null"
-		"scaleImage"		"1"	border noborder
+		"image"			"replay/thumbnails/hp/cover"
+		"scaleImage"		"1"
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}
@@ -157,7 +137,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"drawcolor"	"100 226 13 255"
-		"image"		"replay/thumbnails/materialPanel"
+		"image"		"replay/thumbnails/materialpanel"
 		"scaleimage"	"1"
 		"alpha" "255"
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
@@ -170,28 +150,13 @@
 		"fieldName"		"healthcrossicon"
 		"xpos"			"2"
 		"ypos"			"2"
-		"zpos"			"2"
+		"zpos"			"22"
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/healthcrossicon"
 		"scaleimage"	"1"
-	}
-	"Healthcrossicon2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"healthcrossicon2"
-		"xpos"			"2"
-		"ypos"			"2"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthcrossicon"
-		"scaleimage"	"1"
-		"alpha"			"1"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
@@ -204,16 +169,16 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/null"
+		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-//		"xpos"			"-2421"
+		"xpos"			"-2421"
 		"ypos"			"-5"
-		"zpos"			"6"
+		"zpos"			"10"
 		"wide"			"5000"
 		"tall"			"40"
 		"visible"		"1"
@@ -227,9 +192,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueS"
-//		"xpos"			"-2421"
+		"xpos"			"-2421"
 		"ypos"			"-5"
-		"zpos"			"9"
+		"zpos"			"10"
 		"wide"			"5000"
 		"tall"			"40"
 		"visible"		"1"
@@ -251,47 +216,12 @@
 		"tall"			"2"	
 		"bgcolor_override"		"35 35 35 255"
 	}		
-	//healthshadow was here u kno
-	
-//	"PlayerStatusHealthValueLowester2"
-//	{
-//		"ControlName"	"CExLabel"
-//		"fieldName"		"PlayerStatusHealthValueLowester2"
-//		"xpos"			"-20"
-//		"ypos"			"10"
-//		"zpos"			"5"
-//		"wide"			"148"
-//		"tall"			"10"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"labelText"		"#healthlow"
-//		"textAlignment"	"west"	
-//		"font"			"1HealthFont"
-//		"fgcolor"		"255 0 0 255"
-//		"alpha"			"0" //for the kunai
-//	}
-//	"PlayerStatusHealthValueLowester3"
-//	{
-//		"ControlName"	"CExLabel"
-//		"fieldName"		"PlayerStatusHealthValueLowester3"
-//		"xpos"			"-20"
-//		"ypos"			"10"
-//		"zpos"			"5"
-//		"wide"			"148"
-//		"tall"			"10"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"labelText"		"#healthlow"
-//		"textAlignment"	"west"	
-//		"font"			"1HealthFont"
-//		"fgcolor"		"255 0 0 0"
-//		"alpha"			"0" //for the kunai
-//	}
+
 	"PlayerStatusHealthValueLowester"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueLowester"
-//		"xpos"			"-139"//-326
+		"xpos"			"-139"
 		"ypos"			"0"
 		"zpos"			"200"
 		"wide"			"1"
@@ -304,21 +234,6 @@
 		"fgcolor"		"10 255 0 200"
 		"alpha" 		"0"
 		"auto_wide_tocontents" "1"
-	
-//		"ControlName"	"CExLabel"
-//		"fieldName"		"PlayerStatusHealthValueLowester"
-//		"xpos"			"-20"
-//		"ypos"			"-5"
-//		"zpos"			"5"
-//		"wide"			"148"
-//		"tall"			"40"
-//		"visible"		"1"
-//		"enabled"		"1"
-//		"labelText"		"#healthlow"
-//		"textAlignment"	"west"	
-//		"font"			"1HealthFont"
-//		"fgcolor"		"255 0 0 255"
-//		"alpha"			"0" //for the kunai
 	}
 	"PlayerStatusHealthValueLowestImage3"
 	{
@@ -387,7 +302,7 @@
 		"xpos"			"-20"
 		"ypos"			"-5"
 		"zpos"			"5"
-//		"wide"			"116"//148
+		"wide"			"116"//148
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -402,11 +317,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueLower"
-//		"xpos"			"-375"//-215    //-302
-//		"ypos"			"-5"//-5
+		"xpos"			"-375"//-215    //-302
+		"ypos"			"-5"//-5
+		"tall"			"0"//35		//38
 		"zpos"			"5"
 		"wide"			"1000"
-//		"tall"			"38"//35
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#healthlow"
@@ -423,7 +338,7 @@
 		"xpos"			"-20"
 		"ypos"			"-5"
 		"zpos"			"5"
-//		"wide"			"117"//150
+		"wide"			"117"
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
@@ -438,11 +353,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueLowest2"
-//		"xpos"			"-80"//-110
-//		"ypos"			"3"//0
-		"zpos"			"1"
-//		"wide"			"116"//148
-//		"tall"			"39"//37
+		"xpos"			"-80"//-110
+		"ypos"			"3"//0
+		"wide"			"116"//148
+		"tall"			"39"//37
+		"zpos" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#healthlow"
@@ -456,11 +371,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueLower2"
-//		"xpos"			"-335"//-285
-//		"ypos"			"2"//0
-		"zpos"			"1"
-//		"wide"			"1001"//1000
-		"tall"			"34"
+		"xpos"			"-0"//-285
+		"ypos"			"2"//0
+		"wide"			"1001"//1000
+		"visible" "0"
 		"labelText"		"#healthlow"
 		"textAlignment"	"center"	
 		"font"			"LowerHealthFont" [$WINDOWS]
@@ -472,11 +386,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueLow2"
-//		"xpos"			"-82"//-110
-//		"ypos"			"4"//0
-		"zpos"			"1"
-//		"wide"			"117"//150
-//		"tall"			"36"//36
+		"xpos"			"-82"//-110
+		"ypos"			"4"//0
+		"wide"			"117"//150
+		"tall"			"36"//36
+		"zpos" "1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#healthlow"

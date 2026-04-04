@@ -5,7 +5,7 @@
 	"TeamColoredAmmoTextBG"
 	{
 
-		"image"			"replay/thumbnails/null"
+		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/panels/redteam"
 		"teambg_3"		"replay/thumbnails/panels/bluteam"
@@ -13,7 +13,7 @@
 	
 	"TeamColoredAmmoTextBG2"
 	{
-		"image"			"replay/thumbnails/null"
+		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
 		"teambg_2"		"replay/thumbnails/panels/redteam"
 		"teambg_3"		"replay/thumbnails/panels/bluteam"
