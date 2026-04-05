@@ -8,8 +8,8 @@
 		"zpos"		"1"
 		"wide"		"1100"
 		"tall"		"36"
-		//		"1"
-		//		"2"
+
+
 		
 	}
 	"FirstFrame"
@@ -132,7 +132,7 @@
 		"wide"		"24"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"R"
 		"textAlignment"		"center"
@@ -146,7 +146,7 @@
 		"wide"		"24"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"+"
 		"textAlignment"		"center"

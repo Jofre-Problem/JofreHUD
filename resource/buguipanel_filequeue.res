@@ -23,7 +23,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"75"
 	}
@@ -36,7 +36,7 @@
 		"tall"		"111"
 		
 		
-		//		"2"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}

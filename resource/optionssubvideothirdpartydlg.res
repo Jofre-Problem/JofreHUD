@@ -15,7 +15,7 @@
 		
 		"labelText"		"HUD by Jofre TEST"
 		"textAlignment"		"north-west"
-		//		"1"
+
 		//
 		"font"		"DefaultSmall"
 		"wrap"		"1"
@@ -40,7 +40,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
 		//

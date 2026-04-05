@@ -22,7 +22,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"maxchars"		"-1"
 	}
 	"password"
@@ -34,7 +34,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"textHidden"		"1"
 		"editable"		"1"
 		"maxchars"		"-1"

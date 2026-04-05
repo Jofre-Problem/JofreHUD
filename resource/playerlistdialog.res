@@ -22,7 +22,7 @@
 		"wide"		"144"
 		"tall"		"24"
 		//		"0"
-		//		"2"
+
 		//		"3"
 		"labelText"		"#GameUI_MuteIngameVoice"
 		"Command"		"Mute"
@@ -38,7 +38,7 @@
 		"tall"		"279"
 		//		"3"
 		//		"0"
-		//		"1"
+
 	}
 	"Button1"
 	{

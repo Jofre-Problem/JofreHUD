@@ -40,7 +40,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -79,7 +79,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}

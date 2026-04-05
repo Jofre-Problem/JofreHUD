@@ -21,7 +21,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"labelText"		"#GameUI_StartBenchmark"
 		"Default"		"1"
 	}
@@ -34,7 +34,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"#vgui_close"
 		"Command"		"Close"
 	}

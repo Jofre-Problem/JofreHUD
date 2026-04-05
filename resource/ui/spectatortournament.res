@@ -184,7 +184,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Size 16 Uber"
+				"font"			"itemfontnamesmall"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -213,7 +213,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Size 16 Uber"
+				"font"			"itemfontnamesmall"
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"zpos"			"6"
@@ -230,7 +230,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount2"
-				"font"			"Size 16 Uber"
+				"font"			"itemfontnamesmall"
 				"xpos"			"rs1-2"
 				"ypos"			"1"
 				"zpos"			"5"

@@ -116,7 +116,7 @@
 
 		"mouseOverImage"
 		{
-			"material"	"vgui/screens/vgui_button_hover"
+			"material"	"vgui/screens/vgui_ItemFlags"
 			"color" "255 255 255 255"
 		}
 
@@ -162,7 +162,7 @@
 
 		"mouseOverImage"
 		{
-			"material"	"vgui/screens/vgui_button_hover"
+			"material"	"vgui/screens/vgui_ItemFlags"
 			"color" "255 255 255 255"
 		}
 
@@ -208,7 +208,7 @@
 
 		"mouseOverImage"
 		{
-			"material"	"vgui/screens/vgui_button_hover"
+			"material"	"vgui/screens/vgui_ItemFlags"
 			"color" "255 255 255 255"
 		}
 
@@ -273,7 +273,7 @@
 
 		"mouseOverImage"
 		{
-			"material"	"vgui/screens/vgui_button_hover"
+			"material"	"vgui/screens/vgui_ItemFlags"
 			"color" "255 255 255 255"
 		}
 
@@ -363,7 +363,7 @@
 	
 			"mouseOverImage"
 			{
-				"material"	"vgui/screens/vgui_button_hover"
+				"material"	"vgui/screens/vgui_ItemFlags"
 				"color" "255 255 255 255"
 			}
 	
@@ -415,7 +415,7 @@
 	
 			"mouseOverImage"
 			{
-				"material"	"vgui/screens/vgui_button_hover"
+				"material"	"vgui/screens/vgui_ItemFlags"
 				"color" "255 255 255 255"
 			}
 	

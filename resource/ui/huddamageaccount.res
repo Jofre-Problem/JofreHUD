@@ -1,5 +1,4 @@
-#base "../../../../../cfg/_jp_afbik_dmg.txt"
-#base "../../../../cfg/_jp_afbik_dmg.txt"
+
 #base "ui3/dmg_fallback.res"
 
 "Resource/UI/HudDamageAccount.res"

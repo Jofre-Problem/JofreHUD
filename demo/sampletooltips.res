@@ -4,7 +4,7 @@
 	{
 		//		"0"
 		//		"0"
-		//		"1"
+
 		"tooltiptext" "Test tooltip"
 
 	}
@@ -12,7 +12,7 @@
 	{
 		//		"0"
 		//		"0"
-		//		"1"
+
 		"tooltiptext" "Test tooltip two lines"
 	}
 

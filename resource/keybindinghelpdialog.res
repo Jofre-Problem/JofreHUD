@@ -21,7 +21,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#vgui_close"
 		"Command"		"close"
@@ -36,7 +36,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#KBHelpEditBindings"
 		"Command"		"edit"

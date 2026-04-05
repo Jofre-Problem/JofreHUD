@@ -31,7 +31,7 @@
 		"tall"		"24"
 		//		"0"
 		//		"0"
-		//		"1"
+
 		"labelText"		"#GameUI_OK"
 		"command"		"Ok"
 		"default"		"1"

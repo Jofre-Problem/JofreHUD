@@ -26,7 +26,7 @@
 			"wide"			"150"
 			"tall"			"30"
 			
-			//		"2"
+	
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -55,7 +55,7 @@
 			"wide"			"150"
 			"tall"			"30"
 			
-			//		"2"
+	
 			"visible"		"1"
 			"enabled"		"1"
 			
@@ -83,7 +83,7 @@
 			"wide"			"150"
 			"tall"			"30"
 			
-			//		"2"
+	
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Button_ReplayTraining"

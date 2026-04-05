@@ -7,7 +7,6 @@ Scheme
 	}		
 	Colors
 	{	
-		"whattimeis1"		"30 30 30 255"
 		"Tanlight"			"255 255 255 255"	
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
@@ -21,16 +20,10 @@ Scheme
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
 
-		"Button_Bright"										"66 63 61 255"
-		"Button_Dark"										"28 26 25 255"
-		"Button_Hover"										"104 101 100 255"
-		"Button_Red"										"190 60 60 255"
-		"Button_Red_Hover"									"120 25 25 255"
-		"Button_Green"										"75 105 35 255"
-		"Button_Green_Hover"								"55 75 25 255"		
+		"HudBlack"										"66 63 61 255"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentLightBlack"								"0 0 0 100"
-
+		"FooterBGBlack"		"28 26 25 255"
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
@@ -95,7 +88,6 @@ Scheme
 		"HUDDeathWarning"									"255 61 61 255"
 		"HudWhite"											"227 228 230 255"
 		"HudOffWhite"										"227 228 230 255"
-		"HudBlack"											"0 0 0 255"
 		"ProgressBarBlue"									"90 125 140 255"
 
 		"CreditsGreen"										"95 150 50 255"
@@ -151,8 +143,8 @@ Scheme
 		//"ItemSetItemMissing"								"139 137 137 255"
 		"ItemIsotope"										"225 255 15 255"
 		"ItemBundleItem"									"149 175 12 255"
-		"ItemLimitedUse"									"0 160 0 255"
-		"ItemFlags"											"117 107 94 255"
+		"ItemLimitedUse"									"55 75 25 255"
+		"ItemFlags"											"104 101 100 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
 		"QualityColorNormal"								"150 150 150 255"
@@ -209,7 +201,7 @@ Scheme
 
 		"LightRed"											"255 61 61 255"
 		"LighterRed"										"255 61 61 255"
-
+		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"											"30 30 30 255"
 
 		"UpgradeDefaultFg"									"227 228 230 255"
@@ -559,18 +551,7 @@ Scheme
 				"antialias" "1"
 			}
 		}		
-		"Size 16 Uber"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall" "16"	[$WINDOWS]
-				"tall"	"12"	[$LINUX]
-				//
-				"antialias"	"1"
-			//	"dropshadow"	"1"
-			}
-		}
+
 		"HealthAndAmmoShadow1"
 		{
 			"1"
@@ -4726,176 +4707,6 @@ Scheme
 			"name" "opensans-captions"
 
 		}
-		"311"
-		{
-			"font"	"fonts/OpenSansExtraBold-Uber.ttf"
-			"name"	"OpenSansExtraboldUber"
-       		"arabic"
-            {
-                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
-            }
-
-            "brazilian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "bulgarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "czech"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "danish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "dutch"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "english"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "finnish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "french"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "german"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "greek"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hungarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "italian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "japanese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "latvian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "lithuanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "norwegian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "pirate"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "polish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "portuguese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "romanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "russian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "schinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "slovak"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "spanish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "swedish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "tchinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "thai"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "turkish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "ukrainian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }			
-		}
-
 
 		"10"
 		{

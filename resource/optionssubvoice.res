@@ -63,7 +63,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 	}
 	"voice_modenable"
 	{
@@ -77,7 +77,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_EnableVoice"
 		"textAlignment"		"west"
 		//
@@ -176,7 +176,7 @@
 		
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"west"
-		//		"1"
+
 		//
 		"wrap"			"1"
 	}

@@ -34,7 +34,7 @@
 			"tall"		"24"
 			//"PinnedCornerOffsetX" "120"
 			//"PinnedCornerOffsetY" "-6"
-			//		"1"
+	
 			
 			
 			"maxchars"		"-1"
@@ -48,8 +48,8 @@
 			"wide"		"122"
 			"tall"		"24"
 			
-			//		"2"
-			//		"2"
+	
+	
 			"labelText"		"Ok"
 			"command"		"ok"
 			"textAlignment"		"center"
@@ -64,7 +64,7 @@
 			"wide"		"122"
 			"tall"		"24"
 			//	"0"
-			//		"2"
+	
 			//	"3"
 			"labelText"		"Cancel"
 			"command"		"Cancel"

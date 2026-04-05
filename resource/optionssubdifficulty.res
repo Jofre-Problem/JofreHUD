@@ -12,7 +12,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_SkillEasy"
 		"textAlignment"		"west"
 		//
@@ -33,7 +33,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_SkillNormal"
 		"textAlignment"		"west"
 		//
@@ -54,7 +54,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_SkillHard"
 		"textAlignment"		"west"
 		//

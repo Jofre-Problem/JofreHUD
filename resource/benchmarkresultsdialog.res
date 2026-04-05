@@ -21,7 +21,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"labelText"		"#GameUI_BenchmarkResults_UploadNow"
 	}
 	"Button1"
@@ -33,7 +33,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"#vgui_close"
 		"Command"		"Close"
 	}

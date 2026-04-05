@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 				"Settings"
 				{
@@ -137,8 +137,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -220,8 +220,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -303,8 +303,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -386,8 +386,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -469,8 +469,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -552,8 +552,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -626,7 +626,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Demo_Recording_ON"
 					{
@@ -652,9 +652,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Button_Green"
-						"ArmedBGColor_Override"			"Button_Green_Hover"
-						"DepressedBGColor_Override"		"Button_Green_Hover"
+						"DefaultBGColor_Override"		"greensolid"
+						"ArmedBGColor_Override"			"ItemLimitedUse"
+						"DepressedBGColor_Override"		"ItemLimitedUse"
 					}
 					"Demo_Recording_OFF"
 					{
@@ -680,9 +680,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Button_Red"
-						"ArmedBGColor_Override"			"Button_Red_Hover"
-						"DepressedBGColor_Override"		"Button_Red_Hover"
+						"DefaultBGColor_Override"		"Collectors"
+						"ArmedBGColor_Override"			"ItemAttribNegative"
+						"DepressedBGColor_Override"		"ItemAttribNegative"
 					}
 // ASPECT RATIO ------------------------------------------------------------------------------------------
 					"Aspect_Ratio"
@@ -717,7 +717,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					// 16x9 -------------------------------------------------------------
 					"16x9"
@@ -759,7 +759,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Button_Bright"
+							"BGColor_Override"			"HudBlack"
 						}
 						"Resolution_Icon"
 						{
@@ -847,7 +847,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Button_Bright"
+							"BGColor_Override"			"HudBlack"
 						}
 						"Resolution_Icon"
 						{
@@ -935,7 +935,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Button_Bright"
+							"BGColor_Override"			"HudBlack"
 						}
 						"Resolution_Icon"
 						{
@@ -1023,7 +1023,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Button_Bright"
+							"BGColor_Override"			"HudBlack"
 						}
 						"Resolution_Icon"
 						{
@@ -1104,7 +1104,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Streamer_Mode_Explanation"
 					{
@@ -1150,9 +1150,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Button_Green"
-						"ArmedBGColor_Override"			"Button_Green_Hover"
-						"DepressedBGColor_Override"		"Button_Green_Hover"
+						"DefaultBGColor_Override"		"greensolid"
+						"ArmedBGColor_Override"			"ItemLimitedUse"
+						"DepressedBGColor_Override"		"ItemLimitedUse"
 					}
 					"Streamer_Mode_OFF"
 					{
@@ -1178,9 +1178,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Button_Red"
-						"ArmedBGColor_Override"			"Button_Red_Hover"
-						"DepressedBGColor_Override"		"Button_Red_Hover"
+						"DefaultBGColor_Override"		"Collectors"
+						"ArmedBGColor_Override"			"ItemAttribNegative"
+						"DepressedBGColor_Override"		"ItemAttribNegative"
 					}
 					"Streamer_Mode_Warning"
 					{

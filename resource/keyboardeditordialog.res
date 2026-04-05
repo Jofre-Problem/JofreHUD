@@ -20,7 +20,7 @@
 		"wide"		"120"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#KBEditorSave"
 		"Command"		"save"
@@ -33,7 +33,7 @@
 		"wide"		"120"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#KBEditorCancel"
 		"Command"		"cancel"
@@ -46,7 +46,7 @@
 		"wide"		"120"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#KBEditorRevert"
 		"Command"		"revert"
@@ -59,7 +59,7 @@
 		"wide"		"120"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#KBEditorUseDefaults"
 		"Command"		"defaults"

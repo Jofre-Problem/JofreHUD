@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 				"Element_Color_Picker"
 				{
@@ -3610,7 +3610,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Color_Shadows"
 					{
@@ -3842,7 +3842,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 				"Font_Picker"
 				{

@@ -241,7 +241,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -254,7 +254,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"

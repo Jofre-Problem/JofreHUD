@@ -10,7 +10,7 @@
 	}
 	"PasswordEntry"
 	{
-		//		"1"
+
 	}
 	"ServerNameLabel"
 	{
@@ -22,7 +22,7 @@
 	}
 	"ConnectButton"
 	{
-		//		"2"
+
 	}
 	"CancelButton"
 	{

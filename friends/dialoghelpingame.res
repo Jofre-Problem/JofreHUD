@@ -10,10 +10,10 @@
 	}
 	"CloseButton"
 	{
-		//		"1"
+
 	}
 	"NeverShowButton"
 	{
-		//		"2"
+
 	}
 }

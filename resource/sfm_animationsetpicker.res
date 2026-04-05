@@ -29,7 +29,7 @@
 		"ypos"		"6"
 		"wide"		"415"
 		"tall"		"24"
-		//		"1"
+
 		
 		
 		"editable"		"1"

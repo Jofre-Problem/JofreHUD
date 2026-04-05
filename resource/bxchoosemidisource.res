@@ -33,7 +33,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"maxchars"		"-1"
 	}
 	"Choose"
@@ -45,7 +45,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"Choose"
 		"Command"		"ChooseMidiSource"
 		"Default"		"1"

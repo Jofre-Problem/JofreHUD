@@ -62,7 +62,7 @@
 		"wide"		"250"
 		"tall"		"27"
 		
-		//		"2"
+
 		
 		"labelText"		"#GameUI_CustomTab_Link"
 		"URLText"		"http://support.steampowered.com/kb_article.php?ref=7958-WSCV-6557"

@@ -20,7 +20,7 @@
 		"tall"		"450"
 		//		"3"
 		
-		//		"1"
+
 	}
 	"CreateNodeButton"
 	{
@@ -30,7 +30,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Create Nodes"
 		"command"		"DropNodes"
@@ -43,7 +43,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Delete"
 		"command"		"Delete"
@@ -56,7 +56,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Center View"
 		"command"		"CenterView"
@@ -69,7 +69,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Save"
 		"command"		"Save"
@@ -82,7 +82,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Save and Test"
 		"command"		"SaveAndTest"

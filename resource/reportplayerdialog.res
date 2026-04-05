@@ -28,7 +28,7 @@
 		"tall"		"279"
 		//		"3"
 		//		"0"
-		//		"1"
+
 	}
 	"ReportButton"
 	{
@@ -39,7 +39,7 @@
 		"wide"		"144"
 		"tall"		"25"
 		//		"0"
-		//		"2"
+
 		//		"3"
 		"labelText"			"#GameUI_ReportPlayer"
 		"Command"		"Report"
@@ -56,7 +56,7 @@
 		"tall"				"25"
 		//		"0"
 		//			"2"
-		//		"1"
+
 		"editable"			"0"
 		"maxchars"			"-1"
 	}

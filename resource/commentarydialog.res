@@ -47,7 +47,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"labelText"		"#GAMEUI_Commentary_TurnOn"
 		"Command"		"turnon"
 	}
@@ -60,7 +60,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"#GAMEUI_Commentary_LeaveOff"
 		"Command"		"turnoff"
 		"Default"		"1"

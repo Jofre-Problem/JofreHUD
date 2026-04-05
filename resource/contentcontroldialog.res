@@ -68,7 +68,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"textHidden"		"1"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -82,7 +82,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"textHidden"		"1"
 		"editable"		"1"
 		"maxchars"		"-1"

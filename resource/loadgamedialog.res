@@ -28,7 +28,7 @@
 		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 	}
 	"LoadSave"
 	{
@@ -42,7 +42,7 @@
 		//		"3"
 		"visible"		"1"
 		"enabled"		"0"
-		//		"2"
+
 		"labelText"		"#GameUI_Load"
 		"textAlignment"		"west"
 		////		"0"
@@ -81,7 +81,7 @@
 		"wide"		"82"
 		"tall"		"24"
 		//		"0"
-		//		"2"
+
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"

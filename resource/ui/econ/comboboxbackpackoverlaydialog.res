@@ -80,7 +80,7 @@
 		//			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		//		"1"
+
 		"textHidden"		"0"
 		"editable"			"0"
 		"maxchars"			"-1"

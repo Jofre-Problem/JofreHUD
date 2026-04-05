@@ -7,9 +7,6 @@
 		"ypos"		"30"
 		"wide"		"150"
 		"tall"		"150"
-		
-		
-		
 	}
 	"ClipImage"
 	{
@@ -18,69 +15,25 @@
 		"ypos"		"19"
 		"wide"		"144"
 		"tall"		"96"
-		
-		
-		
 	}
 	"ClipImageBackground"
 	{
-		"ControlName"		"ImagePanel"
-		"xpos"		"0"
-		"ypos"		"16"
-		"zpos"		"-1"
-		"wide"		"151"
-		"tall"		"103"
-		
-		
-		
-		"scaleImage"		"0"
+		"ControlName"		"Panel"
 	}
 	"ClipName"
 	{
 		"ControlName"		"Label"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"146"
-		"tall"		"16"
-		
-		
-		
-		"labelText"		"foo"
 	}
 	"ClipCamera"
 	{
 		"ControlName"		"Label"
-		"xpos"		"0"
-		"ypos"		"116"
-		"wide"		"149"
-		"tall"		"16"
-		
-		
-		
-		"labelText"		"cam: cam1"
 	}
 	"ClipDuration"
 	{
 		"ControlName"		"Label"
-		"xpos"		"0"
-		"ypos"		"130"
-		"wide"		"148"
-		"tall"		"16"
-		
-		
-		
-		"labelText"		"5.200 s."
 	}
 	"MouseMessageForwardingPanel"
 	{
-		"ControlName"		"CMouseMessageForwardingPanel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"150"
-		"tall"		"150"
-		
-		
-		
+		"visible" "0"
 	}
 }

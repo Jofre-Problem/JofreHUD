@@ -356,7 +356,7 @@
 		"wide"			"70"
 		"tall"			"30"
 		
-		//		"2"
+
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -379,7 +379,7 @@
 		"wide"			"70"
 		"tall"			"30"
 		
-		//		"2"
+
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -403,7 +403,7 @@
 		"wide"			"250"
 		"tall"			"30"
 		
-		//		"2"
+
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
@@ -427,7 +427,7 @@
 		"wide"			"250"
 		"tall"			"30"
 		
-		//		"2"
+
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"

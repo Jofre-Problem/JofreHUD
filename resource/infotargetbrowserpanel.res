@@ -21,7 +21,7 @@
 		"tall"		"636"
 		//		"3"
 		
-		//		"1"
+
 	}
 	"CreateTargetButton"
 	{
@@ -31,7 +31,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Create Targets"
 		"Command"		"DropInfoTargets"
@@ -44,7 +44,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Delete"
 		"Command"		"Delete"
@@ -57,7 +57,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Save"
 		"Command"		"Save"
@@ -70,7 +70,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Restart Map"
 		"Command"		"RestartMap"
@@ -95,7 +95,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Quick Save"
 		"Command"		"quicksave"
@@ -108,7 +108,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Quick Load"
 		"Command"		"quickload"

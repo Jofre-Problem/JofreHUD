@@ -14,7 +14,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"leftText"		"#GameUI_Low"
 		"rightText"		"#GameUI_High"
 	}
@@ -32,7 +32,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 		"leftText"		"#GameUI_Low"
 		"rightText"		"#GameUI_High"
 	}
@@ -134,7 +134,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_SndMuteLoseFocus"
 		"textAlignment"		"west"
 		//

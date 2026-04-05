@@ -1,11 +1,3 @@
-#base "../../../../../cfg/_jp_custom_ammo_progressbar.txt"
-#base "../../../../../cfg/_jp_ui_circular.txt"
-#base "../../../../../cfg/_jp_ui_ammobg.txt"
-
-#base "../../../../cfg/_jp_custom_ammo_progressbar.txt"
-#base "../../../../cfg/_jp_ui_circular.txt"
-#base "../../../../cfg/_jp_ui_ammobg.txt"
-
 #base "ui3/hudammoweaponsbase.res"
 
 "Resource/UI/HudAmmoWeapons.res"
@@ -80,7 +72,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"whattimeis1"
+		"bgcolor_override"		"MatchmakingMenuItemBackground"
 					"pin_to_sibling"	"AmmoAnchor"
 	}
 	"cover2"
@@ -94,7 +86,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"whattimeis1"
+		"bgcolor_override"		"MatchmakingMenuItemBackground"
 					"pin_to_sibling"	"AmmoAnchor"
 	}		
 	"cover3"
@@ -121,7 +113,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"whattimeis1"
+		"fgcolor"		"MatchmakingMenuItemBackground"
 		"xpos"			"-2417"
 		"ypos"			"-5"
 		"zpos"			"5"
@@ -285,7 +277,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDude"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"whattimeis1"
+		"fgcolor"		"MatchmakingMenuItemBackground"
 		"xpos"			"58"
 		"ypos"			"5"
 		"zpos"			"5"

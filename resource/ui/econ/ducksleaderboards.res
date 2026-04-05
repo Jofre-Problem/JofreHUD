@@ -1,3 +1,4 @@
+#base "../matchmakingtooltip.res"
 "Resource/UI/WarInfoPanel_FriendsLeaderboard.res"
 {
 	"DucksLeaderboardPanel"
@@ -372,41 +373,6 @@
 		}
 	}
 
-	"TooltipPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"300"
-		"tall"			"50"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		
-		"TipLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"%tiptext%"
-			"textAlignment"	"center"
-			"xpos"			"20"
-			"ypos"			"10"
-			"zpos"			"2"
-			"wide"			"100"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
-			"wrap"			"1"
-			"centerwrap"	"1"
-		}
-	}
-
 	"Dimmer"
 	{
 		"ControlName"	"EditablePanel"
@@ -426,21 +392,7 @@
 
 	"OutsideCloseButton"
 	{
-		"ControlName"	"Button"
-		"fieldName"		"OutsideCloseButton"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"-1"
-		"wide"		"f0"
-		"tall"		"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"			""
-		"bgcolor_override"	"0 0 0 220"
-		"command"	"close"
-		"paintbackground"	"0"
+		"ControlName"	"panel"
+		"visible"		"0"
 	}
 }

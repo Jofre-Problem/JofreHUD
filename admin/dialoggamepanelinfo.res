@@ -10,14 +10,14 @@
 	"AnAnimatingImagePanel"
 	{
 		//		"0"
-		//		"1"
+
 		//		"0"
 	}
 	"Panels"
 	{
 		//		"3"
 		//		"0"
-		//		"2"
+
 	}
 	"Player List"
 	{

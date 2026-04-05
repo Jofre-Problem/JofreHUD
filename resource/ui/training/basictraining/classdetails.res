@@ -25,7 +25,7 @@
 		
 		// default style
 		"defaultBgColor_override"	"Normal"
-		"defaultFgColor_override" "whattimeis1"
+		"defaultFgColor_override" "MatchmakingMenuItemBackground"
 		"border_default"		"noborder"
 		
 		// armed style

@@ -580,12 +580,6 @@ Button.DepressedTextColor "220 220 220 255"
 	}	
 	CustomFontFiles
 	{    
-		"79"
-		{
-			"font" "fonts/opensans_bold.ttf"
-			"name" "open_sans_bold"
-
-		}		
 		"62"
 		{
 			"font" "fonts/productsource.otf"

@@ -6,7 +6,7 @@
 	}
 	"SendButton"
 	{
-		//		"2"
+
 	}
 	"NameLabel"
 	{
@@ -18,7 +18,7 @@
 	}
 	"TextPanel"
 	{
-		//		"1"
+
 	}
 	"Frame"
 	{

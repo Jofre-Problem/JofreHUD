@@ -43,7 +43,7 @@
 		"wide"		"70"
 		"tall"		"30"
 		
-		//		"2"
+
 		
 		"labelText"		"#PropertyDialog_OK"
 		"textAlignment"		"center"

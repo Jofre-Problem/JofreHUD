@@ -1,125 +1,45 @@
+#base "colorlookupuipanel.res"
 "Resource/ColorOperationListPanel.res"
 {
 	"NewOperation"
 	{
-		"ControlName"	"Button"
-		"text"			"New"
-		"xpos"			"10"
-		"ypos"			"416"
-		"wide"			"38"
-		"tall"			"24"
-		//	"0"
-		
-		"textAlignment"	"center"
-		"command"		"NewOperation"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"DeleteOperation"
 	{
-		"ControlName"	"Button"
-		"text"			"Delete"
-		"xpos"			"58"
-		"ypos"			"416"
-		"wide"			"38"
-		"tall"			"24"
-		//	"0"
-		
-		"textAlignment"	"center"
-		"command"		"DeleteOperation"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"BringForward"
 	{
-		"ControlName"	"Button"
-		"text"			"Up"
-		"xpos"			"106"
-		"ypos"			"416"
-		"wide"			"38"
-		"tall"			"24"
-		//	"0"
-		
-		"textAlignment"	"center"
-		"command"		"BringForward"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"PushBack"
 	{
-		"ControlName"	"Button"
-		"text"			"Down"
-		"xpos"			"154"
-		"ypos"			"416"
-		"wide"			"38"
-		"tall"			"24"
-		//	"0"
-		
-		"textAlignment"	"center"
-		"command"		"PushBack"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"Save"
 	{
-		"ControlName"	"Button"
-		"text"			"Save"
-		"xpos"			"202"
-		"ypos"			"416"
-		"wide"			"38"
-		"tall"			"24"
-		//	"0"
-		
-		"textAlignment"	"center"
-		"command"		"Save"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"OperationList"
 	{
-		"ControlName"	"ListPanel"
-		"xpos"			"10"
-		"ypos"			"70"
-		"wide"			"230"
-		"tall"			"346"
-	}
-	"LabelBlendFactor"
-	{
-		"ControlName"		"Label"
-		"xpos"				"10"
-		"ypos"				"32"
-		"wide"				"50"
-		"tall"				"34"
-		
-		//			"0"
-		
-		"labelText"			"Blend:"
-	}
-	"BlendFactorSlider"
-	{
-		"ControlName"		"Slider"
-		"xpos"				"60"
-		"ypos"				"36"
-		"wide"				"180"
-		"tall"				"34"
-		
-		//			"0"
-		
-		"leftText"			"0"
-		"rightText"			"255"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"Enable"
 	{
-		"ControlName"		"CheckButton"
-		"xpos"				"10"
-		"ypos"				"0"
-		"wide"				"70"
-		"tall"				"24"
-		
-		//			"0"
-		
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"EnableEntities"
 	{
-		"ControlName"		"CheckButton"
-		"xpos"				"80"
-		"ypos"				"0"
-		"wide"				"130"
-		"tall"				"24"
-		
-		//			"0"
-		
-		"selected"			"1"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	
 }

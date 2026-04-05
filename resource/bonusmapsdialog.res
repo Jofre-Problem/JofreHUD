@@ -21,7 +21,7 @@
 		"tall"		"280"
 		//		"3"
 		
-		//		"1"
+
 	}
 	
 	"Back" //back button
@@ -32,9 +32,9 @@
 		"wide"		"70"
 		"tall"		"24"
 		
-		//		"2"
+
 		"visible"		"0"
-		//		"2"
+
 		"labelText"		"#GameUI_Back"
 		"Command"		"back"
 	}

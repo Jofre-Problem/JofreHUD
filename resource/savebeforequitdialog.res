@@ -21,7 +21,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"labelText"		"#GameUI_SaveAndQuit"
 		"Command"		"SaveAndQuit"
 		"Default"		"1"
@@ -35,7 +35,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"#GameUI_DontSaveAndQuit"
 		"Command"		"Quit"
 	}

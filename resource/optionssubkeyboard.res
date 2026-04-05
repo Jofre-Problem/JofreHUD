@@ -12,7 +12,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 	}
 	"ChangeKeyButton"
 	{
@@ -68,7 +68,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 		"labelText"		"#GameUI_UseDefaults"
 		"textAlignment"		"west"
 		//

@@ -1,9 +1,3 @@
-#base "../../../../cfg/_jp_steam_border.txt"
-#base "../../../../cfg/_jp_mainmenu_spray_frame.txt"
-
-#base "../../../cfg/_jp_steam_border.txt"
-#base "../../../cfg/_jp_mainmenu_spray_frame.txt"
-
 #base "ui2/partyslot0.res"
 #base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"

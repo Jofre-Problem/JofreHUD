@@ -30,7 +30,7 @@
 		"wide"			"150"
 		"tall"			"30"
 		//	"0"
-		//		"2"
+
 		"visible"		"1"
 		
 		
@@ -57,7 +57,7 @@
 		"wide"			"150"
 		"tall"			"30"
 		//	"0"
-		//		"2"
+
 		"visible"		"0"
 		
 		
@@ -83,7 +83,7 @@
 		"wide"			"150"
 		"tall"			"30"
 		//	"0"
-		//		"2"
+
 		"visible"		"1"
 		
 		"labelText"		"#TF_Back"
@@ -108,7 +108,7 @@
 		"wide"			"150"
 		"tall"			"30"
 		//	"0"
-		//		"2"
+
 		"visible"		"0"
 		
 		"labelText"		"#TF_ReplayIntro"

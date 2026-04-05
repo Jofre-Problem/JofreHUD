@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"Size 16 Uber"
+		"font"			"itemfontnamesmall"
 		"fgcolor"		"UpgradeDisabledFg"
 		bgcolor_override blank
 		"proportionaltoparent"		"1"

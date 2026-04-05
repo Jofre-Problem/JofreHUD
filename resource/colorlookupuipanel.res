@@ -2,16 +2,8 @@
 {
 	"Load Lookup"
 	{
-		"ControlName"	"Button"
-		"xpos"			"10"
-		"ypos"			"48"
-		"wide"			"220"
-		"tall"			"24"
-		//	"0"
-		
-		"labelText"		""
-		"textAlignment"	"center"
-		"command"		"LoadLookup"
+		"ControlName"	"panel"
+		"visible" "0"
 	}
 	"LabelBlendFactor"
 	{

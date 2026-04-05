@@ -18,10 +18,10 @@
 		"ypos"		"27"
 		"wide"		"680"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -71,7 +71,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -238,7 +238,7 @@
 		"ypos"		"63"
 		"wide"		"500"
 		"tall"		"2"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		

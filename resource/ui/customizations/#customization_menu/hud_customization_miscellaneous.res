@@ -89,7 +89,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 // SCOREBOARD STYLES -------------------------------------------------------------------------------------------------------
 				"Scoreboard_Styles"
@@ -137,7 +137,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -353,7 +353,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Size_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -533,7 +533,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -581,8 +581,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -664,8 +664,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -758,7 +758,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 // TRANSPARENT VIEWMODELS ----------------------------------------------------------------------------------------
 				"Transparent_Viewmodels"
@@ -806,7 +806,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1023,7 +1023,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1071,8 +1071,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -1154,8 +1154,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -1237,8 +1237,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -1386,7 +1386,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 // SPEEDOMETER STYLE ----------------------------------------------------------------------------------------
 				"Speedometer_Style"
@@ -1721,7 +1721,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 // DISGUISE TOGGLE ----------------------------------------------------------------------------------------
 				"Disguise_Toggle"
@@ -1769,7 +1769,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Visibility_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2004,7 +2004,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 
 						"Pin_To_Sibling"				"Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"

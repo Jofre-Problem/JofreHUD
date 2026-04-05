@@ -15,7 +15,7 @@
 		
 		"labelText"		"#GameUI_Miles_Audio"
 		"textAlignment"		"north-west"
-		//		"1"
+
 		//
 		"font"		"DefaultSmall"
 		"wrap"		"1"
@@ -35,7 +35,7 @@
 		
 		"labelText"		"#GameUI_Miles_Voice"
 		"textAlignment"		"north-west"
-		//		"1"
+
 		//
 		"font"		"DefaultSmall"
 		//
@@ -55,7 +55,7 @@
 		
 		"labelText"		"#GameUI_Bink"
 		"textAlignment"		"north-west"
-		//		"1"
+
 		//
 		"font"		"DefaultSmall"
 		//
@@ -72,7 +72,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_Close"
 		"textAlignment"		"west"
 		//

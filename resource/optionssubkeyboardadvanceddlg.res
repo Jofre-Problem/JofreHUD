@@ -12,7 +12,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_FastSwitchCheck"
 		"textAlignment"		"west"
 		//
@@ -32,7 +32,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 		"labelText"		"#GameUI_DeveloperConsoleCheck"
 		"textAlignment"		"west"
 		//

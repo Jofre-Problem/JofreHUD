@@ -20,7 +20,7 @@
 		"tall"		"450"
 		//		"3"
 		
-		//		"1"
+
 		//"PinnedCornerOffsetX" "6"
 		//"PinnedCornerOffsetY" "36"
 		//"PinnedCornerOffsetY" "-104"
@@ -34,7 +34,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Create"
 		//"PinnedCornerOffsetX" "-6"
@@ -49,7 +49,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Delete"
 		//"PinnedCornerOffsetX" "-6"
@@ -64,7 +64,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Copy"
 		//"PinnedCornerOffsetX" "-6"
@@ -79,7 +79,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Create From KV"
 		//"PinnedCornerOffsetX" "-6"
@@ -94,7 +94,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Save"
 		//"PinnedCornerOffsetX" "20"
@@ -109,7 +109,7 @@
 		"wide"		"94"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Save and Test"
 		//"PinnedCornerOffsetX" "130"

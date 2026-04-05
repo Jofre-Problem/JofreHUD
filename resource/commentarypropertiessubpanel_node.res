@@ -18,10 +18,10 @@
 		"ypos"		"27"
 		"wide"		"680"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
-		//		"1"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -45,10 +45,10 @@
 		"ypos"		"84"
 		"wide"		"204"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-88"
 		
-		//		"2"
+
 		"maxchars"		"-1"
 	}
 	"RecordAudioButton"
@@ -59,7 +59,7 @@
 		"wide"		"64"
 		"tall"		"20"
 		
-		//		"1"
+
 		//"PinnedCornerOffsetX" "-20"
 		
 		"labelText"		"Record"
@@ -71,7 +71,7 @@
 		"ypos"		"112"
 		"wide"		"662"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		//		"3"
@@ -85,7 +85,7 @@
 		"ypos"		"140"
 		"wide"		"663"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		//		"4"
@@ -123,7 +123,7 @@
 		"ypos"		"306"
 		"wide"		"500"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		
@@ -136,7 +136,7 @@
 		"ypos"		"334"
 		"wide"		"633"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		
@@ -161,7 +161,7 @@
 		"ypos"		"420"
 		"wide"		"622"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		//		"11"
@@ -175,7 +175,7 @@
 		"ypos"		"448"
 		"wide"		"623"
 		"tall"		"24"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		//		"12"
@@ -522,7 +522,7 @@
 		"ypos"		"63"
 		"wide"		"500"
 		"tall"		"2"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		
@@ -534,7 +534,7 @@
 		"ypos"		"187"
 		"wide"		"500"
 		"tall"		"2"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		
@@ -546,7 +546,7 @@
 		"ypos"		"279"
 		"wide"		"500"
 		"tall"		"2"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		
@@ -558,7 +558,7 @@
 		"ypos"		"393"
 		"wide"		"500"
 		"tall"		"2"
-		//		"1"
+
 		//"PinnedCornerOffsetY" "-20"
 		
 		

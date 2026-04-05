@@ -2,7 +2,7 @@
 {
 	"EditBox"
 	{
-		//		"1"
+
 	}
 	"InfoText"
 	{

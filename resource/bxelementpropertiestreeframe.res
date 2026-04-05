@@ -31,7 +31,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"OK"
 		"Command"		"close"
@@ -44,7 +44,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Apply"
 		"Command"		"apply"
@@ -58,7 +58,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Cancel"
 		"Command"		"cancel"

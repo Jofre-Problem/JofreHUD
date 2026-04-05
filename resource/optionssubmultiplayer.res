@@ -358,7 +358,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 		"textHidden"		"0"
 		"editable"		"0"
 		"maxchars"		"-1"
@@ -529,7 +529,7 @@
 		
 		"labelText"		"#GameUI_SpraypaintServerNote"
 		"textAlignment"		"north-west"
-		//		"1"
+
 		//
 		"font"		"defaultSmall"
 		"wrap"		"1"
@@ -692,7 +692,7 @@
 		"wide"		"260"
 		"tall"		"36"
 		
-		//		"2"
+
 		
 		
 		"visible"		"1"

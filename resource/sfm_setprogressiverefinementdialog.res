@@ -23,7 +23,7 @@
 		"tall"		"24"
 		
 		
-		//		"1"
+
 		"labelText"		"Progressive Refinement"
 	}
 	"DoFEnabled"
@@ -35,7 +35,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"labelText"		"Depth of Field"
 	}
 	"DoFQualityLabel"

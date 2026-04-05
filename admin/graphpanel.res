@@ -2,130 +2,70 @@
 {
 	"GraphsPanel"
 	{
-		//		"0"
-		//		"0"
-		//		"0"
+		"controlName" "panel"
 	}
 	"Graphs"
 	{
-		//		"3"
-		//		"0"
-		//		"0"
+		"controlName" "panel"
 	}
 	"InCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"5"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"OutCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"6"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"FPSCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"8"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"CPUCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"7"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"PingCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"4"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"PlayersCheck"
 	{
-		//		"0"
-		//		"1"
-		//		"3"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"TimeCombo"
 	{
-		//		"0"
-		//		"2"
-		//		"2"
+		"controlName" "panel"
 	}
 	"VertCombo"
 	{
-		//		"0"
-		//		"2"
-		//		"1"
+		"controlName" "panel"
 	}
 	"Label5"
 	{
-		//		"0"
-		//		"1"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"TotalUsersLabel"
 	{
-		//		"0"
-		//		"1"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"Label3"
 	{
-		//		"0"
-		//		"2"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"Label4"
 	{
-		//		"0"
-		//		"2"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"AxisMax"
 	{
-		//		"0"
-		//		"0"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"AxisMid"
 	{
-		//		"0"
-		//		"2"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 	"AxisMin"
 	{
-		//		"0"
-		//		"2"
-		//		"0"
-		////		"0"
-		////		"0"
+		"controlName" "panel"
 	}
 }

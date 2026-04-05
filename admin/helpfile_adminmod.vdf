@@ -3,7 +3,7 @@
 	"allow_client_exec"
 	{
 	}
-	"default_access "
+	"default_access"
 	{
 		"text"	"default_access: This controls the default access that people get (aside from being granted special user privileges). It works exactly like the user level access rights, but everyone gets it."
 	}

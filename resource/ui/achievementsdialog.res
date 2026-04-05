@@ -132,7 +132,7 @@
 		"wide"		"150"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"#GameUI_Achievement_Hide_Achieved"
 	}

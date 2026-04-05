@@ -20,7 +20,7 @@
 		"tall"		"340"
 		//		"3"
 		
-		//		"1"
+
 	}
 	"GotoButton"
 	{
@@ -30,7 +30,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Go To"
 	}
@@ -42,7 +42,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Delete"
 		"command"		"Delete"
@@ -55,7 +55,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"1"
+
 		
 		"labelText"		"Properties"
 		"Default"		"1"
@@ -93,7 +93,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Filter:"
 	}
@@ -105,7 +105,7 @@
 		"wide"		"100"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Everything"
 	}
@@ -117,7 +117,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Point"
 	}
@@ -129,7 +129,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Brush"
 	}
@@ -141,7 +141,7 @@
 		"wide"		"160"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Include Hidden Objects"
 	}
@@ -153,7 +153,7 @@
 		"wide"		"100"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"By Key/Value"
 	}
@@ -165,8 +165,8 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
-		//		"2"
+
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}
@@ -178,7 +178,7 @@
 		"wide"		"12"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"="
 	}
@@ -190,7 +190,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		//		"3"
 		"editable"		"1"
 		"maxchars"		"-1"
@@ -203,7 +203,7 @@
 		"wide"		"128"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"Exact Matches Only"
 	}
@@ -215,7 +215,7 @@
 		"wide"		"128"
 		"tall"		"24"
 		
-		//		"2"
+
 		
 		"labelText"		"By Class Name"
 	}
@@ -227,7 +227,7 @@
 		"wide"		"155"
 		"tall"		"24"
 		
-		//		"2"
+
 		//		"4"
 		"editable"		"1"
 		"maxchars"		"-1"

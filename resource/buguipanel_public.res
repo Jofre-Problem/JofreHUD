@@ -21,7 +21,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 	}

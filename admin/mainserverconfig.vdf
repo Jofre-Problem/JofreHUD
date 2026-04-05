@@ -35,11 +35,11 @@
 		"name" "Map Cycle"
 		"type" "custom"
 	}
-//	"MOTD"
-//	{
-//		"name" "MOTD"
-//		"type" "multistring"
-//	}
+	"MOTD"
+	{
+		"name" "MOTD"
+		"type" "multistring"
+	}
 //	"sv_log"
 //	{
 //		"name" "Activity Log"

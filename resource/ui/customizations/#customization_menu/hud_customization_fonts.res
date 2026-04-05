@@ -87,7 +87,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 				"DeathNoticeStuff"
 				{
@@ -134,7 +134,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{
@@ -513,7 +513,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{
@@ -745,7 +745,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Full"
 					{
@@ -1277,7 +1277,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{
@@ -1491,7 +1491,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 // TYPE A -------------------------------------------------------------------------------------------					
 					"8rows"
@@ -1705,7 +1705,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{
@@ -2015,7 +2015,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{
@@ -2247,7 +2247,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"8rows"
 					{

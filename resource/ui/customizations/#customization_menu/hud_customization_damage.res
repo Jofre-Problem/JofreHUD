@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"Button_Bright"
+					"BGcolor_Override"					"HudBlack"
 				}
 // FLOATING DAMAGE STYLE -----------------------------------------------------------------------------------
 				"Floating_Damage_Style"
@@ -133,7 +133,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 // DAMAGE SMALL -------------------------------------------------------------------------------------------
 					"Damage_Small"
@@ -768,7 +768,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Damage_Solid"
 					{
@@ -988,7 +988,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Damage_Batching"
 					{
@@ -1032,8 +1032,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"Button_Hover"
-							"DepressedBGColor_Override"	"Button_Hover"
+							"ArmedBGColor_Override"		"ItemFlags"
+							"DepressedBGColor_Override"	"ItemFlags"
 						}
 						"Setting_Checkbox"
 						{
@@ -1163,7 +1163,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Last_Damage_Disabled"
 					{
@@ -1559,7 +1559,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"Button_Bright"
+						"BGcolor_Override"				"HudBlack"
 					}
 					"Indicator_Disabled"
 					{

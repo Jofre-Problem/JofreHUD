@@ -40,7 +40,7 @@
 			"PaintBackground"							"1"
 			"paintBackgroundtype"						"0"
 			"RoundedCorners"							"0"
-			"BGColor_Override"							"Button_Bright"
+			"BGColor_Override"							"HudBlack"
 		}
 		"CloseButton"
 		{
@@ -66,9 +66,9 @@
 			"ArmedFGColor_Override"						"White"
 			"DepressedFGColor_Override"					"White"
 
-			"DefaultBGColor_Override"					"Button_Red"
-			"ArmedBGColor_Override"						"Button_Red_Hover"
-			"DepressedBGColor_Override"					"Button_Red_Hover"
+			"DefaultBGColor_Override"					"Collectors"
+			"ArmedBGColor_Override"						"ItemAttribNegative"
+			"DepressedBGColor_Override"					"ItemAttribNegative"
 		}
 		"GitHubWiki"
 		{
@@ -88,9 +88,9 @@
 			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
 			"PaintBackground"							"1"
 
-			"DefaultBGColor_Override"					"Button_Dark"
-			"ArmedBGColor_Override"						"Button_Hover"
-			"DepressedBGColor_Override"					"Button_Hover"
+			"DefaultBGColor_Override"					"FooterBGBlack"
+			"ArmedBGColor_Override"						"ItemFlags"
+			"DepressedBGColor_Override"					"ItemFlags"
 
 			"Pin_To_Sibling"							"CloseButton"
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -146,9 +146,9 @@
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
 			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"Button_Red"
-			"ArmedBGColor_Override"						"Button_Red_Hover"
-			"DepressedBGColor_Override"					"Button_Red_Hover"
+			"DefaultBGColor_Override"					"Collectors"
+			"ArmedBGColor_Override"						"ItemAttribNegative"
+			"DepressedBGColor_Override"					"ItemAttribNegative"
 
 			"Pin_To_Sibling"							"ResetAllButton"
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -175,9 +175,9 @@
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
 			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"whattimeis1"
-			"ArmedBGColor_Override"						"Button_Hover"
-			"DepressedBGColor_Override"					"Button_Hover"
+			"DefaultBGColor_Override"					"MatchmakingMenuItemBackground"
+			"ArmedBGColor_Override"						"ItemFlags"
+			"DepressedBGColor_Override"					"ItemFlags"
 
 			"Pin_To_Sibling"							"ReloadGameButton"
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -506,9 +506,9 @@
 			"PaintBorder"								"0"
 			"RoundedCorners"							"0"
 
-			"DefaultBGColor_Override"					"Button_Green"
-			"ArmedBGColor_Override"						"Button_Green_Hover"
-			"DepressedBGColor_Override"					"Button_Green_Hover"
+			"DefaultBGColor_Override"					"greensolid"
+			"ArmedBGColor_Override"						"ItemLimitedUse"
+			"DepressedBGColor_Override"					"ItemLimitedUse"
 		}
 	}
 }

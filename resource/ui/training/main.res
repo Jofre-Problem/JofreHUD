@@ -66,7 +66,7 @@
 		
 			// default style
 			"defaultBgColor_override"	"ItemAttribLevel"
-			"defaultFgColor_override" "whattimeis1"
+			"defaultFgColor_override" "MatchmakingMenuItemBackground"
 			"border_default"		"noborder"
 			
 			// armed style

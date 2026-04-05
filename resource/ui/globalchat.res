@@ -46,7 +46,7 @@
 		
 		"bgcolor_override"	"0 0 0 150"
 
-		//		"2"
+
 		//	"1"
 
 		"ScrollBar"
@@ -98,7 +98,7 @@
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
-		//		"2"
+
 		////	"1"
 	}
 
@@ -120,6 +120,6 @@
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 
-		//		"2"
+
 	}
 }

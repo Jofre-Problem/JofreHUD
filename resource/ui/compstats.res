@@ -103,7 +103,7 @@
 			//"border"		"MainMenuBGBorder"
 			"proportionaltoparent"	"1"
 
-			//		"2"
+	
 			//	"1"
 
 			"PlayListDropShadow"

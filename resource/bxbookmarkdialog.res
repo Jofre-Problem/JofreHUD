@@ -19,9 +19,9 @@
 		"ypos"		"25"
 		"wide"		"250"
 		"tall"		"24"
-		//		"1"
+
 		
-		//		"1"
+
 		"maxchars"		"-1"
 	}
 	"TimeTextEntry"
@@ -33,7 +33,7 @@
 		"tall"		"24"
 		
 		
-		//		"2"
+
 		"editable"		"1"
 		"maxchars"		"-1"
 		"NumericInputOnly"		"1"
@@ -95,7 +95,7 @@
 		"wide"		"24"
 		"tall"		"24"
 		
-		//		"2"
+
 		//		"4"
 		"labelText"		"Y"
 		"textAlignment"		"center"
@@ -122,7 +122,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		//		"6"
 		"labelText"		"Okay"
 		"Command"		"EditBookmark"
@@ -136,7 +136,7 @@
 		"wide"		"64"
 		"tall"		"24"
 		
-		//		"2"
+
 		//		"7"
 		"labelText"		"Cancel"
 		"Command"		"CancelEditBookmark"

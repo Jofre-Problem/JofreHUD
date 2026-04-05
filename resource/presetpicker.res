@@ -20,8 +20,8 @@
 			"wide"		"122"
 			"tall"		"24"
 			
-			//		"2"
-			//		"2"
+	
+	
 			"labelText"		"Ok"
 			"textAlignment"		"center"
 			"Default"		"1"
@@ -35,7 +35,7 @@
 			"wide"		"122"
 			"tall"		"24"
 			//	"0"
-			//		"2"
+	
 			//	"3"
 			"labelText"		"Cancel"
 			"textAlignment"	"center"

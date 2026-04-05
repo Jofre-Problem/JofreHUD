@@ -272,7 +272,7 @@
 
 		"border"		"InnerShadowBorder"
 
-		//		"2"
+
 		//	"1"
 
 		"skip_autoresize"	"1"

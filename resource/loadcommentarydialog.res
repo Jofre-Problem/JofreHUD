@@ -24,7 +24,7 @@
 		"tall"		"354"
 		//		"3"
 		//		"0"
-		//		"1"
+
 	}
 	"loadcommentary"
 	{
@@ -36,7 +36,7 @@
 		"tall"		"24"
 		//		"0"
 		//		"3"
-		//		"2"
+
 		"labelText"		"#GameUI_Load"
 		"Command"		"loadcommentary"
 		"Default"		"1"

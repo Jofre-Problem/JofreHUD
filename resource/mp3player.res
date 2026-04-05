@@ -42,8 +42,8 @@
 		"ypos"		"353"
 		"wide"		"453"
 		"tall"		"194"
-		//		"1"
-		//		"2"
+
+
 		//		"0"
 	}
 	"Play"
@@ -54,7 +54,7 @@
 		"wide"		"64"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Play"
 		"Command"		"play"
@@ -67,7 +67,7 @@
 		"wide"		"64"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Stop"
 		"Command"		"stop"
@@ -81,7 +81,7 @@
 		"wide"		"64"
 		"tall"		"21"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Next"
 		"Command"		"nexttrack"
@@ -94,7 +94,7 @@
 		"wide"		"64"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Prev"
 		"Command"		"prevtrack"
@@ -107,7 +107,7 @@
 		"wide"		"80"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Mute"
 	}
@@ -119,7 +119,7 @@
 		"wide"		"80"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#Shuffle"
 	}
@@ -131,7 +131,7 @@
 		"wide"		"126"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 	}
 	"SongName"
@@ -141,7 +141,7 @@
 		"ypos"		"27"
 		"wide"		"299"
 		"tall"		"16"
-		//		"1"
+
 		//		"0"
 		//		"0"
 		"labelText"		"#NoSong"
@@ -154,7 +154,7 @@
 		"wide"		"71"
 		"tall"		"16"
 		//		"0"
-		//		"1"
+
 		//		"0"
 		"textAlignment"		"east"
 	}
@@ -165,7 +165,7 @@
 		"ypos"		"44"
 		"wide"		"388"
 		"tall"		"6"
-		//		"1"
+
 		//		"0"
 		//		"0"
 	}
@@ -177,7 +177,7 @@
 		"wide"		"64"
 		"tall"		"20"
 		//		"0"
-		//		"2"
+
 		//		"0"
 		"labelText"		"#VolumeLabel"
 	}

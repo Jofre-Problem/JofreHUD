@@ -1,4 +1,4 @@
-#base "huditemeffectmeter_demoman.res"
+#base "huditemeffectmeter.res"
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
 	HudItemEffectMeter

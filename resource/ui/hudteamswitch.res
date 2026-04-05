@@ -1,4 +1,5 @@
 #base "hudarenanotification.res"
+#base "hudplayerstatustnt.res"
 "Resource/UI/HudTeamSwitch.res"
 {
 	"HudTeamSwitchBG"
@@ -8,19 +9,7 @@
 	}
 	"SwitchLabel"
 	{	
-		"ControlName"		"Label"
-		"fieldName"		"SwitchLabel"
-		"font"			"TFFontMedium"
-		"xpos"			"80"
-		"ypos"			"58"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
-		"textAlignment"		"North"
 	}
 	"SwitchImage"
 	{

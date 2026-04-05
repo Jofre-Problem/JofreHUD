@@ -2,7 +2,7 @@
 {
 	"FriendsDialog"
 	{
-		//		"1"
+
 		//		"0"
 		//		"0"
 	}
@@ -14,14 +14,14 @@
 	}
 	"DownLabel"
 	{
-		//		"1"
+
 		//		"0"
 		//		"0"
 	}
 	"TrackerMenuButton"
 	{
 		//		"0"
-		//		"2"
+
 		//		"0"
 	}
 	"AddFriendButton"

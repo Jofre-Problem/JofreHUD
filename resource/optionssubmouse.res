@@ -15,7 +15,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"1"
+
 		"labelText"		"#GameUI_ReverseMouse"
 		"textAlignment"		"west"
 		//
@@ -43,7 +43,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		//		"2"
+
 		"labelText"		"#GameUI_MouseFilter"
 		"textAlignment"		"west"
 		//
@@ -181,7 +181,7 @@
 		
 		"visible"		"1"
 		"enabled"		"0"
-		//		"1"
+
 		"labelText"		"#GameUI_ReverseJoystick"
 		"textAlignment"		"west"
 		//

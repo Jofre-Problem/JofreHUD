@@ -149,7 +149,7 @@
 		"tall"			"0"
 		"proportionaltoparent"	"1"		
 		"bgcolor_override"	"0 0 0 190"
-		//		"2"
+
 		//			"3"
 
 		"InnerShadow"
@@ -162,7 +162,7 @@
 			"tall"			"f0"
 			"zpos"			"1"
 			"proportionaltoparent"	"1"	
-			//		"2"
+	
 			//			"3"
 			
 			"border"			"InnerShadowBorder"	
