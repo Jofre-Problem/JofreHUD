@@ -86,7 +86,7 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"border"		"QuickplayBorder"
 
 			"NavToRelay"	"TourList"
@@ -148,7 +148,7 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"border"		"QuickplayBorder"
 
 		"TourLootImage"
@@ -206,7 +206,7 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"border"		"QuickplayBorder"
 
 		"NavToRelay"	"OpenHelpButton"
@@ -468,7 +468,7 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"border"		"QuickplayBorder"
 
 		"NavToRelay"	"MannUpNowButton"
@@ -631,7 +631,7 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"border"		"QuickplayBorder"
 
 			"NavToRelay"	"ChallengeList"

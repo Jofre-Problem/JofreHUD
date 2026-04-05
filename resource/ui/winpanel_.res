@@ -22,8 +22,8 @@
             "font"                      "EconFontMedium"
             "textalignment"             "center"
             "bgcolor_override"          "blue"
-            "fgcolor"                   "notowhite"
-            "fgcolor_override"          "notowhite"
+            "fgcolor"                   "ItemAttribLevel"
+            "fgcolor_override"          "ItemAttribLevel"
 			"labelText"		"%blueteamscore%"
         }
         "RedTeamScore"
@@ -37,8 +37,8 @@
             "font"                      "EconFontMedium"
             "textalignment"             "center"
             "bgcolor_override"          "red"
-            "fgcolor"                   "notowhite"
-            "fgcolor_override"          "notowhite"
+            "fgcolor"                   "ItemAttribLevel"
+            "fgcolor_override"          "ItemAttribLevel"
 			"labelText"		"%redteamscore%"
         }
 

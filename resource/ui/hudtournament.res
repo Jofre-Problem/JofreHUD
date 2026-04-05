@@ -249,7 +249,7 @@
 						"enabled"		"1"
 						"labelText"		"A"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha"			"255"
 						"pin_to_sibling" "pin_panel"
 							if_mvm
@@ -280,7 +280,7 @@
 						"enabled"		"1"
 						"labelText"		"B"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha"	"0"
 							"pin_to_sibling" "pin_panel"
 							if_mvm
@@ -310,7 +310,7 @@
 						"enabled"		"1"
 						"labelText"		"C"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"0"
 							if_mvm
@@ -340,7 +340,7 @@
 						"enabled"		"1"
 						"labelText"		"D"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"0"
 							if_mvm
@@ -370,7 +370,7 @@
 						"enabled"		"1"
 						"labelText"		"E"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha"	"255"
 							if_mvm
@@ -400,7 +400,7 @@
 						"enabled"		"1"
 						"labelText"		"F"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -430,7 +430,7 @@
 						"enabled"		"1"
 						"labelText"		"G"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -460,7 +460,7 @@
 						"enabled"		"1"
 						"labelText"		"V"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -490,7 +490,7 @@
 						"enabled"		"1"
 						"labelText"		"H"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -520,7 +520,7 @@
 						"enabled"		"1"
 						"labelText"		"U"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -550,7 +550,7 @@
 						"enabled"		"1"
 						"labelText"		"I"
 						"textAlignment"		"center"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 							"pin_to_sibling" "pin_panel"
 						"alpha" "0"
 							if_mvm
@@ -581,7 +581,7 @@
 						"labelText"		"J"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -611,7 +611,7 @@
 						"labelText"		"K"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -641,7 +641,7 @@
 						"labelText"		"L"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -671,7 +671,7 @@
 						"labelText"		"O"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -701,7 +701,7 @@
 						"labelText"		"P"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -731,7 +731,7 @@
 						"labelText"		"Q"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -761,7 +761,7 @@
 						"labelText"		"R"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "0"
 							if_mvm
 							{
@@ -791,7 +791,7 @@
 						"labelText"		"S"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "255"
 							if_mvm
 							{
@@ -821,7 +821,7 @@
 						"labelText"		"T"
 						"textAlignment"		"center"
 							"pin_to_sibling" "pin_panel"
-						"fgcolor_override" "notowhite"
+						"fgcolor_override" "ItemAttribLevel"
 						"alpha" "255"
 							if_mvm
 							{
@@ -847,7 +847,7 @@
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"			"notowhite"
+		"fillcolor"			"ItemAttribLevel"
 		"alpha" "0"
 		//	"pin_to_sibling" "pin_panel"
 		if_mvm
@@ -1112,7 +1112,7 @@
 		"zpos"	"1010"
 		"wide"				"f0"
 		"tall"				"24"
-		"fgcolor"		"notoWhite"
+		"fgcolor"		"ItemAttribLevel"
 		"bgcolor_override"	"blank"
 	
 		if_competitive
@@ -1142,7 +1142,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 				if_competitive
 		{
 			"ypos"			"60"

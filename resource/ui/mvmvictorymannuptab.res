@@ -19,18 +19,8 @@
 
 	"HeaderLine"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeaderLine"
-		"xpos"			"0"
-		"ypos"			"r5"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-		"proportionalToParent"	"1"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 
 	"MouseOverTabPanel"

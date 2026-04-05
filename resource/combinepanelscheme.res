@@ -47,7 +47,7 @@ Scheme
 
 		ComboBoxButton.ArrowColor		"White"
 		ComboBoxButton.ArmedArrowColor	"White"
-		ComboBoxButton.BgColor			"Blank"
+		ComboBoxButton.BgColor			"Black"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.TitleTextInsetX			16
@@ -91,7 +91,7 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
-		Menu.TextColor					"White"
+		Menu.TextColor					"black"
 		Menu.BgColor					"160 160 160 64"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"255 155 0 255"
@@ -115,7 +115,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"255 155 0 255"
 
-		ScrollBar.Wide					17
+		ScrollBar.Wide					7
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -125,13 +125,13 @@ Scheme
 		ScrollBarButton.DepressedBgColor	"Blank"
 
 		ScrollBarSlider.FgColor				"245 245 245 180"
-		ScrollBarSlider.BgColor				"255 255 255 64"	// slider background color
+		ScrollBarSlider.BgColor				"0 0 1 100"	// slider background color
 
-		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderTextColor	"black"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"DullWhite"
-		SectionedListPanel.BrightTextColor	"White"
+		SectionedListPanel.TextColor		"black"
+		SectionedListPanel.BrightTextColor	"black"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"255 155 0 255"

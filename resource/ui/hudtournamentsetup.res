@@ -17,7 +17,7 @@
 		"textAlignment"		"north"
 		"proportionaltoparent"		"1"
 		"fgcolor_override" "BlackDark"
-		"bgcolor_override"		"notowhite"
+		"bgcolor_override"		"ItemAttribLevel"
 	}
 
 	"TournamentNameEdit"
@@ -36,7 +36,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		
-		"fgcolor_override"		"notowhite"
+		"fgcolor_override"		"ItemAttribLevel"
 		"bgcolor_override"	"notodark"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"

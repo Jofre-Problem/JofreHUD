@@ -318,7 +318,7 @@
 		"enabled"									"1"
 		"paintbackground"							"1"
 		//
-		"bgcolor_override"							"LighterDarkBrown"
+		"bgcolor_override"							"UpgradeDefaultBg"
 
 		"Icon"
 		{

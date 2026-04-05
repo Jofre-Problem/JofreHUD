@@ -117,7 +117,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Scoreboard_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -197,7 +197,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Scoreboard_Button"
 						{
@@ -279,7 +279,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Scoreboard_Button"
 						{
@@ -333,7 +333,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Scoreboard_Size"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -375,7 +375,7 @@
 						"TextAlignment"					"center"
 						"Command"						"engine m0_scoreboard_6v6"
 						"LabelText"						"6 v 6"
-						"AllCaps"						"1"
+						
 						"Sound_Depressed"				"UI/buttonclick.wav"
 						"ProportionalToParent"			"1"
 						"ActionSignalLevel"				"5"
@@ -401,7 +401,7 @@
 						"TextAlignment"					"center"
 						"Command"						"engine m0_scoreboard_9v9"
 						"LabelText"						"9 v 9"
-						"AllCaps"						"1"
+						
 						"Sound_Depressed"				"UI/buttonclick.wav"
 						"ProportionalToParent"			"1"
 						"ActionSignalLevel"				"5"
@@ -426,7 +426,7 @@
 						"TextAlignment"					"center"
 						"Command"						"engine m0_scoreboard_size_clear"
 						"LabelText"						"12 v 12"
-						"AllCaps"						"1"
+						
 						"Sound_Depressed"				"UI/buttonclick.wav"
 						"ProportionalToParent"			"1"
 						"ActionSignalLevel"				"5"
@@ -451,7 +451,7 @@
 						"TextAlignment"					"center"
 						"Command"						"engine m0_scoreboard_24v24"
 						"LabelText"						"24 v 24"
-						"AllCaps"						"1"
+						
 						"Sound_Depressed"				"UI/buttonclick.wav"
 						"ProportionalToParent"			"1"
 						"ActionSignalLevel"				"5"
@@ -476,7 +476,7 @@
 						"TextAlignment"					"center"
 						"Command"						"engine m0_scoreboard_32v32"
 						"LabelText"						"32 v 32"
-						"AllCaps"						"1"
+						
 						"Sound_Depressed"				"UI/buttonclick.wav"
 						"ProportionalToParent"			"1"
 						"ActionSignalLevel"				"5"
@@ -513,7 +513,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Scoreboard_Settings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -786,7 +786,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Viewmodel_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -851,7 +851,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -933,7 +933,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -1003,7 +1003,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Viewmodel_Settings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1437,7 +1437,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -1475,7 +1475,7 @@
 							"FGColor"					"white"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}		
 						"Style_Name3"
 						{
@@ -1497,7 +1497,7 @@
 							"FGColor"					"0 0 0 255"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}															
 						"Style_Disabled"
 						{
@@ -1581,7 +1581,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Name2"
 						{
@@ -1603,7 +1603,7 @@
 							"FGColor"					"white"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}	
 						"Style_Name3"
 						{
@@ -1625,7 +1625,7 @@
 							"FGColor"					"0 0 0 255"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}													
 						"Style_Image"
 						{
@@ -1749,7 +1749,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Disguise_Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1814,7 +1814,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -1896,7 +1896,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -1984,7 +1984,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Misc_Disguise_Position"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -2049,7 +2049,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{
@@ -2131,7 +2131,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Image"
 						{

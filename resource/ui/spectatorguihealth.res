@@ -173,7 +173,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Killfeed"
-		"fgcolor"		"Notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"fgcolor_override"		"236 240 241 255"
 	}
 	"PlayerStatusHealthValueID2S"

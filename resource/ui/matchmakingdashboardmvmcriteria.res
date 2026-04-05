@@ -110,8 +110,8 @@
 		"paintborder"								"0"
 
 		"defaultBgColor_override" 					"Green"
-		"armedBgColor_override" 					"MainTheme"
-		"depressedBgColor_override" 				"MainTheme"
+		"armedBgColor_override" 					"black"
+		"depressedBgColor_override" 				"black"
 
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"tanlight"

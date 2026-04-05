@@ -55,7 +55,7 @@
 		"wide"		"85"
 		"tall"		"2" 
 		border noborder
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 		"visible"		"1"
 	}		"border2"
 	{
@@ -67,7 +67,7 @@
 		"wide"		"85"
 		"tall"		"2" 
 		border noborder
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"TransparentBlack"
 	}	
 	"cover1"
 	{

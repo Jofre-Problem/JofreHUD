@@ -777,9 +777,9 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released				"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override" "Notoredsolid"
-		"armedFgColor_override" "Notowhite"
-		"depressedFgColor_override" "Notowhite"		
+		"defaultFgColor_override" "HUDRedTeamSolid"
+		"armedFgColor_override" "ItemAttribLevel"
+		"depressedFgColor_override" "ItemAttribLevel"		
 		
 		paintbackground				0
 
@@ -1784,7 +1784,7 @@
 		visible						0
 
 		paintbackground			1
-		bgcolor_override "BlackLight"
+		bgcolor_override "GrayDarkest"
 		border						"SteamWorkshopBorder"//"LoadoutItemPopupBorder"
 
 		// => resource\ui\ItemOptionsPanel.res"

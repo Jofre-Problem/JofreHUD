@@ -163,7 +163,7 @@
 				"font"			"DefaultVerySmall"
 				"labelText"		"#TF_Contributed"
 				"textAlignment"	"center"
-				"fgcolor"		"notowhite"
+				"fgcolor"		"ItemAttribLevel"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"40"
@@ -239,7 +239,7 @@
 		"tall"				"24"
 		"AllCaps"			"1"
 		"fgcolor_override"	"Notodark"
-		"bgcolor_override"	"Notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"
@@ -275,7 +275,7 @@
 		
 		"visible"		"1"
 		//"enabled"		"1"
-		"fgcolor" 		"Notowhite"
+		"fgcolor" 		"ItemAttribLevel"
 	}			
 	"TipImage"
 	{

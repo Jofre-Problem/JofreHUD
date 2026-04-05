@@ -176,10 +176,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/double-spelled-golden-frying-pan"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "29 30 34 200"
 				}	
 				"1erfila_b"
@@ -191,11 +191,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/double-spelled-spellbound-crones-dome"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}
 				"1erfila_c"
 				{
@@ -206,11 +206,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/arcana-virtual-viewfinder"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}	
 				"1erfila_d"
 				{
@@ -221,11 +221,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/double-spelled-poisoned-shadows-antlers"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}		
 				"1erfila_e"
 				{
@@ -236,11 +236,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spellbound-virtual-viewfinder"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}	
 
 
@@ -260,10 +260,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/double-spelled-golden-frying-pan-2"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "29 30 34 200"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -278,11 +278,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/hellfire-exquisite-rack"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}
 				"2dafila_c"
 				{
@@ -293,11 +293,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/burning-flames-team-captain"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}	
 				"2dafila_d"
 				{
@@ -308,11 +308,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/dual-tone-orange-gem-hot-macaw-masked-sniper-rifle"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "29 30 34 200"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "29 30 34 200"
 				}		
 
 
@@ -396,10 +396,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-bruised-purple-footprints"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_b"
@@ -411,11 +411,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-corpse-gray-footprints"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"1erfila_c"
 				{
@@ -426,11 +426,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-gangreen-footprints"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_d"
 				{
@@ -441,11 +441,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-headless-horseshoes"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"1erfila_e"
 				{
@@ -456,11 +456,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-rotten-orange-footprints"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 
 
@@ -480,10 +480,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-team-spirit-footprints"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -498,11 +498,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-violent-violet-footprints"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"2dafila_c"
 				{
@@ -513,11 +513,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-chromatic-corruption-paint"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"2dafila_d"
 				{
@@ -528,11 +528,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-die-job-paint"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"2dafila_e"
 				{
@@ -543,11 +543,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-putrescent-pigmentation-paint"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"3dafila_a"
 				{
@@ -559,10 +559,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-sinister-staining-paint"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -577,11 +577,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-spectral-spectrum-paint"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"3dafila_c"
 				{
@@ -592,11 +592,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-scouts-spectral-snarl-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"3dafila_d"
 				{
@@ -607,11 +607,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-soldiers-booming-bark-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"3dafila_e"
 				{
@@ -622,11 +622,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-pyros-muffled-moan-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}					
 		"spellstest"
 		{
@@ -701,10 +701,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-demomans-cadaverous-croak-voice"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_b"
@@ -716,11 +716,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-heavys-bottomless-bass-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"1erfila_c"
 				{
@@ -731,11 +731,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-engineers-gravelly-growl-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_d"
 				{
@@ -746,11 +746,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-medics-blood-curdling-bellow-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"1erfila_e"
 				{
@@ -761,11 +761,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-snipers-deep-downunder-drawl-voice"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 
 
@@ -785,10 +785,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-spys-creepy-croon-voice"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -803,11 +803,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-exorcism"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"2dafila_c"
 				{
@@ -818,11 +818,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-gourd-grenades"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"2dafila_d"
 				{
@@ -833,11 +833,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-sentry-quad-pumpkins"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"2dafila_e"
 				{
@@ -848,11 +848,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/spell-squash-rockets"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"3dafila_a"
 				{
@@ -864,10 +864,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/spell-spectral-flame"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -937,10 +937,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/normal-bat"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_b"
@@ -952,11 +952,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/normal-key"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"1erfila_c"
 				{
@@ -967,11 +967,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/normal-frying-pan"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"1erfila_d"
 				{
@@ -982,11 +982,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-flame-thrower"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"1erfila_e"
 				{
@@ -997,11 +997,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-medi-gun"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 
 
@@ -1021,10 +1021,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/strange-normal-grenade-launcher"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1039,11 +1039,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 	xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-stickybomb-launcher"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}
 				"2dafila_c"
 				{
@@ -1054,11 +1054,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-scattergun"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}	
 				"2dafila_d"
 				{
@@ -1069,11 +1069,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-sniper-rifle"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"2dafila_e"
 				{
@@ -1084,11 +1084,11 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		xpos 2+p0.002
 					"zpos"				"20"					"wide"			"58"					"tall"			"o1"
-					proportionaltoparent 1					bgcolor_override "0 0 0 200"
+					proportionaltoparent 1					bgcolor_override "TransparentBlack"
 
 					"command" "url https://itempedia.tf/item/strange-normal-minigun"
 
-					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "0 0 0 200"					"depressedbgcolor_override" "125 109 0 255"
+					"defaultbgcolor_override" "blank"					"armedbgcolor_override" "TransparentBlack"					"depressedbgcolor_override" "125 109 0 255"
 				}		
 				"3dafila_a"
 				{
@@ -1100,10 +1100,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/strange-normal-bat"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1119,10 +1119,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/strange-normal-australium-flamethrower"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1138,10 +1138,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/strange-normal-australium-medi-gun"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1157,10 +1157,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/strange-normal-australium-grenade-launcher"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1176,10 +1176,10 @@
 					"wide"			"58"
 					"tall"			"o1"
 					proportionaltoparent 1
-					bgcolor_override "0 0 0 200"
+					bgcolor_override "TransparentBlack"
 					"command" "url https://itempedia.tf/item/normal-batsaber"
 					"defaultbgcolor_override" "blank"
-					"armedbgcolor_override" "0 0 0 200"
+					"armedbgcolor_override" "TransparentBlack"
 					"depressedbgcolor_override" "125 109 0 255"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2369,7 +2369,7 @@
 	//	"Pin_To_Sibling"			"vicon3"		
 	//	"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 	//	"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"c1111labelb"
@@ -2398,7 +2398,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}		
@@ -2417,7 +2417,7 @@
 		"Pin_To_Sibling"			"c1111"		
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"manco2labelb"
@@ -2446,7 +2446,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}	
@@ -2465,7 +2465,7 @@
 		"Pin_To_Sibling"			"manco2"		
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"manco3labelb"
@@ -2494,7 +2494,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}
@@ -2527,7 +2527,7 @@
 		"wide"			"25"
 		"tall"			"20"
 
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"manco4labelb"
@@ -2556,7 +2556,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}
@@ -2575,7 +2575,7 @@
 		"Pin_To_Sibling"			"manco4"		
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"manco5labelb"
@@ -2604,7 +2604,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}	
@@ -2623,7 +2623,7 @@
 		"Pin_To_Sibling"			"manco5"		
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		bgcolor_override "0 0 0 100"
 	}	
 		"manco6labelb"
@@ -2652,7 +2652,7 @@
 			
 			paintBackground 1
 			defaultbgcolor_override "0 0 0 100"
-			"defaultFgColor_override"	"notowhite"
+			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}				
@@ -2769,7 +2769,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		paintbackground 			0
 	}
@@ -2794,7 +2794,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		paintbackground 			0
 						"Pin_To_Sibling"				"BpButton"
@@ -2821,7 +2821,7 @@
 		"tall"				"48"
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		paintbackground 			0
 		
@@ -2851,7 +2851,7 @@
 
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		paintbackground 			0
 						"Pin_To_Sibling"				"ArmoryButton"
@@ -2910,7 +2910,7 @@
 		//sound_released			"vo/scout_go01.mp3"
 		
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 		pin_to_sibling 			"SoldierButton"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
@@ -2928,7 +2928,7 @@
 			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 		labelText				"đ"
 		font					"HudFontMediumSmall"
 		textAlignment			center
@@ -2957,7 +2957,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		labelText				"æ"
 		font					"HudFontMediumSmall"
@@ -2986,7 +2986,7 @@
 	
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		labelText				"ē"
 		font					"HudFontMediumSmall"
@@ -3018,7 +3018,7 @@
 
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 		labelText				"Ĕ"
 		font					"HudFontMediumSmall"
 		textAlignment			center
@@ -3051,7 +3051,7 @@
 		
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"	
+		armedFgColor_override		"greensolid"	
 		sound_depressed			"sound_menu/button.wav"
 		//sound_released			"vo/engineer_go01.mp3"
 		
@@ -3076,7 +3076,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"	
+		armedFgColor_override		"greensolid"	
 		
 		labelText				"Ė"
 		font					"HudFontMediumSmall"
@@ -3106,7 +3106,7 @@
 		"tall"							"100"
 				
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 			"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
 		labelText				"ė"
@@ -3138,7 +3138,7 @@
 		"border_armed"					"steamworkshopborder"
 
 			defaultFgColor_override		"Tanlight"
-		armedFgColor_override		"NotoGreen"
+		armedFgColor_override		"greensolid"
 
 		labelText				"Ę"
 		font					"HudFontMediumSmall"

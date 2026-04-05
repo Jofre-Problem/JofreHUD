@@ -157,7 +157,7 @@
 		"font"		"EconFontMedium"
 		paintBackground 1
 		"alpha"		"190"
-		"defaultBgColor_override"	"0 0 0 200"
+		"defaultBgColor_override"	"TransparentBlack"
 		"armedBgColor_override"		"0 0 0 100"
 		"depressedBgColor_override"	"WhiteGray"
 	}	
@@ -188,7 +188,7 @@
 		"paintbackground"	"0"
 		"font"			"HudFontSmall"
 		"fgcolor"		"255 255 255 255"
-		"armedFgColor_override" "NotoBlueSolid"
+		"armedFgColor_override" "ItemAttribPositive"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 		"alpha"	"190"

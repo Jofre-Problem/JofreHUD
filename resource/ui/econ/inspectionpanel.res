@@ -601,7 +601,7 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"maxchars"		"20"
 
 			"consume_mode"

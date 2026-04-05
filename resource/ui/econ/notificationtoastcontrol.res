@@ -44,8 +44,8 @@
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"MainTheme"
-		"depressedFgColor_override"		"MainTheme"
+		"armedFgColor_override"		"black"
+		"depressedFgColor_override"		"black"
 
 	"SubImage"
 		{
@@ -89,8 +89,8 @@
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"MainTheme"
-		"depressedFgColor_override"		"MainTheme"
+		"armedFgColor_override"		"black"
+		"depressedFgColor_override"		"black"
 
 			"SubImage"
 		{
@@ -133,8 +133,8 @@
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"MainTheme"
-		"depressedFgColor_override"		"MainTheme"
+		"armedFgColor_override"		"black"
+		"depressedFgColor_override"		"black"
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
 			"SubImage"
@@ -174,8 +174,8 @@
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"MainTheme"
-		"depressedFgColor_override"		"MainTheme"
+		"armedFgColor_override"		"black"
+		"depressedFgColor_override"		"black"
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
 			"SubImage"

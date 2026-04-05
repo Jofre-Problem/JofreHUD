@@ -65,7 +65,7 @@
 "ControlName""CExLabel"
 "fieldName""EnemyCount"
 "font""ItemFontAttribLarge"
-"fgcolor""notowhite"
+"fgcolor""ItemAttribLevel"
 "xpos""1"
 "ypos""13"
 "zpos""9"

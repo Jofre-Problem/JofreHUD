@@ -218,7 +218,7 @@
 		"enabled"		"1"
 		"labelText"		"Ǐ"
 		"textAlignment"		"center"
-		"fgcolor"		"0 0 0 200"	
+		"fgcolor"		"TransparentBlack"	
 		pin_to_sibling "TargetNameLabelMidicon"		
 		//"auto_wide_tocontents" "1"
 		//bgcolor_override "30 30 30 255"
@@ -274,7 +274,7 @@
 		"enabled"		"1"
 		"labelText"		"ƿ"
 		"textAlignment"		"center"
-		"fgcolor"		"0 0 0 200"	
+		"fgcolor"		"TransparentBlack"	
 		pin_to_sibling "TargetNameLabelMid2icon"		
 		//"auto_wide_tocontents" "1"
 		//bgcolor_override "30 30 30 255"
@@ -310,7 +310,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"0 0 0 200"
+		"fgcolor"		"TransparentBlack"
 		"pin_to_sibling" "TargetNameLabelMid2"
 	}
 
@@ -387,7 +387,7 @@
 		"textAlignment"		"center"
 		////	"0"
 		//
-		"fgcolor"		"Notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"colors"
 		{	
 			"0" "red"
@@ -433,7 +433,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"variable"		"targetdata"
-		"fg_image"		"replay/thumbnails/rainbow/gif_rgb"
+		"fg_image"		"replay/thumbnails/gif_rgb"
 		"bg_image"		"replay/thumbnails/bg_blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"white"

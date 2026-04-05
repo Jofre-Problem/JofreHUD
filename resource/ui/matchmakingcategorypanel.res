@@ -81,11 +81,11 @@
 
 			"border_default"	"NoBorder"
 			"defaultBgColor_override"	"0 0 0 255"
-			"defaultfgcolor_override" "notowhite"
+			"defaultfgcolor_override" "ItemAttribLevel"
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"notowhite"
+			"armedBgColor_override"	"ItemAttribLevel"
 			"armedfgColor_override"	"0 0 0 255"
-			"selectedBGColor_override" "NotoGreen"
+			"selectedBGColor_override" "greensolid"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

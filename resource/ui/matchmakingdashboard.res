@@ -226,7 +226,7 @@
 		"defaultBgColor_override""Blank"
 
 			defaultFgColor_override		"black"
-			armedFgColor_override		"notowhite"
+			armedFgColor_override		"ItemAttribLevel"
 		"paintbackground""0"
 	}
 
@@ -259,7 +259,7 @@
 		"defaultBgColor_override""Blank"
 
 			defaultFgColor_override		"black"
-			armedFgColor_override		"notowhite"
+			armedFgColor_override		"ItemAttribLevel"
 		"paintbackground""0"
 	}
 
@@ -354,7 +354,7 @@
 			"fgcolor"			"black"
 			"fgcolor_override"	"black"
 			"defaultFgColor_override"	"black"
-			"armedFgColor_override"		"notowhite"
+			"armedFgColor_override"		"ItemAttribLevel"
 			"depressedFgColor_override"	"W_ColorTheme4"
 			
 			"border_armed"		"noborder"	
@@ -548,8 +548,8 @@
                 "visible"                   "1"
                 "enabled"                   "1"
                 "font"                      "HudFontSmall"
-                "fgcolor_override"          "notowhite"
-                "fgcolor"                   "notowhite"
+                "fgcolor_override"          "ItemAttribLevel"
+                "fgcolor"                   "ItemAttribLevel"
                 "bgcolor_override"          "Blank"
                 "textAlignment"             "center"
                 "labelText"                 "%queue_state%"
@@ -598,7 +598,7 @@
                 "paintbackground"               "1"
                 "fgcolor"                       "notored"
                 "defaultFgColor_override"       "notored"
-                "armedFgColor_override"         "notowhite"
+                "armedFgColor_override"         "ItemAttribLevel"
                 "depressedFgColor_override"     "notored"
                 "defaultbgcolor_override"       "Blank"
                 "armedbgcolor_override"         "Blank"
@@ -640,7 +640,7 @@
                 "paintbackground"               "1"
                 "fgcolor"                       "notored"
                 "defaultFgColor_override"       "notored"
-                "armedFgColor_override"         "notowhite"
+                "armedFgColor_override"         "ItemAttribLevel"
                 "depressedFgColor_override"     "notored"
                 "defaultbgcolor_override"       "Blank"
                 "armedbgcolor_override"         "Blank"
@@ -790,10 +790,10 @@
 
 			"armedBgColor_override"		"blank"
 			"defaultBgColor_override"	"blank"
-			"fgcolor"			"notowhite"
-			"fgcolor_override"			"notowhite"
+			"fgcolor"			"ItemAttribLevel"
+			"fgcolor_override"			"ItemAttribLevel"
 			"depressedbgcolor_override" "blank"
-			"defaultFgColor_override" "notowhite"
+			"defaultFgColor_override" "ItemAttribLevel"
 			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "215 215 215 255"
 			"SubImage"
@@ -834,12 +834,12 @@
 
 			"armedBgColor_override"		"Blank"
 			"defaultBgColor_override"	"Blank"
-			"fgcolor"			"notowhite"
-			"fgcolor_override"			"notowhite"
+			"fgcolor"			"ItemAttribLevel"
+			"fgcolor_override"			"ItemAttribLevel"
 			
-			"defaultFgColor_override" "notowhite"
+			"defaultFgColor_override" "ItemAttribLevel"
 			"armedFgColor_override" "redsolid"
-			"depressedFgColor_override" "notowhite"
+			"depressedFgColor_override" "ItemAttribLevel"
 
 "depressedbgcolor_override" "blank"
 
@@ -904,7 +904,7 @@
 				"defaultbgcolor_override" "117 107 94 0"
 				"defaultfgcolor_override" 	"27 27 27 255"
 				"armedbgcolor_override" "blank"
-				"armedfgcolor_override" "NotoGreen"
+				"armedfgcolor_override" "greensolid"
 				"depressedfgcolor_override" "AssassinGrade"
 			//"fgcolor"			"black"
 			

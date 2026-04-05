@@ -56,7 +56,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "notoblack"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 	}
 	"CancelButton"
 	{
@@ -79,8 +79,8 @@
 		
 		
 		"defaultFgColor_override" "TFOrange"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"		
+		"armedFgColor_override" "ItemAttribLevel"
+		"depressedFgColor_override" "ItemAttribLevel"		
 		"default"		"1"
 		"Command"		"Close"
 		
@@ -105,8 +105,8 @@
 		"textAlignment"	"center"
 		//
 		"defaultFgColor_override" "TFOrange"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"		
+		"armedFgColor_override" "ItemAttribLevel"
+		"depressedFgColor_override" "ItemAttribLevel"		
 		"default"		"1"
 		"Command"		"Ok"
 		

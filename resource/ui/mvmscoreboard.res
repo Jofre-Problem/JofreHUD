@@ -20,7 +20,7 @@
 		"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"	"90"
-			"fgcolor_override"	"notowhite"
+			"fgcolor_override"	"ItemAttribLevel"
 			"font"	"ScoreboardTeamName"
 			"tall"	"30"
 			"wide"	"f0"

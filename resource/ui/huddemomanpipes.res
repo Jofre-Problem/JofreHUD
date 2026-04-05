@@ -61,7 +61,7 @@
 			////	"0"
 			//
 			"font"			"AmmoPipesOut3"
-			"fgcolor"		"notowhite"
+			"fgcolor"		"ItemAttribLevel"
 		}
 		"NumPipesLabel2"
 		{

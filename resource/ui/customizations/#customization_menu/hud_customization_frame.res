@@ -172,7 +172,7 @@
 			"ProportionalToParent"						"1"
 			"PaintBackground"							"1"
 			"PaintBackgroundType"						"0"
-			"BGcolor_Override"							"Background_Darkest"
+			"BGcolor_Override"							"TanDarker"
 
 			"Title"
 			{

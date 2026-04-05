@@ -15,12 +15,12 @@ Scheme
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
 		"DullWhite"			"142 142 142 255"
-		"TransparentBlack"		"0 0 0 128"
+		"TransparentBlack"		"0 0 0 200"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
 	
-		"NotoWhite"				"240 240 240 255"
-		"NotoGreen"				"27 27 27 255"
+		"ItemAttribLevel"				"240 240 240 255"
+		"greensolid"				"27 27 27 255"
 		"NotoDark"				"15 15 15 255"
 
 		// TF2

@@ -17,7 +17,7 @@
 		
 		thumbnail_bgcolor			"TFOrange"
 		thumbnail_bgcolor_mouseover	"Notodark"
-		thumbnail_bgcolor_selected	"NotoBlueSolid"
+		thumbnail_bgcolor_selected	"ItemAttribPositive"
 		
 		thumbnails_rows			0
 		thumbnails_columns		0

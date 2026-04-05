@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"fgcolor_override"	"Notodark"
-		"bgcolor_override"	"Notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"

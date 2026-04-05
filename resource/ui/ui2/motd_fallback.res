@@ -197,7 +197,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"black"
 			"wrap"			"1"
 		}
 		
@@ -216,7 +216,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"black"
 		}
 		
 		"MOTD_TitleImageBg"
@@ -272,7 +272,7 @@
 			"wide"			"280"
 			"tall"			"115"
 			"PaintBackgroundType"	"2"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"black"
 			
 			"MOTD_TextPanel"
 			{
@@ -300,7 +300,7 @@
 					
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor"		"LabelDark"
+					"fgcolor"		"black"
 					"wrap"			"1"
 				}
 			}

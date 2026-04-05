@@ -157,7 +157,7 @@
             "tall"                      "25"
             "labelText"                 "е"
             "font"                      "itemfontnamesmall"
-            "fgcolor"                   "notowhite"
+            "fgcolor"                   "ItemAttribLevel"
             "textAlignment"             "west"
             "auto_wide_tocontents"      "1"
             "mouseinputenabled"         "0"

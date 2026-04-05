@@ -41,7 +41,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextLabel"
-"fgcolor_override"		"notowhite"
+"fgcolor_override"		"ItemAttribLevel"
 		"font"			"PerformanceModeSmall"
 		"if_high_priority"
 		{

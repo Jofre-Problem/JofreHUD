@@ -54,11 +54,11 @@
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"0"
-		"disabledfgcolor2_override" "notowhite"
+		"disabledfgcolor2_override" "ItemAttribLevel"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
 		
-		"fgcolor_override"	"Notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 		
 	}
 	"CapNumPlayers2"

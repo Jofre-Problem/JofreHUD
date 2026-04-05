@@ -115,7 +115,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"TanDarker"
 
 
 						"Example_Image"
@@ -805,7 +805,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"TanDarker"
 
 						"Pin_To_Sibling"				"Damage"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1498,7 +1498,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"TanDarker"
 
 						"Pin_To_Sibling"				"Last_Damage_Done"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2191,7 +2191,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"TanDarker"
 
 						"Pin_To_Sibling"				"Damage"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2884,7 +2884,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"Background_Darkest"
+						"BGColor_Override"				"TanDarker"
 
 						"Pin_To_Sibling"				"HUD_Crosshair_Pulse"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3590,7 +3590,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Colors_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -3912,7 +3912,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -3995,7 +3995,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{

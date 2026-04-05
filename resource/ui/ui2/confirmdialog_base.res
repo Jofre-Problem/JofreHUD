@@ -49,7 +49,7 @@
 		"wide"			"p0.38"//"p0.3"
 		"tall"			"80"
 		"centerwrap"		"1"
-		"fgcolor_override"	"Notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 							"fonts"
 				{
 					"0"		"ItemFontAttribLarge"

@@ -92,7 +92,7 @@
 			}
 		}
 
-		"recipedarklights_kv"
+		"recipebuttons_kv"
 		{
 			"font"							"itemfontnamesmallest"
 			"xpos"							"0"
@@ -103,14 +103,14 @@
 			"visible"						"1"
 			"proportionaltoparent"			"1"
 			"textAlignment"					"center"
-			"AllCaps"						"1"
+			
 			"paintborder"					"0"
 
 			"defaultFgColor_override" "WhiteGray"
 			"defaultBgColor_override" "Blank"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "Blank"
-			"depressedFgColor_override" "MainTheme"
+			"depressedFgColor_override" "black"
 			"depressedBgColor_override" "Blank"
 			"defaultFgColor_override" 		"whitegray"
 			"defaultBgColor_override" 		"graydark"
@@ -125,21 +125,7 @@
 		"filter_xdelta"						"12"
 		"filter_ydelta"						"12"
 
-		"recipefilterdarklights_kv"
-		{
-			"zpos"							"2"
-			"wide"							"24"
-			"tall"							"24"
-			"visible"						"1"
-			"enabled"						"1"
-			"labelText"						""
-			"textAlignment"					"south-west"
-			"Command"						""
-			"font"							"MenuKeys"
-			"scaleImage"					"1"
-			"sound_depressed"				"UI/darklightclick.wav"
-			"sound_released"				"UI/darklightclickrelease.wav"
-		}
+
 	}
 
 	"FiltersBG"
@@ -293,7 +279,7 @@
 			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
-			"AllCaps"						"1"
+			
 			"font"							"HudFontMediumSmallBold"
 			"labelText"						"#Craft_Recipe_Inputs"
 			"textAlignment"					"west"
@@ -333,7 +319,7 @@
 			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
-			"AllCaps"						"1"
+			
 			"font"							"HudFontMediumSmallBold"
 			"labelText"						"#Craft_Recipe_Outputs"
 			"textAlignment"					"west"
@@ -344,38 +330,6 @@
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
 			"bgcolor_override"				"notodark"
-		}
-
-		"Craftdarklight"
-		{
-			"ControlName"					"CExdarklight"
-			"fieldName"						"Craftdarklight"
-			"xpos"							"cs-0.5"
-			"ypos"							"325"
-			"zpos"							"20"
-			"wide"							"f0"
-			"tall"							"22"
-			"visible"						"1"
-			"enabled"						"0"
-			"proportionaltoparent"			"1"
-			"labelText"						"#CraftConfirm"
-			"font"							"HudFontMediumSmallBold"
-			"textAlignment"					"center"
-			"textinsetx"					"0"
-			"AllCaps"						"1"
-			"Command"						"craft"
-			"sound_depressed"				"UI/darklightclick.wav"
-			"sound_released"				"UI/darklightclickrelease.wav"
-
-			"PaintBackground"				"1"
-
-			"defaultFgColor_override" 		"White"
-			"armedFgColor_override" 		"White"
-			"depressedFgColor_override" 	"White"
-
-			"defaultBgColor_override" 		"darklightGreen"
-			"armedBgColor_override" 		"darklightGreen_Hover"
-			"depressedBgColor_override" 	"darklightGreen"
 		}
 
 		"FreeAccountLabel"
@@ -390,43 +344,13 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"proportionaltoparent"			"1"
-			"AllCaps"						"1"
+			
 			"font"							"FontStorePrice"
 			"labelText"						"#Craft_PremiumRecipe"
 			"textAlignment"					"center"
 			"fgcolor"						"Red"
 		}
-		"Upgradedarklight"
-		{
-			"ControlName"					"CExdarklight"
-			"fieldName"						"Upgradedarklight"
-			"xpos"							"cs-0.5"
-			"ypos"							"323"
-			"zpos"							"22"
-			"wide"							"f0"
-			"tall"							"25"
-			"visible"						"1"
-			"enabled"						"1"
-			"proportionaltoparent"			"1"
-			"labelText"						"#TF_Trial_Upgrade"
-			"font"							"HudFontMediumBold"
-			"textAlignment"					"center"
-			"textinsetx"					"0"
-			"AllCaps"						"1"
-			"Command"						"upgrade"
-			"sound_depressed"				"UI/darklightclick.wav"
-			"sound_released"				"UI/darklightclickrelease.wav"
 
-			"PaintBackground"				"1"
-
-			"defaultFgColor_override" 		"White"
-			"armedFgColor_override" 		"White"
-			"depressedFgColor_override" 	"White"
-
-			"defaultBgColor_override" 		"darklightRed"
-			"armedBgColor_override" 		"darklightRed_Hover"
-			"depressedBgColor_override" 	"darklightRed"
-		}
 
 		"RecipeTitle"
 		{

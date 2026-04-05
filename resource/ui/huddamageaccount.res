@@ -110,22 +110,4 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
 	}
-	"DamageAccountLabelHealsS"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DamageAccountLabelHealsS"
-		"font"			"DamageTexthealsshadow"	[$WINDOWS]
-		"font"			"blank"	[$LINUX]
-		"fgcolor"		"0 0 0 150"
-	"xpos"			"c-50"
-		"ypos"			"c17+20+6"
-		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%metal%"	
-	}
-	
 }

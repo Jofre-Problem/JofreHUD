@@ -16,7 +16,7 @@
 			"ProportionalToParent"						"1"
 			"paintBackground"							"1"
 			"paintBackgroundtype"						"0"
-			"BGcolor_Override"							"Background_Darkest"
+			"BGcolor_Override"							"TanDarker"
 
 			"Warning"
 			{

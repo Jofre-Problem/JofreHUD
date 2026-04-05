@@ -116,7 +116,7 @@
 		"tall"		"20"
 		"labelText"		"ǐ"
 		"textAlignment"		"center"
-		"fgcolor_override"		"notowhite"
+		"fgcolor_override"		"ItemAttribLevel"
 		"font"					"itemfontnamesmall"
 	}	
 	"ChatSlider"
@@ -185,7 +185,7 @@
 		"enabled"		"1"
 		"scaleImage"		"0"
 		"image"	""
-		"fillcolor"		"NotoredSolid"
+		"fillcolor"		"HUDRedTeamSolid"
 
 		if_mvm
 		{
@@ -209,7 +209,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"0"
-		"fillcolor"		"NotoBlueSolid"
+		"fillcolor"		"ItemAttribPositive"
 		"image"	"replay/thumbnails/null"
 		if_mvm
 		{
@@ -374,7 +374,7 @@
 		"tall"			"20" 
 		"zpos"			"200"
 		"enabled"		"1"
-		"fgcolor"		"NotoBlueSolid"
+		"fgcolor"		"ItemAttribPositive"
 		
 		if_mvm
 		{
@@ -387,7 +387,7 @@
 		"fieldName"									"BlueTeamScore"
 		"labelText"									"%blueteamscore%"		
 		"font"			"HudFontBig"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 		"textAlignment"		"east"
 		"xpos"			"6"
 		"ypos"			"1-p0.002"
@@ -416,7 +416,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
@@ -448,7 +448,7 @@
 		"fieldName"									"RedTeamScore"
 		"labelText"									"%redteamscore%"
 		"font"			"HudFontBig"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 		"textAlignment"		"west"
 		"xpos"			"c1+12"
 		"ypos"			"78+p0.002" 
@@ -477,7 +477,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 
 		if_mvm
 		{
@@ -1081,7 +1081,7 @@ if_mvm
 			"wide"			"f0"
 			"tall"			"57-p0.001"[$WINDOWS]
 		"tall"			"71" [$LINUX]
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"border"	"BlurBorder"
 		
 		}	
@@ -1095,7 +1095,7 @@ if_mvm
 			"wide"			"f0"
 			"tall"			"11"[$WINDOWS]
 		"tall"			"14" [$LINUX]
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"border"	"BlurBorder"
 		if_mvm		{			"visible"		"0"		}
 		}
@@ -1119,7 +1119,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"notowhite"
+		"bgcolor_override"			"ItemAttribLevel"
 		if_mvm		{			"visible"		"0"		}
 	}		
 	"center1"
@@ -1133,7 +1133,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"notowhite"
+		"bgcolor_override"			"ItemAttribLevel"
 		"pin_to_sibling"	"BlueScoreBG"
 		
 	}	
@@ -1148,7 +1148,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"notowhite"
+		"bgcolor_override"			"ItemAttribLevel"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1166,7 +1166,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"notowhite"
+		"bgcolor_override"			"ItemAttribLevel"
 		if_mvm
 		{
 			"visible"		"0"
@@ -1212,7 +1212,7 @@ if_mvm
 		"tall"			"p0.001"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"			"notowhite"
+		"bgcolor_override"			"ItemAttribLevel"
 	}	
 	"LocalPlayerStatsPanel"
 	{
@@ -1250,7 +1250,7 @@ if_mvm
 			
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"notowhite"
+			"fgcolor"			"ItemAttribLevel"
 		}
 
 		"Kills"
@@ -1269,7 +1269,7 @@ if_mvm
 			
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"NOTOWHITE"
+			"fgcolor"			"ItemAttribLevel"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -1291,7 +1291,7 @@ if_mvm
 			
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"NOTOWHITE"
+			"fgcolor"			"ItemAttribLevel"
 			"pin_to_sibling"	"Kills"
 		}
 
@@ -1328,7 +1328,7 @@ if_mvm
 			
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"NOTOWHITE"
+			"fgcolor"			"ItemAttribLevel"
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -1350,7 +1350,7 @@ if_mvm
 			
 			"visible"			"1"
 			"enabled"			"1"
-			"fgcolor"			"NOTOWHITE"
+			"fgcolor"			"ItemAttribLevel"
 			"pin_to_sibling"	"Deaths"
 		}
 
@@ -1370,7 +1370,7 @@ if_mvm
 			
 			"visible"			"0"
 			"enabled"			"0"
-			"fgcolor"			"notowhite"
+			"fgcolor"			"ItemAttribLevel"
 		}
 
 		"AssistsLabel"
@@ -1895,7 +1895,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			"fgcolor_override" "NOTOWHITE"
+			"fgcolor_override" "ItemAttribLevel"
 
 			"visible"			"1"
 			"enabled"			"1"
@@ -1918,7 +1918,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			"fgcolor_override" "NOTOWHITE"
+			"fgcolor_override" "ItemAttribLevel"
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2290,7 +2290,7 @@ if_mvm
 		"tall"				"24"
 		"AllCaps"			"1"
 		"fgcolor"	"notodark"
-		"bgcolor_override"	"Notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"

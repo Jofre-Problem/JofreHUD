@@ -319,7 +319,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 150"
-		"fillcolor_lodef"		"0 0 0 200"
+		"fillcolor_lodef"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"

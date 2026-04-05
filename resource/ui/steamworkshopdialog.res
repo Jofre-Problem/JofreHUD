@@ -220,7 +220,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"NotoBlueSolid"
+						"fgcolor_override"	"ItemAttribPositive"
 						"bgcolor_override"	"Black"
 					}
 				
@@ -250,7 +250,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"Useful Links - Click Them"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}				
 	"urlmaster"
@@ -266,7 +266,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Mastercomfig (Best TF2 Config)"
 		"URLText"		"https://mastercomfig.com/app"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}
 	"urlmods"
 	{
@@ -281,7 +281,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Gamebanana (TF2 Modding)"
 		"URLText"		"https://gamebanana.com/games/297"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}
 	"urlbot"
 	{
@@ -296,7 +296,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TF2 Bot Detector"
 		"URLText"		"https://botdetector.tf"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlcasting"
 	{
@@ -311,7 +311,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TF2 Casting Essentials"
 		"URLText"		"https://github.com/dalegaard/CastingEssentials"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlcmd"
 	{
@@ -326,7 +326,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Steam CMD GUI"
 		"URLText"		"https://github.com/AndrSator/SteamCMD-GUI"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlvtf"
 	{
@@ -341,7 +341,7 @@
 		"textAlignment"	"center"
 		"labelText"		"VTFEdit"
 		"URLText"		"https://valvedev.info/tools/vtfedit"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlvpk"
 	{
@@ -356,7 +356,7 @@
 		"textAlignment"	"center"
 		"labelText"		"GCFScape"
 		"URLText"		"https://gamebanana.com/tools/26"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlhammer"
 	{
@@ -371,7 +371,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Hammer++"
 		"URLText"		"https://ficool2.github.io/HammerPlusPlus-Website/index.html"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlhammervide"
 	{
@@ -386,7 +386,7 @@
 		"textAlignment"	"center"
 		"labelText"		"VIDE"
 		"URLText"		"https://developer.valvesoftware.com/wiki/VIDE"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlserverblock"
 	{
@@ -401,7 +401,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Valve Server Blocker"
 		"URLText"		"https://gamebanana.com/tools/15988"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlnvidia"
 	{
@@ -416,7 +416,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Nvidia Inspector"
 		"URLText"		"https://drive.google.com/drive/folders/1QjnIsYPN6RJHqk-OeBQyL-rLeWqOd4e_"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urldemo"
 	{
@@ -431,7 +431,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Demo MGR (Best .dem manager)"
 		"URLText"		"https://gamebanana.com/tools/7148"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"master2"
 	{
@@ -445,7 +445,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"Useful Comp Sites - Click Them"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}
 	"urltftv"
@@ -461,7 +461,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TeamFortress.TV"
 		"URLText"		"https://www.teamfortress.tv/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urltteamwork"
 	{
@@ -476,7 +476,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TeamWork.TF (Verified Comp Sites)"
 		"URLText"		"https://teamwork.tf/competitive/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlcenter"
 	{
@@ -491,7 +491,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TF2 Center"
 		"URLText"		"https://tf2center.com/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlrgl"
 	{
@@ -506,7 +506,7 @@
 		"textAlignment"	"center"
 		"labelText"		"RGL.GG"
 		"URLText"		"https://rgl.gg/?r=1"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urldemos"
 	{
@@ -521,7 +521,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Demos TF"
 		"URLText"		"https://demos.tf/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urllog"
 	{
@@ -536,7 +536,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Logs TF"
 		"URLText"		"https://logs.tf/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"master3"
 	{
@@ -550,7 +550,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"Useful Mods - Click Them"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}			
 	"urlviewmodel"
@@ -566,7 +566,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Horse Viewmodel Editor"
 		"URLText"		"https://github.com/a-horsey/horsies-viewmodel-editor"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urllods"
 	{
@@ -581,7 +581,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Recompilation LODS"
 		"URLText"		"https://gamebanana.com/mods/482999"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}				
 	"urloptmization"
 	{
@@ -596,7 +596,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Viewmodel Optimization"
 		"URLText"		"https://gamebanana.com/mods/36770"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlflat"
 	{
@@ -611,7 +611,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Flat Textures"
 		"URLText"		"https://gamebanana.com/mods/295065"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlparticle"
 	{
@@ -626,7 +626,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Particle Limitation"
 		"URLText"		"https://www.teamfortress.tv/22586/particle-limitation-pack"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}
 	"urlcleantf2"
 	{
@@ -641,7 +641,7 @@
 		"textAlignment"	"center"
 		"labelText"		"CleanTF2+"
 		"URLText"		"https://github.com/JarateKing/CleanTF2plus"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlfix"
 	{
@@ -656,7 +656,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TF2 Visual Fix"
 		"URLText"		"https://github.com/agrastiOs/Ultimate-TF2-Visual-Fix-Pack/tree/master"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlhats"
 	{
@@ -671,7 +671,7 @@
 		"textAlignment"	"center"
 		"labelText"		"No Hats"
 		"URLText"		"https://gamebanana.com/mods/205768"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlpreload"
 	{
@@ -686,7 +686,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TF2 Casual Preload"
 		"URLText"		"https://gamebanana.com/wips/79779"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"master4"
 	{
@@ -700,7 +700,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"My Favorite Mods - Click Them"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}	
 	"urlsniper"
@@ -716,7 +716,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Sniper Rifle (SVT40)"
 		"URLText"		"https://gamebanana.com/mods/197202"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlsMG"
 	{
@@ -731,7 +731,7 @@
 		"textAlignment"	"center"
 		"labelText"		"SMG (M4A1)"
 		"URLText"		"https://gamebanana.com/mods/197760"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}			
 	"urlmelee"
 	{
@@ -746,7 +746,7 @@
 		"textAlignment"	"center"
 		"labelText"		"L4D2 Melee Ports"
 		"URLText"		"https://gamebanana.com/mods/198609"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlmuzzle"
 	{
@@ -761,7 +761,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Muzzle Flash"
 		"URLText"		"https://gamebanana.com/mods/12581"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"master5"
 	{
@@ -775,7 +775,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"Tracking servers / people"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}		
 	"urlteamwork"
@@ -791,7 +791,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Team Work TF"
 		"URLText"		"https://teamwork.tf/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlidfinder"
 	{
@@ -806,7 +806,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Steam ID Finder"
 		"URLText"		"https://steamid.uk/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}				
 	"urlbattlemetrics"
 	{
@@ -821,7 +821,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Battle Metrics"
 		"URLText"		"https://www.battlemetrics.com/servers/tf2"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}		
 	"urlgamemetrick"
 	{
@@ -836,7 +836,7 @@
 		"textAlignment"	"center"
 		"labelText"		"GameTracker"
 		"URLText"		"https://www.gametracker.com/search/tf2/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urltsavar"
 	{
@@ -851,7 +851,7 @@
 		"textAlignment"	"center"
 		"labelText"		"TSARVAR"
 		"URLText"		"https://tsarvar.com/en/servers/team-fortress-2/option:rtd"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlhistory"
 	{
@@ -866,7 +866,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Steam History"
 		"URLText"		"https://steamhistory.net/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}			
 	"master6"
 	{
@@ -880,7 +880,7 @@
 		"font"	"Killfeed"
 		"textAlignment"	"center"
 		"labelText"		"Useful Chrome Extensions / Scripts"
-		"bgcolor_override"	"notowhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"fgcolor_override"	"notoblack"
 	}	
 	"urlext1"
@@ -896,7 +896,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Steam Inventory Helper"
 		"URLText"		"https://steaminventoryhelper.com/"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlext2"
 	{
@@ -911,7 +911,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Steam Extra Profile Links"
 		"URLText"		"https://greasyfork.org/en/scripts/5148-steam-extra-profile-links"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlext3"
 	{
@@ -926,7 +926,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Batch Keys Activator"
 		"URLText"		"chrome-extension://jinjaccalgkegednnccohejagnlnfdag/confirm/index.html#VM5yas5nydx8k"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}	
 	"urlext4"
 	{
@@ -941,7 +941,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Even more here!"
 		"URLText"		"https://steamcommunity.com/sharedfiles/filedetails/?id=2325187207"
-		"border"		"FLAT_Black_2"
+		"border"		"StoreFreeTrialBorder"
 	}																																				
 					"ChatLabel"
 	{
@@ -954,7 +954,7 @@
 		"tall"		"o1"
 		"labelText"		"z"
 		"textAlignment"		"center"
-		"fgcolor_override"		"NotoBlueSolid"
+		"fgcolor_override"		"ItemAttribPositive"
 		"font"					"ItemFontNameLarge"		
 	}		
 }}

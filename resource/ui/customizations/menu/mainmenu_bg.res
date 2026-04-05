@@ -14,6 +14,6 @@
 		"Enabled"									"1"
 		"PaintBackground"							"1"
 		"PaintBackgroundType"						"0"
-		"BGcolor_Override"							"Background_Main"
+		"BGcolor_Override"							"whattimeis1"
 	}
 }

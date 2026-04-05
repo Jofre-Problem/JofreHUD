@@ -210,7 +210,7 @@
 	}
 
 //	"NotificationNoYet"
-//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "NotoWhite"
+//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "ItemAttribLevel"
 //	}
 	"Background"
 	{
@@ -363,8 +363,8 @@
 			sound_depressed			"UI/buttonclick.wav"
 			sound_released			"UI/buttonclickrelease.wav"
 							
-		defaultFgColor_override		"NotoWhite"
-		armedFgColor_override		"NotoBlueSolid"
+		defaultFgColor_override		"ItemAttribLevel"
+		armedFgColor_override		"ItemAttribPositive"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -412,8 +412,8 @@
 			sound_depressed			"UI/buttonclick.wav"
 			sound_released			"UI/buttonclickrelease.wav"
 							
-		defaultFgColor_override		"NotoWhite"
-		armedFgColor_override		"NotoBlueSolid"
+		defaultFgColor_override		"ItemAttribLevel"
+		armedFgColor_override		"ItemAttribPositive"
 		image_drawcolor			"255 255 255 50" 
 		image_armedcolor			"255 255 255 100"
 			paintbackground			0
@@ -475,7 +475,7 @@
 			
 			paintbackground			0
 			
-			image_drawcolor				"NotoWhite"			// scheme colors don't work
+			image_drawcolor				"ItemAttribLevel"			// scheme colors don't work
 			image_armedcolor			"redsolid"
 			
 			"SubImage"
@@ -489,7 +489,7 @@
 				proportionaltoparent		1
 				image					"replay/thumbnails/mainmenu/notification_bell"
 				scaleImage				1
-				"drawcolor_override"				"NotoWhite"
+				"drawcolor_override"				"ItemAttribLevel"
 			}				
 		}
 
@@ -505,7 +505,7 @@
 			tall					o1
 			proportionaltoparent		1
 
-			image					"replay/thumbnails/mainmenu/notification_bell_message"
+			image					"replay/thumbnails/mm/circle"
 			drawcolor				"29 39 97 255"
 			scaleImage				1
 		}
@@ -633,7 +633,7 @@
 		wide					40
 		tall					o1	
 		font					"scoreboardmedium"
-		fgcolor_override			"NotoWhite"
+		fgcolor_override			"ItemAttribLevel"
 		labelText				"No ˁ"
 		textAlignment			west
 	}
@@ -665,7 +665,7 @@
 			"default"		"1"
 			
 		defaultFgColor_override		"black"
-		armedFgColor_override		"notowhite"
+		armedFgColor_override		"ItemAttribLevel"
 		
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
@@ -1463,63 +1463,7 @@
 
 				"ScrollableItemText"	{"wide"	"0"	}
 			}
-			
-			"2"
-			{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"5.0"
-				
-				"Background"
-				{
-					"wide"		"0"
-				}
 
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"quickplay"			// other classes pinned to this
-	{
-		zpos	"300"
-		ControlName				CExButton
-		fieldName				"quickplay"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"155"
-		"tall"							"16"
-		labelText				"Download BG"
-		"textAlignment"	"center"
-		font		"HudFontSmallishBold"
-		"actionsignallevel"		"2"
-		Command						"url https://github.com/Jofre-Problem/JofreHUD/wiki/giveawayitempanel"
-		//"engine open_replaybrowser"
-				pin_to_sibling 			"Console"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
-					"border_default"	"MM_BUTTON_BLANK"
-					"border_armed"		"MM_BUTTON_ADDITIVE"
-		paintbackground 			0
-			
-			
-	}	
-		
-			}
 	}	
 	}		             	
 	
@@ -1547,7 +1491,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 		defaultFgColor_override		"blank"
-		armedFgColor_override		"notowhite"
+		armedFgColor_override		"ItemAttribLevel"
 		"depressedFgColor_override" "redsolid"
 		"selectedFgColor_override"	"redsolid"		
 			"labelText"		"ʾ"
@@ -1846,7 +1790,7 @@
 				"tall"			"p1"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"	"255 255 255 0"
-				"linecolor"		"NotoBlueSolid"
+				"linecolor"		"ItemAttribPositive"
 				}				
 			}}	
 				"Test2"
@@ -2094,7 +2038,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2106,7 +2050,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine exec presets/low.cfg; exec +mastercomfig.cfg; echo works"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -2158,7 +2102,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2220,7 +2164,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2283,7 +2227,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2494,7 +2438,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2506,7 +2450,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 2;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=low"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -2558,7 +2502,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2621,7 +2565,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2684,7 +2628,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2869,7 +2813,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2881,7 +2825,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin 999999;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo light"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -2933,7 +2877,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -2996,7 +2940,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3059,7 +3003,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3122,7 +3066,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3316,7 +3260,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3328,7 +3272,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -3380,7 +3324,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3443,7 +3387,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3627,7 +3571,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3639,7 +3583,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 0;r_rimlight 0;alias phong_level echo phong=off"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -3691,7 +3635,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3754,7 +3698,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3942,7 +3886,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -3954,7 +3898,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 0;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support sha_fla_support_aliases;alias shadows_level echo shadows=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -4006,7 +3950,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4069,7 +4013,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4132,7 +4076,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4195,7 +4139,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4351,7 +4295,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4363,7 +4307,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 2;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=very_low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -4415,7 +4359,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4478,7 +4422,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4541,7 +4485,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4604,7 +4548,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4786,7 +4730,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4798,7 +4742,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 0;alias tracers_level echo tracers=low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -4850,7 +4794,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -4912,7 +4856,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5070,7 +5014,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Water: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5082,7 +5026,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_WaterDrawReflection 0;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 0;tf_water_resolution 32;cheap_water_full;alias cheap_water_override cheap_water_full;alias water_level echo water=very_low; r_cheapwaterstart 0;r_cheapwaterend .1"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -5134,7 +5078,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Water: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5197,7 +5141,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Water: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5260,7 +5204,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Water: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5323,7 +5267,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Water: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5488,7 +5432,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5500,7 +5444,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_hdr_level 0;mat_colorcorrection 0;mat_colcorrection_disableentities 1;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar 1;r_shader_srgb 0;alias post_processing_level echo post_processing=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -5552,7 +5496,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5615,7 +5559,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Default"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5678,7 +5622,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Calm"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5740,7 +5684,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Vivid"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5803,7 +5747,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Washed"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -5868,7 +5812,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Dreamy"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6038,7 +5982,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6050,7 +5994,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -6102,7 +6046,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6164,7 +6108,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6228,7 +6172,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6397,7 +6341,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6409,7 +6353,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_flex 0;flex_rules 0;anim_3wayblend 0;r_teeth 0;flex_smooth 0;r_eyes 0;r_eyemove 0;tf_clientsideeye_lookats 0;blink_duration 0;phonemefilter 1;phonemedelay -30;phonemesnap 0;alias characters_level echo characters=very_low"
                                  "sound_depressed"                         "ui/buttonclick.wav"
@@ -6460,7 +6404,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Characters: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6521,7 +6465,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6585,7 +6529,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Characters: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6767,7 +6711,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6779,7 +6723,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_decals 1;mp_decals 1;r_decal_cover_count 10;r_decal_overlap_area 1.1;r_decal_overlap_count 10;r_drawbatchdecals 0;alias decals_sprays_support decals_sprays_support_aliases;alias decals_level echo decals=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -6831,7 +6775,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Decals: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6894,7 +6838,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -6957,7 +6901,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7020,7 +6964,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Decals: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7201,7 +7145,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7213,7 +7157,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_drawmodeldecals 0;alias decals_models_level echo decals_models=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -7265,7 +7209,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Decals Models: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7327,7 +7271,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Decals Models: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7390,7 +7334,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Decals Models: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7549,7 +7493,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7561,7 +7505,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_allowdownload 0;cl_allowupload 0;r_spray_lifetime 0;cl_spraydisable 1;tf_delete_temp_files 1;tf_hide_custom_decals 1;alias sprays_level echo sprays=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -7613,7 +7557,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7674,7 +7618,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Sprays: KEEP ALL"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7865,7 +7809,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -7877,7 +7821,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine violence_hgibs 1;violence_hblood 1;violence_agibs 1;violence_ablood 1;alias sillygibs_level echo sillygibs=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -7929,7 +7873,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Silly Gibs: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8089,7 +8033,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8101,7 +8045,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_burninggibs 0;tf_playergib 0;props_break_max_pieces 0;sillygibs_on;sillygibs;alias gibs_level echo gibs=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -8153,7 +8097,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8214,7 +8158,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Gibs: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8367,7 +8311,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8379,7 +8323,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_decalstaticprops 0;cl_phys_props_enable 0;r_propsmaxdist 0;lod_TransitionDist -1;detail_props_none;alias detail_props_override detail_props_none;alias props_level echo props=low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -8431,7 +8375,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8492,7 +8436,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Props: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8658,7 +8602,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8670,7 +8614,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_ragdoll_fade_time -1;cl_ragdoll_forcefade 1;cl_ragdoll_physics_enable 0;cl_ragdoll_collide 0;ragdoll_sleepaftertime 0;alias ragdolls_level echo ragdolls=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -8722,7 +8666,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8783,7 +8727,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Ragdoll: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8944,7 +8888,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -8956,7 +8900,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_jiggle_bone_framerate_cutoff 0;alias jigglebones_level echo jigglesbones=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -9008,7 +8952,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9069,7 +9013,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Jigglebones: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9188,7 +9132,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9200,7 +9144,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip 2;alias texture_quality_level echo texture_quality=low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -9252,7 +9196,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9313,7 +9257,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9374,7 +9318,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Very High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9435,7 +9379,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Texture: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9898,7 +9842,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -9910,7 +9854,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine exec presets/low.cfg; exec +mastercomfig.cfg; echo works"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -9962,7 +9906,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10024,7 +9968,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10087,7 +10031,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Presets: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10298,7 +10242,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10310,7 +10254,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 2;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=low"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -10362,7 +10306,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Graphics Model Quality: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10425,7 +10369,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10488,7 +10432,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Graphics Model Quality: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10673,7 +10617,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10685,7 +10629,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin 999999;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo light"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -10737,7 +10681,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Lighting: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10800,7 +10744,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10863,7 +10807,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -10926,7 +10870,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Lighting: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11120,7 +11064,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11132,7 +11076,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -11184,7 +11128,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11247,7 +11191,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shading: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11431,7 +11375,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11443,7 +11387,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 0;r_rimlight 0;alias phong_level echo phong=off"                        
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -11495,7 +11439,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Phong Shading: ON"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11558,7 +11502,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                          "Phong Shading: Rim"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11746,7 +11690,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shadows: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11758,7 +11702,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 0;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support sha_fla_support_aliases;alias shadows_level echo shadows=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -11810,7 +11754,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Shadows: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11873,7 +11817,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Shadows: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11936,7 +11880,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Shadows: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -11999,7 +11943,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Shadows: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12155,7 +12099,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Effects: Very Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12167,7 +12111,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 2;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=very_low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -12219,7 +12163,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Effects: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12282,7 +12226,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Effects: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12345,7 +12289,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Effects: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12408,7 +12352,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                        "Effects: Ultra"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12590,7 +12534,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Tracers: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12602,7 +12546,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 0;alias tracers_level echo tracers=low"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -12654,7 +12598,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                            "Tracers: Medium"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12716,7 +12660,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                      "Tracers: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12847,7 +12791,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Crouch Jump (Spacebar)"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12859,7 +12803,7 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine bind space +crouchjump"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -12890,7 +12834,7 @@
                              textAlignment "center"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            "ɡ"
                                 "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
@@ -12945,7 +12889,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Crouch Jump (Spacebar)"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -12957,7 +12901,7 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine bind space +crouchjump"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -12988,7 +12932,7 @@
                              textAlignment "center"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            "ɡ"
                                 "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
@@ -13149,7 +13093,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13161,7 +13105,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -13213,7 +13157,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13275,7 +13219,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13339,7 +13283,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13513,7 +13457,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: OFF"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13525,7 +13469,7 @@
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
 							     "sound_depressed"                         "ui/buttonclick.wav"
@@ -13577,7 +13521,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Motion Blur: Refract"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13639,7 +13583,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13703,7 +13647,7 @@
                                 "mouseinputenabled"                            "0"
                             "labeltext"                       "Motion Blur: High"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
          
                             }
                             "profilebutton" {
@@ -13934,7 +13878,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -13956,7 +13900,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -13978,7 +13922,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14000,7 +13944,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14022,7 +13966,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14044,7 +13988,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14066,7 +14010,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14088,7 +14032,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14110,7 +14054,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14132,7 +14076,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14154,7 +14098,7 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
 			
@@ -14178,8 +14122,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "black"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"Preload!!!"
@@ -14200,8 +14144,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"TrWalkway H1"
@@ -14222,8 +14166,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"TrWalkway OG"
@@ -14244,8 +14188,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"Tr_newbots"
@@ -14266,8 +14210,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"Tr Rocket Shooting"
@@ -14288,8 +14232,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"Tr Demo Aim"
@@ -14310,8 +14254,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"Tr Bunny Hop"
@@ -14332,8 +14276,8 @@
 					"actionsignallevel"		"4"
 					paintbackground 			1
 					"defaultbgcolor_override" "notodark"
-					"defaultfgcolor_override" "Notowhite"
-					"armedbgcolor_override" "NotoGreen"
+					"defaultfgcolor_override" "ItemAttribLevel"
+					"armedbgcolor_override" "greensolid"
 
 			
 					labelText				"ItemTest"
@@ -14388,9 +14332,9 @@
 				"border" "noborder"
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
-				"defaultfgcolor_override" "notogreen"
+				"defaultfgcolor_override" "greensolid"
 				"armedbgcolor_override" "0 0 0 220"
-				"armedfgcolor_override" "notogreen"
+				"armedfgcolor_override" "greensolid"
 			}
 			"RandomImagePanel"
 			{
@@ -14530,7 +14474,7 @@
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"0"
-						"border"					"FLAT_Black_2"
+						"border"					"StoreFreeTrialBorder"
 					}		
 		"l4d2pic1"
 			{
@@ -14609,12 +14553,12 @@
 
 						"sound_depressed"		"UI/buttonclick.wav"
 						"sound_released"		"UI/buttonclickrelease.wav"
-						"border_default"				"FLAT_Black_2"
-						"border_armed"					"FLAT_Black_4"
+						"border_default"				"StoreFreeTrialBorder"
+						"border_armed"					"GrayDialogBorder"
 						"paintbackground"		"0"
 						"bgcolor_override" "0 0 0 120"
 						"defaultFgColor_override"		"White"
-						"armedFgColor_override"		"MainTheme"
+						"armedFgColor_override"		"black"
 					}
 		}
 
@@ -14668,9 +14612,9 @@
 
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
-				"defaultfgcolor_override" "notogreen"
+				"defaultfgcolor_override" "greensolid"
 				"armedbgcolor_override" "0 0 0 220"
-				"armedfgcolor_override" "notogreen"
+				"armedfgcolor_override" "greensolid"
 			}
 			"RandomPinnerThatWorks" //leftover
 			{
@@ -14712,7 +14656,7 @@
 					"actionsignallevel"		"3"
 					paintbackground 			1
 					"defaultbgcolor_override" "blank"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "0 0 0 100"
                     depressedbgcolor_override "0 0 0 150"
                     pin_to_sibling "album1"
@@ -14734,7 +14678,7 @@
 					"actionsignallevel"		"3"
 					paintbackground 			1
 					"defaultbgcolor_override" "blank"
-					"defaultfgcolor_override" "Notowhite"
+					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "0 0 0 100"
                     depressedbgcolor_override "0 0 0 150"
                     pin_to_sibling "album2"
@@ -14808,9 +14752,9 @@
 				"border" "noborder"
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
-				"defaultfgcolor_override" "notogreen"
+				"defaultfgcolor_override" "greensolid"
 				"armedbgcolor_override" "0 0 0 220"
-				"armedfgcolor_override" "notogreen"
+				"armedfgcolor_override" "greensolid"
 			}
 	
 			"RandomPinnerThatWorks" //leftover

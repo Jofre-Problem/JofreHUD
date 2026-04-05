@@ -134,7 +134,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Size_Normal_Image"
 						{
@@ -216,7 +216,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Size_Normal_Image"
 						{
@@ -298,7 +298,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Size_Normal_Image"
 						{
@@ -459,7 +459,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -542,7 +542,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -625,7 +625,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -708,7 +708,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -791,7 +791,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -874,7 +874,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -957,7 +957,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Style_Button"
 						{
@@ -999,7 +999,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Health_Percent"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1081,7 +1081,7 @@
 							"FGColor"					"TanLight"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}						
 						"Health_Warning_Label"
 						{
@@ -1103,7 +1103,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Warning_Button"
 						{
@@ -1186,7 +1186,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Warning_Label2"
 						{
@@ -1208,7 +1208,7 @@
 							"FGColor"					"TanLight"
 							"PaintBackground"			"0"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}								
 						"Health_Warning_Button"
 						{
@@ -1250,7 +1250,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Health_Fullscreen"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1336,7 +1336,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1437,7 +1437,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1479,7 +1479,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Health_Gain"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1565,7 +1565,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Gain_Button"
 						{
@@ -1648,7 +1648,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Gain_Button"
 						{
@@ -1730,7 +1730,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Health_Gain_Button"
 						{
@@ -1837,7 +1837,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Health_TargetID_Settings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1933,7 +1933,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"FontStorePrice"
 						"LabelText"						"#HudCustomization_Health_Numbers"
 						"TextAlignment"					"west"
@@ -1976,7 +1976,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallest"
 						"LabelText"						"#HudCustomization_Health_TargetID_Spec"
 						"TextAlignment"					"west"
@@ -1999,7 +1999,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Default"
 						"TextAlignment"					"center"
@@ -2024,7 +2024,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Health_TID_Setting1"
 						"TextAlignment"					"center"
@@ -2049,7 +2049,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Health_Style1"
 						"TextAlignment"					"center"
@@ -2074,7 +2074,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Health_TID_Setting2"
 						"TextAlignment"					"center"
@@ -2119,7 +2119,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallest"
 						"LabelText"						"#HudCustomization_Health_TeamBar"
 						"TextAlignment"					"west"

@@ -175,7 +175,7 @@
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
 			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"Background_Main"
+			"DefaultBGColor_Override"					"whattimeis1"
 			"ArmedBGColor_Override"						"Button_Hover"
 			"DepressedBGColor_Override"					"Button_Hover"
 
@@ -200,7 +200,7 @@
 			"ProportionalToParent"						"1"
 			"PaintBackground"							"1"
 			"PaintBackgroundType"						"0"
-			"BGcolor_Override"							"Background_Darkest"
+			"BGcolor_Override"							"TanDarker"
 
 			"Title"
 			{

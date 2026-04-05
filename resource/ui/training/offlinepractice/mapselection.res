@@ -72,7 +72,7 @@
 		"border_default"		"noborder"
 		
 		// armed style
-		"armedBgColor_override"	"NotoGreen"
+		"armedBgColor_override"	"greensolid"
 		"armedFgColor_override" 	"NotoBlack"
 		"border_armed"		"noborder"
 		
@@ -109,7 +109,7 @@
 		"border_default"		"noborder"
 		
 		// armed style
-		"armedBgColor_override"	"NotoGreen"
+		"armedBgColor_override"	"greensolid"
 		"armedFgColor_override" 	"NotoBlack"
 		"border_armed"		"noborder"
 		
@@ -155,7 +155,7 @@
 		"enabled"		"1"
 		
 		"fgcolor_override"	"NotoBlack"
-		"bgcolor_override"	"NotoWhite"
+		"bgcolor_override"	"ItemAttribLevel"
 		"border"		"NoBorder"
 	}
 	
@@ -188,7 +188,7 @@
 		"border_default"		"noborder"
 		
 		// armed style
-		"armedBgColor_override"	"NotoGreen"
+		"armedBgColor_override"	"greensolid"
 		"armedFgColor_override" 	"NotoBlack"
 		"border_armed"		"noborder"
 		

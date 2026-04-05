@@ -26,6 +26,6 @@
 		"zpos"			"12"
 		"wide"			"500"
 		"tall"			"13"
-		"fgcolor"		"Notowhite"
+		"fgcolor"		"ItemAttribLevel"
 	}
 }

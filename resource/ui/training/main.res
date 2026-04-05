@@ -65,17 +65,17 @@
 			"paintbackground"	"1"
 		
 			// default style
-			"defaultBgColor_override"	"NotoWhite"
+			"defaultBgColor_override"	"ItemAttribLevel"
 			"defaultFgColor_override" "whattimeis1"
 			"border_default"		"noborder"
 			
 			// armed style
-			"armedBgColor_override"	"NotoWhite"
+			"armedBgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override" 	"NotoBlack"
 			"border_armed"		"noborder"
 		
 			// depressed style    
-			"depressedBgColor_override"	"NotoWhite"
+			"depressedBgColor_override"	"ItemAttribLevel"
 			"depressedFgColor_override" "NotoBlack"
 		}	
 		

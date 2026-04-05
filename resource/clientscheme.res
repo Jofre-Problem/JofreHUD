@@ -7,28 +7,21 @@ Scheme
 	}		
 	Colors
 	{	
-		"Warning"			"255 160 64 255"
 		"whattimeis1"		"30 30 30 255"
 		"Tanlight"			"255 255 255 255"	
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
-		"ItemAttribPositive"								"150 200 255 255"
+		"ItemAttribPositive"								"70 130 180 255"
 		"ItemAttribNegative"					"255 64 64 255"		
 		// halloween spells label
-		"ItemSetItemMissing"								"255 38 176 255"		
-		"NotoWhite"			"220 220 220 255"
-		"NotoBlue"			"70 130 180 125"
+		"ItemSetItemMissing"								"255 38 176 255"
 		"NotoRed"			"205 50 50 153"
-		"NotoBlueSolid"		"70 130 180 255"
-		"NotoRedSolid"		"205 50 50 255"
 		"NotoDark"			"32 32 32 255"
-		"NotoGreen"	"90 180 0 255"
-		"Notowhite"			"220 220 220 255"
+		"greensolid"	"90 180 0 255"
 		"NotoBlack"			"24 24 24 255"
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
-		"Background_Main"									"46 43 42 255"
-		"Background_Darkest"								"18 15 14 255"
+
 		"Button_Bright"										"66 63 61 255"
 		"Button_Dark"										"28 26 25 255"
 		"Button_Hover"										"104 101 100 255"
@@ -43,7 +36,7 @@ Scheme
 		// ITEM QUALITY COLORS
 		//=============================================================================
 
-		"Normal"											"50 50 50 255"
+		"Normal"											"32 32 32 255"
 		"Genuine"											"115 215 140 255"
 		"Unusual"											"215 145 255 255"
 		"Vintage"											"110 165 255 255"
@@ -103,7 +96,7 @@ Scheme
 		"HUDRedTeam"										"255 61 61 255"
 		"HUDSpectator"										"227 228 230 255"
 		"HUDBlueTeamSolid"									"92 173 255 255"
-		"HUDRedTeamSolid"									"255 61 61 255"
+		"HUDRedTeamSolid"									"205 50 50 255"
 		"HUDDeathWarning"									"255 61 61 255"
 		"HudWhite"											"227 228 230 255"
 		"HudOffWhite"										"227 228 230 255"
@@ -145,8 +138,6 @@ Scheme
 		"HealthBgGrey"										"60 60 60 255"
 
 		"ProgressOffWhiteTransparent"						"227 228 230 255"
-
-		"LabelDark"											"0 0 0 255"
 		"LabelTransparent"									"0 0 0 100"
 
 		"BuildMenuActive"									"227 228 230 255"
@@ -225,7 +216,7 @@ Scheme
 
 		"LightRed"											"255 61 61 255"
 		"LighterRed"										"255 61 61 255"
-		"LighterDarkBrown"									"60 60 60 255"
+
 		"DarkBrown"											"30 30 30 255"
 
 		"UpgradeDefaultFg"									"227 228 230 255"
@@ -235,16 +226,13 @@ Scheme
 		"UpgradeDepressedFg"								"60 60 60 255"
 		"UpgradeDepressedBg"								"80 150 255 255"
 		"UpgradeSelectedFg"									"60 60 60 255"
-		"UpgradeSelectedBg"									"80 150 255 255"
+		"UpgradeSelectedBg"									"70 130 180 255"
 		"UpgradeDisabledFg"									"60 60 60 255"
 
-		"Health"											"227 228 230 255"
-		"Low Health"										"255 50 65 255"	
+		"Health"											"227 228 230 255"	
 		"GrayDarkest"										"27 28 30 255"
-		"BlackLight"										"20 21 23 255"
 		"BlackDark"											"15 16 18 255"
 		"Black"												"0 0 0 255"
-		"TransparentBlack"									"0 0 0 150"
 
 		"TransparentGrayDarkest"							"27 28 30 200"
 		"TransparentWhite"									"227 228 230 150"		
@@ -256,13 +244,10 @@ Scheme
 		"WhiteGray"								"185 185 185 255"
 		"BlackSolid"							"0 0 0 255"
 		"BlackTransparent"						"0 0 0 150"
-		"BlackLightTransparent"					"0 0 0 50"
 		
 		"Gray"									"50 50 50 255"
 		"GrayMedium"							"130 130 130 255"
 		"GrayDark"								"100 100 100 255"
-		"BlueLight"								"150 200 220 255"
-		"RedLight"								"245 70 70 255"
 		
 		"OrangeLight"							"255 200 55 255"
 		
@@ -270,18 +255,7 @@ Scheme
 	}	
 	BaseSettings
 	{
-		ScrollBar.Wide					"7"
-		ScrollBarSlider.BgColor								"0 0 0 100"	
-		Slider.NobColor				"Notowhite"
-
-
-		"ListPanel.TextColor"								"Orange"
-		"ListPanel.BgColor"									"TransparentBlack"
-		"ListPanel.SelectedTextColor"						"Black"
-		"ListPanel.SelectedBgColor"							"Red"
-		"ListPanel.SelectedOutOfFocusBgColor"				"Red"
-		"ListPanel.EmptyListInfoTextColor"					"Orange"
-
+		Slider.NobColor				"ItemAttribLevel"
 
 		"Chat.TypingText"									"Orange"
 
@@ -338,16 +312,16 @@ Scheme
 
 		"MenuBoxBg"											"73 65 65 220"
 		ReplayBrowser.BgColor								"DarkBrown"
-		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"NotoBlueSolid"
-		ReplayBrowser.Button.ArmedBgColor					"NotoBlueSolid"
-		ReplayBrowser.Button.DepressedBgColor				"NotoBlueSolid"
-		ReplayBrowser.CollectionTitle.FgColor				"NotoBlueSolid"
-		ReplayBrowser.Warning.FgColor						"NotoWhite"
+		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"ItemAttribPositive"
+		ReplayBrowser.Button.ArmedBgColor					"ItemAttribPositive"
+		ReplayBrowser.Button.DepressedBgColor				"ItemAttribPositive"
+		ReplayBrowser.CollectionTitle.FgColor				"ItemAttribPositive"
+		ReplayBrowser.Warning.FgColor						"ItemAttribLevel"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"HUDSpectator"
 		ReplayBrowser.Search.BgColor						"TanDark"
-		ReplayBrowser.Search.FgColor						"NotoWhite"
+		ReplayBrowser.Search.FgColor						"ItemAttribLevel"
 
-		Replay.RenderDialog.BgColor							"LighterDarkBrown"
+		Replay.RenderDialog.BgColor							"UpgradeDefaultBg"
 
 		Econ.Dialog.BgColor									"Blank"
 		Econ.Button.BgColor									"Blank"
@@ -362,10 +336,7 @@ Scheme
 		Econ.Button.PresetDefaultColorBg					"TFOrange"
 		Econ.Button.PresetArmedColorBg						"TFOrange"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
-		ComboBoxButton.ArrowColor		"220 220 220 255"
-		ComboBoxButton.ArmedArrowColor	"220 220 220 255"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+
 		"ItemColor"											"255 167 42 200"
 		"MenuColor"											"White"
 		"SelectionNumberFg"									"White"
@@ -409,11 +380,11 @@ Scheme
 		}			
 		"HudHintText"
 		{
-			"1" { "name" "mono" "tall" "11" "yres" "480 599" "antialias" "1" }
-			"2" { "name" "mono" "tall" "11" "yres" "600 767" "antialias" "1" }
-			"3" { "name" "mono" "tall" "13" "yres" "768 1023" "antialias" "1" }
-			"4" { "name" "mono" "tall" "19" "yres" "1024 1199" "antialias" "1" }
-			"5" { "name"  "mono" "tall" "9" "antialias" "1" }
+			"1" { "name" "hwnjofre1" "tall" "11" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "hwnjofre1" "tall" "11" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "hwnjofre1" "tall" "13" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "hwnjofre1" "tall" "19" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name"  "hwnjofre1" "tall" "9" "antialias" "1" }
 		}
 		"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{
@@ -499,13 +470,13 @@ Scheme
 			{
 				"name"	"productsansbold"
 				"tall"	"12"
-				"range"	"0x0000 0x00FF"
+				
 			}
 			"7"
 			{
 				"name"	"productsansbold"
 				"tall"	"12"
-				"range"	"0x0000 0x00FF"
+				
 			}
 		}
 
@@ -603,18 +574,6 @@ Scheme
 				"antialias" "1"
 			}
 		}		
-		"Size 24 Damage"
-		{
-			"1"
-			{
-				"name"	"OpenSansExtraboldUber"
-				"tall" "24"	[$WINDOWS]
-				"tall"	"20"	[$LINUX]
-				//
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
 		"Size 16 Uber"
 		{
 			"1"
@@ -1016,16 +975,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"DamagetextHealsShadow"
-		{
-			"1"
-			{
-				"name" "Open Sans NodashHeals"
-				"tall" "26"
-				"antialias"	"1"
-				"blur" "2"
-			}
-		}
 		"1HealthPusherFont"
 		{
 			"1"
@@ -1417,7 +1366,7 @@ Scheme
 				"tall"	"20"
 				
 				"symbol"	"1"
-				"range"	"0x0000 0x007F"
+				
 			}
 		}
 		"MarlettSmall"
@@ -1428,7 +1377,7 @@ Scheme
 				"tall"	"14"
 				
 				"symbol"	"1"
-				"range"	"0x0000 0x007F"
+				
 			}
 		}
 		"MenuMainTitle"
@@ -1482,7 +1431,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"14"
 				
-				"range"	"0x0000 0x007F"
+				
 				"antialias"	"1"
 				
 			}
@@ -1494,7 +1443,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"20"
 				
-				"range"	"0x0000 0x007F"
+				
 				"antialias"	"1"
 				
 			}
@@ -1506,7 +1455,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"20"
 				
-				"range"	"0x0000 0x007F"
+				
 				"antialias"	"1"
 				
 			}
@@ -1517,7 +1466,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"52"
-				"range"	"0x0000 0x00FF"
+				
 				
 				"yres"	"1 599"
 				"antialias"	"1"
@@ -1526,7 +1475,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"72"
-				"range"	"0x0000 0x00FF"
+				
 				
 				"yres"	"600 767"
 				"antialias"	"1"
@@ -1535,7 +1484,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"100"
-				"range"	"0x0000 0x00FF"
+				
 				
 				"yres"	"768 1023"
 				"antialias"	"1"
@@ -1544,7 +1493,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"140"
-				"range"	"0x0000 0x00FF"
+				
 				
 				"yres"	"1024 1199"
 				"antialias"	"1"
@@ -1553,7 +1502,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"180"
-				"range"	"0x0000 0x00FF"
+				
 				
 				"yres"	"1200 6000"
 				"antialias"	"1"
@@ -1566,7 +1515,7 @@ Scheme
 				"name"	"hwnjofre1"
 				"tall"	"36"
 				
-				"range"	"0x0000 0x007F"
+				
 				"antialias"	"1"
 				
 			}
@@ -1611,7 +1560,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				"range"	"0x0000 0x00FF"
+				
 				////"weight"	"300"
 				"antialias"	"1"
 			}
@@ -1623,7 +1572,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"14"
-				"range"	"0x0000 0x00FF"
+				
 				////"weight"	"300"
 				"antialias"	"1"
 			}
@@ -2123,23 +2072,23 @@ Scheme
 			"draw_corner_height" 	"0"	
 		}
 	
-		"FLAT_Black_2"
+		"StoreFreeTrialBorder"
 		{
 			"bordertype"				"scalable_image"
 			"background_type"			"0"
 			"color"						"Black"
-			"image"						"replay/thumbnails/panels/FLAT_2"
+			"image"						"replay/thumbnails/panels/black"
 			"src_corner_width"			"12"
 			"src_corner_height"			"12"
 			"draw_corner_width"			"2"
 			"draw_corner_height"		"2"
 		}
-		"FLAT_Black_4"
+		"GrayDialogBorder"
 		{
 			"bordertype"				"scalable_image"
 			"background_type"			"0"
 			"color"						"Black"
-			"image"						"replay/thumbnails/panels/FLAT_4"
+			"image"						"replay/thumbnails/panels/black2"
 			"src_corner_width"			"12"
 			"src_corner_height"			"12"
 			"draw_corner_width"			"2"
@@ -2405,28 +2354,18 @@ Scheme
 			}
 		}
 
-		GrayDialogBorder
-		{
-			"bordertype"		"scalable_image"
-			"color"		"NotoBlack"
-			"offset" 				"0 0"
-
-			  "image"                     "replay/thumbnails/noto_black"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
 		StoreFreeTrialBorder
 		{
-			"bordertype"		"scalable_image"
-
-			"image"		"loadout_rect_red"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+		
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Black"
+			"image"						"replay/thumbnails/panels/black"
+			"src_corner_width"			"12"
+			"src_corner_height"			"12"
+			"draw_corner_width"			"2"
+			"draw_corner_height"		"2"
+		
 		}
 
         "EconItemBorder"
@@ -4269,8 +4208,9 @@ Scheme
 			{
 				"bordertype"			"scalable_image"
 				"backgroundtype"		"2"
+				"color"					"white"
 				
-				"image"					"replay/thumbnails/white"
+				"image"					"white"
 				"src_corner_height"		"24"				// pixels inside the image
 				"src_corner_width"		"24"
 				"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -4585,178 +4525,6 @@ Scheme
 	}
 	CustomFontFiles
 	{
-		"monono"
-		{
-			"font" "fonts/mono.otf"
-			"name" "mono"
-      		"arabic"
-            {
-                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
-            }
-
-            "brazilian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "bulgarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "czech"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "danish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "dutch"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "english"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "finnish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "french"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "german"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "greek"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hungarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "italian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "japanese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "latvian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "lithuanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "norwegian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "pirate"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "polish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "portuguese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "romanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "russian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "schinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "slovak"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "spanish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "swedish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "tchinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "thai"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "turkish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "ukrainian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }		           
-		}	
-
-
-	
 		"uber2"
 		{
 			"font" "fonts/OpenSansUber.ttf" 

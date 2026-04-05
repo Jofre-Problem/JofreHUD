@@ -257,13 +257,13 @@
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 		"defaultBgColor_override" 	"NotoBlack"
-		"armedBgColor_override"		"Notowhite"
+		"armedBgColor_override"		"ItemAttribLevel"
 		"depressedBgColor_override" "0 0 0 0"
-		"selectedBgColor_override" 	"NotoBlueSolid"
+		"selectedBgColor_override" 	"ItemAttribPositive"
 		
-		"defaultFgColor_override" 	"NotoWhite"
+		"defaultFgColor_override" 	"ItemAttribLevel"
 		"armedFgColor_override"		"NotoBlack"
-		"depressedFgColor_override" "NotoWhite"
+		"depressedFgColor_override" "ItemAttribLevel"
 		"selectedFgColor_override" 	"NotoBlack"		
 		paintbackground			1
 		
@@ -294,13 +294,13 @@
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
 		"defaultBgColor_override" 	"NotoBlack"
-		"armedBgColor_override"		"Notowhite"
+		"armedBgColor_override"		"ItemAttribLevel"
 		"depressedBgColor_override" "0 0 0 0"
-		"selectedBgColor_override" 	"NotoBlueSolid"
+		"selectedBgColor_override" 	"ItemAttribPositive"
 		
-		"defaultFgColor_override" 	"NotoWhite"
+		"defaultFgColor_override" 	"ItemAttribLevel"
 		"armedFgColor_override"		"NotoBlack"
-		"depressedFgColor_override" "NotoWhite"
+		"depressedFgColor_override" "ItemAttribLevel"
 		"selectedFgColor_override" 	"NotoBlack"		
 		paintbackground			1
 		

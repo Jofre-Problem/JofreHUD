@@ -45,7 +45,7 @@
 			"HealthDeathWarning"	"1"
 			"TFFont"		"HudFontSmallishBold"
 			"textAlignment"		"center"
-			"HealthDeathWarningColor"	"Low Health"
+			"HealthDeathWarningColor"	"Red"
 			"TextColor"		"GrayDarkest"
 			"proportionaltoparent"		"1"
 		}

@@ -119,7 +119,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Killstreak_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -214,7 +214,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -296,7 +296,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -378,7 +378,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -432,7 +432,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Killstreak_Notices"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -527,7 +527,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -609,7 +609,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{

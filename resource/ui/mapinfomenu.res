@@ -170,7 +170,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "NotoBlueSolid"
+		"armedFgColor_override" "ItemAttribPositive"
 		"depressedFgColor_override" "White"
 	}
 	"MapInfoBack2" 
@@ -190,7 +190,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "NotoBlueSolid"
+		"armedFgColor_override" "ItemAttribPositive"
 		"depressedFgColor_override" "White"
 	}	
 	"MapInfoContinue"
@@ -219,33 +219,20 @@
 		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "NotoBlueSolid"
+		"armedFgColor_override" "ItemAttribPositive"
 		"depressedFgColor_override" "White"
 	}
 
 	"MapInfoBack" 
 	{
-		"ControlName"	"CTFButton"
+		"ControlName"	"panel"
 		"fieldName"		"MapInfoBack"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
-		//"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Back"
-		"textAlignment"	"center"
-		"command"		"back"
-		"border_default"	""
-		"border_armed"		""
 		"paintbackground"	"0"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"Blank"
-		"defaultFgColor_override" "Blank"
-		"armedFgColor_override" "Blank"
-		"depressedFgColor_override" "Blank"
 	}	
 	"MapImage"
 	{

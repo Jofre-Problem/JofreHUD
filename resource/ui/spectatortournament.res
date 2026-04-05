@@ -66,7 +66,7 @@
 				"enabled"			"1"
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"HudFontSmallishBold"
-				"HealthDeathWarningColor"	"Low Health"
+				"HealthDeathWarningColor"	"Red"
 				"TextColor"					"GrayDarkest"
 				"proportionaltoparent"		"1"
 

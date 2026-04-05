@@ -58,7 +58,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"font"		"HudFontSmall"
-			"fgcolor_override"		"notowhite"
+			"fgcolor_override"		"ItemAttribLevel"
 			"textAlignment"		"center"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"		"1"
@@ -73,7 +73,7 @@
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"notowhite"
+				"2"		"ItemAttribLevel"
 			}
 		}
 
@@ -109,7 +109,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"		"HudFontSmall"
-					"fgcolor_override"		"notowhite"
+					"fgcolor_override"		"ItemAttribLevel"
 					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"		"1"
@@ -129,7 +129,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"		"HudFontSmall"
-					"fgcolor_override"		"notowhite"
+					"fgcolor_override"		"ItemAttribLevel"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"
 					//"auto_wide_tocontents" "1"
@@ -186,7 +186,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"		"notoblue"
+						"fgcolor_override"		"UpgradeSelectedBg"
 						"bgcolor_override"		"16 16 16 100"
 
 						if_mini

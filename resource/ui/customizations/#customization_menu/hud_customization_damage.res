@@ -113,7 +113,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Damage_Numbers"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -191,7 +191,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -274,7 +274,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -357,7 +357,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Label2"
 						{
@@ -462,7 +462,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Label2"
 						{
@@ -567,7 +567,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Label2"
 						{
@@ -672,7 +672,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Label2"
 						{
@@ -748,7 +748,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Damage_Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -828,7 +828,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -914,7 +914,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -968,7 +968,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Damage_Settings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1086,7 +1086,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallest"
 						"LabelText"						"#HudCustomization_Damage_Window"
 						"TextAlignment"					"west"
@@ -1143,7 +1143,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Damage_LastDone"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1238,7 +1238,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1320,7 +1320,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1403,7 +1403,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1485,7 +1485,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1539,7 +1539,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Damage_Idicator"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1634,7 +1634,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1716,7 +1716,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{
@@ -1798,7 +1798,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Style_Button"
 						{

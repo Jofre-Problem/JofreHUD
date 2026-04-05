@@ -441,7 +441,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notoblue"
+					"armedbgColor_override"		"UpgradeSelectedBg"
 		pin_to_sibling 			"unusual"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -483,7 +483,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"NotoGreen"
+					"armedbgColor_override"		"greensolid"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1266,7 +1266,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notoblue"
+					"armedbgColor_override"		"UpgradeSelectedBg"
 		pin_to_sibling 			"unusual"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1308,7 +1308,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"NotoGreen"
+					"armedbgColor_override"		"greensolid"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2091,7 +2091,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notoblue"
+					"armedbgColor_override"		"UpgradeSelectedBg"
 		pin_to_sibling 			"unusual"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2133,7 +2133,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"NotoGreen"
+					"armedbgColor_override"		"greensolid"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2934,7 +2934,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notoblue"
+					"armedbgColor_override"		"UpgradeSelectedBg"
 		pin_to_sibling 			"unusual"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2976,7 +2976,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"NotoGreen"
+					"armedbgColor_override"		"greensolid"
 		pin_to_sibling 			"hot"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3752,7 +3752,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 				}	
@@ -3777,7 +3777,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3803,7 +3803,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3828,7 +3828,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem1"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -3856,7 +3856,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3882,7 +3882,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3907,7 +3907,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem2"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -3935,7 +3935,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3961,7 +3961,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -3987,7 +3987,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem3"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4014,7 +4014,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem3"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4042,7 +4042,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4068,7 +4068,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4093,7 +4093,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem4aaa"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4120,7 +4120,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem4aaa"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4148,7 +4148,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4174,7 +4174,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4199,7 +4199,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem5aaa"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4226,7 +4226,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"dreamitem5aaa"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4254,7 +4254,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4280,7 +4280,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4311,7 +4311,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 				}	
@@ -4336,7 +4336,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4362,7 +4362,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4387,7 +4387,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"2dreamitem1"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4415,7 +4415,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4441,7 +4441,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4483,7 +4483,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"2dreamitem2"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4511,7 +4511,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4537,7 +4537,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4562,7 +4562,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 		pin_to_sibling 			"2dreamitem3"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -4590,7 +4590,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			
@@ -4616,7 +4616,7 @@
 					"armedfgColor_override"		"249 249 249 255"
 					"depressedfgcolor_override" "0 0 0 160"
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"0 0 0 200"
+					"armedbgColor_override"		"TransparentBlack"
 					"depressedbgcolor_override" "0 0 0 160"
 				
 			

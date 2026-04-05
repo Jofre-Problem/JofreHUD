@@ -165,7 +165,7 @@
 		"wide"			"220"
 		"tall"			"16"
 		bgcolor_override "TransparentBlack"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 	}	
 	"BackShortKey"
 	{

@@ -299,7 +299,7 @@
 		"ypos"					"80"
 		"wide"					"p0.9"
 		"tall"					"20"
-		"border"				"FLAT_Black_4"
+		"border"				"GrayDialogBorder"
 	}
 
 	"StatPanel"

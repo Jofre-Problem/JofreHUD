@@ -111,7 +111,7 @@
 		"paintbackground"							"1"
 		"defaultbgcolor_override" "BlackDark"
 		"armedbgcolor_override" "BlackDark"	
-			"armedfgcolor_override" "NotoGreen"
+			"armedfgcolor_override" "greensolid"
 	}
 	"timebg"
 	{

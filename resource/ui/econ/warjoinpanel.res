@@ -626,7 +626,7 @@
 				"zpos"			"100"
 				"visible"		"0"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 200"
+				"bgcolor_override"	"TransparentBlack"
 
 				"BGFrame"
 				{

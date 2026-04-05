@@ -5,7 +5,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"notoBlue"
+		"fgcolor"		"UpgradeSelectedBg"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"

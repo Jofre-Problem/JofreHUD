@@ -17,7 +17,7 @@
 		"variable"		"progresscount"
 
 		"fgcolor_override"	"90 255 2 255"
-		"bgcolor_override" "0 0 0 200"
+		"bgcolor_override" "TransparentBlack"
 	//	"border"	"steamworkshopborder"
 	}	
 	"ItemEffectMeterImageC"

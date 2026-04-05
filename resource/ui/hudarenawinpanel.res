@@ -33,8 +33,8 @@
             "font"                      "EconFontMedium"
             "textalignment"             "center"
             "bgcolor_override"          "blue"
-            "fgcolor"                   "notowhite"
-            "fgcolor_override"          "notowhite"
+            "fgcolor"                   "ItemAttribLevel"
+            "fgcolor_override"          "ItemAttribLevel"
 			"labelText"		"%blueteamscore%"
         }
         "RedTeamScore"
@@ -47,8 +47,8 @@
             "font"                      "EconFontMedium"
             "textalignment"             "center"
             "bgcolor_override"          "red"
-            "fgcolor"                   "notowhite"
-            "fgcolor_override"          "notowhite"
+            "fgcolor"                   "ItemAttribLevel"
+            "fgcolor_override"          "ItemAttribLevel"
 			"labelText"		"%redteamscore%"
         }
 
@@ -113,7 +113,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
 			"font"			"ScoreboardTeamName"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"ItemAttribLevel"
 			"xpos"			"c-100"
 			"ypos"			"c-30"
 			"zpos"			"3"
@@ -164,7 +164,7 @@
 		"enabled"		"1"
 		"labelText"		"%LosingTeamLabel%"
 		"textAlignment"		"Center"
-		"fgcolor_override"	"NotoWhite"
+		"fgcolor_override"	"ItemAttribLevel"
 	}
 	"LosingTeamLabelDropshadow"
         {		"ControlName"		"panel"

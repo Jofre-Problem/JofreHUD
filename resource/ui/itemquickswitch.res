@@ -34,7 +34,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"ItemAttribLevel"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -177,7 +177,7 @@
 		"wide"			"325"
 		"tall"			"f0"
 		"PaintBackgroundType"	"3"
-		"fgcolor_override"	"notowhite"
+		"fgcolor_override"	"ItemAttribLevel"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
 									"ScrollBar"
@@ -194,7 +194,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"ItemAttribLevel"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -239,7 +239,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"ItemAttribLevel"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}

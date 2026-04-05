@@ -48,7 +48,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"ItemAttribLevel"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -243,7 +243,7 @@
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -285,7 +285,7 @@
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "ʏ"
 								textAlignment center
 								 "font"                      "itemfontnamelarge"
@@ -305,8 +305,8 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"notoredsolid"
-				"defaultbgcolor_override"			"notowhite"		
+								"defaultfgcolor_override"					"HUDRedTeamSolid"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "ʏ ы"
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
@@ -334,8 +334,8 @@
 		"proportionaltoparent"                            "1"
 		"actionsignallevel"		"9"
 		Command				"engine +STASTO"
-	"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+	"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}
 		"Stop"			// other classes pinned to this
@@ -352,9 +352,9 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recreset"
-		"border_default"	"FLAT_Black_4"
+		"border_default"	"GrayDialogBorder"
 		"proportionaltoparent"                            "1"
-		"border_armed"	"FLAT_Black_2"	
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}			
 		"statu"			// other classes pinned to this
@@ -372,7 +372,7 @@
 		"proportionaltoparent"                            "1"
 		"actionsignallevel"		"9"
 		Command				"engine ds_status"
-		defaultbgcolor_override "notowhite"
+		defaultbgcolor_override "ItemAttribLevel"
 		defaultfgcolor_override "Black"
 		paintbackground 			1
 	}	
@@ -391,8 +391,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +next"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}	
 		"Rec_prev_slot"			// other classes pinned to this
@@ -409,8 +409,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +prev"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}	
 		"Rec_Category_Funny"			// other classes pinned to this
@@ -427,8 +427,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatfun"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}
 		"Rec_Category_Random"			// other classes pinned to this
@@ -445,8 +445,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatrandom"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}			
 		"Rec_Category_casual"			// other classes pinned to this
@@ -463,8 +463,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcasual"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"Rec_Category_comp"			// other classes pinned to this
@@ -481,8 +481,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcomp"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"Rec_Category_comunidad"			// other classes pinned to this
@@ -499,8 +499,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatcommu"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"Rec_Category_vsh"			// other classes pinned to this
@@ -517,8 +517,8 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +reccatvsh"
-		"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+		"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}			
 		"Rec_CurrentMAP"			// other classes pinned to this
@@ -535,7 +535,7 @@
 		textAlignment			center
 		"actionsignallevel"		"9"
 		Command				"engine +recmapname"
-		"border_armed"	"FLAT_Black_2"	
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}				
 		"ScoutButton"			// other classes pinned to this
@@ -553,7 +553,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1scout"
 
-			"border_default"	"FLAT_Black_4"
+			"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}
@@ -572,7 +572,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1soldier"
 
-			"border_default"	"FLAT_Black_4"
+			"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}	
@@ -591,7 +591,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1pyro"
 
-			"border_default"	"FLAT_Black_4"
+			"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}		
@@ -610,7 +610,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1demo"
 
-				"border_default"	"FLAT_Black_4"
+				"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 
@@ -630,7 +630,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1heavy"
 
-			"border_default"	"FLAT_Black_4"
+			"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}	
@@ -649,7 +649,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1engi"
 
-			"border_default"	"FLAT_Black_4"
+			"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}			
@@ -668,7 +668,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1medic"
 
-				"border_default"	"FLAT_Black_4"
+				"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 
@@ -688,7 +688,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1sniper"
 
-				"border_default"	"FLAT_Black_4"
+				"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 
@@ -708,7 +708,7 @@
 		"actionsignallevel"		"9"
 		Command				"engine ds_dir demos/1spy"
 
-				"border_default"	"FLAT_Black_4"
+				"border_default"	"GrayDialogBorder"
 		"border_armed"	"l4d2"	
 		paintbackground 			0
 	}				
@@ -726,7 +726,7 @@
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Manually set Demos"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -746,8 +746,8 @@
                              "tall"                            "20"
                                 "proportionaltoparent"                            "1"
 							
-								"defaultfgcolor_override"					"notoredsolid"
-				"defaultbgcolor_override"			"notowhite"		
+								"defaultfgcolor_override"					"HUDRedTeamSolid"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "ALL demos automatically"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -814,7 +814,7 @@
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -844,8 +844,8 @@
 		"actionsignallevel"		"8"
 		Command				"engine echo lol" //+voicerecord"
 proportionaltoparent 1
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}	
 		"-voice"			// other classes pinned to this
@@ -863,8 +863,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		Command				"engine -voicerecord"
 	proportionaltoparent 1
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"-voiceloop"			// other classes pinned to this
@@ -883,8 +883,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		Command				"engine toggle voice_loopback"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}						
 					 }
@@ -943,7 +943,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -975,8 +975,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		Command				"engine stop;record null; stop"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}				
 		"Stuckspec"			// other classes pinned to this
@@ -995,8 +995,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		Command				"engine jointeam red; joinclass sniper"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"mvmfix"			// other classes pinned to this
@@ -1015,8 +1015,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		Command				"engine hud_reloadscheme"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}	
 					}
@@ -1074,7 +1074,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -1105,8 +1105,8 @@ proportionaltoparent 1
 		proportionaltoparent 1
 		Command				"engine next_map_vote 0"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}					
 		"vote12"			// other classes pinned to this
@@ -1125,8 +1125,8 @@ proportionaltoparent 1
 		proportionaltoparent 1
 		Command				"engine next_map_vote 0"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}		
 		"vote123"			// other classes pinned to this
@@ -1145,8 +1145,8 @@ proportionaltoparent 1
 		proportionaltoparent 1
 		Command				"engine next_map_vote 2"
 
-				"border_default"	"FLAT_Black_4"
-		"border_armed"	"FLAT_Black_2"	
+				"border_default"	"GrayDialogBorder"
+		"border_armed"	"StoreFreeTrialBorder"	
 		paintbackground 			0
 	}									
 			
@@ -1184,7 +1184,7 @@ proportionaltoparent 1
 				"actionsignallevel"		"3"
 				Command				"engine +con; +rechelp"
 				paintbackground 			0
-				"armedfgcolor_override" "NotoBlueSolid"
+				"armedfgcolor_override" "ItemAttribPositive"
 			}				
 
 
@@ -1230,7 +1230,7 @@ proportionaltoparent 1
 
 					"Slider"
 					{
-						"fgcolor_override"	"notowhite"
+						"fgcolor_override"	"ItemAttribLevel"
 						"alpha" "100"
 						"bgcolor_override"	"Blank"
 					}
@@ -1422,7 +1422,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -1458,7 +1458,7 @@ proportionaltoparent 1
                                 "mouseinputenabled"                            "0"
                             "labeltext"                           "Shading: Low"
                                 "font"                          "HudFontMediumSmallSecondary"
-                                "fgcolor_override"                              "notowhite"
+                                "fgcolor_override"                              "ItemAttribLevel"
 	visible 0
                             }
                             "profilebutton" {
@@ -1470,7 +1470,7 @@ proportionaltoparent 1
                              "tall"                            "f1"
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
-								defaultbgcolor_override "0 0 0 200"
+								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
 								visible 0
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
@@ -1495,7 +1495,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle voice_modenable"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1536,7 +1536,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 	}
 
 	"VoiceSlider"
@@ -1568,7 +1568,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle tf_contract_progress_show"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1610,7 +1610,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle cl_enable_text_chat"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1652,7 +1652,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notoWhite"
+		"fgcolor"		"ItemAttribLevel"
 	}
 	"TextChatSlider"
 	{
@@ -1682,7 +1682,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle cl_notifications_show_ingame"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1723,7 +1723,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 	}
 
 	"NotificationsSlider"
@@ -1755,7 +1755,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle closecaption"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1795,7 +1795,7 @@ proportionaltoparent 1
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	
 	}
@@ -1829,7 +1829,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle tf_use_match_hud"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1869,7 +1869,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1908,7 +1908,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle cl_hud_minmode"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1948,7 +1948,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle voice_loopback"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -1988,7 +1988,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle crosshair"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2032,7 +2032,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 
 	}
@@ -2065,7 +2065,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2110,7 +2110,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle hud_combattext_batching"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2152,7 +2152,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 
 	}
@@ -2185,7 +2185,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	
 	}
@@ -2220,7 +2220,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	}
 
@@ -2252,7 +2252,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	}
 
@@ -2285,7 +2285,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 
 	}
@@ -2319,7 +2319,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle tf_dingalingaling"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2361,7 +2361,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	}
 
@@ -2394,7 +2394,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 
 	}
@@ -2428,7 +2428,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	}
 
@@ -2460,7 +2460,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
@@ -2502,7 +2502,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	
 	}
@@ -2535,7 +2535,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 
 	}
 
@@ -2568,7 +2568,7 @@ proportionaltoparent 1
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"notowhite"
+		"fgcolor"		"ItemAttribLevel"
 	}
 
 	"KillSoundMaxSlider"
@@ -2657,7 +2657,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -2695,7 +2695,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Win"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2730,7 +2730,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Lose"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2764,7 +2764,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "I forgot to do the bookmark earlier..."
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2798,7 +2798,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "9"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Delete this demo! Waste of space."
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2870,7 +2870,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notoblue"			
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
 
                         
                     }
@@ -2910,7 +2910,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Pre-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2931,7 +2931,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "First-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2952,7 +2952,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Second-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2973,7 +2973,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Third-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -2994,7 +2994,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Fourth-Round"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3015,7 +3015,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "1k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3036,7 +3036,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "2k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3057,7 +3057,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "3k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3078,7 +3078,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "4k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3108,7 +3108,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "5k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3129,7 +3129,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "6k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3150,7 +3150,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "7k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3171,7 +3171,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "8k Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3193,7 +3193,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "9000 Damage"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3215,7 +3215,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notored"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Hiding"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3238,7 +3238,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Miracle Moment"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3259,7 +3259,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Stupid Moment"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3281,7 +3281,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Spectating Someone"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3302,7 +3302,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Spec Hale"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3324,7 +3324,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "I am Hale!"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3345,7 +3345,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "I'm Last One Alive"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3371,7 +3371,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "30min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3392,7 +3392,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "25min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3413,7 +3413,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "20min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3434,7 +3434,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "15min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3464,7 +3464,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "10min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3485,7 +3485,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "5min"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3506,7 +3506,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Last"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3527,7 +3527,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                           "wtf?"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3598,7 +3598,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notoblue"			
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
 
                         
                     }
@@ -3636,7 +3636,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "5.Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3659,7 +3659,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "10 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3682,7 +3682,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "15 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3705,7 +3705,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "20 Killstreak"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3730,7 +3730,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Dominating"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3753,7 +3753,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Killing_Spree"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3776,7 +3776,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "God-Like"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3799,7 +3799,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Monster-Kill"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -3910,7 +3910,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"			
+				"defaultbgcolor_override"			"ItemAttribLevel"			
 
                         
                     }
@@ -3989,7 +3989,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notoblue"			
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
 
                         
                     }
@@ -4029,7 +4029,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "█ [#1] MULTIMOD | Servilive | Comunidad Latinoamericana"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4096,7 +4096,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "skial.com | FREAK FORTRESS | NY ██"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4186,7 +4186,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "RU █ CHILLOUT.PW █ Freak Fortress"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4300,7 +4300,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress #1|"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4413,7 +4413,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "-[DISC-FF.com]- |24/7 Freak Fortress X10|"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4480,7 +4480,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "[MULTIMOD] WineWald | Freak Fortress 2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4547,7 +4547,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Versus Ponyville Reborn | Custom FF2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4614,7 +4614,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 							
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Big Bang Gamers | Freak Fortress 2"
 								textAlignment center
 								 "font"                      "FontCartPrice"
@@ -4691,7 +4691,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notoblue"			
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
 
                         
                     }
@@ -4730,7 +4730,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "Liquid.TF"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4801,7 +4801,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4824,7 +4824,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "skial.com | TRADE | US █████"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4847,7 +4847,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notowhite"		
+				"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
@@ -4965,7 +4965,7 @@ proportionaltoparent 1
 
 				"textAlignment"				"center"
 					"defaultfgcolor_override"					"notodark"
-				"defaultbgcolor_override"			"notoblue"			
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
 
                         
                     }
@@ -5004,7 +5004,7 @@ proportionaltoparent 1
                                 "proportionaltoparent"                            "1"
 								"actionsignallevel" "12"
 								"defaultfgcolor_override"					"notodark"
-								"defaultbgcolor_override"			"notowhite"		
+								"defaultbgcolor_override"			"ItemAttribLevel"		
                                 "labeltext"                            "SuperTest V-Script"
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"

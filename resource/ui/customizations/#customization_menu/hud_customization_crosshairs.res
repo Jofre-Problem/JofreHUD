@@ -18,7 +18,7 @@
 				"ProportionalToParent"					"1"
 				"PaintBackground"						"0"
 				"paintBackgroundType"					"0"
-				"BGColor_Override"						"Background_Darkest"
+				"BGColor_Override"						"TanDarker"
 
 				"Scrollbar"
 				{
@@ -113,7 +113,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -197,7 +197,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"XHair_Button"
 						{
@@ -300,7 +300,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Xhair_Button"
 						{
@@ -354,7 +354,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -409,9 +409,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 					}
 					"Crosshair_2"
 					{
@@ -442,9 +442,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -479,9 +479,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -516,9 +516,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_3"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -553,9 +553,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_4"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -590,9 +590,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_5"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -627,9 +627,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_6"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -664,9 +664,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_7"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -701,9 +701,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_8"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -738,9 +738,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_9"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -775,9 +775,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_10"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -812,9 +812,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_11"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -849,9 +849,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_12"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -886,9 +886,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_13"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -923,9 +923,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_14"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -960,9 +960,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_15"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -997,9 +997,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_16"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1034,9 +1034,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_17"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1071,9 +1071,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_18"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1108,9 +1108,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_19"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1145,9 +1145,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_20"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1182,9 +1182,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_21"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1219,9 +1219,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1256,9 +1256,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_23"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1293,9 +1293,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_24"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1330,9 +1330,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_25"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1367,9 +1367,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_26"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1404,9 +1404,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_27"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1441,9 +1441,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_28"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1478,9 +1478,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_29"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1515,9 +1515,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_30"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1552,9 +1552,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_31"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1589,9 +1589,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_32"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1626,9 +1626,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_33"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1663,9 +1663,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_34"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1700,9 +1700,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_35"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1737,9 +1737,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_36"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1774,9 +1774,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_37"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1811,9 +1811,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_38"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1848,9 +1848,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_39"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1885,9 +1885,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_40"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1922,9 +1922,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_41"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1959,9 +1959,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_42"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1996,9 +1996,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_43"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2033,9 +2033,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_23"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2070,9 +2070,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_45"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2107,9 +2107,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_46"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2144,9 +2144,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_47"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2181,9 +2181,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_48"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2218,9 +2218,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_49"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2255,9 +2255,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_50"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2292,9 +2292,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_51"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2329,9 +2329,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_52"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2366,9 +2366,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_53"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2403,9 +2403,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_54"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2440,9 +2440,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_55"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2477,9 +2477,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_56"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2514,9 +2514,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_57"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2551,9 +2551,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_58"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2588,9 +2588,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_59"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2625,9 +2625,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_60"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2662,9 +2662,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_61"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2699,9 +2699,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_62"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2736,9 +2736,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_63"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2773,9 +2773,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_64"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2810,9 +2810,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_65"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2847,9 +2847,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_45"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2884,9 +2884,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_67"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2921,9 +2921,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_68"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2958,9 +2958,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_69"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2995,9 +2995,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_70"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3032,9 +3032,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_71"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3069,9 +3069,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_72"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3106,9 +3106,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_73"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3143,9 +3143,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_74"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3180,9 +3180,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_75"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3217,9 +3217,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_76"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3254,9 +3254,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_77"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3291,9 +3291,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_78"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3328,9 +3328,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_79"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3365,9 +3365,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_80"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3402,9 +3402,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_81"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3439,9 +3439,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_82"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3476,9 +3476,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_83"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3513,9 +3513,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_84"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3550,9 +3550,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_85"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3587,9 +3587,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_86"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3624,9 +3624,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_87"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3659,7 +3659,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_Size"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -3714,9 +3714,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 					}
 					"Crosshair_Size_12"
 					{
@@ -3747,9 +3747,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_10"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3784,9 +3784,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_12"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3821,9 +3821,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_14"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3858,9 +3858,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_16"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3895,9 +3895,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_18"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3932,9 +3932,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_20"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -3969,9 +3969,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_22"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4006,9 +4006,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_24"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4043,9 +4043,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_26"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4080,9 +4080,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_28"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4117,9 +4117,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Crosshair_Size_30"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -4152,7 +4152,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_Edge"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -4190,7 +4190,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"C"
 						"Font"							"itemfontnamelarge"
 						"TextAlignment"					"center"
@@ -4258,7 +4258,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"XHair_Button"
 						{
@@ -4343,7 +4343,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Xhair_Button"
 						{
@@ -4428,7 +4428,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Xhair_Button"
 						{
@@ -4482,7 +4482,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_Pulse"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -4563,7 +4563,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Flash_Button"
 						{
@@ -4648,7 +4648,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Flash_Button"
 						{
@@ -4755,7 +4755,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_TF2_Visibility"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -4846,7 +4846,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallest"
 						"LabelText"						"#HudCustomization_Crosshair_TF2_Toggle"
 						"TextAlignment"					"west"
@@ -4882,7 +4882,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_TF2_Color"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -4922,7 +4922,7 @@
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"0"
 						"paintBackgroundtype"			"0"
-						"BGColor_override"				"Background_Darkest"
+						"BGColor_override"				"TanDarker"
 
 						"Setting_Slider"
 						{
@@ -4972,7 +4972,7 @@
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"0"
 						"paintBackgroundtype"			"0"
-						"BGColor_override"				"Background_Darkest"
+						"BGColor_override"				"TanDarker"
 
 						"Pin_To_Sibling"				"TF2_Crosshair_Color_Red"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5026,7 +5026,7 @@
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"0"
 						"paintBackgroundtype"			"0"
-						"BGColor_override"				"Background_Darkest"
+						"BGColor_override"				"TanDarker"
 
 						"Pin_To_Sibling"				"TF2_Crosshair_Color_Green"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -5092,7 +5092,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_TF2_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -5140,9 +5140,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5185,9 +5185,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5234,9 +5234,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5283,9 +5283,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5332,9 +5332,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5381,9 +5381,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5430,9 +5430,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5479,9 +5479,9 @@
 						"border_default"				"NoBorder"
 						"border_armed"					"BorderSelectionGray"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Image_DrawColor"				"255 255 255 255"
 						"Image_ArmedColor"				"255 255 255 255"
@@ -5532,7 +5532,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_TF2_Size"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -5572,7 +5572,7 @@
 						"ProportionalToParent"			"1"
 						"PaintBackground"				"0"
 						"paintBackgroundtype"			"0"
-						"BGColor_override"				"Background_Darkest"
+						"BGColor_override"				"TanDarker"
 
 						"Setting_Slider"
 						{
@@ -5672,7 +5672,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Hitmarker_Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -5753,7 +5753,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"XHair_Button"
 						{
@@ -5855,7 +5855,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"Background_Darkest"
+							"BGColor_Override"			"TanDarker"
 						}
 						"Xhair_Button"
 						{
@@ -5909,7 +5909,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Hitmarker_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -5964,9 +5964,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 					}
 					"Hitmarker_2"
 					{
@@ -5997,9 +5997,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6034,9 +6034,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6071,9 +6071,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_3"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6108,9 +6108,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_4"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6145,9 +6145,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_5"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6182,9 +6182,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_6"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6219,9 +6219,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_7"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6256,9 +6256,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_8"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6293,9 +6293,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_9"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6330,9 +6330,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_10"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6367,9 +6367,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6404,9 +6404,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_12"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6441,9 +6441,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_13"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6478,9 +6478,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_14"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6515,9 +6515,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_15"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6552,9 +6552,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_16"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6589,9 +6589,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_17"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6626,9 +6626,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_18"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6663,9 +6663,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_19"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6700,9 +6700,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_20"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6737,9 +6737,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_21"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6772,7 +6772,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Hitmarker_Size"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -6827,9 +6827,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 					}
 					"Hitmarker_Size_12"
 					{
@@ -6860,9 +6860,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_10"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6897,9 +6897,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_12"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6934,9 +6934,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_14"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -6971,9 +6971,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_16"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7008,9 +7008,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_18"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7045,9 +7045,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_20"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7082,9 +7082,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_22"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7119,9 +7119,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_24"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7156,9 +7156,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_26"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7193,9 +7193,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_28"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7230,9 +7230,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Background_Darkest"
-						"ArmedBGColor_Override"			"Background_Darkest"
-						"DepressedBGColor_Override"		"Background_Darkest"
+						"DefaultBGColor_Override"		"TanDarker"
+						"ArmedBGColor_Override"			"TanDarker"
+						"DepressedBGColor_Override"		"TanDarker"
 
 						"Pin_To_Sibling"				"Hitmarker_Size_30"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -7314,7 +7314,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_MC_Presets"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -7424,7 +7424,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"LabelText"						"#HudCustomization_Crosshair_MC_Info2"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -7459,7 +7459,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Crosshair_MC_Download1"
 						"TextAlignment"					"west"
@@ -7497,7 +7497,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						"AllCaps"						"1"
+						
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_Crosshair_MC_Download2"
 						"TextAlignment"					"west"

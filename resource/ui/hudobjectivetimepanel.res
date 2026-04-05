@@ -24,7 +24,7 @@
 		"textAlignment"		"center"
 		
 		"font"			"itemfontnamesmall"
-		"fgcolor_override"		"notoWhite"
+		"fgcolor_override"		"ItemAttribLevel"
 		"proportionaltoparent"		"1"
 	}
 
@@ -43,7 +43,7 @@
 		"textAlignment"		"center"
 		
 		"font"			"itemfontnamesmall"
-		"fgcolor_override"		"notoWhite"
+		"fgcolor_override"		"ItemAttribLevel"
 		"proportionaltoparent"		"1"
 	}
 
@@ -62,7 +62,7 @@
 		"textAlignment"		"center"
 		
 		"font"			"itemfontnamesmall"
-		"fgcolor_override"		"notoWhite"
+		"fgcolor_override"		"ItemAttribLevel"
 		"proportionaltoparent"		"1"
 	}
 

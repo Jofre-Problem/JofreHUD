@@ -36,6 +36,6 @@
 		"ypos"			"3"
 		"wide"			"250"
 		"tall"			"32"
-		"fgcolor_override"		"notowhite"
+		"fgcolor_override"		"ItemAttribLevel"
 	}
 }
