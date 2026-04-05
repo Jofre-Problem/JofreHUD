@@ -1,4 +1,5 @@
-"Servers/DialogServerWarning.res"
+#base "../friends/dialogremoveuser.res"
+"x"
 {
 	"DialogServerWarning"
 	{
@@ -20,20 +21,7 @@
 	"WarningLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"WarningLabel"
-		"xpos"		"20"
-		"ypos"		"46"
-		"wide"		"460"
-		"tall"		"150"
-		//"autoResize"		"0"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"		"1"
 		"labelText"		"%warning%"
-		"textAlignment"		"west"
-		"wrap"		"1"
 	}
 	"DontShowThisAgainCheckbutton"
 	{

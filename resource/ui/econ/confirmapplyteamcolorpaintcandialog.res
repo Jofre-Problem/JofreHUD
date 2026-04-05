@@ -1,7 +1,8 @@
 #base "../tool_base.res"
 #base "../subject_base.res"
 #base "../commentarymodelviewer.res"
-"Resource/UI/ConfirmApplyTeamColorPaintCanDialog.res"
+#base "../../../friends/dialogremoveuser.res"
+"x"
 {
 	"ConfirmApplyTeamColorPaintCanDialog"
 	{
@@ -108,21 +109,7 @@
 
 	"WarningLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolPaintConfirmWarning"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"170"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 
 }

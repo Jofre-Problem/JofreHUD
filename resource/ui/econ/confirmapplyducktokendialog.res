@@ -39,25 +39,6 @@
 		}
 	}
 
-	"TitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"dynamic"
-		"textAlignment"	"center"
-		"xpos"			"95"
-		"ypos"			"10"
-		"zpos"			"0"
-		"wide"			"210"
-		"tall"			"60"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-	}
-
 	"ConfirmLabel"
 	{
 		"labelText"		"#ToolDuckTokenConfirm"

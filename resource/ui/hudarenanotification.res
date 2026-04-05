@@ -1,3 +1,4 @@
+#base "../../friends/dialogremoveuser.res"
 "Resource/UI/HudArenaNotification.res"
 {
 	"HudArenaNotificationBG"

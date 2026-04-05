@@ -2,6 +2,7 @@
 #base "tool_base.res"
 #base "subject_base.res"
 #base "commentarymodelviewer.res"
+#base "../../friends/dialogremoveuser.res"
 "Resource/UI/ItemRenameDialog.res"
 {
 	"ItemRenameDialog"
@@ -171,20 +172,7 @@
 	
 	"WarningLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#ToolConfirmWarning"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"170"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"20"
-		//"	"1"
-		
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 	

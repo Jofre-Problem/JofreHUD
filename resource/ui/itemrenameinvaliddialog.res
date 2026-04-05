@@ -1,5 +1,6 @@
 #base "tool_base.res"
 #base "subject_base.res"
+#base "../../friends/dialogremoveuser.res"
 "Resource/UI/ItemRenameInvalidDialog.res"
 {
 	// Need to be named ItemRenameConfirmationDialog, because it uses the same base confirmation dialog in code
@@ -44,20 +45,7 @@
 
 	"WarningLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
 		"labelText"		"#CraftInvalidNameDetail"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"170"
-		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"20"
-		//"	"1"
-		
-		"visible"		"1"
-		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
 
