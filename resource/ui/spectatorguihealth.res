@@ -190,8 +190,8 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"KillfeedBlur"
-		"fgcolor"		"notoblack"
-		"fgcolor_override"		"notoblack"
+		"fgcolor"		"QuestMap_BGImages"
+		"fgcolor_override"		"QuestMap_BGImages"
 		"pin_to_sibling" "PlayerStatusHealthValueID2"
 	}
 

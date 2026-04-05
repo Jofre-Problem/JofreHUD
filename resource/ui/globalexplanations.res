@@ -420,7 +420,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -439,7 +439,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 
 		
@@ -469,9 +469,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -531,7 +531,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -549,7 +549,7 @@
 			
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"CloseButton"
@@ -578,9 +578,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -642,7 +642,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -661,7 +661,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"CloseButton"
@@ -690,9 +690,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -754,7 +754,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -773,7 +773,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"CloseButton"
@@ -802,9 +802,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -866,7 +866,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -885,7 +885,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"CloseButton"
@@ -914,9 +914,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -978,7 +978,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"TextLabel"
@@ -997,7 +997,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "Graydark"
+			"fgcolor_override" "QuestMap_InactiveGrey"
 		}
 		
 		"CloseButton"
@@ -1026,9 +1026,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"

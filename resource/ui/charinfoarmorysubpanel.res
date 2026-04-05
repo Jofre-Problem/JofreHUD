@@ -16,7 +16,7 @@
 		// Model panels
 		
 		thumbnail_bgcolor			"TFOrange"
-		thumbnail_bgcolor_mouseover	"Notodark"
+		thumbnail_bgcolor_mouseover	"Normal"
 		thumbnail_bgcolor_selected	"ItemAttribPositive"
 		
 		thumbnails_rows			0
@@ -34,7 +34,7 @@
 			wide					69
 			tall					52
 			visible				0
-			bgcolor_override			"Notodark"
+			bgcolor_override			"Normal"
 			noitem_textcolor			"117 107 94 255"
 			paintborder				0
 			paintBackgroundType		0

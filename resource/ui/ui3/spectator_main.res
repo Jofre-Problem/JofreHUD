@@ -70,7 +70,7 @@
 		"ControlName"		"Panel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-
+		"xpos" "899"
 	}
 	"SwitchCamModeLabel"
 	{
@@ -78,11 +78,12 @@
 		"fieldName"		"SwitchCamModeLabel"
 		"visible"		"0"
 	}
-	"CycleTargetFwdKeyLabel"
+	"CycleTargetFwdKeyLabel" // buggy
 	{
-		"ControlName"		"Panel"
+		"ControlName"		"label"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"visible"		"0"
+		"xpos" "899"
 	}
 	"CycleTargetFwdLabel"
 	{

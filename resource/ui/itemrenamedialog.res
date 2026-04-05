@@ -309,7 +309,7 @@
 		"unicode"			"0"
 		"wrap"				"0"
 		"fgcolor_override"	"235 226 202 255"
-		"bgcolor_override"	"Graydark"
+		"bgcolor_override"	"QuestMap_InactiveGrey"
 		"paintbackgroundtype" "2"
 		"labelText"			""
 		"font"				"HudFontSmall"

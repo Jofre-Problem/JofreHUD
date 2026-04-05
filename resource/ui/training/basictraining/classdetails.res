@@ -24,18 +24,18 @@
 		"paintborder"		"0"
 		
 		// default style
-		"defaultBgColor_override"	"NotoDark"
+		"defaultBgColor_override"	"Normal"
 		"defaultFgColor_override" "whattimeis1"
 		"border_default"		"noborder"
 		
 		// armed style
 		"armedBgColor_override"	"greensolid"
-		"armedFgColor_override" 	"NotoBlack"
+		"armedFgColor_override" 	"QuestMap_BGImages"
 		"border_armed"		"noborder"
 		
 		// depressed style    
-		"depressedBgColor_override"	"NotoDark"
-		"depressedFgColor_override" "NotoBlack"
+		"depressedBgColor_override"	"Normal"
+		"depressedFgColor_override" "QuestMap_BGImages"
 	}
 	
 	"OverlayPanel"
@@ -67,7 +67,7 @@
 			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 		
 		"DescLabel"
@@ -85,7 +85,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 		
 		"WeaponSetLabel"
@@ -102,7 +102,7 @@
 			//"	"1"
 			"visible"		"0"
 			"enabled"		"0"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 		
 		"WeaponImage0"
@@ -158,7 +158,7 @@
 			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 		
 		"SecondaryLabel"
@@ -175,7 +175,7 @@
 			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 		
 		"MeleeLabel"
@@ -192,7 +192,7 @@
 			//"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"NotoBlack"
+			"fgcolor_override"	"QuestMap_BGImages"
 		}
 	}
 	

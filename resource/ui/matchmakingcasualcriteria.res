@@ -106,7 +106,7 @@
                 "textAlignment"             "center"
                "defaultbgcolor_override"   "Blank"
                 "armedbgcolor_override"     "blank"
-                "defaultfgcolor_override"   "notored"
+                "defaultfgcolor_override"   "ItemAttribNegative"
                 "armedfgcolor_override"     "yellow"
                 "command"                   "restore_search_criteria"
                 "actionsignallevel"         "3"

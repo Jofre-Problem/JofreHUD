@@ -144,10 +144,10 @@
 			"paintbackground"	"0"
 			
 			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "Graydark"
-			"defaultFgColor_override" "Graydark"
+			//"armedFgColor_override" "QuestMap_InactiveGrey"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -337,7 +337,7 @@
 			
 			
 			"defaultFgColor_override" "235 226 202 255"
-			"defaultBgColor_override" "Graydark"
+			"defaultBgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
 		}	

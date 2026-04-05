@@ -103,7 +103,7 @@
 			"tall"				"100"
 			"visible"			"1"
 			"enabled"			"1"
-			"fillcolor"			"notodark"
+			"fillcolor"			"Normal"
 		}			
 		"ChatLabel"
 	{
@@ -246,7 +246,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"Notodark"
+		"fillcolor"		"Normal"
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"3"
@@ -288,7 +288,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"Notodark"
+		"fillcolor"		"Normal"
 		"pin_to_sibling"	"BlueScoreBG"
 		if_mvm
 		{
@@ -440,7 +440,7 @@
 		"wide"			"p0.5"
 		"tall"			"20"	
 		"enabled" 0
-		"disabledfgcolor2_override" "notodark"
+		"disabledfgcolor2_override" "Normal"
 	}					
 	"RedTeamScore"
 	{
@@ -2289,7 +2289,7 @@ if_mvm
 		"wide"				"f0"
 		"tall"				"24"
 		"AllCaps"			"1"
-		"fgcolor"	"notodark"
+		"fgcolor"	"Normal"
 		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"

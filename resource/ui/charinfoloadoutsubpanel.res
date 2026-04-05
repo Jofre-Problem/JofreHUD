@@ -2174,7 +2174,7 @@
 		"Pin_To_Sibling"			"lvicon4"		
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
-		"fgcolor"		"notored"
+		"fgcolor"		"ItemAttribNegative"
 	}	
 		"icon19labelb"
 		{
@@ -2200,7 +2200,7 @@
 			
 			
 			paintBackground 0
-			"defaultFgColor_override"	"notored"
+			"defaultFgColor_override"	"ItemAttribNegative"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
 		}		

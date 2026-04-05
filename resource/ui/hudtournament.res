@@ -57,7 +57,7 @@
 			"zpos"			"1"
 
 			"color_ready"	"Green"
-			"color_notready"	"GrayDarkest"
+			"color_notready"	"UpgradeDisabledFg"
 
 			"playername"
 			{

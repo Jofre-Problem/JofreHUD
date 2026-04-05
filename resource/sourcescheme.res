@@ -21,7 +21,7 @@ Scheme
 	
 		"ItemAttribLevel"				"240 240 240 255"
 		"greensolid"				"27 27 27 255"
-		"NotoDark"				"15 15 15 255"
+		"Normal"				"15 15 15 255"
 
 		// TF2
 	    "TFDarkBrown"               "60 56 53 255"

@@ -26,7 +26,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		"bgcolor_override"		"TransparentGrayDarkest"
+		"bgcolor_override"		"UpgradeDisabledFg"
 	}
 	"ItemEffectIcon"
 	{
@@ -53,6 +53,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		"bgcolor_override"		"TransparentGrayDarkest"
+		"bgcolor_override"		"UpgradeDisabledFg"
 	}
 }

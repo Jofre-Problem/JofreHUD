@@ -206,7 +206,7 @@
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"west"
 				"auto_wide_tocontents"		"1"
-				"disabledfgcolor2_override" "notodark"
+				"disabledfgcolor2_override" "Normal"
 				"pin_to_sibling" "KillsLabe3"
 			}			
 
@@ -224,7 +224,7 @@
 				"enabled"		"1"
 				"zpos"		"5"
 				"textAlignment"	"Left"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 			}
 
 			"ShellsLabel"
@@ -257,7 +257,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 			}
 			"ShellIcon"	
 			{
@@ -292,7 +292,7 @@
 				"enabled"		"1"
 				"textAlignment"	"Left"
 				"fgcolor_override" "Blue"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 				"alpha" "200"
 			}
 		}

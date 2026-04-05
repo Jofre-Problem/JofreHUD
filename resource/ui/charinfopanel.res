@@ -109,8 +109,8 @@
 		"Command"									"back"
 		"sound_depressed"							"UI/buttonclick.wav"
 		"paintbackground"							"1"
-		"defaultbgcolor_override" "BlackDark"
-		"armedbgcolor_override" "BlackDark"	
+		"defaultbgcolor_override" "HTMLBackground"
+		"armedbgcolor_override" "HTMLBackground"	
 			"armedfgcolor_override" "greensolid"
 	}
 	"timebg"
@@ -135,7 +135,7 @@
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"15"
-			"fgcolor"		"BlackDark"		
+			"fgcolor"		"HTMLBackground"		
 		"wide"	"30"
 		"textinsetx"	"-2"
 		"zpos"	"2001"	

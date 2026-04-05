@@ -133,9 +133,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "Graydark"
+			"defaultFgColor_override" "QuestMap_InactiveGrey"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "Graydark"
+			"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"

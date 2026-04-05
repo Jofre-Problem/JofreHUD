@@ -46,7 +46,7 @@
 			"zpos"			"1"
 
 			"color_ready"	"Green"
-			"color_notready"	"GrayDarkest"
+			"color_notready"	"UpgradeDisabledFg"
 			if_mvm
 			{
 			"tall"			"30"
@@ -67,7 +67,7 @@
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"HudFontSmallishBold"
 				"HealthDeathWarningColor"	"Red"
-				"TextColor"					"GrayDarkest"
+				"TextColor"					"UpgradeDisabledFg"
 				"proportionaltoparent"		"1"
 
 				if_aids

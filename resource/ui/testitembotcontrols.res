@@ -10,7 +10,7 @@
 		"ypos"					"150"
 		"wide"					"200"
 		"tall"					"200"
-		"bgcolor_override"		"Graydark"
+		"bgcolor_override"		"QuestMap_InactiveGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"0"

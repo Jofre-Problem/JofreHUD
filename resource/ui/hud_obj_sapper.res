@@ -48,7 +48,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"bgcolor_override"		"TransparentGrayDarkest"
+			"bgcolor_override"		"UpgradeDisabledFg"
 		}
 
 		"RunningPanel"
@@ -88,7 +88,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 			}
 
 			"TargetIcon"

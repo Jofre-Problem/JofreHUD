@@ -309,7 +309,7 @@
 		"labelText"				"%progresscount%" // "killstreak_count_spaced"
 		"textAlignment"			"west"
 		"font"					"itemfontnamelarger"
-		"fgcolor"				"BlackDark"	
+		"fgcolor"				"HTMLBackground"	
 		"pin_to_sibling" "ItemEffectMeterBG"
 	}	
 	"StreakLabel"

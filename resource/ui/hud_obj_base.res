@@ -120,7 +120,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"bgcolor_override"		"TransparentGrayDarkest"
+			"bgcolor_override"		"UpgradeDisabledFg"
 		}
 
 		"BuildingPanel"
@@ -161,7 +161,7 @@
 				"enabled"		"1"
 				"textAlignment"	"Left"
 				"fgcolor_override" "red"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 			}
 		}
 
@@ -194,7 +194,7 @@
 				"enabled"		"1"
 				"textAlignment"	"Left"
 				"fgcolor_override" "Blue"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 				"alpha" "200"
 			}
 			"UpgradeIcon"

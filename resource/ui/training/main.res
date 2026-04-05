@@ -71,12 +71,12 @@
 			
 			// armed style
 			"armedBgColor_override"	"ItemAttribLevel"
-			"armedFgColor_override" 	"NotoBlack"
+			"armedFgColor_override" 	"QuestMap_BGImages"
 			"border_armed"		"noborder"
 		
 			// depressed style    
 			"depressedBgColor_override"	"ItemAttribLevel"
-			"depressedFgColor_override" "NotoBlack"
+			"depressedFgColor_override" "QuestMap_BGImages"
 		}	
 		
 		"ModeSelectionPanel"

@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"WhiteHighlightBorder"
-		"bgcolor_override"	"notodark"
+		"bgcolor_override"	"Normal"
 	}
 			"image"
 			{

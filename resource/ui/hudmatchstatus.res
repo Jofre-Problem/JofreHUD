@@ -97,7 +97,7 @@ if_mini		{			"visible"		"0"		}
 			"zpos"		"7"
 			"image"		"replay/thumbnails/panels/blank"
 			"scaleImage"				"1"
-			"fillcolor"		"GrayDarkest"
+			"fillcolor"		"UpgradeDisabledFg"
 		}
 		"RoundWinPanelRed_kv"
 		{

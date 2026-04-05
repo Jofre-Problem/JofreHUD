@@ -19,7 +19,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"proportionaltoparent"	"1"
-		"fgcolor_override" "Graydark"
+		"fgcolor_override" "QuestMap_InactiveGrey"
 		"auto_tall_tocontents"	"1"
 	}
 	
@@ -49,9 +49,9 @@
 			
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "Graydark"
+		"defaultFgColor_override" "QuestMap_InactiveGrey"
 		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "Graydark"
+		"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
@@ -97,9 +97,9 @@
 			
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "Graydark"
+		"defaultFgColor_override" "QuestMap_InactiveGrey"
 		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "Graydark"
+		"depressedFgColor_override" "QuestMap_InactiveGrey"
 			
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"

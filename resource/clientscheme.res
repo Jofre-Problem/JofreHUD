@@ -12,13 +12,12 @@ Scheme
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
 		"ItemAttribPositive"								"70 130 180 255"
-		"ItemAttribNegative"					"255 64 64 255"		
+		"ItemAttribNegative"					"205 50 50 153"		
 		// halloween spells label
 		"ItemSetItemMissing"								"255 38 176 255"
-		"NotoRed"			"205 50 50 153"
-		"NotoDark"			"32 32 32 255"
+		"Normal"			"32 32 32 255"
 		"greensolid"	"90 180 0 255"
-		"NotoBlack"			"24 24 24 255"
+		"QuestMap_BGImages"			"24 24 24 255"
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
 
@@ -35,8 +34,6 @@ Scheme
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
-
-		"Normal"											"32 32 32 255"
 		"Genuine"											"115 215 140 255"
 		"Unusual"											"215 145 255 255"
 		"Vintage"											"110 165 255 255"
@@ -77,8 +74,6 @@ Scheme
 
 		"QuestMap_Bonus"									"222 217 166 255"
 		"QuestMap_ActiveOrange"								"212 127 25 255"
-		"QuestMap_InactiveGrey"								"100 100 100 255"
-		"QuestMap_BGImages"									"56 58 60 255"
 
 		"PartyMember1"										"124 173 255 255"
 		"PartyMember2"										"99  232 167 255"
@@ -150,8 +145,6 @@ Scheme
  		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"
 		"MatchmakingMenuItemTitleColor"						"227 228 230 255"
 		"MatchmakingMenuItemDescriptionColor"				"227 228 230 255"
-
-		"HTMLBackground"									"30 30 30 255"
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
@@ -225,29 +218,21 @@ Scheme
 		"UpgradeArmedBg"									"80 150 255 255"
 		"UpgradeDepressedFg"								"60 60 60 255"
 		"UpgradeDepressedBg"								"80 150 255 255"
-		"UpgradeSelectedFg"									"60 60 60 255"
+		"UpgradeSelectedFg"									"27 28 30 255"
 		"UpgradeSelectedBg"									"70 130 180 255"
-		"UpgradeDisabledFg"									"60 60 60 255"
+		"UpgradeDisabledFg"									"27 28 30 200"
 
 		"Health"											"227 228 230 255"	
-		"GrayDarkest"										"27 28 30 255"
-		"BlackDark"											"15 16 18 255"
-		"Black"												"0 0 0 255"
+		"HTMLBackground"											"15 16 18 255"
 
-		"TransparentGrayDarkest"							"27 28 30 200"
 		"TransparentWhite"									"227 228 230 150"		
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
 		"Yellow"											"245 220 60 255"				
-
-		"WhiteGray"								"185 185 185 255"
-		"BlackSolid"							"0 0 0 255"
-		"BlackTransparent"						"0 0 0 150"
-		
 		"Gray"									"50 50 50 255"
-		"GrayMedium"							"130 130 130 255"
-		"GrayDark"								"100 100 100 255"
+
+		"QuestMap_InactiveGrey"								"100 100 100 255"
 		
 		"OrangeLight"							"255 200 55 255"
 		
@@ -291,7 +276,7 @@ Scheme
 		"BgColor"											"TransparentBlack"
 
 		"ViewportBG"										"Blank"
-		"TeamSpec"											"204 204 204 255"
+		"TeamSpec"											"185 185 185 255"
 		"TeamRed"											"255 64 64 255"
 		"TeamBlue"											"153 204 255 255"
 
@@ -2172,25 +2157,25 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Right
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Top
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Bottom
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 		}
 		DarkComboBoxBorder
 		{
 			"inset" "0 0 1 1"
 			Left
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Right
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Top
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 			Bottom
-			{	"1"	{	"color" "WhiteGray"	}	}
+			{	"1"	{	"color" "TeamSpec"	}	}
 		}
 		SalePriceBorder
 		{
@@ -2218,7 +2203,7 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2229,7 +2214,7 @@ Scheme
 		OutlinedDullGreyBox
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2329,7 +2314,7 @@ Scheme
 		TFFatLineBorderClearBG
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2504,7 +2489,7 @@ Scheme
 		NotificationHighPriority
 		{
 			"bordertype"		"scalable_image"
-			"color"		"BlackDark"
+			"color"		"HTMLBackground"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2516,7 +2501,7 @@ Scheme
 			MainMenuButtonDefault
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2538,7 +2523,7 @@ Scheme
 		MainMenuButtonDisabled
 		{
 			"bordertype"		"scalable_image"
-			"color"		"BlackDark"
+			"color"		"HTMLBackground"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2569,7 +2554,7 @@ Scheme
 		MainMenuBGBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2600,7 +2585,7 @@ Scheme
 		MainMenuHighlightBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2672,7 +2657,7 @@ Scheme
 		StoreInnerShadowBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"BlackDark"
+			"color"		"HTMLBackground"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2834,7 +2819,7 @@ Scheme
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2845,7 +2830,7 @@ Scheme
 		ReplayGrayDialogBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2856,7 +2841,7 @@ Scheme
 		ReplayOutlinedGreyBox
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2867,7 +2852,7 @@ Scheme
 		ReplayOutlinedDullGreyBox
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2878,7 +2863,7 @@ Scheme
 		ReplayThinLineBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2890,7 +2875,7 @@ Scheme
 		ReplayHighlightBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"GrayDark"
+			"color"		"QuestMap_InactiveGrey"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"
@@ -2901,7 +2886,7 @@ Scheme
 		ReplayBalloonBorder
 		{
 			"bordertype"		"scalable_image"
-			"color"		"BlackDark"
+			"color"		"HTMLBackground"
 
 			  "image"                     "replay/thumbnails/panels/backpack_slot"
 			"src_corner_height"		"24"

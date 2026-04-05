@@ -17,7 +17,7 @@
 		"labelText"		"%currency%"
 
 		
-		"bgcolor_override"	"Notodark"
+		"bgcolor_override"	"Normal"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"
@@ -29,7 +29,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"HudFontSmallishBold"
-		"fgcolor"		"notoRed"
+		"fgcolor"		"ItemAttribNegative"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
@@ -40,7 +40,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%currency%"
 
-				"bgcolor_override"	"Notodark"
+				"bgcolor_override"	"Normal"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"

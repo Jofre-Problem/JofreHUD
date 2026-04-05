@@ -15,6 +15,6 @@
 		//"	"1"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override"	"NotoBlack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}
 }

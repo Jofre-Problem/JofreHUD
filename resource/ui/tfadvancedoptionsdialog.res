@@ -14,7 +14,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"TrainingResultsBG"
-		"bgcolor_override"		"BlackDark"	
+		"bgcolor_override"		"HTMLBackground"	
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -55,7 +55,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "notoblack"
+		"fgcolor_override" "QuestMap_BGImages"
 		"bgcolor_override"	"ItemAttribLevel"
 	}
 	"CancelButton"
@@ -126,7 +126,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"bgcolor_override"	"BlackDark"	
+		"bgcolor_override"	"HTMLBackground"	
 		"border"	"noborder"
 		"Slider"
 		{

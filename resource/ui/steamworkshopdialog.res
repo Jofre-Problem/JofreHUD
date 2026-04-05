@@ -251,7 +251,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Useful Links - Click Them"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}				
 	"urlmaster"
 	{
@@ -446,7 +446,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Useful Comp Sites - Click Them"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}
 	"urltftv"
 	{
@@ -551,7 +551,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Useful Mods - Click Them"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}			
 	"urlviewmodel"
 	{
@@ -701,7 +701,7 @@
 		"textAlignment"	"center"
 		"labelText"		"My Favorite Mods - Click Them"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}	
 	"urlsniper"
 	{
@@ -776,7 +776,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Tracking servers / people"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}		
 	"urlteamwork"
 	{
@@ -881,7 +881,7 @@
 		"textAlignment"	"center"
 		"labelText"		"Useful Chrome Extensions / Scripts"
 		"bgcolor_override"	"ItemAttribLevel"
-		"fgcolor_override"	"notoblack"
+		"fgcolor_override"	"QuestMap_BGImages"
 	}	
 	"urlext1"
 	{

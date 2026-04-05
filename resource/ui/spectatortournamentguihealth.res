@@ -71,7 +71,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Size 16 Uber"
-		"fgcolor"		"GrayDarkest"
+		"fgcolor"		"UpgradeDisabledFg"
 		bgcolor_override blank
 		"proportionaltoparent"		"1"
 	}

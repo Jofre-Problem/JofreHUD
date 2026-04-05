@@ -462,7 +462,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cool"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -504,7 +504,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"isotope"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -547,7 +547,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -568,7 +568,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cerebral_discharge"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -589,7 +589,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"tornado"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -610,7 +610,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"flames"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -631,7 +631,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"singular"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -652,7 +652,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"incinerator"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -673,7 +673,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -694,7 +694,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -715,7 +715,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"deadly_daff"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -736,7 +736,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"manndarin"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -757,7 +757,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"mean_green"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -778,7 +778,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"agoniz"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -799,7 +799,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hotrod"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -820,7 +820,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -841,7 +841,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -862,7 +862,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pumpkin_bombs"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -883,7 +883,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hwn_fire"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -904,7 +904,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vfb"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -925,7 +925,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -946,7 +946,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -967,7 +967,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pigmen"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -988,7 +988,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"sinister"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1009,7 +1009,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"spectral"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1030,7 +1030,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1051,7 +1051,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1072,7 +1072,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"corpse"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1093,7 +1093,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vviolet"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1114,7 +1114,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1287,7 +1287,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cool"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1329,7 +1329,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"isotope"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1372,7 +1372,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1393,7 +1393,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cerebral_discharge"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1414,7 +1414,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"tornado"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1435,7 +1435,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"flames"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1456,7 +1456,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"singular"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1477,7 +1477,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"incinerator"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -1498,7 +1498,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1519,7 +1519,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1540,7 +1540,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"deadly_daff"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1561,7 +1561,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"manndarin"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1582,7 +1582,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"mean_green"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1603,7 +1603,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"agoniz"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1624,7 +1624,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hotrod"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1645,7 +1645,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1666,7 +1666,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1687,7 +1687,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pumpkin_bombs"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1708,7 +1708,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hwn_fire"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1729,7 +1729,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vfb"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -1750,7 +1750,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1771,7 +1771,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1792,7 +1792,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pigmen"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1813,7 +1813,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"sinister"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1834,7 +1834,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"spectral"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1855,7 +1855,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -1876,7 +1876,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1897,7 +1897,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"corpse"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1918,7 +1918,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vviolet"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -1939,7 +1939,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2112,7 +2112,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cool"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2154,7 +2154,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"isotope"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2197,7 +2197,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2218,7 +2218,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cerebral_discharge"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2239,7 +2239,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"tornado"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2260,7 +2260,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"flames"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2281,7 +2281,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"singular"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2302,7 +2302,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"incinerator"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2323,7 +2323,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2344,7 +2344,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2365,7 +2365,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"deadly_daff"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2386,7 +2386,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"manndarin"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2407,7 +2407,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"mean_green"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2428,7 +2428,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"agoniz"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2449,7 +2449,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hotrod"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2470,7 +2470,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2491,7 +2491,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2512,7 +2512,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pumpkin_bombs"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2533,7 +2533,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hwn_fire"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2554,7 +2554,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vfb"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -2575,7 +2575,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2596,7 +2596,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2617,7 +2617,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pigmen"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2638,7 +2638,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"sinister"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2659,7 +2659,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"spectral"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2680,7 +2680,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2701,7 +2701,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2722,7 +2722,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"corpse"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2743,7 +2743,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vviolet"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -2764,7 +2764,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -2955,7 +2955,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cool"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -2997,7 +2997,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"isotope"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3040,7 +3040,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3061,7 +3061,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"cerebral_discharge"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3082,7 +3082,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"tornado"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3103,7 +3103,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"flames"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3124,7 +3124,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"singular"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3145,7 +3145,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"incinerator"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
@@ -3166,7 +3166,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"fire_horns"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -3187,7 +3187,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3208,7 +3208,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"deadly_daff"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3229,7 +3229,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"manndarin"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3250,7 +3250,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"mean_green"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3271,7 +3271,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"agoniz"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3292,7 +3292,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hotrod"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3313,7 +3313,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"teamshine"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -3334,7 +3334,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3355,7 +3355,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pumpkin_bombs"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3376,7 +3376,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"hwn_fire"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3397,7 +3397,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vfb"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -3418,7 +3418,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"exorcism"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -3439,7 +3439,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3460,7 +3460,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"pigmen"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3481,7 +3481,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"sinister"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3502,7 +3502,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"spectral"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3523,7 +3523,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"diejob"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -3544,7 +3544,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3565,7 +3565,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"corpse"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3586,7 +3586,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"vviolet"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
@@ -3607,7 +3607,7 @@
 					"alpha" "255"
 					paintBackground 1
 					"defaultbgColor_override"	"blank"
-					"armedbgColor_override"		"notored"
+					"armedbgColor_override"		"ItemAttribNegative"
 		pin_to_sibling 			"horseshoes"
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	

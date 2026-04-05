@@ -16,7 +16,7 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"north"
 		"proportionaltoparent"		"1"
-		"fgcolor_override" "BlackDark"
+		"fgcolor_override" "HTMLBackground"
 		"bgcolor_override"		"ItemAttribLevel"
 	}
 
@@ -37,7 +37,7 @@
 		"unicode"		"0"
 		
 		"fgcolor_override"		"ItemAttribLevel"
-		"bgcolor_override"	"notodark"
+		"bgcolor_override"	"Normal"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 		"proportionaltoparent"		"1"

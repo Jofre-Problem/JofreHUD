@@ -159,7 +159,7 @@
 		"alpha"		"190"
 		"defaultBgColor_override"	"TransparentBlack"
 		"armedBgColor_override"		"0 0 0 100"
-		"depressedBgColor_override"	"WhiteGray"
+		"depressedBgColor_override"	"TeamSpec"
 	}	
 	"Key1"
 	{

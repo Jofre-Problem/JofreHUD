@@ -520,7 +520,7 @@
 		"Command"									""
 		"sound_depressed"							"UI/buttonclick.wav"
 		"defaultbgcolor_override" "Ammo"
-		"defaultfgcolor_override" "notodark"
+		"defaultfgcolor_override" "Normal"
 	}
 	"DragToPrevPageButton"
 	{
@@ -539,7 +539,7 @@
 		"Command"									""
 		"sound_depressed"							"UI/buttonclick.wav"
 		"defaultbgcolor_override" "Ammo"
-		"defaultfgcolor_override" "notodark"
+		"defaultfgcolor_override" "Normal"
 	}
 
 	"CancelApplyToolButton"

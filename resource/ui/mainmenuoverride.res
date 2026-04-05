@@ -1677,7 +1677,7 @@
 				"enabled"		"1"
 				"labelText"			"<"
 				"bgcolor_override"	"0 0 0 0"
-				"fgcolor"		"notodark"
+				"fgcolor"		"Normal"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
 
@@ -13859,7 +13859,7 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"fillcolor" "BlackSolid"
+					"fillcolor" "HudBlack"
 					"alpha" "200"
 				}
 
@@ -13899,7 +13899,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -13921,7 +13921,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -13965,7 +13965,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -13987,7 +13987,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -14009,7 +14009,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -14031,7 +14031,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -14053,7 +14053,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "AssassinGrade"
 
@@ -14143,7 +14143,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14165,7 +14165,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14187,7 +14187,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14209,7 +14209,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14231,7 +14231,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14253,7 +14253,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 
@@ -14275,7 +14275,7 @@
 					textAlignment			center
 					"actionsignallevel"		"4"
 					paintbackground 			1
-					"defaultbgcolor_override" "notodark"
+					"defaultbgcolor_override" "Normal"
 					"defaultfgcolor_override" "ItemAttribLevel"
 					"armedbgcolor_override" "greensolid"
 

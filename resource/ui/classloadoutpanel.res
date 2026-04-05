@@ -880,8 +880,8 @@
 			"wide"			"120"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor"		"NotoBlack"
-			"bgcolor_override"		"NotoBlack"
+			"bgcolor"		"QuestMap_BGImages"
+			"bgcolor_override"		"QuestMap_BGImages"
 			"noitem_textcolor"		"Tanlight"
 			"PaintBackgroundType"	"0"
 			"PaintBackground"	"0"
@@ -1784,7 +1784,7 @@
 		visible						0
 
 		paintbackground			1
-		bgcolor_override "GrayDarkest"
+		bgcolor_override "UpgradeDisabledFg"
 		border						"SteamWorkshopBorder"//"LoadoutItemPopupBorder"
 
 		// => resource\ui\ItemOptionsPanel.res"

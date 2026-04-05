@@ -46,7 +46,7 @@
 			"TFFont"		"HudFontSmallishBold"
 			"textAlignment"		"center"
 			"HealthDeathWarningColor"	"Red"
-			"TextColor"		"GrayDarkest"
+			"TextColor"		"UpgradeDisabledFg"
 			"proportionaltoparent"		"1"
 		}
 

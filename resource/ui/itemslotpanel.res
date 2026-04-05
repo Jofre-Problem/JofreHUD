@@ -17,9 +17,9 @@
 		
 		"settitlebarvisible"	"0"
 		//
-		"bgcolor_override"	"Graydark"
-		"infocus_bgcolor_override" "Graydark"
-		"outoffocus_bgcolor_override" "Graydark"
+		"bgcolor_override"	"QuestMap_InactiveGrey"
+		"infocus_bgcolor_override" "QuestMap_InactiveGrey"
+		"outoffocus_bgcolor_override" "QuestMap_InactiveGrey"
 		
 		"item_xpos_offcenter_a"	"-270"
 		"item_xpos_offcenter_b"	"165"

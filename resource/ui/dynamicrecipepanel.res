@@ -18,9 +18,9 @@
 		//	"0"
 		"settitlebarvisible"	"0"
 		//
-		"bgcolor_override"	"Graydark"
-		"infocus_bgcolor_override" "Graydark"
-		"outoffocus_bgcolor_override" "Graydark"
+		"bgcolor_override"	"QuestMap_InactiveGrey"
+		"infocus_bgcolor_override" "QuestMap_InactiveGrey"
+		"outoffocus_bgcolor_override" "QuestMap_InactiveGrey"
 
 		"item_ypos"						"50"
 		"output_item_ypos"				"255"		

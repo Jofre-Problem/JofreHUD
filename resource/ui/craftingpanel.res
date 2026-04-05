@@ -16,9 +16,9 @@
 		"enabled"							"1"
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
-		"bgcolor_override"					"notodark"
-		"infocus_bgcolor_override" 			"notodark"
-		"outoffocus_bgcolor_override" 		"notodark"
+		"bgcolor_override"					"Normal"
+		"infocus_bgcolor_override" 			"Normal"
+		"outoffocus_bgcolor_override" 		"Normal"
 
 		"item_ypos"							"75"
 		"output_item_ypos"					"262"
@@ -84,8 +84,8 @@
 					"proportionaltoparent"	"1"
 					"labelText"				"%itemname%"
 					"textAlignment"			"center"
-					"fgcolor"				"whitegray"
-					"fgcolor_override"		"whitegray"
+					"fgcolor"				"TeamSpec"
+					"fgcolor_override"		"TeamSpec"
 					"wrap"					"1"
 					"centerwrap"			"1"
 				}
@@ -106,18 +106,18 @@
 			
 			"paintborder"					"0"
 
-			"defaultFgColor_override" "WhiteGray"
+			"defaultFgColor_override" "TeamSpec"
 			"defaultBgColor_override" "Blank"
 			"armedFgColor_override" "White"
 			"armedBgColor_override" "Blank"
 			"depressedFgColor_override" "black"
 			"depressedBgColor_override" "Blank"
-			"defaultFgColor_override" 		"whitegray"
-			"defaultBgColor_override" 		"graydark"
+			"defaultFgColor_override" 		"TeamSpec"
+			"defaultBgColor_override" 		"QuestMap_InactiveGrey"
 			"armedFgColor_override" 		"White"
-			"armedBgColor_override" 		"graydark"
-			"depressedFgColor_override" 	"whitegray"
-			"depressedBgColor_override" 	"graydark"
+			"armedBgColor_override" 		"QuestMap_InactiveGrey"
+			"depressedFgColor_override" 	"TeamSpec"
+			"depressedBgColor_override" 	"QuestMap_InactiveGrey"
 		}
 
 		"filter_xoffset"					"-208"
@@ -142,7 +142,7 @@
 		"proportionaltoparent"				"1"
 		"PaintBackgroundType"				"0"
 		"PaintBackground"					"1"
-		"bgcolor_override"					"graydark"
+		"bgcolor_override"					"QuestMap_InactiveGrey"
 
 		"InnerBG"
 		{
@@ -158,7 +158,7 @@
 			"proportionaltoparent"			"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"notodark"
+			"bgcolor_override"				"Normal"
 		}
 	}
 	"ButtonsBG"
@@ -175,7 +175,7 @@
 		"proportionaltoparent"				"1"
 		"PaintBackgroundType"				"0"
 		"PaintBackground"					"1"
-		"bgcolor_override"					"graydark"
+		"bgcolor_override"					"QuestMap_InactiveGrey"
 		"proportionaltoparent"				"1"
 	}
 
@@ -188,7 +188,7 @@
 		"zpos"								"5"
 		"wide"								"264"
 		"tall"								"263"
-		"fgcolor_override"					"graydark"
+		"fgcolor_override"					"QuestMap_InactiveGrey"
 		"PaintBackground"					"0"
 		"autohide_buttons" 					"1"
 
@@ -204,7 +204,7 @@
 			"Slider"
 			{
 				"PaintBackgroundType"		"0"
-				"fgcolor_override"			"whitegray"
+				"fgcolor_override"			"TeamSpec"
 			}
 
 			"nobuttons"						"1"
@@ -266,7 +266,7 @@
 			"proportionaltoparent"			"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"graydark"
+			"bgcolor_override"				"QuestMap_InactiveGrey"
 		}
 		"InputLabel"
 		{
@@ -284,12 +284,12 @@
 			"labelText"						"#Craft_Recipe_Inputs"
 			"textAlignment"					"west"
 			"textinsetx"					"5"
-			"fgcolor"						"whitegray"
+			"fgcolor"						"TeamSpec"
 			"use_proportional_insets"		"1"
 			"proportionaltoparent"			"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"notodark"
+			"bgcolor_override"				"Normal"
 		}
 
 		"OutputBG"
@@ -306,7 +306,7 @@
 			"proportionaltoparent"			"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"graydark"
+			"bgcolor_override"				"QuestMap_InactiveGrey"
 		}
 		"OutputLabel"
 		{
@@ -324,12 +324,12 @@
 			"labelText"						"#Craft_Recipe_Outputs"
 			"textAlignment"					"west"
 			"textinsetx"					"5"
-			"fgcolor"						"whitegray"
+			"fgcolor"						"TeamSpec"
 			"use_proportional_insets"		"1"
 			"proportionaltoparent"			"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"notodark"
+			"bgcolor_override"				"Normal"
 		}
 
 		"FreeAccountLabel"

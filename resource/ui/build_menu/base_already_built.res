@@ -15,7 +15,7 @@
 		"labelText"		"Built"
 		"centerwrap"		"1"
 		"textAlignment"	"center"
-		"fgcolor"		"WhiteGray"
+		"fgcolor"		"TeamSpec"
 	}
 
 	"CantBuildReasonShadow"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"WhiteGray"
+		"iconColor"		"TeamSpec"
 		"proportionaltoparent"		"1"
 	}
 }

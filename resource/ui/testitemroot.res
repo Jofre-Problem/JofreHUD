@@ -756,7 +756,7 @@
 					
 			"image_armedcolor"	"235 226 202 255"
 			"image_drawcolor"	"235 226 202 255"
-			"image_selectedcolor"	"Graydark"
+			"image_selectedcolor"	"QuestMap_InactiveGrey"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"

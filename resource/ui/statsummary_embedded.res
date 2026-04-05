@@ -9,7 +9,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"GrayDarkest"
+		"bgcolor_override"	"UpgradeDisabledFg"
 	}
 	"MapLabel"
 	{
@@ -23,7 +23,7 @@
 		"wide"				"f0"
 		"tall"				"24"
 		"AllCaps"			"1"
-		"fgcolor_override"	"Notodark"
+		"fgcolor_override"	"Normal"
 		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"

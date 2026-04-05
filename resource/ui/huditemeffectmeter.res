@@ -44,7 +44,7 @@
 		"tall"					"6"
 		"visible"				"1"
 		"enabled"				"0"
-		"disabledfgcolor2_override" "notodark"
+		"disabledfgcolor2_override" "Normal"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"font"					"Defaultlarge"
@@ -67,7 +67,7 @@
 		"enabled"				"1"
 		"textAlignment"			"Left"
 		"proportionaltoparent"		"1"
-		"bgcolor_override"		"TransparentGrayDarkest"
+		"bgcolor_override"		"UpgradeDisabledFg"
 		border TrainingResultsBG
 	}
 	"ItemEffectMeterbgnew"

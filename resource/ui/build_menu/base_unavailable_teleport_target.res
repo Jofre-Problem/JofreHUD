@@ -15,7 +15,7 @@
 		"labelText"		" Not Built"
 		"textAlignment"	"Center"
 		"centerwrap"		"1"
-		"fgcolor"		"WhiteGray"
+		"fgcolor"		"TeamSpec"
 		"proportionaltoparent"		"1"
 	}
 

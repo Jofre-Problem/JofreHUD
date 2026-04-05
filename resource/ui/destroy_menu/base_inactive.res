@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_sentrygun_3"
-		"iconColor"		"WhiteGray"
+		"iconColor"		"TeamSpec"
 		"proportionaltoparent"		"1"
 	}
 }

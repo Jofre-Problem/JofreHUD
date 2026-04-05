@@ -45,7 +45,7 @@
 		                         "ypos"			"0"
 		                         "tall"			"48" 
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"Blue"
 		                         "labeltext"		"Đ"
@@ -76,7 +76,7 @@
 "ypos"			"0"
 "tall"	"48"
 "wide"			"o1"
-bgcolor_override blacksolid
+bgcolor_override HudBlack
 "font" "betafont"
 "fgcolor_override"	"125 161 255 255"
 "labeltext"		"đ"
@@ -111,7 +111,7 @@ pin_to_sibling scoutlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"161 146 249 255"
 		                         "labeltext"		"æ"
@@ -145,7 +145,7 @@ pin_to_sibling Soldiderlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"194 129 235 255"
 		                         "labeltext"		"ē"
@@ -179,7 +179,7 @@ pin_to_sibling pyrolabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"222 108 212 255"
 			//"
@@ -215,7 +215,7 @@ pin_to_sibling demolabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"244 86 182 255"
 		                         "labeltext"		"ĕ"
@@ -249,7 +249,7 @@ pin_to_sibling heavylabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"255 63 146 255"
 		                         "labeltext"		"Ė"
@@ -284,7 +284,7 @@ pin_to_sibling engilabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"255 48 107 255"
 		                         "labeltext"		"ė"
@@ -320,7 +320,7 @@ pin_to_sibling mediclabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"Ę"
@@ -355,7 +355,7 @@ pin_to_sibling sniperlabel
 		                         "ypos"			"0"
 		                         "tall"	"48"
 		                         "wide"			"o1"
-		bgcolor_override blacksolid
+		bgcolor_override HudBlack
 		                         "font" "betafont"
 		                         "fgcolor_override"	"Red"
 		                         "labeltext"		"-"

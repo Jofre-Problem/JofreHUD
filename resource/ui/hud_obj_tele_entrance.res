@@ -184,7 +184,7 @@
 				"enabled"		"1"
 				"textAlignment"	"Left"
 				"fgcolor_override" "blue"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"bgcolor_override"		"UpgradeDisabledFg"
 				"alpha" "200"
 			}
 	

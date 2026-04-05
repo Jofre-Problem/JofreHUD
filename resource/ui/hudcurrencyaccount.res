@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"fgcolor_override"	"Notodark"
+		"fgcolor_override"	"Normal"
 		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
 		"text_center"			"1"

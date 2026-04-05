@@ -256,15 +256,15 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
-		"defaultBgColor_override" 	"NotoBlack"
+		"defaultBgColor_override" 	"QuestMap_BGImages"
 		"armedBgColor_override"		"ItemAttribLevel"
 		"depressedBgColor_override" "0 0 0 0"
 		"selectedBgColor_override" 	"ItemAttribPositive"
 		
 		"defaultFgColor_override" 	"ItemAttribLevel"
-		"armedFgColor_override"		"NotoBlack"
+		"armedFgColor_override"		"QuestMap_BGImages"
 		"depressedFgColor_override" "ItemAttribLevel"
-		"selectedFgColor_override" 	"NotoBlack"		
+		"selectedFgColor_override" 	"QuestMap_BGImages"		
 		paintbackground			1
 		
 		"SubImage"
@@ -293,15 +293,15 @@
 		sound_depressed			"UI/buttonclick.wav"
 		sound_released			"UI/buttonclickrelease.wav"
 		sound_armed				"UI/buttonrollover.wav"
-		"defaultBgColor_override" 	"NotoBlack"
+		"defaultBgColor_override" 	"QuestMap_BGImages"
 		"armedBgColor_override"		"ItemAttribLevel"
 		"depressedBgColor_override" "0 0 0 0"
 		"selectedBgColor_override" 	"ItemAttribPositive"
 		
 		"defaultFgColor_override" 	"ItemAttribLevel"
-		"armedFgColor_override"		"NotoBlack"
+		"armedFgColor_override"		"QuestMap_BGImages"
 		"depressedFgColor_override" "ItemAttribLevel"
-		"selectedFgColor_override" 	"NotoBlack"		
+		"selectedFgColor_override" 	"QuestMap_BGImages"		
 		paintbackground			1
 		
 		"SubImage"

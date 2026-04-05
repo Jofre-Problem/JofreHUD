@@ -16,9 +16,9 @@
 		
 		"settitlebarvisible"	"0"
 		//
-		"bgcolor_override"	"Graydark"
-		"infocus_bgcolor_override" "Graydark"
-		"outoffocus_bgcolor_override" "Graydark"
+		"bgcolor_override"	"QuestMap_InactiveGrey"
+		"infocus_bgcolor_override" "QuestMap_InactiveGrey"
+		"outoffocus_bgcolor_override" "QuestMap_InactiveGrey"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -538,7 +538,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"Graydark"
+		"bgcolor_override"	"QuestMap_InactiveGrey"
 	}
 	
 	"ScoreEntry"
