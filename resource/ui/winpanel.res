@@ -218,7 +218,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "white"
         "scaleImage"                "1"
         "drawcolor"                 "255 224 128 255"
 
@@ -235,7 +235,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "white"
         "scaleImage"                "1"
         "drawcolor"                 "192 224 255 255"
 
@@ -252,7 +252,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "white"
         "scaleImage"                "1"
         "drawcolor"                 "255 160 128 255"
 
@@ -269,7 +269,7 @@
         "wide"                      "p0.25"
         "tall"                      "1"
         "bgcolor_override"          "Blank"
-        "image"                     "replay/thumbnails/panels/fill_additive"
+        "image"                     "white"
         "scaleImage"                "1"
         "drawcolor"                 "255 160 128 100"
 

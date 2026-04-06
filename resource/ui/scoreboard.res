@@ -1890,7 +1890,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"30"
 			"tall"				"20"
-			"fgcolor_override" "ItemAttribLevel"
+			
 
 			"visible"			"1"
 			"enabled"			"1"
@@ -1913,7 +1913,7 @@ if_mvm
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
-			"fgcolor_override" "ItemAttribLevel"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -2334,85 +2334,71 @@ if_mvm
 
 	"MainBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"MainBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 
 	"BlueLeaderAvatar"
 	{
-		"ControlName"								"CAvatarImagePanel"
-		"fieldName"									"BlueLeaderAvatar"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"BlueLeaderAvatarBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BlueLeaderAvatarBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 
 	"RedLeaderAvatar"
 	{
-		"ControlName"								"CAvatarImagePanel"
-		"fieldName"									"RedLeaderAvatar"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"RedLeaderAvatarBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"RedLeaderAvatarBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"BlueTeamScoreDropshadow"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"BlueTeamScoreDropshadow"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"RedTeamScoreDropshadow"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"RedTeamScoreDropshadow"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"TimerBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TimerBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"ServerTimeLeftInsetBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ServerTimeLeftInsetBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"ServerTimeLeftLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ServerTimeLeftLabel"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"ServerTimeLeftValue"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ServerTimeLeftValue"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 
 	"VerticalLine"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"VerticalLine"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
-
 	"PlayerNameBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"PlayerNameBG"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"PlayerNameLabel"
 	{
@@ -2433,14 +2419,12 @@ if_mvm
 	}
 	"ServerLabelNew"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ServerLabelNew"
-		"xpos"			         					"9999"
+		"ControlName"								"Panel"
+		"visible"			         				"0"
 	}
 	"PlayerScoreLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerScoreLabel"
-		"xpos"			         					"9999"
-	}	
+		"ControlName"								"Panel"
+		"visible"			         				"0"
+	}
 }

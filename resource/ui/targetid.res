@@ -356,7 +356,7 @@
 		"enabled"		"1"
 		"variable"		"targetdata"
 		"fg_image"		"replay/thumbnails/gif_rgb"
-		"bg_image"		"replay/thumbnails/bg_blank"
+		"bg_image"		"replay/thumbnails/panels/blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"white"
 		"scaleImage"		"1"

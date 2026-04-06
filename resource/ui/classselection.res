@@ -489,7 +489,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -607,7 +607,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -688,7 +688,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -882,7 +882,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -962,7 +962,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -1080,7 +1080,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -1197,7 +1197,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -1277,7 +1277,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -1472,7 +1472,7 @@ pin_to_sibling spylabel
 		FgColor_override		       "Tanlight"	
 		FgColor		                "Tanlight"	
 
-		defaultBgColor_override		"255 0 0 100"
+		
 		paintbackground			0
 		paintborder				0
 
@@ -2095,13 +2095,13 @@ pin_to_sibling spylabel
 	                          "localPlayerImage"
 	{
 		visible			0
-		visible 0
+
 		tall				0
 	}
 	                          "localPlayerBG"
 	{
 		visible			0
-		visible 0
+		
 		tall				0
 	}
 	                          "ClassTipsPanel"
@@ -2124,10 +2124,9 @@ pin_to_sibling spylabel
 	                          "localPlayerImage"
 	{
 		visible			0
-		visible 0
 		tall				0
 	}
-	                          "countImage0" 
+	"countImage0" 
 	{
 		                         "ControlName"	"CTFImagePanel"
 		                         "fieldName"		"countImage0"
