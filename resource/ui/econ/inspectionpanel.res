@@ -289,7 +289,7 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "0 0 0 0"
+			"defaultFgColor_override" "blank"
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
@@ -342,12 +342,12 @@
 			}
 		
 			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"blank"
 			"disabledFgColor_override" "235 226 202 255"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
+			"disabledBgColor_override" "blank"
+			"selectionColor_override" "blank"
 			"selectionTextColor_override" "235 226 202 255"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
+			"defaultSelectionBG2Color_override" "blank"
 		}
 
 		"PaintkitLabel"
@@ -408,12 +408,12 @@
 			"proportionaltoparent"	"1"
 		
 			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"blank"
 			"disabledFgColor_override" "TanDark"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
+			"disabledBgColor_override" "blank"
+			"selectionColor_override" "blank"
 			"selectionTextColor_override" "235 226 202 255"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
+			"defaultSelectionBG2Color_override" "blank"
 		}
 
 		"ItemLabel"

@@ -182,7 +182,7 @@
 		"textAlignment"	"Left"
 		////	"0"
 		////	"0"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 		//"fgcolor_override" "110 255 25 175"
 		"fgcolor_override" "MatchmakingMenuItemBackground"
 		"alpha"			"0"

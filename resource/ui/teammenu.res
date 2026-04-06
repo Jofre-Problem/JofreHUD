@@ -258,7 +258,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 		"defaultBgColor_override" 	"QuestMap_BGImages"
 		"armedBgColor_override"		"ItemAttribLevel"
-		"depressedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "blank"
 		"selectedBgColor_override" 	"ItemAttribPositive"
 		
 		"defaultFgColor_override" 	"ItemAttribLevel"
@@ -295,7 +295,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 		"defaultBgColor_override" 	"QuestMap_BGImages"
 		"armedBgColor_override"		"ItemAttribLevel"
-		"depressedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "blank"
 		"selectedBgColor_override" 	"ItemAttribPositive"
 		
 		"defaultFgColor_override" 	"ItemAttribLevel"

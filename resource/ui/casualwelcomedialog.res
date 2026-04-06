@@ -65,27 +65,12 @@
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"25"
-		"default"		"1"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
+
 		"labelText"		"#TF_MM_TakeUITour"
 		"font"			"EconFontSmall"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		//
-		
+
 		"Command"		"show_explanations"
-		
-		
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+
 	}
 
 	"ConfirmButton"
@@ -98,27 +83,10 @@
 		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"25"
-		"default"		"1"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
-		"labelText"		"#TF_Competitive_Welcome_Confirm"
-		"font"			"EconFontSmall"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		//
-		
+
 		"Command"		"confirm"
 		
-		
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+	
 	}
 
 	"NeverShowAgainCheckBox"

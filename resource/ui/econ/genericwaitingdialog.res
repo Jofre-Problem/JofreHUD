@@ -1,5 +1,5 @@
 #base "../vrcalibration.res"
-#base "../ui3/base/label2.res.res"
+#base "../ui3/base/label2.res"
 "Resource/UI/GenericWaitingDialog.res"
 {
 	"GenericWaitingDialog"
@@ -26,7 +26,7 @@
 		"tall"			"42"
 		"labelText"		"%updatetext%"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 
 	"EllipsesLabel"
@@ -46,7 +46,7 @@
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 
 	"DurationLabel"
@@ -66,7 +66,7 @@
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 	
 	"CloseButton"

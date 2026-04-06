@@ -87,7 +87,7 @@
 		"disabledBgColor_override" "0 0 0 255"
 		"selectionColor_override" "0 0 0 255"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "blank"
 	}
 
 	"AbuseContentLabel"
@@ -122,7 +122,7 @@
 		"disabledBgColor_override" "0 0 0 255"
 		"selectionColor_override" "0 0 0 255"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "blank"
 	}
 
 	"AbuseTypeLabel"
@@ -157,7 +157,7 @@
 		"disabledBgColor_override" "0 0 0 255"
 		"selectionColor_override" "0 0 0 255"
 		"selectionTextColor_override" "235 226 202 255"
-		"defaultSelectionBG2Color_override" "0 0 0 0"
+		"defaultSelectionBG2Color_override" "blank"
 	}
 
 	"ScreenShotBitmap"

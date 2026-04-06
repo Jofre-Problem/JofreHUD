@@ -1,5 +1,5 @@
 #base "notifications/base_notification.res"
-#base "ui3/base/label2.res.res"
+#base "ui3/base/label2.res"
 "Resource/UI/AchievementNotification.res"
 {
 	"HeadingLabel"

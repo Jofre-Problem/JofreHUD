@@ -1349,7 +1349,7 @@
                 "tall"                        "480"
                 "visible"                "1"
                 "enabled"                "1"
-                "bgcolor_override"        "0 0 0 0"
+                "bgcolor_override"        "blank"
                 "PaintBackgroundType"        "0" // rounded corners
         }
 
@@ -1362,7 +1362,7 @@
                 "tall"                        "480"
                 "visible"                "1"
                 "enabled"                "1"
-                "bgcolor_override"        "0 0 0 0"
+                "bgcolor_override"        "blank"
                 "PaintBackgroundType"        "0" // rounded corners
         }
         CTFFlagCalloutPanel

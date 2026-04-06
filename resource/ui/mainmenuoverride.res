@@ -1292,7 +1292,7 @@
 		"wide"			"26"
 		"tall"			"17"//200-36
 		"visible"		"1"
-        bgcolor_override "0 0 0 0"
+        bgcolor_override "blank"
 
 		"ToggleFriendsListButton"
 		{
@@ -1342,8 +1342,8 @@
 			"ControlName"		"CDimmerButton"
 			"paintbackground"		"1"
 			"button_activation_type"	"1"
-			"defaultBgColor_override"	"0 0 0 0"
-			"armedBgColor_override"		"0 0 0 0"
+			"defaultBgColor_override"	"blank"
+			"armedBgColor_override"		"blank"
 		}
 		"SaxxySettings"
 		{"xpos"	"9999"}
@@ -1457,7 +1457,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"blank"
 				"fgcolor"		"White"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"east"
@@ -1490,7 +1490,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"blank"
 				"fgcolor"		"Normal"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"west"
@@ -9363,8 +9363,8 @@
                 
                 "Slider"
                 {
-                    "bgcolor_override"          "0 0 0 0"
-                    "fgcolor_override"          "0 0 0 0"
+                    "bgcolor_override"          "blank"
+                    "fgcolor_override"          "blank"
                 }
 
                 "UpButton"
@@ -13589,8 +13589,8 @@
                 
                 "Slider"
                 {
-                    "bgcolor_override"          "0 0 0 0"
-                    "fgcolor_override"          "0 0 0 0"
+                    "bgcolor_override"          "blank"
+                    "fgcolor_override"          "blank"
                 }
 
                 "UpButton"

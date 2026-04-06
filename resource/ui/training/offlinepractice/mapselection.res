@@ -1,121 +1,34 @@
+#base "../../econ/cyclingadcontainer.res"
 "Resource/training/offlinepractice/mapselection.res"
 {
 	"MapImagePanel"
 	{
-		"ControlName"	"ImagePanel"
-		"FieldName"		"MapImagePanel"
-		"xpos"			"60"
-		"zpos"			"0"
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
-		"border"		"ButtonBorder"
-		"paintbackgroundtype"	"2"
-		"paintbackground"	"1"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 
 	"HackCoverBottomOfMapImagePanel"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MapImagePanel"
-		"xpos"		"9999"
-		"ypos"		"320"
-		"wide"		"330"
-		"tall"		"15"
+		"ControlName"	"Panel"
 		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override"	"40 37 37 255"
 	}
 	
 	"GradientPanel"
 	{
-		"ControlName"	"ImagePanel"
-		"FieldName"		"GradientPanel"
-		"xpos"			"9999"
-		"ypos"			"107"
-		"zpos"			"1"
-		"wide"			"330"
-		"tall"			"80"
-		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
-		"image"			"training/gradient_black"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 	
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"PrevButton"
-		"xpos"			"36"
-		"ypos"			"95"
-		"zpos"			"20"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"<"
-		"font"			"scoreboardmedium"
-		"textAlignment"	"center"
-		
 		"Command"		"goprev"
-		
-		
-		
-		"paintbackground"	"0"
-		"paintborder"		"0"
-		
-		// default style
-		"defaultBgColor_override"	"Normal"
-		"defaultFgColor_override" "MatchmakingMenuItemBackground"
-		"border_default"		"noborder"
-		
-		// armed style
-		"armedBgColor_override"	"greensolid"
-		"armedFgColor_override" 	"QuestMap_BGImages"
-		"border_armed"		"noborder"
-		
-		// depressed style    
-		"depressedBgColor_override"	"Normal"
-		"depressedFgColor_override" "QuestMap_BGImages"
 	}	
 	
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"NextButton"
-		"xpos"			"374"
-		"ypos"			"95"
-		"zpos"			"20"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		">"
-		"font"			"scoreboardmedium"
-		"textAlignment"	"center"
-		
 		"Command"		"gonext"
-		
-		
-		
-		"paintbackground"	"0"
-		"paintborder"		"0"
-		
-		// default style
-		"defaultBgColor_override"	"Normal"
-		"defaultFgColor_override" "MatchmakingMenuItemBackground"
-		"border_default"		"noborder"
-		
-		// armed style
-		"armedBgColor_override"	"greensolid"
-		"armedFgColor_override" 	"QuestMap_BGImages"
-		"border_armed"		"noborder"
-		
-		// depressed style    
-		"depressedBgColor_override"	"Normal"
-		"depressedFgColor_override" "QuestMap_BGImages"
 	}	
 	
 	"MapNameLabel"

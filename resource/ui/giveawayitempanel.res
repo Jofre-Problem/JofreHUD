@@ -1,6 +1,4 @@
-
-#base "ui2/timer_and_speed.res"
-"Resource/UI/GiveawayItemPanel.res"
+"x"
 {
 	"cleanhurt"
 	{
@@ -26,7 +24,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"PaintBackground"	"1"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 		"keyboardinputenabled"	"0"
 	}
 	"CaratLabel"

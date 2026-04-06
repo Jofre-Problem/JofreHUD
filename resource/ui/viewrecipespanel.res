@@ -41,9 +41,9 @@
 			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
 			"armedFgColor_override" "235 226 202 255"
-			"armedBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "blank"
 			"depressedFgColor_override" "178 82 22 255"
-			"depressedBgColor_override" "0 0 0 0"
+			"depressedBgColor_override" "blank"
 			"auto_wide_tocontents" "1"
 			
 			"pin_to_sibling"               "CenterPositioner"
@@ -83,7 +83,7 @@
 		"labelText"		"#CraftRecipe"
 		"textAlignment"		"center"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 	
 	"TopLine"

@@ -39,7 +39,7 @@
 			"wide"			"300"
 			"tall"			"300"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
@@ -106,7 +106,7 @@
 			"wide"			"84"
 			"tall"			"64"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -181,7 +181,7 @@
 			"wide"			"84"
 			"tall"			"64"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -210,7 +210,7 @@
 			"wide"			"160"
 			"tall"			"160"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"blank"
 			"noitem_textcolor"		"117 107 94 255"
 			//"PaintBackgroundType"	"2"
 			"paintborder"	"0"
@@ -366,7 +366,7 @@
 					"disabledBgColor_override" "0 0 0 255"
 					"selectionColor_override" "0 0 0 255"
 					"selectionTextColor_override" "235 226 202 255"
-					"defaultSelectionBG2Color_override" "0 0 0 0"
+					"defaultSelectionBG2Color_override" "blank"
 				}
 
 			}
@@ -477,7 +477,7 @@
 					"disabledBgColor_override" "0 0 0 255"
 					"selectionColor_override" "0 0 0 255"
 					"selectionTextColor_override" "235 226 202 255"
-					"defaultSelectionBG2Color_override" "0 0 0 0"
+					"defaultSelectionBG2Color_override" "blank"
 				}
 
 				"PainterlyOptions"
@@ -606,7 +606,7 @@
 						"disabledBgColor_override" "0 0 0 255"
 						"selectionColor_override" "0 0 0 255"
 						"selectionTextColor_override" "235 226 202 255"
-						"defaultSelectionBG2Color_override" "0 0 0 0"
+						"defaultSelectionBG2Color_override" "blank"
 					}
 				}
 			}

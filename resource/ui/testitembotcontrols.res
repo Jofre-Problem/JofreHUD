@@ -77,7 +77,7 @@
 		"bgcolor_override"	"251 235 202 0"
 		"disabledFgColor_override" "117 107 94 0"
 		"disabledBgColor_override" "251 235 202 0"
-		"selectionColor_override" "0 0 0 0"
+		"selectionColor_override" "blank"
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "251 235 202 255"
 	}

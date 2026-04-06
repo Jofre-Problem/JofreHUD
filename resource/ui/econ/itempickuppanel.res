@@ -1,3 +1,4 @@
+#base "cyclingadcontainer.res"
 "Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"
@@ -348,49 +349,22 @@
 				}									
 	"NextButton"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"		"NextButton"
 		"xpos"			"c195"
 		"ypos"			"350"
-		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		
-
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
 		"labelText"		"#NextItem"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		//
-		
 		"Command"		"nextitem"
-		
-		
 	}
 	"PrevButton"
 	{
-		"ControlName"		"CExButton"
-		"fieldName"		"PrevButton"
 		"xpos"			"c-265"
 		"ypos"			"350"
-		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"30"
-		
-
-		"visible"		"1"
-		"enabled"		"1"
-		//	"0"
 		"labelText"		"#PreviousItem"
-		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
-		//
-		
 		"Command"		"previtem"
-		
-		
 	}
 	
 	"CloseButton"
@@ -409,9 +383,6 @@
 		//	"0"
 		"labelText"		"#CloseItemPanel"
 		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		//
-		
 		"Command"		"vguicancel"
 		"default"		"1"
 		

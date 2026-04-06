@@ -91,7 +91,6 @@
 	"FadeTransition"
 	{
 		"ControlName"			"Panel"
-		"fieldName" "fadetransition"
 		"visible"				"0"
 	}
 }

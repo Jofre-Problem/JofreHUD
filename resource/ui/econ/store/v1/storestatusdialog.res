@@ -35,7 +35,7 @@
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 	
 	"CloseButton"

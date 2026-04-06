@@ -12,8 +12,6 @@
 		"ypos"					"155"
 		"wide"					"320"
 		"tall"					"170"
-		"bgcolor_override"		"0 0 0 255"
-		//
 	}
 
 	"TitleLabel"

@@ -25,9 +25,8 @@
 	}
 	"WarningLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"WarningLabel"
-		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"170"

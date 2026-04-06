@@ -1,5 +1,5 @@
 #base "vrcalibration.res"
-#base "ui3/base/label2.res.res"
+#base "ui3/base/label2.res"
 "Resource/UI/CraftingStatusDialog.res"
 {
 	"CraftingStatusDialog"
@@ -33,7 +33,7 @@
 		"centerwrap"	"0"
 		"labelText"		""
 		"textAlignment"		"center"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 	}
 	
 	"RecipeItemModelPanel"
@@ -55,7 +55,7 @@
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 		"auto_wide_tocontents" "1"
 		
 		"pin_to_sibling"               "CenterPositioner"
@@ -78,7 +78,7 @@
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "blank"
 		
 		"pin_to_sibling"               "TitleLabel"
         "pin_corner_to_sibling"        "0"          

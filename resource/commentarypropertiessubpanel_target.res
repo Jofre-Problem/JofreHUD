@@ -19,11 +19,6 @@
 		"wide"		"680"
 		"tall"		"24"
 
-		//"PinnedCornerOffsetY" "-20"
-		
-
-		"editable"		"1"
-		"maxchars"		"-1"
 	}
 	"TargetNameLabel"
 	{
