@@ -110,7 +110,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"maps_learnmore"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 }

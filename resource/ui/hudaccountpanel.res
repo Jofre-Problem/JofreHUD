@@ -45,7 +45,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"font"			"MedHealtarget"
-		"fgcolor"		"0 0 0 100"
+		"fgcolor"		"TransparentLightBlack"	
 		"proportionaltoparent"		"1"
 		"pin_to_sibling"	"AccountValue"
 	}

@@ -16,211 +16,82 @@
 		"textinsetx"		"10"
 		"Command"			"startbasictraining"
 		
-		
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		"paintborder"		"0"
-		
-		// default style
-		"defaultBgColor_override"	"Normal"
-		"defaultFgColor_override" "MatchmakingMenuItemBackground"
-		"border_default"		"noborder"
-		
-		// armed style
-		"armedBgColor_override"	"greensolid"
-		"armedFgColor_override" 	"QuestMap_BGImages"
-		"border_armed"		"noborder"
-		
-		// depressed style    
-		"depressedBgColor_override"	"Normal"
-		"depressedFgColor_override" "QuestMap_BGImages"
 	}
 	
 	"OverlayPanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"OverlayPanel"
-		"xpos"				"20"
-		"ypos"				"20"
-		"wide"				"300"
-		"tall"				"200"
-		"visible"			"1"
-		"enabled"			"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"40 37 37 0"
-		"border"			"ButtonBorder"
+		"xpos"				"1"
+		"ypos"				"1"
+		"wide"				"1"
+		"tall"				"1"
+		"visible"			"0"
 		
 		"ClassNameLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ClassNameLabel"
-			"font"			"HudFontMediumBold"
-			"labelText"		"%classname%"
-			"textAlignment"	"left"
-			"xpos"			"10"
-			"ypos"			"5"
-			"zpos"			"1"
-			"wide"			"430"
-			"tall"			"20"
-			//"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"DescLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DescLabel"
-			"font"			"ItemFontAttribLarge"
-			"labelText"		"%description%"
-			"textAlignment"	"left"
-			"xpos"			"10"
-			"ypos"			"10"
-			"wide"			"280"
-			"tall"			"100"
-			//"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"1"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"WeaponSetLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"WeaponSetLabel"
-			"font"			"HudFontSmallest"
-			"labelText"		"#TR_StandardWeaponSet"
-			"textAlignment"	"center"
-			"xpos"			"10"
-			"ypos"			"100"
-			"wide"			"300"
-			"tall"			"15"
-			//"	"1"
-			"visible"		"0"
-			"enabled"		"0"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"WeaponImage0"
-		{
-			"ControlName"	"ImagePanel"
-			"FieldName"		"WeaponImage0"
-			"xpos"			"15"
-			"ypos"			"100"
-			"wide"			"70"
-			"tall"			"70"
-			"visible"		"1"
-			"tileImage"		"0"
-			"scaleImage"	"1"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"WeaponImage1"
-		{
-			"ControlName"	"ImagePanel"
-			"FieldName"		"WeaponImage1"
-			"xpos"			"115"
-			"ypos"			"100"
-			"wide"			"70"
-			"tall"			"70"
-			"visible"		"1"
-			"tileImage"		"0"
-			"scaleImage"	"1"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"WeaponImage2"
-		{
-			"ControlName"	"ImagePanel"
-			"FieldName"		"WeaponImage2"
-			"xpos"			"215"
-			"ypos"			"100"
-			"wide"			"70"
-			"tall"			"70"
-			"visible"		"1"
-			"tileImage"		"0"
-			"scaleImage"	"1"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"PrimaryLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"PrimaryLabel"
-			"font"			"ItemFontAttribLarge"
-			"labelText"		"#TR_Primary"
-			"textAlignment"	"center"
-			"xpos"			"15"
-			"ypos"			"165"
-			"wide"			"70"
-			"tall"			"15"
-			//"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"SecondaryLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SecondaryLabel"
-			"font"			"ItemFontAttribLarge"
-			"labelText"		"#TR_Secondary"
-			"textAlignment"	"center"
-			"xpos"			"115"
-			"ypos"			"165"
-			"wide"			"70"
-			"tall"			"15"
-			//"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 		
 		"MeleeLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MeleeLabel"
-			"font"			"ItemFontAttribLarge"
-			"labelText"		"#TR_Melee"
-			"textAlignment"	"center"
-			"xpos"			"215"
-			"ypos"			"165"
-			"wide"			"70"
-			"tall"			"15"
-			//"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"QuestMap_BGImages"
-		}
+	{
+		"ControlName"	"Panel"
+		"visible"		"0"
+	}
 	}
 	
 	"ClassImage"
 	{
-		"ControlName"	"ImagePanel"
-		"FieldName"		"ClassImage"
-		"xpos"			"325"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"200"
-		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 	
 	"ClassIconImage"
 	{
-		"ControlName"	"ImagePanel"
-		"FieldName"		"ClassIconImage"
-		"xpos"			"375"
-		"ypos"			"20"
-		"wide"			"50"
-		"tall"			"50"
-		"visible"		"1"
-		"tileImage"		"0"
-		"scaleImage"	"1"
-		"alpha"			"255"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
 }

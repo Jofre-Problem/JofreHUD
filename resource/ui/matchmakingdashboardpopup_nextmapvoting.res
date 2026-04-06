@@ -74,8 +74,8 @@
 				//
 				"default"		"0"
 				"labeltext"		""
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"toggle_hide"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -124,8 +124,8 @@
 				//
 				"default"		"0"
 				"labeltext"		""
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"toggle_hide"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"

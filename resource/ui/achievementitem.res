@@ -1,5 +1,5 @@
 #base "hudachievementtrackeritem.res"
-"AchievementItem.res"
+"x"
 {	
 	"AchievementDialogItemPanel"
 	{

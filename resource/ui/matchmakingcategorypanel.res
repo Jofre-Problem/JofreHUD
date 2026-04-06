@@ -88,8 +88,8 @@
 			"selectedBGColor_override" "greensolid"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 
 			"image_default"	"glyph_expand"
 

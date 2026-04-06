@@ -45,7 +45,7 @@
 		//		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
-	//	"bgcolor_override"	"0 0 0 100"
+	//	"bgcolor_override"	"TransparentLightBlack"	
 	}
 
 	"WarningSwoop"
@@ -59,7 +59,7 @@
 		"tall"			"220"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/warnin156 53 51 255"
+		"image"			""
 		"scaleImage"	"1"
 		"time"			"0.3"		
 	}

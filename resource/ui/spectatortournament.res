@@ -92,7 +92,7 @@
 				auto_wide_tocontents "1"
 
 				"fgcolor"		"White"
-				"bgcolor_override"	"0 0 0 100"
+				"bgcolor_override"	"TransparentLightBlack"	
 				"proportionaltoparent"		"1"
 
 
@@ -254,7 +254,7 @@
 		"zpos"	"100"
 		"variable"		"chargeamount"
 		"fgcolor_override"	"90 255 2 255"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"TransparentLightBlack"	
 	}		
 			"classimagebg"
 			{

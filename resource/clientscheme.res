@@ -23,6 +23,7 @@ Scheme
 		"HudBlack"										"66 63 61 255"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentLightBlack"								"0 0 0 100"
+		"LabelTransparent"									"0 0 0 100"
 		"FooterBGBlack"		"28 26 25 255"
 		//=============================================================================
 		// ITEM QUALITY COLORS
@@ -125,7 +126,7 @@ Scheme
 		"HealthBgGrey"										"60 60 60 255"
 
 		"ProgressOffWhiteTransparent"						"227 228 230 255"
-		"LabelTransparent"									"0 0 0 100"
+		
 
 		"BuildMenuActive"									"227 228 230 255"
 

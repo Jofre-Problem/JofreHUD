@@ -540,8 +540,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"icons_left"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}		
 	"IconsMoveRightButton"
 	{
@@ -563,8 +563,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"icons_right"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 	
 	"ClassUsageMouseoverLabel"
@@ -610,8 +610,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"-1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}		
 	"RotRightButton"
 	{
@@ -633,8 +633,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}	
 				
 	"NextWeaponButton"
@@ -658,8 +658,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"next_weapon"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}					
 
 	"ZoomButton"
@@ -683,8 +683,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"zoom_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"TeamButton"
@@ -708,8 +708,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"team_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"PaintNameLabel"

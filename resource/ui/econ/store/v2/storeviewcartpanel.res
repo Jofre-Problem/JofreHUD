@@ -126,8 +126,8 @@
 				"brighttext"	"0"
 				"default"		"1"
 				"Command"		"remove"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}	
 			
 			"PriceLabel"
@@ -469,8 +469,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}		
 	
 	"CheckoutButton"
@@ -494,8 +494,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"checkout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 }

@@ -256,8 +256,8 @@
 				"brighttext"	"0"
 				"default"		"1"
 				"Command"		"doneselectingitems"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"actionsignallevel"	"3"
 				"proportionaltoparent"	"1"
 				"paintbackground"			"0"

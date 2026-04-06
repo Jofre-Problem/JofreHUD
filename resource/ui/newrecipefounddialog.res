@@ -3,8 +3,6 @@
 {
 	"RecipeItemModelPanel"
 	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"RecipeItemModelPanel"
 		"xpos"			"50"
 		"ypos"			"40"
 		"zpos"			"100"

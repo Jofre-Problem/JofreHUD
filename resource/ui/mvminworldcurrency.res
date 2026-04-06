@@ -18,10 +18,10 @@
 
 		
 		"bgcolor_override"	"Normal"
-				"proportionaltoparent"	"1"
+		"proportionaltoparent"	"1"
 		"text_center"			"1"
 		"textinsetx"			"28"
-				"auto_wide_tocontents" "1"	
+		"auto_wide_tocontents" "1"	
 	}
 
 	"CurrencyBad"

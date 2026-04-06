@@ -46,8 +46,8 @@
                 "armedfgcolor_override"     "yellow"
                 "command"                   "save_search_criteria"
                 "actionsignallevel"         "3"
-                "sound_depressed"           "ui/buttonclick.wav"
-                "sound_released"            "ui/buttonclickrelease.wav"
+                
+                
             }
             "Button2"
             {
@@ -62,7 +62,7 @@
                 "font"                      "tffontsmall"
                 "labelText"                 "Save"
                 "textAlignment"             "center"
-                "defaultbgcolor_override"   "0 0 0 100"
+                "defaultbgcolor_override"   "TransparentLightBlack"	
                 "armedbgcolor_override"     "blank"
 				paintBackground 1
                 "defaultfgcolor_override"   "green"
@@ -110,8 +110,8 @@
                 "armedfgcolor_override"     "yellow"
                 "command"                   "restore_search_criteria"
                 "actionsignallevel"         "3"
-                "sound_depressed"           "ui/buttonclick.wav"
-                "sound_released"            "ui/buttonclickrelease.wav"
+                
+                
             }
             "Button2"
             {

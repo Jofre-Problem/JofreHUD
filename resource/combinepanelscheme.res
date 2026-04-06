@@ -127,15 +127,15 @@ Scheme
 		ScrollBarSlider.FgColor				"245 245 245 180"
 		ScrollBarSlider.BgColor				"0 0 1 100"	// slider background color
 
-		SectionedListPanel.HeaderTextColor	"black"
+		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"black"
-		SectionedListPanel.BrightTextColor	"black"
+		SectionedListPanel.DividerColor		"White"
+		SectionedListPanel.TextColor		"White"
+		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"255 155 0 255"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"White"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
 		"Slider.NobColor"									"255 255 255 255"

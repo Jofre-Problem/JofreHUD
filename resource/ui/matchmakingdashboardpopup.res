@@ -123,8 +123,8 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"ui/buttonclick.wav"
-					"sound_released"	"ui/buttonclickrelease.wav"
+					
+					
 				}
 
 				"RequeueButton"
@@ -152,8 +152,8 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 
-					"sound_depressed"	"ui/buttonclick.wav"
-					"sound_released"	"ui/buttonclickrelease.wav"
+					
+					
 				}
 			}
 
@@ -220,8 +220,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"ui/buttonclick.wav"
-					"sound_released"	"ui/buttonclickrelease.wav"
+					
+					
 				}
 			}
 
@@ -391,8 +391,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"ui/buttonclick.wav"
-					"sound_released"	"ui/buttonclickrelease.wav"
+					
+					
 				}
 			}
 		}
@@ -504,8 +504,8 @@
 					"actionsignallevel"	"3"
 					//"paintbackground"	"1"
 
-					"sound_depressed"	"ui/buttonclick.wav"
-					"sound_released"	"ui/buttonclickrelease.wav"
+					
+					
 				}
 			}
 		}
@@ -603,8 +603,8 @@
 				"actionsignallevel"	"2"
 				//"paintbackground"	"1"
 
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 			}
 
 			"JoinNowButton"
@@ -635,8 +635,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 			}
 		}
 

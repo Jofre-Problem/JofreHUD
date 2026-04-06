@@ -1,3 +1,4 @@
+#base "../training/basictraining/classselection.res"
 "Resource/UI/econ/InputStringForItemBackpackOverlayDialog.res"
 {
 	"InputStringForItemBackpackOverlayDialog"
@@ -186,9 +187,6 @@
 
 	"DescLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DescLabel"
-		"font"			"HudFontSmallestBold"
 		"labelText"		"#ShuffleContents_Desc"
 		"textAlignment"	"center"
 		"xpos"			"10"
@@ -196,12 +194,6 @@
 		"zpos"			"0"
 		"wide"			"f10"
 		"tall"			"60"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"centerwrap"	"1"
-		"proportionalToParent"	"1"
 	}
 
 	"ShuffleProgress"
@@ -265,8 +257,8 @@
 		"default"		"1"
 		"tabPosition"	"0"
 		"Command"		"shuffle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"proportionalToParent"	"1"
 	}
 		
@@ -292,8 +284,8 @@
 		"default"		"0"
 		"Command"		"cancel"
 		"tabPosition"	"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"proportionalToParent"	"1"
 	}
 
@@ -318,8 +310,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"getkey"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"proportionalToParent"	"1"
 	}
 
@@ -344,8 +336,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"usekey"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"proportionalToParent"	"1"
 	}
 }

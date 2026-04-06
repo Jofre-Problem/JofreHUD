@@ -1,5 +1,3 @@
-#base "../../../../../../cfg/_jp_mm_bg.txt"
-#base "../../../../../cfg/_jp_mm_bg.txt"
 "Resource/UI/TradingPanel.res"
 {
 	"BGImage"
@@ -38,7 +36,7 @@
 		"wide"			"f0"
 		"tall"			"200"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"TransparentLightBlack"	
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"1"
 		"paintborder"	"0"

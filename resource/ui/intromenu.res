@@ -21,24 +21,13 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
 		"xpos"			"r190"
-		//xpos_lodef			"r222"
-		//			"r232"
 		"ypos"			"r40"
-		//			"r64"
-		//			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
-		//	"0"
-
 		"visible"		"1"
-		
-		
 		"labelText"		"#Button_SkipIntro"
 		"textAlignment"		"center"
-		//
-		//
-		//
 		"command"		"skip"
 		"font"			"MenuSmallFont"
 	}

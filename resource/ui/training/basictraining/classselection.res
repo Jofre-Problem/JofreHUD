@@ -4,9 +4,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DescLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"HudFontSmallest"
 		"labelText"		"#TF_COMPLETE_TRAINING_DESC"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"xpos"			"0"
 		"ypos"			"215"
 		"zpos"			"1"

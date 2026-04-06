@@ -138,9 +138,9 @@
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 		}			
 		"items"
@@ -1433,9 +1433,9 @@
 				pin_to_sibling "PrevButton"
 		"Pin_Corner_To_Sibling"		"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"		"PIN_TOPRIGHT"					
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 			"PrevButton"
 			{
@@ -1466,9 +1466,9 @@
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}			
 		}
 		"items"
@@ -2370,7 +2370,7 @@
 	//	"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 	//	"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"c1111labelb"
 		{
@@ -2397,7 +2397,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
@@ -2418,7 +2418,7 @@
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"manco2labelb"
 		{
@@ -2445,7 +2445,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
@@ -2466,7 +2466,7 @@
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"manco3labelb"
 		{
@@ -2493,7 +2493,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
@@ -2528,7 +2528,7 @@
 		"tall"			"20"
 
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"manco4labelb"
 		{
@@ -2555,7 +2555,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
@@ -2576,7 +2576,7 @@
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"manco5labelb"
 		{
@@ -2603,7 +2603,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"
@@ -2624,7 +2624,7 @@
 		"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 		"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
 		"fgcolor"		"ItemAttribLevel"
-		bgcolor_override "0 0 0 100"
+		bgcolor_override "TransparentLightBlack"	
 	}	
 		"manco6labelb"
 		{
@@ -2651,7 +2651,7 @@
 			
 			
 			paintBackground 1
-			defaultbgcolor_override "0 0 0 100"
+			defaultbgcolor_override "TransparentLightBlack"	
 			"defaultFgColor_override"	"ItemAttribLevel"
 			"armedFgColor_override"		"243 244 246 255"
 			"depressedFgColor_override" "TanLight"

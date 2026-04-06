@@ -283,8 +283,8 @@
 		"brighttext"	"0"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"

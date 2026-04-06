@@ -210,8 +210,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"discarditem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}			
 	
 	"backpack_panel"
@@ -249,8 +249,8 @@
 		"brighttext"	"0"
 		"Command"		"vguicancel"
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"ShowExplanationsButton"
@@ -274,8 +274,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"show_explanations"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"StartExplanation"
@@ -359,8 +359,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -424,8 +424,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"nextexplanation"
 			
 			"paintbackground"	"0"
@@ -534,8 +534,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -581,8 +581,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"prevexplanation"
 			
 			"paintbackground"	"0"
@@ -646,8 +646,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"nextexplanation"
 			
 			"paintbackground"	"0"
@@ -755,8 +755,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -802,8 +802,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"prevexplanation"
 			
 			"paintbackground"	"0"

@@ -273,8 +273,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"startshopping"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"TextContainerPanel"
@@ -559,7 +559,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

@@ -93,7 +93,7 @@
 		proportionaltoparent		1
 		visible						1
 		mouseinputenabled			0
-		bgcolor_override			"0 0 0 100"
+		bgcolor_override			"TransparentLightBlack"	
 		"border"	"l4d2"
 	}
 	"Spinner"
@@ -134,7 +134,7 @@
 		tall							o1
 		paintbackground				1
 		defaultBgColor_override		"0 0 0 0"
-		armedBgColor_override		"0 0 0 100"
+		armedBgColor_override		"TransparentLightBlack"	
 
 		border_default				"NoBorder"
 		border_armed				"l4d2"		

@@ -194,8 +194,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -328,8 +328,8 @@
 				"brighttext"	"0"
 				"default"		"0"
 				"labeltext"		""
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"view_map"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -393,8 +393,8 @@
 				"brighttext"	"0"
 				"default"		"0"
 				"labeltext"		""
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"rewards_store"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -441,8 +441,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"debug_menu"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -747,8 +747,8 @@
 
 							"paintbackground"	"1"
 
-							"sound_depressed"	"UI/buttonclick.wav"
-							"sound_released"	"UI/buttonclickrelease.wav"
+							
+							
 
 							"defaultFgColor_override"	"TanLight"
 							"armedFgColor_override"		"TanLight"

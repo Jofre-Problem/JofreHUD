@@ -1,34 +1,8 @@
-#base "ui2/partyslot0.res"
 #base "ui2/tank_gif.res"
 #base "ui2/keybindings.res"
 #base "lobbypanel.res"
 "Resource/UI/TeamMenu.res"
 {
-		"MOTD_Panel"	{	
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_Panel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1010"
-		"wide"			"f0"
-		"tall"			"f0"
-		"border"	"noborder"
-		"labeltext"	"0"
-		"bgcolor_override"	"blank"
-		"mouseInputEnabled"	"0"
-					"LogoImage"
-					{
-					"ControlName""ImagePanel"
-					"fieldName""LogoImage"
-					"xpos""rs1"
-					"ypos""rs1"
-					"wide""280"
-					"tall""o1"
-
-					//"image""replay/thumbnails/spray"
-					"scaleImage""1"
-					}		
-					}		
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -37,31 +11,6 @@
 			"wide""32"
 			"tall""o1"
 			}		
-	"Removeline"
-	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					cs-0.5
-			ypos					50
-			zpos					100
-			wide					42
-			tall					41
-		bgcolor_override				"blank"
-		mouseInputEnabled			0
-
-		"PartySlot0"  // player
-		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					42
-			tall					o1
-
-			party_slot				0
-		}	
-	}			
 	"MenuBG"
 	{
 		"visible"		"0"
@@ -221,12 +170,7 @@
 	{
 		"ControlName"	"panel"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"paintbackground"	"0"
-		"font"			"HudFontSmallishBold"
+		"visible" "0"
 	}	
 	"MapImage"
 	{

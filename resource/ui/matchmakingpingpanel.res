@@ -1,5 +1,5 @@
 #base "MatchMakingDashboardSidePanel.res"
-
+#base "training/basictraining/classselection.res"
 "Resource/UI/MatchMakingPingPanel.res"
 {
 	"PingPanel"
@@ -198,21 +198,14 @@
 
 	"DescLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"DescLabel"
 		"xpos"		"43"
 		"ypos"		"127"
 		"zpos"		"3"
 		"wide"		"p0.81"
 		"tall"		"45"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
-		"textAlignment"	"north-west"
-		"font"			"HudFontSmallest"
 		"wrap"		"1"
 		"fgcolor"		"117 107 94 255"
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
 		"button_activation_type"	"1"
 	}
 

@@ -108,15 +108,15 @@
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 			"PrevButton"
 			{
@@ -141,15 +141,15 @@
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}			
 		}
 
@@ -237,8 +237,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -290,9 +290,9 @@
 								textAlignment center
 								 "font"                      "itemfontnamelarge"
                                "command"   "engine ds_record"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 	                            "stoopp" {
@@ -312,9 +312,9 @@
 								 "font"                      "itemfontnamesmall"
 								 
                                "command"   "engine ds_stop"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -731,9 +731,9 @@
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine ds_enable 0"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 	                            "ds_enable2" {
@@ -753,9 +753,9 @@
 								 "font"                      "FontCartPrice"
 								 
                                "command"   "engine ds_enable 2"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -808,8 +808,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -937,8 +937,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -1068,8 +1068,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -1287,15 +1287,15 @@ proportionaltoparent 1
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 			"PrevButton"
 			{
@@ -1320,15 +1320,15 @@ proportionaltoparent 1
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}			
 		}
 
@@ -1416,8 +1416,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -1474,9 +1474,9 @@ proportionaltoparent 1
                                 "labeltext"                            ""
 								visible 0
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                         
                             }
@@ -1499,8 +1499,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle voice_modenable"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	}
 
@@ -1572,8 +1572,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle tf_contract_progress_show"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	}
 
@@ -1614,8 +1614,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle cl_enable_text_chat"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		
 	}
@@ -1686,8 +1686,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle cl_notifications_show_ingame"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	}
 
@@ -1759,8 +1759,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle closecaption"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	}
 
@@ -1833,8 +1833,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle tf_use_match_hud"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	
 	}
@@ -1873,8 +1873,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	}
 
@@ -1912,8 +1912,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle cl_hud_minmode"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	
 	}
@@ -1952,8 +1952,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle voice_loopback"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	
 	}
@@ -1992,8 +1992,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle crosshair"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		
 
@@ -2069,8 +2069,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		
 
@@ -2115,8 +2115,8 @@ proportionaltoparent 1
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
 
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		
 
@@ -2323,8 +2323,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle tf_dingalingaling"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 
 	}
@@ -2464,8 +2464,8 @@ proportionaltoparent 1
 		"Command"		"engine toggle tf_dingalingaling_lasthit"
 		"actionsignallevel"		"8"
 		"paintbackground"	"0"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 	
 	}
@@ -2651,8 +2651,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -2700,9 +2700,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Win"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2735,9 +2735,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Lose"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2769,9 +2769,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark ^LateBookmark"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2803,9 +2803,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Delete!"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2864,8 +2864,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -2915,9 +2915,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Pre-Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "First" {
@@ -2936,9 +2936,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark First-Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "Second" {
@@ -2957,9 +2957,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Second-Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "third" {
@@ -2978,9 +2978,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Third-Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "fourth" {
@@ -2999,9 +2999,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Fourth-Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                          "1k" {
@@ -3020,9 +3020,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 1000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "2k" {
@@ -3041,9 +3041,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 2000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                          "3k" {
@@ -3062,9 +3062,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 3000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "4k" {
@@ -3083,9 +3083,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 4000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
 
@@ -3113,9 +3113,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "6k" {
@@ -3134,9 +3134,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 6000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                          "7k" {
@@ -3155,9 +3155,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 7000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "8k" {
@@ -3176,9 +3176,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 8000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
 
@@ -3198,9 +3198,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 9000.Damage"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 						
@@ -3220,9 +3220,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Hiding"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -3243,9 +3243,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Miracle.Moment"                       
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "stupid" {
@@ -3264,9 +3264,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Stupid.Moment"                       
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -3286,9 +3286,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Spectating.Someone"                       
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "Spec" {
@@ -3307,9 +3307,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Spec.Hale"                     
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -3329,9 +3329,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark I.am.Hale!"                       
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "last" {
@@ -3350,9 +3350,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Im.Last.One.Alive"                     
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
 
@@ -3376,9 +3376,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 30.min.left"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "round2" {
@@ -3397,9 +3397,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 25.min.left"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                          "round23k" {
@@ -3418,9 +3418,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 20.min.left"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "round4k" {
@@ -3439,9 +3439,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 15.min.left"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
 
@@ -3469,9 +3469,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 10.min.left"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "round6k" {
@@ -3490,9 +3490,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5.min.left"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                          "ound7k" {
@@ -3511,9 +3511,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Last.Round"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "r8k" {
@@ -3532,9 +3532,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark WTF_Moment!"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
 
@@ -3592,8 +3592,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -3641,9 +3641,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 5.Killstreak"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3664,9 +3664,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 10.Killstreak"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3687,9 +3687,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 15.Killstreak"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3710,9 +3710,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark 20.Killstreak"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3735,9 +3735,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Dominating"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3758,9 +3758,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Killing.Spree"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3781,9 +3781,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark God-Like"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3804,9 +3804,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine ds_mark Monster.Kill"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3904,8 +3904,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -3983,8 +3983,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -4034,9 +4034,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 45.235.98.222:27080"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }
                             "win2" {
@@ -4057,9 +4057,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/45.235.98.222:27080"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "svldd" {
@@ -4080,9 +4080,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://discord.gg/SwpgRW4zKX"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }														
                             "skial" {
@@ -4101,9 +4101,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 91.216.250.54:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "skialweb" {
@@ -4124,9 +4124,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/91.216.250.54:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                             "skialwebbans" {
@@ -4147,9 +4147,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.skial.com/sourcebans/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "skialwebfff" {
@@ -4170,9 +4170,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.skial.com/forums/team-fortress-2.16/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }																								
                             "chillout" {
@@ -4191,9 +4191,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect s2.chillout.pw:27017"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "chillbans" {
@@ -4214,9 +4214,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://bans.chillout.pw/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "chillsvldd" {
@@ -4237,9 +4237,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://discord.com/invite/chillout-pw"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }									
                             "chillweb" {
@@ -4260,9 +4260,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/37.230.210.248:27017/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "chillwebssteam" {
@@ -4283,9 +4283,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/chilloutpwtf2"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
 
@@ -4305,9 +4305,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 74.91.119.154:27016"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }		
                             "discbans" {
@@ -4328,9 +4328,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://disc-ff.site.nfoservers.com/sourcebanstf2/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }								
                             "discffweb" {
@@ -4351,9 +4351,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/74.91.119.154:27016/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "discffssteam" {
@@ -4374,9 +4374,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/firefriendly"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }			
                             "discwebfff2" {
@@ -4397,9 +4397,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://disc-ff.com/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }																	
                             "discff2" {
@@ -4418,9 +4418,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 145.239.70.42:27019"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "discffwebx10" {
@@ -4441,9 +4441,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/145.239.70.42:27019/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "discffssteamx10" {
@@ -4464,9 +4464,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/NecGaming"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }									
                             "wimne" {
@@ -4485,9 +4485,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 45.235.99.105:27318"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "wwwebx10" {
@@ -4508,9 +4508,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.gametracker.com/server_info/45.235.99.105:27318/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "wwffssteamx10" {
@@ -4531,9 +4531,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/Winewald"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }										
                             "mill" {
@@ -4552,9 +4552,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 192.223.29.143:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "ponywwwebx10" {
@@ -4575,9 +4575,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://www.battlemetrics.com/servers/tf2/27391717"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }	
                             "ponywwffssteamx10" {
@@ -4598,9 +4598,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/VersusPonyvilleReborn"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }									
                             "vscr" {
@@ -4619,9 +4619,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "FontCartPrice"
                                "command"   "engine connect 136.47.136.13:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                             }																																									
 						}
@@ -4685,8 +4685,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -4735,9 +4735,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect trade.liquid.tf"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 
                            
@@ -4756,9 +4756,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://discord.com/invite/liquid-tf-1009357455312044102"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -4780,9 +4780,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://liquid.tf/"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -4806,9 +4806,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 193.221.192.210:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 
                            
@@ -4829,9 +4829,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 91.216.250.30:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 
                            
@@ -4852,9 +4852,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine connect 89.58.11.228:27015"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 
                            
@@ -4873,9 +4873,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/groups/sickfrags"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -4897,9 +4897,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://bans.sickfrags.com/index.php?p=home"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -4959,8 +4959,8 @@ proportionaltoparent 1
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 							"wide"						"293"
 
 				"textAlignment"				"center"
@@ -5009,9 +5009,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "ItemFontAttribLarge"
                                "command"   "engine map supertest"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5031,9 +5031,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://gamebanana.com/mods/571547"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -5055,9 +5055,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "url https://steamcommunity.com/sharedfiles/filedetails?id=3415171198"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"
@@ -5079,9 +5079,9 @@ proportionaltoparent 1
 								textAlignment center
 								 "font"                      "itemfontnamesmall"
                                "command"   "engine map workshop/3415171198"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
 								"defaultfgcolor_override"					"Normal"
 				"defaultbgcolor_override"			"188 183 183 255"

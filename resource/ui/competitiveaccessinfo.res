@@ -495,7 +495,7 @@
 				wide					p1
 				tall					10
 				proportionaltoparent		1
-				image					"replay/thumbnails/gradient"
+				image					"gradient_pure_black"
 				scaleImage				1
 				mouseinputenabled 0
 			}					

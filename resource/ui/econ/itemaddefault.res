@@ -178,8 +178,8 @@
 		"armedBgColor_override"		"72 133 32 255"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"MarketButton"
@@ -210,7 +210,7 @@
 		"armedBgColor_override"		"72 133 32 255"
 
 		"sound_armed"		"ui/item_info_mouseover.wav"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

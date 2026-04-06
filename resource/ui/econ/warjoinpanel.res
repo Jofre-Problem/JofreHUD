@@ -102,8 +102,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel"	"2"
@@ -216,8 +216,8 @@
 					"default"		"1"
 					"labelText"			"#MMenu_ViewUpdateComic" 
 					"command"		"view_update_comic"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					
 					"actionsignallevel"	"3"
 			
 				
@@ -478,7 +478,7 @@
 					"tall"	"80"
 					"proportionaltoparent"	"1"
 
-					"bgcolor_override"	"0 0 0 100"
+					"bgcolor_override"	"TransparentLightBlack"	
 
 					"WarStandingsProgressBar"
 					{
@@ -566,7 +566,7 @@
 					"tall"	"80"
 					"proportionaltoparent"	"1"
 
-					"bgcolor_override"	"0 0 0 100"
+					"bgcolor_override"	"TransparentLightBlack"	
 
 					"WarStandingsProgressBar"
 					{
@@ -692,8 +692,8 @@
 							"default"		"1"
 							"labelText"			"#Voice_Menu_Yes" 
 							"command"		"confirm_team"
-							"sound_depressed"	"UI/buttonclick.wav"
-							"sound_released"	"UI/buttonclickrelease.wav"
+							
+							
 							"actionsignallevel"	"5"
 			
 							"border_default"	"MainMenuButtonDefault"
@@ -732,8 +732,8 @@
 							"default"		"1"
 							"labelText"			"#Store_CANCEL" 
 							"command"		"dismiss_joining_result"
-							"sound_depressed"	"UI/buttonclick.wav"
-							"sound_released"	"UI/buttonclickrelease.wav"
+							
+							
 							"actionsignallevel"	"5"
 			
 							"border_default"	"MainMenuButtonDefault"
@@ -846,8 +846,8 @@
 							"default"		"1"
 							"labelText"			"#TF_OK" 
 							"command"		"dismiss_joining_result"
-							"sound_depressed"	"UI/buttonclick.wav"
-							"sound_released"	"UI/buttonclickrelease.wav"
+							
+							
 							"actionsignallevel"	"5"
 			
 							"border_default"	"MainMenuButtonDefault"
@@ -933,8 +933,8 @@
 							"default"		"1"
 							"labelText"			"#TF_OK" 
 							"command"		"dismiss_joining_result"
-							"sound_depressed"	"UI/buttonclick.wav"
-							"sound_released"	"UI/buttonclickrelease.wav"
+							
+							
 							"actionsignallevel"	"5"
 			
 							"border_default"	"MainMenuButtonDefault"
@@ -1034,8 +1034,8 @@
 						"default"		"1"
 						"labelText"			"#JoinHeavyButton" 
 						"command"		"join_war0"
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 						"actionsignallevel"	"4"
 			
 						"border_default"	"MainMenuButtonDefault"
@@ -1086,8 +1086,8 @@
 						"default"		"1"
 						"labelText"			"#JoinPyroButton" 
 						"command"		"join_war1"
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 						"actionsignallevel"	"4"
 			
 						"border_default"	"MainMenuButtonDefault"

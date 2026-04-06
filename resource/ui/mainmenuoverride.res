@@ -10,6 +10,7 @@
 	#base "ui3/mainmenuoverride_base.res"
 
     #base "../gamelogo.res"
+    #base "matchmakingtooltip.res"
 "j"
 {	
 "Safemode"
@@ -18,15 +19,6 @@
     ypos cs-0.5
     zpos 1000
     proportionaltoparent 0
-}
-	
-"ChatPin"
-{
-    "ControlName"    "Panel"
-}
-"partychat"
-{
- //   "pin_to_sibling"    "ChatPin"
 }
 	"1_btn"
 	{
@@ -41,9 +33,6 @@
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
 				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
 
 				
 		sound_depressed			"ui/buttonclick.wav"
@@ -67,9 +56,6 @@
 		command				"engine playerstats"
 				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
-
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
 		sound_depressed			"ui/buttonclick.wav"
 		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -92,8 +78,6 @@
 				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
 
-				"defaultBgColor_override" 	"Blank"
-				"armedBgColor_override" 	"Blank"
 
 	
 		sound_depressed			"ui/buttonclick.wav"
@@ -192,26 +176,6 @@
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 		}				
 
-	"MMDashboard"
-	{	
-		"xpos"		"0"
-	}					
-	"TFCharacterImage"
-	{
-		"tall"			"0"
-	}	
-	"CharacterSetupButton"
-	{
-		"tall"			"0"
-	}			
-	"TFLogoImage"
-	{
-		"wide"				"0"
-	}
-
-//	"NotificationNoYet"
-//	{		"ControlName"			"CExLabel"		"fieldName"				"NotificationNoYet"		"font"					"ItemTrackerScore_InGame"		"labelText"	"#MMenu_Notifications_Empty"		"centerwrap"		"1"		"xpos""rs1-5"		"ypos""36"		"zpos""20""wide"			"p0.085"		"tall"			"40"		"fgcolor_override" "ItemAttribLevel"
-//	}
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -220,118 +184,29 @@
 		"zpos"			"-200"
 		"wide"			"f0"
 		"tall"			"f0"
-		
-		if_wider
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-
-		if_taller
-		{
-			"wide"			"f0"
-			"tall"			"f0"
-		}
-		
-		if_halloween_0
-		{
-			"image"		""
-		}
-		if_halloween_1
-		{
-			"image"		""
-		}
-		if_halloween_2
-		{
-			"image"		""
-		}
-		if_halloween_3
-		{
-			"image"		""
-		}
-		if_halloween_4
-		{	
-			"image"		""
-		}
-		if_halloween_5
-		{	
-			"image"		""
-		}
-		if_fullmoon
-		{
-			"image"		""
-		}
-		if_christmas
-		{
-			"image"		""
-		}			
 	}	
-"RankModelPanel"
-{
-		"xpos"	"999"
-}
-
-	"CycleRankTypeButton"
-	{
-		wide					0
-	}
-	"RankTooltipPanel"
-	{
-		"wide"			"0"
-	}
-"TooltipPanel"
-{
-"ControlName""EditablePanel"
-"fieldName""TooltipPanel"
-
-"ypos"	"260"
-"zpos""10000"
-"wide""150"
-"tall""50"
-"visible""0"
-"PaintBackgroundType""2"
-"border""noborder"
-
-"TipSubLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TipSubLabel"
-"font""HudFontMediumSmallSecondary"
-"labelText""%tipsubtext%"
-"textAlignment""center"
-"xpos""20"
-"ypos""30"
-"zpos""2"
-"wide""250"
-"tall""50"
+    "TooltipPanel"
+    {
+        "TipSubLabel"
+        {
+        "ControlName""CExLabel"
+        "fieldName""TipSubLabel"
+        "font""HudFontMediumSmallSecondary"
+        "labelText""%tipsubtext%"
+        "textAlignment""center"
+        "xpos""20"
+        "ypos""30"
+        "zpos""2"
+        "wide""250"
+        "tall""50"
 
 
-//"visible""1"
+        //"visible""1"
 
-"fgcolor_override""TanDark"
-"wrap""1"
-}
-
-"TipLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TipLabel"
-"font""HudFontMediumSmallSecondary"
-"labelText""%tiptext%"
-"textAlignment""center"
-"xpos""20"
-"ypos""5"
-"zpos""2"
-"wide""140"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override""TanLight"
-"auto_wide_tocontents" "1"
-}
-}
+        "fgcolor_override""TanDark"
+        "wrap""1"
+        }
+    }
 
 	"CallVoteButton2"
 	{
@@ -569,8 +444,8 @@
 
 			"Command"		"noti_hide"
 
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			
 
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
@@ -801,11 +676,6 @@
 		}		
 
 	}
-
-
-	
-	
-	
 	"TFCharacterImage"
 	{
 		"visible"			"0"
@@ -818,12 +688,10 @@
 	{
 		"visible"				"0"
 	}
-
-"RankModelPanel"
-{
-		"xpos"	"999"
-}
-
+    "RankModelPanel"
+    {
+            "xpos"	"999"
+    }
 	"CycleRankTypeButton"
 	{
 		visible					0
@@ -832,61 +700,7 @@
 	{
 		"visible"			"0"
 	}
-"TooltipPanel"
-{
-"ControlName""EditablePanel"
-"fieldName""TooltipPanel"
 
-"ypos"	"260"
-"zpos""10000"
-"wide""150"
-"tall""50"
-"visible""0"
-"PaintBackgroundType""2"
-"border""noborder"
-
-"TipSubLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TipSubLabel"
-"font""HudFontMediumSmallSecondary"
-"labelText""%tipsubtext%"
-"textAlignment""center"
-"xpos""20"
-"ypos""30"
-"zpos""2"
-"wide""250"
-"tall""50"
-
-
-//"visible""1"
-
-"fgcolor_override""TanDark"
-"wrap""1"
-}
-
-"TipLabel"
-{
-"ControlName""CExLabel"
-"fieldName""TipLabel"
-"font""HudFontMediumSmallSecondary"
-"labelText""%tiptext%"
-"textAlignment""center"
-"xpos""20"
-"ypos""5"
-"zpos""2"
-"wide""140"
-"tall""30"
-
-
-//"visible""1"
-
-"fgcolor_override""TanLight"
-"auto_wide_tocontents" "1"
-}
-}
-
-	
 	"CallVoteButton"
 	{
 		visible					0					
@@ -1654,15 +1468,15 @@
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 			"PrevButton"
 			{
@@ -1687,15 +1501,15 @@
 				"actionsignallevel" "2"
 
 				"defaultBgColor_override"	"blank"
-				"armedBgColor_override"		"0 0 0 100"
+				"armedBgColor_override"		"TransparentLightBlack"	
 
 
 				"defaultFgColor_override"		"255 255 255 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}			
 		}
 
@@ -1972,8 +1786,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -2012,8 +1826,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -2053,9 +1867,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine exec presets/low.cfg; exec +mastercomfig.cfg; echo works"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2114,8 +1928,8 @@
                              "tall"                            "f1""actionsignallevel" "9"
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
-                               "command"   "engine exec presets/medium.cfg; exec +mastercomfig.cfg"                            "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                               "command"   "engine exec presets/medium.cfg; exec +mastercomfig.cfg"                            
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2177,8 +1991,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine exec presets/high; exec +mastercomfig"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2240,8 +2054,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine exec presets/ultra; exec +mastercomfig"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2372,8 +2186,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -2412,8 +2226,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -2453,9 +2267,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 2;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=low"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2515,8 +2329,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 1;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=medium"                
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2578,8 +2392,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_rootlod 0;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=high" 
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2641,8 +2455,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_rootlod 0;r_lod 0;r_staticprop_lod 0;alias lod_level echo lod=ultra" 
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2747,8 +2561,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -2787,8 +2601,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -2828,9 +2642,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin 999999;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo light"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2890,8 +2704,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin .0004;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo lighting=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -2953,8 +2767,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 0;r_maxdlights 0;r_worldlightmin .0002;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3016,8 +2830,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 1;r_maxdlights 4;r_worldlightmin .0002;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3079,8 +2893,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 1;r_maxdlights 32;r_worldlightmin .000001;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3194,8 +3008,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -3234,8 +3048,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -3275,9 +3089,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3337,8 +3151,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 0;alias shading_level echo shading=medium"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3400,8 +3214,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_bumpmap 1;mat_specular 1;mat_reducefillrate 0;mat_disable_fancy_blending 0;alias shading_level echo shading=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3505,8 +3319,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -3545,8 +3359,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -3586,9 +3400,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 0;r_rimlight 0;alias phong_level echo phong=off"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3648,8 +3462,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 1;r_rimlight 0;alias phong_level echo phong=on"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3711,8 +3525,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_phong 1;r_rimlight 1;alias phong_level echo phong=rim"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3820,8 +3634,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -3860,8 +3674,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -3901,9 +3715,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 0;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support sha_fla_support_aliases;alias shadows_level echo shadows=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -3963,8 +3777,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 1;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support;alias shadows_level echo shadows=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4026,8 +3840,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 11;nb_shadow_dist -1;shadowlod_low;alias shadowlod_override shadowlod_low;alias sha_fla_support;alias shadows_level echo shadows=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4089,8 +3903,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 23;nb_shadow_dist 400;shadowlod_low;alias shadowlod_override shadowlod_low;alias sha_fla_support;alias shadows_level echo shadows=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4152,8 +3966,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 160;nb_shadow_dist 8192;shadowlod_high;alias shadowlod_override shadowlod_high;alias sha_fla_support;alias shadows_level echo shadows=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4229,8 +4043,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -4269,8 +4083,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -4310,9 +4124,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 2;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=very_low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4372,8 +4186,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 1;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4435,8 +4249,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 1;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 10;cl_particle_batch_mode 1;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4498,8 +4312,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 0;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 1;muzzleflash_light 1;cl_fasttempentcollision 10;cl_particle_batch_mode 1;tf_particles_disable_weather 0;mat_reduceparticles 0;cl_drawmonitors 1;tf_monitor_resolution 1024;alias effects_level echo effects=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4561,8 +4375,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 0;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 1;cl_muzzleflash_dlight_1st 1;muzzleflash_light 1;cl_fasttempentcollision 0;cl_particle_batch_mode 0;tf_particles_disable_weather 0;mat_reduceparticles 0;cl_drawmonitors 1;tf_monitor_resolution 1024;alias effects_level echo effects=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4664,8 +4478,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -4704,8 +4518,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -4745,9 +4559,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 0;alias tracers_level echo tracers=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4807,7 +4621,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 1;alias tracers_level echo tracers=medium"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4869,8 +4683,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine tracer_extra 1;r_drawtracers_firstperson 1;alias tracers_level echo tracers=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -4948,8 +4762,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -4988,8 +4802,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -5029,9 +4843,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_WaterDrawReflection 0;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 0;tf_water_resolution 32;cheap_water_full;alias cheap_water_override cheap_water_full;alias water_level echo water=very_low; r_cheapwaterstart 0;r_cheapwaterend .1"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5091,8 +4905,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_cheapwaterstart 500;r_cheapwaterend 800; r_WaterDrawReflection 0;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 1;tf_water_resolution 128;cheap_water_partial;alias cheap_water_override cheap_water_partial;alias water_level echo water=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5154,8 +4968,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 0;r_waterforcereflectentities 0;r_WaterDrawRefraction 1;tf_water_resolution 256;cheap_water_light;alias cheap_water_override cheap_water_light;alias water_level echo water=medium; r_cheapwaterstart 2000;r_cheapwaterend 3500"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5217,8 +5031,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 0;r_waterforcereflectentities 1;r_WaterDrawRefraction 1;tf_water_resolution 1024;cheap_water_light;alias cheap_water_override cheap_water_light;alias water_level echo water=high; r_cheapwaterstart 2000;r_cheapwaterend 3500"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5280,8 +5094,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_WaterDrawReflection 1;r_waterforceexpensive 1;r_waterforcereflectentities 1;r_WaterDrawRefraction 1;tf_water_resolution 2048;cheap_water_never;alias cheap_water_override cheap_water_never;alias water_level echo water=ultra; r_cheapwaterstart 8192;r_cheapwaterend 8193"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5366,8 +5180,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -5406,8 +5220,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -5447,9 +5261,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_hdr_level 0;mat_colorcorrection 0;mat_colcorrection_disableentities 1;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar 1;r_shader_srgb 0;alias post_processing_level echo post_processing=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5509,8 +5323,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_hdr_level 1;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar 1;r_shader_srgb 0;alias post_processing_level echo post_processing=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5572,8 +5386,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_hdr_level 2;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar 1;r_shader_srgb 0;alias post_processing_level echo post_processing=default"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5635,7 +5449,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_hdr_level 2;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent 2.2;mat_bloom_scalefactor_scalar .25;r_shader_srgb 0;alias post_processing_level echo post_processing=calm"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5697,8 +5511,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_hdr_level 2;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent .45;mat_bloom_scalefactor_scalar .25;r_shader_srgb 0;alias post_processing_level echo post_processing=vivid"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5760,8 +5574,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_hdr_level 2;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent 0;mat_bloom_scalefactor_scalar 1.25;r_shader_srgb 0;alias post_processing_level echo post_processing=washed"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5825,8 +5639,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_hdr_level 2;mat_colorcorrection 1;mat_colcorrection_disableentities 0;r_bloomtintexponent 0;mat_bloom_scalefactor_scalar 1;r_shader_srgb 1;alias post_processing_level echo post_processing=dreamy"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -5916,8 +5730,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -5956,8 +5770,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -5997,9 +5811,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6059,7 +5873,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_strength 0;alias motion_blur_level echo motion_blur=refract"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6121,8 +5935,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 0;mat_motion_blur_percent_of_screen_max 1.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=low"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6185,8 +5999,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 1;mat_motion_blur_falling_max 20;mat_motion_blur_falling_min 10;mat_motion_blur_percent_of_screen_max 2.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6275,8 +6089,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -6315,8 +6129,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -6356,8 +6170,8 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_flex 0;flex_rules 0;anim_3wayblend 0;r_teeth 0;flex_smooth 0;r_eyes 0;r_eyemove 0;tf_clientsideeye_lookats 0;blink_duration 0;phonemefilter 1;phonemedelay -30;phonemesnap 0;alias characters_level echo characters=very_low"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6478,8 +6292,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_flex 1;flex_rules 1;anim_3wayblend 1;r_teeth 1;flex_smooth 1;r_eyes 1;r_eyemove 1;tf_clientsideeye_lookats 1;blink_duration .2;phonemefilter .08;phonemedelay 0;phonemesnap 2;alias characters_level echo characters=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6542,8 +6356,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_flex 1;flex_rules 1;anim_3wayblend 1;r_teeth 1;flex_smooth 1;r_eyes 1;r_eyemove 1;tf_clientsideeye_lookats 1;blink_duration .2;phonemefilter .007;phonemedelay 0;phonemesnap 4;alias characters_level echo characters=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6645,8 +6459,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -6685,8 +6499,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -6726,9 +6540,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_decals 1;mp_decals 1;r_decal_cover_count 10;r_decal_overlap_area 1.1;r_decal_overlap_count 10;r_drawbatchdecals 0;alias decals_sprays_support decals_sprays_support_aliases;alias decals_level echo decals=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6788,8 +6602,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                 "command"   "engine r_decals 9;mp_decals 9;r_decal_cover_count 1;r_decal_overlap_area .001;r_decal_overlap_count 1;r_drawbatchdecals 1;alias decals_sprays_support;alias decals_level echo decals=low"
-												     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+												     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6851,8 +6665,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_decals 32;mp_decals 32;r_decal_cover_count 1;r_decal_overlap_area .001;r_decal_overlap_count 1;r_drawbatchdecals 1;alias decals_sprays_support;alias decals_level echo decals=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6914,8 +6728,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_decals 80;mp_decals 80;r_decal_cover_count 1;r_decal_overlap_area .001;r_decal_overlap_count 1;r_drawbatchdecals 1;alias decals_sprays_support;alias decals_level echo decals=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -6977,8 +6791,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_decals 2048;mp_decals 2048;r_decal_cover_count 4;r_decal_overlap_area .4;r_decal_overlap_count 3;r_drawbatchdecals 1;alias decals_sprays_support;alias decals_level echo decals=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7079,8 +6893,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -7119,8 +6933,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -7160,9 +6974,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_drawmodeldecals 0;alias decals_models_level echo decals_models=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7222,7 +7036,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_drawmodeldecals 1;r_maxmodeldecal 1;alias decals_models_level echo decals_models=low"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7284,7 +7098,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_drawmodeldecals 1;r_maxmodeldecal 9;alias decals_models_level echo decals_models=medium"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7347,8 +7161,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_drawmodeldecals 1;r_maxmodeldecal 50;alias decals_models_level echo decals_models=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7427,8 +7241,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -7467,8 +7281,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -7508,9 +7322,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_allowdownload 0;cl_allowupload 0;r_spray_lifetime 0;cl_spraydisable 1;tf_delete_temp_files 1;tf_hide_custom_decals 1;alias sprays_level echo sprays=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7570,7 +7384,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_allowdownload 1;cl_allowupload 1;r_spray_lifetime 2;cl_spraydisable 0;tf_delete_temp_files 1;tf_hide_custom_decals 0;alias decals_clear;decals_sprays_support;alias sprays_level echo sprays=on"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7631,7 +7445,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_allowdownload 1;cl_allowupload 1;r_spray_lifetime 2;cl_spraydisable 0;tf_delete_temp_files 0;tf_hide_custom_decals 0;alias decals_clear;decals_sprays_support;alias sprays_level echo sprays=keep"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7743,8 +7557,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -7783,8 +7597,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -7824,9 +7638,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine violence_hgibs 1;violence_hblood 1;violence_agibs 1;violence_ablood 1;alias sillygibs_level echo sillygibs=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7886,7 +7700,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine violence_hgibs 0;violence_hblood 0;violence_agibs 0;violence_ablood 0;alias sillygibs_level echo sillygibs=on"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -7967,8 +7781,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -8007,8 +7821,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -8048,9 +7862,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_burninggibs 0;tf_playergib 0;props_break_max_pieces 0;sillygibs_on;sillygibs;alias gibs_level echo gibs=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8110,7 +7924,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_burninggibs 0;tf_playergib 1;props_break_max_pieces -1;sillygibs_off;sillygibs;alias gibs_level echo gibs=low"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8171,7 +7985,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_burninggibs 1;tf_playergib 1;props_break_max_pieces -1;sillygibs_off;sillygibs;alias gibs_level echo gibs=high"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8245,8 +8059,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -8285,8 +8099,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -8326,9 +8140,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_decalstaticprops 0;cl_phys_props_enable 0;r_propsmaxdist 0;lod_TransitionDist -1;detail_props_none;alias detail_props_override detail_props_none;alias props_level echo props=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8388,7 +8202,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_decalstaticprops 1;cl_phys_props_enable 1;r_propsmaxdist 500;lod_TransitionDist -5000;cl_phys_props_max 20;cl_phys_props_respawndist 500;cl_phys_props_respawnrate 120;detail_props_medium;alias detail_props_override detail_props_medium;alias props_level echo props=high"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8449,7 +8263,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_decalstaticprops 1;cl_phys_props_enable 1;r_propsmaxdist 8192;lod_TransitionDist 3592;cl_phys_props_max 100;cl_phys_props_respawndist 901;cl_phys_props_respawnrate 60;detail_props_full;alias detail_props_override detail_props_full;alias props_level echo props=ultra"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8536,8 +8350,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -8576,8 +8390,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -8617,9 +8431,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_ragdoll_fade_time -1;cl_ragdoll_forcefade 1;cl_ragdoll_physics_enable 0;cl_ragdoll_collide 0;ragdoll_sleepaftertime 0;alias ragdolls_level echo ragdolls=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8679,7 +8493,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_ragdoll_fade_time 5;cl_ragdoll_forcefade 0;cl_ragdoll_physics_enable 1;cl_ragdoll_collide 0;ragdoll_sleepaftertime 1.5;alias ragdolls_level echo ragdolls=medium"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8740,7 +8554,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_ragdoll_fade_time 15;cl_ragdoll_forcefade 0;cl_ragdoll_physics_enable 1;cl_ragdoll_collide 1;ragdoll_sleepaftertime 5;alias ragdolls_level echo ragdolls=high"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8822,8 +8636,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -8862,8 +8676,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -8903,9 +8717,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_jiggle_bone_framerate_cutoff 0;alias jigglebones_level echo jigglesbones=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -8965,7 +8779,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine l_jiggle_bone_framerate_cutoff 67;alias jigglebones_level echo jigglesbones=on"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9026,7 +8840,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_jiggle_bone_framerate_cutoff 1;alias jigglebones_level echo jigglesbones=force_on"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9095,8 +8909,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -9147,9 +8961,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip 2;alias texture_quality_level echo texture_quality=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9209,7 +9023,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip 1;alias texture_quality_level echo texture_quality=medium"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9270,7 +9084,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip 0;alias texture_quality_level echo texture_quality=high"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9331,7 +9145,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip -1;alias texture_quality_level echo texture_quality=very_high"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9392,7 +9206,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_picmip -10;alias texture_quality_level echo texture_quality=ultra"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9776,8 +9590,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -9816,8 +9630,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -9857,9 +9671,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine exec presets/low.cfg; exec +mastercomfig.cfg; echo works"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9918,8 +9732,8 @@
                              "tall"                            "f1""actionsignallevel" "9"
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
-                               "command"   "engine exec presets/medium.cfg; exec +mastercomfig.cfg"                            "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                               "command"   "engine exec presets/medium.cfg; exec +mastercomfig.cfg"                            
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -9981,8 +9795,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine exec presets/high; exec +mastercomfig"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10044,8 +9858,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine exec presets/ultra; exec +mastercomfig"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10176,8 +9990,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -10216,8 +10030,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -10257,9 +10071,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 2;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=low"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10319,8 +10133,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_rootlod 1;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=medium"                
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10382,8 +10196,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_rootlod 0;r_lod -1;r_staticprop_lod -1;alias lod_level echo lod=high" 
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10445,8 +10259,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_rootlod 0;r_lod 0;r_staticprop_lod 0;alias lod_level echo lod=ultra" 
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10551,8 +10365,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -10591,8 +10405,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -10632,9 +10446,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin 999999;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo light"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10694,8 +10508,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_ambientboost 0;r_lightaverage 0;r_dynamic 0;r_maxdlights 0;r_worldlightmin .0004;r_worldlights 0;mat_disable_lightwarp 1;r_pixelvisibility_partial 0;r_lightcache_zbuffercache 1;bicubic_off;alias lighting_level echo lighting=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10757,8 +10571,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 0;r_maxdlights 0;r_worldlightmin .0002;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10820,8 +10634,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 1;r_maxdlights 4;r_worldlightmin .0002;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10883,8 +10697,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_ambientboost 1;r_lightaverage 1;r_dynamic 1;r_maxdlights 32;r_worldlightmin .000001;r_worldlights 4;mat_disable_lightwarp 0;r_pixelvisibility_partial 1;r_lightcache_zbuffercache 0;bicubic_on;bicubic_override;alias lighting_level echo lighting=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -10998,8 +10812,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -11038,8 +10852,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -11079,9 +10893,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 1;alias shading_level echo shading=low"                          
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11141,8 +10955,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_bumpmap 0;mat_specular 0;mat_reducefillrate 1;mat_disable_fancy_blending 0;alias shading_level echo shading=medium"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11204,8 +11018,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_bumpmap 1;mat_specular 1;mat_reducefillrate 0;mat_disable_fancy_blending 0;alias shading_level echo shading=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11309,8 +11123,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -11349,8 +11163,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -11390,9 +11204,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 0;r_rimlight 0;alias phong_level echo phong=off"                        
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11452,8 +11266,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_phong 1;r_rimlight 0;alias phong_level echo phong=on"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11515,8 +11329,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_phong 1;r_rimlight 1;alias phong_level echo phong=rim"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11624,8 +11438,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -11664,8 +11478,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -11705,9 +11519,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 0;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support sha_fla_support_aliases;alias shadows_level echo shadows=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11767,8 +11581,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine r_shadows 1;r_shadowrendertotexture 0;cl_blobbyshadows 1;r_shadowmaxrendered 0;nb_shadow_dist -1;alias shadowlod_override;alias sha_fla_support;alias shadows_level echo shadows=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11830,8 +11644,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 11;nb_shadow_dist -1;shadowlod_low;alias shadowlod_override shadowlod_low;alias sha_fla_support;alias shadows_level echo shadows=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11893,8 +11707,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 23;nb_shadow_dist 400;shadowlod_low;alias shadowlod_override shadowlod_low;alias sha_fla_support;alias shadows_level echo shadows=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -11956,8 +11770,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine r_shadows 1;r_shadowrendertotexture 1;cl_blobbyshadows 0;r_shadowmaxrendered 160;nb_shadow_dist 8192;shadowlod_high;alias shadowlod_override shadowlod_high;alias sha_fla_support;alias shadows_level echo shadows=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12033,8 +11847,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -12073,8 +11887,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -12114,9 +11928,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 2;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=very_low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12176,8 +11990,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine cl_show_splashes 0;tf_impactwatertimeenable 1;fx_drawimpactdebris 0;fx_drawimpactdust 0;fx_drawmetalspark 0;r_drawflecks 0;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 1000000;cl_particle_batch_mode 1;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12239,8 +12053,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 1;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 0;muzzleflash_light 0;cl_fasttempentcollision 10;cl_particle_batch_mode 1;tf_particles_disable_weather 1;mat_reduceparticles 1;cl_drawmonitors 0;tf_monitor_resolution 32;alias effects_level echo effects=medium"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12302,8 +12116,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 0;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 0;cl_muzzleflash_dlight_1st 1;muzzleflash_light 1;cl_fasttempentcollision 10;cl_particle_batch_mode 1;tf_particles_disable_weather 0;mat_reduceparticles 0;cl_drawmonitors 1;tf_monitor_resolution 1024;alias effects_level echo effects=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12365,8 +12179,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine cl_show_splashes 1;tf_impactwatertimeenable 0;fx_drawimpactdebris 1;fx_drawimpactdust 1;fx_drawmetalspark 1;r_drawflecks 1;cl_ejectbrass 1;cl_muzzleflash_dlight_1st 1;muzzleflash_light 1;cl_fasttempentcollision 0;cl_particle_batch_mode 0;tf_particles_disable_weather 0;mat_reduceparticles 0;cl_drawmonitors 1;tf_monitor_resolution 1024;alias effects_level echo effects=ultra"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12468,8 +12282,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -12508,8 +12322,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -12549,9 +12363,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 0;alias tracers_level echo tracers=low"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12611,7 +12425,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine tracer_extra 0;r_drawtracers_firstperson 1;alias tracers_level echo tracers=medium"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12673,8 +12487,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine tracer_extra 1;r_drawtracers_firstperson 1;alias tracers_level echo tracers=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12753,8 +12567,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -12806,9 +12620,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine bind space +crouchjump"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12838,9 +12652,9 @@
                                 "labeltext"                            "ɡ"
                                 "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12904,9 +12718,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine bind space +crouchjump"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -12936,9 +12750,9 @@
                                 "labeltext"                            "ɡ"
                                 "font" "itemfontnamesmall"
                                "command"   "engine bind space +jump"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13027,8 +12841,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -13067,8 +12881,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -13108,9 +12922,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13170,7 +12984,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_strength 0;alias motion_blur_level echo motion_blur=refract"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13232,8 +13046,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 0;mat_motion_blur_percent_of_screen_max 1.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=low"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13296,8 +13110,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 1;mat_motion_blur_falling_max 20;mat_motion_blur_falling_min 10;mat_motion_blur_percent_of_screen_max 2.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13391,8 +13205,8 @@
                         "textinsetx"                "5"
                         "use_proportional_insets"   "1"
                         "command"                   "toggle_collapse"
-                        "sound_depressed"           "UI/buttonclick.wav"
-                        "sound_released"            "UI/buttonclickrelease.wav"
+                        
+                        
 
                         
                     }
@@ -13431,8 +13245,8 @@
                                 "use_proportional_insets"   "1"
                                 "allcaps"                   "1"
                                 
-                                "sound_depressed"           "UI/buttonclick.wav"
-                                "sound_released"            "UI/buttonclickrelease.wav"
+                                
+                                
 
                             }
                         }	
@@ -13472,9 +13286,9 @@
 								defaultbgcolor_override "TransparentBlack"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 0;alias motion_blur_level echo motion_blur=off"
-							     "sound_depressed"                         "ui/buttonclick.wav"
-                                 "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							     
+                                 
+                                
                                 "paintbackground"                             "1"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13534,7 +13348,7 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                                "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_strength 0;alias motion_blur_level echo motion_blur=refract"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13596,8 +13410,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 0;mat_motion_blur_percent_of_screen_max 1.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=low"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -13660,8 +13474,8 @@
                                 "proportionaltoparent"                            "1"
                                 "labeltext"                            ""
                               "command"   "engine mat_motion_blur_enabled 1;mat_motion_blur_falling_intensity 1;mat_motion_blur_falling_max 20;mat_motion_blur_falling_min 10;mat_motion_blur_percent_of_screen_max 2.5;mat_motion_blur_rotation_intensity .05;mat_motion_blur_strength .5;alias motion_blur_level echo motion_blur=high"
-							    "sound_depressed"                         "ui/buttonclick.wav"
-                                "sound_released"                  "ui/buttonclickrelease.wav"
+							    
+                                
                                 "paintbackground"                             "0"
                                 "image_drawcolor"                               "255 160 48 0"
                                 "image_armedcolor"                             "255 160 48 5"
@@ -14551,8 +14365,8 @@
 						"Command"		"view_newuser_forums"
 						"button_activation_type"	"1"
 
-						"sound_depressed"		"UI/buttonclick.wav"
-						"sound_released"		"UI/buttonclickrelease.wav"
+						
+						
 						"border_default"				"StoreFreeTrialBorder"
 						"border_armed"					"GrayDialogBorder"
 						"paintbackground"		"0"
@@ -14567,151 +14381,6 @@
 			"BottomStats"
 			{"visible"	"0"}
 		}
-	"EventPromo"
-	{
-		"visible"										"0"
-	}
-	"TestPanel"
-		{
-			"ControlName"		"CMatchHistoryEntryPanel"
-			"fieldName"		"TestPanel"
-			"wide"		"14"
-			"tall"		"400"	//same as collapsed_height?
-			"visible"	"1"
-			"ypos" "cs-0.5"
-			"xpos" "0"
-			"collapsed_height"	"14"	// actual area show by default
-			"expanded_height"	"219"
-			"resize_time"		"0.05"
-			"zpos" "1000"
-			border noborder
-			"ignorescheme"	"1"
-			expand_direction "right"
-			"container"
-			{"visible"	"0"}
-			"BottomStats"
-			{"visible"	"0"}			
-			"toggle"
-			{
-				"ControlName"	"Button"
-				"xpos"		"0"
-                ypos "cs-0.5"
-				"wide"		"f0"
-				"tall"		"184" // defines the tall
-				"visible"	"1"
-				"labelText"	">"
-				"textinsetx" "-6"
-				"font"		"scoreboardmedium"
-				"command"	"toggle_collapse"
-				"textAlignment"	"west"
-				"proportionaltoparent"	"1"
-				"button_activation_type"	"1"
-    
-				
-				
-
-				"paintbackground"	"1"
-			"defaultbgcolor_override" "0 0 0 120"
-				"defaultfgcolor_override" "greensolid"
-				"armedbgcolor_override" "0 0 0 220"
-				"armedfgcolor_override" "greensolid"
-			}
-			"RandomPinnerThatWorks" //leftover
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"RandomPinnerThatWorks"
-
-				"xpos"		"15"
-				ypos 0
-
-				"wide"		"90"
-				"tall"		"24"
-				"visible"		"0"
-
-				"alpha" "0"
-				//"		"2"
-			}		
-			"RandomImagePanel2"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"		"RandomImagePanel2"
-				"zpos"		"1"
-				"wide"		"182"
-				"tall"		"400"
-				"visible"	"1"	
-				paintBackground "1"	
-				bgcolor_override "0 0 0 205"
-				"pin_to_sibling"		"RandomPinnerThatWorks"
-
-				"Main1"			// other classes pinned to this
-				{
-					ControlName				CExButton
-					fieldName				"Main1"
-					"xpos"							"0"
-					"YPOS" "0"
-					"wide"							"60"
-					"tall"							"o1"
-					zpos	"300"
-					textAlignment			center
-					"actionsignallevel"		"3"
-					paintbackground 			1
-					"defaultbgcolor_override" "blank"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "0 0 0 100"
-                    depressedbgcolor_override "0 0 0 150"
-                    pin_to_sibling "album1"
-			
-					labelText				""
-					Command				"engine play vo/songs/duncan.mp3;sv_cheats 1; testhudanim MusicPlaying"
-
-				}
-				"Main2"			// other classes pinned to this
-				{
-					ControlName				CExButton
-					fieldName				"Main2"
-					"xpos"							"0"
-					"YPOS" "0"
-					"wide"							"60"
-					"tall"							"o1"
-					zpos	"300"
-					textAlignment			center
-					"actionsignallevel"		"3"
-					paintbackground 			1
-					"defaultbgcolor_override" "blank"
-					"defaultfgcolor_override" "ItemAttribLevel"
-					"armedbgcolor_override" "0 0 0 100"
-                    depressedbgcolor_override "0 0 0 150"
-                    pin_to_sibling "album2"
-			
-					labelText				""
-					Command				"engine play vo/songs/zar.mp3; sv_cheats 1; testhudanim MusicPlaying"
-
-				}                     	
-				"kanyeonsight"			// other classes pinned to this
-				{
-					ControlName				editablepanel
-					fieldName				"kanyeonsight"
-					"xpos"							"55"
-					"YPOS" "315"
-					"wide"							"60"
-					"tall"							"o1"
-                    "aaa"			// other classes pinned to this
-                    {
-                        ControlName				imagepanel
-                        fieldName				"aaa"
-                        "xpos"							"cs-0.5"
-                        "YPOS" "cs-0.5"
-                        "wide"							"68"
-                        "tall"							"o1"
-                        scaleImage 1
-                        proportionaltoparent "1"
-                        "image" "replay/thumbnails/songs/onsight"
-
-                    }	
-				}		                					
-			} // RandomImagePanel2 end
-		}	
-	
 	"TestPanel4"
 		{
 			"ControlName"		"CMatchHistoryEntryPanel"

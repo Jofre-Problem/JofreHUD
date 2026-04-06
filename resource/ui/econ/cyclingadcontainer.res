@@ -29,9 +29,9 @@
 		"defaultFgColor_override"		"255 255 255 170"
 		"armedFgColor_override"		"white"
 
-		"sound_armed"		""
-		"sound_depressed"	""
-		"sound_released"	""
+		
+		
+		
 	}
 
 	"NextButton"
@@ -63,9 +63,9 @@
 		"defaultFgColor_override"		"255 255 255 170"
 		"armedFgColor_override"		"white"
 
-		"sound_armed"		""
-		"sound_depressed"	""
-		"sound_released"	""
+		
+		
+		
 	}
 
 	"AdsContainer"

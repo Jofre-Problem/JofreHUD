@@ -20,14 +20,14 @@
 	{
 		"ControlName"								"panel"
 		"fieldname"									"CTFLogoPanel"
-		"xpos"										"9999"
+		"visible"										"0"
 	}
 
 	"QueueText"
 	{
 		"ControlName"								"panel"
 		"fieldName"									"QueueText"
-		"xpos"										"9999"
+		"visible"										"0"
 	}
 
 	"QueueImage"
@@ -38,7 +38,7 @@
 		"ypos"										"0"
 		"wide"										"20"
 		"tall"										"20"
-		"image"										"replay/thumbnails/ui_effects/loading_animation_small"
+		"image"										"animated/tf2_logo_hourglass"
 		"scaleImage"								"1"
 		"mouseinputenabled"							"0"
 		"proportionaltoparent"						"1"

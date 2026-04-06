@@ -19,7 +19,7 @@
 		"wide"			"160"
 		"zpos"		"2"
 		"fgcolor_override"	"245 245 245 255"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"TransparentLightBlack"	
 	}	
 
 	"PipesPresentPanel" // Stickies placed
@@ -101,7 +101,7 @@
 			////	"0"
 			//
 			"font"			"AmmoPipesOut"
-			"fgcolor"		"0 0 0 100"
+			"fgcolor"		"TransparentLightBlack"	
 		}
 	}
 

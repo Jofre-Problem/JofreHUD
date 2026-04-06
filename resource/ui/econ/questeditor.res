@@ -49,8 +49,8 @@
 			"Command"		"open_edit_context"
 			"proportionaltoparent"	"1"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 		
 			"image_drawcolor"	"235 226 202 255"
 			"SubImage"

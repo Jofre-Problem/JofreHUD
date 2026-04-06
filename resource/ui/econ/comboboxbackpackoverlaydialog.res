@@ -117,8 +117,8 @@
 		
 		"default"		"0"
 		"Command"		"cancel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"OkButton"
@@ -142,7 +142,7 @@
 		
 		"default"		"1"
 		"Command"		"apply"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 }

@@ -39,8 +39,8 @@
 		"Command"		"delete"
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
@@ -84,8 +84,8 @@
 		"Command"		"trigger"
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
@@ -128,8 +128,8 @@
 		"textAlignment"		"center"
 		"Command"		"accept"
 
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
@@ -169,8 +169,8 @@
 		"textAlignment"		"center"
 		"Command"		"decline"
 
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		
+		
 
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"

@@ -168,8 +168,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"selected"
 			"actionsignallevel"	"1"
 			"proportionaltoparent"	"1"

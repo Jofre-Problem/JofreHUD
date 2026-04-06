@@ -41,8 +41,8 @@
 				//"dulltext"	"0"
 				//"dulltext"	"0"
 				"default"		"1"
-				"sound_depressed"	"ui/buttonclick.wav"
-				"sound_released"	"ui/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"avatar"

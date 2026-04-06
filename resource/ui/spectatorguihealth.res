@@ -46,7 +46,7 @@
     "visible"		"1"
     "enabled"		"1"
 		"labelText"		""
-    "bgcolor_override"		"0 0 0 100"
+    "bgcolor_override"		"TransparentLightBlack"	
 		"alpha"		"150"
 		"proportionaltoparent"		"1"
   }
@@ -156,7 +156,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Killfeed"
-		"fgcolor"		"0 0 0 100"
+		"fgcolor"		"TransparentLightBlack"	
 		"pin_to_sibling" "PlayerStatusHealthValueID"
 	}	
 	"PlayerStatusHealthValueID2" // healer target// pov medic te cura siendo heavy
@@ -242,7 +242,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"MenuMainTitle"
-		"fgcolor_override"		"0 0 0 100"
+		"fgcolor_override"		"TransparentLightBlack"	
 
 							"fonts"
 				{

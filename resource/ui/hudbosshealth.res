@@ -38,7 +38,7 @@
 		"tall"				"10"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/gradient"
+		"image"				"gradient_pure_black"
 		"scaleImage"		"1"
 	}
 	

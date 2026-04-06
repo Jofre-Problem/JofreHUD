@@ -306,8 +306,8 @@
 					"labelText"		"#ToolCustomizeTextureBrowseButton"
 					"font"			"HudFontSmallBold"
 					"Command"		"pick_image"
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
+					
+					
 				}
 
 				"ForBestResultsLabel"
@@ -384,8 +384,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"NextButton"
@@ -401,8 +401,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"next_page"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 		}
 
@@ -556,8 +556,8 @@
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"Command"		"prev_stencil_palette"
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 					}
 
 					"NextStencilPaletteButton"
@@ -573,8 +573,8 @@
 						"font"			"HudFontSmallBold"
 						"textAlignment"	"center"
 						"Command"		"next_stencil_palette"
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 					}
 
 					"StencilGradientMap"
@@ -692,8 +692,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"cancel"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"BackButton"
@@ -709,8 +709,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"NextButton"
@@ -726,8 +726,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"next_page"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 		}
 
@@ -841,8 +841,8 @@
 				"textAlignment"	"center"
 				"default"		"0"
 				"Command"		"cancel"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"BackButton"
@@ -858,8 +858,8 @@
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"Command"		"prev_page"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"OkButton"
@@ -876,8 +876,8 @@
 				"textAlignment"	"center"
 				"default"		"1"
 				"Command"		"apply"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 		}
 

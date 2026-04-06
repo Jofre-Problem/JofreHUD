@@ -88,8 +88,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"cancel"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
@@ -589,8 +589,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			"proportionaltoparent" "1"
 			"actionsignallevel" "2"
@@ -664,8 +664,8 @@
 				"armedFgColor_override" "TanDark"
 				"depressedFgColor_override" "TanDark"
 			
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"sound_armed"		"UI/buttonrollover.wav"
 			
 				"paintbackground"	"0"
@@ -820,8 +820,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"placestamp"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"actionsignallevel"	"3"
 		"proportionaltoparent"	"1"
 		"paintbackground"			"0"
@@ -852,8 +852,8 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"envelopesend"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
 		"paintbackground"			"1"
@@ -944,8 +944,8 @@
 				"brighttext"	"0"
 				"default"		"1"
 				"Command"		"doneselectingitems"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"actionsignallevel"	"3"
 				"proportionaltoparent"	"1"
 				"paintbackground"			"0"
@@ -977,8 +977,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"Command"		"cancel"
 		"proportionaltoparent" "1"
 		"actionsignallevel" "2"
@@ -1033,8 +1033,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"nextitem"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 	
 	"ShowExplanationsButton1"
@@ -1058,8 +1058,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"startexplanation1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"DebugReload"
@@ -1083,8 +1083,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"reload"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"ShowExplanationsButton2"
@@ -1108,8 +1108,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"startexplanation2"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 	}
 
 	"StartExplanation"
@@ -1193,8 +1193,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1258,8 +1258,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"nextexplanation"
 			
 			"paintbackground"	"0"
@@ -1368,8 +1368,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1415,8 +1415,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
 			
@@ -1546,8 +1546,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1612,8 +1612,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"nextexplanation"
 			"proportionaltoparent"	"1"
 			
@@ -1723,8 +1723,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"close"
 			
 			"paintbackground"	"0"
@@ -1770,8 +1770,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			
 			"Command"		"prevexplanation"
 			"proportionaltoparent"	"1"
 			

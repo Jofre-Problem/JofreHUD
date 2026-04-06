@@ -219,8 +219,8 @@
 						"allcaps"	"1"
 						"textAlignment"	"center"
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 						"defaultFgColor_override" "White"
 						"armedFgColor_override" "HalloweenThemeColor2015"
 						"depressedFgColor_override" "HalloweenThemeColor2015"
@@ -295,8 +295,8 @@
 						"brighttext"	"0"
 						"default"		"1"
 
-						"sound_depressed"	"UI/buttonclick.wav"
-						"sound_released"	"UI/buttonclickrelease.wav"
+						
+						
 
 						"paintbackground"	"0"
 

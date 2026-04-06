@@ -321,8 +321,8 @@
             "font"                    "HudFontMediumSmallBold"
             "textAlignment"            "center"
             "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
+            
+            
         }
         "LoadPresetButton1"
         {
@@ -333,8 +333,8 @@
             "font"                    "HudFontMediumSmallBold"
             "textAlignment"            "center"
             "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
+            
+            
         }
         "LoadPresetButton2"
         {
@@ -345,8 +345,8 @@
             "font"                    "HudFontMediumSmallBold"
             "textAlignment"            "center"
             "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
+            
+            
         }
         "LoadPresetButton3"
         {
@@ -357,8 +357,8 @@
             "font"                    "HudFontMediumSmallBold"
             "textAlignment"            "center"
             "Command"                ""
-            "sound_depressed"        "UI/buttonclick.wav"
-            "sound_released"        "UI/buttonclickrelease.wav"
+            
+            
         }				
 	}
 }

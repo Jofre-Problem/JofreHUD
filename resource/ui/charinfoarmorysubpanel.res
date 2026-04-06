@@ -152,9 +152,9 @@
 				"defaultFgColor_override"		"255 250 250 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}			
 			"NextButton"
 			{
@@ -185,9 +185,9 @@
 				"defaultFgColor_override"		"255 250 250 170"
 				"armedFgColor_override"		"white"
 
-				"sound_armed"		""
-				"sound_depressed"	""
-				"sound_released"	""
+				
+				
+				
 			}
 		}			
 		"items"
@@ -340,7 +340,7 @@
 		visible						1
 
 		PaintBackground			1
-		bgcolor_override			"0 0 0 100"
+		bgcolor_override			"TransparentLightBlack"	
 		paintborder					0
 
 		"Data_TextRichText"

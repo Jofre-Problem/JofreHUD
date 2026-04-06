@@ -171,7 +171,7 @@
 				wide					p2
 				tall					20
 				proportionaltoparent		1
-				image					"replay/thumbnails/gradient"
+				image					"gradient_pure_black"
 				scaleImage				1
 				alpha		"255"
 			}

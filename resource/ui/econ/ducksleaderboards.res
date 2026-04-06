@@ -239,8 +239,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"close"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
@@ -289,8 +289,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"nextpage"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"
@@ -340,8 +340,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 				"Command"		"prevpage"
 				"proportionaltoparent" "1"
 				"actionsignallevel" "2"

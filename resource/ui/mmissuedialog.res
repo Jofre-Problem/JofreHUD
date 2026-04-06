@@ -82,8 +82,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
 		"border_default"			"Econ.Button.Border.Default"
 		"border_armed"				"Econ.Button.Border.Armed"
 		//"armedBgColor_override"			"RedSolid"

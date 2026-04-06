@@ -158,7 +158,7 @@
 		paintBackground 1
 		"alpha"		"190"
 		"defaultBgColor_override"	"TransparentBlack"
-		"armedBgColor_override"		"0 0 0 100"
+		"armedBgColor_override"		"TransparentLightBlack"	
 		"depressedBgColor_override"	"TeamSpec"
 	}	
 	"Key1"

@@ -27,7 +27,7 @@
 		"font"			"XPSource_Glow"
 		"textinsetx"	"10"
 		"auto_wide_tocontents"	"1"
-		"bgcolor_override" "0 0 0 100"
+		"bgcolor_override" "TransparentLightBlack"	
 
 		"mouseinputenabled"	"0"
 	}

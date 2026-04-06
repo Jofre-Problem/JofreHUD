@@ -25,7 +25,7 @@
 
 		//"pinCorner"		"2"
 		"autoResize"	"1"
-
+		"alpha" "100"
 		"OuterShadow"
 		{
 			"ControlName"	"EditablePanel"
@@ -131,8 +131,8 @@
 				"actionsignallevel"	"2"
 				//"paintbackground"	"1"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"SmallJoinButton"
@@ -170,8 +170,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"WideJoinButton"
@@ -203,8 +203,8 @@
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				
 			}
 
 			"JoiningLabel"

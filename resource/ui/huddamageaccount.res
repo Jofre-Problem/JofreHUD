@@ -75,23 +75,6 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
 	}
-"DamageAccountLabelShadow2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"DamageAccountLabelShadow"
-		"font"			"DamagetextShadowOld"
-		"fgcolor"		"0 0 0 0" //150
-	"xpos"			"c-50"
-		"ypos"			"c17+20"
-		"zpos"			"21"
-		"wide"			"100"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%metal%"	
-	}
-
 	"DamageAccountLabelHeals"	// the font on this + pushes 100 units
 	{
 		"ControlName"	"CExLabel"
