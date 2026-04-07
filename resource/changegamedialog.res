@@ -60,7 +60,7 @@
 		"labelText"		"ğ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-		"font"					"Product16"	
+		"font"					"DefaultUnderline"	
 		"pin_to_sibling"	"SliderLabel"	
 	}	
 	"ChatSlider"
@@ -93,7 +93,7 @@
 		"labelText"		"Ě"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
-		"font"					"Product18"	
+		"font"					"Trebuchet18"	
 		"pin_to_sibling"	"ChatLabel"		
 	}	
 	"DeathSlider"

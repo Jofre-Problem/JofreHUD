@@ -9,13 +9,11 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKillerCustom"
-			"font"			"Size 8 "
+			"font"			"default"
 			"xpos"			"8"
 			"ypos"			"1"
 			"wide"			"299"
 			"tall"			"8"
-			"visible"		"1"
-			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"center"
 			"fgcolor_override"		"White"
@@ -25,4 +23,4 @@
 			"pin_to_sibling_corner"		"6"
 		}
 
-	}}}
+	}}

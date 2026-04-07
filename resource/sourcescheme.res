@@ -203,7 +203,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"productsource"
+				"name" "hwnjofre1"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias" "1"
@@ -223,7 +223,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"productsource"
+				"name" "hwnjofre1"
 				"tall"		"17"
 				"antialias" "1"
 			}
@@ -241,9 +241,9 @@ Button.DepressedTextColor "220 220 220 255"
 
 		"ServerBrowserSmall"
 		{
-		"1"
+			"1"
 			{
-				"name"		"opensanskillfeed"
+				"name"		"hwnjofre1"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -251,7 +251,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"2"
 			{
-				"name"		"opensanskillfeed"
+				"name"		"hwnjofre1"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -259,7 +259,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"3"
 			{
-				"name"		"opensanskillfeed"
+				"name"		"hwnjofre1"
 				"tall"		"17"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -268,7 +268,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"4"
 			{
-				"name"		"opensanskillfeed"
+				"name"		"hwnjofre1"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -277,7 +277,7 @@ Button.DepressedTextColor "220 220 220 255"
 			}
 			"5"
 			{
-				"name"		"opensanskillfeed"
+				"name"		"hwnjofre1"
 				"tall"		"17"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -289,7 +289,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"//"Droid Sans Mono"
+				"name"		"hwnjofre1"
 				"tall"		"13"
 				"weight"	"500"
 				"antialias"	"1"				
@@ -300,110 +300,28 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"mono"//"productsource"
+				"name"				"mono"
 				"tall"		"5"
 
 				"wide" "100"
 				"antialias" "1"
 			}
 		} 		
-		"Product14"
+		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
-				"tall"		"14"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}  	
-		"Product16"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
+				"name" "hwnjofre1"
 				"tall"		"16"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		} 	
-		"Product18"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
-				"tall"		"18"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		} 
-		"tf2_18"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"22"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		} 	
-		
-		"Productv2_14"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"16"
-				"wide"		"0"
+				
 				"antialias" 	"1"
 			}
 		}  
-		"hwn24"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"24"
-				"wide"		"0"
-				"antialias" 	"1"
-			}
-		}
-		"hwn16"
-		{
-			"1"
-			{
-				"name"		"hwnjofre1"
-				"tall"		"16"
-				"wide"		"0"
-				"antialias" 	"1"
-			}
-		}  			
-		"Productv2_16"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"16"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}  
-		"Productv2_18"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"18"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		} 
-
 		"Trebuchet20"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"hwnjofre1"
 				"tall"		"24"
 			
 				"antialias" "1"
@@ -415,11 +333,10 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
-				"tall"		"24"
-			
-				"antialias" "1"
-		
+				"name" "hwnjofre1"
+				"tall"		"18"
+				"wide"		"300"
+				"antialias" 	"1"
 			}
 		}
 
@@ -428,7 +345,7 @@ Button.DepressedTextColor "220 220 220 255"
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
             {
 
-                "name"         "productsource"              
+                "name" "hwnjofre1"              
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
 				"weight"     "0"
@@ -440,7 +357,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
-                "name"         "productsource" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
+                "name" "hwnjofre1" // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS           
                 "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]             
                 "weight"     "0"
@@ -452,7 +369,7 @@ Button.DepressedTextColor "220 220 220 255"
             }
             "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
             {
-                "name"         "productsource"// "11"                
+                "name" "hwnjofre1"// "11"                
                  "tall"         "20" [$WINDOWS] 
                 "tall" "26" [$LINUX]
                 "weight"     "0"
@@ -468,27 +385,17 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"productsource"
+				"name" "hwnjofre1"
 				"tall"		"20"
 				"weight"	"1000"
-			}
-		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"16"
-				"weight"	"500"
-				"underline" "1"
 			}
 		}
 		"uibold"
 		{
 			"1"
 			{
-				"name"		"verdana"
-				"tall"		"20"
+				"name"		"hwnjofre1"
+				"tall"		"14"
 			//	"yres" "0 10000"	//the tall determines the position the buttons of frame will be
 				// 12 is the def
 			}
@@ -507,16 +414,16 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"productsource"
+				"name" "hwnjofre1"
 				"tall"		"18"
-				
+				"antialias" "1"
 			}
 		}	
 		"MenuLarge"
 		{
 			"1"
 			{
-				"name"		"product_sans_regular"
+				"name"		"hwnjofre1"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias"	"1"
@@ -541,175 +448,7 @@ Button.DepressedTextColor "220 220 220 255"
 	}	
 	CustomFontFiles
 	{    
-		"62"
-		{
-			"font" "fonts/productsource.otf"
-			"name" "productsource"
-        	"arabic"
-            {
-                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
-            }
 
-            "brazilian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "bulgarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "czech"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "danish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "dutch"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "english"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "finnish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "french"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "german"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "greek"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hungarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "italian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "japanese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "latvian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "lithuanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "norwegian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "pirate"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "polish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "portuguese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "romanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "russian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "schinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "slovak"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "spanish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "swedish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "tchinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "thai"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "turkish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "ukrainian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }		
-		} 		
 		"1blank"
 		{
 			"font" "fonts/blank.otf"
@@ -720,11 +459,6 @@ Button.DepressedTextColor "220 220 220 255"
 			"font" "fonts/mono.otf"
 			"name" "mono"
 		}				
-		"102"
-		{
-			"font" "fonts/product_sans_regular.ttf"
-			"name" "product_sans_regular"
-		}
 		"hwn"
 		{
 			"font"		"fonts/hwnjofre1.otf"
@@ -893,175 +627,6 @@ Button.DepressedTextColor "220 220 220 255"
             {
                 "range"                                             "0x0021 0x1EFF"
             }			
-		}
-		"zzz"
-		{
-			"font" "fonts/OpenSans-Killfeed.ttf"
-			"name" "opensanskillfeed"
-        	"arabic"
-            {
-                "range"                                             "0x0021 0x1EFF" // 0x0021 used per github #386
-            }
-
-            "brazilian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "bulgarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "czech"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "danish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "dutch"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "english"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "finnish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "french"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "german"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "greek"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hebrew"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "hungarian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "italian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "japanese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "korean"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "koreana"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "latvian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "lithuanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "norwegian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "pirate"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "polish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "portuguese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "romanian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "russian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "schinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "slovak"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "spanish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "swedish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "tchinese"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "thai"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "turkish"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }
-
-            "ukrainian"
-            {
-                "range"                                             "0x0021 0x1EFF"
-            }				
 		}
 	}	
 }	

@@ -76,9 +76,6 @@
 	//		"defaultBgColor_override"	"Blank"
 			"selectedcolor"		"Blank"
 			"unselectedcolor"	"Blank"	
-	/	/	"paintbackground"	"0"
-			"activeborder_override"	"noborder"
-			"normalborder_override" "noborder"
 			
 	//		"fgcolor"	"Blank"
 			"defaultBgColor_override" "Blank"

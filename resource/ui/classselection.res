@@ -1885,42 +1885,6 @@ pin_to_sibling spylabel
 		
 			                        "modelname"						""
 			                        "vcd"					"class_select.vcd"
-	
-			                        "animation"
-			{
-				                       "name"						"SECONDARY"
-				                       "activity"					"ACT_MP_STAND_SECONDARY"
-			}
-			                        "animation"
-			{
-				                       "name"						"MELEE"
-				                       "activity"					"ACT_MP_STAND_MELEE"
-			}
-			                        "animation"
-			{
-				                       "name"						"BUILDING"
-				                       "activity"					"ACT_MP_STAND_BUILDING"
-			}
-			                        "animation"
-			{
-				                       "name"						"PDA"
-				                       "activity"					"ACT_MP_STAND_PDA"
-			}
-			                        "animation"
-			{
-				                       "name"						"ITEM1"
-				                       "activity"					"ACT_MP_STAND_ITEM1"
-			}						
-			                        "animation"
-			{
-				                       "name"						"ITEM2"
-				                       "activity"					"ACT_MP_STAND_ITEM2"
-			}	
-			                        "animation"
-			{
-				                       "name"						"MELEE_ALLCLASS"
-				                       "activity"					"ACT_MP_STAND_MELEE_ALLCLASS"
-			}						
 		}
 		
 		                         "customclassdata"

@@ -68,7 +68,7 @@
 
 	"FilterString"
 	{
-		"font"	"Productv2_14"
+		"font"	"DefaultUnderline"
 	}
 
 	"GameFilterLabel"
@@ -86,7 +86,7 @@
 		"tabPosition"		"0"
 		"paintbackground"		"1"
 		"labelText"		"¦ Fav"
-		"font"	"Productv2_16"
+		"font"	"DefaultUnderline"
 		"textAlignment"		"east"
 		//"wrap"		"0"
 	}
@@ -106,7 +106,7 @@
 		"paintbackground"		"1"
 		"labelText"		"£ Location"
 		"textAlignment"		"east"
-		"font"	"Productv2_16"
+		"font"	"DefaultUnderline"
 		//"wrap"		"0"
 	}
 	"MapFilterLabel"
@@ -125,7 +125,7 @@
 		"paintbackground"		"1"
 		"labelText"		"¢ Map"
 		"textAlignment"		"east"
-		"font"	"Productv2_16"
+		"font"	"DefaultUnderline"
 		//"wrap"		"0"
 	}
 	"MaxPlayerFilterLabel"
@@ -144,7 +144,7 @@
 		"paintbackground"		"1"
 		"labelText"		"¡ Max Players"
 		"textAlignment"		"east"
-		"font"	"Productv2_16"
+		"font"	"DefaultUnderline"
 		//"wrap"		"0"
 	}
 	"PingFilterLabel"
@@ -163,7 +163,7 @@
 		"paintbackground"		"1"
 				"labelText"		"¤ Latency"
 		"textAlignment"		"east"
-		"font"	"Productv2_16"
+		"font"	"DefaultUnderline"
 		//"wrap"		"0"
 	}
 	"SecureFilterLabel"
@@ -180,7 +180,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"paintbackground"		"1"
-		"font" "Productv2_16"
+		"font" "DefaultUnderline"
 		"labelText"		"§ VAC"
 		"textAlignment"		"east"
 		//"wrap"		"0"

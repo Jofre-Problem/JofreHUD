@@ -374,30 +374,15 @@ event CasualCategory_NotSelected
 
 event MenuClose
 {	
-//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 0.0
-//	Animate HudChat bgcolor "20 20 20 0" linear 0.0 100.0
-//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 0.0
-//	Animate HudChatHistory bgcolor "0 0 0 0" linear 0.0 100.0
-
-//	Animate HudDeathNotice xpos 		"0"		Linear 0.0 0.01
-//	Animate HudDeathNotice ypos 		"35"		Linear 0.0 0.01
-//	Animate HudDemomanCharge ypos 		"0"		Linear 0.0 0.5
-//	setfont HudDeathNotice "textfont" "Killfeed2"	0.001
 	// Hide it
 	Animate HudMenu xPos		"-210" Linear 0.0 0.15
-//	PlaySound 0 "vo/deck_ui_slider_down.wav"
 	Animate HudMenu Alpha 		"0" Linear 0.0 1
 	Animate HudMenu SelectionAlpha 	"0" Linear 0.0 1
 	Animate HudMenu FgColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu MenuColor		"0 0 0 0" Linear 0.0 1
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
 	RunEvent	HealthAmmoAnimateEnd 0.0
-	//RunEvent LevelInitAny 0.0
 		StopEvent	MenuOpen 0.0 	
-	//	Animate CDamageAccountPanel ypos "-25" linear 0.0 0.0
-	//	Animate HudMatchStatus ypos "0" linear 0.0 0.0
-		StopEvent TestLoop_C 0.0
-		StopEvent TestLoop_C 0.01
 }
 
 event MenuOpen
@@ -409,46 +394,21 @@ event MenuOpen
 	RunEvent TestTestingCmd 0.0
 
 
-//	RunEvent TESTING 0.0
-//	RunEvent Forcecmd 0.0
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	
 	setfont HudMenu 	"textfont"		"TFFontSmall"		0.001
 	Animate HudMenu SelectionAlpha 	"255"		Linear 0.05 0.1
-//	Animate CSpectatorTargetID xpos "c-126"	Linear 0.0 0.0
 	Animate HudMenu FgColor		"FgColor"		Linear 0.05 0.1
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
 	Animate HudMenu ItemColor		"255 167 42 245"	Linear 0.05 0.1
 	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
-	//SetVisible hudplayerhealth 1 0.0	
-	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
-//	PlaySound 0 "vo/deck_ui_slider_up.wav"
 	RunEvent ScoreboardAnimate 0.0
 }
 event MenuCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
 {
 		Firecommand 0.0 "engine hud_fastswitch 1"
 }		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

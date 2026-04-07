@@ -46,7 +46,7 @@
 		zpos 9999
 		"wide"		"85"
 		"tall"		"2" 
-		border noborder
+		
 		"bgcolor_override"	"TransparentBlack"
 		"visible"		"1"
 	}		"border2"
@@ -58,7 +58,7 @@
 		zpos 9999
 		"wide"		"85"
 		"tall"		"2" 
-		border noborder
+		
 		"bgcolor_override"	"TransparentBlack"
 	}	
 	"cover1"

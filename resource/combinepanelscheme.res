@@ -87,14 +87,14 @@ Scheme
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"255 155 0 255"
+		ListPanel.SelectedBgColor			"DarkGrey"
 		ListPanel.SelectedOutOfFocusBgColor	"255 155 0 128"
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"black"
 		Menu.BgColor					"160 160 160 64"
 		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"255 155 0 255"
+		Menu.ArmedBgColor				"DarkGrey"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"DullWhite"
@@ -113,7 +113,7 @@ Scheme
 		RichText.TextColor				"black"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"255 155 0 255"
+		RichText.SelectedBgColor		"DarkGrey"
 
 		ScrollBar.Wide					15
 
@@ -134,7 +134,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"255 155 0 255"
+		SectionedListPanel.SelectedBgColor				"DarkGrey"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"White"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 
@@ -150,7 +150,7 @@ Scheme
 		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
 		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"255 155 0 255"
+		TextEntry.SelectedBgColor	"DarkGrey"
 		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 
@@ -175,7 +175,7 @@ Scheme
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"255 155 0 255"
+		NewGame.SelectionColor		"DarkGrey"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 }

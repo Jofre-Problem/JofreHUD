@@ -268,7 +268,7 @@
 		//		"0"
 		"labelText"		"×"
 		"zpos"	"200"
-		"font" "Product18"
+		"font" "Trebuchet18"
 	}
 	"divider"	
 	{
@@ -292,7 +292,7 @@
 		"labelText"		"ĕ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"tf2_18"		
+		"font"					"Trebuchet20"		
 	}	
 	"GammaSlider"
 	{
@@ -322,7 +322,7 @@
 		"labelText"		"ď"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"tf2_18"		
+		"font"					"Trebuchet20"		
 	}
 	"VolumeSlider"
 	{
@@ -352,7 +352,7 @@
 		"labelText"		"Đ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"tf2_18"		
+		"font"					"Trebuchet20"		
 	}
 	"ViewSlider"
 	{
@@ -383,7 +383,7 @@
 		"labelText"		"č"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"tf2_18"		
+		"font"					"Trebuchet20"		
 	}
 	"FSlider"
 	{
@@ -413,7 +413,7 @@
 		"labelText"		"ĸ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"hwn24"		
+		"font"					"Trebuchet20"		
 	}
 	"CSlider"
 	{
@@ -443,7 +443,7 @@
 		"labelText"		"ª"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
-		"font"					"tf2_18"		
+		"font"					"Trebuchet20"		
 	}
 	"NSlider"
 	{

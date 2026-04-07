@@ -42,35 +42,9 @@
 		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
 		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}	
-	"border0"
-	{
-		"ControlName"		"editablePanel"
-		"fieldName"		"border0"
-		"xpos"		"0"
-		"ypos"		"0"
-		zpos 9999
-		"wide"		"34"
-		"tall"		"34" 
-		border noborder
-		"bgcolor_override"	"0 0 0 0"
-		"visible"		"1"
-	}		
-	"border1"
-	{
-		"ControlName"		"editablePanel"
-		"fieldName"		"border1"
-		"xpos"		"39"
-		"ypos"		"0"
-		zpos 999
-		"wide"		"85+p0.002"
-		"tall"		"36" 
-		border noborder
-		"bgcolor_override"	"0 0 0 0"
-		"visible"		"1"
-	}	
 	"border1a"
 	{
-		"ControlName"		"editablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"border1a"
 		"xpos"		"33"
 		"ypos"		"0"
@@ -83,7 +57,7 @@
 	}		
 	"BarShadow"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"BarShadow"
 		"xpos"			"0"
 		"ypos"			"34"
@@ -97,7 +71,7 @@
 	}
 	"overhealthclean"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"overhealthclean"
 		"xpos"			"0-p0.001"
 		"ypos"			"35"
@@ -174,7 +148,7 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"-2421"
 		"ypos"			"-5"
@@ -186,11 +160,11 @@
 		"labelText"		"#healthpadded"
 		"textAlignment"	"center"	
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"35 35 35 255"
+		"fgcolor_override"		"35 35 35 255"
 	}
 	"PlayerStatusHealthValueS"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValueS"
 		"xpos"			"-2421"
 		"ypos"			"-5"
@@ -203,11 +177,11 @@
 		"textAlignment"	"center"	
 		"font"			"HealthAndAmmoShadow1" [$WINDOWS]
 		"font" 	"blank"	[$LINUX]			
-		"fgcolor"		"0 0 0 185"
+		"fgcolor_override"		"0 0 0 185"
 	}	
 	"linuxcover"	[$LINUX]
 	{
-		"ControlName"	"editablepanel"
+		"ControlName"	"panel"
 		"fieldName"		"linuxcover"
 		"xpos"			"36"
 		"ypos"			"32"
@@ -415,22 +389,10 @@
 		"image" 		"replay/thumbnails/hp/REFRACTnormal"
 		"scaleimage"	"1"
 	}
-	"HealthDivider2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HealthDivider2"
-		"xpos"			"34"
-		"ypos"			"0"
-		"zpos"			"79"
-		"wide"			"5"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"TransparentLightBlack"	
-	}
+
 	"HealthWhiteCover"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthWhiteCover"
 		"xpos"			"34"
 		"ypos"			"0"
@@ -439,11 +401,11 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
+		"bgcolor_override"		"35 35 35 255"
 	}
 	"HealthWhiteCover2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthWhiteCover2"
 		"xpos"			"107"
 		"ypos"			"0"
@@ -452,7 +414,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 35 35 255"
+		"bgcolor_override"		"35 35 35 255"
 	}
 	"PlayerStatusBleedImage"
 	{

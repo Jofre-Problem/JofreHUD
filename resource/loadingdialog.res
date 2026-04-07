@@ -44,7 +44,7 @@
 		"tall"		"26"
 		"textAlignment"		"center"
 		"fgcolor_override"	"White"
-		"font"		"tf2_18"
+		"font"		"Trebuchet20"
 	}
 	"progress"
 	{
@@ -70,7 +70,7 @@
 		"wide"		"f0"
 		"tall"		"f0"
 		"labelText"	"Loading..."
-		"font"		"Product14"
+		"font"		"uibold"
 		"textAlignment"		"west"
 		"textinsety"	"-10"
 		"textinsetx"	"4"
