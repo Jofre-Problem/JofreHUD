@@ -102,7 +102,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"Code10"
+				font					"defaultsmall"
 				fgcolor_override		"245 245 245 255"
 				labelText				"jofre-hud@team-fortress"
 				textAlignment			west
@@ -118,7 +118,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"Code10"
+				font					"defaultsmall"
 				fgcolor_override		"245 245 245 255"
 				labelText				"-------------------------"
 				textAlignment			west
@@ -134,7 +134,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"Code10"
+				font					"defaultsmall"
 				fgcolor_override		"245 245 245 255"
 				labelText				"MADE BY: Jofre Problem?"
 				textAlignment			west
@@ -150,7 +150,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"Code10"
+				font					"defaultsmall"
 				fgcolor_override		"245 245 245 255"
 				labelText				"DEDICATED TO: ❀ vanne ❀"
 				textAlignment			west
@@ -166,7 +166,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"Code10"
+				font					"defaultsmall"
 				fgcolor_override		"245 245 245 255"
 				labelText				"INSPIRED BY: Archcraft OS"
 				textAlignment			west

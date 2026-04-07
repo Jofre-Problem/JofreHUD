@@ -11,7 +11,7 @@
 		
 		
 		
-		"title"		"#Frame_Untitled"
+		
 	}
 	"AxisLabel"
 	{

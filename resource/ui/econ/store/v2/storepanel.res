@@ -1,3 +1,4 @@
+#base "../armorypanel.res"
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"
@@ -138,18 +139,7 @@
 		
 		
 	}		
-	
-	"armory_panel"
-	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"30"
-		"wide"				"f0"
-		"tall"				"390"
-		"zpos"				"500"
-		"visible"			"0"
-	}
+
 
 	"NotificationsPresentPanel"
 	{

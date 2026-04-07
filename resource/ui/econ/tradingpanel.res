@@ -1,5 +1,6 @@
 #base "../commentarymodelviewer.res"
 #base "../streampanel.res"
+#base "store/armorypanel.res"
 "Resource/UI/TradingPanel.res"
 {
 	"trading_panel"
@@ -277,16 +278,4 @@
 		"Command"		"cancel"
 		"default"		"1"
 	}		
-
-	"armory_panel"
-	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"60"
-		"wide"				"f0"
-		"tall"				"400"
-		"zpos"				"500"
-		"visible"			"0"
-	}
 }

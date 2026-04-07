@@ -29,7 +29,7 @@
 		"MeterFG"		"White"
 		"MeterBG"		"Blank"
 		"x_offset"		"0"
-		"x_offset_minmode"		"0"
+	
 	}
 
 	"ItemEffectMeterLabel"

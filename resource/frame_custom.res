@@ -7,7 +7,7 @@
 		"ypos"		"0"
 		"wide"		"300"
 		"tall"		"420"
-		"title"		"#Frame_Untitled"
+		
 	}	
 	"frame_topGrip"
 	{

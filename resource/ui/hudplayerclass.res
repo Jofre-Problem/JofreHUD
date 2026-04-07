@@ -201,7 +201,7 @@
 			"ControlName"			"CTFImagePanel"
 			"fieldName"				"CarryingBackground"
 			"xpos"					"0"
-			"xpos_minmode"			"0"
+		
 			"ypos"					"0"
 
 			"zpos"					"0"

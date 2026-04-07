@@ -1,5 +1,5 @@
 #base "multiplayercustomizedialog.res"
-
+#base "dmesourceskinpanel.res"
 "Resource/OptionsSubMultiplayer.res"
 {
 	"OptionsSubMultiplayer"
@@ -641,32 +641,7 @@
 		
 		
 	}
-	"ScaleLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"ScaleLabel"
-		"xpos"		"106"
-		"ypos"		"76"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"labelText"		"#GameUI_CrosshairScale"
-		"textAlignment"		"west"
-		//
-		//
-		"font"		"defaultSmall"
-		//
-		
-		
-		
-		
-	}
+
 	"Divider2"
 	{
 		"ControlName"		"Divider"

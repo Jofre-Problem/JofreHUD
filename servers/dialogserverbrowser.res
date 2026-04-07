@@ -1,3 +1,4 @@
+#base "status.res"
 "Servers/DialogServerBrowser.res"
 {
 	"CServerBrowserDialog"
@@ -18,31 +19,16 @@
 	{
 		"ControlName"		"PropertySheet"
 		"fieldName"		"GameTabs"
-		"xpos"		"8"
-		"ypos"		"44"
-		"wide"		"624"
-		"tall"		"306"
-		"autoResize"	"3"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"1"
-	}
-	"StatusLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"StatusLabel"
-		"xpos"		"11"
-		"ypos"		"356"
-		"wide"		"544"
-		"tall"		"24"
-		"autoResize"		"1"
-		"pinCorner"		"2"
+		"xpos"		"10"
+		"ypos"		"40"
+		"wide"		"620"
+		"tall"		"320"
+		"AutoResize"		"3"
+		"PinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"textAlignment"		"west"
-		//"dulltext"		"0"
-		"zpos"	"1"
+		"paintbackground"		"1"
 	}
+
 }

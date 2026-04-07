@@ -29,9 +29,6 @@
 		Command				"jointeam blue"
 		labelText		  		""			
 		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released			""
-		sound_armed				"vo/deck_ui_navigation.wav"
 		
 		paintbackground			0
 		
@@ -163,9 +160,6 @@
 		Command				"jointeam red"
 		labelText		  		""			
 		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released			""
-		sound_armed				"vo/deck_ui_navigation.wav"
 		
 		paintbackground			0
 

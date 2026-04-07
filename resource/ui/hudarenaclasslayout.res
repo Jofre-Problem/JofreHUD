@@ -23,12 +23,6 @@
 "scaleImage""1"
 "teambg_2""replay/thumbnails/panels/redteam"
 "teambg_3""replay/thumbnails/panels/bluteam"
-
-"src_corner_height""32"
-"src_corner_width""32"
-
-"draw_corner_width""8"
-"draw_corner_height" "8"
 }
 
 "classImage0"
@@ -59,7 +53,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""247"
+//"247"
 }
 
 "classImage2"
@@ -75,7 +69,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""239"
+//"239"
 }
 
 "classImage3"
@@ -91,7 +85,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""231"
+//"231"
 }
 
 "classImage4"
@@ -107,7 +101,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""223"
+//"223"
 }
 
 "classImage5"
@@ -123,7 +117,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""215"
+//"215"
 }
 
 "classImage6"
@@ -139,7 +133,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""207"
+//"207"
 }
 
 "classImage7"
@@ -155,7 +149,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""109"
+//"109"
 }
 
 "classImage8"
@@ -171,7 +165,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""101"
+//"101"
 }
 
 "classImage9"
@@ -187,7 +181,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""93"
+//"93"
 }
 
 "classImage10"
@@ -203,7 +197,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""85"
+//"85"
 }
 
 "classImage11"
@@ -219,7 +213,7 @@
 
 "image"""
 "scaleImage""1"
-"Alpha""77"
+//"77"
 }
 "title"
 {

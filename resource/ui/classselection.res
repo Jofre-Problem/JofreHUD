@@ -480,7 +480,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -598,7 +598,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -679,7 +679,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -873,7 +873,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -953,7 +953,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -1071,7 +1071,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -1189,7 +1189,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 		defaultFgColor_override		"Tanlight"	
@@ -1268,7 +1268,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -1463,7 +1463,7 @@ pin_to_sibling spylabel
 		selectonhover			1
 		keyboardinputenabled		0
 				
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 		sound_armed				          "UI/buttonrollover.wav"
 
@@ -1535,7 +1535,7 @@ pin_to_sibling spylabel
 		
 		paintbackground			0
 		
-		sound_depressed			       "ui/buttonclick.wav"
+		
 		sound_released			        "ui/buttonclickrelease.wav"
 	}
 
@@ -1885,13 +1885,7 @@ pin_to_sibling spylabel
 		
 			                        "modelname"						""
 			                        "vcd"					"class_select.vcd"
-			
-			                        "animation"
-			{
-				                       "name"						"245 245 245 50"
-				                       "activity"					"ACT_MP_STAND_245 245 245 50"
-				                       "default"					"1"
-			}
+	
 			                        "animation"
 			{
 				                       "name"						"SECONDARY"

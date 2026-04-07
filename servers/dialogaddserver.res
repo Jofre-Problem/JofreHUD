@@ -1,3 +1,4 @@
+#base "dialogserverbrowser.res"
 "Servers/DialogAddServer.res"
 {
 	"DialogAddServer"
@@ -17,21 +18,11 @@
 		"settitlebarvisible"		"1"
 		"title"		"#ServerBrowser_AddServersTitle"
 	}
-	"GameTabs"
+	"StatusLabel"
 	{
-		"ControlName"		"PropertySheet"
-		"fieldName"		"GameTabs"
-		"xpos"		"20"
-		"ypos"		"175"
-		"wide"		"526"
-		"tall"		"150"
-		"AutoResize"		"3"
-		"PinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"paintbackground"		"1"
-	}
+		"visible"		"0"
+	}	
+
 	"Servers"
 	{
 		"ControlName"		"ListPanel"

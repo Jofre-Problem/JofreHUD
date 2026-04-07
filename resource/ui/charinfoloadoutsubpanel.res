@@ -1,6 +1,7 @@
 //#base "../../../../../cfg/_jp_mm_bg.txt"
 #base "ui2/bgv3.res"
 #base "ui3/charinfo_extended.res"
+#base "econ/store/armorypanel.res"
 "Resource/UI/CharInfoLoadoutSu0bPanel.res"
 {
 
@@ -2995,7 +2996,6 @@
 		Command				"loadout demoman"
 		
 		sound_depressed			"sound_menu/button.wav"
-		sound_released				"vo/demoman_go01.mp3"
 				"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"	
 
@@ -3187,22 +3187,6 @@
 		visible				0
 
 		// => resource\ui\econ\BackpackPanel.res
-	}
-
-	// crafting_panel => resource\ui\CraftingPanel.res
-
-	"armory_panel"
-	{
-		ControlName				CArmoryPanel
-		fieldName				"armory_panel"
-		xpos					0
-		ypos					0
-		zpos					5
-		wide					f0
-		tall					411
-		visible				0
-
-		// => resource\ui\CharInfoArmorySubPanel.res
 	}
 
 	"InspectionPanel"		// warpaints, drawn over other charinfo panels

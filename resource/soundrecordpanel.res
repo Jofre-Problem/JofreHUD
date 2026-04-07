@@ -15,7 +15,7 @@
 		
 		
 		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
+		
 	}
 	"PlayButton"
 	{

@@ -11,7 +11,7 @@
 		
 		
 		
-		"title"		"#Frame_Untitled"
+		
 	}
 	"Record"
 	{
@@ -316,6 +316,6 @@
 		
 		"visible"		"0"
 		
-		"title"		"#Frame_Untitled"
+		
 	}
 }

@@ -500,8 +500,8 @@
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
-		sound_depressed	"UI/buttonclick.wav"
-		sound_released		"UI/buttonclickrelease.wav"
+		
+		
 
 		pin_to_sibling				"PagesBackground"
 		pin_corner_to_sibling	PIN_TOPRIGHT
@@ -563,8 +563,8 @@
 		disabledFgColor2_override		"Blank"
 		paintbackground					0
 
-		sound_depressed	"UI/buttonclick.wav"
-		sound_released		"UI/buttonclickrelease.wav"
+		
+		
 
 		pin_to_sibling				"CurPageLabel"
 		pin_corner_to_sibling	PIN_TOPRIGHT
@@ -598,9 +598,6 @@
 
 		Command					"wiki"
 
-		sound_depressed		UI/buttonclick.wav
-		sound_released			UI/buttonclickrelease.wav
-
 		pin_to_sibling				"DataPanel"
 		pin_corner_to_sibling	PIN_TOPRIGHT
 		pin_to_sibling_corner	PIN_BOTTOMRIGHT
@@ -631,8 +628,8 @@
 		
 		Command			"openstore"
 
-		sound_depressed	"UI/buttonclick.wav"
-		sound_released		"UI/buttonclickrelease.wav"
+		
+		
 
 		pin_to_sibling				"DataPanel"
 		pin_corner_to_sibling	PIN_CENTER_TOP
@@ -665,8 +662,8 @@
 
 		Command				"viewset"
 
-		sound_depressed	"UI/buttonclick.wav"
-		sound_released		"UI/buttonclickrelease.wav"
+		
+		
 
 		pin_to_sibling				"DataPanel"
 		pin_corner_to_sibling	PIN_TOPLEFT

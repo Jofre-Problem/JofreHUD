@@ -14,7 +14,7 @@
 		
 		
 		"settitlebarvisible"		"1"
-		"title"		"#Frame_Untitled"
+		
 	}
 	"ClientCombo"
 	{

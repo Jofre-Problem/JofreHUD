@@ -3,14 +3,9 @@
 	"BonusMapsDialog" //basic components of large window
 	{
 		"ControlName"		"CBonusMapsDialog"
-		"xpos"		"272"
-		"ypos"		"154"
-		"wide"		"630"
-		"tall"		"444"
+		"wide"		"1"
+		"tall"		"1"
 		
-		
-		
-		"title"		"#GameUI_BonusMaps"
 	}
 	"listpanel_bonusmaps" //inside box w/ scroll bar
 	{
@@ -24,9 +19,9 @@
 
 	}
 	
-	"Back" //back button
+	"Back" //back panel
 	{
-		"ControlName"		"Button"
+		"ControlName"		"panel"
 		"xpos"		"20"
 		"ypos"		"410"
 		"wide"		"70"
@@ -35,12 +30,12 @@
 
 		"visible"		"0"
 
-		"labelText"		"#GameUI_Back"
+		"panelText"		"#GameUI_Back"
 		"Command"		"back"
 	}
-	"LoadBonusMap" //load button
+	"LoadBonusMap" //load panel
 	{
-		"ControlName"		"Button"
+		"ControlName"		"panel"
 		"xpos"		"452"
 		"ypos"		"410"
 		"wide"		"82"
@@ -48,13 +43,13 @@
 		
 		//		"3"
 		//		"3"
-		"labelText"		"#GameUI_Load"
+		"panelText"		"#GameUI_Load"
 		"Command"		"loadbonusmap"
 		"Default"		"1"
 	}
-	"Cancel" //cancel button
+	"Cancel" //cancel panel
 	{
-		"ControlName"		"Button"
+		"ControlName"		"panel"
 		"xpos"		"544"
 		"ypos"		"410"
 		"wide"		"70"
@@ -62,12 +57,12 @@
 		
 		//		"3"
 		//		"4"
-		"labelText"		"#GameUI_Cancel"
+		"panelText"		"#GameUI_Cancel"
 		"Command"		"Close"
 	}
 	"ImportBonusMaps"
 	{
-		"ControlName"		"Button"
+		"ControlName"		"panel"
 		"xpos"		"20"
 		"ypos"		"410"
 		"wide"		"160"
@@ -75,13 +70,13 @@
 		
 		
 		//		"4"
-		"labelText"		"#GameUI_ImportBonusMapsEllipsis"
+		"panelText"		"#GameUI_ImportBonusMapsEllipsis"
 		"Command"		"ImportBonusMaps"
 	}
 	
 	"PercentageBarBackground" //light grey overall percentage
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"panel"
 		"xpos"		"98"
 		"ypos"		"410"
 		"wide"		"346"
@@ -91,7 +86,7 @@
 	}
 	"PercentageBar" //dark grey current completed
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"panel"
 		"xpos"		"98"
 		"ypos"		"410"
 		"wide"		"0"
@@ -101,7 +96,7 @@
 	}
 	"PercentageText" //Percent Text inside the percentage field
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"90"
 		"ypos"		"410"
 		"wide"		"176"
@@ -110,12 +105,12 @@
 		
 		"visible"		"0"
 		
-		"labelText"		"0%"
+		"panelText"		"0%"
 		"textAlignment"		"east"
 	}
 	"CompletionText" //Complete text inside the percentage field
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"276"
 		"ypos"		"410"
 		"wide"		"176"
@@ -124,12 +119,12 @@
 		
 		"visible"		"0"
 		
-		"labelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
+		"panelText"		"#GameUI_BonusMapsCompletion" //located in localization text file
 	}
 	
 	"HelpText" //Upper large menu screen description
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"20"
 		"ypos"		"26"
 		"wide"		"444"
@@ -137,13 +132,13 @@
 		
 		
 		
-		"labelText"		"#GameUI_BonusMapsHelp"
+		"panelText"		"#GameUI_BonusMapsHelp"
 		"wrap"		"1"
 	}
 	
-	"FileName" //file path name
+	"FileName"
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"20"
 		"ypos"		"340"
 		"wide"		"368"
@@ -152,9 +147,9 @@
 		
 		
 	}
-	"CommentLabel" //description underneath the file name
+	"Commentpanel" //description underneath the file name
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"20"
 		"ypos"		"358"
 		"wide"		"360"
@@ -176,9 +171,9 @@
 		//		"4"
 		"maxchars"		"-1"
 	}
-	"ChallengeCommentLabel" //when you select a challenge it's the text description
+	"ChallengeCommentpanel" //when you select a challenge it's the text description
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"452"
 		"ypos"		"367"
 		"wide"		"162"
@@ -189,73 +184,73 @@
 	}
 	"ChallengeMedalOverview00" //image when no challenge is selected
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"452"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
 	"ChallengeMedalOverview01"
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"488"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
 	"ChallengeMedalOverview02"
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"524"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
 	"ChallengeMedalOverview03"
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"560"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
 	"ChallengeMedalOverview04"
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"596"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
 	"ChallengeEarnedMedal" //big image on the left when you've selected a challenge mode from the drop down tab
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"325"
 		"ypos"			"340"
 		"zpos"			"-1"
 		"wide"			"64"
 		"tall"			"64"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
-	"ChallengeBestLabel" //"Best: #"
+	"ChallengeBestpanel" //"Best: #"
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"395"
 		"ypos"		"340"
 		"wide"		"60"
@@ -266,18 +261,18 @@
 	}
 	"ChallengeNextMedal" //Small icon
 	{
-		"ControlName"	"CBitmapImagePanel"
+		"ControlName"	"panel"
 		"xpos"			"395"
 		"ypos"			"372"
 		"zpos"			"-1"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
-		"image"			"medals/medal_00_none"
+		//
 	}
-	"ChallengeNextLabel" //"Goal: #"
+	"ChallengeNextpanel" //"Goal: #"
 	{
-		"ControlName"		"Label"
+		"ControlName"		"panel"
 		"xpos"		"395"
 		"ypos"		"354"
 		"wide"		"54"

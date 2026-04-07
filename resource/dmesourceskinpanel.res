@@ -2,102 +2,52 @@
 {
 	"SkinNameLabel"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"SkinNameLabel"
-		
-		
-		//"wide"			"60"
-		//"tall"			"24"
-		
-		
-		////"visible"		"1"
-		
-		
-		////"labelText"		"Skin Name"
-		////"textAlignment"	"west"
-		//"dulltext"		"1"
-		//"brighttext"	"0"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 
 	"SkinName"
 	{
-		"ControlName"		"TextEntry"
-		"fieldName"		"SkinName"
-		//"xpos"		"70"
-		//"ypos"		"0"
-		//"wide"		"390"
-		//"tall"		"24"
-		
-		//"autoResize"		"1"
-		
-		////"visible"		"1"
-		
-		
-		//"textHidden"		"0"
-		//"editable"		"1"
-		//"maxchars"		"-1"
-		//"NumericInputOnly"		"0"
-		"unicode"		"1"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 
 	"ScaleLabel"
 	{
-		"ControlName"	"Label"
+		"ControlName"		"Label"
 		"fieldName"		"ScaleLabel"
-		
-		//"ypos"			"30"
-		//"wide"			"60"
-		//"tall"			"24"
-		
-		
-		////"visible"		"1"
+		"xpos"		"106"
+		"ypos"		"76"
+		"wide"		"64"
+		"tall"		"24"
 		
 		
-		////"labelText"		"Scale"
-		////"textAlignment"	"west"
-		//"dulltext"		"1"
-		//"brighttext"	"0"
+		
+		
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"labelText"		"#GameUI_CrosshairScale"
+		"textAlignment"		"west"
+		//
+		//
+		"font"		"defaultSmall"
+		//
+		
+		
+		
+		
 	}
 
 	"Scale"
 	{
-		"ControlName"		"TextEntry"
-		"fieldName"		"Scale"
-		//"xpos"		"70"
-		//"ypos"		"30"
-		//"wide"		"390"
-		//"tall"		"24"
-		
-		//"autoResize"		"1"
-		
-		////"visible"		"1"
-		
-		
-		//"textHidden"		"0"
-		//"editable"		"1"
-		//"maxchars"		"-1"
-		"NumericInputOnly"		"1"
-		"unicode"		"1"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 	
 	"FlipTriangles"
 	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"FlipTriangles"
-		//"xpos"		"62"
-		//"ypos"		"56"
-		//"wide"		"216"
-		//"tall"		"24"
-		
-		
-		////"visible"		"1"
-		
-		"disabled"		"1"
-		//"tabPosition"	"1"
-		////"labelText"		"Flip Triangles"
-		////"textAlignment"		"west"
-		//////"dulltext"		"0"
-		////"brighttext"		"0"
-		//"Default"		"0"
+		"ControlName"		"panel"
+		"visible" "0"
 	}
 }

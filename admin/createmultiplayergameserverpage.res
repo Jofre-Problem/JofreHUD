@@ -8,9 +8,15 @@
 	}
 	"MapList"
 	{
-
-		//		"0"
-		//		"3"
+		"ControlName"		"ComboBox"
+		"xpos"		"56"
+		"ypos"		"20"
+		"wide"		"200"
+		"tall"		"24"
+		
+		
+		//		"5"
+		"maxchars"		"-1"
 	}
 	"NetworkCombo"
 	{

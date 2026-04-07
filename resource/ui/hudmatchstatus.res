@@ -462,7 +462,7 @@ if_mini		{			"visible"		"0"		}
 		"tall"			"260"
 		"visible"		"0"
 		"enabled"		"1"
-"wide_minmode"				"0"
+
 		if_large
 		{
 			"ypos"			"65"
@@ -587,7 +587,7 @@ if_mini		{			"visible"		"0"		}
 		"tall"			"260"
 		"visible"		"0"
 		"enabled"		"1"
-"wide_minmode"				"0"
+
 		if_large
 		{
 			"ypos"			"65"

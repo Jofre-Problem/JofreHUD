@@ -1,3 +1,4 @@
+#base "label.res"
 "Resource/UI/Quests/LineItem_Credits.res"
 {	
 	"Credits"
@@ -13,16 +14,6 @@
 
 	"Label"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"Label"
 		"labeltext"		"%credits%"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"zpos"			"1"
-		"fgcolor_override"		"TanLight"
-		"font"			"ScoreboardMediumSmall"
-		"proportionaltoparent" "1"
 	}
 }

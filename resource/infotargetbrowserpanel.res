@@ -1,27 +1,17 @@
 #base "optionssubportal.res"
+#base "commentarynodebrowserpanel.res"
 "resource/infotargetbrowserpanel.res"
 {
 	"InfoTargetBrowserPanel"
 	{
 		"ControlName"		"CInfoTargetBrowserPanel"
 		"xpos"		"0"
-		"ypos"		"14"
-		"wide"		"383"
-		"tall"		"708"
+		"ypos"		"1"
+		"wide"		"1"
+		"tall"		"1"
 		
 		
 		
-	}
-	"Entities"
-	{
-		"ControlName"		"ListPanel"
-		"xpos"		"10"
-		"ypos"		"30"
-		"wide"		"255"
-		"tall"		"636"
-		//		"3"
-		
-
 	}
 	"CreateTargetButton"
 	{
@@ -35,19 +25,6 @@
 		
 		"labelText"		"Create Targets"
 		"Command"		"DropInfoTargets"
-	}
-	"DeleteButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"275"
-		"ypos"		"70"
-		"wide"		"94"
-		"tall"		"24"
-		
-
-		
-		"labelText"		"Delete"
-		"Command"		"Delete"
 	}
 	"SaveButton"
 	{
@@ -74,18 +51,6 @@
 		
 		"labelText"		"Restart Map"
 		"Command"		"RestartMap"
-	}
-	"EntitiesLabel"
-	{
-		"ControlName"		"Label"
-		"xpos"		"10"
-		"ypos"		"8"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		
-		"labelText"		"Entities:"
 	}
 	"QuickSaveButton"
 	{

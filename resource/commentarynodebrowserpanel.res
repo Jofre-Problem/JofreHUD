@@ -4,12 +4,9 @@
 	{
 		"ControlName"		"CCommentaryNodeBrowserPanel"
 		"xpos"		"0"
-		"ypos"		"14"
-		"wide"		"510"
-		"tall"		"522"
-		
-		
-		
+		"ypos"		"1"
+		"wide"		"1"
+		"tall"		"1"
 	}
 	"Entities"
 	{
@@ -24,17 +21,10 @@
 	}
 	"CreateNodeButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"402"
-		"ypos"		"36"
-		"wide"		"94"
-		"tall"		"24"
-		
-
-		
-		"labelText"		"Create Nodes"
-		"command"		"DropNodes"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
+	
 	"DeleteButton"
 	{
 		"ControlName"		"Button"
@@ -50,43 +40,22 @@
 	}
 	"CenterViewButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"402"
-		"ypos"		"106"
-		"wide"		"94"
-		"tall"		"24"
-		
-
-		
-		"labelText"		"Center View"
-		"command"		"CenterView"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
+	
 	"SaveButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"20"
-		"ypos"		"490"
-		"wide"		"94"
-		"tall"		"24"
-		
-
-		
-		"labelText"		"Save"
-		"command"		"Save"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
+	
 	"SaveAndTestButton"
 	{
-		"ControlName"		"Button"
-		"xpos"		"130"
-		"ypos"		"490"
-		"wide"		"94"
-		"tall"		"24"
-		
-
-		
-		"labelText"		"Save and Test"
-		"command"		"SaveAndTest"
+		"ControlName"	"Panel"
+		"visible"		"0"
 	}
+	
 	"EntitiesLabel"
 	{
 		"ControlName"		"Label"

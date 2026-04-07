@@ -5,8 +5,8 @@
 		"ControlName"		"CInfoTargetPropertiesPanel"
 		"xpos"		"0"
 		"ypos"		"0"
-		"wide"		"784"
-		"tall"		"418"
+		"wide"		"1"
+		"tall"		"1"
 		
 		
 		

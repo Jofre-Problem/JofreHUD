@@ -1,3 +1,4 @@
+#base "commentarynodebrowserpanel.res"
 "resource/entityreportpanel.res"
 {
 	"EntityReportPanel"
@@ -11,17 +12,7 @@
 		
 		
 	}
-	"Entities"
-	{
-		"ControlName"		"ListPanel"
-		"xpos"		"10"
-		"ypos"		"30"
-		"wide"		"412"
-		"tall"		"340"
-		//		"3"
-		
 
-	}
 	"GotoButton"
 	{
 		"ControlName"		"Button"
@@ -34,19 +25,7 @@
 		
 		"labelText"		"Go To"
 	}
-	"DeleteButton"
-	{
-		"ControlName"		"Button"
-		"xpos"		"432"
-		"ypos"		"70"
-		"wide"		"64"
-		"tall"		"24"
-		
 
-		
-		"labelText"		"Delete"
-		"command"		"Delete"
-	}
 	"PropertiesButton"
 	{
 		"ControlName"		"Button"
@@ -73,18 +52,7 @@
 		
 		"labelText"		"Close"
 	}
-	"EntitiesLabel"
-	{
-		"ControlName"		"Label"
-		"xpos"		"10"
-		"ypos"		"8"
-		"wide"		"64"
-		"tall"		"24"
-		
-		
-		
-		"labelText"		"Entities:"
-	}
+
 	"FilterLabel"
 	{
 		"ControlName"		"Label"

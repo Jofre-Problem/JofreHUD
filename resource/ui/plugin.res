@@ -1,4 +1,5 @@
 #base "pluginmenu.res"
+#base "quests/label.res"
 "x"
 {
 	"Plugins"
@@ -11,7 +12,7 @@
 		
 		
 		
-		"title"		"#Frame_Untitled"
+		
 	}
 	"Rich"
 	{
@@ -28,17 +29,7 @@
 	}
 	"label"
 	{
-		"ControlName"		"Label"
-		"xpos"		"17"
-		"ypos"		"42"
-		"wide"		"390"
-		"tall"		"300"
-		//		"3"
-		
 		"visible"		"0"
-		
-		"labelText"		""
-		"textAlignment"		"center"
 	}
 	"entry"
 	{

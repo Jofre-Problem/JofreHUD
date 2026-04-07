@@ -1,3 +1,4 @@
+#base "../../servers/status.res"
 "Resource/UI/SteamFriendPanel.res"
 {	
 	"avatar"
@@ -58,21 +59,8 @@
 
 	"StatusLabel"
 	{
-		"fieldName"		"StatusLabel"
-		"xpos"		"rs1"
-		"ypos"		"8"
-		"zpos"		"100"
-		"wide"		"f22"
-		"tall"		"10"
-		"textAlignment"		"north-west"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"		"1"
-		
+		"ControlName" "cexlabel"
 		"labelText"		"%status%"
 		"proportionaltoparent"		"1"
-		"font"		"InstructionalText"
-		"fgcolor_override"		"White"
-		"mouseinputenabled"		"0"
 	}
 }

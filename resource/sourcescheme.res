@@ -225,7 +225,6 @@ Button.DepressedTextColor "220 220 220 255"
 			{
 				"name"		"productsource"
 				"tall"		"17"
-				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -308,26 +307,6 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" "1"
 			}
 		} 		
-		"Product38"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
-				"tall"		"38"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}  			
-		"Product12"
-		{
-			"1"
-			{
-				"name"		"product_sans_regular"
-				"tall"		"12"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}  	
 		"Product14"
 		{
 			"1"
@@ -368,16 +347,7 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias" 	"1"
 			}
 		} 	
-		"tf2_12"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"16"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		} 			
+		
 		"Productv2_14"
 		{
 			"1"
@@ -511,15 +481,6 @@ Button.DepressedTextColor "220 220 220 255"
 				"tall"		"16"
 				"weight"	"500"
 				"underline" "1"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"		"productsource"
-				"tall"		"17"
-				"antialias"	"1"
 			}
 		}
 		"uibold"

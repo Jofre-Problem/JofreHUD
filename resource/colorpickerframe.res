@@ -70,7 +70,7 @@
 			
 			//"tabPosition"	"1"
 			"settitlebarvisible"	"1"
-			"title"		"#Frame_Untitled"
+			
 		}
 	}
 }

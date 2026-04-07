@@ -318,8 +318,8 @@
 						"zpos"		"990"
 						"wide"		"40"
 						"tall"		"o1"
-								"visible_minmode" "0"
-		"wide_minmode" "0"
+								
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -338,8 +338,8 @@
 						"fieldName"		"PartySlot2"
 						"zpos"		"990"
 						"wide"		"40"
-						"tall"		"o1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+						"tall"		"o1"		
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -360,8 +360,8 @@
 						"wide"		"40"
 						"tall"		"o1"
 						"visible"		"1"
-						"enabled"		"1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+						"enabled"		"1"		
+		
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"
@@ -378,8 +378,8 @@
 						"fieldName"		"PartySlot4"
 						"zpos"		"990"
 						"wide"		"40"
-						"tall"		"o1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+						"tall"		"o1"		
+		
 						"visible"		"1"
 						"enabled"		"1"
 						"proportionaltoparent"		"1"
@@ -400,8 +400,8 @@
 						"wide"		"40"
 						"tall"		"o1"
 						"visible"		"1"
-						"enabled"		"1"		"visible_minmode" "0"
-		"wide_minmode" "0"
+						"enabled"		"1"		
+		
 						"proportionaltoparent"		"1"
 						"mouseinputenabled"		"1"
 						"keyboardinputenabled"		"0"

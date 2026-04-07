@@ -35,8 +35,8 @@
 				"armedFgColor_override" 	"White"
 
 				
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+		
+		
 		paintBackground			0
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -56,8 +56,8 @@
 		command				"engine playerstats"
 				"defaultFgColor_override" 	"black"
 				"armedFgColor_override" 	"White"
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+		
+		
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"1_btn"		
@@ -80,8 +80,8 @@
 
 
 	
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+		
+		
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"2_btn"		
@@ -235,8 +235,8 @@
 			font					"itemfontnamesmall"
 			textAlignment			center
 			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
+			
+			
 							
 		defaultFgColor_override		"ItemAttribLevel"
 		armedFgColor_override		"ItemAttribPositive"
@@ -284,8 +284,8 @@
 			font					"itemfontnamesmall"
 			textAlignment			center
 			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
+			
+			
 							
 		defaultFgColor_override		"ItemAttribLevel"
 		armedFgColor_override		"ItemAttribPositive"
@@ -344,8 +344,8 @@
 
 			labelText				""
 			
-			sound_depressed			"ui/buttonclick.wav"
-			sound_released			"ui/buttonclickrelease.wav"
+			
+			
 			sound_armed				"UI/buttonrollover.wav"
 			
 			paintbackground			0
@@ -817,8 +817,8 @@
 		font			"ItemFontNameLarge"
 		command				"engine workshop"
 
-		sound_depressed			"ui/buttonclick.wav"
-		sound_released			"ui/buttonclickrelease.wav"
+		
+		
 		
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"White"
@@ -14472,8 +14472,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 				defaultbgcolor_override "27 27 27 255"
 			}
 			
@@ -14510,8 +14510,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"MatchHudCheckbox"
@@ -14547,8 +14547,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"ChatCheckbox"
@@ -14585,8 +14585,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"killbtnCheckbox"
@@ -14622,8 +14622,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"VoiceEnableCheckbox"
@@ -14659,8 +14659,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"GlowButtonCheckbox"
@@ -14696,8 +14696,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"SprayButtonCheckbox"
@@ -14733,8 +14733,8 @@
 				"paintbackground"				"0"
 				"font"							"itemfontnamesmallest"
 				"textAlignment"					"center"
-				"sound_depressed"				"UI/buttonclick.wav"
-				"sound_released"				"UI/buttonclickrelease.wav"
+				
+				
 			}
 			
 			"MinecraftButtonCheckbox"

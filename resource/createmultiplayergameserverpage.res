@@ -1,3 +1,4 @@
+#base "../admin/createmultiplayergameserverpage.res"
 "Resource/CreateMultiplayerGameServerPage.res"
 {
 	"ServerPage"
@@ -11,18 +12,7 @@
 		
 		
 	}
-	"MapList"
-	{
-		"ControlName"		"ComboBox"
-		"xpos"		"56"
-		"ypos"		"20"
-		"wide"		"200"
-		"tall"		"24"
-		
-		
-		//		"5"
-		"maxchars"		"-1"
-	}
+
 	"MapLabel"
 	{
 		"ControlName"		"Label"

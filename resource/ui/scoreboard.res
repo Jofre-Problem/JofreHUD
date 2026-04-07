@@ -539,8 +539,8 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"204"
-		"visible_minmode" "0"
-		"wide_minmode" "0"
+		
+		
 		
 		"visible"			"1"
 		"enabled"			"1"
@@ -607,8 +607,8 @@
 		//"		"3"
 		"linespacing"		"16"
 		//"show_columns"	"1"
-		"wide_minmode" "0"
-		"visible_minmode" "0"
+		
+		
  		if_mvm
  		{
  			"visible"		"0"
@@ -635,8 +635,8 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-				"wide_minmode" "0"
-		"visible_minmode" "0"
+				
+		
 		if_mvm
 		{
 			"ypos"		"428"
@@ -654,8 +654,8 @@
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"20"
-			"wide_minmode" "0"
-		"visible_minmode" "0"
+			
+		
 		"visible"		"1"
 		"enabled"		"1"
 		

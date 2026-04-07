@@ -377,8 +377,8 @@
 		labelText					"ȭ"
 		font							"scoreboardmedium"
 		textAlignment				center
-			sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"	
+			
+		
 		Command						"tauntloadout"
 				
 		"defaultFgColor_override" "Tanlight"
@@ -415,8 +415,8 @@
 
 		Command						"characterloadout"
 		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -449,8 +449,8 @@
 
 		Command						"sv_cheats 1; r_skin 0"
 		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -482,8 +482,8 @@
 
 		Command						"sv_cheats 1; r_skin 1"
 		
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -573,8 +573,8 @@
 
 		Command						"screenshot"
 		"actionsignallevel" "5"
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -658,8 +658,8 @@
 
 		Command						"tf_forced_holiday 2"// incrementvar tf_forced_holiday 0 2 -2"
 		"actionsignallevel" "5"
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -725,8 +725,8 @@
 
 		Command						"cl_showbackpackrarities 0"// incrementvar tf_forced_holiday 0 2 -2"
 		"actionsignallevel" "5"
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "Tanlight"
 		"armedFgColor_override" "Tanlight"
@@ -774,8 +774,8 @@
 
 		Command						"cl_showbackpackrarities 1; tf_forced_holiday 0"// incrementvar tf_forced_holiday 0 2 -2"
 		"actionsignallevel" "5"
-		sound_depressed			"UI/buttonclick.wav"
-		sound_released				"UI/buttonclickrelease.wav"
+		
+		
 		
 		"defaultFgColor_override" "HUDRedTeamSolid"
 		"armedFgColor_override" "ItemAttribLevel"

@@ -63,20 +63,6 @@
 			
 			
 			"paintbackground"	"1"
-		
-			// default style
-			"defaultBgColor_override"	"ItemAttribLevel"
-			"defaultFgColor_override" "MatchmakingMenuItemBackground"
-			"border_default"		"noborder"
-			
-			// armed style
-			"armedBgColor_override"	"ItemAttribLevel"
-			"armedFgColor_override" 	"QuestMap_BGImages"
-			"border_armed"		"noborder"
-		
-			// depressed style    
-			"depressedBgColor_override"	"ItemAttribLevel"
-			"depressedFgColor_override" "QuestMap_BGImages"
 		}	
 		
 		"ModeSelectionPanel"
