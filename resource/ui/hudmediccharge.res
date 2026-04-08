@@ -14,53 +14,12 @@
 		"tall"			"2"	
 		"bgcolor_override"		"35 35 35 255"
 	}		
-	"CoolBeam"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"CoolBeam"
-		"xpos"			"cs-0.5"
-		"ypos"			"c25"
-		"zpos"			"1000"
-		"wide"			"80"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"proportionaltoparent"	"1"
-		"ParticleEffects"
-		{
-			"0"
-			{
-				"particle_xpos"		"25"
-				"particle_ypos"		"15"
-				"particle_scale"		"0.6"
-				"particleName"		"passtime_beam_trail_stage3"
-				"start_activated"	"0"
-				"loop"			"1"
-				"angles"			"0 0 0"
-				"control_point0"		"0 0 0"
-				"control_point1"		"0 -80 0"
-			}
-			"1"
-			{
-				"particle_xpos"		"7"
-				"particle_ypos"		"15"
-				"particle_scale"		"0.6"
-				"particleName"		"passtime_beam_trail_stage3"
-				"start_activated"	"0"
-				"loop"			"1"
-				"angles"			"0 0 0"
-				"control_point0"		"0 -80 0"
-				"control_point1"		"0 0 0"
-			}
-		}
-	}		
 	"TeamColoredAmmoTextBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"c106"
-		"ypos"			"325"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"124-p0.001"
 		"tall"			"34"
 		"image"			"replay/thumbnails/null"
@@ -338,8 +297,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthClusterIcon"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"32"
 		"tall"			"o1"
 		"visible"		"0"
@@ -352,9 +311,9 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"1_editable"		
-		"xpos" 		"cs-0.5"
+		"xpos" 		"91"
 
-		"ypos"		"cs-0.5+30"
+		"ypos"		"5"
 	}
 	"ResistIcon"
 	{
@@ -362,7 +321,7 @@
 		"fieldName"		"ResistIcon"
 		"xpos"			"50"
 		"ypos"			"40"
-		"zpos"			"1000"
+		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"o1"
 		"visible"		"1"

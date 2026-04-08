@@ -211,11 +211,10 @@
 	{
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c106"
+		"ypos"			"325"
+		"wide"			"124-p0.001"
+		"tall"			"34"
 	}	
 
 	"DisguiseDust"
@@ -223,7 +222,7 @@
 		"ControlName"	"CTFParticlePanel"
 		"xpos"			"0"
 		"ypos"			"r100"
-		"zpos"			"70000"
+		"zpos"			"700"
 		"wide"			"70"
 		"tall"			"f0"
 		"visible"		"1"
@@ -451,12 +450,11 @@
 		"xpos"					"0"
 		"ypos"					"-25"
 		"wide"					"f0"
-		"tall"					"1980"//"510"
+		"tall"					"300"//"510"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 		"alpha"	"100"
-		"zpos" "10000"
 	}
 	    AchievementNotificationPanel        
         {

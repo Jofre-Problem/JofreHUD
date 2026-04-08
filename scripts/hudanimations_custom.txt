@@ -638,8 +638,7 @@ event HudMedicCharged
 {
 //	RunEventChild MainMenuOverride MedicCMD 0
 	Animate ChargeLabel xpos 55 Linear 0.0 0.0
-	RunEventChild CoolBeam StartParticle0 0.0
-	RunEventChild CoolBeam StartParticle1 0.0		
+	
 
 	Animate	ChargeMeter 	FgColor		"255 255 255 0"		Accel 0.0 0.0
 	Animate	1_label 	FgColor		"255 255 255 0"		Accel 0.0 0.0
@@ -901,8 +900,7 @@ event HudMedicChargedStop // replaces CompetitiveGame_RestoreChatWindow
 {
 //	RunEventChild Mainmenuoverride MedicCMD2 0.0		
 	Animate ChargeLabel xpos 58 Linear 0.0 0.0
-	RunEventChild CoolBeam StopParticle0 0.0
-	RunEventChild CoolBeam StopParticle1 0.0		
+	
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicCharged2 0.0
 	StopEvent HudMedicChargedLoop 0.0
