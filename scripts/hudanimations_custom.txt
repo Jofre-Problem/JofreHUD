@@ -1101,18 +1101,6 @@ event ShowMenuCMD
 
 	Animate TestPanel4 xpos r12 linear 0.5 0.6	
 }
-event ArenaVsPanelOnShow
-{
-
-}
-event ArenaVsPanelSlideIn
-{
-
-}
-event ArenaVsPanelSlideOut
-{
-
-}
 event QuestMap_LoadingLoop{}
 event QuestMap_StaticBar1Loop{}
 event QuestMap_StaticBar2Loop{}

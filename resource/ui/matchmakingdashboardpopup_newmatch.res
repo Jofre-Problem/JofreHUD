@@ -52,7 +52,7 @@
 			"tall"			"f5"
 			//"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"bgcolor_override" "TransparentLightBlack"
 			"proportionaltoparent"	"1"
 			//"pinCorner"		"3"
 
@@ -72,7 +72,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
 				"proportionaltoparent"	"1"
-				//"pinCorner"		"3"
+				"mouseinputenabled" "0"
 
 				"fonts"
 				{
@@ -92,7 +92,7 @@
 				"zpos"			"100"
 				"tall"			"20"
 				//"visible"		"1"
-				
+					"mouseinputenabled" "0"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
@@ -209,13 +209,13 @@
 				"ControlName"	"Label"
 				"fieldName"		"JoiningLabel"
 				"xpos"			"cs-1"
-				"ypos"			"rs1-17"
+				"ypos"			"rs1-5"
 				"wide"			"f0"
 				"zpos"			"100"
 				"tall"			"20"
 				//"visible"		"1"
-				
-				"font"			"HudFontSmallest"
+					"mouseinputenabled" "0"
+				"font"			"defaultsmall"
 				"fgcolor_override"	"TanLight"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
@@ -228,7 +228,7 @@
 				"ControlName"	"CTFLogoPanel"
 				"fieldName"		"Spinner"
 				"xpos"			"c+5"
-				"ypos"			"rs1-17"
+				"ypos"			"rs1-5"
 				"zpos"			"104"
 				"wide"			"o1"
 				"tall"			"25"

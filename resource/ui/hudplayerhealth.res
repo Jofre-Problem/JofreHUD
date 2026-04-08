@@ -1,3 +1,4 @@
+#base "HudPlayerStatusFireSelect.res"
 "x"
 {	
 
@@ -27,21 +28,7 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"visible"		"0"	
 	}	
-	"TeamColoredAmmoTextBG" // where the plus icons is
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"34"
-		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"
-		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
-	}	
+
 	"border1a"
 	{
 		"ControlName"		"Panel"
@@ -85,20 +72,19 @@
 	}
 	"TeamColoredAmmoTextBG2"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG2"
 		"xpos"			"35"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"34"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"
-		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
 	}
+	"TeamColoredAmmoTextBG" // where the plus icons is
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"34"
+		"tall"			"34"
+	}		
 	"HealthBarOverheal"
 	{
 		"ControlName"		"ImagePanel"

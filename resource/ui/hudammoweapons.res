@@ -1,5 +1,5 @@
 #base "ui3/hudammoweaponsbase.res"
-
+#base "HudPlayerStatusFireSelect.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
@@ -37,7 +37,8 @@
 		"tall"		"36"
 		"bgcolor_override"	"0 0 0 0"
 		"visible"		"1"
-	}		"border1"
+	}		
+	"border1"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"border1"
@@ -49,7 +50,8 @@
 		
 		"bgcolor_override"	"TransparentBlack"
 		"visible"		"1"
-	}		"border2"
+	}		
+	"border2"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"border2"
@@ -225,37 +227,25 @@
 	}			
 	
 	
-		"TeamColoredAmmoTextBG2"
+
+	"TeamColoredAmmoTextBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG2"
+		"xpos"			"0-p0.0015"
+		"ypos"			"0"
+	
+		"wide"			"123"
+		"tall"			"34"
+		"pin_to_sibling"	"AmmoAnchor"
+	}
+	"TeamColoredAmmoTextBG2"
+	{
 		"xpos"			"0"
 		"ypos"			"0-p0.01"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"34+p0.01" [$WINDOWS]
-				"tall" "33"	[$LINUX]
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
-	}
-	"TeamColoredAmmoTextBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamColoredAmmoTextBG"
-		"xpos"			"0-p0.0015"
-		"ypos"			"0"
-		"image"			"replay/thumbnails/hp/cover"
-		"scaleImage"		"1"	
-"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"		
-		"wide"			"123"
-		"tall"			"34"
-		"pin_to_sibling"	"AmmoAnchor"
-	}
+				"tall" "33"	[$LINUX]	
+	}	
 	"LowAmmoTextBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -318,7 +308,7 @@
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"100"
-		"tall"			"33"[$WINDOWS]
+		"tall"			"36"[$WINDOWS]
 		"tall"			"0"	[$LINUX]
 		"visible"		"1"
 		"enabled"		"1"
