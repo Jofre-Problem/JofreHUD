@@ -1,14 +1,16 @@
 	"Resource/HudLayout.res"
     {
-	HudPlayerStatus
+	HudPlayerStatus // player health - class
 	{
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+
+		"xpos"			"40"
+		"ypos"			"325"
+		"zpos"			"0"
+		"wide"			"400"
+		"tall" "100"
 	}
 	HudScope
 	{
@@ -17,24 +19,20 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-		"pin_to_sibling"		"HudPlayerStatus"
+		"pin_to_sibling"		"HudMatchStatus"
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"4"				
 	}
 	"QueueHUDStatus"
 	{
-		"fieldName"				"QueueHUDStatus"
-		"visible"				"1"
-		"enabled"				"1"
 		"xpos"					"rs1-5"
 		"ypos"					"1"
 		"zpos"					"1001"
-		"wide"					"200"
+		"wide"					"50"
 		"tall"					"18"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
-		"alpha"					"100"
 	}
 	HudArenaCapPointCountdown
 	{
@@ -124,7 +122,7 @@
 		ypos 0
 		zpos 10
 		wide f0
-		"tall"				"80" // does it need to be 480?
+		"tall"				"60" // does it need to be 480?
 		"enabled"				"1"
 	}
 	"MainMenuOverride"
@@ -148,10 +146,6 @@
 		}
 		"ResolutionSelector"{}
 	}	
-	"BaseGameUIPanel" // hardcoded
-	{
-		xpos 20
-	}		
 //	"MMDashboard"	{		"enabled"		"1"
 //		"RankPanel"		{			"xpos" "109"		}
  
@@ -263,7 +257,7 @@
 
 		"NameLabel"
 		{
-			"ControlName"							"CExLabel"
+			"ControlName"							"Label"
 			"xpos"									"rs1"		//0
 			"ypos"									"0"
 			"wide"									"100"
@@ -299,7 +293,7 @@
 		"ypos"					"80"
 		"wide"					"p0.9"
 		"tall"					"20"
-		"border"				"GrayDialogBorder"
+		"bgcolor_override" "TransparentLightBlack"
 	}
 
 	"StatPanel"
@@ -417,8 +411,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"40"
+		"tall"			"o1"
 	}	
 	CHudAccountPanel
 	{
@@ -451,7 +445,6 @@
 		"ypos"	 "c-60"
 		"wide"	 "64"
 		"tall"	 "128"
-		"alpha" "1"
 	}
 	CDamageAccountPanel
 	{
@@ -465,11 +458,9 @@
 		"alpha"	"100"
 		"zpos" "10000"
 	}
-	      AchievementNotificationPanel        
+	    AchievementNotificationPanel        
         {
-                "fieldName"                                "AchievementNotificationPanel"
-                "visible"                                "1"
-                "enabled"                                "1"
+
                 "xpos"                                        "0"
                 "ypos"                                        "180"
                 "wide"                                        "f10"
@@ -576,10 +567,10 @@
         HudProgressBar
         {
                 "fieldName" "HudProgressBar"
-                "xpos"        "c-150"
-                "ypos"        "300"
-                "wide"        "300"
-                "tall"  "15"
+                "xpos"        "0"
+                "ypos"        "1"
+                "wide"        "1"
+                "tall"  "1"
                 "visible" "1"
                 "enabled" "1"
                 "BorderThickness" "1"
@@ -605,30 +596,16 @@
         HudScenarioIcon
         {
                 "fieldName" "HudScenarioIcon"
-                "xpos"        "c110"
-                "ypos"        "443"
-                "wide"        "40"
-                "tall"  "44"
-                "visible" "1"
-                "enabled" "1"
-                "PaintBackgroundType"        "2"
-                "IconColor"                                "Hostage_Yellow"        
+                "xpos"        "0"
+                "ypos"        "0"
+                "wide"        "1"
+                "tall"  "1" 
         }
         
         HudFlashlight
         {
-                "fieldName" "HudFlashlight"
-                "visible" "1"
-                "enabled" "1"
-                "xpos"        "16"
-                "ypos"        "370"
-                "wide"        "102"
-                "tall"        "20"
-                
-                "text_xpos" "8"
-                "text_ypos" "6"
-                "TextColor"        "255 170 0 220"
-                "PaintBackgroundType"        "2"
+                "wide"        "1"
+                "tall"        "1"
         }	        
 		HudDamageIndicator
         {
@@ -759,10 +736,8 @@
 	{
 		"xpos"			"0"
 		"ypos"			"0"
-		////	"0"
-		////	"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"400"
 		
 	}
 	HudStalemate
@@ -786,9 +761,9 @@
 	HudBossHealth
 	{
 		xpos "cs-0.5"
-		"wide"			"200"
-		"tall"			"f0"
-		"zpos"			"-2000"
+		"wide"			"190"
+		"tall"			"25"
+		"zpos"			"-1"
 	}
 	HudArenaPlayerCount //fix for vsh
 	{

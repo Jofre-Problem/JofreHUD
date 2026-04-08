@@ -6,251 +6,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"10"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"ypos"			"rs1"
+		"wide"			"40"
+		"tall"			"15"
 		zpos -1
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
-"CyclingAd" [$WINDOWS]
-{
-"ControlName""CCyclingAdContainerPanel"
-"fieldName""CyclingAd"
-"xpos""0"
-"zpos""-100"
-"wide""f0"
-
-"tall""f0"
-
-
-"items"
-{
-
-"0"
-{	
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"35.0"
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"TitleScreenRain" 
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"TitleScreenRain"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"-100"
-		"wide"			"p0.3"
-		"tall"			"o1"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"ParticleEffects"
-		{
-            "0"
-            {
-                "particle_xpos"         "c-18"
-                "particle_ypos"      "c100"
-                "particle_scale"      "3"
-                "particlename"     "weapon_unusual_isotope_sniperrifle"
-                    // cauldron_embers | scale 3 | fire sputters
-                    // hammer_souls_rising | scale 2 | ghosts rising
-                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-                "loop"     "1"
-            }
-		}
-		"paintbackground"	"0"
-	}
-}
-
-"1"
-{
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"35.0"
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"TitleScreenRain"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"TitleScreenRain"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"-100"
-		"wide"			"p0.3"
-		"tall"			"o1"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"ParticleEffects"
-		{
-            "0"
-            {
-                "particle_xpos"         "c-20"
-                "particle_ypos"      "c130"
-                "particle_scale"      "3"
-                "particlename"     "unusual_shootingstar_purple_parent"
-                    // cauldron_embers | scale 3 | fire sputters
-                    // hammer_souls_rising | scale 2 | ghosts rising
-                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-                "loop"     "1"
-            }
-		}
-		"paintbackground"	"0"
-	}
-}
-"2"
-{	
-				"item"		"Frying Pan"
-				"show_market"	"0"
-				"present_time"	"635.0"
-				"Background"
-				{
-					"wide"		"0"
-				}
-
-				"ItemIcon"
-				{
-					"wide"		"0"
-				}
-
-				"ItemName"
-				{
-					"xpos"		"r0"
-				}
-
-				"BuyButton"
-				{
-					"wide"		"0"
-				}
-
-				"ScrollableItemText"
-				{
-					"wide"		"0"
-				}
-	"TitleScreenRain"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"TitleScreenRain"
-		"xpos"			"0"
-		"ypos"			"rs1"
-		"zpos"			"-100"
-		"wide"			"p0.3"
-		"tall"			"o1"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"ParticleEffects"
-		{
-            "0"
-            {
-                "particle_xpos"         "c-18"
-                "particle_ypos"      "c110"
-                "particle_scale"      "3"
-                "particlename"     "unusual_invasion_nebula"
-                    // cauldron_embers | scale 3 | fire sputters
-                    // hammer_souls_rising | scale 2 | ghosts rising
-                    // env_snow_stormfront_001 | scale .5 | snow falling (weird long lines though)
-                "loop"     "1"
-            }
-		}
-		"paintbackground"	"0"
-	}
-}	
-}
-}	
-
-
-		"FixForHP"
-		{
-		"ControlName""CTFImagePanel"
-		"fieldName""FixForHP"
-		"xpos""0"
-		"ypos" "0"
-		"wide"	"100"
-		"tall" "17"
-		"zpos" "0" visible 0
-		"ControlName""CTFImagePanel"
-		"fieldName""FixForHP"
-		"image"			"replay/thumbnails/null"
-		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/hp/modulate_red"
-		"teambg_3"		"replay/thumbnails/hp/modulate_blu"
-		"pin_to_sibling"	"ItemEffectMeterBG"
-		}
-								
-	"1_progress"
-	{
-					"ControlName""ContinuousProgressBar"
-		"fieldName""1_progress"
-		"xpos"			"80"
-		"ypos"			"rs1"
-		"zpos"			"-100"
-		"wide"			"331"	// limit at 30
-		"tall"			"2"
-		"variable"		"progresscount"
-		visible 0
-		"fgcolor_override"	"0 0 0 255"
-		"bgcolor_override" "15 10 10 0"
-	}		
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"80"
-		"ypos"			"rs1-20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"17"
+		"wide"			"1"
+		"tall"			"1"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			""
-		"fillcolor"		"0 0 0 0"	
 	}
 	
 	"ItemEffectMeterLabel"
@@ -277,11 +49,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-25"
+		"xpos"					"12"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"50"
-		"tall"					"16"
+		"tall"					"15"
 		//"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -289,62 +61,23 @@
 		"textAlignment"			"west"
 		"font"					"itemfontnamelarger"
 		"fgcolor"				"245 245 245 255"
-		"pin_to_sibling" "ItemEffectMeterBG"
 	}
-	"ItemEffectMeterCount2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount2"
-		"xpos"					"-25"
-		"ypos"					"0"
-		"zpos"					"3"
-		"wide"					"50"
-		"tall"					"16"
-		//"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"%progresscount%" // "killstreak_count_spaced"
-		"textAlignment"			"west"
-		"font"					"itemfontnamelarger"
-		"fgcolor"				"HTMLBackground"	
-		"pin_to_sibling" "ItemEffectMeterBG"
-	}	
+
 	"StreakLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"-10"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"200"
-		"tall"					"20"
+		"tall"					"15"
 		//"				"2"
 		"visible"				"1"
 		"enabled"				"1"
-		"labelText"				"H"
+		"labelText"				"Ɠ"
 		"textAlignment"			"west"
 		"font"					"ItemFontNameLarge"
 		"fgcolor"				"245 245 245 150"
-		"pin_to_sibling" "ItemEffectMeterBG"
 	}
-	"ItemEffectMeterTint"
-	{	
-		"ControlName"				"EditablePanel"
-		"fieldName"				"ItemEffectMeterTint"
-
-		"xpos"					"1"
-		"ypos"					"22"
-		"zpos"					"9"
-
-		"wide"					"120"
-		"tall"					"8"				
-
-		"visible"				"0"
-		"enabled"				"1"
-		
-		"bgcolor_override"			"235 226 202 165"
-
-	}
-	
-
 }

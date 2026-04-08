@@ -2,7 +2,7 @@ event HealthAmmoAnimateOpen
 {
 	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
 	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
-	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
+//	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
 	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
 	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
 //	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
@@ -11,7 +11,7 @@ event HealthAmmoAnimateEnd
 {
 	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
 	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
-	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
+//	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
 	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
 }
 event IntroMovieContinueBlinkStop
@@ -275,29 +275,6 @@ event HudHealthDyingPulseLoop4a
 	Animate	PlayerStatusHealthValueLowester	Fgcolor "255 0 0 255" Linear 0.2 0.055
 	Animate	PlayerStatusHealthValueLowester	Fgcolor "50 0 0 255" Linear 0.3 0.055
 	
-//	Animate	PlayerStatusHealthValueLowester2	Fgcolor "255 150 0 100" Linear 0.0 0.0
-	
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.0 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.0 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.0 0.17
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.12 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.13 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.14 0.0
-//	
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 10" Linear 0.2 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Position "-40 -5" Linear 0.2 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Position "-40 34" Linear 0.2 0.17
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 6" Linear 0.32 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 3" Linear 0.33 0.0
-//	Animate	PlayerStatusHealthValueLowester2	Size "148 0" Linear 0.34 0.0
-//	
-//	Animate	PlayerStatusHealthValueLowester3	Size "148 12" Linear 0.1 0.0
-//	Animate	PlayerStatusHealthValueLowester3	Position "-40 -5" Linear 0.1 0.0
-//	Animate	PlayerStatusHealthValueLowester3	Position "-40 34" Linear 0.1 0.3
-//	Animate	PlayerStatusHealthValueLowester3	Size "148 7" Linear 0.05 0.0
-//	Animate	PlayerStatusHealthValueLowester3	Size "148 4" Linear 0.075 0.0
-//	Animate	PlayerStatusHealthValueLowester3	Size "148 0" Linear 0.09 0.0
-	
 	RunEvent HudHealthDyingPulseLoop4b	0.4
 }
 
@@ -349,17 +326,7 @@ event TI_Neutral{	Animate PlayerStatusHealthValueID Fgcolor "Tanlight"	 linear 0
 // can lead to crashes
 event LosingNextMapVote
 {
-	SetVisible FriendsContainerv2 1 0
-//	Animate VotesLabel	FgColor	TanLight	Deaccel		0	0.1.5
-//	RunEventChild MainMenuOverride ForceSafemode 0.0
-//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
-//	RunEventChild Mainmenuoverride OnMatchCMD 0.0
-//	RunEventChild Mainmenuoverride OnMatchCMD 0.0		
-}
-
-event OnMatchCMD
-{
-	FireCommand 0.0 "gamemenucommand OpenLoadSingleplayerCommentaryDialog"
+	SetVisible FriendsContainerv2 1 0	
 }
 
 event CasualCategory_NotSelected
@@ -367,9 +334,6 @@ event CasualCategory_NotSelected
 	Animate Shade BgColor "TransparentBlack" Deaccel 0 0.2
 	Animate Title		FgColor TanLight Deaccel 0 0.2
 }
-
-
-
 
 
 event MenuClose
@@ -409,14 +373,6 @@ event MenuCMD	// consistent and good, workaround for xbox 360 ..... doesnt work.
 {
 		Firecommand 0.0 "engine hud_fastswitch 1"
 }		
-
-
-
-
-
-
-
-
 
 
 
@@ -512,7 +468,7 @@ event TeamStatus_PlayerDead
 		SetVisible DeathPanel	1 0
 		SetVisible SkullPanel	1 0
 		SetVisible respawntime	1 0
-		Animate udeadbg Alpha 255 linear 0.0 0.0
+
 		//PlaySound 0 "vo/gift_drop.wav"
 		Animate DeathPanel ypos 0 Accel 0 0.2
 		Animate SkullPanel ypos 0 Accel 0 0.2
@@ -520,15 +476,14 @@ event TeamStatus_PlayerDead
 	//	Animate respawntime ypos 299 Accel 0 0 
 	//	Animate classimagebg wide 0 accel 0 0 
 		Animate respawntime Alpha "0" linear 0.0 0.0
-		Animate whitebg Alpha "255" linear 0.3 0.15		
+
 
 		Animate respawntime Alpha "255" linear 0.3 0.15
 		Animate respawntime Alpha "0" linear 0.3 0.30
 		Animate respawntime Alpha "255" linear 0.4 0.45
 		Animate overhealbar position "0 0" Linear  0.0  0.0		
 		Animate healthbar position "0 0" Linear  0.0  0.0
-	//	SetVisible chargeamount 1 0
-		RunEvent	TStatus_Snd_Dead 0.0
+
 		RunEventChild Mainmenuoverride TeamStatusCMD 0.0	
 		
 }
@@ -547,7 +502,7 @@ event TeamStatus_PlayerAlive
 		SetVisible SkullPanel	0 0.2
 		SetVisible respawntime 0 0.2
 		Animate whitebg Alpha "0" linear 0.0 0.0
-		RunEvent	TStatus_Snd_Vivo 0.0
+
 }
 
 event TeamStatusCMD	// consistent and good, workaround for xbox 360 ..... doesnt work...
@@ -695,17 +650,7 @@ event HudMedicCharged
 
 	RunEvent HudMedicCharged2 0.0
 }
-event MedicCMD
-{
-	FireCommand 0.0 "engine tf_party_chat UBERCHARGE!"
-	FireCommand 0.0 "say_team UBERCHARGE!"
-}
-event MedicCMD2
 
-{	FireCommand 0 "echo HI"
-	FireCommand 0.0 "engine tf_party_chat USINGUBERCHARGE!"
-	FireCommand 0.0 "engine say_team USINGUBERCHARGE!"
-}
 event TIDuberFull
 {
 	Animate TargetDataLabelUberFullBG fgcolor "150 245 0 30" linear 0.0 0.0
@@ -1045,13 +990,6 @@ event SpecAnimate
 event SpecAnimateLoop
 {
 	RunEvent SpecAnimate 0.0
-}
-
-event ScoreboardAlpha
-{
-	Animate scores alpha "0" linear 0.0 0.0
-	Animate scores alpha "255" accel 0.0 0.22
-	
 }
 
 

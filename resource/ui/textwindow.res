@@ -29,13 +29,6 @@
 					"scaleImage""1"
 					}		}		
 
-	"SummerBorder"
-		{ 
-		"xpos""cs-0.5"
-		"ypos""45"
-			//"pin_to_sibling"	"PartySlot0"
-				//cant pin
-		}	
 			"tank_gif"
 			{
 			"xpos""cs-0.5"
@@ -44,31 +37,7 @@
 			"wide""32"
 			"tall""o1"
 			}		
-	"Removeline"
-	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					cs-0.5
-			ypos					50
-			zpos					100
-			wide					42
-			tall					41
-		bgcolor_override				"blank"
-		mouseInputEnabled			0
-
-		"PartySlot0"  // player
-		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					42
-			tall					o1
-
-			party_slot				0
-		}	
-	}			
+	
 	"info"
 	{
 		"ControlName"			"Frame"
