@@ -153,7 +153,7 @@
 		}
 		"TestItemButton0"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"TestItemButton0"
 			"xpos"			"270"
 			"ypos"			"20"
@@ -177,7 +177,7 @@
 		}
 		"RemoveItemButton0"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"RemoveItemButton0"
 			"xpos"			"370"
 			"ypos"			"20"
@@ -237,7 +237,7 @@
 		}
 		"TestItemButton1"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"TestItemButton1"
 			"xpos"			"270"
 			"ypos"			"40"
@@ -261,7 +261,7 @@
 		}
 		"RemoveItemButton1"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"RemoveItemButton1"
 			"xpos"			"370"
 			"ypos"			"40"
@@ -321,7 +321,7 @@
 		}
 		"TestItemButton2"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"TestItemButton2"
 			"xpos"			"270"
 			"ypos"			"60"
@@ -345,7 +345,7 @@
 		}
 		"RemoveItemButton2"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"RemoveItemButton2"
 			"xpos"			"370"
 			"ypos"			"60"
@@ -405,7 +405,7 @@
 		}
 		"TestItemButton3"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"TestItemButton3"
 			"xpos"			"270"
 			"ypos"			"80"
@@ -429,7 +429,7 @@
 		}
 		"RemoveItemButton3"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"RemoveItemButton3"
 			"xpos"			"370"
 			"ypos"			"80"
@@ -527,7 +527,7 @@
 		
 		"AddBotButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"AddBotButton"
 			"xpos"			"20"
 			"ypos"			"45"
@@ -582,7 +582,7 @@
 		
 		"KickAllBotsButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"KickAllBotsButton"
 			"xpos"			"20"
 			"ypos"			"70"
@@ -620,7 +620,7 @@
 	
 	"ExportButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ExportButton"
 		"xpos"			"10"
 		"ypos"			"400"
@@ -644,7 +644,7 @@
 	}
 	"ImportButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ImportButton"
 		"xpos"			"220"
 		"ypos"			"400"
@@ -668,7 +668,7 @@
 	}
 	"ImportRecentButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ImportRecentButton"
 		"xpos"			"430"
 		"ypos"			"400"
@@ -693,7 +693,7 @@
 	
 	"CancelButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"CancelButton"
 		"xpos"			"10"
 		"ypos"			"430"

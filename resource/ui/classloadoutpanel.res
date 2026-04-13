@@ -64,7 +64,7 @@
 		mouseinputenabled 0
 		"Weapon1"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Weapon1"
 			"XPos"									"rs1-32-79"
 			"YPos"									"88" // pls speed i need this p.001 to work
@@ -76,11 +76,11 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 		}
 		"Weapon2"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Weapon2"
 			"XPos"									"0"
 			"YPos"									"2"
@@ -92,7 +92,7 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 
 						"Pin_To_Sibling"				"Weapon1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -100,7 +100,7 @@
 		}
 		"Weapon3"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Weapon3"
 			"XPos"									"0"
 			"YPos"									"2"
@@ -112,7 +112,7 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 						"Pin_To_Sibling"				"Weapon2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -121,7 +121,7 @@
 
 		"Item1"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Item1"
 			"XPos"									"rs1-19"
 			"YPos"									"50"
@@ -133,11 +133,11 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 		}
 		"Item2"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Item2"
 			"XPos"									"0"
 			"YPos"									"2"
@@ -149,7 +149,7 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 
 						"Pin_To_Sibling"				"Item1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -157,7 +157,7 @@
 		}
 		"Item3"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Item3"
 			"XPos"									"0"
 			"YPos"									"2"
@@ -169,14 +169,14 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 						"Pin_To_Sibling"				"Item2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"			
 		}
 		"Item4"
 		{
-			"ControlName"							"EditablePanel"
+			"ControlName"							"panel"
 			"FieldName"								"Item4"
 			"XPos"									"0"
 			"YPos"									"2"
@@ -188,7 +188,7 @@
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"0 0 0 255"
+			"BGcolor_Override"						"black"
 						"Pin_To_Sibling"				"Item3"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"				
@@ -212,7 +212,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
-				"bgcolor_override"	"0 0 0 220"
+				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
@@ -246,7 +246,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			"<"
-				"bgcolor_override"	"0 0 0 220"
+				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
@@ -520,7 +520,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"			">"
-				"bgcolor_override"	"0 0 0 220"
+				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
@@ -1813,7 +1813,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"black"
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
@@ -1843,7 +1843,7 @@
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"110 110 110 255"
-			"bgcolor_override"	"0 0 0 220"
+			"bgcolor_override"	"TransparentBlack"
 			"centerwrap"	"1"
 		}
 		"maincontentscontainer"

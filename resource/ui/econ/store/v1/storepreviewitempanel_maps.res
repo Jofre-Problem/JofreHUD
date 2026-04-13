@@ -84,7 +84,7 @@
 		"wide"			"225"
 		"tall"			"200"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"black"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		

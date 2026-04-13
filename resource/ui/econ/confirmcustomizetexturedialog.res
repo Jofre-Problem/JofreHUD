@@ -363,8 +363,8 @@
 					//"fgcolor_override"	"235 226 202 255"
 					"bgcolor_override"	"0 0 0 255"
 					//"disabledFgColor_override" "235 226 202 255"
-					"disabledBgColor_override" "0 0 0 255"
-					"selectionColor_override" "0 0 0 255"
+					"disabledBgColor_override" "black"
+					"selectionColor_override" "black"
 					"selectionTextColor_override" "235 226 202 255"
 					"defaultSelectionBG2Color_override" "blank"
 				}
@@ -474,8 +474,8 @@
 					//"fgcolor_override"	"235 226 202 255"
 					"bgcolor_override"	"0 0 0 255"
 					//"disabledFgColor_override" "235 226 202 255"
-					"disabledBgColor_override" "0 0 0 255"
-					"selectionColor_override" "0 0 0 255"
+					"disabledBgColor_override" "black"
+					"selectionColor_override" "black"
 					"selectionTextColor_override" "235 226 202 255"
 					"defaultSelectionBG2Color_override" "blank"
 				}
@@ -603,8 +603,8 @@
 						//"fgcolor_override"	"235 226 202 255"
 						"bgcolor_override"	"0 0 0 255"
 						//"disabledFgColor_override" "235 226 202 255"
-						"disabledBgColor_override" "0 0 0 255"
-						"selectionColor_override" "0 0 0 255"
+						"disabledBgColor_override" "black"
+						"selectionColor_override" "black"
 						"selectionTextColor_override" "235 226 202 255"
 						"defaultSelectionBG2Color_override" "blank"
 					}

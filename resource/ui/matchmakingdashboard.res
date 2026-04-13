@@ -152,45 +152,7 @@
 			"tall"			"15"
 			"mouseinputenabled" "0"
 			"fgcolor"		"236 189 123 255"		
-		}	
-
-
-                    "kanyestatic"			// other classes pinned to this
-                    {
-                        ControlName				imagepanel
-                        fieldName				"kanyestatic"
-                        "xpos"							"r250"
-                        "YPOS" "-2"
-                        "wide"							"22"
-                        "tall"							"o1"
-                        scaleImage 1
-                        proportionaltoparent "1"
-                        "image" "replay/thumbnails/songs/onsight_static"
-
-                    }	
-				"kanyestaticplaying"			// other classes pinned to this
-				{
-					ControlName				editablepanel
-					fieldName				"kanyestaticplaying"
-					"xpos"							"r247-p0.002"
-					"YPOS" "0"
-					"wide"							"18"
-					"tall"							"o1"
-					visible 0
-                    "aaa"			// other classes pinned to this
-                    {
-                        ControlName				imagepanel
-                        fieldName				"aaa"
-                        "xpos"							"cs-0.5"
-                        "YPOS" "cs-0.5"
-                        "wide"							"22"
-                        "tall"							"o1"
-                        scaleImage 1
-                        proportionaltoparent "1"
-                        "image" "replay/thumbnails/songs/onsight"
-
-                    }	
-				}						
+		}				
 
 
 
@@ -279,11 +241,10 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		//"		"2"
-		//"	"1"
+
 		"Gradient"
 		{
-			"tall"		"0"
+			"visible"		"0"
 		
 		}
 
@@ -298,32 +259,14 @@
 
 		"BGPanel"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BGPanel"
-			"xpos"			"cs-0.5"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"p1.1"
-			"tall"			"f5"
+			"ControlName"	"Panel"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
-			"proportionaltoparent"	"1"
 		}
 
 		"OuterShadow"
 		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"OuterShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"-2"
-			"wide"			"p1.1"
-			"tall"			"p1"
+			"ControlName"	"Panel"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
-			"border"		"OuterShadowBorder"
-			"proportionaltoparent"	"1"
 		}
 		"ToggleChatButton"
 		{
@@ -355,7 +298,7 @@
 			"fgcolor_override"	"black"
 			"defaultFgColor_override"	"black"
 			"armedFgColor_override"		"ItemAttribLevel"
-			"depressedFgColor_override"	"W_ColorTheme4"
+			"depressedFgColor_override"	"green"
 			
 			"border_armed"		"noborder"	
 			"SubImage"
@@ -368,33 +311,19 @@
 		}		
 		"PartySlot0"
 		{
-			"xpos"					"10"
-			"ypos"					"20"
-			"wide"					"0"
-			"tall"					"o1"
-			"visible" "0"
+			"ControlName"	"Panel"
+			"visible"		"0"
 		}
 		"PartySlot1"
 		{
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"22"
-			"tall"					"o1"
-			"visible" "0"
-		"pin_to_sibling" "PartySlot2"		
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+			"ControlName"	"Panel"
+			"visible"		"0"
 		}
 		"PartySlot2"
 		{
-		"visible" "0"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"22"
-			"tall"					"o1"
-			"pin_to_sibling" "PartySlot3"
-		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		
+			"ControlName"	"Panel"
+			"visible"		"0"
 		}
 		"PartySlot3"
 		{
@@ -406,26 +335,14 @@
 		}		
 		"PartySlot4"
 		{
-		"visible" "0"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"22"
-			"tall"					"o1"
-			"pin_to_sibling" "PartySlot3"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-		}		
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}	
 		"PartySlot5"
 		{
-		"visible" "0"
-			"xpos"					"0"
-			"ypos"					"0"
-			"wide"					"22"
-			"tall"					"o1"
-			"pin_to_sibling" "PartySlot4"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-		}		
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}	
 		"QueueContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -481,20 +398,16 @@
 				 "alpha"                     "200"
             }
 			"OuterShadow"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"OuterShadow"
-				"tall"			"0"
-				"visible"		"0"
-			}
+		{
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}
 
 			"BGPanel"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"BGPanel"
-				"tall"			"0"
-				"visible"		"0"
-			}
+		{
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}
 
 			"QueueLogoButton"
 			{
@@ -523,9 +436,10 @@
 				"paintborder"		"0"				
 			}		
 			"CTFLogoPanel"
-			{
-				"tall"			"0"
-			}	
+		{
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}
           "QueueTextAnchor"
             {
                 "ControlName"               "EditablePanel"
@@ -566,14 +480,10 @@
                 "pin_to_sibling_corner"     "PIN_CENTER_TOP"
             }				
 			"QueueText"
-			{
-                "xpos"                      "9999"
-                "ypos"                      "9999"
-                "wide"                      "0"
-                "tall"                      "0"
-                "visible"                   "0"
-                "enabled"                   "0"
-			}
+		{
+			"ControlName"	"Panel"
+			"visible"		"0"
+		}
 
            "MultiQueuesManageButton"
             {
@@ -590,8 +500,8 @@
                 "brighttext"                    "0"
                 "default"                       "1"
 				zpos 1000
-                "sound_depressed"               "UI/buttonclick.wav"
-                "sound_released"                "UI/buttonclickrelease.wav"
+                
+                
                 "Command"                       "manage_queues"
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"
@@ -632,8 +542,8 @@
 				zpos 1000
                 "brighttext"                    "0"
                 "default"                       "1"
-                "sound_depressed"               "UI/buttonclick.wav"
-                "sound_released"                "UI/buttonclickrelease.wav"
+                
+                
                 "Command"                       "leave_queue"
                 "proportionaltoparent"          "1"
                 "actionsignallevel"             "3"

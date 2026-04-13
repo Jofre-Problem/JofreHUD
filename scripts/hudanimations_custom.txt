@@ -172,9 +172,7 @@ event Engineer
     //Animate  SentryGun  Position  "c106 360"  Linear  0.0  0.0
   	Animate  SentryGun  Position  "0 0"  Linear  0.0  0.0
     Animate  SentryGun  Tall  "480"  Spline  0.0  0.0	
-	Animate TimerShit	wide  "0"  Spline  0.0  0
-	Animate TimerShit	wide  "999"  Spline  0.0  1.2
-	Animate TimerShit	wide  "0"  Spline  1.1 0.5
+
 
     Animate  Dispenser  Position  "c-191 360"  Linear  0.0  0.0
     Animate  Dispenser wide  "999"  Spline  0.0  0.0	

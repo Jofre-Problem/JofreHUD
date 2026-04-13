@@ -30,7 +30,7 @@
 		"scaleImage"			"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"black"
 	}
 
 	"ConfirmButton"

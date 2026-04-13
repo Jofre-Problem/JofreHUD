@@ -1,18 +1,5 @@
-
-#base "ui2/modulate_team.res"
-
 "Resource/UI/HudItemEffectMeter_base.res"
 {
-	"FixForHP"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"f0"
-		"tall"			"0"
-		"pin_to_sibling"	"ItemEffectMeter"
-	
-	}
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
@@ -25,7 +12,7 @@
 	//	"ypos"			"c85"
 	//	"ypos_minmode"	"350"	
 		"wide"			"160"
-		"tall"			"30"
+		"tall"			"15"
 		"MeterFG"		"White"
 		"MeterBG"		"Blank"
 		"x_offset"		"0"

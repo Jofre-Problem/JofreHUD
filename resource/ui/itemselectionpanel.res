@@ -417,8 +417,7 @@
 		"textAlignment"								"center"
 		"AllCaps"									"0"
 		"Command"									"show_backpack"
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
+
 
 		"pin_to_sibling" 							"FiltersBG"
 		"pin_corner_to_sibling" 					"PIN_CENTER_RIGHT"

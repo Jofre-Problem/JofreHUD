@@ -60,7 +60,7 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"labelText"			""
-			"bgcolor_override"	"0 0 0 220"
+			"bgcolor_override"	"TransparentBlack"
 			"command"	"close"
 			"paintbackground"	"0"
 			"paintborder"		"0"

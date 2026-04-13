@@ -14147,7 +14147,7 @@
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
 				"defaultfgcolor_override" "greensolid"
-				"armedbgcolor_override" "0 0 0 220"
+				"armedbgcolor_override" "TransparentBlack"
 				"armedfgcolor_override" "greensolid"
 			}
 			"RandomImagePanel"
@@ -14422,7 +14422,7 @@
 				"paintbackground"	"1"
 			"defaultbgcolor_override" "0 0 0 120"
 				"defaultfgcolor_override" "greensolid"
-				"armedbgcolor_override" "0 0 0 220"
+				"armedbgcolor_override" "TransparentBlack"
 				"armedfgcolor_override" "greensolid"
 			}
 	

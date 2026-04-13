@@ -236,7 +236,7 @@
 			"paintborder"							"1"
 			"paintbackground"						"1"
 			//
-			"bgcolor_override"						"0 0 0 255" // bruh jofrepin
+			"BGcolor_Override"						"black" // bruh jofrepin
 
 			"ScrollBar"
 			{

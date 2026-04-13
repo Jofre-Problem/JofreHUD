@@ -79,11 +79,11 @@
 			
 	//		"fgcolor"	"Blank"
 			"defaultBgColor_override" "Blank"
-		//	"defaultFgColor_override" "W_ColorLinea1"
+	
 			"armedBgColor_override" "Blank"
-		//	"armedFgColor_override" "W_ColorTheme1"
+	
 			"selectedBgColor_override" "Blank"
-		//	"selectedFgColor_override"	"W_ColorIcons1"
+
 		}
 	}
 

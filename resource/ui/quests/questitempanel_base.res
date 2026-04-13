@@ -167,7 +167,7 @@
 					
 					
 					"labelText"			"%title%"
-					"bgcolor_override"	"0 0 0 220"
+					"bgcolor_override"	"TransparentBlack"
 					"fgcolor"		"Black"
 					"font"			"QuestLargeText"
 					"allcaps"	"1"

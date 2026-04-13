@@ -88,7 +88,7 @@
 			"ypos"			"30"
 			"wide"			"230"
 			"tall"			"300"
-			"bgcolor_override"	"0 0 0 220"
+			"bgcolor_override"	"TransparentBlack"
 			"skip_autoresize"	"1"
 			//
 			// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file

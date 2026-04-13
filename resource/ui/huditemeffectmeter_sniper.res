@@ -38,25 +38,7 @@
 		"font"					"itemfontnamesmall"
 		"proportionaltoparent"		"1"
 	}	
-	"ItemEffectMeterImageShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterImageShadow"
-		"xpos"					"1"
-		"ypos"					"1"
-		"zpos"					"28"
-		"wide"					"30"
-		"tall"					"30"	
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"ʦ"
-		"textAlignment"			"center"
-		"fgcolor"				"TransparentBlack"
-		"font"					"itemfontnamesmall"
-		"proportionaltoparent"		"1"
-		"pin_to_sibling" "ItemEffectMeterImageC"
-		"centerwrap" "1"
-	}		
+
 	"ItemEffectMeterCount"
 	{
 		"xpos"					"30"

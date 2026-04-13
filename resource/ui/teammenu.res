@@ -50,7 +50,7 @@
 	}
 	"BlueShortKey"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"Button"
 		"fieldName"									"BlueShortKey"
 		"xpos"										"9999"
 		"labelText"									"&3"
@@ -181,7 +181,7 @@
 	}
 	"RedShortKey"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"Button"
 		"fieldName"									"RedShortKey"
 		"xpos"										"9999"
 		"labelText"									"&4"
@@ -213,7 +213,7 @@
 }
 	"RandomShortKey"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"Button"
 		"fieldName"									"RandomShortKey"
 		"xpos"										"9999"
 		"labelText"									"&1"
@@ -222,7 +222,7 @@
 	}
 	"SpectateShortKey"
 	{
-		"ControlName"								"CExButton"
+		"ControlName"								"Button"
 		"fieldName"									"SpectateShortKey"
 		"xpos"										"9999"
 		"labelText"									"&2"
@@ -259,11 +259,11 @@
 		"armedFgColor_override"		"QuestMap_BGImages"
 		"depressedFgColor_override" "ItemAttribLevel"
 		"selectedFgColor_override" 	"QuestMap_BGImages"		
-		paintbackground			1
+		paintbackground			1	
 		
 		"SubImage"
 		{
-			tall					0
+			visible "0"
 		}
 	}
 
@@ -300,7 +300,7 @@
 		
 		"SubImage"
 		{
-			tall					0
+			visible "0"
 		}				
 	}
 

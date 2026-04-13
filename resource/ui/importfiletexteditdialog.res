@@ -39,7 +39,7 @@
 		"font"		"HudFontSmall"
 		"textAlignment"	"north-west"
 		"labelText"		""
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"black"
 		"fgcolor_override"		"202 190 164 255"
 	}
 

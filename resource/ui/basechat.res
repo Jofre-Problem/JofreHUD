@@ -13,7 +13,7 @@
 	//	"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 		"usetitlesafe"			"1"
-		"bgcolor_override"		"0 0 0 255"
+		"bgcolor_override"		"black"
 	}
 
 	ChatInputLine

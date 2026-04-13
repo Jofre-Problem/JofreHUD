@@ -282,7 +282,7 @@
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
-				"bgcolor_override"		"0 0 0 255"
+				"bgcolor_override"		"black"
 			}
 
 			"BadgeProgressMeterText"
@@ -362,7 +362,7 @@
 				
 				"proportionaltoparent"	"1"
 				"fgcolor_override"		"132 76 0 255"
-				"bgcolor_override"		"0 0 0 255"
+				"bgcolor_override"		"black"
 			}
 
 			"ContractsCompletedProgressMeterText"

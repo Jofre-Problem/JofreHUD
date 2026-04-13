@@ -136,7 +136,7 @@
 					"enabled"		"1"
 					"tabPosition"		"0"
 					"labelText"			"%title%"
-					"bgcolor_override"	"0 0 0 220"
+					"bgcolor_override"	"TransparentBlack"
 					"fgcolor"		"Black"
 					"font"			"QuestMediumText_Merasmus"
 					"textinsetx"		"0"
