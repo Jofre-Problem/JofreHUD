@@ -1,4 +1,4 @@
-#base "ui3/hudammoweaponsbase.res"
+//#base "ui3/hudammoweaponsbase.res"
 #base "HudPlayerStatusFireSelect.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
@@ -18,7 +18,7 @@
 	}	
 	"linuxcover"	[$LINUX]
 	{
-		"ControlName"	"editablepanel"
+		"ControlName"	"panel"
 		"fieldName"		"linuxcover"
 		"xpos"			"0"
 		"ypos"			"32"
@@ -131,7 +131,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"tall"			"0" //70
+		"visible"			"0" //70
 	}				
 	"AmmoInReserve"
 	{
@@ -197,7 +197,7 @@
 		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"85"
-		"tall"			"34"
+		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	

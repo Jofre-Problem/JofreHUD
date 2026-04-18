@@ -40,14 +40,14 @@
     "pin_to_sibling"	"PlayerStatusHealthValueID2"
     "wide"		"25"
     "tall"		"15"
-	"zpos"	"2"
+	"zpos"	"20"
 	"ypos"	"-1"
 	"xpos"	"-315"
     "visible"		"1"
     "enabled"		"1"
 		"labelText"		""
     "bgcolor_override"		"TransparentLightBlack"	
-		"alpha"		"150"
+
 		"proportionaltoparent"		"1"
   }
 	"HealthSpectatorBarHurt"
@@ -70,37 +70,6 @@
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
 	}
-	"cleanhurt"
-	{
-	"ControlName"	"ImagePanel"
-	"fieldName"	"cleanhurt"
-	"xpos"	"275+30+p0.001"
-	"ypos"	"401+p0.0029"
-	"zpos"	"6"
-	"wide"	"25"
-	"tall"	"19"
-	"visible" "1"
-	"bgcolor_override" "Black"
-			"enabled"		"1"
-	//		"image"	"replay/thumbnails/backpacktf/spectral_spectrum_60"
-	"image"	"replay/thumbnails/hp/REFRACTnormal"
-	"scaleimage""1"
-	}		
-	"cleanoverheal"
-	{
-	"ControlName"	"ImagePanel"
-	"fieldName"	"cleanoverheal"
-	"xpos"	"275+30+p0.001"
-	"ypos"	"420+15"
-	"zpos"	"6"
-	"wide"	"25"
-	"tall"	"15"
-	"visible" "1"
-	"bgcolor_override" "Black"
-			"enabled"		"1"
-	"image"	"replay/thumbnails/hp/REFRACTnormal"
-	"scaleimage""1"
-	}	
 	"HealthSpectatorBarBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -110,9 +79,9 @@
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"15"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blue"
+		"image"			"replay/thumbnails/panels/purple"
 		"alpha"	"100"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
@@ -275,21 +244,5 @@
 		"textAlignment"	"center"	
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
-	}			
-		"HPBar"
-	{
-		"ControlName"		"ContinuousProgressBar"
-		"fieldName"		"HPBar"
-        visible 0
-		"xpos"			"c-152"
-		"ypos"			"rs1-40"
-		"zpos"			"80"
-		"wide"			"109" //due to max players being 32, value is different
-		"tall"			"7"
-		//max value for players is 31
-		"variable"		"health"
-		"fgcolor_override"		"75 210 75 100"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
 	}							
 }

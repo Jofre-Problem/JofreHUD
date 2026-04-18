@@ -60,11 +60,10 @@
 	{
 
 		"xpos"		"cs-0.5"
-		"ypos"		"275"
+		"ypos"		"285"
 		"wide"	 	"f0"
 		"tall"	 	"70"
 		"priority"	"40"
-		"zpos"	"1090"
 		"bgcolor_override" "Blank"
 		x_offset "0"
 	}
@@ -314,8 +313,8 @@
 		"tall"	 "p0.6"
 
 		"MaxDeathNotices"		"15"
-		"IconScale"	  "0.38"
-		"LineHeight"	  "16"
+		"IconScale"	  "0.3"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "6"
 		"RightJustify"	  "1"
@@ -342,11 +341,10 @@
 	{
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"f0"
-		"tall"  				"f0"
+		"wide"					"100"
+		"tall"  				"100"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
 	}
 	
 	CHealthAccountPanel
@@ -372,13 +370,12 @@
 	}
 	CDamageAccountPanel
 	{
-		"xpos"					"0"
-		"ypos"					"-25"
-		"wide"					"f0"
-		"tall"					"300"//"510"
+		"xpos"					"cs-0.5"
+		"ypos"					"c17+20"
+		"wide"					"70"
+		"tall"					"25"//"510"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
 		"alpha"	"100"
 	}
 	    AchievementNotificationPanel        
@@ -1278,8 +1275,8 @@
                 "enabled" "1"
                 "xpos"        "0"
                 "ypos"        "0"
-                "wide"        "f0"
-                "tall"        "100"
+                "wide"        "50"
+                "tall"        "50"
         }
         MatchSummary
         {

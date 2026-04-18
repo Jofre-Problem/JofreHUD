@@ -11,8 +11,8 @@
 		"delta_item_end_y"		"-10"
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
-	//	"delta_item_font"		"DamagetextOldBitMap"//ItemFontNameLarge"
-		"delta_item_font_big"	"DamagetextOld"//Size 18"		
+		"delta_item_font"		"blank"//ItemFontNameLarge"
+		"delta_item_font_big"	"blank"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"
@@ -24,33 +24,33 @@
 	}	
 	"DamageAccountLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabel"
 		"font"			"DamagetextOld"
 		"fgcolor"		"255 215 0 0"
-	"xpos"			"c-50"
-		"ypos"			"c17+20"
+	"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"23"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"30"
 		"visible"		"1"
 		
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"	
-		"pin_to_sibling" 	"DamageAccountLabelPusher2"
-		"pin_corner_to_sibling" "1"
-		"pin_to_sibling_corner" "1"
+	//	"pin_to_sibling" 	"DamageAccountLabelPusher2"
+	//	"pin_corner_to_sibling" "1"
+	//	"pin_to_sibling_corner" "1"
 	}	
 	"DamageAccountLabel2"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabel2"
 		"font"			"DamagetextOld"
 		"fgcolor"		"255 215 0 0" //255
-	"xpos"			"c-50"
-		"ypos"			"c17+20"
+	"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"23"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,14 +61,14 @@
 
 	"DamageAccountLabelShadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabelShadow"
 		"font"			"DamagetextShadowOld"
 		"fgcolor"		"0 0 0 0" //150
-	"xpos"			"c-50"
-		"ypos"			"c17+20"
+	"xpos"			"0"
+		"ypos"			"0"//"c17+20"
 		"zpos"			"22"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
@@ -77,15 +77,15 @@
 	}
 	"DamageAccountLabelHeals"	// the font on this + pushes 100 units
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabelHeals"
 		"font"			"DamageTextheals"	[$WINDOWS]
 		"font"			"blank"	[$LINUX]
 		"fgcolor"		"46 255 83 255"
-	"xpos"			"c-50"
-		"ypos"			"c17+20+6"
+		"xpos"			"0"
+		"ypos"			"6"
 		"zpos"			"12"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"

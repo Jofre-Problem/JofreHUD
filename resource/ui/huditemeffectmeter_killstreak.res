@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"10"
 		"ypos"			"rs1"
-		"wide"			"40"
+		"wide"			"30"
 		"tall"			"15"
 		zpos -1
 		"MeterFG"		"White"
@@ -15,7 +15,7 @@
 	}
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -70,7 +70,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"200"
+		"wide"					"10"
 		"tall"					"15"
 		//"				"2"
 		"visible"				"1"

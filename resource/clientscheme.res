@@ -736,7 +736,7 @@ Scheme
 			"1"
 			{
 				"name" "opensanskillfeed"
-				"tall" "16"
+				"tall" "12"
 				"antialias"	"1"
 			}
 		}
@@ -755,7 +755,7 @@ Scheme
 			"1"
 			{
 				"name" "opensanskillfeed"
-				"tall" "18"
+				"tall" "16"
 				"antialias"	"1"
 			}
 		}
@@ -765,7 +765,7 @@ Scheme
 			"1"
 			{
 				"name" "opensanskillfeed"
-				"tall" "18"
+				"tall" "16"
 				"blur"	"2"
 				"antialias"	"1"
 			}
@@ -775,7 +775,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans Healtarget"
-				"tall" "12"
+				"tall" "9"
 				"range" "0x0000 0x9999"
 				"antialias"	"1"
 			}
@@ -917,7 +917,7 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "26" [$WINDOWS]
+				"tall" "22" [$WINDOWS]
 				"tall" "16" [$LINUX]
 				"antialias"	"1"
 				"blur" "2"
@@ -928,7 +928,7 @@ Scheme
 			"1"
 			{
 				"name" "opensansnodash"
-				"tall" "26" [$WINDOWS]
+				"tall" "22" [$WINDOWS]
 				"tall" "16" [$LINUX]
 				"antialias"	"1"
 			}
@@ -938,7 +938,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans NodashHeals"
-				"tall" "26"
+				"tall" "22"
 				"antialias"	"1"
 			}
 		}

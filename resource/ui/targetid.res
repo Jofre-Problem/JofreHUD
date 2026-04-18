@@ -326,8 +326,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue2"
 		"font"			"KillfeedUber"
-		"xpos"			"1"
-		ypos 1
+		"xpos"			"-1"
+		ypos "-1"
 		pin_to_sibling "TargetDataLabelTrue"
 
 		"zpos"			"4"
@@ -390,7 +390,7 @@
 		"tall"			"1500"
 		"visible"		"0"
 		"enabled"		"0"	
-	//	"HealthBonusPosAdj"	"31"//"10"
+		"HealthBonusPosAdj"	"31"//"10"
 		"HealthDeathWarning"	"1.0" // nice
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"236 240 241 255"
