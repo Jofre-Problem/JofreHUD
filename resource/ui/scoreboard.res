@@ -401,11 +401,13 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
+		"ControlName" "label"
 		"font"			"itemfontnamesmallest"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"		"2001"
+		"labelText" "%blueteamplayercount%"
 		"wide"			"p0.5"
 		"tall"			"20"
 		"visible"		"1"
@@ -472,8 +474,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
+		"ControlName" "Label"
 		"fgcolor_override"	"ItemAttribLevel"
-
+	"labelText" "%redteamplayercount%"
 		if_mvm
 		{
 			"visible"		"0"

@@ -745,7 +745,7 @@ Scheme
 			"1"
 			{
 				"name" "OpenSansUber" 
-			"tall" "18"	[$WINDOWS]
+			"tall" "14"	[$WINDOWS]
 				"tall" "14"	[$LINUX]
 				"antialias"	"1"
 			}

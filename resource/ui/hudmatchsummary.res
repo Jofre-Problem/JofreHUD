@@ -42,25 +42,8 @@
 	}
 	"RankBorder"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"RankBorder"
-		"xpos"										"cs-0.5"
-		"ypos"										"r0"
-		"zpos"										"9000"
-		"wide"										"510"
-		"tall"										"43"
+		"ControlName"								"Panel"
 		"visible"									"0"
-		"PaintBackgroundType"						"0"
-		"PaintBackground"							"1"
-		"bgcolor_override"							"0 0 0 0"
-		"PaintBorder"								"1"
-		"border"									"TFFatLineBorderClearBG"
-		"proportionaltoparent"						"1"
-
-		"if_uses_xp"
-		{
-			"visible"								"1"
-		}
 	}
 	"RankPanel"
 	{
@@ -110,17 +93,8 @@
 	}
 	"StatsBgPanel"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"StatsBgPanel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-1"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"0 0 0 0"
+		"ControlName"								"Panel"
+		"visible"									"0"
 	}
 	"DrawingPanel"
 	{
@@ -131,7 +105,7 @@
 		"wide"										"640"
 		"tall"										"480"
 		"zpos"										"60"
-		"visible"									"0"
+		"visible"									"1"
 		"enabled"									"1"
 		"keyboardinputenabled"						"0"
 

@@ -57,7 +57,6 @@
 	"1_image"
 	{
 		
-		"fieldName"	"1_image"
 		"ControlName"	"imagepanel"			
 		"ypos"			"-34"
 		"wide"			"124-p0.001"
@@ -70,7 +69,7 @@
 	"4_image"
 
 	{
-		"fieldName"	"4_image"
+
 		"ControlName"	"ImagePanel"		
 		"xpos"			"-85"
 		"zpos"			"200"
@@ -249,7 +248,7 @@
 	}
 	"ChargeLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"ChargeLabel"
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"MatchmakingMenuItemBackground"
@@ -264,7 +263,7 @@
 	}		
 	"1_label"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"1_label"		
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"MatchmakingMenuItemBackground"
@@ -280,7 +279,7 @@
 	}	
 	"IndividualChargesLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"IndividualChargesLabel"
 		"font"			"HealthAndAmmo"
 		"fgcolor"		"MatchmakingMenuItemBackground"

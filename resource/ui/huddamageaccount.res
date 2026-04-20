@@ -1,5 +1,5 @@
 
-#base "ui3/dmg_fallback.res"
+//#base "ui3/dmg_fallback.res"
 
 "Resource/UI/HudDamageAccount.res"
 {

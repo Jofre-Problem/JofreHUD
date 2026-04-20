@@ -44,7 +44,7 @@
 
 		"NumPipesLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"NumPipesLabel"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -65,7 +65,7 @@
 		}
 		"NumPipesLabel2"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"NumPipesLabel2"
 			"xpos"			"0"
 			"ypos"			"0"//"4"
@@ -86,7 +86,7 @@
 		}
 		"NumPipesLabelDropshadow"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"NumPipesLabelDropshadow"
 			"xpos"			"1"
 			"ypos"			"1"

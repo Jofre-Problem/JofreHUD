@@ -152,7 +152,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"20"
 	}	
 	HudBowCharge
 	{
@@ -629,7 +629,7 @@
 	}
 	HudSpellMenu
 	{
-		"wide"	 "f0"
+		"wide"	 "100"
 		"tall"	 "100"
 		"zpos" 	"2"
 		"xpos"			"0"
