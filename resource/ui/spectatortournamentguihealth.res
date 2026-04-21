@@ -71,7 +71,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"itemfontnamesmall"
-		"fgcolor"		"UpgradeDisabledFg"
+		"fgcolor"		"black"
 		bgcolor_override blank
 		"proportionaltoparent"		"1"
 	}

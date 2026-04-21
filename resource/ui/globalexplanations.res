@@ -406,7 +406,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%highlighttext%"
@@ -425,7 +425,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_TutorialHighlight_Text"
@@ -517,7 +517,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_PracticeHighlight_Title"
@@ -536,7 +536,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_PracticeHighlight_Text"
@@ -628,7 +628,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_NewUserForumHighlight_Title"
@@ -647,7 +647,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_NewUserForumHighlight_Text"
@@ -740,7 +740,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Title"
@@ -759,7 +759,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Text"
@@ -852,7 +852,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Title"
@@ -871,7 +871,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Text"
@@ -964,7 +964,7 @@
 		
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
@@ -983,7 +983,7 @@
 		
 		"TextLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TextLabel"
 			"font"			"HudFontSmall"
 			"labelText"		"%highlighttext%"

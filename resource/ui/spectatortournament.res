@@ -13,7 +13,7 @@
 		"enabled"		"1"
 
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"440" // red
+		"team1_player_base_y"				"120" // red
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-11" // spacing
 		"team2_player_base_offset_x"		"0"

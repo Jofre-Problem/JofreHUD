@@ -83,7 +83,7 @@
 	
 	"PlayerListScroller"
 	{
-		"ControlName"	"ScrollableEditablePanel"
+		"ControlName"	"ScrollablePanel"
 		"fieldName"		"PlayerListScroller"
 		"xpos"			"10"
 		"ypos"			"80"
@@ -95,7 +95,7 @@
 		
 		"PlayerList"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"PlayerList"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -107,7 +107,7 @@
 
 	"StatePanel0"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"			"Panel"
 		"fieldName" 			"StatePanel0"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -188,7 +188,7 @@
 	}
 	"StatePanel1"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"			"Panel"
 		"fieldName" 			"StatePanel1"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -260,7 +260,7 @@
 	}
 	"StatePanel2"
 	{
-		"ControlName"			"EditablePanel"
+		"ControlName"			"Panel"
 		"fieldName" 			"StatePanel2"
 		"visible" 				"1"
 		"enabled" 				"1"

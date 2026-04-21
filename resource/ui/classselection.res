@@ -38,7 +38,7 @@
 	}
 	                          "Scoutlabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""Scoutlabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -69,7 +69,7 @@
 	} 
 "Soldiderlabel"
 {
-"ControlName""cexlabel"
+"ControlName""Label"
 "fieldName""Soldiderlabel"
 "xpos"			"0"
 "zpos"			"-10"
@@ -104,7 +104,7 @@ pin_to_sibling scoutlabel
 
 	                          "pyrolabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""pyrolabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -138,7 +138,7 @@ pin_to_sibling Soldiderlabel
 	}			
 	                          "demolabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""demolabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -172,7 +172,7 @@ pin_to_sibling pyrolabel
 	}			
 	                          "heavylabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""heavylabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -208,7 +208,7 @@ pin_to_sibling demolabel
 	}			
 	                          "engilabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""engilabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -242,7 +242,7 @@ pin_to_sibling heavylabel
 	}		
 	                          "mediclabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""mediclabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -277,7 +277,7 @@ pin_to_sibling engilabel
 
 	                          "sniperlabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""sniperlabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -313,7 +313,7 @@ pin_to_sibling mediclabel
 
 	                          "spylabel"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""spylabel"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -348,7 +348,7 @@ pin_to_sibling sniperlabel
 
 	                          "extrabg"
 	{
-					                      "ControlName""cexlabel"
+					                      "ControlName""Label"
 		                         "fieldName""extrabg"
 		                         "xpos"			"0"
 		                         "zpos"			"-10"
@@ -1545,7 +1545,7 @@ pin_to_sibling spylabel
 	
 	                          "numScout"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numScout"
 		xpos					cs-0.5
 		ypos					66
@@ -1564,7 +1564,7 @@ pin_to_sibling spylabel
 
 	                          "numSoldier"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numSoldier"
 		xpos					cs-0.5+102
 		ypos					102
@@ -1583,7 +1583,7 @@ pin_to_sibling spylabel
 	
 	                          "numPyro"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numPyro"
 		xpos					cs-0.5+154
 		ypos					198
@@ -1602,7 +1602,7 @@ pin_to_sibling spylabel
 	
 	                          "numDemoman"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numDemoman"
 		xpos					cs-0.5+140
 		ypos					306
@@ -1621,7 +1621,7 @@ pin_to_sibling spylabel
 	
 	                          "numHeavy"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numHeavy"
 		xpos					cs-0.5+58
 		ypos					376
@@ -1640,7 +1640,7 @@ pin_to_sibling spylabel
 	
 	                          "numEngineer"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numEngineer"
 		xpos					cs-0.5-58
 		ypos					376
@@ -1659,7 +1659,7 @@ pin_to_sibling spylabel
 	
 	                          "numMedic"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numMedic"
 		xpos					cs-0.5-140
 		ypos					306
@@ -1678,7 +1678,7 @@ pin_to_sibling spylabel
 	
 	                          "numSniper"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numSniper"
 		xpos					cs-0.5-154
 		ypos					198
@@ -1697,7 +1697,7 @@ pin_to_sibling spylabel
 	
 	                          "numSpy"
 	{
-		ControlName				CExLabel
+		ControlName				Label
 		fieldName				            "numSpy"
 		xpos					cs-0.5-102
 		ypos					102

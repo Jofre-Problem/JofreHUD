@@ -6,8 +6,8 @@
 		"fieldName"				"ClassTipsItemPanel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"160"
-		"tall"					"30"
+		"wide"					"1"
+		"tall"					"1"
 		//			"0"
 		//				"1"
 		"bgcolor_override"		"blank"
@@ -26,15 +26,12 @@
 				
 		"TipLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"TipLabel"
 			"xpos"			"25"
 			"ypos"			"2"
 			"wide"			"140"
 			"tall"			"30"
-			"wrap"			"1"
-			//	"3"
-			
 			"textAlignment"	"north-west"
 		}
 	}

@@ -1,141 +1,8 @@
 #base "lobbypanel.res"
-#base "ui2/partyslot0.res"
 
 #base "buymenu.res"
 "Resource/UI/Scoreboard.res"
 {
-	"Removeline"
-	{
-			xpos					cs-0.5
-			ypos					50-20
-			zpos					100
-			wide					32
-			tall					31
-			border TrainingResultsBG
-		if_mvm
-		{
-			"visible"		"0"
-		}
-				"PartySlot0"  // player
-		{
-			wide					32
-			
-		}	
-	}		
-					"SummerBorder"
-					{
-						"visible"	"0"
-					}			
-						"SummerBorderScore"
-					{
-						"visible"	"1"
-					}
-
-				
-	"ccvarlist"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ccvarlist"
-		"xpos"				"0"
-		"ypos"				"11"
-		"zpos"				"1000"
-		"wide"				"f0"
-		"tall"				"68"
-		"visible" "0"
-
-		"DamageIndicatorButtons"
-			{
-				"ControlName"			"CScrollableList"
-				"fieldName"					"DamageIndicatorButtons"
-				"xpos"						"0"
-				"ypos"						"0"
-				"zpos"						"1"
-				"wide"						"250"
-				"tall"						"68"
-				"bgcolor_override"	"30 30 30 0"
-				"border"	"noborder"
-				"ScrollBar"
-				{
-					"ControlName"	"Scrollbar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"0"
-					
-					"tall"			"f0"
-					"wide"			"21" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"255 255 255 190"
-						"bgcolor_override"	"blank"
-						"alpha"		"80"
-					}
-				
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-				
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}	
-					"netbg2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"			"netbg2"
-			"xpos"				"0"
-			"ypos"				"68"
-			"zpos"				"0"
-			"wide"				"240"
-			"tall"				"100"
-			"visible"			"1"
-			"enabled"			"1"
-			"fillcolor"			"Normal"
-		}			
-		"ChatLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"ChatLabel"
-		"xpos"		"30"
-		"ypos"		"70+2"
-		
-		"wide"		"23"
-		"tall"		"20"
-		"labelText"		"ǐ"
-		"textAlignment"		"center"
-		"fgcolor_override"		"ItemAttribLevel"
-		"font"					"itemfontnamesmall"
-	}	
-	"ChatSlider"
-	{
-		"ControlName"		"CCVarSlider"
-		"fieldName"		"ChatSlider"
-		"xpos"		"30+25"
-		"ypos"		"70+7"
-		"wide"		"180"
-		"zpos"		"180"
-		"tall"		"15"
-		"leftText"		"0"
-		"rightText"		"15"
-		"minvalue"		"0"
-		"maxvalue"		"15"
-		"cvar_name"		"hud_saytext_time"
-		"allowoutofrange"		"0"	
-	}		
-			}
-
-	}
-
-
-
 
 
 
@@ -147,9 +14,9 @@
 		"fieldName"	          						"scores"		
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"9999"
+		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"295"
 		"medal_width"		"30"
 		"medal_column_width"	"29"
 		"avatar_width"		"64"
@@ -212,21 +79,7 @@
 			"visible"		"0"
 		}
 	}
-	"Gradient"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Gradient"
-		"xpos"				"0"
-		"ypos"				"79"
-		"zpos"				"5001"
-		"wide"				"f0"
-		"tall"				"20"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"gradient_pure_black"
-		"scaleImage"		"1"
-		if_mvm{		"visible"		"0"}
-	}		
+
 	"RedScoreBG2"
 	{
 		"ControlName"		"ImagePanel"
@@ -311,36 +164,23 @@
 		}
 	}
 	"ServerLabel"
-	{	"alpha"	"0"
+
+	{	"controlname" "label"
+		"alpha"	"0"
 		"visible"			"0"
 	}		
 	"ServerLabelNew"
-	{	"xpos"	"0"
+	{	"controlname" "label"
+		"xpos"	"0"
 		"visible"			"0"
 	}	
 	"MainBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"640"
-		"tall"			"480"
-		//
-		
+		"ControlName"		"Panel"
 		"visible"		"0"
-		"enabled"		"0"
-		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"tall"			"448"
-		}
 	}							
 	"BlueTeamLabel"
-	{		"ControlName"								"CExLabel"
+	{		"ControlName"								"Label"
 		"fieldName"									"BlueTeamLabel"
 		"labelText"									"%blueteamname%"
 		"visible"	"1"
@@ -358,7 +198,7 @@
 	}		
 	"G_Slash"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"G_Slash"
 		"font"			"ReplayBrowserSmallest"
 		"labelText"		"ʚ"
@@ -369,7 +209,7 @@
 		"tall"			"20" 
 		"zpos"			"200"
 		"enabled"		"1"
-		"fgcolor"		"ItemAttribPositive"
+		"fgcolor_override"		"ItemAttribPositive"
 		
 		if_mvm
 		{
@@ -378,7 +218,7 @@
 	}						
 	"BlueTeamScore"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"BlueTeamScore"
 		"labelText"									"%blueteamscore%"		
 		"font"			"HudFontBig"
@@ -422,7 +262,7 @@
 	}	
 								
 	"RedTeamLabel"
-	{		"ControlName"								"CExLabel"
+	{		"ControlName"								"Label"
 		"fieldName"									"RedTeamLabel"
 		"labelText"									"%redteamname%"
 		"visible"	"1"
@@ -441,7 +281,7 @@
 	}					
 	"RedTeamScore"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"								"Label"
 		"fieldName"									"RedTeamScore"
 		"labelText"									"%redteamscore%"
 		"font"			"HudFontBig"
@@ -485,35 +325,22 @@
 
 	"TimerBG"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"TimerBG"
-		"xpos"			"280"
-		"ypos"			"-3"
-		"zpos"			"-1"
-		"wide"			"80"
-		"tall"			"43"
-		//
-		
+		"ControlName"		"Panel"
 		"visible"		"0"
-		"enabled"		"0"
-		"border"		"TFThinLineBorder"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
 	}
 	"ServerTimeLeftInsetBG"
 	{
+		"ControlName"		"Panel"
 		"visible"		"0"
 	}
 	"ServerTimeLeftLabel"
 	{
+		"ControlName"		"Panel"
 		"visible"		"0"
 	}	
 	"ServerTimeLeftLabel3"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"ServerTimeLeftLabel3"
 		"font"			"SpectatorVerySmall"
 		"labelText"		"#scoreboard_top_list"
@@ -557,44 +384,7 @@
 			"visible"		"0"
 		}
 	}
-	"RedTeamBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"RedTeamBG"
-		"xpos"				"p0.5"
-		"ypos"				"87"
-		"zpos"				"4"
-		"wide"				"p0.505"
-		"tall"				"204"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"			"replay/thumbnails/hp/REFRACTblurRedLightish"
-		"scaleImage"	"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"BlueTeamBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlueTeamBG"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"p0.51"
-		"tall"				"204"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"			"replay/thumbnails/hp/REFRACTblurBluLightish"
-		"scaleImage"	"1"
-		"pin_to_sibling"	"BluePlayerList"	
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
+
 	"RedPlayerList"
 	{
 		"xpos"				"p0.498"
@@ -624,7 +414,7 @@
 	}
 	"Spectators"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"Spectators"
 		"font"			"InstructionalText"
 		"labelText"		"%spectators%"
@@ -647,7 +437,7 @@
 	}	
 	"SpectatorsInQueue"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"CenterPrintText"
 		"labelText"		"%waitingtoplay%"
@@ -690,10 +480,10 @@
 	"classmodelpanel"
 	{
 		"xpos"			"0"
-		"ypos"			"r200"
+		"ypos"			"0"
 		"zpos"			"1011"		
-		"wide"			"240"
-		"tall"			"200"
+		"wide"			"200"
+		"tall"			"78"
 		"paintbackground"	"1"
 		"bgcolor_override"	"200 0 0 0"
 		
@@ -721,7 +511,7 @@
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"5"
-				"origin_z"		"-78"
+				"origin_z"		"-60"
 			}
 			"Scout"
 			{
@@ -731,7 +521,7 @@
 				"angles_z"	"0"
 				"origin_x"	"825"
 				"origin_y"	"60"
-				"origin_z"	"-98"
+				"origin_z"	"-60"
 			}
 			"Sniper"
 			{
@@ -741,7 +531,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"58"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Soldier"
 			{
@@ -751,7 +541,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"63"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Demoman"
 			{
@@ -761,7 +551,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"63"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Medic"
 			{
@@ -771,7 +561,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"63"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Heavy"
 			{
@@ -780,8 +570,8 @@
 				"angles_y"	"200"
 				"angles_z"	"0"
 				"origin_x"	"805"
-				"origin_y"	"63"
-				"origin_z"	"-108"
+				"origin_y"	"63" //xpos
+				"origin_z"	"-60"
 			}
 			"Pyro"
 			{
@@ -791,7 +581,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"67"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Spy"
 			{
@@ -801,7 +591,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"60"
-				"origin_z"	"-108"
+				"origin_z"	"-60"
 			}
 			"Engineer"
 			{
@@ -811,7 +601,7 @@
 				"angles_z"	"0"
 				"origin_x"	"805"
 				"origin_y"	"60"
-				"origin_z"	"-100"
+				"origin_z"	"-60"
 			}
 		}
 	}
@@ -838,7 +628,7 @@ if_mvm
 }	
 	"PlayerScoreLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"PlayerScoreLabel"
 		"font"		"ScoreboardMedium"
 		"labelText"		"%playerscore%"
@@ -861,10 +651,10 @@ if_mvm
 
 	"LocalPlayerDuelStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"395"
+		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
@@ -880,7 +670,7 @@ if_mvm
 
 		"DuelingLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"DuelingLabel"
 			"font"			"ScoreboardSmall"
 			"labelText"		"#TF_ScoreBoard_Dueling"
@@ -913,7 +703,7 @@ if_mvm
 
 		"LocalPlayerData"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"Panel"
 			"fieldName"		"LocalPlayerData"
 			"xpos"			"75"
 			"ypos"			"0"
@@ -926,7 +716,7 @@ if_mvm
 	
 			"AvatarBGPanel"
 			{
-				"ControlName"	"EditablePanel"
+				"ControlName"	"Panel"
 				"fieldName"		"AvatarBGPanel"
 				"xpos"			"157"
 				"ypos"			"7"
@@ -954,7 +744,7 @@ if_mvm
 			}
 			"AvatarTextLabel"
 			{	
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
 				"xpos"			"50"
@@ -973,7 +763,7 @@ if_mvm
 			}
 			"Score"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
@@ -992,7 +782,7 @@ if_mvm
 
 		"OpponentData"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"Panel"
 			"fieldName"		"OpponentData"
 			"xpos"			"325"
 			"ypos"			"0"
@@ -1005,7 +795,7 @@ if_mvm
 	
 			"AvatarBGPanel"
 			{
-				"ControlName"	"EditablePanel"
+				"ControlName"	"Panel"
 				"fieldName"		"AvatarBGPanel"
 				"xpos"			"7"
 				"ypos"			"7"
@@ -1033,7 +823,7 @@ if_mvm
 			}
 			"AvatarTextLabel"
 			{	
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"TanLight"
 				"xpos"			"50"
@@ -1052,7 +842,7 @@ if_mvm
 			}
 			"Score"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"west"
@@ -1069,23 +859,9 @@ if_mvm
 			}
 		}
 	}
-		"teambg1"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"teambg1"
-			"xpos" 			"0"
-			"ypos"			"rs1"
-			"zpos"			"3"
-			"wide"			"f0"
-			"tall"			"57-p0.001"[$WINDOWS]
-		"tall"			"71" [$LINUX]
-			"bgcolor_override"	"TransparentBlack"
-			"border"	"BlurBorder"
-		
-		}	
 		"upbg1"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"		"Panel"
 			"fieldName"		"upbg1"
 			"xpos" 			"0"
 			"ypos"			"0"
@@ -1107,7 +883,7 @@ if_mvm
 	}	
 	"up1"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"up1"
 		"xpos"			"0"
 		"ypos"			"11"[$WINDOWS]
@@ -1122,7 +898,7 @@ if_mvm
 	}		
 	"center1"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"center1"
 		"xpos"			"0"
 		"ypos"			"-20+p0.001"
@@ -1137,7 +913,7 @@ if_mvm
 	}	
 	"center2"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"center2"
 		"xpos"			"0"
 		"ypos"			"c50" 
@@ -1154,7 +930,7 @@ if_mvm
 	}	
 	"center23"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"center23"
 		"xpos"			"0"
 		"ypos"			"0" 
@@ -1174,53 +950,16 @@ if_mvm
 {	"alpha"	"0"
 "visible"		"0"
 }		
-	"BlurMainBG"
-	{
-	"ControlName""ImagePanel"
-	"fieldName""BlurMainBG"
-	"xpos""-1"
-	"ypos""0"
-	"zpos""-10"
-	"visible"	"1"
-	"wide""f-10"
-	"tall""204"
-	//"image""replay/thumbnails/hp/REFRACTblur"
-	"fillcolor"	"0 0 0 80"
-	"scaleimage""1"
-	"pin_to_sibling"	"BluePlayerList"
-		if_mvm
-		{
-			"visible"		"0"
-			"tall"	"410+p0.001"
-		"ypos"				"12"[$WINDOWS]
-		"ypos"			"9-p0.001" [$LINUX]
-			"zpos"	"5"
-			"pin_to_sibling"	"ButtonLegendBG"
-		}
-	}						
-	"team1" //down
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"team1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"pin_to_sibling" "teambg1"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"p0.001"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"			"ItemAttribLevel"
-	}	
+
 	"LocalPlayerStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"			"LocalPlayerStatsPanel"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"30"
 		"wide"				"f0"
-		"tall"				"f0"
+		"tall"				"450"
 				
 			
 
@@ -1233,14 +972,13 @@ if_mvm
 
 		"KillsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"KillsLabel"
 			"font"				"QuestMap_Huge"
 			"labelText"			":"
 			"textAlignment"		"center"
 			"xpos"				"95"
-			"ypos"				"rs1-15"[$LINUX]
-		"ypos"			"rs1-4" [$WINDOWS]
+			"ypos"				"15"
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
@@ -1253,7 +991,7 @@ if_mvm
 
 		"Kills"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Kills"
 			"font"				"QuestMap_Huge"
 			"labelText"			"%kills%"
@@ -1275,7 +1013,7 @@ if_mvm
 		}
 		"Kills2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Kills2"
 			"font"				"betafont"
 			"labelText"			"%kills%"
@@ -1295,7 +1033,7 @@ if_mvm
 
 		"DeathsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"DeathsLabel"
 			"font"				"itemfontnamesmall"
 			"labelText"			"#TF_ScoreBoard_DeathsLabel"
@@ -1312,7 +1050,7 @@ if_mvm
 		}
 		"Deaths"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Deaths"
 			"font"				"betafont"
 			"labelText"			"%deaths%"
@@ -1334,7 +1072,7 @@ if_mvm
 		}
 		"Deaths2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Deaths2"
 			"font"				"betafont"
 			"labelText"			"%deaths%"
@@ -1354,7 +1092,7 @@ if_mvm
 
 		"GameType"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"gametype"
 			"font"				"ScoreboardVerySmall"
 			"labelText"			"%gametype%"
@@ -1373,14 +1111,13 @@ if_mvm
 
 		"AssistsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"AssistsLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"160"
-			"ypos"				"rs1-42"[$LINUX]
-		"ypos"			"rs1-32" [$WINDOWS]
+			"ypos"				"25"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"20"
@@ -1391,7 +1128,7 @@ if_mvm
 		}
 		"Assists"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Assists"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%assists%"
@@ -1412,7 +1149,7 @@ if_mvm
 		}
 		"Assists2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Assists2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%assists%"
@@ -1435,7 +1172,7 @@ if_mvm
 
 		"DestructionLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"DestructionLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
@@ -1457,7 +1194,7 @@ if_mvm
 		}
 		"Destruction"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Destruction"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%destruction%"
@@ -1479,7 +1216,7 @@ if_mvm
 		}
 		"Destruction2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Destruction2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%destruction%"
@@ -1502,7 +1239,7 @@ if_mvm
 
 		"CapturesLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"CapturesLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
@@ -1524,7 +1261,7 @@ if_mvm
 		}
 		"Captures"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Captures"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%captures%"
@@ -1546,7 +1283,7 @@ if_mvm
 		}
 		"Captures2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Captures2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%captures%"
@@ -1570,7 +1307,7 @@ if_mvm
 
 		"DefensesLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"DefensesLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
@@ -1593,7 +1330,7 @@ if_mvm
 		}
 		"Defenses"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Defenses"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%defenses%"
@@ -1616,7 +1353,7 @@ if_mvm
 		}
 		"Defenses2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Defenses2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%defenses%"
@@ -1639,7 +1376,7 @@ if_mvm
 
 		"DominationLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"DominationLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
@@ -1661,7 +1398,7 @@ if_mvm
 		}
 		"Domination"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Domination"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%dominations%"
@@ -1684,7 +1421,7 @@ if_mvm
 		}
 		"Domination2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Domination2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%dominations%"
@@ -1707,7 +1444,7 @@ if_mvm
 
 		"RevengeLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"RevengeLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
@@ -1730,7 +1467,7 @@ if_mvm
 		}
 		"Revenge"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Revenge"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%Revenge%"
@@ -1753,7 +1490,7 @@ if_mvm
 		}
 		"Revenge2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Revenge2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%Revenge%"
@@ -1776,7 +1513,7 @@ if_mvm
 
 		"HealingLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"HealingLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
@@ -1798,7 +1535,7 @@ if_mvm
 
 		"Healing"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Healing"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%healing%"
@@ -1819,7 +1556,7 @@ if_mvm
 		}
 		"Healing2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Healing2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%healing%"
@@ -1841,7 +1578,7 @@ if_mvm
 
 		"InvulnLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"InvulnLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
@@ -1862,7 +1599,7 @@ if_mvm
 		}
 		"Invuln"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Invuln"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%invulns%"
@@ -1883,7 +1620,7 @@ if_mvm
 		}
 		"Invuln2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Invuln2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%invulns%"
@@ -1906,7 +1643,7 @@ if_mvm
 
 		"TeleportsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"TeleportsLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
@@ -1927,7 +1664,7 @@ if_mvm
 		}
 		"Teleports"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Teleports"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%teleports%"
@@ -1948,7 +1685,7 @@ if_mvm
 		}
 		"Teleports2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Teleports2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%teleports%"
@@ -1971,7 +1708,7 @@ if_mvm
 
 		"HeadshotsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"HeadshotsLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
@@ -1993,7 +1730,7 @@ if_mvm
 		}
 		"Headshots"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Headshots"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%headshots%"
@@ -2014,7 +1751,7 @@ if_mvm
 		}
 		"Headshots2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Headshots2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%headshots%"
@@ -2037,7 +1774,7 @@ if_mvm
 
 		"BackstabsLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"BackstabsLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
@@ -2059,7 +1796,7 @@ if_mvm
 		}
 		"Backstabs"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Backstabs"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%backstabs%"
@@ -2080,7 +1817,7 @@ if_mvm
 		}
 		"Backstabs2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Backstabs2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%backstabs%"
@@ -2103,7 +1840,7 @@ if_mvm
 
 		"BonusLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"BonusLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
@@ -2124,7 +1861,7 @@ if_mvm
 		}
 		"Bonus"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Bonus"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%bonus%"
@@ -2145,7 +1882,7 @@ if_mvm
 		}
 		"Bonus2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Bonus2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%bonus%"
@@ -2168,7 +1905,7 @@ if_mvm
 
 		"SupportLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"SupportLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_Scoreboard_Support"
@@ -2189,7 +1926,7 @@ if_mvm
 		}
 		"Support"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Support"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%support%"
@@ -2210,7 +1947,7 @@ if_mvm
 		}
 		"Support2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Support2"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%support%"
@@ -2232,7 +1969,7 @@ if_mvm
 
 		"DamageLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"DamageLabel"
 			"font"				"PerformanceModeSmall"
 			"labelText"			"#TF_Scoreboard_Damage"
@@ -2254,7 +1991,7 @@ if_mvm
 		}
 		"Damage"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Damage"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%damage%"
@@ -2275,7 +2012,7 @@ if_mvm
 		}
 		"Damage2"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"			"Damage2"
 			"font"				"ItemFontAttribLarger"
 			"labelText"			"%damage%"
@@ -2301,10 +2038,10 @@ if_mvm
 	}
 	"ExampleAnchor"
     {
-        "ControlName"     "EditablePanel"
+        "ControlName"     "Panel"
         "fieldName"     "ExampleAnchor"
         "xpos"             "190"
-        "ypos"             "440"
+        "ypos"             "20"
         "wide"             "f0"
         "tall"             "1"
         "visible"         "1"
@@ -2405,20 +2142,8 @@ if_mvm
 	}
 	"PlayerNameLabel"
 	{
-		"ControlName"								"CExLabel"		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-		"fieldName"									"PlayerNameLabel"
-		"xpos"			         					"cs-0.5"
-		"wide" "f0"
-		"ypos" "15"
-		"tall" "15"
-		zpos "888"
-		"labelText" "%playername%"
-		textAlignment "center"
-
+		"ControlName"								"Label"		
+		"visible"		"0"
 	}
 	"ServerLabelNew"
 	{

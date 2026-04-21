@@ -222,7 +222,7 @@
 	
 		"ServerChangeLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"Label"
 			"fieldName"		"ServerChangeLabel"
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"

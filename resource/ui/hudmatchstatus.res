@@ -14,7 +14,7 @@
 	}
 	"CountdownLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"CountdownLabel"
 		"font"			"EconFontMedium"
 		"xpos"			"cs-0.5"
@@ -120,7 +120,7 @@ if_mini		{			"visible"		"0"		}
 	}
 	"RankUpLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"RankUpLabel"
 		"font"			"HudFontSmallishBold"
 		"xpos"			"cs-0.5"
@@ -161,7 +161,7 @@ if_mini		{			"visible"		"0"		}
 
 		"TimePanelValue"
 		{
-			"ControlName"		"cexlabel"
+			"ControlName"		"Label"
 			"fieldName"		"TimePanelValue"
 			"proportionaltoparent"		"1"
 			"font"			"killfeed"
@@ -230,7 +230,7 @@ if_mini		{			"visible"		"0"		}
 			"color_portrait_bg_red_local_player"	"White"
 			"color_portrait_bg_blue_local_player"	"White"			
 			"color_bar_health_high"	"75 210 75 120"
-			"color_bar_health_med"	"Overheal"
+			"color_bar_health_med"	"190 45 57 120"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"190 45 57 120"
 			"percentage_health_low"	"0.3"
@@ -268,7 +268,7 @@ if_mini		{			"visible"		"0"		}
 			"playername"
 			{
 				"fieldName"		"playername"
-				"font"			"CustomDejaVu SansSmall"
+				"font"			"Default"
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"50"
@@ -326,22 +326,7 @@ if_mini		{			"visible"		"0"		}
 				"proportionaltoparent"				"1"
 				"bgcolor_override"					"Blank"
 				//"pin_to_sibling" "respawntime"
-			}
-	
-	"testbg"
-	{
-		"ControlName"		"ProgressBar"
-		"variable" "respawntime"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"60"
-		"wide"			"20"
-		"tall"			"10"
-		"fgcolor_override"	"43 165 53 200"
-		"bgcolor_override"	"0 0 0 0"
-		"alpha"		"255"
-		"pin_to_sibling" "respawntime"
-	}				
+			}	
 			"healthbar"
 			{
 				"ControlName"			"ContinuousProgressBar"
@@ -410,7 +395,7 @@ if_mini		{			"visible"		"0"		}
 			}	
 			"chargeamount"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"Label"
 				"fieldName"		"chargeamount"
 				"font"			"FontCartPrice"
 				"xpos"			"0"
@@ -497,7 +482,7 @@ if_mini		{			"visible"		"0"		}
 		}
 		"BlueTeamLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"EconFontSmall"
 			"labelText"		"%blueteamname%"
@@ -622,7 +607,7 @@ if_mini		{			"visible"		"0"		}
 		}
 		"RedTeamLabel"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"Label"
 			"fieldName"		"RedTeamLabel"
 			"font"			"EconFontSmall"
 			"labelText"		"%redteamname%"

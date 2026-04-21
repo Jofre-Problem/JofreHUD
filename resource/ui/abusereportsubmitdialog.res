@@ -14,7 +14,7 @@
 
 	"TitleLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#AbuseReport_DialogTitle"
@@ -57,7 +57,7 @@
 
 	"PlayerLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"PlayerLabel"
 		"labelText"		"#AbuseReport_PlayerLabel"
 		"xpos"		"10"
@@ -92,7 +92,7 @@
 
 	"AbuseContentLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"AbuseContentLabel"
 		"labelText"		"Abusive content:"
 		"xpos"		"10"
@@ -127,7 +127,7 @@
 
 	"AbuseTypeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"AbuseTypeLabel"
 		"labelText"		"#AbuseReport_CategoryLabel"
 		"xpos"		"10"
@@ -203,7 +203,7 @@
 
 	"NoAvatarLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"NoAvatarLabel"
 		"xpos"			"260"
 		"ypos"			"40"
@@ -280,7 +280,7 @@
 	
 	"NoCustomTexturesLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"NoCustomTexturesLabel"
 		"xpos"			"260"
 		"ypos"			"40"

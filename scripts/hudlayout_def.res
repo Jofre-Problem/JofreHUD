@@ -307,19 +307,19 @@
 	}
 	HudDeathNotice
 	{
-		"xpos"	 "3" // 6 KF
+		"xpos"	 "rs1" // 6 KF
 		"ypos"	 "35" // 7 KF
-		"wide"	 "f0"
-		"tall"	 "p0.6"
+		"wide"	 "260"
+		"tall"	 "140"
 
-		"MaxDeathNotices"		"15"
+		"MaxDeathNotices"		"10"
 		"IconScale"	  "0.3"
 		"LineHeight"	  "13"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "6"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"Killfeed2"
+		"TextFont"		"itemfontnamesmallest"
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"
@@ -349,10 +349,10 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"			"cs-0.5-88"
-		"zpos"		"-2000"
-		"ypos"			"rs1-80"
-		"wide"			"50"
+		"xpos"			"0"
+		"zpos"		"0"
+		"ypos"			"0"
+		"wide"			"0"
 		"tall"			"0"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -391,7 +391,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"5"
 		"zpos"		"2"
-		"wide"		"500"
+		"wide"		"200"
 		"tall"		"80"
 	}
 
@@ -542,8 +542,8 @@
 	{
 		"xpos"	"cs-0.5"
 		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"wide"	"70"
+		"tall"	"20"
 		
 		"blue_active_xpos"			"4"
 	
@@ -566,7 +566,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"200"
 		//
 	}
 	
@@ -687,27 +687,27 @@
 	{
 		"xpos"				"0"
 		"ypos"			"0"
-	//	"tall"		"30"
-	//	"wide"			"f0"
+		"tall"		"30"
+		"wide"			"f0"
 		"zpos"			"10"
 	}	
 	HudCrosshair
 	{
-		"xpos"			"cs-0.5-p0.0005"	//p0.05 = 1 wide	- > 0.01
-		"ypos"			"cs-0.5"//+40	//needs to be - .5 pixel
+		"xpos"			"0"	//p0.05 = 1 wide	- > 0.01
+		"ypos"			"0"//+40	//needs to be - .5 pixel
 		//remember that p0.001 is the lowest value possible
 		"zpos"	"-1"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"1"
+		//hardcoded tall and wide
 	}	
 
 	HudTFCrosshair
 	{
-		"xpos"			"cs-0.5-p0.0005"	//p0.05 = 1 wide	- > 0.01
-		"ypos"			"cs-0.5-p0.0005"	//needs to be - .5 pixel
-		"wide"			"f0"
-		"tall"			"f0"
-	//	"pin_to_sibling"	"HudCrosshair"	 //HELL				
+		"xpos"			"0"	//p0.05 = 1 wide	- > 0.01
+		"ypos"			"0"	//needs to be - .5 pixel
+		"wide"			"1"
+		"tall"			"1"		
 	}		
 
 	HudArenaNotification
@@ -716,8 +716,8 @@
 		"ypos"					"0"
 		//////				"90"
 		//////				"90"
-		"wide"					"f0"
-		"tall"					"f0"
+		"wide"					"40"
+		"tall"					"40"
 	}	
 	CriticalPanel 
 	{
@@ -744,9 +744,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"r320"
-		"wide"					"f0"
-		"tall"					"320"
+		"ypos"					"rs1"
+		"wide"					"40"
+		"tall"					"40"
 	}	
 
         HudWeaponSelection
@@ -765,38 +765,12 @@
                 "ypos"        "0"
                 "wide"        "1"
                 "tall"  "1"
-                "visible" "1"
-                "enabled" "1"
 
-                
-                "bar_xpos"                "50"
-                "bar_ypos"                "20"
-                "bar_height"        "8"
-                "bar_width"                "320"
-                "speaker_xpos"        "50"
-                "speaker_ypos"        "8"
-                "count_xpos_from_right"        "10"        // Counts from the right side
-                "count_ypos"        "8"
-                
-                "icon_texture"        "vgui/hud/icon_commentary"
-                "icon_xpos"                "0"
-                "icon_ypos"                "0"                
-                "icon_width"        "40"
-                "icon_height"        "40"
-                "use_script_bgcolor"        "1"
         }
         HudZoom
         {
 
         }
-        HudCrosshair
-        {
-                "fieldName" "HudCrosshair"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
-        }	
         HudVehicle
         {
                 "fieldName" "HudVehicle"
@@ -916,8 +890,8 @@
                 "fieldName" "HudLocation"
                 "visible"        "1"
                 "enabled"        "1"
-                "xpos"                "16"
-                "ypos"                "112"
+                "xpos"                "0"
+                "ypos"                "0"
                 "wide"                "1"
                 "tall"                "1"
                 "textAlignment"        "north"
@@ -961,8 +935,8 @@
                 "enabled" "1"
                 "xpos"        "0"
                 "ypos"        "0"
-                "wide"        "640"
-                "tall"        "480"
+                "wide"        "1"
+                "tall"        "1"
         }
         
         VguiScreenCursor
@@ -992,7 +966,7 @@
 		xpos 0
 		ypos 0
 		"wide"	 "400"
-		"tall"	 "480"
+		"tall"	 "400"
 		"zpos" "1"
 
 		"TextFont"				"Default"
@@ -1020,7 +994,7 @@
 	{
 		"xpos"			"10"	
 		"ypos"			"275"
-		"wide"	 		"320"
+		"wide"	 		"f0"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
 	}	 
@@ -1195,7 +1169,7 @@
                 "xpos"                        "0"                        
                 "ypos"                        "0"
                 "wide"                        "200"
-                "tall"                        "480"
+                "tall"                        "410"
                 "visible"                "1"
                 "enabled"                "1"
                
@@ -1208,7 +1182,7 @@
                 "xpos"                        "cs-0.5"
                 "ypos"                        "0"
                 "wide"                        "200"
-                "tall"                        "100"
+                "tall"                        "50"
                 "visible"                "1"
                 "enabled"                "1"
                
@@ -1230,10 +1204,10 @@
                 "fieldName"         "HudMenuTauntSelection"
                 "visible"                 "1"
                 "enabled"                 "1"
-                "xpos"                        "c-235"
-                "ypos"                        "c-52"
-                "wide"                        "470"
-                "tall"                        "200"
+                "xpos"                        "cs-0.5"
+                "ypos"                        "cs-0.5"
+                "wide"                        "1"
+                "tall"                        "o1"
                 "PaintBackgroundType"        "0"
         }
 
@@ -1266,7 +1240,7 @@
                 "xpos"                        "0"
                 "ypos"                        "0"
                 "wide"                         "f0"
-                "tall"                         "f0"
+                "tall"                         "400"
         }
         HudSpectatorExtras
         {
@@ -1275,8 +1249,8 @@
                 "enabled" "1"
                 "xpos"        "0"
                 "ypos"        "0"
-                "wide"        "50"
-                "tall"        "50"
+                "wide"        "1"
+                "tall"        "1"
         }
         MatchSummary
         {
@@ -1286,6 +1260,6 @@
                 "xpos"        "0"
                 "ypos"        "0"
                 "wide"        "f0"
-                "tall"        "100"
+                "tall"        "450"
         }
 }

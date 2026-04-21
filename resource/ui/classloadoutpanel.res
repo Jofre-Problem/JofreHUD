@@ -294,15 +294,6 @@
 		}
 	}	
 
-
-
-
-						
-
-	"testg"
-	{
-//	"tall"	"0"
-	}	
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"

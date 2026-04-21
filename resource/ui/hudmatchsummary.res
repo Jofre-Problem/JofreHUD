@@ -148,7 +148,7 @@
 
 			"StatsAndMedals"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"Label"
 				"fieldName"							"StatsAndMedals"
 				"font"								"HudFontSmall"
 				"labelText"							"#TF_StatsAndMedals"
@@ -163,7 +163,7 @@
 			}
 			"StatsAndMedalsShadow"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"Label"
 				"fieldName"							"StatsAndMedalsShadow"
 				"font"								"HudFontSmall"
 				"labelText"							"#TF_StatsAndMedals"
@@ -222,7 +222,7 @@
 				}
 				"BlueTeamScore"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueTeamScore"
 					"xpos"							"5"
 					"ypos"							"99"
@@ -243,7 +243,7 @@
 				}
 				"BlueTeamScoreDropshadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueTeamScoreDropshadow"
 					"xpos"							"6"
 					"ypos"							"100"
@@ -264,7 +264,7 @@
 				}
 				"BlueTeamWinner"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueTeamWinner"
 					"xpos"							"5"
 					"ypos"							"99"
@@ -285,7 +285,7 @@
 				}
 				"BlueTeamWinnerDropshadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueTeamWinnerDropshadow"
 					"xpos"							"6"
 					"ypos"							"100"
@@ -306,7 +306,7 @@
 				}
 				"BlueLabel"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueLabel"
 					"xpos"							"-5"
 					"ypos"							"0"
@@ -326,7 +326,7 @@
 				}
 				"BlueLabelShadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueLabelShadow"
 					"xpos"							"-1"
 					"ypos"							"-1"
@@ -362,7 +362,7 @@
 				}
 				"BlueTeamLabel"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueTeamLabel"
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteamname%"
@@ -521,7 +521,7 @@
 				}
 				"RedTeamScore"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedTeamScore"
 					"xpos"							"r5-p.19"
 					"ypos"							"99"
@@ -542,7 +542,7 @@
 				}
 				"RedTeamScoreDropshadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedTeamScoreDropshadow"
 					"xpos"							"r4-p.19"
 					"ypos"							"100"
@@ -563,7 +563,7 @@
 				}
 				"RedTeamWinner"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedTeamWinner"
 					"xpos"							"r5-p.19"
 					"ypos"							"99"
@@ -584,7 +584,7 @@
 				}
 				"RedTeamWinnerDropshadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedTeamWinnerDropshadow"
 					"xpos"							"r4-p.19"
 					"ypos"							"100"
@@ -605,7 +605,7 @@
 				}
 				"RedLabel"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedLabel"
 					"xpos"							"-5"
 					"ypos"							"0"
@@ -625,7 +625,7 @@
 				}
 				"RedLabelShadow"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedLabelShadow"
 					"xpos"							"-1"
 					"ypos"							"-1"
@@ -661,7 +661,7 @@
 				}
 				"RedTeamLabel"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedTeamLabel"
 					"font"							"HudFontSmall"
 					"labelText"						"%redteamname%"
@@ -821,7 +821,7 @@
 				}
 				"BlueGoldMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueGoldMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_gold%"
@@ -850,7 +850,7 @@
 				}
 				"BlueSilverMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueSilverMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_silver%"
@@ -879,7 +879,7 @@
 				}
 				"BlueBronzeMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"BlueBronzeMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%blueteammedals_bronze%"
@@ -926,7 +926,7 @@
 				}
 				"RedGoldMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedGoldMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_gold%"
@@ -955,7 +955,7 @@
 				}
 				"RedSilverMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedSilverMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_silver%"
@@ -984,7 +984,7 @@
 				}
 				"RedBronzeMedalValue"
 				{
-					"ControlName"					"CExLabel"
+					"ControlName"					"Label"
 					"fieldName"						"RedBronzeMedalValue"
 					"font"							"HudFontSmall"
 					"labelText"						"%redteammedals_bronze%"
