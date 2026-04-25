@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"cs-1.0"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"35"
@@ -74,12 +74,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c0"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"23"
 		"visible"		"1"
+		"pin_to_sibling" "blueteam"
+		"pin_corner_to_sibling"					"PIN_TOPLEFT"
+		"pin_to_sibling_corner"					"PIN_TOPRIGHT"				
 	"RedProgress"
 	{
 		"ControlName"		"ContinuousProgressBar"
@@ -135,43 +138,10 @@
 			"visible"			"0"
 
 		}						
-		"countfalse"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"countfalse"
-			"xpos"			"0"
-			"ypos"			"2"
-			"zpos"			"2"
-			"wide"			"30"
-			"tall"			"19"
-			"labeltext"		"%red_alive%"
-			"font"			"Killfeed"
-			"textAlignment"	"center"
-			"fgcolor"		"blank"
-			"auto_wide_tocontents"	"1"
-		}	
-		"alert"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"alert"
-			"xpos"			"411+p0.002"
-			"ypos"			"0"
-			"zpos"			"2"
-			"wide"			"8"
-			"tall"			"19"
-			"font"			"Killfeed"
-			"textAlignment"	"center"
-			"labelText"	"!"
-			"fgcolor"		"Tanlight"	
-			"bgcolor_override"	"ItemAttribNegative"
-			"pin_to_sibling"	"countfalse"
-			"pin_corner_to_sibling"					"PIN_TOPLEFT"
-			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-		}		
 
 		"playerimage"
 		{
-			"tall"			"0"
+			"visible"			"0"
 	
 		}
 	}

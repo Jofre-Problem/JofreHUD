@@ -9,7 +9,7 @@
 		"fieldName"		"itempanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"
+		"zpos"			"10" 
 		"wide"			"110"
 		"tall"			"200"
 		"visible"		"0"
@@ -66,6 +66,15 @@
 			//
 			
 		}
+		"bg"
+		{	
+			"ControlName"	"imagepanel"
+			"fillcolor" "black"
+			"zpos" "-999"
+			"wide" "f0"
+			"tall" "f0"
+			
+		}		
 		"ItemLabel2"
 		{	
 			"ControlName"	"cautofittinglabel"

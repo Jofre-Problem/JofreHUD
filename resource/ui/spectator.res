@@ -2,6 +2,10 @@
 	#base 	"ui3/spectator_main.res"
 "Resource/UI/Spectator.res"
 { 
+	"itempanel"
+	{
+		border "FP_ButtonDefault"
+	}	
 	"Spectator" 
 	{
 		"ControlName"		"Frame"
@@ -184,7 +188,7 @@
 		"fieldName"		"SpacebarIcon"
 					"xpos"			"20"
 					"ypos"			"-1"
-					"zpos"			"1"
+					"zpos"	 		"1"
 	
 		"zpos"			"1"
 		"wide"			"23"

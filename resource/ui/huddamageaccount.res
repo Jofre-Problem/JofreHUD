@@ -15,12 +15,7 @@
 		"delta_item_font_big"	"blank"//Size 18"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
-//		"RedRobotScoreColor"	"255 255 255 255"
-//		"BlueRobotScoreColor"	"255 255 255 255"
-		
 		"delta_lifetime"		"5.6" // 5.6 old value but still appears on linux, thats why the font is gone on linux since on heals makes it mvoes
-		"alpha" "125"
-		"Additive" "1"
 	}	
 	"DamageAccountLabel"
 	{

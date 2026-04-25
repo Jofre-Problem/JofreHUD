@@ -1,5 +1,5 @@
-	"Resource/HudLayout.res"
-    {
+"x"
+{
 	HudPlayerStatus // player health - class
 	{
 		"fieldName" "HudPlayerStatus"
@@ -27,7 +27,7 @@
 	{
 		"xpos"					"rs1-5"
 		"ypos"					"1"
-		"wide"					"50"
+		"wide"					"20"
 		"tall"					"18"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
@@ -178,32 +178,6 @@
 		"tall"			"34"
 	}	
 
-	"DisguiseDust"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"xpos"			"0"
-		"ypos"			"r100"
-		"zpos"			"700"
-		"wide"			"70"
-		"tall"			"100"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"proportionaltoparent"	"1"
-		"ParticleEffects"
-		{
-			"0"
-			{
-				"particle_xpos"		"c0"
-				"particle_ypos"		"80"
-				"particle_scale"		"3"
-				"particleName"		"spy_start_disguise_red"
-				"start_activated"	"0"
-				"loop"			"0"
-				"angles"			"0 0 0"
-			}
-		}
-	}
 
 	"CurrencyStatusPanel"
 	{
@@ -613,13 +587,6 @@
 		"wide"					"120"
 		"tall"					"f0"
 	}
-
-	HudArenaClassLayout
-	{
-		"ypos"					"r80"
-		wide "f0"
-		"tall" "80"
-	}
 	ArenaWinPanel
 	{
 		"xpos"					"0"
@@ -662,8 +629,6 @@
 	{
 		"visible"									"0"
 		"enabled"									"0"
-		"xpos"										"9999"
-		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 	}
@@ -671,8 +636,6 @@
 	{
 		"visible"									"0"
 		"enabled"									"0"
-		"xpos"										"9999"
-		"ypos"										"9999"
 		"wide"										"0"
 		"tall"										"0"
 	}	
@@ -685,10 +648,10 @@
 	}
 	HudArenaPlayerCount //fix for vsh
 	{
-		"xpos"				"0"
+		"xpos"				"c-35"
 		"ypos"			"0"
 		"tall"		"30"
-		"wide"			"f0"
+		"wide"			"70"
 		"zpos"			"10"
 	}	
 	HudCrosshair
@@ -714,8 +677,6 @@
 	{
 		"xpos"					"0"
 		"ypos"					"0"
-		//////				"90"
-		//////				"90"
 		"wide"					"40"
 		"tall"					"40"
 	}	
@@ -725,7 +686,6 @@
 		"enabled"				"1"
 		"xpos"					"r150"
 		"ypos"					"r75"
-		//////		"r45"
 		"wide"					"150"
 		"tall"					"25"
 	}
@@ -745,8 +705,8 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"rs1"
-		"wide"					"40"
-		"tall"					"40"
+		"wide"					"0"
+		"tall"					"0"
 	}	
 
         HudWeaponSelection
@@ -903,7 +863,7 @@
                 "enabled"                                "1"
                 "xpos"                                        "c-240"
                 "ypos"                                        "c60"
-                "wide"                                        "480"
+                "wide"                                        "420"
                 "tall"                                        "100"
                 "HintSize"                                "1"
                 "text_xpos"                                "8"
@@ -1015,21 +975,6 @@
                 "wide"                                        "300"
                 "tall"                                        "215"
         }
-        StatPanel
-        {
-                "fieldName"                                "StatPanel"
-                "visible"                                "1"
-                "enabled"                                "1"
-                "xpos"                                        "c-133"
-                
-                "ypos"                                "270"
-           
-                "wide"                                        "266"
-              
-                "tall"                                        "120"
-           
-        }
-        
         FreezePanel
         {
                 "fieldName"                                "FreezePanel"
@@ -1093,12 +1038,18 @@
         
         HudTrainingMsg
         {
-                
+                "visible"                                "0"
+                "enabled"                                "0"
+                "wide"                                   "1"
+                "tall"                                   "1"                
         }
         
         TrainingComplete
         {
-                
+                "visible"                                "0"
+                "enabled"                                "0"
+                "wide"                                   "1"
+                "tall"                                   "1"                  
         }
 
         

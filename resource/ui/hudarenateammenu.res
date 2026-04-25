@@ -8,7 +8,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"40"
 		//	"0"
 		
 		"visible"		"1"
@@ -25,7 +25,7 @@
 		"xpos"			"100"
 		"ypos"			"34"
 		"wide"			"450"
-		"tall"			"365"
+		"tall"			"0"
 		//	"3"
 		
 		"visible"		"0"
@@ -175,30 +175,9 @@
 
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		//	"0"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/ui_arena01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_y" "0"
-			"origin_z" "-34"
-		}
+		"ControlName"	"Panel"
+		"fieldName"		"spectate"
+		"visible"		"0"
 	}	
 
 	"autodoor"

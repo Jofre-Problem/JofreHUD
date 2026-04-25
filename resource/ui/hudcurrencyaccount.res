@@ -2,7 +2,7 @@
 {
 	"Currency"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"Currency"
 		"font"			"HudFontSmallishBold"
 		"fgcolor"		"TanLight"
