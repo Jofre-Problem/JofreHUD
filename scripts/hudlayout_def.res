@@ -195,7 +195,7 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"80"
-		"wide"					"p0.8"
+		"wide"					"p0.5"
 		"tall"					"20"
 		"bgcolor_override" "TransparentLightBlack"
 	}
@@ -701,10 +701,10 @@
         }	
 	HudArenaClassLayout
 	{
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"xpos"					"0"
-		"ypos"					"rs1"
+		"ypos"					"0"
 		"wide"					"0"
 		"tall"					"0"
 	}	
@@ -725,7 +725,7 @@
                 "ypos"        "0"
                 "wide"        "1"
                 "tall"  "1"
-
+		"visible"				"0"
         }
         HudZoom
         {
@@ -733,43 +733,38 @@
         }
         HudVehicle
         {
-                "fieldName" "HudVehicle"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         CVProfPanel
         {
-                "fieldName" "CVProfPanel"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         ScorePanel
         {
-                "fieldName" "ScorePanel"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudTrain
         {
-                "fieldName" "HudTrain"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudMOTD
         {
-                "fieldName" "HudMOTD"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }	      
 		HudMessage // centerprinttext
         {
@@ -781,80 +776,66 @@
         }
         HudHistoryResource
         {
-                "fieldName" "HudHistoryResource"
                 "visible" "0"
                 "enabled" "0"
-                "xpos"         "r640"
-                "wide"         "1"
-                "tall"         "1"
-                "history_gap" "55"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudGeiger
         {
-                "fieldName" "HudGeiger"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HUDQuickInfo
         {
-                "fieldName" "HUDQuickInfo"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudWeapon
         {
-                "fieldName" "HudWeapon"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudAnimationInfo
         {
-                "fieldName" "HudAnimationInfo"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         CBudgetPanel
         {
-                "fieldName" "CBudgetPanel"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         CTextureBudgetPanel
         {
-                "fieldName" "CTextureBudgetPanel"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudPredictionDump
         {
-                "fieldName" "HudPredictionDump"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         HudLocation
         {
-                "fieldName" "HudLocation"
-                "visible"        "1"
-                "enabled"        "1"
-                "xpos"                "0"
-                "ypos"                "0"
-                "wide"                "1"
-                "tall"                "1"
-                "textAlignment"        "north"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }	       
 		HudHintDisplay
         {
@@ -890,22 +871,18 @@
         
         overview
         {
-                "fieldname" "overview"
-                "visible"        "1"
-                "enabled" "1"
-                "xpos"        "0"
-                "ypos"        "0"
-                "wide"        "1"
-                "tall"        "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }
         
         VguiScreenCursor
         {
-                "fieldName" "VguiScreenCursor"
-                "visible" "1"
-                "enabled" "1"
-                "wide"         "1"
-                "tall"         "1"
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"
         }        
 		HudCapturePanel
         {
@@ -964,6 +941,7 @@
         
         HudHDRDemo
         {
+			
         }
        PVEWinPanel
         {
