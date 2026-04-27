@@ -1,5 +1,3 @@
-#base "../../../../../cfg/_jp_freezepnl_stress.txt"
-#base "../../../../cfg/_jp_freezepnl_stress.txt"
 #base 	"ui3/freezepanel_basic_killername_bad.res"
 #base 	"hudinspectpanel.res"
 "Resource/UI/FreezePanel_Basic.res"
@@ -13,7 +11,7 @@
 	}
 	"itempanel"
 	{
-		"xpos"			"rs1"
+		"xpos"			"0"
 		"ypos"			"cs-0.5"
 		"zpos"			"10"
 		"wide"			"110"
@@ -25,10 +23,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"cs-0.5"
-		"ypos"			"c70"
-		"wide"			"300"
-		"tall"			"200"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"100"
+		"tall"			"40"
 		"visible"		"1"
 
 		"FreezePanelHealth"
@@ -73,13 +71,13 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"xpos"			"9999"
+			"visible"			"0"
 		}
 		"FreezeLabelKiller"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"wide"			"0"
+			"visible"			"0"
 		}
 	}
 		

@@ -14,9 +14,10 @@
 
 	"ChargeMeter"
 	{	
-		"ypos"			"C85"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"160"
+		"wide"			"34"
+		"tall"			"f0"
 		"zpos"		"2"
 		"fgcolor_override"	"245 245 245 255"
 		"bgcolor_override"	"TransparentLightBlack"	
@@ -26,12 +27,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"c194"
+		"xpos"			"0"
 		//////"c133"
-		"ypos"			"304"
+		"ypos"			"0"
 		//////		"r150"
 		"zpos"			"1"
-		"wide"			"34"
+		"wide"			"33"
 		"tall"			"20"
 		"visible"		"1"
 

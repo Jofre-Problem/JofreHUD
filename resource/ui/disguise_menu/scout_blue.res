@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassIconLabel"
-		"font"			"default"
+		"font"			"itemfontnamesmall"
 		"fgcolor"		"Blue"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
@@ -13,7 +13,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"a"
+		"labelText"		"Đ"
 		"textAlignment"	"Center"
 		"proportionaltoparent"		"1"
 	}
@@ -44,7 +44,7 @@
 		"xpos"			"0"
 		"ypos"			"20"
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"20"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"

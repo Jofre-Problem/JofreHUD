@@ -3,23 +3,23 @@
 	
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"200"
-		"delta_item_start_y"	"300"
-		"delta_item_end_y"		"250"
+		"delta_item_x"			"0"
+		"delta_item_start_y"	"50"
+		"delta_item_end_y"		"20"
 		"PositiveColor"			"90 255 2 255"
 		"NegativeColor"			"255 215 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"HealthAndAmmo20"
+		"delta_item_font"		"blank"
 	}
 
 	"AccountValue"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"AccountValue"
-		"xpos"			"cs-0.5-40"
-		"ypos"			"cs-0.5+20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"80"
+		"wide"			"40"
 		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"
@@ -33,12 +33,12 @@
 	}
 	"AccountValueS"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"AccountValueS"
 		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"40"
 		"tall"			"29"
 		"visible"		"1"
 		"enabled"		"1"

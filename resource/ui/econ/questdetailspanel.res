@@ -237,7 +237,7 @@
 			"wide"			"p.95"
 			"tall"			"p.425"
 			"visible"		"1"
-			"enable"		"1"
+			"enabled"		"1"
 			"proportionaltoparent"	"1"
 		}
 

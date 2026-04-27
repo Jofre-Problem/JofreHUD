@@ -1,18 +1,9 @@
-#base "../ui3/base/label2.res"
 "Resource/UI/build_menu/HudMenuEngyBuild.res"
 {
 	"TitleLabel"
 	{
-		"ControlName"	"CExLabel"
-		"font"			"ItemFontNameLarge"
-		"xpos"			"cs-0.5-5"
-		"ypos"			"15"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"10"
-		"labelText"		"#Hud_menu_build_title"
-		"textAlignment"	"center"
-		"fgcolor"		"Blue"
+		"ControlName"	"panel"
+		"visible" 	"0"
 	}
 
 	"TitleLabelDropshadow"
@@ -43,7 +34,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_2"
 		"xpos"			"cs-1-5"
-		"ypos"			"43"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"80"
@@ -55,7 +46,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"active_item_3"
 		"xpos"			"c0-5"
-		"ypos"			"43"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"80"

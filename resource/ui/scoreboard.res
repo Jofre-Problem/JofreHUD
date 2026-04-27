@@ -37,7 +37,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"0"
-		"ypos"			"79"
+		"ypos"			"0"
 		"zpos"			"99"
 		"wide"			"f0"
 		"tall"			"20"
@@ -58,13 +58,14 @@
 			"fillcolor"	"32 32 32 140"
 			"zpos"	"-1000"
 		}
+		"pin_to_sibling" "BlueScoreBG"
 	}
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"0"
-		"ypos"			"79"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"p0.494"
 		"tall"			"20"
@@ -195,27 +196,8 @@
 		"wide"			"p0.5"
 		"tall"			"20"
 
-	}		
-	"G_Slash"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"G_Slash"
-		"font"			"ReplayBrowserSmallest"
-		"labelText"		"ʚ"
-		"textAlignment"	"center"
-		"xpos"			"cs-0.5+4" 
-		"ypos"			"79+p0.001"
-		"wide"			"20"
-		"tall"			"20" 
-		"zpos"			"200"
-		"enabled"		"1"
-		"fgcolor_override"		"ItemAttribPositive"
-		
-		if_mvm
-		{
-			"visible" 0
-		}
-	}						
+	}
+				
 	"BlueTeamScore"
 	{
 		"ControlName"								"Label"
@@ -223,13 +205,14 @@
 		"labelText"									"%blueteamscore%"		
 		"font"			"HudFontBig"
 		"fgcolor_override"	"ItemAttribLevel"
+				"pin_to_sibling"	"RedScoreBG"
 		"textAlignment"		"east"
 		"xpos"			"6"
 		"ypos"			"1-p0.002"
 		"zpos"			"5000"
 		"wide"			"p0.5"
 		"tall"			"20"
-		"pin_to_sibling"	"RedScoreBG"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -245,7 +228,7 @@
 		"font"			"itemfontnamesmallest"
 		"textAlignment"		"center"
 		"xpos"			"0"
-		"ypos"			"8"
+		"ypos"			"0"
 		"zpos"		"2001"
 		"labelText" "%blueteamplayercount%"
 		"wide"			"p0.5"
@@ -254,7 +237,9 @@
 		"enabled"		"1"
 		"zpos"		"101"
 		"fgcolor_override"	"ItemAttribLevel"
-		"pin_to_sibling"	"BluePlayerList"
+		"pin_to_sibling" "BlueScoreBG"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"	
 		if_mvm
 		{
 			"visible"		"0"
@@ -287,11 +272,12 @@
 		"font"			"HudFontBig"
 		"fgcolor_override"	"ItemAttribLevel"
 		"textAlignment"		"west"
-		"xpos"			"c1+12"
-		"ypos"			"78+p0.002" 
 		"zpos"			"5000"
-		"wide"			"p0.5"
+		"wide"			"40"
 		"tall"			"20"
+		"pin_to_sibling"	"RedScoreBG2"
+		"xpos"			"60"
+		"ypos"			"1-p0.002"		
 		if_mvm
 		{
 			"visible"		"0"
@@ -306,17 +292,20 @@
 	{
 		"font"			"itemfontnamesmallest"
 		"textAlignment"		"center"
-		"xpos"			"rs1-20"
-		"ypos"			"79"
+		"xpos"			"90"
+		"ypos"			"0"
 		"zpos"		"2001"
-		"wide"			"p0.5"
+		"wide"			"p0.3"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"		"101"
 		"ControlName" "Label"
 		"fgcolor_override"	"ItemAttribLevel"
-	"labelText" "%redteamplayercount%"
+		"labelText" "%redteamplayercount%"
+
+		"pin_to_sibling" "RedScoreBG"
+		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" "PIN_CENTER_BOTTOM"		
 		if_mvm
 		{
 			"visible"		"0"
@@ -365,9 +354,9 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"				"-2"
-		"ypos"				"87"
+		"ypos"				"9"
 		"zpos"				"4"
-		"wide"				"p0.505"
+		"wide"				"p0.44"
 		"tall"				"204"
 		
 		
@@ -387,20 +376,16 @@
 
 	"RedPlayerList"
 	{
-		"xpos"				"p0.498"
-		"ypos"				"87"
+		"ControlName"	"SectionedListPanel"
+		"xpos"				"rs1"
+		"ypos"				"9"
 		"zpos"				"40"
-		"wide"				"p0.505"
+		"wide"				"p0.44"
 		"tall"				"204"
-	
-		
 		"visible"			"1"
 		"enabled"			"1"
-		
-		//"		"3"
 		"linespacing"		"16"
-		//"show_columns"	"1"
-		
+
 		
  		if_mvm
  		{
@@ -480,7 +465,7 @@
 	"classmodelpanel"
 	{
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"c50"
 		"zpos"			"1011"		
 		"wide"			"200"
 		"tall"			"78"
@@ -881,21 +866,7 @@ if_mvm
 	{
 			"visible"			"0"
 	}	
-	"up1"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"up1"
-		"xpos"			"0"
-		"ypos"			"11"[$WINDOWS]
-		"ypos"			"14" [$LINUX]
-		"zpos""10000"
-		"wide"			"f0"
-		"tall"			"p0.001"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"			"ItemAttribLevel"
-		if_mvm		{			"visible"		"0"		}
-	}		
+
 	"center1"
 	{
 		"ControlName"	"Panel"
@@ -955,11 +926,12 @@ if_mvm
 	{
 		"ControlName"		"Panel"
 		"fieldName"			"LocalPlayerStatsPanel"
-		"xpos"				"0"
-		"ypos"				"0"
+		"xpos"				"cs-0.5"
+		"ypos"				"20"
 		"zpos"				"30"
-		"wide"				"f0"
-		"tall"				"450"
+		"wide"				"90"
+		"tall"				"270"
+		"bgcolor_override" "TransparentBlack"
 				
 			
 
@@ -1113,14 +1085,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"AssistsLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"				"160"
-			"ypos"				"25"
+			"xpos"				"0"
+			"ypos"				"5"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1132,56 +1104,33 @@ if_mvm
 			"fieldName"			"Assists"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%assists%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"AssistsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Assists2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Assists2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%assists%"
-			"textAlignment"		"west"
+			"textAlignment"		"center"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
+			"wide"				"20"
+			"tall"				"15"
+			"bgcolor_override" "Black"
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"Assists"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"AssistsLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 		}
-
 
 		"DestructionLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DestructionLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1198,59 +1147,33 @@ if_mvm
 			"fieldName"			"Destruction"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%destruction%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"DestructionLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		}
-		"Destruction2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Destruction2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%destruction%"
-			"textAlignment"		"west"
+			"textAlignment"		"center"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
+			"wide"				"20"
+			"tall"				"15"
+			"bgcolor_override" "Black"
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"Destruction"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"DestructionLabel"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
 
 		}
-
 		"CapturesLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"CapturesLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
-			//
-			
+			"tall"				"15"
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1265,67 +1188,40 @@ if_mvm
 			"fieldName"			"Captures"
 			"font"				"ItemFontAttribLarge"
 			"labelText"			"%captures%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"CapturesLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-		}
-		"Captures2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Captures2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%captures%"
-			"textAlignment"		"west"
+			"textAlignment"		"center"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"20"
-			//
-			
+			"wide"				"20"
+			"tall"				"15"
+			"bgcolor_override" "Black"
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"Captures"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
+			"pin_to_sibling"		"CapturesLabel"
 		}
+
 
 		"DefensesLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DefensesLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"				"80"
-			"ypos"				"0"
+			"xpos"				"0"
+			"ypos"				"20"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"AssistsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_to_sibling"		"CapturesLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		}
 		"Defenses"
@@ -1339,7 +1235,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1362,7 +1258,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1378,14 +1274,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DominationLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"55"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1407,7 +1303,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1430,7 +1326,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1446,14 +1342,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"RevengeLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1476,7 +1372,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1499,7 +1395,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1515,14 +1411,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"HealingLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1544,7 +1440,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1565,7 +1461,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1580,14 +1476,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"InvulnLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1608,7 +1504,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1629,7 +1525,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			
 
 			"visible"			"1"
@@ -1645,14 +1541,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"TeleportsLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			
 			"visible"			"1"
 			"enabled"			"1"
@@ -1673,7 +1569,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1694,7 +1590,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1710,14 +1606,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"				"80"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1739,7 +1635,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1760,7 +1656,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1776,14 +1672,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"BackstabsLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1805,7 +1701,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1826,7 +1722,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1842,14 +1738,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"BonusLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1870,7 +1766,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1891,7 +1787,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1907,14 +1803,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"SupportLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
 			"xpos"				"80"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"50"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1935,7 +1831,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"
@@ -1956,7 +1852,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -1971,14 +1867,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DamageLabel"
-			"font"				"PerformanceModeSmall"
+			"font"				"SpectatorVerySmall"
 			"labelText"			"#TF_Scoreboard_Damage"
 			"textAlignment"		"east"
 			"xpos"				"0"
 			"ypos"				"12"
 			"zpos"				"3"
 			"wide"				"70"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"1"
@@ -2000,7 +1896,7 @@ if_mvm
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"30"
-			"tall"				"20"
+			"tall"				"15"
 			//
 			
 			"visible"			"0"

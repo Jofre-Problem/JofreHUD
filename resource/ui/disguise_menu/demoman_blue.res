@@ -4,7 +4,7 @@
 {
 	"ClassIconLabel"
 	{
-		"labelText"		"d"
+		"labelText"		"ē"
 	}
 	"NewNumberLabel"
 	{

@@ -248,7 +248,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"enable"		"1"
+			"enabled"		"1"
 			"image"			"store/store_bg001"
 			"scale_image"	"1"
 			"proportiontoparent"	"1"

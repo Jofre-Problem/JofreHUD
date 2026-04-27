@@ -4,8 +4,8 @@
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"CTFImagePanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"380"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"-1"
 		"wide"				"60"
 		"tall"				"2"
@@ -18,7 +18,7 @@
 	}
 	"DisguiseNameLabel"
 	{
-		"ControlName"				"cexLabel"
+		"ControlName"				"label"
 		"font"						"FontCartPrice"
 		"xpos"						"0"
 		"ypos"						"-2"
@@ -81,9 +81,9 @@
 	}
 	"SpectatorGUIHealth"
 	{
-		"xpos"							"70"
-		"ypos"							"380"
-		"wide"							"36"
+		"xpos"							"0"
+		"ypos"							"25"
+		"wide"							"60"
 		"tall"							"14"
 		"HealthBonusPosAdj"				"0"
 		"HealthDeathWarning"			"0.3"
@@ -91,7 +91,7 @@
 		"HealthDeathWarningColor"		"Blank"
 		"PlayerStatusHealthValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"		"label"
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"6"
