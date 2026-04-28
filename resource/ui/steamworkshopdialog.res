@@ -7,7 +7,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"bg"
 		"ypos"					"0"
-	"fillcolor"				"216 216 216 255"
+		"fillcolor"				"71 71 71 255"
 		"enabled"				"1"
 		"scaleimage"			"1"
 		"wide"	"f0"

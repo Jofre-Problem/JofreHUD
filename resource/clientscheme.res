@@ -703,34 +703,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-	
-		"AmmoPipesOut2"
-		{
-			"1"
-			{
-				"name" "Open Sans Pipes2"
-				"tall" "23"
-				"antialias"	"1"
-			}
-		}
-		"AmmoPipesOut3"
-		{
-			"1"
-			{
-				"name" "Open Sans Pipes3"
-				"tall" "23"
-				"antialias"	"1"
-			}
-		}
-		"AmmoPipesOut"
-		{
-			"1"
-			{
-				"name" "Open Sans Pipes"
-				"tall" "23"
-				"antialias"	"1"
-			}
-		}
+
 		"Killfeed2"
 		{
 			"1"
@@ -4908,22 +4881,6 @@ Scheme
 			"font" "fonts/OpenSans-NodashHeals.ttf"
 			"name" "Open Sans NodashHeals"
 		}
-		"25"
-		{
-			"font" "fonts/OpenSans-Pipes.ttf"
-			"name" "Open Sans Pipes"
-		}
-		"40"
-		{
-			"font" "fonts/OpenSans-Pipes2.ttf"
-			"name" "Open Sans Pipes2"
-		}
-		"42"
-		{
-			"font" "fonts/OpenSans-Pipes3.ttf"
-			"name" "Open Sans Pipes3"
-		}
-
 		"reservefont"
 		{
 			"font" "fonts/opensansnodash.ttf"

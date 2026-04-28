@@ -61,48 +61,14 @@
 			"textAlignment"		"center"
 			////	"0"
 			//
-			"font"			"AmmoPipesOut3"
+			"font"			"hudfontmedium"
 			"fgcolor"		"ItemAttribLevel"
-		}
-		"NumPipesLabel2"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"NumPipesLabel2"
-			"xpos"			"0"
-			"ypos"			"0"//"4"
-			"zpos"			"5"
-			"wide"			"35" //"74"
-			"tall"			"21"//"13"
-			//"		"1"
-			////"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"labelText"		"%activepipes%"
-			"textAlignment"		"center"
-			////	"0"
-			//
-			"font"			"AmmoPipesOut2"
-			"fgcolor"		"110 255 25 255"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"1"
-			"ypos"			"1"
-			"zpos"			"5"
-			"wide"			"35" //"74"
-			"tall"			"21"
-			"visible"		"1"
-			"enabled"		"1"
-			
-			"labelText"		"%activepipes%"
-			"textAlignment"		"center"
-			////	"0"
-			//
-			"font"			"AmmoPipesOut"
-			"fgcolor"		"TransparentLightBlack"	
+			"visible"		"0"
 		}
 	}
 

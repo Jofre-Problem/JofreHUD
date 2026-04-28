@@ -3,11 +3,6 @@
 #base "buymenu.res"
 "Resource/UI/Scoreboard.res"
 {
-
-
-
-
-
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
@@ -29,6 +24,7 @@
 		"ping_width"		"19"
 		"stats_width"		"30"
 		"killstreak_width"	"15"
+		bgcolor_override "0 0 0 190"
 		"killstreak_image_width" "15"
 	}
 
@@ -37,17 +33,15 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"99"
-		"wide"			"f0"
-		"tall"			"20"
-		//
-		
+		"wide"			"p0.5"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"0"
 		"image"	""
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"155 0 0 255"
 
 		if_mvm
 		{
@@ -58,21 +52,20 @@
 			"fillcolor"	"32 32 32 140"
 			"zpos"	"-1000"
 		}
-		"pin_to_sibling" "BlueScoreBG"
 	}
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"rs1"
+		"ypos"			"10"
 		"zpos"			"100"
-		"wide"			"p0.494"
-		"tall"			"20"
+		"wide"			"p0.5"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"0"
-		"fillcolor"		"ItemAttribPositive"
+		"fillcolor"		"61 61 155 255"
 		"image"	"replay/thumbnails/null"
 		if_mvm
 		{
@@ -80,93 +73,20 @@
 			"visible"		"0"
 		}
 	}
-
-	"RedScoreBG2"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedScoreBG2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1059"
-		"wide"			"22"
-		"tall"			"20"
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"Normal"
-		"pin_to_sibling"	"RedScoreBG"
-		"pin_corner_to_sibling"	"3"
-		"pin_to_sibling_corner"	"3"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"RedTeamImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedTeamImage"
-		"xpos"			"-2"
-		"ypos"			"0"
-		"zpos"			"1060"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/team_red"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"RedScoreBG2"
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"ControlName"		"Panel"
+		"visible"		"0"
 	}
-	"BlueScoreBG3"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG3"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"101"
-		"wide"			"22"
-		"tall"			"20"
-		//
-		
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"fillcolor"		"Normal"
-		"pin_to_sibling"	"BlueScoreBG"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
+
 	"BlueTeamImage"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueTeamImage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/team_blue"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"BlueScoreBG"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
+		"ControlName"		"Panel"
+		"visible"		"0"
 	}
 	"ServerLabel"
-
-	{	"controlname" "label"
+	{	
+		"controlname" "label"
 		"alpha"	"0"
 		"visible"			"0"
 	}		
@@ -179,39 +99,20 @@
 	{
 		"ControlName"		"Panel"
 		"visible"		"0"
-	}							
-	"BlueTeamLabel"
-	{		"ControlName"								"Label"
-		"fieldName"									"BlueTeamLabel"
-		"labelText"									"%blueteamname%"
-		"visible"	"1"
-		"font"			"itemfontnamesmall" 
-		"allcaps"	"0"
-		textinsetx "20"		
-		"fgcolor_override"	"30 30 30 255"
-		"textAlignment"		"west"
-		"xpos"			"22"
-		"ypos"			"79" 
-		"zpos"			"5001"
-		"wide"			"p0.5"
-		"tall"			"20"
-
-	}
-				
+	}								
 	"BlueTeamScore"
 	{
 		"ControlName"								"Label"
 		"fieldName"									"BlueTeamScore"
 		"labelText"									"%blueteamscore%"		
-		"font"			"HudFontBig"
-		"fgcolor_override"	"ItemAttribLevel"
-				"pin_to_sibling"	"RedScoreBG"
-		"textAlignment"		"east"
-		"xpos"			"6"
-		"ypos"			"1-p0.002"
-		"zpos"			"5000"
-		"wide"			"p0.5"
-		"tall"			"20"
+		"font"			"itemfontnamesmall"
+		"fgcolor_override"	"blue"
+		"textAlignment"		"west"
+		"zpos"			"220"
+		"xpos" "rs1"
+		"wide"			"40"
+		"tall"			"10"
+		"ypos"			"1-p0.002"	
 
 		if_mvm
 		{
@@ -225,14 +126,14 @@
 	"BlueTeamPlayerCount"
 	{
 		"ControlName" "label"
-		"font"			"itemfontnamesmallest"
+		"font"			"AchievementTracker_Desc"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"		"2001"
 		"labelText" "%blueteamplayercount%"
 		"wide"			"p0.5"
-		"tall"			"20"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
@@ -245,58 +146,61 @@
 			"visible"		"0"
 		}
 	}	
-								
+	"BlueTeamLabel"
+	{	
+		"ControlName"								"Label"
+		"fieldName"									"BlueTeamLabel"
+		"labelText"									"%blueteamname%"
+		"visible"	"1"
+		"font"			"AchievementTracker_Desc" 
+		"textAlignment"		"west"
+		"xpos"			"rs1"
+		"ypos"			"10" 
+		"zpos"			"5001"
+		"wide"			"p0.5"
+		"tall"			"10"
+	}								
 	"RedTeamLabel"
-	{		"ControlName"								"Label"
+	{	
+		"ControlName"								"Label"
 		"fieldName"									"RedTeamLabel"
 		"labelText"									"%redteamname%"
 		"visible"	"1"
-		"font"			"itemfontnamesmall" 
-		"allcaps"	"0"
-		textinsetx "20"		
-		"fgcolor_override"	"30 30 30 255"
+		"font"			"AchievementTracker_Desc" 
 		"textAlignment"		"east"
-		"xpos"			"rs1-22"
-		"ypos"			"79" 
+		"xpos"			"0"
+		"ypos"			"10" 
 		"zpos"			"5001"
 		"wide"			"p0.5"
-		"tall"			"20"	
-		"enabled" 0
-		"disabledfgcolor2_override" "Normal"
+		"tall"			"10"
 	}					
 	"RedTeamScore"
 	{
 		"ControlName"								"Label"
 		"fieldName"									"RedTeamScore"
 		"labelText"									"%redteamscore%"
-		"font"			"HudFontBig"
-		"fgcolor_override"	"ItemAttribLevel"
+		"font"			"AchievementTracker_Desc"
+		"fgcolor_override"	"red"
 		"textAlignment"		"west"
-		"zpos"			"5000"
-		"wide"			"40"
-		"tall"			"20"
-		"pin_to_sibling"	"RedScoreBG2"
-		"xpos"			"60"
-		"ypos"			"1-p0.002"		
+		"zpos"			"220"
+		"wide"			"90"
+		"tall"			"10"
+		"xpos"			"10"
+		"ypos"			"0"		
 		if_mvm
 		{
 			"visible"		"0"
 		}
-	}
-	"RedTeamScoreDropshadow"
-	{
-		"visible"		"0"
-	
-	}							
+	}					
 	"RedTeamPlayerCount"
 	{
-		"font"			"itemfontnamesmallest"
+		"font"			"AchievementTracker_Desc"
 		"textAlignment"		"center"
 		"xpos"			"90"
 		"ypos"			"0"
 		"zpos"		"2001"
 		"wide"			"p0.3"
-		"tall"			"20"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"ControlName" "Label"
@@ -331,15 +235,15 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"ServerTimeLeftLabel3"
-		"font"			"SpectatorVerySmall"
+		"font"			"AchievementTracker_Desc"
 		"labelText"		"#scoreboard_top_list"
 		"textAlignment"		"west"
 		"fgcolor"		"0 255 0 255"
+		"bgcolor_override" "30 30 30 255"
 		"xpos"			"0"
-		"ypos"			"0" [$WINDOWS]
-				"ypos" "2"	[$LINUX]		
-		"zpos"			"5000"
-		"wide"			"p0.9"
+		"ypos"			"0"	
+		"zpos"			"1"
+		"wide"			"f0"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
@@ -353,18 +257,13 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"				"-2"
+		"xpos"				"rs1"
 		"ypos"				"9"
 		"zpos"				"4"
-		"wide"				"p0.44"
-		"tall"				"204"
-		
-		
-		
+		"wide"				"p0.45"
+		"tall"				"280"
 		"visible"			"1"
 		"enabled"			"1"
-		
-		//"		"3"
 		"linespacing"		"16"
 		"linegap"		"0"
 		"show_columns"	"0"
@@ -377,11 +276,11 @@
 	"RedPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
-		"xpos"				"rs1"
+		"xpos"				"0"
 		"ypos"				"9"
 		"zpos"				"40"
-		"wide"				"p0.44"
-		"tall"				"204"
+		"wide"				"p0.45"
+		"tall"				"280"
 		"visible"			"1"
 		"enabled"			"1"
 		"linespacing"		"16"
@@ -401,16 +300,14 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Spectators"
-		"font"			"InstructionalText"
+		"font"			"AchievementTracker_Desc"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"115"
-		"ypos"			"357"
-		"zpos"			"4"
-		"wide"			"424"
-		"tall"			"20"
-		//
-		
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"422"
+		"wide"			"p0.5"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -424,14 +321,14 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"CenterPrintText"
+		"font"			"AchievementTracker_Desc"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"center"
 		"xpos"			"0"
-		"ypos"			"r90"
-		"zpos"			"4"
+		"ypos"			"10"
+		"zpos"			"42"
 		"wide"			"f0"
-		"tall"			"20"
+		"tall"			"10"
 			
 		
 		"visible"		"1"
@@ -464,11 +361,11 @@
 	}
 	"classmodelpanel"
 	{
-		"xpos"			"0"
+		"xpos"			"40"
 		"ypos"			"c50"
 		"zpos"			"1011"		
-		"wide"			"200"
-		"tall"			"78"
+		"wide"			"250"
+		"tall"			"100"
 		"paintbackground"	"1"
 		"bgcolor_override"	"200 0 0 0"
 		
@@ -514,7 +411,7 @@
 				"angles_x"	"0"
 				"angles_y"	"200"
 				"angles_z"	"0"
-				"origin_x"	"805"
+				"origin_x"	"755"
 				"origin_y"	"58"
 				"origin_z"	"-60"
 			}
@@ -844,79 +741,11 @@ if_mvm
 			}
 		}
 	}
-		"upbg1"
-		{
-			"ControlName"		"Panel"
-			"fieldName"		"upbg1"
-			"xpos" 			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"f0"
-			"tall"			"11"[$WINDOWS]
-		"tall"			"14" [$LINUX]
-			"bgcolor_override"	"TransparentBlack"
-			"border"	"BlurBorder"
-		if_mvm		{			"visible"		"0"		}
-		}
+
 	"MapName"
 	{
 			"visible"			"0"
 	}	
-	"ServerLabel2"
-	{
-			"visible"			"0"
-	}	
-
-	"center1"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"center1"
-		"xpos"			"0"
-		"ypos"			"-20+p0.001"
-		"zpos""5000"
-		"wide"			"f0"
-		"tall"			"p0.001"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"			"ItemAttribLevel"
-		"pin_to_sibling"	"BlueScoreBG"
-		
-	}	
-	"center2"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"center2"
-		"xpos"			"0"
-		"ypos"			"c50" 
-		"zpos""50"
-		"wide"			"f0"
-		"tall"			"p0.001"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"			"ItemAttribLevel"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"center23"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"center23"
-		"xpos"			"0"
-		"ypos"			"0" 
-		"pin_to_sibling"	"BlueScoreBG"
-		"zpos""5000"
-		"wide"			"f0"
-		"tall"			"p0.001"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"			"ItemAttribLevel"
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}		
 "HorizontalLine"
 {	"alpha"	"0"
 "visible"		"0"
@@ -930,7 +759,7 @@ if_mvm
 		"ypos"				"20"
 		"zpos"				"30"
 		"wide"				"90"
-		"tall"				"270"
+		"tall"				"275"
 		"bgcolor_override" "TransparentBlack"
 				
 			
@@ -949,8 +778,8 @@ if_mvm
 			"font"				"QuestMap_Huge"
 			"labelText"			":"
 			"textAlignment"		"center"
-			"xpos"				"95"
-			"ypos"				"15"
+			"xpos"				"35"
+			"ypos"				"180"
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"50"
@@ -968,8 +797,7 @@ if_mvm
 			"font"				"QuestMap_Huge"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
@@ -990,8 +818,7 @@ if_mvm
 			"font"				"betafont"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
@@ -1010,8 +837,7 @@ if_mvm
 			"font"				"itemfontnamesmall"
 			"labelText"			"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"0"
 			"wide"				"0"
 			"tall"				"0"
@@ -1027,8 +853,7 @@ if_mvm
 			"font"				"betafont"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
@@ -1049,8 +874,7 @@ if_mvm
 			"font"				"betafont"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"80"
 			"tall"				"50"
@@ -1085,7 +909,7 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"AssistsLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1102,15 +926,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Assists"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%assists%"
 			"textAlignment"		"center"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"15"
-			"bgcolor_override" "Black"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1123,7 +946,7 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DestructionLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1145,15 +968,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Destruction"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%destruction%"
 			"textAlignment"		"center"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"15"
-			"bgcolor_override" "Black"
+			
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -1166,7 +988,7 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"CapturesLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1186,15 +1008,14 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Captures"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%captures%"
 			"textAlignment"		"center"
-			"xpos"				"0"
-			"ypos"				"0"
+
 			"zpos"				"3"
 			"wide"				"20"
 			"tall"				"15"
-			"bgcolor_override" "Black"
+			
 			"visible"			"1"
 			"enabled"			"1"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -1207,7 +1028,7 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DefensesLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1228,53 +1049,26 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Defenses"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%defenses%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
+			"textAlignment"		"center"
+
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"DefensesLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-
-		}
-		"Defenses2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Defenses2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%defenses%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"Defenses"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"DefensesLabel"
 
 		}
-
 		"DominationLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DominationLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1296,45 +1090,21 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Domination"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%dominations%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
+			"textAlignment"		"center"
+
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"DominationLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-
-		}
-		"Domination2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Domination2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%dominations%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"DominationLabel"
 
-			"pin_to_sibling"		"Domination"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+
 
 		}
 
@@ -1342,7 +1112,7 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"RevengeLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1365,57 +1135,30 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Revenge"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%Revenge%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
+			"textAlignment"		"center"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"RevengeLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
-
-		}
-		"Revenge2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Revenge2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%Revenge%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 
-			"pin_to_sibling"		"Revenge"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_to_sibling"		"RevengeLabel"
 		}
 
 		"HealingLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"HealingLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"				"80"
-			"ypos"				"0"
+			"xpos"				"0"
+			"ypos"				"20"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"15"
@@ -1424,59 +1167,37 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"DefensesLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"RevengeLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+
 		}
 
 		"Healing"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Healing"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%healing%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
+			"textAlignment"		"center"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"HealingLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Healing2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Healing2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%healing%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 
-			"pin_to_sibling"		"Healing"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"HealingLabel"
+
 		}
 
 		"InvulnLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"InvulnLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1497,51 +1218,25 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Invuln"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%invulns%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
+			"textAlignment"		"center"
 			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"InvulnLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Invuln2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Invuln2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%invulns%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
 			
-
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 
-			"pin_to_sibling"		"Invuln"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_to_sibling"		"InvulnLabel"
 		}
-
 		"TeleportsLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"TeleportsLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1562,55 +1257,30 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Teleports"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%teleports%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
+			"textAlignment"		"center"
 
-			"pin_to_sibling"		"TeleportsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Teleports2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Teleports2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%teleports%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"Teleports"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"TeleportsLabel"
 		}
 
 		"HeadshotsLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"HeadshotsLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"				"80"
-			"ypos"				"0"
+			"xpos"				"0"
+			"ypos"				"20"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"15"
@@ -1619,60 +1289,34 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"HealingLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"TeleportsLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
 		}
 		"Headshots"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Headshots"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%headshots%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
+			"textAlignment"		"center"
 
-			"pin_to_sibling"		"HeadshotsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Headshots2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Headshots2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%headshots%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"Headshots"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"HeadshotsLabel"
 		}
-
 		"BackstabsLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"BackstabsLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1694,51 +1338,26 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Backstabs"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%backstabs%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
+			"textAlignment"		"center"
 
-			"pin_to_sibling"		"BackstabsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Backstabs2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Backstabs2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%backstabs%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
-
-			"pin_to_sibling"		"Backstabs"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"BackstabsLabel"
 		}
 
 		"BonusLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"BonusLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"				"0"
@@ -1759,55 +1378,30 @@ if_mvm
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Bonus"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%bonus%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
+			"textAlignment"		"center"
 
-			"pin_to_sibling"		"BonusLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Bonus2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Bonus2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%bonus%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
 
-			"pin_to_sibling"		"Bonus"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-
+			"pin_to_sibling"		"BonusLabel"
 		}
 
 		"SupportLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"SupportLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_Scoreboard_Support"
 			"textAlignment"		"east"
-			"xpos"				"80"
-			"ypos"				"0"
+			"ypos" "12"
 			"zpos"				"3"
 			"wide"				"50"
 			"tall"				"15"
@@ -1816,133 +1410,61 @@ if_mvm
 			"visible"			"1"
 			"enabled"			"1"
 
-			"pin_to_sibling"		"HeadshotsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"BonusLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
+			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 		}
 		"Support"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Support"
-			"font"				"ItemFontAttribLarge"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"%support%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
+			"textAlignment"		"center"
 
-			"pin_to_sibling"		"SupportLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Support2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Support2"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%support%"
-			"textAlignment"		"west"
-			"xpos"				"0"
-			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"30"
+			"wide"				"20"
 			"tall"				"15"
-			//
 			
 			"visible"			"1"
 			"enabled"			"1"
+			"pin_corner_to_sibling"					"PIN_TOPLEFT"	
+			"pin_to_sibling_corner"					"PIN_TOPRIGHT"
+			"pin_to_sibling"		"SupportLabel"
 
-			"pin_to_sibling"		"Support"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"DamageLabel"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"DamageLabel"
-			"font"				"SpectatorVerySmall"
+			"font"				"AchievementTracker_Desc"
 			"labelText"			"#TF_Scoreboard_Damage"
-			"textAlignment"		"east"
+			"textAlignment"		"center"
 			"xpos"				"0"
-			"ypos"				"12"
+			"ypos"				"rs1-24"
 			"zpos"				"3"
-			"wide"				"70"
+			"wide"				"f0"
 			"tall"				"15"
-			//
-			
-			"visible"			"1"
-			"enabled"			"1"
-
-			"pin_to_sibling"		"SupportLabel"
-			"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
-			"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
+			"proportionaltoparent"	"1"
 
 		}
 		"Damage"
 		{
 			"ControlName"		"Label"
 			"fieldName"			"Damage"
-			"font"				"ItemFontAttribLarge"
-			"labelText"			"%damage%"
-			"textAlignment"		"west"
-			"xpos"				"35"
-			"ypos"				"0"
-			"zpos"				"3"
-			"wide"				"30"
-			"tall"				"15"
-			//
-			
-			"visible"			"0"
-			"enabled"			"0"
-
-			"pin_to_sibling"		"DamageLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		}
-		"Damage2"
-		{
-			"ControlName"		"Label"
-			"fieldName"			"Damage2"
-			"font"				"ItemFontAttribLarger"
+			"font"				"hudfontmediumsecondary"
 			"labelText"			"%damage%"
 			"textAlignment"		"center"
 			"xpos"				"0"
-			"ypos"				"0"
+			"ypos"				"rs1"
 			"zpos"				"3"
-	"zpos"	"1010"
 		"wide"				"f0"
 		"tall"				"24"
-		"AllCaps"			"1"
-		"fgcolor"	"Normal"
+		"fgcolor_override"	"black"
 		"bgcolor_override"	"ItemAttribLevel"
 				"proportionaltoparent"	"1"
-		"text_center"			"1"
-		"textinsetx"			"28"
-		"TextInsety"	"-2"
-				"auto_wide_tocontents" "1"
-		
-		"pin_to_sibling" "ExampleAnchor"
-        "pin_corner_to_sibling" "4"
-        "pin_to_sibling_corner" "4"
 	}
-	"ExampleAnchor"
-    {
-        "ControlName"     "Panel"
-        "fieldName"     "ExampleAnchor"
-        "xpos"             "190"
-        "ypos"             "20"
-        "wide"             "f0"
-        "tall"             "1"
-        "visible"         "1"
-        "enabled"         "1"
-    }	
 	}
 	
 	"MvMScoreboard"
@@ -2039,7 +1561,7 @@ if_mvm
 	"PlayerNameLabel"
 	{
 		"ControlName"								"Label"		
-		"visible"		"0"
+		"visible"									"0"
 	}
 	"ServerLabelNew"
 	{

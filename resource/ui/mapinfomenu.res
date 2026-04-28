@@ -39,7 +39,7 @@
 	}
 	"MapInfoTitle2"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"MapInfoTitle2"
 		"xpos"			"0"
 		"ypos"			"120"
@@ -57,10 +57,10 @@
 				"proportionaltoparent"	"1"
 	
 	}
-	
+	 
 	"MapInfoType"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-143"
 		"ypos"			"r300"
@@ -96,10 +96,10 @@
 		"fgcolor"		"255 255 255 255"
 	}
 	
-	"MapInfoContinue2" 
+	"MapInfoContinue" 
 	{
 		"ControlName"	"Button"
-		"fieldName"		"MapInfoContinue2"
+		"fieldName"		"MapInfoContinue"
 		"xpos"			"c0"
 		"ypos"			"r176"
 		"zpos"			"3"
@@ -116,10 +116,10 @@
 		"armedFgColor_override" "ItemAttribPositive"
 		"depressedFgColor_override" "White"
 	}
-	"MapInfoBack2" 
+	"MapInfoBack" 
 	{
 		"ControlName"	"Button"
-		"fieldName"		"MapInfoBack2"
+		"fieldName"		"MapInfoBack"
 		"xpos"			"c-150"
 		"ypos"			"r176"
 		"zpos"			"3"
@@ -136,10 +136,6 @@
 		"armedFgColor_override" "ItemAttribPositive"
 		"depressedFgColor_override" "White"
 	}	
-	"MapInfoContinue"
-	{
-		"visible"		"0"
-	}			
 	"MapInfoWatchIntro" 
 	{
 		"ControlName"	"CTFButton"
@@ -166,12 +162,6 @@
 		"depressedFgColor_override" "White"
 	}
 
-	"MapInfoBack" 
-	{
-		"ControlName"	"panel"
-		"fieldName"		"MapInfoBack"
-		"visible" "0"
-	}	
 	"MapImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -185,9 +175,5 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-	//	border "blurborder"
 	}
-	
-	
-	
 }
