@@ -14,7 +14,7 @@
 		"tall"			"295"
 		"medal_width"		"30"
 		"medal_column_width"	"29"
-		"avatar_width"		"64"
+		"avatar_width"		"34"
 		"spacer"			"3"
 		"name_width"		"118"
 		"name_width_short"	"85"

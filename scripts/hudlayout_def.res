@@ -288,7 +288,7 @@
 		"IconColor"     		"255 255 255 255"
 	//	"LocalPlayerColor"  	"12 12 12 255"
 
-		"BaseBackgroundColor"	"TransparentBlack"
+		"BaseBackgroundColor"	"Black"
 		"LocalBackgroundColor"	"TransparentWhite"
 	}
 	HudFlameRocketCharge
