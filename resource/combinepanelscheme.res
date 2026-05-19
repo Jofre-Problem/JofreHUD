@@ -115,7 +115,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"DarkGrey"
 
-		ScrollBar.Wide					15
+		ScrollBar.Wide					7
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"

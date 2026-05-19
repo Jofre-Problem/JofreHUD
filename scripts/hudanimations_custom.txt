@@ -391,7 +391,6 @@ event HintMessageHide
 	RunEventChild MainMenuOverride MainMenuCMD 0.0
 	// running these 3 times works
 
-
 	// MMDashboard
 	// trouble with crash and joining match popup
 //	RunEventChild MMDashboard MMDashboardCMD 0.0
@@ -411,15 +410,15 @@ event HintMessageHide
 }
 event LinuxCMD
 {
-	FireCommand 0.0 "engine echo ==== STEAM DECK DETECTED ==="
-	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1.5"
-	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
+//	FireCommand 0.0 "engine echo ==== STEAM DECK DETECTED ==="
+//	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1.5"
+//	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
     // vgui_ui_scale_factor_deck_additional 1 = dock
     // vgui_ui_scale_factor_deck_additional 1.5 = steam deck
 }
 event WindowsCMD
 {
-	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
+//	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
     // vgui_ui_scale_factor_deck_additional 1 = dock
     // vgui_ui_scale_factor_deck_additional 1.5 = steam deck
 }

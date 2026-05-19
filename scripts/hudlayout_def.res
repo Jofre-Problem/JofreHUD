@@ -11,6 +11,8 @@
 		"zpos"			"0"
 		"wide"			"400"
 		"tall" "100"
+		"visible_minmode" "0"
+		"ypos_minmode" "999"
 	}
 	HudScope
 	{
@@ -160,6 +162,8 @@
 	}
 	HudWeaponAmmo
 	{
+		"visible_minmode" "0"
+		"ypos_minmode" "999"		
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
@@ -256,6 +260,9 @@
 	}			
 	HudControlPointIcons
 	{
+		"wide_minmode" "0"
+		"ypos_minmode" "r0"
+		"visible_minmode" "0"
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
 		"ypos"					"410"
@@ -269,6 +276,7 @@
 	}
 	HudDeathNotice
 	{
+		"wide_minmode" "0"
 		"xpos"	 "rs1" // 6 KF
 		"ypos"	 "35" // 7 KF
 		"wide"	 "260"
@@ -540,6 +548,9 @@
 
 	HudVoiceStatus
 	{
+		"wide_minmode" "0"
+		"ypos_minmode" "r0"
+		"visible_minmode" "0"		
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos" 				"r145"
@@ -745,9 +756,11 @@
         }	      
 		HudMessage // centerprinttext
         {
+				"ypos_minmode" "999"
                 "fieldName" "HudMessage"
                 "visible" "1"
                 "enabled" "1"
+				"zpos" "10"
                 "wide"         "f0"
                 "tall"         "480"
         }
@@ -772,6 +785,20 @@
                 "wide"         "0"
                 "tall"         "0"
         }
+	"MapImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MapImage"
+		"xpos"			"0"
+		"ypos"			"cs-0.5"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/REFRACTnormal_transparent"
+		"scaleImage"	"1"	
+	}		
         HudWeapon
         {
                 "visible" "0"
@@ -914,11 +941,18 @@
 	}	 
         HUDAutoAim
         {
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"			
         }        
         
         HudHDRDemo
         {
-			
+                "visible" "0"
+                "enabled" "0"
+                "wide"         "0"
+                "tall"         "0"			
         }
        PVEWinPanel
         {
@@ -937,8 +971,8 @@
                 "enabled"                                "1"
                 "xpos"                                        "0"
                 "ypos"                                        "0"
-                "wide"                                        "100"
-                "tall"                                        "40"
+                "wide"                                        "f0"
+                "tall"                                        "f0"
         }
         AnnotationsPanelCallout
         {

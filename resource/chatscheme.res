@@ -69,7 +69,7 @@ Scheme
 			"2" // this one
 			{
 				"name"		"hwnjofre1"
-				"tall"		"14"
+				"tall"		"18"
 				"weight"	"0"
 				"yres"		"1024 1199"
 			//	"dropshadow"	"1"
@@ -78,7 +78,7 @@ Scheme
 			"3"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"12"
+				"tall"		"17"
 				"weight"	"0"
 				"yres"		"1200 6000"
 			//	"dropshadow"	"1"
@@ -87,14 +87,14 @@ Scheme
 			"4"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"12"
+				"tall"		"17"
 				"yres"		"1600 6000"
 				"antialias"		"1"
 			}
 			"5"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"12"
+				"tall"		"55"
 				"yres"		"0 10000"
 				"antialias"		"1"
 			}							

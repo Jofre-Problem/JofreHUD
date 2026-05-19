@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"10"
 		"ypos"			"rs1"
+		"ypos_minmode" "r0"
 		"wide"			"30"
 		"tall"			"15"
 		zpos -1

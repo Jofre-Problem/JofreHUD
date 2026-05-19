@@ -198,7 +198,7 @@ if_mini		{			"visible"		"0"		}
 		"fieldName"		"TeamStatus"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -220,7 +220,7 @@ if_mini		{			"visible"		"0"		}
 		{
 			"visible"		"0"
 			"wide"			"23"
-			"tall"			"480"
+			"tall"			"60"
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"Red"
@@ -231,9 +231,9 @@ if_mini		{			"visible"		"0"		}
 			"color_portrait_bg_blue_local_player"	"White"			
 			"color_bar_health_high"	"75 210 75 120"
 			"color_bar_health_med"	"190 45 57 120"
-			"percentage_health_med"	"0.6"
+			"percentage_health_med"	"0.3"
 			"color_bar_health_low"	"190 45 57 120"
-			"percentage_health_low"	"0.3"
+			"percentage_health_low"	"0.1"
 			"color_portrait_blend_dead_red"	"White"
 			"color_portrait_blend_dead_blue" "White"
 
@@ -250,7 +250,7 @@ if_mini		{			"visible"		"0"		}
 				"enabled"				"1"
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "Blank"
-				"fgcolor_override"	   "227 228 230 120"
+				"fgcolor_override"	   "0 84 252 120"
 				"proportionaltoparent"	"1"
 			}
 			"MatchStatusBG"

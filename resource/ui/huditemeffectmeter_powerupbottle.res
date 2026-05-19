@@ -19,9 +19,21 @@
 		"image"			"../hud/ico_powerup_critboost_red"
 		"scaleImage"	"1"
 	}
-
+	"ItemEffectMeter"
+	{
+		"visible" "0"
+	}
+	"ItemEffectMeterbgnew"
+	{
+		"visible" "0"
+	}	
 	"ItemEffectMeterCount"
 	{
 		"xpos"			"6"
 	}
+	"ChargeColor_25"
+	{
+
+		"xpos"				"r1"
+	}	
 }

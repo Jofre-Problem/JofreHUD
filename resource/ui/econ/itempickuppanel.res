@@ -17,9 +17,9 @@
 		
 		"settitlebarvisible"	"0"
 		//
-		"bgcolor_override"	"QuestMap_InactiveGrey"
-		"infocus_bgcolor_override" "QuestMap_InactiveGrey"
-		"outoffocus_bgcolor_override" "QuestMap_InactiveGrey"
+		"bgcolor_override"	"black"
+		"infocus_bgcolor_override" "black"
+		"outoffocus_bgcolor_override" "black"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
