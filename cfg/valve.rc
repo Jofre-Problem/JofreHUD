@@ -4,7 +4,7 @@
     // Run user script files
     exec joystick.cfg
     exec autoexec.cfg
-    
+    tf_time_loading_item_panels 0.0005
     exec hud/hud_always.cfg
     // Parse and stuff command line + commands to command buffer
     stuffcmds

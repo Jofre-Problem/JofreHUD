@@ -2907,7 +2907,7 @@
 
 		Command				"loadout scout"
 
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/scout_go01.mp3"
 		
 			defaultFgColor_override		"Tanlight"
@@ -2936,7 +2936,7 @@
 		
 		Command				"loadout soldier"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/soldier_go01.mp3"
 		
 
@@ -2966,7 +2966,7 @@
 
 		Command				"loadout pyro"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/pyro_go01.mp3"
 
 		paintbackground 			0
@@ -2995,7 +2995,7 @@
 		
 		Command				"loadout demoman"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 				"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"	
 
@@ -3025,7 +3025,7 @@
 		
 		Command						"loadout heavy"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/heavy_go01.mp3"
 					"border_default"				"FriendHighlightBorder"
 		"border_armed"					"steamworkshopborder"
@@ -3052,7 +3052,7 @@
 
 			defaultFgColor_override		"Tanlight"
 		armedFgColor_override		"greensolid"	
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/engineer_go01.mp3"
 		
 			"border_default"				"FriendHighlightBorder"
@@ -3084,7 +3084,7 @@
 		
 		Command				"loadout medic"
 
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/medic_go01.mp3"
 		
 
@@ -3115,7 +3115,7 @@
 		
 		Command						"loadout sniper"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 	//	sound_released				"vo/sniper_go01.mp3"
 
 		
@@ -3146,7 +3146,7 @@
 
 		Command				"loadout spy"
 		
-		sound_depressed			"sound_menu/button.wav"
+		
 		//sound_released			"vo/spy_go01.mp3"
 	
 

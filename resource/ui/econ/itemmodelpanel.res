@@ -24,6 +24,7 @@
 		"text_forcesize" "0"
 		"text_xpos"		"20"//"39"
 		"text_wide"		"300"
+		
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
@@ -43,7 +44,7 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			border Black
+			border "TFFatLineBorderRedBGMoreOpaque" 
 		}
 		"maincontentscontainer"
 		{

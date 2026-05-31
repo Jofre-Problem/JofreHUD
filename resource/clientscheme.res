@@ -486,7 +486,7 @@ Scheme
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"12"
+				"tall"			"9"
 				"weight"		"500"
 				
 				"antialias" 	"1"
@@ -2225,7 +2225,7 @@ Scheme
 		TFFatLineBorderRedBGMoreOpaque
  		{
  			"bordertype"		"scalable_image"
-			"color"		"Red"
+			"color"		"20 20 20 210"
 
 			"image"		"White"
 			"src_corner_height"		"24"
