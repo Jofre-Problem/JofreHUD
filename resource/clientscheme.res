@@ -824,7 +824,7 @@ Scheme
 			{
 				"name"			"hwnjofre1"
 				"tall"			"12"
-				
+				"wide" "500"
 				
 				"antialias" 	"1"
 			}
@@ -835,7 +835,7 @@ Scheme
 			{
 				"name"			"hwnjofre1"
 				"tall"			"15"
-				
+				"wide" "500"
 				
 				"antialias" 	"1"
 			}
@@ -1552,7 +1552,7 @@ Scheme
 			{
 				"name"	"hwnjofre1"
 				"tall"	"8"
-				
+				"wide" "500"
 				
 				"antialias"	"1"
 			}

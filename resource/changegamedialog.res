@@ -57,7 +57,7 @@
 		"ypos"		"-25"
 		"wide"		"25"
 		"tall"		"20"
-		"labelText"		"ğ"
+		"labelText"		"©"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 		"font"					"DefaultUnderline"	

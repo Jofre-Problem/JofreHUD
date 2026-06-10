@@ -1,4 +1,5 @@
-"Resource/UI/CharInfoPanel.res"
+#base "ui2/full-timer/file.res"
+"x"
 {
 	"BackgroundHeader"
 	{
@@ -12,7 +13,10 @@
 	{
 		"visible"		"0"
 	}	
-		
+	MMDigits
+	{
+		"xpos" "106"
+	}		
 
 
 	"bg"
@@ -40,7 +44,7 @@
 		settitlebarvisible		1
 		paintbackground			0
         "settitlebarvisible"                    "1"
-        "titletextinsetY"                       "-28"
+        "titletextinsetY"                       "-19"
         "sheetinset_bottom"                     "0"
 		clientinsetx_override		0		// content xpos offset
 		sheetinset_bottom			0           // perfect
@@ -99,8 +103,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
-		"labelText"									"#TF_BackCarat"
-		"font"										"HudFontSmallishBold"
+		"labelText"									"ɨ"
+		"font"										"Scoreboardmedium"
 		"textAlignment"								"west"
 		"default"									"0"
 		"Command"									"back"

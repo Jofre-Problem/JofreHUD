@@ -1,4 +1,5 @@
 	#base "../../../../cfg/jofrehud/hud_friendslist.txt"
+	#base "extras/mainmenu.res"
 	#base "customizations/#customization_menu/hud_customization.res"
 //	#base "ui3/vguipreload.res"
 	#base "ui2/+motd_main_only.res"
@@ -812,7 +813,7 @@
 		wide					30
 		tall					15
 		zpos		"2000"
-		labelText				"ø"
+		labelText				"ʶ"
 		textAlignment			center
 		font			"ItemFontNameLarge"
 		command				"engine workshop"
@@ -1731,9 +1732,8 @@
 				"wide"		"f0"
 				"tall"		"184" // defines the tall
 				"visible"	"1"
-				"labelText"	"<"
-				"textinsetx" "-8"
-				"font"		"scoreboardmedium"
+				"labelText"	"ʹ"
+				"font"		"itemfontnamesmall"
 				"command"	"toggle_collapse"
 				"textAlignment"	"west"
 				"proportionaltoparent"	"1"

@@ -74,7 +74,7 @@
 	{
 		"xpos"			"35"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"150"
 		"tall"			"34"
 	}
@@ -281,7 +281,7 @@
 		"ypos"			"-5"//-5
 		"tall"			"0"//35		//38
 		"zpos"			"5"
-		"wide"			"1000"
+		"wide"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#healthlow"
@@ -291,6 +291,19 @@
 		"fgcolor"		"255 30 0 100"
 		"alpha"			"0" //for the kunai
 	}
+	"PlayerStatusHealthValueOverheal2"
+	{
+		"ControlName"	"editablepanel"
+		"fieldName"		"PlayerStatusHealthValueOverheal2"
+		"xpos"			"34"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"85"
+		"tall"			"34"
+		"visible"		"0"
+		"enabled"		"1"
+		"bgcolor_override"		"255 255 255 255"
+	}	
 	"PlayerStatusHealthValueLow"
 	{
 		"ControlName"	"CExLabel"

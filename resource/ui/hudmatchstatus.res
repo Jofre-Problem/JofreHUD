@@ -171,7 +171,7 @@ if_mini		{			"visible"		"0"		}
 			"ypos"			"0"
 			"zpos"			"311"
 			"wide"			"70"
-			"tall"			"30"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"north"
@@ -180,13 +180,11 @@ if_mini		{			"visible"		"0"		}
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
-	//		"font"			"killfeed"
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"
-			"ypos"			"30"
-		
+			"ypos"			"22"
+			"tall" "30"
 			}			
 		}
 

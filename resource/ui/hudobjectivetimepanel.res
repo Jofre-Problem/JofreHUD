@@ -119,7 +119,7 @@
 			"fgcolor"		"White"
 			"bgcolor_override"	"blank"
 			"xpos"			"cs-0.5-0"
-			"ypos"			"30"
+			"ypos"			"20"
 		
 			}	
 	}

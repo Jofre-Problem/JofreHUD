@@ -317,10 +317,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"ScoreboardMedium"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
-		"xpos"			"160"
+		"xpos"			"159"
 		"ypos"			"-2"
 		"zpos"			"5000"
 		"fgcolor_override"	"27 27 27 255"
@@ -328,6 +328,7 @@
 		"wide"			"25"
 		"tall"			"16"
 		textinsety 2
+		textinsetx -2
 	//	"bgcolor_override"	"Tanlight"
 		"mouseinputenabled"	"0"
 	}	
@@ -335,10 +336,10 @@
 	{		
 		"ControlName"		"CExLabel"
 			"fieldName"		"polybar0slashmm2"
-			"font"			"itemfontnamelarge"
-			"labelText"		"È"
+			"font"			"ScoreboardMedium"
+			"labelText"		"ʄ"
 			"textAlignment"		"west"
-			"xpos" 			"180"					//"c-60"//			"180"
+			"xpos" 			"175"					//"c-60"//			"180"
 			"ypos"			"-2"
 			"mouseinputenabled" 0
 		//	"wide"			"10"

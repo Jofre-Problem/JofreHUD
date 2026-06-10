@@ -195,6 +195,9 @@ event HudHealthBonusPulse
 	RunEvent TI_Bonus 0.0
 	SetVisible HealthBarOverheal 1 0.0
 	SetVisible overhealthclean 1 0.0
+	SetVisible PlayerStatusHealthValueOverheal2 1 0.0
+	SetVisible TeamColoredAmmoTextBG 0 0.0
+ //   Animate PlayerStatusHealthBonusImage wide  "1000"  Linear  0.1  0.1		
 }
 
 event HudHealthBonusPulseStop
@@ -203,12 +206,16 @@ event HudHealthBonusPulseStop
 	SetVisible HealthBarOverheal 0 0.0
 	StopEvent TI_Bonus 0.0
 	SetVisible overhealthclean 0 0.0
-
+	SetVisible PlayerStatusHealthValueOverheal2 0 0.0
+	SetVisible TeamColoredAmmoTextBG 1 0.0	
+  //  Animate PlayerStatusHealthBonusImage wide  "32"  Linear  0.1  0.1	
 }
 
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
+	
+	SetVisible PlayerStatusHealthValueOverheal2 0 0.0
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.0
 	RunEvent TI_Death 0.0
 
@@ -348,6 +355,7 @@ event MenuClose
 
 event MenuOpen
 {
+	RunEvent SpecAnimate 0.0
 	StopEvent	MenuClose 0.0 
 	RunEvent HealthAmmoAnimateOpen 0.0	
 	RunEventChild Mainmenuoverride MenuCMD 0.0
@@ -985,7 +993,7 @@ event HideMenu
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
-//	RunEventChild MMDashboard HideMenuCMD 0.0
+	RunEvent SpecAnimate 0.0
 }
 event HideMenuCMD
 {

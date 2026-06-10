@@ -90,7 +90,7 @@
 				tall					70	
 				font					"product60" 
 				fgcolor_override		"245 245 245 255"
-				labelText				"Č"
+				labelText				"ʶ"
 				textAlignment			center
 			}	
 
@@ -102,7 +102,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"defaultsmall"
+				font					"ConsoleText"
 				fgcolor_override		"245 245 245 255"
 				labelText				"jofre-hud@team-fortress"
 				textAlignment			west
@@ -134,7 +134,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"defaultsmall"
+				font					"ConsoleText"
 				fgcolor_override		"245 245 245 255"
 				labelText				"MADE BY: Jofre Problem?"
 				textAlignment			west
@@ -150,7 +150,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"defaultsmall"
+				font					"ConsoleText"
 				fgcolor_override		"245 245 245 255"
 				labelText				"DEDICATED TO: ❀ vanne ❀"
 				textAlignment			west
@@ -166,7 +166,7 @@
 				yPos					0
 				wide					150
 				tall					12	
-				font					"defaultsmall"
+				font					"ConsoleText"
 				fgcolor_override		"245 245 245 255"
 				labelText				"INSPIRED BY: Archcraft OS"
 				textAlignment			west
@@ -289,7 +289,7 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"ĕ"
+		"labelText"		"Ǭ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
 		"font"					"Trebuchet20"		
@@ -319,7 +319,7 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"ď"
+		"labelText"		"ǫ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
 		"font"					"Trebuchet20"		
@@ -349,7 +349,7 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"Đ"
+		"labelText"		"ʋ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
 		"font"					"Trebuchet20"		
@@ -380,7 +380,7 @@
 		"wide"		"20"
 		"tall"		"25"
 		
-		"labelText"		"č"
+		"labelText"		"ʇ"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
 		"font"					"Trebuchet20"		
@@ -410,7 +410,7 @@
 		"zpos"		"111"
 		"wide"		"20"
 		"tall"		"25"
-		"labelText"		"ĸ"
+		"labelText"		"э"
 		"textAlignment"		"center"
 		"fgcolor_override"		"245 245 245 255"
 		"font"					"Trebuchet20"		
