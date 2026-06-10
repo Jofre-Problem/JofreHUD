@@ -52,7 +52,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"18"
+		"ypos"			"15"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"12"
