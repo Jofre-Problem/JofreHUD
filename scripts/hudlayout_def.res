@@ -176,6 +176,7 @@
 	{
 		"visible" "1"
 		"enabled" "1"
+		"zpos" "2"
 		"xpos"			"c106"
 		"ypos"			"325"
 		"wide"			"124-p0.001"
