@@ -316,12 +316,6 @@
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"20"
-			//	"0"
-			
-			"visible"		"1"
-			"enabled"		"1"
-			//
-			
 			"fgcolor"		"200 187 161 255"
 		}
 

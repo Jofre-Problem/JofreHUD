@@ -1,7 +1,5 @@
 game_sounds_manifest
 {
-	"precache_file"		"scripts/game_sounds_jofresounds.txt"
-
 	"precache_file"		"scripts/game_sounds_jofrehud.txt"
 
 	"precache_file"		"scripts/game_sounds_taunt_workshop_2024.txt"
@@ -31,6 +29,6 @@ game_sounds_manifest
 	"precache_file"  	"scripts/game_sounds_vo_merasmus.txt"
 	"precache_file"		"scripts/game_sounds_vo_tough_break.txt"
 
-	"precache_file"  	"scripts/game_sounds_passtime.txt"
+//	"precache_file"  	"scripts/game_sounds_passtime.txt"
 	
 }

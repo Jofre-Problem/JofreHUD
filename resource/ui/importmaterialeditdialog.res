@@ -69,8 +69,8 @@
 		"Command"		"EditSkin0"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"0 0 0 0"
+		"defaultBgColor_override"	"blank"
+		"armedBgColor_override"	"blank"
 	}
 
 	"BlueTeamButton"
@@ -94,8 +94,8 @@
 		"Command"		"EditSkin1"
 		"Default"		"0"
 		"font"		"HudFontSmallBold"
-		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"		"0 0 0 0"
+		"defaultBgColor_override"	"blank"
+		"armedBgColor_override"	"blank"
 	}
 
 	"TitleLabel"

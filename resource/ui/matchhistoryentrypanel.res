@@ -38,7 +38,7 @@
 			"labeltext"		""
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"0 0 0 0"
+			"defaultBgColor_override"	"blank"
 
 			"border_armed"		"NoBorder"
 			"armedBgColor_override"	"235 226 202 20"
