@@ -29,7 +29,7 @@
 		"ypos"		"50"
 		"wide"		"160"
 		"tall"		"24"
-		
+		zpos "10"
 		
 		"visible"		"1"
 		"enabled"		"1"
