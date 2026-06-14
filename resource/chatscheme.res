@@ -57,6 +57,7 @@ Scheme
 	{
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"			"hwnjofre1"
@@ -78,16 +79,16 @@ Scheme
 			"3"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"17"
+				"tall"		"14"
 				"weight"	"0"
-				"yres"		"1200 6000"
+
 			//	"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"4"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"17"
+				"tall"		"22"
 				"yres"		"1600 6000"
 				"antialias"		"1"
 			}
