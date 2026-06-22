@@ -7,6 +7,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"156"
+		"xpos_minmode" "0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"124"
@@ -452,7 +453,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
+	
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -468,7 +469,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusGasImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
+	
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -615,9 +616,9 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"130"
-		"xpos_minmode"	"145"
+		
 		"ypos"			"38"
-		"ypos_minmode"	"55"
+	
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"

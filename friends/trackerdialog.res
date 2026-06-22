@@ -1,4 +1,0 @@
-"Friends/TrackerDialog.res"
-{
-
-}

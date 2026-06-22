@@ -6,13 +6,14 @@
 		"visible" "1"
 		"enabled" "1"
 
-		"xpos"			"40"
+		"xpos"			"9"
 		"ypos"			"325"
+		"ypos_minmode" "rs1+55"
 		"zpos"			"0"
 		"wide"			"400"
 		"tall" "100"
-		"visible_minmode" "0"
-		"ypos_minmode" "999"
+		
+		
 	}
 	HudScope
 	{
@@ -162,8 +163,9 @@
 	}
 	HudWeaponAmmo
 	{
-		"visible_minmode" "0"
-		"ypos_minmode" "999"		
+		
+		"ypos_minmode" "rs1-9"
+		"xpos_minmode" "rs1-9"	
 		"visible" "1"
 		"enabled" "1"
 		"xpos"			"c106"
@@ -263,7 +265,7 @@
 	{
 		"wide_minmode" "0"
 		"ypos_minmode" "r0"
-		"visible_minmode" "0"
+		
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
 		"ypos"					"410"
@@ -277,7 +279,7 @@
 	}
 	HudDeathNotice
 	{
-		"wide_minmode" "0"
+		
 		"xpos"	 "rs1" // 6 KF
 		"ypos"	 "35" // 7 KF
 		"wide"	 "260"
@@ -339,6 +341,8 @@
 	{
 		"xpos"					"cs-0.5"
 		"ypos"					"c17+20"
+		"xpos_minmode" "80"
+		"ypos_minmode" "rs1-45"
 		"wide"					"70"
 		"tall"					"25"//"510"
 		"visible" 				"1"
@@ -551,7 +555,7 @@
 	{
 		"wide_minmode" "0"
 		"ypos_minmode" "r0"
-		"visible_minmode" "0"		
+				
 		"visible" 			"1"
 		"enabled" 			"1"
 		"xpos" 				"r145"
@@ -757,7 +761,6 @@
         }	      
 		HudMessage // centerprinttext
         {
-				"ypos_minmode" "999"
                 "fieldName" "HudMessage"
                 "visible" "1"
                 "enabled" "1"
@@ -922,6 +925,7 @@
 		"enabled"	"1"
 		"xpos"		"c-236"
 		"ypos"		"r250"
+		"ypos_minmode" "rs1"
 		wide "200"
 		"zpos"		"0"
 		"tall"		"100"

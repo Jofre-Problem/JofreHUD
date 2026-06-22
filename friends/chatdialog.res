@@ -1,1 +1,0 @@
-#base "dialogchat_new.res"

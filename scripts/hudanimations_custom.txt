@@ -1,16 +1,16 @@
 event HealthAmmoAnimateOpen
 {
 //	Animate DisguiseStatus ypos 		"100"		Linear 0.0 0.2
-	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
+//	Animate Hudmatchstatus ypos 		"-100"		Linear 0.0 0.2	
 //	Animate HudPlayerStatus xpos 		"-192"		Linear 0.0 0.2
-	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
+//	Animate HudPlayerclass xpos 		"0"		Linear 0.0 0.01
 //	Animate HudWeaponAmmo xpos 		"725"		Linear 0.0 0.2
 //	Animate HudDemomanCharge ypos 		"100"		Linear 0.0 0.01	
 }
 event HealthAmmoAnimateEnd
 {
 //	Animate DisguiseStatus ypos 	"0" Linear 0.0 0.5
-	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
+//	Animate Hudmatchstatus ypos 	"0" Linear 0.0 0.5
 //	Animate HudPlayerStatus xpos 		"0"		Linear 0.0 0.5
 //	Animate HudWeaponAmmo xpos 		"c106"		Linear 0.0 0.5	
 }
@@ -418,7 +418,7 @@ event HintMessageHide
 }
 event LinuxCMD
 {
-//	FireCommand 0.0 "engine echo ==== STEAM DECK DETECTED ==="
+	FireCommand 0.0 "engine echo ==== Animation plauer ==="
 //	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1.5"
 //	FireCommand 0.0 "engine vgui_ui_scale_factor_deck_additional 1"	
     // vgui_ui_scale_factor_deck_additional 1 = dock
@@ -988,7 +988,7 @@ event HideMenu
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
 	RunEventChild MainMenuOverride HideMenuCMD 0.0
-	RunEvent SpecAnimate 0.0
+//	RunEvent SpecAnimate 0.0
 }
 event HideMenuCMD
 {
@@ -1115,9 +1115,21 @@ event HudReplayTipIn{}
 event HudReplayTipOut{}
 event VideoCaptionFadeIn{}
 event VideoCaptionFadeOut{}
-event ArenaVsPanelOnShow{}
-event ArenaVsPanelSlideIn{}
-event ArenaVsPanelSlideOut{}
+event ArenaVsPanelOnShow{
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+	RunEventChild MainMenuOverride LinuxCMD 0.0 
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+}
+event ArenaVsPanelSlideIn{
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+	RunEventChild MainMenuOverride LinuxCMD 0.0 
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+}
+event ArenaVsPanelSlideOut{
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+	RunEventChild MainMenuOverride LinuxCMD 0.0 
+	RunEventChild MainMenuOverride LinuxCMD 0.0
+}
 event HudCartAlarmPulse{}
 event HudCartAlarmPulseLoop{}
 event HudCartAlarmPulseStop{}

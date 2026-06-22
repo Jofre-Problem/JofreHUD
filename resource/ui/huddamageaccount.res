@@ -22,7 +22,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabel"
 		"font"			"DamagetextOld"
-		"fgcolor"		"255 215 0 0"
+		"fgcolor_override"		"255 215 0 0"
 	"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"23"
@@ -41,7 +41,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"DamageAccountLabel2"
 		"font"			"DamagetextOld"
-		"fgcolor"		"255 215 0 0" //255
+		"fgcolor_override"		"255 215 0 0" //255
 	"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"23"
@@ -76,7 +76,7 @@
 		"fieldName"		"DamageAccountLabelHeals"
 		"font"			"DamageTextheals"	[$WINDOWS]
 		"font"			"blank"	[$LINUX]
-		"fgcolor"		"46 255 83 255"
+		"fgcolor_override"		"46 255 83 255"
 		"xpos"			"0"
 		"ypos"			"6"
 		"zpos"			"12"
