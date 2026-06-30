@@ -12,7 +12,7 @@
 		
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 	}
 	"ChangeKeyButton"
 	{
@@ -60,16 +60,16 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"Defaults"
-		"xpos"		"419"
-		"ypos"		"132"
-		"wide"		"134"
-		"tall"		"24"
+		"xpos"		"360"
+		"ypos"		"10"
+		"wide"		"70"
+		"tall"		"29"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
 
-		"labelText"		"#GameUI_UseDefaults"
+		"labelText"		"Reset"
 		"textAlignment"		"west"
 		//
 		//
@@ -82,15 +82,15 @@
 		"ControlName"		"Button"
 		"fieldName"		"KeyAdvancedButton"
 		"xpos"		"419"
-		"ypos"		"160"
-		"wide"		"111"
-		"tall"		"24"
+		"ypos"		"10"
+		"wide"		"40"
+		"tall"		"29"
 		
 		
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"labelText"		"#GameUI_AdvancedEllipsis"
+		"labelText"		"Adv."
 		"textAlignment"		"west"
 		//
 		//
