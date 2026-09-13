@@ -46,15 +46,16 @@
 					"ZPos"								"0"
 					"Wide"								"25"
 					"Tall"								"25"
-					"Visible"							"0"
+					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"6"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols20"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 					scaleimage 1
 					drawcolor gray
+					image "replay/thumbnails/glyph_hardhat"
 				}
 				"Title"
 				{
@@ -69,7 +70,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_MaxiHud"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -87,7 +88,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"DeathNoticeStuff"
 				{
@@ -114,7 +115,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_DeathNotice"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -134,7 +135,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -169,7 +170,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/8rows"
+							"Image"						"replay/thumbnails/customizations/maxi/8rows"
 						}
 						"Style_Label"
 						{
@@ -191,7 +192,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -252,7 +253,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/12rows"
+							"Image"						"replay/thumbnails/customizations/maxi/12rows"
 						}
 						"Style_Label"
 						{
@@ -274,7 +275,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -334,7 +335,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/12rows2"
+							"Image"						"replay/thumbnails/customizations/maxi/12rows2"
 						}
 						"Style_Label"
 						{
@@ -356,7 +357,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -416,7 +417,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/24rows"
+							"Image"						"replay/thumbnails/customizations/maxi/24rows"
 						}
 						"Style_Label"
 						{
@@ -438,7 +439,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -493,7 +494,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_Damage"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -513,7 +514,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -548,7 +549,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/dmg"
+							"Image"						"replay/thumbnails/customizations/maxi/dmg"
 						}
 						"Style_Disabled"
 						{
@@ -563,7 +564,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -588,7 +589,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -649,7 +650,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/dmg"
+							"Image"						"replay/thumbnails/customizations/maxi/dmg"
 						}
 						"Style_Label"
 						{
@@ -671,7 +672,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -725,7 +726,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -745,7 +746,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Full"
 					{
@@ -780,7 +781,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/tm_full"
+							"Image"						"replay/thumbnails/customizations/maxi/tm_full"
 						}
 						"Style_Label"
 						{
@@ -802,7 +803,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -863,7 +864,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
+							"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
 						}
 						"Style_Label"
 						{
@@ -885,7 +886,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -942,7 +943,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/tm_full"
+							"Image"						"replay/thumbnails/customizations/maxi/tm_full"
 						}
 						"Style_Label"
 						{
@@ -964,7 +965,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1024,7 +1025,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
+							"Image"						"replay/thumbnails/customizations/maxi/tm_full_nf"
 						}
 						"Style_Label"
 						{
@@ -1046,7 +1047,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1127,7 +1128,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1204,7 +1205,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1257,7 +1258,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_PayloadIcon"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1277,7 +1278,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -1312,7 +1313,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/payload_vex"
+							"Image"						"replay/thumbnails/customizations/maxi/payload_vex"
 						}
 						"Style_Label"
 						{
@@ -1334,7 +1335,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1395,7 +1396,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/payload_stock"
+							"Image"						"replay/thumbnails/customizations/maxi/payload_stock"
 						}
 						"Style_Label"
 						{
@@ -1417,7 +1418,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1471,7 +1472,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_Meter"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1491,7 +1492,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 // TYPE A -------------------------------------------------------------------------------------------					
 					"8rows"
@@ -1527,7 +1528,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/charge_og"
+							"Image"						"replay/thumbnails/customizations/maxi/charge_og"
 						}
 						"Style_Label"
 						{
@@ -1549,7 +1550,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1610,7 +1611,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/charge_def"
+							"Image"						"replay/thumbnails/customizations/maxi/charge_def"
 						}
 						"Style_Label"
 						{
@@ -1632,7 +1633,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1685,7 +1686,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_Walkway"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1705,7 +1706,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -1740,7 +1741,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/rc2"
+							"Image"						"replay/thumbnails/customizations/maxi/rc2"
 						}
 						"Style_Label"
 						{
@@ -1762,7 +1763,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1822,7 +1823,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_MaxiHud_WW_Download1"
 						"TextAlignment"					"west"
@@ -1843,7 +1844,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-						//	"image"			"../vgui/replay/thumbnails/glyph_link"
+							"image"			"../vgui/replay/thumbnails/glyph_link"
 							"scaleImage"	"1"
 						}
 					}
@@ -1860,7 +1861,7 @@
 						"Enabled"						"1"
 						"ActionSignalLevel"				"5"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"Font"							"HudFontSmallestBold"
 						"LabelText"						"#HudCustomization_MaxiHud_WW_Download2"
 						"TextAlignment"					"west"
@@ -1881,7 +1882,7 @@
 							"tall"			"10"
 							"visible"		"1"
 							"enabled"		"1"
-						//	"image"			"../vgui/replay/thumbnails/glyph_link"					
+							"image"			"../vgui/replay/thumbnails/glyph_link"					
 							"scaleImage"	"1"
 						}
 					}
@@ -1919,7 +1920,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/h1"
+							"Image"						"replay/thumbnails/customizations/maxi/h1"
 						}
 						"Style_Label"
 						{
@@ -1941,7 +1942,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1995,7 +1996,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_Buildings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -2015,7 +2016,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -2050,7 +2051,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/build_center"
+							"Image"						"replay/thumbnails/customizations/maxi/build_center"
 						}
 						"Style_Label"
 						{
@@ -2072,7 +2073,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -2133,7 +2134,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/build_top"
+							"Image"						"replay/thumbnails/customizations/maxi/build_top"
 						}
 						"Style_Label"
 						{
@@ -2155,7 +2156,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -2209,7 +2210,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MaxiHud_VGUI"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -2227,9 +2228,9 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"C"
-						"Font"							"itemfontnamelarge"
+						"Font"							"Symbols14"
 						"TextAlignment"					"center"
 						"FGColor"						"Red"
 					}
@@ -2247,7 +2248,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"8rows"
 					{
@@ -2282,7 +2283,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/ss_facelift"
+							"Image"						"replay/thumbnails/customizations/maxi/ss_facelift"
 						}
 						"Style_Label"
 						{
@@ -2304,7 +2305,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -2365,7 +2366,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/ss_def"
+							"Image"						"replay/thumbnails/customizations/maxi/ss_def"
 						}
 						"Style_Label"
 						{
@@ -2387,7 +2388,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -2447,7 +2448,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/maxi/ss_deftf2"
+							"Image"						"replay/thumbnails/customizations/maxi/ss_deftf2"
 						}
 						"Style_Label"
 						{
@@ -2469,7 +2470,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{

@@ -28,7 +28,7 @@ sv_pure -1
 echo [JOFREHUD] Applied default settings
 echo [JOFREHUD] Applying HUD settings...
 exec "hud/jofrehud.cfg"
-
+exec "jofrehud_customization_colors.cfg"
 // First RUN
 alias chud_firstrun "exec hud/hud_firstrun.cfg"
 exec "_jp_hud_has_run.txt"

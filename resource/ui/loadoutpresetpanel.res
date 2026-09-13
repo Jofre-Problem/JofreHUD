@@ -46,7 +46,7 @@
 			//	"border_default"	"BackpackItemBorder_RarityLegendary"
 			//"border_armed"	  "BackpackItemMouseOverBorder_RarityMythical"	
 			//"roundedcorners"	"0"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 
         }
@@ -64,7 +64,7 @@
             "Command"			"loadpreset_1"
             
             
-				"border_default"	"black"
+				"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "96 83 73 255"
@@ -87,7 +87,7 @@
             "Command"			"loadpreset_2"
             
             
-					"border_default"	"black"
+					"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "96 83 73 255"
@@ -111,7 +111,7 @@
             "Command"			"loadpreset_3"
             
             
-				"border_default"	"black"
+				"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 			"roundedcorners"	"0"
 		armedfgcolor_override "96 83 73 255"

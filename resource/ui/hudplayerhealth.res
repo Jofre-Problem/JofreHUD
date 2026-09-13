@@ -1,3 +1,8 @@
+#base "../../../../cfg/jofrehud/jp_hp_font.txt"
+// tipo de letra de la vida
+#base "../../../../cfg/jofrehud/jp_hp_bg_preset.txt"
+// color del fondo de la vida, dinamico
+
 #base "HudPlayerStatusFireSelect.res"
 "x"
 {	
@@ -146,8 +151,8 @@
 		"enabled"		"1"
 		"labelText"		"#healthpadded"
 		"textAlignment"	"center"	
-		"font"			"HealthAndAmmo"
-		"fgcolor_override"		"35 35 35 255"
+	//	"font"			"HealthAndAmmo"
+		"fgcolor_override"		"1 1 1 255"
 	}
 	"PlayerStatusHealthValueS"
 	{
@@ -175,7 +180,7 @@
 		"zpos"			"9"
 		"wide"			"80"
 		"tall"			"2"	
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"1 1 1 255"
 	}		
 
 	"PlayerStatusHealthValueLowester"
@@ -401,7 +406,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"1 1 1 255"
 	}
 	"HealthWhiteCover2"
 	{
@@ -414,7 +419,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"1 1 1 255"
 	}
 	"PlayerStatusBleedImage"
 	{

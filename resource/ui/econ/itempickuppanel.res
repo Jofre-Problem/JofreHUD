@@ -81,7 +81,21 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"wide"			"p1"
+					"tall"			"p1"
+					"visible"		"1"
+					"zpos" "-5"
+ 					"proportionaltoparent"	"1"
+					"scaleImage" "1"
+					"image" "replay/thumbnails/menu/items_bg"
+					"fillcolor" "27 28 30 255"
+					"mouseinputenabled" 0
+				}			
 		
 	"ItemsFoundLabel"
 	{
@@ -165,7 +179,7 @@
 		"zpos"			"2"
 		"wide"			"220"
 		"tall"			"16"
-		bgcolor_override "TransparentBlack"
+		"border" "Black_Transparent_30"
 		"fgcolor_override"	"ItemAttribLevel"
 	}	
 	"BackShortKey"
@@ -244,9 +258,10 @@
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "center"
-					paintBackground 1
-					"armedfgColor_override"		"249 249 249 255"
-					"depressedfgcolor_override" "0 0 0 160"
+		paintBackground "0"
+		//
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 				
 				}	
 				"bptflabbbb"
@@ -298,9 +313,10 @@
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "center"
-					paintBackground 1
-					"armedfgColor_override"		"249 249 249 255"
-					"depressedfgcolor_override" "0 0 0 160"
+		paintBackground "0"
+		//
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 				
 				}		
 				"mmm"
@@ -318,9 +334,10 @@
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "center"
-					paintBackground 1
-					"armedfgColor_override"		"249 249 249 255"
-					"depressedfgcolor_override" "0 0 0 160"
+		paintBackground "0"
+		//
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 		pin_to_sibling 			"bptf"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"					
@@ -340,9 +357,10 @@
 					"actionsignallevel"	"2"
 					"proportionaltoparent"	"1"
 					"textAlignment" "center"
-					paintBackground 1
-					"armedfgColor_override"		"249 249 249 255"
-					"depressedfgcolor_override" "0 0 0 160"
+		paintBackground "0"
+		//
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 		pin_to_sibling 			"bptf"
 		"pin_corner_to_sibling"					"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"					
@@ -371,18 +389,21 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"ypos"			"rs1"
+		"xpos"			"rs1+2"
+		"ypos"			"rs1-2"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
 		
-
+		paintBackground "0"
+		//
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"HudFontSmallBold"
+		"font"			"itemfontnamesmall"
 		"Command"		"vguicancel"
 		"default"		"1"
 		
@@ -392,8 +413,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
-		"xpos"			"0"
-		"ypos"			"rs1"
+		"xpos"			"2"
+		"ypos"			"rs1-2"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
@@ -403,10 +424,12 @@
 		"enabled"		"1"
 		//	"0"
 		"labelText"		"%loadouttext%"
-		"font"			"HudFontSmallBold"
+		"font"			"itemfontnamesmall"
 		"textAlignment"	"center"
+		paintBackground "0"
 		//
-		
+		"border_default" "TFThinLineBorder"
+		"border_armed" "Black_Transparent_30"
 		"Command"		"changeloadout"
 		
 		

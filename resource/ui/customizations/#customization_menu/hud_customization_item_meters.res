@@ -55,7 +55,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"r"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -73,7 +73,7 @@
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
 					"LabelText"							"#HudCustomization_Frame_Killstreak"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -91,7 +91,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 // KILLSTREAK STYLE ----------------------------------------------------------------------------------------
 				"Killstreak_Style"
@@ -119,7 +119,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Killstreak_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -139,7 +139,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Killstreak_Disabled"
 					{
@@ -174,7 +174,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak"
+							"Image"						"replay/thumbnails/customizations/killstreak/killstreak"
 						}
 						"Style_Disabled"
 						{
@@ -189,7 +189,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -214,7 +214,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -274,7 +274,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_bottom_left"
+							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_bottom_left"
 						}
 						"Style_Label"
 						{
@@ -296,7 +296,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -356,7 +356,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_top_right"
+							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_top_right"
 						}
 						"Style_Label"
 						{
@@ -378,7 +378,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -432,7 +432,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Killstreak_Notices"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -452,7 +452,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Notice_Disabled"
 					{
@@ -487,7 +487,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
+							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
 						}
 						"Style_Disabled"
 						{
@@ -502,7 +502,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -527,7 +527,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -587,7 +587,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
+							"Image"						"replay/thumbnails/customizations/killstreak/killstreak_notice"
 						}
 						"Style_Label"
 						{
@@ -609,7 +609,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{

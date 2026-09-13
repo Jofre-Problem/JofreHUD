@@ -365,34 +365,6 @@
 				"outline"									"1"
 			}
 		}
-		"Crosshair_Showcase"
-		{
-			"1"
-			{
-				"name"										"tf2_crosshairs_m0re_v3"
-				"Tall"										"13"
-				"antialias"									"1"
-			}
-		}
-		"Crosshair_Showcase_OL"
-		{
-			"1"
-			{
-				"name"										"tf2_crosshairs_m0re_v3"
-				"Tall"										"30"
-				"antialias"									"1"
-				"Outline"									"1"
-			}
-		}
-		"Crosshair_Showcase_DS"
-		{
-			"1"
-			{
-				"name"										"tf2_crosshairs_m0re_v3"
-				"Tall"										"30"
-				"antialias"									"1"
-				"Dropshadow"								"1"
-			}
-		}
+
 	}
 }

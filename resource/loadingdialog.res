@@ -11,8 +11,8 @@
 		"wide"		"f+20"
 		"tall"		"48"//"40"//"665"
 		"title"		""
-		"bgcolor"				"Black"
-		"bgcolor_override"		"Black"
+		"bgcolor"				"Blank"
+		"bgcolor_override"		"Blank"
 		"border"	"noborder"
 	}
  		"BG2_du1"
@@ -25,7 +25,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"paintbackground"	"1"
-				"bgcolor_override"	"Black"
+				"bgcolor_override"	"Blank"
 			}	   
    	"frame_close"
 	{
@@ -43,7 +43,7 @@
 		"wide"		"f0"
 		"tall"		"26"
 		"textAlignment"		"center"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"215 215 215 255"
 		"font"		"Trebuchet20"
 	}
 	"progress"
@@ -58,6 +58,7 @@
 		"zpos"		"100"
 		"fgcolor_override"	"White"//"193 175 75 255"	
 	"bgcolor_override"	"blank"
+		"border"	"noborder"
 		//		"0"
 	}
 	"CancelButton"

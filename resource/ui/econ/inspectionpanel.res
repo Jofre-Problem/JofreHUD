@@ -22,7 +22,7 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"fillcolor"			"27 27 27 255"
+		"fillcolor"			"0 0 0 255"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}	
@@ -69,7 +69,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-			model_rotate_yaw_speed 30
+			model_rotate_yaw_speed 20
 		"proportionaltoparent"	"1"
 
 		"force_use_model"		"1"
@@ -89,7 +89,7 @@
 			"angles_x" "7"
 			"angles_y" "130"
 			"angles_z" "0"
-			"origin_x" "175"
+			"origin_x" "275"
 			"origin_y" "0"
 			"origin_z" "0"
 			"frame_origin_x"	"0"

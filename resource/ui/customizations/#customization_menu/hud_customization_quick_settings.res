@@ -50,7 +50,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"T"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -67,7 +67,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_Frame_QuickSettings"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Settings"
 				{
@@ -137,8 +137,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -220,8 +220,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -303,8 +303,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -386,8 +386,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -469,8 +469,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -552,8 +552,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -606,7 +606,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_QuickSettings_Demo"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -626,7 +626,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Demo_Recording_ON"
 					{
@@ -652,9 +652,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"greensolid"
-						"ArmedBGColor_Override"			"ItemLimitedUse"
-						"DepressedBGColor_Override"		"ItemLimitedUse"
+						"DefaultBGColor_Override"		"Button_Green"
+						"ArmedBGColor_Override"			"Button_Green_Hover"
+						"DepressedBGColor_Override"		"Button_Green_Hover"
 					}
 					"Demo_Recording_OFF"
 					{
@@ -680,9 +680,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Collectors"
-						"ArmedBGColor_Override"			"ItemAttribNegative"
-						"DepressedBGColor_Override"		"ItemAttribNegative"
+						"DefaultBGColor_Override"		"Button_Red"
+						"ArmedBGColor_Override"			"Button_Red_Hover"
+						"DepressedBGColor_Override"		"Button_Red_Hover"
 					}
 // ASPECT RATIO ------------------------------------------------------------------------------------------
 					"Aspect_Ratio"
@@ -697,7 +697,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_QuickSettings_Ratio"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -717,7 +717,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					// 16x9 -------------------------------------------------------------
 					"16x9"
@@ -759,7 +759,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"HudBlack"
+							"BGColor_Override"			"Background_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -774,13 +774,13 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Font"						"itemfontnamelarge"
+							"Font"						"Symbols35"
 							"LabelText"					")"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Resolution_Button"
 						{
@@ -847,7 +847,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"HudBlack"
+							"BGColor_Override"			"Background_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -862,13 +862,13 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Font"						"itemfontnamelarge"
+							"Font"						"Symbols35"
 							"LabelText"					")"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Resolution_Button"
 						{
@@ -935,7 +935,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"HudBlack"
+							"BGColor_Override"			"Background_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -950,13 +950,13 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Font"						"itemfontnamelarge"
+							"Font"						"Symbols35"
 							"LabelText"					")"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Resolution_Button"
 						{
@@ -1023,7 +1023,7 @@
 							"FGColor"					"White"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"HudBlack"
+							"BGColor_Override"			"Background_Bright"
 						}
 						"Resolution_Icon"
 						{
@@ -1038,13 +1038,13 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							"Font"						"itemfontnamelarge"
+							"Font"						"Symbols35"
 							"LabelText"					")"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Resolution_Button"
 						{
@@ -1084,7 +1084,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_QuickSettings_Streamer"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1104,7 +1104,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Streamer_Mode_Explanation"
 					{
@@ -1150,9 +1150,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"greensolid"
-						"ArmedBGColor_Override"			"ItemLimitedUse"
-						"DepressedBGColor_Override"		"ItemLimitedUse"
+						"DefaultBGColor_Override"		"Button_Green"
+						"ArmedBGColor_Override"			"Button_Green_Hover"
+						"DepressedBGColor_Override"		"Button_Green_Hover"
 					}
 					"Streamer_Mode_OFF"
 					{
@@ -1178,9 +1178,9 @@
 						"ArmedFGColor_Override"			"White"
 						"DepressedFGColor_Override"		"White"
 
-						"DefaultBGColor_Override"		"Collectors"
-						"ArmedBGColor_Override"			"ItemAttribNegative"
-						"DepressedBGColor_Override"		"ItemAttribNegative"
+						"DefaultBGColor_Override"		"Button_Red"
+						"ArmedBGColor_Override"			"Button_Red_Hover"
+						"DepressedBGColor_Override"		"Button_Red_Hover"
 					}
 					"Streamer_Mode_Warning"
 					{
@@ -1195,7 +1195,7 @@
 						"Enabled"						"1"
 						"mouseinputenabled"				"0"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"Font"							"FontStoreOriginalPrice"
 						"labeltext"						"#HudCustomization_QS_Streamer_Warning"
 						"TextAlignment"					"West"

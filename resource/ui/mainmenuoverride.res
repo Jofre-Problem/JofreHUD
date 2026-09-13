@@ -176,7 +176,18 @@
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
 		}				
-
+			"arrowblurleft"
+			{
+				ControlName				ImagePanel
+				fieldName				"arrowblurleft"
+				xpos					0
+				ypos					-1
+				wide					232
+				tall					70
+				proportionaltoparent		1
+				image					"replay/thumbnails/arrow_blur_left"
+				scaleImage				1
+			}
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"

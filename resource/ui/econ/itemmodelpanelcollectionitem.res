@@ -20,8 +20,9 @@
 
 			"wide"			"400"
 			"tall"			"250"
-
-			border GrayDialogBorder
+		"paintBackground"							"0"
+		"paintBorder"								"1"
+			border Black_Transparent_90
 		}
 	}
 	

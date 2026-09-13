@@ -49,12 +49,12 @@ Scheme
 
 	    "Blank"				"0 0 0 0"
 
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ControlBG"			"76 88 68 205"		// background color of controls
+		"ControlDarkBG"		"90 106 80 205"		// darker background color; used for background of scrollbars
+		"WindowBG"			"62 70 55 205"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"90 84 75 205"		// background color of any selected text or menu item
+		"SelectionBG2"		"69 64 57 205"		// selection background in window w/o focus
+		"ListBG"			"39 36 34 205"		// background of server browser, buddy list, etc.
 		
 		"AchievementsDarkGrey"	"69 90 100 255"  // omni you're a genius for finding this buried within the game.
 		"AchievementsLightGrey"	"69 90 100 150" // Thanks dude I know. I guess I'm just too good for this world.
@@ -95,7 +95,7 @@ Button.DepressedTextColor "220 220 220 255"
 		CheckButton.Border2  			"cs1"
 
 		FrameTitleBar.Font				"uibold"
-		FrameTitleBar.TextColor			"Black"
+		FrameTitleBar.TextColor			"white"
 		FrameTitleBar.DisabledTextColor	"Black"
 
 		Frame.FocusTransitionEffectTime	"0.3"
@@ -128,11 +128,57 @@ Button.DepressedTextColor "220 220 220 255"
 		RichTextBorder "Cs1"
 		SectionedListPanelBorder "Cs1"
 	// forces tooltip border to disapppear
-		FrameBorder
+        "FrameBorder"
+        {
+            "bordertype"                "scalable_image"
+            "backgroundtype"            "0"
+            "image"                     "replay/thumbnails/panels/source_border"
+            "color"                     "179 179 179 255"
+            "src_corner_height"         "6"
+            "src_corner_width"          "6"
+            "draw_corner_width"         "2"
+            "draw_corner_height"        "2"
+            "paintfirst"                "1"
+        }   
+		noborder
 		{
-			// rounded corners for frames
-			"backgroundtype" "0"
-		}           
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "220 220 220 0"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "220 220 220 0"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "220 220 220 0"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "220 220 220 0"
+					"offset" "0 0"
+				}
+			}
+		}				
 		Cs1
 		{
 			"inset" "0 0 1 1"
@@ -300,10 +346,10 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"mono"
-				"tall"		"5"
+				"name"				"hwnjofre1"
+				"tall"		"12"
 
-				"wide" "100"
+				"wide" "800"
 				"antialias" "1"
 			}
 		} 		
@@ -395,7 +441,8 @@ Button.DepressedTextColor "220 220 220 255"
 			"1"
 			{
 				"name"		"hwnjofre1"
-				"tall"		"14"
+				"tall"		"18"
+				"antialias" "1"
 			//	"yres" "0 10000"	//the tall determines the position the buttons of frame will be
 				// 12 is the def
 			}
@@ -454,11 +501,7 @@ Button.DepressedTextColor "220 220 220 255"
 			"font" "fonts/blank.otf"
 			"name" "Blank"
 		}	
-		"monono"
-		{
-			"font" "fonts/mono.otf"
-			"name" "mono"
-		}				
+
 		"hwn"
 		{
 			"font"		"fonts/hwnjofre1.otf"

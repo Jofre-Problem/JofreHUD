@@ -635,9 +635,16 @@
 	HudBossHealth
 	{
 		xpos "cs-0.5"
-		"wide"			"190"
 		"tall"			"25"
 		"zpos"			"-1"
+		"ypos" "22"
+
+		"wide"			"130"
+		"health_bar_wide" "130"		
+
+		"proportionaltoparent" "1"
+		"health_dead_pos_y" "rs1-32"
+		"health_alive_pos_y" "42"
 	}
 	HudArenaPlayerCount //fix for vsh
 	{

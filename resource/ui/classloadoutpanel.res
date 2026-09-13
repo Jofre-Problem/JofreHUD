@@ -16,8 +16,9 @@
 		"visible"		"1"
 		paintBackgroundtype "2"
 		"bgcolor_override" "0 0 0 1"
-		border "black"
+		border "Black_Transparent_70"
 	}		
+
 	"Removeline"
 	{
 		ControlName				EditablePanel
@@ -57,7 +58,6 @@
 		"Enabled"									"1"
 		"ProportionalToParent"						"1"
 		"PaintBorder"								"0"
-		"Border"									"BackgroundOutline"
 		"PaintBackground"							"0"
 		"PaintBackgroundType"						"0"
 		"BGcolor_Override"							"0 0 0 255"
@@ -66,33 +66,33 @@
 		{
 			"ControlName"							"panel"
 			"FieldName"								"Weapon1"
-			"XPos"									"rs1-32-79"
-			"YPos"									"88" // pls speed i need this p.001 to work
+			"XPos"									"rs1-32-76"
+			"YPos"									"86" // pls speed i need this p.001 to work
 			"ZPos"									"0"
-			"Wide"									"125"
-			"Tall"									"75"
+			"Wide"									"130"
+			"Tall"									"79"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border"						"Black_Transparent_90"
 		}
 		"Weapon2"
 		{
 			"ControlName"							"panel"
 			"FieldName"								"Weapon2"
 			"XPos"									"0"
-			"YPos"									"2"
+			"YPos"									"-2"
 			"ZPos"									"0"
-			"Wide"									"125"
-			"Tall"									"75"
+			"Wide"									"130"
+			"Tall"									"79"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border"						"Black_Transparent_90"
 
 						"Pin_To_Sibling"				"Weapon1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -103,16 +103,16 @@
 			"ControlName"							"panel"
 			"FieldName"								"Weapon3"
 			"XPos"									"0"
-			"YPos"									"2"
+			"YPos"									"-2"
 			"ZPos"									"0"
-			"Wide"									"125"
-			"Tall"									"75"
+			"Wide"									"130"
+			"Tall"									"79"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border"						"Black_Transparent_90"
 						"Pin_To_Sibling"				"Weapon2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"	
@@ -123,33 +123,33 @@
 		{
 			"ControlName"							"panel"
 			"FieldName"								"Item1"
-			"XPos"									"rs1-19"
-			"YPos"									"50"
+			"XPos"									"rs1-17"
+			"YPos"									"48"
 			"ZPos"									"0"
-			"Wide"									"86"
-			"Tall"									"74"
+			"Wide"									"90"
+			"Tall"									"78"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border" "Black_Transparent_90"
 		}
 		"Item2"
 		{
 			"ControlName"							"panel"
 			"FieldName"								"Item2"
 			"XPos"									"0"
-			"YPos"									"2"
+			"YPos"									"-2"
 			"ZPos"									"0"
-			"Wide"									"86"
-			"Tall"									"75"
+			"Wide"									"90"
+			"Tall"									"78"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border" "Black_Transparent_90"
 
 						"Pin_To_Sibling"				"Item1"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -160,35 +160,35 @@
 			"ControlName"							"panel"
 			"FieldName"								"Item3"
 			"XPos"									"0"
-			"YPos"									"2"
+			"YPos"									"-2"
 			"ZPos"									"0"
-			"Wide"									"86"
-			"Tall"									"74"
+			"Wide"									"90"
+			"Tall"									"78"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border" "Black_Transparent_90"
 						"Pin_To_Sibling"				"Item2"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"			
 		}
 		"Item4"
 		{
-			"ControlName"							"panel"
+			"ControlName"							"editablepanel"
 			"FieldName"								"Item4"
 			"XPos"									"0"
-			"YPos"									"2"
+			"YPos"									"-2"
 			"ZPos"									"0"
-			"Wide"									"86"
-			"Tall"									"75"
+			"Wide"									"90"
+			"Tall"									"78"
 			"Visible"								"1"
 			"Enabled"								"1"
 			"ProportionalToParent"					"1"
 			"PaintBackground"						"1"
 			"PaintBackgroundType"					"0"
-			"BGcolor_Override"						"black"
+			"border"						"Black_Transparent_90"
 						"Pin_To_Sibling"				"Item3"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"				
@@ -216,7 +216,7 @@
 				"fgcolor"		"White"
 				"font"			"ItemFontAttribSmallv2"
 				"textAlignment"	"center"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 				"proportionaltoparent"	"1"
 				"paintbackground"	"0"
@@ -255,7 +255,7 @@
 				"paintbackground"	"0"
 				"command"	"prev"
 				"actionsignallevel" "2"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 				"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"
@@ -298,7 +298,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"MapVotesPercentage"
+		"font"			"Renogare12" 
 		"xpos"			"rs1-60"
 		"ypos"			"rs1"
 		"zpos"			"0"	
@@ -317,7 +317,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"QuestLargeText"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"east"
 		"xpos"			"159"
@@ -364,7 +364,7 @@
 		visible						1
 		enabled						1
 
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"		
 		labelText					"ȭ"
 		font							"scoreboardmedium"
@@ -396,7 +396,7 @@
 		visible						1
 		enabled						1
            
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
@@ -524,7 +524,7 @@
 
 				"defaultBgColor_override"	"TransparentBlack"
 				"armedBgColor_override"		"0 0 0 180"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 
 				"defaultFgColor_override"		"255 255 255 170"
@@ -554,7 +554,7 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "96 83 73 255"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
@@ -639,7 +639,7 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "96 83 73 255"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
@@ -706,7 +706,7 @@
 		visible						1
 		enabled						1
 	 armedfgcolor_override "96 83 73 255"
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
@@ -755,7 +755,7 @@
 		tall							40
 		visible						1
 		enabled						1
-			"border_default"	"black"
+			"border_default"	"Black_Transparent_70"
 			"border_armed"	"Black2"	
 		visible						1
 		enabled						1
@@ -834,7 +834,7 @@
 			"presetpinnermodelpanel2"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
 			fieldName "presetpinnermodelpanel2"
     		"xpos"            "0+p0.791"
-   			"ypos"            "134-P0.001+152+152+33+6"
+   			"ypos"            "134-P0.001+152+152+35+6"
    		
 			}	
 			"presetpinnermodelpanel3"							{   "ControlName"    "editablePanel""wide"            "0"  "tall"            "0" 		 "proportionaltoparent"    "1"
@@ -1212,7 +1212,7 @@
     		"xpos"            "0"
    			"ypos"            "0" 
 			zpos -5 
-			bgcolor_override "qualitycolorcollectors"
+			bgcolor_override "blank"
 			mouseinputenabled 0
 
 			}
@@ -1332,7 +1332,22 @@
 			
 		}
 	}
+	"BottomLeftBG"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"BottomLeftBG"
+		"xpos"										"5"
+		"ypos"										"rs1-5"
+		"zpos"										"5"
+		"wide"										"60"
+		"tall"										"28"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"0"
+		"border"									"Black_Transparent_30_Soft"
 
+		"pin_to_sibling"							"BottomLeftButtonsAnchor"
+	}			
 	"classmodelpanel"		// player model
 	{
 
@@ -1377,7 +1392,7 @@
 				"ypos"						"0"
 				"zpos"						"-2"
 		"wide"			"p1"
-		"tall"			"409"
+		"tall"			"480"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"			"blank"
 
@@ -1431,11 +1446,12 @@
 			"wide"		"p2"
 			"tall"		"p6.1"		
 		}	
+
 	"ADContainerTest2"
 	{ 
 		"ControlName"	"CCyclingAdContainerPanel"
-		"xpos"							"60"
-		"ypos"							"400"
+		"xpos"							"7"
+		"ypos"							"455"
 		"wide"							"50"
 		"tall"							"20"
 		"visible"		"1"
@@ -1455,7 +1471,7 @@
 		"xpos"			"5"
 		"ypos" 			"0"
 		"zpos"			"299"
-		"wide"			"10"
+		"wide"			"12"
 		"tall"			"o1"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1466,7 +1482,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mouse2label"
-			"font"			"MapVotesPercentage"
+			"font"			"Renogare12"
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1529,7 +1545,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"shiftlabel"
-			"font"			"MapVotesPercentage"
+			"font"			"Renogare12"
 			"labelText"		"Move"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1576,7 +1592,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"altlabel"
-			"font"			"MapVotesPercentage"
+			"font"			"Renogare12"
 			"labelText"		"Rotate"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1625,7 +1641,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ctrllabel"
-			"font"			"MapVotesPercentage"
+			"font"			"Renogare12"
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"

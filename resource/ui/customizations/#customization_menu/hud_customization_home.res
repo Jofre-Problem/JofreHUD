@@ -35,7 +35,7 @@
 					"Use_Proportional_Insets"			"1"
 					"AllCaps"							"1"
 					"LabelText"							"#HudCustomization_Home_Welcome"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -72,7 +72,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Warning_Icon"
 				{
@@ -87,7 +87,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"K"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols28"
 					"TextAlignment"						"center"
 					"FGColor"							"255 200 0 255"
 				}
@@ -125,7 +125,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Restart_Icon"
 				{
@@ -140,7 +140,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"C"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols28"
 					"TextAlignment"						"center"
 					"FGColor"							"Red"
 				}
@@ -178,7 +178,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Support_Icon"
 				{
@@ -193,7 +193,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"^"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols28"
 					"TextAlignment"						"center"
 					"FGColor"							"QuestGold"
 				}
@@ -231,7 +231,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Links_Desc"
 				{
@@ -264,7 +264,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"^"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols18"
 					"TextAlignment"						"center"
 					"Command"							"url https://github.com/maxiandrew/maxihud"
 					"PaintBackground"					"0"
@@ -290,7 +290,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"n"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols18"
 					"TextAlignment"						"center"
 					"Command"							"url https://comfig.app/huds/page/maxihud"
 					"PaintBackground"					"0"
@@ -316,7 +316,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"0"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols18"
 					"TextAlignment"						"center"
 					"Command"							"url https://tf2huds.dev/hud/maxihud"
 					"PaintBackground"					"0"
@@ -342,7 +342,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"]"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols18"
 					"TextAlignment"						"center"
 					"Command"							"url https://gamebanana.com/mods/459129"
 					"PaintBackground"					"0"

@@ -5,15 +5,15 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"10"
-		"ypos"			"rs1"
-		"ypos_minmode" "r0"
-		"wide"			"30"
+		"xpos"			"rs1-5"
+		"ypos"			"15"
+		"wide"			"40"
 		"tall"			"20"
 		zpos -1
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-		"bgcolor_override" 	"32 32 32 255"
+		"bgcolor_override" 	"1 1 1 1"
+		"border" "Black_Transparent_50"
 	}
 	
 	"ItemEffectMeterLabel"

@@ -14,7 +14,7 @@
 		"ProportionalToParent"							"1"
 		"PaintBackground"								"1"
 		"PaintBackgroundType"							"0"
-		"BGcolor_Override"								"QuestMap_BGImages"
+		"BGcolor_Override"								"Background_Dark"
 //==============================================================================================================================
 // TITLE BAR
 //==============================================================================================================================
@@ -32,7 +32,7 @@
 			"ProportionalToParent"						"1"
 			"Use_Proportional_Insets"					"1"
 			"AllCaps"									"1"
-			"LabelText"									"#MaxiHudSettings"
+			"LabelText"									"Customization!"
 			"Font"										"HudFontSmallBold"
 			"TextAlignment"								"west"
 			"TextInsetX"								"5"
@@ -40,7 +40,7 @@
 			"PaintBackground"							"1"
 			"paintBackgroundtype"						"0"
 			"RoundedCorners"							"0"
-			"BGColor_Override"							"HudBlack"
+			"BGColor_Override"							"Background_Bright"
 		}
 		"CloseButton"
 		{
@@ -55,7 +55,7 @@
 			"Enabled"									"1"
 			"ProportionalToParent"						"1"
 			"LabelText"									"X"
-			"Font"										"itemfontnamelarge"
+			"Font"										"Symbols16"
 			"TextAlignment"								"center"
 			"Command"									"engine cl_mainmenu_safemode 0; mat_queue_mode -1; gameui_allowescape"
 			"ActionSignalLevel"							"2"
@@ -88,9 +88,9 @@
 			"Command"									"url https://github.com/Hypnootize/m0rehud/wiki/CUSTOMIZATIONS"
 			"PaintBackground"							"1"
 
-			"DefaultBGColor_Override"					"FooterBGBlack"
-			"ArmedBGColor_Override"						"ItemFlags"
-			"DepressedBGColor_Override"					"ItemFlags"
+			"DefaultBGColor_Override"					"Button_Dark"
+			"ArmedBGColor_Override"						"Button_Hover"
+			"DepressedBGColor_Override"					"Button_Hover"
 
 			"Pin_To_Sibling"							"CloseButton"
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -146,9 +146,9 @@
 			"Sound_Depressed"							"UI/buttonclick.wav"
 
 			"PaintBackground"							"1"
-			"DefaultBGColor_Override"					"Collectors"
-			"ArmedBGColor_Override"						"ItemAttribNegative"
-			"DepressedBGColor_Override"					"ItemAttribNegative"
+			"DefaultBGColor_Override"					"Button_Red"
+			"ArmedBGColor_Override"						"Button_Red_Hover"
+			"DepressedBGColor_Override"					"Button_Red_Hover"
 
 			"Pin_To_Sibling"							"ResetAllButton"
 			"Pin_Corner_To_Sibling"						"PIN_TOPRIGHT"
@@ -160,7 +160,7 @@
 //==============================================================================================================================
 		"Categories_Navigation"
 		{
-			"ControlName"								"EditablePanel"
+			"ControlName"								"CScrollableList"
 			"FieldName"									"Categories_Navigation"
 			"XPos"										"0"
 			"YPos"										"cs-0.5"
@@ -172,8 +172,40 @@
 			"ProportionalToParent"						"1"
 			"PaintBackground"							"1"
 			"PaintBackgroundType"						"0"
-			"BGcolor_Override"							"TanDarker"
+			"BGcolor_Override"							"Background_Darkest"
+			"ScrollBar"
+			{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"2" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
 
+					"Slider"
+					{
+						"fgcolor_override"	"ItemAttribLevel"
+						"alpha" "100"
+						"bgcolor_override"	"Blank"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}
 			"Title"
 			{
 				"ControlName"							"CExLabel"
@@ -236,16 +268,13 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Home_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Fonts_Button"
 			{
 				"ControlName"							"CExButton"
 				"FieldName"								"Fonts_Button"
 				"XPos"									"0"
-				"YPos"									"2"
+				"YPos"									"0"
 				"ZPos"									"20"
 				"Wide"									"f4"
 				"Tall"									"22"
@@ -260,9 +289,7 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Quick_Settings_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
+
 			}
 			"Colors_Button"
 			{
@@ -284,9 +311,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Fonts_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Health_Ammo_Uber_Button"
 			{
@@ -308,9 +332,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Colors_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Damage"
 			{
@@ -332,9 +353,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Health_Ammo_Uber_Button"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Match_Status"
 			{
@@ -356,9 +374,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Damage"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Counters"
 			{
@@ -380,9 +395,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Match_Status"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Crosshairs"
 			{
@@ -404,9 +416,6 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Counters"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
 			"Miscellaneous"
 			{
@@ -414,7 +423,7 @@
 				"FieldName"								"Miscellaneous"
 				"XPos"									"0"
 				"YPos"									"2"
-				"ZPos"									"20"
+				"ZPos"									"202"
 				"Wide"									"f4"
 				"Tall"									"22"
 				"Visible"								"1"
@@ -428,10 +437,28 @@
 				"ActionSignalLevel"						"3"
 				"Sound_Depressed"						"UI/buttonclick.wav"
 
-				"Pin_To_Sibling"						"Crosshairs"
-				"Pin_Corner_To_Sibling"					"PIN_TOPLEFT"
-				"Pin_To_Sibling_Corner"					"PIN_BOTTOMLEFT"
 			}
+			"Miscellaneous2"
+			{
+				"ControlName"							"CExButton"
+				"FieldName"								"Miscellaneous2"
+				"XPos"									"0"
+				"YPos"									"250"
+				"ZPos"									"202"
+				"Wide"									"f4"
+				"Tall"									"22"
+				"Visible"								"1"
+				"Enabled"								"1"
+				"ProportionalToParent"					"1"
+				"AllCaps"								"1"
+				"LabelText"								"#HudCustomization_Frame_Miscellaneous"
+				"Font"									"HudFontSmallestBold"
+				"TextAlignment"							"center"
+				"Command"								"engine m0_custom_miscellaneous; hud_reloadscheme"
+				"ActionSignalLevel"						"3"
+				"Sound_Depressed"						"UI/buttonclick.wav"
+
+			}			
 		}
 //==============================================================================================================================
 // MAIN CUSTOMIZATION PANEL
@@ -478,9 +505,9 @@
 			"PaintBorder"								"0"
 			"RoundedCorners"							"0"
 
-			"DefaultBGColor_Override"					"greensolid"
-			"ArmedBGColor_Override"						"ItemLimitedUse"
-			"DepressedBGColor_Override"					"ItemLimitedUse"
+			"DefaultBGColor_Override"					"Button_Green"
+			"ArmedBGColor_Override"						"Button_Green_Hover"
+			"DepressedBGColor_Override"					"Button_Green_Hover"
 		}
 	}
 }

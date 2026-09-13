@@ -50,7 +50,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"l"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -67,7 +67,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_Frame_Damage"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 // FLOATING DAMAGE STYLE -----------------------------------------------------------------------------------
 				"Floating_Damage_Style"
@@ -113,7 +113,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Damage_Numbers"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -133,7 +133,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 // DAMAGE SMALL -------------------------------------------------------------------------------------------
 					"Damage_Small"
@@ -169,7 +169,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_small"
+							"Image"						"replay/thumbnails/customizations/damage/damage_small"
 						}
 						"Style_Label"
 						{
@@ -191,7 +191,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -252,7 +252,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_small_minusless"
+							"Image"						"replay/thumbnails/customizations/damage/damage_small_minusless"
 						}
 						"Style_Label"
 						{
@@ -274,7 +274,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -335,7 +335,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -357,7 +357,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Label2"
 						{
@@ -440,7 +440,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -462,7 +462,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Label2"
 						{
@@ -545,7 +545,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -567,7 +567,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Label2"
 						{
@@ -650,7 +650,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_bg"
+							"Image"						"replay/thumbnails/customizations/damage/damage_bg"
 						}
 						"Style_Label"
 						{
@@ -672,7 +672,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Label2"
 						{
@@ -748,7 +748,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Damage_Alpha"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -768,7 +768,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Damage_Solid"
 					{
@@ -828,7 +828,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -914,7 +914,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -968,7 +968,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Damage_Settings"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -988,7 +988,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Damage_Batching"
 					{
@@ -1032,8 +1032,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -1086,7 +1086,7 @@
 						"Enabled"						"1"
 						"MouseInputEnabled"				"0"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"Font"							"HudFontSmallest"
 						"LabelText"						"#HudCustomization_Damage_Window"
 						"TextAlignment"					"west"
@@ -1143,7 +1143,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Damage_LastDone"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1163,7 +1163,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Last_Damage_Disabled"
 					{
@@ -1198,7 +1198,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
+							"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
 						}
 						"Style_Disabled"
 						{
@@ -1213,7 +1213,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1238,7 +1238,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1298,7 +1298,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
+							"Image"						"replay/thumbnails/customizations/damage/last_damage_health"
 						}
 						"Style_Label"
 						{
@@ -1320,7 +1320,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1381,7 +1381,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/last_damage_ammo"
+							"Image"						"replay/thumbnails/customizations/damage/last_damage_ammo"
 						}
 						"Style_Label"
 						{
@@ -1403,7 +1403,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1463,7 +1463,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/last_damage_center"
+							"Image"						"replay/thumbnails/customizations/damage/last_damage_center"
 						}
 						"Style_Label"
 						{
@@ -1485,7 +1485,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1539,7 +1539,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Damage_Idicator"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1559,7 +1559,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Indicator_Disabled"
 					{
@@ -1594,7 +1594,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
+							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
 						}
 						"Style_Disabled"
 						{
@@ -1609,7 +1609,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1634,7 +1634,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1694,7 +1694,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
+							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_big"
 						}
 						"Style_Label"
 						{
@@ -1716,7 +1716,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1776,7 +1776,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/damage/damage_indicator_small"
+							"Image"						"replay/thumbnails/customizations/damage/damage_indicator_small"
 						}
 						"Style_Label"
 						{
@@ -1798,7 +1798,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{

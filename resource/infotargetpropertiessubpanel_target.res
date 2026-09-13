@@ -1,1 +1,0 @@
-#base "commentarypropertiessubpanel_target.res"

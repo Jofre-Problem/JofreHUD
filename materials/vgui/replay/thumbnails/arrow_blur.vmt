@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\arrow_blur"
+	"$vertexcolor" 1	
+		"$alpha"					"1"
+	"$ignorez" 1
+}

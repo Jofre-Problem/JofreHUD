@@ -1,4 +1,4 @@
-//#base "ui3/hudammoweaponsbase.res"
+#base "../../../../cfg/jofrehud/jp_hp_bg_preset.txt"
 #base "HudPlayerStatusFireSelect.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
@@ -74,7 +74,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"MatchmakingMenuItemBackground"
+		"bgcolor_override"		"1 1 1 255"
 					"pin_to_sibling"	"AmmoAnchor"
 	}
 	"cover2"
@@ -88,7 +88,7 @@
 		"tall"			"34"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"MatchmakingMenuItemBackground"
+		"bgcolor_override"		"1 1 1 255"
 					"pin_to_sibling"	"AmmoAnchor"
 	}		
 	"cover3"
@@ -115,7 +115,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"MatchmakingMenuItemBackground"
+		"fgcolor"		"1 1 1 255"
 		"xpos"			"-2417"
 		"ypos"			"-5"
 		"zpos"			"5"
@@ -267,7 +267,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoEverywhereDude"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"MatchmakingMenuItemBackground"
+		"fgcolor"		"1 1 1 255"
 		"xpos"			"58"
 		"ypos"			"5"
 		"zpos"			"5"

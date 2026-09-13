@@ -29,7 +29,18 @@
 			fillColor				"24 24 24 255"
 	}	
 
-
+			"arrowblur"
+			{
+				ControlName				ImagePanel
+				fieldName				"arrowblur"
+				xpos					rs1
+				ypos					-1
+				wide					232
+				tall					70
+				proportionaltoparent		1
+				image					"replay/thumbnails/arrow_blur"
+				scaleImage				1
+			}
 		"polybar0slash"
 		{
 			"ControlName"		"CExLabel"

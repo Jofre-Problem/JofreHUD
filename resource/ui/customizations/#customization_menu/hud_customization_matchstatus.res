@@ -53,7 +53,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"k"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -70,7 +70,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_Frame_MatchStatus"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumBold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -88,7 +88,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 // MATCH STATUS CVARS -------------------------------------------------------------------------------------
 				"Match_Status_CVARS"
@@ -116,7 +116,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -136,7 +136,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 
 						"Pin_To_Sibling"				"Match_Status_Settings_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -183,8 +183,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -265,8 +265,8 @@
 							"border_armed"				"BorderSelectionWhite"
 
 							"DefaultBGColor_Override"	"Blank"
-							"ArmedBGColor_Override"		"ItemFlags"
-							"DepressedBGColor_Override"	"ItemFlags"
+							"ArmedBGColor_Override"		"Button_Hover"
+							"DepressedBGColor_Override"	"Button_Hover"
 						}
 						"Setting_Checkbox"
 						{
@@ -333,7 +333,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -353,7 +353,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 
 						"Pin_To_Sibling"				"Match_Status_Style_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -393,7 +393,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_c"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_c"
 						}
 						"Style_Label"
 						{
@@ -415,7 +415,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -476,7 +476,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_small_hp"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_small_hp"
 						}
 						"Style_Label"
 						{
@@ -498,7 +498,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -559,7 +559,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_names"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_names"
 						}
 						"Style_Label"
 						{
@@ -581,7 +581,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -642,7 +642,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_ext"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_ext"
 						}
 						"Style_Label"
 						{
@@ -664,7 +664,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -725,7 +725,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_ext_noframe"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_ext_noframe"
 						}
 						"Style_Label"
 						{
@@ -747,7 +747,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -808,7 +808,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_c_nf"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_c_nf"
 						}
 						"Style_Label"
 						{
@@ -830,7 +830,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -874,7 +874,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"-"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -891,7 +891,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_MatchStatus_Timer"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -909,7 +909,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 // TIMER BG ----------------------------------------------------------------------------------------------
 				"Timer_BG_Style"
@@ -937,7 +937,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus_TimerBG"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -957,7 +957,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 
 						"Pin_To_Sibling"				"Timer_BG_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -996,7 +996,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer"
 						}
 						"Style_Label"
 						{
@@ -1018,7 +1018,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1078,7 +1078,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer_bg"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_timer_bg"
 						}
 						"Style_Label"
 						{
@@ -1100,7 +1100,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1154,7 +1154,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus_RoundCounter"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1174,7 +1174,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 
 						"Pin_To_Sibling"				"Round_Counter_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1213,7 +1213,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
 						}
 						"Style_Disabled"
 						{
@@ -1228,7 +1228,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1253,7 +1253,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1313,7 +1313,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
+							"Image"						"replay/thumbnails/customizations/matchstatus/match_status_round_counter"
 						}
 						"Style_Label"
 						{
@@ -1335,7 +1335,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1379,7 +1379,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"1"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -1397,7 +1397,7 @@
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
 					"LabelText"							"#HudCustomization_MatchStatus_Objective"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -1415,7 +1415,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 // CAPTURE POINTS ----------------------------------------------------------------------------------------------
 				"Capture_Progress"
@@ -1443,7 +1443,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_MatchStatus_Capture"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -1463,7 +1463,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 
 						"Pin_To_Sibling"				"Capture_Progress_Label"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1502,7 +1502,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
+							"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
 						}
 						"Style_Disabled"
 						{
@@ -1517,7 +1517,7 @@
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/general/disabled_cross"
+							"Image"						"replay/thumbnails/customizations/general/disabled_cross"
 							"ScaleImage"				"1"
 							"Drawcolor"					"Red"
 							"Alpha"						"200"
@@ -1542,7 +1542,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -1602,7 +1602,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
+							"Image"						"replay/thumbnails/customizations/cp_progress/cp_progress"
 						}
 						"Style_Label"
 						{
@@ -1624,7 +1624,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{

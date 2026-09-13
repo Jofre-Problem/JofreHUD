@@ -71,6 +71,8 @@
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
+					"scaleImage" "1"
+					"image" "replay/thumbnails/menu/items_bg"
 					"fillcolor" "27 28 30 255"
 				}				
 			}				
@@ -189,7 +191,7 @@
 					"wide"			"p1"
 					"tall"			"p1.1"
 					"visible"		"1"
-					"fillcolor" "0 255 0 255"
+					"fillcolor" "27 27 27 255"
 				}		
 			}
 			"4"

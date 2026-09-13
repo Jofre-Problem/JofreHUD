@@ -50,7 +50,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"6"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols20"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -67,7 +67,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_Colors"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -85,7 +85,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Element_Color_Picker"
 				{
@@ -115,7 +115,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"TanDarker"
+						"BGColor_Override"				"Background_Darkest"
 
 
 						"Example_Image"
@@ -131,7 +131,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/damage_numbers"
+							"Image"						"replay/thumbnails/customizations/colors/damage_numbers"
 						}
 						"Element_Name"
 						{
@@ -805,7 +805,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"TanDarker"
+						"BGColor_Override"				"Background_Darkest"
 
 						"Pin_To_Sibling"				"Damage"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -824,7 +824,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/damage_last"
+							"Image"						"replay/thumbnails/customizations/colors/damage_last"
 						}
 						"Element_Name"
 						{
@@ -1498,7 +1498,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"TanDarker"
+						"BGColor_Override"				"Background_Darkest"
 
 						"Pin_To_Sibling"				"Last_Damage_Done"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -1517,7 +1517,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/hudcrosshair"
+							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair"
 						}
 						"Element_Name"
 						{
@@ -2191,7 +2191,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"TanDarker"
+						"BGColor_Override"				"Background_Darkest"
 
 						"Pin_To_Sibling"				"Damage"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2210,7 +2210,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/hudcrosshair_flash"
+							"Image"						"replay/thumbnails/customizations/colors/hudcrosshair_flash"
 						}
 						"Element_Name"
 						{
@@ -2884,7 +2884,7 @@
 
 						"PaintBackground"				"1"
 						"paintBackgroundType"			"0"
-						"BGColor_Override"				"TanDarker"
+						"BGColor_Override"				"Background_Darkest"
 
 						"Pin_To_Sibling"				"HUD_Crosshair_Pulse"
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
@@ -2903,7 +2903,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/hitmarker"
+							"Image"						"replay/thumbnails/customizations/colors/hitmarker"
 						}
 						"Element_Name"
 						{
@@ -3590,7 +3590,7 @@
 						"Visible"						"1"
 						"Enabled"						"1"
 						"ProportionalToParent"			"1"
-						
+						"AllCaps"						"1"
 						"LabelText"						"#HudCustomization_Colors_Style"
 						"Font"							"HudFontSmallBold"
 						"TextAlignment"					"west"
@@ -3610,7 +3610,7 @@
 						"ProportionalToParent"			"1"
 						"paintBackground"				"1"
 						"paintBackgroundtype"			"3"
-						"BGcolor_Override"				"HudBlack"
+						"BGcolor_Override"				"Background_Bright"
 					}
 					"Color_Shadows"
 					{
@@ -3642,7 +3642,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/color_shadow"
+							"Image"						"replay/thumbnails/customizations/colors/color_shadow"
 						}
 						"Element_Name"
 						{
@@ -3725,7 +3725,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							//"Image"						"replay/thumbnails/customizations/colors/color_number"
+							"Image"						"replay/thumbnails/customizations/colors/color_number"
 						}
 						"Element_Name"
 						{
@@ -3789,7 +3789,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"5"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols24"
 					"TextAlignment"						"center"
 					"FGColor"							"Gray"
 				}
@@ -3806,7 +3806,7 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"LabelText"							"#HudCustomization_Fonts"
-					"Font"								"itemfontnamesmall"
+					"Font"								"HudFontMediumBold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
 				}
@@ -3824,7 +3824,7 @@
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
 					"LabelText"							"C"
-					"Font"								"itemfontnamelarge"
+					"Font"								"Symbols20"
 					"TextAlignment"						"center"
 					"FGColor"							"Red"
 				}
@@ -3842,7 +3842,7 @@
 					"ProportionalToParent"				"1"
 					"paintBackground"					"1"
 					"paintBackgroundtype"				"3"
-					"BGcolor_Override"					"HudBlack"
+					"BGcolor_Override"					"Background_Bright"
 				}
 				"Font_Picker"
 				{
@@ -3890,7 +3890,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
+							"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
 						}
 						"Style_Label"
 						{
@@ -3912,7 +3912,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{
@@ -3973,7 +3973,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							//"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
+							"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
 						}
 						"Style_Label"
 						{
@@ -3995,7 +3995,7 @@
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
 							"PaintBackgroundType"		"0"
-							"BGColor_Override"			"TanDarker"
+							"BGColor_Override"			"Background_Darkest"
 						}
 						"Style_Button"
 						{

@@ -51,7 +51,7 @@ Scheme
 		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.TitleTextInsetX			16
-		Frame.BgColor					"black"	
+		Frame.BgColor					"0 0 0 1"	
 		Frame.FocusTransitionEffectTime	"0.3"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.3"		// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"

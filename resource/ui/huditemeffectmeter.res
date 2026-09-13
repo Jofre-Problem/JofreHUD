@@ -72,7 +72,7 @@
 		"textAlignment"			"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"blank"
-		border TrainingResultsBG
+		border steamworkshopborder
 	}	
 	"ChargeColor_25"
 	{

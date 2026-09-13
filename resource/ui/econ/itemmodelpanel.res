@@ -35,7 +35,7 @@
 		
 		"mouseoveritempanelBG"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"editablePanel"
 			"fieldName"		"mouseoveitempanelBG"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -44,7 +44,9 @@
 			"tall"			"240"	//140 magnum
 			"visible"		"1"
 			"enabled"		"1"
-			border "TFFatLineBorderRedBGMoreOpaque" 
+		"paintBackground"							"0"
+		"paintBorder"								"1"
+			border Black_Transparent_90
 		}
 		"maincontentscontainer"
 		{

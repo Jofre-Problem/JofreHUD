@@ -90,7 +90,18 @@
 
 		}
 	}
-
+			"arrowblurleft"
+			{
+				ControlName				ImagePanel
+				fieldName				"arrowblurleft"
+				xpos					0
+				ypos					-1
+				wide					255
+				tall					70
+				proportionaltoparent		1
+				image					"replay/thumbnails/arrow_blur_left"
+				scaleImage				1
+			}
 	"BackButton"
 	{
 		"ControlName"								"CExButton"
