@@ -35,9 +35,9 @@
 					"Use_Proportional_Insets"			"1"
 					"AllCaps"							"1"
 					"LabelText"							"#HudCustomization_Home_Welcome"
-					"Font"								"HudFontMediumbold"
+					"Font"								"Jofrebold20"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"Description"
 				{
@@ -54,9 +54,9 @@
 					"Use_Proportional_Insets"			"1"
 					"AllCaps"							"1"
 					"LabelText"							"#HudCustomization_Home_Description"
-					"Font"								"ItemFontNameLarge"
+					"Font"								"Jofre12"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"Separator_1"
 				{
@@ -107,9 +107,9 @@
 					"AllCaps"							"1"
 					"Wrap"								"1"
 					"LabelText"							"#HudCustomization_Home_Warning1"
-					"Font"								"ReplayMediumSmall"
+					"Font"								"Jofre10"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"Separator_2"
 				{
@@ -160,9 +160,9 @@
 					"AllCaps"							"1"
 					"Wrap"								"1"
 					"LabelText"							"#HudCustomization_Home_Warning2"
-					"Font"								"ReplayMediumSmall"
+					"Font"								"Jofre10"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"Separator_3"
 				{
@@ -213,9 +213,9 @@
 					"AllCaps"							"1"
 					"Wrap"								"1"
 					"LabelText"							"#HudCustomization_Home_Support"
-					"Font"								"ReplayMediumSmall"
+					"Font"								"Jofre10"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"Separator_4"
 				{
@@ -246,10 +246,10 @@
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
 					"AllCaps"							"1"
-					"LabelText"							"Check out maxihud on:"
-					"Font"								"ReplayMediumSmall"
+					"LabelText"							"Check out jofrehud on:"
+					"Font"								"Jofre10"
 					"TextAlignment"						"west"
-					"FGColor"							"Gray"
+					"FGColor"							"Background_Bright"
 				}
 				"GitHub_Link"
 				{
@@ -266,7 +266,7 @@
 					"LabelText"							"^"
 					"Font"								"Symbols18"
 					"TextAlignment"						"center"
-					"Command"							"url https://github.com/maxiandrew/maxihud"
+					"Command"							"url https://github.com/maxiandrew/jofrehud"
 					"PaintBackground"					"0"
 
 					"DefaultFGColor_Override"			"QuestGold"
@@ -292,7 +292,7 @@
 					"LabelText"							"n"
 					"Font"								"Symbols18"
 					"TextAlignment"						"center"
-					"Command"							"url https://comfig.app/huds/page/maxihud"
+					"Command"							"url https://comfig.app/huds/page/jofrehud"
 					"PaintBackground"					"0"
 
 					"DefaultFGColor_Override"			"0 150 135 255"
@@ -318,7 +318,7 @@
 					"LabelText"							"0"
 					"Font"								"Symbols18"
 					"TextAlignment"						"center"
-					"Command"							"url https://tf2huds.dev/hud/maxihud"
+					"Command"							"url https://tf2huds.dev/hud/jofrehud"
 					"PaintBackground"					"0"
 
 					"DefaultFGColor_Override"			"255 85 0 255"

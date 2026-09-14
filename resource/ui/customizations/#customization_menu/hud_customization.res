@@ -9,7 +9,7 @@
 #base "hud_customization_quick_settings.res"
 
 //==============================================================
-// MAXIHUD
+// jofrehud
 //==============================================================
 #base "hud_customization_fonts.res"
 

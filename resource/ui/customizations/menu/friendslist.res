@@ -41,7 +41,7 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"1"			
-			// please check maxihud to see how this works
+			// please check jofrehud to see how this works
 		}
 	}
 }

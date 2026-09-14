@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"ItemFontAttribSmallv2"
+		"font"			"Jofre8"
 		"textinsetx"	"5"
 		"xpos"			"r260"
 		"ypos"			"0"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"labelText"		"" // map: cp_bridge
 		"textAlignment"		"east"
-		"fgcolor_override"	"Tanlight"
+		"fgcolor_override"	"237 227 202 255"
 	}
 	"ClassOrTeamLabel"
 	{

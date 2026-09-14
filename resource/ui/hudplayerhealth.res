@@ -1,3 +1,4 @@
+#base "../../../../cfg/jofrehud/jp_hp_frame.txt"
 #base "../../../../cfg/jofrehud/jp_hp_font.txt"
 // tipo de letra de la vida
 #base "../../../../cfg/jofrehud/jp_hp_bg_preset.txt"

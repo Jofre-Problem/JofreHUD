@@ -68,7 +68,7 @@
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"BlueCount"
 		labelText		  		"%bluecount%"
-		font			  		"HudFontBig"
+		font			  		"Jofrebold40"
 		textAlignment	  		center
 
 		fgcolor		  		"White"
@@ -200,7 +200,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%redcount%"
-		font			  		"HudFontBig"
+		font			  		"Jofrebold40"
 		textAlignment	  		center
 
 		fgcolor		  		"White"
@@ -244,7 +244,7 @@
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"ItemFontNameLarger"
+		font					"Jofre10"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -281,7 +281,7 @@
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"ItemFontNameLarger"
+		font					"Jofre10"
 		fgcolor				"White"
 		
 		sound_depressed			"UI/buttonclick.wav"

@@ -25,7 +25,7 @@
 					"wide""280"
 					"tall""o1"
 
-					//"image""replay/thumbnails/spray"
+					"image""replay/thumbnails/spray_24"
 					"scaleImage""1"
 					}		}		
 
@@ -37,7 +37,29 @@
 			"wide""32"
 			"tall""o1"
 			}		
-	
+					"bg"
+					{
+					"ControlName""editablePanel"
+					"fieldName""bg"
+					"xpos""0"
+					"ypos""0"
+					"wide""f0"
+					"tall""f0"
+		"bgcolor_override" "15 15 15 200"
+					}	
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"21"
+					"wide"			"100"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"image"			"replay/thumbnails/hp/REFRACTblur"
+					"scaleImage"		"1"
+				}					
+						
 	"info"
 	{
 		"ControlName"			"Frame"
@@ -49,6 +71,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"settitlebarvisible"	"0"
+		
 		"ForceStereoRenderToFrameBuffer" "1"
 	}
 
@@ -65,8 +88,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Welcome"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
-		"fgcolor"		"255 255 255 255"
+		"font"			"Jofrebold16"
+		"fgcolor"		"237 227 202 255"
 	}
 
 	"TextMessage"
@@ -81,18 +104,18 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Noto9"
-		"xpos"			"c-147"
-		"ypos"			"r295"
-		"zpos"			"3"
-		"wide"			"598"		
-		"tall"			"108"
+		"font"			"Jofre10"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"322"
+		"wide"			"120"		
+		"tall"			"f0"
 		//"	"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"237 227 202 255"
 	}
 
 	"HTMLMessage"
@@ -123,7 +146,7 @@
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
 		"command"		"okay"
-		"font"		"EconFontMedium"
+		"font"		"Jofrebold16"
 		paintBackground 1
 		"alpha"		"190"
 		"defaultBgColor_override"	"TransparentBlack"
@@ -155,10 +178,10 @@
 		"border_default"		""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"HudFontSmall"
-		"fgcolor"		"255 255 255 255"
+		"font"			"Jofrebold16"
+		"fgcolor"		"237 227 202 255"
 		"armedFgColor_override" "ItemAttribPositive"
-		"defaultFgColor_override" "255 255 255 255"
+		"defaultFgColor_override" "237 227 202 255"
 		"depressedFgColor_override" "255 255 255 255"
 		"alpha"	"190"
 	}

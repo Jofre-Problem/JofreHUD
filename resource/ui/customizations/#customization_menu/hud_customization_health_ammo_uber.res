@@ -66,7 +66,7 @@
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
-					"LabelText"							"#HudCustomization_MaxiHud_HUDStyle"
+					"LabelText"							"#HudCustomization_jofrehud_HUDStyle"
 					"Font"								"HudFontMediumbold"
 					"TextAlignment"						"west"
 					"FGColor"							"Gray"
@@ -95,7 +95,7 @@
 					"YPos"								"36"
 					"ZPos"								"20"
 					"Wide"								"f0"
-					"Tall"								"120"
+					"Tall"								"180"
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
@@ -615,7 +615,7 @@
 							"MouseInputEnabled"			"0"
 							"ProportionalToParent"		"1"
 							"Font"						"FontStorePrice"
-							"LabelText"					"Purple"
+							"LabelText"					"Default"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
@@ -636,7 +636,7 @@
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/hp/purplegradient"
+							"Image"						"replay/thumbnails/hp/redteam2"
 						}
 						"PlayerStatusHealthValue"
 						{
@@ -666,7 +666,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine jp_hp_bg_purple"
+							"Command"					"engine jp_hp_bg_style_clear"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -678,7 +678,296 @@
 							"border_default"			"NoBorder"
 							"border_armed"				"BorderSelectionGray"
 						}
-					}					
+					}				
+					"Style_Normal3"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Style_Normal3"
+						"XPos"							"0"
+						"YPos"							"120"
+						"ZPos"							"1"
+						"Wide"							"120"
+						"Tall"							"45"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"1"
+
+						"Style_Name"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Style_Name"
+							"XPos"						"cs-0.5"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"AllCaps"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"Chromatic Corruption"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+						"Size_Normal_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Size_Normal_Image"
+							"XPos"						"cs-0.5"
+							"YPos"						"-4"
+							"ZPos"						"0"
+							"Wide"						"88"
+							"Tall"						"38"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ScaleImage"				"1"
+							"ProportionalToParent"		"1"
+							"Image"						"replay/thumbnails/hp/bluteam2"
+						}
+						"PlayerStatusHealthValue"
+						{
+							"ControlName"	"Label"
+							"fieldName"		"PlayerStatusHealthValue"
+							"xpos"			"-15"
+							"ypos"			"-5"
+							"zpos"			"0"
+							"wide"			"150"
+							"tall"			"40"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		"-125-"
+							"textAlignment"	"center"	
+							"font"			"HealthAndAmmo"
+							"fgcolor_override"		"1 1 1 255"
+						}								
+						"Size_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Size_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jp_hp_bg_blu"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}
+// SMALLER SIZE --------------------------------------------------------------------------------------
+					"Style_Small3"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Style_Small3"
+						"XPos"							"5"
+						"YPos"							"0"
+						"ZPos"							"1"
+						"Wide"							"120"
+						"Tall"							"45"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"0"
+
+						"Pin_To_Sibling"				"Style_Normal3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+
+						"Style_Name"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Style_Name"
+							"XPos"						"cs-0.5"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"AllCaps"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"Sinister Staining"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+						"Size_Normal_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Size_Normal_Image"
+							"XPos"						"cs-0.5"
+							"YPos"						"-4"
+							"ZPos"						"0"
+							"Wide"						"88"
+							"Tall"						"38"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ScaleImage"				"1"
+							"ProportionalToParent"		"1"
+							"Image"						"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"
+						}
+						"PlayerStatusHealthValue"
+						{
+							"ControlName"	"Label"
+							"fieldName"		"PlayerStatusHealthValue"
+							"xpos"			"-15"
+							"ypos"			"-5"
+							"zpos"			"0"
+							"wide"			"150"
+							"tall"			"40"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		"-125-"
+							"textAlignment"	"center"	
+							"font"			"HealthAndAmmo"
+							"fgcolor_override"		"1 1 1 255"
+						}								
+						"Size_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Size_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jp_hp_bg_spectralblu"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}
+// MINMODE SIZE --------------------------------------------------------------------------------------
+					"Style_Minmode3"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Style_Minmode3"
+						"XPos"							"5"
+						"YPos"							"0"
+						"ZPos"							"1"
+						"Wide"							"120"
+						"Tall"							"45"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"0"
+
+						"Pin_To_Sibling"				"Style_Small3"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+
+						"Style_Name"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Style_Name"
+							"XPos"						"cs-0.5"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"AllCaps"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"Die Job"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+						"Size_Normal_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Size_Normal_Image"
+							"XPos"						"cs-0.5"
+							"YPos"						"-12"
+							"ZPos"						"0"
+							"Wide"						"88"
+							"Tall"						"45"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ScaleImage"				"1"
+							"ProportionalToParent"		"1"
+							"Image"						"replay/thumbnails/hp/redteam2"
+						}
+						"PlayerStatusHealthValue"
+						{
+							"ControlName"	"Label"
+							"fieldName"		"PlayerStatusHealthValue"
+							"xpos"			"-15"
+							"ypos"			"-5"
+							"zpos"			"0"
+							"wide"			"150"
+							"tall"			"40"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		"-125-"
+							"textAlignment"	"center"	
+							"font"			"HealthAndAmmo"
+							"fgcolor_override"		"1 1 1 255"
+						}						
+						"Size_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Size_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jp_hp_bg_style_clear"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}								
 				}
 //================================================================================================
 // HEALTH
@@ -972,9 +1261,9 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine m0_health_warning_75"
+							"Command"					"engine jp_hp_font_thin"
 							"LabelText"					""
-							"Sound_Depressed"			"UI/buttonclick.wav"
+							"Sound_Depressed"			"UI/buttonclick.wav" 
 							"ProportionalToParent"		"1"
 							"ActionSignalLevel"			"6"
 
@@ -1070,7 +1359,7 @@
 							"Visible"					"1"
 							"Enabled"					"1"
 							"Font"						""
-							"Command"					"engine m0_health_warning_75"
+							"Command"					"engine jp_hp_font_outline"
 							"LabelText"					""
 							"Sound_Depressed"			"UI/buttonclick.wav"
 							"ProportionalToParent"		"1"
@@ -1093,7 +1382,7 @@
 					"ControlName"						"CExLabel"
 					"FieldName"							"Target_Icon"
 					"XPos"								"4"
-					"YPos"								"295+50"
+					"YPos"								"295+20"
 					"ZPos"								"0"
 					"Wide"								"20"
 					"Tall"								"25"
@@ -1110,7 +1399,7 @@
 					"ControlName"						"CExLabel"
 					"FieldName"							"Target"
 					"XPos"								"30"
-					"YPos"								"295+50"
+					"YPos"								"295+20"
 					"ZPos"								"0"
 					"Wide"								"f25"
 					"Tall"								"27"
@@ -1127,7 +1416,7 @@
 					"ControlName"						"EditablePanel"
 					"FieldName"							"Separator_5"
 					"XPos"								"3"
-					"YPos"								"320+50"
+					"YPos"								"320+20"
 					"ZPos"								"0"
 					"Wide"								"f40"
 					"Tall"								"2"
@@ -1143,10 +1432,10 @@
 					"ControlName"						"EditablePanel"
 					"FieldName"							"Target_Options"
 					"XPos"								"3"
-					"YPos"								"330+50"
+					"YPos"								"330+20"
 					"ZPos"								"4000"
 					"Wide"								"f0"
-					"Tall"								"260"
+					"Tall"								"210"
 					"Visible"							"1"
 					"Enabled"							"1"
 					"ProportionalToParent"				"1"
@@ -1158,7 +1447,7 @@
 						"XPos"							"5"
 						"YPos"							"0"
 						"ZPos"							"0"
-						"Wide"							"260"
+						"Wide"							"360"
 						"Tall"							"15"
 						"Visible"						"1"
 						"Enabled"						"1"
@@ -1253,7 +1542,7 @@
 						"XPos"							"-25"
 						"YPos"							"0"
 						"ZPos"							"21"
-						"Wide"							"160"
+						"Wide"							"260"
 						"Tall"							"12"
 						"Visible"						"1"
 						"Enabled"						"1"
@@ -1475,6 +1764,357 @@
 						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
 						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
 					}
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				"Health_Icon2"
+				{
+					"ControlName"						"CExLabel"
+					"FieldName"							"Health_Icon2"
+					"XPos"								"4"
+					"YPos"								"82+120+300"
+					"ZPos"								"0"
+					"Wide"								"20"
+					"Tall"								"25"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"LabelText"							"g"
+					"Font"								"Symbols24"
+					"TextAlignment"						"center"
+					"FGColor"							"Gray"
+				}
+				"Health2"
+				{
+					"ControlName"						"CExLabel"
+					"FieldName"							"Health2"
+					"XPos"								"30"
+					"YPos"								"82+120+300"
+					"ZPos"								"0"
+					"Wide"								"f25"
+					"Tall"								"27"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"LabelText"							"Circle Frame"
+					"Font"								"HudFontMediumbold"
+					"TextAlignment"						"west"
+					"FGColor"							"Gray"
+				}
+				"Separator_22"
+				{
+					"ControlName"						"EditablePanel"
+					"FieldName"							"Separator_22"
+					"XPos"								"3"
+					"YPos"								"109+120+300"
+					"ZPos"								"0"
+					"Wide"								"f40"
+					"Tall"								"2"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+					"paintBackground"					"1"
+					"paintBackgroundtype"				"3"
+					"BGcolor_Override"					"Background_Bright"
+				}
+				"Health_Options2"
+				{
+					"ControlName"						"EditablePanel"
+					"FieldName"							"Health_Options2"
+					"XPos"								"3"
+					"YPos"								"117+120+300"
+					"ZPos"								"22"
+					"Wide"								"f0"
+					"Tall"								"300"
+					"Visible"							"1"
+					"Enabled"							"1"
+					"ProportionalToParent"				"1"
+
+//=================================================================================
+// HEALTH WARNING LEVEL
+//=================================================================================
+					"Health_Warning"
+					{
+						"ControlName"					"CExLabel"
+						"FieldName"						"Health_Warning"
+						"XPos"							"0"
+						"YPos"							"2"
+						"ZPos"							"0"
+						"Wide"							"160"
+						"Tall"							"15"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"AllCaps"						"1"
+						"LabelText"						"From MagnumHud"
+						"Font"							"HudFontSmallBold"
+						"TextAlignment"					"west"
+						"FGColor"						"Gray"
+					}
+					"Separator_2"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Separator_2"
+						"XPos"							"2"
+						"YPos"							"1"
+						"ZPos"							"0"
+						"Wide"							"160"
+						"Tall"							"1"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"paintBackground"				"1"
+						"paintBackgroundtype"			"3"
+						"BGcolor_Override"				"Background_Bright"
+
+						"Pin_To_Sibling"				"Health_Warning"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+					}
+// WARNING 50% ---------------------------------------------------------------------------------
+					"Warning_50"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Warning_50"
+						"XPos"							"-2"
+						"YPos"							"5"
+						"ZPos"							"1"
+						"Wide"							"90"
+						"Tall"							"44"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"1"
+						"BGcolor_Override"				"104 101 100 255"
+
+						"Pin_To_Sibling"				"Separator_2"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_BOTTOMLEFT"
+
+						"Style_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Style_Image"
+							"XPos"						"cs-0.5-5"
+							"YPos"						"cs-0.5-7"
+							"ZPos"						"0"
+							"Wide"						"54"
+							"Tall"						"44"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ScaleImage"				"1"
+							"ProportionalToParent"		"1"
+							"Image"						"replay/thumbnails/hp/whiteam2"
+						}
+						"Health_Warning_Label2"
+						{
+							"ControlName"	"Label"
+							"fieldName"		"Health_Warning_Label2"
+							"xpos"			"-29"
+							"ypos"			"-5"
+							"zpos"			"0"
+							"wide"			"150"
+							"tall"			"40"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		"-125-"
+							"textAlignment"	"center"	
+							"font"			"HealthAndAmmo"
+							"fgcolor_override"		"1 1 1 255"
+						}						
+						"Health_Warning_Label"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Health_Warning_Label"
+							"XPos"						"0"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"AllCaps"					"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"None"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+						"Health_Warning_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Health_Warning_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jp_hp_frame_clear"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav"
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}
+// WARNING 75% ---------------------------------------------------------------------------------
+					"Warning_75"
+					{
+						"ControlName"					"EditablePanel"
+						"FieldName"						"Warning_75"
+						"XPos"							"5"
+						"YPos"							"0"
+						"ZPos"							"1"
+						"Wide"							"90"
+						"Tall"							"44"
+						"Visible"						"1"
+						"Enabled"						"1"
+						"ProportionalToParent"			"1"
+						"PaintBackground"				"1"
+						"BGcolor_Override"				"104 101 100 255"
+
+						"Pin_To_Sibling"				"Warning_50"
+						"Pin_Corner_To_Sibling"			"PIN_TOPLEFT"
+						"Pin_To_Sibling_Corner"			"PIN_TOPRIGHT"
+
+						"Style_Image"
+						{
+							"ControlName"				"ImagePanel"
+							"FieldName"					"Style_Image"
+							"XPos"						"cs-0.5-5"
+							"YPos"						"cs-0.5-7"
+							"ZPos"						"0"
+							"Wide"						"54"
+							"Tall"						"54"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ScaleImage"				"1"
+							"ProportionalToParent"		"1"
+							"Image"						"replay\thumbnails\hp\REFRACTcircle"
+						}
+						"Health_Warning_Label"
+						{
+							"ControlName"				"CExLabel"
+							"FieldName"					"Health_Warning_Label"
+							"XPos"						"0"
+							"YPos"						"rs1"
+							"ZPos"						"1"
+							"Wide"						"f0"
+							"Tall"						"12"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"MouseInputEnabled"			"0"
+							"ProportionalToParent"		"1"
+							"AllCaps"					"1"
+							"Font"						"FontStorePrice"
+							"LabelText"					"Circle"
+							"TextAlignment"				"center"
+							"FGColor"					"Gray"
+							"PaintBackground"			"1"
+							"PaintBackgroundType"		"0"
+							"BGColor_Override"			"Background_Darkest"
+						}
+						"Health_Warning_Label2"
+						{
+							"ControlName"	"Label"
+							"fieldName"		"Health_Warning_Label2"
+							"xpos"			"-30"
+							"ypos"			"-5"
+							"zpos"			"0"
+							"wide"			"150"
+							"tall"			"40"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		"-125-"
+							"textAlignment"	"center"	
+							"font"			"HealthAndAmmo"
+							"fgcolor_override"		"1 1 1 255"
+						}													
+						"Health_Warning_Button"
+						{
+							"ControlName"				"CExButton"
+							"FieldName"					"Health_Warning_Button"
+							"XPos"						"0"
+							"YPos"						"0"
+							"ZPos"						"5"
+							"Wide"						"f0"
+							"Tall"						"f0"
+							"Visible"					"1"
+							"Enabled"					"1"
+							"Font"						""
+							"Command"					"engine jp_hp_circle"
+							"LabelText"					""
+							"Sound_Depressed"			"UI/buttonclick.wav" 
+							"ProportionalToParent"		"1"
+							"ActionSignalLevel"			"6"
+
+							"PaintBackground"			"0"
+							"PaintBorder"				"1"
+
+							"border_default"			"NoBorder"
+							"border_armed"				"BorderSelectionGray"
+						}
+					}						
 				}
 			}
 		}

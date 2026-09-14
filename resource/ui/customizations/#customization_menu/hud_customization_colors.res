@@ -3642,7 +3642,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_shadow"
+							"Image"						"replay/thumbnails/hp/redteam2"
 						}
 						"Element_Name"
 						{
@@ -3725,7 +3725,7 @@
 							"Enabled"					"1"
 							"ProportionalToParent"		"1"
 							"ScaleImage"				"1"
-							"Image"						"replay/thumbnails/customizations/colors/color_number"
+							"Image"						"replay/thumbnails/hp/redteam2"
 						}
 						"Element_Name"
 						{
@@ -3885,12 +3885,12 @@
 							"ZPos"						"0"
 							"Wide"						"210"
 							"Tall"						"105"
-							"Visible"					"1"
+							"Visible"					"0"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
+						//	"Image"						"replay/thumbnails/customizations/fonts/font_tf2style"
 						}
 						"Style_Label"
 						{
@@ -3907,7 +3907,7 @@
 							"ProportionalToParent"		"1"
 							"AllCaps"					"1"
 							"Font"						"FontStorePrice"
-							"LabelText"					"#HudCustomization_MaxiHud_VGUI_Style1"
+							"LabelText"					"#HudCustomization_jofrehud_VGUI_Style1"
 							"TextAlignment"				"center"
 							"FGColor"					"Gray"
 							"PaintBackground"			"1"
@@ -3968,12 +3968,12 @@
 							"ZPos"						"0"
 							"Wide"						"210"
 							"Tall"						"105"
-							"Visible"					"1"
+							"Visible"					"0"
 							"Enabled"					"1"
 							"MouseInputEnabled"			"0"
 							"ScaleImage"				"1"
 							"ProportionalToParent"		"1"
-							"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
+						//	"Image"						"replay/thumbnails/customizations/fonts/font_vanilla"
 						}
 						"Style_Label"
 						{

@@ -32,7 +32,7 @@
 		//"		"0"
 		"paintbackground"	"1"
 		"Alpha"				"255"
-		"bgcolor_override"	"40 40 40 255"
+		"bgcolor_override"	"46 43 42 255"
 		border TrainingResultsBG
 	}
 	"Gradient"
@@ -44,7 +44,7 @@
 		"zpos"				"49"
 		"wide"				"f0"
 		"tall"				"21"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"image"				"gradient_pure_black"
 		"scaleImage"		"1"
@@ -81,8 +81,8 @@
 		"enabled"		"1"
 		"labelText"		"Press [ , ] to Change Team"
 		"textAlignment"		"center"
-		"font"				"TFFontSmall"
-		"fgcolor_override"		"Tanlight"
+		"font"				"Jofre8"
+		"fgcolor_override"		"237 227 202 255"
 	}
 				"Background"
 				{
@@ -129,8 +129,8 @@
 					"enabled"		"1"
 					"labelText"		"Spectate Next Target"
 					"textAlignment"		"west"
-					fgcolor White
-					"font"			"TFFontSmall"
+					fgcolor "237 227 202 255"
+					"font"			"Jofre8"
 				}
 
 				"Background"		{"wide"	"0"	}
@@ -162,8 +162,8 @@
 		"enabled"		"1"
 		"labelText"		"Spectate Previous Target"
 		"textAlignment"		"west"
-					fgcolor White
-					"font"			"TFFontSmall"
+					fgcolor "237 227 202 255"
+					"font"			"Jofre8"
 	}
 
 				"Background"		{"wide"	"0"	}
@@ -211,8 +211,8 @@
 		"visible"		"1"	
 		"enabled"		"1"
 		"labelText"		"Switch Camera Mode"
-					fgcolor White
-					"font"			"TFFontSmall"
+					fgcolor "237 227 202 255"
+					"font"			"Jofre8"
 	}
 
 				"Background"		{"wide"	"0"	}

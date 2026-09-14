@@ -11,6 +11,30 @@
 			"wide""32"
 			"tall""o1"
 			}		
+					"bg"
+					{
+					"ControlName""editablePanel"
+					"fieldName""bg"
+					"xpos""0"
+					"ypos""0"
+					"wide""f0"
+					"zpos" "1"
+					"tall""f0"
+		"bgcolor_override" "15 15 15 200"
+					}	
+			
+				"Test2"
+				{
+					"ControlName"	"ImagePanel"
+					"xpos"			"0"
+					"ypos"			"21"
+					"wide"			"f0"
+					"tall"			"p1"
+					"visible"		"1"
+					"proportionaltoparent"	"1"
+					"image"			"replay/thumbnails/hp/REFRACTblur"
+					"scaleImage"		"1"
+				}				
 	"MenuBG"
 	{
 		"visible"		"0"
@@ -45,14 +69,14 @@
 		"ypos"			"120"
 	"zpos"	"1010"
 		"wide"				"f0"
-		"tall"				"24"
+		"tall"				"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"AllCaps"			"1"
-		font itemfontnamelarge
+		font JofreBold26
 		textAlignment "center"
-		"fgcolor_override"	"yellow"
+		"fgcolor_override"	"235 226 202 255"
 		"bgcolor_override"	"0 0 0 0"
 				"proportionaltoparent"	"1"
 	
@@ -82,7 +106,7 @@
 	{
 		"ControlName"	"CTFRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ItemFontAttribSmallest"
+		"font"			"jofre8"
 		"xpos"			"c-147"
 		"ypos"			"r281"
 		"zpos"			"3"

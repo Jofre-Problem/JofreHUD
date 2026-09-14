@@ -1,1 +1,1 @@
-#base "../../../../../../cfg/maxihud/maxi_hitmarker_style.txt"
+#base "../../../../../../cfg/jofrehud/maxi_hitmarker_style.txt"

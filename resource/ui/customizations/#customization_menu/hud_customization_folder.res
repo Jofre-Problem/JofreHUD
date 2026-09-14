@@ -65,7 +65,7 @@
 				"Visible"								"1"
 				"Enabled"								"1"
 				"ProportionalToParent"					"1"
-				"LabelText"								"maxihud"
+				"LabelText"								"jofrehud"
 				"Font"									"HudFontGiantBold"
 				"TextAlignment"							"center"
 				"FGColor"								"White"

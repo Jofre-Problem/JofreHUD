@@ -1,0 +1,7 @@
+"x"{
+	"PlayerStatusHealthValue"
+	{
+		"font" "HealthAndAmmoOutline"
+	}
+
+}

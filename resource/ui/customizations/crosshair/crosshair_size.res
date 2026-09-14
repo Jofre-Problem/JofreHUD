@@ -1,1 +1,1 @@
-#base "../../../../../../cfg/maxihud/maxi_crosshair_size.txt"
+#base "../../../../../../cfg/jofrehud/maxi_crosshair_size.txt"

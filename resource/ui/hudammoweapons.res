@@ -1,4 +1,5 @@
 #base "../../../../cfg/jofrehud/jp_hp_bg_preset.txt"
+#base "../../../../cfg/jofrehud/jp_hp_frame.txt"
 #base "HudPlayerStatusFireSelect.res"
 "Resource/UI/HudAmmoWeapons.res"
 {
@@ -9,6 +10,14 @@
 		"xpos"	"999"
 		"visible"			"0"
 	}
+	"HealthDividerShadowHide"
+	{
+		"xpos"			"90"
+	}	
+	"HudHealthRefractCircle"
+	{
+		"xpos"			"90"
+	}	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"		"imagePanel"

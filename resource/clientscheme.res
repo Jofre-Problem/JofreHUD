@@ -1,4 +1,6 @@
+#base "clientscheme_fonts.res"
 #base "combinepanelscheme.res"
+
 Scheme
 {
 	"BitmapFontFiles"
