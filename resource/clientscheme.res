@@ -86,7 +86,7 @@ Scheme
 		"Developer"											"255 90 205 255"
 		"SelfMade"											"145 225 100 255"
 		"Customized"										"110 165 255 255"
-		"Strange"											"240 125 10 255"
+		"Strange"											"255 0 127 255"//"240 125 10 255"
 		"Completed"											"215 145 255 255"
 		"Haunted"											"0 230 120 255"
 		"Collectors"										"245 70 70 255"
@@ -209,7 +209,7 @@ Scheme
 		"QualityColorDeveloper"								"165 15 121 255"
 		"QualityColorSelfMade"								"112 176 74 255"
 		"QualityColorCustomized"							"71 98 145 255"
-		"QualityColorStrange"								"255 165 105 255"
+		"QualityColorStrange"								"255 0 127 255"//"255 165 105 255"
 		"QualityColorCompleted"								"134 80 172 255"
 		"QualityColorHaunted"								"56 243 171 255"
 		"QualityColorCollectors"							"170 0 0 255"
@@ -520,12 +520,14 @@ Scheme
 			}
 		}		
 
+
+
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"11"
+				"tall"			"8"
 				"weight"		"500"
 				
 				"antialias" 	"1"
@@ -536,7 +538,7 @@ Scheme
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"9"
+				"tall"			"8"
 				"weight"		"500"
 				
 				"antialias" 	"1"
@@ -563,6 +565,8 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+
 
 		TFFontSmall
 		{
@@ -901,7 +905,7 @@ Scheme
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"12"
+				"tall"			"10"
 				"wide" "500"
 				
 				"antialias" 	"1"
@@ -912,7 +916,7 @@ Scheme
 			"1"
 			{
 				"name"			"hwnjofre1"
-				"tall"			"15"
+				"tall"			"10"
 				"wide" "500"
 				
 				"antialias" 	"1"
@@ -1640,7 +1644,7 @@ Scheme
 			"1"
 			{
 				"name"	"hwnjofre1"
-				"tall"	"12"
+				"tall"	"9"
 				
 				
 				"antialias"	"1"

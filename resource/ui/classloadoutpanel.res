@@ -4,29 +4,27 @@
 #base "buymenu.res"
 "x"
 {
-	"classimageoutline2"
+	"classimageoutline3"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"classimageoutline2"
+		"ControlName"	"imagePanel"
+		"fieldName"		"classimageoutline3"
 		"xpos"			"10"
 		"ypos"			"22"
-		"zpos"			"6"
+		"zpos"			"141"
 		"wide"			"54"
-		"tall"			"51"
+		"tall"			"50"
 		"visible"		"1"
-		paintBackgroundtype "2"
-		"bgcolor_override" "0 0 0 1"
-		border "Black_Transparent_70"
+		scaleimage "1"
+		"image" "replay/thumbnails/eerie"
 	}		
-
 	"Removeline"
 	{
 		ControlName				EditablePanel
 		FieldName				"Removeline"
-		pin_to_sibling "classimageoutline2"
+		pin_to_sibling "classimageoutline3"
 			xpos					-6
 			ypos					-6
-			zpos					100
+			zpos					110
 			wide					42
 			tall					39
 			"border"		"noborder"
@@ -298,7 +296,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"Renogare12" 
+		"font"			"jofrebold8" 
 		"xpos"			"rs1-60"
 		"ypos"			"rs1"
 		"zpos"			"0"	
@@ -324,7 +322,7 @@
 		"ypos"			"-2"
 		"zpos"			"5000"
 		"fgcolor_override"	"27 27 27 255"
-		"bgcolor_override" "156 53 51 255"
+		"bgcolor_override" "156 51 126 255"
 		"wide"			"25"
 		"tall"			"16"
 		textinsety 2
@@ -344,7 +342,7 @@
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"16"
-		"fgcolor_override" "156 53 51 255"
+		"fgcolor_override" "156 51 126 255"
 
 		"wide"	"40"
 		"textinsetx"	"-2"
@@ -1482,7 +1480,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"mouse2label"
-			"font"			"Renogare12"
+			"font"			"jofrebold8"
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1545,7 +1543,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"shiftlabel"
-			"font"			"Renogare12"
+			"font"			"jofrebold8"
 			"labelText"		"Move"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1592,7 +1590,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"altlabel"
-			"font"			"Renogare12"
+			"font"			"jofrebold8"
 			"labelText"		"Rotate"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
@@ -1641,7 +1639,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"ctrllabel"
-			"font"			"Renogare12"
+			"font"			"jofrebold8"
 			"labelText"		"Light"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"

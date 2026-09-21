@@ -5,8 +5,8 @@
 		"fieldName"		"TeamColoredAmmoTextBG"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"		
+"teambg_2"		"replay/thumbnails/hp/redteam"
+		"teambg_3"		"replay/thumbnails/hp/bluteam2"		
 		"wide"			"123"
 		"tall"			"34"
 	}
@@ -21,8 +21,8 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/hp/cover"
 		"scaleImage"		"1"	
-		"teambg_2"		"replay/thumbnails/backpacktf/spectral_spectrum_30"
-		"teambg_3"		"replay/thumbnails/backpacktf/spectral_spectrum_blu_30"	
+"teambg_2"		"replay/thumbnails/hp/redteam"
+		"teambg_3"		"replay/thumbnails/hp/bluteam2"	
 	}	
 	"PlayerStatusHealthValue"
 	{

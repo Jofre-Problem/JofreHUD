@@ -27,7 +27,7 @@
 		"wide"			"p1"
 		"tall"			"490"
 		"visible"		"1"
-
+		"proportionaltoparent"	"1"
 
 		"items"
 		{
@@ -64,14 +64,14 @@
 	
 				"Test2"
 				{
-					"ControlName"	"ImagePanel"
+					"ControlName"	"ScalableImagePanel"
 					"xpos"			"0"
 					"ypos"			"0"
-					"wide"			"p1"
+					"wide"			"f0"
 					"tall"			"p1"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"scaleImage" "1"
+					"scaleImage" "0"
 					"image" "replay/thumbnails/menu/items_bg"
 					"fillcolor" "27 28 30 255"
 				}				

@@ -96,7 +96,7 @@ Button.DepressedTextColor "220 220 220 255"
 
 		FrameTitleBar.Font				"uibold"
 		FrameTitleBar.TextColor			"white"
-		FrameTitleBar.DisabledTextColor	"Black"
+		FrameTitleBar.DisabledTextColor	"147 147 147 255"
 
 		Frame.FocusTransitionEffectTime	"0.3"
 		Frame.TransitionEffectTime		"0.3"
@@ -133,7 +133,7 @@ Button.DepressedTextColor "220 220 220 255"
             "bordertype"                "scalable_image"
             "backgroundtype"            "0"
             "image"                     "replay/thumbnails/panels/source_border"
-            "color"                     "179 179 179 255"
+            "color"                     "145 30 139 255"
             "src_corner_height"         "6"
             "src_corner_width"          "6"
             "draw_corner_width"         "2"
@@ -245,6 +245,16 @@ Button.DepressedTextColor "220 220 220 255"
 				"antialias"	"1"
 			}
 		}		
+		"tf220"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				
+				"antialias"	"1"
+			}
+		}			
 		"product60"
 		{
 			"1"
@@ -440,7 +450,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"hwnjofre1"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"antialias" "1"
 			//	"yres" "0 10000"	//the tall determines the position the buttons of frame will be
@@ -671,5 +681,18 @@ Button.DepressedTextColor "220 220 220 255"
                 "range"                                             "0x0021 0x1EFF"
             }			
 		}
+		"tf24"
+		{
+			"font" "resource/tf2secondary.ttf"
+			"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}		
 	}	
 }	

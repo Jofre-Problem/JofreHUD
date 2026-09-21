@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\eerie"
+	"$vertexcolor" 1
+	
+	"$ignorez" 1
+	
+	"$translucent" 1
+	"Proxies" 
+	{ 
+		"AnimatedTexture" 
+		{ 
+			"animatedTextureVar" "$basetexture" 
+			"animatedTextureFrameNumVar" "$frame" 
+			"animatedTextureFrameRate" "15" 
+		}
+	}
+}

@@ -130,7 +130,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"timebg"
 		"ypos"					"0"
-	"fillcolor"				"204 84 84 255"
+	"fillcolor"				"253 148 255 255"	
 		"wide"	"158"
 		"tall"	"15"
 		"zpos"					"20"		
@@ -164,7 +164,7 @@
 			"mouseinputenabled" 0
 		//	"wide"			"10"
 			"tall"			"15"
-			"fgcolor"		"204 84 84 255"	
+			"fgcolor"		"253 148 255 255"	
 		"wide"	"30"
 		"textinsetx"	"-2"
 		"zpos"	"2001"	

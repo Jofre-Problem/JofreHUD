@@ -108,7 +108,7 @@
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"HudFontSmall"
+					"font"		"JofreBold12"
 					"fgcolor_override"		"ItemAttribLevel"
 					"textAlignment"		"north-west"
 					"labelText"		"%current_xp%"
@@ -128,7 +128,7 @@
 					"tall"		"f0"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"		"HudFontSmall"
+					"font"		"JofreBold12"
 					"fgcolor_override"		"ItemAttribLevel"
 					"textAlignment"		"east"
 					"labelText"		"%next_level_xp%"
@@ -186,7 +186,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"		"UpgradeSelectedBg"
+						"fgcolor_override"		"menu_accent"
 						"bgcolor_override"		"16 16 16 100"
 
 						if_mini

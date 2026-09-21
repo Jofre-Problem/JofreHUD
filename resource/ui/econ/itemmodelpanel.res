@@ -21,7 +21,7 @@
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
 		"text_ypos"			"5"
-		"text_forcesize" "0"
+		"text_forcesize" "2" // pin so text doesnt make large magically
 		"text_xpos"		"20"//"39"
 		"text_wide"		"300"
 		
