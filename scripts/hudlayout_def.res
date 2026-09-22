@@ -549,6 +549,8 @@
         "ypos"                      "0"
         "wide"                      "f0"
         "tall"                      "480"
+		"visible" "1"
+		"enabled" "1"
 	}
 
 	HudVoiceStatus
@@ -857,7 +859,7 @@
                 "fieldName"                                "HudHintDisplay"
                 "visible"                                "0"
                 "enabled"                                "1"
-                "xpos"                                        "cs-0.5"
+                "xpos"                                        "cs-0.5-90"
                 "ypos"                                        "c60"
                 "wide"                                        "420"
                 "tall"                                        "100"
@@ -921,9 +923,9 @@
 		"tall"	 "400"
 		"zpos" "1"
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"TextFont"				"MenuSmallestFont"
+		"ItemFont"				"MenuSmallestFont"
+		"ItemFontPulsing"		"MenuSmallestFont"
 	}		
 	HudCloseCaption
 	{

@@ -157,7 +157,7 @@
 
 			"Score"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"cautofittinglabel"
 				"fieldName"							"Score"
 				"xpos"								"cs-0.5"
 				"ypos"								"cs-0.5"
@@ -168,13 +168,29 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"HudFontSmallestBold"
-				"fgcolor"							"White"
+				"font"								"JofreBold14" // hp of hale
+				"fgcolor_override"							"White"
 				"proportionalToParent"				"1"
+
+							"fonts"
+				{
+					"0"
+					{
+						"font"	"JofreBold14" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"JofreBold12" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"JofreBold10" // TF2 Build 9
+					}
+				}				
 			}
 			"ScoreShadow"
 			{
-				"ControlName"						"CExLabel"
+				"ControlName"						"cautofittinglabel"
 				"fieldName"							"ScoreShadow"
 				"xpos"								"-1"
 				"ypos"								"-1"
@@ -185,10 +201,25 @@
 				"enabled"							"1"
 				"textAlignment"						"center"
 				"labelText"							"%score%"
-				"font"								"HudFontSmallestBold"
-				"fgcolor"							"Black"
+				"font"								"JofreBold14" // hp of hale
+				"fgcolor_override"							"Black"
 				"proportionalToParent"				"1"
 				"pin_to_sibling"					"Score"
+							"fonts"
+				{
+					"0"
+					{
+						"font"	"JofreBold14" // TF2 Build 11
+					}
+					"1"
+					{
+						"font"	"JofreBold12" // TF2 Build 10
+					}
+					"2"
+					{
+						"font"	"JofreBold10" // TF2 Build 9
+					}
+				}					
 			}
 		}
 		"RedScoreValueContainer"

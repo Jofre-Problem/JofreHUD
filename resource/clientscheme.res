@@ -70,7 +70,7 @@ Scheme
 		"White"												"255 255 255 255"
 		"Black"												"0 0 0 255"
 
-		"HudBlack"										"66 63 61 255"
+		"HudBlack"										"23 23 23 205"
 		"TransparentBlack"									"0 0 0 200"
 		"TransparentLightBlack"								"0 0 0 100"
 		"LabelTransparent"									"0 0 0 100"
@@ -336,9 +336,6 @@ Scheme
 		ReplayBrowser.BgColor					"Black"		
 		Replay.RenderDialog.BgColor							"Black"
 
-
-
-		"MenuBoxBg"											"73 65 65 220"
 		ReplayBrowser.BgColor								"DarkBrown"
 		ReplayBrowser.Details.TitleEdit.Carat.FgColor		"ItemAttribPositive"
 		ReplayBrowser.Button.ArmedBgColor					"ItemAttribPositive"
@@ -365,8 +362,9 @@ Scheme
 		Econ.Button.PresetArmedColorBg						"TFOrange"
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
 
-		"ItemColor"											"255 167 42 200"
-		"MenuColor"											"White"
+		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"								"255 255 255 255"
+		"MenuBoxBg"								"HudBlack"
 		"SelectionNumberFg"									"White"
 		"SelectionTextFg"									"White"
 		"SelectionEmptyBoxBg" 								"0 0 0 80"
@@ -881,12 +879,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"hwnjofre1"
-				"tall"		"11"
-				"weight"	"500"
-				
-				"antialias" 	"1"
-				"dropshadow"	"1"
+				"name"			"TF2 Secondary"
+				"tall"			"11"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+			"2"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"11"
+				"range"			"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"HudFontSmallestBold"
@@ -1234,6 +1237,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
 		"FontStoreOriginalPrice"
 		{
 			"1"
@@ -1580,7 +1584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"hwnjofre1"
+				"name"	"TF2 Secondary"
 				"tall"	"8"
 				
 				////"weight"	"300"

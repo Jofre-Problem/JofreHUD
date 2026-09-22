@@ -14,6 +14,7 @@
 		"PaintBackgroundType"	"2"
 		"usetitlesafe"			"1"
 		"bgcolor_override"		"black"
+		"alpha" "120"
 	}
 
 	ChatInputLine

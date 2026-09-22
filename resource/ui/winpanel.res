@@ -1,9 +1,10 @@
-#base "ui2/winpanelbase.res" 
+//#base "ui2/winpanelbase.res" 
 #base "CSAchievementsDialog.res"
-"Resource/UI/winpanel.res"
-{
-    "TeamScoresPanel"
-    {		"ControlName"		"EditablePanel"
+#base "_tf2hud/winpanel.res"
+"x"
+{   "TeamScoresPanel"
+    {		
+	"ControlName"		"EditablePanel"
 		"fieldName"		"TeamScoresPanel"
         "xpos"              "0"
         "ypos"              "rs1"
@@ -127,7 +128,6 @@
             "enabled"                   "0"
         }
     }
-
     "WinningTeamLabel"
 		{
 			"ControlName"		"cexlabel"
@@ -142,7 +142,7 @@
       	"labelText"		"%WinningTeamLabel%"  
 		"bgcolor_override"	"30 30 30 255"
     }
-    "AdvancingTeamLabel"
+   "AdvancingTeamLabel"
 		{
 			"ControlName"		"cexlabel"
 			"fieldName"		"AdvancingTeamLabel"
@@ -155,8 +155,7 @@
         "labelText"		"%AdvancingTeamLabel%"
         "font"                      "EconFontMedium"
     }
-
-    "PlayersBG"
+   "PlayersBG"
     {
         "ControlName"               "EditablePanel"
         "fieldName"                 "PlayersBG"
@@ -206,10 +205,8 @@
         "wide"                      "p0.25"
         "tall"                      "20"
         "bgcolor_override"          "Blank"
-    }
-
-
-    "Player1Line"
+    }	
+   "Player1Line"
     {
         "ControlName"               "ImagePanel"
         "fieldName"                 "Player1Line"
@@ -277,8 +274,7 @@
         "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
-
-    "Player1RatingLabel"
+   "Player1RatingLabel"
     {
         "ControlName"               "CExLabel"
         "fieldName"                 "Player1RatingLabel"
@@ -346,8 +342,7 @@
         "pin_corner_to_sibling"     "PIN_BOTTOMLEFT"
         "pin_to_sibling_corner"     "PIN_TOPLEFT"
     }
-
-    // P1
+   // P1
      "Player1Avatar"
     {
 		"ControlName"		"CAvatarImagePanel"
@@ -364,8 +359,7 @@
 		"scaleImage"		"1"	    
                "pin_to_sibling"            "Player1BG"
 
-    }   
-    "Player1Name"
+    }      "Player1Name"
     {
   		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"      
@@ -393,34 +387,28 @@
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
-
-    "Player1Badge"
-    {
-        "xpos"                      "9999"
-        "ypos"                      "r0"
-        "wide"                      "0"
-        "tall"                      "0"
-        "visible"                   "0"
-        "enabled"                   "0"
-    }
-
-    "Player1Class"
-    {
-  		"ControlName"		"CExLabel"
-		"fieldName"		"Player1Score"  
+	"Player1Class"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"Player1Class"
         "xpos"                      "-25"
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
         "font"                    "ItemFontAttribLarge"
-
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		""
+		"textAlignment"		"west"
+		"dulltext"		"0"
+		"brighttext"		"0"
         "pin_to_sibling"            "Player1BG"
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
-        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
-    }
-
-    // P2
-    "Player2Name"
+        "pin_to_sibling_corner"     "PIN_TOPRIGHT"		
+	}
+   "Player2Name"
     {
   		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"  
@@ -448,8 +436,7 @@
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
-
-    "Player2Badge"
+  "Player2Badge"
     {
         "xpos"                      "9999"
         "ypos"                      "9999"
@@ -458,7 +445,8 @@
         "visible"                   "0"
         "enabled"                   "0"
     }
-    "Player2Avatar"
+
+   "Player2Avatar"
     {
      "ControlName"		"CAvatarImagePanel"
         fieldName player2avatar
@@ -583,7 +571,6 @@
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
-
     "KillStreakPlayer1Badge"
     {
         "xpos"                      "9999"
@@ -620,30 +607,17 @@
         "pin_corner_to_sibling"     "PIN_TOPRIGHT"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
     }
-
-    // DISABLED
-
-    "WinPanelBGBorder"
-    {  		
-        "ControlName"		"panel"
-		"fieldName"		"WinPanelBGBorder"  
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
+	"ShadedBar"
+    {  	
         "visible"                   "0"
-        "enabled"                   "0"
+    }
+	 "WinPanelBGBorder"
+    {  	
+        "visible"                   "0"
     }
     "WinningTeamLabelDropshadow"
     {  		
-        "ControlName"		"panel"
-		"fieldName"		"WinningTeamLabelDropshadow"  
-        "xpos"                      "9999"
-        "ypos"                      "9999"
-        "wide"                      "0"
-        "tall"                      "0"
         "visible"                   "0"
-        "enabled"                   "0"
     }
     "AdvancingTeamLabelDropshadow"
     {  		
@@ -663,8 +637,15 @@
     "DetailsLabel"
     {  		
         "visible"                   "0"
-    }
-   
+    }	
+	"HorizontalLine"
+	{
+	 "visible"                   "0"
+	}	
+	"HorizontalLine2"
+	{
+	 "visible"                   "0"
+	}
     "TopPlayersLabel"
     {  		
         "ControlName"		"panel"
