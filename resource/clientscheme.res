@@ -162,7 +162,7 @@ Scheme
 		"HudTimerProgressInActive"							"50 50 50 255"
 		"HudTimerProgressWarning"							"240 30 30 255"
 
-		"HudTrainingHint"									"212 160 23 255"
+		"HudTrainingHint"									"170 20 220 255"//"212 160 23 255"
 
 		"TanDark"											"150 150 150 255"
 		"TanDarker"											"15 15 15 255"
@@ -372,7 +372,7 @@ Scheme
 		"SelectionSelectedBoxBg"							"0 0 0 190"
 
 		"HintMessageFg"										"227 228 230 255"
-		"HintMessageBg" 									"0 0 0 60"
+		"HintMessageBg" 									"HudBlack"
 
 		"ProgressBarFg"										"255 30 13 255"
 
@@ -949,12 +949,13 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1" [$LINUX]
-				"name"		"opensanskillfeed" [$WINDOWS]
+				"name"		"TF2 Secondary" [$WINDOWS] 
+				//"opensanskillfeed" 
 				"weight"	"500" [$LINUX]
 				"weight"	"0" [$WINDOWS]
 				"antialias" "1"
 				"tall" "14" [$LINUX]
-				"tall"	"16" [$WINDOWS]
+				"tall"	"10" [$WINDOWS]
 				"additive"	"0"
 			}
 		}

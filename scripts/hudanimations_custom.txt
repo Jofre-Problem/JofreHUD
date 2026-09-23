@@ -351,6 +351,8 @@ event MenuClose
 	Animate HudMenu ItemColor		"0 0 0 0" Linear 0.0 1
 	RunEvent	HealthAmmoAnimateEnd 0.0
 		StopEvent	MenuOpen 0.0 	
+
+		Animate HudMessage 	"yPos"		"0"		Linear 0.0 2.0	
 }
 
 event MenuOpen
@@ -362,6 +364,9 @@ event MenuOpen
 	Animate HudMenu Alpha 		"255"		Linear 0.05 0.1
 	RunEvent TestTestingCmd 0.0
 
+	Animate HudChat Alpha 		"120"		Linear 0.05 1.0
+
+	Animate HudMessage 	"yPos"		"-30"		Linear 0.0 0.0
 
 	Animate HudMenu yPos		"-30"		Linear 0.0 0.0
 	Animate HudMenu xPos		"0"		Linear 0.0 0.0	

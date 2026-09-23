@@ -866,6 +866,7 @@
                 "HintSize"                                "1"
                 "text_xpos"                                "8"
                 "text_ypos"                                "8"
+				"bgcolor_override" "blank"
                 "center_x"                                "0"        // center text horizontally
                 "center_y"                                "-1"        // align text on the bottom
         }        
