@@ -40,7 +40,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"18"
+		"xpos"					"20"
 		"ypos"					"0"
 		"zpos"					"3"
 		"wide"					"50"
@@ -50,7 +50,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%" // "killstreak_count_spaced"
 		"textAlignment"			"west"
-		"font"					"itemfontnamelarger"
+		"font"					"JofreBold16"
 		"fgcolor"				"245 245 245 255"
 	}
 

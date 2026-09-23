@@ -64,7 +64,8 @@
 	
 				"Test2"
 				{
-					"ControlName"	"ScalableImagePanel"
+				//	"ControlName"	"ScalableImagePanel"
+				"ControlName" "ImagePanel"
 					"xpos"			"0"
 					"ypos"			"0"
 					"wide"			"f0"
@@ -72,8 +73,8 @@
 					"visible"		"1"
 					"proportionaltoparent"	"1"
 					"scaleImage" "0"
-					"image" "replay/thumbnails/menu/items_bg"
-					"fillcolor" "27 28 30 255"
+				//	"image" "replay/thumbnails/menu/items_bg"
+					"fillcolor" "77 56 72 255"
 				}				
 			}				
 			"1"
@@ -116,7 +117,7 @@
 					"tall"			"490"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"fillcolor" "47 47 47 255"
+					"fillcolor" "20 20 20  255"
 				}				
 			}
 			"2"

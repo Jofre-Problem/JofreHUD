@@ -1,6 +1,10 @@
-
-"Resource/UI/arenawinpanel.res" 
+#base "_tf2hud/hudarenawinpanel.res"
+"x" 
 {
+	"ShadedBar"
+	{
+		"visible"		"0"
+	}
 	"ArenaWinPanelScores"
 	{
 		"ControlName"		"EditablePanel"
@@ -12,13 +16,13 @@
 	     "bgcolor_override"  "0 0 0 204"
 		"BlueScoreBG"
 		{
-		"ControlName"		"Panel"
+		
 		"fieldName"		"BlueScoreBG"	
 			"visible"		"0"
 		}
 		"RedScoreBG"
 		{
-		"ControlName"		"Panel"
+		
 		"fieldName"		"RedScoreBG"
 			"visible"		"0"
 		}
@@ -90,19 +94,19 @@
             "pin_to_sibling_corner"     "PIN_TOPRIGHT"
         }
 		"BlueTeamScoreDropshadow"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"BlueTeamScoreDropshadow"	
 			"visible"		"0"
 		}							
 		"RedTeamScoreDropshadow"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"RedTeamScoreDropshadow"	
 			"visible"		"0"
 		}			
 
 	
 		"ArenaStreaksBG"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"ArenaStreaksBG"	
 			visible 0
 
@@ -125,10 +129,8 @@
 			"textAlignment"		"Center"
 		}
 	}
-
 	"WinPanelBG"
-        {		"ControlName"		"panel"
-		"fieldName"		"WinPanelBG"
+        {
 		"visible"		"0"
 	}
    "WinningTeamLabel"
@@ -145,12 +147,12 @@
     }
 
 	"WinningTeamLabelDropshadow"
-        {		"ControlName"		"panel"
-		"fieldName"		"WinningTeamLabelDropshadow"	
+        {
 	"visible"		"0"
 	}
-
-	"LosingTeamLabel"
+	
+	
+		"LosingTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"LosingTeamLabel"
@@ -167,27 +169,27 @@
 		"fgcolor_override"	"ItemAttribLevel"
 	}
 	"LosingTeamLabelDropshadow"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"LosingTeamLabelDropshadow"		
 	"visible"		"0"
 	}
 	"WinReasonLabel"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"WinReasonLabel"		
 	"visible"		"0"
 	}
 	"DetailsLabel"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"DetailsLabel"		
 	"visible"		"0"
 	}
 
 	"TopPlayersLabel"
-        {		"ControlName"		"panel"
+        {		
 		"fieldName"		"TopPlayersLabel"	
 "visible"		"0"
 	}
-	"DamageThisRoundLabel"
+		"DamageThisRoundLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageThisRoundLabel"
@@ -239,7 +241,7 @@
         "ypos"                      "rs1-40"
         "wide"                      "f0"
         "tall"                      "20"
-		zpos 9999
+		zpos -10
         "bgcolor_override"          "30 30 30 200"
     }
 
@@ -251,6 +253,7 @@
         "ypos"                      "rs1-40"
         "wide"                      "p0.25"
         "tall"                      "20"
+		zpos -9
         "bgcolor_override"          "0 0 0 51"
     }
     "Player2BG"
@@ -271,6 +274,7 @@
         "ypos"                      "rs1-40"
         "wide"                      "p0.25"
         "tall"                      "20"
+		zpos -9
         "bgcolor_override"          "0 0 0 51"
     }
     "Player4BG"
@@ -281,6 +285,7 @@
         "ypos"                      "rs1-40"
         "wide"                      "p0.25"
         "tall"                      "20"
+		zpos -9
         "bgcolor_override"          "Blank"
     }
 
@@ -428,18 +433,20 @@
 			"fieldName"		"Player1Avatar"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"20"
+			"tall"			"o1"
+			"zpos" "1100"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"pin_to_sibling" "player1bg"
 		}
     "Player1Name"
     {	"ControlName"	"CAutoFittingLabel"
 	fieldName player1name
-        "xpos"                      "-5"
+        "xpos"                      "-15"
         "ypos"                      "0"
         "wide"                      "40"
         "tall"                      "20"
@@ -508,21 +515,22 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"
-			"xpos"			"21"
-			"ypos"			"163"
-			"wide"			"14"
-			"tall"			"14"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"pin_to_sibling" "player2bg"
 		}
   "Player2Name"
 	{	
 		"ControlName"		"cexlabel"
 		"fieldName"		"Player2Name"
-        "xpos"                      "-5"
+        "xpos"                      "-15"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -590,21 +598,22 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player3Avatar"
-			"xpos"			"21"
-			"ypos"			"185"
-			"wide"			"14"
-			"tall"			"14"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"pin_to_sibling" "player3bg"
 		}
 		"Player3Name"
 	{	
 		"ControlName"		"cexlabel"
 		"fieldName"		"Player3Name"
-        "xpos"                      "-5"
+        "xpos"                      "-15"
         "ypos"                      "0"
         "wide"                      "f45"
         "tall"                      "20"
@@ -672,7 +681,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"0"
+		"tall"			"20"
 		"visible"		"1"
 		"zpos"			"3"
 
@@ -778,15 +787,16 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player2Avatar"
-			"xpos"			"21"
-			"ypos"			"163"
-			"wide"			"14"
-			"tall"			"14"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"28"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"pin_to_sibling" "player2bg"
 		}
 		"Player2Name"
 		{	
@@ -876,15 +886,16 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"Player3Avatar"
-			"xpos"			"21"
-			"ypos"			"185"
-			"wide"			"14"
-			"tall"			"14"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"28"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"		"1"	
 			"color_outline"		"52 48 45 255"
+			"pin_to_sibling" "player3bg"
 		}
 		"Player3Name"
 		{	

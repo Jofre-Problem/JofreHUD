@@ -1484,7 +1484,7 @@
 			"labelText"		"Zoom"//"%kills%"
 			"textAlignment"		"west"
 			"xpos" 			"5"
-			"ypos"			"0"
+			"ypos"			"-1"
 			"zpos"			"300"
 			"wide"			"40"
 			"tall"			"10"

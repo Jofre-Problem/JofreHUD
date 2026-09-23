@@ -30,7 +30,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
-				"font"			"ItemFontAttribSmallv2"
+				"font"			"JofreBold10"
 				"textAlignment"	"center"
 
 				"proportionaltoparent"	"1"
@@ -262,7 +262,7 @@
 				"labelText"			">"
 				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
-				"font"			"ItemFontAttribSmallv2"
+				"font"			"JofreBold10"
 				"textAlignment"	"center"
 			
 				"proportionaltoparent"	"1"
@@ -295,7 +295,7 @@
 				"labelText"			"<"
 				"bgcolor_override"	"TransparentBlack"
 				"fgcolor"		"White"
-				"font"			"ItemFontAttribSmallv2"
+				"font"			"JofreBold10"
 				"textAlignment"	"center"
 				
 				"proportionaltoparent"	"1"
@@ -336,7 +336,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Store Selected: "
 					"textAlignment"	"east"
 					"xpos"			"10"
@@ -352,7 +352,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore2"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Backpack.TF"
 					"textAlignment"	"west"
 					"xpos"			"210"
@@ -1160,7 +1160,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Store Selected: "
 					"textAlignment"	"east"
 					"xpos"			"10"
@@ -1176,7 +1176,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore2"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Marketplace.TF"
 					"textAlignment"	"west"
 					"xpos"			"210"
@@ -1986,7 +1986,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Store Selected: "
 					"textAlignment"	"east"
 					"xpos"			"10"
@@ -2002,7 +2002,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore2"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Steam Market"
 					"textAlignment"	"west"
 					"xpos"			"210"
@@ -2810,7 +2810,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		"Store Selected: "
 					"textAlignment"	"east"
 					"xpos"			"10"
@@ -2826,7 +2826,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore2"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 				//	"labelText"		"Liquid"
 					"labelText"		"MannCo Store"
 					"textAlignment"	"west"
@@ -2845,7 +2845,7 @@
 
 					"ControlName"	"CExLabel"
 					"fieldName"		"yourstore3"
-					"font"			"itemfontattribsmallv2"
+					"font"			"JofreBold10"
 					"labelText"		".TF"
 					"textAlignment"	"west"
 					"xpos"			"248"

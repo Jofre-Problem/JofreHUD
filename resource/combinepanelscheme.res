@@ -92,7 +92,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"OffWhite"
 
 		Menu.TextColor					"black"
-		Menu.BgColor					"160 160 160 64"
+		Menu.BgColor					"160 160 160 255"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"DarkGrey"
 		Menu.TextInset					"6"
@@ -132,7 +132,7 @@ Scheme
 		SectionedListPanel.DividerColor		"White"
 		SectionedListPanel.TextColor		"White"
 		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"TransparentBlack"
+		SectionedListPanel.BgColor			"64 64 64 255"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"DarkGrey"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"White"
