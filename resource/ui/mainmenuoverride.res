@@ -12,6 +12,8 @@
 
     #base "../gamelogo.res"
     #base "matchmakingtooltip.res"
+
+	#base "ui2/leadbg.res"
 "j"
 {	
 "Safemode"

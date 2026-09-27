@@ -949,13 +949,13 @@ Scheme
 			"1"
 			{
 				"name"		"hwnjofre1" [$LINUX]
-				"name"		"TF2 Secondary" [$WINDOWS] 
+				"name"		"TF2 Build" [$WINDOWS] 
 				//"opensanskillfeed" 
 				"weight"	"500" [$LINUX]
 				"weight"	"0" [$WINDOWS]
 				"antialias" "1"
 				"tall" "14" [$LINUX]
-				"tall"	"10" [$WINDOWS]
+				"tall"	"15" [$WINDOWS]
 				"additive"	"0"
 			}
 		}

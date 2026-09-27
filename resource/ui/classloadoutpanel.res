@@ -1,9 +1,10 @@
 
 
 #base "ui2/bgv2.res"
+//	#base "ui2/leadbg.res"
 #base "buymenu.res"
 "x"
-{
+{		
 	"classimageoutline3"
 	{
 		"ControlName"	"imagePanel"

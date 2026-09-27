@@ -85,7 +85,7 @@
 
         "BlueScoreBG"
 		{
-			"ControlName"		"Panel"
+			"ControlName"		"editablePanel"
 			"fieldName"		"BlueScoreBG"
             "xpos"                      "9999"
             "ypos"                      "9999"
@@ -96,7 +96,7 @@
         }
         "RedScoreBG"
 		{
-			"ControlName"		"Panel"
+			"ControlName"		"editablePanel"
 			"fieldName"		"RedScoreBG"
             "xpos"                      "9999"
             "ypos"                      "9999"
@@ -107,7 +107,7 @@
         }
         "BlueTeamScoreDropshadow"
 		{
-			"ControlName"		"Panel"
+			"ControlName"		"editablePanel"
 			"fieldName"		"BlueTeamScoreDropshadow"
             "xpos"                      "9999"
             "ypos"                      "9999"
@@ -118,7 +118,7 @@
         }
         "RedTeamScoreDropshadow"
 		{
-			"ControlName"		"Panel"
+			"ControlName"		"editablePanel"
 			"fieldName"		"RedTeamScoreDropshadow"
             "xpos"                      "9999"
             "ypos"                      "9999"
@@ -621,7 +621,7 @@
     }
     "AdvancingTeamLabelDropshadow"
     {  		
-        "ControlName"		"panel"
+        "ControlName"		"editablePanel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"  
         "xpos"                      "9999"
         "ypos"                      "9999"
@@ -648,7 +648,7 @@
 	}
     "TopPlayersLabel"
     {  		
-        "ControlName"		"panel"
+        "ControlName"		"editablePanel"
 		"fieldName"		"TopPlayersLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
@@ -659,7 +659,7 @@
     }
     "PointsThisRoundLabel"
     {  		
-        "ControlName"		"panel"
+        "ControlName"		"editablePanel"
 		"fieldName"		"PointsThisRoundLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
@@ -670,7 +670,7 @@
     }
     "KillStreakLeaderLabel"
     {  		
-        "ControlName"		"panel"
+        "ControlName"		"editablePanel"
 		"fieldName"		"KillStreakLeaderLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"
@@ -681,7 +681,7 @@
     }
     "KillStreakMaxCountLabel"
     {  		
-        "ControlName"		"panel"
+        "ControlName"		"editablePanel"
 		"fieldName"		"KillStreakMaxCountLabel"  
         "xpos"                      "9999"
         "ypos"                      "9999"

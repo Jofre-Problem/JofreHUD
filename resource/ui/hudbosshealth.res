@@ -27,21 +27,6 @@
 		"bgcolor_override"	"0 0 0 180"	
 	}
 	
-	"Gradient"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Gradient"
-		"xpos"				"0"
-		"ypos"				"16"
-		"zpos"				"49"
-		"wide"				"f0"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"gradient_pure_black"
-		"scaleImage"		"1"
-	}
-	
 	"Border"
 	{
 		"ControlName"	"EditablePanel"
@@ -84,7 +69,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			//"	"0"
-			"image"			"../hud/halloween_bar"
+			"image"			"replay/thumbnails/backpacktf/chromatic2_30"
 			"scaleImage"	"1"		
 			"drawcolor"		"200 0 200 255"
 		}

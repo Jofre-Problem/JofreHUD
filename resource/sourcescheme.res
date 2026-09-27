@@ -356,8 +356,8 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"				"hwnjofre1"
-				"tall"		"12"
+				"name"				"TF2 Secondary"
+				"tall"		"8"
 
 				"wide" "800"
 				"antialias" "1"

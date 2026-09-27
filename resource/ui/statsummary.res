@@ -1,3 +1,4 @@
+#base "ui2/leadbg.res"
 #base "ui2/tank_gif.res"
 #base "statsummary_embedded.res"
 "Resource/UI/StatSummary.res"
@@ -13,6 +14,10 @@
 		"tall"			"480"
 		"visible"		"1"
 	}
+	"backgroundeffect"
+	{
+		"zpos"		"0"
+	}	
 	"OnYourWayLabel"
 	{
 		"visible"		"0"
@@ -54,16 +59,6 @@
 					"image""replay/thumbnails/spray_24"
 					"scaleImage""1"
 					}		}	
-		"defbg"
-		{
-					"ControlName"	"ScalableImagePanel"
-				"fieldName"		"defbg"
-			"zpos"	"997"
-			"wide""f0"
-			"tall""480"
-			"bgcolor_override"	"16 16 16 255"
-			//"image""../console/background_upward_widescreen"
-		}		
 		"1_image"
 		{
 					"ControlName"			"ImagePanel"
@@ -85,7 +80,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"paintbackground"	"1"
-				"bgcolor_override"	"16 16 16 255"
+				"bgcolor_override"	"16 16 16 0"
 			}
 		"BG2"
 			{
