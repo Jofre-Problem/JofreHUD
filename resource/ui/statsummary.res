@@ -75,12 +75,12 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"BG4"
 				"xpos"			"0"
-					"zpos"	"999"
+					"zpos"	"-999"
 				"ypos"			"0"
 				"wide"			"f0"
 				"tall"			"f0"
 				"paintbackground"	"1"
-				"bgcolor_override"	"16 16 16 0"
+				"bgcolor_override"	"16 16 16 250"
 			}
 		"BG2"
 			{
