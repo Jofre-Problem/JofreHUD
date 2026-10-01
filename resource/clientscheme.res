@@ -372,7 +372,7 @@ Scheme
 		"SelectionSelectedBoxBg"							"0 0 0 190"
 
 		"HintMessageFg"										"227 228 230 255"
-		"HintMessageBg" 									"HudBlack"
+		"HintMessageBg" 									"77 0 56 255"
 
 		"ProgressBarFg"										"255 30 13 255"
 

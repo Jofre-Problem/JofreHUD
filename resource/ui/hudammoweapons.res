@@ -66,7 +66,7 @@
 		"fieldName"		"border2"
 		"xpos"		"89"
 		"ypos"		"34"
-		zpos 9999
+		zpos 0
 		"wide"		"85"
 		"tall"		"2" 
 		
