@@ -28,7 +28,7 @@
 		"zpos"			"4"
 		"textinsetx"	"5"
 		"font"			"AchievementTracker_Name"
-		"textAlignment"		"north-west"
+		"textAlignment"		"east"
 	}
 	"AchievementNameGlow"
 	{
@@ -43,7 +43,7 @@
 		"fgcolor_override"		"235 226 202 255"
 		"font"			"AchievementTracker_NameGlow"
 		"textinsetx"	"5"
-		"textAlignment"		"north-west"
+		"textAlignment"		"east"
 	}
 	
 	"AchievementDesc"
@@ -60,7 +60,7 @@
 		"fgcolor_override"		"235 226 202 255"
 		"font"			"AchievementTracker_Desc"
 		"wrap"			"1"
-		"TextAlignment"		"north-west"
+		"TextAlignment"		"east"
 	}
 	
 	"ProgressBarBG"
