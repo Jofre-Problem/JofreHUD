@@ -1,4 +1,5 @@
 #base "cyclingadcontainer.res"
+#base "ui2/bgv2.res"
 "Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"
@@ -80,22 +81,7 @@
 		"enabled"		"1"
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
-	}
-				"Test2"
-				{
-					"ControlName"	"ImagePanel"
-					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"p1"
-					"tall"			"p1"
-					"visible"		"1"
-					"zpos" "-5"
- 					"proportionaltoparent"	"1"
-					"scaleImage" "1"
-					"image" "replay/thumbnails/menu/items_bg"
-					"fillcolor" "27 28 30 255"
-					"mouseinputenabled" 0
-				}			
+	}			
 		
 	"ItemsFoundLabel"
 	{
