@@ -31,7 +31,7 @@
 					"ypos""rs1-36"
 					"wide""280"
 					"tall""o1"
-					
+					visible 0
 					zpos 2000
 					//"image""replay/thumbnails/spray"
 					"scaleImage""1"
@@ -94,7 +94,18 @@
 				"paintbackground"	"1"
 				"bgcolor_override"	"4 4 3 255"
 			}
-
+		"BG2a"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"BG2a"
+				"xpos"			"0"
+					"zpos"	"-5"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"paintbackground"	"1"
+				"bgcolor_override"	"hudblack"
+			}
 			"tank_gif"
 			{
 			"xpos""cs-0.5"

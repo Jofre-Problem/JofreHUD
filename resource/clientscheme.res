@@ -209,7 +209,7 @@ Scheme
 		"QualityColorDeveloper"								"165 15 121 255"
 		"QualityColorSelfMade"								"112 176 74 255"
 		"QualityColorCustomized"							"71 98 145 255"
-		"QualityColorStrange"								"255 0 127 255"//"255 165 105 255"
+		"QualityColorStrange"								"255 165 105 255"
 		"QualityColorCompleted"								"134 80 172 255"
 		"QualityColorHaunted"								"56 243 171 255"
 		"QualityColorCollectors"							"170 0 0 255"
@@ -406,11 +406,11 @@ Scheme
 		}			
 		"HudHintText"
 		{
-			"1" { "name" "hwnjofre1" "tall" "11" "yres" "480 599" "antialias" "1" }
-			"2" { "name" "hwnjofre1" "tall" "11" "yres" "600 767" "antialias" "1" }
-			"3" { "name" "hwnjofre1" "tall" "13" "yres" "768 1023" "antialias" "1" }
-			"4" { "name" "hwnjofre1" "tall" "19" "yres" "1024 1199" "antialias" "1" }
-			"5" { "name"  "hwnjofre1" "tall" "9" "antialias" "1" }
+			"1" { "name" "tf2 secondary" "tall" "11" "yres" "480 599" "antialias" "1" }
+			"2" { "name" "tf2 secondary" "tall" "11" "yres" "600 767" "antialias" "1" }
+			"3" { "name" "tf2 secondary" "tall" "13" "yres" "768 1023" "antialias" "1" }
+			"4" { "name" "tf2 secondary" "tall" "19" "yres" "1024 1199" "antialias" "1" }
+			"5" { "name"  "tf2 secondary" "tall" "9" "antialias" "1" }
 		}
 		"DefaultVerySmall"		//pin bruh font used on vgui build mode
 		{

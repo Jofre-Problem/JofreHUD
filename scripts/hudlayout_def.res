@@ -292,7 +292,7 @@
 		"CornerRadius"	  "6"
 		"RightJustify"	  "1"
 				
-		"TextFont"		"itemfontnamesmallest"
+		"TextFont"		"itemfontnamesmallest" // "jofre8"//
 		
 		"TeamBlue"		"13 117 190 255"
 		"TeamRed"		"190 45 57 255"

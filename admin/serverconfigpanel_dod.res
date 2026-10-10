@@ -1,0 +1,1 @@
+#base	"serverconfigpanel_valve.res"

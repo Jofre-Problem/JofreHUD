@@ -115,7 +115,7 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"DarkGrey"
 
-		ScrollBar.Wide					11
+		ScrollBar.Wide					15
 
 		ScrollBarButton.FgColor				"White"
 		ScrollBarButton.BgColor				"Blank"
@@ -132,7 +132,7 @@ Scheme
 		SectionedListPanel.DividerColor		"White"
 		SectionedListPanel.TextColor		"White"
 		SectionedListPanel.BrightTextColor	"White"
-		SectionedListPanel.BgColor			"64 64 64 255"
+		SectionedListPanel.BgColor			"Black"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"DarkGrey"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"White"

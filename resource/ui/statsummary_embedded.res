@@ -1404,7 +1404,7 @@
 		"ypos"			"310"
 		"zpos"			"6"
 		"wide"			"90"
-		"tall"			"15"
+		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_NextTip"
