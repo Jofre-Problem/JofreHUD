@@ -450,7 +450,7 @@ Button.DepressedTextColor "220 220 220 255"
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"block"
 				"tall"		"18"
 				"antialias" "1"
 			//	"yres" "0 10000"	//the tall determines the position the buttons of frame will be
@@ -693,6 +693,19 @@ Button.DepressedTextColor "220 220 220 255"
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}		
+		}
+		"bbbb"
+		{
+			"font" "fonts/block.otf"
+			"name" "block"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}				
 	}	
 }	

@@ -21,6 +21,18 @@
 		//
 		"Default"		"0"
 	}
+	"Gamma"
+	{
+		"visible"		"0"
+	}	
+	"imagepanel1"
+	{
+		"visible"		"0"
+	}		
+	"gammaentry"
+	{
+		"visible"		"0"
+	}		
 	"Resolution"
 	{
 		"ControlName"		"ComboBox"
@@ -170,6 +182,8 @@
 	}
 	"Label1"
 	{
+		xpos 36
+		ypos 30
 		"labelText"		"#GameUI_Resolution"
 	}
 	"Label2"

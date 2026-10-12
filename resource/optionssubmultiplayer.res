@@ -180,6 +180,18 @@
 		"tileHorizontally"		"0"
 		"tileVertically"		"0"
 	}
+	"skinname"
+	{
+		"visible"		"0"
+	}	
+	"scale"
+	{
+		"visible"		"0"
+	}	
+	"fliptriangles"
+	{
+		"visible"		"0"
+	}	
 	"CrosshairColorComboBox"
 	{
 		"ControlName"		"ComboBox"
