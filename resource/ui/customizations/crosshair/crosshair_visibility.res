@@ -1,1 +1,1 @@
-#base "../../../../../../cfg/jofrehud/maxi_crosshair_visibility.txt"
+#base "../../../../../../cfg/jofrehud/jofrehud_crosshair_visibility.txt"

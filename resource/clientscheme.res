@@ -1828,6 +1828,218 @@ Scheme
 				"Dropshadow"								"1"
 			}
 		}
+
+		"Crosshair_Size_10"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_11"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"11"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_12"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_13"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"13"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_14"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"14"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_15"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"15"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_16"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_17"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"17"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_18"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_19"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"19"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_20"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"20"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_21"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"21"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_22"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"22"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_23"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"23"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_24"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_25"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"25"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_26"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"26"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_27"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"27"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_28"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"28"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_29"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"29"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Crosshair_Size_30"
+		{
+			"1"
+			{
+				"name"			"tf2_crosshairs_m0re_v3"
+				"tall"			"30"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+
 			"Symbols10"
 		{
 			"1"

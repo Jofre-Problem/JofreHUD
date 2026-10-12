@@ -4,6 +4,8 @@
 "toggleconsole"	"#Valve_Console_Toggle"
 "toggletpfp"	"Third/First Person Toggle"
 "+hudmenu"			        "Quick HUD Menu"
+"fix_players"			"Invisible Players Fix / Spot Spies"
+"explode"			"Killbind: Explode"
 "blank"						"=============================="
 "blank"						"Æ NEW Binds"
 "blank"						"=============================="

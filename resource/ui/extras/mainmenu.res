@@ -825,7 +825,7 @@
                                 "tall"                             "20"
                                 "proportionaltoparent"                            "1"
                                 "mouseinputenabled"                            "0"
-                            "labeltext"                           "Graphics Model Quality: Low"
+                            "labeltext"                           "Graphics Model Quality: Low2"
                                 "font"                          "HudFontMediumSmallSecondary"
                                 "fgcolor_override"                              "ItemAttribLevel"
          

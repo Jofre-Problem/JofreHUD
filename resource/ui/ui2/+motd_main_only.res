@@ -5118,7 +5118,790 @@ proportionaltoparent 1
 
 
 
+"ServerList2"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "ServerList2"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
 
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                    "pin_to_sibling"            "ServerList"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "5"
+                        "ypos"                      "0"
+                        "wide"                      "f10"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Item Showcase Shortcuts"
+                        "font"                      "ItemFontAttribLarge"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        
+                        
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"
+					  
+						 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f10"
+
+                            "tall"                           "480"
+
+
+                            "proportionaltoparent"                          "1"
+
+              
+				"AAA"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "AAA"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""120"
+					  "expanded_height""200"
+		
+             
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "е Maps Local - ϰ Workshop"
+                        "font"                      "ItemFontAttribLarge"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        
+                        
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "200"
+                        "proportionaltoparent"      "1"
+					 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "6"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+
+                            "tall"                           "200" //important
+
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "ķ SuperTest V-Script ķ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "engine map supertest"                         
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }
+                            "win2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win2"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://gamebanana.com/mods/571547"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }	
+													
+                            "skial" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skial"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "ϰ Itemtest Unusual"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "engine sv_cheats 1; map workshop/2969053782"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }	
+                            "skialweb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialweb"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "20"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/sharedfiles/filedetails/?id=2969053782"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }		
+                            "skial2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skial"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "f0"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "ϰ The Casual Itemtest"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "engine sv_cheats 1; map workshop/3012094461"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }	
+                            "skialweb2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialweb"
+                                "xpos"                             "rs1-5"
+                                "ypos"                             "40"
+                                "wide"                             "20"
+								"actionsignallevel" "12"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+							
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/sharedfiles/filedetails/?id=3012094461"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                            }		   																																				
+						}
+                     }
+
+
+
+				 } // vsh bookmark end
+				 
+
+
+
+
+
+
+
+				"Casual"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "Casual"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""200"
+		
+                                 "pin_to_sibling"            "AAA"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Trade Servers + Misc"
+                        "font"                      "ItemFontAttribLarge"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        
+                        
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "200"
+                        "proportionaltoparent"      "1"		
+
+												 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+                            "tall"                           "200"
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "Liquid.TF"
+								textAlignment center
+								 "font"                      "ItemFontAttribLarge"
+                               "command"   "engine connect trade.liquid.tf"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+
+                           
+                            }	
+                            "discordd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discordd"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "¬"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://discord.com/invite/liquid-tf-1009357455312044102"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }		                         
+                            "discordd2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "discordd2"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ȥ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://liquid.tf/"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "ugc" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "ugc"
+                                "xpos"                             "0"
+                                "ypos"                             "20"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "UGC.TF | Trade #11 | FREE ITEMS! - !givemeall"
+								textAlignment center
+								 "font"                      "ItemFontAttribLarge"
+                               "command"   "engine connect 193.221.192.210:27015"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+
+                           
+                            }	
+                            "skialtrad" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "skialtrad"
+                                "xpos"                             "0"
+                                "ypos"                             "40"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "skial.com | TRADE | US █████"
+								textAlignment center
+								 "font"                      "ItemFontAttribLarge"
+                               "command"   "engine connect 91.216.250.30:27015"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+
+                           
+                            }
+                            "frags" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "frags"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "f0"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "SickFrags.com #1 | Public Strange Farming"
+								textAlignment center
+								 "font"                      "ItemFontAttribLarge"
+                               "command"   "engine connect 89.58.11.228:27015"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+
+                           
+                            }		
+                            "fragsdd" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "fragsdd"
+                                "xpos"                             "rs1"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "Я"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/groups/sickfrags"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "fragsddbbb" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "fragsddbbb"
+                                "xpos"                             "0"
+                                "ypos"                             "60"
+                                "wide"                             "20"
+								
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "Ю"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://bans.sickfrags.com/index.php?p=home"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }																																					
+				 	}
+				 }
+				 
+				 }
+
+				"TemplateWithJust1option"
+                {
+                    "ControlName"               "CMatchHistoryEntryPanel"
+                    "fieldName"                 "TemplateWithJust1option"
+                    "xpos"                      "0"
+                    "ypos"                      "0"
+                    "wide"                      "f0"
+                    "proportionaltoparent"      "1"
+                    "bgcolor_override"          "0 255 0 0"
+
+                    "collapsed_height"          "30"
+                    "ignorescheme"              "1"
+                    "resize_time"               "0.1"
+					  "tall""480"
+					  "expanded_height""480"
+		
+                                 "pin_to_sibling"            "Casual"
+                    "pin_corner_to_sibling"     "PIN_TOPLEFT"
+                   "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+                
+                    "container"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+                    "BottomStats"
+                    {
+                        "visible"               "0"
+                        "tall"                  "0"
+                        "xpos"                  "r0"
+                    }
+
+                    "Toggle"
+                    {
+                        "ControlName"               "ToggleButton"
+                        "fieldName"                 "Toggle"
+                        "xpos"                      "0"
+                        "ypos"                      "0"
+                        "wide"                      "f0"
+                        "tall"                      "30"
+                        "proportionaltoparent"      "1"
+                        "labelText"                 "Item Test"
+                        "font"                      "ItemFontAttribLarge"
+                        "textinsetx"                "5"
+                        "use_proportional_insets"   "1"
+                        "command"                   "toggle_collapse"
+                        
+                        
+							"wide"						"293"
+
+				"textAlignment"				"center"
+					"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"UpgradeSelectedBg"			
+
+                        
+                    }
+                    "Sections"
+                    {
+                        "ControlName"               "EditablePanel"
+                        "fieldName"                 "Sections"
+                        "xpos"                      "0"
+                        "ypos"                      "20"
+                        "wide"                      "f0"
+                        "tall"                      "480"
+                        "proportionaltoparent"      "1"		
+
+												 "0" {
+                            "controlname"
+                            "editablepanel"
+                            "fieldname"                         "0"
+                            "xpos"                          "0"
+                          "ypos"                          "10"
+                            "wide"                           "f0"
+
+                            "tall"                           "480"
+
+
+                            "proportionaltoparent"                          "1"
+
+                      
+                            "win" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "win"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "f0"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+								"defaultfgcolor_override"					"Normal"
+								"defaultbgcolor_override"			"ItemAttribLevel"		
+                                "labeltext"                            "SuperTest V-Script"
+								textAlignment center
+								 "font"                      "ItemFontAttribLarge"
+                               "command"   "engine map supertest"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+                                "image_drawcolor"                               "255 160 48 0"
+                                "image_armedcolor"                             "255 160 48 5"
+                           
+                            }	
+                            "gamebanana" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "gamebanana"
+                                "xpos"                             "rs1"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ϭ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://gamebanana.com/mods/571547"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }		                         
+                            "wkshop" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wkshop"
+                                "xpos"                             "rs1-20"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ϰ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "url https://steamcommunity.com/sharedfiles/filedetails?id=3415171198"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }	
+                            "wkshop2" {
+                                "controlname"                             "CExButton"
+                                "fieldname"                             "wkshop2"
+                                "xpos"                             "0"
+                                "ypos"                             "0"
+                                "wide"                             "20"
+								"actionsignallevel" "9"
+                             "tall"                            "20"
+                                "proportionaltoparent"                            "1"
+								"actionsignallevel" "12"
+                                "labeltext"                            "ɧ"
+								textAlignment center
+								 "font"                      "itemfontnamesmall"
+                               "command"   "engine map workshop/3415171198"                        
+							     
+                                 
+                                
+                                "paintbackground"                             "1"
+								"defaultfgcolor_override"					"Normal"
+				"defaultbgcolor_override"			"188 183 183 255"
+				"depressedfgcolor_override" "254 172 32 255"	
+					"depressedbgcolor_override" "214 70 40 255"	
+                           
+                            }								
+				 	}
+				 }
+				 
+				 }				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 }
+
+
+
+
+
+
+
+
+
+                    }
+                } //marks 2
 
 
 
