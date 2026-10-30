@@ -706,6 +706,7 @@ Button.DepressedTextColor "220 220 220 255"
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}				
+		}	
+		"linuxmarlettfix" "resource/marlett.ttf"				
 	}	
 }	

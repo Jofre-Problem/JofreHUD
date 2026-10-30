@@ -21,7 +21,7 @@
 
     // Allow menu backgrounds to display randomly by unlocking all chapters
     // Default: 1
-    sv_unlockedchapters
+    sv_unlockedchapters 1
 // demos
 ds_log 1
     vgui_cache_res_files 1

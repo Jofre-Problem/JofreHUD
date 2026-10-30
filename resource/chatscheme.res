@@ -557,6 +557,7 @@ Scheme
 	}
 	CustomFontFiles
 	{
+		"linuxmarlettfix" "resource/marlett.ttf"	
 		"hwn"
 		{
 			"font"		"fonts/hwnjofre1.otf"

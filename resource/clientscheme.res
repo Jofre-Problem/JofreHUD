@@ -5597,7 +5597,8 @@ Scheme
 		{
 			"font" "fonts/OpenSans-ExtraboldOutline.ttf"
 			"name" "Open Sans ExtraboldOutline"
-		}						
+		}					
+		"linuxmarlettfix" "resource/marlett.ttf"			
 	}
 
 }
