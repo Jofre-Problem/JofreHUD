@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"4"
-		"labelText"		"#GameUI_SetNewKey"
+		"labelText"		"Ƽ Edit"
 		"textAlignment"		"west"
 		//
 		//
@@ -48,7 +48,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"5"
-		"labelText"		"#GameUI_ClearKey"
+		"labelText"		"ь Clear"
 		"textAlignment"		"west"
 		//
 		//
@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"labelText"		"Reset"
+		"labelText"		"ɡ Reset"
 		"textAlignment"		"west"
 		//
 		//
@@ -90,7 +90,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//		"3"
-		"labelText"		"Adv."
+		"labelText"		"ʾ"
 		"textAlignment"		"west"
 		//
 		//
