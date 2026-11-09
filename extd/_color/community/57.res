@@ -1,0 +1,2 @@
+// GENERATED AT 2024-06-04 16:33:41.739013+00:00
+"Scheme" { "Colors" { "FragCommunity100" "75 118 255 255" "FragCommunity80" "75 118 255 204" "FragCommunity60" "75 118 255 153" "FragCommunity40" "75 118 255 102" "FragCommunity20" "75 118 255 51" "FragCommunity10" "75 118 255 26" "FragCommunity05" "75 118 255 13" "FragCommunity04" "75 118 255 10" "FragCommunity03" "75 118 255 8" "FragCommunity02" "75 118 255 5" "FragCommunity01" "75 118 255 3" } } 

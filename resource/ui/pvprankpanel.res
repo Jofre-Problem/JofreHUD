@@ -161,20 +161,7 @@
 						"fgcolor_override"		"Blank"
 						"bgcolor_override"		"Blank"
 					}
-			"gradient"
-			{
-				ControlName				ImagePanel
-				fieldName				"gradient"
-				zpos					1
-				ypos					"0"
-				xpos -100
-				wide					p2
-				tall					20
-				proportionaltoparent		1
-				image					"gradient_pure_black"
-				scaleImage				1
-				alpha		"255"
-			}
+
 					"ContinuousProgressBar"
 					{
 						"ControlName"		"ContinuousProgressBar"
@@ -182,12 +169,12 @@
 						"xpos"		"0"
 						"ypos"		"0"
 						"wide"		"f0"
-						"tall"		"f0"
+						"tall"		"10"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"		"menu_accent"
-						"bgcolor_override"		"16 16 16 100"
+						"fgcolor_override"		"FragPrimary20"
+						"bgcolor_override"		"16 16 16 255"
 
 						if_mini
 						{

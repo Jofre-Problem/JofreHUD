@@ -1858,7 +1858,7 @@ pin_to_sibling spylabel
 		xpos					cs-0.5
 		ypos					cs-0.5
 		zpos					-10
-		wide					f0
+		wide					p0.5
 		tall					480
 		
 		render_texture			0

@@ -1,0 +1,2 @@
+// GENERATED AT 2024-06-04 16:33:41.535062+00:00
+"Scheme" { "Colors" { "FragAccent100" "186 79 255 255" "FragAccent80" "186 79 255 204" "FragAccent60" "186 79 255 153" "FragAccent40" "186 79 255 102" "FragAccent20" "186 79 255 51" "FragAccent10" "186 79 255 26" "FragAccent05" "186 79 255 13" "FragAccent04" "186 79 255 10" "FragAccent03" "186 79 255 8" "FragAccent02" "186 79 255 5" "FragAccent01" "186 79 255 3" "ItemIsotope" "186 79 255 255" "ItemBundleItem" "186 79 255 255" "ItemLimitedUse" "186 79 255 255" "ItemSetName" "186 79 255 255" } } 

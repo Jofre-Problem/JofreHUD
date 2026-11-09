@@ -846,7 +846,7 @@ event HudMatchStatus_ShowMatchWinDoors_NoOpen
 
 event MainMenuCMD
 {
-	FireCommand 0.0 "engine echo ====================Testing===================="
+	FireCommand 0.0 "engine echo =MainMenuCMD="
 
 //	Animate MMDashboard ypos -15 linear 0.0 0.0
 //	Animate MMDashboard ypos 0 linear 0.5 0.1

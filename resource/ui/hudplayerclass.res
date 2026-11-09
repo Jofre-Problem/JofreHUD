@@ -53,7 +53,8 @@
 		"zpos"		"2"
 		"wide"		"150"
 		"tall"		"200"
-
+		"visible"		"0"
+		"enabled"		"1"
 		"render_texture"	"0"
 		"fov"		"12"
 		"allow_rot"		"1"

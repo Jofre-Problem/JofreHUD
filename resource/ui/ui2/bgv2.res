@@ -89,7 +89,7 @@
         "visible"                   "1"
         "enabled"                   "1"
 
-        "BGParticle1"
+       "BGParticle1"
         {
             "ControlName"               "ImagePanel"
             "fieldName"                 "BGParticle1"
@@ -102,7 +102,7 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
-            "drawcolor"                 "154 50 215 60"
+            "drawcolor"                 "FragPrimary60"
         }
         "BGParticle2"
         {
@@ -117,7 +117,7 @@
             "scaleimage"                "1"
             "visible"                   "1"
             "enabled"                   "1"
-            "drawcolor"                 "154 50 215 60"
+            "drawcolor"                 "FragSecondary60"
         }
         "BGImage1"
         {
@@ -130,7 +130,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_0"
             "scaleimage"                "1"
-            "drawcolor"                 "154 50 215 100"
+            "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -145,7 +145,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_1"
             "scaleimage"                "1"
-            "drawcolor"                 "154 50 215 100"
+            "drawcolor"                 "FragPrimary100"
             "visible"                   "1"
             "enabled"                   "1"
         }
@@ -160,7 +160,7 @@
             "proportionaltoparent"      "1"
             "image"                     "replay/thumbnails/background/background_split_0"
             "scaleimage"                "1"
-            "drawcolor"                 "154 50 215 20"
+            "drawcolor"                 "FragSecondary20"
             "visible"                   "1"
             "enabled"                   "1"
         }

@@ -10,7 +10,7 @@
 		"ypos"			"325"
 		"ypos_minmode" "rs1+55"
 		"zpos"			"0"
-		"wide"			"400"
+		"wide"			"p0.8"
 		"tall" "100"
 		
 		

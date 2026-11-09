@@ -98,6 +98,7 @@
 
 				"Background"
 				{
+                    "alpha" "0"
 					"wide"		"0"
 				}
 

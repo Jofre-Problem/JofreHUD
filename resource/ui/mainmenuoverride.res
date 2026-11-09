@@ -1,5 +1,5 @@
 	#base "../../../../cfg/jofrehud/hud_friendslist.txt"
-	#base "extras/mainmenu.res"
+//	#base "extras/mainmenu.res"
 	#base "customizations/#customization_menu/hud_customization.res"
 //	#base "ui3/vguipreload.res"
 	#base "ui2/+motd_main_only.res"
@@ -13,7 +13,7 @@
     #base "../gamelogo.res"
     #base "matchmakingtooltip.res"
 
-	#base "ui2/leadbg.res"
+//	#base "ui2/leadbg.res"
 "j"
 {	
 "Safemode"
@@ -23,6 +23,184 @@
     zpos 1000
     proportionaltoparent 0
 }
+    "BottomPanel"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BottomPanel"
+        "xpos"                      "0"
+        "ypos"                      "rs1"
+        "zpos"                      "10"
+        "wide"                      "f0"
+        "tall"                      "18"
+        "bgcolor_override"          "Blank"
+
+        "Darkener"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Darkener"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "bgcolor_override"          "FragPanelTransparentDark60"
+        }
+    }
+    "BottomPanel2"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BottomPanel2"
+        "xpos"                      "0"
+        "ypos"                      "0"
+        "zpos"                      "10"
+        "wide"                      "f0"
+        "tall"                      "18"
+        "bgcolor_override"          "Blank"
+
+        "Darkener"
+        {
+            "ControlName"               "EditablePanel"
+            "fieldName"                 "Darkener"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "bgcolor_override"          "FragPanelTransparentDark60"
+        }
+    }	
+    "BackgroundEffect"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "BackgroundEffect"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "cs-0.5"
+        "zpos"                      "0"
+        "wide"                      "f0"
+        "tall"                      "f0"
+        "proportionaltoparent"      "0"
+        "visible"                   "1"
+        "enabled"                   "1"
+
+        "BGParticle1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGParticle1"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/particle_overlay_0"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "drawcolor"                 "FragPrimary60"
+        }
+        "BGParticle2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGParticle2"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/particle_overlay_1"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "drawcolor"                 "FragSecondary60"
+        }
+        "BGImage1"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGImage1"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/background_0"
+            "scaleimage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGImage2"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGImage2"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/background_1"
+            "scaleimage"                "1"
+            "drawcolor"                 "FragPrimary100"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGSplit0"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGSplit0"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/background_split_0"
+            "scaleimage"                "1"
+            "drawcolor"                 "FragSecondary20"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGOverlay0"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGOverlay0"
+            "xpos"                      "cs-0.5"
+            "ypos"                      "cs-0.5"
+            "wide"                      "f0"
+            "tall"                      "o1"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/background/background_overlay_0"
+            "scaleimage"                "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+        }
+        "BGNoise0"
+        {
+            "ControlName"               "ImagePanel"
+            "fieldName"                 "BGNoise0"
+            "xpos"                      "0"
+            "ypos"                      "0"
+            "wide"                      "f0"
+            "tall"                      "f0"
+            "proportionaltoparent"      "1"
+            "image"                     "replay/thumbnails/noise"
+            "tileimage"                 "1"
+            "visible"                   "1"
+            "enabled"                   "1"
+            "alpha"                     "0x40"
+        }
+    }
+    "AtMenuBackground"
+    {
+        "ControlName"               "EditablePanel"
+        "fieldName"                 "AtMenuBackground"
+        "xpos"                      "cs-0.5"
+        "ypos"                      "cs-0.5"
+        "zpos"                      "-100"
+        "wide"                      "f0"
+        "tall"                      "o1"
+        "proportionaltoparent"      "0"
+        "bgcolor_override"          "0 0 0 255"
+        "visible"                   "1"
+        "enabled"                   "1"
+    }
 	"1_btn"
 	{
 			"ControlName"							"CExButton"
@@ -328,7 +506,7 @@
 		xPos					cs-0.5
 		yPos					35
 		zPos					3000
-		"wide"			"p0.09"
+		"wide"			"90"
 		"tall"			"80"
 		paintBackground			0
 		paintBorder				0
@@ -704,7 +882,12 @@
 	}
     "RankModelPanel"
     {
-            "xpos"	"999"
+        "xpos"          "9999"
+        "ypos"          "9999"
+        "wide"          "0"
+        "tall"          "0"
+        "visible"       "0"
+        "enabled"       "0"
     }
 	"CycleRankTypeButton"
 	{

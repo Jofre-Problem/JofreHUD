@@ -1,5 +1,7 @@
+#base "../extd/resource/clientscheme.res"
 #base "clientscheme_fonts.res"
 #base "combinepanelscheme.res"
+#base "../frag/resource/clientscheme.res"
 
 Scheme
 {
@@ -8,7 +10,8 @@ Scheme
 	//	"Ergoe_72"	"materials/vgui/replay/thumbnails/Ergoe_72.vbf"
 	}		
 	Colors
-	{			//----------------------------------------------------------------------------------
+	{	
+		//----------------------------------------------------------------------------------
 		// MENUS
 		//----------------------------------------------------------------------------------
 		"Menu_Accent"										"255 0 127 255"

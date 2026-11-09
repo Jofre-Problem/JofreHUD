@@ -1353,8 +1353,8 @@
 		xpos							0
 		ypos							0
 		zpos							-1
-		wide							p0.986		// without side bars
-		tall							f0
+		wide							p0.5		// without side bars
+		tall							480
 		proportionaltoparent		1
 		
 		"render_texture"	"0"
